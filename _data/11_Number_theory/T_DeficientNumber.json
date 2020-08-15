@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "defective number"
+  ],
+  "definition": "A [*deficient number*]{} is an integer $n$ such that its proper divisors\nadd up to less than itself, or all its divisors add up to less than\ntwice itself. For example, 26. Its proper divisors are 1, 2 and 13,\nwhich add up to 16, which is 10 short of 26. Or if we also add 26, the\ndivisors add up to 42, which is 10 short of 52.\n\nAll prime numbers are deficient, since 1 is their only proper divisor.\nWith $\\sigma(n)$ being the sum of divisors function, we can write that\nfor a prime number $p$ it is always the case that $\\sigma(p) = p + 1$.\nThanks to Euclid\u2019s proof of the infinitude of primes, it is also proven\nthat there are infinitely many deficient numbers.\n\nAn integer power of two ($2^x$ for $x > 0$) is always deficient, since\nits proper divisors add up to $2^x - 1$.\n\nGiven a pair of amicable numbers, the greater of the two is deficient\nand its proper divisors add up to the smaller of the two, while the\nlesser of the two is an abundant number with its proper divisors adding\nup to the larger of the two.",
+  "language": "INFORMAL",
+  "phrase": "Deficient Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DeficientNumber"
+    }
+  ],
+  "indexable": true
+}

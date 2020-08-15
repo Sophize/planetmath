@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "geometric distribution"
+  ],
+  "definition": "A **geometric random variable** with parameter $p\\in(0,1]$ is one whose\ndensity distribution function is given by\n$$f_X(x) = p(1-p)^x,\\qquad x=0,1,2,\\dotsc$$\n\nThis is denoted by $X\\sim Geo(p)$.\n\nNotes:\n\n1.  A standard application of geometric random variables is where $X$\n    represents the number of failed Bernoulli trials before the first\n    success.\n\n2.  The expected value of a geometric random variable is given by\n    $E[X] = \\frac{1-p}{p}$, and the variance by\n    $Var[X] = \\frac{1-p}{p^2}$\n\n3.  The moment generating function of a geometric random variable is\n    given by $M_X(t) = \\frac{p}{1 - (1-p)e^t}$.",
+  "language": "INFORMAL",
+  "phrase": "Geometric Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeometricRandomVariable"
+    }
+  ],
+  "indexable": true
+}

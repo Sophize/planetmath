@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Define the ball at $z_0$ of radius $r$ as\n$B(z_0,r) = \\{ z \\in G : \\lvert z-z_0 \\rvert < r \\}$ and\n$D(z_0,r) = \\{ z \\in G : \\lvert z-z_0 \\rvert \\leq r \\}$ is the closed\nball at $z_0$ of radius $r$.\n\nLet $G \\subset {\\mathbb{C}}$ be a region and suppose the sequence of\nholomorphic functions $\\{ f_n \\}$ converges uniformly on compact subsets\nof $G$ to a holomorphic function $f$. If $f$ is not identically zero,\n$D(z_0,r) \\subset G$ and $f(z) \\not= 0$ for $z$ such that\n$\\lvert z-z_0 \\rvert = r$, then there exists an $N$ such that for all\n$n \\geq N$ $f$ and $f_n$ have the same number of zeros in $B(z_0,r)$.\n\nWhat this theorem says is that if you have a sequence of holomorphic\nfunctions which converge uniformly on compact subsets (such a sequence\nalways converges to a holomorphic function but that\u2019s another theorem\naltogether), the function is not identically zero and furthermore the\nfunction is not zero on the boundary of some ball, then eventually the\nfunctions of the sequence have the same number of zeros inside this ball\nas does the function.\n\nDo note the requirement for $f$ not being identically zero. For example\nthe sequence $f_n(z) := \\frac{1}{n}$ converges uniformly on compact\nsubsets to $f(z) := 0$, but $f_n$ have no zeros anywhere, while $f$ is\nidentically zero.\n\nAlso in general this result holds for bounded but it is most useful to\nfor balls.\n\nAn immediate consequence of this theorem is this useful corollary.\n\nIf $G$ is a region and a sequence of holomorphic functions $\\{ f_n \\}$\nconverges uniformly on compact subsets of $G$ to a holomorphic function\n$f$, and furthermore if $f_n$ never vanishes (is not zero for any point\nin $G$), then $f$ is either identically zero or also never vanishes.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1978.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HurwitzsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hurwitz's theorem"
+  ]
+}

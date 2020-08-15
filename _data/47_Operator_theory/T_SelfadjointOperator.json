@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A densely defined linear operator\n$A\\colon\\mathscr{D}(A)\\subset \\mathscr{H}\\to\\mathscr{H}$ on a Hilbert\nspace $\\mathscr{H}$ is a *Hermitian* or *symmetric* operator if\n$(Ax,y) = (x,Ay)$ for all $x,y\\in \\mathscr{D}(A)$. This means that the\nadjoint $A^*$ of $A$ is defined at least on $\\mathscr{D}(A)$ and that\nits restriction to that set coincides with $A$. This fact is often\ndenoted by $A\\subset A^*$.\n\nThe operator $A$ is *self-adjoint* if it coincides with its adjoint,\ni.e. if $A=A^*$. If $A$ is closable and its closure coincides with its\nadjoint (i.e. $\\overline{A}=A^*$), then $A$ is said to be *essentially\nself-adjoint*.",
+  "language": "INFORMAL",
+  "phrase": "Self-Adjoint Operator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SelfadjointOperator"
+    }
+  ],
+  "indexable": true
+}

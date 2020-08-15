@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Jacobi\u2019s Theorem**]{} Any skew-symmetric matrix of odd order has\ndeterminant equal to $0$.\n\n[**Proof.**]{} Suppose $A$ is an $n\\times n$ square matrix. For the\ndeterminant, we then have $\\det A = \\det A^T$, and\n$\\det (-A) = (-1)^n \\det A$. Thus, since $n$ is odd, and $A^T=-A$, we\nhave $\\det A = -\\det A$, and the theorem follows. $\\Box$\n\n### Remarks\n\n1.  According to [@eves], this theorem was given by Carl Gustav Jacob\n    Jacobi (1804-1851) [@jacobi] in 1827.\n\n2.  The $2\\times 2$ matrix $\\left( \\begin{array}{cc}\n     0 & 1 \\\\\n     -1 & 0\n     \\end{array} \\right)$ shows that Jacobi\u2019s theorem does not hold for\n    $2\\times 2$ matrices. The determinant of the $2n\\times 2n$ block\n    matrix with these $2\\times 2$ matrices on the diagonal equals\n    $(-1)^n$. Thus Jacobi\u2019s theorem does not hold for matrices of even\n    order.\n\n3.  For $n=3$, any antisymmetric matrix $A$ can be written as $$A =\n    \\begin{pmatrix}\n    0 & -v_3 & v_2 \\\\\n    v_3 & 0 & -v_1 \\\\\n    -v_2 & v_1 & 0\n    \\end{pmatrix}$$ for some real $v_1,v_2,v_3$, which can be written as\n    a vector $v=(v_1,v_2,v_3)$. Then $A$ is the matrix representing the\n    mapping $u\\mapsto v\\times u$, that is, the cross product with\n    respect to $v$. Since $Av=v\\times v=0$, we have $\\det A=0$.\n\n[9]{} H. Eves, *Elementary Matrix Theory*, Dover publications, 1980. The\nMacTutor History of Mathematics archive,",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JacobisTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Jacobi's theorem"
+  ]
+}

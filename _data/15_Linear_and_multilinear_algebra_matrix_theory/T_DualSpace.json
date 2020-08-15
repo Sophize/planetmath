@@ -1,0 +1,20 @@
+{
+  "alternatePhrases": [
+    "algebraic dual",
+    "continuous dual",
+    "dual basis",
+    "reflexive",
+    "natural embedding",
+    "topological dual"
+  ],
+  "definition": "**Dual of a vector space; dual bases**\n\nLet $V$ be a vector space over a field $k$. The *dual* of $V$, denoted\nby ${V^{\\ast}}$, is the vector space of linear forms on $V$, i.e. linear\nmappings $V\\to k$. The operations in ${V^{\\ast}}$ are defined pointwise:\n$$(\\varphi + \\psi )(v) = \\varphi (v) + \\psi (v)$$\n$$(\\lambda\\varphi )(v) = \\lambda\\varphi (v)$$ for $\\lambda\\in K$,\n$v\\in V$ and $\\varphi,\\psi\\in{V^{\\ast}}$.\n\n$V$ is isomorphic to ${V^{\\ast}}$ if and only if the dimension of $V$ is\nfinite. If not, then ${V^{\\ast}}$ has a larger (infinite) dimension than\n$V$; in other words, the cardinal of any basis of ${V^{\\ast}}$ is\nstrictly greater than the cardinal of any basis of $V$.\n\nEven when $V$ is finite-dimensional, there is no canonical or natural\nisomorphism $V\\to{V^{\\ast}}$. But on the other hand, a basis\n${\\mathcal{B}}$ of $V$ does define a basis ${\\mathcal{B}^\\ast}$ of\n${V^{\\ast}}$, and moreover a bijection\n${\\mathcal{B}}\\to{\\mathcal{B}^\\ast}$. For suppose\n${\\mathcal{B}}=\\{b_1,\\dots,b_n\\}$. For each $i$ from $1$ to $n$, define\na mapping $$\\beta_i:V\\to k$$ by $$\\beta_i(\\sum_k x_k b_k)=x_i\\;.$$ It is\neasy to see that the $\\beta_i$ are nonzero elements of ${V^{\\ast}}$ and\nare independent. Thus $\\{\\beta_1,\\dots,\\beta_n\\}$ is a basis of\n${V^{\\ast}}$, called the dual basis of ${\\mathcal{B}}$.\n\nThe dual of ${V^{\\ast}}$ is called the *second dual* or *bidual* of $V$.\nThere *is* a very simple canonical injection $V\\to{V^{\\ast\\ast}}$, and\nit is an isomorphism if the dimension of $V$ is finite. To see it, let\n$x$ be any element of $V$ and define a mapping $x':{V^{\\ast}}\\to k$\nsimply by $$x'(\\phi)=\\phi(x)\\;.$$ $x'$ is linear by definition, and it\nis readily verified that the mapping $x\\mapsto x'$ from $V$ to\n${V^{\\ast\\ast}}$ is linear and injective.\n\n**Dual of a topological vector space**\n\nIf $V$ is a topological vector space, the *continuous dual* $V^{\\prime}$\nof $V$ is the subspace of ${V^{\\ast}}$ consisting of the *continuous*\nlinear forms.\n\nA *normed* vector space $V$ is said to be *reflexive* if the natural\nembedding $V\\to V^{\\prime\\prime}$ is an isomorphism. For example, any\nfinite dimensional space is reflexive, and any Hilbert space is\nreflexive by the Riesz representation theorem.\n\n**Remarks**\n\nLinear forms are also known as linear functionals.\n\nAnother way in which a linear mapping $V\\to{V^{\\ast}}$ can arise is via\na bilinear form $$V \\times V \\to k\\;.$$ The notions of duality extend,\nin part, from vector spaces to modules, especially free modules over\ncommutative rings. A related notion is the duality in projective spaces.",
+  "language": "INFORMAL",
+  "phrase": "Dual Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DualSpace"
+    }
+  ],
+  "indexable": true
+}

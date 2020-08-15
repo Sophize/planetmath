@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "diagonally dominant",
+    "strictly diagonally dominant"
+  ],
+  "definition": "Let $A$ be a square matrix of order $n$ with entries $a_{ij}$ which are\nreal or complex. Then $A$ is said to be *diagonally dominant* if\n$$|a_{ii}| \\geq \\sum^n_{j=1, j\\neq i} |a_{ij}|$$ for $i$ from $1$ to\n$n$.\\\nIn addition $A$ is said to be *strictly diagonally dominant* if\n$$|a_{ii}| > \\sum^n_{j=1, j\\neq i}|a_{ij}|$$ for $i$ from $1$ to $n$.\\",
+  "language": "INFORMAL",
+  "phrase": "Diagonally Dominant Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiagonallyDominantMatrix"
+    }
+  ],
+  "indexable": true
+}

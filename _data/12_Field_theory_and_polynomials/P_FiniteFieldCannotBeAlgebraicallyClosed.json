@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A finite field cannot be algebraically closed.\n\nThe proof proceeds by the method of contradiction. Assume that a field\n$F$ is both finite and algebraically closed. Consider the polynomial\n$p(x) = x^2 - x$ as a function from $F$ to $F$. There are two elements\nwhich any field (in particular, $F$) must have \u2014 the additive identity\n$0$ and the multiplicative identity $1$. The polynomial $p$ maps both of\nthese elements to $0$. Since $F$ is finite and the function $p \\colon F\n\\to F$ is not one-to-one, the function cannot map onto $F$ either, so\nthere must exist an element $a$ of $F$ such that $x^2 - x \\not= a$ for\nall $x \\in F$. In other words, the polynomial $x^2 - x - a$ has no root\nin $F$, so $F$ could not be algebraically closed.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FiniteFieldCannotBeAlgebraicallyClosed"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "finite field cannot be algebraically closed"
+  ]
+}

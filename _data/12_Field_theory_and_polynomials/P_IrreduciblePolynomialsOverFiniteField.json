@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Over a finite field $F$, there exist irreducible\npolynomials of any degree.\\\n[*Proof.*]{} Let $n$ be a positive integer, $p$ be the characteristic of\n$F$, $\\mathbb{F}_p$ be the prime subfield, and $p^r$ be the of the field\n$F$. Since $p^r\\!-\\!1$ is a divisor of $p^{rn}\\!-\\!1$, the zeros of the\npolynomial $X^{p^r}\\!-\\!X$ form in $G := \\mathbb{F}_{p^{rn}}$ a subfield\nisomorphic to $F$. Thus, one can regard $F$ as a subfield of $G$.\nBecause\n$$[G\\!:\\!F] = \\frac{[G\\!:\\!\\mathbb{F}_p]}{[F\\!:\\!\\mathbb{F}_p]} = \\frac{rn}{r} = n,$$\nthe minimal polynomial of a primitive element of the field extension\n$G/F$ is an irreducible polynomial of degree $n$ in the ring $F[X].$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IrreduciblePolynomialsOverFiniteField"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "irreducible polynomials over finite field"
+  ]
+}

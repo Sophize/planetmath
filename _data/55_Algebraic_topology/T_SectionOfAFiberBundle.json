@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "section",
+    "cross section",
+    "cross-section"
+  ],
+  "definition": "Let ${p:{E\\rightarrow B}}$ be a fiber bundle, denoted by $\\xi.$\n\nA [*section*]{} of $\\xi$ is a continuous map ${s:{B\\rightarrow E}}$ such\nthat the composition $p{\\circ}s$ equals the identity. That is, for every\n$b\\in B,$ $s(b)$ is an element of the fiber over $b.$ More generally,\ngiven a topological subspace $A$ of $B,$ a section of $\\xi$ over $A$ is\na section of the restricted bundle\n${{{p}|_{A}}:{{p^{-1}}(A)\\rightarrow A}}.$\n\nThe set of sections of $\\xi$ over $A$ is often denoted by\n$\\Gamma(A;\\xi),$ or by $\\Gamma(\\xi)$ for sections defined on all of $B.$\nElements of $\\Gamma(\\xi)$ are sometimes called [*global sections,*]{} in\ncontrast with the [*local sections*]{} $\\Gamma(U;\\xi)$ defined on an\nopen set $U.$\n\nIf $E$ and $B$ have, for example, smooth structures, one can talk about\nsmooth sections of the bundle. According to the context, the notation\n$\\Gamma(\\xi)$ often denotes smooth sections, or some other set of\nsuitably restricted sections.\n\nIf $\\xi$ is a trivial fiber bundle with fiber $F,$ so that\n$E=F{\\times}B$ and $p$ is projection to $B,$ then sections of $\\xi$ are\nin a natural bijective correspondence with continuous functions\n${B\\rightarrow F}.$\n\nIf $B$ is a smooth manifold and $E=TB$ its tangent bundle, a (smooth)\nsection of this bundle is precisely a (smooth) tangent vector field.\n\nIn fact, any tensor field on a smooth manifold $M$ is a section of an\nappropriate vector bundle. For instance, a contravariant $k$-tensor\nfield is a section of the bundle $TM^{\\otimes k}$ obtained by repeated\ntensor product from the tangent bundle, and similarly for covariant and\nmixed tensor fields.\n\nIf $B$ is a smooth manifold which is smoothly embedded in a Riemannian\nmanifold $M,$ we can let the fiber over $b\\in B$ be the orthogonal\ncomplement in $T_b M$ of the tangent space $T_b B$ of $B$ at $b$. These\nchoices of fiber turn out to make up a vector bundle $\\nu(B)$ over $B,$\ncalled the [ ** ]{} of $B$. A section of $\\nu(B)$ is a normal vector\nfield on $B.$\n\nIf $\\xi$ is a vector bundle, the [*zero section*]{} is defined simply by\n$s(b)=0,$ the zero vector on the fiber.\n\nIt is interesting to ask if a vector bundle admits a section which is\nnowhere zero. The answer is yes, for example, in the case of a trivial\nvector bundle, but in general it depends on the topology of the spaces\ninvolved. A well-known case of this question is the [*hairy ball\ntheorem,*]{} which says that there are no nonvanishing tangent vector\nfields on the sphere.\n\nIf $\\xi$ is a $G$-, the existence of [*any*]{} section is equivalent to\nthe bundle being trivial.\n\nThe correspondence taking an open set $U$ in $B$ to $\\Gamma(U;\\xi)$ is\nan example of a sheaf on $B.$",
+  "language": "INFORMAL",
+  "phrase": "Section Of A Fiber Bundle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SectionOfAFiberBundle"
+    }
+  ],
+  "indexable": true
+}

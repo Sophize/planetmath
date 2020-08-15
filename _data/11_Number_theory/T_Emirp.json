@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An [*emirp*]{} is a prime number that in a given base $b$ reads like a\ndifferent prime number backwards. The plural of emirp is [*emirps*]{},\nbut [*semirp*]{} is occasionally used by amateurs.\n\nFor example, in base 10, the number 37 read backwards is 73, both of\nthese are prime. The backwards number must be different. A006567 of\nSloane\u2019s OEIS lists the first fifty base 10 emirps.\n\nA palindromic prime is not an emirp, since it reads the same number both\nways. Thus, in binary, Mersenne primes can not be emirps.",
+  "language": "INFORMAL",
+  "phrase": "Emirp",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Emirp"
+    }
+  ],
+  "indexable": true
+}

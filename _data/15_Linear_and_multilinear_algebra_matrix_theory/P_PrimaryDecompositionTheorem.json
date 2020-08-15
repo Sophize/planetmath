@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "This is an important theorem in linear algebra. It states the following:\nLet $k$ be a field, $V$ a vector space over $k$, $\\dim V =n$, and\n$T\\colon V\\to V$ a linear operator, such that its minimal polynomial (or\nits annihilator polynomial) is $m_{T}$, which decomposes in $k[X]$ into\nirreducible factors as\n$m_{T}=p_{1}^{\\alpha_{1}} \\ldots p_{r}^{\\alpha_{r}}$. Then,\n\n1.  $V=\\bigoplus_{i=1}^{r}\\ker (p_{i}^{\\alpha_{i}}(T))$\n\n2.  $\\ker (p_{i}^{\\alpha_{i}}(T))$ is $T$-invariant for every $i$\n\n3.  If $T_{i}$ is the restriction of $T$ to\n    $\\ker (p_{i}^{\\alpha_{i}}(T))$, then $m_{T_{i}}=p_{i}^{\\alpha_{i}}$\n\nThis is a consequence of a more general theorem: Let $V$, $T$ be as\nabove, and $f \\in k[X]$ such that $f(T)=0$, with $f=f_{1} \\ldots f_{r}$\nand $(f_{i},f_{j})=1$ if $i \\neq j$, then\n\n1.  $V=\\bigoplus _{i=1}^{r}\\ker(f_{i}(T))$\n\n2.  $\\ker(f_{i}(T))$ is $T$-invariant for every $i$\n\nTo illustrate its importance, the primary decomposition theorem,\ntogether with the cyclic decomposition theorem, imply the existence and\nuniqueness of the Jordan canonical form.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimaryDecompositionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "primary decomposition theorem"
+  ]
+}

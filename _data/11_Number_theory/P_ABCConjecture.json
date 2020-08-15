@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *ABC conjecture* states that given any $\\epsilon > 0$, there is a\nconstant $\\kappa ( \\epsilon )$ such that\n$$\\max(|A|,|B|,|C|) \\leq \\kappa ( \\epsilon ) ( {\\operatorname{rad}}(ABC))^{1 + \\epsilon}$$\nfor all mutually coprime integers $A$, $B$, $C$ with $A+B=C$, where\n${\\operatorname{rad}}$ is the radical of an integer. This conjecture was\nformulated by Masser and Oesterl\u00e9 in 1980.\n\nThe ABC conjecture is considered one of the most important unsolved\nproblems in number , as many results would follow directly from this\nconjecture. For example, Fermat\u2019s Last Theorem could be proved (for\nsufficiently large exponents) with about one page worth of proof.\n\nFurther Reading {#further-reading .unnumbered}\n===============\n\n\u2014 an article on the ABC conjecture by Ivars Peterson.\n\n\u2014 an article on the ABC conjecture by Noam Elkies. (PDF file)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ABCConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "ABC conjecture"
+  ]
+}

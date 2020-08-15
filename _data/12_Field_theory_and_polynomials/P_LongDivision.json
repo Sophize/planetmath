@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry we treat two cases of long division.\n\nIntegers\n========\n\nFor every pair of integers $a, b\\neq 0$ there exist unique integers $q$\nand $r$ such that:\n\n1.  $a=b\\cdot q + r,$\n\n2.  $0\\leq r < |b|$.\n\nLet $a=10$ and $b=-3$. Then $q=-3$ and $r=1$ correspond to the long\ndivision: $$10=(-3)\\cdot(-3)+1.$$\n\nThe number $r$ as in the theorem is called the remainder of the division\nof $a$ by $b$. The numbers $a,\\ b$ and $q$ are called the dividend,\ndivisor and quotient respectively.\n\nPolynomials\n===========\n\nLet $R$ be a commutative ring with non-zero unity and let $a(x)$ and\n$b(x)$ be two polynomials in $R[x]$, where the leading coefficient of\n$b(x)$ is a unit of $R$. Then there exist unique polynomials $q(x)$ and\n$r(x)$ in $R[x]$ such that:\n\n1.  $a(x)=b(x)\\cdot q(x) + r(x),$\n\n2.  $0\\leq \\deg(r(x)) < \\deg b(x)$ or $r(x)=0$.\n\nLet $R={\\mathbb{Z}}$ and let $a(x)=x^3+3$, $b(x)=x^2+1$. Then $q(x)=x$\nand $r(x)=-x+3$, so that: $$x^3+3=x(x^2+1)-x+3.$$\n\nThe theorem is not true in general if the leading coefficient of $b(x)$\nis not a unit. For example, if $a(x)=x^3+3$ and $b(x)=3x^2+1$ then there\nare no $q(x)$ and $r(x)$ [**with coefficients in**]{} ${\\mathbb{Z}}$\nwith the required properties.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LongDivision"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "long division",
+    "division algorithm"
+  ]
+}

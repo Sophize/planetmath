@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "T-conductor",
+    "conductor",
+    "annihilator",
+    "annihilator polynomial",
+    "conductor polynomial"
+  ],
+  "definition": "Let $k$ be a field, $V$ a vector space, $T:V\\to V$ a linear\ntransformation, and $W$ a $T$-invariant subspace of $V$. Let $x \\in V$.\nThe *$T$-conductor* of $x$ *in* $W$ is the set $S_T(x, W)$ containing\nall polynomials $g \\in k[X]$ such that $g(T)x \\in W$. It happens to be\nthat this set is an ideal of the polynomial ring. We also use the term\n$T$-conductor of $x$ in $W$ to refer to the generator of such ideal.\n\nIn the special case $W=\\{0\\}$, the $T$-conductor is called\n*$T$-annihilator* of $x$. Another way to define the $T$-conductor of $x$\nin $W$ is by saying that it is a monic polynomial $p$ of lowest degree\nsuch that $p(T)x \\in W$. Of course this polynomial happens to be unique.\nSo the $T$-annihilator of $x$ is the monic polynomial $m_x$ of lowest\ndegree such that $m_x(T)x = 0$.",
+  "language": "INFORMAL",
+  "phrase": "Conductor Of A Vector",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConductorOfAVector"
+    }
+  ],
+  "indexable": true
+}

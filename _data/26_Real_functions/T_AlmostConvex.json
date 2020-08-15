@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A real function, $f\\colon \\mathbb{R} \\to \\mathbb{R} $, is said to be *[\nalmost convex]{} if\n$$f(z)\\leq \\max\\{f(x),\\,f(y)\\}, \\,\\,\\, \\forall x,y,z   \\,\\,\\, x\\leq z\\leq y$$*\n\nIt is easy to see that a convex function is an almost convex function.",
+  "language": "INFORMAL",
+  "phrase": "Almost Convex",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlmostConvex"
+    }
+  ],
+  "indexable": true
+}

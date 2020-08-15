@@ -1,0 +1,17 @@
+{
+  "argumentText": "The typical derivative formula\n\n$$\\frac{df}{dx}=\\lim_{h \\to 0}\\frac{f(x+h)-f(x)}{h}$$\n\ncombined with the binomial theorem yield an alternative way to prove\nthat\n\n$$\\frac{d}{dx}(x^n)=nx^{n-1}$$\n\nfor any positive integer $n$.\n\n$\\begin{array}{ll}\n\\displaystyle \\frac{d}{dx}(x^n) & \\displaystyle =\\lim_{h \\to 0}\\frac{(x+h)^n-x^n}{h} \\\\\n& \\\\\n& \\displaystyle =\\lim_{h \\to 0}\\frac{\\displaystyle \\left( \\sum_{j=0}^n {n \\choose j} x^j h^{n-j} \\right) - x^n}{h}\\\\\n& \\\\\n& \\displaystyle =\\lim_{h \\to 0}\\frac{\\displaystyle x^n+nx^{n-1}h+h^2 \\left( \\sum_{j=0}^{n-2} {n \\choose j} x^j h^{n-2-j} \\right) - x^n}{h} \\\\\n& \\\\\n& \\displaystyle =\\lim_{h \\to 0}\\frac{\\displaystyle nx^{n-1}h+h^2 \\sum_{j=0}^{n-2} {n \\choose j} x^j h^{n-2-j}}{h} \\\\\n& \\\\\n& \\displaystyle =\\lim_{h \\to 0} \\left( nx^{n-1}+h \\sum_{j=0}^{n-2} {n \\choose j} x^j h^{n-2-j} \\right) \\\\\n& \\\\\n& \\displaystyle = nx^{n-1} \\end{array}$",
+  "conclusion": "#P_DerivativeOfXn",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternativeProofOfDerivativeOfXn"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "alternative proof of derivative of $x^n$"
+  ]
+}

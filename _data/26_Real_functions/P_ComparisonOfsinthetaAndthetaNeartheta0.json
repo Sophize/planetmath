@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\displaystyle 0< \\theta < \\frac{\\pi}{2}$, where $\\theta$ is an\nangle measured in radians. Then $\\sin \\theta<\\theta$.\n\nLet $O=(0,0)$, $P=(1,0)$, and $Q=(\\cos \\theta, \\sin \\theta)$. Note that\nthe circle $x^2+y^2=1$ passes through $P$ and $Q$ and that the shortest\narc along this circle from $P$ to $Q$ has length $\\theta$. Note also\nthat the line segments $\\overline{OP}$ and $\\overline{OQ}$ are radii of\nthe circle $x^2+y^2=1$ and therefore must each have length 1.\n\n(-1,1)(-2,2) (0,0)(2,0)(1.2,1.6) (0,-0.5)[$O$]{} (2,-0.5)[$P$]{}\n(1.2,1.6)[$Q$]{} (1.2,1.6)(0,0)(2,0) (0,0)[0.3]{}[0]{}[55.5]{}\n(0.3,0.2)[$\\theta$]{} (0,0)[2]{}[0]{}[55.5]{}\n\nDraw the line segment $\\overline{PQ}$. Since this does not correspond to\nthe arc, its length $\\left| \\overline{PQ} \\right|<\\theta$.\n\n(-1,1)(-2,2) (0,0)(2,0)(1.2,1.6) (0,-0.5)[$O$]{} (2,-0.5)[$P$]{}\n(1.2,1.6)[$Q$]{} (2,0)(1.2,1.6)(0,0)(2,0) (0,0)[0.3]{}[0]{}[55.5]{}\n(0.3,0.2)[$\\theta$]{} (0,0)[2]{}[0]{}[55.5]{}\n\nDrop the perpendicular from $Q$ to $\\overline{OP}$. Let $R$ be the point\nof intersection. Note that $\\left| \\overline{OR} \\right|=\\cos \\theta$\nand $\\left| \\overline{QR} \\right|=\\sin \\theta$.\n\n(-1,1)(-2,2) (0,0)(2,0)(1.2,1.6)(1.2,0) (0,-0.5)[$O$]{} (2,-0.5)[$P$]{}\n(1.2,1.6)[$Q$]{} (2,0)(1.2,1.6)(0,0)(2,0) (0,0)[0.3]{}[0]{}[55.5]{}\n(0.3,0.2)[$\\theta$]{} (0,0)[2]{}[0]{}[55.5]{} (1.2,0)(1.2,1.6)\n(1.2,-0.5)[$R$]{}\n\nSince $\\displaystyle 0< \\theta <\\frac{\\pi}{2}$, $0< \\sin \\theta <1$ and\n$0< \\cos \\theta <1$. Thus, $R \\neq Q$ and $R$ lies strictly in between\n$O$ and $P$. Therefore, $\\left| \\overline{PR} \\right|>0$.\n\nBy the Pythagorean theorem,\n$\\left| \\overline{QR} \\right|^2+\\left| \\overline{PR} \\right|^2=\\left| \\overline{PQ} \\right|^2$.\nThus, $\\left| \\overline{QR} \\right|^2< \\left| \\overline{PQ} \\right|^2$.\nTherefore,\n$\\sin \\theta = \\left| \\overline{QR} \\right|< \\left| \\overline{PQ} \\right| < \\theta$.\n\nThe analogous result for $\\theta$ slightly below 0 is:\n\nLet $\\displaystyle \\frac{-\\pi}{2}< \\theta <0$, where $\\theta$ is an\nangle measured in radians. Then $\\theta < \\sin \\theta$.\n\nSince $\\displaystyle 0< -\\theta < \\frac{\\pi}{2}$, the previous theorem\nyields $\\sin (-\\theta)<-\\theta$. Since $\\sin$ is an odd function,\n$-\\sin \\theta < -\\theta$. It follows that $\\theta < \\sin \\theta$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComparisonOfsinthetaAndthetaNeartheta0"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "comparison of $\\sin \\theta$ and $\\theta$ near $\\theta = 0$"
+  ]
+}

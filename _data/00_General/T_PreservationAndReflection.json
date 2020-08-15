@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In mathematics, the word \u201cpreserve\u201d usually means the \u201cpreservation of\nproperties\u201d. Loosely speaking, whenever a mathematical construct $A$ has\nsome property $P$, after $A$ is somehow \u201ctransformed\u201d into $A'$, the\ntransformed object $A'$ also has property $P$. The constructs usually\nrefer to sets and the transformations typically are functions or\nsomething similar.\n\nHere is a simple example, let $f$ be a function from a set $A$ to $B$.\nLet $A$ be a finite set. Let $P$ be the property of a set being finite.\nThen $f$ preserves $P$, since $f(A)$ is finite. Note that we are not\nsaying that $B$ is finite. We are merely saying that the portion of $B$\nthat is the *image* of $A$ (the transformed portion) is finite.\n\nHere is another example. The property of being connected in a\ntopological space is preserved under a continuous function. Here, the\nconstructs are topological spaces, and the transformation is a\ncontinuous function. In other words, if $f:X\\to Y$ is a continuous\nfunction from $X$ to $Y$. If $X$ is connected, so is $f(X)\\subseteq Y$.\n\nMany more examples can be found in abstract algebra. Group\nhomomorphisms, for example, preserve commutativity, as well as the\nproperty of being finitely generated.\n\nThe word \u201creflect\u201d is the dual notion of \u201cpreserve\u201d. It means that if\nthe transformed object has property $P$, then the original object also\nhas property $P$. This usage is rarely found outside of category theory,\nand is almost exclusively reserved for functors. For example, a faithful\nfunctor reflects isomorphism: if $F$ is a faithful functor from\n$\\mathcal{C}$ to $\\mathcal{D}$, and the object $F(A)$ is isomorphic to\nthe object $F(B)$ in $\\mathcal{D}$, then $A$ is isomorphic to $B$ in\n$\\mathcal{C}$.",
+  "language": "INFORMAL",
+  "phrase": "Preservation And Reflection",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PreservationAndReflection"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V$ be a vector space over a field $K$. We say that $V$ is\n*finite-dimensional* if there exists a finite basis of $V$. Otherwise we\ncall $V$ *infinite-dimensional*.\n\nIt can be shown that every basis of $V$ has the same cardinality. We\ncall this cardinality the *dimension* of $V$. In particular, if $V$ is\nfinite-dimensional, then every basis of $V$ will consist of a finite set\n$v_1,\\ldots, v_n$. We then call the natural number $n$ the *dimension*\nof $V$.\n\nNext, let $U\\subset V$ a subspace. The dimension of the quotient vector\nspace $V/U$ is called the *codimension* of $U$ relative to $V$.\n\nIn circumstances where the choice of field is ambiguous, the dimension\nof a vector space depends on the choice of field. For example, every\ncomplex vector space is also a real vector space, and therefore has a\nreal dimension, double its complex dimension.",
+  "language": "INFORMAL",
+  "phrase": "Dimension (Vector Space)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DimensionvectorSpace"
+    }
+  ],
+  "indexable": true
+}

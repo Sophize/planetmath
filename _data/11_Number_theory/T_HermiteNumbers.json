@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Hermite numbers* $H_n$ may be defined by the generating function\n$$\\begin{aligned}\ne^{-t^2} \\;:=\\; \\sum_{n=0}^\\infty H_n\\frac{t^n}{n!}\\end{aligned}$$ which\nis same as the generating function of Hermite polynomials at the value 0\nof the argument $z$. After expanding the left hand side of (1) to Taylor\nseries $1-\\frac{t^2}{1!}+\\frac{t^4}{2!}-\\frac{t^6}{3!}+-\\ldots$, one can\nwrite $$\\begin{aligned}\n1-2\\!\\cdot\\!\\frac{t^2}{2!}+12\\!\\cdot\\!\\frac{t^4}{4!}-120\\!\\cdot\\!\\frac{t^6}{6!}+-\\ldots \\;\\;=\\; \\sum_{n=0}^\\infty H_n\\frac{t^n}{n!}.\\end{aligned}$$\nThus one sees that\n$$H_0 = 1,\\quad H_1 = 0,\\quad H_2 = -2,\\quad H_3 = 0,\\quad H_4 = 12,\\quad H_5 = 0,\\quad H_6 = -120,\\quad\\ldots$$\nEvidently, $$\\begin{aligned}\nH_n \\;=\\; \n\\begin{cases}\n\\frac{(-1)^{\\frac{n}{2}}n!}{(\\frac{n}{2})!} \\textrm{  when  } 2 \\mid n\\\\\n0\\; \\qquad \\textrm{ when  } 2 \\nmid n \n\\end{cases}\\end{aligned}$$ The Hermite numbers form the sequence ()\n$$1,\\,0,\\,-2,\\,0,\\,12,\\,0,\\,-120,\\,0,\\,1680,\\,0,\\,-30240,\\,0,\\,665280,\\,0,\\,-17297280,\\,0,\\,\\ldots$$\nwhich obeys the recurrence relation $$\\begin{aligned}\nH_n \\;=\\; 2(1\\!-\\!n)H_{n-2}.\\end{aligned}$$\n\nAccording to (1), the Hermite numbers satisfy $H_n \\,=\\, H_n(0)$ where\n$H_n(x)$ is the Hermite polynomial of degree $n$. The of Hermite numbers\nand Hermite polynomials may be expressed also by using symbolic powers\n$$H^\\nu \\;=:\\; H_\\nu$$ as follows: $$\\begin{aligned}\n(2x+H)^n \\;=\\; H_n(x).\\end{aligned}$$ This means e.g. that\n$$(2x+H)^2 \\;=\\; (2x)^2+2\\cdot2xH^1+H^2 \\;=\\; 4x^2+4xH_1+H_2 \\;=\\; 4x^2-2 \\;=\\; H_2(x).$$",
+  "language": "INFORMAL",
+  "phrase": "Hermite Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HermiteNumbers"
+    }
+  ],
+  "indexable": true
+}

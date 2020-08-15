@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "unit ball"
+  ],
+  "definition": "The *open unit disc* around $P$ (where $P$ is a given point on the\nplane), is the set of points whose distance from $P$ is less than one:\n$$D_1(P) = \\{ Q : \\vert P-Q\\vert<1\\}.$$\n\nA *closed unit disc* is the set of points whose distance from $P$ is\nless than or equal to one: $$\\overline D_1(P)=\\{Q:|P-Q| \\leq 1\\}$$\n\nUnit discs are a special case of unit ball. Without further\nspecifications, the term \u201dunit disc\u201d is used for the open unit disc\nabout the origin, $D_1(0)$.\n\nThe specific set of points in the unit disc, and hence, its visual\nappearance, depends on the metric being used.\n\n![image](unitdisc)\n\nWith the standard metric, unit discs look like circles of radius one,\nbut changing the metric changes also the corresponding set of points and\ntherefore the shape of the discs.\n\nFor instance, with the taxicab metric discs look like squares, while on\nthe Chebyshev metric a disc is shaped like a rhombus (even though the\nunderlying topologies are the same as the Euclidean one).",
+  "language": "INFORMAL",
+  "phrase": "Unit Disc",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnitDisc"
+    }
+  ],
+  "indexable": true
+}

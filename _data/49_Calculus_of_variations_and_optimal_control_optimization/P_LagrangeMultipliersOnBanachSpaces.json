@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $U$ be open in a real Banach space $X$, and $Y$ be another real\nBanach space. Let $f\\colon U \\to {\\mathbb{R}}$ and $g\\colon U \\to Y$ be\ncontinuously differentiable functions.\n\nSuppose that $a$ is a minimum or maximum point of $f$ on\n$M = \\{ x \\in U : g(x) = 0 \\}$, and the Fr\u00e9chet derivative\n$\\operatorname{D}g(a)\\colon X \\to Y$ is surjective. Then there exists a\nLagrange multiplier vector $\\lambda \\in Y^*$ such that\n$$\\operatorname{D}f(a) = \\operatorname{D}g(a)^* \\lambda = \\lambda \\circ \\operatorname{D}g(a)\\,.$$\n(The function $\\operatorname{D}g(a)^*\\colon Y^* \\to X^*$ denotes the\npullback or adjoint by $\\operatorname{D}g(a)$ on the continuous duals,\ndefined by the second equality.)\n\nIf $X$ and $Y$ are finite-dimensional, writing out the above equation in\nmatrix form shows that $\\lambda$ really is the usual Lagrange multiplier\nvector. The condition that $\\operatorname{D}g(a)$ is surjective means\nthat $\\operatorname{D}g(a)$ must have full rank as a matrix.\n\n[3]{} Eberhard Zeidler. [*Applied functional analysis: main principles\nand their applications*]{}. Springer-Verlag, 1995.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LagrangeMultipliersOnBanachSpaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lagrange multipliers on Banach spaces"
+  ]
+}

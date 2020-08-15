@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *$I$-semigroup* \\[resp. *$I$-monoid*\\] is a semigroup $S$ \\[resp. a\nmonoid $M$\\] with a unary operation $x\\mapsto x^{-1}$ defined on $S$\n\\[resp. on $M$\\] such that for each $x,y\\in S$ \\[resp. for each\n$x,y\\in M$\\] $$(x^{-1})^{-1}=x,\\ \\ \\ x=xx^{-1}x.$$\n\nNotice that $$x^{-1}xx^{-1}=x^{-1}(x^{-1})^{-1}x^{-1}=x^{-1},$$ so\n$x^{-1}$ is an inverse of $x$.\n\nThe class of $I$-semigroups \\[resp. $I$-monoids\\] strictly contains the\nclass of inverse semigroups \\[resp. inverse monoids\\]. In fact, the\nclass of inverse semigroups \\[resp. inverse monoids\\] is precisely the\nclass of $I$-semigroups with involution \\[resp. $I$-monoids with\ninvolution\\], i.e. the class of $I$-semigroups \\[resp. $I$-monoids\\] in\nwhich the unary operation $^{-1}$ is also an involution.\n\n[9]{} J.M. Howie, *Fundamentals of Semigroup Theory*, Oxford University\nPress, Oxford, 1991.",
+  "language": "INFORMAL",
+  "phrase": "I-Semigroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Isemigroup"
+    }
+  ],
+  "indexable": true
+}

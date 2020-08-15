@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "set symmetric difference",
+    "symmetric set difference",
+    "symmetric difference between sets"
+  ],
+  "definition": "The *symmetric difference* between two sets $A$ and $B$, written\n$A {\\triangle}B$, is the set of all $x$ such that either $x \\in A$ or\n$x \\in B$ but not both. In other words,\n$$A{\\triangle}B:= (A\\cup B)\\setminus (A\\cap B).$$\n\nThe Venn diagram for the symmetric difference of two sets $A,B$,\nrepresented by the two discs, is illustrated below, in light red:\n\n(0,0)(8,4)\n\n[(3,2)[2]{}]{} (5,2)[2]{}\n\n[(5,2)[2]{}]{} (3,2)[2]{}\n\n(1.25,3.75)[$A$]{} (6.75,3.75)[$B$]{} (0,0)[$.$]{} (8,4)[$.$]{}\n\n### Properties {#properties .unnumbered}\n\nSuppose that $A$, $B$, and $C$ are sets.\n\n-   $A {\\triangle}B=(A\\setminus B) \\cup (B\\setminus A)$.\n\n-   $A {\\triangle}B=A^c {\\triangle}B^c$, where the superscript $c$\n    denotes taking complements.\n\n-   Note that for any set $A$, the symmetric difference satisfies\n    $A {\\triangle}A=\\emptyset$ and $A {\\triangle}\\emptyset=A$.\n\n-   The symmetric difference operator is commutative since\n    $A {\\triangle}B=(A\\setminus B) \\cup (B\\setminus A) = (B\\setminus A) \\cup (A\\setminus B) = B {\\triangle}A$.\n\n-   The symmetric difference operation is associative:\n    $(A {\\triangle}B) {\\triangle}C = A {\\triangle}(B {\\triangle}C)$.\n    This means that we may drop the parentheses without any ambiguity,\n    and we can talk about the symmetric difference of multiple sets.\n\n-   Let $A_1,\\ldots, A_n$ be sets. The symmetric difference of these\n    sets is written\n    $$\\substack{n \\\\ \\displaystyle{{\\triangle}} \\\\ i=1} A_i.$$ In\n    general, an element will be in the symmetric difference of several\n    sets iff it is in an odd number of the sets.\n\nIt is worth noting that these properties show that the symmetric\ndifference operation can be used as a group law to define an abelian\ngroup on the power set of some set.\n\nFinally, we note that intersection distributes over the symmetric\ndifference operator:\n$$A\\cap(B{\\triangle}C)=(A\\cap B){\\triangle}(A\\cap C),$$ giving us that\nthe power set of a given fixed set can be made into a Boolean ring using\nsymmetric difference as addition, and intersection as multiplication.",
+  "language": "INFORMAL",
+  "phrase": "Symmetric Difference",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SymmetricDifference"
+    }
+  ],
+  "indexable": true
+}

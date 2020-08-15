@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For all $t_1,\\cdots,t_k$, $k\\in \\mathbb{N}$, let $v_{t_1,\\cdots,t_k}$ be\nprobability measures on $\\mathbb{R}^{nk}$ satisfying the following\nproperties (consistency conditions):\n\n1.  $v_{t_{\\sigma(1)},\\cdots,t_{\\sigma(k)}}(F_1\\times \\cdots \\times F_k)=v_{t_1,\\cdots t_k}(F_{\\sigma^{-1}(1)}\\times \\cdots F_{\\sigma^{-1}(k)})$\n    for all permutations $\\sigma$ of $\\lbrace 1,2,\\cdots,k\\rbrace$ and\n    for all Borel sets $F_i$ of $\\mathbb{R}^n$\n\n2.  $v_{t_1,\\cdots,t_k}(F_1 \\times \\cdots \\times F_k)=v_{t_1,\\cdots,t_k,t_{k+1},\\cdots t_{k+m}}(F_1 \\times \\cdots \\times F_k \\times \\mathbb{R}^n \\times \\cdots \\times \\mathbb{R}^n)$\n    for all $m \\in \\mathbb{N}$ and for all Borel sets $F_i$ of\n    $\\mathbb{R}^n$\n\nThen there exists a probability space $(\\Omega,\\mathcal{F},P)$ and a\nstochastic process $X_t$ on $\\Omega$, indexed by $T$, taking values in\n$\\mathbb{R}^n$ such that\n$$v_{t_1,\\cdots,t_k}(F_1 \\times \\cdots \\times F_k)=P(X_{t_1}\\in F_1, \\cdots, X_{t_k}\\in F_k)$$\nfor all $t_i\\in T, k \\in \\mathbb{R}^n$ and all Borel sets $F_i$ of\n$\\mathbb{R}^n$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KolmogorovsExtensionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kolmogorov's extension theorem"
+  ]
+}

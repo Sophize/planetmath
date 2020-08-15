@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following result is a key ingredient in the proof of Fermat\u2019s last\ntheorem for regular primes. More concretely, the lemma is needed to show\nthe so-called second case of Fermat, i.e. $x^p+y^p=z^p$ does not have\nany non-trivial solutions in ${\\mathbb{Z}}$ with $p>2$ a regular prime\nand $p|xyz$. It is due to Ernst Kummer, thus the name.\n\nLet $p>2$ be a prime, let $\\zeta_p$ be a primitive $p$th root of unity\nand let $K={\\mathbb{Q}}(\\zeta_p)$ be the corresponding cyclotomic field.\nLet $E$ be the group of algebraic units of the ring of integers\n$\\mathcal{O}_K$. Suppose that $p$ is a regular prime. If a unit\n$\\epsilon\\in E$ is congruent modulo $p$ to a rational integer, then\n$\\epsilon$ is the $p$th power of another unit also $E$.\n\nFor a proof, see [@wash], Theorem 5.36. The reader may also be\ninterested in generalizations due to [@wash2] and [@ozaki].\n\n[Washington 1992]{} Ozaki, M., [*Kummer\u2019s lemma for\n${\\mathbb{Z}}_p$-extensions over totally real number fields*]{}, Acta\nArith. 81 (1997), no. 1, 37\u201344.\n\nWashington L. C., [*Introduction to Cyclotomic Fields*]{}, Second\nEdition, Springer-Verlag, New York.\n\nWashington, L. C., [*Kummer\u2019s lemma for prime power cyclotomic\nfields*]{}, J. Number Theory 40 (1992), no. 2, 165\u2013173.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KummersLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kummer's lemma"
+  ]
+}

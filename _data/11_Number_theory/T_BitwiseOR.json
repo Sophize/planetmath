@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[*Bitwise OR*]{} is a bit-level operation on two binary values which\nindicates which bits are set in either value. For each position $i$, if\nthe bit $d_i$ in either value is 1, then $d_i$ of the result is 1,\notherwise it\u2019s 0. For example, given 50 and 163 in two unsigned bytes, a\nbitwise OR returns 179.\n\n  ---- --- --- --- --- --- --- --- ---\n        0   0   1   1   0   0   1   0\n    OR  1   0   1   0   0   0   1   1\n     =  1   0   1   1   0   0   1   1\n  ---- --- --- --- --- --- --- --- ---\n\nIn most high-level programming languages that offer bitwise OR, the\nusual operator is a single pipe line (|), not to be confused with a\ndouble pipe line (||) which performs a Boolean OR, returning a True or\nFalse value.\n\nThe Windows Calculator offers bitwise OR in scientific calculator mode,\nwhile the Mac OS X Calculator offers it in programmer mode.",
+  "language": "INFORMAL",
+  "phrase": "Bitwise Or",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BitwiseOR"
+    }
+  ],
+  "indexable": true
+}

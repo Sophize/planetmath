@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The series $$\\sum_{i=0}^\\infty a_i$$ with real $a_i$ is absolutely\nconvergent if there is a sequence $(b_n)_{n\\in\\mathbb{N}}$ with positive\nreal $b_n$ such that $$\\sum_{i=0}^\\infty b_i$$ is and for all\nsufficiently large $k$ holds $|a_k|\\leq b_k$.\n\nAlso, the series $\\sum a_i$ is divergent if there is a sequence $(b_n)$\nwith positive real $b_n$, so that $\\sum b_i$ is divergent and\n$a_k\\geq b_k$ for all sufficiently large $k$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComparisonTest"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "comparison test"
+  ]
+}

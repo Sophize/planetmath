@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $X$ is a manifold, let $\\Omega^k(X)$ be the vector space of $k$-forms\non $X$.\n\nSuppose $X$ and $Y$ are smooth manifolds, and suppose $f$ is a smooth\nmapping $f:X\\to Y$. Then the [**pullback**]{} induced by $f$ is the\nmapping $f^\\ast:\\Omega^k(Y)\\to\\Omega^k(X)$ defined as follows: If\n$\\omega\\in \\Omega^k(Y)$, then $f^\\ast(\\omega)$ is the $k$-form on $X$\ndefined by the formula\n$$(f^*\\omega)_x(X_1,\\ldots ,X_k)=\\omega_{f(x)}\\big((Df)_x(X_1),\\ldots ,(Df)_x(X_k))$$\nwhere $x\\in X$, $X_1,\\ldots, X_k\\in T_x(X)$, and $Df$ is the tangent map\n$Df:TX\\to TY$.\n\n### Properties\n\nSuppose $X$ and $Y$ are manifolds.\n\n-   If $\\mbox{id}_X$ is the identity map on $X$, then\n    $(\\mbox{id}_X)^\\ast$ is the identity map on $\\Omega^k(X)$.\n\n-   If $X,Y,Z$ are manifolds, and $f,g$ are mappings $f:X\\to Y$ and\n    $g:Y\\to Z$, then $$(g\\circ f)^\\ast = f^\\ast\\circ g^\\ast.$$\n\n-   If $f$ is a diffeomorphism $f:X\\to Y$, then $f^\\ast$ is a\n    diffeomorphism with inverse $$(f^{-1})^\\ast = (f^\\ast)^\\ast.$$\n\n-   If $f$ is a mapping $f:X\\to Y$, and $\\omega\\in \\Omega^k(Y)$, then\n    $$df^\\ast \\omega = f^\\ast d\\omega,$$ where $d$ is the exterior\n    derivative.\n\n-   Suppose $f$ is a mapping $f:X\\to Y$, $\\omega\\in \\Omega^k(Y)$, and\n    $\\eta\\in \\Omega^l(Y)$. Then\n    $$f^\\ast(\\omega\\wedge \\eta)= f^\\ast(\\omega)\\wedge f^\\ast(\\eta).$$\n\n-   If $g$ is a $0$-form on $Y$, that is, $g$ is a real valued function\n    $g:Y\\to \\mathbb{R}$, and $f$ is a mapping $f:X\\to Y$, then\n    $f^\\ast(g) = f\\circ g$.\n\n-   Suppose $U$ is a submanifold (or an open set) in an manifold $X$,\n    and $\\iota:U\\hookrightarrow X$ is the inclusion mapping. Then\n    $\\iota^\\ast$ restricts $k$-forms on $X$ to $k$-forms on $U$.",
+  "language": "INFORMAL",
+  "phrase": "Pullback Of A $K$-Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PullbackOfAKform"
+    }
+  ],
+  "indexable": true
+}

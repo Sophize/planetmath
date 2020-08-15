@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a semigroup, and let $T$ be a subset of $S$.\n\n$T$ is a *subsemigroup* of $S$ if $T$ is closed under the operation of\n$S$; that it if $xy \\in T$ for all $x, y \\in T$.\n\n$T$ is a *submonoid* of $S$ if $T$ is a subsemigroup, and $T$ has an\nidentity element.\n\n$T$ is a *subgroup* of $S$ if $T$ is a submonoid which is a group.\n\nNote that submonoids and subgroups do not have to have the same identity\nelement as $S$ itself (indeed, $S$ may not have an identity element).\nThe identity element may be any idempotent element of $S$.\n\nLet $e \\in S$ be an idempotent element. Then there is a maximal\nsubsemigroup of $S$ for which $e$ is the identity:\n$$eSe = \\{ exe \\mid x \\in S \\}.$$ In addition, there is a maximal\nsubgroup for which $e$ is the identity:\n$$\\mathcal{U}(eSe) = \\{x \\in eSe \\mid \\exists y \\in eSe \\;\\text{st}\\; xy=yx=e \\}.$$\n\nSubgroups with different identity elements are disjoint. To see this,\nsuppose that $G$ and $H$ are subgroups of a semigroup $S$ with identity\nelements $e$ and $f$ respectively, and suppose $x \\in G \\cap H$. Then\n$x$ has an inverse $y \\in G$, and an inverse $z \\in H$. We have:\n$$e = xy = fxy = fe = zxe = zx = f.$$ Thus intersecting subgroups have\nthe same identity element.",
+  "language": "INFORMAL",
+  "phrase": "Subsemigroup,, Submonoid,, And Subgroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubsemigroupSubmonoidAndSubgroup"
+    }
+  ],
+  "indexable": true
+}

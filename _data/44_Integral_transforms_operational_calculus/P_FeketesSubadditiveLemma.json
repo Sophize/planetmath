@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(a_n)_n$ be a subadditive sequence in $[-\\infty,\\infty)$. Then, the\nfollowing limit exists in $[-\\infty,\\infty)$ and equals the infimum of\nthe same sequence: $$\\lim_{n} \\frac{a_n}{n}= \\inf_n \\frac{a_n}{n}$$\nAlthough the lemma is usually stated for subadditive sequences, an\nanalogue conclusion is valid for superadditive sequences. In that case,\nfor $(a_n)_n$ a subadditive sequence in $(-\\infty,\\infty]$, one has:\n$$\\lim_n \\frac{a_n}{n}=\\sup_n \\frac{a_n}{n}$$ The proof of the\nsuperadditive case is obtained by taking the symmetric sequence\n$(-a_n)_n$ and applying the subadditive version of the theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FeketesSubadditiveLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Fekete's subadditive lemma"
+  ]
+}

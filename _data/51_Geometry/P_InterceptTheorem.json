@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If two intersecting lines are cut by parallel lines, the\nline segments cut by the parallel lines from one of the lines are\nproportional to the corresponding line segments cut by them from the\nother line.\n\nThe theorem may be condensed to the following form:\n\n-   If a line parallel to a $BC$ of a triangle $ABC$ intersects the\n    other sides in the points $D$ and $E$, then the proportion equation\n    $$\\begin{aligned}\n    BD:DA \\;=\\; CE:EA\\end{aligned}$$ is true.\n\nThe intercept theorem has been known by the ancient Babylonians and\nEgyptians, but the first known proof is found in Euclid\u2019s *Elements*.\n\n*Proof.* The areas of triangles, which have equal heights, are\nproportional to the bases of the triangles; if the bases are equal, then\nalso the areas are equal. These facts are used in the\n$$BD:DA \\;=\\; \\Delta BDE : \\Delta DAE \\;=\\; \\Delta CED : \\Delta EAD \\;=\\; CE:EA$$\nof equalities. Q.E.D.\n\n(-3,-0.5)(3,5.4) (-3,-0.5)[.]{} (3,5.4)[.]{} (-2,0)(2,0)(1,5)\n(-1.1,1.5)(1.7,1.5) (-2,0)(1.7,1.5) (2,0)(-1.1,1.5) (1,5.2)[$A$]{}\n(-2.2,-0.2)[$B$]{} (2.2,-0.2)[$C$]{} (-1.36,1.5)[$D$]{} (1.9,1.5)[$E$]{}",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InterceptTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "intercept theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a group $G$, the [*regular representation*]{} of $G$ over a field\n$K$ is the representation\n$\\rho: G \\longrightarrow {\\operatorname{GL}}(K^G)$ whose underlying\nvector space $K^G$ is the $K$\u2013vector space of formal linear combinations\nof elements of $G$, defined by\n$$\\rho(g)\\left(\\sum_{i=1}^n k_i g_i\\right) := \\sum_{i=1}^n k_i (g g_i)$$\nfor $k_i \\in K$, $g, g_i \\in G$.\n\nEquivalently, the regular representation is the induced representation\non $G$ of the trivial representation on the subgroup $\\{1\\}$ of $G$.",
+  "language": "INFORMAL",
+  "phrase": "Regular Representation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegularRepresentation"
+    }
+  ],
+  "indexable": true
+}

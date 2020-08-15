@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "2-category with invertible morphisms"
+  ],
+  "definition": "A [*2-groupoid*]{} is a 2-category whose morphisms are all invertible,\nthat is, ones such that, each $1$-arrow (morphism) is invertible with\nrespect to the morphism composition.\n\nNote, however that $\\omega$-groupoid has a distinct meaning from that of\n$\\omega$-category).\n\nAn important reason for studying $2$\u2013categories, and especially\n$2$-groupoids, is to use them as coefficient objects for non-Abelian\nCohomology theories. Thus, some double groupoids defined over Hausdorff\nspaces that are non-Abelian (or non-commutative) are relevant to\nnon-Abelian Algebraic Topology (NAAT) and .\n\nOne needs to distinguish between a 2-groupoid and a double-groupoid as\nthe two concepts are very different. Interestingly, some double\ngroupoids defined over Hausdorff spaces that are non-Abelian (or\nnon-commutative) have true two-dimensional geometric representations\nwith special properties that allow generalizations of important theorems\nin algebraic topology and higher dimensional algebra, such as the\ngeneralized van Kampen theorem with significant consequences that cannot\nbe obtained through Abelian means.\n\nFurthermore, whereas the definition of an $n$-groupoid is a\nstraightforward generalization of a 2-groupoid, the notion of a\n*multiple groupoid* is not at all an obvious generalization or extension\nof the concept of double groupoid.",
+  "language": "INFORMAL",
+  "phrase": "2-Groupoid ",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/2groupoid"
+    }
+  ],
+  "indexable": true
+}

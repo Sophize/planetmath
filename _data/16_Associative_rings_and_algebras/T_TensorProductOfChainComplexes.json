@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $ C'={\\left\\{ C_n',{\\partial_{n} '} \\right\\}}$ and\n$C''={\\left\\{ C_n'',{\\partial_{n} ''} \\right\\}}$ be two chain complexes\nof $R$-modules, where $R$ is a commutative ring with unity. Their\n*tensor product*\n$C'\\otimes_R C''={\\left\\{ (C'\\otimes_R C'')_n,{\\partial_{n}} \\right\\}}$\nis the chain complex defined by\n$$(C'\\otimes_R C'')_n = \\bigoplus_{i+j=n}(C_i'\\otimes_R C_j''),$$\n$${\\partial_{n}}(t'_i\\otimes_R s''_j) = {\\partial_{i} '}(t'_i)\\otimes_R s''_j + (-1)^i\\, t'_i\\otimes_R {\\partial_{j} ''}(s''_j),\\ \\ \\ \\forall t'_i\\in C_i',\\ s''_j\\in C_j'',\\ (i+j=n),$$\nwhere $C_i'\\otimes_R C_j''$ denotes the of $R$-modules $C_i'$ and\n$C_j''$.\n\nIndeed, this defines a chain complex, because for each\n$t'_i\\otimes_R s''_j\\in C_i'\\otimes_R C_j''\\subseteq (C'\\otimes_R C'')_{i+j}$\nwe have\n$${\\partial_{i+j-1}} {\\partial_{i+j}}(t'_i\\otimes_R s''_j) = {\\partial_{i+j-1}}{\\left(  {\\partial_{i} '}(t'_i)\\otimes_R s''_j + (-1)^i\\, t'_i\\otimes_R {\\partial_{j} ''}(s''_j)  \\right)}=$$\n$$= (-1)^{i-1}\\, {\\partial_{i} '}(t'_i)\\otimes_R {\\partial_{j} ''}(s''_j)+(-1)^i {\\partial_{i} '}(t'_i)\\otimes_R {\\partial_{j} ''}(s''_j)=0,$$\nthus $C'\\otimes_R C''$ is a chain complex.",
+  "language": "INFORMAL",
+  "phrase": "Tensor Product Of Chain Complexes",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TensorProductOfChainComplexes"
+    }
+  ],
+  "indexable": true
+}

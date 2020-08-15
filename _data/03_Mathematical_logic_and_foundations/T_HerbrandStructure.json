@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "HerbrandModel HerbrandInterpretation"
+  ],
+  "definition": "For a language $\\mathcal{L}$, define the *Herbrand universe* to be the\nset of closed terms (alternatively ground terms) of $L$.\n\nA structure $\\mathfrak{M}$ for $\\mathcal{L}$ is a *Herbrand structure*\nif the domain of $\\mathfrak{M}$ is the Herbrand universe of\n$\\mathcal{L}$. This fixes the domain of $\\mathfrak{M}$, and so each\nHerbrand structure can be identified with its interpretation, leading to\nthe alternative nomenclature of *Herbrand interpretation*.\n\nA *Herbrand model* of a theory $T$ is a Herbrand structure which is a\nmodel of $T$.",
+  "language": "INFORMAL",
+  "phrase": "Herbrand Structure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HerbrandStructure"
+    }
+  ],
+  "indexable": true
+}

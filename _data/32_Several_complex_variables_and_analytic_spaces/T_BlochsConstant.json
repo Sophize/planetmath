@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Bloch\u2019s theorem can be stated in the following way:\n\nLet $\\mathcal{F}$ be the set of all functions $f$ holomorphic on a\nregion containing the closure of the disk $D=\\{z\\in\\mathbb{C}:|z|<1\\}$\nand satisfying $f(0)=0$ and $f'(0)=1$. For each $f\\in\\mathcal{F}$ let\n$\\beta(f)$ be the supremum of all numbers $r$ such that there is a disk\n$S\\subset D$ on which $f$ is injective and $f(S)$ contains a disk of\nradius $r$. Let $B$ be the infimum of all $\\beta(f)$, for $f\\in\n\\mathcal{F}$. Then $B\\geq 1/72$.\n\nThe constant $B$ is usually referred to as Bloch\u2019s constant. Nowadays,\nbetter bounds are known and, in fact, it has been conjectured that $B$\nhas the following tantalizing form\n$$B=\\frac{\\Gamma(1/3)\\cdot \\Gamma(11/12)}{\\left(\\sqrt{1+\\sqrt{3}}\\right)\\cdot \\Gamma(1/4)}$$\nwhere $\\Gamma(x)$ is the gamma function.\n\n[00]{}\n\nJohn B. Conway, [*Functions of One Complex Variable I*]{}, Second\nEdition, 1978, Springer-Verlag, New York.",
+  "language": "INFORMAL",
+  "phrase": "Bloch'S Constant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BlochsConstant"
+    }
+  ],
+  "indexable": true
+}

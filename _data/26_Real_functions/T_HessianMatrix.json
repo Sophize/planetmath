@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $x \\in \\mathbb{R}^n$ and let $f\\colon\\mathbb{R}^n\\to\\mathbb{R}$ be a\nreal-valued function having 2nd-order partial derivatives in an open set\n$U$ containing $x$. The *Hessian matrix* of $f$ is the matrix of second\npartial derivatives evaluated at $x$:\n\n$$\\mathbf{H}(x):=\n\\begin{bmatrix}\n\\displaystyle{\\frac{\\partial^2 f}{\\partial x_1^2}} & \\displaystyle{\\frac{\\partial^2 f}{\\partial x_1\\partial x_2}} & \\ldots & \\displaystyle{\\frac{\\partial^2 f}{\\partial x_1\\partial x_n}}\n\\\\ \\displaystyle{\\frac{\\partial^2 f}{\\partial x_2\\partial x_1}} & \\displaystyle{\\frac{\\partial^2 f}{\\partial x_2^2}} & \\ldots & \\displaystyle{\\frac{\\partial^2 f}{\\partial x_2\\partial x_n}} \n\\\\ \\vdots & \\vdots & \\ddots & \\vdots\n\\\\ \\displaystyle{\\frac{\\partial^2 f}{\\partial x_n\\partial x_1}} & \\displaystyle{\\frac{\\partial^2 f}{\\partial x_n\\partial x_2}} & \\ldots & \\displaystyle{\\frac{\\partial^2 f}{\\partial x_n^2}}\n\\end{bmatrix}.$$\n\nIf $f$ is in $C^2(U)$, $\\mathbf{H}(x)$ is because of the equality of\nmixed partials. Note that $\\mathbf{H}(x)=\\mathbf{J}(\\nabla f)$, the\nJacobian of the gradient of $f$.\n\nGiven a vector $\\boldsymbol{v}\\in\\mathbb{R}^n$, the *Hessian* of $f$ at\n$\\boldsymbol{v}$ is:\n$$\\mathbf{H}(x)(\\boldsymbol{v}):=\\frac{1}{2}\\boldsymbol{v}\\mathbf{H}(x)\\boldsymbol{v}^{\\operatorname{T}}.$$\nHere we view $\\boldsymbol{v}$ as a $1$ by $n$ matrix so that\n$\\boldsymbol{v}^{\\operatorname{T}}$ is the transpose of\n$\\boldsymbol{v}$.\n\n**Remark**. The Hessian of $f$ at $\\boldsymbol{v}$ is a quadratic form,\nsince $\\mathbf{H}(x)(r\\boldsymbol{v})=r^2\\mathbf{H}(x)(\\boldsymbol{v})$\nfor any $r\\in\\mathbb{R}$.\n\nIf $f$ is further assumed to be in $C^2(U)$, and $x$ is a critical point\nof $f$ such that $\\mathbf{H}(x)$ is , then $x$ is a strict local minimum\nof $f$.\n\nThis is not difficult to show. Since $\\mathbf{H}(x)$ is , the\nRayleigh-Ritz theorem shows that there is a $c > 0$ such that for all\n$h \\in \\mathbb{R}^n$, $h^T\\mathbf{H}(x)h \\ge 2c \\Vert h\\Vert^2$. Thus by\n( form)\n$$f(x + h ) = f(x) + \\frac{1}{2} h^T\\mathbf{H}(x)h + o(\\Vert h \\Vert^2) \\ge c \\Vert h \\Vert^2 + o(\\Vert h\\Vert^2).$$\nFor small $\\Vert h \\Vert$ the first on the the second, so that both\nsides are positive for small $\\Vert h\\Vert$.",
+  "language": "INFORMAL",
+  "phrase": "Hessian Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HessianMatrix"
+    }
+  ],
+  "indexable": true
+}

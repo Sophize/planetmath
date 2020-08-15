@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "contour curve",
+    "isopleth"
+  ],
+  "definition": "The [*level curves*]{} (in German [*Niveaukurve*]{}, in French [*ligne\nde niveau*]{}) of a surface $$\\begin{aligned}\nz \\;=\\; f(x,\\,y)\\end{aligned}$$ in $\\mathbb{R}^3$ are the intersection\ncurves of the surface and the planes $z = \\,\\mathrm{constant}$. Thus the\nprojections of the level curves on the $xy$-plane have equations of the\nform $$\\begin{aligned}\nf(x,\\,y) \\;=\\; c\\end{aligned}$$ where $c$ is a constant.\\\nFor example, the level curves of the $z = xy$ are the rectangular\nhyperbolas $xy = c$ (cf. ).\\\nThe gradient $f'_x(x,\\,y)\\,\\vec{i}\\!+\\!f'_y(x,\\,y)\\,\\vec{j}$ of the\nfunction $f$ in any point of the surface (1) is perpendicular to the\nlevel curve (2), since the slope of the gradient is\n$\\displaystyle\\frac{f'_y}{f'_x}$ and the slope of the level curve is\n$\\displaystyle-\\frac{f'_x}{f'_y}$, whence the slopes are opposite\ninverses.\\\nAnalogically one can define the [*level surfaces*]{} (or [*contour\nsurfaces*]{}) $$\\begin{aligned}\nF(x,\\,y,\\,z) \\;=\\; c\\end{aligned}$$ for a function $F$ of three\nvariables $x$, $y$, $z$. The gradient of $F$ in a point $(x,\\,y,\\,z)$ is\nparallel to the surface normal of the level surface passing through this\npoint.",
+  "language": "INFORMAL",
+  "phrase": "Level Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LevelCurve"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a ring and let $M$ be an $R$-module. Recall that if\n${\\mathrm{pd}_R}M$ denotes the projective dimension of $M$, then\n$${\\mathrm{pd}_R}M\\leqslant n$$ if and only if\n$${\\mathrm{Ext}^{m}_{R}}(M,-)=0$$ for $m>n$. Here $\\mathrm{Ext}$ denotes\nthe derived functor of $\\mathrm{Hom}$.\n\n**Proposition 1.** Assume that $$\\xymatrix{\n0\\ar[r] & A\\ar[r] & B\\ar[r] & C\\ar[r] & 0\n}$$ is a short exact sequence of $R$-modules such that the projective\ndimension of each $A$, $B$, $C$ is finite. Then\n$${\\mathrm{pd}_R}A\\leqslant\\mathrm{max}\\{\\ {\\mathrm{pd}_R}B,\\ {\\mathrm{pd}_R}C - 1\\ \\};$$\n$${\\mathrm{pd}_R}B\\leqslant\\mathrm{max}\\{\\ {\\mathrm{pd}_R}A,\\ {\\mathrm{pd}_R}C\\ \\};$$\n$${\\mathrm{pd}_R}C\\leqslant\\mathrm{max}\\{\\ {\\mathrm{pd}_R}B,\\ {\\mathrm{pd}_R}A + 1\\ \\}.$$\n\n*Proof.* Let $T(X)={\\mathrm{Hom}_{R}}(X,-)$ be a functor from the\ncategory of $R$-modules to the category of functors. This functor is\ncontravariant and induces the following long exact sequence:\n$$\\xymatrix{\n\\cdots\\ar[r] & {\\mathrm{Ext}^{n}_{R}}(C,-)\\ar[r] & {\\mathrm{Ext}^{n}_{R}}(B,-)\\ar[r] & {\\mathrm{Ext}^{n}_{R}}(A,-)\\ar[r] &{\\mathrm{Ext}^{n+1}_{R}}(C,-)\\ar[r] & \\cdots\n}$$ Assume that ${\\mathrm{pd}_R}B\\leqslant m$ and\n${\\mathrm{pd}_R}C\\leqslant m+1$ (i.e.\n$m\\geqslant\\mathrm{max}\\{\\ {\\mathrm{pd}_R}B,\\ {\\mathrm{pd}_R}C-1\\ \\}$).\nThen the above sequence (together with the remark at the begining) gives\nus $${\\mathrm{Ext}^{k}_{R}}(A,-)=0$$ for $k>m$. In particular\n${\\mathrm{pd}_R}A\\leqslant m$ and thus\n$${\\mathrm{pd}_R}A\\leqslant\\mathrm{max}\\{\\ {\\mathrm{pd}_R}B,\\ {\\mathrm{pd}_R}C - 1\\ \\}.$$\nThe proof for other inequalities is analogous. $\\square$\\\nWe can state similar facts for injective dimension:\\\n**Proposition 2.** Assume that $$\\xymatrix{\n0\\ar[r] & A\\ar[r] & B\\ar[r] & C\\ar[r] & 0\n}$$ is a short exact sequence of $R$-modules such that the injective\ndimension of each $A$, $B$, $C$ is finite. Then\n$${\\mathrm{id}_R}A\\leqslant\\mathrm{max}\\{\\ {\\mathrm{id}_R}B,\\ {\\mathrm{id}_R}C + 1\\ \\};$$\n$${\\mathrm{id}_R}B\\leqslant\\mathrm{max}\\{\\ {\\mathrm{id}_R}A,\\ {\\mathrm{id}_R}C\\ \\};$$\n$${\\mathrm{id}_R}C\\leqslant\\mathrm{max}\\{\\ {\\mathrm{id}_R}B,\\ {\\mathrm{id}_R}A - 1\\ \\}.$$\n*Proof.* The proof is analogous to the proof of Proposition 1. We just\nuse ${\\mathrm{Ext}^{*}_{R}}(-,M)$ instead of\n${\\mathrm{Ext}^{*}_{R}}(M,-)$. Note that in this case $\\mathrm{Ext}$ is\na covariant functor which gives us ,,dual\u201d inequalities. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProjectiveDimensionAndShortExactSequences"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "projective dimension and short exact sequences"
+  ]
+}

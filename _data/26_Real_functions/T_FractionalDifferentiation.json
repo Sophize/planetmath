@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Grunwald-Letnikov differentiation"
+  ],
+  "definition": "The idea of Grunwald-Letnikov differentiation comes from the following\nformulas of and forward difference . Within this entry, $[ \\cdot ]$ will\nbe used to denote the greatest integer function and $\\Gamma$ will be\nused to denote the gamma function.\n\n[**Backward difference**]{}\n\n$$D_{-}(f)(x) = \\lim_{h\\to 0}\\frac{f(x)-f(x-h)}{h}$$\n\n$$D^n_{-}(f)(x)=\\lim_{h\\to 0}\\frac{1}{h^n}\\sum_{k=0}^n\n\\frac{(-1)^k n!}{k! (n-k)!}f(x-kh)$$\n\nFor derivatives of integer orders, we only requires to specifies one\npoint $x\\in {\\mathbb R}$. Fractional derivatives, like fractional\ndefinite integrals, require an interval $[a,b]$ to be specified for the\nfunction $f:{\\mathbb R}\\to {\\mathbb R}$ we are talking about.\n\n[**Definition 1: Left-hand Grunwald-Letnikov derivative**]{}\n\n$$D^p_{-}(f)(x)=\n\\lim_{h\\to 0}\\frac{1}{h^p}\\sum_{k=0}^{\\left[\\frac{b-a}{h}\\right]}\n\\frac{(-1)^k\\Gamma (p+1)}{k! \\Gamma (p-k+1)} f(x-kh)$$\n\n[**Forward difference**]{}\n\n$$D_{+}(f)(x) = \\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}$$\n\n$$D^n_{+}(f)(x) = \\lim_{h\\to 0}\\frac{1}{h^n}\\sum^n_{k=0}\n\\frac{(-1)^k n!}{k! (n-k)!} f(x+(n-k-1)h)$$\n\n[**Definition 2: Right-hand Grunwald-Letnikov derivative**]{}\n\n$$D^p_{+}(f)(x)=\n\\lim_{h\\to 0}\\frac{1}{h^p}\\sum_{k=0}^{\\left[\\frac{b-a}{h}\\right]}\n\\frac{(-1)^k\\Gamma (p+1)}{k! \\Gamma (p-k+1)} f(x+(m-k-1)h)$$\n\n[**Theorem 1: Properties of fractional derivatives**]{}\n\n-   [Linearity]{}:\n    $D^p_{\\pm}(a f+ b g)(x) = a D^p_{\\pm}(f)(x) + b D^p_{\\pm}(g)(x)$\n    where $a,b\\in {\\mathbb R}$ are any real constants\n\n-   [Iteration]{}: $D^p_{\\pm}D^q_{\\pm}(f)(x) = D^{p+q}_{\\pm}(f)(x)$\n\n-   [Chain rule]{}: $\\displaystyle{\\frac{d^\\beta f(g(x))}{dx^{\\beta}} \n    =\\sum_{k=0}^{\\infty}\\frac{\\Gamma(1+\\beta)}{\\Gamma(1+k)\\Gamma(1-k+\\beta)}\n    \\frac{d^{\\beta-k}1}{dx^{\\beta-k}}\n    \\frac{d^k f(g(x))}{dx^k} }$\n\n-   [Leibniz Rule]{}: $\\displaystyle{\\frac{d^\\beta (f(x)g(x))}{dx^\\beta}\n    =\\sum_{k=0}^{\\infty}\\frac{\\Gamma(1+\\beta)}{\\Gamma(1+k)\\Gamma(1-k+\\beta)}\n    \\frac{d^k f(x)}{dx^k} \\frac{d^{\\beta-k}g(x)}{dx^{\\beta-k}} }$\n\n[**Theorem 2: Table of fractional derivatives**]{}\n\n-   $\\displaystyle{ D^{\\alpha}_{\\pm}(x^p)\n    =\\frac{\\Gamma (p+1)x^{p-\\alpha}}{\\Gamma (p-\\alpha+1)} }$ where\n    $\\alpha,p\\in {\\mathbb R}$ and $\\Gamma(x)$\n\n-   $\\displaystyle{ D^{\\alpha}_{\\pm}( e^{\\lambda x} )\n    =\\lambda^{\\alpha} e^{\\lambda x} }$ for all $\\lambda\\in {\\mathbb R}$\n\n-   $\\displaystyle{ D^{\\alpha}_{\\pm} (\\sin x) = \\sin \\left(x+\\frac{\\alpha \\pi}{2}\\right)}$\n\n-   $\\displaystyle{ D^{\\alpha}_{\\pm} (\\cos x) = \\cos \\left(x+\\frac{\\alpha \\pi}{2}\\right)}$\n\n-   $\\displaystyle{ D^{\\alpha}_{\\pm} (e^{i x}) =\\cos \\left(x+\\frac{\\pi\\alpha}{2}\\right)+i\\sin \\left(x+\\frac{\\pi\\alpha}{2}\\right) }$",
+  "language": "INFORMAL",
+  "phrase": "Fractional Differentiation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FractionalDifferentiation"
+    }
+  ],
+  "indexable": true
+}

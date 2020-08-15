@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $k,n$ be positive integers with $k\\leq n$. The *Kneser graph*\n$K_{n:k}$ has as its vertex set the $n\\choose k$ $k$-element subsets of\n$\\{1,2,\\dots,n\\}$. Two vertices are adjacent if and only if they\ncorrespond to disjoint subsets.\n\nThe graph $K_{n:1}$ is the complete graph on $n$ vertices. Another\nwell-known Kneser graph is $K_{5:2}$, better known as the *Petersen\ngraph*, which is shown in figure \\[petersen\\]. The Petersen graph is\noften a counterexample to graph-theoretical conjectures.",
+  "language": "INFORMAL",
+  "phrase": "Kneser Graphs",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KneserGraphs"
+    }
+  ],
+  "indexable": true
+}

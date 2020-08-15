@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "probability density function",
+    "distribution"
+  ],
+  "definition": "Definition\n==========\n\nLet $(\\Omega, {\\mathfrak{B}}, \\mu)$ be a measure space. A [*probability\ndistribution function*]{} on $\\Omega$ is a function\n$f: \\Omega \\longrightarrow {\\mathbb{R}}$ such that:\n\n1.  $f$ is $\\mu$-measurable\n\n2.  $f$ is nonnegative $\\mu$-almost everywhere.\n\n3.  $f$ satisfies the equation $$\\int_{\\Omega} f(x)\\ d\\mu = 1$$\n\nThe main feature of a probability distribution function is that it\ninduces a probability measure $P$ on the measure space\n$(\\Omega, {\\mathfrak{B}})$, given by\n$$P(A) := \\int_A f(x)\\ d\\mu = \\int_{\\Omega} 1_A f(x)\\ d\\mu,$$ for all\n$A \\in {\\mathfrak{B}}$. The measure $P$ is called the [*associated\nprobability measure*]{} of $f$. Note that $P$ and $\\mu$ are different\nmeasures, though they both share the same underlying measurable space\n$(\\Omega, {\\mathfrak{B}})$.\n\nExamples\n========\n\nDiscrete case\n-------------\n\nLet $I$ be a countable set, and impose the counting measure on $I$\n($\\mu(A) := |A|$, the cardinality of $A$, for any subset $A \\subset I$).\nA probability distribution function on $I$ is then a nonnegative\nfunction $f: I \\longrightarrow {\\mathbb{R}}$ satisfying the equation\n$$\\sum_{i \\in I} f(i) = 1.$$\n\nOne example is the Poisson distribution $P_r$ on ${\\mathbb{N}}$ (for any\nreal number $r$), which is given by $$P_r(i) := e^{-r} \\frac{r^i}{i!}$$\nfor any $i \\in {\\mathbb{N}}$.\n\nGiven any probability space $(\\Omega, {\\mathfrak{B}}, \\mu)$ and any\nrandom variable $X: \\Omega \\longrightarrow I$, we can form a\ndistribution function on $I$ by taking $f(i) := \\mu(\\{X = i\\})$. The\nresulting function is called the distribution of $X$ on $I$.\n\nContinuous case\n---------------\n\nSuppose $(\\Omega, {\\mathfrak{B}}, \\mu)$ equals\n$({\\mathbb{R}}, {\\mathfrak{B}}_\\lambda, \\lambda)$, the real numbers\nequipped with Lebesgue measure. Then a probability distribution function\n$f: {\\mathbb{R}}\\longrightarrow {\\mathbb{R}}$ is simply a measurable,\nnonnegative almost everywhere function such that\n$$\\int_{-\\infty}^\\infty f(x)\\ dx = 1.$$ The associated measure has with\nrespect to $\\lambda$ equal to $f$: $$\\frac{dP}{d\\lambda} = f.$$ One\ndefines the [*cumulative distribution function*]{} $F$ of $f$ by the\nformula $$F(x) := P(\\{X \\leq x\\}) = \\int_{-\\infty}^x f(t)\\ dt,$$ for all\n$x \\in {\\mathbb{R}}$. A well known example of a probability distribution\nfunction on ${\\mathbb{R}}$ is the Gaussian distribution, or normal\ndistribution\n$$f(x) := \\frac{1}{\\sigma \\sqrt{2 \\pi}} e^{-(x-m)^2/2\\sigma^2}.$$",
+  "language": "INFORMAL",
+  "phrase": "Probability Distribution Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProbabilityDistributionFunction"
+    }
+  ],
+  "indexable": true
+}

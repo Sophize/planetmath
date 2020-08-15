@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If a real function $f$ is continuous on the interval\n$[a,\\,b]$ and has zeroes on this interval, then $f$ has a least zero and\na greatest zero.\n\n[*Proof.*]{} If $f(a) = 0$ then the assertion concerning the least zero\nis true. Let\u2019s assume therefore, that $f(a) \\neq 0$.\n\nThe set $A = \\{x\\in [a,\\,b]\\vdots\\,\\, f(x) = 0\\}$ is bounded from below\nsince all numbers of $A$ are greater than $a$. Let the of $A$ be $\\xi$.\nLet us make the antithesis, that $f(\\xi) \\neq 0$. Then, by the\ncontinuity of $f$, there is a positive number $\\delta$ such that\n$$f(x) \\neq 0\\quad \\mathrm{always\\,when}\\,\\,|x-\\xi| < \\delta.$$ Chose a\nnumber $x_1$ between $\\xi$ and $\\xi\\!+\\!\\delta$; then $f(x_1) \\neq 0$,\nbut this number $x_1$ is not a lower bound of $A$. Therefore there\nexists a member $a_1$ of $A$ which is less than $x_1$\n($\\xi < a_1 < x_1$). Now $|a_1-\\xi| < |x_1-\\xi| < \\delta$, whence this\nmember of $A$ ought to satisfy that $f(a_1) = 0$. This a contradiction.\nThus the antithesis is wrong, and $f(\\xi) = 0$.\n\nThis that $\\xi\\in A$ and $\\xi$ is the least number of $A$.\n\nAnalogically one shows that the supremum of $A$ is the greatest zero of\n$f$ on the interval.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeastAndGreatestZero"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "least and greatest zero",
+    "zeroes of continuous function"
+  ]
+}

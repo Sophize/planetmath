@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\Omega$ be an open subset of $\\mathbb{R}^n \\times \\mathbb{R}^m$ and\nlet $f\\in C^1(\\Omega,\\mathbb{R}^m)$. Let\n$(x_0,y_0)\\in \\Omega \\subset \\mathbb{R}^n\\times\\mathbb{R}^m$. If the\nmatrix $D_y f(x_0,y_0)$ defined by\n$$D_y f(x_0,y_0) = \\left( \\frac{\\partial f_j}{\\partial y_k}(x_0,y_0)\\right)_{j,k}\n\\quad j=1,\\ldots,m\\quad k=1,\\ldots,m$$ is invertible, then there exists\na neighborhood $U\\subset \\mathbb{R}^n$ of $x_0$ and a function\n$g \\in C^1(U,\\mathbb{R}^m)$ such that\n$$f(x,g(x)) = f(x_0,y_0) \\qquad \\forall x \\in U.$$\n\nMoreover $$Dg(x) = - (D_y f(x,g(x))) ^ {-1} D_x f(x,g(x)).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ImplicitFunctionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "implicit function theorem"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Recall that a paving $\\mathcal{K}$ is compact if every subcollection\nsatisfying the finite intersection property has nonempty intersection.\nIn particular, a topological space is if and only if its collection of\nclosed subsets forms a compact paving. Compact paved spaces can\ntherefore be constructed by taking closed subsets of a compact\ntopological space. In fact, all compact pavings arise in this way, as we\nnow show.\n\nGiven any compact paving $\\mathcal{K}$ the following result says that\nthe collection $\\mathcal{K}^\\prime$ of all intersections of finite\nunions of sets in $\\mathcal{K}$ is also compact.\n\n\\[thm:1\\] Suppose that $(K,\\mathcal{K})$ is a compact paved space. Let\n$\\mathcal{K}^\\prime$ be the smallest collection of subsets of $X$ such\nthat $\\mathcal{K}\\subseteq\\mathcal{K}^\\prime$ and which is closed under\narbitrary intersections and finite unions. Then, $\\mathcal{K}^\\prime$ is\na compact paving.\n\nIn particular,\n$$\\mathcal{T}\\equiv\\left\\{K\\setminus C\\colon C\\in\\mathcal{K}^\\prime\\right\\}\\cup\\left\\{\\emptyset,K\\right\\}$$\nis closed under arbitrary unions and finite intersections, and hence is\na topology on $K$. The collection of closed sets defined with respect to\nthis topology is $\\mathcal{K}^\\prime\\cup\\{\\emptyset,K\\}$ which, by\nTheorem \\[thm:1\\], is a compact paving. So, the following is obtained.\n\nA paving $(K,\\mathcal{K})$ is compact if and only if there exists a\ntopology on $K$ with respect to which $\\mathcal{K}$ are closed sets and\n$K$ is compact.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompactPavingsAreClosedSubsetsOfACompactSpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "compact pavings are closed subsets of a compact space"
+  ]
+}

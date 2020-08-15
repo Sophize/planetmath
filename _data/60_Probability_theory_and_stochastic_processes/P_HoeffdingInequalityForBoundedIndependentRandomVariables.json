@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X_1$, $X_2, \\ldots, X_n$ be independent random variables, such that\n$\\Pr(a_k \\leq X_k \\leq b_k)= 1$ for all $k$, where $a_k$ and $b_k$ are\nconstant, $a_k<b_k$. Let $S_n$ be the sum $X_1+\\ldots+X_n$. Then\n$$\\Pr(S_n - E[S_n] > \\epsilon) \\leq \\exp\\Big( - \\frac{2 \\epsilon^2}{\\sum_{k=1}^n(b_k-a_k)^2} \\Big),$$\n$$\\Pr(|S_n - E[S_n]| > \\epsilon) \\leq 2 \\exp\\Big( - \\frac{2 \\epsilon^2}{\\sum_{k=1}^n(b_k-a_k)^2} \\Big).$$\n\n[1]{} W. Hoeffding, \u201cProbability inequalities for sums of bounded random\nvariables\u201d, *J. Amer. Statist. Assoc.*, vol. 58, pp.13-30, 1963.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HoeffdingInequalityForBoundedIndependentRandomVariables"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hoeffding inequality for bounded independent random variables"
+  ]
+}

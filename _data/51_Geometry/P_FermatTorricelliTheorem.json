@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem (Fermat$-$Torricelli).** Let all angles of a triangle $ABC$ be\nat most $120^\\circ$. Then the inner point $F$ of the triangle which\nmakes the sum $AF\\!+\\!BF\\!+\\!CF$ as little as possible, is the point\nfrom which the angle of view of every side is $120^\\circ$.\n\n[*Proof.*]{} Let\u2019s perform the rotation of $60^\\circ$ about the point\n$A$. When $P$ is the image of the point $C$, the triangle $ACP$ is\nequilateral and its angles are $60^\\circ$. Let $F$ be any inner point of\nthe triangle $ABC$ and $Q$ its image in the rotation. We infer that if\nthe sides of the triangle $ABC$ are all seen from $F$ in the angle\n$120^\\circ$, then the points $B$, $F$, $Q$, $P$ lie on the same line.\n\n(-1,-0.5)(4,3.5) (0,0)(0,3)(3,1) (0,-0.25)[$A$]{} (3,0.75)[$B$]{}\n(0,3.25)[$C$]{} (0,0)(-2.5,1.35)(0,3) (-2.5,1.35)(3,1) (-2.8,1.3)[$P$]{}\n(0.75,0.85)[$F$]{} (0,3)(0.7,1.15)(0,0) (-0.7,1.23) (-0.55,1.5)[$Q$]{}\n(0,0)(-0.7,1.2) (0.7,1.15)\n\nGenerally, the triangles $APQ$ and $ACF$ are congruent, whence\n$CF = QP$. From the equilateral triangles we obtain:\n$$AF\\!+\\!BF\\!+\\!CF \\;=\\; FQ\\!+\\!BF\\!+\\!QP \\;=\\; BFQP$$ Here, the right\nhand side is minimal when the points $B$, $F$, $Q$, $P$ are collinear,\nin which case $$\\begin{aligned}\n&\\angle CFA \\;=\\; \\angle PQA \\;=\\; 180^\\circ\\!-\\!\\angle AQF \\;=\\; 120^\\circ,\\\\\n&\\angle AFB \\;=\\; 180^\\circ\\!-\\!\\angle QFA \\;=\\; 120^\\circ,\\\\\n&\\angle BFC \\;=\\; 360^\\circ\\!-\\!240^\\circ \\;=\\; 120^\\circ.\\end{aligned}$$\n\n(-1,-0.5)(4,3.5) (0,0)(0,3)(3,1) (0,-0.25)[$A$]{} (3,0.75)[$B$]{}\n(0,3.25)[$C$]{} (0,0)(-2.5,1.35)(0,3) (-2.8,1.3)[$P$]{}\n(1.05,1.65)[$F$]{} (0,3)(0.8,1.45)(0,0)\n(-2.5,1.35)(-0.7,1.45)(0.8,1.45)(3,1) (-0.7,1.45) (-0.5,1.75)[$Q$]{}\n(0,0)(-0.7,1.45) (0.8,1.45)\n\n**Remark.** The point $F$ is called the [*Fermat point*]{} of the\ntriangle $ABC$.\n\n[8]{} : [*Geometria. Lyhyt kurssi*]{}. Matematiikan laitos. Turun\nyliopisto, Turku (2007).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FermatTorricelliTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Fermat$-$Torricelli theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "#### Definition\n\nWe begin with a probability space $(\\Omega, \\mathcal{F}, \\mathbb{P})$.\nLet $I$ be a countable set, $(X_n: n \\in {\\mathbb{Z}})$ be a collection\nof random variables taking values in $I$,\n${\\mathbf{T}} = (t_{ij}: i,j \\in I)$ be a stochastic matrix, and\n${\\mathbf{\\lambda}}$ be a distribution. We call $(X_n)_{n\\ge 0}$ a\n*Markov chain* with initial distribution ${\\mathbf{\\lambda}}$ and\n*transition matrix* ${\\mathbf{T}}$ if:\n\n1.  [$X_0$ has distribution ${\\mathbf{\\lambda}}$.]{}\n\n2.  [For $n \\ge 0$,\n    $\\mathbb{P}(X_{n+1}=i_{n+1} | X_0 = i_0, \\ldots, X_n = i_n) = t_{i_n i_{n+1}}$.]{}\n\nThat is, the next value of the chain depends only on the current value,\nnot any previous values. This is often summed up in the pithy phrase,\n\u201cMarkov chains have no memory.\u201d\n\nAs a special case of (2) we have that\n$\\mathbb{P}(X_{n+1} = i | X_n = j) = t_{ij}$ whenever $i,j \\in I$. The\nvalues $t_{ij}$ are therefore called *transition probabilities* for the\nMarkov chain.\n\n#### Discussion\n\nMarkov chains are arguably the simplest examples of random processes.\nThey come in discrete and continuous versions; the discrete version is\npresented above.",
+  "language": "INFORMAL",
+  "phrase": "Markov Chain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MarkovChain"
+    }
+  ],
+  "indexable": true
+}

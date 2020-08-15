@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose $X$ is a set and $f$ is a mapping $f:X\\to X$.\nIf $f^n$ is the identity mapping on $X$ for some $n=1,2,\\ldots$, then\n$f$ is said to be a [**mapping of period**]{} $n$. Here, the notation\n$f^n$ means the $n$-fold composition $f\\circ\\cdots \\circ f$.\n\n### Examples\n\n1.  A mapping $f$ is of period $1$ if and only if $f$ is the identity\n    mapping.\n\n2.  Suppose $V$ is a vector space. Then a linear involution $L:V\\to V$\n    is a mapping of period $2$. For example, the reflection mapping\n    $x\\mapsto -x$ is a mapping of period $2$.\n\n3.  In the complex plane, the mapping $z\\mapsto e^{-2\\pi i/n}z $ is a\n    mapping of period $n$ for $n=1,2,\\ldots$.\n\n4.  Let us consider the function space spanned by the trigonometric\n    functions $\\sin$ and $\\cos$. On this space, the derivative is a\n    mapping of period $4$.\n\n### Properties\n\n1.  Suppose $X$ is a set. Then a mapping $f:X\\to X$ of period $n$ is a\n    bijection.\n\n2.  Suppose $X$ is a topological space. Then a continuous mapping\n    $f:X\\to X$ of period $n$ is a homeomorphism.",
+  "language": "INFORMAL",
+  "phrase": "Period Of Mapping",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PeriodOfMapping"
+    }
+  ],
+  "indexable": true
+}

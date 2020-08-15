@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A root system is a key notion in the classification and the\nrepresentation theory of reflection groups and of semi-simple Lie\nalgebras. Let $E$ be a Euclidean vector space with inner product\n$(\\cdot,\\cdot)$. A root system is a finite spanning set $R\\subset E$\nsuch that for every $u\\in R$, the orthogonal reflection $$v\\mapsto\nv-2\\frac{(u,v)}{(u,u)} u,\\quad v\\in E$$ preserves $R$.\n\nA root system is called *crystallographic* if $2\\frac{(u,v)}{(u,u)}$ is\nan integer for all $u,v\\in R$.\n\nA root system is called [*reduced*]{} if for all $u\\in R$, we have\n$ku\\in R$ for $k=\\pm 1$ only.\n\nWe call a root system [*indecomposable*]{} if there is no proper\ndecomposition $R=R'\\cup R''$ such that every vector in $R'$ is\northogonal to every vector in $R''$.",
+  "language": "INFORMAL",
+  "phrase": "Root System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RootSystem"
+    }
+  ],
+  "indexable": true
+}

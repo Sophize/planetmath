@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $n$ be arbitrary positive integer. The power function $x\\mapsto x^n$\nfrom $\\mathbb{R}$ to $\\mathbb{R}$ (or $\\mathbb{C}$ to $\\mathbb{C}$) is\ncontinuous at each point $x_0$.\n\n[*Proof.*]{} Let $\\varepsilon$ be any positive number. Denote\n$x_0+h = x$ and $x^n-x_0^n = \\Delta$. Then identically\n$$\\Delta \\;=\\; (x-x_0)(x^{n-1}+x^{n-2}x_0+...+x_0^{n-1}).$$ Taking the\nabsolute value and using the triangle inequality give\n$$|\\Delta| \\;=\\; |h|\\cdot|x^{n-1}+x^{n-2}x_0+...+x_0^{n-1}| \\;\\leqq\\;\n    |h|\\cdot(|x^{n-1}|+|x^{n-2}x_0|+...+|x_0^{n-1}|).$$ But since\n$|x| = |x_0+h| \\leqq |x_0|+|h|$ and also $|x_0| \\leqq |x_0|+|h|$, so\neach summand in the parentheses is at most equal to $(|x_0|+|h|)^{n-1}$,\nand since there are $n$ summands, the sum is at most equal to\n$n(|x_0|+|h|)^{n-1}$. Thus we get\n$$|\\Delta| \\;\\leqq\\; n|h|(|x_0|+|h|)^{n-1}.$$ We may choose $|h| < 1$;\nthis implies $$|\\Delta| \\;\\leqq\\; n|h|(|x_0|+1)^{n-1}.$$ The right hand\nside of this inequality is less than $\\varepsilon$ as soon as we still\nrequire $$|h| \\;<\\; \\frac{\\varepsilon}{n(|x_0|+1)^{n-1}}.$$ This means\nthat the power function $x\\mapsto x^n$ is continuous at the point\n$x_0$.\\\n**Note.** Another way to prove the theorem is to use induction on $n$\nand the rule 2 in limit rules of functions.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuityOfNaturalPower"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "continuity of natural power"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathcal{F}$ be a Sperner family, that is, the collection of\nsubsets of $\\{1,2,\\dotsc,n\\}$ such that no set contains any other\nsubset. Then\n$$\\sum_{X\\in\\mathcal{F}} \\frac{1}{\\binom{n}{{\\left\\lvert X\\right\\rvert}}}\\leq 1.$$\nThis inequality is known as *LYM inequality* by the names of three\npeople that independently discovered it: Lubell[@cite:lubell_lym],\nYamamoto[@cite:yamamoto_lym], Meshalkin[@cite:meshalkin_lym].\n\nSince $\\binom{n}{k}\\leq \\binom{n}{{\\left\\lfloor n/2\\right\\rfloor}}$ for\nevery integer $k$, LYM inequality tells us that\n${\\left\\lvert F\\right\\rvert}/\\binom{n}{{\\left\\lfloor n/2\\right\\rfloor}}\\leq 1$\nwhich is .\n\n[1]{}\n\nKonrad Engel. , volume\u00a065 of [*Encyclopedia of Mathematics and Its\nApplications*]{}. Cambridge University Press. .\n\nDavid Lubell. A short proof of Sperner\u2019s lemma. , 1:299, 1966. .\n\nLev\u00a0D. Meshalkin. Generalization of Sperner\u2019s theorem on the number of\nsubsets of a finite set. , 8:219\u2013220, 1963. .\n\nKoichi Yamamoto. Logarithmic order of free distributive lattice. ,\n6:343\u2013353, 1954. .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LYMInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "LYM inequality",
+    "LYM-inequality"
+  ]
+}

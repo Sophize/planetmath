@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Consider the sequence of primes 2, 5, 11, 23, 47. Each is twice the\nprevious one plus 1.\n\nWhen, in a sequence of primes $p_1, \\ldots p_k$ each\n$p_n = 2p_{n - 1} + 1$ for $1 < n \\le k$ (or alternatively, each\n$p_n = {{p_{n - 1} - 1} \\over 2}$ for $0 < n < k$), the sequence is\ncalled a [*Cunningham chain of the first kind*]{}. In a Cunningham chain\nof the first kind, all primes except the largest are Sophie Germain\nprimes, while all primes except the smallest are safe primes. The primes\nin a Cunningham chain are related to the Mersenne numbers thus:\n$p_n \\equiv 2^n - 1 \\mod 2^n$, where $n$ is the prime\u2019s position in the\nCunningham chain (except in the case of the chain starting with 2, which\nis a special case).\n\nIn a [*Cunningham chain of the second kind*]{}, the relation among\nprimes is $2p_{n - 1} - 1$. An example of a Cunningham chain of the\nsecond kind is 1531, 3061, 6121, 12241, 24481.\n\nIt is strongly believed that there are infinitely many Cunningham chains\nof either kind, but this remains to be proven.\n\nExternal links",
+  "language": "INFORMAL",
+  "phrase": "Cunningham Chain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CunninghamChain"
+    }
+  ],
+  "indexable": true
+}

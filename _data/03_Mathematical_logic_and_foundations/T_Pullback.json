@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose $X,Y,Z$ are sets, and we have maps\n$$\\begin{aligned}\n f\\colon Y&\\to& Z, \\\\\n \\Phi\\colon X&\\to& Y.\\end{aligned}$$ Then the [**pullback**]{} of $f$\nunder $\\Phi$ is the mapping $$\\begin{aligned}\n\\Phi^\\ast f\\colon  X &\\to& Z, \\\\\n             x&\\mapsto& (f\\circ\\Phi)(x).\\end{aligned}$$\n\nLet us denote by $M(X,Y)$ the set of all mappings $f\\colon X\\to Y$. We\nthen see that $\\Phi^\\ast$ is a mapping $M(Y,Z)\\to M(X,Z)$. In other\nwords, $\\Phi^\\ast$ pulls back the set where $f$ is defined on from $Y$\nto $X$. This is illustrated in the below diagram. $$\\xymatrix{\n X \\ar[r]^\\Phi\\ar[dr]_{\\Phi^\\ast f} & Y \\ar[d]_{f} \\\\\n  &  Z \n }$$\n\n### Properties\n\n1.  For any set $X$,\n    $(\\operatorname{id}_X)^\\ast = \\operatorname{id}_{M(X,X)}$.\n\n2.  Suppose we have maps $$\\begin{aligned}\n     \\Phi\\colon X&\\to& Y, \\\\\n     \\Psi\\colon Y&\\to& Z\\end{aligned}$$ between sets $X,Y,Z$. Then\n    $$(\\Psi\\circ \\Phi)^\\ast = \\Phi^\\ast \\circ \\Psi^\\ast.$$\n\n3.  If $\\Phi\\colon X\\to Y$ is a bijection, then $\\Phi^\\ast$ is a\n    bijection and\n    $$\\big(\\Phi^\\ast\\big)^{-1} = \\big(\\Phi^{-1}\\big)^\\ast.$$\n\n4.  Suppose $X,Y$ are sets with $X\\subset Y$. Then we have the inclusion\n    map $\\iota:X\\hookrightarrow Y$, and for any $f\\colon Y\\to Z$, we\n    have $$\\iota^\\ast f = f|_X,$$ where $f|_X$ is the of $f$ to $X$.",
+  "language": "INFORMAL",
+  "phrase": "Pullback",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Pullback"
+    }
+  ],
+  "indexable": true
+}

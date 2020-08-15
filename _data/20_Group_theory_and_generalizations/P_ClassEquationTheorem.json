@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a group acting on a finite set $X$. Define the set of\ninvariants in $X$ by the action of $G$ as\n$G_{X}=\\{x \\in X  \\quad \\lvert \\quad gx=x \\quad \\forall g \\in G\\}$. Then\nthere are $H_{1}, ..., H_{r}$ subgroups of $G$ with\n$H_{i} \\neq G \\quad \\forall i$ such that\n$\\#X = \\#G_{X} + \\sum_{i=1}^{r}[G:H_{i}]$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClassEquationTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "class equation theorem",
+    "class equation"
+  ]
+}

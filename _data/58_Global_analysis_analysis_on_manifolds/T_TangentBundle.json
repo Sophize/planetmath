@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a differentiable manifold. Let the tangent bundle $TM$ of $M$\nbe(as a set) the disjoint union $\\coprod_{m\\in M}T_mM$ of all the\ntangent spaces to $M$, i.e., the set of pairs\n$$\\{(m,x)|m\\in M, x\\in T_mM\\}.$$ This naturally has a manifold\nstructure, given as follows. For $M={\\mathbb{R}}^n$, $T{\\mathbb{R}}^n$\nis obviously isomorphic to ${\\mathbb{R}}^{2n}$, and is thus obviously a\nmanifold. By the definition of a differentiable manifold, for any\n$m\\in M$, there is a neighborhood $U$ of $m$ and a diffeomorphism\n${\\varphi}:{\\mathbb{R}}^n\\to U$. Since this map is a diffeomorphism, its\nderivative is an isomorphism at all points. Thus\n$T{\\varphi}:T{\\mathbb{R}}^n={\\mathbb{R}}^{2n}\\to TU$ is bijective, which\nendows $TU$ with a natural structure of a differentiable manifold. Since\nthe transition maps for $M$ are differentiable, they are for $TM$ as\nwell, and $TM$ is a differentiable manifold. In fact, the projection\n$\\pi:TM\\to M$ forgetting the tangent vector and remembering the point,\nis a vector bundle. A vector field on $M$ is simply a section of this\nbundle.\n\nThe tangent bundle is functorial in the obvious sense: If $f:M\\to N$ is\ndifferentiable, we get a map $Tf:TM\\to TN$, defined by $f$ on the base,\nand its derivative on the fibers.",
+  "language": "INFORMAL",
+  "phrase": "Tangent Bundle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TangentBundle"
+    }
+  ],
+  "indexable": true
+}

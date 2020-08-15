@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $ABC$ a triangle. Let $T$ a point in the circumcircle such that $BT$\nis a diameter.\n\n![image](sineslawproof)\n\nSo $\\angle A=\\angle CAB$ is equal to $\\angle CTB$ (they subtend the same\narc). Since $\\triangle CBT$ is a right triangle, from the definition of\nsine we get $$\\sin \\angle CTB =\\frac{BC}{BT}=\\frac{a}{2R}.$$\n\nOn the other hand $\\angle CAB=\\angle CTB$ implies their sines are the\nsame and so $$\\sin \\angle CAB=\\frac{a}{2R}$$ and therefore\n$$\\frac{a}{\\sin A}=2R.$$\n\nDrawing diameters passing by $C$ and $A$ will let us prove in a similar\nway the relations\n$$\\frac{b}{\\sin B}=2R\\quad\\mbox{and}\\quad\\frac{c}{\\sin C}=2R$$ and we\nconclude that $$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R.$$\n\nQ.E.D.",
+  "conclusion": "#P_SinesLaw",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SinesLawProof"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "sines law proof"
+  ]
+}

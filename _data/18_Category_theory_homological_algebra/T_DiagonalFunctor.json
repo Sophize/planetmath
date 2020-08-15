@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ be a category. A *diagonal functor* on $\\mathcal{C}$\nis a functor $\\delta:\\mathcal{C}\\to \\mathcal{C}^I$ for some set $I$\ngiven by\n$$\\delta(A)=(A)_{i\\in I}\\quad\\mbox{ and }\\quad \\delta(\\alpha)=(\\alpha)_{i\\in I}.$$\nHere, $\\mathcal{C}^I$ denotes the of the category $\\mathcal{C}$. For any\ngiven $I$, $\\delta$ is unique.\n\n$\\delta$ is . Its image, $\\delta(\\mathcal{C})$, is the subcategory of\n$\\mathcal{C}^I$ whose objects are $(A)_{i\\in I}$ and morphisms are\n$(\\alpha)_{i\\in I}$. $\\delta(\\mathcal{C})$ is to $\\mathcal{C}$, and may\nbe pictured as the great diagonal of an $I$-dimensional \u201ccube\u201d.\n\nMore generally, when $I$ is a category, then the diagonal functor is\njust a functor $\\delta$ that sends each object $A\\in \\mathcal{C}$ to the\nconstant functor $\\delta(A):I\\to \\mathcal{C}$ with fixed value $A$, and\nevery morphism $\\alpha:A\\to B$ to the natural transformation\n$\\delta(\\alpha):\\delta(A)\\dot{\\to} \\delta(B)$, which sends every object\n$i\\in I$ to $\\alpha$. A routine verification shows that $\\delta(\\alpha)$\nis indeed a natural transformation.",
+  "language": "INFORMAL",
+  "phrase": "Diagonal Functor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiagonalFunctor"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $k$ be a field and $A$ an algebra over $k$.\n\nDenote by $\\mathrm{rad}A$ the (Jacobson) radical of $A$ and\n$\\mathrm{rad}^2A=(\\mathrm{rad}A)^2$ a square of radical.\n\nSince $A$ is finite-dimensional, then we have a $E=\\{e_1,\\ldots,e_n\\}$.\n\n**Definition.** The **ordinary quiver** of a finite-dimensional algebra\n$A$ is defined as follows:\n\n1.  The set of vertices is equal to $Q_0=\\{1,\\ldots,n\\}$ which is in\n    bijective correspondence with $E$.\n\n2.  If $a,b\\in Q_0$, then the number of arrows from $a$ to $b$ is equal\n    to the dimension of the $k$-vector space\n    $$e_a\\big(\\mathrm{rad}A/\\mathrm{rad}^2A\\big)e_b.$$\n\nIt can be shown that the ordinary quiver is well-defined, i.e. it is\nindependent on the choice of a complete set of primitve orthogonal\nidempotents. Also finite dimension of $A$ implies, then the ordinary\nquiver is finite.",
+  "language": "INFORMAL",
+  "phrase": "Ordinary Quiver Of An Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrdinaryQuiverOfAnAlgebra"
+    }
+  ],
+  "indexable": true
+}

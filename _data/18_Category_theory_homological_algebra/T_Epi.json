@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "epimorphism",
+    "epimorphic"
+  ],
+  "definition": "A morphism $f : A\\to B$ in a category $\\mathcal{C}$ is called [*epi*]{}\nif for any object $C$ and any morphisms $g_1,g_2 : B\\to C$, if\n$g_1 f = g_2 f$ then $g_1 = g_2$. In other words, any diagram\n\n$\\xymatrix{A \\ar[r]^f & B \\ar[r]^{g_1} & C}=\\xymatrix{A \\ar[r]^f & B \\ar[r]^{g_2} & C}$\n\nreduces to the diagram\n$$\\xymatrix{B \\ar[r]^{g_1} & C}=\\xymatrix{B \\ar[r]^{g_2} & C}.$$\n\nAn *epimorphism* is just an epi morphism, and epi is also known as\n*right cancellable*, *epimorphic*, or simply *epic*.\n\n**Remarks.**\n\n1.  If $\\mathcal{C}$ is an abelian category, then an epi has the\n    property that $gf=0$ implies $g=0$ (surely, since $gf=0=0f$, and the\n    result follows).\n\n2.  Epi is the generalization of a function being onto. In some\n    categories where surjections are well-defined (such as sets and\n    groups), epi is the same as being onto.\n\n3.  The dual notion of epi is that of .",
+  "language": "INFORMAL",
+  "phrase": "Epi",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Epi"
+    }
+  ],
+  "indexable": true
+}

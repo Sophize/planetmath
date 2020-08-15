@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ be a Boolean algebra. Recall that an ideal $I$ of $A$ if it is\nclosed under $\\vee$, and for any $a\\in I$ and $b\\in A$,\n$a\\wedge b\\in I$. $I$ is proper if $I\\ne A$ and non-trivial if\n$I\\ne (0)$, and $I$ is prime if it is proper, and, given\n$a\\wedge b\\in I$, either $a\\in I$ or $b\\in I$.\n\nEvery Boolean algebra contains a prime ideal.\n\nLet $A$ be a Boolean algebra. If $A$ is trivial (the two-element\nalgebra), then $(0)$ is the prime ideal we want. Otherwise, pick\n$a\\in A$, where $0\\ne a\\ne 1$, and let be the trivial ideal. By\nBirkhoff\u2019s prime ideal theorem for distributive lattices, $A$,\nconsidered as a distributive lattice, has a prime ideal $P$ (containing\n$(0)$ obviously) such that $a\\notin P$. Then $P$ is also a prime ideal\nof $A$ considered as a Boolean algebra.\n\nThere are several equivalent versions of the Boolean prime ideal\ntheorem, some are listed below:\n\n1.  Every Boolean algebra has a prime ideal.\n\n2.  Every ideal in a Boolean algebra can be enlarged to a prime ideal.\n\n3.  Given a set $S$ in a Boolean algebra $A$, and an ideal $I$ disjoint\n    from $S$, then there is a prime ideal $P$ containing $I$ and\n    disjoint from $S$.\n\n4.  An ideal and a filter in a Boolean algebra, disjoint from one\n    another, can be enlarged to an ideal and a filter that are\n    complement (as sets) of one another.\n\n**Remarks**.\n\n1.  Because the Boolean prime ideal theorem has been extensively\n    studied, it is often abbreviated in the literature as BPI. Since the\n    prime ideal theorem for distributive lattices uses the axiom of\n    choice, ZF+AC implies BPI. However, there are models of ZF+BPI where\n    AC fails.\n\n2.  It can be shown (see John Bell\u2019s online article ) that BPI is\n    equivalent, under ZF, to some of the well known theorems in\n    mathematics:\n\n    -   Tychonoff\u2019s theorem for Hausdorff spaces: the product of compact\n        Hausdorff spaces is compact under the product topology,\n\n    -   the Stone representation theorem,\n\n    -   the for first order logic, and\n\n    -   the completeness theorem for first order logic.\n\n[9]{} G. Gr\u00e4tzer, [*General Lattice Theory*]{}, 2nd Edition, Birkh\u00e4user\n(1998). T. J. Jech, *The Axiom of Choice*, North-Holland Pub. Co.,\nAmsterdam, (1973). R. Sikorski, [*Boolean Algebras*]{}, 2nd Edition,\nSpringer-Verlag, New York (1964).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BooleanPrimeIdealTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Boolean prime ideal theorem",
+    "BPI"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "cohomological complex"
+  ],
+  "definition": "A *cohomological complex of topological vector spaces* is a pair\n$(E^{\\bullet}, d)$ where $(E^{\\bullet} = (E^q)_{q \\in Z} $ is a sequence\nof topological vector spaces and $d = (d^q)_{q \\in Z }$ is a sequence of\ncontinuous linear maps $d^q$ from $E^{q}$ into $E^{q+1}$ which satisfy\n$d^q \\circ d^{q+1} = 0$.\n\n**Remarks**\n\n-   The *dual complex* of a cohomological complex $(E^{\\bullet}, d)$ of\n    topological vector spaces is the , where\n    $(E'_{\\bullet} = (E'_q)_{q \\in Z}$ with $E'_q$ being the strong dual\n    of $E^q$ and $d' = (d'_q)_{q \\in Z}$ , and also with $d'_q $ being\n    the *transpose map* of $d^q$.\n\n-   A cohomological complex of topological vector spaces (TVS) is a\n    specific case of a *cochain complex*, which is the dual of the\n    concept of chain complex.",
+  "language": "INFORMAL",
+  "phrase": "Cohomological Complex Of Topological Vector Spaces",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CohomologicalComplexOfTopologicalVectorSpaces"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be an $n \\times n$ square matrix and $x$ an $n\\times 1$ column\nvector. Then a (right) *eigenvector* of $A$ is a nonzero vector $x$ such\nthat\n\n$$Ax = \\lambda x$$\n\nfor some scalar $\\lambda$, i.e. such that the image of $x$ under the\ntransformation $A$ is a *scalar* of $x$. One can similarly define left\neigenvectors in the case that $A$ acts on the right.\n\nOne can find eigenvectors by first finding eigenvalues, then for each\neigenvalue $\\lambda_i$, solving the system\n\n$$(A-\\lambda_i I) x_i = 0$$\n\nto find a form which characterizes the eigenvector $x_i$ (any of $x_i$\nis also an eigenvector). Of course, this is not necessarily the best way\nto do it; for this, see singular value decomposition.",
+  "language": "INFORMAL",
+  "phrase": "Eigenvector",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Eigenvector"
+    }
+  ],
+  "indexable": true
+}

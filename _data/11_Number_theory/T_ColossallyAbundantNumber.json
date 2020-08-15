@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An integer $n$ is a [*colossally abundant number*]{} if there is an\nexponent $\\epsilon > 1$ such that the sum of divisors of $n$ divided by\n$n$ raised to that exponent is greater than or equal to the sum of\ndivisors of any other integer $k > 1$ divided by $k$ raised to that same\nexponent. That is,\n$$\\frac{\\sigma(n)}{n^\\epsilon} \\geq \\frac{\\sigma(k)}{k^\\epsilon},$$ with\n$\\sigma(n)$ being the sum of divisors function.\n\nThe first few colossally abundant numbers are 1, 2, 6, 12, 60, 120, 360,\n2520, 5040, 55440, 720720, 1441440, 4324320. The index of a colossally\nabundant number is equal to the number of its nondistinct prime factors,\nthat is to say that for the $i$th colossally abundant number $c_i$ the\nequality $i = \\Omega(c_i)$ is true.",
+  "language": "INFORMAL",
+  "phrase": "Colossally Abundant Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ColossallyAbundantNumber"
+    }
+  ],
+  "indexable": true
+}

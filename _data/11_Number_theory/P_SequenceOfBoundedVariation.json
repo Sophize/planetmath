@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The sequence $$\\begin{aligned}\na_1, a_2, a_3, \\ldots\\end{aligned}$$ of complex numbers is said to be\n[*of bounded variation*]{}, iff it satisfies\n$$\\sum_{n=1}^\\infty|a_n\\!-\\!a_{n+1}| \\;<\\; \\infty.$$ Cf. function of\nbounded variation. See also .\\\n**Theorem.** Every sequence of bounded variation is .\\\n[*Proof.*]{} Let\u2019s have a sequence (1) of bounded variation. When\n$m < n$, we form the telescoping sum\n$$a_m-a_n = \\sum_{i=m}^{n-1}(a_i-a_{i+1})$$ from which we see that\n$$|a_m-a_n| \\;\\leqq\\; \\sum_{i=m}^{n-1}|a_i-a_{i+1}|.$$ This inequality\nshows, by the Cauchy criterion for convergence of series, that the\nsequence (1) is a Cauchy sequence and thus converges.\\\nOne kind of sequences of bounded variation is formed by the bounded\nmonotonic sequences of real numbers (those sequences are convergent, as\nis well known). Indeed, if (1) is a bounded and e.g. monotonically\nnondecreasing sequence, then\n$$a_i \\leqq a_{i+1} \\quad\\mbox{  for each }i,$$ whence $$\\begin{aligned}\n\\sum_{i=1}^n|a_{i+1}-a_i| = \\sum_{i=1}^n(a_{i+1}-a_i) \n                            = a_{n+1}-a_1.\\end{aligned}$$ The\nboundedness of (1) thus implies that the partial sums (2) of the series\n$\\sum_{i=1}^\\infty|a_{i+1}-a_i|$ with nonnegative terms are bounded.\nTherefore the last series is convergent, i.e. our sequence (1) is of\nbounded variarion.\n\n[8]{} : [*Amazing and Aesthetic Aspects of Analysis: On the incredible\ninfinite*]{}. A Course in Undergraduate Analysis, Fall 2006. Available\nin http://www.math.binghamton.edu/dennis/478.f07/EleAna.pdf",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SequenceOfBoundedVariation"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "sequence of bounded variation"
+  ]
+}

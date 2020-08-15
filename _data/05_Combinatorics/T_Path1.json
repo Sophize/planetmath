@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *path* in a graph is a finite sequence of alternating vertices and\nedges, beginning and ending with a vertex,\n$v_1e_1v_2e_2v_3\\dots e_{n-1}v_n$ such that every consecutive pair of\nvertices $v_x$ and $v_{x+1}$ are adjacent and $e_x$ is incident with\n$v_x$ and with $v_{x+1}$. Typically, the edges may be omitted when\nwriting a path (e.g., $v_1v_2v_3\\dots v_n$) since only one edge of a\ngraph may connect two adjacent vertices. In a multigraph, however, the\nchoice of edge may be significant.\n\nThe length of a path is the number of edges in it.\n\nConsider the following graph:\n\n$$\\xymatrix{\nA \\ar@{-}[r] & B \\ar@{-}[d] \\\\\nD \\ar@{-}[u] & C \\ar@{-}[l] }$$\n\nPaths include (but are certainly not limited to) $ABCD$ (length 3),\n$ABCDA$ (length 4), and $ABABABABADCBA$ (length 12). $ABD$ is not a path\nsince $B$ is not adjacent to $D$.\n\nIn a digraph, each consecutive pair of vertices must be connected by an\nedge with the proper orientation; if $e=(u,v)$ is an edge, but $(v,u)$\nis not, then $uev$ is a valid path but $veu$ is not.\n\nConsider this digraph:\n\n$$\\xymatrix{\nG \\ar[r] \\ar[d] & H \\ar[d] \\ar[l] \\\\\nJ & I \\ar[l] }$$\n\n$GHIJ$, $GJ$, and $GHGHGH$ are all valid paths. $GHJ$ is not a valid\npath because $H$ and $J$ are not connected. $GJI$ is not a valid path\nbecause the edge connecting $I$ to $J$ has the opposite orientation.",
+  "language": "INFORMAL",
+  "phrase": "Path",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Path1"
+    }
+  ],
+  "indexable": true
+}

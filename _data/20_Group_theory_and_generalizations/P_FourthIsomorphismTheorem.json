@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a group and $N\\unlhd G$. There is a bijection between $G(N)$,\nthe set of subgroups of $G$ containing $N$, and the set of subgroups of\n$G/N$ defined by $A\\rightarrow A/N$. Moreover, for any two subgroups\n$A,B$ in $G(N)$, we have\n\n1.  $A\\leq B$ if and only if $A/N\\leq B/N$,\n\n2.  $A\\leq B$ implies $|B:A|=|B/N:A/N|$,\n\n3.  $\\ang{A,B}/N=\\ang{A/N,B/N}$,\n\n4.  $(A\\cap B)/N=(A/N)\\cap (B/N)$, and\n\n5.  $A\\unlhd G$ if and only if $(A/N)\\unlhd (G/N)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FourthIsomorphismTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fourth isomorphism theorem",
+    "correspondence theorem",
+    "lattice isomorphism theorem"
+  ]
+}

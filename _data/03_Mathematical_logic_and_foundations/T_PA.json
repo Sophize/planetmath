@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Peano arithmetic",
+    "first order Peano arithmetic"
+  ],
+  "definition": "(PA) is the restriction of Peano\u2019s axioms to a first order theory of .\nThe only change is that the induction axiom is replaced by induction\nrestricted to arithmetic formulas:\n\n$$\\phi(0)\\wedge \\forall x(\\phi(x)\\rightarrow\\phi(x'))\\rightarrow \\forall x\\phi(x)) \\text{where }\\phi\\text{ is arithmetical}$$\n\nNote that this replaces the single, second-order, axiom of induction\nwith a countably infinite schema of axioms.\n\nAppropriate axioms defining $+$, $\\cdot$, and $<$ are included. A full\nlist of the axioms of PA looks like this (although the exact list of\naxioms varies somewhat from source to source):\n\n-   $\\forall x (x'\\neq 0)$ ($0$ is the first number)\n\n-   $\\forall x,y (x'=y'\\rightarrow x=y)$ (the successor function is\n    one-to-one)\n\n-   $\\forall x (x+0=x)$ ($0$ is the additive identity)\n\n-   $\\forall x,y(x+y'=(x+y)')$ (addition is the repeated application of\n    the successor function)\n\n-   $\\forall x(x\\cdot 0=0)$\n\n-   $\\forall x,y(x\\cdot(y')=x\\cdot y+x)$ (multiplication is repeated\n    addition)\n\n-   $\\forall x(\\neg (x<0))$ ($0$ is the smallest number)\n\n-   $\\forall x,y(x<y'\\leftrightarrow x<y\\vee x=y)$\n\n-   $\\phi(0)\\wedge \\forall x(\\phi(x)\\rightarrow\\phi(x'))\\rightarrow \\forall x\\phi(x)) \\text{where }\\phi\\text{ is arithmetical}$",
+  "language": "INFORMAL",
+  "phrase": "Pa",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PA"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "We first observe that it suffices to prove the theorem for symplectic\nforms defined on an open neighbourhood of $0 \\in {\\mathbb{R}^{2n}}$.\n\nIndeed, if we have a symplectic manifold $(M, \\eta)$, and a point $x_0$,\nwe can take a (smooth) coordinate chart about $x_0$. We can then use the\ncoordinate function to push $\\eta$ forward to a symplectic form $\\omega$\non a neighbourhood of $0$ in ${\\mathbb{R}^{2n}}$. If the result holds on\n${\\mathbb{R}^{2n}}$, we can compose the coordinate chart with the\nresulting symplectomorphism to get the theorem in general.\n\nLet $\\omega_0 = \\sum_{i=1}^{n} dx_i \\wedge dy_i$. Our goal is then to\nfind a (local) diffeomorphism $\\Psi$ so that $\\Psi(0) = 0$ and\n$\\Psi^*\\omega_0 = \\omega$.\n\nNow, we recall that $\\omega$ is a non\u2013degenerate two\u2013form. Thus, on\n$T_{0} {\\mathbb{R}^{2n}}$, it is a non\u2013degenerate anti\u2013symmetric\nbilinear form. By a linear change of basis, it can be put in the\nstandard form. So, we may assume that $\\omega(0) = \\omega_0(0)$.\n\nWe will now proceed by the \u201cMoser trick\u201d. Our goal is to find a\ndiffeomorphism $\\Psi$ so that $\\Psi(0) = 0$ and $\\Psi^*\\omega =\n\\omega_0$. We will obtain this diffeomorphism as the time\u2013$1$ map of the\nflow of an ordinary differential equation. We will see this as the\nresult of a deformation of $\\omega_0$.\n\nLet $\\omega_t = t \\omega_0 + (1-t) \\omega$. Let $\\Psi_{t}$ be the time\n$t$ map of the differential equation\n$$\\frac{d}{dt} \\Psi_t(x) = X_t(\\Psi_t(x))$$ in which $X_t$ is a vector\nfield determined by a condition to be stated later.\n\nWe will make the ansatz $$\\Psi_{t}^* \\omega = \\omega_t.$$\n\nNow, we differentiate this :\n$$0 = \\frac{d}{dt} \\Psi_t^*\\omega_t = \\Psi_t^*( L_{X_t}\\omega_t +\n\\frac{d}{dt} \\omega_t).$$\n\n($L_{X_t}\\omega_t$ denotes the Lie derivative of $\\omega_t$ with respect\nto the vector field $X_t$.)\n\nBy applying Cartan\u2019s identity and recalling that $\\omega$ is closed, we\nobtain : $$0 = \\Psi_t^*(d \\iota_{X_t} \\omega_t + \\omega - \\omega_0)$$\n\nNow, $\\omega - \\omega_0$ is closed, and hence, by Poincar\u00e9\u2019s Lemma,\nlocally exact. So, we can write $\\omega - \\omega_0 = - d\\lambda$.\n\nThus $$0 = \\Psi_t^*( d ( i_{X_t} \\omega_t - \\lambda ))$$\n\nWe want to require then $$i_{X_t} \\omega_t = \\lambda.$$ Now, we observe\nthat $\\omega_0 = \\omega$ at $0$, so $\\omega_t = \\omega_0$ at $0$. Then,\nas $\\omega_0$ is non\u2013degenerate, $\\omega_t$ will be non\u2013degenerate on an\nopen neighbourhood of $0$. Thus, on this neighbourhood, we may use this\nto define $X_t$ (uniquely!).\n\nWe also observe that $X_t(0) = 0$. Thus, by choosing a sufficiently\nsmall neighbourhood of $0$, the flow of $X_t$ will be defined for time\ngreater than $1$.\n\nAll that remains now is to check that this resulting flow has the\ndesired properties. This follows merely by reading our of the ODE,\nbackwards.",
+  "conclusion": "#P_DarbouxsTheoremsymplecticGeometry",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfDarbouxsTheoremsymplecticGeometry"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Darboux's theorem (symplectic geometry)"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A **coalgebra** is a vector space $A$ over a field ${\\mathbb{K}}$ with a\n${\\mathbb{K}}$-linear map $\\Delta\\colon A \\to A\\otimes A$, called the\n**comultiplication**, and a (non-zero) ${\\mathbb{K}}$-linear map\n$\\varepsilon\\colon A \\to {\\mathbb{K}}$, called the **counit**, such that\n$$\\begin{aligned}\n(\\Delta\\otimes{\\mathrm{id}})\\circ\\Delta & = & ({\\mathrm{id}}\\otimes\\Delta)\\circ\\Delta \\quad\\mbox{(coassociativity)}, \\\\\n(\\varepsilon\\otimes{\\mathrm{id}})\\circ\\Delta & = {\\mathrm{id}}= & ({\\mathrm{id}}\\otimes\\varepsilon)\\circ\\Delta.\\end{aligned}$$\n\nIn of commutative diagrams: $$\\begin{xy}\n\\xymatrix@R=20pt@C=20pt{\n& *+<10pt>\\txt{$A$} \\ar_{\\Delta}[dl] \\ar^{\\Delta}[dr] & \\\\\n*+<10pt>\\txt{$A\\otimes A$} \\ar_{\\Delta\\otimes{\\mathrm{id}}}[dr] & & *+<10pt>\\txt{$A\\otimes A$} \\ar^{{\\mathrm{id}}\\otimes\\Delta}[dl] \\\\\n& *+<10pt>\\txt{$A\\otimes A\\otimes A$} &\n}\\end{xy}$$ $$\\begin{xy}\n\\xymatrix@R=20pt@C=20pt{\n& *+<10pt>\\txt{$A$} \\ar_{\\Delta}[dl] \\ar^{{\\mathrm{id}}}[dd] \\ar^{\\Delta}[dr] & \\\\\n*+<10pt>\\txt{$A\\otimes A$} \\ar_{\\varepsilon\\otimes{\\mathrm{id}}}[dr] & & *+<10pt>\\txt{$A\\otimes A$} \\ar^{{\\mathrm{id}}\\otimes\\varepsilon}[dl] \\\\\n& *+<10pt>\\txt{$A$} &\n}\\end{xy}$$\n\nLet $\\sigma\\colon A\\otimes A \\to A\\otimes A$ be the flip map\n$\\sigma(a\\otimes b) = b\\otimes a$. A coalgebra is said to be\n**cocommutative** if $\\sigma\\circ\\Delta = \\Delta$.\n\nLet $A$ and $B$ be two coalgebras over a field ${\\mathbb{K}}$. A\ncoalgebra homomorphism is a ${\\mathbb{K}}$-linear map $f\\colon A \\to B$\nsuch that $\\Delta_B\\circ f = (f\\otimes f)\\circ\\Delta_A$ and\n$\\varepsilon_B\\circ f = \\varepsilon_A$.\n\nLet $S$ be a set. The free vector space ${\\mathbb{K}}S$, with basis\ngiven by the elements of $S$, is a coalgebra with comultiplication\n$\\Delta(s) = s \\otimes s$ and counit $\\varepsilon(s) = 1$.",
+  "language": "INFORMAL",
+  "phrase": "Coalgebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Coalgebra"
+    }
+  ],
+  "indexable": true
+}

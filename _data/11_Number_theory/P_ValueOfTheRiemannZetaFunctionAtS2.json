@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Here we present an application of Parseval\u2019s equality to number theory.\nLet $\\zeta(s)$ denote the Riemann zeta function. We will compute the\nvalue $$\\zeta(2)$$ with the help of Fourier analysis.\n\n[**Example:**]{}\n\nLet $f\\colon {\\mathbb{R}}\\to {\\mathbb{R}}$ be the \u201cidentity\u201d function,\ndefined by $$f(x)=x, \\text{ for all }x\\in{\\mathbb{R}}.$$\n\nThe Fourier series of this function has been computed in the entry\nexample of Fourier series.\n\nThus $$\\begin{aligned}\n f(x)=\\ x&=& a_0^f +\n\\sum_{n=1}^{\\infty}(a_n^f\\cos(nx)+b_n^f\\sin(nx)) \\\\\n&=& \\sum_{n=1}^{\\infty}(-1)^{n+1}\\frac{2}{n} \\sin(nx), \\quad \\forall x\\in\n(-\\pi,\\pi).\\end{aligned}$$\n\nParseval\u2019s theorem asserts that:\n\n$$\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f^2(x)dx = 2(a_0^f)^2 + \\sum_{k=1}^{\\infty}[(a_k^f)^2+(b_k^f)^2].$$\n\nSo we apply this to the function $f(x)= x $: $$2(a_0^f)^2 +\n\\sum_{k=1}^{\\infty}[(a_k^f)^2+(b_k^f)^2]= \\sum_{n=1}^{\\infty}\n\\frac{4}{n^2}= 4\\sum_{n=1}^{\\infty}\\frac{1}{n^2}$$ and\n$$\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f^2(x)dx = \\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}x^2dx= \\frac{2\\pi^2}{3}.$$\n\nHence by Parseval\u2019s equality\n$$4\\sum_{n=1}^{\\infty}\\frac{1}{n^2}=\\frac{2\\pi^2}{3}$$ and hence\n$$\\zeta(2)=\\sum_{n=1}^{\\infty}\\frac{1}{n^2}=\\frac{\\pi^2}{6}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ValueOfTheRiemannZetaFunctionAtS2"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "value of the Riemann zeta function at $s=2$"
+  ]
+}

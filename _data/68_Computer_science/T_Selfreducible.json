@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A search problem $R$ is $\\mathcal{C}$ self-reducible if there is a\n$\\mathcal{C}$ Cook reduction of $R$ to $L(R)$. That is, if the decision\nproblem for $L(R)$ is $\\mathcal{C}$ then so is the search problem for\n$R$.\n\nIf $R$ is polynomially self-reducible then it is called self-reducible.\n\nNote that $L(R)$ is trivially Cook reducible to $R$.",
+  "language": "INFORMAL",
+  "phrase": "Self-Reducible",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Selfreducible"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Affine schemes {#affine-schemes .unnumbered}\n==============\n\nLet $X$ and $Y$ be affine schemes, so that $X=\\operatorname{Spec}A$ and\n$Y=\\operatorname{Spec}B$. Let $f\\colon X\\to Y$ be a morphism, so that it\ninduces a homomorphism of rings $g\\colon B\\to A$.\n\nThe homomorphism $g$ makes $A$ into a $B$-algebra. If $A$ is\nfinitely-generated as a $B$-algebra, then $f$ is said to be a morphism\nof *finite type*.\n\nIf $A$ is in fact finitely generated as a $B$-module, then $f$ is said\nto be a *finite* morphism.\n\nFor example, if $k$ is a field, the scheme $\\mathbb{A}^n(k)$ has a\nnatural morphism to $\\operatorname{Spec}k$ induced by the ring\nhomomorphism $k \\to\nk[X_1,\\ldots,X_n]$. This is a morphism of finite type, but if $n>0$ then\nit is not a finite morphism.\n\nOn the other hand, if we take the affine scheme\n$\\operatorname{Spec}k[X,Y]/\\left<Y^2-X^3-X\\right>$, it has a natural\nmorphism to $\\mathbb{A}^1$ given by the ring homomorphism $k[X]\\to\nk[X,Y]/\\left<Y^2-X^3-X\\right>$. Then this morphism is a finite morphism.\nAs a morphism of schemes, we see that every fiber is finite.\n\nGeneral schemes {#general-schemes .unnumbered}\n===============\n\nNow, let $X$ and $Y$ be arbitrary schemes, and let $f \\colon X\\to Y$ be\na morphism. We say that $f$ is of *finite type* if there exist an open\ncover of $Y$ by affine schemes $\\{U_i\\}$ and a finite open cover of each\n$U_i$ by affine schemes $\\{V_{ij}\\}$ such that $f|_{V_{ij}}$ is a\nmorphism of finite type for every $i$ and $j$. We say that $f$ is\n*finite* if there exists an open cover of $Y$ by affine schemes\n$\\{U_i\\}$ such that each inverse image, $V_i=f^{-1}(U_i)$ is itself\naffine, and such that $f|_{V_i}$ is a finite morphism of affine schemes.\n\n#### Example.\n\nLet $X=\\mathbb{P}^1(k)$ and $Y=\\operatorname{Spec}k$. We cover $X$ by\ntwo copies of $\\mathbb{A}^1$ and consider the natural morphisms from\neach of these copies to $\\operatorname{Spec}k$. Both of these affine\nmorphisms are of finite type, but are not finite. The covering morphisms\npatch together to give a morphism from $\\mathbb{P}^1$ to\n$\\operatorname{Spec}k$. The overall morphism is of finite type, but\nagain is not finite.\n\nReferences. {#references. .unnumbered}\n===========\n\nD. Eisenbud and J. Harris, *The Geometry of Schemes*, Springer.",
+  "language": "INFORMAL",
+  "phrase": "Finite Morphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FiniteMorphism"
+    }
+  ],
+  "indexable": true
+}

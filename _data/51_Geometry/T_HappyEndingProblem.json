@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "happy end problem"
+  ],
+  "definition": "The [*happy ending problem*]{} asks, for a given integer $n > 2$, to\nfind the smallest number $g(n)$ of points laid on a plane in general\nposition such that a subset of $n$ points can be made the vertices of a\nconvex $n$-agon.\n\n![Examples showing that $g(4)\\le 5$.](happy_end_4){width=\"3in\"}\n\nIt is obvious that for $n = 3$, just three points in general position\nare sufficient to create a triangle. For $n = 4$, Paul Erd\u0151s and Esther\nKlein (later Szekeres) determined that at least five points are\nnecessary, and Kalbfleisch later determined $g(5) = 9$. Much later,\nGeorge Szekeres (posthumously) and Lindsay Peters published a computer\nproof\u00a0[@cite:PS2006] that $g(6) = 17$.\n\nFor higher $n$, Erd\u0151s and George Szekeres in 1935 gave the upper bound\n$$g(n) \\le \\binom{2n - 4}{n - 2} + 1.$$ Later, in 1961 they gave the\nlower bound $g(n) \\geq 1 + 2^{n - 2}$.\n\nNew ideas for the upper bound were in the air in the late 1990s, with\nChung and Graham showing that if $n \\ge 4$, then\n$$g(n) \\le \\binom{2n - 4}{n - 2},$$ while Kleitman and Pachter showed\nthat then $$g(n) \\le \\binom{2n - 4}{n - 2} + 7 - 2n.$$ And G\u00e9za T\u00f3th and\nPavel Valtr in 1998 gave the upper bound\n$$g(n) \\leq {2n - 5 \\choose n - 3} + 2,$$ which in 2005 they refined to\n$$g(n) \\le \\binom{2n-5}{n-3} + 1.$$\n\n[9]{} F.\u00a0R.\u00a0K.\u00a0Chung and R.\u00a0L.\u00a0Graham, Forced convex $n$-gons in the\nplane, [*Discrete Comput. Geom.*]{} [**19**]{} (1996), 229\u2013233.\n\nP.\u00a0Erd\u0151s and G.\u00a0Szekeres, A combinatorial problem in geometry,\n[*Compositio Math.*]{} [**2**]{} (1935), 463\u2013470.\n\nP.\u00a0Erd\u0151s and G.\u00a0Szekeres, On some extremum problems in elementary\ngeometry, [*Ann. Univ. Sci. Budapest E\u00f6tv\u00f6s Sect. Math.*]{} [**3\u20134**]{}\n(1961), 53\u201362.\n\nD.\u00a0Kleitman and L.\u00a0Pachter, Finding convex sets among points in the\nplane, [*Discrete Comput. Geom.*]{} [**19**]{} (1998), 405\u2013410.\n\nW.\u00a0Morris and V.\u00a0Soltan, The Erd\u0151s-Szekeres problem on points in convex\nposition \u2013 a survey, [*Bull. Amer. Math. Soc.*]{} [**37**]{} (2000),\n437\u2013458.\n\nL.\u00a0Peters and G.\u00a0Szekeres, Computer solution to the 17-point\nErd\u0151s-Szekeres problem, [*ANZIAM J.*]{} [**48**]{} (2006), 151\u2013164.\n\nG.\u00a0T\u00f3th and P.\u00a0Valtr, Note on the Erd\u0151s-Szekeres theorem, [*Discrete\nComput. Geom.*]{} [**19**]{} (1998), 457\u2013459.\n\nG.\u00a0T\u00f3th and P.\u00a0Valtr, The Erd\u0151s-Szekeres theorem: upper bounds and\nrelated results. Appearing in J.\u00a0E.\u00a0Goodman, J.\u00a0Pach, and E.\u00a0Welzl,\neds., [*Combinatorial and computational geometry*]{}, Mathematical\nSciences Research Institute Publications [**52**]{} (2005) 557\u2013568.",
+  "language": "INFORMAL",
+  "phrase": "Happy Ending Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HappyEndingProblem"
+    }
+  ],
+  "indexable": true
+}

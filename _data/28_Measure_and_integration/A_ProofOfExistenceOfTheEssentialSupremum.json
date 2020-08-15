@@ -1,0 +1,17 @@
+{
+  "argumentText": "Suppose that $(\\Omega,\\mathcal{F},\\mu)$ is a $\\sigma$-finite measure\nspace and $\\mathcal{S}$ is a collection of measurable functions\n$f\\colon\\Omega\\rightarrow\\mathbb{\\bar R}$. We show that the essential\nsupremum of $\\mathcal{S}$ exists and furthermore, if it is nonempty then\nthere is a sequence $f_n\\in\\mathcal{S}$ such that\n$${{\\mathrm{ess}\\sup}}\\,\\mathcal{S}=\\sup_nf_n.$$\n\nAs , we may suppose without loss of generality that $\\mu$ is a\nprobability measure. Also, without loss of generality, suppose that\n$\\mathcal{S}$ is nonempty, and let $\\mathcal{S}^\\prime$ consist of the\ncollection of maximums of finite sequences of functions in\n$\\mathcal{S}$. Then choose any continuous and strictly increasing\n$\\theta\\colon\\mathbb{\\bar R}\\rightarrow\\mathbb{R}$. For example, we can\ntake $$\\theta(x)=\n\\left\\{\n\\begin{array}{ll}\nx/(1+|x|),&\\textrm{if }|x|<\\infty,\\\\\n1,&\\textrm{if }x=\\infty,\\\\\n-1,&\\textrm{if }x=-\\infty.\n\\end{array}\n\\right.$$ As $\\theta(f)$ is a bounded and measurable function for all\n$f\\in\\mathcal{S}^\\prime$, we can set\n$$\\alpha=\\sup\\left\\{\\int\\theta(f)\\,d\\mu:f\\in\\mathcal{S}^\\prime\\right\\}.$$\nThen choose a sequence $g_n$ in $\\mathcal{S}^\\prime$ such that\n$\\int\\theta(g_n)\\,d\\mu\\rightarrow\\alpha$. By replacing $g_n$ by the\nmaximum of $g_1,\\ldots,g_n$ if necessary, we may assume that\n$g_{n+1}\\ge g_n$ for each $n$. Set $$f=\\sup_n g_n.$$ Also, every $g_n$\nis the maximum of a finite sequence of functions\n$g_{n,1},\\ldots,g_{n,{m_n}}$ in $\\mathcal{S}$. Therefore, there exists a\nsequence $f_n\\in\\mathcal{S}$ such that\n$$\\{f_1,f_2,\\ldots\\}=\\{g_{n,m}:n\\ge 1,1\\le m\\le m_n\\}.$$ Then,\n$$f=\\sup_nf_n.$$ It only remains to be shown that $f$ is indeed the\nessential supremum of $\\mathcal{S}$. First, by continuity of $\\theta$\nand the dominated convergence theorem,\n$$\\int\\theta(f)\\,d\\mu=\\lim_{n\\rightarrow\\infty}\\int\\theta(g_n)\\,d\\mu=\\alpha.$$\nSimilarly, for any $g\\in\\mathcal{S}$,\n$$\\int\\theta(f\\vee g)=\\lim_{n\\rightarrow\\infty}\\int\\theta(g_n\\vee g)\\,d\\mu\\le\\alpha.$$\nIt follows that $\\theta(f\\vee g)-\\theta(f)$ is a nonnegative function\nwith nonpositive integral, and so is equal to zero $\\mu$-almost\neverywhere. As $\\theta$ is strictly increasing, $f\\vee g=f$ and\ntherefore $f\\ge g$ $\\mu$-almost everywhere.\n\nFinally, suppose that $g\\colon \\Omega\\rightarrow\\mathbb{\\bar R}$\nsatisfies $g\\ge h$ ($\\mu$-a.e.) for all $h\\in\\mathcal{S}$. Then,\n$g\\ge f_n$ and, $$g\\ge\\sup_nf_n=f$$ $\\mu$-a.e., as required.",
+  "conclusion": "#P_ExistenceOfTheEssentialSupremum",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfExistenceOfTheEssentialSupremum"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of existence of the essential supremum"
+  ]
+}

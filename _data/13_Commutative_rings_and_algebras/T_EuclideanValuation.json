@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "degree function"
+  ],
+  "definition": "Let $D$ be an integral domain. A *Euclidean valuation* is a function\nfrom the nonzero elements of $D$ to the nonnegative integers\n$\\nu \\colon D \\setminus \\{0_D\\} \\to \\{ x \\in \\mathbb{Z} : x \\ge 0 \\}$\nsuch that the following hold:\n\n-   For any $a,b\\in D$ with $b\\neq 0_D$, there exist $q,r\\in D$ such\n    that $a=bq+r$ with $\\nu(r)<\\nu(b)$ or $r=0_D$.\n\n-   For any $a,b\\in D \\setminus \\{0_D\\}$, we have $\\nu(a)\\leq\\nu(ab)$.\n\nEuclidean valuations are important because they let us define greatest\ncommon divisors and use Euclid\u2019s algorithm. Some facts about Euclidean\nvaluations include:\n\n-   The value of $\\nu$ is $\\nu(1_D)$. That is, $\\nu(1_D)\\leq\\nu(a)$ for\n    any $a\\in D \\setminus \\{0_D\\}$.\n\n-   $u\\in D$ is a unit if and only if $\\nu(u)=\\nu(1_D)$.\n\n-   For any $a\\in D \\setminus \\{0_D\\}$ and any unit $u$ of $D$, we have\n    $\\nu(a)=\\nu(au)$.\n\nThese facts can be proven as follows:\n\n-   If $a\\in D \\setminus \\{0_D\\}$, then\n    $$\\nu(1_D)\\leq\\nu(1_D\\cdot a)=\\nu(a).$$\n\n-   If $u\\in D$ is a unit, then let $v\\in D$ be its . Thus,\n    $$\\nu(1_D)\\leq\\nu(u)\\leq\\nu(uv)=\\nu(1_D).$$ Conversely, if\n    $\\nu(u)=\\nu(1_D)$, then there exist $q,r\\in D$ with\n    $\\nu(r)<\\nu(u)=\\nu(1_D)$ or $r=0_D$ such that $$1_D=qu+r.$$ Since\n    $\\nu(r)<\\nu(1_D)$ is impossible, we must have $r=0_D$. Hence, $q$ is\n    the inverse of $u$.\n\n-   Let $v\\in D$ be the inverse of $u$. Then\n    $$\\nu(a)\\leq\\nu(au)\\leq\\nu(auv)=\\nu(a).$$\n\nNote that an integral domain is a Euclidean domain if and only if it has\na Euclidean valuation.\n\nBelow are some examples of Euclidean domains and their Euclidean\nvaluations:\n\n-   Any field $F$ is a Euclidean domain under the Euclidean valuation\n    $\\nu(a)=0$ for all $a\\in F \\setminus \\{0_F\\}$.\n\n-   $\\mathbb{Z}$ is a Euclidean domain with absolute value acting as its\n    Euclidean valuation.\n\n-   If $F$ is a field, then $F[x]$, the ring of polynomials over $F$, is\n    a Euclidean domain with degree acting as its Euclidean valuation: If\n    $n$ is a nonnegative integer and $a_0,\\dots,a_n\\in F$ with\n    $a_n\\neq 0_F$, then $$\\nu\\left(\\sum_{j=0}^n a_jx^j\\right)=n.$$\n\nDue to the fact that the ring of polynomials over any field is always a\nEuclidean domain with degree acting as its Euclidean valuation, some\nrefer to a Euclidean valuation as a *degree function*. This is done, for\nexample, in Joseph J. Rotman\u2019s **.",
+  "language": "INFORMAL",
+  "phrase": "Euclidean Valuation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EuclideanValuation"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\phi : \\mathbb{R} \\rightarrow \\mathbb{R}$ be a continuous ,\nstrictly increasing function such that $\\phi(0)=0$ . Then the following\ninequality holds:\n$$ab \\leq \\int_{0}^a \\phi(x) dx + \\int_{0}^b \\phi^{-1}(y) dy$$ Equality\nonly holds when $b = \\phi(a)$. This inequality can be demonstrated by\ndrawing the graph of $\\phi(x)$ and by observing that the sum of the two\nareas represented by the integrals above is greater than the area of a\nrectangle of sides $a$ and $b$, as is illustrated in .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/YoungsInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Young's inequality"
+  ]
+}

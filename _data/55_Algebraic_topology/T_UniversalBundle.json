@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a topological group. A *universal bundle* for $G$ is a\nprincipal bundle $p :EG \\to BG$ such that for any principal bundle\n$\\pi:E\\to B$, with $B$ a CW-complex, there is a map ${\\varphi}:B\\to BG$,\nunique up to homotopy, such that the pullback bundle ${\\varphi}^*(p)$ is\nequivalent to $\\pi$, that is such that there is a bundle map\n${\\varphi}'$.\n$$\\xymatrix{E\\ar[d]^{\\pi}\\ar[r]^{{\\varphi}'(E)}&EG\\ar[d]^p\\\\\nB\\ar[r]^{{\\varphi}'(B)}&BG}$$ with ${\\varphi}'(B)={\\varphi}$, such that\nany bundle map of any bundle over $B$ extending ${\\varphi}$ factors\nuniquely through ${\\varphi}'$.\n\nAs is obvious from the universal property, the universal bundle for a\ngroup $G$ is unique up to unique homotopy equivalence.\n\nThe base space $BG$ is often called a [*classifying space*]{} of $G$,\nsince homotopy classes of maps to it from a given space classify\n$G$-bundles over that space.\n\nThere is a useful criterion for universality: a bundle is universal if\nand only if all the homotopy groups of $EG$, its total space, are\ntrivial. This allows us to construct the universal bundle any subgroup\nfrom that of a larger group. Assume $H\\leq G$ and that $p:EG\\to BG$ is a\nuniversal bundle for $G$. Then $H$ also acts freely on $EG$ which is\ncontractable so $p_H:EH=EB\\to BH=EB/H$ must be a universal bundle for\n$H$.\n\nIn 1956, John Milnor gave a general construction of the universal bundle\nfor any topological group $G$ (see *Annals of Mathematics*, Second\nSeries, Volume 63 Issue 2 and Issue 3 for details). His construction\nuses the infinite join of the group $G$ with itself to define the total\nspace of the universal bundle.",
+  "language": "INFORMAL",
+  "phrase": "Universal Bundle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniversalBundle"
+    }
+  ],
+  "indexable": true
+}

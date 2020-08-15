@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Let $\\omega$ be a smooth $k$-form on a smooth\nmanifold $M$, and let $\\xi$ be a smooth vector field on $M$. The\n*contraction* of $\\omega$ with $\\xi$ is the smooth $(k-1)$-form that\nmaps $x\\in M$ to $\\omega_x(\\xi_x, \\cdot)$. In other words, $\\omega$ is\npoint-wise evaluated with $\\xi$ in the first slot. We shall denote this\n$(k-1)$-form by $\\iota_\\xi\\omega$. If $\\omega$ is a $0$-form, we set\n$\\iota_\\xi \\omega = 0$ for all $\\xi$.\n\n[**Properties**]{} Let $\\omega$ and $\\xi$ be as above. Then the\nfollowing properties hold:\n\n1.  For any real number $k$\n    $$\\iota_{k \\xi} \\omega = k\\iota_\\xi \\omega.$$\n\n2.  For vector fields $\\xi$ and $\\eta$ $$\\begin{aligned}\n    \\iota_{\\xi+\\eta} \\omega &=& \\iota_\\xi \\omega + \\iota_\\eta \\omega, \\\\\n    \\iota_{\\xi} \\iota_\\eta \\omega &=& -\\iota_\\eta \\iota_\\xi \\omega, \\\\\n    \\iota_{\\xi} \\iota_\\xi \\omega &=& 0.\\end{aligned}$$\n\n3.  Contraction is an anti-derivation [@frankel]. If $\\omega^1$ is a\n    $p$-form, and $\\omega^2$ is a $q$-form, then\n    $$\\iota_\\xi \\big(\\omega^1\\wedge \\omega^2\\big) = (\\iota_\\xi \\omega^1) \\wedge \\omega^2 + (-1)^p\\ \\omega^1\\wedge (\\iota_\\xi \\omega^2).$$\n\n[9]{} T. Frankel, *Geometry of physics*, Cambridge University press,\n1997.",
+  "language": "INFORMAL",
+  "phrase": "Contraction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Contraction"
+    }
+  ],
+  "indexable": true
+}

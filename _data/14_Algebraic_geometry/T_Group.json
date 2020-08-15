@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Group.**\\\nA group is a pair $(G,\\,*)$, where $G$ is a non-empty set and \u201c$*$\u201d is a\nbinary operation on $G$, such that the following conditions hold:\n\n-   For any $a,b$ in $G$, $a*b$ belongs to $G$. (The operation \u201c$*$\u201d is\n    closed).\n\n-   For any $a,b,c\\in G$, $(a*b)*c=a*(b*c)$. (Associativity of the\n    operation).\n\n-   There is an element $e\\in G$ such that $g*e=e*g=g$ for any $g\\in G$.\n    (Existence of identity element).\n\n-   For any $g\\in G$ there exists an element $h$ such that $g*h=h*g=e$.\n    (Existence of inverses).\n\nIf $G$ is a group under \\*, then \\* is referred to as the *group\noperation* of $G$.\n\nUsually, the symbol \u201c$*$\u201d is omitted and we write $ab$ for $a*b$.\nSometimes, the symbol \u201c$+$\u201d is used to represent the operation,\nespecially when the group is *abelian*.\n\nIt can be proved that there is only one identity element, and that for\nevery element there is only one inverse. Because of this we usually\ndenote the inverse of $a$ as $a^{-1}$ or $-a$ when we are using additive\nnotation. The identity element is also called *neutral element* due to\nits behavior with respect to the operation, and thus $a^{-1}$ is\nsometimes (although uncommonly) called the [*neutralizing element*]{} of\n$a$. An element of a group besides the identity element is sometimes\ncalled a *non-trivial element*.\n\nGroups often arise as the symmetry groups of other mathematical objects;\nthe study of such situations uses group actions. In fact, much of the\nstudy of groups themselves is conducted using group actions.",
+  "language": "INFORMAL",
+  "phrase": "Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Group"
+    }
+  ],
+  "indexable": true
+}

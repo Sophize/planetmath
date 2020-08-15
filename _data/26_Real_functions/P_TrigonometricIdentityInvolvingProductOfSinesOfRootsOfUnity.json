@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $n>1$ be a positive integer, and $\\zeta_n=e^{2i\\pi/n}$, a primitive\n$n^{\\mathrm{th}}$ root of unity.\n\nThe purpose of this article is to prove\n\n\\[thm:one\\]Let $m=\\left\\lfloor\\frac{n}{2}\\right\\rfloor$. Then\n$$\\prod_{k=1}^m \\sin^2\\left(\\frac{\\pi k}{n}\\right) = \\prod_{k=1}^{n-1} \\sin\\left(\\frac{\\pi k}{n}\\right) \n    = \\frac{n}{2^{n-1}}$$\n\nThe theorem follows easily from the following simple lemma:\n\nLet $n>1$ be a positive integer. Then\n$$\\prod_{k=1}^{n-1} (1-\\zeta_n^k) = n$$\n\nWe have $x^n-1 = \\prod_{k=1}^n (x-\\zeta_n^k)$. Dividing both sides by\n$x-1$ gives\n$$\\frac{x^n-1}{x-1} = 1+x+x^2+\\dots x^{n-1} = \\prod_{k=1}^{n-1} (x-\\zeta_n^k)$$\nSubstitute $x=1$ to get the result.\n\n\\[Proof of Theorem \\[thm:one\\]\\] Using the definition of $\\zeta_n$ and\nthe half-angle formulas, we have $$\\begin{aligned}\n  1-\\zeta_n^k &= 1-\\cos\\left(\\frac{2\\pi k}{n}\\right) - i\\sin\\left(\\frac{2\\pi k}{n}\\right) \\\\\n              &= 2\\sin^2\\left(\\frac{\\pi k}{n}\\right) - \n                   2i\\sin\\left(\\frac{\\pi k}{n}\\right)\\cos\\left(\\frac{\\pi k}{n}\\right) \\\\\n              &= 2\\sin\\left(\\frac{\\pi k}{n}\\right)\n                   \\left(\\sin\\left(\\frac{\\pi k}{n}\\right)-i\\cos\\left(\\frac{\\pi k}{n}\\right)\\right)\\end{aligned}$$\nNote that\n$\\lvert \\sin\\theta - i\\cos\\theta\\rvert = \\sin^2\\theta + \\cos^2\\theta=1$,\nso taking absolute values, we get\n$$\\left\\lvert 1-\\zeta_n^k\\right\\rvert = 2\\left\\lvert \\sin\\left(\\frac{\\pi k}{n}\\right)\\right\\rvert$$\nNow, for $1\\leq k\\leq n-1$, $\\sin\\left(\\frac{\\pi k}{n}\\right) > 0$ so is\nequal to its absolute value. Thus (using, for $n$ even, the fact that\n$\\sin\\frac{\\pi}{2}=1$), $$\\begin{aligned}\n  \\prod_{k=1}^m \\sin^2\\left(\\frac{\\pi k}{n}\\right)\n     &= \\prod_{k=1}^m \\sin\\left(\\frac{\\pi k}{n}\\right) \\sin\\left(\\pi - \\frac{\\pi k}{n}\\right) \n      = \\prod_{k=1}^m \\sin\\left(\\frac{\\pi k}{n}\\right) \\sin\\left(\\frac{\\pi(n-k)}{n}\\right) \\\\\n     &= \\prod_{k=1}^{n-1} \\sin\\left(\\frac{\\pi k}{n}\\right) \n      = \\prod_{k=1}^{n-1} \\left\\lvert\\sin\\left(\\frac{\\pi k}{n}\\right)\\right\\rvert \\\\\n     &= \\frac{1}{2^{n-1}}\\left\\lvert \\prod_{k=1}^{n-1} (1-\\zeta_n^k)\\right\\rvert\n      = \\frac{1}{2^{n-1}} \\left\\lvert n\\right\\rvert \\\\\n     &= \\frac{n}{2^{n-1}}\\end{aligned}$$\n\n(Thanks to dh2718 for greatly simplifying the original proof.)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TrigonometricIdentityInvolvingProductOfSinesOfRootsOfUnity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "trigonometric identity involving product of sines of roots of unity"
+  ]
+}

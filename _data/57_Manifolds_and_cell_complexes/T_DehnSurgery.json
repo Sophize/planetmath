@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a smooth 3-manifold, and $K\\subset M$ a smooth knot. Since\n$K$ is an embedded submanifold, by the tubular neighborhood theorem\nthere is a closed neighborhood $U$ of $K$ diffeomorphic to the solid\ntorus $D^2\\times S^1$. We let $U'$ denote the interior of $U$. Now, let\n${\\varphi}:\\partial U\\to\\partial U$ be an automorphism of the torus, and\nconsider the manifold $M'=M\\backslash U' \\coprod_{{\\varphi}} U$, which\nis the disjoint union of $M\\backslash U'$ and $U$, with points in the\nboundary of $U$ identified with their images in the boundary of\n$M\\backslash U'$ under ${\\varphi}$.\n\nIt\u2019s a bit hard to visualize how this actually results in a different\nmanifold, but it generally does. For example, if $M=S^3$, the 3-sphere,\n$K$ is the trivial knot, and ${\\varphi}$ is the automorphism exchanging\nmeridians and parallels (i.e., since $U\\cong D^2\\times S^1$, get an\nisomorphism $\\partial U\\cong S^1\\times S^1$, and ${\\varphi}$ is the map\ninterchanging to the two copies of $S^1$), then one can check that\n$M'\\cong S^1\\times S^2$ ($S^3\\backslash U$ is also a solid torus, and\nafter our automorphism, we glue the two solid tori, meridians to\nmeridians, parallels to parallels, so the two copies of $D^2$ paste\nalong the edges to make $S^2$).\n\nEvery compact 3-manifold can obtained from the $S^3$ by surgery around\nfinitely many knots.",
+  "language": "INFORMAL",
+  "phrase": "Dehn Surgery",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DehnSurgery"
+    }
+  ],
+  "indexable": true
+}

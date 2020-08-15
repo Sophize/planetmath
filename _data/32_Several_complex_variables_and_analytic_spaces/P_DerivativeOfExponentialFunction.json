@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry, we shall compute the derivative of the exponential\nfunction from its definition as a limit of powers.\n\nIf $0 \\le x < 1$, then $$1 + x \\le \\exp x \\le {1 \\over 1-x}$$\n\nBy the inequalities for differences of powers, we have $$x \\le \n\\left( 1 + {x \\over n} \\right)^n - 1 \\le \n{x \\over 1 - \\left( {n-1 \\over n} \\right) x} .$$ Since $n-1 < n$, and\n$x > 0$, we have $0 < (n-1 / n) x < x$. Because $x < 1$, this implies\n$1 - (n-1 / n) x > 1 - x$, so\n$${x \\over 1 - \\left( {n-1 \\over n} \\right) x} <\n{x \\over 1 - x}.$$ Hence\n$$1 + x \\le \\left( 1 + {x \\over n} \\right)^n \\le {1 \\over 1 - x}.$$\nTaking the limit as $n \\to \\infty$, we obtain our result.\n\n$$\\lim_{x \\to 0} {\\exp (x) - 1 \\over x} = 1$$\n\nAssume $0 < x < 1$. By our bound, we have $$1 \\le\n{\\exp (x) - 1 \\over x} \\le\n{1 \\over 1 - x} .$$ Suppose that $-1 < x < 0$. Then, since\n$\\exp (x) = 1 / \\exp (-x)$, we have $${\\exp (x) - 1 \\over x} =\n{1 \\over \\exp (-x)} \\cdot {1 - \\exp (-x) \\over x} .$$ From the\ninequality above, we have $$1 \\le\n{1 - \\exp (-x) \\over x} \\le\n{1 \\over 1+x} .$$ Hence $${1 \\over \\exp (-x)} \\le\n{\\exp (x) - 1 \\over x} \\le\n{1 \\over (1+x) \\exp (-x)}.$$ By theorem 1, we have\n$1 - x \\le \\exp (-x) \\le 1 / (1 + x)$, so $$1+x \\le\n{1 - \\exp (-x) \\over x} \\le\n{1 \\over (1 + x)(1-x)} =\n{1 \\over 1 - x^2} .$$ By the squeeze rule, we conclude that\n$$\\lim_{x \\to 0} {1 - \\exp (-x) \\over x} = 1$$ whether we approach the\nlimit from the left or the right.\n\n$${d \\over dx} \\exp (x) = \\exp (x)$$\n\nBy definition, $${d \\over dx} \\exp (x) = \n\\lim_{y \\to x} {\\exp (y) - \\exp (x) \\over y - x} .$$ By the addition\ntheorem for the exponential, we have\n$${\\exp (y) - \\exp (x) \\over y - x} =\n\\exp (x) \\cdot {\\exp (y-x) - 1 \\over y - x} ,$$ so\n$$\\lim_{y \\to x} {\\exp (y) - \\exp (x) \\over y - x} =\n\\exp (x) \\lim_{y \\to x}\n{\\exp (y-x) - 1 \\over y - x} =\n\\exp (x) \\lim_{y \\to 0} {\\exp y - 1 \\over y} .$$ By theorem 2, the limit\non the right-hand side equals $1$, so we have\n$$\\lim_{y \\to x} {\\exp (y) - \\exp (x) \\over y - x} = \\exp (x) .$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivativeOfExponentialFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "derivative of exponential function"
+  ]
+}

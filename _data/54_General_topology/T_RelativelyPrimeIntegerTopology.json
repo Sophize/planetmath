@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be the set of strictly positive integers. The *relatively prime\ninteger topology* on $X$ is the topology determined by a basis\nconsisting of the sets $$\\begin{aligned}\nU(a,b)=\\{ax+b\\mid x\\in X\\}\\end{aligned}$$ for any $a$ and $b$ are\nrelatively prime integers. That this does indeed form a basis is found\nin\n\nEquipped with this topology, $X$ is , ,and , but satisfies none of the\nhigher separation axioms (and hence meet very few compactness criteria).\n\nWe can define a coarser topology on $X$ by considering the subbasis of\nthe above basis consisting of all $U(a,b)$ with $a$ being a prime. This\nis called the *prime integer topology* on ${{\\mathbb}{Z}}^+$.\n\n[9]{} L.A. Steen, J.A.Seebach, Jr., *Counterexamples in topology*, Holt,\nRinehart and Winston, Inc., 1970.",
+  "language": "INFORMAL",
+  "phrase": "Relatively Prime Integer Topology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RelativelyPrimeIntegerTopology"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Markoff number"
+  ],
+  "definition": "A *Markov number* is an integer $x$, $y$ or $z$ that fits in the\nDiophantine equation $$x^2 + y^2 + z^2 = 3xyz$$ and gives a Lagrange\nnumber $$L_x = \\sqrt{9 - {4 \\over x^2}}$$ (or $y$ or $z$ as the case may\nbe).\n\nThe solutions, (1, 1, 1), (1, 1, 2), (1, 2, 5), (1, 5, 13), (2, 5, 29),\n(1, 13, 34), (1, 34, 89), (2, 29, 169), (5, 13, 194), (1, 89, 233),\netc., can be put in a binary graph tree. Thus arranged, the numbers on\n1\u2019s branch are Fibonacci numbers with odd index, and the numbers on 2\u2019s\nbranch are Pell numbers with odd index.\n\nGeorg Frobenius proved that, with the exception of the smallest Markov\ntriple, the numbers in a Markov triple are pairwise coprime. He also\nproved that an odd Markov number $x \\equiv 1 \\mod 4$ (or $y$ or $z$) and\nan even Markov number $x \\equiv 2 \\mod 8$. Ying Zhang used this to prove\nthat even Markov numbers satisfy the sharper congruence\n$x \\equiv 2 \\mod 32$, which he calls the best possible since the first\ntwo even Markov numbers are 2 and 34.\n\n[1]{} Ying Zhang, \u201cCongruence and Uniqueness of Certain Markov Numbers\u201d\n[*Acta Arithmetica*]{} [**128**]{} 3 (2007): 297",
+  "language": "INFORMAL",
+  "phrase": "Markov Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MarkovNumber"
+    }
+  ],
+  "indexable": true
+}

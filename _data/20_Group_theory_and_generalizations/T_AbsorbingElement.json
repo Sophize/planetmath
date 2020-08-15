@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "absorbant",
+    "absorbing"
+  ],
+  "definition": "An element $\\zeta$ of a groupoid $(G,\\,*)$ is called an [*absorbing\nelement*]{} (in French [*un \u00e9l\u00e9ment absorbant*]{}) for the operation\n\u201c$*$\u201d, if it satisfies $$\\zeta\\!*\\!a \\;=\\; a\\!*\\!\\zeta \\;=\\; \\zeta$$ for\nall elements $a$ of $G$.\\\n**Examples**\n\n-   The zero $0$ is the absorbing element for multiplication (or\n    [*multiplicatively absorbing*]{}) in every ring $(R,\\,+,\\,\\cdot)$.\n\n-   The zero ideal $(0)$ is absorbing for .\n\n-   The zero vector $\\vec{0}$ is the absorbing element for the\n    \u201c$\\times$\u201d.\n\n-   The empty set $\\varnothing$ is the absorbing element for the\n    intersection operation \u201c$\\cap$\u201d and also for the Cartesian product\n    \u201c$\\times$\u201d.\n\n-   The \u201cuniversal set\u201d $E$ is the absorbing element for the union\n    operation \u201c$\\cup$\u201d:\n    $$E\\!\\cup\\!A \\;=\\; A\\!\\cup\\!E \\;=\\; E \\quad \\forall A \\;\\subseteq\\; E.$$\n\n-   In an upper semilattice, an element is absorbing iff it is the .\n    Dually, an element is absorbing iff it is the in a lower\n    semilattice.\n\nAs the examples give reason to believe, the absorbing element for an\noperation is always unique. Indeed, if in to $\\zeta$ we have in $G$\nanother absorbing element $\\eta$, then we must have\n$\\eta = \\zeta\\!*\\!\\eta = \\zeta$.\n\nBecause $\\zeta\\!*\\!\\zeta = \\zeta$, the absorbing element is idempotent.\n\nIf a group has an absorbing element, the group is .",
+  "language": "INFORMAL",
+  "phrase": "Absorbing Element",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbsorbingElement"
+    }
+  ],
+  "indexable": true
+}

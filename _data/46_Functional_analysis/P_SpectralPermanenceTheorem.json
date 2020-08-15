@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathcal{A}$ be a unital complex Banach algebra and\n$\\mathcal{B} \\subseteq \\mathcal{A}$ a Banach subalgebra that contains\nthe identity of $\\mathcal{A}$.\n\nFor every element $x \\in \\mathcal{B}$ it makes sense to speak of the\nspectrum $\\sigma_{\\mathcal{B}}(x)$ of $x$ relative to $\\mathcal{B}$ as\nwell as the spectrum $\\sigma_{\\mathcal{A}}(x)$ of $x$ relative to\n$\\mathcal{A}$.\n\nWe provide here three results of increasing sophistication which relate\nboth these spectrums, $\\sigma_{\\mathcal{B}}(x)$ and\n$\\sigma_{\\mathcal{A}}(x)$. Any of the last two is usually refered to as\nthe [**spectral permanence theorem**]{}.\n\n[ **-**]{} Let $\\mathcal{B} \\subseteq \\mathcal{A}$ be as above. For\nevery element $x \\in \\mathcal{B}$ we have\n$$\\sigma_{\\mathcal{A}}(x) \\subseteq \\sigma_{\\mathcal{B}}(x).$$\n\nThis first result is purely . It is a straightforward consequence of the\nfact that invertible elements in $\\mathcal{B}$ are also invertible in\n$\\mathcal{A}$.\n\nThe other inclusion,\n$\\sigma_{\\mathcal{B}}(x) \\subseteq \\sigma_{\\mathcal{A}}(x)$, is not\nnecessarily true. It is true, however, if one considers the boundary\n$\\partial \\sigma_{\\mathcal{B}}(x)$ instead.\n\n[**Theorem -**]{} Let $\\mathcal{B} \\subseteq \\mathcal{A}$ be as above.\nFor every element $x \\in \\mathcal{B}$ we have\n$$\\partial \\sigma_{\\mathcal{B}}(x) \\subseteq \\sigma_{\\mathcal{A}}(x).$$\n\nSince the spectrum is a non-empty compact set in $\\mathbb{C}$, one can\ndecompose $\\mathbb{C} - \\sigma_{\\mathcal{A}}(x)$ into its connected\ncomponents, obtaining an unbounded component $\\Omega_{\\infty}$ together\nwith a sequence of bounded components $\\Omega_1, \\Omega_2, \\dots$,\n$$\\mathbb{C}-\\sigma_{\\mathcal{A}}(x) = \\Omega_{\\infty} \\cup \\Omega_{1} \\cup \\Omega_{2} \\cup \\cdots$$\nOf course there may be only a finite number of bounded components or\nnone.\n\n[**Theorem -**]{} Let $ x \\in \\mathcal{B} \\subseteq \\mathcal{A}$ be as\nabove. Then $\\sigma_{\\mathcal{B}}(x)$ is obtained from\n$\\sigma_{\\mathcal{A}}(x)$ by adjoining to it some (possibly none)\nbounded components of $\\mathbb{C}-\\sigma_{\\mathcal{A}}(x)$.\n\nAs an example, if $\\sigma_{\\mathcal{A}}(x)$ is the unit circle, then\n$\\sigma_{\\mathcal{B}}(x)$ can only possibly be the unit circle or the\nclosed unit disk.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpectralPermanenceTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "spectral permanence theorem"
+  ]
+}

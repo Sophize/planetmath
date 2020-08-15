@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *contradiction* occurs when the statements $p$ and $\\neg p$ are shown\nto be true simultaneously. This concept appears most often in a *proof\nby contradiction* (also known as *reductio ad absurdum*), which is\nproving a statement by supposing its negation is true and logically\ndeducing an absurd statement. That is, in attempting to prove $q$, one\nmay assume $\\neg q$ and attempt to obtain a statement of the form\n$\\neg r$, where $r$ is a statement that is assumed or known to be true.\n\nProofs by contradiction can become confusing. This is especially the\ncase when such proofs are nested; , a proof by contradiction occurs\nwithin a proof by contradiction. Some mathematicians prefer to use a\ndirect proof whenever possible, as such are easier to follow in general.\nA small minority of mathematicians go so far as to reject proof by\ncontradiction as a valid proof technique. It should be pointed out that\nsomething good can be said for proof by contradiction: If one wants to\nprove a statement of the form $p \\implies q$, using the technique of\nproof by contradiction gives an additional hypothesis with which to\nwork.",
+  "language": "INFORMAL",
+  "phrase": "Contradiction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Contradiction"
+    }
+  ],
+  "indexable": true
+}

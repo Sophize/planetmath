@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *elementary abelian group* is an abelian group in which every\nnon-trivial element has the same finite order. It is easy to see that\nthe non-trivial elements must in fact be of prime order, so every\nelementary abelian group is a for some prime $p$.\n\nElementary abelian $2$-groups are sometimes called *Boolean groups*. A\ngroup in which every non-trivial element has order $2$ is necessarily\nBoolean, because abelianness is automatic:\n$xy=(xy)^{-1}=y^{-1}x^{-1}=yx$. There is no analogous result for odd\nprimes, because for every odd prime $p$ there is a non-abelian group of\norder $p^3$ and exponent $p$.\n\nLet $p$ be a prime number. Any elementary abelian $p$-group can be\nconsidered as a vector space over the field of order $p$, and is\ntherefore isomorphic to the direct sum of $\\kappa$ copies of the cyclic\ngroup of order $p$, for some cardinal number $\\kappa$. Conversely, any\nsuch direct sum is obviously an elementary abelian $p$-group. So, in\nparticular, for every infinite cardinal $\\kappa$ there is, up to\nisomorphism, exactly one elementary abelian $p$-group of order $\\kappa$.",
+  "language": "INFORMAL",
+  "phrase": "Elementary Abelian Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ElementaryAbelianGroup"
+    }
+  ],
+  "indexable": true
+}

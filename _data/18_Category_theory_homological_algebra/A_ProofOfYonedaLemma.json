@@ -1,0 +1,17 @@
+{
+  "argumentText": "We give a proof of Yoneda\u2019s Lemma. Thus, we have to show that\n$\\mathcal{C}\\to\\hat{\\mathcal{C}}$ is a faithful functor. Let $X$ and $Y$\nbe two objects belonging to $\\mathcal{C}$, we want to show that\n\n$\\psi : {\\rm Hom}(X,Y)\\to {\\rm Hom}(X(.),Y(.))$\n\n$f\\mapsto (f_K:X(K)\\to Y(K))_K$ is bijective.\n\nLet\u2019s start with injectivity. Let $f$ and $g$ be two morphisms from $X$\nto $Y$ which are having the same mappings for the points $f_K=g_K$ for\nall K. Let\u2019s show that $f=g$. What happens for the $X$-points? For the\n$X$-points, we have $f=g$ and the range of $f_X$ and of $g_X$ of the\n$X$-point of X which is $Id_X$ is exactly the $X$-points of $Y$ which\nare $f$ and $g$. Hence $f=g$.\n\nNow for surjectivity: let $\\psi: X(.)\\to Y(.)$ a morphism of functors.\nWe need to show that this morphism comes from an arrow $f$ which should\nbe the range of $Id_X$ by the map $\\phi_X$. Thus, let $f=\\psi_X(Id_X)$.\nLet\u2019s verify that $f_K=\\psi_K$ for all $K$. Let $p:K\\to X$ be a\n$K$-point of $X$. $p$ is a morphism between the two types of points $K$\nand $X$ and in this case we have the following commutative diagram:\n\n$I don't know how to do diagrams with latex, it's too hard$\n\nIf you make $Id(X)$ turn in the diagram one verifies that\n$\\psi_K(p)=f\\circ p=f_K(p)$ which proves the surjectivity.",
+  "conclusion": "#P_YonedaLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfYonedaLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Yoneda lemma"
+  ]
+}

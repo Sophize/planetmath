@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring with unity 1. Two left $R$-modules $M$ and $N$ are\nsaid to be *stably isomorphic* if there exists a finitely generated free\n$R$-module $R^n$ ($n\\geq1$) such that $$M\\oplus\nR^n\\cong N\\oplus R^n.$$ A left $R$-module is said to be *stably free* if\nit is stably isomorphic to a finitely generated free $R$-module. In\nother words, $M$ is stably free if $$M\\oplus R^m\\cong R^n$$ for some\npositive integers $m,n$.\n\n**Remark** In the Grothendieck group $K_0(R)$ of a ring $R$ with 1, two\nfinitely generated projective module representatives $M$ and $N$ such\nthat $[M]=[N]\\in K_0(R)$ iff they are stably isomorphic to each other.\nIn particular, $[M]$ is the zero element in $K_0(R)$ iff it is stably\nfree.",
+  "language": "INFORMAL",
+  "phrase": "Stable Isomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StableIsomorphism"
+    }
+  ],
+  "indexable": true
+}

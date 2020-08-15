@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "approximate unit"
+  ],
+  "definition": "Let $\\mathcal{A}$ be a Banach algebra.\n\nA [**left approximate identity**]{} for $\\mathcal{A}$ is a net\n$(e_{\\lambda})_{\\lambda \\in \\Lambda}$ in $\\mathcal{A}$ which :\n\n1.  $\\|e_{\\lambda}\\| < C \\;\\;\\;\\; \\forall_{\\lambda \\in \\Lambda} \\;$, for\n    some constant $C$.\n\n2.  $e_{\\lambda}a \\longrightarrow a\\;$, for every $a \\in \\mathcal{A}$.\n\nSimilarly, a [**right approximate identity**]{} for $\\mathcal{A}$ is a\nnet $(e_{\\lambda})_{\\lambda \\in \\Lambda}$ in $\\mathcal{A}$ which :\n\n1.  $\\|e_{\\lambda}\\| < C \\;\\;\\;\\; \\forall_{\\lambda \\in \\Lambda} \\;$, for\n    some constant $C$.\n\n2.  $ae_{\\lambda} \\longrightarrow a\\;$, for every $a \\in \\mathcal{A}$.\n\nAn [**approximate identity**]{} for a $\\mathcal{A}$ is a net\n$(e_{\\lambda})_{\\lambda \\in \\Lambda}$ in $\\mathcal{A}$ which is both a\nleft and right approximate identity.\n\n### Remarks:\n\n-   There are examples of Banach algebras that do not have approximate .\n\n-   If $\\mathcal{A}$ has an identity element $e$, then clearly $e$\n    itself is an approximate identity for $\\mathcal{A}$.",
+  "language": "INFORMAL",
+  "phrase": "Approximate Identity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ApproximateIdentity"
+    }
+  ],
+  "indexable": true
+}

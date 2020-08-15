@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "essential extension",
+    "essential monomorphism"
+  ],
+  "definition": "Let $X$ be a submodule of a module $Y$. We say that $X$ is an\n[*essential submodule*]{} of $Y$, and that $Y$ is an [*essential\nextension*]{} of $X$, if whenever $A$ is a nonzero submodule of $Y$,\nthen $A \\cap X$ is also nonzero.\n\nA monomorphism $f : X \\to Y$ is an [*essential monomorphism*]{} if the\nimage ${\\rm im} f$ is an essential submodule of $Y$.",
+  "language": "INFORMAL",
+  "phrase": "Essential Submodule",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EssentialSubmodule"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Hilbert Matrix\n==============\n\nA *Hilbert matrix* $H$ of order $n$ is a square matrix defined by\n\n$$H_{ij} = \\frac{1}{i + j - 1}$$\n\nAn example of a Hilbert matrix when $n = 5$ is\n\n$$\\begin{bmatrix}\n  \\frac{1}{1} & \\frac{1}{2} & \\frac{1}{3} & \\frac{1}{4} & \\frac{1}{5} \\\\\n  \\frac{1}{2} & \\frac{1}{3} & \\frac{1}{4} & \\frac{1}{5} & \\frac{1}{6} \\\\\n  \\frac{1}{3} & \\frac{1}{4} & \\frac{1}{5} & \\frac{1}{6} & \\frac{1}{7} \\\\\n  \\frac{1}{4} & \\frac{1}{5} & \\frac{1}{6} & \\frac{1}{7} & \\frac{1}{8} \\\\\n  \\frac{1}{5} & \\frac{1}{6} & \\frac{1}{7} & \\frac{1}{8} & \\frac{1}{9}\n\\end{bmatrix}$$\n\nHilbert matrices are ill-conditioned.\n\nInverse\n=======\n\nThe inverse of a Hilbert matrix $H^{-1}\\in M_N(\\mathbb{R})$ is given by\n\n$$H^{-1}_{ij} = (-1)^{i+j}(i+j-1){N+i-1 \\choose N-j}{N+j-1 \\choose N-i}{i+j-2 \\choose i-1}^2$$\n\nAn example of an inverted Hilbert matrix when $n=5$ case is:\n\n$$\\begin{bmatrix}\n         25    &    -300    &    1050    &   -1400    &     630  \\\\\n        -300   &     4800   &   -18900   &    26880   &   -12600 \\\\\n        1050   &   -18900   &    79380   &  -117600   &    56700 \\\\\n       -1400   &    26880   &  -117600   &   179200   &   -88200 \\\\\n         630   &   -12600   &    56700   &   -88200   &    44100 \n\\end{bmatrix}$$\n\nFor more fun with Hilbert matrices, see [@Choi].\n\n[3]{} Choi, Man-Duen. Tricks or Treats with the Hilbert Matrix. American\nMathematical Monthly 90, 301-312, 1983.",
+  "language": "INFORMAL",
+  "phrase": "Hilbert Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HilbertMatrix"
+    }
+  ],
+  "indexable": true
+}

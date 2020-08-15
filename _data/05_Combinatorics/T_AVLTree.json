@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *AVL tree* is a balanced binary search tree where the height of the\ntwo subtrees (children) of a node differs by at most one. Look-up,\ninsertion, and deletion are $O( \\ln{n})$, where $n$ is the number of\nnodes in the tree.\n\nThe structure is named for the inventors, Adelson-Velskii and Landis\n(1962).",
+  "language": "INFORMAL",
+  "phrase": "Avl Tree",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AVLTree"
+    }
+  ],
+  "indexable": true
+}

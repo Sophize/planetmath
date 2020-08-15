@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "transformation semigroup"
+  ],
+  "definition": "Let $X$ be a set. A transformation of $X$ is a function from $X$ to $X$.\n\nIf $\\alpha$ and $\\beta$ are transformations on $X$, then their product\n$\\alpha \\beta$ is defined (writing functions on the right) by\n$(x)(\\alpha \\beta) = ((x) \\alpha)\\beta$.\n\nWith this definition, the set of all transformations on $X$ becomes a\nsemigroup, the *full semigroupf of transformations* on $X$, denoted\n$\\mathcal{T}_X$.\n\nMore generally, a *semigroup of transformations* is any subsemigroup of\na full set of transformations.\n\nWhen $X$ is finite, say $X = \\{x_1, x_2, \\dots, x_n\\}$, then the\ntransformation $\\alpha$ which maps $x_i$ to $y_i$ (with $y_i \\in X$, of\ncourse) is often written: $$\\alpha = \n\\begin{pmatrix}\nx_1 & x_2 & \\dots & x_n \\\\\ny_1 & y_2 & \\dots & y_n \n\\end{pmatrix}$$\n\nWith this notation it is quite easy to products. For example, if\n$X = \\{1, 2, 3, 4\\}$, then $$\\begin{pmatrix}\n1 & 2 & 3 & 4 \\\\\n3 & 2 & 1 & 2 \n\\end{pmatrix}\n\\begin{pmatrix}\n1 & 2 & 3 & 4 \\\\\n2 & 3 & 3 & 4 \n\\end{pmatrix}\n=\n\\begin{pmatrix}\n1 & 2 & 3 & 4 \\\\\n3 & 3 & 2 & 3 \n\\end{pmatrix}$$\n\nWhen $X$ is infinite, say $X = \\{1, 2, 3, \\dotsc \\}$, then this notation\nis still useful for illustration in cases where the transformation\npattern is apparent. For example, if $\\alpha \\in \\mathcal{T}_X$ is given\nby $\\alpha \\colon n \\mapsto n+1$, we can write $$\\alpha = \n\\begin{pmatrix}\n1 & 2 & 3 & 4 & \\dots \\\\\n2 & 3 & 4 & 5 & \\dots \n\\end{pmatrix}$$",
+  "language": "INFORMAL",
+  "phrase": "Semigroup Of Transformations",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemigroupOfTransformations"
+    }
+  ],
+  "indexable": true
+}

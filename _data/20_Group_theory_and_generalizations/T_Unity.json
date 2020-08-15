@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "multiplicative identity",
+    "characterization of unity"
+  ],
+  "definition": "The [*unity*]{} of a ring $(R,\\,+,\\,\\cdot)$ is the multiplicative\nidentity of the ring, if it has such. The unity is often denoted by $e$,\n$u$ or 1. Thus, the unity satisfies\n$$e\\cdot a \\;=\\; a\\cdot e \\;=\\; a\\quad\\forall a\\in R.$$\n\nIf $R$ consists of the mere 0, then $0$ is its unity, since in every\nring, $0\\cdot a = a\\cdot 0 = 0$. Conversely, if 0 is the unity in some\nring $R$, then $R = \\{0\\}$ (because\n$a = 0\\cdot a = 0\\,\\,\\forall a\\in R$).\n\n**Note.** When considering a ring $R$ it is often mentioned that\n\u201c...having $1 \\neq 0$\u201d or that \u201c...with non-zero unity\u201d, sometimes only\n\u201c...with unity\u201d or \u201c...with \u201d; all these exclude the case $R = \\{0\\}$.\n\nAn element $u$ of a ring $R$ is the unity iff $u$ is an idempotent and\nregular element.\n\n[*Proof.*]{} Let $u$ be an idempotent and regular element. For any\nelement $x$ of $R$ we have $$ux \\;=\\; u^2x \\;=\\; u(ux),$$ and because\n$u$ is no left zero divisor, it may be cancelled from the equation; thus\nwe get $x = ux$. Similarly, $x = xu$. So $u$ is the unity of the ring.\nThe other half of the is apparent.",
+  "language": "INFORMAL",
+  "phrase": "Unity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Unity"
+    }
+  ],
+  "indexable": true
+}

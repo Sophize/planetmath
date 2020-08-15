@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $f\\colon {\\mathbbmss{R}}^n\\to {\\mathbbmss{R}}^m$ is a\ndifferentiable positively homogeneous function of degree $r$. Then\n$\\frac{\\partial f}{\\partial x^i}$ is a positively homogeneous function\nof degree $r-1$.\n\nBy considering component functions if necessary, we can assume that\n$m=1$. For $\\lambda\\in {\\mathbbmss{R}}$, let $M_\\lambda$ be the\nmultiplication map, $$\\begin{aligned}\nM_\\lambda\\colon {\\mathbbmss{R}}^n &\\to& {\\mathbbmss{R}}^n \\\\\n                v&\\mapsto& \\lambda v.\\end{aligned}$$ For $\\lambda>0$ and\n$v\\in {\\mathbbmss{R}}^n$, we have $$\\begin{aligned}\n  \\frac{\\partial f}{\\partial x^i}(\\lambda v) &=&\\frac{\\partial(f\\circ M_\\lambda \\circ M_{1/\\lambda})}{\\partial x^i}(\\lambda v) \\\\\n  &= &\\sum_{l=1}^n\\frac{\\partial(f\\circ M_\\lambda)}{\\partial x^l} (v)\\, \\frac{ \\partial(x\\mapsto x/\\lambda)^l}{\\partial x^i} (\\lambda v) \\\\\n  &= &\\frac{\\partial(f\\circ M_\\lambda)}{\\partial x^i} (v)\\, \\frac{1}{\\lambda}\\\\\n  &= &\\lambda^{r-1}\\frac{\\partial f}{\\partial x^i} (v)\\end{aligned}$$ as\nclaimed.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivativeOfHomogeneousFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "derivative of homogeneous function"
+  ]
+}

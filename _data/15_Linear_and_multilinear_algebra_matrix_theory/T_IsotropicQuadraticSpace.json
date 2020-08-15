@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A vector $v$ (an element of $V$) in a quadratic space $(V,Q)$ is\n*isotropic* if\n\n1.  $v\\ne0$ and\n\n2.  $Q(v)=0$.\n\nOtherwise, it is called *anisotropic*. A quadratic space $(V,Q)$ is\nisotropic if it contains an isotropic vector. Otherwise, it is\nanisotropic. A quadratic space $(V,Q)$ is *totally isotropic* if every\none of its non-zero vector is isotropic, or that $Q(V)=0$.\n\nSimilarly, an *isotropic quadratic form* is one which has a non-trivial\nkernel, or that there exists a vector $v$ such that $Q(v)=0$. The\ndefinitions for that of an *anisotropic quadratic form* and that of a\n*totally isotropic quadratic form* should now be clear from the above\ndiscussion (anisotropic: $\\operatorname{ker}(Q)=0$; totally isotropic:\n$\\operatorname{ker}(Q)=V$).\n\n**Examples.**\n\n-   Consider the quadratic form $Q(x,y)=x^2+y^2$ in the vector space\n    $\\mathbb{R}^2$ over the reals. It is clearly anisotropic since there\n    are no real numbers $a,b$ not both $0$, such that $a^2+b^2=0$.\n\n-   However, the same form is isotropic in $\\mathbb{C}^2$ over\n    $\\mathbb{C}$, since $1^2+i^2=0$; the complex numbers are\n    algebraically closed.\n\n-   Again, using the same form $x^2+y^2$, but in $\\mathbb{R}^3$ over the\n    reals , we see that it is isotropic since the $z$ term is missing,\n    so that $Q(0,0,1)=0^2+0^2=0$.\n\n-   If we restrict $Q$ to the subspace consisting of the $z$-axis\n    ($x=y=0$) and call it $Q_z$, then $Q_z$ is totally isotropic, and\n    the $z$-axis is a totally isotropic subspace.\n\n-   The quadratic form $Q(x,y)=x^2-y^2$ is clearly isotropic in any\n    vector space over any field. In general, this is true if the\n    coefficients of a diagonal quadratic form $Q$ consist of $1, -1, 0$\n    ($0$ is optional) and nothing else.",
+  "language": "INFORMAL",
+  "phrase": "Isotropic Quadratic Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IsotropicQuadraticSpace"
+    }
+  ],
+  "indexable": true
+}

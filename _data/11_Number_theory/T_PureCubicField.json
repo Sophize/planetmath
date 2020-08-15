@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*pure cubic field*]{} is an extension of $\\mathbb{Q}$ of the form\n$\\mathbb{Q}(\\sqrt[3]{n})$ for some $n \\in \\mathbb{Z}$ such that\n$\\sqrt[3]{n} \\notin \\mathbb{Q}$. If $n<0$, then\n$\\sqrt[3]{n}=\\sqrt[3]{-|n|}=-\\sqrt[3]{|n|}$, causing\n$\\mathbb{Q}(\\sqrt[3]{n})=\\mathbb{Q}(\\sqrt[3]{|n|})$. Thus, without loss\nof generality, it may be assumed that $n>1$.\n\nNote that no pure cubic field is over $\\mathbb{Q}$. For if\n$n \\in \\mathbb{Z}$ is cubefree with $|n| \\neq 1$, then $x^3-n$ is its\nminimal polynomial over $\\mathbb{Q}$. This polynomial factors as\n$(x-\\sqrt[3]{n})(x^2+x\\sqrt[3]{n}+\\sqrt[3]{n^2})$ over\n$K=\\mathbb{Q}(\\sqrt[3]{|n|})$. The of $x^2+x\\sqrt[3]{n}+\\sqrt[3]{n^2}$\nis\n$\\left( \\sqrt[3]{n} \\right)^2-4(1)\\left( \\sqrt[3]{n^2} \\right)=\\sqrt[3]{n^2}-4\\sqrt[3]{n^2}=-3\\sqrt[3]{n^2}$.\nSince the of $x^2+x\\sqrt[3]{n}+\\sqrt[3]{n^2}$ is negative, it does not\nfactor in $\\mathbb{R}$. Note that $K \\subseteq \\mathbb{R}$. Thus,\n$x^3-n$ has a in $K$ but does not split completely in $K$.\n\nNote also that pure cubic fields are real cubic fields with exactly one\nreal embedding. Thus, a possible method of determining all of the units\nof pure cubic fields is outlined in the entry regarding units of real\ncubic fields with exactly one real embedding.",
+  "language": "INFORMAL",
+  "phrase": "Pure Cubic Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PureCubicField"
+    }
+  ],
+  "indexable": true
+}

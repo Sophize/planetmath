@@ -1,0 +1,17 @@
+{
+  "argumentText": "The following is a proof that the axiom of choice implies Zermelo\u2019s\npostulate.\n\nLet $\\mathcal{F}$ be a disjoint family of nonempty sets. Let\n$\\displaystyle f \\colon \\mathcal{F} \\to \\bigcup \\mathcal{F}$ be a choice\nfunction. Let $A,B \\in \\mathcal{F}$ with $A \\neq B$. Since $\\mathcal{F}$\nis a disjoint family of sets, $\\displaystyle A \\cap B = \\emptyset$.\nSince $f$ is a choice function, $f(A) \\in A$ and $f(B) \\in B$. Thus,\n$f(A) \\notin B$. Hence, $f(A) \\neq f(B)$. It follows that $f$ is\ninjective.\n\nLet\n$\\displaystyle C=\\left\\{f(B) \\in \\bigcup \\mathcal{F} : B \\in \\mathcal{F} \\right\\}$.\nThen $C$ is a set.\n\nLet $A \\in \\mathcal{F}$. Since $f$ is injective,\n$\\displaystyle A \\cap C=\\{f(A)\\}$.",
+  "conclusion": "#P_ZermelosPostulate",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfZermelosPostulate"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Zermelo's postulate"
+  ]
+}

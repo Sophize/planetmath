@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Feigenbaum tree"
+  ],
+  "definition": "A *Feigenbaum fractal* is any bifurcation fractal produced by a\nperiod-doubling cascade. The \u201ccanonical\u201d Feigenbaum fractal is produced\nby the logistic map (a simple population model),\n\n$$y' = \\mu \\cdot y  (1 - y)$$\n\nwhere $\\mu$ is varied smoothly along one dimension. The logistic\niteration either terminates in a cycle (set of repeating values) or\nbehaves chaotically. If one plots the points of this cycle versus the\n$\\mu$-value, a graph like the following is produced:\n\n![image](feigen.eps)\n\nNote the distinct bifurcation (branching) points and the chaotic\nbehavior as $\\mu$ increases.\n\nMany other iterations will generate this same type of plot, for example\nthe iteration\n\n$$p' = r \\cdot \\sin(\\pi\\cdot p)$$\n\nOne of the most amazing things about this class of fractals is that the\nbifurcation intervals are always described by Feigenbaum\u2019s constant.\n\nOctave/Matlab Code to generate the above image is available .\n\n#### References.\n\n-   \u201cQuadratic Iteration, bifurcation, and chaos\u201d:\n\n-   \u201cBifurcation\u201d:\n\n-   \u201cFeigenbaum\u2019s Constant\u201d:",
+  "language": "INFORMAL",
+  "phrase": "Feigenbaum Fractal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FeigenbaumFractal"
+    }
+  ],
+  "indexable": true
+}

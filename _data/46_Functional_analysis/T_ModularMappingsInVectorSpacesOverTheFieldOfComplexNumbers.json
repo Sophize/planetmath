@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $X$ is a $\\mathbb{C}$-vector space. A mapping\n$\\rho:X\\to [0,\\infty]$ is called *modular* if the following three\nconditions are satisfied:\n\n1.  $\\rho(x) = 0$ if and only if $x=0$.\n\n2.  $\\rho(\\alpha x) = \\rho(x)$ for all $x \\in X$ and for all scalars\n    $\\alpha$ such that $|\\alpha|=1$.\n\n3.  $\\rho(\\alpha x + \\beta y) \\leq \\rho(x) + \\rho(y)$ for all\n    $x,y \\in X$ and for all scalars $\\alpha$ and $\\beta$ such that\n    $\\alpha + \\beta =1$ and $\\alpha ,\\beta \\geq 0$.",
+  "language": "INFORMAL",
+  "phrase": "Modular Mappings In Vector Spaces Over The Field Of Complex Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModularMappingsInVectorSpacesOverTheFieldOfComplexNumbers"
+    }
+  ],
+  "indexable": true
+}

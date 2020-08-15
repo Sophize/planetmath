@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "similarity transformation",
+    "similar matrices",
+    "conjugate matrices"
+  ],
+  "definition": "#### Definition\n\nA square matrix $A$ is *similar* (or *conjugate*) to a square matrix $B$\nif there exists a nonsingular square matrix $S$ such that\n\n$$A = S^{-1}BS.$$\n\nNote that, given $S$ as above, we can define $R=S^{-1}$ and have\n$A=RBR^{-1}$. Thus, whether the inverse comes first or last does not\nmatter.\n\nTransformations of the form $S^{-1}BS$ (or $SBS^{-1}$) are called\n*similarity transformations*.\n\n#### Discussion\n\nSimilarity is useful for turning recalcitrant matrices into pliant ones.\nThe canonical example is that a diagonalizable matrix $A$ is similar to\nthe diagonal matrix of its eigenvalues $\\Lambda$, with the matrix of its\neigenvectors acting as the similarity transformation. That is,\n\n$$\\begin{aligned}\nA &= T\\Lambda T^{-1} \\\\\n&= \\left[ \\begin{array}{cccc}\nv_1 & v_2 & \\ldots & v_n\n\\end{array} \\right]\n\\left[ \\begin{array}{ccc}\n\\lambda_1 & 0 & \\ldots \\\\\n0 & \\lambda_2 & \\ldots \\\\\n\\vdots & \\vdots & \\lambda_n\n\\end{array} \\right]\n\\left[\n\\begin{array}{cccc}\nv_1 & v_2 & \\ldots & v_n\n\\end{array} \\right]^{-1}.\\end{aligned}$$\n\nThis follows directly from the equation defining eigenvalues and\neigenvectors,\n\n$$AT=T\\Lambda.$$\n\nIf $A$ is for example, then through this transformation, we have turned\n$A$ into the product of two orthogonal matrices and a diagonal matrix.\nThis can be very useful. As an application, see the solution for the\nnormalizing constant of a multidimensional Gaussian integral.\n\n#### Properties of similar matrices\n\n1.  Similarity is : All square matrices $A$ are similar to themselves\n    via the similarity transformation $A=I^{-1}AI$, where $I$ is the\n    identity matrix with the same dimensions as $A$.\n\n2.  Similarity is : If $A$ is similar to $B$, then $B$ is similar to\n    $A$, as we can define a matrix $R=S^{-1}$ and have\n\n    $$B=R^{-1}AR$$\n\n3.  Similarity is : If $A$ is similar to $B$, which is similar to $C$,\n    we have\n\n    $$A=S^{-1}BS=S^{-1}(R^{-1}CR)S=(S^{-1}R^{-1})C(RS)=(RS)^{-1}C(RS).$$\n\n4.  Because of 1, 2 and 3, similarity defines an equivalence relation ()\n    on square matrices, the space of such matrices into a disjoint set\n    of equivalence classes.\n\n5.  If $A$ is similar to $B$, then their determinants are equal; ,\n    $\\det A=\\det B$. This is easily verified:\n\n    $$\\det A=\\det(S^{-1}BS)=\\det(S^{-1})\\det B \\det S=(\\det S)^{-1}\\det B \\det S=\\det B.$$\n\n    In fact, similar matrices have the same characteristic polynomial,\n    which implies this result directly, the determinant being the\n    constant term of the characteristic polynomial (up to sign).\n\n6.  Similar matrices represent the same linear transformation after a\n    change of basis.\n\n7.  It can be shown that a matrix $A$ and its transpose $A^T$ are always\n    similar.",
+  "language": "INFORMAL",
+  "phrase": "Similar Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimilarMatrix"
+    }
+  ],
+  "indexable": true
+}

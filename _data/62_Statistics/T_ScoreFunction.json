@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "score",
+    "score statistic"
+  ],
+  "definition": "Given a statistical model\n$\\lbrace f_{\\mathbf{X}}(\\boldsymbol{x}\\mid\\boldsymbol{\\theta}) : \\boldsymbol{\\theta} \\in \\Theta \\rbrace$\nwith log-likelihood function\n$\\ell(\\boldsymbol{\\theta}\\mid\\boldsymbol{x})$, the *score function* $U$\nis defined to be the gradient of $\\ell$:\n$$U(\\boldsymbol{\\theta})=\\nabla\\ell=\\frac{\\partial\\ell}{\\partial\\boldsymbol{\\theta}}.$$\nSince the score function $U$ is also a function of the random vector\n$\\boldsymbol{x}$, $U$ is itself a random vector. By setting $U$ to\n**0**, we have a system of $k$ equation(s), otherwise known as the\n*likelihood equation(s)*:\n$$U(\\boldsymbol{\\theta})=\\Big(\\frac{\\partial\\ell}{\\partial\\theta_1},\\ldots,\\frac{\\partial\\ell}{\\partial\\theta_k}\\Big)= (0,\\ldots,0).$$\nIf $\\boldsymbol{\\theta}=\\theta$ is one-dimensional, then the score\nfunction is simply referred to as the *score* of $\\theta$.\n\nThe maximum likelihood estimate (MLE) $\\hat{\\boldsymbol{\\theta}}$ of the\nparameter vector $\\boldsymbol{\\theta}$ can usually be found by finding\nthe solutions of the likelihood equations. The likelihood equations may\nalso be formed by setting the gradient of the plain likelihood function\nto zero. The use of the log function often facilitates the algebra as\nmany distributions are exponential in nature. For some distributions it\nmay also be necessary to test that the solution to the likelihood\nequations is really a minimum as opposed to a point of inflection.\n\n**Example**. $n$ independent observations are made from a random\nvariable $X$ with a Poisson distribution with parameter $\\lambda$. The\nobserved values are $x_1,\\ldots,x_n$. The log-likelihood of the joint\npdf is\n$$\\ell(\\lambda\\mid\\boldsymbol{x})=\\sum_{i=1}^{n}-\\lambda+x_i\\ln(\\lambda)-\\ln(x_i!)$$\nand so the score function is\n$$U(\\lambda)=\\frac{d\\ell}{d\\lambda}=\\sum_{i=1}^{n}\\big(-1+\\frac{x_i}{\\lambda}\\big)=-n+\\frac{n\\overline{x}}{\\lambda},$$\nwhere $n\\overline{x}=\\sum x_i$. To find the MLE of $\\lambda$, we set\n$U=0$ and solve for $\\lambda$. So the MLE $\\hat{\\lambda}$ of\n$\\lambda=\\overline{x}$.",
+  "language": "INFORMAL",
+  "phrase": "Score Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ScoreFunction"
+    }
+  ],
+  "indexable": true
+}

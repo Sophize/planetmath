@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If we have two homomorphisms $f : A \\to B$ and $g : B \\to C$ in some\ncategory of modules, then we say that $f$ and $g$ are [*exact*]{} at $B$\nif the image of $f$ is equal to the kernel of $g$.\n\nA sequence of homomorphisms $$\\cdots \\rightarrow\n  A_{n+1} \\buildrel {f_{n+1}} \\over \\longrightarrow\n  A_n \\buildrel {f_n} \\over \\longrightarrow\n  A_{n-1} \\rightarrow\n  \\cdots$$ is said to be [*exact*]{} if each pair of adjacent\nhomomorphisms $(f_{n+1}, f_n)$ is exact \u2013 in other words if\n${\\rm im} f_{n+1} = {\\rm ker} f_n$ for all $n$.\n\nCompare this to the notion of a chain complex.\n\n**Remark**. The notion of exact sequences can be generalized to any\nabelian category $\\mathcal{A}$, where $A_i$ and $f_i$ above are objects\nand morphisms in $\\mathcal{A}$.",
+  "language": "INFORMAL",
+  "phrase": "Exact Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExactSequence"
+    }
+  ],
+  "indexable": true
+}

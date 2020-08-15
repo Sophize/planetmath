@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Toeplitz Matrix\n===============\n\nA *Toeplitz matrix* is any $n\\times n$ matrix with values constant along\neach (top-left to lower-right) diagonal. That is, a Toeplitz matrix has\nthe form\n\n$$\\begin{bmatrix}\n a_0 & a_1 & a_2 & \\cdots & a_{n-1} \\\\\n a_{-1} & a_0 & a_1 & \\ddots & \\vdots \\\\\n a_{-2} & a_{-1} & a_0 & \\ddots & a_2 \\\\\n \\vdots & \\ddots & \\ddots & \\ddots & a_1 \\\\\n a_{-(n-1)} & \\cdots & a_{-2} & a_{-1} & a_0\n\\end{bmatrix}$$\n\nNumerical problems involving Toeplitz matrices typically have fast\nsolutions (only $2n-1$ distinct elements need to be solved for, as\nopposed to $n^2$). For example, the inverse of a symmetric,\npositive-definite $n\\times n$ Toeplitz matrix can be found in\n$\\mathcal{O}(n^2)$ .\n\n[3]{} Golub and Van Loan, *Matrix Computations*, Johns Hopkins\nUniversity Press 1993",
+  "language": "INFORMAL",
+  "phrase": "Toeplitz Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ToeplitzMatrix"
+    }
+  ],
+  "indexable": true
+}

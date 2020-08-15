@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** A rational number is an algebraic integer iff it is a\nrational integer.\\\n*Proof.* $1^\\circ$. Any rational integer $m$ has the minimal polynomial\n$x\\!-\\!m$, whence it is an algebraic integer.\\\n$2^\\circ$. Let the rational number $\\alpha = \\frac{m}{n}$ be an\nalgebraic integer where $m,\\,n$ are coprime integers and $n > 0$. Then\nthere is a polynomial $$f(x) \\;=\\; x^k+a_1x^{k-1}+\\ldots+a_k$$ with\n$a_1,\\,\\ldots,\\,a_k \\in \\mathbb{Z}$ such that\n$$f(\\alpha) \\;=\\; \\left(\\frac{m}{n}\\right)^k+a_1\\left(\\frac{m}{n}\\right)^{k-1}+\\ldots+a_k \\;=\\; 0.$$\nMultiplying this equation termwise by $n^k$ implies\n$$m^k \\;=\\; -a_1m^{k-1}n-\\ldots-a_kn^k,$$ which says that $n \\mid m^k$\n(see divisibility in rings). Since $m$ and $n$ are coprime and $n$\npositive, it follows that $n = 1$. Therefore,\n$\\alpha = m \\in \\mathbb{Z}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RationalAlgebraicIntegers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "rational algebraic integers"
+  ]
+}

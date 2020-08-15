@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "#### Definition\n\nA sequence of vectors $(x_n)$ in a Hilbert space $H$ is called a Riesz\nsequence if there exist constants $0 < c \\leq C$ such that\n$$c\\left( \\sum_n |a_n|^2 \\right) \\leq \\left\\| \\sum_n a_n x_n \\right\\|^2 \\leq C \\left( \\sum_n |a_n|^2 \\right)$$\nfor all sequences of scalars $(a_n) \\in l^2$. A Riesz sequence is called\na Riesz basis if $\\overline{\\mathop{\\rm span} (x_n)} = H$.\n\nIf $H$ is a finite-dimensional space, then every basis of $H$ is a Riesz\nbasis.",
+  "language": "INFORMAL",
+  "phrase": "Riesz Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RieszSequence"
+    }
+  ],
+  "indexable": true
+}

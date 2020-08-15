@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "nilpotent"
+  ],
+  "definition": "A linear transformation $N: U\\rightarrow U$ is called nilpotent if there\nexists a $k\\in\\mathbb{N}$ such that $$N^k = 0.$$ A nilpotent\ntransformation naturally determines a flag of subspaces\n$$\\{0\\} \\subset \\ker N^1 \\subset \\ker N^2 \\subset \\ldots \\subset \\ker N^{k-1} \\subset \\ker N^k = U$$\nand a signature\n$$0  = n_0 < n_1 < n_2 < \\ldots < n_{k-1} < n_k = \\dim U,\\qquad n_i =\n\\dim \\ker N^i.$$ The signature is governed by the following constraint,\nand characterizes $N$ up to linear isomorphism.\n\nA sequence of increasing natural numbers is the signature of a\nnil-potent transformation if and only if\n$$n_{j+1} - n_{j} \\leq n_{j} - n_{j-1}$$ for all $j=1,\\ldots,k-1$.\nEquivalently, there exists a basis of $U$ such that the matrix of $N$\nrelative to this basis is block diagonal $$\\begin{pmatrix}\nN_1 & 0 & 0 & \\ldots & 0\\\\\n0 & N_2 & 0 & \\ldots & 0 \\\\\n0 & 0 & N_3 & \\ldots & 0 \\\\\n\\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\\n0 & 0 & 0 & \\ldots & N_k\n\\end{pmatrix},$$ with each of the blocks having the form\n$$N_i = \\begin{pmatrix}\n  0 & 1 & 0 & \\ldots & 0 & 0 \\\\\n  0 & 0 & 1 & \\ldots & 0 & 0 \\\\\n  \\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\\n  0 & 0 & 0 & \\ldots & 1 & 0 \\\\\n  0 & 0 & 0 & \\ldots & 0 & 1 \\\\\n  0 & 0 & 0 & \\ldots & 0 & 0   \n\\end{pmatrix}$$ Letting $d_i$ denote the number of blocks of size $i$,\nthe signature of $N$ is given by\n$$n_i = n_{i-1} + d_i + d_{i+1} + \\ldots + d_k,\\quad i=1,\\ldots,k$$",
+  "language": "INFORMAL",
+  "phrase": "Nilpotent Transformation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NilpotentTransformation"
+    }
+  ],
+  "indexable": true
+}

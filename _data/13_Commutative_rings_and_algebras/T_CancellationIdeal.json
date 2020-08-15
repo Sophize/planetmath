@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "cancellative ideal"
+  ],
+  "definition": "Let $R$ be a commutative ring containing regular elements and\n$\\mathfrak{S}$ be the multiplicative semigroup of the non-zero\nfractional ideals of $R$. A fractional ideal $\\mathfrak{a}$ of $R$ is\ncalled a [*cancellation ideal*]{} or simply [*cancellative*]{}, if it is\na cancellative element of $\\mathfrak{S}$, i.e. if\n$$\\mathfrak{ab = ac}\\, \\Rightarrow\\, \\mathfrak{b = c}\n\\quad\\forall\\,\\,\\mathfrak{b,\\,c}\\in\\mathfrak{S}.$$\n\n-   Each invertible ideal is cancellative.\n\n-   A finite product $\\mathfrak{a}_1\\mathfrak{a}_2...\\mathfrak{a}_m$ of\n    fractional ideals is cancellative iff every $\\mathfrak{a}_i$ is\n    such.\n\n-   The fractional ideal\n    $\\mathfrak{a}/r := \\{ar^{-1}\\!:\\,\\,\\,a\\in\\mathfrak{a}\\}$, where\n    $\\mathfrak{a}$ is an integral ideal of $R$ and $r$ a regular element\n    of $R$, is cancellative if and only if $\\mathfrak{a}$ is\n    cancellative in the multiplicative semigroup of the non-zero\n    integral ideals of $R$.\n\n-   If $r\\in R$, then the principal ideal $(r)$ of $R$ is cancellative\n    if and only if $r$ is a regular element of the total ring of\n    fractions of $R$.\n\n-   If $\\mathfrak{a}_1\\!+\\!\\mathfrak{a}_2\\!+\\!...\\!+\\!\\mathfrak{a}_m$ is\n    a cancellation ideal and $n$ a positive integer, then\n    $$(\\mathfrak{a}_1\\!+\\!\\mathfrak{a}_2\\!+\\!...\\!+\\!\\mathfrak{a}_m)^n =\n          \\mathfrak{a}_1^n\\!+\\!\\mathfrak{a}_2^n\\!+\\!...\\!+\\!\\mathfrak{a}_m^n.$$\n    In particular, if the ideal $(a_1,\\,a_2,\\,...,\\,a_m)$ of $R$ is\n    cancellative, then\n    $$(a_1,\\,a_2,\\,...,\\,a_m)^n = (a_1^n,\\,a_2^n,\\,...,\\,a_m^n).$$\n\n[9]{} . Queens University Press. Kingston, Ontario (1968). . Academic\nPress. New York (1971).",
+  "language": "INFORMAL",
+  "phrase": "Cancellation Ideal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CancellationIdeal"
+    }
+  ],
+  "indexable": true
+}

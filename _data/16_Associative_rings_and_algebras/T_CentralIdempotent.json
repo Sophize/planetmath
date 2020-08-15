@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring. An element $e\\in R$ is called a *central idempotent*\nif it is an idempotent and is in the center $Z(R)$ of $R$.\n\nIt is well-known that if $e\\in R$ is an idempotent, then $eRe$ has the\nstructure of a ring with unity, with $e$ being the unity. Thus, if $e$\nis central, $eRe=eR=Re$ is a ring with unity $e$.\n\nIt is easy to see that the operation of ring multiplication preserves\ncentral idempotency: if $e,f$ are central idempotents, so is $ef$. In\naddition, if $R$ has a multiplicative identity $1$, then $f:=1-e$ is\nalso a central idempotent. Furthermore, we may characterize central\nidempotency in a ring with $1$ as follows:\n\nAn idempotent $e$ in a ring $R$ with $1$ is central iff $eRf=fRe=0$,\nwhere $f=1-e$.\n\nIf $e$ is central, then clearly $eRf=fRe=0$. Conversely, for any\n$r\\in R$, we have $er = er-erf = er(1-f) = ere = (1-f)re = re-fre = re$.\n\nAnother interesting fact about central idempotents in a ring with unity\nis the following:\n\nThe set $C$ of all central idempotents of a ring $R$ with $1$ has the\nstructure of a Boolean ring.\n\nFirst, note that $0,1\\in C$. Next, for $e,f\\in C$, we define addition\n$\\oplus$ and multiplication $\\odot$ on $C$ as follows:\n$$e \\oplus f := e+f - ef \\qquad \\mbox{and} \\qquad e\\odot f: = ef.$$ As\ndiscussed above, $\\oplus$ and $\\odot$ are well-defined (as $C$ is closed\nunder these operations). In addition, for any $e,f,g\\in C$, we have\n\n1.  $(C,1,\\odot)$ is a commutative monoid, in which every element is an\n    idempotent (with respect to $\\odot$). This fact is clear.\n\n2.  $\\oplus$ is commutative, since $C \\subseteq Z(R)$.\n\n3.  $\\oplus$ is associative: $$\\begin{aligned}\n    e \\oplus (f\\oplus g) &=&  e + (f+g - fg) - e(f+g-fg) \\\\ &=& \n    e + f + g - ef - fg - eg + efg \\\\ &=& (e+f-ef)+g -(e+f-ef)g  \\\\ &=& (e \\oplus f)\\oplus g.\\end{aligned}$$\n\n4.  $\\odot$ distributes over $\\oplus$: we only need to show left\n    distributivity (since $\\odot$ is commutative by $1$ above):\n    $$\\begin{aligned}\n    e \\odot (f\\oplus g) &=&  e(f+g-fg) = ef+eg-efg \\\\ &=& ef+eg-eefg = ef+eg-efeg \\\\ &=& ef \\oplus eg = (e\\odot f) \\oplus (e\\odot g).\\end{aligned}$$\n\nThis shows that $(C,0,1,\\oplus,\\odot)$ is a Boolean ring.",
+  "language": "INFORMAL",
+  "phrase": "Central Idempotent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CentralIdempotent"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $G$ be a triangle-free graph. We may assume that $G$ has at least\nthree vertices and at least one edge; otherwise, there is nothing to\nprove. Consider the set $P$ of all functions\n$c\\colon V(G)\\to\\mathbb{R}_+$ such that $\\sum_{v\\in V(G)} c(v)=1$.\nDefine the total weight $W(c)$ of such a function by\n$$W(c) = \\sum_{uv\\in E(G)} c(u)\\cdot c(v).$$ By declaring that\n$c\\le c^*$ if and only if $W(c)\\le W(c^*)$ we make $P$ into a poset.\n\nConsider the function $c_0\\in P$ which takes the constant value\n$\\frac{1}{|V(G)|}$ on each vertex. The total weight of this function is\n$$W(c_0) = \\sum_{uv\\in E(G)} \\frac{1}{|V(G)|}\\cdot\\frac{1}{|V(G)|}=\\frac{|E(G)|}{|V(G)|^2},$$\nwhich is positive because $G$ has an edge. So if $c\\ge c_0$ in $P$, then\n$c$ has support on an induced subgraph of $G$ with at least one edge.\n\nWe claim that a maximal element of $P$ above $c_0$ is supported on a\ncopy of $K_2$ inside $G$. To see this, suppose $c\\ge c_0$ in $P$. If $c$\nhas support on a subgraph larger than $K_2$, then there are nonadjacent\nvertices $u$ and $v$ such that $c(u)$ and $c(v)$ are both positive.\nWithout loss of generality, suppose that\n$$\\sum_{uw\\in E(G)} c(w) \\ge \\sum_{vw\\in E(G)} c(w).\\tag{*}$$ Now we\npush the function off $v$. To do this, define a function\n$c^*\\colon V(G)\\to\\mathbb{R}_+$ by $$c^*(w) = \\begin{cases}\nc(u)+c(v) & w=u \\\\\n0         & w=v \\\\\nc(w)      & \\text{otherwise.}\n\\end{cases}$$ Observe that $\\sum_{w\\in V(G)} c^*(w) = 1$, so $c^*$ is\nstill in the poset $P$. Furthermore, by inequality\u00a0(\\*) and the\ndefinition of $c^*$, $$\\begin{aligned}\nW(c^*)\n&= \\sum_{uw\\in E(G)} c^*(u)\\cdot c^*(w) + \\sum_{vw\\in E(G)} c^*(v)\\cdot c^*(w) + \\sum_{wz\\in E(G)} c^*(w)\\cdot c^*(z) \\\\\n&= \\sum_{uw\\in E(G)} [c(u) + c(v)]\\cdot c(w) + 0 + \\sum_{wz\\in E(G)} c(w)\\cdot c(z) \\\\\n&= \\sum_{uw\\in E(G)} c(u) \\cdot c(w) + \\sum_{vw} c(v)\\cdot c(w) + \\sum_{wz\\in E(G)} c(w) \\cdot c(z) \\\\\n&= W(c).\\end{aligned}$$ Thus $c^*\\ge c$ in $G$ and is supported on one\nless vertex than $c$ is. So let $c$ be a maximal element of $P$ above\n$c_0$. We have just seen that $c$ must be supported on adjacent vertices\n$u$ and $v$. The weight $W(c)$ is just $c(u)\\cdot c(v)$; since\n$c(u)+c(v)=1$ and $c$ has maximal weight, it must be that\n$c(u)=c(v)=\\frac{1}{2}$. Hence\n$$\\frac{1}{4}=W(c)\\ge W(c_0)=\\frac{|E(G)|}{|V(G)|^2},$$ which gives us\nthe desired inequality: $|E(G)|\\le\\frac{|V(G)|^2}{4}$.",
+  "conclusion": "#P_MantelsTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfMantelsTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Mantel's theorem"
+  ]
+}

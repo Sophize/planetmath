@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*Windows Calculator*]{} is a software calculator that comes bundled\nwith the Windows operating system. The basic mode is called \u201cStandard\u201d\nand is the default, Scientific mode has most of the operations available\non a typical scientific calculator. Note that switching between modes\ncauses the loss of the current value displayed (unless of course that\nvalue is 0). For some reason, Standard mode has a square root key but\nScientific mode does not. As a workaround in scientific mode, one can\nenter, say, `[2] [x^y] [0] [.] [5]`.\n\nDivision by zero causes an error condition that must be cleared with the\nC key on the displayed keyboard (or the Escape key on the computer\u2019s\nkeyboard). Integer values smaller than $10^{32}$ can be displayed in all\ntheir digits. According to the Help, the Windows Calculator truncates\n$\\pi$ to 32 digits, but rational numbers are stored internally \u201cas\nfractions\u201d.\n\nLike most scientific calculators, the Windows Calculator can display\nresults in binary, octal and hexadecimal, but is limited to integers in\nthose bases. Additionally, negative numbers are shown in two\u2019s\ncomplement (and the sign change key performs two\u2019s complement on the\ndisplayed value). In those bases, the user can choose the data size:\nquadruple word (the default), double word, word or byte. Overflows don\u2019t\ntrigger any kind of exception or error notification, the calculator\nquietly discards the more significant digits and displays the least\nsignificant digits that will fit in the currently selected data size.\n\nLike the Mac OS Calculator, for the Windows Calculator $0^0 = 1$.\n\n[1]{} David A. Karp, Tim O\u2019Reilly & Troy Mott, [*Windows XP in a\nNutshell*]{} Cambridge: O\u2019Reilly (2002): 114 - 117",
+  "language": "INFORMAL",
+  "phrase": "Windows Calculator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WindowsCalculator"
+    }
+  ],
+  "indexable": true
+}

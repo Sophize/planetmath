@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The Mittag-Leffler function $E_{\\alpha \\beta}$ is a complex function\nwhich depends on two complex parameters $\\alpha$ and $\\beta$. It may be\ndefined by the following series when the real part of $\\alpha$ is\nstrictly positive:\n$$E_{\\alpha \\beta} (z) = \\sum_{k=0}^\\infty {z^k \\over \\Gamma (\\alpha k + \\beta)}$$\nIn this case, the series converges for all values of the argument $z$,\nso the Mittag-Leffler function is an entire function.",
+  "language": "INFORMAL",
+  "phrase": "Mittag-Leffler Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MittagLefflerFunction"
+    }
+  ],
+  "indexable": true
+}

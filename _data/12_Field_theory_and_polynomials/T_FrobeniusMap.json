@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ be any field of characteristic $p > 0$, and suppose $K$ contains\nthe finite field $\\mathbb{F}_q$ of size $q$, where $q = p^r$. The\n$q^{\\rm th}$ power Frobenius map on $K$ is the map\n${\\operatorname{Frob}}_q: K \\longrightarrow K$ defined by\n${\\operatorname{Frob}}_q(x) := x^q$.\n\nIf $K$ is perfect, then ${\\operatorname{Frob}}_q$ is an automorphism of\n$K$ which fixes $\\mathbb{F}_q$, and accordingly is a member of the\nGalois group $\\operatorname{Gal}(K/\\mathbb{F}_q)$.",
+  "language": "INFORMAL",
+  "phrase": "Frobenius Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FrobeniusMap"
+    }
+  ],
+  "indexable": true
+}

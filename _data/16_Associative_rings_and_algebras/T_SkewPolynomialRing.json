@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $(\\sigma, \\delta)$ is a left skew derivation on $R$, then we can\nconstruct the [*(left) skew polynomial ring*]{}\n$R[\\theta;\\sigma,\\delta]$, which is made up of polynomials in an\nindeterminate $\\theta$ and left-hand coefficients from $R$, with\nmultiplication satisfying the relation\n$$\\theta \\cdot r = \\sigma(r) \\cdot \\theta + \\delta(r)$$ for all $r$ in\n$R$.",
+  "language": "INFORMAL",
+  "phrase": "Skew Polynomial Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SkewPolynomialRing"
+    }
+  ],
+  "indexable": true
+}

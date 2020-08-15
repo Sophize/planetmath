@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Cauchy principal value"
+  ],
+  "definition": "[**Definition**]{} [@reed; @igari; @rauch] Let\n$C_0^\\infty({\\mathbb{R}})$ be the set of smooth functions with compact\nsupport on ${\\mathbb{R}}$. Then the *Cauchy principal part integral*\n(or, more in line with the notation, the *Cauchy principal value*)\n${\\operatorname{p.\\!v.}(\\frac{1}{x})}$ is mapping\n${\\operatorname{p.\\!v.}(\\frac{1}{x})}\\,: C_0^\\infty({\\mathbb{R}}) \\to  {\\mathbb{C}}$\ndefined as\n$${\\operatorname{p.\\!v.}(\\frac{1}{x})}(u)=\\lim_{\\varepsilon\\to 0+} \\int_{|x|>\\varepsilon} \\frac{u(x)}{x} dx$$\nfor $u\\in C_0^\\infty({\\mathbb{R}})$.\n\n[**Theorem**]{} The mapping ${\\operatorname{p.\\!v.}(\\frac{1}{x})}$ is a\n. That is,\n${\\operatorname{p.\\!v.}(\\frac{1}{x})}\\in {\\mathcal{D}}'^1({\\mathbb{R}})$.\n\n()\n\n### Properties\n\n1.  The distribution ${\\operatorname{p.\\!v.}(\\frac{1}{x})}$ is obtained\n    as the limit ([@rauch], pp. 250)\n    $$\\frac{\\chi_{n |x|}}{x} \\to {\\operatorname{p.\\!v.}(\\frac{1}{x})}.$$\n    as $n\\to \\infty$. Here, $\\chi$ is the characteristic function, the\n    locally integrable functions on the left hand side should be\n    interpreted as distributions (see ), and the limit should be taken\n    in ${\\mathcal{D}}'({\\mathbb{R}})$. It should also be noted that\n    ${\\operatorname{p.\\!v.}(\\frac{1}{x})}$ can be represented by a\n    proper integral as\n    $${\\operatorname{p.\\!v.}(\\frac{1}{x})}(u)=\\int_0^\\infty \\frac{u(x)-u(-x)}{x},$$\n    where we have used the fact that the integrand is continuous because\n    of the differentiability at 0. In fact, this viewpoint can be used\n    to somewhat vastly increase the set of functions for which this\n    principal value is well-defined, such as functions that are\n    integrable, satisfy a Lipschitz condition at 0, and whose behavior\n    for large $x$ makes the integral converge at infinity.\n\n2.  Let $\\ln |t|$ be the distribution induced by the locally integrable\n    function $\\ln |t| : {\\mathbb{R}}\\to {\\mathbb{R}}$. Then, for the\n    $D$, we have ([@igari], pp. 149)\n    $$D (\\ln |t|) = {\\operatorname{p.\\!v.}(\\frac{1}{x})}.$$\n\n[9]{} M. Reed, B. Simon, *Methods of Modern Mathematical Physics:\nFunctional Analysis I*, Revised and enlarged edition, Academic Press,\n1980. S. Igari, *Real analysis - With an introduction to Wavelet\nTheory*, American Mathematical Society, 1998. J. Rauch, *Partial\nDifferential Equations*, Springer-Verlag, 1991.",
+  "language": "INFORMAL",
+  "phrase": "Cauchy Principal Part Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyPrincipalPartIntegral"
+    }
+  ],
+  "indexable": true
+}

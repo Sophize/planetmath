@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "narcissistic number",
+    "plus perfect number",
+    "perfect digital invariant"
+  ],
+  "definition": "Given a base $b$ integer $$n = \\sum_{i = 1}^k d_ib^{i - 1}$$ where $d_1$\nis the least significant digit and $d_k$ is the most significant, if\nit\u2019s also the case that for some power $m$ the equality\n$$n = \\sum_{i = 1}^k {d_i}^m$$ also holds, then $n$ is an [*Armstrong\nnumber*]{} or [*narcissistic number*]{} or [*plus perfect number*]{} or\n[*perfect digital invariant*]{}.\n\nIn any given base $b$ there is a finite amount of Armstrong numbers,\nsince the inequality $k(b - 1)^m > b^{k - 1}$ is false after a certain\nthreshold.",
+  "language": "INFORMAL",
+  "phrase": "Armstrong Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArmstrongNumber"
+    }
+  ],
+  "indexable": true
+}

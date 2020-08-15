@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R_1,R_2$ be two, nontrivial, unital rings and $R=R_1\\oplus R_2$. If\n$M_1$ is a $R_1$-module and $M_2$ is a $R_2$-module, then obviously\n$M_1\\oplus M_2$ is a $R$-module via\n$(r,s)\\cdot (m_1,m_2)=(r\\cdot m_1,s\\cdot m_2)$. We will show that every\n$R$-module can be obtain in this way.\n\n**Proposition.** If $M$ is a $R$-module, then there exist submodules\n$M_1,M_2\\subseteq M$ such that $M=M_1\\oplus M_2$ and for any $r\\in R_1$,\n$s\\in R_2$, $m_1\\in M_1$ and $m_2\\in M_2$ we have\n$$(r,s)\\cdot m_1=(r,0)\\cdot m_1\\ \\ \\ \\ (r,s)\\cdot m_2=(0,s)\\cdot m_2,$$\ni.e. ring action on $M_1$ (respectively $M_2$) does not depend on $R_2$\n(respectively $R_1$).\n\n*Proof.* Let $e=(1,0)\\in R$ and $f=(0,1)\\in R$. Of course both $e,f$ are\nidempotents and $(1,1)=e+f$. Moreover $ef=fe=0$ and $e,f$ are central,\ni.e. $e,f\\in \\{c\\in R\\ \\big| \\ \\forall_{x\\in R}\\ cx=xc\\}$. We will use\n$e,f$ to construct submodules $M_1,M_2$. More precisely, let $M_1=eM$\nand $M_2=fM$. Because $e,f$ are central, then it is clear that both\n$M_1$ and $M_2$ are submodules. We will show that $M_1+M_2=M$. Indeed,\nlet $m\\in M$. Then we have\n$$m=(1,1)\\cdot m=(e+f)\\cdot m=e\\cdot m + f\\cdot m.$$ Thus $M_1+M_2=M$.\nFurthermore, assume that $m\\in M_1\\cap M_2$. Then there exist\n$m_1,m_2\\in M$ such that $$e\\cdot m_1=m=f\\cdot m_2$$ and therefore\n$$e\\cdot m_1 - f\\cdot m_2=0.$$ Now, after multiplying both sides by $e$\nwe obtain that\n$$0=(ee)\\cdot m_1 - (ef)\\cdot m_2=e\\cdot m_1-0\\cdot m_2=e\\cdot m_1=m,$$\nthus $M_1\\cap M_2=0$. This shows that $M=M_1\\oplus M_2$. To finish the\nproof, we need to show that the ring action on $M_1$ does not depend on\n$R_2$ (the other case is analogous). But this is clear, since for any\n$(r,s)\\in R$ and $m\\in M$ we have\n$$(r,s)\\cdot (e\\cdot m)=\\big( (r,s)(1,0)\\big) \\cdot m=(r,0)\\cdot m=\\big( (r,0)(1,0)\\big)\\cdot m=(r,0)\\cdot(e\\cdot m).$$\nThis completes the proof. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModulesOverDecomposableRings"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "modules over decomposable rings"
+  ]
+}

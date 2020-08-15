@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K_1\\supset K_2\\supset K_3 \\supset \\ldots \\supset K_n\\supset \\ldots$\nbe a sequence of non-empty, compact subsets of a metric space $X$. Then\nthe intersection $\\bigcap_i K_i$ is not empty.\n\nChoose a point $x_i\\in K_i$ for every $i=1,2,\\ldots$ Since\n$x_i \\in K_i \\subset K_1$ is a sequence in a compact set, by\nBolzano-Weierstrass Theorem, there exists a subsequence $x_{i_j}$ which\nconverges to a point $x\\in K_1$. Notice, however, that for a fixed index\n$n$, the sequence $x_{i_j}$ lies in $K_n$ for all $j$ sufficiently large\n(namely for all $j$ such that $i_j>n$). So one has $x\\in K_n$. Since\nthis is true for every $n$, the result follows.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CantorsIntersectionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cantor's Intersection Theorem"
+  ]
+}

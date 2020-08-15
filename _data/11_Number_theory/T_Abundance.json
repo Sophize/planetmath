@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an integer $n$ with divisors $d_1, \\ldots , d_k$ (where the\ndivisors are in ascending order and $d_1 = 1$, $d_k = n$) the difference\n$$\\left( \\sum_{i = 1}^k d_i \\right) - 2n$$ is the [*abundance*]{} of\n$n$. Or if one prefers, $$\\left( \\sum_{i = 1}^{k - 1} d_i \\right) - n.$$\n\nFor example, the divisors of 12 (which are 1, 2, 3, 4, 6 and 12) add up\nto 28, which is 4 more than 24 (twice 12). Therefore, 12 has an\nabundance of 4. For the sake of comparison, the divisors of 13 are 1 and\n13, adding up to 14, which is 12 less than 26 (twice 13). Therefore, 13\nhas an abundance of $-12$. A033880 in Sloane\u2019s OEIS lists the abundance\nof the first sixty-three positive integers.\n\nThus numbers with positive abundance are abundant numbers. A number with\nan abundance of exactly 1 is a quasiperfect number, while a number with\n0 abundance is a perfect number. A number with an abundance of $-1$ is\nan almost perfect number (this is true of all powers of 2); all numbers\nwith negative abundance are deficient numbers.",
+  "language": "INFORMAL",
+  "phrase": "Abundance",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Abundance"
+    }
+  ],
+  "indexable": true
+}

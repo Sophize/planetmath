@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{A}$ and $\\mathcal{B}$ be ab-categories. A functor\n$F:\\mathcal{A}\\to \\mathcal{B}$ is called an *additive functor* if, for\nany objects $A,B$ in $\\mathcal{A}$, the function\n$$F_{(A,B)}: \\hom(A,B)\\to \\hom(F(A),F(B))$$ given by $F_{(A,B)}(f)=F(f)$\nis a group homomorphism. In other words, if $f,g: A\\to B$ are two\nmorphisms with common domain $A$ and codomain $B$, then\n$$F(f+g)=F(f)+F(g).$$\n\nFor example, the hom functor $\\hom(A,-)$ where $A$ is an object in an\nabelian category, is additive.\n\n**Remark**. It can be shown that any exact functor between abelian\ncategories is additive.\n\nMore to come...",
+  "language": "INFORMAL",
+  "phrase": "Additive Functor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdditiveFunctor"
+    }
+  ],
+  "indexable": true
+}

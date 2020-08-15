@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Proposition.** Let $\\mathbb{R}^n$ be an $n$-dimensional, real normed\nspace and let $A\\subseteq \\mathbb{R}^n$. If $A$ is uncountable, then\nthere exists limit point of $A$ in $\\mathbb{R}^n$.\n\n*Proof.* For any $k\\in\\mathbb{N}$ let\n$$\\mathbb{B}_{k}=\\{v\\in\\mathbb{R}^n\\ |\\ ||v||\\leq k\\},$$ i.e.\n$\\mathbb{B}_k$ is a closed ball centered in $0$ with radius $k$. Assume,\nthat for any $k$ the set $$V_k=\\mathbb{B}_k\\cap A$$ is finite. Then\n$\\bigcup V_k=A$ would be at most countable. Contradiction, since $A$ is\nuncountable. Thus, there exists $k_0\\in\\mathbb{N}$ such that $V_{k_0}$\nis infinite. But $V_{k_0}\\subseteq\\mathbb{B}_{k_0}$ and since\n$\\mathbb{B}_{k_0}$ is compact (and $V_{k_0}$ is infinite), then there\nexists limit point of $V_{k_0}$ in $\\mathbb{R}^n$. This completes the\nproof. $\\square$\n\n**Corollary.** If $A\\subseteq\\mathbb{R}^n$ is uncountable, then there\nexist infinitely many limit points of $A$ in $\\mathbb{R}^n$.\n\n*Proof.* Assume, that there are finitely many limit points of $A$,\nnamely $x_1,\\ldots,x_k\\in\\mathbb{R}^n$. For $\\varepsilon >0$ define\n$$A_{\\varepsilon}=\\{v\\in\\mathbb{R}^n\\ |\\ \\forall_{i}\\ ||v-x_i||>\\varepsilon\\}.$$\nBriefly speaking, $A_{\\varepsilon}$ is a complement of a union of closed\nballs centered at $x_i$ with radii $\\varepsilon$. Of course\n$A_{\\varepsilon}\\neq\\emptyset$ since there are finitely many limit\npoints. Let $$V_{\\varepsilon}=A\\cap A_{\\varepsilon}.$$ Assume, that\n$V_{\\varepsilon}$ is countable for every $\\varepsilon$. Then\n$$A\\subseteq \\bigcup_{n\\in\\mathbb{N}}V_{\\frac{1}{n}}\\cup\\{x_1,\\ldots,x_k\\}$$\nwould be at most countable (of course under assumption of Axiom of\nChoice). Contradiction. Thus, there is $\\gamma > 0$ such that\n$V_{\\gamma}$ is uncountable. Then (due to proposition) there is a limit\npoint $x'\\in\\mathbb{R}^n$ of $V_{\\gamma}$. Note, that\n$$x'\\in \\overline{V_{\\gamma}}\\subseteq V_{\\gamma'}$$\n\nfor some $0 < \\gamma' < \\gamma $. Thus $x'$ is different from any $x_i$.\nContradiction, since $x'$ is also a limit point of $A$. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitPointsOfUncountableSubsetsOfRn"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "limit points of uncountable subsets of R^n"
+  ]
+}

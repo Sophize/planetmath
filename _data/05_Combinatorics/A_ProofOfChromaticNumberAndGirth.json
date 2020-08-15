@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $\\alpha(G)$ denote the size of the largest independent set in $G$,\nand $\\chi(G)$ the chromatic number of $G$. We want to show that there is\na graph $G$ with girth larger than $\\ell$ and $\\chi(G)>k$, for any\n$\\ell, k > 0$.\n\nWe first prove the following claim.\n\n[*Claim:*]{} Given a positive integer $\\ell$ and a positive real number\n$t<1/\\ell$, for all sufficiently large $n$, there is a graph $G$ on $n$\nvertices satisfying properties\n\n1.  the number of cycles of length at most $\\ell$ is less than $n/2$,\n\n2.  $\\alpha(G) < 3n^{1-t}\\log n$.\n\n[*Proof of claim:*]{} Let $G$ be a random graph on $n$ vertices, in\nwhich each pair of vertices joint by an edge independently with\nprobability $p=n^{t-1}$. Let $X$ be the number of cycles of length at\nmost $\\ell$ in $G$. The expected value of $X$ is $$\\begin{aligned}\n  E[X] &= \\sum_{i=3}^\\ell \\frac{n(n-1)\\cdots(n-i+1)}{2i}p^i \\\\\n  &< \\sum_{i=3}^\\ell \\frac{(np)^i}{2i} < \\sum_{i=3}^\\ell n^{ti} < \\ell n^{t\\ell}\\end{aligned}$$\nBy Markov inequality, $$\\Pr(X \\geq n/2) < 2\\ell n^{t\\ell-1},$$ we have\n$$\\Pr(X \\geq n/2) \\rightarrow 0$$ as $n\\rightarrow \\infty$, since\n$t\\ell < 1$.\n\nOn the other hand, let $y=\\lceil (3\\log n)/ p \\rceil$, and $Y$ be the\nnumber of independent sets of size $y$ in $G$. By Markov inequality\nagain, $$\\Pr(\\alpha(G)\\geq y) = \\Pr(Y\\geq 1) \\leq E[Y].$$ However,\n$$E[Y] = {n \\choose y} (1-p)^{y(y-1)/2}$$ Using the inequalities,\n${n \\choose y} < n^y$ and $(1-p)\\leq\ne^{-p}$, we get $$\\Pr(\\alpha(G)\\geq y) < (n e^{-p(y-1)/2})^y$$ Our\nchoice of $y$ guarantees that $n e^{-p(y-1)/2} < \\beta < 1 $ for some\n$\\beta$, and $y\\rightarrow \\infty$ as $n$ approaches infinity.\nTherefore, $$\\Pr(\\alpha(G)\\geq y) \\rightarrow 0, \\quad \\text{as\n $n\\rightarrow\\infty$}.$$\n\nWe can thus find $n_0$ such that for all $n>n_0$, both $\\Pr(X\n\\geq n/2)$ and $\\Pr(\\alpha(G)\\geq y)$ are strictly less than $1/2$. For\nall $n>n_0$,\n$$\\Pr(X<\\ell \\text{ and } \\alpha(G)<y) > 1-\\Pr(X\\geq\\ell)-\\Pr(\n \\alpha(G)\\geq y)>1.$$ Therefore there exists a graph that satisfies the\ntwo properties in the claim. This ends the proof of the claim.\n\nLet $G$ be a graph that satisfies the two properties in the claim.\nRemove a vertex from each cycle of length at most $\\ell$ in $G$. The\nresulting graph $G'$ has girth larger than $\\ell$, more than $n/2$\nvertices, and $\\alpha(G')\\leq \\alpha(G)$. Since , we have\n$$\\chi(G') \\geq \\frac{n/2}{3n^{1-t}\\log n} = \\frac{n^t}{6 \\log n}$$ We\ncan pick sufficiently large $n$ such that $\\chi(G')$ is larger than $k$.\nThen the chromatic number of $G'$ is larger than $k$ and girth is larger\nthan $\\ell$.\n\n[**Reference**]{}: N. Alon and J. Spencer, [*The probabilistic\nmethod*]{}, 2nd, John Wiley.",
+  "conclusion": "#P_ChromaticNumberAndGirth",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfChromaticNumberAndGirth"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of chromatic number and girth"
+  ]
+}

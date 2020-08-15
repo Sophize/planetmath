@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let ${{\\mathcal}F}$ be a free filter (non-principal filter) and $(x_n)$\nbe a real sequence.\n\n1.  If ${\\lim\\limits_{n\\to\\infty}} x_n=L$ then\n    ${\\operatorname{{{\\mathcal}F}\\text{-}\\lim}}x_n=L$.\n\n2.  If ${\\operatorname{{{\\mathcal}F}\\text{-}\\lim}}x_n$ exists, then\n    $\\liminf x_n \\leq {\\operatorname{{{\\mathcal}F}\\text{-}\\lim}}x_n \\leq \\limsup x_n$.\n\n3.  The ${{\\mathcal}F}$-limits are unique.\n\n4.  ${\\operatorname{{{\\mathcal}F}\\text{-}\\lim}}(a.x_n+b.y_n)=a.{\\operatorname{{{\\mathcal}F}\\text{-}\\lim}}x_n+b.{\\operatorname{{{\\mathcal}F}\\text{-}\\lim}}y_n$\n    $($provided the ${{\\mathcal}F}$-limits of $(x_n)$ and $(y_n)$\n    exist$)$.\n\n5.  ${\\operatorname{{{\\mathcal}F}\\text{-}\\lim}}(x_n.y_n)={\\operatorname{{{\\mathcal}F}\\text{-}\\lim}}x_n . {\\operatorname{{{\\mathcal}F}\\text{-}\\lim}}y_n$\n    $($provided the ${{\\mathcal}F}$-limits of $(x_n)$ and $(y_n)$\n    exist$)$.\n\n6.  For every cluster point $c$ of the sequence $x_n$ there exists a\n    free filter ${{\\mathcal}F}$ such that\n    ${\\operatorname{{{\\mathcal}F}\\text{-}\\lim}}x_n=c$. On the other\n    hand, if ${\\operatorname{{{\\mathcal}F}\\text{-}\\lim}}x_n$ exists, it\n    is a cluster point of the sequence $(x_n)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BasicPropertiesOfALimitAlongAFilter"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "basic properties of a limit along a filter"
+  ]
+}

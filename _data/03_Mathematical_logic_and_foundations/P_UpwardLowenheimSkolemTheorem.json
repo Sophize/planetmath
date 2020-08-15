@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $L$ be a first-order language and let $\\mathcal{A}$ be an infinite\n$L$-structure. Then if $\\kappa$ is a cardinal with\n$\\kappa\\geq\\operatorname{Max}({\\lvert \\mathcal{A} \\rvert}, {\\lvert L \\rvert})$\nthen there is an $L$-structure $\\mathcal{B}$ such that\n${\\lvert \\mathcal{B} \\rvert} = \\kappa$ and\n$\\mathcal{A} \\preccurlyeq \\mathcal{B}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UpwardLowenheimSkolemTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "upward Lowenheim-Skolem theorem"
+  ]
+}

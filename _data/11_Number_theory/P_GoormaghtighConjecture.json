@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For integers $x,y,m $ and $n$ satisfying $x>1$, $y>1$, and $n>m>2$, the\nequation $$\\frac{x^m - 1}{x-1}=\\frac{y^n - 1}{y - 1}$$ has only the\nsolutions $(x,y,m,n)=(5,2,3,5)$ and $(90,2,3,13)$.\n\nSee the following paper for some progress\u2019 on the conjecture:\n\nM. Le, Exceptional solutions of the exponential Diophantine equation\n$(x^3-1)/(x-1)=(y^n-1)/(y-1)$. J. Reine Angew. Math. [**543**]{} (2002)\n187-192.\n\nSee Section 7 of following paper in which the solution of a certain case\nof the conjecture (given in the latter qouted paper) is used to solve a\nproblem in group theory concerning the non-cyclic graph of a group. Also\nsee Proposition 7.6 of the folloiwng paper for an slightly special case\nof the conjecture which its solotion has some applications in group\ntheory.\n\nAlireza Abdollahi and A. Mohammadi Hassanabadi, Non-cyclic graph of a\ngroup, Communications in Algebra, [**35**]{} (2007) 2057-2081.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GoormaghtighConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Goormaghtigh conjecture"
+  ]
+}

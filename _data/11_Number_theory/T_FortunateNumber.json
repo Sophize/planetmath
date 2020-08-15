@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a positive integer $n$, the $n$th [*Fortunate number*]{} $F_n > 1$\nis the difference between the primorial $$\\prod_{i = 1}^{\\pi(n)} p_i$$\n(where $\\pi(x)$ is the prime counting function and $p_i$ is the $i$th\nprime number) and the nearest prime number above (ignoring the primorial\nprime that may be there). For example, the 3rd Fortunate number is 7,\nsince the third primorial is 30 since the next highest prime is 37 (the\nprimorial prime 31 is ignored).\n\nThe first few Fortunate numbers are 3, 5, 7, 13, 23, 17, 19, 23, 37, 61,\n67, 61, 71, 47, 107, 59, 61, 109, 89, 103, 79, 151, etc. listed in in\nSloane\u2019s OEIS. Some Fortunate numbers occur more than once, such as 23,\nwhich occurs for both the fifth and eighth primorials. so, the\ninequality $F_n > n$ always holds. These numbers are named after the\nanthropologist Reo Fortune, who conjectured on their primality.",
+  "language": "INFORMAL",
+  "phrase": "Fortunate Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FortunateNumber"
+    }
+  ],
+  "indexable": true
+}

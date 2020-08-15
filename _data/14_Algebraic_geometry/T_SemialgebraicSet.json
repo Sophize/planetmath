@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Consider the $A \\subset {\\mathbb{R}}^n$, defined by real polynomials\n$p_{j\\ell}$, $j=1,\\ldots,k$, $\\ell=1,\\ldots,m$, and the relations\n$\\epsilon_{j\\ell}$ where $\\epsilon_{j\\ell}$ is $>$, $=$, or $<$.\n$$A = \\bigcup_{\\ell=1}^m \\{ x \\in {\\mathbb{R}}^n \\mid p_{j\\ell}(x) ~\\epsilon_{j\\ell} ~0, \\ j=1,\\ldots,k \\} .$$\nSets of this form are said to be [*semialgebraic*]{}.\n\nSimilarly as algebraic subvarieties, finite union and intersection of\nsemialgebraic sets is still a semialgebraic set. Furthermore, unlike\nsubvarieties, the complement of a semialgebraic set is again\nsemialgebraic. Finally, and most importantly, the Tarski-Seidenberg\ntheorem says that they are also closed under projection.\n\nOn a dense open subset of $A$, $A$ is (locally) a submanifold, and hence\nwe can easily define the [*dimension*]{} of $A$ to be the largest\ndimension at points at which $A$ is a submanifold. It is not hard to see\nthat a semialgebraic set lies inside an algebraic subvariety of the same\ndimension.\n\n[9]{} Edward Bierstone and Pierre\u00a0D. Milman, *Semianalytic and\nsubanalytic sets*, Inst. Hautes \u00c9tudes Sci. Publ. Math. (1988), no.\u00a067,\n5\u201342.",
+  "language": "INFORMAL",
+  "phrase": "Semialgebraic Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemialgebraicSet"
+    }
+  ],
+  "indexable": true
+}

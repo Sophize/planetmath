@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A topological space $X$ is compact if and only if every net in $X$ has\nan accumulation point.\n\nSuppose $X$ is compact and let $(x_\\alpha)_{\\alpha\\in A}$ be a net in\n$X$. For each $\\alpha\\in A$, put\n$E_\\alpha={\\{x_\\beta:\\beta\\geq\\alpha\\}}$; the collection\n${\\{\\overline{E_\\alpha}:\\alpha\\in A\\}}$ of closed subsets of $X$ has the\nfinite intersection property, for given $\\alpha_1,\\ldots,\\alpha_n\\in A$,\nbecause $A$ is directed, there exists $\\beta\\in A$ satisfying\n$\\beta\\geq\\alpha_i$ for each $i\\in{\\{1,\\ldots,n\\}}$, so that\n$x_\\beta\\in\\bigcap_{i=1}^n\\overline{E_{\\alpha_i}}$. Therefore, by\ncompactness, $\\bigcap_{\\alpha\\in A}\\overline{E_\\alpha}\\neq\\emptyset$;\nlet $x$ be a point of this intersection. If $U$ is any open subset of\n$X$ and $\\alpha\\in A$, then because $x\\in\\overline{E_\\alpha}$,\n$E_\\alpha\\cap U\\neq\\emptyset$, and thus there exists\n$\\beta\\geq\\alpha\\in A$ for which $x_\\beta\\in U$. It follows that $x$ is\nan accumulation point of $(x_\\alpha)$. For the converse, assume that $X$\nfails to be compact, and let ${\\{U_i:i\\in I\\}}$ be an open cover of $X$\nwith no finite subcover. If $B$ is the set of finite subsets of $I$,\nthen $B$ is directed by inclusion. For each set $S\\in B$, let $x_S$ be a\npoint in the complement of $\\bigcup_{i\\in S}U_i$. We contend that the\nnet $(x_S)_{S\\in B}$ has no accumulation points; indeed, given $x\\in X$,\nwe may select $i_0\\in I$ such that $x\\in U_{i_0}$; if $S\\in B$ is such\nthat $i_0\\in S$, that is, if $S\\geq{\\{i_0\\}}$, then by construction,\n$x_S\\notin U_{i_0}$, establishing our contention.\n\nThe following conditions on a topological space $X$ are equivalent:\n\n1.  $X$ is compact;\n\n2.  every net in $X$ has an accumulation point;\n\n3.  every net in $X$ has a convergent subnet;\n\nThe preceding theorem establishes the equivalence of (1) and (2), while\nthat of (2) and (3) is established in the entry on accumulation points\nand convergent subnets.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompactnessAndAccumulationPointsOfNets"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "compactness and accumulation points of nets"
+  ]
+}

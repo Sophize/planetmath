@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "There are 4 non-isomorphic composition algebras over an algebraically\nclosed field $k$: one division algebra, the field itself, and the three\nsplit algebras.\n\n1.  $k$.\n\n2.  The *exchange* algebra: $k\\oplus k$.\n\n3.  $2\\times 2$ matrices over $k$: $M_2(k)$.\n\n4.  The cross-product of $2\\times 2$-matrices over $k$:\n    $M_2(k)\\circ M_2(k)$.\n\nTo see this recall that every composition algebra comes equipped with a\nquadratic form. Any 2-dimensional anisotropic subspace arises from a\nquadratic field extension. As our field is algebraically closed the\nquadratic form has no anisotropic subspaces and is therefore the unique\nquadratic form of maximal Witt index. Following Hurwitz\u2019s theorem we\nknow the composition algebras come in dimensions 1,2,4, and 8 and arise\nby the Cayley-Dickson method. Thus we have the field itself and the\nthree split composition algebras.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompositionAlgebraOverAlgebaicallyClosedFields"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "composition algebra over algebaically closed fields"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a surface (a two-dimensional algebraic variety).\n\n1.  An algebraic family of effective divisors on $X$ parametrized by a\n    non-singular curve $T$ is defined to be an effective Cartier divisor\n    $\\mathcal{D}$ on $X\\times T$ which is flat over $T$.\n\n2.  If $\\mathcal{F}$ is an algebraic family of effective divisors on\n    $X$, parametrized by a non-singular curve $T$, and $P,Q\\in T$ are\n    any two closed points on $T$, then we say that the corresponding\n    divisors in $\\mathcal{F}$, $D_P,D_Q$, are prealgebraically\n    equivalent.\n\n3.  Two (Weil) divisors $D,D'$ on $X$ are algebraically equivalent if\n    there is a finite sequence $D=D_0, D_1, \\ldots, D_n=D'$ with $D_i$\n    and $D_{i+1}$ prealgebraically equivalent for all $0\\leq i < n$.",
+  "language": "INFORMAL",
+  "phrase": "Algebraic Equivalence Of Divisors",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraicEquivalenceOfDivisors"
+    }
+  ],
+  "indexable": true
+}

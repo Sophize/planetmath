@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Two elements in a ring with unity are *associates* or [*associated\nelements*]{} of each other if one can be obtained from the other by\nmultiplying by some unit, that is, $a$ and $b$ are associates if there\nis a unit $u$ such that $a = bu$. Equivalently, one can say that two\nassociates are divisible by each other.\n\nThe binary relation \u201cis an associate of\u201d is an equivalence relation on\nany ring with unity. For example, the equivalence class of the unity of\nthe ring consists of all units of the ring.\n\n**Examples.** In the ring $\\mathbb{Z}$ of the rational integers, only\nopposite numbers $\\pm n$ are associates. Among the polynomials, the\nassociates of a polynomial are gotten by multiplying the polynomial by\nan element belonging to the coefficient ring in question (and being no\nzero divisor).\n\nIn an integral domain, two elements are associates if and only if they\ngenerate the same principal ideal.",
+  "language": "INFORMAL",
+  "phrase": "Associates",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Associates"
+    }
+  ],
+  "indexable": true
+}

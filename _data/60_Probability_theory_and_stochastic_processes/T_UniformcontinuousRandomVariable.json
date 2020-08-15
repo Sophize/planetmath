@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "uniform random variable",
+    "rectangular distribution",
+    "uniform distribution"
+  ],
+  "definition": "A random variable $X$ is said to be a *() random variable* with\nparameters **$a$ and $b$** if its probability density function is given\nby $$\\begin{aligned}\nf_X(x) = \\frac{1}{b-a},\\quad\\quad x \\in [a,b],\\end{aligned}$$ and is\ndenoted $X\\sim U(a,b)$.\\\nNotes:\n\n1.  They are also called *rectangular distributions*, considers that all\n    points in the interval $[a,b]$ have the same mass.\n\n2.  $E[X] = \\frac{a+b}{2}$\n\n3.  $Var[X] = \\frac{(b-a)^2}{12}$\n\n4.  $M_X(t) = \\frac{e^{bt} - e^{at}}{(b-a)t}$",
+  "language": "INFORMAL",
+  "phrase": "Uniform (Continuous) Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformcontinuousRandomVariable"
+    }
+  ],
+  "indexable": true
+}

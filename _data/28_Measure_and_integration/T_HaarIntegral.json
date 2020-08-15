@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Gamma$ be a locally compact topological group and $\\mathcal{C}$ be\nthe algebra of all continuous real-valued functions on $\\Gamma$ with\ncompact support. In addition we define $\\mathcal{C}^{+}$ to be the set\nof non-negative functions that belong to $\\mathcal{C}$. The *Haar\nintegral* is a real linear map $I$ of $\\mathcal{C}$ into the field of\nthe real number for $\\Gamma$ if it satisfies:\n\n-   $I$ is not the zero map\n\n-   $I$ only takes non-negative values on $\\mathcal{C}^{+}$\n\n-   $I$ has the following property $I(\\gamma\\cdot f) = I(f)$ for all\n    elements $f$ of $\\mathcal{C}$ and all element $\\gamma$ of $\\Gamma$.\n\nThe *Haar integral* may be denoted in the following way *(there are also\nother ways)*:\n\n$\\int_{\\gamma \\in \\Gamma} f(\\gamma)$ or $\\int_\\Gamma f$ or\n$\\int_\\Gamma f d\\gamma$ or $I(f)$\n\nThe following are necessary and sufficient conditions for the existence\nof a unique Haar integral: There is a real-valued function $I^+$\n\n1.  *(Linearity)*.$I^+ (\\lambda f + \\mu g) = \\lambda I^+(f) + \\mu I^+(g)$\n    where $f,g \\in \\mathcal{C}^+$ and $\\lambda, \\mu \\in \\mathbb{R}_+$.\n\n2.  *(Positivity)*. If $f(\\gamma ) \\geq 0$ for all $\\gamma \\in \\Gamma$\n    then $I^+(f(\\gamma)) \\geq 0$.\n\n3.  *(Translation-Invariance)*. $I(f(\\delta \\gamma )) = I(f(\\gamma ))$\n    for any fixed $\\delta \\in \\Gamma$ and every $f$ in $\\mathcal{C}^+$.\n\nAn additional property is if $\\Gamma$ is a compact group then the Haar\nintegral has right translation-invariance:\n$\\int_{\\gamma \\in \\Gamma} f(\\gamma \\delta) = \\int_{\\gamma \\in \\Gamma} f(\\gamma )$\nfor any fixed $\\delta \\in \\Gamma$. In addition we can define *normalized\nHaar integral* to be $\\int_\\Gamma 1 = 1$ since $\\Gamma$ is compact, it\nimplies that $\\int_\\Gamma 1$ is finite.\\\n*(The proof for existence and uniqueness of the Haar integral is\npresented in [@2] on page 9.)*\\\n\\\n*(the information of this entry is in part quoted and paraphrased from\n[@1])*\n\n[2]{} Golubsitsky, Martin. Stewart, Ian. Schaeffer, G. David.:\nSingularities and Groups in Bifurcation Theory *(Volume II)*.\nSpringer-Verlag, New York, 1988. Gochschild, G.: The Structure of Lie\nGroups. Holden-Day, San Francisco, 1965.",
+  "language": "INFORMAL",
+  "phrase": "Haar Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HaarIntegral"
+    }
+  ],
+  "indexable": true
+}

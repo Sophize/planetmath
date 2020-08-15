@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(F,+,\\cdot)$ be a field. The *characteristic*\n$\\operatorname{Char}(F)$ of $F$ is commonly given by one of three\nequivalent definitions:\n\n-   if there is some positive integer $n$ for which the result of adding\n    any element to itself $n$ times yields $0$, then the characteristic\n    of the field is the least such $n$. Otherwise,\n    $\\operatorname{Char}(F)$ is defined to be $0$.\n\n-   if $f:\\mathbb{Z}\\to F$ is defined by $f(n) = n\\cdot 1$ then\n    $\\operatorname{Char}(F)$ is the least strictly positive generator of\n    $\\operatorname{ker}(f)$ if $\\operatorname{ker}(f)\\neq \\{ 0\\}$;\n    otherwise it is $0$.\n\n-   if $K$ is the prime subfield of $F$, then $\\operatorname{Char}(F)$\n    is the size of $K$ if this is finite, and $0$ otherwise.\n\nNote that the first definition also applies to arbitrary rings, and not\njust to fields.\n\nThe characteristic of a field (or more generally an integral domain) is\nalways prime. For if the characteristic of $F$ were composite, say $mn$\nfor $m,n>1$, then in particular $mn$ would equal zero. Then either $m$\nwould be zero or $n$ would be zero, so the characteristic of $F$ would\nactually be smaller than $mn$, contradicting the minimality condition.",
+  "language": "INFORMAL",
+  "phrase": "Characteristic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Characteristic"
+    }
+  ],
+  "indexable": true
+}

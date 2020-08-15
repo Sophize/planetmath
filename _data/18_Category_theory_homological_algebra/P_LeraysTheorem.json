@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathcal F$ be a sheaf on a topological space $X$ and\n$\\mathcal U=\\{U_i\\}$ an open cover of $X$. If $\\mathcal F$ is on every\nof elements of $\\mathcal U$, then\n$$\\check H^q(\\mathcal U,\\mathcal F)=\\check H^q(X,\\mathcal F),$$ where\n$\\check H^q(\\mathcal U,\\mathcal F)$ is the $q$-th of $\\mathcal F$ with\nrespect to the open cover $\\mathcal U$.\n\n[9]{} Bonavero, Laurent. *Cohomology of Line Bundles on Toric Varieties,\nVanishing Theorems.* Lectures 16-17 from \u201cSummer School 2000: Geometry\nof Toric Varieties.\u201d",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeraysTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Leray's theorem"
+  ]
+}

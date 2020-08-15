@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "linear problem",
+    "linear system"
+  ],
+  "definition": "Let $L:U\\rightarrow V$ be a linear mapping, and $v\\in V$ an element of\nthe codomain. A [*linear equation*]{} is a relation of the form,\n$$L(u)=v,$$ where $u\\in U$ is to be considered as the unknown. The\nsolution set of a linear equation is the set of $u\\in U$ that satisfy\nthe above constraint, or to be more precise, the pre-image $L^{-1}(v)$.\nThe equation is called inconsistent if no solutions exist, that is, if\nthe pre-image is the empty set. Otherwise, the equation is called\n*consistent*.\n\nThe general solution of a linear equation has the form\n$$u=u_p + u_h,\\quad u_p,u_h\\in U,$$ where $$L(u_p)=v$$ is a *particular\nsolution* and where $$L(u_h)=0$$ is any solution of the corresponding\nhomogeneous problem, i.e. an element of the kernel of $L$.\n\n[**Notes.**]{} Elementary treatments of linear algebra focus almost\nexclusively on finite-dimensional linear problems. They neglect to\nmention the underlying mapping, preferring to focus instead on\n\u201cvariables and equations.\u201d However, the scope of the general concept is\nconsiderably wider, e.g. linear differential equations such as\n$$y''+y = 0.$$",
+  "language": "INFORMAL",
+  "phrase": "Linear Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearEquation"
+    }
+  ],
+  "indexable": true
+}

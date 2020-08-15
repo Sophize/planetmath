@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "1\\) Let $\\{X_{i}\\}_{i=1}^{n}$ be a collection of independent random\nvariables satisfying the conditions:\\\na) $E[X_{i}^{2}]<\\infty$ $\\forall i$, so that one can write\n$\\sum_{i=1}^{n}E[X_{i}^{2}]=v^2$\\\nb)\n$\\exists c\\in\\mathbb{R}:\\sum_{i=1}^{n}E[\\left\\vert X_{i}\\right\\vert ^{k}]\\leq \n\\frac{1}{2}k!v^2c^{k-2}$ for all integers $k\\geq 3$\n\nThen, for any $\\varepsilon \\geq 0$,\n$$\\Pr\\left\\{ \\sum_{i=1}^{n}\\left( X_{i}-E[X_{i}]\\right) >\\varepsilon \\right\\}\n\\leq \\exp \\left[-\\frac{v^2}{c^{2}}\\left( 1+\\frac{c\\varepsilon }{v^2}-\\sqrt{1+2%\n\\frac{c\\varepsilon }{v^2}}\\right) \\right] \\leq \\exp \\left( -\\frac{\\varepsilon\n^{2}}{2\\left( v^2+c\\varepsilon \\right) }\\right)$$\n$$\\Pr\\left\\{ \\left\\vert \\sum_{i=1}^{n}\\left( X_{i}-E[X_{i}]\\right) \\right\\vert\n>\\varepsilon \\right\\} \\leq 2\\exp \\left[-\\frac{v^2}{c^{2}}\\left( 1+\\frac{%\nc\\varepsilon }{v^2}-\\sqrt{1+2\\frac{c\\varepsilon }{v^2}}\\right) \\right] \\leq\n2\\exp \\left( -\\frac{\\varepsilon ^{2}}{2\\left( v^2+c\\varepsilon \\right) }%\n\\right)$$\n\n2\\) Let $\\{X_{i}\\}_{i=1}^{n}$ be a collection of independent, random\nvariables, that is\n$\\Pr\\left\\{\\left\\vert X_{i}\\right\\vert \\leq M\\right\\} =1\\text{ \\ }\\forall i$.\\\nThen, for any $\\varepsilon \\geq 0$,\n$$\\Pr\\left\\{ \\sum_{i=1}^{n}\\left( X_{i}-E[X_{i}]\\right) >\\varepsilon \\right\\}\n\\leq \\exp \\left[-\\frac{9v^2}{M^{2}}\\left( 1+\\frac{M\\varepsilon }{3v^2}-\\sqrt{1+2\n\\frac{M\\varepsilon }{3v^2}}\\right) \\right] \\leq \\exp \\left( -\\frac{\\varepsilon\n^{2}}{2\\left( v^2+\\frac{M}{3}\\varepsilon \\right) }\\right)$$\n$$\\Pr\\left\\{ \\left\\vert \\sum_{i=1}^{n}\\left( X_{i}-E[X_{i}]\\right) \\right\\vert\n>\\varepsilon \\right\\} \\leq 2\\exp \\left[-\\frac{9v^2}{M^{2}}\\left( 1+\\frac{\nM\\varepsilon }{3v^2}-\\sqrt{1+2\\frac{M\\varepsilon }{3v^2}}\\right) \\right] \\leq\n2\\exp \\left( -\\frac{\\varepsilon ^{2}}{2\\left( v^2+\\frac{M}{3}\\varepsilon\n\\right) }\\right)$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BernsteinInequalities"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Bernstein inequalities"
+  ]
+}

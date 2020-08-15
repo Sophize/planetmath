@@ -1,0 +1,17 @@
+{
+  "argumentText": "Given a $\\triangle ABC$ with a point $P$ on its circumcircle (other than\n$A,B,C$), we will prove that the feet of the perpendiculars drawn from P\nto the sides $AB,BC,CA$ (or their prolongations) are collinear.\n\n![image](simson.eps)\n\nSince $PW$ is perpendicular to $BW$ and $PU$ is perpendicular to $BU$\nthe point $P$ lies on the circumcircle of $\\triangle BUW $.\n\nBy similar arguments, $P$ also lies on the circumcircle of\n$\\triangle AWV$ and $\\triangle CUV$.\n\nThis implies that $PUBW$ , $PUCV$ and $PVWA$ are all cyclic\nquadrilaterals.\n\nSince $PUBW$ is a cyclic quadrilateral,\n\n$$\\angle UPW = 180^\\circ -\\angle UBW$$\n\nimplies $$\\angle UPW = 180^\\circ -\\angle CBA$$\n\nAlso $CPAB$ is a cyclic quadrilateral, therefore\n\n$$\\angle CPA = 180^\\circ -\\angle CBA$$\n\n(opposite angles in a cyclic quarilateral are supplementary).\n\nFrom these two, we get\n\n$$\\angle UPW =\\angle CPA$$\n\nSubracting $\\angle CPW$, we have\n\n$$\\angle UPC =\\angle WPA$$\n\nNow, since $PVWA$ is a cyclic quadrilateral, $$\\angle WPA = \\angle WVA$$\n\nalso, since $UPVC$ is a cyclic quadrilateral,\n$$\\angle UPC = \\angle UVC$$\n\nCombining these two results with the previous one, we have\n\n$$\\angle WVA =\\angle UVC$$\n\nThis implies that the points $U, V, W$ are collinear.",
+  "conclusion": "#P_SimsonsLine",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfSimsonsLine"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Simson's line"
+  ]
+}

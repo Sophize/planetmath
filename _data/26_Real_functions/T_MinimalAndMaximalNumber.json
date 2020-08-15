@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "least and greatest number"
+  ],
+  "definition": "Let\u2019s consider a finite non-empty set $A \\,=\\, \\{a_1,\\,\\ldots,\\,a_n\\}$\nof real numbers or an infinite but compact (i.e. bounded and closed) set\n$A$ of real numbers. In both cases the set has a unique least number and\na unique greatest number.\n\n-   The least number of the set is denoted by\n    $\\min\\{a_1,\\,\\ldots,\\,a_n\\}$ or $\\min{A}$.\n\n-   The greatest number of the set is denoted by\n    $\\max\\{a_1,\\,\\ldots,\\,a_n\\}$ or $\\max{A}$.\n\nIn both cases we have $$\\min{A} \\;=\\; \\inf{A},$$\n$$\\max{A} \\;=\\; \\sup{A},$$\n$$\\min{A} \\;\\leqq\\; x \\;\\leqq\\; \\max{A} \\quad \\forall x\\in A,$$ where\n$\\inf{A}$ and $\\sup{A}$ are the infimum and supremum of the set $A$.\n\nThe $\\min$ and $\\max$ are [*set functions*]{}, i.e. they map subsets of\na certain set to $\\mathbb{R}$.\n\nThe $\\min$ and $\\max$ have the following distributive properties with\nrespect to addition: $$\\min\\{a_1,\\,\\ldots,\\,a_n\\}+b \n\\;=\\; \\min\\{a_1+b,\\,\\ldots,\\,a_n+b\\}$$ $$\\max\\{a_1,\\,\\ldots,\\,a_n\\}+b \n\\;=\\; \\max\\{a_1+b,\\,\\ldots,\\,a_n+b\\}$$\\\nThe minimal and maximal number of a set of two real numbers obey the\nformulae\n$$\\min\\{a,\\,b\\} \\;=\\; \\frac{a\\!+\\!b}{2}\\!-\\!\\frac{|a\\!-\\!b|}{2},$$\n$$\\max\\{a,\\,b\\} \\;=\\; \\frac{a\\!+\\!b}{2}\\!+\\!\\frac{|a\\!-\\!b|}{2},$$$$\\max\\{a,\\,b\\}-\\min\\{a,\\,b\\} \\;=\\; |a\\!-\\!b|,$$$$\\max\\{a,\\,b\\}+\\min\\{a,\\,b\\} \\;=\\; a\\!+\\!b,$$$$\\max\\{a,\\,-a\\} \\;=\\; |a|$$",
+  "language": "INFORMAL",
+  "phrase": "Minimal And Maximal Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinimalAndMaximalNumber"
+    }
+  ],
+  "indexable": true
+}

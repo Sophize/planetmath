@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "pseudoperfect number"
+  ],
+  "definition": "Given an integer $n$ and the subsets of its proper divisors $d_i|n$ and\n$d_i < n$ (thus $0 < i < \\tau(n)$ where $\\tau$ is the divisor function),\nis there at least one subset whose elements add up to $n$? If yes, then\n$n$ is a *semiperfect number* or *pseudoperfect number*.\n\nSince the complete set of proper divisors is also technically considered\na subset, then a fully perfect number is also a semiperfect number.\nPerhaps just as obviously, no deficient number can be semiperfect; thus\nall semiperfect numbers are either abundant numbers or perfect numbers.\n\nIf the abundance $a(n)$ happens to be a divisor of $n$, then the divisor\nsubset that excludes $a(n)$ is the obvious choice, but some semiperfect\nnumbers are so in more than one way: 12 for example can be expressed as\n1 + 2 + 3 + 6 but also as 2 + 4 + 6.\n\nJust as a multiple of an abundant number is another abundant number, so\nis the multiple of a semiperfect number another semiperfect number.\n\nThe first few semiperfect numbers that are not multiples of perfect\nnumbers are 20, 40, 80, 88. A005835 of Sloane\u2019s OEIS lists all the\nsemiperfect numbers less than 265 and provides a simple means of\nreckoning them, by counting the number of partitions of $n$ into\ndistinct divisors and culling those that have more than 1.\n\nAll primary pseudoperfect numbers (except 2) are also semiperfect. An\nabundant number that is not semiperfect is a weird number.",
+  "language": "INFORMAL",
+  "phrase": "Semiperfect Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemiperfectNumber"
+    }
+  ],
+  "indexable": true
+}

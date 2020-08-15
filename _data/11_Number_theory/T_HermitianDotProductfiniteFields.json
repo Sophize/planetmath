@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hermitian dot product"
+  ],
+  "definition": "Let $q$ be an power (in particular, $q$ is a square) and\n${\\mathbb}{F}_q$ the finite field with $q$ elements. Then\n${\\mathbb}{F}_{\\sqrt{q}}$ is a subfield of ${\\mathbb}{F}_q$. The **\n${\\overline}{k}$ of an element $k\\in{\\mathbb}{F}_q$ is defined by the\n$\\sqrt{q}$-th power Frobenius map\n$${\\overline}{k}:=\\operatorname{Frob}_{\\sqrt{q}}(k)=k^{\\sqrt{q}}.$$\n\nThe has properties similar to the complex conjugate. Let\n$k_1,k_2\\in{\\mathbb}{F}_q$, then\n\n1.  ${\\overline}{k_1+k_2}={\\overline}{k_1}+{\\overline}{k_2}$,\n\n2.  ${\\overline}{k_1k_2}={\\overline}{k_1}\\,{\\overline}{k_2}$,\n\n3.  ${\\overline}{{\\overline}{k_1}}=k_1$.\n\nProperties 1 and 2 hold because the Frobenius map is a . Property 3\nholds because of the identity $k^q=k$ which holds for any $k$ in any\nfinite field with $q$ elements. See also **.\n\nNow let ${\\mathbb}{F}_q^n$ be the $n$-dimensional vector space over\n${\\mathbb}{F}_q$, then the *Hermitian dot product* of two vectors\n$(u_1,\\ldots,u_n),(v_1,\\ldots,v_n)\\in{\\mathbb}{F}_q^n$ is\n$$(u_1,\\ldots,u_n)\\cdot(v_1,\\ldots,v_n):={\\sum\\limits}_{i=1}^nu_i{\\overline}{v_i}.$$\n\nAgain, this kind of Hermitian dot product has properties similar to\nHermitian inner products on complex vector spaces. Let\n$k_1,k_2\\in{\\mathbb}{F}_q$ and $v_1,v_2,v,,w\\in{\\mathbb}{F}_q^n$, then\n\n1.  $(k_1v_1+k_2v_2)\\cdot w=k_1(v_1\\cdot w)+k_2(v_2\\cdot w)$ (linearity)\n\n2.  $v\\cdot w={\\overline}{w\\cdot v}$\n\n3.  $v\\cdot v\\in{\\mathbb}{F}_{\\sqrt{q}}$\n\nProperty 3 follows since $\\sqrt{q}+1$ divides $q-1$ (see **).",
+  "language": "INFORMAL",
+  "phrase": "Hermitian Dot Product (Finite Fields)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HermitianDotProductfiniteFields"
+    }
+  ],
+  "indexable": true
+}

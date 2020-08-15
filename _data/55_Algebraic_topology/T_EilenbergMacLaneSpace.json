@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Eilenberg-Mac Lane space"
+  ],
+  "definition": "Let $\\pi$ be a discrete group. A based topological space $X$ is called\nan [*Eilenberg-MacLane space*]{} of type $K(\\pi,n)$, where $n\\ge 1,$ if\nall the homotopy groups $\\pi_k(X)$ are trivial except for $\\pi_n(X),$\nwhich is isomorphic to $\\pi.$ Clearly, for such a space to exist when\n$n\\ge 2,$ $\\pi$ must be abelian.\n\nGiven any group $\\pi,$ with $\\pi$ abelian if $n\\ge 2,$ there exists an\nEilenberg-MacLane space of type $K(\\pi,n).$ Moreover, this space can be\nconstructed as a CW complex. It turns out that any two Eilenberg-MacLane\nspaces of type $K(\\pi,n)$ are weakly homotopy equivalent. The Whitehead\ntheorem then implies that there is a unique $K(\\pi,n)$ space up to\nhomotopy equivalence in the category of topological spaces of the\nhomotopy type of a CW complex. We will henceforth restrict ourselves to\nthis category. With a slight abuse of notation, we refer to any such\nspace as $K(\\pi,n).$\n\nAn important property of $K(\\pi,n)$ is that, for $\\pi$ abelian, there is\na natural isomorphism $$H^n(X;\\pi) {\\cong}[X,K(\\pi,n)]$$ of\ncontravariant set-valued functors, where $[X,K(\\pi,n)]$ is the set of\nhomotopy classes of based maps from $X$ to $K(\\pi,n).$ Thus one says\nthat the $K(\\pi,n)$ are [*representing spaces*]{} for cohomology with\ncoefficients in $\\pi.$\n\nEven when the group $\\pi$ is nonabelian, it can be seen that the set\n$[X,K(\\pi,1)]$ is naturally isomorphic to\n${\\mathop{\\mathrm{Hom}}}(\\pi_1(X),\\pi)/\\pi;$ that is, to conjugacy\nclasses of homomorphisms from $\\pi_1(X)$ to $\\pi.$ In fact, this is a\nway to define $H^1(X;\\pi)$ when $\\pi$ is nonabelian.\n\nThough the above description does not include the case $n=0,$ it is\nnatural to define a $K(\\pi,0)$ to be any space homotopy equivalent to\n$\\pi.$ The above statement about cohomology then becomes true for the\nreduced zeroth cohomology functor.",
+  "language": "INFORMAL",
+  "phrase": "Eilenberg-Maclane Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EilenbergMacLaneSpace"
+    }
+  ],
+  "indexable": true
+}

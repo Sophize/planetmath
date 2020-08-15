@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For any complex number $z$, we have $$\\begin{aligned}\n\\lim\\limits_{n\\to\\infty} \\left(1+\\frac{z}{n}+o\\left(\\frac{1}{n}\\right)\\right)^n=\\exp{z},\\end{aligned}$$\nwhere $ \\exp $ denotes the exponential function. For $\\alpha\\to 0$, we\nhave $$\\begin{aligned}\n\\ln(1+\\alpha) &= \\sum_{k=1}^\\infty (-1)^{k-1}\n\\cdot\\frac{\\alpha^k}{k} \\\\\n&= \\alpha+O(\\alpha^2). \\end{aligned}$$ Therefore $$\\begin{aligned}\n\\left(1+\\frac{z}{n}+o\\left(\\frac{1}{n}\\right)\\right)^n &=& \\exp\\left(n\\ln\\left(1+\\frac{z}{n}+o\\left(\\frac{1}{n}\\right)\\right)\\right) \\\\\n&=&\\exp\\left(n\\left(\\frac{z}{n}+o\\left(\\frac{1}{n}\\right)+O(\\frac{1}{n^2})\\right)\\right)\\\\\n&=&\\exp\\left(z+o(1)+O(\\frac{1}{n})\\right)\\to\\exp{z} \\quad \\text{for} \\quad n\\to\\infty. \\quad \\Box \\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitForExpz"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "limit for exp(z)"
+  ]
+}

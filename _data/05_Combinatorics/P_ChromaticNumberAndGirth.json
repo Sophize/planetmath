@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A famous theorem of P. Erd\u0151s[^1].\n\nFor any natural numbers $k$ and $g$, there exists a graph $G$ with\nchromatic number $\\chi(G) \\ge k$ and girth\n${\\operatorname{girth}}(G) \\ge g$.\n\nObviously, we can easily have graphs with high chromatic numbers. For\ninstance, the complete graph $K_n$ trivially has $\\chi(K_n)=n$; however\n${\\operatorname{girth}}(K_n)=3$ (for $n\\ge 3$). And the cycle graph\n$C_n$ has ${\\operatorname{girth}}(C_n)=n$, but $$\\chi(C_n)=\n\\begin{cases}\n  1&n=1\\\\\n  2&\\text{$n$ even}\\\\\n  3&\\text{otherwise.}\\\\\n\\end{cases}$$ It seems intuitively plausible that a high chromatic\nnumber occurs because of short, \u201clocal\u201d cycles in the graph; it is hard\nto envisage how a graph with no short cycles can still have high\nchromatic number.\n\nInstead of envisaging, Erd\u0151s\u2019 proof shows that, in some appropriately\nchosen probability space on graphs with $n$ vertices, the probability of\nchoosing a graph which does *not* have $\\chi(G)\\ge k$ and\n${\\operatorname{girth}}(G)\\ge g$ tends to zero as $n$ grows. In\nparticular, the desired graphs exist.\n\nThis seminal paper is probably the most famous application of the\nprobabilistic method, and is regarded by some as the foundation of the\nmethod.[^2] Today the probabilistic method is a standard tool for\ncombinatorics. More constructive methods are often preferred, but are\nalmost always much harder.\n\n[^1]: See the very readable P. Erd\u0151s, *and probability*, Canad J. Math.\n    11 (1959), 34\u201338.\n\n[^2]: However, as always, with the benefit of hindsight we can see that\n    the probabilistic method had been used before, e.g. in various\n    applications of Sard\u2019s theorem. This does nothing to diminish from\n    the importance of the clear statement of the tool.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChromaticNumberAndGirth"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "chromatic number and girth"
+  ]
+}

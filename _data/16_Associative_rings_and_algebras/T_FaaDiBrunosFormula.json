@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Faa di Bruno's formula",
+    "Fa\\`a di Bruno formula",
+    "Faa di Bruno formula"
+  ],
+  "definition": "[*Fa\u00e0 di Bruno\u2019s formula*]{} is a generalization of the chain rule to\nhigher order derivatives which expresses the derivative of a composition\nof functions as a series of products of derivatives:\n\n$${d^n \\over dx^n} f(g(x))=\\sum_{\\sum_{k=0}^n k m_k = n} \\frac{n!}{m_1!\\,m_2!\\,m_3!\\,\\cdots 1!^{m_1}\\,2!^{m_2}\\,3!^{m_3}\\,\\cdots} f^{(m_1 + \\cdots + m_n)}(g(x)) \\prod_{j\\,:\\,m_j\\neq 0}\\left(g^{(j)}(x)\\right)^{m_j}$$\n\nThis formula was discovered by Francesco Fa\u00e0 di Bruno in the 1850s and\ncan be proved by induction on the order of the derivative.\n\n[1]{} Fa\u00e0 di Bruno, C. F.. \u201cSullo sviluppo delle funzione.\u201d [*Ann. di\nScienze Matem. et Fisiche di Tortoloni*]{} [**6**]{} (1855): 479-480 Fa\u00e0\ndi Bruno, C. F.. \u201cNote sur un nouvelle formule de calcul diff\u00e9rentiel.\u201d\n[*Quart. J. Math.*]{} [**1**]{} (1857): 359-360 H. Figueroa & J. M.\nGracia-Bond\u00eda, \u201cCombinatorial Hopf Algebras in Quantum Field Theory I\u201d\n[*Rev. Math. Phys.*]{} [**17**]{} (2005): 881 - 975",
+  "language": "INFORMAL",
+  "phrase": "Fa\\`A Di Bruno'S Formula",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FaaDiBrunosFormula"
+    }
+  ],
+  "indexable": true
+}

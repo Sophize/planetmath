@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "digraph",
+    "in degree",
+    "out degree"
+  ],
+  "definition": "A *directed graph* or *digraph* is a pair $G=(V,E)$ where $V$ is a set\nof *vertices* and $E$ is a subset of $V \\times V$ called *edges* or\n*arcs*.\n\nIf $E$ is symmetric (i.e., $(u,v) \\in E$ if and only if $(v,u) \\in E$),\nthen the digraph is isomorphic to an ordinary (that is, undirected)\ngraph.\n\nDigraphs are generally drawn in a similar manner to graphs with arrows\non the edges to indicate a sense of direction. For example, the digraph\n$$\\left (\\{a,b,c,d\\}, \\{(a,b),(b,d),(b,c),(c,b),(c,c),(c,d)\\}\\right )$$\nmay be drawn as\n\n$$\\xymatrix{\n& a \\ar[r] & b \\ar[d] \\ar[dl] \\\\\n& c \\ar[ur] \\ar[r] \\ar@(dr,dl)[] & d \\\\\n& & \\\\\n}$$\n\nSince the graph is directed, one has the concept of the number of edges\noriginating or terminating at a given vertex $v$. The out-degree,\n$d_{\\textrm{out}}(v)$ of a vertex $v$ is the number of edges having $v$\nas their originating vertex; similarly, the in-degree,\n$d_{\\textrm{in}}(v)$ is the number of edges having $v$ as their\nterminating vertex.\n\nIf the graph has a finite number of vertices, say $v_1,\\ldots,v_n$, then\nobviously\n$$\\sum_{i=1}^n d_{\\textrm{in}}(v_i)=\\sum_{i=1}^n d_{\\textrm{out}}(v_i)$$\n\nA *directed path* in a digraph $G$ is a sequence of edges\n$e_1,\\ldots,e_k$ such that the end vertex of $e_i$ is the start vertex\nof $e_{i+1}$ for $i=1,2,\\ldots,k-1$. Such a path is called a *directed\ncircuit* if, in addition, the end vertex of $e_k$ is the start vertex of\n$e_1$.\n\nA digraph is *connected* (or, sometimes, *strongly connected*) if for\nevery pair of vertices $u$ and $v$ there is a directed path from $u$ to\n$v$. In addition, a digraph $G=(V,E)$ is said to have a *root* $r\\in V$\nif every vertex $v\\in V$ is reachable from $r$, i.e. if there is a\ndirected path from $r$ to $v$.\n\nA digraph is called a *directed tree* if it has a root and if the\nunderlying (undirected) graph is a tree. That is, it must\nmorphologically look like a tree, and the structure imposed by the\ndirectional arrows must flow \u201caway\u201d from the root.\n\nIf $H$ is a subgraph of a digraph $G$, then $H$ is said to be a\n*directed spanning tree* of $G$ if $H$ is a directed tree and $H$\ncontains all vertices of $G$. This is a direct analog of the concept of\nspanning trees for undirected graphs. Note that if $r$ is the root of\n$H$, then $r$ is clearly a root of $G$. Also, if $r$ is any root of $G$,\nit is possible to construct a directed spanning tree of $G$ with root\n$r$: construct $H$ edge by edge starting from $r$. At each vertex, add\nany edge from $G$ whose terminus is a vertex not yet in $H$. Since $r$\nis a root of $G$, this process is guaranteed to include each vertex in\n$G$; since we are choosing at each step only vertices not yet visited,\nwe are guaranteed to end up with a tree.",
+  "language": "INFORMAL",
+  "phrase": "Directed Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirectedGraph"
+    }
+  ],
+  "indexable": true
+}

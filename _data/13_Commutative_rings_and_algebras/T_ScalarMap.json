@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "outer linear"
+  ],
+  "definition": "Given a ring $R$, a left $R$-module $U$, a right $R$-module $V$ and a\ntwo-sided $R$-module $W$ then a map $b:U\\times V\\to W$ is an $R$-*scalar\nmap* if\n\n1.  $b$ is biadditive, that is $b(u+u',v)=b(u,v)+b(u',v)$ and\n    $b(u,v+v')=b(u,v)+b(u,v')$ for all $u,u'\\in U$ and $v,v'\\in V$;\n\n2.  $b(ru,v)=rb(u,v)$ and $b(u,vr)=b(u,v)r$ for all $u\\in U$, $v\\in V$\n    and $r\\in R$.\n\nSuch maps can also be called *outer linear*.\n\nUnlike bilinear maps, scalar maps do not force a commutative\nmultiplication on $R$ even when the map is non-degenerate and the\nmodules are faithful. For example, if $A$ is an associative ring then\nthe multiplication of $A$, $b:A\\times A\\to A$ is a $A$-outer linear:\n$$b(xy,z)=(xy)z=x(yz)=xb(y,z)$$ and likewise $b(x,yz)=b(x,y)z$. Using a\nnon-commutative ring $A$ confirms the claim.\n\nIt is immediate however that $\\langle b(U,V)\\rangle$ is in fact an\n$R$-bimodule. This is because:\n$$s(b(u,v)r)=sb(u,vr)=b(su,vr)=sb(u,vr)=(sb(u,v))r$$ for all $u\\in U$,\n$v\\in V$ and $s,r\\in R$. Therefore it is not uncommon to require that\nindeed all of $W$ be an $R$-bimodule.",
+  "language": "INFORMAL",
+  "phrase": "Scalar Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ScalarMap"
+    }
+  ],
+  "indexable": true
+}

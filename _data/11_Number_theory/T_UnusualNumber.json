@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An [*unusual number*]{} or [*$\\sqrt{n}$-rough number*]{} $n$ is an\ninteger with a greatest prime factor exceeding $\\sqrt{n}$. For example,\nthe greatest prime factor of 102 is 17, which is greater than 11 (the\nsquare root of 102 rounded up to the next higher integer). The first few\nunusual numbers are 2, 3, 5, 6, 7, 10, 11, 13, 14, 15, 17, 19, 20, 21,\n22, 23, 26, 28, 29, 31, 33, 34, 35, 37, 38, 39, 41, 42, 43, 44, 46, 47,\netc., listed in A064052 of Sloane\u2019s OEIS. In fact, Donald Knuth and\nDonald Greene, who coined the term \u201cunusual number,\u201d remark that these\nnumbers occur so frequently they\u2019re not all that unusual. Unusual\nnumbers include all of the prime numbers and many composites. Richard\nSchroeppel proved in HAKMEM 239 that the probability that a random\ninteger is unusual is $\\log 2$ (about 0.69314718).\n\n[1]{} Donald Greene & Donald Knuth, [*Mathematics for the Analysis of\nAlgorithms*]{}, 3rd edition. Boston: Birkh\u00e4user (1990): 95 - 98",
+  "language": "INFORMAL",
+  "phrase": "Unusual Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnusualNumber"
+    }
+  ],
+  "indexable": true
+}

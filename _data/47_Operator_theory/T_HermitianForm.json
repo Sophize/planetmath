@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "sesquilinear form",
+    "sesqui-linear form"
+  ],
+  "definition": "A *sesquilinear form* over a pair of complex vector spaces $(V,W)$ is a\nfunction $B\\colon V \\times W \\to \\mathbb{C}$ satisfying the following\nproperties:\n\n1.  $B({\\mathbf{v}}_1+{\\mathbf{v}}_2,{\\mathbf{w}}) = B({\\mathbf{v}}_1,{\\mathbf{w}}) + B({\\mathbf{v}}_2,{\\mathbf{w}})$\n\n2.  $B({\\mathbf{v}},{\\mathbf{w}}_1+{\\mathbf{w}}_2) = B({\\mathbf{v}},{\\mathbf{w}}_1) + B({\\mathbf{v}},{\\mathbf{w}}_2)$\n\n3.  $B(c{\\mathbf{v}}, d{\\mathbf{w}}) = c B({\\mathbf{v}},{\\mathbf{w}}) \\overline{d}$\n\nfor all ${\\mathbf{v}},{\\mathbf{v}}_1,{\\mathbf{v}}_2 \\in V$,\n${\\mathbf{w}}, {\\mathbf{w}}_1, {\\mathbf{w}}_2 \\in W$, and\n$c,d \\in \\mathbb{C}$. The vector spaces $V$ and $W$ are often identical,\nalthough the definition does not require them to be the same vector\nspace.\n\nA sesquilinear form $B\\colon V \\times V \\to \\mathbb{C}$ over a single\nvector space $V$ is called a *Hermitian form* if it is complex conjugate\nsymmetric: namely, if\n$B({\\mathbf{v}}_1,{\\mathbf{v}}_2) = \\overline{B({\\mathbf{v}}_2,{\\mathbf{v}}_1)}$.\n\nAn inner product over a complex vector space is a positive definite\nHermitian form.",
+  "language": "INFORMAL",
+  "phrase": "Hermitian Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HermitianForm"
+    }
+  ],
+  "indexable": true
+}

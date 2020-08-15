@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *spectral sequence* is a collection of $R$-modules (or more generally,\nobjects of an abelian category) $\\{E^r_{p,q}\\}$ for all\n$r\\in\\mathbb{N}$, $p$, $q\\in{\\mathbb{Z}}$, equipped with maps\n$d^r_{pq}:E^r_{p,q}\\to E^r_{p-r,q+r-1}$ such that $$\\xymatrix{\n\\cdots & \nE^r_{p-r,q+r-1}\\ar[l] & \nE_{p,q}\\ar[l]_(0.35){d^r_{p,q}} & \n&\nE^r_{p+r,q-r+1}\\ar[ll]_(0.575){d^r_{p+r,q-r+1}} & \n\\ar[l]\\cdots\n}$$ is a chain complex, and the $E^{r+1}$\u2019s are its homology, that is,\n$$E^{r+1}_{p,q}\\cong \\mathrm{ker}(d^r_{p,q})/\\mathrm{im}({d^r_{p+r,q-r+1}}).$$\n\n(Note: what I have defined above is a homology spectral sequence.\nCohomology spectral sequences are identical, except that all the arrows\ngo in the other direction.)\n\nMost interesting spectral sequences are upper right quadrant, meaning\nthat $E^r_{p,q}=0$ if $p$ or $q<0$. If this is the case then for any\n$p,q$, both $d^r_{pq}$ and $d^r_{p+r,q-r+1}$ are 0 for sufficiently\nlarge $r$ since the target or source is out of the upper right quadrant,\nso that for all $r>r_0$ $E^r_{p,q}=E^{r+1}_{p,q}\\cdots$. This is called\n$E^{\\infty}_{p,q}$.\n\nA upper right quadrant spectral sequence $\\{E^r_{p,q}\\}$ is said to\nconverge to a sequence $F_n$ of $R$-modules if there is an exhaustive\nfiltration $F_{n,0}=0\\subset F_{n,1}\\subset\\cdots\\subset$ of each $F_n$\nsuch that $$F_{p+q,q+1}/F_{p+q,q}\\cong E^\\infty_{p,q}.$$ This is\ntypically written $E^r_{p,q}\\Rightarrow F_{p+q}$.\n\nTypically spectral sequences are used in the following manner: we find\nan interpretation of $E^r$ for a small value of $r$, typically 1, and of\n$E^\\infty$, and then in cases where enough groups and differentials are\n$0$, we can obtain information about one from the other.",
+  "language": "INFORMAL",
+  "phrase": "Spectral Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpectralSequence"
+    }
+  ],
+  "indexable": true
+}

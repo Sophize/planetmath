@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Call a binary relation $\\to$ on a set $S$ a reduction. Let $\\to^*$ be\nthe reflexive transitive closure of $\\to$. Two elements $a,b\\in S$ are\nsaid to be *joinable* if there is an element $c\\in S$ such that\n$a\\to^* c$ and $b\\to^* c$. Graphically, this means that\n\n$\n\\xymatrix@R-=10pt{\na\\ar[dr]^{*}\\\\\n&c\\\\\nb\\ar[ur]_{*}\n}\n$\n\nwhere the starred arrows represent\n$$a\\to a_1\\to \\cdots \\to a_n \\to c\\qquad\\mbox{ and }\\qquad b\\to b_1\\to \\cdots \\to b_m \\to c$$\nrespectively ($m,n$ are non-negative integers). The case $m=0$ (or\n$n=0$) means $a\\to c$ (or $b\\to c$).\n\n**Definition**. $\\to$ is said to be *confluent* if whenever $x\\to^* a$\nand $x\\to^*b$, then $a,b$ are joinable. In other words, $\\to$ is\nconfluent iff $\\to^*$ has the amalgamation property. Graphically, this\nsays that, whenever we have a diagram\n\n$\n\\xymatrix@R-=10pt{\n&a\\\\\nx\\ar[ur]^{*}\\ar[dr]_{*} &\\\\\n&b\n}\n$\n\nthen it can be \u201ccompleted\u201d into a \u201cdiamond\u201d:\n\n$\n\\xymatrix@R-=10pt{\n&a\\ar[dr]^{*}\\\\\nx\\ar[ur]^{*}\\ar[dr]_{*} &&c\\\\\n&b\\ar[ur]_{*}&\n}\n$\n\n**Remark**. A more general property than confluence, called\n*semi-confluence* is defined as follows: $\\to$ is *semi-confluent* if\nfor any triple $x,a,b\\in S$ such that $x\\to a$ and $x\\to^* b$, then\n$a,b$ are joinable. It turns out that this seemingly weaker notion is\nactually equivalent to the stronger notion of confluence. In addition,\nit can be shown that $\\to$ is confluent iff $\\to$ has the Church-Rosser\nproperty.\n\n[8]{} F. Baader, T. Nipkow, *Term Rewriting and All That*, Cambridge\nUniversity Press (1998).",
+  "language": "INFORMAL",
+  "phrase": "Confluence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Confluence"
+    }
+  ],
+  "indexable": true
+}

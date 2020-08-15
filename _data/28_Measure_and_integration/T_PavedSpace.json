@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "paving",
+    "paved set"
+  ],
+  "definition": "A *paving* on a set $X$ is any collection $\\mathcal{A}$ of subsets of\n$X$, and $(X,\\mathcal{A})$ is said to be a *paved space*. Given any two\npaved spaces $(X,\\mathcal{A})$ and $(Y,\\mathcal{B})$, the product paving\n$\\mathcal{A}\\times\\mathcal{B}$ is defined as\n$$\\mathcal{A}\\times\\mathcal{B} = \\left\\{A\\times B\\colon A\\in\\mathcal{A},B\\in\\mathcal{B}\\right\\}.$$\n\nA paved space $(K,\\mathcal{K})$ is said to be *compact* if every\nsubcollection of $\\mathcal{K}$ satisfying the finite intersection\nproperty has nonempty intersection. Equivalently, if any\n$\\mathcal{K}^\\prime\\subseteq\\mathcal{K}$ has empty intersection then\nthere is a finite\n$\\mathcal{K}^{\\prime\\prime}\\subseteq\\mathcal{K}^\\prime$ with empty\nintersection. Then, $\\mathcal{K}$ is said to be a *compact paving*, and\n$K$ is *compactly paved* by $\\mathcal{K}$. An example of compact pavings\nis given by the collection of all of a Hausdorff topological space.\n\nFor any paving $\\mathcal{A}$, the notation $\\mathcal{A}_\\sigma$ is often\nused to denote countable unions of elements of $\\mathcal{A}$,\n$$\\mathcal{A}_\\sigma\\equiv\\left\\{\\bigcup_{n=1}^\\infty A_n\\colon A_n\\in\\mathcal{A}\\text{ for all }n\\in\\mathbb{N}\\right\\}.$$\nSimilarly, $\\mathcal{A}_\\delta$ denotes the countable intersections of\nelements of $\\mathcal{A}$,\n$$\\mathcal{A}_\\delta\\equiv\\left\\{\\bigcap_{n=1}^\\infty A_n\\colon A_n\\in\\mathcal{A}\\text{ for all }n\\in\\mathbb{N}\\right\\}.$$\nThese operations can be combined in any order so that, for example,\n$\\mathcal{A}_{\\sigma\\delta}=(\\mathcal{A}_\\sigma)_\\delta$ is the\ncollection of countable intersections of countable unions of elements of\n$\\mathcal{A}$.\n\nNote: In the definition of a paved space, some authors additionally\nrequire a paving $\\mathcal{K}$ to contain the empty set.\n\n[9]{} K. Bichteler, *Stochastic integration with jumps*. Encyclopedia of\nMathematics and its Applications, 89. Cambridge University Press, 2002.\nClaude Dellacherie, Paul-Andr\u00e9 Meyer, *Probabilities and potential*.\nNorth-Holland Mathematics Studies, 29. North-Holland Publishing Co.,\n1978. Sheng-we He, Jia-gang Wang, Jia-an Yan, *Semimartingale theory and\nstochastic calculus.* Kexue Chubanshe (Science Press), CRC Press, 1992.\nM.M. Rao, *Measure theory and integration*. Second edition. Monographs\nand Textbooks in Pure and Applied Mathematics, 265. Marcel Dekker Inc.,\n2004.",
+  "language": "INFORMAL",
+  "phrase": "Paved Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PavedSpace"
+    }
+  ],
+  "indexable": true
+}

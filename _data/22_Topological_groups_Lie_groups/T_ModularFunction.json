@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Haar modulus",
+    "modular character",
+    "modular homomorphism"
+  ],
+  "definition": "Let $G$ be a locally compact Hausdorff topological group and $\\mu$ a\nleft Haar measure. Although left and right Haar measures in $G$ always\nexist, they generally do not coincide, i.e. a left Haar measure is\nusually not invariant under right translations. Nevertheless, the right\ntranslations of a left Haar measure can be easily described as explained\nin the following theorem.\n\n$\\,$\n\n[**Theorem -**]{} Let $G$ be a locally compact Hausdorff topological\ngroup and $\\mu$ a left Haar measure in $G$. Then, there exists a\ncontinuous homomorphism $\\Delta:G \\longrightarrow \\mathbb{R}^+$ such\nthat, for every $t \\in G$ and every measurable subset $A$\n$$\\mu(At) = \\Delta(t^{-1})\\mu(A)$$ Moreover, if\n$f:G \\longrightarrow \\mathbb{C}$ is an integrable function then\n$$\\Delta(t)\\int_Gf(st) \\mu(s) = \\int_G f(s) \\mu(s)$$\n\n$\\,$\n\nThe function $\\Delta$ is called the [**modular function**]{} of $G$\n(notice that, by uniqueness up to scalar multiple of left Haar measures,\n$\\Delta$ only depends on $G$). Other names for $\\Delta$ that can be\nfound are: *Haar modulus*, or *modular character* or *modular\nhomomorphism*.\n\nWe now prove the above theorem, except the continuity of $\\Delta$ (which\nis slightly harder to obtain).\n\n$\\,$\n\n[***Proof (except continuity of $\\Delta$):***]{}\n\nLet $t \\in G$. The function $\\nu$, defined on measurable subsets $A$ by\n$$\\nu (A):= \\mu(At)$$\n\nis easily seen to be a measure in $G$. Moreover, $\\nu$ is left invariant\n(since $\\mu$ is left invariant) and satisfies the additional conditions\nto be a left Haar measure. By the uniqueness of left Haar measures,\n$\\mu$ must be a multiple of $\\nu$, i.e. $\\mu=\\Delta(t)\\nu$ for some\npositive scalar $\\Delta(t) \\in \\mathbb{R}^+$. Thus, we have proven that\nfor every measurable subset $A$\n\n$$\\mu(At)= \\Delta(t)^{-1}\\mu(A)$$\n\nNow for $s, t \\in G$ we have that $\\mu(Ast)=\\Delta(st)^{-1}\\mu(A)$, but\nalso\n\n-   $\\mu(Ast)= \\Delta(t)^{-1}\\mu(As)$, and\n\n-   $\\mu(As) = \\Delta(s)^{-1}\\mu(A)$\n\nSo, we can see that, for every measurable subset $A$,\n\n$$\\Delta(st)^{-1}\\mu(A) = \\Delta(t)^{-1}\\Delta(s)^{-1}\\mu(A)$$\n\nHence, $\\Delta(st) = \\Delta(s)\\Delta(t)$. Thus, $\\Delta$ is an\nhomomorphism.\n\nThe statement about integrals of functions follows easily by\napproximation by simple functions. For simple functions it is easy to\nsee it is true using the now established condition\n$\\mu(At) = \\Delta(t^{-1})\\mu(A)$. $\\square$",
+  "language": "INFORMAL",
+  "phrase": "Modular Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModularFunction"
+    }
+  ],
+  "indexable": true
+}

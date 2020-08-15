@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For each monoid (a semigroup with an identity element) $(M,\\bullet,e)$\nwe can define a category\n${\\mathbf{C}}(M,\\bullet,e)=({\\mathrm{Ob}},{\\mathrm{hom}},id,\\circ)$ with\none object by putting ${\\mathrm{Ob}}=\\{M\\}$, and morphisms are elements\nof $M$: ${\\mathrm{hom}}(M,M)=M$, where $id_M=e$, and the composition\n$\\circ$ of morphisms is the monoidal product $\\bullet$ on elements of\n$M$: $y\\circ x=y\\bullet x$.\n\nMoreover, any category with a single object has a natural structure as a\nmonoid with the binary operation given by the law of composition of\nmorphisms.\n\n**Remark**. If a monoid is a group, then the identified category again\nhas one object, and furthermore all of its morphisms are isomorphisms.\nConversely, a category with one object all of whose morphisms are\nisomorphisms has a natural structure as a group.",
+  "language": "INFORMAL",
+  "phrase": "Monoid As A Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MonoidAsACategory"
+    }
+  ],
+  "indexable": true
+}

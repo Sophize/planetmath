@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** The intersection curve of a sphere and a plane is a circle.\n\n[*Proof.*]{} We prove the theorem without the equation of the sphere.\nLet $c$ be the intersection curve, $r$ the radius of the sphere and $OQ$\nbe the distance of the centre $O$ of the sphere and the plane. If $P$ is\nan arbitrary point of $c$, then $OPQ$ is a right triangle. By the\nPythagorean theorem,\n$$PQ = \\varrho = \\sqrt{r^2\\!-\\!OQ^2} = \\mbox{\\;constant}.$$\n\n(-3.5,-3.5)(3.5,3.5) (0,0)(0,1.23) (-2.41,0.95)\n\n(0.3,0)[$O$]{} (2,0.68)[$c$]{} (-2.45,0.68)[$P$]{} (0.3,1.23)[$Q$]{}\n(-1.1,0.22)[$r$]{} (-1.1,1.28)[$\\varrho$]{} (0,0)(0,0.6)\n(0,0.75)(0,1.23) (0,1.23)(-2.41,0.95) (0,0)(-2.41,0.95)\n(0,1.09)(-0.12,1.07) (-0.12,1.07)(-0.12,1.22) (0,1.23)(2.7,0.6)\n(0,0)[3]{} (-3.5,-3.5)[.]{} (3.5,3.5)[.]{}\n\nThus any point of the curve $c$ is in the plane at a distance $\\varrho$\nfrom the point $Q$, whence $c$ is a circle.\\\n**Remark.** There are two special cases of the intersection of a sphere\nand a plane: the empty set of points ($OQ > r$) and a single point\n($OQ = r$); these of course are not curves. In the former case one\nusually says that the sphere does not intersect the plane, in the latter\none sometimes calls the common point a [*zero circle*]{} (it can be\nthought a circle with radius 0).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntersectionOfSphereAndPlane"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "intersection of sphere and plane"
+  ]
+}

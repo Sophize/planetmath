@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $u = u(x,\\,y,\\,z)$ is continuously differentiable function in a\nsimply connected $D$ of $\\mathbb{R}^3$ and $P = (x_0,\\,y_0,\\,z_0)$ and\n$Q = (x_1,\\,y_1,\\,z_1)$ lie in this domain, then $$\\begin{aligned}\n\\int_P^Q\\!\\nabla u\\!\\cdot\\!\\vec{ds} \\;=\\; u(x_1,\\,y_1,\\,z_1)-u(x_0,\\,y_0,\\,z_0)\\end{aligned}$$\nwhere the line integral of the left hand side is taken along an\narbitrary path in $D$.\\\nThe equation (1) is illustrated by the fact that\n$$\\nabla u\\!\\cdot\\!\\vec{ds} \n\\;=\\; \\frac{\\partial u}{\\partial x}dx+\\frac{\\partial u}{\\partial y}dy+\\frac{\\partial u}{\\partial z}dz$$\nis the total differential of $u$, and thus\n$$\\int_P^Q\\!\\nabla u\\!\\cdot\\!\\vec{ds} \\;=\\; \\int_P^Q\\!du.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GradientTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "gradient theorem",
+    "fundamental theorem of line integrals"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "unitary algebra",
+    "special unitary algebra"
+  ],
+  "definition": "Let $V$ be a vector space over a field $K$ admitting an involution\n$\\sigma:K\\rightarrow K$, and let $B:V\\times V\\rightarrow {{\\mathbb F}}$\nbe a relative to $\\sigma$. Then the [*unitary Lie algebra*]{}\n${\\mathfrak u}(V,B)$, or just ${\\mathfrak u}(V)$, consists of the linear\ntransformations $T$ satisfying $$B(Tx,y)+B(x,Ty)=0,$$ for all\n$x,y\\in V$. This is a Lie algebra over\n$k=\\{\\alpha\\in K\\mid \\alpha^\\sigma=\\alpha\\}$, but not over $K$ in the\ncase that $K\\neq k$ (because $B$ is linear in the first, but not in the\nsecond variable).\n\nThe [*special unitary Lie algebra*]{} ${\\mathfrak su}(V,B)$, or just\n${\\mathfrak su}(V)$, consists of those linear transformations in\n${\\mathfrak u}(V,B)$ with trace zero.",
+  "language": "INFORMAL",
+  "phrase": "(Special) Unitary Lie Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/specialUnitaryLieAlgebra"
+    }
+  ],
+  "indexable": true
+}

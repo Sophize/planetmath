@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The eigenvalues of a Hermitian (or self-adjoint) matrix are real.\n\nSuppose $\\lambda$ is an eigenvalue of the self-adjoint matrix $A$ with\nnon-zero eigenvector $v$. Then $Av = \\lambda v$.\n\n$$\\lambda ^{\\ast }v^{H}v=\\left( \\lambda v\\right) ^{H}v=\\left( Av\\right)\n^{H}v=v^{H}A^{H}v=v^{H}Av=v^{H}\\lambda v=\\lambda v^{H}v$$\n\nSince $v$ is non-zero by assumption, $v^H v$ is non-zero as well and so\n$\\lambda^{*}=\\lambda$, meaning that $\\lambda$ is real.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EigenvaluesOfAHermitianMatrixAreReal"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "eigenvalues of a Hermitian matrix are real"
+  ]
+}

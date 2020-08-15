@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} The *Pascal matrix* $P$ of order $n$ is the real\nsquare $n\\times n$ matrix whose entries are [@higham]\n$$P_{ij} = { i+j-2 \\choose j-1}.$$\n\nFor $n=5$, $$P= \\begin{pmatrix}\n1 & 1 & 1 & 1  & 1\\\\\n1 & 2 & 3 & 4  & 5 \\\\\n1 & 3 & 6 & 10  & 15\\\\\n1 & 4 & 10 & 20 & 35 \\\\\n1 & 5 & 15 & 35 & 70 \n\\end{pmatrix},$$ so we see that the Pascal matrix contains the Pascal\ntriangle on its antidiagonals.\n\nPascal matrices are ill-conditioned. However, the inverse of the\n$n\\times n$ Pascal matrix is known explicitly and given in [@higham].\nThe characteristic polynomial of a Pascal triangle is a reciprocal\npolynomial [@higham].\n\n[9]{} N.J. Higham, *Accuracy and Stability of Numerical Algorithms*, 2nd\ned., SIAM, 2002.",
+  "language": "INFORMAL",
+  "phrase": "Pascal Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PascalMatrix"
+    }
+  ],
+  "indexable": true
+}

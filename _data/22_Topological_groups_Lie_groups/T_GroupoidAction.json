@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "action"
+  ],
+  "definition": "Let ${\\mathcal G}$ be a groupoid and $X$ a topological space. A\n*groupoid action*, or ${\\mathcal G}$-action, on $X$ is given by two\nmaps: the *anchor map* $\\pi: X \\longrightarrow G_0$ and a map\n$\\mu: X \\times_{G_0}G_1 \\longrightarrow X,$ with the latter being\ndefined on pairs $(x,g)$ such that $\\pi(x)=t(g)$, written as\n$\\mu(x,g)=xg$. The two maps are subject to the following conditions:\n\n-   $\\pi(xg)=s(g),$\n\n-   $xu(\\pi(x))=x,$ and\n\n-   $(xg)h=x(gh),$ whenever the operations are defined.\n\n[**Note:**]{} The groupoid action generalizes the concept of group\naction in a non-trivial way.",
+  "language": "INFORMAL",
+  "phrase": "Groupoid Action",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupoidAction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The space curve traced out by the parameterization\n$${\\boldsymbol{\\gamma}}(t)=\\left[\\begin{array}{c}a \\cos(t)\\\\ a\\sin\n    (t)\\\\ bt\\end{array}\\right],\\quad t\\in {\\mathbb{R}},\\; a,b\\in{\\mathbb{R}}$$\nis called a *circular helix* (plur. [*helices*]{}).\n\nIts Frenet frame is: $$\\begin{aligned}\n  {\\mathbf{T}}&= \\frac{1}{\\sqrt{a^2+b^2}} \\begin{bmatrix} -a\\sin t \\\\\n  \\hphantom{-}a\\cos t \\\\b\\end{bmatrix}\\,,\\\\\n  {\\mathbf{N}}&= \\begin{bmatrix} -\\cos t \\\\ -\\sin t \\\\ 0 \\end{bmatrix}\\,,\\\\\n  {\\mathbf{B}}&= \\frac{1}{\\sqrt{a^2+b^2}} \\begin{bmatrix} \\hphantom{-}b\\sin t \\\\\n  -b\\cos t \\\\ a\\end{bmatrix}\\,.\\end{aligned}$$ Its curvature and torsion\nare the following constants: $$\\begin{aligned}\n  \\kappa = \\frac{a}{a^2+b^2}\\,, \\quad\n  \\tau = \\frac{b}{a^2+b^2}\\,.\\end{aligned}$$\n\nA circular helix can be conceived of as a space curve with constant,\nnon-zero curvature, and constant, non-zero torsion. Indeed, one can show\nthat if a space curve satisfies the above constraints, then there exists\na system of Cartesian coordinates in which the curve has a\nparameterization of the form shown above.\n\n![A plot of a circular helix with $a = b = 1$, and\n$\\kappa = \\tau = 1/2$.](helix2.eps)\n\nAn important property of the circular helix is that for any point of it,\nthe angle $\\varphi$ between its tangent and the helix axis is constant.\nIndeed, if we consider the position vector of that arbitrary point, we\nhave (where $\\mathbf{k}$ is the unit vector parallel to helix axis)\n$$\\begin{aligned}\n\\frac{d{\\boldsymbol{\\gamma}}}{dt}\\cdot\\mathbf{k}=\\begin{bmatrix} -a\\sin t \\\\\n\\hphantom{-}a\\cos t \\\\ b \\end{bmatrix}\\begin{bmatrix} 0\\; 0\\; 1\\end{bmatrix}=b\n\\equiv \\bigg\\lVert\\frac{d{\\boldsymbol{\\gamma}}}{dt}\\bigg\\rVert\\cos\\varphi=\\sqrt{a^2+b^2}\\cos\\varphi.\\end{aligned}$$\nTherefore, $$\\begin{aligned}\n\\cos\\varphi=\\frac{b}{\\sqrt{a^2+b^2}} \\text{constant},\\end{aligned}$$ as\nwas to be shown.\n\nThere is also another parameter, the so-called *pitch of the helix* $P$\nwhich is the separation between two consecutive turns. (It is mostly\nused in the manufacture of screws.) Thus, $$\\begin{aligned}\nP=\\gamma_3(t+2\\pi)-\\gamma_3(t)= b(t+2\\pi)-bt=2\\pi b\\,,\\end{aligned}$$\nand $P$ is also a constant.",
+  "language": "INFORMAL",
+  "phrase": "Circular Helix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CircularHelix"
+    }
+  ],
+  "indexable": true
+}

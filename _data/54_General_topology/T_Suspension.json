@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The unreduced suspension\n========================\n\nGiven a topological space $X,$ the [*suspension*]{} of $X,$ often\ndenoted by $SX,$ is defined to be the quotient space\n$X{\\times}[0,1]/\\sim,$ where $(x,0)\\sim(y,0)$ and $(x,1)\\sim(y,1)$ for\nany $x, y\\in X.$\n\nGiven a continuous map ${f:{X\\rightarrow Y}},$ there is a map\n${Sf:{SX\\rightarrow SY}}$ defined by $Sf([x,t]):=[f(x),t].$ This makes\n$S$ into a functor from the category of topological spaces into itself.\n\nNote that $SX$ is homeomorphic to the join $X\\star S^0,$ where $S^0$ is\na discrete space with two points.\n\nThe space $SX$ is sometimes called the [*unreduced*]{}, [*unbased*]{} or\n[*free*]{} suspension of $X,$ to distinguish it from the reduced\nsuspension described below.\n\nThe reduced suspension\n======================\n\nIf $(X,x_0)$ is a based topological space, the [*reduced suspension*]{}\nof $X,$ often denoted ${\\Sigma}X$ (or ${\\Sigma}_{x_0} X$ when the\nbasepoint needs to be explicit), is defined to be the quotient space\n$X\\times[0,1]/(X{\\times}{\\left\\{0\\right\\}}\\cup X{\\times}{\\left\\{1\\right\\}}\\cup{\\left\\{x_0\\right\\}}{\\times}[0,1].$\nSetting the basepoint of ${\\Sigma}X$ to be the equivalence class of\n$(x_0,0),$ the reduced suspension is a functor from the category of\nbased topological spaces into itself.\n\nAn important property of this functor is that it is a left adjoint to\nthe functor $\\Omega$ taking a (based) space $X$ to its loop space\n$\\Omega X$. In other words,\n${\\mathop{\\mathrm{Maps}_*}\\left({\\Sigma}X,Y\\right)}{\\cong}{\\mathop{\\mathrm{Maps}_*}\\left(X,\\Omega Y\\right)}$\nnaturally, where ${\\mathop{\\mathrm{Maps}_*}\\left(X,Y\\right)}$ stands for\ncontinuous maps which preserve basepoints.\n\nThe reduced suspension is also known as the [*based*]{} suspension.",
+  "language": "INFORMAL",
+  "phrase": "Suspension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Suspension"
+    }
+  ],
+  "indexable": true
+}

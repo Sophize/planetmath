@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a binary (class) function on $V$, the class of all sets. Let\n$A$ be a well-founded set (with $R$ the well-founded relation). Then\nthere is a unique function $F$ such that\n$$F(x)=G(x,F|\\operatorname{seg}(x)),$$ where\n$\\operatorname{seg}(x):=\\lbrace y\\in A\\mid yRx\\rbrace$, the initial\nsegment of $x$.\n\n**Remark**. Since every well-ordered set is well-founded, the\nwell-founded recursion theorem is a generalization of the transfinite\nrecursion theorem. Notice that the $G$ here is a function in two\narguments, and that it is necessary to specify the element $x$ in the\nfirst argument (in contrast with the $G$ in the transfinite recursion\ntheorem), since it is possible that\n$\\operatorname{seg}(a)=\\operatorname{seg}(b)$ for $a\\ne b$ in a\nwell-founded set.\n\nBy converting $G$ into a formula ($\\varphi(x,y,z)$ such that for all\n$x,y$, there is a unique $z$ such that $\\varphi(x,y,z)$), then the above\ntheorem can be proved in ZF (with the aid of the well-founded\ninduction). The proof is similar to the proof of the transfinite\nrecursion theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WellfoundedRecursion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "well-founded recursion"
+  ]
+}

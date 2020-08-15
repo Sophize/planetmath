@@ -1,0 +1,18 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In 1950, Giuseppe Giuga conjectured that if and only if an integer $p$\nis prime then it will satisfy the congruence\n$$\\sum_{i = 1}^{p - 1} i^{p - 1} \\equiv -1 \\mod p.$$ This is sometimes\ncalled the *Giuga conjecture*. Takashi Agoh rephrased the conjecture as\n$pB_{p - 1} \\equiv -1 \\mod p$, where $B$ is a Bernoulli number; this is\ncalled the *Agoh-Giuga conjecture*. In 2003 Simon Plouffe performed an\nexhaustive search for a counterexample below 50000 but came up empty.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AgohGiugaConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Agoh-Giuga conjecture",
+    "Giuga conjecture",
+    "Giuga's conjecture",
+    "Agoh conjecture",
+    "Agoh's conjecture"
+  ]
+}

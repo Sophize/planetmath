@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem** ]{}: An orthonormal set of vectors in an inner product\nspace is linearly independent.\n\n*Proof.* We denote by $\\langle \\cdot, \\cdot \\rangle$ the inner product\nof $L$. Let $S$ be an orthonormal set of vectors. Let us first consider\nthe case when $S$ is finite, i.e., $S=\\{e_1,\\ldots, e_n\\}$ for some $n$.\nSuppose $$\\lambda_1 e_1 + \\cdots + \\lambda_n e_n =0$$ for some scalars\n$\\lambda_i$ (belonging to the field on the underlying vector space of\n$L$). For a fixed $k$ in $1,\\ldots, n$, we then have\n$$0=\\langle e_k,0\\rangle =  \\langle e_k,\\lambda_1 e_1 + \\cdots + \\lambda_n e_n \\rangle = \\lambda_1 \\langle e_k,e_1\\rangle + \\cdots + \\lambda_n \\langle e_k,e_n\\rangle = \\lambda_k,$$\n\nso $\\lambda_k=0$, and $S$ is linearly independent. Next, suppose $S$ is\ninfinite (countable or uncountable). To prove that $S$ is linearly\nindependent, we need to show that all finite subsets of $S$ are linearly\nindependent. Since any subset of an orthonormal set is also orthonormal,\nthe infinite case follows from the finite case. $\\Box$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryOrthonormalSetIsLinearlyIndependent"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every orthonormal set is linearly independent"
+  ]
+}

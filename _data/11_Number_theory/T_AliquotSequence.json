@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For a given $m$, define the recurrence relation $a_1 = m$,\n$a_n = \\sigma(a_{n - 1}) - a_{n - 1}$, where $\\sigma(x)$ is the sum of\ndivisors function. $a$ is then the [*aliquot sequence*]{} of $m$.\n\nIf $m$ is an amicable number, its aliquot sequence is periodic,\nalternating between the abundant and deficient member of the amicable\npair. For a prime number $p$, its aliquot sequence is $p, 1, 0$. In\nother cases, the aliquot sequence reaches a fixed point upon 0, or on a\nperfect number.",
+  "language": "INFORMAL",
+  "phrase": "Aliquot Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AliquotSequence"
+    }
+  ],
+  "indexable": true
+}

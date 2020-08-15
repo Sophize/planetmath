@@ -1,0 +1,17 @@
+{
+  "argumentText": "Starting from Nesbitt\u2019s inequality\n$$\\frac{a}{b+c}+\\frac{b}{a+c}+\\frac{c}{a+b}\\geq\\frac{3}{2}$$ we\ntransform the left hand side:\n$$\\frac{a+b+c}{b+c}+\\frac{a+b+c}{a+c}+\\frac{a+b+c}{a+b}-3\\geq\\frac{3}{2}.$$\nNow this can be transformed into:\n$$((a+b)+(a+c)+(b+c))\\left(\\frac{1}{a+b}+\\frac{1}{a+c}+\\frac{1}{b+c}\\right)\\geq 9.$$\nDivision by 3 and the right yields:\n$$\\frac{(a+b)+(a+c)+(b+c)}{3}\\geq\\frac{3}{\\frac{1}{a+b}+\\frac{1}{a+c}+ \\frac{1}{b+c}}.$$\nNow on the left we have the arithmetic mean and on the right the\nharmonic mean, so this inequality is true.",
+  "conclusion": "#P_NesbittsInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfNesbittsInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Nesbitt's inequality"
+  ]
+}

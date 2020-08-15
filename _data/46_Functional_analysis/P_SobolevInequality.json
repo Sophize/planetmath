@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For $1\\le p < n$, define the *Sobolev conjugate* of $p$ as\n$$p^* := \\frac {np}{n-p}.$$ Note that $-n/p^* = 1-n/p$.\n\nIn the following statement $\\nabla$ represent the weak derivative and\n$W^{1,p}(\\Omega)$ is the Sobolev space of functions $u\\in L^p(\\Omega)$\nwhose weak derivative $\\nabla u$ is itself in $L^p(\\Omega)$.\n\nAssume that $p\\in [1,n)$ and let $\\Omega$ be a bounded, open subset of\n${\\mathbb R}^n$ with Lipschitz boundary. Then there is a constant $C>0$\nsuch that, for all $u\\in W^{1,p}(\\Omega)$ one has\n$$\\Vert u \\Vert_{L^{p^*}(\\Omega)} \\le C \\Vert \\nabla u \\Vert_{L^p(\\Omega)}.$$\n\nWe can restate the previous Theorem by saying that the Sobolev space\n$W^{1,p}(\\Omega)$ is a subspace of the Lebesgue space $L^{p^*}(\\Omega)$\nand that the inclusion map $i\\colon W^{1,p}(\\Omega)\\to L^{q^*}(\\Omega)$\nis continuous.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SobolevInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Sobolev inequality",
+    "Sobolev embedding",
+    "sobolev immersion",
+    "Gagliardo Nirenberg inequality"
+  ]
+}

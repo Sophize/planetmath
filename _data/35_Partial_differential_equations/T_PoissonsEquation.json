@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Poisson\u2019s equation is a second-order partial differential equation which\narises in physical problems such as finding the electric potential of a\ngiven charge distribution. Its general form in $n$ is\n$$\\nabla^2\\phi(\\mathbf r)=\\rho(\\mathbf r)$$ where $\\nabla^2$ is the\nLaplacian and $\\rho:D\\to\\mathbb{R}$, often called a *source* , is a\ngiven function on some subset $D$ of $\\mathbb{R}^n$. If $\\rho$ is\nidentically zero, the Poisson equation reduces to the Laplace equation.\n\nThe Poisson equation is linear, and therefore obeys the *superposition\nprinciple*: if $\\nabla^2\\phi_1=\\rho_1$ and $\\nabla^2\\phi_2=\\rho_2$, then\n$\\nabla^2(\\phi_1+\\phi_2)=\\rho_1+\\rho_2$. This fact can be used to\nconstruct solutions to Poisson\u2019s equation from *fundamental solutions*,\nor *Green\u2019s functions*, where the source distribution is a delta\nfunction.\n\nA very important case is the one in which $n=3$, $D$ is all of\n$\\mathbb{R}^3$, and $\\phi(\\mathbf r)\\to 0$ as\n$\\vert\\mathbf r\\vert\\to\\infty$. The general solution is then given by\n$$\\phi(\\mathbf r)=-\\frac{1}{4\\pi}\\int_{\\mathbb{R}^3}\\frac{\\rho(\\mathbf{r'})}{\\vert\\mathbf{r}-\\mathbf{r'}\\vert}\\mathrm{d}^3\\mathbf{r'}.$$",
+  "language": "INFORMAL",
+  "phrase": "Poisson'S Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PoissonsEquation"
+    }
+  ],
+  "indexable": true
+}

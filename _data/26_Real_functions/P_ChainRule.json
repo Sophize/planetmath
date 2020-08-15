@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f, g$ be differentiable, real-valued functions such that $g$ is\ndefined on an open set $I\\subseteq \\mathbb{R}$, and $f$ is defined on\n$g(I)$. Then the derivative of the composition $f\\circ g$ is given by\nthe *chain rule*, which asserts that\n$$(f\\circ g)'(x) = (f'\\circ g)(x)\\, g'(x), \\quad x\\in I.$$\n\nThe chain rule has a particularly suggestive appearance in terms of the\nLeibniz formalism. Suppose that $z$ depends differentiably on $y$, and\nthat $y$ in turn depends differentiably on $x$. Then we have\n$$\\frac{dz}{dx} = \\frac{dz}{dy}\\, \\frac{dy}{dx}.$$ The apparent\ncancellation of the $dy$ term is at best a formal mnemonic, and does not\nconstitute a rigorous proof of this result. Rather, the Leibniz format\nis well suited to the interpretation of the chain rule in terms of\nrelated rates. To wit:\n\n> *The instantaneous rate of change of $z$ relative to $x$ is equal to\n> the rate of change of $z$ relative to $y$ times the rate of change of\n> $y$ relative to $x$.*",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChainRule"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "chain rule"
+  ]
+}

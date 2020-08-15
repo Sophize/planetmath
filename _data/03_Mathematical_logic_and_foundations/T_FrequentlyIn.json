@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "clusters at"
+  ],
+  "definition": "Recall that a net is a function $x$ from a directed set $D$ to a set\n$X$. The value of $x$ at $i\\in D$ is usually denoted by $x_i$. Let $A$\nbe a subset of $X$. We say that a net $x$ is *frequently in* $A$ if for\nevery $i\\in D$, there is a $j\\in D$ such that $i\\le j$ and $x_j\\in A$.\n\nSuppose a net $x$ is frequently in $A\\subseteq X$. Let\n$E:=\\lbrace j\\in D\\mid x_j\\in A\\rbrace$. Then $E$ is a cofinal subset of\n$D$, for if $i\\in D$, then by definition of $A$, there is $i\\le j\\in D$\nsuch that $x_j\\in A$, and therefore $j\\in E$.\n\nThe notion of \u201cfrequently in\u201d is related to the notion of \u201ceventually\nin\u201d in the following sense: a net $x$ is eventually in a set\n$A\\subseteq X$ iff it is not frequently in $A^{\\complement}$, its\ncomplement. Suppose $x$ is eventually in $A$. There is $j\\in D$ such\nthat $x_k\\in A$ for all $k\\ge j$, or equivalently,\n$x_k\\in A^{\\complement}$ for no $k\\ge j$. The converse is can be argued\nby tracing the previous statements backwards.\n\nIn a topological space $X$, a point $a\\in X$ is said to be a *cluster\npoint of a net* $x$ (or, occasionally, $x$ *clusters at* $a$) if $x$ is\nfrequently in every neighborhood of $a$. In this general definition, a\nlimit point is always a cluster point. But a cluster point need not be a\nlimit point. As an example, take the sequence\n$0,2,0,4,0,6,0,8,\\ldots,0,2n,0,\\ldots$ has $0$ as a cluster point. But\nclearly $0$ is not a limit point, as the sequence diverges in\n$\\mathbb{R}$.",
+  "language": "INFORMAL",
+  "phrase": "Frequently In",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FrequentlyIn"
+    }
+  ],
+  "indexable": true
+}

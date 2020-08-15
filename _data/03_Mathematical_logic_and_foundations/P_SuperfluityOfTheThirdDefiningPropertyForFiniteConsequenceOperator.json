@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry, we demonstrate the claim made in section 1 of the that\nthe defining conditions for finitary consequence operator given there\nare redundant because one of them may be derived from the other two.\n\nLet $L$ be a set. Suppose that a mapping $C \\colon \\mathcal{P}(L) \n\\to \\mathcal{P}(L)$ satisfies the following three properties:\n\n1.  For all $X \\subseteq L$, it happens that $X \\subseteq C(X)$.\n\n2.  $C \\circ C = C$\n\n3.  For all $X \\in L$, it happens that $C(X) = \\bigcup\\limits_{Y \\in \n    \\mathcal{F} (X)} C(Y)$.\n\nThen $ C$ also satisfies the following property: For all $X, Y \n\\subseteq L$, if $X \\subseteq Y$, then $C(X) \\subseteq C(Y)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SuperfluityOfTheThirdDefiningPropertyForFiniteConsequenceOperator"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "superfluity of the third defining property for finite consequence operator"
+  ]
+}

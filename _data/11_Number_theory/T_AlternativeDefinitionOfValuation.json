@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "One may use a slightly different version of the third criterion to\ndefine a slightly more general definition of valuation.\n\nA *valuation* on a field $\\mathbb{K}$ is a map\n$| \\cdot | \\colon \\mathbb{K} \\to \\mathbb{R}$ such that\n\n1.  $|x| = 0$ if an only if $x = 0$\n\n2.  $|xy| = |x| \\, |y|$\n\n3.  $|x + y| \\le C \\max \\{ |x|, |y| \\}$\n\nThe quantity $C$ which appears in the third criterion is a positive real\nnumber which is known as the .\n\nThere is some flexibility in the choice of the constant $C$ in this\ndefinition \u2014 one can replace $C$ by a larger number $C'$. To deal with\nthis ambiguity, one defines the of the valuation as\n$$\\inf \\{ C \\mid (\\forall x) (\\forall y) \\> |x + y| < C \\max \\{ |x|, |y| \\} \\}$$\n\nThe relation of this definition to the usual one is the following. On\nthe one hand, if $| \\cdot |$ satisfies the usual definition, then\n$$|x + y| \\le |x| + |y| \\le 2 \\max \\{ |x|, |y| \\}$$ so a valuation in\nthe old sense is a valuation in the new sense with constant 2.\n\nOn the other hand, suppose that $| \\cdot |$ satisfies the alternative\ndefinition with constant $C < 2$. Then we have the following result.\n\n**Theorem** If $| \\cdot |$ is a valuation according to the definition of\nthis entry with constant $C \\le 2$, then $| \\cdot |$ satisfies the\nidentity $$| x + y | \\le |x| + |y|.$$\n\nThe proof of this assertion is given in a supplement to this entry.\n\nThe foregoing discussion shows that the new definition is more general\nthan the old definition precisely when $C > 2$. However, this extra\ngeneralty is not as great as it might seem at first sight. As is obvious\nfrom examining the definition, if $| \\cdot |$ is a valuation, then so is\n$| \\cdot |^p$ for any power $p > 0$. Furthermore, if the valuation has\nconstant $C$, then valuation $| \\cdot |^p$ has constant $C^p$.\nTherefore, given any valuation $| \\cdot |$ in the sense of this entry,\nthere will exist a number $p$ such that $| \\cdot |^p$ is a valuation in\nthe sense of the parent entry. Moreover, given the fact that two\nvaluations which are powers of each other are equivalent, one sees that\nthe extra generality is not that interesting since the new valuations\nare equivalent to the old valuations.",
+  "language": "INFORMAL",
+  "phrase": "Alternative Definition Of Valuation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternativeDefinitionOfValuation"
+    }
+  ],
+  "indexable": true
+}

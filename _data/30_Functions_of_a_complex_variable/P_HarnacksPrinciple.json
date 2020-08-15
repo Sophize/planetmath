@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If the functions $u_1(z)$, $u_2(z)$, \u2026 are in the domain\n$G \\subseteq\\mathbb{C}$ and $$u_1(z) \\le u_2(z) \\le \\cdots$$ in every\npoint of $G$, then $\\lim_{n\\to\\infty}u_n(z)$ either is infinite in every\npoint of the domain or it is finite in every point of the domain, in\nboth cases in each subdomain of $G$. In the latter case, the function\n$u(z) = \\lim_{n\\to\\infty}u_n(z)$ is harmonic in the domain $G$ (cf.\nlimit function of sequence).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HarnacksPrinciple"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Harnack's principle"
+  ]
+}

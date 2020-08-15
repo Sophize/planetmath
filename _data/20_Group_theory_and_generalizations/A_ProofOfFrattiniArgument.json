@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $g\\in G$ be any element. Since $H$ is normal, $gSg^{-1}\\subset H$.\nSince $S$ is a Sylow subgroup of $H$, $gSg^{-1}=hSh^{-1}$ for some\n$h\\in H$, by Sylow\u2019s theorems. Thus $n=h^{-1}g$ normalizes $S$, and so\n$g=hn$ for $h\\in H$ and $n\\in N_G(S)$.",
+  "conclusion": "#P_FrattiniArgument",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfFrattiniArgument"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Frattini argument"
+  ]
+}

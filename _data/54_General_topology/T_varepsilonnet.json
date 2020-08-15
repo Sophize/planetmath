@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose $X$ is a metric space with a metric $d$, and\nsuppose $S$ is a subset of $X$. Let $\\varepsilon$ be a positive real\nnumber. A subset $N\\subset S$ is an $\\varepsilon$*-net for $S$* if, for\nall $x\\in S$, there is an $y\\in N$, such that $d(x,y)<\\varepsilon$.\n\nFor any $\\varepsilon>0$ and $S\\subset X$, the set $S$ is trivially an\n$\\varepsilon$-net for itself.\n\n[**Theorem**]{} Suppose $X$ is a metric space with a metric $d$, and\nsuppose $S$ is a subset of $X$. Let $\\varepsilon$ be a positive real\nnumber. Then $N$ is an $\\varepsilon$-net for $S$, if and only if\n$$\\{ B_\\varepsilon(y) \\mid y\\in N \\}$$ is a cover for $S$. (Here\n$B_\\varepsilon(x)$ is the open ball with center $x$ and radius\n$\\varepsilon$.)\n\n*Proof.* Suppose $N$ is an $\\varepsilon$-net for $S$. If $x\\in S$, there\nis an $y\\in N$ such that $x\\in B_\\varepsilon(y)$. Thus, $x$ is covered\nby some set in $\\{ B_\\varepsilon(x) \\mid x\\in N \\}$. Conversely, suppose\n$\\{ B_\\varepsilon(y) \\mid y\\in N \\}$ is a cover for $S$, and suppose\n$x\\in S$. By assumption, there is an $y\\in N$, such that\n$x\\in B_\\varepsilon(y)$. Hence $d(x,y)<\\varepsilon$ with $y\\in N$.\n$\\Box$\n\n[**Example**]{} In $X=\\mathbb{R}^2$ with the usual Cartesian metric, the\nset $$N = \\{(a,b) \\mid a,b\\in \\mathbb{Z}\u00c2\u00a0\\}$$ is an $\\varepsilon$-net\nfor $X$ assuming that $\\varepsilon> \\sqrt{2}/2$. $\\Box$\n\nThe above definition and example can be found in [@bachman], page 64-65.\n\n[9]{} G. Bachman, L. Narici, *Functional analysis*, Academic Press,\n1966.",
+  "language": "INFORMAL",
+  "phrase": "$\\Varepsilon$-Net",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/varepsilonnet"
+    }
+  ],
+  "indexable": true
+}

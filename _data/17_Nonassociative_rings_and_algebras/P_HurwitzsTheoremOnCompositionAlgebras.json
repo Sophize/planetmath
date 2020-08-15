@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "\\[thm:Hurwitz\\][@Schafer:nonass Theorem 3.25] Given a field $k$ of\ncharacteristic not $2$, then every unital composition algebra $C$ over\n$k$ is isomorphic to one of:\n\n1.  $k$,\n\n2.  ${\\left(\\frac{\\alpha}{k}\\right)}$ for $\\alpha\\in k$,\n\n3.  ${\\left(\\frac{\\alpha,\\beta}{k}\\right)}$ for $\\alpha,\\beta\\in k$,\n\n4.  ${\\left(\\frac{\\alpha,\\beta,\\gamma}{k}\\right)}$ for\n    $\\alpha,\\beta,\\gamma\\in k$.\n\nIn particular, all composition algebras over $k$ are finite dimensional\nand of dimension $1$, $2$, $4$ or $8$.\n\n[7]{} Richard\u00a0D. Schafer, *An introduction to nonassociative algebras*,\nPure and Applied Mathematics, Vol. 22, Academic Press, New York, 1966.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HurwitzsTheoremOnCompositionAlgebras"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hurwitz's theorem on composition algebras"
+  ]
+}

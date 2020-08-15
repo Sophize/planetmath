@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem is due to Klaus Roth and it is a generalization of\na previous theorem of Liouville (see Liouville approximation theorem).\nRoth was awarded the Fields Medal for his work on the geometry of\nnumbers. W. M. Schmidt generalized the result even further. The result\nis widely used to prove that a certain number is transcendental. Here,\nfor a rational number $t$ in reduced form, the denominator of $t$ is\ndenoted by $d(t)$.\n\nFor any algebraic number $\\alpha$ and for any $\\epsilon>0$ there are\nonly finitely many rational numbers $t$ with:\n$$|\\alpha - t| < \\frac{1}{d(t)^{2+\\epsilon}}.$$ In other words, the\nequation:\n$$\\left|\\alpha - \\frac{p}{q}\\right| < \\frac{1}{q^{2+\\epsilon}}$$ has\nonly finitely many solutions with $p\\in {\\mathbb{Z}}$ and\n$q\\in {\\mathbb{Z}}^+$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RothsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Roth's theorem"
+  ]
+}

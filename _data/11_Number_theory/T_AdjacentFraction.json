@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Two fractions $\\frac{a}{b}$ and $\\frac{c}{d}$,\n$\\frac{a}{b} > \\frac{c}{d}$ of the positive integers $a, b, c, d$ are\n[*adjacent*]{} if their difference is some unit fraction $\\frac{1}{n}$,\n$n>0$ that is, if we can write:\n$$\\frac{a}{b} - \\frac{c}{d} = \\frac{1}{n}.$$\n\nFor example the two proper fractions and unit fractions $\\frac{1}{11}$\nand $\\frac{1}{12}$ are adjacent since:\n$$\\frac{1}{11} - \\frac{1}{12} = \\frac{1}{132} \\; .$$\n\n$\\frac{1}{17}$ and $\\frac{1}{19}$ are not since:\n$$\\frac{1}{17} - \\frac{1}{19} = \\frac{2}{323} \\; .$$\n\nIt is not necessary of course that fractions are both proper fractions:\n$$\\frac{20}{19} - \\frac{19}{19} = \\frac{1}{19} \\; .$$ or unit fractions:\n$$\\frac{3}{4} - \\frac{2}{3} = \\frac{1}{12} \\; .$$\n\nAll successive terms of some Farey sequence $F_{n}$ of a degree $n$ are\nalways adjacent fractions. In the first Farey sequence $F_{1}$ of a\ndegree 1 there are only two adjacent fractions, namely $\\frac{1}{1}$ and\n$\\frac{0}{1}$.\n\nAdjacent unit fractions can be parts of many Egyptian fractions:\n\n$$\\frac{1}{70} + \\frac{1}{71} = \\frac{141}{4970} \\; .$$",
+  "language": "INFORMAL",
+  "phrase": "Adjacent Fraction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdjacentFraction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In any geometry where a circle is defined, a collection of points are\nsaid to be *concyclic* if there is a circle that is incident with all\nthe points.\n\n**Remarks**. Suppose all points being considered below lie in a\nEuclidean plane.\n\n-   Any two points $P,Q$ are concyclic. In fact, there are infinitely\n    many circles that are incident to both $P$ and $Q$. If $P\\neq Q$,\n    then the pencil $\\mathfrak{P}$ of circles incident with $P$ and $Q$\n    share the property that their centers are collinear. It is easy to\n    see that any point on the perpendicular bisector of $\\overline{PQ}$\n    serves as the center of a unique circle in $\\mathfrak{P}$.\n\n-   Any three non-collinear points $P,Q,R$ are concyclic to a unique\n    circle $c$. From the three points, take any two perpendicular\n    bisectors, say of $\\overline{PQ}$ and $\\overline{PR}$. Then their\n    intersection $O$ is the center of $c$, whose radius is $|OP|$.\n\n-   Four distinct points $A,B,C,D$ are concyclic iff\n    $\\angle CAD=\\angle CBD$.",
+  "language": "INFORMAL",
+  "phrase": "Concyclic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Concyclic"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $L/K$ be a finite Galois extension with Galois group\n$G = \\operatorname{Gal}(L/K)$. The modern formulation of Hilbert\u2019s\nTheorem 90 states that the first Galois cohomology group $H^1(G, L^*)$\nis 0.\n\nThe original statement of Hilbert\u2019s Theorem 90 differs somewhat from the\nmodern formulation given above, and is nowadays regarded as a corollary\nof the above fact. In its original form, Hilbert\u2019s Theorem 90 says that\nif $G$ is cyclic with generator $\\sigma$, then an element $x \\in L$ has\nnorm 1 if and only if $$x = y/\\sigma(y)$$ for some $y \\in L$. Note that\nelements of the form $y/\\sigma(y)$ are obviously contained within the\nkernel of the norm map; it is the converse that forms the content of the\ntheorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HilbertTheorem90"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hilbert Theorem 90",
+    "Hilbert's Theorem 90",
+    "Satz 90"
+  ]
+}

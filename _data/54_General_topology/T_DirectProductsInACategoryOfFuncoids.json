@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "ADDED: I\u2019ve proved that subatomic product is the categorical product.\n\nThere are defined ([see my\nbook](http://www.mathematics21.org/algebraic-general-topology.html))\nseveral kinds of product of (any possibly infinite number) funcoids:\n\n1.  cross-composition product\n\n2.  subatomic product\n\n3.  displaced product\n\nThere is one more kind of product, for which it is not proved that the\nproduct of funcoids are (pointfree) funcoids:\n\n$$\\left\\langle f_1 \\times f_2 \\right\\rangle x = \\bigsqcup \\left\\{ \\left\\langle\nf_1 \\right\\rangle X \\times^{\\mathsf{\\operatorname{FCD}}} \\left\\langle f_2\n\\right\\rangle X \\hspace{1em} | \\hspace{1em} X \\in \\operatorname{atoms} x \\right\\}.$$\n\nIt is considered natural by analogy with the category [**Top**]{} of\ntopological spaces to consider this category:\n\n-   Objects are endofuncoids on small sets.\n\n-   Morphisms between a endofuncoids $\\mu$ and $\\nu$ are continuous\n    (that is corresponding to a continuous funcoid) functions from the\n    object of $\\mu$ to the object of $\\nu$.\n\n-   Composition is induced by composition of functions.\n\nIt is trivial to show that the above is really a category.\n\nThe product of functions is the same as in [**Set**]{}.",
+  "language": "INFORMAL",
+  "phrase": "Direct Products In A Category Of Funcoids",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirectProductsInACategoryOfFuncoids"
+    }
+  ],
+  "indexable": true
+}

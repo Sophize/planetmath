@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G \\subset {\\mathbb{C}}$ be a region and $\\omega \\in \\partial G$\n(the boundary of $G$). Then we call $\\omega$ a [*simple boundary\npoint*]{} if whenever $\\{ \\omega_n \\} \\subset G$ is a sequence\nconverging to $\\omega$ there is a path\n$\\gamma \\colon [0,1] \\to {\\mathbb{C}}$ such that $\\gamma(t) \\in G$ for\n$0 \\leq t < 1$, $\\gamma(1) = \\omega$ and there is a sequence\n$\\{ t_n \\} \\in [0,1)$ such that $t_n \\to 1$ and $\\gamma(t_n) = \\omega_n$\nfor all $n$.\n\nFor example if we let $G$ be the open unit disc, then every boundary\npoint is a simple boundary point. This definition is useful for studying\nboundary behaviour of Riemann maps (maps arising from the Riemann\nmapping theorem), and one can prove for example the following theorem.\n\nSuppose that $G \\subset {\\mathbb{C}}$ is a bounded simply connected\nregion such that every point in the boundary of $G$ is a simple boundary\npoint, then $\\partial G$ is a Jordan curve.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1995.",
+  "language": "INFORMAL",
+  "phrase": "Simple Boundary Point",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimpleBoundaryPoint"
+    }
+  ],
+  "indexable": true
+}

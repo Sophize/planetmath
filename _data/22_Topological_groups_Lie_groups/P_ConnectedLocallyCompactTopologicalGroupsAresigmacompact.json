@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The main result of this entry is the following theorem (whose proof is\ngiven below). The result expressed in the title then follows as a\ncorollary.\n\n[**Theorem -**]{} Every locally compact topological group $G$ has an\nopen subgroup $H$.\n\n[**Corollary 1 -**]{} Every locally compact topological group is the\ntopological disjoint union of $\\sigma$-compact spaces.\n\n[**Corollary 2 -**]{} Every connected locally compact topological group\nis $\\sigma$-compact.\n\nWe first outline the proofs of the above corollaries:\n\n[***Proof (Corollaries 1 and 2) :***]{} Let $G$ be a locally compact\ntopological group. The main theorem implies that there is an open\n$\\sigma$-compact subgroup $H$.\n\nIt is known that every open subgroup of $G$ is also closed (see this ).\nTherefore, each $gH$ is a clopen $\\sigma$-compact subset of $G$, and $G$\nis the topological disjoint union\n$\\displaystyle \\bigcup_{g \\in G}\\; gH$.\n\nOf course, if $G$ is connected then $H$ must be all of $G$. Hence, $G$\nis $\\sigma$-compact. $\\square$\n\n$\\quad$\n\n[***Proof (Theorem) :***]{} Let us fix some notation first. If $A$ is a\nsubset of $G$ we use the notation $A^{-1} := \\{ a^{-1} : a \\in A\\}$,\n$A^n : = \\{ a_1\\dots a_n : a_1, \\dots, a_n \\in A\\}$ and $\\overline{A}$\ndenotes the closure of $A$.\n\nPick a neighborhood $W$ of $e$ (the identity element of $G$) with\ncompact closure. Then $V:= W \\cap W^{-1}$ is a neighborhood of $e$ with\ncompact closure such that $V = V^{-1}$.\n\nLet $ H := \\bigcup_{n =1}^{\\infty} V^n$. $H$ is clearly a subgroup of\n$G$. We now only have to prove that $H$ is open and $\\sigma$-compact.\n\nWe have that (see this - 3, 4 and 5)\n\n-   $V^n$ is open\n\n-   $\\overline{V}^n$ is compact\n\n-   $\\overline{V}^n \\subset V^{2n}$\n\nSo $H$ is open and also $ H = \\bigcup_{n =1}^{\\infty} \\overline{V}^n$,\nwhich implies that $H$ is $\\sigma$-compact. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConnectedLocallyCompactTopologicalGroupsAresigmacompact"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "connected locally compact topological groups are $\\sigma$-compact"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "cell adjunction"
+  ],
+  "definition": "Let $X$ be a topological space, and let $Y$ be the adjunction\n$Y := X\\cup_\\varphi D^k$, where $D^k$ is a closed and\n${\\varphi\\colon{S^{k-1}\\rightarrow X}}$ is a continuous map, with\n$S^{k-1}$ is the $(k-1)$-sphere considered as the boundary of $D^k$.\nThen, we say that $Y$ is obtained from $X$ by the [*attachment of a\n$k$-cell,*]{} by the [*attaching map*]{} $\\varphi.$ The image $e^k$ of\n$D^k$ in $Y$ is called a [*closed $k$-cell*]{}, and the image\n${\\smash{\\overset{\\circ}e}}^k$ of the interior\n$${D^\\circ}:= D^k\\setminus S^{k-1}$$ of $D^k$ is the corresponding\n[*open $k$-cell*]{}.\n\nNote that for $k=0$ the above definition reduces to the statement that\n$Y$ is the disjoint union of $X$ with a one-point space.\n\nMore generally, we say that $Y$ is obtained from $X$ by [*cell\nattachment*]{} if $Y$ is homeomorphic to an adjunction\n$X\\cup_{{\\left\\{\\varphi_i\\right\\}}} D^{k_i}$, where the maps\n${{\\left\\{\\varphi_i\\right\\}}}$ into $X$ are defined on the boundary\nspheres of closed balls ${{\\left\\{D^{k_i}\\right\\}}}$.",
+  "language": "INFORMAL",
+  "phrase": "Cell Attachment",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CellAttachment"
+    }
+  ],
+  "indexable": true
+}

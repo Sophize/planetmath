@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A function $f:A\\rightarrow B$ is sometimes called a *total function*, to\nsignify that $f(a)$ is defined for every $a\\in A$. If $C$ is any set\nsuch that $C\\supseteq A$ then $f$ is also a *partial function* from $C$\nto $B$.\n\nClearly if $f$ is a function from $A$ to $B$ then it is a partial\nfunction from $A$ to $B$, but a partial function need not be defined for\nevery element of its domain. The set of elements of $A$ for which $f$ is\ndefined is sometimes called the *domain of definition*.",
+  "language": "INFORMAL",
+  "phrase": "Partial Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartialFunction"
+    }
+  ],
+  "indexable": true
+}

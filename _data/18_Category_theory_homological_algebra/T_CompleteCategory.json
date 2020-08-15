@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "finitely complete",
+    "finitely cocomplete",
+    "cocomplete"
+  ],
+  "definition": "A category $\\mathcal{C}$ is said to be a *complete category* if every\nsmall diagram has a limit, that is, a limiting cone exists over every\nsmall diagram (diagram such that collections of objects and morphisms\nare sets).\n\nOf course, in a complete category, a product exists for any given set of\nobjects. Also, a set of morphisms with common domain and codomain has an\nequalizer. Conversely, we have\n\n> in a category $\\mathcal{C}$, if the product exists for an arbitrary\n> set of objects, and the equalizer exists for any pair of morphisms\n> with common domain and codomain, then $\\mathcal{C}$ is complete.\n\n**Examples**\n\n-   **Set** is complete.\n\n-   **Group** is complete.\n\n-   **Vector Space** is complete\n\n-   **R-module** is complete for a given unital ring $R$.\n\n-   **Topological Space** is complete.\n\nA category $\\mathcal{C}$ is said to be *finitely complete* if every\nfinite diagram (sets of objects and morphisms are finite) has a limit.\n\nA similar sufficient condition for a category $\\mathcal{C}$ to be\nfinitely complete is for $\\mathcal{C}$ to possess a terminal object and\nthat a pullback exists for every pair of morphisms with common codomain.\n\n**Examples**\n\n-   Any complete category is clearly finitely complete.\n\n-   The subcategories of the above examples consisting of all objects\n    with finite cardinality are finitely complete (but not complete).\n\n**Remark**. The dual notion of a complete category is that of a\n*cocomplete category*, and the dual of a finitely complete category is\ncalled a *finitely cocomplete category*.",
+  "language": "INFORMAL",
+  "phrase": "Complete Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompleteCategory"
+    }
+  ],
+  "indexable": true
+}

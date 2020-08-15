@@ -1,0 +1,17 @@
+{
+  "argumentText": "![image](steiner)\n\nUsing $\\alpha,\\beta,\\gamma,\\delta$ to denote angles as in the diagram at\nleft, the sines law yields $$\\begin{aligned}\n\\frac{AB}{\\sin(\\gamma)}&=&\\frac{AC}{\\sin(\\beta)} \\\\\n\\frac{NB}{\\sin(\\alpha+\\delta)}&=&\\frac{NA}{\\sin(\\beta)} \\\\\n\\frac{MC}{\\sin(\\alpha+\\delta)}&=&\\frac{MA}{\\sin(\\gamma)} \\\\\n\\frac{MB}{\\sin(\\alpha)}&=&\\frac{MA}{\\sin(\\beta)} \\\\\n\\frac{NC}{\\sin(\\alpha)}&=&\\frac{NA}{\\sin(\\gamma)}\\end{aligned}$$\nDividing (2) and (3), and (4) by (5):\n$$\\frac{MA}{NA}\\frac{NB}{MC}=\\frac{\\sin(\\gamma)}{\\sin(\\beta)}=\\frac{NA}{MA}\\frac{MB}{NC}$$\nand therefore\n$$\\frac{NB\\cdot MB}{MC\\cdot NC}=\\frac{\\sin^2(\\gamma)}{\\sin^2(\\beta)}\n=\\frac{AB^2}{AC^2}$$ by (1).",
+  "conclusion": "#P_SteinersTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfSteinersTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Steiner's theorem"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Cantor space is an example of a compact and uncountable Polish space. In\nfact, every uncountable Polish space contains Cantor space, as stated by\nthe following theorem.\n\nLet $X$ be an uncountable Polish space. Then, it contains a subset $S$\nwhich is homeomorphic to Cantor space.\n\nFor example, the set $\\mathbb{R}$ of real numbers contains the . Note\nthat, being homeomorphic to Cantor space, $S$ must be a compact and\nhence closed subset of $X$. The result is trivial in the case of Baire\nspace $\\mathcal{N}$, in which case we may take $S$ to be the set of all\n$s\\in\\mathcal{N}$ satisfying $s_n\\in\\{1,2\\}$ for all $n$. Then, for any\nuncountable Polish space $X$ there exists a continuous and one-to-one\nfunction $f\\colon\\mathcal{N}\\to X$ (see ). Then $f$ gives a continuous\nbijection from $S$ to $f(S)$. The implies that $f$ is a homeomorphism\nbetween $S$ and $f(S)$ and, therefore, $f(S)$ is homeomorphic to Cantor\nspace.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UncountablePolishSpacesContainCantorSpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "uncountable Polish spaces contain Cantor space"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $\\mathcal{A}$ be a complex Banach algebra with\nidentity element. The spectrum of each $a \\in \\mathcal{A}$ is a\nnon-empty compact set in $\\mathbb{C}$.\n\n$\\emph{Remark}$ : For Banach algebras over $\\mathbb{R}$ the spectrum of\nan element is also a compact set, although it can be empty. To assure\nthat it is not the empty set, proofs usually involve for of a complex\nwith values in a Banach algebra.\n\n[***Proof :***]{} Let $e$ be the identity element of $\\mathcal{A}$. Let\n$\\sigma(a)$ denote the spectrum of the element $a \\in \\mathcal{A}$.\n\n-   [ **-**]{} For each $\\lambda \\in \\mathbb{C}$ such that\n    $|\\lambda| > \\|a\\|$ one has $\\|\\lambda^{-1}a\\|<1$, and so, by the ,\n    $e-\\lambda^{-1}a$ is invertible. Since\n    $$a-\\lambda e=-\\lambda(e-\\lambda^{-1}a)$$ we see that $a-\\lambda e$\n    is also invertible.\n\n    We conclude that $\\sigma(a)$ is contained in a disk of radius\n    $\\|a\\|$, and therefore it is bounded.\n\n    Let $\\phi : \\mathbb{C} \\longrightarrow \\mathcal{A}$ be the function\n    defined by $$\\phi(\\lambda) = a - \\lambda e$$\n\n    It is known that the set $\\mathcal{G}$ of the invertible elements of\n    $\\mathcal{A}$ is open (see ).\n\n    Since $\\phi^{-1}(\\mathcal{G})=\\mathbb{C}-\\sigma(a)$ and $\\phi$ is a\n    continuous function we see that that $\\sigma(a)$ is a closed set in\n    $\\mathbb{C}$.\n\n    As $\\sigma(a)$ is a bounded closed subset of $\\mathbb{C}$, it is\n    compact.\n\n-   [**Non-emptiness -**]{} Suppose that $\\sigma(a)$ was empty. Then the\n    resolvent $R_a$ is defined in $\\mathbb{C}$.\n\n    We can see that $R_a$ is bounded since it is continuous in the\n    closed disk $|\\lambda|<\\|a\\|$ and, for $\\lambda >\\|a\\|$, we have\n    (again, by the ) $$\\begin{aligned}\n    \\|R_a(\\lambda)\\| & = & \\|(a-\\lambda e)^{-1}\\| \\\\ \n    & = & \\|\\lambda^{-1}(e-\\lambda^{-1}a)^{-1}\\| \\\\ \n    & \\leq & \\frac{|\\lambda|^{-1}}{1-|\\lambda|^{-1}\\|a\\|} \\\\\n    & = & \\frac{1}{|\\lambda|-\\|a\\|}\\end{aligned}$$ and therefore\n    $\\displaystyle \\lim_{|\\lambda| \\rightarrow \\infty} R_a(\\lambda) = 0$,\n    which shows that $R_a$ is bounded.\n\n    The resolvent function, $R_a$, is (see ). As it is defined in\n    $\\mathbb{C}$, it is a bounded entire function. Applying we conclude\n    that it must be constant (see this for an idea of how holds for\n    Banach space valued functions).\n\n    Since $R_a(\\lambda)$ converges to $0$ as\n    $|\\lambda| \\rightarrow \\infty$ we see that $R_a$ must be identically\n    zero.\n\n    Thus, we have arrived to a contradiction since $0$ is not\n    invertible.\n\n    Therefore $\\sigma(a)$ is non-empty.$\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpectrumIsANonemptyCompactSet"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "spectrum is a non-empty compact set"
+  ]
+}

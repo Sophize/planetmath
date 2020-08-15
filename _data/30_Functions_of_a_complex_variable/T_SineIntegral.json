@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "sinus integralis",
+    "Si"
+  ],
+  "definition": "The function [*sine integral*]{} (in Latin [*sinus integralis*]{}) from\n$\\mathbb{R}$ to $\\mathbb{R}$ is defined as $$\\begin{aligned}\n\\mbox{Si }{x} \\;:=\\; \\int_0^x\\frac{\\sin t}{t}\\,dt = \n\\int_0^x\\mbox{sinc}(t)\\;dt,\\end{aligned}$$ or alternatively as\n$$\\mbox{Si }{x} \\,:=\\,  \\int_0^1\\frac{\\sin{tx}}{t}\\,dt.$$\n\nIt isn\u2019t an elementary function. The equation (1) implies the Taylor\nseries\n$$\\mbox{Si }{z} = z\\!-\\!\\frac{z^3}{3\\!\\cdot\\!3!}\\!+\\!\\frac{z^5}{5\\!\\cdot\\!5!}\n                \\!-\\!\\frac{z^7}{7\\!\\cdot\\!7!}\\!+-\\ldots,$$ which\nconverges for all complex values $z$ and thus defines an entire\ntranscendental function.\\\n$\\mbox{Si }{x}$ satisfies the linear third differential equation\n$$xf'''(x)\\!+\\!2f''(x)\\!+\\!xf'(x) =  0.$$\n\n![image](sinint)\n\n**Remark 1.** $\\lim_{x\\to\\infty}\\mbox{Si }{x} = \\frac{\\pi}{2}$\\\n**Remark 2.** There is also another \u201csine integral\u201d\n$$\\mbox{si }{x}\\; :=\\; \\int_\\infty^x\\frac{\\sin t}{t}\\,dt\\; =\\; \\mbox{Si }{x}-\\frac{\\pi}{2}$$\nand the corresponding [*cosine integral*]{}\n$$\\mbox{ci }{x} \\;:=\\; \\int_\\infty^x\\frac{\\cos t}{t}\\,dt = \\gamma\\!+\\ln{x}+\\!\\int_0^x\\frac{\\cos{t}\\!-\\!1}{t}\\,dt$$\nwhere $\\gamma$ is the .",
+  "language": "INFORMAL",
+  "phrase": "Sine Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SineIntegral"
+    }
+  ],
+  "indexable": true
+}

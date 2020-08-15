@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "vector product"
+  ],
+  "definition": "The vector product can be defined in any finite dimensional vector space\n$V$ with $\\dim V=n$. Let $v_1,\\dots,v_n$ be a basis of $V$, we then\ndefine the vector product of the vectors $w_1,\\dots,w_{n-1}$ in the\nfollowing way:\n$$w_1\\times\\dots\\times w_{n-1}=\\sum_{j=1}^nv_j\\det(w_1,\\dots,w_{n-1},v_j).$$\nOne can easily see that some of the properties of the vector product are\nthe same as in $\\mathbb{R}^3$:\n\n-   If one of the $w_i$ is equal to $0$, then the vector product is $0$.\n\n-   If $w_i$ are linearly dependent, then the vector product is $0$.\n\n-   In a Euclidean vector space $w_1\\times\\dots\\times w_{n-1}$ is\n    perpendicular to all $w_i$.",
+  "language": "INFORMAL",
+  "phrase": "Vector Product In General Vector Spaces",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VectorProductInGeneralVectorSpaces"
+    }
+  ],
+  "indexable": true
+}

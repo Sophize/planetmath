@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem.**]{} If $U$ is a non-empty open set in ${\\mathbb{R}}^n$,\nthen the set of smooth functions with compact support $C^\\infty_0(U)$ is\nnon-trivial (that is, it contains functions other than the zero\nfunction).\n\n*Remark.* This theorem may seem to be obvious at first sight. A way to\nnotice that it is not so obvious, is to formulate it for analytic\nfunctions with compact support: in that case, the result does not hold;\nin fact, there are no nonconstant analytic functions with compact\nsupport at all. One important consequence of this theorem is the\nexistence of partitions of unity.\n\n*Proof of the theorem:* Let us first prove this for $n=1$: If $a<b$ be\nreal numbers, then there exists a smooth non-negative function\n$f:{\\mathbb{R}}\\to {\\mathbb{R}}$, whose is the compact set $[a,b]$.\n\nTo see this, let $\\phi\\colon {\\mathbb{R}}\\to {\\mathbb{R}}$ be the\nfunction defined on , and let $$f(x) = \\phi(x-a) \\phi(b-x).$$ Since\n$\\phi$ is smooth, it follows that $f$ is smooth. Also, from the\ndefinition of $\\phi$, we see that $\\phi(x-a)=0$ precisely when $x\\le a$,\nand $\\phi(b-x)=0$ precisely when $x\\ge b$. Thus the support of $f$ is\nindeed $[a,b]$.\n\nSince $U$ is non-empty and open there exists an $x\\in U$ and\n$\\varepsilon>0$ such that $B_\\varepsilon(x)\\subseteq U$. Let $f$ be\nsmooth function such that\n$\\operatorname{supp} f =[-\\varepsilon/2,\\varepsilon/2]$, and let\n$$h(z) = f(\\Vert x-z \\Vert^2).$$ Since $\\lVert\\cdot \\rVert^2$ (Euclidean\nnorm) is smooth, the claim follows. $\\Box$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Cinfty0UIsNotEmpty"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$C^\\infty_0(U)$ is not empty"
+  ]
+}

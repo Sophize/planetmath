@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a smooth manifold, $X$ a vector field on $M$, and $T$ a\ntensor on $M$. Then the [*Lie derivative*]{} ${\\mathcal{L}}_XT$ of $T$\nalong $X$ is a tensor of the same rank as $T$ defined as\n$${\\mathcal{L}}_XT=\\frac{d}{dt}\\left(\\rho^*_t(T)\\right)|_{t=0}$$ where\n$\\rho$ is the flow of $X$, and $\\rho^*_t$ is pullback by $\\rho_t$.\n\nThe Lie derivative is a notion of directional derivative for tensors.\nIntuitively, this is the change in $T$ in the direction of $X$.\n\nIf $X$ and $Y$ are vector fields, then ${\\mathcal{L}}_XY=[X,Y]$, the\nstandard Lie bracket of vector fields.",
+  "language": "INFORMAL",
+  "phrase": "Lie Derivative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LieDerivative"
+    }
+  ],
+  "indexable": true
+}

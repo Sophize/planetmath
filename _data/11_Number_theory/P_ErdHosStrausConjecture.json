@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In 1948, Paul Erd\u0151s and Ernst Straus conjectured that for an integer\n$n > 1$ there is always a solution to\n$$\\frac{4}{n} = \\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}$$ where $a$, $b$\nand $c$ are integers in the relation $0 < a \\le b \\le c$. This is the\n[*Erd\u0151s-Straus* ]{}. Put another way, $\\frac{4}{n}$ can be rewritten as\na sum of three unit fractions. The three unit fractions need not be\ndistinct, but some people consider solutions with distinct unit\nfractions to be more elegant. It is believed that for all $n > 4$\nsolutions with distinct unit fractions are possible.\n\nAs with any conjecture, a single counterexample is enough to disprove,\nbut no multitude of examples is enough to prove. With brute force\ncomputer calculations, Allan Swett has obtained examples for all\n$n < 10^{14}$. Because of the Hasse principle of Diophantine equations,\nwe can be sure that for semiprimes $pq$ (where $p$ and $q$ are distinct\nprimes) a solution can be found by looking at $\\frac{4}{p}$ or\n$\\frac{4}{q}$. Researchers are therefore certain that if a\ncounterexample exists, it is surely a prime number. Thus Swett has only\nmade available the raw data only for selected prime $n$ rather than for\nall $n$ he tested.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ErdHosStrausConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Erd\\H{o}s-Straus conjecture",
+    "Erd\\\"os-Straus conjecture",
+    "Erdos-Straus conjecture",
+    "Erdos-Strauss conjecture"
+  ]
+}

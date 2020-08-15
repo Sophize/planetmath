@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $R$ is a search problem then $c_R(x)=|\\{y\\mid R(x)\\}|$ is the\ncorresponding counting function and $\\#R=\\{(x,y)\\mid y\\leq c_R(x)\\}$\ndenotes the corresponding *counting problem*. Note that $c_R$ is a\nsearch problem while $\\#R$ is a decision problem, however $c_R$ can be\n$\\mathcal{C}$ Cook reduced to $\\#R$ (for appropriate $\\mathcal{C}$)\nusing a binary search (the reason $\\#R$ is defined the way it is, rather\nthan being the graph of $c_R$, is to make this binary search possible).",
+  "language": "INFORMAL",
+  "phrase": "Counting Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CountingProblem"
+    }
+  ],
+  "indexable": true
+}

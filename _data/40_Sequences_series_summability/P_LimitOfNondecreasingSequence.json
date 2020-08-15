@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** A monotonically nondecreasing sequence of real numbers with\nupper bound a number $M$ converges to a limit which does not exceed $M$.\n\n[*Proof.*]{} Let\n$a_1 \\leqq a_2 \\leqq \\ldots \\leqq a_n \\leqq \\ldots \\leqq M$. Therefore\nthe set $\\{a_1,\\,a_2,\\,\\ldots\\}$ has a finite supremum $s \\leqq M$. We\nshow that $$\\begin{aligned}\n\\lim_{n\\to\\infty}a_n \\;=\\; s.\\end{aligned}$$ Let $\\varepsilon$ an\narbitrary positive number. According to the definition of supremum we\nhave $a_n \\leqq s$ for all $n$ and on the other hand, there exists a\nmember $a_{n(\\varepsilon)}$ of the sequence that is $> s-\\varepsilon$.\nThen we have $s-\\varepsilon < a_{n(\\varepsilon)} \\leqq s$, and since the\nsequence is nondecreasing,\n$$0 \\;\\leqq\\; s-a_n \\;\\leqq\\; s\\!-\\!a_{n(\\varepsilon)} \\;<\\; \\varepsilon \\quad \\mbox{for all}\\;\\, n \\geqq n(\\varepsilon).$$\nThus the equation (1) and the whole theorem has been proven.\\\nFor the nonincreasing sequences there is the corresponding\n\n**Theorem.** A monotonically nonincreasing sequence of real numbers with\nlower bound a number $L$ converges to a limit which is not less than\n$L$.\\\n**Note.** A good application of the latter theorem is in the proof that\nEuler\u2019s constant exists.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitOfNondecreasingSequence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "limit of nondecreasing sequence",
+    "nondecreasing sequence with upper bound",
+    "limit of increasing sequence"
+  ]
+}

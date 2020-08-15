@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f$ be a polynomial in two variables, viz.\n$f(x,y) = \\sum_{i,j} a_{ij}x^i y^j$.[^1]\n\nThen the *total degree* of $f$ is given by:\n$$\\mathrm{deg} f = \\sup\\{i+j | a_{ij} \\neq 0\\}$$ Note the degree of the\nzero-polynomial is $-\\infty$, since $\\sup\\emptyset$ (per definition) is\n$-\\infty$, thus $\\mathrm{deg} f \\in \\mathbb{N}\\cup\\{0\\}\\cup\\{-\\infty\\}$.\n\nSimilarly the *order* of $f$ is given by:\n$$\\mathrm{ord} f = \\inf\\{i+j | a_{ij} \\neq 0\\}$$ Note the order of the\nzero-polynomial is $\\infty$ (because $\\inf\\emptyset = \\infty$). Thus\n$\\mathrm{ord} f \\in \\mathbb{N}\\cup\\{0\\}\\cup\\{\\infty\\}$.\n\nPlease note that the term order is not as common as degree. In fact, it\nis perhaps more frequently associated with power series (a form of\ngeneralized polynomials) than with ordinary polynomials. Also be aware\nthat the term order occasionally is used as a synonym for degree.\n\n[^1]: In order to simplify the notation, the definition is given in\n    terms of a polynomial in two variables, however the definition\n    naturally scales to any number of variables.",
+  "language": "INFORMAL",
+  "phrase": "Order And Degree Of Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderAndDegreeOfPolynomial"
+    }
+  ],
+  "indexable": true
+}

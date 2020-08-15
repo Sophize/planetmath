@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $R$ is a commutative ring, then the following three conditions are\nequivalent:\n\n-   For all ideals $\\mathfrak{a}$, $\\mathfrak{b}$ and $\\mathfrak{c}$ of\n    $R$, one has $\\mathfrak{a\\cap(b+c) = (a\\cap b)+(a\\cap c)}$.\n\n-   For all ideals $\\mathfrak{a}$, $\\mathfrak{b}$ and $\\mathfrak{c}$ of\n    $R$, one has $\\mathfrak{a+(b\\cap c) = (a+b)\\cap(a+c)}$.\n\n-   For each maximal ideal $\\mathfrak{p}$ of $R$ the set of all ideals\n    of $R_{\\mathfrak{p}}$, the of $R$ at $R\\!\\setminus\\!\\mathfrak{p}$,\n    is totally ordered by set inclusion.\n\nThe ring $R$ satisfying the conditions of the theorem is called an\n[*arithmetical ring*]{}.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArithmeticalRing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "arithmetical ring"
+  ]
+}

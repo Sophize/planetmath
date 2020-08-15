@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathbb{F}}$ be either the real or complex numbers.\n\nLet $p \\colon {\\mathbb{F}}^n \\to {\\mathbb{F}}$ be a polynomial in $n$\nvariables and take integers $d_1, d_2, \\ldots, d_n$. The polynomial $p$\nis said to be [*weighted homogeneous of degree $k$*]{} if for all\n$t > 0$ we have\n$$p(t^{d_1} x_1,t^{d_2} x_2,\\ldots,t^{d_n} x_n) = t^k p(x_1,x_2,\\ldots,x_n) .$$\nThe $d_1,\\ldots,d_n$ are called the [*weights*]{} of the variables\n$x_1,\\ldots,x_n$.\n\nNote that if $d_1 = d_2 = \\ldots = d_n = 1$ then this definition is the\nstandard homogeneous polynomial.",
+  "language": "INFORMAL",
+  "phrase": "Weighted Homogeneous Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeightedHomogeneousPolynomial"
+    }
+  ],
+  "indexable": true
+}

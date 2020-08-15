@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** The only positive integers, whose Briggsian logarithms are\nrational, are the $1,\\,10,\\,100,\\,\\ldots$ of ten. The logarithms of\nother positive integers are thus irrational (in fact, transcendental\nnumbers). The same concerns also the Briggsian logarithms of the\npositive fractional numbers.\\\n[*Proof.*]{} Let $a$ be a positive integer such that\n$$\\lg{a} = \\frac{m}{n} \\in \\mathbb{Q},$$ where $m$ and $n$ are positive\nintegers. By the definition of logarithm, we have\n$\\displaystyle10^{\\frac{m}{n}} = a$, which is to\n$$10^m = 2^m\\cdot 5^m = a^n.$$ According to the fundamental theorem of\narithmetics, the integer $a^n$ must have exactly $m$ prime divisors $2$\nand equally many prime divisors $5$. This is not possible otherwise than\nthat also $a$ itself consists of a same amount of prime divisors 2 and\n5, i.e. the number $a$ is an integer power of 10.\n\nAs for any rational number $\\displaystyle\\frac{a}{b}$ (with\n$a,\\,b \\in \\mathbb{Z}_+$), if one had\n$$\\lg{\\frac{a}{b}} = \\frac{m}{n} \\in \\mathbb{Q},$$ then\n$$\\left(\\frac{a}{b}\\right)^n = 10^m,$$ and it is apparent that the\nrational number $\\displaystyle\\frac{a}{b}$ has to be an integer, more\naccurately a power of ten. Therefore the logarithms of all fractional\nnumbers are irrational.\\\n**Note.** An analogous theorem concerns e.g. the binary logarithms\n($\\operatorname{lb}{a}$). As for the natural logarithms of positive\nrationals ($\\ln{a}$), they all are transcendental numbers except\n$\\ln1 = 0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RationalBriggsianLogarithmsOfIntegers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "rational Briggsian logarithms of integers"
+  ]
+}

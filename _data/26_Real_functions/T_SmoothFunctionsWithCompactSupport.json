@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Let $U$ be an open set in ${\\mathbb{R}}^n$. Then the\nset of [**smooth functions with compact support**]{} (in $U$) is the set\nof functions $f:{\\mathbb{R}}^n \\to {\\mathbb{C}}$ which are smooth (i.e.,\n$\\partial^\\alpha f:{\\mathbb{R}}^n\\to{\\mathbb{C}}$ is a continuous\nfunction for all multi-indices $\\alpha$) and $\\operatorname{supp} f$ is\ncompact and contained in $U$. This function space is denoted by\n$C^\\infty_0(U)$.\n\n### Remarks\n\n1.  A proof that $C^\\infty_0(U)$ is non-trivial (that is, it contains\n    other functions than the zero function) can be found .\n\n2.  With the usual point-wise addition and point-wise multiplication by\n    a scalar, $C^\\infty_0(U)$ is a vector space over the field\n    ${\\mathbb{C}}$.\n\n3.  Suppose $U$ and $V$ are open subsets in ${\\mathbb{R}}^n$ and\n    $U\\subset V$. Then $C^\\infty_0(U)$ is a vector subspace of\n    $C^\\infty_0(V)$. In particular,\n    $C^\\infty_0(U)\\subset C^\\infty_0(V)$.\n\nIt is possible to equip ${C^\\infty_0}(U)$ with a topology, which makes\n${C^\\infty_0}(U)$ into a locally convex topological vector space. The\nidea is to exhaust $U$ with compact sets. Then, for each compact set\n$K\\subset U$, one defines a topology of smooth functions on $U$ with\nsupport on $K$. The topology for $C_0^\\infty(U)$ is the inductive limit\ntopology of these topologies. See e.g. [@rudin_fap].\n\n[9]{} W. Rudin, *Functional Analysis*, McGraw-Hill Book Company, 1973.",
+  "language": "INFORMAL",
+  "phrase": "Smooth Functions With Compact Support",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SmoothFunctionsWithCompactSupport"
+    }
+  ],
+  "indexable": true
+}

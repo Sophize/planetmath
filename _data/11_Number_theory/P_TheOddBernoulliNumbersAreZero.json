@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Recall that, for $k\\geq 0$, the Bernoulli numbers $B_k$ are defined as\nthe coefficients in the Taylor expansion: $$\\begin{aligned}\n\\label{ber} \\frac{t}{e^t-1}=\\sum_{k\\geq 0} B_k \\frac{t^k}{k!}.\\end{aligned}$$\nJust to name a few:\n$$B_0=1,\\quad B_1=-\\frac{1}{2},\\quad B_2=\\frac{1}{6},\\quad B_3=0,\\quad B_4=-\\frac{1}{30},\\ B_5=0,\\ldots,\\ B_{10}=\\frac{5}{66},\\ldots$$\n\nIf $k\\geq 3$ is odd then $B_k=0$.\n\nFrom the right hand side of (\\[ber\\]) we extract the term corresponding\nto $k=1$: $$\\begin{aligned}\n\\label{ber2} \\frac{t}{e^t-1}=-\\frac{t}{2}+\\sum_{k\\geq 0,\\ k\\neq 1} B_k \\frac{t^k}{k!}.\\end{aligned}$$\nThus: $$\\begin{aligned}\n\\label{ber21} \\frac{t}{e^t-1}+\\frac{t}{2}=\\sum_{k\\geq 0,\\ k\\neq 1} B_k \\frac{t^k}{k!}\\end{aligned}$$\nand the left hand side can be rewritten as: $$\\begin{aligned}\n\\label{ber3} \\frac{t}{e^t-1}+\\frac{t}{2}= \\frac{2t+t(e^t-1)}{2(e^t-1)} =\n\\frac{t}{2}\\cdot \\frac{e^t+1}{e^t-1}=\\frac{t}{2} \\cdot \\frac{e^{t/2}+e^{-t/2}}{e^{t/2}-e^{-t/2}}.\\end{aligned}$$\nHence, if one replaces $t$ by $-t$ then (\\[ber3\\]) is unchanged. Since\n(\\[ber3\\]) is the left hand side of (\\[ber21\\]), the quantity\n$$\\sum_{k\\geq 0,\\ k\\neq 1} B_k \\frac{t^k}{k!}$$ is also unchanged when\n$t$ is exchanged by $-t$, and so we must have $B_k=(-1)^kB_k$ for\n$k\\neq 1$. We conclude that if $k\\geq 3$ and $k$ is odd, $B_k=0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheOddBernoulliNumbersAreZero"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the odd Bernoulli numbers are zero"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "#### Informal summary.\n\nThe curvature and torsion of a space curve are invariant with respect to\nEuclidean motions. Conversely, a given space curve is determined up to a\nEuclidean motion, by its curvature and torsion, expressed as functions\nof the arclength.\n\n#### Theorem.\n\nLet ${\\boldsymbol{\\gamma}}:I\\to{\\mathbb{R}}$ be a regular, parameterized\nspace curve, without points of inflection. Let $\\kappa(t), \\tau(t)$ be\nthe corresponding curvature and torsion functions. Let\n$T:{\\mathbb{R}}^3\\to{\\mathbb{R}}^3$ be a Euclidean isometry. The\ncurvature and torsion of the transformed curve\n$T({\\boldsymbol{\\gamma}}(t))$ are given by $\\kappa(t)$ and $\\tau(t)$,\nrespectively.\n\nConversely, let $\\kappa,\\tau:I\\to{\\mathbb{R}}$ be continuous functions,\ndefined on an interval $I\\subset{\\mathbb{R}}$, and suppose that\n$\\kappa(t)$ never vanishes. Then, there exists an arclength\nparameterization ${\\boldsymbol{\\gamma}}:I\\to{\\mathbb{R}}$ of a regular,\noriented space curve, without points of inflection, such that\n$\\kappa(t)$ and $\\tau(t)$ are the corresponding curvature and torsion\nfunctions. If $\\hat{{\\boldsymbol{\\gamma}}}:I\\to{\\mathbb{R}}$ is another\nsuch space curve, then there exists a Euclidean isometry\n$T:{\\mathbb{R}}^3\\to{\\mathbb{R}}^3$ such that\n$\\hat{{\\boldsymbol{\\gamma}}}(t) = T({\\boldsymbol{\\gamma}}(t)).$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalTheoremOfSpaceCurves"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fundamental theorem of space curves"
+  ]
+}

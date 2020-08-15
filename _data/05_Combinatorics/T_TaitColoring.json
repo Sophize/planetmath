@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [**Tait coloring**]{} of a (aka cubic) graph is a coloring of its\nedges with only three colors, such that at each vertex the colors of the\nthree edges there are different. After Peter\u00a0G.\u00a0Tait (1831\u20131901),\nScottish physicist, who in 1880 proved the following\n\n[**Theorem (Tait)**]{}$\\quad$ A bridge-free trivalent plane graph can be\nface-colored with 4 colors if and only if it can be edge-colored with 3\ncolors.\n\nThis has a [**proof of the theorem**]{}.\n\nTo put this in a modern context, [**Vizing\u2019s theorem**]{} says that\ngraphs $G$ fall into two classes: those that can be colored with\n$\\Delta(G)$ colors and those that need $\\Delta(G)+1$ colors, where\n$\\Delta(G)$ is the largest valency that occurs in $G$. When applied to\ntrivalent graphs that means 3 and 4 colors, respectively. It is known\nthat \u201calmost all\u201d are in the first class \u2014 this expression has a\ntechnical meaning (for increasing graph size, the proportion of them in\nthe second class tends to zero).\n\nThanks to Tait\u2019s result, it is a corollary of the [**four-color\ntheorem**]{} that all planar trivalent graphs are in the first class\n(can be edge-3-colored). The converse is not the case. Many trivalent\ngraphs, in fact almost all of them, can be edge-3-colored and yet are\nnot planar. $K_{3,3}$ is one example.\n\nThe Petersen graph is an example of a trivalent graph that needs 4\ncolors.",
+  "language": "INFORMAL",
+  "phrase": "Tait Coloring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TaitColoring"
+    }
+  ],
+  "indexable": true
+}

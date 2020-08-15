@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry, we show that the arithmetic-geometric mean converges. By\nthe arithmetic-geometric means inequality, we know that the sequences of\narithmetic and geometric means are both monotonic and bounded, so they\nconverge individually. What still needs to be shown is that they\nconverge to the same limit.\n\nDefine $x_n = a_n / g_n$. By the arithmetic-geometric inequality, we\nhave $x_n \\ge 1$. By the defining recursions, we have $$x_{n+1} =\n{a_{n+1} \\over g_{n+1}} =\n{a_n + g_n \\over 2 \\sqrt{a_n g_n}} =\n{1 \\over 2}\n\\left(\n\\sqrt{a_n \\over g_n} + \\sqrt{g_n \\over a_n}\n\\right) =\n{1 \\over 2}\n\\left(\n\\sqrt{x_n} + \n{1 \\over \\sqrt{x_n}}\n\\right)$$ Since $x_n \\ge 1$, we have $1 / \\sqrt{x_n} \\le 1$, and\n$\\sqrt{x_n} \\le x_n$, hence $$x_{n+1} - 1 =\n{1 \\over 2}\n\\left(\n\\sqrt{x_n} + \n{1 \\over \\sqrt{x_n}}\n-2\n\\right) \\le\n{1 \\over 2}\n({x_n} + 1-2) \\le\n{1 \\over 2}\n(x_n - 1) .$$ From this inequality $$0 \\le x_{n+1} - 1 \\le\n{1 \\over 2} (x_n - 1) ,$$ we may conclude that $x_n \\to 1$ as\n$n \\to \\infty$, which , by the definition of $x_n$, is equivalent to\n$$\\lim_{n \\to \\infty} g_n =\n\\lim_{n \\to \\infty} a_n .$$\n\nNot only have we proven that the arithmetic-geometric mean converges,\nbut we can infer a rate of convergence from our proof. Namely, we have\nthat $0 \\le x_n - 1 \\le (x_0 - 1) \n/ 2^n$. Hence, we see that the rate of convergence of $a_n$ and $g_n$ to\nthe answer goes as $O(2^{-n})$.\n\nBy more carefully bounding the recursion for $x_n$ above, we may obtain\nbetter estimates of the rate of convergence. We will now derive an\ninequality. Suppose that $y \\ge 0$. $$\\begin{aligned}\n0 &\\le y^5 + y^4 + 4 y^3 + 3 y^2 \\\\\ny^2 + 4 y + 4 &\\le y^5 + y^4 + 4 y^3 + 4 y^2 + 4 y + 4 \\\\\n(y + 2)^2 &\\le (y + 1) (y^2 + 2)^2\\end{aligned}$$ Set $x = y + 1$ (so we\nhave $x \\ge 1$). $$\\begin{aligned}\n(x + 1)^2 &\\le x ( (x - 1)^2 + 2)^2 \\\\\nx &\\le {x^2 ( (x - 1)^2 + 2)^2 \\over (x + 1)^2} \\\\\n\\sqrt{x} &\\le {x ((x - 1)^2 + 2) \\over x + 1} \\\\\n{x + 1 \\over x} \\sqrt{x} &\\le (x - 1)^2 + 2 \\\\\n{1 \\over 2}\n\\left(\n\\sqrt{x} + {1 \\over \\sqrt{x}}\n\\right) &\\le\n1 + {1 \\over 2} (x - 1)^2\\end{aligned}$$ Thus, because\n$x_{n+1} = (\\sqrt{x_n} + 1 /\\sqrt{x_n})/2$, we have\n$$x_{n+1} - 1 \\le {1 \\over 2} (x_n - 1)^2 .$$ From this equation, we may\nderive the bound $$x_n -1 \\le \\frac{1}{2^{2^n-1}} (x_0 - 1)^{2^n} .$$\nThis is a much better bound! It approaches zero far more rapidly than\nany exponential function, so we have superlinear convergence.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvergenceOfArithmeticgeometricMean"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "convergence of arithmetic-geometric mean"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "*Theorem.* Let\n$\\displaystyle \\left(c_\\gamma \\right)_{\\gamma \\in \\Gamma}$ be an indexed\nfamily of cardinal numbers indexed by a nonempty index set $\\Gamma$.\nAlso, let\n$\\displaystyle \\left({\\Gamma}_\\delta\\right)_{\\delta \\in \\Delta}$ be an\narbitrary indexed partition of the index set. Then we have the following\nproperties:\n\n1\\. *Associative Laws.*\n$$\\sum_{\\gamma \\in \\Gamma}{c_\\gamma} = \\sum_{\\delta \\in \\Delta} \\sum_{\\gamma \\in {\\Gamma}_\\delta}{c_\\gamma}$$\n\nand\n\n$$\\prod_{\\gamma \\in \\Gamma}{c_\\gamma} = \\prod_{\\delta \\in \\Delta} \\prod_{\\gamma \\in {\\Gamma}_\\delta}{c_\\gamma}.$$\n\n2\\. *Commutative Laws.* Let $\\displaystyle \\pi :\\Gamma \\to \\Gamma$ be a\npartition. Then\n$$\\sum_{\\gamma \\in \\Gamma}{c_\\gamma} =  \\sum_{\\gamma \\in {\\Gamma}}{c_{\\pi(\\gamma)}}$$\n\nand\n\n$$\\prod_{\\gamma \\in \\Gamma}{c_\\gamma} =  \\prod_{\\gamma \\in {\\Gamma}}{c_{\\pi(\\gamma)}}.$$\n\n3\\. *Distributive Laws.* Let $a$ be any arbitrary infinite cardinal\nnumber. Then\n$$a \\left({\\sum_{\\gamma \\in \\Gamma}{c_\\gamma}}\\right) = \\sum_{\\gamma \\in \\Gamma}{a c_\\gamma}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertiesOfCardinalNumbers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "properties of cardinal numbers"
+  ]
+}

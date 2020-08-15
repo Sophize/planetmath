@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Motzkin number*]{} for a given number $n$ is the number of different\nways of drawing non-intersecting chords on a circle between $n$ points.\nThe Motzkin numbers have very diverse applications in geometry,\ncombinatorics and number theory. The first few Motzkin numbers are 1, 1,\n2, 4, 9, 21, 51, 127, 323, 835, (sequence A001006 in the OEIS).\n\nThe Motzkin number for $n$ is also the number of positive integer\nsequences $n - 1$ long in which the opening and ending elements are\neither 1 or 2, and the difference between any two consecutive elements\nis -1, 0 or 1.\n\nAlso on the upper right quadrant of a grid, the Motzkin number for $n$\ngives the number of routes from coordinate (0, 0) to coordinate ($n$, 0)\nif one is allowed to move only to the right (either up, down or\nstraight) at each step but forbidden from dipping below the $y = 0$\naxis.\n\nAll together, there are at least fourteen different manifestations of\nMotzkin numbers in different branches of mathematics, as enumerated by\nDonaghey and Shapiro in their 1977 survey of Motzkin numbers.",
+  "language": "INFORMAL",
+  "phrase": "Motzkin Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MotzkinNumber"
+    }
+  ],
+  "indexable": true
+}

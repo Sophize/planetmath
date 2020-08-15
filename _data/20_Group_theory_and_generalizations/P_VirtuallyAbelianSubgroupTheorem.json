@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let us suppose that $G$ is virtually abelian and $H$ is an abelian\nsubgroup of $G$ with a the finite right coset partition\n$$G=He\\sqcup Hx_2\\sqcup...\\sqcup Hx_q,\\eqno{(*)}$$ so if $K$ is any\nother subgroup in $G$ we are going to prove:\n\n[*$K$ is also virtually abelian*]{}\n\n> [**Proof**]{}: From $(*)$ above we have\n> $$K=K\\cap G=K\\cap(He\\sqcup Hx_2\\sqcup...\\sqcup Hx_q),$$\n> $$=(K\\cap H)\\sqcup(K\\cap Hx_2)\\sqcup...\\sqcup(K\\cap Hx_q).\\eqno{(**)}$$\n>\n> Here we consider the two cases:\\\n> 1) $x_i\\in K$\\\n> 2) $x_j\\notin K$\n>\n> In the first case $K=Kx_i$, and then\n> $K\\cap Hx_i=Kx_i\\cap Hx_i=(K\\cap H)x_i$. In the second, find\n> $y_j\\in K\\cap Hx_j$ hence $K\\cap Hx_j=Ky_j\\cap Hy_j=(K\\cap H)y_j$\n>\n> So, in the equation $(**)$ above we can replace (reordering\n> subindexation perhaps) to get\n> $$K=\\underbrace{(K\\cap H)\\sqcup(K\\cap H)x_2\\sqcup...\\sqcup(K\\cap H)x_s}_{1)}\n> \\sqcup\\underbrace{(K\\cap H)y_{s+1}\\sqcup...\\sqcup(K\\cap H)y_q}_{2)}$$\n> relation which shows that the index $[K:K\\cap H]\\le [G:H]$.\n>\n> It could be $<$ since it is posible that $K\\cap Hx_r=\\emptyset$ for\n> some indexes $r$ $\\Box$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VirtuallyAbelianSubgroupTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "virtually abelian subgroup theorem",
+    "subgroup theorem"
+  ]
+}

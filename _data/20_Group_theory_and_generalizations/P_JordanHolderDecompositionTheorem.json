@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every finite group $G$ has a filtration\n$$G \\supset G_0 \\supset \\cdots \\supset G_n = \\{1\\},$$ where each\n$G_{i+1}$ is normal in $G_i$ and each quotient group $G_i/G_{i+1}$ is a\nsimple group. Any two such decompositions of $G$ have the same multiset\nof simple groups $G_i/G_{i+1}$ up to ordering.\n\nA filtration of $G$ satisfying the properties above is called a\n[*Jordan\u2013H\u00f6lder decomposition*]{} of $G$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JordanHolderDecompositionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Jordan-H\\\"older decomposition theorem"
+  ]
+}

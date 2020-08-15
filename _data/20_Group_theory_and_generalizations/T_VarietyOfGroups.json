@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "variety"
+  ],
+  "definition": "Definition {#definition .unnumbered}\n==========\n\nA *variety* of groups is the class of groups $G$ that satisfy a given\nset of equationally defined relations\n$$\\{\\, r_i(x_1,\\ldots,x_{n_i})=1 \\mid i\\in I \\,\\}$$ for all elements\n$x_1,x_2,x_3,\\ldots$ of $G$, where $I$ is some index set.\n\nExamples {#examples .unnumbered}\n========\n\nAbelian groups are a variety defined by the equations\n$$\\{[x_1,x_2]=1\\},$$ where $[x,y]=xyx^{-1}y^{-1}$.\n\nNilpotent groups of class less than $c$ form a variety defined by\n$$\\{[[\\cdots[[x_1,x_2],x_3]\\cdots],x_c]=1\\}.$$ Similarly, solvable\ngroups of length less than $c$ form a variety. (Abelian groups are a\nspecial case of both of these.) Note, however, that the class of all\nnilpotent groups is not a variety, nor is the class of all solvable\ngroups.\n\nFor any positive integer $n$, the variety defined by $\\{x_1^n=1\\}$\nconsists of all groups of finite exponent dividing $n$. For $n=1$ this\ngives the variety containing only the trivial groups, which is the\nsmallest variety.\n\nThe largest variety is the variety of all groups, given by an empty set\nof relations.\n\nNotes {#notes .unnumbered}\n=====\n\nBy a theorem of Birkhoff[@birkhoff], a class of groups is a variety if\nand only if it is closed under taking subgroups, homomorphic images and\nunrestricted direct products (that is, every unrestricted direct product\nof members of the class $\\cal C$ is in $\\cal C$, and all subgroups and\nhomomorphic images of members of $\\cal C$ are also in $\\cal C$).\n\nA variety of groups is a full subcategory of the category of groups, and\nthere is a free group on any set of elements in the variety, which is\nthe usual modulo the relations of the variety applied to all elements.\nThis satisfies the usual universal property of the free group on groups\nin the variety, and is thus to the forgetful functor in the category of\nsets. In the variety of abelian groups, the free groups are the usual\nfree abelian groups. In the variety of groups satisfying $x^n=1$, the\nfree groups are called *Burnside groups*, and are commonly denoted by\n$B(m,n)$, where $m$ is the number of generators.\n\n[9]{} G.\u00a0Birkhoff, [*On the structure of abstract algebras*]{},\nProc.\u00a0Cambridge Philos.\u00a0Soc., 31 (1935), 433\u2013454.",
+  "language": "INFORMAL",
+  "phrase": "Variety Of Groups",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VarietyOfGroups"
+    }
+  ],
+  "indexable": true
+}

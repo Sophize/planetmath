@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $E(1)$, $E(2),\\ldots, E(n)$ be events in a sample space. Define\n$$\\begin{aligned}\n S_1 := \\sum_{i=1}^n \\Pr(E(i)) \\\\\n S_2 := \\sum_{i<j} \\Pr(E(i) \\cap E(j)),\\end{aligned}$$ and for\n$2<k\\leq n$, $$S_k := \\sum \\Pr(E(i_1)\\cap \\cdots \\cap E(i_k) )$$ where\nthe summation is taken over all ordered $k$-tuples of distinct integers.\n\n[**Theorem**]{}\n\nFor odd $k$, $1 \\leq k \\leq n$,\n$$\\Pr(E(1)\\cup\\cdots\\cup E(n)) \\leq \\sum_{j=1}^k (-1)^{j+1} S_j,$$ and\nfor even $k$, $2\\leq k \\leq n$,\n$$\\Pr(E(1)\\cup\\cdots\\cup E(n)) \\geq \\sum_{j=1}^k (-1)^{j+1} S_j,$$\n\n[**Remark**]{} When $k=1$, the Bonferroni inequality is also known as\nthe union bound. When $k=n$, we have an equality, also known as the\ninclusion-exclusion principle.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BonferroniInequalities"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Bonferroni inequalities"
+  ]
+}

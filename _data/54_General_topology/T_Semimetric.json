@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A semimetric on a set $X$ is a function\n$d\\colon X\\times X\\to {\\mathbb{R}}$ which satisfies:\n\n1.  $d(x,y)\\geq 0$\n\n2.  $d(x,y)= 0$ if and only if $x=y$;\n\n3.  $d(x,y) = d(y,x)$.\n\nA semimetric differs from a metric in that the triangle inequality is\nnot required to hold.",
+  "language": "INFORMAL",
+  "phrase": "Semimetric",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Semimetric"
+    }
+  ],
+  "indexable": true
+}

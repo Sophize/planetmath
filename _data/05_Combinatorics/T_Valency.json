@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "valence",
+    "degree"
+  ],
+  "definition": "In a graph, multigraph, or pseudograph $G$, the [**valency**]{} of a\nvertex is the number of edges attached to it (note that a loop counts\ntwice).\n\nSynonymous with [****]{} and [****]{}. There are some unrelated things\nalso called valence; there are of course many things all called degree.\n\nFor directed graphs, [**in-**]{} and [**out-**]{} are prefixed to any of\nthe synonyms, to count incoming and outgoing edges separately.\n\nIf $\\rho(\\hbox{\\sc v})$ is used for the valency of vertex\n$\\hbox{\\sc v}$, the notation $\\rho(G)$ (or $\\rho$ on its own if there is\nno scope for confusion) denotes the maximum valency found in graph $G$.\nAnother notation often seen is $\\delta(G)$ and $\\Delta(G)$ for lowest\nand highest valency in $G$ respectively.\n\nIf the valency is the same number ($\\rho$, say) for all its vertices,\n$G$ is called [**regular**]{}. More specifically it is called\n[**$\\rho$-valent**]{} or $\\rho$-regular. Connected (components of)\u2026\n\n-   \u20260-valent graphs are edgeless vertices,\n\n-   \u20261-valent graphs are pairs of vertices joined by an edge,\n\n-   \u20262-valent graphs are cyclic graphs, i.e.\u00a0$n$-gons, of various sizes\n\n-   From $\\rho\\ge3$ these structures start getting more interesting.\n    3-valent (or [**trivalent**]{}) graphs are also known as [**cubic\n    graphs**]{}.\n\nA $\\rho$-valent graph with $n$ vertices has $n\\,\\rho/2$ edges.",
+  "language": "INFORMAL",
+  "phrase": "Valency",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Valency"
+    }
+  ],
+  "indexable": true
+}

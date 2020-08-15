@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *lower semilattice* is a partially ordered set S in which each pair of\nelements has a greatest lower bound.\n\nA *upper semilattice* is a partially ordered set S in which each pair of\nelements has a least upper bound.\n\nNote that it is not normally necessary to distinguish lower from upper\nsemilattices, because one may be converted to the other by reversing the\npartial order. It is normal practise to refer to either structure as a\n*semilattice* and it should be clear from the context whether greatest\nlower bounds or least upper bounds exist.\n\nAlternatively, a semilattice can be considered to be a commutative band,\nthat is a semigroup which is commutative, and in which every element is\nidempotent. In this context, semilattices are important elements of\nsemigroup theory and play a key role in the structure theory of\ncommutative semigroups.\n\nA partially ordered set which is both a lower semilattice and an upper\nsemilattice is a lattice.",
+  "language": "INFORMAL",
+  "phrase": "Semilattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Semilattice"
+    }
+  ],
+  "indexable": true
+}

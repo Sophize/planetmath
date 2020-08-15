@@ -1,0 +1,19 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "It\u00f4\u2019s lemma, also known as *It\u00f4\u2019s formula*, is an extension of the to\nthe stochastic integral, and is often regarded as one of the most\nimportant results of stochastic calculus. The case described here\napplies to arbitrary continuous semimartingales. For the application to\nIt\u00f4 processes see or see the for noncontinuous processes.\n\nFor a function $f$ on a subset of $\\mathbb{R}^n$, we write $f_{,i}$ for\nthe partial derivative with respect to the $i$\u2019th coordinate and\n$f_{,ij}$ for the second order derivatives.\n\nSuppose that $X=(X^1,\\ldots,X^n)$ is a continuous semimartingale taking\nvalues in an open subset $U$ of $\\mathbb{R}^n$ and\n$f\\colon U\\rightarrow\\mathbb{R}$ is twice continuously differentiable.\nThen, $$\\label{eq:1}\ndf(X)=\\sum_{i=1}^n f_{,i}(X)\\,dX^i + \\frac{1}{2}\\sum_{i,j=1}^nf_{,ij}(X)\\,d[X^i,X^j].$$\n\nIn particular, for a continuous real-valued semimartingale $X$,\n(\\[eq:1\\]) becomes\n$$df(X)=f^\\prime(X)\\,dX + \\frac{1}{2}f^{\\prime\\prime}(X)\\,d[X],$$ which\nis a form of the \u201cchange of variables formula\u201d for stochastic calculus.\nA major distinction between standard and stochastic calculus is that\nhere we need to include the quadratic variation and covariation terms\n$[X]$ and $[X^i,X^j]$.\n\nEquation (\\[eq:1\\]) results from taking a Taylor expansion up to second\norder which, setting $\\delta f(x)\\equiv f(x+\\delta x)-f(x)$, reads\n$$\\label{eq:2}\n\\delta f(x)= \\sum_{i=1}^n f_{,i}(x)\\delta x^i + \\frac{1}{2}\\sum_{i,j=1}^n f_{,ij}(x)\\delta x^i\\delta x^j + o(\\delta x^2).$$\nTaking the limit as $\\delta x$ goes to zero, all of the terms on the\nright hand side of (\\[eq:2\\]), other than the first, go to zero with\n$O(\\delta x^2)$ and, therefore, can be neglected in the limit. This\nresults in the standard chain rule. However, when\n$\\delta X = X_{t+h}-X_t$ for a semimartingale $X$ then the second order\nterms in (\\[eq:2\\]) only go to zero at rate $O(h)$ and, therefore, must\nbe retained even in the limit as $h\\rightarrow 0$. This is a consequence\nof semimartingales, such as Brownian motion, being nowhere\ndifferentiable. In fact, if $X$ is a finite variation process, then it\ncan be shown that the quadratic covariation terms are zero, and the\nstandard chain rule results.\n\nA consequence of It\u00f4\u2019s lemma is that if $X$ is a continuous\nsemimartingale and $f$ is twice continuously differentiable, then $f(X)$\nwill be a semimartingale. However, the generalized It\u00f4 formula shows\nthat it is not necessary to restrict this statement to continuous\nprocesses.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ItosLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Ito's lemma",
+    "It\\^o's lemma",
+    "It\\\"o's lemma",
+    "Ito's formula",
+    "It\\^o's formula",
+    "It\\\"o's formula"
+  ]
+}

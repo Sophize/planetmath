@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "autonomous",
+    "autonomous equation",
+    "nonautonomous",
+    "nonautonomous equation"
+  ],
+  "definition": "A system of ordinary differential equation is *autonomous* when it does\nnot depend on time *(does not depend on the independent variable)* i.e.\n$\\dot{x}=f(x)$. In contrast *nonautonomous* is when the system of\nordinary differential equation does depend on time *(does depend on the\nindependent variable)* i.e. $\\dot{x}=f(x,t)$.\\\nIt can be noted that every nonautonomous system can be converted to an\nautonomous system by adding a dimension. i.e. If\n$\\dot{\\textbf{x}}=\\textbf{f}(\\textbf{x},t)$\n$\\textbf{x} \\in \\mathbb{R}^n$ then it can be written as an autonomous\nsystem with $\\textbf{x} \\in \\mathbb{R}^{n+1}$ and by doing a\nsubstitution with $x_{n+1} = t$ and $\\dot{x}_{n+1}=1$.",
+  "language": "INFORMAL",
+  "phrase": "Autonomous System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AutonomousSystem"
+    }
+  ],
+  "indexable": true
+}

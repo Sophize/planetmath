@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A graph $\\Gamma$ is *intrinsically linked* if any embedding of $\\Gamma$\nin $\\mathbb{R}^3$ contains a nontrivial link.\\\n\\\n*Example:* $K_6$, the complete graph on 6 vertices, was proven to be\nintrinsically linked by Conway and Gordon.\\\n\\\nThe property of being *not* intrinsically linked is inherited by minors.\nThat is, if $\\Gamma$ is not intrinsically linked and $\\Gamma'$ can be\nobtained from $\\Gamma$ by edge contractions or deletions, then $\\Gamma'$\nis also not intrinsically linked.\\\nBy the Robertson-Seymour Theorem (formerly Wagner\u2019s Conjecture), the\nobstruction set for this property must be finite. This means that the\nset of minor minimal intrinsically linked graphs is finite. In fact,\nthere are 7 graphs in this set; it is known as the Petersen family, and\nit consists of graphs which can be obtained from $K_6$ by repeated\n$\\triangle$-Y or Y-$\\triangle$ transformations.",
+  "language": "INFORMAL",
+  "phrase": "Intrinsically Linked",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntrinsicallyLinked"
+    }
+  ],
+  "indexable": true
+}

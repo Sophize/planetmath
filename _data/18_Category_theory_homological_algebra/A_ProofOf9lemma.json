@@ -1,0 +1,17 @@
+{
+  "argumentText": "As in the proof of the 5-lemma, we assume without loss of generality\nthat we are working in modules over a ring. In keeping with the notion\nthat the maps between the $A$\u2019s (as well as between the $B$\u2019s and the\n$C$\u2019s) are cohomology sequences, we denote all vertical maps by $d$. The\nmap $A_i\\to B_i$ is denoted $\\alpha_i$, and the map $B_i\\to C_i$ is\ndenoted $\\beta_i$. We must show that\n\n1.  $\\beta_1$ is surjective;\n\n2.  $\\alpha_1$ is injective;\n\n3.  $\\ker \\beta_1 \\subset \\mathrm{im}\\  \\alpha_1$;\n\n4.  $\\beta_1\\circ\\alpha_1=0$ (i.e.\n    $\\ker \\beta_1 \\supset \\mathrm{im}\\  \\alpha_1$)\n\n$\\beta_1$ is surjective: Choose $c\\in C_1$. Then $dc = \\beta_2 b$, and\n$\\beta_3db=d\\beta_2b=d^2c=0$, so $db=\\alpha_3a=\\alpha_3 da'$. Thus\n$d(b-\\alpha_2 a')=0$, so $db'=b-\\alpha_2 a'$. Finally,\n$d\\beta_1 b'=\\beta_2 db'=\\beta_2(b-\\alpha_2a')=\\beta_2 b=dc$. But $d$ is\ninjective, so $c=\\beta_1 b'$.\n\n$\\alpha_1$ is injective: This is clear, since $d\\alpha_1=\\alpha_2 d$,\nand $\\alpha_2$ and both $d$\u2019s are injective.\n\n$\\ker \\beta_1\\subset \\mathrm{im}\\ \\alpha_1$: Suppose $\\beta_1(b)=0$.\nThen $\\beta_2 db=d\\beta_1 b=0$, so $db=\\alpha_2 a$. But then\n$\\alpha_3 da=d\\alpha_2 a=d^2b=0$, and $\\alpha_3$ is injective, so\n$a\\in\\ker d$ and $da'=a$. Finally,\n$d\\alpha_1 a'=\\alpha_2 da'=\\alpha_2 a=db$. $d$ is injective and thus\n$b=\\alpha_1 a'$.\n\n$\\beta_1\\circ\\alpha_1=0$: $d\\beta_1\\alpha_1=\\beta_2\\alpha_2d=0$. But $d$\nis injective, so $\\beta_1\\alpha_1=0$.\n\nSimilar diagram chasing can be used to prove that if the top two rows\nare exact then so is the bottom row.",
+  "conclusion": "#P_9lemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOf9lemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of 9-lemma"
+  ]
+}

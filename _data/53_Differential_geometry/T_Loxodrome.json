@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Think in $\\mathbb{R}^3$ a sphere with radius $r$ and two antipodal\npoints of it wich we call the North pole and the South pole. *Meridians*\nare great circles passing through the . A *loxodrome* is a curve on the\nsphere intersecting all meridians at the same angle.\\\nLet $$\\begin{aligned}\n\\begin{cases}\nx \\;=\\; r\\sin{u}\\cos{v}\\\\\ny \\;=\\; r\\sin{u}\\sin{v}\\\\\nz \\;=\\; r\\cos{u}\n\\end{cases}\\end{aligned}$$ be a parametric presentation of the sphere\n(cf. the spherical coordinates). We will show that $$\\begin{aligned}\nbv \\;=\\; \\ln\\tan\\frac{u}{2}+c,\\end{aligned}$$ where $b$ and $c$ are\nconstants, is an equation of loxodromes in the Gaussian coordinates\n$u,\\,v$.\\\nWe denote $\\displaystyle\\frac{1}{b} := a$, whence the equation of the\nfamily (1) in the parameter plane reads $$\\begin{aligned}\nv \\;=\\; a\\ln\\tan\\frac{u}{2}+ac \\;:=\\; v(u).\\end{aligned}$$ When we\ndenote also the position vector of a point of the sphere by\n$$\\vec{k} \\;=\\; \\vec{k}(u,\\,v) \\;:=\\; (r\\sin{u}\\cos{v},\\,r\\sin{u}\\sin{v},\\,r\\cos{u}),$$\nwe have the tangent vector of a curve (1) on the sphere:\n$$\\vec{t} \\;:=\\; \\frac{d}{du}\\vec{k}(u,\\,v(u)) \\;=\\; \\vec{k}'_u+\\vec{k}'_v\\!\\cdot\\!v'(u).$$\nSince\n$$\\vec{k}'_u \\;=\\; (r\\cos{u}\\cos{v},\\,r\\cos{u}\\sin{v},\\,-r\\sin{u}), \\quad \n\\vec{k}'_v \\;=\\; (-r\\sin{u}\\sin{v},\\,r\\sin{u}\\cos{v},\\,0)$$ and since\n$$v'(u) \\;=\\; \\frac{a}{\\tan{\\frac{u}{2}}}\\cdot\\frac{1}{\\cos^2\\frac{u}{2}}\\cdot\\frac{1}{2} \n\\;=\\; \\frac{a}{2\\sin\\frac{u}{2}\\cos\\frac{u}{2}} \\;=\\; \\frac{a}{\\sin{u}},$$\nwe can write the tangent vector of the curve as\n$$\\vec{t} \\;=\\; r\\cdot(\\cos{u}\\cos{v}-a\\sin{v},\\,\\cos{u}\\sin{v}+a\\cos{v},\\,-\\sin{u}).$$\nFor a tangent vector of a meridian, the partial derivative $\\vec{k}'_u$\nmay be taken. Thus we obtain the value\n$$\\cos(\\vec{t},\\,\\vec{k}'_u) \\;=\\; \\frac{\\vec{t}\\cdot\\vec{k}'_u}{\\left|\\vec{t}\\right||\\vec{k}'_u|} \n\\;=\\; \\frac{1}{\\sqrt{1\\!+\\!a^2}} \\;=\\; \\frac{b}{\\sqrt{b^2\\!+\\!1}},$$\nwhich is a constant. It means that the angle $\\alpha$ between the curve\n(1) and a meridian is constant.\\\n\n(-1,-1)(5,4.5) (0,0)(0,3.5) (-0.9,0)(4.5,0) (0,0)(4,2.67)\n(-0.05,2)(3.07,2) (0,1.85)(0.15,1.85)(0.15,2) (0,0)[0.25]{}[40]{}[90]{}\n(1.5,2.2)[$1$]{} (-0.2,1.1)[$b$]{} (2.25,0.9)[$\\sqrt{b^2\\!+\\!1}$]{}\n(0.34,3.6)[$\\vec{k}'_u$]{} (4.7,0.25)[$\\vec{k}'_v$]{}\n(4.1,2.9)[$\\vec{t}$]{} (0.25,0.4)[$\\alpha$]{} (-1,-1)[.]{} (5,4.3)[.]{}\n\nPictures in",
+  "language": "INFORMAL",
+  "phrase": "Loxodrome",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Loxodrome"
+    }
+  ],
+  "indexable": true
+}

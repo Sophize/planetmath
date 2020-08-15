@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K$ be a number field with $[K:{\\mathbb{Q}}]=n=r_1+2r_2$, where\n$r_1$ denotes the number of real embeddings of $K$, and $2r_2$ is the\nnumber of complex embeddings of $K$. Let $$\\zeta_K(s)$$ be the Dedekind\nzeta function of $K$. Also define the following invariants:\n\n1.  $h_K$ is the class number, the number of elements in the ideal class\n    group of $K$.\n\n2.  $\\operatorname{Reg}_K$ is the regulator of $K$.\n\n3.  $\\omega_K$ is the number of roots of unity contained in $K$.\n\n4.  $D_K$ is the discriminant of the extension $K/{\\mathbb{Q}}$.\n\nThen:\n\nThe Dedekind zeta function of $K$, $\\zeta_K(s)$ converges absolutely for\n$\\Re(s)>1$ and extends to a meromorphic function defined for\n$\\Re(s)>1-\\frac{1}{n}$ with only one simple pole at $s=1$. Moreover:\n$$\\lim_{s\\to 1}\n(s-1)\\zeta_K(s)=\\frac{2^{r_1}\\cdot(2\\pi)^{r_2}\\cdot h_K\\cdot\n\\operatorname{Reg}_K}{\\omega_K \\cdot \\sqrt{\\mid D_K \\mid}}$$\n\nNote: This is the most general \u201cclass number formula\u201d. In particular\ncases, for example when $K$ is a cyclotomic extension of ${\\mathbb{Q}}$,\nthere are particular and more refined class number formulas.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClassNumberFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "class number formula"
+  ]
+}

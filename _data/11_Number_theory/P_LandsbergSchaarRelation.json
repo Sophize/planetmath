@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Landsberg-Schaar relation states that for any positive integers $p$\nand $q$:\n$$\\frac{1}{\\sqrt{p}}\\sum_{n=0}^{p-1}\\exp\\left(\\frac{2\\pi in^2q}{p}\\right)=\n\\frac{e^{\\pi i/4}}{\\sqrt{2q}}\\sum_{n=0}^{2q-1}\\exp\\left(-\\frac{\\pi in^2p}{2q}\\right)$$\nAlthough both sides of (1) are mere finite sums, no one has yet found a\nproof which uses no infinite limiting process. One way to prove it is to\nput $\\tau=2iq/p+\\epsilon$, where $\\epsilon>0$, in this identity due to\nJacobi:\n$$\\sum_{n=-\\infty}^{+\\infty}e^{-\\pi n^2\\tau}=\\frac{1}{\\sqrt{\\tau}}\n\\sum_{n=-\\infty}^{+\\infty}e^{-\\pi n^2/\\tau}$$ and let $\\epsilon\\to 0$.\nThe details can be found . The identity (2) is a basic one in the theory\nof theta functions. It is sometimes called the functional equation for\nthe Riemann theta function. See e.g. \\[2 VII.6.2\\].\n\nIf we just let $q=1$ in the Landsberg-Schaar identity, it reduces to a\nformula for the quadratic Gauss sum mod $p$; notice that $p$ need not be\nprime.\n\n**References:**\n\n\\[1\\] H. Dym and H.P. McKean. *Fourier Series and Integrals*. Academic\nPress, 1972.\n\n\\[2\\] J.-P. Serre. *A Course in Arithmetic*. Springer, 1970.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LandsbergSchaarRelation"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Landsberg-Schaar relation",
+    "Schaar's identity"
+  ]
+}

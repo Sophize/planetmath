@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a finite group, and $k$ a field of characteristic not\ndividing $|G|$. Then any representation $V$ of $G$ over $k$ is\ncompletely reducible.\n\nWe need only show that any subrepresentation has a complement, and the\nresult follows by induction.\n\nLet $V$ be a representation of $G$ and $W$ a subrepresentation. Let\n$\\pi:V\\to W$ be an arbitrary projection, and let\n$$\\pi'(v)=\\frac 1{|G|}\\sum_{g\\in G} g^{-1}\\pi (gv)$$ This map is\nobviously $G$-equivariant, and is the identity on $W$, and its image is\ncontained in $W$, since $W$ is invariant under $G$. Thus it is an\nequivariant projection to $W$, and its kernel is a complement to $W$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MaschkesTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Maschke's theorem"
+  ]
+}

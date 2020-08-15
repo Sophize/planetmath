@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "almost surely",
+    "a.s.",
+    "a.e.",
+    "almost all"
+  ],
+  "definition": "Let $(X, {\\mathfrak{B}}, \\mu)$ be a measure space. A condition holds\n*almost everywhere* on $X$ if it holds \u201cwith probability $1$,\u201d i.e. if\nit holds everywhere except for a subset of $X$ with measure $0$. For\nexample, let $f$ and $g$ be nonnegative functions on $X$. Suppose we\nwant a sufficient condition on functions $f(x)$ and $g(x)$ such that the\nrelation $$\\int_{X} f d\\mu(x) \\le \\int_{X} g d\\mu(x)$$ holds. Certainly\n$f(x)\\leq g(x)$ for all $x\\in X$ is a sufficient condition, but in fact\nit\u2019s enough to have $f(x)\\leq g(x)$ almost surely on $X$. In fact, we\ncan loosen the above non-negativity condition to only require that $f$\nand $g$ are almost surely nonnegative as well.\n\nIf $X = [0,1]$, then $g$ might be less than $f$ on the Cantor set, an\nuncountable set with measure $0$, and still satisfy the condition. We\nsay that $f \\le g$ almost everywhere (often abbreviated *a.e.*).\n\nNote that this is the of the \u201calmost surely\u201d from probabilistic measure\n.",
+  "language": "INFORMAL",
+  "phrase": "Almost Everywhere",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlmostEverywhere"
+    }
+  ],
+  "indexable": true
+}

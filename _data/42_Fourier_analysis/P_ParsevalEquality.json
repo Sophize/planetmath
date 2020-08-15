@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Parseval\u2019s Equality\n-------------------\n\n[**Theorem. \u2013**]{} If $\\{e_j\\!:\\; j \\in J \\}$ is an orthonormal basis of\nan Hilbert space $H$, then for every $x \\in H$ the following equality\nholds: $$\\|x\\|^2 = \\sum_{j \\in J} | \\langle x , e_j \\rangle |^2 .$$\n\nThe above theorem is a more sophisticated form of Bessel\u2019s inequality\n(where the inequality is in fact an equality). The difference is that\nfor Bessel\u2019s inequality it is only required that the set\n$\\{e_j : j \\in J \\}$ is an orthonormal set, not necessarily an\northonormal basis.\n\nParseval\u2019s Theorem\n------------------\n\nApplying Parseval\u2019s equality on the Hilbert space , of square integrable\nfunctions on the interval $[-\\pi,\\pi]$, with the orthonormal basis\nconsisting of trigonometric functions, we obtain\n\n[**Theorem (Parseval\u2019s theorem). \u2013**]{} Let $f$ be a Riemann square\nintegrable function from $[-\\pi,\\pi]$ to $\\mathbb{R}$. The following\nequality holds\n$$\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f^2(x)dx = \\frac{(a_0^f)^2}{2} + \\sum_{k=1}^{\\infty}[(a_k^f)^2+(b_k^f)^2],$$\nwhere $a_0^f$, $a_k^f$, $b_k^f$ are the Fourier coefficients of the\nfunction $f$.\n\nThe function $f$ can be a Lebesgue-integrable function, if we use the\nLebesgue integral in place of the Riemann integral.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ParsevalEquality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Parseval equality",
+    "Parseval equation",
+    "Parseval identity",
+    "Lyapunov equation"
+  ]
+}

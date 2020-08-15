@@ -1,0 +1,22 @@
+{
+  "alternatePhrases": [
+    "semiuniformity",
+    "quasiuniformity",
+    "semiuniform space",
+    "quasiuniform space",
+    "semi-uniform",
+    "quasi-uniform",
+    "semiuniform",
+    "quasiuniform"
+  ],
+  "definition": "Let $X$ be a set. Let $\\mathcal{U}$ be a family of subsets of\n$X\\times X$ such that $\\mathcal{U}$ is a filter, and that every element\nof $\\mathcal{U}$ contains the diagonal relation $\\Delta$ (reflexive).\nConsider the following possible \u201caxioms\u201d:\n\n1.  for every $U\\in \\mathcal{U}$, $U^{-1}\\in \\mathcal{U}$\n\n2.  for every $U\\in \\mathcal{U}$, there is $V\\in \\mathcal{U}$ such that\n    $V\\circ V\\in U$,\n\nwhere $U^{-1}$ is defined as the of $U$, and $\\circ$ is the . If\n$\\mathcal{U}$ satisfies Axiom 1, then $\\mathcal{U}$ is called a\n*semi-uniformity*. If $\\mathcal{U}$ satisfies Axiom 2, then\n$\\mathcal{U}$ is called a *quasi-uniformity*. The underlying set $X$\nequipped with $\\mathcal{U}$ is called a *semi-uniform space* or a\n*quasi-uniform space* according to whether $\\mathcal{U}$ is a\nsemi-uniformity or a quasi-uniformity.\n\nA semi-pseudometric space is a semi-uniform space. A quasi-pseudometric\nspace is a quasi-uniform space.\n\nA uniformity is one that satisfies both axioms, which is equivalent to\nsaying that it is both a semi-uniformity and a quasi-uniformity.\n\n[9]{} W. Page, *Topological Uniform Structures*, Wiley, New York 1978.",
+  "language": "INFORMAL",
+  "phrase": "Generalization Of A Uniformity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizationOfAUniformity"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let ${\\mathord{\\mathbf{Haus}}}$ be the category of locally compact\nHausdorff spaces with continuous proper maps as morphisms. And, let\n${\\mathord{\\mathbf{C^*Alg}}}$ be the category of commutative\n$C^*$-algebras with proper \\*-homomorphisms (send approximate units into\napproximate units) as morphisms. There is a contravariant functor\n$C\\colon {\\mathord{\\mathbf{Haus}}}^{\\mathrm{op}}\\to {\\mathord{\\mathbf{C^*Alg}}}$\nwhich sends each locally compact Hausdorff space $X$ to the commutative\n$C^*$-algebra $C_0(X)$ ($C(X)$ if $X$ is compact). Conversely, there is\na contravariant functor\n$M\\colon {\\mathord{\\mathbf{C^*Alg}}}^{\\mathrm{op}}\\to {\\mathord{\\mathbf{Haus}}}$\nwhich sends each commutative $C^*$-algebra $A$ to the space of\ncharacters on $A$ (with the Gelfand topology).\n\nThe functors $C$ and $M$ are an equivalence of categories.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GelfandNaimarkTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gelfand-Naimark theorem"
+  ]
+}

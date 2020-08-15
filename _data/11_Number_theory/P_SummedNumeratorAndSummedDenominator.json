@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $\\displaystyle\\frac{a_1}{b_1},\\,\\ldots,\\,\\frac{a_n}{b_n}$ are any\nreal fractions with positive denominators and\n$$m \\;:=\\; \\min\\left\\{\\frac{a_1}{b_1},\\,\\ldots,\\,\\frac{a_n}{b_n}\\right\\}, \\quad \n   M \\;:=\\; \\max\\left\\{\\frac{a_1}{b_1},\\,\\ldots,\\,\\frac{a_n}{b_n}\\right\\}$$\nare of the fractions, then $$\\begin{aligned}\nm \\;\\leqq\\; \\frac{a_1\\!+\\!\\ldots\\!+\\!a_n}{b_1\\!+\\!\\ldots\\!+\\!b_n} \\;\\leqq\\; M.\\end{aligned}$$\nThe equality signs are valid if and only if all fractions are equal; in\nthis case one has\n$$\\frac{a_1}{b_1} \\;=\\; \\ldots \\;=\\; \\frac{a_n}{b_n} \\;=\\; \\frac{a_1\\!+\\!\\ldots+\\!a_n}{b_1\\!+\\!\\ldots\\!+\\!b_n}.$$\n[*Proof.*]{} Set $\\displaystyle q_1 := \\frac{a_1}{b_1}$, \u2026,\n$\\displaystyle q_n := \\frac{a_n}{b_n}$. Then we have\n$a_1\\!+\\!\\ldots\\!+\\!a_n = b_1q_1\\!+\\!\\ldots\\!+\\!b_nq_n$, which\napparently has the lower bound $(b_1\\!+\\cdots+\\!b_n)m$ and the upper\nbound $(b_1\\!+\\ldots+\\!b_n)M$. Dividing the three last expressions by\nthe sum $b_1\\!+\\ldots+\\!b_n$ yields the asserted double inequality (1).\n\n**Remark.** Cf. also the mediant.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SummedNumeratorAndSummedDenominator"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "summed numerator and summed denominator"
+  ]
+}

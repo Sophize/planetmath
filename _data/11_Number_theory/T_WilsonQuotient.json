@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*Wilson quotient*]{} $W_n$ for a given positive integer $n$ is the\nrational number $\\displaystyle \\frac{\\Gamma(n) + 1}{n}$, where\n$\\Gamma(x)$ is Euler\u2019s Gamma function (since we\u2019re dealing with integer\ninputs here, in effect this is merely a quicker way to write\n$(n - 1)!$).\n\nFrom Wilson\u2019s theorem it follows that the Wilson quotient is an integer\nonly if $n$ is not composite. When $n$ is composite, the numerator of\nthe Wilson quotient is $(n - 1)! + 1$ and the denominator is $n$. For\nexample, if $n = 7$ we have numerator 721 with denominator 7, and since\nthese have 7 as their greatest common divisor, in lowest terms the\nWilson quotient of 7 is 103 (with 1 as tacit numerator). But for $n = 8$\nwe have $$W_8 = \\frac{5041}{8}.$$\n\n[1]{} R. Crandall & C. Pomerance, [*Prime Numbers: A Computational\nPerspective*]{}. New York: Springer (2001): 29.",
+  "language": "INFORMAL",
+  "phrase": "Wilson Quotient",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WilsonQuotient"
+    }
+  ],
+  "indexable": true
+}

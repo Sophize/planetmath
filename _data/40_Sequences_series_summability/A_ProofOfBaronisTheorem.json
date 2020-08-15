@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $m=\\inf A'$ and $M=\\sup A'$ . If $m=M$ we are done since the\nsequence is convergent and $A'$ is the degenerate interval composed of\nthe point $l \\in\n\\mathbb{\\overline{R}}$ , where\n$\\displaystyle l=\\lim_{n\\rightarrow \\infty} x_n$.\n\nNow , assume that $m<M$ . For every $\\lambda \\in (m,M)$ , we will\nconstruct inductively two subsequences $x_{k_n}$ and $x_{l_n}$ such that\n$\\displaystyle\n\\lim_{n \\rightarrow \\infty} x_{k_n} = \\lim_{n\\rightarrow \\infty} x_{l_n} = \\lambda$\nand $\\displaystyle x_{k_n} < \\lambda < x_{l_n}$\n\nFrom the definition of $M$ there is an $N_1 \\in \\mathbb{N}$ such that :\n$$\\lambda < x_{N_1} < M$$\n\nConsider the set of all such values $N_1$ . It is bounded from below\n(because it consists only of natural numbers and has at least one\nelement) and thus it has a smallest element . Let $n_1$ be the smallest\nsuch element and from its definition we have\n$x_{n_1-1} \\leq \\lambda < x_{n_1}$ . So , choose $k_1=n_1 - 1$ ,\n$l_1=n_1$ . Now, there is an $N_2 > k_1$ such that :\n$$\\lambda < x_{N_2} < M$$ Consider the set of all such values $N_2$ . It\nis bounded from below and it has a smallest element $n_2$ . Choose\n$k_2 = n_2-1$ and $l_2=n_2$ . Now , proceed by induction to construct\nthe sequences $k_n$ and $l_n$ in the same fashion . Since $l_n-k_n=1$ we\nhave :\n$$\\lim_{n\\rightarrow \\infty} x_{k_n} = \\lim_{n\\rightarrow \\infty} x_{l_n}$$\nand thus they are both equal to $\\lambda$.",
+  "conclusion": "#P_BaronisTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBaronisTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "Proof of Baroni's theorem"
+  ]
+}

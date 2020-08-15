@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry we show the following simple lemma:\n\nLet $G$ and $H$ be groups (with group operations $\\ast_G$, $\\ast_H$ and\nidentity elements $e_G$ and $e_H$, respectively) and let $\\Phi:G\\to H$\nbe a group homomorphism. Then, the kernel of $\\Phi$, i.e.\n$${\\operatorname{Ker}}(\\Phi)=\\{ g\\in G : \\Phi(g)=e_H\\},$$ is a normal\nsubgroup of $G$.\n\nLet $G,H$ and $\\Phi$ be as in the statement of the lemma and let\n$g\\in G$ and $k\\in {\\operatorname{Ker}}(\\Phi)$. Then, $\\Phi(k)=e_H$ by\ndefinition and: $$\\begin{aligned}\n\\Phi(g \\, \\ast_G \\, k \\, \\ast_G \\, g^{-1}) &=& \\Phi(g)\\ast_H \\Phi(k) \\ast_H \\Phi(g^{-1})\\\\\n& = & \\Phi(g)\\ast_H ( e_H ) \\ast_H \\Phi(g^{-1})\\\\\n& = & \\Phi(g) \\ast_H \\Phi(g^{-1}) \\\\\n& = & \\Phi(g) \\ast_H \\Phi(g)^{-1}\\\\\n& = & e_H,\\end{aligned}$$ where we have used several times the\nproperties of group homomorphisms and the properties of the identity\nelement $e_H$. Thus, $\\Phi(gkg^{-1})=e_H$ and $gkg^{-1}\\in G$ is also an\nelement of the kernel of $\\Phi$. Since $g\\in G$ and\n$k\\in {\\operatorname{Ker}}(\\Phi)$ were arbitrary, it follows that\n${\\operatorname{Ker}}(\\Phi)$ is normal in $G$.\n\nConversely:\n\nLet $G$ be a group and let $K$ be a normal subgroup of $G$. Then there\nexists a group homomorphism $\\Phi:G\\to H$, for some group $H$, such that\nthe kernel of $\\Phi$ is precisely $K$.\n\nSimply set $H$ equal to the quotient group $G/K$ and define\n$\\Phi:G \\to G/K$ to be the natural projection from $G$ to $G/K$ (i.e.\n$\\Phi$ sends $g\\in G$ to the coset $gK$). Then it is clear that the\nkernel of $\\Phi$ is precisely formed by those elements of $K$.\n\nAlthough the first lemma is very simple, it is very useful when one\ntries to prove that a subgroup is normal.\n\nLet $F$ be a field. Let us prove that the special linear group\n${\\operatorname{SL}}(n,F)$ is normal inside the general linear group\n${\\operatorname{GL}}(n,F)$, for all $n\\geq 1$. By the lemmas, it\nsuffices to construct a homomorphism of ${\\operatorname{GL}}(n,F)$ with\n${\\operatorname{SL}}(n,F)$ as kernel. The determinant of matrices is the\nhomomorphism we are looking for. Indeed:\n$$\\det : {\\operatorname{GL}}(n,F) \\to F^\\times$$ is a group homomorphism\nfrom ${\\operatorname{GL}}(n,F)$ to the multiplicative group $F^\\times$\nand, by definition, the kernel is precisely ${\\operatorname{SL}}(n,F)$,\ni.e. the matrices with determinant $=1$. Hence,\n${\\operatorname{SL}}(n,F)$ is normal in ${\\operatorname{GL}}(n,F)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheKernelOfAGroupHomomorphismIsANormalSubgroup"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the kernel of a group homomorphism is a normal subgroup"
+  ]
+}

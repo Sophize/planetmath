@@ -1,0 +1,17 @@
+{
+  "argumentText": "We can parameterize the circle by letting $z=z_0 + r e^{i\\phi}$. Then\n$dz=ir e^{i\\phi}d\\phi$. Using the Cauchy integral formula we can express\n$f(z_0)$ in the following way: $$\\begin{aligned}\nf(z_0)&=&\\frac{1}{2\\pi i} \\oint_{C} \\frac{f(z)}{z-z_0}dz\\\\\n&=&\\frac{1}{2\\pi i} \\int_{0}^{2\\pi} \\frac{f(z_0 + r e^{i\\phi})}{r e^{i\\phi}} ir e^{i\\phi} d\\phi\\\\\n&=&\\frac{1}{2\\pi} \\int_{0}^{2\\pi} f(z_0 + r e^{i\\phi}) d\\phi .\\end{aligned}$$",
+  "conclusion": "#P_GaussMeanValueTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfGaussMeanValueTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Gauss' mean value theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *spanning tree* of a (connected) graph $G$ is a connected, acyclic\nsubgraph of $G$ that contains all of the vertices of $G$. Below is an\nexample of a spanning tree $T$, where the edges in $T$ are drawn as\nsolid lines and the edges in $G$ but not in $T$ are drawn as dotted\nlines.\n\n$$\\xymatrix{\n\\bullet \\ar@{.}[dddd] \\ar@{-}[ddr] \\ar@{.}[rrr] &&& \\bullet \\ar@{.}[ddll] \\ar@{-}[dd] \\ar@{.}[drr] \\\\\n&&&&&\\bullet \\ar@{-}[dll] \\ar@{.}[d] \\\\\n&\\bullet\\ar@{-}[ddl]\\ar@{-}[dr]\\ar@{.}[rr] && \\bullet\\ar@{-}[dl]\\ar@{.}[dr]\\ar@{-}[rr] &&\\bullet\\ar@{-}[dl] \\\\\n&&\\bullet\\ar@{.}[dll]\\ar@{-}[dr]\\ar@{.}[rr]&&\\bullet\\ar@{.}[dl] \\\\\n\\bullet\\ar@{.}[rrr]&&&\\bullet\n}$$\n\nFor any tree there is exactly one spanning tree: the tree itself.",
+  "language": "INFORMAL",
+  "phrase": "Spanning Tree",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpanningTree"
+    }
+  ],
+  "indexable": true
+}

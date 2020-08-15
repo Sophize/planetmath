@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{}\n\nSuppose $\\mathscr{S}$ is near-linear space with $v$ points and $b$\nlines, and $s_i$ is the number of points in the $i$th line, for\n$i=1,\\ldots, b$. Then $$\\sum_{i=1}^b s_i(s_i-1) \\leq v(v-1),$$ and\nequality holds if and only if $\\mathscr{S}$ is a linear space.\n\n#### Proof\n\nLet $N$ be the number of ordered pairs of points that are joined by a\nline. Clearly $N$ can be no more than $v(v-1)$, and $N=v(v-1)$ if and\nonly if every pair of points are joined by a line. Since two points in a\nnear-linear space are on at most one line, we can label each pair by the\nline to which the two points belong to. We thus have a partition of the\n$N$ pairs into $b$ groups, and each group is associated with a distinct\nline. The group corresponding to the line consisting of $s_i$ points\ncontributes $s_i(s_i-1)$ to the total sum. Therefore\n$$\\sum_{i=1}^b s_i(s_i-1) = N \\leq v(v-1).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CriterionForANearlinearSpaceBeingALinearSpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "criterion for a near-linear space being a linear space"
+  ]
+}

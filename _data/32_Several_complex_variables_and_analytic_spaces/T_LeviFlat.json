@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Levi-flat"
+  ],
+  "definition": "Suppose $M \\subset {\\mathbb{C}}^n$ is at least a $C^2$ hypersurface.\n\n$M$ is *Levi-flat* if it is pseudoconvex from both sides, or\nequivalently if and only if the Levi form of $M$ vanishes identically.\n\nSuppose $M$ is locally defined by $\\rho = 0$. The vanishing of the Levi\nform is equivalent to the complex Hessian of $\\rho$ vanishing on all\nholomorphic vectors tangent to the hypersurface. Hence $M$ is Levi-flat\nif and only if the complex bordered Hessian of $\\rho$ is of rank two on\nthe hypersurface. In other words, it is not hard to see that $M$ is\nLevi-flat if and only if $$\\operatorname{rank}\n\\left[\n\\begin{matrix}\n\\rho & \\rho_z \\\\\n\\rho_{\\bar{z}} & \\rho_{z\\bar{z}}\n\\end{matrix}\n\\right]\n= 2\n\\ \\ \\ \\text{ for all points on $\\{\\rho = 0\\}$. }$$ Here $\\rho_z$ is the\nrow vector $\\left[ \\frac{\\partial \\rho}{\\partial z_1} ,\\ldots,\n\\frac{\\partial \\rho}{\\partial z_n} \\right] ,$ $\\rho_{\\bar{z}}$ is the\ncolumn vector $\\left[ \\frac{\\partial \\rho}{\\partial z_1} ,\\ldots,\n\\frac{\\partial \\rho}{\\partial z_n} \\right]^T ,$ and $\\rho_{z\\bar{z}}$ is\nthe complex Hessian $\\left[\n\\frac{\\partial^2 \\rho}{\\partial z_i \\partial \\bar{z}_j}\n\\right]_{ij}.$\n\nLet $T^cM$ be the complex tangent space of $M,$ that is at each point\n$p \\in M,$ define $T_p^cM = J(T_pM) \\cap T_pM,$ where $J$ is the complex\nstructure. Since $M$ is a hypersurface the dimension of $T_p^cM$ is\nalways $2n-2,$ and so $T^cM$ is a subbundle of $TM.$ $M$ is Levi-flat if\nand only if $T^cM$ is involutive. Since the leaves are graphs of\nfunctions that satisfy the Cauchy-Riemann equations, the leaves are\ncomplex analytic. Hence, $M$ is Levi-flat, if and only if it is foliated\nby complex hypersurfaces.\n\nThe cannonical example of a Levi-flat hypersurface is the hypersurface\ndefined in ${\\mathbb{C}}^n$ by the equation $\\operatorname{Im} z_1 = 0$.\nIn fact, locally, all real analytic Levi-flat hypersurfaces are\nbiholomorphic to this example.\n\n[9]{} M. Salah Baouendi, Peter Ebenfelt, Linda Preiss Rothschild.\n[**]{}, Princeton University Press, Princeton, New Jersey, 1999. Lars\nH\u00f6rmander. [**]{}, North-Holland Publishing Company, New York, New York,\n1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Levi Flat",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeviFlat"
+    }
+  ],
+  "indexable": true
+}

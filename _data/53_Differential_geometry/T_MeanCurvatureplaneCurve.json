@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $ \\Gamma $ be a piecewise $C^1$ planar curve.\n\nThe *total curvature*, $\\kappa_{total}$ , of $\\Gamma$ is defined to be\n$\\int_{\\Gamma} |\\kappa(s)| ds $ where $\\Gamma$ is parameterized by\narclength $s$ and $\\kappa(s)$ is the of $\\Gamma$.\n\nThe *mean curvature* of $\\Gamma$ is defined to be the ratio of the total\ncurvature to the length of $\\Gamma$ :\n$$M(\\Gamma) = \\frac{\\kappa_{total} (\\Gamma)}{L(\\Gamma)}$$",
+  "language": "INFORMAL",
+  "phrase": "Mean Curvature (Plane Curve)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeanCurvatureplaneCurve"
+    }
+  ],
+  "indexable": true
+}

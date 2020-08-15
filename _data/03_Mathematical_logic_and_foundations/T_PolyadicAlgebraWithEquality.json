@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "equality algebra"
+  ],
+  "definition": "Let $A=(B,V,\\exists,S)$ be a polyadic algebra. An *equality predicate*\non $A$ is a function $E:V\\times V\\to B$ such that\n\n1.  $S(f)\\circ E(x,y) = E(f(x),f(y))$ for any $f:V\\to V$ and any\n    $x,y\\in V$\n\n2.  $E(x,x)=1$ for every $x\\in V$, and\n\n3.  $E(x,y)\\wedge a\\le S(x/y)a$, where $a\\in B$, and $(x/y)$ denotes the\n    function $V\\to V$ that maps $x$ to $y$, and constant everywhere\n    else.\n\nHeuristically, we can interpret the conditions above as follows:\n\n1.  if $x=y$ and if we replace $x$ by, say $x_1$, and $y$ by $y_1$, then\n    $x_1=y_1$.\n\n2.  $x=x$ for every variable $x$\n\n3.  if we have a propositional function $a$ that is true, and $x=y$,\n    then the proposition obtained from $a$ by replacing all occurrences\n    of $x$ by $y$ is also true.\n\nThe second condition is also known as the *reflexive property* of the\nequality predicate $E$, and the third is known as the *substitutive\nproperty* of $E$\n\nA *polyadic algebra with equality* is a pair $(A,E)$ where $A$ is a\npolyadic algebra and $E$ is an equality predicate on $A$. Paul Halmos\nintroduced this concept and called this simply an *equality algebra*.\n\nBelow are some basic properties of the equality predicate $E$ in an\nequality algebra $(A,E)$:\n\n-   (symmetric property) $E(x,y)\\le E(y,x)$\n\n-   (transitive property) $E(x,y)\\wedge E(y,z)\\le E(x,z)$\n\n-   $E(x,y) \\wedge a = E(x,y) \\wedge S(x,y)a $, where $(x,y)$ in the $S$\n    is the transposition on $V$ that swaps $x$ and $y$ and leaves\n    everything else fixed.\n\n-   if a variable $x\\in V$ is not in the support of $a\\in A$, then\n    $a=\\exists(x) (E(x,y)\\wedge S(y/x)a)$.\n\n-   $\\exists(x)(E(x,y)\\wedge a)\\wedge \\exists(x)(E(x,y)\\wedge a')=0$ for\n    all $a\\in A$ and all $x,y\\in V$ whenever $x\\ne y$.\n\n-   $\\exists(x)(E(x,y)\\wedge E(x,z))=E(y,z)$ for all $x,y,z\\in V$ where\n    $x\\notin \\lbrace y,z\\rbrace$.\n\n**Remarks**\n\n-   The degree and local finiteness of a polyadic algebra $(A,E)$ are\n    defined as the degree and the local finiteness and degree of its\n    underlying polyadic algebra $A$.\n\n-   It can be shown that every locally finite polyadic algebra of\n    infinite degree can be embedded (as a polyadic subalgebra) in a\n    locally finite polyadic algebra with equality of infinite degree.\n\n-   Like cylindric algebras, polyadic algebras with equality is an\n    attempt at \u201cconverting\u201d a first order logic (with equality) into\n    algebraic form, so that the logic can be studied using algebraic\n    means.\n\n[8]{} P. Halmos, *Algebraic Logic*, Chelsea Publishing Co. New York\n(1962). B. Plotkin, *Universal Algebra, Algebraic Logic, and Databases*,\nKluwer Academic Publishers (1994).",
+  "language": "INFORMAL",
+  "phrase": "Polyadic Algebra With Equality",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolyadicAlgebraWithEquality"
+    }
+  ],
+  "indexable": true
+}

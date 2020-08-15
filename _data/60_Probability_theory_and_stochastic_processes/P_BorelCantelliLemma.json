@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A_1, A_2,\\dots$ be random events in a probability space.\n\n1.  If $\\sum_{n=1}^\\infty P(A_n)<\\infty$, then\n    $P(A_n \\operatorname{i.o.}) = 0$;\n\n2.  If $A_1,A_2,\\dots$ are independent, and\n    $\\sum_{n=1}^\\infty P(A_n)=\\infty$, then\n    $P(A_n \\operatorname{i.o.})=1$\n\nwhere $A=[A_n \\operatorname{i.o.}]$ represents the event \u201c$A_n$ happens\nfor infinitely many values of $n$.\u201d Formally, $A = \\limsup A_n$, which\nis a limit superior of sets.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BorelCantelliLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Borel-Cantelli lemma"
+  ]
+}

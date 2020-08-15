@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "corepresentation"
+  ],
+  "definition": "Let $(A,\\Delta,\\varepsilon)$ be a coalgebra. A **right $A$-comodule** is\na vector space $V$ with a linear map $t\\colon V \\to V\\otimes A$, called\nthe [**right coaction**]{}, satisfying\n$$(t\\otimes{\\mathrm{id}}) \\circ t = ({\\mathrm{id}}\\otimes\\Delta) \\circ t, \\qquad\n({\\mathrm{id}}\\otimes\\varepsilon) \\circ t = {\\mathrm{id}}.$$ An\n$A$-comodule is also referred to as a corepresentation of $A$.\n\nIn of commutative diagrams: $$\\begin{xy}\n\\xymatrix@R=20pt@C=20pt{\n& *+<10pt>\\txt{$V$} \\ar_{t}[dl] \\ar^{t}[dr] & \\\\\n*+<10pt>\\txt{$V\\otimes A$} \\ar_{t\\otimes{\\mathrm{id}}}[dr] & & *+<10pt>\\txt{$V\\otimes A$} \\ar^{{\\mathrm{id}}\\otimes\\Delta}[dl] \\\\\n& *+<10pt>\\txt{$V\\otimes A\\otimes A$} &\n}\\end{xy}$$ $$\\begin{xy}\n\\xymatrix@R=20pt@C=20pt{\n*+<10pt>\\txt{$V$} \\ar^{{\\mathrm{id}}}[dd] \\ar^{t}[dr] & \\\\\n& *+<10pt>\\txt{$V\\otimes A$} \\ar^{{\\mathrm{id}}\\otimes\\varepsilon}[dl] \\\\\n*+<10pt>\\txt{$V$} &\n}\\end{xy}$$\n\nLet $V$ and $W$ be two right $A$-comodules. Then $V\\oplus W$ is also a\nright $A$-comodule. If $A$ is a bialgebra then $V\\otimes W$ is a right\n$A$-comodule as well (make use of the multiplication map\n$A\\otimes A \\to A$).\n\nA comodule map is a linear map $f\\colon V \\to W$ such that\n$t_W\\circ f = (f\\circ{\\mathrm{id}})\\circ t_V$.",
+  "language": "INFORMAL",
+  "phrase": "Comodule",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Comodule"
+    }
+  ],
+  "indexable": true
+}

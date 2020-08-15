@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $V$ is a vector space over $\\mathbb{C}$, the spectrum of a linear\nmapping $T:V\\rightarrow V$ is the set $$\\sigma(T) = \n\\{\\lambda\\in \\mathbb{C}: T-\\lambda I \\mbox{is not invertible}\\},$$ where\n$I$ denotes the identity mapping. If $V$ is finite dimensional, the\nspectrum of $T$ is precisely the set of its eigenvalues. For infinite\ndimensional spaces this is not generally true, although it is true that\neach eigenvalue of $T$ belongs to $\\sigma(T)$. The *spectral radius* of\n$T$ is $$\\rho(T) = \\sup \\{|\\lambda|:\\lambda\\in\\sigma(T)\\}.$$\n\nMore generally, the spectrum and spectral radius can be defined for\nBanach algebras with identity element: If $\\mathcal{A}$ is a Banach\nalgebra over $\\mathbb{C}$ with identity element $e$, the spectrum of an\nelement $a \\in \\mathcal{A}$ is the set\n$$\\sigma(a) = \\{ \\lambda \\in \\mathbb{C} : a - \\lambda e \\mbox{is not invertible in} \\mathcal{A} \\}$$\n\nThe spectral radius of $a$ is\n$\\rho(a) = \\sup \\{| \\lambda | : \\lambda \\in \\sigma(a) \\}$.",
+  "language": "INFORMAL",
+  "phrase": "Spectral Radius",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpectralRadius"
+    }
+  ],
+  "indexable": true
+}

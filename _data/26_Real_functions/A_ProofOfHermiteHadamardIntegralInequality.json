@@ -1,0 +1,17 @@
+{
+  "argumentText": "First of all, let\u2019s recall that a convex function on a open interval\n$(a,b)$ is continuous on $(a,b)$ and admits left and right derivative\n$f^{+}(x)$ and $f^{-}(x)$ for any $x\\in (a,b)$. For this reason, it\u2019s\nalways possible to construct at least one for $f\\left(\nx\\right) $ at any $x_{0}\\in (a,b)$ : if $f\\left( x_{0}\\right) $ is\ndifferentiable in $x_{0}$, one has $r(x)=f\\left( x_{0}\\right) +f^{\\prime\n}\\left( x_{0}\\right) \\left( x-x_{0}\\right) $; if not, it\u2019s obvious that\nall $%\nr(x)=f\\left( x_{0}\\right) +c\\left( x-x_{0}\\right) $ are supporting lines\nfor any $c\\in \\lbrack f^{-}(x_{0}),f^{+}(x_{0})]$.\\\nLet now $r(x)=f\\left( \\frac{a+b}{2}\\right) +c\\left( x-\\frac{a+b}{2}%\n\\right) $ be a supporting line of $f(x)$ in $x=\\frac{a+b}{2}\\in (a,b)$.\nThen, $r\\left( x\\right) \\leq f\\left( x\\right) $. On the other side, by\nconvexity definition, having defined\n$s\\left( x\\right) =f\\left( a\\right) +%\n\\frac{f(b)-f(a)}{b-a}(x-a)$ the line connecting the points $(a,f(a))$\nand $%\n(b,f(b))$ , one has $f(x)\\leq s(x)$.\nShortly,$$r\\left( x\\right) \\leq f\\left( x\\right) \\leq s(x)$$ Integrating\nboth inequalities between $a$ and $b$\n$$\\int_{a}^{b}r\\left( x\\right) dx\\leq \\int_{a}^{b}f\\left( x\\right) dx\\leq\n\\int_{a}^{b}s(x)dx$$ $$\\begin{aligned}\n&&\\int_{a}^{b}r\\left( x\\right) dx \\\\\n&=&\\int_{a}^{b}\\left[ f\\left( \\frac{a+b}{2}\\right) +c\\left( x-\\frac{a+b}{2}%\n\\right) \\right] dx \\\\\n&=&f\\left( \\frac{a+b}{2}\\right) (b-a)+c\\int_{a}^{b}\\left( x-\\frac{a+b}{2}%\n\\right) dx \\\\\n&=&f\\left( \\frac{a+b}{2}\\right) (b-a) \\\\\n&& \\\\\n&&\\int_{a}^{b}s(x)dx \\\\\n&=&\\int_{a}^{b}\\left[ f\\left( a\\right) +\\frac{f(b)-f(a)}{b-a}(x-a)\\right] dx\n\\\\\n&=&f(a)(b-a)+\\frac{f(b)-f(a)}{b-a}\\int_{a}^{b}(x-a)dx \\\\\n&=&\\frac{f(a)+f(b)}{2}(b-a)\\end{aligned}$$ and\nso$$f\\left( \\frac{a+b}{2}\\right) (b-a)\\leq \\int_{a}^{b}f\\left( x\\right) dx\\leq \n\\frac{f(a)+f(b)}{2}(b-a)$$ which is the thesis.",
+  "conclusion": "#P_HermiteHadamardIntegralInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfHermiteHadamardIntegralInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Hermite-Hadamard integral inequality"
+  ]
+}

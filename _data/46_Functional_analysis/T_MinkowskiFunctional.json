@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a normed space and let $K$ an absorbing convex subset of $X$\nsuch that $0$ is in the interior of $K$. Then the *Minkowski functional*\n$\\rho \\colon X \\to \\mathbb{R}$ is defined as\n$$\\rho(x) = \\inf \\{ \\lambda>0 \\colon x \\in \\lambda K \\}.$$\n\nWe put $\\rho(x) = 0$ whenever $x = 0$. Clearly $\\rho(x) \\geq 0$ for all\n$x$.\n\nIt is important to note that in general $\\rho(x) \\neq \\rho(-x)$.\n\n[**Properties**]{}\\\n$\\rho$ is positively $1$- homogeneous. This means that\n$$\\rho(s \\cdot x) = s \\cdot \\rho(x)$$ for $s > 0$.",
+  "language": "INFORMAL",
+  "phrase": "Minkowski  Functional",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinkowskiFunctional"
+    }
+  ],
+  "indexable": true
+}

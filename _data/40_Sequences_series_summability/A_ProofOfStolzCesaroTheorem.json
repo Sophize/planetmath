@@ -1,0 +1,17 @@
+{
+  "argumentText": "From the definition of convergence , for every $\\epsilon > 0$ there is\n$N(\\epsilon) \\in \\mathbb{N}$ such that $(\\forall) n \\geq N(\\epsilon)$ ,\nwe have :\n$$l-\\epsilon < \\frac{a_{n+1}-a_n}{b_{n+1}-b_n} < l + \\epsilon$$ Because\n$b_n$ is strictly increasing we can multiply the last equation with\n$b_{n+1}-b_n$ to get :\n$$(l-\\epsilon)(b_{n+1}-b_n) < a_{n+1}-a_n < (l+\\epsilon)(b_{n+1}-b_n)$$\nLet $k>N(\\epsilon)$ be a natural number . Summing the last relation we\nget :\n$$(l-\\epsilon)\\sum_{i=N(\\epsilon)}^{k}(b_{i+1}-b_i) < \\sum_{i=N(\\epsilon)}^{k}(a_{n+1}-a_n) < (l+\\epsilon)\\sum_{i=N(\\epsilon)}^{k}(b_{i+1}-b_i) \\Rightarrow$$\n$$(l-\\epsilon)(b_{k+1}-b_{N(\\epsilon)}) < a_{k+1} - a_{N(\\epsilon)} < (l+\\epsilon)(b_{k+1}-b_{N(\\epsilon)})$$\nDivide the last relation by $b_{k+1}>0$ to get :\n$$(l-\\epsilon)(1 - \\frac{b_{N(\\epsilon)}}{b_{k+1}}) < \\frac{a_{k+1}}{b_{k+1}} - \\frac{a_{N(\\epsilon)}}{b_{k+1}}<(l+\\epsilon)(1 - \\frac{b_{N(\\epsilon)}}{b_{k+1}}) \\Leftrightarrow$$\n$$(l-\\epsilon)(1 - \\frac{b_{N(\\epsilon)}}{b_{k+1}}) + \\frac{a_{N(\\epsilon)}}{b_{k+1}}< \\frac{a_{k+1}}{b_{k+1}}<(l+\\epsilon)(1 - \\frac{b_{N(\\epsilon)}}{b_{k+1}}) + \\frac{a_{N(\\epsilon)}}{b_{k+1}}$$\nThis means that there is some $K$ such that for $k \\geq K$ we have :\n$$(l-\\epsilon)<\\frac{a_{k+1}}{b_{k+1}}< (l+\\epsilon)$$ (since the other\nterms who were left out converge to 0)\n\nThis obviously means that :\n$$\\lim_{n \\rightarrow \\infty} \\frac{a_n}{b_n}=l$$ and we are done .",
+  "conclusion": "#P_StolzCesaroTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfStolzCesaroTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "Proof of Stolz-Cesaro theorem"
+  ]
+}

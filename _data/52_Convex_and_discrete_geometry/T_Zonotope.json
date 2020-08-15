@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "zonohedron",
+    "zonohedra"
+  ],
+  "definition": "A *zonotope* is a polytope which can be obtained as the of finitely many\nclosed line segments in $\\mathbb{R}^n$. Three-dimensional zonotopes are\nalso sometimes called *zonohedra*. Zonotopes are dual to finite\nhyperplane arrangements. They are centrally symmetric, compact, convex\nsets.\n\nFor example, the unit $n$-cube is the Minkowski sum of the line segments\nfrom the origin to the standard unit vectors $e_i$ for $1\\le i\\le n$. A\nhexagon is also a zonotope; for example, the Minkowski sum of the line\nsegments based at the origin with endpoints at $(1,0)$, $(1,1)$, and\n$(0,1)$ is a hexagon. In fact, any projection of an $n$-cube is a\nzonotope.\n\nThe prism of a zonotope is always a zonotope, but the pyramid of a\nzonotope need not be. In particular, the is only a zonotope for\n$n\\le 1$.\n\n[9]{} Billera, L., R. Ehrenborg, and M. Readdy, *The $\\mathbf{cd}$-index\nof zonotopes and arrangements*, in *Mathematical essays in honor of\nGian-Carlo Rota*, (B. E. Sagan and R. P. Stanley, eds.), Birkh\u00c3\u00a4user,\nBoston, 1998, pp. 23\u201340. Ziegler, G., *Lectures on polytopes*,\nSpringer-Verlag, 1997.",
+  "language": "INFORMAL",
+  "phrase": "Zonotope",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Zonotope"
+    }
+  ],
+  "indexable": true
+}

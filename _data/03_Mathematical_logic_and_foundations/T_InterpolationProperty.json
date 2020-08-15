@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A logic is said to have the *interpolation property* if whenever\n$\\phi(R,S) \\rightarrow \\psi(R,T)$ holds, then there is a sentence\n$\\theta(R)$, so that both $\\phi(R,S) \\rightarrow \\theta(R)$ and\n$\\theta(R) \\rightarrow \\psi(R,T)$ hold, where $R,S$ and $T$ are some\nsets of symbols that occur in the formulas, $R$ being the set of symbols\ncommon to both $\\phi$ and $\\psi$.\n\nThe interpolation property holds for first order logic. The\ninterpolation property is related to Beth definability property and\nRobinson\u2019s consistency property. Also, a natural generalisation is the\nconcept $\\Delta$-closed logic.",
+  "language": "INFORMAL",
+  "phrase": "Interpolation Property",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InterpolationProperty"
+    }
+  ],
+  "indexable": true
+}

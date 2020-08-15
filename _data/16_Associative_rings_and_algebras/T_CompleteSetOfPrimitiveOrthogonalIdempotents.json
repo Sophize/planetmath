@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be a unital algebra over a field $k$. Recall that $e\\in A$ is an\nidempotent iff $e^2=e$. If $e_1,e_2\\in A$ are idempotents, then we will\nsay that they are **orthogonal** iff $e_1e_2=e_2e_1=0$. Furthermore an\nidempotent $e\\in A$ is called **primitive** iff $e$ cannot be written as\na sum $e=e_1+e_2$ where both $e_1,e_2\\in A$ are nonzero idempotents. An\nidempotent is called **trivial** iff it is either $0$ or $1$.\n\nNow assume that $A$ is an algebra such that $$A=M_1\\oplus M_2$$ as right\nmodules and $1=m_1+m_2$ for some $m_1\\in M_1$, $m_2\\in M_2$. Then $m_1$,\n$m_2$ are orthogonal idempotents in $A$ and $M_1=m_1A$, $M_2=m_2A$.\nFurthermore $M_i$ is indecomposable (as a right module) if and only if\n$m_i$ is primitive. This can be easily generalized to any number (but\nfinite) of summands.\n\nIf $A$ is additionally finite-dimensional, then\n$$A=P_1\\oplus\\cdots\\oplus P_n$$ for some (unique up to isomorphism)\nright (ideals) indecomposable modules $P_i$. It follows from the\npreceding that $$P_i=e_iA$$ for some $e_i\\in A$ and $\\{e_1,\\ldots,e_n\\}$\nis a set of pairwise orthogonal, primitive idempotents. This set is\ncalled **the complete set of primitive orthogonal idempotents of $A$**.",
+  "language": "INFORMAL",
+  "phrase": "Complete Set Of Primitive Orthogonal Idempotents",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompleteSetOfPrimitiveOrthogonalIdempotents"
+    }
+  ],
+  "indexable": true
+}

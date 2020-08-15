@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A partial order $P$ satisfies the *$\\kappa$-chain condition* if for any\n$S\\subseteq P$ with $|S|=\\kappa$ then there exist distinct $x,y\\in S$\nand some $p$ such that $p\\leq x$ and $p\\leq y$.\n\nIf $\\kappa=\\aleph_1$ then $P$ is said to satisfy the *countable chain\ncondition* (c.c.c.)",
+  "language": "INFORMAL",
+  "phrase": "Chain Condition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChainCondition"
+    }
+  ],
+  "indexable": true
+}

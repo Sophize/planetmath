@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "strong direct sum",
+    "complete direct sum"
+  ],
+  "definition": "Let $\\{ X_i : i \\in I \\}$ be a collection of modules in some category of\nmodules. Then the [*direct product*]{} $\\prod_{i \\in I} X_i$ of that\ncollection is the module whose underlying set is the Cartesian product\nof the $X_i$ with componentwise addition and scalar multiplication. For\nexample, in a category of left modules: $$(x_i) + (y_i) = (x_i + y_i),$$\n$$r (x_i) = (r x_i).$$\n\nFor each $j \\in I$ we have a [*projection*]{}\n$p_j : \\prod_{i \\in I} X_i \\to X_j$ defined by $(x_i) \\mapsto x_j$, and\nan [*injection*]{} $\\lambda_j : X_j \\to \\prod_{i \\in I} X_i$ where an\nelement $x_j$ of $X_j$ maps to the element of $\\prod_{i \\in I} X_i$\nwhose $j$th term is $x_j$ and every other term is zero.\n\nThe direct product $\\prod_{i \\in I} X_i$ satisfies a certain universal\nproperty. Namely, if $Y$ is a module and there exist homomorphisms\n$f_i : X_i \\to Y$ for all $i \\in I$, then there exists a unique\nhomomorphism $\\phi : Y \\to \\prod_{i \\in I} X_i$ satisfying\n$\\phi \\lambda_i = f_i$ for all $i \\in I$. $$\\xymatrix{\n  X_i\n        \\ar[dr]_{\\lambda_i}\n        \\ar[rr]^{f_i}\n  &\n  &\n  Y\n        \\ar@{-->}[dl]^{\\phi}\n  \\\\\n  &\n  \\prod_{i \\in I} X_i\n}$$\n\nThe direct product is often referred to as the [*complete direct\nsum*]{}, or the [*strong direct sum*]{}, or simply the .\n\nCompare this to the direct sum of modules.",
+  "language": "INFORMAL",
+  "phrase": "Direct Product Of Modules",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirectProductOfModules"
+    }
+  ],
+  "indexable": true
+}

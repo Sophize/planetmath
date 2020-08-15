@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An algebraic curve $$f(x,\\,y) \\;=\\; 0$$ is *decomposable*, if the\npolynomial $f(x,\\,y)$ is in $\\mathbb{R}[x,\\,y]$; that is, if there are\npolynomials $g(x,\\,y)$ and $h(x,\\,y)$ with positive degree in\n$\\mathbb{R}[x,\\,y]$ such that $$f(x,\\,y) \\;=\\; g(x,\\,y)\\,h(x,\\,y).$$\n\n**Example.** The quadratic curve $$\\begin{aligned}\n\\frac{x^2}{a^2}\\!-\\!\\frac{y^2}{b^2} \\;=\\; 0\\end{aligned}$$ is\ndecomposable, since the equation may be written\n$$\\left(\\frac{x}{a}\\!+\\!\\frac{y}{b}\\right)\\!\\left(\\frac{x}{a}\\!-\\!\\frac{y}{b}\\right) \\;=\\; 0$$\nor equivalently\n$$\\frac{x}{a}\\!+\\!\\frac{y}{b} \\;=\\; 0 \\quad \\lor \\quad \\frac{x}{a}\\!-\\!\\frac{y}{b} \\;=\\; 0.$$\nThus the curve (1) consists of two intersecting lines.\\\nAnalogically, one can say that an algebraic surface\n$$g(x,\\,y,\\,z) \\;=\\; 0$$ is *decomposable*, e.g.\n$(x\\!+\\!y\\!+\\!z)^2\\!-\\!1 = 0$ which consists of two parallel planes.",
+  "language": "INFORMAL",
+  "phrase": "Decomposable Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DecomposableCurve"
+    }
+  ],
+  "indexable": true
+}

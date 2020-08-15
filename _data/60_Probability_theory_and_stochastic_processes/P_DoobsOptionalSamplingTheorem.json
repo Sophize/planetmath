@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given a filtered probability space\n$(\\Omega,\\mathcal{F},(\\mathcal{F}_t)_{t\\in\\mathbb{T}},\\mathbb{P})$, a\nprocess $(X_t)_{t\\in\\mathbb{T}}$ is a martingale if it satisfies the\nequality $$\\mathbb{E}[X_t\\mid\\mathcal{F}_s]=X_s$$ for all $s<t$ in the\nindex set $\\mathbb{T}$. Doob\u2019s optional sampling theorem says that this\nequality still holds if the times $s,t$ are replaced by bounded stopping\ntimes $S,T$. In this case, the $\\sigma$-algebra $\\mathcal{F}_s$ is\nreplaced by the collection of ,\n$$\\mathcal{F}_S=\\left\\{A\\in\\mathcal{F}:A\\cap\\{S\\le t\\}\\in\\mathcal{F}_t\\textrm{ for all }t\\in\\mathbb{T}\\right\\}.$$\nIn discrete-time, when the index set $\\mathbb{T}$ is countable, the\nresult is as follows.\n\nSuppose that the index set $\\mathbb{T}$ is countable and that $S\\le T$\nare stopping times bounded above by some constant $c\\in\\mathbb{T}$. If\n$(X_t)$ is a martingale then $X_T$ is an integrable random variable and\n$$\\mathbb{E}[X_T|\\mathcal{F}_S] = X_S,\\ \\mathbb{P}\\textrm{ almost surely}.$$\nSimilarly, if $X$ is a submartingale then $X_T$ is integrable and\n$$\\mathbb{E}[X_T|\\mathcal{F}_S] \\ge X_S,\\ \\mathbb{P}\\textrm{ almost surely}.$$\nIf $X$ is a supermartingale then $X_T$ is integrable and\n$$\\mathbb{E}[X_T|\\mathcal{F}_S] \\le X_S,\\ \\mathbb{P}\\textrm{ almost surely}.$$\n\nThis theorem shows, amongst other things, that in the case of a fair\ncasino, where your return is a martingale, betting strategies involving\n\u2018knowing when to quit\u2019 do not enhance your expected return.\n\nIn continuous-time, when the index set $\\mathbb{T}$ an interval of the\nreal numbers, then the stopping times $S,T$ can have a continuous\ndistribution and $X_S,X_T$ need not be measurable quantities. Then, it\nis necessary to place conditions on the sample paths of the process $X$.\nIn particular, Doob\u2019s optional sampling theorem holds in continuous-time\nif $X$ is assumed to be right-continuous.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DoobsOptionalSamplingTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Doob's optional sampling theorem"
+  ]
+}

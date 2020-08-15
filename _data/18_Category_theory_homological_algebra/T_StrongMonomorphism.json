@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "strong monic",
+    "strong epi",
+    "strong epic"
+  ],
+  "definition": "Let $\\mathcal{C}$ be a category. A monomorphism $f:A\\to B$ in\n$\\mathcal{C}$ is said to be a *strong monomorphism* if, whenever we are\ngiven the following commutative diagram $$\\xymatrix@+=3pc{\n{C}\\ar[r]^{g}\\ar[d]_{x}&{D}\\ar[d]^{y}\\\\\n{A}\\ar[r]_{f}&{B}\n}$$ with $g$ an epimorphism, then there is a morphism $h: D\\to A$ such\nthat the following is another commutative diagram: $$\\xymatrix@+=3pc{\n{C}\\ar[r]^{g}\\ar[d]_{x}&{D}\\ar[d]^{y} \\ar@{.>}[dl]|{h} \\\\\n{A}\\ar[r]_{f}&{B}\n}$$\n\nNote that the \u201cdiagonal\u201d morphism $h$ is necessarily unique. In other\nwords, a monomorphism is strong iff every epimorphism is orthogonal to\nit.\n\nDually, a *strong epimorphism* is an epimorphism which is orthogonal to\nevery monomorphism in the category.\n\n**Remark**. Every regular monomorphism is strong (see proof ), and every\nstrong monomorphism is .\n\nSuppose $f:A\\to B$ is a strong monomorphism and that $f=h\\circ g$ with\n$g:A\\to C$ epimorphic. Then we have the following commutative diagram\n$$\\xymatrix@+=3pc{\n{A}\\ar[r]^{g}\\ar[d]_{1_A}&{C}\\ar[d]^{h}\\\\\n{A}\\ar[r]_{f}&{B}\n}$$ Since $f$ is strong, there is a morphism $e:C\\to A$ such that the\ndiagram below is commutative $$\\xymatrix@+=3pc{\n{A}\\ar[r]^{g}\\ar[d]_{1_A}&{C}\\ar[d]^{h} \\ar@{.>}[dl]|{e} \\\\\n{A}\\ar[r]_{f}&{B}\n}$$ This shows that $g$ is a split monomorphism, as $1_A=e\\circ g$. But\n$g$ is epimorphic, we conclude that $g$ is an isomorphism (this fact is\nproved ).\n\n[9]{} F. Borceux *Basic Category Theory, Handbook of Categorical Algebra\nI*, Cambridge University Press, Cambridge (1994)",
+  "language": "INFORMAL",
+  "phrase": "Strong Monomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StrongMonomorphism"
+    }
+  ],
+  "indexable": true
+}

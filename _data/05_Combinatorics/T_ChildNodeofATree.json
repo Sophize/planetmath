@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "child node",
+    "child"
+  ],
+  "definition": "A *child node* $C$ of a node $P$ in a tree is any node connected to $P$\nwhich has a path distance from the root node $R$ which is one greater\nthan the path distance between $P$ and $R$.\n\nDrawn in the canonical root-at-top manner, a child node of a node $P$ in\na tree is simply any node immediately below $P$ which is connected to\nit.\n\n$$\\xymatrix{\n& \\bullet \\ar@{-}[dl] \\ar@{-}[dr] & & & \\\\\n\\bullet & & {\\color{blue}\\bullet} \\ar@{-}[dr]\\ar@{-}[dl] & & \\\\\n& {\\color{red}\\bullet} \\ar@{-}[dl] & & {\\color{red}\\bullet} & \\\\\n\\bullet & & & & }$$\n\n[Figure: A node (blue) and its children (red.)]{}",
+  "language": "INFORMAL",
+  "phrase": "Child Node (Of A Tree)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChildNodeofATree"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a Banach space and $Y$ a normed space. If a family\n$\\mathcal{F}\\subset\n\\mathscr{B}(X,Y)$ of bounded operators from $X$ to $Y$ satisfies\n$$\\sup\\{\\|T(x)\\|: T\\in \\mathcal{F}\\}<\\infty$$ for each $x\\in X$, then\n$$\\sup\\{\\|T\\|: T\\in \\mathcal{F}\\}<\\infty,$$ i.e. $\\mathcal{F}$ is a\nbounded subset of $\\mathscr{B}(X,Y)$ with the usual operator norm. In\nother words, there exists a constant $c$ such that for all $x\\in X$ and\n$T\\in \\mathcal{F}$, $$\\|Tx\\|\\leq c\\|x\\|.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BanachSteinhausTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Banach-Steinhaus theorem",
+    "Principle of Uniform Boundedness",
+    "Uniform Boundedness Principle"
+  ]
+}

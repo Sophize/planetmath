@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose $X$ is a topological space. Then $X$ is\ncalled [**ladder connected**]{} provided that any open cover\n$\\mathcal{U}$ of $X$ has the following property: If $p,q\\in X$, then\nthere exists a finite number of open sets $U_1,\\ldots, U_N$ from\n$\\mathcal{U}$ such that $p\\in U_1$, $U_1\\cap U_2\\neq \\emptyset$,\n$\\ldots$ , $U_{N-1}\\cap U_N\\neq\\emptyset$, and $q\\in U_N$.",
+  "language": "INFORMAL",
+  "phrase": "Ladder Connected",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LadderConnected"
+    }
+  ],
+  "indexable": true
+}

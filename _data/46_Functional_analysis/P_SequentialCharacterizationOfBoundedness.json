@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} [@rudin_fap; @cristescu] A set $B$ in a real (or\npossibly complex) topological vector space $V$ is if and only if the\nfollowing condition holds:\n\n1.  If $\\{z_i\\}_{i=1}^\\infty$ is a sequence in $B$, and\n    $\\{\\lambda_i\\}_{i=1}^\\infty$ is a sequence of scalars (in\n    ${\\mathbb{R}}$ or $\\mathbb{C}$), such that $\\lambda_i \\to 0$, then\n    $\\lambda_i z_i\\to 0$ in $V$.\n\n[9]{} W. Rudin, *Functional Analysis*, McGraw-Hill Book Company, 1973.\nR. Cristescu, *Topological vector spaces*, Noordhoff International\nPublishing, 1977.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SequentialCharacterizationOfBoundedness"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "sequential characterization of boundedness"
+  ]
+}

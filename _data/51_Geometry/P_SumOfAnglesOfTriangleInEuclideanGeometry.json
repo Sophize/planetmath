@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The parallel postulate (in the form given in the ) allows to prove the\nimportant fact about the triangles in the Euclidean geometry:\n\n**Theorem.** The sum of the interior angles of any triangle equals the\nstraight angle.\n\n[*Proof.*]{} Let $ABC$ be an arbitrary triangle with the interior angles\n$\\alpha$, $\\beta$, $\\gamma$. In the plane of the triangle we set the\nlines $AD$ and $AE$ such that $\\wedge BAD = \\beta$ and\n$\\wedge CAE = \\gamma$. Then the lines do not intersect the line $BC$. In\nfact, if e.g. $AD$ would intersect $BC$ in a point $P$, then there would\nexist a triangle $ABP$ where an of an angle would equal to an interior\nangle of another angle which is impossible. Thus $AD$ and $AE$ are both\nparallel to $BC$. By the parallel postulate, these lines have to\ncoincide. This means that the addition of the triangle angles $\\alpha$,\n$\\beta$, $\\gamma$ gives a straight angle.\n\nSee also !\n\n[8]{} : [*Lobatsevski geomeetria*]{}. Kirjastus \u201cValgus\u201d, Tallinn\n(1992).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SumOfAnglesOfTriangleInEuclideanGeometry"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "sum of angles of triangle in Euclidean geometry"
+  ]
+}

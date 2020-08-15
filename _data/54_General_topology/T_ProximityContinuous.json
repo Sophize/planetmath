@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "near-continuousness"
+  ],
+  "definition": "Let $(P,\\delta)$ and $(Q,\\epsilon)$ be proximity spaces.\n\nA function $f: P\\to Q$ is said to be *proximity continuous* if for any\nsubsets $A,B\\subseteq P$, $A\\mathrel{\\delta}B$ implies that\n$f(A)\\mathrel{\\epsilon}f(B)$.",
+  "language": "INFORMAL",
+  "phrase": "Proximity Continuous",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProximityContinuous"
+    }
+  ],
+  "indexable": true
+}

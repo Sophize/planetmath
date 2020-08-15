@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "open ball",
+    "closed ball"
+  ],
+  "definition": "Let $X$ be a metric space, and $c\\in X$. An open *ball* around $c$ with\nradius $r>0$ is the set $$B_r(c)=\\{x\\in X: d(c,x)<r\\}$$ where $d(c,x)$\nis the distance from $c$ to $x$. Sometimes, when there is no danger of\nconfusion, an open ball is simply called a ball.\n\nThe name is derived from the fact that, in the euclidean space\n$\\mathbb{R}^3$ with the usual metric (distance between two points), a\nball has the shape of a \u201cball\u201d in the literal sense. Also, under the\nusual metric, balls are open discs in the euclidean plane $\\mathbb{R}^2$\n(see the figure below), and open intervals in the line $\\mathbb{R}$.\n\n(-1,-0.5)(5,3) (0,0)(-1,-0.5)(5,3) (2.5,1.75)[1]{}\n\nSo, on $\\mathbb{R}$ (with the standard topology), the ball with radius 1\naround $5$ is the open interval given by $\\{x : |5-x|<1\\}$, that is,\n$(4,6)$.\n\nIt should be noted that the definition of ball depends on the metric\nattached to the space. If we had considered $\\mathbb{R}^2$ with the\n*taxicab metric*, the ball with radius $1$ around zero would be the\nrhombus with vertices at $(-1,0),(0,-1),(1,0),(0,1)$ (see the figure\nbelow).\n\n(-2,-2)(2,2) (-1,-1)(-1,1)(1,1)(1,-1) (0,0)(-2,-2)(2,2)\n\nBalls are open sets under the topology induced by the metric, and\ntherefore are examples of neighborhoods.\n\nWe can also talk of closed balls (or discs):\n$$\\overline B_r(c)=\\{x\\in X: d(c,x)\\leq r\\}$$\n\nAnother common notation is $B(c,r)$.\n\n**Remark**. A ball is sometimes referred to as a *disc*, although disc\nis usually reserved for a ball in a metric space having the structure of\na two-dimensional vector space. The boundary of a closed ball is called\na *sphere*. In the case when the metric space is a two-dimensional\nvector space, a sphere is called a *circle*.",
+  "language": "INFORMAL",
+  "phrase": "Ball",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ball"
+    }
+  ],
+  "indexable": true
+}

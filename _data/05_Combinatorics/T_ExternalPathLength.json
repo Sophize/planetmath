@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a binary tree $T$, construct its extended binary tree $T'$. The\n*external path length* of $T$ is then defined to be the sum of the\nlengths of the paths to each of the external nodes.\n\nFor example, let $T$ be the following tree.\n\n![image](tree.3)\n\nThe extended binary tree of $T$ is\n\n![image](tree.4)\n\nThe external path length of $T$ (denoted $E$) is\n\n$$E = 2 + 3 + 3 + 3 + 3 + 3 + 3 = 20$$\n\nThe *internal path length* of $T$ is defined to be the sum of the\nlengths of the paths to each of the internal nodes. The internal path\nlength of our example tree (denoted $I$) is\n\n$$I = 1 + 2 + 0 + 2 + 1 + 2 = 8$$\n\nNote that in this case $E = I + 2n$, where $n$ is the number of internal\nnodes. This happens to hold for all binary trees.",
+  "language": "INFORMAL",
+  "phrase": "External Path Length",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExternalPathLength"
+    }
+  ],
+  "indexable": true
+}

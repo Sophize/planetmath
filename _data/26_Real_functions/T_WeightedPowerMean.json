@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $w_1,w_2,\\ldots,w_n$ are positive real numbers such that\n$w_1+w_2+\\cdots+w_n=1$, we define the *$r$-th weighted power mean* of\nthe $x_i$ as:\n\n$$M_w^r(x_1,x_2,\\ldots,x_n)=\\left({w_1x_1^r+w_2x_2^r+\\cdots+w_nx_n^r}\\right)^{1/r}.$$\n\nWhen all the $w_i=\\frac{1}{n}$ we get the standard power mean. The\nweighted power mean is a continuous function of $r$, and taking limit\nwhen $r\\to0$ gives us $$M_w^0=x_1^{w_1}x_2^{w_2}\\cdots w_n^{w_n}.$$\n\nWe can weighted use power means to generalize the power means\ninequality: If $w$ is a set of weights, and if $r<s$ then\n$$M_w^r \\leq M_w^s.$$",
+  "language": "INFORMAL",
+  "phrase": "Weighted Power Mean",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeightedPowerMean"
+    }
+  ],
+  "indexable": true
+}

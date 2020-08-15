@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $\\mathcal{A}$ be a complex Banach algebra with\nidentity element $e$. Let $x \\in \\mathcal{A}$ and $\\sigma(x)$ denote its\nspectrum.\n\nThen, the $R_x : \\mathbb{C}-\\sigma(x) \\longrightarrow \\mathcal{A}$\ndefined by $R_x(\\lambda) = (x-\\lambda e)^{-1}$ is .\n\nMoreover, for each $\\lambda_0 \\in \\mathbb{C} - \\sigma(x)$ it has the\npower series $$\\begin{aligned}\nR_x(\\lambda) = \\sum_{n=0}^{\\infty} R_x(\\lambda_0)^{n+1}(\\lambda -\\lambda_0)^n\\end{aligned}$$\nwhere the series converges absolutely for each $\\lambda$ in the open\ndisk centered in $\\lambda_0$ given by $$\\begin{aligned}\n|\\lambda - \\lambda_0| < \\frac{1}{\\|R_x(\\lambda_0)\\|}\\end{aligned}$$\n\n[**Proof :**]{} Analyticity is defined for functions whose domain is\nopen.\n\nThus, we start by proving that $\\mathbb{C} - \\sigma(x)$ is an open set\nin $\\mathbb{C}$. To do so it is enough to prove that for every\n$\\lambda_0 \\in \\mathbb{C} - \\sigma(x)$ the open disk defined by (2)\nabove is contained in $\\mathbb{C} - \\sigma(x)$.\n\nLet $\\lambda_0 \\in \\mathbb{C} - \\sigma(x)$ and $\\lambda$ be such that\n$$|\\lambda - \\lambda_0| < \\frac{1}{\\|R_x(\\lambda_0)\\|}$$\n\nThen $\\|(\\lambda - \\lambda_0)R_x(\\lambda_0)\\| < 1$ and by the\n$e - (\\lambda - \\lambda_0)R_x(\\lambda_0)$ is invertible.\n\nSince $\\lambda_0 \\notin \\sigma(x)$ it follows that $(x-\\lambda_0 e)$ is\ninvertible.\n\nHence, from the equality $$\\begin{aligned}\nx-\\lambda e = x- \\lambda_0 e - (\\lambda - \\lambda_0)e = (x-\\lambda_0 e)\\cdot [e - (\\lambda - \\lambda_0)R_x(\\lambda_0)]\\end{aligned}$$\nwe conclude that $x - \\lambda e$ is also invertible, i.e.\n$\\lambda \\in \\mathbb{C} - \\sigma(x)$. Thus $\\mathbb{C} - \\sigma(x)$ is\nopen.\n\nThe above proof also pointed out that for every\n$\\lambda_0 \\in \\mathbb{C}$, $R_x$ is defined in the open disk of radius\n$\\displaystyle \\frac{1}{\\|R_x(\\lambda_0)\\|}$ centered in $\\lambda_0$.\n\nWe now prove the analyticity of the .\n\nTaking inverses on the equality (3) above one obtains\n$$R_x(\\lambda) = (e-(\\lambda-\\lambda_0)R_x(\\lambda_0))^{-1} \\cdot R_x(\\lambda_0)$$\n\nAgain, by the , one obtains\n$$R_x(\\lambda) = \\left[ \\sum_{n=0}^{\\infty} R_x(\\lambda_0)^{n}(\\lambda -\\lambda_0)^n \\right]\\cdot R_x(\\lambda_0) =\n\\sum_{n=0}^{\\infty} R_x(\\lambda_0)^{n+1}(\\lambda -\\lambda_0)^n  \\;\\;\\;\\;\\square$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ResolventFunctionIsAnalytic"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "resolvent function is analytic"
+  ]
+}

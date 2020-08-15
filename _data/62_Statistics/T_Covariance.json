@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "cov",
+    "correlation",
+    "correlation coefficient"
+  ],
+  "definition": "The *covariance* of two random variables $X_1$ and $X_2$ with $\\mu_1$\nand $\\mu_2$ respectively is defined as\n\n$${\\mathrm{cov}}(X_1,X_2) {:=}E[(X_1 - \\mu_1)(X_2 - \\mu_2)].$$\n\nThe covariance of a random variable $X$ with itself is simply the\nvariance, $E[(X - \\mu)^2]$.\n\nCovariance captures a measure of the correlation of two variables.\nPositive covariance indicates that as $X_1$ increases, so does $X_2$.\nNegative covariance indicates $X_1$ decreases as $X_2$ increases and\nvice versa. Zero covariance can indicate that $X_1$ and $X_2$ are\nuncorrelated.\n\nThe *correlation coefficient* provides a normalized view of correlation\nbased on covariance:\n\n$${\\mathrm{corr}}(X,Y) {:=}\\frac{{\\mathrm{cov}}(X,Y)}{\\sqrt{{\\mathrm{var}}(X){\\mathrm{var}}(Y)}}.$$\n\n${\\mathrm{corr}}(X,Y)$ ranges from -1 (for negatively correlated\nvariables) through zero (for uncorrelated variables) to +1 (for\npositively correlated variables).\n\nWhile if $X$ and $Y$ are independent we have ${\\mathrm{corr}}(X,Y)=0$,\nthe latter does not imply the former.",
+  "language": "INFORMAL",
+  "phrase": "Covariance",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Covariance"
+    }
+  ],
+  "indexable": true
+}

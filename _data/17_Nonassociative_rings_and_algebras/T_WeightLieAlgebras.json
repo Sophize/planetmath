@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "weight"
+  ],
+  "definition": "Let ${\\mathfrak}{h}$ be an abelian Lie algebra, $V$ a vector space and\n$\\rho\\colon{\\mathfrak}{h}\\to\\operatorname{End}V$ a representation. Then\nthe representation is said to be *diagonalisable*, if $V$ can be written\nas a direct sum\n$$V={\\bigoplus\\limits}_{\\lambda\\in{\\mathfrak}{h}^*}V_\\lambda$$ where\n${\\mathfrak}{h}^*$ is the dual space of ${\\mathfrak}{h}$ and\n$$V_\\lambda=\\{v\\in V\\mid\\rho(h)v=\\lambda(h)v\\text{ for all\n}h\\in{\\mathfrak}{h}\\}.$$\n\nNow let ${\\mathfrak}{g}$ be a semi-simple Lie algebra. Fix a Cartan\nsubalgebra ${\\mathfrak}{h}$, then ${\\mathfrak}{h}$ is abelian. Let\n$\\rho\\colon{\\mathfrak}{g}\\to\\operatorname{End}V$ be a representation\nwhose restriction to ${\\mathfrak}{h}$ is diagonalisable. Then for any\n$\\lambda\\in{\\mathfrak}{h}^*$, the space $V_\\lambda$ is the *weight\nspace* of $\\lambda$ with respect to $\\rho$. The *multiplicity* of\n$\\lambda$ with respect to $\\rho$ is the dimension of $V_\\lambda$:\n$$\\operatorname{mult}_\\rho(\\lambda):=\\dim V_\\lambda.$$ If the\nmultiplicity of $\\lambda$ is greater than zero, then $\\lambda$ is called\na *weight* of the representation $\\rho$.\n\nA representation of a semi-simple Lie algebra is determined by the\nmultiplicities of its weights.",
+  "language": "INFORMAL",
+  "phrase": "Weight (Lie Algebras)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeightLieAlgebras"
+    }
+  ],
+  "indexable": true
+}

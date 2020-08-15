@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "We will show how to compute the last non-zero digit of the factorial of\na number from its digits without having to compute the factorial itself.\n\nLet $L(n)$ denote the last non-zero digit of $n$ in base 10. We note\nsome basic properties of $L$ which can easily be checked:\n\n-   For all $n$, we have $L(10n) = L(n)$.\n\n-   If $L(m) \\neq 5$ and $L(n) \\neq 5$, then $L(mn) = L (L(m) L(n))$.\n\nWe also tabulate the values of $L(n!)$ for small values of $n$:\n$$\\begin{aligned}\nL(0!) &=& 1 \\\\\nL(1!) &=& 1 \\\\\nL(2!) &=& 2 \\\\\nL(3!) &=& 6 \\\\\nL(4!) &=& 4 \\\\\nL(5!) &=& 2 \\\\\nL(6!) &=& 2 \\\\\nL(7!) &=& 4 \\\\\nL(8!) &=& 2 \\\\\nL(9!) &=& 8 \\\\\nL(10!) &=& 8 \\end{aligned}$$\n\nNext, we make two less trivial observations:\n\nFor all positive integers $n$, we have $L(n!) \\neq 5$.",
+  "language": "INFORMAL",
+  "phrase": "Last Non-Zero Digit Of Factorial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LastNonzeroDigitOfFactorial"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f_1, f_2, \\dotsc$ be ${\\mathbf{L}}^p$-integrable functions on some\nmeasure space, for $1 \\leq p < \\infty$.\n\nThe sequence $\\{ f_n \\}$ converges in ${\\mathbf{L}}^p$ to a measurable\nfunction $f$ if and and only if\n\n1.  the sequence $\\{ f_n \\}$ converges to $f$ in measure;\n\n2.  the functions $\\{ {\\lvertf_n\\rvert}^p \\}$ are uniformly integrable;\n    and\n\n3.  for every $\\epsilon > 0$, there exists a set $E$ of finite measure,\n    such that $\\int_{E^\\mathrm{c}} {\\lvertf_n\\rvert}^p < \\epsilon$ for\n    all $n$.\n\nRemarks {#remarks .unnumbered}\n-------\n\nThis theorem can be used as a replacement for the more well-known\ndominated convergence theorem, when a dominating cannot be found for the\nfunctions $f_n$ to be integrated. (If this theorem is known, the\ndominated convergence theorem can be derived as a special case.)\n\nIn a finite measure space, condition (iii) is trivial. In fact,\ncondition (iii) is the tool used to reduce considerations in the general\ncase to the case of a finite measure space.\n\nIn probability , the definition of \u201cuniform integrability\u201d is slightly\ndifferent from its definition in general measure theory; either\ndefinition may be used in the statement of this theorem.\n\n[3]{} Gerald B. Folland. [*Real Analysis: Modern Techniques and Their\nApplications*]{}, second ed. Wiley-Interscience, 1999.\n\nJeffrey S. Rosenthal. [*A First Look at Rigorous Probability Theory*]{}.\nWorld Scientific, 2003.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VitaliConvergenceTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Vitali convergence theorem",
+    "uniform-integrability convergence theorem"
+  ]
+}

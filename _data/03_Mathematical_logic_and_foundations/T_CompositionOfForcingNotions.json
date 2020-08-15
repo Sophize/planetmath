@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $P$ is a forcing notion in $\\mathfrak{M}$ and $\\hat{Q}$ is some\n$P$-name such that $\\Vdash_P \\hat{Q}$` is a forcing notion`.\n\nThen take a set of $P$-names $Q$ such that given a $P$ name $\\tilde{Q}$\nof $Q$, $\\Vdash_P \\tilde{Q}=\\hat{Q}$ (that is, no matter which generic\nsubset $G$ of $P$ we force with, the names in $Q$ correspond precisely\nto the elements of $\\hat{Q}[G]$). We can define\n\n$$P*Q=\\{\\langle p,\\hat{q}\\rangle \\mid p\\in P, \\hat{q}\\in Q\\}$$\n\nWe can define a partial order on $P*Q$ such that\n$\\langle p_1,\\hat{q}_1\\rangle\\leq \\langle p_2,\\hat{q}_2\\rangle$ iff\n$p_1\\leq_P p_2$ and $p_1\\Vdash \\hat{q}_1\\leq_{\\hat{Q}} \\hat{q}_2$. (A\nnote on interpretation: $q_1$ and $q_2$ are $P$ names; this requires\nonly that $\\hat{q}_1\\leq \\hat{q}_2$ in generic subsets contain $p_1$, so\nin other generic subsets that fact could fail.)\n\nThen $P*\\hat{Q}$ is itself a forcing notion, and it can be shown that\nforcing by $P*\\hat{Q}$ is equivalent to forcing first by $P$ and then by\n$\\hat{Q}[G]$.",
+  "language": "INFORMAL",
+  "phrase": "Composition Of Forcing Notions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompositionOfForcingNotions"
+    }
+  ],
+  "indexable": true
+}

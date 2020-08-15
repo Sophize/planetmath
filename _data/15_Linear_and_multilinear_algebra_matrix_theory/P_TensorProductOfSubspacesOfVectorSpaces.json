@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Proposition.** Let $V,W$ be vector spaces over a field $k$. Moreover\nlet $A\\subseteq V$, $B\\subseteq W$ be subspaces. Then\n$V\\otimes B\\cap A\\otimes W=A\\otimes B$.\n\n*Proof.* The inclusion ,,$\\supseteq$\u201d is obvious. We will show the\ninclusion ,,$\\subseteq$\u201d.\n\nLet $\\{e_i\\}_{i\\in I}$ and $\\{e'_j\\}_{j\\in P}$ be bases of $A$ and $B$\nrespectively. Moreover let $\\{e_i\\}_{i\\in I'}$ be a completion of given\nbasis of $A$ to the basis of $V$, i.e. $\\{e_i\\}_{i\\in I\\cup I'}$ is a\nbasis of $V$. Analogously let $\\{e'_j\\}_{j\\in P'}$ be a completion of a\nbasis of $B$ to the basis of $W$. Then each element $q\\in V\\otimes W$\ncan be uniquely written in a form\n$$q=\\sum_{i\\in I,j\\in P}\\alpha_{i,j}\\, e_i\\otimes e'_j\\ + \\ \\sum_{i\\in I',j\\in P}\\beta_{i,j}\\, e_i\\otimes e'_j\\ +$$\n$$+\\ \\sum_{i\\in I,j\\in P'}\\delta_{i,j}\\, e_i\\otimes e'_j\\ +\\ \\sum_{i\\in I',j\\in P'}\\gamma_{i,j}\\, e_i\\otimes e'_j.$$\nAssume that $q\\in V\\otimes B\\cap A\\otimes W.$ Let $i\\in I'$ and\n$j\\in P'$. Consider the following linear map: $f_i:V\\to k$ such that\n$f_i(e_t)=1$ if $i=t$ and $f_i(e_t)=0$ if $i\\neq t$. Analogously we\ndefine $g_j:W\\to k$. Then we combine these two mappings into one, i.e.\n$$f_i\\otimes g_j:V\\otimes W\\to k;$$\n$$(f_i\\otimes g_j)(v\\otimes w)=f_i(v)g_j(w).$$ Furthermore we have\n$$(f_i\\otimes g_j)(q)=\\gamma_{i,j}.$$ Note that since $q\\in V\\otimes B$,\nthen $(f_i\\otimes g_j)(q)=0$ and thus $$\\gamma_{i,j}=0.$$ Similarly we\nobtain that all $\\beta_{i,j}$ and $\\delta_{i,j}$ are equal to $0$. Thus\n$$q=\\sum_{i\\in I,j\\in P}\\alpha_{i,j}\\, e_i\\otimes e'_j\\in A\\otimes B,$$\nwhich completes the proof. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TensorProductOfSubspacesOfVectorSpaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "tensor product of subspaces of vector spaces"
+  ]
+}

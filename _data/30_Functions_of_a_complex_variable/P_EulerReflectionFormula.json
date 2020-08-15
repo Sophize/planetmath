@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "(Euler Reflection Formula)\n$$\\Gamma(x)\\Gamma(1-x)=\\frac{\\pi}{\\sin(\\pi x)}$$\n\n**Proof:** We have\n$$\\frac{1}{\\Gamma(x)}=xe^{\\gamma x}\\prod_{n=1}^{\\infty} \\left(\\left(1+\\frac{x}{n}\\right)e^{-x/n}\\right)$$\nand thus\n$$\\frac{1}{\\Gamma(x)}\\frac{1}{\\Gamma(-x)}=-x^2e^{\\gamma x}e^{-\\gamma x}\\prod_{n=1}^{\\infty}\n\\left(\\left(1+\\frac{x}{n}\\right)e^{-x/n}\\right)\\left(\\left(1-\\frac{x}{n}\\right)e^{x/n}\\right)=-x^2\\prod_{n=1}^{\\infty}\\left(1-\\frac{x^2}{n^2}\\right)$$\nBut $\\Gamma(1-x)=-x\\Gamma(-x)$ and thus\n$$\\frac{1}{\\Gamma(x)}\\frac{1}{\\Gamma(1-x)}=x\\prod_{n=1}^{\\infty}\\left(1-\\frac{x^2}{n^2}\\right)$$\nNow, using the for $\\sin x/x$, we have\n$$\\sin(\\pi x)=\\pi x\\prod_{n=1}^{\\infty}\\left(1-\\frac{x^2}{n^2}\\right)$$\nso that\n$$\\frac{1}{\\Gamma(x)}\\frac{1}{\\Gamma(1-x)}=\\frac{\\sin(\\pi x)}{\\pi}$$ and\nthe result follows.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulerReflectionFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Euler reflection formula"
+  ]
+}

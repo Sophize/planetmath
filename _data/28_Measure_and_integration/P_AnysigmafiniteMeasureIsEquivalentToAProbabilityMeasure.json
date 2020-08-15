@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem states that for any measure $\\mu$, there is an\nequivalent probability measure $\\mathbb{P}$ \u2014 that is, the sets $A$\nsatisfying $\\mu(A)=0$ are the same as those satisfying\n$\\mathbb{P}(A)=0$. This result allows statements about probability\nmeasures to be generalized to arbitrary $\\sigma$-finite measures.\n\nAny nonzero $\\sigma$-finite measure $\\mu$ on a measurable space\n$(X,\\mathcal{A})$ is equivalent to a probability measure $\\mathbb{P}$ on\n$(X,\\mathcal{A})$. In particular, there is a positive measurable\nfunction $f\\colon X\\rightarrow(0,\\infty)$ satisfying $\\int f\\,d\\mu=1$,\nand $\\mathbb{P}(A)=\\int_Af\\,d\\mu$ for all $A\\in\\mathcal{A}$.\n\nLet $A_1,A_2,\\ldots$ be a sequence in $\\mathcal{A}$ such that\n$\\mu(A_k)<\\infty$ and $\\bigcup_kA_k=X$. Then it is easily verified that\n$$g\\equiv\\sum_{k=1}^\\infty 2^{-k}\\frac{1_{A_k}}{1+\\mu(A_k)}$$ satisfies\n$1\\ge g>0$ and $\\int g\\,d\\mu<\\infty$. So, setting $f=g/\\int g\\,d\\mu$, we\nhave $\\int f\\,d\\mu=1$ and therefore $\\mathbb{P}(A)\\equiv\\int_Af\\,d\\mu$\nis a probability measure equivalent to $\\mu$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnysigmafiniteMeasureIsEquivalentToAProbabilityMeasure"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "any $\\sigma$-finite measure is equivalent to a probability measure"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ be a category. An object $P$ in $\\mathcal{C}$ is said\nto be *projective* if, given a diagram on the left, with $g$ a strong\nepimorphism, there is a morphism $h:P\\to A$ making the diagram on the\nright commutative: $$\\xymatrix@+=4pc{\n&{P}\\ar[d]^{f}\\\\\n{A}\\ar[r]_{g}&{B}\n}\n\\hspace{4cm}\n\\xymatrix@+=4pc{\n&{P}\\ar[d]^{f} \\ar@{.>}[dl]_h \\\\\n{A}\\ar[r]_{g}&{B}\n}$$ An *injective object* can be defined dually: an object $Q$ in\n$\\mathcal{C}$ is *injective* if, given a diagram on the left, with $g$ a\nstrong monomorphism, there is a morphism $h:B\\to Q$ making the digram on\nthe right commutative: $$\\xymatrix@+=4pc{\n{A}\\ar[r]^{g} \\ar[d] &{B} \\\\\nQ &\n}\n\\hspace{4cm}\n\\xymatrix@+=4pc{\n{A}\\ar[r]^{g} \\ar[d] &{B} \\ar@{.>}[dl]^h \\\\\nQ &\n}$$\n\nWhen $\\mathcal{C}$ is an abelian category, we have the following: an\nobject $P$ in $\\mathcal{C}$ is projective iff\n$$\\operatorname{Hom}(P,-)\\colon\\mathcal{C}\\to\\mathbf{Ab}$$ is an exact\nfunctor, where $\\mathbf{Ab}$ is the category of abelian groups. Dually,\nan object $Q$ is injective iff the $\\operatorname{Hom}(-,Q)$ functor\nfrom $\\mathcal{C}$ to $\\mathbf{Ab}$ is exact.\n\n**Example.** Let $R$ be a ring with 1. Consider the category of left\n$R$-modules $\\mathcal{M}_R$. $\\mathcal{M}_R$ is an abelian category. The\nprojective objects in $\\mathcal{M}_R$ are precisely the . So $R$ is\nitself a projective object in $\\mathcal{M}_R$.\n\nDually, the injective objects in $\\mathcal{M}_R$ are exactly the .\n\n[9]{} F. Borceux *Basic Category Theory, Handbook of Categorical Algebra\nI*, Cambridge University Press, Cambridge (1994)",
+  "language": "INFORMAL",
+  "phrase": "Projective Object",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProjectiveObject"
+    }
+  ],
+  "indexable": true
+}

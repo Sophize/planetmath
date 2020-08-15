@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "flag manifold"
+  ],
+  "definition": "Let $k$ be a field, and let $V$ be a vector space over $k$ of dimension\n$n$ and choose an increasing sequence $\\mathbf{i}=(i_1,\\ldots,i_m)$,\nwith $1\\leq i_1<\\cdots <i_m\\leq n$. Then the [*(partial) flag\nvariety*]{} ${\\mathcal{F}}\\ell(V,\\mathbf{i})$ associated to this data is\nthe set of all flags $\\{0\\}\\leq V_1\\subset\\cdots\\subset V_{n}$ with\n$\\dim V_j=i_j$. This has a natural embedding into the product of\nGrassmannians $G(V,i_1)\\times\\cdots G(V,i_m)$, and its image here is\nclosed, making ${\\mathcal{F}}\\ell(V,\\mathbf{i})$ into a projective\nvariety over $k$. If $k={\\mathbb{C}}$ these are often called [*flag\nmanifolds*]{}.\n\nThe group $\\mathrm{Sl}(V)$ acts transtively on\n${\\mathcal{F}}\\ell(V,\\mathbf{i})$, and the stabilizer of a point is a\nparabolic subgroup. Thus, as a homogeneous space,\n${\\mathcal{F}}\\ell(V,\\mathbf{i})\\cong\\mathrm{Sl}(V)/P$ where $P$ is a\nparabolic subgroup of $\\mathrm{Sl}(V)$. In particular, the complete flag\nvariety is isomorphic to $\\mathrm{Sl}(V)/B$, where $B$ is the Borel\nsubgroup.",
+  "language": "INFORMAL",
+  "phrase": "Flag Variety",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FlagVariety"
+    }
+  ],
+  "indexable": true
+}

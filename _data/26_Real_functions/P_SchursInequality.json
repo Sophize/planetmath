@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} (Schur\u2019s inequality) Let $A$ be a square $n\\times n$\nmatrix with real (or possibly complex entries). If\n$\\lambda_1,\\ldots, \\lambda_n$ are the eigenvalues of $A$, and $D$ is the\ndiagonal matrix $D=\\operatorname{diag}(\\lambda_1,\\ldots, \\lambda_n)$,\nthen $$\\begin{aligned}\n\\Vert D \\Vert_F &\\le& \\Vert A \\Vert_F,\\end{aligned}$$ where\n$\\Vert\\cdot \\Vert_F$ is the Frobenius matrix norm. Equality holds if and\nonly if $A$ is a normal matrix.\n\n[9]{} V.V. Prasolov, *Problems and Theorems in Linear Algebra*, American\nMathematical Society, 1994.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchursInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Schur's inequality"
+  ]
+}

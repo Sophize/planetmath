@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let\u2019s say that $g$ is differentiable in $x_0$ and $f$ is differentiable\nin $y_0 = g(x_0)$. We define: $$\\varphi(y) = \\left \\{ \\begin{array}{ll}\n\\frac{f(y) - f(y_0)}{y-y_0} & \\textrm{if $y \\neq y_0$} \\\\\nf'(y_0) & \\textrm{if $y = y_0$}\n\\end{array} \\right.$$\n\nSince $f$ is differentiable in $y_0$, $\\varphi$ is continuous. We\nobserve that, for $x \\neq x_0$,\n$$\\frac{f(g(x))-f(g(x_0))}{x-x_0} = \\varphi(g(x)) \\frac{g(x) - g(x_0)}{x-x_0},$$\nin fact, if $g(x) \\neq g(x_0)$, it follows at once from the definition\nof $\\varphi$, while if $g(x) = g(x_0)$, both members of the equation are\n0.\n\nSince $g$ is continuous in $x_0$, and $\\varphi$ is continuous in $y_0$,\n$$\\lim_{x \\to x_0} \\varphi(g(x)) = \\varphi(g(x_0)) = f'(g(x_0)),$$ hence\n$$\\begin{aligned}\n(f \\circ g)'(x_0) &=& \\lim_{x\\to x_0} \\frac{f(g(x))-f(g(x_0))}{x-x_0}  \\\\\n  &=& \\lim_{x\\to x_0} \\varphi(g(x)) \\frac{g(x) - g(x_0)}{x-x_0}  \\\\\n  &=& f'(g(x_0))g'(x_0). \\end{aligned}$$",
+  "conclusion": "#P_ChainRule",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfChainRule"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of chain rule"
+  ]
+}

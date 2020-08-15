@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "There are different definitions of [*semifield*]{}. We give three such\nwhich are not .\n\nLet $K$ be a set with two binary operations \u201c$+$\u201d and \u201c$\\cdot$\u201d.\n\n-   Semifield $(K,\\,+,\\,\\cdot)$ is a semiring where all non-zero\n    elements have a multiplicative inverse.\n\n-   Semifield is the algebraic system $(K,\\,+,\\,\\cdot)$, where $(K,\\,+)$\n    is a group (identity $:= 0$), the multiplication \u201c$\\cdot$\u201d\n    distributes over the addition \u201c$+$\u201d, $K$ the multiplicative identity\n    $:= 1$ and all equations $ax = b$ and $ya = b$ with $a \\ne 0$ have\n    solutions $x$, $y$ in $K$.\n\n-   Semifield $(K,\\,+,\\,\\cdot)$ satisfies all postulates of field except\n    the associativity of the multiplication \u201c$\\cdot$\u201d.",
+  "language": "INFORMAL",
+  "phrase": "Semifield",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Semifield"
+    }
+  ],
+  "indexable": true
+}

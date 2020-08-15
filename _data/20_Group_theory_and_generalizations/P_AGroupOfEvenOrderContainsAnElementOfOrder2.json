@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every group of even order contains an element of order $2$.\n\nLet $G$ be a group of even order, and consider the set\n$S=\\{g\\in G:g\\neq g^{-1}\\}$. We claim that $\\vert S\\vert$ is even; to\nsee this, let $a\\in S$, so that $a\\neq a^{-1}$; since\n$(a^{-1})^{-1}=a\\neq a^{-1}$, we see that $a^{-1}\\in S$ as well. Thus\nthe elements of $S$ may be exhausted by repeatedly selecting an element\nand it with its inverse, from which it follows that $\\vert S\\vert$ is a\nof $2$ (i.e., is even). Now, because $S\\cap (G\\setminus S)=\\emptyset$\nand $S\\cup(G\\setminus S)=G$, it must be that\n$\\vert S\\vert+\\vert G\\setminus S\\vert=\\vert G\\vert$, which, because\n$\\vert G\\vert$ is even, implies that $\\vert G\\setminus S\\vert$ is also\neven. The identity element $e$ of $G$ is in $G\\setminus S$, being its\nown inverse, so the set $G\\setminus S$ is nonempty, and consequently\nmust contain at least two distinct elements; that is, there must exist\nsome $b\\neq e\\in G\\setminus S$, and because $b\\notin S$, we have\n$b=b^{-1}$, hence $b^2=1$. Thus $b$ is an element of order $2$ in $G$.\n\nNotice that the above is logically equivalent to the assertion that a\ngroup of even order has a non-identity element that is its own inverse.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AGroupOfEvenOrderContainsAnElementOfOrder2"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a group of even order contains an element of order 2"
+  ]
+}

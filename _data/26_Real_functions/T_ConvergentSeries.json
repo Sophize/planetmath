@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A series $\\sum a_n$ is said to be *convergent* if the sequence of\npartial sums $\\sum_{i=1}^n a_i$ is convergent. A series that is not\nconvergent is said to be *divergent*.\n\nA series $\\sum a_n$ is said to be *absolutely convergent* if\n$\\sum |a_n|$ is convergent.\n\nWhen the terms of the series live in $\\R^n$, an equivalent condition for\nabsolute convergence of the series is that all possible series obtained\nby rearrangements of the terms are also convergent. (This is not true in\narbitrary metric spaces.)\n\nIt can be shown that absolute convergence implies convergence. A series\nthat converges, but is not absolutely convergent, is called\nconditionally convergent.\n\nLet $\\sum a_n$ be an absolutely convergent series, and $\\sum b_n$ be a\nconditionally convergent series. Then any rearrangement of $\\sum a_n$ is\nconvergent to the same sum. It is a result due to Riemann that\n$\\sum b_n$ can be rearranged to converge to any sum, or not converge at\nall.",
+  "language": "INFORMAL",
+  "phrase": "Convergent Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvergentSeries"
+    }
+  ],
+  "indexable": true
+}

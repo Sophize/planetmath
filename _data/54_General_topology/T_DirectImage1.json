@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $f : X\\to Y$ is a continuous map of topological spaces and\n$\\mathcal{F}$ is a sheaf on $X$, the [*direct image*]{} sheaf,\n$f_*\\mathcal{F}$ on $Y$ is defined by\n\n$(f_*\\mathcal{F})(V) = \\mathcal{F}(f^{-1}(V))$\n\nfor open sets $V\\subset Y$, with the restriction maps induced from those\nof $\\mathcal{F}$.",
+  "language": "INFORMAL",
+  "phrase": "Direct Image",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirectImage1"
+    }
+  ],
+  "indexable": true
+}

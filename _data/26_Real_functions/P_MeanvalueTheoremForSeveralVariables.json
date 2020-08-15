@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The mean-value theorem for a function of one real variable may be\ngeneralised for functions of arbitrarily many real variables; for the\nsake of concreteness, we here formulate it for the case of three\nvariables:\\\n**Theorem.** If a function $f(x,\\,y,\\,z)$ is continuously differentiable\nin an open set of $\\mathbb{R}^3$ containing the points\n$(x_1,\\,y_1,\\,z_1)$ and $(x_2,\\,y_2,\\,z_2)$ and the line segment\nconnecting them, then an equation\n$$f(x_2,\\,y_2,\\,z_2)-f(x_1,\\,y_1,\\,z_1) \\;=\\; \nf'_x(a,\\,b,\\,c)(x_2\\!-\\!x_1)+f'_y(a,\\,b,\\,c)(y_2\\!-\\!y_1)+f'_z(a,\\,b,\\,c)(z_2\\!-\\!z_1),$$\nwhere $(a,\\,b,\\,c)$ an interior point of the line segment, is .\\",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeanvalueTheoremForSeveralVariables"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "mean-value theorem for several variables"
+  ]
+}

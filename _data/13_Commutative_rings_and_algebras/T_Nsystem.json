@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "n-system"
+  ],
+  "definition": "Let $R$ be a ring. A subset $S$ of $R$ is said to be an $n$-system if\n\n-   $S\\ne \\varnothing$, and\n\n-   for every $x\\in S$, there is an $r\\in R$, such that $xrx\\in S$.\n\n$n$-systems are a generalization of in a ring. Every $m$-system is an\n$n$-system, but not conversely. For example, for any distinct\n$x,y\\in R$, inductively define the elements\n$$a_0=x,\\ \\mbox{ and }\\ a_{i+1}=a_i y^i a_i\\ \\ \\mbox{ for }i=0,1,2,\\ldots.$$\nForm the set\n$A=\\lbrace a_n\\mid n\\mbox{ is a non-negative integer}\\rbrace$. In\naddition, inductively define\n$$b_0=y,\\ \\mbox{ and }\\ b_{j+1}=b_j x^j b_j\\ \\ \\mbox{ for }j=0,1,2\\ldots,$$\nand form $B=\\lbrace b_m\\mid m\\mbox{ is a non-negative integer}\\rbrace$.\nThen both $A$ and $B$ are $m$-systems (as well as $n$-systems).\nFurthermore, $S=A\\cup B$ is an $n$-system which is not an $m$-system.\n\nThe example above suggests that, given an $n$-system $S$ and any\n$x\\in S$, we can \u201cconstruct\u201d an $m$-system $T\\subseteq S$ such that\n$x\\in T$. Start with $a_0=x$, inductively define $a_{i+1}=a_iy_ia_i$,\nwhere the existence of $y_i\\in R$ such that $a_{i+1}\\in S$ is guaranteed\nby the fact that $S$ is an $n$-system. Then the collection\n$T:=\\lbrace a_i\\mid i\\mbox{ is a non-negative integer}\\rbrace$ is a\nsubset of $S$ that is an $m$-system. For if we pick any $a_i$ and $a_j$,\nif $i\\le j$, then $a_i$ is both the left and right sections of $a_j$,\nmeaning that there are $r,s\\in R$ such that $a_j=ra_i=a_is$ (this can be\neasily proved inductively). As a result, $a_i(sy_j)a_j=a_jy_ja_j\\in S$,\nand $a_j(y_jr)a_i=a_jy_ja_j\\in S$.\n\n**Remark** $n$-systems provide another characterization of a semiprime\nideal: an ideal $I\\subseteq R$ is semiprime iff $R-I$ is an $n$-system.\n\nSuppose $I$ is semiprime. Let $x\\in R-I$. Then $xRx\\nsubseteq I$, which\nmeans there is an element $y\\in R$ such that $xyx\\notin I$. So $R-I$ is\nan $n$-system. Now suppose that $R-I$ is an $n$-system. Let $x\\in R$\nwith the condition that $xRx\\subseteq I$. This means $xyx\\in I$ for all\n$y\\in R$. If $x\\in R-I$, then there is some $y\\in R$ with $xyx\\in R-I$,\ncontradicting condition on $x$. Therefore, $x\\in I$, and $I$ is\nsemiprime.",
+  "language": "INFORMAL",
+  "phrase": "$N$-System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Nsystem"
+    }
+  ],
+  "indexable": true
+}

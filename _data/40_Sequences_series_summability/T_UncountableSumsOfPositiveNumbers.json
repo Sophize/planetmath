@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The notion of sum of a series can be generalized to sums of nonnegative\nreal numbers over arbitrary index sets.\n\nlet $I$ be a set and let $c$ be a mapping from $I$ to the nonnegative\nreal numbers. Then we may define the sum as follows:\n$$\\sum_{i \\in I} c_i = \\sup_{s \\subset I \\atop \\#s < \\infty} \\sum_{i\n \\in s} c_i$$ In words, we are taking the supremum over all sums over\nfinite subsets of the index set. This agrees with the usual notion of\nsum when our set is countably infinite, but generalizes this notion to\nuncountable index sets.\n\nAn important fact about this generalization is that the sum can only be\nfinite if the number of elements $i \\in I$ such that $c_i > 0$ is\ncountable. To demonstrate this fact, define the sets $s_n$ (where n is a\nnonnegative integer) as follows: $$s_0 = \\{ i \\in I \\mid c_i \\ge 1 \\}$$\nwhen $n>0$, $$s_n = \\{ i \\in I \\mid 1/n > c_i \\ge 1/(n+1) \\}$$ If any of\nthese sets is infinite, then the sum will diverge so, for the sum to be\nfinite, all these sets must be finite. However, if these sets are all\nfinite, then their union is countable. In other words, the number of\nindices for which $c_i > 0$ will be countable.\n\nThis notion finds use in places such as non-separable Hilbert spaces.\nFor instance, given a vector in such a space and a complete orthonormal\nset, one can express the norm of the vector as the sum of the squares of\nits components using this definition even when the orthonormal set is\nuncountably infinite.\n\nThis discussion can also be phrased in terms of Lesbegue integration\nwith respect to counting measure. For this point of view, please see the\nentry support of integrable function with respect to counting measure is\ncountable.",
+  "language": "INFORMAL",
+  "phrase": "Uncountable Sums Of Positive Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UncountableSumsOfPositiveNumbers"
+    }
+  ],
+  "indexable": true
+}

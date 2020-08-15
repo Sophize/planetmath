@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "### Definition\n\nLet $X$ be a topological vector space and $M \\subseteq X$ a subspace.\n\nIf there exists a closed subspace $N \\subseteq X$ such that\n$$M \\oplus N = X$$ we say that $M$ is [**topologically\ncomplemented**]{}.\n\nIn this case $N$ is said to be a [**topological complement**]{} of $M$,\nand also $M$ and $N$ are said to be [**topologically complementary**]{}\nsubspaces.\n\n### Remarks\n\n-   It is known that every subspace $M \\subseteq X$ has an algebraic\n    complement, i.e. there exists a subspace $N \\subseteq X$ such that\n    $M \\oplus N = X$. The existence of topological complements, however,\n    is not always assured.\n\n-   If $X$ is an Hilbert space, then each closed subspace\n    $M \\subseteq X$ is topologically complemented by its orthogonal\n    complement $M^{\\perp}$, i.e. $$M \\oplus M^{\\perp} = X .$$\n\n-   Moreover, for Banach spaces the converse of the last paragraph also\n    holds, i.e. if each closed subspace is topologically complemented\n    then $X$ is isomorphic a Hilbert space. This is the .",
+  "language": "INFORMAL",
+  "phrase": "Topological Complement",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TopologicalComplement"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} [@rudin_fap; @edwards; @horvath; @cristescu] Let $V$\nbe a vector space over ${\\mathbb{R}}$ (or ${\\mathbb{C}}$), and let $S$\nbe a subset of $V$. If $\\lambda S\\subset S$ for all scalars $\\lambda$\nsuch that $|\\lambda|\\le 1$, then $S$ is a [**balanced set**]{} in $V$.\nThe [**balanced hull**]{} of $S$, denoted by $\\operatorname{eq}(S)$, is\nthe smallest balanced set containing $S$.\n\nIn the above, $\\lambda S = \\{ \\lambda s\\mid s\\in S\\}$, and $|\\cdot|$ is\nthe absolute value (in ${\\mathbb{R}}$), or the modulus of a complex\nnumber (in ${\\mathbb{C}}$).\n\n### Examples and properties\n\n1.  Let $V$ be a normed space with norm $||\\cdot||$. Then the unit ball\n    $\\{v\\in V\\mid ||v||\\le 1\\}$ is a balanced set.\n\n2.  Any vector subspace is a balanced set. Thus, in ${\\mathbb{R}}^3$,\n    lines and planes passing through the origin are balanced sets.\n\n### Notes\n\nA balanced set is also sometimes called [**circled**]{} [@horvath]. The\nterm [**balanced evelope**]{} is also used for the balanced hull\n[@edwards]. Bourbaki uses the term [**\u00e9quilibr\u00e9**]{} [@edwards], c.f.\n$\\operatorname{eq}(A)$ above. In [@reed], a balanced set is defined as\nabove, but with the condition $|\\lambda|=1$ instead of $|\\lambda|\\le 1$.\n\n[9]{} W. Rudin, *Functional Analysis*, McGraw-Hill Book Company, 1973.\nR.E. Edwards, *Functional Analysis: Theory and Applications*, Dover\nPublications, 1995. J. Horv\u00e1th, *Topological Vector Spaces and\nDistributions*, Addison-Wsley Publishing Company, 1966. R. Cristescu,\n*Topological vector spaces*, Noordhoff International Publishing, 1977.\nM. Reed, B. Simon, *Methods of Modern Mathematical Physics: Functional\nAnalysis I*, Revised and enlarged edition, Academic Press, 1980.",
+  "language": "INFORMAL",
+  "phrase": "Balanced Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BalancedSet"
+    }
+  ],
+  "indexable": true
+}

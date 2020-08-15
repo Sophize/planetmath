@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $G$ be a group, and let $S_G$ be the permutation group of the\nunderlying set $G$. For each $g\\in G$, define $\\rho_g : G\\rightarrow G$\nby $\\rho_g (h) = gh$. Then $\\rho_g$ is invertible with inverse\n$\\rho_{g^{-1}}$, and so is a permutation of the set $G$.\n\nDefine $\\Phi :G\\rightarrow S_G$ by $\\Phi (g) = \\rho_g$. Then $\\Phi$ is a\nhomomorphism, since\n$$(\\Phi (gh))(x) = \\rho_{gh}(x) = ghx = \\rho_g(hx) = (\\rho_g\\circ\\rho_h)(x) = ((\\Phi (g))(\\Phi (h)))(x)$$\n\nAnd $\\Phi$ is injective, since if $\\Phi (g) = \\Phi (h)$ then\n$\\rho_g = \\rho_h$, so $gx = hx$ for all $x\\in X$, and so $g=h$ as\nrequired.\n\nSo $\\Phi$ is an embedding of $G$ into its own permutation group. If $G$\nis finite of order $n$, then simply numbering the elements of $G$ gives\nan embedding from $G$ to $S_n$.",
+  "conclusion": "#P_CayleysTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCayleysTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Cayley's theorem"
+  ]
+}

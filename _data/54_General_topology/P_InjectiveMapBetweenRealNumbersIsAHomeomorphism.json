@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Lemma.** Assume that $I$ is an open interval and $f:I\\to\\mathbb{R}$ is\nan injective, continuous map. Then $f(I)\\subseteq\\mathbb{R}$ is an open\nsubset.\n\n*Proof.* Since $f$ is injective, then of course $f$ is monotonic.\nWithout loss of generality, we may assume that $f$ is increasing. Let\n$y=f(x)\\in f(I)$. Since $I$ is open, then there are $\\alpha,\\beta\\in I$\nsuch that $\\alpha<x<\\beta$. Therefore $f(\\alpha)<y<f(\\beta)$ and\n(because continuous functions are Darboux functions) for any\n$y'\\in \\big(f(\\alpha),f(\\beta)\\big)$ there exists $x'\\in I$ such that\n$f(x')=y'$. This shows that $\\big(f(\\alpha),f(\\beta)\\big)$ is an open\nneighbourhood of $y$ contained in $f(I)$ and therefore (since $y$ was\narbitrary) $f(I)$ is open. $\\square$\n\n**Proposition.** Assume that $I$ is an open interval and\n$f:I\\to\\mathbb{R}$ is an injective, continuous map. Then $f$ is a\nhomeomorphism onto image.\n\n*Proof.* Of course, it is enough to show that $f$ is an open map. But if\n$U\\subseteq I$ is open, then there are disjoint, open intervals\n$I_{\\alpha}$ such that $$U=\\bigcup_{\\alpha} I_{\\alpha}.$$ Therefore we\nobtain continuous, injective maps $f_{\\alpha}:I_{\\alpha}\\to\\mathbb{R}$\nwhich are restrictions of $f$ to $I_{\\alpha}$. By lemma we have that\n$f_{\\alpha}(I_{\\alpha})$ is open and therefore\n$$f(U)=f\\bigg(\\bigcup_{\\alpha}I_{\\alpha}\\bigg)=\\bigcup_{\\alpha}f(I_{\\alpha})=\\bigcup_{\\alpha}f_{\\alpha}(I_{\\alpha})$$\nis open. This shows that $f$ is a homeomorphism onto image. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InjectiveMapBetweenRealNumbersIsAHomeomorphism"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "injective map between real numbers is a homeomorphism"
+  ]
+}

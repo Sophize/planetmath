@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathcal{L} \\in \\mathbb{R}^2$ be a lattice in the sense of number\ntheory, i.e. a 2-dimensional free group over ${\\mathbb{Z}}$ which\ngenerates $\\mathbb{R}^2$ over $\\mathbb{R}$. Let $w_1,w_2$ be generators\nof the lattice $\\mathcal{L}$. A set $\\mathcal{F}$ of the form\n$$\\mathcal{F}=\\{(x,y)\\in\\mathbb{R}^2: (x,y)=\\alpha w_1+\\beta w_2,\\quad 0\\leq \\alpha < 1,\\quad 0\\leq \\beta <1 \\}$$\nis usually called a *fundamental domain* or *fundamental parallelogram*\nfor the lattice $\\mathcal{L}$.\n\nLet $\\mathcal{L}$ be an arbitrary lattice in $\\mathbb{R}^2$ and let\n$\\Delta$ be the area of a fundamental parallelogram. Any convex region\n$\\mathfrak{K}$ symmetrical about the origin and of area greater than\n$4\\Delta$ contains points of the lattice $\\mathcal{L}$ other than the\norigin.\n\nMore generally, there is the following $n$-dimensional analogue.\n\nLet $\\mathcal{L}$ be an arbitrary lattice in $\\mathbb{R}^n$ and let\n$\\Delta$ be the area of a fundamental parallelopiped. Any convex region\n$\\mathfrak{K}$ symmetrical about the origin and of volume greater than\n$2^n\\Delta$ contains points of the lattice $\\mathcal{L}$ other than the\norigin.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinkowskisTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Minkowski's theorem",
+    "Minkowski's theorem on convex bodies"
+  ]
+}

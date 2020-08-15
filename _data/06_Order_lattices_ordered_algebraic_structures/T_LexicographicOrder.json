@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be a set equipped with a total order $<$, and let\n$A^n=A\\times \\cdots \\times A$ be the $n$-fold Cartesian product of $A$.\nThen the *lexicographic order* $<$ on $A^n$ is defined as follows:\n\nIf $a=(a_1, \\ldots, a_n)\\in A^n$ and $b=(b_1, \\ldots, b_n)\\in A^n$, then\n$a<b$ if $a_1<b_1$ or $$\\begin{aligned}\n   a_1 &=& b_1, \\\\   \n       &\\vdots & \\\\\n   a_k &=& b_k, \\\\\n   a_{k+1} &<& b_{k+1} \\\\\\end{aligned}$$ for some $k=1,\\ldots, n-1$.\n\n### Examples {#examples .unnumbered}\n\n-   The lexicographic order yields a total order on the field of complex\n    numbers.\n\n-   The lexicographic order of words of finite length consisting of\n    letters ${'\\ \\ '}$ (space) $<a<b<\\cdots<y<z$ is the *dictionary\n    order*. To compare words of different length, one simply pads the\n    shorter with ${'\\ \\ '}$s from the right. For example,\n    $\\operatorname{prove} < \\operatorname{proved} < \\operatorname{proven}$.\n\n### Properties {#properties .unnumbered}\n\n-   The lexicographic order is a total order.\n\n-   If the original set is well-ordered, the lexicographic ordering on\n    the product is also a well-ordering.",
+  "language": "INFORMAL",
+  "phrase": "Lexicographic Order",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LexicographicOrder"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "well quasi order",
+    "wqo"
+  ],
+  "definition": "Let $Q$ be a set and $\\precsim$ a quasi-order on $Q$. An infinite\nsequence in $Q$ is referred to as *bad* if for all\n$i<j \\in {{\\mathbf N}}$, $a_i \\not\\precsim a_j$ holds; otherwise it is\ncalled *good*. Note that an antichain is obviously a bad sequence.\n\nA quasi-ordering $\\precsim$ on $Q$ is a *well-quasi-ordering* (*wqo*) if\nfor every infinite sequence is good. Every well-ordering is a\nwell-quasi-ordering.\n\nThe following proposition gives equivalent definitions for\nwell-quasi-ordering:\n\nGiven a set $Q$ and a binary relation $\\precsim$ over $Q$, the following\nconditions are equivalent:\n\n-   $(Q, \\precsim)$ is a well-quasi-ordering;\n\n-   $(Q, \\precsim)$ has no infinite ($\\omega$-) strictly decreasing\n    chains and no infinite antichains.\n\n-   Every linear extension of $Q/_\\approx$ is a well-order, where\n    $\\approx$ is the equivalence relation and $Q/_\\approx$ is the set of\n    equivalence classes induced by $\\approx$.\n\n-   Any infinite ($\\omega$-) $Q$-sequence contains an increasing chain.\n\nThe equivalence of WQO to the second and the fourth conditions is proved\nby the infinite version of Ramsey\u2019s theorem.",
+  "language": "INFORMAL",
+  "phrase": "Well Quasi Ordering",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WellQuasiOrdering"
+    }
+  ],
+  "indexable": true
+}

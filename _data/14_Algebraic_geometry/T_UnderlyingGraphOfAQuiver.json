@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $Q=(Q_0,Q_1,s,t)$ be a quiver, i.e. $Q_0$ is a set of vertices,\n$Q_1$ is a set of arrows and $s,t:Q_1\\to Q_0$ are functions which take\neach arrow to its source and target respectively.\n\n**Definition.** An **underlying graph of $Q$** or **graph associated\nwith $Q$** is a graph $$G=(V,E,\\tau)$$ such that $V=Q_0$, $E=Q_1$ and\n$\\tau:E\\to V^2_{sym}$ is given by\n$$\\tau(\\alpha)=[s(\\alpha),t(\\alpha)]_{\\sim}.$$\n\nIn other words $G$ is a graph which is obtained from $Q$ after forgeting\nthe orientation of arrows. The definition of a graph used here is taken\nfrom .\n\nNote, that if we know the underlying graph $G$ of a quiver $Q$, then the\ninformation we have is not enough to reconstruct $Q$ (except for a\ntrivial case with no edges). The orientation of arrows is lost forever.\nIn some cases it is possible to reconstruct $Q$ up to an , for example\ngraph $$\\xymatrix{\n1\\ar@{-}[r] & 2\n}$$ uniquely (up to isomorphism) determines its quiver, but $$\\xymatrix{\nG: & 1\\ar@{-}[r] & 2\\ar@{-}[r] & 3\n}$$ does not uniquely determine its quiver. Indeed, there are exactly\ntwo nonisomorphic quivers with underlying graph $G$, namely:\n$$\\xymatrix{\nQ: & 1\\ar[r] & 2\\ar[r] & 3\\\\\nQ': & 1\\ar[r] & 2 & 3\\ar[l]\n}$$",
+  "language": "INFORMAL",
+  "phrase": "Underlying Graph Of A Quiver",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnderlyingGraphOfAQuiver"
+    }
+  ],
+  "indexable": true
+}

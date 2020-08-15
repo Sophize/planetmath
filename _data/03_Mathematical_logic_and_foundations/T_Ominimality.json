@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be an ordered structure. An interval in $M$ is any subset of $M$\nthat can be expressed in one of the following forms:\n\n-   $\\{x:a<x<b\\}$ for some $a,b$ from $M$\n\n-   $\\{x:x>a\\}$ for some $a$ from $M$\n\n-   $\\{x:x<a\\}$ for some $a$ from $M$\n\nThen we define $M$ to be [*o-minimal*]{} iff every definable subset of\n$M$ is a finite union of intervals and points. This is a property of the\ntheory of $M$ i.e. if $M \\equiv N$ and $M$ is o-minimal, then $N$ is\no-minimal. Note that $M$ being o-minimal is equivalent to every\ndefinable subset of $M$ being quantifier free definable in the language\nwith just the ordering. Compare this with strong minimality.\n\nThe model theory of o-minimal structures is well understood, for an\nexcellent account see Lou van den Dries, Tame topology and o-minimal\nstructures, CUP 1998. In particular, although this condition is merely\non definable subsets of $M$ it gives very good information about\ndefinable subsets of $M^{n}$ for $n \\in \\omega$.",
+  "language": "INFORMAL",
+  "phrase": "O-Minimality",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ominimality"
+    }
+  ],
+  "indexable": true
+}

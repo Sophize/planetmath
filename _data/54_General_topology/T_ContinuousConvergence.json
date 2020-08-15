@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "converges continuously"
+  ],
+  "definition": "Let $(X,d)$ and $(Y,\\rho)$ be metric spaces, and let\n$f_n:X\\longrightarrow Y$ be a sequence of functions. We say that $f_n$\n*converges continuously* to $f$ at $x$ if $f_n(x_n)\\longrightarrow f(x)$\nfor every sequence $(x_n)_n\\subset X$ such that\n$x_n\\longrightarrow x \\in X$. We say that $f_n$ *converges continuously*\nto $f$ if it does for every $x \\in X$.",
+  "language": "INFORMAL",
+  "phrase": "Continuous Convergence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuousConvergence"
+    }
+  ],
+  "indexable": true
+}

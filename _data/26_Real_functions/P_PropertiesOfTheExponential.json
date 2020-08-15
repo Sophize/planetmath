@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The exponential operation possesses the following properties.\n\n-   For $x,y\\in{\\mathbb{R}}^+, p\\in {\\mathbb{R}}$ we have\n    $$(xy)^p = x^p y^p$$\n\n-   For $x\\in{\\mathbb{R}}^+$ we have\n    $$x^0=1,\\quad x^1 = x,\\quad x^{p+q} = x^p x^q,\\quad (x^p)^q=x^{pq}\\qquad p,q\\in{\\mathbb{R}}.$$\n\n-   For $x,y\\in{\\mathbb{R}}^+$ with $x<y$ and $p\\in {\\mathbb{R}}^+$ we\n    have $$x^p < y^p,\\qquad x^{-p} > y^{-p}.$$\n\n-   [**Continuity.**]{} The exponential operation is continuous with\n    respect to its arguments. To be more precise, the following function\n    is continuous:\n    $$P:{\\mathbb{R}}^+\\times{\\mathbb{R}}\\rightarrow {\\mathbb{R}},\\qquad P(x,y)=x^y.$$\n\nLet us also note that the exponential operation is characterized (in the\nsense of existence and uniqueness) by the [*additivity*]{} and\n[*continuity*]{} properties. \\[[**Author\u2019s note**]{}: One can probably\nget away with substantially less, but I haven\u2019t given this enough\nthought.\\]",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertiesOfTheExponential"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "properties of the exponential"
+  ]
+}

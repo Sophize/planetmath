@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Define $\\pi (x)$ as the number of primes less than or equal to $x$. The\nprime number theorem asserts that $$\\pi (x) \\sim \\frac{x}{\\log x}$$ as\n$x \\rightarrow \\infty$, that is, $\\pi(x) / \\frac{x}{\\log x}$ tends to 1\nas $x$ increases. Here ${\\log x}$ is the natural logarithm.\n\nThere is a sharper statement that is also known as the prime number\ntheorem: $$\\pi(x)=\\operatorname{li}x+R(x),$$ where $\\operatorname{li}$\nis the logarithmic integral defined as\n$$\\operatorname{li}x=\\int_2^x \\frac{dt}{\\log t}=\\frac{x}{\\log x}+\\frac{1!x}{(\\log\nx)^2}+\\dotsb+\\frac{(k-1)!x}{(\\log x)^{k}}+O\\left\\{\\frac{x}{(\\log\nx)^{k+1}}\\right\\},\\qquad\\text{for any fixed $k$}$$ and $R(x)$ is the\nerror term whose behavior is still not fully known. From the work of\nKorobov and Vinogradov on zeroes of Riemann zeta-function it is known\nthat $$R(x)=O\\left\\{x \\exp(-c(\\theta)(\\log x)^\\theta)\\right\\}$$ for\nevery $\\theta>\\tfrac{3}{5}$. The unproven Riemann hypothesis is\nequivalent to the statement that $R(x)=O(x^{1/2}\\log x)$.\n\nThere exist a number of proofs of the prime number theorem. The original\nproofs by Hadamard [@cite:hadamard_pnt] and de\u00a0la\nVall\u00e9e\u00a0Poussin[@cite:poussin_pnt] called on analysis of behavior of the\nRiemann zeta function $\\zeta(s)$ near the line $\\Re s=1$ to deduce the\nestimates for $R(x)$. For a long time it was an open problem to find an\nelementary proof of the prime number theorem (\u201celementary\u201d meaning \u201cnot\ninvolving complex analysis\u201d). Finally Erd\u0151s and Selberg\n[@cite:erdos_elempnt; @cite:selberg_elempnt] found such a proof.\nNowadays there are some very short proofs of the prime number theorem\n(for example, see\u00a0[@cite:newman_shortpnt]).\n\n[1]{}\n\nTom\u00a0M. Apostol. . Narosa Publishing House, second edition, 1990. .\n\nHarold Davenport. . Markham Pub.\u00a0Co., 1967. .\n\nPaul Erd[\u0151]{}s. On a new method in elementary number theory. ,\n35:374\u2013384, 1949. .\n\nJacques Hadamard. Sur la distribution des z[\u00e9]{}ros de la fonction\n$\\zeta(s)$ et ses cons[\u00e9]{}quences arithm[\u00e9]{}tiques. , 24:199\u2013220. .\n\nDonald\u00a0J. Newman. Simple analytic proof of the prime number theorem. ,\n87:693\u2013696, 1980. at .\n\nAtle Selberg. An elementary proof of the prime number theorem. ,\n50:305\u2013311, 1949. .\n\nCharles\u00a0[de\u00a0la]{} [Vall\u00e9e\u00a0Poussin]{}. Recherces analytiques sur la\nth[\u00e9]{}orie des nombres premiers. , 1897.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimeNumberTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "prime number theorem"
+  ]
+}

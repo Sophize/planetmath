@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Two plane curves are said to [*touch each other*]{} or [*have a\ntangency*]{} at a point if they have a common tangent line at that\npoint.\n\nThe [*envelope*]{} of a family of plane curves is a curve which touches\nin each of its points one of the curves of the family.\\\nFor example, the envelope of the family $y = mx-\\sqrt{1+m^2}$, with $m$\nthe parameter, may be justified geometrically. It is the lower\nsemicircle of the unit circle. Indeed, the distance of any line\n$$mx-y-\\sqrt{1+m^2} = 0$$ of the family from the center of the unit\ncircle is\n$$\\frac{|m\\cdot0-1\\cdot0-\\sqrt{1+m^2}|}{\\sqrt{m^2+(-1)^2}} = 1,$$ whence\nthe line is the tangent to the circle.\n\nBelow, the red curve is the lower semicircle of the unit circle, the\nblack lines belong to the family $y=mx-\\sqrt{1+m^2}$, and the equation\nof each line is given.\n\n(-3,-3)(3,0) (0,0)[2]{}[180]{}[360]{} (-0.1716,-3)(3,0.1716)\n(2.9,-0.1716)[$y=x+\\sqrt{2}$]{} (-3,-2)(3,-2) (-2.3,-2.3)[$y=-1$]{}\n(-2.3094,0)(-0.577,-3) (-2.3094,-0.1716)[$y=-x\\sqrt{3}-2$]{}\n(-0.577,-3)[.]{}",
+  "language": "INFORMAL",
+  "phrase": "Envelope",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Envelope"
+    }
+  ],
+  "indexable": true
+}

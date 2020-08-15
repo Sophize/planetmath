@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "descending chain condition"
+  ],
+  "definition": "A group is said to satisfy the *minimal condition* if every strictly\ndescending chain of subgroups\n$$G_1 \\supset G_2 \\supset G_3 \\supset \\cdots$$ is finite.\n\nThis is also called the *descending chain condition*.\n\nA group which satisfies the minimal condition is necessarily periodic.\nFor if it contained an element $x$ of infinite order, then\n$$\\langle x \\rangle \\supset \\langle x^2 \\rangle \\supset \\langle x^4 \\rangle \\supset \\cdots \\supset \\langle x^{2^n} \\rangle \\supset \\cdots$$\nis an infinite descending chain of subgroups.\n\nSimilar properties are useful in other classes of algebraic structures:\nsee for example the Artinian condition for rings and modules.",
+  "language": "INFORMAL",
+  "phrase": "Minimal Condition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinimalCondition"
+    }
+  ],
+  "indexable": true
+}

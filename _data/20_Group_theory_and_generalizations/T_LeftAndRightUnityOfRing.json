@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If a ring $(R,\\,+,\\,\\cdot)$ left identity element $e$, i.e. if\n$$e\\cdot a = a \\quad \\forall a,$$ then $e$ is called the [*left\nunity*]{} of $R$.\n\nIf a ring $R$ right identity element $e'$, i.e. if\n$$a\\cdot e' = a \\quad \\forall a,$$ then $e'$ is called the [*right\nunity*]{} of $R$.\n\nA ring may have several left or right unities (see e.g. the Klein\nfour-ring).\n\nIf a ring $R$ has both a left unity $e$ and a right unity $e'$, then\nthey must coincide, since $$e' = e\\cdot e' = e.$$ This situation means\nthat every right unity equals to $e$, likewise every left unity. Then we\nspeak simply of a unity of the ring.",
+  "language": "INFORMAL",
+  "phrase": "Left And Right Unity Of Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeftAndRightUnityOfRing"
+    }
+  ],
+  "indexable": true
+}

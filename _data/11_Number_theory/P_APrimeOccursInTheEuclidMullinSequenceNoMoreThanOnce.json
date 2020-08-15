@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem.**]{} A prime $p$ which occurs in the Euclid-Mullin sequence\n$a$ starting with 2 (or any variant made by changing the initial value\nto an odd prime) occurs only once.\n\nWhether $a_1 = 2$ or some odd prime, each succeeding term is the least\nprime factor of the product of the previous terms plus 1.\n\nThe proof is barely little more than a rehashing of Euclid\u2019s proof that\nthere are infinitely many primes.\n\nWe begin by asserting that $p$ does indeed occur twice in the\nEuclid-Mullin sequence (or some variant thereof), and that the second\noccurrence is at position $n$. Or, to put it algebraically, the first\noccurrence is at position $m$ and there is an $n > m$ such that\n$a_n = a_m$.\n\nFor our convenience, we assign $\\alpha_j$ thus:\n$$\\alpha_j = \\prod_{i = 1}^{j - 1} a_i.$$ Obviously $\\alpha_n$ is\ndivisible by each $a_i$ for $i < n$, and that obviously includes $a_m$.\nWithout yet concerning ourselves with primality, then it is obvious that\n$\\alpha_n + 1$ is not divisible by any of the previous $a_i$, and that\nalso includes $a_m$. If $\\alpha_n + 1$ is indeed prime, then\n$a_n = \\alpha + 1$ and $a_n > a_i$, often spectacularly so, obviously\ncontradicting our initial assertion. But if $\\alpha_n + 1$ is composite,\nits least prime factor can\u2019t be any of the previous $a_i$, because\nthey\u2019re all factors of $\\alpha_n$, and we now invoke the proof that two\nconsecutive integers are always coprime.\n\nWhen $\\alpha_n + 1$ is prime the proof is undoubtable; it is a prime\ngreater than all the previous primes in the sequence. But if there is\nany doubt whatsoever when $\\alpha_n + 1$ is composite, it might perhaps\nbe at least a tiny bit worthwhile to work out an example: I assert that\n$a_5$ in the Euclid-Mullin sequence is a repeated term. The first four\nterms of the Euclid-Mullin sequence are 2, 3, 7, 43. Their product is\n1806, which is obviously even, and it is also divisible by 3. It\u2019s up to\nyou whether you want to use a divisibility test for 7 or just perform\nthe calculation to verify that 1806 is indeed divisible by 7. And 1806\nis 43 times... 42. 1807 can\u2019t be divisible by any of the same positive\nnumbers 1806 is divisible by (other than of course 1). But it\u2019s nowhere\nto be found on a list of prime numbers. It\u2019s not divisible by 11 but it\nturns out to be divisible by 13. 13, though smaller than 43, is clearly\nnot equal to either 2, 3 or 7. Therefore my initial assertion is\nincorrect.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/APrimeOccursInTheEuclidMullinSequenceNoMoreThanOnce"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a prime occurs in the Euclid-Mullin sequence no more than once"
+  ]
+}

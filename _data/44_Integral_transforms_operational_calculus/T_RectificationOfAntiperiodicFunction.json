@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "rectification"
+  ],
+  "definition": "Let the positive number $p$ be the antiperiod of the real function $f$\nand $$f(t) \\geqq 0 \\quad \\mbox{for} \\;\\; 0 < t < p.$$ Then the function\n$f_1$ defined by $$\\begin{aligned}\nf_1(t) \\;:=\\; \\max\\{f(t),\\,0\\} \\;=\\;\n\\begin{cases}\nf(t) \\quad \\mbox{for} \\;\\; f(t) > 0,\\\\\n0 \\qquad\\, \\mbox{for} \\;\\; f(t) \\leqq 0\n\\end{cases}\\end{aligned}$$ is the *half-wave rectification* of $f$ and\nthe function $f_2$ defined by $$f_2(t) \\;:=\\; |f(t)|$$ is the *full-wave\nrectification* of $f$. They are , the former with $2p$ and the latter\nwith $p$.\\\nThe Laplace transforms are\n$$\\mathcal{L}\\{f_1(t)\\} \\;=\\; \\frac{1}{1\\!-\\!e^{-ps}}F(s),$$\n$$\\mathcal{L}\\{f_2(t)\\} \\;=\\; \\frac{1\\!+\\!e^{-ps}}{1\\!-\\!e^{-ps}}F(s).$$",
+  "language": "INFORMAL",
+  "phrase": "Rectification Of Antiperiodic Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RectificationOfAntiperiodicFunction"
+    }
+  ],
+  "indexable": true
+}

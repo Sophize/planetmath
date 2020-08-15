@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $Q=(Q_0,Q_1,s,t)$ be a locally finite quiver without loops. Recall\nthat a loop is an arrow $\\alpha$ such that $s(\\alpha)=t(\\alpha)$. Let\n$X,Y\\subseteq Q_0$.\n\n**Definition 1.** A pair $(Q,\\tau)$ is said to be a **translation\nquiver** iff the following holds:\n\n1.  $\\tau:X\\to Y$ is a bijection;\n\n2.  If $x\\in X$ and $y\\in x^{-}$ is a direct predecessor of $x$, then\n    the number of arrows from $y$ to $x$ is equal to the number of\n    arrows from $\\tau(x)$ to $y$.\n\nIf $(Q,\\tau)$ is a translation quiver then we will say that $\\tau(x)$\nexists if $x\\in X$ and $\\tau(x)$ does not exist (or it is not defined)\nif $x\\not\\in X$.\n\n**Definition 2.** If $(Q,\\tau)$ is a translation quiver, then a pair\n$(Q',\\tau')$ is called a **translation subquiver** if it is a\ntranslation quiver, $Q'$ is a of $Q$ and $\\tau'(x)=\\tau(x)$ whenever $x$\nis a vertex in $Q'$ such that $\\tau(x)$ exists and belongs to $Q'$.\n\n**Example.** Let $Q$ be the following quiver: $$\\xymatrix{\n1\\ar[rd] &   & 2\\ar[rd] &   & 3\\ar[rd] &   & 4 \\\\\n  & 5\\ar[rd]\\ar[ru] &   & 6\\ar[r]\\ar[ru] & 7\\ar[r] & 8\\ar[ru] &   \\\\\n  &   & 9\\ar[ru]\n}$$ If we put $X=\\{2,3,4,6,8\\}$, $Y=\\{1,2,3,5,6\\}$ and\n$$\\tau(2)=1;\\ \\tau(3)=2;\\ \\tau(4)=3;$$ $$\\tau(6)=5;\\ \\tau(8)=6;$$ then\nthe pair $(Q,\\tau)$ is a translation quiver and $$\\xymatrix{\n& 2\\ar[rd] &\\\\\n5\\ar[ru]\\ar[rd] & & 6\\\\\n& 9\\ar[ru] &\n}$$ is its translation subquiver, where $\\tau'(6)=5$.\n\n**Remark.** It is common to write translation quivers as in example.\nThis means that $Q$ is ,,oriented\u201d to the right and in rows we have\nvertices such that ,,jumping\u201d two places to the left gives us $\\tau$ of\nthis vertex. Note that in the example the vertex $7$ is not written in\nthe same row as $9$ because $\\tau(7)$ is not $9$ (indeed, $\\tau(7)$ is\nnot defined).",
+  "language": "INFORMAL",
+  "phrase": "Translation Quiver",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TranslationQuiver"
+    }
+  ],
+  "indexable": true
+}

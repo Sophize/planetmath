@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(X, \\mathcal{B}, \\mu)$ be a probability space, and let\n$T_i:X \\rightarrow X$ be measure-preserving transformations, for $i$\nbetween $1$ and $q$. Assume that all the transformations $T_i$ commute.\nIf $E\\subset X$ is a positive measure set $\\mu(E)>0$, then, there exists\n$n \\in \\mathbb{N}$ such that\n$$\\mu (E \\cap T_1^{-n}(E) \\cap \\cdots \\cap T_q^{-n}(E))>0$$ In other\nwords there exist a certain time $n$ such that the subset of $E$ for\nwhich all elements return to $E$ simultaneously for all transformations\n$T_i$ is a subset of $E$ with positive measure. Observe that the theorem\nmay be applied again to the set\n$G=E \\cap T_1^{-n}(E) \\cap \\cdots \\cap T_q^{-n}(E)$, obtaining the\nexistence of $m\\in \\mathbb{N}$ such that\n$$\\mu (G \\cap T_1^{-m}(G) \\cap \\cdots \\cap T_q^{-m}(G))>0$$ so that\n$$\\mu (E \\cap T_1^{-(m+n)}(E) \\cap \\cdots \\cap T_q^{-(m+n)}(E))\\geq \\mu (G \\cap T_1^{-m}(G) \\cap \\cdots \\cap T_q^{-m}(G)) >0$$\nSo we may conclude that, when $E$ has positive measure, there are\ninfinite times for which there is a simultaneous return for a subset of\n$E$ with positive measure.\n\nAs a corollary, since the powers $T,T^2 \\cdots T^q$ of a transformation\n$T$ commute, we have that, for $E$ with positive measure there exists\n$n \\in \\mathbb{N}$ such that\n$$\\mu (E\\cap T^{-n}(E) \\cap \\cdots \\cap T^{-qn}(E))>0$$ As a consequence\nof the multiple recurrence theorem one may prove Szemer\u00e9di\u2019s Theorem\nabout arithmetic progressions.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultipleRecurrenceTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Multiple Recurrence Theorem",
+    "Poincar\u00e9 Multiple Recurrence Theorem; F\u00fcrstenberg Recurrence theorem"
+  ]
+}

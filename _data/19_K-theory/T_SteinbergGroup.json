@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an associative ring $R$ with identity, the Steinberg group $St(R)$\ndescribes the minimal amount of relations between elementary matrices in\n$R$.\n\nFor $n \\geq 3$, define $St_n(R)$ to be the free abelian group on symbols\n$x_{ij}(r)$ for $i,j$ distinct integers between $1$ and $n$, and\n$r \\in R$, subject to the following relations:\n\n$$x_{ij}(r)x_{ij}(s) = x_{ij}(r+s)$$\n\n$$[x_{ij},x_{kl}] =\n\\begin{cases} 1 & \\text{if $j \\neq k$ and $i \\neq l$} \\\\\nx_{il}(rs) & \\text{if $j = k$ and $i \\neq l$} \\\\\nx_{kj}(-sr) & \\text{if $j \\neq k$ and $i = l.$}\n\\end{cases}$$\n\nNote that if $e_{ij}(r)$ denotes the elementary matrix with one along\nthe diagonal, and $r$ in the $(i,j)$ entry, then the $e_{ij}(r)$ also\nsatisfy the above relations, giving a well defined morphism\n$St_n(R) \\to E_n(R)$, where the latter is the group of elementary\nmatrices.\n\nTaking a colimit over $n$ gives the Steinberg group $St(R)$. The\nimportance of the Steinberg group is that the kernel of the map\n$St(R) \\to E(R)$ is the second algebraic $K$-group of the ring $R$,\n$K_2(R)$. This also coincides with the kernel of the Steinberg group.\nOne can also show that the Steinberg group is the universal central\nextension of the group $E(R)$.",
+  "language": "INFORMAL",
+  "phrase": "Steinberg Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SteinbergGroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In measure theory, Carath\u00e9odory\u2019s lemma is used for constructing\nmeasures and, for example, can be applied to the construction of the\nLebesgue measure and is used in the proof of Carath\u00e9odory\u2019s extension\ntheorem. The idea is that to define a measure on a measurable space\n$(X,\\mathcal{A})$ we would first construct an , which is a set function\ndefined on the power set of $X$. Then, this outer measure is restricted\nto $\\mathcal{A}$ and Carath\u00e9odory\u2019s lemma is applied to show that this\nrestriction does in fact result in a measure. For an example of this\nprocedure, see the proof of Carath\u00e9odory\u2019s extension theorem.\n\nGiven an outer measure $\\mu$ on a set $X$, the result first defines a\ncollection of subsets of $X$ \u2014 the $\\mu$-measurable sets. A subset\n$S\\subseteq X$ is called $\\mu$-measurable (or Carath\u00e9odory measurable\nwith respect to $\\mu$) if the equality\n$$\\mu(E)=\\mu(E\\cap S)+\\mu(E\\cap S^c)$$ holds for every $E\\subseteq X$.\nThen, Caratheodory\u2019s lemma says that a measure is obtained by\nrestricting $\\mu$ to the $\\mu$-measurable sets.\n\nLet $\\mu$ be an outer measure on a set $X$, and $\\mathcal{A}$ be the\nclass of $\\mu$-measurable sets. Then $\\mathcal{A}$ is a and the\nrestriction of $\\mu$ to $\\mathcal{A}$ is a measure.\n\nIt should be noted that for any outer measure $\\mu$ and sets\n$S,E\\subseteq X$, subadditivity of $\\mu$ implies that the inequality\n$\\mu(E)\\le\\mu(E\\cap S)+\\mu(E\\cap S^c)$ is always satisfied. So, only the\nreverse inequality is required and consequently $S$ is $\\mu$-measurable\nif and only if $$\\mu(E)\\ge\\mu(E\\cap S)+\\mu(E\\cap S^c)$$ for every\n$E\\subseteq X$.\n\n[9]{} David Williams, *Probability with martingales*, Cambridge\nMathematical Textbooks, Cambridge University Press, 1991. Olav\nKallenberg, *Foundations of modern probability*, Second edition.\nProbability and its Applications. Springer-Verlag, 2002.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CaratheodorysLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Carath\\'eodory's lemma"
+  ]
+}

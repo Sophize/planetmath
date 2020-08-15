@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*doubly even number*]{} is an even number divisible by 4 and\nsometimes greater powers of two. If $n$ is a doubly even number, it\nsatisfies the congruence $n \\equiv 0 \\mod 4$. The first few positive\ndoubly even numbers are 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, listed in\nA008586 of Sloane\u2019s OEIS.\n\nIn the binary representation of a positive doubly even number, the two\nleast significant bits are always both 0. Thus it takes at least a 2-bit\nright shift to change the parity of a doubly even number to odd. These\nproperties obviously also hold true when representing negative numbers\nin binary by prefixing the absolute value with a minus sign. As it turns\nout, all this also holds true in two\u2019s complement. Independently of\nbinary representation, we can say that the of a doubly even number $n$\nwith $p = 2$ is always $\\frac{1}{4}$ or less.\n\nAll doubly even numbers are composite. In representing a doubly even\nnumber $n$ as $$\\prod_{i = 1}^{\\pi(n)} {p_i}^{a_i},$$ with $p_i$ being\nthe $i$th prime number, $a_1 > 1$, all other other $a_i$ may have any\nnonnegative integer value.\n\nIf $n$ is doubly even, then the value of $\\tau(n)$ (the divisor\nfunction) is even except when all the nonzero $a_i$ in the factorization\nare greater than 1. Whereas $(-1)^n = 1$ whether $n$ is singly or doubly\neven, with the imaginary unit $i$ it is the case that $i^n = 1$ only\nwhen $n$ is doubly even.",
+  "language": "INFORMAL",
+  "phrase": "Doubly Even Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DoublyEvenNumber"
+    }
+  ],
+  "indexable": true
+}

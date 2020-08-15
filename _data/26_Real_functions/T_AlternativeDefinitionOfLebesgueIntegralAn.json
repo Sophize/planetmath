@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The standard way of defining Lebesgue integral is first to define it for\nsimple functions, and then to take limits for arbitrary positive\nmeasurable functions.\n\nThere is also another way which uses the Riemann integral [@lieb].\n\nLet $(X,{\\mathcal{M}},\\mu)$ be a measure space. Let\n$f\\colon x\\rightarrow \\mathbb{R}^+\\cup \\{0\\}$ be a nonnegative\nmeasurable function. We will define $\\int f d\\mu$ in $[0,\\infty]$ and\nwill call it as the *Lebesgue integral* of $f$.\n\nIf there exists a $t>0$ such that\n$\\mu\\left(\\left\\{x\\colon f(x)>t \\right\\}\\right)=\\infty$, then we define\n$\\int f d\\mu = \\infty.$\n\nOtherwise, assume\n$\\mu\\left(\\left\\{x\\colon f(x)>t \\right\\}\\right)<\\infty$ for all\n$t\\in(0,\\infty)$ and let\n$F_f(t) = \\mu\\left(\\left\\{x\\colon f(x)>t \\right\\}\\right)$. $F_f(t)$ is a\nmonotonically non-increasing function on $(0,\\infty)$, therefore its\nRiemann integral is well defined on any interval\n$[a,b]\\subset (0,\\infty)$, so it exists as an improper Riemann integral\non $(0,\\infty)$. We define $$\\int f d\\mu = \\int_0^\\infty F_f(t) dt.$$\n\nThe definition can be extended first to real-valued functions, then\ncomplex valued functions as usual.\n\n[9]{} Lieb, E. H., Loss, M., *Analysis*, AMS, 2001.",
+  "language": "INFORMAL",
+  "phrase": "Alternative Definition Of Lebesgue Integral, An",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternativeDefinitionOfLebesgueIntegralAn"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *normed plane* is a pair $(\\mathbb{R}^2, ||\\cdot||)$, where the\nfunction $x \\to ||x||$ is a norm.\n\nIf we define a distance function $d(x,y) = ||x-y||$ then the metric\nspace $(\\mathbb{R}^2, d)$ is called a *Minkowski plane* or a *Minkowski\ngeometry*.\n\nThe classical examples of Minkowski and normed planes are the $p$-norm\n$||x||_p = (|x_1|^p + |x_2|^p)^{1/p}$ where $1 \\leq p < \\infty$ and the\nmaximum or supremum norm $||x||_{\\infty} = \\max\\{|x_1| , |x_2|\\}$.",
+  "language": "INFORMAL",
+  "phrase": "Normed Plane",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormedPlane"
+    }
+  ],
+  "indexable": true
+}

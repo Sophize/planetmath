@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "This result, trivial in the finite case, is in fact rather surprising\nwhen one thinks of infinite dimensionial vector spaces, and the\ndefinition of a basis: just try to imagine a basis of the vector space\nof all continuous mappings $f\\colon{\\mathbb}{R}\\to{\\mathbb}{R}$. The\ntheorem is equivalent to the axiom of choice family of axioms and\ntheorems. Here we will only prove that Zorn\u2019s lemma implies that every\nvector space has a basis.\n\nLet $X$ be any vector space over any field $F$ and assume Zorn\u2019s lemma.\nThen if $L$ is a linearly independent subset of $X$, there exists a\nbasis of $X$ containing $L$. In particular, $X$ does have a basis at\nall.\n\nLet ${\\mathcal}{A}$ be the set of linearly independent subsets of $X$\ncontaining $L$ (in particular, ${\\mathcal}{A}$ is not empty), then\n${\\mathcal}{A}$ is partially ordered by inclusion. For each chain\n$C\\subseteq{\\mathcal}{A}$, define ${\\widehat}{C}=\\bigcup C$. Clearly,\n${\\widehat}{C}$ is an upper bound of $C$. Next we show that\n${\\widehat}{C}\\in{\\mathcal}{A}$. Let\n$V:=\\{v_1,\\ldots,v_n\\}\\subseteq{\\widehat}{C}$ be a finite collection of\nvectors. Then there exist sets $C_1,\\ldots,\nC_n\\in C$ such that $v_i\\in C_i$ for all $1\\leq i\\leq n$. Since $C$ is a\nchain, there is a number $k$ with $1\\leq k\\leq n$ such that\n$C_k={\\bigcup\\limits}_{i=1}^nC_i$ and thus $V\\subseteq C_k$, that is $V$\nis linearly independent. Therefore, ${\\widehat}{C}$ is an element of\n${\\mathcal}{A}$.\n\nAccording to Zorn\u2019s lemma ${\\mathcal}{A}$ has a maximal element, $M$,\nwhich is linearly independent. We show now that $M$ is a basis. Let\n$\\langle M\\rangle$ be the span of $M$. Assume there exists an\n$x\\in X\\setminus\\langle M\\rangle$. Let $\\{x_1,\\ldots,x_n\\}\\subseteq M$\nbe a finite collection of vectors and $a_1,\\ldots,a_{n+1}\\in F$ elements\nsuch that $$a_1x_1+\\cdots+a_nx_n-a_{n+1}x=0.$$ If $a_{n+1}$ was\nnecessarily zero, so would be the other $a_i$, $1\\leq i\\leq n$, making\n$\\{x\\}\\cup M$ linearly independent in contradiction to the maximality of\n$M$. If $a_{n+1}\\neq 0$, we would have\n$$x=\\frac{a_1}{a_{n+1}}x_1+\\cdots+\\frac{a_n}{a_{n+1}}x_n,$$\ncontradicting $x\\notin\\langle M\\rangle$. Thus such an $x$ does not exist\nand $X=\\langle M\\rangle$, so $M$ is a generating set and hence a basis.\n\nTaking $L=\\emptyset$, we see that $X$ does have a basis at all.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryVectorSpaceHasABasis"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every vector space has a basis",
+    "every vector space has a Hamel basis"
+  ]
+}

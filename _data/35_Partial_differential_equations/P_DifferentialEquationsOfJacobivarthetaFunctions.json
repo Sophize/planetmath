@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The theta functions the following partial differential equation:\n$${\\pi i \\over 4} {\\partial^2 \\vartheta_i \\over \\partial z^2} + {\\partial \\vartheta_i \\over \\partial \\tau} = 0$$\n\nIt is easy to check that each in the series which define the theta\nfunctions this differential equation. Furthermore, by the Weierstrass\nM-test, the series obtained by differentiating the series which define\nthe theta functions term-by-term converge absolutely, and hence one may\ncompute derivatives of the theta functions by taking derivatives of the\nseries term-by-term.\n\nStudents of mathematical physics will recognize this equation as a\none-dimensional diffusion equation. Furthermore, as may be seen by\nexamining the series defining the theta functions, the theta functions\napproach periodic delta distributions in the limit $\\tau \\to 0$. Hence,\nthe theta functions are the Green\u2019s functions of the one-dimensional\ndiffusion equation with periodic boundary conditions.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DifferentialEquationsOfJacobivarthetaFunctions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "differential equations of Jacobi $\\vartheta$ functions"
+  ]
+}

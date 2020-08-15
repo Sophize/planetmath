@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The proof of the following result is an application of the generalized\nintermediate value theorem (along with Urysohn\u2019s lemma):\n\nA connected normal space with more than one point is uncountable.\n\nLet $X$ be a space with at least two distinct points $x_1$ and $x_2$. As\nthe sets ${\\{x_1\\}}$ and ${\\{x_2\\}}$ are and disjoint, Urysohn\u2019s lemma\nfurnishes a continuous function $f:X\\rightarrow[0,1]$ such that\n$f(x_1)=0$ and $f(x_2)=1$. Because $X$ is connected, the generalized\nintermediate value theorem implies that $f$ is surjective. Thus $f$ may\nbe suitably to give a bijection between a subset of $X$ and the\nuncountable set $[0,1]$, from which it follows that $X$ is uncountable.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AConnectedNormalSpaceWithMoreThanOnePointIsUncountable"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a connected normal space with more than one point is uncountable"
+  ]
+}

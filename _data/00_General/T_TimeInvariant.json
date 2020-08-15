@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A dynamical system is [**time-invariant**]{} if its generating formula\nis dependent on state only, and independent of time. A synonym for\ntime-invariant is autonomous. The complement of time-invariant is\ntime-varying (or nonautonomous).\n\nFor example, the continuous-time system $\\dot{x}=f(x,t)$ is\ntime-invariant if and only if $f(x,t_1)\\equiv f(x,t_2)$ for all valid\nstates $x$ and times $t_1$ and $t_2$. Thus $\\dot{x}=\\sin x$ is\ntime-invariant, while $\\dot{x}=\\frac{\\sin x}{1+t}$ is time-varying.\n\nLikewise, the discrete-time system $x[n]=f[x,n]$ is time-invariant (also\ncalled shift-invariant) if and only if $f[x,n_1]\\equiv f[x,n_2]$ for all\nvalid states $x$ and time indices $n_1$ and $n_2$. Thus $x[n]=2 x[n-1]$\nis time-invariant, while $x[n]=2 n x[n-1]$ is time-varying.",
+  "language": "INFORMAL",
+  "phrase": "Time Invariant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TimeInvariant"
+    }
+  ],
+  "indexable": true
+}

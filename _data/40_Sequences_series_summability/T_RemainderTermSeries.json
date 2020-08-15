@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For any series $$\\begin{aligned}\na_1+a_2+a_3+\\ldots\\end{aligned}$$ of real or complex terms $a_j$ one may\ninterpret its $m$\u2019th remainder term $$\\begin{aligned}\nR_m \\;:=\\; a_{m+1}+a_{m+2}+\\ldots\\end{aligned}$$ as a series. This\n[*remainder term series*]{} has its own partial sums $$\\begin{aligned}\nS_m^{(n)}\\;:=\\; a_{m+1}+a_{m+2}+\\ldots+a_{m+n} \\qquad \n(n \\;=\\; 1,2,\\ldots).\\end{aligned}$$ If $m+n =k$, then the\n$k^{\\mathrm{th}}$ partial sum of the original series (1) is\n$$\\begin{aligned}\nS_k \\;=\\; S_m+S_m^{(n)}.\\end{aligned}$$ For a fixed $m$, the limit\n$\\lim_{k\\to\\infty}S_k$ apparently exists iff the limit\n$\\lim_{n\\to\\infty}S_m^{(n)}$ exists. Thus we can write the\\\n**Theorem.** The series (1) is convergent if and only if each remainder\nterm series (2) is convergent.\\\nCf. the entry \u201cfinite changes in convergent series\u201d.\n\n[9]{} . . : **. \u201c \u201d. (1970).\n\n\\",
+  "language": "INFORMAL",
+  "phrase": "Remainder Term Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RemainderTermSeries"
+    }
+  ],
+  "indexable": true
+}

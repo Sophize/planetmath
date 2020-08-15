@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The conjugacy classes of a group form a partition of its elements. In a\nfinite group, this means that the order of the group is the sum of the\nnumber of elements of the distinct conjugacy classes. For an element $g$\nof group $G$, we denote the centralizer in $G$ of $g$ by $C_G(g)$. The\nnumber of elements in the conjugacy class of $g$ is $[G:C_G(g)]$, the\nindex of $C_G(g)$ in $G$. For an element $g$ of the center $Z(G)$ of\n$G$, the conjugacy class of $g$ consists of the singleton $\\{g\\}$.\nPutting this together gives us the *class equation*\n$$|G| = |Z(G)| + \\sum_{i=1}^m [G:C_G(x_i)]$$ where the $x_i$ are\nelements of the distinct conjugacy classes contained in\n$G\\setminus Z(G)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClassEquation"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "class equation",
+    "conjugacy class formula"
+  ]
+}

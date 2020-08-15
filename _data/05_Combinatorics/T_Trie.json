@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *trie* is a digital tree for storing a set of strings in which there\nis one node for every prefix of every string in the set. The name comes\nfrom the word re*trie*val, and thus is pronounced the same as *tree*\n(which leads to much confusion when spoken aloud). The word retrieval is\nstressed, because a trie has a lookup time that is equivalent to the\nlength of the string being looked up.\n\nIf a trie is to store some set of strings $S\\subseteq\\Sigma^*$ (where\n$\\Sigma$ is an alphabet), then it takes the following form. Each edge\nleading to non-leaf nodes in the trie is labelled by an element of\n$\\Sigma$. Any edge leading to a leaf node is labelled by $\\$$ (some\nsymbol *not* in $\\Sigma$). For every string $s\\in S$, there is a path\nfrom the root of the trie to a leaf, the labels of which when\nconcatenated form $s{{\\ensuremath{+\\hspace{-1ex}+}}}\\$$ (where\n${{\\ensuremath{+\\hspace{-1ex}+}}}$ is the string concatenation\noperator). For every path from the root of the trie to a leaf, the\nlabels of the edges concatenated form some string in $S$.\n\n### Example {#example .unnumbered}\n\nSuppose we wish to store the set of strings\n$S := \\left\\{ alpha, beta, bear, beast, beat \\right\\}$. The trie that\nstores $S$ would be\n\n$$\\xymatrix{\n    &&\\bullet \\ar@{-}[dl]_a \\ar@{-}[dr]^b \\\\\n    &\\bullet \\ar@{-}[dl]_l && \\bullet \\ar@{-}[dr]^e \\\\\n    \\bullet \\ar@{-}[d]_p &&&& \\bullet \\ar@{-}[dl]_a \\ar@{-}[dr]^t \\\\\n    \\bullet \\ar@{-}[d]_h &&& \\bullet \\ar@{-}[dl]_r \\ar@{-}[d]^s \\ar@{-}[dr]^t && \\bullet \\ar@{-}[dr]^a \\\\\n    \\bullet \\ar@{-}[d]_a && \\bullet \\ar@{-}[dl]_{\\$} & \\bullet \\ar@{-}[d]^t & \\bullet \\ar@{-}[dr]^{\\$} && \\bullet \\ar@{-}[dr]^{\\$} \\\\\n    \\bullet \\ar@{-}[d]_{\\$} & \\bullet && \\bullet \\ar@{-}[d]^{\\$} && \\bullet && \\bullet \\\\\n    \\bullet &&& \\bullet\n}$$",
+  "language": "INFORMAL",
+  "phrase": "Trie",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Trie"
+    }
+  ],
+  "indexable": true
+}

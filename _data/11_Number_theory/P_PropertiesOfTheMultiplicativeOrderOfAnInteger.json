@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $m>1$ be an integer and let $a$ be another integer relatively prime\nto $m$. The order of $a$ modulo $m$ (or the multiplicative order of\n$a \\mod m$) is the smallest positive integer $n$ such that\n$a^n\\equiv 1 \\mod m$. The order is sometimes denoted by\n$\\operatorname{ord} a$ or $\\operatorname{ord}_m a$.\n\nLet $m$ be a positive integer and suppose that $(a,m)=1$.\n\n1.  $a^s\\equiv 1 \\mod m$ if and only if ${\\operatorname{ord}}a$ divides\n    $s$. In particular, ${\\operatorname{ord}}a$ divides $\\phi(m)$, where\n    $\\phi$ is the Euler phi function.\n\n2.  $a^s\\equiv a^t \\mod m$ if and only if\n    $s\\equiv t \\mod {\\operatorname{ord}}a$.\n\n3.  If ${\\operatorname{ord}}a =d$ then\n    $\\displaystyle {\\operatorname{ord}}a^k =\\frac{d}{\\gcd(k,d)}$ for any\n    $k\\geq 1$.\n\n4.  If ${\\operatorname{ord}}a =d$ and $e$ is a positive divisor of $d$\n    then $a^{d/e}$ has exact order $e$.\n\n5.  Suppose ${\\operatorname{ord}}a=h$ and ${\\operatorname{ord}}b = k$\n    with $\\gcd(h,k)=1$. Then ${\\operatorname{ord}}(ab)=hk$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertiesOfTheMultiplicativeOrderOfAnInteger"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "properties of the multiplicative order of an integer"
+  ]
+}

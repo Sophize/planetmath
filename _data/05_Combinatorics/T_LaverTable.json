@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Laver table*]{} $L_n$ for a given integer $n > 0$ has $2^n$ rows $i$\nand columns $j$ with each entry being determined thus:\n$L_n(i, j) = i \\star j$, with $i \\star 1 = (i \\mod 2^n) + 1$ for the\nfirst column. Subsequent rows are calculated with\n$i \\star (j \\star k) := (i \\star j) \\star (i \\star k)$.\n\nFor example, $L_2$ is\n\n$$\\begin{bmatrix}\n2 & 4 & 2 & 4 \\\\\n3 & 4 & 3 & 4 \\\\\n4 & 4 & 4 & 4 \\\\\n1 & 2 & 3 & 4 \\\\\n\\end{bmatrix}$$\n\nThere is no known closed formula to calculate the entries of a Laver\ntable directly, and it is in fact suspected that such a formula does not\nexist.\n\nThe entries repeat with a certain periodicity $m$. This periodicity is\nalways a power of 2; the first few periodicities are 1, 1, 2, 4, 4, 8,\n8, 8, 8, 16, 16, ... (see A098820 in Sloane\u2019s OEIS). The sequence is\nincreasing, and it was proved in 1995 by Richard Laver that under the\nassumption that there exists a rank-into-rank, it actually tends towards\ninfinity. Nevertheless, it grows extremely slowly; Randall Dougherty\nshowed that the first $n$ for which the table entries\u2019 period can\npossibly be 32 is $A(9,A(8,A(8,255)))$, where $A$ denotes the Ackermann\nfunction.\n\n[9]{} P. Dehornoy, \u201cDas Unendliche als Quelle der Erkenntnis\u201d,\n[*Spektrum der Wissenschaft Spezial*]{} 1/2001: 86 - 90 R. Laver, \u201dOn\nthe Algebra of Elementary Embeddings of a Rank into Itself\u201d, [*Advances\nin Mathematics*]{} [**110**]{} (1995): 334\n\n[*This entry based entirely on a Wikipedia entry from a PlanetMath\nmember.*]{}",
+  "language": "INFORMAL",
+  "phrase": "Laver Table",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LaverTable"
+    }
+  ],
+  "indexable": true
+}

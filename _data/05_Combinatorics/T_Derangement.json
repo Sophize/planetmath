@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S_n$ be the symmetric group of order $n\\ge 1$. A permutation\n$\\phi\\in S_n$ without a fixed point (that is, $\\phi(i)\\neq i$ for any\n$i\\in\\lbrace 1,\\ldots, n\\rbrace$) is called a *derangement*.\n\nIn combinatorial theory, one is usually interested in the number $d(n)$\nof derangements in $S_n$. It is clear that $d(1)=0,d(2)=1$, and\n$d(3)=2$. It is also not difficult to calculate $d(n)$ for small $n$.\nFor general $n$, one can appeal to the principle of inclusion-exclusion.\nLet $A_i$ denote the collection of permutations that fix $i$. Then the\ncollection of $A$ of derangments in $S_n$ is just the complement of\n$$A_1\\cup A_2\\cup \\cdots \\cup A_n$$ in $S_n$. Let\n$C=\\lbrace A_1,\\ldots,A_n\\rbrace$ and $I_k$ be the $k$-fold intersection\nof members of $C$ (that is, each member of $I_k$ has the form\n$A_{j_1}\\cap \\cdots \\cap A_{j_k}$). We can interpret a member of $I_k$\nas a set of permutations that fix $k$ elements from\n$\\lbrace 1,\\dots, n\\rbrace$. The cardinality of each of these members is\n$(n-k)!$. Furthermore, there are $n\\choose k$ members in $I_k$. Then,\n\n$$\\begin{aligned}\nd(n)&=& |A| = |S_n|-|A_1\\cup \\cdots \\cup A_k\\cup\\cdots \\cup A_n| \\\\\n&=& n!-\\Big[\\sum_{S\\in I_1}|S|-\\cdots+(-1)^k\\sum_{S\\in I_k}|S|+\\cdots+(-1)^n\\sum_{S\\in I_n}|S|\\Big] \\\\\n&=& n!-\\Big[{n\\choose 1}(n-1)!-\\cdots+(-1)^k {n\\choose k} (n-k)!+\\cdots+(-1)^n {n\\choose n} (n-n)!\\Big] \\\\\n&=& n!-\\Big[ \\frac{n!}{1!}-\\cdots +(-1)^k\\frac{n!}{k!}+\\cdots  +(-1)^n\\frac{n!}{n!}\\Big] \\\\\n&=& n!\\sum_{k=0}^{n}\\frac{(-1)^k}{k!}\\end{aligned}$$\n\nWith this equation, one can easily derive the recurrence relation\n$$d(n)=nd(n-1)+(-1)^n.$$ Apply this formula twice, we are led to another\nrecurrence relation $$d(n)=(n-1)\\big[d(n-1)+d(n-2)\\big].$$\n\n**Application**. A group of $n$ men arrive at a party and check their\nhats. Upon departure, the hat-checker, being forgetful, randomly\n(meaning that the distribution of picking any hat out of all possible\nhats is a uniform distribution) hands back a hat to each man. What is\nthe probability $p(n)$ that no man receives his own hat? Does this\nprobability go to $0$ as $n$ gets larger and larger?\n\nAnswer: According to the above calculation,\n$$p(n)=\\frac{d(n)}{n!}=\\sum_{k=0}^{n}\\frac{(-1)^k}{k!}.$$ Therefore,\n$$\\lim_{n\\to\\infty}p(n)=\\frac{1}{e}\\approx 0.368.$$",
+  "language": "INFORMAL",
+  "phrase": "Derangement",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Derangement"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be an N-dimensional random variable with mean\n$\\mu=\\mathbb{E}[X]$ and covariance matrix\n$V=\\mathbb{E}\\left[ \\left( X-\\mu\\right) \\, \\left( X-\\mu\\right)^T\\right]$.\n\nIf $V$ is invertible (i.e., strictly positive), for any $t>0$:\n$$\\Pr\\left( \\sqrt{\\left( X-\\mu\\right)^T \\, V^{-1} \\, \\left( X-\\mu\\right) } > t \\right) \\le \\frac{N}{t^2}$$\n\n[*Proof:*]{} $V$ is positive, so $V^{-1}$ is. Define the random variable\n$$y = \\left( X-\\mu\\right)^T \\, V^{-1} \\, \\left( X-\\mu\\right)$$ $y$ is\npositive, then Markov\u2019s inequality holds:\n$$\\Pr\\left( \\sqrt{\\left( X-\\mu\\right)^T \\, V^{-1} \\, \\left( X-\\mu\\right) } > t\\right) = \\Pr\\left( \\sqrt{y} > t\\right) =\\Pr\\left( y > t^2 \\right) \\le \\frac{\\mathbb{E}[y]}{t^2}$$\n\nSince $V$ is symmetric, a rotation $R$ (i.e., $R\\, R^T = R^T\\, R = I$)\nand a diagonal matrix $D$ (i.e., $i\\neq j \\, \\Rightarrow \\, D_{i,j}=0$)\nexist such that $$V = R^T \\, D \\, R$$ Since $V$ is positive $D_{ii}>0$.\nBesides $$V^{-1} = R^{-1} \\, D^{-1} \\, (R^T)^{-1} = R^T \\, D^{-1} \\, R$$\nclearly $\\left[ D^{-1}\\right]_{ii} = \\frac{1}{D_{ii}}$.\n\nDefine $Z = R \\, \\left( X-\\mu\\right)$.\n\nThe following identities hold:\n$$\\mathbb{E}\\left[ Z \\, Z^T \\right] = R \\,\\mathbb{E}\\left[ \\left( X-\\mu\\right) \\, \\left( X-\\mu\\right)^T \\right] \\, R^T  = R \\, R^T \\, D \\, R \\, R^T = D  \\quad \\Rightarrow \\quad \\forall i \\quad \\mathbb{E}\\left[ Z_i^2 \\right] = D_{ii}$$\nand\n$$y = Z^T \\, R \\, V^{-1} \\, R^T \\, Z = Z^T \\, D^{-1} \\, Z = \\sum\\limits_{i=1}^N \\frac{Z_i^2}{D_{ii}}$$\nthen\n$$\\mathbb{E} [y] = \\sum\\limits_{i=1}^N \\frac{\\mathbb{E}\\left[ Z_i^2 \\right] }{D_{ii}} = N$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultidimensionalChebyshevsInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Multidimensional Chebyshev's inequality"
+  ]
+}

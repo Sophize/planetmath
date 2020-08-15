@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The is a mnemonic that is helpful for students for simplifying radical\nexpressions. The phrase even-even-odd stands for the rule: If a real\nvariable to an even is under a with an even and, when the is eliminated,\nthe resulting on the variable is odd, then absolute value signs must be\nplaced around the variable. (All numbers to which \u201c\u201d and \u201c\u201d refer are\nnatural numbers.) This rule is justified by the following:\n\nRecall that, for any positive integer $n$, $b$ is the of $a$ if and only\nif $b^n=a$ and $\\operatorname{sign}(b)=\\operatorname{sign}(a)$. Thus,\nfor any positive integer $n$ and $x \\in \\mathbb{R}$,\n\n$$\\sqrt[n]{x^n}=\\begin{cases}\n|x| & \\text{if } n \\text{ is even} \\\\\nx & \\text{if } n \\text{ is odd.} \\end{cases}$$\n\nThe following are some examples of how to use the even-even-odd rule.\n\nLet $x$, and $y$ be real variables. Simplify the expression\n$\\sqrt[4]{x^{12}y^8}$.\n\n[*Solution:*]{}\u00a0\u00a0The on the $x$ is even (12), the of the is even (4),\nand the that will occur on the $x$ once the is eliminated will be odd\n(3). Thus, absolute values are necessary on the $x$.\n\nThe on the $y$ is even (8), the of the is even (4), and the that will\noccur on the $y$ once the is eliminated will be even (2). Thus,\naccording to the rule, absolute values are not necessary on the $y$.\n(Note, though, that it would not be incorrect to have them.) The reason\nthat the absolute values are not necessary is that $y^2$ is nonnegative\nregardless of the value of $y$.\n\nThus, we have $\\sqrt[4]{x^{12}y^8}=|x|^3y^2$. (The answer $|x^3|y^2$ is\nalso acceptable.)\n\nSome care is needed in applying the even-even-odd rule, as the next\nproblem shows.\n\nLet $x$ be a real variable. Simplify the expression $\\sqrt[4]{x^2}$.\n\nNote that, as stated, the even-even-odd rule does not apply here, since,\nif the were eliminated, the resulting on the $x$ will be $\\frac{1}{2}$.\nOn the other hand, it can still be used to provide a correct answer for\nthis particular problem.\n\n[*Solution:*]{}\n\n$$\\sqrt[4]{x^2}=\\sqrt{\\sqrt{x^2}}=\\sqrt{|x|}$$\n\nThe good news is that, for square roots, this issue discussed above does\nnot arise: If the even-even-odd rule does not apply, then absolute\nvalues are not necessary. That is because, if $n \\in \\mathbb{N}$ is odd,\nthe expression $\\sqrt{x^n}$ only makes sense in the real numbers when\n$x$ is nonnegative.\n\nI would like to thank Mrs. Sue Millikin, who taught me how to simplify\nexpressions in this manner.",
+  "language": "INFORMAL",
+  "phrase": "Even-Even-Odd Rule",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EvenevenoddRule"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An integer of the form $x^y + y^x$, with $1 < x \\leq y$.\n\nLeyland numbers with $x < y < 11$ are\n\n8, 17, 32, 57, 100, 177, 320, 593, 1124 54, 145, 368, 945, 2530, 7073,\n20412, 60049 512, 1649, 5392, 18785, 69632, 268705, 1058576 6250, 23401,\n94932, 423393, 2012174, 9865625 93312, 397585, 1941760, 10609137,\n61466176 1647086, 7861953, 45136576, 292475249 33554432, 177264449,\n1173741824 774840978, 4486784401 20000000000\n\nThe largest known prime Leyland number $2638^{4405} + 4405^{2638}$.\n\nReference\n\nR. Crandall, C. Pomerance, Prime Numbers: A Computational Perspective,\nSpringer, 2001",
+  "language": "INFORMAL",
+  "phrase": "Leyland Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeylandNumber"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $V_1,\\ldots, V_N$ are vector spaces over a field\n${\\mathbbmss{F}}$. Then the Cartesian product\n$V_1\\times \\cdots \\times V_N$ is a vector space when addition and scalar\nmultiplication is defined as follows $$\\begin{aligned}\n   (u_1,\\ldots, u_N) +    (v_1,\\ldots, v_N) &=&    (u_1+v_1,\\ldots, u_N+v_N), \\\\\n   k (u_1,\\ldots, u_N) &=& (k u_1,\\ldots, k u_N)\\end{aligned}$$ for\n$u_i, v_i \\in V_i$, $k\\in {\\mathbbmss{F}}$.\n\nFor example, the vector space structure of ${\\mathbbmss{R}}^n$ if\ndefined as above.\n\n### Properties {#properties .unnumbered}\n\n1.  If $V_i$ are vector spaces and $W_i\\subset V_i$ are subspaces, then\n    $W_1\\times \\cdots \\times W_N$ is a vector subspace of\n    $V_1\\times \\cdots \\times V_N$.\n\n2.  The dimension of $V_1\\times \\cdots \\times V_N$ is\n    $\\dim V_1+ \\cdots +\\dim V_N$.",
+  "language": "INFORMAL",
+  "phrase": "Cartesian Product Of Vector Spaces",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CartesianProductOfVectorSpaces"
+    }
+  ],
+  "indexable": true
+}

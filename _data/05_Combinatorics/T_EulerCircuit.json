@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Euler cycle"
+  ],
+  "definition": "An Euler circuit is a connected graph such that starting at a vertex\n$a$, one can traverse along every edge of the graph once to each of the\nother vertices and return to vertex $a$. In other words, an Euler\ncircuit is an Euler path that is a circuit. Thus, using the properties\nof odd and even vertices given in the definition of an Euler path, an\nEuler circuit exists if and only if every vertex of the graph has an\neven degree.\n\n![image](ecircuit){width=\"1in\" height=\"1in\"}\n\nThis graph is an Euler circuit as all vertices have degree 2.\n\n![image](epath){width=\"1in\" height=\"1in\"}\n\nThis graph is not an Euler circuit.",
+  "language": "INFORMAL",
+  "phrase": "Euler Circuit",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulerCircuit"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The range of consecutive integers between prime number $p_n$ and the\nnext prime $p_{n + 1}$ is called a [*prime gap*]{}, though sometimes\nthis term is applied to the number of members of that range. For\nexample, from 89 to 97 the numbers 90 to 96 form a gap of seven\nnon-primes.\n\nObviously in between each twin prime there is a gap of 1. Since there\nare infinitely many primes, so there are infinitely many prime gaps. If\nthe twin prime conjecture is ever proven, it would also prove that there\nare infinitely many prime gaps of length 1.\n\nA little reflection will show that the easiest way to find a prime gap\nof a desired length $n$ is to look at the range\n$n! + 2, \\ldots , n! + n$, though this gap might actually go all the way\nfrom $n! - p_{\\pi(n)} + 1$ to $n! + p_{\\pi(n)} - 1$ (with $p_x$ being\nthe $x$th prime and $\\pi(x)$ being the prime counting function). Another\nway is to look at the range $n\\# + 2, \\ldots , n\\# + n$, where $n\\#$ is\nthe $n$th primorial (though it might be slightly longer).\n\nIn general it is often possible to find prime gaps of greater lengths\nwith much smaller numbers. A000230 in Sloane\u2019s OEIS lists integers that\nbegin prime gaps of greater lengths than previous integers. Harald\nCram\u00c3\u00a9r conjectured that for large $n$ a gap of greater lengths than all\nprevious ones can be found at approximately $(\\ln n)^2$.",
+  "language": "INFORMAL",
+  "phrase": "Prime Gap",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimeGap"
+    }
+  ],
+  "indexable": true
+}

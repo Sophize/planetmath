@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Mertens' function",
+    "Mertens's function"
+  ],
+  "definition": "Given an integer $n > 0$,\n\n$$M(n) = \\sum_{i = 1}^n \\mu(i)$$\n\nwhere $\\mu(x)$ is the M\u00f6bius function.\n\nThere is no $x$ such that $M(x) > x$. Franz Mertens conjectured that\nthere is no $x$ such that $M(x) > \\sqrt{x}$, but this was proven false\nlater.\n\n[6]{} F. Mertens, \u201c\u00c3\u0192ber eine zahlentheoretische Funktion\" [*Akademie\nWissenschaftlicher Wien Mathematik-Naturlich Kleine Sitzungsber*]{}, IIa\n106, 761-830 (1897) A. M. Odlzyko and te Riele, \u201cDisproof of the Mertens\nConjecture\" [*Journal f\u00c3\u0192\u00c2\u00bcr die reine und angewandte Mathematik*]{},\n357, 138-160 (1985)\n\nExternal link\n-------------",
+  "language": "INFORMAL",
+  "phrase": "Mertens Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MertensFunction"
+    }
+  ],
+  "indexable": true
+}

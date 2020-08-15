@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *quotient rule* says that the derivative of the quotient $f/g$ of\ntwo differentiable functions $f$ and $g$ exists at all values of $x$ as\nlong as $g(x) \\not= 0$ and is given by the formula\n\n$$\\frac{d}{dx}\\ \\left[\\frac{f(x)}{g(x)}\\ \\right] = \n\\frac{g(x)f'(x) - f(x)g'(x)}{\\lbrack g(x) \\rbrack ^2}$$\n\nThe Quotient Rule and the other differentiation formulas allow us to\ncompute the derivative of any rational function.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientRule"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "quotient rule"
+  ]
+}

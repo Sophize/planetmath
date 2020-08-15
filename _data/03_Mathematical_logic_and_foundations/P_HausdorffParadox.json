@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $S^2$ be the unit sphere in the Euclidean space ${\\mathbb}{R}^3$.\nThen it is possible to take \u201chalf\u201d and \u201ca third\u201d of $S^2$ such that both\nof these parts are essentially congruent (we give a formal version in a\nminute). This sounds paradoxical: wouldn\u2019t that mean that half of the\nsphere\u2019s area is equal to only a third? The \u201cparadox\u201d resolves itself if\none takes into account that one can choose non-measurable subsets of the\nsphere which ostensively are \u201chalf\u201d and a \u201cthird\u201d of it, using geometric\ncongruence as means of comparison.\n\nLet us now formally state the Theorem.\n\nThere exists a disjoint of the unit sphere $S^2$ in the Euclidean space\n${\\mathbb}{R}^3$ into four subsets $A,B,C,D$, such that the following\nconditions are met:\n\n1.  Any two of the sets $A$, $B$, $C$ and $B\\cup C$ are congruent.\n\n2.  $D$ is countable.\n\nA crucial ingredient to the proof is the , so the sets $A$, $B$ and $C$\nare not constructible. The theorem itself is a crucial ingredient to the\nproof of the so-called Banach-Tarski paradox.\n\n[H]{}\n\n<span style=\"font-variant:small-caps;\">F.\u00a0Hausdorff</span>, Bemerkung\n\u00fcber den Inhalt von Punktmengen, *Math.\u00a0Ann.*\u00a075, 428\u2013433, (1915), ``\n(in German).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HausdorffParadox"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hausdorff paradox"
+  ]
+}

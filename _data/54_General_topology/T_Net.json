@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Moore-Smith sequence"
+  ],
+  "definition": "Let $X$ be a set. A *net* is a map from a directed set to $X$. In other\nwords, it is a pair $(A,\\gamma)$ where $A$ is a directed set and\n$\\gamma$ is a map from $A$ to $X$. If $a\\in A$ then $\\gamma(a)$ is\nnormally written $x_a$, and then the net is written $(x_a)_{a\\in A}$, or\nsimply $(x_a)$ if the direct set $A$ is understood.\n\nNow suppose $X$ is a topological space, $A$ is a directed set, and\n$(x_a)_{a\\in A}$ is a net. Let $x\\in X$. Then $(x_a)$ is said to\n*converge* to $x$ if whenever $U$ is an open neighbourhood of $x$, there\nis some $b \\in A$ such that $x_a \\in U$ whenever $a \\geq b$.\n\nSimilarly, $x$ is said to be an *accumulation point* (or *cluster\npoint*) of $(x_a)$ if whenever $U$ is an open neighbourhood of $x$ and\n$b \\in A$ there is $a \\in A$ such that $a \\geq b$ and $x_a \\in U$.\n\nNets are sometimes called *Moore\u2013Smith sequences*, in which case\nconvergence of nets may be called *Moore\u2013Smith convergence*.\n\nIf $B$ is another directed set, and $\\delta\\colon B\\rightarrow A$ is an\nincreasing map such that $\\delta(B)$ is cofinal in $A$, then the pair\n$(B, \\gamma\\circ\\delta)$ is said to be a *subnet* of $(A,\\gamma)$.\nAlternatively, a subnet of a net $(x_\\alpha)_{\\alpha\\in A}$ is sometimes\ndefined to be a net $(x_{\\alpha_\\beta})_{\\beta\\in B}$ such that for each\n$\\alpha_0\\in A$ there exists a $\\beta_0\\in B$ such that\n$\\alpha_\\beta\\geq\\alpha_0$ for all $\\beta\\geq\\beta_0$.\n\nNets are a generalisation of , and in many respects they work better in\narbitrary topological spaces than sequences do. For example:\n\n-   If $X$ is Hausdorff then any net in $X$ converges to at most one\n    point.\n\n-   If $Y$ is a subspace of $X$ then $x\\in\\overline{Y}$ if and only if\n    there is a net in $Y$ converging to $x$.\n\n-   if $X'$ is another topological space and $f\\colon X\\rightarrow X'$\n    is a map, then $f$ is continuous at $x$ if and only if whenever\n    $(x_a)$ is a net converging to $x$, $(f(x_a))$ is a net converging\n    to $f(x)$.\n\n-   $X$ is compact if and only if every net has a convergent subnet.",
+  "language": "INFORMAL",
+  "phrase": "Net",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Net"
+    }
+  ],
+  "indexable": true
+}

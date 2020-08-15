@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *iterator* is a variable that one by one takes on all the values\n(usually integers) in a given range. The letter $i$ is often used for\niterators (though that letter is overloaded as the imaginary unit), $j$\nis often used as a second iterator.\n\nIn mathematics iterators are most often used in sum and product\nnotation. For example, in $$\\prod_{i = 3}^7 42i^2$$ the iterator $i$\ntakes on values from 3 to 7.\n\nIn computer programming languages iterators are often associated with\nthe \u201cfor\u201d reserved word, e.g., \u201c`FOR I = 1 TO 47`\u201d in BASIC,\n\u201c`for (i = 1; i < 48; i++)`\u201d in C++. In Mathematica, iterators are often\ngiven in curly braces together with an (omittable) initial value and a\nrequired finish value separated by commas, e.g.,\n\u201c`Table[2^n - 1, {n, 2, 48}]`\u201d.",
+  "language": "INFORMAL",
+  "phrase": "Iterator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Iterator"
+    }
+  ],
+  "indexable": true
+}

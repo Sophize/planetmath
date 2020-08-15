@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f$ be a measure-preserving transformation of a probability space\n$(X,\\mathscr{A},\\mu)$. We say that $f$ is *mixing* (or strong-mixing) if\nfor all $A,B\\in\\mathscr{A}$,\n$$\\lim_{n\\to\\infty} \\mu(f^{-n}(A)\\cap B) = \\mu(A)\\mu(B),$$ and $f$ is\n*weakly mixing* if\n$$\\lim_{n\\to\\infty} \\frac{1}{n}\\sum_{i=0}^{n-1}|\\mu(f^{-i}(A)\\cap B)-\\mu(A)\\mu(B)| = 0$$\nfor all $A,B\\in\\mathscr{A}$.\n\nEvery mixing transformation is weakly mixing, and every weakly mixing\ntransformation is ergodic.",
+  "language": "INFORMAL",
+  "phrase": "Mixing",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Mixing"
+    }
+  ],
+  "indexable": true
+}

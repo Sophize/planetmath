@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Many results about cardinal exponentiation can neither be proved nor\ndisproved in ZFC. If, however, we allow ourselves to use GCH in addition\nto ZFC, then we have the following theorem, which gives an essentially\ncomplete description of the way cardinal exponentiation involving\ninfinite cardinals works.\n\nAssume the Generalized Continuum Hypothesis holds. Let $\\kappa$ and\n$\\lambda$ be cardinals, at least one of which is infinite, and such that\n$\\kappa>0$ and $\\lambda>1$. Then $$\\lambda^\\kappa=\n\\begin{cases}\n\\kappa^+,&\\text{if}\\quad\\lambda\\le\\kappa^+;\\\\\n\\lambda^+,&\\text{if}\\quad\\operatorname{cf}(\\lambda)\\le\\kappa\\le\\lambda;\\\\\n\\lambda,&\\text{if}\\quad\\kappa<\\operatorname{cf}(\\lambda).\n\\end{cases}$$\n\nHere, $\\operatorname{cf}(\\lambda)$ is the cofinality of $\\lambda$, and\n$\\lambda^+$ is the cardinal successor of $\\lambda$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CardinalExponentiationUnderGCH"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "cardinal exponentiation under GCH"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Lie super algebra",
+    "graded Lie algebra"
+  ],
+  "definition": "A *Lie superalgebra* is a vector superspace equipped with a bilinear map\n$$\\begin{split}\n[\\cdot,\\cdot]: V \\otimes V &\\rightarrow V, \\\\\nv \\otimes w &\\mapsto [v, w],\n\\end{split}$$ satisfying the following properties:\n\n1.  If $v$ and $w$ are homogeneous vectors, then $[v,w]$ is a\n    homogeneous vector of degree $|v| + |w| \\pmod 2$,\n\n2.  For any homogeneous vectors $v, w$,\n    $[v,w] = (-1)^{|v||w| + 1} [w,v]$,\n\n3.  For any homogeneous vectors $u,v,w$,\n    $(-1)^{|u||w|}[u, [v,w]] + (-1)^{|v||u|} [v, [w, u]] + (-1)^{|w||v|} [w,[u,v]]$\n    = 0.\n\nThe map $[\\cdot,\\cdot]$ is called a *Lie superbracket*.\n\nA Lie algebra $V$ can be considered as a Lie superalgebra by setting\n$V = V_0$ and, therefore, $V_1 = \\{0\\}$.\n\nAny associative superalgebra $A$ has a Lie superalgebra structure where,\nfor any homogeneous elements $a,b \\in A$, the Lie superbracket is\ndefined by the equation $$\\label{supercomm}\n[a, b] = ab - (-1)^{|a||b|}ba.$$\n\nThe Lie superbracket (\\[supercomm\\]) is called the *supercommutator\nbracket* on $A$.\n\nThe space of graded derivations of a supercommutative superalgebra,\nequipped with the supercommutator bracket, is a Lie superalgebra.\n\nA *vector superspace* is a vector space $V$ equipped with a\ndecomposition $V = V_0 \\oplus V_1$.\n\nLet $V = V_0 \\oplus V_1$ be a vector superspace. Then any element of\n$V_0$ is said to be *even*, and any element of $V_1$ is said to be\n*odd*. By the definition of the direct sum, any element $v$ of $V$ can\nbe uniquely written as $v = v_0 + v_1$, where $v_0 \\in V_0$ and\n$v_1 \\in V_1$.\n\nA vector $v \\in V$ is *homogeneous* of degree $i$ if $v \\in V_i$ for\n$i = 0$ or $1$.\n\nIf $v \\in V$ is homogeneous, then the degree of $v$ is denoted by $|v|$.\nIn other words, if $v \\in V_i$, then $|v| = i$ by definition.\n\nThe vector $0$ is homogeneous of both degree $0$ and $1$, and thus $|0|$\nis not well-defined.",
+  "language": "INFORMAL",
+  "phrase": "Lie Superalgebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LieSuperalgebra"
+    }
+  ],
+  "indexable": true
+}

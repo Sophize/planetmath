@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ and $S$ be rings. A *ring homomorphism* is a function\n$f: R \\longrightarrow S$ such that:\n\n-   $f(a+b) = f(a)+f(b)$ for all $a,b \\in R$\n\n-   $f(a\\cdot b) = f(a) \\cdot f(b)$ for all $a,b \\in R$\n\nA *ring isomorphism* is a ring homomorphism which is a bijection. A\n*ring monomorphism* (respectively, *ring epimorphism*) is a ring\nhomomorphism which is an injection (respectively, surjection).\n\nWhen working in a context in which all rings have a multiplicative\nidentity, one also requires that $f(1_R) = 1_S$. Ring homomorphisms\nwhich satisfy this property are called *unital* ring homomorphisms.",
+  "language": "INFORMAL",
+  "phrase": "Ring Homomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RingHomomorphism"
+    }
+  ],
+  "indexable": true
+}

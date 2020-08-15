@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "C*-algebra category",
+    "category of $C^*$ -algebras"
+  ],
+  "definition": "Let $\\mathcal{A}, \\mathcal{B}$ be two . Then a *$*$-homomorphism*\n$\\phi_*:\\mathcal{A} \\longrightarrow \\mathcal{B}$ is defined as a\nC\\*-algebra homomorphism $\\phi:\\mathcal{A}  \\to \\mathcal{B}$ which\nrespects involutions, that is:\n\n$$\\phi(a^{*_{\\mathcal{A}}}) = \\phi(a)^{*_{\\mathcal{B}}},\\quad\\mbox{ for any } a \\in \\mathcal{A}.$$\n\nIf \u2018by abuse of notation\u2019 one uses $*$ to denote both $*_{\\mathcal{A}}$\nand $*_{\\mathcal{B}}$, then any $*$-homomorphism $\\phi$ commutes with\n$*$, i.e., $\\phi*=*\\phi$. Homomorphisms between $C^*$-algebras are .\n\nThe category $\\mathcal{C}$ whose objects are $C^*$-algebras and whose\nmorphisms are $*$-homomorphisms is called the *category of\n$C^*$-algebras* or the *$C^*$-algebra category*.\n\n[9]{}\n\nKustermans, J., C\\*-algebraic Quantum Groups arising from Algebraic\nQuantum Groups, Ph.D. Thesis, K.U.Leuven, 1997.\n\nSheu, A.J.L., Compact Quantum Groups and Groupoid C\\*-Algebras, J.\nFunct. Analysis 144 (1997), 371-393.",
+  "language": "INFORMAL",
+  "phrase": "Category Of C*-Algebras",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CategoryOfCalgebras"
+    }
+  ],
+  "indexable": true
+}

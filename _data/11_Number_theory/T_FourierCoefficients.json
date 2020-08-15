@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathbb{T}^n=\\mathbb{R}^n/(2\\pi\\mathbb{Z})^n$ be the\n$n$-dimensional torus, let $\\{\\phi_k(x)\\}_{k\\in\\mathbb{Z}^n}$ be an\northonormal basis for $L^2(\\mathbb{T}^n)$, and suppose that\n$f(x)\\in L^2(\\mathbb{T}^n)$.\n\nWe can expand $f$ as a Fourier series\n\n$$\\begin{aligned}\n\\sum_{k\\in\\mathbb{Z}^n}\\hat{f}(k)\\phi_k,\\end{aligned}$$\n\nand we call the numbers $\\hat{f}(k)$ the *Fourier coefficients* of $f$\nwith respect to the given basis. In particular, the Fourier series for\n$f$ converges to $f$ in the $L^2$ norm.\n\nThe most basic incarnation of this is finding the Fourier coefficients\nof a Riemann integrable function with respect to the orthonormal basis\ngiven by the trigonometric functions:\n\nLet $f$ be a Riemann integrable function from $[-\\pi,\\pi]$ to\n$\\mathbb{R}$. Then the numbers $$\\begin{aligned}\na_0 &= \\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}f(x)dx,\\\\\na_n &= \\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\cos(nx)dx,\\\\\nb_n &= \\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin(nx)dx.\\end{aligned}$$ are\ncalled the Fourier coefficients of the function $f.$\n\nThe above can be repeated for a Lebesgue-integrable function $f$ if we\nuse the Lebesgue integral in place of the Riemann integral. This is the\nusual setting for modern Fourier analysis.\n\nThe trigonometric series\n$$a_0 + \\sum_{n=1}^{\\infty}(a_n\\cos(nx)+b_n\\sin(nx))$$ is called the\ntrigonometric series of the function $f$, or Fourier series of the\nfunction $f.$",
+  "language": "INFORMAL",
+  "phrase": "Fourier Coefficients",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FourierCoefficients"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Bernoulli polynomials* are the sequence\n$\\{ b_r(x) \\} _{r=0}^{\\infty}$ of polynomials defined on $[0,1]$ by the\nconditions: $$\\begin{aligned}\nb_0(x) & = & 1, \\\\\nb'_r(x) & = & r b_{r-1}(x), r \\geq 1, \\\\\n\\int_0^1 b_r(x)dx & = & 0, r \\geq 1\\end{aligned}$$\n\nThese assumptions imply the identity\n$$\\sum_{r=0}^{\\infty} b_r(x) \\frac{y^r}{r!} = \\frac{ye^{xy}}{e^y-1}$$\nallowing us to calculate the $b_r$. We have\n\n$$\\begin{aligned}\nb_0(x) & = & 1 \\\\\nb_1(x) & = & x-\\frac{1}{2} \\\\\nb_2(x) & = & x^2 - x + \\frac{1}{6} \\\\\nb_3(x) & = & x^3 - \\frac{3}{2}x^2 + \\frac{1}{2}x \\\\\nb_4(x) & = & x^4 - 2x^3 + x^2 - \\frac{1}{30} \\\\\n\\vdots & &\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Bernoulli Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BernoulliPolynomial"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "induced norm"
+  ],
+  "definition": "Definition {#definition .unnumbered}\n----------\n\nLet $A\\colon \\V\\to\\W$ be a linear map between normed vector spaces $\\V$\nand $\\W$. To each such map (operator) $A$ we can assign a non-negative\nnumber $\\|A\\|_{\\op}$ defined by\n$$\\|A\\|_{\\op} := \\mathop{\\sup_{\\v\\in\\V}}_{\\v\\ne{\\bf 0}} \\frac{\\|A\\v\\|}{\\|\\v\\|},$$\nwhere the supremum $\\|A\\|_{\\op}$ could be finite or infinite.\nEquivalently, the above definition can be written as\n$$\\|A\\|_\\op := \\mathop{\\sup_{\\v\\in\\V}}_{\\|\\v\\|=1} \\|A\\v\\|\n    = \\mathop{\\sup_{\\v\\in\\V}}_{0<\\|\\v\\|\\le1} \\|A\\v\\|.$$ By convention,\nif $\\V$ is the zero vector space, any operator from $\\V$ to $\\W$ must be\nthe zero operator and is assigned zero norm.\n\n$\\|A\\|_{\\op}$ is called the the *operator norm* (or the *induced norm*)\nof $A$, for reasons that will be clear in the next .\n\nOperator norm is in fact a norm {#operator-norm-is-in-fact-a-norm .unnumbered}\n-------------------------------\n\n[**Definition -**]{} If $\\|A\\|_{\\op}$ is finite, we say that $A$ is a\n**. Otherwise, we say that $A$ is **.\n\nIt turns out that, for bounded operators, $\\|\\cdot\\|_{\\op}$ satisfies\nall the properties of a norm (hence the name *operator norm*). The proof\nfollows immediately from the definition:\n\nPositivity:\n\n:   Since $\\|A\\v\\|\\ge 0$, by definition $\\|A\\|_\\op \\ge 0$. Also,\n    $\\|A\\v\\| = 0$ identically only if $A=0$. Hence $\\|A\\|_\\op = 0$ only\n    if $A = 0$.\n\nAbsolute homogeneity:\n\n:   Since $\\|\\lambda A\\v\\|=|\\lambda| \\|A\\v\\|$, by definition\n    $\\|\\lambda A\\|_\\op = |\\lambda| \\|A\\|_\\op$.\n\nTriangle inequality:\n\n:   Since $\\|(A+B)\\v\\|=\\|A\\v+B\\v\\|\\le \\|A\\v\\| + \\|B\\v\\|$, by definition\n    $\\|A+B\\|_\\op \\le \\|A\\|_\\op + \\|B\\|_\\op$.\n\nThe set $L(\\V,\\W)$ of bounded linear maps from ${\\mathsf V}$ to\n${\\mathsf W}$ forms a vector space and $\\|\\cdot\\|_{\\op}$ defines a norm\nin it.\n\nExample {#example .unnumbered}\n-------\n\nSuppose that $\\V=(\\R^n,\\|\\cdot\\|_p)$ and $\\W=(\\R^n,\\|\\cdot\\|_p)$, where\n$\\|\\cdot\\|_p$ is the vector p-norm. Then the operator norm\n$\\|\\cdot\\|_\\op = \\|\\cdot\\|_p$ is the matrix p-norm.",
+  "language": "INFORMAL",
+  "phrase": "Operator Norm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OperatorNorm"
+    }
+  ],
+  "indexable": true
+}

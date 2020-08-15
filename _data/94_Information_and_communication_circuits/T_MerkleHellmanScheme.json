@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Merkle-Hellman cryptosystem"
+  ],
+  "definition": "The *Merkle-Hellman* cryptosystem was one of the earliest examples of\npublic key cryptography, and depends on the NP-complete problem \u201cSUBSET\nSUM\u201d for its security.\n\nSuppose Bob wants to send Alice a message.\n\nAlice generates private key ${a_1, a_2, \\dots a_n}$ which is a\nsuperincreasing sequence. She then picks $d \\gg \\sum_{i=1}^n a_i$ and\n$h$ comprime with $d$. Using the euclidean algorithm, she finds $h^{-1}$\nsuch that $hh^{-1} \\equiv 1 \\quad (\\textrm{mod }d)$.\n\nAlice now generates her public key ${b_1, b_2, \\dots b_n}$ where\n$b_i = ha_i\\quad (\\textrm{mod }d)$ and sends this to Bob.\n\nBob breaks up his message into binary strings of length $n$. To send the\nstring $m_1 m_2 \\dots m_n$ to Alice, he forms $C = \\sum_{i=1}^n m_i b_i$\nand sends $C$ to Alice.\n\nOn receiving $C$, Alice forms $V = h^{-1}C \\quad (\\textrm{mod }d)$. Now,\nsince $b_i = ha_i\\quad (\\textrm{mod }d)$, we have that\n$V = \\sum_{i=1}^n m_i a_i$. Since ${a_i}$ is a superincreasing sequence,\nit is easy to recover the $m_i$ if you know $V$ and ${a_i}$, and it\ntakes $O(n)$ arithmetic operations.\n\nIn 1982, a fast algorithm was found for recovering the message knowing\nonly the public key and the cryptogram $C$. It takes advantage of the\nfact that the public key ${b_i}$ is not generated in a random way, but\ncomes from a superincreasing sequence.",
+  "language": "INFORMAL",
+  "phrase": "Merkle-Hellman Scheme",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MerkleHellmanScheme"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\prod_{n=1}^{\\infty}p_n$ be an infinite product. We have the\nfollowing:\n\n-   $\\prod_{n=1}^{\\infty}p_n$ is convergent iff\n    $\\sum_{n=1}^{\\infty}\\ln{p_n}$ is convergent.\n\n-   $\\prod_{n=1}^{\\infty}(1+p_n)$ is convergent iff\n    $\\sum_{n=1}^{\\infty}p_n$ converges absolutely.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvergenceCriterionForInfiniteProduct"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "convergence criterion for infinite product"
+  ]
+}

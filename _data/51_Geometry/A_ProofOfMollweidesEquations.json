@@ -1,0 +1,17 @@
+{
+  "argumentText": "We transform the equation\n$$(a+b)\\sin\\frac{\\gamma}{2}=c\\cos\\left(\\frac{\\alpha -\\beta}{2}\\right)$$\nto\n$$a\\cos\\left(\\frac{\\alpha}{2}+\\frac{\\beta}{2}\\right) +b\\cos\\left(\\frac{\\alpha}{2}+\\frac{\\beta}{2}\\right)= c\\cos\\frac{\\alpha}{2}\\cos\\frac{\\beta}{2} +c\\sin\\frac{\\alpha}{2}\\sin\\frac{\\beta}{2} ,$$\nusing the fact that $\\gamma=\\pi-\\alpha-\\beta$. The left hand side can be\nfurther expanded, so that we get:\n$$a\\left(\\cos\\frac{\\alpha}{2}\\cos\\frac{\\beta}{2}- \\sin\\frac{\\alpha}{2}\\sin\\frac{\\beta}{2}\\right)+ b\\left(\\cos\\frac{\\alpha}{2}\\cos\\frac{\\beta}{2}- \\sin\\frac{\\alpha}{2}\\sin\\frac{\\beta}{2}\\right)= c\\cos\\frac{\\alpha}{2}\\cos\\frac{\\beta}{2} +c\\sin\\frac{\\alpha}{2}\\sin\\frac{\\beta}{2}.$$\nCollecting terms we get:\n$$(a+b-c)\\cos\\frac{\\alpha}{2}\\cos\\frac{\\beta}{2}- (a+b+c)\\sin\\frac{\\alpha}{2}\\sin\\frac{\\beta}{2}=0.$$\nUsing $s:=\\frac{a+b+c}{2}$ and using the equations $$\\begin{aligned}\n\\sin\\frac{\\alpha}{2}&=&\\sqrt{\\frac{(s-b)(s-c)}{bc}}\\\\\n\\cos\\frac{\\beta}{2}&=&\\sqrt{\\frac{s(s-a)}{bc}}\\end{aligned}$$ we get:\n$$2\\frac{s(s-c)}{c}\\sqrt{\\frac{(s-a)(s-b)}{ab}}- 2\\frac{s(s-c)}{c}\\sqrt{\\frac{(s-a)(s-b))}{ab}}=0,$$\nwhich is obviously true. So we can prove the first equation by going\nbackwards. The second equation can be proved in quite the same way.",
+  "conclusion": "#P_MollweidesEquations",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfMollweidesEquations"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Mollweide's equations"
+  ]
+}

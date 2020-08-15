@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a finite set $X=\\{a_1,a_2,\\ldots,a_n\\}$, a transposition is a\npermutation (bijective function of $X$ onto itself) $f$ such that there\nexist indices $i,j$ such that $f(a_i)=a_j$, $f(a_j)=a_i$ and\n$f(a_k)=a_k$ for all other indices $k$. This is often denoted (in the\ncycle notation) as $(a, b)$.\n\nExample: If $X=\\{a,b,c,d,e\\}$ the function $\\sigma$ given by\n$$\\begin{aligned}\n\\sigma(a)&=&a\\\\\n\\sigma(b)&=&e\\\\\n\\sigma(c)&=&c\\\\\n\\sigma(d)&=&d\\\\\n\\sigma(e)&=&b\\end{aligned}$$ is a transposition.\n\nOne of the main results on symmetric groups states that any permutation\ncan be expressed as composition (product) of transpositions, and for any\ntwo decompositions of a given permutation, the number of transpositions\nis always even or always odd.",
+  "language": "INFORMAL",
+  "phrase": "Transposition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Transposition"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "covariance kernel"
+  ],
+  "definition": "Let $\\{ X_t\\mid t \\in T \\}$ be a stochastic process such that\n${\\ensuremath{\\operatorname{Var}}}[X_t] < \\infty$ $\\forall t \\in T$. The\n*autocovariance function* of $\\{ X_t \\}$ is $$\\begin{aligned}\n\\gamma_X ( r, s ) & {:=}& {\\ensuremath{\\operatorname{Cov}}} ( X_r, X_s )\\\\\n& = & {}{E}\\big[ ( X_r -{}{E}[X_r] ) ( X_s -{}{E}[X_s] ) \\big]\n\\hspace{1cm} \\forall r, s \\in T.\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Autocovariance Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AutocovarianceFunction"
+    }
+  ],
+  "indexable": true
+}

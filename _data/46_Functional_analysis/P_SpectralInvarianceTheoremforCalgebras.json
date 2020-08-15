@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The spectral permanence theorem ( entry) relates the spectrums\n$\\sigma_{\\mathcal{B}}(x)$ and $\\sigma_{\\mathcal{A}}(x)$ of an element\n$x \\in \\mathcal{B} \\subseteq \\mathcal{A}$ relatively to the Banach\nalgebras $\\mathcal{B}$ and $\\mathcal{A}$.\n\nFor the situation is quite .\n\n[**Spectral invariance theorem -**]{} Suppose $\\mathcal{A}$ is a unital\n$C^*$-algebra and $\\mathcal{B} \\subseteq \\mathcal{A}$ a $C^*$-subalgebra\nthat contains the identity of $\\mathcal{A}$. Then for every\n$x \\in \\mathcal{B}$ one has\n$$\\sigma_{\\mathcal{B}}(x)=\\sigma_{\\mathcal{A}}(x).$$\n\nThe spectral invariance theorem is a straightforward corollary of the\nnext more general theorem about invertible elements in\n$C^*$-subalgebras.\n\n[**Theorem -**]{} Let $x \\in \\mathcal{B} \\subset \\mathcal{A}$ be as\nabove. Then $x$ is invertible in $\\mathcal{B}$ if and only if $x$\ninvertible in $\\mathcal{A}$.\n\n[**Proof :**]{}\n\n-   $(\\Longrightarrow)$\n\n    If $x$ is invertible in $\\mathcal{B}$ then it is clearly invertible\n    in $\\mathcal{A}$.\n\n-   $(\\Longleftarrow)$\n\n    If $x$ is invertible in $\\mathcal{A}$, then so is $y=x^*x$. Thus,\n    $0 \\notin \\sigma_{\\mathcal{A}}(y)$.\n\n    Since $y$ is , $\\sigma_{\\mathcal{A}}(y) \\subseteq \\mathbb{R}$ (see\n    this ), and so $\\mathbb{C} - \\sigma_{\\mathcal{A}}(y)$ has no\n    connected components.\n\n    By the we must have\n    $\\sigma_{\\mathcal{B}}(y)=\\sigma_{\\mathcal{A}}(y)$. Hence,\n    $0 \\notin \\sigma_{\\mathcal{B}}(y)$, i.e. $y$ is invertible in\n    $\\mathcal{B}$.\n\n    It follows that $x^{-1}=(x^*x)^{-1}x^*=y^{-1}x^* \\in \\mathcal{B}$,\n    i.e. $x$ is invertible in $\\mathcal{B}$. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpectralInvarianceTheoremforCalgebras"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "spectral invariance theorem (for $C^*$-algebras)",
+    "spectral invariance theorem",
+    "invariance of the spectrum of $C^*$-subalgebras"
+  ]
+}

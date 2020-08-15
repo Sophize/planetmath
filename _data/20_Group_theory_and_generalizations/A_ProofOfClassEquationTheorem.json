@@ -1,0 +1,17 @@
+{
+  "argumentText": "$X$ is a finite disjoint union of finite orbits: $X = \\cup_{i}Gx_{i}$.\nWe can separate this union by considerating first only the orbits of 1\nelement and then the rest:\n$X = \\cup_{j=1}^{l}\\{x_{i_{j}}\\} \\cup \\cup_{k=1}^{s}Gx_{i_{k}}=G_{X} \\cup_{k=1}^{s}Gx_{i_{k}}$\nThen using the orbit-stabilizer theorem, we have\n$\\#X=\\#G_{X} + \\sum_{k=1}^{s}[G:G_{x_{i_{k}}}]$ where for every $k$,\n$[G:G_{x_{i_{k}}}]\\geq 2$, because if one of them were 1, then it would\nbe associated to an orbit of 1 element, but we counted those orbits\nfirst. Then this stabilizers are not $G$. This finishes the proof.",
+  "conclusion": "#P_ClassEquationTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfClassEquationTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of class equation theorem"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let us think the sequence $u_1,\\,u_1u_2,\\,u_1u_2u_3,\\,\\ldots$ In the\ncomplex analysis, one often uses the definition of the convergence of an\n[*infinite product*]{} $\\displaystyle\\prod_{k = 1}^{\\infty}u_k$ where\nthe case $\\displaystyle\\lim_{k\\to\\infty}u_1u_2 \\ldots u_k = 0$ is\nexcluded. Then one has the\n\nThe infinite product $\\displaystyle\\prod_{k = 1}^{\\infty}u_k$ of the\nnon-zero complex numbers $u_1$, $u_2$, ... is convergent iff for every\npositive number $\\varepsilon$ there exists a positive number\n$n_\\varepsilon$ such that the condition\n$$\\vert u_{n+1}u_{n+2} \\ldots u_{n+p}-1 \\vert < \\varepsilon \\quad \\forall \\,p\\in\\mathbb{Z}_+$$\nis true as soon as $n \\geqq n_\\varepsilon$.\n\n**Corollary.** If the infinite product converges, then we necessarily\nhave $\\displaystyle\\lim_{k\\to\\infty}u_k = 1$. (Cf. the necessary\ncondition of convergence of series.)\n\nWhen the infinite product converges, we say that the [*value of the\ninfinite product*]{} is equal to\n$\\displaystyle\\lim_{k\\to\\infty} u_1u_2 \\ldots u_k$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvergenceConditionOfInfiniteProduct"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "convergence condition of infinite product"
+  ]
+}

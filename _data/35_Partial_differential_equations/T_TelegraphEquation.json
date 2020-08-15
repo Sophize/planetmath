@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "telegrapher's equation"
+  ],
+  "definition": "Both the electric voltage and the satisfy the [*telegraph equation*]{}\n$$\\begin{aligned}\nf_{xx}''-af_{tt}''-bf_t'-cf = 0,\\end{aligned}$$ where $x$ is distance,\n$t$ is time and $a,\\,b,\\,c$ are non-negative constants. The equation is\na generalised form of the wave equation.\\\nIf the initial conditions are $f(x,\\,0) = f_t'(x,\\,0) = 0$ and the\nboundary conditions $f(0,\\,t) = g(t)$, $f(\\infty,\\,t) = 0$, then the\nLaplace transform of the solution function $f(x,\\,t)$ is\n$$\\begin{aligned}\nF(x,\\,s) = G(s)e^{-x\\sqrt{as^2+bs+c}}.\\end{aligned}$$ In the special\ncase $b^2-4ac = 0$, the solution is $$\\begin{aligned}\nf(x,\\,t) = e^{-\\frac{bx}{2\\sqrt{a}}}g(t-x\\sqrt{a})H(t-x\\sqrt{a}).\\end{aligned}$$\n\n[*Justification of*]{} (2). Transforming the partial differential\nequation (1) ($x$ may be regarded as a parametre) gives\n$$F_{xx}''(x,\\,s)-a[s^2F(x,\\,s)-sf(x,\\,0)-f_t'(x,\\,0)]-b[sF(x,\\,s)-f(x,\\,0)]-cF(x,\\,s) = 0,$$\nwhich due to the initial conditions simplifies to\n$$F_{xx}''(x,\\,s) = (\\underbrace{as^2+bs+c}_{K^2})F(x,\\,s).$$ The\nsolution of this ordinary differential equation is\n$$F(x,\\,s) = C_1e^{Kx}+C_2e^{-Kx}.$$ Using the latter boundary\ncondition, we see that\n$$F(\\infty,\\,s) = \\int_0^\\infty e^{-st}f(\\infty,\\,t)\\,dt \\equiv 0,$$\nwhence $C_1 = 0$. Thus the former boundary condition implies\n$$C_2 = F(0,\\,s) = \\mathcal{L}\\{g(t)\\} = G(s).$$ So we obtain the\nequation (2).\\\n[*Justification of*]{} (3). When the of the quadratic equation\n$as^2\\!+\\!bs\\!+\\!c = 0$ vanishes, the coincide to $s = -\\frac{b}{2a}$,\nand $as^2\\!+\\!bs\\!+\\!c = a(s+\\frac{b}{2a})^2$. Therefore (2) reads\n$$F(x,\\,s) = G(s)a^{-x\\sqrt{a}(s+\\frac{b}{2a})} = e^{-\\frac{bx}{2\\sqrt{a}}}e^{-x\\sqrt{a}s}G(s).$$\nAccording to the delay theorem, we have\n$$\\mathcal{L}^{-1}\\{e^{-ks}G(s)\\} = g(t-k)H(t-k).$$ Thus we obtain for\n$\\mathcal{L}^{-1}\\{F(x,\\,s)\\}$ the expression of (3).",
+  "language": "INFORMAL",
+  "phrase": "Telegraph Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TelegraphEquation"
+    }
+  ],
+  "indexable": true
+}

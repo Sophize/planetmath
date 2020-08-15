@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $n$ be an integer with $n \\ge 3$. Then a is if and only if a is a\nconstructible number.\n\nFirst of all, note that a is a constructible number if and only if\n$\\displaystyle \\cos\\left(\\frac{2\\pi}{n}\\right)+i\\sin\\left(\\frac{2\\pi}{n}\\right)$\nis a constructible number. See the entry on roots of unity for more\ndetails. Therefore, without loss of generality, only the\nconstructibility of the number\n$\\displaystyle \\cos\\left(\\frac{2\\pi}{n}\\right)+i\\sin\\left(\\frac{2\\pi}{n}\\right)$\nwill be considered.\n\nSufficiency: If a regular $n$-gon is constructible, then so is the angle\nwhose is the of the polygon and whose rays pass through adjacent\nvertices of the polygon. The of this angle is\n$\\displaystyle \\frac{2\\pi}{n}$.\n\nBy the theorem on constructible angles,\n$\\displaystyle \\sin\\left(\\frac{2\\pi}{n}\\right)$ and\n$\\displaystyle \\cos\\left(\\frac{2\\pi}{n}\\right)$ are constructible\nnumbers. Note that $i$ is also a constructible number. Thus,\n$\\displaystyle \\cos\\left(\\frac{2\\pi}{n}\\right)+i\\sin\\left(\\frac{2\\pi}{n}\\right)$\nis a constructible number.\n\nNecessity: If\n$\\displaystyle \\omega=\\cos\\left(\\frac{2\\pi}{n}\\right)+i\\sin\\left(\\frac{2\\pi}{n}\\right)$\nis a constructible number, then so is $\\omega^m$ for any integer $m$.\n\nOn the complex plane, for every integer $m$ with $0\\le m<n$, construct\nthe point corresponding to $\\omega^m$. Use line segments to connect the\npoints corresponding to $\\omega^m$ and $\\omega^{m+1}$ for every integer\n$m$ with $0\\le m<n$. (Note that $\\omega^0=1=\\omega^n$.) This forms a\nregular $n$-gon.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CriterionForConstructibilityOfRegularPolygon"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "criterion for constructibility of regular polygon"
+  ]
+}

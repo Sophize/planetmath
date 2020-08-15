@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "quantifier free formula"
+  ],
+  "definition": "Let $\\Sigma$ be a signature and $T(\\Sigma)$ the set of terms over\n$\\Sigma$. The set $S$ of symbols for $T(\\Sigma)$ is the disjoint union\nof $\\Sigma$ and $V$, a countably infinite set whose elements are called\n*variables*. Now, adjoin $S$ the set $\\lbrace =, (, )\\rbrace$, assumed\nto be disjoint from $S$. An *atomic formula* $\\varphi$ over $\\Sigma$ is\nany one of the following:\n\n1.  either $(t_1=t_2)$, where $t_1$ and $t_2$ are terms in $T(\\Sigma)$,\n\n2.  or $(R(t_1,...,t_n))$, where $R\\in\\Sigma$ is an $n$-ary relation\n    symbol, and $t_i\\in T(\\Sigma)$.\n\n**Remarks**.\n\n1.  Using atomic formulas, one can inductively build formulas using the\n    logical connectives $\\vee$, $\\neg$, $\\exists$, etc... In this sense,\n    atomic formulas are formulas that can not be broken down into\n    simpler formulas; they are the building blocks of formulas.\n\n2.  A *literal* is a formula that is either atomic or of the form\n    $\\neg \\varphi$ where $\\varphi$ is atomic. If a literal is atomic, it\n    is called a *positive literal*. Otherwise, it is a *negative\n    literal*.\n\n3.  A finite disjunction of literals is called a *clause*. In other\n    words, a clause is a formula of the form\n    $\\varphi_1 \\vee \\varphi_2 \\vee \\cdots \\vee \\varphi_n$, where each\n    $\\varphi_i$ is a literal.\n\n4.  A *qunatifier-free formula* is a formula that does not contain the\n    symbols $\\exists$ or $\\forall$.\n\n5.  If we identify a formula $\\varphi$ with its double negation\n    $\\neg (\\neg \\varphi)$, then it can be shown that any quantifier-free\n    formula can be identified with a formula that is in conjunctive\n    normal form, that is, a finite conjunction of clauses. For a proof,\n    see this",
+  "language": "INFORMAL",
+  "phrase": "Atomic Formula",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AtomicFormula"
+    }
+  ],
+  "indexable": true
+}

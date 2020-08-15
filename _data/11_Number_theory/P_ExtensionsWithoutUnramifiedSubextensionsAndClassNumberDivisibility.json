@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $F/K$ be an extension of number fields such that for any\nintermediate Galois extension $L/K$, with $K\\subsetneq L \\subsetneq F$,\nthere is at least one finite place or infinite place which ramifies in\nthe extension $L/K$. Then, $h_K$, the class number of $K$, divides the\nclass number of $F$, $h_F$.\n\nFirst, we deduce some immediate corollaries.\n\nLet $F/K$ be an extension of number fields which is totally ramified at\nsome prime (or at an archimedean place). Then $h_K$ divides $h_F$.\n\nThe proof is clear since there cannot be unramified subextensions. The\ntheorem applies.\n\nLet $F/K$ be a Galois extension of number fields such that\n${\\operatorname{Gal}}(F/K)$ is a non-abelian simple group. Then $h_K$\ndivides $h_F$.\n\nIn this case, there cannot be subextensions with abelian Galois group\nand the theorem applies.\n\nLet $H$ be the Hilbert class field of $K$. By definition, $H$ is the\nmaximal unramified abelian extension of $K$, ${\\operatorname{Gal}}(H/K)$\nis isomorphic to ${\\operatorname{Cl}}(K)$, the ideal class group of $K$\nand $[H:K]=h_K$. Since there are no nontrivial unramified abelian\nsubextensions of $F/K$, we have $F\\cap H=K$ and so $[FH:F]=[H:K]=h_K$.\nOne can show that the extension $FH/F$ is unramified and abelian (in\nfact ${\\operatorname{Gal}}(FH/F)\\cong {\\operatorname{Gal}}(H/K)$).\nTherefore $FH$ is contained in $L$, the Hilbert class field of $F$.\nHence: $$h_F=[L:F]=[L:FH]\\cdot[FH:F]=[L:FH]\\cdot [H:K]=[L:FH]\\cdot h_K$$\nand so, $h_K$ divides $h_F$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtensionsWithoutUnramifiedSubextensionsAndClassNumberDivisibility"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "extensions without unramified subextensions and class number divisibility"
+  ]
+}

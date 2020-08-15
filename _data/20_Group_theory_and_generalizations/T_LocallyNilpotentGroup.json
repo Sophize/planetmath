@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definition {#definition .unnumbered}\n==========\n\nA *locally nilpotent group* is a group in which every finitely generated\nsubgroup is nilpotent.\n\nExamples {#examples .unnumbered}\n========\n\nAll nilpotent groups are locally nilpotent, because subgroups of\nnilpotent groups are nilpotent.\n\nAn example of a locally nilpotent group that is not nilpotent is\n$\\operatorname{Dih}(\\Z(2^\\infty))$, the generalized dihedral group\nformed from the quasicyclic $\\Z(2^\\infty)$.\n\nThe Fitting subgroup of any group is locally nilpotent.\n\nAll N-groups are locally nilpotent. More generally, all Gruenberg groups\nare locally nilpotent.\n\nProperties {#properties .unnumbered}\n==========\n\nAny subgroup or of a locally nilpotent group is locally nilpotent.\nRestricted direct products of locally nilpotent groups are locally\nnilpotent.\n\nFor each prime $p$, the elements of $p$-power order in a locally\nnilpotent group form a fully invariant subgroup (the maximal ). The\nelements of finite order in a locally nilpotent group also form a fully\ninvariant subgroup (the torsion subgroup), which is the restricted\ndirect product of the maximal $p$-subgroups. (This generalizes the fact\nthat a finite nilpotent group is the direct product of its Sylow\nsubgroups.)\n\nEvery group $G$ has a unique maximal locally nilpotent normal subgroup.\nThis subgroup is called the *Hirsch-Plotkin radical*, or *locally\nnilpotent radical*, and is often denoted $\\operatorname{HP}(G)$. If $G$\nis finite (or, more generally, satisfies the maximal condition), then\nthe Hirsch-Plotkin radical is the same as the Fitting subgroup, and is\nnilpotent.",
+  "language": "INFORMAL",
+  "phrase": "Locally Nilpotent Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocallyNilpotentGroup"
+    }
+  ],
+  "indexable": true
+}

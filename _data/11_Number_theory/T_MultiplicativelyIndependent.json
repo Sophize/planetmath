@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A set $X$ of nonzero complex numbers is said to be [*multiplicatively\nindependent*]{} iff every equation\n$$x_1^{\\nu_1}x_2^{\\nu_2}\\cdots x_n^{\\nu_n} \\;=\\; 1$$ with\n$x_1,\\,x_2,\\,\\ldots,\\,x_n \\in X$ and\n$\\nu_1,\\,\\nu_2,\\,\\ldots,\\,\\nu_n \\in \\mathbb{Z}$ implies that\n$$\\nu_1 \\;=\\; \\nu_2 \\;= \\ldots =\\; \\nu_n \\;=\\; 0.$$\n\nFor example, the set of prime numbers is multiplicatively independent,\nby the fundamental theorem of arithmetics.\\\nAny algebraically independent set is also multiplicatively independent.\\\nEvidently, $\\{x_1,\\,x_2,\\,\\ldots,\\,x_n\\}$ is multiplicatively\nindependent if and only if the numbers\n$\\log x_1$,$\\log x_2$,...,$\\log x_n$ are linearly independent over\n$\\mathbb{Q}$. Thus the Schanuel\u2019s conjecture may be formulated as the\n\n**Conjecture.** If $\\{x_1,\\,x_2,\\,\\ldots,\\,x_n\\}$ is multiplicatively\nindependent, then the transcendence degree of the set\n$$\\{x_1,\\,x_2,\\,\\ldots,\\,x_n,\\,\\log x_1,\\,\\log x_2,\\,\\ldots,\\,\\log x_n\\}$$\nis at least $n$.\n\n[8]{} : [*Schanuel\u2019s conjecture and algebraic powers $z^w$ and $w^z$\nwith $z$ and $w$ transcendental*]{} (2011). Available .",
+  "language": "INFORMAL",
+  "phrase": "Multiplicatively Independent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplicativelyIndependent"
+    }
+  ],
+  "indexable": true
+}

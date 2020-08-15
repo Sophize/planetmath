@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X_1, \\cdots, X_n$ and $Y$ be sets, and let $f$ be a function of $n$\nvariables: $f:X_1\\times X_2\\times\\cdots\\times X_n\\to Y$. $x_i\\in X_i$\nfor $2\\leq i\\leq n$. The induced mapping $a\\mapsto f(a,x_2,\\ldots,x_n)$\nis called the *partial mapping* determined by $f$ corresponding to the\nfirst variable.\n\nIn the case where $n=2$, the map defined by $a\\mapsto f(a,x)$ is often\ndenoted $f(\\cdot,x)$. Further, any function $f:X_1\\times X_2\\to Y$\ndetermines a mapping from $X_1$ into the set of mappings of $X_2$ into\n$Y$, namely $\\overline{f}:x\\mapsto(y\\mapsto f(x,y))$. The converse holds\ntoo, and it is customary to identify $f$ with $\\overline{f}$. Many of\nthe \u201ccanonical isomorphisms\u201d that we come across (e.g. in multilinear\nalgebra) are illustrations of this kind of identification.",
+  "language": "INFORMAL",
+  "phrase": "Partial Mapping",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartialMapping"
+    }
+  ],
+  "indexable": true
+}

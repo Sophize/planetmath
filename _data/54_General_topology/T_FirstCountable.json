@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "first axiom of countability"
+  ],
+  "definition": "Let $X$ be a topological space and let $x\\in X$. $X$ is said to be *at\n$x$* if there is a sequence $(B_n)_{n\\in\\mathbb{N}}$ of open sets such\nthat whenever $U$ is an open set containing $x$, there is\n$n\\in\\mathbb{N}$ such that $x\\in B_n\\subseteq U$.\n\nThe space $X$ is said to be ** if for every $x\\in X$, $X$ is first\ncountable at $x$.\n\n**Remark**. Equivalently, one can take each $B_n$ in the sequence to be\nopen neighborhood of $x$.",
+  "language": "INFORMAL",
+  "phrase": "First Countable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FirstCountable"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An [*untouchable number*]{} is an integer $n$ for which there exists no\ninteger $m$ such that $$\\left( \\sum_{d\\vert m} d \\right) - m = n,$$,\nthus $n$ can\u2019t be \u201ctouched\u201d by the sum of proper divisors of any other\ninteger. Paul Erd\u0151s proved that there are infinitely many untouchable\nnumbers.\n\nObviously no perfect number can be an untouchable number. Neither can\nany integer of the form $p + 1$, where $p$ is a prime number. What is\nnot so obvious is whether 5 is the only odd untouchable number, and the\nrelated question of whether 2 and 5 are the only prime untouchable\nnumbers.\n\n[1]{} P. Erd\u0151s, \u00dcber die Zahlen der Form $\\sigma(n)-n$ und $n-\\phi(n)$.\n*Elem. Math.* [**28**]{} (1973), 83\u201386.",
+  "language": "INFORMAL",
+  "phrase": "Untouchable Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UntouchableNumber"
+    }
+  ],
+  "indexable": true
+}

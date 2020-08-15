@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $V$ be an $n$-dimensional real vector space and let\n$Q \\colon V \\times V \\to \\mathbb{R}$ be a symmetric quadratic form. Then\nthere exists a basis of $V$ such that $Q(u,v) = u^T M v$ where the\nmatrix $M$ is diagonal.\n\nFurthermore, for every choice of basis such that $Q(u,v) = u^T M v$ with\n$M$ diagonal, the number of positive diagonal entries, the number of\nnegative diagonal entries, and the number of zeros on the diagonal will\nbe the same. The number of non-zero entries on the diagonal is known as\nthe *rank* of the quadratic form.\n\nTo account for the fact that not all the entries on the diagonal may be\npositive, one defines a quantity known as the *signature*. However,\nthere is more than one definition of the signature in use. Some define\nthe signature as the number of positive diagonal entries minus the\nnumber of negative ones. Others define the signature as the number of\nstrictly positive entries on the diagonal.\n\nAmong some people as, for instance, in pseudo-Riemannian geometry and\nrelativity theory, the term signature is used to refer to a symbolic\ndisplay like $[++-0]$ which shows the number of positive, negative, and\nzero diagonal entries or a pair of numbers $(n,m)$ which means that\nthere are $n$ positive entries and $m$ negative ones.\n\nThe rank and signature (whichever definition; pick your favorite) of a\nquadratic form are invariant under change of basis.\n\nThis implies that two quadratic forms over the same finite-dimensional\nreal vector space are related by a change of basis if and only if they\nhave the same rank and signature.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SylvestersLaw"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Sylvester's law",
+    "Sylvester's theorem"
+  ]
+}

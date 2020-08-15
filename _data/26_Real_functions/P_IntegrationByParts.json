@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "When we want to integrate a product of two functions, it is sometimes\npreferable to simplify the integrand by integrating one of the functions\nand differentiating the other. This process is called integrating by\nparts, and is done in the following way, where $u$ and $v$ are functions\nof $x$. $$\\int u\\cdot v'\\; dx = u\\cdot v - \\int v\\cdot u'\\; dx$$ This\nprocess may be repeated indefinitely, and in some cases it may be used\nto solve for the original integral algebraically. For definite\nintegrals, the rule appears as\n$$\\int_a^b u(x)\\cdot v'(x)\\; dx = (u(b)\\cdot v(b)-u(a)\\cdot v(a)) - \\int_a^b v(x)\\cdot u'(x)\\; dx$$\n**Proof:** Integration by parts is simply the antiderivative of a\nproduct rule. Let $G(x)=u(x)\\cdot v(x)$. Then,\n$$G'(x) = u'(x)v(x) + u(x)v'(x)$$ Therefore,\n$$G'(x) - v(x)u'(x) = u(x)v'(x)$$ We can now integrate both sides with\nrespect to $x$ to get\n$$G(x) - \\int v(x)u'(x)\\; dx = \\int u(x)v'(x)\\; dx$$ which is just\nintegration by parts rearranged.\\\n**Example:** We integrate the function $f(x)=x\\sin x$: Therefore we\ndefine $u(x):=x$ and $v'(x)=\\sin x$. So integration by parts yields us:\n$$\\int x\\sin x\\mathit{dx}=-x\\cos x+\\int\\cos x\\mathit{dx}=-x\\cos x+\\sin x+C,$$\nwhere $C$ is an arbitrary constant.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegrationByParts"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "integration by parts"
+  ]
+}

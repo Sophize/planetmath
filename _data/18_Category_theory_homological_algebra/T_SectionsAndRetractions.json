@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f: A\\rightarrow B$ is a morphism of a category.\n\n-   If there exists morphism $g: B\\rightarrow A$ such that\n    $g\\circ f=1_A$ then $f$ is called *retractable* and $g$ is called\n    *retraction* of $f$.\n\n-   If there exists morphism $g: B\\rightarrow A$ such that\n    $f\\circ g=1_B$ then $f$ is called *sectionable* and $g$ is called\n    *section* of $f$.\n\nReferences\n==========\n\n-",
+  "language": "INFORMAL",
+  "phrase": "Sections And Retractions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SectionsAndRetractions"
+    }
+  ],
+  "indexable": true
+}

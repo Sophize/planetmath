@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "semi-recursive"
+  ],
+  "definition": "For a language $L$, TFAE:\n\n-   There exists a Turing machine $f$ such that\n    $\\forall x.(x\\in L) \\iff \\mbox{the computation $f(x)$ terminates}$.\n\n-   There exists a total recursive function $f:{\\mathbb{N}}\\to L$ which\n    is *onto*.\n\n-   There exists a total recursive function $f:{\\mathbb{N}}\\to L$ which\n    is *one-to-one and onto*.\n\nA language $L$ fulfilling *any* (and therefore *all*) of the above\nconditions is called *recursively enumerable*.\n\nExamples {#examples .unnumbered}\n--------\n\n1.  Any recursive language.\n\n2.  The set of encodings of Turing machines which halt when given no\n    input.\n\n3.  The set of encodings of theorems of Peano arithmetic.\n\n4.  The set of integers $n$ for which the hailstone sequence starting at\n    $n$ reaches 1. *(We don\u2019t know if this set is recursive, or even if\n    it is ${\\mathbb{N}}$; but a trivial program shows it is recursively\n    enumerable.)*",
+  "language": "INFORMAL",
+  "phrase": "Recursively Enumerable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RecursivelyEnumerable"
+    }
+  ],
+  "indexable": true
+}

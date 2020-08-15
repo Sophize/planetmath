@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Roughly, an automorphism is a map from a mathematical object onto itself\nsuch that: 1. There exists an \u201cinverse\u201d map such that the composition of\nthe two is the identity map of the object, and 2. any relevant structure\nrelated to the object in question is preserved.\n\nIn category theory, an automorphism of an object $A$ in a category\n$\\mathcal{C}$ is a morphism $\\psi \\in Mor(A, A)$ such that there exists\nanother morphism $\\phi \\in Mor(A, A)$ and\n$\\psi \\circ \\phi = \\phi \\circ \\psi = id_{A}$.\n\nFor example in the category of groups an automorphism is just a\nbijective (inverse exists and composition gives the identity) group\nhomomorphism (group structure is preserved). Concretely, the map:\n$x \\mapsto -x$ is an automorphism of the additive group of real numbers.\nIn the category of topological spaces an automorphism would be a\nbijective, continuous map such that its inverse map is also continuous\n(not guaranteed as in the group case). Concretely, the map\n$\\psi: S^1 \\to S^1$ where $\\psi(\\alpha) = \\alpha + \\theta$ for some\nfixed angle $\\theta$ is an automorphism of the topological space that is\nthe circle.",
+  "language": "INFORMAL",
+  "phrase": "Automorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Automorphism"
+    }
+  ],
+  "indexable": true
+}

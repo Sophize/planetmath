@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "(this proof is not correct yet)\n\nIn an ordered geometry a line segment has at most one midpoint.\n\nLet $[p,q]$ be a closed line segment and suppose $m$ and $m'$ are\nmidpoints. If $m:p:q$ then $[m,p] < [m,q]$ so $m$ is not a midpoint.\nSimilarly we cannot have $p:q:m$, so we have $p:m:q$. And also,\n$p:m':q$. Suppose $m \\not = m'$. Without loss of generality we can\nassume $p:m:m'$ and $m:m':q$. But then\n$[p,m'] > [p,m] \\cong [m,q] > [m',q]$ so that\n$[p,m'] \\not \\cong [m',q]$, a contradiction. Hence $m = m'$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ALineSegmentHasAtMostOneMidpoint"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a line segment has at most one midpoint"
+  ]
+}

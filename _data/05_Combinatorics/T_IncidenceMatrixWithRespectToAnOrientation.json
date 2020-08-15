@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a finite graph with $n$ vertices, $\\{v_1, \\ldots, v_n\\}$ and\n$m$ edges, $\\{e_1, \\ldots, e_m\\}$. For each edge $e = (v_i,v_j)$ of $G$\nchoose one vertex to be the positive end and the other to be the\nnegative end. In this way, we assign an *orientation* to $G$. The ** of\n$G$ with respect an orientation is an $n \\times m$ matrix $D=(d_{ij})$\nwhere $$d_{ij} = \\left\\{ \\begin{array}{ll}\n+1 & \\textrm{if $v_i$ is the positive end of $e_j$} \\\\\n-1 & \\textrm{if $v_i$ is the negative end of $e_j$} \\\\\n0 & \\textrm{otherwise}.\n\\end{array} \\right.$$",
+  "language": "INFORMAL",
+  "phrase": "Incidence Matrix With Respect To An Orientation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IncidenceMatrixWithRespectToAnOrientation"
+    }
+  ],
+  "indexable": true
+}

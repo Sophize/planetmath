@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "absolute value"
+  ],
+  "definition": "Let $K$ be a field. A *valuation* or *absolute value* on $K$ is a\nfunction $|\\cdot|\\colon K \\to {\\mathbb{R}}$ satisfying the properties:\n\n1.  $|x| \\geq 0$ for all $x \\in K$, with equality if and only if $x=0$\n\n2.  $|xy| = |x|\\cdot |y|$ for all $x,y \\in K$\n\n3.  $|x+y| \\leq |x| + |y|$\n\nIf a valuation satisfies $|x+y| \\leq \\max(|x|, |y|)$, then we say that\nit is a *non-archimedean valuation*. Otherwise we say that it is an\n*archimedean valuation*.\n\nEvery valuation on $K$ defines a metric on $K$, given by\n$d(x,y) := |x-y|$. This metric is an ultrametric if and only if the\nvaluation is non-archimedean. Two valuations are *equivalent* if their\ncorresponding metrics induce the same topology on $K$. An equivalence\nclass $v$ of valuations on $K$ is called a *prime* of $K$. If $v$\nconsists of archimedean valuations, we say that $v$ is an *infinite\nprime*, or *archimedean prime*. Otherwise, we say that $v$ is a *finite\nprime*, or *non-archimedean prime*.\n\nIn the case where $K$ is a number field, primes as defined above\ngeneralize the notion of prime ideals in the following way. Let\n${\\mathfrak{p}}\\subset K$ be a nonzero prime ideal[^1], considered as a\nfractional ideal. For every nonzero element $x \\in K$, let $r$ be the\nunique integer such that $x \\in {\\mathfrak{p}}^r$ but\n$x \\notin {\\mathfrak{p}}^{r+1}$. Define $$|x|_{\\mathfrak{p}}:=\n\\begin{cases}\n1/N({\\mathfrak{p}})^r & x \\neq 0, \\\\\n0 & x=0,\n\\end{cases}$$ where $N({\\mathfrak{p}})$ denotes the absolute norm of\n${\\mathfrak{p}}$. Then $|\\cdot|_{\\mathfrak{p}}$ is a non\u2013archimedean\nvaluation on $K$, and furthermore every non-archimedean valuation on $K$\nis equivalent to $|\\cdot|_{\\mathfrak{p}}$ for some prime ideal\n${\\mathfrak{p}}$. Hence, the prime ideals of $K$ correspond bijectively\nwith the finite primes of $K$, and it is in this sense that the notion\nof primes as valuations generalizes that of a prime ideal.\n\nAs for the archimedean valuations, when $K$ is a number field every\nembedding of $K$ into ${\\mathbb{R}}$ or ${\\mathbb{C}}$ yields a\nvaluation of $K$ by way of the standard absolute value on ${\\mathbb{R}}$\nor ${\\mathbb{C}}$, and one can show that every archimedean valuation of\n$K$ is equivalent to one arising in this way. Thus the infinite primes\nof $K$ correspond to embeddings of $K$ into ${\\mathbb{R}}$ or\n${\\mathbb{C}}$. Such a prime is called real or complex according to\nwhether the valuations comprising it arise from real or complex\nembeddings.\n\n[^1]: By \u201cprime ideal\u201d we mean \u201cprime fractional ideal of $K$\u201d or\n    equivalently \u201cprime ideal of the ring of integers of $K$\u201d. We do not\n    mean literally a prime ideal of the ring $K$, which would be the\n    zero ideal.",
+  "language": "INFORMAL",
+  "phrase": "Valuation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Valuation"
+    }
+  ],
+  "indexable": true
+}

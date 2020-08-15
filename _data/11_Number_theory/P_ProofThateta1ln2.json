@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "$\\eta(1) = \\ln 2$, where $\\eta$ is the Dirichlet eta function.\n\n**Proof.** By definition,\n$$\\eta(1) = \\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n} = -\\sum_{n=1}^{\\infty} \\frac{(-1)^n}{n}.$$\nApplying Abel\u2019s Limit Theorem,\n$$\\eta(1)=-\\lim_{r\\to 1^-} \\sum_{n=1}^{\\infty}\\frac{(-r)^n}{n} = \\lim_{r\\to 1^-}\\ln(1+r) = \\ln 2$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofThateta1ln2"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "proof that  $\\eta (1) =\\ln 2$"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "alternatePhrases": [
+    "Euclidean metric",
+    "standard metric",
+    "standard topology",
+    "Euclidean",
+    "canonical topology",
+    "usual topology"
+  ],
+  "definition": "If $u=(x_1,y_1)$ and $v=(x_2,y_2)$ are two points on the plane, their\n*Euclidean distance* is given by $$\\label{equno}\n\\sqrt{(x_1-x_2)^2 + (y_1-y_2)^2}.$$ Geometrically, it\u2019s the length of\nthe segment joining $u$ and $v$, and also the norm of the difference\nvector (considering ${\\mathbbmss{R}}^n$ as vector space).\n\nThis distance induces a metric (and therefore a topology) on\n${\\mathbbmss{R}}^2$, called *Euclidean metric (on ${\\mathbbmss{R}}^2$)*\nor *standard metric (on ${\\mathbbmss{R}}^2)$*. The topology so induced\nis called *standard topology* or *usual topology on ${\\mathbbmss{R}}^2$*\nand one basis can be obtained considering the set of all the open balls.\n\nIf $a=(x_1,x_2,\\ldots,x_n)$ and $b=(y_1,y_2,\\ldots,y_n)$, then formula\n\\[equno\\] can be generalized to ${\\mathbbmss{R}}^n$ by defining the\nEuclidean distance from $a$ to $b$ as\n$$d(a,b)=\\sqrt{(x_1-y_1)^2+(x_2-y_2)^2+\\cdots+(x_n-y_n)^2}.$$\n\nNotice that this distance coincides with absolute value when $n=1$.\nEuclidean distance on ${\\mathbbmss{R}}^n$ is also a metric (Euclidean or\nstandard metric), and therefore we can give ${\\mathbbmss{R}}^n$ a\ntopology, which is called the standard (canonical, usual, etc) topology\nof ${\\mathbbmss{R}}^n$. The resulting (topological and vectorial) space\nis known as *Euclidean space*.\n\nThis can also be done for ${\\mathbbmss{C}}^n$ since as set\n${\\mathbbmss{C}}={\\mathbbmss{R}}^2$ and thus the metric on\n${\\mathbbmss{C}}$ is the same given to ${\\mathbbmss{R}}^2$, and in\ngeneral, ${\\mathbbmss{C}}^n$ gets the same metric as $R^{2n}$.",
+  "language": "INFORMAL",
+  "phrase": "Euclidean Distance",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EuclideanDistance"
+    }
+  ],
+  "indexable": true
+}

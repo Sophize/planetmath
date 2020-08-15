@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[@steen; @bourbaki] Suppose $X$ is a topological space. Then $X$ is a if\nand only if for all $x\\in X$, we have $$\\begin{aligned}\n\\label{ceq}\n  \\{x\\} &=& \\bigcap \\{A \\mid A\\subseteq X\\ \\mbox{closed}, \\mbox{$\\exists$ open set}\\  U\\ \\mbox{such that}\\ x\\in U\\subseteq A\\}.\\end{aligned}$$\n\nBy manipulating the definition using de Morgan\u2019s laws, the claim can be\nrewritten as\n$$\\{x\\}^\\complement = \\bigcup \\{V \\mid V\\subseteq X\\ \\mbox{open}, \\mbox{$\\exists$ open set}\\  U\\ \\mbox{such that}\\ x\\in U\\subseteq V^\\complement\\}.$$\nSuppose $y\\in \\{x\\}^\\complement$. As $X$ is a $T_2$ space, there are\nopen sets $U,V$ such that $x\\in U, y\\in V$, and $U\\cap V=\\emptyset$.\nThus, the inclusion from left to right holds. On the other hand, suppose\n$y\\in V$ for some open $V$ such that $\\{x\\}\\subseteq V^\\complement$.\nThen $$y\\in V\\subseteq \\{x\\}^\\complement$$ and the claim follows.\n\n### Notes {#notes .unnumbered}\n\nIf we adopt the notation that a neighborhood of $x$ is any set\ncontaining an open set containing $x$, then the equation \\[ceq\\] can be\nwritten as $$\\begin{aligned}\n  \\{x\\} &=& \\bigcap \\{A \\mid A\\subseteq X\\ \\mbox{is a closed neighborhood of $x$} \\}.\\end{aligned}$$\n\n[9]{} L.A. Steen, J.A.Seebach, Jr., *Counterexamples in topology*, Holt,\nRinehart and Winston, Inc., 1970. N. Bourbaki, *General Topology, Part\n1*, Addison-Wesley Publishing Company, 1966.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacterizationOfT2Spaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "characterization of $T2$ spaces"
+  ]
+}

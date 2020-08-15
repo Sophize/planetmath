@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K$ be a field and let $\\bar{K}$ be an algebraic closure of $K$. By\n$\\bar{K}^+$ we denote the abelian group $(\\bar{K},+)$ and similarly\n$\\bar{K}^{\\ast}=(\\bar{K},\\ast)$ (here the operation is multiplication).\nAlso we let $$G_{\\bar{K}/K}=\\operatorname{Gal}(\\bar{K}/K)$$ be the\nabsolute Galois group of $K$.\\\n\nLet $K$ be a field.\n\n1.  $$H^1(G_{\\bar{K}/K},\\bar{K}^+)=0$$\n\n2.  $$H^1(G_{\\bar{K}/K},\\bar{K}^{\\ast})=0$$\n\n3.  If $\\operatorname{char}(K)$, the characteristic of $K$, does not\n    divide $m$ (or $\\operatorname{char}(K)=0$) then\n    $$H^1(G_{\\bar{K}/K},{\\mu}_m)\\cong K^{\\ast}/K^{\\ast m}$$ where\n    ${\\mu}_m$ denotes the set of all $m^{th}$-roots of unity.\n\n[9]{} J.P. Serre, [*Galois Cohomology*]{}, Springer-Verlag, New York.\nJ.P. Serre, [*Local Fields*]{}, Springer-Verlag, New York.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StrongerHilbertTheorem90"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "stronger Hilbert theorem 90",
+    "Hilbert 90"
+  ]
+}

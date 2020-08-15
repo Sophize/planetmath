@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "quasi-scalar matrix",
+    "quasi-scalar matrices",
+    "diagonal matrices"
+  ],
+  "definition": "[**Definition**]{} Let $A$ be a square matrix (with entries in any\nfield). If all off-diagonal entries of $A$ are zero, then $A$ is a\n*diagonal matrix*.\n\nFrom the definition, we see that an $n\\times n$ diagonal matrix is\ncompletely determined by the $n$ entries on the diagonal; all other\nentries are zero. If the diagonal entries are $a_1, a_2, \\ldots, a_n$,\nthen we denote the corresponding diagonal matrix by\n$${\\operatorname{diag}}(a_1,\\ldots, a_n) = \\begin{pmatrix}\n a_{1} & 0 & 0      &  \\cdots &  0      \\\\\n 0 & a_{2} & 0      & \\cdots & 0      \\\\\n 0 & 0 & a_{3} & \\cdots &  0       \\\\\n \\vdots & \\vdots & \\vdots & \\ddots &  \\\\\n 0 & 0 & 0 &        & a_{n}\n \\end{pmatrix}.$$\n\n### Examples {#examples .unnumbered}\n\n1.  The identity matrix and zero matrix are diagonal matrices. Also, any\n    $1\\times 1$ matrix is a diagonal matrix.\n\n2.  A matrix $A$ is a diagonal matrix if and only if $A$ is both an\n    upper and lower triangular matrix.\n\n### Properties {#properties .unnumbered}\n\n1.  If $A$ and $B$ are diagonal matrices of same order, then $A+B$ and\n    $AB$ are again a diagonal matrix. Further, diagonal matrices\n    commute, i.e., $AB=BA$. It follows that real (and complex) diagonal\n    matrices are normal matrices.\n\n2.  A square matrix is diagonal if and only if it is triangular and\n    normal (see ).\n\n3.  The eigenvalues of a diagonal matrix\n    $A={\\operatorname{diag}}(a_1,\\ldots, a_n)$ are $a_1, \\ldots, a_n$.\n    Corresponding eigenvectors are the standard unit vectors in\n    ${\\mathbb{R}}^n$. For the determinant, we have\n    $\\det A = a_1 a_2 \\cdots a_n$, so $A$ is invertible if and only if\n    all $a_i$ are non-zero. Then the inverse is given by\n    $$\\big( {\\operatorname{diag}}(a_1,\\ldots, a_n)\\big)^{-1} = {\\operatorname{diag}}(1/a_1, \\ldots, 1/a_n).$$\n\n4.  If $A$ is a diagonal matrix, then the adjugate of $A$ is also a\n    diagonal matrix.\n\n5.  The matrix exponential of a diagonal matrix is\n    $$e^{{\\operatorname{diag}}(a_1,\\ldots, a_n)} = {\\operatorname{diag}}(e^{a_1}, \\ldots, e^{a_n}).$$\n\nMore generally, every analytic function of a diagonal matrix can be\ncomputed entrywise, i.e.:\n$$f({\\operatorname{diag}}(a_{11},a_{22},...,a_{nn}))= {\\operatorname{diag}}(f(a_{11}),f(a_{22}),...,f(a_{nn}))$$\n\n### Remarks {#remarks .unnumbered}\n\nDiagonal matrices are also sometimes called *quasi-scalar matrices*\n[@eves].\n\n[9]{} H. Eves, *Elementary Matrix Theory*, Dover publications, 1980.\nWikipedia, .",
+  "language": "INFORMAL",
+  "phrase": "Diagonal Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiagonalMatrix"
+    }
+  ],
+  "indexable": true
+}

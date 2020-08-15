@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A function $f:\\mathbb{N}\\rightarrow\\mathbb{N}$ is *time constructible*\nif there is a deterministic Turing machine $T$ (with alphabet\n$\\{0,1,B\\}$) such that when $T$ receives as input the a series of $n$\nones, it halts after exactly $f(n)$ steps. Similarly $f$ is *space\nconstructible* if there is a similar Turing machine which halts after\nusing exactly $f(n)$ cells.\n\nMost \u2019natural\u2019 functions are both time and space constructible,\nincluding constant functions, polynomials, and exponentials, for\nexample.",
+  "language": "INFORMAL",
+  "phrase": "Constructible",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Constructible"
+    }
+  ],
+  "indexable": true
+}

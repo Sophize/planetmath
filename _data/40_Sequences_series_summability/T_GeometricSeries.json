@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *geometric series* is a series of the form\n\n$$\\begin{aligned}\n\\sum_{i=1}^n ar^{i-1}\\end{aligned}$$\n\n(with $a$ and $r$ real or complex numbers). The partial sums of a\ngeometric series are given by\n\n$$\\begin{aligned}\ns_n=\\sum_{i=1}^n ar^{i-1} =  \\frac{a(1 -r^n)}{1-r}.\\end{aligned}$$\n\nAn *infinite geometric series* is a geometric series, as above, with\n$n \\rightarrow \\infty$. It is denoted by\n\n$$\\begin{aligned}\n\\sum_{i=1}^\\infty ar^{i-1}\\end{aligned}$$\n\nIf $|r|\\ge 1$, the infinite geometric series diverges. Otherwise it\nconverges to\n\n$$\\begin{aligned}\n\\sum_{i=1}^\\infty ar^{i-1}  =  \\frac{a}{1-r}\\end{aligned}$$\n\nTaking the limit of $s_n$ as $n \\rightarrow \\infty$, we see that $s_n$\ndiverges if $|r| \\ge 1$. However, if $|r| < 1$, $s_n$ approaches (2).\n\nOne way to prove (1) is to take\n\n$$\\begin{aligned}\ns_n  =  a + ar + ar^2 + \\cdots + ar^{n-1}\\end{aligned}$$\n\nand multiply by $r$, to get\n\n$$\\begin{aligned}\n r s_n  =  ar + ar^2 + ar^3 + \\cdots + ar^{n-1} + ar^{n}\\end{aligned}$$\n\nsubtracting the two removes most of the terms:\n\n$$\\begin{aligned}\n s_n - rs_n  =  a - ar^n\\end{aligned}$$\n\nfactoring and dividing gives us\n\n$$\\begin{aligned}\ns_n = \\frac{a(1 -r^n)}{1-r}\\end{aligned}$$\n\n$\\square$",
+  "language": "INFORMAL",
+  "phrase": "Geometric Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeometricSeries"
+    }
+  ],
+  "indexable": true
+}

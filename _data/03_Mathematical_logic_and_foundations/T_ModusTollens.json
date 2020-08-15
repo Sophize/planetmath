@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The law of *modus tollens* is the inference rule which allows one to\nconclude $\\neg P$ from $P \\Rightarrow Q$ and $\\neg Q$. The name \u201cmodus\ntollens\u201d refers to the fact that this rule allows one to take away the\nconclusion of a conditional statement and conclude the negation of the\ncondition. As an example of this rule, we may cite the following:\n$${{\\hbox{If the postman is at the door, the doorbell will ring twice} \\atop\n\\hbox{The bell is not ringing.}} \\over\n\\hbox{The postman is not at the door.}}$$\n\nThe validity of this rule may be established by means of the following\ntruth table:\n\n[ccccc]{} $P$ & $Q$ & $P \\Rightarrow Q$ & $\\neg P$ & $\\neg Q$\\\nF & F & T & T & T\\\nF & T & T & T & F\\\nT & F & F & F & T\\\nT & T & T & F & F\n\nThis rule can be used to justify the popular technique of proof by\ncontradiction. In this technique, one assumes a hypothesis $P$ and then\nderives a conclusion $Q$. This is tantamount to showing that\n$P \\Rightarrow Q$. Next one demonstrates $\\neg Q$. Applying modus\ntollens, one then concludes $\\neg P$.",
+  "language": "INFORMAL",
+  "phrase": "Modus Tollens",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModusTollens"
+    }
+  ],
+  "indexable": true
+}

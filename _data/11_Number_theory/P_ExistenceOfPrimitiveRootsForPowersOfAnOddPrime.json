@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem gives a way of finding a primitive root for $p^k$,\nfor an odd prime $p$ and $k\\geq 1$, given a primitive root of $p$.\nRecall that every prime has a primitive root.\n\nSuppose that $p$ is an odd prime. Then $p^k$ also has a primitive root,\nfor all $k\\geq 1$. Moreover:\n\n1.  If $g$ is a primitive root of $p$ and $g^{p-1}\\neq 1 \\mod p^2$ then\n    $g$ is a primitive root of $p^2$. Otherwise, if\n    $g^{p-1}\\equiv 1 \\mod p^2$ then $g+p$ is a primitive root of $p^2$.\n\n2.  If $k\\geq 2$ and $h$ is a primitive root of $p^k$ then $h$ is a\n    primitive root of $p^{k+1}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExistenceOfPrimitiveRootsForPowersOfAnOddPrime"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "existence of primitive roots for powers of an odd prime"
+  ]
+}

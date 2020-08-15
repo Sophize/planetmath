@@ -1,0 +1,17 @@
+{
+  "argumentText": "First we prove the right-hand arrow: if $X$ is connected then the\nproperty stated in the Theorem holds. This implication is true in every\nmetric space $X$, without additional conditions.\n\nLet us denote with $A_\\varepsilon$ the set of all points $z\\in X$ which\ncan be joined to $x$ with a sequence of points $p_1,\\ldots,p_n$ with\n$p_1=x$, $p_n=z$ and $d(p_i,p_{i+1})<\\varepsilon$. If\n$z\\in A_\\varepsilon$ then also $B_\\varepsilon(z)\\subset A_\\varepsilon$\nsince given $w\\in B_\\varepsilon(z)$ we can simply add the point\n$p_{n+1}=w$ to the sequence $p_1,\\ldots,p_n$. This immediately shows\nthat $A_\\varepsilon$ is an open subset of $X$. On the other hand we can\nshow that $A_\\varepsilon$ is also closed. In fact suppose that\n$x_n\\in A_\\varepsilon$ and $x_n \\to \\bar x\\in X$. Then there exists $k$\nsuch that $\\bar x\\in B_\\varepsilon(x_k)$ and hence\n$\\bar x\\in A_\\varepsilon$ by the property stated above. Since both\n$A_\\varepsilon$ and its complementary set are open then, being $X$\nconnected, we conclude that $A_\\varepsilon$ is either empty or its\ncomplementary set is empty. Clearly $x\\in A_\\varepsilon$ so we conclude\nthat $A_\\varepsilon=X$. Since this is true for all $\\varepsilon>0$ the\nfirst implication is proven.\n\nLet us prove the reverse implication. Suppose by contradiction that $X$\nis not connected. This means that two non-empty open sets $A,B$ exist\nsuch that $A\\cup B=X$ and $A\\cap B = \\emptyset$. Since $A$ is the\ncomplementary set of $B$ and vice-versa, we know that $A$ and $B$ are\nclosed too. Being $X$ compact we conclude that both $A$ and $B$ are\ncompact sets. We now claim that\n$$\\delta:= \\inf_{a\\in A, b\\in B} d(a,b) > 0.$$ Suppose by contradiction\nthat $\\delta=0$. In this case by definition of infimum, there exist two\nsequences $a_k\\in A$ and $b_k\\in B$ such that $d(a_k,b_k)\\to 0$. Since\n$A$ and $B$ are compact, up to a subsequence we may and shall suppose\nthat $a_k \\to a \\in A$ and $b_k \\to b \\in B$. By the continuity of the\ndistance function we conclude that $d(a,b)=0$ i.e.\u00a0$a=b$ which is in\ncontradiction with the condition $A\\cap B=\\emptyset$. So the claim is\nproven.\n\nAs a consequence, given $\\varepsilon<\\delta$ it is not possible to join\na point of $A$ with a point of $B$. In fact in the sequence\n$p_1,\\ldots,p_n$ there should exists two consecutive points $p_i$ and\n$p_{i+1}$ with $p_i\\in A$ and $p_{i+1}\\in B$. By the previous\nobservation we would conclude that\n$d(p_i,p_{i+1})\\ge \\delta > \\varepsilon$.",
+  "conclusion": "#P_CharacterizationOfConnectedCompactMetricSpaces",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCharacterizationOfConnectedCompactMetricSpaces"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of characterization of connected compact metric spaces."
+  ]
+}

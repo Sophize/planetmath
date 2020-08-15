@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "tubular neighbourhood"
+  ],
+  "definition": "In mathematics, a [*tubular neighborhood*]{} of a submanifold of a\nsmooth manifold is an open set around it resembling the normal bundle.\n\nThe idea behind a tubular neighborhood can be explained in a simple\nexample. Consider a smooth curve in the plane without\nself-intersections. On each point on the curve draw a line perpendicular\nto the curve. Unless the curve is straight, these lines will intersect\namong themselves in a rather complicated fashion. However, if one looks\nonly in a narrow band around the curve, the portions of the lines in\nthat band will not intersect, and will cover the entire band without\ngaps. This band is the tubular neighborhood.\n\nIn general, let $M'$ be a submanifold of a manifold $M$, and let $N$ be\nthe normal bundle of $M'$ in $M$ ($M'$ will play the role of the curve,\nand $M$ will be like the plane containing the curve). Consider the map\n\n$i : N_0 \\to M'$\n\nwhich establishes a bijective correspondence between the zero section\n$N_0$ of $N$ and the submanifold $M'$ of $M$. The mapping $i$ maps the\ncurve (blue in the following diagram) at the bottom to the blue curve on\ntop, and each of the infinite lines on the bottom, to each of the finite\nlines (they can also be curves) on top.\n\n![image](Tubular_neighborhood2)\n\nAn extension $j$ of this map to the entire normal bundle $N$ with values\nin $M$ such that $j(N)$ is an open set in $M$ and $j$ is a homeomorphism\nbetween $N$ and $j(N)$ is called a tubular neighbourhood.\n\nOften times one calls the open set $T = j(N)$, rather than $j$ itself, a\ntubular neighbourhood of $M'$, it is assumed implicitly that the\nhomeomorphism $j$ mapping $N$ to $T$ exists.\n\nThe following schematic illustration of the normal bundle $N$, with the\nzero section $N_0$ in blue. The transformation $j$ maps $N_0$ to the\ncurve $M'$, and $N$ to the tubular neighborhood of $M'$.\n\n![image](Tubular_neighborhood3)\n\n[2]{} Raoul Bott & Loring W. Tu [*Differential forms in algebraic\ntopology*]{}. Berlin: Springer-Verlag. (1982) Waldyr Muniz Oliva\n[*Geometric Mechanics*]{}. Berlin: Springer. (1982)\n\n[*This entry was adapted from the Wikipedia article as of June 10,\n2007.*]{}\n\n![image](Tubular_neighborhood)\n\n[*These diagrams were created by Oleg Alexandrov and released to the\npublic domain by him.*]{}",
+  "language": "INFORMAL",
+  "phrase": "Tubular Neighborhood",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TubularNeighborhood"
+    }
+  ],
+  "indexable": true
+}

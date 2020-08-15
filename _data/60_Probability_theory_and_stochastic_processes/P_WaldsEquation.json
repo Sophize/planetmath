@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X_1, X_2,\\ldots, X_N$ be a sequence of $N$ iid random variables\ndistributed as random variable $X$, such that\n\n1.  $N>0$ is itself a random variable (integer-valued),\n\n2.  the expectation of $X$, $\\operatorname{E}[X]<\\infty$, and\n\n3.  $\\operatorname{E}[N]<\\infty$.\n\nThen\n$$\\operatorname{E}\\Big[\\sum_{i=1}^{N}X_i\\Big]=\\operatorname{E}[N]\\operatorname{E}[X].$$\n\nThe integer $N$ from above can be viewed as a stopping time for the\nstochastic process $\\lbrace X_i \\mid i\\in\\mathbb{Z}^+ \\rbrace$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WaldsEquation"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Wald's equation"
+  ]
+}

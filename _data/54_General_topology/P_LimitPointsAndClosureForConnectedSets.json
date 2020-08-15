@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The below theorem shows that adding limit points to a connected set\npreserves connectedness.\n\nSuppose $A$ is a connected set in a topological space. If\n$A\\subseteq B \\subseteq \\overline{A}$, then $B$ is connected. In\nparticular, $\\overline{A}$ is connected.\n\nThus, on[e]{} wa[y]{} to prove that a space $X$ is connected is to find\na dense subspace in $X$ which is connected.\n\nTwo touching closed balls in ${\\mathbbmss{R}}^2$ shows that this theorem\ndoes not hold for the interior. Along the same lines, taking the closure\ndoes not preserve separatedness.\n\nLet $X$ be the ambient topological space. By assumption, if\n$U,V\\subseteq A$ are open and $U\\cup V=A$, then $U\\cap V\\neq \\emptyset$.\nTo prove that $B$ is connected, let $U,V$ be open sets in $B$ such that\n$U\\cup V = B$ and for a contradition, suppose that $U\\cap V=\\emptyset$.\nThen there are open sets $R,S\\subseteq X$ such that\n$$U= R\\cap B, \\quad V= S\\cap B.$$ It follows that $(R\\cup S) \\cap B=B$\nand $(R\\cap S)\\cap B=\\emptyset$. Next, let $\\tilde{U}, \\tilde{V}$ be\nopen sets in $A$ defined as\n$$\\tilde{U}= R\\cap A, \\quad \\tilde{V}= S\\cap A.$$ Now\n$$A= B\\cap A \\subseteq (R\\cup S)\\cap A \\subseteq A$$ and as\n$ (R\\cup S)\\cap A = \\tilde{U}\\cup \\tilde{V}$, it follows that\n$\\emptyset \\neq \\tilde{U}\\cap \\tilde{V} = (R\\cap S) \\cap A$. Then, by\nthe properties of the closure operator,\n$$\\emptyset \\neq \\overline{(R\\cap S)\\cap A} \\supseteq (R\\cap S)\\cap \\overline{A} \\supseteq (R\\cap S)\\cap B = \\emptyset.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitPointsAndClosureForConnectedSets"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "limit points and closure for connected sets"
+  ]
+}

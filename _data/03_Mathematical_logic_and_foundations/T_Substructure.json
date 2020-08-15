@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "submodel"
+  ],
+  "definition": "Let $\\Sigma$ be a fixed signature, and ${\\mathfrak{A}}$ and\n${\\mathfrak{B}}$ structures for $\\Sigma$. We say ${\\mathfrak{A}}$ is a\n*substructure* of ${\\mathfrak{B}}$, denoted\n${\\mathfrak{A}}\\subseteq {\\mathfrak{B}}$, if for all\n$x \\in {\\mathfrak{A}}$ we have $x \\in {\\mathfrak{B}}$, and the inclusion\nmap $i\\colon {\\mathfrak{A}}\\to {\\mathfrak{B}}: x \\mapsto x$ is an\nembedding.\n\nWhen ${\\mathfrak{A}}$ is a substructure of ${\\mathfrak{B}}$, we also say\nthat ${\\mathfrak{B}}$ is an *extension* of ${\\mathfrak{A}}$.\n\nA *submodel* ${\\mathfrak{A}}$ of a model ${\\mathfrak{B}}$ of a\n(first-order) language $\\mathcal{L}$ if ${\\mathfrak{A}}$ is a model of\n$\\mathcal{L}$ and ${\\mathfrak{A}}$ is a substructure of\n${\\mathfrak{B}}$.",
+  "language": "INFORMAL",
+  "phrase": "Substructure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Substructure"
+    }
+  ],
+  "indexable": true
+}

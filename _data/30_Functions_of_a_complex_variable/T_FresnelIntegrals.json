@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The functions $C$ and $S$\n-------------------------\n\nFor any real value of the argument $x$, the [*Fresnel integrals*]{}\n$C(x)$ and $S(x)$ are defined as the integrals $$\\begin{aligned}\nC(x) \\;:=\\; \\int_0^x\\cos{t^2}\\,dt, \\quad\\quad\nS(x) \\;:=\\; \\int_0^x\\sin{t^2}\\,dt.\\end{aligned}$$\n\nIn optics, both of them express the .\n\nUsing the Taylor series expansions of , we get easily the expansions of\nthe functions (1):\n$$C(z) \\,=\\, \\frac{z}{1}\\!-\\!\\frac{z^5}{5\\!\\cdot\\!2!}\\!\n+\\!\\frac{z^9}{9\\!\\cdot\\!4!}\\!-\\!\\frac{z^{13}}{13\\!\\cdot\\!6!}\\!+\\!-\\ldots$$\n$$S(z) \\,=\\, \\frac{z^3}{3\\cdot1!}\\!-\\!\\frac{z^7}{7\\!\\cdot\\!3!}\\!\n+\\!\\frac{z^{11}}{11\\!\\cdot\\!5!}\\!-\\!\\frac{z^{15}}{15\\!\\cdot\\!7!}\\!+\\!-\\ldots$$\nThese converge for all complex values $z$ and thus define entire\ntranscendental functions.\\\nThe Fresnel integrals at infinity have the finite value\n$$\\lim_{x\\to\\infty}C(x) \\;=\\; \\lim_{x\\to\\infty}S(x) \\;=\\; \\frac{\\sqrt{2\\pi}}{4}.$$\n\nClothoid\n--------\n\nThe parametric presentation $$\\begin{aligned}\nx \\;=\\; C(t), \\quad\\quad y \\;=\\; S(t)\\end{aligned}$$ a curve called\n[*clothoid*]{}. Since the equations (2) both define odd functions, the\nclothoid has symmetry about the origin. The curve has the shape of a\n\u201c$\\sim$\u201d (see this ).\n\n![image](Clothoid)\n\nThe arc length of the clothoid from the origin to the point\n$(C(t),\\,S(t))$ is simply\n$$\\int_0^t\\sqrt{C'(u)^2+S'(u)^2}\\,du = \\int_0^t\\sqrt{\\cos^2(u^2)+\\sin^2(u^2)}\\,du = \\int_0^tdu = t.$$\nThus the of the whole curve (to the point\n$(\\frac{\\sqrt{2\\pi}}{4},\\,\\frac{\\sqrt{2\\pi}}{4})$) is infinite.\n\nThe of the clothoid also is extremely , $$\\varkappa \\,=\\, 2t,$$ i.e. to\nthe arc lenth; thus in the origin only the curvature is zero.\n\nConversely, if the curvature of a plane curve varies proportionally to\nthe arc length, the curve is a clothoid.\n\nThis property of the curvature of clothoid is utilised in way and\nrailway construction, since the form of the clothoid is very efficient\nwhen a portion of way must be bent to a turn: the zero curvature of the\nline can be continuously raised to the wished curvature.",
+  "language": "INFORMAL",
+  "phrase": "Fresnel Integrals",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FresnelIntegrals"
+    }
+  ],
+  "indexable": true
+}

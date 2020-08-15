@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "parameter"
+  ],
+  "definition": "*Parametre* means often a quantity which is considered as constant in a\ncertain situation but which may take different values in other\nsituations; so the parametre is a \u201cvariable constant\u201d. But in giving a\ncurve or a surface in [*parametric form*]{}, the parametres work as\nproper variables which determine the values of the coordinates of the\npoints; then we can describe the parametres as \u201cauxiliary variables\u201d.\n\nThe parametric $$\\begin{aligned}\n\\begin{cases}\n  x = a\\cos{t}\\\\\n  y = a\\sin{t}\n\\end{cases}\\end{aligned}$$ of the origin-centered circle of parametres:\n$a$ (the radius) is a variable constant which is held constant all the\ntime when one considers one circle; $t$ is an auxiliary variable which\nhas to get all real values (e.g. from the interval $[0,\\,2\\pi]$) for\nobtaining all points of the perimetre.\n\nIn the analytic geometry, one speaks of the *parametre of parabola*\n(a.k.a. *latus rectum*): it means the chord of the parabola which is\nperpendicular to the axis and goes through the focus; it is the quantity\n$2p$ in the standard equation $x^2 = 2py$ of the parabola ($p$ is the\ndistance of the focus and the directrix).",
+  "language": "INFORMAL",
+  "phrase": "Parametre",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Parametre"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $x$ be a real number and let $n$ be an integer such that $n > 0$ and\n$n + x > 0$. Then $$\\left( {n + x \\over n} \\right)^n < \n\\left( {n + 1 + x \\over n + 1} \\right)^{n+1}.$$\n\nWe begin by dividing the two expressions to be compared:\n$$\\begin{aligned}\n{\\left( {n + x + 1 \\over n + 1} \\right)^{n+1}  \\over\n \\left( {n + x \\over n} \\right)^n} &=\n {n + x + 1 \\over n + 1} \\cdot\n \\left( {n (n + x + 1) \\over (n + x) (n + 1)} \\right)^n \\\\ &=\n {n + x + 1 \\over n + 1} \\cdot\n\\left( {n^2 + nx + n \\over n^2 + n x + n + x} \\right)^n \\\\ &=\n {n + x + 1 \\over n + 1} \\cdot\n\\left( 1 - {x \\over n^2 + n x + n + x} \\right)^n\\end{aligned}$$ Now,\nwhen $x > 0$, we have $$0 < {x \\over n^2 + n x + n + x} < 1$$ whilst,\nwhen $x < 0$ and $n + x > 0$, we have,\n$${x \\over n^2 + n x + n + x} < 0 .$$ Therefore, we may apply an\ninequality for differences of powers to conclude $$\\begin{aligned}\n\\left( 1 - { x \\over n^2 + n x + n + x} \\right)^n &>\n1 - { n x \\over n^2 + n x + n + x} \\\\ &=\n{n^2 + n + x \\over n^2 + n x + n + x}\\end{aligned}$$ Hence, we have\n$$\\begin{aligned}\n{\\left( {n + x + 1 \\over n + 1} \\right)^{n+1}  \\over\n \\left( {n + x \\over n} \\right)^n} &>\n{(n + x + 1) (n^2 + n + x ) \\over (n + 1) (n^2 + n x + n + x)} \\\\ &=\n{n^3 + 2 n^2 + n + n^2 x + 2 n x + x + x^2 \\over\nn^3 + 2 n^2 + n + n^2 x + 2 n x + x}\\end{aligned}$$ Note that the\nnumerator is greater than the denominator because it contains every term\ncontained in the denominator and an extra term $x^2$. Hence this ratio\nis larger than $1$; multiplying out, we obtain the inequality which was\nto be demonstrated.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MonotonicityOfTheSequence1Xnn"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "monotonicity of the sequence $(1 + x/n)^n$"
+  ]
+}

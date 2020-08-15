@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\kappa$ be an uncountable cardinal. Then\n\n1.  $\\kappa$ is *measurable* if there exists a nonprincipal\n    $\\kappa$-complete ultrafilter $U$ on $\\kappa$;\n\n2.  $\\kappa$ is *real-valued measurable* if there exists a nontrivial\n    $\\kappa$-additive measure $\\mu$ on $\\kappa$.\n\nIf $\\kappa$ is measurable, then it is real-valued measurable. This is so\nbecause the ultrafilter $U$ and its dual ideal $I$ induce a two-valued\nmeasure $\\mu$ on $\\kappa$ where every member of $U$ is mapped to 1 and\nevery member of $I$ is mapped to 0. Since $U$ is $\\kappa$-complete, $I$\nis also $\\kappa$-complete. It can then be proved that if $I_\\mu$\u2013the\nideal of those sets whose measures are 0\u2013is $\\kappa$-complete, then\n$I_\\mu$ is $\\kappa$-additive.\n\nOn the converse side, if $\\kappa$ is not real-valued measurable, then\n$\\kappa\\leq 2^{\\aleph_0}$. It can be shown that if $\\kappa$ is\nreal-valued measurable, then it is regular; a further result is that\n$\\kappa$ is weakly inaccessible. Inaccessible cardinals are in some\nsense \u201clarge.\u201d",
+  "language": "INFORMAL",
+  "phrase": "Measurable And Real-Valued Measurable Cardinals",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeasurableAndRealvaluedMeasurableCardinals"
+    }
+  ],
+  "indexable": true
+}

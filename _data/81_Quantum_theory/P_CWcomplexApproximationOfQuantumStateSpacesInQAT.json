@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem 1.**\n\nLet $[QF_j]_{j=1,...,n}$ be a complete sequence of commuting quantum\nspin \u2018foams\u2019 (QSFs) in an arbitrary , and let $(QF_j,QSS_j)$ be the\ncorresponding sequence of pair subspaces of QST. If $Z_j$ is a sequence\nof CW-complexes such that for any $j$ , $QF_j \\subset Z_j$, then there\nexists a sequence of $n$-connected models $(QF_j,Z_j)$ of $(QF_j,QSS_j)$\nand a sequence of induced isomorphisms\n${f_*}^j : \\pi_i (Z_j)\\rightarrow \\pi_i (QSS_j)$ for $i>n$, together\nwith a sequence of induced monomorphisms for $i=n$.\n\nThere exist *weak* homotopy equivalences between each $Z_j$ and $QSS_j$\nspaces in such a sequence. Therefore, there exists a $CW$\u2013complex\napproximation of QSS defined by the sequence $[Z_j]_{j=1,...,n}$ of\nCW-complexes with dimension $n \\geq 2$. This $CW$\u2013approximation is\nunique up to *regular* homotopy equivalence.\n\n**Corollary 2.**\n\n*The $n$-connected models* $(QF_j,Z_j)$ of $(QF_j,QSS_j)$ form the\n*Model Category* of $(QF_j)$, *whose morphisms are maps\n$h_{jk}: Z_j \\rightarrow Z_k$ such that\n$h_{jk}\\mid QF_j = g: (QSS_j, QF_j) \\rightarrow (QSS_k,QF_k)$, and also\nsuch that the following diagram is commutative:*\\\n$\n\\begin{CD}\nZ_j @> f_j  >> QSS_j\n\\\\ @V h_{jk} VV   @VV g V\n \\\\ Z_k @ > f_k >> QSS_k \n\\end{CD}\n$\\\n*Furthermore, the maps $h_{jk}$ are unique up to the homotopy rel $QF_j$\n, and also rel $QF_k$*.\n\n[Theorem 1]{} complements other data presented in the .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CWcomplexApproximationOfQuantumStateSpacesInQAT"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$CW$-complex approximation of quantum state spaces in QAT",
+    "quantum spin networks approximations by $CW$-complexes"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The [**alternating series test**]{}, or the [**Leibniz\u2019s Theorem**]{},\nstates the following:\n\n[**Theorem**]{} [@rudin; @kreyszig93] Let $(a_n)_{n=1}^\\infty$ be a\nnon-negative, non-increasing sequence or real numbers such that\n$\\lim_{n \\rightarrow \\infty} a_n = 0$. Then the infinite series\n$\\sum_{n=1}^\\infty (-1)^{(n+1)} a_n$ converges.\n\nThis test provides a necessary and sufficient condition for the\nconvergence of an alternating series, since if $\\sum_{n=1}^\\infty a_n$\nconverges then $a_n\\to 0$.\n\n[**Example:**]{} The series $\\sum_{k = 1}^{\\infty}\\frac{1}{k}$ does not\nconverge, but the alternating series\n$\\sum_{k = 1}^{\\infty}(-1)^{k+1}\\frac{1}{k}$ converges to $\\ln(2)$.\n\n[9]{} W. Rudin, *Principles of Mathematical Analysis*, McGraw-Hill Inc.,\n1976. E. Kreyszig, *Advanced Engineering Mathematics*, John Wiley &\nSons, 1993, 7th ed.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternatingSeriesTest"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "alternating series test",
+    "Leibniz's theorem",
+    "Leibniz test"
+  ]
+}

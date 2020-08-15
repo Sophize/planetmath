@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A stochastic process $\\lbrace X(t)\\mid t\\in T\\rbrace$ of real-valued\nrandom variables $X(t)$, where $T$ is linearly ordered, is said have\n*independent increments* if for any $a,b,c,d\\in T$ such that $a<b<c<d$,\n$X(a)-X(b)$ and $X(c)-X(d)$ are independent random variables.\n\n**Remark**. In case when $X(t)$ is monotonically non-decreasing, as in\nthe case of a counting process, it is customary to write $X(b)-X(a)$ and\n$X(d)-X(c)$ instead of the above to emphasize the comparison of two\npositive quantities (for example, the numbers of occurrences of a\ncertain event in some time intervals).",
+  "language": "INFORMAL",
+  "phrase": "Independent Increment",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndependentIncrement"
+    }
+  ],
+  "indexable": true
+}

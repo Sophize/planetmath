@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "super-category",
+    "meta-category of categories and functors"
+  ],
+  "definition": "In order to define [*functor categories*]{}, let us consider for any two\ncategories $\\mathcal{{\\mathcal A}}$ and $\\mathcal{{\\mathcal A}'}$, the\nclass $$\\textbf{M} = [\\mathcal{{\\mathcal A}},\\mathcal{{\\mathcal A}'}]$$\nof all covariant functors from $\\mathcal{{\\mathcal A}}$ to\n$\\mathcal{{\\mathcal A}'}$. For any two such functors\n$F, K \\in [\\mathcal{{\\mathcal A}}, \\mathcal{{\\mathcal A}'}]$,\n$ F: \\mathcal{{\\mathcal A}} \\rightarrow \\mathcal{{\\mathcal A}'}$ and\n$ K: \\mathcal{{\\mathcal A}} \\rightarrow \\mathcal{{\\mathcal A}'}$, let us\ndenote the class of all natural transformations from $F$ to $K$ by\n$[F, K]$. In the particular case when $[F, K]$ is a set one can still\ndefine for a small category $\\mathcal{{\\mathcal A}}$, the set\n$Hom_{\\textbf{M}}(F,K)$. Thus, cf. p. 62 in [@Mitchell65], when\n$\\mathcal{{\\mathcal A}}$ is a [*small*]{} category the \u2018class\u2019 $[F, K]$\nof natural transformations from $F$ to $K$ may be viewed as a subclass\nof the cartesian product\n$\\prod_{A \\in \\mathcal{{\\mathcal A}}}[F(A), K(A)]$, and because the\nlatter is a [*set*]{} so is $[F, K]$ as well. Therefore, with the\ncategorical law of composition of natural transformations of functors,\nand for $\\mathcal{{\\mathcal A}}$ being small,\n$\\textbf{M} = [\\mathcal{{\\mathcal A}},\\mathcal{{\\mathcal A}'}]$\n[*satisfies the conditions for the definition of a category*]{}, and it\nis in fact a [*Functor Category*]{}.\n\n**Remark**: In the general case when $\\mathcal{{\\mathcal A}}$ is [*not\nsmall*]{}, the proper class\n$\\textbf{M} = [\\mathcal{{\\mathcal A}}, \\mathcal{{\\mathcal A}'}]$ may be\nendowed with the structure of a [*supercategory*]{} (defined as any\nformal interpretation of ETAS) with the usual categorical composition\nlaw for natural transformations of functors. Similarly, one can\nconstruct a [*meta-category*]{} defined as the [*supercategory of all\nfunctor categories*]{}.\n\n[99]{}\n\nMitchell, B.: 1965, *Theory of Categories*, Academic Press: London.\n\nRefs. $[15],[17],[18]$ and $[288]$ in the . Categories, Functors and\nAutomata Theory: A Novel Approach to Quantum Automata through\nAlgebraic-Topological Quantum Computations., *Proceed. 4th Intl.\nCongress LMPS*, P. Suppes, Editor (August-Sept. 1971).",
+  "language": "INFORMAL",
+  "phrase": "Functor Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FunctorCategory1"
+    }
+  ],
+  "indexable": true
+}

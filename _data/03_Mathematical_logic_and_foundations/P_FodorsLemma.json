@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $\\kappa$ is a regular, uncountable cardinal, $S$ is a stationary\nsubset of $\\kappa$, and $f:\\kappa\\rightarrow\\kappa$ is regressive on $S$\n(that is, $f(\\alpha)<\\alpha$ for any $\\alpha\\in S$) then there is some\n$\\gamma$ and some stationary $S_0\\subseteq S$ such that\n$f(\\alpha)=\\gamma$ for any $\\alpha\\in S_0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FodorsLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Fodor's lemma",
+    "pushing down lemma"
+  ]
+}

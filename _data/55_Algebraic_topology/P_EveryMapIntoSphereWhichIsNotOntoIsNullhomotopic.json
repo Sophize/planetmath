@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Proposition**. Let $X$ be a topological space and\n$f:X\\to\\mathbb{S}^{n}$ a continous map from $X$ to $n$-dimensional\nsphere which is not onto. Then $f$ is nullhomotopic.\n\n*Proof*. Assume that there is $y_0\\in\\mathbb{S}^{n}$ such that\n$y_0\\not\\in\\mathrm{im}(f)$. It is well known that there is a\nhomeomorphism $\\phi:\\mathbb{S}^{n}\\setminus\\{y_{0}\\}\\to\\mathbb{R}^{n}$.\nThen we have an induced map $$\\phi\\circ f:X\\to\\mathbb{R}^{n}.$$ Since\n$\\mathbb{R}^{n}$ is contractible, then there is $c\\in\\mathbb{R}^{n}$\nsuch that $\\phi\\circ f$ is homotopic to the constant map in $c$ (denoted\nwith the same symbol $c$). Let $\\psi:\\mathbb{R}^{n}\\to\\mathbb{S}^{n}$ be\na map such that $\\psi(x)=\\phi^{-1}(x)$ (note that $\\psi$ is not the\ninverse of $\\phi$ because $\\psi$ is not onto) and take any homotopy\n$H:\\mathrm{I}\\times X\\to\\mathbb{R}^{n}$ from $\\phi\\circ f$ to $c$. Then\nwe have a homotopy $F:\\mathrm{I}\\times X\\to\\mathbb{S}^{n}$ defined by\nthe formula $F=\\psi\\circ H$. It is clear that\n$$F(0,x)=\\psi (H(0,x))=\\psi(\\phi(f(x))) = f(x);$$\n$$F(1,x)=\\psi (H(1,x))=\\psi(c)\\in\\mathbb{S}^{n}.$$ Thus $F$ is a\nhomotopy from $f$ to a constant map. $\\square$\n\n**Corollary**. If $A\\subseteq\\mathbb{S}^{n}$ is a deformation retract of\n$\\mathbb{S}^{n}$, then $A=\\mathbb{S}^{n}$.\n\n*Proof*. If $A\\subseteq X$ then by deformation retraction (associated to\n$A$) we understand a map $R:\\mathrm{I}\\times X\\to X$ such that\n$R(0,x)=x$ for all $x\\in X$, $R(1,a)=a$ for all $a\\in A$ and\n$R(1,x)\\in A$ for all $x\\in X$. Thus a deformation retract is a subset\n$A\\subseteq X$ such that there is a deformation retraction\n$R:\\mathrm{I}\\times X\\to X$ associated to $A$.\n\nAssume that $A$ is a deformation retract of $\\mathbb{S}^{n}$ and\n$A\\neq\\mathbb{S}^{n}$. Let\n$R:\\mathrm{I}\\times\\mathbb{S}^{n}\\to \\mathbb{S}^{n}$ be a deformation\nretraction. Then $r:\\mathbb{S}^{n}\\to\\mathbb{S}^{n}$ such that\n$r(x)=R(1,x)$ is homotopic to the identity map (by definition of a\ndeformation retract), but on the other hand it is homotopic to a\nconstant map (it follows from the proposition, since $r$ is not onto,\nbecause $A$ is a proper subset of $\\mathbb{S}^{n}$). Thus the identity\nmap is homotopic to a constant map, so $\\mathbb{S}^{n}$ is contractible.\nContradiction. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryMapIntoSphereWhichIsNotOntoIsNullhomotopic"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every map into sphere which is not onto is nullhomotopic"
+  ]
+}

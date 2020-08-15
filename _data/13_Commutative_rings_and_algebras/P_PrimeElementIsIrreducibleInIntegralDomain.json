@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every prime element of an integral domain is irreducible.\n\nLet $D$ be an integral domain, and let $a\\in D$ be a prime element.\nAssume $a=bc$ for some $b,c\\in D$.\n\nClearly ${{a}\\mid{bc}}$, so since $a$ is prime, ${{a}\\mid{b}}$ or\n${{a}\\mid{c}}$. Without loss of generality, assume ${{a}\\mid{b}}$, and\nsay $at=b$ for some $t\\in D$.\n\nIf $1$ is the unity of $D$, then $$1b=b=at=(bc)t=b(ct)\n.$$ Since $D$ is an integral domain, $b$ can be cancelled, giving\n$1=ct$, so $c$ is a unit.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimeElementIsIrreducibleInIntegralDomain"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "prime element is irreducible in integral domain"
+  ]
+}

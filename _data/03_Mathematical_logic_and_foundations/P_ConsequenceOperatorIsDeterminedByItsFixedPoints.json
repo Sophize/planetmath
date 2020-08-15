@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that $C_1$ and $C_2$ are consequence operators on a set $L$ and\nthat, for every $X \\subseteq L$, it happens that $C_1 (X) = X$ if and\nonly if $C_2 (X)\n= X$. Then $C_1 = C_2$.\n\nSuppose that $C$ is a consequence operators on a set $L$. Define\n$K = \\{ X \n\\subseteq L \\mid C(X) = X\\}$. Then, for every $X \\in L$, there exists a\n$Y \\in K$ such that $X \\subseteq Y$ and, for every $Z \\in K$ such that\n$X \\subseteq Z$, one has $Y \\subseteq Z$.\n\nGiven a set $L$, suppose that $K$ is a subset of $L$ such that, for\nevery $X \\in L$, there exists a $Y \\in K$ such that $X \\subseteq Y$ and,\nfor every $Z \\in K$ such that $X \\subseteq Z$, one has $Y \\subseteq Z$.\nThen there exists a consequence operator\n$C \\colon \\mathcal{P}(L) \\to \\mathcal{P}(L)$ such that $C(X) = X$ if and\nonly if $X \\in K$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConsequenceOperatorIsDeterminedByItsFixedPoints"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "consequence operator is determined by its fixed points"
+  ]
+}

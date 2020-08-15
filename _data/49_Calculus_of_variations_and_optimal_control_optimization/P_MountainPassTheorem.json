@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ a real Banach space and $F \\in C^{1}(X,\\mathbb{R})$. Consider\n$K$ a compact metric space, and $K^{*} \\subset K$ a closed nonempty\nsubset of $K$. If $p^{*} : K^{*} \\rightarrow X$ is a continuous mapping,\nset\n$$\\mathcal{P} = \\{ p \\in C(K, \\, X); \\; p = p^{*} \\; \\textrm{on } K^{*} \\}.$$\n\nDefine $$c = \\inf_{p \\in \\mathcal{P}} \\max_{t \\in K} F(p(t)).$$\n\nAssume that $$\\label{eq1}\nc > \\max_{t \\in K^{*}} F(p^{*}(t)).$$ Then there exists a sequence\n$(x_{n})$ in $X$ such that\n\n1.  $\\lim\\limits_{n \\rightarrow \\infty} F(x_{n}) = c$;\n\n2.  $\\lim\\limits_{n \\rightarrow \\infty} \\| F'(x_{n})\\|  = 0$.\n\nThe name of this theorem is a consequence of a simplified visualization\nfor the objects from theorem. If we consider the set\n$K^{*} = \\{ A, \\, B\\}$, where $A$ and $B$ are two villages,\n$\\mathcal{P}$ is the set of all the routes from $A$ to $B$, and $F(x)$\nrepresents the altitude of point $x$; then the assumption (\\[eq1\\]) is\nequivalent to say that the villages $A$ and $B$ are separated with a\nmountains chain. So, the conclusion of the theorem tell us that exists a\nroute between the villages with a minimal altitude. With other words\nexists a \u201cmountain pass\u201d .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MountainPassTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "mountain pass theorem"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "divisor function"
+  ],
+  "definition": "The $\\tau$ *function*, also called the *divisor function*, takes a\npositive integer as its input and gives the number of positive divisors\nof its input as its output. For example, since $1$, $2$, and $4$ are all\nof the positive divisors of $4$, we have $\\tau (4)=3$. As another\nexample, since $1$, $2$, $5$, and $10$ are all of the positive divisors\nof $10$, we have $\\tau (10)=4$.\n\nThe $\\tau$ function behaves according to the following two rules:\n\n1\\. If $p$ is a prime and $k$ is a nonnegative integer, then\n$\\tau(p^k)=k+1$.\n\n2\\. If $\\gcd(a,b)=1$, then $\\tau(ab)=\\tau(a)\\tau(b)$.\n\nBecause these two rules hold for the $\\tau$ function, it is a\nmultiplicative function.\n\nNote that these rules work for the previous two examples. Since $2$ is\nprime, we have $\\tau(4)=\\tau(2^2)=2+1=3$. Since $2$ and $5$ are distinct\nprimes, we have $\\tau(10)=\\tau(2\\cdot 5)=\\tau(2)\\tau(5)=(1+1)(1+1)=4$.\n\nIf $n$ is a positive integer, the number of of $x^n-1$ over\n$\\mathbb{Q}[x]$ is $\\tau(n)$. For example,\n$x^9-1=(x^3-1)(x^6+x^3+1)=(x-1)(x^2+x+1)(x^6+x^3+1)$ and $\\tau(9)=3$.\n\nThe $\\tau$ function is extremely useful for studying cyclic rings.\n\nThe sequence $\\{\\tau(n)\\}$ appears in the OEIS as sequence .",
+  "language": "INFORMAL",
+  "phrase": "$\\Tau$ Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/tauFunction"
+    }
+  ],
+  "indexable": true
+}

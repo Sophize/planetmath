@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $$\\begin{aligned}\na_1\\!+\\!a_2\\!+\\!a_3\\!+\\cdots\\end{aligned}$$ is a converging series with\npositive , then one can always form another converging series\n$$g_1\\!+\\!g_2\\!+\\!g_3\\!+\\cdots$$ such that $$\\begin{aligned}\n\\lim_{n\\to\\infty}\\frac{g_n}{a_n} = \\infty\\end{aligned}$$\n\n[*Proof.*]{} Let $S$ be the sum of (1),\n$S_n = a_1\\!+\\!a_2\\!+\\cdots+\\!a_n$ the $n^\\mathrm{th}$ partial sum of\n(1) and $R_{n+1} = S\\!-\\!S_n = a_{n+1}\\!+\\!a_{n+2}\\!+\\cdots$ the\ncorresponding remainder term. Then we have\n$$a_n = R_n\\!-\\!R_{n+1} = (\\sqrt{R_n}\\!+\\!\\sqrt{R_{n+1}})(\\sqrt{R_n}\\!-\\!\\sqrt{R_{n+1}}).$$\nWe set $$g_n := \\frac{a_n}{\\sqrt{R_n}\\!+\\!\\sqrt{R_{n+1}}} \n= \\sqrt{R_n}\\!-\\!\\sqrt{R_{n+1}}\n\\quad \\forall n = 1,\\,2,\\,3,\\,\\ldots$$ Then the series\n$g_1\\!+\\!g_2\\!+\\!g_3\\!+\\cdots$ fulfils the requirements in the theorem.\nIts $g_n$ are positive. Further, it converges because its\n$n^\\mathrm{th}$ partial sum is equal to $\\sqrt{R_1}\\!-\\!\\sqrt{R_{n+1}}$\nwhich tends to the limit $\\sqrt{R_1} = \\sqrt{S}$ as $n\\to\\infty$ since\n$R_{n+1}\\to 0$; this implies also (2).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SlowerConvergentSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "slower convergent series"
+  ]
+}

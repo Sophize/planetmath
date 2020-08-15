@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "biholomorphic",
+    "biholomorphic equivalence"
+  ],
+  "definition": "Let $U,V \\subset {\\mathbb{C}}^n$. If there exists a one-to-one and onto\nholomorphic mapping $\\phi \\colon U \\to V$ such that the inverse\n$\\phi^{-1}$ exists and is also holomorphic, then we say that $U$ and $V$\nare [*biholomorphically equivalent*]{} or that they are\n[*biholomorphic*]{}. The mapping $\\phi$ is called a [*biholomorphic\nmapping*]{}.\n\nIt is not an obvious fact, but if the source and target dimension are\nthe same then every one-to-one holomorphic mapping is biholomorphic as a\none-to-one holomorphic map has a nonvanishing jacobian.\n\nWhen $n=1$ biholomorphic equivalence is often called , since in one\ncomplex dimension, the one-to-one holomorphic mappings are conformal\nmappings.\n\nFurther if $n=1$ then there are plenty of conformal (biholomorhic)\nequivalences, since for example every simply connected other than the\nwhole complex plane is conformally equivalent to the unit disc. On the\nother hand, when $n > 1$ then the open unit ball and open unit polydisc\nare not biholomorphically equivalent. In fact there does not exist a\nholomorphic mapping from one to the other.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Biholomorphically Equivalent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BiholomorphicallyEquivalent"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$, $n$, $r_1$, $r_2$,\n$\\{\\varepsilon_n,\\ldots,\\varepsilon_{r-1}\\}$, and $||\\cdot||_i$ be as in\nthe entry regulator, but with $K$ taken to be a CM field.\n\nDefine the $p$-adic logarithm\n$\\log_p: {\\mathbb}{C}_p^\\times{\\rightarrow}{\\mathbb}{C}_p$ by\n$$\\begin{aligned}\n\\log_p(x)=-\\sum_{k=1}^\\infty \\frac{(1-x)^k}{k}\\end{aligned}$$\n\nLet $A_{K,p}$ be the $(r-1)\\times (r-1)$ matrix with general entry given\nby $a_{i,j}=\\log_p ||\\varepsilon_j||_i$. The absolute value of the\ndeterminant of this matrix is again independent of your choice of basis\nfor the units and of the ordering of the embeddings. This value is\ncalled the *$p$-adic regulator of $K$,* and is denoted by $R_{p,K}$, or\n$R_p(K)$.\n\n[9]{} L. C. Washington, [*Introduction to Cyclotomic Fields*]{},\nSpringer-Verlag, New York.",
+  "language": "INFORMAL",
+  "phrase": "$P$-Adic Regulator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PadicRegulator"
+    }
+  ],
+  "indexable": true
+}

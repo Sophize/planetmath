@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "quantum computer",
+    "quantum algebraic topology object"
+  ],
+  "definition": "The Algebraic Category of Quantum Automata\n==========================================\n\nLet us recall that a *quantum automaton* is defined as a quantum\nalgebraic topology object\u2013 the *quantum triple*\n$Q_A =({\\mathcal G},{\\mathcal H}-\\Re_G, Aut({\\mathcal G})$), where\n${\\mathcal G}$ is a (locally compact) quantum groupoid,\n${\\mathcal H}-\\Re_G$ are the unitary representations of ${\\mathcal G}$\non rigged Hilbert spaces $\\Re_G$ of quantum states and quantum operators\non the Hilbert space ${\\mathcal H}$, and $Aut({\\mathcal G})$ is the\ntransformation, or *automorphism groupoid of quantum transitions* that\nrepresents all flip-flop quantum transitions of one cubit each between\nthe permitted quantum states of the quantum automaton.\n\nWith the data from above definition we can now define also the category\nof quantum automata as follows.\n\nThe *category of quantum automata* $\\mathcal{{\\mathcal Q}}_A$ is defined\nas an algebraic category whose objects are triples\n$({\\mathcal H}, \\Delta: {\\mathcal H}\\rightarrow {\\mathcal H}, \\mu)$\n(where ${\\mathcal H}$ is either a Hilbert space or a rigged Hilbert\nspace of quantum states and operators acting on ${\\mathcal H}$, and\n$\\mu$ is a measure related to the quantum logic, $LM$, and (quantum)\ntransition probabilities of this quantum system), and whose morphisms\nare defined between such triples by homomorphisms of Hilbert spaces,\n${\\Omega}: {\\mathcal H}\\rightarrow {\\mathcal H}$, naturally compatible\nwith the operators $\\Delta$, and by homomorphisms between the associated\nHaar measure systems.\n\nAn alternative definition is also possible based on Quantum Algebraic\nTopology (QAT).\n\nA quantum algebraic topology definition of the [*category of quantum\nalgebraic automata*]{} is in terms of the objects specified above in\n**Definition 0.1** as quantum automaton triples $(Q_A)$, and quantum\nautomata homomorphisms defined between such triples; these $Q_A$\nmorphisms are defined by groupoid homomorphisms\n$h: {\\mathcal G}\\rightarrow {\\mathcal G}^*$ and\n$\\alpha: Aut({\\mathcal G}) \\rightarrow Aut({\\mathcal G}^*)$, together\nwith [*unitarity preserving mappings*]{} $u$ that are defined between\nunitary representations of ${\\mathcal G}$ on rigged Hilbert spaces (or\nHilbert space bundles).",
+  "language": "INFORMAL",
+  "phrase": "Algebraic Category Of Quantum Automata",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraicCategoryOfQuantumAutomata"
+    }
+  ],
+  "indexable": true
+}

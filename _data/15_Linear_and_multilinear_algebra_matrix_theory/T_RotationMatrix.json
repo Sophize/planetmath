@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "rotational matrix"
+  ],
+  "definition": "A *rotation matrix* is a (real) orthogonal matrix whose determinant is\n$+1$. All $n\\times n$ rotation matrices form a group called the\n*specia[l]{} orthogona[l]{} grou[p]{}* and it is denoted by\n$\\operatorname{SO}(n)$.\n\n### Examples {#examples .unnumbered}\n\n1.  The identity matrix in ${\\mathbbmss{R}}^n$ is a rotation matrix.\n\n2.  The most general rotation matrix in ${\\mathbbmss{R}}^2$ can be\n    written as $$\\begin{pmatrix} \n           \\cos \\theta & -\\sin \\theta \\\\  \n          \\sin \\theta & \\cos \\theta\n      \\end{pmatrix},$$ where $\\theta\\in {\\mathbbmss{R}}$. Multiplication\n    (from the left) with this matrix rotates a vector (in\n    ${\\mathbbmss{R}}^2$) $\\theta$ radians in the anti-clockwise\n    direction.\n\n### Properties {#properties .unnumbered}\n\n1.  Suppose $v\\in {\\mathbbmss{R}}^n$ is a unit vector. Then there exists\n    a rotation matrix $R$ such that $R\\cdot v = (1,0,\\ldots, 0)$.\n\n2.  In fact, for $v\\in {\\mathbbmss{R}}^n$, $n\\ge 3$, there are many\n    rotation matrices $\\mathbf{R} \\in \\operatorname{SO}(n)$ such that\n    $R\\cdot v = (1,0,\\ldots, 0)^T$. To see this, let $f$ be the mapping\n    $f\\colon \\operatorname{SO}(n-1)\\rightarrow \\operatorname{SO}(n)$,\n    defined as $$f(Q)=\n     \\begin{pmatrix}\n     1 & 0_{1\\times n-1}\\\\\n     0_{n-1\\times 1} & Q_{n-1\\times n-1}\n     \\end{pmatrix}.$$ Then for each $Q\\in \\operatorname{SO}(n-1)$,\n    $f(Q)$ maps $(1,0,\\ldots, 0)^T$ onto itself. Thus, if\n    $R_0 \\in \\operatorname{SO}(n)$ satisfies\n    $R\\cdot v=(1,0,\\ldots, 0)^T$, then $f(Q)\\cdot R$ satisfies the same\n    property for all $Q\\in \\operatorname{SO}(n-1)$.",
+  "language": "INFORMAL",
+  "phrase": "Rotation Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RotationMatrix"
+    }
+  ],
+  "indexable": true
+}

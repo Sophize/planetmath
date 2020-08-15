@@ -1,0 +1,17 @@
+{
+  "argumentText": "[**Proof:**]{} Let $\\mathcal{A}$ be a . We intend to prove that\n$\\mathcal{A}$ is isometrically isomorphic to a norm closed \\*-subalgebra\nof $B(H)$, the algebra of bounded operators of a suitable Hilbert space\n$H$.\n\nLet $S(\\mathcal{A})$ denote the state space of $\\mathcal{A}$. For every\nstate $\\phi \\in S(\\mathcal{A})$ the Gelfand-Naimark-Segal construction\nallows one to construct a\n$\\pi_{\\phi}: \\mathcal{A} \\longrightarrow B(H_{\\phi})$ of $\\mathcal{A}$\nin a Hilbert space $H_{\\phi}$.\n\nNow consider the of these representations\n$\\displaystyle \\pi := \\bigoplus_{\\phi \\in S(\\mathcal{A})} \\pi_{\\phi}$.\nRecall that $\\pi$ is a representation $$\\begin{aligned}\n\\pi:\\mathcal{A} \\longrightarrow B\\Big(\\bigoplus_{\\phi \\in S(\\mathcal{A})} H_{\\phi}\\Big)\\end{aligned}$$\nof $\\mathcal{A}$ in the $\\{H_{\\phi}\\}_{\\phi \\in S(\\mathcal{A})}$.\n\nWe now prove that this representation is injective.\n\nSuppose there exists $a \\in \\mathcal{A}$ such that $\\pi(a)=0$. Then, for\nall $\\phi \\in S(\\mathcal{A})$, $\\pi_{\\phi}(a)=0$. Thus, by definition of\n$\\pi_{\\phi}$, $$\\begin{aligned}\n\\phi(a)=\\langle \\pi_{\\phi}(a) \\xi_{\\phi}, \\xi_{\\phi} \\rangle = 0\\end{aligned}$$\nwhere $\\xi_{\\phi} \\in H_{\\phi}$ is the cyclic vector associated with\n$\\pi_{\\phi}$. Since for every $\\phi \\in S(\\mathcal{A})$ we have\n$\\phi(a)=0$, we can conclude that $a=0$ (see ), i.e. $\\pi$ is injective.\n\nSince an , we conclude that $\\pi$ is also isometric. Hence\n$\\pi(\\mathcal{A})$ is a closed \\*-subalgebra of\n$\\displaystyle B\\Big(\\bigoplus_{\\phi \\in S(\\mathcal{A})} H_{\\phi}\\Big)$.\nThus, we have proven that $\\pi$ is an isometric isomorphism between\n$\\mathcal{A}$ and a closed \\*-subalgebra of $B(H)$, for a suitable\nHilbert space $H$. $\\square$",
+  "conclusion": "#P_GelfandNaimarkRepresentationTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfGelfandNaimarkRepresentationTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Gelfand-Naimark representation theorem"
+  ]
+}

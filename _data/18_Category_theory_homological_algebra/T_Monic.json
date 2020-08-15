@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "monomorphism"
+  ],
+  "definition": "A morphism $f \\colon A \\to B$ in a category is called a [*monic*]{}\nmorphism, or *monomorphism*, if it can be cancelled from the left \u2014 for\nany object $C$ and any morphisms $g_1, g_2 \\colon\\ C\\to A$ we have\n$f \\circ g_1 = f \\circ g_2$ if and only if $g_1 = g_2$.\n\nA morphism $f : A \\to B$ in a category is called a *split monomorphism*\nif there exists a morphism $g \\colon B \\to A$ such that\n$g \\circ f = \\operatorname{id}_A$. Note that every split monomorphism is\na monomorphism; if $f$ is a split monomorphism and\n$f \\circ h = f \\circ k$, then one has\n$g \\circ (f \\circ h) = g \\circ (f \\circ k)$. By associativity,\n$(g \\circ f)\n\\circ h = (g \\circ f) \\circ k$; by definition of split monomorphism,\n$\\operatorname{id}_a \\circ h = \\operatorname{id}_a \\circ k$; by\ndefinition of identity, $h = k$, so $f$ is a monomorphism. Split\nmonomorphisms are also known as *sections* and *coretractions*.\n\nThe notion of epimorphism is dual to that of monomorphism. An\nepimorphism of a category is a monomorphism of the dual category and\nvice versa.\n\nA monomorphism in the category of sets is simply a one-to-one function.\nMoreover, in the category of sets all monomorphisms are split\nmonomorphisms.",
+  "language": "INFORMAL",
+  "phrase": "Monic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Monic"
+    }
+  ],
+  "indexable": true
+}

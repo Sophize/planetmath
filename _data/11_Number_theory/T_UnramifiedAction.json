@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "set is unramified at a valuation"
+  ],
+  "definition": "Let $K$ be a number field and let $\\nu$ be a discrete valuation on $K$\n(this might be, for example, the valuation attached to a prime ideal\n$\\mathfrak{P}$ of $K$).\n\nLet $K_{\\nu}$ be the completion of $K$ at $\\nu$, and let\n$\\mathcal{O}_{\\nu}$ be the ring of integers of $K_{\\nu}$, i.e.\n$$\\mathcal{O}_{\\nu}=\\{ k\\in K_{\\nu} \\mid \\nu(k)\\geq 0 \\}$$ The maximal\nideal of $\\mathcal{O}_{\\nu}$ will be denoted by\n$$\\mathcal{M}=\\{ k\\in K_{\\nu} \\mid \\nu(k)>0 \\}$$ and we denote by\n$k_{\\nu}$ the residue field of $K_{\\nu}$, which is\n$$k_{\\nu}=\\mathcal{O}_{\\nu}/\\mathcal{M}$$ We will consider three\ndifferent global Galois groups, namely\n$$G_{\\overline{K}/K}=\\operatorname{Gal}(\\overline{K}/K)$$\n$$G_{\\overline{K_{\\nu}}/K_{\\nu}}=\\operatorname{Gal}(\\overline{K_{\\nu}}/K_{\\nu})$$\n$$G_{\\overline{k_{\\nu}}/k_{\\nu}}=\\operatorname{Gal}(\\overline{k_{\\nu}}/k_{\\nu})$$\nwhere $\\overline{K},\\overline{K_{\\nu}},\\overline{k_{\\nu}}$ are algebraic\nclosures of the corresponding field. We also define notation for the\ninertia group of $G_{\\overline{K_{\\nu}}/K_{\\nu}}$\n$$I_{\\nu} \\subseteq G_{\\overline{K_{\\nu}}/K_{\\nu}}$$\n\nLet $\\mathcal{S}$ be a set and suppose there is a group action of\n$Gal(\\overline{K_{\\nu}}/K_{\\nu})$ on $\\mathcal{S}$. We say that\n$\\mathcal{S}$ is *unramified* at $\\nu$, or the action of\n$G_{\\overline{K_{\\nu}}/K_{\\nu}}$ on $\\mathcal{S}$ is unramified at\n$\\nu$, if the action of $I_{\\nu}$ on $\\mathcal{S}$ is trivial, i.e.\n$$\\sigma(s)=s\\quad \\forall \\sigma \\in I_{\\nu},\\quad \\forall s\\in \\mathcal{S}$$\n\n[**Remark**]{}: By Galois theory we know that,\n$K_{\\nu}^{\\operatorname{nr}}$, the fixed field of $I_{\\nu}$, the inertia\nsubgroup, is the maximal unramified extension of $K_{\\nu}$, so\n$$I_{\\nu}\\cong\n\\operatorname{Gal}(\\overline{K_{\\nu}}/K_{\\nu}^{\\operatorname{nr}})$$",
+  "language": "INFORMAL",
+  "phrase": "Unramified Action",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnramifiedAction"
+    }
+  ],
+  "indexable": true
+}

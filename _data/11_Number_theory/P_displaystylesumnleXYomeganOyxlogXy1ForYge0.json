@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Within this entry, $\\omega$ refers to the number of distinct prime\nfactors function, $\\lfloor \\, \\cdot \\, \\rfloor$ refers to the floor\nfunction, $\\log$ refers to the natural logarithm, $p$ refers to a prime,\nand $k$ and $n$ refer to positive integers.\n\nFor $y \\ge 0$,\n$\\displaystyle \\sum_{n \\le x} y^{\\omega(n)}=O_y(x(\\log x)^{y-1})$.\n\nSince $y^{\\omega(p^k)}=y$ for all $p$ and $k$, the real-valued\nnonnegative multiplicative function $y^{\\omega(n)}$ the Wirsing\ncondition with $c=y$ and $\\lambda=1$. Thus:\n\n  ---------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n  $\\displaystyle \\sum_{n \\le x} y^{\\omega(n)}$   $\\displaystyle =O_y \\left( \\frac{x}{\\log x} \\sum_{n \\le x} \\frac{y^{\\omega(n)}}{n} \\right)$\n                                                 $\\displaystyle =O_y \\left( \\frac{x}{\\log x} \\prod_{p \\le x} \\left( 1+\\sum_{k=1}^{\\left\\lfloor \\frac{\\log x}{\\log p} \\right\\rfloor } \\frac{y^{\\omega(p^k)}}{p^k} \\right) \\right)$\n                                                 $\\displaystyle =O_y \\left( \\frac{x}{\\log x} \\left( \\exp \\left( \\sum_{p \\le x} \\sum_{k=1}^{\\left\\lfloor \\frac{\\log x}{\\log p} \\right\\rfloor } \\frac{y}{p^k} \\right) \\right) \\right)$\n                                                 $\\displaystyle =O_y \\left( \\frac{x}{\\log x} \\left( \\exp \\left( y \\sum_{p \\le x} \\sum_{k=1}^{\\left\\lfloor \\frac{\\log x}{\\log p} \\right\\rfloor } \\frac{1}{p^k} \\right) \\right) \\right)$\n                                                 $\\displaystyle =O_y \\left( \\frac{x}{\\log x} ( \\exp (y(\\log(\\log x)+O(1)))) \\right)$\n                                                 $\\displaystyle =O_y \\left( \\frac{x}{\\log x} ( \\exp (\\log (\\log x)^y)) \\right)$\n                                                 $\\displaystyle =O_y \\left( \\frac{x}{\\log x} (\\log x)^y \\right)$\n                                                 $\\displaystyle =O_y(x(\\log x)^{y-1})$\n  ---------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/displaystylesumnleXYomeganOyxlogXy1ForYge0"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$\\displaystyle \\sum_{n \\le x} y^{\\omega(n)}=O_y(x(\\log x)^{y-1})$ for $y \\ge 0$"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given $\\Gamma$, a convex in the plane, and $\\gamma$ a closed curve\ncontained in $\\Gamma$, then $M(\\Gamma) \\leq M(\\gamma)$ where $M$ is the\nmean curvature function.\n\nThis was a conjecture due to S. Tabachnikov and was proved by Lagarias\nand Richardson of Bell Labs. The idea of the proof was to show that\nthere was a way you could reduce a curve to the boundary of its convex\nhull so that if it holds for the boundary of the convex hull, then it\nholds for the curve itself.\n\n*Conjecture* : *Equality holds iff $ \\Gamma$ and $\\gamma $ coincide*.\n\nIt\u2019s amazing how many questions are still open in the Elementary\nDifferential Geometry of curves and surfaces. Questions like this often\nserve as a great research opportunity for undergraduates. It is also\ninteresting to see if you could extend this result to curves on\nsurfaces:\n\nTheorem : If $ \\Gamma $ is a circle on $S^2$ , and $\\gamma$ is a closed\ncurve contained in $\\Gamma$ then $M(\\Gamma) \\leq M(\\gamma)$ .\n\nIt is not known whether this result holds for $\\Gamma$ a simple closed\nconvex curve on $S^2$.\n\nIt is known also that this inequality does not hold in the hyperbolic\nplane.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DNAInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "DNA inequality"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Birkhoff-Kakutani theorem\n-------------------------\n\nA topological group $(G, * , e)$ is metrizable if and only if $G$ is\nHausdorff and the identity $e$ of $G$ has a countable neighborhood\nbasis. Here $*$ is the group composition law or operation. Furthermore,\nif G is *metrizable*, then $G$ admits a compatible metric $d$ which is\nleft-invariant, that is, $$d(gx, gy) = d(x,y);$$ a right-invariant\nmetric $r$ also exists under these conditions.\n\n[9]{} Howard Becker, Alexander S. Kechris. 1996. *The Descriptive Set\nTheory of Polish Group Actions. (London Mathematical Society Lecture\nNote Series)*, Cambridge University Press: Cambridge, UK, p.14.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BirkhoffKakutaniTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Birkhoff-Kakutani theorem"
+  ]
+}

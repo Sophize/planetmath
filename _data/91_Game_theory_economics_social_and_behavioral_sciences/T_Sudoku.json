@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Sudoku* is a logic puzzle, usually consisting of a 9 by 9 grid\nsubdivided into 3 by 3 squares, some of which are marked with numerals\nfrom 1 to 9 (the givens). The goal of the puzzle is to mark the rest of\nthe grid so that the result is a Latin square, that is, so that each\nrow, column, and subgrid has all of the numerals 1 to 9 with no\nduplicates.\n\nGiven a partially filled $n \\times n$ Latin square, the problem of\ntesting if it extends to a complete Latin square is NP-complete.\n\nThus, a sudoku usually has 81 squares with about 30 givens. A sudoku can\nhave a unique solution with as few as 17 givens (or 18 if symmetry of\ngivens is required), but it\u2019s also possible for it to have as many as 77\ngivens (just four squares short of solving) and still lack a unique\nsolution.",
+  "language": "INFORMAL",
+  "phrase": "Sudoku",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Sudoku"
+    }
+  ],
+  "indexable": true
+}

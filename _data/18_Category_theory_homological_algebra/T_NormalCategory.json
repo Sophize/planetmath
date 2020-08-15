@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "normal monic",
+    "conormal epi"
+  ],
+  "definition": "A monomorphism is a category is said to be *normal* if it is a kernel\n(of a morphism). A subobject of an object is *normal* if any (and hence\nall) of its representing monomorphisms is normal.\n\nFor example, in **Grp**, the category of groups, the inclusion of a\nsubgroup $H\\subseteq G$ into $G$ is normal iff $H$ is a normal subgroup\nof $G$.\n\nA category is said to be *normal* if every monic is a kernel.\nEquivalently, a normal category is a category in which every subobject\nof every object is normal.\n\nDually, an epimorphism is *conormal* if it is a cokernel (of a\nmorphism). A quotient object of an object is *conormal* if any (and\nhence all) of its representing epimorphisms is conormal. A category is\nsaid to be *conormal* if every epimorphism is conormal.\n\nThe category $\\textbf{AbGrp}$ of abelian groups, and more generally, any\nabelian category, is normal and conormal.\n\n[9]{} C. Faith *Algebra: Rings, Modules, and Categories I*,\nSpringer-Verlag, New York (1973)",
+  "language": "INFORMAL",
+  "phrase": "Normal Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalCategory"
+    }
+  ],
+  "indexable": true
+}

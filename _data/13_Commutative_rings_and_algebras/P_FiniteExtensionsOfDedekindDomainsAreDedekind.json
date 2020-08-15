@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a Dedekind domain with field of fractions $K$. If $L/K$ is a\nfinite extension of fields and $A$ is the integral closure of $R$ in\n$L$, then $A$ is also a Dedekind domain.\n\nFor example, a number field $K$ is a finite extension of $\\mathbb{Q}$\nand its ring of integers is denoted by $\\mathcal{O}_K$. Although such\nrings can fail to be unique factorization domains, the above theorem\nshows that they are always Dedekind domains and therefore is satisfied.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FiniteExtensionsOfDedekindDomainsAreDedekind"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "finite extensions of Dedekind domains are Dedekind"
+  ]
+}

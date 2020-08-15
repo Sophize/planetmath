@@ -1,0 +1,17 @@
+{
+  "argumentText": "Proof by induction on $n$, order of matrix.\\\nFor $n=1$ we can simply take $Q=1$. We assume that there exists a common\nunitary matrix $S$ that triangularizes simultaneously commuting matrices\n,$(n-1)\\times (n-1)$.\\\nSo we have to show that the statement is valid for commuting matrices,\n$n\\times n$. From hypothesis $A$ and $B$ are commuting matrices\n$n\\times n$ so these matrices have a common eigenvector.\\\nLet $Ax=\\lambda x$, $Bx=\\mu x$ where $x$ be the common eigenvector of\nunit length and $\\lambda$, $\\mu$ are the eigenvalues of $A$ and $B$\nrespectively. Consider the matrix,\n$R=\\begin{pmatrix} x & X \\end{pmatrix}$ where $X$ be orthogonal\ncomplement of $x$ and $R^HR=I$, then we have that\n$$R^HAR = \\begin{pmatrix} \\lambda & x^HAX \\\\ 0 & X^HAX \\end{pmatrix}$$\n$$R^HBR = \\begin{pmatrix} \\mu & x^HBX \\\\ 0 & X^HBX \\end{pmatrix}$$ It is\nobvious that the above matrices and also $X^HBX$, $X^HAX$\n,$(n-1)\\times(n-1)$ matrices are commuting matrices. Let $B_1=X^HBX$ and\n$A_1=X^HAX$ then there exists unitary matrix $S$ such that\n$S^HB_1S=\\bar T_2,\\, S^HA_1S=\\bar T_1.$ Now\n$Q=R\\begin{pmatrix} 1 & 0 \\\\ 0 & S \\end{pmatrix}$ is a unitary matrix,\n$Q^HQ=I$ and we have\n$$Q^HAQ=\\begin{pmatrix} 1 & 0 \\\\ 0 & S^H \\end{pmatrix}R^HAR\\begin{pmatrix} 1 & 0 \\\\ 0 & S \\end{pmatrix}=\\begin{pmatrix} \\lambda & x^HAXS \\\\ 0 & \\bar T_1 \\end{pmatrix}=T_1.$$\nAnalogously we have that $$Q^HBQ=T_2.$$",
+  "conclusion": "#P_CommutingMatricesAreSimultaneouslyTriangularizable",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofThatCommutingMatricesAreSimultaneouslyTriangularizable"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof that commuting matrices are simultaneously triangularizable"
+  ]
+}

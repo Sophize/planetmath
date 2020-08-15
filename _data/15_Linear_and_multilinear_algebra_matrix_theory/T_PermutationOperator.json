@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V$ be a vector space over a field. Let $\\sigma \\in S_n$, the\nsymmetric group on $\\{1, \\ldots, n\\}$ and define a multilinear map\n$\\phi: V \\times \\cdots \\times V \\to V^{\\otimes n} =\\overbrace{V\\otimes \\cdots \\otimes\nV}^{n\\text{ times}}$ by\n$$\\phi ( v_1, \\ldots , v_n ) = v_{\\sigma^{-1}(1)} \\otimes \\cdots \\otimes v_{\\sigma^{-1}(n)}.$$\nThen by the for a there is a unique linear map\n$P(\\sigma) : V^{\\otimes n} \\to V^{\\otimes n}$ such that\n$P(\\sigma)\\otimes = \\phi$. Then of course,\n$$P(\\sigma)v_1 \\otimes \\cdots \\otimes v_n = v_{\\sigma^{-1}(1)} \\otimes \\cdots \\otimes v_{\\sigma^{-1}(n)}.$$\n\n$P(\\sigma)$ is called the *permutation operator* associated with\n$\\sigma$.\n\nProperties\n==========\n\n1.  $P(\\sigma\\tau) = P(\\sigma)P(\\tau)$\n\n2.  $P(e) = I$ , where $I$ is the identity mapping on $V^{\\otimes n}$\n\n3.  $P(\\sigma)$ is nonsingular and $P(\\sigma)^{-1} = P(\\sigma^{-1})$",
+  "language": "INFORMAL",
+  "phrase": "Permutation Operator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PermutationOperator"
+    }
+  ],
+  "indexable": true
+}

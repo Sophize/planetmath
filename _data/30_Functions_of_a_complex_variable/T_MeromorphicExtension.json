@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "meromorphic continuation"
+  ],
+  "definition": "Let $A \\subset B \\subseteq \\mathbb{C}$ and $f \\colon A \\to \\mathbb{C}$\nbe analytic. A [*meromorphic extension of $f$*]{} is a meromorphic\nfunction $g \\colon B \\to \\mathbb{C}$ such that $g|_A=f$.\n\nThe meromorphic extension of an analytic function to a larger is unique;\n, using the above notation, if $h \\colon B \\to \\mathbb{C}$ has the\nproperty that $h|_A=f$, then $g=h$ on $B$.\n\nOccasionally, an analytic function and its meromorphic extension are\ndenoted using the same notation. A common example of this phenomenon is\nthe Riemann zeta function.",
+  "language": "INFORMAL",
+  "phrase": "Meromorphic Extension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeromorphicExtension"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "This is a geometrical proof of Pythagorean theorem. We begin with our\ntriangle:\n\n$$\\begin{xy}\n,(0,0)\n;(20,0)**@{-}\n;(20,10)**@{-}\n;(0,0)**@{-}\n,(10,-2)*{a}\n,(23,6)*{b}\n,(10,7)*{c}\n\\end{xy}$$\n\nNow we use the hypotenuse as one side of a square: $$\\begin{xy}\n,(0,0)\n;(20,0)**@{-}\n;(20,10)**@{-}\n;(0,0)**@{-}\n;(-10,20)**@{-}\n;(10,30)**@{-}\n;(20,10)**@{-}\n,(10,-2)*{a}\n,(23,6)*{b}\n,(10,7)*{c}\n\\end{xy}$$ and draw in four more identical triangles $$\\begin{xy}\n,(0,0)\n;(20,0)**@{-}\n;(20,10)**@{-}\n;(0,0)**@{-}\n;(-10,20)**@{-}\n;(10,30)**@{-}\n;(20,10)**@{-}\n;(20,30)**@{-}\n;(-10,30)**@{-}\n;(-10,0)**@{-}\n;(0,0)**@{-}\n,(10,-2)*{a}\n,(23,6)*{b}\n,(10,7)*{c}\n\\end{xy}$$\n\nNow for the proof. We have a large square, with each side of length\n$a+b$, which is subdivided into one smaller square and four triangles.\nThe area of the large square must be equal to the combined area of the\nshapes it is made out of, so we have $$\\begin{aligned}\n\\left(a+b\\right)^2 & = & c^2 + 4\\left(\\frac{1}{2}ab\\right)\\nonumber\\\\\na^2 + b^2 + 2ab & = & c^2 + 2ab \\nonumber\\\\\na^2 + b^2 & = & c^2\\end{aligned}$$",
+  "conclusion": "#P_PythagoreanTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPythagoreanTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Pythagorean theorem"
+  ]
+}

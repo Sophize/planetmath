@@ -1,0 +1,17 @@
+{
+  "argumentText": "From the cosines law we get: $$a^2=b^2+c^2-2bc\\cos\\alpha,$$ $\\alpha$\nbeing the angle between $b$ and $c$. This can be transformed into:\n$$a^2=(b-c)^2+2bc(1-\\cos\\alpha).$$ Since $A=\\frac{1}{2}bc\\sin\\alpha$ we\nhave: $$a^2=(b-c)^2+4A\\frac{1-\\cos\\alpha}{\\sin\\alpha}.$$ Now remember\nthat $$1-\\cos\\alpha=2\\sin^2\\frac{\\alpha}{2}$$ and\n$$\\sin\\alpha=2\\sin\\frac{\\alpha}{2}\\cos\\frac{\\alpha}{2}.$$ Using this we\nget: $$a^2=(b-c)^2+4A\\tan\\frac{\\alpha}{2}.$$ Doing this for all sides of\nthe triangle and adding up we get:\n$$a^2+b^2+c^2=(a-b)^2+(b-c)^2+(c-a)^2+4A\\left(\\tan\\frac{\\alpha}{2} +\\tan\\frac{\\beta}{2}+\\tan\\frac{\\gamma}{2}\\right).$$\n$\\beta$ and $\\gamma$ being the other angles of the triangle. Now since\nthe halves of the triangle\u2019s angles are less than $\\frac{\\pi}{2}$ the\nfunction $\\tan$ is convex we have:\n$$\\tan\\frac{\\alpha}{2}+\\tan\\frac{\\beta}{2}+\\tan\\frac{\\gamma}{2} \\geq 3\\tan\\frac{\\alpha+\\beta+\\gamma}{6} =3\\tan\\frac{\\pi}{6}=\\sqrt{3}.$$\nUsing this we get:\n$$a^2+b^2+c^2\\geq (a-b)^2+(b-c)^2+(c-a)^2+4A\\sqrt{3}.$$ This is the\nHadwiger-Finsler inequality. $\\Box$",
+  "conclusion": "#P_HadwigerFinslerInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfHadwigerFinslerInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Hadwiger-Finsler inequality"
+  ]
+}

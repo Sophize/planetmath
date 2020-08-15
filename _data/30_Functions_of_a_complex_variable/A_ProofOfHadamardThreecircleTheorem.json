@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $f$ be holomorphic on a closed annulus $0<r_1\\le |z|\\le r_2$. Let\n$$s=\\frac{\\log r_1-\\log r}{\\log r_2-\\log r_1}.$$ Let\n$M(r)=M_f(r)=||f||_r=\\max_{|z|=r}|f(z)|$. Then we have to prove that\n$$\\log M(r)\\le (1-s)\\log M(r_1)+s\\log M(r_2).$$ For this, let $\\alpha$\nbe a real number; the function $\\alpha\\log|z|+\\log|f(z)|$ is harmonic\noutside the zeros of $f$. Near the zeros of $f$ the above function has\nvalues which are large negative. Hence by the maximum modulus principle\nthis function has its maximum on the boundary of the annulus,\nspecifically on the two circles $|z|=r_1$ and $|z|=r_2$. Therefore\n$$\\alpha\\log|z|+\\log|f(z)|\\le\\max(\\alpha\\log r_1+\\log M(r_1),\\alpha\\log r_2+\\log M(r_2))$$\nfor all $z$ in the annulus. In particular, we get the inequality\n$$\\alpha\\log r+\\log M(r)\\le\\max(\\alpha\\log r_1+\\log M(r_1),\\alpha\\log r_2+\\log M(r_2)).$$\nNow let $\\alpha$ be such that the two values inside the parentheses on\nthe right are equal, that is\n$$\\alpha=\\frac{\\log M(r_2)-\\log M(r_1)}{\\log r_1-\\log r_2}.$$ Then from\nthe previous inequality, we get\n$$\\log M(r)\\le\\alpha\\log r_1+\\log M(r_1)-\\alpha\\log r,$$ which upon\nsubstituting the value for $\\alpha$ gives the result stated in the\ntheorem.\n\nLang, S. *Complex analysis, Fourth edition*. Graduate Texts in\nMathematics, 103. Springer-Verlag, New York, 1999. xiv+485 pp. ISBN\n0-387-98592-1",
+  "conclusion": "#P_HadamardThreecircleTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfHadamardThreecircleTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Hadamard three-circle theorem"
+  ]
+}

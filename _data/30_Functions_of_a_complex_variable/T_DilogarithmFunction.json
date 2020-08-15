@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Spence's function"
+  ],
+  "definition": "The [*dilogarithm function*]{} $$\\begin{aligned}\n\\mbox{Li}_2(x) \\;=:\\; \\sum_{n=1}^{\\infty}\\frac{x^n}{n^2},\\end{aligned}$$\nstudied already by Leibniz, is a special case of the [*polylogarithm\nfunction*]{}\n$$\\mbox{Li}_s(x) \\;=:\\; \\sum_{n=1}^{\\infty}\\frac{x^n}{n^s}.$$ The radius\nof convergence of the series (1) is 1, whence the definition (1) is\nvalid also in the unit disc of the complex plane. For $0 \\le x \\le 1$,\nthe equation (1) is apparently equivalent to $$\\begin{aligned}\n\\mbox{Li}_2(x) \\;=:\\; -\\int_0^x\\frac{\\ln(1\\!-\\!t)}{t}\\,dt,\\end{aligned}$$\n(cf. logarithm series of $\\ln(1\\!-\\!x)$). The analytic continuation of\n$\\mbox{Li}_2$ for $|z| \\ge 1$ can be made by $$\\begin{aligned}\n\\mbox{Li}_2(z) \\;=:\\; -\\int_0^z\\frac{\\log(1\\!-\\!t)}{t}\\,dt.\\end{aligned}$$\nThus $\\mbox{Li}_2(z)$ is a multivalued analytic function of $z$. Its\n[*principal branch*]{} is single-valued and is got by taking the\nprincipal branch of the complex logarithm; then\n$$z \\;\\in\\; \\mathbb{C}\\!\\smallsetminus\\![1,\\,\\infty[, \\quad 0 < \\arg(z\\!-\\!1) < 2\\pi.$$\\\nFor real values of $x$ we have $$\\begin{aligned}\n\\mbox{Im}(\\mbox{Li}_2(x)) \\;=\\;\n\\begin{cases}\n\\;0 \\qquad\\mbox{for}\\;\\; x \\le 1,\\\\\n-\\pi\\ln{x} \\;\\;\\mbox{for}\\;\\; x > 1.\n\\end{cases}\\end{aligned}$$ According to (2), the derivative of the\ndilogarithm is $$\\mbox{Li}'_2(x) \\;=\\; \\frac{-\\ln(1\\!-\\!x)}{x}.$$ In\nterms of the Bernoulli numbers, the dilogarithm function has a series\nexpansion more rapidly converging than (1): $$\\begin{aligned}\n\\mbox{Li}_2(x) \\;=\\; \\sum_{n=1}^{\\infty}B_{n-1}\\frac{(-\\ln(1\\!-\\!x))^n}{n!} \n\\qquad (|\\ln(1\\!-\\!x)| < 2\\pi)\\end{aligned}$$\n\n**Some functional equations and values**\n$$\\mbox{Li}_2(z)+\\mbox{Li}_2(-z) \\;=\\; \\frac{1}{2}\\mbox{Li}_2(z^2),$$\n$$\\mbox{Li}_2(z)+\\mbox{Li}_2\\left(\\frac{1}{z}\\right) \\;=\\; -\\frac{1}{2}(\\log(-z))^2-\\frac{\\pi^2}{6},$$\n$$\\mbox{Li}_2(iz)-i\\mbox{Li}_2(z) \\;=\\; \\frac{1}{4}\\mbox{Li}_2(-z^2),$$\n$$\\mbox{Li}_2(1) \\;=\\; \\frac{\\pi^2}{6}, \\quad\n\\mbox{Li}_2(2) \\;=\\; \\frac{\\pi^2}{4}-i\\pi\\ln{2}, \\quad\n\\mbox{Li}_2(i) \\;=\\; -\\frac{\\pi^2}{48}-i\\,G$$ Here, $G$ is Catalan\u2019s\nconstant.\\\n\n[8]{} : [*Dilogarithm identities*]{} (1994). Available . : The\ndilogarithm function for complex argument. \u2013 [*Proc. R. Soc. Lond. A*]{}\n**459** (2003) 2807\u20132819.",
+  "language": "INFORMAL",
+  "phrase": "Dilogarithm Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DilogarithmFunction"
+    }
+  ],
+  "indexable": true
+}

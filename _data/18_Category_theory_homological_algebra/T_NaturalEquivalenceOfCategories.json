@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let us consider two arbitrary categories $\\mathcal{C}$ and\n$\\mathcal{D}$. A *natural equivalence of categories*\\* is said to exist\nbetween two categories $\\mathcal{C}$ and $\\mathcal{D}$ if and only if\nthere is a covariant functor $ E: \\mathcal{C} \\to \\mathcal{D}$ which is\nfull and faithful, and that also has a full and faithful adjoint (that\nis either a left- or right- adjoint).\n\n\\* See ref. $[288]$ in the .\n\n### Examples:\n\n1.  2.  Category $\\bf{modB}$ of finite-dimensional right-B modules, and\n    the category $\\mathcal{C} / \\Sigma T$ of ideals of morphisms of a\n    category $\\mathcal{C}$ which factor through a direct some of ideal\n    copies $\\Sigma T$.\n\n3.  The category of crossed modules of $R$\u2013algebroids is equivalent to\n    the category of double $R$\u2013algebroids with thin structure (Brown and\n    Mosa, 1986, 2008.)\n\n4.  The categories of crossed modules of algebroids and of double\n    algebroids with a connection pair are equivalent.\n\n[9]{} Eilenberg, S. and S. Mac Lane: 1945, The General Theory of Natural\nEquivalences, *Transactions of the American Mathematical Society*\n**58**: 231-294.",
+  "language": "INFORMAL",
+  "phrase": "Natural Equivalence Of Categories",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NaturalEquivalenceOfCategories"
+    }
+  ],
+  "indexable": true
+}

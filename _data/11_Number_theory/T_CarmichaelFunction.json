@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "least universal exponent function",
+    "reduced totient function"
+  ],
+  "definition": "The value of the [*Carmichael function*]{} (or [*universal exponent\nfunction*]{} or [*reduced totient function*]{}) $\\psi(n)$ (or\n$\\lambda(n)$) for a given positive integer $n$ is the smallest exponent\n$m$ such that for any $k$ coprime to $n$ the congruence\n$k^m \\equiv 1 \\mod n$ is always true.\n\nWhen $n$ is a prime or a square of a prime, the equality\n$\\psi(n) = \\phi(n)$ holds (where $\\phi(n)$ is Euler\u2019s totient function).\n\nFor powers of 2 greater than 4, $$\\psi(2^a) = \\frac{\\phi(2^a)}{2}$$\n(with $a > 2$).\n\nFor all other positive integers the value of Carmichael\u2019s function is\nthe least common multiple of all the dividing primes raised to the\nappropriate powers (e.g., to calculate $\\psi(504)$ we\u2019d reckon\n$\\psi(2^3)$, $\\psi(3^2)$ and $\\psi(7)$ and find the LCM of these).\n\nSequence A002322 in Sloane\u2019s OEIS gives values of $\\psi(n)$ for\n$0 < n < 82$.\n\nSo, for example, $\\psi(16) = 4$. This means that any odd number raised\nto the fourth power is one more than a multiple of 16. If we take a few\nsmall odd numbers in order and raise them to the fourth power, we get\nthe sequence 1, 81, 625, 2401, 6561, 14641, 28561, 50625, 83521, 130321,\n194481. Subtracting 1 from each of these and dividing by 16 we get the\nintegers 0, 5, 39, 150, 410, 915, 1785, 3164, 5220, 8145, 12155.\n\nOf course from Fermat\u2019s little theorem we can deduce that $\\phi(n)$ will\ngive us an exponent to which we can raise any number coprime to $n$ and\nget a number satisfying the congruence. $\\psi(n)$ often gives us a\nsmaller exponent than $\\phi(n)$ for composite $n$ that are not squares\nof primes. Among the first thousand positive integers, this is true 86%\nof the time. Sequence A104194 gives $\\phi(n) - \\psi(n)$ for\n$0 < n < 91$; it has many instances of 0.\n\nIn Sloane and Plouffe\u2019s book [*The Encyclopedia of Integer Sequences*]{}\nthe authors use the Greek letter $\\psi$ for this function, the OEIS\nfollows this custom but acknowledges the widespread use of $\\lambda$. In\nMathematica, the function is a built-in function, `CarmichaelLambda[n]`,\nso naturally Mathworld also uses $\\lambda$, and so does Wikipedia.\n\n[3]{} G. P. Lowecke, [*The Lore of Prime Numbers*]{}. New York: Vantage\nPress (1982): 81 - 82 H. Griffin, [*Elementary Theory of Numbers*]{}.\nNew York: McGraw-Hill (1954): 50 N. Sloane & S. Plouffe [*The\nEncyclopedia of Integer Sequences*]{} New York: Academic Press (1995):\nN0110 I. Vardi, [*Computational Recreations in Mathematica*]{}. Redwood\nCity: Addison-Wesley (1991): 226",
+  "language": "INFORMAL",
+  "phrase": "Carmichael Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CarmichaelFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathbb{F}_1$ and $\\mathbb{F}_2$ be two filters on the same set.\nThe following terminology is commonly used to describe the relation of\n$\\mathbb{F}_1$ to $\\mathbb{F}_2$:\n\n$\\mathbb{F}_2$ is said to be *finer* than $\\mathbb{F}_1$ if\n$\\mathbb{F}_1 \\subseteq \\mathbb{F}_2$.\n\n$\\mathbb{F}_2$ is said to be *coarser* than $\\mathbb{F}_1$ if\n$\\mathbb{F}_1 \\supseteq \\mathbb{F}_2$.\n\n$\\mathbb{F}_2$ is said to be *strictly finer* than $\\mathbb{F}_1$ if\n$\\mathbb{F}_1 \\subset \\mathbb{F}_2$.\n\n$\\mathbb{F}_2$ is said to be *strictly coarser* than $\\mathbb{F}_1$ if\n$\\mathbb{F}_1 \\supset \\mathbb{F}_2$.\n\n$\\mathbb{F}_1$ and $\\mathbb{F}_2$ are said to be *comparable* if either\n$\\mathbb{F}_1 \\subseteq \\mathbb{F}_2$ or\n$\\mathbb{F}_1 \\supseteq \\mathbb{F}_2$.",
+  "language": "INFORMAL",
+  "phrase": "Comparison Of Filters",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComparisonOfFilters"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $I=[a,b]$ be a closed interval, $f: I \\rightarrow \\mathbb{R}$ be\nbounded on $I$, $n \\in \\mathbb{N}$, and\n$P = \\{[x_0, x_1), [x_1, x_2), \\dots [x_{n-1}, x_n]\\}$ be a partition of\n$I$. The *Riemann sum* of $f$ over $I$ with respect to the partition $P$\nis defined as\n\n$$S=\\sum_{j=1}^n f(c_j)(x_j-x_{j-1})$$\n\nwhere $c_j \\in [x_{j-1},x_j]$ is chosen arbitrary.\n\nIf $c_j=x_{j-1}$ for all $j$, then $S$ is called a *left Riemann sum*.\n\nIf $c_j=x_j$ for all $j$, then $S$ is called a *Riemann sum*.\n\nEquivalently, the Riemann sum can be defined as\n\n$$S=\\sum_{j=1}^n b_j(x_j-x_{j-1})$$\n\nwhere $b_j \\in \\{ f(x):x\\in[x_{j-1},x_j]\\}$ is chosen arbitrarily.\n\nIf $\\displaystyle b_j=\\sup_{x\\in[x_{j-1},x_j]} f(x)$, then $S$ is called\nan *upper Riemann sum*.\n\nIf $\\displaystyle b_j=\\inf_{x\\in[x_{j-1},x_j]} f(x)$, then $S$ is called\na *lower Riemann sum*.\n\nFor some examples of Riemann sums, see the entry examples of estimating\na Riemann integral.",
+  "language": "INFORMAL",
+  "phrase": "Riemann Sum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RiemannSum"
+    }
+  ],
+  "indexable": true
+}

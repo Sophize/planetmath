@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*opposite polynomial*]{} of a polynomial $P$ in a polynomial ring\n$R[X]$ is a polynomial $-P$ such that $$P\\!+\\!(-P) \\;=\\; \\textbf{0},$$\nwhere $\\textbf{0}$ denotes the zero polynomial. It is clear that $-P$ is\nobtained by changing the signs of all of the coefficients of $P$,\n$$-\\sum_{\\nu = 0}^n a_\\nu X^\\nu \\;=\\; \\sum_{\\nu = 0}^n (-a_\\nu)X^\\nu.$$\n\nThe opposite polynomial may be used to define subtraction of\npolynomials: $$P\\!-\\!Q \\;=:\\; P\\!+\\!(-Q)$$\n\nForming the opposite polynomial is a linear mapping $R[X]\\to R[X]$.",
+  "language": "INFORMAL",
+  "phrase": "Opposite Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OppositePolynomial"
+    }
+  ],
+  "indexable": true
+}

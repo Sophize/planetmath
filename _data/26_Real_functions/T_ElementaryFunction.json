@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An [*elementary function*]{} is a real function (of one variable) that\ncan be constructed by a finite number of elementary operations\n(addition, subtraction, multiplication and division) and compositions\nfrom constant functions, the identity function ($x \\mapsto x$),\nalgebraic functions, exponential functions, logarithm functions,\ntrigonometric functions and cyclometric functions.\n\n**Examples**\n\n-   Consequently, the polynomial functions, the absolute value\n    $|x| = \\sqrt{x^2}$, the triangular-wave function $\\arcsin(\\sin{x})$,\n    the power function $x^{\\pi} = e^{\\pi\\ln{x}}$ and the function\n    $x^x = e^{x\\ln{x}}$ are elementary functions (N.B., the real power\n    functions entail that $x > 0$).\n\n-   $\\displaystyle\\zeta(x) := \\sum_{n = 1}^{\\infty}\\frac{1}{n^x}$ and\n    $\\displaystyle\\operatorname{Li}{x} := \\int_2^{x}\\frac{dt}{\\ln{t}}$\n    are not elementary functions \u2014 it may be shown that they can not be\n    expressed is such a way which is required in the definition.",
+  "language": "INFORMAL",
+  "phrase": "Elementary Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ElementaryFunction"
+    }
+  ],
+  "indexable": true
+}

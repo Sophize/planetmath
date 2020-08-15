@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $(M,\\omega)$ is a $2n$-dimensional symplectic manifold, and $m\\in M$,\nthen there exists a neighborhood $U$ of $m$ with a coordinate chart\n$$x=(x_1,\\ldots,x_{2n}):U\\to{\\mathbb{R}}^{2n},$$ such that\n$$\\omega=\\sum_{i=1}^ndx_{i}\\wedge dx_{n+i}.$$ These are called canonical\nor Darboux coordinates. On $U$, $\\omega$ is the pullback by $X$ of the\nstandard symplectic form on ${\\mathbb{R}}^{2n}$, so $x$ is a\nsymplectomorphism. Darboux\u2019s theorem implies that there are no local\ninvariants in symplectic geometry, unlike in Riemannian geometry, where\nthere is curvature.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DarbouxsTheoremsymplecticGeometry"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Darboux's theorem (symplectic geometry)",
+    "Darboux coordinates"
+  ]
+}

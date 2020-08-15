@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The ruler function $f$ on the real line is defined as follows:\n\n$$f(x)=\\left\\{\n           \\begin{array}{ll}\n             0, & \\hbox{$x$ is irrational;} \\\\\n             1/n, & \\hbox{$x=m/n$, $m$ and $n$ are relatively primes}.\n           \\end{array}\n         \\right.$$\n\nGiven a rational number $\\frac{m}{n}$ in lowest terms, $n$ positive, the\nruler function outputs the size (length) of a piece resulting from\nequally subdividing the unit interval into $n$, the number in the\ndenominator, parts. It \u201cignores\u201d inputs of irrational functions, sending\nthem to 0.\n\nThe ruler function is so termed because it resembles a ruler. The\nfollowing picture might be helpful: if $\\frac{m}{n}$ in lowest terms is\na reasonably small rational number (which we assume positive). Then it\ncan be \u201cread off\u201d on a ruler whose intervals of one unit size are each\nequally subdivided into $n$ parts measuring $\\frac{1}{n}$ units each by\n\n1.  [running one\u2019s finger through until the integer preceding it and\n    then]{}\n\n2.  [running through to the subsequent $r$th subunit, \u201cleft-over\u201d from\n    the division of $m$ by $n$.]{}\n\nOn the other hand, an irrational number can not be read off from any\nruler no matter how fine we subdivide a unit interval in any ruler.\n\n[1]{} Dunham, W., *Nondifferentiability of the Ruler Function*,\nMathematics Magazine, Mathematical Association of America, 2003.\n\nHeuer, G.A., *Functions Continuous at the Irrationals and Discontinuous\nat the Rationals*, The American Mathematical Monthly, Mathematical\nAssociation of America, 1965.",
+  "language": "INFORMAL",
+  "phrase": "Ruler Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RulerFunction"
+    }
+  ],
+  "indexable": true
+}

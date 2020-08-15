@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $0\\leq s_1\\leq\\cdots\\leq s_n$ and $0\\leq t_1\\leq\\dots\\leq t_n$ be\nreal numbers such that\n$$\\sum_{i=1}^n s_i = \\sum_{i=1}^n t_i\\; \\mbox{and}\n\\;\\; \\sum_{i=1}^k s_i \\leq \\sum_{i=1}^k t_i\\;\\; (k=1,\\dots,n-1)$$ Then\nfor any nonnegative numbers $x_1,\\dots,x_n$,\n$$\\sum_\\sigma x_1^{s_{\\sigma(1)}}\\dots x_n^{s_{\\sigma(n)}} \\geq \n\\sum_\\sigma x_1^{t_{\\sigma(1)}}\\dots x_n^{t_{\\sigma(n)}}$$ where the\nsums run over all permutations $\\sigma$ of $\\{1,2,\\dots,n\\}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MuirheadsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Muirhead's theorem",
+    "Muirhead's inequality"
+  ]
+}

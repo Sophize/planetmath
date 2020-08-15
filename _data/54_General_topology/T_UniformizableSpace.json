@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space with $\\mathcal{T}$ the topology defined\non it. $X$ is said to be *uniformizable*\n\n1.  there is a uniformity $\\mathcal{U}$ defined on $X$, and\n\n2.  $\\mathcal{T}=T_{\\mathcal{U}}$, the uniform topology induced by\n    $\\mathcal{U}$.\n\nIt can be shown that a topological space is uniformizable iff it is\ncompletely regular.\n\nClearly, every pseudometric space is uniformizable. The converse is true\nif the space has a countable basis. Pushing this idea further, one can\nshow that a uniformizable space is metrizable iff it is separating (or\nHausdorff) and has a countable basis.\n\nLet $X$, $\\mathcal{T}$, and $\\mathcal{U}$ be defined as above. Then $X$\nis said to be *completely uniformizable* if $\\mathcal{U}$ is a complete\nuniformity.\n\nEvery paracompact space is completely uniformizable. Every completely\nuniformizable space is completely regular, and hence uniformizable.",
+  "language": "INFORMAL",
+  "phrase": "Uniformizable Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformizableSpace"
+    }
+  ],
+  "indexable": true
+}

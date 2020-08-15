@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For any sets $A$ and $B$, the [*Cartesian product*]{} $A \\times B$ is\nthe set consisting of all ordered pairs $(a,b)$ where $a \\in A$ and\n$b \\in B$.\n\nThe Cartesian product satisfies the following properties, for all sets\n$A$, $B$, $C$, and $D$:\n\n-   $A\\times \\emptyset = \\emptyset$\n\n-   $(A \\times B) \\cap (C \\times D) = (A\\cap C) \\times (B\\cap D)$\n\n-   $(A \\times B)^\\complement = (A^\\complement \\times B^\\complement)\n     \\cup (A^\\complement \\times B)\n     \\cup (A \\times B^\\complement)$\n\nHere $\\emptyset$ denotes the empty set, $\\cap$ denotes intersection,\n$\\cup$ denotes union, and ${}^\\complement$ denotes complement with\nrespect to some universal set $U$ containing $A$ and $B$.",
+  "language": "INFORMAL",
+  "phrase": "Cartesian Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CartesianProduct"
+    }
+  ],
+  "indexable": true
+}

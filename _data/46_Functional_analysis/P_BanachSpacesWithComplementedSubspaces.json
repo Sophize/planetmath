@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Theorem. \\[Lindenstrauss-Tzafriri\\]\n\nLet $V$ be a Banach space, such that for each closed subspace $M$ there\nexists a closed subspace $N$ such that $M\\cap N=0$ and $M+N=V$ (i.e.\nevery closed subspace is complemented). Then $V$ is isomorphic to a\nHilbert space (i.e. there exists a Hilbert space structure on $V$ that\ninduces the original topology on $V$ as a Banach space).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BanachSpacesWithComplementedSubspaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Banach spaces with complemented subspaces",
+    "Lindenstrauss-Tzafriri theorem",
+    "Lindenstrauss-Tzafriri complemented subspace theorem"
+  ]
+}

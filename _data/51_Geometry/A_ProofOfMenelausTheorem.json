@@ -1,0 +1,17 @@
+{
+  "argumentText": "First we note that there are two different cases: Either the line\nconnecting $X$, $Y$ and $Z$ intersects two sides of the triangle or none\nof them. So in the first case that it intersects two of the triangle\u2019s\nsides we get the following picture:\n\n![image](menelaus.eps)\n\nFrom this we follow ($h_1$, $h_2$ and $h_3$ being undircted):\n$$\\begin{aligned}\n\\frac{AZ}{ZB}& = &-\\frac{h_1}{h_2}\\\\\n\\frac{BY}{YC} & = & \\frac{h_2}{h_3}\\\\\n\\frac{CX}{XA} & = & \\frac{h_3}{h_1}.\\end{aligned}$$ Mulitplying all this\nwe get:\n$$\\frac{AZ}{ZB}\\cdot\\frac{BY}{YC}\\cdot\\frac{CX}{XA} = -\\frac{h_1h_2h_3}{h_2h_3h_1} = -1.$$\n\nThe second case is that the line connecting $X$, $Y$ and $Z$ does not\nintersect any of the triangle\u2019s sides:\n\n![image](menelaus2.eps)\n\nIn this case we get: $$\\begin{aligned}\n\\frac{AZ}{ZB}&=&-\\frac{h_1}{h_2}\\\\\n\\frac{BY}{YC}&=&-\\frac{h_2}{h_3}\\\\\n\\frac{CX}{XA}&=&-\\frac{h_3}{h_1}.\\end{aligned}$$ So multiplication again\nyields Menelaus\u2019 theorem.",
+  "conclusion": "#P_MenelausTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfMenelausTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Menelaus' theorem"
+  ]
+}

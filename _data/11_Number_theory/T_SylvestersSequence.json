@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Euclid numbers",
+    "Sylvester sequence"
+  ],
+  "definition": "Construct an Egyptian fraction equal to 1.\n\n$${1 \\over 2} + {1 \\over 3} + {1 \\over 7} + {1 \\over {43}} + {1 \\over {1807}} + \\cdots$$\n\nThe denominators form the sequence 2, 3, 7, 43, 1807, ... This is\n[*Sylvester\u2019s sequence*]{} (listed in A58 of Sloane\u2019s On-Line\nEncyclopedia of Integer Sequences), after the mathematician James Joseph\nSylvester. The sequence can be calculated from the recurrence relation\n$a_n = 1 + (a_{n - 1})^2 - a_{n - 1}$, with $a_0 = 2$. Knowing the terms\nup to $n - 1$ one can calculate $a_n$ with the formula\n\n$$a_n = 1 + \\prod_{i = 0}^{n - 1} a_i$$\n\nIf the sequence was meant to construct an Egyptian fraction equal to 2,\nthen it would be 1, 2, 3, 7, 43, 1807, ... and could still be calculated\nby multiplying the previous terms and adding 1, but the recurrence\nrelation given above would have to be reformulated.\n\nWhatever the definition, the sequence consists of coprime terms, and\nthus can be used in Euclid\u2019s proof of the infinity of primes. For this\nreason, these numbers are sometimes called [*Euclid numbers*]{}.\n\nThis sequence is useful in finding solutions to Zn\u00e1m\u2019s problem.",
+  "language": "INFORMAL",
+  "phrase": "Sylvester'S Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SylvestersSequence"
+    }
+  ],
+  "indexable": true
+}

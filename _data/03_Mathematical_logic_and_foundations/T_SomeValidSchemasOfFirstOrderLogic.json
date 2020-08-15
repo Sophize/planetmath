@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In this entry, we record some valid schemas of first order logic\nFO$(\\Sigma)$ based on the signature $\\Sigma$:\n\n1.  $\\forall x A \\to \\forall y A[y/x]$ if $y$ does not occur free, but\n    free for $x$, in $A$\n\n2.  $\\forall y A[y/x] \\to \\forall x A$ if $y$ does not occur in $A$\n\n3.  $\\forall x A \\leftrightarrow A$ if $x$ is not free in $A$\n\n4.  $\\exists x A \\leftrightarrow A$ if $x$ is not free in $A$\n\n5.  $\\forall x \\forall y A \\to \\forall y \\forall x A$\n\n6.  $\\exists x \\exists y A \\to \\exists y \\exists x A$\n\n7.  $\\forall x (A\\to B) \\to (\\forall x A \\to \\forall x B)$\n\n8.  $(\\forall x A \\to \\forall x B) \\to \\forall x (A\\to B)$\n\n9.  $\\forall x (A\\land B) \\leftrightarrow \\forall x A \\land \\forall x B$\n\n10. $\\exists x (A\\lor B) \\leftrightarrow \\exists x A \\lor \\exists x B$\n\n11. $\\forall x (A \\lor B) \\leftrightarrow (\\forall x A) \\lor B$ if $x$\n    is not free in $B$\n\n12. $\\exists x (A\\land B) \\leftrightarrow (\\exists x A) \\land B$ if $x$\n    is not free in $B$\n\nwhere $A,B$ are well-formed formulas (wff\u2019s) of FO$(\\Sigma)$.",
+  "language": "INFORMAL",
+  "phrase": "Some Valid Schemas Of First Order Logic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SomeValidSchemasOfFirstOrderLogic"
+    }
+  ],
+  "indexable": true
+}

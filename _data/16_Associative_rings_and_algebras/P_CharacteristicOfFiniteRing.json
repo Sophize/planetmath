@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The of the residue class ring $\\mathbb{Z}/m\\mathbb{Z}$, which contains\n$m$ elements, is $m$, too. More generally, one has the\n\n**Theorem.** The characteristic of a finite ring divides the number of\nthe elements of the ring.\\\n*Proof.*Let $n$ be the characteristic of the ring $R$ with $m$ elements.\nSince $m$ is the of the group $(R,\\,+)$, the Lagrange\u2019s theorem implies\nthat $$ma \\;=\\; 0 \\quad \\forall a \\in R.$$ Let $m = qn\\!+\\!r$ where\n$0 \\leqq r < n$. Because\n$$ra \\;=\\; (m\\!-\\!qn)a \\;=\\; ma\\!-\\!q(na) \\;=\\; 0\\!-\\!0 \\;=\\; 0 \\quad \\forall a \\in R$$\nand $n$ is the least positive integer $\\nu$ making all $\\nu a = 0$, the\nnumber $r$ must vanish. Therefore, $m \\,=\\, qn$, i.e. $n \\mid m$.\\\n**Remark.** A ring $R$, the polynomial ring $R[X]$ and the ring $R[[X]]$\nof formal power series have always the same characteristic.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacteristicOfFiniteRing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "characteristic of finite ring"
+  ]
+}

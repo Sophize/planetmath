@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given three primes $p < q < r$, the composite integer $pqr$ is a\n[*sphenic number*]{}. The first few sphenic numbers are 30, 42, 66, 70,\n78, 102, 105, 110, 114, 130, 138, 154, $\\ldots$ listed in A007304 of\nSloane\u2019s OEIS.\n\nThe divisors of a sphenic number therefore are\n$1, p, q, r, pq, pr, qr, pqr$. Furthermore, $\\mu(pqr) = (-1)^3$ (where\n$\\mu$ is the M\u00f6bius function), $\\tau(pqr) = 8$ (where $\\tau$ is the\ndivisor function) and $\\Omega(pqr) = \\omega(pqr) = 3$ (where $\\Omega$\nand $\\omega$ are the and the number of distinct prime factors function,\nrespectively).\n\nThe largest known sphenic number at any time is usually the product of\nthe three largest known Mersenne primes.",
+  "language": "INFORMAL",
+  "phrase": "Sphenic Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SphenicNumber"
+    }
+  ],
+  "indexable": true
+}

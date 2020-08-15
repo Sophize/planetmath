@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Cantor ternary function",
+    "Cantor-Lebesgue function",
+    "Devil's staircase"
+  ],
+  "definition": "The [*Cantor function*]{} is a canonical example of a singular function.\nIt is based on the Cantor set, and is usually defined as follows. Let\n$x$ be a real number in $[0,1]$ with the ternary expansion\n$0.a_1 a_2 a_3 \\ldots$, then let $N$ be $\\infty$ if no $a_n = 1$ and\notherwise let $N$ be the smallest value such that $a_n = 1$. Next let\n$b_n = \\frac{1}{2}a_n$ for all $n < N$ and let $b_N = 1$. We define the\nCantor function (or the Cantor ternary function) as\n$$f(x) = \\sum_{n=1}^N \\frac{b_n}{2^n}.$$\n\nThis function can be easily checked to be continuous and monotonic on\n$[0,1]$ and also $f'(x) = 0$ almost everywhere (it is constant on the\ncomplement of the Cantor set), with $f(0) = 0$ and $f(1) = 1$. Another\ninteresting fact about this function is that the arclength of the graph\nis 2, hence the calculus arclength formula does not work in this case.\n\n![image](cantorfunction.eps){width=\"5.19in\"}\n\n[Figure 1: Graph of the cantor function using 20 iterations.]{}\n\nThis function, and functions similar to it are frequently called the\nDevil\u2019s staircase. Such functions sometimes occur naturally in various\nareas of mathematics and mathematical physics and are not just a\npathological oddity.\n\n[9]{} H. L. Royden. **. Prentice-Hall, Englewood Cliffs, New Jersey,\n1988",
+  "language": "INFORMAL",
+  "phrase": "Cantor Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CantorFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Rare numbers are the non palindromic numbers when added or subtracted to\nits reverse gives a perfect square. For example 65 is a rare number\nbecause 65 + 56 = 11&lt;sup&gt;2&lt;/sup&gt; and 65 - 56 =\n3&lt;sup&gt;2&lt;/sup&gt;. Other examples of rare numbers are 65,\n621770, 281089082, 2022652202, 868591084757, 872546974178 ... (Sequence\nA035519 of OEIS). If we consider palindromic rare numbers, there are\ninfinitely many rare numbers. For example, the numbers in the series\n242, 20402, 2004002, 200040002, 20000400002 ... are palindromic rare\nnumbers. There are 84 rare numbers less than\n10&lt;sup&gt;20&lt;/sup&gt;.\n\nRare numbers exhibit certain properties. Rare numbers start always with\nan even digit and end in the digits 0, 2, 3, 7 and 8. Digital root of a\nrare number is always 2, 5, 8 and 9. Odd rare numbers are much fewer\nthan even rare numbers. Also rare numbers with odd number of digits is\nfewer than rare numbers with even number of digits. After investigating\nrare numbers upto 10&lt;sup&gt;20&lt;/sup&gt;, Shyam Sunder Gupta\nconjectured that there are no prime numbers. Also it is not known\nwhether there are infinitely many rare numbers.",
+  "language": "INFORMAL",
+  "phrase": "Rare Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RareNumbers"
+    }
+  ],
+  "indexable": true
+}

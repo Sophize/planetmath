@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ be a field and let $n$ be a positive integer. In algebraic\ngeometry we define affine space (or affine $n$-space) to be the set\n$$\\{ (k_1,\\ldots,k_n): k_i \\in K\\}.$$ Affine space is usually denoted by\n$K^n$ or $\\mathbb{A}^n$ (or $\\mathbb{A}^n(K)$ if we want to emphasize\nthe field of definition).\n\nIn Algebraic Geometry, we consider affine space as a topological space,\nwith the usual Zariski topology (see also algebraic set, affine\nvariety). The polynomials in the ring $K[x_1,\\ldots,x_n]$ are regarded\nas functions (algebraic functions) on $\\mathbb{A}^n(K)$. \u201cGluing\u201d\nseveral copies of affine space one obtains a projective space.\n\nIf $K$ is algebraically closed, affine space $\\mathbb{A}^n(K)$ is an\nirreducible algebraic variety.\n\n[9]{} R. Hartshorne, [*Algebraic Geometry*]{}, Springer-Verlag, New\nYork.",
+  "language": "INFORMAL",
+  "phrase": "Affine Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AffineSpace"
+    }
+  ],
+  "indexable": true
+}

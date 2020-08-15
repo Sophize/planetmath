@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(E,\\|\\cdot\\|)$ be a Banach space and let $A\\colon E\\to E$ be a\nbounded linear isomorphism with bounded inverse (i.e. a topological\nlinear automorphism); let $B(r)$ be the ball with center 0 and radius\n$r$ (we allow $r=\\infty$). Then for any Lipschitz map\n$\\phi\\colon B(r)\\to E$ such that\n${\\operatorname{Lip}}\\phi < \\|A^{-1}\\|^{-1}$ and $\\phi(0)=0$, there are\nopen sets $U\\subset E$ and $V\\subset B(r)$ and a map $T \\colon U\\to V$\nsuch that $T(A+\\phi) = I|_V$ and $(A+\\phi)T = I|_U$. In other words,\nthere is a local inverse of $A+\\phi$ near zero. Furthermore, the inverse\n$T$ is Lipschitz with\n${\\operatorname{Lip}}T \\leq (\\|A\\|+{\\operatorname{Lip}}\\phi)^{-1}$ and\n$$B\\left(r(\\|A^{-1}\\|^{-1} - {\\operatorname{Lip}}\\phi)\\right)\\subset U.$$\n\n*Remark.* The inclusion above implies that $A+\\phi\\colon E\\to E$ is\ninvertible if $r=\\infty$.\n\n*Remark.* ${\\operatorname{Lip}}\\phi$ denotes the smallest Lipschitz\nconstant of $\\phi$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LipschitzInverseMappingTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lipschitz inverse mapping theorem"
+  ]
+}

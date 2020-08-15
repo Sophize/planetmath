@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A real square $n \\times n$ matrix $Q$ is orthogonal if\n$Q^{{\\mathrm T}}Q = I$, i.e., if $Q^{-1} = Q^{{\\mathrm T}}$. The rows\nand columns of an orthogonal matrix form an orthonormal basis.\n\nOrthogonal matrices play a very important role in linear algebra. Inner\nproducts are preserved under an orthogonal transform:\n$(Qx)^{{\\mathrm T}}Qy=x^{{\\mathrm T}}Q^{{\\mathrm T}}Qy=x^{{\\mathrm T}}y$,\nand also the Euclidean norm $||Qx||_2 = ||x||_2$. An example of where\nthis is useful is solving the least squares problem $Ax \\approx b$ by\nsolving the equivalent problem\n$Q^{{\\mathrm T}}Ax \\approx Q^{{\\mathrm T}}b$.\n\nOrthogonal matrices can be thought of as the real case of unitary\nmatrices. A unitary matrix $U \\in \\mathbb{C}^{n \\times n}$ has the\nproperty $U^*U = I$, where $U^* = \\overline{U^{{\\mathrm T}}}$ (the\nconjugate transpose). Since\n$\\overline{Q^{{\\mathrm T}}} = Q^{{\\mathrm T}}$ for real $Q$, orthogonal\nmatrices are unitary.\n\nAn orthogonal matrix $Q$ has $\\det(Q) = \\pm 1$.\n\nImportant orthogonal matrices are Givens rotations and Householder\ntransformations. They help us maintain numerical stability because they\ndo not amplify rounding errors.\n\nOrthogonal $2 \\times 2$ matrices are rotations or reflections if they\nhave the form:\n\n$$\\begin{pmatrix} \\cos(\\alpha) & \\sin(\\alpha) \\\\ -\\sin(\\alpha) & \\cos(\\alpha) \\end{pmatrix}  \\text{or} \\begin{pmatrix} \\cos(\\alpha) & \\sin(\\alpha) \\\\ \\sin(\\alpha) & -\\cos(\\alpha) \\end{pmatrix}$$\n\nrespectively.\n\n[*This entry is based on content from The Data Analysis Briefbook ()*]{}\n\n[3]{}\n\nFriedberg, Insell, Spence. [*Linear Algebra*]{}. Prentice-Hall Inc.,\n1997.",
+  "language": "INFORMAL",
+  "phrase": "Orthogonal Matrices",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrthogonalMatrices"
+    }
+  ],
+  "indexable": true
+}

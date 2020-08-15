@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $X$ is a cell space, then let $({\\mathcal{C}}_*(X),{\\mathfrak{d}})$\nbe the cell complex where the $n$-th group ${\\mathcal{C}}_n(X)$ is the\nfree abelian group on the cells of dimension $n$, and the boundary map\nis as follows: If $e^n$ is an $n$-cell, then we can define a map\n${\\varphi}_f:\\partial e^n\\to f^{n-1}$, where $f^{n-1}$ is any cell of\ndimension $n-1$ by the following rule: let\n${\\varphi}:e^n\\to\\mathrm{sk}_{n-1} X$ be the attaching map for $e^n$,\nwhere ${\\mathrm{sk}}_{n-1}X$ is the $(n-1)$-skeleton of $X$. Then let\n$\\pi_f$ be the natural projection\n$$\\pi_f:\\mathrm{sk}_{n-1}X\\to \\mathrm{sk}_{n-1} X/(\\mathrm{sk}_{n-1} X-f)\\cong f/\\partial f.$$\nLet ${\\varphi}_f=\\pi_f\\circ{\\varphi}$. Now, $f/\\partial f$ is a\n(n-1)-sphere, so the map ${\\varphi}_f$ has a degree $\\deg f$ which we\nuse to define the boundary operator:\n$${\\mathfrak{d}}([e^n])=\\sum_{\\dim f=n-1}(\\deg {\\varphi}_f)[f^{n-1}].$$\n\nThe resulting chain complex is called the cellular chain complex.\n\nThe homology of the cellular complex is the same as the singular\nhomology of the space. That is\n$$H_*({\\mathcal{C}},{\\mathfrak{d}})=H_*(C,\\partial).$$\n\nCellular homology is tremendously useful for computations because the\ngroups involved are finitely generated.",
+  "language": "INFORMAL",
+  "phrase": "Cellular Homology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CellularHomology"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Consider the the planar system $\\dot{x}=f(x)$, where $f=(X,Y)^t$ and\n$x=(x,y)^t$. Consider the vector field $(-\\rho Y, \\rho X)$. Suppose that\nthere is a periodic orbit contained in $E$ associated to the planar\nsystem. Let $\\gamma$ be that periodic orbit. We have:\n\n$\\displaystyle \\int_{\\gamma} (-\\rho Y, \\rho X) ds = \\int_0^{\\tau} (-\\rho Y(x,y),\\rho X(x,y)) \\cdot (\\dot{x},\\dot{y}) dt= \\int_0^{\\tau} -\\rho Y(x,y)X(x,y)+\\rho X(x,y)Y(x,y) = 0$\n\nOn the other hand, the region within $E$ that is limited by $\\gamma$ is\nsimply connected because $E$ is simply connected. Let $\\tilde{E}$ be the\nregion limited by $\\gamma$. Then, by Green\u2019s theorem, we have:\n\n$$\\int_{\\gamma^+} (-\\rho Y, \\rho X) ds = \\int \\int_{\\tilde{E}} \\frac{\\partial}{\\partial x} (\\rho X) - \\frac{\\partial}{\\partial y} (-\\rho Y) dxdy= \\int \\int_{\\tilde{E}} \\frac{\\partial}{\\partial x} (\\rho X)+\\frac{\\partial}{\\partial y} (\\rho Y) dxdy$$\n\nBecause $\\tilde{E}$ has positive area and the integrand function has\nconstant signal, then this integral is different from zero. This is a\ncontradiction. So there are no periodic orbits.",
+  "conclusion": "#P_DulacsCriteria",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfDulacsCriteria"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "Proof of Dulac's Criteria"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a (usually non-homogeneous) ordinary differential equation\n$$F(x,f(x),f^\\prime(x),\\ldots,f^{(n)}(x))=0,$$ the *method of\nundetermined coefficients* is a way of finding an exact solution when a\nguess can be made as to the general form of the solution.\n\nIn this method, the form of the solution is guessed with unknown\ncoefficients left as variables. A typical guess might be of the form\n$Ae^{2x}$ or $Ax^2+Bx+C$. This can then be substituted into the\ndifferential equation and solved for the coefficients. Obviously the\nmethod requires knowing the approximate form of the solution, but for\nmany problems this is a feasible requirement.\n\nThis method is most commonly used when the formula is some combination\nof exponentials, polynomials, $\\sin$ and $\\cos$.\n\nExample {#example .unnumbered}\n-------\n\nSuppose we have the following second order non-homogeneous equation\n$$f^{\\prime\\prime}(x)-2f^\\prime(x)+f(x)=2e^{2x}.$$ If we guess that the\nsoution is of the form $f(x)=Ae^{2x}$, then, by substitution, we get\n$$4Ae^{2x}-4Ae^{2x}+Ae^{2x}-2e^{2x}=0$$ and therefore $Ae^{2x}=2e^{2x}$,\nso $A=2$, giving $f(x)=2e^{2x}$ as a solution.",
+  "language": "INFORMAL",
+  "phrase": "Method Of Undetermined Coefficients",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MethodOfUndeterminedCoefficients"
+    }
+  ],
+  "indexable": true
+}

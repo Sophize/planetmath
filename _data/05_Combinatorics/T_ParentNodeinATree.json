@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "parent node",
+    "parent"
+  ],
+  "definition": "A *parent* node $P$ of a node $C$ in a tree is the first node which lies\nalong the path from $C$ to the root of the tree, $R$.\n\nDrawn in the canonical root-at-top manner, the parent node of a node $C$\nin a tree is simply the node immediately above $C$ which is connected to\nit.\n\n$$\\xymatrix{\n& \\bullet \\ar@{-}[dl] \\ar@{-}[dr] & & & \\\\\n\\bullet & & {\\color{red}\\bullet} \\ar@{-}[dr]\\ar@{-}[dl] & & \\\\\n& \\bullet \\ar@{-}[dl] & & {\\color{blue}\\bullet} & \\\\\n\\bullet & & & & }$$\n\n[Figure: A node (blue) and its parent (red.)]{}",
+  "language": "INFORMAL",
+  "phrase": "Parent Node (In A Tree)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ParentNodeinATree"
+    }
+  ],
+  "indexable": true
+}

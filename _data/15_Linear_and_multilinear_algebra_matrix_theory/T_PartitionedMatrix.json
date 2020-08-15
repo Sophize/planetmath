@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *partitioned matrix*, or a *block matrix*, is a matrix $M$ that has\nbeen constructed from other smaller matrices. These smaller matrices are\ncalled *blocks* or *sub-matrices* of $M$.\n\nFor instance, if we partition the below $5\\times 5$ matrix as follows\n$$\\begin{aligned}\n L&=&\\left( \\begin{array}{cc|ccc}\n 1 & 0 & 1 & 2 & 3 \\\\\n 0 & 1 & 1 & 2 & 3 \\\\\n \\hline\n 2 & 3 & 9 & 9 & 9 \\\\\n 2 & 3 & 9 & 9 & 9 \\\\\n 2 & 3 & 9 & 9 & 9 \\\\\n \\end{array} \\right),\n \\end{aligned}$$ then we can define the matrices\n\n$$A=\\left( \\begin{array}{cc}\n 1 & 0 \\\\\n 0 & 1\n \\end{array} \\right),\n B=\\left( \\begin{array}{ccc}\n 1 & 2 & 3\\\\\n 1 & 2 & 3\n \\end{array} \\right),\n C=\\left( \\begin{array}{cc}\n 2 & 3 \\\\\n 2 & 3 \\\\\n 2 & 3\n \\end{array} \\right),\n D=\\left( \\begin{array}{ccc}\n 9 & 9 & 9 \\\\\n 9 & 9 & 9 \\\\\n 9 & 9 & 9 \\\\\n \\end{array} \\right)$$\n\nand write $L$ as\n\n$$L=\\left( \\begin{array}{cc}\n A & B \\\\\n C & D\n \\end{array} \\right),\\, \\mbox{or\\,\\,}\n L=\\left( \\begin{array}{c|c}\n A & B \\\\\n\\hline\n C & D\n \\end{array} \\right).$$\n\nIf $A_1,\\ldots, A_n$ are square matrices (of possibly different sizes),\nthen we define the *direct sum* of the matrices $A_1,\\ldots, A_n$ as the\npartitioned matrix\n$$\\operatorname{diag}(A_1,\\ldots, A_n) =\\left( \\begin{array}{c|c|c}\n A_1 &  &  \\\\\n\\hline\n  & \\ddots &  \\\\\n\\hline\n  &  & A_n \\\\\n \\end{array} \\right),$$ where the off-diagonal blocks are zero.\n\nIf $A$ and $B$ are matrices of the same size partitioned into blocks of\nthe same size, the partition of the sum is the sum of the partitions.\n\nIf $A$ and $B$ are $m\\times n$ and $n\\times k$ matrices, respectively,\nthen if the blocks of $A$ and $B$ are of the correct size to be\nmultiplied, then the blocks of the product are the products of the\nblocks.",
+  "language": "INFORMAL",
+  "phrase": "Partitioned Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartitionedMatrix"
+    }
+  ],
+  "indexable": true
+}

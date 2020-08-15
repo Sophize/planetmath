@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Recall that in a bounded distributive lattice, complements, relative\ncomplements, and differences of lattice elements, if exist, must be\nunique. This leads to the general consideration of general bounded\nlattices in which complements are unique.\n\n**Definition**. A complemented lattice such that every element has a\nunique complement is said to be *uniquely complemented*. If $a$ is an\nelement of a uniquely complemented lattice, $a'$ denotes its (unique)\ncomplement. One can think of $'$ as a unary operator on the lattice.\n\nOne of the first consequences is $$a''=a.$$ To see this, we have that\n$a\\vee a'=1$, $a\\wedge a'=0$, as well as $a''\\vee a'=1$,\n$a''\\wedge a'=0$. So $a=a''$, since they are both complements of $a'$.\n\nBelow are some additional (and non-trivial) properties of a uniquely\ncomplemented lattice:\n\n-   there exists a uniquely complemented lattice that is not\n    distributive\n\n-   a uniquely complemented lattice $L$ is distributive if at least one\n    of the following is satisfied:\n\n    1.  $'$, as an operator on $L$, is order reversing;\n\n    2.  $(a\\vee b)'=a'\\wedge b'$;\n\n    3.  $(a\\wedge b)'=a'\\vee b'$;\n\n    4.  (von Neumann) $L$ is a modular lattice;\n\n    5.  (Birkhoff-Ward) $L$ is an atomic lattice.\n\n    In fact, the first three conditions are equivalent, so that $L$ is\n    distributive if it satisfies the de Morgan\u2019s laws.\n\n-   (Dilworth) every lattice can be embedded in a uniquely complemented\n    lattice.\n\n[6]{} T.S. Blyth, [*Lattices and Ordered Algebraic Structures*]{},\nSpringer, New York (2005). G. Gr\u00e4tzer, [*General Lattice Theory*]{}, 2nd\nEdition, Birkh\u00e4user (1998)",
+  "language": "INFORMAL",
+  "phrase": "Uniquely Complemented Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniquelyComplementedLattice"
+    }
+  ],
+  "indexable": true
+}

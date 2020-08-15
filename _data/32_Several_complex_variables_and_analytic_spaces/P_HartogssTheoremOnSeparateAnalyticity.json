@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G \\subset {\\mathbb{C}}^n$ be an open set and write\n$z = (z_1,\\ldots,z_n)$. Let $f \\colon G \\to {\\mathbb{C}}$ be a function\nsuch that for each $k = 1,\\ldots,n$ and fixed\n$z_1,\\ldots,z_{k-1},z_{k+1},\\ldots,z_n$ the function\n$$w \\mapsto f(z_1,\\ldots,z_{k-1},w,z_{k+1},\\ldots,z_n)$$ is holomorphic\non the set $\\{ w \\in {\\mathbb{C}} \\mid\nz_1,\\ldots,z_{k-1},w,z_{k+1},\\ldots,z_n \\in G \\}$. Then $f$ is\ncontinuous on $G$.\n\nThis is a of an analogue of Goursat\u2019s theorem for several complex\nvariables. That is if we just consider that a function is holomorphic in\neach variable separately, then it will turn out to be continuously\ndifferentiable. Thus we can in fact define holomorphic functions of\nseveral complex variables to be just functions holomorphic in each\nvariable separately.\n\nNote that there is no analogue of this theorem for real variables. If we\nassume that a function $f \\colon {\\mathbb{R}}^n \\to {\\mathbb{R}}$ is\ndifferentiable (or even analytic) in each variable separately, it is not\ntrue that $f$ will necessarily be continuous. The standard example in\n${\\mathbb{R}}^2$ is given by $f(x,y) = \\frac{xy}{x^2+y^2}$, then this\nfunction has well defined partial derivatives in $x$ and $y$ at 0, but\nit is not continuous at 0 (try approaching 0 along the line $x=y$ or\n$x=-y$).\n\nEven if we assume the function to be smooth ($C^\\infty$), there is no\nanalogue for real variables. Consider $f(x,y) = xye^{-1/(x^2+y^2)},$\nwhere we define $f(0,0) = 0.$ This function is smooth, real analytic in\neach variable separately, but it fails to be real analytic at the\norigin.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HartogssTheoremOnSeparateAnalyticity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hartogs's theorem on separate analyticity"
+  ]
+}

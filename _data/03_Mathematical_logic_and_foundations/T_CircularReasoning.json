@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "circular argument"
+  ],
+  "definition": "[*Circular reasoning*]{} is an attempted proof of a statement that uses\nat least one of the following two things:\n\n-   the statement that is to be proven\n\n-   a fact that relies on the statement that is to be proven\n\nSuch proofs are not valid.\n\nAs an example, below is a faulty proof that the . The step where\ncircular reasoning is used is surrounded by brackets \\[ \\].\n\nLet $C$ be a collection of nonempty sets. By the well-ordering\nprinciple, each $S \\in C$ is well-ordered. \\[For each $S \\in C$, let\n$<_S$ denote the well-ordering of $S$.\\] Let $m_S$ denote the least\nmember of each $S \\in C$ with respect to $<_S$. Then a choice function\n$\\displaystyle f \\colon C \\to \\bigcup_{S \\in C} S$ can be defined by\n$f(S)=m_S$.\n\nThe step surrounded by brackets is faulty because it actually uses the\naxiom of choice, which is what is to be proven. In the step, for each\n$S \\in C$, an ordering is chosen. This cannot be done in general without\nappealing to the axiom of choice.",
+  "language": "INFORMAL",
+  "phrase": "Circular Reasoning",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CircularReasoning"
+    }
+  ],
+  "indexable": true
+}

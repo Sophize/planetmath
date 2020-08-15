@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathbbmss{E}^n}$ be $n$-dimensional Euclidean space, and let\n$({\\mathbbmss{V}},\\langle\n\\cdot, \\cdot\\rangle)$ be the corresponding $n$-dimensional inner product\nspace of translation isometries. Alternatively, we can consider\nEuclidean space as an inner product space that has forgotten which point\nis its origin. Forgetting even more information, we have the structure\nof ${\\mathbbmss{E}^n}$ as a differential manifold. We can obtain an\natlas with just one coordinate chart, a Cartesian coordinate system\n$(x^1,\\ldots,x^n)$ which gives us a bijection between\n${\\mathbbmss{E}^n}$ and ${\\mathbbmss{R}}^n$. The tangent bundle is\ntrivial, with\n${\\operatorname{T}}{\\mathbbmss{E}^n}\\cong {\\mathbbmss{E}^n}\\times {\\mathbbmss{V}}.$\nEquivalently, every tangent space\n${\\operatorname{T}}_p{\\mathbbmss{E}^n},\\; p\\in {\\mathbbmss{E}^n}$. is\nisomorphic to ${\\mathbbmss{V}}$.\n\nWe can retain a bit more structure, and consider ${\\mathbbmss{E}^n}$ as\na Riemannian manifold by equipping it with the metric tensor\n$$\\begin{aligned}\ng &=& dx^1 \\otimes dx^1 + \\cdots + dx^n \\otimes dx^n \\\\\n&=& \\delta_{ij} dx^i \\otimes dx^j.\\end{aligned}$$ We can also describe\n$g$ in a coordinate-free fashion as\n$$g(u,v) = \\langle u,v\\rangle,\\quad u,v\\in {\\mathbbmss{V}}.$$\n\n### Properties {#properties .unnumbered}\n\n1.  Geodesics are straight lines in ${\\mathbbmss{R}}^n$.\n\n2.  The Christoffel symbols vanish identically.\n\n3.  The Riemann curvature tensor vanish identically.\n\nConversely, we can characterize Eucldiean space as a connected, complete\nRiemannian manifold with vanishing curvature and trivial fundamental\ngroup.",
+  "language": "INFORMAL",
+  "phrase": "Euclidean Space As A Manifold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EuclideanSpaceAsAManifold"
+    }
+  ],
+  "indexable": true
+}

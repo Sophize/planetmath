@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "### Definition and classification of the Wiener algebra\n\nLet $W$ be the space of all complex functions on $[0,2\\pi[$ whose\nFourier series converges absolutely, that is, all functions\n$f:[0,2\\pi[ \\longrightarrow \\mathbb{C}$ whose Fourier series\n$$f(t)= \\sum_{n=-\\infty}^{+\\infty} \\hat{f}(n)e^{int}$$ is such that\n$\\sum_{n} |\\hat{f}(n)| < \\infty$ .\n\nUnder pointwise operations and the norm\n$\\|f \\| = \\sum_{n} |\\hat{f}(n)|\\,,$ $W$ is a commutative Banach algebra\nof continuous functions, with an identity element. $W$ is usually called\nthe [**Wiener algebra**]{}.\n\n[**Theorem -**]{} $W$ is isometrically isomorphic to the Banach algebra\n$\\ell^1(\\mathbb{Z})$ with the convolution product. The isomorphism is\ngiven by:\n$$(a_k)_{k \\in \\mathbb{Z}} \\longleftrightarrow f(t) = \\sum_{n=-\\infty}^{+\\infty} a_k e^{int}$$\n\n### Wiener\u2019s Theorem\n\n[**Theorem (Wiener) -**]{} If $f \\in W$ has no zeros then $1/f \\in W$,\nthat is, $1/f$ has an absolutely convergent Fourier series.\n\n[**Proof :**]{} We want to prove that $f$ is invertible in $W$. As $W$\nis commutative, that is the same as proving that $f$ does not belong to\nany maximal ideal of $W$. Therefore we only need to show that $f$ is not\nin the kernel of any multiplicative linear functional of $W$.\n\nLet $\\phi$ be a multiplicative linear functional in $W$. We have that\n\n$$\\phi (f)= \\phi \\Big( \\sum_{n=-\\infty}^{+\\infty} \\hat{f}(n)e^{int} \\Big) = \\sum_{n=-\\infty}^{+\\infty} \\hat{f}(n)\\phi (e^{int}) = \\sum_{n=-\\infty}^{+\\infty} \\hat{f}(n)\\phi^n (e^{it})$$\n\nSince $\\|\\phi\\|=1$ we have that\n$$|\\phi (e^{it})| \\le \\|\\phi\\|\\|e^{it}\\|=\\|e^{it}\\|=1$$ and\n$$|\\phi (e^{-it})| \\le \\|\\phi\\|\\|e^{-it}\\|=\\|e^{-it}\\|=1$$\n\nSince $1=|\\phi(e^{it}e^{-it})|=|\\phi(e^{it})||\\phi(e^{-it})|$ we deduce\nthat $$|\\phi (e^{it})|=1$$\n\nWe can conclude that\n\n$\\phi(e^{it})=e^{it_0}\\;$ for some $t_0 \\in [0,2\\pi[$\n\nTherefore we obtain\n$$\\phi (f)= \\sum_{n=-\\infty}^{+\\infty} \\hat{f}(n)e^{int_0} = f(t_0)$$\nwhich is non-zero by definition of $f$.\n\nWe conclude that $f$ does not belong to the kernel of any multiplicative\nlinear functional $\\phi$. $\\square$\n\n### Remark\n\nThe Wiener algebra is a Banach \\*-algebra with the involution given by\n$f^*(t):=\\overline{f(-t)}$, but it is not a under this involution.",
+  "language": "INFORMAL",
+  "phrase": "Wiener Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WienerAlgebra"
+    }
+  ],
+  "indexable": true
+}

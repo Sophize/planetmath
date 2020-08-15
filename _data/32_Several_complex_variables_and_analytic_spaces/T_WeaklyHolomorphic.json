@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "w-holomoprhic"
+  ],
+  "definition": "Let $V$ be a local complex analytic variety. A function\n$f \\colon U \\subset V \\to \\mathbb{C}$ (where $U$ is open in $V$) is said\nto be [*weakly holomorphic*]{} through $U$ if there exists a nowhere\ndense complex analytic subvariety $W \\subset V$ and $W$ contains the\nsingular points of $V$ and $V \\setminus W \\subset U$, and such that $f$\nis holomorphic on $V \\setminus W$ and $f$ is locally bounded on $V$.\n\nIt is not hard to show that we can then just take $W$ to be the set of\nsingular points of $V$ and have $U = V \\setminus W$ as we can extend $f$\nto all the nonsingular points of $V$.\n\nUsually we denote by ${\\mathcal{O}}^w(V)$ the ring of weakly holomorphic\nfunctions through $V$. Since any neighbourhood of a point $p$ in $V$ is\na local analytic subvariety, we can define germs of weakly holomorphic\nfunctions at $p$ in the obvious way. We usually denote by\n${\\mathcal{O}}_p^w(V)$ the ring of germs at $p$ of weakly holomorphic\nfunctions.\n\n[9]{} Hassler Whitney. [**]{}. Addison-Wesley, Philippines, 1972.",
+  "language": "INFORMAL",
+  "phrase": "Weakly Holomorphic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeaklyHolomorphic"
+    }
+  ],
+  "indexable": true
+}

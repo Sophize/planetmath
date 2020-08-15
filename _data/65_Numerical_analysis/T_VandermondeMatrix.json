@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Vandermonde matrix* is any $(n+1)\\times(n+1)$ matrix of the form\n\n$$\\begin{bmatrix}\n 1 & x_0 & x_0^2 & \\cdots & x_0^n   \\\\\n 1 & x_1 & x_1^2 & \\cdots & x_1^n   \\\\\n \\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\\n 1 & x_n & x_n^2 & \\cdots & x_n^n \n\\end{bmatrix}$$\n\nVandermonde matrices usually arise when considering systems of\npolynomials evaluated at specific points (i.e. in interpolation or\napproximation). This may happen, for example, when trying to solve for\nconstants from initial conditions in systems of differential equations\nor recurrence relations.\n\nVandermonde matrices also appear in the computation of FFTs (Fast\nFourier Transforms). Here the fact that Vandermonde systems $Vz = b$ can\nbe solved in $\\mathcal{O}(n \\log n)$ flops by taking advantage of their\ncomes into play.\n\nReferences\n----------\n\n1.  Golub and Van Loan, *Matrix Computations*, Johns Hopkins University\n    Press 1993",
+  "language": "INFORMAL",
+  "phrase": "Vandermonde Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VandermondeMatrix"
+    }
+  ],
+  "indexable": true
+}

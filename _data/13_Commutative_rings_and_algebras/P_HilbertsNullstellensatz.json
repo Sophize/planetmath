@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K$ be an algebraically closed field, and let $I$ be an ideal in\n$K[x_1,\\ldots,x_n]$, the polynomial ring in $n$ indeterminates.\n\nDefine $V(I)$, the [*zero set*]{} of $I$, by\n$$V(I) = \\{(a_1,\\ldots,a_n) \\in K^n \\mid f(a_1,\\ldots,a_n)=0 \\text{ for all } f \\in I\\}$$\n\n[**Weak Nullstellensatz**]{}:\\\nIf $V(I)=\\emptyset$, then $I=K[x_1,\\ldots,x_n]$. In other words, the\nzero set of any proper ideal of $K[x_1,\\ldots,x_n]$ is nonempty.\n\n[**Hilbert\u2019s (Strong) Nullstellensatz**]{}:\\\nSuppose $f \\in K[x_1,\\ldots,x_n]$ satisfies $f(a_1,\\ldots,a_n)=0$ for\nevery $(a_1,\\ldots,a_n) \\in V(I)$. Then $f^r \\in I$ for some integer\n$r>0$.\n\nIn the of algebraic geometry, the latter result is equivalent to the\nstatement that $\\operatorname{Rad}(I)=I(V(I))$, that is, the radical of\n$I$ is equal to the ideal of $V(I)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HilbertsNullstellensatz"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hilbert's Nullstellensatz",
+    "Nullstellensatz"
+  ]
+}

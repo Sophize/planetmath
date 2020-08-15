@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For any integer $n > 0$, the gamma function satisfes the following\nrelation:\n\n$$\\Gamma (nz) = (2 \\pi)^{n - 1 \\over 2} n^{nz - {1 \\over 2}} \\prod\\limits_{k=0}^{n-1} \\Gamma \\left( z + {k \\over n} \\right)$$\n\nThis equation is true for all complex values of $z$ for which both sides\nare defined.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplicationFormulaForGammaFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "multiplication formula for gamma function"
+  ]
+}

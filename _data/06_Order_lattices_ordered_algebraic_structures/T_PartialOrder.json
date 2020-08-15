@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "order",
+    "partial ordering",
+    "ordering"
+  ],
+  "definition": "A *partial order* (often simply referred to as an *order* or *ordering*)\nis a relation $\\leq\\:\\subset A\\times A$ that satisfies the following\nthree properties:\n\n1.  Reflexivity: $a \\leq a$ for all $a\\in A$\n\n2.  Antisymmetry: If $a \\leq b$ and $b \\leq a$ for any $a, b\\in A$, then\n    $a = b$\n\n3.  Transitivity: If $a \\leq b$ and $b \\leq c$ for any $a, b, c\\in A$,\n    then $a \\leq c$\n\nA *total order* is a partial order that satisfies a fourth property\nknown as *comparability*:\n\n-   Comparability: For any $a,b\\in A$, either $a\\leq b$ or $b\\leq a$.\n\nA set and a partial order on that set define a poset.\n\n**Remark**. In some literature, especially those dealing with the\nfoundations of mathematics, a partial order $\\le$ is defined as a\ntransitive irreflexive binary relation (on a set). As a result, if\n$a\\le b$, then $b \\nleq a$, and therefore $\\le$ is antisymmetric.",
+  "language": "INFORMAL",
+  "phrase": "Partial Order",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartialOrder"
+    }
+  ],
+  "indexable": true
+}

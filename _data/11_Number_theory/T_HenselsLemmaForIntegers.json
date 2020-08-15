@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f(x)$ be a polynomial with integer coefficients, $p$ a prime\nnumber, and $n$ a positive integer. Assume that an integer $a$ (and\nnaturally its whole residue class modulo $p^n$) satisfies the congruence\n$$\\begin{aligned}\nf(x) \\;\\equiv\\; 0 \\;\\; \\pmod{p^n}.\\end{aligned}$$ The solution $x = a$\nof (1) may be refined in its residue class modulo $p^n$ to a solution\n$x = a\\!+\\!rp^n$ of the congruence $$\\begin{aligned}\nf(x) \\;\\equiv\\; 0 \\;\\; \\pmod{p^{n+1}}.\\end{aligned}$$ This refinement is\nunique modulo $p^{n+1}$ iff $f'(a) \\not\\equiv 0\\, \\pmod{p}$.\\\n[*Proof.*]{} Now we have $f(a) = sp^n$. We have to find an $r$ such that\n$$f(a\\!+\\!rp^n) \\;\\equiv\\; 0 \\;\\; \\pmod{p^{n+1}}.$$ The short Taylor\ntheorem requires that $$f(a\\!+\\!rp^n) \\;\\equiv\\; f(a)+rf'(a)p^n \\;\\; \n\\pmod{r^2p^{2n}}$$ where $2n \\ge n\\!+\\!1$, whence this congruence can be\nsimplified to $$sp^n+rf'(a)p^n \\;\\equiv\\; 0 \\;\\; \\pmod{p^{n+1}}.$$ Thus\nthe integer $r$ must satisfy the linear congruence\n$$s+rf'(a) \\;\\equiv\\; 0 \\;\\; \\pmod{p}.$$ When $f'(a) \\not\\equiv 0$, this\ncongruence has a unique solution modulo $p$ (see linear congruence);\nthus we have the refinement $a' = a\\!+\\!rp^n$ which is unique modulo\n$p^{n+1}$.\n\nWhen $f'(a) \\equiv 0$ and $s \\not\\equiv 0 \\; \\pmod{p}$, the congruence\nevidently is impossible.\n\nIn the case $f'(a) \\equiv s \\equiv 0 \\; \\pmod{p}$ the congruence (2) is\nidentically true in the residue class of $a$ modulo $p^n$.\n\n[8]{} : [*Elementary Number Theory*]{}. HHH Productions, Link\u00f6ping\n(2009).",
+  "language": "INFORMAL",
+  "phrase": "Hensel'S Lemma For Integers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HenselsLemmaForIntegers"
+    }
+  ],
+  "indexable": true
+}

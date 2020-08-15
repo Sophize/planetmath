@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Lie superalgebra"
+  ],
+  "definition": "Suppose $M$ is a smooth manifold, and denote by $\\Omega(M)$ the algebra\nof differential forms on $M$. Then, the *Cartan calculus* consists of\nthe following three types of linear operators on $\\Omega(M)$:\n\n1.  the exterior derivative $d$,\n\n2.  the space of Lie derivative operators ${\\mathcal{L}}_X$, where $X$\n    is a vector field on $M$, and\n\n3.  the space of contraction operators $\\iota_X$, where $X$ is a vector\n    field on $M$.\n\nThe above operators satisfy the following identities for any vector\nfields $X$ and $Y$ on $M$: $$\\begin{aligned}\nd^2 &= 0, \\label{cartfirst}\\\\\nd {\\mathcal{L}}_X - {\\mathcal{L}}_X d &= 0, \\\\\nd \\iota_X + \\iota_X d &= {\\mathcal{L}}_X, \\label{magic}\\\\\n{\\mathcal{L}}_X {\\mathcal{L}}_Y - {\\mathcal{L}}_Y {\\mathcal{L}}_X &= {\\mathcal{L}}_{[X,Y]}, \\\\\n{\\mathcal{L}}_X \\iota_Y - \\iota_Y {\\mathcal{L}}_X &= \\iota_{[X,Y]},\\\\\n\\iota_X \\iota_Y + \\iota_Y \\iota_X &= 0, \\label{cartlast}\\end{aligned}$$\nwhere the brackets on the right hand side denote the Lie bracket of\nvector fields.\n\nThe identity (\\[magic\\]) is known as *Cartan\u2019s magic formula* or\n*Cartan\u2019s identity*\n\nInterpretation as a Lie Superalgebra {#interpretation-as-a-lie-superalgebra .unnumbered}\n------------------------------------\n\nSince $\\Omega(M)$ is a graded algebra, there is a natural grading on the\nspace of linear operators on $\\Omega(M)$. Under this grading, the\nexterior derivative $d$ is degree $1$, the Lie derivative operators\n${\\mathcal{L}}_X$ are degree $0$, and the contraction operators\n$\\iota_X$ are degree $-1$.\n\nThe identities (\\[cartfirst\\])-(\\[cartlast\\]) may each be written in the\nform $$AB \\pm BA = C,$$ where a plus sign is used if $A$ and $B$ are\nboth of odd degree, and a minus sign is used otherwise. Equations of\nthis form are called *supercommutation relations* and are usually\nwritten in the form $$\\label{supercom}\n[A,B] = C,$$ where the bracket in (\\[supercom\\]) is a *Lie\nsuperbracket*. A Lie superbracket is a generalization of a Lie bracket.\n\nSince the Cartan Calculus operators are closed under the Lie\nsuperbracket, the vector space spanned by the Cartan Calculus operators\nhas the structure of a *Lie superalgebra*.\n\nGraded derivations of $\\Omega(M)$ {#graded-derivations-of-omegam .unnumbered}\n---------------------------------\n\nA degree $k$ linear operator $A$ on $\\Omega(M)$ is a *graded derivation*\nif it satisfies the following property for any $p$-form $\\omega$ and any\ndifferential form $\\eta$:\n$$A (\\omega \\wedge \\eta) = A(\\omega) \\wedge \\eta + (-1)^{kp} \\omega \\wedge A(\\eta).$$\n\nAll of the Calculus operators are graded derivations of $\\Omega(M)$.",
+  "language": "INFORMAL",
+  "phrase": "Cartan Calculus",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CartanCalculus"
+    }
+  ],
+  "indexable": true
+}

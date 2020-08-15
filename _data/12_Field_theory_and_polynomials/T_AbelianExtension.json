@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ be a Galois extension of $F$. The extension is said to be an\n[*abelian extension*]{} if the Galois group $\\textrm{Gal$(K/F)$}$ is\nabelian.\n\nExamples: $\\mathbb{Q}(\\sqrt{2})/\\mathbb{Q}$ has Galois group\n$\\mathbb{Z}/2\\mathbb{Z}$ so $\\mathbb{Q}(\\sqrt{2})/\\mathbb{Q}$ is an\nabelian extension.\n\nLet $\\zeta_n$ be a . Then $\\mathbb{Q}(\\zeta_n)/\\mathbb{Q}$ has Galois\ngroup $(\\mathbb{Z}/n\\mathbb{Z})^*$ (the group of units of\n$\\mathbb{Z}/n\\mathbb{Z}$) so $\\mathbb{Q}(\\zeta_n)/\\mathbb{Q}$ is\nabelian.",
+  "language": "INFORMAL",
+  "phrase": "Abelian Extension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbelianExtension"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*quaternion algebra*]{} over a field $K$ is a central simple algebra\nover $K$ which is four dimensional as a vector space over $K$.\n\n[**Examples:**]{}\n\n-   For any field $K$, the ring $M_{2\\times 2}(K)$ of $2\\times 2$\n    matrices with entries in $K$ is a quaternion algebra over $K$. If\n    $K$ is algebraically closed, then all quaternion algebras over $K$\n    are isomorphic to $M_{2\\times 2}(K)$.\n\n-   For $K = \\mathbb{R}$, the well known algebra $\\mathbb{H}$ of\n    Hamiltonian quaternions is a quaternion algebra over $\\mathbb{R}$.\n    The two algebras $\\mathbb{H}$ and $M_{2 \\times 2}(\\mathbb{R})$ are\n    the only quaternion algebras over $\\mathbb{R}$, up to isomorphism.\n\n-   When $K$ is a number field, there are infinitely many non\u2013isomorphic\n    quaternion algebras over $K$. In fact, there is one such quaternion\n    algebra for every even sized finite collection of finite primes or\n    real primes of $K$. The proof of this deep fact leads to many of the\n    major results of class field theory.\n\nOne can show that every quaternion algebra over $K$ other than\n$M_{2\\times 2}(K)$ is always a division ring.",
+  "language": "INFORMAL",
+  "phrase": "Quaternion Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuaternionAlgebra"
+    }
+  ],
+  "indexable": true
+}

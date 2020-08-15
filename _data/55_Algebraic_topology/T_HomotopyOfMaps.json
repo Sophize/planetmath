@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "homotopic maps"
+  ],
+  "definition": "Let $X,Y$ be topological spaces, $A$ a closed subspace of $X$ and\n$f,g:X \\to Y$ continuous maps. A *homotopy of maps* is a continuous\nfunction $F:X \\times [0,1] \\to Y$ satisfying\n\n1.  $F(x,0)=f(x)$ for all $x \\in X$\n\n2.  $F(x,1)=g(x)$ for all $x \\in X$\n\n3.  $F(x,t)=f(x)=g(x)$ for all $x \\in A, t\\in [0,1]$.\n\nWe say that $f$ is homotopic to $g$ relative to $A$ and denote this by\n$f \\simeq g$ $rel A$. If $A=\\emptyset$, this can be written\n$f \\simeq g$. If $g$ is the constant map (i.e. $g(x)=y$ for all\n$x \\in X$), then we say that $f$ is *nullhomotopic*.",
+  "language": "INFORMAL",
+  "phrase": "Homotopy Of Maps",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomotopyOfMaps"
+    }
+  ],
+  "indexable": true
+}

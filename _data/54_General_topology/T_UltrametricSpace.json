@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The metric space $(X,\\,d)$ is called an [*ultrametric space*]{}, if its\nmetric $d$ is an ultrametric, i.e. if\n$$d(x,\\,z) \\leqq \\max \\{d(x,\\,y),\\,d(y,\\,z)\\} \\quad \\forall x,\\,y,\\,z\\in X.$$\n\n**Example.** The field $\\mathbb{Q}$ together with any of its $p$-adic\nmetrics $$d_p(x,\\,y) = |x-y|_p,$$ where $|\\cdot|_p$ is the of\n$\\mathbb{Q}$, forms an ultrametric space.",
+  "language": "INFORMAL",
+  "phrase": "Ultrametric Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UltrametricSpace"
+    }
+  ],
+  "indexable": true
+}

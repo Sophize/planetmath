@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Loosely, the *Fundamental Theorems of Calculus* serve to demonstrate\nthat integration and differentiation are inverse processes. Suppose that\n$F(x)$ is an absolutely continuous function on an interval\n$[a,b]\\subset\\mathbb{R}$. The two following forms of the theorem are\nequivalent.\n\n[**First form of the Fundamental Theorem:**]{}\n\nThere exists a function $f(t)$ Lebesgue-integrable on $[a,b]$ such that\nfor any $x\\in [a,b]$, we have $F(x)-F(a)=\\int_a^x f(t) dt$.\n\n[**Second form of the Fundamental Theorem:**]{}\n\n$F(x)$ is differentiable almost everywhere on $[a,b]$ and its\nderivative, denoted $F'(x)$, is Lebesgue-integrable on that interval. In\naddition, we have the relation $F(x)-F(a)=\\int_a^x F'(t)dt$ for any\n$x\\in [a,b]$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalTheoremsOfCalculusForLebesgueIntegration"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fundamental theorems of calculus for Lebesgue integration",
+    "first fundamental theorem of calculus",
+    "second fundamental theorem of calculus",
+    "fundamental theorem of calculus"
+  ]
+}

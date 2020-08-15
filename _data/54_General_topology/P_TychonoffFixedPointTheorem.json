@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a locally convex topological vector space, and let\n$K\\subset X$ be a non-empty, compact, and convex set. Then given any\ncontinuous mapping $f\\colon K \\to K$ there exists $x\\in K$ such that\n$f(x)=x$.\n\nNotice that a normed vector space is a locally convex topological vector\nspace so this theorem extends the Schauder fixed point theorem.\n\n[9]{} Rudin, *Functional Analysis*, Chapter 5.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TychonoffFixedPointTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Tychonoff fixed point theorem"
+  ]
+}

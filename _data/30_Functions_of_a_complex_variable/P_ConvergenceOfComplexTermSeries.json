@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A series $$\\begin{aligned}\n\\sum_{\\nu=1}^\\infty c_\\nu \\;=\\; c_1\\!+\\!c_2\\!+\\!c_3\\!+\\ldots\\end{aligned}$$\nwith complex terms\n$$c_\\nu \\;=\\; a_\\nu\\!+\\!ib_\\nu \\qquad (a_\\nu,\\,b_\\nu \\in \\mathbb{R}\\;\\; \\forall\\, \\nu)$$\nis convergent iff the sequence of its partial sums converges to a\ncomplex number.\\\n**Theorem 1.** The series (1) converges iff the series $$\\begin{aligned}\n\\sum_{\\nu=1}^\\infty a_\\nu \\quad \\mbox{and} \\quad \\sum_{\\nu=1}^\\infty b_\\nu\\end{aligned}$$\nformed by real parts and the imaginary parts of its terms both are\nconvergent.\n\n[*Proof.*]{} Let $\\varepsilon > 0$. Denote\n$$\\sum_{\\nu=1}^n a_\\nu \\,:=\\, s_n, \\quad \\sum_{\\nu=1}^n b_\\nu \\,:=\\, t_n, \\quad \\sum_{\\nu=1}^n c_\\nu \\,:=\\, u_n.$$\nIf the series (2) are convergent with sums $S$ and $T$, then there is a\nnumber $N$ such that\n$$|s_n-S| < \\frac{\\varepsilon}{2}, \\quad |t_n-T| < \\frac{\\varepsilon}{2} \\quad \\mbox{when} \\quad n \\geqq N.$$\nAccordingly,\n$$|u_n-(S\\!+\\!iT)| = \\sqrt{(s_n-S)^2+(t_n-T)^2} \\leqq |s_n-S|+|t_n-T| < \\varepsilon \\quad \\mbox{when} \\quad n \\geqq N,$$\ni.e. the series (1) converges to $S\\!+\\!iT$. If, conversely, (1)\nconverges to a complex number\n$$u \\,=\\, s\\!+\\!it \\quad (s,\\,t \\in\\mathbb{R}),$$ then\n$$|s_n-s| \\,\\leqq\\, |(s_n-s)+i(t_n-t)| \\,=\\, |u_n-u|, \\quad |t_n-t| \\,\\leqq\\, |(s_n-s)+i(t_n-t)| \\,=\\, |u_n-u|,$$\nand consequently, $\\displaystyle\\lim_{n\\to\\infty}s_n \\,=\\, s$ and\n$\\displaystyle\\lim_{n\\to\\infty}t_n \\,=\\, t$, i.e. the series (2) are\nconvergent with sums the real numbers $s$ and $t$.\\\n**Theorem 2.** The series (1) converges absolutely iff the series (2)\nboth converge absolutely.\n\n[*Proof.*]{} The absolute convergence of (1) means that the series\n$$\\sum_{\\nu=1}^\\infty |c_\\nu|$$ converges. But since\n$|c_\\nu|^2 \\,=\\, |a_\\nu|^2+|b_\\nu|^2$, we have\n$$|a_\\nu| \\,\\leqq\\, |c_\\nu|; \\quad |b_\\nu| \\,\\leqq\\, |c_\\nu| \\,\\leqq\\, |a_\\nu|+|c_\\nu|.$$\nFrom these inequalities we can infer the assertion of the theorem 2.\n\n[9]{} : [*Funktioteoria*]{}. Kustannusosakeyhti\u00f6 Otava. Helsinki (1963).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvergenceOfComplexTermSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "convergence of complex term series"
+  ]
+}

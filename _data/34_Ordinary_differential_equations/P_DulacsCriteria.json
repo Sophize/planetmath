@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let\n\n$\\dot{\\textbf{x}} = \\textbf{f}(\\textbf{x})$\n\nbe a planar system where $\\textbf{f} = (\\textbf{X},\\textbf{Y})^t$ and\n$\\textbf{x} = (x,y)^t$. Furthermore $\\textbf{f} \\in C^1(E)$ where $E$ is\na simply connected region of the plane. If there exists a function\n$p(x,y)\\in C^1(E)$ such that\n$\\frac{\\partial (p(x,y)\\textbf{X})}{\\partial x}+\\frac{\\partial (p(x,y)\\textbf{Y})}{\\partial y}$\n*(the divergence of the vector field $p(x,y)\\textbf{f}$,\n$\\nabla \\cdot p(x,y)\\textbf{f}$)* is always of the same sign but not\nidentically zero then there are no periodic solution in the region $E$\nof the planar system. In addition, if $A$ is an annular region contained\nin $E$ on which the above condition is satisfied then there exists at\nmost one periodic solution in $A$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DulacsCriteria"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Dulac's criteria"
+  ]
+}

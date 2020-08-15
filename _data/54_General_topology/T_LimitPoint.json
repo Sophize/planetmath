@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "accumulation point",
+    "cluster point"
+  ],
+  "definition": "Let $X$ be a topological space, and let $A\\subseteq X$. An element\n$x\\in X$ is said to be a *limit point* of $A$ if every open set\ncontaining $x$ also contains at least one point of $A$ distinct from\n$x$. Note that we can often take a nested sequence of open such sets,\nand can thereby construct a sequence of points which converge to $x$,\npartially motivating the terminology \"limit\u201d in this case.\n\nEquivalently:\n\n-   $x$ is a limit point of $A$ if and only if there is a net in $A$\n    converging to $x$ which is not residually constant.\n\n-   $x$ is a limit point of $A$ if and only if there is a filter on $A$\n    to $x$.\n\n-   If $X$ is a metric (or first countable) space, $x$ is a limit point\n    of $A$ if and only if there is a sequence of points in\n    $A\\setminus\\{x\\}$ converging to $x$.",
+  "language": "INFORMAL",
+  "phrase": "Limit Point",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitPoint"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*pseudoprime*]{} is a composite number $p$ that passes a given\nprimality test. In other words, a pseudoprime is a false positive on a\nprimality test.\n\nThe primality test is usually a power congruence to a given base $b$\nthat is coprime to $p$, such as $b^{p - 1} \\equiv 1 \\mod p$ (from\nFermat\u2019s little theorem). For example, if $p$ is an odd prime, then the\ncongruence $2^{p - 1} \\equiv 1 \\mod p$ will be true, but in reverse, $p$\ncan satisfy the congruence but turn out to be an odd composite number.\nSuch pseudoprimes are then called [*pseudoprime to base $b$*]{}, and in\nour example with $b = 2$, the first few are 341, 561, 645, 1105, 1387,\n1729, 1905 (A001567 in Sloane\u2019s OEIS). According to Neil Sloane, writing\nin the OEIS, the term \u201cpseudoprime\u201d is sometimes used specifically to\nrefer to pseudoprimes to base 2. These are sometimes called Sarrus\nnumbers.\n\nAnother kind of pseudoprimes are those in which a composite $p$ divides\nan element it indexes in a Fibonacci-like sequence. For example, a\nPerrin pseudoprime $p$ divides $a_p$, where $a_n$ is the $n$-th element\nin the Perrin sequence.\n\n[1]{} R. Crandall & C. Pomerance, [*Prime Numbers: A Computational\nPerspective*]{}, Springer, NY, 2001: 5.1",
+  "language": "INFORMAL",
+  "phrase": "Pseudoprime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Pseudoprime"
+    }
+  ],
+  "indexable": true
+}

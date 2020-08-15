@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "There are (relatively) easy ways to visualize low-dimensional\ndifferential forms [@mwt]:\n\nA 1-form is locally like a stack of papers; given a vector, it returns a\nnumber: how many sheets the arrow pierces.\n\nA 2-form takes a pair of arrows and returns the \u201carea\u201d of the\nparallelogram they define.\n\nA 3-form takes a triple of arrows and returns the \u201cvolume\u201d of the\nparallelliped they span. This explains why in three dimensions there\u2019s\nonly a one-dimensional space of 3-forms, and why a global one-form tells\nyou about orientation.\n\n[99]{} Misner, Thorne, and Wheeler, \u201cGravitation\u201d, Freeman, 1973.\n\n**Editorial note:** Descriptions of these with pictures would be nice\n(especially for helping to visualize de Rham cohomology). Maybe they\nwould be better off in an attached entry, though.",
+  "language": "INFORMAL",
+  "phrase": "Visualizations Of Exterior Forms",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VisualizationsOfExteriorForms"
+    }
+  ],
+  "indexable": true
+}

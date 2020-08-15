@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ a non-empty closed of a normed vector space. A set\n$A\\subseteq K$ is called an *extreme subset* of $K$ if $A$ is closed,\nconvex and satisfies the condition $\\colon$ for any $x,y \\in K$ and\n$tx+(1-t)y \\in A,\nt\\in (0,1)$ then $x, y \\in A$.\n\nFor example let $K=[0,1]\\times[0,1]$ then $K$, sides of $K$, included\nthe endpoints, and $\\{(1,1),(0,1),(1,0),(0,0)\\}$ are extreme subsets of\n$K$.",
+  "language": "INFORMAL",
+  "phrase": "Extreme Subset Of Convex Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtremeSubsetOfConvexSet"
+    }
+  ],
+  "indexable": true
+}

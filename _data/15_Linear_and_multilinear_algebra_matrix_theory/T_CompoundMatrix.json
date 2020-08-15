@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose that $A$ is an $m \\times n$ matrix with entries from a field $F$\nand $1 \\leq r \\leq \\min(m,n)$. The $r^{th}$ *compound matrix* or\n$r^{th}$ ** of $A$ is the $\\binom{m}{r} \\times \\binom{n}{r}$ matrix\nwhose entries are $\\det A[\\alpha,\\beta])$, $\\alpha \\in Q_{r,m}$ and\n$\\beta \\in Q_{r,n}$, arranged in lexicographic order and we use\nsubmatrix notation. The notation for this matrix is $C_r(A)$.\n\nProperties\n\n1.  $C_r(AB) = C_r(A)C_r(B)$ when $r$ is less than or equal to the\n    number of rows or columns of $A$ and $B$\n\n2.  If $A$ is nonsingular, the $C_r(A)^{-1} = C_r(A^{-1})$.\n\n3.  If $A$ has complex entries, then $C_r(A^*) = (C_r(A))^*$.\n\n4.  $C_r(A^T) = (C_r(A))^T$\n\n5.  $C_r(\\overline{A}) = \\overline{C_r(A)}$\n\n6.  For any $k \\in F$ $C_r(kA) = k^r C_r(A)$\n\n7.  $C_r(I_n ) = I_{\\binom{n}{r}}$\n\n8.  $\\det (C_r(A)) = \\det (A)^{\\binom{n-1}{r-1}}$ (Sylvester \u2014 Franke\n    theorem)",
+  "language": "INFORMAL",
+  "phrase": "Compound Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompoundMatrix"
+    }
+  ],
+  "indexable": true
+}

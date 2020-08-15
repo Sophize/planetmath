@@ -1,0 +1,17 @@
+{
+  "argumentText": "Proof of this is simple, given the cosine law:\n$$c^2 = a^2 + b^2 - 2ab\\cos\\phi$$ where $a$, $b$, and $c$ are the\nlengths of the sides of the triangle, and angle $\\phi$ is the corner\nangle opposite the side of length $c$.\n\nLet us define the largest interior angles as angle $\\theta$. Applying\nthis to the parallelogram, we find that $$\\begin{aligned}\nd_1^2 &=& u^2 + v^2 - 2uv\\cos\\theta\\\\\nd_2^2 &=& u^2+v^2 - 2uv\\cos\\left(\\pi-\\theta\\right)\\end{aligned}$$\n\nKnowing that $$\\cos\\left(\\pi-\\theta\\right) = - \\cos\\theta$$ we can add\nthe two expressions together, and find ourselves with $$\\begin{aligned}\nd_1^2+d_2^2 &=& 2u^2 + 2v^2 - 2uv\\cos\\theta + 2uv\\cos\\theta\\\\\nd_1^2+d_2^2 &=& 2u^2 + 2v^2\\end{aligned}$$ which is the theorem we set\nout to prove.",
+  "conclusion": "#P_ParallelogramLaw",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternateProofOfParallelogramLaw"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "alternate proof of parallelogram law"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a finite dimensional Lie group $G$, it has an associated Lie\nalgebra ${\\mathfrak{g}}={\\mathrm{Lie}}(G)$. The Lie algebra encodes a\ngreat deal of information about the Lie group. I\u2019ve collected a few\nresults on this topic:\n\n(Existence) Let ${\\mathfrak{g}}$ be a finite dimensional Lie algebra\nover ${\\mathbb{R}}$ or ${\\mathbb{C}}$. Then there exists a finite\ndimensional real or complex Lie group $G$ with\n${\\mathrm{Lie}}(G)={\\mathfrak{g}}$.\n\n(Uniqueness) There is a unique connected simply-connected Lie group $G$\nwith any given finite-dimensional Lie algebra. Every connected Lie group\nwith this Lie algebra is a quotient $G/\\Gamma$ by a discrete central\nsubgroup $\\Gamma$.\n\nEven more important, is the fact that the correspondence\n$G\\mapsto{\\mathfrak{g}}$ is functorial: given a homomorphism\n${\\varphi}:G\\to H$ of Lie groups, there is natural homomorphism defined\non Lie algebras ${\\varphi}_*:{\\mathfrak{g}}\\to{\\mathfrak{h}}$, which\njust the derivative of the map ${\\varphi}$ at the identity (since the\nLie algebra is canonically identified with the tangent space at the\nidentity).\n\nThere are analogous existence and uniqueness theorems for maps:\n\n(Existence) Let $\\psi:{\\mathfrak{g}}\\to{\\mathfrak{h}}$ be a homomorphism\nof Lie algebras. Then if $G$ is the unique connected, simply-connected\ngroup with Lie algebra ${\\mathfrak{g}}$, and $H$ is any Lie group with\nLie algebra ${\\mathfrak{h}}$, there exists a homomorphism of Lie groups\n${\\varphi}:G\\to H$ with ${\\varphi}_*=\\psi$.\n\n(Uniqueness) Let $G$ be connected Lie group and $H$ an arbitrary Lie\ngroup. Then if two maps ${\\varphi},{\\varphi}':G\\to H$ induce the same\nmaps on Lie algebras, then they are equal.\n\nEssentially, what these theorems tell us is the correspondence\n${\\mathfrak{g}}\\mapsto G$ from Lie algebras to simply-connected Lie\ngroups is functorial, and right to the functor\n$H\\mapsto{\\mathrm{Lie}}(H)$ from Lie groups to Lie algebras.",
+  "language": "INFORMAL",
+  "phrase": "The Connection Between Lie Groups And Lie Algebras",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheConnectionBetweenLieGroupsAndLieAlgebras"
+    }
+  ],
+  "indexable": true
+}

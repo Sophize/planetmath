@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $G$ be a compact topological group. If $(\\pi, V)$\nis a of $G$ in a normed vector space $V$, then $\\pi$ is to a unitary\nrepresentation.\n\n$\\,$\n\n[***Proof:***]{} Let $\\langle \\cdot, \\cdot \\rangle$ denote an inner\nproduct in $V$. Define a new inner product in the vector space $V$ by\n$$\\begin{aligned}\n\\langle v, w \\rangle_1 := \\int_G \\big\\langle \\pi(s)v, \\pi(s)w \\big\\rangle \\;d\\mu(s)\\end{aligned}$$\nwhere $\\mu$ is a Haar measure in $G$. It is easy to see that\n$\\langle \\cdot, \\cdot \\rangle_1$ defines indeed an inner product, noting\nthat $\\langle \\pi(\\cdot)v, \\pi(\\cdot)w \\rangle$ is a continuous function\nin $G$.\n\nNow we claim that, for every $s \\in G$, $\\pi(s)$ is a unitary operator\nfor this new inner product. This is true since $$\\begin{aligned}\n\\big\\langle \\pi(t)v, \\pi(t)w \\big\\rangle_1 & = & \\int_G \\big\\langle \\pi(s)\\pi(t)v, \\pi(s)\\pi(t)w \\big\\rangle \\;d\\mu(s)\\\\\n& = & \\int_G \\langle \\pi(st)v, \\pi(st)w \\rangle \\;d\\mu(s)\\\\\n& = & \\int_G \\langle \\pi(s)v, \\pi(s)w \\rangle \\;d\\mu(s)\\\\\n& = & \\langle v, w \\rangle_1\\end{aligned}$$\n\nDenote by $V'$ the space $V$ endowed the inner product\n$\\langle \\cdot, \\cdot \\rangle_1$. As we have seen, $(\\pi, V')$ is a\nunitary representation of $G$ in $V'$. Of course, $(\\pi, V')$ and\n$(\\pi, V)$ are equivalent representations, since $$\\begin{aligned}\n\\pi=\\mathrm{id}^{-1}\\,\\pi\\,\\mathrm{id}\\end{aligned}$$ where\n$\\mathrm{id}:V \\longrightarrow V'$ is the identity mapping. Thus,\n$(\\pi, V)$ is equivalent to a unitary representation. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RepresentationsOfCompactGroupsAreEquivalentToUnitaryRepresentations"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "representations of compact groups are equivalent to unitary representations"
+  ]
+}

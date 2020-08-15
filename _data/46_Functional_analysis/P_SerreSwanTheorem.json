@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a compact Hausdorff space. Let ${\\mathord{\\mathbf{Vec}}}(X)$\nbe the category of complex vector bundles over $X$. And, let\n${\\mathord{\\mathbf{ProjMod}}}(C(X))$ be the category of finitely\ngenerated projective modules over the $C^*$-algebra $C(X)$. There is a\nfunctor\n$\\Gamma\\colon {\\mathord{\\mathbf{Vec}}}(X) \\to {\\mathord{\\mathbf{ProjMod}}}(C(X))$\nwhich sends each complex vector bundle $E \\to X$ to the $C(X)$-module\n$\\Gamma(X,E)$ of continuous sections.\n\nThe functor $\\Gamma$ is an equivalence of categories.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SerreSwanTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Serre-Swan theorem"
+  ]
+}

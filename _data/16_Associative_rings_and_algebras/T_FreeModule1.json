@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring. A [*free module*]{} over $R$ is a direct sum of\ncopies of $R$.\n\nSimilarly, as an abelian group is simply a module over $\\Bbb{Z}$, a\n[*free abelian group*]{} is a direct sum of copies of $\\Bbb{Z}$.\n\nThis is equivalent to saying that the module has a [*free basis*]{},\ni.e. a set of elements with the property that every element of the\nmodule can be uniquely expressed as an linear combination over $R$ of\nelements of the free basis.\n\nEvery free module is also a projective module, as well as a flat module.",
+  "language": "INFORMAL",
+  "phrase": "Free Module",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FreeModule1"
+    }
+  ],
+  "indexable": true
+}

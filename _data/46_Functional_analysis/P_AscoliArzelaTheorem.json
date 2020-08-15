@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\Omega$ be a bounded subset of ${\\mathbb R}^n$ and $(f_k)$ a\nsequence of functions $f_k\\colon \\Omega\\to {\\mathbb R}^m$. If $\\{f_k\\}$\nis equibounded and uniformly equicontinuous then there exists a\nuniformly convergent subsequence $(f_{k_j})$. A more abstract (and more\ngeneral) version is the following.\n\nLet $X$ and $Y$ be totally bounded metric spaces and let\n$F\\subset \\mathcal C(X,Y)$ be an uniformly equicontinuous family of\ncontinuous mappings from $X$ to $Y$. Then $F$ is totally bounded (with\nrespect to the uniform convergence metric induced by\n$\\mathcal C (X,Y)$). Notice that the first version is a consequence of\nthe second. Recall, in fact, that a subset of a complete metric space is\ntotally bounded if and only if its closure is compact (or sequentially\ncompact). Hence $\\Omega$ is totally bounded and all the functions $f_k$\nhave image in a totally bounded set. Being $F=\\{f_k\\}$ totally bounded\nmeans that $\\overline F$ is sequentially compact and hence $(f_k)$ has a\nconvergent subsequence.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AscoliArzelaTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Ascoli-Arzel\\`a theorem",
+    "Arzel\\`a-Ascoli theorem"
+  ]
+}

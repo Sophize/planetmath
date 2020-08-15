@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*locally trivial bundle*]{} is a continuous map $\\pi:E\\to B$ of\ntopological spaces such that the following conditions hold. First, each\npoint $x\\in B$ must have a neighborhood $U$ such that the inverse image\n$\\widetilde{U}=\\pi^{-1}(U)$ is homeomorphic to $U\\times\\pi^{-1}(x)$.\nSecond, for some homeomorphism $g:\\widetilde{U}\\to U\\times\\pi^{-1}(x)$,\nthe diagram $$\\xymatrix{\n\\widetilde{U}\\ar[r]^(0.3)g\\ar[d]_\\pi\n & U\\times\\pi^{-1}(x)\\ar[d]^{\\mathrm{id}\\times\\{x\\}}\\\\\nU\\ar[r]^{\\mathrm{id}}\n & U\n}$$ must be .\n\nLocally trivial bundles are useful because of their covering homotopy\nproperty and because each locally trivial bundle has an associated and\nSerre spectral sequence. Every fibre bundle is an example of a locally\ntrivial bundle.",
+  "language": "INFORMAL",
+  "phrase": "Locally Trivial Bundle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocallyTrivialBundle"
+    }
+  ],
+  "indexable": true
+}

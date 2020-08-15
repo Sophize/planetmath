@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "linear hyperbolic isomorphism"
+  ],
+  "definition": "Let $X$ be a Banach space and $T:X\\to X$ a continuous linear\nisomorphism. We say that $T$ is an *hyperbolic isomorphism* if its\nspectrum is disjoint with the unit circle, i.e.\n$\\sigma(T)\\cap \\{z\\in {\\mathbb{C}}:|z|=1\\}=\\emptyset$.\n\nIf this is the case, by the spectral theorem there is a splitting of $X$\ninto two invariant subspaces, $X=E^s\\oplus E^u$ (and therefore, a\ncorresponding splitting of $T$ into two operators $T^s:E^s\\to E^s$ and\n$T_u:E^u\\to E^u$, i.e. $T=T_s\\oplus\nT_u$), such that $\\sigma(T_s) = \\sigma(T)\\cap \\{z:|z|<1\\}$ and\n$\\sigma(T_u)=\\sigma(T)\\cap\\{z:|z|>1\\}$. Also, for any $\\lambda$ greater\nthan the spectral radius of both $T_s$ and $T_u^{-1}$ there exists an\nequivalent (box-type) norm $\\|\\cdot\\|_1$ such that\n$$\\|T_s\\|_1 < \\lambda \\textnormal{ and } \\|T_u^{-1}\\|_1 < \\lambda$$ and\n$$\\|x\\|_1 = \\max\\{\\|x_u\\|_1,\\|x_s\\|_1\\}.$$ In particular, $\\lambda$ can\nbe chosen smaller than $1$, so that $T_s$ and $T_u^{-1}$ are\ncontractions.",
+  "language": "INFORMAL",
+  "phrase": "Hyperbolic Isomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HyperbolicIsomorphism"
+    }
+  ],
+  "indexable": true
+}

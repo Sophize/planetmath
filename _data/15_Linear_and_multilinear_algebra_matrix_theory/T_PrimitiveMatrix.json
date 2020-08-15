@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A nonnegative square matrix $A=(a_{ij})$ is said to be a if there exists\n$k$ such that $A^k\\gg 0$, i.e., if there exists $k$ such that for all\n$i,j$, the $(i,j)$ entry of $A^k$ is positive.\n\nA sufficient condition for a matrix to be a primitive matrix is for the\nmatrix to be a nonnegative, irreducible matrix with a positive element\non the main diagonal.",
+  "language": "INFORMAL",
+  "phrase": "Primitive Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimitiveMatrix"
+    }
+  ],
+  "indexable": true
+}

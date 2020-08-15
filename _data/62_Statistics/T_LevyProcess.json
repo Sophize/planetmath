@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Levy process"
+  ],
+  "definition": "In probability theory, a L\u00e9vy process, named after the French\nmathematician Paul Pierre L\u00e9vy is any continuous-time stochastic process\nthat starts at 0, admits c\u00e0dl\u00e0g (right-continuous with left limits)\nmodification and has \u201cstationary independent increments\u201d. The most\nwell-known examples are the Wiener process and the Poisson process.\n\nA continuous-time stochastic process assigns a random variable $X_t$ to\neach point $t \\ge 0$ in time. In effect it is a random function of $t$.\nThe increments of such a process are the differences $X_s - X_t$ between\nits values at different times $t < s$. To call the increments of a\nprocess independent means that increments $X_s - X_t$ and $X_u - X_v$\nare independent random variables whenever the two time intervals do not\noverlap and, more generally, any finite number of increments assigned to\npairwise non-overlapping time intervals are mutually (not just pairwise)\nindependent. To call the increments stationary means that the\nprobability distribution of any increment $X_s - X_t$ depends only on\nthe length $s  - t$ of the time interval; increments with equally long\ntime intervals are identically distributed.\n\nIn the Wiener process, the probability distribution of $X_s - X_t$ is\nnormal with expected value 0 and variance $s - t$.\n\nIn the Poisson process, the probability distribution of $X_s - X_t$ is a\nPoisson distribution with expected value $\\lambda(s - t)$, where\n$\\lambda > 0$ is the intensity or rate of the process.\n\nThe probability distributions of the increments of any L\u00e9vy process are\ninfinitely divisible. There is a L\u00e9vy process for each infinitely\ndivisible probability distribution.\n\nIn any L\u00e9vy process with finite moments, the $n$th moment\n$\\mu_n(t) = E(X_t^n)$ is a polynomial function of $t$; these functions\nsatisfy a binomial identity:\n$$\\mu_n(t + s) = \\sum_{k = 0}^n {n \\choose k} \\mu_k(t) \\mu_{n - k}(s).$$\n\nIt is possible to characterise all L\u00e9vy processes by looking at their\ncharacteristic function.\n\n[*This entry was adapted from the Wikipedia article as of January 25,\n2007.*]{}",
+  "language": "INFORMAL",
+  "phrase": "L\\'Evy Process",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LevyProcess"
+    }
+  ],
+  "indexable": true
+}

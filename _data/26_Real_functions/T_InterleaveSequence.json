@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a set, and let $\\{x_i\\},\\ i=0,1,2,\\dots$ and\n$\\{y_i\\},\\ i=0,1,2,\\dots$ be two sequences in $S$. The [*interleave\nsequence*]{} is defined to be the sequence $x_0, y_0, x_1, y_1, \\dots$.\nFormally, it is the sequence $\\{z_i\\},\\ i=0,1,2,\\dots$ given by $$z_i :=\n\\begin{cases}\nx_k & \\text{\\ \\ if } i=2k \\text{ is even,}\\\\\ny_k & \\text{\\ \\ if } i=2k+1 \\text{ is odd.}\n\\end{cases}$$",
+  "language": "INFORMAL",
+  "phrase": "Interleave Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InterleaveSequence"
+    }
+  ],
+  "indexable": true
+}

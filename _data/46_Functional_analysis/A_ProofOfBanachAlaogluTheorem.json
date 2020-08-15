@@ -1,0 +1,17 @@
+{
+  "argumentText": "For any $x\\in X$, let $D_x=\\{z\\in\\mathbb{C}: |z|\\leq \\|x\\|\\}$ and\n$D=\\Pi_{x\\in X} D_x$. Since $D_x$ is a compact subset of $\\mathbb{C}$,\n$D$ is compact in product topology by Tychonoff theorem.\n\nWe prove the theorem by finding a homeomorphism that maps the closed\nunit ball $B_{X^*}$ of $X^*$ onto a closed subset of $D$. Define\n$\\Phi_x:B_{X^*}\\to D_x$ by $\\Phi_x(f)=f(x)$ and $\\Phi:B_{X^*}\\to D$ by\n$\\Phi=\\Pi_{x\\in X}\\Phi_x$, so that $\\Phi(f)=(f(x))_{x\\in X}$. Obviously,\n$\\Phi$ is one-to-one, and a net $(f_\\alpha)$ in $B_{X^*}$ converges to\n$f$ in weak-\\* topology of $X^*$ iff $\\Phi(f_\\alpha)$ converges to\n$\\Phi(f)$ in product topology, therefore $\\Phi$ is continuous and so is\nits inverse $\\Phi^{-1}:\\Phi(B_{X^*})\\to B_{X^*}$.\n\nIt remains to show that $\\Phi(B_{X^*})$ is closed. If $(\\Phi(f_\\alpha))$\nis a net in $\\Phi(B_{X^*})$, converging to a point\n$d=(d_x)_{x\\in X}\\in D$, we can define a function $f:X\\to \\mathbb{C}$ by\n$f(x)=d_x$. As $\\lim_\\alpha \\Phi(f_\\alpha(x))=d_x$ for all $x\\in X$ by\ndefinition of weak-\\* convergence, one can easily see that $f$ is a\nlinear functional in $B_{X^*}$ and that $\\Phi(f)=d$. This shows that $d$\nis actually in $\\Phi(B_{X^*})$ and finishes the proof.",
+  "conclusion": "#P_BanachAlaogluTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBanachAlaogluTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof  of Banach-Alaoglu theorem"
+  ]
+}

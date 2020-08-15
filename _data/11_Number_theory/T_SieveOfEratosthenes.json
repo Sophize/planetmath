@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *sieve of Eratosthenes* is a simple algorithm for generating a list\nof the prime numbers between $1$ and some integer $N\\geq 2$.\n\nLet $p=2$, which is of course known to be prime. Mark all positive\nmultiples of $p$ (e.g. $2, 4, 6, 8 \\dots$), up until $N$, as composite.\nNow let $p$ be the smallest number not marked as composite (in this\ncase, $3$); it must be the next prime. Again, mark all positive\nmultiples of $p$ as composite. Continue this process while\n$p \\leq \\sqrt{N}$. When done, all numbers less than $N$ that have not\nbeen marked as composite are prime.\n\nFor many years, the sieve of Eratosthenes was the fastest known\nalgorithm for listing primes. Today, there are faster methods, such as a\nquadratic sieve.",
+  "language": "INFORMAL",
+  "phrase": "Sieve Of Eratosthenes",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SieveOfEratosthenes"
+    }
+  ],
+  "indexable": true
+}

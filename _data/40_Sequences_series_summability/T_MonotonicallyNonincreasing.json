@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "monotone nonincreasing",
+    "nonincreasing"
+  ],
+  "definition": "A sequence $(s_n)$ is *monotonically nonincreasing* if\n\n$$s_m \\le s_n \\text{ for all } m > n$$\n\nSimilarly, a real function $f(x)$ is monotonically nonincreasing if\n\n$$f(x) \\le f(y) \\text{ for all } x > y$$\n\nCompare this to monotonically decreasing.\n\n**Conflict note.** In some contexts, such as [@NIST], this is called\n*monotonically decreasing* (in turn, our \u201cmonotonically decreasing\u201d is\ncalled \u201cstrictly decreasing\u201d). This is unfortunately counter-intuitive,\nsince a sequence or function that is \u201cflat\u201d (such as $f(x) = 1$) is\nsomehow \u201cdecreasing.\u201d Beware!\n\nExamples\n========\n\n-   $(s_n) = 1, 0, -1, -2, \\ldots$ is monotonically nonincreasing. It is\n    also monotonically decreasing.\n\n-   $(s_n) = 1, 1, 1, 1, \\ldots$ is nonincreasing but [**not**]{}\n    monotonically decreasing.\n\n-   $(s_n) = (\\frac{1}{n+1})$ is nonincreasing (note that $n$ is\n    nonnegative).\n\n-   $(s_n) = 1, 1, 2, 1, 1, \\ldots$ is [**not**]{} nonincreasing. It\n    also happens to fail to be monotonically nondecreasing.\n\n-   $(s_n) = 1, 2, 3, 4, 5, \\ldots$ is [**not**]{} nonincreasing, rather\n    it is nondecreasing (and monotonically increasing).\n\n[3]{} \u201c,\u201d from the NIST Dictionary of Algorithms and Data Structures,\nPaul E. Black, ed.",
+  "language": "INFORMAL",
+  "phrase": "Monotonically Nonincreasing",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MonotonicallyNonincreasing"
+    }
+  ],
+  "indexable": true
+}

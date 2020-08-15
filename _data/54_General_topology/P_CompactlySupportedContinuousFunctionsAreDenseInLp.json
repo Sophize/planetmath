@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(X, \\mathcal{B}, \\mu)$ be a measure space, where $X$ is a locally\ncompact Hausdorff space, $\\mathcal{B}$ a that contains all compact\nsubsets of $X$ and $\\mu$ a measure such that:\n\n-   $\\mu(K) < \\infty$ for all compact sets $K \\subset X$.\n\n-   $\\mu$ is inner regular, meaning\n    $\\mu(A) = \\sup\\{ \\mu(K) : K \\subset A, \\; K\\,\\text{is compact}\\}$\n\n-   $\\mu$ is outer regular, meaning\n    $\\mu(A) = \\inf\\{ \\mu(U) : A \\subset U,\\; U \\in \\mathcal{B} \\text{and}\\; U\\,\\text{is open}\\}$\n\nWe denote by $C_c(X)$ the space of continuous functions\n$X \\to \\mathbb{C}$ with compact support.\n\n[**Theroem -**]{} For every $1 \\leq p < \\infty$, $C_c(X)$ is dense in .\n\n[****:**]{} It is clear that $C_c(X)$ is indeed contained in $L^p(X)$,\nwhere we identify each function in $C_c(X)$ with its class in $L^p(X)$.\n\nWe begin by proving that for each $A \\in \\mathcal{B}$ with finite\nmeasure, the characteristic function $\\chi_A$ can be approximated, in\nthe $L^p$ norm, by functions in $C_c(X)$. Let $\\epsilon > 0$. By of\n$\\mu$, we know there exist an open set $U$ and a compact set $K$ such\nthat $K \\subset A \\subset U$ and $$\\begin{aligned}\n\\mu(U \\setminus K) = \\mu(U) - \\mu(K) < \\epsilon\\end{aligned}$$\n\nBy the , we know there is a function $f \\in C_c(X)$ such that\n$0 \\leq f \\leq 1$, $f|_K = 1$ and $\\mathrm{supp}\\,f \\subset U$. Hence,\n\n$$\\begin{aligned}\n\\int_X |\\chi_A - f|^p \\;d\\mu = \\int_{U \\setminus K} |\\chi_A - f|^p \\;d\\mu < \\epsilon\\end{aligned}$$\n\nThus, $\\chi_A$ can be approximated in $L^p$ by functions in $C_c(X)$.\n\nNow, it follows easily that any simple function\n$\\sum_{i=1}^n c_i \\chi_{A_i}$, where each $A_i$ has finite measure, can\nalso be approximated by a compactly supported continuous function. Since\nthis kind of simple functions are dense in $L^p(X)$ we see that $C_c(X)$\nis also dense in $L^p(X)$. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompactlySupportedContinuousFunctionsAreDenseInLp"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "compactly supported continuous functions are dense in $L^p$",
+    "$C_c(X)$ is dense in $L^p(X)$"
+  ]
+}

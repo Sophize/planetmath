@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X_1,\\ldots,X_n$ be random variables with realizations in\n$\\mathbb{R}$. Given an outcome $\\omega$, order $x_i=X_i(\\omega)$ in\nnon-decreasing order so that\n$$x_{(1)}\\leq x_{(2)}\\leq\\cdots\\leq x_{(n)}.$$ Note that\n$x_{(1)}=\\operatorname{min}(x_1,\\ldots,x_n)$ and\n$x_{(n)}=\\operatorname{max}(x_1,\\ldots,x_n)$. Then each $X_{(i)}$, such\nthat $X_{(i)}(\\omega)=x_{(i)}$, is a random variable. Statistics defined\nby $X_{(1)},\\ldots,X_{(n)}$ are called *order statistics* of\n$X_1,\\ldots,X_n$. If all the orderings are strict, then\n$X_{(1)},\\ldots,X_{(n)}$ are *the* order statistics of $X_1,\\ldots,X_n$.\nFurthermore, each $X_{(i)}$ is called the $i$th order statistic of\n$X_1,\\ldots,X_n$.\n\n**Remark.** If $X_1,\\ldots,X_n$ are iid as $X$ with probability density\nfunction $f_X$ (assuming $X$ is a continuous random variable), Let\n$\\textbf{Z}$ be the vector of the order statistics\n$(X_{(1)},\\ldots,X_{(n)})$ (with strict orderings), then one can show\nthat the joint probability density function $f_{\\textbf{Z}}$ of the\norder statistics is:\n$$f_{\\textbf{Z}}(\\boldsymbol{z})=n!\\prod_{i=1}^{n}f_X(z_i),$$ where\n$\\boldsymbol{z}=(z_1,\\ldots,z_n)$ and $z_1<\\cdots<z_n$.",
+  "language": "INFORMAL",
+  "phrase": "Order Statistics",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderStatistics"
+    }
+  ],
+  "indexable": true
+}

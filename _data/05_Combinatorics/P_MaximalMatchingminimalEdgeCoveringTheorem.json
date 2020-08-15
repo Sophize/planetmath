@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "#### Theorem\n\nLet $G$ be a graph. If $M$ is a matching on $G$, and $C$ is an edge\ncovering for $G$, then $|M| \\leq |C|$.\n\n#### Proof\n\nConsider an arbitrary matching $M$ on $G$ and an arbitrary edge covering\n$C$ on $G$. We will attempt to construct a one-to-one function\n$f: M \\rightarrow C$.\n\nConsider some edge $e \\in M$. At least one of the vertices that $e$\njoins must be in $C$, because $C$ is an edge covering and hence every\nedge is incident with some vertex in $C$. Call this vertex $v_e$, and\nlet $f(e) = v_e$.\n\nNow we will show that $f$ one-to-one. Suppose we have two edges\n$e_1, e_2 \\in M$ where $f(e_1) = f(e_2) = v$. By the definition of $f$,\n$e_1$ and $e_2$ must both be incident with $v$. Since $M$ is a matching,\nhowever, no more than one edge in $M$ can be incident with any given\nvertex in $G$. Therefore $e_1 = e_2$, so $f$ is one-to-one.\n\nHence we now have that $|M| \\leq |C|$.\n\n#### Corollary\n\nLet $G$ be a graph. Let $M$ and $C$ be a matching and an edge covering\non $G$, respectively. If $|M| = |C|$, then $M$ is a maximal matching and\n$C$ is a minimal edge covering.\n\n#### Proof\n\nSuppose $M$ is not a maximal matching. Then, by definition, there exists\nanother matching $M'$ where $|M| < |M'|$. But then $|M'| > |C|$, which\nviolates the above theorem.\n\nLikewise, suppose $C$ is not a minimal edge covering. Then, by\ndefinition, there exists another covering $C'$ where $|C'| < |C|$. But\nthen $|C'| < |M|$, which violates the above theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MaximalMatchingminimalEdgeCoveringTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "maximal matching/minimal edge covering theorem"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $L/K$ be a finite field extension. Then $L/K$ is an algebraic\nextension.\n\nIn order to prove that $L/K$ is an algebraic extension, we need to show\nthat any element $\\alpha\\in L$ is algebraic, i.e., there exists a\nnon-zero polynomial $p(x)\\in K[x]$ such that $p(\\alpha)=0$.\n\nRecall that $L/K$ is a finite extension of fields, by definition, it\nmeans that $L$ is a finite dimensional vector space over $K$. Let the\ndimension be $$[L\\colon K]=n$$ for some $n\\in {\\mathbb{N}}$.\n\nConsider the following set of \u201cvectors\u201d in $L$:\n$$\\mathcal{S}=\\{ 1, \\alpha, \\alpha^2,\\alpha^3,\\ldots,\\alpha^n\\}$$ Note\nthat the cardinality of $S$ is $n+1$, one more than the dimension of the\nvector space. Therefore, the elements of $S$ must be linearly dependent\nover $K$, otherwise the dimension of $S$ would be greater than $n$.\nHence, there exist $k_i\\in K,\\ 0\\leq i\n\\leq n$, not all zero, such that\n$$k_0+k_1\\alpha+k_2\\alpha^2+k_3\\alpha^3+\\ldots+k_n\\alpha^n=0$$ Thus, if\nwe define $$p(X)=k_0+k_1X+k_2X^2+k_3X^3+\\ldots+k_nX^n$$ then\n$p(X)\\in K[X]$ and $p(\\alpha)=0$, as desired.\n\n[**NOTE:** ]{} The converse is not true. See the entry \u201calgebraic\nextension\u201d for details.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AFiniteExtensionOfFieldsIsAnAlgebraicExtension"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a finite extension of fields is an algebraic extension"
+  ]
+}

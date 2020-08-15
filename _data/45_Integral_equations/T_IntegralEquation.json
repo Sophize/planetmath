@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An [*integral equation*]{} involves an unknown function under the . Most\ncommon of them is a [*linear integral equation*]{} $$\\begin{aligned}\n\\alpha(t)\\,y(t)+\\!\\int_a^bk(t,\\,x)\\,y(x)\\,dx = f(t),\\end{aligned}$$\nwhere $\\alpha,\\,k,\\,f$ are given functions. The function\n$t \\mapsto y(t)$ is to be solved.\n\nAny linear integral equation is to a linear differential equation; e.g.\nthe equation\n$\\displaystyle y(t)\\!+\\!\\int_0^t(2t-2x-3)\\,y(x)\\,dx = 1+t-4\\sin{t}$ to\nthe equation $y''(t)-3y'(t)+2y(t) = 4\\sin{t}$ with the initial\nconditions $y(0) = 1$ and $y'(0) = 0$.\\\nThe equation (1) is of\n\n-   [*1st kind*]{} if $\\alpha(t) \\equiv 0$,\n\n-   [*2nd kind*]{} if $\\alpha(t)$ is a nonzero constant,\n\n-   [*3rd kind*]{} else.\n\nIf both of integration in (1) are constant, (1) is a [*Fredholm\nequation*]{}, if one limit is variable, one has a [*Volterra\nequation*]{}. In the case that $f(t) \\equiv 0$, the linear integral\nequation is .\\\n**Example.** Solve the Volterra equation\n$\\displaystyle y(t)\\!+\\!\\int_0^t(t\\!-\\!x)\\,y(x)\\,dx = 1$ by using\nLaplace transform.\n\nUsing the , the equation may be written $y(t)+t*y(t) = 1$. Applying to\nthis the Laplace transform, one obtains\n$\\displaystyle Y(s)+\\frac{1}{s^2}Y(s) = \\frac{1}{s}$, whence\n$\\displaystyle Y(s) = \\frac{s}{s^2+1}$. This corresponds the function\n$y(t) = \\cos{t}$, which is the solution.\\\nin EqWorld.",
+  "language": "INFORMAL",
+  "phrase": "Integral Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralEquation"
+    }
+  ],
+  "indexable": true
+}

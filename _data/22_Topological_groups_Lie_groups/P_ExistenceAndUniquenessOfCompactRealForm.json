@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a semisimple complex Lie group. Then there exists a unique\n(up to isomorphism) real Lie group $K$ such that $K$ is compact and a\nreal form of $G$. Conversely, if $K$ is compact, semisimple and real, it\nis the real form of a unique semisimple complex Lie group $G$. The group\n$K$ can be realized as the set of fixed points of a special involution\nof $G$, called the [*Cartan involution*]{}.\n\nFor example, the compact real form of ${\\mathrm{SL}_{n} {\\mathbb{C}}}$,\nthe complex special linear group, is ${\\mathrm{SU}( n)}$, the special\nunitary group. Note that ${\\mathrm{SL}_{n} {\\mathbb{R}}}$ is also a real\nform of ${\\mathrm{SL}_{n} {\\mathbb{C}}}$, but is [*not*]{} compact.\n\nThe compact real form of ${\\mathrm{SO}_{n} {\\mathbb{C}}}$, the complex\nspecial orthogonal group, is ${\\mathrm{SO}_{n} {\\mathbb{R}}}$, the real\northogonal group. ${\\mathrm{SO}_{n} {\\mathbb{C}}}$ also has other,\nnon-compact real forms, called the pseudo-orthogonal groups.\n\nThe compact real form of ${\\mathrm{Sp}_{2n} {\\mathbb{C}}}$, the complex\nsymplectic group, is less well-known. It is (unfortunately) also usually\ndenoted $\\mathrm{Sp}(2n)$, and consists of $n\\times n$ \u201cunitary\u201d\nquaternion matrices, that is,\n$$\\mathrm{Sp}(2n)=\\{M\\in{\\mathrm{GL}_{n} \\mathbb{H}}|MM^*=I\\}$$ where\n$M^*$ denotes $M$ conjugate transpose. This different from the real\nsymplectic group ${\\mathrm{Sp}_{2n} {\\mathbb{R}}}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExistenceAndUniquenessOfCompactRealForm"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "existence and uniqueness of compact real form"
+  ]
+}

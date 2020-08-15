@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\lbrace A_i\\mid i\\in I\\rbrace$ be a family of algebraic systems\nindexed by a set $I$. Let $J$ be a Boolean ideal in $P(I)$, the Boolean\nalgebra over the power set of $I$. A subset $B$ of the direct product\n$\\prod \\lbrace A_i\\mid i\\in I\\rbrace$ is called a *restricted direct\nproduct* of $A_i$ if\n\n1.  $B$ is a subalgebra of $\\prod \\lbrace A_i\\mid i\\in I\\rbrace$, and\n\n2.  given any $(a_i)\\in B$, we have that $(b_i)\\in B$ iff\n    $\\lbrace i\\in I\\mid a_i\\ne b_i\\rbrace \\in J$.\n\nIf it is necessary to distinguish the different restricted direct\nproducts of $A_i$, we often specify the \u201crestriction\u201d, hence we say that\n$B$ is a $J$-restricted direct product of $A_i$, or that $B$ is\nrestricted to $J$.\n\nHere are some special restricted direct products:\n\n-   If $J=P(I)$ above, then $B$ is the direct product $\\prod A_i$, for\n    if $(b_i)\\in \\prod A_i$, then clearly\n    $\\lbrace i\\in I\\mid a_i\\ne b_i\\rbrace\\in P(I)$, where $(a_i)\\in B$\n    ($B$ is non-empty since it is a subalgebra). Therefore $(b_i)\\in B$.\n\n    This justifies calling the direct product the \u201cunrestricted direct\n    product\u201d by some people.\n\n-   If $J$ is the ideal consisting of all finite subsets of $I$, then\n    $B$ is called the *weak direct product* of $A_i$.\n\n-   If $J$ is the singleton $\\lbrace \\varnothing\\rbrace$, then $B$ is\n    also a singleton: pick $a,b\\in B$, then\n    $\\lbrace i\\mid a_i\\ne b_i\\rbrace = \\varnothing$, which is equivalent\n    to saying that $(a_i)=(b_i)$.\n\n**Remark**. While the direct product of $A_i$ always exists, restricted\ndirect products may not. For example, in the last case above, A\n$\\varnothing$-restricted direct product exists only when there is an\nelement $a\\in \\prod A_i$ that is fixed by all operations on it: that is,\nif $f$ is an $n$-ary operation on $\\prod A_i$, then $f(a,\\ldots,a)=a$.\nIn this case, $\\lbrace a\\rbrace$ is a $\\varnothing$-restricted direct\nproduct of $\\prod A_i$.\n\n[6]{} G. Gr\u00e4tzer: [*Universal Algebra*]{}, 2nd Edition, Springer, New\nYork (1978).",
+  "language": "INFORMAL",
+  "phrase": "Restricted Direct Product Of Algebraic Systems",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RestrictedDirectProductOfAlgebraicSystems"
+    }
+  ],
+  "indexable": true
+}

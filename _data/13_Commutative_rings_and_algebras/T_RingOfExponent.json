@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Definition.** Let $\\nu$ be an exponent valuation of the field $K$. The\nsubring\n$$\\mathcal{O}_\\nu \\;:=\\; \\{\\alpha \\in K\\,\\vdots\\;\\; \\nu(\\alpha) \\geqq 0\\}$$\nof $K$ is called the $\\nu$. It is, naturally, an integral domain. Its\nelements are called $\\nu$.\\\n**Theorem 1.** The ring of the exponent $\\nu$ of the field $K$ is\nintegrally closed in $K$.\\\n**Theorem 2.** The ring $\\mathcal{O}_\\nu$ only one prime element $\\pi$,\nwhen one does not regard associated elements as different. Any non-zero\nelement $\\alpha$ can be represented uniquely with a $\\pi$ in the form\n$$\\alpha \\;=\\; \\varepsilon\\pi^m,$$ where $\\varepsilon$ is a unit of\n$\\mathcal{O}_\\nu$ and $m = \\nu(\\alpha) \\geqq 0$. This means that\n$\\mathcal{O}$ is a UFD.\\\n**Remark 1.** The prime elements $\\pi$ of the ring $\\mathcal{O}_\\nu$ are\ncharacterised by the equation $\\nu(\\pi) = 1$ and the units $\\varepsilon$\nthe equation $\\nu(\\varepsilon) = 0$.\n\n**Remark 2.** In an algebraically closed field $\\Omega$, there are no .\nIn fact, if there were an exponent $\\nu$ of $\\Omega$ and if $\\pi$ were a\nprime element of the ring of the exponent, then, since the equation\n$x^2\\!-\\!\\pi = 0$ would have a $\\varrho$ in $\\Omega$, we would obtain\n$2\\nu(\\varrho) = \\nu(\\varrho^2) =  \\nu(\\pi) = 1$; this is however\nimpossible, because an exponent attains only integer values.\\\n**Theorem 3.** Let $\\mathfrak{O}_1,\\,\\ldots,\\,\\mathfrak{O}_r$ be the\nrings of the different exponent valuations $\\nu_1,\\,\\ldots,\\,\\nu_r$ of\nthe field $K$. Then also the intersection\n$$\\mathfrak{O} \\;:=\\; \\bigcap_{i=1}^r\\mathfrak{O}_i$$ is a subring of\n$K$ with . To be precise, any non-zero element $\\alpha$ of\n$\\mathfrak{O}$ may be uniquely represented in the form\n$$\\alpha \\;=\\; \\varepsilon\\pi_1^{n_1}\\cdots\\pi_r^{n_r},$$ in which\n$\\varepsilon$ is a unit of $\\mathfrak{O}$, the integers\n$n_1,\\,\\ldots,\\,n_r$ are nonnegative and $\\pi_1,\\,\\ldots,\\,\\pi_r$ are\ncoprime prime elements of $\\mathfrak{O}$ satisfying\n$$\\nu_i(\\pi_j) \\;=\\; \\delta_{ij} \\;=\\;  \n\\begin{cases}\n& 1 \\;\\;\\mbox{for  }\\, i = j,\\\\\n& 0 \\;\\;\\mbox{for  }\\, i \\neq j.\n\\end{cases}$$",
+  "language": "INFORMAL",
+  "phrase": "Ring Of Exponent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RingOfExponent"
+    }
+  ],
+  "indexable": true
+}

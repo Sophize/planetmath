@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Laurent series expansion of a function $f(z)$ in an annulus\n$r < |z\\!-\\!z_0| < R$ is unique.\\\n*Proof.* Suppose that $f(z)$ has in the annulus two Laurent expansions:\n$$f(z) \\;=\\; \\sum_{n=-\\infty}^\\infty\\!a_n(z\\!-\\!z_0)^n \n       \\;=\\; \\sum_{n=-\\infty}^\\infty\\!b_n(z\\!-\\!z_0)^n$$ It follows that\n$$f(z)(z\\!-\\!z_0)^{-\\nu-1}\\;=\\; \\sum_{n=-\\infty}^\\infty\\!a_n(z\\!-\\!z_0)^{n-\\nu-1} \n                          \\;=\\; \\sum_{n=-\\infty}^\\infty\\!b_n(z\\!-\\!z_0)^{n-\\nu-1}$$\nwhere $\\nu$ is an integer. Let now $\\gamma$ be an arbitrary closed\ncontour in the annulus, going once around $z_0$. Since $\\gamma$ is a\ncompact set of points, those two Laurent series on it and therefore they\ncan be along $\\gamma$, i.e. $$\\begin{aligned}\n\\sum_{n=-\\infty}^\\infty\\!a_n\\oint_\\gamma(z\\!-\\!z_0)^{n-\\nu-1}\\,dz \\;=\\; \n\\sum_{n=-\\infty}^\\infty\\!b_n\\oint_\\gamma(z\\!-\\!z_0)^{n-\\nu-1}\\,dz.\\end{aligned}$$\nBut $$\\begin{aligned}\n \\oint_\\gamma(z\\!-\\!z_0)^{n-\\nu-1}\\,dz \\;=\\;\n   \\begin{cases}\n     2i\\pi \\quad \\mbox{if} \\;\\; n \\;=\\; \\nu, \\\\\n     0    \\qquad \\mbox{if} \\;\\; n \\;\\neq\\; \\nu, \\\\\n   \\end{cases}\\end{aligned}$$ when integrated anticlockwise (see\ncalculation of contour integral). Thus (1) reads\n$$2i\\pi a_\\nu \\;=\\; 2i\\pi b_\\nu,$$ i.e. $a_\\nu = b_\\nu$, for any integer\n$\\nu$, whence both expansions are identical.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniquenessOfLaurentExpansion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "uniqueness of Laurent expansion"
+  ]
+}

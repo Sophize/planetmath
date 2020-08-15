@@ -1,0 +1,17 @@
+{
+  "argumentText": "Suppose that $\\sum a_n$ is absolutely convergent, i.e., that\n$\\sum \\vert a_n \\vert$ is convergent. First of all, notice that\n$$0\\le a_n + \\vert a_n \\vert \\le 2 \\vert a_n\\vert,$$ and since the\nseries $\\sum (a_n+\\vert a_n\\vert)$ has non-negative terms it can be\ncompared with $\\sum 2\\vert a_n\\vert=2\\sum \\vert a_n\\vert$ and hence\nconverges.\n\nOn the other hand\n$$\\sum_{n=1}^N a_n = \\sum_{n=1}^N (a_n+\\vert a_n\\vert) - \\sum_{n=1}^N \\vert a_n\\vert.$$\nSince both the partial sums on the right hand side are convergent, the\npartial sum on the left hand side is also convergent. So, the series\n$\\sum a_n$ is convergent.",
+  "conclusion": "#P_AbsoluteConvergenceTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfAbsoluteConvergenceTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of absolute convergence theorem"
+  ]
+}

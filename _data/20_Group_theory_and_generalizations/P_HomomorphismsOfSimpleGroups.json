@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If a group $G$ is simple, and $H$ is an arbitrary group then any\nhomomorphism of $G$ to $H$ must either map all elements of $G$ to the\nidentity of $H$ or be one-to-one.\n\nThe kernel of a homomorphism must be a normal subgroup. Since $G$ is\nsimple, there are only two possibilities: either the kernel is all of\n$G$ of it consists of the identity. In the former case, the homomorphism\nwill map all elements of $G$ to the identity. In the latter case, we\nnote that a group homomorphism is injective iff the kernel is trivial.\n\nThis is important in the context of representation theory. In that case,\n$H$ is a linear group and this result may be restated as saying that\nrepresentations of a simple group are either trivial or faithful.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomomorphismsOfSimpleGroups"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "homomorphisms of simple groups"
+  ]
+}

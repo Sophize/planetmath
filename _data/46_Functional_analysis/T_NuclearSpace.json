@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $E$ is a Fr\u00c3\u00a9chet space and $(p_j)$ an increasing sequence of\nsemi-norms on $E$ defining the topology of $E$, we have\n$$E=\\underset{\\longleftarrow}{\\lim}\\,\\widehat E_{p_j},$$ where\n$\\widehat E_{p_j}$ is the Hausdorff completion of $(E,p_j)$ and\n$\\widehat E_{p_{j+1}}\\to\\widehat E_{p_j}$ the canonical morphism. Here\n$\\widehat E_{p_j}$ is a Banach space for the induced norm\n$\\widehat p_j$.\n\nA Fr\u00c3\u00a9chet space $E$ is said to be *nuclear* if the topology of $E$ can\nbe defined by an increasing sequence of semi-norms $p_j$ such that each\ncanonical morphism $\\widehat E_{p_{j+1}}\\to\\widehat E_{p_j}$ of Banach\nspaces is nuclear.\n\nRecall that a morphism $f\\colon E\\to F$ of complete locally convex\nspaces is said to be nuclear if $f$ can be written as\n$$f(x)=\\sum\\lambda_j\\xi_j(x)y_j$$ where $(\\lambda_j)$ is a sequence of\nscalars with $\\sum|\\lambda_j|<+\\infty$,$\\xi_j\\in E'$ an equicontinuous\nsequence of linear forms and $y_j\\in F$ a bounded sequence.",
+  "language": "INFORMAL",
+  "phrase": "Nuclear Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NuclearSpace"
+    }
+  ],
+  "indexable": true
+}

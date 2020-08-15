@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "adjoint operator"
+  ],
+  "definition": "Let $\\mathscr{H}$ be a Hilbert space and let\n$A\\colon \\mathscr{D}(A)\\subset \\mathscr{H}\\to \\mathscr{H}$ be a densely\ndefined linear operator. Suppose that for some $y\\in\\mathscr{H}$, there\nexists $z\\in\\mathscr{H}$ such that $(Ax,y) = (x,z)$ for all\n$x\\in \\mathscr{D}(A)$. Then such $z$ is unique, for if $z'$ is another\nelement of $\\mathscr{H}$ satisfying that condition, we have\n$(x,z-z') =  0$ for all $x\\in \\mathscr{D}(A)$, which implies $z-z'=0$\nsince $\\mathscr{D}(A)$ is . Hence we may define a new operator\n$A^*:\\mathscr{D}(A^*)\\subset\\mathscr{H}\\to\\mathscr{H}$ by\n$$\\begin{aligned}\n\\mathscr{D}(A^*) =& \\{y\\in \\mathscr{H} : \\text{there is} z\\in \\mathscr{H} \\text{such that} (Ax,y) = (x,z)\\},\\\\\nA^*(y) =& z.\\end{aligned}$$ It is easy to see that $A^*$ is linear, and\nit is called the **adjoint** of $A$.\n\n**Remark.** The requirement for $A$ to be densely defined is essential,\nfor otherwise we cannot guarantee $A^*$ to be well defined.",
+  "language": "INFORMAL",
+  "phrase": "Adjoint",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Adjoint"
+    }
+  ],
+  "indexable": true
+}

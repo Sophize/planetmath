@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V$ a vector space over some field $K$ (usually $K={\\mathbbmss{Q}}$\nor $K={\\mathbbmss{C}}$). Let $G$ be a group which acts on $V$. This\nmeans that there is an operation $\\psi \\colon G\\times V \\to V$ such that\n\n1.  $gv \\in V$.\n\n2.  $g(hv) = (gh)v$\n\n3.  $ev = v$\n\nwhere $gv$ stands for $\\psi(g,v)$ and $e$ is the identity element of\n$G$.\n\nIf in addition, $$g(cv + dw) = c(gv)+d(gw)$$ for any $g\\in G$,\n$v,w \\in V$, $c,d\\in K$, we say that $V$ is a $G$-module. This is\nequivalent with the existence of a group representation from $G$ to\n$GL(V)$.",
+  "language": "INFORMAL",
+  "phrase": "$G$-Module",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Gmodule"
+    }
+  ],
+  "indexable": true
+}

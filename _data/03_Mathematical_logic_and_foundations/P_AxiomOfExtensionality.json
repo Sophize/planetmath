@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $X$ and $Y$ have the same elements, then $X = Y$.\n\nThe Axiom of Extensionality is one of the axioms of Zermelo-Fraenkel set\ntheory. In symbols, it reads:\n$$\\forall u(u \\in X \\leftrightarrow u \\in Y) \\rightarrow X = Y.$$ Note\nthat the converse,\n$$X = Y \\rightarrow \\forall u(u \\in X \\leftrightarrow u \\in Y)$$ is an\naxiom of the predicate calculus. Hence we have,\n$$X = Y \\leftrightarrow \\forall u(u \\in X \\leftrightarrow u \\in Y).$$\nTherefore the Axiom of Extensionality expresses the most fundamental\nnotion of a set: a set is determined by its elements.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AxiomOfExtensionality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "axiom of extensionality",
+    "extensionality"
+  ]
+}

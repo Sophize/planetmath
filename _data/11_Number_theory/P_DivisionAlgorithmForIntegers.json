@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given any two integers $a,b$ where $b > 0$, there exists a unique pair\nof integers $q,r$ such that $a = qb + r$ and $0 \\leq r < b$. $q$ is\ncalled the *quotient* of $a$ and $b$, and $r$ is the *remainder*.\n\nThe division algorithm is not an algorithm at all but rather a theorem.\nIts name probably derives from the fact that it was first proved by\nshowing that an algorithm to calculate the quotient of two integers\nyields this result.\n\nThere are similar forms of the division algorithm that apply to other\nrings (for example, polynomials).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DivisionAlgorithmForIntegers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "division algorithm for integers",
+    "division algorithm"
+  ]
+}

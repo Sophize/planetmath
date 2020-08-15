@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} [@singer; @kelley] Suppose $f\\colon X\\to Y$ is a\ncontinuous map between topological spaces $X$ and $Y$. If $X$ is compact\nand $f$ is surjective, then $Y$ is compact.\n\nThe inclusion map $[0,1]\\hookrightarrow[0,2)$ shows that the requirement\nfor $f$ to be surjective cannot be omitted. If $X$ is compact and $f$ is\ncontinuous we can always conclude, however, that $f(X)$ is compact,\nsince .\n\n*Proof of theorem.* (Following [@singer].) Suppose\n$\\{V_\\alpha \\mid \\alpha \\in I\\}$ is an arbitrary open cover for $f(X)$.\nSince $f$ is continuous, it follows that\n$$\\{f^{-1} (V_\\alpha) \\mid \\alpha \\in I\\}$$ is a collection of open sets\nin $X$. Since $A\\subseteq f^{-1} f (A)$ for any $A\\subseteq X$, and\nsince the inverse commutes with unions (see ), we have $$\\begin{aligned}\nX &\\subseteq & f^{-1} f(X) \\\\\n  &= & f^{-1} \\big( \\bigcup_{\\alpha \\in I} (V_\\alpha)\\big) \\\\\n  &=& \\bigcup_{\\alpha \\in I} f^{-1}(V_\\alpha).\\end{aligned}$$ Thus\n$\\{ f^{-1}(V_\\alpha) \\mid \\alpha \\in I\\}$ is an open cover for $X$.\nSince $X$ is compact, there exists a finite subset $J\\subseteq I$ such\nthat $\\{ f^{-1}(V_\\alpha) \\mid \\alpha \\in J\\}$ is a finite open cover\nfor $X$. Since $f$ is a surjection, we have $ff^{-1}(A)=A$ for any\n$A\\subseteq Y$ (see ). Thus $$\\begin{aligned}\nf(X) &= & f \\big(\\bigcup_{i\\in J} f^{-1}(V_\\alpha)\\big)\\\\\n     &= & ff^{-1} \\bigcup_{i\\in J} f^{-1}(V_\\alpha)\\\\\n     &=&  \\bigcup_{i\\in J} V_\\alpha.\\end{aligned}$$ Thus\n$\\{ V_\\alpha \\mid \\alpha \\in J\\}$ is an open cover for $f(X)$, and\n$f(X)$ is compact. $\\Box$\n\nA shorter proof can be given using the :\n\n*Shorter proof.* Suppose $\\{A_i\\mid i\\in I\\}$ is a collection of closed\nsubsets of $Y$ with the finite intersection property. Then\n$\\{f^{-1}(A_i)\\mid i\\in I\\}$ is a collection of closed subsets of $X$\nwith the finite intersection property, because if $F\\subseteq I$ is\nfinite then\n$$\\bigcap_{i\\in F} f^{-1}(A_i) = f^{-1}\\!\\left(\\,\\bigcap_{i\\in F} A_i\\!\\right),$$\nwhich is nonempty as $f$ is a surjection. As $X$ is compact, we have\n$$f^{-1}\\left(\\,\\bigcap_{i\\in I} A_i\\!\\right) = \\bigcap_{i\\in I} f^{-1}(A_i) \\neq \\emptyset$$\nand so $\\bigcap_{i\\in I} A_i\\neq \\emptyset$. Therefore $Y$ is compact.\n$\\Box$\n\n[9]{} I.M. Singer, J.A.Thorpe, *Lecture Notes on Elementary Topology and\nGeometry*, Springer-Verlag, 1967. J.L. Kelley, *General Topology*, D.\nvan Nostrand Company, Inc., 1955. G.J. Jameson, *Topology and Normed\nSpaces*, Chapman and Hall, 1974.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompactnessIsPreservedUnderAContinuousMap"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "compactness is preserved under a continuous map"
+  ]
+}

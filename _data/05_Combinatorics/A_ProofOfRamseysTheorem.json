@@ -1,0 +1,17 @@
+{
+  "argumentText": "$$\\omega\\rightarrow(\\omega)^n_k$$ is proven by induction on $n$.\n\nIf $n=1$ then this just states that any partition of an infinite set\ninto a finite number of subsets must include an infinite set; that is,\nthe union of a finite number of finite sets is finite. This is simple\nenough to prove: since there are a finite number of sets, there is a\nlargest set of size $x$. Let the number of sets be $y$. Then the size of\nthe union is no more than $xy$.\n\nIf $$\\omega\\rightarrow(\\omega)^n_k$$\n\nthen we can show that\n\n$$\\omega\\rightarrow(\\omega)^{n+1}_k$$\n\nLet $f$ be some coloring of $[S]^{n+1}$ by $k$ where $S$ is an infinite\nsubset of $\\omega$. Observe that, given an $x<\\omega$, we can define\n$f^x\\colon[S\\setminus\\{x\\}]^{n}\\rightarrow k$ by\n$f^x(X)=f(\\{x\\}\\cup X)$. Since $S$ is infinite, by the induction\nhypothesis this will have an infinite homogeneous set.\n\nThen we define a sequence of integers $\\langle n_i\\rangle_{i\\in\\omega}$\nand a sequence of infinite subsets of $\\omega$,\n$\\langle S_i\\rangle_{i\\in\\omega}$ by induction. Let $n_0=0$ and let\n$S_0=\\omega$. Given $n_i$ and $S_i$ for $i\\leq j$ we can define $S_{j}$\nas an infinite homogeneous set for\n$f^{n_i}\\colon[S_{j-1}]^n\\rightarrow k$ and $n_j$ as the least element\nof $S_j$.\n\nObviously $N=\\bigcup \\{n_i\\}$ is infinite, and it is also homogeneous,\nsince each $n_i$ is contained in $S_j$ for each $j\\leq i$.",
+  "conclusion": "#P_RamseysTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfRamseysTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Ramsey's theorem"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f:X\\rightarrow Y$ be a continuous function with $X$ a connected\nspace and $Y$ a totally ordered set in the order topology. If\n$x_1,x_2\\in X$ and $y\\in Y$ lies between $f(x_1)$ and $f(x_2)$, then\nthere exists $x\\in X$ such that $f(x)=y$.\n\nThe sets $U=f(X)\\cap(-\\infty,y)$ and $V=f(X)\\cap(y,\\infty)$ are disjoint\nopen subsets of $f(X)$ in the subspace topology, and they are both\nnon-empty, as $f(x_1)$ is contained in one and $f(x_2)$ is contained in\nthe other. If $y\\notin f(X)$, then $U\\cup V$ constitutes a of the space\n$f(X)$, contradicting the hypothesis that $f(X)$ is the continuous image\nof the connected space $X$. Thus there must exist $x\\in X$ such that\n$f(x)=y$.\n\nThis version of the intermediate value theorem reduces to the familiar\none of when $X$ is taken to be a closed interval in $\\mathbb{R}$ and $Y$\nis taken to be $\\mathbb{R}$.\n\n[1]{} J. Munkres, *Topology*, 2nd ed. Prentice Hall, 1975.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedIntermediateValueTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "generalized intermediate value theorem"
+  ]
+}

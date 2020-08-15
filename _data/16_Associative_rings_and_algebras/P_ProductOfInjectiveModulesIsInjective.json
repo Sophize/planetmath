@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Proposition.** Let $R$ be a ring and $\\{Q_i\\}_{i\\in I}$ a family of\ninjective $R$-modules. Then the product $$Q=\\prod_{i\\in I}\\ Q_i$$ is\ninjective.\n\n*Proof.* Let $B$ be an arbitrary $R$-module, $A\\subseteq B$ a submodule\nand $f:A\\to Q$ a homomorphism. It is enough to show that $f$ can be\nextended to $B$. For $i\\in I$ denote by $\\pi_i:Q\\to Q_i$ the projection.\nSince $Q_i$ is injective for any $i$, then the homomorphism\n$\\pi_i \\circ f:A\\to Q_i$ can be extended to $f'_i:B\\to Q_i$. Then we\nhave $$f':B\\to Q;$$ $$f'(b)=\\big( f'_i (b)\\big)_{i\\in I}.$$ It is easy\nto check, that if $a\\in A$, then $f'(a)=f(a)$, so $f'$ is an extension\nof $f$. Thus $Q$ is injective. $\\square$\n\n**Remark.** Unfortunetly direct sum of injective modules need not be\ninjective. Indeed, there is a theorem which states that direct sums of\ninjective modules are injective if and only if ring $R$ is Noetherian.\nNote that the proof presented above cannot be used for direct sums,\nbecause $f'(b)$ need not be an element of the direct sum, more\nprecisely, it is possible that $f'_i(b)\\neq 0$ for infinetly many\n$i\\in I$. Nevertheless products are always injective.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProductOfInjectiveModulesIsInjective"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "product of injective modules is injective"
+  ]
+}

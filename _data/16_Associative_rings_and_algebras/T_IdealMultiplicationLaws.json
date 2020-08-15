@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "laws of ideal product"
+  ],
+  "definition": "The of the (two-sided) ideals of any ring $R$ has following properties:\n\n1.  $(0)\\mathfrak{a = a}(0) = (0)$\n\n2.  $\\mathfrak{(ab)c = a(bc)}$\n\n3.  $\\mathfrak{a(b+c) = ab+ac, \\quad (a+b)c = ac+bc}$\n\n4.  If $R$ has a unity, then\n    $R\\mathfrak{a} = \\mathfrak{a}R = \\mathfrak{a}$\n\n5.  If $R$ is commutative, then $\\mathfrak{ab = ba}$\n\n6.  $\\mathfrak{ab \\subseteq a\\cap b}$\n\n7.  $\\mathfrak{a(b\\cap c) \\subseteq ab\\cap ac}$\n\n8.  $\\mathfrak{a\\subseteq b\\quad\\Rightarrow\\quad ac\\subseteq bc}$\n\n**Remark.** The properties 1, 2, 3, 4 together with the properties\n$$\\mathfrak{(a+b)+c = a+(b+c),\\qquad a+b = b+a,\\qquad a}+(0) = \\mathfrak{a}$$\nof the ideal addition make the set $A$ of all ideals of $R$ to a\nsemiring $(A,\\,+,\\,\\cdot)$. It is not a ring, since no non-zero ideal of\n$R$ has the .\n\n[9]{} : [*Multiplicative theory of ideals*]{}. Academic Press, New York\n(1971).",
+  "language": "INFORMAL",
+  "phrase": "Ideal Multiplication Laws",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdealMultiplicationLaws"
+    }
+  ],
+  "indexable": true
+}

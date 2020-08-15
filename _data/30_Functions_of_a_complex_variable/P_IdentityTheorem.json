@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f$ be analytic on $\\Omega \\subseteq \\mathbb C$ and let $L$ be the\nset of accumulation points (also called limit points or cluster points)\nof $\\{z \\in \\Omega \\colon f(z)=0\\}$ in $\\Omega$. Then $L$ is both open\nand closed in $\\Omega$.\n\nBy definition of accumulation point, $L$ is closed. To see that it is\nalso open, let $z_0 \\in L$, choose an open ball $B(z_0, r)\n\\subseteq \\Omega$ and write $f(z)=\\sum_{n=0}^{\\infty} a_n(z-z_0)^n,\nz \\in B(z_0, r)$. Now $f(z_0) = 0$, and hence either $f$ has a zero of\norder $m$ at $z_0$ (for some $m$), or else $a_n = 0$ for all $n$. In the\nformer case, there is a function g analytic on $\\Omega$ such that\n$f(z)= (z-z_0)^m g(z), z \\in \\Omega$, with $g(z_0) \\neq 0$. By\ncontinuity of $g$, $g(z) \\neq 0$ for all $z$ sufficiently close to\n$z_0$, and consequently $z_0$ is an isolated point of$\\{z \\in \\Omega\n\\colon f(z)=0\\}$ . But then $z_0 \\notin L$, contradicting our\nassumption. Thus, it must be the case that $a_n = 0$ for all n, so that\n$f \\equiv 0$ on $B(z_0, r)$. Consequently, $B(z_0, r) \\in L$, proving\nthat $L$ is open in $\\Omega$.\n\nLet $\\Omega$ be a open connected subset of $\\mathbb C$ (i.e., a domain).\nIf $f$ and $g$ are analytic on $\\Omega$ and\n$\\{z \\in \\Omega \\colon f(z)=g(z)\\}$ has an accumulation point in\n$\\Omega$, then $f \\equiv g$ on $\\Omega$.\n\nWe have that $\\{z \\in \\Omega \\colon f(z)-g(z)=0\\}$ has an accumulation\npoint, hence, according to the previous lemma, it is open and closed\n(also called \u201cclopen\u201d). But, as $\\Omega$ is connected, the only closed\nand open subset at once is $\\Omega$ itself, therefore\n$\\{z \\in \\Omega \\colon f(z)-g(z)=0\\}=\\Omega$, i.e., $f \\equiv g$ on\n$\\Omega$.\n\nThis theorem provides a very powerful and useful tool to test whether\ntwo analytic functions, whose values coincide in some points, are indeed\nthe same function. Namely, unless the points in which they are equal are\nisolated, they are the same function.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdentityTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "identity theorem"
+  ]
+}

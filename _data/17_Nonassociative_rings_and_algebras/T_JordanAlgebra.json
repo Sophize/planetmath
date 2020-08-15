@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Jordan homomorphism",
+    "Jordan isomorphism"
+  ],
+  "definition": "Let $R$ be a commutative ring with $1\\neq 0$. An $R$-algebra $A$ with\nmultiplication not assumed to be associative is called a (commutative)\n*Jordan algebra* if\n\n1.  $A$ is commutative: $ab=ba$, and\n\n2.  $A$ satisfies the *Jordan identity*: $(a^2b)a=a^2(ba)$,\n\nfor any $a,b\\in A$.\n\nThe above can be restated as\n\n1.  $[A,A]=0$, where $[\\ , ]$ is the commutator bracket, and\n\n2.  for any $a\\in A$, $[a^2,A,a]=0$, where $[\\ , , ]$ is the associator\n    bracket.\n\nIf $A$ is a Jordan algebra, a subset $B\\subseteq A$ is called a *Jordan\nsubalgebra* if $BB\\subseteq B$. Let $A$ and $B$ be two Jordan algebras.\nA *Jordan algebra homomorphism*, or simply *Jordan homomorphism*, from\n$A$ to $B$ is an algebra homomorphism that respects the above two laws.\nA *Jordan algebra isomorphism* is just a bijective Jordan algebra\nhomomorphism.\n\n**Remarks**.\n\n-   If $A$ is a Jordan algebra such that $\\operatorname{char}(A)\\neq2$,\n    then $A$ is .\n\n-   If in addition $2=1+1\\neq\\operatorname{char}(A)$, then by replacing\n    $a$ with $a+1$ in the Jordan identity and simplifying, $A$ is .\n\n-   Given any associative algebra $A$, we can define a Jordan algebra\n    $A^{+}$. To see this, let $A$ be an associative algebra with\n    associative multiplication $\\cdot$ and suppose $2=1+1$ is invertible\n    in $R$. Define a new multiplication given by\n    $$ab=\\frac{1}{2}(a\\cdot b+b\\cdot a).$$ It is readily checked that\n    this new multiplication satisifies both the commutative law and the\n    Jordan identity. Thus $A$ with the new multiplication is a Jordan\n    algebra and we denote it by $A^{+}$. However, unlike Lie algebras,\n    not every Jordan algebra is embeddable in an associative algebra.\n    Any Jordan algebra that is isomorphic to a Jordan subalgebra of\n    $A^{+}$ for some associative algebra $A$ is called a *special Jordan\n    algebra*. Otherwise, it is called an *exceptional Jordan algebra*.\n    As a side note, the right hand side of Equation (1) is called the\n    *Jordan product*.\n\n-   An example of an exceptional Jordan algebra is $H_3(\\mathbb{O})$,\n    the algebra of $3\\times3$ Hermitian matrices over the octonions.",
+  "language": "INFORMAL",
+  "phrase": "Jordan Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JordanAlgebra"
+    }
+  ],
+  "indexable": true
+}

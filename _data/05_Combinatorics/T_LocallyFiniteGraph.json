@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *locally finite graph* is a graph in which every vertex has degree.\nNote that any finite graph is locally finite; however, infinite graphs\ncan also be locally finite. For example, consider the graph given by\n$\\mathbb{Z}^{2}$, where the points are the vertices and the line\nsegments of unit length that connect vertices are edges: $$\\xymatrix{\n& \\vdots \\ar@{-}[d] & \\vdots \\ar@{-}[d] &  \\\\\n\\dots \\ar@{-}[r] & \\cdot \\ar@{-}[r] \\ar@{-}[d] & \\cdot \\ar@{-}[d] \\ar@{-}[r] & \\dots \\\\\n\\dots \\ar@{-}[r] & \\cdot \\ar@{-}[r] \\ar@{-}[d] & \\cdot \\ar@{-}[r] \\ar@{-}[d] & \\dots \\\\ & \\vdots & \\vdots }$$\n\nNote that every vertex has degree $4$ but that this is an infinite\ngraph.\n\nThe $k$- trees form another class of examples of locally finite graphs.\nA picture of a $2$-regular tree is given below\n\n$$\\xymatrix{\n& & & \\cdot \\\\\n& & \\cdot \\ar@{--}[ur] &  \\\\\n& \\cdot \\ar@{-}[ur] & & \\\\\n\\cdot \\ar@{-}[ur] \\ar@{-}[dr] & & & \\\\\n& \\cdot \\ar@{-}[dr] & & \\\\\n& & \\cdot \\ar@{--}[dr] & \\\\\n& & & \\cdot }$$\n\nThe solid unit length dashed are edges while the dots are vertices and\nthe dashed lines are meant to denote continuation. For a similar reason\nthis is a locally finite graph.",
+  "language": "INFORMAL",
+  "phrase": "Locally Finite Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocallyFiniteGraph"
+    }
+  ],
+  "indexable": true
+}

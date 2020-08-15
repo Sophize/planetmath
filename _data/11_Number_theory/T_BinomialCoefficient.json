@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "combinations",
+    "choose"
+  ],
+  "definition": "For integers $n\\ge r \\ge 0$ we define\n$${n\\choose r} = \\frac{n!}{(n-r)!r!}$$ and call such numbers *binomial\ncoefficients*.\n\n### Properties. {#properties. .unnumbered}\n\n1.  \\[isinteger\\] $n\\choose r$ is an integer ().\n\n2.  \\[reverse\\] ${n\\choose r}={n\\choose n-r}$.\n\n3.  \\[pascal\\] ${n\\choose r-1}+{n\\choose r}={n+1\\choose r}$ (Pascal\u2019s\n    rule).\n\n4.  \\[boundaryterms\\] ${n\\choose 0}=1={n\\choose n}$ for all $n$.\n\n5.  \\[sum2n\\]\n    ${n\\choose 0}+{n\\choose 1}+{n\\choose 2}+\\cdots+{n\\choose n}=2^n$.\n\n6.  \\[sum0\\]\n    ${n\\choose 0}-{n\\choose 1}+{n\\choose 2}-\\cdots+(-1)^n{n\\choose n}=0$\n    for $n>0$.\n\n7.  \\[sump1\\] $\\sum_{t=k}^n {t\\choose k }={n+1\\choose k+1}$.\n\nProperties \\[sum2n\\] and \\[sum0\\] are the binomial theorem applied to\n$(1+1)^n$ and $(1-1)^n$, respectively, although they also have purely\ncombinatorial meaning.\n\n### Motivation {#motivation .unnumbered}\n\nSuppose $n\\ge r$ are integers. The below list shows some examples where\nthe binomial coefficients appear.\n\n-   $n\\choose r$ constitute the coefficients when expanding the binomial\n    $(x+y)^n$ \u2013 hence the name binomial coefficients. See Binomial\n    Theorem.\n\n-   $n\\choose r$ is the number of ways to choose $r$ objects from a set\n    with $n$ elements.\n\n-   On the context of computer science, it also helps to see\n    ${n\\choose r}$ as the number of strings consisting of ones and zeros\n    with $r$ ones and $n-r$ zeros. This equivalency comes from the fact\n    that if $S$ be a finite set with $n$ elements, ${n\\choose r}$ is the\n    number of distinct subsets of $S$ with $r$ elements. For each subset\n    $T$ of $S$, consider the function\n    $$X_T\\colon S \\rightarrow \\{0,1\\}$$ where $X_T(x) = 1$ whenever\n    $x \\in T$ and $0$ otherwise (so $X_T$ is the characteristic function\n    for $T$). For each $T \\in \\mathcal{P}(S)$, $X_T$ can be used to\n    produce a unique bit string of length $n$ with exactly $r$ ones.\n\n### Notes {#notes .unnumbered}\n\nThe ${n\\choose r}$ notation was first introduced by von Ettinghausen\n[@Higham] in 1826, altough these numbers have been used long before\nthat. See for some notes on their history. Although the standard\nmathematical notation for the binomial coefficients is $n\\choose r$,\nthere are also several variants. Especially in high school environments\none encounters also ${C}(n,r)$ or ${C}^n_r$ for ${n\\choose r}$.\n\n**Remark**. It is sometimes convenient to set ${n \\choose r}:=0$ when\n$r>n$. For example, property 7 above can be restated:\n$\\sum_{t=1}^n {t\\choose k }={n+1\\choose k+1}$. It can be shown that\n${n \\choose r}$ is elementary recursive.\n\n[9]{} N. Higham, *Handbook of writing for the mathematical sciences*,\nSociety for Industrial and Applied Mathematics, 1998.",
+  "language": "INFORMAL",
+  "phrase": "Binomial Coefficient",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BinomialCoefficient"
+    }
+  ],
+  "indexable": true
+}

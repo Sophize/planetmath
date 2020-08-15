@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem is a very deep application of Roth\u2019s theorem. Let\n$K$ be a number field and let $S$ be a finite set of places of $K$. Let\n$R_S$ be the in $K$. Let $C/K$ be a smooth projective curve of genus $g$\ndefined over $K$ and let $f$ be a non-constant function in the function\nfield of $C/K$, i.e. $f\\in K(C)$.\n\nAssume that $C/K$ has genus $g\\geq 1$. Then the set\n$\\{P\\in C(K) : f(P) \\in R_S\\}$ is finite.\n\nIn particular, when $f$ is the coordinate functions $x(P)$ and $y(P)$,\nSiegel\u2019s theorem implies that a curve of genus $\\geq 1$ has only\nfinitely many integral points. For example, this shows that an elliptic\ncurve defined over ${\\mathbb{Q}}$ can only have finitely many points\ndefined over ${\\mathbb{Z}}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SiegelsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Siegel's theorem"
+  ]
+}

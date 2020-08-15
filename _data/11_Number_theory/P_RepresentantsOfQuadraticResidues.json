@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let $p$ be a positive odd prime number. Then the integers\n$$\\begin{aligned}\n1^2,\\,2^2,\\,\\ldots,\\,\\left(\\frac{p\\!-\\!1}{2}\\right)^{\\!2}\\end{aligned}$$\nconstitute a representant system of incongruent quadratic residues\nmodulo $p$. Accordingly, there are $\\frac{p\\!-\\!1}{2}$ quadratic\nresidues and equally many nonresidues modulo $p$.\\\n*Proof.* Firstly, the numbers (1), being squares, are quadratic residues\nmodulo $p$. Secondly, they are incongruent, because a congruence\n$a^2 \\equiv b^2 \\pmod{p}$ would imply\n$$p \\mid a\\!+\\!b \\quad \\mbox{or} \\quad p \\mid a\\!-\\!b,$$ which is\nimpossible when $a$ and $b$ are different integers among\n$1,\\,2,\\,\\ldots,\\,\\frac{p\\!-\\!1}{2}$. Third, if $c$ is any quadratic\nresidue modulo $p$, and therefore the congruence $x^2 \\equiv c \\pmod{p}$\nhas a solution $x$, then $x$ is congruent with one of the numbers\n$$\\pm1,\\,\\pm2,\\,\\ldots,\\,\\pm\\frac{p\\!-\\!1}{2}$$ which form a reduced\nresidue system modulo $p$ (see absolutely least remainders). Then $x^2$\nand $c$ are congruent with one of the numbers (1).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RepresentantsOfQuadraticResidues"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "representants of quadratic residues",
+    "representant system of quadratic residues"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A square matrix $A$ is called a [*Hurwitz matrix*]{} if all eigenvalues\nof $A$ have strictly negative real part, $Re[\\lambda_i] < 0$; $A$ is\nalso called a [*stability matrix*]{}, because the feedback system\n$$\\dot x = A x$$ is stable.\n\nIf $G(s)$ is a (matrix-valued) transfer function, then $G$ is called\nHurwitz if the poles of all elements of $G$ have negative real part.\nNote that it is not necessary that $G(s)$, for a specific argument $s$,\nbe a Hurwitz matrix \u2014 it need not even be square. The connection is that\nif $A$ is a Hurwitz matrix, then the dynamical system $$\\begin{aligned}\n  \\dot x(t) &=& A x(t) + B u(t) \\\\\n  y(t) &=& C x(t) + D u(t)\\end{aligned}$$ has a Hurwitz transfer\nfunction.\n\nReference: Hassan K. Khalil, [*Nonlinear Systems*]{}, Prentice Hall,\n2002",
+  "language": "INFORMAL",
+  "phrase": "Hurwitz Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HurwitzMatrix"
+    }
+  ],
+  "indexable": true
+}

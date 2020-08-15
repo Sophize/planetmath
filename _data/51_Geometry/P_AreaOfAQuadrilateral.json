@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $a,b,c,d$ be the lengths of the sides of a quadrilateral and $K$ be\nits area. Let $s$ be the semiperimeter. Then\n$$K^2 = (s-a)(s-b)(s-c)(s-d) - abcd \\cos^2 \\left(\\frac{\\theta+\\phi}{2}\\right )$$\nwhere $\\theta$ and $\\phi$ are of the quadrilateral. Letting $d \\to 0$ we\nobtain Heron\u2019s formula for the area of a triangle.\n\n[99]{} C.A. Bretschneider, *Untersuchung der trigonometrischen\nRelationen des geradlinigen Viereckes*. Archiv der Math. 2, (1842),\n225-261. F. Strehlke, *Zwei neue S\u00e4tze vom ebenen und shp\u00e4rischen\nViereck und Umkehrung des Ptolemaischen Lehrsatzes.* Archiv der Math. 2,\n(1842) 323-326.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AreaOfAQuadrilateral"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "area of a quadrilateral"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $a$ be a real number and $n$ is an integer such that $a^n$ is\nirrational, then $a$ is irrational.\n\nWe show this by way of contrapositive. In other words, we show that, if\n$a$ is rational, then $a^n$ is rational.\n\nLet $a$ be rational. Then there exist integers $b$ and $c$ with\n$c\\neq 0$ such that $\\displaystyle a=\\frac{b}{c}$. Thus,\n$\\displaystyle a^n=\\frac{b^n}{c^n}$, which is a rational number.\n\nNote that the converse is not true. For example, $\\sqrt{2}$ is\nirrational and $\\left(\\sqrt{2}\\right)^2=2$ is rational.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IfAnIsIrrationalThenaIsIrrational"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "if $a^n$ is irrational then ${a}$ is irrational"
+  ]
+}

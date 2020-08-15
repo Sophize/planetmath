@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "delta function"
+  ],
+  "definition": "The Dirac delta \u201cfunction\u201d $\\delta(x)$, or *distribution* is not a true\nfunction because it is not uniquely defined for all values of the\nargument $x$. Similar to the Kronecker delta symbol, the notation\n$\\delta(x)$ stands for\n\n$$\\delta(x) = 0 \\;\\text{for}\\; x \\ne 0, \\;\\text{and}\\; \\int_{-\\infty}^\\infty \\delta(x) dx = 1$$\n\nFor any continuous function $F$:\n\n$$\\int_{-\\infty}^\\infty \\delta(x) F(x)dx = F(0)$$\n\nor in $n$ dimensions:\n\n$$\\int_{\\mathbb{R}^n} \\delta(x - s)f(s) \\, d^ns = f(x)$$\n\n$\\delta(x)$ can also be defined as a normalized Gaussian function\n(normal distribution) in the limit of zero width.\n\n**Notes:** However, the limit of the normalized Gaussian function is\nstill meaningless as a function, but some people still write such a\nlimit as being equal to the Dirac distribution considered above in the\nfirst paragraph.\\\nAn example of how the Dirac distribution arises in a physical, classical\ncontext is available\n\n[**Remarks:**]{} Distributions play important roles in Dirac\u2019s\nformulation of quantum mechanics.\n\n[9]{} W. Rudin, [*Functional Analysis*]{}, McGraw-Hill Book Company,\n1973. L. H\u00f6rmander, [*The Analysis of Linear Partial Differential\nOperators I, (Distribution theory and Fourier Analysis)*]{}, 2nd ed,\nSpringer-Verlag, 1990. Originally from The Data Analysis Briefbook ()",
+  "language": "INFORMAL",
+  "phrase": "Dirac Delta Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiracDeltaFunction"
+    }
+  ],
+  "indexable": true
+}

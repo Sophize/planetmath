@@ -1,0 +1,17 @@
+{
+  "argumentText": "The main theorem we will use is the comparison test, which basically\nstates that if $a_n>0$, $b_n>0$ and there is an $N$ such that for all\n$n>N$, $a_n < b_n$ , then if $\\sum_{i=1}^\\infty b_n$ converges so will\n$\\sum_{i=1}^\\infty a_n$.\n\nSuppose $\\lim_{n\\to \\infty} \\frac{a_n}{b_n} = L$ where $L$ can be a non\nnegative real number or $+\\infty$.\n\nBy definition, for $L$ finite, this means that for every $\\epsilon>0$\nthere is a natural number $n_\\epsilon$ such that for all\n$n > n_\\epsilon$, $\\left\\| \\frac{a_n}{b_n} -L \\right \\| < \\epsilon$\n\nTo make matters more concrete choose $\\epsilon = \\frac{L}{2}$ and assume\n$L\\ne0$ and finite.\n\n$0< a_n < \\frac{3L}{2} b_n $, for all $n > n_{\\frac{L}{2}}$.\n\nIf $\\sum_{i=1}^\\infty b_n$ converges, so will\n$\\sum_{i=1}^\\infty \\frac{3L}{2} b_n$ and thus by the comparison test,\n$\\sum_{i=1}^\\infty a_n$ will also be convergent.\n\nFor the reverse result, consider\n$\\lim_{n \\to \\infty} \\frac{b_n}{a_n} = \\frac{1}{L}$, since if $L$ is\nfinite so will $\\frac{1}{L}$, applying the previous result we can say\nthat if $\\sum_{i=1}^\\infty a_n$ converges so will\n$\\sum_{i=1}^\\infty b_n$\n\nConsider the case $L=0$, clearly $L=0^+$ since both $a_n$ and $b_n$ are\npositive, this means that for all $\\epsilon > 0$ there exists\n$n_\\epsilon$ such that for all $n>n_\\epsilon$, $0<a_n<\\epsilon b_n$.\n\nConsidering $\\epsilon=1$ we get the exact formulation of the comparison\ntest, so if $\\sum_{i=1}^\\infty b_n$ converges so will\n$\\sum_{i=1}^\\infty a_n$.\n\nFor the case $L=+\\infty$ just apply the result to\n$\\lim_{n \\to \\infty} \\frac{b_n}{a_n} = 0$ to conclude that if\n$\\sum_{i=1}^\\infty a_n$ converges so will $\\sum_{i=1}^\\infty b_n$",
+  "conclusion": "#P_LimitComparisonTest",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfLimitComparisonTest"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of limit comparison test"
+  ]
+}

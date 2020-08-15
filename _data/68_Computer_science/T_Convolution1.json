@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Sigma$ be an alphabet, $\\#$ a symbol not in $\\Sigma$.\n\nLet\n$x_1x_2\\ldots x_{|x|},y_1y_2\\ldots y_{|y|},z_1z_2\\ldots z_{|z|},\\ldots$\nbe $n$ words over $\\Sigma^*$. Let $l$ denote the maximum length.\n\nThe *convolution* of these words is\n$$(x_1,y_1,\\ldots)(x_2,y_2,\\ldots)\\ldots(x_l,y_l,\\ldots)$$where for any\n$i>|w|$, the $w_i$ is $\\#$. This is a new word in\n$((\\Sigma\\cup\\{\\#\\})^n)^*$.\n\nThe convolution of $x,y,z,\\ldots$ is sometimes denoted\nconv($x,y,z,\\ldots$), or $x\\star y\\star z\\star\\ldots$\n\nExample {#example .unnumbered}\n-------\n\nThe convolution of $and, fish, be$ is\n$$(a,f,b)(n,i,e)(d,s,\\#)(\\#,h,\\#)$$\n\nNotes {#notes .unnumbered}\n-----\n\nThis definition bears no to the notion of of functions.",
+  "language": "INFORMAL",
+  "phrase": "Convolution",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Convolution1"
+    }
+  ],
+  "indexable": true
+}

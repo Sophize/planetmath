@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Maximum principle\n\n:   Let $f:U\\to {\\mathbb{R}}$ (where $U\\subseteq {\\mathbb{R}}^d$) be a\n    harmonic function. Then $f$ attains its extremal values on any\n    compact $K\\subseteq U$ on the boundary $\\partial K$ of $K$. If $f$\n    attains an extremal value anywhere in the *interior* of $K$, then it\n    is constant.\n\nMaximal modulus principle\n\n:   Let $f:U\\to{\\mathbb{C}}$ (where $U\\subseteq {\\mathbb{C}}$) be a\n    holomorphic function. Then $|f|$ attains its maximal value on any\n    compact $K\\subseteq U$ on the boundary $\\partial K$ of $K$. If $|f|$\n    attains its maximal value anywhere on the *interior* of $K$, then it\n    is constant.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MaximumPrinciple"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "maximum principle",
+    "maximal modulus principle",
+    "maximum principle for harmonic functions"
+  ]
+}

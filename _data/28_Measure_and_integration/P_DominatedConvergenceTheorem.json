@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a measure space, and let $\\Phi,f_1,f_2,\\dots$ be measurable\nfunctions such that $\\int_X \\Phi <\\infty$ and $|f_n|\\leq \\Phi$ for each\n$n$. If $f_n\\rightarrow f$ almost everywhere, then $f$ is integrable and\n$$\\lim_{n\\rightarrow\\infty} \\int_X f_n =  \\int_X f.$$\n\nThis theorem is a corollary of the Fatou-Lebesgue theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DominatedConvergenceTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "dominated convergence theorem",
+    "Lebesgue's dominated convergence theorem"
+  ]
+}

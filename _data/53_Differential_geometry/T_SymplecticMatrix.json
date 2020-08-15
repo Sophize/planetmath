@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A real $2n\\times 2n$ matrix $A\\in{\\mathrm{M}}_{2n}({\\mathbb{R}})$ is a\n*symplectic matrix* if $A J A^T = J$, where $A^T$ is the transpose of\n$A$, and $J\\in{\\mathrm{O}}(2n)$ is the orthogonal matrix\n$$J=\\left( \\begin{array}{cc}\n\\mathbf 0 & {\\mathbf{I}}_n \\\\\n-{\\mathbf{I}}_n & \\mathbf 0\n\\end{array} \\right).$$ Here\n${\\mathbf{I}}_n\\in{\\mathrm{M}}_n({\\mathbb{R}})$ is the identity\n$n\\times n$ matrix and $\\mathbf 0\\in{\\mathrm{M}}_n({\\mathbb{R}})$ is the\nzero $n\\times n$ matrix.\n\nSymplectic matrices satisfy the following properties:\n\n1.  The determinant of a symplectic matrix equals one.\n\n2.  With standard matrix multiplication, symplectic $2n\\times 2n$\n    matrices form a group denoted by $\\mathrm{Sp}(2n)$.\n\n3.  Suppose $\\Psi=\\begin{pmatrix} A&B \\\\ C & D \\end{pmatrix}$, where\n    $A,B,C,D$ are $n\\times n$ matrices. Then $\\Psi$ is symplectic if and\n    only if\n    $$A D^T - BC^T = I, \\,\\,\\,\\,\\, AB^T=BA^T, \\,\\,\\,\\,\\, CD^T=DC^T.$$\n\n4.  If $X$ and $Y$ are real $n\\times n$ matrices, then $U=X+iY$ is\n    unitary if and only if\n    $\\begin{pmatrix} X & -Y \\\\ Y & X \\end{pmatrix}$ is symplectic.",
+  "language": "INFORMAL",
+  "phrase": "Symplectic Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SymplecticMatrix"
+    }
+  ],
+  "indexable": true
+}

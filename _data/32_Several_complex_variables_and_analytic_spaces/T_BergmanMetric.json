@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G \\subset {\\mathbb{C}}^n$ be a domain and let $K(z,w)$ be the\nBergman kernel on $G$. We define a Hermitian metric on the tangent\nbundle $T_z {\\mathbb{C}}^n$ by $$g_{ij} (z)\n:=\n\\frac{\\partial^2}{\\partial z_i \\partial \\bar{z}_j}\n\\log K(z,z) ,$$ for $z \\in G$. Then the length of a tangent vector\n$\\xi \\in T_z{\\mathbb{C}}^n$ is then given by $$\\lvert \\xi \\rvert_{B,z}\n:=\n\\sqrt{\\sum_{i,j=1}^n g_{ij}(z) \\xi_i \\bar{\\xi}_j }.$$ This metric is\ncalled the [*Bergman metric*]{} on $G$.\n\nThe length of a (piecewise) $C^1$ curve\n$\\gamma \\colon [0,1] \\to {\\mathbb{C}}^n$ is then computed as\n$$\\ell (\\gamma) =\n\\int_0^1 \\big\\lvert \\frac{\\partial \\gamma}{\\partial t}(t) \\big\\rvert_{B,\\gamma(t)} dt .$$\nThe distance $d_G(p,q)$ of two points $p,q \\in G$ is then defined as\n$$d_G(p,q):=\n\\inf \\{ \\ell (\\gamma) \\mid \\text{ all piecewise $C^1$ curves $\\gamma$ such that $\\gamma(0)=p$ and $\\gamma(1)=q$} \\} .$$\nThe distance $d_G$ is called the [*Bergman distance*]{}.\n\nThe Bergman metric is in fact a positive definite matrix at each point\nif $G$ is a bounded domain. More importantly, the distance $d_G$ is\ninvariant under biholomorphic mappings of $G$ to another domain $G'$.\nThat is if $f$ is a biholomorphism of $G$ and $G'$, then\n$d_G(p,q) = d_{G'}(f(p),f(q))$.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Bergman Metric",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BergmanMetric"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "The material in the main article is conveniently recast in terms of the\ngroups ${({\\mathbb{Z}}/{m}{\\mathbb{Z}})^{\\times}}$, the multiplicative\ngroup of units in ${\\mathbb{Z}}/m{\\mathbb{Z}}$. Note that the order of\nthis group is exactly $\\phi(m)$ where $\\phi$ is the Euler phi function.\nThen saying that an integer $g$ is a primitive root of $m$ is equivalent\nto saying that the residue class of $g \\pmod m$ generates\n${({\\mathbb{Z}}/{m}{\\mathbb{Z}})^{\\times}}$.\n\n(of Theorem): The proof of the theorem is an immediate consequence of\nthe structure of ${({\\mathbb{Z}}/{m}{\\mathbb{Z}})^{\\times}}$ as an\nabelian group; ${({\\mathbb{Z}}/{m}{\\mathbb{Z}})^{\\times}}$ is cyclic\nprecisely for $m=2, 4, p^k$, or $2p^k$.\n\n(of Proposition):\n\n1.  Restated, this says that if the residue class of $g\\pmod m$\n    generates ${({\\mathbb{Z}}/{m}{\\mathbb{Z}})^{\\times}}$, then the set\n    $\\{1,g,g^2,\\ldots,g^{\\phi(m)}\\}$ is a complete set of\n    representatives for ${({\\mathbb{Z}}/{m}{\\mathbb{Z}})^{\\times}}$;\n    this is obvious.\n\n2.  Restated, this says that $g\\pmod m$ generates\n    ${({\\mathbb{Z}}/{m}{\\mathbb{Z}})^{\\times}}$ if and only if $g$ has\n    exact order $m$, which is also obvious.\n\n3.  If $g\\pmod m$ generates ${({\\mathbb{Z}}/{m}{\\mathbb{Z}})^{\\times}}$,\n    then $g$ has exact order $\\phi(m)$ and thus $g^s=g^t\\pmod m$ if and\n    only if $g^{s-t}=1$ if and only if $\\phi(m)\\mid s-t$.\n\n4.  Suppose $g$ generates ${({\\mathbb{Z}}/{m}{\\mathbb{Z}})^{\\times}}$.\n    Then $(g^k)^r=1$ if and only if $g^{kr}=1$ if and only if\n    $\\phi(m)\\mid kr$. Clearly we can choose $r<\\phi(m)$ if and only if\n    $\\gcd(k,\\phi(m))>1$.\n\n5.  This follows immediately from (4).",
+  "conclusion": "#P_PropertiesOfPrimitiveRoots",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPropertiesOfPrimitiveRoots"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of properties of primitive roots"
+  ]
+}

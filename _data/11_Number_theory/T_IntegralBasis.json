@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "minimal basis",
+    "minimal bases"
+  ],
+  "definition": "Let $K$ be a number field. A set of algebraic integers\n$\\{\\alpha_1,\\ldots,\\alpha_s\\}$ is said to be an [*integral basis*]{} for\n$K$ if every $\\gamma$ in $\\mathcal{O}_K$ can be represented uniquely as\nan integer linear combination of $\\{\\alpha_1,\\ldots,\\alpha_s\\}$ (i.e.\none can write $\\gamma = m_1 \\alpha_1 + \\cdots + m_s \\alpha_s$ with\n$m_1,\\ldots,m_s$ (rational) integers).\n\nIf $I$ is an ideal of $\\mathcal{O}_K$, then\n$\\{\\alpha_1,\\ldots,\\alpha_s\\} \\in I$ is said to be an [*integral\nbasis*]{} for $I$ if every element of $I$ can be represented uniquely as\nan integer linear combination of $\\{\\alpha_1,\\ldots,\\alpha_s\\}$.\n\n(In the above, $\\mathcal{O}_K$ denotes the ring of algebraic integers of\n$K$.)\n\nAn integral basis for $K$ over $\\mathbb{Q}$ is a basis for $K$ over\n$\\mathbb{Q}$.",
+  "language": "INFORMAL",
+  "phrase": "Integral Basis",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralBasis"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The exterior angle of an angle of triangle is greater than both other\nangles of the triangle.\n\n[*Proof.*]{} Let us study in an arbitrary triangle $ABC$ for example the\nexterior angle $\\wedge ACD$ where $D$ is point on the lengthening of the\nside $BC$ nearer to $C$ than to $B$. Let $E$ be the midpoint of $AC$.\nLet $BE$ be the median of the triangle. We find on its lengthening the\npoint $F$ such that $EF = EB$. Then the triangles $ABE$ and $CEF$ are\ncongruent (SAS). Consequently, we have $\\wedge ECF \\;=\\;\\, \\wedge BAE$\nand therefore $\\wedge ACD \\;>\\; \\wedge BAC$. Analogically one shows that\n$\\wedge ACD \\;>\\; \\wedge ABC$. $\\Box$\n\n[8]{} : [*Lobatsevski geomeetria*]{}. Kirjastus \u201cValgus\u201d, Tallinn\n(1992).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExteriorAnglesOfTriangle"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "exterior angles of triangle"
+  ]
+}

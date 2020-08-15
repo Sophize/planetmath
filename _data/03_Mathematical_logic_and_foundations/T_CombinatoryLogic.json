@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Combinatory logic* was invented by Moses Sch\u00f6nfinkel in the early\n1920s, and was mostly developed by Haskell Curry. The idea was to reduce\nthe notation of logic to the simplest terms possible. As such,\ncombinatory logic consists only of *combinators*, *combination*\noperations, and no *free variables*.\n\nA *combinator* is simply a function with no *free variables*. A *free\nvariable* is any variable referred to in a function that is not a\nparameter of that function. The operation of *combination* is then\nsimply the application of a combinator to its parameters. Combination is\nspecified by simple juxtaposition of two terms, and is left-associative.\nParentheses may also be present to override associativity. For example\n\n$$f g x y = (f g) x y = ((f g) x) y$$\n\nAll combinators in combinatory logic can be derived from two basic\ncombinators, $S$ and $K$. They are defined as\n\n$$\\begin{aligned}\nS f g x & = & f x (g x) \\\\\nK x y & = & x\\end{aligned}$$\n\nReference is sometimes made to a third basic combinator, $I$, which can\nbe defined in terms of $S$ and $K$.\n\n$$I x = S K K x = x$$\n\nCombinatory logic where $I$ is considered to be derived from $S$ and $K$\nis sometimes known as *pure combinatory logic*.\n\nCombinatory logic and lambda calculus are equivalent. However, lambda\ncalculus is more concise than combinatory logic; an expression of size\n$\\mathcal{O}(n)$ in lambda calculus is equivalent to an expression of\nsize $\\mathcal{O}(n^2)$ in combinatory logic.\n\nFor example, $S f g x = f x (g x)$ in combinatory logic is equivalent to\n$S = (\\lambda f (\\lambda g (\\lambda x ((f x) (g x)))))$, and $K x y = x$\nis equivalent to $K = (\\lambda x (\\lambda y x))$.",
+  "language": "INFORMAL",
+  "phrase": "Combinatory Logic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CombinatoryLogic"
+    }
+  ],
+  "indexable": true
+}

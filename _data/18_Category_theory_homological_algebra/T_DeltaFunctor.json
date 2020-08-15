@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "$\\delta$-functor"
+  ],
+  "definition": "The concept of a $\\delta$-functor is used to formalize the procedure of\nconstructing long exact sequences from short exact sequences. Examples\ninclude derived functors and cohomology.\n\n[**Definition.**]{}Let $\\mathcal{A}$ and $\\mathcal{B}$ be Abelian\ncategories. A *delta functor* ($\\delta$-functor) from $\\mathcal{A}$ to\n$\\mathcal{B}$ consists of a family of covariant additive functors\n$$F^n\\colon\\mathcal{A}\\to\\mathcal{B}\\quad(n=0,1,2,\\ldots)$$ and for each\nexact sequence $$0\\to A\\to B\\to C\\to 0$$ of objects in $\\mathcal{A}$ a\nfamily of homomorphisms\n$$\\delta^n\\colon F^n(C)\\to F^{n+1}(A)\\quad(n=0,1,2,\\ldots)$$ such that\nthe following two conditions hold:\n\n1.  For any exact sequence $0\\to A\\to B\\to C\\to 0$ as above, there is a\n    corresponding long exact sequence $$\\vcenter{\\openup\\jot\n    \\ialign{\\hfil$\\displaystyle{#{}}$&$\\displaystyle{#}$\\hfil\\crcr\n    0\\to& F^0(A)\\to F^0(B)\\to F^0(C)\\stackrel{\\delta^0}{\\longrightarrow}\\cr\n    &F^1(A)\\to F^1(B)\\to\n    F^1(C)\\stackrel{\\delta^1}{\\longrightarrow}\\cdots.\\cr}}$$\n\n2.  For any morphism between exact sequences $$\\xymatrix{\n    0\\ar[r] & A\\ar[r]\\ar[d] & B\\ar[r]\\ar[d] & C\\ar[r]\\ar[d] & 0 \\\\\n    0\\ar[r] & A'\\ar[r] & B'\\ar[r] & C'\\ar[r] & 0 \\\\\n    }$$ and all integers $n\\ge 0$ the diagram $$\\xymatrix{\n    F^n(C) \\ar[r]^{\\delta^n} \\ar[d] & F^{n+1}(A) \\ar[d] \\\\\n    F^n(C') \\ar[r]^{\\delta^n} & F^{n+1}(A') \\\\\n    }$$ is commutative.",
+  "language": "INFORMAL",
+  "phrase": "Delta Functor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DeltaFunctor"
+    }
+  ],
+  "indexable": true
+}

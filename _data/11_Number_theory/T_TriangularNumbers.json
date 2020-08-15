@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *triangular numbers* are defined by the series\n\n$$t_n = \\sum_{i=1}^n i$$\n\nThat is, the $n$th triangular number is simply the sum of the first $n$\nnatural numbers. The first few triangular numbers are\n\n$$1, 3, 6, 10, 15, 21, 28, \\ldots$$\n\nThe name triangular number comes from the fact that the summation\ndefining $t_n$ can be visualized as the number of dots in\n\n$$\\begin{matrix}\n \\bullet & & & & & & & \\\\\n \\bullet & \\bullet & & & & & & \\\\\n \\bullet & \\bullet & \\bullet & & & & & \\\\\n \\bullet & \\bullet & \\bullet & \\bullet & & &  & \\\\\n \\bullet & \\bullet & \\bullet & \\bullet & \\bullet & & & \\\\\n \\bullet & \\bullet & \\bullet & \\bullet & \\bullet & \\bullet & & \\\\\n \\vdots &  &  &  &  & \\vdots & \\ddots & \n\\end{matrix}$$\n\nwhere the number of rows is equal to $n$.\n\nThe closed-form for the triangular numbers is\n\n$$t(n) = \\frac{n(n+1)}{2}$$\n\nLegend has it that a grammar-school-aged Gauss was told by his teacher\nto sum up all the numbers from 1 to 100. He reasoned that each number\n$i$ could be paired up with $101-i$, to form a sum of $101$, and if this\nwas done $100$ times, it would result in twice the actual sum (since\neach number would get used twice due to the pairing). Hence, the sum\nwould be\n\n$$1+2+3+\\cdots+100 = \\frac{100(101)}{2}$$\n\nThe same line of reasoning works to give us the closed form for any $n$.\n\nAnother way to derive the closed form is to assume that the $n$th\ntriangular number is less than or equal to the $n$th square (that is,\neach row is less than or equal to $n$, so the sum of all rows must be\nless than or equal to $n\\cdot n$ or $n^2$), and then use the first few\ntriangular numbers to solve the general 2nd degree polynomial\n$An^2 + Bn + C$ for $A$, $B$, and $C$. This leads to $A=1/2$, $B=1/2$,\nand $C=0$, which is the same as the above formula for $t(n)$.",
+  "language": "INFORMAL",
+  "phrase": "Triangular Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TriangularNumbers"
+    }
+  ],
+  "indexable": true
+}

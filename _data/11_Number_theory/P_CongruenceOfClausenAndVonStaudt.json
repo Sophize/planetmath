@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $B_k$ denote the $k$th Bernoulli number:\n$$B_0=1,\\quad B_1=-\\frac{1}{2},\\quad B_2=\\frac{1}{6},\\quad B_3=0,\\quad B_4=-\\frac{1}{30},\\ldots$$\nIn fact, $B_k=0$ for all odd $k\\geq 3$, so we will only consider $B_k$\nfor even $k$. The following is a well-known congruence, due to Thomas\nClausen and Karl von Staudt.\n\nFor an even integer $k\\geq 2$,\n\n$$B_k \\equiv -\\sum_{p \\text{ prime},\\ (p-1)|k} \\frac{1}{p} \\mod {\\mathbb{Z}}$$\nwhere the sum is over all primes $p$ such that $(p-1)$ divides $k$. In\nother words, there exists an integer $n_k$ such that\n$$B_k=n_k -\\sum_{p \\text{ prime},\\ (p-1)|k} \\frac{1}{p}.$$\n\nFor example:\n$$B_2=\\frac{1}{6}=1-\\frac{1}{2}-\\frac{1}{3}, \\quad B_4=-\\frac{1}{30}=1-\\frac{1}{2}-\\frac{1}{3}-\\frac{1}{5}.$$\nSometimes the theorem is stated in this alternative form:\n\nFor an even integer $k\\geq 2$ and any prime $p$ the product $pB_k$ is\n$p$-integral, that is, $pB_k$ is a rational number $t/s$ (in lowest\nterms) such that $p$ does not divide $s$. Moreover:\n$$pB_k \\equiv \\begin{cases}\n-1 \\mod p, \\text{ if $(p-1)$ divides $k$;}\\\\\n0 \\mod p, \\text{ if $(p-1)$ does not divide $k$}.\n\\end{cases}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CongruenceOfClausenAndVonStaudt"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "congruence of Clausen and von Staudt",
+    "Staudt-Clausen theorem",
+    "von Staudt-Clausen theorem"
+  ]
+}

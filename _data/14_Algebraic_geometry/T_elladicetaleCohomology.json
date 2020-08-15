@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a scheme over a field $k$ having algebraic closure\n$\\overline{k}$. Let $(X\\otimes_k \\overline{k})_\\text{\\'et}$ be the small\n\u00e9tale site on $X\\otimes_k \\overline{k}$, and let\n$\\mathbb{Z}/l^n\\mathbb{Z}$ denote the sheaf on\n$(X\\otimes_k \\overline{k})_\\text{\\'et}$ associated to the group scheme\n$\\mathbb{Z}/l^n\\mathbb{Z}$ for some fixed prime $l$. Finally, let\n$\\Gamma$ be the global sections functor on the category of \u00e9tale sheaves\non $(X\\otimes_k \\overline{k})_\\text{\\'et}$.\n\nThe $l$-adic *\u00e9tale cohomology* of $X$ is\n$$H^i_\\text{\\'et}(X,\\mathbb{Q}_l) = \\mathbb{Q}_l \\otimes_{\\mathbb{Z}_l} \\varprojlim_n (R^i\\Gamma)(\\mathbb{Z}/l^n\\mathbb{Z}),.$$\nwhere $R^i$ denotes taking the $i$-th right-derived functor.\n\nThis apparently appalling definition is necessary to ensure that (for\n$l$ not equal to the characteristic of $k$) \u00e9tale cohomology is the\nappropriate generalization of de Rham cohomology on a complex manifold.\nFor example, on a scheme of dimension $n$, the cohomology groups $H^i$\nvanish for $i>2n$ and we have a version of Poincar\u00e9 duality.\nGrothendieck introduced \u00e9tale cohomology as a tool to prove the Weil\nconjectures, and indeed it is what Deligne used to prove them.\n\nThese references are approximately in order of difficulty and of\ngenerality and precision.\n\n[9]{}",
+  "language": "INFORMAL",
+  "phrase": "$\\Ell$-Adic \\'Etale Cohomology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/elladicetaleCohomology"
+    }
+  ],
+  "indexable": true
+}

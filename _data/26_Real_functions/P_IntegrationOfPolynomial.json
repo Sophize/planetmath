@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For all nonnegative integers $n$,\n$$\\int x^n \\, dx = \\frac{1}{n+1}x^{n+1}+C.$$\n\nIt will first be proven that, for any nonnegative integer $n$ and any\n$a \\in \\mathbb{R}$,\n$$\\int\\limits_0^a x^n \\, dx = \\frac{1}{n+1}a^{n+1}.$$\n\nIf $a=0$, the above statement is obvious. If $a>0$, the following\ncomputation uses the right hand rule for computing the ; if $a<0$, the\nfollowing computation uses the left hand rule for computing the\nintegral:\n\n  ------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------\n  $\\displaystyle \\int\\limits_0^a x^n \\, dx$   $\\displaystyle =\\lim_{t \\to \\infty} \\sum_{k=1}^t \\left( \\frac{ak}{t} \\right)^n \\left( \\frac{a}{t} \\right)$\n                                              $\\displaystyle =a^{n+1} \\lim_{t \\to \\infty} \\frac{1}{t^{n+1}} \\sum_{k=1}^t k^n$\n                                              $\\displaystyle =a^{n+1} \\lim_{t \\to \\infty} \\frac{1}{t^{n+1}} \\sum_{l=1}^{n+1} {n+1 \\choose r} \\frac{B_{n+1-l}}{n+1}(t+1)^l$ by ,\n                                              $\\displaystyle =a^{n+1} \\lim_{t \\to \\infty} \\frac{1}{t^{n+1}} {n+1 \\choose n+1} \\frac{B_{n+1-(n+1)}}{n+1} (t+1)^{n+1}$\n                                              $\\displaystyle =\\frac{B_0}{n+1} a^{n+1} \\lim_{t \\to \\infty} \\left( \\frac{t+1}{t} \\right)^{n+1}$\n                                              $\\displaystyle =\\frac{1}{n+1}a^{n+1}$\n  ------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------\n\nThus, if $a,b \\in \\mathbb{R}$, then\n$\\displaystyle \\int\\limits_a^b x^n \\, dx = \\int\\limits_0^b x^n \\, dx - \\int\\limits_0^a x^n \\, dx = \\frac{1}{n+1}b^{n+1}-\\frac{1}{n+1}a^{n+1}.$\n\nIt follows that $\\displaystyle \\int x^n \\, dx = \\frac{1}{n+1}x^n+C$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegrationOfPolynomial"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "integration of polynomial"
+  ]
+}

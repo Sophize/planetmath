@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a compact Hausdorff space and $C(X)$ the Banach algebra of\ncontinuous functions $X \\longrightarrow \\mathbb{C}$ (with the sup norm).\n\nIn this entry we are interested in identifying the maximal ideals and\nthe character space of $C(X)$. Since $C(X)$ is a Banach algebra with an\nidentity element, there is a bijective correspondence between the\ncharacter space of $C(X)$ and the set of maximal ideals of this algebra,\ngiven by $$\\phi \\longleftrightarrow Ker\\; \\phi$$ Hence, by identifying\nthe character space of $C(X)$ we are able to identify its maximal\nideals.\\\n$\\;$\n\n[**Theorem 1 -**]{} Let $\\Delta$ be the character space of $C(X)$. For\neach $x \\in X$ let $ev_x \\in \\Delta$ be the point-evaluation at $x$,\ni.e. $$ev_x(f)=f(x)\\;, \\qquad\\qquad\\;f \\in C(X)$$ Then the mapping\n$x \\longmapsto ev_x$ is an homeomorphism between $\\Delta$ and $X$.\\\n$\\;$\n\nThus, the character space of $C(X)$ is homeomorphic to $X$ via\npoint-evaluations.\n\nNow, the maximal ideals of $C(X)$ correspond to the kernels of the\npoint-evaluation functions. The kernel of $ev_x$, the point-evaluation\nat $x$, is just $$\\begin{aligned}\n\\{f \\in C(X) : f(x) = 0 \\}\\end{aligned}$$ i.e., the functions that\nvanish at $x$.\n\nThus, each maximal ideal of $C(X)$ is just the set of functions that\nvanish in a given point.\n\nGeneralization to locally compact Hausdorff spaces\n--------------------------------------------------\n\nNow, let $X$ be a locally compact Hausdorff space and $C_0(X)$ the space\nof continuous functions $X \\longrightarrow \\mathbb{C}$ that vanish at\ninfinity.\n\nThere is a generalization of Theorem 1 above that allows one to identify\nthe character space of $C_0(X)$, but since this algebra is not unital\nunless $X$ is compact, we cannot identify its maximal ideals by the\nabove method.\\\n$\\;$\n\n[**Theorem 2-**]{} Let $\\Delta$ be the character space of $C_0(X)$. For\neach $x \\in X$ let $ev_x \\in \\Delta$ be the point-evaluation at $x$,\ni.e. $$ev_x(f)=f(x)\\;, \\qquad\\qquad\\;f \\in C_0(X)$$ Then the mapping\n$x \\longmapsto ev_x$ is an homeomorphism between $\\Delta$ and $X$.\\\n$\\;$\n\nThus, the character space of $C_0(X)$ is also homeomorphic to $X$ via\npoint-evaluations.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MaximalIdealsOfTheAlgebraOfContinuousFunctionsOnACompactSet"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "maximal ideals of the algebra of continuous functions on a compact set",
+    "character space of the algebra of continuous functions on a compact set"
+  ]
+}

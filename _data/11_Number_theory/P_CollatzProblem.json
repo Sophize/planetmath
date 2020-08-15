@@ -1,0 +1,20 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We define the function $f : \\mathbb{N} \\longrightarrow \\mathbb{N} $\n(where $\\mathbb{N}$ excludes zero) such that\n\n$$f(a) =  \\left\\{\n\\begin{array}{rl}\n3a+1  & \\text{ if } a \\text{ is odd }   \\\\\n a/2  & \\text{ if } a \\text{ is even.}  \n\\end{array}\n\\right.$$\n\nThen let the sequence $c_n$ be defined as $c_i = f(c_{i-1})$, with $c_0$\nan arbitrary natural seed value.\n\nIt is conjectured that the sequence $c_0, c_1, c_2, \\ldots$ will always\nend in $1,4,2$, repeating infinitely. This has been verified by computer\nup to very large values of $c_0$, but is unproven in general. It is also\nnot known whether this problem is decideable. This is generally called\nthe *Collatz problem*.\n\nThe sequence $c_n$ is sometimes called the \u201chailstone sequence\u201d. This is\nbecause it behaves analogously to a hailstone in a cloud which falls by\ngravity and is tossed up again repeatedly. The sequence similarly ends\nin an eternal oscillation.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CollatzProblem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Collatz problem",
+    "Ulam's Problem",
+    "1-4-2 Problem",
+    "Syracuse problem",
+    "Thwaites conjecture",
+    "Kakutani's problem",
+    "3n+1 problem"
+  ]
+}

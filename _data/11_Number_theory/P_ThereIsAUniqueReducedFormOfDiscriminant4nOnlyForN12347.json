@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The number of reduced of a given $\\Delta<0$ is finite; the number of\nsuch forms is $h_{\\Delta}$.\n\nLet $n$ be a positive integer. Then $h_{-4n}=1$ if and only if\n$n=1,2,3,4,\\text{ or }7$.\n\n(This proof is taken from [@bib:cox], which is itself taken from an\nearlier proof). By computing all reduced forms of discriminants\n$-4,-8,-12,-16, -20$ one can see that $h_{-4n}=1$ in the five cases\ngiven in the statement of the theorem. We show there are no others.\n\nClearly $x^2+ny^2$ is a reduced form of discriminant $-4n$. For\n$n\\notin \\{1,2,3,4,7\\}$, we will produce a second reduced form of the\nsame discriminant, showing that $h_{-4n}>1$. We may assume $n>1$, since\nwe already know that $h_{-4}=1$.\n\nSuppose first that $n$ has at least two distinct prime factors. Then we\ncan write $n=ac$ where $1<a<c,\\ \\gcd(a,c)=1$. Then $ax^2+cy^2$ is\nreduced, and its discriminant is $-4ac=-4n$. So if $n$ has two distinct\nprime factors, $h_{-4n}>1$.\n\nWe now consider the prime power case, taking $2^r$ and $p^r$, $p$ an odd\nprime, separately.\n\nIf $n=2^r$, then we already know that for $r=1,2$, $h_{-4n}=1$. For\n$r=3$, one can compute the classes of discriminant $-32$ and see that\n$h_{-4n}=2$. For $r\\geq 4$, then $$4x^2+4xy+(2^{r-2}+1)y^2$$ is clearly\nprimitive, and is also reduced since $4\\leq 2^{r-2}+1$. Further, its\ndiscriminant is $4^2-4\\cdot 4\\cdot(2^{r-2}+1)=-16\\cdot 2^{r-2}=-4n$.\nThus in this case as well, $h_{-4n}>1$.\n\nFinally, suppose $n=p^r$, $p$ an odd prime. Suppose we can write\n$n+1=ac, 2\\leq a<c,\\ \\gcd(a,c)=1$. Then $$ax^2+2xy+cy^2$$ is reduced and\nhas discriminant $-4n$, so $h_{-4n}>1$. So we are left with the case\nwhere $n+1$ is a prime power which, since it is even, must be $2^s$.\n$s=1,2,3$ correspond to $n=1,3,7$; $s=4$ corresponds to $n=15$, which is\nnot a prime power; and for $s=5$, one can simply compute the forms of\ndiscriminant $-4\\cdot 31$ to see that $h_{-4\\cdot 31}=3$. So the only\npossibility remaining is that $s\\geq 6$. In this case, though,\n$$8x^2+6xy+(2^{s-3}+1)y^2$$ has relatively prime coefficients, and is\nreduced since $s\\geq 6\\Rightarrow 8\\leq 2^{s-3}+1$. Also, its\ndiscriminant is $6^2-4\\cdot 8\\cdot(2^{s-3}+1)=4-4\\cdot2^s=4-4(n+1)=-4n$,\nand thus $h_{-4n}>1$ in this case as well.\n\n[10]{} Cox,\u00a0D.A. *Primes of the Form $x^2 + ny^2$: Fermat, Class Field\nTheory, and Complex Multiplication*, Wiley 1997.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThereIsAUniqueReducedFormOfDiscriminant4nOnlyForN12347"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "there is a unique reduced form of discriminant $-4n$ only for $n=1,2,3,4,7$"
+  ]
+}

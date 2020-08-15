@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A linear transformation is continuous if the domain is finite\ndimensional.\n\nSuppose $L\\colon X\\to Y$ is the transformation, $\\dim X = n$, and\n$\\Vert \\cdot \\Vert_X$, $\\Vert \\cdot \\Vert_Y$ are the norms on $X$, $Y$,\nrespectively. By and , it suffices to prove that $L\\colon X\\to L(X)$ is\ncontinuous when $L(X)$ is equipped with the topology given by\n$\\Vert \\cdot \\Vert_Y$ restricted onto $L(X)$. Also, since continuity and\nboundedness are equivalent, it suffices to prove that $L$ is bounded.\nLet $e_1,\\ldots, e_n$ be a basis for $X$ such that $L$ is invertible on\n$\\operatorname{span} \\{e_{1}, \\ldots, e_k\\}$ and\n$\\operatorname{ker} L = \\operatorname{span} \\{e_{k+1}, \\ldots, e_n\\}$\nfor $k=1,\\ldots, n$. (The zero map is always continuous.) Let\n$f_i=L(e_i)$ for $i=1,\\ldots, k$, so that\n$\\operatorname{span}\\{f_1, \\ldots, f_k\\}=L(X)$. Let us define new norms\non $X$ and $L(X)$, $$\\begin{aligned}\n  \\Vert x \\Vert'_X &=& \\sqrt{\\sum_{i=1}^n \\alpha_i^2},\\\\\n  \\Vert y \\Vert'_X &=& \\sqrt{\\sum_{i=1}^k \\beta_i^2},\\end{aligned}$$ for\n$x=\\sum_{i=1}^n \\alpha_i e_i\\in X$ and\n$y=\\sum_{i=1}^k \\beta_i f_i \\in Y$. Since norms on finite dimensional\nvector spaces are equivalent, it follows that $$\\begin{aligned}\n    1/C \\Vert x \\Vert'_X \\le \\Vert x \\Vert_X \\le C \\Vert x \\Vert'_X, \\quad x\\in X \\\\\n    1/D \\Vert y \\Vert'_Y \\le \\Vert y \\Vert_Y \\le D \\Vert y \\Vert'_Y, \\quad y\\in L(X)\\end{aligned}$$\nfor some constants $C,D>0$. For $x=\\sum_{i=1}^n \\alpha_i e_i\\in X$,\n$$\\begin{aligned}\n\\Vert L(x)\\Vert_Y &\\le & D \\Vert \\sum_{i=1}^k \\alpha_i f_i \\Vert'_Y \\\\\n   &=& D \\sqrt{\\sum_{i=1}^k \\alpha_i^2} \\\\\n   &\\le& D \\sqrt{\\sum_{i=1}^n \\alpha_i^2} \\\\\n   &=& D \\Vert x \\Vert'_X \\\\\n   &=& CD \\Vert x \\Vert_X.\\end{aligned}$$ Thus $L\\colon X\\to L(X)$ is\nbounded.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearTransformationIsContinuousIfItsDomainIsFiniteDimensional"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "linear transformation is continuous if its domain is finite dimensional"
+  ]
+}

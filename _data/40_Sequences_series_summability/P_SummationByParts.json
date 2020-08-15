@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following corollaries apply Abel\u2019s lemma to allow estimation of\ncertain bounded sums:\n\n(Summation by parts) Let $\\{a_i\\},\\{b_i\\}$ be sequences of complex\nnumbers. Suppose the partial sums of the $a_i$ are bounded in magnitude\nby $h$, that $\\sum_0^{\\infty} |b_i-b_{i+1}|$ converges, and that\n$\\lim_{i\\to\\infty} b_i=0$. Then $\\sum_0^{\\infty} a_i b_i$ converges, and\n$$\\left|\\sum_0^{\\infty}a_i b_i\\right|\\leq h\\sum_0^{\\infty}|b_i-b_{i+1}|$$\n\n**Proof.** By Abel\u2019s lemma,\n$$\\sum_{i=0}^N a_ib_i = \\sum_{i=0}^{N-1} A_i(b_i-b_{i+1}) + A_Nb_N$$ so\nthat $$\\begin{aligned}\n\\left\\lvert \\sum_{i=0}^N a_ib_i\\right\\rvert &= \\left\\lvert \\sum_{i=0}^{N-1} A_i(b_i-b_{i+1}) + A_Nb_N\\right\\rvert \\leq \\sum_{i=0}^{N-1}\\left\\lvert A_i(b_i-b_{i+1})\\right\\rvert + \\left\\lvert A_Nb_N\\right\\rvert\\\\\n&\\leq h\\sum_{i=0}^{N-1}\\left\\lvert b_i-b_{i+1}\\right\\rvert + h\\left\\lvert b_N\\right\\rvert\\end{aligned}$$\nThe condition that the $b_i\\to 0$ is easily seen to imply that the\nsequence $\\left\\lvert \\sum_{i=0}^N a_ib_i\\right\\rvert$ is Cauchy hence\nconvergent, so that\n$$\\left\\lvert \\sum_{i=0}^\\infty a_ib_i\\right\\rvert \\leq h\\sum_{i=0}^{\\infty} \\left\\lvert b_i-b_{i+1}\\right\\rvert$$\nsince $b_N\\to 0$.\n\n(Summation by parts for real sequences) Let $\\{a_i\\}$ be a sequence of\ncomplex numbers. Suppose the partial sums are bounded in magnitude by\n$h$. Let $\\{b_i\\}$ be a sequence of decreasing positive real numbers\nsuch that $\\lim_{i\\to\\infty} b_i=0$. Then $\\sum_1^{\\infty} a_ib_i$\nconverges, and $|\\sum_1^{\\infty} a_ib_i|\\leq hb_1$.\n\n**Proof.** This follows immediately from the above, since\n$|b_i-b_{i+1}|=b_i-b_{i+1}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SummationByParts"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "summation by parts",
+    "partial summation"
+  ]
+}

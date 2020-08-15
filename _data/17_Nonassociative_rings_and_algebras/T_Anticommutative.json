@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "anticommutative operation",
+    "anticommutativity"
+  ],
+  "definition": "A binary operation \u201c$\\star$\u201d is said to be *anticommutative* if it\nsatisfies the identity $$\\begin{aligned}\ny\\!\\star\\!x \\;=\\; -(x\\!\\star\\!y),\\end{aligned}$$ where the minus denotes\nthe element in the algebra in question. This implies that\n$x\\!\\star\\!x \\;=\\; -(x\\!\\star\\!x)$, i.e. $x\\!\\star\\!x$ must be the\nneutral element of the addition of the algebra: $$\\begin{aligned}\nx\\!\\star\\!x \\;=\\; \\textbf{0}.\\end{aligned}$$ Using the distributivity of\n\u201c$\\star$\u201d over \u201c$+$\u201d we see that the indentity (2) also implies (1):\n$$\\textbf{0} \\;=\\; (x\\!+\\!y)\\!\\star\\!(x\\!+\\!y) \\;=\\; x\\!\\star\\!x+x\\!\\star\\!y+y\\!\\star\\!x+y\\!\\star\\!y\n\\;=\\; x\\!\\star\\!y+y\\!\\star\\!x$$\\\nA well known example of anticommutative operations is the vector product\nin the algebra $(\\mathbb{R}^3,\\,+,\\,\\times)$, satisfying\n$$\\vec{b}\\!\\times\\!\\vec{a} \\;=\\; -(\\vec{a}\\!\\times\\!\\vec{b}),\n\\qquad \\vec{a}\\!\\times\\!\\vec{a} \\;=\\; \\vec{0}.$$ Also we know that the\nsubtraction of numbers obeys identities\n$$b\\!-\\!a \\;=\\; -(a\\!-\\!b), \\qquad a\\!-\\!a \\;=\\; 0.$$\\\nAn important anticommutative operation is the Lie bracket.",
+  "language": "INFORMAL",
+  "phrase": "Anticommutative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Anticommutative"
+    }
+  ],
+  "indexable": true
+}

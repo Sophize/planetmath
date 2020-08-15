@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We use the curved from the Laplace-transformed functions to the\ncorresponding initial functions.\\\nIf $$f(t,x) \\;\\,\\curvearrowleft\\;\\, F(s,x),$$ then one can differentiate\nboth functions with respect to the parametre $x$: $$\\begin{aligned}\nf'_x(t,x)  \\;\\,\\curvearrowleft\\;\\, F'_x(s,x)\\end{aligned}$$ (1) may be\nwritten also as $$\\begin{aligned}\n\\mathcal{L}\\{\\frac{\\partial}{\\partial x}f(t,x)}\\}\n\\;=\\; \\frac{\\partial}{\\partial x}\\mathcal{L}\\{f(t,x)\\}.\\end{aligned}$$\n\n[*Proof.*]{} We differentiate partially both sides of the defining\nequation $$F(s,x) \\;:= \\int_0^\\infty e^{-st}f(t,x)\\,dt,$$ on the right\nhand side , getting $$\\begin{aligned}\nF'_x(s,x) \\;=\\; \\int_0^\\infty e^{-st}f'_x(t,x)\\,dx,\\end{aligned}$$ which\nmeans same as (1). Q.E.D.\\\n**Example.** If the rule\n$$\\frac{s}{s^2\\!-\\!a^2} \\;\\,\\curvearrowright\\;\\, \\cosh{at}$$ is\ndifferentiated with respect to $a$, the result is\n$$\\frac{2as}{(s^2\\!-\\!a^2)^2}\\;\\,\\curvearrowright\n\\;\\, t\\,\\sinh{at}.$$\\\n\n[9]{} . Handout Nr. 163.Teknillisen korkeakoulun ylioppilaskunta,\nOtaniemi, Finland (1968).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DifferentiationOfLaplaceTransformWithRespectToParameter"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "differentiation of Laplace transform with respect to parameter"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $f$ is a ring homomorphism from a subring $\\mathfrak{o}$ of a field\n$k$ to an algebraically closed field $F$ such that $f(1) = 1$, then\nthere exists a $$\\varphi: \\,k\\to F\\cup\\{\\infty\\}$$ of the field $k$ such\nthat $$\\varphi|_\\mathfrak{o} = f.$$\n\n**Note.** That $F$ should be algebraically closed, does not , since\nevery field is extendable to such one.\n\n[8]{} Emil Artin: [**]{}. Lecture notes. Mathematisches Institut,\nG\u00f6ttingen (1959).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PlaceAsExtensionOfHomomorphism"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "place as extension of homomorphism",
+    "extension theorem"
+  ]
+}

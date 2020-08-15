@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Viswanath constant"
+  ],
+  "definition": "[*Viswanath\u2019s constant*]{} $V \\approx 1.1319882487943$ is a real number\nwhose $n$th power approximates the absolute value of the $n$th term of\nsome random Fibonacci sequences, especially as $n$ gets larger. In his\n2000 paper, Divakar Viswanath gave the value of the function to just\neight decimal places as 1.13198824. Viswanath believed the logarithm of\nthe constant to lie between 0.123975598 and 0.1239755995. Oliveira and\nFiguereido in 2002 computed the value again using interval arithmetic\ninstead of Viswanath\u2019s \u201cdetailed rounding-error analysis,\u201d in order to\nobtain \u201cslightly better results.\u201d Using Mathematica, Eric Weisstein\ncomputed a different value: 1.1321506910656020459.\n\nThe continued fraction of Viswanath\u2019s constant, which is not periodic,\nbegins\n\n$$1 + \\frac{1}{1 + \\frac{1}{7 + \\frac{1}{1 + \\frac{1}{\\ddots}}}},$$\n\nand aside from some instances of 2s, is thought to contain mostly odd\nnumbers.\n\n[1]{} S. R. Finch, [*Mathematical Constants*]{}. Cambridge: Cambridge\nUniversity Press (2003): 1.2.4 Jo\u00e3o Batista Oliveira & Luiz Henrique de\nFiguereido, \u201cInterval Computation of Viswanath\u2019s Constant\u201d [*Reliable\nComputing*]{} [**8**]{} 2 (2002): 131 - 138 Divakar Viswanath \u201cRandom\nFibonacci sequences and the number 1.13198824....\u201d [*Mathematics of\nComputation*]{} [**69**]{} 231 (2000): 1131 - 1155",
+  "language": "INFORMAL",
+  "phrase": "Viswanath'S Constant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ViswanathsConstant"
+    }
+  ],
+  "indexable": true
+}

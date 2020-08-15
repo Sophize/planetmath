@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "enqueue"
+  ],
+  "definition": "Given a stack, the act of adding a new element to the top of the stack\nis to *push* an element onto it. If there is a stack pointer, it would\nbe incremented (or decremented if the bottom element of the stack is\nplaced at the highest memory address available).\n\nTo do this to a queue is usually called to *enqueue*.",
+  "language": "INFORMAL",
+  "phrase": "Push",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Push"
+    }
+  ],
+  "indexable": true
+}

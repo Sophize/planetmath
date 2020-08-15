@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Conjecture (Dorin Andrica). Given the $n$th prime $p_n$, it is always\nthe case that $1 > \\sqrt{p_{n + 1}} - \\sqrt{p_n}$.\n\nThis conjecture remains unproven as of 2007. The conjecture has been\nchecked up to $n = 10^5$ by computers.\n\nThe largest known difference of square roots of consecutive primes\nhappens for the small $n = 4$, being approximately 0.67087347929081. The\ndifference of the square roots of the primes $10^{314} - 1929$ and\n$10^{314} + 2318$ (which cap a prime gap of 4247 consecutive composite\nnumbers discovered in 1992 by Baugh & O\u2019Hara) is a very small number\nwhich is obviously much smaller than 1.\n\n[1]{} D. Baugh & F. O\u2019Hara, \u201cLarge Prime Gaps\u201d [*J. Recr. Math.*]{}\n[**24**]{} (1992): 186 - 187.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AndricasConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Andrica's conjecture",
+    "Andrica conjecture"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every ring is a near-ring. The converse is true only when additional\nconditions are imposed on the near-ring.\n\nLet $(R,+,\\cdot)$ be a near ring with a multiplicative identity $1$ such\nthat the $\\cdot$ also left distributes over $+$; that is,\n$c\\cdot (a+b)=c\\cdot a+c\\cdot b$. Then $R$ is a ring.\n\nIn short, a distributive near-ring with $1$ is a ring.\n\nBefore proving this, let us list and prove some general facts about a\nnear ring:\n\n1.  Every near ring has a unique additive identity: if both $0$ and $0'$\n    are additive identities, then $0=0+0'=0'$.\n\n2.  Every element in a near ring has a unique additive inverse. The\n    additive inverse of $a$ is denoted by $-a$.\n\n    If $b$ and $c$ are additive inverses of $a$, then $b+a=0=a+c$ and\n    $b=b+0=b+(a+c)=(b+a)+c=0+c=c$.\n\n3.  $-(-a)=a$, since $a$ is the (unique) additive inverse of $-a$.\n\n4.  There is no ambiguity in defining \u201csubtraction\u201d $-$ on a near ring\n    $R$ by $a-b:=a+(-b)$.\n\n5.  \\[c\\] $a-b=0$ iff $a=b$, which is just the combination of the above\n    three facts.\n\n6.  If a near ring has a multiplicative identity, then it is unique. The\n    proof is identical to the one given for the first Fact.\n\n7.  \\[w\\] If a near ring has a multiplicative identity $1$, then\n    $(-1)a=-a$.\n\n    $a+(-1)a=1a+(-1)a=(1+(-1))a=0a=0$. Therefore $(-1)a=-a$ since $a$\n    has a unique additive inverse.\n\nWe are now in the position to prove the theorem.\n\nSet $r=a+b$ and $s=b+a$. Then $$\\begin{aligned}\n{2}\nr-s &=r-(b+a) &\\quad \\qquad \\text{substitution} \\\\\n&=r+(-1)(b+a) &\\quad \\qquad \\text{by Fact \\ref{w} above} \\\\\n&= r+((-1)b+(-1)a) &\\quad \\qquad \\text{by left distributivity} \\\\\n&= r+(-b+(-a)) &\\quad \\qquad \\text{by Fact \\ref{w} above} \\\\\n&= (a+b)+(-b+(-a)) &\\quad \\qquad \\text{substitution} \\\\\n&= ((a+b)+(-b))+(-a) &\\quad \\qquad \\text{additive associativity} \\\\\n&= (a+(b+(-b))+(-a) &\\quad \\qquad \\text{additive associativity} \\\\\n&= (a+0)+(-a) &\\quad \\qquad -b \\text{ is the additive inverse of } b\\\\\n&= a+(-a) &\\quad \\qquad 0 \\text{ is the additive identity} \\\\\n&= 0 &\\quad \\qquad \\text{same reason as above}\\end{aligned}$$ Therefore,\n$a+b=r=s=b+a$ by Fact \\[c\\] above.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConditionOnANearRingToBeARing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "condition on a near ring to be a ring"
+  ]
+}

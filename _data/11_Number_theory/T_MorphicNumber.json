@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The golden ratio $\\varphi = \\frac{1+\\sqrt{5}}{2}$ satisfies the\nequations $$\\begin{aligned}\n\\begin{cases}\n\\varphi\\!+\\!1 \\;=\\; \\varphi^2, \\\\\n\\varphi\\!-\\!1 \\;=\\; \\varphi^{-1}\n\\end{cases}\\end{aligned}$$ from which the latter is obained from the\nformer by dividing by $\\varphi$. There is a pair of equations satisfied\nby the plastic number $P$: $$\\begin{aligned}\n\\begin{cases}\nP\\!+\\!1 \\;=\\; P^3, \\\\\nP\\!-\\!1 \\;=\\; P^{-4}\n\\end{cases}\\end{aligned}$$ Here, the latter equation is justified by\n$$P^5\\!-\\!P^4\\!-\\!1 \\;\\equiv\\; (\\underbrace{P^3\\!-\\!P\\!-\\!1}_{=\\;0})(P^2\\!-\\!P\\!+\\!1)$$\nwhen this is divided by $P^4$.\\\nAn algebraic integer is called a *morphic number*, iff it satisfies a\npair of equations $$\\begin{aligned}\n\\begin{cases}\nx\\!+\\!1 \\;=\\; x^m, \\\\\nx\\!-\\!1 \\;=\\; x^{-n}\n\\end{cases}\\end{aligned}$$ for some positive integers $m$ and $n$.\\\nAccordingly, the golden ratio and the plastic number are morphic\nnumbers. It can be shown that there are no other real morphic numbers\ngreater than 1.\n\n[8]{} : Morphic numbers. \u2013 *Nieuw Archief voor Wiskunde* 5/2 (2001).",
+  "language": "INFORMAL",
+  "phrase": "Morphic Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MorphicNumber"
+    }
+  ],
+  "indexable": true
+}

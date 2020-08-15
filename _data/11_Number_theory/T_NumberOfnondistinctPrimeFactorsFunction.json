@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The $\\Omega(n)$ counts with repetition how many prime factors a natural\nnumber $n$ has. If $\\displaystyle n= \\prod_{j= 1}^k {p_j}^{a_j}$ where\nthe $k$ primes $p_j$ are distinct and the $a_j$ are natural numbers,\nthen $\\displaystyle \\Omega(n)=\\sum_{j=1}^k a_j$.\n\nNote that, if $n$ is a squarefree number, then $\\omega(n)=\\Omega(n)$,\nwhere $\\omega(n)$ is the number of distinct prime factors function.\nOtherwise, $\\omega(n)<\\Omega(n)$.\n\nNote also that $\\Omega(n)$ is a completely additive function and thus\ncan be exponentiated to define a completely multiplicative function. For\nexample, the Liouville function can be defined as\n$\\lambda(n) = (-1)^{\\Omega(n)}$.\n\nThe sequence $\\{\\Omega(n)\\}$ appears in the OEIS as sequence .\n\nThe sequence $\\{2^{\\Omega(n)}\\}$ appears in the as sequence .",
+  "language": "INFORMAL",
+  "phrase": "Number Of (Nondistinct) Prime Factors Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NumberOfnondistinctPrimeFactorsFunction"
+    }
+  ],
+  "indexable": true
+}

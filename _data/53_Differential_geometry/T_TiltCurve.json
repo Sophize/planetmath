@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*tilt curves*]{} (in German [*die Neigungskurven*]{}) of a surface\n$$z = f(x,\\,y)$$ are the curves on the surface which orthogonally the\nlevel curves $f(x,\\,y) = c$ of the surface. If the gravitation acts in\ndirection of the negative $z$-axis, then a drop of water on the surface\naspires to slide along a tilt curve. For example, since the level curves\nof the sphere $z = \\pm\\sqrt{r^2-x^2-y^2}$ are the \u201clatitude circles\u201d,\nthe tilt curves of the sphere are the \u201cmeridian circles\u201d. The tilt\ncurves of a helicoid are circular helices.\\\nIf the tilt curves are projected on the $xy$-plane, the differential\nequation of those projection curves is $$\\begin{aligned}\n\\frac{dy}{dx} = \\frac{f'_y(x,\\,y)}{f'_x(x,\\,y)}.\\end{aligned}$$\nNaturally, they also cut orthogonally (the projections of) the level\ncurves.\\\n**Example.** Let us find the tilt curves of the elliptic paraboloid\n$$z = \\frac{x^2}{a^2}+\\frac{y^2}{b^2}.$$ The level curves are the\nellipses $\\frac{x^2}{a^2}+\\frac{y^2}{b^2} = c$. Now we have\n$$f'_x(x,\\,y) = \\frac{\\partial}{\\partial x}\\!\\left(\\frac{x^2}{a^2}\\!+\\!\\frac{y^2}{b^2}\\right) = \\frac{2x}{a^2}, \\quad\n  f'_y(x,\\,y) = \\frac{\\partial}{\\partial y}\\!\\left(\\frac{x^2}{a^2}\\!+\\!\\frac{y^2}{b^2}\\right) = \\frac{2y}{b^2},$$\nwhence the differential equation of the tilt curves is\n$$\\frac{dy}{dx} = \\frac{a^2}{b^2}\\!\\cdot\\!\\frac{y}{x}.$$ The separation\nof variables and the integration yield\n$$\\int\\frac{dy}{y} = \\frac{a^2}{b^2}\\!\\int\\frac{dx}{x},$$ then\n$$\\ln|y| = \\frac{a^2}{b^2}\\ln|x|+\\ln|C| = \\ln(|C||x|^{a^2/b^2}),$$ and\nfinally $$\\begin{aligned}\ny = C|x|^{a^2/b^2}.\\end{aligned}$$ Here, we may allow for $C$ all\npositive and negative values. The curves (2) originate from the origin\nand continue infinitely far.\\\n**Remark.** Given an arbitrary family of parametre curves on a surface\n$$\\vec{r} \\,=\\, (x(u,\\,v),\\;y(u,\\,v),\\;z(u,\\,v))^\\intercal$$ of\n$\\mathbb{R}^3$, e.g. in the form $$\\frac{du}{dv} = f(u,\\,v),$$ the\nfamily of its orthogonal curves on the surface has in the Gaussian\ncoordinates $u,\\,v$ the differential equation $$\\begin{aligned}\n\\frac{dv}{du} = -\\frac{g_{11}+g_{12}f(u,\\,v)}{g_{12}+g_{22}f(u,\\,v)},\\end{aligned}$$\nwhere\n$$g_{11} = \\vec{r}\\,'_u\\cdot\\vec{r}\\,'_u, \\quad g_{12} = \\vec{r}\\,'_u\\cdot\\vec{r}\\,'_v, \\quad \n  g_{22} = \\vec{r}\\,'_v\\cdot\\vec{r}\\,'_v$$ are the fundamental\nquantities $E,\\,F,\\,G$ of Gauss, respectively.",
+  "language": "INFORMAL",
+  "phrase": "Tilt Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TiltCurve"
+    }
+  ],
+  "indexable": true
+}

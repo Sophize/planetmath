@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "Higgs' prime",
+    "Higgs's prime",
+    "Higg's prime",
+    "Higg prime"
+  ],
+  "definition": "A [*Higgs prime*]{} is a prime number $Hp_n$ for which, given an\nexponent $a$, it is the case that\n$$\\phi(Hp_n)|\\prod_{i = 1}^{n - 1} {Hp_i}^a,$$ (where $\\phi(x)$ is\nEuler\u2019s totient function) and $Hp_n > Hp_{n - 1}$.\n\nFor $a = 2$, the first few Higgs primes are 2, 3, 5, 7, 11, 13, 19, 23,\n29, 31, 37, 43, 47, etc., listed in A007459 of Sloane\u2019s OEIS. So, for\nexample, 13 is a Higgs prime because the square of the product of the\nsmaller Higgs primes is 5336100, and divided by 12 this is 444675. But\n17 is not a Higgs prime because the square of the product of the smaller\nprimes is 901800900, which leaves a remainder of 4 when divided by 16.\n\nFrom observation of the first few Higgs primes for squares through\nseventh powers, it would seem more compact to list those primes that are\nnot Higgs primes. Observation further reveals that a Fermat prime\n$2^{2^n} + 1$ can\u2019t be a Higgs prime for the $a$th power if $a < 2^n$.\n\nIt\u2019s not known if there are infinitely many Higgs primes for any\nexponent $a > 1$. The situation is quite different for $a = 1$. There\nare only four of them: 2, 3, 7 and 43 (a sequence suspiciously similar\nto Sylvester\u2019s sequence). In 1993, Burris and Lee found that about a\nfifth of the primes below a million are Higgs prime, and they concluded\nthat even if the sequence of Higgs primes for squares is finite, \u201ca\ncomputer enumeration is not feasible.\u201d\n\n[1]{} S. Burris & S. Lee, \u201cTarski\u2019s high school identities\u201d, [*Amer.\nMath. Monthly*]{} [**100**]{} (1993): 233 N. Sloane & S. Plouffe, [*The\nEncyclopedia of Integer Sequences*]{}, New York: Academic Press (1995):\nM0660",
+  "language": "INFORMAL",
+  "phrase": "Higgs Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HiggsPrime"
+    }
+  ],
+  "indexable": true
+}

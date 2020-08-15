@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Fix a commutative unital ring $K$ and a set $X$. Then a commutative\nassociative $K$-algebra $F$ is said to be *free on $X$* if there exists\nan injection $\\iota:X\\rightarrow F$ such that for all functions\n$f:X\\rightarrow A$ where $A$ is a commutative $K$-algebra determine a\nunique algebra homomorphism $\\hat{f}:F\\rightarrow A$ such that\n$\\iota\\hat{f}=f$. This is an example of a universal mapping property for\ncommutative associative algebras and in categorical settings is often\nexplained with the following commutative diagram: $$\\xymatrix{\n& X\\ar[ld]_{\\iota}\\ar[rd]^{f} & \\\\\nF\\ar[rr]^{\\hat{f}} & & A.\n}$$ To construct a free commutative associative algebra we observe that\ncommutative associative algebras are a subcategory of associative\nalgebras and thus we can make use of free associative algebras in the\nconstruction and proof.\n\nGiven a set $X$, and a commutative unital ring $K$, the free commutative\nassociative $K$-algebra on $X$ is the polynomial ring $K[X]$.\n\nLet $A$ be any commutative associative $K$-algebra and\n$f:X\\rightarrow A$. Recall $K\\langle X\\rangle$ is the free associative\n$K$-algebra on $X$ and so by the universal mapping property of this free\nobject there exists a map $\\hat{f}:K\\langle X\\rangle \\rightarrow A$ such\nthat $\\iota_{K\\langle X\\rangle} \\hat{f}=f$.\n\nWe also have a map $p:K\\langle X\\rangle\\rightarrow K[X]$ which\neffectively maps words over $X$ to words over $X$. Only in $K[X]$ the\nindeterminants commute. Since $A$ is commutative, $\\hat{f}$ factors\nthrough $p$, in the sense that there exists a map\n$\\tilde{f}:K[X]\\rightarrow A$ such that $p\\tilde{f}=\\hat{f}$. Thus\n$\\tilde{f}$ is the desired map which proves $K[X]$ is free in the\ncategory of commutative associative algebras.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FreeCommutativeAlgebra"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "free commutative algebra"
+  ]
+}

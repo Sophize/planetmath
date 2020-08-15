@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "An H\u00f6lder continuous mapping is uniformly continuous. In particular any\nLipschitz continuous mapping is uniformly continuous.\n\nLet $f\\colon X\\to Y$ be a mapping such that for some $C>0$ and $\\alpha$\nwith $0 < \\alpha \\le 1$ one has\n$$d_Y(f(p),f(q)) \\le C d_X(p,q)^\\alpha.$$ For every given\n$\\epsilon > 0$, choose\n$\\delta=\\left(\\epsilon/(C+1)\\right)^{\\frac 1 \\alpha}$. If $p,q\\in X$ are\ngiven points satisfying $$d_X(p,q)<\\delta$$ then\n$$d_Y(f(p),f(q))\\leq C \\delta^\\alpha \\le C\\frac{\\epsilon}{C+1} < \\epsilon,$$\nas desired.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformContinuityOfLipschitzFunctions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "uniform continuity of Lipschitz functions"
+  ]
+}

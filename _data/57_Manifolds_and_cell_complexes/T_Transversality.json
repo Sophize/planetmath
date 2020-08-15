@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Transversality is a fundamental concept in differential topology. We say\nthat two smooth submanifolds $A,B$ of a smooth manifold $M$ intersect\n*transversely*, if at any point $x\\in A\\cap B$, we have\n$$T_x A + T_x B = T_x X,$$ where $T_x$ denotes the tangent space at $x$,\nand we naturally identify $T_x A$ and $T_x B$ with subspaces of $T_x X$.\n\nIn this case, $A$ and $B$ intersect properly in the sense that $A\\cap B$\nis a submanifold of $M$, and\n$$\\mathrm{codim}(A\\cap B) = \\mathrm{codim}(A) + \\mathrm{codim}(B).$$\n\nA useful generalization is obtained if we replace the inclusion\n$A\\hookrightarrow M$ with a smooth map $f:A\\to M$. In this case we say\nthat $f$ is transverse to $B\\subset M$, if for each point\n$a\\in f^{-1}(B)$, we have $$df_a(T_a A) + T_{f(a)}B = T_{f(a)}M.$$ In\nthis case it turns out, that $f^{-1}(B)$ is a submanifold of $A$, and\n$$\\mathrm{codim}(f^{-1}(B)) = \\mathrm{codim}(B).$$\n\nNote that if $B$ is a single point $b$, then the condition of $f$ being\ntransverse to $B$ is precisely that $b$ is a regular value for $f$. The\nresult is that $f^{-1}(b)$ is a submanifold of $A$. A further\ngeneralization can be obtained by replacing the inclusion of $B$ by a\nsmooth function as well. We leave the details to the reader.\n\nThe importance of transversality is that it\u2019s a stable and generic\ncondition. This means, in broad terms that if $f:A\\to M$ is transverse\nto $B\\subset M$, then small perturbations of $f$ are also transverse to\n$B$. Also, given any smooth map $A\\to M$, it can be perturbed slightly\nto obtain a smooth map which is transverse to a given submanifold\n$B\\subset M$.",
+  "language": "INFORMAL",
+  "phrase": "Transversality",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Transversality"
+    }
+  ],
+  "indexable": true
+}

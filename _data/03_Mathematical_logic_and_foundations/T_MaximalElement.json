@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\le$ be an ordering on a set $S$, and let $A \\subseteq S$. Then,\nwith respect to the ordering $\\le$,\n\n-   $a \\in A$ is the *least* element of $A$ if $a \\le x$, for all\n    $x \\in A$.\n\n-   $a \\in A$ is a *minimal* element of $A$ if there exists no $x \\in A$\n    such that $x \\le a$ and $x \\ne a$.\n\n-   $a \\in A$ is the *greatest* element of $A$ if $x \\le a$ for all\n    $x \\in A$.\n\n-   $a \\in A$ is a *maximal* element of $A$ if there exists no $x \\in A$\n    such that $a \\le x$ and $x \\ne a$.\n\n#### Examples.\n\n-   The natural numbers $\\mathbb{N}$ ordered by divisibility ($\\mid$)\n    have a least element, $1$. The natural numbers greater than 1\n    ($\\mathbb{N} \\setminus \\{1\\}$) have no least element, but infinitely\n    many minimal elements (the primes.) In neither case is there a\n    greatest or maximal element.\n\n-   The negative integers ordered by the standard definition of $\\le$\n    have a maximal element which is also the greatest element, $-1$.\n    They have no minimal or least element.\n\n-   The natural numbers $\\mathbb{N}$ ordered by the standard $\\le$ have\n    a least element, $1$, which is also a minimal element. They have no\n    greatest or maximal element.\n\n-   The rationals greater than zero with the standard ordering $\\le$\n    have no least element or minimal element, and no maximal or greatest\n    element.",
+  "language": "INFORMAL",
+  "phrase": "Maximal Element",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MaximalElement"
+    }
+  ],
+  "indexable": true
+}

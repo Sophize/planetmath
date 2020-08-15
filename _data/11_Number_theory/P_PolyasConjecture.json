@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "(George P\u00f3lya) Given any range of consecutive integers from 1 to\n$n > 1$, at least half, if not more, of the integers in that range will\nhave an odd number of prime factors (not necessarily distinct). Or,\nrestated using the Liouville function $\\lambda(i) = (-1)^{\\Omega(i)}$\n(where $\\Omega(i)$ is the ), there is no such $n > 1$ such that\n$L(n) > 0$ where $$L(n) = \\sum_{i = 1}^n \\lambda(i).$$\n\nThe zeroes of the sum of the Liouville function below 1000 (namely 2, 4,\n6, 10, 16, 26, 40, 96, 586, listed in A028488 of Sloane\u2019s OEIS) were\nknown early on after the conjecture was posed. These are all followed by\nprimes, with the exception of 26, which is followed by $3^3$.\n\nArthur Ingham proved the conjecture false in 1942 and gave a method for\nfinding counterexamples, but the first counterexample wasn\u2019t found until\n1960 by Robert Lehman, namely $n = 906180359$. Two decades later, Minoru\nTanaka found the smallest counterexample at $n = 906150257$; the next\nthree integers have 2, 4 or 6 non-distinct prime factors.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolyasConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "P\\'olya's conjecture",
+    "Polya's conjecture",
+    "Polya conjecture",
+    "P\\'olya conjecture"
+  ]
+}

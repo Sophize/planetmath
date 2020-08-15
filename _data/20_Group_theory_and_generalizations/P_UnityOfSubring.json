@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $S$ be a proper subring of the ring $R$. If $S$ has a non-zero unity\n$u$ which is not unity of $R$, then $u$ is a zero divisor of $R$.\n\n[*Proof.*]{} Because $u$ is not unity of $R$, there exists an element\n$r$ of $R$ such that $ru \\neq r$. Then we have $(ru)u = r(uu) = ru$,\nwhich implies that $0 = (ru)u-ru = (ru-r)\\cdot u$. Since neither $ru-r$\nnor $u$ is 0, the element $u$ is a zero divisor in $R$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnityOfSubring"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "unity of subring"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "NKp"
+  ],
+  "definition": "$\\mathcal{NK}p$ is a natural deduction proof system for classical\npropositional logic. It is identical to NJp except that it replaces the\nrule $\\bot_i$ with the rule:\n\n$$\\frac{\\Gamma,\\neg\\alpha\\Rightarrow\\bot}{\\Gamma\\Rightarrow\\alpha}(\\bot_c),\\quad \\text{ where }\\alpha\\text{ is atomic}.$$",
+  "language": "INFORMAL",
+  "phrase": "$\\Mathcal{Nk}P$",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/mathcalNKp"
+    }
+  ],
+  "indexable": true
+}

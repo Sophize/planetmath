@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem** Let $1 \\le r < \\infty$ and $1 \\le p_j < \\infty$, where\n$\\sum_{j=1}^{n} \\frac{1}{p_j} = \\frac{1}{r}$. If $f_j \\in L^{p_j}$ for\n$1 \\le j \\le n$, then\n\n$\\prod_{j=1}^{n} f_j \\in L^r$ and\n$$|| \\prod_{j=1}^{n} f_j ||_r \\le \\prod_{j=1}^{n} ||f_j||_{p_j} .$$\n\nThe usual H\u00f6lder inequality has $n=2$ and $r=1$.\n\nLet $X$ be a finite set, say $X=\\{x_1, \\ldots, x_m\\}$ and $\\mu$ is the\ncounting measure on $X$, so that $\\mu(\\{x_i\\}) = 1$ for all $i$. Let\n$f_j(x_i) = a_{ij} \\ge 0$ for $j=1, \\ldots, n$ and take $r=1$. Then the\ninequality becomes:\n\n$$\\sum_{i=1}^{m} \\prod_{j=1}^{n} a_{ij} \\le \\prod_{j=1}^n ( \\sum_{i=1}^{m} {a_{ij}}^{p_j})^{\\frac{1}{p_j}} \\quad.$$.\n\nNow let $\\alpha_j = \\frac{1}{p_j}$, and $b_{ij} = {a_{ij}}^{p_j}$. Then\nthe inequality becomes:\n$$\\sum_{i=1}^{m} \\prod_{j=1}^{n} {b_{ij}}^{\\alpha_{j}} \\le \\prod_{j=1}^{n} (\\sum_{i=1}^{m} b_{ij}) ^ {\\alpha_{j}}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedHolderInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "generalized H\\\"older inequality"
+  ]
+}

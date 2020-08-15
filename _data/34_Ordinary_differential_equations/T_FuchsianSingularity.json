@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Fuchsian singular point",
+    "regular singular point",
+    "regular singularity"
+  ],
+  "definition": "Suppose that $D$ is an open subset of $\\mathbb{C}$ and that the $n$\nfunctions $c_k \n\\colon D \\to \\mathbb{C}, \\quad k = 0, \\ldots, n-1$ are meromorphic.\nConsider the ordinary differential equation\n$${d^n w \\over dz^n} + \\sum_{k=0}^{n-1} c_k (z) {d^k w \\over dz^k} = 0$$\nA point $p \\in D$ is said to be a *regular singular point* or a\n*Fuchsian singular point* of this equation if at least one of the\nfunctions $c_k$ has a pole at $p$ and, for every value of $k$ between\n$0$ and $n$, either $c_k$ is regular at $p$ or has a pole of order not\ngreater than $n-k$.\n\nIf $p$ is a Fuchsian singular point, then the differential equation may\nbe rewritten as a system of first order equations\n$${d v_i \\over dz} = {1 \\over z} \\sum_{j=1}^{n} b_{ij}(z) v_j (z)$$ in\nwhich the coefficient functions $b_{ij}$ are analytic at $z$. This fact\nhelps explain the restiction on the orders of the poles of the $c_k$\u2019s.\n\nIf an equation has a Fuchsian singularity, then the solution can be\nexpressed as a Frobenius series in a neighborhood of this point.\n\nA singular point of a differential equation which is not a regular\nsingular point is known as an irregular singular point.\n\n[**Examples**]{}\n\nThe Bessel equation\n$$w'' +  {1 \\over z} w' + {z^2 - 1 \\over z^2} w = 0$$ has a Fuchsian\nsingularity at $z=0$ since the coefficient of $w'$ has a pole of order\n$1$ and the coefficient of $w$ has a pole of order $2$.\n\nOn the other hand, the *Hamburger equation*\n$$w'' + {2 \\over z} w' + {z^2 - 1 \\over z^4} w = 0$$ has an irregular\nsingularity at $z=0$ since the coefficient of $w$ has a pole of order\n$4$.",
+  "language": "INFORMAL",
+  "phrase": "Fuchsian Singularity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FuchsianSingularity"
+    }
+  ],
+  "indexable": true
+}

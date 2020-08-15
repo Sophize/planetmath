@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring. An ideal $I$ of $R$ is a [*semiprime ideal*]{} if it\nsatisfies the following equivalent conditions:\n\n\\(a) $I$ can be expressed as an intersection of prime ideals of $R$;\n\n\\(b) if $x \\in R$, and $xRx \\subset I$, then $x \\in I$;\n\n\\(c) if $J$ is a two-sided ideal of $R$ and $J^2 \\subset I$, then\n$J \\subset I$ as well;\n\n\\(d) if $J$ is a left ideal of $R$ and $J^2 \\subset I$, then\n$J \\subset I$ as well;\n\n\\(e) if $J$ is a right ideal of $R$ and $J^2 \\subset I$, then\n$J \\subset I$ as well.\n\nHere $J^2$ is the product of ideals $J \\cdot J$.\n\nThe ring $R$ itself satisfies all of these conditions (including being\nexpressed as an intersection of an empty family of prime ideals) and is\nthus semiprime.\n\nA ring $R$ is said to be a [*semiprime ring*]{} if its zero ideal is a\nsemiprime ideal.\n\nNote that an ideal $I$ of $R$ is semiprime if and only if the quotient\nring $R/I$ is a semiprime ring.",
+  "language": "INFORMAL",
+  "phrase": "Semiprime Ideal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemiprimeIdeal"
+    }
+  ],
+  "indexable": true
+}

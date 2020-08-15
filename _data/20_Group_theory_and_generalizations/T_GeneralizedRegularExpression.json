@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Recall that a regular expression over an alphabet $\\Sigma$ is a finite\nstrings of symbols that are elements of $\\Sigma$, together with symbols\n$\\varnothing$, $\\cup$, $\\cdot$, $^*$, as well as $($ and $)$, which is\nput together based on a set of expression formation rules. In a\ngeneralized regular expression, additional symbols $\\cap$ and $\\neg$ are\ntossed in also. Formally,\n\n**Definition**. Given an alphabet $\\Sigma$, let $S$ be the set\n$\\lbrace \\varnothing, \\cup, \\cdot, ^*, \\cap, \\neg, (, ) \\rbrace$,\nconsidered to be disjoint from $\\Sigma$. Let $X$ be the smallest subset\nof $(\\Sigma\\cup S)^*$ containing the following:\n\n-   any regular expression is in $X$,\n\n-   if $u,v\\in Y$, then $(u\\cap v), (\\neg u)\\in X$.\n\nAn element of $X$ is called a *generalized regular expression* over\n$\\Sigma$.\n\nLike regular expressions, every generalized regular expressions are\ndesigned to represent languages (it is clear that $\\cap$ and $\\neg$ are\nintended to mean set-theoretic intersection and complementation). If $u$\nis a generalized regular expression:\n\n-   if $u$ is regular expression, then the language represented by $u$\n    as a generalized regular expression is $L(u)$, the language\n    represented by $u$ as a regular expression;\n\n-   if $A$ is represented by $u$ and $B$ is represented by $v$, then\n    $A\\cap B$ is represented by $(u\\cap v)$\n\n-   if $A$ is represented by $u$, then $\\Sigma^* - A$ is represented by\n    $(\\neg u)$.\n\nBy induction, it is easy to see that, given a generalized regular\nexpression $u$, there is exactly one language represented by $u$. We\ndenote $L(u)$ the language represented by $u$, and $\\mathscr{GR}$ the\nfamily of languages represented by generalized regular expressions.\n\nSince regular languages are closed under intersection and\ncomplementation, generalized regular expressions in this regard are no\npowerful than regular expressions. The symbols $\\neg$ and $\\cap$ are\ntherefore extraneous. In other words, $$\\mathscr{R}=\\mathscr{GR},$$\nwhere $\\mathscr{R}$ is the family of regular languages.\n\n[9]{} A. Salomaa, [*Formal Languages*]{}, Academic Press, New York\n(1973).",
+  "language": "INFORMAL",
+  "phrase": "Generalized Regular Expression",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedRegularExpression"
+    }
+  ],
+  "indexable": true
+}

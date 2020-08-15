@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $F\\colon \\mathcal{C}\\to \\mathcal{C}$ be an endofunctor on a category\n$\\mathcal{C}$. If $F$ is a bijection on both objects,\n$\\mathrm{Ob}(\\mathcal{C})$, and morphisms, $\\mathrm{Mor}(\\mathcal{C})$,\nthen it is an autofunctor.\n\nIn short, an autofunctor is a full and faithful endofunctor\n$F\\colon \\mathcal{C}\\to \\mathcal{C}$ such that the mapping\n$b: \\mathrm{Ob}(\\mathcal{C})\\to \\mathrm{Ob}(\\mathcal{C})$ which is\ninduced by $F$ is a bijection.\n\nAn autofunctor $F\\colon \\mathcal{C}\\to\\mathcal{C}$ is naturally\nisomorphic to the identity functor\n$\\mathrm{Id}_{\\mathcal{C}}: \\mathcal{C} \\to \\mathcal{C}$.",
+  "language": "INFORMAL",
+  "phrase": "Autofunctor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Autofunctor"
+    }
+  ],
+  "indexable": true
+}

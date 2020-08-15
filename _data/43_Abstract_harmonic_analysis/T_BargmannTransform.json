@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The Bargmann transform of a function, $f$, is a linear map\n$B: X(\\mathbb{R}) \\to Y(\\mathbb{C})$ defined by\n\n$$B f(z)=\\sqrt{2} \\int_\\mathbb{R} f(t)  \\hskip2pt e^{2\\pi t z-\\pi t^2 - \\frac{\\pi}{2} z^2}\\, dt$$\n\nThe Bargmann transform on $L^2(\\mathbb{R})$,\n$B: L^2(\\mathbb{R}) \\to \\mathcal{F}^2(\\mathbb{C})$, is a unitary\ntransformation. Here $\\mathcal{F}^2(\\mathbb{C})$ is the Fock space.\n\n[1]{} Karlheinz Gr\u00c3\u00b6chenig, \u201cFoundations of Time-Frequency Analysis,\u201d\n[*Birkhh\u00c3\u00a4user*]{} (2000)",
+  "language": "INFORMAL",
+  "phrase": "Bargmann Transform",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BargmannTransform"
+    }
+  ],
+  "indexable": true
+}

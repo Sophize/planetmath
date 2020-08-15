@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ be an arbitrary set, let $A^\\ast$ be the free monoid on $A$, and\nlet $X$ be a finite subset of $A^\\ast$ which is not a code. Then the\nfree hull $H$ of $X$ is itself finite and $|H|<|X|$.\n\nObserve how from the defect theorem follows that the equation $x^m=y^n$\nover $A^\\ast$ has only the trivial solutions where $x$ and $y$ are\npowers of the same word: in fact, $x^m=y^n$ iff $\\{x,y\\}$ is not a code.\n\n*Proof.* It is sufficient to prove the thesis in the case when $X$ does\nnot contain the empty word on $A$.\n\nDefine $f:X\\to H$ such that $f(x)$ is the only $h\\in H$ such that\n$x\\in hH^\\ast$: $f$ is well defined because of the choice of $X$ and\n$H$. Since $X$ is finite, the thesis shall be established once we prove\nthat $f$ is surjective but not injective.\n\nBy hypothesis, $X$ is not a code. Then there exists an equation\n$x_1\\cdots x_n=x'_1\\cdots x'_m$ over $X$ with a nontrivial solution: it\nis not restrictive to suppose that $x_1\\neq x'_1$. Since however the\nfactorization *over $H$* is unique, the $h$ such that $x_1\\in hH^\\ast$\nis the same as the $h'$ such that $x'_1\\in h'H^\\ast$: then\n$f(x_1)=f(x'_1)$ with $x_1\\neq x'_1$, so $f$ is not injective.\n\nNow suppose, for the sake of contradiction, that $h\\in H\\setminus f(X)$\nexists. Let $K=(H\\setminus\\{h\\})h^\\ast$. Then any equation\n$$\\label{eq:K}\nk_1\\cdots k_n=k'_1\\cdots k'_m\\;,k_1,\\cdots,k_n,k'_1,\\ldots,k'_m\\in K$$\ncan be rewritten as\n$$h_1h^{r_1}\\cdots h_nh^{r_n}=h'_1h^{s_1}\\cdots h'_mh^{s_m}\\;,\nh_1,\\ldots,h_n,h'_1,\\ldots,h'_m\\in H\\setminus\\{h\\}\\;,$$ with\n$k_i=h_ih^{r_i}$, $k'_i=h'_ih^{s_i}$: this is an equation over $H$, and\nas such, has only the trivial solution $n=m$, $h_i=h'_i$, $r_i=s_i$ for\nall $i$. This implies that (\\[eq:K\\]) only has trivial solutions over\n$K$: by the characterization of free submonoids, $K$ is a code. However,\n$X\\subseteq K^\\ast$ because no element of $x$ \u201cstarts with $h$\u201d, and\n$K^\\ast$ is a proper subset of $H^\\ast$ because the former does not\ncontain $h$ and the latter does. Then $K^\\ast$ is a free submonoid of\n$A^\\ast$ which contains $X$ and is properly contained in $H^\\ast$,\nagainst the definition of $H$ as the free hull of $X$.\n\n[99]{}\n\nM. Lothaire. *Combinatorics on words.* Cambridge University Press 1997.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DefectTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "defect theorem"
+  ]
+}

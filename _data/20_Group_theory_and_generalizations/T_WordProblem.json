@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(X;R)$ be a presentation for the group\n$G={\\mathrm{Gp}{\\left\\langle X \\mid R \\right\\rangle}}$. It is well known\nthat $G$ is a quotient group of the free monoid with involution on $X$,\ni.e. $G={{\\left( X\\amalg X^{-1} \\right)}^\\ast}/\\theta$ for some\ncongruence\n$\\theta\\subseteq {{\\left( X\\amalg X^{-1} \\right)}^\\ast}\\times {{\\left( X\\amalg X^{-1} \\right)}^\\ast}$.\nWe recall that $R\\subset {{\\left( X\\amalg X^{-1} \\right)}^\\ast}$ is a\nset of words all representing the identity $1_G$ of the group, i.e.\n$[r]_\\theta=1_G$ for all $r\\in R$. The *word problem* in the category of\ngroups consists in establish whether or not two given words\n$v,w\\in{{\\left( X\\amalg X^{-1} \\right)}^\\ast}$ represent the same\nelement of $G$, i.e. whether or not $[v]_\\theta=[w]_\\theta$.\n\nLet $(X;T)$ be a presentation for the inverse monoid\n$M={\\mathrm{Inv}^1{\\left\\langle X \\mid T \\right\\rangle}}={{\\left( X\\amalg X^{-1} \\right)}^\\ast}/\\tau$,\nwhere $\\tau=(\\rho_X\\cup T)^{\\mathrm{c}}$. The concept of presentation\nfor inverse monoid is analogous to the group\u2019s one, but now $T$ is a\nbinary relation on ${{\\left( X\\amalg X^{-1} \\right)}^\\ast}$, i.e.\n$T\\subseteq{{\\left( X\\amalg X^{-1} \\right)}^\\ast}\\times{{\\left( X\\amalg X^{-1} \\right)}^\\ast}$.\nThe *word problem* in the category of inverse monoids consists in\nestablish whether or not two given words\n$v,w\\in{{\\left( X\\amalg X^{-1} \\right)}^\\ast}$ represent the same\nelement of $M$, i.e. whether or not $[v]_\\tau=[w]_\\tau$.\n\nWe can modify the last paragraph to introduce the *word problem* in the\ncategory of inverse semigroups as well.\n\nA classical results in combinatorial group theory says that the word\nproblem in the category of groups is undecidable, so it is undecidable\nalso for the larger categories of inverse semigroups and inverse\nmonoids.\n\n[9]{} W. W. Boone, *Certain simple unsolvable problems in group theory*,\nI, II, III, IV, V, VI, Nederl. Akad.Wetensch Proc. Ser. A57,\n231-237,492- 497 (1954), 58, 252-256,571-577 (1955), 60, 22-27,227-232\n(1957). R. Lyndon and P. Schupp, *Combinatorial Group Theory*,\nSpringer-Verlag, 1977. P.S. Novikov, *On the algorithmic unsolvability\nof the word problem in group theory*, Trudy Mat. Inst. Steklov 44, 1-143\n(1955). J.B. Stephen, *Presentation of inverse monoids*, J. Pure Appl.\nAlgebra 63 (1990) 81- 112.",
+  "language": "INFORMAL",
+  "phrase": "Word Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WordProblem"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** A non-empty finite subset $K$ of a group $G$ is a subgroup\nof $G$ if and only if $$\\begin{aligned}\nxy \\in K \\quad\\mbox{for all}\\quad x,\\,y \\in K.\\end{aligned}$$\n\n*Proof.* The condition (1) is apparently true if $K$ is a subgroup.\nConversely, suppose that a nonempty finite subset $K$ of the group $G$\nsatisfies (1). Let $a$ and $b$ be arbitrary elements of $K$. By (1), all\n() powers of $b$ belong to $K$. Because of the finiteness of $K$, there\nexist positive integers $r,\\,s$ such that\n$$b^r \\;=\\; b^s, \\quad r \\;>\\; s\\!+\\!1.$$ By (1),\n$$K \\;\\ni\\; b^{r-s-1} \\;=\\; b^{r-s}b^{-1} \\;=\\; eb^{-1} \\;=\\; b^{-1}.$$\nThus also $ab^{-1} \\in K$, whence, by the theorem of the , $K$ is a\nsubgroup of $G$.\\\n**Example.** The multiplicative group $G$ of all nonzero complex numbers\nhas the finite multiplicative subset $\\{1,\\,-1,\\,i,\\,-i\\}$, which has to\nbe a subgroup of $G$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FiniteSubgroup"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "finite subgroup",
+    "criterion for finite subgroup",
+    "finite subgroup criterion"
+  ]
+}

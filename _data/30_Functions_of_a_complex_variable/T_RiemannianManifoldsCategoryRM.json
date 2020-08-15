@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A category $\\mathcal{R}_M$ whose objects are all Riemannian manifolds\n$R$ and whose morphisms are mappings between Riemannian manifolds $m_R$\nis defined as the [*category of Riemannian manifolds*]{}.\n\nApplications of Riemannian manifolds in mathematical physics\n------------------------------------------------------------\n\n1.  The [*conformal Riemannian subcategory*]{} $\\mathcal{R}_C$ of\n    $\\mathcal{R}_M$, whose objects are Riemannian manifolds $R$, and\n    whose morphisms are conformal mappings of Riemannian manifolds\n    $c_R$, is an important category for mathematical physics, in\n    conformal theories.\n\n2.  It can be shown that, if $(R_1,g)$ and $(R_2,h)$ are Riemannian\n    manifolds, then a map $f \\colon R_1 \\to R_2$ is iff $f^* h = s.g$\n    for some scalar field $s$ (on $R_1$), where $f^*$ is the complex\n    conjugate of $f$.\n\n### Category of pseudo-Riemannian manifolds\n\nThe category of $\\mathcal{R}_P$ that generalize Minkowski spaces $M_k$\nis similarly defined by replacing the Riemanian manifolds $R$ in the\nabove definition with pseudo-Riemannian manifolds $R_P$.\nPseudo-Riemannian manifolds $R_P$s were claimed to have applications in\nEinstein\u2019s theory of general relativity ($GR$), whereas the subcategory\n${\\bf Mink}$ of four-dimensional Minkowski spaces in $\\mathcal{R}_P$\nplays the central role in special relativity ($SR$) theories.",
+  "language": "INFORMAL",
+  "phrase": "Riemannian Manifolds Category $R_M$",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RiemannianManifoldsCategoryRM"
+    }
+  ],
+  "indexable": true
+}

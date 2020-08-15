@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "cofinite topology"
+  ],
+  "definition": "Let $X$ be a set. We can define the *finite complement topology* on $X$\nby declaring a subset $U\\subset X$ to be open if $X\\backslash U$ is\nfinite, or if $U$ is all of $X$ or the empty set. Note that this is\nequivalent to defining a topology by defining the closed sets in $X$ to\nbe all finite sets (and $X$ itself).\n\nIf $X$ is finite, the finite complement topology on $X$ is clearly the\ndiscrete topology, as the complement of *any* subset is finite.\n\nIf $X$ is countably infinite (or larger), the finite complement topology\ngives a standard example of a space that is not Hausdorff (each open set\nmust contain all but finitely many points, so any two open sets must\nintersect).\n\nIn general, the finite complement topology on an infinite set satisfies\nstrong compactness conditions (compact, , sequentially compact, etc.)\nsince each open set in a cover contains \"almost all\u201d of the points of\n$X$. On the other hand, the finite complement topology fails all but the\nsimplest of separation axioms since, as above, $X$ is hyperconnected\nunder this topology.\n\nThe finite complement topology is the coarsest T1-topology on a given\nset.",
+  "language": "INFORMAL",
+  "phrase": "Finite Complement Topology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FiniteComplementTopology"
+    }
+  ],
+  "indexable": true
+}

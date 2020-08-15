@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $M \\subset {\\mathbf{C}}^n$ be a smooth real hypersurface. Let $\\rho$\nbe a defining function for $M$ near $p.$ That is, for some neighbourhood\nof $p,$ the submanifold $M$ is defined by $\\rho = 0 .$ For a\nneighbourhood $U \\subset {\\mathbb{C}}^n,$ define the set $U_+$ to be the\nset $U \\cap \\{ \\rho > 0 \\} .$ We will say that $M$ has at least one\nnegative eigenvalue if the Levi form defined by $\\rho$ has at least one\nnegative eigenvalue. That is, if\n$$\\sum_{j,k=1}^n \\frac{\\partial^2 \\rho (p)}{\\partial z_j \\partial \\bar{z}_k} w_j \\bar{w}_k < 0\n~\\text{ for some }~\nw \\in {\\mathbb{C}}^n\n~\\text{ such that }~\n\\sum_{j=1}^n w_j \\frac{\\partial \\rho(p)}{\\partial z_j} = 0 .$$\n\nLet $f$ be a smooth CR function on $M.$ Suppose that near $p \\in M$ the\nLevi form of $M$ has at least one positive eigenvalue at $p.$ Then there\nexists a neighbourhood $U$ of $p,$ such that for every smooth CR\nfunction $f$ on $M,$ there exists a function $F$ holomorphic in $U_+$\nand $C^1$ up to $M,$ such that $F|_{U \\cap M} = f|_{U \\cap M}.$\n\nBy considering $-\\rho$ instead of $\\rho$ as a defining function, we get\nthe corresponding result for at least one negative eigenvalue. If the\nLevi form of $M$ has both positive and negative eigenvalues at a point,\nthen $f$ extends to both sides of $M$ and is then a restriction of a\nholomorphic function.\n\nA point is the fact that $U$ is fixed and does not depend on $f.$ To see\nwhy this is necessary, imagine a Levi flat example. Let $M$ be defined\nin ${\\mathbb{C}}^2$ in coordinates $(z,w)$ by $\\operatorname{Im} w = 0.$\nThe domains\n$U_\\epsilon := \\{ \\lvert \\operatorname{Im} w \\rvert < \\epsilon \\},$ for\n$\\epsilon > 0,$ are pseudoconvex and hence there exist functions\nholomorphic on $\\Omega_\\epsilon$ (and hence CR on $M$) that do not\nextend past any point of the boundary. No neighbourhood of a point on\n$M$ fits in all $U_\\epsilon .$ So at least one nonzero eigenvalue of the\nLevi form is needed.\n\nThe statement of this theorem is not exactly the theorem that Lewy\nformulated[@lewy], but this is generally called the Lewy extension.\nThere have been many results in this direction since Lewy\u2019s original\npaper, but this is the most result.\n\n[9]{} M. Salah Baouendi, Peter Ebenfelt, Linda Preiss Rothschild.\n[**]{}, Princeton University Press, Princeton, New Jersey, 1999. Albert\nBoggess. [**]{}, CRC, 1991. Lars H\u00f6rmander. [**]{}, North-Holland\nPublishing Company, New York, New York, 1973. Hans Lewy. [**]{} [*Ann.\nof Math.*]{} (2) [**64**]{} (1956), 514\u2013522.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LewyExtensionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lewy extension theorem",
+    "Lewy extension"
+  ]
+}

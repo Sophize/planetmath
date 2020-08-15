@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "An important characterization of context-free languages is captured in\nwhat is known as the Chomsky-Sch\u00fctzenberger theorem. It shows the\nintimate connection between context-free and parenthesis languages.\n\nA langauge $L$ over an alphabet $\\Sigma$ is context-free iff for some\n$n\\ge 0$, there there is a homomorphism $h:\\Sigma_n^* \\to \\Sigma^*$ such\nthat $$L=h(\\boldsymbol{\\operatorname{Paren}_n}\\cap R),$$ where\n$\\boldsymbol{\\operatorname{Paren}_n}$ is the parenthesis language over\n$\\Sigma_n$, and $R$ is a regular language (over $\\Sigma_n$).\n\nNote that the \u201cif\u201d part is the trivial consequence of the following\nfacts: parenthesis languages are context-free; any homomorphic image of\na context-free language is context-free; any intersection of a\ncontext-free language with a regular language is context-free.\n\n[9]{} N. Chomsky, M.P. Sch\u00fctzenberger, [*The Algebraic Theory of\nContext-Free Languages, Computer Programming and Formal Systems*]{},\nNorth-Holland, Amsterdam (1963). D. C. Kozen, [*Automata and\nComputability*]{}, Springer, New York (1997).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChomskySchutzenbergerTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Chomsky-Sch\\\"utzenberger theorem"
+  ]
+}

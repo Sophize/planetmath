@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Ces\u00e0ro summability is a generalized convergence criterion for infinite\nseries. We say that a series $\\sum_{n=0}^\\infty a_n$ is Ces\u00e0ro summable\nif the Ces\u00e0ro means of the partial sums converge to some limit $L$. To\nbe more precise, letting $$s_N=\\sum_{n=0}^N a_n$$ denote the\n$N{^{\\text{th}}}$ partial sum, we say that $\\sum_{n=0}^\\infty a_n$\nCes\u00e0ro converges to a limit $L$, if\n$$\\frac{1}{N+1}(s_0+\\ldots+s_N) \\rightarrow L \\quad\\text{as}\\quad N\\rightarrow\\infty.$$\n\nCes\u00e0ro summability is a generalization of the usual definition of the\nlimit of an infinite series.\n\nSuppose that $$\\sum_{n=0}^\\infty a_n = L,$$ in the usual sense that\n$s_N\\rightarrow L$ as $N\\rightarrow\\infty$. Then, the series in question\nCes\u00e0ro converges to the same limit.\n\nThe converse, however is false. The standard example of a divergent\nseries, that is nonetheless Ces\u00e0ro summable is\n$$\\sum_{n=0}^\\infty (-1)^n.$$ The sequence of partial sums\n$1,0,1,0,\\ldots$ does not converge. The Ces\u00e0ro means, namely\n$$\\frac{1}{1},\\frac{1}{2},\\frac{2}{3},\\frac{2}{4},\\frac{3}{5},\\frac{3}{6},\n\\ldots$$ do converge, with $1/2$ as the limit. Hence the series in\nquestion is Ces\u00e0ro summable.\n\nThere is also a relation between Ces\u00e0ro summability and Abel\nsummability[^1].\n\nA series that is Ces\u00e0ro summable is also Abel summable. To be more\nprecise, suppose that\n$$\\frac{1}{N+1}(s_0+\\ldots+s_N) \\rightarrow L \\quad\\text{as}\\quad\n  N\\rightarrow\\infty.$$ Then,\n$$f(r) = \\sum_{n=0}^\\infty a_n r^n \\rightarrow L \\quad\\text{as}\\quad\n  r\\rightarrow 1^{-}$$ as well.\n\n[^1]: This and similar results are often called Abelian theorems.",
+  "language": "INFORMAL",
+  "phrase": "Ces\\`Aro Summability",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CesaroSummability"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "chained arrow notation",
+    "chained arrow",
+    "chained-arrow",
+    "chained-arrow notation",
+    "Conway notation"
+  ],
+  "definition": "*Conway\u2019s chained arrow notation* is a way of writing numbers even\nlarger than those provided by the up arrow notation. We define\n$m\\rightarrow n\\rightarrow p=m^{(p+2)}n=m\\underbrace{\\uparrow\\cdots\\uparrow}_{p}n$\nand $m\\rightarrow n=m\\rightarrow n\\rightarrow 1=m^n$. Longer chains are\nevaluated by\n\n$$m\\rightarrow\\cdots\\rightarrow n\\rightarrow p\\rightarrow 1=\nm\\rightarrow\\cdots\\rightarrow n\\rightarrow p$$\n\n$$m\\rightarrow\\cdots\\rightarrow n\\rightarrow 1\\rightarrow q=m\\rightarrow\\cdots\\rightarrow n$$\n\nand\n\n$$m\\rightarrow\\cdots\\rightarrow n\\rightarrow p+1\\rightarrow q+1=\nm\\rightarrow\\cdots\\rightarrow n\\rightarrow (m\\rightarrow\\cdots\\rightarrow n\\rightarrow p\\rightarrow q+1)\\rightarrow q$$\n\nFor example: $$\\begin{aligned}\n3\\rightarrow3\\rightarrow2 =\\\\\n3\\rightarrow(3\\rightarrow2\\rightarrow2)\\rightarrow1 = \\\\\n3\\rightarrow(3\\rightarrow2\\rightarrow2) = \\\\\n3\\rightarrow(3\\rightarrow(3\\rightarrow1\\rightarrow2)\\rightarrow1) = \\\\\n3\\rightarrow(3\\rightarrow3\\rightarrow1) = \\\\\n3^{3^3} = \\\\\n3^{27} = \n7625597484987\\end{aligned}$$\n\nA much larger example is: $$\\begin{aligned}\n3\\rightarrow 2\\rightarrow 4\\rightarrow 4=\\\\\n3\\rightarrow 2\\rightarrow (3\\rightarrow 2\\rightarrow 3\\rightarrow 4)\\rightarrow 3=\\\\\n3\\rightarrow 2\\rightarrow (3\\rightarrow 2\\rightarrow (3\\rightarrow 2\\rightarrow 2\\rightarrow 4)\\rightarrow 3)\\rightarrow 3=\\\\\n3\\rightarrow 2\\rightarrow (3\\rightarrow 2\\rightarrow (3\\rightarrow 2\\rightarrow (3\\rightarrow 2\\rightarrow 1\\rightarrow 4)\\rightarrow 3)\\rightarrow 3)\\rightarrow 3=\\\\\n3\\rightarrow 2\\rightarrow (3\\rightarrow 2\\rightarrow (3\\rightarrow 2\\rightarrow (3\\rightarrow 2)\\rightarrow 3)\\rightarrow 3)\\rightarrow 3=\\\\\n3\\rightarrow 2\\rightarrow (3\\rightarrow 2\\rightarrow (3\\rightarrow 2\\rightarrow 9\\rightarrow 3)\\rightarrow 3)\\rightarrow 3\\end{aligned}$$\n\nClearly this is going to be a very large number. Note that, as large as\nit is, it is proceeding towards an eventual final evaluation, as\nevidenced by the fact that the final number in the chain is getting\nsmaller.",
+  "language": "INFORMAL",
+  "phrase": "Conway'S Chained Arrow Notation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConwaysChainedArrowNotation"
+    }
+  ],
+  "indexable": true
+}

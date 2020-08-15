@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $a$ and $b$ are arbitrary elements of the group $(G,*)$, then the\ninverse of $a*b$ is $$\\begin{aligned}\n      (a*b)^{-1} = b^{-1}*a^{-1}.\\end{aligned}$$\n\n[*Proof.*]{} Let the neutral element of the group, which may be proved\nunique, be $e$. Using only the group postulates we obtain\n$$(a*b)*(b^{-1}*a^{-1}) = a*(b*(b^{-1}*a^{-1})) = \na*((b*b^{-1})*a^{-1}) = a*(e*a^{-1}) = a*a^{-1} = e,$$\n$$(b^{-1}*a^{-1})*(a*b) = b^{-1}*(a^{-1}*(a*b)) = b^{-1}*((a^{-1}*a)*b) = \nb^{-1}*(e*b) = b^{-1}*b = e,$$ Q.E.D.\n\n**Note.** The (1) may be by induction extended to the form\n$$(a_1*\\cdots*a_n)^{-1} = a_n^{-1}*\\cdots*a_1^{-1}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InverseOfAProduct"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "inverse of a product",
+    "inverse of a product in group",
+    "inverse of product"
+  ]
+}

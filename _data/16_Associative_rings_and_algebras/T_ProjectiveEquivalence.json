@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring with 1. Two $R$-modules $A$ and $B$ are said to be\n*projectively equivalent* $A\\sim B$ if there exist two projective\n$R$-modules $P$ and $Q$ such that $$A\\oplus P\\cong B\\oplus Q.$$\n\n**Remarks.**\n\n1.  Projective equivalence is an equivalence relation.\n\n2.  Any projective module is projectively equivalent to the zero module.\n\n3.  **(Schanuel\u2019s Lemma)**. Given two short exact sequences:\n\n    $\\xymatrix{0\\ar[r]&B_1\\ar[r]&P\\ar[r]&A_1\\ar[r]&0}$\n\n    $\\xymatrix{0\\ar[r]&B_2\\ar[r]&Q\\ar[r]&A_2\\ar[r]&0}$\n\n    with $A_1\\sim A_2$, then $B_1\\sim B_2$.\n\n4.  Schanuel\u2019s Lemma can be generalized. Given two projective\n    resolutions:\n\n    $\\xymatrix{\\ldots\\ar[r]^{p_3}&P_2\\ar[r]^{p_2}&P_1\\ar[r]^{p_1}&P_0\\ar[r]^{p_0}&A_1\\ar[r]&0}$\n\n    $\\xymatrix{\\ldots\\ar[r]^{q_3}&Q_2\\ar[r]^{q_2}&Q_1\\ar[r]^{q_1}&Q_0\\ar[r]^{q_0}&A_2\\ar[r]&0}$\n\n    with $A_1\\sim A_2$, then\n    $\\operatorname{Ker}(p_n)\\sim\\operatorname{Ker}(q_n)$ for all\n    $n\\geq0$\n\n5.  The concept of projective equivalence between two modules can be\n    generalized to any abelian categories having enough projectives.",
+  "language": "INFORMAL",
+  "phrase": "Projective Equivalence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProjectiveEquivalence"
+    }
+  ],
+  "indexable": true
+}

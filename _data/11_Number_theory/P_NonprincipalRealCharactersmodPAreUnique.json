@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $p$ be a prime. Then there is a unique nonprincipal real Dirichlet\ncharacter $\\chi \\mod p$, given by $$\\chi(n)={\\left(\\frac{n}{p}\\right)}$$\n\n**Proof.** Note first that $\\chi(n)={\\left(\\frac{n}{p}\\right)}$ is\nobviously a nonprincipal real character $\\mod p$. Now, suppose $\\chi$ is\nany nonprincipal real character $\\mod p$. Choose some generator, $a$, of\n$({\\mathbb{Z}}/p{\\mathbb{Z}})^*$. Clearly $\\chi(a)=-1$ (since otherwise\n$\\chi$ is principal), and thus $\\chi(a^k)=(-1)^k$. Since $a^{p-1}=1$,\nand no lower power of $a$ is $1$, it follows that $\\chi$ is $-1$ on\nexactly $(p-1)/2$ elements of $({\\mathbb{Z}}/p{\\mathbb{Z}})^*$ and is\n$1$ on exactly $(p-1)/2$ elements. However, since\n$\\chi(x^2)=\\chi(x)^2=1$, $\\chi$ is $1$ on each of the $(p-1)/2$ squares\nin $({\\mathbb{Z}}/p{\\mathbb{Z}})^*$. Thus $\\chi$ is $1$ on squares and\n$-1$ on nonsquares, so $\\chi(n)={\\left(\\frac{n}{p}\\right)}$.\n\nNote that this result is not true if $p$ is not prime. For example, the\nfollowing is a table of Dirichlet characters modulo $8$, all of which\nare real:\n\n[c|rrrr]{} &$\\chi_1$&$\\chi_2$&$\\chi_3$&$\\chi_4$\\\n\\\n$1$&$1$&$1$&$1$&$1$\\\n$3$&$1$&$1$&$-1$&$-1$\\\n$5$&$1$&$-1$&$1$&$-1$\\\n$7$&$1$&$-1$&$-1$&$1$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NonprincipalRealCharactersmodPAreUnique"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "nonprincipal real characters $\\mod p$ are unique"
+  ]
+}

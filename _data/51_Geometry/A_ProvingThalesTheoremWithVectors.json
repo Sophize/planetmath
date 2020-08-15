@@ -1,0 +1,17 @@
+{
+  "argumentText": "(-2.5,-0.5)(2.5,2.5) (0,0) (0,-0.3)[$O$]{} (-2.2,-0.1)[$B$]{}\n(2.15,-0.1)[$A$]{} (1.33,1.8)[$P$]{} (0,0)[2]{}[0]{}[180]{} (-2,0)(0,0)\n(1.2,1.6)(0,0) (1.2,1.6)(-2,0) (1.2,1.6)(2,0) (0,0)(2,0)\n(-1,-0.2)[$r$]{} (+1,-0.2)[$r$]{} (0.75,0.7)[$r$]{}\n\nLet the radius of the circle be $r$ and $AB$ a diameter of the circle.\nWe make the dot product calculation\n$$\\overrightarrow{PA}\\cdot\\overrightarrow{PB} = (\\overrightarrow{PO}+\\overrightarrow{OA})\\cdot(\\overrightarrow{PO}+\\overrightarrow{OB}) =\n(\\overrightarrow{PO}+\\overrightarrow{OA})\\cdot(\\overrightarrow{PO}-\\overrightarrow{OA}) =\n\\overrightarrow{PO}\\cdot\\overrightarrow{PO}-\\overrightarrow{OA}\\cdot\\overrightarrow{OA} =\nr^2-r^2 = 0.$$ The result shows that\n$\\overrightarrow{PA} \\perp \\overrightarrow{PB}$, i.e. the\ncircumferential angle $APB$ of the half-circle is a right angle.",
+  "conclusion": "#P_ThalesTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProvingThalesTheoremWithVectors"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proving Thales' theorem with vectors"
+  ]
+}

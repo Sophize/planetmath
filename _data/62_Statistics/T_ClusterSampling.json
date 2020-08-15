@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "one-stage cluster sampling",
+    "two-stage cluster sampling"
+  ],
+  "definition": "Cluster sampling is a method for sampling from a population $P$, in\nwhich the smallest units in $P$ are first grouped into bigger units,\ncalled *clusters*, or *primary sampling units*, then a sampling\nprocedure is performed based on these clusters. The units within each\ncluster are called the *secondary sampling units*. For example, when an\nadvertisements are sent out to a sample of potential customers from a\npopulation, it is advisable to first group these potential customers\ninto households, before any sample is drawn, so as to avoid any\nhousehold receiving more than one ad. There are in general two types of\ncluster sampling:\n\n1.  *single-stage cluster sampling* or *one-stage cluster sampling*: a\n    sample is taken from the primary sampling units, in which all of the\n    secondary sampling units are considered.\n\n2.  *second-stage cluster sampling*, *two-stage cluster sampling*, or\n    emph[subsampling]{}: a sample is taken from the primary sampling\n    units; then within each primary sampling unit, a sample is taken\n    from their secondary sampling units.",
+  "language": "INFORMAL",
+  "phrase": "Cluster Sampling",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClusterSampling"
+    }
+  ],
+  "indexable": true
+}

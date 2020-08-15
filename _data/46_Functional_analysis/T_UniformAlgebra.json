@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A commutative, unital Banach algebra $(\\mathcal{A}, \\|\\cdot\\|)$ is\ncalled *uniform Banach algebra* (for short: uB algebra) if for all\n$f \\in \\mathcal{A}$ we have $$\\begin{aligned}\n\\|f^2\\| &= \\|f\\|^2\\end{aligned}$$\n\nIn what follows we will show that the Gelfand transform\n$\\Gamma_{\\mathcal{A}} \\colon \\mathcal{A} \\mapsto \\hat{\\mathcal{A}}$ of a\ncommutative, unital Banach algebra $\\mathcal{A}$ is an isometry if and\nonly if $\\mathcal{A}$ is a uniform Banach algebra.\n\nDenote by $M(\\mathcal{A})$ the space of (continuous) characters on\n$\\mathcal{A}$. Recall that for all $f \\in \\mathcal{A}$ the spectrum\n$\\sigma(f)$ of $f$ is identical with the range $\\hat{f}(M(\\mathcal{A}))$\nand the spectral radius\n$r(f) = \\|\\hat{f}\\|_{M(\\mathcal{A})} = \\lim_{n \\to \\infty} \\|f^n\\|^{\\frac{1}{n}}$\n\n**Proposition 1.** A Banach algebra $\\mathcal{A}$ is uniform if and only\nif it\u2019s Gelfand transform\n$\\Gamma_{\\mathcal{A}} \\colon \\mathcal{A} \\to \\hat{\\mathcal{A}}, f \\mapsto \\hat{f}$\nis isometric.\n\nIf $f \\mapsto \\hat{f}$ is an isometry we have\n$\\|f^2\\| = \\|\\hat{f}^2\\|_{M(\\mathcal{A})} = \\|\\hat{f}\\|_{M(\\mathcal{A})}^2 = \\|f\\|^2$.\n\nConversely assume $\\|f^2\\| = \\|f\\|^2$ for all $f \\in \\mathcal{A}$. Then\nby induction we have $\\|f^{2^n}\\| = \\|f\\|^{2^n}$ for all\n$n \\in \\mathbb{N}$. Hence\n$\\|f\\| = \\|f^{2^n}\\|^{\\frac{1}{2^n}} \\to \\|\\hat{f}\\|_{M(\\mathcal{A})}$.\n\nThe following characterization is also often given as the definition of\na uB algebra.\n\n**Proposition 2.** A Banach algebra $\\mathcal{A}$ is uniform iff it is\ntopologically and algebraically isomorphic to a closed, pointseparating\nsubalgebra of $C(X)$ for $X$ a compact Hausdorff space.\n\nSince $\\hat{\\mathcal{A}}$ separates the points of the compact, nonempty\nspace $M(\\mathcal{A})$ we see that a uB algebra $\\mathcal{A}$ must have\nthis property.\n\nConversely, let $\\mathcal{A}$ be a closed pointseparating subalgebra of\n$C(X)$. Then clearly $\\|f\\|_X^2 = \\|f^2\\|_X$ for all\n$f \\in \\mathcal{A}$.\n\n[99]{} Theodore W. Gamelin *Uniform Algebras*, Oxford University Press,\nNew Edition, 2005",
+  "language": "INFORMAL",
+  "phrase": "Uniform Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformAlgebra"
+    }
+  ],
+  "indexable": true
+}

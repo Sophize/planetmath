@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Banach space* $(X,{\\lVert \\,\\cdot\\, \\rVert})$ is a normed vector\nspace such that $X$ is complete under the metric induced by the norm\n${\\lVert \\,\\cdot\\, \\rVert}$.\n\nSome authors use the term Banach space only in the case where $X$ is\ninfinite-dimensional, although on Planetmath finite-dimensional spaces\nare also considered to be Banach spaces.\n\nIf $Y$ is a Banach space and $X$ is any normed vector space, then the\nset of continuous linear maps $f\\colon X\\to Y$ forms a Banach space,\nwith norm given by the operator norm. In particular, since $\\mathbb{R}$\nand $\\mathbb{C}$ are complete, the continuous linear functionals on a\nnormed vector space $\\mathcal{B}$ form a Banach space, known as the\n*dual space* of $\\mathcal{B}$.\n\n*Examples:*\n\n-   .\n\n-   are by far the most common example of Banach spaces.\n\n-   are $L^p$ spaces for the counting measure on $\\mathbb{N}$.\n\n-   Continuous functions on a compact set under the supremum norm.\n\n-   signed measures on a .",
+  "language": "INFORMAL",
+  "phrase": "Banach Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BanachSpace"
+    }
+  ],
+  "indexable": true
+}

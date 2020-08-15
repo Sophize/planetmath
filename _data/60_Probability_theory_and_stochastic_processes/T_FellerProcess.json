@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $E$ be a LCCB space (locally compact with a countable base; usually\na subset of $\\mathbb{R}^n$ for some $n \\in \\mathbb{N}$) and\n$C_0(E) = C_0(E, \\mathbb{R})$ be the space of continuous functions on\n$E$ that vanish at infinity. (We may write $C_0$ as shorthand.) A\n*Feller semigroup* on $C_0(E)$ is a family of positive linear operators\n$T_t, t \\geq 0$, on $C_0(E)$ such that\n\n-   $T_0 = Id$ and $||T_t|| \\leq 1$ for every $t \\in T$, *i.e.*\n    $\\{T_t\\}_{t \\in T}$ is a family of contracting maps;\n\n-   $T_{t+s} = T_t \\circ T_s$ (the semigroup property);\n\n-   $\\lim_{t \\downarrow 0} ||T_tf - f|| = 0$ for every $f \\in C_0(E)$.\n\nA probability transition function associated with a Feller semigroup is\ncalled a *Feller transition function*. A Markov process having a Feller\ntransition function is called a *Feller process*.\n\n[1]{} D. Revuz & M. Yor, *Continuous Martingales and Brownian Motion*,\nThird Edition Corrected. Volume 293, Grundlehren der mathematischen\nWissenschaften. Springer, Berlin, 2005.",
+  "language": "INFORMAL",
+  "phrase": "Feller Process",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FellerProcess"
+    }
+  ],
+  "indexable": true
+}

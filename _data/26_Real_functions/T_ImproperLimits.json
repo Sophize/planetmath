@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "infinite limits",
+    "improper limit"
+  ],
+  "definition": "In calculus there is often used such expressions as \u201cthe limit of a\nfunction is infinite\u201d, and one may write for instance that\n$$\\lim_{x \\to 0}\\frac{1}{x^2} \\;=\\; \\infty.$$ Such \u201climits\u201d are actually\nof the limit notion, and can be defined exactly. They are called\n[*improper limits*]{}.\n\n**Definition.** Let the real function $f$ be defined in a neighbourhood\nof the point $x_0$. $$\\lim_{x \\to x_0}f(x) \\;=\\; \\infty$$ iff for every\nreal number $M$ there exists a number $\\delta_M$ such that\n$$f(x) \\;>\\; M$$ as soon as $$0 \\;<\\; |x\\!-\\!x_0| \\;<\\; \\delta_M.$$\\\nIn a similar way we can define the improper limit $-\\infty$ of a real\nfunction. The definition may be extended also to the cases\n$x \\to \\pm\\infty$, when one speaks of *limits at infinity*.\\\n**Note 1.** If $\\lim_{x \\to x_0}f(x) \\,=\\, \\infty$ and\n$\\lim_{x \\to x_0}g(x) \\,=\\, a > 0$, then we have\n$$\\lim_{x \\to x_0}f(x)g(x) \\;=\\; \\infty.$$ Hence we can say that\n$\\infty\\cdot a = \\infty$ when $a > 0$. There are some other \u201cmnemonics\nof infinite\u201d (cf. the extended real numbers):\n$$\\infty\\cdot a \\;=\\; -\\infty \\qquad(a \\;<\\; 0)$$\n$$\\pm\\infty+a \\;=\\; \\pm\\infty$$ $$\\frac{a}{\\pm\\infty} \\;=\\; 0$$\n$$\\infty+\\infty \\;=\\; \\infty$$ $$\\infty\\cdot\\infty \\;=\\; \\infty$$\n$$-\\infty\\cdot\\infty \\;=\\; -\\infty$$\n\nOn the contrary, there exist no mnemonics for the cases\n$$\\infty\\cdot0,\\,\\, \\infty-\\infty,\\,\\, \\frac{\\infty}{\\infty},\\,\\, \n     \\frac{0}{0},\\,\\, 0^0,\\,\\, \\infty^0,\\,\\, 1^\\infty;$$ they are and\ndepend on the instance (cf. the indeterminate form).\\\n**Note 2.** In the complex plane, the expression\n$$\\lim_{z \\to z_0}f(z) \\;=\\; \\infty$$ means that\n$\\displaystyle \\lim_{z \\to z_0}|f(z)| \\,=\\, \\infty$.",
+  "language": "INFORMAL",
+  "phrase": "Improper Limits",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ImproperLimits"
+    }
+  ],
+  "indexable": true
+}

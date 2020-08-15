@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "infix"
+  ],
+  "definition": "Infix notation is how we usually read and write arithmetic expressions.\nIn this notation, the operator goes between the operands in the\nexpression:\n\n$$\\text{(operand1)} \\text{(operator)} \\text{(operand2)}$$\n\nE.g., $ 3 + 2 $, or $ 196 \\times 11 $, etc.\n\nInfix notation suffers from some ambiguity; e.g.\n\n$$3 + 9 \\times 2$$\n\ncould mean $ ( 3 + 9) \\times 2 $ or $ 3 + (9 \\times 2) $. Parentheses\nare needed to specify the order of operations unambiguously.\n\nPostfix notation (or reverse-Polish notation) does not suffer this\nambiguity; but it is considered harder for humans to read (hence its\nprimary use in computer applications).\n\nThe \u201cusual\u201d fix for the ambiguity problem described above is to provide\na convention regarding precedence of operations. This is typically done\nfor computer parsing of mathematical expressions rather than in math\ndone by hand, because in the former case, the computer *must* have some\nstandard rules to proceed. For example, it is typical to make\nmultiplication \u201chigher precedence\u201d than addition, so in the above case,\n$9 \\times 2$ would be performed before adding the result to 3.\n\nThe ambiguity problem only occurs when multiple operators are present in\none expression, and thus, the associative law does not hold. E.g., there\nis no ambiguity in $1 + 2 + 3$, because $(1 + 2) + 3$ is the same as\n$1 + (2 + 3)$, by the associative property of addition.",
+  "language": "INFORMAL",
+  "phrase": "Infix Notation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InfixNotation"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $k$ be a field, $V$ a finite dimensional vector space over $k$ and\n$T$ a linear operator over $V$. Call a subspace $W\\subseteq V$\n*$T$-admissible* if $W$ is $T$-invariant and for any polynomial\n$f(X)\\in k[X]$ with $f(T)(v)\\in W$ for $v\\in V$, there is a $w\\in W$\nsuch that $f(T)(v)=f(T)(w)$.\n\nLet $W_0$ be a proper $T$-admissible subspace of $V$. There are non zero\nvectors $x_1,...,x_r$ in $V$ with respective annihilator polynomials\n$p_1,...,p_r$ such that\n\n1.  $V=W_0\\oplus Z(x_1,T)\\oplus \\cdots \\oplus Z(x_r,T)$ (See the cyclic\n    subspace definition)\n\n2.  $p_k$ divides $p_{k-1}$ for every $k=2,...,r$\n\nMoreover, the integer $r$ and the $p_1,...,p_r$ are uniquely determined\nby (1),(2) and the fact that none of $x_k$ is zero.\n\nThis is \u201cone of the deepest results in linear algebra\u201d (Hoffman & Kunze)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CyclicDecompositionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "cyclic decomposition theorem",
+    "T-admissible",
+    "$T$-admissible"
+  ]
+}

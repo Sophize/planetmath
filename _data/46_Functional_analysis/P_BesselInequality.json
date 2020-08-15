@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let ${\\mathcal{H}}$ be a Hilbert space, and suppose\n$e_1, e_2, \\ldots \\in {\\mathcal{H}}$ is an orthonormal sequence. Then\nfor any $x\\in{\\mathcal{H}}$,\n$$\\sum_{k=1}^{\\infty}{\\left|{\\left\\langlex,e_k\\right\\rangle}\\right|}^2 \\le {\\left\\|x\\right\\|}^2.$$\n\nBessel\u2019s inequality immediately lets us define the sum\n$$x' = \\sum_{k=1}^{\\infty}{\\left\\langlex,e_k\\right\\rangle}e_k.$$ The\ninequality means that the series converges.\n\nFor a complete orthonormal series, we have Parseval\u2019s theorem, which\nreplaces inequality with equality (and consequently $x'$ with $x$).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BesselInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Bessel inequality"
+  ]
+}

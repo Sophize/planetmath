@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "AlgebraicallyThinSquares"
+  ],
+  "definition": "Let us consider first the concept of a [*tree*]{} that enters in the\ndefinition of a thin square. Thus, a simplified notion of thin square is\nthat of \u201ca continuous map from the unit square of the real plane into a\nHausdorff space $X_H$ which factors through a tree\u201d ([@BHKP]).\n\nA [*tree*]{}, is defined here as the underlying space $ |K| $ of a\nfinite $ 1 $-connected $ 1 $-dimensional simplicial complex $ K $ and\nboundary $ \\partial{I}^{2} $ of $ I^{2} = I \\times I $ (that is, a\n*square* (interval) defined here as the Cartesian product of the unit\ninterval $I :=[0,1]$ of real numbers).\n\nA *square map* $ u:I^{2} \\longrightarrow X $ in a topological space\n$ X $ is *thin* if there is a factorisation of $ u $,\n$$u : I^{2} \\stackrel{\\Phi_{u}}{\\longrightarrow}\nJ_{u} \\stackrel{p_{u}}{\\longrightarrow} X,$$ where $J_{u}$ is a *tree*\nand $ \\Phi_{u} $ is on the boundary $ \\partial{I}^{2} $ of $ I^{2} $.\n\n[9]{}\n\nR. Brown, K.A. Hardie, K.H. Kamps and T. Porter., , [*Theory and\nApplications of Categories*]{} **10**,(2002): 71-93.\n\nR. Brown and C.B. Spencer: Double groupoids and crossed modules,\n*Cahiers Top. G\u00e9om.Diff.*, **17** (1976), 343\u2013362.\n\nR. Brown and G. H. Mosa: Double algebroids and crossed modules of\nalgebroids, University of Wales\u2013Bangor, Maths Preprint, 1986.\n\nK.A. Hardie, K.H. Kamps and R.W. Kieboom., A homotopy 2-groupoid of a\nHausdorff *Applied Categorical Structures*, **8** (2000): 209-234.\n\nAl-Agl, F.A., Brown, R. and R. Steiner: 2002, Multiple categories: the\nequivalence of a globular and cubical approach, *Adv. in Math*, **170**:\n711-118.",
+  "language": "INFORMAL",
+  "phrase": "Thin Square",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThinSquare"
+    }
+  ],
+  "indexable": true
+}

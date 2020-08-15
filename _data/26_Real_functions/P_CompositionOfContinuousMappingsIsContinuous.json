@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The composition of two continuous mappings (when defined) is continuous.\n\nLet $X,Y,Z$ be topological space, and let $f,g$ be mappings\n$$\\begin{aligned}\n   f\\colon X&\\to& Y, \\\\\n   g\\colon Y&\\to& Z.\\end{aligned}$$ We wish to prove that $g\\circ f$ is\ncontinuous. Suppose $B$ is an open set in $Z$. Since $g$ is continuous,\n$g^{-1}(B)$ is an open set in $Y$, and since $f$ is continuous,\n$f^{-1}(g^{-1}(B))$ is an open set in $X$. Since\n$f^{-1}(g^{-1}(B))=(g\\circ f)^{-1}(B)$, it follows that\n$(g\\circ f)^{-1}(B)$ is open and the composition if continuous.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompositionOfContinuousMappingsIsContinuous"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "composition of continuous mappings is continuous"
+  ]
+}

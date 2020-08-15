@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be any set, $\\{f_n\\}_{n\\in{\\mathbb{N}}}$ a sequence of real or\ncomplex valued functions on $X$ and $\\{M_n\\}_{n\\in{\\mathbb{N}}}$ a\nsequence of non-negative real numbers. Suppose that, for each\n$n \\in {\\mathbb{N}}$ and $x \\in X$, we have $|f_n(x)| \\le M_n$. Then\n$f=\\sum_{n=1}^{\\infty} f_n$ converges uniformly if\n$\\sum_{n=1}^{\\infty} M_n$ converges.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeierstrassMtest"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Weierstrass M-test"
+  ]
+}

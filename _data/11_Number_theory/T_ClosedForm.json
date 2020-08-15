@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "closed-form"
+  ],
+  "definition": "A *closed form* function which gives the value of a sequence at index\n$n$ has only one parameter, $n$ itself. This is in contrast to the\nrecurrence relation form, which can have all of the previous values of\nthe sequence as parameters.\n\nThe benefit of the closed form is that one does not have to calculate\nall of the previous values of the sequence to get the next value. This\nis not too useful if one wants to print out or utilize all of the values\nof a sequence up to some $n$, but it is very useful to get the value of\nthe sequence *just* at some index $n$.\n\nThere are many techniques used to find a closed-form solution for a\nrecurrence relation. Some are\n\n-   Repeated substitution. Replace each $s_k$ in the expression of $s_n$\n    (with $k < n$) with its recurrence relation representation. Repeat\n    again on the resulting expression, until some pattern is evident.\n\n-   Estimate an upper bound for $s_n$ in terms of $n$. Then, solve for\n    the unknowns (say there are $r$ unknowns) by finding the first $r$\n    values of the recurrence relation and solving the linear system\n    formed by them and the unknowns.\n\n-   Find the characteristic equation of the recurrence relation and\n    solve for the roots. If the recurrence relation is not homogeneous,\n    then you\u2019ll have to apply a method such as the method of\n    undetermined coefficients.",
+  "language": "INFORMAL",
+  "phrase": "Closed Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosedForm"
+    }
+  ],
+  "indexable": true
+}

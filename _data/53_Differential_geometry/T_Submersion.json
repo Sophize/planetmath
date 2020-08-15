@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A differentiable map $f\\colon X\\to Y$ differential manifolds $X$ and $Y$\nis called a *submersion at a point* $x\\in X$ if the tangent map\n$$\\mathrm{T}f(x)\\colon\\mathrm{T}X(x)\\to\\mathrm{T}Y(f(x))$$ between the\ntangent spaces of $X$ and $Y$ at $x$ and $f(x)$ is surjective.\n\nIf $f$ is a submersion at every point of $X$, then $f$ is called a\n*submersion*. A submersion $f\\colon X\\to Y$ is an open mapping, and its\nimage is an open submanifold of $Y$.\n\nA fibre bundle $p\\colon X\\to B$ over a manifold $B$ is an example of a\nsubmersion.",
+  "language": "INFORMAL",
+  "phrase": "Submersion",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Submersion"
+    }
+  ],
+  "indexable": true
+}

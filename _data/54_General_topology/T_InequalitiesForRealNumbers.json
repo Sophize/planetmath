@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $a$ is a real number.\n\n1.  If $a<0$ then $a$ is a *negativ[e]{} number*.\n\n2.  If $a>0$ then $a$ is a *positiv[e]{} number*.\n\n3.  If $a\\le 0$ then $a$ is a *non-positiv[e]{} number*.\n\n4.  If $a\\ge 0$ then $a$ is a *non-negativ[e]{} number*.\n\nThe first two inequalities are also called [**strict inequalities**]{}.\\\nThe second two inequalities are also called [**loose inequalities**]{}.\n\n### Properties {#properties .unnumbered}\n\nSuppose $a$ and $b$ are real numbers.\n\n1.  If $a>b$, then $-a<-b$. If $a<b$, then $-a>-b$.\n\n2.  If $a\\ge b$, then $-a\\le -b$. If $a\\le b$, then $-a\\ge -b$.\n\n$0<a$ iff $-a<0$.\n\nIf $0<a$, then adding $-a$ on both sides of the inequality gives\n$-a=-a+0<-a+a=0$. This process can also be reversed.\n\nFor any $a\\in {\\mathbbmss{R}}$, either $a=0$ or $0<a^2$.\n\nSuppose $a\\ne 0$, then by trichotomy, we have either $0<a$ or $a<0$, but\nnot both. If $0<a$, then $0=0\\cdot a<a\\cdot a=a^2$. On the other hand,\nif $-(-a)=a<0$, then $0<-a$ by the previous lemma. Then repeating the\nprevious , $0 = 0\\cdot(-a) < (-a)(-a)=a^2$.\n\nThree direct consequences follow:\n\n$0<1$\n\nFor any $a\\in {\\mathbbmss{R}}$, $0<1+a^2$.\n\nThere is no real solution for $x$ in the equation $1+x^2=0$.\n\n### Inequality for a converging sequence {#inequality-for-a-converging-sequence .unnumbered}\n\nSuppose $a_0,a_1,\\ldots$ is a sequence of real numbers converging to a\nreal number $a$.\n\n1.  If $a_i < b$ or $a_i \\le b$ for some real number $b$ for each $i$,\n    then $a\\le b$.\n\n2.  If $a_i > b$ or $a_i \\ge b$ for some real number $b$ for each $i$,\n    then $a\\ge b$.",
+  "language": "INFORMAL",
+  "phrase": "Inequalities For Real Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InequalitiesForRealNumbers"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "internal composition"
+  ],
+  "definition": "A *binary operation* on a set $X$ is a function from the Cartesian\nproduct $X \\times X$ to $X$. A binary operation is sometimes called\n*internal composition*.\n\nRather than using function notation, it is usual to write binary\noperations with an operation symbol between elements, or even with no\noperation at all, it being understood that juxtaposed elements are to be\ncombined using an operation that should be clear from the context.\n\nThus, addition of real numbers is the operation\n$$(x, y) \\mapsto x + y,$$ and multiplication in a groupoid is the\noperation $$(x, y) \\mapsto xy.$$",
+  "language": "INFORMAL",
+  "phrase": "Binary Operation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BinaryOperation"
+    }
+  ],
+  "indexable": true
+}

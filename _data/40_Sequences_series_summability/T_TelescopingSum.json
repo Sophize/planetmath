@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*telescoping sum*]{} is a sum in which cancellation occurs between\nsubsequent terms, allowing the sum to be expressed using only the\ninitial and final terms.\n\nFormally a telescoping sum is or can be rewritten in the form\n\n$$S= \\sum_{n=\\alpha}^{\\beta}\\left(a_n - a_{n+1}\\right) = a_\\alpha - a_{\\beta+1}$$\n\nwhere $a_n$ is a sequence.\n\n[**Example:**]{}\\\nDefine $S(N) = \\sum_{n=1}^{N} \\frac{1}{n(n+1)}$. Note that by partial\nfractions of expressions:\n$$\\frac{1}{n(n+1)}= \\frac{1}{n} - \\frac{1}{n+1}$$ and thus\n$a_n = \\frac{1}{n}$ in this example.\n\n$$S(N) = \\sum_{n=1}^{N} \\left( \\frac{1}{n} - \\frac{1}{n+1} \\right)$$\n$$= \\left( 1 - \\frac{1}{2} \\right)\n      + \\cdots + \\left( \\frac{1}{n} - \\frac{1}{n+1} \\right) +\n      \\left( \\frac{1}{n+1} - \\frac{1}{n+2} \\right)\n      + \\cdots + \\left( \\frac{1}{N} - \\frac{1}{N+1} \\right)$$\n$$= 1 + \\left( - \\frac{1}{2} + \\frac{1}{2} \\right)\n      + \\cdots + \\left( -\\frac{1}{n+1} +\\frac{1}{n+1} \\right)\n      + \\cdots - \\frac{1}{N+1}$$ $$= 1 - \\frac{1}{N+1}$$",
+  "language": "INFORMAL",
+  "phrase": "Telescoping Sum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TelescopingSum"
+    }
+  ],
+  "indexable": true
+}

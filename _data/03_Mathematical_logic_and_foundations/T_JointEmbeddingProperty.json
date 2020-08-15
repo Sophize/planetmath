@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "JEP",
+    "SJEP"
+  ],
+  "definition": "Let $K$ be a class of models (structures) of a given signature. We say\nthat $K$ has the *joint embedding property* (abbreviated *JEP*) iff for\nany models $A$ and $B$ in $K$ there exists a model $C$ in $K$ such that\nboth $A$ and $B$ are embeddable in $C$. [@FM; @UM]\n\n### Examples\n\nExamples include [@UM]:\n\n-   The class of all groups.\n\n-   The class of all monoids.\n\n-   The class of all non-trivial Boolean algebras.\n\nAs is the case with the above examples, classes having the joint\nembedding property often satisfy an even stronger condition - for every\nindexed family of models in the class there is a model in the class into\nwhich each member of the family can be embedded. This is known as the\n*strong joint embedding property* (abbreviated *SJEP*). [@IT]\n\nIn general any factor embeddable class closed under products will have\nthe strong joint embedding property. [@UM]\n\n### Characterizations\n\nElementary classes with the joint embedding property may be\ncharacterized syntactically and semantically:\n\nLet $T$ be a first order theory in a language $L$ and let $K$ be the\nclass of models of $T$ then:\n\n1.  $K$ has the joint embedding property iff for all universal sentences\n    $\\phi$ and $\\psi$ in $L$, $T\\vdash\\phi\\vee\\psi$ implies either\n    $T\\vdash\\phi$ or $T\\vdash\\psi$. [@FM]\n\n2.  If $T$ is consistent, then $K$ has the joint embedding property iff\n    $T$ has an ultra-universal model. [@UM]\n\n[1]{} Abraham Robinson: *Forcing in model theory*, Actes du Congr\u00e8s\nInternational des Math\u00e9maticiens (Nice, 1970) Gauthier-Villars, Paris,\n1971, pp. 245-250 Colin Naturman, Henry Rose: *Ultra-universal models*,\nQuaestiones Mathematicae, 15(2), 1992, 189-195 Colin Naturman: *Interior\nAlgebras and Topology*, Ph.D. thesis, University of Cape Town Department\nof Mathematics, 1991",
+  "language": "INFORMAL",
+  "phrase": "Joint Embedding Property",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JointEmbeddingProperty"
+    }
+  ],
+  "indexable": true
+}

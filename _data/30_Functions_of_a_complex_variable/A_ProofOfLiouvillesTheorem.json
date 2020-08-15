@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $f:\\mathbb{C}\\to\\mathbb{C}$ be a bounded, entire function. Then by\nTaylor\u2019s theorem,\n$$f(z)=\\sum_{n=0}^\\infty c_n x^n \\mbox{ where } c_n = \\frac{1}{2\\pi i}\\int_{\\Gamma_r} \\frac{f(w)}{w^{n+1}}\\,dw$$\n\nwhere $\\Gamma_r$ is the circle of radius $r$ about $0$, for $r>0$. Then\n$c_n$ can be estimated as\n$$|c_n|\\leq\\frac{1}{2\\pi}\\operatorname{length}(\\Gamma_r)\\operatorname{sup}\\left\\{\\left|\\frac{f(w)}{w^{n+1}}\\right|\\,\\colon\\, w\\in \\Gamma_r\\right\\} = \\frac{1}{2\\pi}\\, 2\\pi r \\frac{M_r}{r^{n+1}} = \\frac{M_r}{r^{n}}$$\n\nwhere $M_r = \\operatorname{sup}\\{|f(w)|\\colon w\\in\\Gamma_r\\}$.\n\nBut $f$ is bounded, so there is $M$ such that $M_r\\leq M$ for all $r$.\nThen $|c_n|\\leq\\frac{M}{r^n}$ for all $n$ and all $r>0$. But since $r$\nis arbitrary, this gives $c_n = 0$ whenever $n>0$. So $f(z) = c_0$ for\nall $z$, so $f$ is constant.$\\square$",
+  "conclusion": "#P_LiouvillesTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfLiouvillesTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Liouville's theorem"
+  ]
+}

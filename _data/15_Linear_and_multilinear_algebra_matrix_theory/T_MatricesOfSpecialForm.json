@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The aim of the present entry is to list matrices with special\nproperties.\n\n### Restriction on form {#restriction-on-form .unnumbered}\n\n-   diagonal matrices\n\n-   anti-diagonal matrices\n\n-   triangular matrices\n\n-   block matrices of either form above or of some other form\n\n-   nilpotent matrices\n\n-   elementary matrices\n\n-   Hadamard matrices\n\n-   partly decomposable matrices\n\n-   fully indecomposable matrices\n\n-   nearly decomposable matrices\n\n-   doubly stochastic matrices\n\n-   stochastic matrices\n\nIn numerical applications, sparse matrices (matrices with few nonzero\nentries) are important; these can be of any of the forms above.\n\n### Other restrictions {#other-restrictions .unnumbered}\n\n-   singular matrices\n\n-   $\\operatorname{GL}(n)$: invertible matrices\n\n-   $\\operatorname{SU}(n)$: unitary matrices with determinant $1$\n\n-   $\\operatorname{O}(n)$: orthogonal matrices\n\n-   $\\operatorname{SO}(n)$:\n\n-   normal matrices\n\n-   positive definite matrices\n\n-   symmetric matrices, antisymmetric matrices, Hermitian matrices,\n    anti-Hermitian matrices\n\n-   $\\operatorname{Sp}(2n)$: symplectic matrices (also called\n    $\\operatorname{Sp}(n)$)\n\n### Special matrices {#special-matrices .unnumbered}\n\n-   zero matrix\n\n-   identity matrix\n\n-   Hilbert matrix\n\n-   Vandermonde matrix\n\n-   Toeplitz matrix\n\n-   Pascal matrix\n\n-   Cauchy matrix\n\n-   M-matrix\n\n-   magic square\n\n-   Latin square",
+  "language": "INFORMAL",
+  "phrase": "Matrices Of Special Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MatricesOfSpecialForm"
+    }
+  ],
+  "indexable": true
+}

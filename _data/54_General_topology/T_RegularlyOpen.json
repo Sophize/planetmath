@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a topological space $(X,\\tau)$, a *regularly open set* is an open\nset $A\\in \\tau$ such that $$\\mathrm{int}\\, \\overline{A}=A$$ (the\ninterior of the closure is the set itself).\n\nAn example of non regularly open set on the standard topology for\n${\\mathbbmss{R}}$ is $A=(0,1)\\cup(1,2)$ since\n$\\mathrm{int}\\overline{A}=(0,2)$.",
+  "language": "INFORMAL",
+  "phrase": "Regularly Open",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegularlyOpen"
+    }
+  ],
+  "indexable": true
+}

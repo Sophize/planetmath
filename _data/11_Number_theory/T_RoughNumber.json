@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A $k$-[*rough number*]{} is an integer $n$ having only prime factors\ngreater than or equal to $k$. A number that is $k$-rough is thus not a\n$k$-smooth number. However, a prime $p$ is both $p$-smooth and $p$-rough\nbecause neither inequality is strict.\n\nFor example, 771166905830363 is 7-rough since, in addition to having 7\nas a prime factor, it has greater primes as factors. By comparison,\n93386641873154605056 is not 7-rough, and is in fact 7-smooth, since all\nits divisors are 2, 3, and powers of those small primes.",
+  "language": "INFORMAL",
+  "phrase": "Rough Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RoughNumber"
+    }
+  ],
+  "indexable": true
+}

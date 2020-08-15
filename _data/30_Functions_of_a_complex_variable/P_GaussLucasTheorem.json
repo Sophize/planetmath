@@ -1,0 +1,18 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If a convex polygon of the complex plane contains all of a\npolynomial $f(z)$, then it contains also all zeros of the $f'(z)$.\\\n[*Proof.*]{} Due to the fundamental theorem of algebra, the polynomial\n$f(z)$ can be written in the form $$\\begin{aligned}\nf(z) \\,=\\, a_0(z-z_1)(z-z_2)\\cdots(z-z_n)\\end{aligned}$$ where $a_0$ is\nthe leading coefficient and $z_1$, $z_2$,\u2026,$z_n$ are the zeros of $f(z)$\n(some of these may coincide). When the derivative\n$$f'(z) \\,=\\, \\sum_{\\mu=1}^n\\prod_{\\nu\\neq\\mu}(z-z_\\nu)$$ is divided by\n(1), we have the identic equation\n$$\\frac{f'(z)}{f(z)} \\,=\\, \\frac{1}{z\\!-\\!z_1}+\\frac{1}{z\\!-\\!z_2}+\\ldots+\\frac{1}{z\\!-\\!z_n},$$\nand therefore $$\\begin{aligned}\nf'(z) \\,=\\, f(z)\\!\\left(\\frac{1}{z\\!-\\!z_1}+\\frac{1}{z\\!-\\!z_2}+\\ldots+\\frac{1}{z\\!-\\!z_n}\\right).\\end{aligned}$$\nSince $f(z)$ has no zeros outside the polygon, we have, according to\n(2), to show only that the same concerns the second factor of the right\nhand side of (2).\n\nLet $z$ be an arbitrary point outside the polygon. Because of its\nconvexity, there is a line $l$ through $z$ such that the polygon is\ncompletely on the other side of $l$. Thus all directed line segments\nfrom $z$ to the points $z_1,\\, z_2, \\ldots,\\, z_n$ lie on the same side\nof the line $l$. The direction angles of those segments, being the\narguments of the complex numbers\n$z_1\\!-\\!z,\\, z_2\\!-\\!z,\\, \\ldots,\\, z_n\\!-\\!z$, are between the values\n$\\alpha$ and $\\alpha\\!+\\!\\pi$, where $\\alpha$ is one of the two angles\nwhich $l$ forms with the positive real axis.\n\nThe arguments of any non-zero complex number and its inverse number are\nalways opposite numbers of each other. Hence the arguments of\n$$\\begin{aligned}\n\\frac{1}{z\\!-\\!z_1},\\,\\frac{1}{z\\!-\\!z_2},\\,\\ldots,\\,\\frac{1}{z\\!-\\!z_n}\\end{aligned}$$\nare between $-\\alpha$ and $-\\alpha\\!-\\!\\pi$. Think the line $m$ through\nthe origin with the direction angle $-\\alpha$ and the position vectors\nof the numbers (3). These vectors are all directed on the same side of\n$m$, and similarly their sum vector, which thus is distinct from zero.\nThe opposite vector of this sum vector is equal to the second factor in\n(2), and accordingly distinct from zero.\\\n**Note.** The theorem can be strengthened to the following form: The\nzeros of the derivative of any non-zero polynomial $f(z)$ are contained\nin the convex hull of the set of the zeros of $f(z)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaussLucasTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gauss--Lucas theorem",
+    "Gauss-Lucas theorem",
+    "Lucas' theorem",
+    "Lucas's root theorem",
+    "zeros of polynomial derivative"
+  ]
+}

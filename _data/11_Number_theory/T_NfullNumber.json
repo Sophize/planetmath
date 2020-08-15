@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The concept of a squarefull number can be generalized. Let\n$n \\in \\mathbb{Z}$ with $n>1$. Then $m \\in \\mathbb{Z}$ is [*$n$-full*]{}\nif, for every prime $p$ dividing $m$, $p^n$ divides $m$.\n\nNote that $m$ is $n$-full if and only if there exist\n$a_0, \\dots, a_{n-1} \\in \\mathbb{Z}$ such that\n$\\displaystyle m=\\prod_{j=0}^{n-1} {a_j}^{n+j}$.",
+  "language": "INFORMAL",
+  "phrase": "$N$-Full Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NfullNumber"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Symplectic manifolds constitute the mathematical structure for modern\nHamiltonian mechanics. Symplectic manifolds can also be seen as even\ndimensional analogues to contact manifolds.\n\nA [*symplectic manifold*]{} is a pair $(M,\\omega)$ consisting of a\nsmooth manifold $M$ and a closed $\\omega\\in\\Omega^2(M)$, that is\nnon-degenerate at each point. Then $\\omega$ is called a [*symplectic\nform*]{} for $M$.\n\n### Properties {#properties .unnumbered}\n\n1.  Every symplectic manifold is even dimensional. This is easy to\n    understand in view of the physics. In Hamilton equations, location\n    and momentum vectors always appear in pairs.\n\n2.  A form $\\omega\\in \\Omega^2(M)$ on a $2n$-dimensional manifold $M$ is\n    non-degenerate if and only if the $n$-fold product\n    $\\omega^n= \\omega\\wedge \\cdots \\wedge \\omega$ is non-zero.\n\n3.  As a consequence of the last , every symplectic manifold is\n    orientable.\n\nLet $(M,\\omega)$ and $(N,\\eta)$ be symplectic manifolds. Then a\ndiffeomorphism $f\\colon M\\to N$ is called a [*symplectomorphism*]{} if\n$f^*\\eta=\\omega$, that is, if the symplectic form on $N$ pulls back to\nthe form on $M$.\n\n### Notes {#notes .unnumbered}\n\nA symplectomorphism is also known as a *canonical transformation*. This\nis mostly used in the mechanics literature.",
+  "language": "INFORMAL",
+  "phrase": "Symplectic Manifold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SymplecticManifold"
+    }
+  ],
+  "indexable": true
+}

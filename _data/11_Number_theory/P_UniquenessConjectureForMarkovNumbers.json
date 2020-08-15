@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Conjecture. Given a Markov number $z > 1$, there are several other\nMarkov numbers $x$ and $y$ such that $x^2 + y^2 + z^2 = 3xyz$, but there\nis only set of values of $x$ and $y$ satisfying the inequality\n$z > y \\geq x$.\n\nThe conjecture is easy enough to check for small values. For example,\nfor $z = 5$, we could even test $x$ and $y$ we know not to be Markov\nnumbers with minimum increase in computational overhead. Trying the\ntriples in order: (1, 1, 5), (1, 2, 5), (1, 3, 5), (1, 4, 5), (2, 1, 5),\n... (4, 4, 5) against $15xy - (x^2 + y^2 + 25)$ we obtain the sequence\n$-12$, 0, 10, 18, 0, 27, 52, 75, 10, 52, 92, 130, 18, 75, 130, 183. It\ndoesn\u2019t take significantly larger Markov numbers to show the need for a\ngeneral proof of uniqueness. Many attempted proofs have been submitted,\nbut Richard Guy dismisses them all as seemingly faulty.\n\nA divide-and-conquer approach to the problem has yielded encouraging\nresults, however. Baragar proved the uniqueness of prime Markov numbers\n$p$ as well as semiprimes $2p$. Schmutz then proved the uniqueness of\nMarkov numbers of the forms $p^n$ and $2p^n$. Ying Zhang used these\nresults to extend this to $4p^n$ and $8p^n$.\n\n[2]{} R. K. Guy, [*Unsolved Problems in Number Theory*]{} New York:\nSpringer-Verlag 2004: D12 Ying Zhang, \u201cCongruence and Uniqueness of\nCertain Markov Numbers\u201d [*Acta Arithmetica*]{} [**128**]{} 3 (2007): 297",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniquenessConjectureForMarkovNumbers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "uniqueness conjecture for Markov numbers",
+    "unicity conjecture for Markov numbers"
+  ]
+}

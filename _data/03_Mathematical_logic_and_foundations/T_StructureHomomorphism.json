@@ -1,0 +1,23 @@
+{
+  "alternatePhrases": [
+    "homomorphism",
+    "morphism",
+    "monomorphism",
+    "epimorphism",
+    "bimorphism",
+    "embedding",
+    "isomorphism",
+    "endomorphism",
+    "automorphism"
+  ],
+  "definition": "Let $\\Sigma$ be a fixed signature, and ${\\mathfrak{A}}$ and\n${\\mathfrak{B}}$ be two structures for $\\Sigma$. The interesting\nfunctions from ${\\mathfrak{A}}$ to ${\\mathfrak{B}}$ are the ones that\npreserve the structure.\n\nA function $f\\colon {\\mathfrak{A}}\\to {\\mathfrak{B}}$ is said to be a\n*homomorphism* (or simply *morphism*) if and only if:\n\n1.  For every constant symbol $c$ of $\\Sigma$,\n    $f(c^{\\mathfrak{A}})=c^{\\mathfrak{B}}$.\n\n2.  For every natural number $n$ and every $n$-ary function symbol $F$\n    of $\\Sigma$,\n    $$f(F^{\\mathfrak{A}}(a_1,...,a_n))=F^{\\mathfrak{B}}(f(a_1),...,f(a_n)).$$\n\n3.  For every natural number $n$ and every $n$-ary relation symbol $R$\n    of $\\Sigma$,\n    $$R^{\\mathfrak{A}}(a_1, \\ldots ,a_n) {\\Rightarrow}R^{\\mathfrak{B}}(f(a_1), \\ldots,f(a_n)).$$\n\nHomomorphisms with various additional properties have special names:\n\n-   An homomorphism is called a *monomorphism*.\n\n-   A surjective homomorphism is called an *epimorphism*.\n\n-   A bijective homomorphism is called a *bimorphism*.\n\n-   An injective homomorphism $f$ is called an *embedding* if, for every\n    natural number $n$ and every $n$-ary relation symbol $R$ of\n    $\\Sigma$,\n    $$R^{\\mathfrak{B}}(f(a_1), \\ldots,f(a_n)) {\\Rightarrow}R^{\\mathfrak{A}}(a_1, \\ldots ,a_n),$$\n    the converse of condition 3 above, holds.\n\n-   A surjective embedding is called an *isomorphism*.\n\n-   A homomorphism from a structure to itself (,\n    $f\\colon {\\mathfrak{A}}\\to {\\mathfrak{A}}$) is called an **.\n\n-   An isomorphism from a structure to itself is called an\n    *automorphism*.",
+  "language": "INFORMAL",
+  "phrase": "Structure Homomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StructureHomomorphism"
+    }
+  ],
+  "indexable": true
+}

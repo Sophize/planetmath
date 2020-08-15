@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "centraliser"
+  ],
+  "definition": "Let $G$ be a group. The [*centralizer*]{} of an element $a \\in G$ is\ndefined to be the set $$C(a) = \\{x \\in G \\mid xa = ax\\}$$ Observe that,\nby definition, $e \\in C(a)$, and that if $x, y \\in C(a)$, then\n$xy^{-1}a = xy^{-1}a(yy^{-1})=xy^{-1}yay^{-1}=xay^{-1} = axy^{-1}$, so\nthat $xy^{-1} \\in C(a)$. Thus $C(a)$ is a subgroup of $G$. For\n$a \\neq e$, the subgroup is non-trivial, containing at least $\\{e, a\\}$.\n\nTo illustrate an application of this concept we prove the following\nlemma.\n\n[**Lemma:**]{}\\\nThere exists a bijection between the right cosets of $C(a)$ and the\nconjugates of $a$.\n\n[**Proof:**]{}\\\nIf $x,y \\in G$ are in the same right coset, then $y = cx$ for some\n$c \\in C(a)$. Thus\n$y^{-1}ay = x^{-1}c^{-1}acx = x^{-1}c^{-1}cax = x^{-1}ax$. Conversely,\nif $y^{-1}ay = x^{-1}ax$ then $xy^{-1}a = axy^{-1}$ and\n$xy^{-1} \\in C(a)$ giving $x,y$ are in the same right coset. Let $[a]$\ndenote the conjugacy class of $a$. It follows that $|[a]| = [G : C(a)]$\nand $|[a]| \\mid |G|$.\\\nWe remark that $a \\in Z(G) \\iff C(a) = G \\iff |[a]| = 1$, where $Z(G)$\ndenotes the center of $G$.\n\nNow let $G$ be a $p$-group, i.e. a finite group of order $p^n$, where\n$p$ is a prime and $n$ is a positive integer. Let $z = |Z(G)|$. Summing\nover elements in distinct conjugacy classes, we have\n$p^n = \\sum{|[a]|} = z + \\sum_{a \\notin Z(G)}{|[a]|}$ since the center\nconsists precisely of the conjugacy classes of cardinality $1$. But\n$|[a]| \\mid p^n$, so $p \\mid z$. However, $Z(G)$ is certainly non-empty,\nso we conclude that every $p$-group has a non-trivial center.\n\nThe groups $C(gag^{-1})$ and $C(a)$, for any $g$, are isomorphic.",
+  "language": "INFORMAL",
+  "phrase": "Centralizer",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Centralizer"
+    }
+  ],
+  "indexable": true
+}

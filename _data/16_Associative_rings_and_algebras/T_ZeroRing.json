@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A ring is a [*zero ring*]{} if the product of any two elements is the\nadditive identity (or zero).\n\nZero rings are commutative under multiplication. For if $Z$ is a zero\nring, $0_Z$ is its additive identity, and $x,y \\in Z$, then $xy=0_Z=yx.$\n\nEvery zero ring is a nilpotent ring. For if $Z$ is a zero ring, then\n$Z^2=\\{0_Z\\}$.\n\nSince every subring of a ring must contain its zero element, every\nsubring of a ring is an ideal, and a zero ring has no prime ideals.\n\nThe simplest zero ring is ${\\mathbb Z}_1=\\{0\\}$. Up to , this is the\nonly zero ring that has a multiplicative identity.\n\nZero rings exist in . They can be constructed from any ring. If $R$ is a\nring, then\n\n$$\\left\\{ \\left. \\left( \\begin{array}{cc}\nr & -r \\\\\nr & -r \\end{array} \\right) \\right| r \\in R \\right\\}$$\n\nconsidered as a subring of ${\\mathbf M}_{2\\operatorname{x}2}(R)$ (with\nstandard matrix addition and multiplication) is a zero ring. Moreover,\nthe cardinality of this subset of ${\\mathbf M}_{2\\operatorname{x}2}(R)$\nis the same as that of $R$.\n\nMoreover, zero rings can be constructed from any abelian group. If $G$\nis a group with identity $e_G$, it can be made into a zero ring by\ndeclaring its addition to be its group operation and defining its\nmultiplication by $a \\cdot b=e_G$ for any $a,b \\in G$.\n\nEvery finite zero ring can be written as a direct product of cyclic\nrings, which must also be zero rings themselves. This follows from the .\nThus, if $p_1, \\ldots , p_m$ are distinct primes, $a_1, \\ldots , a_m$\nare positive integers, and $\\displaystyle n= \\prod_{j=1}^m {p_j}^{a_j}$,\nthen the number of zero rings of $n$ is\n$\\displaystyle \\prod_{j=1}^m p(a_j)$, where $p$ denotes the .",
+  "language": "INFORMAL",
+  "phrase": "Zero Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZeroRing"
+    }
+  ],
+  "indexable": true
+}

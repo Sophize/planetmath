@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "As special cases of the theorem of the parent \u201c\u201d of this entry, one\nobtains the\n\n**Corollary.** If $\\alpha$ and $\\beta$ are algebraic numbers, then also\n$\\alpha\\!+\\!\\beta$, $\\alpha\\!-\\!\\beta$, $\\alpha\\beta$ and\n$\\displaystyle\\frac{\\alpha}{\\beta}$ (provided $\\beta \\neq 0$) are\nalgebraic numbers. If $\\alpha$ and $\\beta$ are algebraic integers, then\nalso $\\alpha\\!+\\!\\beta$, $\\alpha\\!-\\!\\beta$ and $\\alpha\\beta$ are\nalgebraic integers.\\\nThe case of $\\displaystyle\\frac{\\alpha}{\\beta}$ needs an additional\nconsideration: If $x^m+b_1x^{m-1}+\\ldots+b_{m-1}x+b_m$ is the minimal\npolynomial of $\\beta$, the equation\n$\\beta^m+b_1\\beta^{m-1}+\\ldots+b_{m-1}\\beta+b_m = 0$ implies\n$$\\left(\\frac{1}{\\beta}\\right)^m\\!+\\frac{b_{m-1}}{b_m}\\!\\left(\\frac{1}{\\beta}\\right)^{m-1}\\!+\\ldots+\n\\frac{b_1}{b_m}\\!\\cdot\\!\\frac{1}{\\beta}+\\frac{1}{b_m} \\;=\\; 0.$$ Hence\n$\\displaystyle\\frac{1}{\\beta}$ is an algebraic number, and therefore\nalso $\\displaystyle\\alpha\\!\\cdot\\!\\frac{1}{\\beta}$.\\\nIt follows from the corollary that the set of all algebraic numbers is a\nfield and the set of all algebraic integers is a ring (an integral\ndomain, too). Moreover, the mentioned theorem implies that the *field of\nalgebraic numbers* is algebraically closed and the *ring of algebraic\nintegers* integrally closed. The field of algebraic numbers, which is\nsometimes denoted by $\\mathbb{A}$, contains for example the complex\nnumbers obtained from rational numbers by using arithmetic operations\nand taking (these numbers form a subfield of $\\mathbb{A}$).",
+  "language": "INFORMAL",
+  "phrase": "Field Of Algebraic Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FieldOfAlgebraicNumbers"
+    }
+  ],
+  "indexable": true
+}

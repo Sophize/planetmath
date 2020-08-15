@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *$k$-combination with repeated elements* chosen within the set\n$X=\\{x_1,x_2,\\ldots x_n\\}$ is a multiset with cardinality $k$ having $X$\nas the underlying set.\n\nThe definition is based on the multiset concept and therefore the order\nof the elements within the combination is irrelevant.\n\nThe definition generalizes the concept of *combination with distinct\nelements*.\n\nGiven $n,k \\in \\{0,1,2,\\ldots\\},n \\ge k$, the following formula holds:\n$$\\binom{n+1}{k+1}=\\sum_{i=k}^n\\binom{i}{k}.$$\n\nThe formula is easily demonstrated by repeated application of the\nPascal\u2019s Rule for the binomial coefficient.\n\nThe number $C'_{n,k}$ of the $k$-combinations with repeated elements is\ngiven by the formula: $$C'_{n,k}=\\binom{n+k-1}{k}.$$\n\nThe proof is given by .\\\nThe proof is trivial for $k=1$, since no repetitions can occur and the\nnumber of $1$-combinations is $n=\\binom{n}{1}$.\\\nLet\u2019s then prove the formula is true for $k+1$, assuming it holds for\n$k$. The $k+1$-combinations can be partitioned in $n$ subsets as\nfollows:\n\n-   combinations that include $x_1$ at least once;\n\n-   combinations that do not include $x_1$, but include $x_2$ at least\n    once;\n\n-   combinations that do not include $x_1$ and $x_2$, but include $x_3$\n    at least once;\n\n-   \u2026\n\n-   combinations that do not include $x_1$, $x_2$,... $x_{n-2}$ but\n    include $x_{n-1}$ at least once;\n\n-   combinations that do not include $x_1$, $x_2$,... $x_{n-2}$,\n    $x_{n-1}$ but include $x_n$ only.\n\nThe number of the subsets is:\n$$C'_{n,k}+C'_{n-1,k}+C'_{n-2,k}+\\ldots +C'_{2,k}+C'_{1,k}$$ which, by\nthe inductive hypothesis and the lemma, equalizes:\n$$\\binom{n+k-1}{k}+\\binom{n+k-2}{k}+\\binom{n+k-3}{k}+\\ldots +\\binom{k+1}{k}+\\binom{k}{k}=\\sum_{i=k}^{n+k-1}\\binom{i}{k}=\\binom{n+k}{k+1}.$$",
+  "language": "INFORMAL",
+  "phrase": "Combinations With Repeated Elements",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CombinationsWithRepeatedElements"
+    }
+  ],
+  "indexable": true
+}

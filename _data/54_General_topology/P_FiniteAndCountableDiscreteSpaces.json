@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $X\\neq \\emptyset$ is equipped with the discrete topology.\n\n1.  If $X$ if finite, then $X$ is homeomorphic to $\\{1,\\ldots, n\\}$ for\n    some $n\\ge 1$.\n\n2.  If $X$ if countable, then $X$ is homeomorphic to ${\\mathbbmss{Z}}$.\n\nHere, $\\{1,\\ldots, n\\}$ and ${\\mathbbmss{Z}}$ are endowed with the\ndiscrete topology (or, equivalently, the subspace topology from\n${\\mathbbmss{R}}$).\n\nThe first claim will be proven. If $$X=\\{a_1,\\ldots, a_n\\}$$ let\n$\\Phi\\colon \\{1,\\ldots, n\\} \\to X$ be\n$$\\Phi(i)=a_i,\\quad i=1,\\ldots, n.$$ Since $\\Phi$ is a bijection, it is\na homeomorphism.\n\nThe proof of the second claim is to that of the first.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FiniteAndCountableDiscreteSpaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "finite and countable discrete spaces"
+  ]
+}

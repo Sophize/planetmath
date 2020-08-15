@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f: [a,b] \\to \\mathbb{R}$ be a convex function. Then\n$$f(\\frac{a+b}{2}) \\le \\frac{1}{b-a} \\int_a^b f(t) dt \\le \\frac{f(a)+f(b)}{2}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HermiteHadamardIntegralInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hermite-Hadamard integral inequality"
+  ]
+}

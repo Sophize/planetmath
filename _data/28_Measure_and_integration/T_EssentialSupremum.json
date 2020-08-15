@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "ess-sup",
+    "ess sup"
+  ],
+  "definition": "Essential supremum of a function {#essential-supremum-of-a-function .unnumbered}\n--------------------------------\n\nLet $(\\Omega, \\mathcal{F}, \\mu)$ be a measure space and let $f$ be a\nBorel measurable function from $\\Omega$ to the extended real numbers\n$\\mathbb{\\bar R}$. The *essential supremum* of $f$ is the smallest\nnumber $a\\in\\mathbb{\\bar R}$ for which $f$ only exceeds $a$ on a set of\nmeasure zero. This allows us to generalize the maximum of a function in\na useful way.\n\nMore formally, we define $\\mathrm{ess } \\sup f$ as follows. Let\n$a \\in {\\mathbb{R}}$, and define\n\n$$M_{a} = {\\{x: f(x) > a\\}},$$\n\nthe subset of $X$ where $f(x)$ is greater than $a$. Then let\n$$A_{0} = {\\{a \\in {\\mathbb{R}}: \\mu(M_a) = 0\\}},$$ the set of real\nnumbers for which $M_a$ has measure zero. The essential supremum of $f$\nis $$\\mathrm{ess } \\sup f {:=}\\inf A_0.$$ The supremum is taken in the\nset of extended real numbers so, $\\mathrm{ess}\\sup f=\\infty$ if\n$A_0=\\emptyset$ and $\\mathrm{ess}\\sup f = -\\infty$ if $A_0=\\mathbb{R}$.\n\nEssential supremum of a collection of functions {#essential-supremum-of-a-collection-of-functions .unnumbered}\n-----------------------------------------------\n\nLet $(\\Omega,\\mathcal{F},\\mu)$ be a measure space, and $\\mathcal{S}$ be\na collection of measurable functions\n$f\\colon\\Omega\\rightarrow\\mathbb{\\bar R}$. The Borel $\\sigma$-algebra on\n$\\mathbb{\\bar R}$ is used.\n\nIf $\\mathcal{S}$ is countable then we can define the pointwise supremum\nof the functions in $\\mathcal{S}$, which will itself be measurable.\nHowever, if $\\mathcal{S}$ is uncountable then this is often not useful,\nand does not even have to be measurable. Instead, the *essential\nsupremum* can be used.\n\nThe essential supremum of $\\mathcal{S}$, written as\n${{\\mathrm{ess}\\sup}}\\,\\mathcal{S}$, if it exists, is a measurable\nfunction $f\\colon\\Omega\\rightarrow\\mathbb{\\bar R}$ satisfying the\nfollowing.\n\n-   $f\\ge g$, $\\mu$-, for any $g\\in\\mathcal{S}$.\n\n-   if $g\\colon\\Omega\\rightarrow\\mathbb{\\bar R}$ is measurable and\n    $g\\ge h$ ($\\mu$-a.e.) for every $h\\in\\mathcal{S}$, then $g\\ge f$\n    ($\\mu$-a.e.).\n\nSimilarly, the *essential infimum*, ${{\\mathrm{ess}\\inf}}\\mathcal{S}$ is\ndefined by replacing the inequalities \u2018$\\ge$\u2019 by \u2018$\\le$\u2019 in the above\ndefinition.\n\nNote that if $f$ is the essential supremum and\n$g\\colon\\Omega\\rightarrow\\mathbb{\\bar R}$ is equal to $f$ $\\mu$-almost\neverywhere, then $g$ is also an essential supremum. Conversely, if $f,g$\nare both essential supremums then, from the above definition, $f\\le g$\nand $g\\le f$, so $f=g$ ($\\mu$-a.e.). So, the essential supremum (and the\nessential infimum), if it exists, is only defined almost everywhere.\n\nIt can be shown that, for a $\\sigma$-finite measure $\\mu$, the .\nFurthermore, they are always equal to the supremum or infimum of some\ncountable subset of $\\mathcal{S}$.",
+  "language": "INFORMAL",
+  "phrase": "Essential Supremum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EssentialSupremum"
+    }
+  ],
+  "indexable": true
+}

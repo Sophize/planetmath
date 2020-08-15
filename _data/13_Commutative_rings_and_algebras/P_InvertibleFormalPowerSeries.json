@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let $R$ be a commutative ring with non-zero unity. A formal\npower series $$\\begin{aligned}\nf(X) \\;:=\\; \\sum_{i=0}^\\infty a_iX^i\\end{aligned}$$ is invertible in the\nring $R[[X]]$ iff $a_0$ is invertible in the ring $R$.\\\n*Proof.* $1^\\circ$. Let $f(X)$ have the multiplicative inverse\n$g(X) := \\sum_{i=0}^\\infty b_iX^i$. Since\n$$f(X)g(X) \\;=\\; \\sum_{i=0}^\\infty\\sum_{j=0}^ia_jb_{i-j}X^i \\;=\\; 1,$$\nwe see that $a_0b_0 = 1$, i.e. $a_0$ is an invertible element (unit) of\n$R$.\\\n$2^\\circ$. Assume conversely that $a_0$ is invertible in $R$. For making\nfrom a formal power series $$\\begin{aligned}\ng(X) := \\sum_{i=0}^\\infty b_iX^i\\end{aligned}$$ the inverse of\n$f(X) = \\sum_{i=0}^\\infty a_iX^i$, we first choose $b_0 := a_0^{-1}$.\nFor all already defined coefficients $b_0,\\,b_1,\\,\\ldots,\\,b_{i-1}$ let\nthe next coefficient be defined as\n$$b_i \\;:=\\; -a_0^{-1}(a_1b_{i-1}\\!+\\!a_2b_{i-2}\\!+\\ldots+\\!a_ib_0).$$\nThis equation means that\n$$\\sum_{j=0}^ia_jb_{i-j} \\;=\\; a_0b_i\\!+\\!a_1b_{i-1}\\!+\\!a_2b_{i-2}\\!+\\ldots+\\!a_ib_0$$\nvanishes for all $i = 1,\\,2,\\,\\ldots$; since $a_0b_0 = 1$, the product\nof the formal power series (1) and (2) becomes simply equal to 1.\nAccordingly, $f(x)$ is invertible.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InvertibleFormalPowerSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "invertible formal power series"
+  ]
+}

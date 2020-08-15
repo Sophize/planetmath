@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "rational integer",
+    "$\\mathbb{Z}$"
+  ],
+  "definition": "The set of integers, denoted by the symbol $\\mathbb{Z}$, is the set\n$\\{\\dots -3, -2, -1, 0, 1, 2, 3, \\dots\\}$ consisting of the natural\nnumbers and their negatives.\n\nMathematically, $\\mathbb{Z}$ is defined to be the set of equivalence\nclasses of pairs of natural numbers $\\mathbb{N} \\times \\mathbb{N}$ under\nthe equivalence relation $(a,b) \\sim (c,d)$ if $a+d = b+c$.\n\nAddition and multiplication of integers are defined as follows:\n\n-   $(a,b)+(c,d) := (a+c,b+d)$\n\n-   $(a,b)\\cdot(c,d) := (ac+bd,ad+bc)$\n\nTypically, the class of $(a,b)$ is denoted by symbol $n$ if $b \\leq a$\n(resp. $-n$ if $a \\leq b$), where $n$ is the unique natural number such\nthat $a=b+n$ (resp. $a+n=b$). Under this notation, we recover the\nfamiliar representation of the integers as\n$\\{\\dots, -3, -2, -1, 0, 1, 2, 3, \\dots\\}$. Here are some examples:\n\n-   $0 = $ equivalence class of $(0,0) = $ equivalence class of\n    $(1,1) = \\dots$\n\n-   $1 = $ equivalence class of $(1,0) = $ equivalence class of\n    $(2,1) = \\dots$\n\n-   $-1 = $ equivalence class of $(0,1) = $ equivalence class of\n    $(1,2) = \\dots$\n\nThe set of integers $\\mathbb{Z}$ under the addition and multiplication\noperations defined above form an integral domain. The integers admit the\nfollowing ordering relation making $\\mathbb{Z}$ into an ordered ring:\n$(a,b) \\leq (c,d)$ in $\\mathbb{Z}$ if $a+d \\leq b+c$ in $\\mathbb{N}$.\n\nThe ring of integers is also a Euclidean domain, with valuation given by\nthe absolute value function.",
+  "language": "INFORMAL",
+  "phrase": "Integer",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Integer"
+    }
+  ],
+  "indexable": true
+}

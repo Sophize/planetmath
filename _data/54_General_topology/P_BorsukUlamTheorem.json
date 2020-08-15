@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Call a continuous map $f:S^m \\to S^n$ antipode preserving if\n$f(-x)=-f(x)$ for all $x \\in S^{m}$.\n\n**Theorem**: There exists no continuous map $f:S^{n} \\to S^{n-1}$ which\nis antipode preserving for $n>0$.\n\nSome interesting consequences of this theorem have real-world\napplications. For example, this theorem implies that at any time there\nexists antipodal points on the surface of the earth which have exactly\nthe same barometric pressure and temperature.\n\nIt is also interesting to note a corollary to this theorem which states\nthat no subset of $\\mathbb{R}^{n}$ is homeomorphic to $S^{n}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BorsukUlamTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Borsuk-Ulam theorem"
+  ]
+}

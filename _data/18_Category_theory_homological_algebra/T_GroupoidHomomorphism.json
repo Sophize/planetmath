@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "groupoid morphisms"
+  ],
+  "definition": "Let ${\\mathsf{{\\mathcal G}}}_1$ and ${\\mathsf{{\\mathcal G}}}_2$ be two\ngroupoids considered as two distinct categories with all invertible\nmorphisms between their objects (or \u2018elements\u2019), respectively,\n$ x \\in Ob({\\mathsf{{\\mathcal G}}}_1) = {{{\\mathsf{{\\mathcal G}}}_0}}^1$\nand\n$ y \\in Ob({\\mathsf{{\\mathcal G}}}_2) = {{{\\mathsf{{\\mathcal G}}}_0}}^2$.\nA *groupoid homomorphism* is then defined as a functor\n$h: {\\mathsf{{\\mathcal G}}}_1 \\longrightarrow {\\mathsf{{\\mathcal G}}}_2$.\n\nA composition of groupoid homomorphisms is naturally a homomorphism, and\nnatural transformations of groupoid homomorphisms (as defined above by\ngroupoid functors) preserve groupoid structure(s), i.e., both the\nalgebraic and the topological structure of groupoids. Thus, in the case\nof topological groupoids, $\\mathsf{G}$, one also has the associated\ntopological space *homeomorphisms* that naturally preserve topological\nstructure.\n\nNote that the morphisms in the category of groupoids, $Grpd$, are, of\ncourse, groupoid homomorphisms, and that groupoid homomorphisms also\nform (groupoid) functor categories defined in the standard manner for\ncategories.",
+  "language": "INFORMAL",
+  "phrase": "Groupoid Homomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupoidHomomorphism"
+    }
+  ],
+  "indexable": true
+}

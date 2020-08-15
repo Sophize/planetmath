@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For any $p$ and $q$ and any $k$ with $0\\le k\\le p+q$,\n$$\\binom{p+q}{k}=\\sum_{i=0}^k\\binom{p}{i}\\binom{q}{k-i}.\\tag{*}$$\n\nLet $P$ and $Q$ be disjoint sets with $|P|=p$ and $|Q|=q$. Then the\nleft-hand side of Equation\u00a0(\\*) is equal to the number of subsets of\n$P\\cup Q$ of size $k$. To build a subset of $P\\cup Q$ of size $k$, we\nfirst decide how many elements, say $i$ with $0\\le i\\le k$, we will\nselect from $P$. We can then select those elements in $\\binom{p}{i}$\nways. Once we have done so, we must select the remaining $k-i$ elements\nfrom $Q$, which we can do in $\\binom{q}{k-i}$ ways. Thus there are\n$\\binom{p}{i}\\binom{q}{k-i}$ ways to select a subset of $P\\cup Q$ of\nsize $k$ subject to the restriction that exactly $i$ elements come from\n$P$. Summing over all possible $i$ completes the proof.\n\n[9]{} Abramowitz, M., and I. A. Stegun, eds. [*Handbook of Mathematical\nFunctions*]{}. National Bureau of Standards, Dover, New York, 1974.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VandermondeIdentity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Vandermonde identity"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An [*orderly number*]{} is an integer $n$ such that there exists at\nleast one other integer $k$ such that each divisor of $n$ from 1 to\n$d_{\\tau(n)}$ (with $\\tau(n)$ being the number of divisors function)\nsatisfies the congruences $d_i \\equiv 1 \\mod k$, $d_i \\equiv 2 \\mod k$\nthrough $d_i \\equiv \\tau(n) \\mod k$. For example, 20 is an orderly\nnumber, with $k = 7$, since it has six divisors, 1, 2, 4, 5, 10, 20, and\nwe can verify that\n\n$$1 \\equiv 1 \\mod 7$$ $$2 \\equiv 2 \\mod 7$$ $$10 \\equiv 3 \\mod 7$$\n$$4 \\equiv 4 \\mod 7$$ $$5 \\equiv 5 \\mod 7$$ $$20 \\equiv 6 \\mod 7$$\n\nThe orderly numbers less than 100 are 1, 2, 5, 7, 8, 9, 11, 12, 13, 17,\n19, 20, 23, 27, 29, 31, 37, 38, 41, 43, 47, 52, 53, 57, 58, 59, 61, 67,\n68, 71, 72, 73, 76, 79, 83, 87, 89, 97, listed in A167408 of Neil\nSloane\u2019s OEIS. With the exception of 3, all prime numbers are orderly.",
+  "language": "INFORMAL",
+  "phrase": "Orderly Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderlyNumber"
+    }
+  ],
+  "indexable": true
+}

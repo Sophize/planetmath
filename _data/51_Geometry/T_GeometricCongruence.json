@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "Euclidean congruent",
+    "affine congruent",
+    "projective congruent",
+    "congruent"
+  ],
+  "definition": "Two geometrical constructs are *congruent* if there is a finite sequence\nof geometric transformations mapping each one into the other. In this\nentry, we discuss three types of geometric congruences: congruence (the\nusual congruence), affine congruence, and projective congruence. After\ndiscussing congruence, we will briefly discuss congruence in\nNon-Euclidean geometry before moving on to affine congruence.\n\n### Euclidean Congruence {#euclidean-congruence .unnumbered}\n\nIn the usual Euclidean space, these rigid motions are translations,\nrotations, and reflections (and of course compositions of them).\n\nIn a less formal sense, saying two constructs are congruent amounts to\nsaying that the two constructs are essentially \u201cthe same\u201d under the\ngeometry that is being used.\n\nThe following are criteria that indicate that two given triangles are\ncongruent:\n\n-   SSS. If two triangles have their corresponding sides equal, they are\n    congruent.\n\n-   SAS. If two triangles have two corresponding sides equal as well as\n    the angle between them, the triangles are congruent.\n\n-   ASA. If two triangles have 2 pairs of corresponding angles equal, as\n    well as the side between them, the triangles are congruent.\n\n-   AAS. (Also known as SAA.) If two triangles have 2 pairs of\n    corresponding angles equal, as well as a pair of corresponding sides\n    which is not in between them, the triangles are congruent.\n\n### Congruence in Non-Euclidean Geometry {#congruence-in-non-euclidean-geometry .unnumbered}\n\nNote that the criteria listed above are also valid in hyperbolic\ngeometry (and therefore in neutral geometry). Also note that AAS is not\nvalid in spherical geometry, but all of the other criteria are. On the\nother hand, in both hyperbolic geometry and spherical geometry, AAA is a\ncriterion that indicates that two given triangles are congruent.\n\n### Affine Congruence {#affine-congruence .unnumbered}\n\nTwo geometric figures in an affine space are *affine congruent* if there\nis an affine transformation mapping one figure to another. Since lengths\nand angles are not preserved by affine transformations, the class of\nspecific geometric configurations is wider than that of the class of the\nsame geometric configuration under Euclidean congruence. For example,\nall triangles are affine congruent, whereas Euclidean congruent\ntriangles are confined only to those that are SSS, SAS, or ASA. Another\nexample is found in the class of ellipses, which contains ellipses of\nall sizes and shapes, including circles. However, in Euclidean\ncongruence, circles are only congruent to circles of the same radius.\n\n### Projective Congruence {#projective-congruence .unnumbered}\n\nTwo geometric figures in a projective space are *projective congruent*\nif there is a projective transformation mapping one figure to another.\nHere, we find the class of congruent objects of a geometric shape even\nwider than the class of congruent objects of the same geometric shape\nunder affine congruence. For example, the class of all conic sections\nare projectively congruent, so a circle is projectively the same as an\nellipse, as a parabola, and as a hyperbola. Of course, under affine\ncongruence, parabola, hyperbola, and ellipse are three distinct\ngeometric objects.",
+  "language": "INFORMAL",
+  "phrase": "Geometric Congruence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeometricCongruence"
+    }
+  ],
+  "indexable": true
+}

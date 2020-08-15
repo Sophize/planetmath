@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be an abelian group. A height function on $A$ is a function\n$h\\colon A\\to \\mathbb{R}$ with the properties:\n\n1.  For all $Q\\in A$ there exists a constant $C_1$, depending on $A$ and\n    $Q$, such that for all $P\\in A$: $$h(P+Q)\\leq 2h(P) +C_1$$\n\n2.  There exists an integer $m \\geq 2$ and a constant $C_2$, depending\n    on $A$, such that for all $P\\in A$: $$h(mP)\\geq m^2h(P) -C_2$$\n\n3.  For all $C_3 \\in \\mathbb{R}$, the following set is finite:\n    $$\\{ P\\in A: h(P)\\leq C_3\\}$$\n\n[**Examples**]{}:\n\n1.  For $t=p/q \\in \\mathbb{Q}$, a fraction in lower terms, define\n    $H(t)=\\max \\{\\mid p \\mid ,\\mid q \\mid \\}$. Even though this is not a\n    height function as defined above, this is the prototype of what a\n    height function should look like.\n\n2.  Let $E$ be an elliptic curve over $\\mathbb{Q}$. The function on\n    $E(\\mathbb{Q})$, the points in $E$ with coordinates in $\\mathbb{Q}$,\n    $h_x\\colon E(\\mathbb{Q})\\to \\mathbb{R}$ :\n    $$h_x(P)={{\\log H(x(P)),\\quad if\\ P\\neq 0} \\brace {0,\\quad if\\\n    P=0}}$$ is a height function ($H$ is defined as above). Notice that\n    this depends on the chosen Weierstrass model of the curve.\n\n3.  The *canonical height* of $E/\\mathbb{Q}$ (due to Neron and Tate) is\n    defined by: $$h_C(P)=1/2 \\lim_{N\\to \\infty} 4^{(-N)}h_x([2^N]P)$$\n    where $h_x$ is defined as in (2).\n\nFinally we mention the fundamental theorem of \u201cdescent\u201d, which\nhighlights the importance of the height functions:\n\nLet $A$ be an abelian group and let $h\\colon A \\to\n\\mathbb{R}$ be a height function. Suppose that for the integer $m$, as\nin property (2) of height, the quotient group $A/mA$ is finite. Then $A$\nis finitely generated.\n\n[9]{} Joseph H. Silverman, [*The Arithmetic of Elliptic Curves*]{}.\nSpringer-Verlag, New York, 1986.",
+  "language": "INFORMAL",
+  "phrase": "Height Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HeightFunction"
+    }
+  ],
+  "indexable": true
+}

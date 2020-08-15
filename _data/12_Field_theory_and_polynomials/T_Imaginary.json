@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "pure complex"
+  ],
+  "definition": "An *imaginary number* is the product of a nonzero real number multiplied\nby an imaginary unit (such as $i$) but having having real part 0.\n\nAny complex number $c \\in \\mathbb{C}$ may be written in the form\n$c = a + b i$ where $i$ is the imaginary unit $i = \\sqrt{-1}$ and $a$\nand $b$ are real numbers ($a, b \\in {\\mathbb{R}}$). So an imaginary\nnumber is a complex number $c$ such that $a = 0$ in the above\nformulation, i.e. such that $c$ can be written as $c = b i$. Such a\ncomplex number is then sometimes called a [*purely imaginary number*]{}.\nFor a purely imaginary number $c$, then it is the case that $\\Re(c) = 0$\nand $\\Im(c) \\neq 0$ and $b \\in \\mathbb{R}*$. A few examples of purely\nimaginary numbers: $0 + 47i$, $0 - \\pi i$, $\\frac{3}{4} i$.\n\nNote that the imaginary numbers are closed under addition but not under\nmultiplication, since $i \\times i = -1$ is not imaginary.\n\nWhether $0 + 0i$ is an imaginary number is a matter of debate. It is in\nthe middle of the number line of the real numbers but it is also in the\nmiddle of the number line of purely imaginary numbers.\n\nThe imaginary has had its definition expanded by analogy to several\nareas of mathematics. For example, if $V$ is vector space with a linear\ninvolution (denoted $v\\rightarrow v^*$), then an imaginary element in\n$V$ is one such that $v^* = -v$.\n\nMuch in the same way that the Impressionist painters came to be known by\na term initially intended to be derogatory, the term \u201cimaginary number\u201d\ncomes from a sneer by Descartes as to the validity of the concept: \u201cFor\nany equation one can imagine as many roots \\[as its degree would\nsuggest\\], but in many cases no quantity exists which corresponds to\nwhat one imagines.\u201d\n\n[2]{} Titu Andreescu & Dorin Andrica, [*Complex Numbers from A to...\nZ*]{}.\n\nBryan E. Blank, Book Review of [*An Imaginary Tale: The Story of\n$\\sqrt{-1}$*]{}, [*Notices of the AMS*]{} [**46**]{} 10 (1999): 1236\nPaul Nahin, [*An Imaginary Tale: The Story of $\\sqrt{-1}$*]{}.\nPrinceton: Princton University Press (1998)",
+  "language": "INFORMAL",
+  "phrase": "Imaginary",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Imaginary"
+    }
+  ],
+  "indexable": true
+}

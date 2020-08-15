@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If the function $f$ is defined in a $D$ of $\\mathbb{R}^n$\nand all the partial derivatives of a $f$ vanish identically in $D$, i.e.\n$$\\nabla{f} \\;\\equiv\\; \\vec{0} \\quad \\mbox{in}\\; D,$$ then the function\nhas a constant value in the whole domain.\\\n*Proof.* For the sake of simpler notations, think that $n = 3$; thus we\nhave $$\\begin{aligned}\nf_x'(x,\\,y,\\,z) \\;=\\; f_y'(x,\\,y,\\,z) \\;=\\; f_z'(x,\\,y,\\,z) \\;=\\; 0 \\quad \\mbox{for all}\\;\\;(x,\\,y,\\,z) \\in D.\\end{aligned}$$\nMake the antithesis that there are the points $P_0 = (x_0,\\,y_0,\\,z_0)$\nand $P_1 = (x_1,\\,y_1,\\,z_1)$ of $D$ such that\n$f(x_0,\\,y_0,\\,z_0) \\neq f(x_1,\\,y_1,\\,z_1)$. Since $D$ is connected,\none can form the broken line $P_0Q_1Q_2\\ldots Q_kP_1$ contained in $D$.\nWhen one now goes along this broken line from $P_0$ to $P_1$, one mets\nthe first corner where the value of $f$ does not equal\n$f(x_0,\\,y_0,\\,z_0)$. Thus $D$ contains a line segment, the end points\nof which give unequal values to $f$. When necessary, we change the\nnotations such that this line segment is $P_0P_1$. Now,\n$f_x',\\,f_y',\\,f_z'$ are continuous in $D$ because they vanish. The\nmean-value theorem for several variables guarantees an interior point\n$(a,\\,b,\\,c)$ of the segment such that\n$$0 \\;\\neq\\; f(x_1,\\,y_1,\\,z_1)-f(x_0,\\,y_0,\\,z_0) \n\\;=\\; f_x'(a,\\,b,\\,c)(x_1\\!-\\!x_0)+f_y'(a,\\,b,\\,c)(y_1\\!-\\!y_0)+f_z'(a,\\,b,\\,c)(z_1\\!-\\!z_0).$$\nBut by (1), the last sum must vanish. This contradictory result shows\nthat the antithesis is wrong, which settles the proof.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VanishingOfGradientInDomain"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "vanishing of gradient in domain",
+    "partial derivatives vanish"
+  ]
+}

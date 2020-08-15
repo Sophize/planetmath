@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $B$ be a matrix defined on $T\\times T$ for some countable set $T$.\nIf there exists a positive number $C$ such that\n$$\\sum_{t\\in T}|b(s,t)|<C \\ \\text{for all\\ }s\\ \\ \\ \\text{and} \\ \\ \\  \\sum_{s\\in T}|b(s,t)|<C \\  \\text{for all\\ } t,$$\nthen $B$ is a bounded operator on $l^2(T)$ with its operator norm\n${\\left\\|B\\right\\|}$ less than or equal to $C$.\n\nLet $x$ be a sequence in $l^2(T)$. We have $$\\begin{aligned}\n            {\\left\\|Bx\\right\\|}_2^2 & = \\sum_{s\\in T}\\left|\\sum_{t\\in T}b(s,t)x(t)\\right|^2\\\\\n            &\\leq\n            \\sum_{s\\in T}\\left[\\sum_{t\\in T}\\sqrt{|b(s,t)|}\\left(\\sqrt{|b(s,t)|}|x(t)|\\right)\\right]^2\\\\\n            &\\leq\n            \\sum_{s\\in T}\\left[\\left(\\sum_{t\\in T}|b(s,t)|\\right)\\left(\\sum_{t\\in T}|b(s,t)||x(t)|^2\\right)\\right]\\\\\n            &\\leq\n            C\\sum_{s\\in T}\\sum_{t\\in T}|b(s,t)||x(t)|^2\\\\\n            &\\leq\n            C\\sum_{t\\in T}|x(t)|^2\\sum_{s\\in T}|b(s,t)|\\\\\n            &\\leq\n            C^2\\sum_{t\\in T}|x(t)|^2.\n        \\end{aligned}$$ Therefore we have\n${{\\left\\|Bx\\right\\|}_2}\\leq C{{\\left\\|x\\right\\|}_2}$ for all\n$x \\in l^2(T)$, hence ${\\left\\|B\\right\\|}\\leq C$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchursConditionForAMatrixToBeABoundedOperatorOnL2"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Schur's condition for a matrix to be a bounded operator on $l^2$",
+    "Schur's Lemma",
+    "Schur's Lemma for infinite matrices"
+  ]
+}

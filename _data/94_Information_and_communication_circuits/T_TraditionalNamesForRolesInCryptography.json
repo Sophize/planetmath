@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In the field of cryptography, protocols are described and analysed to\nallow a number of parties to achieve certain goals like communication,\nauthentication, voting etc. Initially these protocol descriptions used\nsingle letter variables in the style \u201cLet A and B be parties trying to\ncommunicate with the help of a mutually trusted entity C.\u201d. This gave\nrise to a lot of repetition so a sort of pseudo-standard has arisen that\nuses first names for some of the standard roles. Common are Alice and\nBob as the first two parties in a protocol. If more parties are needed,\nthe following ones are Carol and Dave. Eve is a passive attacker, an\neavesdropper. Mallory is an active attacker. Trent is a trusted third\nparty like a mutually known key server. In the field of prove carrying\ncode, there\u2019s Peggy the prover and Victor the verifier. The list at\nwikipedia (http://en.wikipedia.org/wiki/Characters\\_in\\_cryptography)\ncontains even more elements from this bestiary.",
+  "language": "INFORMAL",
+  "phrase": "Traditional Names For Roles In Cryptography",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TraditionalNamesForRolesInCryptography"
+    }
+  ],
+  "indexable": true
+}

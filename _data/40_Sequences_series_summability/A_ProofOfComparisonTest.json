@@ -1,0 +1,17 @@
+{
+  "argumentText": "Assume $|a_k|\\leq b_k$ for all $k>n$. Then we define\n$$s_k:=\\sum_{i=k}^\\infty |a_i|$$ and $$t_k:=\\sum_{i=k}^\\infty b_i.$$\nObviously $s_k\\leq t_k$ for all $k>n$. Since by assumption $(t_k)$ is\n$(t_k)$ is bounded and so is $(s_k)$. Also $(s_k)$ is monotonic and\ntherefore . Therefore $\\sum_{i=0}^\\infty a_i$ is absolutely convergent.\n\nNow assume $b_k\\leq a_k$ for all $k>n$. If $\\sum_{i=k}^\\infty b_i$ is\ndivergent then so is $\\sum_{i=k}^\\infty a_i$ because otherwise we could\napply the test we just proved and show that $\\sum_{i=0}^\\infty b_i$ is\nconvergent, which is is not by assumption.",
+  "conclusion": "#P_ComparisonTest",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfComparisonTest"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of comparison test"
+  ]
+}

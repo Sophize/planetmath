@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $T$ be an endomorphism of an $n$-dimensional vector space $V$.\n\n[**Definitions.**]{} We define the **, $M_T(X)$, to be the unique monic\npolynomial of such that $M_T(T) = 0$. We say that $P(X)$ is a *zero* for\n$T$ if $P(T)$ is the zero endomorphism.\n\nNote that the minimal polynomial exists by virtue of the Cayley-Hamilton\ntheorem, which provides a zero polynomial for $T$.\n\n[**.**]{} Firstly, $\\operatorname{End}(V)$ is a vector space of\ndimension $n^2$. Therefore the $n^2 + 1$ vectors,\n$i_v, T, T^2, \\ldots T^{n^2}$, are linearly dependant. So there are\ncoefficients, $a_i$ not all zero such that\n$\\sum_{i=0}^{n^2} a_i T^i = 0$. We conclude that a non-trivial zero\npolynomial for $T$ exists. We take $M_T(X)$ to be a zero polynomial for\n$T$ of minimal degree with leading coefficient one.\n\n[**:**]{} If $P(X)$ is a zero polynomial for $T$ then\n$M_T(X) \\mid P(X)$.\n\nBy the division algorithm for polynomials, $P(X) = Q(X)M_T(X) + R(X)$\nwith $deg R < deg M_T$. We note that $R(X)$ is also a zero polynomial\nfor $T$ and by minimality of $M_T(X)$, must be just $0$. Thus we have\nshown $M_T(X) \\mid P(X)$.\n\nThe minimal polynomial has a number of interesting properties:\n\n1.  The roots are exactly the eigenvalues of the endomorphism\n\n2.  If the minimal polynomial of $T$ splits into linear factors then $T$\n    is upper-triangular with respect to some basis\n\n3.  The minimal polynomial of $T$ splits into *distinct* linear factors\n    (i.e. no repeated roots) if and only if $T$ is diagonal with respect\n    to some basis.\n\nIt is then a corollary of the fundamental theorem of algebra that every\nendomorphism of a finite dimensional vector space over $\\mathbb{C}$ may\nbe upper-triangularized.\n\nThe minimal polynomial is intimately related to the characteristic\npolynomial for $T$. For let $\\chi_T(X)$ be the characteristc polynomial.\nSince $\\chi_T(T)=0$, we have by the above lemma that\n$M_T(X) \\mid \\chi_T(X)$. It is also a fact that the eigenvalues of $T$\nare exactly the roots of $\\chi_T$. So when split into linear factors the\nonly difference between $M_T(X)$ and $\\chi_T(X)$ is the algebraic\nmultiplicity of the roots.\n\nIn general they may not be the same - for example any diagonal matrix\nwith repeated eigenvalues.",
+  "language": "INFORMAL",
+  "phrase": "Minimal Polynomial (Endomorphism)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinimalPolynomialendomorphism"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "$W^*$-algebra"
+  ],
+  "definition": "Definition {#definition .unnumbered}\n==========\n\nLet $H$ be an Hilbert space, and let $B(H)$ be the \\*-algebra of bounded\noperators in $H$.\n\nA [**von Neumann algebra**]{} (or $W^*$-algebra) $\\mathcal M$ is a\n\\*-subalgebra of $B(H)$ that contains the identity operator and\nsatisfies one of the following equivalent conditions:\n\n1.  $\\mathcal M$ is closed in the weak operator topology.\n\n2.  $\\mathcal M$ is closed in the strong operator topology.\n\n3.  $\\mathcal M = \\mathcal M''$, i.e. $\\mathcal M$ equals its double\n    commutant.\n\nThe equivalence between the above conditions is given by the von Neumann\ndouble commutant theorem.\n\nSince the weak and strong operator topology are weaker than the norm\ntopology, it follows that every von Neumann algebra is a norm closed\n\\*-subalgebra of $B(H)$. Thus, von Neumann algebras are a particular\nclass of and the results and tools from the $C^*$ theory are also\napplicable in the setting of von Neumann algebras. Nevertheless, the\nphilosophy behind von Neumann algebras is quite different from that of\n$C^*$-algebras and the tools and techniques for each theory turn out to\nbe different as well.\n\nExamples: {#examples .unnumbered}\n=========\n\n1.  $B(H)$ is itself a von Neumann algebra.\n\n2.  as subalgebra of $B(L^2(\\mathbb{R}))$ is a von Neumann algebra.",
+  "language": "INFORMAL",
+  "phrase": "Von Neumann Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VonNeumannAlgebra"
+    }
+  ],
+  "indexable": true
+}

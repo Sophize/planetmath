@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The completeness theorem of propositional logic is the statement that a\nwff is tautology iff it is a theorem. The if part of the statement is\nthe soundness theorem, and the only if part is the completeness theorem.\nWe will prove the two parts separately here. We begin with the easier\none:\n\nPropositional logic is sound with respect to truth-value semantics.\n\nBasically, we need to show that every axiom is a tautology, and that the\ninference rule modus ponens preserves truth. Since theorems are deduced\nfrom axioms and by applications of modus ponens, they are tautologies as\na result.\n\nUsing truth tables, one easily verifies that every axiom is true (under\nany valuation). For example, if the axiom is of the form\n$A\\to (B\\to A)$, then we have\n\nBefore proving the completeness portion of the theorem, we need the\nfollowing\n\nPropositional logic is complete with respect to truth-value semantics.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompletenessTheoremForPropositionalLogic"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "completeness theorem for propositional logic"
+  ]
+}

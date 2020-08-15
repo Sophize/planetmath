@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathbb{F}$ be an arbitrary field. Consider\n$\\mathcal{M}_n (\\mathbb{F})$, the vector space of all $n \\times n$\nmatrices over $\\mathbb{F}$. Let $\\mathcal{GL}_n (\\mathbb{F})$ be the set\nof all nonsingular matrices $P \\in \\mathcal{M}_n (\\mathbb{F})$.\n\nA linear endomorphism\n$\\varphi : \\mathcal{M}_n (\\mathbb{F}) \\longrightarrow \\mathcal{M}_n (\\mathbb{F})$\nis said to be in standard form, if either\n$\\exists\\, P, Q \\in \\mathcal{GL}_n (\\mathbb{F})\\, \\forall\\, A \\in \\mathcal{M}_n (\\mathbb{F}) :\\, \\varphi (A) = P A Q$\nor\n$\\exists\\, P, Q \\in \\mathcal{GL}_n (\\mathbb{F})\\, \\forall\\, A \\in \\mathcal{M}_n (\\mathbb{F}) :\\, \\varphi (A) = P A^\\top Q$.\n\nThe classical on linear preservers of the determinant function [@frob]\nreads as follows.\n\nIf\n$\\varphi : \\mathcal{M}_n (\\mathbb{C}) \\longrightarrow \\mathcal{M}_n (\\mathbb{C})$\nis a linear automorphism such that $\\det (\\varphi (A)) = \\det (A)$ for\nall $A \\in \\mathcal{M}_n (\\mathbb{C})$, then $\\varphi$ is in standard\nform with $\\det (P Q) = 1$.\n\nIt is well known that the can be strengthened.\n\nLet $\\mathbb{F}$ be an arbitrary field and let\n$\\varphi : \\mathcal{M}_n (\\mathbb{F}) \\longrightarrow \\mathcal{M}_n (\\mathbb{F})$\nbe a linear endomorphism. Then the following conditions are equivalent:\\\n\n  ------ -----------------------------------------------------------------------------\n   (i)   $\\det (\\varphi (A)) = \\det (A)$ for all $A \\in \\mathcal{M}_n (\\mathbb{F})$,\n   (ii)  $\\varphi$ is in standard form with $\\det (P Q) = 1$.\n  ------ -----------------------------------------------------------------------------\n\nThe above strengthened version of the can be derived from the Dieudonn\u00e9\ntheorem on linear preservers of the singular matrices.\n\n[99]{} G. Frobenius, *\u00dcber die Darstellung der endlichen Gruppen durch\nlineare Substitutionen*, Sitzungsber., Preuss. Akad. Wiss., Berlin, 1897\n(994\u20131015).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FrobeniusTheoremOnLinearDeterminantPreservers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Frobenius theorem on linear determinant preservers"
+  ]
+}

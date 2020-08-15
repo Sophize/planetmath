@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "equidistributed"
+  ],
+  "definition": "Let $\\{u_n\\}$ be a sequence of real numbers. For\n$0\\leq\\alpha<\\beta\\leq 1$ put\n$$Z(N,\\alpha,\\beta)=\\operatorname{card}\\{n\\in[1..N] : \\alpha \\leq\n(u_n \\bmod 1)< \\beta \\}.$$ The sequence $\\{u_n\\}$ is *uniformly\ndistributed modulo $1$* if $$\\label{eq:modcond}\n\\lim_{N\\to\\infty} \\frac{1}{N} Z(N,\\alpha,\\beta)=\\beta-\\alpha$$ for all\n$0\\leq\\alpha<\\beta\\leq 1$. In other words a sequence is uniformly\ndistributed modulo $1$ if each subinterval of $[0,1]$ gets its \u201cfair\nshare\u201d of fractional parts of $\\{u_n\\}$.\n\nMore generally, a sequence $\\{u_n\\}$ of points in a finite measure space\n$(X,\\mathcal{A},\\mu)$ is uniformly distributed with respect to a family\nof sets $\\mathcal{F}\\subset\\mathcal{A}$ if\n$$\\lim_{N\\to\\infty} \\frac{\\operatorname{card}\\{n\\in[1..N] :u_n\\in\nS\\}}{N}=\\frac{\\mu(S)}{\\mu(X)}\\qquad\\text{for every\n}S\\in\\mathcal{F}.$$\n\n[1]{}\n\nWilliam Chen. Lectures on irregularities of point distribution.\nAvailable at , 2000.\n\nHugh\u00a0L. Montgomery. , volume\u00a084 of [*Regional Conference Series in\nMathematics*]{}. AMS, 1994. .",
+  "language": "INFORMAL",
+  "phrase": "Uniformly Distributed",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformlyDistributed"
+    }
+  ],
+  "indexable": true
+}

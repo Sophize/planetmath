@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If for a given integer $n > 0$ there is no base $1 < b < (n - 1)$ such\nthat each digit $d_i = d_{k + 1 - i}$ of $n$ (where $k$ is the number of\nsignificant digits of $n$ in base $b$ and $i$ is a simple iterator in\nthe range $0 < i < (k + 1)$), meaning that $n$ is not a palindromic\nnumber in any of these bases, then $n$ is called a [*strictly\nnon-palindromic number*]{}.\n\nClearly $n > 2$ will be palindromic for $b = n - 1$, and though\ntrivially, this is also true for $b > n$.\n\n6 is the largest composite strictly non-palindromic number. For any\nother $2|n$, it is easy to find a base in which $n$ is written $22_b$ by\nsimply computing $b = \\frac{n}{2} - 1$. For odd composites $n = mp$,\nwhere $p$ is an odd prime and $m \\ge p$ we can almost always either find\nthat for $b = p - 1$, $n = b^2 + 2b + 1$, or for $b = m - 1$ then\n$n = pb + p$ and written with two instances of the digit corresponding\nto $p$ in that base. The one odd case of $n = 9$ is quickly dismissed\nwith $b = 2$.",
+  "language": "INFORMAL",
+  "phrase": "Strictly Non-Palindromic Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StrictlyNonpalindromicNumber"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The word \u201cpiecewise\u201d is used widely in mathematics, primarily in the\nanalysis of functions of a single real variable. Piecewise is typically\napplied to a set of mathematical properties on a function. Loosely\nspeaking, a function satisfies a particular property \u201cpiecewise\u201d if that\nfunction can be broken down into pieces (to be made precise later) so\nthat each piece satisfies that particular property. However, to avoid\npotential problems with infinity, the number of pieces is generally set\nto be finite (particularly in the case when the domain is bounded).\nAnother potential problem is that the function having this \u201cpiecewise\u201d\nproperty (let\u2019s call it $P$) usually fails to have this property $P$ at\ncertain boundary points of the pieces. To get around this technicality,\nand thus allowing a much wider class of functions to being \u201cpiecewise\n$P$\u201d, pieces are re-defined so as to exclude these problematic \u201cboundary\npoints\u201d.\n\nFormally speaking, we have the following:\n\n> That a function $f$ with domain $D\\subseteq \\mathbb{R}$ having\n> \u201cpiecewise\u201d property $P$ means that there is a finite partition of\n> $D$:\n> $$D=D_1\\cup\\cdots\\cup D_n,\\mbox{ with }D_i\\cap D_j=\\varnothing\\mbox{ for }i\\neq j$$\n> such that the restriction of $f$ to the interior of each $D_i$:\n> $f_i:=f\\mid \\operatorname{int}(D_i)$ has property $P$.\n\n**Remarks**.\n\n-   If $D$ is an interval or a ray on $\\mathbb{R}$, then this finite\n    partition can usually be done so that each \u201cpiece\u201d is an interval or\n    a ray.\n\n-   If function $f$ satisfies property $P$, then $f$ satisfies $P$\n    piecewise.\n\n-   Conversely, if $f$ satisfies property $P$ piecewise and $f$\n    satisfies $P$ at the boundary points of each \u201cpiece\u201d of the domain\n    $D$, then $f$ satisfies $P$.\n\nFor example, if $P$ means continuity of a function, then to say that a\nfunction $f$ defined on $\\mathbb{R}$ is *piecewise continuous* is the\nsame thing as saying that $\\mathbb{R}$ can be partitioned into intervals\nand rays so that $f$ is continuous in each of the intervals and rays.\n\nOther commonly used terms involving the concept of \u201cpiecewise\u201d are\n*piecewise differentiable*, *piecewise smooth*, *piecewise linear*, and\n*piecewise constant*.\n\nAnyone who can supply some graphs illustrating the concepts mentioned\nabove will be greatly appreciated.",
+  "language": "INFORMAL",
+  "phrase": "Piecewise",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Piecewise"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "null sequence"
+  ],
+  "definition": "Let a field $k$ be equipped with a rank one valuation $|.|$. A sequence\n$$\\begin{aligned}\n\\langle a_1,\\,a_2,\\,\\ldots \\rangle\\end{aligned}$$ of elements of $k$ is\ncalled a *zero sequence* or a *null sequence*, if\n$\\displaystyle\\lim_{n\\to\\infty}a_n = 0$ in the metric induced by $|.|$.\\\nIf $k$ together with the metric induced by its valuation $|.|$ is a\ncomplete ultrametric field, it\u2019s clear that its sequence (1) has a limit\n(in $k$) as soon as the sequence\n$$\\langle a_2\\!-a_1,\\, a_3\\!-\\!a_2,\\,a_4\\!-\\!a_3,\\,\\ldots \\rangle$$ is a\nzero sequence.\\\nIf $k$ is not complete with respect to its valuation $|.|$, its can be\nmade as follows. The Cauchy sequences (1) form an integral domain $D$\nwhen the operations \u201c$+$\u201d and \u201c$\\cdot$\u201d are defined componentwise. The\nsubset $P$ of $D$ formed by the zero sequences is a maximal ideal,\nwhence the quotient ring $D/P$ is a field $K$. Moreover, $k$ may be\nisomorphically embedded into $K$ and the valuation $|.|$ may be uniquely\nextended to a valuation of $K$. The field $K$ then is complete with\nrespect to $|.|$ and $k$ is dense in $K$.",
+  "language": "INFORMAL",
+  "phrase": "Zero Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZeroSequence"
+    }
+  ],
+  "indexable": true
+}

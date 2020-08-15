@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Throughout this entry, $\\omega$, $\\tau$, and $\\Omega$ denote the number\nof distinct prime factors function, the divisor function, and the ,\nrespectively.\n\nFor any positive integer $n$,\n$2^{\\omega(n)} \\le \\tau(n) \\le 2^{\\Omega(n)}$.\n\nNote that $2^{\\omega(n)}$, $\\tau(n)$, and $2^{\\Omega(n)}$ are\nmultiplicative. Also note that, for any positive integer $n$, the\nnumbers $2^{\\omega(n)}$, $\\tau(n)$, and $2^{\\Omega(n)}$ are positive\nintegers. Therefore, it will suffice to prove the inequality for prime\npowers.\n\nLet $p$ be a prime and $k$ be a positive integer. Thus:\n\n$\\begin{array}{rl}\n\\displaystyle 2^{\\omega(p^k)} & =2 \\\\\n\\\\\n\\tau(p^k) & =k+1 \\\\\n\\\\\n\\displaystyle 2^{\\Omega(p^k)} & = 2^k \\end{array}$\n\nHence, $2^{\\omega(p^k)} \\le \\tau(p^k) \\le 2^{\\Omega(p^k)}$. It follows\nthat $2^{\\omega(n)} \\le \\tau(n) \\le 2^{\\Omega(n)}$.\n\nThis theorem has an obvious corollary.\n\nFor any squarefree positive integer $n$,\n$2^{\\omega(n)}=\\tau(n)=2^{\\Omega(n)}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/2omeganletaunle2Omegan"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$2^{\\omega(n)} \\le \\tau(n) \\le 2^{\\Omega(n)}$"
+  ]
+}

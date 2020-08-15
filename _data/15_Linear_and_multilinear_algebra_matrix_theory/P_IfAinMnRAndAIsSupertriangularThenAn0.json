@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**theorem:** Let $R$ be commutative ring with identity. If an n-square\nmatrix $A \\in Mat_{n}(R)$ is supertriangular then $A^n = 0$.\\\n\\\n**proof:** Find the characteristic polynomial of $A$ by computing the\ndeterminant of $A-tI$. The square matrix $A-tI$ is a triangular matrix.\nThe determinant of a triangular matrix is the product of the diagonal\nelement of the matrix. Therefore the characteristic polynomial is\n$p(t) =t^n$ and by the Cayley-Hamilton theorem the matrix $A$ satisfies\nthe polynomial. That is $A^n = 0$.\\\nQED",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IfAinMnRAndAIsSupertriangularThenAn0"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "If $A \\in M_n(R)$ and $A$ is supertriangular then $A^n=0$"
+  ]
+}

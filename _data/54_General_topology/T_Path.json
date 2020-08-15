@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "pathwise connected",
+    "path-connected",
+    "path connected"
+  ],
+  "definition": "Let $I=[0,1] \\subset \\mathbb{R}$ and let $X$ be a topological space.\n\nA continuous map $f:I\\rightarrow X$ such that $f(0)=x$ and $f(1)=y$ is\ncalled a *path* in $X$. The point $x$ is called the [**initial\npoint**]{} of the path and $y$ is called its [**terminal point**]{}. If,\nin addition, the map is one-to-one, then it is known as an [**arc**]{}.\n\nSometimes, it is convenient to regard two paths or arcs as equivalent if\nthey differ by a reparameterization. That is to say, we regard\n$f \\colon I \\to X$ and $g \\colon I \\to X$ as equivalent if there exists\na homeomorphism $h \\colon I \\to I$ such that $h(0) = 0$ and $h(1) = 1$\nand $f = g \\circ h$.\n\nIf the space $X$ has extra structure, one may choose to restrict the\nclasses of paths and reparameterizations. For example, if $X$ has a\ndifferentiable structure, one may consider the class of differentiable\npaths. Likewise, one can speak of piecewise linear paths, rectifiable\npaths, and analytic paths in suitable contexts.\n\nThe space $X$ is said to be [**pathwise connected**]{} if, for every two\npoints $x, y \\in X$, there exists a path having $x$ as initial point and\n$y$ as terminal point. Likewise, the space $X$ is said to be [**arcwise\nconnected**]{} if, for every two distinct points $x, y \\in X$, there\nexists an *arc* having $x$ as initial point and $y$ as terminal point.\n\nA pathwise connected space is always a connected space, but a connected\nspace need not be path connected. An arcwise connected space is always a\npathwise connected space, but a pathwise connected space need not be\narcwise connected. As it turns out, for Hausdorff spaces these two\nnotions coincide \u2014 a Hausdorff space is pathwise connected iff it is\narcwise connected.",
+  "language": "INFORMAL",
+  "phrase": "Path",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Path"
+    }
+  ],
+  "indexable": true
+}

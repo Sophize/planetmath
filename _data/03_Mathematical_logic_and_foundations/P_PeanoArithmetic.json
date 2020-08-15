@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "*Peano\u2019s axioms* are a definition of the set of natural numbers, denoted\n$\\mathbb{N}$. From these axioms *Peano arithmetic* on natural numbers\ncan be derived.\n\n1.  $0\\in\\mathbb{N}$ (0 is a natural number)\n\n2.  For each $x\\in\\mathbb{N}$, there exists exactly one\n    $x'\\in\\mathbb{N}$, called the *successor* of $x$\n\n3.  $x'\\neq 0$ (0 is not the successor of any natural number)\n\n4.  $x = y$ if and only if $x' = y'$.\n\n5.  (*axiom of induction*) If $M\\subseteq\\mathbb{N}$ and $0\\in M$ and\n    $x\\in M$ implies $x'\\in M$, then $M = \\mathbb{N}$.\n\nThe *successor* of $x$ is sometimes denoted $Sx$ instead of $x'$. We\nthen have $1 = S0$, $2 = S1 = SS0$, and so on.\n\nPeano arithmetic consists of statements derived via these axioms. For\ninstance, from these axioms we can define addition and multiplication on\nnatural numbers. Addition is defined as\n\n$$\\begin{aligned}\nx+1 & = & x'\\quad\\text{for all }x\\in\\mathbb{N} \\\\\nx+y' & = & (x+y)'\\quad\\text{for all }x,y\\in\\mathbb{N}\\end{aligned}$$\n\nAddition defined in this manner can then be proven to be both\nassociative and commutative.\n\nMultiplication is\n\n$$\\begin{aligned}\nx\\cdot 1 & = & x\\quad\\text{for all }x\\in\\mathbb{N} \\\\\nx\\cdot y' & = & x\\cdot y + x\\quad\\text{for all }x,y\\in\\mathbb{N}\\end{aligned}$$\n\nThis definition of multiplication can also be proven to be both\nassociative and commutative, and it can also be shown to be distributive\nover addition.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PeanoArithmetic"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Peano arithmetic"
+  ]
+}

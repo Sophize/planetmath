@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For any non negative continuous random variable having distribution\nfunction $F(X)$ we have the followings:\n\n1.  $E[X]=\\int_{0}^{\\infty}Pr[X>t]dt$\n\n2.  $E[X^r]=r\\int_{0}^{\\infty}t^{r-1}Pr[X>t]dt$\n\n3.  $E[\\min(X,T)]=T-\\int_{0}^{\\infty} F(T)dt$\n\n4.  $E[X|X<T]=T-\\frac{1}{T}\\int_{0}^{T}F(t)dt$ where $T$ is a constant.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExpectationOfANonNegativeRandomVariable"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Expectation of a non negative random variable"
+  ]
+}

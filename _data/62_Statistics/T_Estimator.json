@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X_1,X_2,\\ldots,X_n$ be samples (with observations $X_i=x_i$) from a\ndistribution with probability density function $f(X\\mid\\theta)$, where\n$\\theta$ is a real-valued unknown in $f$. Consider $\\theta$ as a random\nvariable and let $\\tau(\\theta)$ be its realization.\n\nAn *estimator* for $\\theta$ is a statistic\n$\\eta_{\\theta}=\\eta_{\\theta}(X_1,X_2,\\ldots,X_n)$ that is used to,\nloosely speaking, estimate $\\tau(\\theta)$. Any value\n$\\eta_{\\theta}(X_1=x_1,X_2=x_2,\\ldots,X_n=x_n)$ of $\\eta_{\\theta}$ is\ncalled an *estimate* of $\\tau(\\theta)$.\n\n**Example**. Let $X_1,X_2,\\ldots,X_n$ be iid from a normal distribution\n$N(\\mu,\\sigma^2)$. Here the two parameters are the mean $\\mu$ and the\nvariance $\\sigma^2$. The sample mean $\\overline{X}$ is an estimator of\n$\\mu$, while the sample variance $s^2$ is an estimator of $\\sigma^2$. In\naddition, sample median, sample mode, sample trimmed mean are all\nestimators of $\\mu$. The statistic defined by\n$$\\frac{1}{n-1}\\sum_{i=1}^{n}(X_i-m)^2,$$ where $m$ is a sample median,\nis another estimator of $\\sigma^2$.",
+  "language": "INFORMAL",
+  "phrase": "Estimator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Estimator"
+    }
+  ],
+  "indexable": true
+}

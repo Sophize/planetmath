@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*strobogrammatic number*]{} is a number that, given a base and given\na set of glyphs, appears the same whether viewed normally or upside\ndown. In base 10, given a set of glyphs where 0, 1 and 8 are symmetrical\naround the horizontal axis, and 6 and 9 are the same as each other\nupside down (such as the digit characters in ASCII using the font Stylus\nBT), the first few strobogrammatic numbers are:\n\n1, 8, 11, 69, 88, 96, 101, 111, 181, 609, 619, 689, 808, 818, 888, 906,\n916, 986, 1001 (sequence A000787 in OEIS)\n\nLike the concept of repunits and palindromic numbers, the concept of\nstrobogrammatic numbers is base-dependent. Unlike palindromicity it is\nalso font dependent. But the concept of strobogrammatic numbers is not\nneatly expressible algebraically, the way that the concept of repunits\nis, or even the concept of palindromic numbers.\n\nThere are sets of glyphs for writing numbers in base 10, such as the\nDevanagari and Gurmukhi of India in which the numbers listed above are\nnot strobogrammatic at all.\n\nIn binary, given a glyph for 1 consisting of a single line without hooks\nor serifs, all palindromic numbers are strobogrammatic, which means that\nall Mersenne numbers are strobogrammatic.",
+  "language": "INFORMAL",
+  "phrase": "Strobogrammatic Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StrobogrammaticNumber"
+    }
+  ],
+  "indexable": true
+}

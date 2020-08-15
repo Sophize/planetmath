@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem implies the essential uniqueness of splitting\nfields and algebraic closures.\n\nLet $\\sigma:F\\rightarrow F^\\prime$ be an isomorphism of fields,\n$S={\\{f_\\alpha:\\alpha\\in A\\}}$ a set of non-constant polynomials in\n$F[X]$, and $S^\\prime={\\{\\sigma(f_\\alpha):\\alpha\\in A\\}}$ the\ncorresponding set of polynomials in $F^\\prime[X]$. If $K$ is a splitting\nfield of $S$ over $F$ and $K^\\prime$ a splitting field of $S^\\prime$\nover $F^\\prime$, then $\\sigma$ may be extended to an isomorphism of $K$\nand $K^\\prime$.\n\nIf $F$ is a field and $S$ a set of non-constant polynomials in $F[X]$,\nthen any two splitting fields of $S$ over $F$ are $F$-isomorphic. In\nparticular, any two algebraic closures of $F$ are $F$-isomorphic.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExistenceOfExtensionsOfFieldIsomorphismsToSplittingFields"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "existence of extensions of field isomorphisms to splitting fields"
+  ]
+}

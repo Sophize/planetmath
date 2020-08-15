@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Skolemization* is a way of removing existential quantifiers from a\nformula. Variables bound by existential quantifiers which are not inside\nthe scope of universal quantifiers can simply be replaced by constants:\n$\\exists x [x<3]$ can be changed to $c<3$, with $c$ a suitable constant.\n\nWhen the existential quantifier is inside a universal quantifier, the\nbound variable must be replaced by a *Skolem function* of the variables\nbound by universal quantifiers. Thus\n$\\forall x[x=0\\vee\\exists y[x=y+1]]$ becomes\n$\\forall x[x=0\\vee x=f(x)+1]$.\n\nIn general, the functions and constants symbols are new ones added to\nthe language for the purpose of satisfying these formulas, and are often\ndenoted by the formula they realize, for instance\n$c_{\\exists x\\phi(x)}$.\n\nThis is used in second order logic to move all existential quantifiers\noutside the scope of first order universal quantifiers. This can be done\nsince second order quantifiers can quantify over functions. For instance\n$\\forall^1 x\\forall^1 y\\exists^1 z\\phi(x,y,z)$ is equivalent to\n$\\exists^2 F\\forall^1 x\\forall^1 y\\phi(x,y,F(x,y))$.",
+  "language": "INFORMAL",
+  "phrase": "Skolemization",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Skolemization"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Boolean space"
+  ],
+  "definition": "A *Stone space*, also called a *Boolean space*, is a topological space\nthat is zero-dimensional, and compact. Equivalently, a Stone space is a\ntotally disconnected compact Hausdorff space.\n\nGiven a stone space $X$, one may associate a Boolean algebra $X^*$ by\ntaking the set of all of its clopen sets. The set theoretic operations\nof intersection, union, and complement makes $X^*$ a Boolean algebra.\n$X^*$ is known as the *dual algebra* of $X$.\n\nThe significance of Stone spaces stems from *Stone duality*: a pervasive\nequivalence between the algebraic notions and theorems of Boolean\nalgebras on one hand, and the topological notions and theorems of Stone\nspaces on the other. This equivalence comprises the content and\nconsequences of M. H. Stone\u2019s representation theorem.\n\nThere is a bijective correspondence between the following\n\n1.  The class consisting of all Boolean spaces\n\n2.  The class consisting of all Boolean algebras\n\n3.  The class consisting of all Boolean rings\n\n4.  The class consisting of all prime spectra of von Neumann regular\n    rings\n\nIn fact, viewing each class as a category equipped with the appropriate\nclass of morphisms, the categories are naturally equivalent between one\nanother.\n\nMore to come: partial proofs, constructions, categorical equivalence\nbetween the first three items due to Stone\u2019s Representation Theorem and\nreferences $\\dots$.\n\n[2]{} Paul R. Halmos, *Lectures on Boolean Algebras*, D. Van Nostrand\nCompany, Inc., 1963. Peter T. Johnstone, *Stone Spaces*, Cambridge\nUniversity Press, 1982.",
+  "language": "INFORMAL",
+  "phrase": "Stone Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StoneSpace"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *H\u00f6lder inequality* concerns *vector p-norms*: given $1 \\leq p$,\n$q \\leq \\infty$,\n\n$$\\mbox{If }\\frac{1}{p}+\\frac{1}{q}=1\\mbox{ then }|x^Ty| \\leq ||\\,x\\,||_p||\\,y\\,||_q$$\n\nAn important instance of a H\u00f6lder inequality is the *Cauchy-Schwarz\ninequality*.\n\nThere is a version of this result for the . If a function $f$ is in\n$L^p(X)$, then the $L^p$-norm of $f$ is denoted $||\\,f\\,||_p$. Given a\nmeasure space $(X,\\mathfrak{B},\\mu)$, if $f$ is in $L^p(X)$ and $g$ is\nin $L^q(X)$ (with $1/p + 1/q = 1$), then the H\u00f6lder inequality becomes\n\n$$\\begin{aligned}\n\\Vert fg\\Vert_1 = \\int_X \\vert fg\\vert \\mathrm{d}\\mu \n                      & \\le & \n\\left(\\int_X|f|^p\\mathrm{d}\\mu\\right)^{\\frac{1}{p}}\n\\left(\\int_X|g|^q\\mathrm{d}\\mu\\right)^{\\frac{1}{q}}\\\\\n& = & \\Vert f\\Vert_p\\,\\Vert g \\Vert_q \\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HolderInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "H\\\"older inequality",
+    "Holder inequality",
+    "Hoelder inequality"
+  ]
+}

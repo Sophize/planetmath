@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $V$ is a vector space and $L\\colon V\\to {\\mathbbmss{R}}$ is a\nmap. Then $v\\in V$ is a *stationar[y]{} point* of $L$ provided that\n$$\\frac{d}{dt}L(v+t u)\\Big|_{t=0} =0$$ for all $u\\in V$. In this case\n$u$ is called a variation of $v$.",
+  "language": "INFORMAL",
+  "phrase": "Stationary Point",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StationaryPoint"
+    }
+  ],
+  "indexable": true
+}

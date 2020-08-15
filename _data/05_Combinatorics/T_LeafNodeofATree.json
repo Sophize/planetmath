@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "leaf node",
+    "leaf"
+  ],
+  "definition": "A *leaf* of a tree is any node which has degree of exactly 1. Put\nanother way, a leaf node of a rooted tree is any node which has no child\nnodes.\n\n$$\\xymatrix{\n& \\bullet \\ar@{-}[dl] \\ar@{-}[dr] & & & \\\\\n{\\color{red}\\bullet} & & \\bullet \\ar@{-}[dr]\\ar@{-}[dl] & & \\\\\n& \\bullet \\ar@{-}[dl] & & {\\color{red}\\bullet} & \\\\\n{\\color{red}\\bullet} & & & & }$$\n\n[Figure: A tree with leaf nodes highlighted in red.]{}",
+  "language": "INFORMAL",
+  "phrase": "Leaf Node (Of A Tree)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeafNodeofATree"
+    }
+  ],
+  "indexable": true
+}

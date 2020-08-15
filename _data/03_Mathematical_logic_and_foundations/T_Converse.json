@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let a statement be of the form of an implication\n\nIf $p$ then $q$\n\nit has a certain premise $p$ and a conclusion $q$. The statement in\nwhich one has interchanged the conclusion and the premise,\n\nIf $q$ then $p$\n\nis the *converse* of the first. In other words, from the former one\nconcludes that $q$ is necessary for $p$, and from the latter that $p$ is\nnecessary for $q$.\n\nNote that the converse of an implication and the inverse of the same\nimplication are contrapositives of each other and thus are logically\nequivalent.\n\nIf there is originally a statement which is a (true) theorem and if its\nconverse also is true, then the latter can be called the *converse\ntheorem* of the original one. Note that, if the converse of a true\ntheorem \u201cIf $p$ then $q$\u201d is also true, then \u201c$p$ iff $q$\u201d is a true\ntheorem.\\\nFor example, we know the theorem on isosceles triangles:\n\n*If a triangle contains two sides, then it has two congruent angles.*\n\nThere is also its converse theorem:\n\n*If a triangle contains two congruent angles, then it has two congruent\nsides.*\n\nBoth of these propositions are true, thus being theorems (see the\nentries angles of an isosceles triangle and determining from angles that\na triangle is isosceles). But there are many (true) theorems whose\nconverses are not true, :\n\n*If a function is differentiable on an interval $I$, then it is on $I$.*",
+  "language": "INFORMAL",
+  "phrase": "Converse",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Converse"
+    }
+  ],
+  "indexable": true
+}

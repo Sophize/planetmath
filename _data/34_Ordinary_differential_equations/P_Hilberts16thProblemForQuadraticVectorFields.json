@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Find a maximum natural number $H(2)$ and relative position of limit\ncycles of a vector field $$\\begin{aligned}\n\\dot{x} = p(x,y) &=&\\sum_{i+j=0}^2 a_{ij}x^iy^j \\\\\n\\dot{y} = q(x,y) &=& \\sum_{i+j=0}^2 b_{ij}x^iy^j\\end{aligned}$$ [@1].\\\nAs of now neither part of the problem *(i.e. the bound and the positions\nof the limit cycles)* are solved. Although R. Bam\u00f2n in 1986 showed [@2]\nthat a quadratic vector field has finite number of limit cycles. In 1980\nShi Songling [@3] and also independently Chen Lan-Sun and Wang Ming-Shu\n[@4] showed an example of a quadratic vector field which has four limit\ncycles *(i.e. $H(2)\\geq 4$)*.\\\n**Example by Shi Songling:**\\\nThe following system $$\\begin{aligned}\n\\dot{x}=& \\lambda x - y - 10x^2 + (5+\\delta)xy + y^2 \\\\\n\\dot{y}=& x + x^2 + (-25 + 8\\epsilon - 9\\delta)xy\\end{aligned}$$ has\nfour limit cycles when $0<-\\lambda\\ll -\\epsilon\\ll- \\delta\\ll 1$. [@4]\\\n**Example by Chen Lan-sun and Wang Ming-Shu:**\\\nThe following system $$\\begin{aligned}\n\\dot{x}=& -y -\\delta_2x - 3x^2 + (1-\\delta_1)xy + y^2\\\\\n\\dot{y}=& x(1+\\frac{2}{3}x - 3y)\\end{aligned}$$ has four limit cycles\nwhen $0<\\delta_2\\ll\\delta_1\\ll 1$. [@4]\n\n[1]{} Dumortier, F., Roussarie, R., Rousseau, C.: Hilbert\u2019s 16th Problem\nfor Quadratic Vector Fields. Journal of Differential Equations 110,\n86-133, 1994. R. Bam\u00f2n: Quadratic vector fields in the plane have a\nfinite number of limit cycles, Publ. I.H.E.S. 64 (1986), 111-142. Shi\nSongling, A concrete example of the existence of four limit cycles for\nplane quadratic systems, Scientia Sinica 23 (1980), 154-158. Zhang\nZhi-fen, Ding Tong-ren, Huang Wen-zoa, Dong Zhen-xi. Qualitative Theory\nof Differential Equations. American Mathematical Society, Providence,\n1992.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Hilberts16thProblemForQuadraticVectorFields"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hilbert's 16th problem for quadratic vector fields"
+  ]
+}

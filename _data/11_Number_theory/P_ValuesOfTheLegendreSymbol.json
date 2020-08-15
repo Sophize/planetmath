@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For an integer $a$ and an odd prime $p$, let\n$\\displaystyle \\left(\\frac{a}{p}\\right)$ be the Legendre symbol.\n\nLet $p$ be an odd prime. The Legendre symbol takes the following values:\n\n1.  $$\\left(\\frac{-1}{p}\\right) =\n    \\begin{cases}\n    1 &\\text{if }p \\equiv 1 \\mod 4\\\\\n    -1 &\\text{if }p \\equiv 3 \\mod 4.\n    \\end{cases}$$\n\n2.  $$\\left(\\frac{2}{p}\\right) =\n    \\begin{cases}\n    1 &\\text{if }p\\equiv \\pm 1 \\mod 8\\\\\n    -1 &\\text{if }p\\equiv 3,5 \\mod 8.\n    \\end{cases}$$\n\n3.  $$\\left(\\frac{3}{p}\\right) =\n    \\begin{cases}\n    1 &\\text{if }p\\equiv \\pm 1 \\mod 12\\\\\n    -1 &\\text{otherwise.}\n    \\end{cases}$$\n\n4.  $$\\left(\\frac{5}{p}\\right) =\n    \\begin{cases}\n    1 &\\text{if }p\\equiv \\pm 1 \\mod 5\\\\\n    -1 &\\text{if }p\\equiv 2,3 \\mod 5.\n    \\end{cases}$$\n\nFor a proof of (1), see . Part (2) is proved in . For parts (3), (4) and\n(5), we use quadratic reciprocity. For example,\n$$\\left(\\frac{5}{p}\\right)=\\left(\\frac{p}{5}\\right)$$ and the only\nquadratic residues modulo $5$ are $\\pm 1 \\mod 5$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ValuesOfTheLegendreSymbol"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "values of the Legendre symbol"
+  ]
+}

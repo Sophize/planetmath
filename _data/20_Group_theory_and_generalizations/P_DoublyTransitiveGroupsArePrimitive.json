@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every doubly transitive group is .\n\nLet $G$ acting on $X$ be doubly transitive. To show the action is , we\nmust show that all blocks are trivial blocks; to do this, it suffices to\nshow that any block containing more than one element is all of $X$. So\nchoose a block $Y$ with two distinct elements $y_1, y_2$. Given an\narbitrary $x\\in X$, since $G$ is doubly transitive, we can choose\n$\\sigma\\in G$ such that $$\\sigma\\cdot(y_1,y_2)=(y_1,x)$$ But then\n$\\sigma\\cdot Y\\cap Y\\neq\\emptyset$, since $y_1$ is in both. Thus\n$\\sigma\\cdot Y=Y$, so $x\\in Y$ as well. So $Y=X$ and we are done.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DoublyTransitiveGroupsArePrimitive"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "doubly transitive groups are primitive"
+  ]
+}

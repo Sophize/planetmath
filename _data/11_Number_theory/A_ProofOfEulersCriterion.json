@@ -1,0 +1,17 @@
+{
+  "argumentText": "*(All congruences are modulo $p$ for the proof; omitted for clarity.)*\n\nLet $$x = a^{(p-1)/2}$$\n\nThen $x^2 \\equiv 1$ by Fermat\u2019s Little Theorem. Thus: $$x \\equiv \\pm 1$$\n\nNow consider the two possibilities:\n\n-   If $a$ is a quadratic residue then by definition, $a \\equiv b^2$ for\n    some $b$. Hence: $$x \\equiv a^{(p-1)/2} \\equiv b^{p-1} \\equiv 1$$\n\n-   It remains to show that $a^{(p-1)/2} \\equiv -1$ if $a$ is a\n    quadratic non-residue. We can proceed in two ways:\n\n    Proof (a)\n\n    :   Partition the set ${{\\left\\{ \\ 1, \\ldots, p - 1\\  \\right\\}}}$\n        into pairs ${{\\left\\{ \\ c, d\\  \\right\\}}}$ $c d \\equiv a$. Then\n        $c$ and $d$ must always be distinct since $a$ is a non-residue.\n        Hence, the product of the union of the partitions is:\n        $$(p - 1)! \\equiv a^{(p-1)/2} \\equiv -1$$\n\n        and the result follows by Wilson\u2019s Theorem.\n\n    Proof (b)\n\n    :   The equation: $$z^{(p-1)/2} \\equiv 1$$\n\n        has at most $(p-1)/2$ roots. But we already know of $(p-1)/2$\n        distinct roots of the above equation, these being the quadratic\n        residues modulo $p$. So $a$ can\u2019t be a root, yet\n        $a^{(p-1)/2} \\equiv \\pm 1$. Thus we must have:\n        $$a^{(p-1)/2} \\equiv -1$$\n\nQED.",
+  "conclusion": "#P_EulersCriterion",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfEulersCriterion"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Euler's criterion"
+  ]
+}

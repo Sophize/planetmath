@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "*-semigroup"
+  ],
+  "definition": "An *involution* on a semigroup $S$ \\[on a monoid $M$\\] is a unary\noperation $x\\mapsto x^*$ defined on $S$ \\[resp. on $M$\\] such that for\neach $x,y\\in S$ \\[resp. for each $x,y\\in M$\\]\n$$(x^*)^*=x,\\ \\ \\ (xy)^*=y^*x^*.$$ With this added internal operation,\nthe semigroup $S$ \\[resp. the monoid $M$\\] becomes a *semigroup with\ninvolution* or *$*$-semigroup* \\[resp. a *monoid with involution* or\n*$*$-monoid*\\].\n\n[9]{} J.M. Howie, *Fundamentals of Semigroup Theory*, Oxford University\nPress, Oxford, 1991.",
+  "language": "INFORMAL",
+  "phrase": "Semigroup With Involution",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemigroupWithInvolution"
+    }
+  ],
+  "indexable": true
+}

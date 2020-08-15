@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose that $X$ and $Y$ are topological spaces and\n$f: X \\to Y$ is a continuous map. If there exists a continuous map\n$g:Y \\to X$ such that $f\\circ g \\simeq id_{Y}$ (i.e. $f\\circ g$ is to\nthe identity mapping on $Y$), and $g \\circ f \\simeq id_{X}$, then $f$ is\na *homotopy equivalence*. This homotopy equivalence is sometimes called\n*strong homotopy equivalence* to distinguish it from weak homotopy\nequivalence.\n\nIf there exist a homotopy equivalence between the topological spaces $X$\nand $Y$, we say that $X$ and $Y$ are *homotopy equivalent*, or that $X$\nand $Y$ are of the same *homotopy type*. We then write $X\\simeq Y$.\n\n### Properties\n\n1.  Any homeomorphism $f:X\\to Y$ is obviously a homotopy equivalence\n    with $g=f^{-1}$.\n\n2.  For topological spaces, homotopy equivalence is an equivalence\n    relation.\n\n3.  A topological space $X$ is (by definition) contractible, if $X$ is\n    homotopy equivalent to a point, i.e., $X\\simeq \\{x_0\\}$.\n\n[9]{} A. Hatcher, *Algebraic Topology*, Cambridge University Press,\n2002. Also available .",
+  "language": "INFORMAL",
+  "phrase": "Homotopy Equivalence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomotopyEquivalence"
+    }
+  ],
+  "indexable": true
+}

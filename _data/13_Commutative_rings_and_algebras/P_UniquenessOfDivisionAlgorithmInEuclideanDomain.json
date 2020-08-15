@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let $a,\\,b$ be non-zero elements of a Euclidean domain $D$\nwith the Euclidean valuation $\\nu$. The [*incomplete quotient*]{} $q$\nand the remainder $r$ of the division algorithm\n$$a = qb+r \\quad \\mbox{where} \\quad r = 0 \\;\\; \\mbox{or}\\;\\; \\nu(r) < \\nu(b)$$\nare unique if and only if $$\\begin{aligned}\n\\nu(a+b) \\leqq \\max\\{\\nu(a),\\,\\nu(b)\\}.\\end{aligned}$$\n\n[*Proof.*]{} Assume first (1) for the elements $a,\\,b$ of $D$. If we had\n$$\\begin{aligned}\n\\begin{cases}\na = qb+r \\quad \\mbox{with} \\quad r = 0 \\;\\;\\;\\;\\lor\\;\\; \\nu(r) < \\nu(b),\\\\\na = q'b+r' \\quad \\mbox{with} \\quad r' = 0 \\;\\;\\lor\\;\\; \\nu(r') < \\nu(b)\n\\end{cases}\\end{aligned}$$ and $r' \\neq r$, $q' \\neq q$, then the and\nthe assumption yield the of inequalities\n$$\\nu(b) \\leqq \\nu((q'-q)b) = \\nu(r'-r) \\leqq \\max\\{\\nu(r'),\\,\\nu(-r)\\} < \\nu(b)$$\nwhich is impossible. We must infer that $r'-r = 0$ or $q'-q = 0$. But\nthese two conditions are . Thus the division algorithm is unique.\n\nConversely, assume that (1) is not true for non-zero elements $a,\\,b$ of\n$D$, i.e. $$\\nu(a+b) > \\max\\{\\nu(a),\\,\\nu(b)\\}.$$ Then we obtain two\nrepsesentations $$b = 0(a+b)+b = 1(a+b)-a$$ where $\\nu(b) < \\nu(a+b)$\nand $\\nu(-a) = \\nu(a) < \\nu(a+b)$. Thus the incomplete quotient and the\nremainder are not unique.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniquenessOfDivisionAlgorithmInEuclideanDomain"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "uniqueness of division algorithm in Euclidean domain"
+  ]
+}

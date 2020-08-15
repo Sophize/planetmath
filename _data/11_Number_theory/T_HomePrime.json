@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The home prime of a number is found by repeated concatenation of its\nprime factors until a prime number is obtained. For example, the home\nprime of 9 is 311 since 9 = 3\\*3 giving 33 which is composite; 33 =\n3\\*11 giving 311 which is a prime number. So, the home prime of n for n\n= 2, 3, 4 ... are 2, 3, 211, 5, 23, 7, 3331113965338635107, 311, 733,\n11, 233 ... (Sequence A037274 of OEIS). The number of steps needed to\nobtain the home prime of n for n = 2, 3, 4 ... are 0, 0, 2, 0, 1, 0, 13,\n2, 4, 0, 1, 0, 5, 4, 4, 0, 1 ... (Sequence A037273 of OEIS). It is\nbelieved that every number has a homeprime. The smallest number whose\nhomeprime is not known is 49. It is checked upto 109-th step and all\nresultant concatenations are composite. Similarly, the first few numbers\nwhose homeprime is not known are 77, 49, 146, 246, 312, 320 ... At least\n50 concatenations of all these numbers are verified.",
+  "language": "INFORMAL",
+  "phrase": "Home Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomePrime"
+    }
+  ],
+  "indexable": true
+}

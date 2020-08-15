@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K/F$ be a field extension and $\\kappa \\in K$ be algebraic over $F$.\nThe *minimal polynomial for $\\kappa$ over $F$* is a monic polynomial\n$m(x)\\in F[x]$ such that $m(\\kappa)=0$ and, for any other polynomial\n$f(x) \\in F[x]$ with $f(\\kappa)=0$, $m$ divides $f$. Note that, for any\nelement $\\kappa$ that is algebraic over $F$, ; moreover, because of the\nmonic condition, it exists uniquely.\n\nGiven $\\kappa\\in K$, a polynomial $m$ is the minimal polynomial of\n$\\kappa$ if and only if $m(\\kappa)=0$ and $m$ is both monic and .",
+  "language": "INFORMAL",
+  "phrase": "Minimal Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinimalPolynomial"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "support",
+    "carrier"
+  ],
+  "definition": "[**Definition**]{} Suppose $X$ is a topological space, and\n$f\\colon X\\to {\\mathbb{C}}$ is a function. Then the *support* of $f$\n(written as ${\\operatorname{supp}}f$), is the set\n$${\\operatorname{supp}}f = \\overline{\\{x\\in X\\mid f(x)\\neq 0\\}}.$$ In\nother words, ${\\operatorname{supp}}f$ is the closure of the set where\n$f$ does not vanish.\n\n### Properties {#properties .unnumbered}\n\nLet $f\\colon X\\to {\\mathbb{C}}$ be a function.\n\n1.  ${\\operatorname{supp}}f$ is closed.\n\n2.  If $x\\notin {\\operatorname{supp}}f$, then $f(x)=0$.\n\n3.  If ${\\operatorname{supp}}f = \\emptyset$, then $f=0$.\n\n4.  If $\\chi\\colon X\\to {\\mathbb{C}}$ is such that $\\chi = 1$ on\n    ${\\operatorname{supp}}f$, then $f=\\chi f$.\n\n5.  If $f,g\\colon X\\to {\\mathbb{C}}$ are functions, then we have\n    $$\\begin{aligned}\n    {\\operatorname{supp}}(fg) &\\subset & {\\operatorname{supp}}f \\cap {\\operatorname{supp}}g, \\\\\n    {\\operatorname{supp}}(f+g) &\\subset & {\\operatorname{supp}}f \\cup {\\operatorname{supp}}g.\\end{aligned}$$\n\n6.  If $Y$ is another topological space, and $\\Psi\\colon Y\\to X$ is a\n    homeomorphism, then\n    $${\\operatorname{supp}}(f\\circ \\Psi) = \\Psi^{-1}({\\operatorname{supp}}f).$$",
+  "language": "INFORMAL",
+  "phrase": "Support Of Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SupportOfFunction"
+    }
+  ],
+  "indexable": true
+}

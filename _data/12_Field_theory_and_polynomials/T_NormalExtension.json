@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "normal"
+  ],
+  "definition": "A field extension $K/F$ is *normal* if every irreducible polynomial\n$f \\in F[x]$ which has at least one root in $K$ splits (factors into a\nproduct of linear factors) in $K[x]$.\n\nAn extension $K/F$ of finite degree is normal if and only if there\nexists a polynomial $p \\in F[x]$ such that $K$ is the splitting field\nfor $p$ over $F$.",
+  "language": "INFORMAL",
+  "phrase": "Normal Extension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalExtension"
+    }
+  ],
+  "indexable": true
+}

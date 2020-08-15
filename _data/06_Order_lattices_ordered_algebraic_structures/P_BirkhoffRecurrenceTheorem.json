@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $T:X\\rightarrow X$ be a continuous tranformation in a compact metric\nspace $X$. Then, there exists some point $x \\in X$ that is recurrent to\n$T$, that is, there exists a sequence $(n_k)_k$ such that\n$T^{n_k}(x)\\rightarrow x$ when $k\\rightarrow \\infty$.\n\nSeveral proofs of this theorem are available. It may be obtained from\ntopological arguments together with Zorn\u2019s lemma. It is also a\nconsequence of Krylov-Bogolyubov theorem, or existence of invariant\nprobability measures theorem, which asserts that every continuous\ntransformation in a compact metric space admits an invariant probability\nmeasure, and an application of Poincar\u00e9 Recurrence theorem to that\ninvariant probability measure yields Birkhoff Recurrence theorem.\n\nThere is also a generalization of Birkhoff recurrence theorem for\nmultiple commuting transformations, known as Birkhoff Multiple\nRecurrence theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BirkhoffRecurrenceTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Birkhoff Recurrence Theorem"
+  ]
+}

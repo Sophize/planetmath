@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem. \u2013**]{} All orthonormal bases of an Hilbert space $H$ have\nthe same cardinality. It follows that the concept of dimension of a\nHilbert space is well-defined.\n\n$\\,$\n\n[***Proof:***]{} When $H$ is finite-dimensional (as a vector space),\nevery orthonormal basis is a Hamel basis of $H$. Thus, the result\nfollows from the fact that all Hamel bases of a vector space have the\nsame cardinality (see ).\n\nWe now consider the case where $H$ is infinite-dimensional (as a vector\nspace). Let $\\{e_i\\}_{i \\in I}$ and $\\{f_j\\}_{j \\in J}$ be two\northonormal basis of $H$, indexed by the sets $I$ and $J$, respectively.\nSince $H$ is infinite dimensional the sets $I$ and $J$ must be infinite.\n\nWe know, from Parseval\u2019s equality, that for every $x \\in H$\n$$\\|x\\|^2 = \\sum_{i \\in I} |\\langle x, e_i \\rangle|^2$$ We know that, in\nthe above sum, $\\langle x, e_i \\rangle \\neq 0$ for only a countable\nnumber of $i \\in I$. Thus, considering $x$ as $f_j$, the set\n$I_j := \\{ i \\in I: \\langle f_j, e_i \\rangle \\neq 0 \\}$ is countable.\nSince for each $i \\in I$ we also have\n$$\\|e_i\\|^2 = \\sum_{j \\in J}| \\langle e_i, f_j \\rangle|^2$$ there must\nbe $j \\in J$ such that $\\langle f_j, e_i \\rangle \\neq 0$. We conclude\nthat $\\displaystyle I = \\bigcup_{j \\in J} I_j$.\n\nHence, since each $I_j$ is countable,\n$I \\leq J\\!\\times\\!\\mathbb{N} \\cong J$ (because $J$ is infinite).\n\nAn analogous proves that $J \\leq I$. Hence, by the Schroeder-Bernstein\ntheorem $J$ and $I$ have the same cardinality. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AllOrthonormalBasesHaveTheSameCardinality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "all orthonormal bases have the same cardinality",
+    "dimension of an Hilbert space is well-defined"
+  ]
+}

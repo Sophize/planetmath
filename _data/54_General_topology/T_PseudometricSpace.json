@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "pesudo-metric space"
+  ],
+  "definition": "A [*pseudometric space*]{} is a set $X$ together with a non-negative\nreal-valued function $d: X \\times X \\longrightarrow \\mathbb{R}$ (called\na [*pseudometric*]{}) such that, for every $x,y,z \\in X$,\n\n-   $d(x,x) = 0$.\n\n-   $d(x,y) = d(y,x)$\n\n-   $d(x,z) \\leq d(x,y) + d(y,z)$\n\nIn other words, a pseudometric space is a generalization of a metric\nspace in which we allow the possibility that $d(x,y)=0$ for distinct\nvalues of $x$ and $y$.\n\n[9]{} L.A. Steen, J.A.Seebach, Jr., *Counterexamples in topology*, Holt,\nRinehart and Winston, Inc., 1970.",
+  "language": "INFORMAL",
+  "phrase": "Pseudometric Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PseudometricSpace"
+    }
+  ],
+  "indexable": true
+}

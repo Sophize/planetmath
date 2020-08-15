@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $X$ be a Hausdorff space, and $C \\subseteq X$ a compact subset. We\nare to show that $C$ is closed. We will do so, by showing that the\ncomplement $U = X \\setminus C$ is open. To prove that $U$ is open, it\nsuffices to demonstrate that, for each $x \\in U$, there exists an open\nset $V$ with $x \\in V$ and $V \\subseteq U$.\n\nFix $x \\in U$. For each $y \\in C$, using the Hausdorff assumption,\nchoose disjoint open sets $A_y$ and $B_y$ with $x \\in A_y$ and\n$y \\in B_y$.\n\nSince every $y \\in C$ is an element of $B_y$, the collection\n$\\{B_y \\mid y \\in C\\}$ is an open covering of $C$. Since $C$ is compact,\nthis open cover admits a finite subcover. So choose\n$y_1, \\ldots, y_n \\in C$ such that\n$C \\subseteq B_{y_1} \\cup \\cdots \\cup B_{y_n}$.\n\nNotice that $A_{y_1} \\cap \\cdots \\cap A_{y_n}$, being a finite\nintersection of open sets, is open, and contains $x$. Call this\nneighborhood of $x$ by the name $V$. All we need to do is show that\n$V \\subseteq U$.\n\nFor any point $z \\in C$, we have\n$z \\in B_{y_1} \\cup \\cdots \\cup B_{y_n}$, and therefore $z \\in B_{y_k}$\nfor some $k$. Since $A_{y_k}$ and $B_{y_k}$ are disjoint,\n$z \\notin A_{y_k}$, and therefore\n$z \\notin A_{y_1} \\cap \\cdots \\cap A_{y_n} = V$. Thus $C$ is disjoint\nfrom $V$, and $V$ is contained in $U$.",
+  "conclusion": "#P_ACompactSetInAHausdorffSpaceIsClosed",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofThatACompactSetInAHausdorffSpaceIsClosed"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof that a compact set in a Hausdorff space is closed"
+  ]
+}

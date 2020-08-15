@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $\\alpha_1,\\ldots,\\alpha_n$ are linearly independent algebraic numbers\nover $\\mathbb{Q}$, then $e^{\\alpha_1},\\ldots,e^{\\alpha_n}$ are\nalgebraically independent over $\\mathbb{Q}$.\n\nAn equivalent version of the theorem that if $\\alpha_1,\\ldots,\\alpha_n$\nare distinct algebraic numbers over $\\mathbb{Q}$, then\n$e^{\\alpha_1},\\ldots,e^{\\alpha_n}$ are linearly independent over\n$\\mathbb{Q}$.\n\nSome immediate consequences of this theorem:\n\n-   If $\\alpha$ is a non-zero algebraic number over $\\mathbb{Q}$, then\n    $e^{\\alpha}$ is transcendental over $\\mathbb{Q}$.\n\n-   $e$ is transcendental over $\\mathbb{Q}$.\n\n-   $\\pi$ is transcendental over $\\mathbb{Q}$. As a result, it is\n    impossible to \u201csquare the circle\u201d!\n\nIt is easy to see that $\\pi$ is transcendental over $\\mathbb{Q}(e)$ iff\n$e$ is transcendental over $\\mathbb{Q}(\\pi)$ iff $\\pi$ and $e$ are\nalgebraically independent. However, whether $\\pi$ and $e$ are\nalgebraically independent is still an open question today.\n\nSchanuel\u2019s conjecture is a generalization of the Lindemann-Weierstrass\ntheorem. If Schanuel\u2019s conjecture were proven to be true, then the\nalgebraic independence of $e$ and $\\pi$ over $\\mathbb{Q}$ can be shown.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LindemannWeierstrassTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lindemann-Weierstrass theorem",
+    "Lindemann's theorem"
+  ]
+}

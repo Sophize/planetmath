@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $d$ be a positive integer which is not a perfect square, and let\n$(x,y)$ be a solution of $x^2 -dy^2 =1$. Then $\\frac{x}{y}$ is a\nconvergent in the simple continued fraction expansion of $\\sqrt{d}$.\n\nSuppose we have a non-trivial solution $x,y$ of Pell\u2019s equation, i.e.\n$y \\neq\n0$. Let $x,y$ both be positive integers. From\n$$\\left(\\frac{x}{y}\\right)^2 =d +\\frac{1}{y^2}$$ we see that\n$\\left(\\frac{x}{y}\\right)^2 > d$, hence $\\frac{x}{y} >\n\\sqrt{d}$. So we get $$\\begin{aligned}\n\\left\\vert \\frac{x}{y} -\\sqrt{d}\\right\\vert =\\frac{1}{y^2\\left(\\frac{x}{y}\n+\\sqrt{d}\\right)} & < \\frac{1}{y^2\\left(2\\sqrt{d}\\right)} \\\\\n& < \\frac{1}{2y^2}.\\end{aligned}$$ This implies that $\\frac{x}{y}$ is a\nconvergent of the continued fraction of $\\sqrt{d}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PellsEquationAndSimpleContinuedFractions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Pell's equation and simple continued fractions"
+  ]
+}

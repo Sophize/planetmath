@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a compact space and let $C^0(X,\\mathbb{R})$ be the algebra of\ncontinuous real functions defined over $X$. Let $\\mathcal{A}$ be a\nsubalgebra of $C^0(X,\\mathbb{R})$ for which the following conditions\nhold:\n\n1.  $\\forall x, y \\in X, x \\ne y, \\exists f \\in \\mathcal{A} : f(x) \\neq f(y)$\n\n2.  $1 \\in \\mathcal{A}$\n\nThen $\\mathcal{A}$ is dense in $C^0(X,\\mathbb{R})$.\n\nThis theorem is a generalization of the classical Weierstrass\napproximation theorem to general spaces.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StoneWeierstrassTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Stone-Weierstrass theorem"
+  ]
+}

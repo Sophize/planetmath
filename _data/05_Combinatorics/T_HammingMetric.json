@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Hamming distance",
+    "Hamming metric"
+  ],
+  "definition": "Let $$\\begin{aligned}\nx &= (x_1,x_2,x_3,\\ldots,x_n),\\\\\ny &= (y_1,y_2,y_3,\\ldots,y_n)\\end{aligned}$$ be bit patterns, that is,\nvectors consisting of zeros and ones.\n\nThe Hamming distance $d_H(u,v)$ defined as $$\\sum_{j=1}^n |x_i-y_i|$$ is\nequal to the number of positions where the bit patterns are differents.\n\nFor instance, if $u =(0,1,1,0,1,0,1)$ and $v =(1,0,1,0,1,0,1)$ then\n$$d_H(u,v) = |0-1|+ |1-0| + |1-1| + |0-0|+|1-1| + |0-0| + |1-1| = 3$$\nbecause $u$ and $v$ have different bits at three positions.\n\nThe Hamming distance holds the properties of a metric (otherwise it\nwould not be truly a distance):\n\n-   $d_H(x,y)\\geq 0$ for any $x,y$.\\\n\n-   $d_H(x,y)=0$ if and only if $x=y$.\\\n\n-   $d_H(x,y) = d_H(y,x)$ for any $x,y$.\\\n\n-   $d_H(x,y)\\leq d_H(x,z) +  d_H(z,y)$ for any $x,y,z$.\n\nIf we realize that $d_H$ is counting something (positions where bits\ndiffer), then it\u2019s clear that $d_H$ can never be negative. Also,\n$d_H(x,x)= 0$ because a bit pattern has no different bits respect to\nitself, and if two bit patterns coincide on each position, they are\nindeed the same pattern, which proves the second property. The third\ncondition also follows from the trivial fact that if $x$ differs at some\nposition from $y$, then $y$ differs at the sae position from $x$.\n\nWe are left to prove the last condition (trangle inequality). If\n$$\\begin{aligned}\nx &= (x_1,x_2,x_3,\\ldots,x_n)\\\\\ny &= (y_1,y_2,y_3,\\ldots,y_n)\\\\\nz &= (z_1,z_2,z_3,\\ldots,z_n)\\end{aligned}$$ then $d_H(x,y)$ counts at\nhow many places does $x$ differ from $y$. For instance, suppose that\n$x_3\\neq y_3$. This means that the third bits are different, which adds\n$1$ to the whole sum $d_H(x,y)$.\n\nNow, if $x_3\\neq y_3$ it cannot happen that $x_3=z_3$ and $z_3=y_3$ at\nthe same , so we have that $x_3\\neq z_3$ or $z_3\\neq y_3$. In either\ncase, the sum $d_H(x,z) + d_H(z,y)$ also increases by one.\n\nSo, for each mismatch that increases $d_H(x,y)$ by one,\n$d_H(x,z)+ d_H(z,y)$ also increases by one. We conclude that\n$$d_H(x,y)\\leq d_H(x,z) + d_H(z,y).$$",
+  "language": "INFORMAL",
+  "phrase": "Hamming Metric",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HammingMetric"
+    }
+  ],
+  "indexable": true
+}

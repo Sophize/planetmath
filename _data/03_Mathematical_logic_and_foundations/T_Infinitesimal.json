@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let [[*R*]{}]{} be a real closed field, for example the reals thought of\nas a structure in [[*L*]{}]{}, the language of ordered rings. Let\n[[*B*]{}]{} be some set of parameters from [[*R*]{}]{}. Consider the\nfollowing set of formulas in [[*L*]{}]{}([[*B*]{}]{}):\n$$\\{ x<b: b \\in B \\land b>0\\}$$ Then this set of formulas is finitely\nsatisfied, so by compactness is consistent. In fact this set of formulas\nextends to a unique type [[*p*]{}]{} over [[*B*]{}]{}, as it defines a\nDedekind cut. Thus there is some model [[*M*]{}]{} containing\n[[*B*]{}]{} and some $a \\in M$ so that the type of [[*a*]{}]{} over\n[[*B*]{}]{} is [[*p*]{}]{}.\n\nAny such element will be called *B-infinitesimal*. In particular,\nsuppose $B=\\emptyset$. Then the definable closure of [[*B*]{}]{} is the\nintersection of the reals with the algebraic numbers. Then a\n$\\emptyset$-infinitesimal (or simply *infinitesimal*) is any element of\nany real closed field that is positive but smaller than every real\nalgebraic (positive) number.\n\nAs noted above such models exist, by compactness. One can construct them\nusing ultraproducts; see the entry \u201c\u201d for more details. This is due to\nAbraham Robinson, who used such fields to formulate nonstandard\nanalysis.\n\nLet [[*K*]{}]{} be any ordered ring. Then [[*K*]{}]{} contains\n$\\mathbf{N}$. We say $K$ is *archimedean* if and only if for every\n$a \\in K$ there is some $n \\in \\mathbf{N}$ so that\n${{\\it a}} < {{\\it n}}$. Otherwise $K$ is *non-archimedean*.\n\nReal closed fields with infinitesimal elements are non-archimedean: for\nany infinitesimal [[*a*]{}]{} we have $a<1/n$ and thus $1/a>n$ for each\n$n \\in \\mathbf{N}$.\n\n[9]{} Robinson, A., *Selected papers of Abraham Robinson. Vol. II.\nNonstandard analysis and philosophy*, New Haven, Conn., 1979.",
+  "language": "INFORMAL",
+  "phrase": "Infinitesimal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Infinitesimal"
+    }
+  ],
+  "indexable": true
+}

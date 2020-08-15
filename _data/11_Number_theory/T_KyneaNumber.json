@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given $n$, compute $4^n + 2^{n + 1} - 1$ or $(2^n + 1)^2 - 2$ or\n$$4^n + \\sum_{i = 0}^n 2^i.$$ Any of these formulas gives the *Kynea\nnumber* for $n$.\n\nThe first few Kynea numbers are 7, 23, 79, 287, 1087, 4223, 16639,\n66047, 263167, 1050623, 4198399, 16785407, 67125247 (listed in A093069\nof Sloane\u2019s OEIS). Every third Kynea number is divisible by 7, thus\nprime Kynea numbers can\u2019t have $n = 3x + 2$ (except of course for\n$n = 2$. The largest Kynea number known to be prime is\n$(2^{281621} + 1)^2 - 2$, found by Cletus Emmanuel in November of 2005,\nusing k-Sieve from Phil Comody and OpenPFGW.",
+  "language": "INFORMAL",
+  "phrase": "Kynea Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KyneaNumber"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a variety (an , , or quasi-projective variety). We say $G$ is\na *group variety* if $G$ is provided with morphisms of varieties:\n$$\\begin{aligned}\n\\mu:G\\times G &\\to G \\\\\n (g_1,g_2) & \\mapsto g_1g_2,\\end{aligned}$$ $$\\begin{aligned}\n\\iota: G &\\to G \\\\\ng & \\mapsto g^{-1},\\end{aligned}$$ and $$\\begin{aligned}\n\\epsilon: \\{*\\} & \\to G\\\\\n* & \\mapsto e,\\end{aligned}$$ and if these morphisms make the elements\nof $G$ into a group.\n\nIn short, $G$ should be a group object in the category of varieties.\nExamples include the general linear group of dimension $n$ on $k$ and\nelliptic curves.\n\nGroup varieties that are actually projective are in fact abelian groups\n(although this is not obvious) and are called abelian varieties; their\nstudy is of interest to number theorists (among others).\n\nJust as schemes generalize varieties, group schemes generalize group\nvarieties. When dealing with situations in positive characteristic, or\nwith families of group varieties, often they are more appropriate.\n\nThere is also a (not very closely related) concept in group theory of a\n\u201c\u201d.",
+  "language": "INFORMAL",
+  "phrase": "Group Variety",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupVariety"
+    }
+  ],
+  "indexable": true
+}

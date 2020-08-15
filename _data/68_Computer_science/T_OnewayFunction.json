@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "one way function",
+    "one-way",
+    "one way"
+  ],
+  "definition": "A function $f$ is a *one-way function* if for any probabilistic,\npolynomial time computable function $g$ and any polynomial function $p$\nthere is $m$ such that for all $n>m$:\n\n$$\\operatorname{Pr}[f(g(f(x)))=f(x)]<\\frac{1}{p(n)}$$\n\nwhere $x$ has length $n$ and all numbers of length $n$ are equally\nlikely.\n\nThat is, no probabilistic, polynomial time function can effectively\ncompute $f^{-1}$.\n\nNote that, since $f$ need not be injective, this is a stricter\nrequirement than $$\\operatorname{Pr}[g(f(x)))=x]<\\frac{1}{p(n)}$$\n\nsince not only is $g(f(x))$ (almost always) not $x$, it is (almost\nalways) no value such that $f(g(f(x)))=f(x)$.",
+  "language": "INFORMAL",
+  "phrase": "One-Way Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OnewayFunction"
+    }
+  ],
+  "indexable": true
+}

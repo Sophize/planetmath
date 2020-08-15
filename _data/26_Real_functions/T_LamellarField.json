@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "lamellar",
+    "irrotational",
+    "conservative",
+    "laminar"
+  ],
+  "definition": "A vector field $\\vec{F} = \\vec{F}(x,\\,y,\\,z)$, defined in an open set\n$D$ of $\\mathbb{R}^3$, is [*lamellar*]{} if the condition\n$$\\nabla\\!\\times\\!\\vec{F} = \\vec{0}$$ is satisfied in every point\n$(x,\\,y,\\,z)$ of $D$.\n\nHere, $\\nabla\\!\\times\\!\\vec{F}$ is the curl or [*rotor*]{} of $\\vec{F}$.\nThe condition is equivalent with both of the following:\n\n-   The line integrals $$\\oint_s \\vec{F}\\cdot d\\vec{s}$$ taken around\n    any contractible curve $s$ vanish.\n\n-   The vector field has a $u = u(x,\\,y,\\,z)$ which has continuous\n    partial derivatives and which is up to a unique in a simply\n    connected domain; the scalar potential means that\n    $$\\vec{F} = \\nabla u.$$\n\nThe scalar potential has the expression\n$$u = \\int_{P_0}^P\\vec{F}\\cdot d\\vec{s},$$ where the point $P_0$ may be\nchosen freely, $P = (x,\\,y,\\,z)$.\n\n**Note.** In physics, $u$ is in general replaced with $V = -u$. If the\n$\\vec{F}$ is interpreted as a , then the potential $V$ is equal to the\nwork made by the when its point of application is displaced from $P_0$\nto infinity.",
+  "language": "INFORMAL",
+  "phrase": "Lamellar Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LamellarField"
+    }
+  ],
+  "indexable": true
+}

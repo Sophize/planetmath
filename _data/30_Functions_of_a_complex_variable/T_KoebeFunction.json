@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "K\\\"obe function"
+  ],
+  "definition": "The analytic function $$f(z) := \\frac{z}{(1-z)^2}$$ on the unit disc in\nthe complex plane is called the [*Koebe function*]{}. For some\n$\\lvert \\alpha \\rvert = 1$, the functions\n$$f_\\alpha(z) := \\frac{z}{(1- \\alpha z)^2}$$ are called [*rotations of\nthe Koebe function*]{}.\n\nFirstly note that $f_1 = f$, and next note that $f$ is a map from the\nopen unit disc onto ${\\mathbb{C}} \\backslash (-\\infty,-1/4]$. The maps\n$f_\\alpha (z)$ can be also given as\n$f_\\alpha(z) = \\bar{\\alpha} f_1 (\\alpha z )$. Further note that the\npower series representation of these functions is given by\n$$f_\\alpha(z) = \\frac{z}{(1-\\alpha z)^2}\n= \\sum_{n=1}^\\infty n \\alpha^{n-1} z^n .$$\n\nAlso note that these functions belong to the class of Schlicht\nfunctions.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1995.",
+  "language": "INFORMAL",
+  "phrase": "Koebe Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KoebeFunction"
+    }
+  ],
+  "indexable": true
+}

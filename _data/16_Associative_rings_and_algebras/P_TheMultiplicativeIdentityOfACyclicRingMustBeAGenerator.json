@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a cyclic ring with multiplicative identity $u$. Then $u$ the\nadditive group of $R$.\n\nLet $k$ be the behavior of $R$. Then there exists a $r$ of the additive\ngroup of $R$ such that $r^2=kr$. Let $a \\in \\mathbb{Z}$ with $u=ar$.\nThen $r=ur=(ar)r=ar^2=a(kr)=(ak)r$. If $R$ is infinite, then $ak=1$,\ncausing $a=k=1$ since $k$ is a nonnegative integer. If $R$ is finite,\nthen $ak \\equiv 1 \\operatorname{mod} |R|$. Thus, $\\gcd(k,|R|)=1$. Since\n$k$ divides $|R|$, $k=1$. Therefore,\n$a \\equiv 1 \\operatorname{mod} |R|$. In either case, $u=r$.\n\nNote that it was also proven that, if a cyclic ring has a multiplicative\nidentity, then it has behavior one. Its converse is also true. See for\nmore details.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheMultiplicativeIdentityOfACyclicRingMustBeAGenerator"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the multiplicative identity of a cyclic ring must be a generator"
+  ]
+}

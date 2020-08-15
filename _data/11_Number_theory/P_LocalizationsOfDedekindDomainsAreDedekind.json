@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $R$ is an integral domain with field of fractions $k$ and\n$S\\subseteq R\\setminus\\{0\\}$ is a multiplicative set, then the\nlocalization at $S$ is given by\n$$S^{-1}R=\\left\\{s^{-1}x:x\\in R,s\\in S\\right\\}$$ (up to isomorphism).\nThis is a subring of $k$, and the following theorem states that\nlocalizations of Dedekind domains are again Dedekind domains.\n\nLet $R$ be a Dedekind domain and $S\\subseteq R\\setminus\\{0\\}$ be a\nmultiplicative set. Then $S^{-1}R$ is a Dedekind domain.\n\nA special case of this is the localization at a prime ideal\n$\\mathfrak{p}$, which is defined as\n$R_\\mathfrak{p}\\equiv (R\\setminus\\mathfrak{p})^{-1}R$, and is therefore\na Dedekind domain. In fact, if $\\mathfrak{p}$ is nonzero then it can be\nshown that $R_\\mathfrak{p}$ is a discrete valuation ring.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocalizationsOfDedekindDomainsAreDedekind"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "localizations of Dedekind domains are Dedekind"
+  ]
+}

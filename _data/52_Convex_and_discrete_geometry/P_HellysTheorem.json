@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $A_1,\\dotsc,A_m\\subset \\mathbb{R}^d$ is a family of convex sets,\nand every $d+1$ of them have a non-empty intersection. Then\n$\\bigcap_{i=1}^m A_i$ is non-empty.\n\nThe proof is by induction on $m$. If $m=d+1$, then the statement is\nvacuous. Suppose the statement is true if $m$ is replaced by $m-1$. The\nsets $B_j=\\bigcap_{i\\neq j} A_i$ are non-empty by inductive hypothesis.\nPick a point $p_j$ from each of $B_j$. By Radon\u2019s lemma, there is a\npartition of $p$\u2019s into two sets $P_1$ and $P_2$ such that\n$I=(\\operatorname{conv}P_1)\\cap(\\operatorname{conv}P_2)\\neq \\emptyset$.\nFor every $A_j$ either every point in $P_1$ belongs to $A_j$ or every\npoint in $P_2$ belongs to $A_j$. Hence $I\\subseteq A_j$ for every $j$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HellysTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Helly's theorem"
+  ]
+}

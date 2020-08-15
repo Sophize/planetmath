@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "abelianisation"
+  ],
+  "definition": "The *abelianization* of a group $G$ is $G/[G,G]$, the of $G$ by its\nderived subgroup.\n\nThe abelianization of $G$ is the largest abelian quotient of $G$, in the\nsense that if $N$ is a normal subgroup of $G$ then $G/N$ is abelian if\nand only if $[G,G]\\subseteq N$. In particular, every abelian quotient of\n$G$ is a homomorphic image of $G/[G,G]$.\n\nIf $A$ is an abelian group and $\\phi\\colon G\\to A$ is a , then there is\na unique homomorphism $\\psi\\colon G/[G,G]\\to A$ such that\n$\\psi\\circ\\pi=\\phi$, where $\\pi\\colon G\\to G/[G,G]$ is the canonical\nprojection.",
+  "language": "INFORMAL",
+  "phrase": "Abelianization",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Abelianization"
+    }
+  ],
+  "indexable": true
+}

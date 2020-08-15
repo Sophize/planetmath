@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $n$ and $m$ are positive integers and $n > m$, we have the following\ninequality: $$\\left( 1 + {1 \\over n} \\right)^n < {n \\over n+1} \\left( 1\n+ {1 \\over m} \\right)^{m+1}$$\n\nTaking the limit as $n \\to \\infty$, we obtain an upper bound for $e$.\nCombining this with the fact that the $(1 + 1/n)^n$ is an increasing\nsequence, we have the following bounds for $e$:\n$$\\left( 1 + {1 \\over m} \\right)^m < e < \\left( 1\n+ {1 \\over m} \\right)^{m+1}$$\n\nThis can be used to show that $e$ is not an integer \u2013 if we take\n$m = 5$, we obtain $2.48832 < e < 2.985984$, for instance.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundsForE"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "bounds for e"
+  ]
+}

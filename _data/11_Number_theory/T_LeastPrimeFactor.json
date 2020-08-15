@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*least prime factor*]{} of a positive integer $n$ is the smallest\npositive prime number dividing $n$. Sometimes expressed as a function,\n${\\textrm{lpf}}(n)$. For example, ${\\textrm{lpf}}(91) = 7$. For a prime\nnumber $p$, clearly ${\\textrm{lpf}}(p) = p$, while for any composite\nnumber (except squares of primes) $({\\textrm{lpf}}(n))^2 < n$. (The\nfunction would be quite useless if 1 is considered a prime, therefore\n${\\textrm{lpf}}(1)$ is undefined \u2014 though we could make an argument for\n${\\textrm{lpf}}(0) = 2$). In the sequence of least prime factors for\neach integer in turn, each prime occurs first at the index for itself\nthen not again until its square.\n\nIn Mathematica, one can use `LeastPrimeFactor[n]` after loading a number\ntheory package, or much more simply by using the command\n`FactorInteger[n][[1,1]]` (of course substituting `n` as necessary).",
+  "language": "INFORMAL",
+  "phrase": "Least Prime Factor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeastPrimeFactor"
+    }
+  ],
+  "indexable": true
+}

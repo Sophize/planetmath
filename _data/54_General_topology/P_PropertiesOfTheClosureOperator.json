@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $X$ is a topological space, and let $\\overline{A}$ be the\nclosure of $A$ in $X$. Then the following properties hold:\n\n1.  $\\overline{A}=A\\cup A'$ where $A'$ is the derived set of $A$.\n\n2.  $A\\subseteq \\overline{A}$, and $A=\\overline{A}$ if and only if $A$\n    is closed\n\n3.  $\\overline{A}=\\emptyset$ if and only if $A=\\emptyset$.\n\n4.  If $Y$ is another topological space, then $f\\colon X \\to Y$ is a\n    continuous map, if and only if\n    $f(\\overline{A}) \\subseteq \\overline{f(A)}$ for all $A\\subseteq X$.\n    If $f$ is also a homeomorphism, then\n    $f(\\overline{A}) = \\overline{f(A)}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertiesOfTheClosureOperator"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "properties of the closure operator"
+  ]
+}

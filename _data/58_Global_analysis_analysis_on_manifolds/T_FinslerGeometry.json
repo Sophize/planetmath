@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal M$ be an $n$-dimensional differential manifold and let\n$\\phi\\colon T\\mathcal M \\to \\mathbb R$ be a function $\\phi(x,\\xi)$\ndefined for $x\\in \\mathcal M$ and $\\xi \\in T_x \\mathcal M$ such that\n$\\phi(x,\\cdot)$ is a possibly non symmetric norm on $T_x\\mathcal M$. The\ncouple $(\\mathcal M, \\phi)$ is called a Finsler space.\n\nLet us define the $\\phi$-length of curves in $\\mathcal M$. If\n$\\gamma\\colon [a,b]\\to\\mathcal M$ is a differentiable curve we define\n$$\\ell_\\phi(\\gamma) := \\int_a^b \\phi(\\gamma'(t))\\, dt.$$\n\nSo a natural geodesic distance can be defined on $\\mathcal M$ which\nturns the Finsler space into a quasi-metric space (if $\\mathcal M$ is\nconnected):\n$$d_\\phi(x,y):= \\inf\\{\\ell_\\phi(\\gamma)\\colon \\text{$\\gamma$ is a differentiable curve $\\gamma\\colon[a,b]\\to\\mathcal M$ such that $\\gamma(a)=x$ and $\\gamma(b)=y$}\\}.$$\n\nNotice that every Riemann manifold $(\\mathcal M,g)$ is also a Finsler\nspace, the norm $\\phi(x,\\cdot)$ being the norm induced by the scalar\nproduct $g(x)$.\n\nA finite dimensional Banach space is another simple example of Finsler\nspace, where $\\phi(x,\\xi):=\\Vert \\xi \\Vert$. Wulff Theorem is one of the\nmost important theorems in this ambient space.",
+  "language": "INFORMAL",
+  "phrase": "Finsler Geometry",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FinslerGeometry"
+    }
+  ],
+  "indexable": true
+}

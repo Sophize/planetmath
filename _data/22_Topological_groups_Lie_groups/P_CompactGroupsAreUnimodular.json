@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} If $G$ is a compact Hausdorff topological group, then\n$G$ is unimodular, i.e. it\u2019s left and right Haar measures coincide.\n\n$\\,$\n\n[***Proof*:**]{}\n\nLet $\\Delta$ denote the modular function of $G$. It is enough to prove\nthat $\\Delta$ is constant and equal to $1$, since this proves that every\nleft Haar measure is right invariant.\n\nSince $\\Delta$ is continuous and $G$ is compact, $\\Delta(G)$ is a\ncompact subset of $\\mathbb{R}^+$. In particular, $\\Delta(G)$ is a\nbounded subset of $\\mathbb{R}^+$.\n\nBut if $\\Delta$ is not identically one, then there is a $t \\in G$ such\nthat $\\Delta(t) >1$ (recall that $\\Delta$ is an homomorphism). Hence,\n$\\Delta(t^n) = \\Delta(t)^n \\longrightarrow \\infty$ as $n \\in \\mathbb{N}$\nincreases, which is a contradiction since $\\Delta(G)$ is bounded.\n$\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompactGroupsAreUnimodular"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "compact groups are unimodular"
+  ]
+}

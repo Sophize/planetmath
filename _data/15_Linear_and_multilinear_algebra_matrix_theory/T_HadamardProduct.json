@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose $A=(a_{ij})$ and $B=(b_{ij})$ are two\n$n\\times m$-matrices with entries in some field. Then their *Hadamard\nproduct* is the entry-wise product of $A$ and $B$, that is, the\n$n\\times m$-matrix $A\\circ B$ whose $(i,j)$th entry is $a_{ij} b_{ij}$.\n\n### Properties {#properties .unnumbered}\n\nSuppose $A,B,C$ are matrices of the same size and $\\lambda$ is a scalar.\nThen $$\\begin{aligned}\nA\\circ B &=& B\\circ A, \\\\\nA\\circ (B+C) &=& A\\circ B + A\\circ C, \\\\\nA\\circ (\\lambda B) &=& \\lambda (A\\circ B),\\end{aligned}$$\n\n-   If $A,B$ are diagonal matrices, then $A\\circ B=AB$.\n\n-   (*Oppenheim inequality*) [@prasolov]: If $A,B$ are positive definite\n    matrices, and $(a_{ii})$ are the diagonal entries of $A$, then\n    $$\\det A\\circ B \\ge \\det B\\,\\prod{a_{ii}}$$ with equality if and\n    only if $A$ is a diagonal matrix.\n\n### Remark {#remark .unnumbered}\n\nThere is also a Hadamard product for two power series: Then the Hadamard\nproduct of $\\sum_{i=1}^\\infty a_i$ and $\\sum_{i=1}^\\infty b_i$ is\n$\\sum_{i=1}^\\infty a_i b_i$.\n\n[9]{} R. A. Horn, C. R. Johnson, *Topics in Matrix Analysis*, Cambridge\nUniversity Press, 1994. V.V. Prasolov, *Problems and Theorems in Linear\nAlgebra*, American Mathematical Society, 1994. B. Mond, J. E. Pecaric,\n*Inequalities for the Hadamard product of matrices*, SIAM Journal on\nMatrix Analysis and Applications, Vol. 19, Nr. 1, pp. 66-70.",
+  "language": "INFORMAL",
+  "phrase": "Hadamard Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HadamardProduct"
+    }
+  ],
+  "indexable": true
+}

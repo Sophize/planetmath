@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ be a category, and $f,g:A\\to B$ a pair of distinct\nmorphisms. A morphism $h:X\\to A$ is said to *distinguish* or *separate*\n$f$ and $g$ if $f\\circ h\\ne g\\circ h$. For example, if $f\\ne g:A\\to B$,\nthen $1_A$ on $A$ distinguishes $f$ and $g$.\n\nA set $S=\\lbrace X_i\\mid i\\in I\\rbrace$ of objects (indexed by a set\n$I$) is called a *generating set* of $\\mathcal{C}$ if any pair of\ndistinct morphisms $f,g:A\\to B$ can be distinguished by a morphism with\ndomain in $S$ and codomain $A$. In other words, there is $h:X_i\\to A$\nfor some $i\\in I$, such that $f\\circ h\\ne g\\circ h$. If\n$\\lbrace X\\rbrace$ is a generating family of $\\mathcal{C}$, then $X$ is\ncalled a *generator* of $\\mathcal{C}$. Any set of morphisms containing a\ngenerator is a generating set.\n\n**Examples**\n\n1.  In **Set**, the category of sets, any singleton is a generator.\n    Suppose $f,g:A\\to B$ are distinct functions, so that $f(x)\\ne g(x)$\n    for some $x\\in A$. Let $\\lbrace y\\rbrace$ be any singleton. Then\n    $h:\\lbrace y\\rbrace \\to A$ defined by $h(y)=x$ is the function\n    distinguishing $f$ and $g$: for\n    $f\\circ h(y)=f(x)\\ne g(x)=g\\circ h(y)$.\n\n2.  In **Rng**, the category of rings, the ring $\\mathbb{Z}$ is a\n    generator. If $f,g:R\\to S$ are distinct ring homomorphisms, say,\n    $f(r)\\ne g(r)$ for some $r\\in R$. Then the ring homomorphism\n    $h:\\mathbb{Z}\\to R$ given by $h(1)=r$ distinguishes $f$ and $g$.\n\n**Remark**. A projective object that is also a generator is called a\n*progenerator*.\n\n[9]{} F. Borceux *Basic Category Theory, Handbook of Categorical Algebra\nI*, Cambridge University Press, Cambridge (1994)",
+  "language": "INFORMAL",
+  "phrase": "Generator Of A Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneratorOfACategory"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "R-module category"
+  ],
+  "definition": "An *$R$-category* $A$ is a *category equipped with an $R$-module\nstructure on each *hom* set such that the composition is $R$-bilinear*.\nMore precisely, let us assume for instance that we are given a\ncommutative ring $R$ with identity. Then a small $R$-category\u2013or\nequivalently an *$R$-algebroid*\u2013 will be defined as a category enriched\nin the monoidal category of $R$-modules, with respect to the monoidal\nstructure of tensor product. This means simply that for all objects\n$b,c$ of $A$, the set $A(b,c)$ is given the structure of an $R$-module,\nand composition $A(b,c) \\times A(c,d) {{\\longrightarrow}}A(b,d)$ is\n$R$\u2013bilinear, or is a morphism of $R$-modules\n$A(b,c) \\otimes_R A(c,d) {{\\longrightarrow}}A(b,d)$.\n\nNote:\n-----\n\nSee also the extension of the R-category to the concept of .\n\n[9]{}\n\nR. Brown and G. H. Mosa: Double algebroids and crossed modules of\nalgebroids, University of Wales\u2013Bangor, Maths Preprint, 1986.\n\nG. H. Mosa: *Higher dimensional algebroids and Crossed complexes*, PhD\nthesis, University of Wales, Bangor, (1986). (supervised by R. Brown).\n\nI. C. Baianu , James F. Glazebrook, and Ronald Brown. 2009. Algebraic\nTopology Foundations of Supersymmetry and Symmetry Breaking in Quantum\nField Theory and Quantum Gravity: A Review. *SIGMA* 5 (2009), 051, 70\npages. $arXiv:0904.3644$, $doi:10.3842/SIGMA.2009.051$,",
+  "language": "INFORMAL",
+  "phrase": "R-Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Rcategory"
+    }
+  ],
+  "indexable": true
+}

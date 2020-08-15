@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $X$ is a topological space. If $K$ is a compact subset of $X$,\n$C$ is a closed set in $X$, and $C \\subseteq K$, then $C$ is a compact\nset in $X$.\n\nThe below proof follows \u00a0[@jameson]. A proof based on the finite\nintersection property is given in [@singer].\n\nLet $I$ be an indexing set and $F=\\{ V_\\alpha \\mid \\alpha \\in I\\}$ be an\narbitrary open cover for $C$. Since $X\\setminus C$ is open, it follows\nthat $F$ together with $X\\setminus C$ is an open cover for $K$. Thus,\n$K$ can be covered by a finite number of sets, say, $V_1, \\ldots, V_N$\nfrom $F$ together with possibly $X\\setminus C$. Since $C\\subset K$,\n$V_1, \\ldots, V_N$ cover $C$, and it follows that $C$ is compact.\n\nThe following proof uses the .\n\nLet $I$ be an indexing set and $\\{A_{\\alpha}\\}_{\\alpha \\in I}$ be a\ncollection of $X$-closed sets contained in $C$ such that, for any finite\n$J \\subseteq I$, $\\displaystyle \\bigcap_{\\alpha \\in J} A_{\\alpha}$ is\nnot empty. Recall that, for every $\\alpha \\in I$,\n$A_{\\alpha} \\subseteq C\\subseteq K$. Thus, for every $\\alpha \\in I$,\n$A_{\\alpha}= K\\cap A_{\\alpha}$. Therefore,\n$\\{A_{\\alpha}\\}_{\\alpha \\in I}$ are $K$-closed subsets of $K$ (see )\nsuch that, for any finite $J \\subseteq I$,\n$\\displaystyle \\bigcap_{\\alpha \\in J} A_{\\alpha}$ is not empty. As $K$\nis compact, $\\displaystyle \\bigcap_{\\alpha \\in I} A_{\\alpha}$ is not\nempty (again, by ). This proves the claim.\n\n[9]{} J.L.\u00a0Kelley, *General Topology*, D.\u00a0van Nostrand Company, Inc.,\n1955. S.\u00a0Lang, *Analysis II*, Addison-Wesley Publishing Company Inc.,\n1969. G.J.\u00a0Jameson, *Topology and Normed Spaces*, Chapman and Hall,\n1974. I.M.\u00a0Singer, J.A.\u00a0Thorpe, *Lecture Notes on Elementary Topology\nand Geometry*, Springer-Verlag, 1967.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosedSubsetsOfACompactSetAreCompact"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "closed subsets of a compact set are compact"
+  ]
+}

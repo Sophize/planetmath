@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem 1.** When $\\nu_0$ is an exponent valuation of the field $k$\nand $K/k$ is a finite field extension, $\\nu_0$ has a continuation to the\nextension field $K$.\n\n**Theorem 2.** If the of the field extension $K/k$ is $n$ and $\\nu_0$ is\nan arbitrary of $k$, then $\\nu_0$ has at most $n$ continuations to the\nextension field $K$.\n\n**Theorem 3.** Let $\\nu_0$ be an exponent valuation of the field $k$ and\n$\\mathfrak{o}$ the ring of the exponent $\\nu_0$. Let $K/k$ be a finite\nextension and $\\mathfrak{O}$ the integral closure of $\\mathfrak{o}$ in\n$K$. If $\\nu_1,\\,\\ldots,\\,\\nu_m$ are all different continuations of\n$\\nu_0$ to the field $K$ and $\\mathfrak{O}_1,\\,\\ldots,\\,\\mathfrak{O}_m$\n, then $$\\mathfrak{O} = \\bigcap_{i=1}^m\\mathfrak{O}_i.$$\n\nThe proofs of those theorems are found in \\[1\\], which is available also\nin Russian (original), English and French.\\\n**Corollary.** The ring $\\mathfrak{O}$ (of theorem 3) is a UFD. The\nexponents of $K$, which are determined by the pairwise coprime prime\nelements of $\\mathfrak{O}$, coincide with the continuations\n$\\nu_1,\\,\\ldots,\\,\\nu_m$ of $\\nu_0$. If $\\pi_1,\\,\\ldots,\\,\\pi_m$ are the\npairwise coprime prime elements of $\\mathfrak{O}$ such that\n$\\nu_i(\\pi_1) = 1$ for all $i$\u2019s and if the prime element $p$ of the\nring $\\mathfrak{o}$ has the\n$$p = \\varepsilon\\pi_1^{e_1}\\cdots\\pi_m^{e_m}$$ with $\\varepsilon$ a\nunit of $\\mathfrak{O}$, then $e_i$ is the ramification index of the\nexponent $\\nu_i$ with respect to $\\nu_0$ ($i = 1,\\,\\ldots,\\,m$).\n\n[9]{} : [*Zahlentheorie*]{}. Birkh\u00e4user Verlag. Basel und Stuttgart\n(1966).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheoremsOnContinuation"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "theorems on continuation",
+    "theorems on continuations of exponents"
+  ]
+}

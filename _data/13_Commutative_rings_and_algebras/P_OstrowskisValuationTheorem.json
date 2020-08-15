@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The field of rational numbers has no other valuations than\n\n-   the trivial valuation,\n\n-   the absolute value, i.e. the complex modulus $|\\cdot|_\\infty$ and\n\n-   the $p$-adic valuations $|\\cdot|_p$ when $p$ goes through all\n    positive primes.\n\n**Note.** Any valuation $|\\cdot|$ of the field $\\mathbb{Q}$ defines a\nmetric $d(x,\\,y) = |x-y|$ in the field, but $\\mathbb{Q}$ is only with\nrespect to (the \u201ctrivial metric\u201d defined by) the trivial valuation. The\nfield has the proper completions with respect to its other valuations:\nthe field of reals $\\mathbb{R}$ and the fields $\\mathbb{Q}_p$ of ; cf.\nalso .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OstrowskisValuationTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Ostrowski's valuation theorem"
+  ]
+}

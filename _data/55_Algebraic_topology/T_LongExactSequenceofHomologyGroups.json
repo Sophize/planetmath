@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $X$ is a topological space, and $A$ and $B$ are subspaces with\n$X\\supset A\\supset B$, then there is a long exact sequence:\n\n$$\\begin{CD}\n\\cdots@>>>H_n(A,B)@>i_*>> H_n(X,B) @>j_*>>H_n(X,A)@>\\partial_*>> H_{n-1}(A,B)@>>>\n\\end{CD}$$\n\nwhere $i_*$ is induced by the inclusion $i:(A,B)\\hookrightarrow(X,B)$,\n$j_*$ by the inclusion $j:(X,B)\\hookrightarrow(X,A)$, and $\\partial$ is\nthe following map: given $a\\in H_n(X,A)$, choose a chain representing\nit. $\\partial a$ is an $(n-1)$-chain of $A$, so it represents an element\nof $H_{n-1}(A,B)$. This is $\\partial_*a$.\n\nWhen $B$ is the empty set, we get the long exact sequence of the pair\n$(X,A)$: $$\\begin{CD}\n\\cdots@>>>H_n(A)@>i_*>> H_n(X) @>j_*>>H_n(X,A)@>\\partial_*>> H_{n-1}(A)@>>>\n\\end{CD}$$\n\nThe existence of this long exact sequence follows from the short exact\nsequence $$\\begin{CD}\n0@>>>C_*(A,B)@>i_\\sharp>> C_*(X,B) @>j_\\sharp>> C_*(X,A)@>>>0\n\\end{CD}$$ where $i_\\sharp$ and $j_\\sharp$ are the maps on chains\ninduced by $i$ and $j$, by the Snake Lemma.",
+  "language": "INFORMAL",
+  "phrase": "Long Exact Sequence (Of Homology Groups)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LongExactSequenceofHomologyGroups"
+    }
+  ],
+  "indexable": true
+}

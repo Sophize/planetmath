@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "analytic polyhedra"
+  ],
+  "definition": "Suppose $G \\subset {\\mathbb{C}}^n$ is a domain and let $W \\subset G$ be\nan open set. Let $f_1,\\ldots,f_k \\colon W \\to {\\mathbb{C}}$ be\nholomorphic functions. Then if the set\n$$\\Omega := \\{ z \\in W \\mid \\lvert f_j (z) \\rvert < 1 , j=1,\\ldots,k \\}$$\nis relatively compact in $W$, we say that $\\Omega$ is an [*analytic\npolyhedron*]{} in $G$. Sometimes it is denoted $\\Omega(f_1,\\ldots,f_k)$.\nFurther $(W,f_1,\\ldots,f_k)$ is called the [ *of the analytic\npolyhedron*]{}.\n\nAn analytic polyhedron is automatically a domain of holomorphy by using\nthe functions that define it as $g(z) := \\frac{1}{e^{i\\theta}-f_j(z)}$\nto show that $g$ cannot be extended beyond a point where\n$f_j(z) = e^{i\\theta}$. Every boundary point of $\\Omega$ is of that form\nfor some $f_j$.\n\nFurthermore every domain of holomorphy can be exhausted by analytic\npolyhedra (that is, every compact subset is contained in an analytic\npolyhedron) and in fact only domains of holomorphy can be exhausted by\nanalytic polyhedra, see the Behnke-Stein theorem.\n\nNote that sometimes $W$ is required to be homeomorphic to the unit ball.\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Analytic Polyhedron",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnalyticPolyhedron"
+    }
+  ],
+  "indexable": true
+}

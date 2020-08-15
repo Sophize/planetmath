@@ -1,0 +1,26 @@
+{
+  "alternatePhrases": [
+    "CA",
+    "-CA",
+    "comprehension",
+    "comprehension axiom",
+    "axiom of comprehension",
+    "separation",
+    "separation axiom",
+    "axiom of separation",
+    "specification",
+    "specification axiom",
+    "axiom of specification",
+    "Aussonderungsaxiom"
+  ],
+  "definition": "The *axiom of comprehension* (CA) states that every formula defines a\nset. That is,\n$$\\exists X\\forall x(x\\in X\\leftrightarrow\\phi(x))\\text{for any formula}\\phi\\text{where}X\\text{does not occur free in}\\phi$$\n\nThe specification and separation are sometimes used in place of\ncomprehension, particularly for weakened forms of the axiom (see below).\n\nIn theories which make no distinction between objects and sets (such as\nZF), this formulation leads to Russell\u2019s paradox, however in stratified\ntheories this is not a problem (for example second order arithmetic\nincludes the axiom of comprehension).\n\nThis axiom can be restricted in various ways. One possibility is to\nrestrict it to forming subsets of sets:\n$$\\forall Y\\exists X\\forall x(x\\in X\\leftrightarrow x\\in Y\\wedge\\phi(x))\\text{ for any formula }\\phi\\text{ where }X\\text{ does not occur free in }\\phi$$\n\nThis formulation (used in ZF set theory) is sometimes called the\nAussonderungsaxiom.\n\nAnother way is to restrict $\\phi$ to some family $F$, giving the axiom\nF-CA. For instance the axiom $\\Sigma^0_1$ -CA is:\n$$\\exists X\\forall x(x\\in X\\leftrightarrow\\phi(x))\\text{ where }\\phi\\text{ is }\\Sigma^0_1\\text{ and }X\\text{ does not occur free in }\\phi$$\n\nA third form (usually called separation) uses two formulas, and\nguarantees only that those satisfying one are included while those\nsatisfying the other are excluded. The unrestricted form is the same as\nunrestricted collection, but, for instance, $\\Sigma^0_1$ separation:\n$$\\forall x\\neg(\\phi(x)\\wedge\\psi(x))\\rightarrow\\exists X\\forall x((\\phi(x)\\rightarrow x\\in X)\\wedge(\\psi(x)\\rightarrow x\\notin X))$$$$\\text{ where }\\phi\\text{ and }\\psi\\text{ are }\\Sigma^0_1\\text{ and }X\\text{ does not occur free in }\\phi\\text{ or }\\psi$$\nis weaker than $\\Sigma^0_1$ -CA.",
+  "language": "INFORMAL",
+  "phrase": "Comprehension Axiom",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComprehensionAxiom"
+    }
+  ],
+  "indexable": true
+}

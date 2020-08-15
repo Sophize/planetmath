@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *power rule* states that\n\n$${\\ensuremath{\\frac{{\\ensuremath{\\mathrm{d}}}}{{\\ensuremath{\\mathrm{d}x}}}}}x^p = px^{p-1}, \\quad p \\in \\mathbb{R}$$\n\nThis rule, when combined with the chain rule, product rule, and sum\nrule, makes calculating many derivatives far more tractable. This rule\ncan be derived by repeated application of the product rule. See the .\n\nRepeated use of the above formula gives\n\n$$\\begin{aligned}\n\\frac{d^i}{dx^i}x^k=\n\\begin{cases}\n0&i>k\\\\\n\\frac{k!}{(k-i)!}x^{k-i}&i\\leq k,\n\\end{cases}\\end{aligned}$$\n\nfor $i,k\\in\\mathbb{Z}$.\n\nExamples {#examples .unnumbered}\n--------\n\n$$\\begin{aligned}\n{\\ensuremath{\\frac{{\\ensuremath{\\mathrm{d}}}}{{\\ensuremath{\\mathrm{d}x}}}}}x^0 & = & \\frac{0}{x} = 0 = {\\ensuremath{\\frac{{\\ensuremath{\\mathrm{d}}}}{{\\ensuremath{\\mathrm{d}x}}}}}1 \\\\\n{\\ensuremath{\\frac{{\\ensuremath{\\mathrm{d}}}}{{\\ensuremath{\\mathrm{d}x}}}}}x^1 & = & 1x^0 = 1 = {\\ensuremath{\\frac{{\\ensuremath{\\mathrm{d}}}}{{\\ensuremath{\\mathrm{d}x}}}}}x \\\\\n{\\ensuremath{\\frac{{\\ensuremath{\\mathrm{d}}}}{{\\ensuremath{\\mathrm{d}x}}}}}x^2 & = & 2x \\\\\n{\\ensuremath{\\frac{{\\ensuremath{\\mathrm{d}}}}{{\\ensuremath{\\mathrm{d}x}}}}}x^3 & = & 3x^2 \\\\\n{\\ensuremath{\\frac{{\\ensuremath{\\mathrm{d}}}}{{\\ensuremath{\\mathrm{d}x}}}}}\\sqrt{x} & = & {\\ensuremath{\\frac{{\\ensuremath{\\mathrm{d}}}}{{\\ensuremath{\\mathrm{d}x}}}}}x^{1/2} = \\frac{1}{2}x^{-1/2} = \\frac{1}{2\\sqrt{x}} \\\\\n{\\ensuremath{\\frac{{\\ensuremath{\\mathrm{d}}}}{{\\ensuremath{\\mathrm{d}x}}}}}2x^e & = & 2ex^{e-1}\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PowerRule"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "power rule"
+  ]
+}

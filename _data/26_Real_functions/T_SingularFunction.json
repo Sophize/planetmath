@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "purely singular function"
+  ],
+  "definition": "A monotone, non-constant, function $f\\colon [a,b] \\to {\\mathbb{R}}$ is\nsaid to be a [*singular function*]{} (or a [*purely singular\nfunction*]{}) if $f'(x) = 0$ almost everywhere.\n\nIt is easy to see that a singular function cannot be : If an absolutely\ncontinuous function $f \\colon [a,b] \\to \\mathbb{R}$ satisfies $f'(x)=0$\nalmost everywhere, then it must be constant.\n\nAn example of such a function is the famous Cantor function. While this\nis not a strictly increasing function, there also do exist singular\nfunctions which are in fact strictly increasing, and even more amazingly\nfunctions that are quasisymmetric (see attached example).\n\nAny monotone increasing function can be written as a sum of an\nabsolutely continuous function and a singular function.\n\n[9]{} H. L. Royden. **. Prentice-Hall, Englewood Cliffs, New Jersey,\n1988",
+  "language": "INFORMAL",
+  "phrase": "Singular Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SingularFunction"
+    }
+  ],
+  "indexable": true
+}

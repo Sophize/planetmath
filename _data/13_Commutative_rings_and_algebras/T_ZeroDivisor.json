@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $a$ be a nonzero element of a ring $R$.\n\nThe element $a$ is a [*left zero divisor*]{} if there exists a nonzero\nelement $b \\in R$ such that $a \\cdot b = 0$. Similarly, $a$ is a [*right\nzero divisor*]{} if there exists a nonzero element $c \\in R$ such that\n$c \\cdot a = 0$.\n\nThe element $a$ is said to be a [*zero divisor*]{} if it is both a left\nand right zero divisor. A nonzero element $a \\in R$ is said to be a\n[*regular element*]{} if it is neither a left nor a right zero divisor.\n\n[**Example:**]{} Let $R = \\mathbb{Z}_6$. Then the elements $2$ and $3$\nare zero divisors, since $2 \\cdot 3 \\equiv 6 \\equiv 0 \\pmod 6$.",
+  "language": "INFORMAL",
+  "phrase": "Zero Divisor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZeroDivisor"
+    }
+  ],
+  "indexable": true
+}

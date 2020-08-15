@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space. An important topological invariant of\n$X$ called Lusternik-Schnirelmann category [**cat**]{} is defined as\nfollows:\n\n$${\\rm cat}(X)={\\rm min}\\{\\#(C)\\colon\\mbox{where $C$ are the coverings of $X$ by contractible open sets}\\}.$$\n\nIf $X$ is a manifold, ${\\rm cat}(X)$ coincides with the minimal number\nof critical points among all smooth scalars maps $X\\to\\mathbb{R}$.\n\nThis is equivalent to saying that $X$ has a covering $\\{U_s\\}$ such that\nit is posible to factor homotopically each\n$U_s\\stackrel{i}\\hookrightarrow X$ through\n$U_s\\stackrel{a}\\to *\\stackrel{b}\\to X$ i.e $$i\\simeq b\\circ a.$$\n\nThis allows us to define another category, e.g.:\\\n\n> We can ask about the minimal number of open sets $U_s$ that cover $X$\n> and are homotopically equivalent to $S^1$, say, the inclusion\n> $U_s\\stackrel{i}\\hookrightarrow X$ and\n> $U_s\\stackrel{a}\\to S^1\\stackrel{b}\\to X$ are $i\\simeq b\\circ a$.\n\nIt is becoming standard to speak of the t-cat of $X$. This is related to\nthe round complexity of the space.\n\n[1]{} R.H. Fox, [*On the Lusternik-Schnirelmann category*]{}, Annals of\nMath. 42 (1941), 333-370. F. Takens, [*The minimal number of critical\npoints of a function on compact manifolds and the Lusternik-Schnirelmann\ncategory*]{}, Invent. math. 6,(1968), 197-244.",
+  "language": "INFORMAL",
+  "phrase": "Lusternik-Schnirelmann Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LusternikSchnirelmannCategory"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(\\Omega,\\mathcal{F},(\\mathcal{F}_t)_{t\\in\\mathbb{R}_+},\\mathbb{P})$\nbe a filtered probability space. Then, the space of semimartingales\n$\\mathcal{S}$ forms a topological vector space under the semimartingale\ntopology.\n\nThat is, semimartingale convergence is a and, for any sequence\n$X^n\\in\\mathcal{S}$ such that $X^n-X^m\\rightarrow 0$ as\n$m,n\\rightarrow\\infty$ then there exists an $X\\in\\mathcal{S}$ with\n$X^n\\rightarrow X$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompletenessOfSemimartingaleConvergence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "completeness of semimartingale convergence"
+  ]
+}

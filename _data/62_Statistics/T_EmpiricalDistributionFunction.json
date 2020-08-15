@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X_1,\\ldots,X_n$ be random variables with realizations\n$x_i=X_i(\\omega)\\in\\mathbb{R}$, $i=1,\\ldots,n$. The *empirical\ndistribution function* $F_n(x,\\omega)$ based on $x_1,\\ldots,x_n$ is\n$$F_n(x,\\omega)=\\frac{1}{n}\\sum_{i=1}^{n}\\chi_{A_i}(x,\\omega),$$ where\n$\\chi_{A_i}$ is the indicator function (or characteristic function) and\n$A_i=\\lbrace(x,\\omega)\\mid x_i\\leq x \\rbrace$. Note that each indicator\nfunction is itself a random variable.\n\nThe empirical function can be alternatively and equivalently defined by\nusing the order statistics $X_{(i)}$ of $X_i$ as: $$F_n(x,\\omega)= \n\\begin{cases}\n0 & \\text{if $x<x_{(1)}$;}\\\\\n\\frac{1}{n} & \\text{if $x_{(1)}\\leq x<x_{(2)}$, $1\\leq k<2$;}\\\\\n\\frac{2}{n} & \\text{if $x_{(2)}\\leq x<x_{(3)}$, $2\\leq k<3$;}\\\\\n\\vdots\\\\\n\\frac{i}{n} & \\text{if $x_{(i)}\\leq x<x_{(i+1)}$, $i\\leq k<i+1$;}\\\\\n\\vdots\\\\\n1 & \\text{if $x\\geq x_{(n)}$;}\n\\end{cases}$$ where $x_{(i)}$ is the realization of the random variable\n$X_{(i)}$ with outcome $\\omega$.",
+  "language": "INFORMAL",
+  "phrase": "Empirical Distribution Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EmpiricalDistributionFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a module over a ring $R$, and let $S$ be a submodule of $M$.\nThe *quotient module* $M/S$ is the quotient group $M/S$ with scalar\nmultiplication defined by $\\lambda(x+S)=\\lambda x+S$ for all\n$\\lambda\\in R$ and all $x\\in M$.\n\nThis is a well defined operation. Indeed, if $x+S = x'+S$ then for some\n$s\\in S$ we have $x'=x+s$ and therefore $$\\begin{aligned}\n  \\lambda x' &= \\lambda(x+s)\\\\\n                &= \\lambda x+\\lambda s\\end{aligned}$$ so that\n$\\lambda x' + S = \\lambda x + \\lambda s + S = \\lambda x + S$, since\n$\\lambda s \\in S$.\n\nIn the special case that $R$ is a field this construction defines the\n*quotient vector space* of a vector space by a vector subspace.",
+  "language": "INFORMAL",
+  "phrase": "Quotient Module",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientModule"
+    }
+  ],
+  "indexable": true
+}

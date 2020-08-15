@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f\\colon M\\to M$ be a $C^1$ diffeomorphism of the compact smooth\nmanifold $M$, and let $p,q\\in M$ be such that there exists a nonperiodic\npoint in $\\omega(p,f)\\cap \\alpha(q,f)$ (the intersection of the alpha\nlimit set of $q$ with the omega limit set of $p$). Then there exists a\ndiffeomorphism $g$, arbitrarily close to $f$ in the $\\mathcal{C}^1$\ntopology of $\\operatorname{Diff}^1(M)$, such that $q$ is in the forward\norbit of $p$ through $g$, i.e. such that $g^n(p)=q$ for some $n>0$.\n\n[9]{} Wen, L., Xia, Z., *$\\mathcal{C}^1$ connecting lemmas*, Trans.\nAmer. Math. Soc. **352** (2000), no. 11, 5213-5230.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HayashisConnectingLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hayashi's connecting lemma",
+    "connecting lemma"
+  ]
+}

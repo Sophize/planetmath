@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *transfinite derived series* of a group is an extension of its\nderived series, defined as follows. Let $G$ be a group and let\n$G^{(0)}=G$. For each ordinal $\\alpha$ let $G^{(\\alpha+1)}$ be the\nderived subgroup of $G^{(\\alpha)}$. For each limit ordinal $\\delta$ let\n$G^{(\\delta)}=\\bigcap_{\\alpha\\in\\delta}G^{(\\alpha)}$.\n\nEvery member of the transfinite derived series of $G$ is a fully\ninvariant subgroup of $G$.\n\nThe transfinite derived series eventually terminates, that is, there is\nsome ordinal $\\alpha$ such that $G^{(\\alpha+1)}=G^{(\\alpha)}$. All\nremaining terms of the series are then equal to $G^{(\\alpha)}$, which is\ncalled the *perfect radical* or *maximum perfect subgroup* of $G$, and\nis denoted $\\P{G}$. As the name suggests, $\\P{G}$ is perfect, and every\nperfect of $G$ is a subgroup of $\\P{G}$. A group in which the perfect\nradical is trivial (that is, a group without any non-trivial perfect\nsubgroups) is called a hypoabelian group. For any group $G$, the\n$G/\\P{G}$ is hypoabelian, and is sometimes called the\n*hypoabelianization* of $G$ (by analogy with the abelianization).\n\nA group $G$ for which $G^{(n)}$ is trivial for some finite $n$ is called\na solvable group. A group $G$ for which $G^{(\\omega)}$ (the intersection\nof the derived series) is trivial is called a residually solvable group.\nof rank greater than $1$ are examples of residually solvable groups that\nare not solvable.",
+  "language": "INFORMAL",
+  "phrase": "Transfinite Derived Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TransfiniteDerivedSeries"
+    }
+  ],
+  "indexable": true
+}

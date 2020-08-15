@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "invariant bilinear form",
+    "associative bilinear form"
+  ],
+  "definition": "Let $\\mathbb{K}$ be a field and $V$ a vector space over $\\mathbb{K}$.\nLet $G$ be a group with a specified representation on $V$ denoted by\n$g . v$ for $v \\in V$ and $g \\in G$.\n\nAn *invariant scalar product* (with respect to the action of $G$) on $V$\nis a scalar product $\\left( \\cdot \\lvert \\cdot \\right)$ on $V$ (i.e. a\nnon-degenerate, symmetric $\\mathbb{K}$-bilinear form) such that for any\n$g \\in G, u,v \\in V$ we have\n\n$$\\left( g . u \\lvert g . v \\right) = \\left( u \\lvert v \\right)$$\n\nNow let $\\mathfrak{g}$ be a Lie algebra over $\\mathbb{K}$ with a\nrepresentation on $V$ denoted by $X . v$ for\n$X \\in \\mathfrak{g}, v \\in V$. Then an *invariant scalar product* (with\nrespect to the action of $\\mathfrak{g}$) is a scalar product on $V$ such\nthat for any $X \\in \\mathfrak{g}, u,v \\in V$ we have\n\n$$\\left( X . u \\lvert v \\right) =  - \\left( u \\lvert X . v \\right)$$\n\nAn invariant scalar product on a Lie algebra $\\mathfrak{g}$ is by\ndefinition an invariant scalar product as above where the representation\nis the adjoint representation of $\\mathfrak{g}$ on itself. In this case\ninvariance is usualy written\n$\\left( [X, Y] \\mid Z \\right) = \\left( X \\mid [Y, Z] \\right)$\n\nExamples\n========\n\nFor example if $G = O(n)$ the orthogonal subgroup of $n \\times n$ real\nmatricies and $\\mathbb{R}^n$ is the natural representation for $O(n)$,\nthen the standard Euclidean scalar product on $\\mathbb{R}^n$ is an\ninvariant scalar product. Invariance in this example follows from the\ndefinition of $O(n)$.\n\nAs another example if $\\mathfrak{g}$ is a complex semi-simple Lie\nalgebra then the *Killing form* $\\kappa(X,Y) := Tr(ad_X \\cdot ad_Y)$ is\nan invariant scalar product on $\\mathfrak{g}$ itself via the adjoint\nrepresentation. Invariance in this example follows from the fact that\nthe trace operator is *associative*, i.e.\n$Tr([Y,X] \\cdot Z) = - Tr([X,Y] \\cdot Z) = - Tr(X \\cdot [Y,Z])$. Thus an\ninvariant scalar product (with respect to a Lie algebra representation)\nis sometimes called an *associative scalar product*.",
+  "language": "INFORMAL",
+  "phrase": "Invariant Scalar Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InvariantScalarProduct"
+    }
+  ],
+  "indexable": true
+}

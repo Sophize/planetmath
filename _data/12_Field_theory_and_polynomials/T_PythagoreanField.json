@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $F$ be a field. A field extension $K$ of $F$ is called a\n*Pythagorean extension* if $K = F(\\sqrt{1+\\alpha^2})$ for some $\\alpha$\nin $F$, where $\\sqrt{1+\\alpha^2}$ denotes a root of the polynomial\n$x^2-(1+\\alpha^2)$ in the algebraic closure $\\overline{F}$ of $F$. A\nfield $F$ is *Pythagorean* if every Pythagorean extension of $F$ is $F$\nitself.\n\nThe following are equivalent:\n\n1.  $F$ is Pythagorean\n\n2.  Every sum of two squares in $F$ is a square\n\n3.  Every sum of (finite number of) squares in $F$ is a square\n\n**Examples:**\n\n-   $\\mathbb{R}$ and $\\mathbb{C}$ are Pythagorean.\n\n-   $\\mathbb{Q}$ is not Pythagorean.\n\n**Remark**. Every field is contained in some Pythagorean field. The\nsmallest Pythagorean field over a field $F$ is called the *Pythagorean\nclosure* of $F$, and is written $F_{py}$. Given a field $F$, one way to\nconstruct its Pythagorean closure is as follows: let $K$ be an extension\nover $F$ such that there is a tower\n$$F=K_1\\subseteq K_2\\subseteq \\cdots \\subseteq K_n=K$$ of fields with\n$K_{i+1}=K_i(\\sqrt{1+\\alpha_i^2})$ for some $\\alpha_i\\in K_i$, where\n$i=1,\\ldots,n-1$. Take the compositum $L$ of the family $\\mathcal{K}$ of\nall such $K$\u2019s. Then $L=F_{py}$.",
+  "language": "INFORMAL",
+  "phrase": "Pythagorean Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PythagoreanField"
+    }
+  ],
+  "indexable": true
+}

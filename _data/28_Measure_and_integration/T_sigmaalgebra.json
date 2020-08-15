@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set. A $\\sigma$-algebra is a collection $M$ of subsets of\n$X$ such that\n\n-   $X\\in M$\n\n-   If $A\\in M$ then $X-A\\in M$.\n\n-   If $A_1,A_2,A_3,\\ldots$ is a countable subcollection of $M$, that\n    is, $A_j\\in M$ for $j=1,2,3,\\ldots$ (the subcollection can be\n    finite) then the union of all of them is also in $M$:\n    $$\\bigcup_{j=1}^\\infty A_i\\in M.$$",
+  "language": "INFORMAL",
+  "phrase": "$\\Sigma$-Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/sigmaalgebra"
+    }
+  ],
+  "indexable": true
+}

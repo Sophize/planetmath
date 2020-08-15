@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A family $\\mathcal{F}$ of functions from a metric space $(X,d)$ to a\nmetric space $(X',d')$ is *uniformly equicontinuous* if, for each\n$\\varepsilon>0$ there exists $\\delta>0$ such that,\n$$\\forall f\\in\\mathcal{F},\\; \\forall x,y\\in X,\\;\\; d(x,y)<\\delta \\Rightarrow d'(f(x),f(y))<\\varepsilon.$$",
+  "language": "INFORMAL",
+  "phrase": "Uniformly Equicontinuous",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformlyEquicontinuous"
+    }
+  ],
+  "indexable": true
+}

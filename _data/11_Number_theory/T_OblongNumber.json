@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "heteromecic number",
+    "pronic number"
+  ],
+  "definition": "An integer of the form $n \\cdot (n + 1)$ or $n^2 + n$. The partial sum\n\n$$\\sum_{i = 0}^n 2i$$\n\nworks, too. From this it follows that one can also multiply the $n$th\ntriangular number. Plenty of other relations to various polygonal\nnumbers can be obtained.\n\nThe first few terms are 0, 2, 6, 12, 20, 30, 42, 56, 72, 90, 110, and\nare listed in A002378 of Sloane\u2019s OEIS.",
+  "language": "INFORMAL",
+  "phrase": "Oblong Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OblongNumber"
+    }
+  ],
+  "indexable": true
+}

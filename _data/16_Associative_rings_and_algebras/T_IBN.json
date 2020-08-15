@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "invariant basis number",
+    "invariant dimension property"
+  ],
+  "definition": "Bases of a Module {#bases-of-a-module .unnumbered}\n-----------------\n\nLike a vector space over a field, one can define a basis of a module $M$\nover a general ring $R$ with 1. To simplify matter, suppose $R$ is\ncommutative with $1$ and $M$ is unital. A basis of $M$ is a subset\n$B=\\lbrace b_i\\mid i\\in I\\rbrace$ of $M$, where $I$ is some ordered\nindex set, such that every element $m\\in M$ can be uniquely written as a\nlinear combination of elements from $B$: $$m=\\sum_{i\\in I}r_ib_i$$ such\nthat all but a finite number of $r_i=0$.\n\nAs the above example shows, the commutativity of $R$ is not required,\nand $M$ can be assumed either as a left or right module of $R$ (in the\nexample above, we could take $M$ to be the left $R$-module).\n\nHowever, unlike a vector space, a module may not have a basis. If it\ndoes, it is a called a *free module*. Vector spaces are examples of free\nmodules over fields or division rings. If a free module $M$ (over $R$)\nhas a finite basis with cardinality $n$, we often write $R^n$ as an\nisomorphic copy of $M$.\n\nSuppose that we are given a free module $M$ over $R$, and two bases\n$B_1\\neq B_2$ for $M$, is $$|B_1| = |B_2|?$$ We know that this is true\nif $R$ is a field or even a division ring. But in general, the equality\nfails. Nevertheless, it is a fact that if $B_1$ is finite, so is $B_2$.\nSo the finiteness of basis in a free module $M$ over $R$ is preserved\nwhen we go from one basis to another. When $M$ has a finite basis, we\nsay that $M$ has *finite rank* (without saying what rank is!).\n\nNow, even if $M$ has finite rank, the cardinality of one basis may still\nbe different from the cardinality of another. In other words, $R^m$ may\nbe isomorphic to $R^n$ without $m$ and $n$ being equal.\n\nInvariant Basis Number {#invariant-basis-number .unnumbered}\n----------------------\n\nA ring $R$ is said to have *IBN*, or *invariant basis number* if\nwhenever $R^m \\cong R^n$ where $m,n<\\infty$, $m=n$. The positive integer\n$n$ in this case is called the *rank* of module $M$. To rephrase, when\n$F$ is a free $R$-module of finite rank, then $R$ has IBN iff $F$ has\nunique finite rank. Also, $R$ has IBN iff all finite dimensional\ninvertible matrices over $R$ are square matrices.\n\n**Examples**\n\n1.  If $R$ is commutative, then $R$ has IBN.\n\n2.  If $R$ is a division ring, then $R$ has IBN.\n\n3.  An example of a ring $R$ not having IBN can be found as follows: let\n    $V$ be a countably infinite dimensional vector space over a field.\n    Let $R$ be the endomorphism ring over $V$. Then $R=R\\oplus R$ and\n    thus $R^m=R^n$ for any pairs of $(m,n)$.",
+  "language": "INFORMAL",
+  "phrase": "Ibn",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IBN"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\Omega \\subset {\\mathbb{R}}^n$ be an open neighbourhood of a point\n$x^0$. Further let $\\mathfrak{g}$ be a Lie subalgebra of the Lie algebra\nof real analytic real vector fields on $\\Omega$ which is also a\n$C^\\omega(\\Omega;{\\mathbb{R}})$-module. Then there exists a real\nanalytic submanifold $M \\subset \\Omega$ with $x^0 \\in M$, such that for\nall $x \\in M$ we have $$T_x(M) = \\mathfrak{g}(x) .$$ Furthermore the\ngerm of $M$ at $x$ is the unique germ of a submanifold with this\nproperty.\n\nHere note that $T_x(M)$ is the tangent space of $M$ at $x$,\n$C^\\omega(\\Omega;{\\mathbb{R}})$ are the real analytic real valued\nfunctions on $\\Omega$. Also real analytic real vector fields on $\\Omega$\nare the real analytic sections of $T(\\Omega)$, the real tangent bundle\nof $\\Omega$.\n\nThe germ of the manifold $M$ is called the [*local Nagano leaf*]{} of\n$\\mathfrak{g}$ at $x_0$.\n\nThe union of all connected real analytic embedded submanifolds of\n$\\Omega$ whose germ at $x_0$ coincides with the germ of $M$ at $x_0$ is\ncalled the [*global Nagano leaf*]{}.\n\nThe global Nagano leaf turns out to be a connected immersed real\nanalytic submanifold which may however not be an embedded submanifold of\n$\\Omega$.\n\n[9]{} M. Salah Baouendi, Peter Ebenfelt, Linda Preiss Rothschild.\n[**]{}, Princeton University Press, Princeton, New Jersey, 1999.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocalNaganoTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "local Nagano theorem",
+    "Nagano's theorem"
+  ]
+}

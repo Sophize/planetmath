@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a set. Then an *interior operator* is a function\n$\\,^\\circ \\colon \\mathcal{P}(S) \\to \\mathcal{P}(S)$ which satisfies the\nfollowing properties:\n\n$S^\\circ = S$\n\nFor all $X \\subset S$, one has $X^\\circ \\subseteq S$.\n\nFor all $X \\subset S$, one has $(X^\\circ)^\\circ = X^\\circ$.\n\nFor all $X, Y \\subset S$, one has $(X \\cap Y)^\\circ = \nX^\\circ \\cap Y^\\circ$.\n\nIf $S$ is a topological space, then the operator which assigns to each\nset its interior satisfies these axioms. Conversely, given an interior\noperator $\\,^\\circ$ on a set $S$, the set $\\{X^\\circ \\mid\nX \\subset S\\}$ defines a topology on $S$ in which $X^\\circ$ is the\ninterior of $X$ for any subset $X$ of $S$. Thus, specifying an interior\noperator on a set is equivalent to specifying a topology on that set.\n\nThe concepts of interior operator and closure operator are closely\nrelated. Given an interior operator $\\,^\\circ$, one can define a closure\noperator $\\,^c$ by the condition $$X^c = ({(X')^\\circ})\\vphantom{X}'$$\nand, given a closure operator $\\,^c$, one can define an interior\noperator $\\,^\\circ$ by the condition\n\u00a0$$X^\\circ = ({(X')^c})\\vphantom{X}' .$$",
+  "language": "INFORMAL",
+  "phrase": "Interior Axioms",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InteriorAxioms"
+    }
+  ],
+  "indexable": true
+}

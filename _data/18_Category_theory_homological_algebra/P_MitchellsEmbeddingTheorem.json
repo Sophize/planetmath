@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every small abelian category admits an and into the category\n**$\\mbox{Mod}_R$** of (left) modules over some ring $R$.\n\nAs a consequence, this theorem says that certain facts about small\nabelian categories can be proved in the more concrete setting of\n$\\mbox{Mod}_R$ (indeed a concrete category). For example, in order to\nprove that a sequence is exact in an abelian category, it is enough to\nprove it in the context of $\\mbox{Mod}_R$, by realizing the fact that\nobjects in $\\mbox{Mod}_R$ are sets (with structures) and utilizing the\nelements therein. In particular, the diagram chasing technique popular\nin homological algebra may be formulated in small abelian categories as\na result of this theorem.\n\n[9]{} F. Borceux *Categories and Structures, Handbook of Categorical\nAlgebra II*, Cambridge University Press, Cambridge (1994) P. Freyd\n*Abelian Categories*, Harper and Row, (1964) \\[\\] B. Mitchell *The Full\nEmbedding Theorem*, American Journal of Math, 86, (1964) pp. 619-637",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MitchellsEmbeddingTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Mitchell's embedding theorem"
+  ]
+}

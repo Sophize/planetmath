@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A real-valued function $V\\colon\\mathbb{R}^n\\to\\mathbb{R}$ of $C^4$, and\nsatisfying the equation $$\\begin{aligned}\n\\nabla^4 V=0,\\end{aligned}$$ also defines a biharmonic function, and (1)\nis called the biharmonic equation. Biharmonic operator is defined as\n$$\\nabla^4:=\\sum_{k=1}^n\\frac{\\partial^4}{\\partial{x_k}^4}+\n2\\sum_{k=1}^{n-1}\\sum_{l=k+1}^n\\frac{\\partial^4}{\\partial{x_k}^2\\partial{x_l}^2}\\cdot$$",
+  "language": "INFORMAL",
+  "phrase": "Biharmonic Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BiharmonicEquation"
+    }
+  ],
+  "indexable": true
+}

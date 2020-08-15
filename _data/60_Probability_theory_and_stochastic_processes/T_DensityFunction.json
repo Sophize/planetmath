@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "probability function",
+    "density",
+    "probabilities function"
+  ],
+  "definition": "Let $X$ be a discrete random variable with sample space\n$\\{x_1,x_2,\\ldots\\}$. Let $p_k$ be the probability of $X$ taking the\nvalue $x_k$.\n\nThe function $$f(x)=\\\n\\begin{cases}\np_k & \\text{if }x=x_k\\\\\n0 & \\text{otherwise}\n\\end{cases}$$ is called the *probability function* or *density\nfunction*.\n\nIt must hold: $$\\sum_{j=1}^{\\infty} f(x_j)=1$$\n\nIf the density function for a random variable is known, we can calculate\nthe probability of $X$ being on certain interval:\n$$P[a<X\\leq b] = \\sum_{a<x_j\\leq b}f(x_j) = \\sum_{a<x_j\\leq b}p_j.$$\n\nThe definition can be extended to continuous random variables in a\ndirect way: The probability of $x$ being on a given interval is\ncalculated with an integral instead of using a summation:\n$$P[a<X\\leq b] = \\int_a^b f(x) dx.$$\n\nFor a more formal approach using measure theory, look at probability\ndistribution function entry.",
+  "language": "INFORMAL",
+  "phrase": "Density Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DensityFunction"
+    }
+  ],
+  "indexable": true
+}

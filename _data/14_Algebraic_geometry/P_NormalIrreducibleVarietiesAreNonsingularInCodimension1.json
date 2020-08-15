@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a normal irreducible variety. The singular set $S\\subset X$\nhas codimension 2 or more.\n\nAssume not. We may assume $X$ is affine, since codimension is local. Now\nlet ${\\mathfrak{u}}$ be the ideal of functions vanishing on $S$. This is\nan ideal of height 1, so the local ring of $Y$,\n${\\mathcal{O}}_S=A(X)_{{\\mathfrak{u}}}$, where $A(X)$ is the affine ring\nof $X$, is a 1-dimensional local ring, and integrally closed, since $X$\nis normal. Any integrally closed 1-dimensional local domain is a DVR,\nand thus regular. But $S$ is the singular set, so its local ring is not\nregular, a contradiction.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalIrreducibleVarietiesAreNonsingularInCodimension1"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "normal irreducible varieties are nonsingular in codimension 1"
+  ]
+}

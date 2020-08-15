@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *transitive closure* of a set $X$ is the smallest transitive set\n$\\operatorname{tc}(X)$ such that $X\\subseteq \\operatorname{tc}(X)$.\n\nThe transitive closure of a set can be constructed as follows:\n\nDefine a function $f$ on $\\omega$ by $f(0)=X$ and $f(n+1)=\\bigcup f(n)$\n\n$$\\operatorname{tc}(X)=\\bigcup_{n<\\omega} f(n)$$",
+  "language": "INFORMAL",
+  "phrase": "Transitive Closure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TransitiveClosure"
+    }
+  ],
+  "indexable": true
+}

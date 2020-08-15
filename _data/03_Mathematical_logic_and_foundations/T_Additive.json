@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "additivity"
+  ],
+  "definition": "Let $\\phi$ be some positive-valued set function defined on an algebra of\nsets $\\mathcal{A}$. We say that $\\phi$ is *additive* if, whenever $A$\nand $B$ are disjoint sets in $\\mathcal{A}$, we have\n$$\\phi(A \\cup B) = \\phi(A) + \\phi(B) .$$\n\nGiven any sequence $\\langle A_i \\rangle$ of disjoint sets in A and whose\nunion is also in A, if we have\n$$\\phi\\left( \\bigcup A_i \\right) = \\sum \\phi(A_i)$$ we say that $\\phi$\nis *countably additive* or *$\\sigma$-additive*.\n\nUseful properties of an additive set function $\\phi$ include the\nfollowing:\n\n1.  $\\phi(\\emptyset) = 0$.\n\n2.  If $A \\subseteq B$, then $\\phi(A) \\leq \\phi(B)$.\n\n3.  If $A \\subseteq B$, then $\\phi(B \\setminus A) = \\phi(B) - \\phi(A)$.\n\n4.  Given $A$ and $B$,\n    $\\phi(A \\cup B) + \\phi(A \\cap B) = \\phi(A) + \\phi(B)$.",
+  "language": "INFORMAL",
+  "phrase": "Additive",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Additive"
+    }
+  ],
+  "indexable": true
+}

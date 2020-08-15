@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a commutative ring with identity. If $I_1,\\ldots,I_n$ are\nideals of $R$ such that $I_i + I_j = R$ whenever $i\\neq j$, then let\n$$I=\\cap_{i=1}^n I_i = \\prod_{i=1}^n I_i.$$ The sum of quotient maps\n$R/I\\to R/I_i$ gives an isomorphism\n$$R/I\\cong \\prod_{i=1}^n {R}/{I_i}.$$ This has the slightly weaker\nconsequence that given a system of congruences $x\\cong a_i\\pmod{I_i}$,\nthere is a solution in $R$ which is unique mod $I$, as the theorem is\nusually stated for the integers.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChineseRemainderTheorem1"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Chinese remainder theorem"
+  ]
+}

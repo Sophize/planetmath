@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An integral domain $R$ is a *valuation domain* if for all $a,b\\in R$,\neither $a|b$ or $b|a$. Equivalently, an integral domain is a valuation\ndomain if for any $x$ in the field of fractions of $R$,\n$x\\notin R\\implies x^{-1}\\in R$.\n\nSome properties:\n\n-   A valuation domain is a discrete valuation ring (DVR) if and only if\n    it is a principal ideal domain (PID) if and only if it is\n    Noetherian.\n\n-   Every valuation domain is a Bezout domain, though the converse is\n    not true. For a partial converse, any local Bezout domain is a\n    valuation domain.\n\n-   Valuation domains are integrally closed.",
+  "language": "INFORMAL",
+  "phrase": "Valuation Domain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ValuationDomain"
+    }
+  ],
+  "indexable": true
+}

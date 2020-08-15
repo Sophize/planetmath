@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "$\\sigma$ finite",
+    "sigma-finite",
+    "sigma finite"
+  ],
+  "definition": "A measure space $(\\Omega, \\mathcal{B}, \\mu)$ is a **finite measure\nspace** if $\\mu(\\Omega)<\\infty$; it is $\\sigma$-**finite** if the total\nspace is the union of a finite or countable family of sets of finite\nmeasure, i.e. if there exists a countable set\n$\\mathcal{F}\\subset \\mathcal{B}$ such that $\\mu(A)<\\infty$ for each\n$A\\in \\mathcal{F}$, and $\\Omega=\\bigcup_{A\\in\\mathcal{F}} A.$ In this\ncase we also say that $\\mu$ is a $\\sigma$-finite measure. If $\\mu$ is\nnot $\\sigma$-finite, we say that it is $\\sigma$-**infinite**.\n\n**Examples.** Any finite measure space is $\\sigma$-finite. A more\ninteresting example is the Lebesgue measure $\\mu$ in $\\mathbb{R}^n$: it\nis $\\sigma$-finite but not finite. In fact\n$$\\mathbb{R}^n=\\bigcup_{k\\in\\mathbb{N}} [-k,k]^n$$ ($[-k,k]^n$ is a cube\nwith center at $0$ and side length $2k$, and its measure is $(2k)^n$),\nbut $\\mu(\\mathbb{R}^n)=\\infty$.",
+  "language": "INFORMAL",
+  "phrase": "$\\Sigma$-Finite",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/sigmafinite"
+    }
+  ],
+  "indexable": true
+}

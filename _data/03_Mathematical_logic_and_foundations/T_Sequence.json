@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "#### Sequences\n\nGiven any set $X$, a *sequence* in $X$ is a function\n$f\\colon \\mathbb{N} \\to X$ from the set of natural numbers to $X$.\nSequences are usually written with subscript notation:\n$x_0, x_1, x_2 \\dots$, instead of $f(0), f(1), f(2) \\dots $.\n\n#### Generalized sequences\n\nOne can generalize the above definition to any arbitrary ordinal. For\nany set $X$, a *generalized sequence* or *transfinite sequence* in $X$\nis a function $f\\colon \\omega \\to X$ where $\\omega$ is any ordinal\nnumber. If $\\omega$ is a finite ordinal, then we say the sequence is a\n*finite sequence*.",
+  "language": "INFORMAL",
+  "phrase": "Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Sequence"
+    }
+  ],
+  "indexable": true
+}

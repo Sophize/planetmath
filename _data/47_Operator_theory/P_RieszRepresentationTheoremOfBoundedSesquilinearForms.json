@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Bounded sesquilinear forms {#bounded-sesquilinear-forms .unnumbered}\n==========================\n\nLet $H_1$, $H_2$ be two Hilbert spaces.\n\n[**Definition -**]{} A sesquilinear form\n$[\\cdot, \\cdot ] : H_1 \\times H_2 \\to \\mathbb{C}$ is said to be\n*bounded* if there is a constant $C \\geq 0$ such that\n\n$$\\begin{aligned}\n[\\xi, \\eta ] \\leq C \\| \\xi \\| \\| \\eta \\|\\end{aligned}$$\n\nfor all $\\xi \\in H_1$ and $\\eta \\in H_2$.\n\nBounded sesquilinear forms are precisely those which are continuous from\n$H_1 \\times H_2$ to $\\mathbb{C}$.\n\n[**Examples :**]{}\n\n-   When $H_1$ and $H_2$ are the same Hilbert space, denoted by $H$, the\n    inner product $\\langle \\cdot, \\cdot \\rangle$ in $H$ is itself a\n    bounded sesquilinear form. The boundedness condition follows from\n    the Cauchy-Schwarz inequality.\n\n-   Let $T: H_1 \\to H_2$ be a bounded linear operator and denote by\n    $\\langle \\cdot, \\cdot \\rangle$ the inner product in $H_2$. The\n    function $[\\cdot, \\cdot ] : H_1 \\times H_2 \\to \\mathbb{C}$ defined\n    by $$\\begin{aligned}\n    [\\xi, \\eta ] := \\langle T \\xi, \\eta \\rangle\\end{aligned}$$ is a\n    bounded sesquilinear form. The boundedness condition follows from\n    the Cauchy-Schwarz inequality and the fact that $T$ is bounded.\n\nRiesz representation of bounded sesquilinear forms {#riesz-representation-of-bounded-sesquilinear-forms .unnumbered}\n==================================================\n\nThe second example above is in fact the general case. To every bounded\nsesquilinear form one can associate to it a unique bounded operator.\nThat is content of the following result:\n\n[**Theorem - Riesz -**]{} Let $H_1$, $H_2$ be two Hilbert spaces and\ndenote by $\\langle \\cdot, \\cdot \\rangle$ the inner product in $H_2$. For\nevery bounded sesquilinear form\n$[\\cdot, \\cdot]: H_1 \\times H_2 \\to \\mathbb{C}$ there is a unique\nbounded linear operator $T: H_1 \\to H_2$ such that\n\n$$\\begin{aligned}\n[\\xi, \\eta ] = \\langle T \\xi , \\eta \\rangle\\,, \\qquad\\qquad \\xi \\in H_1, \\eta \\in H_2.\\end{aligned}$$\n\nThus, there is a correspondence between bounded linear operators and\nbounded sesquilinear forms. Actually, in the early twentieth century,\nspectral theory was formulated solely in terms of sesquilinear forms on\nHilbert spaces. Only later it was realized that this could be achieved,\nperhaps in a more intuitive manner, by considering linear operators\ninstead. The linear operator approach has its advantages, as for example\none can define the composition of linear operators but not of\nsesquilinear forms. Nevertheless it is many times useful to define a\nlinear operator by specifying its sesquilinear form.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RieszRepresentationTheoremOfBoundedSesquilinearForms"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Riesz representation theorem of bounded sesquilinear forms",
+    "Riesz lemma on bounded sesquilinear forms",
+    "correspondence between bounded operators and bounded sesquilinear forms"
+  ]
+}

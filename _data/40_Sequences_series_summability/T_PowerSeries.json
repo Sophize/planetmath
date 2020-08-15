@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *power series* is a series of the form\n$$\\sum_{k=0}^{\\infty}a_k(x-x_0)^k,$$ with $a_k,x_0\\in\\mathbb{R}$ or\n$\\in\\mathbb{C}$. The $a_k$ are called the coefficients and $x_0$ the\ncenter of the power series. $a_0$ is called the *constant term*.\n\nWhere it converges the power series defines a function, which can thus\nbe represented by a power series. This is what power series are usually\nused for. Every power series is convergent at least at $x=x_0$ where it\nconverges to $a_0$. In addition it is absolutely and uniformly\nconvergent in the region $\\{x\\mid |x-x_0|<r\\}$, with\n$$r=\\liminf_{k\\to\\infty}\\frac{1}{\\sqrt[k]{|a_k|}}$$ It is divergent for\nevery $x$ with $|x-x_0| > r$. For $|x-x_0|= r$ no general predictions\ncan be made. If $r=\\infty$, the power series converges absolutely and\nuniformly for every real or complex $x.$ The real number $r$ is called\nthe **radius of convergence** of the power series.\n\nExamples of power series are:\n\n-   Taylor series, for example:\n    $$e^x=\\sum_{k=0}^{\\infty}\\frac{x^k}{k!}.$$\n\n-   The geometric series: $$\\frac{1}{1-x}=\\sum_{k=0}^{\\infty}x^k,$$ with\n    $|x|<1$.\n\nPower series have some important :\n\n-   If a power series converges for a $z_0\\in\\mathbb{C}$ then it also\n    converges for all $z\\in\\mathbb{C}$ with $|z-x_0|<|z_0-x_0|$.\n\n-   Also, if a power series diverges for some $z_0\\in\\mathbb{C}$ then it\n    diverges for all $z\\in\\mathbb{C}$ with $|z-x_0|>|z_0-x_0|$.\n\n-   For $|x-x_0|<r$ Power series can be added by adding coefficients and\n    multiplied in the obvious way:\n    $$\\sum_{k=0}^\\infty a_k(x-x_o)^k\\cdot\\sum_{l=0}^\\infty b_j(x-x_0)^j = a_0b_0+(a_0b_1+a_1b_0)(x-x_0)+(a_0b_2+a_1b_1+a_2b_0)(x-x_0)^2\\ldots.$$\n\n-   (Uniqueness) If two power series are equal and their are the same,\n    then their coefficients must be equal.\n\n-   Power series can be termwise differentiated and integrated. These\n    operations keep the radius of convergence.",
+  "language": "INFORMAL",
+  "phrase": "Power Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PowerSeries"
+    }
+  ],
+  "indexable": true
+}

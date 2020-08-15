@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If the set $$\\{a_0,\\;a_1c,\\; a_2c^2,\\;\\ldots\\}$$ of the of\na power series $$\\sum_{n=0}^\\infty a_nz^n$$ at the point $z = c$ is ,\nthen the power series converges, , for any value $z$ which satisfies\n$$|z| < |c|.$$\\\n*Proof.* By the assumption, there exists a positive number $M$ such that\n$$|a_nc^n| < M \\quad \\forall\\, n \\,=\\, 0,\\,1,\\,2,\\,\\ldots$$ Thus one\ngets for the coefficients of the series the estimation\n$$|a_n| < \\frac{M}{|c|^n}.$$ If now $|z| < |c|$, one has\n$$|a_nz^n| < M\\left|\\frac{z}{c}\\right|^n,$$ and since the geometric\nseries $\\displaystyle\\sum_{n=0}^\\infty\\left|\\frac{z}{c}\\right|^n$ is\nconvergent, then also the real series\n$\\displaystyle\\sum_{n=0}^\\infty|a_nz^n|$ converges.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundednessOfTermsOfPowerSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "boundedness of terms of power series"
+  ]
+}

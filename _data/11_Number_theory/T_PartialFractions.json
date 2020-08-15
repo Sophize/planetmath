@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "partial fractions of fractional numbers"
+  ],
+  "definition": "Every [*fractional number*]{}, i. e. such a rational number\n$\\frac {m}{n}$ that the integer $m$ is not divisible by the integer $n$,\ncan be decomposed to a sum of [*partial fractions*]{} as follows:\n$$\\frac{m}{n} \\;=\\; \\frac{m_1}{p_1^{\\nu_1}}+\\frac{m_2}{p_2^{\\nu_2}}+\\cdots+\\frac{m_t}{p_t^{\\nu_t}}$$\nHere, the $p_i$\u2019s are distinct positive prime numbers, the $\\nu_i$\u2019s\npositive integers and the $m_i$\u2019s some integers. Cf. the partial\nfractions of expressions.\n\n**Examples:** $$\\frac{6}{289} \\;=\\; \\frac{6}{17^2}$$\n$$-\\frac{1}{24} \\;=\\; -\\frac{3}{2^3}+\\frac{1}{3^1}$$\n$$\\frac{1}{504} \\;=\\; -\\frac{1}{2^3}+\\frac{32}{3^2}-\\frac{24}{7^1}$$\\\nHow to get the numerators $m_i$ for decomposing a fractional number\n$\\frac{1}{n}$ to partial fractions? First one can take the highest power\n$p^{\\nu}$ of a prime $p$ which divides the denominator $n$. Then\n$n = p^{\\nu}u$, where $\\gcd{(u,\\,p^{\\nu})} = 1$. Euclid\u2019s algorithm\ngives some integers $x$ and $y$ such that $$1 \\;=\\; xu\\!+\\!yp^{\\nu}.$$\nDividing this equation by $p^{\\nu}u$ gives the\n$$\\frac{1}{n} \\;=\\; \\frac{1}{p^{\\nu}u} \\;=\\; \\frac{x}{p^{\\nu}}\\!+\\!\\frac{y}{u}.$$\nIf $u$ has more than one distinct prime factors, a similar procedure can\nbe made for the fraction $\\frac{y}{u}$, and so on.\n\n**Note.** The numerators $m_1$, $m_2$, \u2026, $m_t$ in the decomposition are\nnot unique. E. g., we have also\n$$-\\frac{1}{24} \\;=\\; -\\frac{11}{2^3}+\\frac{4}{3^1}.$$\\\nCf. the programme \u201cMurto\u201d (in Finnish) or \u201cMurd\u201d (in Estonian) or\n\u201cBruch\u201d (in German) or \u201cBr\u00e5k\u201d (in Swedish) or \u201cFraction\u201d(in French) .",
+  "language": "INFORMAL",
+  "phrase": "Partial Fractions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartialFractions"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "symmetry of an differential equation"
+  ],
+  "definition": "Let $ f:\\mathbb{R}^n \\to \\mathbb{R}^n$ be a smooth function and let\n$$\\dot{x} = f(x)$$ be a system of ordinary differential equations, in\naddition let $\\gamma$ be an invertible matrix. Then $\\gamma$ is a *\u00a0of\nthe ordinary differential equation* if $$f(\\gamma x) = \\gamma f(x).$$\\\n**Example:**\n\n-   Natural symmetry of the Lorenz equation is a example of a symmetry\n    of a differential equation.\n\n[1]{} Golubitsky, Martin. Stewart, Ian. Schaeffer, G. David:\nSingularities and Groups in Bifurcation Theory *(Volume II)*.\nSpringer-Verlag, New York, 1988.",
+  "language": "INFORMAL",
+  "phrase": "Symmetry Of An Ordinary Differential Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SymmetryOfAnOrdinaryDifferentialEquation"
+    }
+  ],
+  "indexable": true
+}

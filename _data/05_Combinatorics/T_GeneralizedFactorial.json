@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Definition.* The $[x,d]_n$ is defined for any number\n$x \\in \\mathbb{C}$, any stepsize $d \\in \\mathbb{C}$ and any\n$n \\in \\mathbb{Z}$, except for $-x \\in \\{ d,2d,\\dots,nd \\}$, by\n$$\\begin{aligned}\n\\displaystyle [x,d]_n := \\begin{cases} \\prod_{j=0}^{n-1}(x-jd) & n \\in \\mathbb{N}\\\\\n1 & n = 0 \\\\\n\\prod_{j=1}^{-n}\\frac{1}{x+jd} & -n \\in \\mathbb{N}, -x \\notin \\{ d,2d,\\dots,nd \\}.\n\\end{cases}\\end{aligned}$$\n\nIf $x = n$, $d = 1$ and $n \\in \\mathbb{N}$ then\n$$\\displaystyle [n,1]_n = \\begin{cases} n(n-1)\\dots(2)(1) & n > 0 \\\\\n1 & n = 0, \\end{cases}$$ on which it follows that $[n,1]_n = n!$. This\nis why the above definition generalizes the notion of the usual\nfactorial.",
+  "language": "INFORMAL",
+  "phrase": "Generalized Factorial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedFactorial"
+    }
+  ],
+  "indexable": true
+}

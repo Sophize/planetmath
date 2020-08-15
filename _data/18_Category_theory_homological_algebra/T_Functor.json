@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "covariant functor",
+    "contravariant functor"
+  ],
+  "definition": "Given two categories $\\mathcal{C}$ and $\\mathcal{D}$, a\ncovariant\u00a0[*functor*]{} $T:\\mathcal{C}\\to\\mathcal{D}$ consists of an\nassignment for each object $X$ of $\\mathcal{C}$ an object $T(X)$ of\n$\\mathcal{D}$ (i.e. a \u201cfunction\u201d\n$T:{\\rm Ob}(\\mathcal{C})\\to{\\rm Ob}(\\mathcal{D})$) together with an\nassignment for every morphism $f\\in{\\rm Hom}_{\\mathcal{C}}(A,B)$, to a\nmorphism $T(f)\\in{\\rm Hom}_{\\mathcal{D}}(T(A),T(B))$, such that:\n\n-   $T(1_A) = 1_{T(A)}$ where $1_X$ denotes the identity morphism on the\n    object $X$ (in the respective category).\n\n-   $T(g \\circ f) = T(g)\\circ T(f)$, whenever the composition $g\\circ f$\n    is defined.\n\nA contravariant functor $T :\\mathcal{C}\\to\\mathcal{D}$ is just a\ncovariant functor $T:\\mathcal{C}^{\\rm op}\\to\\mathcal{D}$ from the\nopposite category. In other words, the assignment reverses the direction\nof maps. If $f\\in{\\rm Hom}_{\\mathcal{C}}(A,B)$, then\n$T(f)\\in{\\rm Hom}_{\\mathcal{D}}(T(B),T(A))$ and\n$T(g\\circ f) = T(f)\\circ T(g)$ whenever the composition is defined (the\ndomain of $g$ is the same as the codomain of $f$).\n\nGiven a category $\\mathcal{C}$ and an object $X$ we always have the\nfunctor $T : \\mathcal{C}\\to{\\bf Sets}$ to the category of sets defined\non objects by $T(A) = {\\rm Hom}(X, A)$. If $f : A \\to B$ is a morphism\nof $\\mathcal{C}$, then we define\n$T(f) : {\\rm Hom}(X,A)\\to {\\rm Hom}(X,B)$ by $g\\mapsto f\\circ g$. This\nis a covariant functor, denoted by ${\\rm Hom}(X,-)$.\n\nSimilarly, one can define a contravariant functor\n${\\rm Hom}(-,X) :\\mathcal{C}\\to{\\bf Sets}$.",
+  "language": "INFORMAL",
+  "phrase": "Functor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Functor"
+    }
+  ],
+  "indexable": true
+}

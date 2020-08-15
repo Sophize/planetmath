@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $a$, $b$, $c$ be the sides of a triangle and $\\alpha$, $\\beta$,\n$\\gamma$ its angles, respectively. By the projection formula, one may\nwrite the equalities $$\\begin{aligned}\n\\begin{cases}\na = b\\cos\\gamma+c\\cos\\beta\\\\\nb = c\\cos\\alpha+a\\cos\\gamma\\\\\nc = a\\cos\\beta+b\\cos\\alpha.\n\\end{cases}\\end{aligned}$$ Multiplying the equalities by $a$, $-b$ and\n$-c$, respectively, they read $$\\begin{aligned}\n\\begin{cases}\na^2 \\;=\\; ab\\cos\\gamma+ca\\cos\\beta\\\\\n-b^2 = -bc\\cos\\alpha-ab\\cos\\gamma\\\\\n-c^2 = -ca\\cos\\beta -bc\\cos\\alpha.\n\\end{cases}\\end{aligned}$$ Addition of these yields the sum equation\n$$a^2-b^2-c^2 = -2bc\\cos\\alpha,$$ i.e.\n$$a^2 \\;=\\; b^2+c^2-2bc\\cos\\alpha,$$ which is the cosines law.",
+  "conclusion": "#P_CosinesLaw",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCosinesLaw"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of cosines law"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Implicit differentiation is a tool used to analyze the solution sets of\nequations of the form $f(\\mathbf{x}, \\mathbf{y}) = 0$ that cannot be\nconveniently put into a form $\\mathbf{y}=g(\\mathbf{x})$ that explicitly\nshows the dependence of $\\mathbf{y}$ on the variable $\\mathbf{x}$. To\nuse implicit differentiation meaningfully, you must be certain that\n$\\mathbf{y}$ is actually a function of $\\mathbf{x}$ in a neighborhood of\nthe point $(\\mathbf{a}, \\mathbf{b})$ where you plan to apply the\nderivative. This means you want to ensure that\n$f(\\mathbf{x}, \\mathbf{y})$ satisfies the implicit function theorem in\nthat neighborhood ($f$ must be continuously differentiable at\n$(\\mathbf{a}, \\mathbf{b})$, and its derivative must be non-singular at\n$(\\mathbf{a}, \\mathbf{b})$). If this is not the case, the quantity you\nget from naively differentiating both sides of the equation may not\nrepresent the derivative. To actually differentiate implicitly, we use\nthe chain rule to differentiate the entire equation.",
+  "language": "INFORMAL",
+  "phrase": "Implicit Differentiation",
+  "remarks": "\n\n**Example:** The first step is to identify the implicit function.\nSuppose we have simplified an equation to the form $x^2 + y^2 + xy =0$\n(Since this is a two dimensional equation, all one has to check is that\nthe graph of $y$ may be an implicit function of $x$ in local\nneighborhoods.) Then, to differentiate implicitly, we differentiate both\nsides of the equation with respect to $x$, using the chain rule whenever\nwe encounter $y$, as $y$ is treated as a function of $x$. We will get\n$$2x + 2y\\cdot \\frac{dy}{dx} + x\\cdot 1\\cdot\\frac{dy}{dx} + y = 0$$\nNext, we simply solve for our implicit derivative\n$\\frac{dy}{dx}=-\\frac{2x+y}{2y+x}$. Note that the derivative depends on\nboth the variable and the implicit function $y$. Most of your\nderivatives will be functions of one or all the variables, including the\nimplicit function itself.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ImplicitDifferentiation"
+    }
+  ],
+  "indexable": true
+}

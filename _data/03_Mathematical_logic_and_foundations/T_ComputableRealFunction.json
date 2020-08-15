@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A function $f \\colon \\mathbb{R} \\to \\mathbb{R}$ is *sequentially\ncomputable* if, for every computable sequence $\\{x_i\\}_{i=1}^\\infty$ of\nreal numbers, the sequence $\\{f(x_i) \\}_{i=1}^\\infty$ is also\ncomputable.\n\nA function $f \\colon \\mathbb{R} \\to \\mathbb{R}$ is *effectively\nuniformly continuous* if there exists a recursive function\n$d \\colon \\mathbb{N} \\to \\mathbb{N}$ such that, if\n$$|x-y| < {1 \\over d(n)}$$ then $$|f(x) - f(y)| < {1 \\over n}$$\n\nA real function is *computable* if it is both sequentially computable\nand effectively uniformly continuous.\n\nIt is not hard to generalize these definitions to functions of more than\none variable or functions only defined on a subset of $\\mathbb{R}^n$.\nThe generalizations of the latter two definitions are so obvious that\nthey need not be restated. A suitable generalization of the first\ndefinition is:\n\nLet $D$ be a subset of $\\mathbb{R}^n$. A function\n$f \\colon D \\to \\mathbb{R}$ is *sequentially computable* if, for every\n$n$-tuplet\n$\\left( \\{ x_{i \\, 1} \\}_{i=1}^\\infty, \\ldots \\{ x_{i \\, n} \\}_{i=1}^\\infty \\right)$\nof computable sequences of real numbers such that\n$$(\\forall i) \\quad (x_{i \\, 1}, \\ldots x_{i \\, n}) \\in D \\qquad ,$$ the\nsequence $\\{f(x_i) \\}_{i=1}^\\infty$ is also computable.",
+  "language": "INFORMAL",
+  "phrase": "Computable Real Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComputableRealFunction"
+    }
+  ],
+  "indexable": true
+}

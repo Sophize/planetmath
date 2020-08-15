@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "arc functions",
+    "arcus functions",
+    "inverse trigonometric functions"
+  ],
+  "definition": "The are periodic, and thus get all their values infinitely many times.\nTherefore their inverse functions, the [*cyclometric functions*]{}, are\nmultivalued, but the values within suitable chosen intervals are unique;\nthey form single-valued functions, called the *branches* of the\nmultivalued functions.\n\nThe of the most used cyclometric functions are as follows:\n\n-   $\\arcsin{x}$ is the angle $y$ satisfying $\\sin y = x$ and\n    $-\\frac{\\pi}{2} < y \\leqq \\frac{\\pi}{2}$ (defined for\n    $-1 \\leqq x \\leqq 1$)\n\n-   $\\arccos{x}$ is the angle $y$ satisfying $\\cos y = x$ and\n    $0 \\leqq y < \\pi$ (defined for $-1 \\leqq x \\leqq 1$)\n\n-   $\\arctan{x}$ is the angle $y$ satisfying $\\tan y = x$ and\n    $-\\frac{\\pi}{2} < y < \\frac{\\pi}{2}$ (defined in the whole\n    $\\mathbb{R}$)\n\n-   $\\operatorname{arccot}\\,{x}$ is the angle $y$ satisfying\n    $\\cot y = x$ and $0 < y < \\pi$ (defined in the whole $\\mathbb{R}$)\n\nThose functions are denoted also $\\sin^{-1}x$, $\\cos^{-1}x$,\n$\\tan^{-1}x$ and $\\cot^{-1}x$. We here use these notations temporarily\nfor giving the corresponding multivalued functions\n($n = 0,\\, \\pm1,\\, \\pm2,\\, ...$): $$\\sin^{-1}x = n\\pi+(-1)^n\\arcsin{x}$$\n$$\\cos^{-1}x = 2n\\pi\\pm\\arccos{x}$$ $$\\tan^{-1}x = n\\pi+\\arctan{x}$$\n$$\\cot^{-1}x = n\\pi+\\operatorname{arccot}\\,{x}$$\\\n**Some formulae** $$\\arcsin{x}+\\arccos{x} = \\frac{\\pi}{2}$$\n$$\\arctan{x}+\\operatorname{arccot}\\,{x} = \\frac{\\pi}{2}$$\n$$\\arcsin{x} = \\int_0^x\\frac{dt}{\\sqrt{1-t^2}}\\,dt$$\n$$\\arctan{x} = \\int_0^x\\frac{dt}{1+t^2}\\,dt$$\n$$\\arcsin{x} = x+\\frac{1}{2}\\!\\cdot\\!\\frac{x^3}{3}+\n\\frac{1\\!\\cdot\\!3}{2\\!\\cdot\\!4}\\!\\cdot\\!\\frac{x^5}{5}+\n\\frac{1\\!\\cdot\\!3\\!\\cdot\\!5}{2\\!\\cdot\\!4\\!\\cdot\\! 6}\\!\\cdot\\!\\frac{x^7}{7}+\\ldots\\quad(|x|\\leqq 1)$$\n$$\\arctan{x} = x-\\frac{x^3}{3}+\\frac{x^5}{5}-\\frac{x^7}{7}+-\\ldots\n\\quad(|x| \\leqq 1)$$\n$$\\frac{d}{dx}\\arccos{x} = -\\frac{1}{\\sqrt{1-x^2}}\\quad(|x| < 1)$$\n$$\\frac{d}{dx}\\operatorname{arccot}\\,{x} = -\\frac{1}{1+x^2}\\quad(\\forall x\\in \\mathbb{R})$$\n\nThe classic abbreviations of the cyclometric functions are usually\nexplained as follows. The values of the trigonometric functions are got\nfrom the unit circle by means of its arc (in Latin [*arcus*]{}) with\nstarting point (1,0). The arc the angle (which may be thought as a\ncentral angle of the circle), and its end point $(\\xi,\\,\\eta)$ is\nachieved when the starting point has circulated along the circumference\nanticlockwise for positive angle (and clockwise for negative angle).\nThen the cosine of the arc (i.e. angle) is the abscissa $\\xi$ of the end\npoint, the sine of the arc is the ordinate $\\eta$ of it.\nCorrespondingly, one can get the tangent and cotangent of the arc by\nusing certain points on the tangent lines $x = 1$ and $y = 1$ of the\nunit circle.\n\nThe word cosine is in Latin [*cosinus*]{}, its genitive form is\n[*cosini*]{}. So e.g. \u201c$\\arccos$\u201d of a given real number $x$ means the\n\u2018arc of the cosine value $x$\u2019, in Latin [*arcus cosini x*]{}.",
+  "language": "INFORMAL",
+  "phrase": "Cyclometric Functions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CyclometricFunctions"
+    }
+  ],
+  "indexable": true
+}

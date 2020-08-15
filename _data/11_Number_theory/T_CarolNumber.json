@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given $n$, compute $4^n - 2^{n + 1} - 1$ or $(2^n - 1)^2 - 2$ or\n$(2^{2n} - 1) - 2^{n + 1}$ or\n$$\\sum_{\\substack{i \\ne n + 1\\\\i = 0}}^{2n} 2^i.$$ Any of these formulas\ngives the *Carol number* for $n$. Regardless of how they\u2019re computed,\nthese numbers are almost repunits in binary, needing only the addition\nof $2^{n + 1}$ to become so.\n\nThe first few Carol numbers are 7, 47, 223, 959, 3967, 16127, 65023,\n261119, 1046527, 4190207, 16769023 (listed in A093112 of Sloane\u2019s OEIS).\nEvery third Carol number is divisible by 7, thus prime Carol numbers\ncan\u2019t have $n = 3x + 2$ (except of course for $n = 2$. The largest Carol\nnumber known to be prime is $(2^{248949} - 1)^2 - 2$, found by Japke\nRosink using MultiSieve and OpenPFGW in March 2006.",
+  "language": "INFORMAL",
+  "phrase": "Carol Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CarolNumber"
+    }
+  ],
+  "indexable": true
+}

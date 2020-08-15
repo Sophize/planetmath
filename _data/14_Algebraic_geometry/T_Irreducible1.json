@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A subset $F$ of a topological space $X$ is [*reducible*]{} if it can be\nwritten as a union $F = F_1 \\cup F_2$ of two closed proper subsets\n$F_1$, $F_2$ of $F$ (closed in the subspace topology). That is, $F$ is\nreducible if it can be written as a union\n$F = (G_1\\cap F)\\cup(G_2\\cap F)$ where $G_1$,$G_2$ are closed subsets of\n$X$, neither of which contains $F$.\n\nA subset of a topological space is [*irreducible*]{} (or\n*hyperconnected*) if it is not reducible.\n\nAs an example, consider $\\{ (x,y)\\in\\mathbb{R}^2 : xy = 0 \\}$ with the\nsubspace topology from $\\mathbb{R}^2$. This space is a union of two\nlines $\\{ (x,y)\\in\\mathbb{R}^2 : x = 0 \\}$ and\n$\\{ (x,y)\\in\\mathbb{R}^2 : y = 0 \\}$, which are proper closed subsets.\nSo this space is reducible, and thus not irreducible.",
+  "language": "INFORMAL",
+  "phrase": "Irreducible",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Irreducible1"
+    }
+  ],
+  "indexable": true
+}

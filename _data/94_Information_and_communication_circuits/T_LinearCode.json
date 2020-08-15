@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Often in coding , a code\u2019s alphabet is taken to be a finite field. In\nparticular, if $A$ is the finite field with two (resp. three, four,\netc.) elements, we call $C$ a binary (resp. ternary, quaternary, etc.)\ncode. In particular, when our alphabet is a finite field then the set\n$A^n$ is a vector space over $A$, and we define a *linear code over $A$*\nof block length $n$ to be a subspace (as opposed to merely a subset) of\n$A^n$. We define the *dimension of $C$* to be its dimension as a vector\nspace over $A$.\n\nThough not sufficient for unique classification, a linear code\u2019s block\nlength, dimension, and minimum distance are three crucial parameters in\ndetermining the strength of the code. For referencing, a linear code\nwith block length $n$, dimension $k$, and minimum distance $d$ is\nreferred to as an $(n,k,d)$-code.\n\nSome examples of linear codes are Hamming Codes, BCH codes, Goppa codes,\nReed-Solomon codes, and the .",
+  "language": "INFORMAL",
+  "phrase": "Linear Code",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearCode"
+    }
+  ],
+  "indexable": true
+}

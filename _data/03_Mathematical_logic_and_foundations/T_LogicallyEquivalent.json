@@ -1,0 +1,20 @@
+{
+  "alternatePhrases": [
+    "tautologically equivalent",
+    "semantically equivalent",
+    "tautological equivalence",
+    "semantical equivalence",
+    "tautological consequence",
+    "semantical consequence"
+  ],
+  "definition": "Two formulas $A$ and $B$ are said to be *logically equivalent*\n(typically shortened to *equivalent*) when $A$ is true if and only if\n$B$ is true (that is, $A$ implies $B$ and $B$ implies $A$):\n$$\\models A\\leftrightarrow B.$$ This is sometimes abbreviated as\n$A \\Leftrightarrow B$.\n\nFor example, for any integer $z$, the statement \u201c$z$ is positive\u201d is\nequivalent to \u201c$z$ is not negative and $z\\neq 0$\u201d.\n\nMore generally, one says that a formula $A$ is a logical consequence of\na set $\\Gamma$ of formulas, written $$\\Gamma \\models A$$ if whenever\nevery formula in $\\Gamma$ is true, so is $A$. If $\\Gamma$ is a singleton\nconsisting of formula $B$, we also write $$B\\models A.$$ Using this, one\nsees that\n$$\\models A\\leftrightarrow B\\qquad \\mbox{iff} \\qquad A\\models B\\mbox{ and } B\\models A.$$\n\nTo see this: if $\\models A\\leftrightarrow B$, then $A\\to B$ and $B\\to A$\nare both true, which means that if $A$ is true so is $B$ and that if $B$\nis true so is $A$, or $A\\models B$ and $B\\models A$. The argument can be\nreversed.\n\n**Remark**. Some authors call the above notion semantical equivalence or\ntautological equivalence, rather than logical equivalence. In their\nview, logical equivalence is a syntactic notion: $A$ and $B$ are\nlogically equivalent whenever $A$ is deducible from $B$ and $B$ is\ndeducible from $A$ in some deductive system.",
+  "language": "INFORMAL",
+  "phrase": "Logically Equivalent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LogicallyEquivalent"
+    }
+  ],
+  "indexable": true
+}

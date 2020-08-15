@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(\\Omega, \\mathfrak{B}, \\mu)$ be a probability space and\n$B\\in \\mathfrak{B}$ an event. Let $\\mathfrak{D}$ be a sub sigma algebra\nof $\\mathfrak{B}$. The *of $B$ given $\\mathfrak{D}$* is defined to be\nthe conditional expectation of the random variable $1_B$ defined on\n$\\Omega$, given $\\mathfrak{D}$. We denote this conditional probability\nby $\\mu(B|\\mathfrak{D}):=E(1_B| \\mathfrak{D})$. $1_B$ is also known as\nthe indicator function.\n\nSimilarly, we can define a conditional probability given a random\nvariable. Let $X$ be a random variable defined on $\\Omega$. The\n*conditional probability of $B$ given $X$* is defined to be\n$\\mu(B|\\mathfrak{B}_X)$, where $\\mathfrak{B}_X$ is the sub sigma algebra\nof $\\mathfrak{B}$, $X$. The conditional probability of $B$ given $X$ is\nsimply written $\\mu(B|X)$.\n\n**Remark**. Both $\\mu(B|\\mathfrak{D})$ and $\\mu(B|X)$ are random\nvariables, the former is $\\mathfrak{D}$-measurable, and the latter is\n$\\mathfrak{B}_X$-measurable.",
+  "language": "INFORMAL",
+  "phrase": "Probability Conditioning On A Sigma Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProbabilityConditioningOnASigmaAlgebra"
+    }
+  ],
+  "indexable": true
+}

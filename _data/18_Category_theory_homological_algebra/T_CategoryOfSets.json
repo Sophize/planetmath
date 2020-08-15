@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*category of sets*]{} has, as its objects, all sets and, as its\nmorphisms, functions between sets. (This works if a category\u2019s objects\nare only required to be part of a class, as the class of all sets\nexists.) The category of sets is often denoted by **Set**.\n\nAlternately one can specify a universe, containing all sets of interest\nin the situation, and take the category to contain only sets in that\nuniverse and functions between those sets.\n\nOne of the most famous endofunctors associated with the category of sets\nis the *powerset functor* $P$, which takes every set $A$ to its power\nset $P(A)$, and any function $f:A\\to B$ to the function\n$P(f): P(A)\\to P(B)$, given by\n$$P(f)(S) := f(S) = \\lbrace b\\in B\\mid b = \n f(a)\\mbox{ for some }a\\in S\\rbrace.$$ If $f \\colon A\\to B$ and\n$g \\colon B\\to C$ are functions, then $(P(g)\\circ P(f))(S) = \nP(g)(P(f)(S)) = P(g)(f(S))=g(f(S))= (g\\circ f)(S)=P(g\\circ f)(S)$, so\nthat $P$ is a covariant functor. This functor may also be defined in an\n\u201carrow theoretic\u201d fashion as a ${\\rm Hom}$ functor. Let $T$ be a set\nwith two elements, for instance $T = \\{ \\{\\}, \\{\\{\\}\\}\\}$. (Since, by\nthe definition of cardinality, all sets with the same number of elements\nare isomorphic in the category of sets, it does not matter which set\nwith two elements we pick as $T$.) Then define $P(A) = {\\rm Hom} (A,T)$;\nlikewise, given a function $f \\colon A \\to B$, define\n$P(f) \\colon P(B) \\to P(A)$ by $P(f)(g) = g \\circ f$.",
+  "language": "INFORMAL",
+  "phrase": "Category Of Sets",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CategoryOfSets"
+    }
+  ],
+  "indexable": true
+}

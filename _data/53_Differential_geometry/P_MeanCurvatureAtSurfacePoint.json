@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $P$ be a point on the surface $F(x,\\,y,\\,z) = 0$ where the function\n$F$ is twice continuously differentiable on a neighbourhood of $P$. Then\nthe normal curvature $\\varkappa_\\theta$ at $P$ is, by Euler\u2019s theorem,\nvia the principal curvatures $\\varkappa_1$ and $\\varkappa_2$ as\n$$\\begin{aligned}\n     \\varkappa_\\theta = \\varkappa_1\\cos^2\\theta+\\varkappa_2\\sin^2\\theta,\\end{aligned}$$\nwhere $\\theta$ is the the normal section plane corresponding\n$\\varkappa_1$ and the normal section plane corresponding\n$\\varkappa_\\theta$. When we apply (1) by taking instead $\\theta$ the\nangle $\\theta\\!+\\!\\frac{\\pi}{2}$, we may write\n$$\\varkappa_{\\theta+\\frac{\\pi}{2}} = \n\\varkappa_1\\sin^2\\theta+\\varkappa_2\\cos^2\\theta.$$ Adding this equation\nto (1) then yields\n$$\\frac{\\varkappa_\\theta+\\varkappa_{\\theta+\\frac{\\pi}{2}}}{2} = \n\\frac{\\varkappa_1+\\varkappa_2}{2}.$$\n\nThe contents of this result is the\n\n**Theorem.** The arithmetic mean of the of two perpendicular normal\nsections has a value, which is equal to the arithmetic mean of the\nprincipal curvatures. This mean is called the [*mean curvature*]{} at\nthe point in question.\n\n[8]{} : [*Differentiali- ja integralilasku ja sen sovellutukset II*]{}.\nMercatorin Kirjapaino Osakeyhti\u00f6, Helsinki (1932).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeanCurvatureAtSurfacePoint"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "mean curvature at surface point"
+  ]
+}

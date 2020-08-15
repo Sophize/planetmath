@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "groupoid-derived algebroids",
+    "double groupoid dual of an algebroid"
+  ],
+  "definition": "If $\\mathsf{G}$ is a groupoid (for example, regarded as a category with\nall morphisms invertible) then we can construct an $R$-algebroid,\n$R\\mathsf{G}$ as follows. Let us consider first a module over a ring\n$R$, also called a [*$R$-module*]{}, that is, a $M_R$ that takes its\ncoefficients in a ring $R$. Then, the object set of $R\\mathsf{G}$ is the\nsame as that of $\\mathsf{G}$ and $R\\mathsf{G}(b,c)$ is the free\n$R$-module on the set $\\mathsf{G}(b,c)$, with composition given by the\nusual bilinear rule, extending the composition of $\\mathsf{G}$.\n\nAlternatively, one can define $\\bar{R}\\mathsf{G}(b,c)$ to be the set of\nfunctions $\\mathsf{G}(b,c){{\\longrightarrow}}R$ with finite support, and\nthen one defines the *convolution product* as follows:\n\n$$(f*g)(z)= \\sum \\{(fx)(gy)\\mid z=x\\circ y \\} ~.$$\n\nAs it is very well known, only the second construction is natural for\nthe topological case, when one needs to replace the general concept of\n\u2018function\u2019 by the topological-analytical concept of \u2018continuous function\nwith compact support\u2019 (or alternatively, with \u2018locally compact support\u2019)\nfor all quantum field theory (QFT) extended symmetry sectors; in this\ncase, one has that $R \\cong \\mathbb{C}$\u00a0. The point made here is that to\ncarry out the usual construction and end up with only an algebra rather\nthan an algebroid, is a procedure analogous to replacing a groupoid\n$\\mathsf{G}$ by a semigroup $G'=G\\cup \\{0\\}$ in which the compositions\nnot defined in $G$ are defined to be $0$ in $G'$. We argue that this\nconstruction removes the main advantage of groupoids, namely the\npresence of the [*spatial component*]{} given by the set of objects of\nthe groupoid.\n\nMore generally, a is similarly defined as an extension to this\nR-algebroid concept.\n\n[9]{}\n\nR. Brown and G. H. Mosa: Double algebroids and crossed modules of\nalgebroids, University of Wales\u2013Bangor, Maths Preprint, 1986.\n\nG. H. Mosa: *Higher dimensional algebroids and Crossed complexes*, PhD\nthesis, University of Wales, Bangor, (1986). (supervised by R. Brown).",
+  "language": "INFORMAL",
+  "phrase": "R-Algebroid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ralgebroid"
+    }
+  ],
+  "indexable": true
+}

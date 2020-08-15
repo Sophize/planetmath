@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $L$ be a first order language. A formula $\\psi$ is [*quantifier\nfree*]{} iff it contains no quantifiers.\n\nLet $T$ be a complete $L$-theory. Let $S \\subseteq L$. Then $S$ is an\n[*elimination set*]{} for $T$ iff for every $\\psi(\\bar{x}) \\in L$ there\nis some $\\phi(\\bar{x}) \\in S$ so that\n$T \\vdash \\forall \\bar{x} (\\psi(\\bar{x})) \\leftrightarrow \\phi(\\bar{x})$.\n\nIn particular, $T$ has [*quantifier elimination*]{} iff the set of\nquantifier free formulas is an elimination set for $T$. In other $T$ has\n[*quantifier elimination*]{} iff for every $\\psi(\\bar{x}) \\in L$ there\nis some quantifier free $\\phi(\\bar{x}) \\in L$ so that\n$T \\vdash \\forall \\bar{x} (\\psi(\\bar{x})) \\leftrightarrow \\phi(\\bar{x})$.",
+  "language": "INFORMAL",
+  "phrase": "Quantifier Free",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuantifierFree"
+    }
+  ],
+  "indexable": true
+}

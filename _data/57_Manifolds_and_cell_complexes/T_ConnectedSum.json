@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "knot sum"
+  ],
+  "definition": "The *connected sum of knots* $K$ and $J$ is a knot, denoted by $K\\#J$,\nconstructed by removing a short segment from each of $K$ and $J$ and\njoining each free end of $K$ to a different free end of $J$ to form a\nnew knot. The connected sum of two knots always exists but is not\nnecessarily unique.\n\nThe *connected sum of oriented knots* $K$ and $J$ is a connected sum of\nknots which has a consistent orientation inherited from that of $K$ and\n$J$. This sum always exists and is unique.\n\nSuppose $K$ and $J$ are both the trefoil knot.\n\n![The trefoil knot](TrefoilKnotPF2007)\n\nBy one choice of segment deletion and reattachment, $K\\#J$ is the\nquatrefoil knot.\n\n![$K\\#J$ is the quatrefoil knot](QuatrefoilKnotPF2007)",
+  "language": "INFORMAL",
+  "phrase": "Connected Sum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConnectedSum"
+    }
+  ],
+  "indexable": true
+}

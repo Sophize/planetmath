@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Ulam cloth",
+    "Ulam spiral"
+  ],
+  "definition": "The [*Ulam spiral*]{} (or [*Ulam cloth*]{}) consists of integers,\nstarting from a given $n$ at the center, written in a spiral with the\nprime numbers highlighted or emphasized in some way. For example,\nwriting a spiral with 42 at the center,\n\n  ---- ---- ---- ---- ---- ---- ----\n   90  67   68   69   70   71   72\n   89  66   51   52   53   54   73\n   88  65   50   43   44   55   74\n   87  64   49   42   45   56   75\n   86  63   48   47   46   57   76\n   85  62   61   60   59   58   77\n   84  83   82   81   80   79   78\n  ---- ---- ---- ---- ---- ---- ----\n\nand then simply blanking the composites, we obtain\n\n  ---- ---- ---- ---- ---- ---- ----\n       67                  71   \n   89                 53        73\n                 43             \n                                \n                 47             \n            61        59        \n       83                  79   \n  ---- ---- ---- ---- ---- ---- ----\n\nCarrying on this process in more layers will show that most of the\nprimes tend to fall on certain diagonals and not others.\n\nThis formation was first pondered by Stanis\u0142aw Ulam with 1 at the\ncenter. He tried carrying out the process much further, and also tried\ndifferent center values, but in each case the primes would cluster on\ncertain diagonals and sparsely populate others. Because almost all\nprimes are odd, it is easy to explain why they would tend to form\ndiagonals, but much more difficult to explain why they fall on certain\ndiagonals.\n\n[1]{} Gardner, M. \u201cMathematical Recreations: The Remarkable Lore of the\nPrime Number\u201d [*Scientific American*]{} [**210**]{} 3: 120 - 128",
+  "language": "INFORMAL",
+  "phrase": "Ulam Spiral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UlamSpiral"
+    }
+  ],
+  "indexable": true
+}

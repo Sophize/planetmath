@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The term *Euler characteristic* is defined for several objects.\n\nIf $K$ is a finite simplicial complex of dimension $m$, let $\\alpha_i$\nbe the number of simplexes of dimension $i$. The *Euler characteristic*\nof $K$ is defined to be $$\\chi(K) = \\sum_{i=0}^m (-1)^i \\alpha_i .$$\n\nNext, if $K$ is a finite CW complex, let $\\alpha_i$ be the number of\ni-cells in $K$. The *Euler characteristic* of $K$ is defined to be\n\n$$\\chi(K) = \\sum_{i \\ge 0}(-1)^i \\alpha_i .$$\n\nIf $X$ is a finite polyhedron, with triangulation $K$, a simplicial\ncomplex, then the *Euler characteristic* of $X$ is $\\chi(K)$. It can be\nshown that all triangulations of $X$ have the same value for $\\chi(K)$\nso that this is well-defined.\n\nFinally, if $C=\\{C_q\\}$ is a finitely generated graded group, then the\n*Euler characteristic* of $C$ is defined to be\n$$\\chi(C) = \\sum_{q \\ge 0}  (-1)^q rank(C_q) .$$",
+  "language": "INFORMAL",
+  "phrase": "Euler  Characteristic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulerCharacteristic"
+    }
+  ],
+  "indexable": true
+}

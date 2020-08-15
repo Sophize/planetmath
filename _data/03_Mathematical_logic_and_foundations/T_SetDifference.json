@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "difference between sets",
+    "difference"
+  ],
+  "definition": "Definition {#definition .unnumbered}\n==========\n\nLet $A$ and $B$ be sets. The *set difference* (or simply *difference*)\nbetween $A$ and $B$ (in that order) is the set of all elements of $A$\nthat are not in $B$. This set is denoted by $A\\setminus B$ or $A-B$ (or\noccasionally $A\\sim B$). So we have\n$$A\\setminus B = \\{ x\\in A \\mid x \\notin B\\}.$$\n\n  -------------------------------------------------\n                 ![image](venn.eps)\n   [Venn diagram showing $A\\setminus B$ in blue]{}\n  -------------------------------------------------\n\nProperties {#properties .unnumbered}\n==========\n\nHere are some properties of the set difference operation:\n\n1.  If $A$ is a set, then $$A\\setminus\\emptyset = A$$ and\n    $$A\\setminus A = \\emptyset = \\emptyset\\setminus A.$$\n\n2.  If $A$ and $B$ are sets, then\n    $$B\\setminus(A\\cap B) = B\\setminus A.$$\n\n3.  If $A$ and $B$ are subsets of a set $X$, then\n    $$A\\setminus B = A\\cap B^\\complement$$ and\n    $$(A\\setminus B)^\\complement = A^\\complement \\cup B,$$ where\n    $^\\complement$ denotes complement in $X$.\n\n4.  If $A$, $B$, $C$ and $D$ are sets, then\n    $$(A\\setminus B)\\cap (C\\setminus D) = (A\\cap C)\\setminus (B\\cup D).$$\n\nRemark {#remark .unnumbered}\n======\n\nAs noted above, the set difference is sometimes written as $A-B$.\nHowever, if $A$ and $B$ are sets in a vector space (or, more generally,\na ), then $A-B$ is commonly used to denote the set\n$$A-B = \\{ a-b \\mid a\\in A, b\\in B\\}$$ rather than the set difference.",
+  "language": "INFORMAL",
+  "phrase": "Set Difference",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SetDifference"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A field $F$ is called *formally real* if $-1$ can not be expressed as a\nsum of squares (of elements of $F$).\n\nGiven a field $F$, let $S_F$ be the set of all sums of squares in $F$.\nThe following are equivalent conditions that $F$ is formally real:\n\n1.  $-1\\notin S_F$\n\n2.  $S_F\\not= F$ and $\\operatorname{char}(F)\\ne 2$\n\n3.  $\\sum {a_i}^2=0$ implies each $a_i=0$, where $a_i\\in F$\n\n4.  $F$ can be ordered (There is a total order $<$ which makes $F$ into\n    an ordered field)\n\n**Some Examples:**\n\n-   $\\mathbb{R}$ and $\\mathbb{Q}$ are both formally real fields.\n\n-   If $F$ is formally real, so is $F(\\alpha)$, where $\\alpha$ is a root\n    of an irreducible polynomial of odd degree in $F[x]$. As an example,\n    $\\mathbb{Q}(\\sqrt[3]{2}\\omega)$ is formally real, where\n    $\\omega\\not= 1$ is a third root of unity.\n\n-   $\\mathbb{C}$ is not formally real since $-1=i^2$.\n\n-   Any field of characteristic non-zero is not formally real; it is not\n    orderable.\n\nA formally real field is said to be *real closed* if any of its\nalgebraic extension which is also formally real is itself. For any\nformally real field $k$, a formally real field $K$ is said to be a *real\nclosure* of $k$ if $K$ is an algebraic extension of $k$ and is real\nclosed.\n\nIn the example above, $\\mathbb{R}$ is real closed, and $\\mathbb{Q}$ is\nnot, whose real closure is $\\tilde{\\mathbb{Q}}$. Furthermore, it can be\nshown that the real closure of a countable formally real field is\ncountable, so that $\\tilde{\\mathbb{Q}} \\ne \\mathbb{R}$.",
+  "language": "INFORMAL",
+  "phrase": "Formally Real Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FormallyRealField"
+    }
+  ],
+  "indexable": true
+}

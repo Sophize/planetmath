@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *supremum* of a set $X$ having a partial order is the least upper\nbound of $X$ (if it exists) and is denoted $\\sup{X}$.\n\nLet $A$ be a set with a partial order ${\\leqslant}$, and let\n$X \\subseteq A$. Then $s = \\sup X$ if and only if:\n\n1.  [For all $x\\in X$, we have $x {\\leqslant}s$ (i.e. $s$ is an upper\n    bound).]{}\n\n2.  [If $s^{\\prime}$ meets condition **1**, then\n    $s {\\leqslant}s^{\\prime}$ ($s$ is the *least* upper bound).]{}\n\nThere is another useful definition which works if $A = \\mathbb{R}$ with\n${\\leqslant}$ the usual order on $\\mathbb{R}$, supposing that s is an\nupper bound:\n$$s = \\sup X \\text{ if and only if } \\forall \\varepsilon > 0, \\exists x\\in X : s-\\varepsilon < x.$$\n\nNote that it is not necessarily the case that $\\sup X \\in X$. Suppose\n$X = {]0, 1[}$, then $\\sup X = 1$, but $1 \\not\\in X$.\n\nNote also that a set may not have an upper bound at all.",
+  "language": "INFORMAL",
+  "phrase": "Supremum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Supremum"
+    }
+  ],
+  "indexable": true
+}

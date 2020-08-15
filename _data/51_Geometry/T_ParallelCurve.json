@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "offset curve"
+  ],
+  "definition": "Given two curves, one is a *parallel curve* (also known as an *offset\ncurve*) of the other if the points on the first curve are equidistant to\nthe corresponding points in the direction of the second curve\u2019s normal.\nAlternatively, a parallel of a curve can be defined as the envelope of\ncongruent circles whose centers lie on the curve.\n\n![image](parallel)\n\nFor a parametric curve in the plane defined by\n$\\vec{F}(u) := (x(u),\\,y(u))$, its parallel curve\n$\\vec{G}(u) := (X(u),\\,Y(u))$ with offset $t$ is defined by\n\n$$\\begin{aligned}\nX(u)\\,&=\\, x(u)\\!+\\!\\frac{t\\,y'(u)}{\\sqrt{x'(u)^2\\!+y'(u)^2}}\\\\\nY(u)\\,&=\\, y(u)\\!-\\!\\frac{t\\,x'(u)}{\\sqrt{x'(u)^2\\!+y'(u)^2}}\\end{aligned}$$\n\nExamples\n--------\n\nThe most elementary example of parallel curves is given by the family of\nconcentric circles\n\n$$\\begin{aligned}\nX(u) &=& t \\cos u\\\\\nY(u) &=& t \\sin u\\end{aligned}$$\n\n![image](parallelc)\n\nExcept for trivial cases such as circles and lines, parallel curves may\nbe quite different from the original curve as the offset gets larger. An\nexample of this is given by the catenary\n\n$$\\begin{aligned}\nx(u) &=& u\\\\\ny(u) &=& \\cosh{u}\\end{aligned}$$\n\nFrom the definition, the family of parallel curves is then\n\n$$\\begin{aligned}\nX &=& u+\\frac{t\\sinh{u}}{\\sqrt{1+\\sinh^2{u}}}\\,=\\, u+t\\tanh{u}\\\\\nY &=& \\cosh{u}-\\frac{t}{\\sqrt{1+\\sinh^2{u}}}\\,=\\, \\cosh{u}-\\frac{t}{\\cosh{u}}\\end{aligned}$$\n\nwhere $t=0$ correspond to the catenary.\n\n![image](catenary)\n\nEliminating the parameter $u$ from these equations; the latter gives\n$\\cosh{u} = \\frac{Y+\\sqrt{Y^2+4t}}{2}$, i.e.\n$u = \\operatorname{arcosh}\\frac{Y+\\sqrt{Y^2+4t}}{2}$. Thus we obtain the\nimplicit representation\n\n$$\\operatorname{arcosh}\\frac{Y\\!+\\!\\sqrt{Y^2\\!+\\!4t}}{2}+t\\,\\tanh\\!\\left(\\!\\operatorname{arcosh}\\frac{Y\\!+\\!\\sqrt{Y^2\\!+\\!4t}}{2}\\right)-X\\,=\\,0$$",
+  "language": "INFORMAL",
+  "phrase": "Parallel Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ParallelCurve"
+    }
+  ],
+  "indexable": true
+}

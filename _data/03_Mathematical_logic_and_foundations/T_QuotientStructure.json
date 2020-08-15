@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Sigma$ be a fixed signature, ${\\mathfrak{A}}$ a structure for\n$\\Sigma$, and $\\sim$ a congruence on ${\\mathfrak{A}}$. The *quotient\nstructure* of ${\\mathfrak{A}}$ by $\\sim$, denoted\n${\\mathfrak{A}}/\\!\\sim$, is defined as follows:\n\n1.  The universe of ${\\mathfrak{A}}/\\!\\sim$ is the set\n    ${\\{{[\\![a]\\!]} \\mid a \\in {\\mathfrak{A}}\\}}$.\n\n2.  For each constant symbol $c$ of $\\Sigma$,\n    $c^{{\\mathfrak{A}}/\\!\\sim} = {[\\![c^{\\mathfrak{A}}]\\!]}$.\n\n3.  For every natural number $n$ and every $n$-ary function symbol $F$\n    of $\\Sigma$,\n    $$F^{{\\mathfrak{A}}/\\!\\sim}({[\\![a_1]\\!]}, \\ldots {[\\![a_n]\\!]}) = {[\\![F^{\\mathfrak{A}}(a_1, \\ldots a_n)]\\!]}.$$\n\n4.  For every natural number $n$ and every $n$-ary relation symbol $R$\n    of $\\Sigma$,\n    $R^{{\\mathfrak{A}}/\\!\\sim}({[\\![a_1]\\!]}, \\ldots, {[\\![a_n]\\!]})$ if\n    and only if for some $a_i' \\sim a_i$ we have\n    $R^{\\mathfrak{A}}(a_1', \\ldots, a_n').$",
+  "language": "INFORMAL",
+  "phrase": "Quotient Structure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientStructure"
+    }
+  ],
+  "indexable": true
+}

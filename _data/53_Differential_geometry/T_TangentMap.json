@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "push forward map",
+    "pushforward",
+    "pushforward map"
+  ],
+  "definition": "Suppose $X$ and $Y$ are smooth manifolds with tangent bundles $TX$ and\n$TY$, and suppose $f:X\\to Y$ is a smooth mapping. Then the [**tangent\nmap**]{} of $f$ is the map $Df\\colon TX\\to TY$ defined as follows: If\n$v\\in T_x(X)$ for some $x\\in X$, then we can represent $v$ by some curve\n$c\\colon I \\to X$ with $c(0)=x$ and $I=(-1,1)$. Now $(Df)(v)$ is defined\nas the tangent vector in $T(Y)$ represented by the curve\n$f\\circ c\\colon I \\to Y$. Thus, since $(f\\circ c)(0)=f(x)$, it follows\nthat $(Df)(v)\\in T_{f(x)}(Y)$.\n\n### Properties {#properties .unnumbered}\n\nSuppose $X$ and $Y$ are a smooth manifolds.\n\n-   If $\\operatorname{id}_X$ is the identity mapping on $X$, then\n    $D\\mbox{id}_X$ is the identity mapping on $TX$.\n\n-   Suppose $X,Y,Z$ are smooth manifolds, and $f,g$ are mappings\n    $f\\colon X\\to Y$, $g\\colon Y\\to Z$. Then\n    $$D(f\\circ g) = (Df)\\circ (Dg).$$\n\n-   If $f\\colon X\\to Y$ is a diffeomorphism, then the inverse of $Df$ is\n    a diffeomorphism, and $$(Df)^{-1}=D(f^{-1}).$$\n\n### Notes {#notes .unnumbered}\n\nNote that if $f\\colon X\\to Y$ is a mapping as in the definition, then\nthe tangent map is a mapping $$Df\\colon  TX\\to TY,$$ whereas the of $f$\nis a mapping $$f^\\ast\\colon \\Omega^k(Y)\\to \\Omega^k(X).$$ For this\nreason, the tangent map is also sometimes called the pushforward map.\nThat is, a pullback takes objects from $Y$ to $X$, and a pushforward\ntakes objects from $X$ to $Y$.\n\nSometimes, the tangent map of $f$ is also denoted by $f_\\ast$. However,\nthe motivation for denoting the tangent map by $Df$ is that if $X$ and\n$Y$ are open subsets in ${\\mathbb{R}}^n$ and ${\\mathbb{R}}^m$, then $Df$\nis simply the Jacobian of $f$.",
+  "language": "INFORMAL",
+  "phrase": "Tangent Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TangentMap"
+    }
+  ],
+  "indexable": true
+}

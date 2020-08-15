@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\X$ be a property of groups, assumed to be an isomorphic invariant\n(that is, if a group $G$ has property $\\X$, then every group isomorphic\nto $G$ also has property $\\X$). We shall sometimes refer to groups with\nproperty $\\X$ as $\\X$-groups.\n\nA group $G$ is said to be *residually $\\X$* if for every\n$x\\in G\\backslash\\{1\\}$ there is a normal subgroup $N$ of $G$ such that\n$x\\notin N$ and $G/N$ has property $\\X$. Equivalently, $G$ is residually\n$\\X$ if and only if $$\\bigcap_{N\\normal_\\X G}\\!\\!N=\\{1\\},$$ where\n$N\\normal_\\X G$ means that $N$ is normal in $G$ and $G/N$ has property\n$\\X$.\n\nIt can be shown that a group is residually $\\X$ if and only if it is\nisomorphic to a subdirect product of $\\X$-groups. If $\\X$ is a\nhereditary property (that is, every of an $\\X$-group is an $\\X$-group),\nthen a group is residually $\\X$ if and only if it can be embedded in an\nunrestricted direct product of $\\X$-groups.\n\nIt can be shown that a group $G$ is residually solvable if and only if\nthe intersection of the derived series of $G$ is trivial (see\ntransfinite derived series). Similarly, a group $G$ is residually\nnilpotent if and only if the intersection of the lower central series of\n$G$ is trivial.",
+  "language": "INFORMAL",
+  "phrase": "Residually $\\Mathfrak{X}$",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ResiduallymathfrakX"
+    }
+  ],
+  "indexable": true
+}

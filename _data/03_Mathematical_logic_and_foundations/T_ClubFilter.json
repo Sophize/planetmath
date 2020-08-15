@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $\\kappa$ is a regular uncountable cardinal then\n$\\operatorname{club}(\\kappa)$, the filter of all sets containing a club\nsubset of $\\kappa$, is a $\\kappa$-complete filter closed under diagonal\nintersection called the *club filter*.\n\nTo see that this is a filter, note that\n$\\kappa\\in\\operatorname{club}(\\kappa)$ since it is obviously both closed\nand unbounded. If $x\\in\\operatorname{club}(\\kappa)$ then any subset of\n$\\kappa$ containing $x$ is also in $\\operatorname{club}(\\kappa)$, since\n$x$, and therefore anything containing it, contains a club set.\n\nIt is a $\\kappa$ complete filter because the intersection of fewer than\n$\\kappa$ club sets is a club set. To see this, suppose\n$\\langle C_i\\rangle_{i<\\alpha}$ is a sequence of club sets where\n$\\alpha<\\kappa$. Obviously $C=\\bigcap C_i$ is closed, since any sequence\nwhich appears in $C$ appears in every $C_i$, and therefore its limit is\nalso in every $C_i$. To show that it is unbounded, take some\n$\\beta<\\kappa$. Let $\\langle \\beta_{1,i}\\rangle$ be an increasing\nsequence with $\\beta_{1,1}>\\beta$ and $\\beta_{1,i}\\in C_i$ for every\n$i<\\alpha$. Such a sequence can be constructed, since every $C_i$ is\nunbounded. Since $\\alpha<\\kappa$ and $\\kappa$ is regular, the limit of\nthis sequence is less than $\\kappa$. We call it $\\beta_2$, and define a\nnew sequence $\\langle\\beta_{2,i}\\rangle$ similar to the previous\nsequence. We can repeat this process, getting a sequence of sequences\n$\\langle\\beta_{j,i}\\rangle$ where each element of a sequence is greater\nthan every member of the previous sequences. Then for each $i<\\alpha$,\n$\\langle\\beta_{j,i}\\rangle$ is an increasing sequence contained in\n$C_i$, and all these sequences have the same limit (the limit of\n$\\langle\\beta_{j,i}\\rangle$). This limit is then contained in every\n$C_i$, and therefore $C$, and is greater than $\\beta$.\n\nTo see that $\\operatorname{club}(\\kappa)$ is closed under diagonal\nintersection, let $\\langle C_i\\rangle$, $i<\\kappa$ be a sequence, and\nlet $C=\\Delta_{i<\\kappa} C_i$. Since the diagonal intersection contains\nthe intersection, obviously $C$ is unbounded. Then suppose\n$S\\subseteq C$ and $\\sup(S\\cap\\alpha)=\\alpha$. Then $S\\subseteq C_\\beta$\nfor every $\\beta\\geq\\alpha$, and since each $C_\\beta$ is closed,\n$\\alpha\\in C_\\beta$, so $\\alpha\\in C$.",
+  "language": "INFORMAL",
+  "phrase": "Club Filter",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClubFilter"
+    }
+  ],
+  "indexable": true
+}

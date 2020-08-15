@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $X,Y$ are topological space and let $Z\\subseteq  Y$ be equipped\nwith the subspace topology. If $$f\\colon X\\to Z$$ is continuous, then\n$$f\\colon X\\to Y$$ is continuous.\n\nLet $U\\subseteq Y$ be an open set. Then $$\\begin{aligned}\n  f^{-1}(U) &=& \\{ x\\in X : f(x) \\in U\\} \\\\\n            &=& \\{ x\\in X : f(x) \\in U\\cap Z\\} \\\\\n            &=& f^{-1}(U\\cap Z).\\end{aligned}$$ Since $U\\cap Z$ is open\nin $Z$, $f^{-1}(U)$ is open in $X$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuityIsPreservedWhenCodomainIsExtended"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "continuity is preserved when codomain is extended"
+  ]
+}

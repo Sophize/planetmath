@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $L$ be a lattice with the least element $0$. Then the following are\nequivalent:\n\n1.  Every pair of elements have a .\n\n2.  for any $a\\in L$, the lattice interval $[0,a]$ is a complemented\n    lattice.\n\nSuppose first that every pair of elements have a difference. Let\n$b\\in [0,a]$ and let $c$ be a difference between $a$ and $b$. So\n$0=b\\wedge c$ and $c\\vee b=b\\vee a=a$, since $b\\le a$. This shows that\n$c$ is a complement of $b$ in $[0,a]$.\n\nNext suppose that $[0,a]$ is complemented for every $a\\in L$. Let\n$x,y\\in L$ be any two elements in $L$. Let $a=x\\vee y$. Since $[0,a]$ is\ncomplemented, $y$ has a complement, say $z\\in [0,a]$. This means that\n$y\\wedge z=0$ and $y\\vee z=a= x\\vee y$. Therefore, $z$ is a difference\nof $x$ and $y$.\n\n**Definition**. A lattice $L$ with the least element $0$ satisfying\neither of the two equivalent conditions above is called a *sectionally\ncomplemented lattice*.\n\nEvery relatively complemented lattice is sectionally complemented. Every\nsectionally complemented distributive lattice is relatively\ncomplemented.\n\nDually, one defines a *dually sectionally complemented lattice* to be a\nlattice $L$ with the top element $1$ such that for every $a\\in L$, the\ninterval $[a,1]$ is complemented, or, equivalently, the lattice dual\n$L^{\\partial}$ is sectionally complemented.\n\n[6]{} G. Gr\u00e4tzer, [*General Lattice Theory*]{}, 2nd Edition, Birkh\u00e4user\n(1998)",
+  "language": "INFORMAL",
+  "phrase": "Sectionally Complemented Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SectionallyComplementedLattice"
+    }
+  ],
+  "indexable": true
+}

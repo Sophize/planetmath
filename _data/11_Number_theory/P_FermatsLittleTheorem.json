@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $a, p \\in \\mathbb{Z}$ with $p$ a prime and $p \\nmid a$, then\n$$a^{p-1} \\equiv 1 \\pmod{p}.$$ If we take away the condition that\n$p\\nmid a$, then we have the congruence relation\n$$a^p\\equiv a \\pmod{p}$$ instead.\n\n**Remarks**.\n\n-   Although Fermat first noticed this property, he never actually\n    proved it. There are several different ways to directly prove this\n    theorem, but it is really just a corollary of the Euler theorem.\n\n-   More generally, this is a statement about finite fields: if $K$ is a\n    finite field of order $q$, then $a^{q-1}=1$ for all $0\\ne a\\in K$.\n    More succinctly, the group of units in a finite field is cyclic. If\n    $q$ is prime, then we have Fermat\u2019s little theorem.\n\n-   While it is true that $p$ prime implies the congruence relation\n    above, the converse is false (as hypothesized by ancient Chinese\n    mathematicians). A well-known example of this is provided by setting\n    $a=2$ and $p=341=11\\times 31$. It is easy to verify that\n    $2^{341}\\equiv 2 \\pmod{341}$. A positive integer $p$ satisfying\n    $a^{p-1}\\equiv 1 \\pmod{p}$ is known as a pseudoprime of base $a$.\n    Fermat little theorem says that every prime is a pseudoprime of any\n    base not divisible by the prime.\n\n[7]{} H. Stark, [*An Introduction to Number Theory*]{}. The MIT Press\n(1978)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FermatsLittleTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Fermat's little theorem",
+    "Fermat's theorem"
+  ]
+}

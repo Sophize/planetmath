@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Specker group"
+  ],
+  "definition": "Let $A$ be a non-empty set, and $G$ an abelian group. The set $K$ of all\nfunctions from $A$ to $G$ is an abelian group, with addition defined\nelementwise by $(f+g)(x)=f(x)+g(x)$. The zero element is the function\nthat sends all elements of $A$ into $0$ of $G$, and the negative of an\nelement $f$ is a function defined by $(-f)(x)=-(f(x))$.\n\nWhen $A=\\mathbb{N}$, the set of natural numbers, and $G=\\mathbb{Z}$, $K$\nas defined above is called the *Baer-Specker group*. Any element of $K$,\nbeing a function from $\\mathbb{N}$ to $\\mathbb{Z}$, can be expressed as\nan infinite sequence $(\nx_1,x_2,\\ldots,x_n,\\ldots)$, and the elementwise addition on $K$ can be\nrealized as componentwise addition on the sequences: $$(\nx_1,x_2,\\ldots,x_n,\\ldots)+( y_1,y_2,\\ldots,y_n,\\ldots)=\n(x_1+y_1,x_2+y_2,\\ldots,x_n+y_n,\\ldots).$$ An alternative\ncharacterization of the Baer-Specker group $K$ is that it can be viewed\nas the countably infinite direct product of copies of $\\mathbb{Z}$:\n$$K=\\mathbb{Z}^{\\mathbb{N}}\\cong\\mathbb{Z}^{\\aleph_0}= \\prod_{\\aleph_0}\\mathbb{Z}.$$\n\nThe Baer-Specker group is an important example of a torsion-free abelian\ngroup whose rank is infinite. It is not a free abelian group, but any of\nits countable subgroup is free (abelian).\n\n[6]{} P. A. Griffith, [*Infinite Abelian Group Theory*]{}, The\nUniversity of Chicago Press (1970)",
+  "language": "INFORMAL",
+  "phrase": "Baer-Specker Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BaerSpeckerGroup"
+    }
+  ],
+  "indexable": true
+}

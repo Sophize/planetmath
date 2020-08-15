@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Gamma$ denote the gamma function, $\\zeta$ the Riemann zeta\nfunction and $s$ any complex number. Then\n\n$$\\begin{aligned}\n\\pi^\\frac{s-1}{2}\\Gamma\\left(\\frac{1-s}{2}\\right)\\zeta(1-s)=\\pi^{\\frac{-s}{2}}\\Gamma\\left(\\frac{s}{2}\\right)\\zeta(s).\\end{aligned}$$\n\nThough the equation appears too intricate to be of any use, the inherent\nin the formula makes this the simplest method of evaluating $\\zeta(s)$\nat points to the left of the critical strip.",
+  "language": "INFORMAL",
+  "phrase": "Functional Equation Of The Riemann Zeta Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FunctionalEquationOfTheRiemannZetaFunction"
+    }
+  ],
+  "indexable": true
+}

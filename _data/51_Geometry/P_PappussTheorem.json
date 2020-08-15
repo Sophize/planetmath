@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A,B,C$ be points on a line (not necessarily in that order) and let\n$D,E,F$ points on another line (not necessarily in that order). Then the\nintersection points of $AD$ with $FC$, $DB$ with $CE$, and $BF$ with\n$EA$, are collinear.\n\nThis is a special case of Pascal\u2019s mystic hexagram.\n\n![image](pappus)\n\n**Remark**. Pappus\u2019s theorem is a statement about the incidence relation\nbetween points and lines in any geometric structure with points, lines,\nand an incidence relation between the points and the lines. Generally\nspeaking, an incidence geometry is *Pappian* or satisfies the *Pappian\nproperty* if the statement of Pappus\u2019s theorem is true. In both\nEuclidean and affine geometry, Pappus theorem is true. In plane\nprojective geometry, both Pappian and non-Pappian planes exist.\nFurthermore, it can be shown that every Pappian plane is Desarguesian,\nand the converse is true if the plane is finite (the result of\nWedderburn\u2019s theorem).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PappussTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Pappus's theorem",
+    "Pappus Theorem"
+  ]
+}

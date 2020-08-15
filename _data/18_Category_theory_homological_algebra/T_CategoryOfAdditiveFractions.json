@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ be a preadditive category and also let $\\Sigma$ be a\nclass of morphisms of $\\mathcal{C}$. Then consider a covariant functor\n$T: \\mathcal{C} \\to \\mathcal{C}_{\\Sigma}$ from a preadditive category to\nan Abelian category denoted as $\\mathcal{C}_{\\Sigma}$, such that for any\n$s \\in \\Sigma$, $T(s)$ is an isomorphism in $\\mathcal{C}_{\\Sigma}$.\nMoreover, let us assume that if $T': \\mathcal{C} \\to \\mathcal{C}'$ is a\ncovariant functor, such that for any morphism $s \\in \\Sigma$, $T'(s)$ is\nalso an isomorphism; then, there exists a unique (covariant) functor\n$T'_* : \\mathcal{C}_{\\Sigma} \\to \\mathcal{C}'$ such that\n$$T'_* \\cdot T = T'$$ (i.e., the composition \u2018$\\cdot$\u2019 of $T'_*$ with\n$T$ yields $T'$).\n\nA *category of additive fractions* is defined by a couple\n$(T,\\mathcal{C}_{\\Sigma})$ that satisfies all of the above conditions,\nwith $T$ being an . (ref. [@280]).\n\nThe above definition of a category of additive fractions is readily\ngeneralized to that of a *category of fractions* by relaxing the\ncondition of additivity for the functor $T$: if $T$ is simply a\ncovariant functor (without being additive) in the above definition one\nobtains a category of fractions instead. Note, however, that in general\nthe categories of additive fractions are essentially different from the\nmore general categories of fractions, as for example in the particular\ncase of rings of fractions. One also notes that the ring of fractions of\na ring relative to a suitable system of elements was perhaps the first\nreported example of a category of additive fractions. The concepts\nintroduced above are fundamental in the theory of additive fractions.\n\n[9]{} Pages 150 to 180 in Ref. \\[279\\] of the .",
+  "language": "INFORMAL",
+  "phrase": "Category Of Additive Fractions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CategoryOfAdditiveFractions"
+    }
+  ],
+  "indexable": true
+}

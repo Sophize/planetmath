@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "K\\\"ahler differentials"
+  ],
+  "definition": "Let $R$ be a commutative ring, and let $A$ be a commutative $R$-algebra.\nA *universal derivation* of $A$ over $R$ is defined to be an $A$-module\n$\\Omega_{A/R}$ together with an $R$-linear derivation\n$d\\colon                              \nA\\to\\Omega_{A/R}$, such that the following universal property holds: for\nevery $A$-module $M$ and every $R$-linear derivation\n$\\delta\\colon A\\to M$ there exists a unique $A$-linear map\n$f\\colon\\Omega_{A/R}\\to M$ such that $\\delta=f\\circ d$.\n\nThe universal property can be illustrated by a commutative diagram:\n$$\\xymatrix{\nA \\ar[r]^{d\\ \\ } \\ar[dr]_\\delta & \\Omega_{A/R} \\ar@![d]^f \\cr\n& M\n}$$ An $A$-module with this property can be constructed explicitly, so\n$\\Omega_{A/R}$ always exists. It is generated as an $A$-module by the\nset $\\{dx:x\\in A\\}$, with the relations $$\\begin{aligned}\nd(ax+by)&=&a\\,dx+b\\,dy \\\\\nd(xy)&=&x\\cdot dy+y\\,dx\\end{aligned}$$ for all $a,b\\in R$ and\n$x,y\\in A$.\n\nThe universal property implies that $\\Omega_{A/R}$ is unique up to a\nunique isomorphism. The $A$-module $\\Omega_{A/R}$ is often called the\n*module of K\u00e4hler differentials*.",
+  "language": "INFORMAL",
+  "phrase": "Universal Derivation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniversalDerivation"
+    }
+  ],
+  "indexable": true
+}

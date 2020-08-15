@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "power basis",
+    "power bases"
+  ],
+  "definition": "Let $K$ be a number field with $[K\\!:\\!\\mathbb{Q}]=n$ and\n$\\mathcal{O}_K$ denote the ring of integers of $K$. Then $\\mathcal{O}_K$\nhas a [*power basis over*]{} $\\mathbb{Z}$ (sometimes shortened simply to\n[*power basis*]{}) if there exists $\\alpha \\in K$ such that the set\n$\\{ 1, \\alpha, \\ldots, \\alpha^{n-1}\\}$ is an integral basis for\n$\\mathcal{O}_K$. An condition is that\n$\\mathcal{O}_K=\\mathbb{Z}[\\alpha]$. Note that if such an $\\alpha$\nexists, then $\\alpha \\in \\mathcal{O}_K$ and $K=\\mathbb{Q}(\\alpha)$.\n\nNot all rings of integers have power bases. (See the entry biquadratic\nfield for more details.) On the other hand, any ring of integers of a\nquadratic field has a power basis over $\\mathbb{Z}$, as does any ring of\nintegers of a cyclotomic field. (See the entry examples of ring of\nintegers of a number field for more details.)",
+  "language": "INFORMAL",
+  "phrase": "Power Basis Over $\\Mathbb{Z}$",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PowerBasisOvermathbbZ"
+    }
+  ],
+  "indexable": true
+}

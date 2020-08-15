@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[ **-**]{} A subset $Y$ of a topological space $X$ is said to be\n[**locally closed**]{} if it is the intersection of an open and a closed\nsubset.\n\nThe following result provides some definitions:\n\n[ **-**]{} The following are equivalent:\n\n1.  $Y$ is locally closed in $X$.\n\n2.  Each point in $Y$ has an open neighborhood $U \\subseteq X$ such that\n    $U \\cap Y$ is closed in $U$ (with the subspace topology).\n\n3.  $Y$ is open in its closure $\\overline{Y}$ (with the subspace\n    topology).",
+  "language": "INFORMAL",
+  "phrase": "Locally Closed",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocallyClosed"
+    }
+  ],
+  "indexable": true
+}

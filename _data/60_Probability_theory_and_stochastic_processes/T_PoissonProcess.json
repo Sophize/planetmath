@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "homogeneous Poisson process"
+  ],
+  "definition": "A counting process $\\lbrace X(t)\\mid\nt\\in\\mathbb{R}^{+}\\cup\\lbrace0\\rbrace\\rbrace$ is called a *simple\nPoisson*, or simply a *Poisson process* with parameter $\\lambda$, also\nknown as the *intensity*, if\n\n1.  $X(0)=0$,\n\n2.  $\\lbrace X(t)\\rbrace$ has stationary independent increments,\n\n3.  $P(X(t)=1)=\\lambda t+o(t)$,\n\n4.  $P(X(t)>1)=o(t)$,\n\nwhere $o(t)$ is the O notation.\n\n**Remarks**.\n\n-   The intensity $\\lambda$ is assumed to be a constant in terms of $t$.\n\n-   Condition 3 above says that the *rate* in which the an event occurs\n    once in time interval $t$, as $t$ approaches 0, is $\\lambda$.\n    Condition 4 says that the event occurs more than once is very\n    unlikely (the rate approaches zero as the time interval shrinks to\n    zero).\n\n-   It can be shown that $X(t)$ has a Poisson distribution (hence the\n    name of the stochastic process) with parameter $\\lambda t$:\n    $$P(X(t)=n)=e^{-\\lambda t}\\frac{{(\\lambda t)}^n}{n!}.$$\n\n-   Therefore, $\\operatorname{E}[X(t)]=\\lambda t$.",
+  "language": "INFORMAL",
+  "phrase": "Poisson Process",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PoissonProcess"
+    }
+  ],
+  "indexable": true
+}

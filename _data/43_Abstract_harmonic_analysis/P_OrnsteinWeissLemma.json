@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a group. For a fixed $K \\subseteq G$, define the\n*$K$-boundary* of $U \\subseteq G$ as $$\\label{eq:bd}\n\\partial_K U = \\left\\{\ng \\in G \\mid Kg \\cap U, Kg \\cap (G \\setminus U) \\neq \\emptyset\n\\right\\} \\;.$$ Let $\\mathcal{PF}(G)$ be the set of finite subsets of\n$G$. Call a *F[\u00f8]{}lner net* for $G$ a net\n$\\mathcal{X} = \\{X_i\\}_{i \\in \\mathcal{I}} \\subseteq \\mathcal{PF}(G),$\n$\\mathcal{I}$ being a directed set, such that for every *finite*\n$K \\subseteq G$, $$\\label{eq:fo}\n\\lim_{i \\in \\mathcal{I}} \\frac{|\\partial_{K} X_i|}{|X_i|} = 0 \\;,$$\nwhere the limit is taken in the sense of directed sets. Recall that $G$\nhas a F[\u00f8]{}lner net if and only if $G$ is amenable.\n\nLet $G$ be an amenable group and $F : \\mathcal{PF}(G) \\to \\Rset$ a\nsubadditive, right-invariant function, that is:\n\n1.  \\[it:sa\\] For any two finite subsets $U,V$ of $G$, $$\\label{eq:sa}\n    F(U \\cup V) \\leq F(U) + F(V) \\;.$$\n\n2.  \\[it:ri\\] For any $g \\in G$ and finite $U \\subseteq G$,\n    $$\\label{eq:ri}\n    F(Ug) = F(U) \\;.$$\n\nThen for any F[\u00f8]{}lner net\n$\\mathcal{X} = \\left\\{ X_i \\right\\}_{i \\in \\mathcal{I}}$ on $G$, the\nlimit $$\\label{eq:ow}\nL = \\lim_{i \\in \\mathcal{I}} \\frac{F(X_i)}{|X_i|}$$ exists, and does not\ndepend on the choice of $\\mathcal{X}$.\n\nThe Ornstein-Weiss lemma allows to prove variants of Birkhoff\u2019s ergodic\ntheorem for actions of amenable groups, rather than only those generated\nby an invertible, measure invariant map. Moreover, it shares several\nsimilarities with Fekete\u2019s lemma on subadditive functions over the\npositive integers, although it is not a complete counterpart. In fact,\nputting $X_n = \\{1,\\ldots,n\\}$ determines a F[\u00f8]{}lner sequence on\n${\\ensuremath{\\mathbb{Z}}}$; however, if\n$f : {\\ensuremath{\\mathbb{N}}}\\to [0,\\infty)$ is subadditive, then\n$F(U) = f(|U|)$ is right-invariant, but not necessarily subadditive.\n(Counterexample: $f(n) = n \\,\\mathrm{mod}\\, 2$, $U = \\{1,2\\}$,\n$V = \\{2,3\\}$.)\n\n[99]{}\n\nGromov, M. (1999) Topological invariants of dynamical systems and spaces\nof holomorphic maps, I. *Math. Phys. Anal. Geom.* **2**, 323\u2013415.\n\nKrieger, F. (2007) Le lemme d\u2019Ornstein-Weiss d\u2019apr\u00e8s Gromov. In B.\nHasselblatt (ed.), *Dynamics, Ergodic Theory, and Geometry*. Cambridge\nUniversity Press.\n\nKrieger, F. The Ornstein-Weiss lemma for discrete amenable groups.\nPreprint.\n\nOrnstein, D.S. and Weiss, B. (1987) Entropy and isomorphism theorems for\nactions of amenable groups. *J. Anal. Math.* **48**, 1\u2013141.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrnsteinWeissLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Ornstein-Weiss lemma"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "solenoidal"
+  ],
+  "definition": "A solenoidal vector field is one that satisfies\n$${\\nabla}\\cdot{\\mathbf{B}}= 0$$ at every point where the vector field\n${\\mathbf{B}}$ is defined. Here ${\\nabla}\\cdot{\\mathbf{B}}$ is the\ndivergence.\n\nThis condition actually implies that there exists a vector\n${\\mathbf{A}}$, such that $${\\mathbf{B}}= {\\nabla}\\times{\\mathbf{A}}.$$\n\nFor a function $f$ satisfying Laplace\u2019s equation $${\\nabla}^2f = 0,$$ it\nfollows that ${\\nabla}f$ is solenoidal.",
+  "language": "INFORMAL",
+  "phrase": "Solenoidal Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SolenoidalField"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The incomplete gamma function satisfies the following recurrence\nformula:\n\n$$\\gamma (a+1,x) = a \\gamma (a,x) - x^a e^{-x}$$\n\nThis can be derived by integration by parts:\n\n$$\\begin{aligned}\n\\int_0^x e^{-t} t^a \\, dt &=&\n- \\int_0^x t^a \\, d e^{-t} \\\\\n&=& a \\int_0^x t^{a-1} \\, d e^{-t} - x^a e^{-x}\\end{aligned}$$\n\nIn terms of other variants of the incomplete gamma function, the\nrecursion relation appears as follows:\n\n$$\\begin{aligned}\nP (a+1,x) &=& P (a,x) - {x^a e^{-x} \\over \\Gamma (a+1)} \\\\\n\\gamma^* (a-1,x) &=& x \\gamma^* (a,x) + {e^{-x} \\over \\Gamma(a)} \\\\\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IncompleteGammaFunctionRecurrenceFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "incomplete gamma function recurrence formula"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definition {#definition .unnumbered}\n==========\n\nA *metacyclic group* is a group $G$ that possesses a normal subgroup $N$\nsuch that $N$ and $G/N$ are both cyclic.\n\nExamples {#examples .unnumbered}\n========\n\n-   All cyclic groups, and direct products of two cyclic groups.\n\n-   All dihedral groups (including the infinite dihedral group).\n\n-   All finite groups whose Sylow subgroups are cyclic (and so, in\n    particular, all finite groups of order).\n\nProperties {#properties .unnumbered}\n==========\n\nand of metacyclic groups are also metacyclic.\n\nMetacyclic groups are obviously supersolvable, with Hirsch length at\nmost $2$.",
+  "language": "INFORMAL",
+  "phrase": "Metacyclic Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MetacyclicGroup"
+    }
+  ],
+  "indexable": true
+}

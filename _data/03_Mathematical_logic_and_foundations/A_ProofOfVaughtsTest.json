@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $\\varphi$ be an $L$-sentence, and let $\\mathcal{A}$ be the unique\nmodel of S of cardinality $\\kappa$. Suppose $\\mathcal{A}\\vDash\\varphi$.\nThen if $\\mathcal{B}$ is any model of $S$ then by the and downward\nLowenheim-Skolem theorems, there is a model $\\mathcal{C}$ of $S$ which\nis elementarily equivalent to $\\mathcal{B}$ such that\n$|\\mathcal{C}|=\\kappa$. Then $\\mathcal{C}$ is isomorphic to\n$\\mathcal{A}$, and so $\\mathcal{C}\\vDash\\varphi$, and\n$\\mathcal{B}\\vDash\\varphi$. So $\\mathcal{B}\\vDash\\varphi$ for all models\n$\\mathcal{B}$ of $S$, so $S\\vDash\\varphi$.\n\nSimilarly, if $\\mathcal{A}\\vDash\\lnot\\varphi$ then\n$S\\vDash\\lnot\\varphi$. So $S$ is .$\\square$",
+  "conclusion": "#P_VaughtsTest",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfVaughtsTest"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Vaught's test"
+  ]
+}

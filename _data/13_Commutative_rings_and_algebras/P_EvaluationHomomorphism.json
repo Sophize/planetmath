@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a commutative ring and let $R[X]$ be the ring of polynomials\nwith coefficients in $R$.\n\nLet $S$ be a commutative ring, and let $\\psi\\colon R\\to S$ be a\nhomomorphism. Further, let $s\\in S$. Then there is a unique homomorphism\n$\\phi\\colon R[X]\\to S$ taking $X$ to $s$ and taking every $r\\in R$ to\n$\\psi(r)$.\n\nThis amounts to saying that polynomial rings are free objects in the\ncategory of $R$-algebras; the theorem then states that they are\nprojective. This is true in much greater generality; in fact, the\nproperty of being projective is intended to extract the essential\nproperty of being free.\n\nWe first prove existence. Let $f\\in R[X]$. Then by definition there is\nsome finite list of $a_i$ such that $f = \\sum_i a_i X^i$. Then define\n$\\phi(f)$ to be $\\sum_i \\psi(a_i) s^i$. It is clear from the definition\nof addition and multiplication on polynomials that $\\phi$ is a\nhomomorphism; the definition makes it clear that $\\phi(X)=s$ and\n$\\phi(r)=\\psi(r)$.\n\nNow, to show uniqueness, suppose $\\gamma$ is any homomorphism satisfying\nthe conditions of the theorem, and let $f\\in R[X]$. Write\n$f = \\sum_i a_i X^i$ as before. Then $\\gamma(a_i) = \\psi(a_i)$ and\n$\\gamma(s)$ by assumption. But then since $\\gamma$ is a homomorphism,\n$\\gamma(a_iX^i) = \\psi(a_i)s^i$ and\n$\\gamma(f) = \\sum_i \\psi(a_i) s^i = \\phi(f)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EvaluationHomomorphism"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "evaluation homomorphism",
+    "substitution homomorphism"
+  ]
+}

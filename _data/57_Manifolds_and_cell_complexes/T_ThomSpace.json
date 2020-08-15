@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\xi\\to X$ be a vector bundle over a topological space $X$. Assume\nthat $\\xi$ has a Riemannian metric. We can form its associated disk\nbundle $D(\\xi)$ and its associated sphere bundle $S(\\xi)$, by letting\n$$D(\\xi) = \\{v\\in\\xi: \\|v\\|\\le 1\\}, \\quad S(\\xi) = \\{v\\in\\xi: \\|v\\|= 1\\}.$$\n\nThe *Thom space* of $\\xi$ is defined to be the quotient space\n$D(\\xi)/S(\\xi)$, obtained by taking the disk bundle and collapsing the\nsphere bundle to a point. Notice that this makes the Thom space\nnaturally into a based topological space.\n\nTwo common forms of notation for the Thom space are\n${\\operatorname{Th}}(\\xi)$ and $X^\\xi$.\n\nIf $\\xi= X{\\times}{{\\mathbb R}}^d$ is a trivial vector bundle, then its\nThom space is homeomorphic to $\\Sigma^d X_+$, where $X_+$ stands for $X$\nwith an added disjoint basepoint, and $\\Sigma^d$ stands for the based\nsuspension iterated $d$ times. Thus, we may think of $X^\\xi$ as a\n\u201ctwisted suspension\u201d of $X_+$.\n\nIf $X$ is compact, then $X^\\xi$ is homeomorphic as a based space to the\none-point compactification of $\\xi$. Even if $X$ is not compact, $X^\\xi$\ncan be obtained by doing a one-point compactification on each fiber and\nthen collapsing the resulting section of points at infinity to a point.\n\nThe choice of Riemannian metric on $\\xi$ does not change the\nhomeomorphism type of $X^\\xi$, and, by the previous remark, the Thom\nspace can be described without reference to associated disk and sphere\nbundles.",
+  "language": "INFORMAL",
+  "phrase": "Thom Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThomSpace"
+    }
+  ],
+  "indexable": true
+}

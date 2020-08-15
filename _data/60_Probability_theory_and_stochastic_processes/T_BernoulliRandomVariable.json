@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Bernoulli distribution"
+  ],
+  "definition": "$X$ is a **Bernoulli random variable** with parameter **$p$** if\\\n\n$f_X(x) = p^x (1-p)^{1-x}$, $x=\\{0,1\\}$\\\n\nParameters:\\\n\n[$\\star$ ]{}\n\n$p \\in [0,1]$\n\nSyntax:\\\n\n$X\\sim Bernoulli(p)$\\\n\nNotes:\\\n\n1.  $X$ represents the number of successful results in a Bernoulli\n    trial. A Bernoulli trial is an experiment in which only two outcomes\n    are possible: success, with probability $p$, and failure, with\n    probability $1-p$.\n\n2.  $E[X] = p$\n\n3.  $Var[X] = p(1-p)$\n\n4.  $M_X(t) = p e^t + (1-p)$",
+  "language": "INFORMAL",
+  "phrase": "Bernoulli Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BernoulliRandomVariable"
+    }
+  ],
+  "indexable": true
+}

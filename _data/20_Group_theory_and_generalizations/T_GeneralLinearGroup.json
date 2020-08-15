@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a vector space $V$, the [*general linear group*]{}\n${{\\operatorname{GL}}}(V)$ is defined to be the group of invertible\nlinear transformations from $V$ to $V$. The group operation is defined\nby composition: given $T: V \\longrightarrow V$ and\n$T': V \\longrightarrow V$ in ${{\\operatorname{GL}}}(V)$, the product\n$TT'$ is just the composition of the maps $T$ and $T'$.\n\nIf $V = \\mathbb{F}^n$ for some field $\\mathbb{F}$, then the group\n${{\\operatorname{GL}}}(V)$ is often denoted\n${{\\operatorname{GL}}}(n,\\mathbb{F})$ or\n${{\\operatorname{GL}}}_n(\\mathbb{F})$. In this case, if one identifies\neach linear transformation $T: V \\longrightarrow V$ with its matrix with\nrespect to the standard basis, the group\n${{\\operatorname{GL}}}(n,\\mathbb{F})$ becomes the group of invertible\n$n \\times n$ matrices with entries in $\\mathbb{F}$, under the group\noperation of matrix multiplication.\n\nOne also discusses the general linear group on a module $M$ over some\nring $R$. There it is the set of automorphisms of $M$ as an $R$-module.\nFor example, one might take\n${{\\operatorname{GL}}}(\\mathbb{Z}\\oplus\\mathbb{Z})$; this is isomorphic\nto the group of two-by-two matrices with integer entries having\ndeterminant $\\pm 1$. If $M$ is a general $R$-module, there need not be a\nnatural interpretation of ${{\\operatorname{GL}}}(M)$ as a matrix group.\n\nThe general linear group is an example of a group scheme; viewing it in\nthis way ties together the properties of ${{\\operatorname{GL}}}(V)$ for\ndifferent vector spaces $V$ and different fields $F$. The general linear\ngroup is an algebraic group, and it is a Lie group if $V$ is a real or\ncomplex vector space.\n\nWhen $V$ is a finite-dimensional Banach space,\n${{\\operatorname{GL}}}(V)$ has a natural topology coming from the\noperator norm; this is isomorphic to the topology coming from its\nembedding into the ring of matrices. When $V$ is an infinite-dimensional\nvector space, some elements of ${{\\operatorname{GL}}}(V)$ may not be\ncontinuous and one generally looks instead at the set of bounded\noperators.",
+  "language": "INFORMAL",
+  "phrase": "General Linear Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralLinearGroup"
+    }
+  ],
+  "indexable": true
+}

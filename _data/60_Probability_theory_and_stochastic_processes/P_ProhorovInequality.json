@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Theorem (Prohorov inequality, 1959):\n\nLet $\\{X_{i}\\}_{i=1}^{n}$ be a collection of independent random\nvariables satisfying the conditions:\n\na\\) $E[X_{i}^{2}]<\\infty $ $\\forall i$, so that one can write\n$\\sum_{i=1}^{n}E[X_{i}^{2}]=v^{2}$\\\nb) $\\Pr\\left\\{\\left\\vert X_{i}\\right\\vert \\leq M\\right\\} =1$\n\u00a0$\\forall i$.\n\nThen, for any $\\varepsilon \\geq 0$, $$\\begin{aligned}\n\\Pr\\left\\{ \\sum_{i=1}^{n}\\left( X_{i}-E[X_{i}]\\right) >\\varepsilon \\right\\}\n&\\leq &\\exp \\left[ -\\frac{\\varepsilon }{2M}\\operatorname{arsinh}\\left( \\frac{\\varepsilon\nM}{2v^{2}}\\right) \\right] \\\\\n\\Pr\\left\\{ \\left\\vert \\sum_{i=1}^{n}\\left( X_{i}-E[X_{i}]\\right) \\right\\vert\n>\\varepsilon \\right\\} &\\leq &2\\exp \\left[ -\\frac{\\varepsilon }{2M}\\operatorname{arsinh}\\left( \\frac{\\varepsilon M}{2v^{2}}\\right) \\right]\\end{aligned}$$\n\n(See for the meaning of $\\operatorname{arsinh}(x)$)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProhorovInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Prohorov inequality",
+    "Prokhorov inequality"
+  ]
+}

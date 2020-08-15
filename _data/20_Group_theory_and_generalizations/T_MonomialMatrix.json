@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be a matrix with entries in a field $K$. If in every and every\nof $A$ there is exactly one nonzero entry, then $A$ is a *monomial\nmatrix*.\n\nObviously, a monomial matrix is a square matrix and there exists a\nrearrangement of and such that the result is a diagonal matrix.\n\nThe $n\\times n$ monomial matrices form a group under matrix\nmultiplication. This group contains the $n\\times n$ permutation matrices\nas a subgroup. A monomial matrix is invertible but, unlike a permutation\nmatrix, not necessarily . The only exception is when $K={\\mathbb}{F}_2$\n(the finite field with $2$ elements), where the $n\\times n$ monomial\nmatrices and the $n\\times n$ permutation matrices coincide.",
+  "language": "INFORMAL",
+  "phrase": "Monomial Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MonomialMatrix"
+    }
+  ],
+  "indexable": true
+}

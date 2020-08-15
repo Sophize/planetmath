@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "least squares problem",
+    "least-squares",
+    "least-squares problem"
+  ],
+  "definition": "The general problem to be solved by the least squares method is this:\ngiven some direct measurements $y$ of random variables, and knowing a\nset of equations $f$ which have to be satisfied by these measurements\n(possibly involving unknown parameters $x$), find the set of $x$ which\ncomes closest to satisfying\n\n$$f(x,y) = 0$$\n\nwhere \u201cclosest\u201d is defined by a $\\Delta y$ such that\n\n$$f(x,y+\\Delta y)=0 \\text{ and } \\Delta y^2 \\text{ is minimized }$$\n\nThe sum of squares of elements of a vector can be written in different\nways\n\n$$\\Delta y^2 = \\Delta y^T \\Delta y = ||\\Delta y||_2 = \\sum_i \\Delta y_i^2$$\n\nThe assumption has been made here that the elements of $y$ are\nstatistically uncorrelated and have equal variance. For this case, the\nabove solution results in the most efficent estimators for $x$,\n$\\Delta y$. If the $y$ are correlated, correlations and variances are\ndefined by a covariance matrix $C$, and the above minimum condition\nbecomes\n\n$$\\Delta y^T C^{-1} \\Delta y \\text{ is minimized }$$\n\nLeast squares solutions can be more or less simple, depending on the\nconstraint equations $f$. If there is exactly one equation for each\nmeasurement, and the functions $f$ are linear in the elements of $y$ and\n$x$, the solution is discussed under linear regression. For other linear\nmodels, see Linear Least Squares. Least squares methods applied to few\nparameters can lend themselves to very efficient algorithms (e.g. in\nreal-time processing), as they reduce to simple matrix operations.\n\nIf the constraint equations are non-linear, one typically solves by\nlinearization and in iterations, using approximate values of $x$,\n$\\Delta y$ in every step, and linearizing by forming the matrix of\nderivatives , $df/dx$ (the Jacobian matrix) and possibly also $df/dy$ at\nthe last point of approximation.\n\nNote that as the iterative improvements $\\delta x, \\delta y$ tend\ntowards zero (if the process converges), $\\Delta y$ converges towards a\nfinal value which enters the minimum equation above.\n\nAlgorithms avoiding the explicit calculation of $df/dx$ and $df/dy$ have\nalso been investigated, e.g. [@Ralston78b]; for a discussion, see\n[@Press95]. Where convergence (or control over convergence) is\nproblematic, use of a general package for minimization may be indicated.\n\n[9]{} M.L. Ralston and R.I. Jennrich, Dud, a Derivative-free Algorithm\nfor Non-linear Least Squares, Technometrics 20-1 (1978) 7. W.H. Press,\nS.A. Teukolsky, W.T. Vetterling, and B.P. Flannery, Numerical Recipes in\nC, Second edition, Cambridge University Press, 1995.\n\n[*Note: This entry is based on content from the* ]{}",
+  "language": "INFORMAL",
+  "phrase": "Least Squares",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeastSquares"
+    }
+  ],
+  "indexable": true
+}

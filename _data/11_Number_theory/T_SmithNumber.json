@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Smith number*]{} is a number which in a given base, the sum of its\ndigits is equal to the sum of the digits in its factorization. (In the\ncase of numbers that are not square-free, the factorization is written\nwithout exponents, writing the repeated factor as many times as needed).\nFor example, 202 is a Smith number, since 2 + 0 + 2 = 4, and its\nfactorization is $2 \\times 101$, and 2 + 1 + 0 + 1 = 4.\n\nPrime numbers are not considered, since it is obvious that all of them\nsatisfy the condition given above.\n\nIn base 10, the first few Smith numbers are\n\n4, 22, 27, 58, 85, 94, 121, 166, 202, 265, 274, 319, 346, 355, 378, 382,\n391, 438, 454, 483 (sequence A006753 in the OEIS).\n\nThere are infinitely many Smith numbers that are also palindromic\nnumbers.\n\nSmith numbers were named by Albert Wilansky of Lehigh University for his\nbrother-in-law Harold Smith whose phone number (493-7775) was the first\nnoticed Smith number.\n\nSmith numbers can be constructed from factored repunits. The largest\nknown Smith number is (as of 2005)\n$9 \\times R_{1031} \\times (10^{4594} + 3 \\times 10^{2297} + 1)^{1476} \\times 10^{3913210}$\nwhere $R_{1031} = 2^{1032} - 1$.",
+  "language": "INFORMAL",
+  "phrase": "Smith Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SmithNumber"
+    }
+  ],
+  "indexable": true
+}

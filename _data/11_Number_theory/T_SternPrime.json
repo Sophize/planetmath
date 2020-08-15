@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If for a given prime number $q$ there is no smaller prime $p$ and\nnonzero integer $b$ such that $q  = 2b^2 + p$, then $q$ is a *Stern\nprime*. These primes were first studied by Moritz Abraham Stern, in\nconnection to a lesser known conjecture of Goldbach\u2019s. Like other\nmathematicians of the time, Stern considered 1 to be a prime number.\nThus his list of Stern primes read thus: 2, 17, 137, 227, 977, 1187,\n1493. A century later the list has been amended to include 3 (as in\nA042978 of Sloane\u2019s OEIS) but no terms larger than 1493 have been found.\nThe larger of a twin prime is not a Stern prime.",
+  "language": "INFORMAL",
+  "phrase": "Stern Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SternPrime"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a positive integer $n$, an integer $0 < m < n$ is a [*totative*]{}\nof $n$ if $\\gcd(m, n) = 1$. Put another way, all the smaller integers\nthan $n$ that are coprime to $n$ are totatives of $n$.\n\nFor example, the totatives of 21 are 1, 2, 4, 5, 8, 10, 11, 13, 16, 17,\n19 and 20.\n\nThe count of totatives of $n$ is Euler\u2019s totient function $\\phi(n)$. The\nset of totatives of $n$ forms a reduced residue system modulo $n$. The\nword \u201ctotative\u201d was coined by James Joseph Sylvester, who also coined\n\u201ctotient\u201d (though despite occasional usage in some papers and books, the\nterm \u201ctotative\u201d has not caught on the way \u201ctotient\u201d has).",
+  "language": "INFORMAL",
+  "phrase": "Totative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Totative"
+    }
+  ],
+  "indexable": true
+}

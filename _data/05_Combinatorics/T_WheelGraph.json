@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "hub",
+    "spoke"
+  ],
+  "definition": "The *wheel graph* of $n$ vertices $W_n$ is a graph that contains a cycle\nof length $n-1$ plus a vertex $v$ (sometimes called the *hub*) not in\nthe cycle such that $v$ is connected to every other vertex. The edges\nconnecting $v$ to the rest of the graph are sometimes called *spokes*.\n\n$W_4$:\n\n$$\\xymatrix{\n  & A \\ar@{-}[d] \\ar@{-}[ddl] \\ar@{-}[ddr] & \\\\\n  & D & \\\\\nC \\ar@{-}[ur] \\ar@{-}[rr] &   & B \\ar@{-}[ul]\n}$$\n\n$W_6$: $$\\xymatrix{\n  &   & A \\ar@{-}[d] \\ar@{-}[drr] &   &   \\\\\nE\\ar@{-}[rr] \\ar@{-}[urr] &   & F &   & B \\ar@{-}[ll] \\ar@{-}[dl] \\\\\n  & D \\ar@{-}[ur] \\ar@{-}[ul] &   & C \\ar@{-}[ul] \\ar@{-}[ll]&   \\\\\n}$$",
+  "language": "INFORMAL",
+  "phrase": "Wheel Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WheelGraph"
+    }
+  ],
+  "indexable": true
+}

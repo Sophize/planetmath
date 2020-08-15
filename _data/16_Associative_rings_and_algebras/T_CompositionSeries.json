@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring and let $M$ be a (right or left) $R$-module. A series\nof submodules\n$$M = M_0 \\supset M_1 \\supset M_2 \\supset \\dots \\supset M_n = 0$$ in\nwhich each quotient $M_i/M_{i+1}$ is simple is called a composition\nseries for $M$.\n\nA module need not have a composition series. For example, the ring of\nintegers, $\\mathbb{Z}$, considered as a module over itself, does not\nhave a composition series.\n\nA necessary and sufficient condition for a module to have a composition\nseries is that it is both Noetherian and Artinian.\n\nIf a module does have a composition series, then all composition series\nare the same length. This length (the number $n$ above) is called the\n*composition length* of the module.\n\nIf $R$ is a semisimple Artinian ring, then $R_R$ and ${}_RR$ always have\ncomposition series.",
+  "language": "INFORMAL",
+  "phrase": "Composition Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompositionSeries"
+    }
+  ],
+  "indexable": true
+}

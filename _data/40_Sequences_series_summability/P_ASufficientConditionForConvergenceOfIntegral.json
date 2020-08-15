@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that the real function $f$ is positive and continuous on the\ninterval $[a,\\,\\infty)$. A sufficient condition for the of the improper\nintegral $$\\begin{aligned}\n\\int_a^\\infty\\!f(x)\\,dx\\end{aligned}$$ is that $$\\begin{aligned}\n\\lim_{x\\to\\infty}\\frac{f(x\\!+\\!1)}{f(x)} \\;=\\; q \\;<\\; 1.\\end{aligned}$$\n\n*Proof.* Assume that the condition (2) is in . For an , make the\nantithesis that the (1) .\n\nBecause of the positiveness, we have $\\int_a^\\infty\\!f(x)\\,dx = \\infty$.\nWe can use :\n$$\\lim_{c\\to\\infty}\\frac{\\int_a^c\\!f(x\\!+\\!1)\\,dx}{\\int_a^c\\!f(x)\\,dx} \\;=\\; \\lim_{c\\to\\infty}\\frac{f(c\\!+\\!1)}{f(c)}.$$\nUsing the $x\\!+\\!1 = t$ we get\n$$\\int_a^c\\!f(x\\!+\\!1)\\,dx \\;=\\; \\int_{a-1}^{c-1}f(t)\\,dt \n\\;=\\; \\int_{a-1}^a\\!f(t)\\,dt+\\int_a^c\\!f(t)\\,dt-\\int_{c-1}^c\\!f(t)\\,dt,$$\nand dividing this equation by $\\int_a^cf(t)\\,dt$ and taking yield ($f$\nis bounded!)\n$$1 \\;>\\; q \\;=\\; \\lim_{c\\to\\infty}\\frac{\\int_a^c\\!f(x\\!+\\!1)\\,dx}{\\int_a^c\\!f(x)\\,dx} \\;=\\; 0+1-0 \\;=\\; 1.$$\nThis contradictory result shows that the antithesis is wrong; thus (1)\nmust be .\\\n**Note.** The condition (2) is not necessary for the convergence of (1).\nThis is seen e.g. in the case of the converging of (2) equals 1.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ASufficientConditionForConvergenceOfIntegral"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a sufficient condition for convergence of integral"
+  ]
+}

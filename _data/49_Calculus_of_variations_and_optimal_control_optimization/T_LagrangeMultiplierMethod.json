@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The Lagrange multiplier method is used when one needs to find the\nextreme or stationary points of a function on a set which is a subset of\nthe domain.\n\n[**Method**]{}\n\nSuppose that $f(\\mathbf{x})$ and $g_{i}(\\mathbf{x}), i=1,...,m$\n($\\mathbf{x}\\in {\\mathbbmss{R}}^n$) are differentiable functions that\nmap ${\\mathbbmss{R}}^n \\mapsto {\\mathbbmss{R}}$, and we want to solve\n$$\\min f(\\mathbf{x}), \\max f(\\mathbf{x})\\quad\\mbox{such that}\\quad g_{i}(\\mathbf{x})=0,\\quad i=1,\\ldots,m$$\n\nBy a calculus theorem, if the constaints are independent, the gradient\nof $f$, $\\nabla f$, must satisfy the following equation at the\nstationary points:\n\n$$\\nabla f = \\sum_{i=1}^{m} \\lambda_{i} \\nabla g_{i}$$\n\nThe constraints are said to be independent iff all the gradients of each\nconstraint are linearly independent, that is:\n\n$\\left \\{\\nabla g_{1}(\\mathbf{x}), \\ldots, \\nabla g_{m}(\\mathbf{x})\\right \\}$\nis a set of linearly independent vectors on all points where the\nconstraints are verified.\n\nNote that this is equivalent to finding the stationary points of:\n\n$$f(\\mathbf{x})-\\sum_{i=1}^{m} \\lambda_{i}( g_{i}(\\mathbf{x}))$$\n\nfor $\\mathbf{x}$ in the domain and the *Lagrange multipliers*\n$\\lambda_{i}$ without restrictions.\n\nAfter finding those points, one applies the $g_i$ constraints to get the\nactual stationary points subject to the constraints.",
+  "language": "INFORMAL",
+  "phrase": "Lagrange Multiplier Method",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LagrangeMultiplierMethod"
+    }
+  ],
+  "indexable": true
+}

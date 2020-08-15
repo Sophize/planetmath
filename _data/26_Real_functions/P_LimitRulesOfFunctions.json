@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f$ and $g$ be two or complex functions. Suppose that there exist\nthe limits $\\lim_{x\\to x_0}f(x)$ and $\\lim_{x\\to x_0}g(x)$. Then there\nexist the limits $\\lim_{x\\to x_0}[f(x)\\!\\pm\\!g(x)]$,\n$\\lim_{x\\to x_0}f(x)g(x)$ and, if $\\lim_{x\\to x_0}g(x)\\neq 0$, also\n$\\lim_{x\\to x_0}f(x)/g(x)$, and\n\n1.  $\\lim_{x\\to x_0}[f(x)\\!\\pm\\!g(x)] \n    \\;=\\; \\lim_{x\\to x_0}f(x)\\pm\\lim_{x\\to x_0}g(x),$\n\n2.  $\\lim_{x\\to x_0}f(x)g(x) \\;=\\; \\lim_{x\\to x_0}f(x)\\cdot\\lim_{x\\to x_0}g(x),$\n\n3.  $\\lim_{x\\to x_0}\\frac{f(x)}{g(x)} \\;=\\; \n    \\frac{\\lim_{x\\to x_0}f(x)}{\\lim_{x\\to x_0}g(x)},$\n\n4.  $\\lim_{x\\to x_0}c \\;=\\; c\n    \\quad\\mathrm{where}\\,\\,c\\,\\,\\mathrm{is\\,\\,a\\,\\,constant}.$\n\nThese rules are used in limit calculations and in proving the\ncorresponding differentiation rules (sum rule, product rule etc.).\n\nIn 1, the domains of $f$ and $g$ could be any topological space (not\nnecessarily $\\mathbb{R}$ or $\\mathbb{C}$).\\\nThere are limit rules of .\\\nAs well, one often needs the\n\nIf there exists the limit $\\lim_{x\\to x_0}f(x) = a$ and if $g$ is\ncontinuous at the point $x = a$, then there exists the limit\n$\\lim_{x\\to x_0}g(f(x))$, and\n$$\\lim_{x\\to x_0}g(f(x)) \\;=\\; g(\\lim_{x\\to x_0}f(x)).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitRulesOfFunctions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "limit rules of functions",
+    "limit rules of sequences"
+  ]
+}

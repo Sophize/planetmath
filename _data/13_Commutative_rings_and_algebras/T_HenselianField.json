@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${|\\!\\cdot\\!|}$ be a non-archimedean valuation on a field $K$. Let\n$V=\\{x:|x|\\le 1\\}$. Since ${|\\!\\cdot\\!|}$ is ultrametric, $V$ is closed\nunder addition and in fact an additive group. The other valuation axioms\nensure that $V$ is a ring. We call $V$ the *valuation ring* of $K$ with\nrespect to the valuation ${|\\!\\cdot\\!|}$. Note that the field of\nfractions of $V$ is $K$.\n\nThe set $\\mu=\\{x:|x|<1\\}$ is a maximal ideal of $V$. The factor\n$R:=V/\\mu$ is called the *residue field* or the *residue class field*.\n\nThe map $\\operatorname{res}:V \\to V/\\mu$ given by $x \\mapsto x+\\mu$ is\ncalled the *residue map*. We extend the definition of the residue map to\nsequences of elements from $V$, and hence to $V[X]$ so that if $f(X)\n\\in V[X]$ is given by $\\sum_{i \\leq n} a_{i}X^{i}$ then\n$\\operatorname{res}(f) \\in\nR[X]$ is given by $\\sum_{i \\leq n} \\operatorname{res}(a{i})X^{i}$.\n\n[**Hensel property:**]{} Let $f(x) \\in V[x]$. Suppose\n$\\operatorname{res}(f)(x)$ has a simple root $e \\in k$. Then $f(x)$ has\na root $e{^{\\prime}}\\in V$ and $\\operatorname{res}(e{^{\\prime}})=e$.\n\nAny valued field satisfying the Hensel property is called *henselian*.\nThe completion of a non-archimedean valued field $K$ with respect to the\nvaluation (cf. constructing the reals from the rationals as the\ncompletion with respect to the standard metric) is a henselian field.\n\nEvery non-archimedean valued field $K$ has a unique (up to isomorphism)\nsmallest henselian field $K^h$ containing it. We call $K^h$ the\n*henselisation* of $K$.",
+  "language": "INFORMAL",
+  "phrase": "Henselian Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HenselianField"
+    }
+  ],
+  "indexable": true
+}

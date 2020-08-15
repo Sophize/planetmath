@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "$\\pi$ and $\\pi^2$ are irrational.\n\nFor any strictly positive integer $n$ ,$x\\in (0,1)$ we define:\n$$f=f(x)=\\frac{x^n(1-x)^n}{n!}=\\frac{1}{n!}\\sum_{m=n}^{2n}c_mx^m$$ where\n$c_m$ are integers. For $0<x<1$ we have\n\n$$\\label{firseq}\n0<f(x)<\\frac{1}{n!}$$\n\nFor a contradiction, suppose $\\pi^2$ is rational, so that\n$\\pi^2=\\frac{a}{b}$, where $a,b$ are positive integers.\n\nFor $x\\in (0,1)$ let us define\n$$G(x)=b^n[\\pi^{2n}f(x)-\\pi^{2n-2}f''(x)+\\pi^{2n-4}f^{(4)}(x)-...+(-1)^nf^{(2n)}(x)].$$\nWe have that $f(0)=0$ and $f^{(m)}(0)=0$ if $m<n$ or $m>2n$. But, if\n$n \\leq m \\leq 2n$, then $$f^{(m)}(0)=\\frac{m!}{n!}c_m,$$ an integer.\nHence $f(x)$ and all its derivates take integral values at $x=0$.Since\n$f(1-x)=f(x)$, the same is true at $x=1$\n\nso that $G(0)$ and $G(1)$ are integers. We have\n\n$$\\begin{aligned}\n\\frac{d}{dx}[G'(x)\\sin{\\pi x}-\\pi G(x)\\cos{\\pi x}]\n&=& [G''(x)+\\pi^2G(x)]\\sin{\\pi x} \\\\\n&=& b^n\\pi^{2n+2}f(x)\\sin{\\pi x} \\\\\n&=& \\pi^2a^n \\sin{\\pi x}f(x).\\end{aligned}$$\n\nHence\n$$\\pi\\int_0^1a^n \\sin{\\pi x}f(x)dx=[\\frac{G'(x)\\sin{\\pi x}}{\\pi}-G(x)\\cos{\\pi x}]_0^1$$\n$$=G(0)+G(1),$$ witch is an integer. But by equation \\[firseq\\],\n$$0<\\pi\\int_0^1a^n \\sin{\\pi x}f(x)dx<\\frac{\\pi a^n}{n!}<1.$$ For a large\nenough $n$, we obtain a contradiction.\n\nFor any integer $n$, if $a^n$ is irrational then a is irrational , and\nsince $\\pi^2$ is irrational $\\sqrt{\\pi^2}=\\pi$ is also irrational.\n\nThe irrationality of $\\pi$ was Proved by Lambert in 1761. The above\nproof is not the original proof due to Lambert.\n\n[99]{} a G.H.Hardy and E.M.Wright *An Introduction to the Theory of\nNumbers*, Oxford University Press, 1959\n\nSee also {#see-also .unnumbered}\n--------\n\n-   The MacTutor History of Mathematics Archive,\n\n-   The MacTutor History of Mathematics Archive,\n\n-",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/piAndpi2AreIrrational"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$\\pi$ and $\\pi^2$ are irrational"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a commutative ring. A *derivation* $d$ on an $R$-algebra $A$\ninto an $A$-module $M$ is an $R$-linear transformation\n${\\mathrm{d}}\\colon A \\to M$ satisfying the properties\n\n-   ${\\mathrm{d}}(a{\\mathbf{x}}+b{\\mathbf{y}}) = a\\,{\\mathrm{d}}{\\mathbf{x}}+ b\\,{\\mathrm{d}}{\\mathbf{y}}$\n\n-   ${\\mathrm{d}}({\\mathbf{x}}\\cdot {\\mathbf{y}}) = {\\mathbf{x}}\\cdot {\\mathrm{d}}{\\mathbf{y}}+ {\\mathrm{d}}{\\mathbf{x}}\\cdot {\\mathbf{y}}$\n\nfor all $a,b \\in R$ and ${\\mathbf{x}},{\\mathbf{y}}\\in A$.",
+  "language": "INFORMAL",
+  "phrase": "Derivation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Derivation"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "stronger"
+  ],
+  "definition": "The set of topologies which can be defined on a set is partially ordered\nunder inclusion. Below, we list several synonymous terms which are used\nto refer to this order. Let $\\mathcal{U}$ and $\\mathcal{V}$ be two\ntopologies defined on a set $E$. All of the following expressions mean\nthat $\\mathcal{U} \\subset \\mathcal{V}$:\n\n-   $\\mathcal{U}$ is **weaker** than $\\mathcal{V}$\n\n-   $\\mathcal{U}$ is **coarser** than $\\mathcal{V}$\n\n-   $\\mathcal{V}$ is **finer** than $\\mathcal{U}$\n\n-   $\\mathcal{V}$ is a **refinement** of $\\mathcal{U}$\n\n-   $\\mathcal{V}$ is an **expansion** of $\\mathcal{U}$\n\nIt is worth noting that this condition is equivalent to the requirement\nthat the identity map from $(E, \\mathcal{V})$ to $(E, \\mathcal{U})$ is\ncontinuous.",
+  "language": "INFORMAL",
+  "phrase": "Coarser",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Coarser"
+    }
+  ],
+  "indexable": true
+}

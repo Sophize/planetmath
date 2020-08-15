@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "univalent function",
+    "univalent"
+  ],
+  "definition": "An analytic function on an open set is called [*univalent*]{} if it is\none-to-one.\n\nFor example mappings of the unit disc to itself\n$\\phi_a : {\\mathbb{D}} \\rightarrow {\\mathbb{D}}$, where\n$\\phi_a(z) = \\frac{z-a}{1 - \\bar{a}z}$, for any $a \\in {\\mathbb{D}}$ are\nunivalent. The following summarizes some basic of univalent functions.\n\nSuppose that $G,\\Omega \\subset {\\mathbb{C}}$ are regions and\n$f \\colon G \\to \\Omega$ is a univalent mapping such that $f(G) = \\Omega$\n(it is onto), then\n\n-   $f^{-1} \\colon \\Omega \\to G$ (where $f^{-1}(f(z)) = z$) is an\n    analytic function and $(f^{-1})'(f(z)) = \\frac{1}{f'(z)}$,\n\n-   $f'(z) \\not= 0$ for all $z \\in G$\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1978.\nJohn\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1995.",
+  "language": "INFORMAL",
+  "phrase": "Univalent Analytic Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnivalentAnalyticFunction"
+    }
+  ],
+  "indexable": true
+}

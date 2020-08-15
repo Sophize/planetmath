@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\{a_{mn}\\}$ be a double sequence of complex numbers and let $B$ be\na positive real number such that:\n\n1.  $\\sum_{n=0}^\\infty |a_{mn}| \\le B$ for all $m = 0, 1, 2, \\ldots$\n\n2.  $\\lim_{m \\to \\infty} \\sum_{n=0}^\\infty a_{mn} = 1$\n\n3.  For every $n = 0,1,2,\\ldots$, it is the case that\n    $\\lim_{m \\to \\infty} a_{mn} = 0$\n\nThen, if the sequence $\\{z_n\\}$ converges, the series\n$\\sum_{n=0}^ \\infty a_{mn} z_n$ converges and\n$$\\lim_{n \\to \\infty} z_n = \\lim_{m \\to \\infty} \\sum_{n=0}^ \\infty a_{mn} z_n$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SilvermanToeplitzTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Silverman-Toeplitz theorem"
+  ]
+}

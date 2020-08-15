@@ -1,0 +1,19 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $V$ be a vector space where an inner product $\\langle,\\rangle$ has\nbeen defined. Such spaces can be given also a norm by defining\n$$\\Vert x\\Vert = \\sqrt{\\langle x,x\\rangle}.$$\n\nThen in such a space the Cauchy-Schwarz inequality holds:\n$$\\vert \\langle v,w\\rangle\\vert\\le \\Vert v\\Vert\\Vert w\\Vert$$ for any\n$v,w\\in V$. That is, the modulus (since it might as well be a complex\nnumber) of the inner product for two given vectors is less or equal than\nthe product of their norms. Equality happens if and only if the two\nvectors are linearly dependent.\n\nA very special case is when $V={\\mathbbmss{R}}^n$ and the inner product\nis the dot product defined as $\\langle v,w\\rangle  = v^t w$ and usually\ndenoted as $v\\cdot w$ and the resulting norm is the Euclidean norm.\n\nIf $\\mathbf{x}=(x_1,x_2,\\ldots,x_n)$ and\n$\\mathbf{y}=(y_1,y_2,\\ldots,y_n)$ the Cauchy-Schwarz inequality becomes\n$$\\vert \\mathbf{x}\\cdot \\mathbf{y}\\vert=\\vert x_1y_1+x_2y_2+\\cdots+x_ny_n\\vert \\le\n\\sqrt{x_1^2+x_2^2+\\cdots+x_n^2}\\sqrt{y_1^2+y_2^2+\\cdots+y_n^2}=\\Vert \\mathbf{x}\\Vert\\Vert \\mathbf{y} \\Vert,$$\nwhich implies\n$$(x_1y_1+x_2y_2+\\cdots+x_ny_n)\\sp2 \\le\\left(x_1^2+x_2^2+\\cdots+x_n^2\\right)\\left( y_1^2+y_2^2+\\cdots+y_n^2\\right)$$\nNotice that in this case inequality holds even if the modulus on the\nmiddle term (which is a real number) is not used.\n\nCauchy-Schwarz inequality is also a special case of H\u00f6lder inequality.\nThe inequality arises in lot of fields, so it is known under several\nother names as Bunyakovsky inequality or Kantorovich inequality. Another\nform that arises often is Cauchy-Schwartz inequality but this is a\nmisspelling since the inequality is named after (1843\u20131921).\n\nThis inequality is similar to the triangle inequality, talking about\nproducts instead of sums: $$\\begin{aligned}\n\\Vert\\mathbf{x}+\\mathbf{y}\\Vert\\leq\\Vert \\mathbf{x}\\Vert+\\Vert \\mathbf{y}\\Vert & \\qquad\\text{triangle inequality}\\\\\n\\vert\\mathbf{x}\\cdot\\mathbf{y}\\vert\\leq\\Vert \\mathbf{x}\\Vert\\cdot\\Vert \\mathbf{y}\\Vert &\\qquad \\text{CS inequality}\\\\\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchySchwarzInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cauchy-Schwarz inequality",
+    "Kantorovich inequality",
+    "Bunyakovsky inequality",
+    "Schwarz inequality",
+    "Cauchy inequality",
+    "CBS inequality"
+  ]
+}

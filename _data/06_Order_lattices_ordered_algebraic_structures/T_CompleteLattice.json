@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Complete lattices {#complete-lattices .unnumbered}\n=================\n\nA *complete lattice* is a poset $P$ such that every subset of $P$ has\nboth a supremum and an infimum in $P$.\n\nFor a complete lattice $L$, the supremum of $L$ is denoted by $1$, and\nthe infimum of $L$ is denoted by $0$. Thus $L$ is a bounded lattice,\nwith $1$ as its greatest element and $0$ as its least element. Moreover,\n$1$ is the infimum of the empty set, and $0$ is the supremum of the\nempty set.\n\nGeneralizations {#generalizations .unnumbered}\n===============\n\nA *countably complete lattice* is a poset $P$ such that every countable\nsubset of $P$ has both a supremum and an infimum in $P$.\n\nLet $\\kappa$ be an infinite cardinal. A $\\kappa$-complete lattice is a\nlattice $L$ such that for every subset $A\\subseteq L$ with\n$|A|\\le \\kappa$, both $\\bigvee A$ and $\\bigwedge A$ exist. (Note that an\n$\\aleph_0$-complete lattice is the same as a countably complete\nlattice.)\n\nEvery complete lattice is a for every infinite cardinal $\\kappa$, and in\nparticular is a countably complete lattice. Every countably complete\nlattice is a bounded lattice.",
+  "language": "INFORMAL",
+  "phrase": "Complete Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompleteLattice"
+    }
+  ],
+  "indexable": true
+}

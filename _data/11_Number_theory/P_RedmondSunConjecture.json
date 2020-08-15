@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Conjecture. (Stephen Redmond & Zhi-Wei Sun) Given positive integers $x$\nand $y$, and exponents $a$ and $b$ (with all these numbers being greater\nthan 1), if $x^a \\neq y^b$, then between $x^a$ and $y^b$ there are\nalways primes, with only the following ten exceptions:\n\n1.  There are no primes between $2^3$ and $3^2$.\n\n2.  There are no primes between $5^2$ and $3^3$.\n\n3.  There are no primes between $2^5$ and $6^2$.\n\n4.  There are no primes between $11^2$ and $5^3$.\n\n5.  There are no primes between $3^7$ and $13^3$.\n\n6.  There are no primes between $5^5$ and $56^2$.\n\n7.  There are no primes between $181^2$ and $2^{15}$.\n\n8.  There are no primes between $43^3$ and $282^2$.\n\n9.  There are no primes between $46^3$ and $312^2$.\n\n10. There are no primes between $22434^2$ and $55^5$.\n\nSee A116086 in Sloane\u2019s OEIS for a listing of the perfect powers\nbeginning primeless ranges before the next perfect power. As of 2007, no\nfurther counterexamples have been found past $55^5$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RedmondSunConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Redmond-Sun conjecture"
+  ]
+}

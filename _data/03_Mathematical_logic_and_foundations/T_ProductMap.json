@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Notation:**]{} If $\\{X_i\\}_{i \\in I}$ is a collection of sets\n(indexed by $I$) then $\\displaystyle \\prod_{i \\in I} X_i$ denotes the\ngeneralized Cartesian product of $\\{X_i\\}_{\\i \\in I}$.\n\nLet $\\{A_i\\}_{i\\in I}$ and $\\{B_i\\}_{i\\in I}$ be collections of sets\nindexed by the same set $I$ and $f_i:A_i\\longrightarrow B_i$ a\ncollection of functions.\n\nThe [**product map**]{} is the function $$\\begin{aligned}\n\\prod_{i \\in I} f_i : \\prod_{i \\in I} A_i \\longrightarrow \\prod_{i \\in I} B_i\\\\\n\\Big( \\prod_{i \\in I} f_i \\Big) (a_i)_{i \\in I} := (f_i(a_i))_{i \\in I}\\end{aligned}$$\n\nProperties:\n-----------\n\n-   If $f_i:A_i\\longrightarrow B_i$ and $g_i:B_i\\longrightarrow C_i$ are\n    collections of functions then\n    $$\\prod_{i \\in I} g_i \\circ \\prod_{i \\in I} f_i = \\prod_{i \\in I} g_i \\circ f_i$$\n\n-   $\\displaystyle \\prod_{i \\in I} f_i$ is injective if and only if each\n    $f_i$ is injective.\n\n-   $\\displaystyle \\prod_{i \\in I} f_i$ is surjective if and only if\n    each $f_i$ is surjective.\n\n-   Suppose $\\{A_i\\}_{i \\in I}$ and $\\{B_i\\}_{i \\in I}$ are topological\n    spaces. Then $\\displaystyle \\prod_{i \\in I} f_i$ is (in the product\n    topology) if and only if each $f_i$ is continuous.\n\n-   Suppose $\\{A_i\\}_{i \\in I}$ and $\\{B_i\\}_{i \\in I}$ are groups, or\n    rings or algebras. Then $\\displaystyle \\prod_{i \\in I} f_i$ is a\n    group (ring or ) homomorphism if and only if each $f_i$ is a group\n    (ring or ) homomorphism.",
+  "language": "INFORMAL",
+  "phrase": "Product Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProductMap"
+    }
+  ],
+  "indexable": true
+}

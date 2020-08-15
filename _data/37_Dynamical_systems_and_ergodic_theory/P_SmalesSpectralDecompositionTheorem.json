@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $M$ be a compact differentiable manifold and let $f\\colon M\\to M$ be\nan Axiom A diffeomorphism. The nonwandering set $\\Omega$ of $f$ can be\npartitioned into a finite number of compact topologically transitive\nblocks, called basic blocks: $$\\Omega=\\bigcup_{i=1}^m \\Lambda_i.$$\nMoreover, each basic block is partitioned into a finite number of\ncompact subblocks $\\Lambda_{ij}$, $j=1,\\dots, m_i$ such that\n$f(\\Lambda_{ij})=\\Lambda_{i(j+1)}$ for $1\\leq j<m_i$ and\n$f(\\Lambda_{im_i})=\\Lambda_{i1}$, and $\\Lambda_{ij}$ is topologically\nmixing for $f^{m_i}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SmalesSpectralDecompositionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Smale's spectral decomposition theorem",
+    "spectral decomposition theorem"
+  ]
+}

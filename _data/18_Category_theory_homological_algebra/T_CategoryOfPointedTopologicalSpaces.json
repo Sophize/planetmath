@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *pointed topological space*, written as $(X,x_0)$, consists of a\nnon-empty topological space $X$ together with an element $x_0\\in X$. The\nterminology *based topological space* is also used often.\n\nIf $(X,x_0)$ is a pointed space, we call $X$ its *underlying*\ntopological space and $x_0$ its *basepoint*.\n\nA *morphism* from $(X,x_0)$ to $(Y,y_0)$ is a continuous map\n$f\\co X\\to Y$ satisfying $f(x_0)=y_0$. With these morphisms, the pointed\ntopological spaces form a category.\n\nTwo pointed topological spaces $(X,x_0)$ and $(Y,y_0)$ are isomorphic in\nthis category if there exists a homeomorphism $f\\co X\\to Y$ with\n$f(x_0)=y_0$.\n\nEvery singleton (a pointed topological space of the form $(\\{x_0\\},\nx_0)$) is a zero object in this category.\n\nFor every pointed topological space $(X,x_0)$, we can construct the\nfundamental group $\\pi(X,x_0)$ and for every morphism\n$f\\co (X,x_0)\\to(Y,y_0)$ we obtain a group homomorphism\n$\\pi(f)\\co\\pi(X,x_0)\\to \\pi(Y,y_0)$. This yields a functor from the\ncategory of pointed topological spaces to the category of groups.\n\nOther interesting functors defined on the category of pointed spaces\ninclude the higher homotopy groups $\\pi_i(X,x_0)$ for $i=2,3,\\ldots$\nthat map into the category of abelian groups and the (based) *loop\nspace* $\\Omega(X,x_0)$ that maps into the category of topological\nspaces.",
+  "language": "INFORMAL",
+  "phrase": "Category Of Pointed Topological Spaces",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CategoryOfPointedTopologicalSpaces"
+    }
+  ],
+  "indexable": true
+}

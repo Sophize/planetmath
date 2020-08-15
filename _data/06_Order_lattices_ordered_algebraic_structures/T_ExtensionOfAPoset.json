@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "linear extension"
+  ],
+  "definition": "Let $(P,\\le_P)$ be a poset. An *extension* of $(P,\\le_P)$ is a poset\n$(Q,\\le_Q)$ such that\n\n-   $Q=P$, and\n\n-   if $a\\le_P b$, then $a\\le_Q b$.\n\nFrom the definition, the underlying set of an extension of a poset does\nnot change. We may therefore, when there is no ambiguity, say that $Q$\nis an extension of a poset $P$ and use $\\le_Q$ and $\\le_P$ to\ndistinguish the partial ordering on $Q$ and $P$ respectively.\n\nEvery poset has a trivial extension, namely itself. A poset is *maximal*\nif the only extension is the trivial one. Given a poset that is not\nmaximal, can we find a non-trivial extension? Suppose $P$ is a poset and\n$(a,b)\\notin \\le_P$ ($a,b$ not comparable). Then $\\le_Q:=\\le_P\\cup A$,\nwhere $A=\\lbrace (r,s)\\mid r\\le a\\mbox{ and }b\\le s\\rbrace$, is a\nnon-trivial partial order extending $\\le_P$, non-trivial since\n$(a,b)\\in \\le_Q-\\le_P$. So a maximal poset is just a linearly ordered\nset, as any pair of elements is comparable.\n\nAn extension $Q$ of $P$ is said to be *linear* if $Q$ is a linearly\nordered set. By Zorn\u2019s lemma, and the construction above, every poset\n$P$ has a linear extension: take $\\mathcal{P}$ to be the poset of all\nextension of $P$ (ordered by inclusion), given a chain $\\mathcal{C}$ of\nelements in $\\mathcal{P}$, the union $\\bigcup \\mathcal{C}$ is an element\nof $\\mathcal{P}$, so that $\\mathcal{P}$ has a maximal element, which can\neasily be seen to be linear. Thus we have just proved what is known as\nthe *order extension principle*:\n\nEvery partial ordering on a set can be extended to a linear ordering.\n\nAnd since every set is trivially a poset, where $a\\le b$ iff $a=b$, we\nrecord the following corollary, known as the *ordering principle*:\n\nEvery set can be linearly ordered.\n\nIn fact, every poset is the intersection of all of its linear extensions\n$$P=\\bigcap \\lbrace L \\mid L \\mbox{ is a linear extension of } P\\rbrace,$$\nfor if $(a,b)$ is not in the intersection, a linear extension $M$ of $P$\ncan be constructed via above containing $(a,b)$, which is a\ncontradiction. A set $\\mathcal{S}$ of linear extensions of a poset $P$\nis said to be a *realizer* of $P$ if\n$\\displaystyle{\\bigcap \\mathcal{S}=P}$. Every poset has a realizer.\n\n**Remark**. Instead of the stronger axiom of choice, the order extension\nprinciple can be proved using the weaker Boolean prime ideal theorem.\nFurthermore, the ordering principle implies the axiom of choice for\nfinite sets.\n\n[8]{} W. T. Trotter, [*Combinatorics and Partially Ordered Sets*]{},\nJohns-Hopkins University Press, Baltimore (1992). T. J. Jech, *The Axiom\nof Choice*, North-Holland Pub. Co., Amsterdam, (1973).",
+  "language": "INFORMAL",
+  "phrase": "Extension Of A Poset",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtensionOfAPoset"
+    }
+  ],
+  "indexable": true
+}

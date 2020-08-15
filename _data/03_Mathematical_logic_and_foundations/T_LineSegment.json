@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose $V$ is a vector space over ${\\mathbb{R}}$ or\n${\\mathbb{C}}$, and $L$ is a subset of $V$. Then $L$ is a *line segment*\nif $L$ can be parametrized as $$L = \\{ a+tb \\mid t\\in[0,1]\\}$$ for some\n$a,b$ in $V$ with $b\\neq 0$.\n\nSometimes one needs to distinguish between open and line segments. Then\none defines a *closed line segment* as above, and an *open line segment*\nas a subset $L$ that can be parametrized as\n$$L = \\{ a+tb \\mid t\\in(0,1)\\}$$ for some $a,b$ in $V$ with $b\\neq 0$.\n\nIf $x$ and $y$ are two vectors in $V$ and $x \\ne y$, then we denote by\n$[x,y]$ the set connecting $x$ and $y$. This is ,\n$\\{\\alpha x + (1-\\alpha )y\\ | 0 \\le \\alpha \\le 1\\}$. One can easily\ncheck that $[x,y]$ is a closed line segment.\n\n### Remarks {#remarks .unnumbered}\n\n-   An alternative, equivalent, definition is as follows: A (closed)\n    line segment is a convex hull of two distinct points.\n\n-   A line segment is connected, non-empty set.\n\n-   If $V$ is a topological vector space, then a closed line segment is\n    a closed set in $V$. However, an open line segment is an open set in\n    $V$ if and only if $V$ is one-dimensional.\n\n-   More generally than above, the concept of a line segment can be\n    defined in an ordered geometry.",
+  "language": "INFORMAL",
+  "phrase": "Line Segment",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LineSegment"
+    }
+  ],
+  "indexable": true
+}

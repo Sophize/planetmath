@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a manifold and $I=[0,1]$ the closed unit interval. A smooth\nmap $h\\colon M\\times I\\rightarrow M$ is called a *diffeotopy* (on $M$)\nif for every $t\\in I$: $$h_t:=h(-,t)\\colon M\\rightarrow M$$ is a\ndiffeomorphism.\n\nTwo diffeomorphisms $f,g\\colon M\\to M$ are said to be *diffeotopic* if\nthere is a diffeotopy $h\\colon M\\times I\\to M$ such that\n\n1.  $h_0=f$, and\n\n2.  $h_1=g$.\n\n**Remark**. Diffeotopy is an equivalence relation among diffeomorphisms.\nIn particular, those diffeomorphisms that are diffeotopic to the\nidentity map form a group.\n\nTwo points $a,b\\in M$ are said to be *isotopic* if there is a diffeotopy\n$h$ on $M$ such that\n\n1.  $h_0=id_M$, the identity map on $M$, and\n\n2.  $h_1(a)=b$.\n\n**Remark**. If $M$ is a connected manifold, then every pair of points on\n$M$ are isotopic.\n\nPairs of isotopic points in a manifold can be generazlied to pairs of\nisotopic sets. Two arbitrary sets $A,B\\subseteq M$ are said to be\n*isotopic* if there is a diffeotopy $h$ on $M$ such that\n\n1.  $h_0=id_M$, and\n\n2.  $h_1(A)=B$.\n\n**Remark**. One special example of isotopic sets is the isotopy of\ncurves. In $\\mathbb{R}^3$, curves that are isotopic to the unit circle\nare the trivial knots.",
+  "language": "INFORMAL",
+  "phrase": "Diffeotopy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Diffeotopy"
+    }
+  ],
+  "indexable": true
+}

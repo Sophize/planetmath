@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The successive positive integers 8 and 9 are integer powers of positive\nintegers ($2^3$ and $3^2$), with exponents greater than 1. [*Catalan\u2019s\nconjecture*]{} (1844) said that there are no other such successive\npositive integers, i.e. that the only integer solution of the\nDiophantine equation $$x^m-y^n = 1$$ with $x > 1$, $y > 1$, $m > 1$,\n$n > 1$ is $$x = n = 3, \\quad y = m = 2.$$\n\nIt took more than 150 years before the conjecture was proven. Mihailescu\ngave in 2002 a proof in which he used the theory of cyclotomic fields\nand Galois modules.\n\nFor details, see e.g. .\n\nSee also a related problem concerning the equation .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CatalansConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Catalan's conjecture",
+    "Mihailescu's theorem"
+  ]
+}

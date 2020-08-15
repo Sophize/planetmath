@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "quasi-cyclic group",
+    "Pr\\\"ufer group"
+  ],
+  "definition": "Let $p$ be a prime number. The *$p$-quasicyclic group* (or *Pr\u00fcfer\n$p$-group*, or *$p^\\infty$ group*) is the $p$-primary component of\n$\\Q/\\Z$, that is, the unique maximal of $\\Q/\\Z$. Any isomorphic to this\nwill also be called a $p$-quasicyclic group.\n\nThe $p$-quasicyclic group will be denoted by $\\Z(p^\\infty)$. Other\nnotations in use include $\\Z[p^\\infty]$, $\\Z/p^\\infty\\Z$,\n$\\Z_{p^\\infty}$ and $C_{p^\\infty}$.\n\n$\\Z(p^\\infty)$ may also be defined in a number of other (equivalent)\nways (again, up to isomorphism):\n\n-   $\\Z(p^\\infty)$ is the group of all $p^n$-th complex roots of $1$,\n    for $n\\in\\N$.\n\n-   $\\Z(p^\\infty)$ is the injective hull of $\\Z/p\\Z$ (viewing abelian\n    groups as $\\Z$-).\n\n-   $\\Z(p^\\infty)$ is the direct limit of the groups $\\Z/p^n\\Z$.\n\nA *quasicyclic group* (or *Pr\u00fcfer group*) is a group that is\n$p$-quasicyclic for some prime $p$.\n\nThe structure of $\\Z(p^\\infty)$ is particularly simple: all proper\nsubgroups are finite and cyclic, and there is exactly one of order $p^n$\nfor each non-negative integer $n$. In particular, this means that the\nsubgroups are linearly ordered by inclusion, and all subgroups are fully\ninvariant. The quasicyclic groups are the only infinite groups with a\nlinearly ordered subgroup lattice. They are also the only infinite\nsolvable groups whose proper subgroups are all finite.\n\nQuasicyclic groups are locally cyclic, and co-Hopfian.\n\nEvery infinite locally cyclic $p$-group is isomorphic to $\\Z(p^\\infty)$.",
+  "language": "INFORMAL",
+  "phrase": "Quasicyclic Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuasicyclicGroup"
+    }
+  ],
+  "indexable": true
+}

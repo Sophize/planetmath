@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "nonuniform rational B-spline surface"
+  ],
+  "definition": "Introduction\n============\n\nA *NURBS surface*, which is an acronym for *Non-Uniform Rational\nB-Spline surface*, is a generalization of both and B-splines surfaces.\nNURBS are commonly used in computer graphics, computer-aided design\n(CAD), engineering (CAE), and manufacturing (CAM).\n\nDefinition\n==========\n\nA NURBS surface is parametric surface defined by its , an array of $n+1$\nrows and $m+1$ columns weighted control points and a knot vector in each\ndirection. It is defined as\n\n$$c(u,v) = \\frac { \\sum_{i=0}^{n}\\sum_{j=0}^{m} N_{i,p}(u)N_{j,q}(v) w_{i,j} P_{i,j}} { \\sum_{i=0}^{n}\\sum_{j=0}^{m} N_{i,p}(u)N_{j,q}(v) w_{i,j}} \\quad \\quad 0 \\leq u \\leq 1, \\quad 0 \\leq v \\leq 1$$\n\nwhere $u$ and $v$ are the parameters in each direction, $p$ is the in\nthe $u$-direction, $q$ is the in the $v$-direction, $N_{i,p}$ and\n$N_{j,q}$ are the B-spline basis functions, $P_{i,j}$ are the control\npoints and $w_{i,j}$ are the weights.",
+  "language": "INFORMAL",
+  "phrase": "Nurbs Surface",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NURBSSurface"
+    }
+  ],
+  "indexable": true
+}

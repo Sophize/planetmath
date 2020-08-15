@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be an associative algebra over a field $K$. For $a,b \\in A$, the\nelement of $A$ defined by $$[a,b]=ab-ba$$ is called the [*commutator*]{}\nof $a$ and $b$. The corresponding bilinear operation\n$$[-,-]: A\\times A\\rightarrow A$$ is called the commutator bracket.\n\nThe commutator bracket is bilinear, skew-symmetric, and also satisfies\nthe Jacobi identity. To wit, for $a,b,c\\in A$ we have\n$$[a,[b,c]] + [b,[c,a]] + [c,[a,b]] = 0.$$ The proof of this assertion\nis straightforward. Each of the brackets in the left-hand side expands\nto 4 terms, and then everything cancels.\n\nIn categorical terms, what we have here is a functor from the category\nof associative algebras to the category of Lie algebras over a fixed\nfield. The action of this functor is to turn an associative algebra $A$\ninto a Lie algebra that has the same underlying vector space as $A$, but\nwhose multiplication operation is given by the commutator bracket. It\nmust be noted that this functor is right-adjoint to the universal\nenveloping algebra functor.\n\n#### Examples\n\n-   Let $V$ be a vector space. Composition endows the vector space of\n    endomorphisms ${\\mathrm{End}}V$ with the structure of an associative\n    algebra. However, we could also regard ${\\mathrm{End}}V$ as a Lie\n    algebra relative to the commutator bracket:\n    $$[X,Y] = XY-YX,\\quad X,Y\\in {\\mathrm{End}}V.$$\n\n-   The algebra of differential operators has some interesting\n    properties when viewed as a Lie algebra. The fact is that even\n    though the composition of differential operators is a\n    non-commutative operation, it is commutative when restricted to the\n    highest order terms of the involved operators. Thus, if $X, Y$ are\n    differential operators of order $p$ and $q$, respectively, the\n    compositions $XY$ and $YX$ have order $p+q$. Their highest order\n    term coincides, and hence the commutator $[X,Y]$ has order $p+q-1$.\n\n-   In light of the preceding comments, it is evident that the vector\n    space of first-order differential operators is closed with respect\n    to the commutator bracket. Specializing even further we remark that,\n    a vector field is just a homogeneous first-order differential\n    operator, and that the commutator bracket for vector fields, when\n    viewed as first-order operators, coincides with the usual,\n    geometrically motivated vector field bracket.",
+  "language": "INFORMAL",
+  "phrase": "Commutator Bracket",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CommutatorBracket"
+    }
+  ],
+  "indexable": true
+}

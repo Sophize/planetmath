@@ -1,0 +1,23 @@
+{
+  "alternatePhrases": [
+    "labelled graph",
+    "graph labelling",
+    "labelling",
+    "vertex labelling",
+    "edge labelling",
+    "total labelling",
+    "labelled tree",
+    "labelled multigraph",
+    "labelled pseudograph"
+  ],
+  "definition": "Let $G=(V,E)$ be a graph with vertex set $V$ and edge set $E$. A\n*labeling* of $G$ is a partial function $\\ell: V\\cup E\\to L$ for some\nset $L$. For every $x$ in the domain of $\\ell$, the element\n$\\ell(x)\\in L$ is called the *label* of $x$. Three of the most common\ntypes of labelings of a graph $G$ are\n\n-   *total labeling*: $\\ell$ is a total function (defined for all of\n    $V\\cup E$),\n\n-   *vertex labeling*: the domain of $\\ell$ is $V$, and\n\n-   *edge labeling*: the domain of $\\ell$ is $E$.\n\nUsually, $L$ above is assumed to be a set of integers. A *labeled graph*\nis a pair $(G,\\ell)$ where $G$ is a graph and $\\ell$ is a labeling of\n$G$.\n\nAn example of a labeling of a graph is a coloring of a graph. Uses of\ngraph labeling outside of combinatorics can be found in areas such as\norder theory, language theory, and proof theory. A proof tree, for\ninstance, is really a *labeled tree*, where the labels of vertices are\nformulas, and the labels of edges are rules of inference.\n\n**Remarks**.\n\n-   Every labeling of a graph can be extended to a total labeling.\n\n-   The notion of labeling can be easily extended to digraphs,\n    multigraphs, and pseudographs.",
+  "language": "INFORMAL",
+  "phrase": "Labeled Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LabeledGraph"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An incidence geometry $A=(P,n,I)$ is a *linear ordered geometry* if\nthere is a strict betweenness relation $B$ defined on the points $P_0$\nof $A$, such that\n\n-   $(p,q,r)\\in B$ only if $p,q$, and $r$ are collinear (all incident\n    with a common line $\\ell\\in P_1$);\n\n-   for any pairwise distinct collinear points $p,q,r$, at least one of\n    $(p,q,r)$, $(q,r,p)$, or $(r,p,q)\\in B$,\n\nWe denote the linear ordered geometry by $(A,B)$.\\",
+  "language": "INFORMAL",
+  "phrase": "Linear Ordered Geometry",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearOrderedGeometry"
+    }
+  ],
+  "indexable": true
+}

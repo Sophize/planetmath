@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f$ be an analytic function defined in a disk of radius $R$ about a\npoint $z_0 \\in \\mathbb{C}$. Then the radius of convergence of the Taylor\nseries of $f$ about $z_0$ is at least $R$.\n\nFor example, the function $a(z) = 1 / (1 - z)^2$ is analytic inside the\ndisk $|z| < 1$. Hence its the radius of covergence of its Taylor series\nabout $0$ is at least $1$. By direct examination of the Taylor series we\ncan see that its radius of convergence is, in fact, equal to $1$.\n\nColloquially, this theorem is stated in the sometimes imprecise but\nmemorable form \u201cThe radius of convergence of the Taylor series is the\ndistance to the nearest singularity.\u201d",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RadiusOfConvergenceOfAComplexFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "radius of convergence of a complex function"
+  ]
+}

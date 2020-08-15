@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $k$ if a field of $p>0$ (so $p$ is prime) then for all $x,y\\in k$ we\nhave $$(x+y)^{p^i}=x^{p^i}+y^{p^i}.$$ Therefore $x\\mapsto x^{p^i}$ is a\nfield monomorphism (called a Frobenius monomorphism.)\n\nWhen $k$ is finite then it is indeed an automorphism. A field $k$ is\ncalled a perfect field when the map is surjective.\n\nThe theorem is so named because it is a common mistake for freshman math\nstudents to make over the real numbers. However, as the characteristic\nof the real numbers is 0, this does not apply in any interesting way to\nthat setting.\n\nIt should also be noted that the result applies only to powers of the\ncharacteristic, and not all exponents.\n\nThe proof is an application of the binomial theorem. We prove it for $p$\nfirst. $$(x+y)^{p}=\\sum_{i=0}^p \\binom{p}{i} x^{i} y^{p-i}.$$ Now\nobserve\n$$\\binom{p}{i}=\\frac{p!}{(p-i)!i!}=p\\!\\cdot\\!\\frac{(p-1)!}{(p-i)! i!}.$$\nAs $p$ is prime and $1\\leq i\\leq p-1$ it follows $i!$ and $(p-i)!$ do\nnot divide $p$. As the field $k$ has characteristic $p$,\n$\\frac{(p-1)!}{(p-i)!i!}$ is an integer $m$ where\n$$\\binom{p}{i}=pm\\equiv 0 .$$ Thus $(x+y)^p=x^p+y^p$.\n\nNow for $p^i$ simply use induction:\n$$(x+y)^{p^i}=((x+y)^p)^{p^{i-1}}=(x^p+y^p)^{p^{i-1}}\n=x^{p^i}+y^{p^i}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FreshmansDream"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "freshman's dream",
+    "Frobenius Automorphism"
+  ]
+}

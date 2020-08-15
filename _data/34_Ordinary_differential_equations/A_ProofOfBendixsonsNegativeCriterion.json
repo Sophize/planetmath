@@ -1,0 +1,17 @@
+{
+  "argumentText": "Suppose that there exists a periodic solution called $\\Gamma$ which has\na period of $T$ and lies in $E$. Let the interior of $\\Gamma$ be denoted\nby $D$. Then by Green\u2019s Theorem we can observe that $$\\begin{aligned}\n\\int\\!\\!\\!\\int_D \\nabla \\cdot \\textbf{f}\\: {\\mathrm{d}}x\\, {\\mathrm{d}}y & = & \\int\\!\\!\\!\\int_D \\frac{\\partial \\textbf{X}}{\\partial x}+\\frac{\\partial \\textbf{Y}}{\\partial y}\\: {\\mathrm{d}}x\\, {\\mathrm{d}}y\\\\\n& = & \\oint_{\\Gamma} (\\textbf{X} \\: {\\mathrm{d}}y - \\textbf{Y} \\: {\\mathrm{d}}x)\\\\\n& = & \\int_0^T (\\textbf{X}\\dot{y} - \\textbf{Y}\\dot{x})\\: {\\mathrm{d}}t\\\\\n& = & \\int_0^T (\\textbf{XY} - \\textbf{YX})\\: {\\mathrm{d}}t\\\\\n& = & 0\\end{aligned}$$ Since $\\nabla \\cdot \\textbf{f}$ is not\nidentically zero by hypothesis and is of one sign, the double integral\non the left must be non zero and of that sign. This leads to a\ncontradiction since the right hand side is equal to zero. Therefore\nthere does not exists a periodic solution in the simply connected region\n$E$.",
+  "conclusion": "#P_BendixsonsNegativeCriterion",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBendixsonsNegativeCriterion"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Bendixson's negative criterion"
+  ]
+}

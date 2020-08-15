@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given two integers, at least one different from zero, there exists a\nunique natural number satisfying the definition of the greatest common\ndivisor.\n\nLet $a,b\\in\\mathbb{Z}$, where at least one of $a,b$ is nonzero. First we\nshow existence. Define\n$S=\\{ma+nb:m,n\\in\\mathbb{Z}\\text{ and }ma+nb>0\\}$. Now clearly $S$ is a\nsubset of natural numbers, and $S$ is also nonempty, for depending upon\nthe signs of $a$ and $b$, we may take $m=n=\\pm 1$ to have $ma+nb\\in S$.\nSo, by the well-ordering principle for natural numbers, $S$ has a\nsmallest element which we denote $g$. Note that, by construction,\n$g=m_0a+n_0b$ for some $m_0,n_0\\in\\mathbb{Z}$. We will show that $g$ is\na greatest common divisor of $a$ and $b$. Suppose first that $g\\nmid a$.\nThen, by the division algorithm for integers, there exist unique\n$q,r\\in\\mathbb{Z}$, where $0\\leq r< g$, such that $a=qg+r$. By\nassumption, $g\\nmid a$, so we have\n$$0<r=a-qg=a-q(m_0a+n_0b)=a-qm_0a-qn_0b=(1-qm_0)a-qn_0b<g\\text{.}$$ But\nthen $r$ is an element of $S$ strictly less than $g$, contrary to\nassumption. Thus it must be that $g\\mid a$. Similarly it can be shown\nthat $g\\mid b$. Now suppose $h\\in\\mathbb{N}$ is a divisor of both $a$\nand $b$. Then there exist $k,l\\in\\mathbb{Z}$ such that $a=kh$ and\n$b=lh$, and we have $$g=m_0a+n_0b=m_0kh+n_0lh=(m_0k+n_0l)h\\text{,}$$ so\n$h\\mid g$. Thus $g$ is a greatest common divisor of $a$ and $b$. To see\nthat $g$ is unique, suppose that $g'\\in\\mathbb{N}$ is also a greatest\ncommon divisor of $a$ and $b$. Then we have $g'\\mid g$ and $g\\mid g'$,\nwhence $g=\\pm g'$, and since $g,g'>0$, $g=g'$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExistenceAndUniquenessOfTheGcdOfTwoIntegers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "existence and uniqueness of the gcd of two integers"
+  ]
+}

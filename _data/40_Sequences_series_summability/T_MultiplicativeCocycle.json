@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "cocycle; multiplicative linear cocycle"
+  ],
+  "definition": "Let $f:M\\rightarrow M$ be a measurable transformation, and let $\\mu$ be\nan invariant probability measure. Consider\n$A:M\\rightarrow GL(d,\\textbf{R})$, a measurable transformation, where\nGL(d,**R**) is the space of invertible square matrices of size $d$. We\ndefine $A^{-1}:M\\rightarrow GL(d,\\textbf{R})$ by\n$A^{-1}(x)=[A(x)]^{-1}$. Then we define the sequence of functions:\n$$\\phi^n (x)=A(f^{n-1}(x)) \\cdots A(f(x))A(x)$$\n$$\\phi^{-n}(x)=[\\phi^n(f^{-n}(x))]^{-1}$$ for $n\\geq 1$ and $x \\in M$.\n\nIt is easy to verify that: $$\\phi^{m+n}(x)=\\phi^n(f^m(x))\\phi^m(x)$$ for\n$n,m\\in \\textbf{Z}$ and $x \\in M$.\n\nThe sequence $(\\phi^n)_n$ is called a multiplicative cocycle, or just\ncocycle defined by the transformation $A$.",
+  "language": "INFORMAL",
+  "phrase": "Multiplicative Cocycle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplicativeCocycle"
+    }
+  ],
+  "indexable": true
+}

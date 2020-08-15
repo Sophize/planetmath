@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose we have a string $w$ on alphabet $\\Sigma$. We can then represent\nthe string as $w = x_1x_2x_3\\cdots x_{n-1}x_n$, where for all $x_i$\n($1 \\leq i \\leq n$), $x_i \\in \\Sigma$ (this means that each $x_i$ must\nbe a \u201cletter\u201d from the alphabet). Then, the length of $w$ is $n$. The\n*length of a string* $w$ is represented as $ \\Vert w \\Vert $.\n\nFor example, if our alphabet is $\\Sigma = \\{ a, b, ca \\} $ then the\nlength of the string $w = bcaab $ is $ \\Vert w \\Vert = 4$, since the\nstring breaks down as follows: $ x_1 = b$, $x_2 = ca $, $x_3 = a$,\n$x_4 = b$. So, our $x_n$ is $x_4$ and therefore $ n = 4$. Although you\nmay think that $ca$ is two separate symbols, our chosen alphabet in fact\nclassifies it as a single symbol.\n\nA \u201cspecial case\u201d occurs when $\\Vert w \\Vert = 0$, i.e. it does not have\nany symbols in it. This string is called the *empty string*. Instead of\nsaying $ w = \\ $, we use $\\lambda$ to represent the empty string:\n$w = \\lambda$. This is similar to the practice of using $\\beta$ to\nrepresent a space, even though a space is really blank.\n\nIf your alphabet contains $\\lambda$ as a symbol, then you must use\nsomething else to denote the empty string.\n\nSuppose you also have a string $v$ on the same alphabet as $w$. We turn\n$w$ into $x_1 \\cdots x_n $ just as before, and similarly\n$v = y_1 \\cdots y_m $. We say $v$ is *equal* to $w$ if and only if both\n$m = n$, and for every $i$, $x_i = y_i$.\n\nFor example, suppose $ w = bba $ and $v = bab$, both strings on alphabet\n$\\Sigma = \\{ a,b \\}$. These strings are not equal because the second\nsymbols do not match.",
+  "language": "INFORMAL",
+  "phrase": "Length Of A String",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LengthOfAString"
+    }
+  ],
+  "indexable": true
+}

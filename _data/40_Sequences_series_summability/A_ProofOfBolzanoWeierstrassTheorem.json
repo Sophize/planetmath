@@ -1,0 +1,17 @@
+{
+  "argumentText": "To prove the Bolzano-Weierstrass theorem, we will first need two lemmas.\n\n[**Lemma 1.**]{}\n\nAll bounded monotone sequences converge.\n\n[**proof.**]{}\n\nLet $(s_n)$ be a bounded, nondecreasing sequence. Let $S$ denote the set\n$\\{s_n : n \\in \\mathbb{N}\\}$. Then let $b=\\sup S$ (the supremum of $S$.)\n\nChoose some $\\epsilon > 0$. Then there is a corresponding $N$ such that\n$s_N>b-\\epsilon$. Since $(s_n)$ is nondecreasing, for all $n>N$,\n$s_n > b-\\epsilon$. But $(s_n)$ is bounded, so we have\n$b-\\epsilon < s_n \\le b$. But this implies $|s_n-b|<\\epsilon$, so\n$\\lim s_n= b$. $\\square$\n\n(The proof for nonincreasing sequences is analogous.)\n\n[**Lemma 2.**]{}\n\nEvery sequence has a monotonic subsequence.\n\n[**proof.**]{}\n\nFirst a definition: call the $n$th term of a sequence *dominant* if it\nis greater than every term following it.\n\nFor the proof, note that a sequence $(s_n)$ may have finitely many or\ninfinitely many dominant terms.\n\nFirst we suppose that $(s_n)$ has infinitely many dominant terms. Form a\nsubsequence $(s_{n_k})$ solely of dominant terms of $(s_n)$. Then\n$s_{n_{k+1}} < s_{n_k}$ $k$ by definition of \u201cdominant\u201d, hence\n$(s_{n_k})$ is a decreasing (monotone) subsequence of ($s_n$).\n\nFor the second case, assume that our sequence $(s_n)$ has only finitely\nmany dominant terms. Select $n_1$ such that $n_1$ is beyond the last\ndominant term. But since $n_1$ is not dominant, there must be some\n$m>n_1$ such that $s_m > s_{n_1}$. Select this $m$ and call it $n_2$.\nHowever, $n_2$ is still not dominant, so there must be an $n_3>n_2$ with\n$s_{n_3} > s_{n_2}$, and so on, inductively. The resulting sequence\n\n$$s_1,s_2,s_3,\\ldots$$\n\nis monotonic (nondecreasing). $\\square$\n\n[**proof of Bolzano-Weierstrass.**]{}\n\nThe proof of the Bolzano-Weierstrass theorem is now simple: let $(s_n)$\nbe a bounded sequence. By Lemma 2 it has a monotonic subsequence. By\nLemma 1, the subsequence converges. $\\square$",
+  "conclusion": "#P_BolzanoWeierstrassTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBolzanoWeierstrassTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Bolzano-Weierstrass Theorem"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $K$ be an algebraically closed field, let $n\\ge 0$, and let $I$ be\nan ideal of the polynomial ring $K[x_1,\\ldots,x_n]$. Let\n$f\\in K[x_1,\\ldots,x_n]$ be a polynomial with the property that\n$$f(a_1,\\ldots,a_n)=0\\hbox{ for all }(a_1,\\ldots,a_n)\\in V(I).$$ Suppose\nthat $f^r\\not\\in I$ for all $r>0$; in particular, $I$ is strictly\nsmaller than $K[x_1,\\ldots,x_n]$ and $f\\ne 0$. Consider the ring\n$$R=K[x_1,\\ldots,x_n,1/f]\\subset K(x_1,\\ldots,x_n).$$ The $R$-ideal $RI$\nis strictly smaller than $R$, since $$RI=\\bigcup_{r=0}^\\infty f^{-r}I$$\ndoes not contain the unit element. Let $y$ be an indeterminate over\n$K[x_1,\\ldots,x_n]$, and let $J$ be the inverse image of $RI$ under the\nhomomorphism $$\\phi\\colon K[x_1,\\ldots,x_n,y]\\to R$$ acting as the\nidentity on $K[x_1,\\ldots,x_n]$ and sending $y$ to $1/f$. Then $J$ is\nstrictly smaller than $K[x_1,\\ldots,x_n,y]$, so the weak Nullstellensatz\ngives us an element $(a_1,\\ldots,a_n,b)\\in                       \nK^{n+1}$ such that $g(a_1,\\ldots,a_n,b)=0$ for all $g\\in J$. In\nparticular, we see that $g(a_1,\\ldots,a_n)=0$ for all $g\\in I$. Our\nassumption on $f$ therefore implies $f(a_1,\\ldots,a_n)=0$. However, $J$\nalso contains the element $1-yf$ since $\\phi$ sends this element to\nzero. This leads to the following contradiction:\n$$0=(1-yf)(a_1,\\ldots,a_n,b)=1-bf(a_1,\\ldots,a_n)=1.$$ The assumption\nthat $f^r\\not\\in I$ for all $r>0$ is therefore false, i.e.\u00a0there is an\n$r>0$ with $f^r\\in I$.",
+  "conclusion": "#P_HilbertsNullstellensatz",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfHilbertsNullstellensatz"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Hilbert's Nullstellensatz"
+  ]
+}

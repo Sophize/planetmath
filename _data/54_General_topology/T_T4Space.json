@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[@steen] Suppose $X$ is a topological space. Further, suppose that for\nany two disjoint closed sets $A,B\\subseteq X$, there are two disjoint\nopen sets $U$ and $V$ such that $A\\subseteq U$ and $B\\subseteq V$. Then\nwe say that $X$ is a *$T_4$ space*.\n\n### Notes {#notes .unnumbered}\n\nIt should be pointed out that there is no standard convention for\nseparation axioms in topology. The above definition follows [@steen].\nHowever, in some references (e.g. [@kelley]) the meaning of $T_4$ and\nnormal are exchanged.\n\n[9]{} L.A. Steen, J.A.Seebach, Jr., *Counterexamples in topology*, Holt,\nRinehart and Winston, Inc., 1970. J.L. Kelley, *General Topology*, D.\nvan Nostrand Company, Inc., 1955.",
+  "language": "INFORMAL",
+  "phrase": "$T4$ Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/T4Space"
+    }
+  ],
+  "indexable": true
+}

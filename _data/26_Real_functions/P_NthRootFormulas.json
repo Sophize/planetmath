@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In the following formulas, $a$ is a nonnegative real number and other\nletters positive integers. For other formulas, see the .\n\n1.  $\\sqrt[n]{0} \\;=\\; 0$, $\\sqrt[n]{1} \\;=\\; 1$\n\n2.  $\\sqrt[1]{a} \\;=\\; a$\n\n3.  $\\sqrt[m]{\\sqrt[n]{a}} \\;=\\; \\sqrt[mn]{a} \\;=\\; \\sqrt[n]{\\sqrt[m]{a}}$\n\n4.  $\\sqrt[nk]{a^{mk}} \\;=\\; \\sqrt[n]{a^m}$\n\n5.  $\\sqrt[n]{a^m} \\;=\\; (\\sqrt[n]{a})^m$\n\n6.  $\\sqrt[m]{a}\\cdot\\sqrt[n]{a} \\;=\\; \\sqrt[mn]{a^{m+n}}$\n\n*Proof.* For proving, one uses the definition of and the laws.\n\n$1^\\circ$. $0^n = 0, \\quad 1^n = 1$\n\n$2^\\circ$. $a^1 = a$\n\n$3^\\circ$.\n$(\\sqrt[m]{\\sqrt[n]{a}})^{mn} \\;=\\; ((\\sqrt[m]{\\sqrt[n]{a}})^m)^n \\;=\\; (\\sqrt[n]{a})^n \\;=\\; a$\n\n$4^\\circ$.\n$(\\sqrt[n]{a^m})^{nk} \\;=\\; ((\\sqrt[n]{a^m})^n)^k \\;=\\; (a^m)^k \\;=\\; a^{mk}$\n\n$5^\\circ$. $((\\sqrt[n]{a})^m)^n \\;=\\; ((\\sqrt[n]{a})^n)^m \\;=\\; a^m$\n\n$6^\\circ$.\n$(\\sqrt[m]{a}\\cdot\\sqrt[n]{a})^{mn} \\;=\\; (\\sqrt[m]{a})^{mn}(\\sqrt[n]{a})^{mn} \\;=\\;\n((\\sqrt[m]{a})^m)^n((\\sqrt[n]{a})^n)^m \\;=\\; a^na^m \\;=\\; a^{m+n}$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NthRootFormulas"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "nth root formulas",
+    "root formulas",
+    "root formulae"
+  ]
+}

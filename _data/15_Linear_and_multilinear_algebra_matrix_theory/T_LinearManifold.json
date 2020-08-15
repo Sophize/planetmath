@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose $V$ is a vector space and suppose that $L$ is\na non-empty subset of $V$. If there exists a $v\\in V$ such that\n$L+v=\\{ v+l \\mid l\\in L\\}$ is a vector subspace of $V$, then $L$ is a\n[**linear manifold**]{} of $V$. Then we say that the dimension of $L$ is\nthe dimension of $L+v$ and write $\\dim L = \\dim (L+v)$. In the important\ncase $\\dim L = \\dim V -1$, $L$ is called a [**hyperplane**]{}.\n\nA linear manifold is, in other words, a linear subspace that has\npossibly been shifted away from the origin. For instance, in\n${\\mathbb{R}}^2$ examples of linear manifolds are points, lines (which\nare hyperplanes), and ${\\mathbb{R}}^2$ itself. In ${\\mathbb{R}}^n$\nhyperplanes naturally describe tangent planes to a smooth hyper surface.\n\n[9]{} R. Cristescu, *Topological vector spaces*, Noordhoff International\nPublishing, 1977.",
+  "language": "INFORMAL",
+  "phrase": "Linear Manifold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearManifold"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Pythagorean theorem** states:\n\nIf $\\triangle ABC$ is a right triangle, then the of the length of the\nhypothenuse is equal to the sum of the squares of the two legs. In the\nfollowing picture, the purple squares add up to the same area as the\norange one.\n\n![image](pyth.eps)\n\n$$AC^2=AB^2+BC^2.$$\n\nCosines law is a generalization of Pythagorean theorem for any triangle.\nIt implies that the converse of Pythagorean theorem also holds: if the\nsides of a triangle satisfy $a^2+b^2=c^2$ then the triangle is a right\ntriangle.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PythagoreanTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Pythagorean theorem",
+    "Pythagoreas' theorem",
+    "Pythagoras theorem"
+  ]
+}

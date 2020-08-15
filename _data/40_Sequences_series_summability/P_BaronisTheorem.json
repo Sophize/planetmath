@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(x_n)_{n\\geq 0}$ be a sequence of real numbers such that\n$\\displaystyle \\lim_{n\n\\rightarrow \\infty} (x_{n+1}-x_n) = 0$. Let\n$A=\\{ x_n \\vert n \\in \\mathbb{N} \\}$ and A\u2019 the set of limit points of\n$A$. Then A\u2019 is a (possibly degenerate) interval from\n$\\overline{\\mathbb{R}}$, where\n$\\overline{\\mathbb{R}}=\\mathbb{R} \\bigcup \\{-\\infty,+\\infty\\}$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BaronisTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Baroni's theorem"
+  ]
+}

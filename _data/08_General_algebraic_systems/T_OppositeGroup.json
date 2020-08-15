@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a group under the operation $*$. The *opposite group* of $G$,\ndenoted $G^{\\mathrm{op}}$, has the same underlying set as $G$, and its\ngroup operation is $*'$ defined by $g_1*'g_2=g_2*g_1$.\n\nIf $G$ is abelian, then it is equal to its opposite group. Also, every\ngroup $G$ (not necessarily abelian) is isomorphic to its opposite group:\nThe $\\varphi \\colon G \\to G^{\\mathrm{op}}$ is given by\n$\\varphi(x)=x^{-1}$. More generally, any anti-automorphism\n$\\psi \\colon G \\to G$ gives rise to a corresponding isomorphism\n$\\psi' \\colon G \\to G^{\\mathrm{op}}$ via $\\psi'(g)=\\psi(g)$, since\n$\\psi'(g*h)=\\psi(g*h)=\\psi(h)*\\psi(g)=\\psi(g)*'\\psi(h)=\\psi'(g)*'\\psi'(h)$.\n\nOpposite groups are useful for converting a right action to a left\naction and vice versa. For example, if $G$ is a group that acts on $X$\non the , then a left action of $G^{\\mathrm{op}}$ on $X$ can be defined\nby $g^{\\mathrm{op}}x=xg$.\n\nconstructions occur in opposite ring and opposite category.",
+  "language": "INFORMAL",
+  "phrase": "Opposite Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OppositeGroup"
+    }
+  ],
+  "indexable": true
+}

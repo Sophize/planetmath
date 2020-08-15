@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring, and $M$ a right $R$-module. Then its dual, $M^*$, is\ngiven by $\\hom(M,R)$, and has the structure of a left module over $R$.\nThe dual of that, $M^{**}$, is in turn a right $R$-module. Fix any\n$m\\in M$. Then for any $f\\in M^*$, the mapping $$f \\mapsto f(m)$$ is a\nleft $R$-module homomorphism from $M^*$ to $R$. In other words, the\nmapping is an element of $M^{**}$. We call this mapping $\\hat{m}$, since\nit only depends on $m$. For any $m\\in M$, the mapping\n$$m\\mapsto \\hat{m}$$ is a then a right $R$-module homomorphism from $M$\nto $M^{**}$. Let us call it $\\theta$.\n\n**Definition**. Let $R$, $M$, and $\\theta$ be given as above. If\n$\\theta$ is injective, we say that $M$ is *torsionless*. If $\\theta$ is\nin addition an isomorphism, we say that $M$ is *reflexive*. A\ntorsionless module is sometimes referred to as being semi-reflexive.\n\nAn obvious example of a reflexive module is any vector space over a\nfield (similarly, a right vector space over a division ring).\n\nSome of the properties of torsionless and reflexive modules are\n\n-   any free module is torsionless.\n\n-   any direct sum of torsionless modules is torsionless; any submodule\n    of a torsionless module is torsionless.\n\n-   based on the two properties above, any projective module is\n    torsionless.\n\n-   $R$ is reflexive.\n\n-   any finite direct sum of reflexive modules is reflexive; any direct\n    summand of a reflexive module is reflexive.\n\n-   based on the two immediately preceding properties, any finitely\n    generated projective module is reflexive.",
+  "language": "INFORMAL",
+  "phrase": "Reflexive Module",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ReflexiveModule"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hausdorff distance"
+  ],
+  "definition": "Let $(X,d)$ be a metric space, and let $\\mathcal{F}_X$ be the family of\nall closed and bounded subsets of $X$. Given $A\\in \\mathcal{F}_X$, we\nwill denote by $N_r(A)$ the neighborhood of $A$ of radius $r$, i.e. the\nset $\\cup_{x\\in A} B(x,r)$.\n\nThe *upper Hausdorff hemimetric* is defined by\n$$\\delta^*(A,B)=\\inf\\{r>0 : B\\subset N_r(A)\\}.$$ Analogously, the *lower\nHausdorff hemimetric* is $$\\delta_*(A,B) =\n\\inf\\{r>0 : A\\subset N_r(B)\\}.$$ Finally, the *Hausdorff metric* is\ngiven by $$\\delta(A,B) = \\max\\{\\delta^*(A,B),\\delta_*(A,B)\\}.$$ for\n$A,B\\in \\mathcal{F}_X$.\n\nThe following properties follow straight from the definitions:\n\n1.  $\\delta^*(A,B) = \\delta_*(B,A)$;\n\n2.  $\\delta^*(A,B)=0$ if and only if $B\\subset A$;\n\n3.  $\\delta_*(A,B)=0$ if and only if $A\\subset B$;\n\n4.  $\\delta^*(A,C) \\leq \\delta^*(A,B) + \\delta^*(B,C)$, and similarly\n    for $\\delta_*$.\n\nFrom this it is clear that $\\delta$ is a metric: the triangle inequality\nfollows from that of $\\delta_*$ and $\\delta^*$; symmetry follows from\n$\\delta^*(A,B)=\\delta_*(A,B)$; and $\\delta(A,B) = 0$ iff both\n$\\delta_*(A,B)$ and $\\delta^*(A,B)$ are zero iff $A\\subset B$ and\n$B\\subset A$ iff $A=B$.\n\nHausdorff metric inherits completeness; i.e. if $(X,d)$ is complete,\nthen so is $(\\mathcal{F}_X,\\delta)$. Also, if $(X,d)$ is totally\nbounded, then so is $(\\mathcal{F}_X,\\delta)$.\n\nIntuitively, the Hausdorff hemimetric $\\delta^*$ (resp. $\\delta_*$)\nmeasure how much bigger (resp. smaller) is a set compared to another.\nThis allows us to define hemicontinuity of correspondences.",
+  "language": "INFORMAL",
+  "phrase": "Hausdorff Metric",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HausdorffMetric"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Weierstrass model"
+  ],
+  "definition": "Recall that an [*elliptic curve*]{} over a field $K$ is a projective\nnonsingular curve $E$ defined over $K$ of genus $1$ together with a\npoint $O\\in E$ defined over $K$.\n\nLet $K$ be an arbitrary field. A Weierstrass equation for an elliptic\ncurve $E/K$ is an equation of the form:\n$$y^2+a_1xy+a_3y=x^3+a_2x^2+a_4x+a_6$$ where $a_1, a_2, a_3,a_4,a_6$ are\nconstants in $K$.\n\nAll elliptic curves have a Weierstrass model in $\\mathbb{P}^2(K)$, the\nprojective plane over $K$. This is a simple application of the :\n\nLet $E$ be an elliptic curve defined over a field $K$. Then there exists\nrational functions $x,y\\in K(E)$ such that the map\n$\\psi:E\\to \\mathbb{P}^2(K)$ sending $P$ to $[x(P),y(P),1]$ is an\nisomorphism of $E/K$ to the projective curve given by\n$$y^2+a_1xy+a_3y=x^3+a_2x^2+a_4x+a_6$$ where $a_1, a_2, a_3,a_4,a_6$ are\nconstants in $K$.\n\nMoreover, the following proposition specifies any possible change of\nvariables.\n\n\\[change\\] Let $E/K$ be an elliptic curve given by a Weierstrass model\nof the form: $$y^2+a_1xy+a_3y=x^3+a_2x^2+a_4x+a_6$$ with $a_i\\in K$.\nThen:\n\n1.  The only change of variables $(x,y)\\mapsto (x',y')$ preserving the\n    projective point $[0,1,0]$ and which also result in a Weierstrass\n    equation, are of the form: $$x=u^2x'+r,\\quad y=u^3y'+su^2x'+t$$ with\n    $u,r,s,t\\in K$ and $u\\neq 0$.\n\n2.  Any two Weierstrass equations for $E/K$ differ by a change of\n    variables of the form given in $(1)$.\n\nOnce we have one Weierstrass model for a given elliptic curve $E/K$, and\nas long as the characteristic of $K$ is not $2$ or $3$, there exists a\nchange of variables (of the form given in the previous proposition)\nwhich simplifies the model considerably.\n\nLet $K$ be a field of characteristic different from $2$ or $3$. Let $E$\nbe an elliptic curve defined over $K$. Then there exists a Weierstrass\nmodel for $E$ of the form: $$y^2=x^3+Ax+B$$ where $A,B$ are elements of\n$K$.\n\nFinally, remember that the $j$-invariant of an elliptic curve is\ninvariant under isomorphism, but the discriminant depends on the model\nchosen.\n\nLet $E/K$ be an elliptic curve and let\n$$E_1: y^2+a_1xy+a_3y=x^3+a_2x^2+a_4x+a_6, \\quad E_2: y'^2+a_1x'y'+a_3y'=x'^3+a_2x'^2+a_4x'+a_6$$\nbe two distinct Weierstrass models for $E/K$. Then (by Prop. \\[change\\])\nthere exists a change of variables $(x,y)\\mapsto (x',y')$ of the form:\n$$x=u^2x'+r,\\quad y=u^3y'+su^2x'+t$$ with $u,r,s,t\\in K$ and $u\\neq 0$.\nMoreover, $j(E_1)=j(E_2)$, i.e. the $j$ invariants are equal ($j(E)$ is\ndefined in ) and $\\Delta(E_1)=u^{12}\\Delta(E_2)$, where $\\Delta(E_i)$ is\nthe discriminant (as defined in ).",
+  "language": "INFORMAL",
+  "phrase": "Weierstrass Equation Of An Elliptic Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeierstrassEquationOfAnEllipticCurve"
+    }
+  ],
+  "indexable": true
+}

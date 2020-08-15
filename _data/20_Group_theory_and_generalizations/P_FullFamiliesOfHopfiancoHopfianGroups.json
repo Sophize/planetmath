@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Proposition.** Let $\\{ G_i\\}_{i\\in I}$ be a full family of groups.\nThen each $G_i$ is Hopfian (co-Hopfian) if and only if\n$\\bigoplus_{i\\in I}G_i$ is Hopfian (co-Hopfian).\n\n*Proof.* ,,$\\Rightarrow$\u201d Let\n$$f:\\bigoplus_{i\\in I}G_i\\to \\bigoplus_{i\\in I}G_i$$ be a surjective\n(injective) homomorphism. Since $\\{ G_i\\}_{i\\in I}$ is full, then there\nexists family of homomorphisms $\\{ f_i:G_i\\to G_i\\}_{i\\in I}$ such that\n$$f=\\bigoplus_{i\\in I} f_i.$$ Of course since $f$ is surjective\n(injective), then each $f_i$ is surjective (injective). Thus each $f_i$\nis an isomorphism, because each $G_i$ is Hopfian (co-Hopfian). Therefore\n$f$ is an isomorphism, because\n$$f^{-1}=\\bigoplus_{i\\in I} f_{i}^{-1}.\\ \\ \\square$$\n\n,,$\\Leftarrow$\u201d Fix $j\\in I$ and assume that $f_j:G_j\\to G_j$ is a\nsurjective (injective) homomorphism. For $i\\in I$ such that $i\\neq j$\ndefine $f_i:G_i\\to G_i$ to be any automorphism of $G_i$. Then\n$$\\bigoplus_{i\\in I} f_i:\\bigoplus_{i\\in I}G_i \\to \\bigoplus_{i\\in I} G_i$$\nis a surjective (injective) group homomorphism. Since\n$\\bigoplus_{i\\in I}G_i$ is Hopfian (co-Hopfian) then\n$\\bigoplus_{i\\in I}f_i$ is an isomorphism. Thus each $f_i$ is an\nisomorphism. In particular $f_j$ is an isomorphism, which completes the\nproof. $\\square$\n\n**Example.** Let $\\mathcal{P}=\\{p\\in\\mathbb{N}\\ |\\ p\\mbox{ is prime}\\}$\nand $\\mathcal{P}_0$ be any subset of $\\mathcal{P}$. Then\n$$\\bigoplus_{p\\in P_0}\\mathbb{Z}_{p}$$ is both Hopfian and co-Hopfian.\n\n*Proof.* It is easy to see that $\\{\\mathbb{Z}_{p}\\}_{p\\in\\mathcal{P}}$\nis full, so $\\{\\mathbb{Z}_{p}\\}_{p\\in\\mathcal{P}_0}$ is also full.\nMoreover for any $p\\in P_0$ the group $\\mathbb{Z}_{p}$ is finite, so\nboth Hopfian and co-Hopfian. Therefore (due to proposition)\n$$\\bigoplus_{p\\in P_0}\\mathbb{Z}_{p}$$ is both Hopfian and co-Hopfian.\n$\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FullFamiliesOfHopfiancoHopfianGroups"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "full families of Hopfian (co-Hopfian) groups"
+  ]
+}

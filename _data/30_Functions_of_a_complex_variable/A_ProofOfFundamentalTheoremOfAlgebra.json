@@ -1,0 +1,17 @@
+{
+  "argumentText": "If $f(x) \\in \\mathbb{C}[x]$ let $a$ be a root of $f(x)$ in some\nextension of $\\mathbb{C}$. Let $K$ be a Galois closure of\n$\\mathbb{C}(a)$ over $\\mathbb{R}$ and set\n$G = \\operatorname{Gal}(K/\\mathbb{R})$. Let $H$ be a Sylow 2-subgroup of\n$G$ and let $L = K^H$ (the fixed field of $H$ in $K$). By the\nFundamental Theorem of Galois Theory we have $[L:\\mathbb{R}] = [G:H]$,\nan odd number. We may write $L =\n\\mathbb{R}(b)$ for some $b \\in L$, so the minimal polynomial\n$m_{b,\\mathbb{R}}(x)$ is irreducible over $\\mathbb{R}$ and of odd\ndegree. That degree must be 1, and hence $L = \\mathbb{R}$, which means\nthat $G = H$, a 2-group. Thus $G_1 = \\operatorname{Gal}(K/\\mathbb{C})$\nis also a 2-group. If $G_1 \\ne 1$ choose $G_2\n\\le G_1$ such that $[G_1:G_2] = 2$, and set $M = K^{G_2}$, so that\n$[M:\\mathbb{C}] = [G_1:G_2] = 2$. But any polynomial of degree 2 over\n$\\mathbb{C}$ has roots in $\\mathbb{C}$ by the quadratic formula, so such\na field $M$ cannot exist. This contradiction shows that $G_1 = 1$. Hence\n$K = \\mathbb{C}$ and $a\n\\in \\mathbb{C}$, completing the proof.",
+  "conclusion": "#P_FundamentalTheoremOfAlgebra",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfFundamentalTheoremOfAlgebra"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of fundamental theorem of algebra"
+  ]
+}

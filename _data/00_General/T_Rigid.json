@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "rigidity result",
+    "rigidity theorem",
+    "rigidity"
+  ],
+  "definition": "Suppose $C$ is a collection of mathematical objects (for instance, sets,\nor functions). Then we say that $C$ is *rigid* if every $c\\in C$ is\nuniquely determined by less information about $c$ than one would expect.\n\nIt should be emphasized that the above \u201cdefinition\u201d does not define a\n*mathematical object*. Instead, it describes in what sense the adjective\nrigid is typically used in mathematics, by mathematicians.\n\nLet us illustrate this by some examples:\n\n1.  Harmonic functions on the unit disk are rigid in the sense that they\n    are uniquely determined by their boundary values.\n\n2.  By the fundamental theorem of algebra, polynomials in ${\\mathbb{C}}$\n    are rigid in the sense that any polynomial is completely determined\n    by its values on any countably infinite set, say ${\\mathbb{N}}$, or\n    the unit disk.\n\n3.  Linear maps $\\mathscr{L}(X,Y)$ between vector spaces $X,Y$ are rigid\n    in the sense that any $L\\in\\mathscr{L}(X,Y)$ is completely\n    determined by its values on any set of basis vectors of $X$.\n\n4.  Mostow\u2019s rigidity theorem",
+  "language": "INFORMAL",
+  "phrase": "Rigid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Rigid"
+    }
+  ],
+  "indexable": true
+}

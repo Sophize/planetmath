@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a groupoid. An element $e \\in G$ is called a *left identity\nelement* if $ex = x$ for all $x \\in G$. Similarly, $e$ is a *right\nidentity element* if $xe = x$ for all $x \\in G$.\n\nAn element which is both a left and a right identity is an identity\nelement.\n\nA groupoid may have more than one left identify element: in fact the\noperation defined by $x y = y$ for all $x, y \\in G$ defines a groupoid\n(in fact, a semigroup) on any set $G$, and every element is a left\nidentity.\n\nBut as soon as a groupoid has both a left and a right identity, they are\nnecessarily unique and equal. For if $e$ is a left identity and $f$ is a\nright identity, then $f = ef = e$.",
+  "language": "INFORMAL",
+  "phrase": "Left Identity And Right Identity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeftIdentityAndRightIdentity"
+    }
+  ],
+  "indexable": true
+}

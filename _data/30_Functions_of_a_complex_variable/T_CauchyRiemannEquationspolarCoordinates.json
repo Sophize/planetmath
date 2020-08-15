@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $A$ is an open set in $\\mathbb{C}$ and\n$f(z)=f(re^{i\\theta})=u(r,\\theta)+iv(r,\\theta): A\\subset\\mathbb{C} \\to \\mathbb{C}$\nis a function. If the derivative of $f(z)$ exists at\n$z_0=(r_0,\\theta_0)$. Then the functions $u$, $v$ at $z_0$ satisfy:\n$$\\begin{aligned}\n\\frac{\\partial u}{\\partial r} & = & \\frac{1}{r}\\frac{\\partial v}{\\partial \\theta}\\\\\n\\frac{\\partial v}{\\partial r} & = & -\\frac{1}{r}\\frac{\\partial u}{\\partial \\theta}\\end{aligned}$$\nwhich are called *Cauchy-Riemann equations* in polar form.\\\n\\",
+  "language": "INFORMAL",
+  "phrase": "Cauchy-Riemann Equations (Polar Coordinates)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyRiemannEquationspolarCoordinates"
+    }
+  ],
+  "indexable": true
+}

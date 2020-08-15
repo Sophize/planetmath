@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A $k$-[*smooth number*]{} $n$ is an integer such that its prime divisors\nare less than $k$. For example, 14824161510814728 is 7-smooth since its\nprime factors are just 2 and 3 (and thus its divisors are all either\npowers of those two primes or multiples of 6).\n\nFor small $k$, the number of smooth numbers less than a given $x$ can be\nestimated with the formula\n$$\\frac{1}{\\pi(k)!} \\prod_{i = 1}^{\\pi(k)} \\frac{\\log x}{\\log p_i},$$\nwhere $\\pi(x)$ is the prime counting function and $p_i$ is the $i$th\nprime.\n\nSmooth numbers have many applications, such as the many classic\nfactorization algorithms which specifically call for smooth numbers in\ntheir initialization steps, as well as fast Fourier transform algorithms\nthat also require smooth numbers.",
+  "language": "INFORMAL",
+  "phrase": "Smooth Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SmoothNumber"
+    }
+  ],
+  "indexable": true
+}

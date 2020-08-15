@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\Gamma$ be a compact Lie group acting on $V$ and let\n$\\Sigma \\subset \\Gamma$ be a Lie subgroup. Then\n$$\\operatorname{dim}\\;\\operatorname{Fix}(\\Sigma) = \\int_{\\sigma\\in\\Sigma} \\operatorname{trace}(\\sigma)$$\nwhere $\\int$ denotes the normalized Haar integral on $\\Sigma$ and\n$\\operatorname{Fix}(\\Sigma)$ is the fixed-point subspace of $\\Sigma$ .\n\n[1]{} Golubitsky, Martin. Stewart, Ian. Schaeffer, G. David:\nSingularities and Groups in Bifurcation Theory *(Volume II)*.\nSpringer-Verlag, New York, 1988.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TraceFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "trace formula"
+  ]
+}

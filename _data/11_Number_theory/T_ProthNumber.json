@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Proth number*]{} $p$ is a number of the form $k2^m + 1$, where $k$\nis odd (e.g., $k = 2n + 1$ with an integer $n > (-1)$), $m$ is also an\ninteger and $2^m > k$. The first few Proth numbers are 3, 5, 9, 13, 17,\n25, 33, 41, 49, 57, 65, 81, 97, 113, 129, 145, 161, 177, 193, etc.\n(listed in A080075 of Sloane\u2019s OEIS). The Fermat numbers are a subset of\nthe Proth numbers, namely with $k = 1$.",
+  "language": "INFORMAL",
+  "phrase": "Proth Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProthNumber"
+    }
+  ],
+  "indexable": true
+}

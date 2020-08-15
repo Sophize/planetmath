@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The concept of a squarefree number can be generalized. Let\n$n \\in \\mathbb{Z}$ with $n>1$. Then $m \\in \\mathbb{Z}$ is [*$n$-free*]{}\nif, for any prime $p$, $p^n$ does not divide $m$.\n\nLet $S$ denote the set of all squarefree natural numbers. Note that, for\nany $n$ and any positive $n$-free integer $m$, there exists a unique\n$(a_1, \\dots , a_{n-1}) \\in S^{n-1}$ with $\\gcd(a_i,a_j)=1$ for\n$i \\neq j$ such that $\\displaystyle m=\\prod_{j=1}^{n-1} {a_j}^j$.",
+  "language": "INFORMAL",
+  "phrase": "$N$-Free Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NfreeNumber"
+    }
+  ],
+  "indexable": true
+}

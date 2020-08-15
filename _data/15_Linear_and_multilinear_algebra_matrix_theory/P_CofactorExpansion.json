@@ -1,0 +1,18 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $M$ be an $n\\times n$ matrix with entries $M_{ij}$ that are elements\nof a commutative ring. Let $m_{ij}$ denote the determinant of the\n$(n-1)\\times(n-1)$ submatrix obtained by deleting row $i$ and column $j$\nof $M$, and let $$C_{ij} = (-1)^{i+j} m_{ij}.$$ The *subdeterminants*\n$m_{ij}$ are called the *minors* of $M$, and the $C_{ij}$ are called the\n*cofactors*.\n\nWe have the following useful formulas for the cofactors of a matrix.\nFirst, if we regard $\\det M$ as a polynomial in the entries $M_{ij}$,\nthen we may write $$C_{ij} = \\frac{\\partial M}{\\partial M_{ij}}$$\nSecond, we may regard the determinant of $M=(M_1,\\ldots,  M_n)$ as a\nmulti-linear, skew-symmetric function of its columns:\n$$\\det M = \\det(M_1,\\ldots, M_n).$$ This point of view leads to the\nfollowing formula:\n$$C_{ij} = \\det(M_1,\\ldots, \\hat{M_j}, {\\mathbf{e}}_i,\\ldots, M_n),$$\nwhere the notation indicates that column $j$ has been replaced by the\n$i$th standard vector.\n\nAs a consequence, we obtain the following representation of the\ndeterminant in terms of cofactors: $$\\begin{aligned}\n   \\det(M) &= \\det(M_1,\\ldots, M_{1j} {\\mathbf{e}}_1 + \\cdots + M_{nj} {\\mathbf{e}}_n , \\ldots , M_n)\\\\\n  &= \\sum_{i=1}^n  M_{ij} C_{ij},\\quad j=1,\\ldots, n.\\end{aligned}$$ The\nabove identity is often called the cofactor expansion of the determinant\nalong column $j$. If we regard the determinant as a multi-linear,\nskew-symmetric function of $n$ row-vectors, then we obtain the analogous\ncofactor expansion along a row: $$\\begin{aligned}\n\\det(M) &= \\sum_{i=1}^n M_{ji} C_{ji}.\\end{aligned}$$\n\n#### Example.\n\nConsider a general $3\\times 3$ determinant $$\\left|\n\\begin{matrix}\na_1 & a_2 & a_3 \\\\\nb_1 & b_2 & b_3 \\\\\nc_1 & c_2 & c_3\n\\end{matrix}\n\\right|= a_1 b_2 c_3 + a_2 b_3 c_1 + a_3 b_1 c_2 - a_1 b_3 c_2 - a_3\nb_2 c_1 - a_2 b_1 c_3.$$ The above can equally well be expressed as a\ncofactor expansion along the first row: $$\\begin{aligned}\n\\left|\\begin{matrix}\na_1 & a_2 & a_3 \\\\\nb_1 & b_2 & b_3 \\\\\nc_1 & c_2 & c_3\n\\end{matrix}\n\\right| &=\na_1 \\left| \\begin{matrix} b_2 & b_3 \\\\ c_2 & c_3 \\end{matrix}\\right|\n-\na_2 \\left| \\begin{matrix} b_1 & b_3 \\\\ c_1 & c_3 \\end{matrix}\\right|\n+\na_3 \\left| \\begin{matrix} b_1 & b_2 \\\\ c_1 & c_2\n\\end{matrix}\\right|\\\\\n&= a_1(b_2 c_3-b_3 c_2) - a_2(b_1 c_3 - b_3 c_1) + a_3(b_1 c_2-b_2c_1);\\end{aligned}$$\nor along the second column: $$\\begin{aligned}\n\\left|\\begin{matrix}\na_1 & a_2 & a_3 \\\\\nb_1 & b_2 & b_3 \\\\\nc_1 & c_2 & c_3\n\\end{matrix}\n\\right| &=\n-a_2 \\left| \\begin{matrix} b_1 & b_3 \\\\ c_1 & c_3 \\end{matrix}\\right|\n+\nb_2 \\left| \\begin{matrix} a_1 & a_3 \\\\ c_1 & c_3 \\end{matrix}\\right|\n-\nc_2 \\left| \\begin{matrix} a_1 & a_3 \\\\ b_1 & b_3\n\\end{matrix}\\right|\\\\\n&= -a_2(b_1 c_3-b_3 c_1) + b_2(a_1 c_3 - a_3 c_1) - c_2(a_1 b_3-a_3 b_1);\\end{aligned}$$\nor indeed as four other such expansion corresponding to rows 2 and 3,\nand columns 1 and 3.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CofactorExpansion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "cofactor expansion",
+    "Laplace expansion",
+    "cofactor",
+    "minor",
+    "subdeterminant"
+  ]
+}

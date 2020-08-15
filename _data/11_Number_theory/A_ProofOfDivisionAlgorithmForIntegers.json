@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $a,b$ integers ($b>0$). We want to express $a=bq+r$ for some\nintegers $q,r$ with $0\\leq r < b$ and that such expression is unique.\n\nConsider the numbers $$\\ldots, a-3b, a-2b, a-b,a,a+b,a+2b,a+3b,\\ldots$$\nFrom all these numbers, there has to be a smallest non negative one. Let\nit be $r$. Since $r=a-qb$ for some $q$,[^1] we have $a=bq+r$. And, if\n$r\\geq b$ then $r$ wasn\u2019t the smallest non-negative number on the list,\nsince the previous (equal to $r-b$) would also be non-negative. Thus\n$0\\leq r<b$.\n\nSo far, we have proved that we can express $a$ as$bq+r$ for some pair of\nintegers $q,r$ such that $0\\leq r<b$. Now we will prove the uniqueness\nof such expression.\n\nLet $q'$ and $r'$ another pair of integers holding $a=bq'+r'$ and\n$0\\leq r' <b$. Suppose $r\\neq r'$. Since $r' = a-bq'$ is a number on the\nlist, cannot be smaller or equal than $r$ and thus $r<r'$. Notice that\n$$0<r'-r =(a-bq') - (a-bq) = b(q-q')$$ so $b$ divides $r'-r$ which is\nimpossible since $0<r'-r < b$. We conclude that $r'=r$. Finally, if\n$r=r'$ then $a-bq = a-bq'$ and therefore $q=q'$. This concludes the\nproof of the uniqueness part.\n\n[^1]: For example, if $r =a+5b$ then $q=-5$.",
+  "conclusion": "#P_DivisionAlgorithmForIntegers",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfDivisionAlgorithmForIntegers"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of division algorithm for integers"
+  ]
+}

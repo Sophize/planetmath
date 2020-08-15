@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *totient* is a sequence $f:{\\{1,2,3,\\ldots\\}}\\to {\\mathbb C}$ such\nthat $$g\\ast f=h$$ for some two completely multiplicative sequences $g$\nand $h$, where $\\ast$ denotes the convolution product (or Dirichlet\nproduct; see multiplicative function).\n\nThe term \u2018totient\u2019 was introduced by Sylvester in the 1880\u2019s, but is\nseldom used nowadays except in two cases. The Euler totient $\\phi$\nsatisfies $$\\iota_0\\ast\\phi = \\iota_1$$ where $\\iota_k$ denotes the\nfunction $n\\mapsto n^k$ (which is completely multiplicative). The more\ngeneral *Jordan totient* $J_k$ is defined by\n$$\\iota_0\\ast J_k=\\iota_k.$$",
+  "language": "INFORMAL",
+  "phrase": "Totient",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Totient"
+    }
+  ],
+  "indexable": true
+}

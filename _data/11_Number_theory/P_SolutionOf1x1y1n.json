@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given an integer $n$, if there exist integers $x$ and $y$ such that\n$$\\frac{1}{x} + \\frac{1}{y} = \\frac{1}{n} ,$$ then one has\n$$\\begin{aligned}\nx &=& \\frac{n(u+v)}{u} \\\\\ny &=& \\frac{n(u+v)}{v}\\end{aligned}$$ where $u$ and $v$ are integers\nsuch that $uv$ divides $n$.\n\nTo begin, cross multiply to obtain $$xy = n(x+y).$$\n\nSince this involves setting a product equal to another product, we can\nthink in terms of factorization. To clarify things, let us pull out a\ncommon factor and write $x = kv$ and $y = ku$, where $k$ is the greatest\ncommon factor and $u$ is relatively prime to $v$. Then, cancelling a\ncommon factor of $k$, our equation becomes the following:\n\n$$kuv = n(u+v)$$\n\nThis is equivalent to\n\n$$uv \\mid n(u+v)$$\n\nSince $u$ and $v$ are relatively prime, it follows that $u$ is\nrelatively prime to $u+v$ and that $v$ is relatively prime to $u+v$ as\nwell. Hence, we must have that $uv$ divides $n$,\n\nNow we can obtain the general solution to the equation. Write $n = muv$\nwith $u$ and $v$ relatively prime. Then, substituting into our equation\nand cancelling a $u$ and a $v$, we obtain\n\n$$k = m(u+v),$$\n\nso the solution to the original equation is\n\n$$\\begin{aligned}\nx &=& mv(u+v) \\\\\ny &=& mu(u+v)\\end{aligned}$$\n\nUsing the definition of $m$, this can be rewritten as $$\\begin{aligned}\nx &=& \\frac{n(u+v)}{u} \\\\\ny &=& \\frac{n(u+v)}{v}.\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SolutionOf1x1y1n"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "solution of $1/x + 1/y = 1/n$"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The matrix condition number is greater or equal $1$.\n\nLet $ A$ be a square matrix. Then by properties of a matrix norm,\n\n$$1=\\vert\\vert\\,I\\,\\vert\\vert =\\vert\\vert\\,A A^{-1}\\,\\vert\\vert  \\leq \\vert\\vert\\,A^{-1}\\,\\vert\\vert \\vert\\vert\\,A\\,\\vert\\vert.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MatrixConditionNumberIsGreaterOrEqualTo1"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "matrix condition number is greater or equal to $1$"
+  ]
+}

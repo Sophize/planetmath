@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Recall the typical derivative formula is\n$$\\frac{df}{dx}=\\lim_{h\\rightarrow 0}\\frac{f(x+h)-f(x)}{h}.$$ The\nderivative of $x^n$ can be computed directly from this formula utilizing\nthe binomial theorem, see for instance .\n\nHowever, to avoid invoking the binomial theorem one can often make use\nof alternative definitions of the derivative which are justified by\ninspecting a diagrams and/or through the use of algebra. Instead of\nusing $h$, use $h=x-a$ so that $a\\rightarrow x$ is the same as\n$h\\rightarrow 0$. This gives the formula\n$$\\frac{df}{dx}=\\lim_{a\\rightarrow x}\\frac{f(x)-f(a)}{x-a}.$$ This is\nthe standard slope formula between the two points $(a,f(a))$ and\n$(x,f(x))$ only now we let $a$ approach $x$.\n\nFrom this formula the casual rule $$\\frac{d}{dx}(x^n)=nx^{n-1}$$ for\npositive integer values of $n$ can be easily derived.\n\nFirst notice that\n$$(x-a)(x^{n-1}+x^{n-2}a+\\cdots + x a^{n-2}+ a^{n-1})=x^n - a^n.$$\nTherefore $$\\frac{d}{dx}(x^n)=\\lim_{a\\rightarrow x} \\frac{x^n-a^n}{x-a}\n=\\lim_{a\\rightarrow x} (x^{n-1}+x^{n-2}a+\\cdots + xa^{n-2}+ a^{n-1})\n=nx^{n-1}.$$\n\nWhen $n$ is not a positive integer the proof typically depends on\nimplicit differentiation as follows:\n$$y=x^n;\\quad \\ln y=\\ln x^n=n\\ln x;\\quad \\frac{y'}{y}=n\\frac{1}{x};\\quad\n   y'=n\\frac{y}{x}=nx^{n-1}.$$ For the theoretically inclined this\nsolution can be disappointing because it depends on a proof for the\nderivative of $\\ln x$. Most texts simply redefine $\\ln x$ as the\nintegral of $1/x$ or in some similar fashion delay an honest proof.\n\nFor this reason it is often instructive to prove the power rule in\nstages depending on the type of exponents. Having proven the result for\n$n$ a positive integer, one can extend this to $-n$ using the product\nrule.\n\nTo begin with observe $1=x^n x^{-n}$. Therefore $$\\begin{aligned}\n0 & = & \\frac{d}{dx}(1)=\\frac{d}{dx}(x^n x^{-n})=\\frac{d}{dx}(x^n) x^{-n}+x^n \\frac{d}{dx}(x^{-n})\\\\\n& = &\nnx^{n-1} x^{-n}+x^n\\frac{d}{dx}(x^{-n})=\\frac{n}{x}+x^n\\frac{d}{dx}(x^{-n}).\\end{aligned}$$\nNow solve for $\\frac{d}{dx}(x^{-n})$.\n$$\\frac{d}{dx}(x^{-n})=-\\frac{n}{x}\\frac{1}{x^n}=(-n)x^{(-n)-1}.$$\n\nLikewise fractional powers can also be accommodated without the use of\n$\\ln x$ by beginning with the property: given $1/b$ a rational number\nthen $$x= (x^{1/b})^{b}.$$ Using the chain rule we can prove the power\nrule for $x^{1/b}$ as follows.\n$$1 = \\frac{d}{dx}(x) = \\frac{d}{dx}((x^{1/b})^b)\n = b(x^{1/b})^{b-1} \\frac{d}{dx}(x^{1/b}).$$ Once again solve for\n$\\frac{d}{dx}(x^{1/b})$\n$$\\frac{d}{dx}(x^{1/b})=\\frac{1}{b (x^{1/b})^{b-1}}=\\frac{1}{b} x^{1/b} x^{-1}\n=\\frac{1}{b} x^{1/b-1}.$$\n\nFinally, the derivative of $x^{a/b}$ for any fraction $a/b$ is done by\nobserving that $x^{a/b}=(x^a)^{1/b}$ so indeed the chain rule once again\nsolves the problem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivativeOfXn"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "derivative of $x^n$",
+    "Power rule"
+  ]
+}

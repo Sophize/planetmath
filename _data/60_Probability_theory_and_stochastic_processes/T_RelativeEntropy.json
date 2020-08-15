@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Kullback-Leibler distance"
+  ],
+  "definition": "Let $p$ and $q$ be probability distributions with supports $\\mathcal{X}$\nand $\\mathcal{Y}$ respectively, where\n$ \\mathcal{X} \\subset \\mathcal{Y}$. The *relative entropy* or\n*Kullback-Leibler* distance between two probability distributions $p$\nand $q$ is defined as\n\n$$D(p||q) {:=}\\sum_{x \\in \\mathcal{X}} p(x) \\log \\frac{p(x)}{q(x)}.$$\n\nWhile $D(p||q)$ is often called a distance, it is not a true metric\nbecause it is not symmetric and does not satisfy the triangle\ninequality. However, we do have $D(p||q) \\ge 0$ with equality iff\n$p = q$.\n\n$$\\begin{aligned}\n-D(p||q) &= -\\sum_{x \\in \\mathcal{X}} p(x) \\log \\frac{p(x)}{q(x)}\\\\\n &= \\sum_{x \\in \\mathcal{X}} p(x) \\log \\frac{q(x)}{p(x)}\\\\\n &\\le \\log \\left(\\sum_{x \\in \\mathcal{X}} p(x) \\frac{q(x)}{p(x)} \\right)\\\\\n &= \\log \\left(\\sum_{x \\in \\mathcal{X}} q(x) \\right)\\\\\n &\\le \\log \\left(\\sum_{x \\in \\mathcal{Y}} q(x) \\right)\\\\\n &= 0\\end{aligned}$$\n\nwhere the first inequality follows from the concavity of $\\log(x)$ and\nthe second from expanding the sum over the support of $q$ rather than\n$p$.\n\nRelative entropy also comes in a continuous version which looks just as\none might expect. For continuous distributions $f$ and $g$,\n$\\mathcal{S}$ the support of $f$, we have\n\n$$D(f||g) {:=}\\int_{\\mathcal{S}} f \\log \\frac{f}{g}.$$",
+  "language": "INFORMAL",
+  "phrase": "Relative Entropy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RelativeEntropy"
+    }
+  ],
+  "indexable": true
+}

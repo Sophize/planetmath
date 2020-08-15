@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The polar decomposition of an operator is a generalization of the\nfamiliar factorization of a complex number $z$ in a radial part $|z|$\nand an angular part $z/|z|$.\n\nLet $\\mathscr{H}$ be a Hilbert space, $x$ a bounded operator on\n$\\mathscr{H}$. Then there exist a pair $(h,u)$, with $h$ a bounded\npositive operator and $u$ a partial isometry on $\\mathscr{H}$, such that\n$$x=uh.$$\\\nIf we impose the further conditions that $1-u^*u$ is the projection to\nthe kernel of $x$, and $\\ker(h)=\\ker(x)$, then $(h,u)$ is unique, and is\ncalled the *polar decomposition* of $x$. The operator $h$ will be $|x|$,\nthe square root of $x^*x$, and $u$ will be the partial isometry,\ndetermined by\n\n-   $u\\xi=0$ for $\\xi \\in \\ker(x)$\n\n-   $u(|x|\\xi)=x\\xi$ for $\\xi\\in \\mathscr{H}$.\n\nIf $x$ is a closed, densely defined unbounded operator on $\\mathscr{H}$,\nthe polar decomposition $(u,h)$ still exists, where now $h$ will be the\nunbounded positive operator $|x|$ with the same domain $\\mathscr{D}(x)$\nas $x$, and $u$ still the partial isometry determined by\n\n-   $u\\xi=0$ for $\\xi \\in \\ker(x)$\n\n-   $u(|x|\\xi)=x\\xi$ for $\\xi\\in \\mathscr{D}(x)$.\n\nIf $x$ is affiliated with a von Neumann algebra $M$, both $u$ and $h$\nwill be affiliated with $M$.",
+  "language": "INFORMAL",
+  "phrase": "Polar Decomposition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolarDecomposition"
+    }
+  ],
+  "indexable": true
+}

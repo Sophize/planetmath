@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "1\\) *(normalization)* Let $X$ be almost surely constant random variable,\ni.e. $\\Pr \\left\\{ X=c\\right\\} =1$; then $E\\left[ X\\right] =c$.\n\n2\\) *(linearity)* Let $X$, $Y$ be random variables such that $E\\left[\n\\left\\vert X\\right\\vert \\right] <\\infty $ and $E\\left[ \\left\\vert\nY\\right\\vert \\right] <\\infty $ and let $a$, $b$ be real numbers; then\n$E%\n\\left[ \\left\\vert aX+bY\\right\\vert \\right] <\\infty $ and $E\\left[ aX+bY%\n\\right] =aE\\left[ X\\right] +bE\\left[ Y\\right] $.\n\n3\\) *(monotonicity)* Let $X$, $Y$ be random variables such that\n$\\Pr \\left\\{ X\\leq Y\\right\\} =1$ and\n$E\\left[ \\left\\vert X\\right\\vert \\right]\n<\\infty $, $E\\left[ \\left\\vert Y\\right\\vert \\right] <\\infty $; then\n$E\\left[\nX\\right] \\leq E\\left[ Y\\right] $.\n\n1\\) Let\u2019s\ndefine$$F=\\left\\{ \\omega \\in \\Omega :X\\left( \\omega \\right) =c\\right\\} ;$$\n\nThen by hypothesis $$\\Pr \\left\\{ \\Omega \\backslash F\\right\\} =0$$\n\nand $$\\Pr \\left\\{ F\\right\\} =1.$$\n\nWe have:\n\n$$\\begin{aligned}\nE[X] &=&\\int_{\\Omega }X\\left( \\omega \\right) dP \\\\\n&=&\\int_{\\Omega \\backslash F}X\\left( \\omega \\right) dP+\\int_{F}X\\left(\n\\omega \\right) dP \\\\\n&=&\\int_{F}X\\left( \\omega \\right) dP \\\\\n&=&\\int_{F}cdP \\\\\n&=&c\\Pr \\left\\{ F\\right\\} =c.\\end{aligned}$$\n\n2\\) *\\[to be done\\]*.\n\n3\\) Let\u2019s\ndefine$$F=\\left\\{ \\omega \\in \\Omega :X\\left( \\omega \\right) \\leq Y\\left( \\omega\n\\right) \\right\\} ;$$\n\nThen by hypothesis $$\\Pr \\left\\{ \\Omega \\backslash F\\right\\} =0$$\n\nand $$\\Pr \\left\\{ F\\right\\} =1.$$\n\nWe have, keeping in mind property 2),\n\n$$\\begin{aligned}\nE[Y]-E[X] &=&E[Y-X] \\\\\n&=&\\int_{\\Omega }\\left[ Y\\left( \\omega \\right) -X\\left( \\omega \\right) %\n\\right] dP \\\\\n&=&\\int_{\\Omega \\backslash F}\\left[ Y\\left( \\omega \\right) -X\\left( \\omega\n\\right) \\right] dP+\\int_{F}\\left[ Y\\left( \\omega \\right) -X\\left( \\omega\n\\right) \\right] dP \\\\\n&=&\\int_{F}\\left[ Y\\left( \\omega \\right) -X\\left( \\omega \\right) \\right]\ndP\\geq 0.\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertiesOfExpectedValue"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "properties of expected value"
+  ]
+}

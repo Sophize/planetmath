@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *permutation pattern* is simply a permutation viewed as its\nrepresentation in one-line notation. Let $\\pi=\\pi_1\\pi_2\\dots\\pi_k$ be a\npermutation pattern on $k$ symbols. Then for any permutation\n$\\sigma=\\sigma_1\\sigma_2\\dots\\sigma_n\\in\\mathfrak{S}_n$, we say that\n$\\sigma$ *contains* $\\pi$ if there is a (not necessarily contiguous)\nsubword of $\\sigma$ of length $k$ that is order-isomorphic to $\\pi$.\nMore formally, for any subset $J=\\{j_1,\\dots,j_k\\}\\subset\\{1,\\dots,n\\}$\nof cardinality $k$, write\n$$\\sigma_J = \\sigma_{j_1} \\sigma_{j_2} \\dots \\sigma_{j_k}.$$ There is a\n$\\mathfrak{S}_J\\to\\mathfrak{S}_k$. We say that $\\sigma$ *contains* $\\pi$\nif there is some $J\\subset\\{1,\\dots,n\\}$ of cardinality $k$ such that\n$\\sigma_J\\mapsto \\pi$ under the isomorphism.\n\nIf a permutation $\\sigma$ does not contain $\\pi$, then we say that\n$\\sigma$ *avoids* the pattern $\\pi$.\n\nFor example, let $\\pi=132$. Then the permutation $\\sigma=1234$ avoids\n$\\pi$, since $\\sigma$ is strictly increasing but $\\pi$ has a descent. On\nthe other hand, $\\tau=1423$ contains $\\pi$ twice, once as the subword\n$142$ and once as the subword $143$.\n\nKnuth showed that a permutation is stack-sortable if and only if it\navoids the permutation pattern $231$.",
+  "language": "INFORMAL",
+  "phrase": "Permutation Pattern",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PermutationPattern"
+    }
+  ],
+  "indexable": true
+}

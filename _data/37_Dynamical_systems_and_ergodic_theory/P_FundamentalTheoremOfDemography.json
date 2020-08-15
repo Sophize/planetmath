@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A_t$ be a sequence of $n\\times n$ nonnegative primitive matrices.\nSuppose that $A_t\\to A_\\infty$, with $A_\\infty$ also a nonnegative\nprimitive matrix. Define the sequence $x_{t+1}=A_tx_t$, with\n$x_t\\in\\mathbb{R}^n$. If $x_0\\geq 0$, then\n$$\\lim_{t\\to\\infty} \\frac{x_t}{\\|x_t\\|} =p$$ where $p$ is the normalized\n($\\|p\\|=1$) eigenvector associated to the eigenvalue of $A_\\infty$ (also\ncalled the Perron-Frobenius eigenvector of $A_\\infty$).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalTheoremOfDemography"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fundamental theorem of demography",
+    "a weak ergodic theorem"
+  ]
+}

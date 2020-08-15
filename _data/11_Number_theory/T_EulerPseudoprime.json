@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Euler-Jacobi pseudoprime"
+  ],
+  "definition": "An [*Euler pseudoprime*]{} $p$ to a base $b$ is a composite number for\nwhich the congruence\n$$b^{\\frac{p - 1}{2}} \\equiv \\left(\\frac{b}{p}\\right) \\mod p$$ holds\ntrue, where $\\left(\\frac{a}{n}\\right)$ is the Jacobi symbol.\n\nFor example, given $b = 2$, our Jacobi symbol $\\left(\\frac{2}{p}\\right)$\nwith $p$ odd will be either 1 or $-1$. Then, for $p = 561$, the Jacobi\nsymbol is 1. Next, we see that 2 raised to the 280th is\n1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,\nwhich is one more than 561 times\n3462867900580622229802962400754935662464183313818430519165441015577369492344400175.\nHence 561 is an Euler pseudoprime. The next few Euler pseudoprimes to\nbase 2 are 1105, 1729, 1905, 2047, 2465, 4033, 4681 (see A047713 in\nSloane\u2019s OEIS). An Euler pseudoprime is sometimes called an\n[*Euler-Jacobi pseudoprime*]{}, to distinguish it from a for which the\ncongruence can be either to 1 or $-1$ regardless of the Jacobi symbol\n(341 is then an Euler pseudoprime under this relaxed definition). Both\nterms are also sometimes used alone with 2 as the implied base.\n\nIf a composite number is an Euler pseudoprime to a given base, it is\nalso a regular pseudoprime to that base, but not all regular\npseudoprimes to that base are also Euler pseudoprimes to it.\n\n[2]{} R. Crandall & C. Pomerance, [*Prime Numbers: A Computational\nPerspective*]{}, Springer, NY, 2001: 5.1 B. Fine & G. Rosenberger,\n[*Number Theory: An Introduction via the Distribution of the Primes*]{}\nBoston: Birkh\u00e4user, 2007: Definition 5.3.1.4",
+  "language": "INFORMAL",
+  "phrase": "Euler Pseudoprime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulerPseudoprime"
+    }
+  ],
+  "indexable": true
+}

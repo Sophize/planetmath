@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a finite graph with $n$ vectices and let $D$ be the of $G$\nwith respect to some orientation. The *Laplacian matrix* of $G$ is\ndefined to be $DD^T$.\n\nIf we let $A$ be the adjacency matrix of $G$ then it can be shown that\n$DD^T = \\Delta - A$, where\n$\\Delta=\\textrm{diag}(\\delta_1, \\ldots, \\delta_n)$ and $\\delta_i$ is the\ndegree of the vertex $v_i$. As a result, the Laplacian matrix is\nindependent of what orientation is chosen for $G$.\n\nThe Laplacian matrix is usually denoted by $L(G)$. It is a positive\nsemidefinite singular matrix, so that the smallest eigenvalue is 0.",
+  "language": "INFORMAL",
+  "phrase": "Laplacian Matrix Of A Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LaplacianMatrixOfAGraph"
+    }
+  ],
+  "indexable": true
+}

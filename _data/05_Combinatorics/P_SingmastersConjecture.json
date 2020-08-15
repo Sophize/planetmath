@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Conjecture. (David Singmaster). With the exception of the number 1, no\npositive integer appears in Pascal\u2019s triangle more than twelve times.\n\nNumbering the top row of Pascal\u2019s triangle (the tip with the single\ninstance of 1) as row 0, and leftmost column as row 0, it is clear that\neach integer $n > 2$ occurs at least twice, specifically, at positions\n$(n, 1)$ and $(n, n - 1)$. Singmaster was able to figure out that when\nthere is a solution to\n$$n = { F_{2k} F_{2k + 1} \\choose F_{2k - 1} F_{2k} - 1} - 1 = { F_{2k} F_{2k + 1} - 1 \\choose F_{2k - 1} F_{2k}}$$\n(with $F_i$ being the $i$th Fibonacci number) the number $n$ occurs six\ntimes in Pascal\u2019s triangle, and he showed that there are infinitely many\nsuch numbers. Empirical evidence suggests the actual maximum of\ninstances for a number to occur in Pascal\u2019s triangle may be less than\ntwelve: Pascal\u2019s triangle has been computed to millions of rows and no\nnumber (besides 1) has been encountered more than eight times.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SingmastersConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Singmaster's conjecture"
+  ]
+}

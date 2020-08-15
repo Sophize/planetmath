@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "It is desired to prove the identities\n$$\\sin(\\theta+\\phi) = \\sin\\theta\\cos\\phi + \\cos\\theta\\sin\\phi$$ and\n$$\\cos(\\theta+\\phi) = \\cos\\theta\\cos\\phi - \\sin\\theta\\sin\\phi$$\n\nConsider the figure\n\nwhere we have\n\n[$\\circ$]{}\n\n$\\triangle Aad \\equiv \\triangle Ccb$\n\n$\\triangle Bba \\equiv \\triangle Ddc$\n\n$ad = dc = 1$.\n\nAlso, everything is Euclidean, and in particular, the interior angles of\nany triangle sum to $\\pi$.\n\nCall $\\angle Aad = \\theta$ and $\\angle baB = \\phi$. From the triangle ,\nwe have $\\angle Ada = \\frac{\\pi}{2}-\\theta$ and\n$\\angle Ddc = \\frac{\\pi}{2} - \\phi$, while the degenerate angle\n$\\angle AdD = \\pi$, so that $$\\angle adc = \\theta + \\phi$$ We have,\ntherefore, that the area of the pink parallelogram is\n$\\sin(\\theta + \\phi)$. On the other hand, we can rearrange things thus:\n\nIn this figure we see an equal pink area, but it is composed of two\npieces, of areas $\\sin \\phi \\cos\\theta$ and $\\cos\\phi \\sin\\theta$.\nAdding, we have\n$$\\sin(\\theta + \\phi) = \\sin\\phi\\cos\\theta + \\cos\\phi\\sin\\theta$$ which\ngives us the first. From definitions, it then also follows that\n$\\sin(\\theta + \\pi/2) = \\cos(\\theta)$, and\n$\\sin(\\theta+\\pi) = - \\sin(\\theta)$. Writing $$\\begin{array}{rcl}\n\\cos(\\theta + \\phi)&=& \\sin(\\theta+\\phi+\\pi/2) \\\\\n&=& \\sin(\\theta)\\cos(\\phi+\\pi/2) + \\cos(\\theta) \\sin(\\phi + \\pi/2)\\\\\n&=& \\sin(\\theta)\\sin(\\phi + \\pi) + \\cos(\\theta) \\cos(\\phi) \\\\\n&=& \\cos\\theta\\cos\\phi - \\sin\\theta\\sin\\phi\n\\end{array}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AngleSumIdentity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "angle sum identity"
+  ]
+}

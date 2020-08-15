@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "paracompact space"
+  ],
+  "definition": "A topological space $X$ is said to be *paracompact* if every open cover\nof $X$ has a locally finite open refinement.\n\nIn more detail, if $(U_i)_{i\\in I}$ is any family of open subsets of $X$\nsuch that $$\\cup_{i\\in I}U_i = X\\;,$$ then there exists another family\n$(V_i)_{i\\in I}$ of open sets such that $$\\cup_{i\\in I}V_i = X$$\n$$V_i\\subset U_i\\text{ for all }i\\in I$$ and any specific $x\\in X$ is in\n$V_i$ for only finitely many $i$.\n\nSome properties:\n\n-   Any metric or metrizable space is paracompact (A. H. Stone).\n\n-   Given an open cover of a paracompact space $X$, there exists a\n    (continuous) partition of unity on $X$ subordinate to that cover.\n\n-   A paracompact , Hausdorff space is regular.\n\n-   A compact or pseudometric space is paracompact.",
+  "language": "INFORMAL",
+  "phrase": "Paracompact Topological Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ParacompactTopologicalSpace"
+    }
+  ],
+  "indexable": true
+}

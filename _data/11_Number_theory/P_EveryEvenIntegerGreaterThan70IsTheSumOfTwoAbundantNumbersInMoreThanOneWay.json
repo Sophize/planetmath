@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} Every even $n > 70$ can be expressed as $n = a + b$,\nwith both $a$ and $b$ abundant numbers, in more than one way. Due to the\ncommutative property of addition, swaps of $a$ and $b$ are not counted\nas separate ways.\n\nTo prove this it is enough to find just two ways for each even $n > 70$,\nthough of course there are plenty more ways as the numbers get larger,\npurely for our convenience we\u2019ll seek to choose the smallest values for\n$b$ possible. Since every multiple of a perfect number is an abundant\nnumber, and 6 is a perfect number, it follows that every multiple of 6\nis abundant, and it is small enough a modulus that reviewing all\npossible cases should not prove tiresome.\n\nIf $n = 6m$ and $m > 5$, the two desired pairs are $a = 6(m - 2)$,\n$b = 12$, and $a = 6(m - 3)$, $b = 18$. This leaves us the cases\n$n = 6m + 2$ and $n = 6m + 4$ to concern ourselves with.\n\nIf $n \\equiv 2 \\mod 6$ and $m > 10$ then the pairs are are\n$a = 6(m - 3)$, $b = 20$, and $a = 6(m - 9)$, $b = 56$.\n\nIf $n \\equiv 4 \\mod 6$ and $m > 12$ then the pairs are $a = 6(m - 6)$,\n$b = 40$, and $a = 6(m - 11)$, $b = 70$.\n\nThe lower bounds of $m$ have been chosen to ensure the formulas give\ndistinct pairs of abundant numbers and never the perfect number 6\nitself, but its multiples. These values of $m$ correspond to the values\nof $n$ 36, 68, 82. To complete the proof we are left with the special\ncase of $n = 76$ to examine on its own. Ignoring the bounds for $m$, the\nformulas above give us 76 = 40 + 36, a valid pair, and 76 = 70 + 6,\nwhich is not a pair of abundant numbers. But there is one other pair, 56\n+ 20, of which neither $a$ nor $b$ is a multiple of 6.\n\nThe special case of 76 shows that there are solutions that don\u2019t use\nmultiples of 6. These become more readily available as the numbers get\nlarger.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryEvenIntegerGreaterThan70IsTheSumOfTwoAbundantNumbersInMoreThanOneWay"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every even integer greater than 70 is the sum of two abundant numbers in more than one way"
+  ]
+}

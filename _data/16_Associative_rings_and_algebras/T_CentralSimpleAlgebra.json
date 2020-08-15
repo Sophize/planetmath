@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ be a field. A [*central simple algebra*]{} $A$ (over $K$) is an\nalgebra $A$ over $K$, which is finite dimensional as a vector space over\n$K$, such that\n\n-   $A$ has an identity element, as a ring\n\n-   $A$ is central: the center of $A$ equals $K$ (for all $z \\in A$, we\n    have $z\\cdot a = a \\cdot z$ for all $a \\in A$ if and only if\n    $z \\in K$)\n\n-   $A$ is simple: for any two sided ideal $I$ of $A$, either\n    $I = \\{0\\}$ or $I = A$\n\nBy a theorem of Brauer, for every central simple algebra $A$ over $K$,\nthere exists a unique (up to isomorphism) division ring $D$ containing\n$K$ and a unique natural number $n$ such that $A$ is isomorphic to the\nring of $n \\times n$ matrices with coefficients in $D$.",
+  "language": "INFORMAL",
+  "phrase": "Central Simple Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CentralSimpleAlgebra"
+    }
+  ],
+  "indexable": true
+}

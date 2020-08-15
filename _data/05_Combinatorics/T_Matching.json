@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a graph. A *matching* $M$ on $G$ is a subset of the edges of\n$G$ such that each vertex in $G$ is incident with no more than one edge\nin $M$.\n\nIt is easy to find a matching on a graph; for example, the empty set\nwill always be a matching. Typically, the most interesting matchings are\n*maximal matchings*. A maximal matching on a graph $G$ is simply a\nmatching of the largest possible size.\n\nA *perfect matching* is a matching that saturates every vertex.",
+  "language": "INFORMAL",
+  "phrase": "Matching",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Matching"
+    }
+  ],
+  "indexable": true
+}

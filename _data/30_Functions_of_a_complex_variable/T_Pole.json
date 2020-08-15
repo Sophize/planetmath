@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $U \\subset \\mathbb{C}$ be a domain and let $a \\in \\mathbb{C}$. A\nfunction $f\\colon U \\to \\mathbb{C}$ has a *pole* at $a$ if it can be\nrepresented by a Laurent series centered about $a$ with only finitely\nmany terms of negative exponent; that is,\n$$f(z) = \\sum_{k=-n}^\\infty c_k (z-a)^k$$ in some nonempty deleted\nneighborhood of $a$, with $c_{-n} \\neq 0$, for some $n \\in \\mathbb{N}$.\nThe number $n$ is called the *order* of the pole. A *simple pole* is a\npole of order 1.",
+  "language": "INFORMAL",
+  "phrase": "Pole",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Pole"
+    }
+  ],
+  "indexable": true
+}

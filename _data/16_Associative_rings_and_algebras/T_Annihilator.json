@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "left annihilator",
+    "right annihilator"
+  ],
+  "definition": "Let $R$ be a ring, and suppose that $M$ is a left $R$-module and $N$ a\nright $R$-module.\n\n### Annihilator of a Subset of a Module {#annihilator-of-a-subset-of-a-module .unnumbered}\n\n1.  If $X$ is a subset of $M$, then we define the [*left annihilator*]{}\n    of $X$ in $R$:\n    $${\\rm l.ann}(X) = \\{ r \\in R \\mid rx = 0 \\text{ for all } x \\in X \\}.$$\n    If $a,b\\in {\\rm l.ann}(X)$, then so are $a-b$ and $ra$ for all\n    $r\\in R$. Therefore, ${\\rm l.ann}(X)$ is a left ideal of $R$.\n\n2.  If $Y$ is a subset of $N$, then we define the [*right\n    annihilator*]{} of $Y$ in $R$:\n    $${\\rm r.ann}(Y) = \\{ r \\in R \\mid yr = 0 \\text{ for all } y \\in Y \\}.$$\n    Like above, it is easy to see that ${\\rm r.ann}(Y)$ is a right ideal\n    of $R$.\n\n**Remark**. ${\\rm l.ann}(X)$ and ${\\rm r.ann}(Y)$ may also be written as\n${\\rm l.ann}_R(X)$ and ${\\rm r.ann}_R(Y)$ respectively, if we want to\nemphasize $R$.\n\n### Annihilator of a Subset of a Ring {#annihilator-of-a-subset-of-a-ring .unnumbered}\n\n1.  If $Z$ is a subset of $R$, then we define the [*right\n    annihilator*]{} of $Z$ in $M$:\n    $${\\rm r.ann}_M(Z) = \\{ m \\in M \\mid zm = 0 \\text{ for all } z \\in Z \\}.$$\n    If $m,n\\in {\\rm r.ann}_M(Z)$, then so are $m-n$ and $rm$ for all\n    $r\\in R$. Therefore, ${\\rm r.ann}_M(Z)$ is a left $R$-submodule of\n    $M$.\n\n2.  If $Z$ is a subset of $R$, then we define the [*left annihilator*]{}\n    of $Z$ in $N$:\n    $${\\rm l.ann}_N(Z) = \\{ n \\in N \\mid nz = 0 \\text{ for all } z \\in Z \\}.$$\n    Similarly, it can be easily seen that ${\\rm l.ann}_N(Z)$ is a right\n    $R$-submodule of $N$.",
+  "language": "INFORMAL",
+  "phrase": "Annihilator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Annihilator"
+    }
+  ],
+  "indexable": true
+}

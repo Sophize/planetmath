@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "double negative translation"
+  ],
+  "definition": "It is well-known that classical propositional logic PL$_c$ can be\nconsidered as a subsystem of intuitionistic propositional logic PL$_i$\nby translating any wff $A$ in PL$_c$ into $\\neg \\neg A$ in PL$_i$.\nAccording to Glivenko\u2019s theorem, $A$ is a theorem of PL$_c$ iff\n$\\neg \\neg A$ is a theorem of PL$_i$. This translation, however, fails\nto preserve theoremhood in the corresponding predicate logics. For\nexample, if $A$ is of the form $\\exists x B$, then $\\vdash_c A$ no\nlonger implies $\\vdash_i \\neg \\neg A$. A number of translations have\nbeen devised to overcome this defect. They are collective known as\n*negative translations* or *double negative translations* of classical\nlogic into intuitionistic logic. Below is a list of the most commonly\nmentioned negative translations:\n\n-   *Kolmogorov negative translation*:\n\n    [2]{}\n\n    1.  $p^{\\circ}:= \\neg \\neg p$ with $p$ atomic and\n        $\\perp^{\\circ}:=\\perp$\n\n    2.  $(A\\land  B)^{\\circ}:=\\neg \\neg (A^{\\circ}\\land B^{\\circ})$\n\n    3.  $(A\\lor B)^{\\circ}:=\\neg \\neg (A^{\\circ} \\lor B^{\\circ})$\n\n    4.  $(A\\to B)^{\\circ}:=\\neg \\neg (A^{\\circ}\\to B^{\\circ})$\n\n    5.  $(\\forall x A)^{\\circ}:=\\neg\\neg \\forall x A^{\\circ}$\n\n    6.  $(\\exists x A)^{\\circ}:=\\neg\\neg \\exists x A^{\\circ}$\n\n-   *God\u00ebl negative translation*:\n\n    [2]{}\n\n    1.  $p^-:= \\neg \\neg p$ with $p$ atomic and $\\perp^-:=\\perp$\n\n    2.  $(A\\land  B)^-:=A^-\\land B^-$\n\n    3.  $(A\\lor B)^-:=\\neg \\neg (A^- \\lor B^-)$\n\n    4.  $(A\\to B)^-:=A^-\\to B^-$\n\n    5.  $(\\forall x A)^-:=\\forall x A^-$\n\n    6.  $(\\exists x A)^-:=\\neg\\neg \\exists x A^-$\n\n-   *Kuroda negative translation*:\n\n    [2]{}\n\n    1.  $p_u:= p$ with $p$ atomic and $\\perp_u:=\\perp$\n\n    2.  $(A\\land  B)_u:=A_u\\land B_u$\n\n    3.  $(A\\lor B)_u:=A_u \\lor B_u$\n\n    4.  $(A\\to B)_u:=A_u\\to B_u$\n\n    5.  $(\\forall x A)_u:=\\forall x \\neg\\neg A_u$\n\n    6.  $(\\exists x A)_u:=\\exists x A_u$\n\n    And then $A^u:=\\neg \\neg A_u$.\n\n-   *Krivine negative translation*:\n\n    [2]{}\n\n    1.  $p_r:= \\neg p$ with $p$ atomic and $\\perp_r:=\\neg \\perp$\n\n    2.  $(A\\land  B)_r:=A_r\\lor B_r$\n\n    3.  $(A\\lor B)_r:=A_r \\land B_r$\n\n    4.  $(A\\to B)_r:=\\neg A_r\\land B_r$\n\n    5.  $(\\forall x A)_r:=\\exists x A_r$\n\n    6.  $(\\exists x A)_r:=\\neg \\exists x \\neg A_r$\n\n    And then $A^r:=\\neg A_r$.\n\n**Remark**. It can be shown that for any wff $A$:\n$$\\vdash_i A^* \\leftrightarrow A^{\\#}\\qquad\\qquad \\mbox{and} \\qquad\\qquad \\vdash_c A \\quad \\mbox{iff} \\quad \\vdash_i A^*$$\nwhere $*,\\# \\in \\lbrace \\circ, -, u, r\\rbrace$.",
+  "language": "INFORMAL",
+  "phrase": "Negative Translation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NegativeTranslation"
+    }
+  ],
+  "indexable": true
+}

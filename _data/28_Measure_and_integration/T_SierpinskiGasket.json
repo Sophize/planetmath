@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Sierpinski triangle",
+    "Sierpinski gasket",
+    "Sierpi\\'nski triangle"
+  ],
+  "definition": "Let $S_0$ be a triangular area, and define $S_{n+1}$ to be obtained from\n$S_n$ by replacing each triangular area in $S_n$ with three similar and\nsimilarly oriented triangular areas each intersecting with each of the\nother two at exactly one vertex, each one half the linear scale of the\noriginal in size. The limiting set as $n\\rightarrow \\infty$ (alternately\nthe intersection of all these sets) is a [*S*ierpi\u0144ski gasket]{}, also\nknown as a [*S*ierpi\u0144ski triangle]{}.\n\n![Sierpi\u0144ski gasket stage 0, a single triangle, and at stage 1, three\ntriangles](s01.png \"fig:\"){width=\"5cm\"} ![Sierpi\u0144ski gasket stage 0, a\nsingle triangle, and at stage 1, three\ntriangles](s02.png \"fig:\"){width=\"5cm\"}\n\n![Stage 2, nine triangles, and stage $n$, $3^n$\ntriangles](s03.png \"fig:\"){width=\"5cm\"} ![Stage 2, nine triangles, and\nstage $n$, $3^n$ triangles](s04.png \"fig:\"){width=\"5cm\"}",
+  "language": "INFORMAL",
+  "phrase": "Sierpi\\'Nski Gasket",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SierpinskiGasket"
+    }
+  ],
+  "indexable": true
+}

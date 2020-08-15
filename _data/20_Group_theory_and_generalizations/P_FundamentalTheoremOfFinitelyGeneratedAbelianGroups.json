@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a finitely generated abelian group. Then there is a unique\nexpression of the form: $$G\\cong\n{\\mathbb{Z}}^{r}\\oplus{\\mathbb{Z}}/n_1{\\mathbb{Z}}\\oplus{\\mathbb{Z}}/n_2{\\mathbb{Z}}\\oplus\\ldots\\oplus{\\mathbb{Z}}/n_s{\\mathbb{Z}}$$\nfor some integers $r,n_i$ satisfying:\n$$r\\geq 0;\\quad \\forall i, n_i\\geq 2;\\quad n_{i+1}\\mid n_i\\ \\text{for }\n1\\leq i\\leq s-1.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalTheoremOfFinitelyGeneratedAbelianGroups"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fundamental theorem of finitely generated abelian groups",
+    "classification of finitely generated abelian groups"
+  ]
+}

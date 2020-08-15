@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $P$ be a poset, partially ordered by $\\leq$. An element $a\\in P$ is\ncalled an *atom* if it covers some minimal element of $P$. As a result,\nan atom is never minimal. A poset $P$ is called *atomic* if for every\nelement $p\\in P$ that is not minimal has an atom $a$ such that\n$a\\leq p$.\n\n**Examples**.\n\n1.  Let $A$ be a set and $P=2^A$ its power set. $P$ is a poset ordered\n    by $\\subseteq$ with a unique minimal element $\\varnothing$. Thus,\n    all singleton subsets $\\lbrace a \\rbrace$ of $A$ are atoms in $P$.\n\n2.  $\\mathbb{Z}^+$ is partially ordered if we define $a\\leq b$ to mean\n    that $a\\mid b$. Then $1$ is a minimal element and any prime number\n    $p$ is an atom.\n\n**Remark.** Given a lattice $L$ with underlying poset $P$, an element\n$a\\in L$ is called an *atom* (of $L$) if it is an atom in $P$. A lattice\nis a called an *atomic lattice* if its underlying poset is atomic. An\n*atomistic lattice* is an atomic lattice such that each element that is\nnot minimal is a join of atoms. If $a$ is an atom in a semimodular\nlattice $L$, and if $a$ is not under $x$, then $a\\vee x$ is an atom in\nany interval lattice $I$ where $x=\\bigwedge I$.\n\n**Examples**.\n\n1.  $P=2^A$, with the usual intersection and union as the lattice\n    operations meet and join, is atomistic: every subset $B$ of $A$ is\n    the union of all the singleton subsets of $B$.\n\n2.  $\\mathbb{Z}^+$, partially ordered as above, with lattice binary\n    operations defined by $a\\wedge b=\\operatorname{gcd}(a,b)$, and\n    $a\\vee b= \\operatorname{lcm}(a,b)$, is a lattice that is atomic, as\n    we have seen earlier. But it is not atomistic: $4$ is not a join of\n    $2$\u2019s; $36$ is not a join of $2$ and $3$ are just two\n    counterexamples.",
+  "language": "INFORMAL",
+  "phrase": "Atom",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Atom"
+    }
+  ],
+  "indexable": true
+}

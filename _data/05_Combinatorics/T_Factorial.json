@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "factorial function"
+  ],
+  "definition": "For any non-negative integer $n$, the [*factorial*]{} of $n$, denoted\n$n!$, can be defined by $$n!=\\prod_{r=1}^n r$$ where for $n=0$ the empty\nproduct is taken to be $1$.\n\nAlternatively, the factorial can be defined recursively by $0!=1$ and\n$n!=n(n-1)!$ for $n>0$.\n\n$n!$ is equal to the number of permutations of $n$ distinct objects. For\nexample, there are $5!$ ways to arrange the five letters A, B, C, D and\nE into a word.\n\nFor every non-negative integer $n$ we have $$\\Gamma(n+1) = n!$$ where\n$\\Gamma$ is Euler\u2019s gamma function. In this way the notion of factorial\ncan be generalized to all values except the negative integers.",
+  "language": "INFORMAL",
+  "phrase": "Factorial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Factorial"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Erd\u0151s-Turan conjecture asserts there exist no $A\\subset {\\mathbb{N}}_0$\nof order $2$ such that its representation function\n$$r'_{A,2}(n)=\\sum_{\\substack{a_1+a_2=n\\\\a_1\\leq a_2}} 1$$ is bounded.\n\nAlternatively, the question can be phrased as whether there exists a\npower series $F$ with coefficients $0$ and $1$ such that all\ncoefficients of $F^2$ are greater than $0$, but are bounded.\n\nIf we replace set of nonnegative integers by the set of all integers,\nthen the question was settled by Nathanson[@cite:nathanson_everyrepr] in\nnegative, that is, there exists a set $A\\subset {\\mathbb{Z}}$ such that\n$r'_{A,2}(n)=1$.\n\n[1]{}\n\nHeini Halberstam and Klaus\u00a0Friedrich Roth. . Springer-Verlag, second\nedition, 1983. .\n\nMelvyn\u00a0B. Nathanson. Every function is the representation function of an\nadditive basis for the integers. .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ErdHosTuranConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Erd\\H{o}s-Turan conjecture"
+  ]
+}

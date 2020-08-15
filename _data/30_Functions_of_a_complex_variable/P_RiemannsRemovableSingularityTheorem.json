@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $U\\subset\\mathbb{C}$ be a domain, $a\\in U$, and let\n$f:U\\setminus\\{a\\}$ be holomorphic. Then $a$ is a removable singularity\nof $f$ if and only if $$\\lim_{z\\to a}(z-a)f(z)=0.$$\n\nIn particular, $a$ is a removable singularity of $f$ if $f$ is near $a$,\ni.e. if there is a punctured neighborhood $V$ of $a$ and a real number\n$M>0$ such that $|f(z)|<M$ for all $z\\in V$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RiemannsRemovableSingularityTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Riemann's removable singularity theorem"
+  ]
+}

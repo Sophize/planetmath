@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If the binary operation \u201c$\\cdot$\u201d on the set $S$ is\ncommutative, then for each $a_1, a_2,\\ldots,a_n$ in $S$ and for each\npermutation $\\pi$ on $\\{1,\\,2,\\,\\ldots,\\,n\\}$, one has $$\\begin{aligned}\n\\prod_{i=1}^na_{\\pi(i)} \\;=\\; \\prod_{i=1}^na_i.\\end{aligned}$$\n\n*Proof.* If $n = 1$, we have nothing to prove. Make the induction\nhypothesis, that (1) is true for $n = m\\!-\\!1$. Denote\n$$\\pi^{-1}(m) \\;=\\; k, \\quad \\mbox{i.e.} \\quad \\pi(k) = m.$$ Then\n$$\\prod_{i=1}^ma_{\\pi(i)} \\;=\\; \n\\prod_{i=1}^{k-1}a_{\\pi(i)}\\cdot a_{\\pi(k)}\\cdot\\prod_{i=1}^{m-k}a_{\\pi(k+i)} \\;=\\;\n\\left(\\prod_{i=1}^{k-1}a_{\\pi(i)}\\cdot\\prod_{i=1}^{m-k}a_{\\pi(k+i)}\\right)\\cdot a_m,$$\nwhere $a_m$ has been moved to the end by the induction hypothesis. But\nthe product in the parenthesis, which exactly the factors\n$a_1, a_2, \\ldots, a_{m-1}$ in a certain , is also by the induction\nhypothesis equal to $\\prod_{i=1}^{m-1}a_i$. Thus we obtain\n$$\\prod_{i=1}^ma_{\\pi(i)} \\;=\\; \\prod_{i=1}^{m-1}a_i\\cdot a_m \\;=\\; \\prod_{i=1}^ma_i,$$\nwhence (1) is true for $n = m$.\\\n**Note.** There is mentionned in the Remark of the entry \u201c\u201d a more\ngeneral notion of commutativity.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralCommutativity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "general commutativity"
+  ]
+}

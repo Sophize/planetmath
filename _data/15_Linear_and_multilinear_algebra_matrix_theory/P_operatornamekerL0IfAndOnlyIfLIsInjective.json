@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A linear map between vector spaces is injective if and only if its\nkernel is $\\{0\\}$.\n\nLet $L: V \\to W$ be a linear map. Suppose $L$ is injective, and $L(v)=0$\nfor some vector $v\\in V$. Also, $L(0) =0$ because $L$ is linear. Then\n$L(v)=L(0)$, so $v=0$. On the other hand, suppose\n$\\operatorname{ker}L=\\{0\\}$, and $L(v)=L(v')$ for vectors $v,v'\\in V$.\nHence $L(v-v') = L(v)-L(v') = 0$ because $L$ is linear. Therefore,\n$v-v'$ is in $\\operatorname{ker}L=\\{0\\}$, which means that $v-v'$ must\nbe $0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/operatornamekerL0IfAndOnlyIfLIsInjective"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$\\operatorname{ker} L=\\{0\\}$ if and only if $L$ is injective"
+  ]
+}

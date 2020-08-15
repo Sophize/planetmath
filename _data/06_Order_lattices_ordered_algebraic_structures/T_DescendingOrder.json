@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sequence or arbitrary ordered set or one-dimensional array of numbers,\n$a$, is said to be in [*descending order*]{} if each\n$a_i \\ge a_{i + 1}$. For example, the aliquot sequence of 259 is in\ndescending order: 45, 33, 15, 9, 4, 3, 1, 0, 0, 0 ... The aliquot\nsequence starting at 60, however, is not in descending order: 108, 172,\n136, 134, 70, 74, 40, 50, 43, 1, 0, 0, 0 ...\n\nIn a trivial sense, the sequence of values of the sign function\nmultiplied by -1 is in descending order: ... 1, 1, 1, 0, \u20131, \u20131, \u20131...\nWhen each $a_i > a_{i + 1}$ in the sequence, set or array, then it can\nbe said to be in [*strictly descending order*]{}.",
+  "language": "INFORMAL",
+  "phrase": "Descending Order",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DescendingOrder"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Define the function $G$ for integers $n>1$ by\n$$G(n) \\; :=\\; \\frac{\\sigma(n)}{n\\ln(\\ln{n})},$$ where $\\sigma(n)$ is\nthe sum of the positive divisors of $n$. A positive integer $N$ is said\nto be an [*extraordinary number*]{} if it is composite and\n$$G(N) \\;\\ge\\; \\max\\{G(N/p),\\,G(aN)\\}$$ for any prime factor $p$ of $N$\nand any multiple $aN$ of $N$.\\\nIt has been proved in \\[1\\] that the Riemann Hypothesis is true iff 4 is\nthe only extraordinary number. The proof is based on Gronwall\u2019s theorem\nand Robin\u2019s theorem.\n\n[8]{} : Robin\u2019s theorem, primes, and a new elementary reformulation of\nthe Riemann Hypothesis. $-$ *Integers* **11** (2011) article A33;\navailable directly at .",
+  "language": "INFORMAL",
+  "phrase": "Extraordinary Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtraordinaryNumber"
+    }
+  ],
+  "indexable": true
+}

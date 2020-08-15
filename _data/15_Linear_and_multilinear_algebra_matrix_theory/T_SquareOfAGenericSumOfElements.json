@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The formula for computing the square of a generic sum of terms is as\nfollows:\n\n$$\\left(\\sum_{k=1}^{K}a_{k}\\right)^{2}=\\sum_{k=1}^{K}a_{k}^{2}+2\\sum_{j=1}^{K}\\sum_{i<j}a_{i}a_{j}$$\n\nWe can prove this property by induction, considering that it holds for\nK=2, since $$(a+b)^2 = a^2 + b^2 + 2ab$$ and that if the property holds\nfor a generic K, then it holds also for K+1, as is proven in the\nfollowing passages:\n\n$$\\begin{aligned}\\left(\\sum_{k=1}^{K+1}a_{k}\\right)^{2} & =\\left(\\sum_{k=1}^{K}a_{k}+a_{K+1}\\right)^{2}=\\left(\\sum_{k=1}^{K+1}a_{k}\\right)^{2}+a_{K+1}^{2}+2\\sum_{k=1}^{K}a_{k}a_{K+1}\\\\\n& =\\sum_{k=1}^{K}a_{k}^{2}+2\\sum_{j=1}^{K}\\sum_{i<j}a_{i}a_{j}+a_{K+1}^{2}+2\\sum_{k=1}^{K}a_{k}a_{K+1}=\\\\\n& =\\sum_{k=1}^{K+1}a_{k}^{2}+2\\sum_{j=1}^{K+1}\\sum_{i<j}a_{i}a_{j}\n\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Square Of A Generic Sum Of Elements",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SquareOfAGenericSumOfElements"
+    }
+  ],
+  "indexable": true
+}

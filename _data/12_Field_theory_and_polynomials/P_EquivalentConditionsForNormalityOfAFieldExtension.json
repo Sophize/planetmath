@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $K/F$ is an algebraic extension of fields, then the following are\nequivalent:\n\n1.  $K$ is normal over $F$;\n\n2.  $K$ is the splitting field over $F$ of a set of polynomials in\n    $F[X]$;\n\n3.  if $\\overline{F}$ is an algebraic closure $F$ containing $K$ and\n    $\\sigma:K\\rightarrow\\overline{F}$ is an $F$-monomorphism, then\n    $\\sigma(K)=K$.\n\n(1)$\\Rightarrow$(2) Let $X$ be an $F$-basis for $K$, and for each\n$x\\in X$, let $f_x$ be the irreducible polynomial of $x$ over $F$. By\nhypothesis, each $f_x$ splits over $K$, and because we evidently have\n$K=F(X)$, it follows that $K$ is a splitting field of ${\\{f_x:x\\in X\\}}$\nover $F$.\\\n(2)$\\Rightarrow$(3) Assume that $K$ is a splitting field over $F$ of\n$S\\subseteq F[X]$. Given $f\\in S$, we may write\n$f(X)=u\\prod_{i=1}^n(X-u_i)$ for some $u,u_1,\\ldots,u_n\\in K$; because\n$\\sigma$ fixes $F$ pointwise, we have\n$\\sigma(u_i)\\in{\\{u_1,\\ldots,u_n\\}}$ for $1\\leq i\\leq n$, and since\n$\\sigma$ is injective, it must simply permute the roots of $f$. Thus\n$u_1,\\ldots,u_n\\in\\sigma(K)$. As $K$ is generated over $F$ by the roots\nof the polynomials in $S$, we obtain $K=\\sigma(K)$.\\\n(3)$\\Rightarrow$(1) Let $\\overline{K}$ be an algebraic closure of $K$,\nnoting that, since $K$ is algebraic over $F$, that same is true of\n$\\overline{K}$, and consequently $\\overline{K}$ is an algebraic closure\nof $F$ containing $K$. Now suppose $f\\in F[X]$ is irreducible and that\n$u\\in K$ is a root of $f$, and let $v$ be any root of $F$ in\n$\\overline{K}$. There exists an $F$-isomorphism\n$\\tau:F(u)\\rightarrow F(v)$ such that $\\tau(u)=v$. Because\n$\\overline{K}$ is a splitting field over both $F(u)$ and $F(v)$ of the\nset of irreducible polynomials in $F[X]$, $\\tau$ extends to an\n$F$-isomorphism $\\sigma:\\overline{K}\\rightarrow\\overline{K}$. It follows\nthat $\\sigma\\vert_K:K\\rightarrow\\overline{K}$ is an $F$-monomorphism, so\nthat, by hypothesis, $\\sigma(K)=K$, hence that $v=\\sigma(u)\\in K$. Thus\n$f$ splits over $K$, and therefore $K/F$ is normal.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquivalentConditionsForNormalityOfAFieldExtension"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "equivalent conditions for normality of a field extension"
+  ]
+}

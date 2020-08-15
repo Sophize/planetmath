@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "overloaded"
+  ],
+  "definition": "To assign another meaning to a symbol that already has a meaning, or a\nnew operation to an operator that is already assigned to another\noperation. Perhaps the quintessential example of overloading in\nmathematics is the case of the Greek letter $\\pi$. In geometry $\\pi$\nrefers to the ratio between the perimeter and the diameter on a circle,\nwhile in number theory $\\pi(x)$ refers to the prime counting function,\nand not the multiplication of $x$ by the circle perimeter/diameter\nratio.\n\nIn some cases it is possible to resolve meaning purely from context. For\nexample, if $i$ occurs under a $\\Sigma$ or a $\\Pi$ it is most likely\njust a generic iterator. Absent those Greek letters, it could be the\nimaginary unit, $\\sqrt{-1}$.\n\nThe + operator is often overloaded to be both the addition of numbers\noperator and the string concatenation operator.\n\nIn computer programming languages, overloading is one of the kinds of\nad-hoc polymorphism, and it is argued that this helps reduce the kind of\nnotational clutter that might ensue if every operation had to have an\noperator specifically designed for its type.",
+  "language": "INFORMAL",
+  "phrase": "Overload",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Overload"
+    }
+  ],
+  "indexable": true
+}

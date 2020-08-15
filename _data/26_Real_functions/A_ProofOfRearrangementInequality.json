@@ -1,0 +1,17 @@
+{
+  "argumentText": "We first prove the rearrangement inequality for the case $n=2$. Let\n$x_1,x_2,y_1,y_2$ be real numbers such that $x_1\\le x_2$ and $y_1\\le\ny_2$. Then $$(x_2-x_1)(y_2-y_1)\\ge 0,$$ and therefore\n$$x_1y_1+x_2y_2\\ge x_1y_2+x_2y_1.$$ Equality holds iff $x_1=x_2$ or\n$y_1=y_2$.\\\n\\\nFor the general case, let $x_1,x_2,\\ldots,x_n$ and $y_1,y_2,\\ldots,y_n$\nbe real numbers such that $x_1\\le x_2\\le\\cdots\\le\nx_n$. Suppose that $(z_1,z_2,\\ldots,z_n)$ is a permutation\n(rearrangement) of $\\{y_1,y_2,\\ldots,y_n\\}$ such that the sum\n$$x_1z_1+x_2z_2+\\cdots+x_nz_n$$ is maximized. If there exists a pair\n$i<j$ with $z_i>z_j$, then $x_iz_j+x_jz_i\\ge x_iz_i+x_jz_j$ (the $n=2$\ncase); equality holds iff $x_i=x_j$. Therefore,\n$x_1z_1+x_2z_2+\\cdots+x_nz_n$ is not maximal unless\n$z_1\\le z_2\\le\\cdots\\le z_n$ or $x_i=x_j$ for all pairs $i<j$ such that\n$z_i>z_j$. In the latter case, we can consecutively interchange these\npairs until $z_1\\le z_2\\le\\cdots\\le z_n$ (this is possible because the\nnumber of pairs $i<j$ with $z_i>z_j$ decreases with each step). So\n$x_1z_1+x_2z_2+\\cdots+x_nz_n$ is maximized if\n$$z_1\\le z_2\\le\\cdots\\le z_n.$$ To show that\n$x_1z_1+x_2z_2+\\cdots+x_nz_n$ is minimal for a permutation\n$(z_1,z_2,\\ldots,z_n)$ of $\\{y_1,y_2,\\ldots,y_n\\}$ if\n$z_1\\ge z_2\\ge\\cdots\\ge z_n$, observe that\n$-(x_1z_1+x_2z_2+\\cdots+x_nz_n)=x_1(-z_1)+x_2(-z_2)+\\cdots+x_n(-z_n)$ is\nmaximized if $-z_1\\le-z_2\\le\\cdots\\le-z_n$. This implies that\n$x_1z_1+x_2z_2+\\cdots+x_nz_n$ is minimized if\n$$z_1\\ge z_2\\ge\\cdots\\ge z_n.$$",
+  "conclusion": "#P_RearrangementInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfRearrangementInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of rearrangement inequality"
+  ]
+}

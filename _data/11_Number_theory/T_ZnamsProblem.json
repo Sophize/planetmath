@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Znam's problem"
+  ],
+  "definition": "Given a length $k$, is it possible to construct a set of integers\n$n_1, \\ldots , n_k$ such that each\n\n$$n_i |(1 + \\prod_{j \\ne i}^n n_j)$$\n\nas a proper divisor? This is *Zn\u00e1m\u2019s problem*.\n\nThis problem has solutions for $k > 4$, and all solutions for\n$4 < k < 9$ have been found, and a few for higher $k$ are known. The\nSylvester sequence provides many of the solutions. At Wayne University\nin 2001, Brenton and Vasiliu devised an algorithm to exhaustively search\nfor solutions for a given length, and thus they found all solutions for\n$k = 8$. Their algorithm, though smarter than a brute force search, is\nstill computationally intense the larger $k$ gets.\n\nSolutions to the problem have applications in continued fractions and\nperfectly weighted graphs.\n\nThe problem is believed to have been first posed by in 1972. Qi Sun\nproved in 1983 that there are solutions for all $k > 4$.\n\nReferences\n\nBrenton, L, and Vasiliu, A. \u201cZnam\u2019s Problem.\" Math. Mag. [**75**]{},\n3-11, 2002.",
+  "language": "INFORMAL",
+  "phrase": "Zn\\'Am'S Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZnamsProblem"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "closure",
+    "closure function",
+    "closure operator"
+  ],
+  "definition": "Let $P$ be a poset. A function $c:P \\to P$ is called a *closure map* if\n\n-   $c$ is order preserving,\n\n-   $1_P \\le c$,\n\n-   $c$ is idempotent: $c\\circ c = c$.\n\nIf the second condition is changed to $c\\le 1_P$, then $c$ is called a\n*dual closure map* on $P$.\n\nFor example, the real function $f$ such that $f(r)$ is the least integer\ngreater than or equal to $r$ is a closure map (see Archimedean\nproperty). The rounding function $[\\cdot]$ is an example of a dual\nclosure map.\n\nA *fixed point* of a closure map $c$ on $P$ is an element $x\\in P$ such\nthat $c(x)=x$. It is evident that every image point of $c$ is a fixed\npoint: for if $x=c(a)$ for some $a\\in P$, then $c(x)=c(c(a))=c(a)=x$.\n\nIn the example above, any integer is a fixed point of $f$.\n\nEvery closure map can be characterized by an interesting decomposition\nproperty: $c: P\\to P$ is a closure map iff there is a set $Q$ and a\nresiduated function $f: P\\to Q$ such that $c=f^+\\circ f$, where $f^+$\ndenotes the residual of $f$.\n\nAgain, in the example above, $f=g^+\\circ g$, where\n$g: \\mathbb{R}\\to\\mathbb{Z}$ is the function taking any real number $r$\nto the largest integer smaller than $r$. $g$ is residuated, and its\nresidual is $g^+(x)=x+1$.\n\n**Remark**. Closure maps are generalizations to closure operator on a\nset (see the parent entry). Indeed, any closure operator on a set $X$\ntakes a subset $A$ of $X$ to a subset $A^c$ of $X$ satisfying the\nclosure axioms, where Axiom 2 corresponds to condition 2 above, and\nAxiom 3 says the operator is idempotent. To see that the operator is\norder preserving, suppose $A\\subseteq B$. Then\n$B^c = (A\\cup B)^c =A^c \\cup B^c$ by Axiom 4, and hence\n$A^c\\subseteq B^c$. Axiom 1 says that the empty set $\\varnothing$ is a\nfixed point of the operator. However, in general, this is not the case,\nfor $P$ may not even have a minimal element, as indicated by the above\nexample.\n\n[6]{} T.S. Blyth, [*Lattices and Ordered Algebraic Structures*]{},\nSpringer, New York (2005).",
+  "language": "INFORMAL",
+  "phrase": "Closure Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosureMap"
+    }
+  ],
+  "indexable": true
+}

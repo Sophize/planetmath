@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a Hausdorff topological space. A basis for $X$ is said to be\na *uniform base* if for all $x\\in X$ and every neighborhood $U$ of $x$,\nonly a finite number of the basis sets containing $x$ intersect the\ncomplement of $U$.\n\nFor example, in any metric space, the open balls of radius $\\frac{1}{n}$\nform a uniform base of $X$.\n\nAny uniform base of $X$ is a point countable base.\n\n[9]{} Steen, Lynn Arthur and Seebach, J. Arthur, *Counterexamples in\nTopology*, Dover Books, 1995.",
+  "language": "INFORMAL",
+  "phrase": "Uniform Base",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformBase"
+    }
+  ],
+  "indexable": true
+}

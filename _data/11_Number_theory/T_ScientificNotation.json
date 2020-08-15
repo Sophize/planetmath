@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[*Scientific notation*]{} is a manner of expressing real numbers in base\n10 which provides a more compact way of writing very large or very small\nnumbers without needing too many zeroes. To put it algebraically, a real\n$x$ is expressed as $b \\times 10^a$, where $b$ is a rational real number\nwith a limited number of decimal places, and $a$ is an integer.\n\nFor example, 474200000000000000000000000000000000000000001701 is written\nas $4.742 \\times 10^{47}$ in scientific notation, while the reciprocal\nof that number is written as $2.10881 \\times 10^{-48}$ in scientific\nnotation. The number multiplied by the power of 10 is called the\n[*mantissa*]{}. It is customary to choose the mantissa $b$ to be in the\nrange $0 \\le |b| < 10$ so as to enable easier comparison of values. For\nexample, it is clear from looking at the exponents alone, that of the\nnumbers $3.1403 \\times 10^{97}$ and $-4.58990321 \\times 10^{1729}$, the\nlatter has the greater absolute value.\n\nIt is understood that some loss of precision is acceptable for the\napplication at hand; that it is not necessary to know the least\nsignificant digit, or even hundreds of digits besides the few most\nsignificant to be put in the mantissa. This would be unacceptable in\nmost applications of number theory, but it is adequate and even\nnecessary for many applications in scientific fields such as physics,\nbiology, seismography, etc.\n\nMost scientific calculators support scientific notation, with the 10\ntacit and possibly the letter \u201cE\u201d (for exponent). Hardware calculators\nmight be limited to exponents $-100 < a < 100$. Software calculators are\nusually not subject to this limitation.",
+  "language": "INFORMAL",
+  "phrase": "Scientific Notation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ScientificNotation"
+    }
+  ],
+  "indexable": true
+}

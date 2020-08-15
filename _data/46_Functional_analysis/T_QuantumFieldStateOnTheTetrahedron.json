@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "state on the tetrahedron"
+  ],
+  "definition": "Topological Quantum Field (TQFT) State on the Tetrahedron\n=========================================================\n\nLet us consider first a regular whose corners will have attached to them\nthe TQFT symbols representing a TQF state in terms of so-called\n\u20186j-symbols\u2019 as further detailed next. The vertices of the tetrahedron\nare located at the points $(a_x, a_y, a_z)$, $(b_x, b_y, b_z)$,\n$(c_x, c_y, c_z)$, and $(d_x, d_y, d_z)$, that will be labeled,\nrespectively, as $1,2,3,4$.\n\nA *quantum field (QF) state* $\\phi$ provides a total order denoted by\n$ \\leq_{\\phi}$ on the vertices of the tetrahedron, and thus also assigns\na \u2018direction\u2019 to each edge of the tetrahedron\u2013from the apparently\n\u2018smaller\u2019 to the apparently \u2018larger\u2019 vertices; a QF state also labels\neach edge $ e = (i,j)$, by an element $\\phi_1 (e)$ of $B_A$, which is a\n*distinguished basis of a fusion algebra* ${\\mathcal A}$, that is, a\nfinite-dimensional, unital, involutive algebra over $\\mathbb{C}$ \u2013the\nfield of complex numbers. Moreover, the QF state assigns an element\n${\\phi}^2 (f)$ \u2013called an intertwiner\u2013 of a Hilbert space\n$${\\mathcal H}_{\\phi}(f)= {{\\mathcal H}^{\\phi_1 (ik)}}_{\\phi_1 (jk), \\phi_1 (ij)}$$\nto each face $f=(ijk)$ of the tetrahedron, such that\n$i\\prec_{\\phi} j \\prec_{\\phi}k .$\n\n**Notes:** A *topological quantum field theory* ([*TQFT*]{}) is\ndescribed as a mathematical approach to quantum field theory that allows\nthe computation of topological invariants of quantum state spaces (QSS),\nusually for cases of lower dimensions encountered in certain condensed\nphases or strongly correlated (quantum) superfluid states. TQFT has some\nof its origins in theoretical physics as well as \u2019s research; this was\nfollowed by Edward Witten, Maxim Kontsevich, Jones and Donaldson, who\nall have been awarded Fields Medals for work related to topological\nquantum field theory; furthermore, Edward Witten and Maxim Kontsevich\nshared in 2008 the Crafoord prize for TQFT related work. As an example,\nMaxim Kontsevich introduced the concept of homological mirror (quantum)\nsymmetry in relation to a mathematical conjecture in superstring theory.\n\n[9]{}\n\nV. Kodyiyalam and V. S. Sunder. 2001. ., Chapman and Hall/CRC.",
+  "language": "INFORMAL",
+  "phrase": "Quantum Field State On The Tetrahedron",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuantumFieldStateOnTheTetrahedron"
+    }
+  ],
+  "indexable": true
+}

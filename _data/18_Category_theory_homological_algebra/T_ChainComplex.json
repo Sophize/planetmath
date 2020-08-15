@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "R-complex"
+  ],
+  "definition": "Let $R$ be a ring. A sequence of and homomorphisms $$\\cdots \\rightarrow\n  A_{n+1} \\buildrel {d_{n+1}} \\over \\longrightarrow\n  A_n \\buildrel {d_n} \\over \\longrightarrow\n  A_{n-1} \\rightarrow\n  \\cdots$$ is said to be a *chain complex* (or *$R$-complex*, or just\n*complex*) if each pair of adjacent homomorphisms $(d_{n+1}, d_n)$\nsatisfies the relation $d_n\\circ d_{n+1} = 0$. This is equivalent to\nsaying that $\\im d_{n+1} \\subseteq \\ker d_n$. We often denote such a\ncomplex by $({\\bold A}, d)$, or simply ${\\bold A}$.\n\nCompare this to the notion of an exact sequence, which requires\n$\\im d_{n+1} = \\ker d_n$.\n\nThe homomorphisms $d_n$ in the chain complex are called *boundary\noperators*, or *boundary maps*.",
+  "language": "INFORMAL",
+  "phrase": "Chain Complex",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChainComplex"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Kronecker delta* $\\delta_{ij}$ is defined as having value 1 when\n$i=j$ and 0 otherwise ($i$ and $j$ are integers). It may also be written\nas $\\delta^{ij}$ or $\\delta^i_j$. It is a special case of the\ngeneralized Kronecker delta symbol.\n\nThe delta symbol was first used in print by Kronecker in 1868[@Higham].\n\n[**Example.**]{}\n\nThe $n \\times n$ identity matrix $I$ can be written in terms of the\nKronecker delta as simply the matrix of the delta, $I_{ij}=\\delta_{ij}$,\nor simply $I=(\\delta_{ij})$.\n\n[3]{} N. Higham, Handbook of writing for the mathematical sciences,\nSociety for Industrial and Applied Mathematics, 1998.",
+  "language": "INFORMAL",
+  "phrase": "Kronecker Delta",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KroneckerDelta"
+    }
+  ],
+  "indexable": true
+}

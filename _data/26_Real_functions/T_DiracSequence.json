@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "delta sequence"
+  ],
+  "definition": "A *Dirac sequence* is a sequence $(\\delta_k)$ of functions $\\delta_k$,\nwhich satisfies the following conditions:\n\n1.  $\\delta_k\\geq0$ for all $k$.\\\n\n2.  $\\int_{-\\infty}^\\infty\\delta_k(t)dt=1$ for all $k$.\\\n\n3.  For every $r>0$ and $\\varepsilon>0$ there is an $N\\in\\mathbb{N}$,\n    such that for all $k>N$ we have\n    $$\\int_{\\mathbb{R}\\backslash[-r,r]}\\delta_k(t)dt<\\varepsilon.$$\n\nThese functions \u201cconverge\u201d to the Dirac delta function.",
+  "language": "INFORMAL",
+  "phrase": "Dirac Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiracSequence"
+    }
+  ],
+  "indexable": true
+}

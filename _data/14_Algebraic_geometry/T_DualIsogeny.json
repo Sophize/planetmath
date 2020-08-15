@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an isogeny $f : E {\\rightarrow}E'$ of elliptic curves of degree\n$n$, the *dual isogeny* is an isogeny $\\hat{f} : E' {\\rightarrow}E$ of\nthe same degree such that $f \\circ \\hat{f} = [n]$. Here $[n]$ denotes\nthe multiplication-by-$n$ isogeny $e\\mapsto ne$ which has degree $n^2$.\n\nOften only the existence of a dual isogeny is needed, but the\nconstruction is explicit as\n$$E'{\\rightarrow}\\operatorname{Div}^0(E')\\stackrel{f^*}{{\\rightarrow}}\\operatorname{Div}^0(E){\\rightarrow}E$$\nwhere $\\operatorname{Div}^0$ is the group of divisors of degree 0. To do\nthis, we need maps $E {\\rightarrow}\\operatorname{Div}^0(E)$ given by\n$P\\mapsto P - O$ where $O$ is the neutral point of $E$ and\n$\\operatorname{Div}^0(E) {\\rightarrow}E$ given by\n$\\sum n_P P \\mapsto \\sum n_P P$.\n\nTo see that $f \\circ \\hat{f} = [n]$, note that the original isogeny $f$\ncan be written as a composite\n$$E {\\rightarrow}\\operatorname{Div}^0(E)\\stackrel{f_*}{{\\rightarrow}} \\operatorname{Div}^0(E'){\\rightarrow}E'$$\nand that since $f$ is finite of degree $n$, $f_* f^*$ is multiplication\nby $n$ on $\\operatorname{Div}^0(E')$.\n\nAlternatively, we can use the smaller Picard group\n$\\operatorname{Pic}^0$, a quotient of $\\operatorname{Div}^0$. The map\n$E{\\rightarrow}\\operatorname{Div}^0(E)$ descends to an isomorphism,\n$E\\stackrel{\\sim}{{\\rightarrow}}\\operatorname{Pic}^0(E)$. The dual\nisogeny is\n$$E' \\stackrel{\\sim}{{\\rightarrow}} \\operatorname{Pic}^0(E')\\stackrel{f^*}{{\\rightarrow}}\\operatorname{Pic}^0(E)\\stackrel{\\sim}{{\\rightarrow}} E$$\n\nNote that the relation $f \\circ \\hat{f} = [n]$ also implies the\nconjugate relation $\\hat{f} \\circ f = [n]$. Indeed, let\n$\\phi = \\hat{f} \\circ f$. Then\n$\\phi \\circ \\hat{f} = \\hat{f} \\circ [n] = [n] \\circ \\hat{f}$. But\n$\\hat{f}$ is surjective, so we must have $\\phi = [n]$.",
+  "language": "INFORMAL",
+  "phrase": "Dual Isogeny",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DualIsogeny"
+    }
+  ],
+  "indexable": true
+}

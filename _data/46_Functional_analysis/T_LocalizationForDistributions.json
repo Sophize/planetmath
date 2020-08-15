@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose $U$ is an open set in ${\\mathbb{R}}^n$ and\n$T$ is a distribution $T\\in {\\mathcal{D}}'(U)$. Then we say that $T$\n*vanishes* on an open set $V\\subset U$, if the restriction of $T$ to $V$\nis the zero distribution on $V$. In other words, $T$ vanishes on $V$, if\n$T(v)=0$ for all $v\\in C_0^\\infty(V)$. (Here $C_0^\\infty(V)$ is the set\nof smooth function with compact support in $V$.) Similarly, we say that\ntwo distributions $S,T\\in {\\mathcal{D}}'(U)$ are *equal*, or *coincide*\non $V$, if $S-T$ vanishes on $V$. We then write: $S=T$ on $V$.\n\n[**Theorem**]{}[@folland; @hormander] Suppose $U$ is an open set in\n${\\mathbb{R}}^n$ and $\\{U_i\\}_{i\\in I}$ is an open cover of $U$, i.e.,\n$$U=\\bigcup_{i\\in I} U_i.$$ Here, $I$ is an arbitrary index set. If\n$S,T$ are distributions on $U$, such that $S=T$ on each $U_i$, then\n$S=T$ (on U).\n\n[**Proof.**]{} Suppose $u\\in {\\mathcal{D}}(U)$. Our aim is to show that\n$S(u)=T(u)$. First, we have ${\\operatorname{supp}}u \\subset K$ for some\ncompact $K\\subset U$. that there exist a finite collection of $U_i$:s\nfrom the open cover, say $U_1, \\ldots, U_N$, such that\n$K\\subset \\cup_{i=1}^N U_i$. By a smooth partition of unity, there are\nsmooth functions $\\phi_1, \\ldots, \\phi_N: U\\to {\\mathbb{R}}$ such that\n\n1.  $ {\\operatorname{supp}}\\phi_i \\subset U_i$ for all $i$.\n\n2.  $\\phi_i(x) \\in [0,1]$ for all $x\\in U$ and all $i$,\n\n3.  $\\sum_{i=1}^N \\phi_i(x) = 1$ for all $x\\in K$.\n\nFrom the first property, and from a property for the , it follows that\n${\\operatorname{supp}}\\phi_i u \\subset {\\operatorname{supp}}\\phi_i \\cap {\\operatorname{supp}}u \\subset U_i$.\nTherefore, for each $i$, $S(\\phi_i u)=T(\\phi_i u)$ since $S$ and $T$\nconicide on $U_i$. Then $$\\begin{aligned}\nS(u) = \\sum_{i=1}^N S(\\phi_i u) = \\sum_{i=1}^N T(\\phi_i u) = T(u),\\end{aligned}$$\nand the theorem follows. $\\Box$\n\n[9]{} G.B. Folland, *Real Analysis: Modern Techniques and Their\nApplications*, 2nd ed, John Wiley & Sons, Inc., 1999. W. Rudin,\n*Functional Analysis*, McGraw-Hill Book Company, 1973. L. H\u00f6rmander,\n*The Analysis of Linear Partial Differential Operators I, (Distribution\ntheory and Fourier Analysis)*, 2nd ed, Springer-Verlag, 1990.",
+  "language": "INFORMAL",
+  "phrase": "Localization For Distributions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocalizationForDistributions"
+    }
+  ],
+  "indexable": true
+}

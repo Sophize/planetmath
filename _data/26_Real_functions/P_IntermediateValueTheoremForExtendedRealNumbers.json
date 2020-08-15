@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\overline{{\\mathbbmss{R}}}$ be the extended real numbers, and\nsuppose\n$f\\colon \\overline{{\\mathbbmss{R}}}\\to \\overline{{\\mathbbmss{R}}}$ is a\ncontinuous function. Suppose $x_1<x_2\\in \\overline{{\\mathbbmss{R}}}$ are\nsuch that $f(x_1)\\neq f(x_2)$. If $y\\in(f(x_1),f(x_2))$, then for some\n$c\\in (x_1,x_2)$ we have $$f(c)=y.$$\n\nAs $\\overline{{\\mathbbmss{R}}}$ is homeomorphic to $[0,1]$, we can\nassume that $f$ is a function\n$f\\colon[0,1]\\to \\overline{{\\mathbbmss{R}}}$. For simplicity, let us\nalso assume that $x_1=0$,$x_2=1$, and $f(0)<f(1)$. Then for some\n$\\varepsilon>0$ we have $$f(0)<y-\\varepsilon<y<y+\\varepsilon < f(1).$$\nLet $g\\colon [0,1]\\to {\\mathbbmss{R}}$ be the continuous function\n$$g(x) = \\operatorname{max}\\{ \\operatorname{min}\\{ f(x), y+\\varepsilon\\}, y-\\varepsilon\\}.$$\nNow $g(0)=y-\\varepsilon$ and $g(1)=y+\\varepsilon$, so for some\n$c\\in(0,1)$, we have $g(c)=y$, and thus $f(c)=y$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntermediateValueTheoremForExtendedRealNumbers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "intermediate value theorem for extended real numbers"
+  ]
+}

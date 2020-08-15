@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V_1$ and $V_2$ be algebraic varieties. We say that $V_1$ and $V_2$\nare isomorphic, and write $V_1 \\cong V_2$, if there are regular maps\n$$\\phi \\colon V_1 \\to V_2, \\quad \\psi\\colon V_2 \\to V_1$$ such that the\ncompositions $\\psi \\circ \\phi$ and $\\phi \\circ \\psi$ are the identity\nmaps on $V_1$ and $V_2$ respectively.\n\nLet $V_1$ and $V_2$ be varieties defined over a field $K$. We say that\n$V_1/K$ and $V_2/K$ are isomorphic over $K$ if $V_1$ and $V_2$ are\nisomorphic as in Definition 1 and the regular maps $\\phi$ and $\\psi$ can\nbe defined over $K$.",
+  "language": "INFORMAL",
+  "phrase": "Isomorphism Of Varieties",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IsomorphismOfVarieties"
+    }
+  ],
+  "indexable": true
+}

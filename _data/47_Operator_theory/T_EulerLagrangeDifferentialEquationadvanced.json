@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Euler-Lagrange condition"
+  ],
+  "definition": "Let $M$ and $N$ be $C^2$ manifolds. Let\n$L \\colon M \\times TN \\to \\mathbb{R}$ be twice differentiable. Define a\nfunctional $F \\colon D \\subset C^2 (M, N) \\to \\mathbb{R}$ as\n$$F(q) = \\int_M L \\left( x, q(x), {\\bf D} q(x) \\right) \\, d^m x$$ where\n$D$ is the subset of for which this integral converges.\n\nNote that if $f \\in D$ and $g \\in C^2(M,N)$ and the set\n$\\{ x \\in M \\mid f(x) \\neq g(x) \\}$ is compact, then $g \\in D$. We may\nimpose a topology on $D$ as follows: Suppose that $f \\in D$, that\n$K \\subset M$ is compact, and that $U_0 \\subset C^2 (K,N)$ is open. Then\nwe define an open set $U \\subset D$ as the set of all functions\n$g \\in D$ such that $f(x) = g(x)$ when $x \\notin K$ and such that the\nrestriction of $g$ to $K$ lies in $U_0$.\n\nIt is not hard to show that the functional $F$ is continuous in this\ntopology, and hence it makes sense to speak of local extrema of $F$.\nSuppose that $q_0 \\in C^2 (M,N)$ is a local extremum. Furthermore,\nsuppose that $f \\colon M \\times [-1,+1] \\to N$ is twice differentiable\nand $f(x,0) = q_0 (x)$ for all $x \\in q_0$ and $f(x,y) = q_0 (x)$ for\nall $y \\in [-1,+1]$ when $x$ does not lie in a certain compact subset\n$K \\subset M$. Then, viewed as a map from $[-1,+1]$ to $D$, $f$ will be\ncontinuous. Therefore, since $q_0$ is a local extremum of $F$, $0$ wil\nbe a local extremum of the function $y \\mapsto F (f(\\cdot,y))$. Because\nthe function $y \\mapsto F (f(\\cdot,y))$ is differentiable, it will be\nthe case that\n$${d \\over d\\lambda} F (f(\\cdot,\\lambda)) \\big|_{\\lambda = 0} = 0$$\n\nIt can be shown (see the addendum to this entry) that this condition\nwill be satisfied if and only if $q_0$ is a solution of the following\ndifferential equation: $$\\label{el}\n dL - d \\, \\left({\\partial L \\over \\partial(dq)}\\right) = 0.$$ This\ndifferential equation is known as the *Euler-Lagrange differential\nequation* (or Euler-Lagrange condition).\n\nThe Euler-Lagrange equation can only be used to investigate local\nextrema which are smooth functions. To a certain extent, this limitation\ncan be ameliorated \u2014 one can study piecewise smooth functions by\nsupplementing the Euler-Lagrange equation with auxiliary conditions at\ndiscontinuities and, in some cases, one can consider non-smooth\nsolutions as weak solutions of the Euler-Lagrange equation.\n\nIn the special cases $d L = 0$, the Euler-Lagrange equation can be\nreplaced by the Beltrami identity.",
+  "language": "INFORMAL",
+  "phrase": "Euler-Lagrange Differential Equation (Advanced)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulerLagrangeDifferentialEquationadvanced"
+    }
+  ],
+  "indexable": true
+}

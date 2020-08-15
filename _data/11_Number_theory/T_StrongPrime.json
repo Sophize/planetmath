@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In number theory, if for the given $n$th prime $p_n$ the inequality\n$$p_n > {1 \\over 3} \\sum_{i = n - 1}^{n + 1} p_i$$ is true, then $p_n$\nis said to be a [*strong prime*]{}. That is, the arithmetic mean of the\ngiven prime, the prime immediately below and the one immediately above,\nis less than the middle prime. The first few are 11, 17, 29, 37, 41, 59,\n67, 71, 79, 97, 101, 107, 127, 137, 149, 163, 179, 191, 197, listed in\nA051634 of Sloane\u2019s OEIS.\n\nFor example, 17 is the seventh prime. The sixth and eighth primes, 13\nand 19, add up to 32, and half that is 16. That is less than 17, thus 17\nis a strong prime.\n\nGiven a twin prime ${p, p + 2}$, the lesser prime of the two, $p$, will\nalmost certainly be a strong prime. The only twin prime pairs\n${p, p + 2}$ for which $p$ is not a strong prime are [3, 5]{} and [5,\n7]{}.\n\nThere is a different meaning in cryptography, where the term [*strong\nprime*]{} is sometimes used to refer to a prime that can\u2019t be cracked by\nPollard\u2019s $p - 1$ algorithm in a reasonable amount of time because\n$p \\pm 1 = 2qr$, where $q$ and $r$ are sufficiently large primes. Some\nof these primes might be vulnerable to Lenstra elliptic curve\nfactorization, however.\n\nIt is possible for a prime to be a strong prime both in the\ncryptographic sense and the number theoretic sense. For the sake of\nillustration, 439351292910452432574786963588089477522344331 is a strong\nprime in the number theoretic sense because the arithmetic mean of its\ntwo neighboring primes is 62 less. Without the aid of a computer, this\nnumber would be a strong prime in the cryptographic sense because\n439351292910452432574786963588089477522344330 has the large prime factor\n1747822896920092227343 (and in turn the number one less than that has\nthe large prime factor 1683837087591611009),\n439351292910452432574786963588089477522344332 has the large prime factor\n864608136454559457049 (and in turn the number one less than that has the\nlarge prime factor 105646155480762397). Even using algorithms more\nadvanced than trial division, these numbers would be difficult to factor\nby hand. For a modern computer algebra system, these numbers can be\nfactored almost instantaneously. A cryptographically strong prime has to\nbe much larger than this example.",
+  "language": "INFORMAL",
+  "phrase": "Strong Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StrongPrime"
+    }
+  ],
+  "indexable": true
+}

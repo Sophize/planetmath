@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A counter-example against this conjecture have been found. See\n[Algebraic General\nTopology](http://www.mathematics21.org/algebraic-general-topology.html).\n\nPrerequisites: [Algebraic General\nTopology](http://www.mathematics21.org/algebraic-general-topology.html).\n\n[**Conjecture.**]{}\n$L \\in \\mathrel{\\left[ f \\right]} \\Rightarrow \\mathrel{\\left[ f \\right]} \\cap \\prod_{i \\in \\operatorname{dom} \\mathfrak{A}} \\operatorname{atoms} L_i \\neq \\emptyset$\nfor every pre-multifuncoid $f$ of the form whose elements are atomic\nposets.\n\nA weaker conjecture: It is true for forms whose elements are powersets.\n\nThe following is an attempted (partial) proof:\n\nIf $\\operatorname{arity} f = 0$ our theorem is trivial, so let\n$\\operatorname{arity} f \\neq 0$. Let $\\sqsubseteq$ is a well-ordering of\n$\\operatorname{arity} f$ with greatest element $m$.\n\nLet $\\Phi$ is a function which maps non-least elements of posets into\natoms under these elements and least elements into themselves. (Note\nthat $\\Phi$ is defined on least elements only for completeness, $\\Phi$\nis never taken on a least element in the proof below.) [ \\[TODO: Fix the\n\u201duniversal set\u201d paradox here.\\]]{}\n\nDefine a transfinite sequence $a$ by transfinite induction with the\nformula\n$ a_c = \\Phi \\left\\langle f \\right\\rangle_c  \\left( a|_{X \\left( c \\right) \\setminus \\left\\{ c \\right\\}} \\cup L|_{\\left( \\operatorname{arity} f \\right) \\setminus X \\left( c \\right)} \\right)$.\n\nLet\n$b_c = a|_{X \\left( c \\right) \\setminus \\left\\{ c \\right\\}} \\cup L|_{\\left( \\operatorname{arity} f \\right) \\setminus X \\left( c \\right)}$.\nThen $a_c = \\Phi \\left\\langle f \\right\\rangle_c b_c$.\n\nLet us prove by transfinite induction\n$a_c \\in \\operatorname{atoms} L_c .$\n$a_c = \\Phi \\left\\langle f \\right\\rangle_c L|_{\\left( \\operatorname{arity} f \\right) \\setminus \\left\\{ c \\right\\}} \\sqsubseteq \\left\\langle f \\right\\rangle_c L|_{\\left( \\operatorname{arity} f \\right) \\setminus \\left\\{ c \\right\\}}$.\nThus $a_c \\sqsubseteq L_c$. \\[TODO: Is it true for pre-multifuncoids?\\]\n\nThe only thing remained to prove is that\n$\\left\\langle f \\right\\rangle_c b_c \\neq 0$\n\nthat is\n$\\langle f \\rangle _ c  ( a|_{ X ( c ) \\setminus \\{ c \\} } \\cup L|_{( \\operatorname{arity} f ) \\setminus X ( c )} ) \\neq 0$\nthat is $y \\not\\asymp \\left\\langle f \\right\\rangle_c b_c$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultifuncoidHasAtomicArguments"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Multifuncoid has atomic arguments"
+  ]
+}

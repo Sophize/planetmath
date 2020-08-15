@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** The identity element of a monoid is unique.\\\n[*Proof.*]{} Let $e$ and $e'$ be identity elements of a monoid\n$(G,\\,\\cdot)$. Since $e$ is an identity element, one has\n$e\\!\\cdot\\!e' = e'$. Since $e'$ is an identity element, one has also\n$e\\!\\cdot\\!e' = e$. Thus $$e' \\;=\\; e\\!\\cdot\\!e' \\;=\\; e,$$ i.e. both\nidentity elements are the same (in inferring this result from the two\nfirst equations, one has used the and transitivity of the equality\nrelation).\\\n**Note.** The theorem also proves the uniqueness of e.g. the identity\nelement of a group, the 0 of a ring or a field, and the 1 of a field.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdentityElementIsUnique"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "identity element is unique",
+    "neutral element is unique",
+    "uniqueness of identity element"
+  ]
+}

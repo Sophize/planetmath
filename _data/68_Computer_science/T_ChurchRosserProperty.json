@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\to$ be a reduction (a binary relation) on a set $S$, and let\n$\\leftrightarrow^*$ be the reflexive transitive symmetric closure of\n$\\to$. The reduction $\\to$ is said to have the *Church-Rosser property*\nprovided that $a\\leftrightarrow^* b$ implies that $a$ and $b$ are\njoinable, for any $a,b\\in S$.\n\nIn terms of diagrams, the Church-Rosser property means the following,\nfor any $a,b\\in S$, if\n$$a\\leftrightarrow x_1 \\leftrightarrow x_2 \\leftrightarrow \\cdots \\leftrightarrow x_n \\leftrightarrow b$$\nwhere $u\\leftrightarrow v$ means $u\\to v$ or $u\\leftarrow v$\n($:=v\\to u$), then there is some $x\\in S$ such that\n$$a \\to a_1 \\cdots \\to a_p \\to x \\leftarrow b_q \\leftarrow \\cdots \\leftarrow b_1 \\leftarrow b.$$\n\n**Remark**. It can be shown that $\\to$ has the Church-Rosser property\niff it is confluent.\n\n[8]{} F. Baader, T. Nipkow, *Term Rewriting and All That*, Cambridge\nUniversity Press (1998).",
+  "language": "INFORMAL",
+  "phrase": "Church-Rosser Property",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChurchRosserProperty"
+    }
+  ],
+  "indexable": true
+}

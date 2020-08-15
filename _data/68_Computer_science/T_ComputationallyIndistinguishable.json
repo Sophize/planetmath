@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $\\{D_n\\}_{n\\in\\mathbb{N}}$ and $\\{E_n\\}_{n\\in\\mathbb{N}}$ are\ndistribution ensembles (on $\\Omega$) then we say they are\n*computationally indistinguishable* if for any probabilistic, polynomial\ntime algorithm $A$ and any polynomal function $f$ there is some $m$ such\nthat for all $n>m$:\n\n$$|\\operatorname{Prob}_A(D_n)=\\operatorname{Prob}_A(E_n)|<\\frac{1}{p(n)}$$\n\nwhere $\\operatorname{Prob}_A(D_n)$ is the probability that $A$ accepts\n$x$ where $x$ is chosen according to the distribution $D_n$.",
+  "language": "INFORMAL",
+  "phrase": "Computationally Indistinguishable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComputationallyIndistinguishable"
+    }
+  ],
+  "indexable": true
+}

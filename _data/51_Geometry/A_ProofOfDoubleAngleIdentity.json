@@ -1,0 +1,17 @@
+{
+  "argumentText": "**Sine:**\\\n$$\\begin{aligned}\n\\sin(2a)&=&\\sin(a+a)\\\\\n&=&\\sin(a)\\cos(a)+\\cos(a)\\sin(a)\\\\\n&=&2\\sin(a)\\cos(a).\\end{aligned}$$\n\n**Cosine:** $$\\begin{aligned}\n\\cos(2a)&=&\\cos(a+a)\\\\\n&=&\\cos(a)\\cos(a)+\\sin(a)\\sin(a)\\\\\n&=&\\cos^2(a)-\\sin^2(a).\\end{aligned}$$\n\nBy using the identity $$\\sin^2(a)+\\cos^2(a)=1$$ we can change the\nexpression above into the alternate forms\n$$\\cos(2a)=2\\cos^2(a)-1 = 1-2\\sin^2(a).$$\n\n**Tangent:** $$\\begin{aligned}\n\\tan(2a)&=&\\tan(a+a)\\\\\n&=&\\frac{\\tan(a)+\\tan(a)}{1-\\tan(a)\\tan(a)}\\\\\n&=&\\frac{2\\tan(a)}{1-\\tan^2(a)}.\\end{aligned}$$",
+  "conclusion": "#P_DoubleAngleIdentity",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfDoubleAngleIdentity"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of double angle identity"
+  ]
+}

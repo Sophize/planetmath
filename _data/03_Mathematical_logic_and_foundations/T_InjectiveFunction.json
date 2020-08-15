@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "one-to-one",
+    "injection",
+    "embedding",
+    "injective"
+  ],
+  "definition": "We say that a function $f\\colon A\\to B$ is *injective* or *one-to-one*\nif $f(x)=f(y)$ implies $x=y$, or equivalently, whenever $x\\neq y$, then\n$f(x)\\neq f(y)$.\n\n### Properties {#properties .unnumbered}\n\n1.  Suppose $A,B,C$ are sets and $f\\colon A\\to B$, $g\\colon B\\to C$ are\n    injective functions. Then the composition $g\\circ f$ is an\n    injection.\n\n2.  Suppose $f\\colon A\\to B$ is an injection, and $C\\subseteq A$. Then\n    the restriction $f|_C\\colon C\\to B$ is an injection.\n\nFor a list of other of injective functions, see [@wiki].\n\n[9]{} Wikipedia, article on .",
+  "language": "INFORMAL",
+  "phrase": "Injective Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InjectiveFunction"
+    }
+  ],
+  "indexable": true
+}

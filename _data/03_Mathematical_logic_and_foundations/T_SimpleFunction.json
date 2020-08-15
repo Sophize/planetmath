@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In measure theory, a *simple function* is a function that is a finite\nlinear combination $$h = \\sum_{k=1}^n c_k \\chi_{A_k}$$ of characteristic\nfunctions, where the $c_k$ are real coefficients and every $A_k$ is a\nmeasurable set with respect to a fixed measure space.\n\nIf the measure space is $\\mathbb{R}$ and each $A_k$ is an interval, then\nthe function is called a *step function*. Thus, every step function is a\nsimple function.\n\nSimple functions are used in analysis to interpolate between\ncharacteristic functions and measurable functions. In other words,\ncharacteristic functions are easy to integrate:\n$$\\int_E \\chi_{A}\\,dx = |A|,$$ while simple functions are not much\nharder to integrate:\n$$\\int_E \\sum_{k=1}^n c_k \\chi_{A_k}\\,dx = \\sum_{k=1}^n c_k |A_k|.$$ To\nintegrate a measurable function, one approximates it from below by\nsimple functions. Thus, simple functions can be used to define the\nLebesgue integral over a subset of the measure space.",
+  "language": "INFORMAL",
+  "phrase": "Simple Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimpleFunction"
+    }
+  ],
+  "indexable": true
+}

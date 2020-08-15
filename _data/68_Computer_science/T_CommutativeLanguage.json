@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Sigma$ be an alphabet and $u$ a word over $\\Sigma$. Write $u$ as a\nproduct of symbols in $\\Sigma$: $$u=a_1 \\cdots a_n$$ where\n$a_i \\in \\Sigma$. A of $u$ is a word of the form\n$$a_{\\pi(1)} \\cdots a_{\\pi(n)},$$ where $\\pi$ is a permutation on\n$\\lbrace 1,\\ldots, n\\rbrace$. The set of all permutations of $u$ is\ndenoted by $\\operatorname{com}(u)$. If\n$\\Sigma =\\lbrace b_1,\\ldots, b_m\\rbrace$, it is easy to see that\n$\\operatorname{com}(u)$ has $$\\frac{n!}{n_1! \\cdots n_m!}$$ elements,\nwhere $n_i=|u|_{b_i}$, the number of occurrences of $b_i$ in $u$.\n\nDefine a binary relation $\\sim$ on $\\Sigma^*$ by: $u\\sim v$ if $v$ is a\npermutation of $u$. Then $\\sim$ is a congruence relation on $\\Sigma^*$\nwith respect to concatenation. In fact, $\\Sigma^*/\\sim$ is a commutative\nmonoid.\n\nA language $L$ over $\\Sigma$ is said to be *commutative* if for every\n$u\\in L$, we have $\\operatorname{com}(u) \\subseteq L$. Two equivalent\ncharacterization of a commutative language $L$ are:\n\n-   If $u=vxyw \\in L$, then $vyxw \\in L$.\n\n-   $\\Psi^{-1}\\circ \\Psi(L)\\subseteq L$, where $\\Psi$ is the Parikh\n    mapping over $\\Sigma$ (under some ordering).\n\nThe first equivalence comes from the fact that if $vyxw$ is just a\npermutation of $vxyw$, and that every permutation on\n$\\lbrace 1,\\ldots, n\\rbrace$ may be expressed as a product of\ntranspositions. The second equivalence is the realization of the fact\nthat $\\operatorname{com}(u)$ is just the set\n$$\\lbrace v\\mid |v|_a = |u|_a, a\\in \\Sigma \\rbrace.$$\n\nWe have just seen some examples of commutative closed langauges, such as\n$\\operatorname{com}(u)$ for any word $u$, and $\\Psi^{-1}\\circ \\Psi(L)$,\nfor any language $L$.\n\nGiven a language $L$, the smallest commutative language containing $L$\nis called the *commutative closure* of $L$. It is not hard to see that\n$\\Psi^{-1}\\circ \\Psi(L)$ is the *commutative closure* of $L$.\n\nFor example, if $L=\\lbrace (abc)^n \\mid n\\ge 0\\rbrace$, then\n$\\Psi^{-1}\\circ \\Psi(L) = \\lbrace w\\mid |w|_a=|w|_b = |w|_c\\rbrace$.\n\n**Remark**. The above example illustrates the fact that the families of\nregular languages and context-free languages are not closed under\ncommutative closures. However, it can be shown that the families of\ncontext-sensitive languages and type-0 languages are closed under\ncommutative closures.\n\n[9]{} M. Ito, [*Algebraic Theory of Automata and Languages*]{}, World\nScientific, Singapore (2004).",
+  "language": "INFORMAL",
+  "phrase": "Commutative Language",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CommutativeLanguage"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "category of measure spaces"
+  ],
+  "definition": "The *category of Borel spaces* $\\mathbb{B}$ has, as its objects, all\nBorel spaces $(X_b;\\mathcal{B}(X_b))$, and as its morphisms the Borel\nmorphisms $f_b$ between Borel spaces; the Borel morphism composition is\ndefined so that it preserves the Borel structure determined by the\n$\\sigma$-algebra of Borel sets.\n\nThe *category of (standard) Borel G-spaces* $\\mathbb{B}_G$ is defined in\na similar manner to $\\mathbb{B}$, with the additional condition that\nBorel G-space morphisms commute with the *Borel actions*\n$a: G \\times X \\to X$ defined as (or Borel-measurable maps). Thus,\n$\\mathbb{B}_G$ is a subcategory of $\\mathbb{B}$; in its turn,\n$\\mathbb{B}$ is a subcategory of $\\mathbb{T}op$\u2013the category of\ntopological spaces and continuous functions.\n\nThe [*category of rigid Borel spaces*]{} can be defined as above with\nthe additional condition that the only automorphism $f: X_b \\to X_b$\n(bijection) is the identity $1_{(X_b; \\mathcal{B}(X_b))}$.",
+  "language": "INFORMAL",
+  "phrase": "Category Of Borel Spaces",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CategoryOfBorelSpaces"
+    }
+  ],
+  "indexable": true
+}

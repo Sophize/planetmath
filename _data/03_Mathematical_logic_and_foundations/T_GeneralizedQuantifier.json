@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Generalized quantifiers* are an abstract way of defining quantifiers.\n\nThe underlying principle is that formulas quantified by a generalized\nquantifier are true if the set of elements satisfying those formulas\nbelong in some relation associated with the quantifier.\n\nEvery generalized quantifier has an arity, which is the number of\nformulas it takes as arguments, and a type, which for an $n$-ary\nquantifier is a tuple of length $n$. The tuple represents the number of\nquantified variables for each argument.\n\nThe most common quantifiers are those of type $\\langle 1\\rangle$,\nincluding $\\forall$ and $\\exists$. If $Q$ is a quantifier of type\n$\\langle 1\\rangle$, $M$ is the universe of a model, and $Q_M$ is the\nrelation associated with $Q$ in that model, then\n$Qx\\phi(x)\\leftrightarrow \\{x\\in M\\mid \\phi(x)\\}\\in Q_M$.\n\nSo $\\forall_M=\\{M\\}$, since the quantified formula is only true when all\nelements satisfy it. On the other hand $\\exists_M=P(M)-\\{\\emptyset\\}$.\n\nIn general, the *monadic* quantifiers are those of type\n$\\langle 1,\\ldots, 1\\rangle$ and if $Q$ is an $n$-ary monadic quantifier\nthen $Q_M\\subseteq P(M)^n$. H\u00e4rtig\u2019s quantifier, for instance, is\n$\\langle 1,1\\rangle$, and\n$I_M=\\{\\langle X,Y\\rangle\\mid X,Y\\subseteq M\\wedge |X|=|Y|\\}$.\n\nA quantifier $Q$ is *polyadic* if it is of type\n$\\langle n_1,\\ldots, n_n\\rangle$ where each $n_i\\in\\mathbb{N}$. Then:\n\n$$Q_M\\subseteq \\prod_{i} P(M^{n_i})$$\n\nThese can get quite elaborate; $Wxy\\phi(x,y)$ is a $\\langle 2\\rangle$\nquantifier where $X\\in W_M\\leftrightarrow X$` is a well-ordering`. That\nis, it is true if the set of pairs making $\\phi$ true is a\nwell-ordering.",
+  "language": "INFORMAL",
+  "phrase": "Generalized Quantifier",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedQuantifier"
+    }
+  ],
+  "indexable": true
+}

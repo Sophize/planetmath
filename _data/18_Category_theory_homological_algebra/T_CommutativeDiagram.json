@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ be a category. A *diagram* in ${\\mathcal{C}}$ is a\ndirected graph ${\\Gamma}$ with vertex set $V$ and edge set $E$, (\u201cloops\u201d\nand \u201cparallel edges\u201d are allowed) together with two maps\n$o\\co V\\to\\mathrm{Obj}({\\mathcal{C}})$,\n$m\\co E\\to \\mathrm{Morph}({\\mathcal{C}})$ such that if $e\\in E$ has\nsource $s(e)\\in V$ and target $t(e)\\in V$ then\n$m(e) \\in \\text{Hom}_{{\\mathcal{C}}}\\left(o\\left(s(e)\\right),o\\left(t(e)\\right)\\right)$.\n\nUsually diagrams are denoted by drawing the corresponding graph and\nlabeling its vertices (respectively edges) with their images under $o$\n(respectively $m$), for example if $f\\co A\\to B$ is a morphism\n$$\\xymatrix@1{ {A}\\ar[r]^f&{B} }$$ is a diagram. Often (as in the\nprevious example) the vertices themselves are not drawn since their\nposition can be deduced by the position of their labels.\n\nLet $D=({\\Gamma},o,m)$ be a diagram in the category ${\\mathcal{C}}$ and\n${\\gamma}=(e_1,\\ldots,e_n)$ be a path in ${\\Gamma}$. Then the\n*composition along* ${\\gamma}$ is the following morphism of\n${\\mathcal{C}}$ $$\\circ({\\gamma}):=m(e_n)\\circ\\cdots\\circ m(e_1)\\,.$$ We\nsay that $D$ is *commutative* or that it *commutes* if for any two\nobjects in the image of $o$, say $A=o(v_1)$ and $B=o(v_2)$, and any two\npaths ${\\gamma}_1$ and ${\\gamma}_2$ that connect $v_1$ to $v_2$ we have\n$$\\circ({\\gamma}_1)=\\circ({\\gamma}_2)\\,.$$\n\nFor example the commutativity of the triangle $$\\xymatrix{\n{A}\\ar[rr]^{f}\\ar[dr]_{h}&&{B}\\ar[dl]^{g}\\\\\n&{C}&\n}$$ translates to $h=g\\circ f$, while the commutativity of the square\n$$\\xymatrix{\n{A}\\ar[r]^{f}\\ar[d]_{k}&{B}\\ar[d]^{g}\\\\\n{C}\\ar[r]_{h}&{D}\n}$$ translates to $g\\circ f=h\\circ k$.",
+  "language": "INFORMAL",
+  "phrase": "Commutative Diagram",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CommutativeDiagram"
+    }
+  ],
+  "indexable": true
+}

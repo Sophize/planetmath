@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "attribute",
+    "propositional function"
+  ],
+  "definition": "Let $X$ be a set. A *property* $p$ of $X$ is a function\n$$p\\colon X\\to \\{\\mathit{true},\\mathit{false}\\}.$$ An element $x\\in X$\nis said to *have* or *does not have the property* $p$ depending on\nwhether $p(x)=\\mathit{true}$ or $p(x)=\\mathit{false}$. Any property\ngives rise in a natural way to the set\n$$X(p):=\\lbrace x\\in X | \\ x\\text{ has property }p\\rbrace$$ and the\ncorresponding $1_{X(p)}$. The identification of $p$ with\n$X(p)\\subseteq X$ enables us to think of a property of $X$ as a 1-ary,\nor a *unary relation* on $X$. Therefore, one may treat all these notions\nequivalently.\n\nUsually, a property $p$ of $X$ can be identified with a so-called\n*propositional function*, or a *predicate* $\\varphi(v)$, where $v$ is a\nvariable or a tuple of variables whose values range over $X$. The values\nof a propositional function is a proposition, which can be interpreted\nas being either \u201ctrue\u201d or \u201cfalse\u201d, so that\n$X(p)=\\lbrace x \\mid \\varphi(x)\\mbox{ is }\\mathit{true}\\rbrace$.\n\nBelow are a few examples:\n\n-   Let $X=\\mathbb{Z}$. Let $\\varphi(v)$ be the propositional function\n    \u201c$v$ is divisible by $3$\u201d. If $p$ is the property identified with\n    $\\varphi(v)$, then $X(p)=3\\mathbb{Z}$.\n\n-   Again, let $X=\\mathbb{Z}$. Let $\\varphi(v_1,v_2):=$\u201c$v_1$ is\n    divisible by $v_2$\u201d and $p$ the corresponding property. Then\n    $$X(p)=\\lbrace (m,n)\\mid m=np\\mbox{, for some }p\\in \\mathbb{Z}\\rbrace,$$\n    which is a subset of $X\\times X$. So $p$ is a property of\n    $X\\times X$.\n\n-   The reflexive property of a binary relation on $X$ can be identified\n    with the propositional function\n    $\\varphi(V):=``\\forall a\\in X\\mbox{, }(a,a)\\in V$\u201d, and therefore\n    $$X(p)=\\lbrace R\\subseteq X\\times X\\mid \\varphi(R)\\mbox{ is }\\mathit{true}\\rbrace,$$\n    which is a subset of $2^{X\\times X}$. Thus, $p$ is a property of\n    $2^{X\\times X}$.\n\n-   In point set topology, we often encounter the finite intersection\n    property on a family of subsets of a given set $X$. Let\n    $$\\varphi(\\mathcal{V}):=``\\forall n\\in \\mathbb{N}, \\forall E_1\\in \\mathcal{V},\\ldots,\\forall E_n\\in \\mathcal{V}, \\exists x\\in X (x\\in E_1\\cap \\cdots \\cap E_n)\\mbox{''}$$\n    and $p$ the corresponding property, then\n    $$X(p)=\\lbrace \\mathcal{F} \\subseteq 2^X\\mid \\varphi(\\mathcal{F})\\mbox{ is }\\mathit{true}\\rbrace,$$\n    which is a subset of $2^{2^X}$. Thus $p$ is a property of $2^{2^X}$.",
+  "language": "INFORMAL",
+  "phrase": "Property",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Property"
+    }
+  ],
+  "indexable": true
+}

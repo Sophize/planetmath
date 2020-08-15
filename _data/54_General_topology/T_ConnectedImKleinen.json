@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A topological space $ X$ is [*connected im kleinen at a point*]{} $ x $\nif every open set $ U$ containing $ x$ contains an open set $ V$\ncontaining $ x$ such that if $ y$ is a point of $ V$, then there is a\nconnected subset of $ U$ containing $\\{x,y\\}$.\\\nAnother way to say this is that $X$ is connected im kleinen at a point\n$x$ if $x$ has a neighborhood base of connected sets (not necessarily\nopen).\n\nA locally connected space is connected im kleinen at each point.\n\nA space can be connected im kleinen at a point but not locally connected\nat the point.\n\nIf a topological space is connected im kleinen at each point, then it is\nlocally connected.\n\n[9]{} S. Willard, *General Topology*, Addison-Wesley, Publishing\nCompany, 1970. J.G. Hocking, G.S. Young, *Topology*, Dover Pubs, 1988,\nrepublication of 1961 Addison-Wesley edition.",
+  "language": "INFORMAL",
+  "phrase": "Connected Im Kleinen",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConnectedImKleinen"
+    }
+  ],
+  "indexable": true
+}

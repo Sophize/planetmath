@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Boolean algebra"
+  ],
+  "definition": "In this entry, the notions of a Boolean lattice, a Boolean algebra, and\na Boolean ring are defined, compared and contrasted.\n\n### Boolean Lattices {#boolean-lattices .unnumbered}\n\nA *Boolean lattice* $B$ is a distributive lattice in which for each\nelement $x\\in B$ there exists a complement $x'\\in B$ such that\n$$\\begin{aligned}\nx \\land x'&=0\\\\\nx \\lor x'&=1 \\\\\n(x')'&=x \\\\\n(x \\land y)'&=x'\\lor y'\\\\\n(x \\lor y)'&=x'\\land y'\\end{aligned}$$ In other words, a Boolean lattice\nis the same as a complemented distributive lattice. A morphism between\ntwo Boolean lattices is just a lattice homomorphism (so that $0,1$ and\n$'$ may not be preserved).\n\n### Boolean Algebras {#boolean-algebras .unnumbered}\n\nA Boolean algebra is a Boolean lattice such that $'$ and $0$ are\nconsidered as operators (unary and nullary respectively) on the\nalgebraic system. In other words, a morphism (or a Boolean algebra\nhomomorphism) between two Boolean algebras must preserve $0,1$ and $'$.\nAs a result, the category of Boolean algebras and the category of\nBoolean lattices are not the same (and the former is a subcategory of\nthe latter).\n\n### Boolean Rings {#boolean-rings .unnumbered}\n\nA *Boolean ring* is an (associative) unital ring $R$ such that for any\n$r\\in R$, $r^2=r$. It is easy to see that\n\n-   any Boolean ring has characteristic $2$, for $2r=(2r)^2=4r^2=4r$,\n\n-   and hence a commutative ring, for\n    $a+b=(a+b)^2=a^2+ab+ba+b^2=a+ab+ba+b$, so $0=ab+ba$, and therefore\n    $ab=ab+ab+ba=ba$.\n\nBoolean rings (with identity, but allowing 0=1) are equivalent to\nBoolean lattices. To view a Boolean ring as a Boolean lattice, define\n$$x \\land y = xy,\\qquad x \\lor y = x + y + xy,\\qquad\\mbox{and}\\qquad x'=1+x.$$\nTo view a Boolean lattice as a Boolean ring, define\n$$xy = x \\land y\\qquad\\mbox{ and }\\qquad x + y = (x' \\land y) \\lor (x \\land y').$$\n\nThe category of Boolean algebras is naturally equivalent to the category\nof Boolean rings.\n\n[8]{} G. Gr\u00e4tzer, [*General Lattice Theory*]{}, 2nd Edition, Birkh\u00e4user\n(1998). R. Sikorski, [*Boolean Algebras*]{}, 2nd Edition,\nSpringer-Verlag, New York (1964).",
+  "language": "INFORMAL",
+  "phrase": "Boolean Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BooleanLattice"
+    }
+  ],
+  "indexable": true
+}

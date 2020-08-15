@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Pythagoras' constant"
+  ],
+  "definition": "The *square root of 2* is an irrational number, the first to have been\nproved irrational. Its decimal expansion begins\n1.41421356237309504880168872420969807856... (sequence in Sloane\u2019s OEIS)\nIts simple continued fraction is\n$$1 + \\frac{1}{2 + \\frac{1}{2 + \\frac{1}{2 + \\frac{1}{2 + \\ldots}}}},$$\nperiodically repeating the 2. Some call this number *Pythagoras\u2019\nconstant*.\n\nThere are several different ways to express $\\sqrt{2}$ as an infinite\nproduct. One way is\n$$\\sqrt{2} = \\prod_{i=0}^\\infty\\frac{(4i+2)^2}{(4i+1)(4i+3)},$$ another\nis $$\\sqrt{2} = \\sum_{i=0}^\\infty (-1)^{i+1} \\frac{(2i-3)!!}{(2i)!!}.$$\n\n[1]{} Flannery, David. [*The square root of 2 : a dialogue concerning a\nnumber and a sequence*]{}. New York: Copernicus, 2006.",
+  "language": "INFORMAL",
+  "phrase": "Square Root Of 2",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SquareRootOf2"
+    }
+  ],
+  "indexable": true
+}

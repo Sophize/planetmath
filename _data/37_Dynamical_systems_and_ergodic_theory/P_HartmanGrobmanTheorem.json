@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $U$ and $V$ be open subsets of a Banach space $E$ such that\n$0\\in U\\cap V$. If a diffeomorphism $f\\colon U\\to V$ has $0$ as a\nhyperbolic fixed point, then $f$ and $Df(0)$ are locally topologically\nconjugate at $0$, i.e. there are neighborhoods $\\tilde U$ and $\\tilde V$\nof $0$ and a homeomorphism $h\\colon \\tilde U\\to \\tilde V$ such that\n$Df(0)h = hf$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HartmanGrobmanTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hartman-Grobman theorem",
+    "Grobman-Hartman theorem",
+    "Hartman's theorem"
+  ]
+}

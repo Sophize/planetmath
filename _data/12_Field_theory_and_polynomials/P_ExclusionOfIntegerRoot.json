@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** The equation\n$$p(x) \\;:=\\; a_nx^n+a_{n-1}x^{n-1}+\\ldots+a_0 \\;=\\; 0$$ with integer\ncoefficients $a_i$ has no integer , if $p(0)$ and $p(1)$ are odd.\\\n*Proof.* Make the antithesis, that there is an integer $x_0$ such that\n$p(x_0) = 0$. This $x_0$ cannot be even, because else all terms of\n$p(x_0)$ except $a_0$ were even and thus the whole sum could not have\nthe even value 0. Consequently, $x_0$ and also its have to be odd. Since\n$$2 \\mid 0 = p(x_0) \\quad \\textrm{and} \\quad 2 \\nmid p(0) = a_0,$$ there\nmust be among the coefficients $a_n,\\,a_{n-1},\\,\\ldots,\\,a_1$ an odd\namount of odd numbers. This means that\n$$2 \\mid a_n\\!+\\!a_{n-1}\\!+\\!\\ldots\\!+\\!a_1\\!+\\!a_0 \\;=\\; p(1).$$ This\nhowever contradicts the assumption on the parity of $p(1)$, whence the\nantithesis is wrong and the theorem .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExclusionOfIntegerRoot"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "exclusion of integer root"
+  ]
+}

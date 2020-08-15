@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A ring $R$ is (left) *semisimple* if it one of the following statements:\n\n1.  All left $R$-modules are semisimple.\n\n2.  All left $R$-modules are semisimple.\n\n3.  All cyclic left $R$-modules are semisimple.\n\n4.  The left regular $R$-module $_RR$ is semisimple.\n\n5.  All short exact sequences of left $R$-modules .\n\nThe last condition offers another homological characterization of a\n*semisimple* ring:\n\n-   A ring $R$ is (left) semisimple iff all of its left modules are .\n\nA more ring-theorectic characterization of a (left) semisimple ring is:\n\n-   A ring is left semisimple iff it is semiprimitive and left artinian.\n\nIn some literature, a (left) semisimple ring is defined to be a ring\nthat is semiprimitive without necessarily being (left) artinian. Such a\nring (semiprimitive) is called Jacobson semisimple, or J-semisimple, to\nremind us of the fact that its Jacobson radical is (0).\n\nRelating to von Neumann regular rings, one has:\n\n-   A ring is left semisimple iff it is von Neumann regular and left\n    noetherian.\n\nThe famous Wedderburn-Artin Theorem that a (left) semisimple ring is\nisomorphic to a finite direct product of matrix rings over division\nrings.\n\nThe theorem implies that a left semisimplicity is synonymous with right\nsemisimplicity, so that it is safe to drop the word left or right when\nreferring to semisimple rings.",
+  "language": "INFORMAL",
+  "phrase": "Semisimple Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemisimpleRing"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Google\u2019s PageRank algorithm uses a particular stochastic matrix called\nthe Google matrix. The purpose of the PageRank algorithm is to compute a\nstationary vector of the Google matrix. The stationary vector is then\nused to provide a ranking of the pages on the internet.\n\nA directed graph $D$ is constructed whose vertices correspond to web\npages and a directed arc from vertex $i$ to vertex $j$ exists if and\nonly if page $i$ has a link out to page $j$. Then a stochastic matrix\n$A=(a_{ij})$ is constructed from $D$: for each $i,j$ set\n$$a_{ij} = 1/d(i)$$ if the outdegree of vertex $i, d(i)$ is positive and\nthere is an arc from $i$ to $j$ in $D$. Set $$a_{ij} = 0$$ if $d(i) >0$\nbut there is no arc from $i$ to $j$ in $D$.\n\nSet $$a_{ij} = 1/n$$ if $d(i) = 0$, where $n$ is the order of the\nmatrix.\n\nHaving defined $A$ choose a positive row vector $v^T$ such that\n$v^T\\textbf{1} = 1$ where $\\textbf{1}$ is a vector of all ones. Finally,\nchoose a constant $c \\in (0,1)$. The *Google matrix* $G$ is\n$$G = cA + (1-c)\\textbf{1}v^T .$$ Clearly, $G$ is stochastic. For the\nactual matrix that Google uses $c$ is about .85.",
+  "language": "INFORMAL",
+  "phrase": "Google Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GoogleMatrix"
+    }
+  ],
+  "indexable": true
+}

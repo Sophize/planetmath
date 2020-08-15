@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "long prime"
+  ],
+  "definition": "If for a prime number $p$ in a given base $b$ such that\n$\\gcd(p, b) = 1$, the formula $$\\frac{b^{p - 1} - 1}{p}$$ gives a cyclic\nnumber, then $p$ is a [*full reptend prime*]{} or [*long prime*]{}.\n\nThe first few base 10 full reptend primes are given by A001913 of\nSloane\u2019s OEIS: 7, 17, 19, 23, 29, 47, 59, 61, 97, 109, 113, 131, 149,\n167.\n\nFor example, the case $b = 10$, $p = 7$ gives the cyclic number 142857,\nthus, 7 is a full reptend prime.\n\nNot all values of $p$ will yield a cyclic number using this formula; for\nexample $p = 13$ gives 076923076923. These failed cases will always\ncontain a repetition of digits (possibly several).\n\nThe known pattern to this sequence comes from algebraic number theory,\nspecifically, this sequence is the set of primes $p$ such that 10 is a\nprimitive root modulo $p$. A conjecture of Emil Artin on primitive roots\nis that this sequence contains about 37 percent of the primes.\n\nThe term [*long prime*]{} was used by John Conway and Richard Guy in\ntheir [*Book of Numbers*]{}. Confusingly, Sloane\u2019s OEIS refers to these\nprimes as \u201ccyclic numbers.\u201d",
+  "language": "INFORMAL",
+  "phrase": "Full Reptend Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FullReptendPrime"
+    }
+  ],
+  "indexable": true
+}

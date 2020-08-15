@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Definition.** The mapping $|.|\\!:\\, K\\to G$, where $K$ is a field and\n$G$ an ordered group equipped with zero, is a [*Krull valuation*]{} of\n$K$, if it has the properties\n\n1.  $|x| = 0 \\,\\,\\Leftrightarrow\\,\\, x = 0$;\n\n2.  $|xy| = |x|\\cdot|y|$;\n\n3.  $|x+y| \\leqq \\max\\{|x|,\\,|y|\\}$.\n\nThus the Krull valuation is more general than the usual , which is also\ncharacterized as and which has real values. The image\n$|K\\!\\smallsetminus\\!\\{0\\}|$ is called the [*value group*]{} of the\nKrull valuation; it is abelian. In general, the [*rank of Krull\nvaluation*]{} the of the value group.\n\nWe may say that a Krull valuation is .\n\nSome values {#some-values .unnumbered}\n-----------\n\n-   $|1| = 1$ because the Krull valuation is a group homomorphism from\n    the multiplicative group of $K$ to the ordered group.\n\n-   $|-1| = 1$ because $1 = |(-1)^2| = |-1|^2$ and 1 is the only element\n    of the ordered group being its own inverse\n    ($S\\cap S^{-1} = \\varnothing$).\n\n-   $|-x| = |(-1)x| = |-1|\\cdot|x| = |x|$\n\n[9]{} : [*Theory of Algebraic Numbers*]{}. Lecture notes. Mathematisches\nInstitut, G\u00f6ttingen (1959). : [*Les syst\u00e8mes d\u2019id\u00e9aux*]{}. Dunod, Paris\n(1960).",
+  "language": "INFORMAL",
+  "phrase": "Krull Valuation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KrullValuation"
+    }
+  ],
+  "indexable": true
+}

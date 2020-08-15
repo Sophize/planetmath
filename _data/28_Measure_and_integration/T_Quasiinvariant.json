@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(E, \\mathcal{B})$ be a measurable space, and $T : E \\to E$ be a\nmeasurable map. A measure $\\mu$ on $(E, \\mathcal{B})$ is said to be\n*quasi-invariant* under $T$ if $\\mu \\circ T^{-1}$ is absolutely\ncontinuous with respect to $\\mu$. That is, for all $A \\in \\mathcal{B}$\nwith $\\mu(A)=0$, we also have $\\mu(T^{-1}(A)) = 0$. We also say that $T$\nleaves $\\mu$ quasi-invariant.\n\nAs a example, let $E = \\mathbb{R}$ with $\\mathcal{B}$ the , and $\\mu$ be\nLebesgue measure. If $T(x) = x + 5$, then $\\mu$ is quasi-invariant under\n$T$. If $S(x)=0$, then $\\mu$ is not quasi-invariant under $S$. (We have\n$\\mu(\\{0\\}) = 0$, but $\\mu(T^{-1}(\\{0\\})) = \\mu(\\mathbb{R}) = \\infty$).\n\nTo give another example, take $E$ to be the nonnegative integers and\ndeclare every subset of $E$ to be a measurable set. Fix $\\lambda > 0$.\nLet $\\mu(\\{n\\}) = \\frac{\\lambda^n}{n!}$ and extend $\\mu$ to all subsets\nby additivity. Let $T$ be the shift function: $n \\to n+1$. Then $\\mu$ is\nquasi-invariant under $T$ and not .",
+  "language": "INFORMAL",
+  "phrase": "Quasi-Invariant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Quasiinvariant"
+    }
+  ],
+  "indexable": true
+}

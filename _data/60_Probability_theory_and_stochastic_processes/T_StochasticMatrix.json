@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "#### Definition\n\nLet $I$ be a finite or countable set, and let\n${\\mathbf{P}} = (p_{ij} : i,j \\in I)$ be a matrix and let all $p_{ij}$\nbe nonnegative. We say ${\\mathbf{P}}$ is *stochastic* if\n$$\\sum_{i\\in I} p_{ij} = 1$$ for every $j\\in I$. We call ${\\mathbf{P}}$\n*doubly stochastic* if, in addition, $$\\sum_{j\\in I} p_{ij} = 1$$ for\nall $i\\in I$. Equivalently, ${\\mathbf{P}}$ is stochastic if every column\nis a distribution, and doubly stochastic if, in addition, every row is a\ndistribution.\n\nStochastic and doubly stochastic matrices are common in discussions of\nrandom processes, particularly Markov chains.",
+  "language": "INFORMAL",
+  "phrase": "Stochastic Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StochasticMatrix"
+    }
+  ],
+  "indexable": true
+}

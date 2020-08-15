@@ -1,0 +1,17 @@
+{
+  "argumentText": "We want to prove $$\\frac{CP}{PF} =\\frac{CD}{DB} +\\frac{CE}{EA}$$\n\n![image](aubel)\n\nOn the picture, let us call $\\phi$ to the angle $\\angle ABE$ and $\\psi$\nto the angle $\\angle EBC$.\n\nA generalization of bisector\u2019s theorem states\n$$\\frac{CE}{EA} = \\frac{CB \\sin \\psi}{AB\\sin\\phi} \\quad\\mbox{on }\\triangle ABC$$\nand\n$$\\frac{CP}{PF} = \\frac{CB \\sin \\psi}{FB\\sin\\phi} \\quad\\mbox{on }\\triangle FBC.$$\nFrom the two equalities we can get\n$$\\frac{CE\\cdot AB}{EA}=\\frac{CP\\cdot FB}{PF}$$ and thus\n$$\\frac{CP}{PF}=\\frac{CE\\cdot AB}{EA\\cdot FB}.$$ Since $AB=AF+FB$,\nsubstituting leads to $$\\begin{aligned}\n\\frac{CE\\cdot AB}{EA\\cdot FB}&=\\frac{CE(AF+FB)}{EA\\cdot FB}\\\\\n&=\\frac{CE\\cdot AF}{EA\\cdot FB}+\\frac{CE\\cdot FB}{EA\\cdot FB}\\\\\n&=\\frac{CE\\cdot AF}{EA\\cdot FB}+\\frac{CE}{EA}\\end{aligned}$$\n\nBut Ceva\u2019s theorem states\n$$\\frac{CE}{EA}\\cdot\\frac{AF}{FB}\\cdot\\frac{BD}{DC}=1$$ and so\n$$\\frac{CE\\cdot AF}{EA\\cdot FB}=\\frac{CD}{DB}$$ Subsituting the last\nequality gives the desired result.",
+  "conclusion": "#P_VanAubelTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfVanAubelTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Van Aubel theorem"
+  ]
+}

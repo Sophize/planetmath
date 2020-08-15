@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $$\\begin{aligned}\nA_ix+B_iy+C_i = 0\\end{aligned}$$ be equations of some lines. Use the\nshort notations $A_ix+B_iy+C_i \\,:=\\, L_i$.\n\nIf the lines $L_1 = 0$ and $L_2 = 0$ have an intersection point $P$,\nthen, by the , the equation $$\\begin{aligned}\nk_1L_1+k_2L_2 = 0\\end{aligned}$$ with various real values of $k_1$ and\n$k_2$ can any line passing through the point $P$; this set of lines is\ncalled a [*pencil of lines*]{}.\\\n**Theorem.** A necessary and sufficient condition in to three lines\n$$L_1 = 0, \\quad L_2 = 0, \\quad L_3 = 0$$ pass through a same point, is\nthat the determinant formed by the coefficients of their equations (1)\nvanishes: $$\\left|\\begin{matrix}\nA_1 & B_1 & C_1\\\\\nA_2 & B_2 & C_2\\\\\nA_3 & B_3 & C_3\n\\end{matrix}\\right| = \n\\left|\\begin{matrix}\nA_1 & A_2 & A_3\\\\\nB_1 & B_2 & B_3\\\\\nC_1 & C_2 & C_3\n\\end{matrix}\\right| = 0.$$\n\n[*Proof.*]{} If the line $L_3 = 0$ belongs to the fan of lines\ndetermined by the lines $L_1 = 0$ and $L_2 = 0$, i.e. all the three\nlines have a common point, there must be the identity\n$$L_3 \\equiv L_1+L_2,$$ i.e. there exist three real numbers $k_1$,\n$k_2$, $k_3$, which are not all zeroes, such that the equation\n$$\\begin{aligned}\nk_1L_1+k_2L_2+k_3L_3 \\equiv 0\\end{aligned}$$ is satisfied identically by\nall real values of $x$ and $y$. This means that the group of homogeneous\nlinear equations $$\\begin{aligned}\n\\begin{cases}\nk_1A_1+k_2A_2+k_3A_3 = 0,\\\\\nk_1B_1+k_2B_2+k_3B_3 = 0,\\\\  \nk_1C_1+k_2C_2+k_3C_3 = 0\n\\end{cases}\\end{aligned}$$ has nontrivial solutions $k_1,\\,k_2,\\,k_3$.\nBy linear algebra, it follows that the determinant of this group of\nequations has to vanish.\n\nSuppose conversely that the determinant vanishes. This implies that the\nabove group of equations has a nontrivial solution $k_1,\\,k_2,\\,k_3$.\nThus we can write the identic equation (3). Let e.g. $k_1 \\neq 0$.\nSolving (3) for $L_1$ yields $$L_1 \\equiv -\\frac{k_2L_2+k_3L_3}{k_1},$$\nwhich shows that the line $L_1 = 0$ belongs to the fan determined by the\nlines $L_2 = 0$ and $L_3 = 0$; so the lines pass through a common point.\n\n[8]{} : [*Analyyttinen geometria*]{}. Werner S\u00f6derstr\u00f6m Osakeyhti\u00f6,\nPorvoo and Helsinki (1958).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PencilOfLines"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "pencil of lines"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A Lie algebra $\\mathfrak{g}$ is said to be *quadratic* if $\\mathfrak{g}$\nas a representation (under the adjoint action) admits a non-degenerate,\ninvariant scalar product $( \\cdot \\mid \\cdot )$ .\n\n$\\mathfrak{g}$ being quadratic implies that the adjoint and co-adjoint\nrepresentations of $\\mathfrak{g}$ are isomorphic.\n\nIndeed, the non-degeneracy of $( \\cdot \\mid \\cdot )$ implies that the\ninduced map $\\phi \\colon \\mathfrak{g} \\to \\mathfrak{g}^*$ given by\n$\\phi(X)(Z) = (X \\mid Z)$ is an isomorphism of vector spaces. Invariance\nof the scalar product means that\n$( [X,Y] \\mid Z) = -(Y \\mid [X,Z] ) = (Y \\mid [Z,X] )$. This implies\nthat $\\phi$ is a map of representations:\n\n$$\\phi(ad_X(Y))(Z) = \\phi([X,Y])(Z) = ( [X,Y] \\mid Z ) = ( Y \\mid [Z,X] ) = ad^*_X( \\phi(Y)(Z) )$$",
+  "language": "INFORMAL",
+  "phrase": "Quadratic Lie Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuadraticLieAlgebra"
+    }
+  ],
+  "indexable": true
+}

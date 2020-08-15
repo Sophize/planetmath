@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Riemann theta-function",
+    "Riemann theta function"
+  ],
+  "definition": "The *Riemann theta function* is a number-theoretic function which is\nonly really used in the derivation of the functional equation for the\nRiemann xi function.\n\nThe Riemann theta function is defined as:\n$$\\theta(x) = 2\\omega (x) + 1,$$ where $\\omega$ is the Riemann omega\nfunction.\n\nThe of the Riemann theta function is $x > 0$.\n\nTo give an explicit form for the theta function, note that\n$$\\begin{aligned}\n\\omega(x) &=& \\sum_{n=1}^{\\infty} e^{-n^2 \\pi x}\\\\\n          &=& \\sum_{n=-1}^{-\\infty} e^{-(-n)^2 \\pi x}\\\\\n          &=& \\sum_{n=-1}^{-\\infty} e^{-n^2 \\pi x}\\end{aligned}$$ and so\n$$\\begin{aligned}\n2\\omega(x) + 1 &=& \\sum_{n=-1}^{-\\infty} e^{-n^2 \\pi x} + \\omega(x) + 1\\\\\n               &=& \\sum_{n=-1}^{-\\infty} e^{-n^2 \\pi x} + \\sum_{n=1}^{\\infty} e^{-n^2 \\pi x} + e^{-0^2 \\pi x}\\\\\n               &=& \\sum_{n=-\\infty}^{\\infty} e^{-n^2 \\pi x}.\\end{aligned}$$\nThus we have $$\\theta(x) = \\sum_{n=-\\infty}^{\\infty} e^{-n^2 \\pi x}.$$\n\nRiemann showed that the theta function satisfied a functional equation,\nwhich was the key step in the proof of the analytic continuation for the\nRiemann xi function. This has direct consequences for the Riemann zeta\nfunction.",
+  "language": "INFORMAL",
+  "phrase": "Riemann $\\Theta$-Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Riemannthetafunction"
+    }
+  ],
+  "indexable": true
+}

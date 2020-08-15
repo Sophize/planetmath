@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f$ be a locally integrable function on $\\mathbb{R}^n$ with Lebesgue\nmeasure $m$, i.e. $f\\in L^1_\\textnormal{loc}(\\mathbb{R}^n)$. *Lebesgue\u2019s\ndifferentiation theorem* basically says that for almost every $x$, the\naverages $$\\frac{1}{m(Q)}\\int_Q |f(y)-f(x)|dy$$ converge to $0$ when $Q$\nis a cube containing $x$ and $m(Q)\\rightarrow 0$.\n\nFormally, this means that there is a set $N\\subset \\mathbb{R}^n$ with\n$\\mu(N)=0$, such that for every $x\\notin N$ and $\\varepsilon>0$, there\nexists $\\delta>0$ such that, for each cube $Q$ with $x\\in Q$ and\n$m(Q)<\\delta$, we have\n$$\\frac{1}{m(Q)}\\int_Q|f(y)-f(x)|dy<\\varepsilon.$$\n\nFor $n=1$, this can be restated as an analogue of the fundamental\ntheorem of calculus for Lebesgue integrals. Given a $x_0\\in \\mathbb{R}$,\n$$\\frac{d}{dx}\\int_{x_0}^x f(t)dt = f(x)$$ for almost every $x$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LebesgueDifferentiationTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lebesgue differentiation theorem"
+  ]
+}

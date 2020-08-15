@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A\\subset {\\ensuremath{{\\mathbb{Z}}}}_p$ be a set of residues modulo\n$p$, and let $h$ be a positive integer, then\n$$h^\\wedge\\!A=\\{\\,a_1+a_2+\\dotsb+a_h \\mid a_1,a_2,\\dotsc,a_h\\text{ are distinct elements of }A\\,\\}$$\nhas cardinality at least $\\min(p,hk-h^2+1)$. This was conjectured by\nErd\u0151s and Heilbronn in 1964[@cite:erdos_heilbronn_conj]. The first proof\nwas given by Dias da Silva and Hamidoune in 1994.\n\n[1]{}\n\nPaul Erd[\u0151]{}s and Hans Heilbronn. On the addition of residue classes\n$\\mod p$. , 9:149\u2013159, 1964. .\n\nMelvyn\u00a0B. Nathanson. , volume 165 of [*GTM*]{}. Springer, 1996. .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ErdHosHeilbronnConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Erd\\H{o}s-Heilbronn conjecture"
+  ]
+}

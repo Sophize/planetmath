@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f_1,\\,f_2,\\,\\ldots$ be a sequence of real functions all defined in\nthe interval $[a,\\,b]$. This [*function sequence*]{} converges uniformly\nto the [*limit function*]{} $f$ on the interval $[a,\\,b]$ if and only if\n$$\\lim_{n\\to\\infty}\\sup\\{|f_n(x)-f(x)|\\vdots \\,\\, a \\leqq x \\leqq b\\} = 0.$$\n\nIf all functions $f_n$ are continuous in the interval $[a,\\,b]$ and\n$\\lim_{n\\to\\infty}f_n(x) = f(x)$ in all points $x$ of the interval, the\nlimit function needs not to be continuous in this interval; example\n$f_n(x) = \\sin^{n}x$ in $[0,\\,\\pi]$:\n\n![image](pmplot)\n\nIf all the functions $f_n$ are continuous and the sequence\n$f_1,\\,f_2,\\,\\ldots$ converges uniformly to a function $f$ in the\ninterval $[a,\\,b]$, then the limit function $f$ is continuous in this\ninterval.\n\n**Note.** The notion of can be extended to the sequences of complex\nfunctions (the interval is replaced with some subset $G$ of\n$\\mathbb{C}$). The limit function of a uniformly convergent sequence of\ncontinuous functions is continuous in $G$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitFunctionOfSequence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "limit function of sequence"
+  ]
+}

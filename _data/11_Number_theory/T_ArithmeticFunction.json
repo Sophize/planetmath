@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *arithmetic function* is a function\n$f:{{\\mathbb}{Z}}^+{\\rightarrow}\\mathbb{C}$ from the positive integers\nto the complex numbers.\n\nAny algebraic function over ${{\\mathbb}{Z}}^+$, as well as\ntranscendental functions such as $\\sin(n\\pi)$ and $e^{n\\pi i}$ with\n$n\\in {{\\mathbb}{Z}}^+$ are arithmetic functions.\n\nThere are two noteworthy operations on the set of arithmetic functions:\n\nIf $f$ and $g$ are two arithmetic functions, the *sum* of $f$ and $g$,\ndenoted $f+g$, is given by $$\\begin{aligned}\n(f+g)(n)=f(n)+g(n),\\end{aligned}$$ and the *Dirichlet convolution* of\n$f$ and $g$, denoted by $f*g$, is given by $$\\begin{aligned}\n(f*g)(n)=\\sum_{d|n}f(d)g\\left(\\frac{n}{d}\\right).\\end{aligned}$$\n\nThe set of arithmetic functions, equipped with these two binary\noperations, forms a commutative ring with unity. The 0 of the ring is\nthe function $f$ such that $f(n)=0$ for any positive integer $n$. The 1\nof the ring is the function $f$ with $f(1)=1$ and $f(n)=0$ for any\n$n>1$, and the units of the ring are those arithmetic function $f$ such\nthat $f(1)\\neq 0$.\n\nNote that giving a sequence $\\{a_n\\}$ of complex numbers is equivalent\nto giving an arithmetic function by associating $a_n$ with $f(n)$.",
+  "language": "INFORMAL",
+  "phrase": "Arithmetic Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArithmeticFunction"
+    }
+  ],
+  "indexable": true
+}

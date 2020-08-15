@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*prime magic square*]{} is a magic square consisting only of prime\nnumbers (the magic constant may be a composite number, especially if the\nsides are of even length). The primes don\u2019t have to be consecutive,\nthough it is sometimes convenient to consider 1 a prime number for the\npurpose of constructing these squares.\n\nThe smallest prime magic square with the smallest possible magic\nconstant (111) is\n\n$$\\begin{bmatrix}\n67 & 1 & 43 \\\\\n13 & 37 & 61 \\\\\n31 & 73 & 7 \\\\\n\\end{bmatrix}$$\n\nfirst published by Henry Ernest Dudeney in 1917.\n\nRudolf Ondrejka constructed this magic square using only Chen primes:\n\n$$\\begin{bmatrix}\n17 & 89 & 71 \\\\\n113 & 59 & 5 \\\\\n47 & 29 & 101 \\\\\n\\end{bmatrix}$$\n\nThe magic constant is 177.\n\n[1]{} Dudeney, E. [*Amusements in Mathematics*]{} New York: Dover\n(1970): Problem 408",
+  "language": "INFORMAL",
+  "phrase": "Prime Magic Square",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimeMagicSquare"
+    }
+  ],
+  "indexable": true
+}

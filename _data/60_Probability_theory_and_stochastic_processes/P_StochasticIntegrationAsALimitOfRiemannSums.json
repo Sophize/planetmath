@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "As with the and Riemann-Stieltjes integrals, the stochastic integral can\nbe calculated as a limit of approximations computed on , called Riemann\nsums.\n\nLet $P_n$ be a sequence of partitions of $\\mathbb{R}_+$,\n$$P_n=\\left\\{0=\\tau^n_0\\le\\tau^n_1\\le\\cdots\\uparrow\\infty\\right\\}$$\nwhere, $\\tau^n_k$ can, in general, be stopping times. Suppose that the\nmesh $|P_n^t|=\\sup_k(\\tau^n_k\\wedge t-\\tau^n_{k-1}\\wedge t)$ tends to\nzero as $n\\rightarrow\\infty$, for each time $t>0$.\n\nThe stochastic integral of a process $Y$ with respect to $X$ can be\ndefined on each of the partitions,\n$$I^n_t(Y,X)\\equiv\\sum_k Y_{\\tau^n_{k-1}}(X_{\\tau^n_k\\wedge t}-X_{\\tau^n_{k-1}\\wedge t}).$$\nSince the times $\\tau^n_k$ tend to infinity as $k\\rightarrow\\infty$, all\nbut finitely many terms are zero. Note that here, the process $Y$ is\nsampled at $\\tau^n_{k-1}$, which are the left hand points of the\nintervals. For this reason, the stochastic integral is sometimes called\nthe forward integral. Alternatively, the backward integral can be\ncomputed by sampling $Y$ at time $t_k$ and the Stratonovich integral\ntakes the average of $Y_{t_{k-1}}$ and $Y_{t_k}$. However, these\nalternative integrals are less general and may not exist even when $Y$\nis a continuous and adapted process.\n\nFor left-continuous integrands, the approximations do indeed converge to\nthe stochastic integral.\n\nSuppose that $X$ is a semimartingale and $Y$ is an adapted,\nleft-continuous and locally bounded process. Then,\n$$I^n_t(Y,X)\\rightarrow\\int_0^t Y\\,dX$$ in probability as\n$n\\rightarrow\\infty$. Furthermore, this converges ucp and in the\nsemimartingale topology.\n\nSimilarly, convergence is also obtained for cadlag integrands. However,\nin this case, it is necessary to use the left limit $Y_{s-}$ in the\nintegral. The integral of $Y$ does not even exist when it is a general\ncadlag adapted process, as it might not be predictable.\n\nSuppose that $X$ is a semimartingale and $Y$ is a cadlag adapted\nprocess. Then, $$I^n_t(Y,X)\\rightarrow\\int_0^t Y_{s-}\\,dX_s$$ in\nprobability as $n\\rightarrow\\infty$. Furthermore, this converges ucp and\nin the semimartingale topology.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StochasticIntegrationAsALimitOfRiemannSums"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "stochastic integration as a limit of Riemann sums"
+  ]
+}

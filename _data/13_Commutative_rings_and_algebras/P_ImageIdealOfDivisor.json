@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If an integral domain $\\mathcal{O}$ has a divisor theory\n$\\mathcal{O}^* \\to \\mathfrak{D}$, then the subset $[\\mathfrak{a}]$ of\n$\\mathcal{O}$, consisting of 0 and all elements divisible by a divisor\n$\\mathfrak{a}$, is an ideal of $\\mathcal{O}$. The mapping\n$$\\mathfrak{a} \\mapsto [\\mathfrak{a}]$$ from the set $\\mathfrak{D}$ of\ndivisors into the set of ideals of $\\mathcal{O}$ is injective and maps\nany principal divisor $(\\alpha)$ to the principal ideal $(\\alpha)$.\\\n[*Proof.*]{} Let $\\alpha,\\,\\beta \\in [\\mathfrak{a}]$ and\n$\\lambda \\in \\mathcal{O}$. Then, by the postulate 2 of ,\n$\\alpha\\!-\\!\\beta$ is divisible by $\\mathfrak{a}$ or is 0, and in both\ncases belongs to $[\\mathfrak{a}]$. When $\\lambda\\alpha \\neq 0$, we can\nwrite $(\\alpha) = \\mathfrak{ac}$ with $\\mathfrak{c}$ a divisor.\nAccording to the homomorphicity of the mapping\n$\\mathcal{O}^* \\to \\mathfrak{D}$, we have\n$$(\\lambda\\alpha) = (\\lambda)(\\alpha) = (\\lambda)\\mathfrak{ac},$$ and\ntherefore the element $\\lambda\\alpha$ is divisible by $\\mathfrak{a}$,\ni.e. $\\lambda\\alpha \\in [\\mathfrak{a}]$. Thus, $[\\mathfrak{a}]$ is an\nideal of $\\mathcal{O}$.\n\nThe injectivity of the mapping $\\mathfrak{a} \\mapsto [\\mathfrak{a}]$\nfollows from the postulate 3 of .\\\nThe ideal $[\\mathfrak{a}]$ may be called the [*image ideal*]{} of\n$\\mathfrak{a}$ or the [*ideal determined by the divisor*]{}\n$\\mathfrak{a}$.\\\n**Remark.** There are integral domains $\\mathcal{O}$ having a divisor\ntheory but also having ideals which are not of the form $[\\mathfrak{a}]$\n(for example a polynomial ring in two indeterminates and its ideal\nformed by the polynomials without constant term). Such rings have \u201ctoo\nmany ideals\u201d. On the other hand, in some integral domains the monoid of\nprincipal ideals cannot be embedded into a free monoid; thus those rings\ncannot have a divisor theory.\n\n[9]{} . . : [ ** ]{}. \u201c\u201d. (1982).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ImageIdealOfDivisor"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "image ideal of divisor"
+  ]
+}

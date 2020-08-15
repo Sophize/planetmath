@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** The real functions $x\\mapsto\\sin{x}$ and $x\\mapsto\\cos{x}$\nare continuous at every real number $x$.\\\n[*Proof.*]{} Let $\\varepsilon$ be an arbitrary positive number. Denote\n$\\Delta\\sin{x} =: \\sin{z}-\\sin{x}$, $\\Delta\\cos{x} =: \\cos{z}-\\cos{x}$\nwhere we suppose that $|z-x| < \\frac{\\pi}{2}$. We may interpret $|z-x|$\nas an arc of the unit circle of the $xy$-plane. Let\u2019s think in the\ncircle the right triangle with hypotenuse the chord of the arc and the\ncatheti (i.e. the shorter sides) vertical and horizontal. Then\n$|\\Delta\\sin{x}|$ and $|\\Delta\\cos{x}|$ are just these cathets; so we\nhave\n$$|\\Delta\\sin{x}| \\;\\leqq\\; |z-x|, \\quad |\\Delta\\cos{x}| \\;\\leqq\\; |z-x|.$$\nIf we make $|z-x| < \\varepsilon$, then also $|\\Delta\\sin{x}|$ and\n$|\\Delta\\cos{x}|$ are less than $\\varepsilon$. It means that both\nfunctions are continuous at $x$.\n\n[9]{} . Nelj\u00e4s painos. Werner S\u00f6derstr\u00f6m Osakeyhti\u00f6, Porvoo ja Helsinki\n(1956).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuityOfSineAndCosine"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "continuity of sine and cosine"
+  ]
+}

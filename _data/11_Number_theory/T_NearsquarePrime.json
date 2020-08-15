@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*near-square prime*]{} is a prime number $p$ of the form $n^2 + k$,\nwith $n$ being any integer and $0 < |k| < |n|$ also an integer. Since\nfor any nonzero real number $x$ it is always the case that $x^2 \\geq 0$,\nit doesn\u2019t matter if $n$ is negative.\n\n  ------ --- --- ---- ---- ---- ---- ---- ---- ---- ----- ----- -----\n       5                                                          149\n       4                     29        53                       \n       3                                    67        103       \n       2           11                            83             \n       1       5        17        37                  101       \n       0   1   4    9   16   25   36   49   64   81   100   121   144\n    $-1$       3                                                \n    $-2$            7        23        47        79             \n    $-3$                                               97       \n    $-4$                                                        \n    $-5$                          31        59                    139\n  ------ --- --- ---- ---- ---- ---- ---- ---- ---- ----- ----- -----\n\nFermat primes are near-square primes for $k = 1$ with the additional\nrequirement that $n = 2^{2^m - 1}$, while Carol primes are near-square\nprimes for $k = -2$ with the additional requirement that $n = 2^m - 1$.\n\nFor $k = -1$, only $n = 2$ gives a prime, namely 3.",
+  "language": "INFORMAL",
+  "phrase": "Near-Square Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NearsquarePrime"
+    }
+  ],
+  "indexable": true
+}

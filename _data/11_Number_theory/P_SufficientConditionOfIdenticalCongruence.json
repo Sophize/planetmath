@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let $f(X) := a_nX^n+\\ldots+a_1X+a_0$ be a polynomial in $X$\nwith integer coefficients $a_i$ and $m$ a positive integer. If the\ncongruence $$\\begin{aligned}\nf(x) \\;\\equiv\\; 0 \\pmod{m}\\end{aligned}$$ is satisfied by $m$ successive\nintegers $x$, then it is satisfied by all integers $x$, in other words\nit is an identical congruence.\\\n*Proof.* There is an integer $x_0$ such that (1) is satisfied by\n$$x \\;:=\\; x_0\\!+\\!1,\\,x_0\\!+\\!2,\\,\\ldots,\\,x_0\\!+\\!m.$$ But these\nvalues form a complete residue system modulo $m$. Thus, if $x$ is an\narbitrary integer, one has\n$$x \\;\\equiv\\; x_0\\!+\\!r \\pmod{m} \\quad\\mbox{where}\\;\\; 1\\leqq r \\leqq m.$$\nThis implies\n$$a_ix^i \\;\\equiv\\; a_i(x_0\\!+\\!r)^i \\pmod{m} \\quad\\mbox{for}\\;\\; i = 0,\\,1,\\,\\ldots,\\,n$$\nand consequently\n$$\\underbrace{\\sum_{i=0}^na_ix^i}_{f(x)} \\;\\equiv\\; \\sum_{i=0}^na_i(x_0\\!+\\!r)^i \\;=\\; f(x_0\\!+\\!r) \\;\\equiv\\; 0 \n\\pmod{m}.$$ Accordingly, (1) is true for any integer $x$, Q.E.D.\\\n**Note.** Though the congruence (1) is identical, it need not be a\nquestion of a formal congruence $$\\begin{aligned}\nf(X) \\;\\underline{\\equiv}\\; 0 \\pmod{m},\\end{aligned}$$ i.e. all\ncoefficients $a_i$ need not be congruent to 0 modulo $m$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SufficientConditionOfIdenticalCongruence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "sufficient condition of identical congruence"
+  ]
+}

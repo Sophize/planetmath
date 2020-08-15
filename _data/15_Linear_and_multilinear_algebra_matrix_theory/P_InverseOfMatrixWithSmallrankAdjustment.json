@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that an $n\\times n$ matrix $B$ is obtained by adding a\nsmall-rank adjustment $XRY^T$ to matrix $A$, $$B = A+XRY^T,$$ where $X$\nand $Y$ are $n\\times r$ matrices, and $R$ is an $r\\times\nr$ matrix. Assume that the inverse of $A$ is known and $r$ is much\nsmaller than $n$. The following formula for $B^{-1}$ is often useful,\n$$B^{-1} = A^{-1} - A^{-1}X (R^{-1}+Y^TA^{-1}X)^{-1} Y^T A^{-1}$$\n\nprovided that all inverses in the formula exist.\n\nIn particular, when $r=1$ and $A=I$, we have\n$$(I+xy^T)^{-1} = I- \\frac{xy^T}{1+y^Tx}$$ for any $n\\times 1$ column\nvectors $x$ and $y$ such that $1+y^Tx\\neq\n0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InverseOfMatrixWithSmallrankAdjustment"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "inverse of matrix with small-rank adjustment"
+  ]
+}

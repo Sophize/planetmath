@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*prime partition*]{} is a of a given positive integer $n$ consisting\nonly of prime numbers. For example, a prime partition of 42 is 29 + 5 +\n5 + 3.\n\nIf we accept partitions of length 1 as valid partitions, then it is\nobvious that only prime numbers have prime partitions of length 1. Not\naccepting 1 as a prime number makes the problem of prime partitions more\ninteresting, otherwise there would always be for a given $n$, if nothing\nelse, a prime partition consisting of $n$ 1s. Almost as bad, however, is\na partion of $n$ into $\\lfloor \\frac{n}{2} \\rfloor$ 2s and 3s.\n\nBoth Goldbach\u2019s conjecture and Levy\u2019s conjecture can be restated in\nterms of prime partitions thus: for any even integer $n > 2$ there is\nalways a prime partition of length 2, and for any odd integer $n > 5$\nthere is always a prime partition of length 3 with at most 2 distinct\nelements.\n\nAssuming Goldbach\u2019s conjecture is true, the most efficient prime\npartition of an even integer is of length 2, while Vinogradov\u2019s theorem\nhas proven the most efficient prime partition of a sufficiently large\ncomposite odd integer is of length 3.",
+  "language": "INFORMAL",
+  "phrase": "Prime Partition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimePartition"
+    }
+  ],
+  "indexable": true
+}

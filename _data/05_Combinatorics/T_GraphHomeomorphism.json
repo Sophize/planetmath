@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G=(V,E)$ be a simple undirected graph. A *simple subdivision* is\nthe replacement of an edge $(x,y)\\in E$ with a pair of edges\n$(x,z),(z,y)$, $z$ being a new vertex, [*i.e.*]{}, $z\\not\\in V$. The\nreverse operation of a simple subdivision is an edge-contraction through\na vertex of degree 2.\n\nTwo graphs $G_1$, $G_2$ are *homeomorphic* if $G_1$ can be transformed\ninto $G_2$ via a finite sequence of simple subdivisions and\nedge-contractions through vertices of degree 2. It is easy to see that\ngraph homeomorphism is an equivalence relation.\n\nEquivalently, $G_1$ and $G_2$ are homeomorphic if there exists a third\ngraph $G_3$ such that both $G_1$ and $G_2$ can be obtained from $G_3$\nvia a finite sequence of edge-contractions through vertices of degree 2.\n\nIf a graph $G$ has a subgraph $H$ which is homeomorphic to a graph $G'$\nhaving no vertices of degree 2, then $G'$ is a minor of $G$. The vice\nversa is not true: as a counterexample, the Petersen graph has $K_{5}$\nas a minor, but no subgraph homeomorphic to $K_{5}$. This happens\nbecause a graph homeomorphism cannot change the number of vertices of\ndegree $d\\neq 2$: since all the vertices of $K_{5}$ have degree 4 and\nall the vertices of the Petersen graph have degree 3, no subgraph of the\nPetersen graph can be homeomorphic to $K_{5}$.",
+  "language": "INFORMAL",
+  "phrase": "Graph Homeomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GraphHomeomorphism"
+    }
+  ],
+  "indexable": true
+}

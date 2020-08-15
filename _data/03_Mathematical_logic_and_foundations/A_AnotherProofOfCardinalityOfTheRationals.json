@@ -1,0 +1,17 @@
+{
+  "argumentText": "If we have a rational number $p/q$ with $p$ and $q$ having no common\nfactor, and each expressed in base 10 then we can view $p/q$ as a base\n11 integer, where the digits are $0,1,2,\\ldots,9$ and $/$. That is,\nslash ($/$) is a symbol for a digit. For example, the rational 3/2\ncorresponds to the integer $3\\cdot 11^2 + 10\\cdot 11 + 2$. The rational\n$-3/2$ corresponds to the integer $-(3\\cdot 11^2 + 10 \\cdot 11 + 2)$.\n\nThis gives a one-to-one map into the integers so the cardinality of the\nrationals is at most the cardinality of the integers. So the rationals\nare countable.",
+  "conclusion": "#P_CardinalityOfTheRationals",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnotherProofOfCardinalityOfTheRationals"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "another proof of cardinality of the rationals"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "uniform random variable",
+    "discrete uniform distribution"
+  ],
+  "definition": "$X$ is a **uniform (discrete) random variable** with parameter **$N$**\nif\\\n\n$f_X(x) = \\frac{1}{N}$, $x=\\{1,2,...,N\\}$\\\n\nParameters:\\\n\n[$\\star$ ]{}\n\n$N \\in \\{1,2,...\\}$\n\nSyntax:\\\n\n$X\\sim U\\{N\\}$\\\n\nNotes:\\\n\n1.  $X$ represents the experiment in which all N outcomes are equally\n    likely to ocurr.\n\n2.  $E[X] = \\frac{N+1}{2}$\n\n3.  $Var[X] = \\frac{N^2-1}{12}$\n\n4.  $M_X(t) = \\sum_{j=1}^{N}{\\frac{1}{N} e^{jt}}$",
+  "language": "INFORMAL",
+  "phrase": "Uniform (Discrete) Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformdiscreteRandomVariable"
+    }
+  ],
+  "indexable": true
+}

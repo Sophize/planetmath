@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A morphism $f: A \\longrightarrow B$ in a category is an *isomorphism* if\nthere exists a morphism $f^{-1}: B \\longrightarrow A$ which is its\ninverse. The objects $A$ and $B$ are *isomorphic* if there is an\nisomorphism between them.\n\nA morphism which is both an isomorphism and an endomorphism is called an\n*automorphism*. The set of automorphisms of an object $A$ is denoted\n$\\operatorname{Aut}(A)$.\n\nExamples:\n\n-   In the category of sets and functions, a function\n    $f: A \\longrightarrow B$ is an isomorphism if and only if it is\n    bijective.\n\n-   In the category of groups and group homomorphisms (or rings and ring\n    homomorphisms), a homomorphism $\\phi: G \\longrightarrow H$ is an\n    isomorphism if it has an inverse map\n    $\\phi^{-1}: H \\longrightarrow G$ which is also a homomorphism.\n\n-   In the category of vector spaces and linear transformations, a\n    linear transformation is an isomorphism if and only if it is an\n    invertible linear transformation.\n\n-   In the category of topological spaces and continuous maps, a\n    continuous map is an isomorphism if and only if it is a\n    homeomorphism.",
+  "language": "INFORMAL",
+  "phrase": "Isomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Isomorphism"
+    }
+  ],
+  "indexable": true
+}

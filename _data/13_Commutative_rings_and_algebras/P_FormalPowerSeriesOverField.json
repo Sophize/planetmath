@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If $K$ is a field, then the ring $K[[X]]$ of formal power\nseries is a discrete valuation ring with $(X)$ its unique maximal\nideal.\\\n*Proof.* We show first that an arbitrary ideal $I$ of $K[[X]]$ is a\nprincipal ideal. If $I = (0)$, the thing is ready. Therefore, let\n$I \\neq (0)$. Take an element $$f(X) \\;:=\\; \\sum_{i=0}^\\infty a_iX^i$$\nof $I$ such that it has the least possible amount of successive zero\ncoefficients in its beginning; let its first non-zero coefficient be\n$a_k$. Then $$f(X) \\;=\\; X^k(a_k\\!+\\!a_{k+1}X\\!+\\ldots).$$ Here we have\nin the parentheses an invertible formal power series $g(X)$, whence get\nthe equation $$X^k \\;=\\; f(X)[g(X)]^{-1}$$ implying $X^k \\in I$ and\nconsequently $(X^k) \\subseteq I$.\\\nFor obtaining the reverse inclusion, suppose that\n$$h(X) \\;:=\\; b_nX^n\\!+\\!b_{n+1}X^{n+1}\\!+\\ldots$$ is an arbitrary\nnonzero element of $I$ where $b_n \\neq 0$. Because $n \\ge k$, we may\nwrite $$h(X) \\;=\\; X^k(b_nX^{n-k}\\!+\\!b_{n+1}X^{n-k+1}\\!+\\ldots).$$ This\nequation says that $h(X) \\in (X^k)$, whence $I \\subseteq (X^k)$.\\\nThus we have seen that $I$ is the principal ideal $(X^k)$, so that\n$K[[X]]$ is a principal ideal domain.\\\nNow, all ideals of the ring $K[[X]]$ form apparently the strictly\ndescending chain\n$$(X) \\;\\supset\\; (X^2) \\;\\supset\\; (X^3) \\;\\supset\\; \\ldots \\;\\supset\\; (0),$$\nwhence the ring has the unique maximal ideal $(X)$. A principal ideal\ndomain with only one maximal ideal is a discrete valuation ring.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FormalPowerSeriesOverField"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "formal power series over field"
+  ]
+}

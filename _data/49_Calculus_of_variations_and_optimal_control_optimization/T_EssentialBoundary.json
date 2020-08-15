@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $E\\subset {\\mathbf R}^n$ be a measurable set. We define the\n*essential boundary* of $E$ as\n$$\\partial^* E := \\{x\\in{\\mathbf R}^n\\colon 0 < | E\\cap B_\\rho(x)| < |B_\\rho(x)|,\\quad \\forall \\rho>0\\}$$\nwhere $|\\cdot|$ is the Lebesgue measure.\n\nCompare the definition of $\\partial^* E$ with the definition of the\ntopological boundary $\\partial E$ which can be written as\n$$\\partial E = \\{ x \\in {\\mathbf R}^n \\colon \\emptyset \\subsetneq E\\cap B_\\rho(x) \\subsetneq B_\\rho(x),\\quad \\forall \\rho>0\\}.$$\nHence one clearly has $\\partial^* E\\subset \\partial E$.\n\nNotice that the essential boundary does not depend on the Lebesgue\nrepresentative of the set $E$, in the sense that if $|E\\triangle F|=0$\nthen $\\partial^* E = \\partial ^* F$. For example if\n$E=\\mathbf Q^n\\subset {\\mathbf R}^n$ is the set of points with rational\ncoordinates, one has $\\partial^* E=\\emptyset$ while\n$\\partial E={\\mathbf R}^n$.\n\nNevertheless one can easily prove that $\\partial^*E$ is always a closed\nset (in the usual sense).",
+  "language": "INFORMAL",
+  "phrase": "Essential Boundary",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EssentialBoundary"
+    }
+  ],
+  "indexable": true
+}

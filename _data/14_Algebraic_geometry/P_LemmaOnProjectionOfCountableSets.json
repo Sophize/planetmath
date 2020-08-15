@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $\\mathbb{F}$ is an infinite field and $S$ is an infinite subset\nof $\\mathbb{F}^n$. Then there exists a line $L$ such that the projection\nof $S$ on $L$ is infinite.\n\nProof: This proof will proceed by an induction on $n$. The case $n=1$ is\ntrivial since a one-dimensional linear space is a line.\n\nConsider two cases:\n\nCase I: There exists a proper subspace of $\\mathbb{F}^n$ which contains\nan infinite number of points of $S$.\n\nIn this case, we can restrict attention to this subspace. By the\ninduction hypothesis, there exists a line in the subspace such that the\nprojection of points in the subspace to this line is already infinite.\n\nCase II: Every proper subspace of $\\mathbb{F}^n$ contains at most a\nfinite number of points of $S$.\n\nIn this case, any line will do. By definition, one constructs a\nprojection by dropping hyperplanes perpendicular to the line passing\nthrough the points of the set. Since each of these hyperplanes will\ncontain a finite number of elements of $S$, an infinite number of\nhyperplanes will be needed to contain all the points of $S$, hence the\nprojection will be infinite.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LemmaOnProjectionOfCountableSets"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "lemma on projection of countable sets"
+  ]
+}

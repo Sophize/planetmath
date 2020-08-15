@@ -1,0 +1,17 @@
+{
+  "argumentText": "The sufficiency of the condition is obvious and we shall prove the\nnecessity by contradiction.\n\nAssume that $G+uv$ is Hamiltonian but $G$ is not. Then $G+uv$ has a\nHamiltonian cycle containing the edge $uv$. Thus there exists a path\n$P=(x_1,\\dots,x_n)$ in $G$ from $x_1=u$ to $x_n=v$ meeting all the\nvertices of $G$. If $x_i$ is adjacent to $x_1$ ($2\\leq i\\leq n$) then\n$x_{i-1}$ is not adjacent to $x_n$, for otherwise\n$(x_1,x_i,x_{i+1},\\dots,x_n,x_{i-1},x_{i-2},\\dots,x_1)$ is a Hamiltonian\ncycle of $G$. Thus $d(x_n)\\leq (n-1)-d(x_1)$, that is\n$d(u)+d(v)\\leq n-1$, a contradiction",
+  "conclusion": "#P_BondyAndChvatalTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBondyAndChvatalTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Bondy and Chv\\'atal theorem"
+  ]
+}

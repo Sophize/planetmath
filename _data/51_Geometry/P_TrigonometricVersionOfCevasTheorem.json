@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $ABC$ be a given triangle and $P$ any point of the plane. If $X$ is\nthe intersection point of $AP$ with $BC$, $Y$ the intersection point of\n$BP$ with $CA$ and $Z$ is the intersection point of $CP$ with $AB$, then\n$$\\frac{\\sin ACZ}{\\sin ZCB}\\cdot\\frac{\\sin BAX}{\\sin XAC}\\cdot\\frac{\\sin CBY}{\\sin YBA}=1.$$\n\nConversely, if $X,Y,Z$ are points on $BC,CA,AB$ respectively, and if\n$$\\frac{\\sin ACZ}{\\sin ZCB}\\cdot\\frac{\\sin BAX}{\\sin XAC}\\cdot\\frac{\\sin CBY}{\\sin YBA}=1$$\nthen $AD,BE,CF$ are concurrent.\n\nRemarks: All the angles are directed angles (counterclockwise is\npositive), and the intersection points may lie in the prolongation of\nthe segments.\n\n![image](ceva)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TrigonometricVersionOfCevasTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "trigonometric version of Ceva's theorem"
+  ]
+}

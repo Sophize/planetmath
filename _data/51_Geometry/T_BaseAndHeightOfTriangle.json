@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "base of triangle",
+    "height of triangle"
+  ],
+  "definition": "(-5,-0.5)(5,2.8) (-5,-0.5)[.]{} (5,2.8)[.]{} (-4,0)(-1,0)(-2,2.5)\n(-2,0)(-2,2.5) (-2,-0.3)[base]{} (-2.25,1.1)[$h_1$]{} (2,0)(4,0)(1,2.2)\n(1,0)(1,2.2) (1,0)(2,0) (3,-0.3)[base]{} (0.75,0.9)[$h_2$]{}\n\nConsidering the area of a triangle, one usually names a side of the\ntriangle to be its *base*. For expressing the calculation way of the\narea of the triangle, one then uses the *height* (a.k.a. *altitude*),\nwhich means the perpendicular distance of the vertex, to the base side,\nfrom the line determined by the base. In the above two triangles, the\nheights $h_1$ and $h_2$ correspond the horizontal . One calls *foot of\nthe height* the projection of the vertex onto the line of the base.\n\nThe rule for the calculation reads\n$$\\mbox{area \\;=\\; base times height divided by 2}$$\\\nIn the below figure, there is the illustration of the rule. The\nparallelogram $ABCD$ has been divided by the diagonal $BD$ into two\ntriangles, which are congruent by the ASA criterion (see the alternate\ninterior angles). Thus the both triangles have the areas half of the\narea of the parallelogram, which in turn has the common base $AB$ and\nthe common height $h$ with the triangle $ABD$.\n\n(-3,-0.5)(4.5,2.8) (-3,-0.5)[.]{} (4.5,2.8)[.]{} (2,0)(-0.5,2.5)\n(-0.5,2.5)(-2,0)(2,0) (2,0)(3.5,2.5)(-0.5,2.5) (-2.2,-0.2)[$A$]{}\n(2.2,-0.2)[$B$]{} (3.8,2.6)[$C$]{} (-0.8,2.6)[$D$]{}\n(2,0)[0.33]{}[135]{}[180]{} (2,0)[0.25]{}[55]{}[180]{}\n(-0.5,2.5)[0.25]{}[-125]{}[0]{} (-0.5,2.5)[0.33]{}[-45]{}[0]{}\n(-0.5,2.3)(-0.5,0) (-0.3,1.1)[$h$]{}\n\n**Note.** In an isosceles triangle, one sometimes calls the two equal\nsides the *legs* and the third side the *base*.",
+  "language": "INFORMAL",
+  "phrase": "Base And Height Of Triangle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BaseAndHeightOfTriangle"
+    }
+  ],
+  "indexable": true
+}

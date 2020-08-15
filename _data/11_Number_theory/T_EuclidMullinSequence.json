@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*Euclid-Mullin sequence*]{} is a sequence of prime numbers starting\nwith 2 in which each prime afterwards is the least prime factor of one\nmore than the product of the previous terms. Or, to put it\nalgebraically, $a_1 = 2$ and $a_n$ for $n > 1$ is the smallest prime\ndividing $$1 + \\prod_{i = 1}^{n - 1} a_i.$$ (Actually, $a_1$ can be set\nto 3, 7 or 43, resulting in a sequence that is exactly the same except\nfor the order of its first four terms).\n\nSo, the product of 2 is 2, and one more than that is 3, which is prime.\n2 times 3 is 6, and one more than 6 is 7, which is also prime. The\nproduct of 2, 3 and 7 is 42, just below the prime 43. The product of 2,\n3, 7 and 43, however, is composite, namely $1807 = 13 \\times 139$, and\nthus 13 is the next term of the sequence. The sequence continues 53, 5,\n6221671, 38709183810571, 139, 2801, 11, 17, 5471, 52662739, etc., and is\nlisted in A000945 of Sloane\u2019s OEIS. (The first four terms of this\nsequence are the same as Sylvester\u2019s sequence).\n\nIt follows from Euclid\u2019s proof that there are infinitely many prime\nnumbers that the Euclid-Mullin sequence does not contain any repeated\nterms. What is not known, however, is whether this sequence contains all\nthe primes, as it is clear that very small primes can follow much larger\nprimes. 31 is the smallest prime whose membership in this sequence is in\nquestion, but only the first 43 terms are known as of 2007. To find the\n44th term, many are working on factoring\n2784908410762794071887414394815651793559267258537102016323316\n20642982062389901741890579963524423782637435949041666525000702723914662388812510\n545494307250950777886431051612811386531.\n\n[2]{} R. K. Guy & R. Nowakowski, \u201cDiscovering primes with Euclid,\u201d\n[*Delta*]{} [**5**]{} (1975): 49 - 63 A. A. Mullin, \u201cRecursive function\ntheory,\u201d [*Bull. Amer. Math. Soc.*]{} [**69**]{} (1963): 737",
+  "language": "INFORMAL",
+  "phrase": "Euclid-Mullin Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EuclidMullinSequence"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Spray",
+    "geodesic spray",
+    "finsler spray"
+  ],
+  "definition": "Take a fibred manifold $\\pi\\colon B\\to X$. Choose a vector field $S$\nover $B$ that satisfies $D\\pi\\circ S(y)=y$ for the Jacobian map\n$D\\pi:TB\\rightarrow\nB$ over all coordinate vectors $y=(y^{1}, \\ldots , y^{n})\\in B$. A\n*spray* field $\\textbf{G}$ over $B$ is a globally defined smooth vector\nfield associated to the first jet bundle $J_{B}^{1}X$ of $X$ that is\ngiven in local coordinates $x=(x^{1}, \\ldots ,x^{n})\\in B$ as\n$$\\textbf{G}=y^{i}\\frac{\\partial}{\\partial x^{i}}-G^{i}\\frac{\\partial}{\\partial y^{i}}.$$\nThe *spray coefficients* $G^{i}(y)$ are second degree homogeneous\nfunctions which correspond up to nonlinear connections on $M$. Thus by\n$D\\pi$ the integral curves of $\\mathbf{G}$ must be of second order, and\nso given the constraints of the spray coefficients, satisfy\n$\\ddot{c}^{ii}=2G^{i}(\\dot{c})$. Subsequently, the pair $(X,\\textbf{G})$\nis called a *spray space*.\n\nExample 1: Choose a system of second order quasilinear ordinary\ndifferential equations that satisfy $$\\ddot{c}^{ii}+2G^{i}(\\dot{c})=0$$\nfor a family of parameterized curves $c$, and let the system induce its\ncorresponding *spray*. Then when $c$ is also a Finsler geodesic in $B$\nwith constant speed so that the covariant derivative gives $D_{V}V=0$\nalong a vector field $V$, the corresponding autoparallels of the spray\ncoefficients completely characterize a *path space* for $B$.",
+  "language": "INFORMAL",
+  "phrase": "Spray Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpraySpace"
+    }
+  ],
+  "indexable": true
+}

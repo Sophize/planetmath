@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The three roots $r_1, r_2, r_3$ of a cubic polynomial equation\n$x^3 + ax^2 + bx + c = 0$ are given by $$\\begin{aligned}\nr_1 & = & -\\frac{a}{3} + \\left(\\frac{-2a^3 + 9ab - 27c + \\sqrt{(2a^3-9ab+27c)^2 + 4(-a^2+3b)^3}}{54}\\right)^{1/3} \\\\\n& & {} + \\left(\\frac{-2a^3 + 9ab - 27c - \\sqrt{(2a^3-9ab+27c)^2 + 4(-a^2+3b)^3}}{54}\\right)^{1/3} \\\\\nr_2 & = & -\\frac{a}{3} - \\frac{1+i\\sqrt{3}}{2} \\left(\\frac{-2a^3 + 9ab - 27c + \\sqrt{(2a^3-9ab+27c)^2 + 4(-a^2+3b)^3}}{54}\\right)^{1/3} \\\\\n& & {} + \\frac{-1+i\\sqrt{3}}{2} \\left(\\frac{-2a^3 + 9ab - 27c - \\sqrt{(2a^3-9ab+27c)^2 + 4(-a^2+3b)^3}}{54}\\right)^{1/3} \\\\\nr_3 & = & -\\frac{a}{3} + \\frac{-1+i\\sqrt{3}}{2} \\left(\\frac{-2a^3 + 9ab - 27c + \\sqrt{(2a^3-9ab+27c)^2 + 4(-a^2+3b)^3}}{54}\\right)^{1/3} \\\\\n& & {} - \\frac{1+i\\sqrt{3}}{2} \\left(\\frac{-2a^3 + 9ab - 27c - \\sqrt{(2a^3-9ab+27c)^2 + 4(-a^2+3b)^3}}{54}\\right)^{1/3}\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CubicFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "cubic formula",
+    "cubic equation"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A poset $P$ is said to be *continuous* if for every $a\\in P$\n\n1.  the set $\\operatorname{wb}(a)=\\lbrace u\\in P\\mid u\\ll a\\rbrace$ is a\n    directed set,\n\n2.  $\\bigvee \\operatorname{wb}(a)$ exists, and\n\n3.  $a=\\bigvee \\operatorname{wb}(a)$.\n\nIn the first condition, $\\ll$ indicates the way below relation on $P$.\nIt is true that in *any* poset, if $b:=\\bigvee \\operatorname{wb}(a)$\nexists, then $b\\le a$. So for a poset to be continuous, we require that\n$a\\le b$.\n\nA *continuous lattice* is a complete lattice whose underlying poset is\ncontinuous. Note that if $P$ is a complete lattice, condition 1 above is\nautomatically satisfied: suppose $u,v\\ll a$ and $D\\subseteq P$ with\n$a\\le \\bigvee D$, then there are finite subsets $F,G$ of $D$ with\n$u\\le \\bigvee F$ and $v\\le \\bigvee G$. Then $H:=F\\cup G\\subseteq D$ is\nfinite and\n$u\\vee v\\le \\big(\\bigvee F\\big)\\vee \\big(\\bigvee G\\big)=\\bigvee H$, or\n$u\\vee v\\ll a$, implying that $\\operatorname{wb}(a)$ is directed.\n\n**Examples**.\n\n1.  Any finite poset is continuous, and so is any finite lattice (since\n    it is complete).\n\n2.  A chain is continuous iff it is complete.\n\n3.  The lattice of ideals of a ring is continuous.\n\n4.  The set of all lower semicontinuous functions from a fixed compact\n    topological space into the extended real numbers is a continuous\n    lattice.\n\n5.  The set of all closed convex subsets of a compact convex subset of\n    $\\mathbb{R}^n$ ordered by reverse inclusion is a continuous lattice.\n\n**Remarks**.\n\n-   Every algebraic lattice is continuous.\n\n-   Every continuous meet semilattice is meet continuous.\n\n[8]{} G. Gierz, K. H. Hofmann, K. Keimel, J. D. Lawson, M. W. Mislove,\nD. S. Scott, [*Continuous Lattices and Domains*]{}, Cambridge University\nPress, Cambridge (2003).",
+  "language": "INFORMAL",
+  "phrase": "Continuous Poset",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuousPoset"
+    }
+  ],
+  "indexable": true
+}

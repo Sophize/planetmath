@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $M$ be a smooth $n$-dimensional manifold, and\n$f:M\\rightarrow \\mathbb {\\mathbb{R}}$ a smooth map. We denote by\n${\\mathrm{Crit}}(f)$ the set of critical points of $f$, i.e.\n$${\\mathrm{Crit}}(f)=\\{p\\in M\\,|\\, (f_*)_p=0\\}$$\n\nFor each $p\\in {\\mathrm{Crit}}(f)$ we denote by $f_{**}:T_pM\\times\nT_pM\\rightarrow{\\mathbb{R}}$ (or $(f_{**})_p$ if $p$ need to be\nspecified) the bilinear map\n$$f_{**}(v,w)=v(\\tilde w (f))=w(\\tilde v (f)),\\ \\\n\\forall v,w\\in T_pM,$$ where $\\tilde v,\\tilde w\\in\\mathcal T(M)$ are\nsmooth vector fields such that $\\tilde v_p=v$ and $\\tilde w_p=w$. This\nis a good definition. In fact $p\\in{\\mathrm{Crit}}(f)$ implies\n$$v(\\tilde w (f))-w(\\tilde v (f))=(\\tilde v (f),\\tilde\nw (f))_p=f_{*}(\\tilde v,\\tilde w)_p=0.$$ In smooth local coordinates\n$x^1,...,x^n$ on a neighborhood $U$ of $p$ we have\n$$f_{**}\\left( {\\left.{\\frac{\\partial }{\\partial x^i}}\\right|_{p}}, {\\left.{\\frac{\\partial }{\\partial x^j}}\\right|_{p}}\n\\right)={\\frac{\\partial^2 f}{\\partial x^i\\,\\partial x^j}}(p).$$\n\nA critical point $p\\in{\\mathrm{Crit}}(f)$ is called *non degenerate*\nwhen the matrix\n$$\\left( {\\frac{\\partial^2 f}{\\partial x^i\\,\\partial x^j}}(p)\n\\right)_{i,j\\in\\{1,...,n\\}}$$ is non singular. We can equivalently\nexpress this condition without the use of local coordinates saying that\n$p\\in{\\mathrm{Crit}}(f)$ is non degenerate when for each $v\\in T_p\nM\\setminus\\{0\\}$ the linear functional\n$f_{**}(v,\\cdot)\\in{\\mathrm{Hom}(T_pM,{\\mathbb{R}})}$ is not zero, i.e.\nthere exists $w$ such that $f_{**}(v,w)\\neq 0$.\n\nWe recall that the *index* of a bilinear functional $H:V\\times\nV\\rightarrow{\\mathbb{R}}$ is the dimension ${\\mathrm{Index}}(H)$ of a\nmaximal linear subspace $W\\subseteq V$ such that $H$ is negative\ndefinite on $W\\times W$.\n\nLet $f:M\\rightarrow{\\mathbb{R}}$ be a smooth map. For each non\ndegenerate $p\\in{\\mathrm{Crit}}(f)$ there exists a neighborhood $U$ of\n$p$ and smooth coordinates $x=(x^1,...,x^n)$ on $U$ such that $x(p)=0$\nand\n$$f|_U=f(p)-(x^1)^2-...-(x^\\lambda)^2+(x^{\\lambda+1})^2+...+(x^n)^2,$$\nwhere $\\lambda={\\mathrm{Index}}((f_{**})_p)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MorseLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Morse lemma"
+  ]
+}

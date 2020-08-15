@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "joint mass function",
+    "joint density function",
+    "joint distribution"
+  ],
+  "definition": "Let $X_1, X_2, ..., X_n$ be $n$ random variables all defined on the same\nprobability space. The **joint continuous density function** of\n$X_1, X_2, ..., X_n$, denoted by\n$f_{X_1, X_2, ..., X_n}(x_1,x_2,...,x_n)$, is the function\n$f_{X_1, X_2, ..., X_n}: \\mathbb{R}^n \\to \\mathbb{R}$ such that for any\ndomain $D\\subset \\mathbb{R}^n$, we have $$\\begin{aligned}\n\\int_D  {  f_{X_1,X_2,..., X_n}(u_1,u_2,...,u_n) du_1 du_2 ... du_n  } = \\text{Prob}({X_1,X_2,...,X_n}\\in D)\\end{aligned}$$\n\nAs in the case where $n=1$, this function satisfies:\\\n\n1.  $f_{X_1, X_2, ..., X_n}(x_1,...,x_n) \\geq  0$\n    $\\forall (x_1,...,x_n)$\n\n2.  $\\int_{x_1, ... ,x_n}^{} {  f_{X_1, X_2, ..., X_n}(u_1,u_2,...,u_n) du_1 du_2 ... du_n }= 1$\n\nAs in the single variable case, $f_{X_1, X_2, ..., X_n}$ does not\nrepresent the probability that each of the random variables takes on\neach of the values.",
+  "language": "INFORMAL",
+  "phrase": "Joint Continuous Density Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JointContinuousDensityFunction"
+    }
+  ],
+  "indexable": true
+}

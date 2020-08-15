@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $B$ be a betweenness relation on a set $A$.\n\nIf $(a,b,c)\\in B$ and $(a,c,d)\\in B$, then $(a,b,d)\\in B$.\n\nFor each pair of elements $p,q\\in A$, we can define five sets:\n\n1.  $B_{*pq}:=\\lbrace r\\in A\\mid (r,p,q)\\in B\\rbrace$,\n\n2.  $B_{p*q}:=\\lbrace r\\in A\\mid (p,r,q)\\in B\\rbrace$,\n\n3.  $B_{pq*}:=\\lbrace r\\in A\\mid (p,q,r)\\in B\\rbrace$,\n\n4.  $B_{pq}:=B_{p*q}\\cup\\lbrace q\\rbrace\\cup B_{pq*}$, and\n\n5.  $B(p,q):=B_{*pq}\\cup\\lbrace p\\rbrace\\cup B_{pq}$.\n\nThen\n\n-   $B_{*pq}=B_{qp*}.$\n\n-   $B_{p*q}=B_{q*p}.$\n\n-   The intersection of any pair of the first three sets contains at\n    most one element, either $p$ or $q$.\n\n-   Each of the sets can be partially ordered.\n\n-   The partial order on $B_{pq}$ and $B(p,q)$ extends that of the\n    subsets.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SomeTheoremsOnTheAxiomsOfOrder"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "some theorems on the axioms of order"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*prime pyramid*]{} is a triangular arrangement of numbers in which\neach row $n$ has the integers from 1 to $n$ but in an order such that\nthe sum of any two consecutive terms in a row is a prime number. The\nfirst number must be 1, and the last number is usually required to be\n$n$, all the numbers in between are in whatever order fulfills the\nrequirement for prime sums. Unlike other triangular arrangements of\nnumbers like Pascal\u2019s triangle or Losanitsch\u2019s triangle, the contents of\na given row are not determined by those of the previous row. However, if\nit happens that one has calculated row $n - 1$ and that $2n - 1$ is a\nprime number, one could just copy the previous row and add $n$ at the\nend. Here is a prime pyramid reckoned that way:\n\n$$\\begin{array}{cccccccccccccccccc}\n& & & & & & & & & 1 & & & & & & & &\\\\\n& & & & & & & & 1 & & 2 & & & & & & &\\\\\n& & & & & & & 1 & & 2 & & 3 & & & & & &\\\\\n& & & & & & 1 & & 2 & & 3 & & 4 & & & & &\\\\\n& & & & & 1 & & 4 & & 3 & & 2 & & 5 & & & &\\\\\n& & & & 1 & & 4 & & 3 & & 2 & & 5 & & 6 & & &\\\\\n& & & 1 & & 4 & & 3 & & 2 & & 5 & & 6 & & 7 & &\\\\\n& & 1 & & 4 & & 7 & & 6 & & 5 & & 2 & & 3 & & 8 &\\\\\n& & & & &\\vdots & & & & \\vdots & & & & \\vdots& & & & \\\\\n\\end{array}$$\n\nOften row 1 just contains an asterisk or some other non-numerical\nsymbol, but since the idea of adding two numbers in row 1 is moot, here\nrow 1 just contains a 1 per analogy to the following rows and to other\ntriangular arrangements of numbers.\n\n[2]{} R. K. Guy, [*Unsolved Problems in Number Theory*]{} New York:\nSpringer-Verlag 2004: C1",
+  "language": "INFORMAL",
+  "phrase": "Prime Pyramid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimePyramid"
+    }
+  ],
+  "indexable": true
+}

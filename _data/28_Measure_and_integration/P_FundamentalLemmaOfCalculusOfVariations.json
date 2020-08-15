@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The idea in the calculus of variations is to study stationary points of\nfunctionals. To derive a differential equation for such stationary\npoints, the following theorem is needed, and hence named thereafter. It\nis also used in distribution theory to recover traditional calculus from\ndistributional calculus.\n\nSuppose $f\\colon U\\to {\\mathbbmss{C}}$ is a locally integrable function\non an open subset $U\\subset {\\mathbb{R}}^n$, and suppose that\n$$\\int_{U} f \\phi dx =0$$ for all smooth functions with compact support\n$\\phi\\in C_0^\\infty(U)$. Then $f=0$ almost everywhere.\n\nBy linearity of the integral, it is easy to see that one only needs to\nprove the claim for real $f$. If $f$ is continuous, this can be seen by\npurely geometrical arguments. A full proof based on the Lebesgue\ndifferentiation theorem is given in [@hormander]. Another proof is given\nin [@lang].\n\n[9]{} L. H\u00f6rmander, *The Analysis of Linear Partial Differential\nOperators I, (Distribution theory and Fourier Analysis)*, 2nd ed,\nSpringer-Verlag, 1990. S. Lang, *Analysis II*, Addison-Wesley Publishing\nCompany Inc., 1969.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalLemmaOfCalculusOfVariations"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fundamental lemma of calculus of variations",
+    "fundamental theorem of the calculus of variations"
+  ]
+}

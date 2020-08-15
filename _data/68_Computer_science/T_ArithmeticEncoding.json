@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "arithmetic coding",
+    "arithmetic encoder",
+    "arithmetic coder"
+  ],
+  "definition": "*Arithmetic coding* is a technique for achieving near-optimal entropy\nencoding.\n\nAn arithmetic encoder takes a string of symbols as input and produces a\nrational number in the interval $[0, 1)$ as output. As each symbol is\nprocessed, the encoder will restrict the output to a smaller interval.\n\nLet $N$ be the number of distinct symbols in the input; let\n$x_1, x_2 \\dots x_N$ represent the symbols, and let $P_1, P_2 \\dots P_N$\nrepresent the probability of each symbol appearing. At each step in the\nprocess, the output is restricted to the current interval $[y, y + R)$.\nPartition this interval into $N$ disjoint subintervals:\n\n$$I_1 = [y, y + P_1R)$$ $$I_2 = [y+P_1R, y + P_1R + P_2R)$$ $$\\vdots$$\n$$I_N = \\left[y+\\sum_{i=1}^{N-1}P_iR, y + R\\right)$$\n\nTherefore the of $I_i$ is $P_iR$. If the next symbol is $x_i$, then\nrestrict the output to the new interval $I_i$.\n\nNote that at each stage, all the possible intervals are pairwise\ndisjoint. Therefore a specific sequence of symbols produces exactly one\nunique output range, and the process can be reversed.\n\nSince arithmetic encoders are typically implemented on binary computers,\nthe actual output of the encoder is generally the shortest sequence of\nbits representing the fractional part of a rational number in the final\ninterval.\n\nSuppose our entire input string contains $M$ symbols: then $x_i$ appears\nexactly $P_iM$ times in the input. Therefore, the size of the final\ninterval will be $$R_f = \\prod_{i=1}^N P_i^{P_iM}$$ The number of bits\nnecessary to write a binary fraction in this range is $$\\begin{aligned}\n-\\log_2 R_f& =& -\\log_2 \\prod_{i=1}^N P_i^{P_iM} \\\\\n&=& \\sum_{i=1}^N -\\log_2 P_i^{P_iM} \\\\\n&=& \\sum_{i=1}^N -P_iM\\log_2 P_i\\end{aligned}$$\n\nBy Shannon\u2019s theorem, this is the total entropy of the original message.\nTherefore arithmetic encoding is near-optimal entropy encoding.",
+  "language": "INFORMAL",
+  "phrase": "Arithmetic Encoding",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArithmeticEncoding"
+    }
+  ],
+  "indexable": true
+}

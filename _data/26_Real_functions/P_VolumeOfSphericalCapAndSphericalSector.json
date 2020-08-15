@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem 1.** The volume of a spherical cap is\n$\\pi h^2\\!\\left(r\\!-\\!\\frac{h}{3}\\right)$, when $h$ is its height and\n$r$ is the radius of the sphere.\\\n[*Proof.*]{} The sphere may be formed by letting the circle\n$(x\\!-\\!r)^2\\!+\\!y^2 = r^2$, i.e. $y = (\\pm)\\sqrt{rx\\!-\\!x^2}$, rotate\nabout the $x$-axis. Let the spherical cap be the portion from the sphere\non the left of the plane at $x = h$ perpendicular to the $x$-axis.\n\n(-0.8,-3.5)(7,3.5) (0,0)(1.2,0)(3,0)(5.95,0) (-0.2,-0.25)[$0$]{}\n(1.2,-0.27)[$h$]{} (3,-0.27)[$r$]{} (0.2,3.4)[$y$]{} (6.8,0.24)[$x$]{}\n(3,0)[3]{} (1.2,0)(0.45,2.39) (0,-3.3)(0,3.3) (0,0)(1.2,0) (1.2,0)(6,0)\n(-0.7,0)(0,0) (6,0)(6.7,0) (-0.8,-3.5)[.]{} (7,3.5)[.]{}\n\nThen the for the volume of solid of revolution yields the volume in\nquestion:\n$$V = \\pi\\!\\int_0^h(\\sqrt{rx\\!-\\!x^2})^2\\,dx = \\pi\\!\\int_0^h(2rx\\!-\\!x^2)\\,dx = \n\\pi\\!{\\operatornamewithlimits{\\Big/}_{\\!\\!\\!x=0}^{\\,\\quad h}}\\left(rx^2\\!-\\!\\frac{x^3}{3}\\right) = \\pi{h}^2\\!\\left(r\\!-\\!\\frac{h}{3}\\right).\\\\$$\n\n**Theorem 2.** The volume of a spherical sector is\n$\\frac{2}{3}\\pi{r}^2h$, where $h$ is the height of the spherical cap of\nthe spherical sector and $r$ is the radius of the sphere.\\\n[*Proof.*]{} The volume $V$ of the spherical sector equals to the sum or\ndifference of the spherical cap and the circular cone depending on\nwhether $h < r$ or $h > r$. If the radius of the base circle of the cone\nis $\\varrho$, then $$V = \\begin{cases} \n\\pi{h}^2(r\\!-\\!\\frac{h}{3})+\\frac{1}{3}\\pi{\\varrho}^2(r\\!-\\!h) &\\mbox{when\\, $h < r$,}\\\\\n\\pi{h}^2(r\\!-\\!\\frac{h}{3})-\\frac{1}{3}\\pi{\\varrho}^2(h\\!-\\!r) &\\mbox{when\\, $h > r$.}\n\\end{cases}$$ But one can see that both expressions of $V$ are\nidentical. Moreover, if $c$ is the great circle of the sphere having as\na diameter the line of the axis of the cone and if $P$ is the midpoint\nof the base of the cone, then in both cases, the power of the point $P$\nwith respect to the circle $c$ is $$\\varrho^2 = (2r\\!-\\!h)h.$$\nSubstituting this to the expression of $V$ and simplifying give\n$V = \\frac{2}{3}\\pi{r}^2h$, Q.E.D.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VolumeOfSphericalCapAndSphericalSector"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "volume of spherical cap and spherical sector",
+    "volume of spherical cap",
+    "volume of spherical sector"
+  ]
+}

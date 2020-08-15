@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "isomorphism-closed",
+    "replete"
+  ],
+  "definition": "A subcategory ${\\mathcal{A}}$ of a category ${\\mathcal{B}}$ is said to\nbe *isomorphism-closed* if for any $A\\in{\\mathcal{A}}$ and a\n${\\mathcal{B}}$-isomorphism ${h:A\\toB}$, also the ${\\mathcal{B}}$-object\n$B$ belongs to ${\\mathcal{A}}$.\n\nMore simply: the subcategory ${\\mathcal{A}}$ contains with each object\nall isomorphic ${\\mathcal{B}}$-objects.\n\nAnother name commonly used for isomorphism-closed subcategories is\n*replete subcategory*.\n\nThis condition is very natural. E.g\u00a0in the category of topological\nspaces we usually study properties which are invariant under\nhomeomorphisms \u2013 so called topological properties. Every topological\nproperty corresponds to a strictly full subcategory of\n${{\\mathbf{Top}}}$.\n\nA subcategory which is isomorphism-closed and full is called *strictly\nfull*.",
+  "language": "INFORMAL",
+  "phrase": "Isomorphism-Closed Subcategory",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IsomorphismclosedSubcategory"
+    }
+  ],
+  "indexable": true
+}

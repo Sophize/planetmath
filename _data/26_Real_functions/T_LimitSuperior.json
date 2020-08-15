@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "limsup",
+    "supremum limit"
+  ],
+  "definition": "Let $S\\subset{\\mathbb{R}}$ be a set of real numbers. Recall that a limit\npoint of $S$ is a real number $x\\in{\\mathbb{R}}$ such that for all\n$\\epsilon>0$ there exist infinitely many $y\\in S$ such that\n$$\\vert x-y\\vert <\\epsilon.$$ We define $\\limsup S=\\overline{\\lim}$,\npronounced the [*limit superior*]{} of $S$, to be the supremum of all\nthe limit points of $S$. If there are no limit points, we define the\nlimit superior to be $-\\infty$.\n\nWe can generalize the above definition to the case of a mapping\n$f:X\\to{\\mathbb{R}}$. Now, we define a limit point of $f$ to be an\n$x\\in {\\mathbb{R}}$ such that for all $\\epsilon>0$ there exist\ninfinitely many $y\\in X$ such that $$\\vert x-f(y)\\vert <\\epsilon.$$ We\nthen define $\\limsup f$, to be the supremum of all the limit points of\n$f$, or $-\\infty$ if there are no limit points. We recover the previous\ndefinition as a special case by considering the limit superior of the\ninclusion mapping $\\iota: S\\to\n{\\mathbb{R}}$.\n\nSince a sequence of real numbers $x_0, x_1, x_2, ,\\ldots$ is just a\nmapping from ${\\mathbb{N}}$ to ${\\mathbb{R}}$, we may adapt the above\ndefinition to arrive at the notion of the limit superior of a sequence.\nHowever for the case of sequences, an alternative, but equivalent\ndefinition is available. For each $k\\in{\\mathbb{N}}$, let $y_k$ be the\nsupremum of the $k{^{\\text{th}}}$ tail, $$y_k = \\sup_{j\\geq k} x_j .$$\nThis construction produces a non-increasing sequence\n$$y_0 \\geq y_1 \\geq y_2 \\geq \\ldots,$$ which either converges to its\ninfimum, or diverges to $-\\infty$. We define the limit superior of the\noriginal sequence to be this limit; $$\\limsup_{k} x_k = \\lim_k y_k.$$",
+  "language": "INFORMAL",
+  "phrase": "Limit Superior",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitSuperior"
+    }
+  ],
+  "indexable": true
+}

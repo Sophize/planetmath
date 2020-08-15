@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given square matrices $A$ and $B$ where one is invertible then $AB$ is\nconjugate to $BA$.\n\nIf $A$ is invertible then $A^{-1} ABA=BA$. Similarly if $B$ is\ninvertible then $B$ serves to conjugate $BA$ to $AB$.\n\nThe result of course applies to any ring elements $a$ and $b$ where one\nis invertible. It also holds for all group elements.\n\nThis is a partial generalization to the observation that the Cayley\ntable of an abelian group is symmetric about the main diagonal. In\nabelian groups this follows because $AB=BA$. But in non-abelian groups\n$AB$ is only conjugate to $BA$. Thus the conjugacy class of a group are\nsymmetric about the main diagonal.\n\nIf $A$ or $B$ is invertible then $AB$ and $BA$ have the same\neigenvalues.\n\nThis leads to an alternate proof of If $A$ and $B$ are both\nnon-invertible, then we restrict to the non-zero eigenspaces $E$ of $A$\nso that $A$ is invertible on $E$. Thus $(AB)|_E$ is conjugate to\n$(BA)|_E$ and so indeed the two transforms have identical non-zero\neigenvalues.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ABIsConjugateToBA"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "AB is conjugate to BA"
+  ]
+}

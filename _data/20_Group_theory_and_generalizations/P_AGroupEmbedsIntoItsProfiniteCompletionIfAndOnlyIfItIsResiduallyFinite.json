@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a group.\n\nFirst suppose that $G$ is residually finite, that is,\n$$\\mathrm{R}(G) := \\bigcap_{N {\\trianglelefteqslant_{\\mathrm{f}}}G} N = 1$$\n(where $N {\\trianglelefteqslant_{\\mathrm{f}}}G$ denotes that $N$ is a\nnormal subgroup of finite index in $G$). Consider the natural mapping of\n$G$ into its profinite completion $\\hat{G}$ given by\n$g \\mapsto (Ng)_{N {\\trianglelefteqslant_{\\mathrm{f}}}G}$. It is clear\nthat the kernel of this map is precisely $\\mathrm{R}(G)$, so that it is\na monomorphism when $G$ is residually finite.\n\nNow suppose that $G$ embeds into its profinite completion $\\hat{G}$ and\nidentify $G$ with a subgroup of $\\hat{G}$. Now, a theorem on profinite\ngroups tells us that\n$$\\bigcap_{N {\\trianglelefteqslant_{\\mathrm{o}}}\\hat{G}} N = 1,$$ (where\n$N {\\trianglelefteqslant_{\\mathrm{o}}}G$ denotes that $N$ is an normal\nsubgroup of $G$) and since open subgroups of a profinite group have\nfinite index, we have that $$\\mathrm{R}(\\hat{G}) = 1,$$ so $\\hat{G}$ is\nresidually finite. Then $G$ is a subgroup of a residually finite group,\nso is itself residually finite, as required.\n\n[99]{}\n\nJ.\u00a0D. Dixon, M.\u00a0P.\u00a0F. du\u00a0Sautoy, A.\u00a0Mann, and D.\u00a0Segal, *Analytic\npro-$p$ groups*, 2nd ed., Cambridge studies in advanced mathematics,\nCambridge University Press, 1999.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AGroupEmbedsIntoItsProfiniteCompletionIfAndOnlyIfItIsResiduallyFinite"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a group embeds into its profinite completion if and only if it is residually finite"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "$X$ is a *Gumbel random variable* if it has a probability density\nfunction, given by\n$$f_X(x)=\\frac{1}{\\sigma}\\exp(\\frac{x-\\mu}{\\sigma})S(x)$$ where\n$-\\infty <x<\\infty $, $\\mu$ is the *location parameter*, $\\sigma$ is the\n*scale parameter*, and $S(x)$ is the survivor function,\n$S(x)=\\exp[-\\exp(\\frac{x-\\mu}{\\sigma})]$ .\n\nNotation for $X$ having a Gumbel distribution is\n$X\\sim \\mbox{Gum}(\\mu,\\sigma)$.\n\n****: Given a Gumbel distribution $X\\sim \\mbox{Gum}(\\mu,\\sigma)$:\n\n1.  E\\[X\\]=$\\mu-\\gamma\\sigma$, where $\\gamma$ is the Euler\u2019s constant\n\n2.  Var\\[X\\]=$\\frac{\\pi^2}{6}\\sigma^2$\n\n**Remark.** Nevertheless the interval $(-\\infty,\\infty)$ in which is\ndefined, the Gumbel distribution is often used to model reliability or\nlifetime of products.",
+  "language": "INFORMAL",
+  "phrase": "Gumbel Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GumbelRandomVariable"
+    }
+  ],
+  "indexable": true
+}

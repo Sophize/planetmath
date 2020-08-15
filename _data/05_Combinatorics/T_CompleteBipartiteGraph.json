@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *complete bipartite graph* $K_{n,m}$ is a graph with two sets of\nvertices, one with $n$ members and one with $m$, such that each vertex\nin one set is adjacent to every vertex in the other set and to no vertex\nin its own set. As the name implies, $K_{n,m}$ is bipartite.\n\nExamples of complete bipartite graphs:\n\n$K_{2,5}$:\n\n$$\\xymatrix{\n  & C \\\\\nA \\ar@{-}[ur] \\ar@{-}[r] \\ar@{-}[dr] \\ar@{-}[ddr] \\ar@{-}[dddr] & D \\\\\n  & E \\\\\nB \\ar@{-}[uuur] \\ar@{-}[uur] \\ar@{-}[ur] \\ar@{-}[r] \\ar@{-}[dr] & F \\\\\n  & G\n}$$\n\n$K_{3,3}$:\n\n$$\\xymatrix{\nA \\ar@{-}[r] \\ar@{-}[dr] \\ar@{-}[ddr] & D \\\\\nB \\ar@{-}[ur] \\ar@{-}[r] \\ar@{-}[dr] & E \\\\\nC \\ar@{-}[uur] \\ar@{-}[ur] \\ar@{-}[r] & F \n}$$",
+  "language": "INFORMAL",
+  "phrase": "Complete Bipartite Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompleteBipartiteGraph"
+    }
+  ],
+  "indexable": true
+}

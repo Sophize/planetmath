@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ and $Y$ be manifolds, and let $f$ be a mapping $f: X \\to Y$.\nChoose $x \\in X$, and let $y=f(x)$. Recall that\n$df_x: T_x(X) \\to T_y(Y)$ is the derivative of $f$ at $x$, and $T_z(Z)$\nis the tangent space of manifold $Z$ at point $z$.\n\nIf $df_x$ is injective, then $f$ is said to be an *immersion at x*. If\n$f$ is an immersion at every point, it is called an *immersion*.\n\nIf the image of $f$ is also closed, then $f$ is called a *closed\nimmersion*.\n\nThe notion of for schemes is the analog of this notion in algebraic\ngeometry.",
+  "language": "INFORMAL",
+  "phrase": "Immersion",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Immersion"
+    }
+  ],
+  "indexable": true
+}

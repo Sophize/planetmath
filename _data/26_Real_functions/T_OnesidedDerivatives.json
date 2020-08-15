@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "left derivative",
+    "right derivative"
+  ],
+  "definition": "-   If the real function $f$ is defined in the point $x_0$ and on some\n    interval left from this and if the left-hand one-sided limit\n    $\\lim_{h\\to 0-}\\frac{f(x_0+h)-f(x_0)}{h}$ exists, then this limit is\n    defined to be the [*left-sided derivative*]{} of $f$ in $x_0$.\n\n-   If the real function $f$ is defined in the point $x_0$ and on some\n    interval right from this and if the right-hand one-sided limit\n    $\\lim_{h\\to 0+} \\frac{f(x_0+h)-f(x_0)}{h}$ exists, then this limit\n    is defined to be the [*right-sided derivative*]{} of $f$ in $x_0$.\n\nIt\u2019s apparent that if $f$ has both the left-sided and the right-sided\nderivative in the point $x_0$ and these are equal, then $f$ is\ndifferentiable in $x_0$ and $f'(x_0)$ equals to these one-sided\nderivatives. Also inversely.\n\n**Example.** The real function $x \\mapsto x\\sqrt{x}$ is defined for\n$x \\geqq 0$ and differentiable for $x > 0$ with\n$f'(x) \\equiv \\frac{3}{2}\\sqrt{x}$. The function also has the right\nderivative in $0$:\n$$\\lim_{h \\to 0+}\\frac{h\\sqrt{h}- 0\\sqrt{0}}{h} = \\lim_{h \\to 0+}\\sqrt{h} = 0$$\n\n**Remark.** For a function $f\\!: [a,\\,b] \\to \\mathbb{R}$, to have a\nright-sided derivative at $x = a$ with value $d$, is equivalent to\nsaying that there is an extension $g$ of $f$ to some open interval\ncontaining $[a,\\,b]$ and satisfying $g'(a) = d$. Similarly for\nleft-sided derivatives.",
+  "language": "INFORMAL",
+  "phrase": "One-Sided Derivatives",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OnesidedDerivatives"
+    }
+  ],
+  "indexable": true
+}

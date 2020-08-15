@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The set of (a) all algebraic numbers, (b) the real algebraic numbers is\ncountable.\n\n[*Proof.*]{} Let\u2019s consider the algebraic equations $$\\begin{aligned}\n                 P(x) \\;=\\; 0\\end{aligned}$$ where\n$$P(x) \\;:=\\; a_0x^n\\!+\\!a_1x^{n-1}\\!+\\!\\ldots\\!+\\!a_{n-1}x\\!+\\!a_n$$ is\nan and primitive polynomial with integer coefficients $a_j$ and\n$a_0 > 0$. Each algebraic number exactly one such equation (see the\nminimal polynomial). For every integer $N = 2,\\,3,\\,4,\\,\\ldots$ there\nexists a finite number of equations (1) such that\n$$n\\!+\\!a_0\\!+\\!|a_1|\\!+\\ldots+\\!|a_n| \\;=\\; N$$ (e.g. if $N = 3$, then\none has the equations $x\\!-\\!1 = 0$ and $x\\!+\\!1 = 0$) and thus only a\nfinite set of algebraic numbers as the of these equations. These\nalgebraic numbers may be ordered to a $S_N$ using a system, for example\nby the magnitude of the real part and the imaginary part. When one forms\nthe concatenated sequence $$S_2,\\,S_3,\\,S_4,\\,\\ldots$$ it comprises all\nalgebraic numbers in a countable setting, which defines a bijection from\nthe set onto $\\mathbb{Z}_+$.\n\n[9]{} . Sammlung G\u00f6schen: Band 999/999a. \u2013 Walter de Gruyter & Co.,\nBerlin (1962).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraicNumbersAreCountable"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "algebraic numbers are countable",
+    "algebraic numbers may be set in a sequence"
+  ]
+}

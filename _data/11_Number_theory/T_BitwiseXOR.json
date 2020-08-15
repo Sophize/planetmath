@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[*Bitwise XOR*]{} or [*bitwise exclusive OR*]{} is a bit-level operation\non two binary values which indicates which bits are set in only one\nvalue. For each position $i$, if the bit $d_i$ in one value is 1 and the\nother is 0, then $d_i$ of the result is 1, otherwise it\u2019s 0. If both\ninput $d_i$ are 1, the output $d_i$ is 0. then For example, given 50 and\n163 in two unsigned bytes, a bitwise XOR returns 145.\n\n  ----- --- --- --- --- --- --- --- ---\n         0   0   1   1   0   0   1   0\n    XOR  1   0   1   0   0   0   1   1\n      =  1   0   0   1   0   0   0   1\n  ----- --- --- --- --- --- --- --- ---\n\nGiven a Mersenne number of the form $2^k - 1$ (where $k$ is the bit size\nof the data type in use, e.g., 8 for bytes, 16 for words, 32 for double\nwords, etc.) and some smaller integer $n$, XORing that Mersenne number\nwith $n$ has the same effect as performing a bitwise NOT on $n$. Or,\ngiven $m$ and $n$, XORing them has the same effect as $m - n$ (subject\nto some caveats about the sign bit, or if the values are unsigned, the\neffect is then the same as $|m - n|$). XORing two values that are the\nsame gives 0.",
+  "language": "INFORMAL",
+  "phrase": "Bitwise Xor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BitwiseXOR"
+    }
+  ],
+  "indexable": true
+}

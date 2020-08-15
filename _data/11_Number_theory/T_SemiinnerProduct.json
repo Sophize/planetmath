@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "positive semi-definite inner product",
+    "semi inner product"
+  ],
+  "definition": "### Definition\n\nLet $V$ be a vector space over a field $\\mathbb{K}$, where $\\mathbb{K}$\nis $\\mathbb{R}$ or $\\mathbb{C}$.\n\nA [**semi-inner product**]{} on $V$ is a function\n$\\;\\langle \\cdot , \\cdot \\rangle : V \\times V \\longrightarrow \\mathbb{K}\\;$\nthat the following conditions:\n\n1.  $\\langle \\lambda_1 v_1 + \\lambda_2 v_2 , w \\rangle = \\lambda_1 \\langle v_1 , w \\rangle + \\lambda_2 \\langle v_2 , w \\rangle\\;$\n    for every $v_1, v_2, w \\in V$ and\n    $\\lambda_1, \\lambda_2 \\in \\mathbb{K}$.\n\n2.  $\\langle v ,w \\rangle = \\overline{\\langle w ,v \\rangle}\\;$ for every\n    $v, w \\in V$, where the above means complex conjugation.\n\n3.  $\\langle v ,v \\rangle \\geq 0$ ( semi definite).\n\nHence, a semi-inner product on a vector space is just like an inner\nproduct, but for which $\\langle v ,v \\rangle$ can be zero ( if\n$v \\neq 0$).\n\nA *semi-inner product space* is just a vector space endowed with a\nsemi-inner product.\n\n### Topology\n\nEvery semi-inner product space $V$ can be given a topology associated\nwith the semi-inner product. In fact, a semi-norm $\\| \\cdot \\|$ can be\ndefined in $V$ by $$\\|v\\| := \\sqrt{\\langle v ,v \\rangle}$$\n\n### Cauchy-Schwarz inequality\n\nThe Cauchy-Schwarz inequality is valid for semi-inner product spaces:\n$$|\\langle v , w \\rangle| \\leq \\sqrt{\\langle v,v \\rangle}\\sqrt{\\langle w, w \\rangle}$$\n\n### Properties\n\nLet $V$ be a semi-inner product space and\n$W:=\\{v \\in V : \\langle v , v \\rangle = 0\\}$. It is not difficult to\nsee, using the Cauchy-Schwarz inequality, that $W$ is a vector subspace.\n\nThe semi-inner product in $V$ induces a well defined semi-inner product\nin the $V/W$ which is, in fact, an inner product. Thus, the $V/W$ is an\ninner product space.",
+  "language": "INFORMAL",
+  "phrase": "Semi-Inner Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemiinnerProduct"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that $f\\colon [a,b] \\to \\mathbb R$ is a function which is\ncontinuous on $[a,b]$ and differentiable on $(a,b)$.\n\nThen the following relations hold.\n\n1.  $f'(x)\\ge 0$ for all $x\\in (a,b)$ $\\Leftrightarrow$ $f$ is an\n    increasing function on $[a,b]$;\n\n2.  $f'(x)\\le 0$ for all $x\\in (a,b)$ $\\Leftrightarrow$ $f$ is a\n    decreasing function on $[a,b]$;\n\n3.  $f'(x)>0$ for all $x\\in (a,b)$ $\\Rightarrow$ $f$ is a strictly\n    increasing function on $[a,b]$;\n\n4.  $f'(x)<0$ for all $x\\in (a,b)$ $\\Rightarrow$ $f$ is a strictly\n    decreasing function on $[a,b]$.\n\nNotice that the third and fourth statement cannot be inverted. As an\nexample consider the function $f\\colon [-1,1]\\to \\mathbb R$, $f(x)=x^3$.\nThis is a strictly increasing function, but $f'(0)=0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MonotonicityCriterion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "monotonicity criterion"
+  ]
+}

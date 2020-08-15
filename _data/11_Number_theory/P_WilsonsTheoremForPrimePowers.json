@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For every natural number $n$, let ${\\left(n\\underline{!}\\right)_p}$\ndenote the product of numbers $1\n\\le m \\le n$ with $gcd(m,p) =1$.\n\nFor prime $p$ and $s \\in \\mathbb{N}$\n$${\\left(p^s\\underline{!}\\right)_p} \\equiv \\left(\n\\begin{array}{ll}\n1 & \\mbox{for } p=2, s \\ge 3 \\\\\n-1 & \\mbox{otherwise}\n\\end{array}\\right. \\pmod{p^s}.$$\n\n**Proof:** We pair up all factors of the product\n${\\left(p^s\\underline{!}\\right)_p}$ into those numbers $m$ where\n$m \\not\\equiv m^{-1} \\pmod{p^s}$ and those where this is not the case.\nSo ${\\left(p^s\\underline{!}\\right)_p}$ is congruent (modulo $p^s$) to\nthe product of those numbers $m$ where\n$m \\equiv m{-1} \\pmod{p^s} \\leftrightarrow m^2 \\equiv 1\n\\pmod{p^s}$.\n\nLet $p$ be an odd prime and $s \\in \\mathbb{N}$. Since $2 \\not\\vert p^s$,\n$p^s\n\\vert (m^2 -1)$ implies $p^s \\vert (m +1)$ either or $p^s \\vert (m-1)$.\nThis leads to $${\\left(p^s\\underline{!}\\right)_p} \\equiv -1 \\pmod{p^s}$$\nfor odd prime $p$ and any $s \\in \\mathbb{N}$.\n\nNow let $p=2$ and $s \\ge 2$. Then\n$$\\left(1 +t.2^{s-1}\\right)^2 \\equiv 1 \\pmod{2^s}, t =\\stackrel{-}{+}1.$$\nSince\n$$\\left(2^{s -1} +1\\right)\\left(2^{s-1} -1\\right) \\equiv -1 \\pmod{2^s},$$\nwe have\n$${\\left(p^s\\underline{!}\\right)_p} \\equiv (-1).(-1) =1 \\pmod{p^s}$$ For\n$p=2, s \\ge 3$, but $-1$ for $s=1,2. \\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WilsonsTheoremForPrimePowers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Wilson's theorem for prime powers"
+  ]
+}

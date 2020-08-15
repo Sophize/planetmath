@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "extrema"
+  ],
+  "definition": "Extrema are minima and maxima. The forms of these are extremum, minimum,\nand maximum.\n\nExtrema may be \u201cglobal\u201d or \u201clocal\u201d. A global minimum of a function $f$\nis the lowest value that $f$ ever achieves. If you imagine the function\nas a surface, then a global minimum is the lowest point on that surface.\nFormally, it is said that $f\\colon U \\to V$ has a *global minimum* at\n$x$ if $\\forall u \\in U, f(x) \\leq f(u)$.\n\nA local minimum of a function $f$ is a point $x$ which has less value\nthan all points \u201cnext to\u201d it. If you imagine the function as a surface,\nthen a local minimum is the of a \u201cvalley\u201d or \u201cbowl\u201d in the surface\nsomewhere. Formally, it is said that $f\\colon U \\to V$ has a *local\nminimum* at $x$ if $\\exists$ a neighborhood $N$ of $x$ such that\n$\\forall y \\in N$, $f(x) \\leq f(y)$.\n\nIf you flip the $\\leq$ signs above to $\\geq$, you get the definitions of\nglobal and local maxima.\n\nA \u201cstrict local minima\u201d or \u201cstrict local maxima\u201d means that nearby\npoints are strictly less than or strictly greater than the critical\npoint, rather than $\\leq$ or $\\geq$. For instance, a strict local minima\nat $x$ has a neighborhood $N$ such that $\\forall y \\in N$,\n$(f(x) < f(y) \\textrm{ or } y = x)$.\n\nA *saddle point* is a critical point which is not a local extremum.\n\nA related concept is plateau.\n\nFinding minima or maxima is an important task which is part of the of\noptimization. This task is also important in Physics where the minima\ncorrespond to equilibria.",
+  "language": "INFORMAL",
+  "phrase": "Extremum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Extremum"
+    }
+  ],
+  "indexable": true
+}

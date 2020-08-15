@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "entropy encoder",
+    "entropy coding"
+  ],
+  "definition": "An *entropy encoding* is a coding scheme that involves assigning codes\nto symbols so as to match code lengths with the probabilities of the\nsymbols. Typically, entropy encoders are used to compress data by\nreplacing symbols represented by equal-length codes with symbols\nrepresented by codes proportional to the negative logarithm of the\nprobability. Therefore, the most common symbols use the shortest codes.\n\nAccording to Shannon\u2019s theorem, the optimal code length for a symbol is\n$$-\\log_b P$$ where $b$ is the number of symbols used to make output\ncodes and $P$ is the probability of the input symbol.\n\nTwo of the most common entropy encoding techniques are Huffman encoding\nand arithmetic encoding.",
+  "language": "INFORMAL",
+  "phrase": "Entropy Encoding",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EntropyEncoding"
+    }
+  ],
+  "indexable": true
+}

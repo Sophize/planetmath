@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(x_1,y_1), (x_2,y_2),\\dotsc,(x_n,y_n)$ be $n$ points in the plane\n($x_i\\neq x_j$ for $i\\neq j$). Then there exists a unique polynomial\n$p(x)$ of degree at most $n-1$ such that $y_i=p(x_i)$ for\n$i=1,\\ldots,n$.\n\nSuch polynomial can be found using *Lagrange\u2019s interpolation formula*:\n\n$$p(x)=\\frac{f(x)}{(x-x_1)f'(x_1)}y_1+\\frac{f(x)}{(x-x_2)f'(x_2)}y_2+\\cdots+\\frac{f(x)}{(x-x_n)f'(x_n)}y_n$$\nwhere $f(x)=(x-x_1)(x-x_2)\\cdots(x-x_n)$.\n\nTo see this, notice that the above formula is the same as\n\n$$\\begin{aligned}\n p(x) &=  y_1 \\frac{(x-x_2)(x-x_3)\\dots(x-x_n)}{(x_1-x_2)(x_1-x_3)\\dots(x_1-x_n)} +\ny_2 \\frac{(x-x_1)(x-x_3)\\dots(x-x_n)}{(x_2-x_1)(x_2-x_3)\\dots(x_2-x_n)}\\\\\n&\\phantom{=}\\qquad+\\dots+y_n \\frac{(x-x_1)(x-x_2)\\dots(x-x_{n-1})}{(x_n-x_1)(x_n-x_2)\\dots(x_n-x_{n-1})}\\end{aligned}$$\n\nand that for all $x_i$, every numerator except one vanishes, and this\nnumerator will be identical to the denominator, making the overall\nquotient equal to 1. Therefore, each $p(x_i)$ equals $y_i$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LagrangeInterpolationFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lagrange interpolation formula",
+    "Lagrange's Interpolation formula"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Two consecutive odd numbers which are both prime are called [*twin\nprimes*]{}, e.g. 5 and 7, or 41 and 43, or 1,000,000,000,061 and\n1,000,000,000,063. But is there an infinite number of twin primes ?\n\nIn 1849 de Polignac made the more general conjecture that for every\nnatural number $n$, there are infinitely many prime pairs which have a\ndistance of $2n$. The case $n=1$ is the twin prime conjecture.\n\nIn 1940, Erd\u0151s showed that there is a constant $c<1$ and infinitely many\nprimes $p$ such that $q-p<c \\ln{p}$ where $q$ denotes the next prime\nafter $p$. This result was improved in 1986 by Maier; he showed that a\nconstant $c < 0.25$ can be used. The constant $c$ is called the *twin\nprime constant.*\n\nIn 1966, Chen Jingrun showed that there are infinitely many primes $p$\nsuch that $p+2$ is either a prime or a semiprime.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TwinPrimeConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "twin prime conjecture"
+  ]
+}

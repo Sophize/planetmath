@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "ordinal"
+  ],
+  "definition": "An ordinal number is a well ordered set $S$ such that, for every\n$x \\in S$, $$x = \\{z \\in S \\mid z < x\\}$$ (where $<$ is the ordering\nrelation on $S$).\n\nIt follows immediately from the definition that every ordinal is a\ntransitive set. Also note that if $a,b\\in S$ then we have $a<b$ if and\nonly if $a\\in b$.\n\nThere is a theory of ordinal arithmetic which allows construction of\nvarious ordinals. For example, all the numbers $0$, $1$, $2$, \u2026have\nnatural interpretations as ordinals, as does the set of natural numbers\n(including $0$), which in this context is often denoted by $\\omega$, and\nis the first infinite ordinal.",
+  "language": "INFORMAL",
+  "phrase": "Ordinal Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrdinalNumber"
+    }
+  ],
+  "indexable": true
+}

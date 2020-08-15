@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given a cubic polynomial of the form $f(X)=X^3+aX^2+bX+c=0$, one may\nreduce $f(x)$ via the substitution $X\\rightarrow (x-a/3)$ to obtain\n$\\tilde{f}(x)=f(x-a/3)$ where the reduced polynomial may be represented\n\n$$\\tilde{f}(x)=x^3+qx+r$$\n\nThe roots to (1) are given by Vi\u00e9te in the following cases:\\\n**Case I** The roots of $\\tilde{f}(x)$ are real:\\\nDefine $t\\equiv\\sqrt{-4q/3}$ and $\\alpha=\\arccos(-4r/t^3)$. Then the\nroots of $\\tilde{f}(x)$ are\n$$t\\cos(\\alpha/3),\\quad t\\cos(\\alpha/3+2\\pi/3), \\quad t\\cos(\\alpha/3+4\\pi/3)$$\n\n**Case II** The roots of $\\tilde{f}(x)$ are complex:\\\nKeeping the definition of $t$ from Case I, if $-4q/3\\geq 0$, then the\nreal root of $\\tilde{f}(x)$ is\n$$t\\cosh(\\beta/3)\\quad \\textrm{where}\\quad \\cosh(\\beta)=(-4r/t^3)$$\\\nIf $-4q/3< 0$, then the real root of $\\tilde{f}(x)$ is\n$$t\\sinh(\\gamma/3)\\quad \\textrm{where}\\quad \\sinh(\\gamma)=(-4r/t^3)$$\nOne may then inverse transform the roots of $\\tilde{f}(x)$ to obtain the\nroots of the desired cubic $f(x)$\n\nWe note there are no other cases for the possibilities of the roots of a\ncubic (i.e. there is no instance where one finds one complex and two\nreal roots). This result is intuitively obvious after graphing cubic\npolynomials and taking into account that imaginary roots may only occur\nin conjugate pairs.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TrigonometricCubicFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "trigonometric cubic formula",
+    "Alternate cubic formula"
+  ]
+}

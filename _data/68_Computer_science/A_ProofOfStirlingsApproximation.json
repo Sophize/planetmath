@@ -1,0 +1,17 @@
+{
+  "argumentText": "Computing the Taylor expansion with remainder of the functions $\\log$\nand $x \\mapsto x \\log x - x$, we have $$\\begin{aligned}\n(n + 1) \\log (n + 1) - \\log (n + 1) &=& n \\log n - n + \\log n +\n  \\frac{1}{2n} + \\frac{1}{6\\xi_n^2} \\\\\n\\log (n + 1) &=& \\log n + \\frac {1}{n} - \\frac{1}{2 \\eta_n^2}\\end{aligned}$$\nwhere $n \\le \\xi_n \\le n + 1$ and $n \\le \\eta_n \\le n + 1$. Summing the\nfirst equation from $1$ to $n - 1$, we have\n$$n \\log n - n = -1 + \\log (n-1)! + \\frac{1}{2} \\sum_{m=1}^{n-1} \n \\frac{1}{m} + \\frac{1}{6} \\sum_{m=1}^{n-1} \\frac{1}{\\xi_n^2}.$$",
+  "conclusion": "#P_StirlingsApproximation",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfStirlingsApproximation"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Stirling's approximation"
+  ]
+}

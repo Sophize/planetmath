@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ be an invertible matrix with real coefficients. Then there exist\nunique matrices $O$, $D$, $U$, such that\n\n1.  $A=ODU$.\n\n2.  $O$ is an orthogonal matrix.\n\n3.  $D$ is a diagonal matrix with positive diagonal entries.\n\n4.  $U$ is a unit upper triangular matrix.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IwasawaDecomposition"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Iwasawa decomposition"
+  ]
+}

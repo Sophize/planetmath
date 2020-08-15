@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Fubini\u2019s theorem** Let $I \\subset {\\mathbb{R}}^N$ and\n$J \\subset {\\mathbb{R}}^M$ be compact intervals, and let\n$f : I \\times J \\to {\\mathbb{R}}^K$ be a Riemann integrable function\nsuch that, for each $x \\in I$ the integral\n$$F(x) := \\int_J f(x, y)\\, d\\mu_J(y)$$ exists. Then\n$F:I\\to{\\mathbb{R}}^K$ is Riemann integrable, and\n$$\\int_I F = \\int_{I\\times J} f.$$\n\nThis theorem effectively states that, given a function of $N$ variables,\nyou may integrate it one variable at a time, and that the order of\nintegration does not affect the result.\n\n**Example** Let $I := [0, \\pi/2]\\times[0,\\pi/2]$, and let\n$f : I \\to {\\mathbb{R}}, x \\mapsto \\sin(x)\\cos(y)$ be a function. Then\n$$\\begin{split}\n\\int_I f &= \\iint_{[0, \\pi/2]\\times[0,\\pi/2]} \\sin(x)\\cos(y) \\\\\n&=\\int_0^{\\pi/2} \\left( \\int_0^{\\pi/2} \\sin(x)\\cos(y)\\,dy\\right)\\,dx \\\\\n&=\\int_0^{\\pi/2} \\sin(x)\\left(1 - 0\\right)\\,dx =(0 - -1) = 1.\n\\end{split}$$\n\nNote that it is often simpler (and no less correct) to write\n$\\idotsint_I f$ as $\\int_I f$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FubinisTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Fubini's theorem"
+  ]
+}

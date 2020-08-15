@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a set and $\\operatorname{Bou}(X,\\mathbb{R})$ be the set of\nbounded functions $f:X\\to\\mathbb{R}$ with norm\n$||f||=\\operatorname{sup}\\{|f(x)|:\\;x\\in X\\}$. Kuratowski\u2019s embedding\ntheorem states that every metric space $(X,d)$ can be embedded\nisometrically into the Banach space\n$E=\\operatorname{Bou}(X,\\,\\mathbb{R})$.\n\n[*Proof.*]{} One can assume that $X\\ne \\emptyset$. Fix a point\n$a_0\\in X$ and for every $a\\in X$ define a function $f_a:X\\to\\mathbb{R}$\nby $$f_a(x)=d(x,a)-d(x,a_0).$$ Then $|f_a(x)|\\leq d(a,a_0)$ for every\n$x\\in X$ so $f_a$ is bounded. By setting $\\varphi :X\\to E$,\n$\\varphi (a)=f_a$, we have the mapping $\\varphi : X\\to E$. It requires\nto prove that $\\varphi$ is an isometry.\n\nLet $a,\\,b\\in X$. As $x\\in X$ we have that\n$$|f_a(x)-f_b(x)|=|d(x,a)-d(x,b)|\\leq d(a,b).$$ Therefore\n$||f_a-f_b||\\leq d(a,b)$. On the other hand\n$$|f_a(a)-f_b(a)|=|d(a,a)-d(a,a_0)-d(a,b)+d(a,a_0)|=d(a,b).$$ Therefore\n$||\\varphi (a)-\\varphi (b)||=||f_a-f_b||=d(a,b)$.\n\n[9]{} . 2nd corrected issue, Limes ry., Helsinki, Finland (2005), ISBN\n951-745-209-8",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KuratowskisEmbeddingTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kuratowski's embedding theorem"
+  ]
+}

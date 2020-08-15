@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an arithmetic function $f:\\mathbb{Z}^+\\rightarrow\\mathbb{C}$, the\n*divisor sum* $F$ of $f$ is defined by\n$$F(n)=\\sum\\limits_{d\\mid n}f(d)\\text{,}$$ where the summation runs over\nall positive divisors $d$ of $n$.",
+  "language": "INFORMAL",
+  "phrase": "Divisor Sum Of An Arithmetic Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DivisorSumOfAnArithmeticFunction"
+    }
+  ],
+  "indexable": true
+}

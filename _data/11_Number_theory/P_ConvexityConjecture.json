@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Conjecture (Hardy & Littlewood).**]{} Given integers $x \\ge y > 1$,\nit is never the case that $\\pi(x + y) > (\\pi(x) + \\pi(y))$, where\n$\\pi(x)$ is the prime counting function.\n\nFor example: There are 269 primes below 1729. There are 304840 primes\nbelow 4330747. If we add up these values of the prime counting function,\nwe get 305109. This is more than $\\pi(4330747 + 1729) = 304949$.\n\nCrandall and Pomerance believe this conjecture to be false but also that\nany counterexample is way too large to be discovered today. If we limit\nourselves to 100 for both variables,\n$n = \\pi(x + y) - (\\pi(x) + \\pi(y))$ tends to fall in the range\n$-8 < n < 1$.\n\n[1]{} R. Crandall & C. Pomerance, [*Prime Numbers: A Computational\nPerspective*]{}, Springer, NY, 2001: 1.2.4",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvexityConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "convexity conjecture",
+    "Hardy-Littlewood convexity conjecture"
+  ]
+}

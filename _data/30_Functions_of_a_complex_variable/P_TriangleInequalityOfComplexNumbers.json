@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** All complex numbers $z_1$ and $z_2$ satisfy the triangle\ninequality $$\\begin{aligned}\n|z_1\\!+\\!z_z| \\;\\leqq\\;|z_1|+|z_2|.\\end{aligned}$$\n\n*Proof.* $$\\begin{aligned}\n|z_1\\!+\\!z_2|^2 &\\;=\\; (z_1+z_2)\\overline{(z_1+z_2)}\\\\\n&\\;=\\; (z_1+z_2)(\\overline{z_1}+\\overline{z_2})\\\\\n&\\;=\\; z_1\\overline{z_1}+z_2\\overline{z_2}+z_1\\overline{z_2}+\\overline{z_1}z_2\\\\\n&\\;=\\; |z_1|^2+|z_2|^2+z_1\\overline{z_2}+\\overline{z_1\\overline{z_2}}\\\\\n&\\;=\\; |z_1|^2+|z_2|^2+2\\mbox{Re}(z_1\\overline{z_2})\\\\\n&\\;\\leqq\\; |z_1|^2+|z_2|^2+2|z_1\\overline{z_2}|\\\\\n&\\;=\\; |z_1|^2+|z_2|^2+2|z_1|\\cdot|\\overline{z_2}|\\\\\n&\\;=\\; (|z_1|+|z_2|)^2\\end{aligned}$$ Taking then the nonnegative square\nroot, one obtains the asserted inequality.\\\n**Remark.** Since the real numbers are complex numbers, the inequality\n(1) and its proof are valid also for all real numbers; however the\ninequality may be simplified to\n$$|x+y|^2 \\leqq (x+y)^2 = x^2+2xy+y^2 \\leqq x^2+2|x||y|+y^2 = |x|^2+2|x||y|+|y|^2 = (|x|+|y|)^2.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TriangleInequalityOfComplexNumbers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "triangle inequality of complex numbers",
+    "triangle inequality"
+  ]
+}

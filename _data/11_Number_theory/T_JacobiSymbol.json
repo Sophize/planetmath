@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [**Jacobi symbol**]{} is a generalization of the Legendre symbol to\nall odd positive integers.\n\nLet $n$ be an odd positive integer, with prime factorization\n${p_1}^{e_1} \\cdots {p_k}^{e_k}$. Let $a \\geq 0$ be an integer. The\n[*Jacobi symbol*]{} $\\left(\\frac{a}{n}\\right)$ is defined to be\n$$\\left(\\frac{a}{n}\\right) = \\prod_{i=1}^k \\left(\\frac{a}{p_i}\\right)^{e_i}$$\nwhere $\\left(\\frac{a}{p_i}\\right)$ is the Legendre symbol of $a$ and\n$p_i$.\n\nA further generalization of the Legendre symbol, due to Kronecker, is\nthe Kronecker symbol.",
+  "language": "INFORMAL",
+  "phrase": "Jacobi Symbol",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JacobiSymbol"
+    }
+  ],
+  "indexable": true
+}

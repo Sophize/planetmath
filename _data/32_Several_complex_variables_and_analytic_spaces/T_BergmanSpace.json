@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G \\subset {\\mathbb{C}}^n$ be a domain and let $dV$ denote the\nEuclidean volume measure on $G$.\n\nLet $$A^2(G) :=\n\\Big\\{ f \\text{ holomorpic in } G ~\\Big|~\n\\sqrt{ \\int_G \\lvert f(z) \\rvert^2 dV(z) } < \\infty \\Big\\} .$$ $A^2(G)$\nis called the [*Bergman space*]{} on $G$. The norm on this space is\ndefined as $$\\lVert f \\rVert :=\n\\sqrt{ \\int_G \\lvert f(z) \\rvert^2 dV(z) } .$$ Further we define an\ninner product on $A^2(G)$ as $$\\langle f , g \\rangle :=\n\\int_G f(z) \\overline{g(z)} dV(z) .$$\n\nThe inner product as defined above really is an inner product and\nfurther it can be shown that $A^2(G)$ is complete since convergence in\nthe above norm implies normal convergence (uniform convergence on\ncompact subsets). The space $A^2(G)$ is therefore a Hilbert space.\nSometimes this space is also denoted by $L_a^2(G)$.\n\n[9]{} D\u2019Angelo, John\u00a0P. [**]{}, CRC Press, 1993. Steven\u00a0G. Krantz.\n[**]{}, AMS Chelsea Publishing, Providence, Rhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Bergman Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BergmanSpace"
+    }
+  ],
+  "indexable": true
+}

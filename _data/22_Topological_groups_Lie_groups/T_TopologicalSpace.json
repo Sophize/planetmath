@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "topology"
+  ],
+  "definition": "A [*topological space*]{} is a set $X$ together with a set $\\mathcal{T}$\nwhose elements are subsets of $X$, such that\n\n-   $\\emptyset \\in \\mathcal{T}$\n\n-   $X \\in \\mathcal{T}$\n\n-   If $U_j \\in \\mathcal{T}$ for all $j \\in J$, then\n    $\\bigcup_{j \\in J} U_j \\in \\mathcal{T}$\n\n-   If $U \\in \\mathcal{T}$ and $V \\in \\mathcal{T}$, then\n    $U \\cap V \\in \\mathcal{T}$\n\nElements of $\\mathcal{T}$ are called [*open sets*]{} of $X$. The set\n$\\mathcal{T}$ is called a [*topology*]{} on $X$. A subset $C \\subset X$\nis called a [*closed set*]{} if the complement $X \\setminus C$ is an\nopen set.\n\nA topology $\\mathcal{T}'$ is said to be [*finer*]{} (respectively,\n[*coarser*]{}) than $\\mathcal{T}$ if $\\mathcal{T}' \\supset \\mathcal{T}$\n(respectively, $\\mathcal{T}' \\subset \\mathcal{T}$).\n\n#### Examples\n\n-   The [*discrete topology*]{} is the topology\n    $\\mathcal{T} = \\mathcal{P}(X)$ on $X$, where $\\mathcal{P}(X)$\n    denotes the power set of $X$. This is the largest, or finest,\n    possible topology on $X$.\n\n-   The [*indiscrete topology*]{} is the topology\n    $\\mathcal{T} = \\{\\emptyset, X\\}$. It is the smallest or coarsest\n    possible topology on $X$.\n\n-   Subspace topology\n\n-   Product topology\n\n-   Metric topology\n\n[9]{} J.L. Kelley, *General Topology*, D. van Nostrand Company, Inc.,\n1955. J. Munkres, *Topology* (2nd edition), Prentice Hall, 1999.",
+  "language": "INFORMAL",
+  "phrase": "Topological Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TopologicalSpace"
+    }
+  ],
+  "indexable": true
+}

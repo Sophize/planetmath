@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $E$ be an open subset of $\\mathbb{R}^2$ and a continuous function\n$f(x,y)$ defined as $f\\colon E \\to \\mathbb{R}$. If $(x_0,y_0)\\in E$ and\n$f$ satisfies the Lipschitz condition in the variable $y$ in $E$:\n$$|f(x,y)-f(x,y_1)| \\leq M| y-y_1|$$ where $M$ is a constant. Then the\nordinary differential equation defined as $$\\frac{dy}{dx} = f(x,y)$$\nwith the initial condition $$y(x_0) = y_0$$ has a unique solution $y(x)$\non some interval $|x- x_0| \\leq\\delta$.\n\nThe above theorem is also named the *Picard-Lindel\u00f6f theorem* and can be\ngeneralized to a system of first order ordinary differential equations\n\nLet $E$ be an open subset of $\\mathbb{R}^{n+1}$ and a continuous\nfunction $f(x,y_1,\\ldots,y_n)$ defined as\n$f=(f_1,\\ldots,f_n)\\colon E \\to \\mathbb{R}^n$. If\n$(t_0,y_{10},\\ldots,y_{n0})\\in E$ and $f$ satisfies the Lipschitz\ncondition in the variable $y_1,\\ldots,y_n$ in $E$:\n$$|f_i(x,y_1,\\dots,y_n)-f_i(x,y_1'\\ldots,y_n')| \\leq M \\max_{1\\leq j\\leq n}| y_j-y_j'|$$\nwhere $M$ is a constant. Then the system of ordinary differential\nequation defined as $$\\begin{aligned}\n\\frac{dy_1}{dx} & =  f_1(x,y_1,\\ldots,y_n)\\\\\n& \\vdots \\\\\n\\frac{dy_n}{dx} & =  f_n(x,y_1,\\ldots,y_n)\\end{aligned}$$ with the\ninitial condition $$y_1(x_0) = y_{10},\\ldots, y_n(x_0) = y_{n0}$$ has a\nunique solution $$y_1(x) ,\\ldots, y_n(x)$$ on some interval\n$|x- x_0| \\leq\\delta$.\n\n**see also:**\n\n-   the entry existence and uniqueness of solution of ordinary\n    differential equations\n\n[1]{} Kolmogorov, A.N. & Fomin, S.V.: Introductory Real Analysis,\nTranslated & Edited by Richard A. Silverman. Dover Publications, Inc.\nNew York, 1970.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PicardsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Picard's theorem",
+    "Picard-Lindel\\\"of theorem"
+  ]
+}

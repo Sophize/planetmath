@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given two consecutive odd primes, the $i$th prime $p_i$ and the next\none, $p_{i + 1}$, an [*interprime*]{} $n$ is the arithmetic mean of the\ntwo: $$n = \\frac{p_i + p_{i + 1}}{2}$$ Thus, $n - p_i = p_{i + 1} - n$,\nso alternatively\n$$n = p_i + \\frac{p_{i + 1} - p_i}{2} = p_{i + 1} - \\frac{p_{i + 1} - p_i}{2}.$$\nFor example, given the 269th and 270th primes, 1723 and 1733, the\ninterprime is 1728, and indeed $1728 - 1723 = 1733 - 1728 = 5$.\nInterprimes themselves are of course always composite, though not always\neven. An interprime between a twin prime will always be even, while an\ninterprime between the second (ending in 3 in base 10) and third (ending\nin 7 in base 10) member of a prime quadruplet will always be odd and be\ndivisible by 5.\n\nThe first few interprimes are 4, 6, 9, 12, 15, 18, 21, 26, 30, 34, 39,\n42, 45, 50, 56, 60, 64, 69, 72, 76, 81, 86, 93, 99, etc., listed in\nA024675 of Sloane\u2019s OEIS.",
+  "language": "INFORMAL",
+  "phrase": "Interprime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Interprime"
+    }
+  ],
+  "indexable": true
+}

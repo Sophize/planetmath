@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "(Proposition 1.6. in ref. [@BM266]) A cocomplete Abelian category\n$\\mathcal{A}$ is $C_3$ if and only if for every direct family of\nsubobjects $\\left\\{A_i\\right\\}$ of an object $A$ , and every morphism\n$g: B \\to A$, one has the following equation:\n\n$$g^{-1}(\\bigcup A_i) = \\bigcup g^{-1}(A_i).$$\n\n**Remark:** The proof involves the exact sequence:\n$$0 \\to g^{-1}(A_i) \\to B \\to Im / A_i \\bigcap Im \\to 0 ,$$\n\nwhere $Im$ is the image of the morphism $g$.\n\n[9]{} See p.83 and eq. (3) in ref. $[266]$ in the",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExactSequenceTheoremInC3category"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "exact sequence theorem in $C_3$--category",
+    "$C_3$ category theorem"
+  ]
+}

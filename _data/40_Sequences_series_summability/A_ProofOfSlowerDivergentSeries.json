@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let us show that, if the series $\\sum_{i=1}^\\infty a_i$ of positive\nterms is divergent, then Abel\u2019s series\n$$\\sum_{i=1}^\\infty \\frac{a_i}{\\sum_{j=1}^i a_j}$$ also diverges.\n\nSince the series $\\sum_{i=1}^\\infty a_i$ diverges, we can find an\nincreasing sequence $(n_i)_{i=0}^\\infty$ of integers such that\n$$\\sum_{j=1}^{n_{i+1}} a_j > 2 \\sum_{j=1}^{n_i} a_j$$ for all $i$. By\nconvention, set $n_0 = 0$. Then we can group the sum like so:\n$$\\sum_{i=1}^{n_m} \\frac{a_i}{\\sum_{j=1}^i a_j} = \\sum_{i=0}^{m-1} \\sum_{k=n_i+1}^{n_{i-1}} \\frac{a_k}{\\sum_{j=1}^k a_j}$$\nBecause $\\sum_{j=1}^k a_j \\le \\sum_{j=1}^{n_{i-1}} a_j$, we have\n$$\\sum_{k=n_i+1}^{n_{i-1}} \\frac{a_k}{\\sum_{j=1}^k a_j} \\ge \\sum_{k=n_i+1}^{n_{i-1}} \\frac{a_k}{\\sum_{j=1}^{n_{i-1}} a_j} = \n\\frac{\\sum_{k=n_i+1}^{n_{i-1}} a_k}{\\sum_{j=1}^{n_{i-1}} a_j}$$\n\nBy the way we chose the sequence $(n_i)_{i=0}^\\infty$, we have\n$2 \\sum_{k=n_i+1}^{n_{i-1}} a_k > \\sum_{j=1}^{n_{i-1}} a_j$ and, hence,\n$$\\sum_{k=n_i+1}^{n_{i-1}} \\frac{a_k}{\\sum_{j=1}^k a_j} \\ge \\frac{\\sum_{k=n_i+1}^{n_{i-1}} a_k}{\\sum_{j=1}^{n_{i-1}} a_j} > \\frac{1}{2}.$$\nTherefore,\n$$\\sum_{i=1}^{n_m} \\frac{a_i}{\\sum_{j=1}^i a_j} > \\sum_{i=1}^{n_m} \\frac{1}{2} = \\frac{m}{2},$$\nso the sum diverges in the limit $m \\to \\infty$.",
+  "conclusion": "#P_SlowerDivergentSeries",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfSlowerDivergentSeries"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of slower divergent series"
+  ]
+}

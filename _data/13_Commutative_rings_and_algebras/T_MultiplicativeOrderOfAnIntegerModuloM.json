@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "multiplicative order"
+  ],
+  "definition": "Let $m>1$ be an integer and let $a$ be another integer relatively prime\nto $m$. The of $a$ modulo $m$ (or the multiplicative order of\n$a \\mod m$) is the smallest positive integer $n$ such that\n$a^n\\equiv 1 \\mod m$. The order is sometimes denoted by\n$\\operatorname{ord} a$ or $\\operatorname{ord}_m a$.\n\nSeveral remarks are in order:\n\n1.  Notice that if $\\gcd(a,m)=1$ then $a$ belong to the units\n    $({\\mathbb{Z}}/m{\\mathbb{Z}})^\\times$ of\n    ${\\mathbb{Z}}/m{\\mathbb{Z}}$. The units\n    $({\\mathbb{Z}}/m{\\mathbb{Z}})^\\times$ form a group with respect to\n    multiplication, and the number of elements in the subgroup generated\n    by $a$ (and its powers) is the order of the integer $a$ modulo $m$.\n\n2.  By Euler\u2019s theorem, $a^{\\phi(m)} \\equiv 1 \\mod m$, therefore the\n    order of $a$ is less or equal to $\\phi(m)$ (here $\\phi$ is the Euler\n    phi function).\n\n3.  The order of $a$ modulo $m$ is precisely $\\phi(m)$ if and only if\n    $a$ is a primitive root for the integer $m$.",
+  "language": "INFORMAL",
+  "phrase": "Multiplicative Order Of An Integer Modulo M",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplicativeOrderOfAnIntegerModuloM"
+    }
+  ],
+  "indexable": true
+}

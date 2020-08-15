@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a category $\\mathcal{C}$ and a ring $R$, one can construct an\nalgebra $\\mathcal{A}$ as follows. Let $\\mathcal{A}$ be the set of all\nformal finite linear combinations of the form\n$$\\sum_i c_i e_{a_i, b_i, \\mu_i},$$ where the coefficients $c_i$ lie in\n$R$ and, to every pair of objects $a$ and $b$ of $\\mathcal{C}$ and every\nmorphism $\\mu$ from $a$ to $b$, there corresponds a basis element\n$e_{a,b,\\mu}$. Addition and scalar multiplication are defined in the\nusual way. Multiplication of elements of $\\mathcal{A}$ may be defined by\nspecifying how to multiply basis elements. If $b \\not= c$, then set\n$e_{a, b, \\phi} \\cdot\ne_{c, d, \\psi} = 0$; otherwise set $e_{a, b, \\phi} \\cdot e_{b, c, \\psi}\n= e_{a, c, \\psi \\circ \\phi}$. Because of the associativity of\ncomposition of morphisms, $\\mathcal{A}$ will be an associative algebra\nover $R$.\n\nTwo instances of this construction are worth noting. If $G$ is a group,\nwe may regard $G$ as a category with one object. Then this construction\ngives us the group algebra of $G$. If $P$ is a partially ordered set, we\nmay view $P$ as a category with at most one morphism between any two\nobjects. Then this construction provides us with the incidence algebra\nof $P$.",
+  "language": "INFORMAL",
+  "phrase": "Algebra Formed From A Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraFormedFromACategory"
+    }
+  ],
+  "indexable": true
+}

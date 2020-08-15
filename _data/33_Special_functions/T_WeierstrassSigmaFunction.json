@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "sigma function",
+    "zeta function",
+    "eta function"
+  ],
+  "definition": "Let $\\Lambda\\subset{\\mathbb{C}}$ be a lattice. Let $\\Lambda^{\\ast}$\ndenote $\\Lambda-\\{ 0 \\}$.\n\n1.  The *Weierstrass sigma function* is defined as the product\n    $$\\sigma(z;\\Lambda)=z\\prod_{w\\in\\Lambda^{\\ast}}\\left(1-\\frac{z}{w}\\right)e^{z/w+\\frac{1}{2}(z/w)^2}$$\n\n2.  The *Weierstrass zeta function* is defined by the sum\n    $$\\zeta(z;\\Lambda)=\\frac{\\sigma'(z;\\Lambda)}{\\sigma(z;\\Lambda)}=\\frac{1}{z}+\\sum_{w\\in\\Lambda^{\\ast}}\\left( \\frac{1}{z-w}+\\frac{1}{w}+\\frac{z}{w^2}\\right)$$\n    Note that the Weierstrass zeta function is basically the derivative\n    of the logarithm of the sigma function. The zeta function can be\n    rewritten as:\n    $$\\zeta(z;\\Lambda)=\\frac{1}{z}-\\sum_{k=1}^{\\infty}\\mathcal{G}_{2k+2}(\\Lambda)z^{2k+1}$$\n    where $\\mathcal{G}_{2k+2}$ is the Eisenstein series of weight\n    $2k+2$.\n\n3.  The *Weierstrass eta function* is defined to be\n    $$\\eta(w;\\Lambda)=\\zeta(z+w;\\Lambda)-\\zeta(z;\\Lambda), \\text{for\n    any } z\\in{\\mathbb{C}}$$ (It can be proved that this is well\n    defined, i.e. $\\zeta(z+w;\\Lambda)-\\zeta(z;\\Lambda)$ only depends on\n    $w$). The Weierstrass eta function must not be confused with the\n    Dedekind eta function.",
+  "language": "INFORMAL",
+  "phrase": "Weierstrass Sigma Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeierstrassSigmaFunction"
+    }
+  ],
+  "indexable": true
+}

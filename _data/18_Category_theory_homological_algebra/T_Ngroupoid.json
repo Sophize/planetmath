@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *$n$- groupoid* is an $n$-category such that, for all\n$$0 < m \\leq n,$$ each $m$-arrow is invertible with respect to the\n$(m-1)$\u2013composition; in the case of an infinite groupoid, the notation\n$\\infty$-groupoid is used in the literature (rather than\n$\\omega$-groupoid that has a distinct meaning from that of\n$\\omega$-category).\n\nAn important reason for studying $n$\u2013categories, and especially\n$n$-groupoids, is to use them as coefficient objects for non-Abelian\nCohomology theories. Thus, some double groupoids defined over Hausdorff\nspaces that are non-Abelian (or non-commutative) are relevant to\nnon-Abelian Algebraic Topology (NAAT) and .\n\nIn particular, a [*2-groupoid*]{} is a 2-category whose morphisms are\nall invertible ones.\n\nOne needs to distinguish between a 2-groupoid and a double-groupoid as\nthe two concepts are very different. Interestingly, some double\ngroupoids defined over Hausdorff spaces that are non-Abelian (or\nnon-commutative) have true two-dimensional geometric representations\nwith special properties that allow generalizations of important theorems\nin algebraic topology and higher dimensional algebra, such as the\ngeneralized van Kampen theorem with significant consequences that cannot\nbe obtained through Abelian means.\n\nFurthermore, whereas the definition of an $n$-groupoid is a\nstraightforward generalization of a 2-groupoid, the notion of a\n*multiple groupoid* is not at all an obvious generalization or extension\nof the concept of double groupoid.",
+  "language": "INFORMAL",
+  "phrase": "$N$-Groupoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ngroupoid"
+    }
+  ],
+  "indexable": true
+}

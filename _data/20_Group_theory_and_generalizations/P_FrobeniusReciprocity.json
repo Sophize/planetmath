@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $V$ be a finite-dimensional representation of a finite group $G$,\nand let $W$ be a representation of a subgroup $H \\subset G$. Then the\ncharacters of $V$ and $W$ satisfy the inner product relation\n$$(\\chi_{{\\operatorname{Ind}}(W)}, \\chi_V) = (\\chi_W, \\chi_{{\\operatorname{Res}}(V)})$$\nwhere ${\\operatorname{Ind}}$ and ${\\operatorname{Res}}$ denote the\ninduced representation ${\\operatorname{Ind}}_H^G$ and the restriction\nrepresentation ${\\operatorname{Res}}_H^G$.\n\nThe Frobenius reciprocity theorem is often given in the stronger form\nwhich states that ${\\operatorname{Res}}$ and ${\\operatorname{Ind}}$ are\nadjoint functors between the category of $G$\u2013modules and the category of\n$H$\u2013modules:\n$${\\operatorname{Hom}}_H(W, {\\operatorname{Res}}(V)) = {\\operatorname{Hom}}_G({\\operatorname{Ind}}(W),V),$$\nor, equivalently\n$$V \\otimes {\\operatorname{Ind}}(W) = {\\operatorname{Ind}}({\\operatorname{Res}}(V) \\otimes W).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FrobeniusReciprocity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Frobenius reciprocity"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "It is convenient to identify a natural number $n$ with the $n$th binary\nstring in lexicographic order: $$\\begin{array}{ll}\n0 & \\epsilon \\\\\n1 & 0 \\\\\n2 & 1 \\\\\n3 & 00 \\\\\n4 & 01 \\\\\n5 & 10 \\\\\n6 & 11 \\\\\n7 & 000 \\\\\n\\ldots & \\ldots\n\\end{array}$$ The more common [*binary notation*]{} for numbers fails to\nbe a bijection because of leading zeroes. Yet, there is a close\nrelation: the $n$th binary string is the result of stripping the leading\n1 from the binary notation of $n+1$.\n\nWith this correspondence in place, we can talk about such things as the\nlength $l(n)$ of a number $n$, which can be seen to equal\n$\\lfloor \\log (n+1) \\rfloor$.",
+  "language": "INFORMAL",
+  "phrase": "Natural Numbers Identified With Binary Strings",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NaturalNumbersIdentifiedWithBinaryStrings"
+    }
+  ],
+  "indexable": true
+}

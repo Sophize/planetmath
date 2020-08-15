@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f:[a,b]\\to\\mathbb{R}$ and $g:[a,b]\\to\\mathbb{R}$ be continuous on\n$[a,b]$ and differentiable on $(a,b)$. Then there exists some number\n$\\xi\\in(a,b)$ satisfying:\n$$(f(b)-f(a))g^\\prime(\\xi)=(g(b)-g(a))f^\\prime(\\xi).$$ If $g$ is linear\nthis becomes the usual mean-value theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtendedMeanvalueTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "extended mean-value theorem",
+    "Cauchy's mean value theorem",
+    "extended mean value theorem",
+    "generalized mean value theorem"
+  ]
+}

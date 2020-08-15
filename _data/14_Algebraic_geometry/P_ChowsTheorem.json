@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For the purposes of this entry, let us define as any complex analytic\nvariety of ${\\mathbb P}^n,$ the $n$ dimensional complex projective\nspace. Let\n$\\sigma \\colon {\\mathbb C}^{n+1} \\setminus \\{0\\} \\to {\\mathbb P}^n$ be\nthe natural projection. That is, the map that takes\n$(z_1,\\ldots,z_{n+1})$ to $[z_1:\\ldots:z_{n+1}]$ in homogeneous\ncoordinates. We define *algebraic projective variety* of ${\\mathbb P}^n$\nas a set $\\sigma(V)$ where $V \\subset {\\mathbb C}^{n+1}$ is the common\nzero set of a finite family of homogeneous holomorphic polynomials. It\nis not hard to show that $\\sigma(V)$ is a in the above sense. Usually an\nalgebraic projective variety is just called a *projective variety*\npartly because of the following theorem.\n\nEvery complex analytic projective variety is algebraic.\n\nWe follow the proof by Cartan, Remmert and Stein. Note that the\napplication of the Remmert-Stein theorem is the key point in this proof.\n\nSuppose that we have a complex analytic variety $X \\in {\\mathbb P}^n$.\nIt is not hard to show that that $\\sigma^{-1}(X)$ is a complex analytic\nsubvariety of ${\\mathbb C}^{n+1} \\setminus \\{0\\}.$ By the theorem of\nRemmert-Stein the set $V = \\sigma^{-1}(X) \\cup \\{0\\}$ is a subvariety of\n${\\mathbb C}^{n+1}.$ Furthermore $V$ is a complex cone, that is if\n$z = (z_1,\\ldots,z_{n+1}) \\in V,$ then $t z \\in V$ for all\n$t \\in {\\mathbb C}.$\n\nFinal step is to show that if a complex analytic subvariety\n$V \\subset {\\mathbb C}^{n+1}$ is a complex cone, then it is given by the\nvanishing of finitely many homogeneous polynomials. Take a finite set of\ndefining functions of $V$ near the origin. I.e. take $f_1,\\ldots,f_k$\ndefined in some open ball $B = B(0,\\epsilon),$ such that in\n$B \\cap V = \\{ z \\in B \\mid f_1(z) = \\cdots = f_k(z) = 0 \\}.$ We can\nsuppose that $\\epsilon$ is small enough that the power series for $f_j$\nconverges in $B$ for all $j.$ Expand $f_j$ in a power series near the\norigin and group together homogeneous terms as\n$f_j = \\sum_{m=0}^\\infty f_{jm}$, where $f_{jm}$ is a homogeneous\npolynomial of degree $m.$ For $t \\in {\\mathbb C}$ we write\n$$f_j(t z) = \\sum_{m=0}^\\infty f_{jm}(tz) = \\sum_{m=0}^\\infty t^m f_{jm}(z)$$\nFor a fixed $z \\in V$ we know that $f_{j}(t z) = 0$ for all\n$\\lvert t \\rvert < 1,$ hence we have a power series in one variable that\nis identically zero, and so all coefficients are zero. Thus $f_{jm}$\nvanishes on $V \\cap B$ and hence on $V.$ It follows that $V$ is defined\nby a family of homogeneous polynomials. Since the ring of polynomials is\nNoetherian we need only finitely many, and we are done.\n\n[9]{} Hassler Whitney. [**]{}. Addison-Wesley, Philippines, 1972.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChowsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Chow's theorem",
+    "every complex analytic projective variety is algebraic"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G \\subset {\\mathbb{C}}$ be a domain.\n\nLet $f \\colon G \\to {\\mathbb{C}}$ be a meromorphic function, then the\n[*spherical derivative*]{} of $f$, denoted $f^\\sharp$ is defined as\n$$f^\\sharp(z) := \\frac{2\\lvert f'(z) \\rvert}{1+\\lvert f(z) \\rvert^2}$$\nfor $z$ where $f(z) \\not= \\infty$ and when $f(z) = \\infty$ define\n$$f^\\sharp(z) = \\lim_{\\zeta \\to z} f^\\sharp(\\zeta) .$$\n\nThe second definition makes sense since a meromorphic functions has only\nisolated poles, and thus $f^\\sharp(\\zeta)$ is defined by the first\nequation when we are close to $z$. Some basic properties of the\nspherical derivative are as follows.\n\nIf $f \\colon G \\to {\\mathbb{C}}$ is a meromorphic function then\n\n-   $f^\\sharp$ is a continuous function,\n\n-   $f^\\sharp(z) < \\infty$ for all $z \\in G$.\n\nNote that sometimes the spherical derivative is also denoted as\n$\\mu(f)(z)$ rather then $f^\\sharp(z)$.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1978.\nTheodore\u00a0B. Gamelin. [**]{}. Springer-Verlag, New York, New York, 2001.",
+  "language": "INFORMAL",
+  "phrase": "Spherical Derivative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SphericalDerivative"
+    }
+  ],
+  "indexable": true
+}

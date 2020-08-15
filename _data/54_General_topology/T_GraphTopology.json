@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "one-dimensional CW complex"
+  ],
+  "definition": "A graph $(V,E)$ is identified by its vertices $V=\\{v_1,v_2,\\ldots\\}$ and\nits edges $E=\\{\\{v_i,v_j\\},\\{v_k,v_l\\},\\ldots\\}$. A graph also admits a\nnatural topology, called the *graph topology*, by identifying every edge\n$\\{v_i,v_j\\}$ with the unit interval $I=[0,1]$ and gluing them together\nat coincident vertices.\n\nThis construction can be easily realized in the framework of simplicial\ncomplexes. We can form a simplicial complex\n$G=\\left\\{\\{v\\}\\mid v\\in V\\right\\} \\cup\nE$. And the desired topological realization of the graph is just the\ngeometric realization $|G|$ of $G$.\n\nViewing a graph as a topological space has several advantages:\n\n-   The notion of graph isomorphism becomes that of simplicial (or cell)\n    isomorphism.\n\n-   The notion of a connected graph coincides with topological .\n\n-   A connected graph is a tree if and only if its fundamental group is\n    trivial.\n\n[**Remark:**]{} A graph is/can be regarded as a one-dimensional\n$CW$-complex.",
+  "language": "INFORMAL",
+  "phrase": "Graph Topology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GraphTopology"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ and $B$ be linear operators in a Hilbert space, and let\n$\\lambda\\in {\\mathbb{C}}$. Assuming all the operators involved are\ndensely defined, the following properties hold:\n\n1.  If $A^{-1}$ exists and is densely defined, then\n    $(A^{-1})^* = (A^*)^{-1}$;\n\n2.  $(\\lambda A)^* = \\overline{\\lambda}A^*$;\n\n3.  $A\\subset B$ implies $B^*\\subset A^*$;\n\n4.  $A^*+B^*\\subset (A+B)^*$;\n\n5.  $B^*A^*\\subset (AB)^*$;\n\n6.  $(A+ \\lambda I)^* = A^*+\\overline{\\lambda}I$;\n\n7.  $A^*$ is a closed operator.\n\n**Remark.** The notation $A\\subset B$ for operators means that $B$ is an\nof $A$, i.e. $A$ is the of $B$ to a smaller domain.\n\nAlso, we have the following\n\nIf $A$ admits a $\\overline{A}$, then $A^*$ is densely defined and\n$(A^*)^* = \\overline{A}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertiesOfTheAdjointOperator"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "properties of the adjoint operator"
+  ]
+}

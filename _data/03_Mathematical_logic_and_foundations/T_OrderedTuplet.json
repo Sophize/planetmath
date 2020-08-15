@@ -1,0 +1,25 @@
+{
+  "alternatePhrases": [
+    "tuplet",
+    "$n$-tuplet",
+    "$n$-tuplets",
+    "ordered $n$-tuplet",
+    "-tuplet",
+    "-tuplets",
+    "tuple",
+    "$n$-tuple",
+    "ordered $n$-tupule",
+    "-tuple",
+    "finite sequence"
+  ],
+  "definition": "The concept of ordered $n$-tuplet is the generalization of ordered pair\nto $n$ items. For small values of $n$, the following are used:\n$$\\begin{matrix}\nn & \\hbox{\\sl name} \\hfill & \\hbox{\\sl example} \\hfill \\\\\n3 & \\hbox{triplet} \\hfill & (a,b,c) \\hfill \\\\ \n4 & \\hbox{quadruplet} \\hfill & (a,b,c,d) \\hfill \\\\\n5 & \\hbox{quintuplet} \\hfill & (a,b,c,d,e) \\hfill \\\\\n6 & \\hbox{sextuplet} \\hfill & (a,b,c,d,e,f) \\hfill \\\\\n7 & \\hbox{septuplet} \\hfill & (a,b,c,d,e,f,g) \\hfill \\\\\n8 & \\hbox{octuplet} \\hfill & (a,b,c,d,e,f,g,h) \\hfill \\\\\n9 & \\hbox{nonuplet} \\hfill & (a,b,c,d,e,f,g,h,i) \\hfill \\\\\n10 & \\hbox{decuplet} \\hfill & (a,b,c,d,e,f,g,h,i,j) \\hfill \\\\\n\\end{matrix}$$\n\nThis notion can be defined set-theoretically in a number of ways. For\nconvenience, we shall express two of these definitions for quintuplets \u2014\nit is perfectly easy to generalize them to any other value of $n$.\n\nOne possibility is to build $n$-tuplets out of nested ordered pairs. In\nthe case of our example $(a,b,c,d,e)$, the as a nested ordered pair\nlooks like $$(a,(b,(c,(d,e)))).$$ This form of is used in the\nprogramming language LISP.\n\nAnother possibility is to define $n$-tuplets as maps. In this way of\nthinking, a quintuplet is a function whose domain is the set\n$\\{ 1, 2, 3, 4, 5 \\}$. In the case of our example, the function $f$ in\nquestion is defined as $$\\begin{array}{ccc}\nf(1) & = & a \\\\\nf(2) & = & b \\\\\nf(3) & = & c \\\\\nf(4) & = & d \\\\\nf(5) & = & e \\\\\n\\end{array}$$\n\nEspecially with the second interpretation, one sees that a synonym for\n\u201cordered tuplet\u201d is \u201cfinite sequence\u201d or \u201clist\u201d. For instance, a\nquintuplet can also be regarded as a sequence of five items or a list of\nfive items.",
+  "language": "INFORMAL",
+  "phrase": "Ordered Tuplet",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderedTuplet"
+    }
+  ],
+  "indexable": true
+}

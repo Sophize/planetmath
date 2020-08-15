@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry, we show that every Boolean algebra is isomorphic to a\nfield of sets, originally noted by Stone in 1936. The bulk of the proof\nhas actually been carried out in , which we briefly state:\n\n> if $L$ is a distributive lattice, and $X$ the set of all prime ideals\n> of $L$, then the map $F:L\\to P(X)$ defined by\n> $F(a)=\\lbrace P\\mid a\\notin P\\rbrace$ is an embedding.\n\nNow, if $L$ is a Boolean lattice, then every element $a\\in L$ has a\ncomplement $a'\\in L$. $a'$ is in fact uniquely determined by $a$.\n\nThe embedding $F$ above preserves $'$ in the following sense:\n$$F(a')=X-F(a).$$\n\n$P\\in F(a')$ iff $a'\\notin P$ iff $a\\in P$ iff $P\\notin F(a)$ iff\n$P\\in X-F(a)$.\n\nEvery Boolean algebra is isomorphic to a field of sets.\n\nFrom what has been discussed so far, $F$ is a Boolean algebra\nisomorphism between $L$ and $F(L)$, which is a ring of sets first of\nall, and a field of sets, because $X-F(a)=F(a')$.\n\n**Remark**. There are at least two other ways to characterize a Boolean\nalgebra as a field of sets: let $L$ be a Boolean algebra:\n\n-   Every prime ideal is the kernel of a homomorphism into\n    $\\boldsymbol{2}:=\\lbrace 0,1\\rbrace$, and vice versa. So for an\n    element $a$ to be not in a prime ideal $P$ is the same as saying\n    that $\\phi(a)=1$ for some homomorphism $\\phi:L \\to \\boldsymbol{2}$.\n    If we take $Y$ to be the set of all homomorphisms from $L$ to\n    $\\boldsymbol{2}$, and define $G:L\\to P(Y)$ by\n    $G(a)=\\lbrace \\phi \\mid \\phi(a)=1 \\rbrace$, then it is easy to see\n    that $G$ is an embedding of $L$ into $P(Y)$.\n\n-   Every prime ideal is a maximal ideal, and vice versa. Furthermore,\n    $P$ is maximal iff $P'$ is an ultrafilter. So if we define $Z$ to be\n    the set of all ultrafilters of $L$, and set $H:L\\to P(Z)$ by\n    $H(a)=\\lbrace U\\mid a\\in U\\rbrace$, then it is easy to see that $H$\n    is an embedding of $L$ into $P(Z)$.\n\nIf we appropriately topologize the sets $X,Y$, or $Z$, then we have the\ncontent of the Stone representation theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RepresentingABooleanAlgebraByFieldOfSets"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "representing a Boolean algebra by field of sets"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "We seek to show that $f:K \\to X$ is continuous with $K$ a compact metric\nspace, then $f$ is uniformly continuous. Recall that for $f:K\\to X$,\nuniform continuity is the condition that for any $\\varepsilon>0$, there\nexists $\\delta$ such that $$d_K(x,y) < \\delta \n\\implies d_X (f(x),f(y)) < \\epsilon$$ for all $x,y\\in K$\n\nSuppose $K$ is a compact metric space, $f$ continuous on $K$. Let\n$\\epsilon > 0$. For each $k \\in K$ choose $\\delta_k$ such that\n$d(k,x) \\leq \\delta_k$ implies $d(f(k),f(x)) \\leq \\frac{\\epsilon}{2}$.\nNote that the collection of balls $B(k, \\frac{\\delta_k}{2} )$ covers\n$K$, so by compactness there is a finite subcover, say involving\n$k_1, \\ldots, k_n$. Take\n$$\\delta = \\min_{i=1,\\ldots,n} \\frac{\\delta_{k_i}}{2}$$ Then, suppose\n$d(x,y) \\leq \\delta$. By the choice of $k_1,\\ldots,k_n$ and the triangle\ninequality, there exists an $i$ such that\n$d(x,k_i),d(y,k_i) \\leq \\delta_{k_i}$. Hence, $$\\begin{aligned}\nd(f(x),f(y)) &\\leq& d(f(x),f(k_i)) + d(f(y),f(k_i)) \\\\\n             &\\leq& \\frac{\\epsilon}{2} + \\frac{\\epsilon}{2}\\end{aligned}$$\n\nAs $x,y$ were arbitrary, we have that $f$ is uniformly continuous.\\\nThis proof is similar to one found in Mathematical Principles of\nAnalysis, Rudin.",
+  "conclusion": "#P_HeineCantorTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfHeineCantorTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Heine-Cantor theorem"
+  ]
+}

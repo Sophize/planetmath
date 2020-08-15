@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "foundation",
+    "regularity",
+    "axiom of regularity"
+  ],
+  "definition": "The *axiom of foundation* (also called the *axiom of regularity*) is an\naxiom of ZF set theory prohibiting circular sets and sets with infinite\nlevels of containment. Intuitively, it that every set can be built up\nfrom the empty set. There are several equivalent formulations, for\ninstance:\n\nFor any nonempty set $X$ there is some $y\\in X$ such that\n$y\\cap X=\\emptyset$.\n\nFor any set $X$, there is no function $f$ from $\\omega$ to the\ntransitive closure of $X$ such that for every $n$, $f(n+1)\\in f(n)$.\n\nFor any formula $\\phi$, if there is any set $x$ such that $\\phi(x)$ then\nthere is some $X$ such that $\\phi(X)$ but there is no $y\\in X$ such that\n$\\phi(y)$.\n\nSets which satisfy this axiom are called *artinian*. It is known that,\nif ZF without this axiom is consistent, then this axiom does not add any\ninconsistencies.\n\nOne important consequence of this property is that no set can contain\nitself. For instance, if there were a set $X$ such that $X\\in X$ then we\ncould define a function $f(n)=X$ for all $n$, which would then have the\nproperty that $f(n+1)\\in f(n)$ for all $n$.",
+  "language": "INFORMAL",
+  "phrase": "Axiom Of Foundation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AxiomOfFoundation"
+    }
+  ],
+  "indexable": true
+}

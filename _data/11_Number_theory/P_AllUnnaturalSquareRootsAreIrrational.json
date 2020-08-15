@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem:**\u00a0If $n$ is a natural number and $\\sqrt[2]{n}$ is not whole,\nthen $\\sqrt[2]{n}$ must be irrational.\n\n**Proof**\u00a0Ad absurdum: Assume there exists a natural number $n$ that\n$\\sqrt[2]{n}$ is not whole, but is rational.\n\nTherefore $\\sqrt[2]{n}$ can be notated as an irreducible fraction:\n$\\frac{m}{d}$\n\nNow break the numerator and denominator into their prime factors:\n\n$\\sqrt[2]{n} = \\frac{m}{d} = \\frac{m_1 \\times m_2 \\times \\dots \\times m_{k}}{d_1 \\times \\dots \\times d_{l}}$\n\nBecause the fraction is irreducible, none of the factors can cancel each\nother out.\n\nFor any $i$ and $j$, $m_i\\neq d_j$.\n\nNow look at $n$:\n\n$n = \\frac{{m_1}^2 \\times {m_2}^2 \\times \\dots \\times {m_k}^2}{{d_1}^2 \\times \\dots \\times {d_l}^2}$\n\nBecause $n$ is a natural number, all the denominator factors are\nsupposed to cancel out,\n\nbut this is impossible because for any $i$ and $j$, $m_i\\neq d_j$.\n\nTherefore $\\sqrt[2]{n}$ must be irrational.\n\nUnfortunately this means that a (non-integer) fraction can never become\nwhole by simply squaring, cubing, etc.\n\nI call this unsatisfying fact my \u201cGreenfield Lemma\u201d.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AllUnnaturalSquareRootsAreIrrational"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "All unnatural square roots are irrational",
+    "The square of a fraction is always a fraction"
+  ]
+}

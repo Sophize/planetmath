@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sample $S$ of size $n$ from a population $U$ of size $N$ is called a\n*simple random sample* if\n\n1.  it is a sample without replacement, and\n\n2.  the probability of picking this sample is equal to the probability\n    of picking any other sample of size $n$ from the same population\n    $U$.\n\nFrom the first part of the definition, there are $\\binom{N}{n}$ samples\nof $n$ items from a population of $N$ items. From the second part of the\ndefinition, the probability of any sample of size $n$ in $U$ is a\nconstant. Therefore, the probability of picking a particular simple\nrandom sample of size $n$ from a population of size $N$ is\n$\\binom{N}{n}^{-1}$.\\\n\\\n**Remarks** Suppose $x_1,x_2,\\ldots,x_n$ are values representing the\nitems sampled in a simple random sample of size $n$.\n\n-   The sample mean $\\overline{x}=\\frac{1}{n}\\sum_{i=1}^{n}x_i$ is an\n    unbiased estimator of the true population mean $\\mu$.\n\n-   The sample variance $s^2=\\frac{1}{n-1}\n    \\sum_{i=1}^{n}(x_i-\\overline{x})^2$ is an unbiased estimator of\n    $S^2$, where $(\\frac{N-1}{N})S^2=\\sigma^2$ is the true variance of\n    the population given by\n    $$\\sigma^2:=\\frac{1}{N}\\sum_{i=1}^{N}(x_i-\\overline{x})^2.$$\n\n-   The variance of the sample mean $\\overline{x}$ from the true mean\n    $\\mu$ is $$\\left(\\frac{N-n}{nN}\\right) S^2.$$ The larger the sample\n    size, the smaller the deviation from the true population mean. When\n    $n=1$, the variance is the same as the true population variance.",
+  "language": "INFORMAL",
+  "phrase": "Simple Random Sample",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimpleRandomSample"
+    }
+  ],
+  "indexable": true
+}

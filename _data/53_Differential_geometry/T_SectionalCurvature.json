@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a Riemannian manifold. Let $p$ be a point in $M$ and let $S$\nbe a two-dimensional subspace of $T_pM$. Then the *sectional curvature*\nof $S$ at $p$ is defined as\n$$K(S)=\\frac{g(R(x,y)x,y)}{g(x,x)g(y,y)-g(x,y)^2}$$ where $x,y$ span\n$S$, $g$ is the metric tensor and $R$ is the Riemann\u2019s curvature tensor.\n\nThis is a natural generalization of the classical Gaussian curvature for\nsurfaces.",
+  "language": "INFORMAL",
+  "phrase": "Sectional Curvature",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SectionalCurvature"
+    }
+  ],
+  "indexable": true
+}

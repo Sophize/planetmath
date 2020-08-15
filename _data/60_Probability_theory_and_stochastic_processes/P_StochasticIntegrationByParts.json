@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The stochastic integral satisfies a version of the classical integration\nby parts formula, which is just the integral version of the product\nrule. The only difference here is the existence of a quadratic\ncovariation term.\n\nLet $X,Y$ be semimartingales. Then, $$\\label{eq:1}\nX_tY_t = X_0Y_0+\\int_0^t X_{s-}\\,dY_s+\\int_0^tY_{s-}\\,dX_s + [X,Y]_t.$$\n\nAlternatively, in differential notation, this reads\n$$d(X_tY_t)=X_{t-}dY_t + Y_{t-}dX_t + d[X,Y]_t.$$ The existence of the\nquadratic covariation term $[X,Y]$ in the integration by parts formula,\nand also in It\u00f4\u2019s lemma, is an important difference between standard\ncalculus and stochastic calculus. To see the need for this term,\nconsider the following. Choosing any $h>0$, write the increment of a\nprocess over a time step of size $h$ as $\\delta X_t\\equiv X_{t+h}-X_t$.\nThe increment of a product of processes satisfies the following simple\nidentity, $$\\label{eq:2}\n\\delta (XY)_t = X_t\\delta Y_t + Y_t\\delta X_t + \\delta X_t\\delta Y_t.$$\nAs we let $h$ tend to zero, for differentiable processes the final term\nof (\\[eq:2\\]) is of $O(h^2)$, so can be neglected in the limit. However,\nwhen $X$ and $Y$ are semimartingales, such as Brownian motion, the final\nterm will be of order $h$, and needs to be retained even in the limit.\n\nThe proof of equation (\\[eq:1\\]) is given by the proof of the and, in\nparticular, is just a rearrangement of the formula given for the\nquadratic covariation of semimartingales. Whenever either of $X$ or $Y$\nis a continuous finite variation process, the quadratic covariation term\n$[X,Y]$ is zero, so (\\[eq:1\\]) becomes the standard integration by parts\nformula. More generally, for noncontinuous processes we have the\nfollowing.\n\nLet $X$ be a semimartingale and $Y$ be an adapted finite variation\nprocess. Then, $$\\label{eq:3}\nX_tY_t = X_0Y_0 + \\int_0^t X_s\\,dY_s + \\int_0^t Y_{s-}\\,dX_s.$$\n\nAs $Y$ is a finite variation process, the first integral on the right\nhand side of (\\[eq:3\\]) makes sense as a Lebesgue-Stieltjes integral.\nEquation (\\[eq:3\\]) follows from the integration by parts formula by\nfirst substituting the following formula for the covariation whenever\n$Y$ has finite variation into (\\[eq:1\\])\n$$[X,Y]_t=\\sum_{s\\le t}\\Delta X_s\\Delta Y_s$$ and then using the\nfollowing identity $$\\begin{split}\n\\int_0^t X_s\\,dY_s - \\int_0^t X_{s-}\\,dY_s\n&=\\int_0^t \\Delta X_s\\,dY_s\n=\\int_0^t \\sum_{u}\\Delta X_u 1_{\\{u=s\\}}\\,dY_s\\\\\n&= \\sum_{u\\le t}\\Delta X_u\\Delta Y_u.\n\\end{split}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StochasticIntegrationByParts"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "stochastic integration by parts"
+  ]
+}

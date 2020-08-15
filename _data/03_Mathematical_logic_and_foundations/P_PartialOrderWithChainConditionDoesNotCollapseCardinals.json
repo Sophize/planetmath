@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $P$ is a partial order which satisfies the $\\kappa$ chain condition\nand $G$ is a generic subset of $P$ then for any\n$\\kappa<\\lambda\\in\\mathfrak{M}$, $\\lambda$ is also a cardinal in\n$\\mathfrak{M}[G]$, and if $\\operatorname{cf}(\\alpha)=\\lambda$ in\n$\\mathfrak{M}$ then also $\\operatorname{cf}(\\alpha)=\\lambda$ in\n$\\mathfrak{M}[G]$.\n\nThis theorem is the simplest way to control a notion of forcing, since\nit means that a notion of forcing does not have an effect above a\ncertain point. Given that any $P$ satisfies the $|P|^+$ chain condition,\nthis means that most forcings leaves all of $\\mathfrak{M}$ above a\ncertain point alone. (Although it is possible to get around this limit\nby forcing with a proper class.)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartialOrderWithChainConditionDoesNotCollapseCardinals"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "partial order with chain condition does not collapse cardinals"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Thue-Morse sequence"
+  ],
+  "definition": "The [*Prouhet-Thue-Morse sequence*]{} is a binary sequence which begins\nas follows:\n\n$$0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, \\ldots$$\n\nThe $n$th term is defined to be the number of $1$s in the binary\nexpansion of $n$, modulo 2. That is, $t_n = 0$ if the number of $1$s in\nthe binary expansion of $n$ is even, and $t_n = 1$ if it is odd.\n\nThe sequence satisfies the following recurrence relation, with $t_0=0$:\n$$\\begin{array}{ccc} t_{2n} &=& t_n \\\\\n                      t_{2n+1} &=& 1 - t_n \\end{array}$$\n\nThe Prouhet-Thue-Morse sequence is an automatic sequence. It has been\nshown to be (no three consecutive identical blocks) and overlap-free i.e\nno sub-block of the form $awawa$, where $a \\in \\{0,1\\}$, when viewed as\na word of infinite length over the binary alphabet $\\{0,1\\}$.\n\n### Generating function {#generating-function .unnumbered}\n\nThe generating function $T(x)=\\sum_{n=0}^{\\infty} t_nx^n$ for the\nsequence satisfies the relation\n\n$$T(x) = T(x^2)(1-x) + \\frac{x}{1-x^2}$$\n\n### History {#history .unnumbered}\n\nThe Thue-Morse sequence was independently discovered by P. Prouhet, Axel\nThue, and Marston Morse, and has since been rediscovered by many others.\n\n### References {#references .unnumbered}\n\n-   Allouche, J.-P.; Shallit, J. O. \\[postscript\\]\n\n-   Sloane, N. J. A. [ *Sequence A010060*]{}, .",
+  "language": "INFORMAL",
+  "phrase": "Prouhet-Thue-Morse Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProuhetThueMorseSequence"
+    }
+  ],
+  "indexable": true
+}

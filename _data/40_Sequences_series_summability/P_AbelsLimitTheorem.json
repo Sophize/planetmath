@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that $\\sum a_{n} x^{n}$ has a radius of convergence $r$ and that\n$\\sum a_{n} r^{n}$ is convergent. Then\n\n$$\\lim_{x \\to r^{-}} \\sum a_{n} x^{n} = \\sum a_{n} r^{n} = \\sum (\\lim_{x \\to r^{-}} a_{n} x^{n})$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbelsLimitTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Abel's limit theorem"
+  ]
+}

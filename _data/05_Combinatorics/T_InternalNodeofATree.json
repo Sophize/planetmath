@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "internal node"
+  ],
+  "definition": "An *internal node* of a tree is any node which has degree greater than\none. Or, phrased in rooted tree terminology, the internal nodes of a\ntree are the nodes which have at least one child node.\n\n$$\\xymatrix{\n& {\\color{red}\\bullet} \\ar@{-}[dl] \\ar@{-}[dr] &  &  & \\\\\n\\bullet &  & {\\color{red}\\bullet} \\ar@{-}[dr]\\ar@{-}[dl] &  & \\\\\n& {\\color{red}\\bullet} \\ar@{-}[dl] &  & \\bullet  & \\\\\n\\bullet &  &  &   & }$$\n\n[Figure: A tree with internal nodes highlighted in red.]{}",
+  "language": "INFORMAL",
+  "phrase": "Internal Node (Of A Tree)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InternalNodeofATree"
+    }
+  ],
+  "indexable": true
+}

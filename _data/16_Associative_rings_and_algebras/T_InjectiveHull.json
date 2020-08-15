@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "injective envelope"
+  ],
+  "definition": "Let $X$ and $Q$ be modules. We say that $Q$ is an [*injective hull*]{}\nor [*injective envelope*]{} of $X$ if $Q$ is both an injective module\nand an essential extension of $X$.\n\nEquivalently, $Q$ is an injective hull of $X$ if $Q$ is injective, and\n$X$ is a submodule of $Q$, and if $g : X \\to Q'$ is a monomorphism from\n$X$ to an injective module $Q'$, then there exists a monomorphism\n$h : Q \\to Q'$ such that $h(x) = g(x)$ for all $x \\in X$. $$\\xymatrix{\n  &\n  0\n        \\ar[d]\n  \\\\\n  0\n        \\ar[r]\n  &\n  X\n        \\ar[r]^i\n        \\ar[d]_g\n  &\n  Q\n        \\ar@{-->}[dl]^h\n  \\\\\n  &\n  Q'\n}$$\n\nEvery module $X$ has an injective hull, which is unique up to\nisomorphism. The injective hull of $X$ is sometimes denoted $E(X)$.",
+  "language": "INFORMAL",
+  "phrase": "Injective Hull",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InjectiveHull"
+    }
+  ],
+  "indexable": true
+}

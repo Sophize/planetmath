@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Of the inequalities $\\sqrt{a} \\lessgtr b$,\n\n-   both are undefined when $a < 0$;\n\n-   both can be sidewise squared when $a \\geqq 0$ and $b \\geqq 0$;\n\n-   $\\sqrt{a} > b$ is identically true if $a \\geqq 0$ and $b < 0$.\n\n-   $\\sqrt{a} < b$ is identically untrue if $b < 0$;\n\nThe above theorem may be utilised for solving inequalities involving\nsquare roots.\\\n**Example.** Solve the inequality $$\\begin{aligned}\n\\sqrt{2x+3} \\;>\\; x.\\end{aligned}$$ The reality condition $2x+3 \\geqq 0$\nrequires that $x \\geqq -1\\frac{1}{2}$. For using the theorem, we\ndistinguish two cases according to the sign of the right hand side:\n\n$1^\\circ$: $-1\\frac{1}{2} \\leqq x < 0$. The inequality is identically\ntrue; we have for (1) the partial solution $-1\\frac{1}{2} \\leqq x < 0$.\n\n$2^\\circ$: $x \\geqq 0$. Now we can square both , obtaining\n$$2x+3 \\;>\\; x^2$$ $$x^2-2x-3 \\;<\\; 0$$ The zeros of $x^2\\!-\\!2x\\!-\\!3$\nare $x = 1\\pm2$, i.e. $-1$ and $3$. Since the graph of the polynomial\nfunction is a parabola opening upwards, the polynomial attains its\nnegative values when $-1 < x < 3$ (see quadratic inequality). Thus we\nobtain for (1) the partial solution $0 \\leqq x < 3$.\n\nCombining both partial solutions we obtain the total solution\n$$-1\\frac{1}{2} \\;\\leqq\\; x \\;<\\; 3.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SquaringConditionForSquareRootInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "squaring condition for square root inequality",
+    "squaring condition"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Skewes's number",
+    "Skewes number"
+  ],
+  "definition": "[*Skewes\u2019 number*]{} is the smallest number $n$ for which\n$\\pi(n) > \\operatorname{li}(n)$, where $\\pi(x)$ is the prime counting\nfunction and $\\operatorname{li}(x)$ is the logarithmic integral. The\nlogarithmic integral is a good estimate for the prime counting function,\nbut in the range of prime numbers for which we know all smaller primes,\nthe logarithmic integral is an overestimate. Thus, Skewes\u2019 number is the\nsmallest number for which $\\operatorname{li}(x)$ \u201cgoes from being an\noverestimate to being an underestimate.\u201d (Wells, 1986)\n\nThe exact value of Skewes\u2019 number is not currently known. Stanley Skewes\nin 1933 gave the lower bound $e^{e^{e^{79}}}$, approximately\n$10^{{10}^{{10}^{34}}}$. He assumed the Riemann hypothesis to be true.\nOthers have proven smaller bounds to as low as about\n$1.4 \\times 10^{316}$.\n\nIn the 1930s, Skewes\u2019 number was the largest that had ever been used in\na serious mathematical proof. It has since then been significantly\ndwarfed by Graham\u2019s number. It still is the second largest number with\nits own entry in Wells\u2019 [*The Penguin Dictionary of Curious and\nInteresting Numbers*]{}, appearing on the penultimate page of the main\ntext.\n\n[1]{} Bays, C. & Hudson, R. H. \u201cA new bound for the smallest $x$ with\n$\\pi(x) > \\operatorname{li}(x)$.\u201d [*Math. Comput.*]{} [**69**]{} (2000):\n1285 - 1296 Wells, D. [*The Penguin Dictionary of Curious and\nInteresting Numbers*]{} London: Penguin Group. (1986): 209",
+  "language": "INFORMAL",
+  "phrase": "Skewes' Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SkewesNumber"
+    }
+  ],
+  "indexable": true
+}

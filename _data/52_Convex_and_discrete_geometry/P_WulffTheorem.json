@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\phi\\colon{\\mathbb R}^n \\to [0,+\\infty)$ be a non-negative, convex,\ncoercive, positively $1$-homogeneous function. We define the *Wulff\nshape* relative to $\\phi$ as the set\n$$W_\\phi := \\{ x \\in {\\mathbb R}^n \\colon \\text{$\\langle x,y\\rangle \\le 1$ for all $y$ such that $\\phi(y)\\le 1$}\\}$$\n(where $\\langle \\cdot,\\cdot\\rangle$ is the Euclidean inner product in\n${\\mathbb R}^n$.)\n\nLet $\\phi\\colon{\\mathbb R}^n \\to [0,+\\infty)$ be a non-negative, convex,\ncoercive, $1$-homogeneous function. Given a regular open set\n$D\\subset{\\mathbb R}^n$ we consider the following anisotropic surface\nenergy: $$F_\\phi(D) = \\int_{\\partial D} \\phi(\\nu_D(x))\\, d\\sigma(x)$$\nwhere $\\nu_D(x)$ is the outer unit normal to $\\partial D$, and $\\sigma$\nis the surface area on $\\partial D$. Then, given any set $D$ with the\nsame volume as $W_\\phi$, i.e.\u00a0$|D|=|W_\\phi|$, one has\n$F_\\phi(D)\\ge F_\\phi(W_\\phi)$. Moreover if $|D|=|W_\\phi|$ and\n$F_\\phi(D)=F_\\phi(W_\\phi)$ then $D$ is a translation of $W_\\phi$\ni.e.\u00a0there exists $v\\in R^n$ such that $D=v+W_\\phi$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WulffTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Wulff theorem"
+  ]
+}

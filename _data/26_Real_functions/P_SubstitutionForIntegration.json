@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For determining the antiderivative $F(x)$ of a given real function\n$f(x)$ in a \u201cclosed form\u201d, i.e. for integrating $f(x)$, the result is\noften obtained by using the\n\nIf $$\\int f(x)\\,dx = F(x)+C$$ and $x = x(t)$ is a differentiable\nfunction, then $$\\begin{aligned}\n     F(x(t)) = \\int f(x(t))\\,x'(t)\\,dt+c.\\end{aligned}$$\n\n[*Proof.*]{} By virtue of the chain rule,\n$$\\frac{d}{dt}F(x(t)) = F'(x(t))\\cdot x'(t),$$ and according to the\nsupposition, $F'(x) = f(x)$. Thus we get the claimed equation (1).\\\n**Remarks.**\n\n-   The expression $x'(t)\\,dt$ in (1) may be understood as the\n    differential of $x(t)$.\n\n-   For returning to the original variable $x$, the inverse function\n    $t = t(x)$ of $x(t)$ must be substituted to $F(x(t))$.\\\n\n**Example.** For integrating $\\int \\frac{x\\,dx}{1+x^4}$ we take\n$x^2 = t$ as a new variable. Then, $2x\\,dx = dt$,\n$x\\,dx = \\frac{dt}{2}$, and we get\n$$\\int \\frac{x\\,dx}{1+x^4} = \\frac{1}{2}\\int \\frac{dt}{1+t^2} = \\frac{1}{2}\\arctan t+ C= \\frac{1}{2}\\arctan x^2+C.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubstitutionForIntegration"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "substitution for integration",
+    "variable changing for integration",
+    "integration by substitution",
+    "substitution rule"
+  ]
+}

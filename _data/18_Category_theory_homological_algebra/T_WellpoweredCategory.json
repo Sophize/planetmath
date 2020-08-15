@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "wellpowered",
+    "well-powered",
+    "locally small"
+  ],
+  "definition": "Wellpoweredness is a kind of smallness condition on a category.\n\nLet $M$ be a class of monomorphisms. A category is said to be\n*$M$-wellpowered* if for any object any class of parwise non-isomorphism\n$M$-subobjects is a set. (By a $M$-subobject of an object $A$ we\nunderstand a pair $(E,e)$, where ${e:E\\toA}$ is a morphism belonging to\n$M$.) In other words, if we consider isomorphic objects as the same\nobject, the class of all $M$-subobjects is a set.\n\nMore precisely, for any $A$ there exists a set of $M$-subobjects\n$(M_i,m_i)$, $i\\in I$ such that for any extremal subobject $(M,m)$ of\nthe object $A$ there exists $i\\in I$ and an isomorphism ${f:M_i\\toM}$\nsuch that $m_i=m\\circ f$.\n\nIf $M$ is the class of all regular monomorphisms, extremal\nmonomorphisms, monomorphisms, we speak about regular wellpowered,\nextremally wellpowered, wellpowered category.\n\nnotions: regular cowellpowered, extremally cowellpowered, cowellpowered\ncategory.\n\n[1]{}\n\nJ.\u00a0Ad\u00e1mek, H.\u00a0Herrlich, and G.\u00a0Strecker. . Wiley, New York, 1990.",
+  "language": "INFORMAL",
+  "phrase": "Wellpowered Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WellpoweredCategory"
+    }
+  ],
+  "indexable": true
+}

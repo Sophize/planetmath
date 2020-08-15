@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Recall that a quadruple $Q=(Q_0,Q_1,s,t)$ is a quiver, if $Q_0$ is a set\n(whose elements are called vertices), $Q_1$ is also a set (whose\nelements are called arrows) and $s,t:Q_1\\to Q_0$ are functions which\ntake each arrow to its source and target respectively.\n\n**Definition.** A **morphism** from a quiver $Q=(Q_0,Q_1,s,t)$ to a\nquiver $Q'=(Q_0',Q_1',s',t')$ is a pair $$F=(F_0,F_1)$$ such that\n$F_0:Q_0\\to Q_0'$, $F_1:Q_1\\to Q_1'$ are functions which satisfy\n$$s'\\big(F_1(\\alpha)\\big)=F_0\\big(s(\\alpha)\\big);$$\n$$t'\\big(F_1(\\alpha)\\big)=F_0\\big(t(\\alpha)\\big).$$ In this case we\nwrite $F:Q\\to Q'$. In other words $F:Q\\to Q'$ is a morphism of quivers,\nif for an arrow $$\\xymatrix{\nx\\ar[r]^{\\alpha} & y\n}$$ in $Q$ the following $$\\xymatrix{\nF_0(x)\\ar[r]^{F_1(\\alpha)} & F_0(y)\n}$$ is an arrow in $Q'$.\n\nIf $F:Q\\to Q'$ and $G:Q'\\to Q''$ are morphisms between quivers, then we\nhave the composition $$G\\circ F:Q\\to Q''$$ defined by\n$$G\\circ F=(G_0\\circ F_0, G_1\\circ F_1).$$ It can be easily checked,\nthat $G\\circ F$ is again a morphism between quivers.\n\nThe class of all quivers, all morphisms between together with the\ncomposition is a category. In particular we have a notion of\nisomorphism. It can be shown, that two quivers $Q$, $Q'$ are isomorphic\nif and only if there exists a morphism of quivers $$F:Q\\to Q'$$ such\nthat both $F_0$ and $F_1$ are bijections.\n\nFor example quivers $$\\xymatrix{\nQ:1\\ar[r] & 2 & & & Q':1 & 2\\ar[l]\n}$$ are isomorphic, although not equal.",
+  "language": "INFORMAL",
+  "phrase": "Morphisms Between Quivers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MorphismsBetweenQuivers"
+    }
+  ],
+  "indexable": true
+}

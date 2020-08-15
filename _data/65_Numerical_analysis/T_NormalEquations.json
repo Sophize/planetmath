@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Normal Equations**]{}\n\nWe consider the problem $Ax \\approx b$ , where $A$ is an $m \\times n$\nmatrix with $m \\ge n$ rank $(A)=n$, $b$ is an $m \\times 1$ vector, and\n$x$ is the $n \\times 1$ vector to be determined.\n\nThe sign $\\approx$ stands for the least squares approximation, i.e. a\nminimization of the norm of the residual $r = Ax - b$.\n\n$$||Ax-b||_2 = ||r||_2 = \\left[ \\sum_{i=1}^m r_i^2 \\right]^{1/2}$$\n\nor the square\n\n$$\\begin{aligned}\n F(x) & = & \\frac{1}{2} ||Ax-b||_2^2 = \\frac{1}{2}(Ax-b)^T (Ax-b) \\\\\n & = & \\frac{1}{2}(x^TA^TAx -2x^TA^Tb + b^Tb)\\end{aligned}$$\n\ni.e. a differentiable function of $x$. The necessary condition for a\nminimum is:\n\n$$\\nabla F(x) =0 \\text{or} \\frac{\\partial F}{\\partial x_i} = 0 (i=1,\\ldots,n)$$\n\nThese equations are called the normal equations , which become in our\ncase:\n\n$$A^TAx = A^T b$$\n\nThe solution $x=(A^TA)^{-1}A^Tb$ is usually computed with the following\nalgorithm: First (the lower triangular portion of) the symmetric matrix\n$A^TA$ is computed, then its Cholesky decomposition $LL^T$. Thereafter\none solves $Ly=A^Tb$ for $y$ and finally $x$ is computed from $L^Tx=y$.\n\nUnfortunately $A^TA$ is often ill-conditioned and strongly influenced by\nroundoff errors (see \\[Golub89\\]). Other methods which do not compute\n$A^TA$ and solve $Ax \\approx b$ directly are QR decomposition and\nsingular value decomposition.\n\n[**References**]{}\n\n-   Originally from The Data Analysis Briefbook ()",
+  "language": "INFORMAL",
+  "phrase": "Normal Equations",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalEquations"
+    }
+  ],
+  "indexable": true
+}

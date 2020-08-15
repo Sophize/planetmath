@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $E/K$ be a Galois extension of fields, let $F/K$ be an arbitrary\nextension and assume that $E$ and $F$ are both subfields of some other\nlarger field $T$. The compositum of $E$ and $F$ is here denoted by $EF$.\nThen:\n\n1.  $EF$ is a Galois extension of $F$ and $E$ is Galois over $E\\cap F$;\\\n\n2.  Let $H={\\operatorname{Gal}}(EF/F)$. The restriction map:\n    $$\\begin{aligned}\n    H={\\operatorname{Gal}}(EF/F) & \\longrightarrow & {\\operatorname{Gal}}(E/E\\cap F)\\\\\n    \\sigma & \\longrightarrow & \\sigma |_{E}\\end{aligned}$$ is an\n    isomorphism, where $\\sigma |_{E}$ denotes the restriction of\n    $\\sigma$ to $E$.\n\nNotice, however, that if $E/F$ and $F/K$ are both Galois extensions, the\nextension $E/K$ need not be Galois. See example of normal extension for\na counterexample.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheCompositumOfAGaloisExtensionAndAnotherExtensionIsGalois"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the compositum of a Galois extension and another extension is Galois"
+  ]
+}

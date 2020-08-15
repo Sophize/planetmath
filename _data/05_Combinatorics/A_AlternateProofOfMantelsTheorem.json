@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $G$ be a triangle-free graph of order $n$. For each edge $xy$ of $G$\nwe consider the $\\Gamma(x)$ and $\\Gamma(y)$ of $G$. Since $G$ is\ntriangle-free, these are disjoint.\n\nThis is only possible if the sum of the degrees of $x$ and $y$ is less\nthan or equal to $n$. So for each edge $xy$ we get the inequality\n\n$$\\delta(x)+\\delta(y)\\leq n$$\n\nSumming these inequalities for all edges of $G$ gives us\n$$\\Sigma_{x\\in V(G)} (\\delta(x))^2 \\leq n |E(G)|$$\n\n(The left hand side is a sum of $\\delta(x)$ where each edge incident\nwith $x$ contributes one term and their are $\\delta(x)$ such edges.)\n\nSince $\\Sigma_{x\\in V(G)} \\delta(x) = 2 |E(G)|$, we get $4 |E(G)|^2 = \n(\\Sigma_{x\\in V(G)} \\delta(x))^2 $ and applying the Cauchy-Schwarz\ninequality gives\n$4 |E(G)|^2 \\leq n \\Sigma_{x\\in V(G)} (\\delta(x))^2 \\leq n^2 |E(G)|$.\n\nSo we conclude that for a triangle-free graph $G$,\n$$|E(G)|\\leq\\frac{n^2}{4}$$",
+  "conclusion": "#P_MantelsTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternateProofOfMantelsTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "alternate proof of Mantel's theorem"
+  ]
+}

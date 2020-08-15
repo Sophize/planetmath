@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "superconverge"
+  ],
+  "definition": "A sequence $x_0,x_1,\\dots$ *superconverges to 0* if, when the $x_i$ are\nwritten in base 2, then each number $x_i$ starts with $2^i-1\\approx 2^i$\nzeroes. For example, the following sequence is superconverging to 0.\n$$\\begin{array}{clcl}\nx_{n+1}&=x_n^2 & (x_n)_{10} & (x_n)_2\\\\[1.5pt]\nx_0 &= & \\frac{1}{2} & .1\\\\[1.5pt]\nx_1 &= & \\frac{1}{4} & .01\\\\[1.5pt]\nx_2 &= & \\frac{1}{16} & .0001\\\\[1.5pt]\nx_3 &= & \\frac{1}{256} & .00000001\\\\[1.5pt]\nx_4 &= & \\frac{1}{65536} & .0000000000000001\n\\end{array}$$ In this case it is easy to see that the number of binary\n0\u2019s doubles each $x_n$.\n\nA sequence $\\{x_i\\}$ *superconverges to $x$* if $\\{x_i-x\\}$\nsuperconverges to 0, and a sequence $\\{y_i\\}$ is said to be\n*superconvergent* if there exists a $y$ to which the sequence\nsuperconverges.",
+  "language": "INFORMAL",
+  "phrase": "Superconvergence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Superconvergence"
+    }
+  ],
+  "indexable": true
+}

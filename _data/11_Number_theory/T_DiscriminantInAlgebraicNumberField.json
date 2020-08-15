@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "discriminant in terms of conjugates"
+  ],
+  "definition": "Let us consider the elements $\\alpha_1,\\,\\alpha_2,\\,\\ldots,\\,\\alpha_n$\nof an algebraic number field $\\mathbb{Q}(\\vartheta)$ of $n$. Let\n$\\vartheta_1 = \\vartheta,\\,\\vartheta_2,\\,\\ldots,\\,\\vartheta_n$ be the\nalgebraic conjugates of the primitive element $\\vartheta$ and\n$$\\alpha_i \\;=\\; r_i(\\vartheta) \\quad (i \\;=\\; 1,\\,2,\\,\\ldots,\\,n)$$ the\ncanonical forms of the elements $\\alpha_i$. Then the of those elements\nare $$\\alpha_i^{(j)} \\;=\\; r_i(\\vartheta_j).$$ Using these, one can\ndefine the *discriminant*\n$\\Delta(\\alpha_1,\\,\\alpha_2,\\,\\ldots,\\,\\alpha_n)$ of the elenents\n$\\alpha_i$ as\n$$\\Delta(\\alpha_1,\\,\\alpha_2,\\,\\ldots,\\,\\alpha_n) \\;:=\\; \\det(r_i(\\vartheta_j))^2 \n\\;=\\; \\det\\!\\left(\\alpha_i^{(j)}\\right)^2\\!,$$ i.e.\n$$\\Delta(\\alpha_1,\\,\\alpha_2,\\,\\ldots,\\,\\alpha_n) \\;:=\\;\n\\left|\\begin{array}{cccc}\nr_1(\\vartheta_1) & r_1(\\vartheta_2) &\\ldots & r_1(\\vartheta_n)\\\\\nr_2(\\vartheta_1) & r_2(\\vartheta_2) &\\ldots & r_2(\\vartheta_n)\\\\\n\\vdots & \\vdots & \\ddots & \\vdots \\\\\nr_n(\\vartheta_1) & r_n(\\vartheta_2) &\\ldots & r_n(\\vartheta_n)\n\\end{array}\\right|^2 \\;=\\;\n\\left|\\begin{array}{cccc}\n\\alpha_1^{(1)} & \\alpha_1^{(2)} &\\ldots & \\alpha_1^{(n)}\\\\\n\\alpha_2^{(1)} & \\alpha_2^{(2)} &\\ldots & \\alpha_2^{(n)}\\\\\n\\vdots & \\vdots & \\ddots & \\vdots \\\\\n\\alpha_n^{(1)} & \\alpha_n^{(2)} &\\ldots & \\alpha_n^{(n)}\n\\end{array}\\right|^2\\!.$$\n\nBasing on the properties of determinants, one sees at once that the\ndiscriminant is of the numbers $\\alpha_i$. The entry independence of\ncharacteristic polynomial on primitive element allows to see that the\ndiscriminant also does not depend on the used primitive element of the\nfield. Moreover, the method for multiplying the determinants enables to\nconvert the discriminant into the form\n$$\\Delta(\\alpha_1,\\,\\alpha_2,\\,\\ldots,\\,\\alpha_n) \\;=\\;\n\\left|\\begin{array}{cccc}\n\\mbox{S}(\\alpha_1\\alpha_1) & \\mbox{S}(\\alpha_1\\alpha_2) &\\ldots & \\mbox{S}(\\alpha_1\\alpha_n)\\\\\n\\mbox{S}(\\alpha_2\\alpha_1) & \\mbox{S}(\\alpha_2\\alpha_2) &\\ldots & \\mbox{S}(\\alpha_2\\alpha_n)\\\\\n\\vdots & \\vdots & \\ddots & \\vdots \\\\\n\\mbox{S}(\\alpha_n\\alpha_1) & \\mbox{S}(\\alpha_n\\alpha_2) &\\ldots & \\mbox{S}(\\alpha_n\\alpha_n)\n\\end{array}\\right|\\!,$$ where $\\mbox{S}$ is the trace function defined\nin $\\mathbb{Q}(\\vartheta)$; therefore the discriminant is always a\nrational number (and an integer if every $\\alpha_i$ is an algebraic\ninteger of the field). Cf. the .",
+  "language": "INFORMAL",
+  "phrase": "Discriminant In Algebraic Number Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiscriminantInAlgebraicNumberField"
+    }
+  ],
+  "indexable": true
+}

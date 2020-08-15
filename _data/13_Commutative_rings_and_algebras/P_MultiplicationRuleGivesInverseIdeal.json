@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a commutative ring with non-zero unity. If an ideal $(a,\\,b)$\nof $R$, with $a$ or $b$ , obeys the multiplication rule\n$$\\begin{aligned}\n      (a,\\,b)(c,\\,d) = (ac,\\,ad\\!+\\!bc,\\,bd)\\end{aligned}$$ with all\nideals $(c,\\,d)$ of $R$, then $(a,\\,b)$ is an invertible ideal.\n\n[*Proof.*]{} The rule gives\n$$(a,\\,b)^2 = (a,\\,-b)(a,\\,b) = (a^2,\\,ab\\!-\\!ba,\\,b^2) = (a^2,\\,b^2).$$\nThus the product $ab$ may be written in the form $$ab = ua^2\\!+\\!vb^2,$$\nwhere $u$ and $v$ are elements of $R$. Let\u2019s assume that e.g. $a$ is\nregular. Then $a$ has the multiplicative inverse $a^{-1}$ in the total\nring of fractions $R$. Again applying the rule yields\n$$(a,\\,b)(va,\\,a-vb)(a^{-2}) = (va^2,\\,a^2-vab+vab,\\,ab-vb^2)(a^{-2}) =\n (va^2,\\,a^2,\\,ua^2)(a^{-2}) = (v,\\,1,\\,u) = R.$$ Consequently the ideal\n$(a,\\,b)$ has an inverse ideal (which may be a ); this settles the\nproof.\n\n**Remark.** The rule (1) in the theorem may be replaced with the rule\n$$\\begin{aligned}\n(a,\\,b)(c,\\,d) = (ac,\\,(a\\!+\\!b)(c\\!+\\!d),\\,bd)\\end{aligned}$$ as is\nseen from the identical equation\n$(a\\!+\\!b)(c\\!+\\!d)\\!-\\!ac\\!-\\!bd = ad+bc$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplicationRuleGivesInverseIdeal"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "multiplication rule gives inverse ideal"
+  ]
+}

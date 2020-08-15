@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ be an endomorphism of the vector space $V$ over a field $k$.\nDenote by $\\sigma(A)$ the spectrum of $A$. Then we have:\n\n\\[thm:spec\\] $$\\sigma(A-\\mu I)=\\{\\lambda-\\mu\\colon \\lambda\n    \\in\\sigma(A)\\}$$\n\nTheorem\u00a0\\[thm:spec\\] is equivalent to:\n\n\\[thm:sp\\] $\\lambda$ is a spectral value of $A$ if and only if\n$\\lambda-\\mu$ is a spectral value of $A-\\mu I$.\n\nNote that $$A-\\lambda I=(A-\\mu I)-(\\lambda I-\\mu I)\n    =(A-\\mu I)-(\\lambda-\\mu)I$$ and thus $A-\\lambda I$ is invertible if\nand only if $(A-\\mu I)-(\\lambda-\\mu)I$ is invertible. Equivalently,\n$\\lambda$ is a spectral value of $A$ iff $\\lambda-\\mu$ is a spectral\nvalue of $(A-\\mu I)$, as desired.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpectrumOfAmuI"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "spectrum of $A-\\mu I$"
+  ]
+}

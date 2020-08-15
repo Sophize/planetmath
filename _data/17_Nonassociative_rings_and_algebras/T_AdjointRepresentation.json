@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathfrak{g}}$ be a Lie algebra. For every $a\\in{\\mathfrak{g}}$ we\ndefine the , a.k.a. the [*adjoint action*]{},\n$$\\operatorname{ad}(a):{\\mathfrak{g}}\\rightarrow{\\mathfrak{g}}$$ to be\nthe linear transformation with action\n$$\\operatorname{ad}(a): b\\mapsto [a,b],\\quad b\\in{\\mathfrak{g}}.$$\n\nFor any vector space $V$, we use $\\mathfrak{gl}(V)$ to denote the Lie\nalgebra of $\\operatorname{End}V$ determined by the commutator bracket.\nSo $\\mathfrak{gl}(V)=\\operatorname{End}V$ as vector spaces, only the\nmultiplications are different.\n\nIn this notation, treating $\\mathfrak{g}$ as a vector space, the linear\nmapping\n$\\operatorname{ad}:{\\mathfrak{g}}\\rightarrow \\mathfrak{gl}({\\mathfrak{g}})$\nwith action $$a\\mapsto \\operatorname{ad}(a),\\quad a\\in{\\mathfrak{g}}$$\nis called the [*adjoint representation*]{} of ${\\mathfrak{g}}$. The fact\nthat $\\operatorname{ad}$ defines a representation is a straight-forward\nconsequence of the Jacobi identity axiom. Indeed, let\n$a,b\\in {\\mathfrak{g}}$ be given. We wish to show that\n$$\\operatorname{ad}([a,b]) = [\\operatorname{ad}(a),\\operatorname{ad}(b)],$$\nwhere the bracket on the left is the ${\\mathfrak{g}}$ multiplication\nstructure, and the bracket on the right is the commutator bracket. For\nall $c\\in{\\mathfrak{g}}$ the left hand side maps $c$ to $$[[a,b],c],$$\nwhile the right hand side maps $c$ to $$[a,[b,c]]+[b,[a,c]].$$ Taking\nskew-symmetry of the bracket as a given, the equality of these two\nexpressions is logically equivalent to the Jacobi identity:\n$$[a,[b,c]] +[b,[c,a]] + [c,[a,b]] = 0.$$",
+  "language": "INFORMAL",
+  "phrase": "Adjoint Representation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdjointRepresentation"
+    }
+  ],
+  "indexable": true
+}

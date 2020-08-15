@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definition\n==========\n\nA *strict betweenness relation* is a betweenness relation that satisfies\nthe following axioms:\n\n-   $(p,q,p)\\notin B)$ for *each* pair of points $p$ and $q$.\n\n-   for each $p,q\\in A$ such that $p\\ne q$, there is an $r\\in A$ such\n    that $(p,q,r)\\in B$.\n\n-   for each $p,q\\in A$ such that $p\\ne q$, there is an $r\\in A$ such\n    that $(p,r,q)\\in B$.\n\n-   if $(p,q,r)\\in B$, then $(q,p,r)\\notin B$.\n\nRemarks\n=======\n\n-   A very simple example of a strict betweenness relation is the empty\n    set. In $\\varnothing$, all the conditions are vacuously satisfied.\n    The empty set, in this context, is called the trivial strict\n    betweenness relation.\n\n-   Any strict betweenness relation can be enlarged to a betweenness\n    relation by including all triples of the forms $(p,p,q),(p,q,p),$ or\n    $(p,q,q)$.\n\n-   Conversely, any betweenness relation can be reduced to a strict\n    betweenness relation by removing all triples of the forms just\n    listed. However, it is possible that the \u201cderived\u201d strict\n    betweenness relation is trivial.\n\n-   From axiom $O2^{\\prime}$ we have $(p,p,p) \\notin B.$",
+  "language": "INFORMAL",
+  "phrase": "Strict Betweenness Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StrictBetweennessRelation"
+    }
+  ],
+  "indexable": true
+}

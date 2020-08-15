@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *midpoint rule* for computing the Riemann integral\n$\\displaystyle \\int\\limits_a^b f(x) \\, dx$ is\n$$\\int\\limits_a^b f(x) \\, dx = \\lim_{n \\to \\infty} \\sum_{j=1}^n f \\left( a + \\left( j-\\frac{1}{2} \\right) \\left( \\frac{b-a}{n} \\right) \\right) \\left( \\frac{b-a}{n} \\right).$$\n\nIf the Riemann integral is considered as a measure of area under a\ncurve, then the expressions\n$\\displaystyle f \\left( a + \\left( j-\\frac{1}{2} \\right) \\left( \\frac{b-a}{n} \\right) \\right)$\nthe of the rectangles, and $\\displaystyle \\frac{b-a}{n}$ is the common\nof the rectangles.\n\nThe Riemann integral can be approximated by using a definite value for\n$n$ rather than taking a limit. In this case, the partition is\n$\\displaystyle \\left\\{ \\left[ a, a+\\frac{b-a}{n} \\right) , \\dots , \\left[ a+\\frac{(b-a)(n-1)}{n}, b \\right] \\right\\}$,\nand the function is evaluated at the midpoints of each of these\nintervals. Note that this is a special case of a Riemann sum in which\nthe $x_j$\u2019s are evenly spaced and the $c_j$\u2019s chosen are the midpoints.\n\nIf $f$ is Riemann integrable on $[a,b]$ such that $|f''(x)| \\le M$ for\nevery $x \\in [a,b]$, then\n$$\\left| \\int\\limits_a^b f(x) \\, dx - \\sum_{j=1}^n f \\left( a + \\left( j-\\frac{1}{2} \\right) \\left( \\frac{b-a}{n} \\right) \\right) \\left( \\frac{b-a}{n} \\right) \\right| \\le \\frac{M(b-a)^3}{24n^2}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MidpointRule"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "midpoint rule"
+  ]
+}

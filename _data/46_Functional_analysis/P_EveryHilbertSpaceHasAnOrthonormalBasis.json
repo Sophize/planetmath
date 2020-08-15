@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Every Hilbert space $H \\neq \\{0\\}$ has an orthonormal\nbasis.\n\n$\\,$\n\n[***Proof :***]{} As could be expected, the proof makes use of Zorn\u2019s\nLemma. Let $\\mathcal{O}$ be the set of all orthonormal sets of $H$. It\nis clear that $\\mathcal{O}$ is non-empty since the set $\\{x\\}$ is in\n$\\mathcal{O}$, where $x$ is an element of $H$ such that $\\|x\\| = 1$.\n\nThe elements of $\\mathcal{O}$ can be ordered by inclusion, and each\nchain $\\mathcal{C}$ in $\\mathcal{O}$ has an upper bound, given by the\nunion of all elements of $\\mathcal{C}$. Thus, Zorn\u2019s Lemma assures the\nexistence of a maximal element $B$ in $\\mathcal{O}$. We claim that $B$\nis an orthonormal basis of $H$.\n\nIt is clear that $B$ is an orthonormal set, as it belongs to\n$\\mathcal{O}$. It remains to see that the linear span of $B$ is dense in\n$H$.\n\nLet $\\overline{\\mathrm{span}\\,B}$ denote the closure of the span of $B$.\nSuppose $\\overline{\\mathrm{span}\\,B} \\neq H$. By the orthogonal\ndecomposition theorem we know that\n$$H = \\overline{\\mathrm{span}\\,B} \\oplus (\\overline{\\mathrm{span}\\,B})^{\\perp}$$\nThus, we conclude that\n$(\\overline{\\mathrm{span}\\,B})^{\\perp} \\neq \\{0\\}$, i.e. there are\nelements which are to $\\overline{\\mathrm{span}\\,B}$. This contradicts\nthe maximality of $B$ since, by picking an element\n$y \\in (\\overline{\\mathrm{span}\\,B})^{\\perp}$ with $\\|y\\| = 1$,\n$B \\cup \\{y\\}$ would belong belong to $\\mathcal{O}$ and would be greater\nthan $B$.\n\nHence, $\\overline{\\mathrm{span}\\,B} = H$, and this finishes the proof.\n$\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryHilbertSpaceHasAnOrthonormalBasis"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every Hilbert space has an orthonormal basis"
+  ]
+}

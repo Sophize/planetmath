@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *ordered ring* is a commutative ring $R$ with a total ordering $\\leq$\nsuch that, for every $a,b,c \\in R$:\n\n1.  If $a \\leq b$, then $a+c \\leq b+c$\n\n2.  If $a \\leq b$ and $0 \\leq c$, then $c \\cdot a \\leq c \\cdot b$\n\nAn *ordered field* is an ordered ring $(R,\\leq)$ where $R$ is also a\nfield.\n\nExamples of ordered rings include:\n\n-   The integers $\\mathbb{Z}$, under the standard ordering $\\leq$.\n\n-   The real numbers $\\mathbb{R}$ under the standard ordering.\n\n-   The polynomial ring $\\mathbb{R}[x]$ in one variable over\n    $\\mathbb{R}$, under the relation $f \\leq g$ if and only if $g-f$ has\n    nonnegative leading coefficient.\n\nExamples of rings which do not admit any ordering relation making them\ninto an ordered ring include:\n\n-   The complex numbers $\\mathbb{C}$.\n\n-   The finite field $\\mathbb{Z}/p\\mathbb{Z}$, where $p$ is any prime.",
+  "language": "INFORMAL",
+  "phrase": "Ordered Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderedRing"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\Omega\\subset {\\mathbf R}^n$ be a bounded open set with $C^1$\nboundary, let $\\nu_\\Omega\\colon \\partial \\Omega\\to {\\mathbf R}^n$ be the\nexterior unit normal vector to $\\Omega$ in the point $x$ and let\n$f\\colon \\overline{\\Omega}\\to {\\mathbf R}^n$ be a vector function in\n$C^0(\\overline\\Omega,{\\mathbf R}^n)\\cap C^1(\\Omega,{\\mathbf R}^n)$. Then\n$$\\int_\\Omega \\mathrm{div} f(x)\\, dx \n   =\\int_{\\partial \\Omega} \\langle f(x),\\nu_\\Omega(x)\\rangle \\, d\\sigma(x).$$\n\nSome remarks on notation. The operator $\\mathrm{div} f$ is the\ndivergence of the vector field $f$, which is sometimes written as\n$\\nabla \\cdot f$. In the right-hand side we have a surface integral,\n$d\\sigma$ is the corresponding area measure on $\\partial \\Omega$. The\nscalar product in the second integral is sometimes written as $f_n(x)$\nand represents the *normal component* of $f$ with respect to\n$\\partial \\Omega$; hence the whole integral represents the *flux* of the\nvector field $f$ through $\\partial \\Omega$;\n\nThis theorem can be easily extended to *piecewise* regular domains.\nHowever the more general statement of this Theorem involves the theory\nof *perimeters* and $BV$ functions.\n\nLet $E\\subset {\\mathbf R}^n$ be any measurable set. Then\n$$\\int_E \\mathrm{div} f(x)\\, dx\n  = \\int_{\\partial^* E} \\langle \\nu_E(x),f(x)\\rangle \\,d\\mathcal H^{n-1}(x)$$\nholds for every continuously differentiable function\n$f\\colon {\\mathbf R}^n\\to{\\mathbf R}^n$ with compact support\n(i.e.\u00a0$f\\in\\mathcal C^1_c({\\mathbf R}^n,{\\mathbf R}^n)$) where\n\n-   $\\partial^* E$ is the *essential boundary* of $E$ which is a subset\n    of the topological boundary $\\partial E$;\n\n-   $\\nu_E(x)$ is the exterior normal vector to $E$, which is defined\n    when $x\\in\\mathcal F E$;\n\n-   $\\mathcal H^{n-1}$ is the $(n-1)$-dimensional Hausdorff measure.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaussGreenTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gauss Green theorem",
+    "divergence theorem"
+  ]
+}

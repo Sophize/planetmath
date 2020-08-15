@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "tridiagonal"
+  ],
+  "definition": "An $n \\times n$ *tridiagonal* matrix is of the form\n\n$$\\begin{bmatrix}\nd_1 & u_1 & 0 & 0 & \\cdots & 0 \\\\ \nl_1 & d_2 & u_2 & 0 & \\cdots & 0 \\\\\n 0  & l_2 & d_3 & u_3 & \\cdots & 0 \\\\\n\\vdots & \\vdots & \\ddots & \\ddots & \\ddots & \\vdots \\\\ \n 0  & 0 & \\cdots &  l_{n-2} & d_{n-1} & u_{n-1} \\\\ \n 0  & 0 & \\cdots & 0 & l_{n-1} & d_{n}\n\\end{bmatrix}$$",
+  "language": "INFORMAL",
+  "phrase": "Tridiagonal Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TridiagonalMatrix"
+    }
+  ],
+  "indexable": true
+}

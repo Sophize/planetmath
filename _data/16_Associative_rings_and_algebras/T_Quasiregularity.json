@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "quasi regular",
+    "quasi regularity"
+  ],
+  "definition": "An element $x$ of a ring is called *right quasi-regular* \\[resp. *left\nquasi-regular*\\] if there is an element $y$ in the ring such that\n$x + y + xy = 0$ \\[resp. $x + y + yx = 0$\\].\n\nFor calculations with quasi-regularity, it is useful to introduce the\noperation $*$ defined: $$x * y = x + y + xy .$$ Thus $x$ is right\nquasi-regular if there is an element $y$ such that $x * y = 0$. The\noperation $*$ is easily demonstrated to be associative, and\n$x * 0 = 0 * x = x$ for all $x$.\n\nAn element $x$ is called *quasi-regular* if it is both left and right\nquasi-regular. In this case, there are elements $y$ and $z$ such that\n$x + y + xy = 0 = x + z + zx$ (equivalently, $x * y = z * x = 0$). A\ncalculation shows that $$y = 0 * y = (z * x) * y = z * (x * y) = z.$$ So\n$y = z$ is a unique element, depending on $x$, called the\n*quasi-inverse* of $x$.\n\nAn ideal (one- or two-sided) of a ring is called *quasi-regular* if each\nof its elements is quasi-regular. Similarly, a ring is called\n*quasi-regular* if each of its elements is quasi-regular (such rings\ncannot have an identity element).\n\nLet $A$ be an ideal (one- or two-sided) in a ring $R$. If each element\nof $A$ is right quasi-regular, then $A$ is a quasi-regular ideal.\n\nThis lemma means that there is no extra generality gained in defining\nterms such as right quasi-regular left ideal, etc.\n\nQuasi-regularity is important because it provides elementary\ncharacterizations of the Jacobson radical for rings without an identity\nelement:\n\n-   The Jacobson radical of a ring is the sum of all quasi-regular left\n    (or right) ideals.\n\n-   The Jacobson radical of a ring is the largest quasi-regular ideal of\n    the ring.\n\nFor rings with an identity element, note that $x$ is \\[right, left\\]\nquasi-regular if and only if $1 + x$ is \\[right, left\\] invertible in\nthe ring.",
+  "language": "INFORMAL",
+  "phrase": "Quasi-Regularity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Quasiregularity"
+    }
+  ],
+  "indexable": true
+}

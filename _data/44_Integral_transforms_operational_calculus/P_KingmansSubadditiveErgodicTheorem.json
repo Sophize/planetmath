@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(M,\\mathcal{A},\\mu)$ be a probability space, and $f:M\\rightarrow M$\nbe a measure preserving dynamical system. let\n$\\phi_n:M\\rightarrow \\textbf{R}$, $n\\geq 1$ be a subadditive sequence of\nmeasurable functions, such that $\\phi_1^+$ is integrable, where\n$\\phi_1^+=\\max \\{\\phi,0\\}$. Then, the sequence $(\\frac{\\phi_n}{n})_n$\nconverges $\\mu$ almost everywhere to a function\n$\\phi: M \\rightarrow [-\\infty,\\infty)$ such that:\n\n-   $\\phi^+$ is integrable\n\n-   $\\phi$ is $f$ invariant, that is, $\\phi(f(x))=\\phi(x)$ for $\\mu$\n    almost all $x$, and\n\n-   $$\\int \\phi d\\mu = \\lim_n \\frac{1}{n} \\int \\phi_n d\\mu= \\inf_n \\frac{1}{n} \\int \\phi_n d\\mu \\in [-\\infty,\\infty)$$\n\nThe fact that the limit equals the infimum is a consequence of the fact\nthat the sequence $\\int \\phi_n d\\mu$ is a subadditive sequence and\nFekete\u2019s subadditive lemma.\n\nA superadditive version of the theorem also exists. Given a\nsuperadditive sequence $\\varphi_n$, then the symmetric sequence is\nsubadditive and we may apply the original version of the theorem.\n\nEvery additive sequence is subadditive. As a consequence, one can prove\nthe Birkhoff ergodic theorem from Kingman\u2019s subadditive ergodic theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KingmansSubadditiveErgodicTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kingman's subadditive ergodic theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Maxwell\u2019s equations are a set of four partial differential equations\nfirst combined by James Clerk Maxwell. They may also be written as\nintegral equations. Two other important equations, the electromagnetic\nwave equation and the equation of conservation of charge, may be derived\nfrom them.\n\nNotation\n--------\n\nAs this article considers merely the mathematical aspects of the\nequations, natural units have been used throughout. For their use in\nphysics see any classical electromagnetism textbook.\n$$\\mathbf{E} = \\mbox{Electric field strength}$$\n$$\\mathbf{B} = \\mbox{Magnetic flux density}$$\n\nGauss\u2019 Law of Electrostatics\n----------------------------\n\n$$\\nabla \\cdot \\mathbf{E} = 0$$\n$$\\oint_S  \\mathbf{E} \\cdot \\mathrm{d}\\mathbf{S} = 0$$\n\nGauss\u2019 Law of Magnetostatics\n----------------------------\n\n$$\\nabla \\cdot \\mathbf{B} = 0$$\n$$\\oint_S \\mathbf{B} \\cdot \\mathrm{d}\\mathbf{S} = 0$$\n\nFaraday\u2019s Law\n-------------\n\nDifferential form\n$$\\nabla \\times \\mathbf{E} = -\\frac{ \\partial \\mathbf{B}}{\\partial t}$$\nIntegral form\n$$\\oint_{C} \\mathbf{E} \\cdot \\mathrm{d}\\mathbf{l} = -  \\frac{\\mathrm{d}}{\\mathrm{d} t} \\left( \\int_{S} \\mathbf{B} \\cdot \\mathrm{d}\\mathbf{S} \\right)$$\n\nAmp\u00e8re\u2019s Law\n------------\n\nDifferential form\n$$\\nabla \\times \\mathbf{B} = \\frac{ \\partial \\mathbf{E}}{\\partial t}$$\nIntegral form\n$$\\oint_C \\mathbf{B} \\cdot \\mathrm{d}\\mathbf{l} = \\int_S \\frac{\\partial \\mathbf{E}}{\\partial t} \\cdot \\mathrm{d} \\mathbf{S}$$\n\nProperties of Maxwell\u2019s Equations\n---------------------------------\n\nThese four equations together have several interesting properties:\n\n-   Lorentz invariance\n\n-   The fields $\\mathbf{E}$ and $\\mathbf{B}$ may be Helmholtz decomposed\n    into irrotational and solenoidal potentials. A gauge transformation\n    in these variables does not affect the values of the fields.",
+  "language": "INFORMAL",
+  "phrase": "Maxwell'S Equations",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MaxwellsEquations"
+    }
+  ],
+  "indexable": true
+}

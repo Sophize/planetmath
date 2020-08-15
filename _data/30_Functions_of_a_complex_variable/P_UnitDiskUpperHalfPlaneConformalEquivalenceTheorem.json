@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "There is a conformal map from $\\Delta$, the unit disk, to $UHP$, the\nupper half plane.\n\nDefine $f \\colon \\hat{{\\mathbb C}} \\to \\hat{{\\mathbb C}}$ (where\n$\\hat{{\\mathbb C}}$ denotes the Riemann Sphere) to be\n$f(z) = \\displaystyle{\\frac{z-i}{z+i}}$. Notice that\n$f^{-1}(w)= \\displaystyle{i \\frac{1+w}{1-w}}$ and that $f$ (and\ntherefore $f^{-1}$) is a Mobius transformation.\n\nNotice that $f(0)=-1$, $f(1)=\\displaystyle{\\frac{1-i}{1+i}} = -i$ and\n$f(-1) = \\displaystyle{\\frac{-1-i}{-1+i}} = i$. By the Mobius Circle\nTransformation Theorem, $f$ takes the real axis to the unit circle.\nSince $f(i)=0$, $f$ maps $UHP$ to $\\Delta$ and $f^{-1}:\\Delta \\to UHP$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnitDiskUpperHalfPlaneConformalEquivalenceTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "unit disk upper half plane conformal equivalence theorem"
+  ]
+}

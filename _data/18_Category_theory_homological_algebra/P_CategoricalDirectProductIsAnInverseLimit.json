@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The categorical direct product can be realized as an example of an\ninverse limit.\n\nSuppose we have a direct product of $\\{C_i\\}_{i\\in I}$ for some\n(${\\mathscr{U}}$) set $I$. Consider $I$ as a category whose arrows are\nonly the identity arrows. Then we can define a functor $G$ by\n$G(i)=C_i$. It is then clear that the universal property of an inverse\nlimit is equivalent to the universal property defining a categorical\ndirect product.\n\nReversing the arrows, it is also clear that the categorical direct sum\nis an example of a direct limit.\n\nThese results are of interest when one is looking to prove exactness of\nsums and products in a category: often it is easier to address exactness\nof direct and inverse limits, and the result then applies to many other\nconstructions as well.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CategoricalDirectProductIsAnInverseLimit"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "categorical direct product is an inverse limit"
+  ]
+}

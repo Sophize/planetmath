@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For $s\\in\\mathbb{C}$, the *Dirichlet eta function* is defined as\n\n$$\\eta(s) := \\sum_{n=1}^{\\infty} \\frac{\\left( -1 \\right)^{n-1}}{n^{s}}\\,.$$\n\nLet $s=\\sigma + it$. For $s$ a positive real number the series converges\nby the alternating series test, by the second listed in the entry on\nDirichlet series it converges for all $s$ with $\\sigma > 0$.\n\nIt can be shown that $\\eta(s) = (1-2^{1-s})\\zeta(s)$, where $\\zeta(s)$\nis the Riemann zeta function. The pole of $\\zeta(s)$ at $s=1$ is\ncancelled by the zero of $1-2^{1-s}$.",
+  "language": "INFORMAL",
+  "phrase": "Dirichlet Eta Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirichletEtaFunction"
+    }
+  ],
+  "indexable": true
+}

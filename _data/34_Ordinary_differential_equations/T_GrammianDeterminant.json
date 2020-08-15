@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The Grammian determinant provides a necessary and sufficient method of\ndetermining whether a set of continuous functions\n${f_1, f_2, \\dotsc, f_n}$ is linearly independent on an interval\n$I = [a, b]$ with respect to the inner product\n$$\\langle f_i | f_j\\rangle = \\int_I f_if_j$$ It is defined as:\n$$G(f_1, f_2, \\dotsc, f_n) = \\left\\lvert\\begin{array}{@{}cccc@{}}\n\\int_I (f_1)^2 & \\int_I f_1f_2 & \\cdots & \\int_I f_1f_n\\\\\n\\int_I f_2f_1 & \\int_I (f_2)^2 & \\cdots & \\int_I f_2f_n\\\\\n\\vdots & \\vdots & \\ddots & \\vdots\\\\\n\\int_I f_nf_1 & \\int_I f_nf_2 & \\cdots & \\int_I (f_n)^2\\\\\n\\end{array}\\right\\rvert$$ If the functions are continuous on $I$, then\n$G = 0$ if and only if the set of functions is linearly dependent. Note\nthat the Grammian determinant is a special case of the more general Gram\ndeterminant.",
+  "language": "INFORMAL",
+  "phrase": "Grammian Determinant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GrammianDeterminant"
+    }
+  ],
+  "indexable": true
+}

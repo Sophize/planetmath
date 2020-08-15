@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "parallel edge"
+  ],
+  "definition": "A *multigraph* is a graph in which we allow more than one edge to join a\npair of vertices. Two or more edges that join a pair of vertices are\ncalled *parallel edges*. Every graph, then, is a multigraph, but not all\nmultigraphs are graphs. Some authors define the concept of a graph by\nexcluding graphs with multiple edges or loops. Then if they want to\nconsider more general graphs the multigraph is introduced. Usually, such\ngraphs have no loops. Formally, a multigraph $G=(V,  E)$ is a pair,\nwhere $E=(V^{(2)}, f)$ is a multiset for which $f(x,x) = 0$ and\n$V^{(2)}$ is the set of unordered pairs of $V$.\n\nA multigraph can be used to a matrix whose entries are nonnegative\nintegers. To do this, suppose that $A=(a_{ij})$ is an $m\\times n$ matrix\nof nonnegative integers. Let $V=S \\cup T$, where $S=\\{1, \\ldots , m\\}$\nand $T =\\{1', \\ldots , n'\\}$ and connect vertex $i\\in S$ to vertex\n$j'\\in T$ with $a_{ij}$ edges.",
+  "language": "INFORMAL",
+  "phrase": "Multigraph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Multigraph"
+    }
+  ],
+  "indexable": true
+}

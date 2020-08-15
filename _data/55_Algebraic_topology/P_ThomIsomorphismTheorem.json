@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\xi\\to X$ be a $d$-dimensional vector bundle over a topological\nspace $X$, and let $h^*$ be a multiplicative generalized cohomology\ntheory, such as ordinary cohomology. Let $\\tau\\in h^d(D(\\xi),S(\\xi))$ be\na Thom class for $\\xi$, where $D(\\xi)$ and $S(\\xi)$ are the associated\ndisk and sphere bundles of $\\xi$.\n\nSince $h^*$ is a multiplicative theory, there is a generalized cup\nproduct map\n$$h^*(D(\\xi)){\\otimes}_{h^*}h^*(D(\\xi),S(\\xi))\\to h^*(D(\\xi),S(\\xi)),$$\nwhere the tensor product is over the coefficient ring\n$h^*({\\mathrm{pt}})$ of the theory. Using the isomorphism\n$p^*:h^*(X){\\cong}h^*(D(\\xi))$ induced by the homotopy equivalence\n$p:D(\\xi)\\to X$, we obtain a homomorphism\n$$T: h^n(X)\\to h^{n+d}(D(\\xi),S(\\xi)){\\cong}{\\tilde{h}}^{n+d}(X^\\xi)$$\ntaking $\\alpha$ to $p^*(\\alpha)\\cdot\\tau$. Here $X^\\xi$ stands for the\nThom space $D(\\xi)/S(\\xi)$ of $\\xi$.\n\n**Thom isomorphism theorem**$T$ is an isomorphism\n$h^*(X){\\cong}{\\tilde{h}}^{*+d}(X^\\xi)$ of graded modules over\n$h^*({\\mathrm{pt}})$.\n\nWhen $\\xi$ is a trivial bundle of dimension $1$, this generalizes the\nsuspension isomorphism. In fact, a typical proof of this theorem for\ncompact $X$ proceeds by induction over the number of open sets in a\ntrivialization of $\\xi$, using the suspension isomorphism as the base\ncase and the Mayer-Vietoris sequence to carry out the inductive step.\n\nThere is also a homology Thom isomorphism\n${\\tilde{h}}_{*+d}(X^\\xi){\\cong}h_*(X)$, in which the map is given by\ncap product with the Thom class rather than cup product.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThomIsomorphismTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Thom isomorphism theorem"
+  ]
+}

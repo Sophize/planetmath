@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Loosely speaking, a mean is a way to describe a collection of numbers\nsuch that the mean in some sense describe the \u201caverage\u201d entry of these\nnumbers. The most familiar mean is the arithmetic mean, and unless\notherwise noted, by mean, we always mean the arithmetic mean.\n\n### Example {#example .unnumbered}\n\nThe mean of the numbers $\\{1,\\,2,\\,\\ldots,\\,n\\}$ is $\\frac{n+1}{2}$.\n\nMathematically, we define a mean as follows:\n\n### Definition {#definition .unnumbered}\n\nA *mean* is a function $f$ whose domain is the collection of all finite\nmultisets of $\\mathbb{R}$ and whose codomain is $\\mathbb{R}$, such that\n\n-   $f$ is a homogeneous function of degree 1. That is, if\n    $\\{x_1, \\ldots, x_n\\}$ is a multiset, then\n    $$f(\\{ \\lambda x_1, \\ldots, \\lambda x_n\\}) = \\lambda f(\\{x_1, \\ldots, x_n\\}),\\quad \\lambda\\ge 0.$$\n\n-   For any set $S = \\{x_1,\\ldots,x_n\\}$ of real numbers,\n    $$\\min\\{x_1,\\ldots,x_n\\} \\leq f(S) \\leq \\max\\{x_1,\\ldots,x_n\\}.$$\n\nPythagoras identified three types of means: the , the geometric mean,\nand the harmonic mean. However, in the sense of the above definition,\nthere is a wealth of ther means too. For instance, the minimum function\nand maximum functions can be seen as \u201ctrivial\u201d means. Other well-known\nmeans include:\n\n-   median,\n\n-   mode,\n\n-   generalized mean\n\n-   power mean\n\n-   Lehmer mean\n\n-   arithmetic-geometric mean,\n\n-   arithmetic-harmonic mean,\n\n-   harmonic-geometric mean,\n\n-   root-mean-square (sometimes called the quadratic mean),\n\n-   identric mean,\n\n-   contraharmonic mean,\n\n-   Heronian mean,\n\n-   Cesaro mean,\n\n-",
+  "language": "INFORMAL",
+  "phrase": "Mean",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Mean"
+    }
+  ],
+  "indexable": true
+}

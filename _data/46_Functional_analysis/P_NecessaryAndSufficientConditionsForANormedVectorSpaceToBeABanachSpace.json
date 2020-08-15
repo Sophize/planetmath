@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem 1 -**]{} Let $(X,\\| \\cdot \\|)$ be a normed vector space. $X$\nis a Banach space if and only if every absolutely convergent series in\n$X$ is convergent, i.e., whenever $\\sum_n \\|x_n\\| < \\infty,$\n$\\sum_n x_n$ converges in $X$.\n\n[**Theorem 2 -**]{} Let $X, Y$ be normed vector spaces, $X \\ne 0$. Let\n$B(X,Y)$ be the space of bounded operators $X \\longrightarrow Y$. Then\n$Y$ is a Banach space if and only if $B(X,Y)$ is a Banach space.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NecessaryAndSufficientConditionsForANormedVectorSpaceToBeABanachSpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "necessary and sufficient conditions for a normed vector space to be a Banach space"
+  ]
+}

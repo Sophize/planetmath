@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "We obtain a single equation to parametrization of phase\u2019s angle $p$ for\nthe periodic cosine function when the typical condition\n$\\cos(x+p)=cos x$ is satisfied. Without losing generality, we will\nrestrict the discussion to the case $0\\leq x \\leq 2\\pi$. We starting\nsetting $\\cos x=t$, so that $-1\\leq t\\leq 1$ is the interval of\ndefinition for the real parameter $t$. Next we expand out\n$$\\cos(x+p)=\\cos x\\cos p-\\sin x\\sin p,$$ where we introduce $t$ and\napply the assumed condition to get $$t\\cos p-\\sqrt{1-t^2}\\sin p=t.$$\nThis leads to a quadratic equation in $\\cos p$ on terms of parameter\n$t$, i.e. $$\\cos^2p(t)-2t^2\\cos p(t)+(2t^2-1)=0.$$ Solving,\n$$\\cos p(t)=t^2\\pm (t^2-1).$$ One root has to do with the trivial\n$\\cos(x+2\\pi)=\\cos x$, but we are interested on the nontrivial one\n$$\\cos p(t)=2t^2-1, \\qquad -1<t<1.$$ Locus of (1) is the below shown\nparabola.\\\n\\\n\n(-2.5,-2)(2.5,5) (0,0)(-2.2,-1.5)(2.3,2.5) (2.3,-0.2)[$t$]{}\n(0.2,2.6)[$y$]{} (1.1,1.3)[$y = 2t^2-1$]{} (-0.707,0) (0.707,0) (-1,1)\n(1,1)\n\nInverse function of (1) is the wanted parametrization $p(t)$, with\ncodomain $[0,\\pi]$ and locus the *\u201carabian dome\u201d* below shown.[[^1]]{}\\\n\\\n\n(-2.5,-2)(2.5,4) (0,0)(-2.2,-1.5)(2.3,3.7) (2.3,-0.2)[$t$]{}\n(0.2,3.75)[$p$]{} (1.8,2.2)[$p = \\arccos(2t^2-1)$]{}\n\n[^1]: Graphics by *pahio*, with permission.",
+  "language": "INFORMAL",
+  "phrase": "Phase Parametrization In $\\Cos(X+P)=\\Cos X$",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PhaseParametrizationIncosxpcosX"
+    }
+  ],
+  "indexable": true
+}

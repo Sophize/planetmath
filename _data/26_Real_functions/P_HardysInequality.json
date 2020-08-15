@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $p>1$ and $\\{a_n\\}$ is a sequence of nonnegative real numbers.\nLet $A_n = \\sum_{i=1}^n a_i$. Then\n$$\\sum_{n \\ge 1}\\left ( \\frac{A_n}{n}\\right )^p < \\left ( \\frac{p}{p-1} \\right ) ^p \\sum_{n \\ge 1} {a_n}^p,$$\nunless all the $a_n$ are zero. The constant is best possible.\n\nThis theorem has an integral analogue: Suppose that $p > 1$ and\n$f \\ge 0$ on $(0, \\infty)$. Let $F(x) = \\int_0^x f(t)dt$. Then\n$$\\int_0^{\\infty} \\left ( \\frac{F}{x} \\right)^p dx < \\left ( \\frac{p}{p-1} \\right )^p \\int_0^{\\infty} f^p(x)dx,$$\nunless $f \\equiv 0$. The constant is best possible.\n\n[99]{}\n\nG.H. Hardy, J.E. Littlewood and G.P[\u00f3]{}lya, *Inequalities*, Cambridge\nUniversity Press, Cambridge, 2nd edition, 1952, pp. 239-240.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HardysInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hardy's inequality"
+  ]
+}

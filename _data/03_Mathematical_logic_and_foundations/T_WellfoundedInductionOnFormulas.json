@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $L$ be a first-order language. The formulas of $L$ are built by a\nfinite application of the rules of construction. This says that the\nrelation $\\leq$ defined on formulas by $\\varphi\\leq\\psi$ if and only if\n$\\varphi$ is a subformula of $\\psi$ is a well-founded relation.\nTherefore, we can formulate a principle of induction for formulas as\nfollows : suppose $P$ is a property defined on formulas, then $P$ is\ntrue for every formula of $L$ if and only if\n\n1.  $P$ is true for the atomic formulas;\n\n2.  for every formula $\\varphi$, if $P$ is true for every subformula of\n    $\\varphi$, then $P$ is true for $\\varphi$.",
+  "language": "INFORMAL",
+  "phrase": "Well-Founded Induction On Formulas",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WellfoundedInductionOnFormulas"
+    }
+  ],
+  "indexable": true
+}

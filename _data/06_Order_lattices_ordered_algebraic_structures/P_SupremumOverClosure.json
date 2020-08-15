@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f \\colon \\mathbb{R} \\to \\mathbb{R}$ be a continuous function and\n$A \\subseteq \\mathbb{R}$. Then\n$\\displaystyle \\sup_{x \\in A} f(x)=\\sup_{x \\in \\overline{A}} f(x)$,\nwhere $\\overline{A}$ denotes the closure of $A$.\n\nThe theorem is clearly true for $A=\\emptyset$. Thus, it will be assumed\nthat $A \\neq \\emptyset$.\n\nSince $A \\subseteq \\overline{A}$, we have\n$\\displaystyle \\sup_{x \\in A} f(x) \\le \\sup_{x \\in \\overline{A}} f(x)$.\n\nSuppose first that\n$\\displaystyle \\sup_{x \\in \\overline{A}} f(x)=\\infty$. Let\n$r \\in \\mathbb{R}$. Then there exists $x_0 \\in \\overline{A}$ with\n$f(x_0) \\ge r+1$. Since $f$ is continuous, there exists $\\delta >0$ such\nthat, for any $x \\in \\mathbb{R}$ with $-\\delta<x-x_0<\\delta$, we have\n$-1<f(x)-f(x_0)<1$. Since $x_0 \\in \\overline{A}$, there exists\n$x_1 \\in A$ with $-\\delta <x_1-x_0<\\delta$. (Recall that\n$x \\in \\overline{A}$ if and only if every neighborhood of $x$ intersects\n$A$.) Thus, $f(x_1)-f(x_0)>-1$. Therefore,\n$f(x_1)>f(x_0)-1 \\ge r+1-1=r$. Hence,\n$\\displaystyle \\sup_{x \\in A} f(x)=\\infty$.\n\nNow suppose that $\\displaystyle \\sup_{x \\in \\overline{A}} f(x)=R$ for\nsome $R \\in \\mathbb{R}$. Let $\\varepsilon >0$. Then there exists\n$x_2 \\in \\overline{A}$ with $f(x_2) \\ge R-\\frac{\\varepsilon}{2}$. Since\n$f$ is continuous, there exists $\\delta '>0$ such that, for any\n$x \\in \\mathbb{R}$ with $-\\delta '<x-x_0<\\delta '$, we have\n$\\frac{-\\varepsilon}{2}<f(x)-f(x_2)<\\frac{\\varepsilon}{2}$. Since\n$x_2 \\in \\overline{A}$, there exists $x_3 \\in A$ with\n$-\\delta '<x_3-x_2<\\delta '$. Thus,\n$f(x_3)-f(x_2)>\\frac{-\\varepsilon}{2}$. Therefore,\n$f(x_3)>f(x_2)-\\frac{\\varepsilon}{2} \\ge R-\\frac{\\varepsilon}{2}-\\frac{\\varepsilon}{2}=R-\\varepsilon$.\nHence, $\\displaystyle \\sup_{x \\in A} f(x) \\ge R$.\n\nIn either case, it follows that\n$\\displaystyle \\sup_{x \\in A} f(x)=\\sup_{x \\in \\overline{A}} f(x)$.\n\nNote that this theorem also holds for continuous functions\n$f \\colon X \\to \\mathbb{R}$, where $X$ is an arbitrary topological\nspace. To prove this fact, one would need to slightly adjust the proof\nsupplied here.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SupremumOverClosure"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "supremum over closure"
+  ]
+}

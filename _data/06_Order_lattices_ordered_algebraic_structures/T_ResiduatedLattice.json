@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *residuated lattice* is a lattice $L$ with an additional binary\noperation $\\cdot$ called *multiplication*, with a multiplicative\nidentity $e\\in L$, such that\n\n-   $(L,\\cdot, e)$ is a monoid, and\n\n-   for each $x\\in L$, the left and right multiplications by $x$ are\n    residuated.\n\nThe second condition says: for every $x,z\\in L$, each of the sets\n$$L(x,z):=\\lbrace y \\in L \\mid x\\cdot y \\le z \\rbrace$$ and\n$$R(x,z):=\\lbrace y \\in L \\mid y\\cdot x \\le z\\rbrace$$ is a down set,\nand has a maximum.\n\nClearly, $\\max L(x,z)$ and $\\max R(x,z)$ are both unique. $\\max L(x,z)$\nis called the *right residual* of $z$ by $x$, and is commonly denoted by\n$x \\backslash z$, while $\\max R(x,z)$ is called the *left residual* of\n$z$ by $x$, denoted by $x/z$.\n\nResiduated lattices are mostly found in algebraic structures associated\nwith a variety of logical systems. For examples, Boolean algebras\nassociated with classical propositional logic, and more generally\nHeyting algebras associated with the intuitionistic propositional logic\nare both residuated, with multiplication the same as the lattice meet\noperation. MV-algebras and BL-algebras associated with many-valued\nlogics are further examples of residuated lattices.\n\n**Remark**. A residuated lattice is said to be *commutative* if $\\cdot$\nis commutative. All of the examples cited above are commutative.\n\n[6]{} T.S. Blyth, [*Lattices and Ordered Algebraic Structures*]{},\nSpringer, New York (2005) M. Bergmann, [*An Introduction to Many-Valued\nand Fuzzy Logic: Semantic, Algebras, and Derivation Systems*]{},\nCambridge University Press (2008) R. P. Dilworth, M. Ward [*Residuated\nLattices*]{}, Transaction of the American Mathematical Society 45,\npp.335-354 (1939)",
+  "language": "INFORMAL",
+  "phrase": "Residuated Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ResiduatedLattice"
+    }
+  ],
+  "indexable": true
+}

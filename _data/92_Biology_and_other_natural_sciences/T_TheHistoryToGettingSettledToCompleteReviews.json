@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Leslie model* is an approach to predicting the of an animal\npopulation after $t$ (discrete) of time. The population is split up into\na partition of age according to in fecundity and survival rates in each\n. The population data are then related with a *Leslie matrix*. The form\nof a Leslie matrix is as follows:\n\nGiven $n$ age for a population and $0 \\leq j \\leq n$, there is a\nfecundity rate $F_j$, which is the average number of offspring from a\nmember of $j$ who live long enough to enter the youngest age (zero of\ncourse) in a single unit of time, and a survival rate $S_j$, which is\nthe percentage of members in the $j$ who live to enter the $j+1$ in a\nsingle unit of time. These data are entered into a Leslie matrix like\nso:\n\n$$\\begin{bmatrix}\n  F_1 & F_2 & F_3 & F_4 \\\\\n  S_1 &  0  &  0  &  0  \\\\\n   0  & S_2 &  0  &  0  \\\\\n   0  &  0  & S_3 &  0  \\\\\n\\end{bmatrix}$$\n\nIn other , if $A$ is a Leslie matrix, then $a_{0j} = F_j$ for all\n$0 \\leq j \\leq n$ and $a_{(j+1)(j)} = S_j$ for all $0 \\leq j \\leq n-1$.\n\nGiven an initial population vector $v$ that gives the number of members\nin each , the Leslie model predicts that the number of members in each\nafter $t$ of time is $(A^{t})v$. The of time is customarily (but not\nnecessarily) years.\n\nNote that the Leslie can be thought of as to a Markov chain. The most\nimportant is that, since reproduction introduces new members into the\npopulation, the fecundity and survival rates in any given do not\nnecessarily add up to one. Also, unlike *most* Markov chains, the next\nstate for any member of the population is of course deterministic. [^1]\n\n[9]{}\n\n[^1]: A small in convention is that the Leslie matrix is usually to the\n    *left* of the initial population vector when the two are multiplied,\n    as compared to a Markov chain where the *initial distribution* is\n    usually to the left. This plays a role in the of the matrices in\n    either case.",
+  "language": "INFORMAL",
+  "phrase": "The History To Getting Settled To Complete Reviews",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheHistoryToGettingSettledToCompleteReviews"
+    }
+  ],
+  "indexable": true
+}

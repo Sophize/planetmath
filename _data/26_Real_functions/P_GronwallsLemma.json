@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If, for $t_0\\leq t\\leq t_1$, $\\phi(t)\\geq 0$ and $\\psi(t)\\geq 0$ are\ncontinuous functions such that the inequality\n$$\\phi(t)\\leq K+L\\int_{t_0}^t \\psi(s)\\phi(s)ds$$ holds on\n$t_0\\leq t\\leq t_1$, with $K$ and $L$ positive constants, then\n$$\\phi(t)\\leq K\\exp\\left(L\\int_{t_0}^t \\psi(s)ds\\right)$$ on\n$t_0\\leq t\\leq t_1$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GronwallsLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gronwall's lemma",
+    "Gronwall's inequality"
+  ]
+}

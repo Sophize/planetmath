@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "divisor product"
+  ],
+  "definition": "The product of all positive divisors of a nonzero integer $n$ is equal\n$\\sqrt{n^{\\tau(n)}}$, where tau function $\\tau(n)$ expresses the number\nof the positive divisors of $n$.\\\n*Proof.* Let $t = \\tau(n)$ and the positive divisors of $n$ be\n$a_1 < a_2 < \\ldots < a_t.$\n\nIf $n$ is not a square of an integer, $t$ is even (see ), whence\n$$\\begin{aligned}\n\\begin{cases}\n a_1a_t \\;=\\; n\\\\\n a_2a_{t-1} \\;=\\; n\\\\\n \\quad\\cdots\\\\\n a_{\\frac{t}{2}}a_{\\frac{t+2}{2}} \\;=\\; n.\n\\end{cases}\\end{aligned}$$ Thus\n$$\\prod_{d \\mid n}d \\;=\\; a_1a_2\\cdots a_t \\;=\\; n^{\\frac{t}{2}}.$$ If\n$n$ is a square of an integer, $t$ is odd, and we have $$\\begin{aligned}\n\\begin{cases}\n a_1a_t \\;=\\; n\\\\\n a_2a_{t-1} \\;=\\; n\\\\\n \\quad\\cdots\\\\\n a_{\\frac{t-1}{2}}a_{\\frac{t+3}{2}} \\;=\\; n\\\\\n \\;\\;a_{\\frac{t+1}{2}} \\;=\\; n^{\\frac{1}{2}}.\n\\end{cases}\\end{aligned}$$ In this case we obtain a result:\n$$\\prod_{d \\mid n}d \\;=\\; a_1a_2\\cdots a_t \\;=\\; n^{\\frac{t-1}{2}+\\frac{1}{2}} \\;=\\; n^{\\frac{t}{2}}$$\\\n**Note.** The absolute value of the product of all divisors is\n$n^{\\tau(n)}.$",
+  "language": "INFORMAL",
+  "phrase": "Product Of Divisors Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProductOfDivisorsFunction"
+    }
+  ],
+  "indexable": true
+}

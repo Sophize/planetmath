@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We give an example of a subset of the real numbers which is Lebesgue\nmeasurable, but not Borel measurable.\n\nLet $S$ consist of the set of all irrational real numbers with continued\nfraction of the form\n$$x=a_0+\\sfrac{1}{a_1+\\sfrac{1}{a_2+\\sfrac{1}{\\ddots}}}$$ such that\nthere exists an infinite sequence $0<i_1<i_2<\\cdots$ where each\n$a_{i_k}$ divides $a_{i_{k+1}}$. It can be shown that this set is\nLebesgue measurable, but not Borel measurable.\n\nIn fact, it can be shown that $S$ is an , meaning that it is the image\nof a continuous function $f\\colon X\\rightarrow\\mathbb{R}$ for some\nPolish space $X$ and, consequently, $S$ is a universally measurable set.\n\nThis example is due to Lusin (1927).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ALebesgueMeasurableButNonBorelSet"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a Lebesgue measurable but non-Borel set"
+  ]
+}

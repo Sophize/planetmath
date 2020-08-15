@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Hardy-Littlewood maximal operator* in $\\mathbb{R}^n$ is an operator\ndefined on $L^1_{\\textnormal{loc}}(\\mathbb{R}^n)$ (the space of locally\nintegrable functions in $\\mathbb{R}^n$ with the Lebesgue measure) which\nmaps each locally integrable function $f$ to another function $Mf$,\ndefined for each $x\\in \\mathbb{R}^n$ by\n$$Mf(x) = \\sup_Q \\frac{1}{m(Q)}\\int_Q |f(y)|dy,$$ where the supremum is\ntaken over all cubes $Q$ containing $x$. This function is lower\nsemicontinuous (and hence measurable), and it is called the\n*Hardy-Littlewood maximal function* of $f$.\n\nThe operator $M$ is sublinear, which means that\n$$M(af + bg) \\leq |a|Mf + |b|Mg$$ for each pair of locally integrable\nfunctions $f,g$ and scalars $a,b$.",
+  "language": "INFORMAL",
+  "phrase": "Hardy-Littlewood Maximal Operator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HardyLittlewoodMaximalOperator"
+    }
+  ],
+  "indexable": true
+}

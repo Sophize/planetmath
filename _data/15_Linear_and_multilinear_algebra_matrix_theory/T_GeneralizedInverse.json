@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be an $m\\times n$ matrix with entries in $\\mathbb{C}$. A\n*generalized inverse*, denoted by $A^{-}$, is an $n\\times m$ matrix with\nentries in $\\mathbb{C}$, such that $$AA^{-}A=A.$$\n\n**Examples**\n\n1.  Let $$A=\\begin{pmatrix} 2&3&0 \\\\ 1&2&0 \\\\ 0&0&0 \\end{pmatrix}.$$\n    Then any matrix of the form\n    $$A^{-}=\\begin{pmatrix} 2&-3&a \\\\ -1&2&b \\\\ c&d&e \\end{pmatrix},$$\n    where $a,b,c,d$ and $e\\in\\mathbb{C}$, is a generalized inverse.\n\n2.  Using the same example from above, if $a=b=c=d=e=0$, then we have an\n    example of the *Moore-Penrose generalized inverse*, which is a\n    unique matrix.\n\n3.  Again, using the example from above, if $a=b=c=d=0$ and $e$ is any\n    complex number, we have an example of a *Drazin inverse*.\n\n**Remark** Generalized inverse of a matrix has found many applications\nin statistics. For example, in general linear model, one solves the set\nof normal equations\n$$\\textbf{X}^{\\operatorname{T}}\\textbf{X}\\boldsymbol{\\beta}=\\textbf{X}^{\\operatorname{T}}\\textbf{Y},$$\nto get the MLE $\\hat{\\boldsymbol{\\beta}}$ of the parameter vector\n$\\boldsymbol{\\beta}$. If the design matrix $\\textbf{X}$ is not of full\nrank (this occurs often when the model is either an ANOVA or ANCOVA\ntype) and hence $\\textbf{X}^{\\operatorname{T}}\\textbf{X}$ is singular.\nThen the MLE can be given by\n$$\\hat{\\boldsymbol{\\beta}}=(\\textbf{X}^{\\operatorname{T}}\\textbf{X})^{-}\\textbf{X}^{\\operatorname{T}}\\textbf{Y}.$$",
+  "language": "INFORMAL",
+  "phrase": "Generalized Inverse",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedInverse"
+    }
+  ],
+  "indexable": true
+}

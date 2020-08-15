@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An element $a$ of a field $K$ is an [*integral element of the field*]{}\n$K$, iff $$|a| \\leq 1$$ for every non-archimedean valuation $|\\cdot|$ of\nthis field.\n\nThe set $\\mathcal{O}$ of all integral elements of $K$ is a subring (in\nfact, an integral domain) of $K$, because it is the intersection of all\nvaluation rings in $K$.\n\n**Examples**\n\n1.  $K = \\mathbb{Q}$. The only non-archimedean valuations of\n    $\\mathbb{Q}$ are the $p$-adic valuations $|\\cdot|_p$ (where $p$ is a\n    rational prime) and the trivial valuation (all values are 1 except\n    the value of 0). The valuation ring $\\mathcal{O}_p$ of $|\\cdot|_p$\n    consists of all so-called [*p-integral rational numbers*]{} whose\n    denominators are not divisible by $p$. The valuation ring of the\n    trivial valuation is, generally, the whole field. Thus,\n    $\\mathcal{O}$ is, by definition, the intersection of the\n    $\\mathcal{O}_p$\u2019s for all $p$; this is the set of rationals whose\n    denominators are not divisible by any prime, which is exactly the\n    set $\\mathbb{Z}$ of ordinary integers.\n\n2.  If $K$ is a finite field, it has only the trivial valuation. In\n    fact, if $|\\cdot|$ is a valuation and $a$ any non-zero element of\n    $K$, then there is a positive integer $m$ such that $a^m = 1$, and\n    we have $|a|^m = |a^m| = |1| = 1$, and therefore $|a| = 1$. Thus,\n    $|\\cdot|$ is trivial and $\\mathcal{O} = K$. This means that all\n    elements of the field are integral elements.\n\n3.  If $K$ is the field $\\mathbb{Q}_p$ of the , it has only one\n    non-trivial valuation, the $p$-adic valuation, and now the ring\n    $\\mathcal{O}$ is its valuation ring, which is the ring of ; this is\n    visualized in the 2-adic ([*dyadic*]{}) case in the article\n    \u201c$p$-adic canonical form\u201d.",
+  "language": "INFORMAL",
+  "phrase": "Integral Element",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralElement"
+    }
+  ],
+  "indexable": true
+}

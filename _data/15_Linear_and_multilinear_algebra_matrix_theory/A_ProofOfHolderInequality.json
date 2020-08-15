@@ -1,0 +1,17 @@
+{
+  "argumentText": "First we prove the more general form (in measure spaces).\n\nLet $(X,\\mu)$ be a measure space and let $f\\in L^p(X)$, $g\\in L^q(X)$\nwhere $p,q\\in [1,+\\infty]$ and $\\frac 1 p + \\frac 1 q = 1$.\n\nThe case $p=1$ and $q=\\infty$ is obvious since\n$$\\vert f(x) g(x)\\vert \\le \\Vert g\\Vert_{L^\\infty} \\vert f(x)\\vert.$$\nAlso if $f=0$ or $g=0$ the result is obvious. Otherwise notice that\n(applying ) we have\n$$\\frac{\\Vert fg\\Vert_1}{\\Vert f\\Vert_p\\cdot \\Vert g\\Vert_q}\n= \\int_X \\frac{\\vert f\\vert}{\\Vert f\\Vert_p} \\cdot\n  \\frac{\\vert g\\vert}{\\Vert g\\Vert_q} \\, d\\mu\n\\le \\frac 1 p \\int_X \\left(\\frac{\\vert f\\vert}{\\Vert f\\Vert_p}\\right)^p\\, d\\mu\n + \\frac 1 q \\int_X \\left(\\frac{\\vert g\\vert}{\\Vert g\\Vert_q}\\right)^q\\, d\\mu\n= \\frac 1 p + \\frac 1 q = 1$$ hence the desired inequality holds\n$$\\int_X \\vert f g\\vert = \\Vert fg\\Vert_1 \\le \\Vert f \\Vert_p \\cdot\n   \\Vert g\\Vert_q = \\left(\\int_X \\vert f\\vert^p\\right)^{\\frac 1 p}\n   \\left(\\int_X \\vert g\\vert ^q\\right)^{\\frac 1 q}.$$\n\nIf $x$ and $y$ are vectors in ${\\mathbb R}^n$ or vectors in $\\ell^p$ and\n$\\ell^q$-spaces we can specialize the previous result by choosing $\\mu$\nto be the counting measure on ${\\mathbb N}$.\n\nIn this case the proof can also be rewritten, without using measure\ntheory, as follows. If we define\n$$\\Vert x \\Vert_p = \\left(\\sum_k \\vert x_k\\vert^p\\right)^{\\frac 1 p}$$\nwe have\n$$\\frac{\\left\\vert \\sum_k x_k y_k \\right\\vert}{\\Vert x\\Vert_p \\cdot \\Vert y \\Vert_q}\n\\le \\frac{\\sum_k \\vert x_k\\vert \\vert y_k\\vert}{\\Vert x\\Vert_p\\cdot \\Vert y\\Vert_q}\n= \\sum_k \\frac{\\vert x_k\\vert}{\\Vert x\\Vert_p} \\frac{\\vert y_k\\vert}{\\Vert y\\Vert_q}\n\\le \\frac 1 p \\sum_k \\frac{\\vert x_k\\vert^p}{\\Vert x\\Vert_p^p} +\n \\frac 1 q \\sum_k \\frac{\\vert y_k\\vert^q}{\\Vert y\\Vert_q^q}\n= \\frac 1 p + \\frac 1 q = 1.$$",
+  "conclusion": "#P_HolderInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfHolderInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of H\\\"{o}lder inequality"
+  ]
+}

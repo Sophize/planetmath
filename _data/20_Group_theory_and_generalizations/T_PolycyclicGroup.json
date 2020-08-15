@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A group $G$ is said to be *polycyclic* if it has a subnormal series\n$$\\{1\\}=G_0\\normal G_1\\normal\\dots\\normal G_{n-1}\\normal G_n=G$$ such\nthat $G_{i+1}/G_i$ is cyclic for each $i=0,\\dots,n-1$. (Note that this\ndiffers from the definition of a supersolvable group in that it does not\nrequire each $G_i$ to be normal in $G$.) A subnormal series of this form\nis called a *polycyclic series*.\n\nPolycyclic groups are obviously solvable. In fact, the polycyclic groups\nare precisely those solvable groups that satisfy the maximal condition\n(that is, those solvable groups all of whose are finitely generated). In\nparticular, a finite group is polycyclic if and only if it is solvable.\n\nThe *Hirsch length* (or *Hirsch number*, named after ) of a polycyclic\ngroup $G$ is the number of infinite factors in a polycyclic series of\n$G$. This is independent of the choice of polycyclic series, as a\nconsequence of the Schreier Refinement Theorem. More generally, the\nHirsch length of a polycyclic-by-finite group $G$ is the Hirsch length\nof a polycyclic normal subgroup of finite index in $G$ (all such\nsubgroups having the same Hirsch length). J.\u00a0A.\u00a0Hillman[@hillman] has\nfurther extended the concept of Hirsch length to cover all elementary\namenable groups.\n\n[9]{} Jonathan A.\u00a0Hillman, , J.\u00a0Austral.\u00a0Math.\u00a0Soc.\u00a0(Series A) 50\n(1991), 160\u2013170. (This paper can be viewed .)",
+  "language": "INFORMAL",
+  "phrase": "Polycyclic Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolycyclicGroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Kolmogorov space",
+    "Kolmogoroff space"
+  ],
+  "definition": "A topological space $(X,\\tau)$ is said to be $T_0$ (or to satisfy the\n$T_0$ axiom ) if for all distinct $x,y\\in X$ there exists an open set\n$U\\in\\tau$ such that either $x\\in U$ and $y\\notin U$ or $x\\notin U$ and\n$y\\in U$.\n\nAll are $T_0$. An example of $T_0$ space that is not $T_1$ is the\n$2$-point Sierpinski space.",
+  "language": "INFORMAL",
+  "phrase": "T0 Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/T0Space"
+    }
+  ],
+  "indexable": true
+}

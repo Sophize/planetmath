@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "smallest spanning tree"
+  ],
+  "definition": "Given a graph $G$ with weighted edges, a *minimum spanning tree* is a\nspanning tree with minimum weight, where the weight of a spanning tree\nis the sum of the weights of its edges. There may be more than one\nminimum spanning tree for a graph, since it is the weight of the\nspanning tree that must be minimum.\n\nFor example, here is a graph $G$ of weighted edges and a minimum\nspanning tree $T$ for that graph. The edges of $T$ are drawn as solid\nlines, while edges in $G$ but not in $T$ are drawn as dotted lines.\n\n$$\\xymatrix{\n&&\\bullet\\ar@{-}[dll]|3\\ar@{-}[dd]|4\\ar@{.}[drr]|7 \\\\\n\\bullet\\ar@{.}[dd]|8\\ar@{.}[drr]|4&&&&\\bullet\\ar@{-}[dll]|2\\ar@{-}[dd]|5 \\\\\n&&\\bullet\\ar@{.}[dll]|5\\ar@{-}[dd]|3\\ar@{.}[drr]|7 \\\\\n\\bullet\\ar@{-}[drr]|2&&&&\\bullet\\ar@{.}[dll]|6 \\\\\n&&\\bullet\n}$$\n\nPrim\u2019s algorithm or Kruskal\u2019s algorithm can compute the minimum spanning\ntree of a graph.",
+  "language": "INFORMAL",
+  "phrase": "Minimum Spanning Tree",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinimumSpanningTree"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "dense functor",
+    "isomorphism-dense in",
+    "isomorphism-dense"
+  ],
+  "definition": "Let $\\mathcal{C}$ and $\\mathcal{D}$ be categories. A functor\n$F\\colon \\mathcal{C}\\to \\mathcal{D}$ is *essentially surjective* if for\nany object $A\\in\\mathcal{OB}(\\mathcal{D})$, there exists an object\n$X\\in\\mathcal{OB}(\\mathcal{C})$, such that $F(X)\\cong A$. That is, there\nare morphisms (in $D$) $f \\colon F(X)\\to A$ and $g\\colon A\\to F(X)$ such\nthat $fg=1_A$ and $gf=1_{F(X)}$.\n\n**Remarks.**\n\n-   Clearly, if $F$ is surjective, it is essentially surjective. But the\n    reverse is not true.\n\n-   A functor is an iff it is , and essentially surjective.\n\n-   **isomorphism-dense subcategory**. A full subcategory $\\mathcal{S}$\n    of a category $\\mathcal{C}$ is said to be *isomorphism-dense in*\n    $\\mathcal{C}$, if the inclusion functor\n    $\\mathcal{S}\\hookrightarrow \\mathcal{C}$ is essentially surjective.\n    Since $\\mathcal{S}$ is full, the inclusion functor is full and\n    faithful. As a result, $\\mathcal{S}$ is isomorphism-dense if the\n    inclusion functor is an equivalence.",
+  "language": "INFORMAL",
+  "phrase": "Essentially Surjective",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EssentiallySurjective"
+    }
+  ],
+  "indexable": true
+}

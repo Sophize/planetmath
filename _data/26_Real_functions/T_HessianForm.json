@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a smooth manifold $M$ and $f\\colon M\\to \\R$ being in $C^2(M)$, if\n$x$ is a critical point of $f$, that is $df = 0$ at $x$, then we can\ndefine a symmetric $2$-form $$H(u_x,v_x) = u(v(f)) = v(u(f)),$$ where\n$H\\in T^{*\\otimes2}$ and $u$ and $v$ are any vector fields that take the\nvalues $u_x$ and $v_x$, respectively, at point $x$. Equality of the two\ndefining expressions follows from the fact that $x$ is a critical point\nof $f$, because then $[u,v](f) = df([u,v]) = 0$, where $[u,v]$ denotes\nthe Lie bracket of the two vector fields. The form $H$ is called the\n*Hessian form*.\n\nIn local coordinates, the Hessian form is given by\n$$H = \\frac{\\del^2 f}{\\del x^i \\del x^j}\\, dx^i\\otimes dx^j.$$ Its\ncomponents are those of the Hessian matrix in the same coordinates. The\nadvantage of the above formulation is coordinate independence. However,\nthe price is that the Hessian form is only defined at critical points.\nIt does not define a tensor field as one would na\u00efvely expect.\n\nUsing the Hessian form, it is possible to analyze the critical points of\n$f$ (determine whether they are local minima, maxima, or saddle points)\nin a coordinate independent way.",
+  "language": "INFORMAL",
+  "phrase": "Hessian Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HessianForm"
+    }
+  ],
+  "indexable": true
+}

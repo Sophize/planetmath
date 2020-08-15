@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose that $(X,d)$ is a metric space. Let $f$ be a curve, so that\n$f: [0,1] \\to X$ is a continuous function, and let\n$0=t_0 < t_1 < \\cdots < t_n=1$ and $x_i = f(t_i)$ for $0 \\le i \\le n$.\nThe set $\\{x_0, x_1, \\ldots , x_n\\}$ is called a partition of the curve.\nThe *of the curve* is defined to be the supremum over all partitions of\nthe quantity $\\sum_{i=1}^n d(x_i , x_{i-1})$.",
+  "language": "INFORMAL",
+  "phrase": "Length Of Curve In A Metric Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LengthOfCurveInAMetricSpace"
+    }
+  ],
+  "indexable": true
+}

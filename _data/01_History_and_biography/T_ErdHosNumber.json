@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Erdos number",
+    "Erd\\\"os number"
+  ],
+  "definition": "The shortest number of collaborations with other mathematicians through\nwhich a particular mathematician can be connected to Paul Erd\u0151s is the\n[*Erd\u0151s number*]{} of that mathematician. For example, N. J. A. Sloane\ncoauthored [*Sphere Packings, Lattices and Groups*]{} with John Horton\nConway. In turn, Conway coauthored a paper with Erd\u0151s in 1979, thus\nSloane\u2019s Erd\u0151s number is 2. Since Erd\u0151s died in 1996, 2 is the lowest\nErd\u0151s number a mathematician working today can achieve.\n\nOne way to visualize the Erd\u0151s number is by drawing up a collaboration\ngraph $G$ whose vertex set consists of all persons, where two vertices\n$x$ and $y$ are connected by an edge if and only if $x$ and $y$ have a\njoint publication. Then the Erd\u0151s number of a person $x$ is the distance\nin $G$ (possibly infinity) of $x$ from Erd\u0151s.",
+  "language": "INFORMAL",
+  "phrase": "Erd\\H{O}S Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ErdHosNumber"
+    }
+  ],
+  "indexable": true
+}

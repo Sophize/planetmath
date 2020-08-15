@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $C$ be a convex set in $\\mathbb{R}^n$. If $C$ is bounded, then for\nany $x\\in C$, any ray emanating from $x$ will eventually \u201cexit\u201d $C$\n(that is, there is a point $z$ on the ray such that $z\\notin C$). If $C$\nis unbounded, however, then there exists a point $x\\in C$, and a ray\n$\\rho$ emanating from $x$ such that $\\rho\\subseteq C$. A *direction* $d$\nin $C$ is a point in $\\mathbb{R}^n$ such that for any $x\\in C$, the ray\n$\\lbrace x+rd\\mid r\\ge 0\\rbrace$ is also in $C$ (a subset of $C$).\n\nThe *recession cone* of $C$ is the set of all directions in $C$, and is\ndenoted by denoted by $0^{+}C$. In other words,\n$$0^{+}C=\\lbrace d\\mid x+rd\\in C,\\ \\forall x\\in C,\\ \\forall r\\ge 0\\rbrace.$$\n\nIf a convex set $C$ is bounded, then the recession cone of $C$ is pretty\nuseless; it is $\\lbrace 0\\rbrace$. The converse is not true, as\nillustrated by the convex set\n$$C=\\lbrace (x,y)\\mid 0\\le x< 1,\\ y \\ge 1\\rbrace \\cup \\lbrace (x,y)\\mid 0\\le x\\le 1,\\ 0\\le y\\le 1\\rbrace.$$\nClearly, $C$ is not bounded but $0^{+}C=\\lbrace 0\\rbrace$. However, if\nthe additional condition that $C$ is closed is imposed, then we recover\nthe converse.\n\nHere are some other examples of recession cones of unbounded convex\nsets:\n\n-   If $C=\\lbrace (x,y)\\mid |x| \\le y\\rbrace$, then $0^{+}C=C$.\n\n-   If $C=\\lbrace (x,y)\\mid |x| < y\\rbrace$, then $0^{+}C=\\overline{C}$,\n    the closure of $C$.\n\n-   If $C=\\lbrace (x,y)\\mid |x|^{n}\\le y, n>1\\rbrace$, then\n    $0^{+}C=\\lbrace (0,y)\\mid y\\ge 0\\rbrace$.\n\n**Remark.** The recession cone of a convex set is convex, and, if the\nconvex set is closed, its recession cone is closed as well.",
+  "language": "INFORMAL",
+  "phrase": "Recession Cone",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RecessionCone"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ and $\\mathcal{D}$ be categories. An *isomorphism*\n$T:\\mathcal{C}\\to\\mathcal{D}$ is a (covariant) functor which has a\n*two-sided inverse*. In other words, there is a (covariant) functor\n$S:\\mathcal{D}\\to\\mathcal{C}$ such that $T\\circ S=I_{\\mathcal{D}}$ and\n$S\\circ T=I_{\\mathcal{C}}$, where $I_{\\mathcal{D}}$ and\n$I_{\\mathcal{C}}$ are the identity functors of $\\mathcal{D}$ and\n$\\mathcal{C}$ respectively. Two categories $\\mathcal{C}$ and\n$\\mathcal{D}$ are *isomorphic* if there exists a functor\n$T:\\mathcal{C}\\to\\mathcal{D}$ that is an isomorphism.\n\n**Remarks**\n\n1.  An isomorphism (functor) from $\\mathcal{C}$ to $\\mathcal{D}$ is just\n    an (in the sense of morphism) in the functor category\n    $\\mathcal{D}^{\\mathcal{C}}$.\n\n2.  Two isomorphic categories are . The converse is not true. For\n    example, the category of all finite sets is to its subcategory of\n    all finite ordinals. But clearly these two categories are not\n    isomorphic. Isomorphism has a \u201csize\u201d restriction, whereas natural\n    equivalence does not.",
+  "language": "INFORMAL",
+  "phrase": "Category Isomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CategoryIsomorphism"
+    }
+  ],
+  "indexable": true
+}

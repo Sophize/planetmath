@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "information"
+  ],
+  "definition": "Let $(\\Omega, \\mathcal{F}, \\mu)$ be a discrete probability space, and\nlet $X$ and $Y$ be discrete random variables on $\\Omega$.\n\nThe *mutual information* $I[X;Y]$, read as \u201cthe mutual information of\n$X$ and $Y$,\u201d is defined as $$\\begin{aligned}\nI[X;Y] &= \\sum_{x \\in \\Omega}\\sum_{y \\in \\Omega} \\mu(X=x,Y=y) \\log \\frac{\\mu(X=x,Y=y)}{\\mu(X=x)\\mu(Y=y)}\\\\\n&= D(\\mu(x,y)||\\mu(x)\\mu(y)).\\end{aligned}$$ where $D$ denotes the\nrelative entropy.\n\nMutual information, or just information, is measured in bits if the\nlogarithm is to the base 2, and in \u201cnats\u201d when using the natural\nlogarithm.\n\n#### Discussion\n\nThe most obvious characteristic of mutual information is that it depends\non both $X$ and $Y$. There is no information in a vacuum\u2014information is\nalways *about* something. In this case, $I[X;Y]$ is the information in\n$X$ about $Y$. As its name suggests, mutual information is symmetric,\n$I[X;Y] = I[Y;X]$, so any information $X$ carries about $Y$, $Y$ also\ncarries about $X$.\n\nThe definition in terms of relative entropy gives a useful\ninterpretation of $I[X;Y]$ as a kind of \u201cdistance\u201d between the joint\ndistribution $\\mu(x,y)$ and the product distribution $\\mu(x)\\mu(y)$.\nRecall, however, that relative entropy is not a true distance, so this\nis just a conceptual tool. However, it does capture another intuitive\nnotion of information. Remember that for $X,Y$ independent,\n$\\mu(x,y) = \\mu(x)\\mu(y)$. Thus the relative entropy \u201cdistance\u201d goes to\nzero, and we have $I[X;Y]=0$ as one would expect for independent random\nvariables.\n\nA number of useful expressions, most apparent from the definition,\nrelate mutual information to the entropy $H$:\n\n$$\\begin{aligned}\n0 \\le I[X;Y] &\\le H[X]\\\\\nI[X;Y] &= H[X] - H[X|Y]\\\\\nI[X;Y] &= H[X] + H[Y] - H[X,Y]\\\\\nI[X;X] &= H[X]\\\\\\end{aligned}$$\n\nRecall that the entropy $H[X]$ quantifies our uncertainty about $X$. The\nlast line justifies the description of entropy as \u201cself-information.\u201d\n\n#### Historical Notes\n\nMutual information, or simply information, was introduced by Shannon in\nhis landmark 1948 paper \u201cA Mathematical Theory of Communication.\u201d",
+  "language": "INFORMAL",
+  "phrase": "Mutual Information",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MutualInformation"
+    }
+  ],
+  "indexable": true
+}

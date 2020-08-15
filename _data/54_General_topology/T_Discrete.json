@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "This entry aims at highlighting the fact that all uses of the word\n*discrete* in mathematics are directly related to the core concept of\ndiscrete space:\n\n-   A discrete set is a set that, endowed with the topology implied by\n    the context, is a . For instance for a subset of ${\\mathbb{R}}^n$\n    and without information suggesting otherwise, the topology on the\n    set would be assumed the usual topology induced by norms on\n    ${\\mathbb{R}}^n$.\n\n-   A random variable $X$ is discrete if and only if its image space is\n    a discrete set (which by what\u2019s just been said means that the image\n    is a discrete topological space for some topology specified by the\n    context). The most common example by far is a random variable taking\n    its values in a enumerated set (e.g. the values of a die, or a set\n    of possible answers to a question in a survey).\n\n-   Discretization of ODEs and PDEs is the process of converting\n    equations on functions on open sets of ${\\mathbb{R}}^n$ (with\n    boundary conditions) into equations on functions on discrete subsets\n    of ${\\mathbb{R}}^n$.",
+  "language": "INFORMAL",
+  "phrase": "Discrete",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Discrete"
+    }
+  ],
+  "indexable": true
+}

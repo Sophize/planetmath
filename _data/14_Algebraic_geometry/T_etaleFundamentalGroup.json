@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Recall that in topology, the fundamental group $\\pi_1(T)$ of a connected\ntopological space $T$ is defined to be the group of loops based at a\npoint modulo homotopy. When one wants to obtain something similar in the\nalgebraic category, this definition encounters problems. One cannot\nsimply attempt to use the same definition, since the result will be\nwrong if one is working in positive characteristic. More to the point,\nthe topology on a scheme fails to capture much of the stucture of the\nscheme. Simply choosing the \u201cloop\u201d to be an algebraic curve is not\nappropriate either, since in the most familiar case (over the complex\nnumbers) such a \u201cloop\u201d has two real dimensions rather than one.\n\nIn the classification of covering spaces, it is shown that the\nfundamental group is exactly the group of deck transformations of the\nuniversal covering space. This is more promising: surjective \u00e9tale\nmorphisms are the appropriate generalization of covering spaces.\nUnfortunately, the universal covering space is often an infinite\ncovering of the orignal space, which is unlikely to yield anything\nmanageable in the algebraic category. Finite coverings, on the other\nhand are tractable, so one can define the algebraic fundamental group as\nan inverse limit of automorphism groups. Note also that finite \u00e9tale\nmorphisms are closed maps as well as open maps.\n\nLet $X$ be a scheme, and let $x$ be a geometric point of $X$. Then let\n$C$ be the category of pairs $(Y,\\pi)$ such that $\\pi\\colon Y \\to X$ is\na finite \u00e9tale morphism. Morphisms $(Y,\\pi)\\to (Y',\\pi')$ in this\ncategory are morphisms $Y\\to Y'$ as schemes over $X$. If $Y'$ factors\nthrough $Y$ as $Y'\\to Y\\to X$ then we obtain a morphism from\n$\\operatorname{Aut}_C(Y)\\to\\operatorname{Aut}_C(Y')$. This allows us to\nconstruct the *\u00e9tale fundamental group*\n$$\\pi_1(X,x) = \\varprojlim_{Y\\in C} \\operatorname{Aut}_C(Y).$$\n\nThis explanation follows [@milne].\n\n[9]{} James Milne, [*Lectures on \u00c9tale Cohomology*]{}, .",
+  "language": "INFORMAL",
+  "phrase": "\\'Etale Fundamental Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/etaleFundamentalGroup"
+    }
+  ],
+  "indexable": true
+}

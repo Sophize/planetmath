@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Here is a sample result for the function, essentially classifying its\nuniqueness :\n\n**Proposition 1:** $\\mu$ is the unique mapping\n${\\mathbb{N}^{*}}\\to{{\\mathbb}{Z}}$ such that $$\\begin{aligned}\n\\mu(1)&=&1 \\\\\n\\sum_{d|n}\\mu(d)&=&0\\textrm{ for all }n>1\\end{aligned}$$\n\n**Proof:** By induction, there can only be one function with these\nproperties. $\\mu$ clearly satisfies (1), so take some $n>1$. Let $p$ be\nsome prime factor of $n$, and let $m$ be the product of all the prime\nfactors of $n$. $$\\begin{aligned}\n\\sum_{d|n}\\mu(d)&=&\\sum_{d|m}\\mu(d) \\\\\n&=&\\sum_{\\substack{d|m\\\\p\\nmid d}}\\mu(d) +\\sum_{\\substack{d|m\\\\p\\mid d}}\\mu(d) \\\\\n&=&\\sum_{d|m/p}\\mu(d)-\\sum_{d|m/p}\\mu(d) \\\\\n&=&0\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Uniqueness Of Moebius Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniquenessOfMoebiusFunction"
+    }
+  ],
+  "indexable": true
+}

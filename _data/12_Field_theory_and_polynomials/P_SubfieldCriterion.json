@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K$ be a skew field and $S$ its subset. For $S$ to be a subfield of\n$K$, it\u2019s necessary and sufficient that the following three conditions\nare fulfilled:\n\n1.  $S$ a non-zero element of $K$.\n\n2.  $a\\!-\\!b \\in S$ always when $a,\\,b \\in S$.\n\n3.  $ab^{-1} \\in S$ always when $a,\\,b \\in S$ and $b \\neq 0$.\n\n[*Proof.*]{} Because the conditions are fulfilled in every skew field,\nthey are necessary. For proving the sufficience, suppose now that the\nsubset $S$ these conditions. The condition 1 guarantees that $S$ is not\nempty and the condition 2 that $(S,\\, +)$ is an subgroup of $(K,\\, +)$;\nthus all the required properties of addition for a skew field hold in\n$S$. If $b$ is a non-zero element of $S$, then, according to the\ncondition 3, we have $0 \\neq 1 = bb^{-1} \\in S$. Moreover,\n$a\\!\\cdot\\!1 = 1\\!\\cdot a = a \\in S$ for all $a \\in S \\subseteq K$. The\nlaws of multiplication (associativity and left and distributivity over\naddition) hold in $S$ since they hold in whole $K$. So $S$ fulfils all\nthe postulates for a skew field.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubfieldCriterion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "subfield criterion"
+  ]
+}

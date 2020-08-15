@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $\\mathcal{A}$ be a unital Banach algebra over\n$\\mathbb{C}$ that is also a division algebra (i.e. every non-zero\nelement is invertible). Then $\\mathcal{A}$ is isometrically isomorphic\nto $\\mathbb{C}$.\n\n[**Proof :**]{} Let $e$ denote the unit of $\\mathcal{A}$.\n\nLet $x \\in \\mathcal{A}$ and $\\sigma(x)$ be its spectrum. It is known\nthat the in $\\mathbb{C}$.\n\nLet $\\lambda \\in \\sigma(x)$. Since $x-\\lambda e$ is not invertible and\n$\\mathcal{A}$ is a division algebra, we must have $x-\\lambda e = 0$ and\nso $x=\\lambda e$\n\nLet $\\phi : \\mathbb{C} \\longrightarrow \\mathcal{A}$ be defined by\n$\\phi(\\lambda)=\\lambda e$.\n\nIt is clear that $\\phi$ is an injective algebra homomorphism.\n\nBy the above discussion, $\\phi$ is also surjective.\n\nIt is isometric because $\\|\\lambda e\\| = |\\lambda| \\|e\\| = |\\lambda|$\n\nTherefore, $\\mathcal{A}$ is isometrically isomorphic to $\\mathbb{C}$.\n$\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GelfandMazurTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gelfand-Mazur theorem"
+  ]
+}

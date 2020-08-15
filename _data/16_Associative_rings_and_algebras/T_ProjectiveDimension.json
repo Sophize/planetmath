@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{A}$ be an abelian category and\n$M\\in\\operatorname{Ob}(\\mathcal{A})$ such that a projective resolution\nof $M$ exists:\n$$\\xymatrix{{\\ldots}\\ar[r]&P_n\\ar[r]&{\\ldots}\\ar[r]&P_1\\ar[r]&P_0\\ar[r]&M\\ar[r]&0}.$$\nAmong all the projective resolutions of $M$, consider the subset\nconsisting of those projective resolutions that contain only a finite\nnumber of non-zero projective objects (there exists a non-negative\ninteger $n$ such that $P_i=0$ for all $i\\geq n$). If such a subset is\nnon-empty, then the *projective dimension* of $M$ is defined to be the\nsmallest number $d$ such that\n$$\\xymatrix{0\\ar[r]&P_d\\ar[r]&{\\ldots}\\ar[r]&P_1\\ar[r]&P_0\\ar[r]&M\\ar[r]&0}.$$\nWe denote this by $\\operatorname{pd}(M)=d$. If this subset is empty,\nthen we define $\\operatorname{pd}(M)=\\infty$.\n\n**Remarks**.\n\n1.  In an abelian category having enough projectives, the projective\n    dimension of an object always exists (whether it is finite or not).\n\n2.  If $\\operatorname{pd}(M)=d$ and\n    $$\\xymatrix{0\\ar[r]&P_d\\ar[r]&{\\ldots}\\ar[r]&P_1\\ar[r]&P_0\\ar[r]&M\\ar[r]&0}.$$\n    Then $P_i\\neq0$ for all $0\\leq i\\leq d$.\n\n3.  $\\operatorname{pd}(M)=0$ iff $M$ is a projective object.\n\n4.  In the (abelian) category of left (right) $R$-modules, the\n    projective dimension of a left (right) $R$-module $M$ is denoted by\n    $\\operatorname{pd}_R(M)$.\n\nLikewise, given an abelian category and a object $N$ having at least one\ninjective resolution. Then the *injective dimension*, denoted by\n$\\operatorname{id}(N)$ is the minimum number $d$ such that\n$$\\xymatrix{0\\ar[r]&N\\ar[r]&I_0\\ar[r]&I_1\\ar[r]&{\\ldots}\\ar[r]&I_d\\ar[r]&0},$$\nif such an injective resolution exists. Otherwise, set\n$\\operatorname{id}(N)=\\infty$. This is the dual notion of projective\ndimension.",
+  "language": "INFORMAL",
+  "phrase": "Projective Dimension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProjectiveDimension"
+    }
+  ],
+  "indexable": true
+}

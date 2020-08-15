@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "trivial topology",
+    "coarse topology"
+  ],
+  "definition": "If $X$ is a set and it is endowed with a topology defined by\n\n$$\\tau=\\{X,\\emptyset\\} \\label{eq12}$$ then $X$ is said to have the\n*indiscrete topology*.\n\nFurthermore $\\tau$ is the coarsest topology a set can possess, since\n$\\tau$ would be a subset of any other possible topology. This topology\ngives $X$ many properties:\n\n-   Every subset of $X$ is sequentially compact.\n\n-   Every function to a space with the indiscrete topology is\n    continuous.\n\n-   $X$ is path connected and hence connected but is arc connected only\n    if $X$ is uncountable or if $X$ has at most a single point. However,\n    $X$ is both hyperconnected and ultraconnected.\n\n-   If $X$ has more than one point, it is not metrizable because it is\n    not Hausdorff. However it is pseudometrizable with the metric\n    $d(x,y)=0$.",
+  "language": "INFORMAL",
+  "phrase": "Indiscrete Topology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndiscreteTopology"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let the vertices of $G$ be labeled by $\\{1,2,\\ldots, n\\}$, and\n$\\mathbf{x}$ be the column vector defined by $$x_i = \\begin{cases}\n1 & \\text{if vertex $i$ is in $X$} \\\\\n0 & \\text{otherwise}\n\\end{cases}$$ for $i=1,2,\\ldots, n$.\n\nLet $\\mathbf{A}$ denote the adjacency matrix of $G$. The number of edges\nin the subgraph induced by $X$ equals\n$\\frac{1}{2} \\mathbf{x}^T \\mathbf{A x}$, and we are going to show the\nfollowing equivalent inequality,\n$$\\mathbf{x}^T \\mathbf{A x} \\leq \\frac{1}{n} \\Big( d|X|^2 +  \\lambda |X|(n- |X|) \\Big).$$\n\nWe label the eigenvalues of $\\mathbf{A}$ in decreasing order as\n$$\\lambda_1 \\geq \\lambda_2 \\geq \\ldots \\geq \\lambda_n.$$\n\nThe largest eigenvalue $\\lambda_1$ is equal to the degree $d$, and we\nlet $\\mathbf{u}_1$ be the corresponding normalized eigenvector,\n$$\\mathbf{u}_1 := \\frac{1}{\\sqrt{n}} [1, 1, \\ldots, 1 ]^T.$$ As\n$\\mathbf{A}$ is symmetric, there is a unitary matrix $\\mathbf{U}$ that\ndiagonalizes $\\mathbf{A}$, $$\\mathbf{U}^T \\mathbf{A U} = \n \\begin{bmatrix}\n \\lambda_1 & & &\\\\\n & \\lambda_2 &&\\\\\n & & \\ddots & \\\\\n&&&     \\lambda_n\n \\end{bmatrix}.$$ The first column of $\\mathbf{U}$ is the column vector\n$\\mathbf{u}_1$. We obtain $$\\begin{aligned}\n \\mathbf{x}^T \\mathbf{A x} &=& \\sum_{k=1}^n \\lambda_k (\\mathbf{u}_k^T \\mathbf{x})^2 \\\\\n &\\leq & d (\\mathbf{u}_1^T \\mathbf{x})^2 + \\lambda_2 \\sum_{k=2}^n  (\\mathbf{u}_k^T \\mathbf{x})^2.\\end{aligned}$$\n\nIn the line above, the first term is\n$$d (\\mathbf{u}_1^T \\mathbf{x})^2 = \\frac{d |X|^2}{n},$$ while the\nsummation is equal to\n$$\\sum_{k=2}^n  (\\mathbf{u}_k^T  \\mathbf{x})^2 = \\|\\mathbf{x}\\|^2 - (\\mathbf{u}_1^T \\mathbf{x})^2 = |X| - \\frac{|X|^2}{n}.$$\n\nHence $$\\begin{aligned}\n\\mathbf{x}^T \\mathbf{A x} & \\leq & \\frac{d |X|^2}{n} + \\lambda_2 \\Big( |X| - \\frac{|X|^2}{n} \\Big)\\\\\n& = & \\frac{1}{n} \\Big( d|X|^2 +  \\lambda_2 |X|(n- |X|) \\Big).\\end{aligned}$$",
+  "conclusion": "#P_AlonChungLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfAlonChungLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Alon-Chung lemma"
+  ]
+}

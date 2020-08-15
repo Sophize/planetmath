@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A morphism ${f:A\\toB}$ is a *monomorphism*, if for any two morphisms\n${g,h:C\\toA}$ the equality $f\\circ g=f\\circ h$ implies $h=g$.\n\nnotion: Morphism ${f:A\\toB}$ is an *epimorphism*, if for any two\nmorphisms ${g,h:B\\toC}$ the equality $g\\circ f=h\\circ f$ implies $h=g$.\n\nA morphism $f$ is a *bimorphism*, if it is monomorphism and epimorphism\nat the same time. Also the names *epimorphic extension* and *epimorphic\nmonomorphism* are used.\n\nA morphism ${f:A\\toB}$ is called *retraction* if there exists a morphism\n${g:B\\toA}$ such that $f\\circ g=id_B$.\n\nRetractions are sometimes called *split epimorphisms*.\n\nDual notion: a morphism ${f:A\\toB}$ is a *section* (or *coretraction* or\n*split monomorphism*) if there exists a morphism ${g:B\\toA}$ such that\n$g\\circ f=id_A$.\n\nA morphism ${f:A\\toB}$ is an ** if it is a retraction and section at the\nsame time.\n\nBimorphism and isomorphism are examples of self-dual properties. The\ncondition that $f$ is isomorphism is equivalent to the existence of a\nmorphism $g$ with $f\\circ g=id_B$ and $g\\circ f=id_A$ (for the proof see\nproperties of monomorphisms and epimorphisms).\n\nIf $f$ is an isomorphism then the morphism ${g:B\\toA}$ such that\n$f\\circ g=id_B$ and $g\\circ f=id_A$ is called *inverse* morphism of $f$\nand denoted by ${f^{-1}}$.\n\nIf there exists an isomorphism ${f:A\\toB}$ we say that the objects $A$\nand $B$ are *isomorphic*, denoted by $A\\cong B$.",
+  "language": "INFORMAL",
+  "phrase": "Types Of Morphisms",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TypesOfMorphisms"
+    }
+  ],
+  "indexable": true
+}

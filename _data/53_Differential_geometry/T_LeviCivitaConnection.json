@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "On any Riemannian manifold $\\langle M, g \\rangle$, there is a unique\ntorsion-free affine connection $\\nabla$ on the tangent bundle of $M$\nsuch that the covariant derivative of the metric tensor $g$ is zero,\ni.e. $g$ is covariantly constant. This condition can be also be\nexpressed in terms of the inner product operation\n${\\langle ,\\rangle} \\colon TM \\times TM \\to \\mathbb{R}$ induced by $g$\nas follows: For all vector fields $X, Y, Z \\in TM$, one has\n$$X({\\langle Y,Z\\rangle})={\\langle \\nabla_X Y, Z\\rangle}+{\\langle Y, \\nabla_X Z\\rangle}$$\nand $$\\nabla_X Y-\\nabla_Y X=[X,Y]$$\n\nThis connection is called the [*Levi-Civita connection*]{}.\n\nIn local coordinates $\\{x_1,\\ldots,x_n\\}$, the $\\Gamma^i_{jk}$ are\ndetermined by\n$$g_{i\\ell}\\Gamma^i_{jk}=\\frac 12\\left(\\frac{\\partial g_{j\\ell}}{\\partial x_k}+\n\\frac{\\partial g_{k\\ell}}{\\partial x_j}-\\frac{\\partial g_{jk}}{\\partial x_\\ell}\\right).$$",
+  "language": "INFORMAL",
+  "phrase": "Levi-Civita Connection",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeviCivitaConnection"
+    }
+  ],
+  "indexable": true
+}

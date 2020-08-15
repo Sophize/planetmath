@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *HNN extension group* $G$ for a group $A$, is constructed from a\npair of isomorphic subgroups $B\\stackrel{\\phi}\\cong C$ in $A$, according\nto formula $$G=\\frac{A*\\langle t|- \\rangle}{N}$$ where\n$\\langle t|- \\rangle$ is a cyclic free group, $*$ is the free product\nand $N$ is the normal closure of\n$\\{tbt^{-1}\\phi(b)^{-1}\\colon b\\in B\\}$.\n\nAs an example take a surface bundle $F\\subset E\\to S^1$, hence the\nhomotopy long exact sequence of this bundle implies that the fundamental\ngroup $\\pi_1(E)$ is given by\n$$\\pi_1(E)=\\langle x_1,...,x_k,t|\\Pi=1,tx_it^{-1}=\\phi(x_i)\\rangle$$\nwhere $k$ is the genus of the surface and the relation $\\Pi$ is\n$[x_1,x_2][x_3,x_4]\\cdots[x_{k-1},x_k]$ for an orientable surface or\n$x_1^2x_2^2\\cdots x_k^2$ is for a non-orientable one. $\\phi$ is an\nisomorphism induced by a self homeomorphism of $F$.",
+  "language": "INFORMAL",
+  "phrase": "Hnn Extension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HNNExtension"
+    }
+  ],
+  "indexable": true
+}

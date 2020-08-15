@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "burst"
+  ],
+  "definition": "In neuroscience, [**bursting**]{} denotes two or more action potentials\n(spikes) fired by a neuron, followed by a period of quiescence. A burst\nof two spikes is called a [**doublet**]{}, three spikes -\n[**triplet**]{}, four - [**quadruplet**]{}, etc.\n\nMost mathematical models of bursting can be written in the singularly\nperturbed form $$\\begin{matrix} \n\\dot{x}  = \\  f(x, y) & \\ \\ \\ \\ \\ \\ \\ \\mbox{(fast spiking)} \\\\ \n\\dot{y}  =  \\mu g(x, y) & \\mbox{(slow modulation)}\n\\end{matrix}$$ where $x \\in {\\mathbb R}^n$ is the fast variable that\nsimulates fast spiking of the neuron, and $y \\in {\\mathbb R}^m$ is the\nslow variable that modulates such spiking activity.\n\nA topological classification of bursters relies on the bifurcations of\nthe fast subsystem (variable $x$) when the slow subsystem (variable $y$)\nis treated as a parameter.\n\n[20]{}\n\nIzhikevich E.M. (2007) Dynamical Systems in Neuroscience: The Geometry\nof Excitability and Bursting. The MIT Press.\n\nEugene M. Izhikevich (2006) Bursting. Scholarpedia, p.1401 (available\nonline at http://www.scholarpedia.org/article/Bursting).",
+  "language": "INFORMAL",
+  "phrase": "Bursting",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Bursting"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "One should think of the following diagram as representing a general\nquadrilateral. $$\\xymatrix{\n  B \\ar@{-}[r]^b\\ar@{-}[d]_a & C\\ar@{-}[d]^c\\ar@{.}[dl] \\\\\n  A \\ar@{-}[r]_d & D }$$\n\n$$AC^2 = a^2 + b^2 -2ab\\cos B = c^2 + d^2 - 2cd \\cos D$$\n\nHence, $$a^2 + b^2 - c^2 -d^2 = 2ab \\cos B -2cd \\cos D$$\n\nAdd $2ab + 2cd$ to each side of (2):\n$$a^2 + 2ab + b^2 - (c^2 - 2cd+d^2) = 2ab ( 1 + \\cos B ) - 2cd(-1 + \\cos D)$$\n\nNow use $$\\cos^2 \\theta = \\frac{1+\\cos (2\\theta)}{ 2}$$ and\n$$\\sin^2 \\theta = \\frac{1 - \\cos(2\\theta)} { 2}$$ to get\n$$(a+b)^2 - (c-d)^2 = 4ab \\cos^2 \\frac{B}{2} + 4 cd \\sin^2 \\frac{D}{2}$$\n\nSimilarly\n$$(c+d)^2 - (a-b)^2 = 4ab \\sin^2 \\frac{B}{2} + 4 cd \\cos^2 \\frac{D}{2}$$\n\nLet $s$ be the semiperimeter, so $s = \\frac{a+b+c+d}{2}$. Then\n$$LHS(4) = (a+b-c+d)(a+b+c-d) = 4(s-c)(s-d)$$ and\n$$LHS(5) = (c+d-a+b)(c+d+a-b) = 4(s-a)(s-b)$$ Let $R$ be the product of\nthe left hand side of (4) times the left hand side of (5). Then\n$$\\begin{aligned}\nR &= 16(ab)^2\\cos^2\\frac{B}{2}\\sin^2\\frac{B}{2} + 16(cd)^2\\sin^2\\frac{D}{2}\\cos^2\\frac{D}{2} \n+ 16abcd(\\cos^2\\frac{B}{2} \\cos^2\\frac{D}{2} + \\sin^2\\frac{B}{2}\\sin^2\\frac{D}{2}) \\\\\n& = 4(ab)^2(2\\sin\\frac{B}{2}\\cos\\frac{B}{2})^2 + 4(cd)^2(2\\sin\\frac{D}{2}\\cos\\frac{D}{2})^2\n+ 16abcd(\\cos^2\\frac{B}{2}\\cos^2\\frac{D}{2} + \\sin^2\\frac{B}{2}\\sin^2\\frac{D}{2}) \\\\\n& = 4(ab)^2\\sin^2B + 4(cd)^2\\sin^2D +16abcd(\\cos^2\\frac{B}{2}\\cos^2\\frac{D}{2} +\n \\sin^2\\frac{B}{2}\\sin^2\\frac{D}{2}).\\end{aligned}$$\n\nWe have:\n$$8abcd\\sin B \\sin D= 32 abcd \\sin \\frac{B}{2} \\cos \\frac{B}{2} \\sin \\frac{D}{2} \\cos \\frac{D}{2}.$$\nwhich we can add and subtract to $R$: $$\\begin{aligned}\nR & = (2ab\\sin B + 2cd \\sin D)^2 + 16abcd(\\cos^2 \\frac{B}{2}\\cos^2\\frac{D}{2} - 2\\sin \\frac{B}{2} \\cos \\frac{B}{2} \\sin \\frac{D}{2} \\cos \\frac{D}{2} + \\sin^2 \\frac{B}{2} \\sin^2 \\frac{D}{2}) \\\\\n & = (2ab\\sin B + 2cd \\sin D)^2 + 16abcd( \\cos \\frac{B}{2} \\cos \\frac{D}{2} - \\sin \\frac{B}{2} \\sin \\frac{D}{2})^2 .\\end{aligned}$$\nBut $$(2ab \\sin B + 2cd \\sin D = 4K$$ so we have:\n$$R =16K^2 + 16abcd\\cos^2 \\left ( \\frac{B+D}{2}\\right).$$ Hence by (6),\n(7) and (13)\n$$K^2 = (s-a)(s-b)(s-c)(s-d) - abcd \\cos^2 \\left ( \\frac{B+D}{2}\\right).$$",
+  "conclusion": "#P_AreaOfAQuadrilateral",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfAreaOfAQuadrilateral"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of area of a quadrilateral"
+  ]
+}

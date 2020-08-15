@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Bichteler-Dellacherie theorem is an important result in stochastic\ncalculus, and states the equivalence of two very different definitions\nof semimartingales. The result also goes under other names, such as the\n*Dellacherie-Meyer-Mokobodzky theorem*. Prior to its discovery, a theory\nof stochastic integration had been developed for local martingales. As\nstandard Lebesgue-Stieltjes integration can be applied to finite\nvariation processes, this allowed an integral to be defined with respect\nto sums of local martingales and finite variation processes, known as a\nsemimartingales. The Bichteler-Dellacherie theorem then shows that, as\nlong as we require stochastic integration to satisfy bounded\nconvergence, then semimartingales are actually the most general objects\nwhich can be used.\n\nWe consider a real valued stochastic process $X$ adapted to a filtered\nprobability space\n$(\\Omega,\\mathcal{F},(\\mathcal{F}_t)_{t\\in\\mathbb{R}_+},\\mathbb{P})$.\nThen, the integral $\\int_0^t\\xi\\,dX$ can be written out explicitly for\nany simple predictable process $\\xi$.\n\nLet $X$ be a cadlag adapted stochastic process. Then, the following are\nequivalent.\n\n1.  \\[bounded\\] For every $t>0$, the set\n    $$\\left\\{\\int_0^t\\xi\\,dX:|\\xi|\\le 1\\textrm{ is simple predictable}\\right\\}$$\n    is bounded in probability.\n\n2.  \\[decomp\\] A decomposition $X=M+V$ exists, where $M$ is a local\n    martingale and $V$ is a finite variation process.\n\n3.  \\[strong decomp\\] A decomposition $X=M+V$ exists, where $M$ is\n    locally a uniformly bounded martingale and $V$ is a finite variation\n    process.\n\nCondition \\[bounded\\] is equivalent to stating that if $\\xi^n$ is a\nsequence of simple predictable processes converging uniformly to zero,\nthen the integrals $\\int_0^t\\xi^n\\,dX$ tend to zero in probability as\n$n\\rightarrow\\infty$, which is a weak form of bounded convergence for\nstochastic integration.\n\nConditions \\[bounded\\] and \\[decomp\\] are the two definitions often used\nfor the process $X$ to be a semimartingale. However, condition \\[strong\ndecomp\\] gives a stronger decomposition which is often more useful in\npractise. The property that $M$ is locally a uniformly bounded\nmartingale means that there exists a sequence of stopping times\n$\\tau_n$, almost surely increasing to infinity, such that the stopped\nprocesses $M^{\\tau_n}$ are uniformly bounded martingales.\n\n[9]{} Philip E. Protter, *Stochastic integration and differential\nequations.* Second edition. Applications of Mathematics, 21. Stochastic\nModelling and Applied Probability. Springer-Verlag, 2004.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BichtelerDellacherieTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Bichteler-Dellacherie theorem",
+    "Dellacherie-Meyer-Mokobodzky theorem"
+  ]
+}

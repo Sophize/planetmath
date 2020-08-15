@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "distance"
+  ],
+  "definition": "The *distance* $d(x,y)$ of two vertices $x$ and $y$ of a graph $G$ is\nthe length of the shortest path (or, equivalently, walk) from $x$ to\n$y$. If there is no path from $x$ to $y$ (i.e. if they lie in different\ncomponents of G), we set $d(x,y) := \\infty.$\n\nTwo basic graph invariants involving distance are the *diameter*\n$\\operatorname{diam}G := \\max_{(x,y)\\in V(G)^2} d(x,y)$ (the maximum\ndistance between two vertices of $G$) and the *radius*\n$\\operatorname{rad}G := \\min_{x\\in V(G)} \\max_{y\\in V(G)} d(x,y)$ (the\nmaximum distance of a vertex from a *central* vertex of $G$, i.e. a\nvertex such that the maximum distance to another vertex is minimal).",
+  "language": "INFORMAL",
+  "phrase": "Distance (In A Graph)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DistanceinAGraph"
+    }
+  ],
+  "indexable": true
+}

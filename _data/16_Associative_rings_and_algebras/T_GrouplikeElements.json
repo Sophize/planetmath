@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(C,\\Delta,\\varepsilon)$ be a coalgebra over a field $k$.\n\n**Definition.** The element $g\\in C$ is called *grouplike* iff $g\\neq 0$\nand $\\Delta(g)=g\\otimes g$. The set of all grouplike elements in a\ncoalgebra $C$ is denoted by $G(C)$.\n\n**Properties**. $0)$ The set $G(C)$ can be empty, but (for example) if\n$C$ can be turned into a bialgebra, then $G(C)\\neq\\emptyset$. In\nparticular Hopf algebras always have grouplike elements.\n\n$1)$ If $g\\in G(C)$, then it follows from the counit property that\n$\\varepsilon(g)=1$.\n\n$2)$ It can be shown that the set $G(C)$ is linearly independent.",
+  "language": "INFORMAL",
+  "phrase": "Grouplike Elements",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GrouplikeElements"
+    }
+  ],
+  "indexable": true
+}

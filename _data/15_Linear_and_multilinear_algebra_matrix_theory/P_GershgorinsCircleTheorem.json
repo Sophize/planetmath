@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ be a square complex matrix. Around every element $a_{ii}$ on the\ndiagonal of the matrix, we draw a circle with radius the sum of the\nnorms of the other elements on the same row $\\sum_{j\\neq i}|a_{ij}|$.\nSuch circles are called *Gershgorin discs*.\n\nTheorem: Every eigenvalue of A lies in one of these Gershgorin discs.\n\nProof: Let $\\lambda$ be an eigenvalue of $A$ and $x$ its corresponding\neigenvector. Choose $i$ such that $|x_i|={\\max}_j |x_j|$. Since $x$\ncan\u2019t be $0$, $|x_i|>0$. Now $Ax=\\lambda x$, or looking at the $i$-th\ncomponent $$(\\lambda - a_{ii})x_i = \\sum_{j\\neq i} a_{ij}x_j.$$ Taking\nthe norm on both sides gives\n$$|\\lambda - a_{ii}|=|\\sum_{j\\neq i} \\frac{a_{ij}x_j}{x_i}|\\leq \\sum_{j\\neq i}|a_{ij}|.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GershgorinsCircleTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gershgorin's circle theorem",
+    "Gershgorin's disc theorem",
+    "Gerschgorin's circle theorem",
+    "Gerschgorin's disc theorem"
+  ]
+}

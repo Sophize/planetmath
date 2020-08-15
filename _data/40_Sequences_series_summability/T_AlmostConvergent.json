@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A real sequence $(x_n)$ is said to be **almost convergent** to $L$ if\neach Banach limit assigns the same value $L$ to the sequence $(x_n)$.\n\nLorentz [@lorentz] proved that $(x_n)$ is almost convergent to $L$ if\nand only if\n$$\\lim\\limits_{p\\to\\infty} \\frac{x_{n}+\\ldots+x_{n+p-1}}p=L$$ uniformly\nin $n$.\n\nThe above limit can be rewritten in detail as\n$$(\\forall \\varepsilon>0) (\\exists p_0) (\\forall p>p_0) (\\forall n) \\left|\\frac{x_{n}+\\ldots+x_{n+p-1}}p-L\\right|<\\varepsilon.$$\n\nAlmost convergence is studied in summability theory. It is an example of\na summability method which cannot be represented as a matrix method.\n\n[9]{} G.\u00a0Bennett and N.J. Kalton: [Consistency theorems for almost\nconvergence.]{} *Trans. Amer. Math. Soc.*, 198:23\u201343, 1974.\n\nJ.\u00a0Boos: *Classical and modern methods in summability*. Oxford\nUniversity Press, New York, 2000.\n\nJeff Connor and K.-G. Grosse-Erdmann: [Sequential definitions of\ncontinuity for real functions.]{} *Rocky Mt. J. Math.*, 33(1):93\u2013121,\n2003.\n\nG.\u00a0G. Lorentz: A contribution to the theory of divergent sequences.\n*Acta Math.*, 80:167\u2013190, 1948.",
+  "language": "INFORMAL",
+  "phrase": "Almost Convergent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlmostConvergent"
+    }
+  ],
+  "indexable": true
+}

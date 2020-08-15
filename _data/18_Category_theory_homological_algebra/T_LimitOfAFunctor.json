@@ -1,0 +1,24 @@
+{
+  "alternatePhrases": [
+    "inverse limit",
+    "projective limit",
+    "left limit",
+    "left root",
+    "root",
+    "direct limit",
+    "inductive limit",
+    "right limit",
+    "right root",
+    "coroot"
+  ],
+  "definition": "Let $G$ be a functor from categories $\\mathcal{I}$ to $\\mathcal{C}$. A\n*limit* of $G$ is a pair $(L,\\tau)$ where\n\n1.  $L:\\mathcal{I}\\to \\mathcal{C}$ is a constant functor,\n\n2.  $\\tau: L\\to G$ is a natural transformation,\n\nsuch that it is universal among all pairs satisfying (1) and (2). In\nother words, for any pair $(M,\\varphi)$, where\n$M:\\mathcal{I}\\to \\mathcal{C}$ is a constant functor, and\n$\\varphi: M\\to G$ is a natural transformation, there is a unique natural\ntransformation $\\phi:M\\to L$ with the following commutative diagram:\n\n$\n\\xymatrix@C+=64pt{\nM\\ar[dr]^{\\varphi}\\ar@{.>}[dd]_{\\phi}\\\\\n&G\\\\\nL\\ar[ur]_{\\tau}\n}\n$\n\nSince we may identify a constant functor with its value, say an object\n$A$, in $\\mathcal{C}$, a limit of $G$ may be viewed as an object $A$ in\n$\\mathcal{C}$, together with a collection of morphisms $A \\to G(I)$, or\n$G_I$, for each object $I$ in $\\mathcal{I}$ such that $$\\begin{aligned}\n{2}\n\\mbox{if }I\\to J\\mbox{ is a morphism, then }A\\to G_I\\to G_J = A \\to G_J. & \\qquad (*)\\end{aligned}$$\nFurthermore, if another object $B$ in $\\mathcal{C}$ satisfies $(*)$,\nthen there is a unique morphism $B\\to A$ such that\n$$B\\to A\\to G_I = B\\to G_I$$ for all objects $I$ in $\\mathcal{I}$.\n\n**Remarks**.\n\n-   A limit of a functor may or may not exist. If it exists, then it is\n    unique up to natural equivalence. In other words, we may call it\n    *the* limit of $G$.\n\n-   In the literature, the limit of $G$ is variously known as the\n    *inverse limit*, *left limit*, *projective limit*, *root*, or *left\n    root* of $G$. and is generally written\n    $\\operatorname{\\varprojlim}G$.\n\n-   The category $\\mathcal{I}$ above is usually called the *index\n    category*, and the functor $G$ a *diagram* in $\\mathcal{C}$.\n\n-   The most common index categories are finite categories, discrete\n    categories, partially ordered categories, and more specifically,\n    directed categories.\n\n-   On the other hand, it turns out that if, in a category, if\n    equalizers of any pairs of morphisms, and arbitrary products of any\n    collections of objects exist, then it can be shown that every\n    functor into this category has a limit.\n\nBy reversing all the arrows in $\\mathcal{C}$, we arrive at the dual\nconcept of a limit, that of a *colimit*. Precisely, the *colimit* of\n$G:\\mathcal{I}\\to \\mathcal{C}$ is a pair $(R,\\tau)$ where\n$R:\\mathcal{I}\\to \\mathcal{C}$ is a constant functor and $\\tau: G\\to R$\nis a natural transformation, such that for any pair $(M,\\varphi)$ of\nconstant functor $M:\\mathcal{I}\\to \\mathcal{C}$ and natural\ntransformation $\\varphi: G\\to M$, there is a unique natural\ntransformation $\\phi: R\\to M$ such that the following diagram\n\n$\n\\xymatrix@C+=64pt{\n&R\\ar@{.>}[dd]^{\\phi}\\\\\nG\\ar[ur]^{\\tau} \\ar[dr]_{\\varphi}\\\\\n&M\n}\n$\n\nThe colimit is also known as the *direct limit*, *right limit*,\n*inductive limit*, *coroot*, or *right root*, and is written\n$\\operatorname{\\varinjlim}$.\n\n**Examples**. Some common examples of limits (inverse limits) are\nproducts, terminal objects, pullbacks, equalizers, kernels, and kernel\npairs. These examples can be readily verified. Let us verify that a\nterminal object is a limit:\n\nLet $G$ be the empty functor (from the empty category) into an arbitrary\ncategory $\\mathcal{C}$. So the limit of $G$ is just an object $C$ in\n$\\mathcal{C}$, and that\u2019s it, as there are no objects in the empty\ncategory, there are no morphisms from $C$ in the limit of $G$. If $A$ is\nany object in $\\mathcal{C}$, then there is a unique morphism $A\\to C$,\nand that\u2019s it. But this means that $C$ is just a terminal object of\n$\\mathcal{C}$.\n\nPlease see the verification of some of these examples in the attachments\nbelow.\n\nSome examples of colimits (direct limits) are coproducts, initial\nobjects, pushouts, coequalizers, cokernels, and cokernel pairs.",
+  "language": "INFORMAL",
+  "phrase": "Limit Of A Functor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitOfAFunctor"
+    }
+  ],
+  "indexable": true
+}

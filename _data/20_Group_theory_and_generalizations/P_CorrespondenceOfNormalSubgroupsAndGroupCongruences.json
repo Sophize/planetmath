@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We start with a definition.\n\nLet $G$ be a group. An equivalence relation $\\sim$ on $G$ is called a\n*group congruence* if it is compatible with the group structure, ie.\nwhen the following holds\n\n-   $\\forall a,b,a',b'\\in G,\\quad (a\\sim a'\\,\\,\\, \\text{and}\n        \\,\\,\\, b\\sim b')  \\Rightarrow ab \\sim a'b'$\n\n-   $\\forall a,b\\in G,\\quad a\\sim b \\Rightarrow a^{-1}\\sim b^{-1}\\,. $\n\nSo a group congruence is a that additionally preserves the unary\noperation of taking inverse.\n\nIt turns out that group congruences correspond to normal subgroups:\n\nAn equivalence relation $\\sim$ is a group congruence if and only if\nthere is a normal subgroup such that\n$$\\forall a,b \\in G, \\quad a\\sim b \\Longleftrightarrow ab^{-1}\\in H\\,.$$\n\nLet $H$ be a *normal* subgroup of $G$ and let $\\sim_H$ be the\nequivalence relation $H$ defines in $G$. To see that this equivalence\nrelation is compatible with the group operation note that if\n$a'\\sim_H a$ and $b'\\sim_H b$ then there are elements $h_1$ and $h_2$ of\n$H$ such that $a' = ah_1$ and $b' = b\n  h_2$. Furthermore since $H$ is normal in $G$ there is an element\n$h_3\\in H$ such that $h_1b = bh_3$. Then we have $$\\begin{aligned}\n  a'b'&=ah_1bh_2 \\\\\n      &=abh_3h_2 \\end{aligned}$$ which gives that $a'b'\\sim ab$.\n\nTo prove the converse, assume that $\\sim$ is an equivalence relation\ncompatible with the group operation and let $H$ be the equivalence class\nof the identity $e$. We will prove that $\\sim \\,= \\,\\sim_H$. We first\nprove that $H$ is a normal subgroup of $G$. Indeed if $a\\sim e$ and $b\n  \\sim e$ then by the compatibility we have that $ab^{1} \\sim ee^{-1}$,\nthat is $ab^{-1}\\sim e$; so that $H$ is a subgroup of $G$. Now if\n$g\\in G$ and $h\\in H$ we have $$\\begin{aligned}\n    h\\sim e &\\Rightarrow ghg^{-1} \\sim geg^{-1}\\\\\n            &\\Rightarrow ghg^{-1} \\sim e\\\\            \n            &\\Rightarrow ghg^{-1} \\in H\\,.\n  \\end{aligned}$$ Therefore $H$ is a normal subgroup of $G$. Now\nconsider two elements $a$ and $b$ of $G$. To finish the proof observe\nthat for $a,b\\in G$ we have $$\\begin{aligned}\n   a\\sim_H b   &\\Rightarrow ab^{-1}\\in H\\\\ \n               &\\Rightarrow ab^{-1} \\sim e\\\\\n               &\\Rightarrow (ab^{-1})b \\sim eb\\\\ \n               &\\Rightarrow a \\sim b \n \\end{aligned}$$ and $$\\begin{aligned}\n   a\\sim b &\\Rightarrow ab^{-1} \\sim bb^{-1}\\\\\n               &\\Rightarrow ab^{-1} \\sim e\\\\\n               &\\Rightarrow a\\sim_H b\\,.\n \\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CorrespondenceOfNormalSubgroupsAndGroupCongruences"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "correspondence of normal subgroups and group congruences"
+  ]
+}

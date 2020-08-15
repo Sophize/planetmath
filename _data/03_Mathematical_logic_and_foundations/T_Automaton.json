@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "next-state function",
+    "terminating state",
+    "FSA",
+    "start state",
+    "recognizer"
+  ],
+  "definition": "An *automaton* is a semiautomaton with two types of special states:\nstarting states, and final states. Specifically, an automaton $A$ is is\na five-tuple $(S,\\Sigma,\\delta,I,F)$, where\n\n1.  $(S,\\Sigma,\\delta)$ is a semiautomaton,\n\n2.  a non-empty set $I\\subseteq S$ of *starting states*, and\n\n3.  a set $F\\subseteq S$ of *final states* or *terminating states*.\n\nA triple $(s,a,t)$ is called a *transition* if $t\\in \\delta(s,a)$, and\nis written $s\\stackrel{a}{\\longrightarrow} t$. The set $\\delta(s,a)$ may\ncontain more than one element (or none at all), which is why an\nautomaton is also said to be *non-deterministic*. If on the other hand\n$\\delta(s,a)$ is a singleton for every $(s,a)$, and $I$ is a singleton,\nthen $A$ is said to be *deterministic*. In a deterministic automaton,\n$\\delta$ can be viewed as a function from $S\\times \\Sigma$ to $S$.\n\nIf $S$ and $\\Sigma$ are both finite, then $A$ is called a *finite-state\nautomaton*, or *FSA* for short.\n\nThe state diagram $G_A$ of a finite-state automaton $A$ is constructed\nas if $A$ is being treated as a semiautomaton. In addition, a vertex\ncorresponding to a starting state has an incoming arrow without a\nsource, and a vertex corresponding to a final state has an outgoing\narrow without a destination (alternatively, it may be represented by a\ndouble circle). This is illustrated in the following example:\n\nLet $A$ be given by $S=\\lbrace \\sigma, s, t\\rbrace$, where $\\sigma$ is\nthe starting state, and $t$ the final state,\n$\\Sigma=\\lbrace a,b\\rbrace$, with the transition function given by the\nfollowing table\n\n                   $a$         $b$\n  ---------- --------------- -------\n   $\\sigma$        $s$         $t$\n     $s$      $\\varnothing$   $t,s$\n     $t$        $\\sigma$       $s$\n\nThen the state diagram $G_A$ is given by\n\nAn automaton works in exactly the same way as a semiautomaton in terms\nof reading an input word. Briefly:\n\n> when a word $u=a_1a_2 \\cdots a_n$ is fed into $A$ with starting state\n> $q$, $A$ reads $u$ one symbol at a time from left to right, starting\n> from $a_1$. It reaches one of the of next states in $\\delta(q,a_1)$,\n> say, $s$. $A$ reads the next symbol $a_2$, and reaches one of the next\n> states $\\delta(s,a_2)$, and so on..., until the last symbol $a_n$ has\n> been read. $u$ is accepted if, it is possible, upon reading the last\n> symbol $a_n$, a final state is reached.\n\nBasically, this means that a word $u$ is *accepted* by $A$ iff\n$\\delta(q,u)$ contains a final state. The language accepted by $A$ is\nthe set of all words accepted by $A$, and is denoted by $L(A)$.\n\nClearly, if $F=\\varnothing$, then $L(A)=\\varnothing$.\n\n**Remark**. The word \u201cautomaton\u201d may be used in a context wider than the\ndefinition given above. Any computing device capable of accepting\nstrings of symbols is termed an automaton in this wider context. The set\nof all accepted strings is called the language accepted by the\nautomaton. The automata defined in this entry accept what are known as\nregular languages. A famous example is the , invented by Alan Turing in\n1935. Languages accepted by Turing machines are exactly the recursively\nenumerable languages. Other common examples of automata are: , which\naccept context-free languages; and , which accept context-sensitive\nlanguages.",
+  "language": "INFORMAL",
+  "phrase": "Automaton",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Automaton"
+    }
+  ],
+  "indexable": true
+}

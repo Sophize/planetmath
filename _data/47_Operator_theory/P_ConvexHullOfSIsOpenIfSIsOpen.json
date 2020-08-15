@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} If $S$ is an open set in a topological vector space,\nthen the convex hull ${\\operatorname{co}}(S)$ is open.\n\nAs the next example shows, the corresponding result does not hold for a\nclosed set.\n\n[**Example**]{} (Valentine, p. 14) If\n$$S=\\{ (x,1/|x|)\\in {\\mathbbmss{R}}^2 \\mid x\\in {\\mathbbmss{R}}\\setminus \\{0\\} \\},$$\nthen $S$ is closed, but ${\\operatorname{co}}(S)$ is the open half-space\n$\\{(x,y) \\mid x\\in {\\mathbbmss{R}}, y\\in(0,\\infty) \\}$, which is not\nclosed (points on the $x$-axis are accumulation points not in the set,\nor also can be seen by checking the complement is not open). $\\Box$\n\n**Reference**\\\nF.A. Valentine, *Convex sets*, McGraw-Hill book company, 1964.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvexHullOfSIsOpenIfSIsOpen"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "convex hull of $S$ is open if $S$ is open"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $k$ be a field, and let $R$ be a connected commutative $k$-algebra\nby ${\\mathbb}{N}^m$. Then via the grading, we can decompose $R$ into a\ndirect sum of vector spaces:\n$R=\\coprod_{\\omega\\in{\\mathbb}{N}^m} R_\\omega$, where $R_0=k$.\n\nFor an arbitrary ring element $x\\in R$, we define the *homogeneous\ndegree* of $x$ to be the value $\\omega$ such that $x\\in R_\\omega$, and\nwe denote this by $\\deg(x)=\\omega$. (See also homogeneous ideal)\n\nA set of some importance (ironically), is the *irrelevant ideal* of $R$,\ndenoted by $R^+$, and given by\n\n$$\\begin{aligned}\nR_+=\\coprod_{\\omega\\neq 0}R_\\omega.\\end{aligned}$$\n\nFinally, we often need to consider the elements of such a ring $R$\nwithout using the grading, and we do this by looking at the *homogeneous\nunion* of $R$:\n\n$$\\begin{aligned}\n\\mathcal{H}(R)=\\bigcup_\\omega R_\\omega.\\end{aligned}$$\n\nIn particular, in defining a homogeneous system of parameters, we are\nlooking at elements of $\\mathcal{H}(R_+)$.\n\n[9]{} Richard P. Stanley, [*Combinatorics and Commutative Algebra*]{},\nSecond edition, Birkhauser Press. Boston, MA. 1986.",
+  "language": "INFORMAL",
+  "phrase": "Homogeneous Elements Of A Graded Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomogeneousElementsOfAGradedRing"
+    }
+  ],
+  "indexable": true
+}

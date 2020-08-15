@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "closed"
+  ],
+  "definition": "Let $B$ be a Banach space. A linear operator\n$A\\colon\\mathscr{D}(A)\\subset B\\to B$ is said to be if for every\nsequence $\\{x_n\\}_{n\\in {\\mathbb{N}}}$ in $\\mathscr{D}(A)$ converging to\n$x\\in B$ such that $Ax_n\\xrightarrow[n\\to\\infty]{} y\\in B$, it holds\n$x\\in\\mathscr{D}(A)$ and $Ax = y$. Equivalently, $A$ is closed if its\ngraph is closed in $B\\oplus B$.\n\nGiven an operator $A$, not necessarily closed, if the closure of its\ngraph in $B\\oplus B$ happens to be the graph of some operator, we call\nthat operator the **closure** of $A$, and we say that $A$ is\n**closable**. We denote the closure of $A$ by $\\overline{A}$. It follows\neasily that $A$ is the restriction of $\\overline{A}$ to\n$\\mathscr{D}(A)$.\n\nA **core** of a closable operator is a subset $\\mathscr{C}$ of\n$\\mathscr{D}(A)$ such that the closure of the restriction of $A$ to\n$\\mathscr{C}$ is $\\overline{A}$.\n\nThe following properties are easily checked:\n\n1.  Any bounded linear operator defined on the whole space $B$ is\n    closed;\n\n2.  If $A$ is closed then $A-\\lambda I$ is closed;\n\n3.  If $A$ is closed and it has an inverse, then $A^{-1}$ is also\n    closed;\n\n4.  An operator $A$ admits a closure if and only if for every pair of\n    sequences $\\{x_n\\}$ and $\\{y_n\\}$ in $\\mathscr{D}(A)$, both\n    converging to $z\\in B$, and such that both $\\{Ax_n\\}$ and $\\{Ay_n\\}$\n    converge, it holds $\\lim_n Ax_n = \\lim_n Ay_n$.",
+  "language": "INFORMAL",
+  "phrase": "Closed Operator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosedOperator"
+    }
+  ],
+  "indexable": true
+}

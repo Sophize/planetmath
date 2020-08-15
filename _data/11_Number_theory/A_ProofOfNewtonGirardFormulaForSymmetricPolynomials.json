@@ -1,0 +1,17 @@
+{
+  "argumentText": "The following is a proof of Newton-Girard formula using formal power\nseries. Let $z$ be an indeterminate and $f(z)$ be the polynomial\n$$1-E_1z+\\ldots+(-1)^nE_nz^n.$$ Take log and differentiate both sides of\nthe equation $$f(z) = \\prod_{i=1}^n (1-x_iz).$$\n\nWe obtain $$f'(z)/f(z) = \\sum_{i=1}^n\n\\frac{-x_i}{1-x_iz}, \\label{eq2}$$ where $f'(z)$ is the derivative of\n$f(z)$ $$f'(z) =  -E_1 + 2E_2z - \\ldots +(-1)^{n}nE_n z^{n-1}.$$\n\nThe right hand side of is equal to\n$$-\\sum_{i=1}^n \\sum_{k=0}^\\infty x_i^{k+1} z^{k} =\n  -\\sum_{k=0}^\\infty S_{k+1} z^{k}.$$\n\nBy equating coefficients of $$f'(z) = -f(z)(S_1+S_2z+S_3z^2+\\ldots)$$ we\nget the Newton-Girard formula.",
+  "conclusion": "#P_NewtonGirardFormulaForSymmetricPolynomials",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfNewtonGirardFormulaForSymmetricPolynomials"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Newton-Girard formula for symmetric polynomials"
+  ]
+}

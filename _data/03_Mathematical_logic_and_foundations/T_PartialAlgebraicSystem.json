@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "partial operator",
+    "partial algebra"
+  ],
+  "definition": "Let $\\lambda$ be a cardinal. A partial function $f: A^{\\lambda} \\to A$\nis called a *partial operation* on $A$. $\\lambda$ is called the arity of\n$f$. When $\\lambda$ is finite, $f$ is said to be *finitary*. Otherwise,\nit is *infinitary*. A nullary partial operation is an element of $A$ and\nis called a constant.\n\n**Definition**. A *partial algebraic system* (or *partial algebra* for\nshort) is defined as a pair $(A,O)$, where $A$ is a set, usually\nnon-empty, and called the underlying set of the algebra, and $O$ is a\nset of finitary partial operations on $A$. The partial algebra $(A,O)$\nis sometimes denoted by $\\boldsymbol{A}$.\n\nPartial algebraic systems sit between algebraic systems and relational\nsystems; they are generalizations of algebraic systems, but special\ncases of relational systems.\n\nThe *type* of a partial algebra is defined exactly the same way as that\nof an algebra. When we speak of a partial algebra $\\boldsymbol{A}$ of\ntype $\\tau$, we typically mean that $\\boldsymbol{A}$ is *proper*,\nmeaning that the partial operation $f_{\\boldsymbol{A}}$ is non-empty for\nevery function symbol $f\\in \\tau$, and if $f$ is a constant symbol,\n$f_{\\boldsymbol{A}} \\in A$.\n\nBelow is a short list of partial algebras.\n\n1.  Every algebraic system is automatically a partial algebraic system.\n\n2.  A division ring\n    $(D,\\lbrace +\\mbox{, }\\cdot\\mbox{, }-\\mbox{, }^{-1}\\mbox{, }0\\mbox{, }1\\rbrace)$\n    is a prototypical example of a partial algebra that is not an\n    algebra. It has type $\\langle 2,2,1,1,0,0\\rangle$. It is not an\n    algebra because the unary operation $^{-1}$ (multiplicative inverse)\n    is only partial, not defined for $0$.\n\n3.  Let $A$ be the set of all non-negative integers. Let \u201c$-$\u201d be the\n    ordinary subtraction. Then $(A,\\lbrace -\\rbrace)$ is a partial\n    algebra.\n\n4.  A *partial groupoid* is a partial algebra of type\n    $\\langle 2\\rangle$. In other words, it is a set with a partial\n    binary operation (called the product) on it. For example, a small\n    category may be viewed as a partial algebra. The product $ab$ is\n    only defined when the source of $a$ matches with the target of $b$.\n    Special types of small categories are , and Brandt groupoids, all of\n    which are partial.\n\n5.  A small category can also be thought of as a partial algebra of type\n    $\\langle 2,1,1\\rangle$, where the two (total) unary operators are\n    the source and target operations.\n\n**Remark**. Like algebraic systems, one can define subalgebras, direct\nproducts, homomorphisms, as well as congruences in partial algebras.\n\n[7]{} G. Gr\u00e4tzer: [*Universal Algebra*]{}, 2nd Edition, Springer, New\nYork (1978).",
+  "language": "INFORMAL",
+  "phrase": "Partial Algebraic System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartialAlgebraicSystem"
+    }
+  ],
+  "indexable": true
+}

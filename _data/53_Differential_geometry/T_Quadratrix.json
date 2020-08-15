@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "quadratrix of Hippias",
+    "quadratrix of Dinostratus"
+  ],
+  "definition": "(-1,-1)(4,3) (0,0)(-0.5,-0.5)(4,3) (4,-0.2)[$x$]{} (-0.24,3)[$y$]{}\n(0,0)(3.2,2)(3.2,0) (3.2,2) (0,0)[0.5]{}[0]{}[34]{}\n(3,0)(3,0.2)(3.2,0.2) (0.7,0.2)[$t$]{} (3.5,1)[$kt$]{}\n(3.4,2.25)[$(x,y)$]{}\n\nLet the polar angle $\\theta$ and the ordinate of the point $(x,\\,y)$ of\nthe plane be to a parametre $t$, e.g. such that $\\theta = t$, $y = kt$.\nThe above diagram shows that $\\displaystyle\\frac{x}{kt} = \\cot{t}$. Into\nthis we can substitute $\\displaystyle t = \\frac{y}{k}$, whence we get an\nequation $$\\begin{aligned}\nx \\;=\\; y\\cot\\frac{y}{k}\\end{aligned}$$ between $x$ and $y$. The given\nproportionalities as locus condition, the point $(x,\\,y)$ draws a plane\ncurve called [*quadratrix*]{}. If we change the $x$ and $y$ coordinates,\nthe equation of the quadratrix is $$\\begin{aligned}\ny \\;=\\; x\\cot\\frac{x}{k}.\\end{aligned}$$ The equation (2) defines an\neven function $x \\mapsto y$, where for $x$ is allowed all real values at\nwhich the right hand side of (2) is defined, thus $x \\neq n\\pi k$\n($n \\in \\mathbb{Z}$).\n\n(-5.5,-6.5)(5.5,5) (0,0)(-1.5,-5.5)(3.5,5.5) (-1,-5)(-1,5) (1,-5)(1,5)\n(2,-5)(2,5) (3,-5)(3,5) (3.5,-0.2)[$x$]{} (-0.24,5.4)[$y$]{}\n(-5.5,-6.5)[.]{} (5.5,5)[.]{}\n\nThe quadratrix was used by the ancient Greek geometers for squaring the\ncircle, the name comes from the Latin [*quadratrix*]{} = \u2018a feminine\nsquarer\u2019.\\",
+  "language": "INFORMAL",
+  "phrase": "Quadratrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Quadratrix"
+    }
+  ],
+  "indexable": true
+}

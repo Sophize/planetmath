@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $U$ be an open subset of $\\mathbb{R}^n$ and let $f\\in C^1(U)$ be a\ncontinuous differentiable vector field $$f\\colon U \\to \\mathbb{R}^n.$$\nIf there exists $x_0\\in U$ such that $f(x_0)\\neq 0$ then there exists\n$U_0\\subset U$ an open neighborhood of $x_0$ such that there exists a\ndiffeomorphism of class $C^1$ $$F\\colon U_0 \\to V$$ where $V$ is an open\nsubset of $\\mathbb{R}^n$ such that $$[DF(x)]f(x)=e_1$$ for all\n$x\\in U_0$ where $[DF(x)]$ is the Jacobian of the diffeomorphism $F$\nevaluated at $x$ and $e_1=(1,0,\\ldots,0)$ is the first vector of the\ncanonical basis of $\\mathbb{R}^n$. More generally if the vector field\n$f$ is of class $C^r$ then so is the diffeomorphism $F$. [@AVI]\n\n[1]{} Arnold, V.I.: Ordinary Differential Equations *(translated by R.A.\nSilverman)*. The MIT Press, Cambridge, 1973.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RectificationTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "rectification theorem"
+  ]
+}

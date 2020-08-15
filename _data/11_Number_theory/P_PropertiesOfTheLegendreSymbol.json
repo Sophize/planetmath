@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $p$ be an odd prime and let $a$ be an arbitrary integer. Let\n$\\displaystyle \\left(\\frac{a}{p}\\right)$ be the Legendre symbol of $a$\nmodulo $p$. Then:\n\nThe following properties are satisfied:\n\n1.  If $a\\equiv b \\mod p$ then\n    $\\displaystyle \\left(\\frac{a}{p}\\right)=\\left(\\frac{b}{p}\\right)$.\n\n2.  If $a\\neq 0 \\mod p$ then\n    $\\displaystyle \\left(\\frac{a^2}{p}\\right)=1$.\n\n3.  If $a\\neq 0 \\mod p$ and $b\\in \\mathbb{Z}$ then\n    $\\displaystyle \\left(\\frac{a^2b}{p}\\right)=\\left(\\frac{b}{p}\\right)$.\n\n4.  $\\displaystyle \\left(\\frac{a}{p}\\right)\\left(\\frac{b}{p}\\right)=\\left(\\frac{ab}{p}\\right)$.\n\nThe first three properties are immediate from the definition of the\nLegendre symbol. Remember that $(a/p)$ is $1$ if $x^2\\equiv a \\mod p$\nhas solutions, the value is $-1$ if there are no solutions, and equals\n$0$ if $a\\equiv 0 \\mod p$.\n\nThe fourth property is a consequence of Euler\u2019s criterion. Indeed,\n$$\\left(\\frac{a}{p}\\right)\\equiv a^{(p-1)/2},\\quad \\left(\\frac{b}{p}\\right)\\equiv b^{(p-1)/2},\\quad\n\\text{and } \\left(\\frac{ab}{p}\\right)\\equiv (ab)^{(p-1)/2} \\mod\np.$$ It is clear then that $(a/p)(b/p)\\equiv (ab/p) \\mod p$. Since the\nnumbers involved are all $\\pm 1$ or $0$, the congruence also holds with\nequality in $\\mathbb{Z}$.\n\nProperty (4) is somewhat surprising because, in particular, it says that\nthe product of two quadratic non-residues modulo $p$ is a quadratic\nresidue modulo $p$, which is not at all obvious.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertiesOfTheLegendreSymbol"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "properties of the Legendre symbol"
+  ]
+}

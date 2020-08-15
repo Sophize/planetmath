@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Hermitian form",
+    "Hermitean form"
+  ],
+  "definition": "Let $V$ be a vector space over a field $k$. $k$ may be of any\ncharacteristic.\n\nSesquilinear Forms\n==================\n\nA function $b:V\\times V\\rightarrow k$ is sesquilinear if it satisfies\neach of the following:\n\n1.  $b(v,w+u)=b(v,w)+b(v,u)$ and $b(v+u,w)=b(v,w)+b(u,w)$ for all\n    $u,v,w\\in V$;\n\n2.  For a given field automorphism $\\theta$ of $k$,\n    $b(v,lw)=l^\\theta b(v,w)$ and $b(lv,w)=lb(v,w)$ for all $v,w\\in V$\n    and $l\\in k$.\n\nIt is possible to apply the field automorphism in the first variable but\nis more common to do so in the second variable. Also, if $\\theta=1$ the\nform is a bilinear form.\n\nSesquilinear forms are commonly ascribed any combination of the\nfollowing properties:\n\n-   non-degenerate,\n\n-   reflexive, (commonly required to define perpendicular);\n\n-   positive definite (this condition requires the fixed field of\n    $\\theta$, $k_0$, be an ordered field, such as the rationals\n    $\\mathbb{Q}$ or reals $\\mathbb{R}$).\n\nNon-degenerate sesquilinear and bilinear forms apply to projective\ngeometries as dualities and polarities through the induced $\\perp$\noperation. (See .)\n\nHermitian Forms\n===============\n\nIf $\\theta^2=1$, it is common to exchange notation at this point and use\nthe same notation of $\\bar{l}$ for $l^\\theta$ as is common for complex\nconjugation \u2013 even if $k$ is not $\\mathbb{C}$. Then $\\bar{\\bar{l}}=l$.\n\nIn this notation, Hermitian forms may be defined by the property\n$$b(v,w)=\\overline{b(w,v)}.$$\n\nIt is not uncommon to see hermitian or Hermitean instead of Hermitian.\nThe name is a tribute to Charles Hermite of the Ecole Polytechnique.",
+  "language": "INFORMAL",
+  "phrase": "Sesquilinear Forms Over General Fields",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SesquilinearFormsOverGeneralFields"
+    }
+  ],
+  "indexable": true
+}

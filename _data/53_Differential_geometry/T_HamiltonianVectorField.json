@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(M,\\omega)$ be a symplectic manifold, and\n${\\tilde{\\omega}}:TM\\to T^*M$ be the isomorphism from the tangent bundle\nto the cotangent bundle $$X\\mapsto{\\omega}(\\cdot,X)$$ and let\n$f:M\\to{\\mathbb{R}}$ is a smooth function. Then\n$H_f={\\tilde{\\omega}}^{-1}(df)$ is the [*Hamiltonian vector field*]{} of\n$f$. The vector field $H_f$ is , and a symplectic vector field $X$ is if\nand only if the 1-form ${\\tilde{\\omega}}(X)=\n{\\omega}(\\cdot,X)$ is exact.\n\nIf $T^*Q$ is the cotangent bundle of a manifold $Q$, which is naturally\nidentified with the phase space of one particle on $Q$, and $f$ is the\nHamiltonian, then the flow of the Hamiltonian vector field $H_f$ is the\ntime flow of the physical system.",
+  "language": "INFORMAL",
+  "phrase": "Hamiltonian Vector Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HamiltonianVectorField"
+    }
+  ],
+  "indexable": true
+}

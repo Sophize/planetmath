@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "eigenvalues",
+    "spectrum"
+  ],
+  "definition": "Let $X$ a topological vector space and\n$A: X \\supset D_A \\longrightarrow X$ a linear transformation with domain\n$D_A$. Depending on the properties of[^1] $(\\lambda - A)$ the following\ndefinitions apply:\n\n   $(\\lambda-A)^{-1}$   Boundness of $(\\lambda-A)^{-1}$       $R(\\lambda-A)$         Set to which $\\lambda$ belongs\n  -------------------- --------------------------------- ------------------------- ----------------------------------\n         exists                     bounded                     dense in X              resolvent set $\\rho(A)$\n         exists                    unbounded                    dense in X          continuous spectrum $C\\sigma(A)$\n         exists            bounded or unbounded in X          not dense in X         residual spectrum $R\\sigma(A)$\n       not exists                                         dense or not dense in X    puntual spectrum $P\\sigma(A)$\n\nIt is obvious that, if $F$ is the field of possible values for $\\lambda$\n(usually $F=\\mathbb C$ or $F=\\mathbb R$) then\n$F=\\rho(A) \\cup C\\sigma(A) \\cup R\\sigma(A) \\cup P\\sigma(A)$, that is,\nthese definitions cover all the possibilities for $\\lambda$. The\ncomplement of the resolvent set is called *spectrum* of the operator A,\ni.e., $\\sigma(A)=C\\sigma(A) \\cup R\\sigma(A) \\cup P\\sigma(A)$\n\nIn the finite dimensional case if $(\\lambda-A)^{-1}$ exists it must be\nbounded, since all finite dimensional linear mappings are bounded. This\nexistence also implies that the range of $(\\lambda-A)$ must be the whole\nX. So, in the finite dimensional case the only spectral values we can\nencounter are point spectrum values (eigenvalues).\n\n[^1]: the notation $(\\lambda -A)$ is to be understood as $\\lambda I -A$\n    with $I$ the identity transformation and $R(\\lambda-A)$ is the range\n    of $(\\lambda -A)$",
+  "language": "INFORMAL",
+  "phrase": "Spectral Values Classification",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpectralValuesClassification"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "I-adic topology"
+  ],
+  "definition": "Let $R$ be a ring and $I$ an ideal in $R$ such that\n$$\\bigcap_{k=1}^\\infty I^k=\\{0\\}.$$\n\nThough not usually explicitly done, we can define a metric on $R$ by\ndefining $ord_I(r)$ for a $r\\in R$ by $ord_I(r)=k$ where $k$ is the\nlargest integer such that $r\\in I^k$ (well-defined by the intersection\nassumption, and $I^0$ is taken to be the entire ring) and by\n$ord_I(0)=\\infty$, and then defining for any $r_1,r_2\\in R$,\n$$d_I(r_1,r_2)=2^{-ord_I(r_1-r_s)}.$$\n\nThe topology induced by this metric is called the $I$-adic topology.\nNote that the number 2 was chosen rather arbitrarily. Any other real\nnumber greater than 1 will induce an equivalent topology.\n\nExcept in the case of the similarly-defined $p$-adic topology, it is\nrare that reference is made to the actual $I$-adic metric. Instead, we\nusually refer to the $I$-adic topology.\n\nIn particular, a sequence of elements in $\\{r_i\\}\\in R$ is Cauchy with\nrespect to this topology if for any $k$ there exists an $N$ such that\nfor all $m,n\\geq N$ we have $(a_m-a_n)\\in I^k$. (Note the parallel with\nthe metric version of Cauchy, where $k$ plays the part analogous to an\narbitrary $\\epsilon$). The ring $R$ is complete with respect to the\n$I$-adic topology if every such Cauchy sequence converges to an element\nof $R$.",
+  "language": "INFORMAL",
+  "phrase": "$I$-Adic Topology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IadicTopology"
+    }
+  ],
+  "indexable": true
+}

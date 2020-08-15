@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*unit hyperbola*]{} (cf. the unit circle) is the special case\n$$x^2-y^2 = 1$$ of the hyperbola $$\\frac{x^2}{a^2}-\\frac{y^2}{b^2} = 1$$\nwhere both the $a$ and the $b$ have equal to 1. The unit hyperbola is\n[*rectangular*]{}, i.e. its asymptotes ($y = \\pm x$) are at right angles\nto each other.\n\n![image](unithyperola)\n\nThe unit hyperbola has the well-known parametric\n$$x = \\pm\\cosh{t},  \\quad y = \\sinh{t},$$ and also a trigonometric\n$$x = \\sec{t},  \\quad y = \\tan{t}.$$ The former yields the rational\n$$x = \\frac{u^2+1}{2u},  \\quad y = \\frac{u^2-1}{2u}$$ when one\nsubstitutes $e^t = u$, and the latter, via the substitution\n$\\tan\\frac{t}{2} = u$, the rational\n$$x = \\frac{1+u^2}{1-u^2},  \\quad y = \\frac{2u}{1-u^2}$$ (which does not\ngive the left apex of the hyperbola).",
+  "language": "INFORMAL",
+  "phrase": "Unit Hyperbola",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnitHyperbola"
+    }
+  ],
+  "indexable": true
+}

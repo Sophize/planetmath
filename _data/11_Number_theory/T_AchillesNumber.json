@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a composite number $n$ with factorization\n$$\\prod_{i = 1}^{\\omega(n)} {p_i}^{a_i},$$ where the $p_i$ are all\ndistinct primes, and the $a_i$ are positive integers (and also distinct,\nalways $a_i > 1$), and $\\omega(x)$ is the number of distinct prime\nfactors function, then $n$ is a squarefull number, and if it is also the\ncase that there is no solution to $n = x^y$ in integers (with $x \\ne n$\nand $y > 1$), then $n$ is called an [*Achilles number*]{}.\n\nSo, for example, 1323, being $3^3 \\times 7^2$, is divisible by the\nsquares of both 3 and 7, but its square root is approximately 36.373,\nits cubic root is about 10.9779, its fourth root is about 6.031, its\nfifth root is about 4.21, its sixth root is 3.313, seventh root about\n2.792, etc.\n\nAn Achilles number has to have distinct exponents for its prime factors:\nwith equal exponents, we can see that ${p_a}^x {p_b}^x = (p_a p_b)^x$.\nThe reverse is often not true: for example, 144 is $2^4 \\times 3^2$, yet\nit can be expressed as $12^2$.\n\nAccording to Greek legend, Achilles was a powerful, seemingly invincible\nwarrior who fought in the Trojan War. In some versions of the story, his\nmother Thetis held baby Achilles by the left heel and dipped him into\nthe Styx river, making him invulnerable to attack anywhere on his body\nexcept the one heel. Thus, Achilles was very powerful, but not perfect\nbecause of his fatal weak spot. Likewise, Achilles numbers are powerfull\nbut they are not perfect powers.\n\n[2]{} C. Bossley, B. Martinelli, N. Maffulli, & C. Raisbeck, \u201cRupture of\nthe Achilles Tendon\u201d [*J Bone Joint Surg Am.*]{} 2000 Dec; 82 - A (12):\n1804 H. Bottomley & N. Sloane, Sequence A052486 in On-Line Encyclopedia\nof Integer Sequences",
+  "language": "INFORMAL",
+  "phrase": "Achilles Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AchillesNumber"
+    }
+  ],
+  "indexable": true
+}

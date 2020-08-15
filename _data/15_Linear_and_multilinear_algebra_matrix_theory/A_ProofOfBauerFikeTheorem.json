@@ -1,0 +1,17 @@
+{
+  "argumentText": "We can assume $\\tilde{\\lambda}\\notin\\sigma(A)$ (otherwise, we can choose\n$\\lambda=\\tilde{\\lambda}$ and theorem is proven, since $\\kappa_p(X)>1$).\nThen $(A-\\tilde{\\lambda} I)^{-1}$ exists, so we can write:\n$$\\tilde{u}=(A-\\tilde{\\lambda} I)^{-1}r=X(D-\\tilde{\\lambda} I)^{-1}X^{-1}r$$\nsince $A$ is diagonalizable; taking the of both sides, we obtain:\n\n$$\\begin{aligned}\n1&=&\\|\\tilde{u}\\|_p\\\\\n&=& \\|X(D-\\tilde{\\lambda} I)^{-1}X^{-1}r\\|_p \\leq \\|X\\|_p \\|(D-\\tilde{\\lambda} I)^{-1}\\|_p \\|X^{-1}\\|_p \\|r\\|_p\\\\\n&=& \\kappa_p(X)\\|(D-\\tilde{\\lambda} I)^{-1}\\|_p \\|r\\|_p.\\end{aligned}$$\n\nBut, since $(D-\\tilde{\\lambda} I)^{-1}$ is a diagonal matrix, the p-norm\nis easily computed, and yields:\n$$\\|(D-\\tilde{\\lambda} I)^{-1}\\|_p=\\max\\limits_{\\|x\\|_p \\ne 0}\\frac{\\|(D-\\tilde{\\lambda} I)^{-1}x\\|_p}{\\|x\\|_p}=\\max\\limits_{\\lambda\\in\\sigma(A)} \\frac{1}{|\\lambda-\\tilde{\\lambda}|}=\\frac{1}{\\min\\limits_{\\lambda\\in\\sigma(A)}|\\lambda-\\tilde{\\lambda}|}$$\nwhence:\n$$\\min\\limits_{\\lambda\\in\\sigma(A)}|\\lambda-\\tilde{\\lambda}|\\leq\\kappa_p(X)||r||_p.$$",
+  "conclusion": "#P_BauerFikeTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBauerFikeTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Bauer-Fike theorem"
+  ]
+}

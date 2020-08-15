@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The invariance theorem states that a universal Turing machine provides\nan optimal means of description, up to a constant. Formally, for every\nTuring machine $M$ there exists a constant $c$ such that for all binary\nstrings $x$ we have $$C_U(x) \\leq C_M(x) + c.$$ Here, $C_U$ means the\ncomplexity with respect to the universal Turing machine and $C_M$ means\nthe complexity with respect to $M$.\n\nThis follows trivially from the definition of a universal Turing\nmachine, taking $c = l(<M>)$ as the length of the encoding of $M$.\n\nThe invariance theorem holds likewise for prefix and conditional\ncomplexities.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InvarianceTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "invariance theorem"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem 1 -**]{} Let $X$ be a Banach space and $M$ a closed subspace.\nThen,\n\n-   $M$ is topologically complemented in $X$ if and only if there exists\n    a continuous projection onto $M$.\n\n<!-- -->\n\n-   Given a topological complement $N$ of $M$, there exists a unique\n    continuous projection $P$ onto $M$ such that $P(x+y)=x$ for all\n    $x \\in M$ and $y \\in N$.\n\n$\\;$\n\nThe projection $P$ in the second part of the above theorem is sometimes\ncalled the *projection onto $M$ along $N$*.\n\nThe above result can be further improved for Hilbert spaces.\n\n$\\,$\n\n[**Theorem 2 -** ]{} Let $X$ be a Hilbert space and $M$ a closed\nsubspace. Then, $M$ is topologically complemented in $X$ if and only if\nthere exists an orthogonal projection onto $M$ (which is unique).\n\n$\\,$\n\nSince, by the orthogonal decomposition theorem, a closed subspace of a\nHilbert space is always topologically complemented by its orthogonal\ncomplement ($X=M \\oplus M^{\\perp}$), it follows that\n\n$\\,$\n\n[**Corollary -**]{} Let $X$ be a Hilbert space and $M$ a closed\nsubspace. Then, there exists a unique orthogonal projection onto $M$.\nThis establishes a bijective correspondence between orthogonal\nprojections and closed subspaces.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProjectionsAndClosedSubspaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "projections and closed subspaces",
+    "projection along a closed subspace",
+    "orthogonal projections onto Hilbert subspaces"
+  ]
+}

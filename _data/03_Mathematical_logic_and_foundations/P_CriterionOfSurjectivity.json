@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** For surjectivity of a mapping $f\\!:\\,A \\to B$, it\u2019s\nnecessary and sufficient that $$\\begin{aligned}\nB\\!\\smallsetminus\\!f(X) \\,\\subseteq\\, f(A\\!\\smallsetminus\\!X) \\quad \\forall\\, X \\subseteq A.\\end{aligned}$$\n\n[*Proof.*]{} $1^{\\underline{o}}$. Suppose that $f\\!:\\,A \\to B$ is\nsurjective. Let $X$ be an arbitrary subset of $A$ and $y$ any element of\nthe set $B\\!\\smallsetminus\\!f(X)$. By the surjectivity, there is an $x$\nin $A$ such that $f(x) = y$, and since $y \\notin f(X)$, the element $x$\nis not in $X$, i.e. $x \\in A\\!\\smallsetminus\\!X$ and thus\n$y = f(x) \\in f(A\\!\\smallsetminus\\!X)$. One can conclude that\n$B\\!\\smallsetminus\\!f(X) \\,\\subseteq\\, f(A\\!\\smallsetminus\\!X)$ for all\n$X \\subseteq A$.\n\n$2^{\\underline{o}}$. Conversely, suppose the condition (1). Let again\n$X$ be an arbitrary subset of $A$ and $y$ any element of $B$. We have\ntwo possibilities:\\\na) $y \\notin f(X)$; then $y \\in B\\!\\smallsetminus\\!f(X)$, and by (1),\n$y \\in f(A\\!\\smallsetminus\\!X)$. This means that there exists an element\n$x$ of $A\\!\\smallsetminus\\!X \\subseteq A$ such that $f(x) = y$.\\\nb) $y \\in f(X)$; then there exists an $x \\in X \\subseteq A$ such that\n$f(x) = y$.\\\nThe both cases show the surjectivity of $f$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CriterionOfSurjectivity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "criterion of surjectivity",
+    "surjectivity criterion"
+  ]
+}

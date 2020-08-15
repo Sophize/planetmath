@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *ring* is a set $R$ together with two binary operations, denoted\n$+: R \\times R \\longrightarrow R$ and\n$\\cdot: R \\times R \\longrightarrow R$, such that\n\n1.  $(a+b)+c = a+(b+c)$ and $(a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)$\n    for all $a,b,c \\in R$ (associative law)\n\n2.  $a+b = b+a$ for all $a,b \\in R$ (commutative law)\n\n3.  There exists an element $0 \\in R$ such that $a+0 = a$ for all\n    $a \\in R$ (additive identity)\n\n4.  For all $a \\in R$, there exists $b \\in R$ such that $a+b = 0$\n    (additive inverse)\n\n5.  $a\\cdot(b+c) = (a \\cdot b) + (a \\cdot c)$ and\n    $(a+b) \\cdot c = (a \\cdot c) + (b \\cdot c)$ for all $a,b,c \\in R$\n    (distributive law)\n\nEquivalently, a ring is an abelian group $(R,+)$ together with a second\nbinary operation $\\cdot$ such that $\\cdot$ is associative and\ndistributes over $+$. Additive inverses are unique, and one can define\n*subtraction* in any ring using the formula $a-b := a + (-b)$ where $-b$\nis the additive inverse of $b$.\n\nWe say $R$ has a *multiplicative identity* if there exists an element\n$1 \\in R$ such that $a \\cdot 1 = 1 \\cdot a = a$ for all $a \\in R$.\nAlternatively, one may say that $R$ is a *ring with unity*, a *unital\nring*, or a *unitary ring*. Oftentimes an author will adopt the\nconvention that all rings have a multiplicative identity. If $R$ does\nhave a multiplicative identity, then a *multiplicative inverse* of an\nelement $a \\in R$ is an element $b \\in R$ such that\n$a \\cdot b = b \\cdot a = 1$. An element of $R$ that has a multiplicative\ninverse is called a *unit* of $R$.\n\nA ring $R$ is *commutative* if $a \\cdot b = b \\cdot a$ for all\n$a,b \\in R$.",
+  "language": "INFORMAL",
+  "phrase": "Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ring"
+    }
+  ],
+  "indexable": true
+}

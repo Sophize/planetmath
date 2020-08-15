@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $P$ be a primal linear programming problem with $f$ the objective\nfunction and polyhedron $R$ as its feasible region. A *corner point*, or\nextreme point of $P$ is a of $R$.\n\n**Corner Point Theorem.** If $P$ has an optimal solution $a<\\infty$,\nthen there is a corner point $p$ of $P$ such that $f(p)=a$. If another\ncorner point $q$ also satisfies $f(x)=a$, then\n$f(\\overline{pq})=\\lbrace a\\rbrace$. If $r$ is a third corner point such\nthat $f(r)=a$, then $f(\\triangle pqr)=\\lbrace a\\rbrace$.\n\nNote that the line segment and triangle mentioned above are necessarily\nsubsets of $R$.\n\nA cousin of the above theorem is the following:\n\n**Theorem.** If $P$ has an optimal solution $a<\\infty$ occurring at an\ninterior point of an edge $E$ (or a face $F$) on the boundary of the\nfeasible region $R$, then $f(E)=\\lbrace a\\rbrace$ (or\n$f(F)=\\lbrace a\\rbrace$). In fact, if the solution occurs at an interior\npoint of $R$, then the solution is satisfied by all points of $R$:\n$f(R)=\\lbrace a\\rbrace$. In other words, the objective function $f$ is\nconstant on $R$.\n\nOn way to visualize the above theorems is to simplify them into the case\nwhen the objective function is a line $f(x)=mx+b$ on the \u201c$x-y$ plane\u201d\nand the feasible region is a line segment $I=[x_0,x_1]$ on the $x$-axis.\nIt is easy to see now that the maximum (or minimum) of $f$ occurs at\neither $x_0$ or $x_1$. If the optimal value occurs either at both end\npoints, or at an interior point $x_2\\in(x_0,x_1)$, then $f$ is a\nhorizontal line segment on $I$.\n\nAn application of the above theorems can be demonstrated by the\nfollowing example: If the feasible region $R$ is a unit square and if\ncorner points $(0,0),(1,1)$ satisfy the optimal solution of $P$, then\nall points on $\\lbrace (x,y)\\mid x=y\\rbrace \\cap R$ satisfy the\nsolution. In particular, $(\\frac{1}{2},\\frac{1}{2})$, an interior point\nof $R$, satisfies the solution. As a result, all points of $R$ satisfy\nthe solution.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CornerPointTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "corner point theorem",
+    "fundamental theorem of linear programming"
+  ]
+}

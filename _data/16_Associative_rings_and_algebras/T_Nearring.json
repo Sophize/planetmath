@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "near ring",
+    "nearring"
+  ],
+  "definition": "Definitions {#definitions .unnumbered}\n===========\n\nA *near-ring* is a $N$ together with two binary operations, denoted\n$+\\colon N \\times N \\to N$ and $\\cdot\\colon N \\times N \\to N$, such that\n\n1.  $(a+b)+c = a+(b+c)$ and $(a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)$\n    for all $a,b,c \\in N$ (associativity of both operations)\n\n2.  There exists an element $0 \\in N$ such that $a+0 = 0+a = a$ for all\n    $a \\in N$ (additive identity)\n\n3.  For all $a \\in N$, there exists $b \\in N$ such that $a+b = b+a = 0$\n    (additive inverse)\n\n4.  $(a+b) \\cdot c = (a \\cdot c) + (b \\cdot c)$ for all $a,b,c \\in N$\n    (right distributive law)\n\nNote that the axioms of a near-ring differ from those of a ring in that\nthey do not require addition to be , and only require distributivity on\none side.\n\nA *near-field* is a near-ring $N$ such that $(N\\setminus\\{0\\},\\cdot)$ is\na group.\n\nNotes {#notes .unnumbered}\n=====\n\nEvery element $a$ in a near-ring has a unique additive inverse, denoted\n$-a$.\n\nWe say $N$ has an [*identity element*]{} if there exists an element\n$1 \\in N$ such that $a \\cdot 1 = 1 \\cdot a = a$ for all $a \\in N$. We\nsay $N$ is [*distributive*]{} if\n$a\\cdot(b+c) = (a \\cdot b) + (a \\cdot c)$ holds for all $a,b,c \\in N$.\nWe say $N$ is [*commutative*]{} if $a \\cdot b = b \\cdot a$ for all\n$a,b \\in N$.\n\nEvery commutative near-ring is distributive. Every distributive\nnear-ring with an identity element is a unital ring (see the ).\n\nExample {#example .unnumbered}\n=======\n\nA natural example of a near-ring is the following. Let $(G,+)$ be a\ngroup (not necessarily ), and let $M$ be the set of all functions from\n$G$ to $G$. For two functions $f$ and $g$ in $M$ define $f+g\\in M$ by\n$(f+g)(x)=f(x)+g(x)$ for all $x\\in G$. Then $(M,+,\\circ)$ is a near-ring\nwith identity, where $\\circ$ denotes composition of functions.\n\n[9]{} G\u00fcnter Pilz, [*Near-Rings*]{}, North-Holland, 1983.",
+  "language": "INFORMAL",
+  "phrase": "Near-Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Nearring"
+    }
+  ],
+  "indexable": true
+}

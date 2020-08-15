@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a ring. Then $J(R/J(R))=(0)$.\n\n[*Proof:*]{}\\\nWe will only prove this in the case where $R$ is a unital ring (although\nit is true without this assumption).\n\nLet $[u] \\in J(R/J(R))$. By one of the characterizations of the Jacobson\nradical, $1-[r][u]$ is left invertible for all $r \\in R$, so there\nexists $v \\in R$ such that $[v](1-[r][u])=1$.\n\nThen $v(1-ru)=1-a$ for some $a \\in J(R)$. There is a $w \\in R$ such that\n$w(1-a)=1$, and we have $wv(1-ru)=1$.\n\nSince this holds for all $r \\in R$, it follows that $u \\in J(R)$, and\ntherefore $[u]=0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ARingModuloItsJacobsonRadicalIsSemiprimitive"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a ring modulo its Jacobson radical is semiprimitive"
+  ]
+}

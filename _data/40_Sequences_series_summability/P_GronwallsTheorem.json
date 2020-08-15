@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The function\n$$G(n) \\; :=\\; \\frac{\\sigma(n)}{n\\ln(\\ln{n})} \\qquad (n \\;=\\; 2,\\,3,\\,4,\\,\\ldots),$$\nin which $\\sigma(n)$ means the sum of the positive divisors of $n$,\nsatisfies the equation $$\\limsup_{n\\to\\infty}\\,G(n) \\;=\\; e^{\\gamma}$$\nwhere $\\gamma$ is the Euler\u2013Mascheroni constant.\n\n[8]{} : Some asymptotic expressions in the theory of numbers. $-$\n*Trans. Amer. Math. Soc.* **14** (1913) 113\u2013122.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GronwallsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gronwall's theorem"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "$\\mathbb{C}$"
+  ],
+  "definition": "The ring of complex numbers $\\mathbb{C}$ is defined to be the quotient\nring of the polynomial ring $\\mathbb{R}[X]$ in one variable over the\nreals by the principal ideal $(X^2+1)$. For $a,b \\in \\mathbb{R}$, the\nequivalence class of $a+bX$ in $\\mathbb{C}$ is usually denoted $a+bi$,\nand one has $i^2 = -1$.\n\nThe complex numbers form an algebraically closed field. There is a\nstandard metric on the complex numbers, defined by\n$$d(a_1+b_1 i, a_2+b_2 i) := \\sqrt{(a_2-a_1)^2 + (b_2-b_1)^2}.$$",
+  "language": "INFORMAL",
+  "phrase": "Complex Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComplexNumber"
+    }
+  ],
+  "indexable": true
+}

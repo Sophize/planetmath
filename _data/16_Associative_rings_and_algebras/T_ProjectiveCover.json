@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ and $P$ be modules. We say that $P$ is a [*projective cover*]{}\nof $X$ if $P$ is a projective module and there exists an epimorphism\n$p \\colon P \\to X$ such that $\\operatorname{ker} p$ is a superfluous\nsubmodule of $P$.\n\nEquivalently, $P$ is an projective cover of $X$ if $P$ is projective,\nand there is an epimorphism $p \\colon P \\to X$, and if\n$g \\colon P' \\to X$ is an epimorphism from a projective module $P'$ to\n$X$, then there exists an epimorphism $h \\colon P' \\to P$ such that\n$ph = g$. $$\\xymatrix{\n  &\n  P'\n        \\ar[d]^g\n        \\ar@{-->}[dl]_h\n  \\\\\n  P\n        \\ar[r]_p\n  &\n  X\n        \\ar[r]\n        \\ar[d]\n  &\n  0\n  \\\\\n  &\n  0\n}$$",
+  "language": "INFORMAL",
+  "phrase": "Projective Cover",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProjectiveCover"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "dequeue"
+  ],
+  "definition": "Given a stack, the act of removing an element from the top of the stack\nis to *pop* it off. If there is a stack pointer, it would be decremented\n(or incremented if the bottom element of the stack is placed at the\nhighest memory address available).\n\nTo do this to a queue is usually called to *dequeue*.",
+  "language": "INFORMAL",
+  "phrase": "Pop",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Pop"
+    }
+  ],
+  "indexable": true
+}

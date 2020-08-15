@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Cayley-table"
+  ],
+  "definition": "A *Cayley table* for a group is essentially the \u201cmultiplication table\u201d\nof the group.[^1] The columns and rows of the table (or matrix) are\nlabeled with the elements of the group, and the cells represent the\nresult of applying the group operation to the row-th and column-th\nelements.\n\nFormally, let $G$ be our group, with operation $\\circ$ the group\noperation. Let $C$ be the Cayley table for the group, with $C(i,j)$\ndenoting the element at row $i$ and column $j$. Then\n\n$$C(i,j) = e_i \\circ e_j$$\n\nwhere $e_i$ is the $i$th element of the group, and $e_j$ is the $j$th\nelement.\n\nNote that for an Abelian group, we have $e_i \\circ e_j = e_j \\circ e_i$,\nhence the Cayley table is a symmetric matrix.\n\nAll Cayley tables for isomorphic groups are isomorphic (that is, the\nsame, invariant of the labeling and ordering of group elements).\n\nExamples.\n---------\n\n-   The Cayley table for $\\mathbb{Z}_4$, the group of integers modulo 4\n    (under addition), would be\n\n    $$\\left(\\begin{array}{c|cccc}\n         & [0] & [1] & [2] & [3] \\\\\n    \\hline\n    \\; [0] & [0] & [1] & [2] & [3] \\\\\n    \\; [1] & [1] & [2] & [3] & [0] \\\\\n    \\; [2] & [2] & [3] & [0] & [1] \\\\\n    \\; [3] & [3] & [0] & [1] & [2]\n    \\end{array}\\right)$$\n\n-   The Cayley table for $S_3$, the permutation group of order 3, is\n    $$\\left(\\begin{array}{c|cccccc}\n    & (1) & (123) & (132) & (12) & (13) & (23) \\\\\n    \\hline\n    (1)  & (1) & (123) & (132) & (12) & (13) & (23) \\\\\n    (123) & (123) & (132) & (1) & (13) & (23) & (12) \\\\\n    (132) & (132) & (1) & (123) & (23) & (12) & (13) \\\\\n    (12) & (12) & (23) & (13) & (1) & (132) & (123) \\\\\n    (13) & (13) & (12) & (23) & (123) & (1) & (132) \\\\\n    (23) & (23) & (13) & (12) & (132) & (123) & (1)\n    \\end{array}\\right)$$\n\n[^1]: A caveat to novices in group theory: multiplication is usually\n    used notationally to represent the group operation, but the\n    operation needn\u2019t resemble multiplication in the reals. Hence, you\n    should take \u201cmultiplication table\u201d with a grain or two of salt.",
+  "language": "INFORMAL",
+  "phrase": "Cayley Table",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CayleyTable"
+    }
+  ],
+  "indexable": true
+}

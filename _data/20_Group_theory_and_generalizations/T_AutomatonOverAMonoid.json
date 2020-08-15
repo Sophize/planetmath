@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Recall that a semiautomaton $A$ can be visually represented by a\ndirected graph $G_A$, whose vertices (or nodes) are states of $A$, and\nwhose edges are labeled by elements from the input alphabet $\\Sigma$ of\n$A$. Labeling can be extended to paths of $G_A$ in a natural way: if\n$(e_1,\\ldots, e_n)$ is a path $p$ and each edge $e_i$ is labeled $a_i$,\nthen the label of $p$ is $a_1\\cdots a_n$. Thus, the labels of paths of\n$G_A$ are just elements of the monoid $\\Sigma^*$. The concept can be\nreadily generalized to arbitrary monoids.\n\n**Definition**. Let $M$ be a monoid. A *semiautomaton* over $M$ is a\ndirected graph $G$ whose edges are labeled by elements of $M$. An\n*automaton* over $M$ is a semiautomaton over $M$, where the vertex set\nhas two designated subsets $I$ and $F$ (not necessarily disjoint), where\nelements of $I$ are called the start nodes, and elements of $F$ the\nfinal nodes.\n\nNote that if $M=\\Sigma^*$ for some alphabet $\\Sigma$, then a\nsemiautomaton $G$ over $M$ according to the definition given above is\nnot necessarily a semiautomaton over $\\Sigma$ under the standard\ndefinition of a semiautomaton, since labels of the edges are words over\n$\\Sigma$, not elements of $\\Sigma$. However, $G$ can be \u201ctransformed\u201d\ninto a \u201cstandard\u201d semiautomaton (over $\\Sigma$).\n\n**Definition**. Let $A$ be a finite automaton over a monoid $M$. An\nelement in $M$ is said to be *accepted by* $A$ if it is the label of a\npath that begins at an initial node and end at a final node. The set of\nall elements of $M$ accepted by $A$ is denoted by $L(A)$.\n\nThe following is a generalization of Kleene\u2019s theorem.\n\n. A subset $R$ of a monoid $M$ is a rational set iff $R=L(A)$ for some\nfinite automaton $A$ over $M$.\n\n[8]{} S. Eilenberg, [*Automata, Languages, and Machines, Vol. A*]{},\nAcademic Press (1974).",
+  "language": "INFORMAL",
+  "phrase": "Automaton Over A Monoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AutomatonOverAMonoid"
+    }
+  ],
+  "indexable": true
+}

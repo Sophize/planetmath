@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A=(a_{ij})$ with $1\\leq i,j\\leq n\\in\\mathbb{N}$ be a square matrix\nwith complex coefficients. Then the following inequality holds:\n$$|\\det(A)|\\leq \\prod_{i=1}^n\\left(\\sum_{j=1}^n|a_{ij}|^2\\right)^\\frac{1}{2}.$$\nMoreover, if $A$ is Hermitian and positive semidefinite, the following\ninequality holds: $$\\det(A)\\leq \\prod_{i=1}^n a_{ii},$$ with equality if\nand only if $A$ is a diagonal matrix.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HadamardsInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hadamard's inequality"
+  ]
+}

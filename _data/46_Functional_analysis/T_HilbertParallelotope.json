@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hilbert cube"
+  ],
+  "definition": "The *Hilbert parallelotope* $I^\\omega$ is a closed subset of the Hilbert\nspace $\\mathbb{R} \\ell^2$ (The symbol \u2019$\\mathbb{R}$\u2019 has been prefixed\nto indicate that the field of scalars is $\\mathbb{R}$.) defined as\n$$I^\\omega = \\{(a_0, a_1, a_2, \\ldots) \\mid 0 \\le a_i \\le 1/(i+1) \\}$$\n\nAs a topological space, $I^\\omega$ is homeomorphic to the product of a\ncountably infinite number of copies of the closed interval $[0,1]$. By\nTychonoff\u2019s theorem, this product is compact, so the Hilbert\nparallelotope is a compact subset of Hilbert space. This fact also\nexplains the notation $I^\\omega$.\n\nThe Hilbert parallelotope enjoys a remarkable universality property \u2014\nevery second countable metric space is homeomorphic to a subset of the\nHilbert parallelotope. Since second countability is hereditary, the\nconverse is also true \u2014 every subset of the Hilbert parallelotope is a\nsecond countable metric space.",
+  "language": "INFORMAL",
+  "phrase": "Hilbert Parallelotope",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HilbertParallelotope"
+    }
+  ],
+  "indexable": true
+}

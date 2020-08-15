@@ -1,0 +1,17 @@
+{
+  "argumentText": "The quadratic reciprocity law is:\n\n**Theorem:** (Gauss) Let $p$ and $q$ be distinct odd primes, and write\n$p=2a+1$ and $q=2b+1$. Then\n$\\left(\\frac{p}{q}\\right)\\left(\\frac{q}{p}\\right)=(-1)^{ab}$.\n\n($\\left(\\frac{v}{w}\\right)$ is the Legendre symbol.)\n\n**Proof:** Let $R$ be the subset $[-a,a] \\times [-b,b]$ of\n${\\mathbb Z} \\times {\\mathbb Z}$. Let $S$ be the interval\n$$[-(pq-1)/2, (pq-1)/2]$$ of ${\\mathbb Z}$. By the Chinese remainder\ntheorem, there exists a unique bijection $f: S\\to R$ such that, for any\n$s\\in S$, if we write $f(s)=(x,y)$, then $ x\\equiv s \\pmod p $ and\n$ y\\equiv s \\pmod q$. Let $P$ be the subset of $R$ consisting of the\nvalues of $f$ on $[1, (pq-1)/2 ]$. $P$ contains, say, $u$ elements of\nthe form $(x,0)$ such that $x<0$, and $v$ elements of the form $(0,y)$\nwith $y<0$. Intending to apply Gauss\u2019s lemma, we seek some kind of\ncomparison between $u$ and $v$.\n\nWe define three subsets of $P$ by $$\\begin{aligned}\nR_{0} & = & \\{(x,y) \\in P | x > 0, y > 0 \\} \\\\\nR_{1} & = & \\{(x,y) \\in P | x < 0, y \\ge 0 \\} \\\\\nR_{2} & = & \\{(x,y) \\in P | x \\ge 0, y < 0 \\}\\end{aligned}$$ and we let\n$N_{i}$ be the cardinal of $R_{i}$ for each $i$.\n\n$P$ has $ab+b$ elements in the region $y>0$, namely $f(m)$ for all $m$\nof the form $k+lq$ with $1 \\le k \\le b$ and $0 \\le l \\le a$. Thus\n$$N_{0}+N_{1} = ab + b - (b-v) + u$$ i.e. $$\\begin{aligned}\nN_{0}+N_{1} & = & ab+u+v.\\end{aligned}$$ Swapping $p$ and $q$, we have\nlikewise $$\\begin{aligned}\nN_{0}+N_{2} & = & ab+u+v.\\end{aligned}$$\n\nFurthermore, for any $s \\in S$, if $f(s)=(x,y)$ then $f(-s)=(-x,-y)$. It\nfollows that for any $(x,y) \\in R$ other than $(0,0)$, either $(x,y)$ or\n$(-x,-y)$ is in $P$, but not both. Therefore $$\\begin{aligned}\nN_{1}+N_{2} & = & ab+u+v.\\end{aligned}$$ Adding (1), (2), and (3) gives\nus $$0 \\equiv ab + u + v \\pmod 2$$ so $$(-1)^{ab}=(-1)^{u}(-1)^{v}$$\nwhich, in view of Gauss\u2019s lemma, is the desired conclusion.\n\nFor a bibliography of the more than 200 known proofs of the QRL, see .",
+  "conclusion": "#P_QuadraticReciprocityRule",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfQuadraticReciprocityRule"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of quadratic reciprocity rule"
+  ]
+}

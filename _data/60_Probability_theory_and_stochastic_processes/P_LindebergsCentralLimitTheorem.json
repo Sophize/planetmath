@@ -1,0 +1,18 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem (Lindeberg\u2019s central limit theorem)**\n\nLet $X_1, X_2,\\dots$ be independent random variables with distribution\nfunctions $F_1,F_2,\\dots$, respectively, such that $EX_n=\\mu_n$ and\n$\\operatorname{Var}X_n=\\sigma_n^2<\\infty$, with at least one\n$\\sigma_n>0$. Let\n$$S_n = X_1+\\cdots+X_n\\;\\mbox{and}\\; s_n=\\sqrt{\\operatorname{Var}(S_n)} =\n\\sqrt{\\sigma_1^2+\\cdots+\\sigma_n^2}.$$\n\nThen the normalized partial sums $\\frac{S_n - ES_n}{s_n}$ converge to a\nrandom variable with normal distribution $N(0,1)$ (i.e. the *normal\nconvergence* holds,) if the following *Lindeberg condition* is\nsatisfied:\n\n$$\\forall \\varepsilon>0,\\; \\lim_{n\\rightarrow\\infty} \\frac{1}{s_n^2}\n\\sum_{k=1}^n \\int_{|x-\\mu_k|>\\varepsilon s_n} (x-\\mu_k)^2 dF_k(x) = 0.$$\n\n**Corollary 1 (Lyapunov\u2019s central limit theorem)**\n\nIf the Lyapunov condition\n$$\\frac{1}{s_n^{2+\\delta}}\\sum_{k=1}^n E|X_k-\\mu_k|^{2+\\delta} \n\\xrightarrow[n\\rightarrow\\infty]{} 0$$ is satisfied for some $\\delta>0$,\nthe normal convergence holds.\n\n**Corollary 2**\n\nIf $X_1,X_2,\\dots$ are identically distributed random variables,\n$EX_n=\\mu$ and $\\operatorname{Var}S_n = \\sigma^2$, with\n$0<\\sigma<\\infty$, then the normal convergence holds; i.e.\n$\\frac{S_n-n\\mu}{\\sigma \\sqrt{n}}$ converges to a random variable with\ndistribution $N(0,1)$.\n\n**Reciprocal (Feller)**\n\nThe reciprocal of Lindeberg\u2019s central limit theorem holds under the\nfollowing additional assumption:\n$$\\max_{1\\leq k\\leq n} \\left(\\frac{\\sigma_k^2}{s_n^2}\\right)\\xrightarrow[n\\rightarrow\\infty]{} 0.$$\n\n**Historical remark**",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LindebergsCentralLimitTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lindeberg's central limit theorem",
+    "Lyapunov's central limit theorem",
+    "central limit theorem",
+    "lyapunov condition",
+    "lindeberg condition"
+  ]
+}

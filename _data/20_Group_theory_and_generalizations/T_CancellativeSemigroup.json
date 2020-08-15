@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "cancellation semigroup"
+  ],
+  "definition": "Let $S$ be a semigroup.\n\n$S$ is *left cancellative* if, for all $a,b,c\\in S$,\n$ab=ac\\Rightarrow b=c$\\\n$S$ is *right cancellative* if, for all $a,b,c\\in S$,\n$ba=ca\\Rightarrow b=c$\n\n$S$ is *cancellative* if it is both left and right cancellative.\n\nRelationship to some other types of semigroup\n=============================================\n\nThis is a generalisation of groups, and in fact being cancellative is a\nnecessary condition for a semigroup to be embeddable in a group.\n\nNote that a non-empty semigroup is a group if and only if it is\ncancellative and regular.\n\n$S$ is *weakly cancellative* if, for all $a,b,c\\in S$,\n$(ab=ac~\\&~ba=ca)\\Rightarrow b=c$\n\nA semigroup is completely simple if and only if it is weakly\ncancellative and regular.\n\nIndividual elements\n===================\n\nAn element $x\\in S$ is called *left cancellative* if, for all\n$b,c\\in S$, $xb=xc\\Rightarrow b=c$\\\nAn element $x\\in S$ is called *right cancellative* if, for all\n$b,c\\in S$, $bx=cx\\Rightarrow b=c$",
+  "language": "INFORMAL",
+  "phrase": "Cancellative Semigroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CancellativeSemigroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,19 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *double angle identities* are\n\n$$\\begin{aligned}\n \\sin(2x) & = & 2\\sin{x}\\cos{x} \\\\\n \\cos(2x) & = & \\cos^2{x}-\\sin^2{x} = 2\\cos^2{x}-1 = 1-2\\sin^2{x} \\\\\n \\tan(2x) & = & \\frac{2\\tan{x}}{1-\\tan^2{x}}\\end{aligned}$$\n\nThese are all derived from their respective trigonometric addition\nformulas. For example,\n\n$$\\begin{aligned}\n \\sin(2x) & = & \\sin(x+x) \\\\\n          & = & \\sin{x}\\cos{x}+\\cos{x}\\sin{x} \\\\\n          & = & 2\\sin{x}\\cos{x} \\end{aligned}$$\n\nThe formula for cosine follows similarly, and the formula tangent is\nderived by taking the ratio of sine to cosine, as always.\n\nThe double angle identities can also be derived from the de Moivre\nidentity.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DoubleAngleIdentity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "double angle identity",
+    "double-angle identity",
+    "double angle formula",
+    "double-angle formula",
+    "double angle formulae",
+    "double-angle formulae"
+  ]
+}

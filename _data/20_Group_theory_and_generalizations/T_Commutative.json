@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "commutativity",
+    "commutative law"
+  ],
+  "definition": "Let $S$ be a set and $\\circ$ a binary operation on it. $\\circ$ is said\nto be *commutative* if\n\n$$a \\circ b = b \\circ a$$\n\nfor all $a,b \\in S$.\n\nViewing $\\circ$ as a function from $S\\times S$ to $S$, the commutativity\nof $\\circ$ can be notated as $$\\circ(a,b)=\\circ(b,a).$$\n\nSome common examples of commutative operations are\n\n-   addition over the integers: $m+n=m+n$ for all integers $m,n$\n\n-   multiplication over the integers: $m\\cdot n=m\\cdot n$ for all\n    integers $m,n$\n\n-   addition over $n \\times n$ matrices, $A+B=B+A$ for all $n\\times n$\n    matrices $A,B$, and\n\n-   multiplication over the reals: $rs=sr$, for all real numbers $r,s$.\n\nA binary operation that is not commutative is said to be\n*non-commutative*. A common example of a non-commutative operation is\nthe subtraction over the integers (or more generally the real numbers).\nThis means that, in general, $$a-b\\ne b-a.$$ For instance,\n$2-1=1\\ne -1 = 1-2$.\n\nOther examples of non-commutative binary operations can be found in the\nattachment below.\n\n**Remark**. The notion of commutativity can be generalized to $n$-ary\noperations, where $n\\ge 2$. An $n$-ary operation $f$ on a set $A$ is\nsaid to be *commutative* if\n$$f(a_1,a_2,\\ldots, a_n)=f(a_{\\pi(1)},a_{\\pi(2)},\\ldots, a_{\\pi(n)})$$\nfor every permutation $\\pi$ on $\\lbrace 1,2,\\ldots, n\\rbrace$, and for\nevery choice of $n$ elements $a_i$ of $A$.",
+  "language": "INFORMAL",
+  "phrase": "Commutative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Commutative"
+    }
+  ],
+  "indexable": true
+}

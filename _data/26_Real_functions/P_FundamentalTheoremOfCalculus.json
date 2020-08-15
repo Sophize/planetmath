@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f\\colon[a,b]\\to \\mathbf R$ be a continuous function, let\n$c\\in[a,b]$ be given and consider the integral function $F$ defined on\n$[a,b]$ as $$F(x)= \\int_c^x f(t)\\, dt.$$\n\nThen $F$ is an antiderivative of $f$ that is, $F$ is differentiable in\n$[a,b]$ and $$F'(x)=f(x)\\qquad \\forall x\\in [a,b].$$\n\nThe previous relation rewritten as\n$$\\frac{d}{dx} \\int_c^x f(t)\\, dt = f(x)$$ shows that the\ndifferentiation operator $\\frac{d}{dx}$ is the inverse of the\nintegration operator $\\int_c^x$. This formula is sometimes called\nNewton-Leibniz formula.\n\nOn the other hand if $f\\colon[a,b]\\to \\mathbf R$ is a continuous\nfunction and $G\\colon[a,b]\\to \\mathbf R$ is any antiderivative of $f$,\ni.e.\u00a0$G'(x)=f(x)$ for all $x\\in[a,b]$, then $$\\label{eq:barrow}\n  \\int_a^b f(t) \\, dt = G(b)-G(a).$$\n\nThis shows that up to a constant, the integration operator is the\ninverse of the derivative operator: $$\\int_a^x D G = G - G(a).$$\n\nNotes {#notes .unnumbered}\n=====\n\nEquation\u00a0 is sometimes called \u201cBarrow\u2019s rule\u201d or \u201cBarrow\u2019s formula\u201d.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalTheoremOfCalculus"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fundamental theorem of calculus",
+    "Newton-Leibniz",
+    "Barrow's rule",
+    "Barrow's formula"
+  ]
+}

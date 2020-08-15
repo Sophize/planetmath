@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f:\\mathbb{R}^n \\to \\mathbb{R}$ be a continuous probability density\nfunction. Let $X_1, \\ldots, X_n$ be random variables with density $f$\nand with covariance matrix ${\\mathbf{K}}$,\n$K_{ij} = {\\mathrm{cov}}(X_i, X_j)$. Let $\\phi$ be the distribution of\nthe with mean ${\\mathbf{0}}$ and covariance matrix ${\\mathbf{K}}$. Then\nthe Gaussian distribution maximizes the differential entropy for a given\ncovariance matrix ${\\mathbf{K}}$. That is, $h(\\phi) \\ge h(f)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaussianDistributionMaximizesEntropyForGivenCovariance"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gaussian distribution maximizes entropy for given covariance"
+  ]
+}

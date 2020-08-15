@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem:** Let $ABC$ be a equilateral triangle. If $M$ is a point on\nthe circumscribed circle then the equality $$AM=BM+CM$$ holds.\n\n**Proof:** Let $B'\\in\\ (MA)$ so that $MB'=B'B$. Because\n$\\widehat{BMA}=\\widehat{BCA}=60^\\circ$, the triangle $MBB'$ is\nequilateral, so $BB'=MB=MB'$. Because $AB=BC, BB'=BM$ and\n$\\widehat{ABB'}\\equiv\\widehat{MBC}$ we have that the triangles $ABB'$\nand $CBM$ are equivalent. Since $MC=AB'$ we have that\n$AM=AB'+B'M=MC+MB$. $\\square$\n\n![image](schooten)\n\n[9]{} \\[Pritchard\\] Pritchard, Chris (ed.) *The Changing Shape of\nGeometry : Celebrating a Century of Geometry and Geometry Teaching.*\nCambridge University Press, 2003.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchootenTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Schooten theorem",
+    "Ptolemy's theorem"
+  ]
+}

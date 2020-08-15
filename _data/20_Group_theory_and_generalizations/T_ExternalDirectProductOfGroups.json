@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "direct product"
+  ],
+  "definition": "The *external direct product* $G \\times H$ of two groups $G$ and $H$ is\ndefined to be the set of ordered pairs $(g,h)$, with $g\\in G$ and\n$h\\in H$. The group operation is defined by\n\n$(g,h)(g',h') = (gg', hh')$\n\nIt can be shown that $G \\times H$ obeys the group axioms. More\ngenerally, we can define the external direct product of $n$ groups, in\nthe obvious way. Let $G = G_1 \\times \\ldots \\times G_n$ be the set of\nall ordered n-tuples $\\{(g_1, g_2 \\ldots ,g_n) \\mid g_i \\in G_i\\}$ and\ndefine the group operation by componentwise multiplication as before.",
+  "language": "INFORMAL",
+  "phrase": "External Direct Product Of Groups",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExternalDirectProductOfGroups"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\tau$ be a signature. A *$\\tau$-structure* $\\mathcal{A}$ comprises\nof a set $A$, called the ** (or *underlying set* or **) of\n$\\mathcal{A}$, and an *interpretation* of the symbols of $\\tau$ as\nfollows:\n\n-   for each constant symbol $c\\in\\tau$, an element $c^A\\in A$;\n\n-   for each $n$-ary function symbol $f\\in\\tau$, a function (or\n    operation) $f^A:A^n\\rightarrow A$;\n\n-   for each $n$-ary relation symbol $R\\in\\tau$, a $n$-ary relation\n    $R^A$ on $A$.\n\nSome authors require that $A$ be non-empty.\n\nIf $\\mathcal{A}$ is a structure, then the *cardinality* (or *power*) of\n$\\mathcal{A}$, $|\\mathcal{A}|$, is the cardinality of its $A$.\n\nExamples of structures abound in mathematics. Here are some of them:\n\n1.  A set is a structure, with no constants, no functions, and no\n    relations on it.\n\n2.  A partially ordered set is a structure, with one binary relation\n    call partial order defined on the underlying set.\n\n3.  A group is a structure, with one binary operation called\n    multiplication, one unary operation called inverse, and one constant\n    called the multiplicative identity.\n\n4.  A vector space is a structure, with one binary operation called\n    addition, unary operations called scalar multiplications, one for\n    each element of the underlying set, and one constant $0$, the\n    additive identity.\n\n5.  A partially ordered group is a structure like a group, but with the\n    addition of a partial order on the underlying set.\n\nIf $\\tau$ contains only relation symbols, then a $\\tau$-structure is\ncalled a relational structure. If $\\tau$ contains only function symbols,\nthen a $\\tau$-structure is called an algebraic structure. In the\nexamples above, $2$ is a relation structure, while $3,4$ are algebraic\nstructures.",
+  "language": "INFORMAL",
+  "phrase": "Structure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Structure"
+    }
+  ],
+  "indexable": true
+}

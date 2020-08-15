@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Loewner chain*]{} is a continuous function\n$f: {\\mathbb{D}} \\times [0,\\infty)\n\\rightarrow {\\mathbb{C}}$ (where ${\\mathbb{D}}$ refers to the open unit\ndisc) with the following properties:\n\n1.  the function $z \\mapsto f(z,t)$ is analytic and univalent for all\n    $t \\in [0,\\infty)$\n\n2.  $f(0,t) = 0$ and $f'(0,t) = e^t$\n\n3.  $f({\\mathbb{D}},s) \\subseteq f({\\mathbb{D}},t)$ for\n    $0 \\leq s < t < \\infty$\n\n[**Bibliography**]{}\n\n-   John B. Conway **. Springer-Verlag, New York, Inc, 1995",
+  "language": "INFORMAL",
+  "phrase": "Loewner Chain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LoewnerChain"
+    }
+  ],
+  "indexable": true
+}

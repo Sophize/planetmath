@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Consider the linear time invariant (LTI) system given by:\n$$\\dot{x} = Ax + Bu$$ where $A$ is an $n \\times n$ matrix, $B$ is an\n$n \\times m$ matrix, $u$ is an $m \\times 1$ vector - called the control\nor input vector, $x$ is an $n\n\\times 1$ vector - called the state vector, and $\\dot{x}$ denotes the\ntime derivative of $x$.\n\n[**Definition Of Controllability Matrix For LTI Systems:**]{} The\ncontrollability matrix of the above LTI system is defined by the pair\n$(A,B)$ as follows:\n$$C(A,B) = \\left[ B , AB,  A^{2}B,  A^{3}B,..., A^{n-1}B \\right]$$\n\n[**Test for Controllability of LTI Systems:**]{} The above LTI system\n$(A,B)$ is controllable if and only if the controllability matrix\n$C(A,B)$ has rank $n$; i.e. has $n$ linearly independent columns.",
+  "language": "INFORMAL",
+  "phrase": "Controllability Of Lti Systems",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ControllabilityOfLTISystems"
+    }
+  ],
+  "indexable": true
+}

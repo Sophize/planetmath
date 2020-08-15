@@ -1,0 +1,17 @@
+{
+  "argumentText": "**I.** Let $s$ denote the arc rotating about the $x$-axis (and its\nlength) and $R$ be the $y$-coordinate of the centroid of the arc. If the\narc may be given by the equation $$y \\;=\\; y(x)$$ where $a \\le x \\le b$,\nthe area of the formed surface of revolution is\n$$A \\;=\\; 2\\pi\\!\\int_a^b\\!y(x)\\sqrt{1\\!+\\![y'(x)]^2}\\,dx.$$ This can be\nconcisely written $$\\begin{aligned}\nA \\;=\\; 2\\pi\\!\\int_s\\!y\\,ds\\end{aligned}$$ since\ndifferential-geometrically, the product $\\sqrt{1\\!+\\![y'(x)]^2}\\,dx$ is\nthe arc-element. We rewrite (1) as\n$$A \\;=\\; s\\cdot2\\pi\\cdot\\frac{1}{s}\\!\\int_s\\!y\\,ds.$$ Here, the last\nfactor is the ordinate of the centroid of the rotating arc, whence we\nhave the result $$A \\;=\\; s \\cdot2 \\pi R$$ which states the first\nPappus\u2019s centroid theorem.\\\n**II.** For deriving the second Pappus\u2019s centroid theorem, we suppose\nthat the region defined by\n$$a \\;\\le\\, x \\;\\le\\; b, \\quad 0 \\;\\le\\; y_1(x) \\;\\le\\, y \\;\\le\\; y_2(x),$$\nhaving the area $A$ and the centroid with the ordinate $R$, rotates\nabout the $x$-axis and forms the solid of revolution with the volume\n$V$. The centroid of the area-element between the arcs $y = y_1(x)$ and\n$y = y_2(x)$ is $[y_2(x)\\!+\\!y_1(x)]/2$ when the abscissa is $x$; the\narea of this element with the width $dx$ is $[y_2(x)\\!-\\!y_1(x)]\\,dx$.\nThus we get the equation\n$$R \\;=\\; \\frac{1}{A}\\int_a^b\\frac{y_2(x)\\!+\\!y_1(x)}{2}[y_2(x)\\!-y_1(x)]\\,dx$$\nwhich may be written shortly $$\\begin{aligned}\nR \\;=\\; \\frac{1}{2A}\\int_a^b(y_2^2\\!-\\!y_1^2)\\,dx.\\end{aligned}$$ The\nvolume of the solid of revolution is\n$$V \\;=\\; \\pi\\!\\int_a^b(y_2^2\\!-\\!y_1^2)\\,dx \\;=\\; A\\cdot2\\pi\\cdot\\frac{1}{2A}\\!\\int_a^b(y_2^2\\!-\\!y_1^2)\\,dx.$$\nBy (2), this attains the form $$V \\;=\\; A\\cdot 2\\pi R.$$",
+  "conclusion": "#P_PappussCentroidTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivationOfPappussCentroidTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "derivation of Pappus's centroid theorem"
+  ]
+}

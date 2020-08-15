@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "SL"
+  ],
+  "definition": "Given a vector space $V$, the special linear group\n${{\\operatorname{SL}}}(V)$ is defined to be the subgroup of the general\nlinear group $\\operatorname{GL}(V)$ consisting of all invertible linear\ntransformations $T: V \\longrightarrow V$ in $\\operatorname{GL}(V)$ that\nhave determinant 1.\n\nIf $V = \\mathbb{F}^n$ for some field $\\mathbb{F}$, then the group\n${{\\operatorname{SL}}}(V)$ is often denoted\n${{\\operatorname{SL}}}(n,\\mathbb{F})$ or\n${{\\operatorname{SL}}}_n(\\mathbb{F})$, and if one identifies each linear\ntransformation with its matrix with respect to the standard basis, then\n${{\\operatorname{SL}}}(n,\\mathbb{F})$ consists of all $n \\times n$\nmatrices with entries in $\\mathbb{F}$ that have determinant 1.",
+  "language": "INFORMAL",
+  "phrase": "Special Linear Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpecialLinearGroup"
+    }
+  ],
+  "indexable": true
+}

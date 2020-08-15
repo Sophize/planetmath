@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Due to Artin, a prime ideal of a commutative ring $R$ is\nthe maximal element among the ideals not intersecting a multiplicative\nsubset $S$ of $R$. This is to the usual criterion $$\\begin{aligned}\nab \\in \\mathfrak{p} \\quad \\Rightarrow \\quad a \\in \\mathfrak{p} \\;\\lor\\; b \\in \\mathfrak{p}\\end{aligned}$$\nof prime ideal (see the entry ).\n\n[*Proof.*]{} $1^{\\underline{o}}$. Let $\\mathfrak{p}$ be a prime ideal by\nArtin, corresponding the semigroup $S$, and let the ring product $ab$\nbelong to $\\mathfrak{p}$. Assume, contrary to the assertion, that\nneither of $a$ and $b$ lies in $\\mathfrak{p}$. When $(\\mathfrak{p},\\,x)$\ngenerally means the least ideal containing $\\mathfrak{p}$ and an element\n$x$, the antithesis implies that\n$$\\mathfrak{p} \\subset (\\mathfrak{p},\\,a) \\;\\; \\land \\;\\; \\mathfrak{p} \\subset (\\mathfrak{p},\\,a),$$\nwhence by the maximality of $\\mathfrak{p}$ we have\n$$(\\mathfrak{p},\\,a)\\cap S \\neq \\varnothing \\;\\; \\land \\;\\; (\\mathfrak{p},\\,b)\\cap S \\neq \\varnothing.$$\nTherefore we can chose such elements $s_i = p_i+r_ia+n_ia$ of $S$ (N.B.\nthe multiples) that\n$$p_i \\in \\mathfrak{p},\\;\\, r_i \\in R,\\;\\, n_i \\in \\mathbb{Z} \\quad (i \\,=\\, 1,\\,2).$$\nBut then\n$$s_1s_2 \\;=\\; (p_2+r_2b+n_2b)p_1+(r_1a+n_1a)p_2+(r_1r_2+n_2r_1+n_1r_2)ab+(n_1n_2)ab \\in \\mathfrak{p}.$$\nThis is however impossible, since the product $s_1s_2$ belongs to the\nsemigroup $S$ and $\\mathfrak{p}\\cap S = \\varnothing$. Because the\nantithesis thus is wrong, we must have $a \\in \\mathfrak{p}$ or\n$b \\in \\mathfrak{p}$.\n\n$2^{\\underline{o}}$. Let us then suppose that an ideal $\\mathfrak{p}$\nsatisfies the condition (1) for all $a,\\,b \\in R$. It means that the set\n$S = R\\!\\smallsetminus\\!\\mathfrak{p}$ is a multiplicative semigroup.\nAccordingly, the $\\mathfrak{p}$ is the greatest ideal not intersecting\nthe semigroup $S$, Q.E.D.\\\n**Remark.** It follows easily from the theorem, that if $\\mathfrak{p}$\nis a prime ideal of the commutative ring $\\mathfrak{O}$ and\n$\\mathfrak{o}$ is a subring of $\\mathfrak{O}$, then $\\mathfrak{p\\cap o}$\nis a prime ideal of $\\mathfrak{o}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimeIdealsByArtinArePrimeIdeals"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "prime ideals by Artin are prime ideals"
+  ]
+}

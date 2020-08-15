@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "algebraic solvability",
+    "solvable algebraically"
+  ],
+  "definition": "An equation $$\\begin{aligned}\nx^n+a_1x^{n-1}+\\ldots+a_n = 0,\\end{aligned}$$ with coefficients $a_j$ in\na field $K$, is [*algebraically solvable*]{}, if some of its may be\nexpressed with the elements of $K$ by using rational operations\n(addition, subtraction, multiplication, division) and root extractions.\nI.e., a root of (1) is in a field $K(\\xi_1,\\,\\xi_2,\\,\\ldots,\\,\\xi_m)$\nwhich is obtained of $K$ by to it in succession certain suitable\nradicals $\\xi_1,\\,\\xi_2,\\,\\ldots,\\,\\xi_m$. Each radical may under the\nroot sign one or more of the previous radicals, $$\\begin{aligned}\n\\begin{cases}\n\\xi_1 = \\sqrt[p_1]{r_1},\\\\\n\\xi_2 = \\sqrt[p_2]{r_2(\\xi_1)},\\\\\n\\xi_3 = \\sqrt[p_3]{r_3(\\xi_1,\\,\\xi_2)},\\\\\n\\cdots\\qquad\\cdots\\\\\n\\xi_m = \\sqrt[p_m]{r_m(\\xi_1,\\,\\xi_2,\\,\\ldots,\\,\\xi_{m-1})},\n\\end{cases}\\end{aligned}$$ where generally\n$r_k(\\xi_1,\\,\\xi_2,\\,\\ldots,\\,\\xi_{k-1})$ is an element of the field\n$K(\\xi_1,\\,\\xi_2,\\,\\ldots,\\,\\xi_{k-1})$ but no $p_k$\u2019th power of an\nelement of this field. Because of the formula\n$$\\sqrt[jk]{r} = \\sqrt[j]{\\sqrt[k]{r}}$$ one can, without hurting the\ngenerality, suppose that the $p_1,\\,p_2,\\,\\ldots,\\,p_m$ are prime\nnumbers.\\\n**Example.** Cardano\u2019s formulae show that all roots of the cubic\nequation $y^3+py+q = 0$ are in the algebraic number field which is\nobtained by adjoining to the field $\\mathbb{Q}(p,\\,q)$ successively the\nradicals\n$$\\xi_1 = \\sqrt{\\left(\\frac{q}{2}\\right)^2\\!+\\!\\left(\\frac{p}{3}\\right)^3}, \\qquad \n\\xi_2 = \\sqrt[3]{-\\frac{q}{2}\\!+\\!\\xi_1}, \\qquad \\xi_3 = \\sqrt{-3}.$$ In\nfact, as we consider also the equation (4), the roots may be expressed\nas $$\\begin{aligned}\n\\begin{cases}\n\\displaystyle y_1 = \\xi_2-\\frac{p}{3\\xi_2}\\\\\n\\displaystyle y_2 = \\frac{-1\\!+\\!\\xi_3}{2}\\cdot\\xi_2-\\frac{-1\\!-\\!\\xi_3}{2}\\cdot\\!\\frac{p}{3\\xi_2}\\\\\n\\displaystyle y_3 = \\frac{-1\\!-\\!\\xi_3}{2}\\cdot\\xi_2-\\frac{-1\\!+\\!\\xi_3}{2}\\cdot\\!\\frac{p}{3\\xi_2}\n\\end{cases}\\end{aligned}$$\n\n[9]{} . Tiedekirjasto No. 17. Kustannusosakeyhti\u00f6 Otava, Helsinki\n(1950).",
+  "language": "INFORMAL",
+  "phrase": "Algebraically Solvable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraicallySolvable"
+    }
+  ],
+  "indexable": true
+}

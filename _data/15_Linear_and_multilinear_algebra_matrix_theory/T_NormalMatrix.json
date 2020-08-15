@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "normal"
+  ],
+  "definition": "A complex matrix $A \\in \\mathbb{C}^{n\\times n}$ is said to be *normal*\nif $A^\\ast A = AA^\\ast$ where $^\\ast$ denotes the conjugate transpose.\\\nSimilarly for a real matrix $A \\in \\mathbb{R}^{n\\times n}$ is said to be\n*normal* if $A^TA=AA^T$ where $T$ denotes the transpose.\\\n\\\n**properties:**\n\n-   Equivalently a complex matrix $A \\in \\mathbb{C}^{n\\times n}$ is said\n    to be *normal* if it satisfies $[A,A^\\ast]=0$ where $[,]$ is the\n    commutator bracket.\n\n-   Equivalently a real matrix $A \\in \\mathbb{R}^{n\\times n}$ is said to\n    be *normal* if it satisfies $[A,A^T]=0$ where $[,]$ is the\n    commutator bracket.\n\n-   Let $A$ be a square complex matrix of order $n$. It follows from\n    Schur\u2019s inequality that if $A$ is a normal matrix then\n    $\\sum_{i=1}^n |\\lambda_i|^2 = \\operatorname{trace} A^\\ast A$ where\n    $^\\ast$ is the conjugate transpose and $\\lambda_i$ are the\n    eigenvalues of $A$.\n\n-   A complex square matrix is diagonal if and only if it is normal,\n    triangular.(see theorem for normal triangular matrices).\n\n**examples:**\n\n-   $\\begin{pmatrix}\n    a & b \\\\\n    -b & a \\\\\\end{pmatrix}$ where $a,b \\in \\mathbb{R}$\n\n-   $\\begin{pmatrix}\n    1 & i \\\\\n    -i & 1 \\\\\\end{pmatrix}$\n\n**see also:**\n\n-   Wikipedia,",
+  "language": "INFORMAL",
+  "phrase": "Normal Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalMatrix"
+    }
+  ],
+  "indexable": true
+}

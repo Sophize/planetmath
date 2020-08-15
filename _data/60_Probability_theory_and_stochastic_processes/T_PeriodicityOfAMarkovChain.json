@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\lbrace X_n \\rbrace$ be a Markov chain with state space $I$. Let\n$P_{ij}^{n}$ be the $n$-step transition probability that the process\ngoes from state $i$ at time $0$ to state $j$ at time $n$:\n$$P_{ij}^{n}=P(X_n=j\\mid X_0=i).$$\n\nGiven any state $i\\in I$, define the set\n$$N(i):=\\lbrace n\\ge 1\\mid P_{ii}^n>0\\rbrace.$$ It is not hard to see\nthat if $n,m\\in N(i)$, then $n+m\\in N(i)$. The *period* of $i$, denoted\nby $d(i)$, is defined as $$d(i):=\\begin{cases}\n0&\\text{if } N(i)=\\varnothing,\\\\\n\\gcd (N(i))&\\text{otherwise},\n\\end{cases}$$ where $\\gcd(N(i))$ is the greatest common divisor of all\npositive integers in $N(i)$.\n\nA state $i\\in I$ is said to be *aperiodic* if $d(i)=1$. A Markov chain\nis called *aperiodic* if every state is aperiodic.\n\n**Property**. If states $i,j\\in I$ , then $d(i)=d(j)$.\n\nWe will employ a common inequality involving the $n$-step transition\nprobabilities: $$P_{ij}^{m+n}\\ge P_{ik}^m P_{kj}^n$$ for any\n$i,j,k\\in I$ and non-negative integers $m,n$.\n\nSuppose first that $d(i)=0$. Since $i\\leftrightarrow j$,\n$\\displaystyle{ P_{ij}^n>0}$ and $P_{ji}^m>0$ for some $n,m\\ge 0$. This\nimplies that $P_{ii}^{m+n}>0$, which forces $m+n=0$ or $m=n=0$, and\nhence $j=i$.\n\nNext, assume $d(i)>0$, this means that $N(i)\\ne \\varnothing$. Since\n$i\\leftrightarrow j$, there are $r,s\\ge 0$ such that $P_{ji}^r>0$ and\n$P_{ij}^s>0$, and so $P_{jj}^{r+s}>0$, showing $r+s\\in N(j)$. If we pick\nany $n\\in N$, we also have\n$\\displaystyle{ P_{jj}^{r+n+s}\\ge P_{ji}^r P_{ii}^n P_{ij}^s>0 }$, or\n$r+s+n\\in N(j)$. But this means $d(j)$ divides both $r+s$ and $r+s+n$,\nand so $d(j)$ divides their difference, which is $n$. Since $n$ is\narbitrarily picked, $d(j)\\mid d(i)$. Similarly, $d(i)\\mid d(j)$. Hence\n$d(i)=d(j)$.",
+  "language": "INFORMAL",
+  "phrase": "Periodicity Of A Markov Chain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PeriodicityOfAMarkovChain"
+    }
+  ],
+  "indexable": true
+}

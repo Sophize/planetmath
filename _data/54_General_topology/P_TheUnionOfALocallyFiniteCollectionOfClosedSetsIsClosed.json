@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The union of a collection of closed subsets of a topological space need\nnot, of course, be closed. However, we do have the following result:\n\nThe union of a locally finite collection of closed subsets of a\ntopological space is itself closed.\n\nLet $\\cal S$ be a locally finite collection of closed subsets of a\ntopological space $X$, and put $Y=\\cup\\cal S$. Let $x\\in X\\setminus Y$.\nBy local finiteness there is an open neighbourhood $U$ of $x$ that meets\nonly finitely many members of $\\cal S$, say $A_1,\\dots,A_n$. So\n$U\\setminus Y=U\\setminus\\bigcup_{i=1}^n A_i$, which is open. Thus\n$U\\setminus Y$ is an open neighbourhood of $x$ that does not meet $Y$.\nIt follows that $Y$ is closed.\n\nOne use for this result can be found in the entry on gluing together\ncontinuous functions.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheUnionOfALocallyFiniteCollectionOfClosedSetsIsClosed"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the union of a locally finite collection of closed sets is closed"
+  ]
+}

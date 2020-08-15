@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $A$ is a set of nonnegative integers such that\n$$\\sigma(A+B)>\\sigma B$$ for every set $B$ with Schnirelmann density\n$0<\\sigma B<1$, then $A$ is an *essential component*.\n\nErd\u0151s proved that every is an essential component. In fact he proved\nthat $$\\sigma(A+B)\\geq \\sigma B+\\frac{1}{2h}(1-\\sigma B)\\sigma B,$$\nwhere $h$ denotes the of $A$.\n\nPl\u00fcnnecke improved that to $$\\sigma(A+B)\\geq \\sigma B^{1-1/h}.$$\n\nThere are non-basic essential components. Linnik constructed non-basic\nessential component for which $A(n)=O(n^\\epsilon)$ for every\n$\\epsilon>0$.\n\n[1]{}\n\nHeini Halberstam and Klaus\u00a0Friedrich Roth. . Springer-Verlag, second\nedition, 1983. .",
+  "language": "INFORMAL",
+  "phrase": "Essential Component",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EssentialComponent"
+    }
+  ],
+  "indexable": true
+}

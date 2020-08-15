@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "holomorphic function",
+    "regular function",
+    "complex differentiable"
+  ],
+  "definition": "Let $U \\subset \\mathbb{C}$ be a domain in the complex numbers. A\nfunction $f \\colon U \\longrightarrow \\mathbb{C}$ is *holomorphic* if $f$\nhas a complex derivative at every point $x$ in $U$, i.e. if\n$$\\lim_{z\\rightarrow z_0} \\frac{f(z)-f(z_0)}{z-z_0}$$ exists for all\n$z_0\\in U$.\n\nMore generally, if $\\Omega\\subset \\mathbb{C}^n$ is a domain, then a\nfunction $f\\colon \\Omega \\to \\mathbb{C}$ is said to be *holomorphic* if\n$f$ is holomorphic in each of the variables. The class of all\nholomorphic functions on $\\Omega$ is usually denoted by\n$\\mathcal{O}(\\Omega)$.",
+  "language": "INFORMAL",
+  "phrase": "Holomorphic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Holomorphic"
+    }
+  ],
+  "indexable": true
+}

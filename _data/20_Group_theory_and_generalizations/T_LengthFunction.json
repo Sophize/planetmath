@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a group. A **length function** on $G$ is a function\n$L\\colon G \\to {\\mathbb{R}}^+$ satisfying: $$\\begin{aligned}\nL(e) & = & 0, \\\\\nL(g) & = & L(g^{-1}), \\quad\\forall g \\in G, \\\\\nL(g_1 g_2) & \\leq & L(g_1) + L(g_2), \\quad\\forall g_1, g_2 \\in G.\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Length Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LengthFunction"
+    }
+  ],
+  "indexable": true
+}

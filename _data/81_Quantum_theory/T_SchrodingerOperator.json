@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hamiltonian operator"
+  ],
+  "definition": "Let $V\\colon {\\mathbb{R}}^n \\to {\\mathbb{R}}$ be a real-valued function.\nThe [*Schroedinger operator*]{} **H** on the Hilbert space\n$L^2({\\mathbb{R}}^n)$ is given by the action\n$$\\psi \\mapsto -\\nabla^2\\psi+V(x)\\psi, \\quad\\psi\\in L^2({\\mathbb{R}}^n).$$\n\nThis can be obviously re-written as:\n\n$$\\psi \\mapsto [-\\nabla^2 +V(x)]\\psi, \\quad\\psi\\in L^2({\\mathbb{R}}^n),$$\nwhere $[-\\nabla^2 +V(x)]$ is the [*Schr\u00f6dinger*]{} operator, which is\nnow called the , **H**.\n\nFor stationary quantum systems such as electrons in \u2018stable\u2019 atoms the\n[*Schr\u00f6dinger equation*]{} takes the very simple form :\n$$\\textbf{H} \\psi=E \\psi$$ , where $E$ stands for energy eigenvalues of\nthe stationary quantum states. Thus, in quantum mechanics of systems\nwith finite degrees of freedom that are \u2018stationary\u2019, the Schr\u00f6dinger\noperator is used to calculate the (time-independent) energy states of a\nquantum system with potential energy $V(x)$. Schr\u00f6dinger called this\noperator the , or the , and the latter name is currently used in almost\nall of quantum physics publications, etc. The eigenvalues give the\nenergy levels, and the wavefunctions are given by the eigenfunctions. In\nthe more general, non-stationary, or \u2018dynamic\u2019 case, the Schr\u00f6dinger\nequation takes the general form:\n\n$$\\textbf{H} \\psi= (-i) \\partial \\psi / \\partial t$$.",
+  "language": "INFORMAL",
+  "phrase": "Schr\\\"Odinger Operator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchrodingerOperator"
+    }
+  ],
+  "indexable": true
+}

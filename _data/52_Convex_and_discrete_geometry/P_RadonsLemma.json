@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every set $A\\subset \\mathbb{R}^d$ of $d+2$ or more points can be\npartitioned into two disjoint sets $A_1$ and $A_2$ such that the convex\nhulls of $A_1$ and $A_2$ intersect.\n\nWithout loss of generality we assume that the set $A$ consists of\nexactly $d+2$ points which we number $a_1, a_2,\\dotsc, a_{d+2}$. Denote\nby $a_{i,j}$ the $j$\u2019th component of $i$\u2019th vector, and write the\ncomponents in a matrix as $$M=\\begin{bmatrix}\na_{1,1}&a_{2,1}&\\dots&a_{d+2,1}\\\\\na_{1,2}&a_{2,2}&\\dots&a_{d+2,2}\\\\\n\\vdots& \\vdots&\\ddots & \\vdots\\\\\na_{1,d}&a_{2,d}&\\dots&a_{d+2,d}\\\\\n1&1&\\dots&1\n\\end{bmatrix}.$$ Since $M$ has fewer rows than columns, there is a\nnon-zero column vector $\\mathbf{\\lambda}$ such that\n$M \\mathbf{\\lambda}=0$, which is equivalent to the existence of a\nsolution to the system $$\\begin{aligned}\n\\label{eqn:sys}\n0&=\\lambda_1 a_1+\\lambda_2 a_2+\\dotsb+\\lambda_{d+2} a_{d+2}\\\\\n0&=\\lambda_1+\\lambda_2+\\dotsb+\\lambda_{d+2}\\notag\\end{aligned}$$ Let\n$A_1$ be the set of those $a_i$ for which $\\lambda_i$ is positive, and\n$A_2$ be the rest. Set $s$ to be the sum of positive $\\lambda_i$\u2019s. Then\nby the system\u00a0 above\n$$\\frac{1}{s}\\sum_{a_i\\in A_1} \\lambda_i a_i=\\frac{1}{s}\\sum_{a_i\\in A_2} (-\\lambda_i) a_i$$\nis a point of intersection of convex hulls of $A_1$ and $A_2$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RadonsLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Radon's lemma"
+  ]
+}

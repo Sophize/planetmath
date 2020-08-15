@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $x$, $y$, $z$ be positive real numbers.\n\nFor each positive integer $r$, let\n\n$a_r = (x^r+y^r)/r!$ and $b_r=z^r/r!$.\n\nFor $s$ divisible by 4, let\n\n$A_s=a_2-a_4+a_6- \\cdots +a_{s-2}-a_s$,\n\n$B_s=b_2-b_4+b_6- \\cdots +b_{s-2}-b_s$.\n\nThen Fermat\u2019s last theorem is equivalent (by elementary means) to:\n\n[**Theorem**]{} If $a_n=b_n$ for some odd integer $n>2$, then either\n\n\\(i) $A_N > 0$ for some $N>x,y$,\n\nor\n\n\\(ii) $B_M>0$ for some $M>z$.\n\nFor a proof that these theorems are equivalent see:\n\nproof of equivalence of Fermat\u2019s Last Theorem to its analytic form",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FermatsLastTheoremanalyticFormOf"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Fermat's last theorem (analytic form of)"
+  ]
+}

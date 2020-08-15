@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sequence $x_0, x_1, x_2, \\dots$ in a metric space $(X,d)$ is a\n*convergent sequence* if there exists a point $x \\in X$ such that, for\nevery real number $\\epsilon > 0$, there exists a natural number $N$ such\nthat $d(x,x_n) < \\epsilon$ for all $n > N$.\n\nThe point $x$, if it exists, is unique, and is called the *limit point*\nor *limit* of the sequence. One can also say that the sequence\n$x_0, x_1, x_2, \\dots$ *converges* to $x$.\n\nA sequence is said to be *divergent* if it does not converge.",
+  "language": "INFORMAL",
+  "phrase": "Convergent Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvergentSequence"
+    }
+  ],
+  "indexable": true
+}

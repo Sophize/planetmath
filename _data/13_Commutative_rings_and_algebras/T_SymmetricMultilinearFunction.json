@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a commutative ring with identity and $M,N$ be unital\n$R$-modules.\n\nSuppose that $\\phi : M \\times \\cdots \\times M \\to N$ is a multilinear\nmap, where there are $n$ copies of $M$.\n\nLet $H$ be a subgroup of $S_n$, the symmetric group on\n$\\{1, \\ldots ,n\\}$, and $\\chi : H \\to R$ satisfy\n\n1.  $\\chi(e) = 1$\n\n2.  $\\chi(g_1g_2) = \\chi(g_1)\\chi(g_2)$ for all $g_1, g_2 \\in H $\n\nWe say that $\\phi$ is *symmetric with respect to $H$ and $\\chi$* if\n$$\\phi(m_{\\sigma(1)} , \\ldots, m_{\\sigma(n)}) = \\chi(\\sigma)\\phi(m_1,\\ldots,m_n)$$\nholds for all $\\sigma\\in H$ and all $m_i\\in M$.\n\nNow suppose that $H = S_n$.\n\nIf $\\chi=1$ then we say that $\\phi$ is a *symmetric multilinear\nfunction*. If $\\chi = \\epsilon$, the sign of the permutation $\\sigma$,\nwe say that $\\phi$ is a *skew-symmetric multilinear function*.\n\nFor example, the permanent is a symmetric multilinear function of its\nrows (columns).\n\nThe determinant is a skew-symmetric multilinear function of its rows\n(columns).",
+  "language": "INFORMAL",
+  "phrase": "Symmetric Multilinear Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SymmetricMultilinearFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An approximation of some mathematical object (such as the number\n$\\sqrt{2}$, the function $\\sin(x)$, a circle, or something else) is\nanother mathematical object (such as value 1.414, a function $x-x^3/6$,\na regular polygon with 64 sides) that has almost the same value or\nfunction values or shape as the original object.\n\nThere are many different reasons for making an approximation. It can be\nthat we have no way to know the exact value, for example if we solve an\nequation by plotting a graph on a piece of paper and read the value from\nthe x-axis, then we only get an approximation of the exact value. It can\nbe that we know the exact value, say $e+\\sqrt{2}$, but we can\u2019t use that\nexact value, perhaps we need to draw a line of length $e+\\sqrt{2}$cm,\nthen we need a numerical approximation of the original value.\n$10^7\\cdot \\pi$ is an approximation of the number of seconds in a year.\nPerhaps we don\u2019t know how to draw the graph of the $\\sin$ function, then\nwe can make an approximation with another function that has\napproximately the same function values within some range of the\nargument.\n\nIn every approximation we introduce an error by definition, since we are\nnot using the correct value. This error can sometimes be controlled; for\ninstance we make a smaller error if we use 3.1416 instead of 4 as the\nvalue of $\\pi$. The magnitude of the error that can be accepted depends\non what we wish to do with the approximation.\n\nWhen we wish to approximate a function by another function, we can have\ndifferent requirements on the approximation. Sometimes, the\napproximating function may be required to pass through the actual points\nof the function, in which case we are dealing with a class of\napproximation techniques known as interpolation. When merely having\ncommon points is not enough, one may require that the approximating\nfunction to have the same derivatives as the actual function (see Taylor\nseries). Other times, we may wish for the values of the approximation to\ndiffer from the exact values by less than a certain amount within a\ncertain interval (see uniform convergence), or the approximations to be\nas close to the actual amounts as possible (see least square\napproximations).\\",
+  "language": "INFORMAL",
+  "phrase": "Approximation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Approximation"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $A$ is a commutative ring, and $\\operatorname{dim}$ denotes Krull\ndimension, then $$\\begin{aligned}\n\\operatorname{dim}(A)+1\\leq \\operatorname{dim}(A[x])\\leq 2\\operatorname{dim}(A)+1.\\end{aligned}$$\n\nIt is known (see [@Seid],[@Seid2]) that for any $k\\geq 0$ and $n$ with\n$k+1\\leq n\\leq 2k+1$, there exists a ring $A$ such that $\\dim A=k$ and\n$\\dim A[x]=n$.\n\n[9]{} A. Seidenberg, *A note on the dimension theory of rings.* Pacific\nJ. of Mathematics, Volume 3 (1953), 505-512. A. Seidenberg, *On the\ndimension theory of rings (II).* Pacific J. of Mathematics, Volume 4\n(1954), 603-614.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundOnTheKrullDimensionOfPolynomialRings"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "bound on the Krull dimension of polynomial rings"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} \\[polarization identity\\] [**-**]{} Let $X$ be an inner\nproduct space over $\\mathbb{R}$. The following identity holds for every\n$x, y \\in X$:\n$$\\langle x, y \\rangle = \\frac{1}{4}(\\|x +y \\|^2 - \\|x-y\\|^2)$$\n\nIf $X$ is an inner product space over $\\mathbb{C}$ instead, the identity\nbecomes\n$$\\langle x, y \\rangle = \\frac{1}{4}(\\|x +y \\|^2 - \\|x-y\\|^2) + \\frac{1}{4}i(\\|x+iy\\|^2-\\|x-iy\\|^2)$$\n\n[**Remark -**]{} This result shows that the inner product of $X$ is\ndetermined by the norm. Moreover, it can be shown that if a normed space\n$V$ the parallelogram law, the above formulas define an inner product\ncompatible with the norm of $V$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolarizationIdentity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "polarization identity"
+  ]
+}

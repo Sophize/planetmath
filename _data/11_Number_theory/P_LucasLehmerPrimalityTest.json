@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem:** Let $p>2$ be a prime, and let $M_p$ be a Mersenne number,\nthen $M_p$ is prime iff $M_p$ divides $s_{p-1}$ where the numbers\n$(s_n)_{n\\geq1}$ are given by the following recurrence relation:\n$s_1=4$, and $$s_{n+1}={s_n}^2-2$$ for $n\\geq1$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LucasLehmerPrimalityTest"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lucas-Lehmer primality test"
+  ]
+}

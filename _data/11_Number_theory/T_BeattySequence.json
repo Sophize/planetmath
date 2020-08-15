@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The integer sequence\n$${\\cal B}(\\alpha,\\alpha^\\prime) := \\left( {\\left\\lfloor \\frac{n-\\alpha^\\prime}{\\alpha} \\right\\rfloor} \\right)_{n=1}^\\infty$$\nis called the Beatty sequence with density $\\alpha$, slope\n$\\frac{1}{\\alpha}$, offset $\\alpha^\\prime$, and $y$-intercept\n$\\frac{-\\alpha^\\prime}{\\alpha}$.\n\nSometimes a sequence of the above type is called a [*floor*]{} Beatty\nsequence, and denoted ${\\cal\nB}^{(f)}(\\alpha,\\alpha^\\prime)$, while an integer sequence\n$${\\cal B}^{(c)}(\\alpha,\\alpha^\\prime) :=\n        \\left( {\\left\\lceil \\frac{n-\\alpha^\\prime}{\\alpha} \\right\\rceil} \\right)_{n=1}^\\infty$$\nis called a [*ceiling*]{} Beatty sequence.\n\n[**References**]{}\n\n \\[1\n\n:   \\] M. Lothaire, , vol. 90, Cambridge University Press, Cambridge,\n    2002, ISBN 0-521-81220-8, available online at\n    <http://www-igm.univ-mlv.fr/~berstel/Lothaire>. A collective work by\n    Jean Berstel, Dominique Perrin, Patrice Seebold, Julien Cassaigne,\n    Aldo De Luca, Steffano Varricchio, Alain Lascoux, Bernard Leclerc,\n    Jean-Yves Thibon, Veronique Bruyere, Christiane Frougny, Filippo\n    Mignosi, Antonio Restivo, Christophe Reutenauer, Dominique Foata,\n    Guo-Niu Han, Jacques Desarmenien, Volker Diekert, Tero Harju, Juhani\n    Karhumaki and Wojciech Plandowski; With a preface by Berstel and\n    Perrin.",
+  "language": "INFORMAL",
+  "phrase": "Beatty Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BeattySequence"
+    }
+  ],
+  "indexable": true
+}

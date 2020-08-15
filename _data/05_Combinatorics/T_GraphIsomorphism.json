@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "isomorphism",
+    "isomorphic"
+  ],
+  "definition": "A *graph isomorphism* is a bijection between the vertices of two graphs\n$G$ and $H$: $$f: V(G) \\rightarrow V(H)$$ with the property that any two\nvertices $u$ and $v$ from $G$ are adjacent if and only if $f(u)$ and\n$f(v)$ are adjacent in $H$.\n\nIf an isomorphism can be constructed between two graphs, then we say\nthose graphs are *isomorphic*.\n\nFor example, consider these two graphs:\n\n$$\\xymatrix{\na \\ar@{-}[r] \\ar@{-}[rd] \\ar@{-}[rdd] & g \\\\\nb \\ar@{-}[ru] \\ar@{-}[r] \\ar@{-}[rdd] & h \\\\\nc \\ar@{-}[ruu] \\ar@{-}[r] \\ar@{-}[rd] & i \\\\\nd \\ar@{-}[ruu] \\ar@{-}[ru] \\ar@{-}[r] & j}$$\n\n$$\\xymatrix{\n1 \\ar@{-}[rrr] \\ar@{-}[rd] \\ar@{-}[ddd] & & & 2 \\\\\n& 5 & 6 \\ar@{-}[ur] \\ar@{-}[l] \\ar@{-}[d] & \\\\\n& 8 \\ar@{-}[u] \\ar@{-}[r] \\ar@{-}[dl] & 7 & \\\\\n4 & & & 3 \\ar@{-}[uuu] \\ar@{-}[lll] \\ar@{-}[ul] }$$\n\nAlthough these graphs look very different at first, they are in fact\nisomorphic; one isomorphism between them is $$f(a) = 1$$ $$f(b) = 6$$\n$$f(c) = 8$$ $$f(d) = 3$$ $$f(g) = 5$$ $$f(h) = 2$$ $$f(i) = 4$$\n$$f(j) = 7$$",
+  "language": "INFORMAL",
+  "phrase": "Graph Isomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GraphIsomorphism"
+    }
+  ],
+  "indexable": true
+}

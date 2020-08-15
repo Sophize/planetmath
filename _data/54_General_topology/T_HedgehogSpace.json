@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For any cardinal number $K$, we can form a topological space, called the\n*$K$-hedgehog space*, consisting of the disjoint union of $K$ real unit\nintervals identified at the origin. Each unit interval is referred to as\none of the hedgehog\u2019s \u201cspines.\u201d\n\nThe hedgehog space admits a somewhat surprising metric, by defining\n$d(x,y)=|x-y|$ if $x$ and $y$ lie in the same spine, and by $d(x,y)=x+y$\nif $x$ and $y$ lie in different spines.\n\nThe hedgehog space is an example of a Moore space, and satisfies many\nstrong normality and compactness properties.\n\n[1]{} L.A. Steen, J.A.Seebach, Jr., *Counterexamples in topology*, Holt,\nRinehart and Winston, Inc., 1970.",
+  "language": "INFORMAL",
+  "phrase": "Hedgehog Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HedgehogSpace"
+    }
+  ],
+  "indexable": true
+}

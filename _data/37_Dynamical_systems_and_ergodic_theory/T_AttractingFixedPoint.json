@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a vector field on a manifold $M$ and let $F_t$ be the flow of\n$X$. A fixed point $x^*$ of $X$ is called [*attracting*]{} if there\nexists a neighborhood $U$ of $x^*$ such that for every $x\\in U$,\n$F_{t}(x)\\to x^*$ as $t\\to\\infty$.\n\nThe stability of a fixed point can also be classified as stable,\nunstable, neutrally stable, and Liapunov stable.",
+  "language": "INFORMAL",
+  "phrase": "Attracting Fixed Point",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AttractingFixedPoint"
+    }
+  ],
+  "indexable": true
+}

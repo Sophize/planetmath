@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "harmonic conjugate",
+    "conjugate harmonic function",
+    "conjugate harmonic"
+  ],
+  "definition": "Two harmonic functions $u$ and $v$ from an subset $A$ of\n$\\mathbb{R}\\!\\times\\!\\mathbb{R}$ to $\\mathbb{R}$, which satisfy the\nCauchy-Riemann equations $$\\begin{aligned}\nu_x \\;=\\; v_y, \\quad u_y \\;=\\; -v_x,\\end{aligned}$$ are the [*harmonic\nconjugate functions*]{} of each other.\n\n-   The relationship between $u$ and $v$ has a geometric meaning: Let\u2019s\n    determine the slopes of the constant-value curves $u(x,\\,y) = a$ and\n    $v(x,\\,y) = b$ in any point $(x,\\,y)$ by differentiating these\n    equations. The first gives $u_x dx+u_y dy = 0$, or\n    $$\\frac{dy}{dx}^{(u)} \\;=\\; -\\frac{u_x}{u_y} \\;=\\; \\tan\\alpha,$$ and\n    the second similarly $$\\frac{dy}{dx}^{(v)} \\;=\\; -\\frac{v_x}{v_y}$$\n    but this is, by virtue of (1), equal to\n    $$\\frac{u_y}{u_x} \\;=\\; -\\frac{1}{\\tan\\alpha}.$$ Thus, by the\n    condition of orthogonality, the curves intersect at right angles in\n    every point.\n\n-   If one of $u$ and $v$ is known, then the other may be determined\n    with (1): When e.g. the function $u$ is known, we need only to the\n    line integral\n    $$v(x, y) \\;=\\; \\int_{(x_0, y_0)}^{(x, y)}(-u_y\\,dx+u_x\\,dy)$$ along\n    any connecting $(x_0,\\,y_0)$ and $(x,\\,y)$ in $A$. The result is the\n    harmonic conjugate $v$ of $u$, unique up to a real addend if $A$ is\n    simply connected.\n\n-   It follows from the preceding, that every harmonic function has a\n    harmonic conjugate function.\n\n-   The real part and the imaginary part of a holomorphic function are\n    always the harmonic conjugate functions of each other.\n\n**Example.** $\\sin{x}\\cosh{y}$ and $\\cos{x}\\sinh{y}$ are harmonic\nconjugates of each other.",
+  "language": "INFORMAL",
+  "phrase": "Harmonic Conjugate Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HarmonicConjugateFunction"
+    }
+  ],
+  "indexable": true
+}

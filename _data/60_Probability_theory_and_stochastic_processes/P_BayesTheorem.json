@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(A_n)$ be a sequence of mutually exclusive events whose is the\nsample space and let $E$ be any event. All of the events have nonzero\nprobability ($P(E) > 0$ and $P(A_n) > 0$ for all $n$). Bayes\u2019 Theorem\nstates\n\n$$P(A_j|E) = \\frac{P(A_j)P(E|A_j)}{\\sum_i P(A_i)P(E|A_i)}$$\n\nfor any $A_j \\in (A_n)$.\n\nA simpler formulation is:\n\n$$P(A|B) = \\frac{P(B|A)P(A)}{P(B)}$$\n\nFor two events, $A$ and $B$ (also with nonzero probability).\n\n[3]{} Milton, J.S., Arnold, Jesse C., *Introduction to Probability and\nStatistics: Principles and Applications for Engineering and the\nComputing Sciences*, McGraw Hill, 1995.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BayesTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Bayes' theorem",
+    "Bayes' Rule"
+  ]
+}

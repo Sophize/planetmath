@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a topological group and $X$ any topological space. We say\nthat $G$ is a *topological transformation group* of $X$ if $G$ *acts* on\n$X$ continuously, in the following sense:\n\n1.  there is a continuous function $\\alpha:G\\times X\\to X$, where\n    $G\\times X$ is given the product topology\n\n2.  $\\alpha(1,x)=x$, and\n\n3.  $\\alpha(g_1g_2,x)=\\alpha(g_1,\\alpha(g_2,x))$.\n\nThe function $\\alpha$ is called the *(left) action* of $G$ on $X$. When\nthere is no confusion, $\\alpha(g,x)$ is simply written $gx$, so that the\ntwo conditions above read $1x=x$ and $(g_1g_2)x=g_1(g_2x)$.\n\nIf a topological transformation group $G$ on $X$ is *effective*, then\n$G$ can be viewed as a group of homeomorphisms on $X$: simply define\n$h_g:X\\to X$ by $h_g(x)=gx$ for each $g\\in G$ so that $h_g$ is the\nidentity function precisely when $g=1$.\n\n**Some Examples.**\n\n1.  Let $X=\\mathbb{R}^n$, and $G$ be the group of $n\\times n$ matrices\n    over $\\mathbb{R}$. Clearly $X$ and $G$ are both topological spaces\n    with the usual topology. Furthermore, $G$ is a topological group.\n    $G$ acts on $X$ continuous if we view elements of $X$ as column\n    vectors and take the action to be the matrix multiplication on the\n    left.\n\n2.  If $G$ is a topological group, $G$ can be considered a topological\n    transformation group on itself. There are many continuous actions\n    that can be defined on $G$. For example, $\\alpha:G\\times G\\to G$\n    given by $\\alpha(g,x)=gx$ is one such action. It is continuous, and\n    satisfies the two action axioms. $G$ is also effective with respect\n    to $\\alpha$.",
+  "language": "INFORMAL",
+  "phrase": "Topological Transformation Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TopologicalTransformationGroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A bounded entire function is constant. That is, a bounded complex\nfunction $f: \\mathbb{C} \\to \\mathbb{C}$ which is holomorphic on the\nentire complex plane is always a constant function.\n\nMore generally, any holomorphic function $f: \\mathbb{C} \\to \\mathbb{C}$\nwhich satisfies a polynomial bound condition of the form\n$$|f(z)| < c \\cdot |z|^n$$ for some $c \\in \\mathbb{R}$,\n$n \\in \\mathbb{Z}$, and all $z \\in \\mathbb{C}$ with $|z|$ sufficiently\nlarge is necessarily equal to a polynomial function.\n\nLiouville\u2019s theorem is a vivid example of how stringent the\nholomorphicity condition on a complex function really is. One has only\nto compare the theorem to the corresponding statement for real functions\n(namely, that a bounded differentiable real function is constant, a\npatently false statement) to see how much stronger the complex\ndifferentiability condition is compared to real differentiability.\n\nApplications of Liouville\u2019s theorem include proofs of the fundamental\ntheorem of algebra and of the partial fraction decomposition theorem for\nrational functions.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LiouvillesTheorem1"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Liouville's theorem"
+  ]
+}

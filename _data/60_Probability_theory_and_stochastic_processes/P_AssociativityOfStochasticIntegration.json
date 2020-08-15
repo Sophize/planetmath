@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The chain rule for expressing the derivative of a variable $z$ with\nrespect to $x$ in terms of a third variable $y$ is\n$$\\frac{dz}{dx}=\\frac{dz}{dy}\\frac{dy}{dx}.$$ Equivalently, if\n$dy=\\alpha\\,dx$ and $dz=\\beta\\,dy$ then $dz=\\beta\\alpha\\,dx$. The\nfollowing theorem shows that the stochastic integral satisfies a\ngeneralization of this.\n\nLet $X$ be a semimartingale and $\\alpha$ be an $X$-integrable process.\nSetting $Y=\\int\\alpha\\,dX$ then $Y$ is a semimartingale. Furthermore, a\npredictable process $\\beta$ is $Y$-integrable if and only if\n$\\beta\\alpha$ is $X$-integrable, in which case $$\\label{eq:1}\n\\int\\beta\\,dY=\\int\\beta\\alpha\\,dX.$$\n\nNote that expressed in alternative notation, (\\[eq:1\\]) becomes\n$$\\beta\\cdot(\\alpha\\cdot X)=(\\beta\\alpha)\\cdot X$$ or, in differential\nnotional, $$\\beta(\\alpha\\,dX)=(\\beta\\alpha)\\,dX.$$ That is, stochastic\nintegration is associative.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AssociativityOfStochasticIntegration"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "associativity of stochastic integration"
+  ]
+}

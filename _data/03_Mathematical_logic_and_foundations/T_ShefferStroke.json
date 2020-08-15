@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "alternative denial",
+    "NAND",
+    "joint denial",
+    "NOR"
+  ],
+  "definition": "In the late 19th century and early 20th century, Charles Sanders Peirce\nand H.M. Sheffer independently discovered that a single binary logical\nconnective suffices to define all logical connectives (they are each\nfunctionally complete). Two such connectives are\n\n-   $\\uparrow$: the *Sheffer stroke* (sometimes denoted by $|$) and\n\n-   $\\downarrow$: the *Peirce arrow* (sometimes denoted by $\\bot$).\n\nThe Sheffer stroke is defined by the truth table\n\n   $P$   $Q$   $P \\uparrow Q$\n  ----- ----- ----------------\n    F     F          T\n    F     T          T\n    T     F          T\n    T     T          F\n\nObserve that $P\\uparrow Q$ is true if and only if either $P$ or $Q$ is\nfalse. For this reason, the Sheffer stroke is sometimes called\n*alternative denial* or *NAND*.\n\nThe Peirce arrow is defined by the truth table\n\n   $P$   $Q$   $P \\downarrow Q$\n  ----- ----- ------------------\n    F     F           T\n    F     T           F\n    T     F           F\n    T     T           F\n\nThe proposition $P\\downarrow Q$ is true if and only if both $P$ and $Q$\nare false. For this reason, the Peirce arrow is sometimes called *joint\ndenial* or *NOR*.\n\nTo show the sufficiency of the Sheffer stroke, all we have to do is\ndefine both $\\lnot$ and $\\lor$ in terms of $\\uparrow$. The proposition\n$P\\uparrow P$ asserts that either $P$ is false, or $P$ is false; thus we\ncan define $\\lnot$ by $\\lnot P := P\\uparrow P$. We define $\\lor$ by\n$$P \\lor Q := (P\\uparrow P)\\uparrow(Q\\uparrow Q),$$ since this asserts\nthat either $P\\uparrow P$ is false (that is, that $P$ is true) or that\n$Q\\uparrow Q$ is false (that is, that $Q$ is true).\n\nWe can show the sufficiency of the Peirce arrow in a similar way. Define\n$$\\lnot P := P\\downarrow P$$ and\n$$P\\lor Q := (P\\downarrow Q)\\downarrow(P\\downarrow Q).$$ This expression\nasserts that $P\\downarrow Q$ is false, that is, that it is false that\nboth $P$ and $Q$ are false. By DeMorgan\u2019s law, this is equivalent to\nasserting that at least one of $P$ and $Q$ is true.\n\n**Remark**. It can be shown that no binary connective, other than\nSheffer stroke and Peirce arrow, is functionally complete.",
+  "language": "INFORMAL",
+  "phrase": "Sheffer Stroke",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ShefferStroke"
+    }
+  ],
+  "indexable": true
+}

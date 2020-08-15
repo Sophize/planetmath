@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $w$ be a word on an alphabet $A$ and let $|w|$ be its length. A\nperiod of $w$ is a value $p>0$ such that $w_{i+p}=w_{i}$ for every\n$i\\in\\{1,2,\\ldots,|w|-p\\}$. This is the same as saying that $w=u^{k}r$\nfor some $u,r\\in A^{\\ast}$ and $k\\in{\\ensuremath{\\mathbb{N}}}$ such that\n$|u|=p$ and $r$ is a prefix of $u$.\n\nFine and Wilf\u2019s theorem gives a condition on the length of the periods a\nword can have.\n\n\\[thm:fw\\] Let $w$ be a word on an alphabet $A$ having periods $p$ and\n$q$. If $|w|\\geq p+q-\\gcd(p,q)$, then $w$ has period $\\gcd(p,q)$. The\nvalue $p+q-\\gcd(p,q)$ is the smallest one that makes the theorem true.\n\nAs a counterexample showing that the condition on $|w|$ is necessary,\nthe word $aaabaaa$ has periods $4$ and $6$, but not $2=\\gcd(4,6)$. This\ncan happen because its length is $7<4+6-2=8$.\n\nObserve that Theorem\u00a0\\[thm:fw\\] can be restated as follows (cf.\u00a0[@l97]).\n\n\\[thm:fw-alt\\] Let $u$ and $w$ be words over an alphabet $A$. Suppose\n$u^h$ and $w^k$, for some $h$ and $k$, have a common prefix of length\n$|u|+|w|-\\gcd(|u|,|w|).$ Then there exists $z\\in A^\\ast$ of length\n$\\gcd(|u|,|w|)$ such that $u,w\\in z^\\ast$. The value\n$|u|+|w|-\\gcd(|u|,|w|)$ is also the smallest one that makes the theorem\ntrue.\n\nIn fact, Theorem\u00a0\\[thm:fw\\] clearly implies Theorem\u00a0\\[thm:fw-alt\\]. Now,\nsuppose Theorem\u00a0\\[thm:fw-alt\\] is true. Suppose $w$ has periods $p$ and\n$q$ and length at least $p+q-\\gcd(p,q)$: write $w=u^{k}r=v^{h}s$ with\n$|u|=p$, $|v|=q$, $r$ prefix of $u$, $s$ prefix of $v$. Let $M$ be a\ncommon multiple of $p$ and $q$ greater than $p$, $q$, and $|w|$: then\n$u^{M/p}$ and $v^{M/q}$ have the common prefix $w$, so they also have a\ncommon prefix of length $p+q-\\gcd(u,v)$. Then $u$ and $v$ are powers of\na word $z$ of length $\\gcd(p,q)$, and it is easy to see that $w=z^{m}t$\nfor some $m>0$ and some prefix $t$ of $z$.\n\n[99]{}\n\nM. Lothaire. *Combinatorics on words.* Cambridge University Press 1997.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FineAndWilfsTheoremOnWords"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Fine and Wilf's theorem on words"
+  ]
+}

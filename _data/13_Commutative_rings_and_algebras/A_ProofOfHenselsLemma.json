@@ -1,0 +1,17 @@
+{
+  "argumentText": "**Lemma:** Using the setup and terminology of the statement of Hensel\u2019s\nLemma, for $i\\geq 0$, $$\\begin{aligned}\n& \\mbox{i) } & |f'(\\alpha_i)| = |f'(\\alpha_0)| \\\\\n& \\mbox{ii) } & \\left|\\frac{f(\\alpha_i)}{f'(\\alpha_i)^2}\\right| \\leq D^{2^i} \\\\\n& \\mbox{iii) } & | \\alpha_i - \\alpha_0 | \\leq D \\\\\n& \\mbox{iv) } & \\alpha_i \\in \\mathcal{O}_K\\end{aligned}$$ where\n$ D=\\left|\\frac{f(\\alpha_0)}{f'(\\alpha_0)^2}\\right|$.\n\n**Proof:** All four statements clearly hold when $i=0$. Suppose they are\ntrue for $i$. The proof for $i+1$ essentially uses Taylor\u2019s formula. Let\n$\\delta = \\left|\\frac{-f(\\alpha_i)}{f'(\\alpha_i)}\\right|$. Then\n$$f'(\\alpha_{i+1}) = f'(\\alpha_i+\\delta) = f'(\\alpha_i) + {\\delta}u$$\n$$f(\\alpha_{i+1}) = f(\\alpha_i+\\delta) = f(\\alpha_i) + f'(\\alpha_i)\\delta + {\\delta^2}v$$\nfor $u, v \\in \\mathcal{O}_K$. $|\\delta| \\leq D^{2^i}|f'(\\alpha_i)|$ by\ninduction, and since $D < 1$, it follows that\n$|\\delta| < |f'(\\alpha_i)|$. Since the norm is non-Archimedean, we see\nthat $$f'(\\alpha_{i+1}) = f'(\\alpha_i)$$ proving i).\n\n$f(\\alpha_i)+f'(\\alpha_i)\\delta = 0$ by definition of $\\delta$, so\n$f(\\alpha_{i+1}) = {\\delta^2}v$ and hence\n$|f(\\alpha_{i+1})| \\leq |\\delta^2|$. Hence\n$$\\left|\\frac{f(\\alpha_{i+1})}{f'(\\alpha_{i+1})^2}\\right| \\leq \\frac{|\\delta|^2}{|f'(\\alpha_{i+1})|^2} = \\frac{|\\delta|^2}{|f'(\\alpha_i)|^2}=\\left(\\frac{|\\delta|}{|f'(\\alpha_i)|}\\right)^2 = \\left(\\frac{|f(\\alpha_i)|}{|f'(\\alpha_i)|^2}\\right)^2 \\leq D^{2^{i+1}}$$\nwhere the last equality follows by induction. This proves ii).\n\nTo prove iii), note that $|\\alpha_{i+1}-\\alpha_i| = |\\delta|$ by the\ndefinitions of $\\delta$ and $\\alpha_{i+1}$, so\n$|\\alpha_{i+1}-\\alpha_i| \\leq D^{2^i}|f'(\\alpha_i)| = D^{2^i}|f'(\\alpha_0) < D$\nwhen $i>0$ since\n$D^2 < D = \\left|\\frac{f(\\alpha_0)}{f'(\\alpha_0)^2}\\right|$. So by\ninduction, $|\\alpha_{i+1}-\\alpha_0| \\leq D$.\n\nFinally, to prove iv) and the proof of the lemma,\n$\\delta \\in \\mathcal{O}_K$ since\n$|\\delta| < \\left|\\frac{f(\\alpha_0)}{f'(\\alpha_0)}\\right| \\leq 1$ and\nhence is in the valuation ring of $K$. So by induction,\n$\\alpha_{i+1} = \\alpha_i + \\delta \\in \\mathcal{O}_K$.\n\n**Proof of Hensel\u2019s Lemma:**\n\nTo prove Hensel\u2019s lemma from the above lemma, note that\n$\\delta = \\delta_i \\to 0$ since $|\\delta| \\leq D^{2^i}|f'(\\alpha_0)|$,\nso $\\{\\alpha_i\\}$ converges to $\\alpha \\in \\mathcal{O}_K$ since $K$ is\ncomplete. Thus $f(\\alpha_i)\\to f(\\alpha)$ by continuity. But\n$|f(\\alpha_i)| \\leq |\\delta^2| = D^{2^{i+1}}|f'(\\alpha_0)|$, so\n$|f(\\alpha_i)| \\to 0$, so $f(\\alpha)=0$ and the proof is complete.",
+  "conclusion": "#P_HenselsLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfHenselsLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Hensel's lemma"
+  ]
+}

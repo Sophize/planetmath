@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "geometric random variable"
+  ],
+  "definition": "Suppose that a random experiment has two possible outcomes, success with\nprobability $p$ and failure with probability $q=1-p$. The experiment is\nrepeated until a success happens. The number of trials before the\nsuccess is a random variable $X$ with density function\n$$f(x)=q^{(x-1)}p.$$\n\nThe distribution function determined by $f(x)$ is called a *geometric\ndistribution* with parameter $p$ and it is given by\n$$F(x) = \\sum_{k\\leq x}q^{(k-1)}p.$$\n\n![image](geomet)\n\nThe picture shows the graph for $f(x)$ with $p=1/4$. Notice the quick\ndecreasing. An interpretation is that a long run of failures is very\nunlikely.\n\nWe can use the moment generating function method in order to get the\nmean and variance. This function is\n$$G(t)=\\sum_{k=1}^\\infty e^{tk}q^{(k-1)}p=pe^t\\sum_{k=0}^\\infty (e^tq)^k.$$\nThe last expression can be simplified as $$G(t)=\\frac{pe^t}{1-e^tq}.$$\n\nThe first derivative is $$G'(t)=\\frac{e^tp}{(1-e^tq)^2}$$ so the mean is\n$$\\mu=E[X]=G'(0)=\\frac{1}{p}.$$\n\nIn order to find the variance, we use the second derivative and thus\n$$E[X^2]=G''(0)=\\frac{2-p}{p^2}$$ and therefore the variance is\n$$\\sigma^2=E[X^2]-E[X]^2 = G''(0) - G'(0)^2 = \\frac{q}{p^2}.$$",
+  "language": "INFORMAL",
+  "phrase": "Geometric Distribution",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeometricDistribution"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Leibniz' harmonic triangle",
+    "Leibniz's harmonic triangle",
+    "Leibniz'z harmonic triangle"
+  ],
+  "definition": "The [*Leibniz harmonic triangle*]{} is a triangular arrangement of\nfractions in which the outermost diagonals consist of the reciprocals of\nthe row numbers and each inner cell is the absolute value of the cell\nabove minus the cell to the left. To put it algebraically,\n$L(r, 1) = \\frac{1}{n}$ (where $r$ is the number of the row, starting\nfrom 1, and $c$ is the column number, never more than $r$) and\n$L(r, c) = L(r - 1, c - 1) - L(r, c - 1)$.\n\nThe first eight rows are:\n\n$$\\begin{array}{cccccccccccccccccc}\n& & & & & & & & & 1 & & & & & & & &\\\\\n& & & & & & & & \\frac{1}{2} & & \\frac{1}{2} & & & & & & &\\\\\n& & & & & & & \\frac{1}{3} & & \\frac{1}{6} & & \\frac{1}{3} & & & & & &\\\\\n& & & & & & \\frac{1}{4} & & \\frac{1}{12} & & \\frac{1}{12} & & \\frac{1}{4} & & & & &\\\\\n& & & & & \\frac{1}{5} & & \\frac{1}{20} & & \\frac{1}{30} & & \\frac{1}{20} & & \\frac{1}{5} & & & &\\\\\n& & & & \\frac{1}{6} & & \\frac{1}{30} & & \\frac{1}{60} & & \\frac{1}{60} & & \\frac{1}{30} & & \\frac{1}{6} & & &\\\\\n& & & \\frac{1}{7} & & \\frac{1}{42} & & \\frac{1}{105} & & \\frac{1}{140} & & \\frac{1}{105} & & \\frac{1}{42} & & \\frac{1}{7} & &\\\\\n& & \\frac{1}{8} & & \\frac{1}{56} & & \\frac{1}{168} & & \\frac{1}{280} & & \\frac{1}{280} & & \\frac{1}{168} & & \\frac{1}{56} & & \\frac{1}{8} &\\\\\n& & & & &\\vdots & & & & \\vdots & & & & \\vdots& & & & \\\\\n\\end{array}$$\n\nThe denominators are listed in A003506 of Sloane\u2019s OEIS, while the\nnumerators, which are all 1s, are listed in A000012. The denominators of\nthe second outermost diagonal are oblong numbers. The sum of the\ndenominators in the $n$th row is $n2^{n - 1}$.\n\nJust as Pascal\u2019s triangle can be computed by using binomial\ncoefficients, so can Leibniz\u2019s: $$L(r, c) = \\frac{1}{c {r \\choose c}}$$.\n\nThis triangle can be used to obtain examples for the when $4|n$.\n\n[2]{} A. Ayoub, \u201cThe Harmonic Triangle and the Beta Function\u201d [*Math.\nMagazine*]{} [**60**]{} 4 (1987): 223 - 225 D. Darling, \u201cLeibniz\u2019\nharmonic triangle\u201d in [*The Universal Book of Mathematics: From\nAbracadabra To Zeno\u2019s paradoxes*]{}. Hoboken, New Jersey: Wiley (2004)",
+  "language": "INFORMAL",
+  "phrase": "Leibniz Harmonic Triangle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeibnizHarmonicTriangle"
+    }
+  ],
+  "indexable": true
+}

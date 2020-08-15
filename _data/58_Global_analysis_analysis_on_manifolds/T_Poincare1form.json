@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Liouville one-form"
+  ],
+  "definition": "Suppose $M$ is a manifold, and $T^\\ast M$ is its cotangent bundle. Then\nthe , $\\alpha \\in \\Omega^1(T^\\ast M)$, is locally defined as\n$$\\alpha = \\sum_{i=1}^n y_i dx^i$$ where $x^i, y_i$ are canonical local\ncoordinates for $T^\\ast M$.\n\nLet us show that the Poincar\u00e9 $1$-form is globally defined. That is,\n$\\alpha$ has the same expression in all local coordinates. Suppose\n$x^i, \\tilde{x}^i$ are overlapping coordinates for $M$. Then we have\noverlapping local coordinates $(x^i, y_i)$, $(\\tilde{x}^i, \\tilde{y}_i)$\nfor $T^\\ast M$ with the transformation rule\n$$\\tilde{y}_i = \\frac{\\partial \\tilde{x}^j}{\\partial x^i} y_j.$$ Hence\n$$\\begin{aligned}\n\\sum_{i=1}^n \\tilde{y}_i d\\tilde{x}^i &=& \\sum_{i=1}^n \\tilde{y}_i \\frac{\\partial \\tilde{x}^i}{\\partial x^k} dx^k \\\\\n&=& \\sum_{i=1}^n \\frac{\\partial \\tilde{x}^j}{\\partial x^i} y_j \\frac{\\partial \\tilde{x}^i}{\\partial x^k} dx^k  \\\\\n&=& \\sum_{k=1}^n y_k dx^k.\\end{aligned}$$\n\n### Properties {#properties .unnumbered}\n\n1.  The Poincar\u00e9 $1$-form play a crucial role in symplectic geometry.\n    The form $d\\alpha$ is the canonical symplectic form for $T^\\ast M$.\n\n2.  Suppose $\\pi\\colon T^\\ast M\\to M$ is the canonical projection. Then\n    $$\\alpha(w) = \\xi( (D\\pi)(w) ),\\quad w\\in T_\\xi(T^\\ast M),$$ which\n    is an alternative definition of $\\alpha$ without local coordinates.\n\n3.  The restriction of this form to the unit cotangent bundle, is a\n    contact form.",
+  "language": "INFORMAL",
+  "phrase": "Poincar\\'E $1$-Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Poincare1form"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a homogeneous polynomial $F$ of degree $d$ in $n+1$ variables\n$X_0,\\ldots,X_n$ and a point $[x_0:\\cdots:x_n]$, we cannot evaluate $F$\nat that point, because it has multiple such representations, but since\n$F(\\lambda x_0,\\ldots,\\lambda x_n) = \\lambda^d F(x_0,\\ldots,x_n)$ we can\nsay whether any such representation (and hence all) vanish at that\npoint.\n\nA *projective variety* over an algebraically closed field $k$ is a\nsubset of some projective space $\\mathbb{P}^n_k$ over $k$ which can be\ndescribed as the common vanishing locus of finitely many homogeneous\npolynomials with coefficients in $k$, and which is not the union of two\nsuch smaller loci. Also, a *quasi-projective variety* is an open subset\nof a projective variety.",
+  "language": "INFORMAL",
+  "phrase": "Projective Variety",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProjectiveVariety"
+    }
+  ],
+  "indexable": true
+}

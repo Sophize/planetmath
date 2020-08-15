@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Germain prime"
+  ],
+  "definition": "A prime number $p$ is called *Sophie Germain prime* if $2p+1$ is also\nprime.\n\nThe first few Sophie Germain primes are:\n$2, 3, 5, 11, 23, 29, 41, 53, 83, 89, 113, 131, 173, 179, 191, 233,\\dots$\n\nIt is conjectured that there are infinitely many Sophie Germain primes,\nbut (like the Twin Prime Conjecture) this has not been proven. A\nheuristic estimate for the number of Sophie Germain primes less than $n$\nis $\\frac{2cn}{\\ln^2{n}}$, where $c$ is the twin prime constant.",
+  "language": "INFORMAL",
+  "phrase": "Sophie Germain Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SophieGermainPrime"
+    }
+  ],
+  "indexable": true
+}

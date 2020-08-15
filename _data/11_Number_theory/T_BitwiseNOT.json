@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[*Bitwise NOT*]{} is a bit-level operation on a single binary value that\nsets the bits that are off and turns off the bits that are on. For\nexample, performing a bitwise NOT on 163 gives 92.\n\n  ----- --- --- --- --- --- --- --- ---\n    NOT  1   0   1   0   0   0   1   1\n      =  0   1   0   1   1   1   0   0\n  ----- --- --- --- --- --- --- --- ---\n\nPerforming a bitwise NOT on a number $n$ has the same effect as\nperforming a bitwise XOR on a Mersenne number of the form $2^k - 1$\n(where $k$ is the bit size of the data type in use, e.g., 8 for bytes,\n16 for words, 32 for double words, etc.) and $n$. Obviously a bitwise\nNOT on 0 gives the largest Mersenne number that can fit in the data type\nin use.\n\nThe Windows Calculator offers bitwise NOT in scientific calculator mode,\nwhile the Mac OS X Calculator offers it in programmer mode.",
+  "language": "INFORMAL",
+  "phrase": "Bitwise Not",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BitwiseNOT"
+    }
+  ],
+  "indexable": true
+}

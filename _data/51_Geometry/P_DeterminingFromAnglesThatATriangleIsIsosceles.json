@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem holds in any geometry in which ASA is valid.\nSpecifically, it holds in both Euclidean geometry and hyperbolic\ngeometry (and therefore in neutral geometry) as well as in spherical\ngeometry.\n\nIf a triangle has two congruent angles, then it is isosceles.\n\nLet triangle $\\triangle ABC$ have angles $\\angle B$ and $\\angle C$\ncongruent.\n\n(-3,-2)(3,3) (-2,-2)(0,2)(2,-2) (-2,-2)[0.4]{}[0]{}[63.435]{}\n(2,-2)[0.4]{}[116.565]{}[180]{} (0,2.2)[$A$]{} (-2.2,-2)[$B$]{}\n(2.2,-2)[$C$]{}\n\nSince we have\n\n-   $\\angle B \\cong \\angle C$\n\n-   $\\overline{BC} \\cong \\overline{CB}$ by the of $\\cong$ (note that\n    $\\overline{BC}$ and $\\overline{CB}$ denote the same line segment)\n\n-   $\\angle C \\cong \\angle B$ by the of $\\cong$\n\nwe can use ASA to conclude that $\\triangle ABC \\cong \\triangle ACB$.\nSince corresponding parts of congruent triangles are congruent, we have\nthat $\\overline{AB} \\cong \\overline{AC}$. It follows that\n$\\triangle ABC$ is isosceles.\n\nIn geometries in which ASA and SAS are both valid, the converse theorem\nof this theorem is also true. This theorem is stated and proven in the\nentry angles of an isosceles triangle.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DeterminingFromAnglesThatATriangleIsIsosceles"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "determining from angles that a triangle is isosceles"
+  ]
+}

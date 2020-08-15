@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "similarity",
+    "similitude"
+  ],
+  "definition": "Two figures $K$ and $K'$ in a Euclidean plane or are [*similar*]{} iff\nthere exists a bijection $f$ from the set of points of $K$ onto the set\nof points of $K'$ such that, for any $P,Q \\in K$, the ratio\n$$\\frac{P'Q'}{PQ}$$ of the lengths of the line segments $P'Q'$ and $PQ$\nis always the same number $k$, where $P'=f(P)$ and $Q'=f(Q)$.\n\nThe number $k$ is called the [*ratio of similarity*]{} or the [*line\nratio*]{} of the figure $K'$ with respect to the figure $K$ (N.B. the in\nwhich the figures are mentioned!). The similarity of $K$ and $K'$ is\noften denoted by $$K' \\sim K\\;\\;\\;(\\mbox{or}\\;\\;K \\sim K').$$\\\n**Examples**\n\n-   All squares are similar.\n\n-   All cubes are similar.\n\n-   All circles are similar.\n\n-   All parabolas are similar.\n\n-   All sectors of circle with equal central angle are similar.\n\n-   All spheres are similar.\n\n-   All equilateral triangles are similar.\n\n**Nonexamples**\n\n-   Not all rectangles are similar.\n\n-   Not all rhombi are similar.\n\n-   Not all rectangular prisms are similar.\n\n-   Not all ellipses are similar.\n\n-   Not all ellipsoids are similar.\n\n-   Not all triangles are similar.\n\n**Properties**\n\n-   The corresponding angles (consisting of corresponding points) of two\n    similar figures are equal.\n\n-   The lengths of any corresponding arcs of two similar figures are\n    proportional in the ratio $k$.\n\n-   The areas of two similar regions are proportional in the ratio $k^2$\n    when $k$ is the line ratio of the regions.\n\n-   The volumes of two similar solids are proportional in the ratio\n    $k^3$ when $k$ is the line ratio of the solids.\n\n**Remarks**\n\n-   In any Euclidean space $E$, the of similarity (denoted $\\sim$) on\n    the set of figures in $E$ is an equivalence relation.\n\n-   If one pair of corresponding line segments in the similar figures\n    $K$ and $K'$ are equal, then all pairs of corresponding line\n    segments are equal, i.e. the figures have also equal : They are\n    ($K' \\cong K$).",
+  "language": "INFORMAL",
+  "phrase": "Similarity In Geometry",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimilarityInGeometry"
+    }
+  ],
+  "indexable": true
+}

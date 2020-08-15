@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The projection of a measurable set from the product $X\\times Y$ of two\nmeasurable spaces need not itself be measurable. See a Lebesgue\nmeasurable but non-Borel set for an example. However, the following\nresult can be shown. The notation $\\mathcal{F}\\times\\mathcal{B}$ refers\nto the .\n\nLet $(X,\\mathcal{F})$ be a measurable space and $Y$ be a Polish space\nwith Borel $\\sigma$-algebra $\\mathcal{B}$. Then the of any\n$S\\in\\mathcal{F}\\times\\mathcal{B}$ onto $X$ is universally measurable.\n\nIn particular, if $\\mathcal{F}$ is universally complete then the\nprojection of $S$ will be in $\\mathcal{F}$, and this applies to all\ncomplete measure spaces $(X,\\mathcal{F},\\mu)$. For example, the\nprojection of any Borel set in $\\mathbb{R}^n$ onto $\\mathbb{R}$ is\nLebesgue measurable.\n\nThe theorem is a direct consequence of the properties of , following\nfrom the result that projections of analytic sets are analytic and the\nfact that . Note, however, that the theorem itself does not refer at all\nto the concept of analytic sets.\n\nThe measurable projection theorem has important applications to the\ntheory of continuous-time stochastic processes. For example, the d\u00e9but\ntheorem, which says that the first time at which a progressively\nmeasurable stochastic process enters a given measurable set is a\nstopping time, follows easily. Also, if $(X_t)_{t\\in\\mathbb{R}_+}$ is a\njointly measurable process defined on a measurable space\n$(\\Omega,\\mathcal{F})$, then the maximum process\n$X^*_t=\\sup_{s\\le t}X_s$ will be universally measurable since,\n$$\\left\\{\\omega\\in\\Omega\\colon X^*_t> K\\right\\}\n=\\pi_\\Omega\\left(\\left\\{(s,\\omega)\\colon s\\le t,\\ X_s> K\\right\\}\\right)$$\nis universally measurable, where\n$\\pi_\\Omega\\colon\\Omega\\times\\mathbb{R}_+\\to\\Omega$ is the projection\nmap. Furthermore, this also shows that the topology of ucp convergence\nis well defined on the space of jointly measurable processes.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeasurableProjectionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "measurable projection theorem"
+  ]
+}

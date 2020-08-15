@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "quaternionic group"
+  ],
+  "definition": "The quaternion group, or quaternionic group, is a noncommutative group\nwith eight elements. It is traditionally denoted by $Q$ (not to be\nconfused with $\\mathbb{Q}$) or by $Q_8$. This group is defined by the\npresentation $$\\{i,j;i^4,i^2j^2,iji^{-1}j\\}$$ or, equivalently, defined\nby the multiplication table\n\n  --------- ------ ------ ------ ------ ------ ------ ------ ------\n    $\\cdot$    $1$    $i$    $j$    $k$   $-i$   $-j$   $-k$   $-1$\n        $1$    $1$    $i$    $j$    $k$   $-i$   $-j$   $-k$   $-1$\n        $i$    $i$   $-1$    $k$   $-j$    $1$   $-k$    $j$   $-i$\n        $j$    $j$   $-k$   $-1$    $i$    $k$    $1$   $-i$   $-j$\n        $k$    $k$    $j$   $-i$   $-1$   $-j$    $i$    $1$   $-k$\n       $-i$   $-i$    $1$   $-k$    $j$   $-1$    $k$   $-j$    $i$\n       $-j$   $-j$    $k$    $1$   $-i$   $-k$   $-1$    $i$    $j$\n       $-k$   $-k$   $-j$    $i$    $1$    $j$   $-i$   $-1$    $k$\n       $-1$   $-1$   $-i$   $-j$   $-k$    $i$    $j$    $k$    $1$\n  --------- ------ ------ ------ ------ ------ ------ ------ ------\n\nwhere we have put each product $xy$ into row $x$ and column $y$. The\nminus signs are justified by the fact that $\\{1,-1\\}$ is subgroup\ncontained in the center of $Q$. Every subgroup of $Q$ is normal and,\nexcept for the trivial subgroup $\\{1\\}$, contains $\\{1,-1\\}$. The\ndihedral group $D_4$ (the group of symmetries of a square) is the only\nother noncommutative group of order 8.\n\nSince $i^2 = j^2 = k^2 = -1$, the elements $i$, $j$, and $k$ are known\nas the imaginary units, by analogy with $i\\in\\mathbb{C}$. Any pair of\nthe imaginary units generate the group. Better, given $x,y\\in\\{i,j,k\\}$,\nany element of $Q$ is expressible in the form $x^my^n$.\n\n$Q$ is identified with the group of units (invertible elements) of the\nring of quaternions over $\\mathbb{Z}$. That ring is not identical to the\ngroup ring $\\mathbb{Z}[Q]$, which has dimension 8 (not 4) over\n$\\mathbb{Z}$. Likewise the usual quaternion algebra is not quite the\nsame thing as the group algebra $\\mathbb{R}[Q]$.\n\nQuaternions were known to Gauss in 1819 or 1820, but he did not\npublicize this discovery, and quaternions weren\u2019t rediscovered until\n1843, with Hamilton.",
+  "language": "INFORMAL",
+  "phrase": "Quaternion Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuaternionGroup"
+    }
+  ],
+  "indexable": true
+}

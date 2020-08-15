@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $$f(x+iy) = u(x,y) + i v(x,y).$$ Hence we have\n$$\\int_C f(z)\\, dz = \\int_C \\omega + i \\int_C \\eta$$ where $\\omega$ and\n$\\eta$ are the differential forms\n$$\\omega = u(x,y)\\,dx - v(x,y)\\, dy,\\qquad\n   \\eta = v(x,y)\\, dx + u(x,y)\\, dy.$$ Notice that by Cauchy-Riemann\nequations $\\omega$ and $\\eta$ are closed differential forms. Hence by\nthe lemma on closed differential forms on a simply connected domain we\nget $$\\int_{C_1} \\omega = \\int_{C_2} \\omega,\\quad\n  \\int_{C_1} \\eta = \\int_{C_2} \\eta.$$ and hence\n$$\\int_{C_1} f(z)\\, dz = \\int_{C_2} f(z)\\, dz$$",
+  "conclusion": "#P_ClosedCurveTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfClosedCurveTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of closed curve theorem"
+  ]
+}

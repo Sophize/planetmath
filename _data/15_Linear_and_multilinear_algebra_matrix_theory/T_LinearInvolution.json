@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "involution"
+  ],
+  "definition": "[**Definition.**]{} Let $V$ be a vector space. A *linear involution* is\na linear operator $L:V\\to V$ such that $L^2$ is the identity operator on\n$V$. An equivalent definition is that a linear involution is a linear\noperator that equals its own inverse.\n\n[**Theorem 1.**]{} Let $V$ be a vector space and let $A:V\\to V$ be a\nlinear involution. Then the eigenvalues of $A$ are $\\pm 1$. Further, if\n$V$ is ${\\mathbb{C}}^n$, and $A$ is a $n\\times n$ complex matrix, then\nwe have that:\n\n1.  $\\det A = \\pm 1$.\n\n2.  The characteristic polynomial of $A$,\n    $p(\\lambda) = \\det( A-\\lambda I)$, is a reciprocal polynomial, i.e.,\n    $$p(\\lambda) = \\pm \\lambda^n p(1/\\lambda).$$\n\n()\n\nThe next theorem gives a correspondence between involution operators and\nprojection operators.\n\n[**Theorem 2.**]{} Let $L$ and $P$ be linear operators on a vector space\n$V$ over a field of characteristic not 2, and let $I$ be the identity\noperator on $V$. If $L$ is an involution then the operators\n$\\frac{1}{2}\\big(I\\pm L\\big)$ are projection operators. Conversely, if\n$P$ is a projection operator, then the operators $\\pm(2P-I)$ are\ninvolutions.\\\nInvolutions have important application in expressing\nhermitian-orthogonal operators, that is, $H^t=\\overline{H}=H^{-1}$. In\nfact, it may be represented as $$H=Le^{iS},$$ being $L$ a real symmetric\ninvolution operator and $S$ a real skew-symmetric operator permutable\nwith it, i.e.\n\n$$L=\\overline{L}=L^t, \\qquad L^2=I, \\qquad S=\\overline{S}=-S^t, \\qquad LS=SL.$$",
+  "language": "INFORMAL",
+  "phrase": "Linear Involution",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearInvolution"
+    }
+  ],
+  "indexable": true
+}

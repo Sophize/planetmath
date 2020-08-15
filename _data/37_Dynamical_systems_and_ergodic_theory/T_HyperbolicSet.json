@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "hyperbolic structure",
+    "uniformly hyperbolic"
+  ],
+  "definition": "Let $M$ be a compact smooth manifold, and let $f:M\\to M$ be a\ndiffeomorphism. An $f$-invariant subset $\\Lambda$ of $M$ is said to be\n*hyperbolic* (or to have an hyperbolic structure) if there is a\nsplitting of the tangent bundle of $M$ restricted to $\\Lambda$ into a\n(Whitney) sum of two $Df$-invariant subbundles, $E^s$ and $E^u$ such\nthat the restriction of $Df|_{E^s}$ is a contraction and $Df|_{E^u}$ is\nan expansion. This means that there are constants $0<\\lambda<1$ and\n$c>0$ such that\n\n1.  $T_\\Lambda M = E^s\\oplus E^u$;\n\n2.  $Df(x)E^s_x = E^s_{f(x)}$ and $Df(x)E^u_x = E^u_{f(x)}$ for each\n    $x\\in \\Lambda$;\n\n3.  $\\|Df^nv\\| < c\\lambda^n\\|v\\|$ for each $v\\in E^s$ and $n> 0$;\n\n4.  $\\|Df^{-n}v\\| < c\\lambda^n \\|v\\|$ for each $v\\in E^u$ and $n>0$.\n\nusing some Riemannian metric on $M$.\n\nIf $\\Lambda$ is hyperbolic, then there exists an *adapted* Riemannian\nmetric, i.e. one such that $c=1$.",
+  "language": "INFORMAL",
+  "phrase": "Hyperbolic Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HyperbolicSet"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ be a Noetherian ring, $\\mathfrak{a}$ an ideal, $M$ a finitely\ngenerated module, and $N$ a submodule. Then there exists an integer\n$k \\geq 1$ such that for all integers $n \\geq 1$ we have\n$$\\mathfrak{a}^nM \\cap N = \\mathfrak{a}^{n-k}(\\mathfrak{a}^kM\\cap N).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArtinReesTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Artin-Rees theorem"
+  ]
+}

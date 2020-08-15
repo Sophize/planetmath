@@ -1,0 +1,17 @@
+{
+  "argumentText": "The strategy will be to show that any separable, infinite dimensional\nHilbert space $H$ is equivalent to $\\ell^2$, where $\\ell^2$ is the space\nof all square summable sequences. Then it will follow that any two\nseparable, infinite dimensional Hilbert spaces, being equivalent to the\nsame space, are equivalent to each other.\n\nSince $H$ is separable, there exists a countable dense subset $S$ of\n$H$. Choose an enumeration of the elements of $S$ as $s_0, s_1,\ns_2, \\ldots$. By the Gram-Schmidt orthonormalization procedure, one can\nexhibit an orthonormal set $e_0, e_1, e_2, \\ldots$ such that each $e_i$\nis a finite linear combination of the $s_i$\u2019s.\n\nNext, we will demonstrate that Hilbert space spanned by the $e_i$\u2019s is\nin fact the whole space $H$. Let $v$ be any element of $H$. Since $S$ is\ndense in $H$, for every integer $n$, there exists an integer $m_n$ such\nthat $$\\| v - s_{m_n} \\| \\le 2^{-n}$$ The sequence\n$(s_{m_0}, s_{m_1}, s_{m_2}, \\ldots)$ is a Cauchy sequence because\n$$\\| s_{m_i} - s_{m_j} \\| \\le \\| s_{m_i} - v\\| + \\|\nv - s_{m_j} \\| \\le 2^{-i} + 2^{-j}$$ Hence the limit of this sequence\nmust lie in the Hilbert space spanned by $\\{s_0, s_1,  s_2, \\ldots\\}$,\nwhich is the same as the Hilbert space spanned by\n$\\{e_0, e_1, e_2, \\ldots\\}$. Thus, $\\{e_0, e_1, e_2,\n\\ldots\\}$ is an orthonormal basis for $H$.\n\nTo any $v \\in H$ associate the sequence $U(v) = ( \\langle v, s_0\n\\rangle, \\langle v, s_1 \\rangle, \\langle v, s_2 \\rangle, \\ldots )$. That\nthis sequence lies in $\\ell^2$ follows from the generalized Parseval\nequality $$\\|v\\|^2 = \\sum_{k=0}^\\infty \\langle v, s_k \\rangle$$ which\nalso shows that $\\|U(v)\\|_{\\ell^2} = \\|v\\|_H$. On the other hand, let\n$(w_0, w_1, w_2, \\ldots)$ be an element of $\\ell^2$. Then, by\ndefinition, the sequence of partial sums $(w_0^2, w_0^2 + w_1^2,\nw_0^2 + w_1^2 + w_2^2, \\ldots)$ is a Cauchy sequence. Since\n$$\\| \\sum_{i=0}^m w_i e_i - \\sum_{i=0}^n w_i e_i \\|^2 = \\sum_{i=0}^m w_i^2 -\n \\sum_{i=0}^n w_i^2$$ if $m>n$, the sequence of partial sums of\n$\\sum_{k=0}^\\infty w_i e_i$ is also a Cauchy sequence, so\n$\\sum_{k=0}^\\infty w_i e_i$ converges and its limit lies in $H$. Hence\nthe operator $U$ is invertible and is an isometry between $H$ and\n$\\ell^2$.",
+  "conclusion": "#P_ClassificationOfSeparableHilbertSpaces",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfClassificationOfSeparableHilbertSpaces"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of classification of separable Hilbert spaces"
+  ]
+}

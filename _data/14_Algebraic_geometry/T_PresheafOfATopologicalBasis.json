@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space and let $\\mathcal B$ be a basis of its\ntopology. We can regard $\\mathcal B$ as a category with objects being\nthe open sets in $\\mathcal B$ and arrows/morphisms between\n$U,V\\in\\mathcal B$ to exists only if $U\\subset V$, and where the *only*\nelement of $\\mathcal B(U,V)$ is the injection map $U\\hookrightarrow V$.\nLet now ${\\mathcal{C}}$ be a complete category, we now define the\n*presheaf of ${\\mathcal{C}}$-objects over the basis $\\mathcal B$ of the\ntopology of $X$* to be a contravariant functor\n$${\\mathcal{P}}:\\mathcal B\\rightarrow {\\mathcal{C}}$$",
+  "language": "INFORMAL",
+  "phrase": "Presheaf Of A Topological Basis",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PresheafOfATopologicalBasis"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In algebraic geometry, the term line bundle refers to a locally free\ncoherent sheaf of rank 1, also called an invertible sheaf. In manifold\ntheory, it refers to a real or complex one dimensional vector bundle.\nThese notions are equivalent on a non-singular complex algebraic variety\n$X$: given a one dimensional vector bundle, its sheaf of holomorphic\nsections is locally free and of rank 1. Similarly, given a locally free\nsheaf $\\mathcal{F}$ of rank one, the space\n$$\\mathcal{L}=\\cup_{x\\in X}\\mathcal{F}_x/\\mathfrak{m}_x\\mathcal{F}_x,$$\ngiven the coarsest topology for which sections of $\\mathcal{F}$ define\ncontinuous functions in a vector bundle of complex dimension 1 over $X$,\nwith the obvious map taking the stalk over a point to that point.",
+  "language": "INFORMAL",
+  "phrase": "Line Bundle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LineBundle"
+    }
+  ],
+  "indexable": true
+}

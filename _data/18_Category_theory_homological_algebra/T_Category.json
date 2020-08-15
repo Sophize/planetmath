@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *category* $\\mathcal{C}$ consists of the following data:\n\n1.  a $\\operatorname{ob}(\\mathcal{C})$ of objects (of $\\mathcal{C}$)\n\n2.  for each ordered pair $(A,B)$ of objects of $\\mathcal{C}$, a\n    collection (we will assume it is a set) $\\hom(A,B)$ of morphisms\n    from the domain $A$ to the codomain $B$\n\n3.  a function $\\circ:\\hom(A,B)\\times\\hom(B,C)\\to\\hom(A,C)$ called\n    composition.\n\nWe normally denote $\\circ(f,g)$ by $g \\circ f$ for morphisms $f,g$. The\nabove data must satisfy the following axioms: for objects $A,B,C,D$,\n\n**A1**: $\\hom(A,B) \\cap \\hom(C,D)=\\emptyset$ whenever $(A,B)\\neq (C,D)$,\ni.e. the intersection is non-trivial only when $A=C$ and $B=D$.\n\n**A2**: (Associativity) if $f \\in \\hom(A,B)$, $g\\in\\hom(B,C)$ and\n$h\\in\\hom(C,D)$, $h\\circ (g\\circ f)=(h\\circ g)\\circ f$\n\n**A3**: (Existence of an identity morphism) for each object $A$ there\nexists an identity morphism $ {}id_{A}\\in\\hom(A,A)$ such that for every\n$f\\in\\hom(A,B)$, $f\\circ id_{A}=f$ and $ {}id_{A}\\circ g=g$ for every\n$g \\in \\hom(B,A)$.\n\nSome examples of categories:\n\n-   **0** is the empty category with no objects or morphisms, **1** is\n    the category with one object and one (identity) morphism.\n\n-   If we assume we have a universe $U$ which contains all sets\n    encountered in \u201ceveryday\u201d mathematics, **Set** is the category of\n    all such sets with morphisms being set functions\n\n-   **Top** is the category of all small topological spaces with\n    morphisms\n\n-   **Grp** is the category of all small groups whose morphisms are\n    group homomorphisms\n\n**Remark**. If $\\hom(A,B)$ in the second condition above is not required\nto be a set (but a class), we usually call $\\mathcal{C}$ a *large\ncategory*.",
+  "language": "INFORMAL",
+  "phrase": "Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Category"
+    }
+  ],
+  "indexable": true
+}

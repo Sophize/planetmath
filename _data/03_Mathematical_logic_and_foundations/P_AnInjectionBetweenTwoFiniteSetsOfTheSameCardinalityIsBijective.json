@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A,B$ be two finite sets of the same cardinality. If\n$f\\colon A \\to B$ is an injective function then $f$ is bijective.\n\nIn order to prove the lemma, it suffices to show that if $f$ is an\ninjection then the cardinality of $f(A)$ and $A$ are equal. We prove\nthis by induction on $n=\\text{card}(A)$. The case $n=1$ is trivial.\nAssume that the lemma is true for sets of cardinality $n$ and let $A$ be\na set of cardinality $n+1$. Let $a\\in A$ so that $A_1=A-\\{a\\}$ has\ncardinality $n$. Thus, $f(A_1)$ has cardinality $n$ by the induction\nhypothesis. Moreover, $f(a)\\notin f(A_1)$ because $a\\notin A_1$ and $f$\nis injective. Therefore: $$f(A)=f(\\{a\\}\\cup A_1)=\\{f(a)\\}\\cup f(A_1)$$\nand the set $\\{f(a)\\}\\cup f(A_1)$ has cardinality $1+n$, as desired.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnInjectionBetweenTwoFiniteSetsOfTheSameCardinalityIsBijective"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "an injection between two finite sets of the same cardinality is bijective"
+  ]
+}

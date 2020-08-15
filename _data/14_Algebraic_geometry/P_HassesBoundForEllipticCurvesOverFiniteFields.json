@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $E$ be an elliptic curve defined over a finite field $\\mathbb{F}_q$\nwith $q=p^r$ elements ($p\\in{\\mathbb{Z}}$ is a prime). The following\ntheorem gives a bound of the size of $E(\\mathbb{F}_q)$, $N_q$, i.e. the\nnumber points of $E$ defined over $\\mathbb{F}_q$. This was first\nconjectured by Emil Artin (in his thesis!) and proved by Helmut Hasse in\nthe 1930\u2019s.\n\n$$\\mid N_q -q -1 \\mid \\leq 2\\sqrt{q}$$\n\n[**Remark**]{}: Let $a_p=p+1-N_p$ as in the definition of the L-series\nof an ellitpic curve. Then Hasse\u2019s bound reads:\n\n$$\\mid a_p \\mid \\leq 2\\sqrt{p}$$\n\nThis fact is key for the convergence of the L-series of $E$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HassesBoundForEllipticCurvesOverFiniteFields"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hasse's bound for elliptic curves over finite fields",
+    "Hasse's bound"
+  ]
+}

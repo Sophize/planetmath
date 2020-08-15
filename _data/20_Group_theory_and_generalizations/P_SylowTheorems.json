@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a finite group whose order is divisible by the prime $p$.\nSuppose $p^m$ is the highest power of $p$ which is a factor of $|G|$ and\nset $$k = \\frac{|G|}{p^m}.$$ Then\n\n1.  the group $G$ contains at least one subgroup of order $p^m$,\n\n2.  any two subgroups of $G$ of order $p^m$ are conjugate, and\n\n3.  the number of subgroups of $G$ of order $p^m$ is congruent to $1$\n    modulo $p$ and is a factor of $k$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SylowTheorems"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Sylow theorems"
+  ]
+}

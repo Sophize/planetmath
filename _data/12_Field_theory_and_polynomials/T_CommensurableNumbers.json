@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Two positive real numbers $a$ and $b$ are [*commensurable*]{}, iff there\nexists a positive real number $u$ such that $$\\begin{aligned}\na \\;=\\; mu, \\quad b \\;=\\; nu\\end{aligned}$$ with some positive integers\n$m$ and $n$. If the positive numbers $a$ and $b$ are not commensurable,\nthey are [*incommensurable*]{}.\\\n**Theorem.** The positive numbers $a$ and $b$ are commensurable if and\nonly if their ratio is a rational number $\\displaystyle\\frac{m}{n}$\n($m,\\,n \\in \\mathbb{Z}$).\\\n[*Proof.*]{} The equations (1) imply the $$\\begin{aligned}\n\\frac{a}{b} \\;=\\; \\frac{m}{n}.\\end{aligned}$$ Conversely, if (2) is\nvalid with $m,\\,n \\in \\mathbb{Z}$, then we can write\n$$a \\;=\\; m\\!\\cdot\\!\\frac{b}{n}, \\quad b \\;=\\; n\\!\\cdot\\!\\frac{b}{n},$$\nwhich means that $a$ and $b$ are multiples of $\\displaystyle\\frac{b}{n}$\nand thus commensurable. Q.E.D.\\\n**Example.** The lengths of the side and the diagonal of are always\nincommensurable.\n\nCommensurability as relation\n----------------------------\n\n-   The commensurability is an equivalence relation in the set\n    $\\mathbb{R}_+$ of the positive reals: the reflexivity and the\n    symmetry are trivial; if $a\\!:\\!b = r$ and $b\\!:\\!c = s$, then\n    $a\\!:\\!c = (a\\!:\\!b)(b\\!:\\!c) = rs$, whence one obtains the\n    transitivity.\\\n\n-   The equivalence classes of the commensurability are of the form\n    $$[\\varrho] \\;:=\\; \\{r\\varrho\\,\\vdots\\;\\; r \\in \\mathbb{Q}_+\\}.$$\n\n-   One of the equivalence classes is the set $[1] = \\mathbb{Q}_+$ of\n    the positive rationals, all others consist of positive irrational\n    numbers.\n\n-   If one sets $[\\varrho]\\!\\cdot\\![\\sigma] := [\\varrho\\sigma]$, the\n    equivalence classes form with respect to this binary operation an\n    Abelian group.",
+  "language": "INFORMAL",
+  "phrase": "Commensurable Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CommensurableNumbers"
+    }
+  ],
+  "indexable": true
+}

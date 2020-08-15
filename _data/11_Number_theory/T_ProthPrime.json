@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Proth prime*]{} is a Proth number that is also a prime number. Given\na Proth number $p$, if one can find a coprime integer $b$ such that\n$$b^{\\frac{p - 1}{2}} \\equiv -1 \\mod p$$ then $p$ is a prime, and\nspecifically a Proth prime (this is a theorem first stated by Fran\u00e7ois\nProth). Thanks to this theorem, Yves Gallot created an algorithm used in\na primality-testing program employed by the Seventeen or Bust project.\nThe first few Proth primes are 3, 5, 13, 17, 41, 97, 113, 193, 241, 257,\n353, 449, 577, 641, 673, 769, 929, etc. (listed in A080076 of Sloane\u2019s\nOEIS). Konstantin Agafonov\u2019s discovery of the Proth prime\n$19249 \\times 2^{13018586} + 1 \\approx 1.484360328715661 \\times 10^{3918989}$\ncurrently makes for the largest known prime that is not a Mersenne\nprime.",
+  "language": "INFORMAL",
+  "phrase": "Proth Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProthPrime"
+    }
+  ],
+  "indexable": true
+}

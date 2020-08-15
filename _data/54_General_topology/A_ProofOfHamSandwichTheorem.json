@@ -1,0 +1,17 @@
+{
+  "argumentText": "This proof uses the Borsuk-Ulam theorem, which states that any\ncontinuous function from $S^n$ to $\\mathbb{R}^n$ maps some pair of\nantipodal points to the same point.\n\nLet $A$ be a measurable bounded subset of $\\mathbb{R}^n$. Given any unit\nvector $\\hat n \\in S^{n-1}$ and $s \\in \\mathbb{R}$, there is a unique\n$n-1$ dimensional hyperplane normal to $\\hat n$ and containing\n$s \\hat n$.\n\nDefine $f:S^{n-1} \\times \\mathbb{R} \\rightarrow [0,\\infty)$ by sending\n$(\\hat n,s)$ to the measure of the subset of $A$ lying on the side of\nthe plane corresponding to $(\\hat n,s)$ in the direction in which\n$\\hat n$ points. Note that $(\\hat n,s)$ and $(-\\hat n,-s)$ correspond to\nthe same plane, but to different sides of the plane, so that\n$f(\\hat n,s)+f(-\\hat n,-s)=m(A)$.\n\nSince $A$ is bounded, there is an $r>0$ such that $A$ is contained in\n$\\overline{B_r}$, the closed ball of radius $r$ centered at the origin.\nFor sufficiently small changes in $(\\hat n,s)$, the measure of the\nportion of $\\overline{B_r}$ between the different corresponding planes\ncan be made arbitrarily small, and this bounds the change in\n$f(\\hat n,s)$, so that $f$ is a continuous function.\n\nFinally, it\u2019s easy to see that, for fixed $\\hat n$, $f(\\hat n,s)$ is\nmonotonically decreasing in $s$, with $f(\\hat n,-s)=m(A)$ and\n$f(\\hat n,s)=0$ for $s$ sufficiently large.\n\nGiven these properties of $f$, we see by the intermediate value theorem\nthat, for fixed $\\hat n$, there is an interval $[a,b]$ such that the set\nof $s$ with $f(\\hat n,s)=m(A)/2$ is $[a,b]$. If we define $g(\\hat n)$ to\nbe the midpoint of this interval, then, since $f$ is continuous, we see\n$g$ is a continuous function from $S^{n-1}$ to $\\mathbb{R}$. Also, since\n$f(\\hat n,s)+f(-\\hat n,-s)=m(A)$, if $[a,b]$ is the interval\ncorresponding to $\\hat n$, then $[-b,-a]$ is the interval corresponding\nto $-\\hat n$, and so $g(\\hat n)=-g(-\\hat n)$.\n\nNow let $A_1,A_2,...,A_n$ be measurable bounded subsets of\n$\\mathbb{R}^n$, and let $f_i,g_i$ be the maps constructed above for\n$A_i$. Then we can define $h:S^{n-1} \\rightarrow R^{n-1}$ by:\n\n$$h(\\hat n) = (f_1(\\hat n,g_n(\\hat n)),f_2(\\hat n,g_n(\\hat n)),...f_{n-1}(\\hat n,g_n(\\hat n)))$$\n\nThis is continuous, since each coordinate function is the composition of\ncontinuous functions. Thus we can apply the Borsuk-Ulam theorem to see\nthere is some $\\hat n \\in S^{n-1}$ with $h(\\hat n)=h(-\\hat n)$, ie,\nwith:\n\n$$f_i(\\hat n,g_n(\\hat n))=f_i(-\\hat n,g_n(-\\hat n))=f_i(-\\hat n,-g_n(\\hat n))$$\n\nwhere we\u2019ve used the property of $g$ mentioned above. But this just\nmeans that for each $A_i$ with $1 \\leq i \\leq n-1$, the measure of the\nsubset of $A_i$ lying on one side of the plane corresponding to\n$(\\hat n,g_n(\\hat n))$, which is $f_i(\\hat n,g_n(\\hat n))$, is the same\nas the measure of the subset of $A_i$ lying on the other side of the\nplane, which is $f_i(-\\hat n,-g_n(\\hat n))$. In other words, the plane\ncorresponding to $(\\hat n,g_n(\\hat n))$ bisects each $A_i$ with\n$1 \\leq i \\leq n-1$. Finally, by the definition of $g_n$, this plane\nalso bisects $A_n$, and so it bisects each of the $A_i$ as claimed.",
+  "conclusion": "#P_HamSandwichTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfHamSandwichTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of ham sandwich theorem"
+  ]
+}

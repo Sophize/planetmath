@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For a , parameterized curve $\\alpha\\colon (a,b)\\to\\mathbb R^3$, not\nnecessarily unit speed, the curvature $\\kappa(t)$ and torsion $\\tau(t)$\nare given, respectively, by $$\\begin{aligned}\n\\kappa(t)&=\\frac{\\|\\alpha'(t)\\times\\alpha''(t)\\|}{\\|\\alpha'(t)\\|^3};\\\\\n\\tau(t)&=\\frac{(\\alpha'(t)\\times\\alpha''(t))\\cdot\\alpha'''(t)}{\\|\\alpha'(t)\\times\\alpha''(t)\\|^2}.\\end{aligned}$$\n\nJohn McCleary, *Geometry from a Differentiable Viewpoint*, Cambridge\nUniversity Press, 1994.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExpressionsForCurvatureAndTorsion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "expressions for curvature and torsion"
+  ]
+}

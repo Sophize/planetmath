@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $p_n=\\prod_{i=1}^n u_i$. We have to study the convergence of the\nsequence $\\{p_n\\}$. The sequence $\\{p_n\\}$ converges to a not null limit\niff $\\{\\log p_n\\}$ ($\\log$ is restricted to its principal branch)\nconverges to a finite limit. By the Cauchy criterion, this happens iff\nfor every $\\epsilon^{\\prime}>0$ there exist $N$ such that\n${\\left\\vert\\log\np_{n+k} - \\log p_n\\right\\vert} < \\epsilon^{\\prime}$ for all $n>N$ and\nall $k=1,2,\\ldots$, i.e, iff\n$${\\left\\vert\\log \\frac{p_{n+k}}{p_n}\\right\\vert} = {\\left\\vert\\log u_{n+1}u_{n+2}\\cdots u_{n+k}\\right\\vert} < \\epsilon^{\\prime};$$\nas $\\log(z)$ is an injective function and continuous at $z=1$ and\n$\\log(1)=0$ this will happen iff for every $\\epsilon>0$\n$${\\left\\vertu_{n+1}u_{n+2}\\cdots u_{n+k}-1\\right\\vert} < \\epsilon$$ for\n$n$ greater than $N$ and $k=1,2,\\ldots$",
+  "conclusion": "#P_ConvergenceConditionOfInfiniteProduct",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfConvergenceConditionOfInfiniteProduct"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of convergence condition of infinite product"
+  ]
+}

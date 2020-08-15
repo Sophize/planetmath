@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set. A filter on $X$ is a set ${\\mathbb{F}}$ of subsets of\n$X$ such that\n\n-   $X\\in{\\mathbb{F}}$\n\n-   The intersection of any two elements of ${\\mathbb{F}}$ is an element\n    of ${\\mathbb{F}}$.\n\n-   $\\emptyset\\notin{\\mathbb{F}}$ (some authors do not include this\n    axiom in the definition of filter)\n\n-   If $F\\in{\\mathbb{F}}$ and $F\\subset G\\subset X$ then\n    $G\\in{\\mathbb{F}}$.\n\nThe first two axioms can be replaced by one:\n\n-   Any finite intersection of elements of ${\\mathbb{F}}$ is an element\n    of ${\\mathbb{F}}$.\n\nwith the usual understanding that the intersection of an empty family of\nsubsets of $X$ is the whole set $X$.\n\nA filter ${\\mathbb{F}}$ is said to be *fixed* or *principal* if there is\n$F\\in {\\mathbb{F}}$ such that no proper subset of $F$ belongs to\n${\\mathbb{F}}$. In this case, ${\\mathbb{F}}$ consists of all subsets of\n$X$ containing $F$, and $F$ is called a *principal element* of\n${\\mathbb{F}}$. If ${\\mathbb{F}}$ is not principal, it is said to be\n*non-principal* or *free*.\n\nIf $x$ is any point (or any subset) of any topological space $X$, the\nset $\\mathcal{N}_x$ of neighbourhoods of $x$ in $X$ is a filter, called\nthe *neighbourhood filter* of $x$. If ${\\mathbb{F}}$ is any filter on\nthe space $X$, ${\\mathbb{F}}$ is said to *converge* to $x$, and we write\n${\\mathbb{F}}\\to x$, if $\\mathcal{N}_x\\subset{\\mathbb{F}}$. If every\nneighbourhood of $x$ meets every set of ${\\mathbb{F}}$, then $x$ is\ncalled an *accumulation point* or *cluster point* of ${\\mathbb{F}}$.\n\n**Remarks:** The notion of filter (due to H. Cartan) has a simplifying\neffect on various proofs in analysis and topology. Tychonoff\u2019s theorem\nwould be one example. Also, the two kinds of limit that one sees in\nelementary real analysis \u2013 the limit of a sequence at infinity, and the\nlimit of a function at a point \u2013 are both special cases of the limit of\na filter: the Fr\u00e9chet filter and the neighbourhood filter respectively.\nThe notion of a Cauchy sequence can be extended with no difficulty to\nany uniform space (but not just a topological space), getting what is\ncalled a Cauchy filter; any convergent filter on a uniform space is a\nCauchy filter, and if the converse holds then we say that the uniform\nspace is *complete*.",
+  "language": "INFORMAL",
+  "phrase": "Filter",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Filter"
+    }
+  ],
+  "indexable": true
+}

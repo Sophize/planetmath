@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "subinvariant subgroup",
+    "attainable subgroup"
+  ],
+  "definition": "Let $G$ be a group, and $H$ a subgroup of $G$. Then $H$ is a *subnormal\nsubgroup* of $G$ if there is a natural number $n$ and subgroups\n$H_0,\\dots,H_n$ of $G$ such that\n$$H=H_0\\normal H_1\\normal\\cdots\\normal H_n=G,$$ where $H_i$ is a normal\nsubgroup of $H_{i+1}$ for $i=0,\\dots,n-1$.\n\nSubnormality is a , as normality of subgroups is not transitive.\n\nWe may write $H\\sn G$ or $H\\normal\\normal\\, G$ or\n$H\\!\\normaleq\\normaleq G$ to indicate that $H$ is a subnormal subgroup\nof $G$.\n\nIn a nilpotent group, all subgroups are subnormal.\n\nSubnormal subgroups are ascendant and descendant.",
+  "language": "INFORMAL",
+  "phrase": "Subnormal Subgroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubnormalSubgroup"
+    }
+  ],
+  "indexable": true
+}

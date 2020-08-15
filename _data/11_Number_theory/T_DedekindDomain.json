@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Dedekind domain*]{} is a commutative integral domain $R$ for which:\n\n-   Every ideal in $R$ is finitely generated.\n\n-   Every nonzero prime ideal is a maximal ideal.\n\n-   The domain $R$ is integrally closed in its field of fractions.\n\nIt is worth noting that the second clause above implies that the maximal\nlength of a strictly increasing chain of prime ideals is 1, so the Krull\ndimension of any Dedekind domain is at most 1. In particular, the affine\nring of an algebraic set is a Dedekind domain if and only if the set is\nnormal, irreducible, and 1-dimensional.\n\nEvery Dedekind domain is a noetherian ring.\n\nIf $K$ is a number field, then $\\mathcal{O}_K$, the ring of algebraic\nintegers of $K$, is a Dedekind domain.",
+  "language": "INFORMAL",
+  "phrase": "Dedekind Domain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DedekindDomain"
+    }
+  ],
+  "indexable": true
+}

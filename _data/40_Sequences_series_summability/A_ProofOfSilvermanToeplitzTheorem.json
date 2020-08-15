@@ -1,0 +1,17 @@
+{
+  "argumentText": "First, we shall show that the series $\\sum_{n=0}^\\infty a_{mn} z_n$\nconverges. Since the sequence $\\{z_n\\}$ converges, it must be bounded in\nabsolute value \u2014 there must exist a constant $K > 0$ such that\n$|z_n| \\le K$ for all $n$. Hence, $|a_{mn} z_n| \\le K |a_{mn}|.$ Summing\nthis gives\n$$\\sum_{n=0}^\\infty |a_{mn} z_n| \\le K \\sum_{n=0}^\\infty |a_{mn}| \\le KB.$$\nHence, the series $\\sum_{n=0}^\\infty a_{mn} z_n$ is absolutely\nconvergent which, in turn, implies that it converges.\n\nLet $z$ denote the limit of the sequence $\\{z_n\\}$ as $n \\to \\infty$.\nThen $\\vert z \\vert \\le K$. We need to show that, for every\n$\\epsilon > 0$, there exists an integer $M$ such that\n$$\\left| \\sum_{n=0}^\\infty a_{mn} z_n - z \\right| < \\epsilon$$ whenever\n$m > M$.\n\nSince the sequence $\\{z_n\\}$ converges, there must exist an integer\n$n_1$ such that $|z_n - z| < \\frac{\\epsilon}{4B}$ whenever $n > n_1$.\n\nBy condition 3, there must exist constants $m_o,m_1,  \\ldots , m_{n_1}$\nsuch that\n$$|a_{mn}| < {\\epsilon \\over 4 (n_1 +1)(K+1)} \\quad \\textrm{for} \\quad  0 \\le n \\le n_1 \\quad \\textrm{and} \\quad  m > m_n.$$\n\nChoose $m'= \\max\\{ m_0,m_1,  \\ldots, m_{n_1} \\}.$ Then\n$$\\left| \\sum_{n=0}^{n_1} a_{mn} z_n \\right| \\le \\sum_{n=0}^{n_1} |a_{mn} z_n| < \\sum_{n=0}^{n_1} {|z_n| \\epsilon \\over 4 (n_1+1) (K+1)} < {\\epsilon \\over 4}$$\nwhen $m > m'.$\n\nBy condition 2, there exists a constant $m''$ such that\n$$\\left| \\sum_{n=0}^\\infty a_{mn} - 1 \\right| < {\\epsilon \\over 6 (|z|+1)}$$\nwhenever $m > m''$. By (1),\n$$\\left| \\sum_{n=0}^{n_1} a_{mn} \\right| < {\\epsilon \\over 4(K+1)} \\le {\\epsilon \\over 4(|z|+1)}$$\nwhen $m > m'$. Hence, if $m > m'$ and $m > m''$, we have\n$$\\left| \\sum_{n=n_1 + 1}^\\infty a_{mn} - 1 \\right| < {\\epsilon \\over 2(|z|+1)}.$$\n\nand\n$$\\left| \\sum_{n=n_1 + 1}^\\infty a_{mn} (z_n - z) \\right| \\le \\sum_{n=n_1 + 1}^\\infty |a_{mn}| ~ |z_n - z| < {\\epsilon \\over 4B} \\sum_{n=0}^\\infty |a_{mn}| \\le {\\epsilon \\over 4}.$$\nBy the triangle inequality and (2), (3), (4) it follows that\n$$\\left| \\sum_{n=0}^\\infty a_{mn} z_n - z \\right| \\le \\left| \\sum_{n=0}^{n_1} a_{mn} z_n \\right| + \\left| \\sum_{n=n_1 + 1}^\\infty a_{mn} (z_n - z) \\right| + |z| \\left| \\sum_{n=n_1 + 1}^\\infty a_{mn} - 1 \\right|$$\n$$< \\frac{\\epsilon}{4} + \\frac{\\epsilon}{4} + \\frac{\\epsilon}{2} = \\epsilon.$$",
+  "conclusion": "#P_SilvermanToeplitzTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfSilvermanToeplitzTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Silverman-Toeplitz theorem"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Sidon sequence"
+  ],
+  "definition": "A set of natural numbers is called a *Sidon set* if all pairwise sums of\nits elements are distinct. Equivalently, the equation $a+b=c+d$ has only\nthe trivial solution $\\{a,b\\}=\\{c,d\\}$ in elements of the set.\n\nSidon sets are a special case of so-called $B_h[g]$ sets. A set $A$ is\ncalled a $B_h[g]$ set if for every $n\\in \\mathbb{N}$ the equation\n$n=a_1+\\dotsc+a_h$ has at most $g$ different solutions with\n$a_1\\leq \\dotsb\\leq a_h$ being elements of $A$. The Sidon sets are\n$B_2[1]$ sets.\n\nDefine $F_h(n,g)$ as the size of the largest $B_h[g]$ set contained in\nthe interval $[1,n]$. Whereas it is known that\n$F_2(n,1)=n^{1/2}+O(n^{5/16})$[@cite:halberstam_sequences p.\u00a085], no\nasymptotical results are known for $g>1$ or $h>2$ [@cite:green_bhg].\n\nEvery finite set has a rather large $B_h[1]$ subset. Koml\u00f3s, Sulyok, and\nSzemer\u00e9di[@cite:komlos_szem_sulyok_linearsubsets] proved that in every\n$n$-element set there is a $B_h[1]$ subset of size at least $cF_h(n,1)$\nfor $c=\\tfrac{1}{8}(2h)^{-6}$. For Sidon sets\nAbbott[@cite:abbott_sidonsubsets] improved that to $c=2/25$. It is not\nknown whether one can take $c=1$.\n\nThe infinite $B_h[g]$ sets are understood even worse. Erd\u0151s\n[@cite:halberstam_sequences p.\u00a089] proved that for every infinite Sidon\nset $A$ we have $\\liminf_{n\\to\\infty}(n/\\log\nn)^{-1/2} {\\left\\lvertA\\cap [1,n]\\right\\rvert}<C$ for some constant $C$.\nOn the other hand, for a long time no example of a set for which\n${\\left\\lvertA\\cap\n[1,n]\\right\\rvert}>n^{1/3+\\epsilon}$ for some $\\epsilon>0$ was known.\nOnly recently Ruzsa[@cite:ruzsa_densesidon] used an extremely clever\nconstruction to prove the existence of a set $A$ for which\n${\\left\\lvertA\\cap [1,n]\\right\\rvert}>n^{\\sqrt{2}-1-\\epsilon}$ for every\n$\\epsilon>0$ and for all sufficiently large $n$.\n\nFor an excellent survey of Sidon sets see [@cite:obryant_sidon].\n\n[1]{}\n\nHarvey\u00a0Leslie Abbott. Sidon sets. , 33(3):335\u2013341, 1990. .\n\nBen Green. sets: The current state of affairs. , 2000.\n\nHeini Halberstam and Klaus\u00a0Friedrich Roth. . Springer-Verlag, second\nedition, 1983. .\n\nJ[\u00e1]{}nos Koml[\u00f3]{}s, Miklos Sulyok, and Endre Szemer[\u00e9]{}di. Linear\nproblems in combinatorial number theory. , 26:113\u2013121, 1975. .\n\nKevin O\u2019Bryant. A complete annotated bibliography of work related to\n[Sidon]{} sequences. . .\n\nImre Ruzsa. An infinite [Sidon]{} sequence. , 68(1):63\u201371, 1998.\nAvailable at .",
+  "language": "INFORMAL",
+  "phrase": "Sidon Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SidonSet"
+    }
+  ],
+  "indexable": true
+}

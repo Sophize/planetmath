@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "generalized divisor of zero"
+  ],
+  "definition": "Let $A$ be a normed ring. An element $a\\in A$ is said to be a *left\ntopological divisor of zero* if there is a sequence $a_n$ with\n$\\|a_n\\|=1$ for all $n$ such that $$\\lim_{n\\to\\infty}\\|aa_n\\| = 0.$$\nAnalogously, $a$ is a if $$\\lim_{n\\to\\infty}\\|b_na\\| = 0,$$ for some\nsequence $b_n$ with $\\|b_n\\|=1$. The element $a$ is a *topological\ndivisor of zero* if it is both a left and a topological divisor of zero.\n\n**Remarks**.\n\n-   Any zero divisor is a topological divisor of zero.\n\n-   If $a$ is a (left) topological divisor of zero, then $ba$ is a\n    (left) topological divisor of zero. As a result, $a$ is never a\n    unit, for if $b$ is its inverse, then $1=ba$ would be a topological\n    divisor of zero, which is impossible.\n\n-   In a commutative Banach algebra $A$, an element is a topological\n    divisor of zero if it lies on the boundary of $U(A)$, the group of\n    units of $A$.",
+  "language": "INFORMAL",
+  "phrase": "Topological Divisor Of Zero",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TopologicalDivisorOfZero"
+    }
+  ],
+  "indexable": true
+}

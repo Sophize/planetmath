@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "mutually orthogonal Latin squares",
+    "MOLS",
+    "pairwise orthogonal Latin squares"
+  ],
+  "definition": "Given two Latin squares $L_1=(A,B,C_1,f_1)$ and $L_2=(A,B,C_2,f_2)$ of\nthe same order $n$, we can combine them coordinate-wise to form a single\nsquare, whose cells are ordered pairs of elements from $C_1$ and $C_2$\nrespectively. Formally, we can form a function\n$f:A\\times B\\to C_1\\times C_2$ given by $$f(i,j)=(f_1(i,j),f_2(i,j)).$$\nThis function $f$ says that we have created a new square $A\\times B$,\nwhose cell $(i,j)$ contains the ordered pair of values, the first\ncoordinate of which corresponds to the value in cell $(i,j)$ of $L_1$,\nand the second to the value in cell $(i,j)$ of $L_2$. We may write the\ncombined square $L_1*L_2$.\n\nFor example,\n\n$$\\left(\\begin{array}{cccc}\na & b & c & d\\\\\nc & d & a &b\\\\\nd & c & b & a\\\\\nb & a & d & c\n\\end{array}\\right)\n*\n\\left(\\begin{array}{cccc}\n1 & 2& 3& 4\\\\\n4 & 3 & 2 & 1\\\\\n2 & 1 & 4 & 3\\\\\n3 & 4 & 1 & 2\n\\end{array}\\right)\n=\n\\left(\\begin{array}{cccc}\n(a,1) & (b,2) & (c,3) & (d,4)\\\\\n(c,4) & (d,3) & (a,2) & (b,1)\\\\\n(d,2) & (c,1) & (b,4) & (a,3)\\\\\n(b,3) & (a,4) & (d,1) & (c,2)\n\\end{array}\\right)$$\n\nIn general, the combined square is not a Latin square unless the\noriginal two squares are equivalent: $f_1(i,j)=f_1(k,\\ell)$ iff\n$f_2(i,j)=f_2(k,\\ell)$. Nevertheless, the more interesting aspect of\npairing up two Latin squares (of the same order) lies in the function\n$f$:\n\n> **Definition**. We say that two Latin squares are *orthogonal* if $f$\n> is a bijection.\n\nSince there are $n^2$ cells in the combined square, and\n$| C_1\\times C_2| = n^2$, the function $f$ is a bijection if it is\neither one-to-one or onto. It is therefore easy to see that the two\nLatin squares in the example above are orthogonal.\n\n**Remarks**.\n\n-   The combined square is usually known as a *Graeco-Latin square*,\n    originated from statisticians Fischer and Yates.\n\n-   It can be shown that if $L_1,\\ldots, L_m$ are Latin squares of order\n    $n\\ge 3$ such that each pair of them are orthogonal, then\n    $m\\le n-1$. If the equality occurs, then the set of Latin squares\n    are said to be *complete*.\n\n-   (Bose) If $n\\ge 3$, then $L_1,\\ldots,L_m$ form a complete set of\n    pairwise orthogonal Latin squares of order $n$ iff there exists a\n    finite projective plane of order $n$.\n\n[9]{} H. J. Ryser, *Combinatorial Mathematics*, The Carus Mathematical\nMonographs, 1963",
+  "language": "INFORMAL",
+  "phrase": "Orthogonal Latin Squares",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrthogonalLatinSquares"
+    }
+  ],
+  "indexable": true
+}

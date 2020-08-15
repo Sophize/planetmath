@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A ring $A$ is called real iff the following identity holds for all\n$n\\in {\\mathbb{N}}$ :\n$$a_1^2 + \\dots + a_n^2 = 0 \\Leftrightarrow a_1,\\dots,a_n = 0  \\qquad (\\forall a_1,\\dots,a_n\\in A)$$\n\nIf $A$ is a ring then being real implies the following\n\n-   $A$ can have a partial ordering\n\n-   $A$ is reduced\n\nConversely, we note that if $A$ is reduced and can have a partial\nordering then $A$ is a real ring. If $A$ is a field then we call it a\n*real field*. Similarly we define *real domains*, *real (von Neumann)\nregular rings*, $\\dots$",
+  "language": "INFORMAL",
+  "phrase": "Real Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RealRing"
+    }
+  ],
+  "indexable": true
+}

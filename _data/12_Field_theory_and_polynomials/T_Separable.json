@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An irreducible polynomial $f \\in F[x]$ with coefficients in a field $F$\nis [*separable*]{} if $f$ factors into distinct linear factors over a\nsplitting field $K$ of $f$.\n\nA polynomial $g$ with coefficients in $F$ is [*separable*]{} if each\nirreducible factor of $g$ in $F[x]$ is a separable polynomial.\n\nAn algebraic field extension $K/F$ is [*separable*]{} if, for each\n$a \\in K$, the minimal polynomial of $a$ over $F$ is separable. When $F$\nhas characteristic zero, every algebraic extension of $F$ is separable;\nexamples of inseparable extensions include the quotient field\n$K(u)[t]/(t^p-u)$ over the field $K(u)$ of rational functions in one\nvariable, where $K$ has characteristic $p > 0$.\n\nMore generally, an arbitrary field extension $K/F$ is defined to be\n[*separable*]{} if every finitely generated intermediate field extension\n$L/F$ has a transcendence basis $S \\subset L$ such that $L$ is a\nseparable algebraic extension of $F(S)$.",
+  "language": "INFORMAL",
+  "phrase": "Separable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Separable"
+    }
+  ],
+  "indexable": true
+}

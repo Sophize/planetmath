@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $H$ be a unitary space, $T$ be a self-adjoint linear operator and\n$\\mu\\geq 0$. If $\\vert{\\left\\langle Tv,v\\right\\rangle}\\vert\\leq \\mu\n\\|v\\|^2$ for all $v\\in H$ then $T$ is a bounded operator and\n$\\|T\\|\\leq \\mu$.\n\nWe will show that\n${\\left\\Vert Tv \\right\\Vert}\\leq \\mu{\\left\\Vert v \\right\\Vert}$ for all\n$v\\in H$. This is trivial if ${\\left\\Vert Tv \\right\\Vert}$ or\n${\\left\\Vert v \\right\\Vert}$ is zero, so assume they are not. Let\n$\\lambda$ be any positive number. $$\\begin{aligned}\n{\\left\\Vert Tv \\right\\Vert}^2 & = {\\left\\langle Tv,Tv\\right\\rangle}\\\\\n&=\\frac{1}{4}\\left[ {\\left\\langle T\\left(\\lambda v +\n\\frac{1}{\\lambda}Tv\\right),\\left(\\lambda v +\n\\frac{1}{\\lambda}Tv\\right)\\right\\rangle} - {\\left\\langle T\\left(\\lambda v -\n\\frac{1}{\\lambda}Tv\\right),\\left(\\lambda v\n-\\frac{1}{\\lambda}Tv\\right)\\right\\rangle}\\right]\\\\\n&\\leq \\frac{\\mu}{4}\\left[{\\left\\Vert \\lambda v + \\frac{1}{\\lambda}Tv \\right\\Vert}^2\n+{\\left\\Vert \\lambda v - \\frac{1}{\\lambda}Tv \\right\\Vert}^2 \\right]\\\\\n&\\leq\\frac{\\mu}{2}\\left[\\lambda^2{\\left\\Vert v \\right\\Vert}^2 +\n\\frac{1}{\\lambda^2}{\\left\\Vert Tv \\right\\Vert}^2 \\right]\\end{aligned}$$\nNow if we put $\\displaystyle \\lambda^2 =\n\\frac{{\\left\\Vert Tv \\right\\Vert}}{{\\left\\Vert v \\right\\Vert}}$ we get\n${\\left\\Vert Tv \\right\\Vert}^2 \\leq\n\\mu{\\left\\Vert Tv \\right\\Vert}{\\left\\Vert v \\right\\Vert}$ hence\n${\\left\\Vert Tv \\right\\Vert}\\leq \\mu {\\left\\Vert v \\right\\Vert}$.\n\n**Reference:**\n\nF. Riesz and B. Sz-Nagy, *Functional Analysis*, F. Ungar Publishing,\n1955, chap VI.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/vertlangleTvvranglevertleqmuVertVVert2ForAllVImpliesVertTVertleqmu"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$\\vert\\langle Tv,v \\rangle\\vert \\leq {\\mu} \\Vert v \\Vert ^2$ for all $v$ implies $\\Vert T \\Vert \\leq {\\mu}$"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $\\gcd(a,\\,c) = 1$ and $c|ab$, then $c|b$.\n\n[*Proof.*]{} gives the integers $x$ and $y$ such that $xa+yc = 1$. This\nimplies that $xab+ybc = b$, and because here the both summands are\ndivisible by $c$, so also the sum, i.e. $b$, is divisible by $c$ .\n\n**Note.** A similar theorem holds in all , also in [*B\u00e9zout rings*]{}.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CorollaryOfBezoutsLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "corollary of B\\'ezout's lemma",
+    "Euclid's lemma",
+    "product divisible but factor coprime"
+  ]
+}

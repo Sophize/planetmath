@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "antisymmetry"
+  ],
+  "definition": "A relation $\\mathcal{R}$ on $A$ is *antisymmetric* iff\n$\\forall x, y \\in A$,\n$(x\\mathcal{R}y \\land y\\mathcal{R}x)\\rightarrow (x=y)$. For a finite set\n$A$ with $n$ elements, the number of possible antisymmetric relations is\n$2^n 3^{\\frac{n^2-n}{2}}$ out of the $2^{n^2}$ total possible relations.\n\nAntisymmetric is not the same thing as \u201cnot symmetric\u201d, as it is\npossible to have both at the same time. However, a relation\n$\\mathcal{R}$ that is both antisymmetric and symmetric has the condition\nthat $ x\\mathcal{R}y \\Rightarrow x=y $. There are only $2^n$ such\npossible relations on $A$.\n\nAn example of an antisymmetric relation on\n$A = \\{\\circ, \\times, \\star\\}$ would be\n$\\mathcal{R} = \\{(\\star,\\star),(\\times,\\circ),(\\circ,\\star),(\\star,\\times)\\}$.\nOne relation that isn\u2019t antisymmetric is\n$\\mathcal{R} = \\{ (\\times,\\circ), (\\star, \\circ), (\\circ,\\star) \\} $\nbecause we have both $\\star \\mathcal{R} \\circ$ and\n$\\circ \\mathcal{R} \\star$, but $\\circ \\not = \\star$",
+  "language": "INFORMAL",
+  "phrase": "Antisymmetric",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Antisymmetric"
+    }
+  ],
+  "indexable": true
+}

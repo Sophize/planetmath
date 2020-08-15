@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f(z)$ be an entire function such that $\\vert f(z)\\vert \\leq K\ne^{\\gamma \\vert z\\vert}$ for some $K \\geq 0$ and $\\gamma > 0$. If the\nrestriction of $f$ to the real line is in $L^2(\\mathbb{R})$, then there\nexists a function $g(t)\\in L^2(-\\gamma, \\gamma)$ such that\n$$f(z) = \\frac{1}{\\sqrt{2\\pi}}\\int_{-\\gamma}^{\\gamma}g(t)e^{izt}dt$$ for\nall $z$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PaleyWienerTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Paley-Wiener theorem"
+  ]
+}

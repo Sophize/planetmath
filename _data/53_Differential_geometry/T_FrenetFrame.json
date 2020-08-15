@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "moving trihedron",
+    "moving frame",
+    "rep\\`ere mobile",
+    "Frenet trihedron"
+  ],
+  "definition": "Let $I\\subset {\\mathbb{R}}$ be an interval and let\n$\\gamma:I\\to{\\mathbb{R}}^3$ be a parameterized space curve, assumed to\nbe and free of points of inflection. We interpret $\\gamma(t)$ as the\ntrajectory of a particle moving through 3-dimensional space. The moving\ntrihedron (also known as the Frenet frame, the Frenet trihedron, the\nrep\u00e8re mobile, and the moving frame) is an orthonormal basis of\n3-vectors $T(t),N(t),B(t),$ defined and named as follows:\n$$\\begin{aligned}\n  T(t) &= \\displaystyle \\frac{\\gamma'(t)}{\\Vert \\gamma'(t) \\Vert}\\, ,\n  &&\n  \\text{the unit  tangent;}\\\\\n  N(t) &= \\displaystyle \\frac{T'(t)}{\\Vert T'(t) \\Vert} \\, ,&&\n  \\text{the unit normal;}\\\\ \\\\\n  B(t) &= T(t)\\times N(t)  \\, ,&& \\text{the unit binormal.}\\\\\\end{aligned}$$\nA straightforward application of the chain rule shows that these\ndefinitions are covariant with respect to reparameterizations. Hence,\nthe above three vectors should be conceived as being attached to the\npoint $\\gamma(t)$ of the oriented space curve, rather than being\nfunctions of the parameter $t$.\n\nCorresponding to the above vectors are 3 planes, passing through each\npoint $\\gamma(t)$ of the space curve. The *osculating plane* at the\npoint $\\gamma(t)$ is the plane spanned by $T(t)$ and $N(t)$; the *normal\nplane* at $\\gamma(t)$ is the plane spanned by $N(t)$ and $B(t)$; the\nrectifying plane at $\\gamma(t)$ is the plane spanned by $T(t)$ and\n$B(t)$.",
+  "language": "INFORMAL",
+  "phrase": "Frenet Frame",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FrenetFrame"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *transfer function* of a linear dynamical system is the ratio of the\nLaplace transform of its output to the Laplace transform of its input.\nIn systems theory, the Laplace transform is called the \u201cfrequency\ndomain\u201d representation of the system.\n\nConsider a canonical dynamical system $$\\begin{aligned}\n    \\dot x(t) &=& A x(t) + B u(t) \\\\\n    y (t) &=& C x(t) + D u(t)\\end{aligned}$$ with input\n$u: R \\mapsto R^n$, output $y: R \\mapsto R^m$ and state\n$x:R \\mapsto R^p$, and $(A,B,C,D)$ are constant matrices of conformable\nsizes.\n\nThe frequency domain representation is\n$$y(s) = (D + C(sI - A)^{-1}B)u(s),$$ and thus the transfer function\nmatrix is $D + C(sI - A)^{-1}B$.\n\nIn the case of single-input-single-output systems ($m=n=1$), the\ntransfer function is commonly expressed as a rational function of $s$:\n$$H(s) = \\frac{\\prod_{i=0}^Z (s - z_i)}{\\prod_{i=0}^P (s - p_i)}.$$ The\nvalues $z_i$ are called the zeros of $H(s)$, and the values $p_i$ are\ncalled the poles. If any of the poles has positive real part, then the\ntransfer function is termed *unstable*; if all of the poles have\nstrictly negative real part, it is *stable*.",
+  "language": "INFORMAL",
+  "phrase": "Transfer Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TransferFunction"
+    }
+  ],
+  "indexable": true
+}

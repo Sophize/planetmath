@@ -1,0 +1,17 @@
+{
+  "argumentText": "For $p=1$ the result follows immediately from the triangle inequality,\nso we may assume $p>1$.\n\nWe have\n$$|a_k+b_k|^p=|a_k+b_k| |a_k+b_k|^{p-1} \\leq (|a_k|+|b_k|)|a_k+b_k|^{p-1}$$\nby the triangle inequality. Therefore we have\n$$|a_k+b_k|^p  \\leq |a_k||a_k+b_k|^{p-1} + |b_k||a_k+b_k|^{p-1}$$ Set\n$q=\\frac{p}{p-1}$. Then $\\frac{1}{p}+\\frac{1}{q}=1$, so by the H\u00f6lder\ninequality we have $$\\sum_{k=0}^n |a_k||a_k+b_k|^{p-1} \\leq\n    \\left( \\sum_{k=0}^n |a_k|^p \\right)^{\\frac{1}{p}} \n    \\left( \\sum_{k=0}^n |a_k+b_k|^{(p-1)q} \\right)^{\\frac{1}{q}}$$\n$$\\sum_{k=0}^n |b_k||a_k+b_k|^{p-1} \\leq\n    \\left( \\sum_{k=0}^n |b_k|^p \\right)^{\\frac{1}{p}} \n    \\left( \\sum_{k=0}^n |a_k+b_k|^{(p-1)q} \\right)^{\\frac{1}{q}}$$\nAdding these two inequalities, dividing by the factor common to the\nright sides of both, and observing that $(p-1)q=p$ by definition, we\nhave $$\\left( \\sum_{k=0}^n |a_k+b_k|^p \\right)^{1-\\frac{1}{q}}\n   \\leq \\frac{ \\sum_{k=0}^n (|a_k|+|b_k|)|a_k+b_k|^{p-1} }{ \\left( \\sum_{k=0}^n |a_k+b_k|^{p} \\right)^{\\frac{1}{q}} }\n   \\leq \\left( \\sum_{k=0}^n |a_k|^p \\right)^{\\frac{1}{p}} +\n        \\left( \\sum_{k=0}^n |b_k|^p \\right)^{\\frac{1}{p}}$$ Finally,\nobserve that $1-\\frac{1}{q}=\\frac{1}{p}$, and the result follows as\nrequired. The proof for the integral version is analogous.",
+  "conclusion": "#P_MinkowskiInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfMinkowskiInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Minkowski inequality"
+  ]
+}

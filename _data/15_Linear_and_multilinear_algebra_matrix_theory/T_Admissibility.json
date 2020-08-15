@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "admissible"
+  ],
+  "definition": "Let $k$ be a field, $V$ a vector space over $k$, and $T\\colon V\\to V$ a\nlinear operator. We say that a subspace $W$ of $V$ is $T$-*admissible*\nif\n\n1.  $W$ is a $T$ - invariant subspace;\n\n2.  If $f \\in k[X]$ (See the polynomial ring definition) and\n    $f(T)x \\in W$, there is a vector $y \\in W$ such that $f(T)x=f(T)y$.",
+  "language": "INFORMAL",
+  "phrase": "Admissibility",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Admissibility"
+    }
+  ],
+  "indexable": true
+}

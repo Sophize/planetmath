@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "\\\nPMlinkescapeword[divisions]{}\n\nA *Sierpinski carpet* is the set of all points $(x, y)$ such that $x$ or\n$y$ is in the Cantor set. An equivalent and perhaps simpler definition\nis:\n\nLet $S_0$ be a unit square. Let $S_{n+1}$ be $S_n$, with each square\ndivided into ninths, by being divided into thirds horizontally and\nvertically, and the central resulting square removed, and the other\nresulting squares treated separately in further divisions. The limit as\n$n \\to \\infty$ of $S_n$ is a Sierpinski carpet. An approximation is\nshown in figure \\[fig:sierpinski\\].\n\n![An approximation of the Sierpinski\ncarpet[]{data-label=\"fig:sierpinski\"}](sierpinski_carpet.eps)\n\nThe *Menger sponge* is a fractal embedded in 3-dimensional space. It can\nbe seen as a 3-d generalization of the Sierpinski carpet, which is\nitself a 2-dimensional generalization of the Cantor set. The Menger\nsponge is almost always represented as being constructed from Cantor\nsets using the \u201cmiddle third\u201d rule.\n\nThe Menger sponge consists of all points $(x, y, z)$ such that $(x, y)$,\n$(y,z)$, and $(x,z)$ are all in Sierpinski carpets. Each \u201cface\u201d is a\nSierpinski carpet.\n\nSimilarily to the Sierpinski carpet the Menger sponge can be constructed\nin the following way:\n\nStart with a unit cube and split it into 27 smaller cubes of equal size.\nRemove the central cube and the ones joining a face with it. Then start\nover with the remaining smaller cubes.\n\n![An iteration of the Menger sponge \u2013 created in Blender 2.35. (The for\nthis picture.)[]{data-label=\"fig:menger\"}](menger.ps)",
+  "language": "INFORMAL",
+  "phrase": "Menger Sponge",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MengerSponge"
+    }
+  ],
+  "indexable": true
+}

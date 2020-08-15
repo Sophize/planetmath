@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $Q=(Q_0,Q_1,s,t)$ be a quiver, i.e. $Q_0$ is a set of vertices,\n$Q_1$ is a set of arrows, $s:Q_1\\to Q_0$ is a source function and\n$t:Q_1\\to Q_0$ is a target function.\n\nRecall that a **path** of length $l\\geqslant 1$ from $x$ to $y$ in $Q$\nis a sequence of arrows $(a_1,\\ldots,a_l)$ such that\n$$s(a_1)=x;\\ \\ \\ t(a_l)=y;$$ $$t(a_i)=s(a_{i+1})$$ for any\n$i=1,2,\\ldots,l-1,l$.\n\nAlso we allow paths of length $0$, i.e. stationary paths.\n\nIf $a=(a_1,\\ldots,a_l)$ and $b=(b_1,\\ldots, b_k)$ are two paths such\nthat $t(a_l)=s(b_1)$ then we say that $a$ and $b$ are **compatibile**\nand in this case we can form another path from $a$ and $b$, namely\n$$a\\circ b=(a_1,\\ldots,a_l,b_1,\\ldots, b_k).$$\n\nNote, that the length of $a\\circ b$ is a sum of lengths of $a$ and $b$.\nAlso a path $a=(a_1,\\ldots,a_l)$ of positive length is called a\n**cycle** if $t(a_l)=s(a_1)$. In this case we can compose $a$ with\nitself to produce new path.\n\nAlso if $a$ is a path from $x$ to $y$ and $e_x, e_y$ are stationary\npaths in $x$ and $y$ respectively, then we define $a\\circ e_y=a$ and\n$e_x\\circ a=a$.\n\nLet $kQ$ be a vector space with a basis consisting of all paths\n(including stationary paths). For paths $a$ and $b$ define\nmultiplication as follows:\n\nIf $a$ and $b$ are compatible, then put $ab=a\\circ b$ and put $ab=0$\notherwise. This operation extendes bilinearly to entire $kQ$ and it can\nbe easily checked that $kQ$ becomes an associative algebra in this\nmanner called the **path algebra** of $Q$ over $k$.",
+  "language": "INFORMAL",
+  "phrase": "Path Algebra Of A Quiver",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PathAlgebraOfAQuiver"
+    }
+  ],
+  "indexable": true
+}

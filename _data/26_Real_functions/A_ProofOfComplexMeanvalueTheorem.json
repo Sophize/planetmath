@@ -1,0 +1,17 @@
+{
+  "argumentText": "The function $h(t)=\\Re \\frac{f(a+t(b-a))-f(a)}{b-a}$ is a function\ndefined on \\[0,1\\]. We have $h(0)=0$ and\n$h(1)=\\Re\\frac{f(b)-f(a)}{b-a}$. By the ordinary mean-value theorem,\nthere is a number $t$, $0<t<1$, such that $h'(t)=h(1)-h(0)$. To evaluate\n$h'(t)$, we use the assumption that $f$ is complex differentiable\n(holomorphic). The derivative of $\\frac{f(a+t(b-a))-f(a)}{b-a}$ is equal\nto $f'(a+t(b-a))$, then $h'(t) =\\Re(f'(a+t(b-a)))$, so $u=a+t(b-a)$\nsatisfies the required equation. The proof of the second assertion can\nbe deduced from the result just proved by applying it to the function f\nmultiplied by i.",
+  "conclusion": "#P_ComplexMeanvalueTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfComplexMeanvalueTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of complex mean-value theorem"
+  ]
+}

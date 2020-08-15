@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Pythagorean triple"
+  ],
+  "definition": "A *Pythagorean triplet* is a set $\\{a, b, c\\}$ of three positive\nintegers such that $$a^2 + b^2 = c^2.$$\n\nThat is, $\\{a, b, c\\}$ is a Pythagorean triplet if there exists a right\ntriangle whose sides have lengths $a$, $b$, and $c$, respectively. For\nexample, $\\{3, 4, 5\\}$ is a Pythagorean triplet. Given one Pythagorean\ntriplet $\\{a, b, c\\}$, we can produce another by multiplying $a$, $b$,\nand $c$ by the same factor $k$. It follows that there are countably many\nPythagorean triplets.\n\n### Primitive Pythagorean triplets {#primitive-pythagorean-triplets .unnumbered}\n\nA Pythagorean triplet is *primitive* if its elements are coprimes. All\nprimitive Pythagorean triplets are given by $$\\begin{aligned}\n\\begin{cases}\na = 2mn,\\\\\nb = m^2\\!-\\!n^2,\\\\\nc = m^2\\!+\\!n^2,\n\\end{cases}\\end{aligned}$$\n\nwhere the *seed numbers* $m$ and $n$ are any two coprime positive\nintegers, one odd and one even, such tht $m > n$. If one presumes of the\npositive integers $m$ and $n$ only that $m > n$, one obtains also many\nnon-primitive triplets, but not e.g. $(6,\\,8,\\,10)$. For getting all,\none needs to multiply the right hand sides of (1) by an additional\ninteger parametre $q$.\n\n**Note 1.** Among the primitive Pythagorean triples, the odd cathetus\n$a$ may attain all odd values except 1 (set e.g. $m := n\\!+\\!1$) and the\neven cathetus $b$ all values divisible by 4 (set $n := 1$).\\\n**Note 2.** In the primitive triples, the hypothenuses $c$ are always\nodd. All possible Pythagorean hypotenuses are contraharmonic means of\ntwo different integers (and conversely).\\\n**Note 3.** N.B. that any triplet (1) is obtained from the square of a\nGaussian integer $(m\\!+\\!in)^2$ as its real part, imaginary part and\nabsolute value.\\\n**Note 4.** The equations (1) imply that the sum of a cathetus and the\nhypotenuse is always a perfect square or a double perfect square.\\\n**Note 5.** One can form the sequence (cf. Sloane\u2019s )\n$$1,\\,2,\\,3,\\,4,\\,7,\\,24,\\,527,\\,336,\\,164833,\\,354144,\\,...$$ taking\nfirst the seed numbers 1 and 2 which give the legs 3 and 4, taking these\nas new seed numbers which give the legs 7 and 24, and so on.",
+  "language": "INFORMAL",
+  "phrase": "Pythagorean Triplet",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PythagoreanTriplet"
+    }
+  ],
+  "indexable": true
+}

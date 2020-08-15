@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A real function $f$ on a real interval $I$ is said to be *matrix\nmonotone of $n$*, if\\\n$$A \\leq_L B  \\Rightarrow f(A) \\leq f(B)$$ for all Hermitian\n$n \\times n$ matrices $A, B$ with spectra contained in $I$. Here\n$\\leq_L$ denotes the Loewner order, and the notation $f(A)$ is explained\nin the entry functional calculus for Hermitian matrices.",
+  "language": "INFORMAL",
+  "phrase": "Matrix Monotone",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MatrixMonotone"
+    }
+  ],
+  "indexable": true
+}

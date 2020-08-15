@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $(X,\\mathfrak{M},\\mu)$ be a $\\sigma$-finite measure space and $p,q$\nbe H\u00f6lder conjugates. Then, we show that a measurable function\n$f\\colon X\\rightarrow\\mathbb{R}$ has $L^p$-norm $$\\label{eq:1}\n\\Vert f\\Vert_p=\\sup\\left\\{\\Vert fg\\Vert_1: g\\in L^q, \\Vert g\\Vert_q=1\\right\\}.$$\nFurthermore, if either $p<\\infty$ and $\\Vert f\\Vert_p<\\infty$ or $p=1$\nthen $\\mu$ is not required to be $\\sigma$-finite.\n\nIf $\\Vert f\\Vert_p=0$ then $f$ is zero almost everywhere, and both sides\nof equality (\\[eq:1\\]) are zero. So, we only need to consider the case\nwhere $\\Vert f\\Vert_p>0$.\n\nLet $K$ be the right hand side of equality (\\[eq:1\\]). For any\n$g\\in L^q$ with $\\Vert g \\Vert_q=1$, the H\u00f6lder inequality gives\n$\\Vert fg\\Vert_1\\le \\Vert f\\Vert_p$, so $K\\le\\Vert f\\Vert_p$. Only the\nreverse inequality remains to be shown.\n\nIf $1<p<\\infty$ and $\\Vert f\\Vert_p<\\infty$ then, setting $g=|f|^{p-1}$\ngives\n$$\\Vert g\\Vert_q=\\left(\\int |f|^p\\,d\\mu\\right)^{\\frac{1}{q}}=\\Vert f\\Vert_p^{p-1}<\\infty.$$\nTherefore, $g\\in L^q$ and, $$K\\ge \\Vert f (g/\\Vert g\\Vert_q)\\Vert_1\n=\\Vert |f|^p\\Vert_1/\\Vert g\\Vert_q=\\Vert f\\Vert_p^p/\\Vert f\\Vert_p^{p-1}=\\Vert f\\Vert_p.$$\nOn the other hand, if $p=1$ so that $q=\\infty$, then setting $g=1$ gives\n$\\Vert g\\Vert_q=1$ and $$K\\ge\\Vert fg\\Vert_1=\\Vert f\\Vert_1.$$\n\nSo, we have shown that $K=\\Vert f\\Vert_p$ when $p<\\infty$ and\n$\\Vert f\\Vert_p<\\infty$, and when $p=1$. From now on, it is assumed that\nthe measure is $\\sigma$-finite. Then there is a sequence\n$A_n\\in\\mathfrak{M}$ increasing to the whole of $X$ and such that\n$\\mu(A_n)<\\infty$.\n\nNow consider the case where $1<p<\\infty$ and $\\Vert f\\Vert_p=\\infty$.\nLet $f_n$ be the sequence of functions $$f_n=1_{A_n}1_{|f|\\le n}f$$\nthen, $|f_n|\\le |f|$ and monotone convergence gives\n$\\Vert f_n\\Vert_p\\rightarrow \\Vert f \\Vert_p=\\infty$. Therefore,\n$$K\\ge\\sup\\left\\{\\Vert f_n g\\Vert_1:g\\in L^q, \\Vert g\\Vert_q=1\\right\\}=\\Vert f_n\\Vert_p.$$\nand letting $n$ go to infinity gives $K=\\infty$.\n\nWe finally consider $p=\\infty$. Then, for any $L<\\Vert f\\Vert_p$ there\nexists a set $A\\in\\mathfrak{M}$ with $\\mu(A)>0$ such that $|f|\\ge L$ on\n$A$. Also, monotone convergence gives $\\mu(A\\cap A_n)\\rightarrow\\mu(A)$\nand, therefore, $\\mu(A\\cap A_n)>0$ eventually. Replacing $A$ by\n$A\\cap A_n$ if necessary, we may suppose that $\\mu(A)<\\infty$. So,\nsetting $g=1_A/\\mu(A)$ gives $\\Vert g\\Vert_1=1$ and,\n$$K\\ge\\Vert fg\\Vert_1=\\int_A |f|\\,d\\mu / \\mu(A)\\ge L.$$ Letting $L$\nincrease to $\\Vert f\\Vert_p$ gives $K\\ge \\Vert f\\Vert_p$ as required.",
+  "conclusion": "#P_LpnormIsDualToLq",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfLpnormIsDualToLq"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of $L^p$-norm is dual to $L^q$"
+  ]
+}

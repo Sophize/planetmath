@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem (Gauss)**.\n$$\\Psi(x+n)=\\frac{1}{x}+\\frac{1}{x+1}+\\cdots+\\frac{1}{x+n-1}+\\Psi(x), n=1,2,3,\\ldots$$\n$$\\Psi\\left(\\frac{p}{q}\\right)=-\\gamma-\\frac{\\pi}{2}\\cot{\\frac{\\pi p}{q}}-\\ln{q}+\\sum_{n=1}^{q-1} \\cos\\frac{2\\pi n p}{q}\\ln\\left(2\\sin\\frac{\\pi n}{q}\\right)$$\nwhere $0<p<q$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaussDigammaTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gauss' digamma theorem"
+  ]
+}

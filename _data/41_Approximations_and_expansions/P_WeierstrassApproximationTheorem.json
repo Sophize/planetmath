@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $ f $ is a continuous real-valued function on a interval $ [a,b] $\nthen for all $ \\varepsilon>0 $ there exists a polynomial $ P $ which\nsatisfies $ |f(x)-P(x)|<\\varepsilon \\quad \\forall x\\in [a,b] $ This\ntheorem also holds for compact subsets of $ \\Bbb{R}^n . $ The\nStone-Weierstrass theorem is a generalization to even more general\nsituations.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeierstrassApproximationTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Weierstrass approximation theorem"
+  ]
+}

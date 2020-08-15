@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mu$ and $\\nu$ be signed measures or complex measures on the same\nmeasurable space $(\\Omega, \\mathscr{S})$. We say that $\\nu$ is\n*absolutely continuous* with respect to $\\mu$ if, for each\n$A\\in \\mathscr{S}$ such that $|\\mu|(A)=0$, it holds that $\\nu(A)=0$.\nThis is usually denoted by $\\nu \\ll \\mu$.\n\n**Remarks.**\n\nIf $\\mu$ and $\\nu$ are signed measures and $(\\nu^+, \\nu^-)$ is the\nJordan decomposition of $\\nu$, the following are equivalent:\n\n1.  $\\nu\\ll\\mu$;\n\n2.  $\\nu^+\\ll\\mu$ and $\\nu^-\\ll\\mu$;\n\n3.  $|\\nu|\\ll|\\mu|$.\n\nIf $\\nu$ is a finite signed or complex measure and $\\nu\\ll\\mu$, the\nfollowing useful property holds: for each $\\varepsilon>0$, there is a\n$\\delta>0$ such that $|\\nu|(E)<\\varepsilon$ whenever $|\\mu|(E)<\\delta$.",
+  "language": "INFORMAL",
+  "phrase": "Absolutely Continuous",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbsolutelyContinuous"
+    }
+  ],
+  "indexable": true
+}

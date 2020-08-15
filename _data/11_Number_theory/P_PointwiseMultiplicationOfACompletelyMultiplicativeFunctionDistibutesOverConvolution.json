@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f$ be a completely multiplicative function and $g$ and $h$ be\narithmetic functions. Then $f(g*h)=(fg)*(fh)$.\n\nLet $n$ be a positive integer. Then\n\n  ----------------------------- --------------------------------------------------------------------------------------------------\n  $\\displaystyle (f(g*h))(n)$   $\\displaystyle = f(n)(g*h)(n)$\n                                $\\displaystyle = f(n) \\sum_{d|n} g(d)h\\left( \\frac{n}{d} \\right)$\n                                $\\displaystyle = \\sum_{d|n} f(n)g(d)h\\left( \\frac{n}{d} \\right)$\n                                $\\displaystyle = \\sum_{d|n} f\\left( d \\cdot \\frac{n}{d} \\right) g(d)h\\left( \\frac{n}{d} \\right)$\n                                $\\displaystyle = \\sum_{d|n} f(d)f\\left( \\frac{n}{d} \\right) g(d)h\\left( \\frac{n}{d} \\right)$\n                                $\\displaystyle = \\sum_{d|n} (fg)(d)(fh)\\left( \\frac{n}{d} \\right)$\n                                $\\displaystyle = ((fg)*(fh))(n)$.\n  ----------------------------- --------------------------------------------------------------------------------------------------",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PointwiseMultiplicationOfACompletelyMultiplicativeFunctionDistibutesOverConvolution"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "pointwise multiplication of a completely multiplicative function distibutes over convolution"
+  ]
+}

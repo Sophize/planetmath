@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $$\\prod_{k=1}^\\infty p_k$$ be an infinite product such that $p_k>0$\nfor all $k$. Then the infinite product converges if and only if the\ninfinite sum $$\\sum_{k=1}^\\infty \\log p_k$$ converges. Moreover\n$$\\prod_{k=1}^\\infty p_k = \\exp \\sum_{k=1}^\\infty \\log p_k.$$\n\n*Proof.*\n\nSimply notice that $$\\prod_{k=1}^N p_k = \\exp \\sum_{k=1}^N \\log p_k.$$\nIf the infinite sum converges then (by continuity of $\\exp$ function)\n$$\\lim_{N\\to \\infty} \\prod_{k=1}^N p_k = \\lim_{N\\to\\infty} \\exp \\sum_{k=1}^N \\log p_k = \\exp \\sum_{k=1}^\\infty \\log p_k$$\nand also the infinite product converges.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinkBetweenInfiniteProductsAndSums"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "link between infinite products and sums"
+  ]
+}

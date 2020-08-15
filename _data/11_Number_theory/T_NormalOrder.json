@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f(n)$ and $F(n)$ be functions from\n$\\mathbb{Z}^{+} \\rightarrow \\mathbb{R}$. We say that $f(n)$ has [*normal\norder*]{} $F(n)$ if for each $\\epsilon>0$ the set\n$$A(\\epsilon)=\\{n \\in \\mathbb{Z}^{+} :\n     (1-\\epsilon)F(n)<f(n)<(1+\\epsilon)F(n) \\}$$ has the property that\n$\\underline{d}(A(\\epsilon))=1$. Equivalently, if\n$B(\\epsilon)=\\mathbb{Z}^{+} \\backslash A(\\epsilon)$, then\n$\\underline{d}(B(\\epsilon))=0$. (Note that $\\underline{d}(X)$ denotes\nthe lower asymptotic density of $X$).\n\nWe say that $f$ has [*average order*]{} $F$ if\n$$\\sum_{j=1}^n f(j) \\sim \\sum_{j=1}^n F(j)$$",
+  "language": "INFORMAL",
+  "phrase": "Normal Order",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalOrder"
+    }
+  ],
+  "indexable": true
+}

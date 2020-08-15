@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "CPL"
+  ],
+  "definition": "[*C*]{} is a procedural compiled programming language devised by Dennis\nRitchie at the Bell Labs in New Jersey in 1972, and standardized in 1983\nby ANSI and again by ISO in 1999. The original purpose of C was to write\nsystems software for UNIX, but soon it became the most popular\nprogramming language for writing DOS applications, a popularity\novershadowed only by the success of using for Windows applications. From\nthe beginning C provided access to certain lower level features of the\ncomputer and if that\u2019s not enough it also had simpler mechanisms for\nmeshing with assembly language; for that reason C is sometimes compared\nto dangerous but powerful tools like a chainsaw (Banahan et al, 1991).\n\nThe following C program takes two integers as inputs and outputs their\ngreatest common divisor using Euclid\u2019s algorithm.\n\n    #include <stdio.h>\n    #include <stdlib.h>\n\n    int GCD(int x, int y) {\n        int wX = x;\n        int wY = y;\n        int tempX;\n        while ( wY > 0 ) {\n          tempX = wX;\n          wX = wY;\n          wY = tempX % wY;\n        }\n        return(wX);\n    }\n\n    int main() {\n        int inputX;\n        int inputY;\n        int inputSuccess;\n        printf(\"Please enter x \");\n        inputSuccess = scanf(\"%d\", &inputX);\n        printf(\"Please enter y \");\n        inputSuccess = scanf(\"%d\", &inputY);\n        printf(\"GCD of %d and %d is %d\\n\", inputX, inputY, GCD(inputX,inputY));\n        exit(EXIT_SUCCESS);\n    }\n\nThis program was tested in Visual C++ 6.0, and it works. The compiler\nreported 0 errors and 0 warnings, and the program works as it should, at\nleast as long as the inputs are both positive integers. For the pair 42\nand $-21$, it incorrectly reports the GCD as 42. Note that `printf` is\nnot a reserved word of the C language, the way that `PRINT` is in BASIC\nor Fortran. We can use it because we included the standard I/O library;\ntheoretically, we could write our own `printf` that tye-dyed the output\nonto a T-shirt as long as we wrote the appropriate library to take care\nof it.\n\n[1]{} M. Banahan, D. Brady & M. Doran, [*The C book, featuring the ANSI\nC standard*]{} Reading, Mass: Addison-Wesley Publishing (1991)",
+  "language": "INFORMAL",
+  "phrase": "C",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/C1"
+    }
+  ],
+  "indexable": true
+}

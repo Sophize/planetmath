@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set and $T:X \\longrightarrow X$ a transformation of $X$.\n\nThe notion of invariance by $T$ we are about to describe is stronger\nthan the usual notion of , and is especially useful in ergodic theory.\nThus, in most applications, $(X, \\mathfrak{B}, \\mu)$ is a measure space\nand $T$ is a measure-preserving transformation. Nevertheless, the\ndefinition of invariance and its properties are general and do not\nrequire any such assumptions.\n\n$\\,$\n\n[**Definition -**]{} A subset $A \\subseteq X$ is said to be *invariant*\nby $T$, or $T$-*invariant*, if $T^{-1}(A)=A$.\n\n$\\,$\n\nThe fundamental property of this concept is the following: if $A$ is\ninvariant by $T$, then so is $X \\setminus A$.\n\nThus, when $A$ is invariant by $T$ we obtain by restriction two\nwell-defined transformations $$\\begin{aligned}\nT|_A :A \\longrightarrow A\\\\\nT|_{X\\setminus A} : X\\setminus A \\longrightarrow X\\setminus A\\end{aligned}$$\n\nHence, the existence of an allows one to decompose the set $X$ into two\ndisjoint subsets and study the transformation $T$ in each of these\nsubsets.\n\n[**Remark -**]{} When $T$ is a measure-preserving transformation in a\nmeasure space $(X, \\mathfrak{B}, \\mu)$ one usually restricts the notion\nof invariance to measurable subsets $A \\in \\mathfrak{B}$.",
+  "language": "INFORMAL",
+  "phrase": "Invariant By A Measure-Preserving Transformation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InvariantByAMeasurepreservingTransformation"
+    }
+  ],
+  "indexable": true
+}

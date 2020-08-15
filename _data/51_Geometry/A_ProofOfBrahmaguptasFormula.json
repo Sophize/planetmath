@@ -1,0 +1,17 @@
+{
+  "argumentText": "We shall prove that the area of a cyclic quadrilateral with sides\n$p,q,r,s$ is given by $$\\sqrt{(T-p)(T-q)(T-r)(T-s)}$$where\n$T = \\frac{p+q+r+s}{2}.$\n\n![image](quadcyclic.eps)\n\nArea of the cyclic quadrilateral = Area of $\\triangle ADB +$ Area of\n$\\triangle BDC.$ $$= \\frac{1}{2}pq\\sin A  + \\frac{1}{2}rs\\sin C$$ But\nsince $ABCD$ is a cyclic quadrilateral,\n$\\angle DAB = 180^\\circ - \\angle DCB.$ Hence $\\sin A = \\sin C.$\nTherefore area now is\n$$Area = \\frac{1}{2}pq\\sin A + \\frac{1}{2}rs\\sin A$$\n$$(Area)^2 = \\frac{1}{4}\\sin^2 A (pq + rs)^2$$\n$$4(Area)^2 = (1 - \\cos^2 A)(pq + rs)^2$$\n$$4(Area)^2 = (pq + rs)^2 - cos^2 A (pq + rs)^2$$ Applying cosines law\nfor $\\triangle ADB$ and $\\triangle BDC$ and equating the expressions for\nside $DB,$ we have $$p^2 + q^2 - 2pq\\cos A = r^2 + s^2 - 2rs\\cos C$$\nSubstituting $\\cos C = -\\cos A$ (since angles $A$ and $C$ are\nsuppplementary) and rearranging, we have\n$$2\\cos A (pq + rs) = p^2 + q^2 - r^2 - s^2$$ substituting this in the\nequation for area,\n$$4(Area)^2 = (pq + rs)^2 - \\frac{1}{4}(p^2 + q^2 - r^2 - s^2)^2$$\n$$16(Area)^2 = 4(pq + rs)^2 - (p^2 + q^2 - r^2 - s^2)^2$$ which is of\nthe form $a^2-b^2$ and hence can be written in the form $(a+b)(a-b)$ as\n$$(2(pq + rs) + p^2 + q^2 -r^2 - s^2)(2(pq + rs) - p^2 - q^2 + r^2 +s^2)$$\n$$= ( (p+q)^2 - (r-s)^2 )( (r+s)^2 - (p-q)^2 )$$\n$$= (p+q+r-s)(p+q+s-r)(p+r+s-q)(q+r+s-p)$$ Introducing\n$T = \\frac{p+q+r+s}{2},$ $$16(Area)^2 = 16(T-p)(T-q)(T-r)(T-s)$$ Taking\nsquare root, we get $$Area = \\sqrt{(T-p)(T-q)(T-r)(T-s)}$$",
+  "conclusion": "#P_BrahmaguptasFormula",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBrahmaguptasFormula"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Brahmagupta's formula"
+  ]
+}

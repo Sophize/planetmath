@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ and $\\mathcal{D}$ be categories such that each object\n$c$ of $\\mathcal{C}$ can be regarded an object of $\\mathcal{D}$ by\nsuitably ignoring structures $c$ may have as a $\\mathcal{C}$-object but\nnot a $\\mathcal{D}$-object. A functor $U:\\mathcal{C} \\to \\mathcal{D}$\nwhich operates on objects of $\\mathcal{C}$ by \u201cforgetting\u201d any imposed\nmathematical structure is called a *forgetful functor*. The following\nare examples of forgetful functors:\n\n1.  $U:\\mathbf{Grp} \\to \\mathbf{Set}$ takes groups into their underlying\n    sets and group homomorphisms to set maps.\n\n2.  $U:\\mathbf{Top} \\to \\mathbf{Set}$ takes topological spaces into\n    their underlying sets and continuous maps to set maps.\n\n3.  $U:\\mathbf{Ab} \\to \\mathbf{Grp}$ takes abelian groups to groups and\n    acts as identity on arrows.\n\nForgetful functors are often instrumental in studying adjoint functors.",
+  "language": "INFORMAL",
+  "phrase": "Forgetful Functor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ForgetfulFunctor"
+    }
+  ],
+  "indexable": true
+}

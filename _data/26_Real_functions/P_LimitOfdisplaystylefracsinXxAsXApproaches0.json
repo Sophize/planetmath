@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "$$\\lim_{x \\to 0} \\frac{\\sin x}{x}=1$$\n\n$x<\\tan x$ for $\\displaystyle 0<x<\\frac{\\pi}{2}$.\n\nFirst, let $\\displaystyle 0<x<\\frac{\\pi}{2}$. Then $0<\\cos x<1$. Note\nalso that\n\n$$\\label{tan}\nx<\\tan x.$$\n\nMultiplying both of this inequality by $\\cos x$ yields\n\n$$\\label{xcos}\nx\\cos x<\\sin x.$$\n\nBy ,\n\n$$\\label{x}\n\\sin x<x.$$\n\nCombining inequalities (\\[xcos\\]) and (\\[x\\]) gives\n\n$$\\label{sin}\nx\\cos x<\\sin x<x.$$\n\nDividing by $x$ yields\n\n$$\\label{squeeze}\n\\cos x<\\frac{\\sin x}{x}<1.$$\n\nNow let $\\displaystyle \\frac{-\\pi}{2}<x<0$. Then\n$\\displaystyle 0<-x<\\frac{\\pi}{2}$. Plugging $-x$ into inequality\n(\\[squeeze\\]) gives\n\n$$\\label{squeeze-}\n\\cos (-x)<\\frac{\\sin (-x)}{-x}<1.$$\n\nSince $\\cos$ is an even function and $\\sin$ is an odd function, we have\n\n$$\\label{-squeeze}\n\\cos x<\\frac{-\\sin x}{-x}<1.$$\n\nTherefore, inequality (\\[squeeze\\]) holds for all real $x$ with\n$\\displaystyle 0<|x|<\\frac{\\pi}{2}$.\n\nSince $\\cos$ is continuous,\n$\\displaystyle \\lim_{x \\to 0} \\cos x=\\cos 0=1$. Thus,\n\n$$\\label{limits}\n1=\\lim_{x \\to 0} \\cos x \\le \\lim_{x \\to 0} \\frac{\\sin x}{x} \\le \\lim_{x \\to 0} 1=1.$$\n\nBy the squeeze theorem, it follows that\n$\\displaystyle \\lim_{x \\to 0} \\frac{\\sin x}{x}=1$.\n\nNote that the above limit is also valid if $x$ is considered as a\ncomplex variable.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitOfdisplaystylefracsinXxAsXApproaches0"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "limit of $\\displaystyle \\frac{\\sin x}{x}$ as $x$ approaches 0"
+  ]
+}

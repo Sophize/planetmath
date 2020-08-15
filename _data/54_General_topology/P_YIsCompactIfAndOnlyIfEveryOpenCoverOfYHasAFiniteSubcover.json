@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem.** ]{}\\\nLet $X$ be a topological space and $Y$ a subset of $X$. Then the\nfollowing statements are equivalent.\n\n1.  $Y$ is compact as a subset of $X$.\n\n2.  Every open cover of $Y$ (with open sets in $X$) has a finite\n    subcover.\n\n*Proof.* Suppose $Y$ is compact, and $\\{U_i\\}_{i\\in I}$ is an arbitrary\nopen cover of $Y$, where $U_i$ are open sets in $X$. Then\n$\\{U_i\\cap Y\\}_{i\\in I}$ is a collection of open sets in $Y$ with union\n$Y$. Since $Y$ is compact, there is a finite subset $J\\subset I$ such\nthat $Y=\\cup_{i\\in J} (U_i\\cap Y)$. Now\n$Y=(\\cup_{i\\in J} U_i)\\cap Y \\subset \\cup_{i\\in J} U_i$, so\n$\\{U_i\\}_{i\\in J}$ is finite open cover of $Y$.\n\nConversely, suppose every open cover of $Y$ has a finite subcover, and\n$\\{U_i\\}_{i\\in I}$ is an arbitrary collection of open sets (in $Y$) with\nunion $Y$. By the definition of the subspace topology, each $U_i$ is of\nthe form $U_i = V_i\\cap Y$ for some open set $V_i$ in $X$. Now\n$U_i \\subset V_i$, so $\\{V_i\\}_{i\\in I}$ is a cover of $Y$ by open sets\nin $X$. By assumption, it has a finite subcover $\\{V_i\\}_{i\\in J}$. It\nfollows that $\\{U_i\\}_{i\\in J}$ covers $Y$, and $Y$ is compact. $\\Box$\n\nThe above proof follows the proof given in [@ikenaga].\n\n[9]{} B.Ikenaga, *Notes on Topology*, August 16, 2000, available online\n.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/YIsCompactIfAndOnlyIfEveryOpenCoverOfYHasAFiniteSubcover"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$Y$ is compact if and only if every open cover of $Y$ has a finite subcover"
+  ]
+}

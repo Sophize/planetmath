@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "generalized arithmetic progression"
+  ],
+  "definition": "An $n$-dimensional arithmetic progresssion is a set of the form\n$$\\begin{aligned}\nQ&=Q(a; q_1, \\dotsc, q_n; l_1, \\dotsc, l_n)\\\\\n &=\\{\\,a+x_1 q_1+\\dotsb+x_n q_n \\mid 0\\leq x_i<l_i\\text{ for } i=1,\\dotsc,n \\,\\}.\\end{aligned}$$\nThe length of the progression is defined as $l_1\\dotsb l_n$. The\nprogression is *proper* if $|Q|=l_1\\dotsb l_n$.\n\n[1]{}\n\nMelvyn\u00a0B. Nathanson. , volume 165 of [*GTM*]{}. Springer, 1996. .",
+  "language": "INFORMAL",
+  "phrase": "Multidimensional Arithmetic Progression",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultidimensionalArithmeticProgression"
+    }
+  ],
+  "indexable": true
+}

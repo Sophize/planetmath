@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The weak approximation theorem allows selection, in a Dedekind ring, of\nan element having specific valuations at a specific finite set of\nprimes, and nonnegative valuations at all other primes. It is\nessentially a generalization of the Chinese Remainder theorem, as is\nevident from its proof.\n\nLet $A$ be a Dedekind domain with fraction field $K$. Then for any\nfinite set ${\\mathfrak{p}}_1,\\dotsc,{\\mathfrak{p}}_k$ of primes of $A$\nand integers $a_1,\\dotsc,a_k$, there is $x\\in K^{\\star}$ such that\n$\\nu_{{\\mathfrak{p}}_i}((x))=a_i$ and for all other prime ideals\n${\\mathfrak{p}}$, $\\nu_{{\\mathfrak{p}}}((x))\\geq 0$. Here\n$\\nu_{{\\mathfrak{p}}}$ is the ${\\mathfrak{p}}$-adic valuation associated\nwith a prime ideal ${\\mathfrak{p}}$.\n\nAssume first that all $a_i\\geq 0$. By the Chinese Remainder Theorem,\n$$A/{\\mathfrak{p}}_1^{a_1+1}\\times\\cdots A/{\\mathfrak{p}}_k^{a_k+1}\\cong A/{\\mathfrak{p}}_1^{a_1+1}\\cdots{\\mathfrak{p}}_k^{a_k+1}$$\nThus the map\n$$A\\to A/{\\mathfrak{p}}_1^{a_1+1}\\times\\cdots A/{\\mathfrak{p}}_k^{a_k+1}$$\nis surjective. Now choose $x_i\\in p_i^{a_i}, x_i\\notin p_i^{a_i+1}$;\nthis is possible since these two ideals are unequal by unique\nfactorization. Choose $x\\in A$ with image $(x_1,\\dotsc,x_k)$. Clearly\n$\\nu_{{\\mathfrak{p}}_i}((x))=a_i$. But $x\\in A$, so all other valuations\nare nonnegative.\n\nIn the general case, assume wlog that we are given a set\n${\\mathfrak{p}}_1,\\dotsc,{\\mathfrak{p}}_r$ of primes of $A$ and integers\n$a_1,\\dotsc,a_r\\geq 0$, and a set\n${\\mathfrak{q}}_1,\\dotsc,{\\mathfrak{q}}_t$ of primes with integers\n$b_1,\\dotsc,b_t<0$. First choose $y\\in K^{\\star}$ (using the case\nalready proved above) so that $$\\begin{cases}\n    \\nu_{{\\mathfrak{p}}}((y)) = 0    & {\\mathfrak{p}}= {\\mathfrak{p}}_i \\\\\n    \\nu_{{\\mathfrak{p}}}((y)) = -b_i & {\\mathfrak{p}}= {\\mathfrak{q}}_j \\\\\n    \\nu_{{\\mathfrak{p}}}((y)) \\geq 0 & \\text{otherwise}\n  \\end{cases}$$ Now, there are only a finite number of primes\n${\\mathfrak{p}}'_k$ such that ${\\mathfrak{p}}'_k$ is not the same as any\nof the ${\\mathfrak{q}}_j$ and $\\nu_{{\\mathfrak{p}}'_k}((y))>0$. Let\n$\\nu_{{\\mathfrak{p}}'_k}((y)) = c_k>0$. Again using the case proved\nabove, choose $x\\in K^{\\star}$ such that $$\\begin{cases}\n    \\nu_{{\\mathfrak{p}}}((x)) = a_i  & {\\mathfrak{p}}= {\\mathfrak{p}}_i \\\\\n    \\nu_{{\\mathfrak{p}}}((x)) = 0    & {\\mathfrak{p}}= {\\mathfrak{q}}_j \\\\\n    \\nu_{{\\mathfrak{p}}}((x)) = c_k  & {\\mathfrak{p}}= {\\mathfrak{p}}'_k\\\\\n    \\nu_{{\\mathfrak{p}}}((x)) \\geq 0 & \\text{otherwise}\n  \\end{cases}$$ Then $x/y$ is the required element.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeakApproximationTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "weak approximation theorem"
+  ]
+}

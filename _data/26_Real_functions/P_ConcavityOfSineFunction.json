@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The sine function is concave on the interval $[0, \\pi]$.\n\nSuppose that $x$ and $y$ lie in the interval $[0, \\pi/2]$. Then\n$\\sin x$, $\\sin y$, $\\cos x$, and $\\cos y$ are all non-negative.\nSubtracting the identities $$\\sin^2 x + \\cos^2 x = 1$$ and\n$$\\sin^2 y + \\cos^2 y = 1$$ from each other, we conclude that\n$$\\sin^2 x - \\sin^2 y = \\cos^2 y - \\cos^2 x .$$ This implies that\n$\\sin^2 x - \\sin^2 y \\ge 0$ if and only if $\\cos^2 y - \\cos^2 x \\ge 0$,\nwhich is equivalent to stating that $\\sin^2 x \\ge \\sin^2 y$ if and only\nif $\\cos^2 x \\le\n\\cos^2 y$. Taking square roots, we conclude that $\\sin x \\le \\sin y$ if\nand only if $\\cos x \\ge \\cos y$.\n\nHence, we have $$(\\sin x - \\sin y) (\\cos x - \\cos y) \\le 0 .$$ Multiply\nout both sides and move terms to conclude\n$$\\sin x \\cos x + \\sin y \\cos y \\le \\sin x \\cos y + \\sin y \\cos x .$$\nApplying the angle addition and double-angle identities for the sine\nfunction, this becomes\n$${1 \\over 2} \\left( \\sin (2x) + \\sin (2y) \\right) \\le \\sin (x + y) .$$\nThis is equivalent to stating that, for all $u,v \\in [0, \\pi]$,\n$${1 \\over 2} \\left( \\sin u + \\sin v \\right) \\le\n\\sin \\left( {u + v \\over 2} \\right) ,$$ which implies that $\\sin$ is\nconcave in the interval $[0, \\pi]$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConcavityOfSineFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "concavity of sine function"
+  ]
+}

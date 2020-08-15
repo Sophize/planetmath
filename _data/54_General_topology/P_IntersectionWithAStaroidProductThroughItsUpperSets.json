@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Prerequisites: [Algebraic General\nTopology](http://www.mathematics21.org/algebraic-general-topology.html).\n\n[**Conjecture.**]{} Let $\\mathfrak{F}$ is a family of sets of filters on\ndistributive lattices with least elements. Let $a\\in\\prod\\mathfrak{F}$,\n$S\\in\\mathscr{P}\\prod\\mathfrak{F}$ is a generalized filter base,\n$\\bigsqcup S=a$, $f$ is a staroid of the form $\\prod\\mathfrak{F}$. Then\n$$\\prod^{\\operatorname{Strd}(\\mathfrak{F})}a \\not\\asymp f \\Leftrightarrow\n\\forall A\\in S: \\prod^{\\operatorname{Strd}(\\mathfrak{A})}A \\not\\asymp f.$$\n\n(This conjecture may be weakened for the special case of filters on\npowersets.)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntersectionWithAStaroidProductThroughItsUpperSets"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Intersection with a staroid product through its upper sets"
+  ]
+}

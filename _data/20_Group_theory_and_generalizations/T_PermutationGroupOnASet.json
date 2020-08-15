@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *permutation group* on a set $A$ is a subgroup of the symmetric group\n$S_A$.\n\nfact: conjugating stabilizer of an element by permutation produces stabilizer of permuted element {#fact-conjugating-stabilizer-of-an-element-by-permutation-produces-stabilizer-of-permuted-element .unnumbered}\n=================================================================================================\n\n$A$ set\n\n$a\\in A$\n\n$X$ permutation group on $A$\n\n$\\sigma\\in X$\n\n$\\sigma \\mathrm{Stab}_X(a) \\sigma^{-1}=  \\mathrm{Stab}_X(\\sigma(a))$\n\nfact: if a permutation group acts transitively, then the intersection of conjugated stabilizers is the identity {#fact-if-a-permutation-group-acts-transitively-then-the-intersection-of-conjugated-stabilizers-is-the-identity .unnumbered}\n===============================================================================================================\n\n$A$ set\n\n$a\\in A$\n\n$X$ permutation group on $A$\n\n$\\cap_{\\sigma\\in X} \\sigma \\mathrm{Stab}_X(a)=1$\n\n[*Note: This is a \u201cseed\u201d entry written using a short-hand format\ndescribed in .*]{}",
+  "language": "INFORMAL",
+  "phrase": "Permutation Group On A Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PermutationGroupOnASet"
+    }
+  ],
+  "indexable": true
+}

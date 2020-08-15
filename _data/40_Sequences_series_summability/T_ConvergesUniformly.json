@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set, $(Y,\\rho)$ a metric space and $\\{f_n\\}$ a sequence of\nfunctions from $X$ to $Y$, and $f\\colon X\\to Y$ another function.\n\nIf for every $\\varepsilon>0$ there exists an integer $N$ such that\n$$\\rho(f_n(x),f(x))<\\varepsilon$$ for all $x\\in X$ and all $n>N$, then\nwe say that $f_n$ *converges uniformly* to $f$.",
+  "language": "INFORMAL",
+  "phrase": "Converges Uniformly",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvergesUniformly"
+    }
+  ],
+  "indexable": true
+}

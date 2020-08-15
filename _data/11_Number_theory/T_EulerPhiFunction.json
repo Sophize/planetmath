@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Euler totient function",
+    "Euler $\\varphi$ function",
+    "Euler $\\phi$ function"
+  ],
+  "definition": "For any positive integer $n$, $\\varphi(n)$ is the number of positive\nintegers less than or equal to $n$ which are coprime to $n$. The\nfunction $\\varphi$ is known as the *$\\varphi$ function*. This function\nmay also be denoted by $\\phi$.\n\nAmong the most useful of $\\varphi$ are the facts that it is\nmultiplicative (meaning if $\\gcd(a,b)=1$, then\n$\\varphi(ab)=\\varphi(a)\\varphi(b)$) and that $\\varphi(p^k)=p^{k-1}(p-1)$\nfor any prime $p$ and any positive integer $k$. These two facts combined\ngive a numeric computation of $\\varphi$ for all positive integers:\n$$\\begin{aligned}\n\\label{varphi}\n\\varphi(n) & =n \\prod_{p|n} \\left( 1-\\frac{1}{p} \\right).\\end{aligned}$$\nFor example, $$\\begin{aligned}\n\\varphi (2000) & = 2000 \\prod_{p|2000} \\left(1-\\frac{1}{p} \\right) \\\\\n& = 2000 \\left( 1 - \\frac{1}{2} \\right) \\left( 1 - \\frac{1}{5} \\right) \\\\\n& = 2000 \\left( \\frac{1}{2} \\right) \\left( \\frac{4}{5} \\right) \\\\\n& = \\frac{8000}{10} \\\\\n& = 800.\\end{aligned}$$\n\nFrom equation (\\[varphi\\]), it is clear that $\\varphi(n)\\le n$ for any\npositive integer $n$ with equality holding exactly when $n=1$. This is\nbecause $$\\prod_{p|n} \\left( 1-\\frac{1}{p} \\right) \\le 1,$$ with\nequality holding exactly when $n=1$.\n\nAnother important fact about the $\\varphi$ function is that\n$$\\sum_{d|n} \\varphi(d)=n,$$ where the sum extends over all positive\ndivisors of $n$. Also, by definition, $\\varphi(n)$ is the number of\nunits in the ring $\\mathbb{Z}/n\\mathbb{Z}$ of integers modulo $n$.\n\nThe sequence $\\{\\varphi(n)\\}$ appears in the OEIS as sequence .",
+  "language": "INFORMAL",
+  "phrase": "Euler Phi Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulerPhiFunction"
+    }
+  ],
+  "indexable": true
+}

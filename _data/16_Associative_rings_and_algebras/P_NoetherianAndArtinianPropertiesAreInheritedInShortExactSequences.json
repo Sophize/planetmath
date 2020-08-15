@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $M, M', M''$ be $A$-modules and\n$0\\to M'\\overset{\\iota}\\to M\\overset{\\pi}\\to M''\\to 0$ a short exact\nsequence. Then\n\n1.  $M$ is Noetherian if and only if $M'$ and $M''$ are Noetherian;\n\n2.  $M$ is Artinian if and only if $M'$ and $M''$ are Artinian.\n\nFor $\\Leftarrow$, we will need a lemma that essentially says that a\nsubmodule of $M$ is uniquely determined by its image in $M''$ and its\nintersection with $M'$:\n\nIn the situation of the theorem, if $N_1, N_2\\subset M$ are submodules\nwith $N_1\\subset N_2$, $\\pi(N_1) = \\pi(N_2)$, and\n$N_1\\cap\\iota(M') = N_2\\cap\\iota(M')$, then $N_1 = N_2$.\n\nThe proof is essentially a diagram chase. Choose $x\\in N_2$. Then\n$\\pi(x) = \\pi(x')$ for some $x'\\in N_1$, and thus $\\pi(x-x')=0$, so that\n$x-x'\\in\\operatorname{im}\\iota$, and $x-x'\\in N_2$ since\n$N_1\\subset N_2$. Hence\n$x-x'\\in N_2\\cap \\iota(M') = N_1\\cap\\iota(M')\\subset N_1$. Since\n$x'\\in N_1$, it follows that $x\\in N_1$ so that $N_1=N_2$.\n\n($\\Rightarrow$): If $M$ is Noetherian (Artinian), then any ascending\n(descending) chain of submodules of $M'$ (or of $M''$) gives rise to a\nsimilar sequence in $M$, which must therefore terminate. So the original\nchain terminates as well. ($\\Leftarrow$): Assume first that $M', M''$\nare Noetherian, and choose any ascending chain\n$M_1\\subset M_2\\subset\\dots$ of submodules of $M$. Then the ascending\nchain $\\pi(M_1)\\subset\\pi(M_2)\\subset\\dots$ and the ascending chain\n$M_1\\cap\\iota(M')\\subset M_2\\cap\\iota(M')\\subset\\dots$ both stabilize\nsince $M'$ and $M''$ are Noetherian. We can choose $n$ large enough so\nthat both chains stabilize at $n$. Then for $N\\ge n$, we have (by the\nlemma) that $M_N = M_n$ since $\\pi(M_N) = \\pi(M_n)$ and\n$M_N\\cap\\iota(M') = M_n\\cap\\iota(M')$. Thus $M$ is Noetherian. For the\ncase where $M$ is Artinian, an identical proof applies, replacing\nascending chains by descending chains.\n\n[10]{} M.F.\u00a0Atiyah, I.G.\u00a0MacDonald, *Introduction to Commutative\nAlgebra*, Addison-Wesley 1969.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NoetherianAndArtinianPropertiesAreInheritedInShortExactSequences"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Noetherian and Artinian properties are inherited in short exact sequences"
+  ]
+}

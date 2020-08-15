@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A set $X$ is said to be [**closed**]{} under some map $L$, if $L$ maps\nelements in $X$ to elements in $X$, i.e., $L:X\\to X$. More generally,\nsuppose $Y$ is the $n$-fold Cartesian product\n$Y=X\\times \\cdots \\times X$. If $L$ is a map $L:Y\\to X$, then we also\nsay that $X$ is closed under the map $L$.\n\nThe above definition has no relation with the definition of a closed set\nin topology. Instead, one should think of $X$ and $L$ as a closed\nsystem.\n\n### Examples {#examples .unnumbered}\n\n1.  The set of invertible matrices is closed under matrix inversion.\n    This means that the inverse of an invertible matrix is again an\n    invertible matrix.\n\n2.  Let $C(X)$ be the set of complex valued continuous functions on some\n    topological space $X$. Suppose $f,g$ are functions in $C(X)$. Then\n    we define the pointwise product of $f$ and $g$ as the function\n    $fg: x\\mapsto f(x) g(x)$. Since $fg$ is continuous, we have that\n    $C(X)$ is closed under pointwise multiplication.\n\nIn the first example, the operation is of the type $X\\to X$. In the\nlatter, pointwise multiplication is a map $C(X)\\times C(X)\\to C(X)$.\n\nThe second example illustrated the somewhat odd definition of this term.\nWhen a function is defined, its domain and codomain are part of its\ndefinition, so it\u2019s a little odd to talk about whether the function is\nclosed or not: if you know what the function is, then you should know\nwhether or not it is closed. So in practice, the way the term is used is\nthis: We have a set $X$ and we have a function $f\\colon X^n\\to X$. We\nare given a subset $Y$, and asked whether $Y$ is closed under $f$. In\nother words, there is a natural way to make $f$ into a function\n$f\\colon Y^n\\to X$, by restriction; the question is, does the result\nalways lie in $Y$? This would mean that $f$ yields a function\n$Y^n\\to Y$, which is usually what we want.\n\nOccasionally the word is used in a potentially confusing way. For\nexample, left ideals in a ring are supposed to be closed under addition\n(which is an example of what we just discussed) and left multiplication\nby arbitrary ring elements. What this last condition means is that for\nevery $r$ in the ring, the left ideal should be closed under the\nfunction $x\\mapsto rx$.",
+  "language": "INFORMAL",
+  "phrase": "Set Closed Under An Operation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SetClosedUnderAnOperation"
+    }
+  ],
+  "indexable": true
+}

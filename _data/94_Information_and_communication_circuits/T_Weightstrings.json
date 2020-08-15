@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "weight"
+  ],
+  "definition": "Let $A$ be an alphabet, $a\\in A$ a letter from $A$ and $c\\in A^*$ a\nstring over $a$. Then the $a$-*weight* of $c$, denoted by\n$\\operatorname{wt}_a(c)$, is the number of times $a$ occurs in $c$.\n\nIf $A$ is an abelian group, the *Hamming weight* $\\operatorname{wt}(c)$\nof $c$ (no ), often simply referred to as \u201cweight\u201d, is the number of\nnonzero letters in $c$.\n\n### Examples {#examples .unnumbered}\n\n-   Let $A=\\{x,y,z\\}$. In the string $c:=yxxzyyzxyzzyx$, $y$ occurs $5$\n    times, so the $y$-weight $\\operatorname{wt}_y(c)=5$.\n\n-   Let $A={\\mathbb}{Z}_3=\\{0,1,2\\}$ (an abelian group) and\n    $c:=002001200$. Then $\\operatorname{wt}_0(c)=6$,\n    $\\operatorname{wt}_1(c)=1$, $\\operatorname{wt}_2(c)=2$ and\n    $\\operatorname{wt}(c)=\\operatorname{wt}_1(c)+\\operatorname{wt}_2(c)=3$.",
+  "language": "INFORMAL",
+  "phrase": "Weight (Strings)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Weightstrings"
+    }
+  ],
+  "indexable": true
+}

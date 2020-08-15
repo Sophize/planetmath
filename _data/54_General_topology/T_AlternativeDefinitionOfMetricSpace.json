@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definition\n==========\n\nThe notion of *metric space* may be defined in a way which makes use\nonly of rational numbers as opposed to real numbers. To avoid mention of\nreal numbers we take a three place relation as our primitive term\ninstead of the distance function. Thus, one can use this definition to\ndefine the set of real numbers as the completion of the set of rational\nnumbers as a metric space. Let $\\mathbb{Q}_+$ denote the set of strictly\npositive rational numbers\n\nA *metric space* consists of a set $X$ and a relation\n$D \\subset X \\times X \\times \\mathbb{Q}_+$ which satisfies the following\nproperties:\n\n1.  For all $x,y \\in X$, it is the case that $D(x,y,r)$ for all\n    $r \\in \\mathbb{Q}_+$ if and only if $x = y$.\n\n2.  For all $x,y \\in X$ and all $r \\in \\mathbb{Q}_+$, it is the case\n    that $D(x,y,r)$ if and only if $D(y,x,r)$.\n\n3.  For all $x,y \\in X$ and all $r,s \\in \\mathbb{Q}_+$, if $r \\le s$ and\n    $D(x,y,r)$ then $D(x,y,s)$.\n\n4.  For all $x,y,z \\in X$ and all $r,s \\in \\mathbb{Q}_+$, if $D(x,y,r)$\n    and $D(y,z,s)$, then $D(x,z,r+s)$.\n\nEquivalence with usual definition\n=================================\n\nThe definition presented above is equivalent to the definition presented\nin . This equivalence is given by the following equations which relate\nthe primitive term \u201c$D$\u201d used in this definition with the primitive term\n\u201c$d$\u201d of the previous definition: $$d(x,y) = \\inf \\{r \\mid D(x,y,r) \\}$$\n$$D(x,y,r) \\leftrightarrow d(x,y) \\le r$$",
+  "language": "INFORMAL",
+  "phrase": "Alternative Definition Of Metric Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternativeDefinitionOfMetricSpace"
+    }
+  ],
+  "indexable": true
+}

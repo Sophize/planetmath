@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "M\\\"obius band"
+  ],
+  "definition": "A *M\u00f6bius strip* is a non-orientiable 2-dimensional surface with a\n1-dimensional boundary. It can be embedded in $\\mathbb{R}^3$, but only\nhas a single .\n\nWe can parameterize the M\u00f6bius strip by\n$$x = r \\cdot \\cos{\\theta}, \\quad y = r \\cdot \\sin{\\theta}, \\quad z =\n(r-2)\\tan{\\frac{\\theta}{2}}.$$ The M\u00f6bius strip is therefore a subset of\nthe solid torus.\n\nTopologically, the M\u00f6bius strip is formed by taking a quotient space of\n$I^2 = [0,1] \\times [0,1] \\subset \\mathbb{R}^2$. We do this by first\nletting $M$ be the partition of $I^2$ formed by the equivalence\nrelation:\n$$(1,x) \\sim (0,1-x)\\quad \\mbox{where} \\quad 0 \\leq x \\leq 1,$$ and\nevery other point in $I^2$ is only related to itself.\n\nBy giving $M$ the quotient topology given by the quotient map\n$p: I^2 \\to  M$ we obtain the M\u00f6bius strip.\n\nSchematically we can represent this identification as follows:\n\n![image](mobius-2)\\\n\nSince the M\u00f6bius strip is homotopy equivalent to a circle, it has\n$\\mathbb{Z}$\u00a0as its fundamental group. It is not however, homeomorphic\nto the circle, although its boundary is.",
+  "language": "INFORMAL",
+  "phrase": "M\\\"Obius Strip",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MobiusStrip"
+    }
+  ],
+  "indexable": true
+}

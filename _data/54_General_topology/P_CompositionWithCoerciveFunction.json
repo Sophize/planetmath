@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $X,Y,Z$ are topological spaces, $f\\colon X\\to Y$ is a bijective\nproper map, and $g\\colon Y\\to Z$ is a coercive map. Then\n$g\\circ f\\colon X\\to Z$ is a coercive map.\n\nLet $J\\subseteq Z$ be a compact set. As $g$ is coercive, there is a\ncompact set $K\\subseteq Y$ such that\n$$g(Y\\setminus K) \\subseteq Z\\setminus J.$$ Let $I=f^{-1}(K)$, and since\n$f$ is a proper map $I$ is compact. Thus\n$$(g\\circ f) (X\\setminus I) = g(Y\\setminus K) \\subseteq Z\\setminus J$$\nand $g\\circ f$ is coercive.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompositionWithCoerciveFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "composition with coercive function"
+  ]
+}

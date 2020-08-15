@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "weak-* topology",
+    "weak-$*$ topology",
+    "weak-star topology"
+  ],
+  "definition": "Let $X$ be a locally convex topological vector space (over $\\mathbb{C}$\nor $\\mathbb{R}$), and let $X^*$ be the set of continuous linear\nfunctionals on $X$ (the continuous dual of $X$). If $f \\in X^*$ then let\n$p_{f}$ denote the seminorm $p_f(x) = \\lvert f(x) \\rvert$, and let\n$p_x(f)$ denote the seminorm $p_x(f) = \\lvert f(x) \\rvert$. Obviously\nany normed space is a locally convex topological vector space so $X$\ncould be a normed space.\n\nThe topology on $X$ defined by the seminorms $\\{ p_f \\mid f \\in X^* \\}$\nis called the [*weak topology*]{} and the topology on $X^*$ defined by\nthe seminorms $\\{ p_x \\mid x \\in X \\}$ is called the [*weak-$*$\ntopology*]{}.\n\nThe weak topology on $X$ is usually denoted by $\\sigma(X,X^*)$ and the\nweak-$*$ topology on $X^*$ is usually denoted by $\\sigma(X^*,X)$.\nAnother common notation is $(X,wk)$ and $(X^*,wk-*)$\n\nTopology defined on a space $Y$ by seminorms $p_\\iota$, $\\iota \\in I$\nmeans that we take the sets $\\{ y \\in Y \\mid p_\\iota(y) < \\epsilon \\}$\nfor all $\\iota \\in I$ and $\\epsilon > 0$ as a subbase for the topology\n(that is finite intersections of such sets form the basis).\n\nThe most striking result about weak-$*$ topology is the Alaoglu\u2019s\ntheorem which asserts that for $X$ being a normed space, a closed ball\n(in the operator norm) of $X^*$ is weak-$*$ compact. There is no similar\nresult for the weak topology on $X$, unless $X$ is a reflexive space.\n\nNote that $X^*$ is sometimes used for the algebraic dual of a space and\n$X'$ is used for the continuous dual. In functional analysis $X^*$\nalways means the continuous dual and hence the term [*weak-$*$\ntopology*]{}.\n\n[9]{} John B. Conway. [**]{}, Springer-Verlag, New York, New York, 1990.",
+  "language": "INFORMAL",
+  "phrase": "Weak-* Topology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeakTopology"
+    }
+  ],
+  "indexable": true
+}

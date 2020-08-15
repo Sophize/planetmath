@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X_1,X_2,\\dots$ be a sequence of independent random variables, with\nfinite expectations. The strong law of large numbers holds if one of the\nfollowing conditions is satisfied:\n\n1.  The random variables are identically distributed;\n\n2.  For each $n$, the variance of $X_n$ is finite, and\n    $$\\sum_{n=1}^\\infty \\frac{\\operatorname{Var}[X_n]}{n^2} <\\infty.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KolmogorovsStrongLawOfLargeNumbers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kolmogorov's strong law of large numbers",
+    "Kolmogorov's criterion"
+  ]
+}

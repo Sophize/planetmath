@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A strictly diagonally dominant matrix is non-singular. In other words,\nlet $A\\in\\mathbf{C}^{n,n}$ be a matrix satisfying the property\n$$\\left|a_{ii}\\right|>\\sum_{j\\ne i}\\left|a_{ij}\\right|\\qquad \\forall i;$$\nthen $\\det(A)\\ne 0$.\n\nProof: Let $\\det(A)=0$; then a non-zero vector $\\mathbf{x}$ exists such\nthat $A\\mathbf{x}=\\mathbf{0}$; let $M$ be the index such that\n$\\left|x_M\\right|=\\max(\\left|x_1\\right|,\\left|x_2\\right|,\\cdots,\\left|x_n\\right|)$,\nso that $\\left|x_j\\right|\\leq\\left|x_M\\right|\\quad \\forall j$; we have\n\n$a_{M1}x_1+a_{M2}x_2+\\cdots+a_{MM}x_M+\\cdots+a_{Mn}x_n=0$\n\nwhich implies:\n\n$\\left|a_{MM}\\right|\\left|x_M\\right|=\\left|a_{MM}x_M\\right|=\\left|\\sum_{j\\ne M}a_{Mj}x_j\\right|\\leq\\sum_{j\\ne M}\\left|a_{Mj}\\right|\\left|x_j\\right|\\leq\\left|x_M\\right|\\sum_{j\\ne M}\\left|a_{Mj}\\right|$\n\nthat is\n\n$\\left|a_{MM}\\right|\\leq\\sum_{j\\ne M}\\left|a_{Mj}\\right|,$\n\nin contrast with strictly diagonally dominance definition.$\\square$\n\nRemark: the Levy-Desplanques theorem is equivalent to the well-known\nGerschgorin circle theorem. In fact, let\u2019s assume Levy-Desplanques\ntheorem is true, and let $A$ a $n\\times n$ complex-valued matrix, with\nan eigenvalue $\\lambda$; let\u2019s apply Levy-Desplanques theorem to the\nmatrix $B=A-\\lambda I$, which is singular by definition of eigenvalue:\nan index $i$ must exist for which\n$\\left|a_{ii}-\\lambda\\right|=\\left|b_{ii}\\right|\\leq\\sum_{j\\ne i}^n \\left|b_{ij}\\right|=\\sum_{j\\ne i}^n \\left|a_{ij}\\right|$,\nwhich is Gerschgorin circle theorem. On the other hand, let\u2019s assume\nGerschgorin circle theorem is true, and let $A$ be a strictly diagonally\ndominant $n\\times n$ complex matrix. Then, since the absolute value of\neach disc center $\\left|a_{ii}\\right|$ is strictly greater than the same\ndisc radius $\\sum_{j\\ne i}^n \\left|a_{ij}\\right|$, the point $\\lambda=0$\ncan\u2019t belong to any circle, so it doesn\u2019t belong to the spectrum of $A$,\nwhich therefore can\u2019t be singular.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LevyDesplanquesTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Levy-Desplanques theorem"
+  ]
+}

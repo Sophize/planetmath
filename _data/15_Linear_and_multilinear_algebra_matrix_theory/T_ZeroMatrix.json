@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The $n \\times m$ *zero* $O$ over a ring $R$ is the $n \\times m$ matrix\nwith coefficients in $R$ given by\n\n$$O = \n \\begin{bmatrix}\n 0 & \\cdots & 0 \\\\\n \\vdots &  \\ddots & \\vdots \\\\\n 0 & \\cdots &  0 \\\\\n \\end{bmatrix},$$\n\nwhere 0 is the in $R$.\n\n### Properties\n\nThe zero matrix is the additive identity in the ring of $n\\times n$\nmatrices over $R$. This is an alternative definition of $O$ (since\nthere\u2019s ).\n\nThe $n\\times n$ zero matrix $O$ has the following properties:\n\n-   The determinant of $O$ is $\\det O = 0$, and its trace is\n    $\\operatorname{tr}O = 0$.\n\n-   $O$ has only one eigenvalue $\\lambda =0$ of multiplicity $n$. Any\n    non-zero vector is an eigenvector of $O$, so if we\u2019re looking for a\n    basis of eigenvectors, we could pick the standard basis\n    $e_1=(1,0,\\ldots, 0), \\ldots , e_n=(0,\\ldots, 0,1)$.\n\n-   The matrix exponential of $O$ is $e^O = I$, the $n\\times n$ identity\n    matrix.",
+  "language": "INFORMAL",
+  "phrase": "Zero Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZeroMatrix"
+    }
+  ],
+  "indexable": true
+}

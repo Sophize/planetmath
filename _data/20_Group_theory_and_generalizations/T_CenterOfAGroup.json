@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "center",
+    "centre"
+  ],
+  "definition": "The *center* of a group $G$ is the subgroup consisting of those elements\nthat commute with every other element. Formally,\n$$\\operatorname{Z}(G) = \\{x \\in G \\mid xg = gx\\hbox{ for all }g \\in G\\}.$$\n\nIt can be shown that the center has the following properties:\n\n-   It is a normal subgroup (in fact, a characteristic subgroup).\n\n-   It consists of those conjugacy classes containing just one element.\n\n-   The center of an abelian group is the entire group.\n\n-   For every prime $p$, every non-trivial finite has a non-trivial\n    center. ()\n\nA subgroup of the center of a group $G$ is called a *central subgroup*\nof $G$. All central subgroups of $G$ are normal in $G$.\n\nFor any group $G$, the $G/\\operatorname{Z}(G)$ is called the *central\nquotient* of $G$, and is isomorphic to the inner automorphism group\n$\\operatorname{Inn}(G)$.",
+  "language": "INFORMAL",
+  "phrase": "Center Of A Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CenterOfAGroup"
+    }
+  ],
+  "indexable": true
+}

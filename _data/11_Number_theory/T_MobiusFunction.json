@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Moebius function"
+  ],
+  "definition": "The [*M\u00f6bius function*]{} of number theory is the function\n$\\mu:\\mathbb{Z}^+\\to\\{-1,0,1\\}$ defined by $$\\mu (n) = \n\\begin{cases}\n1, &\\text{if $n=1$}\\\\\n0, &\\text{if $p^2 | n$ for some prime $p$} \\\\\n(-1)^r, &\\text{if $n = p_1 p_2 \\cdots p_r$, where the $p_i$ are distinct primes.}\n\\end{cases}$$\n\nIn other words, $\\mu (n) = 0$ if $n$ is not a square-free integer, while\n$\\mu (n) = (-1)^r$ if $n$ is square-free with $r$ prime factors. The\nfunction $\\mu$ is a multiplicative function, and obeys the identity\n$$\\sum_{d | n} \\mu(d) = \n\\begin{cases}\n1 & \\text{if $n = 1$}\\\\\n0 & \\text{if $n > 1$}\n\\end{cases}$$ where $d$ runs through the positive divisors of $n$.",
+  "language": "INFORMAL",
+  "phrase": "M\\\"Obius Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MobiusFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "m-system"
+  ],
+  "definition": "Let $R$ be a ring. A subset $S$ of $R$ is called an $m$-[*system*]{} if\n\n-   $S\\ne \\varnothing$, and\n\n-   for every two elements $x,\\,y\\in S$, there is an element $r\\in R$\n    such that $xry\\in S$.\n\n$m$-Systems are a generalization of multiplicatively closet subsets in a\nring. Indeed, every multiplicatively closed subset of $R$ is an\n$m$-system: any $x,y\\in S$, then $xy\\in S$, hence $xyy \\in S$. However,\nthe converse is not true. For example, the set\n$$\\lbrace r^n\\mid r\\in R \\mbox{ and } n \\mbox{ is an odd positive integer}\\rbrace$$\nis an $m$-system, but not multiplicatively closed in general (unless,\nfor example, if $r=1$).\n\n**Remarks**. $m$-Systems and prime ideals of a ring are intimately\nrelated. Two basic relationships between the two notions are\n\n1.  An ideal $P$ in a ring $R$ is a prime ideal iff $R-P$ is an\n    $m$-system.\n\n    $P$ is prime iff $xRy\\subseteq P$ implies $x$ or $y\\in P$, iff\n    $x,y\\in R-P$ implies that there is $r\\in R$ with $xry\\notin P$ iff\n    $R-P$ is an $m$-system.\n\n2.  Given an $m$-system $S$ of $R$ and an ideal $I$ with\n    $I\\cap S=\\varnothing$. Then there exists a prime ideal\n    $P\\subseteq R$ with the property that $P$ contains $I$ and\n    $P\\cap S = \\varnothing$, and $P$ is the largest among all ideals\n    with this property.\n\n    Let $\\mathcal{C}$ be the collection of all ideals containing $I$ and\n    disjoint from $S$. First, $I\\in \\mathcal{C}$. Second, any chain $K$\n    of ideals in $\\mathcal{C}$, its union $\\bigcup K$ is also in\n    $\\mathcal{C}$. So Zorn\u2019s lemma applies. Let $P$ be a maximal element\n    in $\\mathcal{C}$. We want to show that $P$ is prime. Suppose\n    otherwise. In other words, $aRb\\subseteq P$ with $a,b\\notin P$. Then\n    $\\langle P,a\\rangle$ and $\\langle P,b\\rangle$ both have non-empty\n    intersections with $S$. Let\n    $$c=p+fag \\in \\langle P,a\\rangle \\cap S\\quad \\mbox{ and }\\quad d=q+hbk \\in \\langle P,b\\rangle \\cap S,$$\n    where $p,q\\in P$ and $f,g,h,k\\in R$. Then there is $r\\in R$ such\n    that $crd\\in S$. But this implies that\n    $$crd = (p+fag)r(q+hbk)= p(rq+rhbk)+(fagr)q+f\\big(a(grh)b\\big)k \\in P$$\n    as well, contradicting $P\\cap S=\\varnothing$. Therefore, $P$ is\n    prime.\n\n$m$-Systems are also used to define the non-commutative version of the\nradical of an ideal of a ring.",
+  "language": "INFORMAL",
+  "phrase": "$M$-System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Msystem"
+    }
+  ],
+  "indexable": true
+}

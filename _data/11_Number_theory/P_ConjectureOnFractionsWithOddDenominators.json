@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Egyptian fractions raise many open problems; this is one of the most\nfamous of them.\n\nSuppose we wish to write fractions as sums of distinct unit fractions\n*with odd denominators*. Obviously, every such sum will have a reduced\nrepresentation with an odd denominator.\n\nFor instance, the greedy algorithm applied to $\\frac{2}{7}$ gives\n$\\frac{1}{4}+\\frac{1}{28}$, but we may also write $\\frac{2}{7}$ as\n$\\frac{1}{7}+\\frac{1}{9}+\\frac{1}{35}+\\frac{1}{315}$.\n\nIt is known that we can we represent *every* rational number with odd\ndenominator as a sum of distinct unit fractions with odd denominators.\n\nHowever it is not known whether the works when limited to odd\ndenominators.\n\nFor any fraction $0\\le \\frac{a}{2k+1} < 1$ with odd denominator, if we\nrepeatedly subtract the largest unit fraction with odd denominator that\nis smaller than our fraction, we will eventually reach 0.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConjectureOnFractionsWithOddDenominators"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "conjecture on fractions with odd denominators"
+  ]
+}

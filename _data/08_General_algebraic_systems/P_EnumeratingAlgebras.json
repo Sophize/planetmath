@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "How many algebras are there?\n============================\n\nUnlike categories of discrete objects, such as simple graphs with $n$\nvertices, (see ) such a question is a little malposed as the quantity\ncan be infinite. However the spirit of the question can be addressed by\nappealing to algebraic varieties and considering their dimension.\n\nLet $A$ be an non-associative algebra over a field $k$ of dimension $n$.\nFor example, $A$ could be a Lie algebra, an associative algebra, or a\ncommutative algebra.\n\nFrom every basis $e_1,\\dots, e_n$ for $A$, the addition of the algebra\nis completely understood as all $n$-dimensional $k$-vector spaces are\nisomorphic. Thus we must consider only the multiplication. For this the\nstructure constants of the algebra are considered. That is:\n$$e_i e_j = \\sum_{k=1}^n c^k_{ij} e_k$$ for $c^k_{ij}\\in k$. These\nstructure constants completely define the algebra $A$.\n\nDue to the axioms of multiplication, the structure constants satisfy\ncertain relations. For example, if $A$ is a Lie algebra then\nmultiplication is via the associated Lie bracket and we know\n$$[e_i,e_i]=0$$ Hence we find $$c^k_{ii}=0$$ for all $1\\leq i\\leq n$.\nLikewise the Jacobi identity/associativity/commutative conditions each\nimply their particular relations. If one replaces the structure\nconstants with variables $x_{ijk}$ we find that each algebra $A$ of a\ngiven type (Lie/Associative/Commutative/etc.) is a solution to the\npolynomial equations given by the relations of the algebra. Thus the\nalgebras themselves are parameterized by the algebraic variety, in\n$n^3$-dimensional affine space, of these equations.\n\nThe dimension of the algebraic variety for $n$-dimensional Lie algebras,\nassociative algebras, and commutative algebras is respectively\n$$\\frac{2}{27}n^3 + O(n^{8/3}), \\quad \\frac{4}{27}n^3 + O(n^{8/3}),$$\n$$\\textnormal{ and }    \\frac{2}{27}n^3 + O(n^{8/3}).$$\n\nLower bounds of $\\frac{2}{27}n^3+O(n^2)$ (and/or $\\frac{4}{27}+O(n^2)$)\nare attainable by exhibiting large families of algebras. For example,\nclass 2 nilpotent Lie algebras attain the lower bound.\n\nAs with the related problems for $p$-groups, it is also expected that\nthe true upper bound has error term $O(n^2)$ \\[Neretin,Sims\\].\n\nNeretin, Yu. A., *An estimate for the number of parameters defining an\n[$n$]{}-dimensional algebra*, Izv. Akad. Nauk SSSR Ser. Mat., vol.\n51,1987, no. 2, pp. 306\u2013318, 447.\\\nMann, Avinoam, *Some questions about [$p$]{}-groups*, J. Austral. Math.\nSoc. Ser. A, vol. 67, 1999, no. 3, pp. 356\u2013379.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EnumeratingAlgebras"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "enumerating algebras"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An [*affine variety*]{} over an algebraically closed field $k$ is a\nsubset of some affine space $k^n$ over $k$ which can be described as the\nvanishing set of finitely many polynomials in $n$ variables with\ncoefficients in $k$, and which cannot be written as the union of two\nsmaller such sets.\n\nFor example, the locus described by $Y - X^2 = 0$ as a subset of\n$\\mathbb{C}^2$ is an affine variety over the complex numbers. But the\nlocus described by $YX = 0$ is not (as it is the union of the loci\n$X = 0$ and $Y = 0$).\n\nOne can define a subset of affine space $k^n$ or an affine variety in\n$k^n$ to be *closed* if it is a subset defined by the vanishing set of\nfinitely many polynomials in $n$ variables with coefficients in $k$. The\nclosed subsets then actually satisfy the requirements for closed sets in\na topology, so this defines a topology on the affine variety known as\nthe Zariski topology. The definition above has the extra condition that\nan affine variety not be the union of two closed subsets, i.e. it is\nrequired to an irreducible topological space in the Zariski topology.\nAnything then satisfying the definition without possibly the\nirreducibility is known as an (affine) algebraic set.\n\nA [*quasi-affine variety*]{} is then an open set (in the Zariski\ntopology) of an affine variety.\n\nNote that some geometers do not require what they call a variety to be\nirreducible, that is they call algebraic sets varieties. The most\nprevalent definition however requires varieties to be irreducible.\n\n[9]{} Hartshorne, Robin. *Algebraic Geometry*, Graduate Texts in\nMathematics, Number 52. Springer-Verlag, New York, NY. 1977",
+  "language": "INFORMAL",
+  "phrase": "Affine Variety",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AffineVariety"
+    }
+  ],
+  "indexable": true
+}

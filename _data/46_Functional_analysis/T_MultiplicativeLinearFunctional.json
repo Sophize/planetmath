@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "character (of an algebra)"
+  ],
+  "definition": "Definition\n==========\n\nLet $\\mathcal{A}$ be an algebra over $\\mathbb{C}$.\n\nA [**multiplicative linear functional**]{} is an nontrivial algebra\nhomomorphism $\\phi :\\mathcal{A} \\longrightarrow\n \\mathbb{C}$, i.e. $\\phi$ is a non-zero linear functional such that\n$\\;\\phi(x\\cdot y) = \\phi(x)\\cdot\\phi(y), \\;\\;\\;\\forall x,y \\in \\mathcal{A}$.\n\nMultiplicative linear functionals are also called [**characters**]{} of\n$\\mathcal{A}$.\n\nProperties\n==========\n\n-   If $\\phi$ is a multiplicative linear functional in a Banach algebra\n    $\\mathcal{A}$ over $\\mathbb{C}$ then $\\phi$ is continuous. Moreover,\n    if $\\mathcal{A}$ has an identity element then $\\|\\phi\\| = 1$.\n\n<!-- -->\n\n-   Suppose $\\mathcal{A}$ is a Banach algebra over $\\mathbb{C}$. The set\n    of multiplicative linear functionals in $\\mathcal{A}$ is a locally\n    compact Hausdorff space in the weak-\\* topology. Moreover, this set\n    is compact if $\\mathcal{A}$ has an identity element.\n\n<!-- -->\n\n-   Suppose $\\mathcal{A}$ is a commutative Banach algebra over\n    $\\mathbb{C}$ with an identity element. There is a bijective\n    correspondence between the set of maximal ideals in $\\mathcal{A}$\n    and the set of multiplicative linear functionals in $\\mathcal{A}$.\n    This correspondence is given by\n\n    $$\\phi \\longmapsto Ker\\; \\phi$$\n\n<!-- -->\n\n-   Suppose $\\mathcal{A}$ is a commutative . Multiplicative linear\n    functionals in $\\mathcal{A}$ are exactly the of $\\mathcal{A}$.\n\nCharacter space of a Banach algebra\n===================================\n\nAs stated above, the set of all multiplicative linear functionals in a\nBanach algebra $\\mathcal{A}$ is a locally compact Hausdorff space with\nthe weak-\\* topology. It becomes a compact set if $\\mathcal{A}$ has an\nidentity element.\n\nThere are several designations for this space, such as: the [****]{} of\n$\\mathcal{A}$, the [**maximal ideal space**]{}, the [**character\nspace**]{}.\n\nExamples\n========\n\n-   Let $X$ be a topological space and $C(X)$ the algebra of continuous\n    functions $X \\longrightarrow \\mathbb{C}$. Every point evaluation is\n    a multiplicative linear functional of $C(X)$. In other words, for\n    every point $x \\in X$, the function $$\\begin{aligned}\n    ev_x : C(X) \\longrightarrow \\mathbb{C}\\\\\n    ev_x ( f) = f(x)\\end{aligned}$$ that gives the evaluation in $x$, is\n    a multiplicative linear functional of $C(X)$.",
+  "language": "INFORMAL",
+  "phrase": "Multiplicative Linear Functional",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplicativeLinearFunctional"
+    }
+  ],
+  "indexable": true
+}

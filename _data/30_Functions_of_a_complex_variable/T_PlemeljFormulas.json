@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\psi(\\zeta)$ be a density function of a complex variable satisfying\nthe H\u00f6lder condition (the Lipschitz condition of order $\\alpha$)[[^1]]{}\non a smooth closed contour $C$ in the integral $$\\begin{aligned}\n\\Psi(z)=\\frac{1}{2\\pi i}\\int_C\\frac{\\psi(\\zeta)}{\\zeta-z}d\\zeta,\\end{aligned}$$\nthen the limits $\\Psi^+(t)$ and $\\Psi^-(t)$ as $z$ approaches an\narbitrary point $t$ on $C$ from the interior and the exterior of $C$,\nrespectively, are $$\\begin{aligned}\n\\left\\{ \\begin{array}{ll}\n\\Psi^+(t) \\equiv \\frac{1}{2}\\psi(t)+\n\\frac{1}{2\\pi i}\\int_C\\frac{\\psi(\\zeta)}{\\zeta-t}d\\zeta, \\\\ \n\\Psi^-(t) \\equiv -\\frac{1}{2}\\psi(t)+\n\\frac{1}{2\\pi i}\\int_C\\frac{\\psi(\\zeta)}{\\zeta-t}d\\zeta.\n\\end{array}\n\\right.\\end{aligned}$$ These are the Plemelj[@cite:Plemelj] formulas\n[[^2]]{} and the improper integrals in (2) must be interpreted as\nCauchy\u2019s principal values.\n\n[99]{} J. Plemelj, [*Monatshefte f\u00fcr Mathematik und Physik,*]{} vol. 19,\npp. 205- 210, 1908. N. I. Muskhelishvili, [*Singular Integral\nEquations,*]{} Groningen: Noordhoff (based on the second Russian edition\npublished in 1946), 1953.\n\n[^1]: A function $f(\\zeta)$ satisfies the H\u00f6lder condition on a smooth\n    curve $C$ if for every $\\zeta_1,\\zeta_2\\in C$\n    $|f(\\zeta_2)-f(\\zeta_1)|\\leq M|\\zeta_2-\\zeta_1|^\\alpha$, $M>0$,\n    $0<\\alpha\\leq 1$. It is clear that the H\u00f6lder condition is a weaker\n    restriction than a bounded derivative for $f(\\zeta)$.\n\n[^2]: cf.[@cite:Musk], where restrictions that Plemelj made, were\n    relaxed.",
+  "language": "INFORMAL",
+  "phrase": "Plemelj Formulas",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PlemeljFormulas"
+    }
+  ],
+  "indexable": true
+}

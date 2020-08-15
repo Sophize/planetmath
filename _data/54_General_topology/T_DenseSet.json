@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "dense subset",
+    "everywhere dense set",
+    "everywhere dense subset",
+    "everywhere-dense set",
+    "everywhere-dense subset"
+  ],
+  "definition": "A subset $D$ of a topological space $X$ is said to be *dense* (or\n*everywhere dense*) in $X$ if the closure of $D$ is equal to $X$.\nEquivalently, $D$ is dense if and only if $D$ intersects every nonempty\nopen set.\n\nIn the special case that $X$ is a metric space with metric $d$, then\nthis can be rephrased as: for all $\\varepsilon > 0$ and all $x\\in X$\nthere is $y\\in D$ such that $d(x,y)<\\varepsilon$.\n\nFor example, both the rationals $\\mathbb{Q}$ and the irrationals\n$\\mathbb{R} \\setminus \\mathbb{Q}$ are dense in the reals $\\mathbb{R}$.\n\nThe least cardinality of a dense set of a topological space is called\nthe *density* of the space. It is conventional to take the density to be\n$\\aleph_0$ if it would otherwise be finite; with this convention, the\nspaces of density $\\aleph_0$ are precisely the separable spaces. The\ndensity of a topological space $X$ is denoted $d(X)$. If $X$ is a\nHausdorff space, it can be shown that $|X| \\le 2^{2^{d(X)}}$.",
+  "language": "INFORMAL",
+  "phrase": "Dense Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DenseSet"
+    }
+  ],
+  "indexable": true
+}

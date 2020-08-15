@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $H$ be a bialgebra. A **right $H$-comodule algebra** is a unital\nalgebra $A$ which is a right $H$-comodule satisfying\n$$t(ab) = t(a)t(b) = \\sum a_{(1)}b_{(1)} \\otimes a_{(2)}b_{(2)}, \\quad\nt({\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_A) = {\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_A\\otimes{\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_H,$$\nfor all $h \\in H$ and $a,b \\in A$.\n\nThere is a dual notion of a $H$-module coalgebra.\n\nLet $H$ be a bialgebra. Then $H$ is itself a $H$-comodule algebra for\nthe right regular coaction $t(h) = \\Delta(h)$.",
+  "language": "INFORMAL",
+  "phrase": "Comodule Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComoduleAlgebra"
+    }
+  ],
+  "indexable": true
+}

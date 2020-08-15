@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be an associative, finite-dimensional algebra over a field $k$.\nThroughout all modules are finite-dimensional.\n\nA right $A$-module $T$ is called a **partial tilting module** if the\nprojective dimension of $T$ is at most $1$ ($\\mathrm{pd}T\\leqslant 1$)\nand $\\mathrm{Ext}^1_A(T,T)=0$.\n\nRecall that if $M$ is an $A$-module, then by $\\mathrm{add}M$ we denote\nthe class of all $A$-modules which are direct sums of direct summands of\n$M$. Since Krull-Schmidt Theorem holds in the category of\nfinite-dimensional $A$-modules, then this means, that if\n$$M=E_1\\oplus\\cdots\\oplus E_n$$ for some indecomposable modules $E_i$,\nthen $\\mathrm{add}M$ consists of all modules which are isomorphic to\n$$E_1^{a_1}\\oplus\\cdots\\oplus E_n^{a_n}$$ for some nonnegative integers\n$a_1,\\ldots, a_n$.\n\nA partial tiliting module $T$ is called a **tilting module** if there\nexists a short exact sequence\n$$0 \\rightarrow A \\rightarrow T' \\rightarrow T'' \\rightarrow 0$$ such\nthat both $T',T''\\in\\mathrm{add}T$. Here we treat the algebra $A$ is a\nright module via multiplication.\n\nNote that every projective module is partial tilting. Also a projective\nmodule $P$ is tilting if and only if every indecomposable direct summand\nof $A$ is a direct summand of $P$.",
+  "language": "INFORMAL",
+  "phrase": "(Partial) Tilting Module",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/partialTiltingModule"
+    }
+  ],
+  "indexable": true
+}

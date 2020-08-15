@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The Jacobi identity in a Lie algebra $\\mathfrak{g}$ has various\ninterpretations that are more transparent, whence easier to remember,\nthan the usual form $$[x,[y,z]]+[y,[z,x]]+[z,[x,y]]=0.$$ One is the fact\nthat the adjoint representation [^1]\n${\\operatorname{ad}}:\\mathfrak{g} \\rightarrow \\mathfrak{gl}(\\mathfrak{g})$\nreally is a representation. Yet another way to formulate the identity is\n$${\\operatorname{ad}}(x)[y,z]=[{\\operatorname{ad}}(x)y,z]+[y,{\\operatorname{ad}}(x)z],$$\ni.e., ${\\operatorname{ad}}(x)$ is a derivation on $\\mathfrak{g}$ for all\n$x \\in \\mathfrak{g}$.\n\n[^1]: Here, \u201c$\\mathfrak{gl}(\\mathfrak{g})$\u201d means the space o\n    endomorphisms of $\\mathfrak{g}$, viewed as a vector space, with Lie\n    bracket on $\\mathfrak{gl}(\\mathfrak{g})$being commutator.",
+  "language": "INFORMAL",
+  "phrase": "Jacobi Identity Interpretations",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JacobiIdentityInterpretations"
+    }
+  ],
+  "indexable": true
+}

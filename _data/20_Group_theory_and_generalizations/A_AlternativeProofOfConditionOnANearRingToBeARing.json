@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $(R,+,\\cdot)$ be a near ring with a multiplicative identity $1$ such\nthat the $\\cdot$ also left distributes over $+$; that is,\n$c\\cdot (a+b)=c\\cdot a+c\\cdot b$. Then $R$ is a ring.\n\nAll that needs to be verified is commutativity of $+$.\n\nLet $a,b\\in R$. Consider the expression $(1+1)(a+b)$.\n\nWe have:\n\n$$\\begin{aligned}\n{2}\n(1+1)(a+b) &=(1+1)a+(1+1)b & \\quad \\qquad \\text{by left distributivity} \\\\\n&=1a+1a+1b+1b & \\quad \\qquad \\text{by right distributivity} \\\\\n&=a+a+b+b & \\quad \\qquad \\text{since } 1 \\text{ is a multiplicative identity} \\end{aligned}$$\n\nOn the other hand, we have:\n\n$$\\begin{aligned}\n{2}\n(1+1)(a+b) &=1(a+b)+1(a+b) & \\quad \\qquad \\text{by right distributivity} \\\\\n&=a+b+a+b & \\quad \\qquad \\text{since } 1 \\text{ is a multiplicative identity} \\end{aligned}$$\n\nThus, $a+a+b+b=a+b+a+b$. Hence:\n\n$$\\begin{aligned}\n{2}\na+b &=0+(a+b)+0 & \\quad \\qquad \\text{since } 0 \\text{ is an \\PMlinkname{additive identity}{AdditiveIdentity}} \\\\\n&=(-a+a)+(a+b)+(b+-b) & \\quad \\qquad \\text{by definition of \\PMlinkname{additive inverse}{AdditiveInverse}} \\\\\n&=-a+(a+a+b+b)+-b & \\quad \\qquad \\text{by associativity of } + \\\\\n&=-a+(a+b+a+b)+-b & \\quad \\qquad \\text{since } a+a+b+b=a+b+a+b \\\\\n&=(-a+a)+(b+a)+(b+-b) & \\quad \\qquad \\text{by associativity of } + \\\\\n&=0+(b+a)+0 & \\quad \\qquad \\text{by definition of \\PMlinkescapetext{additive inverse}} \\\\\n&=b+a & \\quad \\qquad \\text{since } 0 \\text{ is an \\PMlinkescapetext{additive identity}} \\end{aligned}$$",
+  "conclusion": "#P_ConditionOnANearRingToBeARing",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternativeProofOfConditionOnANearRingToBeARing"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "alternative proof of condition on a near ring to be a ring"
+  ]
+}

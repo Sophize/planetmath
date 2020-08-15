@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Hamming Distance\n================\n\nIn comparing two bit patterns, the *Hamming distance* is the count of\nbits different in the two patterns. More generally, if two ordered lists\nof items are compared, the Hamming distance is the number of items that\ndo not identically agree. This distance is applicable to encoded\ninformation, and is a particularly simple metric of comparison, often\nmore useful than the city-block distance or Euclidean distance.\n\nThe Hamming distance is a true metric, as it induces a metric space on\nthe set of ordered lists of some fixed length.\n\n[3]{}\n\nThe Data Analysis Briefbook,",
+  "language": "INFORMAL",
+  "phrase": "Hamming Distance",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HammingDistance"
+    }
+  ],
+  "indexable": true
+}

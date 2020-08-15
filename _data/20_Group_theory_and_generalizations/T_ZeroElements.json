@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a semigroup. An element $z$ is called a *right zero* \\[resp.\n*left zero*\\] if $xz = z$ \\[resp. $zx = z$\\] for all $x \\in S$.\n\nAn element which is both a left and a right zero is called a *zero\nelement*.\n\nA semigroup may have many left zeros or right zeros, but if it has at\nleast one of each, then they are necessarily equal, giving a unique\n(two-sided) zero element.\n\nMore generally, these definitions and statements are valid for a\ngroupoid.\n\nIt is customary to use the symbol $\\theta$ for the zero element of a\nsemigroup.\n\nIf a groupoid has a left zero $0_L$ and a right zero $0_R$, then\n$0_L = 0_R$.\n\n$0_L=0_L 0_R = 0_R$.\n\nIf $0$ is a left zero in a semigroup $S$, then so is $x0$ for every\n$x\\in S$.\n\nFor any $y\\in S$, $(x0)y=x(0y)=x0$. As a result, $x0$ is a left zero of\n$S$.\n\nIf $0$ is the unique left zero in a semigroup $S$, then it is also the\nzero element.\n\nBy assumption and the previous proposition, $x0$ is a left zero for\nevery $x\\in S$. But $0$ is the unique left zero in $S$, we must have\n$x0=0$, which means that $0$ is a right zero element, and hence a zero\nelement by the first proposition.",
+  "language": "INFORMAL",
+  "phrase": "Zero Elements",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZeroElements"
+    }
+  ],
+  "indexable": true
+}

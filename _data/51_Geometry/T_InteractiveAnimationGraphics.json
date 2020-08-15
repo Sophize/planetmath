@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Interactive animation graphics with LiveGraphics3D\n==================================================\n\nFor large and/or complex graphics objects [*LiveGraphics3D*]{} seems to\noffer some useful solutions. A few examples follow: by clicking on the\nlinks one can see in real time, interactively the rotation of fairly\ncomplex molecules. The conversion of graphics 3D objects\n\n-   -   : As usual click and hold the mouse button down while moving the\n    mouse around, and the DNA fragment molecule will follow the mouse\n    position! If mouse button is released over the image the molecular\n    fragment will jump up and down in a dance-like motion, or spin\n    around!\n\n-   -   -   Converting Graphics3D Objects: \u201cin order to display any\n    Graphics3D, ContourGraphics, DensityGraphics, or SurfaceGraphics\n    object with LiveGraphics3D, it has to be converted into an\n    appropriate InputForm. This is can be done with the function\n    LiveForm defined in the LiveGraphics3D documentation package. The\n    function also converts lists of Graphics3D objects to animations and\n    replaces all SequenceForms into StringForms to avoid problems with\n    the formatting of SequenceForm.\"",
+  "language": "INFORMAL",
+  "phrase": "Interactive Animation Graphics",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InteractiveAnimationGraphics"
+    }
+  ],
+  "indexable": true
+}

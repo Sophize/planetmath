@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "derivative with respect to a vector",
+    "partial derivative with respect to a vector"
+  ],
+  "definition": "Let $U$ be an open set in ${\\mathbbmss{R}}^n$ and\n$f\\colon U\\to {\\mathbbmss{C}}$ is a differentiable function. If $u\\in U$\nand $v\\in {\\mathbb{R}}^n$, then the *directional derivative* of $f$ in\nthe direction of $v$ is\n$$(D_v f)(u) = \\frac{d}{ds} f(u+sv) \\Big|_{s=0}.$$ In other words,\n$(D_v f)(u)$ measures how $f$ changes in the direction of $v$ from $u$.\n\nAlternatively, $$\\begin{aligned}\n (D_v f)(u) &=& \\lim_{h\\to 0} \\frac{ f(u+ hv) - f(u)}{h} \\\\\n   &=& Df(u)\\cdot v,\\end{aligned}$$ where $Df$ is the Jacobian matrix of\n$f$.\n\n### Properties {#properties .unnumbered}\n\nLet $u\\in U$.\n\n1.  $D_v f$ is linear in $v$. If $v, w\\in {\\mathbbmss{R}}^n$ and\n    $\\lambda, \\mu \\in {\\mathbbmss{R}}$, then\n    $$D_{\\lambda v+\\mu w}f(u) =    \\lambda D_{v}f(u) +\\mu D_{w}f(u).$$\n    In particular, $D_0 f=0$.\n\n2.  If $f$ is twice differentiable and $v,w\\in {\\mathbbmss{R}}^n$, then\n    $$\\begin{aligned}\n       D_v D_w f(u) &=& \\frac{\\partial^2}{\\partial s\\partial t} f(u+sv + tw) \\Big|_{s=0}, \\\\\n         &=& v^T\\cdot \\operatorname{Hess}f(u)\\cdot w,\\end{aligned}$$\n    where $\\operatorname{Hess}$ is the Hessian matrix of $f$.\n\n### Example {#example .unnumbered}\n\nFor example, if\n$f\\left(\\begin{array}{c}x\\\\y\\\\z\\end{array}\\right) = x^2 + 3y^2z$, and we\nwanted to find the derivative at the point\n$\\mathbf{a}=\\left(\\begin{array}{c}1\\\\2\\\\3\\end{array}\\right)$ in the\ndirection $\\vec{v}=\\left[\\begin{array}{c}1\\\\1\\\\1\\end{array}\\right]$, our\nequation would be $$\\begin{aligned}\n\\lim_{h\\rightarrow 0}\\frac{1}{h}\\left((1+h)^2 + 3(2+h)^2(3+h) - 37\\right)\n&=&\\lim_{h\\rightarrow 0}\\frac{1}{h}(3h^3+37h^2+50h)\\\\\n&=&\\lim_{h\\rightarrow 0}3h^2+37h +50 = 50\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Directional Derivative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirectionalDerivative"
+    }
+  ],
+  "indexable": true
+}

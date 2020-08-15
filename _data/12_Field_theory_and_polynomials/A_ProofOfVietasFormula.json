@@ -1,0 +1,17 @@
+{
+  "argumentText": "**Proof:** We can write $P(x)$ as\n$$P(x) = a_n(x-r_1)(x-r_2)\\ldots(x-r_n) = a_n(x^n - S_1x^{n-1} + S_2x^{n-2} - \\ldots + (-1)^nS_n).$$\nSince we also have that\n$$P(x) = a_nx^n + a_{n-1}x^{n-1} + \\ldots a_{1}x + a_{0},$$ setting the\ncoefficients equal yields $$a_n(-1)^{i}S_i = a_{n-i}$$ which is what the\ntheorem stated.",
+  "conclusion": "#P_VietasFormula",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfVietasFormula"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Vieta's formula"
+  ]
+}

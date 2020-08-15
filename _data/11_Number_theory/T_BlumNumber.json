@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Blum integer"
+  ],
+  "definition": "Given a semiprime $n = pq$, if both $p$ and $q$ are Gaussian primes with\nno imaginary part, then $n$ is called a [*Blum number*]{}. The first few\nBlum numbers are 21, 33, 57, 69, 77, 93, 129, 133, 141, 161, 177, 201,\n209, 213, 217, 237, 249, 253, 301, 309, 321, 329, 341, 381, 393, 413,\n417, 437, 453, 469, 473, 489, 497, etc., listed in A016105 of Sloane\u2019s\nOEIS.\n\nA semiprime that is a Blum number is also a semiprime among the Gaussian\nintegers and its prime factors also have no imaginary parts. The other\nreal semiprimes are not semiprimes among the Gaussian integers. For\nexample, 177 can only be factored as $3 \\times 59$ whether Gaussian\nintegers are allowed or not. 159, on the other hand can be factored as\neither $3 \\times 53$ or $3(-i)(2 + 7i)(7 + 2i)$.\n\nLarge Blum numbers had applications in cryptography prior to advances in\ninteger factorization by means of quadratic sieves.",
+  "language": "INFORMAL",
+  "phrase": "Blum Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BlumNumber"
+    }
+  ],
+  "indexable": true
+}

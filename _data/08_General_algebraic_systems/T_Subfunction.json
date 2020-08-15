@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Definition**. Let $f:A\\to B$ and $g:C\\to D$ be partial functions. $g$\nis said to be a *subfunction* of $f$ if\n$$g\\subseteq f \\cap (C\\times D).$$\n\nIn other words, $g$ is a subfunction of $f$ iff whenever $x\\in C$ such\nthat $g(x)$ is defined, then $x\\in A$, $f(x)$ is defined, and\n$g(x)=f(x)$.\n\nIf we set $C'=A\\cap C$ and $D'=B\\cap D$, then\n$g\\subseteq f\\cap (C'\\times D')$, so there is no harm in assuming that\n$C$ and $D$ are subsets of $A$ and $B$ respectively, which we will do\nfor the rest of the discussion.\n\nIn practice, whenever $g$ is a subfunction of $f$, we often assume that\n$g$ and $f$ have the same domain and codomain. Otherwise, we would\nspecify that $g$ is a subfunction of $f:A\\to B$ with domain $C$ and\ncodomain $D$.\n\nFor example, $f:\\mathbb{R} \\to \\mathbb{R}$ defined by\n$$f(x)=\\sqrt{x^2-1}$$ is a partial function, whose domain of definition\nis $(-\\infty,-1]\\cup [1,\\infty)$, and the partial function\n$g:\\mathbb{R} \\to \\mathbb{R}$ given by\n$$g(x)=\\displaystyle{\\frac{x^2-1}{\\sqrt{x^2-1}}}$$ is a subfunction of\n$f$. The domain of definition of $g$ is $(-\\infty,-1)\\cup (1,\\infty)$.\n\nTwo immediate properties of a subfunction $g:C\\to D$ of $f:A\\to B$ are\n\n-   the range of $g$ is a subset of the range of $f$:\n    $$g(C)\\subseteq f(C),$$\n\n-   the domain of definition of $g$ is a subset of the domain of\n    definition of $f$: $$g^{-1}(D)\\subseteq f^{-1}(D).$$\n\n**Definition**. A subfunction $g:C\\to D$ of $f:A\\to B$ is called a\n*restriction of $f$ relative to $D$*, if $g(C)=f(C)\\cap D$, and a\n*restriction of $f$* if $g(C)=f(C)$.\n\nEvery partial function $g:C\\to D$ corresponds to a unique restriction\n$g':C\\to g(C)$ of $g$.\n\nA restriction $g:C\\to D$ of $f:A\\to B$ is certainly a restriction of $f$\nrelative to $D$, since $f(C)\\cap D = g(C)\\cap D = g(C)$, but not\nconversely. For example, let $A$ be the set of all non-negative integers\nand $-_A: A^2\\to A$ the ordinary subtraction. $-_A$ is easily seen to be\na partial function. Let $B$ be the set of all positive integers. Then\n$-_B:B^2\\to B$ is a restriction of $-_A:A^2\\to A$, relative to $B$.\nHowever, $-_B$ is not a restriction of $-_A$, for $n -_B n$ is not\ndefined, while $n -_A n = 0\\in A$.\n\n[7]{} G. Gr\u00e4tzer: [*Universal Algebra*]{}, 2nd Edition, Springer, New\nYork (1978).",
+  "language": "INFORMAL",
+  "phrase": "Subfunction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Subfunction"
+    }
+  ],
+  "indexable": true
+}

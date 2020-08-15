@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "optional stopping"
+  ],
+  "definition": "A stochastic process $(X_t)_{t\\in\\mathbb{T}}$ defined on a measurable\nspace $(\\Omega,\\mathcal{F})$ can be stopped at a random time\n$\\tau\\colon\\Omega\\rightarrow\\mathbb{T}\\cup\\{\\infty\\}$. The resulting\nstopped process is denoted by $X^{\\tau}$,\n$$X^\\tau_t\\equiv X_{\\min(t,\\tau)}.$$ The random time $\\tau$ used is\ntypically a stopping time.\n\nIf the process $X_t$ has for every $t\\in\\mathbb{T}$, then it can\nalternatively be stopped just before the time $\\tau$, resulting in the\npre-stopped process $$X^{\\tau-}\\equiv\\left\\{\n\\begin{array}{ll}\nX_t,&\\textrm{if }t<\\tau,\\\\\nX_{\\tau-},&\\textrm{if }t\\ge\\tau.\n\\end{array}\n\\right.$$\n\nStopping is often used to enforce boundedness or integrability\nconstraints on a process. For example, if $B$ is a Brownian motion and\n$\\tau$ is the first time at which $|B_{\\tau}|$ hits some given positive\nvalue, then the stopped process $B^{\\tau}$ will be a continuous and\nbounded martingale. It can be shown that many properties of stochastic\nprocesses, such as the martingale property, are stable under stopping at\nany stopping time $\\tau$. On the other hand, a pre-stopped martingale\nneed not be a martingale.\n\nFor continuous processes, stopping and pre-stopping are equivalent\nprocedures. If $\\tau$ is the first time at which $|X_\\tau|\\ge K$, for\nany given real number $K$, then the pre-stopped process $X^{\\tau-}$ will\nbe uniformly bounded. However, for some noncontinuous processes it is\nnot possible to find a stopping time $\\tau>0$ making $X^\\tau$ into a\nuniformly bounded process. For example, this is the case for any with\nunbounded jump distribution.\n\nStopping is used to generalize properties of stochastic processes to\nobtain the related localized property. See, for example, local\nmartingales.",
+  "language": "INFORMAL",
+  "phrase": "Stopped Process",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StoppedProcess"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(M,d)$ be a complete metric space and let\n$\\psi : M \\rightarrow (-\\infty, \\, +\\infty]$,\n$\\psi \\not \\equiv +\\infty$, be a lower semicontinuous function which is\nbounded from below. Then the following hold: For every $\\varepsilon > 0$\nand for any $z_{0} \\in M$ there exists $z \\in M$ such that\n\n-   $\\psi(z) \\leq \\psi(z_{0}) - \\varepsilon d(z,z_{0})$;\n\n-   $\\psi(x) \\geq \\psi(z) - \\varepsilon d(x,z)$, for any $x \\in M$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EkelandsVariationalPrinciple"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Ekeland's variational principle"
+  ]
+}

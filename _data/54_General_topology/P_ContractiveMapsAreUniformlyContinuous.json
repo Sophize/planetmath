@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} A contraction mapping is uniformly continuous.\n\n[**Proof**]{} Let $T:X\\to X$ be a contraction mapping in a metric space\n$X$ with metric $d$. Thus, for some $q\\in [0,1)$, we have for all\n$x,y\\in X$, $$d(Tx,Ty)\\le q d(x,y).$$ To prove that $T$ is uniformly\ncontinuous, let $\\varepsilon>0$ be given. There are two cases. If $q=0$,\nour claim is trivial, since then for all $x,y\\in X$,\n$$d(Tx,Ty)=0<\\varepsilon.$$ On the other hand, suppose $q\\in(0,1)$. Then\nfor all $x,y\\in X$ with $d(x,y)<\\varepsilon/q$, we have\n$$d(Tx,Ty) \\le q d(x,y) < \\varepsilon.$$ In conclusion, $T$ is uniformly\ncontinuous. $\\Box$\n\nThe result is stated without proof in [@rudin], pp. 221.\n\n[9]{} W. Rudin, *Principles of Mathematical Analysis*, McGraw-Hill Inc.,\n1976.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContractiveMapsAreUniformlyContinuous"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "contractive maps are uniformly continuous"
+  ]
+}

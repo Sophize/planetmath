@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space. A subset $A$ of $X$ is said to be\n*irreducible* if whenever $A\\subseteq B\\cup C$ with $B,C$ closed, we\nhave $A\\subseteq B$ or $A\\subseteq C$. Any singleton and its closure are\nirreducible. More generally, the closure of an irreducible set is\nirreducible.\n\nA topological space $X$ is called a *sober space* if every irreducible\nclosed subset is the closure of some *unique* point in $X$.\n\n**Remarks**.\n\n-   For any sober space, the closure of a point determines the point. In\n    other words, ${\\operatorname{cl}(x)}={\\operatorname{cl}(y)}$ implies\n    $x=y$.\n\n-   A space is sober iff the closure of every irreducible set is the\n    closure of a unique point.\n\n-   Any sober space is T0.\n\n-   Any Hausdorff space is sober.\n\n-   A closed subspace of a sober space is sober.\n\n-   Any product of sober spaces is sober.",
+  "language": "INFORMAL",
+  "phrase": "Sober Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SoberSpace"
+    }
+  ],
+  "indexable": true
+}

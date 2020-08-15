@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} [@mukherjea; @friedman; @folland] Let $X$ be a set,\nand let $\\mathcal{P}(X)$ be the power set of $X$. An *outer measure* on\n$X$ is a function $\\mu^\\ast:\\mathcal{P}(X)\\to [0,\\infty]$ satisfying the\nproperties\n\n1.  $\\mu^\\ast(\\emptyset)=0$.\n\n2.  If $A\\subset B$ are subsets in $X$, then\n    $\\mu^\\ast(A)\\le \\mu^\\ast(B)$.\n\n3.  If $\\{A_i\\}$ is a countable collection of subsets of $X$, then\n    $$\\mu^\\ast(\\bigcup_i A_i) \\le \\sum_i \\mu^\\ast (A_i).$$\n\nHere, we can make two remarks. First, from (1) and (2), it follows that\n$\\mu^\\ast$ is a positive function on $\\mathcal{P}(X)$. Second, property\n(3) also holds for any finite collection of subsets since we can always\nappend an infinite sequence of empty sets to such a collection.\n\n[9]{} A. Mukherjea, K. Pothoven, *Real and Functional analysis*, Plenum\npress, 1978. A. Friedman, *Foundations of Modern Analysis*, Dover\npublications, 1982. G.B. Folland, *Real Analysis: Modern Techniques and\nTheir Applications*, 2nd ed, John Wiley & Sons, Inc., 1999.",
+  "language": "INFORMAL",
+  "phrase": "Outer Measure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OuterMeasure"
+    }
+  ],
+  "indexable": true
+}

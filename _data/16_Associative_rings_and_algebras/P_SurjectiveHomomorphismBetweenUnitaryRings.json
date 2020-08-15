@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let $f$ be a surjective homomorphism from a unitary ring\n$R$ to another unitary ring $R\\,'$. Then\n\n-   $f(1) \\;=\\; 1',$\n\n-   $f(a^{-1}) \\;=\\; (f(a))^{-1}$ for all elements $a$ belonging to the\n    group of units of $R$.\n\n*Proof.* $1^\\circ$. In a ring, the identity element is unique, whence it\nsuffices to show that $f(1)$ has the properties required for the unity\nof the ring $R\\,'$. When $a'$ is an arbitrary element of this ring,\nthere is by the surjectivity an element $a$ of $R$ such that\n$f(a) = a'$. Thus we have\n$$f(1)a' \\;=\\; f(1)f(a) \\;=\\; f(1a) \\;=\\; f(a) \\;=\\; a', \\quad \n  a'f(1) \\;=\\; f(a)f(1) \\;=\\; f(a1) \\;=\\; f(a) \\;=\\; a'.$$ $2^\\circ$.\nLet $a$ be a unit of $R$. Then\n$$f(a)f(a^{-1}) \\;=\\; f(aa^{-1}) \\;=\\; f(1) \\;=\\; 1', \\quad f(a^{-1})f(a) \\;=\\; f(a^{-1}a) \\;=\\; f(1) \\;=\\; 1',$$\nwhence $f(a^{-1})$ is a multiplicative inverse of $f(a)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SurjectiveHomomorphismBetweenUnitaryRings"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "surjective homomorphism between unitary rings"
+  ]
+}

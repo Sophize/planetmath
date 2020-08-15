@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "QR factorization",
+    "QR-decomposition",
+    "QR-factorization"
+  ],
+  "definition": "QR Decomposition\n================\n\nOrthogonal matrix triangularization (QR decomposition) reduces a real\n$m \\times n$ matrix $A$ with $m \\ge n$ and full rank to a much simpler\nform. It guarantees numerical stability by minimizing errors caused by\nmachine roundoffs. A suitably chosen orthogonal matrix $Q$ will\ntriangularize the given matrix:\n\n$$A = Q \\begin{bmatrix} R \\\\ 0 \\end{bmatrix}$$\n\nwith the $n \\times n$ right triangular matrix $R$. One only has then to\nsolve the triangular system $Rx = Pb$, where $P$ consists of the first\n$n$ rows of $Q$.\n\nThe least squares problem $Ax \\approx b$ is easy to solve with $A = QR$\nand $Q$ an orthogonal matrix (here and henceforth $R$ is the entire\n$ m \\times n $ augmented matrix from above). The solution\n\n$$x = (A^TA)^{-1} A^Tb$$\n\nbecomes\n\n$$x = (R^TQ^TQR)^{-1}R^TQ^Tb = (R^TR)^{-1}R^TQ^Tb = R^{-1}Q^Tb$$\n\nThis is a matrix-vector multiplication $Q^Tb$, followed by the solution\nof the triangular system $Rx = Q^Tb$ by back-substitution. The QR\nfactorization saves us the formation of $A^TA$ and the solution of the\nnormal equations.\n\nMany different methods exist for the QR decomposition, e.g. the\nHouseholder transformation, the Givens rotation, or the Gram-Schmidt\ndecomposition.\n\n[3]{}\n\nThe Data Analysis Briefbook.",
+  "language": "INFORMAL",
+  "phrase": "Qr Decomposition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QRDecomposition"
+    }
+  ],
+  "indexable": true
+}

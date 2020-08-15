@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An ideal $\\mathfrak{a}$ of a ring $R$ is called a , iff $\\mathfrak{a}$ a\nregular element of $R$.\\\n**Proposition.** If $m$ is a positive integer, then the only regular\nideal in the residue class ring $\\mathbb{Z}_m$ is the unit ideal $(1)$.\n\n[*Proof.*]{} The ring $\\mathbb{Z}_m$ is a principal ideal ring. Let\n$(n)$ be any regular ideal of the ring $\\mathbb{Z}_m$. Then $n$ can not\nbe zero divisor, since otherwise there would be a non-zero element $r$\nof $\\mathbb{Z}_m$ such that $nr = 0$ and thus every element $sn$ of the\nprincipal ideal would satisfy $(sn)r = s(nr)= s0 = 0$. So, $n$ is a\nregular element of $\\mathbb{Z}_m$ and therefore we have\n$\\gcd(m,\\,n) = 1$. Then, according to , there are such integers $x$ and\n$y$ that $1 = xm\\!+\\!yn$. This equation gives the congruence\n$1 \\equiv yn \\pmod{m}$, i.e. $1 = yn$ in the ring $\\mathbb{Z}_m$. With\n$1$ the principal ideal $(n)$ contains all elements of $\\mathbb{Z}_m$,\nwhich means that $(n) = \\mathbb{Z}_m = (1)$.\\\n**Note.** The above notion of \u201cregular ideal\u201d is used in most books\nconcerning ideals of commutative rings, e.g. \\[1\\]. There is also a\ndifferent notion of \u201cregular ideal\u201d mentioned in \\[2\\] (p. 179): Let $I$\nbe an ideal of the commutative ring $R$ with non-zero unity. This ideal\nis called [*regular*]{}, if the quotient ring $R/I$ is a regular ring,\nin other words, if for each $a \\in R$ there exists an element $b \\in R$\nsuch that $a^2b\\!-\\!a \\in I$.\n\n[9]{} \u201c[*Multiplicative theory of ideals*]{}\u201d. Academic Press. New York\n(1971). \u201c[*A first course in rings and ideals*]{}\u201d. Addison-Wesley.\nReading, Massachusetts (1970).",
+  "language": "INFORMAL",
+  "phrase": "Regular Ideal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegularIdeal"
+    }
+  ],
+  "indexable": true
+}

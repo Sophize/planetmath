@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $p$ be a polynomial and suppose ${\\mathbf{A}}$ and ${\\mathbf{B}}$\ncommute, i.e. ${\\mathbf{A}}{\\mathbf{B}}={\\mathbf{B}}{\\mathbf{A}}$, then\n$$p({\\mathbf{A}}+{\\mathbf{B}})=\\sum_{k=0}^{n}\\frac{1}{k!}p^{(k)}({\\mathbf{A}}){\\mathbf{B}}^k .$$\nwhere $n=\\deg(p)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TaylorsFormulaForMatrixFunctions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Taylor's formula for matrix functions"
+  ]
+}

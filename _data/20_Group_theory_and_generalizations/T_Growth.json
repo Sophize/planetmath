@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a finitely generated group with generating set $A$ (closed\nunder inverses).\n\nFor $g=a_1a_2\\ldots a_m\\in G$, $a_i\\in A$, let $l(g)$ be the minimum\nvalue of $m$.\n\nDefine $$\\gamma(n)=\\mid\\{g\\in G:l(g)\\le n\\}\\mid$$.\n\nThe function $\\gamma$ is called the *growth function* for $G$ with\ngenerating set $A$. If $\\gamma$ is either\n\n\\(a) bounded above by a polynomial function,\n\n\\(b) bounded below by an exponential function, or\n\n\\(c) neither,\n\nthen this condition is preserved under changing the generating set for\n$G$. Respectively, then, $G$ is said to have\n\n\\(a) *polynomial growth*,\n\n\\(b) *exponential growth*, or\n\n\\(c) *intermediate growth*.\n\nFor a survey on the topic, see: R. I. Grigorchuk, On growth in group\ntheory, Proceedings of the International Congress of Mathematicians,\nKyoto 1990, Volume I, II (Math. Soc. Japan, 1991), pages 325 to 338.\n\nNote that, as the generating set is assumed to be closed under inverses,\nwe need only have $G$ as a semigroup - as such, the above applies\nequally well in semigroup theory.",
+  "language": "INFORMAL",
+  "phrase": "Growth",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Growth"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "#### Definition (Discrete)\n\nLet $(\\Omega, \\mathcal{F}, \\mu)$ be a discrete probability space, and\nlet $X$ and $Y$ be discrete random variables on $\\Omega$.\n\nThe conditional entropy $H[X|Y]$, read as \u201cthe conditional entropy of\n$X$ given $Y$,\u201d is defined as\n$$H[X|Y] = -\\sum_{x \\in X}\\sum_{y \\in Y} \\mu(X=x,Y=y) \\log \\mu(X=x|Y=y)$$\nwhere $\\mu(X|Y)$ denotes the conditional probability. $\\mu(Y=y)$ is\nnonzero in the discrete case\n\n#### Discussion\n\nThe results for discrete conditional entropy will be assumed to hold for\nthe continuous case unless we indicate otherwise.\n\nWith $H[X,Y]$ the joint entropy and $f$ a function, we have the\nfollowing results: $$\\begin{aligned}\nH[X|Y] + H[Y]&= H[X,Y]&\\\\\nH[X|Y] &\\le H[X] \\hspace{10mm}\\text{(conditioning reduces entropy)}\\\\\nH[X|Y] &\\le H[X] + H[Y] \\hspace{10mm}\\text{(equality iff } X, Y \\text{ independent)}\\\\\nH[X|Y] &\\le H[X|f(Y)]&\\\\\nH[X|Y] &= 0 \\iff X=f(Y)\\hspace{10mm}\\text{(special case } H[X|X] = 0 \\text{)}\\\\\\end{aligned}$$\n\nThe conditional entropy $H[X|Y]$ may be interpreted as the uncertainty\nin $X$ given knowledge of $Y$. (Try reading the above equalities and\ninequalities with this interpretation in mind.)",
+  "language": "INFORMAL",
+  "phrase": "Conditional Entropy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConditionalEntropy"
+    }
+  ],
+  "indexable": true
+}

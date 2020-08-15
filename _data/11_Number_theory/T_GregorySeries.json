@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*Gregory series*]{} is an alternating sum whose value is a quarter\nthat of $\\pi$:\n$$\\frac{\\pi}{4} = \\sum_{i = 0}^\\infty (-1)^i \\frac{1}{2i + 1} = 1 - \\frac{1}{3} + \\frac{1}{5} - \\frac{1}{7} + \\frac{1}{9} - \\ldots$$\n(The approximate decimal value of this expression is\n0.7853981633974483...)\n\nMore generally, a Gregory series for a given $n$ is\n$$\\sum_{i = 0}^\\infty (-1)^i \\frac{n^{2i + 1}}{2i + 1}.$$\n\nThe Gregory series is named after the Scottish astronomer and astrologer\nJames Gregory.",
+  "language": "INFORMAL",
+  "phrase": "Gregory Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GregorySeries"
+    }
+  ],
+  "indexable": true
+}

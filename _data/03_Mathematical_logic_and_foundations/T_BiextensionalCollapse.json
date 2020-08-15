@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $\\mathcal{C}=(\\mathcal{A},r,\\mathcal{X})$ is a Chu space, we can\ndefine the *biextensional collapse* of $\\mathcal{C}$ to be\n$(\\hat{r}[A],r^\\prime,\\check{r}[X])$ where\n$r^\\prime(\\hat{r}(a),\\check{r}(x))=r(a,x)$.\n\nThat is, to name the rows of the biextensional collapse, we just use\nfunctions representing the actual rows of the original Chu space (and\nsimilarly for the columns). The effect is to merge indistinguishable\nrows and columns.\n\nWe say that two Chu spaces are *equivalent* if their biextensional\ncollapses are isomorphic.",
+  "language": "INFORMAL",
+  "phrase": "Biextensional Collapse",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BiextensionalCollapse"
+    }
+  ],
+  "indexable": true
+}

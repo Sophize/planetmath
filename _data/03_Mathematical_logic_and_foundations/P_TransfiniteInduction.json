@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $\\Phi(\\alpha)$ is a property defined for every ordinal $\\alpha$,\nthe principle of *transfinite induction* states that in the case where\nfor every $\\alpha$, if the fact that $\\Phi(\\beta)$ is true for every\n$\\beta<\\alpha$ implies that $\\Phi(\\alpha)$ is true, then $\\Phi(\\alpha)$\nis true for every ordinal $\\alpha$. Formally :\n\n$$\\forall\\alpha(\\forall\\beta(\\beta<\\alpha{\\Rightarrow}\\Phi(\\beta)){\\Rightarrow}\\Phi(\\alpha)){\\Rightarrow}\\forall\\alpha(\\Phi(\\alpha))$$\n\nThe principle of transfinite induction is very similar to the principle\nof finite induction, except that it is stated in terms of the whole\nclass of the ordinals.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TransfiniteInduction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "transfinite induction",
+    "principle of transfinite induction"
+  ]
+}

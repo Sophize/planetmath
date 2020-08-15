@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*beprisque number*]{} $n$ is an integer which is either one more than\na prime number and one less than a perfect square, or one more than a\nsquare and one less than a prime. That is, either\n$(n - 1) \\in \\mathbb{P}$ and $\\sqrt{n + 1} \\in \\mathbb{Z}$ or\n$\\sqrt{n - 1} \\in \\mathbb{Z}$ and $(n + 1) \\in \\mathbb{P}$.\n\nThe beprisque numbers below a thousand are 1, 2, 3, 8, 10, 24, 48, 80,\n82, 168, 224, 226, 360, 440, 442, 728, 840. The listing on the OEIS,\nA163492, goes further but omits 1. It could be argued that a beprisque\nnumber should itself not be a square, but then it becomes difficult to\njustify why beprisque numbers that are themselves primes are allowed.\n\nThe only prime beprisque numbers are 2 and 3. For a prime number to be a\nbeprisque number, it has to neighbor another prime number; the only two\nprimes fitting that bill are of course 2 and 3.\n\nThe only odd beprisque numbers are 1 and 3. For an odd number to be a\nbeprisque number, it has to neighbor an even prime, and since 2 is the\nonly even prime, only 1 and 3 can be beprisque numbers.",
+  "language": "INFORMAL",
+  "phrase": "Beprisque Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BeprisqueNumber"
+    }
+  ],
+  "indexable": true
+}

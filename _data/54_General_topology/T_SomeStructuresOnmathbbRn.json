@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $n\\in \\{1,2,\\ldots\\}$. Then, as a set, ${\\mathbbmss{R}}^n$ is the\n$n$-fold Cartesian product of the real numbers.\n\n### Vector space structure of ${\\mathbbmss{R}}^n$\n\nIf $u=(u_1, \\ldots, u_n)$ and $v=(v_1, \\ldots, v_n)$ are points in\n${\\mathbbmss{R}}^n$, we define their sum as\n$$u+v=(u_1+v_1, \\ldots, u_n+v_n).$$ Also, if $\\lambda$ is a scalar (real\nnumber), then scalar multiplication is defined as\n$$\\lambda \\cdot u = (\\lambda u_1, \\ldots, \\lambda u_n).$$ With these\noperations, ${\\mathbbmss{R}}^n$ becomes a vector space (over\n${\\mathbbmss{R}}$) with dimension $n$. In other words, with this\nstructure, we can talk about, vectors, lines, subspaces of different\ndimension.\n\n### Inner product for ${\\mathbbmss{R}}^n$\n\nFor $u$ and $v$ as above, we define the inner product as\n$$\\langle u,v \\rangle = u_1 v_1 + \\cdots + u_n v_n.$$ With this product,\n${\\mathbbmss{R}}^n$ is called an Euclidean space.\n\nWe have also an induced norm\n$\\left\\Vert u \\right\\Vert =  \\sqrt{\\langle u,u \\rangle}$, which gives\n${\\mathbbmss{R}}^n$ the structure of a normed space (and thus metric\nspace). This inner product let us talk about length, angle between\nvectors, orthogonal vectors.\n\n### Topology for ${\\mathbbmss{R}}^n$\n\nThe usual topology for ${\\mathbbmss{R}}^n$ is the topology induced by\nthe metric $$d(x,y) = \\Vert x-y\\Vert.$$ As a basis for the topology\ninduced by the above norm, one can take open balls\n$B(x,r)=\\{ y\\in {\\mathbbmss{R}}^n \\mid \\left\\Vert x-y \\right\\Vert < r\\}$\nwhere $r>0$ and $x\\in{\\mathbbmss{R}}^n$.\n\nProperties of the topological space ${\\mathbbmss{R}}^n$ are:\n\n1.  ${\\mathbbmss{R}}^n$ is second countable, i.e., ${\\mathbbmss{R}}^n$\n    has a countable basis.\n\n2.  (Heine-Borel theorem) A set in ${\\mathbbmss{R}}^n$ is compact if and\n    only if it is closed and bounded.\n\n3.  Since ${\\mathbbmss{R}}^n$ is a metric space, ${\\mathbbmss{R}}^n$ is\n    a Hausdorff space.",
+  "language": "INFORMAL",
+  "phrase": "Some Structures On $\\Mathbb{R}^N$",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SomeStructuresOnmathbbRn"
+    }
+  ],
+  "indexable": true
+}

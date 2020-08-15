@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring. A left ideal $I$ of $R$ is said to be *modular* if\nthere is an $e\\in R$ such that $re-r\\in I$ for all $r\\in R$. In other\nwords, $e$ acts as a right identity element modulo $I$:\n$$re\\equiv r\\pmod I.$$ A right modular ideal is defined similarly, with\n$e$ be a left identity modulo $I$.\n\n**Remark**. If an ideal $I$ is modular both as a left ideal as well as a\nright ideal in $R$, then $R/I$ is a unital ring. Furthermore, every\n(left, right, two-sided) ideal in a unital ring is modular, implying\nthat the notion of modular ideals is only interesting in rings without\n$1$.\n\n[8]{} P. M. Cohn, [*Further Algebra and Applications*]{}, Springer\n(2003).",
+  "language": "INFORMAL",
+  "phrase": "Modular Ideal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModularIdeal"
+    }
+  ],
+  "indexable": true
+}

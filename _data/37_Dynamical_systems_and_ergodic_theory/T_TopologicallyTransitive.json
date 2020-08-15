@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A continuous surjection $f$ on a topological space $X$ to itself is\n*topologically transitive* if for every pair of open sets $U$ and $V$ in\n$X$ there is an integer $n>0$ such that $f^n(U)\\cap V\\neq \\emptyset$,\nwhere $f^n$ denotes the $n$-th iterate of $f$.\n\nIf for every pair of open sets $U$ and $V$ there is an integer $N$ such\nthat $f^n(U)\\cap V\\neq \\emptyset$ for each $n>N$, we say that $f$ is\n*topologically mixing*.\n\nIf $X$ is a compact metric space, then $f$ is topologically transitive\nif and only if there exists a point $x\\in X$ with a dense orbit, i.e.\nsuch that $\\mathcal{O}(x,f)=\\{f^n(x): n\\in {\\mathbb{N}}\\}$ is dense in\n$X$.",
+  "language": "INFORMAL",
+  "phrase": "Topologically Transitive",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TopologicallyTransitive"
+    }
+  ],
+  "indexable": true
+}

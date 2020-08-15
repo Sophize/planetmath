@@ -1,0 +1,17 @@
+{
+  "argumentText": "Define the function $f$ as $$f(z) = {n^{nz} \\prod\\limits_{k=0}^{n-1}\n \\Gamma \\left( z + {k \\over n} \\right) \\over \\Gamma (nz)}$$\n\nBy the functional equation of the gamma function,\n$$f(z+1) = {n^n n^{nz} \\left( \\prod\\limits_{m=0}^{n-1}\n \\Gamma \\left (z + {m \\over n} \\right) \\right) \\prod\\limits_{k=0}^{n-1}\n \\left( z + {k \\over n} \\right) \\over \\Gamma (nz) \\prod_{k=0}^{n-1} (nz + k) } = f(z)$$\n\nHence $f$ is a periodic function of $z$. However, for large values of\n$z$, we can apply the Stirling approximation formula to conclude\n$$f(z) = {(2 \\pi)^{n/2} n^{nz} \\prod\\limits_{k=0}^{n-1} \\left[ e^{-z-k/n}\n  (z + k/n)^{z + k/n - 1/2} + O(e^{-z} (z+ k/n)^{z + k/n - 3/2}) \\right] \\over (2 \\pi)^{1/2}\n   e^{-nz} (nz)^{nz - 1/2} + O(e^{-nz} (nz)^{nz - 3/2}) } =$$\n$$(2 \\pi)^{(n-1)/2} n^{1/2} \\, {\\prod\\limits_{k=0}^{n-1} \\left[ e^{-k/n}\n  (z + k/n)^{z + k/n - 1/2} + O((z+ k/n)^{z + k/n - 3/2}) \\right] \\over\n  z^{nz - 1/2} + O(z^{nz - 3/2}) } =$$\n$$(2 \\pi)^{(n-1)/2} n^{1/2} \\, {z^{1/2} \\prod\\limits_{k=0}^{n-1} \\left[ e^{-k/n}\n  \\left( 1 + {k \\over nz} \\right)^{z + k/n - 1/2} z^{k/n - 1/2} + O((z+ k/n)^{k/n - 3/2}) \\right] \\over\n  1 + O(z^{- 1}) }$$\n\nNote that $$\\prod\\limits_{k=0}^{n-1} e^{-k/n} = e^{- \\sum_{k=0}^{n-1}\nk/n} = e^{(1-n)/2}$$\n$$z^{1/2} \\prod\\limits_{k=0}^{n-1} z^{k/n - 1/2} = z^{1/2} z^{\\sum_{k=0}^{n-1}\n(k/n - 1/2)} = z^{1/2 + (n-1)/2 - n/2} = 1$$\n\nAlso, $$\\left( 1 + {k \\over nz} \\right)^z = e^{k/n} + O(z^{-1})$$ Hence,\n$f(z) = (2 \\pi)^{(n-1)/2} n^{1/2} + O(z^{- 1})$. Now, the only way for a\nfunction to be periodic and have a definite limit is for that function\nto be constant. Therefore, $f(z) = (2 \\pi)^{(n-1)/2} n^{1/2}$. Writing\nout the definition of $f$ and rearranging gives the multiplication\nformula.",
+  "conclusion": "#P_MultiplicationFormulaForGammaFunction",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfMultiplicationFormulaForGammaFunction"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of multiplication formula for gamma function"
+  ]
+}

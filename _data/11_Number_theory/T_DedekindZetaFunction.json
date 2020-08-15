@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ be a number field with ring of integers ${\\mathcal{O}}_K$. Then\nthe Dedekind zeta function of $K$ is the analytic continuation of the\nfollowing series:\n$$\\zeta_K(s)=\\sum_{I\\subset{\\mathcal{O}}_K} (N^K_{{\\mathbb{Q}}}(I))^{-s}$$\nwhere $I$ ranges over non-zero ideals of ${\\mathcal{O}}_K$, and\n$N^K_{{\\mathbb{Q}}}(I)=|{\\mathcal{O}}_K:I|$ is the norm of $I$.\n\nThis converges for $\\Re(s)>1$, and has a meromorphic continuation to the\nwhole plane, with a simple pole at $s=1$, and no others.\n\nThe Dedekind zeta function has an Euler product expansion, $$\\zeta_K(s)=\n\\prod_{{\\mathfrak{p}}}\\frac{1}{1-(N^K_{{\\mathbb{Q}}}({\\mathfrak{p}}))^{-s}}$$\nwhere ${\\mathfrak{p}}$ ranges over prime ideals of ${\\mathcal{O}}_K$.\nThe Dedekind zeta function of ${\\mathbb{Q}}$ is just the Riemann zeta\nfunction.",
+  "language": "INFORMAL",
+  "phrase": "Dedekind Zeta Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DedekindZetaFunction"
+    }
+  ],
+  "indexable": true
+}

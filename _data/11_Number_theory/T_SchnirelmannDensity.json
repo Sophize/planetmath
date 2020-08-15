@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Shnirel'man density",
+    "Shnirelman density"
+  ],
+  "definition": "Let $A$ be a subset of $\\mathbb{Z}$, and let $A(n)$ be number of\nelements of $A$ in $[1,n]$. ** of $A$ is\n$$\\sigma A = \\inf_n \\frac{A(n)}{n}.$$\n\nhas the following properties:\n\n1.  $A(n)\\geq n \\sigma A$ for all $n$.\n\n2.  $\\sigma A=1$ if and only if $\\mathbb{N}\\subseteq A$\n\n3.  if $1$ does not belong to $A$, then $\\sigma A=0$.\n\nSchnirelmann proved that if $0 \\in A \\cap B$ then\n$$\\sigma(A+B)\\geq \\sigma A + \\sigma B - \\sigma A \\cdot \\sigma B$$ and\nalso if $\\sigma A + \\sigma B \\geq 1$, then $\\sigma (A+B)=1$. From these\nhe deduced that if $\\sigma A>0$ then $A$ is an additive basis.",
+  "language": "INFORMAL",
+  "phrase": "Schnirelmann Density",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchnirelmannDensity"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\lbrace X(t)\\mid t\\in T \\rbrace$ be a stochastic process, where\n$X(t)$ is a random variable on the probability space\n$(\\Omega,\\mathcal{F},\\textbf{P})$. Writing $X(t)$ as $X(t,\\omega)$,\nwhere $t\\in T$ and $\\omega\\in\\Omega$, we see that if we fix the sample\npoint $\\omega$, we have a function in $t$: $X_{\\omega}(t)\n\\colon t\\mapsto X(t)$. This function $X_{\\omega}(t)$ of $t$ is called a\n*sample function*, or *sample path* of the stochastic process.",
+  "language": "INFORMAL",
+  "phrase": "Sample Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SampleFunction"
+    }
+  ],
+  "indexable": true
+}

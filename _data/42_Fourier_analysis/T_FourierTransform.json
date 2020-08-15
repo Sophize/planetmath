@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Fourier transform* $F(s)$ of a function $f(t)$ is defined as\nfollows:\n\n$$F(s)=\\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{\\infty}e^{-ist}f(t)dt.$$\n\nThe Fourier transform exists if $f$ is Lebesgue integrable on the whole\nreal axis.\n\nIf $f$ is Lebesgue integrable and can be divided into a finite number of\ncontinuous, monotone functions and at every point both one-sided limits\nexist, the Fourier transform can be inverted:\n\n$$f(t)=\\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{\\infty}e^{ist}F(s)ds.$$\n\nSometimes the Fourier transform is also defined without the factor\n$\\frac{1}{\\sqrt{2\\pi}}$ in one direction, but therefore giving the\ntransform into the other direction a factor $\\frac{1}{2\\pi}$. So when\nlooking a transform up in a table you should find out how it is defined\nin that table.\n\nThe Fourier transform has some important properties, that can be used\nwhen solving differential equations. We denote the Fourier transform of\n$f$ with respect to $t$ in terms of $s$ by $\\mathcal{F}_t(f)$.\n\n-   $\\mathcal{F}_t(af+bg)=a\\mathcal{F}_t(f)+b\\mathcal{F}_t(g),$\\\n    where $a$ and $b$ are constants.\n\n-   $\\mathcal{F}_t\\left(\\frac{\\partial}{\\partial t}f\\right)=is\\mathcal{F}_t(f).$\n\n-   $\\mathcal{F}_t\\left(\\frac{\\partial}{\\partial x}f\\right)=\\frac{\\partial}{\\partial x}\\mathcal{F}_t(f).$\n\n-   We define the bilateral convolution of two functions $f_1$ and $f_2$\n    as:\n    $$(f_1\\ast f_2)(t):=\\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{\\infty}f_1(\\tau)f_2(t-\\tau)d\\tau.$$\n    Then the following equation holds:\n    $$\\mathcal{F}_t((f_1\\ast f_2)(t))=\\mathcal{F}_t(f_1)\\cdot\\mathcal{F}_t(f_2).$$\n\nIf $f(t)$ is some signal (maybe a wave) then the frequency domain of $f$\nis given as $\\mathcal{F}_t(f)$. Rayleigh\u2019s theorem states that then the\nenergy $E$ carried by the signal $f$ given by:\n$$E=\\int_{-\\infty}^{\\infty}|f(t)|^2dt$$ can also be expressed as:\n$$E=\\int_{-\\infty}^{\\infty}|\\mathcal{F}_t(f)(s)|^2ds.$$ In general we\nhave:\n$$\\int_{-\\infty}^{\\infty}|f(t)|^2dt=\\int_{-\\infty}^{\\infty}|\\mathcal{F}_t(f)(s)|^2ds,$$\nalso known as the *first Parseval theorem*.",
+  "language": "INFORMAL",
+  "phrase": "Fourier Transform",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FourierTransform"
+    }
+  ],
+  "indexable": true
+}

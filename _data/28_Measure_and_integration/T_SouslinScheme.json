@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Suslin scheme"
+  ],
+  "definition": "A *Souslin scheme* is a method of representing and defining analytic\nsets on a paved space $(X,\\mathcal{F})$. Let $\\mathcal{S}$ be the\ncollection of finite sequences of positive integers. That is\n$\\mathcal{S}$ is the disjoint union of $\\mathbb{N}^n$ for\n$n=1,2,\\ldots$.\n\nA Souslin scheme on $\\mathcal{F}$ is a collection\n$(A_s)_{s\\in\\mathcal{S}}$ of sets in $\\mathcal{F}$. If\n$\\mathcal{N}=\\mathbb{N}^\\mathbb{N}$ is Baire space then, for any\n$s\\in\\mathcal{N}$ and $n\\in\\mathbb{N}$, we write\n$s|_n\\equiv (s_1,\\ldots,s_n)$ for the restriction of $s$ to\n$\\{1,\\ldots,n\\}$. So, $s|_n\\in\\mathbb{N}^n$.\n\nThe *result* of the Souslin scheme $(A_s)$ is defined to be\n$$A=\\bigcup_{s\\in\\mathcal{N}}\\bigcap_{n=1}^\\infty A_{s|_n}.$$ The set\n$\\mathcal{S}$ can be partially ordered as follows. Say that $s\\le t$ if\n$s\\in\\mathbb{N}^r$ and $t\\in\\mathbb{N}^s$ for $r\\le s$, and $s_k=t_k$\nfor $k=1,\\ldots,r$. The scheme $(A_s)$ is said to be *regular* if\n$A_s\\supseteq A_t$ for all $s\\le t$.\n\nIt can be shown that the result of a Souslin scheme is\n$\\mathcal{F}$-analytic and, conversely, any analytic set is the result\nof some scheme (see equivalent definitions of analytic sets).\n\n[9]{} Jean Bourgain, *A stabilization property and its applications in\nthe theory of sections*. S[\u00e9]{}minaire Choquet. Initiation [\u00e0]{}\nl\u2019analyse, 17 no. 1 (1977).",
+  "language": "INFORMAL",
+  "phrase": "Souslin Scheme",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SouslinScheme"
+    }
+  ],
+  "indexable": true
+}

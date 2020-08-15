@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $G$ is transitive on the set $A$, then $G$ is primitive on $A$ if and\nonly if for each $a\\in A$, $G_a$ is a maximal subgroup of $G$. Here\n$G_a=\\operatorname{Stab}_G(a)$ is the stabilizer of $a\\in A$.\n\nFirst claim that if $G$ is transitive on $A$ and $B\\subset A$ is a with\n$a\\in B$, then $G_B=\\{\\sigma\\in G\\ \\mid\\ \\sigma(B)=B\\}$ is a subgroup of\n$G$ containing $G_a$. It is obvious that $G_B$ is a subgroup, since\n$$\\begin{gathered}\n\\sigma\\in G_B\\Rightarrow \\sigma(B)=B\\Rightarrow \\sigma^{-1}(\\sigma(B))=\\sigma^{-1}(B)\\Rightarrow B=\\sigma^{-1}(B)\\Rightarrow \\sigma^{-1}\\in G_B\\\\\n\\sigma,\\tau\\in G_B \\Rightarrow (\\sigma\\tau)(B)=\\sigma(\\tau(B))=\\sigma(B)=B\\Rightarrow \\sigma\\tau\\in G_B\\end{gathered}$$\nBut also, if $\\sigma\\in G_a$ for $a\\in B$, then $\\sigma(a)=a$, so\n$\\sigma(B)\\cap B\\neq \\emptyset$ and thus $\\sigma(B)=B$ since $B$ is a\nblock system and thus $\\sigma\\in G_B$. This proves the claim.\n\nTo prove the theorem, note that for each $a\\in A$, there is by the claim\na $1-1$ correspondence between containing $a$ and subgroups of $G$\ncontaining $G_a$. Thus, $G$ is primitive on $A$ if and only if all\nblocks are either of size $1$ or equal to $A$, if and only if any group\ncontaining $G_a$ is either $G_a$ itself or $G$, if and only if for all\n$a\\in A$, $G_a$ is maximal in $G$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TransitiveActionsArePrimitiveIfAndOnlyIfStabilizersAreMaximalSubgroups"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "transitive actions are primitive if and only if stabilizers are maximal subgroups"
+  ]
+}

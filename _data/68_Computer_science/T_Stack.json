@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *stack* is a one-dimensional data structure to which new members or\nelements are generally added (pushed) at the end and removed (popped)\nfrom the start. (Compare this to a queue).\n\nObviously a new pushed element gets an index number one higher than the\nmost recently pushed element. Whether the actual implementation puts the\nfirst element at the highest memory address available for the stack (and\ndecreases the stack pointer with each push) or the lowest (and increases\nthe stack with each push) there is no need to re-index elements as might\nbe the case with a queue.",
+  "language": "INFORMAL",
+  "phrase": "Stack",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Stack"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $F$ be a field and $\\alpha$ be over $F$. Then $\\alpha$ is a\n*radical* over $F$ if there exists a positive integer $n$ with\n$\\alpha^n \\in F$.\n\nNote that, if $K/F$ is a field extension and $\\alpha$ is a radical over\n$F$, then $\\alpha$ is automatically a radical over $K$.\n\nFollowing are some examples of radicals:\n\n1.  All numbers of the form $\\displaystyle \\sqrt[n]{\\frac{a}{b}}$, where\n    $n$ is a positive integer and $a$ and $b$ are integers with\n    $b \\neq 0$ are radicals over $\\mathbb{Q}$.\n\n2.  The number $\\sqrt[4]{2}$ is a radical over $\\mathbb{Q}(\\sqrt{2})$\n    since $(\\sqrt[4]{2})^2=\\sqrt{2} \\in \\mathbb{Q}(\\sqrt{2})$.",
+  "language": "INFORMAL",
+  "phrase": "Radical",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Radical1"
+    }
+  ],
+  "indexable": true
+}

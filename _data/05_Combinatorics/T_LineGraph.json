@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a graph. The *line graph* of $G$ is denoted by $L(G)$ and is\ndefined as follows. The vertices of $L(G)$ are the edges of $G$. Two\nvertices of $L(G)$ are connected by an edge if and only if the\ncorresponding edges in $G$ form a path (which must be a directed path if\n$G$ is a digraph).\n\nLet $G$ be the undirected graph on the vertex set $V(G)=\\{a,b,c,d\\}$ and\nedge set $E(G)=\\{ab, bc, cd, bd\\}$. Then the line graph $L(G)$ has\nvertex set $V(L(G))=\\{ab, bc, cd, bd\\}$. Since $ab$ and $bc$ are\nincident in $G$, they are connected by an edge in $L(G)$. We label this\nedge by the unique walk from $a$ to $c$ determined by these edges,\nnamely $abc$. With this notation, the edge set is\n$E(L(G))=\\{abc, abd, bcd, bdc, cbd\\}$. $$\\xymatrix{\n& a\\ar@{-}[d]^{ab}                     & &                          & ab\\ar@{-}[dl]_{abc}\\ar@{-}[dr]^{abd} & \\\\\n                     & b\\ar@{-}[dl]_{bc}\\ar@{-}[dr]^{bd} &  & bc\\ar@{-}[rr]^{bcd}\\ar@{-}[dr]_{cbd} &                          & bd\\ar@{-}[dl]^{bdc} \\\\\nc\\ar@{-}[rr]_{cd} & & d &                         & cd\n}$$ Above we display the graphs $G$ (left) and $L(G)$ (right).\n\nPart of the reason for interest in line graphs is the following\nobservation:\n\nIf a graph is Eulerian, then its line graph is Hamiltonian.\n\nThis follows immediately from the fact that a sequence of incident edges\nin $G$ is a sequence of incident vertices in $L(G)$.\n\nLet $B_n$ be the de Bruijn digraph on binary strings of length $n$. Then\nfor $n\\ge 2$, the next de Bruijn digraph can be obtained by taking the\nline graph of the previous one, that is, $B_{n+1}=L(B_n)$.",
+  "language": "INFORMAL",
+  "phrase": "Line Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LineGraph"
+    }
+  ],
+  "indexable": true
+}

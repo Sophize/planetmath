@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a ring and $M$ a left module over $R$.\n\nIf $M$ has a finite basis, then all bases for $M$ are finite.\n\nSuppose $A=\\lbrace a_1,\\ldots, a_n\\rbrace$ is a finite basis for $M$,\nand $B$ is another basis for $M$. Each element in $A$ can be expressed\nas a finite linear combination of elements in $B$. Since $A$ is finite,\nonly a finite number of elements in $B$ are needed to express elements\nof $A$. Let $C=\\lbrace b_1,\\ldots,b_m\\rbrace$ be this finite subset (of\n$B$). $C$ is linearly independent because $B$ is. If $C\\ne B$, pick\n$b\\in B-C$. Then $b$ is expressible as a linear combination of elements\nof $A$, and subsequently a linear combination of elements of $C$. This\nmeans that $b=r_1b_1+\\cdots +r_mb_m$, or $0=-b+r_1b_1+\\cdots r_mb_m$,\ncontradicting the linear independence of $C$.\n\nIf $M$ has an infinite basis, then all bases for $M$ have the same\ncardinality.\n\nSuppose $A$ be a basis for $M$ with $|A| \\ge \\aleph_0$, the smallest\ninfinite cardinal, and $B$ is another basis for $M$. We want to show\nthat $|B|=|A|$. First, notice that $|B|\\ge \\aleph_0$ by the previous\nproposition. Each element $a\\in A$ can be expressed as a *finite* linear\ncombination of elements of $B$, so let $B_a$ be the collection of these\nelements. Now, $B_a$ is uniquely determined by $a$, as $B$ is a basis.\nAlso, $B_a$ is finite. Let $$B'=\\bigcup_{a\\in A} B_a.$$ Since $A$ spans\n$M$, so does $B'$. If $B'\\ne B$, pick $b\\in B-B'$, so that $b$ is a\nlinear combination of elements of $B'$. Moving $b$ to the other side of\nthe expression and we have expressed $0$ as a non-trivial linear\ncombination of elements of $B$, contradicting the linear independence of\n$B$. Therefore $B'=B$. This means\n$$|B|= \\left|\\bigcup_{a\\in A} B_a\\right| \\le \\aleph_0 |A| = |A|.$$\nSimilarly, every element in $B$ is expressible as a finite linear\ncombination of elements in $A$, and using the same argument as above,\n$$|A|\\le \\aleph_0 |B| \\le |B|.$$ By Schroeder-Bernstein theorem, the two\ninequalities can be combined to form the equality $|A|=|B|$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CardinalitiesOfBasesForModules"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "cardinalities of bases for modules"
+  ]
+}

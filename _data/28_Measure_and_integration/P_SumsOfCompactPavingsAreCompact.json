@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that $(K_i,\\mathcal{K}_i)$ is a paved space for each $i$ in an\nindex set $I$. The direct sum, or , $\\sum_{i\\in I}K_i$ is the union of\nthe disjoint sets $K_i\\times\\{i\\}$. The direct sum of the paving\n$\\mathcal{K}_i$ is defined as\n$$\\sum_{i\\in I}\\mathcal{K}_i=\\left\\{\\sum_{i\\in I}S_i\\colon S_i\\in\\mathcal{K}_i\\cup\\{\\emptyset\\}\\text{ is empty for all but finitely many }i\\right\\}.$$\n\nLet $(K_i,\\mathcal{K}_i)$ be compact paved spaces for $i\\in I$. Then,\n$\\sum_i\\mathcal{K}_i$ is a compact paving on $\\sum_iK_i$.\n\nThe paving $\\mathcal{K}^\\prime$ consisting of subsets of\n$\\sum_i\\mathcal{K}_i$ of the form $\\sum_iS_i$ where $S_i=\\emptyset$ for\nall but a single $i\\in I$ is easily shown to be compact. Indeed, if\n$\\mathcal{K}^{\\prime\\prime}\\subseteq \\mathcal{K}^\\prime$ satisfies the\nfinite intersection property then there is an $i\\in I$ such that\n$S\\subseteq K_i\\times\\{i\\}$ for every $S\\in\\mathcal{K}^{\\prime\\prime}$.\nCompactness of $\\mathcal{K}_i$ gives\n$\\bigcap\\mathcal{K}^{\\prime\\prime}\\not=\\emptyset$.\n\nThen, as $\\sum_i\\mathcal{K}_i$ consists of finite unions of sets in\n$\\mathcal{K}^\\prime$, it is a compact paving (see compact pavings are\nclosed subsets of a compact space).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SumsOfCompactPavingsAreCompact"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "sums of compact pavings are compact",
+    "disjoint unions of compact pavings are compact"
+  ]
+}

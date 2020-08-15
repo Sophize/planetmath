@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In respones to: Consider a standard Z-statistic used in hypothesis\ntesting. One of the variables needed to compute the Z-statistic is the\nnumber of observations. The problem is that with each additional\nobservation one has to recompute the Z-statistic from scratch. It seems\nlike there is no recursive formulation, e.g. a representation such as\nZ(n) = Z(n-1) + new piece of information. Is there perhaps an\napproximate recursive formulation? Any other thoughts? Thanks.\n\nAn example hypothesis test is:\n\n$H_0:$ $\\mu = \\mu_0$\n\n$H_1:$ $\\mu \\neq \\mu_0$\n\nWe reject this hypothesis if $\\overline{x}$ is either greater than or\nlower than a critical value. Assuming the critical values do not change\nall you have to update is $Z_0$.\n\nThe test statistic is:\n$$Z_0 = \\frac{\\overline{X} - \\mu}{\\sigma / \\sqrt{n}}$$\n\nAssuming you know $\\sigma$, when you get a new variable $X_{n+1}$ you\ncan update $\\overline{x}$ using $n$, $\\overline{X}$, and $X_{n+1}$, then\nrecalculate $Z_0$.\n\nNow if you do not know $\\sigma$, and your sample size is large enough to\nuse the Normal distribution, you have to update your sample variance,\n$S^2$. If your sample size is not large enough and you are using the\nt-distribution then your critical values will change when $n$ changes.\n\nTo do update $S$ without recalculating, you should keep running totals\nof $\\sum_i X_i$ and $\\sum_i X_i^2$, so you can update $S$ using the\ncomputation formula for the sample variance.",
+  "language": "INFORMAL",
+  "phrase": "Recursive Z-Statistic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RecursiveZstatistic"
+    }
+  ],
+  "indexable": true
+}

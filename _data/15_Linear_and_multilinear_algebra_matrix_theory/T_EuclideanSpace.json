@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definition\n==========\n\n*Euclidean $n$-space* is a metric space $(E,d)$ with the property that\nthe group of isometries is transitive and is isomorphic to an\n$n$-dimensional Euclidean vector space. To be more precise, we are\nsaying that there exists an $n$-dimensional Euclidean vector space $V$\nwith inner product $\\langle \\cdot,\\cdot\\rangle$ and a mapping\n$$+: E\\times V\\to E$$ such that the following hold:\n\n1.  For all $x,y\\in E$ there exists a unique $u\\in V$ satisfying\n    $$y=x+u,\\quad d(x,y)^2=\\langle u,u\\rangle,$$\n\n2.  For all $x,y\\in E$ and all $u\\in V$ we have $$d(x+u,y+u)=d(x,y).$$\n\n3.  For all $x\\in E$ and all $u,v\\in V$ we have $$(x+u)+v=x+(u+v).$$\n\nPutting it more succinctly: $V$ acts transitively and effectively on $E$\nby isometries.\n\n#### Remarks.\n\n-   The difference between Euclidean space and a Euclidean vector space\n    is one of loss of structure. Euclidean space is a Euclidean vector\n    space that has \u201cforgotten\u201d its origin.\n\n-   A 2-dimensional Euclidean space is often called a *Euclidean plane*.",
+  "language": "INFORMAL",
+  "phrase": "Euclidean Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EuclideanSpace"
+    }
+  ],
+  "indexable": true
+}

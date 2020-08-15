@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Gamma$ be a family of plane curves. The [*isocline*]{} of $\\Gamma$\nis the locus of the points, in which all members of $\\Gamma$ have an\nequal slope.\n\nIf the family $\\Gamma$ has the differential equation\n$$F(x,\\,y,\\,\\frac{dy}{dx}) = 0,$$ then the equation of any isocline of\n$\\Gamma$ has the form $$F(x,\\,y,\\,K) = 0$$ where $K$ is .\\\nFor example, the family $$y = e^{Cx}$$ of curves satisfies the\ndifferential equation $\\frac{dy}{dx} = Ce^{Cx}$ or $\\frac{dy}{dx} = Cy$,\nwhence the isoclines are $Cy =K$, i.e. they are horizontal lines.\\",
+  "language": "INFORMAL",
+  "phrase": "Isocline",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Isocline"
+    }
+  ],
+  "indexable": true
+}

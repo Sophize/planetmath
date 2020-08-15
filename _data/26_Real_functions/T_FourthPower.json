@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "biquadratic number"
+  ],
+  "definition": "The [*fourth power*]{} of a number $x$ is the number obtained\nmultiplying $x$ by itself three times thus:\n$x \\times x \\times x \\times x$. It\u2019s more commonly denoted as $x^4$. For\nexample, $2^4 = 2 \\times 2 \\times 2 \\times 2 = 16$. Since the square of\na square number is a fourth power, $x^2 x^2 = x^{2 + 2} = x^4$, fourth\npowers are sometimes called [*biquadratic numbers*]{}. For example,\n$2^4 = 2^2 2^2 = 4^2 = 16$. The first few integer fourth powers are 1,\n16, 81, 256, 625, 1296, 2401, etc., listed in A000290 of Sloane\u2019s OEIS.\n\nAny integer can be represented by the sum of at most 19 integer fourth\npowers (see Waring\u2019s problem).\n\nEuler\u2019s conjecture was first disproven with fifth powers, but there are\nalso counterexamples using fourth powers. Sloane\u2019s A003828 lists the\nknown integers $n$ having solutions to $n^4 = a^4 + b^4 + c^4$.\n\nThe fourth power of a negative number is always a positive number; the\nfourth root of a negative real number is a complex number $a + bi$ with\n$|a| = |b|$ and $a \\neq 0$.",
+  "language": "INFORMAL",
+  "phrase": "Fourth Power",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FourthPower"
+    }
+  ],
+  "indexable": true
+}

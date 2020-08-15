@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*moving average*]{} is a sequence of arithmetic means taken over a\nfixed interval moved along consecutive data points from an infinite (or\nsufficiently large) set of data points. That is, given a sequence\n$a_x, \\ldots, a_{x + k}$ and an interval $n$, the average\n$$\\frac{a_{i - \\frac{n}{2}} + \\ldots + a_{i + \\frac{n}{2}}}{n}$$ is\ntaken for each value $(x +  n) < i < (x + k - n)$.\n\nPlotting a moving average can help to smooth out an extremely jagged\ncurve so as to allow one to see larger patterns. For example, take this\nplot of the $\\Omega(n)$ for $20 < n < 120$:\n\n![image](BigOmegaPlot)\n\nIf instead we plot a moving average with an interval of 40, we get a\nsmoother curve:\n\n![image](BigOmegaMovAvgPlot)\n\nThough in all honesty, moving averages are not all that useful in number\ntheory. They are much used, however, in statistics and fields using\nstatistics, such as physics and economics. In economics, for example, a\nmoving average over an interval of say, 3 months, helps investors worry\nless about the wild hectic fluctuations in a day of trading and focus on\nthe overall direction of a given stock. In physics, to give another\nexample, a yearly moving average of parts per million of carbon dioxide\nin the atmosphere of the Earth smooths out the yearly dips of summer to\nshow that overall carbon dioxide is going up, contributing to\nsignificant global warming.",
+  "language": "INFORMAL",
+  "phrase": "Moving Average",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MovingAverage"
+    }
+  ],
+  "indexable": true
+}

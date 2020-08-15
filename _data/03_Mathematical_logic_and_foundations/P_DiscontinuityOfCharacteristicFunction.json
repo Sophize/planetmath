@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** For a subset $A$ of $\\mathbb{R}^n$, the set of the points\nof the characteristic function $\\chi_A$ is the of $A$.\\\n[*Proof.*]{} Let $a$ be a discontinuity point of $\\chi_A$. Then any of\n$a$ contains the points $b$ and $c$ such that $\\chi_A(b) = 1$ and\n$\\chi_A(c) = 0$. Thus $b \\in A$ and $c \\notin A$, whence $a$ is a\nboundary point of $A$.\n\nIf, on the contrary, $a$ is a boundary point of $A$ and $U(a)$ an\narbitrary neighborhood of $a$, it follows that $U(a)$ contains both\npoints belonging to $A$ and points not belonging to $A$. So we have in\n$U(a)$ the points $b$ and $c$ such that $\\chi_A(b) = 1$ and\n$\\chi_A(c) = 0$. This means that $\\chi_A$ cannot be continuous at the\npoint $a$ (N.B. that one does not need to know the value $\\chi_A(a)$).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiscontinuityOfCharacteristicFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "discontinuity of characteristic function"
+  ]
+}

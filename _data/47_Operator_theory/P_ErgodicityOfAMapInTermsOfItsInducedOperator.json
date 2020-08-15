@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $(X, \\mathfrak{B}, \\mu)$ be a probability space\nand $T:X \\longrightarrow X$ a measure-preserving transformation. The\nfollowing statements are equivalent:\n\n1.  - $T$ is ergodic.\n\n2.  - If $f$ is a measurable function and $f\\circ T =f$ , then $f$ is\n    constant a.e.\n\n3.  - If $f$ is a measurable function and $f\\circ T \\geq f$ a.e., then\n    $f$ is constant a.e.\n\n4.  - If $f \\in L^2(X)$ and $f\\circ T =f$ a.e., then $f$ is constant\n    a.e..\n\n5.  - If $f \\in L^p(X)$, with $p \\geq 1$, and $f\\circ T =f$ a.e., then\n    $f$ is constant a.e.\n\n$\\,$\n\nLet $U_T$ denote the , i.e. the operator defined by $U_T f:= f \\circ T$.\nThe statements above are statements about $U_T$. The above theorem can\nbe rewritten as follows:\n\n$\\,$\n\n[**Theorem -**]{} Let $(X, \\mathfrak{B}, \\mu)$ be a probability space\nand $T:X \\longrightarrow X$ a measure-preserving transformation. The\nfollowing statements are equivalent:\n\n1.  - $T$ is ergodic.\n\n2.  - The only fixed points of $U_T$ are the functions that are constant\n    a.e.\n\n3.  - If $f$ a measurable function and $U_T f \\geq f$ a.e., then $f$ is\n    constant a.e.\n\n4.  - The eigenspace of $U_T$ (seen as an operator in $L^p(X)$, with\n    $p \\geq 1$) associated with the eigenvalue $1$, is one-dimensional\n    and consists of functions that are constant a.e.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ErgodicityOfAMapInTermsOfItsInducedOperator"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "ergodicity of a map in terms of its induced operator"
+  ]
+}

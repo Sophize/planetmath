@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(Q,I)$ and $(Q',I')$ be over the same base field $k$.\n\n**Definition.** A morphism $F:Q\\to Q'$ is said to be **bounded by\n$(I,I')$** if $\\overline{F}:kQ\\to kQ'$ is such that\n$$\\overline{F}(I)\\subseteq I'.$$ In this case we write\n$$F:(Q,I)\\to (Q',I')$$ and we say that $F$ is a **morphism of bound\nquivers**.\n\nIf $F:(Q,I)\\to (Q',I')$ is a morphism of bound quivers, then\n$\\overline{F}:kQ\\to kQ'$ induces a linear map\n$$\\overline{\\overline{F}}:kQ/I\\to kQ'/I'.$$ Furthermore, if $F_0$ is\ninjective, then $\\overline{F}$ is a homomorphism of algebras (see for\ndetails) and thus $\\overline{\\overline{F}}$ is a homormorphism of\nalgebras.",
+  "language": "INFORMAL",
+  "phrase": "Morphisms Between Bound Quivers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MorphismsBetweenBoundQuivers"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry we show that the pullback of a monomorphism is also a\nmonomorphism. Let $m:T\\to Y$ be a monomorphism, let $f:X\\to Y$ be an\narbitrary morphism, and suppose that $S=T\\times_Y X$ is a pullback\n(refer to the diagram below) with $\\hat{m}:S\\to X$ and $\\hat{f}:S\\to\nT$ the pullback projections. Let $a,b:A\\to S$ be morphisms such that\n$$\\hat{m} a = \\hat{m} b =d.$$ Our goal is to show that, necessarily,\n$a=b$.\n\nBy the commutativity of the pullback square, we have\n$$m \\hat{f} a = m \\hat{f} b.$$ Since $m$ is a mono, this implies that\n$$\\hat{f} a = \\hat{f} b;$$ we name this morphism $c$. By construction,\n$$fd = mc .$$ Hence, by the universality of the pullback there exists a\nunique morphism from $A$ to $S$ that makes everything commute. Hence,\nboth $a$ and $b$ are equal to that morphism, and hence are equal to each\nother.\n\n![pullback of a monomorphism](pullbackofmonomorphism-fig){width=\"5cm\"}\n\n[9]{} J. Ad\u00e1mek, H. Herrlich and G.E. Strecker, \u201dAbstract and Concrete\nCategories\u201d,",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MonomorphismsArePullbackStable"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "monomorphisms are pullback stable"
+  ]
+}

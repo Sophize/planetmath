@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "classical first order logic",
+    "FO"
+  ],
+  "definition": "A logic is *first order* if it has exactly one type. Usually the term\nrefers specifically to the logic with connectives $\\neg$, $\\vee$,\n$\\wedge$, $\\rightarrow$, and $\\leftrightarrow$ and the quantifiers\n$\\forall$ and $\\exists$, all given the usual semantics:\n\n-   $\\neg\\phi$ is true iff $\\phi$ is not true\n\n-   $\\phi\\vee\\psi$ is true if either $\\phi$ is true or $\\psi$ is true\n\n-   $\\forall x\\phi(x)$ is true iff $\\phi^t_x$ is true for every object\n    $t$ (where $\\phi^t_x$ is the result of replacing every unbound\n    occurrence of $x$ in $\\phi$ with $t$)\n\n-   $\\phi\\wedge\\psi$ is the same as $\\neg(\\neg\\phi\\vee\\neg\\psi)$\n\n-   $\\phi\\rightarrow\\psi$ is the same as $(\\neg\\phi)\\vee\\psi$\n\n-   $\\phi\\leftrightarrow\\psi$ is the same as\n    $(\\phi\\rightarrow\\psi)\\wedge(\\psi\\rightarrow\\phi)$\n\n-   $\\exists x\\phi(x)$ is the same as $\\neg\\forall x\\neg\\phi(x)$\n\nHowever languages with slightly different quantifiers and connectives\nare sometimes still called first order as long as there is only one\ntype.",
+  "language": "INFORMAL",
+  "phrase": "First Order Logic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FirstOrderLogic"
+    }
+  ],
+  "indexable": true
+}

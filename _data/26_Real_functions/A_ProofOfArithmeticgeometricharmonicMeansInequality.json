@@ -1,0 +1,17 @@
+{
+  "argumentText": "For the Arithmetic Geometric Inequality, I claim it is enough to prove\nthat if $\\prod_{i=1}^n x_i = 1$ with $x_i \\geq 0$ then\n$\\sum_{i=1}^n x_i \\geq n$. The arithmetic geometric inequality for\n$y_1,\\ldots,y_n$ will follow by taking\n$x_i = \\frac{y_i}{\\sqrt[n]{\\prod_{k=1}^n y_k}}$. The geometric harmonic\ninequality follows from the arithmetic geometric by taking\n$x_i = \\frac{1}{y_i}$.\n\nSo, we show that if $\\prod_{i=1}^n x_i = 1$ with $x_i \\geq 0$ then\n$\\sum_{i=1}^n x_i \\geq n$ by induction on $n$.\n\nClear for $n=1$.\n\nInduction Step: By reordering indices we may assume the $x_i$ are\nincreasing, so $x_{n} \\geq 1 \\geq x_1$. Assuming the statement is true\nfor $n-1$, we have $x_2 + \\cdots + x_{n-1} + x_1x_{n} \\geq n-1$. Then,\n$$\\sum_{i=1}^n x_i \\geq n-1 + x_n + x_1-x_1x_n$$ by adding $x_1+x_n$ to\nboth sides and subtracting $x_1x_n$. And so, $$\\begin{aligned}\n\\sum_{i=1}^n x_i \n&\\geq n+( x_n -1)+ (x_1 -x_1 x_n) \\\\\n&= n + (x_n - 1) - x_1 (x_n -1)\\\\\n&= n + (x_n - 1)(1 - x_1) \\\\\n&\\geq n\\end{aligned}$$ The last line follows since $x_n\\geq 1 \\geq x_1$.",
+  "conclusion": "#P_ArithmeticgeometricharmonicMeansInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfArithmeticgeometricharmonicMeansInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of arithmetic-geometric-harmonic means inequality"
+  ]
+}

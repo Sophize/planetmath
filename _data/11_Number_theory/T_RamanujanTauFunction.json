@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Ramanujan's tau function"
+  ],
+  "definition": "The *Ramanujan tau function* is the arithmetic function\n$\\tau\\colon\\mathbb{N}\\to\\mathbb{Z}$ such that, for all $q\\in\\mathbb{C}$\nwith $|q|<1$,\n$$q\\prod_{k=1}^{\\infty}(1-q^k)^{24}=\\sum_{n=1}^{\\infty} \\tau(n)q^n.$$\nThus, the Ramanujan tau function is the generating function for the .\n\nDetermining values of the Ramanujan tau function directly can be\nsomewhat involved. For example, the values of $\\tau(1)$, $\\tau(2)$, and\n$\\tau(3)$ will be determined:\n\nTo determine $\\tau(1)$, $\\tau(2)$, and $\\tau(3)$, we need to find the\ncoefficient of $q$, $q^2$, and $q^3$, respectively, of the expression\n$$q\\prod_{k=1}^{\\infty}(1-q^k)^{24}.$$ Note that we only need to\nconsider $k=1$ and $k=2$, since higher values of $k$ yield of $q$ that\nare too large. Thus: $$\\begin{aligned}\nq(1-q)^{24}(1-q^2)^{24} & =q(1-24q+276q^2-\\dots)(1-24q^2+\\dots) \\\\\n& =q(1-24q+276q^2-\\dots-24q^2+576q^3-\\dots) \\\\\n& =q(1-24q+252q^2-\\dots) \\\\\n& =q-24q^2+252q^3-\\dots\\end{aligned}$$ Hence, $\\tau(1)=1$,\n$\\tau(2)=-24$, and $\\tau(3)=252$.\n\nThe sequence $\\{\\tau(n)\\}$ appears in the OEIS as sequence .\n\nAlthough the values of $|\\tau(n)|$ seem to increase rapidly as $n$\nincreases, the conjecture that $\\tau(n)\\neq 0$ for all $n\\in\\mathbb{N}$\nhas not yet been proven. This conjecture is known as *Lehmer\u2019s\nconjecture*.\n\nThe Ramanujan tau function has the following properties:\n\n-   It is a multiplicative function: For $a,b\\in\\mathbb{N}$ with\n    $\\gcd(a,b)=1$, we have $\\tau(ab)=\\tau(a)\\tau(b)$.\n\n-   For any prime $p$ and any $n\\in\\mathbb{N}$,\n    $$\\tau(p^{n+1})=\\tau(p)\\tau(p^n)-p^{11}\\tau(p^{n-1}).$$\n\n-   For any prime $p$, $$|\\tau(p)|\\le 2p^{\\frac{11}{2}}.$$\n\nRamanujan asserted that $\\tau$ several congruences, all of which have\nbeen proven. Some simpler examples of such congruences include:\n\n-   For any $n\\in\\mathbb{N}$, $$\\tau(5n)\\equiv 0\\pmod 5.$$\n\n-   For any $n\\in\\mathbb{N}$ and for any nonnegative integer $r<7$ which\n    is a quadratic residue modulo $7$, $$\\tau(7n-r)\\equiv 0\\pmod 7.$$\n\n-   For any $n\\in\\mathbb{N}$ and for any nonnegative integer $r<23$\n    which is a quadratic residue modulo $23$,\n    $$\\tau(23n-r)\\equiv 0\\pmod{23}.$$\n\n[9]{} Berndt, Bruce C. *Number Theory in the Spirit of Ramanujan*.\nProvidence, RI: American Mathematical Society, 2006.",
+  "language": "INFORMAL",
+  "phrase": "Ramanujan Tau Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RamanujanTauFunction"
+    }
+  ],
+  "indexable": true
+}

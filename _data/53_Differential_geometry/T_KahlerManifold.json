@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "k\\\"ahlerian manifold",
+    "k\\\"ahler structure"
+  ],
+  "definition": "Let $M$ be a complex manifold with integrable $J$.\n\nSuppose $M$ is also a Riemannian manifold with metric tensor $g$ such\nthat $\\forall_{X,Y} g(X,Y) = g(JX,JY)$. We say that $g$ is an *Hermitian\nmetric tensor*.\n\nA differentiable manifold $M$ is said to be a *K\u00e4hler manifold* iff all\nthe following conditions are verified:\n\n-   $M$ is a complex manifold with complex structure $J$\n\n-   $M$ is a Riemannian manifold with an Hermitian metric $g$\n\n-   $J$ is covariantly constant with regard to the Levi-Civita\n    connection ($\\nabla J = 0$)\n\nK\u00e4hler manifolds are symplectic in a natural way with symplectic form\ndefined by $\\omega(X,Y) = g(JX,Y)$",
+  "language": "INFORMAL",
+  "phrase": "K\\\"Ahler Manifold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KahlerManifold"
+    }
+  ],
+  "indexable": true
+}

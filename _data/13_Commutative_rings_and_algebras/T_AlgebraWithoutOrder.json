@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An $A$ is said to be if it is commutative and\\\nfor each $a \\in A$, there exists $b \\in A$ such that $ab \\ne 0$.\\\nThe phrase algebra without order seems first in the book \u201cMultipliers of\nBanach algebras\u201d by Ronald Larsen. In noncommutative case, the concept\nis divied into two parts \u2013 without left/right order. However, in the\nnoncommutative case, it is defined in terms of the injectivity of the\nleft (right) regular representation given by\n$x \\in A \\mapsto L_x \\in L(A)$.\n\nNote that for an algebra $A$ and an element $x \\in A$, $L_x : A \\to A$\nis the map defined by $L_x(y) = xy$. Then $L_x$ is a linear operator on\n$A$. It is easy to see that $A$ is without left order if and only if the\nmap $x \\in A \\mapsto L_x \\in L(A)$ is one-one; equivalently, the left\nideal $\\{x \\in A : x \\in A\\} = \\{0\\}$. This ideal is is called the left\nannihilator of $A$.\n\nEvery commutative algebra with identity is without order.\\\nExample: $\\mathbb{R}^2$ with multiplication defined by\n$(x_1,x_2) * (y_1,y_2) = (x_1y_1,0)$,\n($(x_1,x_2), (y_1,y_2) \\in \\mathbb{R}^2$) is not an algebra without\norder as multiplication of (0,1) with any other element gives (0,0).",
+  "language": "INFORMAL",
+  "phrase": "Algebra Without Order",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraWithoutOrder"
+    }
+  ],
+  "indexable": true
+}

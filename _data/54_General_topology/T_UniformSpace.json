@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *uniform structure* (or *uniformity*) on a set $X$ is a non empty set\n$\\mathcal{U}$ of subsets of $X \\times X$ which satisfies the following\naxioms:\n\n1.  Every subset of $X\\times X$ which contains a set of $\\mathcal{U}$\n    belongs to $\\mathcal{U}$.\n\n2.  Every finite intersection of sets of $\\mathcal{U}$ belongs to\n    $\\mathcal{U}$.\n\n3.  Every set of $\\mathcal{U}$ is a reflexive relation on $X$ (i.e.\n    contains the diagonal).\n\n4.  If $V$ belongs to $\\mathcal{U}$, then $V' = \\{(y,x): (x,y) \\in V\\}$\n    belongs to $\\mathcal{U}$.\n\n5.  If $V$ belongs to $\\mathcal{U}$, then exists $V'$ in $\\mathcal{U}$\n    such that, whenever $(x,y),(y,z) \\in V'$, then $(x,z) \\in V$ (i.e.\n    $V'\\circ V'\\subseteq V$).\n\nThe sets of $\\mathcal{U}$ are called *entourages* or *vicinities*. The\nset $X$ together with the uniform structure $\\mathcal{U}$ is called a\n*uniform space*.\n\nIf $V$ is an entourage, then for any $(x,y)\\in V$ we say that $x$ and\n$y$ are *$V$-close*.\n\nEvery uniform space can be considered a topological space with a natural\ntopology induced by uniform structure. The uniformity, however, provides\nin general a richer structure, which formalize the concept of relative\ncloseness: in a uniform space we can say that $x$ is close to $y$ as $z$\nis to $w$, which makes no sense in a topological space. It follows that\nuniform spaces are the most natural environment for uniformly continuous\nfunctions and Cauchy sequences, in which these concepts are naturally\ninvolved.\n\nExamples of uniform spaces are metric spaces, topological groups, and\ntopological vector spaces.",
+  "language": "INFORMAL",
+  "phrase": "Uniform Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformSpace"
+    }
+  ],
+  "indexable": true
+}

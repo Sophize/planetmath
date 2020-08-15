@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V$ be an algebraic variety defined over a field $K$. By $V(K)$ we\ndenote the set of points on $V$ defined over $K$. Let $\\bar{K}$ be an\nalgebraic closure of $K$. For a valuation $\\nu$ of $K$, we write\n$K_{\\nu}$ for the completion of $K$ at $\\nu$. In this case, we can also\nconsider $V$ defined over $K_{\\nu}$ and talk about $V(K_{\\nu})$.\n\n1.  If $V(K)$ is not empty we say that $V$ is *soluble* in $K$.\n\n2.  If $V(K_{\\nu})$ is not empty then we say that $V$ is *locally\n    soluble* at $\\nu$.\n\n3.  If $V$ is locally soluble for all $\\nu$ then we say that $V$\n    satisfies the *Hasse condition*, or we say that $V/K$ is *everywhere\n    locally soluble*.\n\nThe *Hasse Principle* is the idea (or desire) that an everywhere locally\nsoluble variety $V$ must have a rational point, i.e. a point defined\nover $K$. Unfortunately this is not true, there are examples of\nvarieties that satisfy the Hasse condition but have no rational points.\n\n[**Example**]{}: A quadric (of any dimension) satisfies the Hasse\ncondition. This was proved by Minkowski for quadrics over $\\mathbb{Q}$\nand by Hasse for quadrics over a number field.\n\n[9]{} Swinnerton-Dyer, [*Diophantine Equations: Progress and\nProblems*]{}, .",
+  "language": "INFORMAL",
+  "phrase": "Hasse Principle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HassePrinciple"
+    }
+  ],
+  "indexable": true
+}

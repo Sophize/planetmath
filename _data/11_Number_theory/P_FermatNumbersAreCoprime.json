@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Any two Fermat numbers are coprime.\n\nProof.\\\nLet $F_m$ and $F_n$ two Fermat numbers, and assume $m<n$. Let $d$ a\npositive common divisor of $F_n$ and $F_m$, that is\n$$d \\mid F_m,\\qquad d\\mid F_n.$$\n\nIf $d\\mid F_m$ then $d\\mid F_1F_2\\cdots F_{n-1}$ since some factor must\nbe $F_m$ itself. But $F_n-F_1F_2\\cdots F_{n-1}=2$ and so $d \\mid 2$.\nSince $d$ is odd, we must have $d=1$.\n\nTherefore, the greatest common divisor of any two Fermat numbers must be\n$1$.\n\nQ.E.D.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FermatNumbersAreCoprime"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Fermat numbers are coprime"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $T:V\\to W$ be a linear transformation. Then the [**image**]{} of $T$\nis the set\n$$\\operatorname{Im} (T) = \\{ w\\in W \\mid w=T(v) \\,\\mbox{for some}\\, v\\in V\\} = T(V).$$\n\n### Properties\n\n1.  The dimension of $\\operatorname{Im}(T)$ is called the rank of $T$;\n\n2.  $T$ is a surjection, if and only if $\\operatorname{Im}(T)=W$;\n\n3.  $\\operatorname{Im}(T)$ is a vector subspace of $W$;\n\n4.  If $L\\colon W\\to U$ is a linear transformation, then\n    $\\operatorname{Im}(LT) =L(\\operatorname{Im}(T))$;",
+  "language": "INFORMAL",
+  "phrase": "Image Of A Linear Transformation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ImageOfALinearTransformation"
+    }
+  ],
+  "indexable": true
+}

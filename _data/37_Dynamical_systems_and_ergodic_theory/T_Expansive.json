@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $(X,d)$ is a metric space, a homeomorphism $f\\colon X\\to X$ is said\nto be **expansive** if there is a constant $\\varepsilon_0>0$, called the\n**expansivity constant**, such that for any two points of $X$, their\n$n$-th iterates are at least $\\varepsilon_0$ apart for some integer $n$;\ni.e. if for any pair of points $x\\neq y$ in $X$ there is\n$n\\in {\\mathbb{Z}}$ such that $d(f^n(x),f^n(y))\\geq \\varepsilon_0$.\n\nThe space $X$ is often assumed to be compact, since under that\nassumption expansivity is a topological property; i.e. any map which is\ntopologically conjugate to $f$ is expansive if $f$ is expansive\n(possibly with a different expansivity constant).\n\nIf $f\\colon X\\to X$ is a continuous map, we say that $X$ is **positively\nexpansive** (or forward expansive) if there is $\\varepsilon_0$ such\nthat, for any $x\\neq y$ in $X$, there is $n\\in {\\mathbb{N}}$ such that\n$d(f^n(x),f^n(y))\\geq \\varepsilon_0$.\n\n**Remarks.** The latter condition is much stronger than expansivity. In\nfact, one can prove that if $X$ is compact and $f$ is a positively\nexpansive homeomorphism, then $X$ is finite ().",
+  "language": "INFORMAL",
+  "phrase": "Expansive",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Expansive"
+    }
+  ],
+  "indexable": true
+}

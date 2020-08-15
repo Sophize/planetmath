@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Ab5 category",
+    "cocomplete abelian category"
+  ],
+  "definition": "Let $\\mathcal{A}$ be an *Abelian cocomplete category*, defined as the\ndual of an Abelian complete category.\n\nA *$C_3$-category* is defined as a cocomplete Abelian category\n$\\mathcal{A}$ such that the following distributivity relation holds for\nany direct family $\\left\\{A_i\\right\\}$ and any subobject $B$:\n\n$$(\\bigcup A_i) \\bigcap B = \\bigcup (A_i \\bigcap B),$$ [@BM266]\n\nA *$C_3$-category* is also called an $\\mathcal{A}b5$-category.\n\nThe dual of the Cartesian closed category of finite Abelian quantum\ngroups with exponential elements (including Lie groups) and quantum\ngroup homomorphisms is a $C_3$-category.\n\n[9]{} See p.82 and eq. (1) in ref. $[266]$ in the\n\nRef. $[288]$ in the",
+  "language": "INFORMAL",
+  "phrase": "$C_3$-Category Is $ Ab5$",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/C3categoryIsAb5"
+    }
+  ],
+  "indexable": true
+}

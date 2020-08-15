@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a ring with elements $a, b \\in R$. Suppose we want to find\nthe inverse of the element $(a + b) \\in R$. (Note that we call the\nelement $(a+b)$ the sum of $a$ and $b$.) So we want the unique element\n$c \\in R$ so that $(a + b) + c = 0$. Actually, let\u2019s put\n$c = (-a) + (-b)$ where $(-a) \\in R$ is the additive inverse of $a$ and\n$(-b) \\in R$ is the additive inverse of $b$. Because addition in the\nring is both associative and commutative we see that $$\\begin{aligned}\n(a + b) + ((-a) + (-b)) & = & (a + (-a)) +(b + (-b))\\\\\n & = & 0 + 0 = 0\\end{aligned}$$ since $(-a) \\in R$ is the additive\ninverse of $a$ and $(-b) \\in R$ is the additive inverse of $b$. Since\nadditive inverses are unique this means that the additive inverse of\n$(a + b)$ must be $(-a) + (-b)$. We write this as\n$$-(a + b) = (-a) + (-b).$$\n\nIt is important to note that we [*cannot*]{} just distribute the minus\nsign across the sum because this would imply that $-1 \\in R$ which is\nnot the case if our ring is not with unity.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdditiveInverseOfASumInARing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "additive inverse of a sum in a ring"
+  ]
+}

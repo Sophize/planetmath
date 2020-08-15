@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f \\colon (0,\\infty) \\to {\\mathbb{R}}$ be Riemann integrable and\nuniformly continuous then $$\\lim_{t \\to \\infty} f(t) = 0 .$$\n\nNote that if $f$ is non-negative, then Riemann integrability is the same\nas being $L^1$ in the sense of Lebesgue, but if $f$ oscillates then the\nLebesgue integral may not exist.\n\nFurther note that the uniform continuity is required to prevent sharp\n\u201cspikes\u201d that might prevent the limit from existing. For example suppose\nwe add a spike of height 1 and area $2^{-n}$ at every integer. Then the\nfunction is continuous and $L^1$ (and thus Riemann integrable), but\n$f(t)$ would not have a limit at infinity.\n\n[9]{} Hartmut Logemann, Eugene P. Ryan. . *The American Mathematical\nMonthly*, 111(10):864\u2013889, 2004.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BarbualatsLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Barb\\u{a}lat's lemma",
+    "Barbalat's lemma"
+  ]
+}

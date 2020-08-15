@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A chord of a circle the corresponding disk into two *circular segments*.\nThe perimetre of a circular segment consists thus of the chord ($c$) and\na circular arc ($a$).\n\nThe magnitude $r$ of the radius of circle and the magnitude $\\alpha$ of\na central angle naturally determine uniquely the magnitudes of the\ncorresponding arc and chord, and these may be directly calculated from\n$$\\begin{aligned}\n\\begin{cases}\na \\;=\\; r\\alpha,\\\\\nc \\;=\\; 2r\\sin\\frac{\\alpha}{2}.\n\\end{cases}\\end{aligned}$$ Conversely, the magnitudes of $a$ and $c$\n($< a$) uniquely determine $r$ and $\\alpha$ from the pair of equations\n(1), but $r$ and $\\alpha$ are generally not in a closed form; this\nbecomes clear from the relationship\n$\\frac{c}{a}\\cdot\\frac{\\alpha}{2} = \\sin\\frac{\\alpha}{2}$ implied by\n(1).\\\n\n(-4,-3)(4,3) (0,0) (0,0)[2.5]{}[20]{}[130]{} (0,0)[2.5]{}[130]{}[380]{}\n(-1.607,1.915)(2.349,0.855) (-1.607,1.915)(2.349,0.855)\n(-1.607,1.915)(0,0)(2.349,0.855) (0.1,0.3)[$\\alpha$]{} (0.6,2.6)[$a$]{}\n(0.35,1.15)[$c$]{} (-0.9,0.8)[$r$]{} (-4,-3)[.]{} (4,3)[.]{}\n\nThe area of a circular segment is obtained by subtracting from \\[resp.\nadding to\\] the area of the corresponding sector the area of the\nisosceles triangle having the chord as \\[the adding concerns the case\nwhere the central angle is greater than the straight angle\\]:\n$$A \\;=\\; \\frac{\\alpha}{2\\pi}\\cdot\\pi r^2\\mp\\frac{1}{2}r^2\\sin\\alpha \\;=\\;\\frac{r^2}{2}(\\alpha\\mp\\sin\\alpha)$$\\\nThe of the circular segment, i.e. the distance of the of the arc and the\nchord, may be expressed in the following forms:\n$$h \\;=\\; \\left(1-\\cos\\frac{\\alpha}{2}\\right)r \\;=\\; r-\\sqrt{r^2-\\frac{c^2}{4}} \\;=\\; \\frac{c}{2}\\tan\\frac{\\alpha}{4}$$",
+  "language": "INFORMAL",
+  "phrase": "Circular Segment",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CircularSegment"
+    }
+  ],
+  "indexable": true
+}

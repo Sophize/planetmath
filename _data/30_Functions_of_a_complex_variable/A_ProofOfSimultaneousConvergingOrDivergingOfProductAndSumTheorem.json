@@ -1,0 +1,17 @@
+{
+  "argumentText": "From the fact that $1+x \\leq e^{x}$ for $x \\geq 0$ we get\n$$\\sum_{n=1}^{m} a_n \\leq \\prod_{n=1}^{m} (1+a_n) \\leq e^{\\sum_{n=1}^{m} a_n}$$\nSince $a_n \\geq 0$ both the partial sums and the partial products are\nmonotone increasing with the number of terms. This concludes the proof.",
+  "conclusion": "#P_SimultaneousConvergingOrDivergingOfProductAndSumTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfSimultaneousConvergingOrDivergingOfProductAndSumTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Simultaneous converging or diverging of product and sum theorem"
+  ]
+}

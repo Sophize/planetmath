@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Galois group* $\\operatorname{Gal}(K/F)$ of a field extension $K/F$\nis the group of all field automorphisms $\\sigma\\colon K \\to K$ of $K$\nwhich fix $F$ (i.e., $\\sigma(x) = x$ for all $x \\in F$). The group\noperation is given by composition: for two automorphisms\n$\\sigma_1, \\sigma_2 \\in \\operatorname{Gal}(K/F)$, given by\n$\\sigma_1\\colon K \\to K$ and $\\sigma_2\\colon K \\to K$, the product\n$\\sigma_1 \\cdot \\sigma_2 \\in \\operatorname{Gal}(K/F)$ is the composite\nof the two maps $\\sigma_1 \\circ \\sigma_2\\colon K \\to K$.\n\nThe *Galois group* of a polynomial $f(x) \\in F[x]$ is defined to be the\nGalois group of the splitting field of $f(x)$ over $F$.",
+  "language": "INFORMAL",
+  "phrase": "Galois Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaloisGroup"
+    }
+  ],
+  "indexable": true
+}

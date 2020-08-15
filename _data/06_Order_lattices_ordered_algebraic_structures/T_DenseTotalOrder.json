@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "dense linear order"
+  ],
+  "definition": "A total order $(S,<)$ is *dense* if whenever $x < z$ in $S$, there\nexists at least one element $y$ of $S$ such that $x < y < z$. That is,\neach nontrivial closed interval has nonempty interior.\n\nA subset $T$ of a total order $S$ is *dense in* $S$ if for every\n$x,z\\in S$ such that $x<z$, there exists some $y\\in T$ such that\n$x<y<z$. Because of this, a dense total order $S$ is sometimes said to\nbe *dense in itself*.\n\nFor example, the integers with the usual order are not dense, since\nthere is no integer strictly between $0$ and $1$. On the other hand, the\nrationals $\\mathbb{Q}$ are dense, since whenever $r$ and $s$ are\nrational numbers, it follows that $(r+s)/2$ is a rational number\nstrictly between $r$ and $s$. Also, both $\\mathbb{Q}$ and the\nirrationals $\\mathbb{R}\\setminus\\mathbb{Q}$ are dense in $\\mathbb{R}$.\n\nIt is usually convenient to assume that a dense order has at least two\nelements. This allows one to avoid the trivial cases of the one-point\norder and the empty order.",
+  "language": "INFORMAL",
+  "phrase": "Dense Total Order",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DenseTotalOrder"
+    }
+  ],
+  "indexable": true
+}

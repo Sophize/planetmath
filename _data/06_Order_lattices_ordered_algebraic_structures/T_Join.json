@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "or operator"
+  ],
+  "definition": "Certain posets $X$ have a binary operation *join* denoted by $\\lor$,\nsuch that $x \\lor y$ is the least upper bound of $x$ and $y$. Such\nposets are called *join-semilattices*, or *$\\lor$-semilattices*, or\n*upper semilattices*.\n\nIf $j$ and $j'$ are both joins of $x$ and $y$, then $j \\leq j'$ and\n$j' \\leq j$, and so $j = j'$; thus a join, if it exists, is unique. The\njoin is also known as the *or operator*.",
+  "language": "INFORMAL",
+  "phrase": "Join",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Join"
+    }
+  ],
+  "indexable": true
+}

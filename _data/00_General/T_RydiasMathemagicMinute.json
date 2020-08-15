@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[*Rydia\u2019s Mathemagic Minute*]{} is a mini-game from [*Final Fantasy\nXIII*]{} in which Rydia presents the player a riddle in the form of four\nnumbers, each in the range $-1 < n < 10$ which the player must then\nemploy in conjunction with a selection of basic arithmetic operations\n(addition, subtraction, multiplication, division) in order to obtain 10\nas a result. For example, given {8, 8, 6, 4}, one possible solution is\n$8 \\times 8 - 4 \\div 6$. If the player can solve the riddle, he is given\nanother riddle of the same form, until exhausting the time limit of 90\nseconds. A player may skip a riddle and move on to another one, but in\nso doing incurs a penalty in negative points. Correctly answering five\nriddles in a row results in the player receives a time limit extension.\n\nConcatenation is not allowed. For example, given {1, 7, 2, 9},\n$19 - (2 + 7)$ is not a valid answer; the program in fact will not allow\nthe player to even try concatenation. Answers involving negative numbers\nat intermediate steps are not valid either, though when they occur\nthey\u2019re displayed in blue (in lieu of a minus sign). Fractions are not\nat all allowed at intermediate steps, and when the player presents an\noperation that would result in such a result (e.g., dividing a number by\na smaller coprime number), the computer simply rejects the operation.\n\nThe mini-game can be played either as a side quest on the full game, or\nby itself online at [Square Enix Members]{}.",
+  "language": "INFORMAL",
+  "phrase": "Rydia'S Mathemagic Minute",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RydiasMathemagicMinute"
+    }
+  ],
+  "indexable": true
+}

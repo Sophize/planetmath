@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathfrak{g}}$ be a Lie algebra, and\n${\\mathfrak{h}}\\subset{\\mathfrak{g}}$ a subalgebra. The isotropy\nrepresentation of ${\\mathfrak{h}}$ relative to ${\\mathfrak{g}}$ is the\nnaturally defined action of ${\\mathfrak{h}}$ on the quotient vector\nspace ${\\mathfrak{g}}/{\\mathfrak{h}}$.\n\nHere is a synopsis of the technical details. As is customary, we will\nuse $$b+{\\mathfrak{h}},\\, b\\in{\\mathfrak{g}}$$ to denote the coset\nelements of ${\\mathfrak{g}}/{\\mathfrak{h}}$. Let $a\\in{\\mathfrak{h}}$ be\ngiven. Since ${\\mathfrak{h}}$ is invariant with respect to\n${\\mathop{\\mathrm{ad}}\\nolimits}_{\\mathfrak{g}}(a)$, the adjoint action\nfactors through the quotient to give a well defined endomorphism of\n${\\mathfrak{g}}/{\\mathfrak{h}}$. The action is given by\n$$b+{\\mathfrak{h}}\\mapsto [a,b]+{\\mathfrak{h}},\\quad b\\in{\\mathfrak{g}}.$$\nThis is the action alluded to in the first paragraph.",
+  "language": "INFORMAL",
+  "phrase": "Isotropy Representation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IsotropyRepresentation"
+    }
+  ],
+  "indexable": true
+}

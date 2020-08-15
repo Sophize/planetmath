@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "homotopic paths",
+    "continuous deformation",
+    "homotopy"
+  ],
+  "definition": "Let $X$ be a topological space and $p,q$ paths in $X$ with the same\ninitial point $x_{0}$ and terminal point $x_{1}$. If there exists a\ncontinuous function $F: I \\times I \\to X$ such that\n\n1.  $F(s,0)=p(s)$ for all $s \\in I$\n\n2.  $F(s,1)=q(s)$ for all $s \\in I$\n\n3.  $F(0,t)=x_{0}$ for all $t \\in I$\n\n4.  $F(1,t)=x_{1}$ for all $t \\in I$\n\nwe call $F$ a *homotopy of paths* in $X$ and say $p,q$ are *homotopic\npaths* in $X$. $F$ is also called a *continuous deformation*.",
+  "language": "INFORMAL",
+  "phrase": "Homotopy Of Paths",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomotopyOfPaths"
+    }
+  ],
+  "indexable": true
+}

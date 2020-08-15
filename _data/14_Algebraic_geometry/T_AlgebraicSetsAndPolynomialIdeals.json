@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "vanishing set"
+  ],
+  "definition": "Suppose $k$ is a field. Let ${\\mathbb{A}}^n_k$ denote affine $n$-space\nover $k$.\\\nFor $S \\subseteq k[x_1,\\ldots,x_n]$, define $V(S)$, the [*zero set of\n$S$*]{}, by\n$$V(S) = \\{(a_1,\\ldots,a_n) \\in k^n \\mid f(a_1,\\ldots,a_n)=0 \\text{ for all } f \\in S\\}$$\nWe say that $Y \\subseteq {\\mathbb{A}}^n_k$ is an (affine) [*algebraic\nset*]{} if there exists $T \\subseteq k[x_1,\\ldots,x_n]$ such that\n$Y=V(T)$. Taking these subsets of ${\\mathbb{A}}^n_k$ as a definition of\nthe closed sets of a topology induces the Zariski topology over\n${\\mathbb{A}}^n_k$.\\\nFor $Y \\subseteq {\\mathbb{A}}^n_k$, define the [*[ideal]{} of $Y$ in\n$k[x_1,\\ldots,x_n]$*]{} by\n$$I(Y)=\\{f \\in k[x_1,\\ldots,x_n] \\mid f(P)=0 \\text{ for all } P \\in Y\\}.$$\nIt is easily shown that $I(Y)$ is an ideal of $k[x_1,\\ldots,x_n]$.\\\nThus we have defined a function $V$ mapping from subsets of\n$k[x_1,\\ldots,x_n]$ to algebraic sets in ${\\mathbb{A}}^n_k$, and a\nfunction $I$ mapping from subsets of ${\\mathbb{A}}^n$ to ideals of\n$k[x_1,\\ldots,x_n]$.\\\nWe remark that the theory of algebraic sets presented herein is most\ncleanly stated over an algebraically closed field. For example, over\nsuch a field, the above have the following properties:\n\n1.  $S_1 \\subseteq S_2 \\subseteq k[x_1,\\ldots,x_n]$ implies\n    $V(S_1) \\supseteq V(S_2)$.\n\n2.  $Y_1 \\subseteq Y_2 \\subseteq {\\mathbb{A}}_k^n$ implies\n    $I(Y_1) \\supseteq I(Y_2)$.\n\n3.  For any ideal $\\mathfrak{a} \\subset k[x_1,\\ldots,x_n]$,\n    $I(V(\\mathfrak{a}))=\\operatorname{Rad}(\\mathfrak{a})$.\n\n4.  For any $Y \\subset {\\mathbb{A}}^n_k$, $V(I(Y))=\\overline{Y}$, the\n    closure of $Y$ in the Zariski topology.\n\nFrom the above, we see that there is a 1-1 correspondence between\nalgebraic sets in ${\\mathbb{A}}^n_k$ and radical ideals of\n$k[x_1,\\ldots,x_n]$. Furthermore, an algebraic set\n$Y \\subseteq {\\mathbb{A}}^n_k$ is an affine variety if and only if\n$I(Y)$ is a prime ideal. As an example of how things can go wrong, the\nradical ideals $(1)$ and $(x^2+1)$ in $\\mathbb{R}[x]$ define the same\nzero locus (the empty set) inside of $\\mathbb{R}$, but are not the same\nideal, and hence there is no such 1-1 correspondence.",
+  "language": "INFORMAL",
+  "phrase": "Algebraic Sets And Polynomial Ideals",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraicSetsAndPolynomialIdeals"
+    }
+  ],
+  "indexable": true
+}

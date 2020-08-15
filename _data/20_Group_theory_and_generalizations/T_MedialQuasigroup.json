@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *medial quasigroup* is a quasigroup such that, for any choice of four\nelements $a,b,c,d$, one has\n$$(a \\cdot b) \\cdot (c \\cdot d) = (a \\cdot c) \\cdot (b\\cdot d) .$$\n\nAny commutative quasigroup is trivially a medial quasigroup. A\nnontrivial class of examples may be constructed as follows. Take a\ncommutative group $(G,+)$ and two automorphisms $f, g \\colon G \\to G$\nwhich commute with each other, and an element $c$ of $G$. Then, if we\ndefine an operation $\\cdot \\colon G \\times G \\to G$ as\n$$x \\cdot y = f(a) + g(b) + c ,$$ $(G,\\cdot)$ is a medial quasigroup.\n\nReference:\n\nV. D. Belousov, Fundamentals of the theory of quasigroups and loops (in\nRussian)",
+  "language": "INFORMAL",
+  "phrase": "Medial Quasigroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MedialQuasigroup"
+    }
+  ],
+  "indexable": true
+}

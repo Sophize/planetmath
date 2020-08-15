@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a normed vector space, and let $K\\subset X$ be a non-empty,\ncompact, and convex set. Then given any continuous mapping\n$f\\colon K \\to K$ there exists $x\\in K$ such that $f(x)=x$.\n\nNotice that the unit disc of a finite dimensional vector space is always\nconvex and compact hence this theorem extends Brouwer Fixed Point\nTheorem.\n\nNotice that the space $X$ is not required to be complete, however the\nsubset $K$ being compact, is complete with respect to the metric induced\nby $X$.\n\n[9]{} Rudin, *Functional Analysis*, Chapter 5.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchauderFixedPointTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Schauder fixed point theorem"
+  ]
+}

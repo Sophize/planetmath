@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "difference kernel",
+    "difference cokernel",
+    "equaliser",
+    "coequaliser",
+    "has equalizers"
+  ],
+  "definition": "Let $\\mathcal{C}$ be a category. A family of morphisms in $\\mathcal{C}$\nis said be if they belong to $\\operatorname{Hom}(A,B)$, for some objects\n$A,B$ in $\\mathcal{C}$.\n\nLet $f,g$ be a pair of parallel morphisms in $\\operatorname{Hom}(A,B)$.\nA morphism $d\\colon X\\to A$ is said to equalize $f$ and $g$ if $fd=gd$.\nIn other words, the following diagrams are equal:\n$$\\xymatrix@1{X\\ar[r]^d&A\\ar[r]^f&B}=\\xymatrix@1{X\\ar[r]^d&A\\ar[r]^g&B}$$\n\nAn *equalizer* of $f$ and $g$ is a morphism $d$ from an object\n$X \\in \\mathcal{C}$ to $A$, such that\n\n1.  $d$ *equalizes* $f$ and $g$\n\n2.  $d$ is universal among all morphisms that equalize $f$ and $g$.\n    Specifically, if $e$ is a morphism from an object $Y\\in\\mathcal{C}$\n    to $A$ such that $e$ equalizes $f$ and $g$, then there exists a\n    unique morphism $h:Y\\to X$ and a commutative diagram:\n    $$\\xymatrix@1{Y \\ar[d]_h \\ar[dr]^e \\\\ X \\ar[r]_d & A}$$\n\nReversing all the arrows in the previous paragraphs, we have the dual\nnotion of an equalizer: that of a coequalizer. To make this statement\nexplicitly, let there be given two morphisms\n$f,g\\in\\operatorname{Hom}(A,B)$, a *coequalizer* is a morphism $c$ from\n$B$ to an object $Z\\in\\mathcal{C}$ such that\n\n1.  $\\xymatrix@1{A\\ar[r]^f&B\\ar[r]^c&Z}=\\xymatrix@1{A\\ar[r]^g&B\\ar[r]^c&Z}$.\n    Such a morphism is said to *coequalize* $f$ and $g$.\n\n2.  $c$ is universal among all morphisms that coequalizes $f$ and $g$.\n    This means that given a morphism $r$ from $B$ to an object\n    $Y\\in\\mathcal{C}$, there exists a unique morphism\n    $r\\in\\operatorname{Hom}(Z,Y)$ so the following diagram commutes:\n    $$\\xymatrix@1{B \\ar[dr]_e \\ar[r]^c & Z \\ar[d]^r \\\\ & Y}$$\n\n**Remarks**\n\n-   An equalizer is a monomorphism (but not the other way around, a\n    monomorphism that is also an equalizer is called a *regular\n    monomorphism*). A coequalizer is an epimorphism (and conversely, an\n    epimorphism that is also a coequalizer is called a *regular\n    epimorphism*). This follows directly from the above definitions and\n    definitions of monomorphisms and epimorphisms.\n\n-   If $X\\to A$ is an equalizer of $f,g\\colon A\\to B$, then $[X\\to A]$\n    is a subobject of $A$. Furthermore, by the universality of the\n    equalizer, it is the \u201clargest\u201d such subobject. Similarly, If\n    $B\\to Z$ is a coequalizer of $f,g$, then $[B\\to Z]$ is the \u201clargest\"\n    quotient object of $B$.\n\n-   From the above discussion, we can safely say *the* equalizer of $f$\n    and $g$ and *the* coequalizer of $f$ and $g$.\n\n-   The equalizer of a morphism $f:A\\to B$ and itself is the identity\n    morphism $1_A$ on $A$.\n\n-   A category is said to *have equalizers* if every pair of parallel\n    morphisms has an equalizer.\n\nOne can also define an equalizer of an arbitrary set of morphisms with a\ncommon domain and a common codomain: if\n$\\lbrace f_i:A\\to B\\mid i\\in I\\rbrace$ is a set of morphisms from $A$ to\n$B$, indexed by a set $I$, then an equalizer of the $f_i$\u2019s is a\nmorphism $d$ from an object $X$ to $A$ such that $d$ equalizes every\npair of morphisms $f_i$ and $f_j$ and that $d$ is universal among all\nmorphisms with such a property.\n\n**Remark**. An equalizer (coequalizer) is also known as a *difference\nkernel* (*difference cokernel*). This name is justifiably given as we\nrecognize that a kernel of a morphism $f$ is, in a way, the \u201cdifference\"\nbetween $f$ and $o$, the zero morphism.",
+  "language": "INFORMAL",
+  "phrase": "Equalizer",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Equalizer"
+    }
+  ],
+  "indexable": true
+}

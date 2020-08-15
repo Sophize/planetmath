@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry $A$ and $B$ are endomorphisms of a vector space $V$. If\n$V$ is finite dimensional, we may choose a basis and regard $A$ and $B$\nas square matrices of equal dimension.\n\n[**Theorem -**]{} Let $A$ and $B$ be endomorphisms of a vector space\n$V$. We have that\n\n1.  $I-AB$ is if and only if $I-BA$ is invertible, and moreover\n\n2.  $I-AB$ is injective if and only if $I-BA$ is injective.\n\n[**Proof :**]{}\n\n1.  Suppose that $I-AB$ is invertible. We shall prove that\n    $B(I-AB)^{-1}A +I$ is the inverse of $I-BA$. In fact\n    $$\\begin{aligned}\n    \\Big(I-BA\\Big)\\Big(B(I-AB)^{-1}A +I\\Big) &=& B(I-AB)^{-1}A + I - BAB(I-AB)^{-1}A - BA\\\\\n    &=& B \\Big((I-AB)^{-1} - AB(I-AB)^{-1}\\Big)A + I - BA\\\\\n    &=& B \\Big((I-AB)(I-AB)^{-1}\\Big)A + I -BA\\\\\n    &=& BA + I - BA\\\\\n    &=& I\\end{aligned}$$\n\n    A similar computation shows that\n    $\\Big(B(I-AB)^{-1}A +I\\Big)\\Big(I-BA\\Big) = I$, i.e. $I - BA$ is\n    invertible.\n\n    Exchanging the roles of $A$ and $B$ we can prove the \u201cif\u201d part. So\n    $I-AB$ is invertible if and only if $I - BA$ is invertible.\n\n2.  Let us first recall that a linear map between vector spaces is\n    invertible if and only if its kernel $\\operatorname{ker}$ is the\n    zero vector (see ).\n\n    Suppose $I - AB$ is not injective, i.e. there exists $u \\neq 0$ such\n    that $(I-AB)u=0$. Then $$(I-BA)Bu = B(I-AB)u = 0$$\n\n    i.e. $Bu \\in \\operatorname{ker}(I-BA)$. Notice that $Bu \\neq 0$\n    because $u = ABu$ (by definition of $u$), so $I-BA$ is also not\n    injective.\n\n    Similarly, if $I-BA$ is not injective then $I - AB$ is not\n    injective. $\\square$\n\n[**Remark -**]{} It is known that for finite dimensional vector spaces a\nlinear endomorphism is invertible if and only if it is injective. This\ndoes not remain true for infinite dimensional spaces, hence 1 and 2 are\ntwo different statements.\n\nComments\n--------\n\nThe result stated in 1 can be proven in a more general context \u2014 If $A$\nand $B$ are elements of a ring with unity, then $I-AB$ is invertible if\nand only if $I-BA$ is invertible. See the entry on techniques in\nmathematical proofs, in which this result is proven using several\ndifferent techniques.\n\nThis entry is based on .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IABIsInvertibleIfAndOnlyIfIBAIsInvertible"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "I-AB is invertible if and only if I-BA is invertible"
+  ]
+}

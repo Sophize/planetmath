@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Unlike the scalar logarithm, there are no naturally-defined bases for\nthe matrix logarithm; therefore, the matrix logarithm is always taken to\nbe the natural logarithm. In general, there may be an infinite number of\nmatrices $B$ satisfying $\\exp(B)=A$; these are known as the logarithms\nof $A$.\n\nAs for the scalar natural logarithm, the matrix logarithm can be defined\nas a power series when $A$ is a square matrix and\n${\\ensuremath{||I-A||_F}} < 1$, where ${\\ensuremath{||\\cdot||_F}}$ is\nthe Frobenius matrix norm. The logarithm this formula produces is known\nas the *principal logarithm* of $A$.\n$$\\log(A) = -\\sum_{k=1}^\\infty \\frac{(I-A)^k}{k} =\\log(I+X) = \\sum_{k=1}^\\infty \\frac{(-1)^{k+1}}{k} X^k$$\n\nSince this series expansion does not converge for all $A$, it is not a\nglobal inverse function for the matrix exponential. In particular,\n$\\exp^{\\log A}=A$ only holds for ${\\ensuremath{||I-A||_F}} < 1$, and\n$\\log(\\exp^A)=A$ only holds for ${\\ensuremath{||A||_F}} < 2$.\n\nThere are other, more general methods of calculating the matrix\nlogarithm. For example, see .",
+  "language": "INFORMAL",
+  "phrase": "Matrix Logarithm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MatrixLogarithm"
+    }
+  ],
+  "indexable": true
+}

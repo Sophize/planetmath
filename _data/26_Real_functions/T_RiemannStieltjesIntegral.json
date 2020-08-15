@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f$ and $\\alpha$ be bounded, real-valued functions defined upon a\nclosed finite interval $I = [ a, b ]$ of $\\mathbb{R} (a \\neq b)$,\n$P = \\{ x_{0}, ..., x_{n} \\}$ a partition of $I$, and $t_{i}$ a point of\nthe subinterval $[ x_{i - 1}, x_{i} ]$. A sum of the form\n\n$$S(P, f, \\alpha) = \\sum_{i = 1}^{n} f(t_{i}) (\\alpha(x_{i}) - \\alpha(x_{i - 1}))$$\n\nis called a **Riemann-Stieltjes sum** of $f$ with respect to $\\alpha$.\n$f$ is said to be **Riemann Stieltjes integrable with respect to**\n$\\alpha$ on $I$ if there exists $A \\in \\mathbb{R}$ such that given any\n$\\epsilon > 0$ there exists a partition $P_{\\epsilon}$ of $I$ for which,\nfor all $P$ finer than $P_{\\epsilon}$ and for every choice of points\n$t_{i}$, we have\n\n$$|S(P, f, \\alpha) - A| < \\epsilon$$\n\nIf such an $A$ exists, then it is unique and is known as the\n**Riemann-Stieltjes integral of $f$ with respect to $\\alpha$**. $f$ is\nknown as the **integrand** and $\\alpha$ the **integrator**. The integral\nis denoted by\n\n$$\\int_{a}^{b}fd\\alpha \\quad \\textrm{or} \\quad \\int_{a}^{b}f(x)d\\alpha(x)$$",
+  "language": "INFORMAL",
+  "phrase": "Riemann-Stieltjes Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RiemannStieltjesIntegral"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $M[x]$ be an arbitrary matrix polynomial of order $n$ and $A$ a\nsquare matrix of the same order. Then, when the matrix polynomial is\ndivided on the right (left) by the characteristic polynomial $xI-A$, the\nremainder is $M(A)$ ($\\widehat{M}(A)$).\n\nConsider $M[x]$ given by\n$$M[x] = M_0 x^m + M_1 x^{m-1} + \\cdots + M_m, \\qquad (M_0\\neq 0).$$ The\npolynomial can also be written as\n$$M[x]=x^mM_0+x^{m-1}M_1+\\cdots +M_m.$$ We are now substituting the\nscalar argument (real or complex) $x$ by the matrix $A$ and therefore\n(1) and (2) will, in general, be distinct, as the powers of $A$ need not\nbe permutable with the polynomial matrix coefficients. So that,\n$$M(A) = M_0 A^m + M_1 A^{m-1} + \\cdots + M_m$$ and\n$$\\widehat{M}(A)=A^mM_0+A^{m-1}M_1+\\cdots +M_m,$$ calling $M(A)$\n($\\widehat{M}(A)$) the right (left) value of $M[x]$ on substitution of\n$A$ for $x$.\\\nIf we divide $M[x]$ by the binomial $xI-A$ ($I$ is the correspondent\nidentity matrix), we shall prove that the right (left) remainder $R$\n($\\widehat{R}$) does not depend on $x$. In fact, $$\\begin{aligned}\nM[x]=& M_0 x^m + M_1 x^{m-1} + \\cdots + M_m \\\\\n    =& M_0 x^{m-1} (xI-A) + (M_0 A + M_1) x^{m-1} + M_2 x^{m-2} + \\cdots + M_m \\\\\n    =& [M_0 x^{m-1} + (M_0 A + M_1) x^{m-2}](xI-A) + (M_0A^2 + M_1A + M_2)x^{m-2} + M_3x^{m-3} + \\cdots + M_m \\\\\n    =& [M_0 x^{m-1} + (M_0A + M_1)x^{m-2} + (M_0A^2 + M_1A + M_2)x^{m-3}](xI-A) \\\\\n     & + (M_0A^3 + M_1A^2 + M_2A + M_3)x^{m-3} + M_4x^{m-4} + \\cdots + M_m \\\\\n    =& [M_0 x^{m-1}+(M_0A+M_1)x^{m-2}+(M_0A^2+M_1A+M_2)x^{m-3}+\\cdots \\\\\n     & +(M_0A^{m-1}+M_1A^{m-2}+\\cdots+M_{m-1})](xI-A) + M_0A^m+M_1A^{m-1}+\\cdots+M_m, \\end{aligned}$$\nwhence we have found that\n$$R= M_0A^m+M_1A^{m-1}+\\cdots+M_m\\equiv M(A),$$ and analogously that\n$$\\widehat{R}= A^mM_0+A^{m-1}M_1+\\cdots+M_m\\equiv \\widehat{M}(A),$$\nwhich proves the theorem.\n\nFrom this theorem we have the following\n\nA polynomial $M[x]$ is divisible by the characteristic polynomial $xI-A$\non the right (left) without remainder iff $M(A)=0$ ($\\widehat{M}(A)=0$).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedBezoutTheoremOnMatrices"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "generalized B\\'ezout theorem on matrices"
+  ]
+}

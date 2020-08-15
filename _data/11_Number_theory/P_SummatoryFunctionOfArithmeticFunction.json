@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Definition.** The *summatory function* $F$ of an arithmetic function\n$f$ is the Dirichlet convolution of $F$ and the constant function 1,\ni.e. $$F(n) \\;=:\\; \\sum_{d\\,\\mid\\,n}f(d)$$ where $d$ runs the positive\ndivisors of the integer $n$.\n\nIt may be proved that the summatory function of a multiplicative\nfunction is multiplicative.\\\n**Theorem.** The summatory function of the Euler phi function is the\nidentity function:\n$$\\sum_{d\\,\\mid\\,n}\\varphi(d) \\;=\\; \\sum_{d\\,\\mid\\,n}\\varphi\\left(\\frac{n}{d}\\right) \\;=\\; n \n\\quad \\mbox{for all }\\, n \\in \\mathbb{Z}_+.$$\n\n*Proof.* The first equality follows from the fact that any positive\ndivisor of $n$ is got from $n/d$ where $d$ is a divisor of $n$. Further,\nlet $1 \\le m \\le n$ where $\\gcd(m,\\,n) = d$. Then $\\gcd(m/d,\\,n/d) = 1$\nand $1 \\le m/d \\le n/d$. This defines a bijection between the prime\nclasses modulo $n/d$ and such values of $m$ in\n$\\{1,\\,2,\\,\\ldots,\\,n\\!-\\!1\\}$ for which $\\gcd(m,\\,n) = d$. The number\nof the latters $\\varphi(n/d)$. Furthermore, the only $m$ with\n$1 \\le m \\le n$ and $\\gcd(m,\\,n) = n$ is $m := n$, and\n$\\varphi(n/n) = \\varphi(1)$, by definition. Summing then over all\npossible values $d$ yields the second equality.\n\n[8]{} : [*Elementary number theory*]{}. HHH productions, Link\u00f6ping\n(2009).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SummatoryFunctionOfArithmeticFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "summatory function of arithmetic function",
+    "summatory function"
+  ]
+}

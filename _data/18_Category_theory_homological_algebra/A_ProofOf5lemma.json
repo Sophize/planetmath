@@ -1,0 +1,17 @@
+{
+  "argumentText": "First, assume that we are in modules over a ring (this is the most\ncommonly used setting anyways).\n\nThe method of proof is what is usually called diagram-chasing.\n\nLet $a$ be in the kernel of $\\gamma_3$. Then\n$d(\\gamma_3(a))=\\gamma_4(da)=0$, and $\\gamma_4$ is injective, so $da=0$.\nBy exactness, $a=da'$ for some $a'\\in A_4$. Now,\n$d(\\gamma_2a')=\\gamma_3a=0$, so $\\gamma_2a'=db$, and by the surjectivity\nof $\\gamma_1$, $b=\\gamma_1a''$. $da'''=\\gamma_2^{-1}d\\gamma_1(a'')=a'$.\nThus, $a=d^2a''=0$. So, $\\gamma_3$ is an injection.\n\nNow, assume $b$ is not in the image of $\\gamma_3$. $db\\neq 0$, so\n$a'=\\gamma_4^{-1}db\\neq 0$. $\\gamma_5 da'=d^2b=0$, and $\\gamma_5$ is\ninjective, so $da'=0$, and there exists an $a''$ such that $da''=a'$.\nThus, $d(b-\\gamma_3a'')=0$. So there is an $\\alpha$ such that\n$d\\gamma_2 \\alpha=b-\\gamma_3a''$. Thus, $\\gamma_3(a''+d\\alpha)=b$. Thus,\n$\\gamma_3$ is surjective.\n\nThis actually implies the result for all abelian categories, since by\nthe , any abelian category is equivalent to a subcategory of modules\nover a ring. This trick is necessary since the trick above required us\nto have a notion of elements in the objects of our category, one which\ndoesn\u2019t always make sense. The 5-lemma can be proved directly, but the\nproof is just less enlightening than the one above.",
+  "conclusion": "#P_5lemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOf5lemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of 5-lemma"
+  ]
+}

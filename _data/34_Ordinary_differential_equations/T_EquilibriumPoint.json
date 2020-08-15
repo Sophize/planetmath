@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "steady state solution",
+    "fixed point",
+    "singular point"
+  ],
+  "definition": "Consider an autonomous differential equation $$\\dot{x}=f(x).\n\\label{eq}$$\\\nAn *equilibrium point* $x_0$ of (\\[eq\\]) is such that $f(x_0)=0$.\nConversely a *regular point* of (\\[eq\\]) is such that $f(x_0)\\neq 0$.\n\nIf the linearization $Df(x_0)$ has no eigenvalue with zero real part,\n$x_0$ is said to be a hyperbolic equilibrium, whereas if there exists an\neigenvalue with zero real part, the equilibrium point is nonhyperbolic.\\\nAn equilibrium point $x_0$ is said to be *stable* if for every\nneighborhood $x_0$,$U$ there exists a neighborhood of $x_0$,\n$U'\\subset U$ such that every solution of (\\[eq\\]) with initial\ncondition in $U'$ *(i.e. $x(0)\\in U'$)*, satisfies $$x(t)\\in U$$ for all\n$t\\geq0$.\\\nConsequently an equilibrium point $x_0$ is said to be *unstable* if it\nis not stable.\\\nMoreover an equilibrium point $x_0$ is said to be *asymptotically\nstable* if it is stable and there exists $U''$ such that every solution\nof (\\[eq\\]) with initial condition in $U''$ *(i.e. $x(0)\\in U''$)*\nsatisfies $$\\lim_{t\\to\\infty}x(t)=x_0.$$",
+  "language": "INFORMAL",
+  "phrase": "Equilibrium Point",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquilibriumPoint"
+    }
+  ],
+  "indexable": true
+}

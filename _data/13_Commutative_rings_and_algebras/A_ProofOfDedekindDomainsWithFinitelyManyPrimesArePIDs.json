@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let ${\\mathfrak{p}}_1,\\ldots,{\\mathfrak{p}}_k$ be all the primes of a\nDedekind domain $R$. If $I$ is any ideal of $R$, then by the Weak\nApproximation Theorem we can choose $x\\in R$ such that\n$\\nu_{{\\mathfrak{p}}_i}((x))=\\nu_{{\\mathfrak{p}}_i}(I)$ for all $i$\n(where $\\nu_{{\\mathfrak{p}}}$ is the ${\\mathfrak{p}}$-adic valuation).\nBut since $R$ is Dedekind, ideals have unique factorization; since $(x)$\nand $I$ have identical factorizations, we must have $(x)=I$ and $I$ is\nprincipal.",
+  "conclusion": "#P_DedekindDomainsWithFinitelyManyPrimesArePIDs",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfDedekindDomainsWithFinitelyManyPrimesArePIDs"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Dedekind domains with finitely many primes are PIDs"
+  ]
+}

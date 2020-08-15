@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring with multiplicative identity. Let $M$ be a () module\nover $R$. We may assume there exists an exact sequence $P_*$:\n\n$$\\dots\\dots\\rightarrow P_2\\rightarrow P_1\\rightarrow P_0$$\n\nwith the $P_n$ projective and the cokernel of the last map $M$. Given\n$M$, this sequence is unique up to chain homotopy. Hence we may make the\nfollowing definitions.\n\nFor a () $R$- module $A$ we may define\n\n$$Ext_R^n(M,A)=H^n(P_*; A)$$\n\nFor a (left) $R$- module $A$ we may define\n\n$$Tor_R^n(M,A)=H_n(P_*; A)$$",
+  "language": "INFORMAL",
+  "phrase": "Tor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Tor"
+    }
+  ],
+  "indexable": true
+}

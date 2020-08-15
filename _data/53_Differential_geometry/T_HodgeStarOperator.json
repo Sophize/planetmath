@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Hodge operator",
+    "star operator"
+  ],
+  "definition": "Let V be a $n$-dimensional ($n$ finite) vector space with inner product\n$g$. The *Hodge star operator* (denoted by $\\ast$) is a linear operator\nmapping on $V$ to $(n-p)$-forms, i.e.,\n$$\\ast : \\Omega^p (V)\\to \\Omega^{n-p}(V).$$\n\nIn terms of a basis $\\{e^1,\\ldots, e^n\\}$ for $V$ and the corresponding\ndual basis $\\{e_1,\\ldots, e_n\\}$ for $V^*$ (the star used to denote the\ndual space is not to be confused with the Hodge star!), with the inner\nproduct being expressed in terms of components as\n$g = \\sum_{i,j = 1}^n g_{ij} e^i\\otimes e^j$, the $\\ast$-operator is\ndefined as the linear operator that maps the basis elements of\n$\\Omega^p(V)$ as $$\\begin{aligned}\n\\label{hodgedef}\n\\ast(e^{i_1} \\wedge \\cdots \\wedge e^{i_p})\\!\\!\\!\\! &=& \\!\\!\\!\\!\\frac{\\sqrt{|g|}}{(n-p)!} g^{i_1 l_1}\\cdots  g^{i_p l_p} \\varepsilon_{l_1 \\cdots l_p\\, l_{p+1} \\cdots l_n} e^{l_{p+1}}\\wedge \\cdots \\wedge  e^{l_{n}}.\\end{aligned}$$\nHere, $|g|=\\det g_{ij}$, and $\\varepsilon$ is the Levi-Civita\npermutation symbol\n\nThis operator may be defined in a coordinate-free manner by the\ncondition $$u \\wedge *v = g (u, v) \\, \\mathop{\\bf Vol}(g)$$ where the\nnotation $g(u,v)$ denotes the inner product on $p$-forms (in\ncoordinates,\n$g(u,v) = g_{i_1 j_1} \\cdots g_{i_p j_p} u^{i_1 \\ldots i_p} v^{j_1 \\ldots j_p}$)\nand $\\mathop{\\bf Vol}(g)$ is the unit volume form associated to the\nmetric. (in coordinates,\n$\\mathop{\\bf Vol}(g) = \\sqrt {\\operatorname{det}(g)} e^1 \\wedge \\cdots \\wedge e^n$)\n\nGenerally $\\ast \\ast = (-1)^{p(n-p)} \\operatorname{id}$, where\n$\\operatorname{id}$ is the identity operator in $\\Omega^p (V)$. In three\ndimensions, $\\ast \\ast = \\operatorname{id}$ for all $p=0,\\ldots,3$. On\n$\\mathbb{R}^3$ with Cartesian coordinates, the metric tensor is\n$g=dx\\otimes dx + dy\\otimes dy + dz\\otimes dz$, and the Hodge star\noperator is $$\\begin{aligned}\n \\ast dx = dy\\wedge dz,\\ \\ \\ \\ \\ \\   \\ast dy = dz\\wedge dx,\\ \\ \\ \\ \\ \\  \\ast dz = dx\\wedge dy.\\end{aligned}$$\n\nThe Hodge star operation occurs most frequently in differential geometry\nin the case where $M^n$ is a $n$-dimensional orientable manifold with a\nRiemannian (or pseudo-Riemannian) tensor $g$ and $V$ is a cotangent\nvector space of $M^n$. Also, one can extend this notion to antisymmetric\ntensor fields by computing Hodge star pointwise.",
+  "language": "INFORMAL",
+  "phrase": "Hodge Star Operator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HodgeStarOperator"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "There are 5 non-isomorphic composition algebras over a finite field $k$\nof characteristic not 2, 2 division algebras and 3 split algebras.\n\n1.  The field $k$.\n\n2.  The unique quadratic extension field $K/k$.\n\n3.  The *exchange* algebra: $k\\oplus k$.\n\n4.  $2\\times 2$ matrices over $k$: $M_2(k)$.\n\n5.  The split Cayley algebra.\n\nFollowing Hurwitz\u2019s theorem every composition algebra is given by the\nCayley-Dickson construction and has dimension 1,2, 4 or 8. Now we\nconsider the possible non-degenerate quadratic forms of these\ndimensions.\n\nSince every anisotropic 2 space corresponds to a quadratic field\nextension, and our field is finite, it follows that there is at most one\nanisotropic 2 subspace of our quadratic form. Therefore if $\\dim C>2$\nthen the quadratic form is isotropic and so the algebra is a split.\nTherefore in the Cayley-Dickson construction over a finite field there\nevery quaternion algebra is split, thus $M_2(k)$. To build the\nnon-associative division Cayley algebra of dimension 8 requires we start\nthe Cayley-Dickson construction with a division ring which is not a\nfield, and thus there are no Cayley division algebras over finite\nfields.\n\nThis result also can be seen as a consequence of Wedderburn\u2019s theorem\nthat every finite division ring is a field. Likewise, a theorem of Artin\nand Zorn asserts that every finite alternative division ring is in fact\nassociative, thus excluding the Cayley algebras in a fashion similar to\nhow Wedderburn\u2019s theorem excludes division quaternion algebras.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompositionAlgebrasOverFiniteFields"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "composition algebras over finite fields"
+  ]
+}

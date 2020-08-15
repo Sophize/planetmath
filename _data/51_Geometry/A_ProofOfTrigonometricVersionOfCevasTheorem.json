@@ -1,0 +1,17 @@
+{
+  "argumentText": "The proof goes by proving the condition imposed on the sines, is\nequivalent to the one imposed on the sides on the normal version of\nCeva\u2019s theorem.\n\n![image](ceva)\n\nWe want to prove\n$$\\frac{\\sin ACZ}{\\sin ZCB}\\cdot\\frac{\\sin BAX}{\\sin XAC}\\cdot\\frac{\\sin CBY}{\\sin YBA}=1$$\nif and only if $$\\frac{AZ}{ZB}\\cdot\\frac{BX}{XC}\\cdot\\frac{CY}{YA}=1.$$\n\nNow, the generalization of bisectors theorem states that\n$$\\begin{aligned}\n\\frac{AZ}{ZB} &= \\frac{CA \\sin ACZ}{BC \\sin ZCB},\\\\\n\\frac{BX}{XC} &= \\frac{AB \\sin BAX}{CA \\sin XAC},\\\\\n\\frac{CY}{YA} &= \\frac{BC \\sin CBY}{AB \\sin YBA}.\\end{aligned}$$\n\nMultiplying the three equations, and cancelling all segments on the\nright side gives the desired equivalence.",
+  "conclusion": "#P_TrigonometricVersionOfCevasTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfTrigonometricVersionOfCevasTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of trigonometric version of Ceva's theorem"
+  ]
+}

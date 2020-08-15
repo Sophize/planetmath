@@ -1,0 +1,17 @@
+{
+  "argumentText": "Define the graded ring $\\Pow{\\mfrac{A}}{A} \\subseteq A[X]$, where $X$ is\nan indeterminate by $$\\begin{aligned}\n\\Pow{\\mfrac{A}}{A} & = & \\coprod_{n\\geq 0} \\mfrac{A}^n X^n \\\\\n& = & \\{z_0 + z_1 X + \\cdots + z_r X^r \\mid r\\geq 0,\\> z_j\\in\n\\mfrac{A}^j\\}.\\end{aligned}$$ Now, $M$ gives rise to a graded module,\n$M'$, over $\\Pow{\\mfrac{A}}{A}$, namely $$\\begin{aligned}\nM' & = &\\coprod_{n \\geq 0} \\mfrac{A}^n M X^n \\\\\n  & = & \\{z_0 + z_1 X + \\cdots + z_r X^r \\mid r\\geq 0,\\> z_j\\in\n\\mfrac{A}^j M\\}.\\end{aligned}$$ Observe that $\\Pow{\\mfrac{A}}{A}$ is a\nnoetherian ring. For, if $\\alpha_1, \\ldots, \\alpha_q$ generate\n$\\mfrac{A}$ in $A$, then the elements of $\\mfrac{A}^n$ are sums of\ndegree $n$ monomials in the $\\alpha_j$\u2019s, i.e., if $Y_1, \\ldots, Y_q$\nare independent indeterminates the map\n$$A[Y_1, \\ldots, Y_q] \\longrightarrow \\Pow{\\mfrac{A}}{A}$$ [*via*]{}\n$Y_j \\mapsto \\alpha_j X$ is surjective, and as $A[Y_1, \\ldots, Y_q]$ is\nnoetherian, so is $\\Pow{\\mfrac{A}}{A}$.\n\nLet $m_1, \\ldots, m_t$ generate $M$ over $A$. Then, $m_1, \\ldots,\nm_t$ generate $M'$ over $\\Pow{\\mfrac{A}}{A}$. Therefore, $M'$ is a\nnoetherian module. Set\n$$N' = \\coprod_{n\\geq 0} (\\mfrac{A}^n M \\cap N)X^n \\subseteq M',$$ a\nsubmodule of $M'$. Moreover, $N'$ is a homogeneous submodule of $M$ and\nit is f.g. as $M'$ is noetherian. Consequently, $N'$ possesses a finite\nnumber of homogeneous generators: $u_1 X^{n_1}, \\ldots, u_s X^{n_s}$,\nwhere $u_j \\in  \\mfrac{A}^{n_j} M \\cap N$. Let\n$k = \\max\\{n_1, \\ldots, n_s\\}$. Given any $n \\geq k$ and any\n$z\\in  \\mfrac{A}^n M \\cap N$, look at $zX^n \\in N'_n$. We have\n$$zX^n = \\sum_{l = 1}^s a_l X^{n - n_l} u_l X^{n_l},$$ where\n$a_l X^{n - n_l} \\in \\bigl(\\Pow{\\mfrac{A}}{A}\\bigr)_{n - n_l}$. Thus,\n$$a_l \\in \\mfrac{A}^{n - n_l} = \\mfrac{A}^{n - k} \\mfrac{A}^{k - n_l}$$\nand $$a_lu_l \\in \\mfrac{A}^{n - k} (\\mfrac{A}^{k - n_l} u_l) \\subseteq\n\\mfrac{A}^{n - k} (\\mfrac{A}^{k - n_l} (\\mfrac{A}^{n_l} M \\cap N))\n\\subseteq \\mfrac{A}^{n - k} (\\mfrac{A}^{k} M \\cap N).$$ It follows that\n$z = \\sum_{l = 1}^s a_l u_l \\in\n\\mfrac{A}^{n - k} (\\mfrac{A}^{k} M \\cap N)$, so $$\\mfrac{A}^{n} M \\cap N\n\\subseteq \\mfrac{A}^{n - k} (\\mfrac{A}^{k} M \\cap N).$$ Now, it is clear\nthat the righthand side is contained in $\\mfrac{A}^{n} M \\cap N$, as\n$\\mfrac{A}^{n - k} N \\subseteq N$. $\\Box$",
+  "conclusion": "#P_ArtinReesTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfArtinReesTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Artin-Rees theorem"
+  ]
+}

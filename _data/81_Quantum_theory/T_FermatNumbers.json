@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The $n$-th *Fermat number* is defined as: $$F_n=2^{2^n}+1.$$\n\nFermat incorrectly conjectured that all these numbers were primes,\nalthough he had no proof. The first 5 Fermat numbers:\n$3, 5, 17,257,65537$ (corresponding to $n=0,1,2,3,4$) are all primes (so\ncalled Fermat primes) Euler was the first to point out the falsity of\nFermat\u2019s conjecture by proving that $641$ is a divisor of $F_5$. (In\nfact, $F_5=641\\times6700417$). Moreover, no other Fermat number is known\nto be prime for $n>4$, so now it is conjectured that those are all prime\nFermat numbers. It is also unknown whether there are infinitely many\ncomposite Fermat numbers or not.\n\nOne of the famous achievements of Gauss was to prove that the regular\npolygon of $m$ sides can be constructed with ruler and compass if and\nonly if $m$ can be written as $$m=2^k F_{r_1}F_{r_2}\\cdots F_{r_t}$$\nwhere $k\\ge 0$ and the other factors are distinct primes of the form\n$F_n$ (of course, $t$ may be $0$ here, i.e. $m=2^k$ is allowed).\n\nThere are many interesting properties involving Fermat numbers. For\ninstance: $$F_m = F_0F_1\\cdots F_{m-1}+2$$ for any $m\\geq 1$, which\nimplies that $F_m-2$ is divisible by all smaller Fermat numbers.\n\nThe previous formula holds because\n$$F_m -2 = (2^{2^m}+1)-2 = 2^{2^m}-1 = (2^{2^{m-1}}-1)(2^{2^{m-1}}+1) =  (2^{2^{m-1}}-1) F_{m-1}$$\nand expanding recursively the left factor in the last expression gives\nthe desired result.\n\n**References.**\\\nKr\u00edzek, Luca, Somer. *17 Lectures on Fermat Numbers.* CMS Books in\nMathematics.",
+  "language": "INFORMAL",
+  "phrase": "Fermat Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FermatNumbers"
+    }
+  ],
+  "indexable": true
+}

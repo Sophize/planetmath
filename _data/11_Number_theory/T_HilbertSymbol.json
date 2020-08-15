@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ be any local field. For any two nonzero elements\n$a,b \\in K^\\times$, we define: $$(a,b) :=\n\\begin{cases}\n+1 & \\text{ if $z^2 = ax^2 + by^2$ has a nonzero solution $(x,y,z) \\neq (0,0,0)$ in $K^3$,} \\\\\n-1 & \\text{ otherwise.}\n\\end{cases}$$ The number $(a,b)$ is called the [*Hilbert symbol*]{} of\n$a$ and $b$ in $K$.",
+  "language": "INFORMAL",
+  "phrase": "Hilbert Symbol",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HilbertSymbol"
+    }
+  ],
+  "indexable": true
+}

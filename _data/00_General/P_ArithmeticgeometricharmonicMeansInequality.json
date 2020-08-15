@@ -1,0 +1,18 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $x_1,x_2,\\ldots,x_n$ be positive numbers. Then $$\\begin{aligned}\n\\max\\{x_1,x_2,\\ldots,x_n\\} &\\ge& \\frac{x_1+x_2+\\cdots+x_n}{n}\\\\\n&\\ge& \\sqrt[n]{x_1 x_2\\cdots x_n} \\\\\n&\\ge& \\frac{n}{\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}}\\\\\n&\\ge& \\min\\{x_1,x_2,\\ldots,x_n\\}\\end{aligned}$$\n\nThe equality is obtained if and only if $x_1=x_2=\\cdots = x_n$.\n\nThere are several generalizations to this inequality using power means\nand weighted power means.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArithmeticgeometricharmonicMeansInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "arithmetic-geometric-harmonic means inequality",
+    "harmonic-geometric-arithmetic means inequality",
+    "arithmetic-geometric means inequality",
+    "AGM inequality",
+    "AGMH inequality"
+  ]
+}

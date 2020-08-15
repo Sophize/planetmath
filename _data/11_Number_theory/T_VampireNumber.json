@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Consider the integer 1395. In the equation $$1395 = 15 \\cdot 93,$$\nexpressed in base 10, both use the same digits.\n\nWhen a number with an even number of digits is also the product of two\nmultiplicands having half as many digits as the product, and together\nhaving the same digits, the product is called a [*vampire number*]{}.\nThe multiplicands are called [*fangs*]{}.\n\nBy definition, a vampire number can\u2019t be a prime number. But if both of\nits fangs are prime numbers, then it might be referred to as a \u201cprime\nvampire number.\u201d\n\nThis concept can be applied to any positional base, and to Roman\nnumerals. For example, $$VIII = II \\cdot IV.$$\n\nA vampire number is automatically a Friedman number also.",
+  "language": "INFORMAL",
+  "phrase": "Vampire Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VampireNumber"
+    }
+  ],
+  "indexable": true
+}

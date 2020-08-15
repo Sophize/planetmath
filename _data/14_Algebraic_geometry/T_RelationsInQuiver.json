@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $Q$ be a quiver and $k$ a field.\n\n**Definition.** A **relation** in $Q$ is a linear combination (over $k$)\nof paths of length at least $2$ such that all paths have the same source\nand target. Thus a relation is an element of the path algebra $kQ$ of\nthe form $$\\rho=\\sum_{i=1}^m\\lambda_i\\cdot w_i$$ such that there exist\n$x,y\\in Q_0$ with $s(w_i)=x$ and $t(w_i)=y$ for all $i$, all $w_i$ are\nof length at least $2$ and not all $\\lambda_i$ are zero.\n\nIf a relation $\\rho$ is of the form $\\rho=w$ for some path $w$, then it\nis called a **zero relation** and if $\\rho=w_1-w_2$ for some paths\n$w_1,w_2$, then $\\rho$ is called a **commutativity relation**.",
+  "language": "INFORMAL",
+  "phrase": "Relations In Quiver",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RelationsInQuiver"
+    }
+  ],
+  "indexable": true
+}

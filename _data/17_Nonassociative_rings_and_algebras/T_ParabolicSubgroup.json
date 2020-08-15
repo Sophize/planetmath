@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a complex semi-simple Lie group. Then any subgroup $P$ of $G$\ncontaing a Borel subgroup $B$ is called [*parabolic*]{}. Parabolics are\nclassified in the following manner. Let ${\\mathfrak{g}}$ be the Lie\nalgebra of $G$, ${\\mathfrak{h}}$ the unique Cartan subalgebra contained\nin ${\\mathfrak{b}}$, the algebra of $B$, $R$ the set of roots\ncorresponding to this choice of Cartan, and $R^+$ the set of positive\nroots whose root spaces are contained in ${\\mathfrak{b}}$ and let\n${\\mathfrak{p}}$ be the Lie algebra of $P$. Then there exists a unique\nsubset $\\Pi_P$ of $\\Pi$, the base of simple roots associated to this\nchoice of positive roots, such that\n$\\{{\\mathfrak{b}},{\\mathfrak{g}}_{-\\alpha}\\}_{\\alpha\\in\\Pi_P}$ generates\n${\\mathfrak{p}}$. In other words, parabolics containing a single Borel\nsubgroup are classified by subsets of the Dynkin diagram, with the empty\nset corresponding to the Borel, and the whole graph corresponding to the\ngroup $G$.",
+  "language": "INFORMAL",
+  "phrase": "Parabolic Subgroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ParabolicSubgroup"
+    }
+  ],
+  "indexable": true
+}

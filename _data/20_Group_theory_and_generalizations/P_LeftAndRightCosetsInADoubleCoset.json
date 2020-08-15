@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $H$ and $K$ be subgroups of a group $G$. Every double coset $HgK$,\nwith $g \\in G$, is a union of or left cosets, since $$\\begin{aligned}\nHgK = \\bigcup_{k \\in K} Hgk\\; = \\bigcup_{h \\in H} hgK,\\end{aligned}$$\nbut these unions need not be disjoint. In particular, from the above\nequality we cannot say how many right (or left) cosets fit in a double\ncoset.\n\nThe following proposition aims to clarify this.\n\n$\\,$\n\n[ **-**]{} Let $H$ and $K$ be subgroups of a group $G$ and $g \\in G$. We\nhave that $$\\begin{aligned}\nHgK = \\bigcup_{[k]\\, \\in\\, (K \\cap g^{-1}Hg) \\backslash K} Hgk\\; = \\bigcup_{[h]\\, \\in\\, H / (H \\cap gKg^{-1})} hgK\\end{aligned}$$\nhold as disjoint unions. In particular, the number of right and left\ncosets in $HgK$ is respectively given by $$\\begin{aligned}\n\\#(H \\backslash HgK) = [K: K \\cap g^{-1}Hg]\\\\\n\\#(HgK/K) =[H: H \\cap gKg^{-1}]\\end{aligned}$$\n\nRemarks\n-------\n\n-   The number of right and left cosets in a double coset does not\n    coincide in general, not for double cosets of the form $HgH$.\n\n[9]{} A. Krieg, **, Mem. Amer. Math. Soc., no. 435, vol. 87, 1990.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeftAndRightCosetsInADoubleCoset"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "left and right cosets in a double coset"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A local minimum (resp. local maximum) of a convex function (resp.\nconcave function) on a convex subset of a topological vector space, is\nalways a global extremum.\n\nLet $f:S\\to \\mathbb{R}$ be a convex function on a convex set $S$ in a\ntopological vector space.\n\nSuppose $x$ is a local minimum for $f$; that is, there is an open\nneighborhood $U$ of $x$ where $f(x) \\leq f(\\xi)$ for all $\\xi\\in U$. We\nprove $f(x) \\leq f(y)$ for arbitrary $y \\in S$.\n\nConsider the convex combination $(1-t)x + ty$ for $0 \\leq t \\leq 1$:\n\n![image](convex-minimum.eps)\n\nSince scalar multiplication and vector addition are, by definition,\ncontinuous in a topological vector space, the convex combination\napproaches $x$ as $t \\to 0$. Therefore for small enough $t$,\n$(1-t)x + ty$ is in the neighborhood $U$. Then $$\\begin{aligned}\nf(x) &\\leq f\\bigl(ty + (1-t) x\\bigr)  & \\text{for small $t > 0$} \\\\\n&\\leq t \\, f(y) + (1-t) f(x) & \\text{since $f$ is convex.}\\end{aligned}$$\nRearranging , we have $f(x) \\leq f(y)$.\n\nTo show the analogous situation for a concave function $f$, the above\nreasoning can be applied after replacing $f$ with $-f$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocalMinimumOfConvexFunctionIsNecessarilyGlobal"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "local minimum of convex function is necessarily global",
+    "extremal value of convex/concave functions",
+    "local maximum of concave function is necessarily global"
+  ]
+}

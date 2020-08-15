@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $C$ be a linear code of block length $n$ over the finite field\n${\\mathbb}{F}_q$. Then the set\n$$C^\\perp:=\\{d\\in{\\mathbb}{F}_q^n\\mid c\\cdot d=0\\text{ for all }c\\in C\\}$$\nis the *dual code* of $C$. Here, $c\\cdot d$ denotes either the standard\ndot product or the Hermitian dot product.\n\nThis definition is reminiscent of orthogonal complements of vector\nspaces over the real or complex numbers. Indeed, $C^\\perp$ is also a\nlinear code and it is true that if $k$ is the of $C$, then the of\n$C^\\perp$ is $n-k$. It is, however, **not** necessarily true that\n$C\\cap C^\\perp=\\{0\\}$. For example, if $C$ is the binary code of block\nlength $2$ the codeword $(1,1)$ then $(1,1)\\cdot(1,1)=0$, that is,\n$(1,1)\\in C^\\perp$. In fact, $C$ equals $C^\\perp$ in this case. In\ngeneral, if $C=C^\\perp$, $C$ is called *self-dual*. Furthermore $C$ is\ncalled *self-orthogonal* if $C\\subseteq C^\\perp$.\n\nFamous examples of self-dual codes are the extended binary Hamming code\nof block length $8$ and the extended binary Golay code of block length\n$24$.",
+  "language": "INFORMAL",
+  "phrase": "Dual Code",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DualCode"
+    }
+  ],
+  "indexable": true
+}

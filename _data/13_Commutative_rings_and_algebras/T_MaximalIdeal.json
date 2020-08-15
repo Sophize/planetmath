@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring with identity. A proper left (right, two-sided) ideal\n$\\mathfrak{m} \\subsetneq R$ is said to be [*maximal*]{} if\n$\\mathfrak{m}$ is not a proper subset of any other proper left (right,\ntwo-sided) ideal of $R$.\n\nOne can prove:\n\n-   A left ideal $\\mathfrak{m}$ is maximal if and only if\n    $R/\\mathfrak{m}$ is a simple left $R$-module.\n\n-   A right ideal $\\mathfrak{m}$ is maximal if and only if\n    $R/\\mathfrak{m}$ is a simple right $R$-module.\n\n-   A two-sided ideal $\\mathfrak{m}$ is maximal if and only if\n    $R/\\mathfrak{m}$ is a simple ring.\n\nAll maximal ideals are prime ideals. If $R$ is commutative, an ideal\n$\\mathfrak{m} \\subset R$ is maximal if and only if the quotient ring\n$R/\\mathfrak{m}$ is a field.",
+  "language": "INFORMAL",
+  "phrase": "Maximal Ideal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MaximalIdeal"
+    }
+  ],
+  "indexable": true
+}

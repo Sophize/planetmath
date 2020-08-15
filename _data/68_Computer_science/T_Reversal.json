@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "mirror image"
+  ],
+  "definition": "Let $\\Sigma$ be an alphabet and $w$ a word over $\\Sigma$. The *reversal*\nof $w$ is the word obtained from $w$ by \u201cspelling\u201d it backwards.\nFormally, the *reversal* is defined as a function\n$\\operatorname{rev}:\\Sigma^* \\to \\Sigma^*$ such that, for any word\n$w=a_1\\cdots a_n$, where $a_i \\in \\Sigma$,\n$\\operatorname{rev}(w):= a_n \\cdots a_1$. Furthermore,\n$\\operatorname{rev}(\\lambda):=\\lambda$. Oftentimes $w^R$ or\n$\\operatorname{mi}(w)$ is used to denote the reversal of $w$.\n\nFor example, if $\\Sigma = \\lbrace a, b\\rbrace$, and $w=aababb$, then\n$\\operatorname{rev}(w)=bbabaa$.\n\nTwo properties of the reversal are:\n\n-   it fixes all $a\\in \\Sigma$: $\\operatorname{rev}(a)=a$.\n\n-   it is idempotent: $\\operatorname{rev}\\circ \\operatorname{rev} = 1$,\n    and\n\n-   it reverses concatenation:\n    $\\operatorname{rev}(ab)=\\operatorname{rev}(b)\\operatorname{rev}(a)$.\n\nIn other words, the reversal is an antihomomorphism. In fact, it is the\nantihomomorphism that fixes every element of $\\Sigma$. Furthermore, $g$\nis an antihomomorphism iff $g\\circ \\operatorname{rev}$ is a\nhomomorphism. By the second property above, $h$ is a homomorphism iff\n$h\\circ \\operatorname{rev}$ is an antihomomorphism.\n\nA word that is fixed by the reversal is called a palindrome. The empty\nword $\\lambda$ as well as any symbol in the alphabet $\\Sigma$ are\ntrivially palindromes. Also, for any word $w$, the words\n$wx\\operatorname{rev}(w)$ and $\\operatorname{rev}(w)xw$ are both\npalindromes, where $x$ is either a symbol in $\\Sigma$ or the empty word.\nIn fact, every palindrome can be written this way.\n\nThe language consisting of all palindromes over an alphabet is\ncontext-free, and not regular if $\\Sigma$ has more than one symbol. It\nis not hard to see that the productions are $\\sigma \\to \\lambda$,\n$\\sigma \\to a$ and $\\sigma \\to a\\sigma a$, where $a$ ranges over\n$\\Sigma$.\n\nReversal of words can be extended to languages: let $L$ be a language\nover $\\Sigma$, then\n$$\\operatorname{rev}(L):= \\lbrace \\operatorname{rev}(w) \\mid w\\in L\\rbrace.$$\n\nA family $\\mathscr{F}$ of languages is said to be *closed under\nreversal* if for any $L\\in \\mathscr{F}$,\n$\\operatorname{rev}(L)\\in \\mathscr{F}$. It can be shown that regular\nlanguages, context-free languages, context-sensitive languages, and\ntype-0 languages are all closed under reversal.",
+  "language": "INFORMAL",
+  "phrase": "Reversal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Reversal"
+    }
+  ],
+  "indexable": true
+}

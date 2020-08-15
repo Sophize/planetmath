@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Frobenius inner product"
+  ],
+  "definition": "If $A = (a_{ij})$ and $B = (b_{ij})$ are real $m\\!\\times\\!n$ matrices,\ntheir [*Frobenius product*]{} is defined as\n$$\\langle A,\\,B \\rangle_F \\;:=\\; \\sum_{i,\\,j}a_{ij}b_{ij}.$$ It is\neasily seen that $\\langle A,\\,B \\rangle_F$ is equal to the trace of the\nmatrix $A^\\intercal B$ and $AB^\\intercal $, and that the Frobenius\nproduct is an inner product of the vector space formed by the\n$m\\!\\times\\!n$ matrices; it the [*Frobenius norm*]{} of this vector\nspace.",
+  "language": "INFORMAL",
+  "phrase": "Frobenius Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FrobeniusProduct"
+    }
+  ],
+  "indexable": true
+}

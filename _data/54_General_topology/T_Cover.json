@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "([@kelley], pp. 49) Let $Y$ be a subset of a set $X$. A **cover** for\n$Y$ is a collection of sets $\\mathcal{U}=\\{U_i\\}_{i\\in I}$ such that\neach $U_i$ is a subset of $X$, and $$Y \\subset \\bigcup_{i\\in I} U_i.$$\nThe collection of sets can be arbitrary, that is, $I$ can be finite,\ncountable, or uncountable. The cover is correspondingly called a\n**finite cover**, **countable cover**, or **uncountable cover**.\n\nA **subcover** of $\\mathcal{U}$ is a subset\n$\\mathcal{U}'\\subset\\mathcal{U}$ such that $\\mathcal{U}'$ is also a\ncover of $X$.\n\nA **refinement** $\\mathcal{V}$ of $\\mathcal{U}$ is a cover of $X$ such\nthat for every $V\\in\\mathcal{V}$ there is some $U\\in\\mathcal{U}$ such\nthat $V\\subset U$. When $\\mathcal{V}$ refines $\\mathcal{U}$, it is\nusually written $\\mathcal{V}\\preceq \\mathcal{U}$. $\\preceq$ is a\npreorder on the set of covers of any topological space $X$.\n\nIf $X$ is a topological space and the members of $\\mathcal{U}$ are open\nsets, then $\\mathcal{U}$ is said to be an *open cover*. Open subcovers\nand open refinements are defined similarly.\n\n[**Examples**]{}\n\n1.  If $X$ is a set, then $\\{X\\}$ is a cover of $X$.\n\n2.  The power set of a set $X$ is a cover of $X$.\n\n3.  A topology for a set is a cover of that set.\n\n[9]{} J.L. Kelley, *General Topology*, D. van Nostrand Company, Inc.,\n1955.",
+  "language": "INFORMAL",
+  "phrase": "Cover",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Cover"
+    }
+  ],
+  "indexable": true
+}

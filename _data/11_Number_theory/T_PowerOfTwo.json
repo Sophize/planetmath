@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*power of two*]{} is a number of the form $2^n$, with $n$ generally\nunderstood to be a nonnegative integer. The first few powers of two are\n1, 2, 4, 8, 16, 32, 64, 128 and so forth. These are listed in A000079 of\nSloane\u2019s OEIS. Because computers use the binary numeral system for their\ncomputations, the powers of two are of paramount importance in computer\nscience.\n\nWith $n$ a negative integer, the larger powers of two are the fractions\n$\\frac{1}{2}$, $\\frac{1}{4}$, $\\frac{1}{8}$, $\\frac{1}{16}$,\n$\\frac{1}{32}$, $\\frac{1}{64}$, $\\frac{1}{128}$, $\\frac{1}{256}$, which\nare so often used in conjunction with units of the British Weights and\nMeasures Act of which some have been inherited and are still used in the\nUnited States. These fractions are also used in music for gradually\nsmaller rhythmic units, as well as in photography, though somewhat\nrelabelled (e.g., the readout of a camera might read $\\frac{1}{250}$\nrather than $\\frac{1}{256}$).\n\nThe binary representation of an power of two greater than 1 is always a\ndigit 1 as the most significant digit followed by as many zeroes as\nindicated by the exponent for 2, such as $2^4$ is in binary $10000_2$.\nHence $2^n \\textrm{XOR} 2^n - 1 = 0$.\n\nFor $2^n$, the value of $\\tau(2^n)$ (the divisor function) is always\n$n + 1$, and the divisors are the powers of two from $2^0$ to $2^n$. The\nvalue of the sum of divisors function $\\sigma(2^n)$ is therefore a\nMersenne number $2^{n + 1} - 1$. The powers of two are therefore\ndeficient numbers always 1 short of being a perfect numbers. In fact,\nthey are the only known almost perfect numbers. So the sum of\nconsecutive powers of two from $i = -1$ down to some other negative $i$\nis a fraction with a Mersenne number as its numerator and a power of two\nas its denominator. This suggests that\n$$\\lim_{n \\to \\infty} \\sum_{i = 1}^n \\frac{1}{2^i} = 1.$$\n\nOnly a Collatz sequence starting with a power of two is in strictly\ndescending order, and will reach 1 in precisely $n$ steps. Any other\nstarting value guarantees that there will be steps at which the value\nwill be tripled and incremented rather than just halved.\n\nFor $n > 0$, a number $2^n$ is an [*impolite number*]{}, it cannot be\nrepresented as the sum of consecutive nonnegative integers, whereas all\nother positive integers can be (and are thus polite numbers).",
+  "language": "INFORMAL",
+  "phrase": "Power Of Two",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PowerOfTwo"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If the group $G$ is a semi-direct product of its subgroups $H$ and $Q$,\nthen the semi-direct $Q$ is isomorphic to the quotient group $G/H$.\n\n[*Proof.*]{} Every element $g$ of $G$ has the unique representation\n$g = hq$ with $h\\in H$ and $q\\in Q$. We therefore can define the mapping\n$$g\\mapsto q$$ from $G$ to $Q$. The mapping is surjective since any\nelement $y$ of $Q$ is the image of $ey$. The mapping is also a\nhomomorphism since if $g_1 = h_1q_1$ and $g_2 = h_2q_2$, then we obtain\n$$f(g_1g_2) = f(h_1q_1h_2q_2) = f(h_1h_2q_1q_2) = q_1q_2 = f(g_1)f(g_2).$$\nThen we see that $\\ker{f} = H$ because all elements $h = he$ of $H$ are\nmapped to the identity element $e$ of $Q$. Consequently we get,\naccording to the first isomorphism theorem, the result $$G/H \\cong Q.$$\n\n**Example.** The multiplicative group $\\mathbb{R}^{\\times}$ of reals is\nthe semi-direct product of the subgroups $\\{1,\\,-1\\} = \\{\\pm1\\}$ and\n$\\mathbb{R}_+$. The quotient group $\\mathbb{R}^{\\times}/\\{\\pm1\\}$\nconsists of all cosets $$x\\{\\pm1\\} = \\{x,\\,-x\\}$$ where $x\\neq 0$, and\nis obviously isomorphic with $\\mathbb{R}_+ = \\{x\\mid x > 0\\}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemidirectFactorAndQuotientGroup"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "semi-direct factor and quotient group"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(C,\\Delta,\\varepsilon)$ and $(D,\\Delta',\\varepsilon')$ be\ncoalgebras. Recall, that if $D_0\\subseteq D$ is a subcoalgebra, then\n$(D_0,\\Delta'_{| D_0},\\varepsilon'_{| D_0})$ is a coalgebra. On the\nother hand, if $I\\subseteq C$ is a coideal, then there is a canonical\ncoalgebra structure on $C/I$ (please, see for more details).\n\n**Theorem.** If $f:C\\to D$ is a coalgebra homomorphism, then\n$\\mathrm{ker}(f)$ is a coideal, $\\mathrm{im}(f)$ is a subcoalgebra and a\nmapping $f':C/\\mathrm{ker}(f)\\to\\mathrm{im}(f)$ defined by\n$f'\\big( c+\\mathrm{ker}(f)\\big) =f(c)$ is a well defined coalgebra\nisomorphism.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalIsomorphismTheoremForCoalgebras"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fundamental isomorphism theorem for coalgebras"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "tangent",
+    "tangent of the curve",
+    "tangent to the curve"
+  ],
+  "definition": "If the curve $y = f(x)$ of $xy$-plane is sufficiently smooth in its\npoint $(x_0,\\,y_0)$ and in a neighborhood of this, the curve may have a\ntangent line (or simply ) in $(x_0,\\,y_0)$. Then the [*tangent line*]{}\nof the curve $y = f(x)$ in the point $(x_0,\\,y_0)$ is the limit position\nof the secant line through the two points $(x_0,\\,y_0)$ and $(x,\\,f(x))$\nof the curve, when $x$ limitlessly tends to the value $x_0$ (i.e.\n$x\\to x_0)$. Due to the smoothness, $$f(x)\\to f(x_0) = y_0,$$\n$$(x,\\,f(x))\\to (x_0,\\,y_0),$$ and the slope $m$ of the tends to\n$$\\lim_{x\\to x_0}\\frac{f(x)\\!-\\!f(x_0)}{x\\!-\\!x_0} = f'(x_0)$$ which\nwill be the slope of the tangent line.\n\n**Note.** Because the tangency is a local property on the curve, the\ntangent with the [*tangency point*]{} $(x_0,\\,y_0)$ may intersect the\ncurve in another point, and then the tangent is a , too. For example,\nthe curve $y = x^3\\!-\\!3x^2$ has the line $y = 0$ as its tangent in the\npoint $(0,\\,0)$ but this line the curve also in the point $(3,\\,0)$.",
+  "language": "INFORMAL",
+  "phrase": "Tangent Line",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TangentLine"
+    }
+  ],
+  "indexable": true
+}

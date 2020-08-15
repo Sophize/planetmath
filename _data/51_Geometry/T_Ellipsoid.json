@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *ellipsoid* is a subset of ${\\mathbbmss{R}}^3$ consisting of points\n$(x,y,z)\\in {\\mathbbmss{R}}^3$ such that\n$$\\left(\\frac{x}{a}\\right)^2+   \\left(\\frac{y}{b}\\right)^2+   \\left(\\frac{z}{c}\\right)^2=1$$\nfor some $a,b,c>0$.\n\n### Properties {#properties .unnumbered}\n\n1.  If $a=b=c$, the ellipsoid reduces to a sphere.\n\n2.  If we fix the value of any of $x,y,z$ to some constant, say $x=C$,\n    we obtain an ellipse in the plane $(C,y,z)$.\n\n3.  The ellipse determined by $a,b,c$ is the unit sphere of the norm\n    $$\\Vert v \\Vert = v^T \\operatorname{diag} (\\frac{1}{a}, \\frac{1}{b}, \\frac{1}{c}) v, \\quad v=(x,y,z)^T.$$",
+  "language": "INFORMAL",
+  "phrase": "Ellipsoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ellipsoid"
+    }
+  ],
+  "indexable": true
+}

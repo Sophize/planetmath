@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $L$ be a modular lattice and suppose that $a\\in L$ has two\nirredundant decompositions of joins of join-irreducible elements:\n$$a=x_1\\vee \\cdots \\vee x_m = y_1 \\vee \\cdots \\vee y_n.$$ Then\n\n1.  $m=n$, and\n\n2.  every $x_i$ can be replaced by some $y_j$, so that\n    $$a= x_1\\vee \\cdots \\vee x_{i-1} \\vee y_j \\vee x_{i+1} \\vee \\cdots \\vee x_m.$$\n\nThere is also a dual statement of the above theorem in terms of meets.\n\n**Remark**. Additionally, if $L$ is a distributive lattice, then the\nsecond property above (known the *replacement property*) can be\nstrengthened: each $x_i$ is equal to some $y_j$. In other words, except\nfor the re-ordering of elements in the decomposition, the above join is\nunique.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KuroshOreTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kurosh-Ore theorem"
+  ]
+}

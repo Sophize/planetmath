@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sequence of random variables $X_1, X_2,\\dots$ with finite expectations\nin a probability space is said to satisfiy the *strong law of large\nnumbers* if\n\n$$\\frac{1}{n}\\sum_{k=1}^n (X_k -\\operatorname{E}[X_k]) \\xrightarrow[]{a.s.} 0,$$\n\nwhere $a.s.$ stands for convergence almost surely.\n\nWhen the random variables are identically distributed, with expectation\n$\\mu$, the law becomes:\n\n$$\\frac{1}{n}\\sum_{k=1}^n X_k\\xrightarrow[]{a.s.} \\mu.$$\n\nKolmogorov\u2019s strong law of large numbers theorems give conditions on the\nrandom variables under which the law is satisfied.",
+  "language": "INFORMAL",
+  "phrase": "Strong Law Of Large Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StrongLawOfLargeNumbers"
+    }
+  ],
+  "indexable": true
+}

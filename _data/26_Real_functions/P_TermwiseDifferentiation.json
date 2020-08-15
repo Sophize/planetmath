@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If in the open interval $I$, all the of the series $$\\begin{aligned}\n          f_1(x)\\!+\\!f_2(x)\\!+\\cdots\n  \\end{aligned}$$ have continuous derivatives, the series converges\nhaving sum $S(x)$ and the differentiated series\n$f_1'(x)\\!+\\!f_2'(x)\\!+\\!\\cdots$ on the interval $I$, then the series\n(1) can be differentiated termwise, i.e. in every point of $I$ the sum\nfunction $S(x)$ is differentiable and\n$$\\frac{d\\,S(x)}{dx} = f_1'(x)\\!+\\!f_2'(x)\\!+\\cdots$$ The situation\nimplies also that the series (1) converges uniformly on $I$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TermwiseDifferentiation"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "termwise differentiation",
+    "differentiating a series"
+  ]
+}

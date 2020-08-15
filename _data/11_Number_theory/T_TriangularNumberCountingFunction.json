@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For a given nonnegative number $x$, the [*triangular number counting\nfunction*]{} counts how many triangular numbers are not greater than\n$x$. The formula is simple:\n$$\\lfloor \\frac{-1 + \\sqrt{8x + 1}}{2} \\rfloor ,$$ in sharp contrast to\nthe lack of a formula for the prime counting function $\\pi(x)$. If one\naccepts 0 as a triangular number, the formula easily accommodates this\nby the mere addition of 1 after flooring the fraction.\n\n[1]{} Zhi-Wei Sun, \u201cOn Sums of Primes and Triangular Numbers\u201d ArXiv\npreprint, 10 April (2008): 1",
+  "language": "INFORMAL",
+  "phrase": "Triangular Number Counting Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TriangularNumberCountingFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A group $G$ is said to satisfy the *ascending chain condition* (or ACC)\non normal subgroups if there is no infinite ascending proper chain\n$G_1 \\subsetneq G_2 \\subsetneq G_3 \\cdots$ with each $G_i$ a normal\nsubgroup of $G$.\n\nSimilarly, $G$ is said to satisfy the *descending chain condition* (or\nDCC) on normal subgroups if there is no infinite descending proper chain\nof normal subgroups of $G$.\n\nOne can show that if a nontrivial group satisfies either the ACC or the\nDCC on normal subgroups, then that group can be expressed as the\ninternal direct product of finitely many indecomposable subgroups. If\n*both* the ACC and DCC are satisfied, the Krull-Schmidt theorem\nguarantees that this \u201cdecomposition into indecomposables\" is essentially\nunique. (Note that every finite group satisfies both the ACC and DCC on\nnormal subgroups.)\n\n[**Krull-Schmidt theorem:**]{} Let $G$ be a nontrivial group satisfying\nboth the ACC and DCC on its normal subgroups. Suppose\n$G=G_1\\times\\cdots\\times G_n$ and $G=H_1\\times\\cdots\\times H_m$\n(internal direct products) where each $G_i$ and $H_i$ is indecomposable.\nThen $n=m$ and, after reindexing, $G_i\\cong H_i$ for each $i$. Moreover,\nfor all $k<n$,\n$G=G_1\\times\\cdots\\times G_k\\times H_{k+1}\\times\\cdots\\times H_n$.\n\nFor proof, see Hungerford\u2019s *Algebra*.\n\nNoetherian \\[resp. artinian\\] modules satisfy the ACC \\[resp. DCC\\] on\nsubmodules. Indeed the Krull-Schmidt theorem also appears in the context\nof module theory. (Sometimes, as in Lang\u2019s *Algebra*, this result is\ncalled the Krull-Remak-Schmidt theorem.)\n\n[**Krull-Schmidt theorem (for modules):**]{} A nonzero module that is\nboth noetherian and artinian can be expressed as the direct sum of\nfinitely many indecomposable modules. These indecomposable summands are\nuniquely determined up to isomorphism and permutation.\n\n[**References.**]{}\n\n-   Hungerford, T., *Algebra*. New York: Springer, 1974.\n\n-   Lang, S., *Algebra*. (3d ed.), New York: Springer, 2002.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KrullSchmidtTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Krull-Schmidt theorem",
+    "Krull-Remak-Schmidt theorem"
+  ]
+}

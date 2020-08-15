@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a set. We can define on $X^X$, the set of functions from $X$\nto itself, a structure of semigroup by putting $f\\otimes g=g\\circ f$.\nSuch semigroup is actually a monoid, whose identity element is the\nidentity function of $X$.\n\n\\[thm:cay-sg\\] For every semigroup $(S,\\cdot)$ there exist a set $X$ and\nan injective map $\\phi:S\\to X^X$ which is a morphism of semigroups from\n$(S,\\cdot)$ to $(X^X,\\otimes)$.\n\nIn other words, every semigroup is isomorphic to a semigroup of\ntransformations of some set. This is an extension of Cayley\u2019s theorem on\ngroups, which states that every group is isomorphic to a group of\n*invertible* transformations of some set.\n\n*Proof of Theorem\u00a0\\[thm:cay-sg\\].* The argument is similar to the one\nfor Cayley\u2019s theorem on groups. Let $X=S$, the set of elements of the\nsemigroup.\n\nFirst, suppose $(S,\\cdot)$ is a monoid with unit $e$. For $s\\in S$\ndefine $f_s:S\\to S$ as $$\\label{eq:iso}\nf_s(x)=x\\cdot s\\;\\forall x\\in S\\,.$$ Then for every $s,t,x\\in S$ we have\n$$\\begin{aligned}\nf_{s\\cdot t}(x)\n& = & x\\cdot(s\\cdot t) \\\\\n& = & (x\\cdot s)\\cdot t \\\\\n& = & f_t(x\\cdot s) \\\\\n& = & f_t(f_s(x)) \\\\\n& = & (f_t\\circ f_s)(x) \\\\\n& = & (f_s\\otimes f_t)(x)\\,,\\end{aligned}$$ so $\\phi(s)=f_s$ is a\nhomomorphism of monoids, with $f_e=\\mathrm{id}_S$. This homomorphism is\ninjective, because if $f_s=f_t$, then $s=f_s(e)=f_t(e)=t$.\n\nNext, suppose $(S,\\cdot)$ is a semigroup but not a monoid. Let\n$e\\not\\in S$. Construct a monoid $(M,\\ast)$ by putting $M=S\\cup\\{e\\}$\nand defining $$s\\ast t=\\left\\{\\begin{array}{ll}\ns\\cdot t & \\mathrm{if}\\;s,t\\in S, \\\\\ns & \\mathrm{if}\\;s\\in S,t=e, \\\\\nt & \\mathrm{if}\\;s=e,t\\in S, \\\\\ne & \\mathrm{if}\\;s=t=e. \\\\\n\\end{array}\\right.$$ Then $(M,\\ast)$ is isomorphic to a submonoid of\n$(M^M,\\otimes)$ as by (\\[eq:iso\\]). For $s\\in S$ put\n$g_s={\\left.{f_s}\\right|_{S}}$: then $g_s\\in S^S$ for every $s$,\n$g_{s\\cdot t}={\\left.{f_{s\\ast t}}\\right|_{S}}$, and $(S,\\cdot)$ is\nisomorphic to $(\\Sigma,\\otimes)$ with $\\Sigma=\\{g_s\\mid s\\in S\\}$.\n$\\Box$\n\nObserve that the theorem remains valid if $f\\otimes g$ is defined as\n$f\\circ g$. In this case, the morphism $\\phi$ is defined by\n$f_s(x)=s\\cdot x\\,\\forall x\\in S$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CayleysTheoremForSemigroups"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cayley's theorem for semigroups"
+  ]
+}

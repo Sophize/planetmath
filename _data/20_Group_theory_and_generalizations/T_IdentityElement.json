@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "neutral element"
+  ],
+  "definition": "Let $G$ be a groupoid, that is a set with a binary operation\n$G \\times G \\to G$, written muliplicatively so that $(x, y) \\mapsto xy$.\n\nAn *identity element* for $G$ is an element $e$ such that $ge = eg = g$\nfor all $g \\in G$.\n\nThe symbol $e$ is most commonly used for identity elements. Another\ncommon symbol for an identity element is $1$, particularly in semigroup\ntheory (and ring theory, considering the multiplicative structure as a\nsemigroup).\n\nGroups, monoids, and loops are classes of groupoids that, by definition,\nalways have an identity element.",
+  "language": "INFORMAL",
+  "phrase": "Identity Element",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdentityElement"
+    }
+  ],
+  "indexable": true
+}

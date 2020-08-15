@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If the orders of two subgroups of a group are , the identity element is\nthe only common element of the subgroups.\\\n*Proof.* Let $G$ and $H$ be such subgroups and $|G|$ and $|H|$ their\norders. Then the intersection $G\\!\\cap\\!H$ is a subgroup of both $G$ and\n$H$. By Lagrange\u2019s theorem, $|G\\!\\cap\\!H|$ divides both $|G|$ and $|H|$\nand consequently it divides also $\\gcd(|G|,\\,|H|)$ which is 1. Therefore\n$|G\\!\\cap\\!H| = 1$, whence the intersection contains only the identity\nelement.\\\n**Example.** All subgroups\n$$\\{(1),\\,(12)\\},\\quad \\{(1),\\,(13)\\}, \\quad \\{(1),\\,(23)\\}$$ of order 2\nof the symmetric group $\\mathfrak{S}_3$ have only the identity element\n$(1)$ common with the sole subgroup $$\\{(1),\\,(123),\\,(132)\\}$$ of order\n3.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubgroupsWithCoprimeOrders"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "subgroups with coprime orders"
+  ]
+}

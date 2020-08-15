@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Wagstaff prime*]{} $p$ is a prime number of the form\n$\\displaystyle \\frac{2^{2n + 1} + 1}{3}$. The first few are 3, 11, 43,\n683, 2731, 43691, 174763, 2796203, 715827883, etc., given in A000979 of\nSloane\u2019s OEIS. The exponent of 2 in the formula given above must be an\nodd number for the result to be an integer in the first place, and that\nexponent must not be composite.\n\nCurrently, the largest known Wagstaff prime, corresponding to an\nexponent of 42737, is approximately $4.383322622 \\times 10^{12864}$. As\nthere is no known special primality test for Wagstaff primes, Fran\u00e7ois\nMorain had to use elliptic curve primality proving (ECPP) over several\nmonths to prove the primality of this Wagstaff prime, finishing in\nAugust 2007. (Morain names these primes after Samuel Wagstaff, Jr.)\nA000978 lists nine exponents which give probable primes.\n\n[1]{} Fran\u00e7ois Morain, \u201cDistributed primality proving and the primality\nof $\\frac{(2^{3539} + 1)}{3}$\u201d [*Lecture Notes in Comput. Sci.*]{}\n[**473**]{} (1991): 110 - 123",
+  "language": "INFORMAL",
+  "phrase": "Wagstaff Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WagstaffPrime"
+    }
+  ],
+  "indexable": true
+}

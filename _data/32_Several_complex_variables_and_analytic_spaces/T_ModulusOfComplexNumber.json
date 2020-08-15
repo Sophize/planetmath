@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "complex modulus",
+    "modulus",
+    "absolute value of complex number",
+    "absolute value",
+    "modulus of a complex number"
+  ],
+  "definition": "[**Definition**]{} Let $z$ be a complex number, and let ${\\overline{z}}$\nbe the complex conjugate of $z$. Then the *modulus*, or *absolute\nvalue*, of $z$ is defined as $$|z| := \\sqrt{z{\\overline{z}}}.$$ There is\nalso the notation $$\\mod{z}$$ for the modulus of $z$.\n\nIf we write $z$ in polar form as $z = re^{i\\phi}$ with\n$r\\ge 0,\\; \\phi\\in[0,\\,2\\pi)$, then $|z| = r$. It follows that the\nmodulus is a positive real number or zero. Alternatively, if $a$ is the\nreal part of $z$, and $b$ the imaginary part, then $$\\begin{aligned}\n\\label{eq100}\n|z| &=& \\sqrt{a^2+b^2},\\end{aligned}$$ which is simply the Euclidean\nnorm of the point $(a,\\,b)\\in {\\mathbb{R}}^2$. It follows that the\nmodulus satisfies the triangle inequality $$|z_1+z_2| \\le |z_1|+|z_2|,$$\nalso\n$$|\\Re{z}| \\le |z|,\\quad |\\Im{z}| \\le |z|,\\quad |z| \\le |\\Re{z}|+|\\Im{z}|.$$\n\nModulus is : $$|z_1z_2| = |z_1|\\cdot|z_2|, \\quad \n\\left|\\frac{z_1}{z_2}\\right| = \\frac{|z_1|}{|z_2|}$$\n\nSince ${\\mathbb{R}}\\subset{\\mathbb{C}}$, the definition of modulus\nincludes the real numbers. Explicitly, if we write $x\\in{\\mathbb{R}}$ in\npolar form, $x = re^{i\\phi}$, $r > 0$, $\\phi\\in[0,2\\pi)$, then\n$\\phi = 0$ or $\\phi=\\pi$, so $e^{i\\phi}=\\pm 1$. Thus,\n$$|x| = \\sqrt{x^2} =\n  \\begin{cases}\n    x  & x>0 \\\\\n    0  & x=0 \\\\\n    -x & x<0\n  \\end{cases}\n.$$",
+  "language": "INFORMAL",
+  "phrase": "Modulus Of Complex Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModulusOfComplexNumber"
+    }
+  ],
+  "indexable": true
+}

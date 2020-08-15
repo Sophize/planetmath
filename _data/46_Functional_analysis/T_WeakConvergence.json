@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $X$ is a topological vector space, $X'$ is the continuous dual\nof $X$, and $x_0,x_1,\\ldots $ is a sequence in $X$. Then we say that\n$x_i$ *converges weakly* to $x\\in X$ if\n$$\\lim_{i\\to \\infty} f(x_i) = f(x)$$ for every $f\\in X'$. The notation\nfor this is $x_i \\xrightarrow[]{w} x$.",
+  "language": "INFORMAL",
+  "phrase": "Weak Convergence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeakConvergence"
+    }
+  ],
+  "indexable": true
+}

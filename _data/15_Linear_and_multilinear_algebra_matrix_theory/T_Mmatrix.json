@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A Z-matrix $A$ is called an *M-matrix* if it satisfies any one of the\nfollowing equivalent conditions.\n\n1.  All principal minors of $A$ are positive.\n\n2.  The leading principal minors of $A$ are positive.\n\n3.  $A$ can be written in the form $A=kI-B$, where $B$ is a non-negative\n    matrix whose spectral radius is strictly less than $k$.\n\n4.  All real eigenvalues of $A$ are positive.\n\n5.  The real part of any eigenvalue of $A$ is positive.\n\n6.  $A$ is non-singular and the inverse of $A$ is non-negative.\n\n7.  $Av \\geq 0 $ implies $v\\geq 0$.\n\n8.  There exists a vector $v$ with non-negative entries such that\n    $Av > 0$.\n\n9.  $A+D$ is non-singular for every non-negative diagonal matrix $D$.\n\n10. $A+kI$ is non-singular for all $k\\geq 0$.\n\n11. For each nonzero vector $v$, $v_i (Av)_i>0$ for some $i$.\n\n12. There is a positive diagonal matrix $D$ such that the matrix\n    $DA + A^TD$ is positive definite.\n\n13. $A$ can be factorized as $LU$, where $L$ is lower triangular, $U$ is\n    upper triangular, and the diagonal entries of both $L$ and $U$ are\n    positive.\n\n14. The diagonal entries of $A$ are positive and $AD$ is strictly\n    diagonally dominant for some positive diagonal matrix $D$.\n\n[**Reference:**]{}\n\nM. Fiedler, [*Special Matrices and Their Applications in Numerical\nMathematics*]{}, Martinus Nijhoff, Dordrecht, 1986.\n\nR. A. Horn and C. R. Johnson, [*Topics in Matrix Analysis*]{}, Cambridge\nUniversity Press, Cambridge, 1991.",
+  "language": "INFORMAL",
+  "phrase": "M-Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Mmatrix"
+    }
+  ],
+  "indexable": true
+}

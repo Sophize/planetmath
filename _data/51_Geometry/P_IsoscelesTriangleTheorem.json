@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem holds in geometries in which isosceles triangle\ncan be defined and in which SSS, AAS, and SAS are all valid.\nSpecifically, it holds in Euclidean geometry and hyperbolic geometry\n(and therefore in neutral geometry).\n\nLet $\\triangle ABC$ be an isosceles triangle such that\n$\\overline{AB} \\cong \\overline{AC}$. Let $D \\in \\overline{BC}$. Then the\nfollowing are equivalent:\n\n1.  $\\overline{AD}$ is a median\n\n2.  $\\overline{AD}$ is an altitude\n\n3.  $\\overline{AD}$ is the angle bisector of $\\angle BAC$\n\n(-3,-2)(3,3) (-2,-2)(0,2)(2,-2) (-1.2,0.1)(-0.8,-0.1)\n(0.8,-0.1)(1.2,0.1) (0,-2)(0,2) (0,2.2)[$A$]{} (-2.2,-2)[$B$]{}\n(0,-2.3)[$D$]{} (2.2,-2)[$C$]{}\n\n$1 \\Rightarrow 2$: Since $\\overline{AD}$ is a median,\n$\\overline{BD} \\cong \\overline{CD}$. Since we have\n\n-   $\\overline{AB} \\cong \\overline{AC}$\n\n-   $\\overline{BD} \\cong \\overline{CD}$\n\n-   $\\overline{AD} \\cong \\overline{AD}$ by the of $\\cong$\n\nwe can use SSS to conclude that $\\triangle ABD \\cong \\triangle ACD$. By\nCPCTC, $\\angle ADB \\cong \\angle ADC$. Thus, $\\angle ADB$ and\n$\\angle ADC$ are congruent angles. Hence, $\\overline{AD}$ and\n$\\overline{BC}$ are perpendicular. It follows that $\\overline{AD}$ is an\naltitude.\n\n$2 \\Rightarrow 3$: Since $\\overline{AD}$ is an altitude, $\\overline{AD}$\nand $\\overline{BC}$ are perpendicular. Thus, $\\angle ADB$ and\n$\\angle ADC$ are right angles and therefore congruent. Since we have\n\n-   $\\angle B \\cong \\angle C$ by the theorem on angles of an isosceles\n    triangle\n\n-   $\\angle ADB \\cong \\angle ADC$\n\n-   $\\overline{AD} \\cong \\overline{AD}$ by the reflexive property of\n    $\\cong$\n\nwe can use AAS to conclude that $\\triangle ABD \\cong \\triangle ACD$. By\nCPCTC, $\\angle BAD \\cong \\angle CAD$. It follows that $\\overline{AC}$ is\nthe angle bisector of $\\angle BAC$.\n\n$3 \\Rightarrow 1$: Since $\\overline{AD}$ is an angle bisector,\n$\\angle BAD \\cong \\angle CAD$. Since we have\n\n-   $\\overline{AB} \\cong \\overline{AC}$\n\n-   $\\angle BAD \\cong \\angle CAD$\n\n-   $\\overline{AD} \\cong \\overline{AD}$ by the reflexive property of\n    $\\cong$\n\nwe can use SAS to conclude that $\\triangle ABD \\cong \\triangle ACD$. By\nCPCTC, $\\overline{BD} \\cong \\overline{CD}$. It follows that\n$\\overline{AD}$ is a median.\n\n**Remark**: Another condition for $\\overline{AD}$ is that it is the\nperpendicular bisector of $\\overline{BC}$; however, this fact is usually\nnot included in the statement of the Isosceles Triangle Theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IsoscelesTriangleTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "isosceles triangle theorem"
+  ]
+}

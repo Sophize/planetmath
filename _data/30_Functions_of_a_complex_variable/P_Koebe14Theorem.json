@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $f$ is a schlicht function (univalent function on the unit disc\nsuch that $f(0) = 0$ and $f'(0) = 1$) and\n${\\mathbb{D}} \\subset {\\mathbb{C}}$ is the unit disc in the complex\nplane, then\n$$f({\\mathbb{D}}) \\supseteq \\{ w \\mid \\lvert w \\rvert < 1/4 \\} .$$\n\nThat is, if a univalent function on the unit disc maps 0 to 0 and has\nderivative 1 at 0, then the image of the unit disc contains the ball of\nradius $1/4$. So for any $w \\notin f({\\mathbb{D}})$ we have that\n$\\lvert w \\rvert \\geq 1/4$. Furthermore, if we look at the Koebe\nfunction, we can see that the constant $1/4$ is sharp and cannot be\nimproved.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1995.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Koebe14Theorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Koebe 1/4 theorem",
+    "K\\\"obe 1/4 theorem",
+    "Koebe one-fourth theorem",
+    "K\\\"obe one-fourth theorem"
+  ]
+}

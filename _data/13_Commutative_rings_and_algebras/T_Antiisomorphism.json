@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ and $S$ be rings and $f: R\\longrightarrow S$ be a function such\nthat $f(r_{1}r_{2}) = f(r_{2})f(r_{1})$ for all $r_{1}, r_{2} \\in R$.\n\nIf $f$ is a homomorphism of the additive groups of $R$ and $S$, then $f$\nis called an [*anti-homomorphsim*]{}.\n\nIf $f$ is a bijection and anti-homomorphism, then $f$ is called an\n[*anti-isomorphism*]{}.\n\nIf $f$ is an anti-homomorphism and $R=S$ then $f$ is called an\n[*anti-endomorphism*]{}.\n\nIf $f$ is an anti-isomorphism and $R=S$ then $f$ is called an\n[*anti-automorphism*]{}.\n\nAs an example, when $m \\neq n$, the mapping that sends a matrix to its\ntranspose (or to its conjugate transpose if the matrix is complex) is an\nanti-isomorphism of $M_{m,n} \\to M_{n,m}$.\n\n$R$ and $S$ are *anti-isomorphic* if there is an anti-isomorphism\n$R \\to S$.\n\nAll of the things defined in this entry are also defined for groups.",
+  "language": "INFORMAL",
+  "phrase": "Anti-Isomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Antiisomorphism"
+    }
+  ],
+  "indexable": true
+}

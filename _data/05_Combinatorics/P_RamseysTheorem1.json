@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "*Ramsey\u2019s theorem* states that a particular arrows relation,\n\n$$\\omega\\rightarrow(\\omega)^n_k$$\n\nholds for any integers $n$ and $k$.\n\nIn words, if $f$ is a function on sets of integers of size $n$ whose\nrange is finite then there is some infinite $X\\subseteq\\omega$ such that\n$f$ is constant on the subsets of $X$ of size $n$.\n\nAs an example, consider the case where $n=k=2$, and\n$f\\colon [\\omega]^2\\rightarrow\\{0,1\\}$ is defined by:\n\n$$f(\\{x,y\\})=\\left\\{\n\\begin{array}{ll}\n1&\\text{ if ~} x=y^2 \\text{ or ~} y=x^2\\\\\n0&\\text{otherwise}\n\\end{array}\\right.$$\n\nThen let $X\\subseteq\\omega$ be the set of integers which are not perfect\nsquares. This is clearly infinite, and obviously if $x,y\\in X$ then\nneither $x=y^2$ nor $y=x^2$, so $f$ is homogeneous on $X$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RamseysTheorem1"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Ramsey's theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The antiharmonic, a.k.a. contraharmonic mean of some set of positive\nnumbers is defined as the sum of their squares divided by their sum.\nThere exist positive integers $n$ whose sum $\\sigma_1(n)$ of all their\npositive divisors divides the sum $\\sigma_2(n)$ of the squares of those\ndivisors. For example, 4 is such an integer:\n$$1+2+4 \\,=\\, 7 \\,\\mid\\, 21 \\,=\\, 1^2+2^2+4^2$$ Such integers are called\n[*antiharmonic numbers*]{} (or [*contraharmonic numbers*]{}), since the\ncontraharmonic mean of their positive divisors is an integer.\n\nThe antiharmonic numbers form the integer sequence :\n$$1,\\,4,\\,9,\\,16,\\,20,\\,25,\\,36,\\,49,\\,50,\\,64,\\,81,\\,100,\\,117,\\,121,\\,144,\\,169,\\,180,\\,\\ldots$$\\\nUsing the expressions of $\\sigma_z(n)$, the condition for an integer $n$\nto be an antiharmonic number, is that the quotient\n$$\\sigma_2(n):\\sigma_1(n) \n\\;=\\; \\sum_{0 < d \\mid n}\\!d^2:\\!\\sum_{0 < d \\mid n}\\!d\n\\;=\\; \\prod_{i=1}^k\\frac{p_i^{2(m_i+1)}-1}{p_i^2-1}\n     :\\prod_{i=1}^k\\frac{p_i^{m_i+1}-1}{p_i-1}$$ is an integer; here the\n$p_i$\u2019s are the distinct prime divisors of $n$ and $m_i$\u2019s their\nmultiplicities. The last form is simplified to $$\\begin{aligned}\n\\prod_{i=1}^k\\frac{p_i^{m_i+1}+1}{p_i+1}.\\end{aligned}$$ The OEIS\nsequence A020487 contains all nonzero perfect squares, since in the case\nof such numbers the antiharmonic mean (1) of the divisors has the form\n$$\\prod_{i=1}^k\\frac{p_i^{2m_i+1}+1}{p_i+1} \\;=\\;\n\\prod_{i=1}^k\\left(p_i^{2m_i}-p_i^{2m_i-1}-\\!+\\ldots-p_i+1\\right)$$ (cf.\nirreducibility of binomials with unity coefficients).\\\n**Note.** It would in a manner be legitimated to define a positive\ninteger to be an antiharmonic number (or an antiharmonic integer) if it\nis the antiharmonic mean of two distinct positive integers; see integer\ncontraharmonic mean and .",
+  "language": "INFORMAL",
+  "phrase": "Antiharmonic Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AntiharmonicNumber"
+    }
+  ],
+  "indexable": true
+}

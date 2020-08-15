@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $n$ be a positive integer. A real random variable $X$ defined on a\nprobability space $(\\Omega, \\mathcal{F}, P)$ is said to be\n\n1.  *$n$-decomposable* if there exist $n$ independent random variables\n    $X_1,\\ldots,X_n$ such that $X$ is identically distributed as the sum\n    $X_1+\\cdots+X_n$. A $2$-decomposable random variable is also called\n    a *decomposable random variable*;\n\n2.  *$n$-divisible* if $X$ is $n$-decomposable and the $X_i$\u2019s can be\n    chosen so that they are identically distributed;\n\n3.  *infinitely divisible* if $X$ is $n$-divisible for every positive\n    integer $n$. In other words, $X$ can be written as the sum of $n$\n    iid random variables for any $n$.\n\nA distribution function is said to be *infinitely divisible* if it is\nthe distribution function of an infinitely divisible random variable.\n\n**Remark**. Any stable random variable is infinitely divisible.\n\nSome examples of infinitely divisible distribution functions, besides\nthose that are stable, are the gamma distributions, negative binomial\ndistributions, and compound Poisson distributions.",
+  "language": "INFORMAL",
+  "phrase": "Infinitely Divisible Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InfinitelyDivisibleRandomVariable"
+    }
+  ],
+  "indexable": true
+}

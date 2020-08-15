@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $a,b,c \\in \\mathbb{R}$ and $f(x) \\in \\mathbb{R}[x]$. There is a\nmnemonic device that is useful for solving inequalities of the following\nforms:\n\n$\\begin{array}{ccc}\na|f(x)|+b \\le c & \\,\\, & c \\ge a|f(x)|+b \\\\\na|f(x)|+b < c & \\,\\, & c > a|f(x)|+b \\\\\na|f(x)|+b \\ge c & \\,\\, & c \\le a|f(x)|+b \\\\\na|f(x)|+b > c & \\,\\, & c < a|f(x)|+b \\end{array}$\n\nBefore using the mnemonic device, the expression $|f(x)|$ should be and\non the left hand of the inequality. Once this is accomplished, the\nabsolute value must be dealt with: One statement should look to the\nprevious one, the only being that the absolute value are dropped. The\nother statement should also have the absolute value dropped, but the\ninequality needs reversed and the number (on the ) needs to be negated.\n\nThe two statements as described above should be using either\n$\\operatorname{or}$ or $\\operatorname{and}$. The mnemonic that aids in\nremembering which one to use is [*greator less thand*]{}. That is, when\nthe inequality before splitting up has $>$ or $\\ge$, the connector\n$\\operatorname{or}$ should be used; when the inequality before splitting\nup has $<$ or $\\le$, the connector $\\operatorname{and}$ should be used.\n\nHere is an example:\n\n$\\begin{array}{rl}\n8 & > 3+|2x-7| \\\\\n5 & > |2x-7| \\\\\n|2x-7| & < 5 \\end{array}$\n\nSince the inequality is $<$, $\\operatorname{and}$ should be used.\n\n$\\begin{array}{rlcrl}\n2x-7 & < 5 & \\, \\operatorname{and} \\, & 2x-7 & > -5 \\\\\n2x & < 12 & \\, \\operatorname{and} \\, & 2x & > 2 \\\\\nx & < 6 & \\, \\operatorname{and} \\, & x & > 1 \\end{array}$\n\n$$1<x<6$$\n\nI would like to thank Mrs. Sue Millikin, who taught me absolute value\ninequalities in this manner.",
+  "language": "INFORMAL",
+  "phrase": "Absolute Value Inequalities",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbsoluteValueInequalities"
+    }
+  ],
+  "indexable": true
+}

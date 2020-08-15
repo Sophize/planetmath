@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let us consider the double series $$\\begin{aligned}\n\\sum_{i,j=1}^\\infty u_{ij}\\end{aligned}$$ of real or complex numbers\n$u_{ij}$. Denote the [*row series*]{} $u_{k1}\\!+\\!u_{k2}\\!+\\ldots$ by\n$R_k$, the [*column series*]{} $u_{1k}\\!+\\!u_{2k}\\!+\\ldots$ by $C_k$ and\nthe [*diagonal series*]{}\n$u_{11}\\!+\\!u_{12}\\!+\\!u_{21}\\!+\\!u_{13}\\!+\\!u_{22}\\!+\\!u_{31}\\!+\\ldots$\nby DS. Then one has the\\\n**Theorem.** All row series, all column series and the diagonal series\nconverge absolutely and\n$$\\sum_{k=1}^\\infty R_k \\;=\\; \\sum_{k=1}^\\infty C_k \\;=\\; \\mbox{DS},$$\nif one of the following conditions is true:\n\n-   The diagonal series converges absolutely.\n\n-   There exists a positive number $M$ such that every finite sum of the\n    numbers $|u_{ij}|$ is $\\leqq M$.\n\n-   The row series $R_k$ converge absolutely and the series\n    $W_1\\!+\\!W_2\\!+\\ldots$ with $$\\sum_{j=1}^\\infty|u_{kj}| = W_k$$ is\n    convergent. An analogical condition may be formulated for the column\n    series $C_k$.\n\n**Example.** Does the double series\n$$\\sum_{m=2}^\\infty\\sum_{n=3}^\\infty n^{-m}$$ converge? If yes,\ndetermine its sum.\n\nThe column series\n$\\displaystyle\\sum_{m=2}^\\infty\\left(\\frac{1}{n}\\right)^m$ have positive\nterms and are absolutely converging geometric series having the sum\n$$\\frac{(1/n)^2}{1-1/n} \\;=\\; \\frac{1}{n(n\\!-\\!1)} \\;=\\; \\frac{1}{n\\!-\\!1}-\\frac{1}{n} \\;=\\; W_n.$$\nThe series $W_3\\!+\\!W_4\\!+\\ldots$ is convergent, since its partial sum\nis a telescoping sum\n$$\\sum_{n=3}^N W_n \\;=\\; \\sum_{n=3}^N\\left(\\frac{1}{n\\!-\\!1}-\\frac{1}{n}\\right) \\;=\\;\n\\left(\\frac{1}{2}-\\frac{1}{3}\\right)+\\left(\\frac{1}{3}-\\frac{1}{4}\\right)+\\left(\\frac{1}{4}-\\frac{1}{5}\\right)\n+\\ldots+\\left(\\frac{1}{N\\!-\\!1}-\\frac{1}{N}\\right)$$ equalling simply\n$\\frac{1}{2}\\!-\\!\\frac{1}{N}$ and having the limit $\\frac{1}{2}$ as\n$N \\to \\infty$. Consequently, the given double series converges and its\nsum is $\\frac{1}{2}$.",
+  "language": "INFORMAL",
+  "phrase": "Absolute Convergence Of Double Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbsoluteConvergenceOfDoubleSeries"
+    }
+  ],
+  "indexable": true
+}

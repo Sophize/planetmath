@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Continuous functions defined on compact subsets of ${\\mathbb R}^n$ are\nRiemann integrable.\n\nLet $D\\subset {\\mathbb R}^n$ be a compact subset of ${\\mathbb R}^n$ and\nlet $f\\colon D\\to {\\mathbb R}$ be a continuous function. Since $f$ is\ndefined on a compact set, $f$ is uniformly continuous i.e.\u00a0given\n$\\epsilon>0$ there exists $\\delta>0$ such that\n$|x-y|\\le \\delta \\Rightarrow |f(x)-f(y)|\\le \\epsilon$. Let $R>0$ be\nlarge enough so that $D\\subset (-R,R)^n$ (such an $R$ exists because $D$\nis bounded). Let $P$ be a polyrectangle such that\n$D\\subset \\cup P \\subset (-R,R)^n$ and such that every rectangle $R$ in\n$P$ has diameter which is less then $\\delta$. So one has\n$\\sup_R f(x)-\\inf_R f(x) \\le \\epsilon$ and hence\n$$S^*(f,P)-S_*(f,P)\\le \\epsilon \\sum_{Q\\in P} \\mathrm{meas} (Q) \\le \\epsilon \\mathrm{meas}(P) \\le \\epsilon \\mathrm{meas}[-R,R]^n = \\epsilon 2^n R^n.$$\nLetting $\\epsilon\\to 0$ one concludes that $S^*(f)=S_*(f)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuousFunctionsOfSeveralVariablesAreRiemannSummable"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "continuous functions of several variables are Riemann summable"
+  ]
+}

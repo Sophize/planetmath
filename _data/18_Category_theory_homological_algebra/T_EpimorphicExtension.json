@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "epimorphic monomorphism",
+    "bimorphism"
+  ],
+  "definition": "Let $\\mathcal C$ be a category and $f\\in \\mathcal C(A,B)$ for some\n$A,B\\in\\mathrm Ob(A,B)$. Then $f$ is said to be an *epimorphic\nextension* if it is both an epimorphism and a monorphism.\n\nFor instance, in the category of rings we say that a ring $B$ is an\nepimorphic extension of another ring $A$, if $A$ is a subring of $B$ and\nthe canonical homomorphism between $A$ and $B$ is an epimorphism.",
+  "language": "INFORMAL",
+  "phrase": "Epimorphic Extension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EpimorphicExtension"
+    }
+  ],
+  "indexable": true
+}

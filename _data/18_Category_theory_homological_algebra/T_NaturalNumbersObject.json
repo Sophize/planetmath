@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ be a category with a terminal object $1$. A (weak)\n*natural numbers object* consists of an object $N$ along with morphisms\n$z\\colon 1\\to N$ (\u201czero\u201d) and $S\\colon N\\to N$ (\u201csuccessor\u201d) of\n$\\mathcal{C}$ such that if $\\xymatrix{1\\ar[r]^{z'} & N'\\ar[r]^{S'} & N}$\nis a diagram in $\\mathcal{C}$, then there exists a morphism\n$g\\colon N\\to N'$ such that the diagram $$\\xymatrix{\n1\\ar[r]^z\\ar@{=}[d] & N\\ar[r]^S\\ar[d]^g  & N\\ar[d]^g \\\\\n1\\ar[r]^{z'}        & N'\\ar[r]^{S'}      & N'\n}$$ is commutative. The morphism $g$ is not required to be unique. If we\nadditionally require the morphism to be unique, we obtain a *strong\nnatural numbers object*. Note that a strong natural numbers object can\nalso be defined as an initial diagram of the form $$\\xymatrix{\n1 \\ar[r] & N\\ar[r] & N.\n}$$\n\nIn the category $\\mathbf{Set}$, the set $\\mathbb{N}$ of natural numbers\nis a natural numbers object. Using arithmetic notation for simplicity,\nthe morphism $z\\colon 1\\to\\mathbb{N}$ picks out the element zero, and\nthe morphism $S\\colon\\mathbb{N}\\to\\mathbb{N}$ is defined by the formula\n$S(x) = x + 1$. This object is the source of the name \u201cnatural numbers\nobject\u201d.\n\n[99]{} J.\u00a0Lambek and P.\u00a0J.\u00a0Scott. [*Introduction to higher order\ncategorical logic*]{}. Cambridge University Press, 1986.",
+  "language": "INFORMAL",
+  "phrase": "Natural Numbers Object",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NaturalNumbersObject"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $(X,d)$ be a complete metric space, and $U_k$ a countable collection\nof dense, open subsets. Let $x_0\\in X$ and $\\epsilon_0>0$ be given. We\nmust show that there exists a $x\\in \\bigcap_k U_k$ such that\n$$d(x_0,x)<\\epsilon_0.$$ Since $U_1$ is dense and open, we may choose an\n$\\epsilon_1>0$ and an $x_1\\in U_1$ such that\n$$d(x_0,x_1)<\\frac{\\epsilon_0}{2},\\quad \\epsilon_1<\\frac{\\epsilon_0}{2},$$\nand such that the open ball of radius $\\epsilon_1$ about $x_1$ lies\nentirely in $U_1$. We then choose an $\\epsilon_2>0$ and a $x_2\\in U_2$\nsuch that\n$$d(x_1,x_2)<\\frac{\\epsilon_1}{2},\\quad \\epsilon_2<\\frac{\\epsilon_1}{2},$$\nand such that the open ball of radius $\\epsilon_2$ about $x_2$ lies\nentirely in $U_2$. We continue by induction, and construct a sequence of\npoints $x_k\\in U_k$ and positive $\\epsilon_k$ such that\n$$d(x_{k-1},x_k)<\\frac{\\epsilon_{k-1}}{2},\\quad \\epsilon_k<\\frac{\\epsilon_{k-1}}{2},$$\nand such that the open ball of radius $\\epsilon_k$ lies entirely in\n$U_k$.\n\nBy construction, for $0\\leq j<k$ we have\n$$d(x_j,x_k) < \\epsilon_j \\left(\\frac{1}{2} + \\cdots +\n  \\frac{1}{2^{k-j}}\\right) < \\epsilon_j \\leq \\frac{\\epsilon_0}{2^j}.$$\nHence the sequence $x_k, \\; k=1,2,\\ldots$ is Cauchy, and converges by\nhypothesis to some $x\\in X$. It is clear that for every $k$ we have\n$$d(x,x_k) \\leq \\epsilon_k.$$ Moreover it follows that\n$$d(x,x_k) \\leq d(x,x_{k+1}) + d(x_{k},x_{k+1}) < \\epsilon_{k+1} +\n\\frac{\\epsilon_{k}}{2},$$ and hence a fortiori $$d(x,x_k)<\\epsilon_k$$\nfor every $k$. By construction then, $x\\in\nU_k$ for all $k=1,2,\\ldots$, as well. QED",
+  "conclusion": "#P_BaireCategoryTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBaireCategoryTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Baire category theorem"
+  ]
+}

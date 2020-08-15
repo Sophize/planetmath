@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that $A$ and $Z$ are two square matrices dependent on a\nparameter which satisfy the differential equation $$Z'(t) = A(t) Z(t)$$\nwithh initial condition $Z(0) = I$. Letting $\\| \\cdot \\|$ denote the\nmatrix operator norm, we will show that, if $\\| A(t) \\| \\le C$ for some\nconstant $C$ when $0 \\le t \\le R$, then\n$$\\| Z(t) - I \\| \\le C \\left( e^{Ct} - 1 \\right)$$ when $0 \\le t \\le R$.\n\nWe begin by applying the product inequality for the norm, then employing\nthe triangle inequality (both in the sum and integral forms) after\nexpressing $Z$ as the integral of its derivative: $$\\begin{aligned}\n \\| Z'(t) \\| &\\le \\| A(t) \\| \\| Z(t) \\| \\\\\n  & \\le C \\| Z(t) \\| \\\\\n  & = C \\left\\| I + \\int_0^t ds \\, Z'(s) \\right\\| \\\\\n  &\\le C \\| I \\| + C \\int_0^t ds \\, \\| Z' (s) \\| \\\\\n  &\\le C + C \\int_0^t ds \\, \\| Z' (s) \\|\\end{aligned}$$\n\nFor convenience, let us define $f(t) = \\int_0^t ds \\, \\| Z' (s) \\|$.\nThen we have $f'(t) \\le C + C f(t)$ according to the foregoing\nderivation. By the product rule,\n$${d \\over dt} \\left( e^{-Ct} f(t) \\right) =\n  e^{-Ct} (f'(t) - C f(t)) .$$ Since $f'(t) - C f(t) \\le C$, we have\n$${d \\over dt} \\left( e^{-Ct} f(t) \\right) \\le\n  C e^{-Ct} .$$ Taking the integral from $0$ to $t$ of both sides and\nnoting that $f(0) = 0$, we have\n$$e^{-Ct} f(t) \\le C \\left( 1 - e^{-Ct} \\right) .$$ Multiplying both\nsides by $e^{Ct}$ and recalling the definition of $f$, we conclude\n$$\\int_0^t ds \\, \\| Z'(s) \\| \n   \\le C \\left( e^{Ct} - 1 \\right) .$$\n\nFinally, by the triangle inequality, $$\\| Z(t) - I \\| \n   = \\left\\| \\int_0^t ds \\, Z(s) \\right\\|\n   \\le \\int_0^t ds \\, \\| Z(s) \\| .$$ Combining this with the inequality\nderived in the last paragraph produces the answer:\n$$\\| Z(t) - I \\| \\le C \\left( e^{Ct} - 1 \\right) .$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundOnMatrixDifferentialEquation"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "bound on matrix differential equation"
+  ]
+}

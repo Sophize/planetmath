@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "elliptic curve discrete log problem"
+  ],
+  "definition": "The elliptic curve discrete logarithm problem is the cornerstone of much\nof present-day elliptic curve cryptography. It relies on the natural\ngroup law on a non-singular elliptic curve which allows one to add\npoints on the curve together. Given an elliptic curve $E$ over a finite\nfield $F$, a point on that curve, $P$, and another point you know to be\nan integer multiple of that point, $Q$, the \u201cproblem\u201d is to find the\ninteger $n$ such that $nP=Q$.\n\nThe problem is computationally difficult unless the curve has a \u201cbad\u201d\nnumber of points over the given field, where the term \u201cbad\u201d encompasses\nvarious collections of numbers of points which make the elliptic curve\ndiscrete logarithm problem breakable. For example, if the number of\npoints on $E$ over $F$ is the same as the number of elements of $F$,\nthen the curve is vulnerable to attack. It is because of these issues\nthat point-counting on elliptic curves is such a hot topic in elliptic\ncurve cryptography.\n\nFor an introduction to point-counting, reference Schoof\u2019s algorithm.",
+  "language": "INFORMAL",
+  "phrase": "Elliptic Curve Discrete Logarithm Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EllipticCurveDiscreteLogarithmProblem"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An integer $n$ is a [*highly abundant number*]{} if\n$\\sigma(n) > \\sigma(m)$ for all $m < n$ (with $\\sigma$ being the sum of\ndivisors function). The highly abundant numbers less than 100 are 1, 2,\n3, 4, 6, 8, 10, 12, 16, 18, 20, 24, 30, 36, 42, 48, 60, 72, 84, 90, 96\n(see A002093 in Sloane\u2019s OEIS). Highly abundant numbers are like highly\ncomposite numbers except the definition for the latter uses the divisor\nfunction $\\tau$ instead of $\\sigma$. The highly abundant numbers grow\nmuch more slowly than the highly composite numbers.\n\nThough the first eight factorials are highly abundant, not all\nfactorials are highly abundant. Two examples: 360360 is more abudant\nthan 362880; and 3492720, 3538080, 3598560, 3603600 are all more\nabundant than 3628800.",
+  "language": "INFORMAL",
+  "phrase": "Highly Abundant Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HighlyAbundantNumber"
+    }
+  ],
+  "indexable": true
+}

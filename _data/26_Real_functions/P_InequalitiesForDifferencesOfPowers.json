@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Oftentimes, one needs to estimate differences of powers of real numbers.\nThe following inequalities are useful for this purpose:\n$$n (u-v) v^{n-1} < u^n - v^n < n (u-v) u^{n-1}$$\n$$n x \\le (1 + x)^n - 1$$\n$$(1 + x)^n - 1 \\le { n x \\over 1 - (n - 1) x}$$\n\nHere $n$ is an integer greater than 1. The first inequality holds when\n$0 < v < u$, the second inequality holds when $-1 < x $, and the third\ninequality holds when $-1 < x < 1/(n-1)$. Equality can only occur in the\nlatter two inequalities when $x = 0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InequalitiesForDifferencesOfPowers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "inequalities for differences of powers"
+  ]
+}

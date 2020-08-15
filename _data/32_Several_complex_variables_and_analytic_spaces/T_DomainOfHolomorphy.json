@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An open set $\\Omega \\subset {\\mathbb{C}}^n$ is called a [*domain of\nholomorphy*]{} if there do not exist non-empty open sets\n$U \\subset \\Omega$ and $V \\subset {\\mathbb{C}}^n$ where $V$ is\nconnected, $V \\not\\subset \\Omega$ and $U \\subset \\Omega \\cap V$ such\nthat for every holomorphic function $f$ on $\\Omega$ there exists a\nholomorphic function $g$ on $V$ such that $f = g$ on $U.$\n\nWhen $n=1$, then every open set is a domain of holomorphy. For an\nexample, assume that the boundary of $\\Omega \\subset {\\mathbb{C}}$ is a\nJordan curve for simplicity. We can define a holomorphic function which\nhas zeros which accumulate on the boundary of the domain and thus the\nfunction cannot be continued past any point in the boundary. If you\ncould extend the function, it would be identically zero.\n\nAlternatively given any open set $\\Omega \\subset \\mathbb{C}$ and any\npoint $p \\in \\partial \\Omega,$ the function $z \\mapsto \\frac{1}{z-p}$ is\nholomorphic in $\\Omega$, but cannot be continued past $p$.\n\nFor $n \\geq 2$ many domains are not domains of holomorphy. For example\nif you take ${\\mathbb{C}}^2 \\setminus \\{0\\},$ this is no longer a domain\nof holomorphy by . It turns out that a domain is a domain of holomorphy\nif and only if the boundary is pseudoconvex. In particular, every convex\n(in the classical sense) domain is a domain of holomorphy. examples of\ndomains of holomorphy are ${\\mathbb{C}}^n,$ an open ball, or a polydisc.\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Domain Of Holomorphy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DomainOfHolomorphy"
+    }
+  ],
+  "indexable": true
+}

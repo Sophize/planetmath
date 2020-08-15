@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that an odd prime number $p$ can be written as the sum\n$$p \\;=\\; a^2\\!+\\!b^2$$ where $a$ and $b$ are integers. Then they have\nto be coprime. We will show that $p$ is of the form $4n\\!+\\!1$.\n\nSince $p \\nmid b$, the congruence $$bb_1 \\;\\equiv\\; 1 \\pmod p$$ has a\nsolution $b_1$, whence\n$$0 \\;\\equiv\\; pb_1^2 \\;=\\; (ab_1)^2\\!+\\!(bb_1)^2 \\;\\equiv\\; (ab_1)^2\\!+\\!1 \\pmod p,$$\nand thus $$(ab_1)^2 \\;\\equiv\\; -1 \\pmod p.$$ Consequently, the Legendre\nsymbol $\\left(\\frac{-1}{p}\\right)$ is $+1$, i.e.\n$$(-1)^{\\frac{p-1}{2}} \\;=\\; 1.$$ Therefore, we must have\n$$\\begin{aligned}\np \\;=\\; 4n\\!+\\!1\\end{aligned}$$ where $n$ is a positive integer.\\\nEuler has first proved the following theorem presented by Fermat and\ncontaining also the converse of the above claim.\n\n**Theorem ().** An odd prime $p$ is uniquely expressible as sum of two\nsquares of integers if and only if it satisfies (1) with an integer\nvalue of $n$.\\\nThe theorem implies easily the\n\n**Corollary.** If all odd prime factors of a positive integer are\ncongruent to 1 modulo 4 then the integer is a sum of two squares. (Cf.\nthe proof of the parent article and the article \u201c\u201d.)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheoremOnSumsOfTwoSquaresByFermat"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "theorem on sums of two squares by Fermat"
+  ]
+}

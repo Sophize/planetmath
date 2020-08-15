@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A topological space $X$ is locally connected if and only if each\ncomponent of an open set is open.\n\nFirst, suppose that $X$ is locally connected and that $U$ is an open set\nof $X$. Let $p \\in C$, where $C$ is a component of $U$. Since $X$ is\nlocally connected there is an open connected set, say $V$ with\n$p \\in V \\subset U$. Since $C$ is a component of $U$ it must be that\n$V \\subset C$. Hence, $C$ is open. For the converse, suppose that each\ncomponent of each open set is open. Let $p \\in X$. Let $U$ be an open\nset containing $p$. Let $C$ be the component of $U$ which contains $p$.\nThen $C$ is open and connected, so $X$ is locally connected.\n\nAs a corollary, we have that the components of a locally connected space\nare both open and closed.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofThatComponentsOfOpenSetsInALocallyConnectedSpaceAreOpen"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "proof that components of open sets in a locally connected space are open"
+  ]
+}

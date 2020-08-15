@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "moment map"
+  ],
+  "definition": "Let $(M,\\omega)$ be a symplectic manifold, $G$ a Lie group acting on\nthat manifold, ${\\mathfrak{g}}$ its Lie algebra, and ${\\mathfrak{g}}^*$\nthe dual of the Lie algebra. This action induces a map\n$\\alpha:{\\mathfrak{g}}\\to{\\mathfrak{X}}(M)$ where ${\\mathfrak{X}}(M)$ is\nthe Lie algebra of vector fields on $M$, such that\n$\\exp(tX)(m)=\\rho_t(m)$ where $\\rho$ is the flow of $\\alpha(X)$. Then a\n[*moment map*]{} $\\mu:M\\to{\\mathfrak{g}}^*$ for the action of $G$ is a\nmap such that\n\n$$H_{\\mu(X)}=\\alpha(X).$$ Here $\\mu(X)(m)=\\mu(m)(X)$, that is, $\\mu(m)$\nis a covector, so we apply it to the vector $X$ and get a scalar\nfunction $\\mu(X)$, and $H_{\\mu(X)}$ is its Hamiltonian vector field.\n\nGenerally, the moment maps we are interested in are equivariant with\nrespect to the coadjoint action, that is, they satisfy\n$${\\mathrm{Ad}}^*_g\\circ\\mu=\\mu\\circ g.$$",
+  "language": "INFORMAL",
+  "phrase": "Momentum Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MomentumMap"
+    }
+  ],
+  "indexable": true
+}

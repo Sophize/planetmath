@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ be a category and\n$M: = \\lbrace f_i: A \\to B_i \\mid i\\in I\\rbrace$ a set (indexed by a set\n$I$) of morphisms with common domain $A$ in $\\mathcal{C}$. Then $M$ is\nsaid to be a *monomorphic set* if for any pair of morphisms\n$g,h: C\\to A$, $f_i\\circ g = f_i\\circ h$ for all $i\\in I$ imply that\n$g=h$. A *monomorphic pair* is a monomorphic set $M$ such that the\ncardinality of $M$ is 2.\n\nMonomorphic sets are generalizations of monomorphisms. Indeed, for if\n$\\lbrace f:A\\to B\\rbrace$ is a monomorphic set, then $f$ is a\nmonomorphic.\n\nFor example, in **Set**, the category of sets, let $R$ be an $n$-ary\nrelation on a set $A$. For each $i=1,\\ldots, n$, let $p_i$ be the\nprojection of the $i$-th coordinate of $R$ into $A$. Then\n$$\\lbrace p_i\\mid i=1,\\ldots, n\\rbrace$$ is a monomorphic set in\n**Set**. To see this, observe first that, since $R$ is a subset of\n$A^n$, any function $f:B\\to R$ has $n$ components, $f_i: B\\to A$, given\nby $f_i = p_i\\circ f$. Now, suppose $g,h:B\\to R$ are functions, such\nthat $p_i\\circ g=p_i\\circ h$. Then $g_i=h_i$ for all $i$. In other\nwords, all components of $g$ and $h$ match. Therefore $g=h$.\n\nMore generally, a relation $R$ between sets $A_1,\\ldots, A_n$ is a\nsubset of the cartesian product $A_1\\times \\cdots \\times A_n$. The set\nof projections $\\lbrace p_i: R\\to A_i\\mid i=1,\\ldots,n\\rbrace$ is also a\nmonomorphic set in $\\textbf{Set}$. Using this concept, one may\ngeneralize the notion of a relation on sets to a relation on objects in\na category.\n\n**Remark**. One can dually define *epimorphic sets* and *epimorphic\npairs*.\n\n[9]{} F. Borceux *Basic Category Theory, Handbook of Categorical Algebra\nI*, Cambridge University Press, Cambridge (1994)",
+  "language": "INFORMAL",
+  "phrase": "Monomorphic Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MonomorphicSet"
+    }
+  ],
+  "indexable": true
+}

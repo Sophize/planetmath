@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Vector fields $X$, $Y$ on a manifold are *commuting* at $p\\in M$ if\n$$[X,Y]_p=0$$ where $[\\cdot,\\cdot]$ is the Lie bracket.\n\nIf $S$ is a subset of $M$, then we say that vector fields $X$ and $Y$\ncommute on $S$ if they commute at every pont of $S$. In the case where\n$S = M$, i.e. when the vector fields commute at every point of the\nmanifold, then we simply say that $X$ and $Y$ are commute.\n\nA set $V$ of vector fields on a manifold is said to be commuting on a\nset $S$ if, for every pair of vector fields $A \\in V$ and $B \\in V$, it\nis the case that $A$ and $B$ commute.\n\nIf $S$ is an open set and $V$ is a set of commuting vector fields on\n$S$, then the cardinality of $V$ is not greater than the dimension of\nthe manifold and one can find a local coordinate system about any point\nof $S$ for which these vector fields are coordinate vector fields.",
+  "language": "INFORMAL",
+  "phrase": "Commuting Vector Fields",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CommutingVectorFields"
+    }
+  ],
+  "indexable": true
+}

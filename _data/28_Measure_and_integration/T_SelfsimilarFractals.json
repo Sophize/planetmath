@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(X,d)$ be a metric space and let $T_1,\\ldots,T_N$ be a finite\nnumber of contractions on $X$ i.e.\u00a0each $T_i\\colon X\\to X$ enjoys the\nproperty $$d(T_i(x),T_i(y)) \\le \\lambda_i d(x,y)$$ ($T_i$ is\n$\\lambda_i$-Lipschitz) for some $\\lambda_i<1$.\n\nGiven a set $A\\subset X$ we can define\n$$T(A) = \\bigcup_{i=1}^N T_i(A).$$\n\nA set $K$ such that $T(K)=K$ (invariant set) is called a *self-similar\nfractal* with respect to the contractions $\\{T_1,\\ldots,T_N\\}$.\n\nThe most famous example of self-similar fractal is the Cantor set. This\nis constructed in $X={\\mathbb R}$ with the usual Euclidean metric\nstructure, by choosing $N=2$ contractions: $T_1(x)=x/3$,\n$T_2(x)=1-(1-x)/3$.\n\nA more interesting example is the Koch curve in $X={\\mathbb R}^2$. In\nthis case we choose $N=4$ similitudes with factor $1/3$.\n\nBy choosing other appropriate transformations one can obtain the\nbeautiful example of the Barnsley Fern, which shows how the fractal\ngeometry can successfully describe nature.\n\nAn important result is given by the following Theorem.\n\nLet $X$ be a complete metric space and let\n$T_1,\\ldots, T_N\\colon X \\to X$ be a given set of contractions. Then\nthere exists one and only one non empty compact set $K\\subset X$ such\nthat $T(K)=K$.\n\nNotice that the empty set always satisfies the relation\n$T(\\emptyset)=\\emptyset$ and hence is not an interesting case. On the\nother hand, if at least one of the $T_i$ is surjective (as happens in\nthe examples above), then the whole set $X$ satisfies $T(X)=X$.",
+  "language": "INFORMAL",
+  "phrase": "Self-Similar Fractals",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SelfsimilarFractals"
+    }
+  ],
+  "indexable": true
+}

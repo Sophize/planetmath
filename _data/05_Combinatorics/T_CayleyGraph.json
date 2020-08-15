@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G = \\langle X | R \\rangle$ be a presentation of the finitely\ngenerated group $G$ with generators $X$ and relations $R$. We define the\n*Cayley graph* $\\Gamma = \\Gamma(G,X)$ of $G$ with generators $X$ as\n$$\\Gamma =\n\\left(G,E\\right),$$ where $$E =\n  \\left\\{\n    \\left\\{u,a\\cdot u \\right\\} |\n    u\\in G, a\\in X\n  \\right\\}.$$\n\nThat is, the vertices of the Cayley graph are precisely the elements of\n$G$, and two elements of $G$ are connected by an edge iff some generator\nin $X$ transfers the one to the other.\n\nExamples {#examples .unnumbered}\n--------\n\n1.  $G={\\mathbb{Z}}^d$, with generators $X=\\{e_1,\\ldots,e_d\\}$, the\n    standard basis vectors. Then $\\Gamma(G,X)$ is the $d$-dimensional\n    grid; confusingly, it too is often termed \u201c${\\mathbb{Z}}^d$\u201d.\n\n2.  $G=F_d$, the free group with the $d$ generators $X=\\{g_1,...,g_d\\}$.\n    Then $\\Gamma(G,X)$ is the $2d$-regular tree.\n\nA Cayley graph can be considered as a metric space with $d(x,y)$\n($x,y \\in G$) being the minimum number of edges one must traverse to get\nfrom $x$ to $y$. Thus, each edge has length 1.\n\n1\\) the graph is also edge labeled by the generator and directed. If you\nare in a group then given directed edges is sufficient to reconstruct\nthe label. Though in practice the vertices themselves are just dots\n(save the identity at times) in the graph and instead it is the edges\nthat get labeled to tell you what to call the vertex.\n\n2\\) The definition works for more than groups. In fact, it is sometimes\nused for the graph of a (semi)group acting on a set S as a Cayley graph\nwith vertices S and edges given by the group action. As the definition\nof the graph is nearly identical authors do not generally strive to\ndistinguish these two notions of a Cayley graph.\n\n3\\) In a group, the graph is regular and connected.\n\n4\\) The metric we mentioned above is usually called \u201cword length\u201d . The\nbounding of word lengths \u2013 that is bounding the girth of a the graph, is\na hard and active research problem involving the theory of expanders.",
+  "language": "INFORMAL",
+  "phrase": "Cayley Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CayleyGraph"
+    }
+  ],
+  "indexable": true
+}

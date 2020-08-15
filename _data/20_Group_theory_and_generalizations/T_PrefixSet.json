@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set, and $w\\in X^*$ be a word, i.e. an element of the free\nmonoid on $X$. A word $v\\in X^*$ is called *prefix* of $w$ when a second\nword $z\\in X^*$ exists such that $x=vz$. A *proper prefix* of a word u\nis a prefix v of u not equal to u (sometimes v is required to be\nnon-empty).\n\nNote that the empty word $\\varepsilon$ and $w$ are prefix of $w$, and a\nproper prefix of $w$ if $w$ is non-empty.\n\nThe *prefix set* of $w$ is the set ${\\mathrm{pref}}(w)$ of prefixes of\n$w$, i.e. if $w=w_1w_2...w_n$ with $w_j\\in X$ for each $j\\in\\{1,...,n\\}$\nwe have\n$${\\mathrm{pref}}(w)=\\{\\varepsilon,\\ w_1,\\ w_1w_2,\\ ... ,\\ w_1w_2...w_{n-1},\\ w\\}.$$\n\nSome closely related concepts are:\n\n1.  A set of words is *prefix closed* if for every word in the set, any\n    of its prefix is also in the set.\n\n2.  The *prefix closure* of a set S is the smallest prefix closed set\n    containing S, or, equivalently, the union of the prefix sets of\n    words in S.\n\n3.  A set S is *prefix free* if for any word in S, no proper prefixes of\n    the word are in S.",
+  "language": "INFORMAL",
+  "phrase": "Prefix Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrefixSet"
+    }
+  ],
+  "indexable": true
+}

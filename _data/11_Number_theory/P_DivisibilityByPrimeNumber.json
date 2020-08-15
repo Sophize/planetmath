@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $a$ and $b$ be integers and $p$ any prime number. Then we have:\n$$\\begin{aligned}\n       p \\mid ab \\quad \\Leftrightarrow \\quad p \\mid a\\; \\lor\\; p \\mid b\\end{aligned}$$\n\n[*Proof.*]{} Suppose that $p \\mid ab$. Then either $p \\mid a$ or\n$p \\nmid a$. In the latter case we have $\\gcd(a,\\,p) = 1$, and therefore\nthe corollary of B\u00e9zout\u2019s lemma gives the result $p \\mid b$. Conversely,\nif $p \\mid a$ or $p \\mid b$, then for example $a = mp$ for some integer\n$m$; this implies that $ab = mb\\cdot p$, i.e. $p \\mid ab$.\\\n**Remark 1.** The theorem means, that if a product is divisible by a\nprime number, then at least one of the factor is divisibe by the prime\nnumber. Also conversely.\\\n**Remark 2.** The condition (1) is expressed in of principal ideals as\n$$\\begin{aligned}\n      (ab)\\subseteq (p) \\quad \\Leftrightarrow \\quad \n          (a)\\subseteq (p)\\, \\lor\\, (b)\\subseteq (p).\\end{aligned}$$\nHere, $(p)$ is a prime ideal of $\\mathbb{Z}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DivisibilityByPrimeNumber"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "divisibility by prime number",
+    "divisibility by prime"
+  ]
+}

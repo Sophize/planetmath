@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $\\mathcal{A}$ be a Banach algebra and\n$\\mathcal{I} \\subseteq \\mathcal{A}$ a ideal. Then\n$\\mathcal{A}/\\mathcal{I}$ is Banach algebra under the quotient norm.\n\n$\\;$\n\n[**Proof:**]{} Denote the quotient norm by $\\|\\cdot\\|_q$.\n\nBy the we know that $\\mathcal{A}/\\mathcal{I}$ is a Banach space under\nthe quotient norm. Thus, we only need to show the normed algebra\ninequality:\n$$\\|ab+\\mathcal{I}\\|_q \\leq \\|a+\\mathcal{I}\\|_q \\|b+\\mathcal{I}\\|_q$$\nfor every $a, b \\in \\mathcal{A}$.\n\nUsing the fact that $\\mathcal{A}$ is a Banach algebra and the definition\nof quotient norm we have that: $$\\begin{aligned}\n\\|ab+\\mathcal{I}\\|_q & = & \\inf_{z \\,\\in\\, ab + \\mathcal{I}} \\|z\\| = \\inf_{u \\,\\in\\, a + \\mathcal{I}\\atop v \\,\\in\\, b + \\mathcal{I}} \\|uv\\| \\\\\n& \\leq & \\inf_{u \\,\\in\\, a + \\mathcal{I}\\atop v \\,\\in\\, b + \\mathcal{I}} \\|u\\|\\|v\\| \\leq \\inf_{u \\,\\in\\, a + \\mathcal{I}}\\|u\\| \\inf_{v \\,\\in\\, b + \\mathcal{I}}\\|v\\| \\\\\n& = & \\|a+ \\mathcal{I}\\|_q \\|b+ \\mathcal{I}\\|_q\\end{aligned}$$\n\n$\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientsOfBanachAlgebras"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "quotients of Banach algebras"
+  ]
+}

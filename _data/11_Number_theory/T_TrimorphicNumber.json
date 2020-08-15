@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a base $b$ integer $$n = \\sum_{i = 1}^k d_ib^{i - 1}$$ where $d_1$\nis the least significant digit and $d_k$ is the most significant, if\nit\u2019s also the case that the $k$ least significant digits of $n^3$ are\nthe same of those of $n$, then $n$ is called a [*trimorphic number*]{}.\n\nAll automorphic numbers (with $m = 1$) are also trimorphic numbers, but\nnot all trimorphic numbers are 1-automorphic.",
+  "language": "INFORMAL",
+  "phrase": "Trimorphic Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TrimorphicNumber"
+    }
+  ],
+  "indexable": true
+}

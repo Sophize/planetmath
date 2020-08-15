@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "iterate"
+  ],
+  "definition": "Let $f\\colon X\\to X$ be a function, $X$ being any set. The $n$-th\niteration of a function is the function which is obtained if $f$ is\napplied $n$ times, and is denoted by $f^n$. More formally we define:\n$$f^0(x)=x$$ and $$f^{n+1}(x)=f(f^n(x))$$ for nonnegative integers $n$.\nIf $f$ is invertible, then by going backwards we can define the iterate\nalso for negative $n$.",
+  "language": "INFORMAL",
+  "phrase": "Iteration",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Iteration"
+    }
+  ],
+  "indexable": true
+}

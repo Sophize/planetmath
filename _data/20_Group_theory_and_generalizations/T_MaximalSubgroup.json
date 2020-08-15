@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "maximal proper subgroup"
+  ],
+  "definition": "Let $G$ be a group.\n\nA subgroup $H$ of $G$ is said to be a *maximal subgroup* of $G$ if\n$H\\neq G$ and there is no subgroup $K$ of $G$ such that $H<K<G$. Note\nthat a maximal subgroup of $G$ is not among all subgroups of $G$, but\nonly among all proper subgroups of $G$. For this reason, maximal\nsubgroups are sometimes called *maximal proper subgroups*.\n\nSimilarly, a normal subgroup $N$ of $G$ is said to be a *maximal normal\nsubgroup* (or *maximal proper normal subgroup*) of $G$ if $N\\neq G$ and\nthere is no normal subgroup $K$ of $G$ such that $N<K<G$. We have the\nfollowing theorem:\n\nA normal subgroup $N$ of a group $G$ is a maximal normal subgroup if and\nonly if the $G/N$ is .",
+  "language": "INFORMAL",
+  "phrase": "Maximal Subgroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MaximalSubgroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space and $G$ a group that acts on $X$ by\nhomeomorphisms. The action of $G$ is said to be *discontinuous* at\n$x \\in X$ if there is a neighborhood $U$ of $x$ such that the set\n$$\\{g\\in G\\, |\\, gU\\cap U\\neq \\emptyset\\}$$ is finite. The action is\ncalled discontinuous if it is discontinuous at every point.\n\nIf $G$ acts discontinuously then the orbits of the action have no\naccumulation points, i.e. if $\\{g_n\\}$ is a sequence of distinct\nelements of $G$ and $x\\in X$ then the sequence $\\{g_nx\\}$ has no limit\npoints. If $X$ is locally compact then an action that satisfies this\ncondition is discontinuous.\n\nAssume that $X$ is a locally compact Hausdorff space and let\n${ \\operatorname{Aut}}(X)$ denote the group of self homeomorphisms of\n$X$ endowed with the compact-open topology. If\n${\\rho}\\co G\\to { \\operatorname{Aut}}(X)$ defines a discontinuous action\nthen the image ${\\rho}(G)$ is a discrete subset of\n${ \\operatorname{Aut}}(X)$.",
+  "language": "INFORMAL",
+  "phrase": "Discontinuous Action",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiscontinuousAction"
+    }
+  ],
+  "indexable": true
+}

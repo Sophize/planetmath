@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "KFC",
+    "K.F.C."
+  ],
+  "definition": "Let $a,b,c,d \\in \\mathbb{Z}-\\{0\\}$. A mnemonic device for calculating\n\n$$\\frac{a}{b} \\div \\frac{c}{d}$$\n\nis [*KFC*]{}. This stands for \u201ckeep-flip-change\u201d. This means that you\nkeep the first fraction as it is, flip the second fraction, and change\nthe problem to a multiplication problem. Thus, the expression above\nbecomes\n\n$$\\frac{a}{b} \\cdot \\frac{d}{c}.$$\n\nThis yields that\n\n$$\\frac{a}{b} \\div \\frac{c}{d}=\\frac{a}{b} \\cdot \\frac{d}{c}=\\frac{ad}{bc}.$$",
+  "language": "INFORMAL",
+  "phrase": "Keep-Flip-Change",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Keepflipchange"
+    }
+  ],
+  "indexable": true
+}

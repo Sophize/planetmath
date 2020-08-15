@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Cartesian product of a finite number of countable sets is countable.\n\n*Proof:* Let $A_1, A_2, \\ldots, A_n$ be countable sets and let\n$S = A_1 \\times A_2 \\times \\cdots \\times A_n$. Since each $A_i$ is\ncountable, there exists an injective function\n$f_i\\colon A_i \\to \\mathbb{N}$. The function $h\\colon S \\to \\mathbb{N}$\ndefined by $$h(a_1, a_2, \\ldots a_n) = \\prod_{i=1}^n p_i^{f_i(a_i)}$$\nwhere $p_i$ is the $i$th prime is, by the fundamental theorem of\narithmetic, a bijection between $S$ and a subset of $\\mathbb{N}$ and\ntherefore $S$ is also countable.\n\nNote that this result does *not* (in general) extend to the Cartesian\nproduct of a countably infinite collection of countable sets. If such a\ncollection contains more than a finite number of sets with at least two\nelements, then Cantor\u2019s diagonal argument can be used to show that the\nproduct is not countable.\n\nFor example, given $B = \\{0, 1\\}$, the set $F = B \\times B \\times\n\\cdots$ consists of all countably infinite sequences of zeros and ones.\nEach element of $F$ can be viewed as a binary fraction and can therefore\nbe mapped to a unique real number in $[0, 1)$ and $[0, 1)$ is, of\ncourse, not countable.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheCartesianProductOfAFiniteNumberOfCountableSetsIsCountable"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the Cartesian product of a finite number of countable sets is countable",
+    "The product of a finite number of countable sets is countable"
+  ]
+}

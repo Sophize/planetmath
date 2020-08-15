@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Euler numbers* $E_n$ have the generating function\n$\\displaystyle\\frac{1}{\\cosh{x}}$ such that\n$$\\frac{1}{\\cosh{x}} \\;=:\\; \\sum_{n=0}^\\infty\\frac{E_n}{n!}\\,x^n.$$ They\nare integers but have no expression for calculating them. Their only are\nthat the numbers with odd are all 0 and that\n$$\\mbox{sgn}(E_{2m}) \\;=\\; (-1)^m \\qquad \\mbox{for} \\quad m = 0,\\,1,\\,2,\\,\\ldots$$\nThe Euler number have intimate relation to the Bernoulli numbers. The\nfirst Euler numbers with even index are\n$$E_0 = 1,\\quad E_2 = -1,\\quad E_4 = 5,\\quad E_6 = -61,\n\\quad E_8 = 1385,\\quad E_{10} = -50521.$$\n\n-   One can by hand determine Euler numbers by performing the division\n    of 1 by the Taylor series of hyperbolic cosine (cf. Taylor series\n    via division and Taylor series of hyperbolic functions). Since\n    $\\cosh{ix} = \\cos{x}$, the division $1:\\cos{x}$ correspondingly\n    gives only terms with plus sign, i.e. it shows the absolute values\n    of the Euler numbers.\\\n\n-   The Euler numbers may also be obtained by using the Euler\n    polynomials $E_n(x)$:\n    $$E_n \\;=\\; 2^nE_n\\!\\!\\left(\\!\\frac{1}{2}\\!\\right)$$\n\n-   If the Euler numbers $E_k$ are denoted as symbolic powers $E^k$,\n    then one may write the equation $$(E\\!+\\!1)^n+(E\\!-\\!1)^n \\;=\\; 0,$$\n    which can be used as a recurrence relation for computing the values\n    of the even-indexed Euler numbers. Cf. the Leibniz rule for\n    derivatives of product $fg$.",
+  "language": "INFORMAL",
+  "phrase": "Euler Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulerNumbers"
+    }
+  ],
+  "indexable": true
+}

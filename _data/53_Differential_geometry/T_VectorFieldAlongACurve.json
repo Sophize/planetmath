@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a differentiable manifold and $\\gamma:[a,b]\\to M$ be a\ndifferentiable curve in $M$. Then a vector field along $\\gamma$ is a\ndifferentiable map $\\Gamma:[a,b]\\to TM$, the tangent bundle of $M$,\nwhich projects to $\\gamma$ under the natural projection $\\pi:TM\\to M$.\nThat is, it assigns to each point $t_0\\in [a,b]$ a vector tangent to $M$\nat the point $\\gamma(t)$, in a continuous manner. A good example of a\nvector field along a curve is the speed vector $\\dot\\gamma$. This is the\npushforward of the constant vector field $\\frac{d}{dt}$ by $\\gamma$,\ni.e., at $t_0$, it is the derivation\n$\\dot\\gamma(f)=\\frac{d}{dt}(f\\circ\\gamma)|_{t=t_0}$.",
+  "language": "INFORMAL",
+  "phrase": "Vector Field Along A Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VectorFieldAlongACurve"
+    }
+  ],
+  "indexable": true
+}

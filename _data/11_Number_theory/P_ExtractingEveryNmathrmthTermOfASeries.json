@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Roots of unity can be used to extract every $n^\\mathrm{th}$ term of a\nseries. This method is due to Simpson \\[1759\\].\n\n**Theorem.** Let $\\omega=e^{2\\pi i/k}$ be a primitive $k^\\mathrm{th}$\nroot of unity. If $f(x)=\\sum_{j=0}^{\\infty} a_j x^j$ and\n$n\\not\\equiv 0\\pmod k$, then\n$$\\sum_{j=0}^{\\infty} a_{kj+n}x^{kj+n}=\\frac{1}{k}\\sum_{j=0}^{k-1}\\omega^{-jn}f(\\omega^{j}x)$$\n\n**Proof.** This is a consequence of the fact that\n$\\sum_{j=0}^{k-1}\\omega^{jm}=0$ for $m\\not\\equiv 0\\pmod k$.\n\nConsider the term involving $x^r$ on the right-hand side. It is\n$$\\frac{1}{k}\\sum_{j=0}^{k-1}\\omega^{-jn}a_r\\omega^{jr}x^r=\\frac{1}{k}a_rx^r\\sum_{j=0}^{k-1}\\omega^{j(r-n)}$$\nIf $r\\not\\equiv n\\pmod k$, the sum is zero. So the term involving $x^r$\nis zero unless $r\\equiv n\\pmod k$, in which case it is $a_rx^r$ since\neach element of the sum is $1$.\n\nNote that this method is a generalization of the commonly known trick\nfor extracting alternate terms of a series: $$\\frac{1}{2}(f(x)-f(-x))$$\nproduces the odd terms of $f$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtractingEveryNmathrmthTermOfASeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "extracting every $n^\\mathrm{th}$ term of a series"
+  ]
+}

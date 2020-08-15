@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *left hand rule* for computing the Riemann integral\n$\\displaystyle \\int\\limits_a^b f(x) \\, dx$ is\n$$\\int\\limits_a^b f(x) \\, dx = \\lim_{n \\to \\infty} \\sum_{j=1}^n f \\left( a+(j-1) \\left( \\frac{b-a}{n} \\right) \\right) \\left( \\frac{b-a}{n} \\right).$$\n\nIf the Riemann integral is considered as a measure of area under a\ncurve, then the expressions\n$\\displaystyle f \\left( a+(j-1) \\left( \\frac{b-a}{n} \\right) \\right)$\nthe of the rectangles, and $\\displaystyle \\frac{b-a}{n}$ is the common\nof the rectangles.\n\nThe Riemann integral can be approximated by using a definite value for\n$n$ rather than taking a limit. In this case, the partition is\n$\\displaystyle \\left\\{ \\left[ a, a+\\frac{b-a}{n} \\right) , \\dots , \\left[ a+\\frac{(b-a)(n-1)}{n}, b \\right] \\right\\}$,\nand the function is evaluated at the left endpoints of each of these\nintervals. Note that this is a special case of a left Riemann sum in\nwhich the $x_j$\u2019s are evenly spaced.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeftHandRule"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "left hand rule"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $a$ and $b$ are elements of a group, then both $ab$ and $ba$ have\nalways the same order.\\\n*Proof.* Let $e$ be the indentity element of the group. For $n > 1$, we\nhave the conditions\n$$e \\;=\\; (ab)^n \\;=\\; \\underbrace{(ab)(ab)\\cdots(ab)}_{n} \\;=\\; a(ba)^{n-1}b,$$\n$$a^{-1}b^{-1} \\;=\\; (ba)^{n-1},$$ $$(ba)^{-1} \\;=\\; (ba)^{n-1},$$\n$$e \\;=\\; (ba)^n.$$ As for the infinite order, it makes the conditions\nfalse.\\\n**Note.** More generally, all elements of any conjugacy class have the\nsame order.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderOfProducts"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "order of products"
+  ]
+}

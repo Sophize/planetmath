@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Saccheri's quadrilateral"
+  ],
+  "definition": "In hyperbolic geometry, a *Saccheri quadrilateral* is a quadrilateral\nsuch that one set of opposite sides (called the ) congruent, the other\nset of opposite sides (called the ) disjointly parallel, and, at one of\nthe bases, both angles are right angles. Since the angle sum of a\ntriangle in hyperbolic geometry is strictly less than $\\pi$ radians, the\nangle sum of a quadrilateral in hyperbolic geometry is strictly less\nthan $2\\pi$ radians. Thus, in any Saccheri quadrilateral, the angles\nthat are not right angles must be acute.\n\nThe discovery of Saccheri quadrilaterals is attributed to Giovanni\nSaccheri.\n\nThe common perpendicular to the bases of a Saccheri quadrilateral always\nthe quadrilateral into two congruent Lambert quadrilaterals. In other ,\nevery Saccheri quadrilateral is symmetric about the common perpendicular\nto its bases. Thus, the two acute angles of a Saccheri quadrilateral are\nalso congruent.\n\nThe legs of a Saccheri quadrilateral are disjointly parallel since one\nof the bases is a common perpendicular. Therefore, Saccheri\nquadrilaterals are parallelograms. Note also that Saccheri\nquadrilaterals are right trapezoids as well as isosceles trapezoids.\n\nBelow are some examples of Saccheri quadrilaterals in various models. In\neach example, the Saccheri quadrilateral is labelled as $ABCD$, and the\ncommon perpendicular to the bases is drawn in cyan.\n\n-   The Beltrami-Klein model:\n\n    In the following example, green lines indicate verification of acute\n    angles by using the poles. (Recall that most other models of\n    hyperbolic geometry are angle preserving. Thus, verification of\n    angle measures is unnecessary in those models.)\n\n    (-3,-2)(3,4) (0,0)[2]{} (-2,0)(2,0) (-1.2,-1.6)(-1.2,1.6)\n    (1.2,-1.6)(1.2,1.6) (-1.6,1.2)(1.6,1.2) (-2.5,0)(0.5,4)\n    (2.5,0)(-0.5,4) (-1.5375,0.6)(0.375,4) (1.5375,0.6)(-0.375,4)\n    (-1.2,0)(-1.2,1.2)(1.2,1.2)(1.2,0)(0,3.3333) (-1.1,0.2)[$A$]{}\n    (-1.1,1)[$B$]{} (1.1,1)[$C$]{} (1.1,0.2)[$D$]{} (-2.5,0)[.]{}\n    (2.5,0)[.]{} (0,-2)[.]{} (0.5,4)[.]{} (0,-2)(0,2)\n\n-   The Poincar\u00e9 disc model:\n\n    (-2,-2)(2,2) (0,0)[2]{} (-2,0)(2,0)\n    (0,3.3333)[2.6667]{}[233.13]{}[306.87]{}\n    (-3.3333,0)[2.6667]{}[-36.87]{}[36.87]{}\n    (3.3333,0)[2.6667]{}[143.13]{}[216.87]{}\n    (-0.6667,0)(-0.78475,0.78475)(0.78475,0.78475)(0.6667,0)\n    (-0.8,-0.2)[$A$]{} (-0.9,0.6)[$B$]{} (0.9,0.6)[$C$]{}\n    (0.8,-0.2)[$D$]{} (-2,0)[.]{} (2,0)[.]{} (0,2)[.]{} (0,-2)[.]{}\n    (0,-2)(0,2)\n\n-   The upper half plane model:\n\n    (-4,-0.1)(4,3.6) (-4,0)(4,0) (-2,0)[1.5]{}[0]{}[180]{}\n    (0,0)[1.5]{}[0]{}[180]{} (2,0)[1.5]{}[0]{}[180]{}\n    (0,0)[3]{}[0]{}[180]{}\n    (-2.6875,1.33317)(-1,1.118)(1,1.118)(2.6875,1.33317) (-1,0.8)[$A$]{}\n    (-2.6,1.1)[$B$]{} (2.6,1.1)[$C$]{} (1,0.8)[$D$]{} (-4,-0.01)[.]{}\n    (0,3.57)[.]{} (4,-0.01)[.]{} (0,0)(0,3.6)",
+  "language": "INFORMAL",
+  "phrase": "Saccheri Quadrilateral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SaccheriQuadrilateral"
+    }
+  ],
+  "indexable": true
+}

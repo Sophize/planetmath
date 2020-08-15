@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be a set, and $T:A\\rightarrow A$ a transformation of that set.\nWe say that $x\\in A$ is [*an invariant*]{} of $T$ whenever $x$ is fixed\nby $T$: $$T(x)=x.$$ We say that a subset $B\\subset A$ is [*invariant\nwith respect to $T$*]{} whenever $$T(B)\\subset B.$$ If this is so, the\nrestriction of $T$ is a well-defined transformation of the invariant\nsubset: $$T\\Big|_B : B\\rightarrow B.$$ The definition generalizes\nreadily to a family of transformations with common domain\n$$T_i : A\\rightarrow A,\\quad i\\in I$$ In this case we say that a subset\nis invariant, if it is invariant with respect to all elements of the\nfamily.",
+  "language": "INFORMAL",
+  "phrase": "Invariant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Invariant"
+    }
+  ],
+  "indexable": true
+}

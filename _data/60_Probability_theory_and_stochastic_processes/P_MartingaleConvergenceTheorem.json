@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "There are several convergence theorems for martingales, which follow\nfrom Doob\u2019s upcrossing lemma. The following says that any $L^1$-bounded\nmartingale $X_n$ in discrete time converges almost surely. Note that\nalmost-sure convergence (i.e. convergence with probability one) is quite\nstrong, implying the weaker property of convergence in probability.\nHere, a martingale $(X_n)_{n\\in\\mathbb{N}}$ is understood to be defined\nwith respect to a probability space $(\\Omega,\\mathcal{F},\\mathbb{P})$\nand filtration $(\\mathcal{F}_n)_{n\\in\\mathbb{N}}$.\n\nLet $(X_n)_{n\\in\\mathbb{N}}$ be a martingale (or submartingale, or\nsupermartingale) such that $\\mathbb{E}[|X_n|]$ is bounded over all\n$n\\in\\mathbb{N}$. Then, with probability one, the limit\n$X_\\infty=\\lim_{n\\rightarrow\\infty}X_n$ exists and is finite.\n\nThe condition that $X_n$ is $L^1$-bounded is automatically satisfied in\nmany cases. In particular, if $X$ is a non-negative supermartingale then\n$\\mathbb{E}[|X_n|]=\\mathbb{E}[X_n]\\le\\mathbb{E}[X_1]$ for all $n\\ge 1$,\nso $\\mathbb{E}[|X_n|]$ is bounded, giving the following corollary.\n\nLet $(X_n)_{n\\in\\mathbb{N}}$ be a non-negative martingale (or\nsupermartingale). Then, with probability one, the limit\n$X_\\infty=\\lim_{n\\rightarrow\\infty}X_n$ exists and is finite.\n\nAs an example application of the martingale convergence theorem, it is\neasy to show that a standard random walk started started at $0$ will\nvisit every level with probability one.\n\nLet $(X_n)_{n\\in\\mathbb{N}}$ be a standard random walk. That is, $X_1=0$\nand\n$$\\mathbb{P}(X_{n+1}=X_n+1\\mid \\mathcal{F}_n)=\\mathbb{P}(X_{n+1}=X_n-1\\mid\\mathcal{F}_n) = 1/2.$$\nThen, for every integer $a$, with probability one $X_n=a$ for some $n$.\n\nWithout loss of generality, suppose that $a\\le 0$. Let\n$T:\\Omega\\rightarrow\\mathbb{N}\\cup\\{\\infty\\}$ be the first time $n$ for\nwhich $X_n=a$. It is easy to see that the stopped process $X^T_n$\ndefined by $X^T_n=X_{\\min(n,T)}$ is a martingale and $X^T-a$ is\nnon-negative. Therefore, by the martingale convergence theorem, the\nlimit $X^T_\\infty=\\lim_{n\\rightarrow\\infty}X^T_n$ exists and is finite\n(almost surely). In particular, $|X^T_{n+1}-X^T_n|$ converges to $0$ and\nmust be less than $1$ for large $n$. However, $|X^T_{n+1}-X^T_n|=1$\nwhenever $n<T$, so we have $T<\\infty$ and therefore $X_n=a$ for some\n$n$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MartingaleConvergenceTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "martingale convergence theorem"
+  ]
+}

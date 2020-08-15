@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A regular measure $\\mu_R$ on a topological space $X$ is a measure on $X$\nsuch that for each $A \\in \\mathcal{B}(X) $ , with $\\mu_R (A) < \\infty$),\nand each $\\varepsilon > 0$ there exist a compact subset $K$ of $X$ and\nan open subset $G$ of $X$ with $K \\subset A \\subset G$, such that for\nall sets $A' \\in  \\mathcal{B}(X)$ with $A' \\subset G - K$, one has\n$\\mu_R(A') <\\varepsilon$.",
+  "language": "INFORMAL",
+  "phrase": "Regular Measure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegularMeasure"
+    }
+  ],
+  "indexable": true
+}

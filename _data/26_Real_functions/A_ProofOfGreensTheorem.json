@@ -1,0 +1,17 @@
+{
+  "argumentText": "Consider the region $R$ bounded by the closed curve $P$ in a simply\nconnected space. $P$ can be given by a vector valued function\n$\\vec{F}(x,y)=( f(x,y), g(x,y))$. The region $R$ can then be described\nby\n$$\\int\\!\\!\\!\\int_R \\left(\\frac{\\partial g}{\\partial x} - \\frac{\\partial f}{\\partial y}\\right)\\;dA = \\int\\!\\!\\!\\int_R \\frac{\\partial g}{\\partial x}\\;dA -  \\int\\!\\!\\!\\int_R \\frac{\\partial f}{\\partial y}\\;dA$$\nThe double integrals above can be evaluated separately. Let\u2019s look at\n$$\\int\\!\\!\\!\\int_R \\frac{\\partial g}{\\partial x}\\;dA = \\int_a^b\\int_{A(y)}^{B(y)}\\frac{\\partial g}{\\partial x}\\;dxdy$$\nEvaluating the above double integral, we get\n$$\\int_a^b (g(A(y),y) - g(B(y),y))\\;dy = \\int_a^b g(A(y),y)\\;dy - \\int_a^b g(B(y),y)\\;dy$$\nAccording to the fundamental theorem of line integrals, the above\nequation is actually equivalent to the evaluation of the line integral\nof the function $\\vec{F}_1(x,y)=( 0, g(x,y))$ over a path $P=P_1 + P_2$,\nwhere $P_1=(A(y), y)$ and $P_2=(B(y), y)$.\n$$\\int_a^b g(A(y), y)\\;dy - \\int_a^b g(B(y), y)\\;dy = \\int_{P_1} \\vec{F_1}\\cdot d\\vec{t} + \\int_{P_2}\\vec{F_1}\\cdot d\\vec{t} = \\oint_P \\vec{F_1}\\cdot d\\vec{t}$$\nThus we have\n$$\\int\\!\\!\\!\\int_R \\frac{\\partial g}{\\partial x}\\;dA = \\oint_P \\vec{F_1}\\cdot d\\vec{t}$$\nBy a similar argument, we can show that\n$$\\int\\!\\!\\!\\int_R \\frac{\\partial f}{\\partial y}\\;dA = -\\oint_P \\vec{F_2}\\cdot d\\vec{t}$$\nwhere $\\vec{F}_2=( f(x,y), 0)$. Putting all of the above together, we\ncan see that\n$$\\int\\!\\!\\!\\int_R \\left(\\frac{\\partial g}{\\partial x} - \\frac{\\partial f}{\\partial y}\\right)\\;dA = \\oint_P \\vec{F_1}\\cdot d\\vec{t} + \\oint_P \\vec{F_2}\\cdot d\\vec{t} = \\oint_P (\\vec{F}_1 + \\vec{F}_2)\\cdot d\\vec{t}=\\oint_P (f(x,y), g(x,y))\\cdot d\\vec{t}$$\nwhich is Green\u2019s theorem.",
+  "conclusion": "#P_GreensTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfGreensTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Green's theorem"
+  ]
+}

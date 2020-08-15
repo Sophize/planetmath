@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a smooth manifold, and $u:M\\to{\\mathbb{R}}$ be a Morse\nfunction. Let $C_n^u(M)$ be a vector space of formal\n${\\mathbb{C}}$-linear combinations of critical points of $u$ with index\n$n$. Then there exists a differential $\\partial_n:C_n\\to C_{n-1}$ based\non the Morse flow making $C_*$ into a chain complex called the [*Morse\ncomplex*]{} such that the homology of the complex is the singular\nhomology of $M$. In particular, the number of critical points of $u$ of\nindex $n$ on $M$ is at least the $n$-th Betti number, and the\nalternating sum of the number of critical points of $u$ is the Euler\ncharacteristic of $M$.",
+  "language": "INFORMAL",
+  "phrase": "Morse Complex",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MorseComplex"
+    }
+  ],
+  "indexable": true
+}

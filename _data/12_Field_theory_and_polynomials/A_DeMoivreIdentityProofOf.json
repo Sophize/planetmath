@@ -1,0 +1,17 @@
+{
+  "argumentText": "To prove the de Moivre identity, we will first prove by induction on $n$\nthat the identity holds for all natural numbers.\n\nFor the case $n=0$, observe that\n$$\\cos (0\\theta) + i \\sin (0\\theta) = 1 + i 0 = \\left(\\cos (\\theta) + i \\sin (\\theta)\\right)^0.$$\n\nAssume that the identity holds for a certain value of $n$:\n$$\\cos (n \\theta) + i \\sin (n \\theta) = \\left( \\cos (\\theta) + i \\sin (\\theta) \\right)^n.$$\nMultiply both sides of this identity by\n$\\cos (\\theta) + i \\sin (\\theta)$ and expand the left side to obtain\n$$\\begin{aligned}\n\\cos (\\theta) \\cos (n \\theta) - \\sin (\\theta) \\sin (n \\theta) + i \\cos (\\theta) \\sin (n \\theta) + i \\sin (\\theta) \\cos (n \\theta)\n&= \\left( \\cos (\\theta) + i \\sin (\\theta) \\right) \\left( \\cos (n \\theta) + i \\sin (n \\theta) \\right) \\\\\n&= \\left( \\cos (\\theta) + i \\sin (\\theta) \\right)^{n+1}.\\end{aligned}$$\nBy the angle sum identities, $$\\begin{aligned}\n\\cos (\\theta) \\cos (n \\theta) - \\sin (\\theta) \\sin (n \\theta) &= \\cos (n \\theta + \\theta) \\\\\n\\cos (\\theta) \\sin (n \\theta) + \\sin (\\theta) \\cos (n \\theta) &= \\sin (n \\theta + \\theta)\\end{aligned}$$\nTherefore,\n$$\\cos ((n + 1) \\theta) + i \\sin ((n + 1) \\theta) = \\left( \\cos (\\theta) + i \\sin (\\theta) \\right)^{n+1}.$$\n\nHence by induction de Moivre\u2019s identity holds for all natural $n$.\n\nNow let $-n$ be any negative integer. Then using the fact that $\\cos$ is\nan even and $\\sin$ an odd function, we obtain that $$\\begin{aligned}\n\\cos (-n \\theta) + i \\sin (-n \\theta) \n&= \\cos (n \\theta) - i \\sin (n \\theta) \\\\\n&= \\frac{\\cos (n \\theta) - i \\sin (n \\theta)}{\\cos^2 (n \\theta) + \\sin^2 (n \\theta)} \\\\\n&= \\frac{1}{\\cos (n \\theta) + i \\sin (n \\theta)} \\cdot\n   \\frac{\\cos (n \\theta) - i \\sin (n \\theta)}{\\cos (n \\theta) - i \\sin (n \\theta)} \\\\\n&= \\frac{1}{\\cos (n \\theta) + i \\sin (n \\theta)},\\end{aligned}$$ the\ndenominator of which is\n$\\left( \\cos (n \\theta) + i \\sin ( n \\theta) \\right)^n$. Hence\n$$\\cos (-n \\theta) + i \\sin (-n \\theta) = \\left( \\cos (\\theta) + i \\sin (\\theta) \\right)^{-n}.$$",
+  "conclusion": "#P_DeMoivreIdentity",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DeMoivreIdentityProofOf"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "de Moivre identity, proof of"
+  ]
+}

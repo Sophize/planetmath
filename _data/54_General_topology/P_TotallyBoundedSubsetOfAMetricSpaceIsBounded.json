@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every totally bounded subset of a metric space is bounded.\n\nLet $K$ be a totally bounded subset of a metric space. Suppose\n$x,y \\in K$. We will show that there exists $M>0$ such that for any x,y\nwe have $d(x,y)<M$. From the definition of totally bounded, we can find\nan $\\varepsilon>0$ and a finite subset $\\{x_1,x_2...,x_n\\}$ of $K$ such\nthat $K\\subseteq \\bigcup_{k=1}^n B(x_k,\\varepsilon )$, so\n$x\\in B(x_i,\\varepsilon )$,$y\\in B(x_l,\\varepsilon)$,\n$i,l \\in \\{1,2,...n\\}$. So we have that $$\\begin{aligned}\nd(x,y) & \\leq & d(x,x_i)+d(x_i,x_l)+d(x_l,y)\\\\\n       & < & \\varepsilon +\\max_{1\\leq{s,t}\\leq n}d(x_s,x_t)+\\varepsilon = M\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TotallyBoundedSubsetOfAMetricSpaceIsBounded"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "totally bounded subset of a metric space is bounded"
+  ]
+}

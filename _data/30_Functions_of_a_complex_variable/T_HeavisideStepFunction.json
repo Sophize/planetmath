@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Heaviside function"
+  ],
+  "definition": "The *Heaviside step function* is the function\n$H:{\\mathbb{R}}\\to {\\mathbb{R}}$ defined as $$\\begin{aligned}\n H(x) &=& \\left\\{ \\begin {array}{ll} 0 & \\mbox{when}\\,\\, x< 0, \\\\\n 1/2 & \\mbox{when}\\,\\, x= 0,\\\\\n 1 & \\mbox{when}\\,\\, x> 0.\\\\\n \\end{array} \\right.\n \\end{aligned}$$ Here, there are many conventions for the value at\n$x=0$. The motivation for setting $H(0)=1/2$ is that we can then write\n$H$ as a function of the signum function (see ). In applications, such\nas the Laplace transform, where the Heaviside function is used\nextensively, the value of $H(0)$ is irrelevant. The Fourier transform of\nheaviside function is\n$$\\mathcal{F}_0 H(t)=\\frac{1}{2}\\left(\\delta(t)-\\frac{i}{\\pi t}\\right)$$\nwhere $\\delta$ denotes the Dirac delta centered at $0$. The function is\nnamed after Oliver Heaviside (1850-1925) [@heaviside_bib]. However, the\nfunction was already used by Cauchy[@cauchy_bib], who defined the\nfunction as $$u(t) = \\frac{1}{2}\\big( 1 + t/\\sqrt{t^2}\\big)$$ and called\nit a *coefficient limitateur* [@hoskins].\n\n[9]{} The MacTutor History of Mathematics archive, . The MacTutor\nHistory of Mathematics archive, . R.F. Hoskins, *Generalised functions*,\nEllis Horwood Series: Mathematics and its applications, John Wiley &\nSons, 1979.",
+  "language": "INFORMAL",
+  "phrase": "Heaviside Step Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HeavisideStepFunction"
+    }
+  ],
+  "indexable": true
+}

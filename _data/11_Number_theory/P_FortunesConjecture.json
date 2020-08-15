@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "(Reo F. Fortune) For any integer $n > 0$, the difference between the\nprimorial $$n\\# = \\prod_{i = 1}^{\\pi(n)} p_i$$ (where $\\pi(x)$ is the\nprime counting function and $p_i$ is the $i$th prime number) and the\nnearest prime number above (excluding the possible primorial prime\n$n\\# + 1$) is always a prime number. That is, any Fortunate number is a\nFortunate prime.\n\nIt is obvious that since $n\\#$ is divisible by each prime\n$p < p_{\\pi(n)}$, then each $n\\# + p$ will also be divisible by that\nsame $p$ and thus not prime. If there is a prime $q > n\\# + 1$ such that\nthere is a composite number $m = q - n\\#$, then $m$ would have to have\nat least two prime factors both of which would have to be divisible by\nprimes greater than $p_{\\pi(n)}$.\n\nDespite verification for the first thousand primorials, this conjecture\nremains unproven as of 2007. Disproof could require finding a composite\nFortunate number. Such a number would have to be odd, and indeed not\ndivisible by the first thousand primes. Chris Caldwell, writing for the\nPrime Pages, argues that by the prime number theorem, finding a\ncomposite Fortunate number is tantamount to searching for a prime gap at\nleast $(\\log n\\#)^2$ long immediately following a primorial, something\nhe considers unlikely.\n\n[1]{} S. W. Golomb, \u201cThe evidence for Fortune\u2019s conjecture,\u201d [*Math.\nMag.*]{} [**54**]{} (1981): 209 - 210. MR 82i:10053",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FortunesConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Fortune's conjecture"
+  ]
+}

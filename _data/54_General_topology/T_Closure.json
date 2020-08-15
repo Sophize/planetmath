@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *closure* $\\overline{A}$ of a subset $A$ of a topological space $X$\nis the intersection of all closed sets containing $A$.\n\nEquivalently, $\\overline{A}$ consists of $A$ together with all limit\npoints of $A$ in $X$ or equivalently $x\\in\\overline{A}$ if and only if\nevery neighborhood of $x$ intersects $A$. Sometimes the notation\n$\\operatorname{cl}(A)$ is used.\n\nIf it is not clear, which topological space is used, one writes\n$\\overline{A}^X$. Note that if $Y$ is a subspace of $X$, then\n$\\overline{A}^X$ may not be the same as $\\overline{A}^Y$. For example,\nif $X=\\mathbb{R}$, $Y=(0,1)$ and $A=(0,1)$, then $\\overline{A}^X=[0,1]$\nwhile $\\overline{A}^Y=(0,1)$.",
+  "language": "INFORMAL",
+  "phrase": "Closure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Closure"
+    }
+  ],
+  "indexable": true
+}

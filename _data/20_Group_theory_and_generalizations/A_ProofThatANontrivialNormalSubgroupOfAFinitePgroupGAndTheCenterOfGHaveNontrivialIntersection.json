@@ -1,0 +1,17 @@
+{
+  "argumentText": "Define $G$ to act on $H$ by conjugation; that is, for $g\\in G$,\n$h\\in H$, define $$g \\cdot h = ghg^{-1}$$ Note that $g\\cdot h\\in H$\nsince $H\\triangleleft G$. This is easily seen to be a well-defined group\naction.\n\nNow, the set of invariants of $H$ under this action are\n$$G_H=\\{h \\in H \\  \\lvert \\  g \\cdot h = h \\  \\forall g\\in G\\} = \\{h \\in H \\  \\lvert \\  ghg^{-1} = h \\  \\forall g\\in G\\}=H \\cap Z(G)$$\n\nThe class equation theorem states that\n$$\\lvert H\\rvert = \\lvert G_H\\rvert + \\sum_{i=1}^{r}[G:G_{x_{i}}]$$\nwhere the $G_{x_{i}}$ are proper subgroups of $G$, and thus that\n$$\\lvert G_H\\rvert = \\lvert H\\rvert - \\sum_{i=1}^{r}[G:G_{x_{i}}]$$\n\nWe now use elementary group theory to show that $p$ divides each term on\nthe right, and conclude as a result that $p$ divides $\\lvert G_H\\rvert$,\nso that $G_H=H\\cap Z(G)$ cannot be trivial.\n\nAs $G$ is a nontrivial finite $p$-group, it is obvious from Cauchy\u2019s\ntheorem that $|G|=p^{n}$ for $n>0$. Since $H$ and the $G_{x_i}$ are\nsubgroups of $G$, each either is trivial or has order a power of $p$, by\nLagrange\u2019s theorem. Since $H$ is nontrivial, its order is a nonzero\npower of $p$. Since each $G_{x_i}$ is a proper subgroup of $G$ and has\norder a power of $p$, it follows that $[G:G_{x_i}]$ also has order a\nnonzero power of $p$.",
+  "conclusion": "#P_ANontrivialNormalSubgroupOfAFinitePgroupGAndTheCenterOfGHaveNontrivialIntersection",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofThatANontrivialNormalSubgroupOfAFinitePgroupGAndTheCenterOfGHaveNontrivialIntersection"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof that a nontrivial normal subgroup of a finite $p$-group $G$ and the center of $G$ have nontrivial intersection"
+  ]
+}

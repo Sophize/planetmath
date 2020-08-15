@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G \\subset {\\mathbb{C}}$ be a region, $\\partial_\\infty G$ the\nextended boundary of $G$ and $S(G)$ the set of subharmonic functions on\n$G$, then if $f \\colon \\partial_\\infty G \\to {\\mathbb{R}}$ is a\ncontinuous function then the set\n$${\\mathcal{P}}(f,G) := \\{ \\varphi : \\varphi \\in S(G) \\text{ and }\n\\limsup_{z \\to a} \\varphi(z) \\leq f(a) \\text{ for all $a \\in \\partial_\\infty G$} \\} ,$$\nis called the [*Perron family*]{}.\n\nOne thing to note is the ${\\mathcal{P}}(f,G)$ is never empty. This is\nbecause $f$ is continuous on $\\partial_\\infty G$ it attains a maximum,\nsay $|f| < M$, then the function $\\varphi(z) := -M$ is in\n${\\mathcal{P}}(f,G)$.\n\nLet $G \\subset {\\mathbb{C}}$ be a region and\n$f \\colon \\partial_\\infty G \\to {\\mathbb{R}}$ be a continuous function\nthen the function $u \\colon G \\to {\\mathbb{R}}$\n$$u(z) := \\sup \\{ \\phi : \\phi \\in {\\mathcal{P}}(f,G) \\} ,$$ is called\nthe [*Perron function*]{} associated with $f$.\n\nHere is the reason for all these definitions.\n\nLet $G \\subset {\\mathbb{C}}$ be a region and suppose $f \\colon\n\\partial_\\infty G \\to {\\mathbb{R}}$ is a continuous function. If\n$u \\colon G \\to {\\mathbb{R}}$ is the Perron function associated with\n$f$, then $u$ is a harmonic function.\n\nCompare this with which works with harmonic functions with range in\n${\\mathbb{R}}^2$, but also gives a much stronger statement.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1978.",
+  "language": "INFORMAL",
+  "phrase": "Perron Family",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PerronFamily"
+    }
+  ],
+  "indexable": true
+}

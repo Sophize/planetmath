@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "connected",
+    "strongly connected",
+    "component"
+  ],
+  "definition": "A *connected graph* is a graph such that there exists a path between all\npairs of vertices. If the graph is a directed graph, and there exists a\npath from each vertex to every other vertex, then it is a *strongly\nconnected graph*.\n\nA *connected component* is a maximal (under inclusion) subset of\nvertices of any graph and any edges between them that forms a connected\ngraph. Similarly, a *strongly connected component* is a maximal (under\ninclusion) subset of vertices of any digraph and any edges between them\nthat forms a strongly connected graph. Any graph or digraph is a union\nof connected or strongly connected components, plus some edges to join\nthe components together. Thus any graph can be decomposed into its\nconnected or strongly connected components. For instance, Tarjan\u2019s\nalgorithm can decompose any digraph into its strongly connected\ncomponents.\n\nFor example, the following graph and digraph are connected and strongly\nconnected, respectively.\n\n$$\\begin{array}{cc}\n\\xymatrix{\nA \\ar@{-}[r] & B \\ar@{-}[r] & C \\ar@{-}[d] \\\\\nD \\ar@{-}[r] & E \\ar@{-}[r] & F\n}\\quad\n&\n\\quad\n\\xymatrix{\nA \\ar[r] & B \\ar[d] \\ar[r] & C \\ar[d]\\\\\nD \\ar[u] & E \\ar[l] & F \\ar[l]\n}\n\\end{array}$$\n\nOn the other hand, the following graph is *not* connected, and consists\nof the union of two connected components.\n\n$$\\xymatrix{\nA \\ar@{-}[r] & B \\ar@{-}[r] & C \\\\\nD \\ar@{-}[r] & E \\ar@{-}[r] & F\n}$$\n\nThe following digraph is *not* strongly connected, because there is no\nway to reach $F$ from other vertices, and there is no vertex reachable\nfrom $C$.\n\n$$\\xymatrix{\nA \\ar[r] & B \\ar[d] \\ar[r] & C \\\\\nD \\ar[u] & E \\ar[l] & F \\ar[l]\\ar[u]\n}$$\n\nThe three strongly connected components of this graph are\n\n$$\n\n[ccc]{} & $C$ & $F$\n\n$$",
+  "language": "INFORMAL",
+  "phrase": "Connected Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConnectedGraph"
+    }
+  ],
+  "indexable": true
+}

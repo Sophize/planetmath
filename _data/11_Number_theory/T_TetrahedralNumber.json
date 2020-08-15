@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "triangular pyramidal number"
+  ],
+  "definition": "An integer of the form $${{(n^2 + n)(n + 2)} \\over 6},$$ where $n$ is a\nnonnegative integer. Sometimes referred to as $T_n$, [*tetrahedral\nnumbers*]{} are listed in A000292 of Sloane\u2019s OEIS. $2|T_n$ except when\n$n \\equiv 1 \\mod 4$.\n\nWith $t_n$ the $n$th triangular number, the $n$th tetrahedral number can\nbe calculated with this formula: $$T_n = \\sum_{i = 1}^n t_i.$$ Another\nway to calculate tetrahedral numbers is with the binomial coefficient\n$$T_n={n+2\\choose3}.$$ This means that tetrahedral numbers can be looked\nup in Pascal\u2019s triangle.\n\nTetrahedral numbers have practical applications in sphere packing.",
+  "language": "INFORMAL",
+  "phrase": "Tetrahedral Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TetrahedralNumber"
+    }
+  ],
+  "indexable": true
+}

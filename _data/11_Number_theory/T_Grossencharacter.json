@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ be a number field and let $A_K$ be idele group of $K$, i.e.\n\n$$A_K={\\prod_\\nu}' K_\\nu^\\ast$$ where the product is a restricted direct\nproduct running over all places (infinite and finite) of $K$ (see entry\non ). Recall that $K^\\ast$ embeds into $A_K$ diagonally:\n$$x\\in K^\\ast \\mapsto (x_\\nu)_\\nu$$ where $x_\\nu$ is the image of $x$\nunder the embedding of $K$ into its completion at the place $\\nu$,\n$K_\\nu$.\n\nA Gr\u00f6ssencharacter $\\psi$ on $K$ is a continuous homomorphism:\n$$\\psi:A_K \\longrightarrow {\\mathbb{C}}^\\ast$$ which is trivial on\n$K^\\ast$, i.e. if $x\\in K^\\ast$ then $\\psi((x_\\nu)_\\nu)=1$. We say that\n$\\psi$ is unramified at a prime $\\wp$ of $K$ if\n$\\psi(\\mathcal{O}_\\wp^\\ast)=1$, where $\\mathcal{O}_\\wp$ is the ring of\nintegers inside $K_\\wp$. Otherwise we say that $\\psi$ is ramified at\n$\\wp$.\n\nLet $\\mathcal{O}_K$ be the ring of integers in $K$. We may define a\nhomomorphism on the (multiplicative) group of non-zero fractional ideals\nof $K$ as follows. Let $\\wp$ be a prime of $K$, let $\\pi$ be a\nuniformizer of $K_\\wp$ and let $\\alpha_\\wp\\in A_K$ be the element which\nis $\\pi$ at the place $\\wp$ and $1$ at all other places. We define:\n$$\\psi(\\wp)=\\begin{cases}\n0, \\text{ if } \\psi \\text{ is ramified at }\\wp;\\\\\n\\psi(\\alpha_\\wp), \\text{ otherwise}.\n\\end{cases}$$\n\nThe Hecke L-series attached to a Gr\u00f6ssencharacter $\\psi$ of $K$ is given\nby the Euler product over all primes of $K$:\n$$L(\\psi,s)=\\prod_\\wp\\left(1-\\frac{\\psi(\\wp)}{(N_{{\\mathbb{Q}}}^K(\\wp))^s}\\right)^{-1}.$$\n\nHecke L-series of this form have an analytic continuation and satisfy a\ncertain functional equation. This fact was first proved by Hecke himself\nbut later was vastly generalized by Tate using Fourier analysis on the\nring $A_K$ (what is usually called Tate\u2019s thesis).",
+  "language": "INFORMAL",
+  "phrase": "Gr\\\"Ossencharacter",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Grossencharacter"
+    }
+  ],
+  "indexable": true
+}

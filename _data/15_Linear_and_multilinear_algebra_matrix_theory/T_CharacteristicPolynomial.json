@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "### Characteristic Polynomial of a Matrix {#characteristic-polynomial-of-a-matrix .unnumbered}\n\nLet $A$ be a $n \\times n$ matrix over some field $k$. The\n*characteristic polynomial* $p_A(x)$ of $A$ in an indeterminate $x$ is\ndefined by the determinant:\n\n$$p_A(x):=\\det(A-x I) =\n\\left|\\begin{matrix}\na_{11}-x & a_{12} & \\cdots & a_{1n} \\\\\na_{21} & a_{22}-x & \\cdots & a_{2n} \\\\\n\\vdots & \\vdots & \\ddots & \\vdots \\\\\na_{n1} & a_{n2} & \\cdots & a_{nn}-x\n\\end{matrix} \\right|$$\n\n**Remarks**\n\n-   The polynomial $p_A(x)$ is an $n$th-degree polynomial over $k$.\n\n-   If $A$ and $B$ are similar matrices, then $p_A(x)=p_B(x)$, because\n    $$\\begin{aligned}\n    p_A(x) &=& \\det(A-xI) = \\det(P^{-1}BP-xI) \\\\ &=& \\det(P^{-1}BP-P^{-1}xIP) = \\det(P^{-1})\\det(B-xI)\\det(P) \\\\ &=& \\det(P)^{-1}\\det(B-xI)\\det(P)=\\det(B-xI) = p_B(x)\\end{aligned}$$\n    for some invertible matrix $P$.\n\n-   The *characteristic equation* of $A$ is the equation $p_A(x)=0$, and\n    the solutions to which are the eigenvalues of $A$.\n\n### Characteristic Polynomial of a Linear Operator {#characteristic-polynomial-of-a-linear-operator .unnumbered}\n\nNow, let $T$ be a linear operator on a vector space $V$ of dimension\n$n<\\infty$. Let $\\alpha$ and $\\beta$ be any two ordered bases for $V$.\nThen we may form the matrices $[T]_{\\alpha}$ and $[T]_{\\beta}$. The two\nmatrix representations of $T$ are similar matrices, related by a change\nof bases matrix. Therefore, by the second remark above, we define the\n*characteristic polynomial* of $T$, denoted by $p_T(x)$, in the\nindeterminate $x$, by $$p_T(x):=p_{[T]_{\\alpha}}(x).$$ The\ncharacteristic equation of $T$ is defined accordingly.",
+  "language": "INFORMAL",
+  "phrase": "Characteristic Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacteristicPolynomial"
+    }
+  ],
+  "indexable": true
+}

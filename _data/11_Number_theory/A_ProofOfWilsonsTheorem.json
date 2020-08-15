@@ -1,0 +1,17 @@
+{
+  "argumentText": "We first show that, if $p$ is a prime, then $(p-1)! \\equiv -1 \\pmod p.$\nSince $p$ is prime, $\\mathbb{Z}_p$ is a field and thus, pairing off each\nelement with its inverse in the product $(p-1)! = \\prod_{x=1}^{p-1}x,$\nwe are left with the elements which are their own inverses (i.e. which\nsatisfy the equation $x^2 \\equiv 1 \\pmod p$), $1$ and $-1$, only.\nConsequently, $(p-1)! \\equiv -1 \\pmod p.$\n\nTo prove that the condition is necessary, suppose that\n$(p-1)! \\equiv -1 \\pmod p$ and that $p$ is not a prime. The case $p=1$\nis trivial. Since $p$ is composite, it has a divisor $k$ such that\n$1 < k < p$, and we have $(p-1)! \\equiv -1 \\pmod k$. However, since\n$k{\\leqslant}p-1$, it divides $(p-1)!$ and thus\n$(p-1)! \\equiv 0 \\pmod k,$ a contradiction.",
+  "conclusion": "#P_WilsonsTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfWilsonsTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Wilson's theorem"
+  ]
+}

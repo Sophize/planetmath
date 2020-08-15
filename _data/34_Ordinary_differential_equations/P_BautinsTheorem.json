@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "There are at most three limit cycles which can appear in the following\nquadratic system $$\\begin{aligned}\n\\dot{x} = p(x,y) &=&\\sum_{i+j=0}^2 a_{ij}x^iy^j \\\\\n\\dot{y} = q(x,y) &=& \\sum_{i+j=0}^2 b_{ij}x^iy^j\\end{aligned}$$ from a\nsingular point, if its type is either a focus or a center.\\\nIn 1939 N.N. Bautin claimed the above result and in 1952 submitted the\nproof [@BNN1]. [@GAV]\n\n[1]{} Gaiko, A., Valery: Global Bifurcation Theory and Hilbert\u2019s\nSixteenth Problem. Kluwer Academic Publishers, London, 2003. Bautin,\nN.N.: On the number of limit cycles appearing from an equilibrium point\nof the focus or center type under varying coefficients. Matem. SB.,\n30:181-196, 1952. (written in Russian) Bautin, N.N.: On the number of\nlimit cycles appearing from an equilibrium point of the focus or center\ntype under varying coefficients. Translation of the American\nMathematical Society, 100, 1954.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BautinsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Bautin's theorem"
+  ]
+}

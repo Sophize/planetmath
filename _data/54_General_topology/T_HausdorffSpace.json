@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Hausdorff topological space",
+    "T2 space"
+  ],
+  "definition": "A topological space $(X,\\tau)$ is said to be $T_2$ (or said to satisfy\nthe $T_2$ axiom) if given distinct $x,y\\in X$, there exist disjoint open\nsets $U,V\\in\\tau$ (that is, $U\\cap V=\\emptyset$) such that $x\\in U$ and\n$y\\in V$.\n\nA $T_2$ space is also known as a *Hausdorff space*. A *Hausdorff\ntopology* for a set $X$ is a topology $\\tau$ such that $(X,\\tau)$ is a\nHausdorff space.\n\n### Properties {#properties .unnumbered}\n\nThe following properties are equivalent:\n\n1.  $X$ is a Hausdorff space.\n\n2.  The set $$\\Delta=\\{(x,y)\\in X\\times X:x=y\\}$$ is closed in the\n    product topology of $X\\times X$.\n\n3.  For all $x\\in X$, we have\n    $$\\{x\\} = \\bigcap \\{A : A\\subseteq X\\ \\mbox{closed}, \\mbox{$\\exists$ open set}\\  U\\ \\mbox{such that}\\ x\\in U\\subseteq A\\}.$$\n\nImportant examples of Hausdorff spaces are metric spaces, manifolds, and\ntopological vector spaces.",
+  "language": "INFORMAL",
+  "phrase": "Hausdorff Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HausdorffSpace"
+    }
+  ],
+  "indexable": true
+}

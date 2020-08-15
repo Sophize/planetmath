@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry, we will prove that the definitions of $C^*$ algebra given\nin the main entry are equivalent.\n\nA Banach algebra $A$ with an antilinear involution $*$ such that\n${\\Vert a\\Vert}^2 \\leq {\\Vert a^* a\\Vert}$ for all $a \\in A$ is a\n$C^*$-algebra.\n\nIt follows from the product inequality\n${\\Vert ab\\Vert} \\leq {\\Vert a\\Vert}{\\Vert b\\Vert}$ that\n$${\\Vert a\\Vert}^2 \\leq {\\Vert a^* a\\Vert} \\leq {\\Vert a^*\\Vert}{\\Vert a\\Vert}.$$\nTherefore, ${\\Vert a\\Vert} \\leq {\\Vert a^*\\Vert}$. Putting $a^*$ for\n$a$, we also have\n${\\Vert a^*\\Vert} \\leq {\\Vert a^{**}\\Vert} = {\\Vert a\\Vert}$. Thus, the\ninvolution is an isometry: ${\\Vert a\\Vert} = {\\Vert a^*\\Vert}$. So now,\n$${\\Vert a\\Vert}^2 \\leq {\\Vert a^* a\\Vert} \\leq {\\Vert a\\Vert}^2.$$\nHence, ${\\Vert a^* a\\Vert} = {\\Vert a\\Vert}^2$.\n\nA Banach algebra $A$ with an antilinear involution $*$ such that\n${\\Vert a^* a\\Vert} = {\\Vert a^*\\Vert}{\\Vert a\\Vert}$ is a\n$C^*$-algebra.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquivalenceOfDefinitionsOfCalgebra"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "equivalence of definitions of $C^*$-algebra"
+  ]
+}

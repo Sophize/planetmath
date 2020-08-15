@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a semigroup. An idempotent $e\\in S$ is *primitive* if for\nevery other idempotent $f\\in S$, $ef=fe=f\\not= 0\\Rightarrow e=f$\n\nA semigroup $S$ (without zero) is *completely* if it is simple and\ncontains a primitive idempotent.\n\nA semigroup $S$ is *completely $0$-simple* if it is and contains a\nprimitive idempotent.\n\nCompletely simple and completely $0$-simple semigroups maybe\ncharacterised by the Rees Theorem ([@ReesRef], Theorem 3.2.3).\n\nNote:\n\nA semigroup (without zero) is completely simple if and only if it is\nregular and weakly cancellative.\n\nA simple semigroup (without zero) is completely simple if and only if it\nis completely regular.\n\nA $0$-simple semigroup is completely $0$-simple if and only if it is\ngroup-bound.\n\n[2]{} Howie, John M. *Fundamentals of Semigroup Theory*. Oxford\nUniversity Press, 1995.",
+  "language": "INFORMAL",
+  "phrase": "Completely Simple Semigroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompletelySimpleSemigroup"
+    }
+  ],
+  "indexable": true
+}

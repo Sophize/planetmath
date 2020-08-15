@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "zero",
+    "vanish",
+    "vanishes"
+  ],
+  "definition": "Suppose $X$ is a set and $f$ a -valued function $f\\colon X\\to \\C$. Then\na [*zero*]{} of $f$ is an element $x\\in X$ such that $f(x) = 0$. It is\nalso said that $f$ [*vanishes*]{} at $x$.\n\nThe [*zero set*]{} of $f$ is the set\n$$Z(f) := \\{ x\\in X \\mid f(x)=0\\}.$$\n\n[**Remark.**]{} When $X$ is a \u201csimple\u201d space, such as $\\R$ or $\\C$ a\nzero is also called a [*root*]{}. However, in pure mathematics and\nespecially if $Z(f)$ is infinite, it seems to be customary to talk of\nzeroes and the zero set instead of roots.\n\n[**Examples**]{}\n\n-   For any $z\\in \\C$, define $\\hat{z}:X\\to \\C$ by $\\hat{z}(x)=z$. Then\n    $Z(\\hat{0})=X$ and $Z(\\hat{z})=\\varnothing$ if $z\\ne 0$.\n\n-   Suppose $p$ is a $p\\colon\\C\\to\\C$ of degree $n\\ge 1$. Then $p$ has\n    at most $n$ zeroes. That is, $|Z(p)|\\le n$.\n\n-   If $f$ and $g$ are functions $f\\colon X\\to\\C$ and $g\\colon X\\to\\C$,\n    then $$\\begin{aligned}\n    Z(fg)&=&Z(f)\\cup Z(g),\\\\\n    Z(fg)&\\supseteq& Z(f),\\end{aligned}$$ where $fg$ is the function\n    $x\\mapsto f(x) g(x)$.\n\n-   For any $f\\colon X\\to \\R$, then $$Z(f)=Z(|f|)=Z(f^n),$$ where $f^n$\n    is the defined $f^n(x)=(f(x))^n$.\n\n-   If $f$ and $g$ are both real-valued functions, then\n    $$Z(f)\\cap Z(g)=Z(f^2+g^2)=Z(|f|+|g|).$$\n\n-   If $X$ is a topological space and $f:X\\to \\C$ is a function, then\n    the of $f$ is given by:\n    $$\\operatorname{supp} f = \\overline{Z(f)^\\complement}$$ Further, if\n    $f$ is continuous, then $Z(f)$ is in $X$ (assuming that $\\C$ is\n    given the usual topology of the complex plane where $\\{0\\}$ is a\n    closed set).",
+  "language": "INFORMAL",
+  "phrase": "Zero Of A Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZeroOfAFunction"
+    }
+  ],
+  "indexable": true
+}

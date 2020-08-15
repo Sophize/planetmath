@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *shape operator* $S$ of a surface $\\Sigma$ in ${\\mathbb{R}}^3$ is\nthe derivative of the sphere map $N:\\Sigma\\to S^2$ given by $N(p)=$ unit\nnormal vector field at $p$. So at each $p$, $S(p)=d_pN$ and it is the\nlinear transformation $S(p):T_p\\Sigma\\to T_{N(p)}S^2$. This is\nimportant, because the determinant defines the Gaussian curvature at $p$\nin $\\Sigma$.",
+  "language": "INFORMAL",
+  "phrase": "Shape Operator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ShapeOperator"
+    }
+  ],
+  "indexable": true
+}

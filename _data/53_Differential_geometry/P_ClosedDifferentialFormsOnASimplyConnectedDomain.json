@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $D\\subset \\mathbb R^2$ be an open set and let $\\omega$ be a\ndifferential form defined on $D$.\n\nIf $D$ is simply connected and $\\omega$ is a closed differential form,\nthen $\\omega$ is an exact differential form.\n\nThe proof of this result is a consequence of the following useful\nlemmas.\n\nLet $\\omega$ be a closed differential form and suppose that $\\gamma_0$\nand $\\gamma_1$ are two regular homotopic curves in $D$ (with the same\nend points). Then $$\\int_{\\gamma_0} \\omega = \\int_{\\gamma_1}\\omega.$$\n\nLet $\\omega$ be a continuous differential form. If given any two curves\n$\\gamma_0$, $\\gamma_1$ in $D$ with the same end-points, it holds\n$$\\int_{\\gamma_0} \\omega = \\int_{\\gamma_1} \\omega,$$ then $\\omega$ is\nexact.\n\nSee the Poincar\u00e9 Lemma for a generalization of this result on\n$n$-dimensional manifolds.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosedDifferentialFormsOnASimplyConnectedDomain"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "closed differential forms on a simply connected domain"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be an algebra, not necessarily associative multiplicatively. The\n*nucleus* of $A$ is:\n$$\\mathcal{N}(A):=\\lbrace a\\in A\\mid [a,A,A]=[A,a,A]=[A,A,a]=0 \\rbrace,$$\nwhere $[\\ , , ]$ is the associator bracket. In other words, the nucleus\nis the set of elements that multiplicatively associate with all elements\nof $A$. An element $a\\in A$ is *nuclear* if $a\\in\\mathcal{N}(A)$.\n\n$\\mathcal{N}(A)$ is a Jordan subalgebra of $A$. To see this, let\n$a,b\\in \\mathcal{N}(A)$. Then for any $c,d\\in A$, $$\\begin{aligned}\n[ab,c,d] &=& ((ab)c)d-(ab)(cd) = (a(bc))d-(ab)(cd) \\\\\n&=& a((bc)d)-(ab)(cd) = a(b(cd))-(ab)(cd) \\\\\n&=& a(b(cd))-a(b(cd)) = 0\\end{aligned}$$ Similarly,\n$[c,ab,d]=[c,d,ab]=0$ and so $ab\\in\\mathcal{N}(A)$.\n\nAccompanying the concept of a nucleus is that of the *center of a\nnonassociative algebra* $A$ (which is slightly different from the\ndefinition of the center of an associative algebra):\n$$\\mathcal{Z}(A):=\\lbrace a\\in \\mathcal{N}(A)\\mid [a,A]=0 \\rbrace,$$\nwhere $[\\ , ]$ is the commutator bracket.\n\nHence elements in $\\mathcal{Z}(A)$ commute *as well as* associate with\nall elements of $A$. Like the nucleus, the center of $A$ is also a\nJordan subalgebra of $A$.",
+  "language": "INFORMAL",
+  "phrase": "Nucleus",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Nucleus1"
+    }
+  ],
+  "indexable": true
+}

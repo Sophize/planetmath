@@ -1,0 +1,17 @@
+{
+  "argumentText": "We will prove $$\\label{3}\n    \\displaystyle\n    \\frac{f(t)-f(s)}{t-s}\\leq\\frac{f(u)-f(s)}{u-s}.$$ The proof of the\nright-most inequality is similar.\n\nSuppose (\\[3\\]) does not hold. Then for some $s, t, u$, $$\\label{2}\n    \\displaystyle\n    \\frac{f(t)-f(s)}{t-s}>\\frac{f(u)-f(s)}{u-s}.$$ This inequality is\njust the statement of the slope of the line segment\n$\\overline{AB}, A=(t, f(t)), B=(s, f(s))$, being larger than the slope\nof the segment $\\overline{CB}, C=(u, f(u))$. Since $t$ is between $s$\nand $u$, and $f$ is continuous, this implies\n$$f(t)>h(x)=\\frac{f(u)-f(s)}{u-s}(x-s)+f(s),$$ $s<x<u$. This contradicts\nconvexity of $f$ on $(a, b)$. Hence, (\\[2\\]) is false and (\\[3\\])\nfollows.\n\nNote that we have tacitly use the fact that $x=\\lambda u + (1-\\lambda)s$\nand $h(x)=\\lambda\nf(u)+(1-\\lambda)f(s)$ for some $\\lambda$.",
+  "conclusion": "#P_fracftfstsleqfracfufsusleqfracfuftutForConvexF",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOffracftfstsleqfracfufsusleqfracfuftutForConvexF"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of $\\frac{f(t)-f(s)}{t-s}\\leq\\frac{f(u)-f(s)}{u-s}\\leq\\frac{f(u)-f(t)}{u-t}$ for convex $f$"
+  ]
+}

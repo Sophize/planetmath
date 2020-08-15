@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $H$ be a Hilbert space and $B(H)$ the algebra of bounded operators\nin $H$. Recall that the commutant of a subset $\\mathcal{F} \\subset B(H)$\nis the set of all bounded operators that commute with those of\n$\\mathcal{F}$, i.e.\n\n$$\\begin{aligned}\n\\mathcal{F}':=\\{T \\in B(H):\\; TS=ST \\,,\\;\\;\\; \\forall S \\in \\mathcal{F}\\}.\\end{aligned}$$\n\n[ **-**]{} If $\\mathcal{F} \\subset B(H)$, then $\\mathcal{F}'$ is a\nsubalgebra of $B(H)$ that contains the identity operator and is closed\nin the weak operator topology.\n\n[***:***]{} It is clear that $\\mathcal{F}'$ contains the identity\noperator, since it commutes with all operators in $B(H)$ and in\nparticular with those of $\\mathcal{F}$.\n\nLet us now see that $\\mathcal{F}'$ is a subalgebra of $B(H)$. Let\n$T_1, T_2 \\in \\mathcal{F}'$ and $\\lambda \\in \\mathbb{C}$. We have that,\nfor all $S \\in \\mathcal{F}$,\n\n$$\\begin{aligned}\nS(T_1+T_2)= ST_1 + ST_2 = T_1S + T_2S = (T_1+T_2)S\\\\\nS(\\lambda T_1) = \\lambda ST_1 = \\lambda T_1 S\\\\\nS(T_1T_2) = T_1ST_2 = T_1T_2S\\end{aligned}$$\n\nthus, $T_1 +T_2$, $\\lambda T_1$ and $T_1T_2$ all belong to\n$\\mathcal{F}'$, and therefore $\\mathcal{F}'$ is a subalgebra of $B(H)$.\n\nIt remains to see that $\\mathcal{F}'$ is weak operator closed. Suppose\n$(T_i)$ is a net in $\\mathcal{F}'$ that converges to $T$ in the weak\noperator topology. Then, for all $x, y \\in H$ we have that\n$\\langle T_ix, y \\rangle \\to \\langle Tx,y\\rangle$. Thus, for all\n$S \\in \\mathcal{F}$, we have\n\n$$\\begin{aligned}\n\\langle (TS - ST)x, y \\rangle & = & \\langle TSx, y \\rangle - \\langle Tx, S^*y \\rangle \\\\\n& = & \\lim \\big( \\langle T_iSx, y \\rangle - \\langle T_ix, S^*y \\rangle \\big)\\\\\n& = & \\lim \\, \\langle (T_iS - ST_i)x, y \\rangle\\\\\n& = & \\lim\\, \\langle (T_iS - T_iS)x, y \\rangle\\\\\n& = & 0\\end{aligned}$$\n\nHence, $TS-ST=0$, so that $T \\in \\mathcal{F}'$. We conclude that\n$\\mathcal{F}'$ is closed in the weak operator topology. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CommutantIsAWeakOperatorClosedSubalgebra"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "commutant is a weak operator closed subalgebra"
+  ]
+}

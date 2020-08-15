@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $q(t)$ be a function ${\\mathbb{R}}\\to {\\mathbb{R}}$,\n$\\dot{q} = {\\frac{{d}}{{d}{t}}}{q}$, and $L = L(q, \\dot{q}, t)$. Begin\nwith the time-relative Euler-Lagrange condition\n\n$$\\label{el}\n{\\frac{\\partial}{\\partial {q}}} L - {\\frac{{d}}{{d}{t}}}\\left({\\frac{\\partial}{\\partial {\\dot{q}}}} L\\right) = 0.$$\n\nIf ${\\frac{\\partial}{\\partial {t}}}L = 0$, then the Euler-Lagrange\ncondition reduces to\n\n$$L - \\dot{q}{{\\frac{\\partial}{\\partial {\\dot{q}}}} L} = C,$$\n\nwhich is the *Beltrami identity*. In the calculus of variations, the\nability to use the Beltrami identity can vastly simplify problems, and\nas it happens, many physical problems have\n${\\frac{\\partial}{\\partial {t}}}L = 0$.\n\nIn space-relative terms, with $q' {:=}{\\frac{{d}}{{d}{x}}}q$, we have\n$${\\frac{\\partial}{\\partial {q}}} L - {\\frac{{d}}{{d}{x}}}{{\\frac{\\partial}{\\partial {q'}}} L} = 0.$$\n\nIf ${\\frac{\\partial}{\\partial {x}}}L = 0$, then the Euler-Lagrange\ncondition reduces to\n\n$$L - q' {{\\frac{\\partial}{\\partial {q'}}} L} = C.$$\n\nTo derive the Beltrami identity, note that $$\\label{step2}\n{\\frac{{d}}{{d}{t}}}\\left(\\dot{q}{\\frac{\\partial}{\\partial {\\dot{q}}}}L\\right) = \\ddot{q}{\\frac{\\partial}{\\partial {\\dot{q}}}}L + \\dot{q}{\\frac{{d}}{{d}{t}}}\\left({\\frac{\\partial}{\\partial {\\dot{q}}}}L\\right)$$\nMultiplying (1) by $\\dot{q}$, we have $$\\label{step3}\n\\dot{q}{\\frac{\\partial}{\\partial {q}}} L - \\dot{q}{\\frac{{d}}{{d}{t}}}\\left({\\frac{\\partial}{\\partial {\\dot{q}}}} L\\right) = 0.$$\nNow, rearranging (5) and substituting in for the rightmost term of (6),\nwe obtain $$\\label{step4}\n\\dot{q}{\\frac{\\partial}{\\partial {q}}} L + \\ddot{q}{\\frac{\\partial}{\\partial {\\dot{q}}}}L - {\\frac{{d}}{{d}{t}}}\\left(\\dot{q}{\\frac{\\partial}{\\partial {\\dot{q}}}}L\\right) = 0.$$\nNow consider the total derivative $$\\label{step1}\n{\\frac{{d}}{{d}{t}}}L(q, \\dot{q}, t) = \\dot{q}{\\frac{\\partial}{\\partial {q}}}L + \\ddot{q}{\\frac{\\partial}{\\partial {\\dot{q}}}}L + {\\frac{\\partial}{\\partial {t}}}L.$$\nIf ${\\frac{\\partial}{\\partial {t}}}L = 0$, then we can substitute in the\nleft-hand side of (8) for the leading portion of (7) to get\n$${\\frac{{d}}{{d}{t}}}L - {\\frac{{d}}{{d}{t}}}\\left(\\dot{q}{\\frac{\\partial}{\\partial {\\dot{q}}}}L\\right) = 0.$$\nIntegrating with respect to $t$, we arrive at\n$$L - \\dot{q}{{\\frac{\\partial}{\\partial {\\dot{q}}}} L} = C,$$ which is\nthe Beltrami identity.",
+  "language": "INFORMAL",
+  "phrase": "Beltrami Identity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BeltramiIdentity"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $q\\in{\\mathbb{Z}}$ be a prime greater than $2$, let $\\zeta_q=e^{2\\pi\ni/q}$ and write $L={\\mathbb{Q}}(\\zeta_q)$ for the cyclotomic extension.\nThe ring of integers of $L$ is $\\mathcal{O}_L={\\mathbb{Z}}[\\zeta_q]$.\nThe discriminant of $L/{\\mathbb{Q}}$ is:\n$$D_{L/{\\mathbb{Q}}}=\\pm q^{q-2}$$ and it is $+$ exactly when\n$q-1\\equiv 0,1\\ \\operatorname{mod}\\ 4$.\n\n$\\sqrt{\\pm q}\\in {\\mathbb{Q}}(\\zeta_q)$, with $+$ exactly when\n$q-1\\equiv\n0,1\\ \\operatorname{mod}\\ 4$.\n\nIt can be proved that:\n$$D_{L/{\\mathbb{Q}}}=\\pm q^{q-2}=\\prod_{1\\leq i < j \\leq\nq-1}(\\zeta_q^i-\\zeta_q^j)^2$$ Taking square roots we obtain\n$$q^{\\frac{q-3}{2}}\\sqrt{\\pm q}=\\prod_{1\\leq i < j \\leq\nq-1}(\\zeta_q^i-\\zeta_q^j)\\in {\\mathbb{Q}}(\\zeta_q)$$ Hence the result\nholds (and the sign depends on whether $q-1\\equiv 0,1\\\n\\operatorname{mod}\\ 4$).\n\nLet $K={\\mathbb{Q}}(\\sqrt{\\pm q})$ with the corresponding sign. Thus, by\nthe proposition we have a tower of fields: $\\xymatrix{\n & L={\\mathbb{Q}}(\\zeta_q) \\ar@{-}[d]\\\\\n & K \\ar@{-}[d]\\\\\n & {\\mathbb{Q}}}$\n\nFor a prime ideal $p{\\mathbb{Z}}$ the decomposition in the quadratic\nextension $K/{\\mathbb{Q}}$ is well-known (see ). The next theorem\ncharacterizes the decomposition in the extension $L/{\\mathbb{Q}}$:\n\nLet $p\\in{\\mathbb{Z}}$ be a prime.\n\n1.  If $p=q$, $q\\mathcal{O}_L=\\left(1-\\zeta_q\\right)^{q-1}$. In other\n    words, the prime $q$ is totally ramified in $L$.\n\n2.  If $p\\neq q$ then $p{\\mathbb{Z}}$ splits into $(q-1)/f$ distinct\n    primes in $\\mathcal{O}_L$, where $f$ is the order of $p\\\n    \\operatorname{mod}\\ q$ (i.e. $p^f\\equiv 1\\ \\operatorname{mod}\\ q$,\n    and for all $1< n<f, p^n\\neq 1\\ \\operatorname{mod}\\ q$).\n\n[9]{} Daniel A.Marcus, [*Number Fields*]{}. Springer, New York.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimeIdealDecompositionInCyclotomicExtensionsOfmathbbQ"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "prime ideal decomposition in cyclotomic extensions of $\\mathbb{Q}$"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a symplectic manifold with symplectic form $\\Omega$. The\n*Poisson bracket* is a bilinear operation on the set of differentiable\nfunctions on $M$. In terms of local Darboux coordinates\n$p_1, \\ldots, p_n, q_1, \\ldots, q_n$, the Poisson bracket of two\nfunctions is defined as follows:\n$$[f,g] = \\sum_{i=1}^n {\\partial f \\over \\partial q_i} {\\partial g \\over \\partial p_i} - {\\partial f \\over \\partial p_i} {\\partial g \\over \\partial q_i}$$\nIt can be shown that the value of $[f,g]$ does not depend on the choice\nof Darboux coordinates. Therefore, the Poisson bracket is a well-defined\noperation on the symplectic manifold. Also, some authors use a different\nsign convention \u2014 what they call $[f,g]$ is what would be referred to as\n$-[f,g]$ here.\n\nThe Poisson bracket can be defined without reference to a special\ncoordinate system as follows:\n$$[f,g] = \\Omega^{-1} (df, dg) = \\sum_{i=1}^{2n} \\Omega^{ij} {\\partial f \\over \\partial x_i} {\\partial g \\over \\partial x_j}$$\nHere $\\Omega^{-1}$ is the inverse of the symplectic form, and its\ncomponents in an arbitrary coordinate system are denoted $\\Omega^{ij}$.\n\nThe Poisson bracket sastisfies several important algebraic identities.\nIt is antisymmetric: $$[f,g] = -[g,f]$$ It is a derivation:\n$$[fg,h] = f[g,h] + g[f,h]$$ It satisfies Jacobi\u2019s identitity:\n$$[f,[g,h]] + [g,[h,f]] + [h,[f,g]] = 0$$\n\nThe Hamilton equations can be expressed elegantly in terms of the\nPoisson bracket. If $X$ is a smooth function on $M$, we can describe the\ntime-evolution of $X$ by the equation $${dX \\over dt} = [X,H]$$ If $X$\nis a smooth function on $\\mathbb{R} \\times M$, we can describe the\ntime-evolution of $X$ by the more general equation\n$${dX \\over dt} = {\\partial X \\over \\partial t} - [X,H]$$",
+  "language": "INFORMAL",
+  "phrase": "Poisson Bracket",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PoissonBracket"
+    }
+  ],
+  "indexable": true
+}

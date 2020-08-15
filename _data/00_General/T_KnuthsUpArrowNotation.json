@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "up-arrow",
+    "up arrow",
+    "up-arrow notation",
+    "up arrow notation",
+    "Knuth notation"
+  ],
+  "definition": "*Knuth\u2019s up arrow noation* is a way of writing numbers which would be\nunwieldy in standard decimal notation. It expands on the exponential\nnotation $m\\uparrow n=m^n$. Define $m\\uparrow\\uparrow 0=1$ and\n$m \\uparrow\\uparrow n=m\\uparrow(m\\uparrow\\uparrow [n-1])$.\n\nObviously $m\\uparrow\\uparrow 1=m^1=m$, so\n$3\\uparrow\\uparrow 2=3^{3\\uparrow\\uparrow 1}=3^3=27$, but\n$2\\uparrow\\uparrow 3=2^{2 \\uparrow\\uparrow 2}=2^{2^{2\\uparrow\\uparrow 1}}=2^{(2^2)}=16$.\n\nIn general, $m\\uparrow\\uparrow n=m^{m^{\\cdots^m}}$, a tower of height\n$n$.\n\nClearly, this process can be extended: $m\\uparrow\\uparrow\\uparrow 0=1$\nand\n$m\\uparrow\\uparrow\\uparrow n=m\\uparrow\\uparrow(m\\uparrow\\uparrow\\uparrow [n-1])$.\n\nAn alternate notation is to write $m^{(i)}n$ for\n$m\\underbrace{\\uparrow\\cdots\\uparrow}_{i-2 \\text{~times}}n$. ($i-2$\ntimes because then $m^{(2)}n=m\\cdot n$ and $m^{(1)}n=m+n$.) Then in\ngeneral we can define $m^{(i)}n=m^{(i-1)}(m^{(i)}(n-1))$.\n\nTo get a sense of how quickly these numbers grow,\n$3\\uparrow\\uparrow\\uparrow 2=3\\uparrow\\uparrow 3$ is more than seven and\na half trillion, and the numbers continue to grow much more than\nexponentially.",
+  "language": "INFORMAL",
+  "phrase": "Knuth'S Up Arrow Notation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KnuthsUpArrowNotation"
+    }
+  ],
+  "indexable": true
+}

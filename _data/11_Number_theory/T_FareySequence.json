@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The $n$\u2019th *Farey sequence* is the ascending sequence of all rationals\n$\\{0 \\le \\frac{a}{b} \\le 1 : b \\le n\\}$.\n\nThe first 5 Farey sequences are\n\n  --- -------------------------------------------------------------------------------------------------------------------------------------------------------------\n   1  $ \\frac{0}{1} < \\frac{1}{1} $\n   2  $ \\frac{0}{1} < \\frac{1}{2} < \\frac{1}{1} $\n   3  $ \\frac{0}{1} < \\frac{1}{3} < \\frac{1}{2} < \\frac{2}{3} < \\frac{1}{1} $\n   4  $ \\frac{0}{1} < \\frac{1}{4} < \\frac{1}{3} < \\frac{1}{2} < \\frac{2}{3} < \\frac{3}{4} < \\frac{1}{1} $\n   5  $ \\frac{0}{1} < \\frac{1}{5} < \\frac{1}{4} < \\frac{1}{3} < \\frac{2}{5} < \\frac{1}{2} < \\frac{3}{5} < \\frac{2}{3} < \\frac{3}{4} < \\frac{4}{5} < \\frac{1}{1} $\n  --- -------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nFarey sequences are a singularly useful tool in understanding the\nconvergents that appear in continued fractions. The convergents for any\nirrational $\\alpha$ can be found: they are precisely the closest number\nto $\\alpha$ on the sequences $F_n$.\n\nIt is also of value to look at the sequences $F_n$ as $n$ grows. If\n$\\frac{a}{b}$ and $\\frac{c}{d}$ are reduced representations of adjacent\nterms in some Farey sequence $F_n$ (where $b,d\\le n$), then they are\nadjacent fractions; their difference is the least possible:\n$$\\left|\\frac{a}{b}-\\frac{c}{d}\\right| = \\frac{1}{bd}.$$ Furthermore,\nthe *first* fraction to appear between the two in a Farey sequence is\n$\\frac{a+c}{b+d}$, in sequence $F_{b+d}$, and (as written here) this\nfraction is already reduced.\n\nAn alternate view of the \u201cdynamics\u201d of how Farey sequences develop is\ngiven by Stern-Brocot trees.",
+  "language": "INFORMAL",
+  "phrase": "Farey Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FareySequence"
+    }
+  ],
+  "indexable": true
+}

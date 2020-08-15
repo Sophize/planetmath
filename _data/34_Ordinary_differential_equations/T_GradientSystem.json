@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *gradient system* in $\\mathbb{R}^n$ is an autonomous ordinary\ndifferential equation $$\\dot{x}=-\\operatorname{grad}V(x)\\label{eq}$$\ndefined by the gradient of $V$ where $V:\\mathbb{R}^n\\to \\mathbb{R}$ and\n$V\\in C^\\infty$. The following results can be deduced from the\ndefinition of a gradient system.\\\n**Properties:**\n\n-   The eigenvalues of the linearization of (\\[eq\\]) evaluated at\n    equilibrium point are real.\n\n-   If $x_0$ is an isolated minimum of $V$ then $x_0$ is an\n    asymptotically stable solution of (\\[eq\\])\n\n-   If $x(t)$ is a solution of (\\[eq\\]) that is not an equilibrium point\n    then $V(x(t))$ is a strictly decreasing function and is\n    perpendicular to the level curves of $V$.\n\n-   There does not exists periodic solutions of (\\[eq\\]).\n\n[1]{} Hirsch, W. Morris, Smale, Stephen, Devaney, L. Robert:\nDifferential Equations, Dynamical Systems & An Introduction to Chaos.\nElsevier Academic Press, New York, 2004.",
+  "language": "INFORMAL",
+  "phrase": "Gradient System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GradientSystem"
+    }
+  ],
+  "indexable": true
+}

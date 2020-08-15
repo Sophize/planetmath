@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space and $A$ a subspace of $X$. Suppose there\nis a continuous map $f:X \\to Y$ and a homotopy of maps\n$F: A \\times I \\to Y$. The inclusion map $i: A \\to X$ is said to have\nthe *homotopy extension property* if there exists a continuous map\n$F^{'}$ such that the following diagram commutes: $$\\SelectTips{eu}{}\n\\xymatrix{\n& A \\ar[d]^{i} \\ar[r]^{i_{0}} & A \\times I \\ar[d]^{F} \\ar@/^1.5pc/[dd]^{i \\times id_{I}} \\\\\n& X \\ar[r]^{f} \\ar[dr]^{i_{0}} & Y \\\\\n& &  X \\times I \\ar[u]_{F^{'}} \n}$$ Here, $i_0=(x,0)$ for all $ x \\in X$.",
+  "language": "INFORMAL",
+  "phrase": "Homotopy Extension Property",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomotopyExtensionProperty"
+    }
+  ],
+  "indexable": true
+}

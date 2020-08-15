@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "mapping class group"
+  ],
+  "definition": "Let $X$ be a topological Hausdorff space. Let ${\\rm Homeo}(X)$ be the\ngroup of homeomorphisms $X\\to X$, which can be also turn into a\ntopological space by means of the compact-open topology. And let $\\pi_k$\nbe the k-th homotopy group functor.\n\nThen the [**k-th homeotopy**]{} is defined as:\n$${\\cal{H}}_k(X)=\\pi_k({\\rm Homeo}(X))$$ that is, the group of homotopy\nclasses of maps $S^k\\to {\\rm Homeo}(X)$. Which is different from\n$\\pi_k(X)$, the group of homotopy classes of maps $S^k\\to X$.\n\nOne important result for any low dimensional topologist is that for a\nsurface $F$ $${\\cal{H}}_0(F)={\\rm Out}(\\pi_1(F))$$ which is the $F$\u2019s\nextended mapping class group.\n\n[**Reference**]{}\n\nG.S. McCarty, [*Homeotopy groups*]{}, Trans. A.M.S. 106(1963)293-304.",
+  "language": "INFORMAL",
+  "phrase": "Homeotopy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Homeotopy"
+    }
+  ],
+  "indexable": true
+}

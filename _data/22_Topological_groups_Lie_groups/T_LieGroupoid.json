@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Lie groupoid* is is a category ${\\mathcal G}_L= (G_0,G_1)$ in which\nevery arrow or morphism is invertible, and also such that the following\nconditions are satisfied:\n\n1.  The space of objects $G_0$ and the space of arrows $G_1$ are both\n    smooth manifolds\n\n2.  Both structure maps $s,t:G_1 \\longrightarrow G_0$ are smooth\n\n3.  All structure maps are submersions:\n    $$s,t: G_1 \\longrightarrow G_0,$$ $$u: G_0  \\longrightarrow G_1,$$\n    $$i: G_1 \\longrightarrow G_1,$$ and\n    $$m: G_1 \\times_{s,t} G_1 \\longrightarrow G_1$$.\n\n[**Notes:**]{} A Lie groupoid can be considered as a generalization of a\nLie group, but it does have the additional requirements for the\ngroupoid\u2019s structure maps that do not have corresponding conditions in\nthe simpler case of the Lie group structure. Because the object space\n$G_0$ of a Lie groupoid ${\\mathcal G}_L$ is a smooth manifold, $G_0$ is\ndenoted in this case as $M$.",
+  "language": "INFORMAL",
+  "phrase": "Lie Groupoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LieGroupoid"
+    }
+  ],
+  "indexable": true
+}

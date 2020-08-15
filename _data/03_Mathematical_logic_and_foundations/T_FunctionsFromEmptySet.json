@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Sometimes, it is useful to consider functions whose domain is the empty\nset. Given a set, there exists exactly one function from the the empty\nset to that set. The rationale for this comes from carefully examining\nthe definition of function in this degenerate case. Recall that, in set\ntheory, a function from a set $D$ to a set $R$ is a set of ordered pairs\nwhose first element lies in $D$ and whose second element lies in $R$\nsuch that every element of $D$ appears as the first element of exactly\none ordered pair. If we take $D$ to be the empty set, we see that this\ndefinition is satisfied if we take our function to be set of no ordered\npairs \u2014 since there are no elements in the empty set, it is technically\ncorrect to say that every element of the empty set appears as a first\nelement of an ordered pair which is an element of the empty set!\n\nThis observation turns out to be more than just an exercise in logic,\nbeing useful in several contexts. Given a set $S$ and a positive integer\n$n$, we may define $S^n$ as the set of all functions from\n$\\{1, \\ldots, n\\}$ to $S$. If we choose $n=0$, then $S^0$ consists of\nall maps from the empty set to $S$, hence consists of exactly one\nelement \u2014 see the entry on empty products for a discussion of the\nusefulness of this convention. In category theory, it turns out that\nfunctions from the empty set are important because they make the empty\nset be an initial object in this category.",
+  "language": "INFORMAL",
+  "phrase": "Functions From Empty Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FunctionsFromEmptySet"
+    }
+  ],
+  "indexable": true
+}

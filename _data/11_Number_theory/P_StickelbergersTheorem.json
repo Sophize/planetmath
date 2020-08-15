@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $L=\\mathbb{Q}(\\zeta_m)$ be a cyclotomic field extension of\n${{\\mathbb}{Q}}$ with Galois group\n$G=\\{\\sigma_a\\}_{a\\in({{\\mathbb}{Z}}/m{{\\mathbb}{Z}})^\\times}$, and\nconsider the group ring ${{\\mathbb}{Q}}[G]$. Define the Stickelberger\nelement $\\theta\\in{{\\mathbb}{Q}}[G]$ by $$\\begin{aligned}\n\\theta=\\frac{1}{m}\\sum_{1\\leq a\\leq m, (a,m)=1}a\\sigma_a^{-1},\\end{aligned}$$\nand take $\\beta\\in{{\\mathbb}{Z}}[G]$ such that\n$\\beta\\theta\\in{{\\mathbb}{Z}}[G]$ as well. Then $\\beta\\theta$ is an\nannihilator for the ideal class group of ${{\\mathbb}{Q}}(\\zeta_m)$.\n\nNote that $\\theta$ itself need not be an annihilator, just that any\nmultiple of it in ${{\\mathbb}{Z}}[G]$ is.\n\nThis result allows for the most basic between the (otherwise hard to\ndetermine) of a cyclotomic ideal class group and its of annihilators.\nFor an application of Stickelberger\u2019s theorem, see Herbrand\u2019s theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StickelbergersTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Stickelberger's theorem"
+  ]
+}

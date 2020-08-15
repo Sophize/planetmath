@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "left ideal of an algebra",
+    "right ideal of an algebra",
+    "two-sided ideal of an algebra"
+  ],
+  "definition": "Let $A$ be an algebra over a ring $R$.\n\n[**Definition -**]{} A *left ideal* of $A$ is a subalgebra\n$I \\subseteq A$ such that $ax \\in I$ whenever $a \\in A$ and $ x \\in I$.\n\nEquivalently, a left ideal of $A$ is a subset $I \\subset A$ such that\n\n1.  $x - y \\in I$, for all $x, y \\in I$.\n\n2.  $rx \\in I$, for all $r \\in R$ and $x \\in I$.\n\n3.  $ax \\in I$, for all $a \\in A$ and $x \\in I$\n\nSimilarly one can define a *right ideal* by replacing condition 3 by:\n$xa \\in I$ whenever $a \\in A$ and $x \\in I$.\n\nA *two-sided ideal* of $A$ is a left ideal which is also a right ideal.\nUsually the word \u201c\u201d by itself means two-sided ideal. Of course, all\nthese notions coincide when $A$ is commutative.\n\n### Remark\n\nSince an algebra is also a ring, one might think of borrowing the\ndefinition of ideal from ring . The problem is that condition 2 would\nnot be in general satisfied (unless the algebra is unital).",
+  "language": "INFORMAL",
+  "phrase": "Ideal Of An Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdealOfAnAlgebra"
+    }
+  ],
+  "indexable": true
+}

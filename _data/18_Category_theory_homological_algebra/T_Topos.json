@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "toposes",
+    "topoi",
+    "Grothendieck topos",
+    "elementary topos"
+  ],
+  "definition": "There are two related kinds of categories which are called *topoi* (or\nalternatively *toposes*). First, there is the Grothendieck topos, which\nwas developed by Grothendieck as part of his general reconstruction of\nalgebraic geometry. Second, there is the elementary topos, which was\nintroduced by Lawvere as a setting for work in categorical logic. We\ngive a brief overview of each kind of topos.\n\nA *Grothendieck topos* is a category naturally equivalent to the\ncategory of sheaves on some site. An *elementary topos* is a category\n$\\mathcal{T}$ which:\n\n-   is a Cartesian closed category; and\n\n-   has a .\n\nThe first assumption guarantees the existence of finite limits and\ncolimits as well as power objects. This allows $\\mathcal{T}$ to model\nbasic constructions of set theory such as products, disjoint unions,\nintersections, and powersets. It also guarantees that $\\mathcal{T}$ has\na terminal object $1$, which corresponds to a singleton set in\n$\\mathbf{Set}$. We can model elements of an object $A$ by morphisms\n$1\\to A$.\n\nThe second assumption means that $\\mathcal{T}$ has a notion of \u201ctruth\u201d.\nIn particular, $\\mathcal{T}$ must have a *truth object* $\\Omega$ and a\nmorphism $\\top\\colon 1\\to\\Omega$ such that if $m\\colon A\\to B$ is any\nmonomorphism of $\\mathcal{T}$, then there is a unique associated\n*characteristic morphism* $\\chi\\colon B\\to\\Omega$ such that the diagram\n$$\\xymatrix{\nA\\ar[d]_{m}\\ar[r] & 1\\ar[d]^{\\top} \\\\\nB\\ar[r]^{\\chi}    & \\Omega\n}$$ is a pullback square. Speaking loosely, this says that a subobject\nof $B$ arises as a collection of elements of $B$ satisfying a particular\npredicate $\\chi$. The converse of this assumption corresponds to the\ncomprehension axiom of set theory and follows from Cartesian closedness.\n\nAn elementary topos is a *Boolean topos* if its truth object has exactly\ntwo elements, \u201ctrue\u201d $\\top\\colon 1\\to\\Omega$ and \u201cfalse\u201d\n$\\bot\\colon 1\\to\\Omega$. It *has choice* (admits the axiom of choice) if\nevery epimorphism is split. It is a fact that every elementary topos\nwith choice is Boolean. Note that not every elementary topos has choice.\nSo elementary topoi can be used to model intuitionistic logic.\n\nThe category of sets is the canonical example of a Boolean topos.\n\n**Remarks.**\n\n-   A category $\\mathcal{T}$ is a topos iff it is finitely complete and\n    has power objects.\n\n-   If $\\mathcal{T}_1$ and $\\mathcal{T}_2$ are topoi, so is\n    $\\mathcal{T}_1\\times \\mathcal{T}_2$.\n\n-   If $\\mathcal{T}$ is a topos and $A$ is an object of $\\mathcal{T}$,\n    then the comma category $\\mathcal{T}\\downarrow A$ is a topos.\n\n-   Every Grothendieck topos is also an elementary topos.\n\n[99]{} M.\u00a0Barr and C.\u00a0Wells. [*Toposes, Triples and Theories*]{}.\nMontreal: McGill University, 2000.\n\nJ.\u00a0Lambek and P.\u00a0J.\u00a0Scott. [*Introduction to higher order categorical\nlogic*]{}. Cambridge University Press, 1986.\n\nS.\u00a0Mac\u00a0Lane. [*Categories for the Working Mathematician*]{}, 2nd ed.\nSpringer-Verlag, 1997\n\nS.\u00a0Mac\u00a0Lane and I.\u00a0Moerdijk. [*Sheaves and Geometry in Logic: A First\nIntroduction to Topos Theory*]{}, Springer-Verlag, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Topos",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Topos"
+    }
+  ],
+  "indexable": true
+}

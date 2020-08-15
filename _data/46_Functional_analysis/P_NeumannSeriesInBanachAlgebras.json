@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Neumann series can be generalized to a Banach algebra $\\mathcal{A}$\nwith identity element $e$. Thus we have:\n\nIf $x \\in \\mathcal{A}$ is such that $\\|x\\|<1$ then $e-x$ is invertible\nwith inverse given by\n\n$$(e-x)^{-1} = \\sum_{n=0}^{\\infty} x^n$$\n\nand\n\n$$\\|(e-x)^{-1}\\| \\le \\frac{1}{1-\\|x\\|}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NeumannSeriesInBanachAlgebras"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Neumann series in Banach algebras"
+  ]
+}

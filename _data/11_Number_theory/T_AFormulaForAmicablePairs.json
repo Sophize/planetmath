@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The following formula is due to Thabit ibn Qurra (836-901), a\nmathematician who worked in Baghdad\u2019s \u201cHouse of Wisdom\u201d translating\nGreek and Syrian works (such as Apollonius\u2019s \u201cConics\u201d or works of Euclid\nand Archimedes). As he translated the texts, ibn Qurra produced a\nmathematical body of his own.\n\nLet $n\\geq 1$ be a natural number and suppose that the numbers\n$$3\\cdot 2^n -1, \\quad 3\\cdot 2^{n-1}-1 \\quad \\text{ and } \\quad 9\\cdot 2^{2n-1}-1$$\nare all prime. Then the numbers:\n$$2^n(3\\cdot 2^n-1)(3\\cdot 2^{n-1}-1)\\quad \\text{ and } \\quad 2^n(9\\cdot 2^{2n-1}-1)$$\nare amicable numbers.\n\nWhen $n=2$ one has:\n$$3\\cdot 2^2 -1=11, \\quad 3\\cdot 2^{2-1}-1=5 \\quad \\text{ and } \\quad 9\\cdot 2^{4-1}-1=71$$\nwhich are all primes. Thus, the numbers:\n$$2^2(3\\cdot 2^2-1)(3\\cdot 2^{2-1}-1)=220\\quad \\text{ and } \\quad 2^2(9\\cdot 2^{4-1}-1)=284$$\nform an amicable pair. In fact, this is the smallest amicable pair. For\n$n=4$ one obtains the amicable pair $17296$ and $18416$.",
+  "language": "INFORMAL",
+  "phrase": "A Formula For Amicable Pairs",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AFormulaForAmicablePairs"
+    }
+  ],
+  "indexable": true
+}

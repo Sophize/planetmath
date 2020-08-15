@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Kronecker\u2019s lemma gives a condition for convergence of partial sums of\nreal numbers, and for example can be used in the proof of Kolmogorov\u2019s\nstrong law of large numbers.\n\nLet $x_1,x_2,\\ldots$ and $0<b_1<b_2<\\cdots$ be sequences of real numbers\nsuch that $b_n$ increases to infinity as $n\\rightarrow\\infty$. Suppose\nthat the sum $\\sum_{n=1}^\\infty x_n/b_n$ converges to a finite limit.\nThen, $b_n^{-1}\\sum_{k=1}^nx_k\\rightarrow 0$ as $n\\rightarrow\\infty$.\n\nSet $u_n=\\sum_{k=1}^nx_k/b_k$, so that the limit\n$u_\\infty=\\lim_{n\\rightarrow\\infty}u_n$ exists. Also set\n$a_n=\\sum_{k=1}^{n-1}(b_{k+1}-b_k)u_k$ so that\n$$\\frac{a_{n+1}-a_n}{b_{n+1}-b_n}=u_n\\rightarrow u_\\infty$$ as\n$n\\rightarrow\\infty$. Then, the Stolz-Cesaro theorem says that $a_n/b_n$\nalso converges to $u_\\infty$, so\n$$b_n^{-1}\\sum_{k=1}^nx_k=b_n^{-1}\\sum_{k=1}^nb_k(u_k-u_{k-1})=u_n-b_n^{-1}a_n\\rightarrow 0.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KroneckersLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kronecker's lemma"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$, $Y$ be topological spaces. One can ask a question: how homology\nof $X\\times Y$ are related to homologies of $X$ and $Y$. The answer to\nthis question depends on the homology theory we\u2019re talking about and\nalso the coefficients ring. On the other hand, it is well known, that\nall homology theories are isomorphic on CW-complexes. Thus we may\nrestrict to CW-complexes. Nevertheless the following theorem is more\ngeneral:\n\n**Theorem.** (Kunneth) *Assume, that $X$, $Y$ are topological spaces and\n$R$ is a principal ideal domain. Denote by $H_*(X,R)$ the singular\nhomology with coefficients in $R$. Then, for any $k>0$ there exists\nfollowing short exact sequence in the category of $R$-modules:\n$$0\\to \\bigoplus_{i+j=k} H_i(X,R)\\otimes_R H_j(Y,R)\\to H_k(X\\times Y,R) \\to \\bigoplus_{i+j=k-1}\\mathrm{Tor}_1^R(H_i(X,R),H_j(Y,R))\\to 0,$$\nwhere $\\mathrm{Tor}$ denotes the Tor functor. Furthermore this sequence\nsplits, i.e. the middle term is a direct sum (up to an isomorphism) of\nleft and right term.*\n\nIt should be mentioned, that if $R=\\mathbb{F}$ is a field, then the Tor\nfunctor is always trivial (i.e. $\\mathrm{Tor}^{\\mathbb{F}}_1(M,N)=0$ for\nall vector spaces $M,N$ over $\\mathbb{F}$) and in this case Kunneth\nformula can be stated as\n$$H_k(X\\times Y,\\mathbb{F})\\simeq \\bigoplus_{i+j=k} H_i(X,\\mathbb{F})\\otimes_{\\mathbb{F}} H_j(Y,\\mathbb{F})$$\nfor any $k>0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KunnethTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kunneth theorem",
+    "Kunneth formula",
+    "Kunneth's formula",
+    "Kunneth's theorem",
+    "Kunneth theorem"
+  ]
+}

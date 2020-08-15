@@ -1,0 +1,17 @@
+{
+  "argumentText": "Consider the equivalence relation in $[0,1)$ given by\n$$x\\sim y \\quad \\Leftrightarrow\\quad x-y\\in\\mathbb Q$$ and let\n$\\mathcal F$ be the family of all equivalence classes of $\\sim$. Let $V$\nbe a of $\\mathcal F$ i.e. put in $V$ an element for each equivalence\nclass of $\\sim$ (notice that we are using the axiom of choice).\n\nGiven $q\\in\\mathbb Q\\cap [0,1)$ define\n$$V_q=((V+q)\\cap [0,1))\\cup((V+q-1)\\cap[0,1))$$ that is $V_q$ is\nobtained translating $V$ by a quantity $q$ to the right and then cutting\nthe piece which goes beyond the point $1$ and putting it on the left,\nstarting from $0$.\n\nNow notice that given $x\\in[0,1)$ there exists $y\\in V$ such that\n$x\\sim y$ (because $V$ is a section of $\\sim$) and hence there exists\n$q\\in \\mathbb Q\\cap[0,1)$ such that $x\\in V_q$. So\n$$\\bigcup_{q\\in\\mathbb Q\\cap[0,1)} V_q = [0,1).$$\n\nMoreover all the $V_q$ are disjoint. In fact if $x\\in V_q\\cap V_p$ then\n$x-q$ (modulus $[0,1)$) and $x-p$ are both in $V$ which is not possible\nsince they differ by a rational quantity $q-p$ (or $q-p+1$).\n\nNow if $V$ is Lebesgue measurable, clearly also $V_q$ are measurable and\n$\\mu(V_q)=\\mu(V)$. Moreover by the countable additivity of $\\mu$ we have\n$$\\mu([0,1)) = \\sum_{q\\in \\mathbb Q\\cap[0,1)} \\mu(V_q) \n  = \\sum_q \\mu(V).$$ So if $\\mu(V)=0$ we had $\\mu([0,1))=0$ and if\n$\\mu(V)>0$ we had $\\mu([0,1))=+\\infty$.\n\nSo the only possibility is that $V$ is not Lebesgue measurable.",
+  "conclusion": "#P_VitalisTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfVitalisTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Vitali's Theorem"
+  ]
+}

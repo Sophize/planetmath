@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose a constant $x$ is transcendental over some field $F$. Then\n$\\sqrt[n]{x}$ is also transcendental over $F$ for any $n\\geq 1$.\n\nLet $\\overline{F}$ denote an algebraic closure of $F$. Assume for the\nsake of contradiction that $\\sqrt[n]{x}\\in\\overline{F}$. Then since\nalgebraic numbers are closed under multiplication (and thus\nexponentiation by positive integers), we have\n$(\\sqrt[n]{x})^n=x\\in \\overline{F}$, so that $x$ is algebraic over $F$,\ncreating a contradiction.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TranscendentalRootTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "transcendental root theorem"
+  ]
+}

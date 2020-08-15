@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *digital object* in a digital library is the textual or multimedia\ndata and the metadata.\n\nFormally, a digital object $DO$ is a quadruple $(h, SM, ST, SS)$ where\n\n1.  $h\\in H$, where $H$ is a set of universally unique handles (labels);\n\n2.  $SM = \\lbrace sm_1, sm_2, . . . , sm_n\\rbrace$ is a set of streams;\n\n3.  $ST = \\lbrace st_1, st_2, . . . , st_m\\rbrace$ is a set of\n    structural metadata specifications; and\n\n4.  $SS = \\lbrace stsm_1, stsm_2, . . . , stsm_p\\rbrace$ is a set of\n    Structured Streams functions defined from the streams in $SM$ and\n    from the structures in $ST$.",
+  "language": "INFORMAL",
+  "phrase": "Digital Object",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DigitalObject"
+    }
+  ],
+  "indexable": true
+}

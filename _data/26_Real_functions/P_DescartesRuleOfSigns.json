@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Descartes\u2019s rule of signs is a method for determining the number of\npositive or negative roots of a polynomial.\n\nLet $p(x) = \\sum_{i=0}^m a_ix^i $ be a polynomial with real coefficients\nsuch that $a_m \\neq 0$.\n\nDefine $v$ to be the number of [*variations in sign*]{} of the sequence\nof coefficients $a_m, \\ldots, a_0$. By \u2019variations in sign\u2019 we mean the\nnumber of values of $n$ such that the sign of $a_n$ differs from the\nsign of $a_{n - 1}$, as $n$ ranges from $m$ down to 1.\n\nFor example, consider $p(x) = x^2 - 4x + 4$. The coefficients are\n$1, -4, 4$, so there are 2 variations in sign (since the sign of $1$\ndiffers from that of $-4$, which in turn differs from that of $4$.)\n\nThen the number of positive real roots of $p(x)$ is $v-2N$ for some\ninteger $N$ satisfying $0 \\leq N \\leq \\frac{v}{2}$.\n\nThe number $N$ represents the number of irreducible factors of degree\n$2$ in the factorization of $p(x)$. Thus $N=0$ if is known that $p(x)$\nsplits over the real numbers.\n\nThe number of negative roots of $p(x)$ may be obtained by the same\nmethod by applying the rule of signs to $p(-x)$.\n\n### History {#history .unnumbered}\n\nThis result is believed to have been first described by R\u00e9n\u00e9 Descartes\nin his 1637 work [*La G\u00e9om\u00e9trie*]{}. In 1828, Carl Friedrich Gauss\nimproved the rule by proving that when there are fewer roots of\npolynomials than there are variations of sign, the parity of the\ndifference between the two is even.\n\n### Example {#example .unnumbered}\n\nLet $p(x) = x^3+3x^2-x-3$. Looking at the list of coefficients, we have\n$1, 3, -1, -3$, so there is only one variation in sign (from $3$ to\n$-1$).\n\nThus $v = 1$. Since $0 \\leq N \\leq \\frac{1}{2}$ then we must have $N=0$.\nThus $v-2N=1$ and so there is exactly one positive real root of $p(x)$.\n\nTo find the negative roots, we examine $p(-x) = -x^3+3x^2+x-3$. The\ncoefficient list is $-1,3,1,-3$, so here are are two variations in sign\n(from $-1$ to $3$ and $1$ to $-3$. Thus $v=2$ and so\n$0 \\leq N \\leq \\frac{2}{2} = 1$.\n\nThus we have two possible solutions, $N=0$ and $N=1$, and two possible\nvalues of $v-2N$. Therefore there are either two negative real roots or\nnone at all.\n\nWe note that $p(-1)=(-1)^3+3 \\cdot (-1)^2-(-1)-3=0$, hence there is at\nleast one negative root. Therefore there must be exactly two.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DescartesRuleOfSigns"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Descartes' rule of signs"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "subinvariant series"
+  ],
+  "definition": "Let $G$ be a group with a subgroup $H$, and let\n$$G = G_0 \\rhd G_1 \\rhd \\cdots \\rhd G_n = H$$ be a series of subgroups\nwith each $G_i$ a normal subgroup of $G_{i-1}$. Such a series is called\na *subnormal series* or a *subinvariant series*.\n\nIf in addition, each $G_i$ is a normal subgroup of $G$, then the series\nis called a *normal series*.\n\nA subnormal series in which each $G_i$ is a maximal normal subgroup of\n$G_{i-1}$ is called a *composition series*.\n\nA normal series in which $G_i$ is a maximal normal subgroup of $G$\ncontained in $G_{i-1}$ is called a *principal series* or a *chief\nseries*.\n\nNote that a composition series need not end in the trivial group $1$.\nOne speaks of a composition series (1) as a *composition series from $G$\nto $H$*. But the term *composition series for $G$* generally means a\ncomposition series from $G$ to $1$.\n\nSimilar remarks apply to principal series.\n\nSome authors use normal series as a synonym for subnormal series. This\nusage is, of course, not compatible with the stronger definition of\nnormal series given above.",
+  "language": "INFORMAL",
+  "phrase": "Subnormal Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubnormalSeries"
+    }
+  ],
+  "indexable": true
+}

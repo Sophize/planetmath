@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{}\n\nThe [*Hartley function*]{} is a of uncertainty, introduced by Hartley in\n1928. If we pick a sample from a finite set $A$ uniformly at random, the\nrevealed after we know the is given by the Hartley function\n$$H(A) := \\log_b(|A|).$$ If the base of the logarithm is 2, then the\nuncertainty is measured in bits. If it is the natural logarithm, then\nthe is nats. It is also known as the Hartley entropy.\n\n[**Remark:**]{}\n\nThe Hartley function is a special case of Shannon\u2019s entropy. Each\nelement in the sample space $A$ is associated with probability\n$p=1/|A|$. For an element $\\omega\\in A$, the Hartley of the event\n$\\{\\omega\\}$ is $-\\log(p)=\\log(|A|)$, which is constant over\n$\\omega\\in A$. The average over the whole sample space is thus also\nequal to $\\log(|A|)$.\n\n[**Characterization**]{}\n\nThe Hartley function only depends on the number of elements in a set,\nand hence can be viewed as a function on natural numbers. R\u00e9nyi showed\nthat the Hartley function in base 2 is the only function mapping natural\nnumbers to real numbers that\n\n1.  $H(mn) = H(m)+H(n)$ \u00a0\u00a0\u00a0(),\n\n2.  $H(m) \\leq H(m+1)$ \u00a0\u00a0\u00a0(monotonicity), and\n\n3.  $H(2)=1$ \u00a0\u00a0\u00a0(normalization).\n\nCondition 1 says that the uncertainty of the Cartesian product of two\nfinite sets $A$ and $B$ is the sum of uncertainties of $A$ and $B$.\nCondition 2 says that a larger set has larger uncertainty.",
+  "language": "INFORMAL",
+  "phrase": "Hartley Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HartleyFunction"
+    }
+  ],
+  "indexable": true
+}

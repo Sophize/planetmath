@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring. A two-sided proper ideal $\\mathfrak{p}$ of a ring $R$\nis called a prime ideal if the following equivalent conditions are met:\n\n1.  If $I$ and $J$ are left ideals and the product of ideals $IJ$\n    satisfies $IJ \\subset \\mathfrak{p}$, then $I \\subset \\mathfrak{p}$\n    or $J \\subset \\mathfrak{p}$.\n\n2.  If $I$ and $J$ are right ideals with $IJ \\subset \\mathfrak{p}$, then\n    $I \\subset \\mathfrak{p}$ or $J \\subset \\mathfrak{p}$.\n\n3.  If $I$ and $J$ are two-sided ideals with $IJ \\subset \\mathfrak{p}$,\n    then $I \\subset \\mathfrak{p}$ or $J\\subset \\mathfrak{p}$.\n\n4.  If $x$ and $y$ are elements of $R$ with $xRy \\subset \\mathfrak{p}$,\n    then $x \\in \\mathfrak{p}$ or $y \\in \\mathfrak{p}$.\n\n$R/\\mathfrak{p}$ is a prime ring if and only if $\\mathfrak{p}$ is a\nprime ideal. When $R$ is commutative with identity, a proper ideal\n$\\mathfrak{p}$ of $R$ is prime if and only if for any $a,b \\in R$, if\n$a\\cdot b \\in \\mathfrak{p}$ then either $a \\in \\mathfrak{p}$ or\n$b \\in \\mathfrak{p}$. One also has in this case that\n$\\mathfrak{p} \\subset R$ is prime if and only if the quotient ring\n$R/\\mathfrak{p}$ is an integral domain.",
+  "language": "INFORMAL",
+  "phrase": "Prime Ideal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimeIdeal"
+    }
+  ],
+  "indexable": true
+}

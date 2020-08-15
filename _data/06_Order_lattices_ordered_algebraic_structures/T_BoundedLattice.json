@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A lattice $L$ is said to be ** if there is an element $0\\in L$ such that\n$0\\leq x$ for all $x\\in L$. Dually, $L$ is ** if there exists an element\n$1\\in L$ such that $x\\leq1$ for all $x\\in L$. A *bounded lattice* is one\nthat is both from above and below.\n\nFor example, any finite lattice $L$ is bounded, as $\\bigvee L$ and\n$\\bigwedge L$, being join and meet of finitely many elements, exist.\n$\\bigvee L=1$ and $\\bigwedge L=0$.\n\n**Remarks**. Let $L$ be a bounded lattice with $0$ and $1$ as described\nabove.\n\n-   $0\\land x=0$ and $0\\lor x=x$ for all $x\\in L$.\n\n-   $1\\land x=x$ and $1\\lor x=1$ for all $x\\in L$.\n\n-   As a result, $0$ and $1$, if they exist, are necessarily unique. For\n    if there is another such a pair $0^{\\prime}$ and $1^{\\prime}$, then\n    $0=0\\land 0^{\\prime}=0^{\\prime}\\land 0=0^{\\prime}$. Similarly\n    $1=1^{\\prime}$.\n\n-   $0$ is called the *bottom* of $L$ and $1$ is called the *top* of\n    $L$.\n\n-   $L$ is a lattice interval and can be written as $[0,1]$.\n\n**Remark**. More generally, a poset $P$ is said to be *bounded* if it\nhas both a greatest element $1$ and a least element $0$.",
+  "language": "INFORMAL",
+  "phrase": "Bounded Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundedLattice"
+    }
+  ],
+  "indexable": true
+}

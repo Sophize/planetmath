@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $f$ be a conformal map from the unit disk $\\Delta$ onto itself. Let\n$a=f(0)$. Let $g_a(z) = \\frac{z-a}{1-\\overline{a}z}$. Then $g_a \\circ f$\nis a conformal map from $\\Delta$ onto itself, with $g_a \\circ f(0)=0$.\nTherefore, by Schwarz\u2019s Lemma for all $z \\in \\Delta$\n$|g_a \\circ f(z)| \\le |z|$.\n\nBecause $f$ is a conformal map onto $\\Delta$, $f^{-1}$ is also a\nconformal map of $\\Delta$ onto itself. $(g_a \\circ f)^{-1}(0)=0$ so that\nby Schwarz\u2019s Lemma $|(g_a \\circ f)^{-1}(w)| \\le |w|$ for all\n$w \\in \\Delta$. Writing $w=g_a \\circ f(z)$ this becomes\n$|z| \\le |g_a \\circ f(z)|$.\n\nTherefore, for all $z \\in \\Delta$ $|g_a \\circ f(z)| = |z|$. By Schwarz\u2019s\nLemma, $g_a \\circ f$ is a rotation. Write\n$g_a \\circ f(z) = e^{i \\theta} z$, or $f(z) = e^{i \\theta} g_a^{-1}$.\n\nTherefore, $f$ is a M\u00f6bius Transformation.",
+  "conclusion": "#P_ConformalMobiusCircleMapTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfConformalMobiusCircleMapTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of conformal M\\\"obius circle map theorem"
+  ]
+}

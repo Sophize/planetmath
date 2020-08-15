@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "pseudo-Boolean algebra"
+  ],
+  "definition": "A *Heyting lattice* $L$ is a Brouwerian lattice with a bottom element\n$0$. Equivalently, $L$ is Heyting iff it is relatively\npseudocomplemented and pseudocomplemented iff it is bounded and\nrelatively pseudocomplemented.\n\nLet $a^*$ denote the pseudocomplement of $a$ and $a\\to b$ the\npseudocomplement of $a$ relative to $b$. Then we have the following\nproperties:\n\n1.  $a^*=a\\to 0$ (equivalence of definitions)\n\n2.  $1^*=0$ (if $c=1\\to 0$, then $c=c\\wedge 1\\le 0$ by the definition of\n    $\\to$.)\n\n3.  $a^*=1$ iff $a=0$ ($1=a\\to 0$ implies that $c\\wedge a\\le 0$ whenever\n    $c\\le 1$. In particular $a\\le 1$, so $a=a\\wedge a\\le 0$ or $a=0$. On\n    the other hand, if $a=0$, then $a^*=0^*=0\\to 0=1$.)\n\n4.  $a\\le a^{**}$ and $a^*=a^{***}$ (already true in any\n    pseudocomplemented lattice)\n\n5.  $a^*\\le a\\to b$ (since $a^*\\wedge a=0\\le b$)\n\n6.  $(a\\to b)\\wedge (a\\to b^*)=a^*$\n\n    If $c\\wedge a=0$, then $c\\wedge a\\le b$ so $c\\le (a\\to b)$, and\n    $c\\le (a\\to b^*)$ likewise, so $c\\le (a\\to b)\\wedge (a\\to b^*)$.\n    This means precisely that $a^*=(a\\to b)\\wedge (a\\to b^*)$.\n\n7.  $a\\to b\\le b^*\\to a^*$ (since\n    $(a\\to b)\\wedge b^*\\le (a\\to b)\\wedge (a\\to b^*)=a^*)$\n\n8.  $a^*\\vee b\\le a\\to b$ (since $b\\wedge a\\le b$ and\n    $a^* \\wedge a=0\\le b$)\n\nNote that in property 4, $a\\le a^{**}$, whereas $a^{**}\\le a$ is in\ngeneral not true, contrasting with the equality $a=a^{\\prime\\prime}$ in\na Boolean lattice, where $^{\\prime}$ is the complement operator. It is\neasy to see that if $a^{**}\\le a$ for all $a$ in a Heyting lattice $L$,\nthen $L$ is a Boolean lattice. In this case, the pseudocomplement\ncoincides with the complement of an element $a^*=a^{\\prime}$, and we\nhave the equality in property 7: $a^*\\vee b=a\\to b$, meaning that the\nconcept of coincides with the material implication in classical\npropositional logic.\n\nA *Heyting algebra* is a Heyting lattice $H$ such that $\\to$ is a binary\noperator on $H$. A Heyting algebra homomorphism between two Heyting\nalgebras is a lattice homomorphism that preserves $0,1$, and $\\to$. In\naddition, if $f$ is a Heyting algebra homomorphism, $f$ preserves\npsudocomplementation: $f(a^*)=f(a\\to 0)=f(a)\\to f(0)=f(a)\\to 0=f(a)^*$.\n\n**Remarks**.\n\n-   In the literature, the assumption that a Heyting algebra contains\n    $0$ is sometimes dropped. Here, we call it a Brouwerian lattice\n    instead.\n\n-   Heyting algebras are useful in modeling intuitionistic logic. Every\n    intuitionistic propositional logic can be modelled by a Heyting\n    algebra, and every intuitionistic predicate logic can be modelled by\n    a complete Heyting algebra.",
+  "language": "INFORMAL",
+  "phrase": "Heyting Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HeytingAlgebra"
+    }
+  ],
+  "indexable": true
+}

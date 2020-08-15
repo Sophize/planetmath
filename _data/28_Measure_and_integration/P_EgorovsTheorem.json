@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(X,\\mathcal{S},\\mu)$ be a measure space, and let $E$ be a subset of\n$X$ of finite measure. If $f_n$ is a sequence of measurable functions\nconverging to $f$ almost everywhere, then for each $\\delta>0$ there\nexists a set $E_\\delta$ such that $\\mu(E_\\delta)<\\delta$ and\n$f_n\\rightarrow f$ on $E-E_\\delta$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EgorovsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Egorov's theorem",
+    "Egoroff's theorem"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "extended quantum symmetry structures",
+    "generalized double algebras",
+    "supersymmetries"
+  ],
+  "definition": "*Supersymmetry* or Poincar\u00e9, (extended) quantum symmetry is usually\ndefined as an extension of ordinary spacetime symmetries obtained by\nadjoining $N$ spinorial generators $Q$ whose anticommutator yields a\ntranslation generator: $\\left\\{Q ,Q \\right\\} = \\left\\{P\\right\\}$.\n\nAs further explained in ref. [@JSG98]:\n\n> \u201cThis *(super)* symmetry...(of the *superspace*)... can be realized on\n> ordinary fields (that are defined as certain functions of physical\n> spacetime(s)) by transformations that mix bosons and fermions. *Such\n> realizations suffice to study supersymmetry (one can write invariant\n> actions, etc.) but are as cumbersome and inconvenient as doing vector\n> calculus component by component. A compact alternative to this\n> \u2018component field\u2019 approach is given by the *superspace\u2013superfield*\n> approach*\", which is defined next.\n\n*Quantum superspace, or superspacetimes*, can be defined as an\nextension(s) of ordinary spacetime(s) to include additional\nanticommuting coordinates, for example, in the form of $N$ two-component\nWeyl spinors $\\theta$.\n\n*(Quantum) superfields* $\\Psi(x , \\theta)$ are *functions* defined over\nsuch superspaces, or superspacetimes. Taylor series expansions of the\nsuperfield functions can be then performed with respect to the\nanticommuting coordinates $\\theta$; this Taylor series has only a finite\nnumber of terms and the series expansion coefficients obtained in this\nmanner are the ordinary \u2018component fields\u2019 specified above.\n\n**Remarks:** Supersymmetry is expected to be manifested, or observable,\nin such superspaces, that is, the *supersymmetry algebras* are\nrepresented by translations and rotations involving *both* the spacetime\nand the anticommuting coordinates. Then, the transformations of the\n\u2018component fields\u2019 can be computed from the Taylor expansion of the\n*translated and rotated superfields*. Especially important are those\ntransformations that mix boson and fermion symmetries; further details\nare found in ref. [@LS2k].\n\n[9]{} J.S. Gates, Jr, et al. \u201cSuperspace\u201d., arxiv-hep-th/0108200\npreprint (1983).\n\n\u201cPreprint of 1,001 Lessons in Supersymmetry.\u201d .",
+  "language": "INFORMAL",
+  "phrase": "Supersymmetry",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Supersymmetry"
+    }
+  ],
+  "indexable": true
+}

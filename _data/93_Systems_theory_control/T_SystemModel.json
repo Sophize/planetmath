@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $t = 1, 2,\\ldots$ denote discrete time instants. By a [*system\nmodel*]{} we mean a mathematical model defined by a conditional\nprobability density function $f(y_{t}|u_{t}, d(t-1))$ where\n\n$y_{t}$\n\n:   is the system output in time $t$,\n\n$u_{t}$\n\n:   is the system input and\n\n$d(t-1)$\n\n:   denotes the sequence of data $d_{0}, \\ldots, d_{t-1}$ where\n    $d_{t} = (u_{t}, y_{t})$.\n\nSuch a system has time-invariant (constant) parameters. If the model\nparameters are unknown (uncertain, variable), we introduce the\ndefinition in the form $f(y_{t}|u_{t}, d(t-1), \\theta)$. Here, $\\theta$\nis a (possibly multi-dimensional) parameter.\n\n[99]{} Peterka, V., *Bayesian Approach to System Identification*, in\n*Trends and Progress in System Identification*, P. Ekhoff, Ed., pp.\n239-304. Pergamon Press, Oxford, 1981",
+  "language": "INFORMAL",
+  "phrase": "System Model",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SystemModel"
+    }
+  ],
+  "indexable": true
+}

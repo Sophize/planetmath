@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given two (search or decision) problems $\\pi_1$ and $\\pi_2$ and a\ncomplexity class $\\mathcal{C}$, a $\\mathcal{C}$ *Cook reduction* of\n$\\pi_1$ to $\\pi_2$ is a Turing machine appropriate for $\\mathcal{C}$\nwhich solves $\\pi_1$ using $\\pi_2$ as an oracle (the Cook reduction\nitself is not in $\\mathcal{C}$, since it is a Turing machine, not a\nproblem, but it should be the class of bounded Turing machines\ncorresponding to $\\mathcal{C}$). The most common type are $\\mathcal{P}$\nCook reductions, which are often just called Cook reductions.\n\nIf a Cook reduction exists then $\\pi_2$ is in some sense \u201cat least as\nhard\u201d as $\\pi_1$, since a machine which solves $\\pi_2$ could be used to\nconstruct one which solves $\\pi_1$. When $\\mathcal{C}$ is closed under\nappropriate operations, if $\\pi_2\\in\\mathcal{C}$ and $\\pi_1$ is\n$\\mathcal{C}$-Cook reducible to $\\pi_2$ then $\\pi_1\\in\\mathcal{C}$.\n\nA $\\mathcal{C}$ *Karp reduction* is a special kind of $\\mathcal{C}$ Cook\nreduction for decision problems $L_1$ and $L_2$. It is a function\n$g\\in\\mathcal{C}$ such that: $$x\\in L_1\\leftrightarrow g(x)\\in L_2$$\n\nAgain, $\\mathcal{P}$ Karp reductions are just called Karp reductions.\n\nA Karp reduction provides a Cook reduction, since a Turing machine could\ndecide $L_1$ by calculating $g(x)$ on any input and determining whether\n$g(x)\\in L_2$. Note that it is a stronger condition than a Cook\nreduction. For instance, this machine requires only one use of the\noracle.",
+  "language": "INFORMAL",
+  "phrase": "Cook Reduction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CookReduction"
+    }
+  ],
+  "indexable": true
+}

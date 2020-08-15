@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space and let $G$ be a semigroup. An action\n$\\phi=\\{\\phi_g\\}_{g \\in G}$ of $G$ on $X$ is (topologically) mixing if,\ngiven any two *open* subsets $U$, $V$ of $X$, the intersection\n$U \\cap \\phi_g(V)$ is nonempty for all $g \\in G$ except at most finitely\nmany.\n\n**Example 1.** Let $F : X \\to X$ be a continuous function. Then $F$ is\ntopologically mixing if and only if the action of the monoid\n$\\mathbb{N}$ on $X$ defined by $\\phi_n(x) = F^n(x)$ is mixing according\nto the definition given above.\n\n**Example 2.** Suppose $X$ is a discrete nonempty set and $G$ is a\ngroup; endow $X^G$ with the product topology. The action of $G$ on $X^G$\ndefined by $$\\phi_g(c)(z) = c(g \\cdot z) \\;\\; \\forall c : G \\to X$$ is\nmixing.\n\nTo prove this fact, we may suppose without loss of generality that $U$\nand $V$ are two *cylindric sets* of the form: $$\\begin{aligned}\nU & = & \\{ c \\in X^G \\mid {\\left.{c}\\right|_{E}} = {\\left.{u}\\right|_{E}} \\} \\\\\nV & = & \\{ c \\in X^G \\mid {\\left.{c}\\right|_{F}} = {\\left.{v}\\right|_{F}} \\}\\end{aligned}$$\nfor suitable finite subsets $E,F \\subseteq G$ and functions\n$u,v : G \\to X$. Then the only chance for $U \\cap \\phi_g(V)$ to be\nempty, is that $e = gf$ for some $e \\in E$, $f \\in F$ such that\n$u(e) \\neq v(f)$: but then, $g \\in EF^{-1}$, which is finite.",
+  "language": "INFORMAL",
+  "phrase": "Mixing Action",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MixingAction"
+    }
+  ],
+  "indexable": true
+}

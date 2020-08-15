@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In the parent article there has been proved the formula\n$$\\sigma_1(n) \\;=\\; \\sum_{0 < d \\mid n}\\!d \\;=\\;\n\\prod_{i=1}^k\\frac{p_i^{m_i+1}-1}{p_i-1}$$ giving the sum of all\npositive divisors of an integer $n$; there the $p_i$\u2019s are the distinct\npositive prime factors of $n$ and $m_i$\u2019s their multiplicities.\\\nIt follows that the sum of the $z$\u2019th powers of those divisors is given\nby $$\\begin{aligned}\n\\sigma_z(n) \\;=\\; \\sum_{0 < d \\mid n}\\!d^z \\;=\\;\n\\prod_{i=1}^k\\frac{p_i^{(m_i+1)z}-1}{p_i^z-1}.\\end{aligned}$$ This\ncomplex function of $z$ is called [**]{}. The equation (1) may be\nwritten in the form $$\\begin{aligned}\n\\sigma_z(n)\\;=\\; \n\\prod_{i=1}^k(1+p_i^z+p_i^{2z}+\\ldots+p_i^{m_iz})\\end{aligned}$$ usable\nalso for $z = 0$. For the special case of one prime power the function\nconsists of the single\n$$\\sigma_z(p^m) \\;=\\; 1+p^z+p^{2z}+\\ldots+p^{mz},$$ which particularly\ngives $m\\!+\\!1$ when $p^z = 1$, i.e. when $z$ is a multiple of\n$2i\\pi/\\ln{p}$.\n\nA special case of the function (1) is the of $n$:\n$$\\sigma_0(n) \\;=\\; \\sum_{0 < d \\mid n}\\!1 \\;=\\;\n\\prod_{i=1}^k(m_i+1) \\;=\\; \\tau(n)$$\\\n**Some inequalities**\n\n$$\\sigma_m(n)\\,\\ge\\;n^{\\frac{m}{2}}\\sigma_0(n)\n\\quad\\mbox{for}\\quad m = 0,\\,1,\\,2,\\,\\ldots$$\n\n$$\\sigma_1(mn) > \\sigma_1(m)+\\sigma_1(n) \n\\quad \\forall\\, m, n \\in \\mathbb{Z}$$\n\n$$\\sigma_1(n)\\,\\le\\;\\frac{n\\!+\\!1}{2}\\sigma_0(n)$$\n$$n\\!+\\!\\sqrt{n} \\,< \\sigma_1(n) < \n\\frac{6}{\\pi^2}\\!\\cdot\\!n\\sqrt{n}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DivisorFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "divisor function"
+  ]
+}

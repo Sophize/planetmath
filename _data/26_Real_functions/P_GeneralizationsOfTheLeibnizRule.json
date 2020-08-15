@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For the derivative, the product rule $$(fg)' = f'g + fg'$$ is known as\nthe *Leibniz rule*. Below are various ways it can be generalized.\n\n### Higher derivatives {#higher-derivatives .unnumbered}\n\nLet $f,g$ be real (or complex) functions defined on an open interval of\n${\\mathbb{R}}$. If $f$ and $g$ are $k$ times differentiable, then\n$$(fg)^{(k)} = \\sum_{r=0}^k {k \\choose r} f^{(k-r)} g^{(r)}.$$\n\n### Generalized Leibniz rule for more functions {#generalized-leibniz-rule-for-more-functions .unnumbered}\n\nLet $f_1,\\ldots,f_r$ be real (or complex) valued functions that are\ndefined on an open interval of $\\mathbb{R}$. If $f_1,\\ldots,f_r$ are $n$\ntimes differentiable, then\n$$\\frac{d^n}{dt^n}\\prod_{i=1}^rf_i(t) = \\sum_{n_1+\\cdots+n_r=n} {n \\choose n_1,n_2,\\ldots,n_r} \\prod_{i=1}^r \\frac{d^{n_i}}{dt^{n_i}}f_i(t).$$\nwhere ${n \\choose n_1,n_2,\\ldots,n_r}$ is the multinomial coefficient.\n\n### Leibniz rule for multi-indices {#leibniz-rule-for-multi-indices .unnumbered}\n\nIf $f,g:{\\mathbb{R}}^n \\to {\\mathbb{R}}$ are smooth functions defined on\nan open set of ${\\mathbb{R}}^n$, and $j$ is a multi-index, then\n$$\\partial^j(fg) = \\sum_{i\\le j} {j \\choose i} \\partial^i(f)\\, \\partial^{j-i}(g),$$\nwhere $i$ is a multi-index.\n\n[3]{} Leibniz, Gottfried W. [*Symbolismus memorabilis calculi Algebraici\net Infinitesimalis, in comparatione potentiarum et differentiarum; et de\nLege Homogeneorum Transcendentali*]{}, Miscellanea Berolinensia ad\nincrementum scientiarum, ex scriptis Societati Regiae scientarum pp.\n160-165 (1710). Available online at the .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizationsOfTheLeibnizRule"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "generalizations of the Leibniz rule",
+    "Leibniz rule"
+  ]
+}

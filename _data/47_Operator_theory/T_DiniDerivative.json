@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [**upper Dini derivative**]{} of a continuous function,\n$f:{\\bf R} \\mapsto {\\bf R}$, denoted by $f'_+$, is defined as\n$$f'_+(t) = \\lim_{h\\rightarrow 0^+} \\sup \\frac{f(t + h) - f(t)}{h}.$$\nThe [**lower Dini derivative**]{}, $f'_-$, is defined as\n$$f'_-(t) = \\lim_{h\\rightarrow 0^+} \\inf \\frac{f(t + h) - f(t)}{h}.$$\n\nRemark: Sometimes the notation $D^+ f(t)$ is used instead of $f'_+(t)$,\nand $D^- f(t)$ is used instead of $f'_-(t)$.\n\nRemark: Like conventional derivatives, Dini derivatives do not always\nexist.\n\nIf $f$ is defined on a vector space, then the upper Dini derivative at\n$t$ in the direction $d$ is denoted\n$$f'_+ (t,d) = \\lim_{h\\rightarrow 0^+} \\sup \\frac{f(t + hd) - f(t)}{h}.$$\n\nIf $f$ is locally Lipschitz then $D^+ f$ is finite. If $f$ is\ndifferentiable at $t$ then the Dini derivative at $t$ is the derivative\nat $t$.",
+  "language": "INFORMAL",
+  "phrase": "Dini Derivative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiniDerivative"
+    }
+  ],
+  "indexable": true
+}

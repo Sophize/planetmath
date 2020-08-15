@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "hexadecadic"
+  ],
+  "definition": "The [*hexadecimal system*]{} is a positional number system with base 16,\nusing the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E and F. It\noffers a compact way of expressing binary numbers.\n\nIn hexadecimal, all Mersenne numbers greater than 127 end with the digit\nF repeated several times, while all Fermat numbers greater than 17 are\nwritten with several significant zeroes book-ended by two 1\u2019s.\n\nThe hexadecimal is a mixed formation of a Greek begin and a Latin end.\nThere is also a less used synonym [*hexadecadic*]{} of purely Greek .\n\nSome divisibility tests in hexadecimal are:\n\n$n$ is divisible by 2 if its least significant digit is 0, 2, 4, 6, 8,\nA, C or E.\n\n$n$ is divisible by 4 if its least significant digit is 0, 4, 8 or C.\n\n$n$ is divisible by 8 if its least significant digit is 0, or 8.\n\n$n$ is divisible by 15 if it has digital root F.\n\n$n$ is of course divisible by 16 if it ends in a 0.\n\n$n$ is divisible by 17 if the difference of the odd placed digits and\nthe even place digits of $n$ is a multiple of 17.",
+  "language": "INFORMAL",
+  "phrase": "Hexadecimal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Hexadecimal"
+    }
+  ],
+  "indexable": true
+}

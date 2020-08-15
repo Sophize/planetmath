@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Cauchy has originally presented the multiplication rule\n$$\\begin{aligned}\n\\sum_{j=1}^\\infty{a_j}\\cdot\\sum_{k=1}^\\infty{b_k} = \\sum_{n=1}^\\infty(a_1b_n+a_2b_{n-1}+\\ldots+a_nb_1)\\end{aligned}$$\nfor two series. His assumption was that both of the multiplicand series\nshould be absolutely convergent. Mertens (1875) lightened the assumption\nrequiring that both multiplicands should be convergent but at least one\nof them absolutely convergent (see the entry). N. H. Abel\u2019s most general\nform of the multiplication rule is the\n\n**Theorem.** The rule (1) for multiplication of series with real or\ncomplex terms is valid as soon as all three of its series are\nconvergent.\\\n[*Proof.*]{} We consider the corresponding power series\n$$\\begin{aligned}\n\\sum_{j=1}^\\infty{a_j}x^j, \\qquad \\sum_{k=1}^\\infty{b_k}x^k.\\end{aligned}$$\nWhen $x = 1$, they give the series\n$$\\sum_{j=1}^\\infty{a_j}, \\quad \\sum_{k=1}^\\infty{b_k}$$ which we assume\nto converge. Thus the power series are absolutely convergent for\n$|x| < 1$, whence they obey the multiplication rule due to Cauchy:\n$$\\begin{aligned}\n\\sum_{j=1}^\\infty{a_j}x^j\\cdot\\sum_{k=1}^\\infty{b_k}x^k = \\sum_{n=1}^\\infty(a_1b_n+a_2b_{n-1}+\\ldots+a_nb_1)x^{n+1}.\\end{aligned}$$\nOn the other hand, the sums of the power series (2) are, as is well\nknown, continuous functions on the interval $[0,\\,1]$; the same concerns\nthe right hand side of (3), because for $x = 1$ it becomes the third\nseries which we assume convergent. When $x \\to 1-$, we infer that\n$$\\sum_{j=1}^\\infty{a_j}x^j \\to \\sum_{j=1}^\\infty{a_j}, \\qquad \\sum_{k=1}^\\infty{b_k}x^k \\to \\sum_{k=1}^\\infty{b_k}$$\nand that the limit of the right hand side of (3) is the right hand side\nof (1). Since the equation (3) is true for $|x| < 1$, also the limits of\nboth of (3), as $x \\to 1-$, are equal. Therefore the equation (1) is in\nwith the assumptions of the theorem.\n\n[8]{} : [*Differentiali- ja integralilasku ja sen sovellutukset III.\nToinen osa.*]{} Mercatorin Kirjapaino Osakeyhti\u00f6, Helsinki (1940).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbelsMultiplicationRuleForSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Abel's multiplication rule for series",
+    "Abel's multiplication rule"
+  ]
+}

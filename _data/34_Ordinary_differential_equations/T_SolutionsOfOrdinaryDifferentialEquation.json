@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let us consider the ordinary differential equation $$\\begin{aligned}\n  F(x,\\,y,\\,y',\\,y'',\\,\\ldots,\\,y^{(n)}) = 0\\end{aligned}$$ of order\n$n$.\n\nThe [*general solution*]{} of (1) is a function\n$$x\\mapsto y = \\varphi(x,\\,C_1,\\,C_2,\\,\\ldots,\\,C_n)$$ satisfying the\nfollowing conditions:\\\na) $y$ depends on $n$ arbitrary constants $C_1,\\,C_2,\\,\\ldots,\\,C_n$.\\\nb) $y$ satisfies (1) with all values of $C_1,\\,C_2,\\,\\ldots,\\,C_n$\\\nc) If there are given the initial conditions\\\n$y = y_0$,$y' = y_1$,$y'' = y_2$,\n$\\ldots$,$y^{(n-1)} = y_{n-1}$when$x = x_0,$\\\nthen one can chose the values of $C_1,\\,C_2,\\,\\ldots,\\,C_n$ such that\n$y = \\varphi(x,\\,C_1,\\,C_2,\\,\\ldots,\\,C_n)$ fulfils those conditions\n(supposing that $x_0,\\,y_0,\\,y_1,\\,y_2,\\,\\ldots,\\,y_{n-1}$ belong to the\nregion where the conditions for the existence of the solution are\nvalid).\n\nEach function which is obtained from the general solution by giving\ncertain concrete values for $C_1,\\,C_2,\\,\\ldots,\\,C_n$, is called a\n[*particular solution*]{} of (1).",
+  "language": "INFORMAL",
+  "phrase": "Solutions Of Ordinary Differential Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SolutionsOfOrdinaryDifferentialEquation"
+    }
+  ],
+  "indexable": true
+}

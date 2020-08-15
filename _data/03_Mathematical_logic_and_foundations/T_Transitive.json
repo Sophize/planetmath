@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "transitive set"
+  ],
+  "definition": "Let $A$ be a set. $A$ is said to be *transitive* if whenever $x\\in A$\nthen $x\\subseteq A$.\n\nEquivalently, $A$ is transitive if whenever $x\\in A$ and $y\\in x$ then\n$y\\in A$.",
+  "language": "INFORMAL",
+  "phrase": "Transitive",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Transitive"
+    }
+  ],
+  "indexable": true
+}

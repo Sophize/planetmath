@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sequence $x_0, x_1, \\ldots,$ is said to satisfy a *general linear\nrecurrence* if there are constants $a_{n,i}$ and $f_n$ such that\n$$x_n = \\sum_{i=1}^n a_{n,i} x_{n-i} + f_n$$ The sequence $\\{f_n\\}$ is\ncalled the *non-homogeneous part* of the recurrence.\n\nIf $f_n = 0$ for all $n$ then the recurrence is said to be\n*homogeneous*.\n\nIn this case if $x$ and $x'$ are two solutions to the recurrence, and\n$A$ and $B$ are constants, then $Ax +Bx'$ are also solutions.\n\nIf $a_{n,i} = a_i$ for all $i$ then the recurrence is called a *linear\nrecurrence with constant coefficients*. Such a recurrence with\n$a_{n,i} = 0$ for all $i>k$ and $a_k \\ne 0$ is said to be of *finite\norder* and the smallest such integer $k$ is called the *order* of the\nrecurrence. If no such $k$ exists, the recurrence is said to be of\n*infinite order*.\n\nFor example, the Fibonacci sequence is a linear recurrence with constant\ncoefficients and order 2.\n\nNow suppose that $x=\\{x_n\\}$ satisfies a homogeneous linear recurrence\nof finite order $k$. The polynomial\n$F_x = u^k - a_1u^{k-1} - \\ldots - a_k$ is called the *companion\npolynomial* of $x$. If we assume that the coefficients $a_i$ come from a\nfield $K$ we can write $$F_x = (u-u_1)^{e_1} \\cdots (u-u_t)^{e_t}$$\nwhere $u_1, \\ldots , u_t$ are the distinct roots of $F_x$ in some\nsplitting field of $F_x$ containing $K$ and $e_1, \\ldots , e_t$ are\npositive integers. A theorem about such recurrence relations is that\n$$x_n = \\sum_{i=1}^t g_i(n){u_i}^n$$ for some polynomials $g_i$ in\n$K[X]$ where $deg(g_i) <e_i$.\n\nNow suppose further that all $K=\\mathbb{C}$ and\n\nlet $U$ be the largest value of the $|u_i|$.\n\nIt follows that if $U>1$ then $$|x_n| \\le CU^n$$ for some constant $C$.\n\n(to be continued)",
+  "language": "INFORMAL",
+  "phrase": "Linear Recurrence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearRecurrence"
+    }
+  ],
+  "indexable": true
+}

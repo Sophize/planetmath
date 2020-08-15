@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a ring $R$ and a left $R$-module $T$, a subset $A$ of $T$ is\ncalled a ([*left*]{}) [*submodule*]{} of $T$, if $(A,\\,+)$ is a subgroup\nof $(M,\\,+)$ and $ra \\in A$ for all elements $r$ of $R$ and $a$ of $A$.\\\n**Examples**\n\n1.  The subsets $\\{0\\}$ and $T$ are always submodules of the module $T$.\n\n2.  The set $\\{t\\in T:\\,\\,\\,rt = t\\,\\,\\,\\forall r\\in R\\}$ of all\n    invariant elements of $T$ is a submodule of $T$.\n\n3.  If $X \\subseteq T$ and $\\mathfrak{a}$ is a left ideal of $R$, then\n    the set $$\\mathfrak{a}X := \\{\\mbox{finite}\\sum_\\nu a_\\nu x_\\nu:\n     \\,\\,\\,a_\\nu\\in\\mathfrak{a},\\,\\,x_\\nu\\in X\\,\\,\\forall\\nu\\}$$ is a\n    submodule of $T$. Especially, $RX$ is called the submodule\n    [*generated*]{} by the subset $X$; then the elements of $X$ are\n    *generators* of this submodule.\n\nThere are some operations on submodules. Given the submodules $A$ and\n$B$ of $T$, the [*sum*]{}\n$A + B := \\{a + b\\in T:\\,\\,a\\in A \\,\\land\\, b\\in B\\}$ and the\nintersection $A\\cap B$ are submodules of $T$.\n\nThe notion of sum may be extended for any family $\\{A_j:\\,\\,j\\in J\\}$ of\nsubmodules: the sum $\\sum_{j\\in J}A_j$ of submodules consists of all\nfinite sums $\\sum_j a_j$ where every $a_j$ belongs to one $A_j$ of those\nsubmodules. The sum of submodules as well as the intersection\n$\\bigcap_{j\\in J}A_j$ are submodules of $T$. The submodule $RX$ is the\nintersection of all submodules containing the subset $X$.\n\nIf $T$ is a ring and $R$ is a subring of $T$, then $T$ is an $R$-module;\nthen one can consider the [*product*]{} and the [*quotient*]{} of the\nleft $R$-submodules $A$ and $B$ of $T$:\n\n-   $AB := \\{\\mbox{finite}\\sum_\\nu a_\\nu b_\\nu:\n     \\,\\,\\,a_\\nu\\in A,\\,\\,b_\\nu\\in B\\,\\,\\forall\\nu\\}$\n\n-   $[A:B] := \\{t\\in T:\\,\\, tB\\subseteq A\\}$\n\nAlso these are left $R$-submodules of $T$.",
+  "language": "INFORMAL",
+  "phrase": "Submodule",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Submodule"
+    }
+  ],
+  "indexable": true
+}

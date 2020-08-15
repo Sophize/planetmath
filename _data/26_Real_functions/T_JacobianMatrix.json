@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "derivative of a multivariable function",
+    "derivative of a vector-valued function",
+    "Jacobi matrix"
+  ],
+  "definition": "The *Jacobian matrix* $[\\mathbf{J}f({\\mathbf}{a})]$ of a function\n$f\\colon{\\mathbb{R}}^n\\rightarrow{\\mathbb{R}}^m$ at the point\n${\\mathbf}{a}$ with respect to some choice of bases for ${\\mathbb{R}}^n$\nand ${\\mathbb{R}}^m$ is the matrix of the linear map from\n${\\mathbb{R}}^n$ into ${\\mathbb{R}}^m$ that generalizes the definition\nof the derivative of a function on ${\\mathbb{R}}$. It can be defined as\nthe matrix of the linear map $D$, such that\n$$\\lim_{{\\mathbf}{h}\\rightarrow{\\mathbf}{0}}\\frac{\\|f({\\mathbf}{a + h}) - f({\\mathbf}{a}) - D({\\mathbf}{h})\\|}{\\|{\\mathbf}{h}\\|} = 0$$\nThe linear map that satisfies the above limit is called the derivative\nof $f$ at ${\\mathbf}{a}$. It is easy to show that the Jacobian matrix of\na given differentiable function at ${\\mathbf}{a}$ with respect to chosen\nbases is just the matrix of of the component functions of $f$ at\n${\\mathbf}{a}$: $$[\\mathbf{J}f({\\mathbf}{x})]=\\left[\\begin{array}{ccc}\nD_1f_1({\\mathbf}{x}) & \\dots & D_nf_1({\\mathbf}{x})\\\\\n\\vdots & \\ddots & \\vdots\\\\\nD_1f_m({\\mathbf}{x}) & \\dots & D_nf_m({\\mathbf}{x})\\\\\n\\end{array}\\right]$$ A more concise way of writing it is\n$$[\\mathbf{J}f({\\mathbf}{x})]=[\\overrightarrow{D_1 f}\\;,\\cdots\\;, \\overrightarrow{D_n f}]=\\left[\\begin{array}{c}\\nabla f_1\\\\ \\vdots\\\\ \\nabla f_m\\end{array}\\right]$$\nwhere $\\overrightarrow{D_n{\\mathbf}{f}}$ is the partial derivative with\nrespect to the $n$\u2019th variable and $\\nabla f_m$ is the gradient of the\n$m$\u2019th component of $\\mathbf{f}$.\n\nNote that the Jacobian matrix represents the matrix of the derivative\n$D$ of $f$ at ${\\mathbf}{x}$ iff $f$ is differentiable at\n${\\mathbf}{x}$. Also, if $f$ is differentiable at ${\\mathbf}{x}$, then\nthe directional derivative in the direction $\\vec{v}$ is\n$D(\\vec{v}) = [\\mathbf{J}f({\\mathbf}{x})]\\vec{v}$.\n\nGiven local coordinates for some real submanifold $M$ of\n${\\mathbb{R}}^n$, it is easy to show that the effect of a change of\ncoordinates on volume forms is a local scaling of the volume form by the\ndeterminant of the Jacobian matrix of the derivative of the backwards\nchange of coordinates, which is called the inverse Jacobian. The\ndeterminant of the inverse Jacobian is thus commonly seen in integration\nover a change of coordinates.\n$$\\int_{\\Omega_x} f(x) d\\Omega_x = \\int_{\\Omega_\\xi} f(\\xi) |J^{-1}| d\\Omega_\\xi$$\nwhere $x \\in \\Omega_x \\subset M$, $\\xi \\in \\Omega_\\xi \\subset M$, and\n$\\mathbf{J} = \\nabla \\xi(x)$ is the derivative of the function $\\xi(x)$\nwhich maps points in $\\Omega_x$ to points in $\\Omega_\\xi$.",
+  "language": "INFORMAL",
+  "phrase": "Jacobian Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JacobianMatrix"
+    }
+  ],
+  "indexable": true
+}

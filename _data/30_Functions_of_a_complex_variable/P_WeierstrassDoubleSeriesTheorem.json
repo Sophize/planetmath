@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If the complex functions $f_0,\\,f_1,\\,f_2,\\,\\ldots$ are holomorphic in\nthe disc $\\vert z-z_0\\vert < r$ and thus $$\\begin{aligned}\n  f_n(z) = \\sum_{\\nu=0}^\\infty a_{n\\nu}(z-z_0)^\\nu, \\quad a_{n\\nu} = \\frac{f_n^{(\\nu)}(z_0)}{\\nu!}\\quad \\forall\\,n,\\,\\nu\\end{aligned}$$\nin this disc, and if the function series $$\\begin{aligned}\n \\sum_{n=0}^\\infty f_n = f_0+f_1+f_2+\\ldots\\end{aligned}$$ converges\nuniformly to the function $F$ in each disc $|z-z_0| \\leqq \\varrho$ where\n$0 < \\varrho < r$, then also all the series $$\\begin{aligned}\n \\sum_{n=0}^\\infty a_{n\\nu} = a_{0\\nu}+a_{1\\nu}+a_{2\\nu}+\\ldots \\quad \n(\\nu = 0,\\,1,\\,2,\\,\\ldots)\\end{aligned}$$ converge, and in the disc\n$|z-z_0| < r$ one has $$\\begin{aligned}\n F(z) = \\sum_{\\nu=0}^\\infty A_\\nu(z-z_0)^\\nu\\end{aligned}$$ where the\n$A_\\nu$s are the sums of the series (3).\\\n[*Proof.*]{} Apparently, the series (2) converges uniformly also in\nevery closed sub-disc of the open disc $|z-z_0| < r$. Therefore the\ntheorem 2 in the entry \u201c\u201d says that the sum $F(z)$ is holomorphic in\n$|z-z_0| < r$ and\n$$F^{(\\nu)}(z) = f_0^{(\\nu)}(z_0)+f_1^{(\\nu)}(z_0)+f_2^{(\\nu)}(z_0)+\\ldots\n\\quad (\\nu = 0,\\,1,\\,2,\\,\\ldots).$$ Theorem 3 in the same entry thus\nguarantees that $F(z)$ has the Taylor expansion of the form (4) wherein\n$$A_\\nu = \\frac{1}{\\nu!}F^{(\\nu)}(z_0) \\quad (\\nu = 0,\\,1,\\,2,\\,\\ldots).$$\nAccording to theorem 2 in the same entry the series (2) may be\ndifferentiated termwise,\n$$A_\\nu = \\frac{1}{\\nu!}\\sum_{n=0}^\\infty f_n^{(\\nu)}(z_0) = \n\\sum_{n=0}^\\infty \\frac{1}{\\nu!}f_n^{(\\nu)}(z_0) = \\sum_{n=0}^\\infty a_{n\\nu}$$\nQ.E.D.\\\n**Note.** In Weierstrass double series theorem it\u2019s a question of\nchanging the summing : $$\\begin{array}{l}\nF(z) = f_0(z)+f_1(z)+\\ldots+f_n(z)+\\ldots =\\\\\n= [a_{00}+a_{01}(z-z_0)+a_{02}(z-z_0)^2+\\ldots+a_{0\\nu}(z-z_0)^\\nu+\\ldots]\\\\\n\\,+[a_{10}+a_{11}(z-z_0)+a_{12}(z-z_0)^2+\\ldots+a_{1\\nu}(z-z_0)^\\nu+\\ldots]\\\\\n\\,+[a_{20}+a_{21}(z-z_0)+a_{22}(z-z_0)^2+\\ldots+a_{2\\nu}(z-z_0)^\\nu+\\ldots]\\\\\n\\qquad \\qquad \\ldots\\ldots\\\\\n\\,+[a_{n0}+a_{n1}(z-z_0)+a_{n2}(z-z_0)^2+\\ldots+a_{n\\nu}(z-z_0)^\\nu+\\ldots]\\\\\n\\underline{\\qquad\\qquad\\cdots\\cdots\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad}\\\\\n= A_0+A_1(z-z_0)+A_2(z-z_0)^2+\\ldots+A_\\nu(z-z_0)^\\nu+\\ldots\n\\end{array}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeierstrassDoubleSeriesTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Weierstrass double series theorem"
+  ]
+}

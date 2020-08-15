@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** (Wielandt (1949)) Let $A$ be a normed unital algebra (with\nunit $e$). If $x, y \\in A$ then $xy - yx \\not= e$.\n\nAssume there are $x,y \\in A$ such that $xy - yx = e$. Then for all\n$n \\in \\mathbb{N}$ we have $$\\begin{aligned}\nx^n y - y x^n &= n x^{n-1} \\not= 0\\end{aligned}$$\n\nWe prove this by induction over $n \\in \\mathbb{N}$. It holds for $n = 1$\nby assumption. Assume it is valid for $n \\in \\mathbb{N}$. Then\n$x^n \\not= 0$ and $$\\begin{aligned}\nx^{n+1} y - y x^{n+1} &= x^n (x y - y x) + (x^n y - y x^n) x \\\\\n&= x^n e + n x^{n-1} x = x^n e + n x^n = (n+e) x^n\\end{aligned}$$\n\nFrom this identity it follows that $$\\begin{aligned}\nn \\|x^{n-1}\\| &= \\|x^n y - y x^n\\| \\leq 2 \\|x^n\\| \\|y\\| \\leq 2 \\|x^{n-1}\\| \\|x\\| \\|y\\| \\\\\\end{aligned}$$\n\nIt follows that $n \\leq 2 ||x|| ||y||$ for all $n \\in \\mathbb{N}$ which\nis impossible.\n\n**Corollary.** The identity operator on a Hilbert space $\\mathcal{H}$\ncannot be expressed as a commutator of two bounded linear operators in\n$\\mathcal{L}(\\mathcal{H})$.\n\n**Remark.** The above can be understood as a version of the uncertainty\nprinciple in one dimension. Let $H = L^2(\\mathbb{R})$. Let\n$q \\colon H \\to H$ be $q(f)(x) := xf(x)$ with\n$D(q) = \\{f \\in L^2(\\mathbb{R}) : x \\mapsto x f(x) \\in L^2(\\mathbb{R})\\}$,\nthe coordinate operator and $p \\colon H \\to H, p(f)(x) = -i f'(x)$ the\nmomentum operator with\n$D(p) := \\{f \\in L^2(\\mathbb{R}) : f \\ \\text{absolutely \\ continuous}, f' \\in L^2(\\mathbb{R})\\}$.\nIt follows that $$\\begin{aligned}\npq - qp &= -i \\mathrm{id}_D \\ \\text{on} \\ D = D(q) \\cap D(p) \\end{aligned}$$\n\nAccording to the corollary $D = L^2(\\mathbb{R})$ can never be the case.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WielandtTheoremForUnitalNormedAlgebras"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Wielandt theorem for unital normed algebras"
+  ]
+}

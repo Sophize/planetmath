@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Mandelbrot set* is a fractal in the complex plane defined as the\ncollection of $c\\in\\mathbb{C}$ for which the orbit of $0$ under the\nquadratic dynamical system $f_c(z)\\colon z \\mapsto z^2 + c$ is bounded.\nThat is, to test whether $c$ is in the Mandelbrot set, one checks\nwhether the sequence $(f_c(0), f_c(f_c(0)), f_c(f_c(f_c(0))), \\ldots)$\ntends to infinity or stays in a bounded region. The point $c$ is in the\nset if the sequence does not tend to infinity.\n\nThere are deep connections between points in the Mandelbrot set and the\ncorresponding $J(f_c)$. In particular, $c$ is in the Mandelbrot set if\nand only if the corresponding to $c$ is connected.\n\nThe Mandelbrot set is perhaps the most famous fractal. At every level,\nit has smaller copies of the overall shape that are connected to the\nmain shape. The higher the resolution, the easier it is to see that the\nentire Mandelbrot set is simply connected, with no holes. Discovered by\nBeno\u00eet Mandelbrot, the first print-out of it was in black and white.\n\n![image](C:TempMandelbrotSetBW)\n\nMost of the Mandelbrot set lies within the unit disk of the complex\nplane. The second largest \u2018circle\u2019 (to the left of the main \u2018circle\u2019 in\nthe standard illustration) is centered at $-1 + 0i$. Points with real\npart outside the range $-2 < a < 1$ and imaginary part $(1 < |b|)i$ will\ncertainly tend to infinity.\n\nNowadays, most images of the Mandelbrot set include colors, with the\ncolors for escaping values of $c$ being assigned in some correspondence\nto how many iterations it took to determine that $c$ escaped.\n\n[1]{} H. Lauwerier, translated by Sophia Gill-Hoffst\u00e4dt. [*Fractals:\nEndlessly Repeated Geometric Figures*]{} Princeton: Princeton University\nPress (1991): 124 - 151",
+  "language": "INFORMAL",
+  "phrase": "Mandelbrot Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MandelbrotSet"
+    }
+  ],
+  "indexable": true
+}

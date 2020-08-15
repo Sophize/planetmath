@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $a,\\,b,\\,c$ be known integers and $p$ an odd prime number not\ndividing $a$. The number of non-congruent roots of the quadratic\ncongruence $$\\begin{aligned}\n               ax^2\\!+\\!bx\\!+\\!c \\;\\equiv\\; 0 \\pmod{p}\\end{aligned}$$ is\n\n-   two, if $b^2\\!-\\!4ac$ is a quadratic residue modulo $p$;\n\n-   one, if $b^2\\!-\\!4ac \\equiv 0 \\pmod{p}$;\n\n-   zero, if $b^2\\!-\\!4ac$ is a quadratic nonresidue modulo $p$.\\\n\n[*Proof.*]{} Since $\\gcd(p,\\,4a) = 1$, multiplying (1) by $4a$ gives an\ncongruence $$4a^2x^2\\!+\\!4abx\\!+\\!4ac \\;\\equiv\\; 0 \\pmod{p}$$ which may\nfurthermore be written as\n$$(2ax\\!+\\!b)^2 \\;\\equiv\\; b^2\\!-\\!4ac \\pmod{p}.$$ Accordingly, one can\nobtain the the solution of the given congruence from the solution of the\npair of congruences $$\\begin{aligned}\n\\begin{cases}\n               y^2 \\;\\equiv\\; b^2\\!-\\!4ac \\pmod{p} \\qquad\\qquad (2)\\\\\n               2ax\\!+\\!b \\;\\equiv\\; y \\pmod{p}.\\; \\qquad\\qquad (3) \\\\\n\\end{cases}\\end{aligned}$$ Case 1: $b^2\\!-\\!4ac$ is a quadratic\nresidue$\\pmod{p}$. Then (2) has a root $y = y_0 \\neq 0$, and therefore\nalso the second root $y = -y_0$. The roots $y = \\pm y_0$ are\nincongruent, because otherwise one had $p \\mid 2y_0$ and thus\n$p \\mid y_0 \\mid y_0^2 \\equiv b^2\\!-\\!4ac$ which is not possible in this\ncase.\\\nCase 2: $b^2\\!-\\!4ac \\equiv 0 \\pmod{p}$. Now (2) implies that\n$y \\equiv 0 \\pmod{p}$, whence the corresponding root $x_0$ of the linear\ncongruence (3) does not allow other incongruent roots for (1).\\\nCase 3: $b^2\\!-\\!4ac$ is a quadratic nonresidue$\\pmod{p}$. The\ncongruence (2) cannot have solutions; the same concerns thus also (1).\\\n**Example.** Solve the congruence $$4x^2+6x-3 \\;\\equiv\\; 0 \\pmod{43}.$$\nWe have $b^2\\!-\\!4ac = 36+4\\cdot4\\cdot3 = 84 \\equiv -2 \\pmod{43}$ and\nthe Legendre symbol\n$$\\left(\\frac{-2}{43}\\right) \\;=\\; \\left(\\frac{-1}{43}\\right)\\left(\\frac{2}{43}\\right) \\;=\\; -1\\cdot(-1) \\;=\\; 1$$\n(see values of the Legendre symbol) says that $-2$ is a quadratic\nresidue modulo 43. The congruence corresponding (2) is\n$$y^2 \\;\\equiv\\; -2 \\pmod{43},$$ which is satisfied by\n$y \\equiv \\pm16 \\pmod{43}$ as one finds after a little experimenting.\nThen we have the two linear congruences\n$2\\cdot4x+6 \\equiv \\pm16 \\pmod{43}$, i.e.\n$$4x \\;\\equiv\\; \\pm8-3 \\pmod{43}$$ corresponding (3). The first of them,\n$4x\\equiv 5 \\pmod{43}$, is satisfied by $x = 12$ and the second,\n$4x\\equiv -11 \\pmod{43}$, by $x = 8$. Thus the solution of the given\ncongruence is\n$$x \\;\\equiv\\; 8 \\pmod{43} \\quad \\mbox{or} \\quad x \\;\\equiv\\; 12 \\pmod{43}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuadraticCongruence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "quadratic congruence"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sequence or arbitrary ordered set or one-dimensional array of numbers,\n$a$, is said to be in [*ascending order*]{} if each $a_i \\le a_{i + 1}$.\nFor example, the Fibonacci sequence is in ascending order: 1, 1, 2, 3,\n5, 8, 13, 21 ... The Perrin sequence is not in ascending order: 3, 0, 2,\n3, 2, 5, 5, 7, 10, 12, 17 ...\n\nIn a trivial sense, the sequence of values of the sign function is in\nascending order: ... -1, -1, -1, 0, 1, 1, 1... When each\n$a_i < a_{i + 1}$ in the sequence, set or array, then it can be said to\nbe in [*strictly ascending order*]{}.",
+  "language": "INFORMAL",
+  "phrase": "Ascending Order",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AscendingOrder"
+    }
+  ],
+  "indexable": true
+}

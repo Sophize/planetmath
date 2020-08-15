@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Every regular polygon has a circumscribed circle and an\ninscribed circle.\n\nGiven a regular $n$-gon, draw the angle bisectors of its interior\nangles. Since the interior angles of a regular $n$-gon are congruent,\none gets $n$ isosceles triangles. (See determining from angles that a\ntriangle is isosceles for more details.) Moreover, since the sides of\nthe regular $n$-gon are congruent, these isosceles triangles have\ncongruent bases. Thus, these triangles are congruent (ASA). Therefore,\nthe sides adjacent to the vertex angles are congruent. Hence, the\nvertices of two adjacent triangles and thus of all triangles coincide.\nThis common vertex point is equidistant from all vertices of the polygon\nand also from all sides of the polygon, whence it is simultaneously the\nof the circumscribed circle and the inscribed circle.\n\nTo illustrate what is going on in the proof, the procedure explained in\nthe proof will be demonstrated for a regular pentagon and a regular\nhexagon. In the pictures below, the regular pentagon is on the left, and\nthe regular hexagon is on the right.\n\nIn the first picture, the $n$ angle bisectors are drawn in blue. Note\nhow they all intersect at one point. This point is the center of the\nregular polygon.\n\n(-5,-2)(5,2) (-3,1.702)(-3,-1.377) (-4.619,0.526)(-1.6905,-0.4255)\n(-4,-1.377)(-2.1905,1.114) (-2,-1.377)(-3.8095,1.114)\n(-1.381,0.526)(-4.3095,-0.4255)\n(-3,1.702)(-4.619,0.526)(-4,-1.377)(-2,-1.377)(-1.381,0.526) (5,0)(1,0)\n(4,1.732)(2,-1.732) (2,1.732)(4,-1.732)\n(5,0)(4,1.732)(2,1.732)(1,0)(2,-1.732)(4,-1.732) (-3,0)(3,0)\n\nIn the second picture, the $n$ angle bisectors are only drawn to the\ncenter. Note that the resulting picture for the regular hexagon is no\ndifferent than the previous picture.\n\n(-5,-2)(5,2) (-3,1.702)(-3,0) (-4.619,0.526)(-3,0) (-4,-1.377)(-3,0)\n(-2,-1.377)(-3,0) (-1.381,0.526)(-3,0)\n(-3,1.702)(-4.619,0.526)(-4,-1.377)(-2,-1.377)(-1.381,0.526) (5,0)(1,0)\n(4,1.732)(2,-1.732) (2,1.732)(4,-1.732)\n(5,0)(4,1.732)(2,1.732)(1,0)(2,-1.732)(4,-1.732) (-3,0)(3,0)\n\nIn the last picture, the inscribed circle is drawn in green, and the\ncircumscribed circle is drawn in cyan.\n\n(-5,-2)(5,2) (-3,1.702)(-3,0) (-4.619,0.526)(-3,0) (-4,-1.377)(-3,0)\n(-2,-1.377)(-3,0) (-1.381,0.526)(-3,0) (-3,0)[1.377]{} (-3,0)[1.702]{}\n(-3,1.702)(-4.619,0.526)(-4,-1.377)(-2,-1.377)(-1.381,0.526) (5,0)(1,0)\n(4,1.732)(2,-1.732) (2,1.732)(4,-1.732) (3,0)[1.732]{} (3,0)[2]{}\n(5,0)(4,1.732)(2,1.732)(1,0)(2,-1.732)(4,-1.732) (-3,0)(3,0)\n\n[8]{} : [*Geometria*]{}. Tenth edition. Werner S\u00f6derstr\u00f6m Osakeyhti\u00f6,\nPorvoo and Helsinki (1971).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegularPolygonAndCircles"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "regular polygon and circles"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} \\[Markov - Kakutani\\] [**-**]{} Let $X$ be a topological\nvector space and $\\mathcal{T}$ a commuting family of continuous linear\noperators in $X$. Suppose $K$ is a compact convex subset of $X$ such\nthat\n\n$$T(K) \\subseteq K$$\n\nfor every $T \\in \\mathcal{T}$. Then there is a point $x_0 \\in K$ such\nthat $Tx_0 = x_0$ for all $T \\in \\mathcal{T}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MarkovKakutaniFixedPointTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Markov Kakutani fixed point theorem"
+  ]
+}

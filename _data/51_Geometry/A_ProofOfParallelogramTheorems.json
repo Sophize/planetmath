@@ -1,0 +1,17 @@
+{
+  "argumentText": "\\[thm:one\\]The opposite sides of a parallelogram are congruent.\n\nThis was proved in the article.\n\n\\[thm:two\\]If both pairs of opposite sides of a quadrilateral are\ncongruent, the quadrilateral is a parallelogram.\n\nSuppose $ABCD$ is the given parallelogram, and draw ${\\overline}{AC}$.\n\n![image](Parallelogram2)\n\nThen $\\triangle ABC\\cong\\triangle ADC$ by SSS, since by assumption\n$AB=CD$ and $AD=BC$, and the two triangles share a third side.\n\nBy CPCTC, it follows that $\\angle BAC\\cong\\angle DCA$ and that\n$\\angle BCA\\cong \\angle DAC$. But the theorems about corresponding\nangles in transversal cutting then imply that ${\\overline}{AB}$ and\n${\\overline}{CD}$ are parallel, and that ${\\overline}{AD}$ and\n${\\overline}{BC}$ are parallel. Thus $ABCD$ is a parallelogram.\n\n\\[thm:three\\]If one pair of opposite sides of a quadrilateral are both\nparallel and congruent, the quadrilateral is a parallelogram.\n\nAgain let $ABCD$ be the given parallelogram. Assume $AB=CD$ and that\n${\\overline}{AB}$ and ${\\overline}{CD}$ are parallel, and draw\n${\\overline}{AC}$.\n\n![image](Parallelogram3)\n\nSince ${\\overline}{AB}$ and ${\\overline}{CD}$ are parallel, it follows\nthat the alternate interior angles are equal:\n$\\angle BAC\\cong \\angle DCA$. Then by SAS,\n$\\triangle ABC\\cong \\triangle ADC$ since they share a side.\n\nAgain by CPCTC we have that $BC=AD$, so both pairs of sides of the\nquadrilateral are congruent, so by Theorem \\[thm:two\\], the\nquadrilateral is a parallelogram.\n\n\\[thm:four\\]The diagonals of a parallelogram bisect each other.\n\nLet $ABCD$ be the given parallelogram, and draw the diagonals\n${\\overline}{AC}$ and ${\\overline}{BD}$, intersecting at $E$.\n\n![image](Parallelogram4)\n\nSince $ABCD$ is a parallelogram, we have that $AB=CD$. In addition,\n${\\overline}{AB}$ and ${\\overline}{CD}$ are parallel, so the alternate\ninterior angles are equal: $\\angle ABD\\cong \\angle BDC$ and\n$\\angle BAC\\cong \\angle ACD$. Then by ASA,\n$\\triangle ABE\\cong \\triangle CDE$.\n\nBy CPCTC we see that $AE=CE$ and $BE=DE$, proving the theorem.\n\n\\[thm:five\\]If the diagonals of a quadrilateral bisect each other, the\nquadrilateral is a parallelogram.\n\nLet $ABCD$ be the given quadrilateral, and let its diagonals intersect\nin $E$.\n\n![image](Parallelogram5)\n\nThen by assumption, $AE=EC$ and $DE=EB$. But also vertical angles are\nequal, so $\\angle AED\\cong \\angle AEB$ and $\\angle CED\\cong \\angle AEB$.\nThus, by SAS we have that $\\triangle AED\\cong \\triangle CEB$ and\n$\\triangle CED\\cong \\triangle AEB$.\n\nBy CPCTC it follows that $AB=CD$ and that $AD=BC$. By Theorem\n\\[thm:one\\], $ABCD$ is a parallelogram.",
+  "conclusion": "#P_ParallelogramTheorems",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfParallelogramTheorems"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of parallelogram theorems"
+  ]
+}

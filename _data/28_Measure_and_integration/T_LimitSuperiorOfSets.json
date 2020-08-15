@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A_1,A_2,\\dots$ be a sequence of sets. The limit superior of sets is\ndefined by\n$$\\limsup A_n = \\bigcap_{n=1}^\\infty \\bigcup_{k=n}^\\infty A_k.$$\n\nIt is easy to see that $x\\in \\limsup A_n$ if and only if $x\\in A_n$ for\ninfinitely many values of $n$. Because of this, in probability theory\nthe notation $[A_n \\operatorname{i.o.}]$ is often used to refer to\n$\\limsup A_n$, where i.o. stands for *infinitely often*.\n\nThe limit inferior of sets is defined by\n\n$$\\liminf A_n = \\bigcup_{n=1}^\\infty \\bigcap_{k=n}^\\infty A_k,$$\n\nand it can be shown that $x\\in \\liminf A_n$ if and only if $x$ belongs\nto $A_n$ for all but finitely many values of $n$.",
+  "language": "INFORMAL",
+  "phrase": "Limit Superior Of Sets",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitSuperiorOfSets"
+    }
+  ],
+  "indexable": true
+}

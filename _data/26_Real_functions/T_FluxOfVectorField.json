@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "flux of vector"
+  ],
+  "definition": "Let $$\\vec{U} \\;=\\; U_x\\vec{i}+U_y\\vec{j}+U_z\\vec{k}$$ be a vector field\nin $\\mathbb{R}^3$ and let $a$ be a portion of some surface in the vector\nfield. Define one ; if $a$ is a closed surface, then the of it. For any\nsurface element $da$ of $a$, the corresponding [*vectoral surface\nelement*]{} is $$d\\vec{a} \\;=\\; \\vec{n}\\,da,$$ where $\\vec{n}$ is the\nunit normal vector on the of $da$.\n\nThe [*flux*]{} of the vector $\\vec{U}$ through the surface $a$ is the\n$$\\int_a\\vec{U} \\cdot d\\vec{a}.$$\\\n**Remark.** One can imagine that $\\vec{U}$ represents the velocity\nvector of a flowing liquid; suppose that the flow is , i.e. the velocity\n$\\vec{U}$ depends only on the location, not on the time. Then the scalar\nproduct $\\vec{U} \\cdot d\\vec{a}$ is the volume of the liquid flown per\ntime-unit through the surface element $da$; it is positive or negative\ndepending on whether the flow is from the negative to the positive or\ncontrarily.\n\n**Example.** Let $\\vec{U} = x\\vec{i}+2y\\vec{j}+3z\\vec{k}$ and $a$ be the\nportion of the plane $x+y+x = 1$ in the first octant\n($x \\geqq 0,\\; y \\geqq 0,\\, z \\geqq 0$) with the away from the origin.\n\nOne has the constant unit normal vector:\n$$\\vec{n} \\;=\\; \\frac{1}{\\sqrt{3}}\\vec{i}+\\frac{1}{\\sqrt{3}}\\vec{j}+\\frac{1}{\\sqrt{3}}\\vec{k}.$$\nThe flux of $\\vec{U}$ through $a$ is\n$$\\varphi \\;=\\; \\int_a\\vec{U}\\cdot d\\vec{a} \\;=\\; \\frac{1}{\\sqrt{3}}\\int_a(x+2y+3z)\\,da.$$\n\nHowever, this surface integral may be converted to one in which $a$ is\nreplaced by its $A$ on the $xy$-plane, and $da$ is then similarly\nreplaced by its projection $dA$; $$dA = \\cos\\alpha\\, da$$ where $\\alpha$\nis the angle between the normals of both surface elements, i.e. the\nangle between $\\vec{n}$ and $\\vec{k}$:\n$$\\cos\\alpha \\;=\\; \\vec{n}\\cdot\\vec{k} \\;=\\; \\frac{1}{\\sqrt{3}}.$$ Then\nwe also express $z$ on $a$ with the coordinates $x$ and $y$:\n$$\\varphi \\;=\\; \\frac{1}{\\sqrt{3}}\\int_A(x+2y+3(1-x-y))\\,\\sqrt{3}\\,dA\n\\;=\\; \\int_0^1\\left(\\int_0^{1-x}(3-2x-y)\\,dy\\right)dx \\;=\\; 1$$",
+  "language": "INFORMAL",
+  "phrase": "Flux Of Vector Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FluxOfVectorField"
+    }
+  ],
+  "indexable": true
+}

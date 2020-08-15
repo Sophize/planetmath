@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "differential embedding"
+  ],
+  "definition": "Let $M$ and $N$ be manifolds and $f\\colon M\\to N$ a smooth map. Then $f$\nis an *embedding* if\n\n1.  $f(M)$ is a submanifold of $N$, and\n\n2.  $f\\colon M\\to f(M)$ is a diffeomorphism. (There\u2019s an abuse of\n    notation here. This should really be restated as the map\n    $g\\colon M\\to f(M)$ defined by $g(p)=f(p)$ is a diffeomorphism.)\n\nThe above characterization can be equivalently stated: $f\\colon M\\to N$\nis an embedding if\n\n1.  $f$ is an immersion, and\n\n2.  by abuse of notation, $f\\colon M\\to f(M)$ is a homeomorphism.\n\n**Remark**. A celebrated theorem of Whitney states that every $n$\ndimensional manifold admits an embedding into $\\mathbb{R}^{2n+1}$.",
+  "language": "INFORMAL",
+  "phrase": "Embedding",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Embedding"
+    }
+  ],
+  "indexable": true
+}

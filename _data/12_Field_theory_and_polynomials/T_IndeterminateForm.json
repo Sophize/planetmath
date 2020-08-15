@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "indeterminate value"
+  ],
+  "definition": "The expression\n\n$$\\frac{0}{0}$$\n\nis known as the *indeterminate form*. The motivation for this name is\nthat there are no rules for comparing the value of $\\frac{0}{0}$ to the\nother real numbers. Note that, for example, $\\frac{1}{0}$ is *not*\nindeterminate, since we can justifiably associate it with $+\\infty$,\nwhich *does* compare with the rest of the real numbers (in particular,\nit is defined to be greater than all of them.)\n\nOther Indeterminate Forms\n=========================\n\nAlthough $\\frac{0}{0}$ is often called \u201cthe\u201d indeterminate form, there\nare many others. Some of these are:\n\n1.  $ \\frac{\\infty}{\\infty} $, for the same motivating reasons as\n    $\\frac{0}{0}$.\n\n2.  $ 0^0 $; which is the result of much impassioned debate (especially\n    since $0!$ is defined to be 1, counter-intuitively, but not\n    unreasonably).\n\n3.  $1^{\\infty}$; notably because of the derivation of $e$:\n\n    $$\\lim_{n \\to \\infty} \\left( 1+\\frac{1}{n} \\right)^n = e$$\n\n    A direct substitution would yield $1^\\infty$.",
+  "language": "INFORMAL",
+  "phrase": "Indeterminate Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndeterminateForm"
+    }
+  ],
+  "indexable": true
+}

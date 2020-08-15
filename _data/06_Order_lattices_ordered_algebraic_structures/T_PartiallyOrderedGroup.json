@@ -1,0 +1,21 @@
+{
+  "alternatePhrases": [
+    "po-group",
+    "l-group",
+    "Archimedean po-group",
+    "integrally closed po-group",
+    "po-semigroup",
+    "lattice-ordered group",
+    "l-semigroup"
+  ],
+  "definition": "A *partially ordered group* is a group $G$ that is a poset at the same\ntime, such that if $a,b\\in G$ and $a\\le b$, then\n\n1.  $ac\\le bc$, and\n\n2.  $ca\\le cb$,\n\nfor any $c\\in G$. The two conditions are equivalent to the one condition\n$cad\\le cbd$ for all $c,d\\in G$. A partially ordered group is also\ncalled a *po-group* for short.\n\n**Remarks**.\n\n-   One of the immediate properties of a po-group is this: if $a\\le b$,\n    then $b^{-1}\\le a^{-1}$. To see this, left multiply by the first\n    inequality by $a^{-1}$ on both sides to obtain $e\\le a^{-1}b$. Then\n    right multiply the resulting inequality on both sides by $b^{-1}$ to\n    obtain the desired inequality: $b^{-1}\\le a^{-1}$.\n\n-   If can be seen that for every $a\\in G$, the automorphisms\n    $L_a,R_a:G\\to G$ also preserve order, and hence are order\n    automorphisms as well. For instance, if $b\\le c$, then\n    $L_a(b)=ab\\le ac = L_a(c)$.\n\n-   A element $a$ in a po-group $G$ is said to be *positive* if\n    $e\\le a$, where $e$ is the identity element of $G$. The set of\n    positive elements in $G$ is called the *positive cone* of $G$.\n\n-   (special po-groups)\n\n    1.  A po-group whose underlying poset is a directed set is called a\n        *directed group*.\n\n        -   If $G$ is a directed group, then $G$ is also a filtered set:\n            if $a,b\\in G$, then there is a $c\\in G$ such that $a\\le c$\n            and $b\\le c$, so that $ac^{-1}b\\le a$ and $ac^{-1}b\\le b$ as\n            well.\n\n        -   Also, if $G$ is directed, then $G=\\langle G^+\\rangle$: for\n            any $x\\in G$, let $a$ be the upper bound of\n            $\\lbrace x,e\\rbrace$ and let $b=ax^{-1}$. Then $e\\le b$ and\n            $x=a^{-1}b\\in \\langle G^+\\rangle$.\n\n    2.  A po-group whose underlying poset is a lattice is called a\n        *lattice ordered group*, or an *l-group*.\n\n    3.  If the partial order on a po-group $G$ is a linear order, then\n        $G$ is called a totally ordered group, or simply an ordered\n        group.\n\n    4.  A po-group is said to be *Archimedean* if $a^n\\le b$ for all\n        $n\\in \\mathbb{Z}$, then $a=e$. Equivalently, if $a\\ne e$, then\n        for any $b\\in G$, there is some $n\\in \\mathbb{Z}$ such that\n        $b<a^n$. This is a generalization of the Archimedean property on\n        the reals: if $r\\in \\mathbb{R}$, then there is some\n        $n\\in \\mathbb{N}$ such that $r<n$. To see this, pick $b=r$, and\n        $a=1$.\n\n    5.  A po-group is said to be *integrally closed* if $a^n\\le b$ for\n        all $n\\ge 1$, then $a\\le e$. An integrally closed group is\n        Archimedean: if $a^n\\le b$ for all $n\\in\\mathbb{Z}$, then\n        $a\\le e$ and $e\\le b$. Since we also have $(a^{-1})^{-n}\\le b$\n        for all $n<0$, this implies $a^{-1}\\le e$, or $e\\le a$. Hence\n        $a=e$. In fact, an directed integrally closed group is an\n        Abelian po-group.\n\n-   Since the definition above does not involve any specific group\n    axioms, one can more generally introduce partial ordering on a\n    semigroup in the same fashion. The result is called a partially\n    ordered semigroup, or a po-semigroup for short. A *lattice ordered\n    semigroup* is defined similarly.",
+  "language": "INFORMAL",
+  "phrase": "Partially Ordered Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartiallyOrderedGroup"
+    }
+  ],
+  "indexable": true
+}

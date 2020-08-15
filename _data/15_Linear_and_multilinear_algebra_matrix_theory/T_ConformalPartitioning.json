@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring. Let the matrices $A \\in M_{m,n}(R)$ and\n$B \\in M_{n,p}(R)$ be partitioned into submatrices $A^{i,j}$ and\n$B^{i,j}$ respectively as follows:\n\n$$A=\\begin{matrix} \n \\begin{matrix}\nn_{1} & n_{2} & \\quad \\cdots & n_{h}  \n\\end{matrix}  & \n\\begin{matrix}\n\\quad\n\\end{matrix} \n\\\\\n\\left[ \\begin{matrix} \n\\overbrace{A^{1,1}} & \\overbrace{A^{1,2}} & \\cdots & \\overbrace{A^{1,h}} \\\\\nA^{2,1} & A^{2,2} & \\cdots & A^{2,h} \\\\\n\\vdots & \\vdots & \\ \\ & \\vdots \\\\\nA^{g,1} & A^{g,2} & \\cdots & A^{g,h} \n\\end{matrix} \\right] & \n\\begin{matrix}\n\\}m_{1} \\\\\n\\}m_{2} \\\\\n\\vdots \\\\\n\\}m_{g} \n\\end{matrix}\n\\end{matrix}$$ where $A^{i,j}$ is\n$m_{i} \\times n_{j}, \\sum_{i=1}^{g} m_{i} = m$,\n$\\sum_{j=1}^{h} n_{j} = n$; $$B=\\begin{matrix} \n \\begin{matrix}\np_{1} & p_{2} & \\quad \\cdots & p_{k}  \n\\end{matrix}  & \n\\begin{matrix}\n\\quad\n\\end{matrix} \n\\\\\n\\left[ \\begin{matrix} \n\\overbrace{B^{1,1}} & \\overbrace{B^{1,2}} & \\cdots & \\overbrace{B^{1,k}} \\\\\nB^{2,1} & B^{2,2} & \\cdots & B^{2,k} \\\\\n\\vdots & \\vdots & \\ \\ & \\vdots \\\\\nB^{h,1} & B^{h,2} & \\cdots & B^{h,k} \n\\end{matrix} \\right] & \n\\begin{matrix}\n\\}n_{1} \\\\\n\\}n_{2} \\\\\n\\vdots \\\\\n\\}n_{h} \n\\end{matrix}\n\\end{matrix}$$ where $B^{i,j}$ is $n_{i} \\times p_{j}, $\n$\\sum_{j=1}^{k} p_{j} = p$. Then $A$ and $B$ (in this ) are said to be\n[*conformally partitioned*]{} for multiplication.\n\nNow suppose that $A$ and $B$ are conformally partitioned for\nmultiplication. Let $C=AB$ be partitioned as follows:\n$$C=\\begin{matrix} \n \\begin{matrix}\np_{1} & p_{2} & \\quad \\cdots & p_{k}  \n\\end{matrix}  & \n\\begin{matrix}\n\\quad\n\\end{matrix} \n\\\\\n\\left[ \\begin{matrix} \n\\overbrace{C^{1,1}} & \\overbrace{C^{1,2}} & \\cdots & \\overbrace{C^{1,k}} \\\\\nC^{2,1} & C^{2,2} & \\cdots & C^{2,k} \\\\\n\\vdots & \\vdots & \\ \\ & \\vdots \\\\\nC^{g,1} & C^{g,2} & \\cdots & C^{g,k} \n\\end{matrix} \\right] & \n\\begin{matrix}\n\\}m_{1} \\\\\n\\}m_{2} \\\\\n\\vdots \\\\\n\\}m_{g} \n\\end{matrix}\n\\end{matrix}$$ where $C^{i,j}$ is $m_{i} \\times p_{j}$,\n$i=1, \\cdots ,g$, $j=1,\\cdots ,k$. Then\n$$C^{i,j} = \\sum_{t=1}^{k} A^{i,t}B^{t,j}, \\quad i=1,\\cdots , g, \\quad j=1, \\cdots , k.$$\nThis method of computing $AB$ is sometimes called [*block\nmultiplication*]{}.",
+  "language": "INFORMAL",
+  "phrase": "Conformal Partitioning",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConformalPartitioning"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathcal{A}$ be a . Let $\\mathcal{A}^+$ denote the set of positive\nelements of $\\mathcal{A}$ and $\\mathcal{A}_{sa}$ denote the set of\nself-adjoint elements of $\\mathcal{A}$.\n\nSince $\\mathcal{A}^+$ is a (see this ), we can define a partial order\n$\\leq$ on the set $\\mathcal{A}_{sa}$, by setting\n\n$a\\leq b$ if and only if $b-a \\in \\mathcal{A}^+$, i.e. $b-a$ is\npositive.\n\n[**Theorem -**]{} The relation $\\leq$ is a partial order relation on\n$\\mathcal{A}_{sa}$. Moreover, $\\leq$ turns $\\mathcal{A}_{sa}$ into an\nordered topological vector space.\n\n### Properties:\n\n-   $a\\leq b \\;\\Rightarrow\\; c^*a\\,c\\leq c^*b\\,c\\;\\;$ for every\n    $c \\in \\mathcal{A}$.\n\n-   If $a$ and $b$ are invertible and $a \\leq b$, then\n    $b^{-1} \\leq a^{-1}$.\n\n-   If $\\mathcal{A}$ has an identity element $e$, then\n    $-\\|a\\|e \\leq a \\leq \\|a\\|e\\;$ for every $a \\in \\mathcal{A}_{sa}$.\n\n-   $-b \\leq a \\leq b \\;\\Rightarrow \\;\\|a\\| \\leq \\|b\\|$.\n\n### Remark:\n\nThe proof that $\\leq$ is partial order makes no use of the\nself-adjointness . In fact, $\\mathcal{A}$ itself is an ordered\ntopological vector space under the relation $\\leq$.\n\nHowever, it turns out that this ordering relation provides its most\nusefulness when restricted to self-adjoint elements. For example, some\nof the above would not hold if we did not restrict to\n$\\mathcal{A}_{sa}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderingOfSelfadjoints"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "ordering of self-adjoints"
+  ]
+}

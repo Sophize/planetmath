@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $M$ be a differentiable manifold and let $f\\colon M\\to M$ be a\n$\\mathcal{C}^k$ diffeomorphism. We say that $f$ is\n$\\mathcal{C}^k$-$\\Omega$-stable, if there is a neighborhood\n$\\mathcal{U}$ of $f$ in the $\\mathcal{C}^k$ topology of\n$\\operatorname{Diff}^k(M)$ such that for any $g\\in \\mathcal{U}$,\n$f|_{\\Omega(f)}$ is topologically conjugate to $g|_{\\Omega(g)}$.\n\n$\\Omega$-**stability theorem**. If $f$ is Axiom A and satisfies the\nno-cycles condition, then $f$ is $\\mathcal{C}^1$-$\\Omega$-stable.\n\n*Remark.* The reciprocal of this theorem is also true (the difficult\npart is showing that $\\Omega$-stability implies Axiom A), but it is\nunknown whether $\\mathcal{C}^k$-$\\Omega$-stability implies Axiom A when\n$k>1$. This is known as the $\\mathcal{C}^k$ *$\\Omega$-stability\nconjecture*.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OmegastabilityTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$\\Omega$-stability theorem",
+    "omega-stability theorem",
+    "Smale's $\\Omega$-stability theorem"
+  ]
+}

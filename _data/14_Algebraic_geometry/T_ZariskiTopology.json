@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathbb{A}}_k^n$ denote the affine space $k^n$ over a field $k$.\nThe [*Zariski topology*]{} on ${\\mathbb{A}}_k^n$ is defined to be the\ntopology whose closed sets are the sets\n$$V(I) := \\{ x \\in {\\mathbb{A}}_k^n \\mid f(x) = 0 \\text{ for all } f \\in I\\} \\subset {\\mathbb{A}}_k^n,$$\nwhere $I \\subset k[X_1, \\ldots, X_n]$ is any ideal in the polynomial\nring $k[X_1, \\ldots, X_n]$. For any affine variety\n$V \\subset {\\mathbb{A}}_k^n$, the [*Zariski topology*]{} on $V$ is\ndefined to be the subspace topology induced on $V$ as a subset of\n${\\mathbb{A}}_k^n$.\n\nLet ${\\mathbb{P}}_k^n$ denote $n$\u2013dimensional projective space over $k$.\nThe [*Zariski topology*]{} on ${\\mathbb{P}}_k^n$ is defined to be the\ntopology whose closed sets are the sets\n$$V(I) := \\{ x \\in {\\mathbb{P}}_k^n \\mid f(x) = 0 \\text{ for all } f \\in I\\} \\subset {\\mathbb{P}}_k^n,$$\nwhere $I \\subset k[X_0, \\ldots, X_n]$ is any homogeneous ideal in the\ngraded $k$\u2013algebra $k[X_0, \\ldots, X_n]$. For any projective variety\n$V \\subset {\\mathbb{P}}_k^n$, the [*Zariski topology*]{} on $V$ is\ndefined to be the subspace topology induced on $V$ as a subset of\n${\\mathbb{P}}_k^n$.\n\nThe Zariski topology is the predominant topology used in the study of\nalgebraic geometry. Every regular morphism of varieties is continuous in\nthe Zariski topology (but not every continuous map in the Zariski\ntopology is a regular morphism). In fact, the Zariski topology is the\nweakest topology on varieties making points in ${\\mathbb{A}}_k^1$ closed\nand regular morphisms continuous.",
+  "language": "INFORMAL",
+  "phrase": "Zariski Topology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZariskiTopology"
+    }
+  ],
+  "indexable": true
+}

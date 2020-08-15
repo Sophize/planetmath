@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an integer $n$ with divisors $d_1, \\ldots , d_k$ (where the\ndivisors are in ascending order and $d_1 = 1$, $d_k = n$) the difference\n$$2n - \\left( \\sum_{i = 1}^k d_i \\right)$$ is the [*deficiency*]{} of\n$n$. Or if one prefers, $$n - \\left( \\sum_{i = 1}^{k - 1} d_i \\right).$$\nThe deficiency is essentially the same thing as the abundance multiplied\nby $-1$. Thus, the deficiency is positive for deficient numbers, 0 for\nperfect numbers and negative for abundant numbers.\n\nFor example, the divisors of 13 add up to 14, which is 12 less than 26.\nTherefore, 12 has an deficiency of 12. Another example: the divisors of\n14 add up to 24, which is 4 less than 28. The deficiency of the first 72\nintegers is listed in A033879 of Sloane\u2019s OEIS.",
+  "language": "INFORMAL",
+  "phrase": "Deficiency",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Deficiency"
+    }
+  ],
+  "indexable": true
+}

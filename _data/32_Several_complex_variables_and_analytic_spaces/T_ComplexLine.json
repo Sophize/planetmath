@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $a, b \\in {\\mathbb{C}}^n$. The set\n$\\ell := \\{a + b z \\mid z \\in {\\mathbb{C}} \\}$ is called the [*complex\nline*]{}.\n\nA complex line is a holomorphic complex affine imbedding of\n${\\mathbb{C}}$ into ${\\mathbb{C}}^n$ so that if $f$ is holomorphic, then\n$z \\mapsto f(a + b z)$ is also holomorphic. That is the complex\nstructures of $\\ell$ and ${\\mathbb{C}}^n$ are compatible. Hence not\nevery two dimensional real affine space is a complex line.\n\nLet $a, b_1, \\ldots, b_k \\in {\\mathbb{C}}^n$ such that\n$b_1, \\ldots, b_k$ are linearly independent over ${\\mathbb{C}}$, then.\nThe set\n$$\\{a + \\sum_{j=1}^k b_k z_k \\mid z_1,\\ldots,z_k \\in {\\mathbb{C}} \\}$$\nis called the [*complex affine space*]{}.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Complex Line",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComplexLine"
+    }
+  ],
+  "indexable": true
+}

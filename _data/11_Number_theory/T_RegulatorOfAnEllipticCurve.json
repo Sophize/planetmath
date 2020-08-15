@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $E/{\\mathbb{Q}}$ be an elliptic curve, let $E({\\mathbb{Q}})$ be the\ngroup of rational points on the curve and let\n$\\langle \\cdot, \\cdot \\rangle$ be the N\u00e9ron-Tate pairing:\n$$\\langle P,Q \\rangle=\\hat{h}(P+Q)-\\hat{h}(P)-\\hat{h}(Q)$$ where\n$\\hat{h}$ is the canonical height on the elliptic curve\n$E/{\\mathbb{Q}}$.\n\nLet $E/{\\mathbb{Q}}$ be an elliptic curve and let $\\{P_1,\\ldots,P_r\\}$\nbe a set of generators of the free part of $E({\\mathbb{Q}})$, i.e. the\npoints $P_i$ generate $E({\\mathbb{Q}})$ modulo the torsion subgroup\n$E_{\\operatorname{tors}}({\\mathbb{Q}})$. The [**height matrix**]{} of\n$E/{\\mathbb{Q}}$ is the $r\\times r$ matrix $H$ whose $ij$th component is\n$\\langle P_i, P_j \\rangle$, i.e. $$H = (\\langle P_i, P_j \\rangle).$$ If\n$r=0$ then we define $H=1$.\n\nThe [****]{} of $E/{\\mathbb{Q}}$ (or the elliptic regulator), denoted by\n$\\operatorname{Reg}(E/{\\mathbb{Q}})$ or $R_{E/{\\mathbb{Q}}}$ is defined\nby $$\\operatorname{Reg}(E/{\\mathbb{Q}})=\\det(H)$$ where $H$ is the\nheight matrix.\n\nNotice the similarities with the regulator of a number field. The\nregulator of an elliptic curve is the volume of a fundamental domain for\n$E({\\mathbb{Q}})$ modulo torsion, with respect to the quadratic form\ndefined by the N\u00e9ron-Tate pairing.",
+  "language": "INFORMAL",
+  "phrase": "Regulator Of An Elliptic Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegulatorOfAnEllipticCurve"
+    }
+  ],
+  "indexable": true
+}

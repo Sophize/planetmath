@@ -1,0 +1,18 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(X,d)$ be a complete metric space. A function $T:X \\to X$ is said\nto be a *contraction mapping* if there is a constant $q$ with\n$0 \\leq q < 1$ such that $$d(Tx,Ty)\\leq q\\cdot d(x,y)$$ for all\n$x,y\\in X$. Contractions have an important property.\n\nEvery contraction has a unique .\n\nThere is an estimate to this fixed point that can be useful in\napplications. Let $T$ be a contraction mapping on $(X,d)$ with constant\n$q$ and unique fixed point $x^* \\in X$. For any $x_0 \\in X$, define\nrecursively the following sequence $$\\begin{aligned}\n  x_1      &:=& Tx_0   \\\\\n  x_2      &:=& Tx_1   \\\\\n         &\\vdots&      \\\\\n  x_{n+1}  &:=& Tx_n.\\end{aligned}$$ The following inequality then\nholds: $$d(x^*,x_n)\\leq \\frac{q^n}{1-q}d(x_1,x_0).$$ So the sequence\n$(x_n)$ converges to $x^*$. This estimate is occasionally responsible\nfor this result being known as *the method of successive\napproximations*.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BanachFixedPointTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Banach fixed point theorem",
+    "contraction principle",
+    "contraction mapping theorem",
+    "method of successive approximations",
+    "Banach-Caccioppoli fixed point theorem"
+  ]
+}

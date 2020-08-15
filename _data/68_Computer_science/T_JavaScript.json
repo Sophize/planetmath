@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "JScript",
+    "ECMAScript"
+  ],
+  "definition": "[*JavaScript*]{} (called [*JScript*]{} by Microsoft and [*ECMAScript*]{}\nby the WC3) is an interpreted scripting language primarily used on the\nInternet to perform basic input validation and to implement basic Web\ncalculators. Other than the fact that Netscape Corporation licensed the\nuse of the word \u201cJava\u201d from Sun, that JavaScript uses Java\u2019s -like\nsyntax and that JavaScript is deployed on the Internet, there is nothing\nin common between Java and JavaScript. The major modern Web browsers\nimplement JavaScript: Netscape\u2019s Navigator, of course, and also\nMicrosoft\u2019s Internet Explorer, Mozilla\u2019s Mozilla and FireFox, Opera,\netc.\n\nThe following JavaScript program takes two integers as inputs and\noutputs their greatest common divisor using Euclid\u2019s algorithm. This is\nintended for Microsoft Internet Explorer 4.0 or higher; the code is\nplaced between script tags in the head element of the HTML page, the\nbody element should have a form element with appropriately labelled\ninputs, a span of text where the script will write the results to, and a\nbutton that calls the `calcGCD()` function.\n\n    function calcGCD(a, b) {\n      wA = a;\n      wB = b;\n      while ( wB > 0 ) {\n        tempA = wA;\n        wA = wB\n        wB = tempA % wB;\n      }\n      return wA;\n    }\n\n    function goGCD() {\n      x = parseInt( document.forms[0].Xval.value );  \n      y = parseInt( document.forms[0].Yval.value );\n      if ( isNaN( x ) || isNaN( y ) ) {\n        alert( \"Please enter integers.\" );\n      } else {\n        document.all.GCDResultLine.innerText = \"The greatest common divisor of \" + x + \" and \" + y + \" is \" + calcGCD(x, y);\n      } \n    }\n\n[2]{} A. Danesh [*Javascript in 10 Simple Steps or Less*]{}\nIndianapolis: Wiley (2004) D. Flannagan [*JavaScript Pocket\nReference*]{} New York: O\u2019Reilly (1998)\n\nExternal links\n--------------\n\nSince this voting demo is implemented in JavaScript rather than Java,\nthe source code may be inspected using the Web browser\u2019s View Source\ncommand. This is not the case of Diebold voting machines.\n\nUses trial division to factor input integers.",
+  "language": "INFORMAL",
+  "phrase": "Javascript",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JavaScript"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A poset is *pure* if it is finite and every maximal chain has the same\nlength. If [[*P*]{}]{} is a pure poset, we can create a rank function\n[[*r*]{}]{} on [[*P*]{}]{} by defining [[*r*]{}]{}([[*x*]{}]{}) to be\nthe length of a maximal chain bounded above by [[*x*]{}]{}. Every\ninterval of a pure poset is a graded poset, and every graded poset is\npure. Moreover, the closure of a pure poset, formed by adjoining an\nartificial minimum element and an artificial maximum element, is always\ngraded.\n\nThe face poset of a pure simplicial complex is pure as a poset.",
+  "language": "INFORMAL",
+  "phrase": "Pure Poset",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PurePoset"
+    }
+  ],
+  "indexable": true
+}

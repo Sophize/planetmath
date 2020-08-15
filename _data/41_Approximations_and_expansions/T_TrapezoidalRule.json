@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "trapezoid rule",
+    "trapezium rule"
+  ],
+  "definition": "The *trapezoidal rule* is a method for approximating a definite integral\nby evaluating the integrand at two points. The formal rule is given by\n$$\\int_{a}^{b}f(x)\\,dx\\;\\approx\\;\\frac{h}{2}\\left[f(a)+f(b)\\right]$$\nwhere $h=b-a$.\n\nThis rule comes from determining the area of a right trapezoid with of\nlengths $f(a)$ and $f(b)$ respectively and a of length $h$. When using a\ngraph to illustrate the trapezoidal rule, the height of the right\ntrapezoid is actually horizontal and the bases are vertical. This may be\nconfusing to someone who is seeing the trapezoidal rule for the first\ntime. An example is shown below.\n\n(-2,-1)(2,5) (-2,0)(2,0) (0,-0.5)(0,4) (2,4)(0,0)\n(-1,0)(-1,1)(1.5,2.25)(1.5,0) (2,-0.5)[$x$]{} (-0.4,4.3)[$y$]{}\n(-1,0.5)[$f(a)$]{} (1.5,1)[$f(b)$]{} (0.25,-0.3)[$h$]{} (-1,1)(1.5,2.25)\n(-2,0)[.]{}\n\nThe figure in red need not be a right trapezoid. If either $f(a)=0$ or\n$f(b)=0$, the figure will be a right triangle. If both $f(a)=0$ and\n$f(b)=0$, the figure will be a line segment. In any case, the same rule\nfor approximating the corresponding definite integral is used.\n\nThe trapezoidal rule is the first Newton-Cotes quadrature formula. It\nhas degree of precision 1. This means it is exact for polynomials of\nless than or equal to one. We can see this with a example.\n\nIf $f$ is Riemann integrable on $[a,b]$ with $|f''(x)| \\le M$ for all\n$x \\in [a,b]$, then\n$$\\left| \\int_a^b f(x) \\, dx - \\frac{h}{2}\\left[f(a)+f(b)\\right]\n\\right| \\le \\frac{M(b-a)^3}{12}.$$\n\nFollowing is an example of the trapezoidal rule.\n\nUsing the fundamental theorem of calculus shows\n$$\\int_{0}^{1}x\\,dx =\\frac{1}{2}.$$\n\nIn this case, the trapezoidal rule gives the exact value,\n$$\\int_{0}^{1}x\\,dx \\;\\approx\\;\\frac{1}{2}[f(0)+f(1)]=\\frac{1}{2}.$$\n\nIt is important to note that most calculus books give the wrong\ndefinition of the trapezoidal rule. Typically, they define it to be what\nis actually the composite trapezoidal rule, which uses the trapezoidal\nrule on a specified number of subintervals. Some examples of calculus\nbooks that define the trapezoidal rule to be what is actually the\ncomposite trapezoidal rule are:\n\n-   Stewart, James. *Calculus.* Pacific Groves, : International Thomson\n    Publishing Co., 1995.\n\n-   Bittinger, Marvin L. *Calculus.* Reading, : Addison-Wesley\n    Publishing Co., 1989.\n\nAlso note the trapezoidal rule can be derived by integrating a linear\ninterpolation or by using the method of undetermined coefficients. The\nlatter is probably a bit easier.",
+  "language": "INFORMAL",
+  "phrase": "Trapezoidal Rule",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TrapezoidalRule"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $h \\colon {\\mathbb R}\\to {\\mathbb C}$ be a bounded measurable\nfunction. If $h$ satisfies the *averaging condition* $$\\lim_{c \\to\n+\\infty} \\frac{1}{c} \\int_0^c h(t) \\,d t=0$$ then $$\\lim_{\\omega \\to\n\\infty} \\int_a^b f(t)h(\\omega t) \\,d t=0$$ with $ -\\infty <\n\\! a < b < \\! +\\infty$ for any $f \\in L^1[a,b]$\n\nObviously we only need to prove the lemma when both $h$ and $f$ are real\nand $0=a<b<\\infty$.\n\nLet $\\mathbf 1_{[a,b]}$ be the indicator function of the interval\n$[a,b]$. Then\n$$\\lim_{\\omega \\to \\infty} \\int_0^b \\mathbf 1_{[a,b]} h(\\omega t) \\,d t= \\lim_{\\omega \\to \\infty} \\frac{1}{\\omega} \\int_0^{\\omega b} h(t) \\,d\nt=0$$ by the hypothesis. Hence, the lemma is valid for indicators,\ntherefore for step functions.\n\nNow let $C$ be a bound for $h$ and choose $\\epsilon$ $>0$. As step\nfunctions are dense in $L^1$, we can find, for any $f\\in\nL^1[a,b]$, a step function $g$ such that\n${\\left\\Vertf-g\\right\\Vert}_1<\\epsilon$, therefore\n\n$$\\begin{aligned}\n\\lim_{\\omega \\to \\infty} {\\left\\vert\\int_a^b f(t)h(\\omega t)\\,d t\\right\\vert}  &\n\\leqslant & \\lim_{\\omega \\to \\infty} \\int_a^b {\\left\\vertf(t)-g(t)\\right\\vert}\n{\\left\\verth(\\omega t)\\right\\vert} \\,d t + \\lim_{\\omega \\to \\infty} {\\left\\vert\\int_a^b\ng(t)h(\\omega t) \\,d t\\right\\vert}\n\\\\ & \\leqslant & \\lim_{\\omega \\to \\infty} C{\\left\\Vertf-g\\right\\Vert}_1 < C\\epsilon\\end{aligned}$$\n\nbecause $\\lim_{\\omega \\to \\infty} {\\left\\vert\\int_a^b\ng(t)h(\\omega t) \\,d t\\right\\vert}=0$ by what we have proved for step\nfunctions. Since $\\epsilon$ is arbitrary, we are done.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedRiemannLebesgueLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "generalized Riemann-Lebesgue lemma"
+  ]
+}

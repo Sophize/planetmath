@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Niven number"
+  ],
+  "definition": "Consider the integer 1729. Adding up its digits, $$1 + 7 + 2 + 9 = 19$$\nand $${{1729} \\over {19}} = 91.$$\n\nWhen an integer is divisible by the sum of its digits, it\u2019s called a\n[*Harshad number*]{} or [*Niven number*]{}. That is, given m is the\nnumber of digits of n and d is an integer of n,\n\n$${\\sum_{i = 1}^m d_i}|n$$\n\nAll 1-digit numbers and the base number itself are Harshad numbers. 1,\n2, 4 and 6 are always Harshad numbers regardless of the base.\n\nIt is possible for an integer to be divisible by its digital root and\nyet not be a Harshad number because it doesn\u2019t divide its first digit\nsum evenly (for example, 38 in base 10 has digital root 2 but is not\ndivisible by 3 + 8 = 11). The reverse is also possible (for example, 195\nis divisible by 1 + 9 + 5 = 15, but not by its digital root 4).",
+  "language": "INFORMAL",
+  "phrase": "Harshad Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HarshadNumber"
+    }
+  ],
+  "indexable": true
+}

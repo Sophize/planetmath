@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "ring of polynomial functions"
+  ],
+  "definition": "**Definition.** Let $R$ be a commutative ring. A function $f: R\\to R$ is\ncalled a [*polynomial function of $R$*]{}, if there are some elements\n$a_0,\\,a_1,\\,\\ldots,\\,a_m$ of $R$ such that\n$$f(x) \\;=\\; a_0\\!+\\!a_1x\\!+\\cdots+\\!a_mx^m \\,\\,\\,\\, \\forall x\\in R.$$\n\n**Remark.** The coefficients $a_i$ in a polynomial function need not be\nunique; e.g. if $R = \\{0,\\,1\\}$ is the ring (and field) of two elements,\nthen the polynomials $X$ and $X^2$ both may be used for the same\npolynomial function. However, if we stipulate that $R$ is an infinite\nintegral domain, the coefficients are guaranteed to be unique.\n\nThe set of all polynomial functions of $R$, being a subset of the set\n$R^R$ of all functions from $R$ to $R$, is here denoted by $R/^R$.\n\nIf $R$ is a commutative ring, then the set $R/^R$ of all polynomial\nfunctions of $R$, equipped with the operations $$\\begin{aligned}\n(f\\!+\\!g)(x) \\;:=\\; f(x)\\!+\\!g(x), \\quad (f\\!\\cdot\\!g)(x) \\;:=\\; f(x)g(x) \\quad \\forall x\\in R,\\end{aligned}$$\nis a commutative ring.\n\n[*Proof.*]{} It\u2019s straightforward to show that the function set $R^R$\nforms a commutative ring when equipped with the operations \u201c$+$\u201d and\n\u201c$\\cdot$\u201d defined as (1). We show now that $R/^R$ forms a subring of\n$R^R$. Let $f$ and $g$ be any two polynomial functions given by\n$$f(x) \\;=\\; a_0\\!+\\!a_1x\\!+\\cdots+\\!a_mx^m, \\,\\,\\, g(x) \\;=\\; b_0\\!+\\!b_1x\\!+\\cdots+\\!b_nx^n.$$\nThen we can give $f\\!+\\!g$ by\n$$(f\\!+\\!g)(x) \\;=\\; \\sum_{i=0}^k(a_i\\!+\\!b_i)x^i$$ where\n$k = \\max\\{m,\\,n\\}$ and $a_i = 0$ (resp. $b_i = 0$) for $i > m$ (resp.\n$i > n$). This means that $f\\!+\\!g \\in R/^R$. Secondly, the equation\n$$(f\\!\\cdot\\!g)(x) \\;=\\; a_0b_0+(a_0b_1\\!+\\!a_1b_0)x+(a_0b_2\\!+\\!a_1b_1\\!+\\!a_2b_0)x^2\\!+\\cdots+\\!a_mb_nx^{m+n}$$\nsignifies that $f\\!\\cdot\\!g \\in R/^R$. Because also the function $-\\!f$\ngiven by $$(-\\!f)(x) \\;=\\; -\\!a_0\\!-\\!a_1x\\!-\\cdots-\\!a_mx^m$$ and\nsatisfying $-\\!f\\!+\\!f = 0:x\\mapsto 0$ belongs to $R/^R$, the subset\n$R/^R$ is a subring of $R^R$.",
+  "language": "INFORMAL",
+  "phrase": "Polynomial Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolynomialFunction"
+    }
+  ],
+  "indexable": true
+}

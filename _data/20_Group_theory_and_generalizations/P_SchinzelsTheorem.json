@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ and $B$ be integers such that $(A,B)=1$ with $AB\\neq \\pm 1$. A\nprime $p$ is called a *primitive divisor* of $A^n-B^n$ if $p$ divides\n$A^n-B^n$ but $A^m-B^m$ is not divisible by $p$ for all positive\nintegers $m$ that are less than $n$.\n\nOr, more generally:\n\nLet $A$ and $B$ be algebraic integers in a number field $K$ such that\n$(A,B)=1$ and $A/B$ is not a root of unity. A prime ideal $\\wp$ of $K$\nis called a *primitive divisor* of $A^n-B^n$ if $\\wp|A^n-B^n$ but\n$\\wp \\nmid A^m-B^m$ for all positive integers $m$ that are less than\n$n$.\n\nThe following theorem is due to A. Schinzel (see [@sch]):\n\nLet $A$ and $B$ be as before. There is an effectively computable\nconstant $n_0$, depending only on the degree of the algebraic number\n$A/B$, such that $A^n-B^n$ has a primitive divisor for all $n>n_0$.\n\nBy putting $B=1$ we obtain the following corollary:\n\nLet $A\\neq 0,\\pm 1$ be an integer. There exists a number $n_0$ such that\n$A^n-1$ has a primitive divisor for all $n>n_0$. In particular, for all\nbut finitely many integers $n$, there is a prime $p$ such that the\nmultiplicative order of $A$ modulo $p$ is exactly $n$.\n\n[8]{} A. Schinzel, [*Primitive divisors of the expression $A^n-B^n$ in\nalgebraic number fields*]{}. Collection of articles dedicated to Helmut\nHasse on his seventy-fifth birthday, II. J. Reine Angew. Math. 268/269\n(1974), 27\u201333.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchinzelsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Schinzel's theorem"
+  ]
+}

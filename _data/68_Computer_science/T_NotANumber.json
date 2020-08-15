@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In a computer, [*not a number*]{} (usually abbreviated [*NaN*]{})\nindicates that an arithmetical operation has resulted in a value that is\nnot a number understood (or representable) by the computer. Division by\nzero is one frequent cause of a result being NaN. Asking for the square\nroot of a negative number is another operation that can result in NaN\n(unless the computer has been programmed to recognize imaginary\nnumbers).\n\nNaN is not a specific value that can be tested for with the usual\ncomparison operators. The programmer is advised to test for NaN with a\nspecial function provided by the programming language (such as\n`isNaN(x)` in JavaScript.\n\nGenerally, computer algebra systems do not report NaN results even if\nthey do display an error message for a given operation.\n\n[1]{} David Flanagan, [*JavaScript the Definitive Guide: The Definitive\nGuide*]{}. New York: O\u2019Reilly (2006): 24",
+  "language": "INFORMAL",
+  "phrase": "Not A Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NotANumber"
+    }
+  ],
+  "indexable": true
+}

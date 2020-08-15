@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathbb{C}\\cup\\{\\infty\\}$ denote the Riemann sphere, and let\n$U\\subset \\mathbb{C}$ be open. Let\n$f\\colon U \\to \\mathbb{C}\\cup\\{\\infty\\}$ be a function. We say that $z$\nis an *isolated singularity* of $f$ if there exists an open set\n$V\\subset U$ containing $z$ and such that $f$ is analytic on\n$V\\!\\smallsetminus\\!\\{z\\}$.\n\nIn other , if we take the set $S$ of points in $U$ where $f$ is *not*\nanalytic, the isolated singularities are exactly the isolated points of\n$S$ in the usual topological sense.\\\nThere are three kinds of isolated singularities:\n\n-   removable singularities\n    $\\displaystyle \\left( \\text{e.g.\\;\\;} z = 0 \\text{\\; for the function\\,} \\frac{\\sin{z}}{z} \\right)$\n\n-   poles\n    $\\displaystyle \\left( \\text{e.g.\\;\\;} z = 0 \\text{\\; for the function\\,} \\frac{1}{z^2} \\right)$\n\n-   essential singularities\n    $\\displaystyle \\left( \\text{e.g.\\;\\;} z = 0 \\text{\\; for the function\\,} \\exp{\\frac{1}{z}} \\right)$",
+  "language": "INFORMAL",
+  "phrase": "Isolated Singularity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IsolatedSingularity"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(X,\\mathfrak{B},\\mu)$ be a measure space and $A \\in \\mathfrak{B}$.\n\nLet $s \\colon X \\to [0,\\infty]$ be a simple function. Then\n$\\displaystyle \\int_A s \\, d\\mu$ is defined as\n$\\displaystyle \\int_A s \\, d\\mu := \\int_X \\chi_As \\, d\\mu$, where\n$\\chi_A$ denotes the characteristic function of $A$.\n\nLet $f \\colon X \\to [0,\\infty]$ be a measurable function and\\\n$S=\\{s \\colon X \\to [0,\\infty]~~|~~s \\text{ is a simple function and } s \\le f\\}$.\nThen $\\displaystyle \\int_A f \\, d\\mu$ is defined as\n$\\displaystyle \\int_A f \\, d\\mu := \\sup_{s \\in S} \\int_A s \\, d\\mu$.\n\nBy the properties of the Lebesgue integral of nonnegative measurable\nfunctions (property 3), we have that\n$\\displaystyle \\int_A f \\, d\\mu=\\int_X \\chi_A f \\, d\\mu$.\n\nLet $f \\colon X \\to [-\\infty, \\infty]$ be a measurable function such\nthat not both of $\\displaystyle \\int_A f^+ \\, d\\mu$ and\n$\\displaystyle \\int_A f^- \\, d\\mu$ are infinite. (Note that $f^+$ and\n$f^-$ are defined in the entry Lebesgue integral.) Then\n$\\displaystyle \\int_A f \\, d\\mu$ is defined as\n$\\displaystyle \\int_A f \\, d\\mu := \\int_A f^+ \\, d\\mu -\\int_A f^- \\, d\\mu$.\n\nBy the properties of the Lebesgue integral of Lebesgue integrable\nfunctions (property 3), we have that\n$\\displaystyle \\int_A f \\, d\\mu=\\int_X \\chi_A f \\, d\\mu$.",
+  "language": "INFORMAL",
+  "phrase": "Lebesgue Integral Over A Subset Of The Measure Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LebesgueIntegralOverASubsetOfTheMeasureSpace"
+    }
+  ],
+  "indexable": true
+}

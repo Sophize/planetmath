@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "linear independence"
+  ],
+  "definition": "Let $V$ be a vector space over a field $F$. We say that\n$v_1,\\ldots, v_k\\in V$ are *linearly dependent* if there exist scalars\n$\\lambda_1,\\ldots, \\lambda_k\\in F$, not all zero, such that\n$$\\lambda_1 v_1+  \\cdots  +\\lambda_k v_k = 0 .$$ If no such scalars\nexist, then we say that the vectors are *linearly independent*. More\ngenerally, we say that a (possibly infinite) subset $S\\subset V$ is\nlinearly independent if all finite subsets of $S$ are linearly\nindependent.\n\nIn the case of two vectors, linear dependence means that one of the\nvectors is a scalar multiple of the other. As an alternate\ncharacterization of dependence, we also have the following.\n\nLet $S\\subset V$ be a subset of a vector space. Then, $S$ is linearly\ndependent if and only if there exists a $v\\in S$ such that $v$ can be\nexpressed as a linear combination of the vectors in the set\n$S\\backslash \\{v\\}$ ().\n\n**Remark**. Linear independence can be defined more generally for\nmodules over rings: if $M$ is a (left) module over a ring $R$. A subset\n$S$ of $M$ is linearly independent if whenever $r_1m_1+\\cdots +r_nm_n=0$\nfor $r_i\\in R$ and $m_i\\in M$, then $r_1=\\cdots =r_n=0$.",
+  "language": "INFORMAL",
+  "phrase": "Linearly Independent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearlyIndependent"
+    }
+  ],
+  "indexable": true
+}

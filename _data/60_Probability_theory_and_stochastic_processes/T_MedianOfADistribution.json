@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "second quartile"
+  ],
+  "definition": "Given a probability distribution (density) function $f_X(x)$ on $\\Omega$\nover a random variable $X$, with the associated probability measure $P$,\na *median* $m$ of $f_X$ is a real number such that\n\n1.  $P(X\\leq m)\\geq \\frac{1}{2},$\n\n2.  $P(X\\geq m)\\geq \\frac{1}{2}.$\n\nThe median is also known as the $50^{\\text{th}}$-percentile or the\nsecond quartile.\n\n**Examples:**\n\n-   An example from a discrete distribution. Let $\\Omega=\\mathbb{R}$.\n    Suppose the random variable $X$ has the following distribution:\n    $P(X=0)=0.99$ and $P(X=1000)=0.01$. Then we can easily see the\n    median is 0.\n\n-   Another example from a discrete distribution. Again, let\n    $\\Omega=\\mathbb{R}$. Suppose the random variable $X$ has\n    distribution $P(X=0)=0.5$ and $P(X=1000)=0.5$. Then we see that the\n    median is not unique. In fact, all real values in the interval\n    $[0,1000]$ are medians.\n\n-   In practice, however, the median may be calculated as follows: if\n    there are $N$ numeric data points, then by ordering the data values\n    (either non-decreasingly or non-increasingly),\n\n    1.  the $(\\frac{N+1}{2})$-th data point is the median if $N$ is odd,\n        and\n\n    2.  the midpoint of the $(N-1)$th and the $(N+1)$th data points is\n        the median if $N$ is even.\n\n-   The median of a normal distribution (with mean $\\mu$ and variance\n    $\\sigma^2$) is $\\mu$. In fact, for a normal distribution, mean =\n    median = mode.\n\n-   The median of a uniform distribution in the interval $[a,b]$ is\n    $(a+b)/2$.\n\n-   The median of a Cauchy distribution with location parameter t and\n    scale parameter s is the location parameter.\n\n-   The median of an exponential distribution with location parameter\n    $\\mu$ and scale parameter $\\beta$ is the scale parameter times the\n    natural log of 2, $\\beta\\operatorname{ln}2$.\n\n-   The median of a Weibull distribution with shape parameter $\\gamma$,\n    location parameter $\\mu$, and scale parameter $\\alpha$ is\n    $\\alpha(\\operatorname{ln}2)^{1/\\gamma}+\\mu$.",
+  "language": "INFORMAL",
+  "phrase": "Median Of A Distribution",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MedianOfADistribution"
+    }
+  ],
+  "indexable": true
+}

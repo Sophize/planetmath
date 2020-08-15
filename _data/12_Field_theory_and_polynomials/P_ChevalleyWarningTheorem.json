@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathbb{F}_q$ be the finite field of $q$ elements with\ncharacteristic $p$. Let $f_i(x_1,\\ldots, x_n)$, $i=1,2,\\ldots, r$, be\npolynomial of $n$ variables over $\\mathbb{F}_q$. If $n >\n\\sum_{i=1}^r \\deg(f_i)$, then the number of solutions over\n$\\mathbb{F}_q$ to the system of equations $$\\begin{aligned}\nf_1(x_1,x_2,\\ldots, x_n) &=0\\\\\nf_2(x_1,x_2,\\ldots, x_n) &=0\\\\\n\\vdots & \\\\\nf_r(x_1,x_2,\\ldots, x_n) &=0\\end{aligned}$$ is divisible by $p$. In\nparticular, if none of the polynomials $f_1$, $f_2,\\ldots, f_r$ have\nconstant term, then there are at least $p$ solutions.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChevalleyWarningTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Chevalley-Warning Theorem"
+  ]
+}

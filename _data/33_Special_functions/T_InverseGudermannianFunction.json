@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "inverse Gudermannian"
+  ],
+  "definition": "Since the real Gudermannian function gd is strictly increasing and forms\na bijection from $\\mathbb{R}$ onto the open interval\n$(-\\frac{\\pi}{2},\\,\\frac{\\pi}{2})$, it has an inverse function\n$$\\mbox{gd}^{-1}\\!:\\; (-\\frac{\\pi}{2},\\,\\frac{\\pi}{2})\\, \\to\\, \\mathbb{R}.$$\nThe function $\\mbox{gd}^{-1}$ is denoted also **arcgd**.\\\nIf $x = \\mbox{gd}\\,y$, which may be explicitly written e.g.\n$$x \\;=\\; \\arcsin(\\tanh{y}),$$ one can solve this for $y$, getting first\n$\\tanh{y} = \\sin{x}$ and then $$y \\;=\\; \\mbox{artanh}(\\sin{x})$$ (see\nthe area functions). Hence the *inverse Gudermannian* is expressed as\n$$\\begin{aligned}\n\\mbox{gd}^{-1}(x) \\;=\\; \\mbox{arcgd}\\,x \\;=\\; \\mbox{artanh}(\\sin{x})\\end{aligned}$$\nIt has other expressions, such as $$\\begin{aligned}\n\\mbox{gd}^{-1}(x) \\;=\\; \\mbox{arsinh}(\\tan{x}) \\;=\\; \\frac{1}{2}\\ln\\frac{1+\\sin{x}}{1-\\sin{x}}\n\\;=\\; \\int_0^x\\!\\frac{dt}{\\cos{t}}.\\end{aligned}$$ Thus its derivative\nis $$\\begin{aligned}\n\\frac{d}{dx}\\mbox{gd}^{-1}(x) \\;=\\; \\frac{1}{\\cos{x}}.\\end{aligned}$$\nCf. the formulae (1)\u2013(3) with the corresponding ones of gd.",
+  "language": "INFORMAL",
+  "phrase": "Inverse Gudermannian Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InverseGudermannianFunction"
+    }
+  ],
+  "indexable": true
+}

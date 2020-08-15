@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $\\lambda=(\\lambda_1,\\lambda_2,\\ldots,\\lambda_k)$ is an integer\npartition, then each $\\lambda_j$ is a *part* of $\\lambda$. The *length*\nof $\\lambda$ is defined as the number of its parts. If $m_j$ is the\nnumber of parts equal to $j$, then the partition $\\lambda$ is also\nwritten as $\\lambda = (1^{m_1},2^{m_2},3^{m_3},\\ldots)$.\n\nFor example, if $\\lambda=(5,4,4,4,3,3,3,3,3,1,1)$ then we also write\n$\\lambda=(1^2,3^5,4^3,5^1)$.",
+  "language": "INFORMAL",
+  "phrase": "Part Of  A Partition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartOfAPartition"
+    }
+  ],
+  "indexable": true
+}

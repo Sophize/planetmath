@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f: |K| \\to |L|$ be continuous function, where $|K|$ and $|L|$ are\npolyhedra having triangulations $K$ and $L$, respectively.\n\nThen there is a barycentric subdivision $K^{(s)}$ of $K$ and a\ncontinuous function $g:|K| \\to |L|$ such that $g$ is a simplicial map\nfrom $K^{(s)}$ to $|L|$ and $g$ is homotopic to $f$.\n\nThe theorem is due to J.W. Alexander.\n\n[99]{} J.W. Alexander , *Combinatorial analysis situs*, Trans. Amer.\nMath. Soc. **28**, 301-329, (1926)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimplicialApproximationTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "simplicial approximation theorem"
+  ]
+}

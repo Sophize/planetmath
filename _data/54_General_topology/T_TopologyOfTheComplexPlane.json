@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The usual topology for the complex plane ${\\mathbb{C}}$ is the topology\ninduced by the metric $$d(x,\\,y) := |x\\!-\\!y|$$ for\n$x,\\,y \\in {\\mathbb{C}}$. Here, $|\\cdot|$ is the .\n\nIf we identify ${\\mathbb{R}}^2$ and ${\\mathbb{C}}$, it is clear that the\nabove topology coincides with topology induced by the Euclidean metric\non ${\\mathbb{R}}^2$.\n\nSome basic topological concepts for ${\\mathbb{C}}$:\n\n1.  The open balls\n    $$B_r(\\zeta) \\;=\\; \\{z\\in{\\mathbb{C}}\\,\\vdots\\; |z\\!-\\!\\zeta| < r\\}$$\n    are often called *open disks*.\n\n2.  A point $\\zeta$ is an *accumulation point* of a subset $A$ of\n    ${\\mathbb{C}}$, if any open disk $B_r(\\zeta)$ contains at least one\n    point of $A$ distinct from $\\zeta$.\n\n3.  A point $\\zeta$ is an *interior point* of the set $A$, if there\n    exists an open disk $B_r(\\zeta)$ which is contained in $A$.\n\n4.  A set $A$ is *open*, if each of its points is an interior point of\n    $A$.\n\n5.  A set $A$ is *closed*, if all its accumulation points belong to $A$.\n\n6.  A set $A$ is *bounded*, if there is an open disk $B_r(\\zeta)$\n    containing $A$.\n\n7.  A set $A$ is *compact*, if it is closed and bounded.",
+  "language": "INFORMAL",
+  "phrase": "Topology Of The Complex Plane",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TopologyOfTheComplexPlane"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Green\u2019s theorem provides a connection between path integrals over a\nwell-connected region in the plane and the area of the region bounded in\nthe plane. Given a closed path $P$ bounding a region $R$ with area $A$,\nand a vector-valued function $\\vec{F}=(f(x,y),g(x,y))$ over the plane,\n$$\\oint_P\\vec{F}\\cdot d\\vec{x} = \\int\\!\\!\\!\\int_{\\!\\!R} [g_1(x,y) - f_2(x,y)] dA$$\nwhere $a_n$ is the derivative of $a$ with respect to the $n$th variable.\n\n![image](greensthm){width=\"2.694444in\"}\n\n#### Corollary:\n\nThe closed path integral over a gradient of a function with continuous\npartial derivatives is always zero. Thus, gradients are conservative\nvector fields. The smooth function is called the potential of the vector\nfield.\n\n#### Proof:\n\nThe corollary states that\n\n$$\\oint_P\\vec{\\nabla}_h\\cdot d\\vec{x} = 0$$\n\nWe can easily prove this using Green\u2019s theorem.\n\n$$\\oint_P\\vec{\\nabla}_h\\cdot d\\vec{x} = \\int\\!\\!\\!\\int_{\\!\\!R} [g_1(x,y) - f_2(x,y)] dA$$\n\nBut since this is a gradient...\n\n$$\\int\\!\\!\\!\\int_{\\!\\!R} [g_1(x,y) - f_2(x,y)] dA = \\int\\!\\!\\!\\int_{\\!\\!R} [h_{21}(x,y) - h_{12}(x,y)] dA$$\n\nSince $h_{12}=h_{21}$ for any function with continuous partials, the\ncorollary is proven.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GreensTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Green's theorem"
+  ]
+}

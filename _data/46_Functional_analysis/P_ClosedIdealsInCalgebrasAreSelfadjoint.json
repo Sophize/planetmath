@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Every $\\mathcal{I}$ of a $\\mathcal{A}$ is , i.e.\n\nif $x \\in \\mathcal{I}$ then $x^* \\in \\mathcal{I}$.\n\n[**Proof :**]{} Let $\\mathcal{I}^* := \\{a^* : a \\in \\mathcal{I}\\}$.\n\nSince $\\mathcal{I}$ is closed and the involution mapping is continuous,\nit follows that $\\mathcal{I}^*$ is also closed.\n\nWe claim that $\\mathcal{I}^*$ is also a of $\\mathcal{A}$. To see this\nlet $a,b \\in \\mathcal{I}$, $x \\in \\mathcal{A}$ and\n$\\lambda \\in \\mathbb{C}$. Then\n\n-   $a^* + \\lambda b^* = (a+\\overline{\\lambda}b)^* \\in \\mathcal{I}^*$\n    since $a + \\overline{\\lambda} b \\in \\mathcal{I}$\n\n-   $xa^* =(ax^*)^* \\in \\mathcal{I}^*$ since $ax^* \\in \\mathcal{I}$.\n\n-   $a^*x=(x^*a)^* \\in \\mathcal{I}^*$ since $x^*a \\in \\mathcal{I}$\n\nLet $\\mathcal{B} := \\mathcal{I} \\cap \\mathcal{I}^*$.\n\n$\\mathcal{B}$ is a $C^*$-subalgebra of $\\mathcal{A}$ (it is a\nnorm-closed, involution-closed, subalgebra of $\\mathcal{A}$).\n\nIt is known that every $C^*$-algebra has an approximate identity\nconsisting of positive elements with norm less than $1$ (see this ).\n\nLet $(e_{\\lambda})_{\\lambda \\in \\Lambda}$ be an approximate identity for\n$\\mathcal{B}$ with the above :\n\n1.  each $e_{\\lambda}$ is positive (hence self-adjoint) and\n\n2.  $\\|e_{\\lambda}\\| \\leq 1\\;\\;\\;\\forall_{\\lambda \\in \\Lambda}$\n\nWe now prove $\\mathcal{I}$ is self-adjoint:\n\nLet $a \\in \\mathcal{I}$. We have that $$\\begin{aligned}\n\\|a^*-a^*e_{\\lambda}\\|^2 & = & \\|(a^*-a^*e_{\\lambda})^*\\cdot(a^*-a^*e_{\\lambda})\\| \\\\\n& = & \\|(a- e_{\\lambda}a)\\cdot(a^*- a^*e_{\\lambda})\\| \\\\\n& = & \\|(aa^*-aa^*e_{\\lambda}) -e_{\\lambda}(aa^*-aa^*e_{\\lambda})\\| \\\\\n& \\leq & \\|aa^*-aa^*e_{\\lambda}\\| + \\|e_{\\lambda}\\|\\cdot \\|aa^*-aa^*e_{\\lambda}\\| \\\\\n& \\leq & \\|aa^*-aa^*e_{\\lambda}\\| + \\|aa^*-aa^*e_{\\lambda}\\| \\\\\n& = & 2 \\|aa^*-aa^*e_{\\lambda}\\|\\end{aligned}$$\n\nTaking limits in both we obtain\n$$\\lim_{\\lambda}\\|a^*-a^*e_{\\lambda}\\|^2 \\leq \\lim_{\\lambda}\\;2 \\|aa^*-aa^*e_{\\lambda}\\| = 0$$\nsince $aa^* \\in \\mathcal{I}\\cap\\mathcal{I}^*=\\mathcal{B}$ and\n$(e_{\\lambda})_{\\lambda \\in\\Lambda}$ is an approximate identity for\n$\\mathcal{B}$.\n\nAs $e_{\\lambda} \\in \\mathcal{I}$ we see that\n$a^*e_{\\lambda} \\in \\mathcal{I}$.\n\nWe conclude from the limit above that $a^*$ is in the closure of\n$\\mathcal{I}$. Therefore $a^*\\in \\mathcal{I}$.\n\nHence, $\\mathcal{I}$ is self-adjoint. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosedIdealsInCalgebrasAreSelfadjoint"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "closed ideals in $C^*$-algebras are self-adjoint"
+  ]
+}

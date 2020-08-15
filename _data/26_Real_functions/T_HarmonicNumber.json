@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *harmonic number of order $n$ of $\\theta$* is defined as\n\n$$H_{\\theta}(n) = \\sum_{i=1}^n \\frac{1}{i^{\\theta}}$$\n\nNote that $n$ may be equal to $\\infty$, provided $\\theta > 1$.\n\nIf $\\theta \\le 1$, while $n=\\infty$, the harmonic series does not\nconverge and hence the harmonic number does not exist.\n\nIf $\\theta = 1$, we may just write $H_{\\theta}(n)$ as $H_n$ (this is a\ncommon notation).\n\n****\n\n-   If $\\Re(\\theta) > 1$ and $n=\\infty$ then the sum is the Riemann zeta\n    function.\n\n-   If $\\theta=1$, then we get what is known simply as\u201cthe harmonic\n    number\u201d, and it has many important properties. For example, it has\n    asymptotic expansion $H_n=\\ln n+\\gamma+\\frac{1}{2m}+\\dotsc$ where\n    $\\gamma$ is Euler\u2019s constant.\n\n-   It is possible[^1] to define harmonic numbers for non-integral $n$.\n    This is done by means of the series\n    $H_n(z)=\\sum_{n\\geq 1}(n^{-z}-(n+x)^{-z})$.\n\n[^1]: See \u201cThe Art of computer programming\u201d vol. 2 by D. Knuth",
+  "language": "INFORMAL",
+  "phrase": "Harmonic Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HarmonicNumber"
+    }
+  ],
+  "indexable": true
+}

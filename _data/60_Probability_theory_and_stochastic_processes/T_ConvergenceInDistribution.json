@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sequence of distribution functions $F_1,F_2,\\dots$ converges *weakly*\nto a distribution function $F$ if $F_n(t)\\rightarrow F(t)$ for each\npoint $t$ at which $F$ is continuous.\n\nIf the random variables $X,X_1,X_2,\\dots$ have associated distribution\nfunctions $F,F_1,F_2,\\dots$, respectively, then we say that $X_n$\nconverges *in distribution* to $X$, and denote this by\n$X_n\\xrightarrow[]{D} X$.\n\nThis definition holds for joint distribution functions and random\nvectors as well.\n\nThis is probably the weakest of convergence of random variables. Some\nresults involving this of convergence are the central limit theorems,\nHelly-Bray theorem, Paul L\u00e9vy continuity theorem, Cram\u00e9r-Wold theorem\nand Scheff\u00e9\u2019s theorem.",
+  "language": "INFORMAL",
+  "phrase": "Convergence In Distribution",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvergenceInDistribution"
+    }
+  ],
+  "indexable": true
+}

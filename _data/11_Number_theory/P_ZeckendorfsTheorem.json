@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Theorem. Every positive integer can be represented as a sum of distinct\nnon-consecutive Fibonacci numbers in a unique way.\n\nThis is [*Zeckendorf\u2019s theorem*]{}, first formulated by Edouard\nZeckendorf.\n\nFor our purposes here, define the Fibonacci sequence thus: $F_0 = 1$,\n$F_1 = 1$ and $F_m = F_{m - 2} + F_{m - 1}$ for all $m > 0$. 1 and 1 are\nnot distinct even though the first is $F_0$ and the latter is $F_1$. We\nwill consider two Fibonacci numbers $F_i$ and $F_j$ consecutive if their\nindexes $i$ and $j$ are consecutive integers, e.g., $j = i + 1$.\n\nA consequence of the theorem is that for every positive integer $n$\nthere is a unique ordered tuplet $Z$ consisting of $k$ elements, all 0s\nor 1s, such that $$\\sum_{i = 1}^k Z_iF_i = n,$$ where $Z_i$ is the $i$th\nelement in $Z$. This ordered tuplet $Z$ is the [*Zeckendorf\nrepresentation*]{} of $n$, or we might even say the [*Fibonacci base*]{}\nrepresentation of $n$ (or the [*Fibonacci coding*]{} of $n$).\n\nSo for example, 53 = 34 + 13 + 5 + 1, that is, $F_8 + F_6 + F_4 + F_1$.\nFurthermore, $Z = (1, 0, 1, 0, 1, 0, 0, 1)$. We list the constituent\nelements in descending order from $Z_k$ to $Z_1$ to facilitate\nreinterpretation as a binary integer, 10101001 (or 169) in this example.\nTaking the Zeckendorf representations of integers in order and\nreinterpreting in binary as $$\\sum_{i = 1}^k Z_i2^{i - 1}$$ gives the\nsequence 1, 2, 4, 5, 8, 9, 10, 16, 17, 18, 20, 21, 32, 33, 34, ...\n(A003714 in Sloane\u2019s OEIS). It can be observed that these numbers have\nno consecutive 1s in their binary representations.\n\n[6]{} J. Tatersall, [*Elementary number theory in nine chapters*]{}\nCambridge: Cambridge University Press (2005): 44 J.-P. Allouche, J.\nShallit and G. Skordev, \u201cSelf-generating sets, integers with missing\nblocks and substitutions\" [*Discrete Math.*]{}, 292 (2005): 1 - 15",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZeckendorfsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Zeckendorf's theorem",
+    "Zeckendorff's theorem"
+  ]
+}

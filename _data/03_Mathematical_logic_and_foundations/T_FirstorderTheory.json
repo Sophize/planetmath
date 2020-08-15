@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "first order theory"
+  ],
+  "definition": "In what follows, references to sentences and sets of sentences are all\nrelative to some fixed first-order language $L$.\\\n**Definition.** A **theory** $T$ is a *deductively closed* set of\nsentences in $L$; that is, a set $T$ such that for each sentence\n$\\varphi$, $T \\vdash \\varphi$ only if $\\varphi \\in\nT$.\\\n**Remark**. Some authors do not require that a theory be deductively\nclosed. Therefore, a theory is simply a set of sentences. This is not a\ncause for alarm, since every theory $T$ under this definition can be\n\u201cextended\u201d to a deductively closed theory\n$T^{\\vdash}:=\\lbrace \\varphi \\in L\\mid T\\vdash \\varphi\\rbrace$.\nFurthermore, $T^{\\vdash}$ is unique (it is the smallest deductively\nclosed theory including $T$), and any structure $M$ is a model of $T$\niff it is a model of $T^{\\vdash}$.\n\n**Definition.** A theory $T$ is *consistent* if and only if for some\nsentence $\\varphi$, $T \\not \\vdash \\varphi$. Otherwise, $T$ is\n*inconsistent*. A sentence $\\varphi$ is *consistent with $T$* if and\nonly if the theory $T \\cup \\lbrace \\varphi \\rbrace$ is consistent.\\\n**Definition.** A theory $T$ is *complete* if and only if $T$ is\nconsistent and for each sentence $\\varphi$, either $\\varphi \\in T$ or\n$\\neg \\varphi \\in T$.\\\n**Lemma.** A consistent theory $T$ is complete if and only if $T$ is\nmaximally consistent. That is, $T$ is complete if and only if for each\nsentence $\\varphi$, $\\varphi \\not \\in T$ only if\n$T \\cup \\lbrace \\varphi \\rbrace$ is inconsistent. See for a proof.\\\n**Theorem. (Tarski)** Every consistent theory $T$ is included in a\ncomplete theory.\n\n**Proof :** Use Zorn\u2019s lemma on the set of consistent theories that\ninclude $T$.\\\n**Remark**. A theory $T$ is *axiomatizable* if and only if $T$ includes\na subset $\\Delta$ such that $\\Delta\n\\vdash T$ (every sentence of $T$ is a logical consequence of $\\Delta$),\nand *finitely axiomatizable* if $\\Delta$ can be made finite. Every\ncomplete axiomatizable theory $T$ is decidable; that is, there is an\nalgorithm that given a sentence $\\varphi$ as input yields $0$ if\n$\\varphi \\in T$, and $1$ otherwise.",
+  "language": "INFORMAL",
+  "phrase": "First-Order Theory",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FirstorderTheory"
+    }
+  ],
+  "indexable": true
+}

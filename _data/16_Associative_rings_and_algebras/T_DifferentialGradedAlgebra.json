@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "DG Algebra"
+  ],
+  "definition": "Let $R$ be a commutative ring. A *differential graded algebra* (or *DG\nalgebra*) over $R$ is a complex $(A,{\\ensuremath{\\partial}}^A)$ of\n$R$-modules with an element $1 \\in A$ (the unit) and a degree zero chain\nmap $$A \\otimes_R A \\to A$$ that is unitary: $a1 = a = 1a$, and is\nassociative: $a(bc) = (ab)c$. We also will stipulate that a DG algebra\nis graded commutative; that is for each $x,y \\in A$, we have\n$$xy = (-1)^{|x||y|}yx$$ where $|x|$ means the degree of $x$. Also, we\nassume that $A_i = 0$ for $i < 0$. Without these final assumptions, we\nwill say that $A$ is an *associative* DG algebra.\n\nThe fact that the product is a chain map of degree zero is best\ndescribed by the Leibniz Rule; that is, for each $x,y \\in A$, we have\n$${\\ensuremath{\\partial}}^A(xy) = {\\ensuremath{\\partial}}^A(x)y + (-1)^{|x|}x{\\ensuremath{\\partial}}^A(y).$$",
+  "language": "INFORMAL",
+  "phrase": "Differential Graded Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DifferentialGradedAlgebra"
+    }
+  ],
+  "indexable": true
+}

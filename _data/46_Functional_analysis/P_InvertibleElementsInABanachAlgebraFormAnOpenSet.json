@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $\\mathcal{A}$ be a Banach algebra with identity\nelement $e$ and $G(\\mathcal{A})$ be the set of invertible elements in\n$\\mathcal{A}$. Let $B_r(x)$ denote the open ball of radius $r$ centered\nin $x$.\n\nThen, for all $x \\in G(\\mathcal{A})$ we have that\n\n$$B_{\\|x^{-1}\\|^{-1}}(x) \\subseteq G(\\mathcal{A})$$\n\nand therefore $G(\\mathcal{A})$ is open in $\\mathcal{A}$.\n\n[**Proof :**]{} Let $x \\in G(\\mathcal{A})$ and\n$y \\in B_{\\|x^{-1}\\|^{-1}}(x)$. We have that\n\n$$\\|e-x^{-1}y\\| = \\|x^{-1}x-x^{-1}y\\| = \\|x^{-1}(x-y)\\| \\le \\|x^{-1}\\|\\|x-y\\| < \\|x^{-1}\\|\\|x^{-1}\\|^{-1} = 1$$\n\nSo, by the we conclude that $e-(e-x^{-1}y)$ is invertible, i.e.\n$x^{-1}y \\in G(\\mathcal{A})$.\n\nAs $G(\\mathcal{A})$ is a group we must have $y \\in G(\\mathcal{A})$.\n\nSo $B_{\\|x^{-1}\\|^{-1}}(x) \\subseteq G(\\mathcal{A})$ and the theorem\nfollows. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InvertibleElementsInABanachAlgebraFormAnOpenSet"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "invertible elements in a Banach algebra form an open set"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A real function $f$ has the limit $\\displaystyle\\lim_{x\\to x_0}f(x)$ if\nand only if for every positive number $\\varepsilon$ there exists another\npositive number $\\delta(\\varepsilon)$ satisfying\n$$|f(u)-f(v)| < \\varepsilon\\quad \\mbox{when}\\quad \n0 < |u-x_0| < \\delta(\\varepsilon)\\;\\;\\mbox{and}\\;\\;0 < |v-x_0| < \\delta(\\varepsilon).$$\n\n[7]{} . . : [*. I* ]{}. \u201c\u201d. (1970).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyConditionForLimitOfFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cauchy condition for limit of function",
+    "necessary and sufficient condition of limit"
+  ]
+}

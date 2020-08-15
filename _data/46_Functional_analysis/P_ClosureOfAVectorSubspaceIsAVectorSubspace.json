@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In a topological vector space the of a vector subspace is a vector\nsubspace.\n\nLet $X$ be the topological vector space over $\\mathbbmss{F}$ where\n$\\mathbbmss{F}$ is either ${\\mathbbmss{R}}$ or ${\\mathbbmss{C}}$, let\n$V$ be a vector subspace in $X$, and let $\\overline{V}$ be the closure\nof $V$. To prove that $\\overline{V}$ is a vector subspace of $X$, it\nsuffices to prove that $\\overline{V}$ is non-empty, and\n$$\\lambda x + \\mu y \\in \\overline{V}$$ whenever\n$\\lambda,\\mu \\in \\mathbbmss{F}$ and $x,y\\in \\overline{V}$.\n\nFirst, as $V\\subseteq \\overline{V}$, $\\overline{V}$ contains the zero\nvector, and $\\overline{V}$ is non-empty. Suppose $\\lambda,\\mu,x,y$ are\nas above. Then there are nets $(x_i)_{i \\in I}$, $(y_j)_{j \\in J}$ in\n$V$ converging to $x,y$, respectively. In a topological vector space,\naddition and multiplication are continuous operations. It follows that\nthere is a net $(\\lambda x_k + \\mu y_k)_{k \\in K}$ that converges to\n$\\lambda x + \\mu y$.\n\nWe have proven that $\\lambda x + \\mu y \\in \\overline{V}$, so\n$\\overline{V}$ is a vector subspace.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosureOfAVectorSubspaceIsAVectorSubspace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "closure of a vector subspace is a vector subspace"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Dirichlet character* modulo $m$ is a group homomorphism from\n$\\left(\\frac{\\mathbb{Z}}{m\\mathbb{Z}}\\right)^*$ to $\\mathbb{C^*}$.\nDirichlet characters are usually denoted by the Greek letter $\\chi$. The\nfunction $$\\gamma(n)=\\begin{cases}\n\\chi(n\\bmod m),&\\text{if }\\gcd(n,m)=1,\\\\\n0,&\\text{if }\\gcd(n,m)>1. \\end{cases}$$ is also referred to as a\nDirichlet character. The Dirichlet characters modulo $m$ form a group if\none defines $\\chi\\chi'$ to be the function which takes\n$a\\in\\left(\\frac{\\mathbb{Z}}{m\\mathbb{Z}}\\right)^*$ to\n$\\chi(a)\\chi'(a)$. It turns out that this resulting group is isomorphic\nto $\\left(\\frac{\\mathbb{Z}}{m\\mathbb{Z}}\\right)^*$. The trivial\ncharacter is given by $\\chi(a)=1$ for all\n$a\\in\\left(\\frac{\\mathbb{Z}}{m\\mathbb{Z}}\\right)^*$, and it acts as the\nidentity element for the group. A character $\\chi$ modulo $m$ is said to\nbe *induced* by a character $\\chi'$ modulo $m'$ if $m'\\mid m$ and\n$\\chi(n)=\\chi'(n\\bmod m')$. A character which is not induced by any\nother character is called *primitive*. If $\\chi$ is non-primitive, the\n$\\gcd$ of all such $m'$ is called the conductor of $\\chi$.\n\n*Examples:*\n\n-   Legendre symbol ${\\genfrac{(}{)}{}{}}{n}{p}$ is a Dirichlet\n    character modulo $p$ for any odd prime $p$. More generally, Jacobi\n    symbol ${\\genfrac{(}{)}{}{}}{n}{m}$ is a Dirichlet character modulo\n    $m$.\n\n-   The character modulo $4$ given by $\\chi(1)=1$ and $\\chi(3)=-1$ is a\n    primitive character modulo $4$. The only other character modulo $4$\n    is the trivial character.",
+  "language": "INFORMAL",
+  "phrase": "Dirichlet Character",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirichletCharacter"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a subring of a commutative ring $S$. If $f$ is a polynomial\nin $R[X]$, it defines an evaluation homomorphism from $S$ to $S$. Any\nelement $\\alpha$ of $S$ satisfying $$f(\\alpha) \\;=\\; 0$$ is a [*zero of\nthe polynomial*]{} $f$.\n\nIf $R$ also is equipped with a non-zero unity, then the polynomial $f$\nis in $S[X]$ divisible by the binomial $X\\!-\\!\\alpha$ (cf. the factor\ntheorem). In this case, if $f$ is divisible by $(X\\!-\\!\\alpha)^n$ but\nnot by $(X\\!-\\!\\alpha)^{n+1}$, then $\\alpha$ is a zero of the *order*\n$n$ of the polynomial $f$. If this order is 1, then $\\alpha$ is a\n*simple zero* of $f$.\n\nFor example, the real number $\\sqrt{2}$ ($\\in \\mathbb{R}$) is a zero of\nthe polynomial $X^2\\!-\\!2$ of the polynomial ring $\\mathbb{Q}[X]$.",
+  "language": "INFORMAL",
+  "phrase": "Zero Of Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZeroOfPolynomial"
+    }
+  ],
+  "indexable": true
+}

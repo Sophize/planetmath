@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $k$ be a positive integer and let $\\delta>0$. There exists a\npositive integer $N=N(k,\\delta)$ such that every subset of\n$\\{1,2,\\dotsc,N\\}$ of $\\delta N$ contains an arithmetic progression of\nlength $k$.\n\nThe case $k=3$ was first proved by Roth[@cite:roth_szem_three]. His\nmethod did not seem to extend to the case $k>3$. Using completely\ndifferent ideas Szemer\u00e9di proved the case $k=4$\n[@cite:szemeredi_szemth_four], and the general case of an arbitrary $k$\n[@cite:szemeredi_szemth_gen].\n\nThe best known bounds for $N(k,\\delta)$ are\n$$e^{c (\\log \\frac{1}{\\delta})^{k-1}}\\leq N(k,\\delta)\\leq 2^{2^{\\delta^{-2^{2^{k+9}}}}},$$\nwhere the lower bound is due to Behrend[@cite:behrend_szem_low] (for\n$k=3$) and Rankin[@cite:rankin_behrgen], and the upper bound is due to\nGowers[@cite:gowers_szem_new_gen].\n\nFor $k=3$ a better upper bound was obtained by Bourgain\n$$N(3,\\delta)\\leq c \\delta^{-2} e^{2^{56} \\delta^{-2}}.$$\n\n[1]{}\n\nFelix\u00a0A. Behrend. On the sets of integers which contain no three in\narithmetic progression. , 23:331\u2013332, 1946. .\n\nTimothy Gowers. A new proof of [S]{}zemer[\u00e9]{}di\u2019s theorem. ,\n11(3):465\u2013588, 2001. Preprint available at .\n\nRobert\u00a0A. Rankin. Sets of integers containing not more than a given\nnumber of terms in arithmetical progression. , 65:332\u2013344, 1962. .\n\nKlaus\u00a0Friedrich Roth. On certain sets of integers. , 28:245\u2013252, 1953. .\n\nEndre Szemer[\u00e9]{}di. On sets of integers containing no four elements in\narithmetic progression. , 20:89\u2013104, 1969. .\n\nEndre Szemer[\u00e9]{}di. On sets of integers containing no $k$ elements in\narithmetic progression. , 27:299\u2013345, 1975. .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SzemeredisTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Szemer\\'edi's theorem"
+  ]
+}

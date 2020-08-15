@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every bounded, infinite set of real numbers has a limit point.\n\nLet $S\\subset\\mathbb{R}$ be bounded and infinite. Since $S$ is bounded\nthere exist $a,b\\in\\mathbb{R}$, with $a<b$, such that $S\\subset[a,b]$.\nLet $b-a=l$ and denote the midpoint of the interval $[a,b]$ by $m$. Note\nthat at least one of $[a,m],[m,b]$ must contain infinitely many points\nof $S$; select an interval satisfying this condition, denoting its left\nendpoint by $a_1$ and its right endpoint by $b_1$. Continuing this\nprocess inductively, for each $n\\in\\mathbb{N}$, we have an interval\n$[a_n,b_n]$ satisfying\n$$[a_n,b_n]\\subset[a_{n-1},b_{n-1}]\\subset\\cdots\\subset[a_1,b_1]\\subset[a,b]\\text{,}$$\nwhere, for each $i\\in\\mathbb{N}$ such that $1\\leq i\\leq n$, the interval\n$[a_i,b_i]$ contains infinitely many points of $S$ and is of length\n$l/2^i$. Next we note that the set $A=\\{a_1,a_2\\ldots,a_n\\}$ is\ncontained in $[a,b]$, hence is bounded, and as such, has a supremum\nwhich we denote by $x$. Now, given $\\epsilon>0$, there exists\n$N\\in\\mathbb{N}$ such that $x-\\epsilon<a_N\\leq x$. Furthermore, for\nevery $m\\geq N$, we have $x-\\epsilon<a_N\\leq a_m\\leq x$. In particular,\nif we select $m\\geq N$ such that $l/2^m<\\epsilon$, then we have\n$$x-\\epsilon<a_n\\leq a_m\\leq x\\leq b_m=a_m+\\dfrac{l}{2^m}<x+\\epsilon\\text{.}$$\nSince $[a_m,b_m]\\subset(x-\\epsilon,x+\\epsilon)$ contains infinitely many\npoints of $S$, we may conclude that $x$ is a limit point of $S$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternateStatementOfBolzanoWeierstrassTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "alternate statement of Bolzano-Weierstrass theorem"
+  ]
+}

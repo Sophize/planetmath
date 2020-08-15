@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "automorphism group"
+  ],
+  "definition": "Let ${\\mathbb}{F}_q$ be the finite field with $q$ elements. The group\n${\\mathcal}{M}_{n,q}$ of $n\\times n$ monomial matrices with entries in\n${\\mathbb}{F}_q$ acts on the set ${\\mathfrak}{C}_{n,q}$ of linear codes\nover ${\\mathbb}{F}_q$ of block length $n$ via the *monomial transform*:\nlet $M=(M_{ij})_{i,j=1}^n\\in{\\mathcal}{M}_{n,q}$ and\n$C\\in{\\mathfrak}{C}_{n,q}$ and set\n$$C_M:=\\left\\{\\left({\\sum\\limits}_{i=1}^nM_{i1}c_i,\\ldots,{\\sum\\limits}_{i=1}^nM_{in}c_i\\right)\\mid(c_1,\\ldots,c_n)\\in C\\right\\}.$$\nThis definition looks quite complicated, but since $M$ is , it really\njust means that $C_M$ is the linear code obtained from $C$ by permuting\nits coordinates and then multiplying each coordinate with some nonzero\nelement from ${\\mathbb}{F}_q$.\n\nTwo linear codes lying in the same orbit with respect to this action are\nsaid to be *equivalent*. The isotropy subgroup of $C$ is its\n*automorphism group*, denoted by $\\operatorname{Aut}(C)$. The elements\nof $\\operatorname{Aut}(C)$ are the *automorphisms* of $C$.\n\nSometimes one is only interested in the action of the permutation\nmatrices on ${\\mathfrak}{C}_{n,q}$. The permutation matrices form a\nsubgroup of ${\\mathcal}{M}_{n,q}$ and the resulting subgroup of the\nautomorphism group $\\operatorname{Aut}(C)$ of a linear code\n$C\\in{\\mathfrak}{C}_{n,q}$ is called the *permutation group*. In the\ncase of binary codes, this doesn\u2019t make any difference, since the finite\nfield ${\\mathbb}{F}_2$ contains only one nonzero element.",
+  "language": "INFORMAL",
+  "phrase": "Automorphism Group (Linear Code)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AutomorphismGrouplinearCode"
+    }
+  ],
+  "indexable": true
+}

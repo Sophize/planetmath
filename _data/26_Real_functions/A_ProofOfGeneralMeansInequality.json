@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $w_1$, $w_2$, \u2026, $w_n$ be positive real numbers such that\n$w_1+w_2+\\cdots+w_n=1$. For any real number $r\\ne0$, the weighted power\nmean of degree $r$ of $n$ positive real numbers $x_1$, $x_2$, \u2026, $x_n$\n(with respect to the weights $w_1$, \u2026, $w_n$) is defined as\n$$M_w^r(x_1,x_2,\\ldots,x_n)=(w_1x_1^r+w_2x_2^r+\\cdots+w_nx_n^r)^{1/r}.$$\nThe definition is extended to the case $r=0$ by taking the limit\n$r\\to 0$; this yields the weighted geometric mean\n$$M_w^0(x_1,x_2,\\ldots,x_n)=x_1^{w_1}x_2^{w_2}\\ldots x_n^{w_n}$$ (see\nderivation of zeroth weighted power mean). We will prove the weighted\npower means inequality, which states that for any two real numbers\n$r<s$, the weighted power means of orders $r$ and $s$ of $n$ positive\nreal numbers $x_1$, $x_2$, \u2026, $x_n$ satisfy the inequality\n$$M_w^r(x_1,x_2,\\ldots,x_n)\\le M_w^s(x_1,x_2,\\ldots,x_n)$$ with equality\nif and only if all the $x_i$ are equal.\n\nFirst, let us suppose that $r$ and $s$ are nonzero. We distinguish three\ncases for the signs of $r$ and $s$: $r<s<0$, $r<0<s$, and $0<r<s$. Let\nus consider the last case, i.e.\u00a0assume $r$ and $s$ are both positive;\nthe others are similar. We write $t=\\frac{s}{r}$ and $y_i=x_i^r$ for\n$1\\le i\\le n$; this implies $y_i^t=x_i^s$. Consider the function\n$$\\begin{aligned}\nf\\colon(0,\\infty)&\\to&(0,\\infty)\\\\\nx&\\mapsto&x^t.\\end{aligned}$$ Since $t>1$, the second derivative of $f$\nsatisfies $f''(x)=t(t-1)x^{t-2}>0$ for all $x>0$, so $f$ is a strictly\nconvex function. Therefore, according to Jensen\u2019s inequality,\n$$\\begin{aligned}\n(w_1y_1+w_2y_2+\\cdots+w_ny_n)^t&=&f(w_1y_1+w_2y_2+\\cdots+w_ny_n)\\\\\n&\\le&w_1f(y_1)+w_2f(y_2)+\\cdots+w_nf(y_n)\\\\\n&=&w_1y_1^t+w_2y_2^t+\\cdots+w_ny_n^t,\\end{aligned}$$ with equality if\nand only if $y_1=y_2=\\cdots=y_n$. By substituting $t=\\frac{s}{r}$ and\n$y_i=x_i^r$ back into this inequality, we get\n$$(w_1x_1^r+w_2x_2^r+\\cdots+w_nx_n^r)^{s/r}\\le\nw_1x_1^s+w_2x_2^s+\\cdots+w_nx_n^s$$ with equality if and only if\n$x_1=x_2=\\cdots=x_n$. Since $s$ is positive, the function\n$x\\mapsto x^{1/s}$ is strictly increasing, so raising both sides to the\npower $1/s$ preserves the inequality:\n$$(w_1x_1^r+w_2x_2^r+\\cdots+w_nx_n^r)^{1/r}\\le\n(w_1x_1^s+w_2x_2^s+\\cdots+w_nx_n^s)^{1/s},$$ which is the inequality we\nhad to prove. Equality holds if and only if all the $x_i$ are equal.\n\nIf $r=0$, the inequality is still correct: $M_w^0$ is defined as\n$\\lim_{r\\to 0}M_w^r$, and since $M_w^r\\le M_w^s$ for all $r<s$ with\n$r\\neq 0$, the same holds for the limit $r\\to 0$. The same argument\nshows that the inequality also holds for $s=0$, i.e.\u00a0that\n$M_w^r\\le M_w^0$ for all $r<0$. We conclude that for all real numbers\n$r$ and $s$ such that $r<s$,\n$$M_w^r(x_1,x_2,\\ldots,x_n)\\le M_w^s(x_1,x_2,\\ldots,x_n).$$",
+  "conclusion": "#P_GeneralMeansInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfGeneralMeansInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of general means inequality"
+  ]
+}

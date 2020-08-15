@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "analytic at infinity"
+  ],
+  "definition": "When the function $w$ of one complex variable is regular in the annulus\n$$\\varrho \\;<\\; |z| \\;<\\; \\infty,$$ it has a Laurent expansion\n$$\\begin{aligned}\n  w(z) \\;=\\; \\sum_{n=-\\infty}^{\\infty}c_nz^n.\\end{aligned}$$ If\nespecially the coefficients $c_1,\\, c_2,\\,\\ldots$ vanish, then we have\n$$w(z) \\;=\\; c_0+\\frac{c_{-1}}{z}+\\frac{c_{-2}}{z^2}+\\ldots$$ Using the\ninversion $z = \\frac{1}{\\zeta}$, we see that the function\n$$w\\!\\left(\\frac{1}{\\zeta}\\right) \\;=\\; c_0+c_{-1}\\zeta+c_{-2}\\zeta^2+\\ldots$$\nis regular in the disc $|\\zeta| < \\varrho$. Accordingly we can define\nthat the function $w$ is [*regular at infinity*]{} also.\n\nFor example, $\\displaystyle w(z) \\;:=\\; \\frac{1}{z}$ is regular at the\npoint $z = \\infty$ and $w(\\infty) = 0$. Similarly, $e^{\\frac{1}{z}}$ is\nregular at $\\infty$ and has there the value 1.",
+  "language": "INFORMAL",
+  "phrase": "Regular At Infinity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegularAtInfinity"
+    }
+  ],
+  "indexable": true
+}

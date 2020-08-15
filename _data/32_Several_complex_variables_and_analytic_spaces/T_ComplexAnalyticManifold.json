@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "complex manifold"
+  ],
+  "definition": "A manifold $M$ is called a [*complex analytic manifold*]{} (or sometimes\njust a [*complex manifold*]{}) if the transition functions are\nholomorphic.\n\nA subset $N \\subset M$ is called a [*complex analytic submanifold*]{} of\n$M$ if $N$ is closed in $M$ and if for every point $z \\in N$ there is a\ncoordinate neighbourhood $U$ in $M$ with coordinates $z_1,\\ldots,z_n$\nsuch that $U \\cap N = \\{ p \\in U \\mid z_{d+1}(p) = \\ldots = z_n(p) \\}$\nfor some integer $d \\leq n$.\n\nObviously $N$ is now also a complex analytic manifold itself.\n\nFor a complex analytic manifold, dimension always means the complex\ndimension, not the real dimension. That is $M$ is of dimension $n$ when\nthere are neighbourhoods of every point homeomorphic to\n${\\mathbb{C}}^n$. Such a manifold is of real dimension $2n$ if we\nidentify ${\\mathbb{C}}^n$ with ${\\mathbb{R}}^{2n}$. Of course the\ntangent bundle is now also a complex vector space.\n\nA function $f$ is said to be holomorphic on $M$ if it is a holomorphic\nfunction when considered as a function of the local coordinates.\n\nExamples of complex analytic manifolds are for example the Stein\nmanifolds or the Riemann surfaces. Of course also any open set in\n${\\mathbb{C}}^n$ is also a complex analytic manifold. Another example\nmay be the set of regular points of an analytic set.\n\nComplex analytic manifolds can also be considered as a special case of\nCR manifolds where the CR dimension is maximal.\n\nComplex manifolds are sometimes described as manifolds carrying an\n[**]{} or [**]{}. This refers to the atlas and transition functions\ndefined on the manifold.\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Complex Analytic Manifold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComplexAnalyticManifold"
+    }
+  ],
+  "indexable": true
+}

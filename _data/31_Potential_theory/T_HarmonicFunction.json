@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A twice-differentiable real or complex-valued function\n$f\\colon U\\to\\mathbb{R}$ or $f\\colon U\\to\\mathbb{C}$, where\n$U\\subseteq\\mathbb{R}^n$ is some , is called *harmonic* if its Laplacian\nvanishes on $U$, i.e. if $$\\Delta f\\equiv 0.$$\n\nAny harmonic function $f\\colon\\mathbb{R}^n\\to\\mathbb{R}$ or\n$f\\colon\\mathbb{R}^n\\to\\mathbb{C}$ satisfies Liouville\u2019s theorem.\nIndeed, a holomorphic function *is* harmonic, and a real harmonic\nfunction $f\\colon U\\to\\mathbb{R}$, where $U\\subseteq\\mathbb{R}^2$, is\nlocally the real part of a holomorphic function. In fact, it is enough\nthat a harmonic function $f$ be below (or above) to conclude that it is\n.",
+  "language": "INFORMAL",
+  "phrase": "Harmonic Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HarmonicFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given a group action of a finite group $G$ on a finite set $X$, the\nfollowing expression gives the number of distinct orbits\n\n$$\\frac{1}{|G|}\\sum_{g\\in G}\\operatorname{stab}_g(X)$$\n\nWhere $\\operatorname{stab}_g(X)$ is the number of elements fixed by the\naction of $g$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CountingTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "counting theorem",
+    "Cauchy-Frobenius-Burnside formula"
+  ]
+}

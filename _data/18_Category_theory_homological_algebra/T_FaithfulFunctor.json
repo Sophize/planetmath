@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "embedding functor"
+  ],
+  "definition": "A functor $T:\\mathcal{C}\\to\\mathcal{D}$ is *faithful* if the *arrow\nfunction* of $T$ is injective for every pair of objects in\n$\\mathcal{C}$. More precisely, for every pair\n$C_1, C_2\\in \\operatorname{Ob}(\\mathcal{C})$, the arrow function\n$T_{(C_1,C_2)}$ of $T:$\n$$T_{(C_1,C_2)}:\\operatorname{hom_{\\mathcal{C}}}(C_1,C_2)\\to\\operatorname{hom_{\\mathcal{D}}}(T(C_1),T(C_2))$$\ngiven by $T_{(C_1,C_2)}(f)=T(f)$ is an injection. In other words,\n$T(f)=T(g)$ implies $f=g$.",
+  "language": "INFORMAL",
+  "phrase": "Faithful Functor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FaithfulFunctor"
+    }
+  ],
+  "indexable": true
+}

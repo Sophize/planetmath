@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space. For any $x,y\\in X$, we define a binary\nrelation $\\le$ on $X$ as follows:\n$$x\\le y \\qquad \\mbox{ iff } \\qquad x \\in \\overline{\\lbrace y\\rbrace}.$$\n\n$\\le$ is a preorder.\n\nClearly $x\\le x$. Next, suppose $x\\le y$ and $y\\le z$. Let $C$ be a\nclosed set containing $z$. Since $y$ is in the closure of\n$\\lbrace z\\rbrace$, $y\\in C$. Since $x$ is in the closure of\n$\\lbrace y\\rbrace$, $x\\in C$ also. So $x\\le z$.\n\nWe call $\\le$ the *specialization preorder* on $X$. If $x\\le y$, then\n$x$ is called a *specialization point* of $y$, and $y$ a *generization\npoint* of $x$. For any set $A\\subseteq X$,\n\n-   the set of all specialization points of points of $A$ is called the\n    *specialization* of $A$, and is denoted by $\\mathrm{Sp}(A)$;\n\n-   the set of all generization points of points of $A$ is called the\n    *generization* of $A$, and is denoted by $\\mathrm{Gen}(A)$.\n\n. If $X$ is , then $\\le$ is a partial order.\n\nSuppose next that $x\\le y$ and $y\\le x$. If $x\\ne y$, then there is an\nopen set $A$ such that $x\\in A$ and $y\\notin A$. So $y\\in A^c$, the\ncomplement of $A$, which is a closed set. But then $x\\in A^c$ since it\nis in the closure of $\\lbrace y\\rbrace$. So\n$x\\in A\\cap A^c=\\varnothing$, a contradition. Thus $x=y$.\n\nThis turns a $T_0$ topological space into a poset, where $\\le$ here is\ncalled the *specialization order* of the space.\n\nGiven a $T_0$ space, we have the following:\n\n$x\\le y$ iff $x\\in U$ implies $y\\in U$ for any open set $U$ in $X$.\n\n$(\\Rightarrow):$ if $x\\in U$ and $y\\notin U$, then $y\\in U^c$. Since\n$x\\le y$, we have $x\\in U^c$, a contradiction. $(\\Leftarrow) :$ if\n$x\\notin \\overline{\\lbrace y\\rbrace}$, then for some closed set $C$, we\nhave $y\\in C$ and $x\\notin C$. But then $x\\in C^c$, so that $y\\in C^c$,\na contradiction.\n\n**Remarks**.\n\n-   $\\overline{\\lbrace x\\rbrace}=\\downarrow x$, the lower set of $x$.\n    ($z\\in \\downarrow x$ iff $z\\le x$ iff\n    $z\\in\\overline{\\lbrace x\\rbrace}$).\n\n-   But if $X$ is , then the partial ordering just defined is trivial\n    (the diagonal set), since every point is a closed point (for\n    verification, just modify the antisymmetry portion of the above\n    proof).",
+  "language": "INFORMAL",
+  "phrase": "Partial Ordering In A Topological Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartialOrderingInATopologicalSpace"
+    }
+  ],
+  "indexable": true
+}

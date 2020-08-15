@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space and $A\\subset X$ be a subset. A point\n$x\\in X$ is an *adherent point* for $A$ if every open set containing $x$\ncontains at least one point of $A$. A point $x$ is an adherent point for\n$A$ if and only if $x$ is in the closure of $A$.\n\nNote that this definition is slightly more general than that of a limit\npoint, in that for a limit point it is required that every open set\ncontaining $x$ contains at least one point of $A$ different from $x$.\n\n[9]{} L.A. Steen, J.A.Seebach, Jr., *Counterexamples in topology*, Holt,\nRinehart and Winston, Inc., 1970.",
+  "language": "INFORMAL",
+  "phrase": "Adherent Point",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdherentPoint"
+    }
+  ],
+  "indexable": true
+}

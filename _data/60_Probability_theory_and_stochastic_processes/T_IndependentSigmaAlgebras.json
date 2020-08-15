@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "mutually independent $\\sigma$-algebras"
+  ],
+  "definition": "Let $(\\Omega, \\mathcal{B}, P)$ be a probability space. Let\n$\\mathcal{B}_1$ and $\\mathcal{B}_2$ be two sub sigma algebras of\n$\\mathcal{B}$. Then $\\mathcal{B}_1$ and $\\mathcal{B}_2$ are said to be\n** if for any pair of events $B_1\\in\\mathcal{B}_1$ and\n$B_2\\in\\mathcal{B}_2$: $$P(B_1\\cap B_2)=P(B_1)P(B_2).$$\n\nMore generally, a finite set of sub-$\\sigma$-algebras\n$\\mathcal{B}_1,\\ldots, \\mathcal{B}_n$ is *independent* if for any set of\nevents $B_i\\in \\mathcal{B}_i$, $i=1,\\ldots,n$:\n$$P(B_1\\cap\\cdots\\cap B_n)=P(B_1)\\cdots P(B_n).$$\n\nAn arbitrary set $\\mathcal{S}$ of sub-$\\sigma$-algebras is *mutually\nindependent* if any finite subset of $\\mathcal{S}$ is independent.\n\nThe above definitions are generalizations of the notions of for events\nand for random variables:\n\n> 1.  Events $B_1,\\ldots,B_n$ (in $\\Omega$) are *mutually independent*\n>     if the sigma algebras\n>     $\\sigma(B_i):=\\lbrace \\varnothing, B_i, \\Omega-B_i, \\Omega\\rbrace$\n>     are mutually independent.\n>\n> 2.  Random variables $X_1,\\ldots,X_n$ defined on $\\Omega$ are\n>     *mutually independent* if the the $X_i$\u2019s are mutually\n>     independent.\n>\nIn general, mutual independence among events $B_i$, random variables\n$X_j$, and sigma algebras $\\mathcal{B}_k$ means the mutual independence\namong $\\sigma(B_i)$, $\\mathcal{B}_{X_j}$, and $\\mathcal{B}_k$.\n\n**Remark**. Even when random variables $X_1,\\ldots, X_n$ are defined on\ndifferent probability spaces $(\\Omega_i,\\mathcal{B}_i,P_i)$, we may form\nthe of these spaces $(\\Omega,\\mathcal{B},P)$ so that $X_i$ (by abuse of\nnotation) are now defined on $\\Omega$ and their independence can be\ndiscussed.",
+  "language": "INFORMAL",
+  "phrase": "Independent Sigma Algebras",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndependentSigmaAlgebras"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A cyclic ring has a multiplicative identity if and only if it has\nbehavior one.\n\nFor a proof that a cyclic ring with a multiplicative identity has\nbehavior one, see .\n\nLet $R$ be a cyclic ring with behavior one. Let $r$ be a of the additive\ngroup of $R$ such that $r^2=r$. Let $s \\in R$. Then there exists\n$a \\in R$ with $s=ar$. Since $rs=r(ar)=ar^2=ar=s$ and multiplication in\ncyclic rings is commutative, then $r$ is a multiplicative identity.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CyclicRingsOfBehaviorOne"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "cyclic rings of behavior one"
+  ]
+}

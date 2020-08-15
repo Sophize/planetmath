@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If the real function $f$ is periodic and over a interval,\nthe value of integral over a period interval is always the same, i.e.\n$$\\begin{aligned}\n\\int_a^{a+p}\\!f(x)\\,dx \\;=\\; \\int_0^pf(x)\\,dx \\quad \\forall\\,a \\in \\mathbb{R}\\end{aligned}$$\nwhere $p$ is the period of $f$.\\\n[*Proof.*]{} The right hand side of the equation (1) is manipulated,\nwith one $x = t\\!+\\!p$: $$\\begin{aligned}\n\\int_0^pf(x)\\,dx & \\;=\\; \\int_0^af(x)\\,dx+\\int_a^pf(x)\\,dx\\\\\n& \\;=\\; \\int_0^af(x)\\,dx+\\int_a^{a+p}\\!f(x)\\,dx-\\int_p^{a+p}\\!f(x)\\,dx\\\\ \n& \\;=\\; \\int_0^af(x)\\,dx+\\int_a^{a+p}\\!f(x)\\,dx-\\int_0^{a}f(t\\!+\\!p)\\,dt\\\\\n& \\;=\\; \\int_0^af(x)\\,dx+\\int_a^{a+p}\\!f(x)\\,dx-\\int_0^{a}f(t)\\,dt\\\\\n& \\;=\\; \\int_a^{a+p}\\!f(x)\\,dx\\end{aligned}$$\n\n[8]{} : [*Johdatus korkeampaan analyysiin*]{}. Fourth edition. Werner\nS\u00f6derstr\u00f6m Osakeyhti\u00f6, Porvoo ja Helsinki (1956). , .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralOverAPeriodInterval"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "integral over a period interval",
+    "integral over a period",
+    "integral of periodic function"
+  ]
+}

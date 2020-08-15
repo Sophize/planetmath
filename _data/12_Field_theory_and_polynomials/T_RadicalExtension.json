@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "radical tower"
+  ],
+  "definition": "A [*radical tower*]{} is a field extension $L/F$ which has a filtration\n$$F = L_0 \\subset L_1 \\subset \\cdots \\subset L_n = L$$ where for each\n$i$, $0 \\leq i < n$, there exists an element $\\alpha_i \\in L_{i+1}$ and\na natural number $n_i$ such that $L_{i+1} = L_i(\\alpha_i)$ and\n$\\alpha_i^{n_i} \\in L_i$.\n\nA [*radical extension*]{} is a field extension $K/F$ for which there\nexists a radical tower $L/F$ with $L \\supset K$. The notion of radical\nextension coincides with the informal concept of solving for the roots\nof a polynomial by radicals, in the sense that a polynomial over $K$ is\nsolvable by radicals if and only if its splitting field is a radical\nextension of $F$.",
+  "language": "INFORMAL",
+  "phrase": "Radical Extension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RadicalExtension"
+    }
+  ],
+  "indexable": true
+}

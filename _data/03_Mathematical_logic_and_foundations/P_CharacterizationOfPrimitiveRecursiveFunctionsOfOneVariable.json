@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "It is possible to characterize primitive recursive functions of one\nvariable in terms of operations involving only functions of a single\nvariable. To describe how this goes, it is useful to first define some\nnotation.\n\nDefine the constant function $K \\colon \n\\mathbb{N} \\to \\mathbb{N}$ by $K(n) = 1$ for all $n$.\n\nDefine the identity function $I \\colon \n\\mathbb{N} \\to \\mathbb{N}$ by $I(n) = n$ for all $n$.\n\nDefine the excess over square function\n$E \\colon \\mathbb{N} \\to \\mathbb{N}$ by $E(n) = n - m^2$, where $m$ is\nthe largest integer such that $m^2 \\le n$.\n\nGiven a function $f \\colon \\mathbb{N} \\to \\mathbb{N}$, define the\nfunction $R(f) \\colon \\mathbb{N} \\to \\mathbb{N}$ by the following\nconditions:\n\n-   $R(f)(0) = 0$\n\n-   $R(f)(n+1) = f(R(f)(n))$ for all integers $n \\ge 0$.\n\nThe class of primitive recursive functions of a single variable is the\nsmallest class $X$ of functions which contains the functions $E$ and $K$\ndefined above and is closed under the following three operations:\n\n1.  If $f \\in X$ and $g \\in X$, then $f \\circ g \\in X$.\n\n2.  If $f \\in X$, then $f + I \\in X$. [^1]\n\n3.  If $f \\in X$, then $R(f) \\in X$.\n\n[^1]: Here $f + I$ has the usual meaning of pointwise addition \u2014\n    $(f + I)(x) = f(x) + I(x)$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacterizationOfPrimitiveRecursiveFunctionsOfOneVariable"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "characterization of primitive recursive functions of one variable"
+  ]
+}

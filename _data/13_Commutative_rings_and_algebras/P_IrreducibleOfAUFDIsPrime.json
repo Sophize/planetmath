@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Any irreducible element of a factorial ring $D$ is a prime element of\n$D$.\\\n[*Proof.*]{} Let $p$ be an arbitrary irreducible element of $D$. Thus\n$p$ is a non-unit. If $ab \\in (p)\\smallsetminus\\{0\\}$, then $ab = cp$\nwith $c \\in D$. We write $a,\\,b,\\,c$ as products of irreducibles:\n$$a \\;=\\; p_1\\cdots p_l, \\quad b \\;=\\; q_1\\cdots q_m, \\quad c \\;=\\; r_1\\cdots r_n$$\nHere, one of those first two products may me empty, i.e. it may be a\nunit. We have $$\\begin{aligned}\np_1\\cdots p_l\\,q_1\\cdots q_m \\;=\\; r_1\\cdots r_n\\,p.\\end{aligned}$$ Due\nto the uniqueness of prime factorization, every factor $r_k$ is an\nassociate of certain of the $l\\!+\\!m$ irreducibles on the left hand side\nof (1). Accordingly, $p$ has to be an associate of one of the $p_i$\u2019s or\n$q_j$\u2019s. It means that either $a \\in (p)$ or $b \\in (p)$. Thus, $(p)$ is\na prime ideal of $D$, and its generator must be a prime element.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IrreducibleOfAUFDIsPrime"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "irreducible of a UFD is prime"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "We\u2019ll give a proof of the third isomorphism theorem using the\nFundamental homomorphism theorem.\n\nLet $G$ be a group, and let $K\\subseteq H$ be normal subgroups of $G$.\nDefine $p,q$ to be the natural homomorphisms from $G$ to $G/H$, $G/K$\nrespectively: $$p(g)=gH, q(g)=gK\\;\\forall\\;g \\in G.$$ $K$ is a subset of\n$\\ker(p)$, so there exists a unique homomorphism\n$\\varphi\\colon G/K \\to G/H$ so that $\\varphi \\circ q=p$.\n\n$p$ is surjective, so $\\varphi$ is surjective as well; hence\n$\\operatorname{im}\\varphi=G/H$. The kernel of $\\varphi$ is\n$\\ker(p)/K=H/K$. So by the first isomorphism theorem we have\n$$(G/K) / \\ker(\\varphi)=(G/K) / (H/K) \\approx \\operatorname{im}\\varphi=G/H.$$",
+  "conclusion": "#P_ThirdIsomorphismTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfThirdIsomorphismTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of third isomorphism theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Because $\\pi \\approx 3.14159265$ is an irrational number, its digits in\nany base are infinite. Hypothetically, any finite group of digits can be\nfound as a substring in the digits of $\\pi$, provided one looks far\nenough.\n\nThe [*Pi-Search Page*]{} allows users to search the 200 million base 10\ndigits of $\\pi$ for specific digit substrings. For each successful\nsearch, the page returns the desired substring with surrounding digits.\nMost Social Security numbers occur somewhere in the search range. Credit\ncard numbers (16-digit numbers) are unlikely.\n\nThe first few digits of certain constants can be found. For $\\pi$\nitself, the \u201cstring 31415926 occurs at position 50,366,472 counting from\nthe first digit after the decimal point.\" For $e$, \u201cstring 27182818\noccurs at position 73,154,827 counting from the first digit after the\ndecimal point.\"\n\nIn 2005, Robert Happelberg published thirteen pages of digits of $\\pi$\nin which he highlighted the positive integers in order as the occurred\nin $\\pi$\u2019s digits (i.e.,\n[**1**]{}4159[**2**]{}65[**3**]{}589793238[**4**]{}62643383279[**5**]{}028841971[**6**]{}93993[**7**]{}510).\nHowever, it turned out that Happelberg had ignored numbers split at line\nends. With the help of the Pi-Search Page, the OEIS added sequence\nA103186, which lists the first occurrence of $n$\u2019s base 10 digits as a\nsubstring in $\\pi$. Graeme McRae investigated potential overlaps (such\nas \u201c112\u201d, which contains both \u201c11\u201d and \u201c12\u201d). Besides 33 and 34, he\nfound no such overlaps in the first hundred thousand digits of $\\pi$\n(the limit of the Pi-Search Page at the time), and even that overlap\ndoes not affect the overall result significantly: \u201cthis changes only one\nelement of the sequence. $a(34)$ becomes 1700, and $a(35)$ remains\n1719.\u201d\n\nThe Pi-Search Page is at .\n\n[1]{} R. Happelberg, [*Bob\u2019s Poetry Magazine*]{} [**2**]{} 2 (2005): 3 -\n15",
+  "language": "INFORMAL",
+  "phrase": "Pi-Search Page",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PiSearchPage"
+    }
+  ],
+  "indexable": true
+}

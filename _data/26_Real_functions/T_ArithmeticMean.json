@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "average",
+    "mean"
+  ],
+  "definition": "If $a_1,\\,a_2,\\,\\ldots,\\,a_n$ are real numbers, their *arithmetic mean*\nis defined as $$A.M. \\;=\\; \\frac{a_1+a_2+\\ldots+a_n}{n}.$$\n\nThe arithmetic mean is what is commonly called the *average* of the\nnumbers. The value of $A.M.$ is always between the $a_j$. If the numbers\n$a_j$ are all positive, then $A.M. \\,>\\, \\frac{a_j}{n}$ for all $j$.\n\nA generalization of this concept is that of *weighted mean*, also known\nas *weighted average*. Let $w_1, \\ldots, w_n$ be numbers whose sum is\nnot zero, which will be known as *weights*. (Typically, these will be\nstrictly positive numbers, so their sum will automatically differ from\nzero.) Then the weighted mean of $a_1,a_2,\\ldots,a_n$ is defined to be\n$$W.M. \\;=\\; \n\\frac{w_1 a_1 + w_2 a_2 + \\ldots + w_n a_n}{w_1\\!+\\!w_2\\!+\\!\\ldots+\\!w_n}.$$\nIn the special case where all the weights are equal to each other, the\nweighted mean equals the arithmetic mean.",
+  "language": "INFORMAL",
+  "phrase": "Arithmetic Mean",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArithmeticMean"
+    }
+  ],
+  "indexable": true
+}

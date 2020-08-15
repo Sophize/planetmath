@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Synthetic division* is simply a shorthand for long division, when one\nof the factors is linear. So when an equation such as\n$$y = 2x^2 + 10x + 12$$ is given and a factor of $x+3$ is known, we can\ndo the following:\n\n[lcrrr]{} $\\phantom{-3}$ && $2$ & $10$ & $12$\\\n&& & &\\\n\nFirst, we can use $-3$ since $-3$ is a solution if $x+3=0$.\n\n[lcrrr]{} $-3$ && $2$ & $10$ & $12$\\\n&& & &\\\n\nCarry down the first coefficient:\n\n  ------ -- ----- ------ ------\n  $-3$        $2$   $10$   $12$\n                         \n              $2$        \n  ------ -- ----- ------ ------\n\nMultiply $2$ by $-3$:\n\n  ------ -- ----- ------ ------\n  $-3$        $2$   $10$   $12$\n                    $-6$ \n              $2$        \n  ------ -- ----- ------ ------\n\nAdd up $10$ and $-6$:\n\n  ------ -- ----- ------ ------\n  $-3$        $2$   $10$   $12$\n                    $-6$ \n              $2$    $4$ \n  ------ -- ----- ------ ------\n\nMultiply $4$ by $-3$:\n\n  ------ -- ----- ------ -------\n  $-3$        $2$   $10$    $12$\n                    $-6$   $-12$\n              $2$    $4$     $0$\n  ------ -- ----- ------ -------\n\nThis means that, by factoring the equation by $x+3$, we will get another\nfactor as $2x+4$.\n\nSynthetic is simply an variation of the long division \u2014 a version that\u2019s\nmanipulated and simplified to shorten the calculations.",
+  "language": "INFORMAL",
+  "phrase": "Synthetic Division",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SyntheticDivision"
+    }
+  ],
+  "indexable": true
+}

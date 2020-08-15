@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A Hausdorff topological space $X$ is called *collectionwise normal* if\nany discrete collection of sets $\\{U_i\\}$ in $X$ can be covered by a\npairwise-disjoint collection of open sets $\\{V_j\\}$ such that each $V_j$\ncovers just one $U_i$. This is equivalent to requiring the same property\nfor any discrete collection of closed sets.\n\nA Hausdorff topological space $X$ is called *countably collectionwise\nnormal* if any countable discrete collection of sets $\\{U_i\\}$ in $X$\ncan be covered by a pairwise-disjoint collection of open sets $\\{V_j\\}$\nsuch that each $V_j$ covers just one $U_i$. This is equivalent to\nrequiring the same property for any countable discrete collection of\nclosed sets.\n\nAny metrizable space is collectionwise normal.\n\n[9]{} Steen, Lynn Arthur and Seebach, J. Arthur, *Counterexamples in\nTopology*, Dover Books, 1995.",
+  "language": "INFORMAL",
+  "phrase": "Collectionwise Normal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CollectionwiseNormal"
+    }
+  ],
+  "indexable": true
+}

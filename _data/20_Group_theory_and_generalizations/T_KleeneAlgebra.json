@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Kleene algebra* $(A, \\cdot, +, ^*, 0, 1)$ is an idempotent semiring\n$(A, \\cdot, +, 0, 1)$ with an additional (right-associative) unary\noperator $^*$, called the Kleene star, which satisfies\n$$\\begin{array}{rl}\n1+aa^*\\leq a^*, & \\qquad ac+b\\leq c\\Rightarrow a^*b\\leq c, \\\\\n1+a^*a\\leq a^*, & \\qquad ca+b\\leq c\\Rightarrow ba^*\\leq c,\n\\end{array}$$ for all $a, b, c\\in A$.\n\nFor a given alphabet $\\Sigma$, the set of all languages over $\\Sigma$,\nas well as the set of all regular languages over $\\Sigma$, are examples\nof Kleene algebras. Similarly, sets of regular expressions (regular\nsets) over $\\Sigma$ are a form (or close variant) of a Kleene algebra:\nlet $A$ be the set of all regular sets over a set $\\Sigma$ of alphabets.\nThen $A$ is a Kleene algebra if we identify $\\varnothing$ as $0$, the\nsingleton containing the empty string $\\lambda$ as $1$, concatenation\noperation as $\\cdot$, the union operation as $+$, and the Kleene star\noperation as $^*$. For example, let $a$ be a set of regular expression,\nthen\n$$a^*=\\lbrace \\lambda \\rbrace \\cup a \\cup a^2 \\cup \\cdots \\cup a^n \\cup \\cdots,$$\nso that $$aa^*=a \\cup a^2 \\cup \\cdots \\cup a^n \\cup \\cdots.$$ Adding $1$\non both sides and we have\n$$1+aa^*=\\lbrace \\lambda \\rbrace \\cup aa^*=\\lbrace \\lambda \\rbrace \\cup a \\cup a^2 \\cup \\cdots \\cup a^n \\cup \\cdots = a^*.$$\nThe other conditions are checked similarly.\n\n**Remark**. There is another notion of a Kleene algebra, which arises\nfrom lattices. For more detail, see .",
+  "language": "INFORMAL",
+  "phrase": "Kleene Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KleeneAlgebra"
+    }
+  ],
+  "indexable": true
+}

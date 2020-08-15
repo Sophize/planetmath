@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Drinfel'd module",
+    "quasi-bialgebra"
+  ],
+  "definition": "Let $H$ be a with reassociator $\\Phi$. A left $H$-module $M$ together\nwith a left $H$-coaction $\\lambda_M : M \\to  H \\otimes M,$\n$$\\lambda_M (m) = \\sum m_{(\u00e2\u02c6\u20191)} \\otimes m_0$$ is called a left\n*Yetter-Drinfeld* module if the following equalities hold, for all\n$h \\in H$ and $m \\in M :$\n\n$$\\sum X^1 m_{(\u00e2\u02c6\u20191)} \\otimes (X^2 . m_{(0)})_{(\u00e2\u02c6\u20191)} X^3 \\otimes  (X^2 . m_{(0)})_0\n=  \\sum X^1(Y^1 \\times m)_{(\u00e2\u02c6\u20191)1} Y^2 \\otimes X^2 \\times (Y^1 x m)_{(\u00e2\u02c6\u20191)2} \\times Y^3 \\otimes X^3 x (Y^1 x m)_{(0)},$$\nand\n\n$$\\sum \\epsilon(m_{(\u00e2\u02c6\u20191)})m_0 = m ,$$ and\n\n$$\\sum h_1 m_{(\u00e2\u02c6\u20191)} \\otimes h_2 \\times m_0 =  \\sum (h_1 . m)_{(\u00e2\u02c6\u20191)} h_2 \\otimes (h_1 . m)_0.$$\n\n[**Remark:**]{} This module (ref.[@BCT2k6]) is essential for solving the\nquasi-Yang-Baxter equation which is an important relation in\nMathematical Physics.\\\n[*Drinfel\u2019d modules:*]{} Let us consider a module that operates over a\nring of functions on a curve over a finite field, which is called an\n[*elliptic module*]{}. Such modules were first studied by Vladimir\nDrinfel\u2019d in 1973 and called accordingly Drinfel\u2019d modules.\n\n[9]{} Bulacu, D, Caenepeel, S, Torrecillas, B, Doi-Hopf modules and\nYetter-Drinfeld modules for quasi-Hopf algebras. *Communications in\nAlgebra*, 34 (9), pp. 3413-3449, 2006.\n\nD. Bulacu, S. Caenepeel, A and F. Panaite. 2003. , Preprint.",
+  "language": "INFORMAL",
+  "phrase": "Yetter-Drinfel'D Module",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/YetterDrinfeldModule"
+    }
+  ],
+  "indexable": true
+}

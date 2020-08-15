@@ -1,0 +1,25 @@
+{
+  "alternatePhrases": [
+    "monotone function",
+    "monotonic function",
+    "order homomorphism",
+    "isotone function",
+    "isotonic function",
+    "order-preserving",
+    "isotone",
+    "isotonic",
+    "order-reversing",
+    "antitonic",
+    "antitone"
+  ],
+  "definition": "*Order-preserving map* from a poset $L$ to a poset $M$ is a function $f$\nsuch that $$\\forall x,y\\in L:(x\\ge y\\implies f(x)\\ge f(y)).$$\n\nOrder-preserving maps are also called *monotone functions* or *monotonic\nfunctions* or *order homomorphisms* or *isotone functions* or *isotonic\nfunctions*.\n\n*Order-reversing map* from a poset $L$ to a poset $M$ is a function $f$\nsuch that $$\\forall x,y\\in L:(x\\ge y\\implies f(x)\\le f(y)).$$\n\nOrder-reversing maps are also called *antitone functions*.",
+  "language": "INFORMAL",
+  "phrase": "Order-Preserving Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderpreservingMap"
+    }
+  ],
+  "indexable": true
+}

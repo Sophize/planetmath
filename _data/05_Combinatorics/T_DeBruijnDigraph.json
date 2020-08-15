@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The vertices of the *de Bruijn digraph* $B(n,m)$ are all possible words\nof length $m-1$ chosen from an alphabet of size $n$.\n\n$B(n,m)$ has $n^{m}$ edges consisting of each possible word of length\n$m$ from an alphabet of size $n$. The edge $a_1a_2\\dots a_n$ connects\nthe vertex $a_1a_2\\dots a_{n-1}$ to the vertex $a_2a_3\\dots a_n$.\n\nFor example, $B(2,4)$ could be drawn as: $$\\xymatrix{\n& 000 \\ar@(ur,ul)[]_{0000} \\ar[dr]^{0001} & \\\\\n100 \\ar[ur]^{1000} \\ar[rr]^{1001} & & 001 \\ar[dl]^{0010} \\ar[ddd]^{0011}\\\\\n& 010 \\ar[ul]^{0100} \\ar@(ur,dr)[d]^{0101} & \\\\\n& 101 \\ar[dr]^{1011} \\ar@(dl,ul)[u]^{1010} & \\\\\n110 \\ar[uuu]^{1100} \\ar[ur]^{1101} & & 011 \\ar[ll]_{0110} \\ar[dl]^{0111}\\\\\n& 111 \\ar@(dl,dr)[]_{1111} \\ar[ul]^{1110} & \n}$$\n\nNotice that an Euler cycle on $B(n,m)$ represents a shortest sequence of\ncharacters from an alphabet of size $n$ that includes every possible\nsubsequence of $m$ characters. For example, the sequence\n$000011110010101000$ includes all 4-bit subsequences. Any de Bruijn\ndigraph must have an Euler cycle, since each vertex has in degree and\nout degree of $n$.",
+  "language": "INFORMAL",
+  "phrase": "De Bruijn Digraph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DeBruijnDigraph"
+    }
+  ],
+  "indexable": true
+}

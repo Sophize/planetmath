@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*cabtaxi number*]{} for a given $n$ is the smallest positive number\nwhich can be written as $a^3 + b^3$ in $n$ different ways, with either\n$a$ or $b$ allowed to be negative integers. For example, 91 is the 2nd\ncabtaxi number since it can be expressed\n$(-5)^3 + 6^3 = 3^3 + 4^3 = 91$. The known cabtaxi numbers are 1, 91,\n728, 2741256, 6017193, 1412774811, 11302198488, 137513849003496,\n424910390480793000, listed in A047696 of Sloane\u2019s OEIS. Adding the\nrestriction $a \\geq b > 0$ gives the definition for the taxicab numbers.",
+  "language": "INFORMAL",
+  "phrase": "Cabtaxi Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CabtaxiNumber"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(C,\\Delta,\\varepsilon)$ be a coalgebra over a field $k$.\n\n**Definition.** Vector subspace $D\\subseteq C$ is called *subcoalgebra*\niff $\\Delta(D)\\subseteq D\\otimes D$.\n\n**Definition.** Vector subspace $I\\subseteq C$ is is called *coideal*\niff $\\Delta(I)\\subseteq I\\otimes C + C\\otimes I$ and $\\varepsilon(I)=0$.\n\nOne can show that if $D\\subseteq C$ is a subcoalgebra, then\n$(D, \\Delta_{| D}, \\varepsilon_{| D})$ is also a coalgebra. On the other\nhand, if $I\\subseteq C$ is a coideal, then we can cannoicaly introduce a\ncoalgebra structure on the quotient space $C/I$. More precisely, if\n$x\\in C$ and $\\Delta(x)=\\sum a_i\\otimes b_i$, then we define\n$$\\Delta':C/I\\to (C/I)\\otimes (C/I);$$\n$$\\Delta'(x+I)=\\sum (a_i+I)\\otimes (b_i+I)$$ and $\\varepsilon':C/I\\to k$\nas $\\varepsilon'(x+I)=\\varepsilon(x)$. One can show that these two maps\nare well defined and $(C/I,\\Delta',\\varepsilon')$ is a coalgebra.",
+  "language": "INFORMAL",
+  "phrase": "Subcoalgebras And Coideals",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubcoalgebrasAndCoideals"
+    }
+  ],
+  "indexable": true
+}

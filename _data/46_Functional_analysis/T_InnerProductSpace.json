@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "pre-Hilbert space"
+  ],
+  "definition": "An *inner product space* (or *pre-Hilbert space*) is a vector space\n(over $\\mathbb{R}$ or $\\mathbb{C}$) with an inner product\n$\\ip{\\cdot,\\cdot}$.\n\nFor example, $\\mathbb{R}^n$ with the familiar dot product forms an inner\nproduct space.\n\nEvery inner product space is also a normed vector space, with the norm\ndefined by $\\Vert x \\Vert := \\sqrt{\\ip{x,\\,x}}$. This norm satisfies the\nparallelogram law.\n\nIf the metric $\\Vert{x-y}\\Vert$ induced by the norm is , then the inner\nproduct space is called a Hilbert space.\n\nThe Cauchy\u2013Schwarz inequality $$\\begin{aligned}\n  |\\ip{x,\\,y}| \\le \\Vert x\\Vert \\cdot\\Vert y\\Vert\\end{aligned}$$ holds\nin any inner product space.\n\nAccording to (1), one can define the [*angle between two non-zero\nvectors*]{} $x$ and $y$: $$\\begin{aligned}\n  \\cos(x,\\,y) := \\frac{\\ip{x,\\,y}}{\\Vert{x}\\Vert\\cdot\\Vert{y}\\Vert}.\\end{aligned}$$\nThis provides that the scalars are the real numbers. In any case, the\n[*perpendiculatity*]{} of the vectors may be defined with the condition\n$$\\ip{x,\\,y} =0.$$",
+  "language": "INFORMAL",
+  "phrase": "Inner Product Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InnerProductSpace"
+    }
+  ],
+  "indexable": true
+}

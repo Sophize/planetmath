@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *promise problem* is a generalization of a decision problem. It is\ndefined by two decision problems $L_1$ and $L_2$ with\n$L_1\\cap L_2=\\emptyset$. A Turing machine decides a promise problem if,\nfor any $x\\in L_1\\cup L_2$, it accepts when $x\\in L_1$ and rejects if\n$x\\in L_2$. Behavior is undefined when $x\\notin L_1\\cup L_2$ (this is\nthe promise: that $x$ is in one of the two sets).\n\nIf $L_2=\\Gamma^+\\setminus L_1$ then this is just the decision problem\nfor $L_1$.",
+  "language": "INFORMAL",
+  "phrase": "Promise Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PromiseProblem"
+    }
+  ],
+  "indexable": true
+}

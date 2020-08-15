@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If for a prime number $p$ it holds that $p + 2$ is either a prime or a\nsemiprime, then $p$ is called a [*Chen prime*]{}. The name was assigned\nby Ben Green and Terrence Tao in recognition of Chen\u2019s theorem that\nevery sufficiently large even number can be written as the sum of a\nprime and a semiprime. To give two examples of Chen primes: 41 is a Chen\nprime since 43 is also a prime, but 43 is itself not a Chen prime\nbecause 45 has one factor too many to be a semiprime; 47 is a Chen prime\nsince 49, the square of a prime, is a semiprime.\n\nChen Jingrun proved that there are infinitely many Chen primes, which\ncould turn out to be a step towards proving the twin prime conjecture.\nJust looking at say, $p < 100$, it would appear that there are more Chen\nprimes than non-Chen primes. (The former are listed in A109611 of\nSloane\u2019s OEIS, the latter in A102540). However, counting up to 17107,\nthere are 986 Chen primes and 986 non-Chen; after that, the density of\nChen primes gradually thins.\n\nIn 2005, Green and Tao proved that there are infinitely many Chen primes\nin arithmetic progression. Jens Kruse Andersen and friends found this\nexample, in which each prime has more than 3000 base 10 digits each:\n$((3850324118 + 892819689n)2411\\# + 1)(4787\\# + 1) - 2$ where\n$-1 < n < 3$ and $p\\#$ is a primorial.\n\nRudolf Ondrejka constructed this magic square using only Chen primes:\n\n$$\\begin{bmatrix}\n 17 & 89 & 71 \\\\\n 113 & 59 & 5 \\\\\n 47 & 29 & 101 \\\\\n\\end{bmatrix}$$\n\nThe magic constant is 177.\n\n[2]{} J. Chen, \u201cOn the Representation of a Large Even Integer as the Sum\nof a Prime and the Product of at Most Two Primes\" [*Sci. Sinica*]{}\n[**16**]{}, pp. 157 - 176 (1973) B. Green and T. Tao, \u201cRestriction\ntheory of the Selberg sieve, with applications\", pp. 5, 14, 18 - 19, 21\n(2005)",
+  "language": "INFORMAL",
+  "phrase": "Chen Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChenPrime"
+    }
+  ],
+  "indexable": true
+}

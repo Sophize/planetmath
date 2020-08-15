@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $E_{i,j} = \\{x\\in E: |f_j(x) - f(x)|< 1/i\\}.$ Since $f_n\\to f$\nalmost everywhere, there is a set $S$ with $\\mu(S)=0$ such that, given\n$i\\in {\\mathbb{N}}$ and $x\\in E-S$, there is $m\\in {\\mathbb{N}}$ such\nthat $j>m$ implies $|f_j(x)-f(x)|<1/i$. This can be expressed by\n$$E-S\\subset {\\bigcup}_{m\\in {\\mathbb{N}}} {\\bigcap}_{j>m} E_{i,j},$$\nor, in other words,\n$${\\bigcap}_{m\\in {\\mathbb{N}}}{\\bigcup}_{j>m} (E-E_{i,j})\\subset S.$$\nSince $\\{{\\bigcup}_{j>m} (E-E_{i,j})\\}_{m\\in {\\mathbb{N}}}$ is a\ndecreasing nested sequence of sets, each of which has finite measure,\nand such that its intersection has measure $0$, by we know that\n$$\\mu({\\bigcup}_{j>m}(E-E_{i,j}))\\xrightarrow[m\\to \\infty]{} 0.$$\nTherefore, for each $i\\in {\\mathbb{N}}$, we can choose $m_i$ such that\n$$\\mu({\\bigcup}_{j>m_i}(E-E_{i,j})) < \\frac{\\delta}{2^i}.$$ Let\n$$E_\\delta = {\\bigcup}_{i\\in {\\mathbb{N}}}{\\bigcup}_{j>m_i}(E-E_{i,j}).$$\nThen\n$$\\mu(E_\\delta)\\leq \\sum_{i=1}^\\infty \\mu({\\bigcup}_{j>m_i}(E-E_{i,j})) < \\sum_{i=1}^\\infty \\frac{\\delta}{2^i} = \\delta.$$\nWe claim that $f_n\\to f$ uniformly on $E-E_\\delta$. In fact, given\n$\\varepsilon>0$, choose $n$ such that $1/n<\\varepsilon$. If\n$x\\in E-E_\\delta$, we have\n$$x\\in{\\bigcap}_{i\\in {\\mathbb{N}}}{\\bigcap}_{j>m_i}E_{i,j},$$ which in\nparticular implies that, if $j>m_n$, $x\\in E_{n,j}$; that is,\n$|f_j(x) - f(x)|< 1/n < \\varepsilon$. Hence, for each $\\varepsilon>0$\nthere is $N$ (which is given by $m_n$ above) such that $j>N$ implies\n$|f_j(x)-f(x)|<\\varepsilon$ for each $x\\in E-E_\\delta$, as required.\nThis the proof.",
+  "conclusion": "#P_EgorovsTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfEgorovsTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Egorov's theorem"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Konig-Egervary theorem"
+  ],
+  "definition": "The [*K\u00f6nig-Egervary theorem*]{} states that in a finite matrix of 0\u2019s\nand 1\u2019s, the maximum numbers of 1\u2019s such that no two are in a line,\nequals the minimum number of lines which collectively contain all the\n1\u2019s. Here line means row or column.\n\nTake this matrix, for example,\n\n$$\\begin{bmatrix}\n1 & 0 & 0 & 0 & 0 & 1 \\\\\n1 & 0 & 0 & 0 & 0 & 1 \\\\\n0 & 1 & 0 & 0 & 0 & 1 \\\\\n0 & 1 & 0 & 0 & 0 & 1 \\\\\n1 & 0 & 1 & 1 & 1 & 0 \\\\\n\\end{bmatrix}$$\n\nHere the max and min numbers (always equal) are 4.\n\n[1]{} A. Chandra Babu, P. V. Ramakrishnan, \u201cNew Proofs of Konig-Egervary\nTheorem And Maximal Flow-Minimal Cut Capacity Theorem Using O. R.\nTechniques\u201d [*Indian J. Pure Appl. Math.*]{} [**22**]{}(11) (1991): 905\n- 911",
+  "language": "INFORMAL",
+  "phrase": "K\\\"Onig-Egervary Theorem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KonigEgervaryTheorem"
+    }
+  ],
+  "indexable": true
+}

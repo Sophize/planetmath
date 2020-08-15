@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $f \\colon \\mathbb{D} \\to \\mathbb{C}$ is an analytic function on the\nunit disc, we denote by $f^*(e^{i\\theta})$ the radial limit of $f$ where\nit exists, that is\n$$f^*(e^{i\\theta}) := \\lim_{r\\to 1, r<1} f(re^{i\\theta}) .$$ A bounded\nanalytic function on the disc will have radial limits almost everywhere\n(with respect to the Lebesgue measure on the $\\partial \\mathbb{D}$).\n\nA bounded analytic function $f$ is called an *inner function* if\n$\\lvert f^*(e^{i\\theta}) \\rvert = 1$ almost everywhere. If $f$ has no\nzeros on the unit disc, then $f$ is called a *singular inner function*.\n\nEvery inner function can be written as\n$$f(z) := \\alpha B(z) \\exp \\left( - \\int \\frac{e^{i\\theta}+z}{e^{i\\theta}-z}d\\mu(e^{i\\theta}) \\right) ,$$\nwhere $\\mu$ is a positive singular measure on $\\partial \\mathbb{D}$,\n$B(z)$ is a Blaschke product and $\\lvert \\alpha \\rvert = 1$ is a\nconstant.\n\nNote that all the zeros of the function come from the Blaschke product.\n\nLet\n$$f(z) := \\exp \\left(\\int \\frac{e^{i\\theta}+z}{e^{i\\theta}-z}h(e^{i\\theta})dm(e^{i\\theta}) \\right) ,$$\nwhere $h$ is a real valued Lebesgue integrable function on the unit\ncircle and $m$ is the Lebesgue measure. Then $f$ is called an *outer\nfunction*.\n\nThe significance of these definitions is that every bounded holomorphic\nfunction can be written as an inner function times an outer function.\nSee the .\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1995.",
+  "language": "INFORMAL",
+  "phrase": "Inner Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InnerFunction"
+    }
+  ],
+  "indexable": true
+}

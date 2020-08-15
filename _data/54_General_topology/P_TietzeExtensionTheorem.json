@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a topological space. Then the following are equivalent:\n\n1.  $X$ is normal.\n\n2.  If $A$ is a closed subset in $X$, and $f\\colon A\\to [-1,1]$ is a\n    continuous function, then $f$ has a continuous to all of $X$. (In\n    other words, there is a continuous function\n    $f^\\ast\\colon X\\to [-1,1]$ such that $f$ and $f^\\ast$ coincide on\n    $A$.)\n\n*Remark:* If $X$ and $A$ are as above, and $f\\colon A\\to(-1,1)$ is a\ncontinuous function, then $f$ has a continuous to all of $X$.\n\nThe present result can be found in [@mukherjea].\n\n[9]{} A. Mukherjea, K. Pothoven, *Real and Functional analysis*, Plenum\npress, 1978.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TietzeExtensionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Tietze extension theorem"
+  ]
+}

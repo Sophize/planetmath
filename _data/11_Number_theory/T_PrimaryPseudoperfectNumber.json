@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an integer $n$ with $\\omega(n)$ distinct prime factors $p_i$\n(where $\\omega$ is number of distinct prime factors function), if the\nequality $$\\frac1n + \\sum_{i = 1}^{\\omega(n)} \\frac1{p_i} = 1$$ holds\ntrue, then $n$ is a *primary pseudoperfect number*. Equivalently,\n$$1 + \\sum_{i = 1}^{\\omega(n)} \\frac{n}{p_i} = n$$ if $n$ is a primary\npseudoperfect number.\n\nThe first few primary pseudoperfect numbers are 2, 6, 42, 1806, 47058,\n2214502422, 52495396602, 8490421583559688410706771261086, the first four\nof these being each one less than the first four terms of Sylvester\u2019s\nsequence; these are listed in A054377 of Sloane\u2019s OEIS. Presently it\u2019s\nnot known whether there are any odd primary pseudoperfect numbers.",
+  "language": "INFORMAL",
+  "phrase": "Primary Pseudoperfect Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimaryPseudoperfectNumber"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Remember that two cocycles $a, a^\\prime\\colon G\\to L^*$ are called\ncohomologous, denoted by $a\\sim a^\\prime$, if there exists $b\\in L^*$,\nsuch that $a^\\prime(\\tau)=ba(\\tau)\\tau(b^{-1})$ for all $\\tau\\in G$.\nThen $$H^1(G,L^*)=\\{a\\colon G\\to L^*|a\\text{ is a cocycle}\\}/\\sim.$$ Now\nlet $a\\colon G\\to L^*$ be a cocycle. Then consider the map\n$$\\alpha\\colon L\\to L, c\\mapsto\\sum_{\\tau\\in G}a(\\tau)\\tau(c).$$ Since\nelements of the Galois group are linearly independent, $\\alpha$ is not\n$0$. So we can choose $c\\in L$, such that $b=\\alpha(c)\\neq 0$. Then for\n$\\sigma\\in G$ we have $$\\begin{aligned}\n\\sigma(b)&=\\sum_{\\tau\\in G}\\sigma(a(\\tau)\\tau(c))\\\\\n&=\\sum_{\\tau\\in G}\\sigma(a(\\tau))(\\sigma\\tau)(c)\\\\\n&=\\sum_{\\tau\\in G}a(\\sigma)^{-1}a(\\sigma\\tau)(\\sigma\\tau)(c),\\end{aligned}$$\nsince $a$ is a cocycle, i.e. $a(\\sigma\\tau)=a(\\sigma)\\sigma(a(\\tau))$.\nThen we get $$\\begin{aligned}\n\\sigma(b)&=a(\\sigma)^{-1}\\sum_{\\tau\\in G}a(\\sigma\\tau)(\\sigma\\tau)(c)\\\\\n&=a(\\sigma)^{-1}b.\\end{aligned}$$ Thus we have that\n$a(\\sigma)=b\\sigma(b)^{-1}$ is a 1-coboundary.\n\nNow we prove the corollary. Denote the norm by $N$. Now if\n$x=\\frac{y}{\\sigma(y)}$, we have\n$$N(x)=N\\left(\\frac{y}{\\sigma(y)}\\right)=\\prod_{\\tau\\in G}\\frac{\\tau(y)}{\\tau(\\sigma(y))}=1.$$\nNow let $N(x)=1$, $n=|G|$. Since $G$ is assumed cyclic, let $\\sigma$ be\na generator of $G$. $G$ is isomorphic to $\\mathbb{Z}/n\\mathbb{Z}$. We\ndefine the map $\\tilde{x}\\colon \\mathbb{Z}/n\\mathbb{Z}\\to L^*$ by\n$$\\tilde{x}([i])=\\prod_{0\\leq j\\leq i-1}\\sigma^j(x),$$ where $[i]$\ndenotes the class of $i\\in\\mathbb{Z}$ in $\\mathbb{Z}/n\\mathbb{Z}$. Since\n$N(x)=1$, $\\tilde{x}$ is well defined. We have $$\\begin{aligned}\n\\tilde{x}([i+k])&=\\prod_{0\\leq j\\leq i+k-1}\\sigma^j(x)\\\\\n&=\\left(\\prod_{0\\leq j\\leq i-1}\\sigma^j(x)\\right)\\sigma^i\\left(\\prod_{0\\leq j\\leq k-1}\\sigma^j(x)\\right)\\\\\n&=\\tilde{x}([i])\\sigma^i(\\tilde{x}([j])).\\end{aligned}$$ Therefore\n$\\tilde{x}$ is a cocycle. Because of Hilberts Theorem 90, there exists\n$y\\in L^*$, such that $x=\\tilde{x}([1])=y\\sigma(y)^{-1}$.",
+  "conclusion": "#P_HilbertTheorem90",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfHilbertTheorem90"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Hilbert Theorem 90"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a topological group. Suppose some contractible space $X$\nadmits a fixed point free action of $G$, so that the quotient map\n$p:X \\rightarrow X/G$ is a fibre map. Then $X/G$, denoted $BG$ is called\nthe classifying space of $G$. Classifying spaces always exist and are\nunique up to homotopy. Further, if $G$ has the structure of a CW-\ncomplex, we can choose $BG$ to have one too.\n\nThe group (co)homology of $G$ is defined to be the (co)homology of $BG$.\nFrom the long-exact sequence associated to the fibre map, $p$, we know\nthat $\\pi_{n} (G) = \\pi_{n+1}(BG)$ for $n \\geq 0$. In particular the\nfundamental group of $BG$ is $\\pi_0(G)$, which inherits a group\nstructure as a quotient of $G$. Let $H$ denote $\\pi_0(G)$. Then $H$ acts\nfreely on the cells of $BG^{*}$, the universal over of $BG$. Hence the\ncellular resolution for $BG^{*}$, denoted, $C_*(BG^{*})$, is a sequence\nof free $ZH$- modules and $ZH$- linear maps. Taking coefficients in some\n$ZH$- module $A$, we have\n\n$$H^n(G; A)=H^n(C_{*}(BG^{*}); A) \\,\\,\\rm{ and }\\,\\, H_n(G; A)=H_n(C_{*}(BG^{*}); A)$$\n\nIn particular, when $G$ is discrete, $p$ must be the covering map\nassociated to a universal cover. Hence $X=BG^{*}$ and $C_*(BG^{*})$ is\nexact, as $X$ is contractible and hence has trivial homology. Note in\nthis case $H=G$. So for a discrete group $G$, we have,\n\n$$H^n(G; A)=Ext^n_{ZG}(Z, A) \\,\\,\\rm{  and  }\\,\\, H_n(G; A)= Tor^n_{ZG}(Z, A)$$\n\nAlso, as passing to the universal cover preserves $\\pi_{n}$ for $n > 1$,\nwe know that $\\pi_n (BG)=0$ for $n > 1$. $BG$ is always connected and\nfor a discrete group $\\pi_0(G)=G$ so we have $BG = k(G,1)$, the\nEilenberg - Maclane space.\n\nAs an example take $G = SU_1$. Note topologically, $SU_1=S^1 = k(Z, 1)$.\nAs $\\pi_n (G) = \\pi_{n+1}(BG)$ for $n \\geq 0$, we know that\n$BSU_1= k(Z, 2)= CP^\\infty$.\n\nMore explicitly, we may identify $SU_1$ with the unit complex numbers.\nThis acts freely on the infinite complex sphere (which is contractible)\nleaving a quotient of $CP^\\infty$.\n\nHence $H^n(SU_1,Z)=Z$ if $2$ divides $n$ and $0$ otherwise.\n\nSimiliarly $BC_2= RP^\\infty$ and $BSU_2 = HP^\\infty$, as $C_2$ and\n$SU_2$ are isomorphic to U(R) and U(H) respectively. So\n$H^n(C_2, Z_2)=Z_2$ for all $n$ and $H^n(SU_2,Z)=Z$ if $4$ divides $n$\nand $0$ otherwise.",
+  "language": "INFORMAL",
+  "phrase": "Group Cohomology (Topological Definition)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupCohomologytopologicalDefinition"
+    }
+  ],
+  "indexable": true
+}

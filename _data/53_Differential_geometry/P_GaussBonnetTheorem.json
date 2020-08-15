@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "(Carl Friedrich Gauss and Pierre Ossian Bonnet) Given a two-dimensional\ncompact Riemannian manifold $M$ with boundary, Gaussian curvature of\npoints $G$ and geodesic curvature of points $g_x$ on the boundary\n$\\partial M$, it is the case that\n$$\\int_M G \\, dA + \\int_{\\partial M}g_x ds = 2\\pi\\chi(M),$$ where\n$\\chi(M)$ is the Euler characteristic of the manifold, $dA$ denotes the\nmeasure with respect to area, and $ds$ denotes the measure with respect\nto arclength on the boundary. This theorem expresses a topological\ninvariant in terms of geometrical information.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaussBonnetTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gauss-Bonnet theorem"
+  ]
+}

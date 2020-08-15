@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $(a_n)$ is a positive real sequence that converges to $L$. Then\nthe sequence of arithmetic means $(b_n)=(n^{-1}\\sum_{k=1}^na_k)$ and the\nsequence of geometric means $(c_n)=(\\sqrt[n]{a_1\\cdots a_n})$ also\nconverge to $L$.\n\nWe first show that $(b_n)$ converges to $L$. Let $\\varepsilon>0$. Select\na positive integer $N_0$ such that $n\\ge N_0$ implies\n$|a_n-L|<\\varepsilon/2$. Since $(a_n)$ converges to a finite value,\nthere is a finite $M$ such that $|a_n-L|<M$ for all $n$. Thus we can\nselect a positive integer $N\\ge N_0$ for which\n$(N_0-1)M/N<\\varepsilon/2$.\n\nBy the triangle inequality, $$\\begin{aligned}\n|b_n-L|\n&\\le\\frac{1}{n}\\sum_{k=1}^n|a_k-L| \\\\\n&<\\frac{(N_0-1)M}{n}+\\frac{(n-N_0+1)\\varepsilon}{2n} \\\\\n&<\\varepsilon/2+\\varepsilon/2.\\end{aligned}$$ Hence $(b_n)$ converges to\n$L$.\n\nTo show that $(c_n)$ converges to $L$, we first define the sequence\n$(d_n)$ by $d_n=c_n^n=a_1\\cdots a_n$. Since $d_n$ is a positive real\nsequence, we have that $$\\liminf \\frac{d_{n+1}}{d_n} \\le\n\\liminf \\sqrt[n]{d_n}       \\le\n\\limsup \\sqrt[n]{d_n}       \\le\n\\limsup \\frac{d_{n+1}}{d_n},$$ a proof of which can be found in\u00a0[@Ru].\nBut $d_{n+1}/d_n=a_{n+1}$, which by assumption converges to $L$. Hence\n$\\sqrt[n]{d_n}=c_n$ must also converge to $L$.\n\n[1]{} Rudin, W., *Principles of Mathematical Analysis*, 3rd ed.,\nMcGraw-Hill, New York, 1976.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimeTheoremOfAConvergentSequenceA"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "prime theorem of a convergent sequence, a"
+  ]
+}

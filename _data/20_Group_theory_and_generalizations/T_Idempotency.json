@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $(S,*)$ is a magma, then an element $x\\in S$ is said to be\n*idempotent* if $x*x=x$. For example, every identity element is\nidempotent, and in a group this is the only idempotent element. An\nidempotent element is often just called an idempotent.\n\nIf every element of the magma $(S,*)$ is idempotent, then the binary\noperation $*$ (or the magma itself) is said to be idempotent. For\nexample, the $\\land$ and $\\lor$ operations in a are idempotent, because\n$x\\land x = x$ and $x\\lor x = x$ for all $x$ in the lattice.\n\nA function $f\\colon D\\to D$ is said to be idempotent if $f\\circ f=f$.\n(This is just a special case of the first definition above, the magma in\nquestion being $(D^D,\\circ)$, the monoid of all functions from $D$ to\n$D$ with the operation of function composition.) In other words, $f$ is\nidempotent if and only if repeated application of $f$ has the same\neffect as a single application: $f(f(x)) = f(x)$ for all $x\\in D$. An\nidempotent linear transformation from a vector space to itself is called\na projection.",
+  "language": "INFORMAL",
+  "phrase": "Idempotency",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Idempotency"
+    }
+  ],
+  "indexable": true
+}

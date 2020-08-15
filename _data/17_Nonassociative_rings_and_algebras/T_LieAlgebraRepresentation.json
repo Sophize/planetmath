@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "representation"
+  ],
+  "definition": "A representation of a Lie algebra ${\\mathfrak{g}}$ is a Lie algebra\nhomomorphism\n$$\\rho:{\\mathfrak{g}}\\rightarrow {\\mathop{\\mathrm{End}}\\nolimits}V,$$\nwhere ${\\mathop{\\mathrm{End}}\\nolimits}V$ is the commutator Lie algebra\nof some vector space $V$. In other words, $\\rho$ is a linear mapping\nthat satisfies\n$$\\rho([a,b]) = \\rho(a)\\rho(b)-\\rho(b)\\rho(a),\\quad a,b\\in{\\mathfrak{g}}$$\nAlternatively, one calls $V$ a ${\\mathfrak{g}}$-module, and calls\n$\\rho(a),\\,\na\\in {\\mathfrak{g}}$ the action of $a$ on $V$.\n\nWe call the representation [*faithful*]{} if $\\rho$ is injective.\n\nA invariant subspace or sub-module $W\\subset V$ is a subspace of $V$\nsatisfying $\\rho(a)(W)\\subset W$ for all $a\\in{\\mathfrak{g}}$. A\nrepresentation is called [*irreducible*]{} or simple if its only\ninvariant subspaces are $\\{0\\}$ and the whole representation.\n\nThe dimension of $V$ is called the dimension of the representation. If\n$V$ is infinite-dimensional, then one speaks of an infinite-dimensional\nrepresentation.\n\nGiven a pair of representations, we can define a new representation,\ncalled the direct sum of the two given representations:\n\nIf $\\rho:{\\mathfrak{g}}\\to{\\mathop{\\mathrm{End}}\\nolimits}(V)$ and\n$\\sigma:{\\mathfrak{g}}\\to{\\mathop{\\mathrm{End}}\\nolimits}(W)$ are\nrepresentations, then $V\\oplus W$ has the obvious Lie algebra action, by\nthe embedding\n${\\mathop{\\mathrm{End}}\\nolimits}(V)\\times{\\mathop{\\mathrm{End}}\\nolimits}(W)\\hookrightarrow{\\mathop{\\mathrm{End}}\\nolimits}(V\\oplus W)$.",
+  "language": "INFORMAL",
+  "phrase": "Lie Algebra Representation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LieAlgebraRepresentation"
+    }
+  ],
+  "indexable": true
+}

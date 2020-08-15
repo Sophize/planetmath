@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "gamma distribution"
+  ],
+  "definition": "A **gamma random variable** with parameters $\\alpha>0$ and $\\lambda>0$\nis one whose probability density function is given by $$\\begin{aligned}\nf_X(x) = \\frac{ \\lambda^\\alpha}{\\Gamma(\\alpha)} x^{\\alpha - 1} e^{-\\lambda x}  \\end{aligned}$$\nfor $x>0$, and is denoted by $X\\sim Gamma(\\alpha, \\lambda)$.\n\nNotes:\\\n\n1.  Gamma random variables are widely used in many applications. Taking\n    $\\alpha = 1$ reduces the form to that of an exponential random\n    variable. If $\\alpha = \\frac{n}{2}$ and $\\lambda = \\frac{1}{2}$,\n    this is a chi-squared random variable.\n\n2.  The function $\\Gamma: [0,\\infty] \\to R$ is the gamma function,\n    defined as $\\Gamma(t) = \\int_{0}^{\\infty}{x^{t-1} e^{-x} dx}$.\n\n3.  The expected value of a gamma random variable is given by\n    $E[X]=\\frac{\\alpha}{\\lambda}$, and the variance by\n    $Var[X] = \\frac{\\alpha}{\\lambda^2}$\n\n4.  The moment generating function of a gamma random variable is given\n    by $M_X(t) = (\\frac{\\lambda}{\\lambda - t})^\\alpha$.\n\nIf the first parameter is a positive integer, the variate is usually\ncalled Erlang random variate. The sum of $n$ exponentially distributed\nvariables with parameter $\\lambda$ is a gamma (Erlang) variate with\nparameters $n, \\lambda$.",
+  "language": "INFORMAL",
+  "phrase": "Gamma Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GammaRandomVariable"
+    }
+  ],
+  "indexable": true
+}

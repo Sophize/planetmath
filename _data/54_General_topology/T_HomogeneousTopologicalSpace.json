@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "homogeneous space"
+  ],
+  "definition": "Definitions {#definitions .unnumbered}\n===========\n\nA topological space $X$ is said to be *homogeneous* if for all\n$a,b\\in X$ there is a homeomorphism $\\phi\\colon X\\to X$ such that\n$\\phi(a)=b$.\n\nA topological space $X$ is said to be *bihomogeneous* if for all\n$a,b\\in X$ there is a homeomorphism $\\phi\\colon X\\to X$ such that\n$\\phi(a)=b$ and $\\phi(b)=a$.\n\nExamples {#examples .unnumbered}\n========\n\nThe long line (without initial point) is homogeneous, but it is not\nbihomogeneous as its self-homeomorphisms are all order-preserving. This\ncan be considered a pathological example, as most homogeneous\ntopological spaces encountered in practice are also bihomogeneous.\n\nEvery topological group is bihomogeneous. To see this, note that if $G$\nis a topological group and $a,b\\in G$, then $x\\mapsto ax^{-1}b$ defines\na homeomorphism interchanging $a$ and $b$.\n\nEvery connected topological manifold without boundary is homogeneous.\nThis is true even if we do not require our manifolds to be paracompact,\nas any two points share a Euclidean neighbourhood, and a suitable\nhomeomorphism for this neighbourhood can be extended to the whole\nmanifold. In fact, except for the long line (as mentioned above), every\nconnected topological manifold without boundary is bihomogeneous. This\nis for essentially the same reason, except that the argument breaks down\nfor $1$-manifolds.",
+  "language": "INFORMAL",
+  "phrase": "Homogeneous Topological Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomogeneousTopologicalSpace"
+    }
+  ],
+  "indexable": true
+}

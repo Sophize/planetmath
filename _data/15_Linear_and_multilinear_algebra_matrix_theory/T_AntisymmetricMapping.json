@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "skew-symmetric",
+    "anti-symmetric",
+    "antisymmetric",
+    "skew-symmetric mapping"
+  ],
+  "definition": "Let $U$ and $V$ be a vector spaces over a field $K$. A bilinear mapping\n$B:U\\times U\\rightarrow V$ is said to be *antisymmetric* if $$B(u,u)=0$$\nfor all $u\\in U$.\n\nIf $B$ is antisymmetric, then the polarization of the anti-symmetry\nrelation gives the condition: $$B(u,v) + B(v,u) = 0$$ for all\n$u,v \\in U$. If the characteristic of $K$ is not 2, then the two\nconditions are equivalent.\n\nA multlinear mapping $M:U^k\\rightarrow V$ is said to be *totally\nantisymmetric*, or simply antisymmetric, if for every\n$u_1,\\ldots,u_k\\in U$ such that $$u_{i+1} = u_i$$ for some\n$i=1,\\ldots,k-1$ we have $$M(u_1,\\ldots,u_k)=0.$$\n\nLet $M:U^k\\rightarrow V$ be a totally antisymmetric, multlinear mapping,\nand let $\\pi$ be a permutation of $\\{1,\\ldots,k\\}$. Then, for every\n$u_1,\\ldots,u_k\\in U$ we have\n$$M(u_{\\pi_1},\\ldots,u_{\\pi_k}) = \\mathrm{sgn}(\\pi)\n  M(u_1,\\ldots,u_k),$$ where $\\mathrm{sgn}(\\pi)=\\pm1$ according to the\nparity of $\\pi$.\n\n[*Proof.*]{} Let $u_1,\\ldots,u_k\\in U$ be given. multlinearity and\nanti-symmetry imply that $$\\begin{aligned}\n0 &= M(u_1+u_2,u_1+u_2,u_3,\\ldots,u_k) \\\\\n&= M(u_1,u_2,u_3,\\ldots,u_k) + M(u_2,u_1,u_3,\\ldots,u_k)  \\end{aligned}$$\nHence, the proposition is valid for $\\pi=(12)$ (see cycle notation).\nSimilarly, one can show that the proposition holds for all\ntranspositions $$\\pi=(i,i+1),\\quad i=1,\\ldots,k-1.$$ However, such\ntranspositions generate the group of permutations, and hence the\nproposition holds in full generality.\n\n#### Note.\n\nThe determinant is an excellent example of a totally antisymmetric,\nmultlinear mapping.",
+  "language": "INFORMAL",
+  "phrase": "Antisymmetric Mapping",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AntisymmetricMapping"
+    }
+  ],
+  "indexable": true
+}

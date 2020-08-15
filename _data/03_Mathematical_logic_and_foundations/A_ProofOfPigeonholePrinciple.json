@@ -1,0 +1,17 @@
+{
+  "argumentText": "It will first be proven that, if a bijection exists between two finite\nsets, then the two sets have the same number of elements. Let $S$ and\n$T$ be finite sets and $f \\colon S \\to T$ be a bijection. The claim will\nbe proven by induction on $|S|$.\n\nIf $|S|=0$, then $S=\\emptyset$, and $f \\colon \\emptyset \\to T$ can only\nbe surjective if $T=\\emptyset$.\n\nAssume the statement holds for any set $S$ with $|S|=n$. Let $|S|=n+1$.\nLet $x_1, \\dots , x_{n+1} \\in S$ with $S=\\{x_1, \\dots , x_{n+1}\\}$. Let\n$R=S \\setminus \\{x_{n+1}\\}$. Then $|R|=n$.\n\nDefine $g \\colon R \\to T \\setminus \\{f(x_{n+1})\\}$ by $g(x)=f(x)$. Since\n$R \\subset S$, $f(x) \\in T$ for all $x \\in R$. Thus, to show that $g$ is\nwell-defined, it only needs to be verified that $f(x) \\neq f(x_{n+1})$\nfor all $x \\in R$. This follows immediately from the facts that\n$x_{n+1} \\notin R$ and $f$ is injective. Therefore, $g$ is well-defined.\n\nNow it need to be proven that $g$ is a bijection. The fact that $g$ is\ninjective follows immediately from the fact that $f$ is injective. To\nverify that $g$ is surjective, let $y \\in T \\setminus \\{f(x_{n+1})\\}$.\nSince $f$ is surjective, there exists $x \\in S$ with $f(x)=y$. Since\n$f(x)=y \\neq f(x_{n+1})$ and $f$ is injective, $x \\neq x_{n+1}$. Thus,\n$x \\in R$. Hence, $g(x)=f(x)=y$. It follows that $g$ is a bijection.\n\nBy the induction hypothesis, $|R|=|T \\setminus \\{f(x_{n+1})\\}|$. Thus,\n$n=|R|=|T \\setminus \\{f(x_{n+1})\\}|=|T|-1$. Therefore, $|T|=n+1=|S|$.",
+  "conclusion": "#P_PigeonholePrinciple",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPigeonholePrinciple"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of pigeonhole principle"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $p$ and $q$ be two distinct odd primes. Then:\n\n$$\\left(\\frac{q}{p}\\right)\\left(\\frac{p}{q}\\right)=(-1)^{(p-1)(q-1)/4}$$\n\nwhere $\\left(\\frac{\\cdot}{\\cdot}\\right)$ is the symbol (or Legendre\nsymbol).\n\nThe following is an equivalent formulation of the Law of Quadratic\nReciprocity:\n\nLet $p,q$ be distinct odd primes. Then:\n\n1.  $\\displaystyle \\left(\\frac{p}{q}\\right) = \\left(\\frac{q}{p}\\right)$\n    if one of $p$ or $q$ is congruent to $1$ modulo $4$;\n\n2.  $\\displaystyle \\left(\\frac{p}{q}\\right) = - \\left(\\frac{q}{p}\\right)$\n    if both $p$ and $q$ are congruent to $3$ modulo $4$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuadraticReciprocityRule"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "quadratic reciprocity rule",
+    "quadratic reciprocity"
+  ]
+}

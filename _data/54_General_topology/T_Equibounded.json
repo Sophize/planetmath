@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "equi bounded",
+    "equi-bounded"
+  ],
+  "definition": "Let $X$ and $Y$ be metric spaces. A family $F$ of functions from $X$ to\n$Y$ is said to be *equibounded* if there exists a bounded subset $B$ of\n$Y$ such that for all $f\\in F$ and all $x\\in X$ it holds $f(x)\\in B$.\n\nNotice that if $F\\subset \\mathcal C_b(X,Y)$ (continuous bounded\nfunctions) then $F$ is equibounded if and only if $F$ is bounded (with\nrespect to the metric of uniform convergence).",
+  "language": "INFORMAL",
+  "phrase": "Equibounded",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Equibounded"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $(X,d)$ is a complete metric space, then the Hausdorff metric induced\nby $d$ is also complete.\n\nSuppose $(A_n)$ is a Cauchy sequence with respect to the Hausdorff\nmetric. By selecting a subsequence if necessary, we may assume that\n$A_n$ and $A_{n+1}$ are within $2^{-n}$ of each other, that is, that\n$A_n\\subset K(A_{n+1},2^{-n})$ and $A_{n+1}\\subset K(A_n, 2^{-n})$. Now\nfor any natural number $N$, there is a sequence $(x_n)_{n\\ge N}$ in $X$\nsuch that $x_n\\in A_n$ and $d(x_n,x_{n+1})<2^{-n}$. Any such sequence is\nCauchy with respect to $d$ and thus converges to some $x\\in X$. By\napplying the triangle inequality, we see that for any $n\\ge N$,\n$d(x_n,x)<2^{-n+1}$. Define $A$ to be the set of all $x$ such that $x$\nis the limit of a sequence $(x_n)_{n\\ge 0}$ with $x_n\\in A_n$ and\n$d(x_n,x_{n+1})<2^{-n}$. Then $A$ is nonempty. Furthermore, for any $n$,\nif $x\\in A$, then there is some $x_n\\in A_n$ such that\n$d(x_n,x)<2^{-n+1}$, and so $A\\subset K(A_n,2^{-n+1})$. Consequently,\nthe set $\\overline{A}$ is nonempty, closed and bounded.\n\nSuppose $\\epsilon>0$. Thus $\\epsilon>2^{-N}>0$ for some $N$. Let\n$n\\ge N+1$. Then by applying the claim in the first paragraph, we have\nthat for any $x_n\\in A_n$, there is some $x\\in X$ with\n$d(x_n,x)<2^{-n+1}$. Hence $A_n\\subset K(\\overline{A},2^{-n+1})$. Hence\nthe sequence $(A_n)$ converges to $A$ in the Hausdorff metric.\n\nThis proof is based on a sketch given in an exercise in\u00a0[@Mu]. An\nexercise for the reader: is the set $A$ constructed above closed?\n\n[9]{} J. Munkres, *Topology* (2nd edition), Prentice Hall, 1999.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HausdorffMetricInheritsCompleteness"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hausdorff metric inherits completeness"
+  ]
+}

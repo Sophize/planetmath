@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For any real vector $x = (x_1,x_2,\\ldots,x_n)\\in \\mathbb{R}^n$, let\n$x_{(1)}\\geq x_{(2)} \\geq \\cdots \\geq x_{(n)}$ denote the components of\n$x$ in non-increasing order.\n\nFor $x, y \\in \\mathbb{R}^n$, we say that $x$ is majorized by $y$, or $y$\nmajorizes $x$, if $$\\begin{aligned}\n \\sum_{i=1}^m x_{(i)} &\\leq \\sum_{i=1}^m y_{(i)}, \\quad \\text{ for $m=1,\\ldots, n-1$, and} \\\\\n \\sum_{i=1}^n x_{(i)} &= \\sum_{i=1}^n y_{(i)}\\end{aligned}$$ A common\nnotation for \u201c$x$ is majorized by $y$\u201d is $x \\prec y$.\n\n[**Remark:**]{}\n\nA canonical example is that, if $y_1$, $y_2, \\ldots, y_n$ are\nnon-negative real numbers such that their sum is equal to 1, then\n$$\\left(\\frac{1}{n},\\ldots,\\frac{1}{n} \\right) \\prec (y_1,\\ldots,y_n).$$\nIn general, $x\\prec y$ vaguely means that the components of $x$ is less\nspread out than are the components of\u00a0$y$.\n\n[**Reference**]{}\n\n-   G. H. Hardy, J. E. Littlewood and G. P[\u00f3]{}lya, [*Inequalities*]{},\n    2nd edition, 1952, Cambridge University Press, London.\n\n-   A. W. Marshall and I. Olkin, [*Inequalities: Theory of Majorization\n    and Its Applications*]{}, 1979, Acadamic Press, New York.",
+  "language": "INFORMAL",
+  "phrase": "Majorization",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Majorization"
+    }
+  ],
+  "indexable": true
+}

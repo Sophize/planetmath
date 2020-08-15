@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Gram matrices",
+    "Gram bilinear form"
+  ],
+  "definition": "For a vector space $V$ of dimension $n$ over a field $k$, endowed with\nan inner product $<.,.>: V\\times V\\to k$, and for any given sequence of\nelements $x_1,\\ldots,x_l \\in V$, consider the following inclusion map\n$\\iota$ associated to the $(x_i)_{i=1,\\ldots,l}$: $$\\begin{array}{cccc}\n\\iota:& k^l & \\to & k^n=V\\\\\n      & (\\lambda_1,\\ldots,\\lambda_l)& \\mapsto & \\sum_{i=1}^l \\lambda_i x_i\n\\end{array}$$ The *Gram bilinear form* of the $(x_i)_{i=1,\\ldots,l}$ is\nthe function $$x,y\\in k^l\\times k^l \\mapsto <\\iota(x),\\iota(y)>$$ The\n*Gram matrix* of the $(x_i)_{i=1,\\ldots,l}$ is the matrix associated to\nthe Gram bilinear form in the canonical basis of $k^l$. The Gram form\n(resp. matrix) is a symmetric bilinear form (resp. matrix).\\\nGram forms/matrices are usually considered with $k=\\mathbb R$ and\n$<.,.>$ the usual scalar products on vector spaces over $\\mathbb R$. In\nthat context they have a strong geometrical meaning:\n\n-   The determinant of the Gram form/matrix is $0$ $\\iota$ is an\n    injection.\n\n-   If $\\iota$ is injective, the Gram matrix (resp. form) is a positive\n    symmetric matrix (resp. bilinear form).\n\n-   $\\det(G)^{-2}=\\mathrm{Vol}(\\iota^{-1}(B_{0,1}))$ where $G$ is the\n    gram form/matrix, $\\mathrm{Vol}$ denotes the volume of a subset of\n    ${\\mathbb R}^n$, and $B_{0,1}$ is the unit ball of ${\\mathbb R}^n$\n    centered at $0$.\n\n-   Let $\\Delta: \\lambda\\in {\\mathbb R}^l \\mapsto G(\\lambda,\\lambda)$,\n    where $G$ is the Gram bilinear form, then\n    $\\iota^{-1}(B_{0,1})=\\Delta^{-1}([0,1])$.\n\n-   If $\\iota$ is injective and\n    $s:\\mathrm{Im}(\\iota)\\subset{\\mathbb R}^n \\to {\\mathbb R}^l$ is an\n    isometry, then $\\det(s\\circ\\iota)^2=\\det(G)$.\n\n-   Let $f$ be an endomorphism of ${\\mathbb R}^n$ and $M$ its matrix.\n    Let $H,U$ be the polar decomposition of $M$, $H$ is a symmetric\n    positive matrix and $U$ an orthogonal matrix. Let the $x_i$ be the\n    columns of $M$ ($l=n$) and let $G$ be the Gram matrix the $x_i$.\n    Then $H^2=G$. (N.B.: this is one way to prove the existence of the\n    polar decomposition, take the square root of the Gram matrix,\n    multiply $M$ by its inverse and it easily follows that what is\n    obtained is an orthogonal matrix).\n\nThey are utilized in statistics in Principal components analysis. One\nwants to determine the general trend in terms of few characteristics\n($l$ of them) in a large sample ($n$ individuals). Each\n$x_i (\\in {\\mathbb R}^n)$ represents the results of the $n$ individuals\nin the sample for the $i^\\mathrm{th}$ characteristic. Each one of the\n$l$ dimensions represents a characteristic and one wants to know what\nare the predominant characteristics and if they bear some kind of linear\nrelations between them. This is achieved by diagonalizing the Gram\nmatrix (often called dispersion matrix or covariance matrix in that\ncontext). The higher the eigenvalue, the more important the eigenvector\nassociated to it.",
+  "language": "INFORMAL",
+  "phrase": "Gram Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GramMatrix"
+    }
+  ],
+  "indexable": true
+}

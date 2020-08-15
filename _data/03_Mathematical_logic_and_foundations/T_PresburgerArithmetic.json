@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Presburger arithmetic* is a weakened form of arithmetic which includes\nthe structure $\\mathbb{N}$, the constant $0$, the unary function $S$,\nthe binary function $+$, and the binary relation $<$. Essentially, it is\nPeano arithmetic without multiplication.\n\nThe axioms are:\n\n1.  $0\\not= Sx$\n\n2.  $Sx=Sy\\rightarrow x=y$\n\n3.  $x+0=x$\n\n4.  $x+Sy=S(x+y)$\n\n5.  For each first order formula $P(x)$,\n    $P(0)\\wedge\\forall x[P(x)\\rightarrow P(x+1)]\\rightarrow\\forall x P(x)$\n\nPresburger arithmetic is decidable, but is consequently very limited in\nwhat it can express.",
+  "language": "INFORMAL",
+  "phrase": "Presburger Arithmetic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PresburgerArithmetic"
+    }
+  ],
+  "indexable": true
+}

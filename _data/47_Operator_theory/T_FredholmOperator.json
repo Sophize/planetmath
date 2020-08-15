@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A **Fredholm operator** is a bounded operator between Banach spaces that\nhas a finite dimensional kernel and cokernel (and closed range).\nEquivalently, it is invertible modulo compact operators. That is, if\n$F\\colon X \\to Y$ is a Fredholm operator between two vector spaces $X$\nand $Y$, then there exists a bounded operator $G\\colon Y \\to X$ such\nthat\n$$GF-{\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_X \\in {\\mathbb{K}}(X), \\quad FG-{\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_Y \\in {\\mathbb{K}}(Y),$$\nwhere ${\\mathbb{K}}(X)$ denotes the space of compact operators on $X$.\n(Another way to say this is that $F$ is invertible in the Calkin\nalgebra). The set of Fredholm operators $\\{F\\colon X \\to X\\}$ is an open\nsubset of the Banach algebra of bounded operators $\\{T\\colon X \\to X\\}$.\n\nIf $F$ is Fredholm then so is its adjoint, $F^*$. If\n$T \\in {\\mathbb{K}}(X,Y)$ is a compact operator then $F+T$ is also\nFredholm.",
+  "language": "INFORMAL",
+  "phrase": "Fredholm Operator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FredholmOperator"
+    }
+  ],
+  "indexable": true
+}

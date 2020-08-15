@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $Th$ and $Pr$ are two sets of facts (in particular, a theory of some\nlanguage and the set of things provable by some method) we say $Pr$ is\n*sound* for $Th$ if $Pr\\subseteq Th$. Typically we have a theory and set\nof rules for constructing proofs, and we say the set of rules are sound\n(which theory is intended is usually clear from context) since\neverything they prove is true (in $Th$).\n\nIf $Th\\subseteq Pr$ we say $Pr$ is *complete* for $Th$. Again, we\nusually have a theory and a set of rules for constructing proofs, and\nsay that the set of rules is complete since everything true (in $Th$)\ncan be proven.",
+  "language": "INFORMAL",
+  "phrase": "Sound,, Complete",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SoundComplete"
+    }
+  ],
+  "indexable": true
+}

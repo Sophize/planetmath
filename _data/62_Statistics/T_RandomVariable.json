@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $(\\Omega,{\\mathcal}{A},P)$ is a probability space, then a **random\nvariable** on $\\Omega$ is a measurable function\n$X: (\\Omega,{\\mathcal}{A}) \\to S$ to a measurable space $S$ (frequently\ntaken to be the real numbers with the standard measure). The *law* of a\nrandom variable is the probability measure $PX^{-1}:S\\to {{\\mathbb}{R}}$\ndefined by $PX^{-1}(s)=P(X^{-1}(s))$.\n\nA random variable $X$ is said to be *discrete* if the set\n$ \\{X(\\omega) : \\omega \\in \\Omega \\}$ (i.e. the range of $X$) is finite\nor countable. A more general version of this definition is as follows: A\nrandom variable $X$ is discrete if there is a countable subset $B$ of\nthe range of $X$ such that $P(X \\in B)=1$ (Note that, as a countable\nsubset of $\\mathbb{R}$, $B$ is measurable).\n\nA random variable $Y$ is said to be ** if it has a cumulative\ndistribution function which is .\n\nExample:\n\nConsider the event of throwing a coin. Thus, $\\Omega = \\{ H, T \\}$ where\n$H$ is the event in which the coin falls head and $T$ the event in which\nfalls tails. Let $X=$number of tails in the experiment. Then $X$ is a\n(discrete) random variable.",
+  "language": "INFORMAL",
+  "phrase": "Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RandomVariable"
+    }
+  ],
+  "indexable": true
+}

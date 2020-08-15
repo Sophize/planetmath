@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "additive quotient category"
+  ],
+  "definition": "Essential data: Dense subcategory\n---------------------------------\n\nA full subcategory $\\mathcal{A}$ of an Abelian category $\\mathcal{C}$ is\ncalled *dense* if for any exact sequence in $\\mathcal{C}$:\n$$0 \\to X' \\to X \\to X'' \\to 0,$$ $X$ is in $\\mathcal{A}$ if and only if\nboth $X'$ and $X''$ are in $\\mathcal{A}$.\n\n**Remark 0.1:** One can readily prove that if $X$ is an object of the\n*dense subcategory* $\\mathcal{A}$ of $\\mathcal{C}$ as defined above,\nthen any subobject $X_Q$, or quotient object of $X$, is also in\n$\\mathcal{A}$.\\\n\n### System of morphisms $\\Sigma_A$\n\nLet $\\mathcal{A}$ be a *dense subcategory* (as defined above) of a\nlocally small Abelian category $\\mathcal{C}$, and let us denote by\n$\\Sigma_A$ (or simply only by $\\Sigma$ \u2013 when there is no possibility of\nconfusion) the system of all morphisms $s$ of $\\mathcal{C}$ such that\nboth $ker s$ and $coker s$ are in $\\mathcal{A}$. One can then prove that\nthe category of additive fractions $\\mathcal{C}_{\\Sigma}$ of\n$\\mathcal{C}$ relative to $\\Sigma$ exists.\n\nThe *quotient category of $\\mathcal{C}$ relative to $\\mathcal{A}$*,\ndenoted as $\\mathcal{C}/\\mathcal{A}$, is defined as the category of\nadditive fractions $\\mathcal{C}_{\\Sigma}$ relative to a class of\nmorphisms $\\Sigma :=\\Sigma_A $ in $\\mathcal{C}$.\n\n**Remark 0.2** In view of the restriction to additive fractions in the\nabove definition, it may be more appropriate to call the above category\n$\\mathcal{C}/\\mathcal{A}$ an *additive quotient category*. This would be\nimportant in order to avoid confusion with the more general notion of\n\u2013which is defined as a category of fractions. Note however that **Remark\n0.1** is also applicable in the context of the more general definition\nof a .",
+  "language": "INFORMAL",
+  "phrase": "Quotient Category, Additive",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientCategoryAdditive"
+    }
+  ],
+  "indexable": true
+}

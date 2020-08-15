@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $X$ be any set and let $f$ be a choice function on\n$\\mathcal{P}(X)\\setminus\\{\\emptyset \\} $. Then define a function $i$ by\ntransfinite recursion on the class of ordinals as follows:\n$$i(\\beta)=f(X-\\bigcup_{\\gamma<\\beta} \\{i(\\gamma)\\})\\text{ unless } X-\\bigcup_{\\gamma<\\beta} \\{i(\\gamma)\\}=\\emptyset\\text{ or }i(\\gamma)\\text{ is undefined for some }\\gamma<\\beta$$\n\n(the function is undefined if either of the unless clauses holds).\n\nThus $i(0)$ is just $f(X)$ (the least element of $X$), and\n$i(1)=f(X-\\{i(0)\\})$ (the least element of $X$ other than $i(0)$).\n\nDefine by the axiom of replacement\n$\\beta=i^{-1}[X]=\\{\\gamma\\mid i(\\gamma)=x \\text{ for some }x\\in X\\}$.\nSince $\\beta$ is a set of ordinals, it cannot contain all the ordinals\n(by the Burali-Forti paradox).\n\nSince the ordinals are well ordered, there is a least ordinal $\\alpha$\nnot in $\\beta$, and therefore $i(\\alpha)$ is undefined. It cannot be\nthat the second unless clause holds (since $\\alpha$ is the least such\nordinal) so it must be that\n$X-\\bigcup_{\\gamma<\\alpha} \\{i(\\gamma)\\}=\\emptyset$, and therefore for\nevery $x\\in X$ there is some $\\gamma<\\alpha$ such that $i(\\gamma)=x$.\nSince we already know that $i$ is injective, it is a bijection between\n$\\alpha$ and $X$, and therefore establishes a well-ordering of $X$ by\n$x<_Xy\\leftrightarrow i^{-1}(x)<i^{-1}(y)$.\n\nThe reverse is simple. If $C$ is a set of nonempty sets, select any well\nordering of $\\bigcup C$. Then a choice function is just\n$f(a)=$` the least member of `$a$` under that well ordering`.",
+  "conclusion": "#P_ZermelosWellorderingTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZF"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfZermelosWellorderingTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Zermelo's well-ordering theorem"
+  ]
+}

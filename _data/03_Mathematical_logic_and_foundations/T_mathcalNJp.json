@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "NJp"
+  ],
+  "definition": "$\\mathcal{NJ}p$ is a natural deduction proof system for intuitionistic\npropositional logic. Its only axiom is $\\alpha\\Rightarrow\\alpha$ for any\natomic $\\alpha$. Its rules are:\n\n$$\\begin{array}{cc}\n\\frac{\\begin{array}{c}\\Gamma\\Rightarrow\\alpha\\end{array}}{\n\\begin{array}{cc}\n\\Gamma\\Rightarrow\\alpha\\vee\\beta&\n\\Gamma\\Rightarrow\\beta\\vee\\alpha\n\\end{array}{cc}}(\\vee I)\n&\n\\frac{\\begin{array}{ccc}\n\\Gamma\\Rightarrow\\alpha&\n\\Sigma,\\alpha^0\\Rightarrow\\phi&\n\\Pi,\\beta^0\\Rightarrow\\phi\n\\end{array}}\n{\\begin{array}{c}[\\Gamma,\\Sigma,\\Pi]\\Rightarrow\\phi\\end{array}}(\\vee E)\n\\end{array}$$\n\nThe syntax $\\alpha^0$ indicates that the rule also holds if that formula\nis omitted.\n\n$$\\begin{array}{cc}\n\\frac{\\begin{array}{cc}\n\\Gamma\\Rightarrow\\alpha&\n\\Sigma\\Rightarrow\\beta\n\\end{array}}{\\begin{array}{c}\n[\\Gamma,\\Sigma]\\Rightarrow\\alpha\\wedge\\beta\\end{array}}(\\wedge I)\n&\n\\frac{\\begin{array}{c}\\Gamma\\Rightarrow\\alpha\\wedge\\beta\\end{array}}\n{\\begin{array}{cc}\n\\Gamma\\Rightarrow\\alpha&\n\\Gamma\\Rightarrow\\beta\n\\end{array}}(\\wedge E)\n\\end{array}$$\n\n$$\\begin{array}{cc}\n\\frac{\\begin{array}{c}\\Gamma,\\alpha\\Rightarrow\\beta\\end{array}}{\n\\begin{array}{c}\\Gamma\\Rightarrow\\alpha\\rightarrow\\beta\\end{array}}(\\rightarrow I)\n&\n\\frac{\\begin{array}{cc}\n\\Gamma\\Rightarrow\\alpha\\rightarrow\\beta&\n\\Sigma\\Rightarrow\\alpha\n\\end{array}}\n{\\begin{array}{c}[\\Gamma,\\Sigma]\\Rightarrow\\beta\\end{array}}(\\rightarrow E)\n\\end{array}$$\n\n$$\\frac{\\Gamma\\Rightarrow\\bot}{\\Gamma\\Rightarrow\\alpha}(\\bot_i),\\quad \\text{ where }\\alpha\\text{ is atomic}$$",
+  "language": "INFORMAL",
+  "phrase": "$\\Mathcal{Nj}P$",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/mathcalNJp"
+    }
+  ],
+  "indexable": true
+}

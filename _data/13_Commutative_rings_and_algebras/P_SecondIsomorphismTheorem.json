@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(G,*)$ be a group. Let $H$ be a subgroup of $G$ and let $K$ be a\nnormal subgroup of $G$. Then\n\n-   $HK := \\{ h*k \\mid h \\in H,\\ k \\in K \\}$ is a subgroup of $G$,\n\n-   $K$ is a normal subgroup of $HK$,\n\n-   $H \\cap K$ is a normal subgroup of $H$,\n\n-   There is a natural group isomorphism $H/(H \\cap K) = HK/K$.\n\nThe same statement also holds in the category of modules over a fixed\nring (where normality is neither needed nor relevant), and indeed can be\nformulated so as to hold in any abelian category.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SecondIsomorphismTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "second isomorphism theorem"
+  ]
+}

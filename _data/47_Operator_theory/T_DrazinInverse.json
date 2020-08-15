@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A Drazin inverse of an operator $A$ is an operator, $B$, such that\n$$A B = B A,$$ $$B A B= B,$$ $$A B A= A- U,$$ where the spectral radius\n$r(U)=0$. The Drazin inverse ($B$) is denoted by $A^D$. It exists, if\n$0$ is not an accumulation point of $\\sigma (A)$.\n\nFor example, a projection operator is its own Drazin inverse, $P^D=P$,\nas $PPP = PP = P$; for a Shift operator $S^D=0$ holds.\n\nThe following are some other useful properties of the Drazin inverse:\n\n1.  $(A^D)^*= (A^*)^D$;\n\n2.  $A^D= (A+ \\alpha P^{(A)})^{-1} (I- P^{(A)})$, where\n    $P^{(A)}:= I-A^D A$ is the spectral projection of $A$ at $0$ and\n    $\\alpha \\neq 0$;\n\n3.  $A^{\\dagger}= (A^* A)^D A^* = A^* (A A^* )^D$, where $A^{\\dagger}$\n    is the Moore-Penrose pseudoinverse of $A$;\n\n4.  $A^D= A^m (A^{2m+1})^{\\dagger} A^m$ for $m \\ge \\mbox{ind}(A)$, if\n    $\\mbox{ind}(A):= \\min \\{ k: \\operatorname{Im} A^k = \\operatorname{Im} A^{k+1} \\}$\n    is finite;\n\n5.  If the matrix is represented explicitly by its Jordan canonical\n    form, ($\\Lambda$ regular and $N$ nilpotent), then\n\n    $$\\left( E \\begin{bmatrix} \\Lambda & 0 \\\\ 0 & N \\end{bmatrix} E^{-1} \\right)^D = E \\begin{bmatrix} \\Lambda^{-1} & 0 \\\\ 0 & 0 \\end{bmatrix} E^{-1};$$\n\n6.  Let $e_{\\lambda}^A$ denote an eigenvector of $A$ to the eigenvalue\n    $\\lambda$. Then\n    $e_{\\lambda}^A+t (\\lambda I- A)^D h e_{\\lambda}^A + O(t^2)$ is an\n    eigenvector of $A+ t h$.",
+  "language": "INFORMAL",
+  "phrase": "Drazin Inverse",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DrazinInverse"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $M$ be an oriented $r$-dimensional differentiable manifold with a\npiecewise differentiable boundary $\\partial M$. Further, let\n$\\partial M$ have the orientation induced by $M$. If $\\omega$ is an\n$(r-1)$-form on $M$ with compact support, whose components have\ncontinuous first partial derivatives in any coordinate chart, then\n$$\\int_M {\\mathrm{d}}\\omega = \\int_{\\partial M} \\omega.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralStokesTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "general Stokes theorem",
+    "Stokes theorem"
+  ]
+}

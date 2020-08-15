@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *definite integral* with respect to $x$ of some function $f(x)$ over\nthe compact interval $[a,b]$ with $a<b$, the *interval of integration*,\nis defined to be the \u201carea under the graph of $f(x)$ with respect to\n$x$\u201d (if $f(x)$ is negative, then you have a negative area). The numbers\n$a$ and $b$ are called *lower* and *upper limit* respectively. It is\nwritten as: $$\\int_a^bf(x) \\ dx .$$ One way to find the value of the\nintegral is to take a limit of an approximation technique as the\nprecision increases to infinity.\n\nFor example, use a Riemann sum which approximates the area by dividing\nit into $n$ intervals of equal widths, and then calculating the area of\nrectangles with the width of the interval and height dependent on the\nfunction\u2019s value in the interval. Let $R_n$ be this approximation, which\ncan be written as $$R_n = \\sum_{i=1}^{n} f(x_i^*) \\Delta x ,$$ where\n$x_i^*$ is some $x$ inside the $i^{\\rm th}$ interval. This process is\nillustrated by figure \\[fig:bars\\].\n\n![The area under the graph approximated by\nrectangles[]{data-label=\"fig:bars\"}](definite_integral.eps)\n\nThen, the integral would be\n$$\\int_a^bf(x) \\ dx = \\lim_{n \\to \\infty} R_n =\n   \\lim_{n \\to \\infty} \\sum_{i=1}^{n} f(x_i^*) \\Delta x .$$ This limit\ndoes not necessarily exist for every function $f$ and it may depend on\nthe particular choice of the $x_i^*$. If all those limits coincide and\nare finite, then the integral exists. This is true in particular for\ncontinuous $f$.\n\nFurthermore we define $$\\int_b^af(x)\\ dx=-\\int_a^bf(x)\\ dx.$$\n\nWe can use this definition to arrive at some important properties of\ndefinite integrals ($a$, $b$, $c$ are constant with respect to $x$):\n$$\\begin{aligned}\n\\int_a^b(f(x) + g(x)) \\ dx & = & \\int_a^bf(x)\\ dx + \\int_a^bg(x)\\ dx; \\\\\n\\int_a^b(f(x) - g(x)) \\ dx & = & \\int_a^bf(x)\\ dx - \\int_a^bg(x)\\ dx ;\\\\\n\\int_a^bf(x) \\ dx & = & \\int_a^cf(x)\\ dx + \\int_c^bf(x)\\ dx ;\\\\\n\\int_a^bcf(x) \\ dx & = & c\\int_a^bf(x)\\ dx.\\end{aligned}$$\n\nThere are other generalizations about integrals, but many require the\nfundamental theorem of calculus.",
+  "language": "INFORMAL",
+  "phrase": "Definite Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DefiniteIntegral"
+    }
+  ],
+  "indexable": true
+}

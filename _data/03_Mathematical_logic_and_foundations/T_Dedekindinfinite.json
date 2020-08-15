@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Dedekind infinite"
+  ],
+  "definition": "A set $A$ is said to be *Dedekind-infinite* if there is an injective\nfunction $f\\colon\\omega\\to A$, where $\\omega$ denotes the set of natural\nnumbers. A set that is not Dedekind-infinite is said to be\n*Dedekind-finite*.\n\nA Dedekind-infinite set is clearly infinite, and in ZFC it can be shown\nthat a set is Dedekind-infinite if and only if it is infinite.\n\nIt is consistent with ZF that there is an infinite set that is not\nDedekind-infinite. However, the existence of such a set requires the\nfailure not just of the full Axiom of Choice, but even of the Axiom of\nCountable Choice.",
+  "language": "INFORMAL",
+  "phrase": "Dedekind-Infinite",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Dedekindinfinite"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For any triangle $ABC$ there is always a circle passing through its\nthree vertices.\n\n![image](circumcircle)\n\nSuch circle is called a *circumcircle*. Its radius is the\n*circumradius*, and its center is the *circumcenter*. The circumcenter\nlies at the intersection of the perpendicular bisectors of the sides of\nthe triangle.\n\n[Since the perpendicular bisector of a segment is the locus of points at\nthe same distance from the segment endpoints, the points on the\nperpendicular bisector of $AB$ are equidistant to $A$ and $B$. The\npoints in the perpendicular bisector of $BC$ are equidistant to $B$ and\n$C$, and thus the intersection point $O$ is at the same distance from\n$A,B$ and $C$.]{}\n\nIn a more general setting, if $P$ is any polygon, its circumcircle would\nbe a circle passing through all vertices, and circumradius and\ncircumcenter are defined similarly. However, unlike triangles,\ncircumcircles need not to exist for any polygon. For instance, a\nnon-rectangular parallelogram has no circumcircle, for no circle passes\nthrough the four vertices. A quadrilateral that does possess a\ncircumcircle is called a cyclic quadrilateral.",
+  "language": "INFORMAL",
+  "phrase": "Circumcircle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Circumcircle"
+    }
+  ],
+  "indexable": true
+}

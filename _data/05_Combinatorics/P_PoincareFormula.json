@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K$ be finite oriented simplicial complex of dimension $n$. Then\n$$\\chi(K)= \\sum_{p=0}^n (-1)^p R_p(K),$$ where $\\chi(K)$ is the Euler\ncharacteristic of $K$, and $R_{p}(K)$ is the $p$-th Betti number of $K$.\n\nThis formula also works when $K$ is any finite CW complex. The Poincar\u00e9\nformula is also known as the Euler-Poincar\u00e9 formula, for it is a\ngeneralization of the Euler formula for polyhedra.\n\nIf $K$ is a compact connected orientable surface with no boundary and\nwith genus h, then $\\chi(K)=2-2h$. If $K$ is non-orientable instead,\nthen $\\chi(K)=2-h$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PoincareFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Poincar\\'e formula",
+    "Euler-Poincar\\'e formula",
+    "Euler-Poincare formula"
+  ]
+}

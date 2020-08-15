@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*number of distinct prime factors function*]{} $\\omega(n)$ counts\nhow many distinct prime factors $n$ has. Expressing $n$ as\n$$n = \\prod_{i = 1}^k {p_i}^{a_i},$$ where the $p_i$ are distinct\nprimes, there being $k$ of them, and the $a_i$ are positive integers\n(not necessarily distinct), then $\\omega(n) = k$.\n\nObviously for a prime $p$ it follows that $\\omega(p) = 1$. When $n$ is a\nsquarefree number, then $\\Omega(n) = \\omega(n)$, where $\\Omega(n)$ is\nthe . Otherwise, $\\Omega(n) > \\omega(n)$.\n\n$\\omega(n)$ is an additive function, and it can be used to define a\nmultiplicative function like the M\u00f6bius function\n$\\mu(n) = (-1)^{\\omega(n)}$ (as long as $n$ is squarefree).",
+  "language": "INFORMAL",
+  "phrase": "Number Of Distinct Prime Factors Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NumberOfDistinctPrimeFactorsFunction"
+    }
+  ],
+  "indexable": true
+}

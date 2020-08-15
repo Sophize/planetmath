@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Helmholtz differential equation",
+    "reduced wave equation"
+  ],
+  "definition": "The *Helmholtz equation* is a partial differential equation which, in\nscalar form is $${\\nabla}^2f+k^2f = 0,$$ or in vector form is\n$${\\nabla}^2{\\mathbf{A}}+k^2{\\mathbf{A}}= 0,$$ where ${\\nabla}^2$ is the\nLaplacian. The solutions of this equation represent the solution of the\nwave equation, which is of great interest in physics.\n\nConsider a wave equation\n$$\\frac{\\partial^2\\psi}{\\partial t^2} = c^2{\\nabla}^2\\psi$$ with wave\nspeed $c$. If we look for time harmonic standing waves of frequency\n$\\omega$, $$\\psi({\\mathbf{x}},t) = e^{-j\\omega t}\\phi({\\mathbf{x}})$$ we\nfind that $\\phi(x)$ satisfies the Helmholtz equation:\n$$({\\nabla}^2+k^2)\\phi = 0$$ where $k=\\omega/c$ is the wave number.\n\nUsually the Helmholtz equation is solved by the separation of variables\nmethod, in Cartesian, spherical or cylindrical coordinates.",
+  "language": "INFORMAL",
+  "phrase": "Helmholtz Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HelmholtzEquation"
+    }
+  ],
+  "indexable": true
+}

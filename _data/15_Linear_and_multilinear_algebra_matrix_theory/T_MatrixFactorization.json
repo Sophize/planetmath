@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "matrix decomposition"
+  ],
+  "definition": "### Matrix Factorization {#matrix-factorization .unnumbered}\n\nA *matrix factorization* (or *matrix decomposition*) is the\nright-hand-side product in\n\n$$A = F_1 F_2 \\ldots F_k$$\n\nfor \u201cinput\u201d matrix $A$. The number of factor matrices $k$ depends on the\nsituation. Most often, $k = 2$ or $k = 3$.\n\nNote that the process of *producing* a factorization/decomposition is\nalso called \u201cfactorization\u201d or \u201cdecomposition\u201d.\n\n### Examples {#examples .unnumbered}\n\nSome common factorizations and related devices are:\n\n-   LU-decomposition: $A = LU$, where $L$ is lower triangular, and $U$\n    is upper triangular\n\n-   QR-decomposition: $A = QR$, where $Q$ is orthogonal, and $R$ is\n    right triangular.\n\n-   Singular value decomposition (SVD): $A = USV^T$, where $U$ and $V$\n    are orthogonal, and $S$ is a partially diagonal matrix.\n\n-   The Cholesky Decomposition.\n\n-   For a positive definite matrix, we can decompose it into its\n    squared.\n\n-   Polar decomposition\n\n-   Jordan canonical form\n\n-   Iwasawa decomposition\n\nSee the entries for these and other matrix factorizations for details on\nthe contents of the factor matrices, where to apply them, and how to\nbest calculate them.\n\n### Simultaneous matrix factorization {#simultaneous-matrix-factorization .unnumbered}\n\nA related problem is to diagonalize or tridiagonalize many matrices\nusing the same matrix. Some results in this direction are listed below:\n\n-   commuting matrices are simultanenously triangularizable\n\n-   commuting normal matrices are simultanenously diagonalizable",
+  "language": "INFORMAL",
+  "phrase": "Matrix Factorization",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MatrixFactorization"
+    }
+  ],
+  "indexable": true
+}

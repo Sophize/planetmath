@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "IND",
+    "-IND",
+    "axiom of induction"
+  ],
+  "definition": "An induction axiom specifies that a theory includes induction, possibly\nrestricted to specific formulas. IND is the general axiom of induction:\n$$\\phi(0)\\wedge\\forall x(\\phi(x)\\rightarrow\\phi(x+1))\\rightarrow \\forall x\\phi(x)\\text{ for any formula }\\phi$$\n\nIf $\\phi$ is restricted to some family of formulas $F$ then the axiom is\ncalled F-IND, or F induction. For example the axiom $\\Sigma^0_1$-IND is:\n$$\\phi(0)\\wedge\\forall x(\\phi(x)\\rightarrow\\phi(x+1))\\rightarrow \\forall x\\phi(x)\\text{ where }\\phi\\text{ is }\\Sigma^0_1$$",
+  "language": "INFORMAL",
+  "phrase": "Induction Axiom",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InductionAxiom"
+    }
+  ],
+  "indexable": true
+}

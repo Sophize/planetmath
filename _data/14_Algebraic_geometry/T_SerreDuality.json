@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The most general version of Serre duality states that on certain schemes\n$X$ of dimension $n$, including all projective varieties over any\nalgebraically closed field $k$, there is a natural perfect\n$${\\mathrm{Ext}}^{i}(\\mathcal{F},\\omega)\\times H^{n-i}(X,\\mathcal{F})\\to k,$$\nwhere $\\mathcal{F}$ is any coherent sheaf on $X$ and $\\omega$ is a\nsheaf, called the *dualizing sheaf*. Here \u201cperfect\u201d means that the\nnatural map above induces an isomorphism\n$${\\mathrm{Ext}}^{i}(\\mathcal{F},\\omega)\\cong {\\mathrm{Hom}(H^{n-i}(X,\\mathcal{F}),k)}.$$\n\nIn special cases, this reduces to more approachable forms. If $X$ is\nnonsingular (or more generally, Cohen-Macaulay), then $\\omega$ is simply\n$\\bigwedge^n\\Omega$, where $\\Omega$ is the sheaf of differentials on\n$X$.\n\nIf $\\mathcal{F}$ is locally free, then\n$${\\mathrm{Ext}}^i(\\mathcal{F},\\omega)\\cong{\\mathrm{Ext}}^i({\\mathcal{O}}_X,\\mathcal{F}^*\\otimes\\omega)\\cong\nH^i(X,\\mathcal{F}^*\\otimes\\omega),$$ so that we obtain the somewhat more\nfamiliar looking fact that there is a perfect pairing\n$H^i(X,\\mathcal{F}^*\\otimes\\omega)\\times H^{n-i}(X,\\mathcal{F})\\to k$.\n\nWhile Serre duality is not in a strict sense a generalization of\nPoincar\u00e9 duality, they are philosophically similar, and both fit into a\nlarger pattern on duality results.",
+  "language": "INFORMAL",
+  "phrase": "Serre Duality",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SerreDuality"
+    }
+  ],
+  "indexable": true
+}

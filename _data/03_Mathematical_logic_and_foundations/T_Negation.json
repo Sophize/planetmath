@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "logical not"
+  ],
+  "definition": "In logics and mathematics, [*negation*]{} (from Latin [*negare*]{} \u2018to\ndeny\u2019) is the unary operation \u201c$\\lnot$\u201d which swaps the truth value of\nany operand to the truth value. So, if the statement $P$ is true then\nits negated statement $\\lnot P$ is false, and vice versa.\n\n**Note 1.** The negated statement $\\lnot P$ (by Heyting) has been\ndenoted also with $-P$ (Peano), $\\sim\\! P$ (Russell), $\\overline{P}$\n(Hilbert) and $NP$ (by the Polish notation).\n\n**Note 2.** $\\lnot P$ may be expressed by implication as\n$$P\\to\\curlywedge$$ where $\\curlywedge$ means any contradictory\nstatement.\n\n**Note 3.** The negation of logical or and logical and give the results\n$$\\lnot(P\\lor Q) \\equiv \\lnot P \\land \\lnot Q, \\qquad \n  \\lnot(P\\land Q) \\equiv \\lnot P \\lor \\lnot Q.$$ Analogical results\nconcern the quantifier statements:\n$$\\lnot (\\exists x)P(x) \\equiv (\\forall x)\\lnot P(x), \\qquad\n  \\lnot (\\forall x)P(x) \\equiv (\\exists x)\\lnot P(x).$$ These all are\nknown as de Morgan\u2019s laws.\n\n**Note 4.** Many mathematical relation statements, expressed with such\nspecial relation symbols as\n$=,\\, \\subseteq,\\, \\in,\\, \\cong,\\, \\parallel,\\, \\mid$, are negated by\nusing in the symbol an additional cross line:\n$\\neq,\\, \\nsubseteq,\\, \\notin,\\, \\ncong,\\, \\nparallel,\\, \\nmid$.",
+  "language": "INFORMAL",
+  "phrase": "Negation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Negation"
+    }
+  ],
+  "indexable": true
+}

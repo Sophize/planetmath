@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\kappa$ be a limit ordinal (e.g. a cardinal). The [*cofinality of\n$\\kappa$*]{} $\\operatorname{cf}(\\kappa)$ could also be defined as:\n$$\\operatorname{cf}(\\kappa)=\\inf \\{ |U| : U \\subseteq \\kappa \\text{ such that } \\sup \\; U = \\kappa \\}$$\n($\\sup \\; U$ is calculated using the natural order of the ordinals). The\ncofinality of a cardinal is always a regular cardinal and hence\n$\\operatorname{cf}(\\kappa) = \\operatorname{cf}(\\operatorname{cf}(\\kappa))$.\n\nThis definition is equivalent to the parent definition.",
+  "language": "INFORMAL",
+  "phrase": "Another Definition Of Cofinality",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnotherDefinitionOfCofinality"
+    }
+  ],
+  "indexable": true
+}

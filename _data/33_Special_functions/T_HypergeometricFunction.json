@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(a,b,c)$ be a triple of complex numbers with $c$ not belonging to\nthe set of negative integers. For a complex number $w$ and a non\nnegative integer $n$, use Pochhammer symbol $(w)_n$ , to denote the\nexpression : $$(w)_n=w(w+1)\\dots(w+n-1).$$ The *Gauss hypergeometric\nfunction*, $_{2}F_{1}$, is then defined by the following power series\nexpansion :\n$$_2F_1(a,b;\\,c\\,;z)=\\sum_{n=0}^{\\infty} \\frac{(a)_n(b)_n}{(c)_{n}n!}z^n.$$",
+  "language": "INFORMAL",
+  "phrase": "Hypergeometric Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HypergeometricFunction"
+    }
+  ],
+  "indexable": true
+}

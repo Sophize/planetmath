@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Spherical coordinates* are a system of coordinates for\n${{\\mathbb}{R}}^3$, or more generally ${{\\mathbb}{R}}^n$. One coordinate\nis the distance from the origin, which can be thought of as the radius\nof the sphere centred at the origin on which the point lies. The other\ncoordinates are angles that specify the position of the point on this\nsphere.\n\nIn ${{\\mathbb}{R}}^3$ the coordinates are given by $$\\begin{aligned}\n\\left(\n\\begin{array}{c}\nx\\\\\ny\\\\\nz\n\\end{array}\\right) &=\n\\left(\n\\begin{array}{c}\nr\\sin\\phi\\cos\\theta\\\\\nr\\sin\\phi\\sin\\theta\\\\\nr\\cos\\phi\n\\end{array}\n\\right),\\end{aligned}$$ where $r$ is the distance from the origin,\n$\\theta$ is the *azimuthal angle* defined for $\\theta\\in[0,2\\pi)$, and\n$\\phi\\in[0,\\pi]$ is the *polar angle*. Note that $\\phi=0$ corresponds to\nthe top of the sphere and $\\phi=\\pi$ corresponds to the bottom of the\nsphere. There is a clash between the mathematicians\u2019 and the physicists\u2019\ndefinition of spherical coordinates, interchanging both the direction of\n$\\phi$ and the choice of names for the two angles (physicists often use\n$\\theta$ as the azimuthal angle and $\\phi$ as the polar one).\n\nSpherical coordinates are a generalization of polar coordinates, and can\nbe further generalized to ${{\\mathbb}{R}}^n$, with $n-2$ polar angles\n$\\phi_1,\\ldots,\\phi_{n-2}$ and one azimuthal angle $\\theta$:\n$$\\begin{aligned}\n\\left(\n\\begin{array}{c}\nx_1\\\\\nx_2\\\\\n\\vdots\\\\\nx_k\\\\\n\\vdots\\\\\nx_{n-1}\\\\\nx_n\n\\end{array}\\right)&=\n\\left(\n\\begin{array}{c}\nr\\cos\\phi_1\\\\\nr\\sin\\phi_1\\cos\\phi_2\\\\\n\\vdots\\\\\nr\\left(\\prod_{i=1}^{k-1}\\sin\\phi_i\\right)\\cos\\phi_k\\\\\n\\vdots\\\\\nr\\sin\\phi_1\\sin\\phi_2\\cdots\\cos\\theta\\\\\nr\\sin\\phi_1\\sin\\phi_2\\cdots\\sin\\phi_{n-2}\\sin\\theta.\n\\end{array}\n\\right).\\end{aligned}$$\n\nThese are sometimes called *hyperspherical coordinates* if $n>3$.",
+  "language": "INFORMAL",
+  "phrase": "Spherical Coordinates",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SphericalCoordinates"
+    }
+  ],
+  "indexable": true
+}

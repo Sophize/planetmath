@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *polynomial hierarchy* is a hierarchy of complexity classes\ngeneralizing the relationship between $\\mathcal{P}$ and $\\mathcal{NP}$.\n\nWe let $\\Sigma^p_0=\\Pi^p_0=\\Delta^p_0=\\mathcal{P}$, then\n$\\Delta^p_{i+1}=\\mathcal{P}^{\\Sigma^p_i}$ and\n$\\Sigma^p_{i+1}=\\mathcal{NP}^{\\Sigma^p_i}$. Define $\\Pi^p_i$ to be\n$co\\Sigma^p_i$.\n\nFor instance $\\Sigma^p_1=\\mathcal{NP}^\\mathcal{P}=\\mathcal{NP}$.\n\nThe complexity class $\\mathcal{PH}=\\bigcup_{i\\in\\mathbb{N}} \\Sigma^p_i$.\n\nThe polynomial hierarchy is closely related to the arithmetical\nhierarchy; indeed, an alternate definition is almost identical to the\ndefinition of the arithmetical hierarchy but stricter rules on what\nquantifiers can be used.\n\nWhen there is no risk of confusion with the arithmetical hierarchy, the\nsuperscript $p$ can be dropped.",
+  "language": "INFORMAL",
+  "phrase": "Polynomial Hierarchy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolynomialHierarchy"
+    }
+  ],
+  "indexable": true
+}

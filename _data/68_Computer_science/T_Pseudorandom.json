@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "pseudorandom distribution ensemble",
+    "pseudorandom ensemble"
+  ],
+  "definition": "A distribution ensemble $\\{D_n\\}_{n\\in\\mathbb{N}}$ is *pseudorandom* if\nit is computationally indistinguishable from the ensemble\n$\\{U_n\\}_{n\\in\\mathbb{N}}$ where each $U_n$ is the uniform distribution\non the support of $D_n$. That is, no reasonable procedure can make\nmeaningful predictions about what element will be chosen.",
+  "language": "INFORMAL",
+  "phrase": "Pseudorandom",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Pseudorandom"
+    }
+  ],
+  "indexable": true
+}

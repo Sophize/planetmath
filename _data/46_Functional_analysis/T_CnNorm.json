@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "One can define an extended norm on the space $C^n (I)$ where $I$ is a\nsubset of $\\mathbb{R}$ as follows:\n$$\\| f \\|_{C^n} = \\sup_{x \\in I} \\sup_{k \\le n} \\left| \\frac{d^k f}{dx^k} \\right|$$\nIf $f$ is a function of more than one variable (i.e. lies in $C^n (D)$\nfor a subset $D \\in \\mathbb{R}^m$), then one needs to take the supremum\nover all partial derivatives of order up to $n$.\n\nThat $$\\| \\cdot \\|_{C^n}$$ satisfies the defining conditions for an\nextended norm follows trivially from the properties of the absolute\nvalue (positivity, homogeneity, and the triangle inequality) and the\ninequality $$\\sup (|f| + |g|) < \\sup |f| + \\sup |g|.$$\n\nIf we are considering functions defined on the whole of $\\mathbb{R}^m$\nor an unbounded subset of $\\mathbb{R}^m$, the $C^n$ norm may be\ninfinite. For example, $$\\| e^x \\|_{C^n} = \\infty$$ for all $n$ because\nthe $n$-th derivative of $e^x$ is again $e^x$, which blows up as $x$\napproaches infinity. If we are considering functions on a compact\n(closed and bounded) subset of $\\mathbb{R}^m$ however, the $C^n$ norm is\nalways finite as a consequence of the fact that every continuous\nfunction on a compact set attains a maximum. This also means that we may\nreplace the \u201c$\\sup$\u201d with a \u201c$\\max$\u201d in our definition in this case.\n\nHaving a sequence of functions converge under this norm is the same as\nhaving their $n$-th derivatives converge uniformly. Therefore, it\nfollows from the fact that the uniform limit of continuous functions is\ncontinuous that $C^n$ is complete under this norm. (In other words, it\nis a Banach space.)\n\nIn the case of $C^{\\infty}$, there is no natural way to impose a norm,\nso instead one uses all the $C^n$ norms to define the topology in\n$C^\\infty$. One does this by declaring that a subset of $C^\\infty$ is\nclosed if it is closed in all the $C^n$ norms. A space like this whose\ntopology is defined by an infinite collection of norms is known as a\nmulti-normed space.",
+  "language": "INFORMAL",
+  "phrase": "$C^N$ Norm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CnNorm"
+    }
+  ],
+  "indexable": true
+}

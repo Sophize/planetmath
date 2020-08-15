@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "random process"
+  ],
+  "definition": "Let $(\\Omega,\\mathcal{F},\\textbf{P})$ be a probability space. A\n*stochastic process* is a collection $$\\lbrace X_t \\mid t\\in T\n\\rbrace$$ of random variables $X_t$ defined on\n$(\\Omega,\\mathcal{F},\\textbf{P})$, where $T$ is a set, called the index\nset of the process $\\lbrace X_t \\mid t\\in T \\rbrace$. $T$ is usually\n(but not always) a subset of $\\mathbb{R}$. $X$ is sometimes known as a\n*random function*.\n\nGiven any $t$, the possible values of $X_t$ are called the *states* of\nthe process at $t$. The set of all states (for all $t$) of a stochastic\nprocess is called its *state space*.\n\nIf $T$ is discrete, then the stochastic process is a *discrete-time\nprocess*. If $T$ is an interval of $\\mathbb{R}$, then\n$\\lbrace X_t \\mid t\\in T \\rbrace$ is a *continuous-time process*. If $T$\ncan be linearly ordered, then $t$ is also known as the *time*.\n\nA stochastic process $X$ with state space $S$ can be thought of in\neither of following three ways.\n\n-   As a collection of random variables, $X_t$, for each $t$ in the\n    index set $T$.\n\n-   As a function in two variables $t\\in T$ and $\\omega\\in\\Omega$,\n    $$X\\colon T\\times\\Omega\\rightarrow S,\\ (t,\\omega)\\mapsto X_t(\\omega).$$\n    The process is said to be measurable, or, jointly measurable if it\n    is $\\mathcal{B}(T)\\otimes\\mathcal{F}/\\mathcal{B}(S)$-measurable.\n    Here, $\\mathcal{B}(T)$ and $\\mathcal{B}(S)$ are the Borel\n    $\\sigma$-algebras on $T$ and $S$ respectively.\n\n-   In terms of the sample paths. Each $\\omega\\in\\Omega$ maps to a\n    function $$T\\rightarrow S,\\ t\\mapsto X_t(\\omega).$$ Many common\n    examples of stochastic processes have sample paths which are either\n    continuous or cadlag.\n\n**Examples**. The following list is some of the most common and\nimportant stochastic processes:\n\n1.  a random walk, as well as its limiting case, a Brownian motion, or a\n    Wiener process\n\n2.  Poisson process\n\n3.  Markov process; a Markov chain is a Markov process whose state space\n    is discrete\n\n4.  renewal process\n\n**Remarks**.\n\n-   Sometimes, a stochastic process is also called a *random process*,\n    although a stochastic process is generally linked to any \u201ctime\u201d\n    dependent process. In a random process, the index set may not be\n    linearly ordered, as in the case of a random field, where the index\n    set may be, for example, the unit sphere $S^2\\subseteq\\mathbb{R}^3$.\n\n-   In statistics, a stochastic process is often known as a *time\n    series*, where the index set is a finite (or at most countable)\n    ordered sequence of real numbers.",
+  "language": "INFORMAL",
+  "phrase": "Stochastic Process",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StochasticProcess"
+    }
+  ],
+  "indexable": true
+}

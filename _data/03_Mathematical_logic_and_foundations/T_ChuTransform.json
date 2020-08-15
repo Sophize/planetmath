@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $\\mathcal{C}=(\\mathcal{A},r,\\mathcal{X})$ and\n$\\mathcal{D}=(\\mathcal{B},s,\\mathcal{Y})$ are Chu spaces then we say a\npair of functions $f:\\mathcal{A}\\rightarrow\\mathcal{B}$ and\n$g:\\mathcal{Y}\\rightarrow\\mathcal{X}$ form a *Chu transform* from\n$\\mathcal{C}$ to $\\mathcal{D}$ if for any\n$(a,y)\\in \\mathcal{A}\\times\\mathcal{Y}$ we have $r(a,g(y))=s(f(a),y)$.",
+  "language": "INFORMAL",
+  "phrase": "Chu Transform",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChuTransform"
+    }
+  ],
+  "indexable": true
+}

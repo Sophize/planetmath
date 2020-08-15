@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Mason\u2019s theorem is often described as the polynomial case of the\n(currently unproven) ABC conjecture.\n\nLet $f(z),g(z),h(z)\\in{{\\mathbb}{C}}[z]$ be such that $f(z)+g(z)=h(z)$\nfor all $z$, and such that $f$, $g$, and $h$ are pair-wise relatively\nprime. Denote the number of distinct roots of the product $fgh(z)$ by\n$N$. Then $$\\begin{aligned}\n\\max\\deg\\{f,g,h\\}+1\\leq N.\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MasonStothersTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Mason-Stothers theorem",
+    "Mason's Theorem"
+  ]
+}

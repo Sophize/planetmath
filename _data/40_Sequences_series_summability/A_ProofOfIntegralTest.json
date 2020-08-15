@@ -1,0 +1,17 @@
+{
+  "argumentText": "Consider the function (see the definition of floor)\n$$g(x)=a_{\\lfloor x\\rfloor}.$$\n\nClearly for $x\\in [n,n+1)$, being $f$ non increasing we have\n$$g(x+1) = a_{n+1} = f(n+1) \\le f(x) \\le f(n) = a_n = g(x)$$ hence\n$$\\int_{M}^{+\\infty} g(x+1)\\, dx =\n   \\int_{M+1}^{+\\infty} g(x)\\, dx \\le \\int_M^{+\\infty} f(x) \n   \\le \\int_M^{+\\infty} g(x)\\, dx.$$\n\nSince the integral of $f$ and $g$ on $[M,M+1]$ is finite we notice that\n$f$ is integrable on $[M,+\\infty)$ if and only if $g$ is integrable on\n$[M,+\\infty)$.\n\nOn the other hand $g$ is locally constant so\n$$\\int_n^{n+1} g(x)\\, dx = \\int_n^{n+1} a_n\\, dx = a_n$$ and hence for\nall $N\\in \\mathbb Z$ $$\\int_N^{+\\infty} g(x) = \\sum_{n=N}^\\infty a_n$$\nthat is $g$ is integrable on $[N,+\\infty)$ if and only if\n$\\sum_{n=N}^\\infty a_n$ is convergent.\n\nBut, again, $\\int_M^N g(x)\\, dx$ is finite hence $g$ is integrable on\n$[M,+\\infty)$ if and only if $g$ is integrable on $[N,+\\infty)$ and also\n$\\sum_{n=0}^N a_n$ is finite so $\\sum_{n=0}^\\infty a_n$ is convergent if\nand only if $\\sum_{n=N}^\\infty a_n$ is convergent.",
+  "conclusion": "#P_IntegralTest",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfIntegralTest"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of integral test"
+  ]
+}

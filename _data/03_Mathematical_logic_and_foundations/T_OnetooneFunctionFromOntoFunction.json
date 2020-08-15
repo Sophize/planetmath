@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an onto function from a set $A$ to a set $B$, there exists a\none-to-one function from $B$ to $A$.\n\nSuppose $f:A\\rightarrow B$ is onto, and define\n$\\mathcal{F}=\\big\\{f^{-1}(\\{b\\}):b\\in B\\big\\}$; that is, $\\mathcal{F}$\nis the set containing the pre-image of each singleton subset of $B$.\nSince $f$ is onto, no element of $\\mathcal{F}$ is empty, and since $f$\nis a function, the elements of $\\mathcal{F}$ are mutually disjoint, for\nif $a\\in f^{-1}(\\{b_1\\})$ and $a\\in f^{-1}(\\{b_2\\})$, we have $f(a)=b_1$\nand $f(a)=b_2$, whence $b_1=b_2$. Let\n$\\mathscr{C}:\\mathcal{F}\\rightarrow\\bigcup\\mathcal{F}$ be a choice\nfunction, noting that $\\bigcup\\mathcal{F}=A$, and define\n$g:B\\rightarrow A$ by $g(b)=\\mathscr{C}\\big(f^{-1}(\\{b\\})\\big)$. To see\nthat $g$ is one-to-one, let $b_1,b_2\\in B$, and suppose that\n$g(b_1)=g(b_2)$. This gives\n$\\mathscr{C}\\big(f^{-1}(\\{b_1\\})\\big)=\\mathscr{C}\\big(f^{-1}(\\{b_2\\})\\big)$,\nbut since the elements of $\\mathcal{F}$ are disjoint, this implies that\n$f^{-1}(\\{b_1\\})=f^{-1}(\\{b_2\\})$, and thus $b_1=b_2$. So $g$ is a\none-to-one function from $B$ to $A$.",
+  "language": "INFORMAL",
+  "phrase": "One-To-One Function From Onto Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OnetooneFunctionFromOntoFunction"
+    }
+  ],
+  "indexable": true
+}

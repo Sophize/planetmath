@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "$f$-vector"
+  ],
+  "definition": "Let [[*P*]{}]{} be a polytope of dimension [[*d*]{}]{}. The *f-vector*\nof [[*P*]{}]{} is the finite integer sequence $(f_0, \\dots, f_{d-i})$,\nwhere the component in position [[*i*]{}]{} is the number of\n[[*i*]{}]{}-dimensional faces of [[*P*]{}]{}. For some purposes it is\nconvenient to view the empty face and the polytope itself as improper\nfaces, so $f_{-1} = f_d = 1$.\n\nFor example, a cube has 8 vertices, 12 edges, and 6 faces, so its\nf-vector is (8, 12, 6).\n\nThe entries in the f-vector of a convex polytope satisfy the\nEuler\u2013Poincar\u00e9\u2013Schl\u00e4fli formula: $$\\sum_{-1\\le i\\le d}(-1)^i f_i=0.$$\nConsequently, the face lattice of a polytope is Eulerian. For any graded\nposet with maximum and minimum elements there is an extension of the\nf-vector called the *flag f-vector*. For any subset [[*S*]{}]{} of\n$\\{0,1,\\dots,d - 1\\}$, the $f_S$ entry of the flag f-vector of\n[[*P*]{}]{} is the number of chains of faces in $\\mathcal{L}(P)$ with\ndimensions coming only from [[*S*]{}]{}.\n\nThe flag f-vector of a three-dimensional cube is given in the following\ntable. For simplicity we drop braces and commas.\n\n   [[*S*]{}]{}  $f_S$\n  ------------- ------------------------\n   $\\emptyset$  1\n        0       8\n        1       12\n        2       6\n       01       $8\\cdot 3 = 24$\n       02       $8\\cdot 3 = 24$\n       12       $12\\cdot 2 = 24$\n       012      $8\\cdot 3\\cdot 2 = 48$\n\nFor example, $f_{\\{1,2\\}}=24$ because each of the 12 edges meets exactly\ntwo faces.\n\nAlthough the flag f-vector of a [[*d*]{}]{}-polytope has $2^d$ entries,\nmost of them are redundant, as they satisfy a collection of identities\ngeneralizing the Euler\u2013Poincar\u00e9\u2013Schl\u00e4fli formula and called the\ngeneralized Dehn-Sommerville relations. Interestingly, the number of\nnonredundant entries in the flag $f$-vector of a [[*d*]{}]{}-polytope is\none less than the Fibonacci number $F_{d-1}$.\n\n[3]{} Bayer, M. and L. Billera, *Generalized Dehn-Sommerville relations\nfor polytopes, spheres and Eulerian partially ordered sets*, Invent.\nMath. 79 (1985), no. 1, 143\u2013157. Bayer, M. and A. Klapper, *A new index\nfor polytopes*, Discrete Comput. Geom. 6 (1991), no. 1, 33\u201347. Ziegler,\nG., *Lectures on polytopes*, Springer-Verlag, 1997.",
+  "language": "INFORMAL",
+  "phrase": "F-Vector",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Fvector"
+    }
+  ],
+  "indexable": true
+}

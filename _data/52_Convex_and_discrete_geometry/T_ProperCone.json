@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *proper cone* is a $C\\subset\\mathbb{R}^n$ that satisfies the\nfollowing:\n\n-   $C$ is convex;\n\n-   $C$ is closed;\n\n-   $C$ is solid, meaning it has nonempty interior;\n\n-   $C$ is pointed, meaning $x, -x\\in C\\Rightarrow x=0$.\n\nA proper cone $C$ induces a partial ordering on $\\mathbb{R}^n$:\n$$a\\preceq b\\Leftrightarrow b-a\\in C.$$ This ordering has many nice\nproperties, such as transitivity, reflexivity, and antisymmetry.\n\n[4]{} S. Boyd, L. Vandenberghe, *Convex Optimization*, Cambridge\nUniversity Press, 2004.",
+  "language": "INFORMAL",
+  "phrase": "Proper Cone",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProperCone"
+    }
+  ],
+  "indexable": true
+}

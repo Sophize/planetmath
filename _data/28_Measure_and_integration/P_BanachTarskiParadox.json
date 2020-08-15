@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The $3$-dimensional ball can be split in a finite number of pieces which\ncan be pasted together to give two balls of the same volume as the\nfirst!\n\nLet us formulate the theorem formally. We say that a set\n$A\\subset \\mathbb R^n$ is *decomposable* in $N$ pieces $A_1,\\ldots, A_N$\nif there exist some isometries $\\theta_1,\\ldots,\\theta_N$ of\n$\\mathbb R^n$ such that $A=\\theta_1(A_1)\\cup\\ldots\\cup \\theta_N(A_N)$\nwhile $\\theta_1(A_1),\\ldots,\\theta_N(A_N)$ are all disjoint.\n\nWe then say that two sets $A,B\\subset \\mathbb R^n$ are\n*equi-decomposable* if both $A$ and $B$ are decomposable in the same\npieces $A_1,\\ldots,A_N$.\n\nThe unit ball $\\mathbb B^3\\subset \\mathbb R^3$ is equi-decomposable to\nthe union of two disjoint unit balls.\n\nComments\n========\n\nThe actual number of pieces needed for this decomposition is not so\nlarge. Say that ten pieces are enough.\n\nAlso it is not important that the set considered is a ball. Every two\nset with non empty interior are equi-decomposable in $\\mathbb R^3$. Also\nthe ambient space can be chosen larger. The theorem is true in all\n$\\mathbb R^n$ with $n\\ge 3$ but it is not true in $\\mathbb R^2$ nor in\n$\\mathbb R$.\n\nWhere is the paradox? We are saying that a piece of (say) gold can be\ncut and pasted to obtain two pieces equal to the previous one. And we\nmay divide these two pieces in the same way to obtain four pieces and so\non...\n\nWe believe that this is not possible since the weight of the piece of\ngold does not change when I cut it.\n\nA consequence of this theorem is, in fact, that it is not possible to\ndefine the volume for all subsets of the $3$-dimensional space. In\nparticular the volume cannot be computed for some of the pieces in which\nthe unit ball is decomposed (some of them are not measurable).\n\nThe existence of non-measurable sets is proved more simply and in all\ndimension by Vitali Theorem. However Banach-Tarski paradox says\nsomething more. It says that it is not possible to define a measure on\nall the subsets of $\\mathbb R^3$ even if we drop the countable\nadditivity and replace it with a finite additivity:\n$$\\mu(A\\cup B) = \\mu(A) + \\mu (B)\\quad \\forall A,B\\ \\mathrm{disjoint}.$$\n\nAnother point to be noticed is that the proof needs the . So some of the\npieces in which the ball is divided are not constructable.\n\nSee for more details.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BanachTarskiParadox"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Banach-Tarski paradox"
+  ]
+}

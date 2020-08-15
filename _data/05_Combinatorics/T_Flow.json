@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "network flow"
+  ],
+  "definition": "On a digraph, define a *sink* to be a vertex with out-degree zero and a\n*source* to be a vertex with in-degree zero. Let $G$ be a digraph with\nnon-negative weights and with exactly one sink and exactly one source. A\n*flow* on $G$ is an assignment $f : E(G) \\rightarrow \\mathbb{R}$ of\nvalues to each edge of $G$ satisfying certain rules:\n\n1.  For any edge $e$, we must have $0 \\leq f(e) \\leq W(e)$ (where $W(e)$\n    is the weight of $e$).\n\n2.  For any vertex $v$, excluding the source and the sink, let $E_{in}$\n    be the set of edges incident to $v$ and let $E_{out}$ be the set of\n    edges incident from $v$. Then we must have\n    $$\\sum_{e \\in E_{in}} f(e) = \\sum_{e \\in E_{out}} f(e) .$$\n\nLet $E_{source}$ be the edges incident from the source, and let\n$E_{sink}$ be the set of edges incident to the sink. If $f$ is a flow,\nthen $$\\sum_{e \\in E_{sink}} f(e) = \\sum_{e \\in E_{source}} f(e)\\;.$$\n\nWe will refer to this quantity as the amount of flow.\n\nNote that a flow given by $f(e) = 0$ trivially satisfies these\nconditions. We are typically more interested in *maximum flows*, where\nthe amount of flow is maximized for a particular graph.\n\nWe may interpret a flow as a means of transmitting something through a\nnetwork. Suppose we think of the edges in a graph as pipes, with the\nweights corresponding with the capacities of the pipes; we are pouring\nwater into the system through the source and draining it through the\nsink. Then the first rule requires that we do not pump more water\nthrough a pipe than is possible, and the second rule requires that any\nwater entering a junction of pipes must leave. Under this\ninterpretation, the maximum amount of flow corresponds to the maximum\namount of water we could pump through this network.\n\nInstead of water in pipes, one may think of electric charge in a network\nof conductors. Rule (2) above is one of Kirchoff\u2019s two laws for such\nnetworks; the other says that the sum of the voltage drops around any\ncircuit is zero.",
+  "language": "INFORMAL",
+  "phrase": "Flow",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Flow"
+    }
+  ],
+  "indexable": true
+}

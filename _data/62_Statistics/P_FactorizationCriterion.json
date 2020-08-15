@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\boldsymbol{X}=(X_1,\\ldots,X_n)$ be a random vector whose\ncoordinates are observations, and whose probability (density) function\nis, $f(\\boldsymbol{x}\\mid\\theta)$ where $\\theta$ is an unknown\nparameter. Then a statistic $T(\\boldsymbol{X})$ for $\\theta$ is a\nsufficient statistic iff $f$ can be expressed as a product of (or\n*factored into*) two functions $g,h$, $f=gh$ where $g$ is a function of\n$T(\\boldsymbol{X})$ and $\\theta$, and $h$ is a function of\n$\\boldsymbol{x}$. In symbol, we have\n$$f(\\boldsymbol{x}\\mid\\theta)=g(T(\\boldsymbol{X}),\\theta)h(\\boldsymbol{x}).$$\n\n**Applications**.\n\n1.  In view of the above statement, let\u2019s show that the sample mean\n    $\\overline{X}$ of $n$ independent observations from a normal\n    distribution $N(\\mu,\\sigma^2)$ is a sufficient statistic for the\n    unknown mean $\\mu$. Since the $X_i$\u2019s are independent random\n    variables, then the probability density function\n    $f(\\boldsymbol{x}\\mid\\mu)$, being the joint probability density\n    function of each of the $X_i$, is the product of the individual\n    density functions $f(x\\mid\\mu)$: $$\\begin{aligned}\n    f(\\boldsymbol{x}\\mid\\mu)&=&\\prod_{i=1}^n f(x\\mid\\mu)= \\prod_{i=1}^n\n    \\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\exp\\Big[-\\frac{(x_i-\\mu)^2}{2\\sigma^2}\\Big]\\\\\n    &=&\\frac{1}{\\sqrt{(2\\pi)^n\\sigma^{2n}}}\\exp\\Big\n    [\\sum_{i=1}^{n}-\\frac{(x_i-\\mu)^2}{2\\sigma^2}\\Big]\\\\\n    &=&\\frac{1}{\\sqrt{(2\\pi)^n\\sigma^{2n}}}\\exp\\Big\n    [\\frac{-1}{2\\sigma^2}\\sum_{i=1}^{n}x_i^2\\Big]\n    \\exp\\Big[\\frac{\\mu}{\\sigma^2}\\sum_{i=1}^n\n    x_i-\\frac{n\\mu^2}{2\\sigma^2}\\Big]\\\\\n    &=&h(\\boldsymbol{x})\n    \\exp\\Big[\\frac{n\\mu}{\\sigma^2}T(\\boldsymbol{x})-\\frac{n\\mu^2}{2\\sigma^2}\\Big]\\\\\n    &=&h(\\boldsymbol{x}) g(T(\\boldsymbol{x}),\\mu)\\end{aligned}$$ where\n    $g$ is the last exponential expression and $h$ is the rest of the\n    expression in $(3)$. By the factorization criterion,\n    $T(\\boldsymbol{X})=\\overline{X}$ is a sufficient statistic.\n\n2.  Similarly, the above shows that the sample variance $s^2$ is not a\n    sufficient statistic for $\\sigma^2$ if $\\mu$ is unknown.\n\n3.  But, if $\\mu$ is a known constant, then the statistic\n    $$T(X_1,\\ldots,X_n)=\\frac{1}{n-1}\\sum_{i=1}^{n}(X_i-\\mu)^2$$ is\n    sufficient for $\\sigma^2$ by observing in $(2)$ above, and letting\n    $h(\\boldsymbol{x})=1$ and $g(T,\\sigma^2)$ be all of expression\n    $(2)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FactorizationCriterion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "factorization criterion",
+    "factorization theorem",
+    "Fisher-Neyman factorization theorem"
+  ]
+}

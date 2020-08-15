@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $U$ be an open subset of ${\\mathbb{R}}^n$ such that $0\\in U$. Then\nthe *delta distribution* is the mapping $$\\begin{aligned}\n\\delta : {\\mathcal{D}}(U) &\\to & {\\mathbb{C}}\\\\\n         u   &\\mapsto & u(0).\\end{aligned}$$\n\n[**Claim**]{} The delta distribution is a distribution of zeroth order,\ni.e., $\\delta\\in {\\mathcal{D}}'^0(U)$.\n\n*Proof.* With obvious notation, we have $$\\begin{aligned}\n\\delta(u+v)&=&(u+v)(0)=u(0)+v(0) = \\delta(u) + \\delta(v),\\\\\n\\delta(\\alpha u) &=& (\\alpha u)(0)=\\alpha u(0)=\\alpha \\delta(u),\\end{aligned}$$\nso $\\delta$ is linear. To see that $\\delta$ is continuous, we use\ncondition (3) on this . Indeed, if $K$ is a compact set in $U$, and\n$u\\in {\\mathcal{D}}_K$, then $$|\\delta(u)| = |u(0)| \\le ||u||_\\infty,$$\nwhere $||\\cdot||_\\infty$ is the supremum norm. $\\Box$",
+  "language": "INFORMAL",
+  "phrase": "Delta Distribution",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DeltaDistribution"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "ordinal"
+  ],
+  "definition": "The ** is a method of defining ordinals in set theory.\n\nThe von Neumann ordinal $\\alpha$ is defined to be the well-ordered set\ncontaining the von Neumann ordinals which precede $\\alpha$. The set of\nfinite von Neumann ordinals is known as the von Neumann integers. Every\nwell-ordered set is isomorphic to a von Neumann ordinal.\n\nThey can be constructed by transfinite recursion as follows:\n\n-   The empty set is $0$.\n\n-   Given any ordinal $\\alpha$, the ordinal $\\alpha+1$ (the *successor*\n    of $\\alpha$) is defined to be $\\alpha\\cup\\{\\alpha\\}$.\n\n-   Given a set $A$ of ordinals, $\\bigcup_{a\\in A} a$ is an ordinal.\n\nIf an ordinal is the successor of another ordinal, it is an *successor\nordinal*. If an ordinal is neither $0$ nor a successor ordinal then it\nis a *limit ordinal*. The first limit ordinal is named $\\omega$.\n\nThe class of ordinals is denoted $\\mathbf{On}$.\n\nThe von Neumann ordinals have the convenient property that if $a<b$ then\n$a\\in b$ and $a\\subset b$.",
+  "language": "INFORMAL",
+  "phrase": "Von Neumann Ordinal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VonNeumannOrdinal"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "complex multiplication field"
+  ],
+  "definition": "For this entry, we follow the notation of the entry real and complex\nembeddings.\n\nLet $K$ be a subfield of the complex numbers, ${\\mathbb{C}}$, and let\n$\\Sigma_K$ be the set of all embeddings of $K$ in ${\\mathbb{C}}$.\n\nWith $K$ as above:\n\n1.  $K$ is a *totally real field* if all embeddings $\\psi\\in \\Sigma_K$\n    are real embeddings.\n\n2.  $K$ is a *totally imaginary field* if all embeddings\n    $\\psi\\in\\Sigma_K$ are (non-real) complex embeddings.\n\n3.  $K$ is a *CM-field* or *complex multiplication field* if $K$ is a\n    totally imaginary quadratic extension of a totally real field.\n\nNote that, for example, one can obtain a CM-field $K$ from a totally\nreal number field $F$ by adjoining the square root of a number all of\nwhose conjugates are negative.\n\nNote: A complex number $\\omega$ is real if and only if $\\bar{\\omega}$,\nthe complex conjugate of $\\omega$, equals $\\omega$:\n$$\\omega\\in {\\mathbb{R}}\\Leftrightarrow \\omega=\\bar{\\omega}$$ Thus, a\nfield $K$ which is fixed *pointwise* by complex conjugation is real\n(i.e. strictly contained in ${\\mathbb{R}}$). However, $K$ might not be\n[*totally real*]{}. For example, let $\\alpha$ be the unique real third\nroot of $2$. Then ${\\mathbb{Q}}(\\alpha)$ is real but not totally real.\\\nGiven a field $L$, the subfield of $L$ fixed pointwise by complex\nconjugation is called the *maximal real subfield of* $L$.\n\nFor examples (of $(1),(2)$ and $(3)$), see examples of totally real\nfields.",
+  "language": "INFORMAL",
+  "phrase": "Totally Real And Imaginary Fields",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TotallyRealAndImaginaryFields"
+    }
+  ],
+  "indexable": true
+}

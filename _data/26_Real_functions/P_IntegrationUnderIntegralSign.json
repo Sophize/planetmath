@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $$I(\\alpha) \\;=\\; \\int_a^b\\!f(x,\\,\\alpha)\\,dx.$$ where\n$f(x,\\,\\alpha)$ is continuous in the rectangle\n$$a \\leqq x \\leqq b,\\, \\quad \\alpha_1 \\leqq \\alpha \\leqq \\alpha_2.$$\nThen $\\alpha \\mapsto I(\\alpha)$ is continuous and hence on the interval\n$\\alpha_1 \\leqq \\alpha \\leqq \\alpha_2$; we have\n$$\\int_{\\alpha_1}^{\\alpha_2}I(\\alpha)\\,d\\alpha \\;=\\; \\int_{\\alpha_1}^{\\alpha_2}\\left(\\int_a^b\\!f(x,\\,\\alpha)\\,dx\\right)d\\alpha.$$\nThis is a double integral over a in the $x\\alpha$-plane, whence one can\nchange the and accordingly write\n$$\\int_{\\alpha_1}^{\\alpha_2}\\left(\\int_a^b\\!f(x,\\,\\alpha)\\,dx\\right)d\\alpha \n\\;=\\; \\int_a^b\\left(\\int_{\\alpha_1}^{\\alpha_2}\\!f(x,\\,\\alpha)\\,d\\alpha\\right)dx.$$\nThus, a definite integral depending on a parametre may be integrated\nwith respect to this parametre by performing the integration under the\nintegral sign.\\\n**Example.** For being able to evaluate the improper integral\n$$I \\;=\\; \\int_0^\\infty\\frac{e^{-ax}-e^{-bx}}{x}\\,dx \\qquad (a > 0,\\; b > 0),$$\nwe may interprete the integrand as a definite integral:\n$$\\frac{e^{-ax}-e^{-bx}}{x} \\;=\\; {\\operatornamewithlimits{\\Big/}_{\\!\\!\\!\\alpha=b}^{\\,\\quad a}}\\!\\frac{e^{-\\alpha x}}{x} \n\\;=\\; \\int_a^b\\!e^{-\\alpha x}\\,d\\alpha.$$ Accordingly, we can calculate\nas follows: $$\\begin{aligned}\nI & \\;=\\; \\int_0^\\infty\\left(\\int_a^b\\!e^{-\\alpha x}\\,d\\alpha\\right)dx\\\\\n& \\;=\\; \\int_a^b\\left(\\int_0^\\infty\\!e^{-\\alpha x}\\,dx\\right)d\\alpha\\\\\n& \\;=\\; \\int_a^b\\left({\\operatornamewithlimits{\\Big/}_{\\!\\!\\!x=0}^{\\,\\quad\\infty}}\\!-\\frac{e^{-\\alpha x}}{\\alpha}\\right)d\\alpha\\\\\n& \\;=\\; \\int_a^b\\!\\frac{1}{\\alpha}\\,d\\alpha \\;=\\; {\\operatornamewithlimits{\\Big/}_{\\!\\!\\!a}^{\\,\\quad b}}\\!\\ln{\\alpha}\\\\ \n& \\;=\\; \\ln\\frac{b}{a}\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegrationUnderIntegralSign"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "integration under integral sign"
+  ]
+}

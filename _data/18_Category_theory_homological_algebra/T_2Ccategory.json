@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "${\\mathcal{C}^*}_2$"
+  ],
+  "definition": "A *$2-C^*$ -category*, ${\\mathcal{C}^*}_2$, is defined as a (small)\n$2$-category for which the following conditions hold:\n\n1.  for each pair of $1$-arrows $(\\rho, \\sigma)$ the space\n    $Hom(\\rho, \\sigma)$ is a complex Banach space.\n\n2.  there is an anti-linear involution \u2018$*$\u2019 acting on $2$-arrows, that\n    is, $$* : Hom(\\rho, \\sigma) \\to Hom(\\rho, \\sigma),$$\n    ($ S \\mapsto S^*$ ) with $\\rho$ and $\\sigma$ being $2$-arrows;\n\n3.  the Banach norm is sub-multiplicative (that is,\n    $$\\left\\|T \\circ S\\right\\| \\leq \\left\\|S\\right\\|\\left\\|T\\right\\|,$$\n    when the composition is defined, and satisfies the $C^*$ -condition:\n    $$\\left\\|S^* \\circ S\\right\\| = \\left\\|S^2\\right\\|;$$\n\n4.  for any 2-arrow $S \\in Hom(\\rho, \\sigma)$, $S^* \\circ S$ is a\n    positive element in $Hom(\\rho, \\rho)$, that is often denoted as\n    $End(\\rho)$.\n\nWith the above notations, the set of $2$-arrows $End(\\iota A)$ is a\ncommutative monoid, with the identity map\n$\\iota : {{\\mathcal{C}^*}_2}^0 \\to {{\\mathcal{C}^*}_2}^1$ assigning to\neach object $A \\in {{\\mathcal{C}^*}_2}^0 $ a $1$-arrow $\\iota A$ such\nthat: $$s(\\iota A) = t(\\iota A) = A.$$",
+  "language": "INFORMAL",
+  "phrase": "2-C*-Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/2Ccategory"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The ring $R$ of algebraic integers of any algebraic number field\ncontains a finite set $H = \\{\\eta_1,\\, \\eta_2,\\, \\ldots,\\, \\eta_t\\}$ of\nso-called [*fundamental units*]{} such that every unit $\\varepsilon$ of\n$R$ is a product of these, multiplied by a root of unity:\n$$\\varepsilon = \\zeta\\!\\cdot\\!\\eta_1^{k_1}\\eta_2^{k_2}\\ldots\\eta_t^{k_t}$$\nConversely, every such element $\\varepsilon$ of the field is a unit of\n$R$.\n\nExamples: units of quadratic fields,\n\nFor some algebraic number fields, such as all imaginary quadratic\nfields, the set $H$ may be empty ($t = 0$). In the case of a single\nfundamental unit ($t = 1$), which occurs e.g. in all , there are two\nalternative units $\\eta$ and its conjugate $\\overline{\\eta}$ which one\ncan use as fundamental unit; then we can speak of [*the*]{} uniquely\ndetermined fundamental unit $\\eta_1$ which is greater than 1.",
+  "language": "INFORMAL",
+  "phrase": "Fundamental Units",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalUnits"
+    }
+  ],
+  "indexable": true
+}

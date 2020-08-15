@@ -1,0 +1,17 @@
+{
+  "argumentText": "Without loss of generality we will assume that $X$ is compact and, by\nreplacing $f_n$ with $f-f_n$, that the net converges monotonically to 0.\n\nLet $\\epsilon > 0$. For each $x\\in X$, we can choose an $n_x$, such that\n$f_{n_x}(x) <\n\\epsilon/2$. Since $f_{n_x}$ is continuous, there is an open\nneighbourhood $U_x$ of $x$, such that for each $y\\in U_x$, we have\n$f_{n_x}(y)\n< \\epsilon/2$. The open sets $U_x$ cover $X$, which is compact, so we\ncan choose finitely many $x_1, \\ldots, x_k$ such that the $U_{x_i}$ also\ncover $X$. Then, if $N\\geq n_{x_1}, \\ldots, n_{x_k}$, we have\n$f_n(x) < \\epsilon$ for each $n\\geq N$ and $x\\in X$, since the sequence\n$f_n$ is monotonically decreasing. Thus, $\\{f_n\\}$ converges to 0\nuniformly on $X$, which was to be proven.",
+  "conclusion": "#P_DinisTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfDinisTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Dini's theorem"
+  ]
+}

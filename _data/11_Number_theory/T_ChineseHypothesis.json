@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The Chinese hypothesis states that a number $n$ is prime if and only if\n$2^n -2$ is a multiple of $n$. By Fermat\u2019s little theorem we have that\n$2^p \\equiv 2 \\mod p$, so that means $n$ does divide $2^n- 2$ if $n$ is\nprime. However, if $n$ is composite Fermat\u2019s little theorem does not\nrule out that $n$ could divide $2^n-2$. The Chinese hypothesis checks\nout for the small powers of two. The first counterexample is $n=341$,\nbut since $2^{341}$ has more than a hundred digits, it wasn\u2019t easy to\ncheck it back in the 18th century when this test was first proposed.\nThough back then they attributed it to ancient Chinese mathematicians,\nhence the name.",
+  "language": "INFORMAL",
+  "phrase": "Chinese Hypothesis",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChineseHypothesis"
+    }
+  ],
+  "indexable": true
+}

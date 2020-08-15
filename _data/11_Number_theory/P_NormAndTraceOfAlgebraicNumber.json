@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K$ be an algebraic number field and $\\alpha$ an element of $K$. The\nnorm $\\mbox{N}(\\alpha)$ and the trace $\\mbox{S}(\\alpha)$ of $\\alpha$ in\nthe field extension $K/\\mathbb{Q}$ both are rational numbers and\nespecially rational integers in the case $\\alpha$ is an algebraic\ninteger. If $\\beta$ is another element of $K$, then $$\\begin{aligned}\n\\mbox{N}(\\alpha\\beta) \\;=\\; \\mbox{N}(\\alpha)\\mbox{N}(\\beta), \\quad\n  \\mbox{S}(\\alpha\\!+\\!\\beta) \\;=\\; \\mbox{S}(\\alpha)\\!+\\!\\mbox{S}(\\beta),\\end{aligned}$$\ni.e. the norm is multiplicative and the trace additive. If\n$[K\\!:\\!\\mathbb{Q}] = n$ and $a\\in\\mathbb{Q}$, then\n$$\\mbox{N}(a) = a^n, \\quad \\mbox{S}(a) = na.$$\n\n**Remarks**\n\n1\\. The notions norm and trace were originally introduced in German as\n\u201cdie Norm\u201d and \u201cdie Spur\u201d. Therefore in German and many other literature\nthe symbol of trace is S, Sp or sp. Nowadays the symbols T and Tr are\ncommon.\n\n2\\. The norm and trace of an algebraic number $\\alpha$ in the field\nextension $\\mathbb{Q}(\\alpha)/\\mathbb{Q}$, i.e. the product and sum of\nall algebraic conjugates of $\\alpha$, are called the [*absolute norm*]{}\nand the [*absolute trace*]{} of $\\alpha$. Formulae like (1) concerning\nthe absolute norms and traces are not sensible.\n\nAn algebraic integer $\\varepsilon$ is a unit if and only if\n$$\\mbox{N}(\\varepsilon) \\;=\\; \\pm 1,$$ i.e. iff the absolute norm of\n$\\varepsilon$ is a rational unit. Thus in the minimal polynomial of an\nalgebraic unit is always $\\pm 1$.\n\n**Example.** The minimal polynomial of the number $2\\!+\\!\\sqrt{3}$,\nwhich is the fundamental unit of the quadratic field\n$\\mathbb{Q}(\\sqrt{3})$, is $x^2\\!-\\!4x\\!+\\!1$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormAndTraceOfAlgebraicNumber"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "norm and trace of algebraic number"
+  ]
+}

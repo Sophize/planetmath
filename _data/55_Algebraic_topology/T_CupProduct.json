@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space and $R$ be a commutative ring. The\ndiagonal map $\\Delta: X \\to X \\times X$ induces a chain map between\nsingular cochain complexes:\n$$\\Delta^*: C^*(X \\times X;\\, R) \\to C^*(X; \\, R)$$.\n\nLet $h:C^*(X ;\\, R) \\otimes C^*(X ;\\, R) \\to C^*(X \\times X;\\, R )$\n\ndenote the chain homotopy equivalence associated with the Kunneth .\n\nGiven $\\alpha \\in C^p (X ;\\, R)$ and $\\beta \\in C^q(X ;\\, R)$ we define\n\n$\n\\alpha \\smile \\beta = \\Delta^* h(\\alpha \\otimes \\beta)\n$.\n\nAs $\\Delta^*$ and $h$ are chain maps, $\\smile$ induces a well defined\nproduct on cohomology groups, known as the cup product. Hence the direct\nsum of the cohomology groups of $X$ has the structure of a ring. This is\ncalled the cohomology ring of $X$.",
+  "language": "INFORMAL",
+  "phrase": "Cup Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CupProduct"
+    }
+  ],
+  "indexable": true
+}

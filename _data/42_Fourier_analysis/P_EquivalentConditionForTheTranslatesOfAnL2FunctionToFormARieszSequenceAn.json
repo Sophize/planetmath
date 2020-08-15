@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\phi \\in L_2(\\mathbb{R})$, $\\phi_k(x) = \\phi(x-k)$ and $\\hat{\\phi}$\nbe the Fourier transform of $\\phi$. Let $A$ and $B$ be positive\nconstants. Then the following are equivalent:\n\n1.  $\\forall c(k) \\in l_2,\\ \\   A\\left\\|c\\right\\|^2_{l_2} \\leq\n    \\left\\|\\sum_{k\\in \\mathbb{Z}}c(k)\\phi_k\\right\\|^2\\leq\n    B\\left\\|c\\right\\|^2_{l_2}$\n\n2.  $\n    A\\leq\\sum_{k\\in\\mathbb{Z}}\\left|\\hat{\\phi}(\\omega + 2\\pi\n    k)\\right|^2\\leq B$\n\nThe first of the above conditions is the definition for\n$\\{\\phi_k\\}_{k\\in\\mathbb{Z}}$ to form a Riesz sequence.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquivalentConditionForTheTranslatesOfAnL2FunctionToFormARieszSequenceAn"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "equivalent condition for the translates of an $L_2$ function to form a Riesz sequence, an"
+  ]
+}

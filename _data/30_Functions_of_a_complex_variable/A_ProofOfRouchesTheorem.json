@@ -1,0 +1,17 @@
+{
+  "argumentText": "Consider the integral\n$$N(\\lambda) = {1 \\over 2 \\pi i} \\oint_C {f'(z) + \\lambda g'(z) \\over f(z) + \\lambda g(z)} dz$$\nwhere $0 \\le \\lambda \\le 1$. By the hypotheses, the function\n$f + \\lambda g$ is non-singular on $C$ or on the interior of $C$ and has\nno zeros on $C$. Hence, by the argument principle, $N(\\lambda)$ equals\nthe number of zeros (counted with multiplicity) of $f + \\lambda g$\ncontained inside $C$. Note that this means that $N(\\lambda)$ must be an\ninteger.\n\nSince $C$ is compact, both $|f|$ and $|g|$ attain minima and maxima on\n$C$. Hence there exist positive real constants $a$ and $b$ such that\n$$|f(z)| > a > b > |g(z)|$$ for all $z$ on $C$. By the triangle\ninequality, this implies that $|f(z) + \\lambda g(z)| > a - b$ on $C$.\nHence $1/(f + \\lambda g)$ is a continuous function of $\\lambda$ when\n$0 \\le \\lambda \\le 1$ and $z \\in C$. Therefore, the integrand is a\ncontinuous function of $C$ and $\\lambda$. Since $C$ is compact, it\nfollows that $N(\\lambda)$ is a continuous function of $\\lambda$.\n\nNow there is only one way for a continuous function of a real variable\nto assume only integer values \u2013 that function must be constant. In\nparticular, this means that the number of zeros of $f + \\lambda g$\ninside $C$ is the same for all $\\lambda$. Taking the extreme cases\n$\\lambda = 0$ and $\\lambda = 1$, this means that $f$ and $f+g$ have the\nsame number of zeros inside $C$.",
+  "conclusion": "#P_RouchesTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfRouchesTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Rouch\\'e's theorem"
+  ]
+}

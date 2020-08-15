@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $L$ be a bounded lattice. An element $a\\in L$ is said to be\n*central* if $a$ is and . The *center* of $L$, denoted\n$\\operatorname{Cen}(L)$, is the set of all central elements of $L$.\n\n**Remarks**.\n\n-   $0$ and $1$ are central: they are complements of one another, both\n    distributive and dually distributive, and satisfying the property\n    $$a\\wedge b=a\\wedge c\\mbox{ and }a\\vee b=a\\vee c\\mbox{ imply }b=c\\mbox{ for all }b,c\\in L$$\n    where $a\\in \\lbrace 0,1\\rbrace$, and therefore neutral.\n\n-   $\\operatorname{Cen}(L)$ is a sublattice of $L$.\n\n-   $\\operatorname{Cen}(L)$ is a Boolean algebra.\n\n[8]{} G. Gr\u00e4tzer, [*General Lattice Theory*]{}, 2nd Edition, Birkh\u00e4user\n(1998).",
+  "language": "INFORMAL",
+  "phrase": "Center Of A Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CenterOfALattice"
+    }
+  ],
+  "indexable": true
+}

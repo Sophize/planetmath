@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $L={\\mathbb{Q}}(\\zeta_m)$ be a cyclotomic extension of\n${\\mathbb{Q}}$ with $m$ chosen to be minimal and let $\\mathcal{O}_L$ be\nthe ring of integers ($={\\mathbb{Z}}(\\zeta_m)$), recall that *the\ncyclotomic units* are the elements of the form $$\\begin{aligned}\n\\eta=\\frac{\\zeta^r-1}{\\zeta^s-1}\\end{aligned}$$ with $r$ and $s$\nrelatively prime to $m$ (where $\\zeta=\\zeta_m$). Here we prove that\nthese elements are indeed algebraic units, i.e.\n$\\eta \\in \\mathcal{O}_L^\\times$.\n\nThe cyclotomic units are algebraic units.\n\nIn order to prove the lemma, we will check that both $\\eta$ and\n$\\eta^{-1}$ are algebraic integers, thus $\\eta$ is a unit. Notice that\nit suffices to prove that $\\eta$ is an algebraic integer, because the\nrest follows from interchanging the role of $r$ and $s$.\n\nLet $r,s\\in {\\mathbb{Z}}$ be relatively prime to $m$, thus\n$r \\mod m, s\\mod m$ are units in ${\\mathbb{Z}}/m{\\mathbb{Z}}$ and we can\nfind an integer $a$ such that: $$a\\cdot s \\equiv r \\mod m$$ Note also\nthat it follows that $\\zeta^r=\\zeta^{as}$. Moreover, using the equality\nof polynomials:\n$$x^{as}-1=(x^s-1)\\cdot(x^{s(a-1)}+x^{s(a-2)}+\\ldots+x^s+1)$$ we get:\n$$\\begin{aligned}\n\\eta &=& \\frac{\\zeta^r-1}{\\zeta^s-1}=\\frac{\\zeta^{as}-1}{\\zeta^s-1}\\\\\n&=& \\frac{(\\zeta^s-1)\\cdot(\\zeta^{s(a-1)}+\\zeta^{s(a-2)}+\\ldots+\\zeta^s+1)}{\\zeta^s-1}\\\\\n&=& \\zeta^{s(a-1)}+\\zeta^{s(a-2)}+\\ldots+\\zeta^s+1 \\in \\mathcal{O}_L={\\mathbb{Z}}[\\zeta]\\end{aligned}$$\nHence the result.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheCyclotomicUnitsAreAlgebraicUnits"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the cyclotomic units are algebraic units"
+  ]
+}

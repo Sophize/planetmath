@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be an $n \\times n$ matrix over $\\mathbb{R}$. A *group inverse*\nfor $A$ is an $n \\times n$ matrix $X$ such that $$\\begin{aligned}\nAXA &= A \\\\\nXAX &= X \\\\\nAX &= XA.\\end{aligned}$$ Such a matrix, when it exists, is unique and is\ndenoted by $A^{\\#}$. A group inverse is a special case of a Drazin\ninverse.",
+  "language": "INFORMAL",
+  "phrase": "Group Inverse",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupInverse"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Around $1910$, Ramanujan proved the following formula:\n\nThe following series converges and the sum equals $\\frac{1}{\\pi}$:\n$$\\frac{1}{\\pi}=\\frac{2\\sqrt{2}}{9801}\\sum_{n=0}^\\infty \\frac{(4n)!(1103+26390n)}{(n!)^4396^{4n}}.$$\n\nNeedless to say, the convergence is extremely fast. For example, if we\nonly use the term $n=0$ we obtain the following approximation:\n$$\\pi \\approx \\frac{9801}{2\\cdot 1103\\cdot \\sqrt{2}}=3.14159273001\\ldots$$\nand the error is (in absolute value) equal to $0.0000000764235\\ldots$ In\n$1985$, William Gosper used this formula to calculate the first 17\nmillion digits of $\\pi$.\n\nAnother similar formula can be easily obtained from the power series of\n$\\arctan x$. Although the convergence is good, it is not as impressive\nas in Ramanujan\u2019s formula:\n\n$$\\pi=2\\sqrt{3}\\sum_{n=0}^\\infty \\frac{(-1)^n}{(2n+1)3^n}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RamanujansFormulaForPi"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Ramanujan's formula for pi"
+  ]
+}

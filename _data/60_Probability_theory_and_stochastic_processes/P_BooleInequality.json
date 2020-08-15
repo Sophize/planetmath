@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(\\Omega,\\mathcal{F},P)$ be a probability space and\n$\\{A_1, A_2,\\cdots \\}$ be a sequence of events such that\n$\\{A_1, A_2,\\cdots \\} \\subset \\mathcal{F} $. Then\n$$P(\\bigcup_{n=1}^\\infty A_n)\\leq \\sum_{n=1}^{\\infty}P(A_n).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BooleInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Boole inequality"
+  ]
+}

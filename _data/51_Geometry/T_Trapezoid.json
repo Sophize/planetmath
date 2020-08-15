@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *trapezoid* is a quadrilateral with at least one pair of sides\nparallel. Some insist that trapezoids have exactly one pair of sides\nparallel, in which case parallelograms are not trapezoids. Other sources\ndo not restrict the definition in this manner, in which case\nparallelograms are trapezoids. The convention in PlanetMath is to use\nthe unrestricted definition.\n\nIn some dialects of English ( British English), a trapezoid is referred\nto as a *trapezium*. Unfortunately, some confusion arises when this word\nis used, since in other dialects of English (e.g. American English), a\n*trapezium* is a quadrilateral without any parallel sides.\n\nBelow is a picture of a trapezoid.\n\n(0,0)(4,2) (0,0)(1,2)(2.5,2)(4,0)\n\nThe *bases* of a trapezoid are its two parallel sides. (If the trapezoid\nis a parallelogram, either pair of parallel sides can be declared to be\nits bases.) The *legs* of a trapezoid are the two sides that are not\nbases. A *height* of a trapezoid is a line segment that is perpendicular\nto the bases of the trapezoid and whose endpoints lie on the two lines\nformed by extending the two bases. Typically, heights are drawn so that\nthey intersect at least one base of the trapezoid. (For some trapezoids,\nit is impossible to draw a height that intersects both bases.) Below is\na picture of a trapezoid with its bases labelled $b_1$ and $b_2$ and a\nheight drawn in blue.\n\n(0,-1)(6,4) (5,0)(5,3) (0,0)[.]{} (6,3)[.]{} (0,0)(4,3)(6,3)(3,0)\n(1.5,-0.3)[$b_1$]{} (4.5,3.2)[$b_2$]{} (3,0)(6,0)\n\nThe *median* of a trapezoid is the line segment whose endpoints are the\nmidpoints of the legs of the trapezoid. Below is a picture of a\ntrapezoid with its median drawn in red.\n\n(0,0)(4,2) (0.5,1)(4,1) (0,0)(1,2)(4,2)(4,0)\n\nIn the of this entry, only Euclidean geometry is considered.\n\nIf a trapezoid has bases of lengths $b_1$ and $b_2$ and a height of\nlength $h$, then the area of the trapezoid is\n\n$$A=\\frac{1}{2}(b_1+b_2)h.$$\n\nNote that the length $m$ of the median of a trapezoid is the arithmetic\nmean of the lengths of its bases; ,\n\n$$m=\\frac{1}{2}(b_1+b_2).$$\n\nThus, the area of a trapezoid can also be determined by\n\n$$A=mh.$$",
+  "language": "INFORMAL",
+  "phrase": "Trapezoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Trapezoid"
+    }
+  ],
+  "indexable": true
+}

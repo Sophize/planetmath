@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Ruth Aaron pair",
+    "Aaron-Ruth pair",
+    "Aaron Ruth pair"
+  ],
+  "definition": "After Hank Aaron broke Babe Ruth\u2019s home run record of 714, Carl\nPomerance noticed that the prime factors of 714 and 715 both add up to\n29. Since then, a pair of integers $n$ and $m = n + 1$ is called a\n[*Ruth-Aaron pair*]{} if the prime factors add up to the same number,\nand individually $n$ is called a [*Ruth-Aaron number*]{} and so is $m$.\n\nGiven the factorizations of the numbers\n$$n = \\prod_{i = 1}^{\\omega(n)} {p_i}^{a_i}, m = \\prod_{j = 1}^{\\omega(m)} {q_j}^{b_j},$$\nwhere the $p_i$ and $q_j$ are all distinct primes, and the $a_i$ and\n$b_j$ are positive integers (not necessarily distinct), and $\\omega(x)$\nis the number of distinct prime factors function, it becomes apparent\nthat there are at least two different ways to sum up the prime factors.\n\nThe most obvious way is to simply test\n$$\\sum_{i = 1}^{\\omega(n)} p_i = \\sum_{j = 1}^{\\omega(m)} q_j,$$ in\nwhich case the first few Ruth-Aaron pairs are (5, 6), (24, 25), (49,\n50), (77, 78), (104, 105), (153, 154), (369, 370), (492, 493), (714,\n715), ... (see A006145 in the OEIS).\n\nThe second way is to count repeated prime factors as they occur (e.g.,\nthe sum of prime factors of $72 = 2^33^2$ is 12). Thus the test becomes\n$$\\sum_{i = 1}^{\\omega(n)} p_ia_i = \\sum_{j = 1}^{\\omega(m)} q_jb_j,$$\nin which case the first few Ruth-Aaron pairs are (5, 6), (8, 9), (15,\n16), (77, 78), (125, 126), (714, 715), (948, 949), ... (see A039752 in\nthe OEIS).\n\nThe pairs (5, 6), (77, 78), (714, 715), ... work under either\ndefinition, and it can be observed that $|\\mu(n)| = |\\mu(m)| = 1$, where\n$\\mu(x)$ is the M\u00f6bius function (at least for $n < 1777028$).",
+  "language": "INFORMAL",
+  "phrase": "Ruth-Aaron Pair",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RuthAaronPair"
+    }
+  ],
+  "indexable": true
+}

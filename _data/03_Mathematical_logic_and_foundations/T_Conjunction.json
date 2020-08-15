@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "logical and",
+    "conjunctive truth function"
+  ],
+  "definition": "A conjunction is true only when both parameters (called conjuncts) are\ntrue. In English, conjunction is denoted by the word \u201cand\u201d.\nSymbolically, we represent it as $\\land$ or multiplication applied to\nBoolean parameters. Conjunction of $a$ and $b$ would be written\n$$a \\land b$$ or, in algebraic context, $$a \\cdot b$$ or $$ab$$ The\ntruth table for conjunction is\n\n   $a$   $b$   $a \\land b$\n  ----- ----- -------------\n    F     F         F\n    F     T         F\n    T     F         F\n    T     T         T",
+  "language": "INFORMAL",
+  "phrase": "Conjunction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Conjunction"
+    }
+  ],
+  "indexable": true
+}

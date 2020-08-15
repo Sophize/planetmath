@@ -1,0 +1,17 @@
+{
+  "argumentText": "Since there are only $\\aleph_0$ possible cardinalities for any element\nof $S$, there must be some $n$ such that there are an uncountable number\nof elements of $S$ with cardinality $n$. Let $S^*=\\{a\\in S\\mid |a|=n\\}$\nfor this $n$. By induction, the lemma holds:\n\nIf $n=1$ then there each element of $S^*$ is distinct, and has no\nintersection with the others, so $X=\\emptyset$ and $S^\\prime=S^*$.\n\nSuppose $n>1$. If there is some $x$ which is in an uncountable number of\nelements of $S^*$ then take\n$S^{**}=\\{a\\setminus\\{x\\}\\mid x\\in a\\in S^*\\}$. Obviously this is\nuncountable and every element has $n-1$ elements, so by the induction\nhypothesis there is some $S^\\prime\\subseteq S^{**}$ of uncountable\ncardinality such that the intersection of any two elements is $X$.\nObviously $\\{a\\cup\\{x\\}\\mid a\\in S^\\prime\\}$ satisfies the lemma, since\nthe intersection of any two elements is $X\\cup\\{x\\}$.\n\nOn the other hand, if there is no such $x$ then we can construct a\nsequence $\\langle a_i\\rangle_{i<\\omega_1}$ such that each $a_i\\in S^*$\nand for any $i\\neq j$, $a_i\\cap a_j=\\emptyset$ by induction. Take any\nelement for $a_0$, and given $\\langle a_i\\rangle_{i<\\alpha}$, since\n$\\alpha$ is countable, $A=\\bigcup_{i<\\alpha} a_i$ is countable.\nObviously each element of $A$ is in only a countable number of elements\nof $S^*$, so there are an uncountable number of elements of $S^*$ which\nare candidates for $a_\\alpha$. Then this sequence satisfies the lemma,\nsince the intersection of any two elements is $\\emptyset$.",
+  "conclusion": "#P_DeltaSystemLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfDeltaSystemLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of delta system lemma"
+  ]
+}

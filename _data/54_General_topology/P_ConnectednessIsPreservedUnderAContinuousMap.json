@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} Suppose $f\\colon X\\to Y$ is a continuous map between\ntopological spaces $X$ and $Y$. If $X$ is a connected space, and $f$ is\nsurjective, then $Y$ is a connected space.\n\nThe inclusion map for spaces $X=(0,1)$ and $Y=(0,1)\\cup(2,3)$ shows that\nwe need to assume that the map is surjective. Othewise, we can only\nprove that $f(X)$ is connected. See .\n\n*Proof.* For a contradiction, suppose there are disjoint open sets $A,B$\nin $Y$ such that $Y=A\\cup B$. By continuity and propertie[s]{} of the\ninverse image, $f^{-1}(A)$ and $f^{-1}(B)$ are open disjoint sets in\n$X$. Since $f$ is surjective, $Y=f(X)=A\\cup B$, whence\n$$X=f^{-1}f(X) = f^{-1}(A)\\cup f^{-1}(B)$$ contradicting the assumption\nthat $X$ is connected.\n\n[9]{} G.J. Jameson, *Topology and Normed Spaces*, Chapman and Hall,\n1974. G.L. Naber, *Topological methods in Euclidean spaces*, Cambridge\nUniversity Press, 1980.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConnectednessIsPreservedUnderAContinuousMap"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "connectedness is preserved under a continuous map"
+  ]
+}

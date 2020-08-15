@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The terms of the series defining the alternating zeta function\n$$\\eta(s) \\;:=\\; \\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n^s} \\qquad (\\mbox{Re}\\,s > 0),$$\na.k.a. the Dirichlet eta function, may be split into their real and\nimaginary parts: $$\\frac{1}{n^s} \\;=\\; \\frac{e^{-ib\\ln{n}}}{n^a} \\;=\\; \n\\frac{\\cos(b\\ln{n})}{n^a}-\\frac{i\\sin(b\\ln{n})}{n^a}$$ Here,\n$s = a\\!+\\!ib$ with real $a$ and $b$. It follows the equation\n$$\\begin{aligned}\n\\eta(s) \\;=\\; \n-\\sum_{n=1}^\\infty\\frac{(-1)^n}{n^a}\\cos(b\\ln{n})+i\\sum_{n=1}^\\infty\\frac{(-1)^n}{n^a}\\sin(b\\ln{n})\\end{aligned}$$\ncontaining two Dirichlet series.\n\nThe alternating zeta function and the Riemann zeta function are\nconnected by the relation $$\\zeta(s) \\;=\\; \\frac{\\eta(s)}{1-2^{1-s}}$$\n(see the ). The following conjecture concerning the above real part\nseries and imaginary part series of (1) has been proved by Sondow \\[1\\]\nto be equivalent with the Riemann hypothesis.\\\n**Conjecture.** If the equations\n$$\\sum_{n=1}^\\infty\\frac{(-1)^n}{n^a}\\cos(b\\ln{n}) \\;=\\; 0 \\quad \\mbox{and} \\quad \n\\sum_{n=1}^\\infty\\frac{(-1)^n}{n^a}\\sin(b\\ln{n}) \\;=\\; 0$$ are true for\nsome pair of real numbers $a$ and $b$, then\n$$a \\;=\\; 1/2 \\qquad \\mbox{or} \\qquad a \\;=\\; 1.$$\n\n[8]{} : A simple counterexample to Havil\u2019s \u201creformulation\u201d of the\nRiemann hypothesis. \u2013 [*Elemente der Mathematik*]{} **67** (2012) 61\u201367.\nAlso available .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TwoSeriesArisingFromTheAlternatingZetaFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "two series arising from the alternating zeta function",
+    "trigonometric series conjecture equivalent to the Riemann hypothesis"
+  ]
+}

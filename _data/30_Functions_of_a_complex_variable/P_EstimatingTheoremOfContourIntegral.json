@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $f$ is a continuous complex function on the rectifiable curve\n$\\gamma$ of the complex plane, then $$\\begin{aligned}\n\\left|\\int_\\gamma f(z)\\,dz\\right| \\leqq \\max_{z\\in\\gamma} |f(z)|\\cdot l,\\end{aligned}$$\nwhere $$l = \\int_\\gamma|dz|$$ is the of $\\gamma$.\n\nThe form of (1) concerning the continuous real function $f$ on the\ninterval $[a,\\,b]$ is\n$$\\left|\\int_a^b f(x)\\,dx\\right| \\leqq \\max_{a\\leqq x\\leqq b} |f(x)|\\cdot(b\\!-\\!a).$$\n\nFor applications of this important theorem, see the example of using\nresidue theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EstimatingTheoremOfContourIntegral"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "estimating theorem of contour integral",
+    "estimation theorem of integral",
+    "integral estimating theorem"
+  ]
+}

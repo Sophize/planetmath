@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a commutative semigroup. We say an element $x$ *divides* an\nelement $y$, written $x \\mid y$, if there is an element $z$ such that\n$xz = y$.\n\nAn *Archimedean semigroup* $S$ is a commutative semigroup with the\nproperty that for all $x, y \\in S$ there is a natural number $n$ such\nthat $x \\mid y^n$.\n\nThis is related to the Archimedean property of positive real numbers\n$\\mathbb{R}^+$: if $x, y > 0$ then there is a natural number $n$ such\nthat $x < ny$. Except that the notation is additive rather than\nmultiplicative, this is the same as saying that $(\\mathbb{R}^+, +)$ is\nan Archimedean semigroup.",
+  "language": "INFORMAL",
+  "phrase": "Archimedean Semigroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArchimedeanSemigroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "precompact",
+    "relatively compact"
+  ],
+  "definition": "A subset in a topological space is *precompact* if its closure is\ncompact [@lee].\n\nFor metric spaces, we have the following theorem due to Hausdorff\n[@cristescu].\n\n[**Theorem**]{} Suppose $K$ is a set in a complete metric space $X$.\nThen $K$ relatively compact if and only if for any $\\varepsilon>0$ there\nis a finite for $K$.\n\n### Examples {#examples .unnumbered}\n\n1.  In ${\\mathbb{R}}^n$ every point has a precompact neighborhood.\n\n2.  On a manifold, every point has a precompact neighborhood. This\n    follows from the previous example, since a homeomorphism commutes\n    with the closure operator, and since the continuous image of a\n    compact set is compact.\n\n### Notes {#notes .unnumbered}\n\nA synonym is *relatively compact* [@cristescu; @kreyszig].\n\nSome authors (notably Bourbaki see [@bour]) use precompact differently -\nas a synonym for (in the generality of topological groups). \u201cRelatively\ncompact\u201d is then used to mean \u201cprecompact \u201das it is defined here\n\n[9]{} J.M. Lee, *Introduction to Smooth Manifolds*, Graduate Texts in\nMathematics series, 218, Springer-Verlag, 2002. R. Cristescu,\n*Topological vector spaces*, Noordhoff International Publishing, 1977.\nE. Kreyszig, *Introductory Functional Analysis With Applications*, John\nWiley & Sons, 1978. N. Bourbaki, *Topological Vector Spaces*\nSpringer-Verlag, 1981",
+  "language": "INFORMAL",
+  "phrase": "Precompact Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrecompactSet"
+    }
+  ],
+  "indexable": true
+}

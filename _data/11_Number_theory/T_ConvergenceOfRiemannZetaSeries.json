@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The series $$\\begin{aligned}\n\\sum_{n=1}^\\infty\\frac{1}{n^s}\\end{aligned}$$ converges absolutely for\nall $s$ with real part greater than 1.\\\n[*Proof.*]{} Let $s = \\sigma+it$ where $\\sigma$ and $t$ are real numbers\nand $\\sigma > 1$. Then\n$$\\left|\\frac{1}{n^s}\\right| = \\frac{1}{|e^{s\\log{n}}|} = \n\\frac{1}{e^{\\sigma\\log{n}}} = \\frac{1}{n^\\sigma}.$$ Since the series\n$\\sum_{n=1}^\\infty\\frac{1}{n^\\sigma}$ converges, by the , for\n$\\sigma > 1$, we conclude that the series (1) is absolutely convergent\nin the half-plane $\\sigma > 1$.",
+  "language": "INFORMAL",
+  "phrase": "Convergence Of Riemann Zeta Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvergenceOfRiemannZetaSeries"
+    }
+  ],
+  "indexable": true
+}

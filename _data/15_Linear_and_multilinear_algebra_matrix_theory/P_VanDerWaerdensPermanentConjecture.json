@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ be any doubly stochastic $n\\times n$ matrix (i.e.\u00a0nonnegative\nreal entries, each row sums to 1, each column too, hence square).\n\nLet $A^\\circ$ be the one where all entries are equal (i.e.\u00a0they are\n$\\frac1n$). Its permanent works out to\n$$\\per A^\\circ \\;=\\; n!(\\frac1n)^n$$ and Van der Waerden conjectured in\n1926 that this is the smallest value for the permanent of any doubly\nstochastic $A$, and is attained only for $A=A^\\circ$:\n$$\\per A \\;\\gt\\; n!(\\frac1n)^n \\quad\\hbox{(for $A \\ne A^\\circ$).}$$ It\nwas finally proven independently by Egorychev and by Falikman, in\n1979/80.\n\n[Hal86]{}\n\n, (2nd ed.),\\\nWiley 1986, repr.\u00a01998, and\\\n[*has a proof of the permanent conjecture.*]{}",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VanDerWaerdensPermanentConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Van der Waerden's permanent conjecture",
+    "permanent conjecture"
+  ]
+}

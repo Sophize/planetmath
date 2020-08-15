@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a geodesic curve, an *affine parameterization* for that curve is a\nparameterization by a parameter $t$ such that the parametric equations\nfor the curve satisfy the geodesic equation.\n\nPut another way, if one picks a parameterization of a geodesic curve by\nan arbitrary parameter $s$ and sets $u^\\mu = dx^\\mu / ds$, then we have\n$$u^\\mu \\nabla_\\mu u^\\nu = f(s) u^\\nu$$ for some function $f$. In\ngeneral, the right hand side of this equation does not equal zero \u2014 it\nis only zero in the special case where $t$ is an affine parameter.\n\nThe reason for the name \u201caffine parameter\u201d is that, if $t_1$ and $t_2$\nare affine parameters for the same geodesic curve, then they are related\nby an affine transform, i.e. there exist constants $a$ and $b$ such that\n$$t_1 = a t_2 + b$$ Conversely, if $t$ is an affine parameter, then\n$at + b$ is also an affine parameter.\n\nFrom this it follows that an affine parameter $t$ is uniquely determined\nif we specify its value at two points on the geodesic or if we specify\nboth its value and the value of $dx^\\mu / dt$ at a single point of the\ngeodesic.",
+  "language": "INFORMAL",
+  "phrase": "Affine Parameter",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AffineParameter"
+    }
+  ],
+  "indexable": true
+}

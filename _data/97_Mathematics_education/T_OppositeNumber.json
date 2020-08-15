@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "negative [as a noun]"
+  ],
+  "definition": "The [*opposite number*]{} of a number $a$ is such a number $-a$ that\n$$-a\\!+\\!a \\;=\\; 0.$$\n\nSome properties:\n\n-   $-a \\;=\\; (-1)\\!\\cdot\\!a$\n\n-   $-0 \\;=\\; 0$\n\n-   $-(-a) \\;=\\; a$\n\n-   $-(a\\!+\\!b) \\;=\\; (-a)\\!+\\!(-b)$\n\n-   $-(a\\!\\cdot\\!b) \\;=\\; a\\!\\cdot\\!(-b) \\;=\\; (-a)\\!\\cdot\\!b$\n\n-   $-(a\\!-\\!b) \\;=\\; b\\!-\\!a$\n\n-   $-\\sum_{j = 1}^n a_j \\;=\\; \\sum_{j = 1}^n (-a_j)$\n\n-   $-\\int_a^b f(x)\\,dx \\;=\\; \\int_b^a f(x)\\,dx$\n\nExactly similar properties (except the last) are valid in every ring.\nThe fifth property implies the\n\n**Corollary.** If one changes the sign of one factor of a ring product,\nthen the sign of the whole product changes.",
+  "language": "INFORMAL",
+  "phrase": "Opposite Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OppositeNumber"
+    }
+  ],
+  "indexable": true
+}

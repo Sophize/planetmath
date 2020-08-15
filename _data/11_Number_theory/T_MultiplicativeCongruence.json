@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "multiplicatively congruent"
+  ],
+  "definition": "Let ${{\\mathfrak{p}}}$ be any real prime of a number field $K$, and\nwrite $i: K {\\longrightarrow}{\\mathbb{R}}$ for the corresponding real\nembedding of $K$. We say two elements $\\alpha, \\beta \\in K$ are\n[*multiplicatively congruent*]{} mod ${{\\mathfrak{p}}}$ if the real\nnumbers $i(\\alpha)$ and $i(\\beta)$ are either both positive or both\nnegative.\n\nNow let ${{\\mathfrak{p}}}$ be a finite prime of $K$, and write\n$({\\mathcal{O}}_K)_{{\\mathfrak{p}}}$ for the localization of the ring of\nintegers ${\\mathcal{O}}_K$ of $K$ at ${{\\mathfrak{p}}}$. For any natural\nnumber $n$, we say $\\alpha$ and $\\beta$ are [*multiplicatively\ncongruent*]{} mod ${{\\mathfrak{p}}}^n$ if they are members of the same\ncoset of the subgroup\n$1+{{\\mathfrak{p}}}^n({\\mathcal{O}}_K)_{{\\mathfrak{p}}}$ of the\nmultiplicative group $K^\\times$ of $K$.\n\nIf ${{\\mathfrak{m}}}$ is any modulus for $K$, with factorization\n$${{\\mathfrak{m}}}= \\prod_{{{\\mathfrak{p}}}} {{\\mathfrak{p}}}^{n_{{\\mathfrak{p}}}},$$\nthen we say $\\alpha$ and $\\beta$ are [*multiplicatively congruent*]{}\nmod ${{\\mathfrak{m}}}$ if they are multiplicatively congruent mod\n${{\\mathfrak{p}}}^{n_{{\\mathfrak{p}}}}$ for every prime\n${{\\mathfrak{p}}}$ appearing in the factorization of ${{\\mathfrak{m}}}$.\n\nMultiplicative congruence of $\\alpha$ and $\\beta$ mod ${{\\mathfrak{m}}}$\nis commonly denoted using the notation\n$$\\alpha \\equiv^* \\beta \\pmod{{{\\mathfrak{m}}}}.$$",
+  "language": "INFORMAL",
+  "phrase": "Multiplicative Congruence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplicativeCongruence"
+    }
+  ],
+  "indexable": true
+}

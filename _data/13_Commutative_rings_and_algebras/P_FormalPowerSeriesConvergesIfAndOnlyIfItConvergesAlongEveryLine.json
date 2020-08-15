@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $T(x)$ denotes the formal power series\n$\\sum_{\\alpha} a_\\alpha x^\\alpha ,$ using the multi-index notation,\nwhere $x = (x_1,\\ldots,x_N)$ and $a_\\alpha \\in \\mathbb{C}.$ Fixing\n$v \\in {\\mathbb{R}}^N$ and we can also talk of the formal power series\nin $t \\in \\mathbb{R}$ $$\\begin{split}\nT(tv) & = \\sum_{\\alpha} a_\\alpha (tv)^\\alpha \\\\\n & = \\sum_{\\alpha} a_\\alpha v^\\alpha t^{\\lvert \\alpha \\rvert} \\\\\n & = \\sum_{k=0}^\\infty \\left( \\sum_{\\lvert \\alpha \\rvert = k} a_\\alpha v^\\alpha \\right) t^k .\n\\end{split}$$\n\nSuppose $T(x)$ is a formal power series in $x \\in {\\mathbb{R}}^N$.\nSuppose $T(tv)$ is a convergent power series in $t \\in \\mathbb{R}$ for\nall $v \\in {\\mathbb{R}}^N$. Then $T$ is convergent.\n\nThe other direction, if $T(x)$ converges then $t \\mapsto T(tv)$\nconverges, is obvious.\n\n[9]{} M. Salah Baouendi, Peter Ebenfelt, Linda Preiss Rothschild.\n[**]{}, Princeton University Press, Princeton, New Jersey, 1999.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FormalPowerSeriesConvergesIfAndOnlyIfItConvergesAlongEveryLine"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "formal power series converges if and only if it converges along every line"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "root mean square",
+    "rms",
+    "quadratic mean"
+  ],
+  "definition": "If $x_1,x_2,\\ldots,x_n$ are real numbers, we define their\n*root-mean-square* or *quadratic mean* as\n$$R(x_1,x_2,\\ldots,x_n)=\\sqrt{\\frac{x_1^2+x_2^2+\\cdots+x_n^2}{n}}.$$\n\nThe root-mean-square of a random variable X is defined as the square\nroot of the expectation of $X^2$: $$R(X)=\\sqrt{E(X^2)}$$\n\nIf $X_1,X_2,\\ldots,X_n$ are random variables with standard deviations\n$\\sigma_1,\\sigma_2,\\ldots,\\sigma_n$, then the standard deviation of\ntheir arithmetic mean, $\\frac{X_1+X_2+\\cdots+X_n}{n}$, is the\nroot-mean-square of $\\sigma_1,\\sigma_2,\\ldots,\\sigma_n$.",
+  "language": "INFORMAL",
+  "phrase": "Root-Mean-Square",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Rootmeansquare"
+    }
+  ],
+  "indexable": true
+}

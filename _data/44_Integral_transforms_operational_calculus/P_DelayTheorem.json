@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If $f(t) \\equiv 0$ for $t < 0$ and\n$\\mathcal{L}\\{f(t)\\} := F(s)$, one has\n$$\\mathcal{L}\\{f(t\\!-\\!t_0)\\}\\;=\\; e^{-t_0s}F(s).$$\n\n[*Proof.*]{} Since $f(t\\!-\\!t_0) \\equiv 0$ for $t < t_0$, the definition\nof Laplace transform at first gives\n$$\\mathcal{L}\\{f(t\\!-\\!t_0)\\}\\;=\\; \\int_{t_0}^\\infty e^{-st}f(t\\!-\\!t_0)\\,dt.$$\nThe $t\\!-\\!t_0 \\,:=\\, u$ yields\n$$\\mathcal{L}\\{f(t\\!-\\!t_0)\\} \\;=\\; \\int_{0}^\\infty e^{-s(u+t_0)}f(u)\\,du\n\\;=\\; e^{-t_0s}\\int_{0}^\\infty e^{-su}f(u)\\,du \\;=\\; e^{-t_0s}F(s).$$\n\n**Corollary.** For any $f(t)$ and the Heaviside step function $H(t)$,\none has $$\\mathcal{L}\\{f(t\\!-\\!a)H(t\\!-\\!a)\\} \\;=\\; e^{-as}F(s).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DelayTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "delay theorem",
+    "delay theorem of Laplace transform"
+  ]
+}

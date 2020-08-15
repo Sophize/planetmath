@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A **Jordan block** or **Jordan matrix** is a matrix of the form\n\n$$\\begin{pmatrix}\n\\lambda & 1 & 0 & \\cdots & 0\\\\\n0 & \\lambda & 1 & \\cdots & 0\\\\\n0 & 0 & \\lambda & \\cdots & 0\\\\\n\\vdots & \\vdots & \\vdots &  \\ddots & 1\\\\\n0 & 0 & 0 & \\cdots & \\lambda\n\\end{pmatrix}$$\n\nwith a constant value $\\lambda$ along the diagonal and 1\u2019s on the\nsuperdiagonal. Some texts the 1\u2019s on the subdiagonal instead.\n\nLet $V$ be a finite-dimensional vector space over a field $F$ and\n$t:V \\to V$ be a linear transformation. Then, if the characteristic\npolynomial factors completely over $F$, there will exist a basis of $V$\nwith respect to which the matrix of $t$ is of the form\n\n$$\\begin{pmatrix}\nJ_{1} & 0 & \\cdots& 0\\\\\n0 & J_{2} & \\cdots & 0\\\\\n & & \\cdots & \\\\\n0 & 0 & \\cdots & J_{k}\n\\end{pmatrix}$$\n\nwhere each $J_{i}$ is a Jordan block in which $\\lambda = \\lambda_{i}$.\n\nThe matrix in Theorem 1 is called a *Jordan canonical form* for the\ntransformation *t*.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JordanCanonicalFormTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Jordan canonical form theorem",
+    "Jordan canonical form"
+  ]
+}

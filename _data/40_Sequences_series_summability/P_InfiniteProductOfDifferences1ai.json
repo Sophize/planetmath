@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We consider the infinite products of the form $$\\begin{aligned}\n\\prod_{i=1}^\\infty(1\\!-\\!a_i) \\,=\\, (1\\!-\\!a_1)(1\\!-\\!a_2)(1\\!-\\!a_3)\\cdots\\end{aligned}$$\nand the series $a_1\\!+\\!a_2\\!+\\!a_3\\!+\\ldots$ where the numbers $a_i$\nare nonnegative reals.\n\n-   If the series converges, then also the product converges and has a\n    value which does not depend on the order of the factors and vanishes\n    only when some of the factors is 0.\n\n-   If $\\displaystyle\\lim_{i\\to\\infty}a_i = 0$ but the series diverges,\n    then the value of the infinite product is always zero though no of\n    the factors were zero.\n\n**Example.**\n$(1\\!-\\!\\frac{1}{2})(1\\!-\\!\\frac{1}{3})(1\\!-\\!\\frac{1}{4})\\cdots \\;=\\; 0$;\nsee the harmonic series.\\\n[*Proof.*]{} $1^\\circ$. Now we have\n$\\displaystyle\\lim_{i\\to\\infty}a_i = 0$ (see the necessary condition of\nconvergence of series), and so $a_i < \\frac{1}{2}$ when $i \\geqq i_0$.\nWe write $$\\begin{aligned}\n\\prod_{i=1}^\\infty(1\\!-\\!a_i) \\,=\\, \\prod_{i=1}^{i_0-1}(1\\!-\\!a_i)\\prod_{i=i_0}^\\infty(1\\!-\\!a_i)\\end{aligned}$$\nand set in the last product\n$$1\\!-\\!a_i \\;=\\; \\frac{1}{\\frac{1}{1\\!-\\!a_i}} \\,=\\, \\frac{1}{1+\\frac{a_i}{1\\!-\\!a_i}},$$\nwhence $$\\begin{aligned}\n\\prod_{i=i_0}^n (1\\!-\\!a_i) \\,=\\, \\frac{1}{ \\prod_{i=i_0}^n\\left(1+\\frac{a_i}{1\\!-\\!a_i}\\right) }.\\end{aligned}$$\nAs $a_i < \\frac{1}{2}$, we have $\\displaystyle\\frac{1}{1\\!-\\!a_i} < 2$\nand thus $\\displaystyle 0 < \\frac{a_i}{1\\!-\\!a_i} < 2\\cdot a_i$, and\ntherefore the series\n$\\displaystyle \\sum_{i=i_0}^\\infty \\frac{a_i}{1\\!-\\!a_i}$ with\nnonnegative is absolutely convergent. The theorem of the then says that\nthe product in the denominator of the right hand side of (3) tends, as\n$n \\to \\infty$, to a finite non-zero limit, which don\u2019t depend on the\norder of the factors. Consequently, the same concerns the product of the\nleft hand side of (3). By (2), we now infer that the given product (1)\nconverges, its value is on the order and it vanishes only along with\nsome of its factors.\\\n$2^\\circ$. There is an $i_0$ such that $a_i < 1$ when $i \\geqq i_0$,\nwhence $\\frac{a_i}{1\\!-\\!a_i} > a_i$ and the series\n$\\displaystyle \\sum_{i=i_0}^\\infty\\frac{a_i}{1\\!-\\!a_i}$ diverges. The\ndenominator of the right hand side of (3) tends, as $n \\to \\infty$, to\nthe infinity and thus the product of the left hand side to 0. Hence the\nvalue of (1) is necessarily 0, also when all factors were distinct from\n0.\n\n[8]{} : [*Differentiali- ja integralilasku ja sen sovellutukset\nIII.2*]{}. Mercatorin Kirjapaino Osakeyhti\u00f6, Helsinki (1940).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InfiniteProductOfDifferences1ai"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "infinite product of differences $1\\!-\\!a_i$"
+  ]
+}

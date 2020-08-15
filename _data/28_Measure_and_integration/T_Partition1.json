@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "subinterval partition"
+  ],
+  "definition": "Let $a,b \\in \\mathbb{R}$ with $a<b$. A [*partition*]{} of an interval\n$[a,b]$ is a set of nonempty subintervals\n$\\{ [a,x_1), [x_1,x_2), \\dots , [x_{n-1}, b] \\}$ for some positive\ninteger $n$. That is, $a<x_1<x_2<\\dots<x_{n-1}<b$. Note that $n$ is the\nnumber of subintervals in the partition.\n\nSubinterval partitions are useful for defining Riemann integrals.\n\nNote that subinterval partition is a specific case of a of a set since\nthe subintervals are defined so that they are pairwise disjoint.",
+  "language": "INFORMAL",
+  "phrase": "Partition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Partition1"
+    }
+  ],
+  "indexable": true
+}

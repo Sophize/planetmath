@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M=(W,R,V)$ be a Kripke model for a modal logic $L$. Let $\\Delta$ be\na set of wff\u2019s. Define a binary relation $\\sim_{\\Delta}$ on $W$:\n$$w \\sim_{\\Delta} u \\qquad \\mbox{iff} \\qquad \\models_w A \\mbox{ iff } \\models_u A \\mbox{ for any }A\\in \\Delta.$$\nThen $\\sim_{\\Delta}$ is an equivalence relation on $W$. Let $W'$ be the\nset of equivalence classes of $\\sim_{\\Delta}$ on $W$. It is easy to see\nthat if $\\Delta$ is finite, so is $W'$. Next, let\n$$V'(p):=\\lbrace [w] \\in W' \\mid w\\in V(p)\\rbrace.$$ Then $V'$ is a\nwell-defined function. We call a binary relation $R'$ on $W'$ a\n*filtration* of $R$ if\n\n-   $w R u$ implies $[w] R' [u]$\n\n-   $[w] R' [u]$ implies that for any wff $A$ with\n    $\\square A \\in \\Delta$, if $\\models_w \\square A$, then\n    $\\models_u A$.\n\nThe triple $M':=(W',R',V')$ is called a *filtration* of the model $M$.\n\n(Filtration Lemma) Let $\\Delta$ be a set of wff\u2019s closed under the\nformation of subformulas: any subformula of any formula in $\\Delta$ is\nagain in $\\Delta$. Then\n$$M' \\models_{[w]} A \\qquad \\mbox{iff} \\qquad M \\models_w A.$$",
+  "language": "INFORMAL",
+  "phrase": "Filtration",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Filtration1"
+    }
+  ],
+  "indexable": true
+}

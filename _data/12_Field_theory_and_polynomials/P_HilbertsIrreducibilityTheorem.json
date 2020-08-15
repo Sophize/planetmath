@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry, $K$ is a field of characteristic zero and $V$ is an\nirreducible algebraic variety over $K$.\n\nA variety $V$ satisfies the Hilbert property over $K$ if $V(K)$ is not a\nthin algebraic set.\n\nA field $K$ is said to be Hilbertian if there exists an irreducible\nvariety $V/K$ of $\\dim V \\geq 1$ which has the Hilbert property.\n\nA number field $K$ is Hilbertian. In particular, for every $n$, the\naffine space $\\mathbb{A}^n(K)$ has the Hilbert property over $K$.\n\nHowever, the field of real numbers ${\\mathbb{R}}$ and the field of\n$p$-adic rationals ${\\mathbb{Q}}_p$ are not Hilbertian.\n\n[9]{} J.-P. Serre, [*Topics in Galois Theory*]{}, Research Notes in\nMathematics, Jones and Barlett Publishers, London.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HilbertsIrreducibilityTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hilbert's irreducibility theorem",
+    "Hilbertian"
+  ]
+}

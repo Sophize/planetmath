@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $(K,\\mathcal{K})$ be a . We use the to show that there is a compact\npaving $\\mathcal{K}^\\prime$ containing $\\mathcal{K}$ that is closed\nunder arbitrary intersections and finite unions.\n\nWe first show that the paving $\\mathcal{K}_1$ consisting of all finite\nunions of elements of $\\mathcal{K}$ is compact. Let\n$\\mathcal{F}\\subseteq\\mathcal{K}_1$ satisfy the finite intersection\nproperty. It then follows that the collection of finite intersections of\n$\\mathcal{F}$ is a . The ultrafilter lemma says that $\\mathcal{F}$ is\ncontained in an ultrafilter $\\mathcal{U}$.\n\nBy definition, the ultrafilter satisfies the finite intersection\nproperty. So, the compactness of $\\mathcal{K}$ implies that\n$\\mathcal{F}^\\prime\\equiv\\mathcal{U}\\cap\\mathcal{K}$ has nonempty\nintersection. Also, every element $S$ of $\\mathcal{F}$ is a union of\nfinitely many elements of $\\mathcal{K}$, one of which must be in\n$\\mathcal{U}$ (see ). In particular, $S$ contains the intersection of\n$\\mathcal{F}^\\prime$ and,\n$$\\bigcap\\mathcal{F}\\supseteq\\bigcap\\mathcal{F}^\\prime\\not=\\emptyset.$$\nConsequently, $\\mathcal{K}_1$ is compact.\n\nFinally, we let $\\mathcal{K}^\\prime$ be the set of arbitrary\nintersections of $\\mathcal{K}_1$. This is closed under all arbitrary\nintersections and finite unions. Furthermore, if\n$\\mathcal{F}\\subseteq\\mathcal{K}^\\prime$ satisfies the finite\nintersection property then so does\n$$\\mathcal{F}^\\prime\\equiv\\left\\{A\\in \\mathcal{K}_1\\colon B\\subseteq A\\text{ for some }B\\in\\mathcal{F}\\right\\}.$$\nThe compactness of $\\mathcal{K}_1$ gives\n$$\\bigcap\\mathcal{F}=\\bigcap\\mathcal{F}^\\prime\\not=\\emptyset$$ as\nrequired.",
+  "conclusion": "#P_CompactPavingsAreClosedSubsetsOfACompactSpace",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCompactPavingsAreClosedSubsetsOfACompactSpace"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of compact pavings are closed subsets of a compact space"
+  ]
+}

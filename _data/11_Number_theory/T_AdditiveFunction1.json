@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In number theory, an [*additive function*]{} is an arithmetic function\n$f \\colon \\mathbb{N} \\to \\mathbb{C}$ with the property that $f(1)=0$\nand, for all $a,b \\in \\mathbb{N}$ with $\\gcd(a,b)=1$, $f(ab)=f(a)+f(b)$.\n\nAn arithmetic function $f$ is said to be [*completely additive*]{} if\n$f(1)=0$ and $f(ab)=f(a)+f(b)$ holds for [*all*]{} positive integers $a$\nand $b$, when they are not relatively prime. In this case, the function\nis a homomorphism of monoids and, because of the fundamental theorem of\narithmetic, is completely determined by its restriction to prime\nnumbers. Every completely additive function is additive.\n\nOutside of number theory, the additive is usually used for all functions\nwith the property $f(a+b) = f(a)+f(b)$ for all arguments $a$ and $b$.\n(For instance, see the other entry titled .) This entry discusses number\ntheoretic additive functions.\n\nAdditive functions cannot have convolution inverses since an arithmetic\nfunction $f$ has a convolution inverse if and only if $f(1) \\neq 0$. A\nproof of this equivalence is supplied .\n\nThe most common of additive function in all of mathematics is the\nlogarithm. Other additive functions that are useful in number theory\nare:\n\n-   $\\omega(n)$, the number of distinct prime factors function\n\n-   $\\Omega(n)$, the\n\nBy exponentiating an additive function, a multiplicative function is\nobtained. For example, the function $\\displaystyle 2^{\\omega(n)}$ is\nmultiplicative. Similarly, by exponentiating a completely additive\nfunction, a completely multiplicative function is obtained. For example,\nthe function $\\displaystyle 2^{\\Omega(n)}$ is completely multiplicative.",
+  "language": "INFORMAL",
+  "phrase": "Additive Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdditiveFunction1"
+    }
+  ],
+  "indexable": true
+}

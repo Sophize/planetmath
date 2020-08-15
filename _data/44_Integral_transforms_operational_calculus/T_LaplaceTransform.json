@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f(t)$ be a function defined on the interval $[0,\\,\\infty)$. The\n*Laplace transform* of $f(t)$ is the function $F(s)$ defined by\n$$F(s)\\,=\\,\\int_{0}^{\\infty}e^{-st} f(t)\\,dt,$$ provided that the\nintegral converges. [^1] It suffices that $f$ be defined when $t>0$ and\n$s$ can be complex. We will usually denote the Laplace transform of $f$\nby $\\mathcal{L}\\{f\\}$. Some of the most common Laplace transforms are:\n\n1.  $\\displaystyle\\mathcal{L}\\{e^{at}\\}\\,=\\,\\frac{1}{s-a},\\;\\; s>a$\n\n2.  $\\displaystyle\\mathcal{L}\\{\\cos(bt)\\}\\,=\\,\\frac{s}{s^{2}+b^{2}},\\;\\; s>0$\n\n3.  $\\displaystyle\\mathcal{L}\\{\\sin(bt)\\}\\,=\\,\\frac{b}{s^{2}+b^{2}},\\;\\; s>0$\n\n4.  $\\displaystyle\\mathcal{L}\\{t^{n}\\}\\,=\\,\\frac{\\Gamma(n+1)}{s^{n+1}},\\;\\; s>0,\\; n>-1.$\n\n5.  $\\displaystyle\\mathcal{L}\\{f'\\}\\,=\\, s\\mathcal{L}\\{f\\}-\\lim_{x \\to 0+}f(x)$\n\nFor more particular Laplace transforms, see the table of Laplace\ntransforms.\\\nNotice the Laplace transform is a linear transformation. It is worth\nnoting that, if $$\\int_{0}^{\\infty}e^{-st}|f(t)|\\,dt < \\infty$$ for some\n$s \\in \\mathbb{R}$, then $\\mathcal{L}\\{f\\}$ is an analytic function in\nthe complex half-plane $\\{z \\mid\\; \\Re z > s\\}$.\n\nMuch like the Fourier transform, the Laplace transform has a\nconvolution. However, the form of the convolution used is different.\n$$\\mathcal{L}\\{f*g\\} = \\mathcal{L}\\{f\\} \\mathcal{L}\\{g\\}$$ where\n$$(f*g) (t) = \\int_0^t f(t-s) g(s) \\, ds$$ and\n$$\\mathcal{L}\\{fg\\}(s) = \\int_{c - i \\infty}^{c + i \\infty} \\mathcal{L}\\{f\\}(z) \\mathcal{L}\\{g\\}(s-z) \\, dz$$\n\nThe most popular usage of the Laplace transform is to solve initial\nvalue problems by taking the Laplace transform of both sides of an\nordinary differential equation; see the entry \u201c\u201d.\n\n[^1]: Depending on the definition of integral one is using, one may\n    prefer to define the Laplace transform as\n    $\\lim_{x \\to 0+} \\int_{x}^{\\infty}e^{-st} f(t)\\,dt$",
+  "language": "INFORMAL",
+  "phrase": "Laplace Transform",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LaplaceTransform"
+    }
+  ],
+  "indexable": true
+}

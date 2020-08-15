@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Cauchy distribution"
+  ],
+  "definition": "$X$ is a **Cauchy random variable** with parameters\n$\\theta\\in{{\\mathbb}{R}}$ and $\\beta>0\\in{{\\mathbb}{R}}$, commonly\ndenoted $X\\sim Cauchy(\\theta,\\beta)$ if $$\\begin{aligned}\nf_X(x)=\\frac{1}{\\pi\\beta[1+(\\frac{x-\\theta}{\\beta})^2]}.\\end{aligned}$$\n\nCauchy random variables are used primarily for theoretical purposes, the\nkey point being that the values $E[X]$ and $Var[X]$ are undefined for\nCauchy random variables.",
+  "language": "INFORMAL",
+  "phrase": "Cauchy Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyRandomVariable"
+    }
+  ],
+  "indexable": true
+}

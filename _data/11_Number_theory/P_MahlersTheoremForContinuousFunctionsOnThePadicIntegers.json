@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "(Mahler) Let $f$ be a continuous function on the $p$-adic integers\ntaking values in some finite extension $K$ of $\\mathbb{Q}_p$, and for\neach $n\\in\\mathbb{N}$, put\n$a_n=\\sum_{i=0}^n(-1)^{n-i}\\tbinom{n}{i}f(i)$. Then $a_n\\rightarrow 0$\nas $n\\rightarrow\\infty$, the series\n$\\sum_{n=0}^\\infty a_n\\tbinom{\\cdot}{n}$ converges uniformly to $f$ on\n$\\mathbb{Z}_p$, and\n${\\Vertf\\Vert}_\\infty=\\sup_{n\\geq 0}{\\verta_n\\vert}_p$, where\n${\\Vert\\cdot\\Vert}_\\infty$ denotes the sup norm.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MahlersTheoremForContinuousFunctionsOnThePadicIntegers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Mahler's theorem for continuous functions on the $p$-adic integers"
+  ]
+}

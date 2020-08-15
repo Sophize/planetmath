@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose $A$ and $B$ are sets in a vector space $V$\nover a field $K$, and suppose $\\lambda \\in K$. Then $$\\begin{aligned}\nA+B&=&\\{a+b \\mid a\\in A, b\\in B\\},\\\\\nA-B&=&\\{a-b \\mid a\\in A, b\\in B\\},\\\\\n\\lambda A&=& \\{\\lambda a \\mid a\\in A\\},\\\\\n-A &=& (-1) A.\\end{aligned}$$ The set $A+B$ is called the *Minkowski\nsum* of $A$ and $B$. If either $A$ or $B$ is a single point (a\nsingleton), say $B=\\{x\\}$, then we write $A+x$ instead of $A+\\{x\\}$.\nSimilarly we define $A-x$, $x-A$ and $x+A$.\n\n### Properties {#properties .unnumbered}\n\nSuppose $A$,$B$, $V$, and $\\lambda$ are as above. Then\n\n-   $A+B=B+A$\n\n-   $\\lambda(A+B)=\\lambda A+\\lambda B$\n\n-   $2A\\subseteq A+A$, $3A\\subseteq A+A+A$, etc, but in general,\n    $A+A\\neq 2A$. (Consider $A=\\{(0,0),(0,1)\\}$ in ${\\mathbb{R}}^2$.)",
+  "language": "INFORMAL",
+  "phrase": "Minkowski Sum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinkowskiSum"
+    }
+  ],
+  "indexable": true
+}

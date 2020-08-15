@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[*Not quite clear exposition and definition. Need to be more exact.*]{}\n\nIn [my\nbook](http://www.mathematics21.org/algebraic-general-topology.html) I\ndefined (generalized) limit of any (e.g. non-continuous) function.\n\nBut applying it, to say, a differential equation (replacing the limit in\nthe definition of derivative with my generalized limit) does not work\nbecause the components of the equation may be of different types (for\nexample generalized limit of a function\n$\\mathbb{R}\\rightarrow \\mathbb{R}$ is *not* a real number).\n\nTo overcome this shortcoming I propose what I call *meta-singular\nnumbers*.\n\n\\[TODO: introduce the term *singularity level above* for a given number\nsystem.\\]\n\nLet $a$ is a generalized limit. I will denote $r(a)$ such number (or\ngeneralized limit of a lower rank) that\n$a = \\operatorname{xlim}(\\{r(a)\\}\\times^{\\mathsf{FCD}} x)$ where $x$ is\na filter (that is $a$ is a limit of a constant function), if such $r(a)$\nexists. I will call reduced limit repeated applying $r(\\dots r(a)\\dots)$\nto a generalized limit $a$.\n\nThis definition is for now all I know about meta-singular numbers. It\u2019s\nyet needed to formulate and prove some theorems.\n\nSee also [this rough draft on my\nsite](http://www.mathematics21.org/binaries/reduced-limit.pdf) (in PDF\nformat).",
+  "language": "INFORMAL",
+  "phrase": "Meta-Singular Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MetasingularNumbers"
+    }
+  ],
+  "indexable": true
+}

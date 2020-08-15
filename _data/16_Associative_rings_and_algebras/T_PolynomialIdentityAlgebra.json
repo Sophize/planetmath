@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "PI-algebra",
+    "algebra with polynomial identity"
+  ],
+  "definition": "Let $R$ be a commutative ring with 1. Let $X$ be a countable set of\n*variables*, and let $R \\langle X \\rangle$ denote the free associative\nalgebra over $R$. If $X$ is finite, we can also write\n$R \\langle X \\rangle$ as $R \\langle x_1, \\ldots\\, x_n \\rangle$, where\nthe $x_i's \\in X$. Because of the freeness condition on the algebra, the\nvariables are non-commuting among themselves. However, the variables do\ncommute with elements of $R$. A typical element $f$ of\n$R\\langle X\\rangle$ is a polynomial over $R$ in $n$ (finite)\nnon-commuting variables of $X$.\n\n**Definition**. Let $A$ be a $R$-algebra and\n$f=f(x_1,\\ldots,x_n)\\in R\\langle X\\rangle$. For any\n$a_1,\\ldots,a_n\\in A$, $f(a_1,\\ldots,a_n)\\in A$ is called an *evaluation\nof $f$ at $n$-tuple $(a_1,\\ldots,a_n)$*. If the evaluation vanishes (=0)\nfor all $n$-tuples of $\\Pi_{i=1}^{n}A$, then $f$ is called a *polynomial\nidentity for* $A$.\n\nA polynomial $f\\in R\\langle X\\rangle$ is *proper*, or *monic*, if, in\nthe homogeneous component of the highest degree in $f$, one of its\nmonomials has coefficient = 1.\n\n**Definition**. An algebra $A$ over a commutative ring $R$ is said to be\na *polynomial identity algebra over* $R$, or a PI-*algebra* over $R$, if\nthere is a proper polynomial $f \\in R \\langle x_1, \\ldots, x_n \\rangle$,\nsuch that $f$ is a polynomial identity for $A$. A *polynomial identity\nring*, or PI-*ring*, $R$ is a polynomial identity $\\mathbb{Z}$-algebra.\n\n**Examples**\n\n1.  A commutative ring is a PI-ring, satisfying the polynomial\n    $[x,y]=xy-yx$.\n\n2.  A finite field (with $q$ elements) is a PI-ring, satisfying $x^q-x$.\n\n3.  The ring $T$ of upper triangular $n \\times n$ matrices over a field\n    is a PI-ring. This is true because for any $a, b\\in T$, $ab-ba$ is\n    strictly upper triangular (zeros along the diagonal). Any product of\n    $n$ strictly upper triangular matrices in $T$ is 0. Therefore, $T$\n    satisfies $[x_1,y_1][x_2,y_2]\\cdots [x_n,y_n]$.\n\n4.  The ring $S$ of $2\\times2$ matrices over a field is a PI-ring. One\n    can show that $S$ satisfies $[[x_1,x_2]^2,x_3]$. This identity is\n    called the *Hall identity*.\n\n5.  A subring of a PI-ring is a PI-ring. A homomorphic image of a\n    PI-ring is a PI-ring.\n\n6.  One can show that a ring $R$ with polynomial identity $x^n-x$ is\n    commutative. Thus, one sees that $x^n-x$ and $xy-yx$, although very\n    different (one is homogeneous of degree 2 in 2 variables, the other\n    one is not even homogeneous, in one variable of degree n), are both\n    polynomial identities for $R$.",
+  "language": "INFORMAL",
+  "phrase": "Polynomial Identity Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolynomialIdentityAlgebra"
+    }
+  ],
+  "indexable": true
+}

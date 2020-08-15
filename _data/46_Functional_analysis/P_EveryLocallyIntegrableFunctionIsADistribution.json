@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $U$ is an open set in ${\\mathbb{R}}^n$ and $f$ is a locally\nintegrable function on $U$, i.e.,\n$f\\in L^1_{\\scriptsize{\\mbox{loc}}}(U)$. Then the mapping\n$$\\begin{aligned}\nT_f: {\\mathcal{D}}(U) &\\to& {\\mathbb{C}}\\\\\n     u      &\\mapsto& \\int_U f(x) u(x) dx\\end{aligned}$$ is a zeroth\norder distribution. (See parent entry for notation ${\\mathcal{D}}(U)$.)\n\nIf $f$ and $g$ are both locally integrable functions on an open set $U$,\nand $T_f=T_g$, then it follows (see ), that $f=g$ almost everywhere.\nThus, the mapping $f\\mapsto T_f$ is a linear injection when\n$L^1_{\\scriptsize{\\mbox{loc}}}$ is equipped with the usual equivalence\nrelation for an $L^p$-space. For this reason, one usually writes $f$ for\nthe distribution $T_f$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryLocallyIntegrableFunctionIsADistribution"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every locally integrable function is a distribution"
+  ]
+}

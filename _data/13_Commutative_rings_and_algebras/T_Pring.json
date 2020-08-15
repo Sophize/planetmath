@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "$p$-ring",
+    "p-adic ring",
+    "$p$-adic ring",
+    "strict $p$-ring"
+  ],
+  "definition": "Let $R$ be a commutative ring with identity element equipped with a\ntopology defined by a decreasing sequence:\n$$\\ldots \\subset {\\mathfrak{A}}_3 \\subset {\\mathfrak{A}}_2 \\subset {\\mathfrak{A}}_1$$\nof ideals such that\n${\\mathfrak{A}}_n\\cdot {\\mathfrak{A}}_m \\subset {\\mathfrak{A}}_{n+m}$.\nWe say that $R$ is a $p$-ring if the following conditions are satisfied:\n\n1.  The residue ring $\\overline{k}=R/{\\mathfrak{A}}_1$ is a perfect ring\n    of characteristic $p$.\n\n2.  The ring $R$ is Hausdorff and complete for its topology.\n\nA $p$-ring $R$ is said to be strict (or a $p$-adic ring) if the topology\nis defined by the $p$-adic filtration ${\\mathfrak{A}}_n=p^nR$, and $p$\nis not a zero-divisor of $R$.\n\nThe prototype of strict $p$-ring is the ring of ${\\mathbb{Z}}_p$ with\nthe usual profinite topology.\n\n[9]{} J. P. Serre, [*Local Fields*]{}, Springer-Verlag, New York.",
+  "language": "INFORMAL",
+  "phrase": "P-Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Pring"
+    }
+  ],
+  "indexable": true
+}

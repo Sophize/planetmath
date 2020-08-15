@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "extended complex plane"
+  ],
+  "definition": "The complex plane $\\mathbb{C}$, i.e. the set of the complex numbers $z$\nsatisfying $$|z| < \\infty,$$ is open but not closed, since it doesn\u2019t\ncontain the accumulation points of all sets of complex numbers, for\nexample of the set $\\{1,\\,2,\\,3,\\,\\ldots\\}$. One can $\\mathbb{C}$ to the\n[*closed complex plane*]{} $\\mathbb{C}\\cup\\{\\infty\\}$ by adding to\n$\\mathbb{C}$ the infinite point $\\infty$ which the lacking accumulation\npoints. One settles that $|\\infty| = \\infty$, where the latter $\\infty$\nmeans the real infinity.\n\nThe resulting space is the one-point compactification of $\\mathbb{C}$.\nThe open sets are the open sets in $\\mathbb{C}$ together with sets\ncontaining $\\infty$ whose complement is compact in $\\mathbb{C}$.\nConceptually, one thinks of the additional open sets as those open sets\n\u201caround $\\infty$\u201d.\n\nThe one-point compactification of $\\mathbb{C}$ is also the complex\nprojective line $\\mathbb{CP}^1$, as well as the Riemann sphere.",
+  "language": "INFORMAL",
+  "phrase": "Closed Complex Plane",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosedComplexPlane"
+    }
+  ],
+  "indexable": true
+}

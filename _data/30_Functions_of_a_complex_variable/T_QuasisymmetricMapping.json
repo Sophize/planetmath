@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A function $\\mu$ of the real line to itself is *quasisymmetric* (or\n*$M$-quasisymmetric*) if it satisfies the following $M$-condition.\n\nThere exists an $M$, such that for all $x, t$ (where $t \\not= x$)\n$$\\frac{1}{M}\n\\leq\n\\frac{\\mu(x+t) - \\mu(x)}{\\mu(x)-\\mu(x-t)}\n\\leq\nM\n.$$ Geometrically this means that the ratio of the length of the\nintervals $\\mu[(x-t,x)]$ and $\\mu[(x,x+t)]$ is bounded. This implies\namong other things that the function is one-to-one and continuous.\n\nFor example powers (as long as you make them one-to-one by for example\nusing an odd power, or defining them as $-|x|^p$ for negative $x$ and\n$|x|^p$ for positive $x$ where $p > 0$) are quasisymmetric. On the other\nhand functions like $e^x - e^{-x}$, while one-to-one, onto and\ncontinuous, are not quasisymmetric. It would seem like a very strict\ncondition, however it has been shown that there in fact exist functions\nthat are quasisymmetric, but are not even absolutely continuous.\n\nQuasisymmetric functions are an analogue of quasiconformal mappings.",
+  "language": "INFORMAL",
+  "phrase": "Quasisymmetric Mapping",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuasisymmetricMapping"
+    }
+  ],
+  "indexable": true
+}

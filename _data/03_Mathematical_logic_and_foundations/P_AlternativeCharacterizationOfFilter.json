@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A collection $\\mathbf{F}$ of subsets of a set $X$ is a filter if and\nonly if the following condition is satisfied: For any two subsets $A$\nand $B$ of $X$, it is the case that $A \\cap B \\in \\mathbf{F}$ if and\nonly if $A \\in \\mathbf{F}$ and $B \\in \\mathbf{F}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternativeCharacterizationOfFilter"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "alternative characterization of filter"
+  ]
+}

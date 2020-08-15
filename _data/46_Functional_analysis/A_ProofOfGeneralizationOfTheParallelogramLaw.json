@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $g(x,y) = \\Vert x + y \\Vert^2 - \\Vert x \\Vert^2$ and\n$m(x,y) = \\langle x, y \\rangle + \\langle y , x \\rangle $. Then\n$$g(x,y) = \\Vert y \\Vert^2 + m(x,y).$$ Hence, taking\n$x_1 = x_4 = x, x_2 = y, x_3 = z$ we have: $$\\begin{aligned}\n\\sum_{i=1}^3 \\Vert x_i + x_{i+1} \\Vert^2 - \\sum_{i=1}^3 \\Vert x_i \\Vert^2 & = & \\sum_{i=1}^3 g(x_i , x_{i+1} ) \\\\\n& =& \\sum_{i=1}^3\\Vert x_i \\Vert^2 + \\sum_{i=1}^3 m(x_i, x_{i+1} ) \\\\ \n& = & \\Big\\Vert \\sum_{i=1}^3 x_i \\Big\\Vert^2.\\end{aligned}$$",
+  "conclusion": "#P_GeneralizationOfTheParallelogramLaw",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfGeneralizationOfTheParallelogramLaw"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of generalization of the parallelogram law"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A contravariant functor $F \\colon C \\to {\\bf Sets}$ between a category\n$C$ and the category of sets is [*representable*]{} if there is an\nobject $X$ of $C$ such that $F$ is isomorphic to the functor\n${\\rm Hom}(-,X)$.\n\nSimilarly, a covariant functor is $F$ called [*representable*]{} if it\nis isomorphic to ${\\rm Hom}(X,-)$.\n\nWe say that the object $X$ [*represents*]{} $F$. The object $X$ is then\ndetermined uniquely up to unique isomorphism (by the Yoneda lemma).\n\nA vast number of important objects in mathematics are defined as\nrepresenting functors. For example, if $F\\colon C\\to D$ is any functor,\nthen the adjoint $G\\colon D\\to C$ (if it exists) can be defined as\nfollows. For $Y$ in $D$, $G(Y)$ is the object of $C$ representing the\nfunctor $X\\mapsto {\\rm Hom}(F(X),Y)$ if $G$ is right adjoint to $F$ or\n$X\\mapsto {\\rm Hom}(Y,F(X))$ if $G$ is left adjoint.\n\nThus, for example, if $R$ is a ring, then $N\\otimes M$ represents the\nfunctor $L\\mapsto {\\rm Hom}_R(N,{\\rm Hom}_R(M,L))$.\n\nMuch of the motivation for this way of thinking about objects comes from\na philosophy of A. Grothendieck which says that we *define* certain\nobjects by having the characterizing property that they *represent*\ncertain functors. In other words, we can take a category in which we\u2019re\ninterested (e.g. the category of schemes, to address one of\nGrothendieck\u2019s primary interests) and embed it into a category of\nfunctors (as above). We can then apply abstract theorem about functors\nand natural transformations to elements of our category. The strongegst\npossible statement from this approach will result if we can further\n*characterize* our objects inside this larger category of functors, i.e.\ndecide which functors represent an object in our category. This should\nat least in part be viewed as the motivation for determining\nrepresentability.",
+  "language": "INFORMAL",
+  "phrase": "Representable Functor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RepresentableFunctor"
+    }
+  ],
+  "indexable": true
+}

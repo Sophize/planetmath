@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "ergodicity",
+    "ergodic transformation",
+    "ergodic map"
+  ],
+  "definition": "Ergodicity\n==========\n\n[**Definition -**]{} Let $(X, \\mathfrak{B}, \\mu)$ be a probability space\nand $T:X \\longrightarrow X$ a measure-preserving transformation. We say\nthat $T$ is *ergodic* if all the subsets $A \\in \\mathfrak{B}$ such that\n$T^{-1}(A)=A$ have measure $0$ or $1$.\n\nIn other words, if $A \\in \\mathfrak{B}$ is by $T$ then $\\mu(A) = 0$ or\n$\\mu(A)=1$.\\\n\n### Motivation\n\nSuppose $(X, \\mathfrak{B}, \\mu)$ is a probability space and\n$T:X \\longrightarrow X$ is a measure-preserving transformation. If\n$A \\in \\mathfrak{B}$ is an measurable subset, with $0 < \\mu(A) < 1$,\nthen $X \\setminus A$ is also invariant and $0 < \\mu(X \\setminus A) < 1$.\nThus, in this situation, we can study the transformation $T$ by studying\nthe two simpler transformations $T|_{A}$ and $T|_{X \\setminus A}$ in the\nspaces $A$ and $X \\setminus A$, respectively.\n\nThe transformation $T$ is ergodic precisely when $T$ cannot be\ndecomposed into simpler transformations. Thus, ergodic transformations\nare the ** measure-preserving transformations, in the sense described\nabove.\n\n[**Remark:**]{} When the invariant $A \\in \\mathfrak{B}$ has measure\n$\\mu(A)=0$ we can ignore it (as usual in measure theory), as its\npresence does not affect $T$ significantly. Thus, the study of $T$ is\nnot simplified when restricting to $X \\setminus A$.\n\nExamples\n========\n\n-   The identity transformation in a probability space\n    $(X, \\mathfrak{B}, \\mu)$ is ergodic if (and only if) all measurable\n    sets have measure $0$ or $1$.\n\n<!-- -->\n\n-   Let $\\mathbb{T}$ be the unit circle in $\\mathbb{C}$, endowed with\n    the arc length Lebesgue measure (or Haar measure). The\n    transformation of $\\mathbb{T}$ given by $S(x)= ax$, where\n    $a \\in \\mathbb{T}$, is ergodic if and only if $a$ is not a root of\n    unity.",
+  "language": "INFORMAL",
+  "phrase": "Ergodic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ergodic"
+    }
+  ],
+  "indexable": true
+}

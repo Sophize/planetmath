@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathscr{H}$ and $\\mathscr{K}$ be Hilbert spaces. An operator\n$W \\in L(\\mathscr{H}, \\mathscr{K})$ is called a *partial isometry* if\n$W$ is an isometry on $M = (\\ker W)^{\\perp}$. We then call\n$M = (\\ker W)^{\\perp}$ the *initial space* and $N = WM$ *final space* of\n$W$.\n\nWe need to show that the above definition is compatible with the general\ndefinition of partial isometry on rings. Indeed we have the following:\n\n$W \\in L(\\mathscr{H},\\mathscr{K})$ is a partial isometry iff $W^* W$ is\na projection from $\\mathscr{H}$ to $M$.\n\nWe have: $$\\begin{aligned}\nW & \\ \\text{partial isometry with initial space} \\ M \\\\\n\\Leftrightarrow {\\langle Wf, Wg \\rangle} &= {\\langle f, g \\rangle} \\ \\forall \\ f,g \\in M \\\\\n\\Leftrightarrow {\\langle W^* W f, g \\rangle} &= {\\langle f, g \\rangle} \\ \\forall \\ f \\in M, g \\in \\mathscr{H} \\\\\n\\Leftrightarrow W^* W f &= f, f \\in M \\\\\n\\text{and} \\ W^* W f &= 0, f \\in M^{\\perp} = \\ker W\\end{aligned}$$\n\nIf $W \\in L(\\mathscr{H}, \\mathscr{K})$ is a partial isometry with\ninitial space $M$ and final space $N$ we have: $$\\begin{aligned}\nW^* (Wf) &= f \\ \\forall \\ f \\in M \\\\\n\\ker W^* &= ({\\mathrm{ran}}W)^{\\perp} = N^{\\perp}\\end{aligned}$$\n\nThus $N$ is the initial space and $M$ the final space of $W^*$.",
+  "language": "INFORMAL",
+  "phrase": "Partial Isometry On Hilbert Spaces",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartialIsometryOnHilbertSpaces"
+    }
+  ],
+  "indexable": true
+}

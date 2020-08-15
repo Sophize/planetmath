@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "adjoint homomorphism",
+    "adjoint"
+  ],
+  "definition": "#### Definition.\n\nLet $U,V$ be vector spaces over a field ${\\mathbb{K}}$, and\n$T:U\\rightarrow V$ be a homomorphism (a linear map) between them.\nLetting $U{^*}, V{^*}$ denote the corresponding dual spaces, we define\nthe [*dual homomorphism*]{} $T{^*}:V{^*}\\rightarrow U{^*}$, to be the\nlinear mapping with action\n$$\\alpha \\to \\alpha\\circ T,\\quad \\alpha\\in V^*.$$\n\nWe can also characterize $T^*$ as the adjoint of $T$ relative to the\nnatural evaluation bracket between linear forms and vectors:\n$$\\left<-,-\\right>_U: U{^*}\\times U\\rightarrow {\\mathbb{K}},\\qquad\n\\left<\\alpha,u\\right> = \\alpha(u),\\quad \\alpha\\in U{^*},\\; u\\in U.$$ To\nbe more precise $T{^*}$ is characterized by the condition\n$$\\left<T^*\\alpha,u\\right>_U = \\left< \\alpha,Tu\\right>_V ,\\quad \\alpha\\in\nV{^*},\\; u\\in U.$$ If $U$ and $V$ are finite dimensional, we can also\ncharacterize the dualizing operation as the composition of the following\ncanonical isomorphisms: $${\\mathop{\\mathrm{Hom}}\\nolimits}(U,V)\n\\stackrel{\\simeq}{\\longrightarrow}\nU{^*}\\otimes V\n\\stackrel{\\simeq}{\\longrightarrow}\n(V^*)^*\\otimes U^*\n\\stackrel{\\simeq}{\\longrightarrow}\n{\\mathop{\\mathrm{Hom}}\\nolimits}(V^*,U^*).$$\n\n#### Category theory perspective.\n\nThe dualizing operation behaves contravariantly with respect to\ncomposition, i.e. $$(S\\circ T)^* = T{^*}\\circ S{^*},$$ for all vector\nspace homomorphisms $S,\nT$ with suitably matched domains. Furthermore, the dual of the identity\nhomomorphism is the identity homomorphism of the dual space. Thus, using\nthe language of category theory, the dualizing operation can be\ncharacterized as the homomorphism action of the contravariant,\ndual-space functor.\n\n#### Relation to the matrix transpose.\n\nThe above properties closely mirror the algebraic properties of the\nmatrix transpose operation. Indeed, $T^*$ is sometimes referred to as\nthe transpose of $T$, because at the level of matrices the dual\nhomomorphism is calculated by taking the transpose.\n\nTo be more precise, suppose that $U$ and $V$ are finite-dimensional, and\nlet $M\\in {\\mathop{\\mathrm{Mat}}\\nolimits}_{n,m}({\\mathbb{K}})$ be the\nmatrix of $T$ relative to some fixed bases of $U$ and $V$. Then, the\ndual homomorphism $T{^*}$ is represented as the transposed matrix\n$M{^t}\\in{\\mathop{\\mathrm{Mat}}\\nolimits}_{m,n}({\\mathbb{K}})$ relative\nto the corresponding dual bases of $U{^*}, V{^*}$.",
+  "language": "INFORMAL",
+  "phrase": "Dual Homomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DualHomomorphism"
+    }
+  ],
+  "indexable": true
+}

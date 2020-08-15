@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Simple predictable processes are a particularly simple class of\nstochastic processes, for which the Ito integral can be defined\ndirectly. They are often used as the starting point for defining\nstochastic integrals of more general predictable integrands.\n\nSuppose we are given a $(\\mathcal{F}_t)$ on the measurable space\n$(\\Omega,\\mathcal{F})$ with time index $t$ ranging over the nonnegative\nreal numbers. A simple predictable process $\\xi$ is a left-continuous\nand adapted process which can be written as\n$$\\xi_t=1_{\\{t=0\\}}A_0+\\sum_{k=1}^n1_{\\{S_k<t\\le T_k\\}}A_k$$ for some\n$n\\ge 0$, stopping times $S_k<T_k$, $\\mathcal{F}_0$-measurable and\nbounded random variable $A_0$ and $\\mathcal{F}_{S_k}$-measurable and\nbounded random variables $A_k$. In the case where $S_k$ and $T_k$ are\ndeterministic times, then $\\xi$ is called an *elementary predictable*\nprocess.\n\nThe stochastic integral of the simple predictable process $\\xi$ with\nrespect to a stochastic process $X_t$ can then be written as\n$$\\int_0^t\\xi\\,dX = \\sum_{k=1}^n1_{\\{t>S_k\\}}A_k(X_{\\min(t,T_k)}-X_{S_k}).$$",
+  "language": "INFORMAL",
+  "phrase": "Simple Predictable Process",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimplePredictableProcess"
+    }
+  ],
+  "indexable": true
+}

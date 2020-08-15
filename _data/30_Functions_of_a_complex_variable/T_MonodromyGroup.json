@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Consider an ordinary linear differential equation\n$$\\sum_{k = 0}^n c_k (x) {d^n y \\over dx^n} = 0$$ in which the\ncoefficients are polynomials. If $c_n$ is not constant, then it is\npossible that the solutions of this equation will have branch points at\nthe zeros of $c_n$. (To see if this actually happens, we need to examine\nthe indicial equation.)\n\nBy the persistence of differential equations, the analytic continuation\nof a solution of this equation will be another solution. Pick a\nneighborhood which does not contain any zeros of $c_n$. Since the\ndifferential equation is of order $n$, there will be $n$ independent\nsolutions $y = f_1 (x),\n\\ldots, y = f_n (x)$. (For example, one may exhibit these solutions as\npower series about some point in the neighborhood.)\n\nUpon analytic continuation back to the original neighborhood via a chain\nof neghborhoods, suppose that the solution $y = f_i (x)$ is taken to a\nsolution $y = {g}_i (x)$. Because the solutions are linearly\nindependent, there will exist a matrix $\\{m_{ij}\\}_{i,j=1}^n$ such that\n$${g}_i = \\sum_{j=1}^n m_{ij} f_j.$$ Now consider the totality of all\nsuch matrices corresponding to all possible ways of making analytic\ncontinuations along chains which begin and end wit the original\nneighborhood. They form a group known as the *monodromy group* of the\ndifferential equation. The reason this set is a group is some basic\nfacts about analytic continuation. First, there is the trivial analytic\ncontinuation which simply takes a function element to itself. This will\ncorrespond to the identity matrix. Second, we can reverse a process of\nanalytic continuation. This will correspond to the inverse matrix.\nThird, we can follow continuation along one chain of neighborhoods by\ncontinuation along another chain. This will correspond to multiplying\nthe matrices corresponding to the two chains.",
+  "language": "INFORMAL",
+  "phrase": "Monodromy Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MonodromyGroup"
+    }
+  ],
+  "indexable": true
+}

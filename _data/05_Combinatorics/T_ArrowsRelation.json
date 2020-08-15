@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $[X]^\\alpha=\\{Y\\subseteq X\\mid |Y|=\\alpha\\}$, that is, the set of\nsubsets of $X$ of size $\\alpha$. Then given some cardinals $\\kappa$,\n$\\lambda$, $\\alpha$ and $\\beta$\n\n$$\\kappa\\rightarrow(\\lambda)^\\alpha_\\beta$$\n\nstates that for any set $X$ of size $\\kappa$ and any function\n$f:[X]^\\alpha\\rightarrow\\beta$, there is some $Y\\subseteq X$ and some\n$\\gamma\\in\\beta$ such that $|Y|=\\lambda$ and for any $y\\in [Y]^\\alpha$,\n$f(y)=\\gamma$.\n\nIn words, if $f$ is a partition of $[X]^\\alpha$ into $\\beta$ subsets\nthen $f$ is constant on a subset of size $\\lambda$ (a *homogeneous*\nsubset).\n\nAs an example, the pigeonhole principle is the statement that if $n$ is\nfinite and $k<n$ then:\n\n$$n\\rightarrow 2^1_k$$\n\nThat is, if you try to partition $n$ into fewer than $n$ pieces then one\npiece has more than one element.\n\nObserve that if\n\n$$\\kappa\\rightarrow(\\lambda)^\\alpha_\\beta$$\n\nthen the same statement holds if:\n\n-   $\\kappa$ is made larger (since the restriction of $f$ to a set of\n    size $\\kappa$ can be considered)\n\n-   $\\lambda$ is made smaller (since a subset of the homogeneous set\n    will suffice)\n\n-   $\\beta$ is made smaller (since any partition into fewer than $\\beta$\n    pieces can be expanded by adding empty sets to the partition)\n\n-   $\\alpha$ is made smaller (since a partition $f$ of $[\\kappa]^\\gamma$\n    where $\\gamma<\\alpha$ can be extended to a partition $f^\\prime$ of\n    $[\\kappa]^\\alpha$ by $f^\\prime(X)=f(X_\\gamma)$ where $X_\\gamma$ is\n    the $\\gamma$ smallest elements of $X$)\n\n$$\\kappa\\nrightarrow(\\lambda)^\\alpha_\\beta$$\n\nis used to state that the corresponding $\\rightarrow$ relation is false.\n\n[**References**]{}\n\n-   Jech, T. *Set Theory*, Springer-Verlag, 2003\n\n-   Just, W. and Weese, M. *Topics in Discovering Modern Set Theory,\n    II*, American Mathematical Society, 1996",
+  "language": "INFORMAL",
+  "phrase": "Arrows Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArrowsRelation"
+    }
+  ],
+  "indexable": true
+}

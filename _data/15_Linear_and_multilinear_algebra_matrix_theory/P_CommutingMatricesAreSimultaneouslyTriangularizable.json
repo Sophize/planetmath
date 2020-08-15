@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "All matrices in the below are complex $n\\times n$ matrices.\\\nLet $A$,$B$ be matrices and $AB=BA$. Then there exists a unitary matrix\n$Q$ such that\\\n\n$Q^HAQ = T_1$ ,$Q^HBQ=T_2$\n\nwhere $^H$ is the conjugate transpose and $T_1, T_2,$ are upper\ntriangular matrices.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CommutingMatricesAreSimultaneouslyTriangularizable"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "commuting matrices are simultaneously triangularizable"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The ** function, $UNL$, is defined by\n$$UNL(c)=\\int_{c}^{\\infty}(t-c)f(t)dt$$ where $c$ is a constant and\n$f(.)$ is the normal probability distribution function.\\\nAn alternative computational formula for $UNL$ is the following:\n$$UNL(z)=f(z)-z(1-F(z))$$ where $f(.)$ and $F(.)$ are the probability\ndistribution function and cumulative distribution function for Standard\nNormal Distribution respectively.\\\n**Remark.** This function has an extensive use in Risk Analysis and the\nTheory of Blackjack.",
+  "language": "INFORMAL",
+  "phrase": "Unit Normal Loss Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnitNormalLossFunction"
+    }
+  ],
+  "indexable": true
+}

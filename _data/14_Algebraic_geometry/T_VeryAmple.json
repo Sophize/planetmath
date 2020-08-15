@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An invertible sheaf ${\\mathfrak{L}}$ on a scheme $X$ over a field $k$ is\ncalled *very ample* if (1) at each point $x\\in X$, there is a global\nsection $s\\in{\\mathfrak{L}}(X)$ not vanishing at $x$, and (2) for each\npair of points $x,y\\in X$, there is a global section\n$s\\in{\\mathfrak{L}}(X)$ such that $s$ vanishes at exactly one of $x$ and\n$y$.\n\nEquivalently, ${\\mathfrak{L}}$ is very ample if there is an embedding\n$f:X\\to\\mathbb{P}^n$ such that $f^*{\\mathcal{O}}(1)={\\mathfrak{L}}$,\nthat is, ${\\mathfrak{L}}$ is the pullback of the tautological bundle on\n$\\mathbb{P}^n$.\n\nIf $k$ is algebraically closed, shows that on a curve $X$, any\ninvertible sheaf of degree greater than or equal to twice the genus of\n$X$ is very ample.",
+  "language": "INFORMAL",
+  "phrase": "Very Ample",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VeryAmple"
+    }
+  ],
+  "indexable": true
+}

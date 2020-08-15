@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "It is defined as follow $$K_n(x_1,x_2,\\dots,x_n):=\n\\left\\{\n\\begin{array}{ll}\n 1, & {\\rm if~} n=0;\\\\\n x_1, & {\\rm if~} n=1;\\\\\n x_1 K_{n-1}(x_2,\\dots,x_n) + K_{n-2}(x_3,\\dots,x_n), & {\\rm if~} n>1.\\\\\n\\end{array}\n\\right.$$\n\nIt is easy to show, that $$K_n(x_1,x_2,\\dots,x_n)=\n\\det\n\\left(\n \\begin{array}{rrrrrr}\n   x_n &  +1  &  0  & \\dots &  0  &  0  \\\\\n    -1  &x_{n-1}&  +1  & \\dots &  0  &  0  \\\\\n    0  &  -1  &  x_{n-2}  & \\ddots &  0  &  0  \\\\\n\n   \\vdots & \\vdots & \\ddots & \\ddots & \\vdots & \\vdots \\\\\n\n    0  &  0  &  0  & \\dots &  x_2  &  +1  \\\\\n    0  &  0  &  0  & \\dots &  -1  &  x_1  \\\\\n \\end{array}\n\\right).$$\n\nReferences: Knuth D.E. [**\"The Art of Computer Programming, Volume 2:\nSeminumerical Algorithms**]{}.",
+  "language": "INFORMAL",
+  "phrase": "Continuant Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuantPolynomial"
+    }
+  ],
+  "indexable": true
+}

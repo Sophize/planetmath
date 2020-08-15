@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Segre embedding"
+  ],
+  "definition": "The *Segre map* is an embedding $s:\\P^n\\times\\P^m\\to\\P^{nm+n+m}$ of the\nproduct of two projective spaces into a larger projective space. It is\nimportant since it makes the product of two projective varieties into a\nprojective variety again. Invariantly, it can described as follows. Let\n$V,W$ be (finite dimensional) vector spaces; then\n$$\\begin{array}{rrclcc}\ns: & \\P V & \\times & \\P W & \\longrightarrow & \\P(V\\otimes W) \\\\\n   & [x]  & ,      & [y]  & \\longmapsto     & [x\\otimes y]\n\\end{array}$$ In homogeneous coordinates, the pair of points\n$[x_0:x_1:\\cdots:x_n]$, $[y_0:y_1:\\cdots:y_m]$ maps to\n$$[x_0y_0:x_1y_0:\\cdots:x_ny_0:x_0y_1:x_1y_1:\\cdots:x_ny_m].$$ If we\nimagine the target space as the projectivized version of the space of\n$(n+1)\\times (m+1)$ matrices, then the image is exactly the set of\nmatrices which have rank 1; thus it is the common zero locus of the\nequations\n$$\\left|\\begin{array}{cc} a_{ij} & a_{il} \\\\ a_{kj} & a_{kl} \\end{array}\\right| \n= a_{ij}a_{kl}-a_{il}a_{kj} = 0$$ for all $0\\le i<k\\le n$,\n$0\\le j<l \\le m$. Varieties of this form (defined by vanishing of minors\nin some space of matrices) are usually called *determinantal varieties*.",
+  "language": "INFORMAL",
+  "phrase": "Segre Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SegreMap"
+    }
+  ],
+  "indexable": true
+}

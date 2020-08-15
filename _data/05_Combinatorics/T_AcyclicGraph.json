@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "acyclic",
+    "DAG"
+  ],
+  "definition": "Any graph that contains no cycles is an *acyclic graph*. A directed\nacyclic graph is often called a DAG for short.\n\nFor example, the following graph and digraph are acyclic.\n\n$$\\begin{array}{cc}\n\\xymatrix{&A\\ar@{-}[dl]\\ar@{-}[dr]\\\\B&&C}\n\\quad\n&\n\\quad\n\\xymatrix{&A\\ar[dr]\\\\B\\ar[ur]\\ar[rr]&&C}\n\\end{array}$$\n\nIn contrast, the following graph and digraph are *not* acyclic, because\neach contains a cycle.\n\n$$\\begin{array}{cc}\n\\xymatrix{&A\\ar@{-}[dl]\\ar@{-}[dr]\\\\B\\ar@{-}[rr]&&C}\n\\quad\n&\n\\quad\n\\xymatrix{&A\\ar[dr]\\\\B\\ar[ur]&&C\\ar[ll]}\n\\end{array}$$",
+  "language": "INFORMAL",
+  "phrase": "Acyclic Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AcyclicGraph"
+    }
+  ],
+  "indexable": true
+}

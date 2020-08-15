@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *Euler path* in a graph is a path which traverses each edge of the\ngraph exactly once. An Euler path which is a cycle is called an *Euler\ncycle*. For loopless graphs without isolated vertices, the existence of\nan Euler path implies the connectedness of the graph, since traversing\nevery edge of such a graph requires visiting each vertex at least once.\n\nIf a connected graph has an Euler path, one can be constructed by\napplying Fleury\u2019s algorithm. A connected graph has an Euler path if it\nhas exactly zero or two vertices of odd degree. If every vertex has even\ndegree, the graph has an Euler cycle.\n\n![image](ecircuit){width=\"1in\" height=\"1in\"}\n\nThis graph has an Euler cycle. All of its vertices are of even degree.\n\n![image](epath){width=\"1in\" height=\"1in\"}\n\nThis graph has an Euler path which is not a cycle. It has exactly two\nvertices of odd degree.",
+  "language": "INFORMAL",
+  "phrase": "Euler Path",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulerPath"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ be a number field with $[K:{\\mathbb{Q}}]=n=r_1+2r_2$. Here $r_1$\ndenotes the number of real embeddings:\n$$\\sigma_i\\colon K \\hookrightarrow {\\mathbb{R}},\\quad 1\\leq i\\leq r_1$$\nwhile $r_2$ is half of the number of complex embeddings:\n$$\\tau_j\\colon K \\hookrightarrow {\\mathbb{C}},\\quad 1\\leq j\\leq r_2$$\nNote that $\\{\\tau_j, \\bar{\\tau}_j\\mid 1\\leq j\\leq r_2\\}$ are *all* the\ncomplex embeddings of $K$. Let $r=r_1+r_2$ and for $1\\leq i\\leq r$\ndefine the \u201cnorm\u201d in $K$ corresponding to each embedding:\n$$\\parallel \\cdot \\parallel _i\\colon K^{\\times} \\to {\\mathbb{R}}^+$$\n$$\\parallel \\alpha \\parallel_i = \\mid\\sigma_i(\\alpha)\\mid, \\quad\n1\\leq i \\leq r_1$$\n$$\\parallel \\alpha \\parallel_{r_1+j} = \\mid\\tau_j(\\alpha)\\mid^2, \\quad\n1\\leq j \\leq r_2$$ Let $\\mathcal{O}_K$ be the ring of integers of $K$.\nBy Dirichlet\u2019s unit theorem, we know that the rank of the unit group\n$\\mathcal{O}_K^{\\times}$ is exactly $r-1=r_1+r_2-1$. Let\n$$\\{ \\epsilon_1,\\epsilon_2,\\ldots,\\epsilon_{r-1}\\}$$ be a fundamental\nsystem of generators of $\\mathcal{O}_K^{\\times}$ modulo roots of unity\n(this is, modulo the torsion subgroup). Let $A$ be the $r\\times (r-1)$\nmatrix $$A=\\left(\n\\begin{array}{cccc}\n  \\log \\parallel \\epsilon_1 \\parallel_1 & \\log \\parallel \\epsilon_2 \\parallel_1 & \\ldots & \\log \\parallel \\epsilon_{r-1} \\parallel_1 \\\\\n  \\log \\parallel \\epsilon_1 \\parallel_2 & \\log \\parallel \\epsilon_2 \\parallel_2 & \\ldots & \\log \\parallel \\epsilon_{r-1} \\parallel_2 \\\\\n  \\vdots & \\vdots & \\ddots & \\vdots \\\\\n  \\log \\parallel \\epsilon_1 \\parallel_r & \\log \\parallel \\epsilon_2 \\parallel_r & \\ldots & \\log \\parallel \\epsilon_{r-1} \\parallel_r \\\\\n\\end{array}\n\\right)$$ and let $A_i$ be the $(r-1)\\times(r-1)$ matrix obtained by\ndeleting the $i$-th row from $A$, $1\\leq i\\leq r$. It can be checked\nthat the determinant of $A_i$, $\\det{A_i}$, is independent up to sign of\nthe choice of fundamental system of generators of\n$\\mathcal{O}_K^{\\times}$ and is also independent of the choice of $i$.\n\nThe *regulator of* $K$ is defined to be\n$$\\operatorname{Reg}_K=\\mid\\det{A_1}\\mid$$\n\nThe regulator is one of the main ingredients in the analytic class\nnumber formula for number fields.\n\n[9]{} Daniel A. Marcus, [*Number Fields*]{}, Springer, New York. Serge\nLang, [*Algebraic Number Theory*]{}. Springer-Verlag, New York.",
+  "language": "INFORMAL",
+  "phrase": "Regulator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Regulator"
+    }
+  ],
+  "indexable": true
+}

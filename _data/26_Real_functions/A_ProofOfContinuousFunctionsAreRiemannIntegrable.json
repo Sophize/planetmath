@@ -1,0 +1,17 @@
+{
+  "argumentText": "Recall the definition of Riemann integral. To prove that $f$ is\nintegrable we have to prove that\n$\\lim_{\\delta \\to 0^+} S^*(\\delta)-S_*(\\delta) =0$. Since $S^*(\\delta)$\nis decreasing and $S_*(\\delta)$ is increasing it is enough to show that\ngiven $\\epsilon>0$ there exists $\\delta>0$ such that\n$S^*(\\delta)-S_*(\\delta)<\\epsilon$.\n\nSo let $\\epsilon>0$ be fixed.\n\nBy Heine-Cantor Theorem $f$ is uniformly continuous i.e.\n$$\\exists \\delta>0\\ \n   \\vert x-y\\vert < \\delta \\Rightarrow \\vert f(x)-f(y)\\vert <\\frac{\\epsilon}{b-a}.$$\n\nLet now $P$ be any partition of $[a,b]$ in $C(\\delta)$ i.e. a partition\n$\\{x_0=a, x_1,\\ldots,x_N=b\\}$ such that $x_{i+1}-x_i<\\delta$. In any\nsmall interval $[x_i,x_{i+1}]$ the function $f$ (being continuous) has a\nmaximum $M_i$ and minimum $m_i$. Since $f$ is uniformly continuous and\n$x_{i+1}-x_i<\\delta$ we have $M_i - m_i < \\epsilon/(b-a)$. So the\ndifference between upper and lower Riemann sums is\n$$\\sum_i M_i(x_{i+1}-x_i) - \\sum_i m_i(x_{i+1}-x_i)\n  \\le \\frac{\\epsilon}{b-a} \\sum_i (x_{i+1}-x_i) = \\epsilon.$$\n\nThis being true for every partition $P$ in $C(\\delta)$ we conclude that\n$S^*(\\delta)-S_*(\\delta)<\\epsilon$.",
+  "conclusion": "#P_ContinuousFunctionsAreRiemannIntegrable",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfContinuousFunctionsAreRiemannIntegrable"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of continuous functions are Riemann integrable"
+  ]
+}

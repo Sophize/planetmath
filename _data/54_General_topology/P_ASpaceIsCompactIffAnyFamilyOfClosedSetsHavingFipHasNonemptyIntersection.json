@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem.** ]{} A topological space is compact if and only if any\ncollection of its closed sets having the finite intersection property\nhas non-empty intersection.\n\nThe above theorem is essentially the definition of a compact space\nrewritten using de Morgan\u2019s laws. The usual definition of a compact\nspace is based on open sets and unions. The above characterization, on\nthe other hand, is written using closed sets and intersections.\n\n*Proof.* Suppose $X$ is compact, i.e., any collection of open subsets\nthat cover $X$ has a finite collection that also cover $X$. Further,\nsuppose $\\{F_i\\}_{i\\in I}$ is an arbitrary collection of closed subsets\nwith the finite intersection property. We claim that $\\cap_{i\\in I} F_i$\nis non-empty. Suppose otherwise, i.e., suppose\n$\\cap_{i\\in I} F_i=\\emptyset$. Then, $$\\begin{aligned}\nX&=&\\left(\\bigcap_{i\\in I} F_i\\right)^c\\\\\n &=&\\bigcup_{i\\in I} F_i^c.\\end{aligned}$$ (Here, the complement of a\nset $A$ in $X$ is written as $A^c$.) Since each $F_i$ is closed, the\ncollection $\\{F_i^c\\}_{i\\in I}$ is an open cover for $X$. By\ncompactness, there is a finite subset $J\\subset I$ such that\n$X=\\cup_{i\\in J} F_i^c$. But then $X=(\\cap_{i\\in J} F_i)^c$, so\n$\\cap_{i\\in J} F_i=\\emptyset$, which contradicts the finite intersection\nproperty of $\\{F_i\\}_{i\\in I}$.\n\nThe proof in the other direction is analogous. Suppose $X$ has the\nfinite intersection property. To prove that $X$ is compact, let\n$\\{F_i\\}_{i\\in I}$ be a collection of open sets in $X$ that cover $X$.\nWe claim that this collection contains a finite subcollection of sets\nthat also cover $X$. The proof is by contradiction. Suppose that\n$X\\neq \\cup_{i\\in J} F_i$ holds for all finite $J\\subset I$. Let us\nfirst show that the collection of closed subsets $\\{F_i^c\\}_{i\\in I}$\nhas the finite intersection property. If $J$ is a finite subset of $I$,\nthen $$\\begin{aligned}\n\\bigcap_{i\\in J} F^c_i &=& \\Big(\\bigcup_{i\\in J} F_i\\Big)^c \\neq \\emptyset,\\end{aligned}$$\nwhere the last assertion follows since $J$ was finite. Then, since $X$\nhas the finite intersection property, $$\\begin{aligned}\n\\emptyset &\\neq& \\bigcap_{i\\in I} F_i^c = \\Big(\\bigcup_{i\\in I} F_i\\Big)^c.\\end{aligned}$$\nThis contradicts the assumption that $\\{F_i\\}_{i\\in I}$ is a cover for\n$X$. $\\Box$\n\n[9]{} R.E. Edwards, *Functional Analysis: Theory and Applications*,\nDover Publications, 1995.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ASpaceIsCompactIffAnyFamilyOfClosedSetsHavingFipHasNonemptyIntersection"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a space is compact iff any family of closed sets having fip has non-empty intersection"
+  ]
+}

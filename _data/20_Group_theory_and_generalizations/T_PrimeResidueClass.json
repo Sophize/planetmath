@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "prime class"
+  ],
+  "definition": "Let $m$ be a positive integer. There are $m$ residue classes\n$a\\!+\\!m\\mathbb{Z}$ modulo $m$. Such of them which have\n$$\\gcd(a,\\,m) \\;=\\; 1,$$ are called the [*prime residue classes*]{} or\n[*prime classes modulo $m$*]{}, and they form an Abelian group with\nrespect to the multiplication\n$$(a\\!+\\!m\\mathbb{Z})\\!\\cdot\\!(b\\!+\\!m\\mathbb{Z}) \\;:=\\; ab\\!+\\!m\\mathbb{Z}.$$\nThis group is called the [*residue class group modulo $m$*]{}. Its order\nis $\\varphi(m)$, where $\\varphi$ means Euler\u2019s totient function. For\nexample, the prime classes modulo 8 (i.e. $1\\!+\\!8\\mathbb{Z}$,\n$3\\!+\\!8\\mathbb{Z}$, $5\\!+\\!8\\mathbb{Z}$, $7\\!+\\!8\\mathbb{Z}$) form a\ngroup isomorphic to the Klein 4-group.\n\nThe prime classes are the units of the residue class ring\n$\\mathbb{Z}/m\\mathbb{Z} = \\mathbb{Z}_m$ consisting of all residue\nclasses modulo $m$.\n\nAnalogically, in the of any algebraic number field, there are the\nresidue classes and the prime residue classes modulo an ideal\n$\\mathfrak{a}$ of $R$. The number of all residue classes is\n$\\mbox{N}(\\mathfrak{a})$ and the number of the prime classes is also\ndenoted by $\\varphi(\\mathfrak{a})$. It may be proved that\n$$\\varphi(\\mathfrak{a}) \\;=\\; \n\\mbox{N}(\\mathfrak{a})\\prod_{\\mathfrak{p}|\\mathfrak{a}}\\left(1-\\frac{1}{\\mbox{N}(\\mathfrak{p})}\\right);$$\n$\\mbox{N}$ is the absolute norm of ideal and $\\mathfrak{p}$ runs all\ndistinct prime ideals dividing $\\mathfrak{a}$ (cf. the first formula in\nthe entry \u201c\u201d). Moreover, one has the result\n$$\\alpha^{\\varphi(\\mathfrak{a})} \\;\\equiv\\; 1 \\pmod{\\mathfrak{a}}$$ for\n$((a),\\,\\mathfrak{a}) = (1)$, generalising the .",
+  "language": "INFORMAL",
+  "phrase": "Prime Residue Class",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimeResidueClass"
+    }
+  ],
+  "indexable": true
+}

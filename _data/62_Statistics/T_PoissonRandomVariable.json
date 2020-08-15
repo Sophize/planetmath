@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Poisson distribution"
+  ],
+  "definition": "The Poisson discrete probability function with parameter $\\lambda>0$ is\ngiven by\n$$f_X(x) = \\frac{e^{-\\lambda} \\lambda^x}{x!},\\quad\\quad     x\\in \\mathbb{N}.$$\n\nA random variable $X$ with such a density has expectation, variance,\nmoment generating function and characteristic function given by\n$E[X] = \\lambda$, $Var[X] = \\lambda$, $M_X(t) = e^{\\lambda (e^t - 1)}$,\nand $\\phi_X(t) = e^{\\lambda(e^{it}-1)}$, respectively.",
+  "language": "INFORMAL",
+  "phrase": "Poisson Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PoissonRandomVariable"
+    }
+  ],
+  "indexable": true
+}

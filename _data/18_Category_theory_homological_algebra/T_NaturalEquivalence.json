@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "naturally equivalent",
+    "natural isomorphism"
+  ],
+  "definition": "Let $F,G: \\mathcal{C}\\to \\mathcal{D}$ be a pair of functors from the\ncategory $\\mathcal{C}$ to the category $\\mathcal{D}$. A natural\ntransformation between functors $\\tau : F\\to G$ is called a [*natural\nequivalence*]{} (or a [*natural isomorphism*]{}) if there is a natural\ntransformation $\\sigma : G\\to F$ such that\n$\\tau\\bullet \\sigma = {\\rm id}_G$ and $\\sigma\\bullet \\tau = {\\rm id}_F$\nwhere ${\\rm id}_F$ is the identity natural transformation on $F$, and\ncomposition $\\bullet$ is the usual (vertical) composition on natural\ntransformations.\n\nEquivalently, one can define a natural equivalence from functors $F$ to\n$G$ to be a natural transformation $\\tau$ such that for each object $A$\nin $\\mathcal{C}$, the morphism $\\tau_A : F(A)\\to G(A)$ is an isomorphism\nin $\\mathcal{D}$.",
+  "language": "INFORMAL",
+  "phrase": "Natural Equivalence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NaturalEquivalence"
+    }
+  ],
+  "indexable": true
+}

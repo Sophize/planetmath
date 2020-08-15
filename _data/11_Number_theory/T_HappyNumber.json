@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a base $b$ integer $$n = \\sum_{i = 1}^k d_ib^{i - 1}$$ where $d_1$\nis the least significant digit and $d_k$ is the most significant, and\nthe function $$f(m) = \\sum_{i = 1}^k {d_i}^2,$$ if computing $f(n)$ and\niterating that function on the result eventually leads to a fixed point\nof 1, then $n$ is said to be a [*happy number*]{} in base $b$.\n\nFor $b = 2$ and $b = 4$, all numbers are happy numbers. All standard\npositional bases have happy numbers.",
+  "language": "INFORMAL",
+  "phrase": "Happy Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HappyNumber"
+    }
+  ],
+  "indexable": true
+}

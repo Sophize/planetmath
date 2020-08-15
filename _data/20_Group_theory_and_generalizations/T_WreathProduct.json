@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ and $B$ be groups, and let $B$ act on the set $\\Gamma$. Define\nthe action of $B$ on the direct product $A^{\\Gamma}$ by\n$$b f(\\gamma) := f(b^{-1}\\gamma),$$ for any $f\\in A^{\\Gamma}$ and\n$\\gamma\\in\\Gamma$. The *wreath product* of $A$ and $B$ according to the\naction of $B$ on $\\Gamma$, denoted $A\\wr_{\\Gamma} B$, is the semidirect\nproduct of groups $A^{\\Gamma}\\rtimes B$.\n\nLet us pause to unwind this definition. The elements of $A\\wr_{\\Gamma}B$\nare ordered pairs $(f,b)$, where $f\\in A^{\\Gamma}$ and $b\\in B$. The\ngroup operation is given by $$(f,b)(f',b') = (fbf', bb').$$ Note that by\ndefinition of the action of $B$ on $A^{\\Gamma}$,\n$$(fbf')(\\gamma) = f(\\gamma)f'(b^{-1}\\gamma).$$\n\nThe action of $B$ on $\\Gamma$ in the semidirect product permutes the\nelements of a tuple $f\\in A^{\\Gamma}$, and the group operation defined\non $A^{\\Gamma}$ gives pointwise multiplication. To be explicit, suppose\n$\\Gamma$ is an $n$-tuple, and let $(f,b),~(f',b')\\in A\\wr_{\\Gamma} B$.\nLet $b_i$ denote $b^{-1}(i)$. Then $$\\begin{aligned}\n(f,b)(f',b') &=& \\bigl((f(1),~f(2),~\\ldots,~f(n)),~b\\bigr) \\bigl((f'(1),~f'(2),~\\ldots,~f'(n)),~b'\\bigr) \\\\\n               &=& \\bigl((f(1),~f(2),~\\ldots,~f(n)\\bigr)\\bigl(f'(b_1),~f'(b_2),~\\ldots,~f'(b_n)\\bigr),~bb') \n                       \\text{(*)} \\\\\n               &=& \\bigl((f(1)f'(b_1),~f(2)f'(b_2),~\\ldots,~f(n)f'(b_n)),~bb'\\bigr).\\end{aligned}$$\nNotice the permutation of the indices in (\\*).\n\nA bit amount of thought to understand this slightly messy notation will\nbe illuminating, and might also shed some light on the choice of\nterminology.",
+  "language": "INFORMAL",
+  "phrase": "Wreath Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WreathProduct"
+    }
+  ],
+  "indexable": true
+}

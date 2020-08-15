@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**.**]{} Let $f:[a,b]\\rightarrow{\\mathbb{C}}$ be a measurable function.\nIf $f$ is $L^1$ integrable, that is to say if the Lebesgue integral of\n$|f|$ is finite, then\n$$\\int^b_a f(x) e^{inx}\\,dx \\rightarrow 0,\\quad{as}\\quad n\\rightarrow\n\\pm\\infty.$$\n\nThe above result, commonly known as the Riemann-Lebesgue lemma, is of\nbasic importance in harmonic analysis. It is equivalent to the assertion\nthat the Fourier coefficients $\\hat{f}_n$ of a periodic, integrable\nfunction $f(x)$, tend to $0$ as $n\\rightarrow \\pm\\infty$.\n\nThe proof can be organized into 3 steps.\n\n*Step 1.* An elementary calculation shows that\n$$\\int_I e^{inx}\\,dx \\rightarrow 0,\\quad{as}\\quad n\\rightarrow\n\\pm\\infty$$ for every interval $I\\subset[a,b]$. The proposition is\ntherefore true for all step functions with in $[a,b]$.\n\n*Step 2.* By the monotone convergence theorem, the proposition is true\nfor all positive functions, integrable on $[a,b]$.\n\n*Step 3.* Let $f$ be an arbitrary measurable function, integrable on\n$[a,b]$. The proposition is true for such a general $f$, because one can\nalways write $$f=g-h,$$ where $g$ and $h$ are positive functions,\nintegrable on $[a,b]$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RiemannLebesgueLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Riemann-Lebesgue lemma"
+  ]
+}

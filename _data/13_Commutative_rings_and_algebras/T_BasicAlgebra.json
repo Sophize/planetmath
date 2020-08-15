@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be a finite dimensional, unital algebra over a field $k$. By\nKrull-Schmidt Theorem $A$ can be decomposed as a (right) $A$-module as\nfollows: $$A\\simeq P_1\\oplus\\cdots\\oplus P_k$$ where each $P_i$ is an\nindecomposable module and this decomposition is unique.\n\n**Definition.** The algebra $A$ is called **(right) basic** if $P_i$ is\nnot isomorphic to $P_j$ when $i\\neq j$.\n\nOf course we may easily define what does it mean for algebra to be left\nbasic. Fortunetly these properties coincide. Let as state some known\nfacts (originally can be found in [@ASS]):\n\n**Proposition.**\n\n1.  A finite algebra $A$ over a field $k$ is basic if and only if the\n    algebra $A/\\mathrm{rad}A$ is isomorphic to a product of fields\n    $k\\times\\cdots\\times k$. Thus $A$ is right basic iff it is left\n    basic;\n\n2.  Every simple module over a basic algebra is one-dimensional;\n\n3.  For any finite-dimensional, unital algebra $A$ over $k$ there exists\n    finite-dimensional, unital, basic algebra $B$ over $k$ such that the\n    category of finite-dimensional modules over $A$ is $k$-linear\n    equivalent to the category of finite-dimensional modules over $B$;\n\n4.  Let $A$ be a finite-dimensional, basic and connected (i.e. cannot be\n    written as a product of nontrivial algebras) algebra over a field\n    $k$. Then there exists a bound quiver $(Q,I)$ such that\n    $A\\simeq kQ/I$;\n\n5.  If $(Q,I)$ is a bound quiver over a field $k$, then both $kQ$ and\n    $kQ/I$ are basic algebras.\n\n[99]{} I. Assem, D. Simson, A. Skowronski, *Elements of the\nRepresentation Theory of Associative Algebras, vol 1.*, Cambridge\nUniversity Press 2006, 2007",
+  "language": "INFORMAL",
+  "phrase": "Basic Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BasicAlgebra"
+    }
+  ],
+  "indexable": true
+}

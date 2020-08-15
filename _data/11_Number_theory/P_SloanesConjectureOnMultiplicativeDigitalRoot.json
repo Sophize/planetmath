@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "It is believed that there is no integer has a multiplicative persistence\ngreater than itself, a conjecture put forth in 1973 by Neil Sloane, and\nthat Sloane meant to limit this conjecture to fixed radix bases.\n\nIn 1998, Diamond and Reidpath published a factorial base counterexample,\nby proving that \u201cit is possible to find a number in factorial base of\narbitrarily large persistence,\u201d specifically a number of the form\n$$n!n + \\sum_{i = 1}^{n - 1} i!$$ Obviously, this number will have a\nfactorial base multiplicative digital root of $n$ and a persistence of\nalso $n$, suggesting an upper bound for the desired counterexample.\n\n[2]{} M. R. Diamond, D. D. Reidpath, \u201cA Counterexample to Conjectures by\nSloane and Erdos Concerning the Persistence of Numbers\", [*J. Rec.\nMath.*]{} 29 (1998), 89 - 92. N. J. A. Sloane, \u201cThe persistence of a\nnumber\" [*J. Rec. Math.*]{} 6 (1973), 97 - 98.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SloanesConjectureOnMultiplicativeDigitalRoot"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Sloane's conjecture on multiplicative digital root",
+    "Sloane-Erd\\H{o}s conjecture on multiplicative digital root"
+  ]
+}

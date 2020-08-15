@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $X$ be a second countable topological space, $A\\subseteq X$ any\nsubset and $\\mathcal{U}$ an open cover of $A$. Let $\\mathcal{B}$ be a\ncountable basis for $X$; then $\\mathcal{B}' =\n\\{B\\cap A\\colon B\\in\\mathcal{B}\\}$ is a countable basis of the subspace\ntopology on A. Then for each $a\\in A$ there is some $U_a\\in\\mathcal{U}$\nwith $a\\in U_a$, and so there is $B_a\\in\\mathcal{B}'$ such that\n$a\\in B_a\\subseteq U_a$.\n\nThen $\\{B_a\\in\\mathcal{B}'\\colon a\\in A\\}\\subseteq\\mathcal{B}$ is a\ncountable open cover of $A$. For each $B_a$, choose\n$U_{B_a}\\in\\mathcal{U}$ such that $B_a\\subseteq U_{B_a}$. Then\n$\\{ U_{B_a}\\colon a\\in A\\}$ is a countable subcover of $A$ from\n$\\mathcal{U}$.$\\square$",
+  "conclusion": "#P_LindelofTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfLindelofTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Lindel\\\"of theorem"
+  ]
+}

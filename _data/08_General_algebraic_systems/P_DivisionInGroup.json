@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In any group $(G,\\,\\cdot)$ one can introduce a [*division operation*]{}\n\u201c:\u201d by setting $$x:y = x \\cdot y^{-1}$$ for all elements $x$, $y$ of\n$G$. On the contrary, the group operation and the unary inverse forming\noperation may be expressed via the division by $$\\begin{aligned}\nx \\cdot y = x:((y:y):y), \\quad x^{-1} = (x:x):x.\\end{aligned}$$\n\nThe division, which of course is not associative, has the properties\n\n1.  $(x:z):(y:z) = x:y,$\n\n2.  $x:(y:y) = x,$\n\n3.  $(x:x):(y:z) = z:y.$\n\nThe above result may be conversed:\n\nIf the operation \u201c:\u201d of the non-empty groupoid $G$ has the properties 1,\n2, and 3, then $G$ equipped with the \u201cmultiplication\u201d and inverse\nforming by (1) is a group.\n\n[*Proof.*]{} Here we prove only the associativity of \u201c$\\cdot$\u201d. First we\nderive some auxiliary results. Using definitions and the properties 1\nand 2 we obtain $$(x:y):y^{-1} = (x:y):((y:y):y) = x:(y:y) = x,$$\n$$(x:y^{-1}):y = (x:y^{-1}):((y:y):y^{-1}) = x:(y:y) = x$$ and using the\nproperty 3, $$(x:y)^{-1} = ((x:y):(x:y)):(x:y) = y:x.$$ Then we get:\n$$(xy)z = (x:y^{-1}):z^{-1} = ((x:y^{-1}):y):(z^{-1}:y) = \n  x:(z^{-1}:y) = x:(y:z^{-1})^{-1} = x(yz)$$\n\n[7]{} . . : [ ** ]{}. \u201c\u201d. (1970).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DivisionInGroup"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "division in group"
+  ]
+}

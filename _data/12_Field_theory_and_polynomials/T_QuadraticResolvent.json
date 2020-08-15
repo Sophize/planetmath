@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "quadratic resolvent equation"
+  ],
+  "definition": "The [*quadratic resolvent*]{} of the cubic equation $$\\begin{aligned}\ny^3+py+q = 0,\\end{aligned}$$ where $p$ and $q$ are known complex\nnumbers, is the auxiliary equation\n$$z^2+qz-\\left(\\frac{p}{3}\\right)^3 = 0$$ determining as its\n$$z_1 = u^3, \\qquad z_2 = v^3$$ the numbers $u$ and $v$ whose sum\n$y = u+v$ satisfies the equation (1). See .\n\nAnalogically, a quartic equation has a [*cubic resolvent*]{} (resolvent\ncubic) equation.",
+  "language": "INFORMAL",
+  "phrase": "Quadratic Resolvent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuadraticResolvent"
+    }
+  ],
+  "indexable": true
+}

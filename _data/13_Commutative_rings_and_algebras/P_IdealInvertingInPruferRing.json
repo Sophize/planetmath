@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let $\\mathfrak{a}_1$, \u2026, $\\mathfrak{a}_n$ be invertible\nfractional ideals of a Pr\u00fcfer ring. Then also their sum and intersection\nare invertible, and the inverse ideals of these are obtained by the\nformulae resembling de Morgan\u2019s laws:\n$$(\\mathfrak{a}_1+\\cdots+\\mathfrak{a}_n)^{-1} \\;=\\; \n\\mathfrak{a}_1^{-1}\\cap\\cdots\\cap\\mathfrak{a}_n^{-1}$$\n$$(\\mathfrak{a}_1\\cap\\cdots\\cap\\mathfrak{a}_n)^{-1} \\;=\\;  \n\\mathfrak{a}_1^{-1}+\\cdots+\\mathfrak{a}_n^{-1}$$\\\nThis is due to the fact, that the sum of any ideals is the smallest\nideal containing these ideals and the intersection of the ideals is the\nlargest ideal contained in each of these ideals. Cf. sum of ideals,\nquotient of ideals.\n\n[9]{} : \u201cSome formulae for multiplying and inverting ideals\u201d. $-$\n*Annales universitatis turkuensis* **183**. Turun yliopisto (University\nof Turku) 1982.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdealInvertingInPruferRing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "ideal inverting in Pr\\\"ufer ring"
+  ]
+}

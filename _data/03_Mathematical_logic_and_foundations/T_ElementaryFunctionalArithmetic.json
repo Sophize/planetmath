@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "EFA"
+  ],
+  "definition": "*Elementary Functional Arithmetic*, or EFA, is a weak theory of\narithmetic created by removing induction from Peano Arithmetic. Because\nit lacks induction, axioms defining exponentiation must be added.\n\n-   $\\forall x (x'\\neq 0)$ ($0$ is the first number)\n\n-   $\\forall x,y (x'=y'\\rightarrow x=y)$ (the successor function is\n    one-to-one)\n\n-   $\\forall x (x+0=x)$ ($0$ is the additive identity)\n\n-   $\\forall x,y(x+y'=(x+y)')$ (addition is the repeated application of\n    the successor function)\n\n-   $\\forall x(x\\cdot 0=0)$\n\n-   $\\forall x,y(x\\cdot(y')=x\\cdot y+x$ (multiplication is repeated\n    addition)\n\n-   $\\forall x(\\neg (x<0))$ ($0$ is the smallest number)\n\n-   $\\forall x,y(x<y'\\leftrightarrow x<y\\vee x=y)$\n\n-   $\\forall x(x^0=1)$\n\n-   $\\forall x(x^{y'}=x^y\\cdot x)$",
+  "language": "INFORMAL",
+  "phrase": "Elementary Functional Arithmetic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ElementaryFunctionalArithmetic"
+    }
+  ],
+  "indexable": true
+}

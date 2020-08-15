@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "![image](trig.eps)\n\n**Informal definitions**\n\nGiven a triangle $ABC$ with a signed angle $x$ at $A$ and a right angle\nat $B$, the ratios\n$$\\frac{BC}{AC}\\qquad \\frac{AB}{AC}\\qquad \\frac{BC}{AB}$$ are dependent\nonly on the angle $x$, and therefore define functions, denoted by\n$$\\sin x\\qquad \\cos x\\qquad \\tan x$$ respectively, where the names are\nshort for *sine, cosine* and *tangent*. Their inverses are rather less\nimportant, but also have names: $$\\begin{aligned}\n\\cot x &=& \\frac{AB}{BC} = \\frac{1}{\\tan x} \\text{  (cotangent)} \\\\\n\\csc x &=& \\frac{AC}{BC} = \\frac{1}{\\sin x} \\text{  (cosecant)} \\\\\n\\sec x &=& \\frac{AC}{AB} = \\frac{1}{\\cos x} \\text{  (secant)}\\end{aligned}$$\nFrom Pythagoras\u2019s theorem we have $\\cos^2 x+\\sin^2 x = 1$ for all (real)\n$x$. Also it is \u201cclear\u201d from the diagram at left that functions $\\cos$\nand $\\sin$ are periodic with period $2\\pi$. However:\n\n**Formal definitions**\n\nThe above definitions are not fully rigorous, because we have not\ndefined the word *angle*. We will sketch a more rigorous approach.\n\nThe power series $$\\sum_{n=0}^\\infty\\frac{x^n}{n!}$$ converges uniformly\non compact subsets of $\\mathbb{C}$ and its sum, denoted by $\\exp(x)$ or\nby $e^x$, is therefore an entire function of $x$, called the exponential\nfunction. $f(x)=\\exp(x)$ is the unique solution of the boundary value\nproblem $$f(0)=1\\qquad f'(x)=f(x)$$ on $\\mathbb{R}$. The sine and cosine\nfunctions, for real arguments, are defined in terms of $\\exp$, simply by\n$$\\exp(ix)=\\cos x + i(\\sin x)\\;.$$ Thus\n$$\\cos x = 1-\\frac{x^2}{2!}+\\frac{x^4}{4!}-\\frac{x^6}{6!}+\\cdots$$\n$$\\sin x = \\frac{x}{1!}-\\frac{x^3}{3!}+\\frac{x^5}{5!}-\\cdots$$ Although\nit is not self-evident, $\\cos$ and $\\sin$ are periodic functions on the\nreal line, and have the same period. That period is denoted by $2\\pi$.",
+  "language": "INFORMAL",
+  "phrase": "Definitions In Trigonometry",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DefinitionsInTrigonometry"
+    }
+  ],
+  "indexable": true
+}

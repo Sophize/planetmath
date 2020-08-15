@@ -1,0 +1,18 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For any natural number $N \\geq 1$, define the [*modular group*]{}\n$\\Gamma_0(N)$ to be the following subgroup of the group\n${\\operatorname{SL}}(2,{{\\mathbb{Z}}})$ of integer coefficient matrices\nof determinant 1:\n$$\\Gamma_0(N) := \\left\\{ \\left. \\begin{pmatrix} a & b \\\\ c & d\n\\end{pmatrix} \\in {\\operatorname{SL}}(2,{{\\mathbb{Z}}})\\ \\right|\\ c \\equiv 0 \\pmod{N} \\right\\}.$$\nLet ${{\\mathbb{H}}}^*$ be the subset of the Riemann sphere consisting of\nall points in the upper half plane (i.e., complex numbers with strictly\npositive imaginary part), together with the rational numbers and the\npoint at infinity. Then $\\Gamma_0(N)$ acts on ${{\\mathbb{H}}}^*$, with\ngroup action given by the operation\n$$\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\cdot z := \\frac{az+b}{cz+d}.$$\nDefine $X_0(N)$ to be the quotient of ${{\\mathbb{H}}}^*$ by the action\nof $\\Gamma_0(N)$. The quotient space $X_0(N)$ inherits a quotient\ntopology and holomorphic structure from ${{\\mathbb{C}}}$ making it into\na compact Riemann surface. (Note: ${{\\mathbb{H}}}^*$ itself is not a\nRiemann surface; only the quotient $X_0(N)$ is.) By a general theorem in\ncomplex algebraic geometry, every compact Riemann surface admits a\nunique realization as a complex nonsingular projective curve; in\nparticular, $X_0(N)$ has such a realization, which by abuse of notation\nwe will also denote $X_0(N)$. This curve is defined over\n${{\\mathbb{Q}}}$, although the proof of this fact is beyond the scope of\nthis entry[^1].\n\n[**Taniyama-Shimura Theorem (weak form):**]{} For any elliptic curve $E$\ndefined over $\\mathbb{Q}$, there exists a positive integer $N$ and a\nsurjective algebraic morphism $\\phi: X_0(N) \\to E$ defined over\n$\\mathbb{Q}$.\n\nThis theorem was first conjectured (in a much more precise, but\nequivalent formulation) by Taniyama, Shimura, and Weil in the 1970\u2019s. It\nattracted considerable interest in the 1980\u2019s when Frey\u00a0[@frey] proposed\nthat the Taniyama-Shimura conjecture implies Fermat\u2019s Last Theorem. In\n1995, Andrew Wiles\u00a0[@wiles] proved a special case of the\nTaniyama-Shimura theorem which was strong enough to yield a proof of\nFermat\u2019s Last Theorem. The full Taniyama-Shimura theorem was finally\nproved in 1997 by a team of a half-dozen mathematicians who, building on\nWiles\u2019s work, incrementally chipped away at the remaining cases until\nthe full result was proved. As of this writing, the proof of the full\ntheorem can still be found on .\n\n[9]{}\n\n[^1]: Explicitly, the curve $X_0(N)$ is the unique nonsingular\n    projective curve which has function field equal to\n    ${{\\mathbb{C}}}(j(z), j(Nz))$, where $j$ denotes the elliptic\n    modular $j$\u2013function. The curve $X_0(N)$ is essentially the\n    algebraic curve defined by the polynomial equation $\\Phi_N(X,Y) = 0$\n    where $\\Phi_N$ is the modular polynomial, with the caveat that this\n    procedure yields singularities which must be resolved manually. The\n    fact that $\\Phi_N$ has integer coefficients provides one proof that\n    $X_0(N)$ is defined over ${{\\mathbb{Q}}}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TaniyamaShimuraTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Taniyama-Shimura theorem",
+    "Taniyama-Shimura-Weil conjecture",
+    "Taniyama-Weil conjecture",
+    "Taniyama-Shimura conjecture",
+    "Taniyama-Shimura-Weil theorem"
+  ]
+}

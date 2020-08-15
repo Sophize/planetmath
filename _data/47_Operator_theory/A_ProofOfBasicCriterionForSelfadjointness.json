@@ -1,0 +1,17 @@
+{
+  "argumentText": "1.  $(1\\implies 2)$ If $A$ is self-adjoint and $Ax = ix$, then\n    $$i\\|x\\|^2=(ix,x) = (Ax,x) = (x,A^*x) = (x,Ax) = (x,ix) = \\overline{(ix,x)} = -i\\|x\\|^2,$$\n    so $x=0$. Similarly we prove that $Ax=-ix$ implies $x=0$. That $A$\n    is closed follows from the fact that the adjoint of an operator is\n    always closed.\n\n2.  $(2\\implies 3)$ If $2$ holds, then\n    $\\{0\\}= {\\operatorname{Ker}}(A^*\\pm i)^* = {\\operatorname{Ker}}(A \\mp i)^* = {\\operatorname{Ran}}(A\\mp i)^\\perp$,\n    so that ${\\operatorname{Ran}}{A \\mp i}$ is dense in $\\mathscr{H}$.\n    Also, since $A$ is symmetric, for $x\\in D(A)$,\n    $$\\|(A+i)x\\|^2=\\|Ax\\|^2 + \\|x\\|^2 + (Ax,ix) + (ix,Ax) = \\|Ax\\|^2 + \\|x\\|^2$$\n    because $(Ax,ix) = (x,iA^*x)= (x,iAx) = -(ix,Ax)$. Hence\n    $\\|x\\|\\leq \\|(A+i)x\\|$, so that given a sequence $x_n\\in D(A)$ such\n    that $(A+i)x_n \\to y$, we have that $\\{(A+i)x_n\\}$ is a Cauchy\n    sequence and thus $\\{x_n\\}$ itself is a Cauchy sequence. Hence\n    $\\{x_n\\}$ converges to some $x\\in \\mathscr{H}$ and since $A$ is\n    closed it follows that $x\\in D(A)$ and $(A+i)x = y$. This proves\n    that $y\\in {\\operatorname{Ran}}(A+i)$, so that\n    ${\\operatorname{Ran}}(A+i)$ is closed (and similarly,\n    ${\\operatorname{Ran}}(A-i)$ is closed. Thus\n    ${\\operatorname{Ran}}(A\\pm i)=\\mathscr{H}$.\n\n3.  $(3\\implies 1)$ Suppose $3$. If $y\\in D(A^*)$, then there is\n    $x\\in D(A)$ such that $(A+i)x = (A^*-i)y$. Since $A$ is symmetric,\n    $(A+i)x = (A^*+i)x = (A-i)^*x$, so that $(A^*-i)(x-y)=0$. But since\n    ${\\operatorname{Ker}}(A^*-i) = {\\operatorname{Ran}}(A+i)^\\perp = \\{0\\}$,\n    it follows that $x=y$, so that $y\\in D(A)$. Hence $D(A)=D(A^*)$, and\n    therefore $A$ is self-adjoint.",
+  "conclusion": "#P_BasicCriterionForSelfadjointness",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBasicCriterionForSelfadjointness"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of basic criterion for self-adjointness"
+  ]
+}

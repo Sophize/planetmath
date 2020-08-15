@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "There exists a quasiconformal mapping of the upper half plane to itself\nif and only if the boundary correspondence mapping $\\mu$ is .\nFurthermore there exists an extension of $\\mu$ to a quasiconformal\nmapping of the upper half planes such that the maximal dilatation of the\nextension depends only on $M$ and not on $\\mu$.\n\nThat is, the extension is if and only if the boundary correspondence is\nwhere $K$ depends purely on $M$.\n\nSupposing that we have the mapping $\\phi: H \\rightarrow H$ (where $H$ is\nthe upper half plane), then the mapping\n$\\mu : {\\mathbb{R}} \\rightarrow {\\mathbb{R}}$, such that\n$\\mu(x) = \\phi(x)$ where $x \\in {\\mathbb{R}}$, is the boundary\ncorrespondence of $\\phi$.\n\nTo prove the sufficiency of the above theorem Beurling and Ahlfors\n[@ba1956] define $\\phi$ as follows. Given a $\\mu$ that is a\nquasisymmetric mapping of the real line onto itself and fixes $\\infty$,\nwe define a map $\\phi(x,y) = u(x,y) + iu(x,y)$ where $$\\begin{aligned}\nu(x,y) & = \\frac{1}{2y} \\int_{-y}^y \\mu(x+t) dt ,\n\\\\\nv(x,y) & = \\frac{1}{2y} \\int_0^y (\\mu(x+t) - \\mu(x-t)) dt .\\end{aligned}$$\n\nIntuitively $\\phi$ is a function which \u201csmoothes\u201d out any kinks in the\nfunction $\\mu$ as we get further and further away from the real line. It\ntherefore intuitively follows that $\\phi$ has the worst (highest)\ndilatation near the $x$ axis, which actually turns out to be true.\n\n[9]{} L. V. Ahlfors. **. Van Nostrand-Reinhold, Princeton, New Jersey,\n1966 A. Beurling, L. V. Ahlfors. . *Acta Math.*, 96:125-142, 1956. J.\nLebl. **. . Also available at",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BeurlingAhlforsQuasiconformalExtension"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Beurling-Ahlfors quasiconformal extension",
+    "Beurling-Ahlfors theorem"
+  ]
+}

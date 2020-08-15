@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be a $G$-set, that is, a set acted upon by a group $G$ with\naction $\\psi:G\\times A\\to A$. Then for any $g\\in G$, the map\n$m_g\\colon A\\to A$ defined by $$m_g(x)= \\psi(g,x)$$ is a permutation of\n$A$ (in other words, a bijective function from $A$ to itself) and so an\nelement of $S_A$. We can even get an homomorphism from $G$ to $S_A$ by\nthe rule $g\\mapsto m_g$.\n\nIf for any pair $g,h\\in G$ $g\\neq h$ we have $m_g\\neq m_h$, in other\nwords, the homomorphism $g\\to m_g$ being injective, we say that the\naction is faithful.",
+  "language": "INFORMAL",
+  "phrase": "Faithful Group Action",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FaithfulGroupAction"
+    }
+  ],
+  "indexable": true
+}

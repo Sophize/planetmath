@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "open",
+    "open subset"
+  ],
+  "definition": "In a metric space $M$ a set $O$ is called an *open subset* of $M$ or\njust *open*, if for every $x\\in O$ there is an open ball $S$ around $x$\nsuch that $S\\subset O$. If $d(x,y)$ is the distance from $x$ to $y$ then\nthe open ball $B_r$ with radius $r>0$ around $x$ is given as:\n$$B_r=\\{y\\in M|d(x,y)<r\\}.$$\n\nUsing the idea of an open ball one can define a neighborhood of a point\n$x$. A set containing $x$ is called a neighborhood of $x$ if there is an\nopen ball around $x$ which is a subset of the neighborhood.\n\nThese neighborhoods have some properties, which can be used to define a\ntopological space using the Hausdorff axioms for neighborhoods, by which\nagain an open set within a topological space can be defined. In this way\nwe drop the metric and get the more general topological space. We can\ndefine a topological space $X$ with a set of neighborhoods of $x$ called\n$U_x$ for every $x\\in X$, which satisfy\n\n1.  $x\\in U$ for every $U\\in U_x$\n\n2.  If $U\\in U_x$ and $V\\subset X$ and $U\\subset V$ then $V\\in U_x$\n    (every set containing a neighborhood of $x$ is a neighborhood of $x$\n    itself).\n\n3.  If $U,V\\in U_x$ then $U\\cap V\\in U_x$.\n\n4.  For every $U\\in U_x$ there is a $V\\in U_x$, such that $V\\subset U$\n    and $V\\in U_p$ for every $p\\in V$.\n\nThe last point leads us back to open sets, indeed a set $O$ is called\nopen if it is a neighborhood of every of its points. Using the\nproperties of these open sets we arrive at the usual definition of a\ntopological space using open sets, which is equivalent to the above\ndefinition. In this definition we look at a set $X$ and a set of subsets\nof $X$, which we call open sets, called $\\mathcal{O}$, having the\nfollowing properties:\n\n1.  $\\emptyset\\in\\mathcal{O}$ and $X\\in\\mathcal{O}$.\n\n2.  Any union of open sets is open.\n\n3.  intersections of open sets are open.\n\nNote that a topological space is more general than a metric space, i.e.\non every metric space a topology can be defined using the open sets from\nthe metric, yet we cannot always define a metric on a topological space\nsuch that all open sets remain open.\n\nExamples: {#examples .unnumbered}\n---------\n\n-   On the real axis the interval $I=(0,1)$ is open because for every\n    $a\\in I$ the open ball with radius $\\min(a,1-a)$ is always a subset\n    of $I$. (Using the standard metric $d(x,y)=|x-y|$.)\n\n-   The open ball $B_r$ around $x$ is open. Indeed, for every $y\\in B_r$\n    the open ball with radius $r-d(x,y)$ around y is a subset of $B_r$,\n    because for every $z$ within this ball we have:\n    $$d(x,z)\\leq d(x,y)+d(y,z)<d(x,y)+r-d(x,y)=r.$$ So $d(x,z)<r$ and\n    thus $z$ is in $B_r$. This holds for every $z$ in the ball around\n    $y$ and therefore it is a subset of $B_r$\n\n-   A non-metric topology would be the finite complement topology on\n    infinite sets, in which a set is called open, if its complement is\n    finite.",
+  "language": "INFORMAL",
+  "phrase": "Open Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OpenSet"
+    }
+  ],
+  "indexable": true
+}

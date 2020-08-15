@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Sarrus number"
+  ],
+  "definition": "A [*Poulet number*]{} or [*Sarrus number*]{} is a composite integer $n$\nsuch that $2^n \\equiv 2 \\mod n$. In other words, a base 2 pseudoprime\n(thus a Poulet number that satisfies the congruence for other bases is a\nCarmichael number). The first few Poulet numbers are 341, 561, 645,\n1105, 1387, 1729, 1905, listed in A001567 of Sloane\u2019s OEIS.\n\nFor example, 561 is a Poulet number, since $2^{561} - 2$ is\n75479248496430827044831091619765377\n81833842440832880856752412600491248324784297704172253450355317535082936750061527\n689799541169259849585265122868502865392087298790653950 and that\u2019s\ndivisible by 561. The number 561 is not prime, it has the prime factors\n3, 11, and 17.\n\nPoulet numbers are counterexamples to the Chinese hypothesis.\n\n[1]{} Derrick Henry Lehmer, \u201cErrata for Poulet\u2019s table,\u201d [*Math.\nComp.*]{} [**25**]{} 25 (1971): 944 - 945.",
+  "language": "INFORMAL",
+  "phrase": "Poulet Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PouletNumber"
+    }
+  ],
+  "indexable": true
+}

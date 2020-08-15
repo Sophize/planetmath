@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given a with apothem of length $a$ and $P$, its area is\n\n$$A=\\frac{1}{2}aP.$$\n\nGiven a regular $n$-gon $R$, line segments can be drawn from its center\nto each of its vertices. This divides $R$ into $n$ congruent triangles.\nThe area of each of these triangles is $\\displaystyle \\frac{1}{2}as$,\nwhere $s$ is the length of one of the sides of the triangle. Also note\nthat the perimeter of $R$ is $P=ns$. Thus, the area $A$ of $R$ is\n\n$\\begin{array}{rl}\nA & \\displaystyle =n\\left( \\frac{1}{2}as \\right) \\\\\n& \\\\\n& \\displaystyle =\\frac{1}{2}a(ns) \\\\\n& \\\\\n& \\displaystyle =\\frac{1}{2}aP. \\end{array}$\n\nTo illustrate what is going on in the proof, a regular hexagon appears\nbelow with each line segment from its center to one of its vertices\ndrawn in red and one of its apothems drawn in blue.\n\n(-2,-2)(2,2) (0,0)(0,-1.732) (-2,0)(2,0) (-1,-1.732)(1,1.732)\n(1,-1.732)(-1,1.732) (2,0)(1,1.732)(-1,1.732)(-2,0)(-1,-1.732)(1,-1.732)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AreaOfRegularPolygon"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "area of regular polygon"
+  ]
+}

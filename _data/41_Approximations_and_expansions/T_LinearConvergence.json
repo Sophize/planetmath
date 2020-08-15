@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sequence $\\{x_i\\}$ is said to converge linearly to $x^*$ if there is a\nconstant $1>c>0$ such that $||x_{i+1}-x^*|| \\leq c ||x_i -x^*||$ for all\n$i>N$ for some natural number $N>0$.\n\nAn alternative definition is that\n$||x_{i+1}-x_i|| \\leq c ||x_i - x_{i-1} ||$ for all $i$.\n\nNotice that if $N=1$, then by iterating the first inequality we have\n$$||x_{i+1}-x^*|| \\leq c^i ||x_1 -x^*||.$$ That is, the error decreases\nexponentially with the index $i$.\n\nIf the inequality holds for all $c>0$ then we say that the sequence\n$\\{x_i\\}$ has *superlinear convergence*.",
+  "language": "INFORMAL",
+  "phrase": "Linear Convergence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearConvergence"
+    }
+  ],
+  "indexable": true
+}

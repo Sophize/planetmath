@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a commutative ring, and $M$ an $R$-module. The *tensor\nalgebra*\n$${\\mathcal{T}}(M) = \\bigoplus_{n=0}^\\infty {\\mathcal{T}}_n(M)$$ is the\ngraded $R$-algebra with $n^{th}$ graded component simply the $n^{th}$\ntensor power:\n$${\\mathcal{T}}_n(M) = M^{\\otimes n} =\\overbrace{M\\otimes \\cdots \\otimes\n  M}^{n\\text{ times}},\\quad n=1,2,\\ldots,$$ and ${\\mathcal{T}}_0(M)=R$.\nThe multiplication\n$m:{\\mathcal{T}}(M)\\times {\\mathcal{T}}(M)\\to{\\mathcal{T}}(M)$ is given\nby the usual tensor product:\n$$m(a,b)=a\\otimes b,\\quad a\\in M^{\\otimes n},\\; b\\in M^{\\otimes m}.$$\n\n#### Remark 1.\n\nOne can generalize the above definition to cover the case where the\nground ring $R$ is non-commutative by requiring that the module $M$ is a\nbimodule with $R$ acting on both the left and the right.\n\n#### Remark 2.\n\nFrom the point of view of category theory, one can describe the tensor\nalgebra construction as a functor ${\\mathcal{T}}$ from the category of\n$R$-module to the category of $R$-algebras that is left-adjoint to the\nforgetful functor ${\\mathcal{F}}$ from algebras to modules. Thus, for\n$M$ an $R$-module and $S$ an $R$-algebra, every module homomorphism\n$M\\to {\\mathcal{F}}(S)$ extends to a unique algebra homomorphism\n${\\mathcal{T}}(M)\\to S$.",
+  "language": "INFORMAL",
+  "phrase": "Tensor Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TensorAlgebra"
+    }
+  ],
+  "indexable": true
+}

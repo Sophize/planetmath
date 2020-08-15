@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K$ be a number field, and let $\\cal C$ be the set of ideal classes\nof $K$, with multiplication $\\cdot$ defined by\n$$[\\mathfrak{a}] \\cdot [\\mathfrak{b}]=[\\mathfrak{a} \\mathfrak{b}]$$\nwhere $\\mathfrak{a}, \\mathfrak{b}$ are ideals of ${\\cal{O}}_K$.\n\nWe shall check the group properties:\n\n1.  Associativity:\n    $[\\mathfrak{a}] \\cdot ([\\mathfrak{b}] \\cdot [\\mathfrak{c}])=\n                          [\\mathfrak{a}] \\cdot [\\mathfrak{b}\\mathfrak{c}]=\n                          [\\mathfrak{a}(\\mathfrak{b}\\mathfrak{c})]=\n                          [\\mathfrak{a}\\mathfrak{b}\\mathfrak{c}]=\n                          [(\\mathfrak{a}\\mathfrak{b})\\mathfrak{c}]=\n                          [\\mathfrak{a}\\mathfrak{b}] \\cdot [\\mathfrak{c}]=\n                          ([\\mathfrak{a}] \\cdot [\\mathfrak{b}]) \\cdot [\\mathfrak{c}]$\n\n2.  Identity element: $[ {\\cal{O}}_K ] \\cdot [\\mathfrak{b}]=\n    [\\mathfrak{b}]=[\\mathfrak{b}] \\cdot [ {\\cal{O}}_K ]$.\n\n3.  Inverses: Consider $[\\mathfrak{b}]$. Let $b$ be an integer in\n    $\\mathfrak{b}$. Then $\\mathfrak{b} \\supseteq (b)$, so there exists\n    $\\mathfrak{c}$ such that $\\mathfrak{b}\\mathfrak{c}=(b)$.\\\n    Then the ideal class\n    $[\\mathfrak{b}] \\cdot [\\mathfrak{c}] = [(b)]=[ {\\cal{O}}_K ]$.\n\nThen ${\\cal C}$ is a group under the operation $\\cdot$.\n\nIt is abelian since\n$[\\mathfrak{a}][\\mathfrak{b}]=[\\mathfrak{a}\\mathfrak{b}]=\n[\\mathfrak{b}\\mathfrak{a}]=[\\mathfrak{b}][\\mathfrak{a}]$.\n\nThis is group is called the *ideal class group* of $K$. The ideal class\ngroup is one of the principal objects of algebraic number theory. In\nparticular, for an arbitrary number field $K$, very little is known\nabout the size of this group, called the *class number* of $K$. See the\nanalytic class number formula.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdealClassesFormAnAbelianGroup"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "ideal classes form an abelian group"
+  ]
+}

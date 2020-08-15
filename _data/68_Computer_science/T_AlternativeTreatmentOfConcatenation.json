@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "It is possible to define words and concatenation in terms of ordered\nsets. Let $A$ be a set, which we shall call our alphabet. Define a\n*word* on $A$ to be a map from a totally ordered set into $A$. (In order\nto have words in the usual sense, the ordered set should be finite but,\nas the definition presented here does not require this condition, we do\nnot impose it.)\n\nSuppose that we have totally ordered sets $(u,<)$ and $(v,\\prec)$ and\nwords $f \\colon u \\to A$ and $g \\colon v \\to A$. Let $u \\coprod v$\ndenote the disjoint union of $u$ and $v$ and let\n$p \\colon u \\to u \\coprod v$ and $q \\colon u \\to u \\coprod v$ be the\ncanonical maps. Then we may define an order $\\ll$ on $u \\coprod v$ as\nfollows:\n\n-   If $x \\in u$ and $y \\in u$, then $p(x) \\ll p(y)$ if and only if\n    $x < y$.\n\n-   If $x \\in u$ and $y \\in v$, then $p(x) \\ll q(y)$.\n\n-   If $x \\in v$ and $y \\in v$, then $q(x) \\ll q(y)$ if and only if\n    $x \\prec y$.\n\nWe define the *concatenation* of $f$ and $g$, which will be denoted\n$f \\circ g$, to be map from $u \\coprod v$ to $A$ defined by the\nfollowing conditions:\n\n-   If $x \\in u$, then $(f \\circ g) (p(x)) = f(x)$.\n\n-   If $y \\in u$, then $(f \\circ g) (q(x)) = g(x)$.",
+  "language": "INFORMAL",
+  "phrase": "Alternative Treatment Of Concatenation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternativeTreatmentOfConcatenation"
+    }
+  ],
+  "indexable": true
+}

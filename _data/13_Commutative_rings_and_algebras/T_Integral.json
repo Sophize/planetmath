@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $B$ be a ring with a subring $A$. We will assume that $A$ is\ncontained in the center of $B$ (in particular, $A$ is commutative). An\nelement $x \\in B$ is *integral* over $A$ if there exist elements\n$a_0, \\dots, a_{n-1} \\in A$ such that\n$$x^n + a_{n-1} x^{n-1} + \\cdots + a_1 x + a_0 = 0.$$ The ring $B$ is\n*integral* over $A$ if every element of $B$ is integral over $A$.",
+  "language": "INFORMAL",
+  "phrase": "Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Integral"
+    }
+  ],
+  "indexable": true
+}

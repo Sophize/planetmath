@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** For every positive integer $n$, there exists only a finite\namount of non-isomorphic groups of order $n$.\\\nThis assertion follows from Cayley\u2019s theorem, according to which any\ngroup of order $n$ is isomorphic with a subgroup of the symmetric group\n$\\mathfrak{S}_n$. The number of non-isomorphic subgroups of\n$\\mathfrak{S}_n$ cannot be greater than $${n!\\!-\\!1 \\choose n\\!-\\!1}.$$\\\nThe above theorem may be used in proving the following Landau\u2019s theorem:\n\n**Theorem (Landau).** For every positive integer $n$, there exists only\na finite amount of finite non-isomorphic groups which contain exactly\n$n$ conjugacy classes of elements.\\\nOne needs also the\n\n**Lemma.** If $n \\in \\mathbb{Z}_+$ and $0 < r \\in \\mathbb{R}$, then\nthere is at most a finite amount of the vectors\n$(m_1,\\,m_2,\\,\\ldots,\\,m_n)$ consisting of positive integers such that\n$$\\sum_{j=1}^n\\frac{1}{m_j} \\;=\\; r.$$ The lemma is easily proved by\ninduction on $n$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NonisomorphicGroupsOfGivenOrder"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "non-isomorphic groups of given order"
+  ]
+}

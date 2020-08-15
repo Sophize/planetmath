@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hartogs pseudoconvex"
+  ],
+  "definition": "Let $G \\subset {\\mathbb{C}}^n$ be a domain (open connected subset). We\nsay $G$ is [*pseudoconvex*]{} (or [*Hartogs pseudoconvex*]{}) if there\nexists a continuous plurisubharmonic function $\\varphi$ on $G$ such that\nthe sets $\\{ z \\in G \\mid \\varphi(z) < x \\}$ are relatively compact\nsubsets of $G$ for all $x \\in {\\mathbb{R}}$. That is we say that $G$ has\na continuous plurisubharmonic exhaustion function.\n\nWhen $G$ has a $C^2$ (twice continuously differentiable) boundary then\nthis notion is the same as , which is easier to work with if you have\nsuch nice boundaries. If you don\u2019t have nice boundaries then the\nfollowing approximation result can come in useful.\n\nIf $G \\subset {\\mathbb{C}}^n$ is pseudoconvex then there exist bounded,\nstrongly Levi pseudoconvex domains $G_k \\subset G$ with $C^\\infty$\n(smooth) boundary which are relatively compact in $G$, such that\n$G = \\bigcup_{k=1}^\\infty G_k$.\n\nThis is because once we have a $\\varphi$ as in the definition we can\nactually find a $C^\\infty$ exhaustion function.\n\nThe reason for the definition of pseudoconvexity is that it classifies\ndomains of holomorphy. One thing to note then is that every open domain\nin one complex dimension (in the complex plane ${\\mathbb{C}}$) is then\npseudoconvex.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Pseudoconvex",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Pseudoconvex"
+    }
+  ],
+  "indexable": true
+}

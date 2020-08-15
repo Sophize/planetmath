@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "absorptive"
+  ],
+  "definition": "A *lattice* is any poset $L$ in which any two elements $x$ and $y$ have\na least upper bound, $x\\lor y$, and a greatest lower bound, $x\\land y$.\nThe operation $\\land$ is called *meet*, and the operation $\\lor$ is\ncalled *join*. In some literature, $L$ is required to be non-empty.\n\nA *sublattice* of $L$ is a subposet of $L$ which is a lattice, that is,\nwhich is closed under the operations $\\land$ and $\\lor$ as defined in\n$L$.\n\nThe operations of meet and join are idempotent, commutative,\nassociative, and absorptive:\n$$x\\land (y\\lor x)=x\\mbox{ and }x\\lor (y\\land x)=x.$$ Thus a lattice is\na commutative band with either operation. The partial order relation can\nbe recovered from meet and join by defining\n$$x\\le y \\text{\\ if and only if\\ } x\\land y = x.$$ Once $\\le$ is\ndefined, it is not hard to see that $x\\le y$ iff $x\\lor y=y$ as well\n(one direction goes like:\n$x\\lor y= (x\\land y)\\lor y=y\\lor (x\\land y)=y\\lor (y\\land x)=y$, while\nthe other direction is the dual of the first).\n\nConspicuously absent from the above list of properties is . While many\nnice lattices, such as face lattices of polytopes, are distributive,\nthere are also important classes of lattices, such as , that are usually\nnot distributive.\n\nLattices, like posets, can be visualized by diagrams called Hasse\ndiagrams. Below are two diagrams, both posets. The one on the left is a\nlattice, while the one on the right is not:\n$$\\entrymodifiers={[o]} \\xymatrix @!=1pt {\n& & \\bullet \\ar@{-}[ld] \\ar@{-}[rd] & & \\\\\n& \\bullet \\ar@{-}[ld] \\ar@{-}[rd] & & \\bullet \\ar@{-}[ld] \\ar@{-}[rd] & \\\\\n\\bullet \\ar@{-}[rd] & & \\bullet \\ar@{-}[ld] \\ar@{-}[rd] & & \\bullet \\ar@{-}[ld] \\\\\n& \\bullet \\ar@{-}[rd] & & \\bullet \\ar@{-}[ld] & \\\\\n& & \\bullet & & }\n\\hspace{2cm}\n\\entrymodifiers={[o]} \\xymatrix @!=1pt {\n& & \\bullet \\ar@{-}[ld] \\ar@{-}[rd] & & \\\\\n& \\bullet \\ar@{-}[ld] \\ar@{-}[rd] \\ar@{-}[d] & & \\bullet \\ar@{-}[ld] \\ar@{-}[rd] \\ar@{-}[d] & \\\\\n\\bullet \\ar@{-}[rd] & \\ar@{-}[d] & \\ar@{-}[ld] \\ar@{-}[rd] & \\ar@{-}[d] & \\bullet \\ar@{-}[ld] \\\\\n& \\bullet \\ar@{-}[rd] & & \\bullet \\ar@{-}[ld] & \\\\\n& & \\bullet & & }$$ The vertices of a lattice diagram can also be\nlabelled, so the lattice diagram looks like $$\\xymatrix @!=1pt {\n& & a \\ar@{-}[ld] \\ar@{-}[rd] & & \\\\\n& b \\ar@{-}[ld] \\ar@{-}[rd] & & c \\ar@{-}[ld] \\ar@{-}[rd] & \\\\\nd \\ar@{-}[rd] & & e \\ar@{-}[ld] \\ar@{-}[rd] & & f \\ar@{-}[ld] \\\\\n& g \\ar@{-}[rd] & & h \\ar@{-}[ld] & \\\\\n& & i & & }$$\n\n**Remark**. Alternatively, a lattice can be defined as an algebraic\nsystem. Please see the link below for details.",
+  "language": "INFORMAL",
+  "phrase": "Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Lattice"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Omega$ be a set, and ${\\mathcal{P}(\\Omega)}$ be the power set of\n$\\Omega$. A *$\\pi$-system* (or pi-system) on $\\Omega$ is a set\n$\\mathcal{F} \\subseteq {\\mathcal{P}(\\Omega)}$ such that\n\n$$A,B \\in \\mathcal{F} \\Rightarrow A \\cap B \\in \\mathcal{F}.$$\n\nA $\\pi$-system is closed under finite intersection.",
+  "language": "INFORMAL",
+  "phrase": "Pi-System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Pisystem"
+    }
+  ],
+  "indexable": true
+}

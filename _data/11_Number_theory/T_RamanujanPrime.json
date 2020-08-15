@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The $n$th [ ** ]{} $p$ is the smallest prime such that there are at\nleast $n$ primes between $x$ and $2x$ for any $x$ such that $2x > p$.\nSo, given the prime counting function $\\pi(x)$, then for the $n$th\nRamanujan prime $p$ it is always the case that $\\pi(2x) - \\pi(x) \\ge n$\nwhen $2x > p$. These primes arise from Srinivasa Ramanujan\u2019s proof of\nBertrand\u2019s postulate. The first few are 2, 11, 17, 29, 41, 47, 59, 67,\n71, 97, 101, 107, 127, listed in A104272 of Sloane\u2019s OEIS.\n\nFor example, the third Ramanujan prime is 17. We can verify that there\nare three primes between 8.5005 and 17.001 (namely 11, 13, 17), that\nthere are also three primes between 9 and 18 (the same as before), more\nthan three primes between 10 and 20 (namely the prime quadruplet 11, 13,\n17. 19), etc. Furthermore, we can verify that no prime smaller than 17\nsatisfies this condition by finding a single counterexample for the\nsmaller primes, specifically: setting $x = 7$ we have $2x = 14$, which\nis greater than 2, 3, 5, 7, 11 and 13, and we verify that there are only\ntwo primes between 7 and 14 (namely 11 and 13).\n\n[2]{} S. Ramanujan, \u201cA proof of Bertrand\u2019s postulate\u201d [*J. Indian Math.\nSociety*]{} [**11**]{}, 1919: 181 - 182 J. Sondow, \u201cRamanujan primes and\nBertrand\u2019s postulate\u201d [*Amer. Math. Monthly*]{} [**116**]{}, 2009: 630 -\n635",
+  "language": "INFORMAL",
+  "phrase": "Ramanujan Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RamanujanPrime"
+    }
+  ],
+  "indexable": true
+}

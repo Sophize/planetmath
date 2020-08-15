@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*minimal prime*]{} is a prime number $p$ that when written in a given\nbase $b$, no smaller prime $q < p$ can be formed from a substring of the\ndigits of $p$ (the digits need not be consecutive, but they must be in\nthe same order). For example, in base 10, the prime 991 is a minimal\nprime because all of its possible substrings (9, 9, 1, 99, 91, 91) are\neither composite or not considered prime. A071062 of Sloane\u2019s OEIS lists\nthe twenty-six base 10 minimal primes.\n\nClearly, all primes $p < b$ are minimal primes in that base. Such primes\nare obviously finite, but so are those minimal primes $p > b$, per\nMichel Lothaire\u2019s findings. In binary, there are only exactly two\nminimal primes: 2 and 3, written 10 and 11 respectively. Every larger\nprime will have 1 as its most significant digit and possibly a 0\nsomewhere; the 1 and 0 can then be brought together to form 10 (2 in\ndecimal). The exception to this are the Mersenne primes $2^q - 1$ (or\nbinary repunits), but it is even more elegant to prove these are not\nminimal primes in binary: they contain all smaller Mersenne primes as\nsubstrings!\n\n[1]{} M. Lothaire \u201cCombinatorics on words\u201d in [*Encylopedia of\nmathematics and its applications*]{} [**17**]{} New York: Addison-Wesley\n(1983): 238 - 247",
+  "language": "INFORMAL",
+  "phrase": "Minimal Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinimalPrime"
+    }
+  ],
+  "indexable": true
+}

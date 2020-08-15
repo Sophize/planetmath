@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "We can define an *iterated forcing* of length $\\alpha$ by induction as\nfollows:\n\nLet $P_0=\\emptyset$.\n\nLet $\\hat{Q}_0$ be a forcing notion.\n\nFor $\\beta\\leq\\alpha$, $P_\\beta$ is the set of all functions $f$ such\nthat $\\operatorname{dom}(f)\\subseteq\\beta$ and for any\n$i\\in\\operatorname{dom}(f)$, $f(i)$ is a $P_i$-name for a member of\n$\\hat{Q}_i$. Order $P_\\beta$ by the rule $f\\leq g$ iff\n$\\operatorname{dom}(g)\\subseteq\\operatorname{dom}(f)$ and for any\n$i\\in\\operatorname{dom}(f)$,\n$g\\upharpoonright i\\Vdash f(i)\\leq_{\\hat{Q}_i}g(i)$. (Translated, this\nmeans that any generic subset including $g$ restricted to $i$ forces\nthat $f(i)$, an element of $\\hat{Q}_i$, be less than $g(i)$.)\n\nFor $\\beta<\\alpha$, $\\hat{Q}_\\beta$ is a forcing notion in $P_\\beta$ (so\n$\\Vdash_{P_\\beta} \\hat{Q}_\\beta$` is a forcing notion`).\n\nThen the sequence $\\langle \\hat{Q}_\\beta\\rangle_{\\beta<\\alpha}$ is an\niterated forcing.\n\nIf $P_\\beta$ is restricted to finite functions that it is called a\n*finite support iterated forcing* (FS), if $P_\\beta$ is restricted to\ncountable functions, it is called a *countable support iterated\nfunction* (CS), and in general if each function in each $P_\\beta$ has\nsize less than $\\kappa$ then it is a *$<\\kappa$-support iterated\nforcing*.\n\nTypically we construct the sequence of $\\hat{Q}_\\beta$\u2019s by induction,\nusing a function $F$ such that\n$F(\\langle \\hat{Q}_\\beta\\rangle_{\\beta<\\gamma})=\\hat{Q}_\\gamma$.",
+  "language": "INFORMAL",
+  "phrase": "Iterated Forcing",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IteratedForcing"
+    }
+  ],
+  "indexable": true
+}

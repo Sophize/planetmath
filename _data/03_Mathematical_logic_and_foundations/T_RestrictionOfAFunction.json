@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "restriction"
+  ],
+  "definition": "Definition {#definition .unnumbered}\n==========\n\nLet $f\\colon X\\to Y$ be a function from a set $X$ to a set $Y$. If $A$\nis a subset of $X$, then the *restriction of $f$ to $A$* is the function\n$$\\begin{aligned}\nf|_A\\colon A&\\to& Y \\\\\n      x&\\mapsto& f(x).\\end{aligned}$$ Some authors write\n$f\\upharpoonright A$ instead of $f|_A$.\n\nProperties {#properties .unnumbered}\n==========\n\nIf $A\\subseteq X$, and $B\\subseteq Y$, then $$\\begin{aligned}\n (f|_A)^{-1}(B)&=&A\\cap f^{-1}(B).\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Restriction Of A Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RestrictionOfAFunction"
+    }
+  ],
+  "indexable": true
+}

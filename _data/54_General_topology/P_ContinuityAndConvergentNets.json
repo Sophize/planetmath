@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ and $Y$ be topological spaces. A function $f:X\\rightarrow Y$ is\ncontinuous at a point $x\\in X$ if and only if for each net\n$(x_\\alpha)_{\\alpha\\in A}$ in $X$ converging to $x$, the net\n$(f(x_\\alpha))_{\\alpha\\in A}$ converges to $f(x)$.\n\nIf $f$ is continuous, $(x_\\alpha)_{\\alpha\\in A}$ converges to $x$, and\n$V$ is an open neighborhood of $f(x)$ in $Y$, then $f^{-1}(V)$ is an\nopen neighborhood of $x$ in $X$, so there exists $\\alpha_0\\in A$ such\nthat $x_\\alpha\\in f^{-1}(V)$ for $\\alpha\\geq\\alpha_0$. It follows that\n$f(x_\\alpha)\\in V$ for $\\alpha\\geq\\alpha_0$, hence that\n$f(x_\\alpha)\\rightarrow f(x)$. Conversely, suppose there exists a net\n$(x_\\alpha)_{\\alpha\\in A}$ in $X$ converging to $x$ such that\n$(f(x_\\alpha))_{\\alpha\\in A}$ does not converge to $f(x)$, so that, for\nsome open subset $V$ of $Y$ containing $f(x)$ and every $\\alpha_0\\in A$,\nthere exists $\\alpha\\geq\\alpha_0\\in A$ such that\n$f(x_{\\alpha})\\notin V$, hence such that $x_\\alpha\\notin f^{-1}(V)$; as\n$x_\\alpha\\rightarrow x$ by hypothesis, this implies that $f^{-1}(V)$\ncannot be a neighborhood of $x$, and thus that $f$ fails to be\ncontinuous at $x$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuityAndConvergentNets"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "continuity and convergent nets"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following results are used to show the existence of a solution to\npolynomial equations over local fields. Notice the similarities with\nNewton\u2019s method.\n\nLet $K$ be a , complete with respect to a valuation $|\\cdot|$. Let\n$\\mathcal{O}_K$ be the ring of integers in $K$ (i.e. the set of elements\nof $K$ with $|k| \\leq 1$). Let $f(x)$ be a polynomial with coefficients\nin $\\mathcal{O}_K$ and suppose there exist $\\alpha_0\\in \\mathcal{O}_K$\nsuch that $$|f(\\alpha_0)| < |f'(\\alpha_0)^2|.$$ Then there exist a root\n$\\alpha\\in K$ of $f(x)$. Moreover, the sequence:\n$$\\alpha_{i+1}=\\alpha_i-\\frac{f(\\alpha_i)}{f'(\\alpha_i)}$$ converges to\n$\\alpha$. Furthermore:\n$$|\\alpha-\\alpha_0|\\leq \\left|\\frac{f(\\alpha_i)}{f'(\\alpha_i)}\\right| < 1.$$\n\nLet $K$ be a number field and let ${\\mathfrak{p}}$ be a prime ideal in\nthe ring of integers $\\mathcal{O}_K$. Let $K_{{\\mathfrak{p}}}$ be the\ncompletion of $K$ at the finite place ${\\mathfrak{p}}$ and let\n$\\mathcal{O}_{{\\mathfrak{p}}}$ be the ring of integers in\n$K_{{\\mathfrak{p}}}$. Let $f(x)$ be a polynomial with coefficients in\n$\\mathcal{O}_{{\\mathfrak{p}}}$ and suppose there exist\n$\\alpha_0\\in \\mathcal{O}_{{\\mathfrak{p}}}$ such that\n$$f(\\alpha_0)\\equiv 0 \\mod {\\mathfrak{p}},\\quad  f'(\\alpha_0)\\neq 0 \\mod {\\mathfrak{p}}.$$\nThen there exist a root $\\alpha\\in K_{\\mathfrak{p}}$ of $f(x)$, i.e.\n$f(\\alpha)=0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HenselsLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hensel's lemma"
+  ]
+}

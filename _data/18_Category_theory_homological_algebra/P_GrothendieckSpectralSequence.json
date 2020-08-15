@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $F :\\mathcal{C}\\to\\mathcal{D}$ and $G :\\mathcal{D}\\to\\mathcal{E}$ are\ntwo covariant left exact functors between abelian categories, and if $F$\ntakes injective objects of $\\mathcal{C}$ to $G$-acyclic objects of\n$\\mathcal{D}$ then there is a spectral sequence for each object $A$ of\n$\\mathcal{C}$:\n\n$E_2^{pq} = ({\\rm R}^p G \\circ{\\rm R}^q F)(A) \\implies {\\rm R}^{p+q} (G\\circ F)(A)$\n\nIf $X$ and $Y$ are topological spaces and $\\mathcal{C} = {\\bf Ab}(X)$ is\nthe category of sheaves of abelian groups on $X$ and\n$\\mathcal{D} = {\\bf Ab}(Y)$ and $\\mathcal{E} = {\\bf Ab}$ is the category\nof abelian groups, then for a continuous map $f : X \\to Y$ we have a\nfunctor $f_* : {\\bf Ab}(X) \\to {\\bf Ab}(Y)$, the direct image functor.\nWe also have the global section functors\n$\\Gamma_X : {\\bf Ab}(X)\\to {\\bf Ab}$, and\n$\\Gamma_Y : {\\bf Ab}(Y) \\to {\\bf Ab}$. Then since\n$\\Gamma_Y \\circ f_* = \\Gamma_X$ and we can verify the hypothesis\n(injectives are flasque, direct images of flasque sheaves are flasque,\nand flasque sheaves are acyclic for the global section functor), the\nsequence in this case becomes:\n\n$H^p(Y,{\\rm R}^q f_*\\mathcal{F})\\implies H^{p+q}(X,\\mathcal{F})$\n\nfor a sheaf $\\mathcal{F}$ of abelian groups on $X$, exactly the Leray\nspectral sequence.\n\nI can recommend no better book than Weibel\u2019s book on homological\nalgebra. Sheaf theory can be found in Hartshorne or in Godement\u2019s book.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GrothendieckSpectralSequence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Grothendieck spectral sequence"
+  ]
+}

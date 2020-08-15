@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A non-negative-valued random variable $X$ is *memoryless* if\n$P(X>s+t\\mid X>s)=P(X>t)$ for $s,t\\ge0$.\n\nIn words, given that a certain event did not occur during time period\n$s$ *in the past*, the chance that an event will occur after an\nadditional time period $t$ *in the future* is the same as the chance\nthat the event would occur after a time period $t$ from the beginning,\nregardless of how long or how short the time period $s$ is; the memory\nis *erased*.\n\nFrom the definition, we see that\n$$P(X>t)=P(X>s+t\\mid X>s)=\\frac{P(X>s+t\\mbox{ and }X>s)}{P(X>s)}=\\frac{P(X>s+t)}{P(X>s)},$$\nso $P(X>s+t)=P(X>s)P(X>t)$ iff $X$ is memoryless.\n\nAn example of a discrete memoryless random variable is the geometric\nrandom variable, since\n$P(X>s+t)=(1-p)^{s+t}=(1-p)^s(1-p)^t=P(X>s)P(X>t)$, where $p$ is the\nprobability of $X$=success. The exponential random variable is an\nexample of a continuous memoryless random variable, which can be proved\nsimilarly with $1-p$ replaced by $e^{-\\lambda}$. In fact, the\nexponential random variable is the only continuous random variable\nhaving the memoryless property.",
+  "language": "INFORMAL",
+  "phrase": "Memoryless Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MemorylessRandomVariable"
+    }
+  ],
+  "indexable": true
+}

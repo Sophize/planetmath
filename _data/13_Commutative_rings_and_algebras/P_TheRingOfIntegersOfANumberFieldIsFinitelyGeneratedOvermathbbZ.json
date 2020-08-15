@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K$ be a number field of degree $n$ over ${\\mathbb{Q}}$ and let\n$\\mathcal{O}_K$ be the ring of integers of $K$. The ring $\\mathcal{O}_K$\nis a free abelian group of rank $n$. In other words, there exists a\nfinite integral basis (with $n$ elements) for $K$, i.e. there exist\nalgebraic integers $\\alpha_1,\\ldots,\\ \\alpha_n$ such that every element\nof $\\mathcal{O}_K$ can be expressed uniquely as a ${\\mathbb{Z}}$-linear\ncombination of the $\\alpha_i$.\n\nEvery ideal of $\\mathcal{O}_K$ is finitely generated.\n\nBy the theorem, $\\mathcal{O}_K$ is a free abelian group of rank $n$, and\ntherefore it is finitely generated. Notice that an ideal is an additive\nsubgroup. Finally a subgroup of a finitely generated free abelian group\nis also finitely generated.\n\nThis is the first step to prove that $\\mathcal{O}_K$ is a Dedekind\ndomain. Notice that the field of fractions of $\\mathcal{O}_K$ is the\nfield $K$ itself. Therefore, by definition, $\\mathcal{O}_K$ is\nintegrally closed in $K$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheRingOfIntegersOfANumberFieldIsFinitelyGeneratedOvermathbbZ"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the ring of integers of a number field is finitely generated over $\\mathbb{Z}$"
+  ]
+}

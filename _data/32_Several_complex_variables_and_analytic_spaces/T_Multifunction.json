@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "m-function"
+  ],
+  "definition": "It is common practice among complex analysts to speak of [*multiple\nvalued functions*]{} in contexts of \u201cfunctions\u201d such as $\\sqrt{z}.$ This\nsomewhat informal notion can be made very precise when the \u201cfunction\u201d\nhas finitely many values (as the $\\sqrt{z}$ does).\n\nLet $X$ and $Y$ be sets and denote by $Y^m_{sym}$ the $m^{\\text{th}}$\nsymmetric power of $Y.$\n\nA function $f \\colon X \\to Y^m_{sym}$ is called a [*multifunction*]{},\nor an $m$-function from $X$ to $Y$, where $m$ is the multiplicity.\n\nWe can think of the value of $f$ at any point as a set of $m$ (or fewer)\nelements. Let $Y$ be a topological space (resp. ${\\mathbb{C}}$) A\nmultifunction is said to be continuous (resp. holomorphic) if all the\nelementary symmetric polynomials of the elements of $f$ are continuous\n(resp. holomorphic). Equivalently, $f$ is continuous (resp. holomorphic)\nif it is continuous (resp. holomorphic) as functions to\n$Y^m_{sym} \\cong Y^m$ (resp.\n${\\mathbb{C}}^m_{sym} \\cong {\\mathbb{C}}^m$).\n\nWith this definition $\\sqrt{z}$ is a holomorphic multifunction (or a\n2-function), into ${\\mathbb{C}}^2_{sym} .$\n\nDefine the [*multigraph*]{} of $f$ to be the set:\n$$\\{ (x,y) \\mid X \\times Y \\mid y \\in f(x) \\} .$$\n\nThe multigraph of $\\sqrt{z}$ is the corresponding Riemann surface\nimbedded in ${\\mathbb{C}}^2.$ In general, with the aid of the\nWeierstrass preparation theorem we can realize any codimension 1\nanalytic set in ${\\mathbb{C}}^n$ as a multigraph over\n${\\mathbb{C}}^{n-1} .$ The roots of any Weierstrass polynomial (or in\ngeneral of any monic polynomial with holomorphic coefficients) are a\nholomorphic multifunction.\n\n[9]{} Hassler Whitney. [**]{}. Addison-Wesley, Philippines, 1972.",
+  "language": "INFORMAL",
+  "phrase": "Multifunction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Multifunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The second definition of a [*practical number*]{} is: a positive integer\n$n$ such that each smaller integer $m$ can be represented as a sum of\ndistinct proper divisors $d_i$ of $n$ (for $1 < i < \\tau(n)$, with\n$\\tau(n)$ being the divisor function; 1 is not considered a proper\ndivisor for this application). The first few are 6, 12, 18, 20, 24, 28,\n30, 36, 40, 42, 48, 54, 56, 60, 66, 72, 78, 80, 84, 88, 90, 96, 100,\netc., listed in A007620 of Sloane\u2019s OEIS.\n\nFor example, 12 is practical. It has for divisors 1, 2, 3, 4, 6 and 12,\nbut only 2, 3, 4 and 6 are considered proper divisors here. The sum can\nconsist of a single summand, so we need only concern ourselves with\nnumbers less than 12 that are not divisors of 12. We verify that indeed\n2 + 3 = 5, 3 + 4 = 7, 2 + 6 = 8, 3 + 6 = 9, 4 + 6 = 10 and 2 + 3 + 6 =\n11.\n\nUnder this definition, the powers of 2 are not practical numbers.\nRepresenting odd numbers smaller than a power of 2 requires using 1 in\nthe sums of divisors.",
+  "language": "INFORMAL",
+  "phrase": "Practical Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PracticalNumber1"
+    }
+  ],
+  "indexable": true
+}

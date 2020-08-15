@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For $p$ a prime, $n$ a nonzero integer, define $\\operatorname{ord}_p(n)$\nto be the largest integer $r$ such that $p^r\\mid n$.\n\nAn easy consequence of Kummer\u2019s theorem is:\n\nLet $p$ be a prime, $n\\geq 1$ an integer. If $1\\leq rp^s\\leq p^n$ where\n$r,s$ are nonnegative integers with $p\\nmid r$, then\n$\\operatorname{ord}_p\\binom{p^n}{rp^s} = n-s$.\n\nThe result is clearly true for $r=1, s=n$, so assume that $s<n$. By\nKummer\u2019s theorem, $\\operatorname{ord}_p\\binom{p^n}{rp^s}$ is the number\nof carries when adding $rp^s$ to $p^n-rp^s$ in base $p$. Consider the\nbase $p$ representations of $rp^s$ and $p^n-rp^s$. They each have $n$\ndigits (possibly with leading zeros) when represented in base $p$, and\nthey each have $s$ trailing zeros. If the rightmost nonzero digit in\n$rp^s$ is $k$, then the rightmost nonzero digit in $p^n-rp^s$ is in the\nsame \u201cdecimal\u201d place and has value $p-k$. Each pair of corresponding\ndigits (one from $rp^s$ and one from $p^n-rp^s$) to the left of that\npoint sum to $p-1$ (it may help to think about how you subtract a\ndecimal number from a power of $10$, and what the result looks like).\n\nIt is then clear that adding those two numbers together will result in\nno carries in the rightmost $s$ places, but there will be a carry out of\nthe $s+1^{\\mathrm{st}}$ place and out of each successive place up to and\nincluding the $n^{\\mathrm{th}}$ place, for a total of $n-s$ carries.\n\nA couple of examples may help to make this proof more transparent. Take\n$p=3$. Then $$\\dbinom{27}{4} = 17550 = 2\\cdot 3^3 \\cdot 5^2\\cdot 13$$ so\nthat $\\operatorname{ord}_3 \\binom{27}{4}=3$. Now, $27_{10}=1000_3$ and\n$4_{10}=11_3$, so that $27-4=23_{10}$ is $212_3$. Adding $212_3+11_3$\nindeed results in carries out of all three places since there are no\ntrailing zeros.\n$$\\dbinom{27}{6} = 296010 = 2\\cdot 3^2\\cdot 5\\cdot 11\\cdot 13\\cdot 23$$\nso that $\\operatorname{ord}_3 \\binom{27}{6}=2$. Now, $6_{10}=20_3$ so\nthat $27-6=21_{10}$ is $210_3$. When adding $20_3+210_3$ , there are two\ncarries, out of the $3$\u2019s place and out of the $9$\u2019s place. There is no\ncarry out of the ones place since both numbers have a $0$ there.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DivisibilityOfPrimepowerBinomialCoefficients"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "divisibility of prime-power binomial coefficients"
+  ]
+}

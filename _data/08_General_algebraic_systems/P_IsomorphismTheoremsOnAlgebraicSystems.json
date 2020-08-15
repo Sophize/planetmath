@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry, all algebraic systems are of the same type; they are all\n$O$-algebras. We list the generalizations of three famous isomorphism\ntheorems, familiar to those who have studied abstract algebra in\ncollege.\n\nIf $f:A\\to B$ is a homomorphism from algebras $A$ and $B$. Then\n$$A/\\ker(f)\\cong f(A).$$\n\nIf $B\\subseteq A$ are algebras and $\\mathfrak{C}$ is a on $A$, then\n$$B/\\mathfrak{C}_B\\cong B^{\\mathfrak{C}}/\\mathfrak{C},$$ where\n$\\mathfrak{C}_B$ is the congruence restricted to $B$, and\n$B^{\\mathfrak{C}}$ is the extension of $B$ by $\\mathfrak{C}$.\n\nIf $A$ is an algebra and $\\mathfrak{C}\\subseteq \\mathfrak{D}$ are\ncongruences on $A$. Then\n\n1.  there is a unique homomorphism $f:A/\\mathfrak{C}\\to A/\\mathfrak{D}$\n    such that $$\\xymatrix{\n    & A \\ar[dl]_{[\\cdot]_{\\mathfrak{C}}} \\ar[dr]^{[\\cdot]_{\\mathfrak{D}}} & \\\\\n    A/\\mathfrak{C} \\ar[rr]^f && A/\\mathfrak{D}\n    }$$ where the downward pointing arrows are the natural projections\n    of $A$ onto the quotient algebras (induced by the respective\n    congruences).\n\n2.  Furthermore, if $ker(f)=\\mathfrak{D}/\\mathfrak{C}$, then\n\n    -   $\\mathfrak{D}/\\mathfrak{C}$ is a congruence on $A/\\mathfrak{C}$,\n        and\n\n    -   there is a unique isomorphism\n        $f':A/\\mathfrak{C} \\to (A/\\mathfrak{C})/(\\mathfrak{D}/\\mathfrak{C})$\n        satisfying the equation\n        $f=[\\cdot]_{\\mathfrak{D}/\\mathfrak{C}}\\circ f'$. In other words,\n        $$(A/\\mathfrak{C})/(\\mathfrak{D}/\\mathfrak{C})\\cong A/\\mathfrak{D}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IsomorphismTheoremsOnAlgebraicSystems"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "isomorphism theorems on algebraic systems"
+  ]
+}

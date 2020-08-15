@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $p$ be a prime number of the form $4k+1$ . Then there are two unique\nintegers $a$ and $b$ with $0<a<b$ such that $p=a^2+b^2$. Additionally,\nif a number $p$ can be written in as the sum of two squares in 2\ndifferent ways (i.e. $p=a^2+b^2$ and $p=c^2+d^2$ with the two sums being\ndifferent), then the number $p$ is composite.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThuesLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Thue's lemma"
+  ]
+}

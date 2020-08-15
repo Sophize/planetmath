@@ -1,0 +1,17 @@
+{
+  "argumentText": "Define $g(z)=f(z)/z$. Then $g:\\Delta\\to{\\mathbb{C}}$ is a holomorphic\nfunction. The Schwarz lemma is just an application of the maximal\nmodulus principle to $g$.\n\nFor any $1>\\epsilon>0$, by the maximal modulus principle\n${\\left|g\\right|}$ must attain its maximum on the closed disk\n$\\left\\{z:{\\left|z\\right|}\\le 1-\\epsilon\\right\\}$ at its boundary\n$\\left\\{z:{\\left|z\\right|}=1-\\epsilon\\right\\}$, say at some point\n$z_{\\epsilon}$. But then\n${\\left|g(z)\\right|}\\le {\\left|g(z_{\\epsilon})\\right|} \\le \\frac{1}{1-\\epsilon}$\nfor any ${\\left|z\\right|}\\le 1-\\epsilon$. Taking an infinimum as\n$\\epsilon\\to0$, we see that values of $g$ are bounded:\n${\\left|g(z)\\right|}\\le 1$.\n\nThus ${\\left|f(z)\\right|}\\le{\\left|z\\right|}$. Additionally,\n$f'(0)=g(0)$, so we see that\n${\\left|f'(0)\\right|}={\\left|g(0)\\right|}\\le 1$. This is the first part\nof the lemma.\n\nNow suppose, as per the premise of the second part of the lemma, that\n$|g(w)|=1$ for some $w\\in\\Delta$. For any $r>{\\left|w\\right|}$, it must\nbe that ${\\left|g\\right|}$ attains its maximal modulus (1) *inside* the\ndisk $\\left\\{z:{\\left|z\\right|}\\le r\\right\\}$, and it follows that $g$\nmust be constant inside the entire open disk $\\Delta$. So $g(z)\\equiv a$\nfor $a=g(w)$ of modulus 1, and $f(z)=az$, as required.",
+  "conclusion": "#P_SchwarzLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfSchwarzLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Schwarz lemma"
+  ]
+}

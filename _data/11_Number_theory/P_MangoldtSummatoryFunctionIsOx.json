@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "$\\psi(x)=O(x)$, in other , $\\frac{\\psi(x)}{x}$ is bounded.\n\n**Proof.** $$\\psi(x)=\\sum_1^x \\Lambda(n)=\n\\sum_{\\substack{p\\text{ prime}\\\\p\\leq x}}\\lfloor \\log_p x\\rfloor \\ln p=\n\\sum_{\\substack{p\\text{ prime}\\\\p\\leq x}}\\left\\lfloor\\frac{\\ln x}{\\ln p}\\right\\rfloor\\ln p=\n\\sum_{\\substack{p\\text{ prime}\\\\p\\leq \\sqrt{x}}}\\left\\lfloor\\frac{\\ln x}{\\ln p}\\right\\rfloor\\ln p +\n   \\sum_{\\substack{p\\text{ prime}\\\\\\sqrt{x}<p\\leq x}}\\ln p$$ since\n$1\\leq \\frac{\\ln x}{\\ln p}<2$ if $p>\\sqrt{x}$. Continuing, we have\n$$\\sum_{\\substack{p\\text{ prime}\\\\p\\leq \\sqrt{x}}}\\left\\lfloor\\frac{\\ln x}{\\ln p}\\right\\rfloor\\ln p +\n   \\sum_{\\substack{p\\text{ prime}\\\\\\sqrt{x}<p\\leq x}}\\ln p \\leq\n\\sqrt{x}\\ln x+\\pi(x)\\ln x\\leq\\sqrt{x}\\ln x+8x\\ln 2=O(x)$$ Note that\n$\\pi(x)\\ln x\\leq 8x\\ln 2$ by Chebyshev\u2019s .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MangoldtSummatoryFunctionIsOx"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Mangoldt summatory function is $O(x)$"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathfrak{a}$ be an ideal of the von Neumann regular ring $R$. Then\n$\\mathfrak{a}$ itself is a von Neumann regular ring and any ideal\n$\\mathfrak{b}$ of $\\mathfrak{a}$ is likewise an ideal of $R$.\n\nIf $a\\in \\mathfrak{a}$, then $asa = a$ for some $s\\in R$. Setting\n$t = sas$ we see that $t$ belongs to the ideal $\\mathfrak{a}$ and\n$$ata = a(sas)a = (asa)sa = asa = a.$$ Secondly, we have to show that\nwhenever $b\\in\\mathfrak{b} \\subseteq \\mathfrak{a}$ and $r\\in R$, then\nboth $br$ and $rb$ lie in $\\mathfrak{b}$. Now, $br\\in \\mathfrak{a}$\nbecause $\\mathfrak{a}$ is an ideal of $R$. Thus there is an element $x$\nin $\\mathfrak{a}$ satisfying $brxbr = br$. Since $rxbr$ belongs to\n$\\mathfrak{a}$ and $\\mathfrak{b}$ is assumed to be an ideal of\n$\\mathfrak{a}$, we conclude that the product $b\\cdot rxbr$ must lie in\n$\\mathfrak{b}$, i.e. $br\\in\\mathfrak{b}$. Similarly it can be shown that\n$rb\\in\\mathfrak{b}$.\n\n[9]{} David M. Burton: [*A first course in rings and ideals*]{}.\nAddison-Wesley. Reading, Massachusetts (1970).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NestedIdealsInVonNeumannRegularRing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "nested ideals in von Neumann regular ring"
+  ]
+}

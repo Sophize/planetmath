@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a topological space and $Y\\subset X$ any subset. The subspace\ntopology on $Y$ is the weakest topology making the inclusion map\ncontinuous.\n\nLet $\\mathcal{S}$ denote the subspace topology on $Y$ and\n$j\\colon Y\\hookrightarrow X$ denote the inclusion map.\n\nSuppose $\\{\\mathcal{T}_{\\alpha}\\mid\\alpha\\in J\\}$ is a family of\ntopologies on $Y$ such that each inclusion map\n$j_{\\alpha}\\colon(Y,\\mathcal{T}_{\\alpha})\\hookrightarrow X$ is\ncontinuous. Let $\\mathcal{T}$ be the intersection\n$\\bigcap_{\\alpha\\in J}\\mathcal{T}_{\\alpha}$. Observe that $\\mathcal{T}$\nis also a topology on $Y$. Let $U$ be open in $X$. By continuity of\n$j_{\\alpha}$, the set $j_{\\alpha}^{-1}(U)=j^{-1}(U)$ is open in each\n$\\mathcal{T}_{\\alpha}$; consequently, $j^{-1}(U)$ is also in\n$\\mathcal{T}$. This shows that there is a weakest topology on $Y$ making\ninclusion continuous.\n\nWe claim that any topology strictly weaker than $\\mathcal{S}$ fails to\nmake the inclusion map continuous. To see this, suppose\n$\\mathcal{S}_0\\subsetneq\\mathcal{S}$ is a topology on $Y$. Let $V$ be a\nset open in $\\mathcal{S}$ but not in $\\mathcal{S}_0$. By the definition\nof subspace topology, $V=U\\cap Y$ for some open set $U$ in $X$. But\n$j^{-1}(U)=V$, which was specifically chosen not to be in\n$\\mathcal{S_0}$. Hence $\\mathcal{S_0}$ does not make the inclusion map\ncontinuous. This completes the proof.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacterizationOfSubspaceTopology"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "characterization of subspace topology"
+  ]
+}

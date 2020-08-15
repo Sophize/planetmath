@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A $k$-partite graph is a graph with a chromatic number of $k$.\n\nAn alternate definition of a $k$-partite graph is a graph where the\nvertices are partitioned into $k$ subsets with the following conditions:\n\n1.  No two vertices in the same subset are adjacent.\n\n2.  There is no partition of the vertices with fewer than $k$ subsets\n    where condition 1 holds.\n\nThese two definitions are equivalent. Informally, we see that a colour\ncan be assigned to all the vertices in each subset, since they are not\nadjacent to one another. Furthermore, this is also an optimal colouring,\nsince the second condition holds.\n\nAn example of a 4-partite graph:\n\n\\*!C\n\nA $2$-partite graph is also called a bipartite graph.",
+  "language": "INFORMAL",
+  "phrase": "K-Partite Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KpartiteGraph"
+    }
+  ],
+  "indexable": true
+}

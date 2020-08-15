@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X_1,\\ldots,X_n$ be iid as $X$ with (unknown) distribution function\n$F$. Let $\\omega$ be the outcome and $F_n(x,\\omega)$ be the empirical\ndistribution function based on observations\n$X_1(\\omega),\\ldots,X_n(\\omega)$. Then, as $n\\rightarrow\\infty$,\n$$\\sup_{-\\infty<x<\\infty}|F_n(x,\\omega)-F(x)|\\rightarrow 0\\mbox{ a.s.},$$\nwhere a.s. means almost surely.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GlivenkoCantelliLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Glivenko-Cantelli lemma"
+  ]
+}

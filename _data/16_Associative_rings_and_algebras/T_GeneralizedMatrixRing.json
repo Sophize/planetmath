@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $I$ be an indexing set. A [*ring of $I \\times I$ generalized\nmatrices*]{} is a ring $R$ with a decompostion (as an additive group)\n$$R = \\bigoplus_{i,j \\in I} R_{ij},$$ such that\n$R_{ij} R_{kl} \\subseteq R_{il}$ if $j = k$ and $R_{ij} R_{kl} = 0$ if\n$j \\neq k$.\n\nIf $I$ is finite, then we usually replace it by its cardinal $n$ and\nspeak of a ring of $n \\times n$ generalized matrices with components\n$R_{ij}$ for $i \\le i,j \\le n$.\n\nIf we arrange the components $R_{ij}$ as follows:\n\n$$\\begin{pmatrix}\n    R_{11} & R_{12} & \\dots & R_{1n} \\\\\n    R_{21} & R_{22} & \\dots & R_{2n} \\\\\n    \\vdots & \\vdots & \\ddots & \\vdots \\\\\n    R_{n1} & R_{n2} & \\dots & R_{nn}\n  \\end{pmatrix}$$\n\nand we write elements of $R$ in the same fashion, then the\nmultiplication in $R$ follows the same pattern as ordinary matrix\nmultiplication.\n\nNote that $R_{ij}$ is an $R_{ii}$-$R_{jj}$-bimodule, and the\nmultiplication of elements induces homomorphisms\n$R_{ij} \\otimes_{R_{jj}} R_{jk} \\to R_{ik}$ for all $i, j, k$.\n\nConversely, given a collection of rings $R_i$, and for each $i \\neq j$\nan $R_i$-$R_j$-bimodule $R_{ij}$, and for each $i, j,  k$ with\n$i \\neq j$ and $j \\neq k$ a homomorphism\n$R_{ij} \\otimes_{R_{j}} R_{jk} \\to R_{ik}$, we can construct a\ngeneralized matrix ring structure on $$R = \\bigoplus_{i,j} R_{ij},$$\nwhere we take $R_{ii} = R_i$.",
+  "language": "INFORMAL",
+  "phrase": "Generalized Matrix Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedMatrixRing"
+    }
+  ],
+  "indexable": true
+}

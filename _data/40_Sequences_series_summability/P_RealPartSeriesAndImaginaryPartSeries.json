@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem 1.** Given the series $$\\begin{aligned}\n      z_1+z_2+z_3+\\ldots\\end{aligned}$$ with the real parts of its terms\n$\\Re{z_n} = a_n$ and the imaginary parts of its terms $\\Im{z_n} = b_n$\n($n = 1,\\,2,\\,3,\\,\\ldots$). If the series (1) converges and its sum is\n$A+iB$, where $A$ and $B$ are real, then also the series\n$$a_1+a_2+a_3+\\ldots\\;\\;\\;\\mbox{and}\\;\\;\\;b_1+b_2+b_3+\\ldots$$ converge\nand their sums are $A$ and $B$, respectively. The converse is valid as\nwell.\\\n[*Proof.*]{} Let $\\varepsilon$ be an arbitrary positive number. Denote\nthe partial sum of (1) by\n$$S_n = z_1+\\ldots+z_n = (a_1+ib_1)+\\ldots+(a_n+ib_n) = (a_1+\\ldots+a_n)+i(b_1+\\ldots+b_n) := A_n+iB_n$$\n($n = 1,\\,2,\\,3,\\,\\ldots$). When (1) converges to the sum $A+iB$, then\nthere is a number $n_\\varepsilon$ such that for any integer\n$n > n_\\varepsilon$ we have\n$$|(A_n-A)+i(B_n-B)| = |(A_n+iB_n)-(A+iB)| < \\varepsilon.$$ But a\ncomplex number is always absolutely at least equal to the real part (see\nthe inequalities in modulus of complex number), and therefore\n$|A_n-A| \\leqq |(A_n-A)+i(B_n-B)| < \\varepsilon$, similarly\n$|B_n-B| \\leqq |(A_n-A)+i(B_n-B)| < \\varepsilon$ as soon as\n$n > n_\\varepsilon$. Hence, $A_n \\to A$ and $B_n \\to B$ as\n$n \\to \\infty$. This means the convergences\n$$a_1+a_2+a_3+\\ldots = A\\;\\;\\;\\mbox{and}\\;\\;\\;b_1+b_2+b_3+\\ldots = B,$$\nQ.E.D. The converse part is straightforward.\\\n**Theorem 2.** Notations same as in the preceding theorem. The series\n$$|z_1|+|z_2|+|z_3|+\\ldots$$ converges if and only if the series\n$$a_1+a_2+a_3+\\ldots\\;\\;\\;\\mbox{and}\\;\\;\\;b_1+b_2+b_3+\\ldots$$ .\\\n[*Proof.*]{} Use the inequalities\n$$0 \\leqq |a_n| \\leqq |z_n|,\\quad 0 \\leqq |b_n| \\leqq |z_n|$$ and\n$$0 \\leqq |z_n| \\leqq |a_n|+|b_n|$$ for using the comparison test.\\\n**Theorem 3.** If the series $\\displaystyle\\sum_{n=1}^\\infty|z_n|$\nconverges, then also the series $\\displaystyle\\sum_{n=1}^\\infty z_n$\nconverges and we have\n$$\\left|\\sum_{n=1}^\\infty z_n\\right| \\leqq \\sum_{n=1}^\\infty|z_n|.$$\n\n[*Proof.*]{} By theorem 2, the convergence of $\\sum|z_n|$ implies the\nconvergence of $\\sum a_n$ and $\\sum b_n$, which, by theorem 1, in turn\nimply the convergence of $\\sum z_n$ . Since for every $n$ the triangle\ninequality guarantees the inequality\n$$\\left|\\sum_{j=1}^n z_j\\right| \\leqq \\sum_{j=1}^n|z_j|,$$ then we must\nhave the asserted limit inequality, too.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RealPartSeriesAndImaginaryPartSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "real part series and imaginary part series"
+  ]
+}

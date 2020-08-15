@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(\\mathcal{C},U)$ be concrete category over $\\mathcal{SET}$ and let\n$\\alpha:X\\to Y$ be a morphism in $\\mathcal{C}$.\n\n**Definition.** Morphism $\\alpha$ is called *injective* (resp.\n*surjective*) if $U(\\alpha)$ is an injection (resp. surjection).\n\nSome properties of injective and surjective morphisms:\n\n**Proposition.** Assume that $\\alpha:X\\to Y$ is a morphism in\n$\\mathcal{C}$.\\\n$\\mathrm{i)}$ If $\\alpha$ is injective (resp. surjective), then $\\alpha$\nis a monomorphism (resp. epimorphism);\\\n$\\mathrm{ii)}$ If $\\alpha$ is a section (resp. retraction), then\n$\\alpha$ is injective (resp. surjective).\n\n*Proof.* $\\mathrm{i)}$ Assume that $\\alpha$ is injective and let\n$\\beta_1,\\beta_2:Z\\to X$ be morphisms in $\\mathcal{C}$ such that\n$\\alpha\\circ\\beta_1=\\alpha\\circ\\beta_2$. Then\n$$U(\\alpha\\circ\\beta_1)=U(\\alpha\\circ\\beta_2)$$ and this implies that\n$$U(\\alpha)\\circ U(\\beta_1)=U(\\alpha)\\circ U(\\beta_1).$$ Since\n$U(\\alpha)$ is injective, we obtain that $U(\\beta_1)=U(\\beta_2)$ and\nsince $U$ is faithful, we get that $$\\beta_1=\\beta_2.$$ Analogously we\nprove, that surjective morphism is an epimorphism.\\\n$\\mathrm{ii)}$. Assume that $\\alpha:X\\to Y$ is a section. Then there\nexists $\\beta:Y\\to X$ such that $\\beta\\circ\\alpha=\\mathrm{id}_{X}$. Thus\nwe have $$U(\\beta)\\circ U(\\alpha)=\\mathrm{id}_{U(X)},$$ so $U(\\alpha)$\nis injective. Analogously retractions are surjective. $\\square$",
+  "language": "INFORMAL",
+  "phrase": "Injective And Surjective Morphisms In Concrete Categories",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InjectiveAndSurjectiveMorphismsInConcreteCategories"
+    }
+  ],
+  "indexable": true
+}

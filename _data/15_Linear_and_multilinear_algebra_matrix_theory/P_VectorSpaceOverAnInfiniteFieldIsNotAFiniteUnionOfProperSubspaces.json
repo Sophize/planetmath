@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A vector space $V$ over an infinite field $\\mathbbmss{F}$ cannot be a\nfinite union of proper subspaces of itself.\n\nLet $V = V_{1} \\cup V_{2} \\cup \\ldots \\cup V_{n}$ where each $V_{i}$ is\na proper subspace of $V$ and $n > 1$ is minimal. Because $n$ is minimal,\n$V_{n} \\not\\subset V_{1} \\cup V_{2}\n\\cup \\ldots \\cup V_{n-1}$.\n\nLet $u \\not\\in V_{n}$ and let $v \\in V_{n} \\setminus \\left(V_{1}\n\\cup V_{2} \\cup \\ldots \\cup V_{n-1}\\right)$.\n\nDefine $S = \\left\\{v + tu : t \\in \\mathbbmss{F}\\right\\}$. Since\n$u\\not\\in V_{n}$ is not the zero vector and the field $\\mathbbmss{F}$ is\ninfinite, $S$ must be infinite.\n\nSince $S \\subset V = V_{1} \\cup V_{2} \\cup \\ldots \\cup\nV_{n}$ one of the $V_{i}$ must contain infinitely many vectors in $S$.\n\nHowever, if $V_{n}$ were to contain a vector, other than $v$, from $S$\nthere would exist non-zero $t \\in \\mathbbmss{F}$ such that\n$v + tu \\in V_{n}$. But then $tu = v + tu - v \\in V_{n}$ and we would\nhave $u \\in V_{n}$ contrary to the choice of $u$. Thus $V_{n}$ cannot\ncontain infinitely many elements in $S$.\n\nIf some $V_{i}, 1 \\leq i < n$ contained two distinct vectors in $S$,\nthen there would exist distinct $t_{1}, t_{2} \\in \\mathbbmss{F}$ such\nthat $v + t_{1}u, v + t_{2}u \\in V_{i}$. But then $\\left(t_{2}\n- t_{1}\\right)v = t_{2}\\left(v + t_{1}u\\right) - t_{1}\\left(v +\nt_{2}u\\right) \\in V_{i}$ and we would have $v \\in V_{i}$ contrary to the\nchoice of $v$. Thus for $1 \\leq i < n, V_{i}$ cannot contain infinitely\nmany elements in $S$ either.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VectorSpaceOverAnInfiniteFieldIsNotAFiniteUnionOfProperSubspaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "vector space over an infinite field is not a finite union of proper subspaces"
+  ]
+}

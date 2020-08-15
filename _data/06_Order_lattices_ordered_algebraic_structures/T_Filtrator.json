@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *filtrator* is a pair $(\\mathfrak{A};\\mathfrak{Z})$ consisting of a\nposet $\\mathfrak{A}$ (the *base* of the filtrator) and its subset\n$\\mathfrak{Z}$ (the *core* of the filtrator). The set $\\mathfrak{Z}$ is\nconsidered as a poset with the induced order.\n\nHaving fixed a filtrator and an $a\\in\\mathfrak{A}$, we define:\n\n$$\\operatorname{up} a = \\{ X\\in\\mathfrak{Z} | X \\ge a \\} \\quad \\operatorname{down} a = \\{ X\\in\\mathfrak{Z} | X \\le a \\}.$$\n\nProbably the most important example of a filtrator is a *primary\nfiltrator* that is the pair $(\\mathfrak{F};\\mathfrak{P})$ where\n$\\mathfrak{F}$ is the set of filters on a poset ordered reverse to\nset-theoretic inclusion of filters and $\\mathfrak{P}$ is the set of\nprincipal filters on this poset. For a filter\n$\\mathcal{F}\\in\\mathfrak{F}$ we have $\\operatorname{up}\\mathcal{F}$\nessentially equivalent with the set $\\mathcal{F}$.\n\n[1]{} Victor Porton. International Journal of Pure and Applied\nMathematics, 74(1):55\u2013119, 2012.",
+  "language": "INFORMAL",
+  "phrase": "Filtrator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Filtrator"
+    }
+  ],
+  "indexable": true
+}

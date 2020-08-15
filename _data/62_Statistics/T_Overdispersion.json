@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "When applying the generalized linear model or GLM to the real world, a\nphenomenon called *overdispersion* occurs when the observed variance of\nthe data is larger than the predicted variance. This is particularly\napparent in the case of a Poisson regression model, where\n\npredicted variance = predicted mean,\n\nor the binary logistic regression model, where\n\npredicted variance = predicted mean(1- predicted mean).\n\nA parameter, called the *dispersion parameter*, $\\phi$, is introducted\nto the model to lower this overdispersion effect.\n\nThe GLM, with the inclusion of this dispersion parameter, has the\nfollowing density function:\n$$f_{Y_i}(y_i\\mid\\theta_i)=\\operatorname{exp}[\\frac{y\\theta_i-b(\\theta_i)}{a(\\phi)}+c(y,\\phi)]$$\n\nDispersion parameters for some of the well known distributions from the\nexponential family are listed in the following table:\n\n   distribution          notation              dispersion parameter $\\phi$\n  -------------- ------------------------- -----------------------------------\n                     $N(\\mu,\\sigma^2)$                 $\\sigma^2$\n                      $Poisson(\\mu)$                        1\n                       $Bin(m,\\pi)$           $\\displaystyle{\\frac{1}{m}}$\n                  $Gamma(\\alpha,\\lambda)$   $\\displaystyle{\\frac{1}{\\alpha}}$\n\n[8]{} J. M. Hilbe, [*Negative Binomial Regression*]{}, Cambridge\nUniversity Press, Cambridge (2007). A. Agresti, [*An Introduction to\nCategorical Data Analysis*]{}, Wiley & Sons, New York (1996). P.\nMcCullagh and J. A. Nelder, [*Generalized Linear Models*]{}, Chapman &\nHall/CRC, 2nd ed., London (1989). A. J. Dobson, [*An Introduction to\nGeneralized Linear Models*]{}, Chapman & Hall, 2nd ed. (2001).",
+  "language": "INFORMAL",
+  "phrase": "Overdispersion",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Overdispersion"
+    }
+  ],
+  "indexable": true
+}

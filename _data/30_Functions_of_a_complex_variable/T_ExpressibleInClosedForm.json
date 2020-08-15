@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An expression is , if it can be converted (simplified) into an\nexpression containing only elementary functions, combined by a finite\namount of rational operations and compositions. Thus, such a closed form\nmust not e.g. limit signs, integral signs, sum signs and \u201c\u2026\u201d.\n\nFor example, $$\\int\\!\\!\\frac{dx}{x^4\\!+\\!1},$$ may be expressed in the\nclosed form\n$$\\frac{1}{4\\sqrt{2}}\\ln\\frac{x^2\\!+\\!x\\sqrt{2}\\!+\\!1}{x^2\\!-\\!x\\sqrt{2}\\!+\\!1}+\n\\frac{1}{2\\sqrt{2}}\\arctan\\frac{x\\sqrt{2}}{1\\!-\\!x^2}+C$$ but for\n$$\\int\\!\\!\\frac{dx}{\\sqrt{x^4\\!+\\!1}}\\,dx,$$ there exists no closed\nform.\\\nIn certain contexts, the of the \u201celementary functions\u201d may be enlarged\nby allowing in it some other functions, e.g. the error function.",
+  "language": "INFORMAL",
+  "phrase": "Expressible In Closed Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExpressibleInClosedForm"
+    }
+  ],
+  "indexable": true
+}

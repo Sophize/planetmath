@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space. A *development* for $X$ is a countable\ncollection $F_1, F_2, \\ldots$ of open coverings of $X$ such that for any\nclosed subset $C$ of $X$ and any point $p$ in the complement of $C$,\nthere exists a cover $F_j$ such that no element of $F_j$ which contains\n$p$ intersects $C$. A space with a development is called *developable*.\n\nA development $F_1, F_2,\\ldots$ such that $F_i\\subset F_{i+1}$ for all\n$i$ is called a *nested development*. A theorem from Vickery states that\nevery developable space in fact has a nested development.\n\n[9]{} Steen, Lynn Arthur and Seebach, J. Arthur, *Counterexamples in\nTopology*, Dover Books, 1995.",
+  "language": "INFORMAL",
+  "phrase": "Development",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Development"
+    }
+  ],
+  "indexable": true
+}

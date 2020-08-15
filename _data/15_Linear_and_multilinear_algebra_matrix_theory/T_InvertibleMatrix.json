@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring and $M$ an $m\\times n$ matrix over $R$. $M$ is said to\nbe *left invertible* if there is an $n\\times m$ matrix such that\n$NM=I_n$, where $I_n$ is the $n\\times n$ identity matrix. We call $N$ a\n*left inverse* of $M$. Similarly, $M$ is *right invertible* if there is\nan $n\\times m$ matrix $P$, called a *right inverse* of $M$, such that\n$MP=I_m$, where $I_m$ is the $m\\times m$ identity matrix. If $M$ is both\nleft invertible and right invertible, we say that $M$ is *invertible*.\nIf $R$ is an associative ring, and $M$ is invertible, then it has a\nunique left and a unique right inverse, and they are in fact equal, we\ncall this matrix the *inverse* of $M$.\n\nIf $R$ is a division ring, then it can be shown that for any matrix $M$\nover $R$, $M$ is left invertible iff it is invertible iff it is right\ninvertible. In addition, when $M$ is invertible, it is a square matrix.\nFurthermore, $R$ is a field iff for any square matrix $M$ (over $R$),\n$M$ is invertible implies that $M^T$, its transpose, is invertible as\nwell. Invertibility of matrices over a division ring can also be\ndetermined by quantities known as ranks and determinants. It can be\nshown that a matrix over a division ring is invertible iff its left row\nrank (or right column rank) is full iff its determinant is non-zero. For\nexample, the $2\\times 2$ matrix $$\\begin{pmatrix}\n1 & j \\\\\ni & k\n\\end{pmatrix}$$ over the Hamiltonian quaternions is not invertible, as\nits determinant $k-ji=0$. It is interesting to note that, however, its\ntranspose $$\\begin{pmatrix}\n1 & i \\\\\nj & k\n\\end{pmatrix}$$ is invertible, whose determinant is $2k\\ne 0$. The\nrelationship between determinants and matrix invertibility can also be\nused to prove the following: preservation of matrix invertibility upon\nmatrix transposition implies commutativity of division ring $D$. This\ncan be done as follows: given any $a,b\\in D$, the $2\\times 2$ matrix\n$$\\begin{pmatrix}\nab & b \\\\\na & 1\n\\end{pmatrix}$$ is not invertible because its determinant is $0$.\nTherefore, its transpose $$\\begin{pmatrix}\nab & a \\\\\nb & 1\n\\end{pmatrix}$$ is also not invertible, and its determinant is\n$0=ab-ba$, whence $D$ is a field.",
+  "language": "INFORMAL",
+  "phrase": "Invertible Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InvertibleMatrix"
+    }
+  ],
+  "indexable": true
+}

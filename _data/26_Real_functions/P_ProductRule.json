@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *product rule* states that if $f:\\mathbb{R}\\rightarrow\\mathbb{R}$\nand $g:\\mathbb{R}\\rightarrow\\mathbb{R}$ are functions in one variable\nboth differentiable at a point $x_0$, then the derivative of the product\nof the two functions, denoted $f\\cdot g$, at $x_0$ is given by\n$$\\frac{{\\ensuremath{\\mathrm{d}}}}{{\\ensuremath{\\mathrm{d}x}}}\\left(f\\cdot g\\right)(x_0) = f(x_0)g'(x_0) + f'(x_0)g(x_0).$$\n\n### Proof {#proof .unnumbered}\n\nSee the .\n\nGeneralized Product Rule\n------------------------\n\nMore generally, for differentiable functions $f_1, f_2,\\ldots,f_n$ in\none variable, all differentiable at $x_0$, we have $$\\begin{aligned}\nD(f_1\\cdots f_n)(x_0)=\\sum_{i=1}^n\\left(f_i(x_0)\\cdots f_{i-1}(x_0)\\cdot Df_i(x_0)\\cdot f_{i+1}(x_0)\\cdots f_n(x_0)\\right).\\end{aligned}$$\n\nAlso see .\n\n### Example {#example .unnumbered}\n\nThe derivative of $x\\ln|x|$ can be found by application of this rule.\nLet $f(x) = x, g(x) = \\ln|x|$, so that $f(x)g(x) = x\\ln|x|$. Then\n$f'(x) = 1$ and $g'(x) = \\frac{1}{x}$. Therefore, by the product rule,\n\n$$\\begin{aligned}\n\\frac{{\\ensuremath{\\mathrm{d}}}}{{\\ensuremath{\\mathrm{d}x}}}(x\\ln|x|) & = & f(x)g'(x) + f'(x)g(x) \\\\\n& = & \\frac{x}{x} + 1\\cdot\\ln|x| \\\\\n& = & \\ln|x| + 1\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProductRule"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "product rule"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A subset of a topological space is called a $F_\\sigma$ set if it equals\nthe union of a countable collection of closed sets.\n\nThe complement of a $F_\\sigma$ set is a .\n\nFor instance, the $X$ set of all points $(x,y)$ in the plane such that\neither $y = 0$ or $x/y$ is rational is an $F_\\sigma$ set because it can\nbe expressed as the union of a countable set of lines:\n$$X = \\{(x,0) \\mid x \\in \\mathbb{R} \\} \\cup \\bigcup_{r \\in \\mathbb{Q}} \\{(ry,y) \\mid y \\in \\mathbb{R}\\}$$",
+  "language": "INFORMAL",
+  "phrase": "$F_\\Sigma$ Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FsigmaSet"
+    }
+  ],
+  "indexable": true
+}

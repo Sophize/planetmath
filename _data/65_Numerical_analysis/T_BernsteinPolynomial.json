@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Bernstein basis polynomials",
+    "Bernstein basis functions"
+  ],
+  "definition": "The *Bernstein polynomials* of $n$ are defined by\n$$B_{i}^{n}(t)={n\\choose i}t^i (1-t)^{n-i} \\quad\\quad i=0,1,2,\\dots,n$$\nwhere ${n\\choose i}$ is the binomial coefficient.\n\n![image](bp)\n\nBernstein polynomials are used extensively in interpolation theory and\nin computer graphics. They can be computed efficiently using the de\nCasteljau\u2019s algorithm.\n\n[9]{} Gerald Farin, *Curves and Surfaces for CAGD, A Practical Guide,\n5th edition*, Academic Press, 2002.",
+  "language": "INFORMAL",
+  "phrase": "Bernstein Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BernsteinPolynomial"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "First we show $C+(B \\cap A) \\subseteq B \\cap (C+A)$:\\\nNote that $C \\subseteq B, B \\cap A \\subseteq B$, and therefore\n$C + (B \\cap A) \\subseteq B$.\\\nFurther, $C \\subseteq C+A$, $B \\cap A \\subseteq C+A$, thus\n$C+(B \\cap A) \\subseteq C+A$.\\\nNext we show $B \\cap (C+A) \\subseteq C+(B \\cap A)$:\\\nLet $b \\in B \\cap (C+A)$. Then $b=c+a$ for some $c \\in C$ and $a \\in A$.\nHence $a=b-c$, and so $a \\in B$ since $b \\in B$ and\n$c \\in C \\subseteq B$.\\\nHence $a \\in B \\cap A$, so $b = c+a \\in C+(B \\cap A)$.",
+  "conclusion": "#P_ModularLaw",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfModularLaw"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of modular law"
+  ]
+}

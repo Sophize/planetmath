@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let the function $f(x,\\,t)$ be continuous in the domain\n$$a \\;\\leqq\\; x \\;<\\; b, \\quad c \\;\\leqq\\; t \\;\\leqq\\; d,$$ where $b$ is\na real number or $\\infty$, and let the improper integral\n$$\\begin{aligned}\n   F(t) \\;:=\\, \\int_a^b f(x,\\,t)\\,dx \\;=\\; \\lim_{u \\to b-}\\int_a^u f(x,\\,t)\\,dx\\end{aligned}$$\nbe in every point $t$ of the interval $[c,\\,d]$. We say that the on the\ninterval $[c,\\,d]$, if for each positive number $\\varepsilon$ there is a\nvalue $x_\\varepsilon \\in [a,\\,b]$ such that\n$$\\left|\\int_x^b f(x,\\,t)\\,dx\\right| \\;<\\; \\varepsilon\\quad\\forall t\\in [c,\\,d]$$\nwhen $x_\\varepsilon \\leqq x < b$.",
+  "language": "INFORMAL",
+  "phrase": "Uniform Convergence Of Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformConvergenceOfIntegral"
+    }
+  ],
+  "indexable": true
+}

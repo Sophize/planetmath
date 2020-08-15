@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A function $f$ is said to have a *quasiperiod* $p$ if there exists a\nfunction $g$ such that $$f(z + p) = g(z) f(z).$$\n\nIn the special case where $g$ is identically equal to $1$, we call $f$ a\n*periodic function*, and we say that $p$ is a *period* of $f$ or that\n$f$ has *periodicity* $p$.\n\nExcept for the special case of periodicity noted above, the notion of\nquasiperiodicity is somewhat loose and fuzzy. Strictly speaking, many\nfunctions could be regarded as quasiperiodic if one defines\n$g(z) = f(z+p) / f(z)$. In order for the term \u201cquasiperiodic\u201d not to be\ntrivial, it is customary to reserve its use for the case where the\nfunction $g$ is, in some vague, intuitive sense, simpler than the\nfunction $f$. For instance, no one would call the function\n$f(z) = z^2 + 1$ quasiperiodic even though it meets the criterion of the\ndefinition if we set $g(z) = (z^2 + 2z + 2) / (z^2 + 1)$ because the\nrational function $g$ is \u201cmore complicated\u201d than the polynomial $f$. On\nthe other hand, for the gamma function, one would say that $1$ is a\nquasiperiod because $\\Gamma (z+1) = z \\Gamma(z)$ and the function\n$g(z) = z$ is a \u201cmuch simpler\u201d function than the gamma function.\n\nNote that the every complex number can be said to be a quasiperiod of\nthe exponential function. The term \u201cquasiperiod\u201d is most frequently used\nin connection with theta functions.\n\nAlso note that almost periodic functions are quite a different affair\nthan quasiperiodic functions \u2014 there, one is dealing with a precise\nnotion.",
+  "language": "INFORMAL",
+  "phrase": "Quasiperiodic Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuasiperiodicFunction"
+    }
+  ],
+  "indexable": true
+}

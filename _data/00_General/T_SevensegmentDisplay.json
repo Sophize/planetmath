@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Most calculators use a [*seven-segment display*]{} to show both input\nand output numbers. Here is Champernowne\u2019s constant $C_{10}$ to 9\ndecimal places in a seven-segment display:\n\n![image](SevenSegmentDisplay)\n\nTechnically, the space for the decimal point counts as a segment, so for\neach place value there are actually eight segments. Generally,\ncalculator manufacturers prefer the base 10 pandigital number 1234567980\nas a demo number for the calculator packaging.\n\nSometimes wear and tear can cause a segment to not light up or darken\nproperly; this can occasionally lead to confusion between digits. The\nsimplest way to test for this is to input $8 \\times \\frac{10^x - 1}{9}$,\nwhere $x$ is the the number of decimal place values available on the\ndisplay (that is, a bunch of 8s). At various times in the past some\nmanufacturers have developed variants of the glyphs for the digits to\nmake it more obvious when a segment has burnt out, such as a 0 that\nlooks like a lowercase O, or a 6 that looks like a lowercase B. Given\nthat many scientific calculators offer the option of doing calculations\nin hexadecimal, the latter option is not acceptable for such\ncalculators. The 7 on Sharp-brand calculators uses the upper left\nvertical segment.",
+  "language": "INFORMAL",
+  "phrase": "Seven-Segment Display",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SevensegmentDisplay"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Mellin transform* is an integral transform defined as follows:\n$$F(s) = \\int_0^\\infty f(t) t^{s-1} \\, dt$$ Intuitively, it may be\nviewed as a continuous analogue of a power series \u2014 instead of\nsynthetizing a function by summing multiples of integer powers, we\nintegrate over all real powers. This transform is closely related to the\nLaplace transform \u2014 if we make a change of variables $t = e^{-r}$ and\ndefine $g$ by $f(e^{-r}) = g(r)$, then the above integral becomes\n$$F(s) = -\\int_{-\\infty}^{+\\infty} g(r) e^{-rs} \\, dr ,$$ which is a\nbilateral Laplace transform.\n\n(more to come)",
+  "language": "INFORMAL",
+  "phrase": "Mellin Transform",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MellinTransform"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $n$ be a positive integer and let $x_1,\\ldots,x_n$ be positive\nreals. If $n$ is even and $n \\leq 12$, or $n$ is odd and $n \\leq 23$,\nthen $$\\sum_{i=1}^n \\frac{x_i}{x_{i+1}+x_{i+2}} \\geq \\frac{n}{2},$$\nwhere the subscripts are to be understood modulo $n$.\n\nThe particular case of $n=3$ is also known as Nesbitts inequality.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ShapiroInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Shapiro inequality",
+    "Shapiro's inequality"
+  ]
+}

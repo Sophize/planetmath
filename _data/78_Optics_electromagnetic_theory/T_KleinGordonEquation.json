@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Klein Gordon equation",
+    "Klein-Gordon-Fock equation"
+  ],
+  "definition": "The Klein-Gordon equation is an equation of mathematical physics that\ndescribes spin-0 particles. It is given by:\n$$\\Box \\psi = \\left(\\frac{mc}{\\hbar }\\right)^2 \\psi$$ Here the $\\Box$\nsymbol refers to the wave operator, or D\u2019Alembertian,\n($\\Box = \\nabla^2 - \\frac{1}{c^2} \\partial^2_t$) and $\\psi$ is the wave\nfunction of a particle. It is a Lorentz invariant expression.\n\nDerivation\n----------\n\nLike the Dirac equation, the Klein-Gordon equation is derived from the\nrelativistic expression for total energy: $$E^2 = m^2c^4 + p^2c^2$$\nInstead of taking the square root (as Dirac did), we keep the equation\nin squared form and replace the momentum and energy with their operator\nequivalents, $E = i \\hbar \\partial_t$, $p = -i \\hbar \\nabla$. This gives\n(in disembodied operator form)\n$$-\\hbar^2 \\frac{\\partial^2}{\\partial t^2} = m^2 c^4 - \\hbar^2 c^2 \\nabla^2$$\nRearranging:\n$$\\hbar^2\\left(c^2 \\nabla^2 -\\frac{\\partial^2}{\\partial t^2} \\right)  = m^2 c^4$$\nDividing both sides by $\\hbar^2 c^2$:\n$$\\left( \\nabla^2 - \\frac{1}{c^2}\\frac{\\partial^2}{\\partial t^2} \\right) =  \\frac{m^2 c^2}{\\hbar^2}$$\nIdentifying the expression in brackets as the D\u2019Alembertian and\nright-multiplying the whole expression by $\\psi$ , we obtain the\nKlein-Gordon equation:\n$$\\Box \\psi = \\left(\\frac{mc}{\\hbar }\\right)^2 \\psi$$",
+  "language": "INFORMAL",
+  "phrase": "Klein-Gordon Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KleinGordonEquation"
+    }
+  ],
+  "indexable": true
+}

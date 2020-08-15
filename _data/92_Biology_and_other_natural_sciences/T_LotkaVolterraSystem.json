@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The Lotka-Volterra system was derived by Volterra in 1926 to describe\nthe relationship between a predator and a prey, and independently by\nLotka in 1920 to describe a chemical reaction.\n\nSuppose that $N(t)$ is the prey population at time $t$, and $P(t)$ is\nthe predator population. Then the system is $$\\begin{aligned}\n\\frac{dN}{dt}&=& N(a-bP) \\\\\n\\frac{dP}{dt}&=& P(cN-d)\\end{aligned}$$ where $a$, $b$, $c$ and $d$ are\npositive constants. The term $aN$ is the birth of preys, $-bNP$\nrepresents the diminution of preys due to predation, which is converted\ninto new predators with a rate $cNP$. Finally, predators die at the\nnatural death rate $d$.\n\nLocal analysis of this system is not very complicated (see, e.g.,\n[@Murray]). It is easily shown that it admits the zero equilibrium\n(unstable) as well as a positive equilibrium, which is neutrally stable.\nHence, in the neighborhood of this equilibrium exist periodic solutions\n(with period $T=2\\pi(ad)^{-1/2}$).\n\nThis system is , and has obvious limitations, one of the most important\nbeing that in the absence of predator, the prey population grows\nunbounded. But many improvements and generalizations have been proposed,\nmaking the Lotka-Volterra system one of the most studied systems in\nmathematical biology.\n\n[1]{} J.D. Murray (2002). [*Mathematical Biology. I. An\nIntroduction.*]{} Springer. Lotka, A.J. (1925). Elements of physical\nbiology. Baltimore: Williams & Wilkins Co. Volterra, V. (1926).\nVariazioni e fluttuazioni del numero d\u2019individui in specie animali\nconviventi. Mem. R. Accad. Naz. dei Lincei. Ser. VI, vol. 2.",
+  "language": "INFORMAL",
+  "phrase": "Lotka-Volterra System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LotkaVolterraSystem"
+    }
+  ],
+  "indexable": true
+}

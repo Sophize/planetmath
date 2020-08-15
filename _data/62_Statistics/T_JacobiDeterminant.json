@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Jacobian"
+  ],
+  "definition": "Let\n\n$$f=f(x) = f(x_1,\\ldots,x_n)$$\n\nbe a function of $n$ variables, and let\n\n$$u = u(x) = (u_1(x),\\ldots,u_n(x))$$\n\nbe a function of $x$, where inversely $x$ can be expressed as a function\nof $u$,\n\n$$x = x(u) = (x_1(u), \\ldots,x_n(u))$$\n\nThe formula for a change of variable in an $n$-dimensional integral is\nthen\n\n$$\\int_\\Omega f(x)d^nx = \\int_{u(\\Omega)} f(x(u))|\\det(dx/du)|d^nu$$\n\n$\\Omega$ is an integration region, and one integrates over all\n$x \\in \\Omega$, or equivalently, all $u \\in u(\\Omega)$.\n$dx/du = (du/dx)^{-1}$ is the Jacobi matrix and\n\n$$| \\det(dx/du)| = |\\det(du/dx)|^{-1}$$\n\nis the absolute value of the *Jacobi determinant* or *Jacobian*.\n\nAs an example, take $n=2$ and\n\n$$\\Omega = \\{(x_1,x_2) | 0<x_1 \\le 1, 0 < x_2 \\le 1 \\}$$\n\nDefine\n\n$$\\begin{array}{cc}\\rho = \\sqrt{-2 \\log(x_1)} & \\varphi = 2\\pi x_2 \\\\\n    u_1 = \\rho \\cos \\varphi & u_2 = \\rho \\sin \\varphi \\end{array}$$\n\nThen by the chain rule and definition of the Jacobi matrix,\n\n$$\\begin{aligned}\n du/dx & = & \\partial(u_1,u_2) / \\partial(x_1,x_2) \\\\\n       & = & (\\partial(u_1,u_2)/\\partial(\\rho,\\varphi))(\\partial(\\rho,\\varphi)/\\partial(x_1,x_2)) \\\\\n       & = & \\begin{pmatrix}\\cos \\varphi & - \\rho \\sin \\varphi \\\\ \\sin \\varphi & \\rho \\cos \\varphi \\end{pmatrix} \\begin{pmatrix}-1 / \\rho x_1 & 0 \\\\ 0 & 2 \\phi \\end{pmatrix} \\end{aligned}$$\n\nThe Jacobi determinant is\n\n$$\\begin{aligned}\n\\det (du/dx) & = & \\det \\{ \\partial(u_1,u_2)/\\partial(\\rho,\\varphi)\\} \\det\\{\\partial(\\rho,\\varphi) / \\partial(x_1,x_2)\\} \\\\\n & = & \\rho(-2 \\pi /\\rho x_1) = -2 \\pi / x_i\\end{aligned}$$\n\nand\n\n$$\\begin{aligned}\n d^2 x & = & | \\det(dx/du) | d^2u = |\\det(du/dx)|^{-1} d^2 u \\\\\n  & = & (x_1/2\\pi) = (1/2 \\pi) \\exp(-(u_1^2+u_2^2/2))d^2 u\\end{aligned}$$\n\nThis shows that if $x_1$ and $x_2$ are independent random variables with\nuniform distributions between 0 and 1, then $u_1$ and $u_2$ as defined\nabove are independent random variables with standard normal\ndistributions.\n\n[**References**]{}\n\n-   Originally from The Data Analysis Briefbook ()",
+  "language": "INFORMAL",
+  "phrase": "Jacobi Determinant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JacobiDeterminant"
+    }
+  ],
+  "indexable": true
+}

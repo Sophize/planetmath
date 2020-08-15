@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Cauchy problem",
+    "initial value problem"
+  ],
+  "definition": "Let $D$ be a subset of ${\\mathbb R}^n\\times {\\mathbb R}$, $(x_0,t_0)$ a\npoint of $D$, and $f\\colon D\\to {\\mathbb R}$ be a function.\n\nWe say that a function $x(t)$ is a solution to the Cauchy (or initial\nvalue) problem $$\\begin{cases}\nx'(t)=f(x(t),t)\\\\\nx(t_0)=x_0\n\\end{cases}$$ if\n\n1.  $x$ is a differentiable function $x\\colon I\\to {\\mathbb R}^n$\n    defined on a interval $I\\subset {\\mathbb R}$;\n\n2.  one has $(x(t),t)\\in D$ for all $t\\in I$ and $t_0\\in I$;\n\n3.  one has $x(t_0)=x_0$ and $x'(t)=f(x(t),t)$ for all $t\\in I$.\n\nWe say that a solution $x\\colon I\\to{\\mathbb R}^n$ is a *maximal\nsolution* if it cannot be extended to a bigger interval. More precisely\ngiven any other solution $y\\colon J\\to {\\mathbb R}^n$ defined on an\ninterval $J\\supset I$ and such that $y(t)=x(t)$ for all $t\\in I$, one\nhas $I=J$ (and hence $x$ and $y$ are the same function).\n\nWe say that a solution $x\\colon I\\to{\\mathbb R}^n$ is a *global\nsolution* if $D\\subset={\\mathbb R}^n \\times I$.\n\nWe say that a solution $x\\colon I\\to{\\mathbb R}^n$ is *unique* if given\nany other solution $y\\colon I\\to{\\mathbb R}^n$ one has $x(t)=y(t)$ for\nall $t\\in I$ (i.e.\u00a0$x$ is the unique solution defined on the interval\n$I$).\n\nNotation\n--------\n\nUsually the differential equation in (1) is simply written as\n$x'=f(x,t)$. Also, depending on the topics, the name chosen for the\nfunction and for the variable, can change. Other common choices are\n$y'=f(y,t)$ or $y'=f(y,x)$. It is also common to write $\\dot x=f(x,t)$\nwhen the independent variable represents a time value.\n\nExamples\n--------\n\n1.  The function $x(t)=\\log t$ defined on $I=(0,+\\infty)$ is the unique\n    maximal solution to the Cauchy problem: $$\\begin{cases}\n    x'(t) = 1/t\\\\\n    x(1)=0.\n    \\end{cases}$$ In this case $f(x,t)=1/t$,\n    $D=\\{(x,t)\\colon t\\neq 0\\}$, $t_0=1$, $x_0=0$.\n\n2.  The function $x(t)=e^t$ is a global (and hence maximal), unique\n    solution to the Cauchy problem: $$\\begin{cases}\n    x'(t) = x(t)\\\\\n    x(0)=1.\n    \\end{cases}$$\n\n3.  Consider the Cauchy problem $$\\begin{cases}\n    x'(t) = \\frac 3 2 \\sqrt[3] x\\\\\n    x(0)=0.\n    \\end{cases}$$ The function $x(t)=0$ defined on $I={\\mathbb R}$ is a\n    global solution. However the function $y(t)=\\sqrt{t^3}$ defined on\n    $I=[0,+\\infty)$ is also a solution and so are the functions\n    $$z(t)=\\begin{cases} \\sqrt{(t-c)^3}&\\text{if $t\\ge c$} \\\\ 0 &\\text{if $t < c$}.\\end{cases}$$\n    for every $c\\ge 0$. So there are no unique solutions. Moreover $y$\n    is not a maximal solution.",
+  "language": "INFORMAL",
+  "phrase": "Cauchy Initial Value Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyInitialValueProblem"
+    }
+  ],
+  "indexable": true
+}

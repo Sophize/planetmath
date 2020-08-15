@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $L$ is a logical language for some logic $\\mathcal{L}$, a set $T$ of\nformulas with no free variables is called a *theory* (of $\\mathcal{L}$).\nIf $\\mathcal{L}$ is a first-order logic, then $T$ is called a\n*first-order theory*.\n\nWe write $T\\vDash \\phi$ for any formula $\\phi$ if every model\n$\\mathcal{M}$ of $\\mathcal{L}$ such that $M\\vDash T$, $M\\vDash\\phi$.\n\nWe write $T\\vdash\\phi$ is for there is a proof of $\\phi$ from $T$.\n\n**Remark**. Let $S$ be an $L$-structure for some signature $L$. The\n*theory of $S$* is the set of formulas satisfied by $S$:\n$$\\lbrace \\varphi \\mid S\\models \\varphi \\rbrace,$$ and is denoted by\n$\\operatorname{Th}(S)$.",
+  "language": "INFORMAL",
+  "phrase": "Theory",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Theory"
+    }
+  ],
+  "indexable": true
+}

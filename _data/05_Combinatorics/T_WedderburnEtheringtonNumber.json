@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Wedderburn Etherington number",
+    "Etherington-Wedderburn number"
+  ],
+  "definition": "The $n$th [*Wedderburn-Etherington number*]{} counts how many weakly\nbinary trees can be constructed such that each graph vertex (not\ncounting the root vertex) is adjacent to no more than three other such\nvertices, for a given number $n$ of nodes. The first few\nWedderburn-Etherington numbers are 1, 1, 1, 2, 3, 6, 11, 23, 46, 98,\n207, 451, 983, etc. listed in A001190 of Sloane\u2019s OEIS. Michael Somos\ngives the following recurrence relations:\n\n$$a_{2n} = \\frac{1}{2} a_n a_{n + 1} + \\sum_{i = 1}^n a_i a_{2n - i}$$\n\nand\n\n$$a_{2n - 1} = \\sum_{i = 0}^{n - 1} a_{i + 1} a_{2n - i}$$\n\nwith $a_1 = a_2 = 1$ in both relations.",
+  "language": "INFORMAL",
+  "phrase": "Wedderburn-Etherington Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WedderburnEtheringtonNumber"
+    }
+  ],
+  "indexable": true
+}

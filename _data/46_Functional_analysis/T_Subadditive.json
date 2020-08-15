@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $V$ is a vector space (over a field), and $f$ is a function\n$f\\colon V\\to {\\mathbbmss{R}}$. Then $f$ is *subadditive* if\n$$f(x+y) \\le f(x) + f(y), \\quad x,y\\in V.$$\n\n### Examples {#examples .unnumbered}\n\n1.  Any linear function $V\\to {\\mathbbmss{R}}$ is subadditive.\n\n2.  If $\\Vert\\cdot \\Vert$ is a norm on $V$, $a\\ge 0$, then\n    $$f(x) = a+\\Vert x \\Vert$$ is subadditive.\n\n### Properties {#properties .unnumbered}\n\nSuppose $f$ is subadditive.\n\n1.  If $f$ is positively $1$-homogeneous, then $f$ is convex.\n\n2.  The sum of two subadditive functions is subadditive.",
+  "language": "INFORMAL",
+  "phrase": "Subadditive",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Subadditive"
+    }
+  ],
+  "indexable": true
+}

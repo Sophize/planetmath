@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $\\{B_1, B_2, \\cdots \\}$ be a sequence defined by:\n\n$$B_i = A_i \\setminus \\bigcup_{k=1}^{i-1} A_k$$\n\nClearly $B_i \\in \\mathcal{F}, \\forall i \\in \\mathbb{N}$, since\n$\\mathcal{F}$ is $\\sigma$-algebra, they are a disjoint family and :\n\n$$\\bigcup_{n=1}^{i} A_n = \\bigcup_{n=1}^{i} B_n ,  \\forall i \\in \\mathbb{N}$$\n\nand since $P$ is a measure over $\\mathcal{F}$ it follows that :\n\n$$P(\\bigcup_{n=1}^{i} B_n) = \\sum_{n=1}^{i} P(B_n) ,  \\forall i \\in \\mathbb{N}$$\n\nClearly $ B_i \\subset A_i$ , then $P(B_i) \\leq P(A_i)$ because measures\nare , then it follows that :\n\n$$P(\\bigcup_{n=1}^{i} B_n) \\leq \\sum_{n=1}^{i} P(A_n),  \\forall i \\in \\mathbb{N}$$\n\nfinally taking $n \\to \\infty$ :\n\n$$P(\\bigcup_{n=1}^{\\infty} A_n) = P(\\bigcup_{n=1}^{\\infty} B_n) \\leq \\sum_{n=1}^{\\infty} P(A_n)$$\n\nthe latter is valid because the measure continuity , and is the proof of\nthe theorem",
+  "conclusion": "#P_BooleInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BooleInequalityProofOf"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "Boole inequality, proof of"
+  ]
+}

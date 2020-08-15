@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\Sigma$ be a fixed signature, and ${\\mathfrak{A}}$ a structure for\n$\\Sigma$. If $\\sim$ is a congruence on ${\\mathfrak{A}}$, then there is a\nhomomorphism $f$ such that $\\sim$ is the kernel of $f$.\n\nDefine a homomorphism\n$f\\colon {\\mathfrak{A}}\\to {\\mathfrak{A}}/\\!\\sim\\ : a \\mapsto {[\\![a]\\!]}$.\nObserve that $a \\sim b$ if and only if $f(a) = f(b)$, so $\\sim$ is the\nkernel of $f$. To verify that $f$ is a homomorphism, observe that\n\n1.  For each constant symbol $c$ of $\\Sigma$,\n    $f(c^{\\mathfrak{A}}) = {[\\![c^{\\mathfrak{A}}]\\!]} = c^{{\\mathfrak{A}}/\\!\\sim}$.\n\n2.  For each $n \\in {\\mathbb{N}}$ and each $n$-ary function symbol $F$\n    of $\\Sigma$, $$\\begin{aligned}\n             f(F^{\\mathfrak{A}}(a_1, \\ldots a_n)) &= {[\\![F^{\\mathfrak{A}}(a_1, \\ldots a_n)]\\!]} \\\\\n             &= F^{{\\mathfrak{A}}/\\!\\sim}({[\\![a_1]\\!]}, \\ldots {[\\![a_n]\\!]}) \\\\\n             &= F^{{\\mathfrak{A}}/\\!\\sim}(f(a_1), \\ldots f(a_n)). \\qedhere\n             \\end{aligned}$$\n\n3.  For each $n \\in {\\mathbb{N}}$ and each $n$-ary relation symbol $R$\n    of $\\Sigma$, if $R^{\\mathfrak{A}}(a_1, \\ldots, a_n)$ then\n    $R^{{\\mathfrak{A}}/\\!\\sim}({[\\![a_1]\\!]}, \\ldots, {[\\![a_n]\\!]})$,\n    so $R^{{\\mathfrak{A}}/\\!\\sim}(f(a_1), \\ldots, f(a_n))$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryCongruenceIsTheKernelOfAHomomorphism"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every congruence is the kernel of a homomorphism"
+  ]
+}

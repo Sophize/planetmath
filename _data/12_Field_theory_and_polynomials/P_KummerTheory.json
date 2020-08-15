@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem is usually referred to as [*Kummer theory*]{}.\n\nLet $n$ be a positive integer and let $K$ be a field of characteristic\nnot dividing $n$ which contains the $n$-th roots of unity. Then:\n\n1.  The extension $K(\\sqrt[n]{a})$ for $a\\in K$ is a cyclic extension\n    over $K$ of degree dividing $n$.\\\n\n2.  Any cyclic extension of degree $n$ over $K$ is of the form\n    $K(\\sqrt[n]{a})$ for some $a\\in K$.\\\n\nLet $n$ be a positive integer and let $K$ be a field of characteristic\nnot dividing $n$ which contains the $n$-th roots of unity. An extension\nof $K$ of the form:\n$$K(\\sqrt[n]{a_1},\\sqrt[n]{a_2},\\ldots,\\sqrt[n]{a_k})$$ with\n$a_i \\in K^\\times$ is called a [**Kummer extension**]{} of $K$. Notice\nthat the Galois group of the extension is of $n$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KummerTheory"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kummer theory"
+  ]
+}

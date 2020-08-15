@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*Takeuchi function*]{} is a triply recursive 3-parameter function\noriginally defined by Ichiro Takeuchi in 1978 as $t(x, y, z) = y$ if\n$x \\leq y$ and\n$t(x, y, z) = t(t(x - 1, y, z), t(y - 1, z, x), t(z - 1, x, y))$\notherwise. Later John McCarthy simplified the definition of the function\nas $t(x, y, z) = y$ if $x \\leq y$, $t(x, y, z) = z$ if $y \\leq z$ and\n$t(x, y, z) = x$ in all other cases.\n\nFor example, $t(194, 13, 5) = 194$ since 194 is not less than 13, and 13\nis not less than 5. The return value of the function \u201cis on no practical\nsignificance,\u201d but the function itself \u201cis useful for benchmark testing\nof programming languages.\u201d (Finch, 2003) The function $T(x, y, z)$ is\nthe number of times $t$ calls itself to obtain the return value. A\nproperly optimized implementation of the function in a given programming\nlanguage should not require more recursion than $T$ indicates.\n\n[1]{} Steven R. Finch [*Mathematical Constants*]{} New York: Cambridge\nUniversity Press (2003): 321",
+  "language": "INFORMAL",
+  "phrase": "Takeuchi Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TakeuchiFunction"
+    }
+  ],
+  "indexable": true
+}

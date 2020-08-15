@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An [*odd number*]{} $n$ is an integer of the form $2m + 1$, and as such\nit is not divisible by 2. In terms of congruences, $n \\equiv 1 \\mod 2$,\nand in its binary representation the least significant bit is 1. With\nthe exception of 2, all prime numbers are odd numbers.\n\nThe addition of two odd numbers gives an even number, or any even number\nof odd summands gives an even number as a result. For example,\n$11 + 13 + 17 + 19 = 60$.\n\nBut the multiplication of two odd numbers, or any even amount of odd\nmultiplicands always gives an odd number. For example,\n$11 \\times 13 \\times 17 \\times 19 = 46189$.\n\nA negative number raised to the power of an odd number gives a negative\nnumber. For example,\n$(-1)^{11} = (-1)^{13} = (-1)^{17} = (-1)^{19} = -1$ (compare\n$(-1)^{10} = (-1)^{12} = (-1)^{16} = (-1)^{18} = 1$).\n\nThe sum of the first $n$ consecutive positive odd numbers is $n^2$.\n\nThe famous Gregory series which gives a quarter of $\\pi$ is an\nalternating sum of the reciprocals of the odd numbers:\n$$\\frac{\\pi}{4} = \\sum_{i = 0}^\\infty (-1)^i \\frac{1}{2i + 1} = 1 - \\frac{1}{3} + \\frac{1}{5} - \\frac{1}{7} + \\frac{1}{9} - \\ldots$$\nHowever, note that this series is not absolutely convergent.",
+  "language": "INFORMAL",
+  "phrase": "Odd Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OddNumber"
+    }
+  ],
+  "indexable": true
+}

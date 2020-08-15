@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "prolongation of exponent"
+  ],
+  "definition": "**Theorem.** Let $K/k$ be a finite field extension and $\\nu$ an exponent\nvaluation of the extension field $K$. Then there exists one and only one\npositive integer $e$ such that the function\n$$(1) \\qquad\\qquad\\qquad \\nu_0(x)\\, := \\,  \n\\begin{cases}\n& \\infty \\quad \\mbox{when }\\; x = 0,\\\\\n& \\frac{\\nu(x)}{e} \\;\\; \\mbox{when }\\; x \\neq 0,\n\\end{cases}$$ defined in the base field $k$, is an of $k$.\n\n[*Proof.*]{} The exponent $\\nu$ of $K$ attains in the set\n$k\\!\\smallsetminus\\!\\{0\\}$ also non-zero values; otherwise $k$ would be\nincluded in $\\mathcal{O}_\\nu$, the ring of the exponent $\\nu$. Since any\nelement $\\xi$ of $K$ are integral over $k$, it would then be also\nintegral over $\\mathcal{O}_\\nu$, which is integrally closed in its\nquotient field $K$ (see theorem 1 in ring of exponent); the situation\nwould mean that $\\xi \\in \\mathcal{O}_\\nu$ and thus the whole $K$ would\nbe contained in $\\mathcal{O}_\\nu$. This is impossible, because an\nexponent of $K$ attains also negative values. So we infer that $\\nu$\ndoes not vanish in the whole $k\\!\\smallsetminus\\!\\{0\\}$. Furthermore,\n$\\nu$ attains in $k\\!\\smallsetminus\\!\\{0\\}$ both negative and positive\nvalues, since $\\nu(a)\\!+\\!\\nu(a^{-1}) = \n\\nu(aa^{-1}) = \\nu(1) = 0$.\n\nLet $p$ be such an element of $k$ on which $\\nu$ attains as its value\nthe least possible positive integer $e$ in the field $k$ and let $a$ be\nan arbitrary non-zero element of $k$. If\n$$\\nu(a) = m = qe+r \\quad (q,\\,r \\in \\mathbb{Z},\\;\\; 0 \\leqq r < e),$$\nthen $\\nu(ap^{-q}) = m-qe = r$, and thus $r = 0$ on grounds of the\nchoice of $p$. This means that $\\nu(a)$ is always divisible by $e$, i.e.\nthat the values of the function $\\nu_0$ in $k\\!\\smallsetminus\\!\\{0\\}$\nare integers. Because $\\nu_0(p) = 1$ and $\\nu_0(p^l) = l$, the function\nattains in $k$ every integer value. Also the conditions\n$$\\nu_0(ab) = \\nu_0(a)+\\nu_0(b), \\quad \\nu_0(a+b) \\geqq \\min\\{\\nu_0(a),\\,\\nu_0(b)\\}$$\nare in , whence $\\nu_0$ is an exponent of the field $k$.\\\n**Definition.** Let $K/k$ be a finite field extension. If the exponent\n$\\nu_0$ of $k$ is tied with the exponent $\\nu$ of $K$ via the condition\n(1), one says that $\\nu$ [*induces*]{} $\\nu_0$ to $k$ and that $\\nu$ is\nthe [*continuation*]{} of $\\nu_0$ to $K$. The positive integer $e$,\nuniquely determined by (1), is the [*ramification index*]{} of $\\nu$\nwith respect to $\\nu_0$ (or with respect to the subfield $k$).\n\n[9]{} : [*Zahlentheorie*]{}. Birkh\u00e4user Verlag. Basel und Stuttgart\n(1966).",
+  "language": "INFORMAL",
+  "phrase": "Continuation Of Exponent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuationOfExponent"
+    }
+  ],
+  "indexable": true
+}

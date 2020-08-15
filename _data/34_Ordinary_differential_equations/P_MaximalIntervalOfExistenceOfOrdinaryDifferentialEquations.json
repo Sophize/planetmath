@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $E\\subset W$ where $W$ is a normed vector space, $f\\in C^1(E)$ is a\ncontinuous differentiable map $f: E \\to W$. Furthermore consider the\nordinary differential equation $$\\dot{x} = f(x)$$ with the initial\ncondition\n\n$x(0) = x_0$.\n\nFor all $x_0 \\in E$ there exists a unique solution $$x:I \\to E$$ where\n$I = [-a,a]$, which also satify the initial condition of the initial\nvalue problem. Then there exists a maximal interval of existence\n$J=( \\alpha ,\\beta )$ such that $I\\subset J$ and there exists a unique\nsolution\n\n$x:J \\to E$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MaximalIntervalOfExistenceOfOrdinaryDifferentialEquations"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "maximal interval of existence of ordinary differential equations"
+  ]
+}

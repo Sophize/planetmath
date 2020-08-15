@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "power"
+  ],
+  "definition": "Let $n$ be a non zero integer of absolute value not equal to one. The\n*power* of $n$, written $P(n)$ is defined by :\n$$P(n)=\\frac{\\log{|n|}}{\\log{\\operatorname{rad}(n)}}.$$ where\n$\\operatorname{rad}(n)$ is the radical of the integer $n$.[^1]\n\nIf $n = m^k$, then $P(n) = k P(m)$; in particular, if $n$ is a prime\npower, $n = p^k$, then $P(n) = k$. This observation explains why the\nterm \u201cpower\u201d is used for this concept. At the same time, it is worth\npointing out that, in general, the power of an integer will not itself\nbe an integer. For instance,\n$$P(12) = {\\log 12 \\over \\log \\operatorname{rad} (12)} = {\\log 12 \\over \\log 6} = 1.3868\\ldots$$\n\nNote that it doesn\u2019t matter what base one uses to compute the logarithm\n(as long as one uses the same base to compute the logarithm on the\nnumerator and in the denominator!) because, upon changing base, both\nnumerator and denominator will be multiplied by the same factor.\n\n[^1]: Since $|n| \\neq 1$, we have $\\operatorname{rad}(n) \\neq 1$ also,\n    so the denominator will not be equal to zero",
+  "language": "INFORMAL",
+  "phrase": "Power Of An Integer",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PowerOfAnInteger"
+    }
+  ],
+  "indexable": true
+}

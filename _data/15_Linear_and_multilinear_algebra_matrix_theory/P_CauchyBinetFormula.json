@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ be an $m\\times n$ matrix and $B$ an $n\\times m$ matrix. Then the\ndeterminant of their product $C=AB$ can be written as a sum of products\nof minors of $A$ and $B$: $$|C| = \\sum_{1\\le k_1<k_2<\\cdots<k_m\\le n}\n    A\\begin{pmatrix}\n      1 & 2 & \\cdots & m \\\\\n      k_1 & k_2 & \\cdots & k_m\n    \\end{pmatrix}\n    B\\begin{pmatrix}\n      k_1 & k_2 & \\cdots & k_m \\\\\n      1 & 2 & \\cdots & m\n    \\end{pmatrix}.$$ Basically, the sum is over the maximal ($m$-th\norder) minors of $A$ and $B$. See the entry on for notation.\n\nIf $m>n$, then neither $A$ nor $B$ have minors of rank $m$, so $|C|=0$.\nIf $m=n$, this formula reduces to the usual multiplicativity of\ndeterminants $|C|=|AB|=|A||B|$.\n\nSince $C=AB$, we can write its elements as $c_{ij} = \\sum_{k=1}^n\na_{ik} b_{kj}$. Then its determinant is $$\\begin{aligned}\n  |C| &= \\begin{vmatrix}\n      \\sum_{k_1=1}^n a_{1 k_1} b_{k_1 1} & \\cdots &\n        \\sum_{k_m=1}^n a_{1 k_m} b_{k_m m} \\\\\n      \\vdots & \\ddots & \\vdots \\\\\n      \\sum_{k_1=1}^n a_{m k_1} b_{k_1 1} & \\cdots &\n        \\sum_{k_m=1}^n a_{m k_m} b_{k_m m}\n    \\end{vmatrix} \\\\\n  &= \\sum_{k_1,\\ldots,k_m=1}^n \\begin{vmatrix}\n      a_{1 k_1} b_{k_1 1} & \\cdots & a_{1k_m} b_{k_m m} \\\\\n      \\vdots & \\ddots & \\vdots \\\\\n      a_{m k_1} b_{k_1 1} & \\cdots & a_{mk_m} b_{k_m m}\n    \\end{vmatrix} \\\\\n   &= \\sum_{k_1,\\ldots,k_m=1}^n\n     A \\begin{pmatrix} 1 & 2 & \\cdots & m \\\\ k_1 & k_2 & \\cdots\n       & k_m \\end{pmatrix} b_{k_1 1} b_{k_2 2} \\cdots b_{k_m m}.\\end{aligned}$$\nIn both steps above, we have used the property that the determinant is\nmultilinear in the colums of a matrix.\n\nNote that the terms in the last sum with any two $k$\u2019s the same will\nmake the minor of $A$ vanish. And, for $\\{k_1,\\cdots,k_m\\}$\u2019s that\ndiffer only by a permutation, the minor of $A$ will simply change sign\naccording to the parity of the permutation. Hence the determinant of $C$\ncan be rewritten as $$\\begin{aligned}\n  |C| &= \\sum_{1\\le k_1<\\cdots<k_m\\le n}\n    A \\begin{pmatrix} 1 & 2 & \\cdots & m \\\\ k_1 & k_2 & \\cdots\n      & k_m \\end{pmatrix}\n    \\sum_{\\sigma\\in S_m} \\sgn(\\sigma)\\, b_{k_{\\sigma(1)} 1}\n      b_{k_{\\sigma(2)} 2} \\cdots b_{k_{\\sigma(m)} m},\\end{aligned}$$\nwhere $S_m$ is the permutation group on $m$ elements. But the last sum\nis none other than the determinant $B \\left(\\begin{smallmatrix}\n  k_1 & k_2 & \\cdots & k_m \\\\\n  1 & 2 & \\cdots & m\n\\end{smallmatrix}\\right)$. Hence we write\n$$|C| = \\sum_{1\\le k_1<\\cdots<k_m\\le n}\n    A \\begin{pmatrix} 1 & 2 & \\cdots & m \\\\ k_1 & k_2 & \\cdots\n      & k_m \\end{pmatrix}\n    B \\begin{pmatrix} k_1 & k_2 & \\cdots & k_m \\\\\n      1 & 2 & \\cdots & m\\end{pmatrix},$$ which is the Cauchy-Binet\nformula.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyBinetFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cauchy-Binet formula",
+    "Binet-Cauchy formula"
+  ]
+}

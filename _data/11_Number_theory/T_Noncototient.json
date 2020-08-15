@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An integer $n > 0$ is called a [*noncototient*]{} if there is no\nsolution to $x - {\\phi}(x) = n$, where ${\\phi}(x)$ is Euler\u2019s totient\nfunction. The first few noncototients are 10, 26, 34, 50, 52, 58, 86,\n100, 116, 122, 130 (listed in A005278 of Sloane\u2019s OEIS).\n\nBrowkin and Schinzel proved in 1995 that there are infinitely many\nnoncototients. What is still unknown is whether they are all even.\nGoldbach\u2019s conjecture would seem to suggest that this is the case: given\na semiprime $pq$, it follows that\n$pq - {\\phi}(pq) = pq - (p - 1)(q - 1) = p + q - 1$, an odd number if\n$2 < p \\le q$.",
+  "language": "INFORMAL",
+  "phrase": "Noncototient",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Noncototient"
+    }
+  ],
+  "indexable": true
+}

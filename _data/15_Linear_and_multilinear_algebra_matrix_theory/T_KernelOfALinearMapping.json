@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "nullspace",
+    "null-space",
+    "kernel"
+  ],
+  "definition": "Let $T\\colon V\\to W$ be a linear mapping between vector spaces.\n\nThe set of all vectors in $V$ that $T$ maps to $0$ is called the\n*kernel* (or *nullspace*) of $T$, and is denoted $\\ker T$. So\n$$\\ker T = \\{\\, x \\in V\\mid T(x)=0\\,\\}.$$\n\nThe kernel is a vector subspace of $V$, and its is called the nullity of\n$T$.\n\nThe function $T$ is injective if and only if $\\ker T=\\{0\\}$ (see the ).\nIn particular, if the dimensions of $V$ and $W$ are equal and finite,\nthen $T$ is invertible if and only if $\\ker T=\\{0\\}$.\n\nIf $U$ is a vector subspace of $V$, then we have\n$$\\ker T|_U = U \\cap \\ker T,$$ where $T|_U$ is the of $T$ to $U$.\n\nWhen the linear mappings are given by means of matrices, the kernel of\nthe matrix $A$ is $$\\ker A=\\{\\,x\\in V \\mid Ax=0\\,\\}.$$",
+  "language": "INFORMAL",
+  "phrase": "Kernel Of A Linear Mapping",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KernelOfALinearMapping"
+    }
+  ],
+  "indexable": true
+}

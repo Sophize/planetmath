@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*partition function* ]{} $p(n)$ is defined to be the number of\npartitions of the integer $n$. The sequence of values\n$p(0), p(1), p(2),\\ldots$ is Sloane\u2019s A000041 and begins\n$1, 1, 2, 3, 5, 7, 11, 15, 22, 30, \\ldots$. This function grows very\nquickly, as we see in the following theorem due to Hardy and .\n\nAs $n \\rightarrow \\infty$, the ratio of $p(n)$ and\n$$\\frac{ e^{\\pi \\sqrt{ 2n/3} } } {4n \\sqrt{3} }$$ approaches 1.\n\nThe generating function of $p(n)$ is called $F$: by definition\n\n$$F(x) = \\sum _{n=0} ^\\infty p(n) x ^n.$$\n\n$F$ can be written as an infinite product:\n\n$$F(x) = \\prod _{i=1} ^\\infty (1-x^i) ^{-1}.$$ To see this, expand each\nterm in the product as a power series:\n\n$$\\label{product} \\prod _{i=1} ^\\infty  (1+ x^i + x^{2i} + x^{3i} + \\cdots ).$$\nNow expand this as a power series. Given a partition of $n$ with $a_i$\nparts of size $i \\geq 1$, we get a term $x^n$ in this expansion by\nchoosing $x^{a_1}$ from the first term in the product, $x^{2a_2}$ from\nthe second, $x^{3a_3}$ from the third and so on. Clearly any term $x^n$\nin the expansion arises in this way from a partition of $n$.\n\nOne can prove in the same way that the generating function $F_m$ for the\nnumber $p_m(n)$ of partitions of $n$ into at most $m$ parts (or\nequivalently into parts of size at most $m$) is\n\n$$F_m(x) = \\prod _{i=1} ^m (1-x^i) ^{-1}.$$\n\n[5]{} G. H. Hardy and E. M. Wright, [*An Introduction to the Theory of\nNumbers*]{}, Oxford University Press, 2003.",
+  "language": "INFORMAL",
+  "phrase": "Partition Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartitionFunction"
+    }
+  ],
+  "indexable": true
+}

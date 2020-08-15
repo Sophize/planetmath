@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\Sigma$ be a fixed signature, and ${\\mathfrak{A}}$ and\n${\\mathfrak{B}}$ two structures for $\\Sigma$. If\n$f\\colon {\\mathfrak{A}}\\to {\\mathfrak{B}}$ is a homomorphism, then\n$\\ker(f)$ is a congruence on ${\\mathfrak{A}}$.\n\nIf $F$ is an $n$-ary function symbol of $\\Sigma$, and\n$f(a_i) = f(a_i')$, then $$\\begin{aligned}\n f(F^{\\mathfrak{A}}(a_1, \\ldots, a_n)) &= F^{\\mathfrak{B}}(f(a_1), \\ldots, f(a_n)) \\\\\n &= F^{\\mathfrak{B}}(f(a_1'), \\ldots, f(a_n')) \\\\\n &= f(F^{\\mathfrak{A}}(a_1', \\ldots, a_n')). \\qedhere\n \\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KernelOfAHomomorphismIsACongruence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "kernel of a homomorphism is a congruence"
+  ]
+}

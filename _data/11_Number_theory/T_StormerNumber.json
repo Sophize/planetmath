@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Stormer number",
+    "St\\\"ormer number",
+    "arc-cotangent irreducible number"
+  ],
+  "definition": "A [*St[\u00f8]{}rmer number*]{} or [*arc-cotangent irreducible number*]{} is\na positive integer $n$ for which the greatest prime factor of $n^2 + 1$\nexceeds $2n$. The first few St[\u00f8]{}rmer numbers are 2, 4, 5, 6, 9, 10,\n11, 12, 14, 15, 16, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 33, 34, 35,\n36, 37, 39, 40, 42, 44, 45, 48, 49, etc., listed in A005528 of Sloane\u2019s\nOEIS. Weakening the inequality from ${\\textrm{gpf}}(n^2 + 1) > 2n$ to\n${\\textrm{gpf}}(n^2 + 1) \\geq 2n$ makes no difference other than\nadmitting 1 to the list (and possibly changing index offsets\naccordingly).\n\nThe St[\u00f8]{}rmer numbers arise in connection with the problem of\nrepresenting Gregory numbers $t_{\\frac{a}{b}}$ as sums of Gregory\nnumbers for integers. Conway and Guy explain in their book thus: \u201cTo\nfind St[\u00f8]{}rmer\u2019s decomposition for $t_{a / b}$, you repeatedly\nmultiply $a + bi$ by numbers $n \\pm i$ for which $n$ is a St[\u00f8]{}rmer\nnumber and the sign is chosen so that you can cancel the corresponding\nprime number $p$ ($n$ is the smallest number for which $n^2 + 1$ is\ndivisible by $p$).\u201d\n\nSt[\u00f8]{}rmer numbers are named after the Norwegian physicist .\n\n[2]{} John H. Conway & R. K. Guy, [*The Book of Numbers*]{}. New York:\nCopernicus Press (1996): 245 - 248. J. Todd, \u201cA problem on arc tangent\nrelations\u201d, [*Amer. Math. Monthly*]{}, [**56**]{} (1949): 517 - 528.",
+  "language": "INFORMAL",
+  "phrase": "St{\\O}Rmer Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StormerNumber"
+    }
+  ],
+  "indexable": true
+}

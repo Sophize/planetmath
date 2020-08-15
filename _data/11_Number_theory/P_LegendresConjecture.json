@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "(Adrien-Marie Legendre) There is always a prime number between a square\nnumber and the next. To put it algebraically, given an integer $n > 0$,\nthere is always a prime $p$ such that $n^2 < p < (n + 1)^2$. Put yet\nanother way, $(\\pi((n + 1)^2) - \\pi(n^2)) > 0$, where $\\pi(x)$ is the\nprime counting function.\n\nThis conjecture was considered unprovable when it was listed in Landau\u2019s\nproblems in 1912. Almost a hundred years later, the conjecture remains\nunproven even as similar conjectures (such as Bertrand\u2019s postulate) have\nbeen proven.\n\nBut progress has been made. Chen Jingrun proved a slightly weaker\nversion of the conjecture: there is either a prime $n^2 < p < (n + 1)^2$\nor a semiprime $n^2 < pq < (n + 1)^2$ (where $q$ is a prime unequal to\n$p$). Thanks to computers, brute force searches have shown that the\nconjecture holds true as high as $n = 10^5$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LegendresConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Legendre's conjecture"
+  ]
+}

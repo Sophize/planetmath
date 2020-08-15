@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "Wilson's prime-th recurrence",
+    "primeth recurrence",
+    "prime-th recurrence",
+    "primeth sequence",
+    "prime-th sequence"
+  ],
+  "definition": "Define $p_x$ to be the $x$-th prime number (for example, $p_{15} = 47$).\nThen define the recurrence $a_0 = 1$ and $a_n = p_{a_{n - 1}}$ for\n$n > 0$. This is [*Wilson\u2019s primeth recurrence*]{} which results in the\nsequence 1, 2, 3, 5, 11, 31, 127, 709, 5381, 52711, 648391, 9737333,\n174440041, ... (A7097 in Sloane\u2019s OEIS). Given the prime counting\nfunction $\\pi(x)$, the recurrence should check out thus:\n$\\pi(a_n) = a_{n - 1}$.\n\nIt suffices to mention Euclid\u2019s proof that there are infinitely many\nprimes to show that this recurrence is also infinite. However, the terms\nof this recurrence quickly become large enough to show the limitations\nof today\u2019s computational devices. Robert G. Wilson provided Sloane with\njust 15 terms. The last of those was shown to be erroneous by Paul\nZimmerman, who was able to extend the known sequence by just two more\nterms. In 2007, David Baugh discovered two more terms.\n\n[1]{} N. J. A. Sloane, \u201cMy Favorite Integer Sequences\" [*Sequences and\ntheir Applications (Proceedings of SETA \u201998)*]{}, Springer-Verlag,\nLondon, 1999, pp. 103-130.",
+  "language": "INFORMAL",
+  "phrase": "Wilson'S Primeth Recurrence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WilsonsPrimethRecurrence"
+    }
+  ],
+  "indexable": true
+}

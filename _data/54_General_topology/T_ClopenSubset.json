@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "clopen set",
+    "clopen",
+    "closed and open"
+  ],
+  "definition": "A subset of a topological space $X$ is called *clopen* if it is both\nopen and closed.\n\nThe clopen subsets form a Boolean algebra under the operation of union,\nintersection and complement. In other words:\n\n-   $X$ and $\\emptyset$ are clopen,\n\n-   the complement of a clopen set is clopen,\n\n-   finite unions and intersections of clopen sets are clopen.\n\nThe first follows by the definition of a topology, the second by noting\nthat complements of open sets are closed, and vice versa, and the third\nby noting that this property holds for both open and closed sets.\n\nOne application of clopen sets is that they can be used to describe\nconnectness. In particular, a topological space is connected if and only\nif its only clopen subsets are itself and the empty set. If a space has\nfinitely many connected components then each connected component is\nclopen. This may not be the case if there are infinitely many\ncomponents, as the case of the rational numbers demonstrates.",
+  "language": "INFORMAL",
+  "phrase": "Clopen Subset",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClopenSubset"
+    }
+  ],
+  "indexable": true
+}

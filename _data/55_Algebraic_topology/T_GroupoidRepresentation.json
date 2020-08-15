@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $q:E \\longrightarrow  M$ be a vector bundle, with $E$ the *total\nspace*, and $M$ a smooth manifold. Then, consider the representation\n$R_G$ of a group $G$ as an action on a vector space $V$, that is, as a\nhomomorphism $h: G \\longrightarrow  End(V)$, with $End(V)$ being the\ngroup of endomorphisms of the vector space $V$. The generalization of\nthe group representation to general representations of groupoids then\noccurs somewhat naturally by considering the on a vector bundle\n$E \\longrightarrow M$.\n\nLet ${\\mathcal G}$ be a groupoid, and given a vector bundle\n$q: E \\longrightarrow  M$ consider the *frame groupoid*\n$$\\Phi(E)=s,t: \\phi(E)\\longrightarrow  M,$$ with $\\phi(E)$ being the set\nof all vector space isomorphisms $\\eta: E_x \\longrightarrow  E_y$ over\nall pairs $(x,y) \\in M^2$, also with the associated structure maps.\nThen, a general *representation* $R_d$ of a groupoid ${\\mathcal G}$ is\ndefined as a homomorphism $R_d: {\\mathcal G}\\longrightarrow  \\Phi(E)$\n\n[**Example 0.1: Lie groupoid representations**]{}\n\nLet ${\\mathcal G}_L = s, t : G_1 \\longrightarrow M$ be a Lie groupoid. A\n*representation of a Lie groupoid*\n${\\mathcal G}_L = s, t : G_1 \\longrightarrow M$ on a vector bundle\n$q:E \\longrightarrow  M$ is defined as a smooth homomorphism (or a\nfunctor) $\\rho : {\\mathcal G}_L  \\longrightarrow \\Phi(E)$ of Lie\ngroupoids over $M$.\n\n[**Note:**]{} A *Lie groupoid representation* $\\rho$ thus yields a\nfunctor, $R: {\\mathcal G}_L \\longrightarrow {\\bf Vect},$ with\n${\\bf Vect}$ being the category of vector spaces and $R(x) = E_x$ being\nthe fiber at each $x \\in M$, as well as an isomorphism $R(g)$ for each\n$g: x \\to y$.\n\n[**Example 0.2: Group representations**]{} If one restricts the vector\nbundle to a single vector space in [**Definition 0.1**]{} then one\nobtains a group representation, in the same manner as a groupoid that\nreduces to a group when its object space is reduced to a single object.",
+  "language": "INFORMAL",
+  "phrase": "Groupoid Representation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupoidRepresentation"
+    }
+  ],
+  "indexable": true
+}

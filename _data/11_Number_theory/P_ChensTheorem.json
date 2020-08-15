@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Theorem. Every sufficiently large even integer $n$ can be expressed as\nthe sum of two primes $p + q$, or the sum of a prime and a semiprime\n$p + qr$, where $p$, $q$ and $r$ are all distinct primes. \u201cSufficiently\nlarge\u201d could mean $n > 60$. For example, 62 can be represented as\n$p + qr$ in seven different ways: $5 + 3 \\times 19$, $7 + 5 \\times 11$,\n$11 + 3 \\times 17$, etc.\n\nThis theorem was proven by Chen Jingrun in 1966 but had to delay\npublishing his results until 1973 because of political problems in his\nnative China. Chen\u2019s proof has been considered \u201ca highly technical\napplication of sieving methods.\u201d (Eisenstein et al, 2004) Ross\nsimplified Chen\u2019s proof almost a decade later. Still, a summary of the\nproof can run for dozens of pages. A much shorter, but excessively broad\nsummary that can fit in here goes something like this: reduction to\nsieving, estimation of sieving functions, search for upper bounds using\nthe Jurkat-Richert theorem, using a bilinear form inequality, and\njoining together of all these results to create a function that counts\nthe number of representations of a given number as either $p + q$ or\n$p + qr$, and showing that that function always returns a positive\ninteger when the given number is sufficiently large.\n\nThe Zumkeller-Lebl conjecture, an attempt to generalize Chen\u2019s theorem\nto odd numbers, and unproven as of 2008, states that sufficiently large\nintegers, be they even or odd, can also be represented as $p + qr$. To\nrepresent odd numbers this way, only one of the primes can be 2 (or both\n$q = r = 2$). Levy\u2019s conjecture, which applies only to odd numbers, has\n$q = 2$ and $p$ and $r$ both odd primes.\n\nSequence A100952 of Sloane\u2019s OEIS lists the known twenty-one small\nintegers that can\u2019t be expressed as specified by the theorem.\n\n[9]{} J. R. Chen, \u201cOn the representation of a larger even integer as the\nsum of a prime and the product of at most two primes,\u201d [*Sci. Sinica*]{}\n[**16**]{} (1973), 157 - 176. E. Eisenstein, L. Jain, A. Felix, \u201cA\nsummary of the proof of Chen\u2019s theorem\u201d. Ann Arbor: University of\nMichigan (2004) P. M. Ross, \u201cOn Chen\u2019s theorem that each large even\nnumber has the form $(p_1 + p_2)$ or $(p_1 + p_2p_3)$,\u201d [*J. London\nMath. Soc.*]{} [**10**]{} (1975), 500 - 506",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChensTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Chen's theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A non-associative algebra $A$ is *flexible* if $[\\ a,b,a\\ ]=0$ for all\n$a,b\\in A$, where $[\\ , , ]$ is the associator on $A$. In other words,\nwe have $(ab)a=a(ba)$ for all $a,b\\in A$. Any associative algebra is\nclearly flexible. Furthermore, any alternative algebra with\ncharacteristic $\\neq 2$ is flexible.\n\nGiven an element $a$ in a flexible algebra $A$, define the *left power*\nof $a$ iteratively as follows:\n\n1.  $L^1(a)=a$,\n\n2.  $L^n(a)=a\\cdot L^{n-1}(a)$.\n\nSimilarly, we can define the *right power* of $a$ as:\n\n1.  $R^1(a)=a$,\n\n2.  $R^n(a)=R^{n-1}(a)\\cdot a$.\n\nThen, we can show that $L^{n}(a)=R^{n}(a)$ for all positive integers\n$n$. As a result, in a flexible algebra, one can define the\n(multiplicative) power of an element $a$ as $a^n$ unambiguously.",
+  "language": "INFORMAL",
+  "phrase": "Flexible Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FlexibleAlgebra"
+    }
+  ],
+  "indexable": true
+}

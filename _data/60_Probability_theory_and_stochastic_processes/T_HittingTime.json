@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(X_n)_{n\\ge 0}$ be a Markov Chain. Then the *hitting time* for a\nsubset $A$ of $I$ (the indexing set) is the random variable:\n$$H^A = \\inf \\{n\\ge 0 : X_n\\in A\\}$$ (set $\\inf \\varnothing = \\infty$).\n\nThis can be thought of as the time before the chain is first in a state\nthat is a member of $A$.\n\nWite $h_i^A$ for the probability that, starting from $i\\in I$ the chain\never hits the set A: $$h_i^A = P(H^A <\\infty : X_0 = i)$$ When A is a\nclosed class, $h_i^A$ is the *absorption probability*.",
+  "language": "INFORMAL",
+  "phrase": "Hitting Time",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HittingTime"
+    }
+  ],
+  "indexable": true
+}

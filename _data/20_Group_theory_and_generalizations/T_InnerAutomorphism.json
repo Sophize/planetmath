@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "inner"
+  ],
+  "definition": "Let $G$ be a group. For every $x\\in G$, we define a mapping\n$$\\phi_x:G\\rightarrow G,\\quad y\\mapsto x y x^{-1},\\quad y\\in G,$$ called\nconjugation by $x$. It is easy to show the conjugation map is in fact, a\ngroup automorphism.\n\nAn automorphism of $G$ that corresponds to conjugation by some $x\\in G$\nis called *inner*. An automorphism that isn\u2019t inner is called an *outer*\nautomorphism.\n\nThe composition operation gives the set of all automorphisms of $G$ the\nstructure of a group, $\\operatorname{Aut}(G)$. The inner automorphisms\nalso form a group, $\\operatorname{Inn}(G)$, which is a normal subgroup\nof $\\operatorname{Aut}(G)$. Indeed, if $\\phi_x,\\;\nx\\in G$ is an inner automorphism and $\\pi:G\\rightarrow G$ an arbitrary\nautomorphism, then $$\\pi\\circ \\phi_x \\circ\\pi^{-1} = \\phi_{\\pi(x)}.$$\nLet us also note that the mapping $$x\\mapsto \\phi_x,\\quad x\\in G$$ is a\nsurjective group homomorphism with kernel $\\operatorname{Z}(G)$, the\ncentre subgroup. Consequently, $\\operatorname{Inn}(G)$ is naturally\nisomorphic to the quotient of $G/\\operatorname{Z}(G)$.\n\nNote: the above definitions and assertions hold, mutatis mutandi, if we\ndefine the conjugation action of $x\\in G$ on $B$ to be the right action\n$$y\\mapsto x^{-1} y x,\\quad y\\in G,$$ rather than the left action given\nabove.",
+  "language": "INFORMAL",
+  "phrase": "Inner Automorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InnerAutomorphism"
+    }
+  ],
+  "indexable": true
+}

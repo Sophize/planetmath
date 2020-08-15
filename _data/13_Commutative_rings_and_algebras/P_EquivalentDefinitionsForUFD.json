@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be an integral domain. Define\n$$T=\\{u\\in R\\ |\\ u\\mbox{ is invertible}\\}\\cup\\{p_1\\cdots p_n\\in R\\ |\\ p_i\\mbox{ is prime}\\}.$$\nOf course $0\\not\\in T$ and $T$ is a multiplicative subset (recall that a\nprime element multiplied by an invertible element is again prime).\nFurthermore $R$ is a UFD if and only if $T=R\\backslash\\{0\\}$ (see the\nparent object for more details).\n\n**Lemma.** If $a,b\\in R$ are such that $ab\\in T$, then both $a,b\\in T$.\n\n*Proof.* If $ab$ is invertible, then (since $R$ is commutative) both\n$a,b$ are invertible and thus they belong to $T$. Therefore assume that\n$ab$ is not invertible. Then $$ab=p_1\\cdots p_k$$ for some prime\nelements $p_i\\in R$. We can group these prime elements in such way that\n$p_1\\cdots p_n$ divides $a$ and $p_{n+1}\\cdots p_k$ divides $b$. Thus\n$a=\\alpha p_1\\cdots p_n$ and $b=\\beta p_{n+1}\\cdots p_k$ for some\n$\\alpha,\\beta\\in R$. Since $R$ is an integral domain we conclude that\n$\\alpha\\beta=1$, which means that both $\\alpha,\\beta$ are invertible in\n$R$. Therefore (for example) $\\alpha p_1$ is prime and thus $a\\in T$.\nAnalogously $b\\in T$, which completes the proof. $\\square$\n\n**Theorem. (Kaplansky)** An integral domain $R$ is a UFD if and only if\nevery nonzero prime ideal in $R$ contains prime element.\n\n*Proof.* Without loss of generality we may assume that $R$ is not a\nfield, because the thesis trivialy holds for fields. In this case $R$\nalways contains nonzero prime ideal (just take a maximal ideal).\n\n,,$\\Rightarrow$\u201d Let $P$ be a nonzero prime ideal. In particular $P$ is\nproper, thus there is nonzero $x\\in P$ which is not invertible. By\nassumption $x\\in T$ and since $x$ is not invertible, then there are\nprime elements $p_1,\\ldots, p_k\\in R$ such that $x=p_1\\cdots p_k\\in P$.\nBut $P$ is prime, therefore there is $i\\in\\{1,\\ldots, k\\}$ such that\n$p_i\\in P$, which completes this part.\n\n,,$\\Leftarrow$\u201d Assume that $R$ is not a UFD. Thus there is a nonzero\n$x\\in R$ such that $x\\not\\in T$. Consider an ideal $(x)$. We will show,\nthat $(x)\\cap T=\\emptyset$. Assume that there is $r\\in R$ such that\n$rx\\in T$. It follows that $x\\in T$ (by lemma). Contradiction.\n\nSince $(x)\\cap T=\\emptyset$ and $T$ is a multiplicative subset, then\nthere is a prime ideal $P$ in $R$ such that $(x)\\subseteq P$ and\n$P\\cap T=\\emptyset$ (please, see for more details). But we assumed that\nevery nonzero prime ideal contains prime element (and $P$ is nonzero,\nsince $x\\in P$). Obtained contradiction completes the proof. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquivalentDefinitionsForUFD"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "equivalent definitions for UFD"
+  ]
+}

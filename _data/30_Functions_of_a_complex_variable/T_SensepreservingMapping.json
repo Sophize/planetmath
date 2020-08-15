@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "orientation-preserving"
+  ],
+  "definition": "A continuous mapping which preserves the orientation of a Jordan curve\nis called sense-preserving or orientation-preserving. If on the other\nhand a mapping reverses the orientation, it is called sense-reversing.\n\nIf the mapping is furthermore differentiable then the above statement is\nequivalent to saying that the Jacobian is strictly positive at every\npoint of the domain.\n\nAn example of sense-preserving mapping is any conformal mapping\n$f : {\\mathbb{C}} \\rightarrow {\\mathbb{C}}$. If you however look at the\nmapping $g(z) := f(\\bar{z})$, then that is a sense-reversing mapping. In\ngeneral if $f : {\\mathbb{C}} \\rightarrow {\\mathbb{C}}$ is a smooth\nmapping then the Jacobian in fact is defined as\n$J = |f_z| - |f_{\\bar{z}}|$, and so a mapping is sense preserving if the\nmodulus of the partial derivative with respect to $z$ is strictly\ngreater then the modulus of the partial derivative with respect to\n$\\bar{z}$.\n\nThis does not that this notion is to the complex plane. For example\n$f : {\\mathbb{R}} \\rightarrow {\\mathbb{R}}$ defined by $f(x) = 2x$ is a\nsense preserving mapping, while $f(x) = x^2$ is sense preserving only on\nthe interval $(0,\\infty)$.",
+  "language": "INFORMAL",
+  "phrase": "Sense-Preserving Mapping",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SensepreservingMapping"
+    }
+  ],
+  "indexable": true
+}

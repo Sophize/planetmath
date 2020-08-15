@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "associative law of a monad",
+    "left and right identity laws of a monad"
+  ],
+  "definition": "A *monad* over a category $\\mathcal{C}$ is a triple $(T,\\eta,\\mu)$,\nwhere $T$ is an endofunctor of $\\mathcal{C}$, $\\eta$ is a natural\ntransformation from the identity functor on $\\mathcal{C}$, and $\\mu$ is\na natural transformations from $T\\circ T$ to $T$, such that the\nfollowing two properties hold:\n\n-   $\\mu\\circ(\\mu\\circ T)\\equiv\\mu\\circ(T\\circ\\mu)$\n\n-   $\\mu\\circ(T\\circ\\eta)\\equiv\\mathrm{id}_\\mathcal{C}\\equiv\\mu\\circ(\\eta\\circ T)$\n\nThese laws are illustrated in the following diagrams.\n\n  --------------------------------------------------------------------------------- --------------------------------------------------------------------------------\n                                    $$\\xymatrix{                                                                      $$\\xymatrix{\n   T^3(\\mathcal{C}) \\ar[rr]^{T\\mu_{\\mathcal{C}}} \\ar[dd]_{\\mu_{T(\\mathcal{C})}} &&          T(\\mathrm{id}_{\\mathcal{C}}(A)) \\ar[rr]^{T(\\eta_{\\mathcal{C}})}\n                   T^2(\\mathcal{C}) \\ar[dd]^{\\mu_{\\mathcal{C}}} \\\\                                      \\ar[ddrr]_{\\mathrm{id}_{\\mathcal{C}}} &&\n                                         \\\\                                                         T^2(\\mathcal{C}) \\ar[dd]^{\\mu_{\\mathcal{C}}} &&\n           T^2(\\mathcal{C}) \\ar[rr]_{\\mu_{\\mathcal{C}}} && T(\\mathcal{C})                              \\mathrm{id}_{\\mathcal{C}}(T(\\mathcal{C}))\n                                         }$$                                                                \\ar[ll]^{\\eta^{T(\\mathcal{C})}}\n                                                                                                        \\ar[ddll]_{\\mathrm{id}^{\\mathcal{C}}} \\\\\n                                                                                                                           \\\\\n                                                                                                                   && T(\\mathcal{C})\n                                                                                                                          }$$\n\n                   $\\mu\\circ(\\mu\\circ T)\\equiv\\mu\\circ(T\\circ\\mu)$                   $\\mu\\circ(T\\circ\\eta)\\equiv\\mathrm{id}_\\mathcal{C}\\equiv\\mu\\circ(\\eta\\circ T)$\n  --------------------------------------------------------------------------------- --------------------------------------------------------------------------------\n\nAs an application, monads have been successfully applied in the field of\nfunctional programming. A pure functional program can have no side\neffects, but some computations are frequently much simpler with such\nbehavior. Thus a mathematical model of computation such as a monad is\nneeded. In this case, monads serve to represent state transformations,\nmutable variables, and interactions between a program and its\nenvironment. For further information in this regard, see\nhttp://www.nomaware.com/monads/html/.",
+  "language": "INFORMAL",
+  "phrase": "Monad",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Monad"
+    }
+  ],
+  "indexable": true
+}

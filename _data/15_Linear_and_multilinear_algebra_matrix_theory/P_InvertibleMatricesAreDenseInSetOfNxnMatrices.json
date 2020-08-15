@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $A$ is any $n \\times n$ matrix with real or complex entries, Then\nthere are invertible matrices arbitrarily close to $A$, under any norm\nfor the $n \\times n$ matrices.\n\nThis is easily proven as follows. Take any invertible matrix $B$ (e.g.\n$B = I$), and consider the function (for $t \\in {\\mathbb{R}}$ or\n${\\mathbb{C}}$) $$p(t) = \\det\\bigl((1-t)A + tB \\bigr)\\,.$$ Clearly, $p$\nis a polynomial function. It is not identically zero, for\n$p(1) = \\det B  \\neq 0$. But a non-zero polynomial has only finitely\nmany zeroes, So given any single point $t_0$, if $t$ is close enough but\nunequal to $t_0$, $p(t)$ must be non-zero. In particular, applying this\nfor $t_0 = 0$, we see that the matrix $(1-t)A + tB$ is invertible for\nsmall $t \\neq 0$. And the distance of this matrix from $A$ is\n${\\lvertt\\rvert} \\, {\\lVertB-A\\rVert}$, which becomes small as $t$ gets\nsmall.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InvertibleMatricesAreDenseInSetOfNxnMatrices"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "invertible matrices are dense in set of nxn matrices"
+  ]
+}

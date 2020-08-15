@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\alpha,\\beta$ be ordinals. We define $\\alpha^\\beta$ as follows:\n$$\\alpha^\\beta:= \\left\\{\n\\begin{array}{ll}\n1 & \\textrm{if }\\beta=0,\\\\\n\\alpha^\\gamma\\cdot \\alpha & \\textrm{if $\\beta$ is a successor ordinal and }\\beta=S\\gamma, \\\\\n\\sup\\lbrace \\alpha^\\gamma \\mid \\gamma<\\beta \\rbrace & \\textrm{if $\\beta$ is a limit ordinal and }\\beta=\\sup\\lbrace \\gamma\\mid \\gamma<\\beta\\rbrace.\n\\end{array}\n\\right.$$\n\nSome properties of exponentiation:\n\n1.  $0^\\alpha=0$ if $\\alpha>0$\n\n2.  $1^\\alpha=1$\n\n3.  $\\alpha^1=\\alpha$\n\n4.  $\\alpha^\\beta\\cdot \\alpha^\\gamma=\\alpha^{\\beta+\\gamma}$\n\n5.  $(\\alpha^\\beta)^\\gamma=\\alpha^{\\beta\\cdot\\gamma}$\n\n6.  For any ordinals $\\alpha,\\beta$ with $\\alpha>0$ and $\\beta>1$, there\n    exists a unique triple $(\\gamma,\\delta,\\epsilon)$ of ordinals such\n    that $$\\alpha=\\beta^\\gamma\\cdot \\delta+\\epsilon$$ where\n    $0<\\delta<\\beta$ and $\\epsilon<\\beta^\\delta$.\n\nAll of these properties can be proved using transfinite induction.",
+  "language": "INFORMAL",
+  "phrase": "Ordinal Exponentiation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrdinalExponentiation"
+    }
+  ],
+  "indexable": true
+}

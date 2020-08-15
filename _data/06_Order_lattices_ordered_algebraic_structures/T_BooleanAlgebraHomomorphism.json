@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Boolean homomorphism"
+  ],
+  "definition": "Let $A$ and $B$ be Boolean algebras. A function $f:A\\to B$ is called a\n*Boolean algebra homomorphism*, or homomorphism for short, if $f$ is a\n$\\lbrace 0,1\\rbrace$- such that $f$ respects $'$: $f(a')=f(a)'$.\n\nTypically, to show that a function between two Boolean algebras is a\nBoolean algebra homomorphism, it is not necessary to check every\ndefining condition. In fact, we have the following:\n\n1.  if $f$ respects $'$, then $f$ respects $\\vee$ iff it respects\n    $\\wedge$;\n\n2.  if $f$ is a lattice homomorphism, then $f$ respects $0$ and $1$ iff\n    it respects $'$.\n\nThe first assertion can be shown by de Morgan\u2019s laws. For example, to\nsee the LHS implies RHS,\n$f(a\\wedge b)= f((a'\\vee b')')= f(a'\\vee b')'=((f(a')\\vee f(b'))'= f(a')'\\wedge f(b')'= f(a)'' \\wedge f(b)'' = f(a)\\wedge f(b)$.\nThe second assertion can also be easily proved. For example, to see that\nthe LHS implies RHS, we have that $f(a')\\vee f(a)= f(a'\\vee a)=f(1)=1$\nand $f(a')\\wedge f(a)=f(a'\\wedge a)=f(0)=0$. Together, this implies that\n$f(a')$ is the complement of $f(a)$, which is $f(a)'$.\n\nIf a function satisfies one, and hence all, of the above conditions also\nsatisfies the property that $f(0)=0$, for\n$f(0)=f(a\\wedge a')=f(a)\\wedge f(a')= f(a)\\wedge f(a)'=0$. Dually,\n$f(1)=1$.\n\nAs a Boolean algebra is an algebraic system, the definition of a Boolean\nalgebra homormphism is just a special case of an algebra homomorphism\nbetween two algebraic systems. Therefore, one may similarly define a\nBoolean algebra monomorphism, epimorphism, endormophism, automorphism,\nand isomorphism.\n\nLet $f:A\\to B$ be a Boolean algebra homomorphism. Then the *kernel* of\n$f$ is the set $\\lbrace a\\in A\\mid f(a)=0\\rbrace$, and is written\n$\\ker(f)$. Observe that $\\ker(f)$ is a Boolean ideal of $A$.\n\nLet $\\kappa$ be a cardinal. A Boolean algebra homomorphism $f:A\\to B$ is\nsaid to be $\\kappa$-complete if for any subset $C\\subseteq A$ such that\n\n1.  $|C|\\le \\kappa$, and\n\n2.  $\\bigvee C$ exists,\n\nthen $\\bigvee f(C)$ exists and is equal to $f(\\bigvee C)$. Here, $f(C)$\nis the set $\\lbrace f(c)\\mid c\\in C\\rbrace$. Note that again, by de\nMorgan\u2019s laws, if $\\bigwedge C$ exists, then $\\bigwedge f(C)$ exists and\nis equal to $f(\\bigwedge C)$. If we place no restrictions on the\ncardinality of $C$ (i.e., drop condition 1), then $f:A\\to B$ is said to\nbe a *complete Boolean algebra homomorphism*. In the categories of\n$\\kappa$-complete Boolean algebras and complete Boolean algebras, the\nmorphisms are $\\kappa$-complete homomorphisms and complete homomorphisms\nrespectively.",
+  "language": "INFORMAL",
+  "phrase": "Boolean Algebra Homomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BooleanAlgebraHomomorphism"
+    }
+  ],
+  "indexable": true
+}

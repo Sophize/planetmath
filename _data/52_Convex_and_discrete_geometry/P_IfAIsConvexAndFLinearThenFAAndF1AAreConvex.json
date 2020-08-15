@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $X$, $Y$ are vector spaces over ${\\mathbb{R}}$ (or\n${\\mathbb{C}}$), and suppose $f\\colon X\\to Y$ is a linear map.\n\n1.  If $A\\subseteq X$ is convex, then $f(A)$ is convex.\n\n2.  If $B\\subseteq Y$ is convex, then $f^{-1}(B)$ is convex, where\n    $f^{-1}$ is the inverse image.\n\nFor the first claim, suppose $y,y'\\in f(A)$, say, $y=f(x)$ and\n$y'=f(x')$ for $x,x'\\in A$, and suppose $\\lambda\\in (0,1)$. Then\n$$\\begin{aligned}\n  \\lambda y + (1-\\lambda)y' &=& \\lambda f(x) + (1-\\lambda ) f(x') \\\\\n    &=& f( \\lambda x + (1-\\lambda) x'),\\end{aligned}$$ so\n$\\lambda y + (1-\\lambda)y' \\in f(A)$ as $A$ is convex.\n\nFor the second claim, let us first recall that $x\\in f^{-1}(B)$ if and\nonly if $f(x)\\in B$. Then, if $x,x'\\in f^{-1}(B)$, and\n$\\lambda\\in (0,1)$, we have $$\\begin{aligned}\nf(\\lambda x + (1-\\lambda)x') &=& \\lambda f(x) + (1-\\lambda ) f(x').\\end{aligned}$$\nAs $B$ is convex, the right hand side belongs to $B$, and\n$\\lambda x + (1-\\lambda)x' \\in f^{-1}(B)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IfAIsConvexAndFLinearThenFAAndF1AAreConvex"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "if $A$ is convex and $f$ linear then $f(A)$ and $f^{-1}(A)$ are convex"
+  ]
+}

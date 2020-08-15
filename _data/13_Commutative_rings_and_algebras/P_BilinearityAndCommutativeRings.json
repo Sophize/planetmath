@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We show that a bilinear map $b:U\\times V\\to W$ is almost always\ndefinable only for commutative rings. The exceptions lie only where\nnon-trivial commutators act trivially on one of the three modules.\n\nLet $R$ be a ring and $U,V$ and $W$ be $R$-modules. If\n$b:U\\times V\\to W$ is $R$-bilinear then $b$ is also $R$-middle linear.\n\nGiven $r\\in R$, $u\\in U$ and $v\\in V$ then $b(ru,v)=rb(u,v)$ and\n$b(u,rv)=rb(u,v)$ so $b(ru,v)=b(u,rv)$.\n\nLet $R$ be a ring and $U,V$ and $W$ be faithful $R$-modules. If\n$b:U\\times V\\to W$ is $R$-bilinear and (left or right) non-degenerate,\nthen $R$ must be commutative.\n\nWe may assume that $b$ is left non-degenerate. Let $r,s\\in R$. Then for\nall $u\\in U$ and $v\\in V$ it follows that $$\\begin{gathered}\nb((sr)u,v)=sb(ru,v)=sb(u,rv)=b(su,rv)=b((rs)u,v).\\end{gathered}$$\nTherefore $b([s,r]u,v)=0$, where $[s,r]=sr-rs$. This makes $[s,r]u$ an\nelement of the left radical of $b$ as it is true for all $v\\in V$.\nHowever $b$ is non-degenerate so the radical is trivial and so\n$[s,r]u=0$ for all $u\\in U$. Since $U$ is a faithful $R$-module this\nmakes $[s,r]=0$ for all $s,r\\in R$. That is, $R$ is commutative.\n\nAlternatively we can interpret the result in a weaker fashion as:\n\nLet $R$ be a ring and $U,V$ and $W$ be $R$-modules. If\n$b:U\\times V\\to W$ is $R$-bilinear with $W=\\langle b(U,V)\\rangle$ then\nevery element $[R,R]$ acts trivially on one of the three modules $U$,\n$V$ or $W$.\n\nSuppose $[r,s]\\in [R,R]$, $[r,s]U\\neq 0$ and $[r,s]V\\neq 0$. Then we\nhave shown $0=b([r,s]u,v)=[r,s]b(u,v)$ for all $u\\in U$ and $v\\in V$. As\n$W=\\langle b(U,V)\\rangle$ it follows that $[r,s]W=0$.\n\nWhenever a non-commutative ring is required for a biadditive map\n$U\\times V\\to W$ it is therefore often preferable to use a scalar map\ninstead.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BilinearityAndCommutativeRings"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "bilinearity and commutative rings"
+  ]
+}

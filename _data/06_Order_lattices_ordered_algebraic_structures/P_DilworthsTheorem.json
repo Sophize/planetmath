@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $P$ is a poset with width $w<\\infty$, then $w$ is also the smallest\ninteger such that $P$ can be written as the union of $w$ chains.\n\n**Remark**. The smallest cardinal $c$ such that $P$ can be written as\nthe union of $c$ chains is called the *chain covering number* of $P$. So\nDilworth\u2019s theorem says that if the width of $P$ is finite, then it is\nequal to the chain covering number of $P$. If $w$ is infinite, then\nstatement is not true. The proof of Dilworth\u2019s theorem and its\ncounterexample in the infinite case can be found in the reference below.\n\n[6]{} J.B. Nation, \u201cLattice Theory\",",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DilworthsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Dilworth's theorem",
+    "Dilworth chain decomposition theorem"
+  ]
+}

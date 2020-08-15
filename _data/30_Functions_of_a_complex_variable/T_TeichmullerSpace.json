@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S_0$ be a Riemann surface. Consider all pairs $(S,f)$ where $S$ is\na Riemann surface and $f$ is a sense-preserving quasiconformal mapping\nof $S_0$ onto $S$. We say $(S_1,f_1) \\sim (S_2,f_2)$ if $f_2 \\circ\nf_1^{-1}$ is homotopic to a conformal mapping of $S_1$ onto $S_2$. In\nthis case we say that $(S_1,f_1)$ and $(S_2,f_2)$ are [*Teichm\u00fcller\nequivalent*]{}. The space of equivalence classes under this relation is\ncalled the [*Teichm\u00fcller space*]{} $T(S_0)$ and $(S_0,I)$ is called the\ninitial point of $T(S_0)$. The equivalence relation is called\n[*Teichm\u00fcller equivalence*]{}.\n\nThere exists a natural [*Teichm\u00fcller metric*]{} on $T(S_0)$, where the\ndistance between $(S_1,f_1)$ and $(S_2,f_2)$ is $\\log K$ where $K$ is\nthe smallest maximal dilatation of a mapping homotopic to\n$f_2 \\circ f_1^{-1}$.\n\nThere is also a natural isometry between $T(S_0)$ and $T(S_1)$ defined\nby a quasiconformal mapping of $S_0$ onto $S_1$. The mapping\n$(S,f) \\mapsto (S,f \\circ g)$ induces an isometric mapping of $T(S_1)$\nonto $T(S_0)$. So we could think of $T(\\cdot)$ as a contravariant\nfunctor from the category of Riemann surfaces with quasiconformal maps\nto the category of Teichm\u00fcller spaces (as a subcategory of metric\nspaces).\n\n[9]{} L. V. Ahlfors. **. Van Nostrand-Reinhold, Princeton, New Jersey,\n1966",
+  "language": "INFORMAL",
+  "phrase": "Teichm\\\"Uller Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TeichmullerSpace"
+    }
+  ],
+  "indexable": true
+}

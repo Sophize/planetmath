@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We here present a proof of the following theorem:\n\n$ e^r $ is irrational for all $ r\\in{\\mathbb{Q}}\\setminus\\{0\\} $\n\nTo begin with, note that it is sufficient to show that $ e^u $ is\nirrational for any [^1] $ u $ (for if $ e^r = e^{\\frac{u}{v}} $ were\nrational, so would $( e^{\\frac{u}{v}})^v = e^u $). Next, we look at some\nsimple properties of polynomial\n$ \\displaystyle f_n(x) := \\frac{x^n (1-x)^n}{n!} $:\n\n-   $ \\displaystyle f_n(x)=\\frac{1}{n!}\\sum_{i=n}^{2n} c_i x^i $, with\n    $ c_i \\in {\\mathbb{Z}}$ for all $ i $.\n\n-   $f_n^{(k)}(0)$ and $f_n^{(k)}(1)$ are integers for all\n    $ k\\in{\\mathbb{N}}_0 $: as $ 0 $ is a of order $ n $,\n    $ f_n^{(k)}(0)=0 $ unless $ n\\leq k\\leq 2n $, in which case\n    $ f_n^{(k)}(0)=\\frac{k!}{n!} c_k $, an integer. Since\n    $ f_n^{(k)}(x)=(-1)^k f_n^{(k)}(1-x) $, the same is true for\n    $ f_n^{(k)}(1) $.\n\n-   For all $ 0<x<1 $ we have $ 0<f_n(x)<\\frac{1}{n!} $.\n\nNow we can readily prove the theorem:\n\nAssume that $ e^u=\\frac{a}{b} $ for some $ (a,b)\\in{\\mathbb{N}}^2 $ and\nlet $$F_n(x) := \\sum_{k=0}^\\infty (-1)^k u^{2n-k} f_n^{(k)}(x),$$ which\nis actually a finite sum since $ f_n^{(k)}(x)=0 $ for all $ k>2n $.\nDifferentiating $ F_n(x) $ yields\n$ F_n'(x)= u^{2n+1} f_n(x) - u F_n(x) $ and thus:\n$$\\frac{d}{dx}\\left[e^{ux} F_n(x)\\right] = ue^{ux} F_n(x) + e^{ux} F'_n(x) = u^{2n+1} e^{ux} f_n(x).$$\nNow consider the sequence\n$$(w_n)_{n\\in{\\mathbb{N}}} := b\\int_0^1 u^{2n+1}e^{ux}f_n(x)\\,dx = b\\left[ e^{ux} F_n(x) \\right]^1_0 = a F_n(1) - b F_n(0).$$\nGiven the remarks on $ f_n(x) $, $ w_n $ should be an integer for all\n$ n\\in{\\mathbb{N}}$, yet it is clear that\n$ w_n < b u^{2n+1}\\frac{1}{n!} = \\frac{a}{n!} u^{2n+1} $ and so\n$ \\lim\\limits_{n\\to\\infty}w_n = 0 $, a contradiction.\n\nThe result could also easily have been obtained by starting with $ w_n $\nand integrating by parts $ 2n $ times. Note also that much stronger\nstatements are known, such as \u201c$ e^a $ is transcendental for all\n$ a\\in{\\mathbb{A}}\\setminus\\{0\\} $\u201d[^2]. We conclude this entry with the\nfollowing evident corollary:\n\nFor all $ r\\in{\\mathbb{Q}}^{+},\\: \\log r$ is irrational.\n\n[2]{} : *Proofs from THE BOOK*, 3$^\\mathrm{rd}$ edition (2004),\nSpringer-Verlag, 30\u201331. : *An Introduction to the Theory of Numbers*,\n5$^\\mathrm{th}$ edition (1979), Oxford University Press, 46\u201347.\n\n[^1]: In this entry, $ {\\mathbb{N}}:= \\{1,2,3,\\dotsc\\} $ and\n    ${\\mathbb{N}}_0 := {\\mathbb{N}}\\cup \\{0\\}$.\n\n[^2]: ${\\mathbb{A}}$ denotes the set of algebraic numbers.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ErIsIrrationalForRinmathbbQsetminus0"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$e^r$ is irrational for $r\\in\\mathbb{Q}\\setminus\\{0\\}$",
+    "$e^r$ is irrational for non-zero rational r",
+    "irrationality of the exponential function on $\\mathbb{Q}$"
+  ]
+}

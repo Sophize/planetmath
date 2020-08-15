@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "index set"
+  ],
+  "definition": "Let $\\Lambda$ and $S$ be sets such that there exists a surjection\n$f \\colon \\Lambda \\to S$. Then $\\Lambda$ is an *indexing set* for $S$.\nAlso, $S$ is *indexed by* $\\Lambda$.\n\nIn such situations, the elements of $S$ could be referenced by using the\nindexing set $\\Lambda$, such as $f(\\lambda)$ for some\n$\\lambda \\in \\Lambda$. On the other hand, quite often, indexing sets are\nused without explicitly defining a surjective function. When this\noccurs, the elements of $S$ are referenced by using *subscripts* (also\ncalled *indices*) which are elements of $\\Lambda$, such as $s_{\\lambda}$\nfor some $\\lambda \\in \\Lambda$. If, however, the surjection from\n$\\Lambda$ to $S$ were called $s$, this notation would be quite to the\nfunction notation: $s(\\lambda)=s_{\\lambda}$.\n\nIndexing sets are quite useful for describing sequences, nets,\nsummations, products, unions, and intersections.\n\nMultiple indices are possible. For example, consider the set\n$X=\\{x_{aa},x_{ab},x_{ac},x_{bb},x_{bc},x_{cc}\\}$. Some people would\nconsider the indexing set for $X$ to be $\\{aa,ab,ac,bb,bc,cc\\}$. Others\nwould consider the indexing set to be $\\{a,b,c\\} \\times \\{a,b,c\\}$. (The\ndouble indices can be considered as ordered pairs.) Thus, in the case of\nmultiple indices, it need not be the case that the underlying function\n$f$ be a surjection. On the other hand, $f$ must be a partial\nsurjection. For example, if a set $X$ is indexed by $A \\times B$, the\nfollowing must hold:\n\n1.  For every $x\\in X$, there exist $i\\in A$ and $j\\in B$ such that\n    $f(i,j)=x$;\n\n2.  For every $i\\in A$, the map $f_i \\colon B \\to X$ defined by\n    $f_i(j)=f(i,j)$ is a partial function;\n\n3.  For every $j\\in B$, the map $f_j \\colon A \\to X$ defined by\n    $f_j(i)=f(i,j)$ is a partial function.",
+  "language": "INFORMAL",
+  "phrase": "Indexing Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndexingSet"
+    }
+  ],
+  "indexable": true
+}

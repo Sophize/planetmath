@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a set. An [*ordering relation*]{} is a relation $\\leq$ on $S$\nsuch that, for every $a,b,c \\in S$:\n\n-   Either $a \\leq b$, or $b \\leq a$,\n\n-   If $a \\leq b$ and $b \\leq c$, then $a \\leq c$,\n\n-   If $a \\leq b$ and $b \\leq a$, then $a = b$.\n\nEquivalently, an ordering relation is a relation $\\leq$ on $S$ which\nmakes the pair $(S,\\leq)$ into a totally ordered set. [**Warning:**]{}\nIn some cases, an author may use the term \u201cordering relation\u201d to mean a\npartial order instead of a total order.\n\nGiven an ordering relation $\\leq$, one can define a relation $<$ by:\n$a < b$ if $a \\leq b$ and $a \\neq b$. The [*opposite ordering*]{} is the\nrelation $\\geq$ given by: $a \\geq b$ if $b \\leq a$, and the relation $>$\nis defined analogously.",
+  "language": "INFORMAL",
+  "phrase": "Ordering Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderingRelation"
+    }
+  ],
+  "indexable": true
+}

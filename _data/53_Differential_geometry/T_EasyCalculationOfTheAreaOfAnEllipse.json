@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Consider the unit circle\n$\\left \\{ \\right (x,y) \\in \\mathbb{R}^2 : x^2+y^2\\le 1\\}$. It\u2019s a well\nknown fact that the area of this set is $\\pi$.\n\nNow consider the following linear transformation\n$(x,y)\\to(u,v)=(ax,by)$.\n\nThe determinant of the transformation is $ab$ and the transformed circle\nis:\n\n$\\left \\{ \\right (u,v) \\in \\mathbb{R}^2 : \\left (\\frac{u}{a} \\right )^2 + \\left (\\frac{v}{b} \\right )^2 \\le 1\\}$\nan ellipse of axis $(a,b)$.\n\nNow since the Jacobian of the transformation is constant, the allows us\nto say the area of the transformed set is $ab$ times the area of the\noriginal set.\n\nThus, the area of an ellipse is $\\pi a b$.",
+  "language": "INFORMAL",
+  "phrase": "Easy Calculation Of The Area Of An Ellipse",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EasyCalculationOfTheAreaOfAnEllipse"
+    }
+  ],
+  "indexable": true
+}

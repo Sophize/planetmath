@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "postfix notation",
+    "RPN",
+    "Zciweisakul notation",
+    "reverse-Polish",
+    "reverse-Polish notation"
+  ],
+  "definition": "Whereas operators are traditionally placed between operands, with\nparentheses used to override operator precedence, it is possible to\nplace operators to the right of operands, thus eliminating ambiguity and\nthe need for parentheses, and even the need for rules of operator\nprecedence. This is known as *reverse Polish notation* (after the Polish\nmathematician Jan \u0141ukasiewicz who came up with Polish notation,\nabbreviated *RPN*), or *postfix notation*. Invented by Australian\nphilosopher Charles Hamblin, reverse Polish notation requires that the\nnumber of operands of a given operator be defined in advance.\n\nFor example, $3 \\times 16 - 1$ probably means 47, but if the possibility\nexists that the author meant but neglected to put in parentheses, the\nexpression could actually mean $3 \\times (16 - 1) = 45$. In reverse\nPolish notation, we could define the basic arithmetic operators to all\nbe binary, and write $3 \\quad 16 \\times 1 -$ with the confidence that it\nwill evaluate to 47 and not 45.\n\nReverse Polish notation is particularly advantageous for stack-based\nprogramming languages like Forth and Adobe PostScript. Most\nHewlett-Packard calculators use reverse Polish notation (though a few,\nsuch as the HP-38G, use the sort of infix notation conventional to most\ncalculators). Some beginning programming language courses give as an\nexercise to the student the implementation of an RPN calculator. Instead\nof having to remember multiple addresses for different variables and\nconstants, most RPN implementations use a stack and a stack pointer to\nkeep track of data.\n\nThe factorial notation (e.g., $n!$) is a fairly common use of postfix\nnotation in mostly infix contexts. (Most unary operators in C++ are\nprefix).\n\nTo convert from standard infix notation to reverse Polish notation, the\nDutch computer programmer Edsger Dijkstra came up with the shunting yard\nalgorithm.",
+  "language": "INFORMAL",
+  "phrase": "Reverse Polish Notation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ReversePolishNotation"
+    }
+  ],
+  "indexable": true
+}

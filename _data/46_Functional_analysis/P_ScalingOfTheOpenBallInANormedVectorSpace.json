@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $V$ be a vector space over a field $F$ (real or complex), and let\n$\\Vert\\cdot \\Vert$ be a norm on $V$. Further, for $r>0$, $v\\in V$, let\n$$B_r(v) = \\{ w\\in V: \\Vert w-v\\Vert < r \\}.$$ Then for any non-zero\n$\\lambda\\in F$, we have $$\\lambda B_r(v) = B_{|\\lambda| r}(\\lambda v).$$\n\nThe claim is clear for $\\lambda =0$, so we can assume that\n$\\lambda \\neq 0$. Then $$\\begin{aligned}\n\\lambda B_r(v) &=&  \\{ z\\in V: \\Vert w-v\\Vert < r\\ \\mbox{and}\\ z=\\lambda w \\} \\\\\n               &=&  \\{ z\\in V: \\Vert \\frac{z}{\\lambda}-v\\Vert < r \\} \\\\\n               &=&  \\{ z\\in V: \\Vert z-\\lambda v\\Vert < |\\lambda| r \\} \\\\\n               &=&  B_{|\\lambda| r}(\\lambda v).\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ScalingOfTheOpenBallInANormedVectorSpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "scaling of the open ball in a normed vector space"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The Lie bracket is an anticommutative, bilinear, first order\ndifferential operator on vector fields. It may be defined either in\nterms of local coordinates or in a global, coordinate-free fashion.\nThough both defintions are prevalent, it is perhaps easier to formulate\nthe Lie Bracket without the use of coordinates at all, as a commutator:\n\n[**Definition**]{} (Global, coordinate-free) Suppose $X$ and $Y$ are\nvector fields on a smooth manifold $M$. Regarding these vector fields as\noperators on functions, the Lie bracket is their commutator:\n$$\\begin{aligned}\n[X,Y](f)=X(Y(f))-Y(X(f)).\\end{aligned}$$\n\n[**Definition**]{} (Local coordinates) Suppose $X$ and $Y$ are vector\nfields on a smooth $n$-dimensional manifold $M$, suppose\n$(x^1,\\ldots, x^n)$ are local coordinates around some point $x\\in M$,\nand suppose that in these local coordinates $$\\begin{aligned}\nX(x)&=&X^i(x) \\frac{\\partial}{\\partial x^i}\\Big|_x, \\\\\nY(x)&=&Y^i(x) \\frac{\\partial}{\\partial x^i}\\Big|_x.\\end{aligned}$$ Then\nthe *Lie bracket* of the above vector fields is the locally defined\nvector field\n$$[X,Y](x) = X^i \\frac{\\partial Y^j}{\\partial x^i} \\frac{\\partial}{\\partial x^j}\\Big|_x-Y^i \\frac{\\partial X^j}{\\partial x^i} \\frac{\\partial}{\\partial x^j}\\Big|_x.$$\n(The Einstein summation convention employed in the above equations \u2014\nrepeated indices are to be summed from the range 1 to $n$.)\n\n### Properties {#properties .unnumbered}\n\nSuppose $X,Y,Z$ are smooth vector fields on a smooth manifold $M$.\n\n-   $[X,Y]=\\mathcal{L}_XY$ where $\\mathcal{L}_XY$ is the Lie derivative.\n\n-   $[\\cdot,\\cdot]$ is anti-symmetric and bi-linear.\n\n-   Vector fields on $M$ with the Lie bracket is a Lie algebra. That is\n    to say, the Lie bracket satisfies the Jacobi identity:\n    $$[X,[Y,Z]] + [Y,[Z,X]] + [Z,[X,Y]]=0.$$\n\n-   The Lie bracket is covariant with respect to changes of coordinates.",
+  "language": "INFORMAL",
+  "phrase": "Lie Bracket",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LieBracket"
+    }
+  ],
+  "indexable": true
+}

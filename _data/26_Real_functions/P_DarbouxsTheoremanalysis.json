@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f:[a,b]\\to{\\mathbb{R}}$ be a real-valued continuous function on\n$[a,b]$, which is differentiable on $(a,b)$, differentiable from the\nright at $a$, and differentiable from the left at $b$. Then $f'$ the\nintermediate value theorem: for every $t$ between $f'_{+}(a)$ and\n$f'_{-}(b)$, there is some $x\\in [a,b]$ such that $f'(x)=t$.\n\nNote that when $f$ is continuously differentiable ($f\\in C^1([a,b])$),\nthis is trivially true *by* the intermediate value theorem. But even\nwhen $f'$ is *not* continuous, Darboux\u2019s theorem places a severe\nrestriction on what it can be.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DarbouxsTheoremanalysis"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Darboux's theorem (analysis)",
+    "intermediate value property of the derivative"
+  ]
+}

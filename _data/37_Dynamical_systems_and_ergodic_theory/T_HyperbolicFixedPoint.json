@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a smooth manifold. A fixed point $x$ of a diffeomorphism\n$f\\colon M\\to M$ is said to be a **hyperbolic fixed point** if $Df(x)$\nis a linear hyperbolic isomorphism. If $x$ is a periodic point of least\nperiod $n$, it is called a **hyperbolic periodic point** if it is a\nhyperbolic fixed point of $f^n$ (the $n$-th iterate of $f$).\n\nIf the dimension of the stable manifold of a fixed point is zero, the\npoint is called a **source**; if the dimension of its unstable manifold\nis zero, it is called a **sink**; and if both the stable and unstable\nmanifold have nonzero dimension, it is called a **saddle**.",
+  "language": "INFORMAL",
+  "phrase": "Hyperbolic Fixed Point",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HyperbolicFixedPoint"
+    }
+  ],
+  "indexable": true
+}

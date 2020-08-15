@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "crosscap slide"
+  ],
+  "definition": "The [**y-homeomorphism**]{} also dubbed [**crosscap slide**]{}, is an\nauto-homeomorphism (or self-homeomorphism) which can be defined only for\n[**non orientable surfaces**]{} whose genus is greater than one.\n\nTo define it we take a punctured Klein bottle\n$K_0=K\\setminus{\\rm int}\\ D^2$ which can be consider as a pair of closed\nM\u00f6bius bands $M_1,M_2$, one sewed in the other by perforating with a\ndisk (being disjoint from $\\partial M_1$) and then identify the boundary\nof the second with the boundary of that disk, in symbols:\n$$K_0=(M_1\\setminus{\\rm int}\\ D^2)\\cup_{\\partial}M_2$$ where\n$\\partial =\\partial D^2=\\partial M_2$. Other way to visualizing that, is\nby consider $K_0$ as the connected sum of ${\\rm int}\\ M_1$ with a\nprojective plane ${\\mathbb{R}}P^2$.\n\nNow, thinking that the removed disk $D^2$ was located with its center at\nsome point in the core of $M_1$, the second band, $M_2$ will have a pair\nof points on that part of the core in common with $\\partial M_2$.\n\nSo, the y-homeomorphism is defined by a isotopy leaving the boundary\n$\\partial M_1$ fixed by sliding the second band $M_2$ one turn around\nthe core of $M_1$ till the original position. The result is an\nautomorphism of $K_0$ which maps $M_2$ into itself but reversing it.\n\nTo define this for genus greater than two just consider any other non\norientable surface as a connected sum of a Kein bottle plus projective\nplanes.\n\n1.  D.R.J. Chillingworth. [*A finite set of generators for the homeotopy\n    group of a non-orientable surface*]{}, Proc. Camb. Phil. Soc.\n    65(1969), 409-430.\n\n2.  M. Korkmaz. [*Mapping Class Groups of Non-orientable Surfaces*]{},\n    Geometriae Dedicata 89 (2002), 109-133.\n\n3.  W.B.R. Lickorish. [*Homeomorphisms of non-orientable\n    two-manifolds*]{}, Math. Proc. Camb. Phil. Soc. 59 (1963), 307-317.",
+  "language": "INFORMAL",
+  "phrase": "Y-Homeomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Yhomeomorphism"
+    }
+  ],
+  "indexable": true
+}

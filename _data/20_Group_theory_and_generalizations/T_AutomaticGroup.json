@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a finitely generated group. Let $A$ be a finite generating\nset for $G$ under inverses.\n\n$G$ is an *automatic group* if there is a language $L\\subseteq A^*$ and\na surjective map $f:L\\rightarrow G$ such that\n\n-   $L$ can be checked by a\n\n-   The language of all convolutions of $x,y$ where $f(x)=f(y)$ can be\n    checked by a\n\n-   For each $a\\in A$, the language of all convolutions of $x,y$ where\n    $f(x).a=f(y)$ can be checked by a\n\n$(A, L)$ is said to be an *automatic structure* for $G$.\n\nNote that by taking a finitely generated semigroup $S$, and some finite\ngenerating set $A$, these conditions define an *automatic semigroup*.",
+  "language": "INFORMAL",
+  "phrase": "Automatic Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AutomaticGroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given any family of sets $\\{A_j\\}_{j \\in J}$ indexed by an index set\n$J$, the *generalized Cartesian product* $$\\prod_{j \\in J} A_j$$ is the\nset of all functions $$f\\colon J \\to \\bigcup_{j \\in J} A_j$$ such that\n$f(j) \\in A_j$ for all $j \\in J$.\n\nFor each $i \\in J$, the *projection map*\n$$\\pi_i\\colon \\prod_{j \\in J} A_j \\to A_i$$ is the function defined by\n$$\\pi_i(f) := f(i).$$\n\nThe generalized Cartesian product is the in the category of sets.\n\nThe axiom of choice is the statement that the generalized Cartesian\nproduct of nonempty sets is nonempty. The generalized Cartesian product\nis usually called the Cartesian product.",
+  "language": "INFORMAL",
+  "phrase": "Generalized Cartesian Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedCartesianProduct"
+    }
+  ],
+  "indexable": true
+}

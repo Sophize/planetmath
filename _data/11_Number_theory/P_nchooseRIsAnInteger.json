@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For $n\\ge r \\ge 0$, the binomial coefficient $${n \\choose r}$$ is an\ninteger.\n\nThe proof is by induction on $n$. For $n=0$, the claim is clear. Thus,\nsuppose the claim holds for $n\\ge 1$. For $r=1,\\ldots, n$, Pascal\u2019s rule\ngives $${n +1 \\choose r} = {n\\choose r} + {n\\choose r-1}.$$ That is,\n${n +1 \\choose 1}, \\ldots, {n+1 \\choose n}$ are integers. Since\n$${n +1\\choose 0} = 1, \\quad   {n +1\\choose n+1} = 1$$ the proof is\ncomplete.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/nchooseRIsAnInteger"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "${n\\choose r}$ is an integer"
+  ]
+}

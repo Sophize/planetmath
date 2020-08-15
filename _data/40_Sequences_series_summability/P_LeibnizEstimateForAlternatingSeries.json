@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem (Leibniz 1682).** If $p_1 > p_2 > p_3 > \\cdots$ and\n$\\displaystyle\\lim_{m\\to\\infty}p_m = 0$, then the alternating series\n$$\\begin{aligned}\np_1-p_2+p_3-p_4+-\\ldots\\end{aligned}$$ converges. Its remainder term has\nthe same as the first omitted $\\pm p_{m+1}$ and the absolute value less\nthan $p_{m+1}$.\\\n[*Proof.*]{} The convergence of (1) is proved . Now denote the sum of\nthe series by $S$ and the partial sums of it by\n$S_1,\\,S_2,\\,S_3,\\,\\ldots$. Suppose that (1) is truncated after a\nnegative $-p_{2n}$. Then the remainder term\n$$R_{2n} \\;=\\; S\\!-\\!S_{2n}$$ may be written in the form\n$$R_{2n} \\;=\\; (p_{2n+1}-p_{2n+2})+(p_{2n+3}-p_{2n+4})+\\ldots$$ or\n$$R_{2n} \\;=\\; p_{2n+1}-(p_{2n+2}-p_{2n+3})-(p_{2n+4}-p_{2n+5})-\\ldots$$\nThe former shows that $R_{2n}$ is positive as the first omitted\n$p_{2n+1}$ and the latter that $|R_{2n}| < p_{2n+1}$. Similarly one can\nsee the assertions true when the series (1) is truncated after a\npositive $p_{2n-1}$.\\\n\n*A pictorial proof.*\n\n![image](leibniz-sequence.eps)\n\nAs seen in this diagram, whenever $m' > m$, we have\n${\\lvertS_{m'}\\!-\\!S_m\\rvert} \\leq p_{m+1} \\to 0$. Thus the partial sums\nform a Cauchy sequence, and hence converge. The limit lies in the of the\nspiral, strictly in $S_m$ and $S_{m+1}$ for any $m$. So the remainder\nafter the $m$th must have the same direction as\n$\\pm p_{m+1} = S_{m+1}\\!-\\!S_m$ and lesser magnitude.\\\n**Example 1.** The alternating series\n$$\\frac{1}{\\sqrt{2}-1}-\\frac{1}{\\sqrt{2}+1}\n+\\frac{1}{\\sqrt{3}-1}-\\frac{1}{\\sqrt{3}+1}\n+\\frac{1}{\\sqrt{4}-1}-\\frac{1}{\\sqrt{4}+1}+-\\ldots$$ does not fulfil the\nrequirements of the theorem and is divergent.\\\n**Example 2.** The alternating series\n$$\\frac{1}{\\ln{2}}-\\frac{1}{\\ln{3}}+\\frac{1}{\\ln{4}}-\\frac{1}{\\ln{5}}+-\\ldots$$\nsatisfies all conditions of the theorem and is convergent.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeibnizEstimateForAlternatingSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Leibniz' estimate for alternating series",
+    "Leibniz' estimate for remainder term"
+  ]
+}

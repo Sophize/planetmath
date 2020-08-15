@@ -1,0 +1,17 @@
+{
+  "argumentText": "It is enough to prove the following\n\nLet $(X,\\mu)$ be a measurable space and let\n$f_k\\colon X\\to {\\mathbb R}\\cup\\{+\\infty\\}$ be a monotone increasing\nsequence of positive measurable functions (i.e.\n$0\\le f_1 \\le f_2 \\le \\ldots$). Then $f(x)=\\lim_{k\\to \\infty} f_k(x)$ is\nmeasurable and\n$$\\lim_{n\\to\\infty} \\int_X f_k\\, d\\mu = \\int_{X} f(x) \\, d\\mu.$$\n\nFirst of all by the monotonicity of the sequence we have\n$$f(x)= \\sup_k f_k(x)$$ hence we know that $f$ is measurable. Moreover\nbeing $f_k\\le f$ for all $k$, by the monotonicity of the integral, we\nimmediately get $$\\sup_k \\int_X f_k\\, d\\mu \\le \\int_X f(x)\\, d\\mu.$$\n\nSo take any simple measurable function $s$ such that $0\\le s \\le f$.\nGiven also $\\alpha<1$ define\n$$E_k = \\{ x \\in X \\colon f_k(x) \\ge \\alpha s(x)\\}.$$ The sequence $E_k$\nis an increasing sequence of measurable sets. Moreover the union of all\n$E_k$ is the whole space $X$ since\n$\\lim_{k\\to\\infty} f_k(x)=f(x) \\ge s(x) > \\alpha s(x)$. Moreover it\nholds\n$$\\int_X f_k\\, d\\mu \\ge \\int_{E_k} f_k\\, d\\mu \\ge \\alpha\\int_{E_k} s\\, d\\mu.$$\nSince $s$ is a simple measurable function it is easy to check that\n$E\\mapsto \\int_E s\\, d\\mu$ is a measure and hence\n$$\\sup_k \\int_X f_k\\, d\\mu \\ge \\alpha \\int_X s\\, d\\mu.$$ But this last\ninequality holds for every $\\alpha<1$ and for all simple measurable\nfunctions $s$ with $s\\le f$. Hence by the definition of Lebesgue\nintegral $$\\sup_k \\int_X f_k \\, d\\mu \\ge \\int_X f\\, d\\mu$$ which\ncompletes the proof.",
+  "conclusion": "#P_MonotoneConvergenceTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfMonotoneConvergenceTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of monotone convergence theorem"
+  ]
+}

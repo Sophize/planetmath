@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hamming weight enumerator"
+  ],
+  "definition": "Let $A$ be an alphabet and $C$ a finite subset of $A^*$. Then the\n*complete weight enumerator* of $C$, denoted by $\\operatorname{cwe}_C$,\nis the polynomial in $|A|$ indeterminates $X_a$ labeled by the letters\nof $a\\in A$ with integer coefficients defined by\n$$\\operatorname{cwe}_C((X_a)_{a\\in A}):={\\sum\\limits}_{c\\in C}{\\prod\\limits}_{a\\in A}X_a^{\\operatorname{wt}_a(c)},$$\nwhere $\\operatorname{wt}_a(c)$ is the $a$-weight of the string $c$.\n\nIf $A$ is an abelian group, one defines the *Hamming weight enumerator*\nof $C$, denoted by $\\operatorname{we}_C$, as a polynomial in only two\nindeterminates $X$ and $Y$:\n$$\\operatorname{we}_C(X,Y):=\\operatorname{cwe}_C((X_a)_{a\\in A})\\vert_{\\begin{array}{l}\\scriptstyle X_0=X\\\\\\scriptstyle X_a=Y\\text{ if\n  }a\\neq 0\\end{array}},$$ that is one distinguishes only between zero\nand the non-zero letters of the strings in $C$.\n\nIf $C$ is a code of block length $n$, then both $\\operatorname{cwe}_C$\nand $\\operatorname{we}_C$ are $n$. Therefore, one can set $Y=1$ in\n$\\operatorname{we}_C$ in this case without losing information. The\nresulting polynomial can be uniquely rewritten in the form\n$$\\operatorname{we}_C(X,1)={\\sum\\limits}_{i=0}^nA_iX^{n-i},$$ the\nsequence $A_0,\\ldots A_n$ defining the *Hamming weight distribution*.\nAnalogously, one can define more general weight distributions by setting\nall but one indeterminate in $\\operatorname{cwe}_C((X_a)_{a\\in A})$\nequal to one.\n\n### Examples {#examples .unnumbered}\n\n-   Let $C$ be the ternary (that is $A={\\mathbb}{F}_3=\\{0,1,2\\}$) linear\n    code of block length $4$ the vectors $(1,1,1,1)$, $(1,1,0,0)$ and\n    $(1,0,1,0)$. Then\n    $$\\operatorname{cwe}_C(X_0,X_1,X_2)=X_0^4+4X_0^2X_1^2+4X_0^2X_1X_2+4X_0^2X_2^2+4X_0X_1^2X_2+4X_0X_1X_2^2+X_1^4+4X_1^2X_2^2+X_2^4$$\n    and $$\\operatorname{we}_C(X,Y)=X^4+12X^2Y^2+8XY^3+6Y^4$$ and the\n    Hamming weight distribution is $1,0,12,8,6$.\n\n-   The Hamming weight enumerator of the full binary code of length $n$,\n    ${\\mathbb}{F}_2^n$, is simply given by\n    $\\operatorname{we}_{{\\mathbb}{F}_2^n}(X,Y)=(X+Y)^n$, and the Hamming\n    weight distribution is the $n$-th of Pascal\u2019s triangle.",
+  "language": "INFORMAL",
+  "phrase": "Weight Enumerator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeightEnumerator"
+    }
+  ],
+  "indexable": true
+}

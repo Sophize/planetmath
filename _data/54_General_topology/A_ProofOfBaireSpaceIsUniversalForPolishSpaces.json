@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $X$ be a nonempty Polish space. We construct a continuous onto map\n$f\\colon \\mathcal{N}\\rightarrow X$, where $\\mathcal{N}$ is Baire space.\n\nLet $d$ be a complete metric on $X$. We choose nonempty closed subsets\n$C(n_1,\\ldots,n_k)\\subseteq X$ for all integers $k\\ge 0$ and\n$n_1,\\ldots,n_k\\in\\mathbb{N}$ satisfying the following.\n\n1.  $C()=X$.\n\n2.  $C(n_1,\\ldots,n_k)$ has diameter no more than $2^{-k}$.\n\n3.  For any $k\\ge 0$ and $n_1,\\ldots n_k\\in\\mathbb{N}$ then\n    $$\\label{eq:1}\n    C(n_1,\\ldots,n_k)=\\bigcup_{m=1}^\\infty C(n_1,\\ldots,n_k,m).$$\n\nThis can be done by induction. Suppose that the set\n$S=C(n_1,\\ldots,n_k)$ has already been chosen for some $k\\ge 0$. As $X$\nis separable, $S$ can be covered by a sequence of closed sets\n$S_1,S_2,\\ldots$. Replacing $S_j$ by $S_j\\cap S$, we suppose that\n$S_j\\subseteq S$. Then, remove any empty sets from the sequence. If the\nresulting sequence is finite, then it can be extended to an infinite\nsequence by repeating the last term. We can then set\n$C(n_1,\\ldots,n_k,n_{k+1})=S_{n_{k+1}}$.\n\nWe now define the function $f\\colon\\mathcal{N}\\rightarrow X$. For any\n$n\\in\\mathbb{N}$ choose a sequence $x_k\\in C(n_1,\\ldots,n_k)$. Since\nthis has diameter no more than $2^{-k}$ it follows that\n$d(x_j,x_k)\\le 2^{-k}$ for $j\\ge k$. So, the sequence is and has a limit\n$x$. As the sets $C(n_1,\\ldots,n_k)$ are closed, they contain $x$ and,\n$$\\label{eq:2}\n\\bigcap_{k=1}^\\infty C(n_1,\\ldots,n_k)\\not=\\emptyset.$$ In fact, this\nhas diameter zero, and must contain a single element, which we define to\nbe $f(n)$.\n\nThis defines the function $f\\colon\\mathcal{N}\\rightarrow X$. We show\nthat it is continuous. If $m,n\\in\\mathcal{N}$ satisfy $m_j=n_j$ for\n$j\\le k$ then $f(m),f(n)$ are in $C(m_1,\\ldots,m_k)$ which, having\ndiameter no more than $2^{-k}$, gives $d(f(m),f(n))\\le 2^{-k}$. So, $f$\nis indeed continuous.\n\nFinally, choose any $x\\in X$. Then $x\\in C()$ and equation (\\[eq:1\\])\nallows us to choose $n_1,n_2,\\ldots$ such that $x\\in C(n_1,\\ldots,n_k)$\nfor all $k\\ge 0$. If $n=(n_1,n_2,\\ldots)$ then $x$ and $f(n)$ are both\nin the set in equation (\\[eq:2\\]) which, since it is a singleton, gives\n$f(n)=x$. Hence, $f$ is onto.",
+  "conclusion": "#P_BaireSpaceIsUniversalForPolishSpaces",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBaireSpaceIsUniversalForPolishSpaces"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Baire space is universal for Polish spaces"
+  ]
+}

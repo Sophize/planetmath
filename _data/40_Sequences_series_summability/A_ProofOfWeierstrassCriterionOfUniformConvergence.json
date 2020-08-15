@@ -1,0 +1,17 @@
+{
+  "argumentText": "The assumption that $|f_n(x)| \\le M_n$ for every $x$ guarantees that\neach numerical series $\\sum_n f_n(x)$ converges absolutely. We call the\nlimit $f(x)$.\n\nTo see that the convergence is uniform: let $\\epsilon>0$. Then there\nexists $K$ such that $n>K$ implies $\\sum_{n>K} M_n < \\epsilon$. Now, if\n$k>K$,\n\n$$|f(x)-\\sum_{n=1}^k f_n(x)| = |\\sum_{n>k} f_n(x) | \\le\n\\sum_{n>k} |f_n(x)| \\le \\sum_{n>k} M_n < \\epsilon$$\n\nThe $\\epsilon$ does not depend on $x$, so the convergence is uniform.",
+  "conclusion": "#P_WeierstrassCriterionOfUniformConvergence",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfWeierstrassCriterionOfUniformConvergence"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Weierstrass' criterion of uniform convergence"
+  ]
+}

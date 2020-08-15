@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let the real function $f$ be defined and differentiable on the open\ninterval $I$. Then for every $x \\in I$, there exists the value $f'(x)$\nas a certain real number. This means that we have a new function\n$$\\begin{aligned}\nx \\mapsto f'(x),\\end{aligned}$$ the so-called [*derivative function*]{}\nof $f$; it is denoted by $$f':\\, I\\to \\mathbb{R}$$ or simply $f'$.\n\nForming the derivative function of a function is called\n[*differentiation*]{}, the corresponding verb is [*differentiate*]{}.\n\nIf the derivative function $f'$ is differentiable on $I$, then we have\nagain a new function, the derivative function of the derivative function\nof $f$, which is denoted by $f''$. Then $f$ is said to be *twice\ndifferentiable*. Formally,\n$$f''(x) = \\lim_{h\\to 0}\\frac{f'(x+h)-f'(x)}{h}\\quad \\mathrm{for\\,all\\,}\\,x\\in I.$$\nThe function $x\\mapsto f''(x)$ is called the or [*the second\nderivative*]{} of $f$. Similarly, one can call (1) the of $f$.\n\n**Example.** The first derivative of $x\\mapsto x^3$ is $x\\mapsto 3x^2$\nand the second derivative is $x\\mapsto 6x$, since\n$$\\frac{d}{dx}(3x^2) = 2\\cdot 3x^{2-1} = 6x.$$\n\nIf also $f''$ is a differentiable function, its derivative function is\ndenoted by $f'''$ and called the of $f$, and so on.\n\nGenerally, $f$ can have the derivatives of first, second, third, \u2026,\n$n$th order, where $n$ may be an arbitrarily big positive integer. If\n$n$ is four or greater, the $n$th derivative of $f$ is usually denoted\nby $f^{(n)}$. In , it\u2019s sometimes convenient to think that the $0$[*th\norder derivative*]{} $f^{(0)}$ of $f$ is the function $f$ itself.\n\nThe phrase \u201c$f$ is infinitely differentiable\u201d means that $f$ has the\nderivatives of all .",
+  "language": "INFORMAL",
+  "phrase": "Higher Order Derivatives",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HigherOrderDerivatives"
+    }
+  ],
+  "indexable": true
+}

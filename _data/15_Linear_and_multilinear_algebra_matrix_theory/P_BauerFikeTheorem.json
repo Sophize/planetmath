@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\tilde{\\lambda}$ be a complex number and $\\tilde{u}$ be a vector\nwith $ \\Vert\\tilde{u}\\Vert _p = 1$, and let\n$r = A \\tilde{u} - \\tilde{\\lambda} \\tilde{u}$ (usually,\n$\\tilde{\\lambda}$ and $\\tilde{u}$ are considered to be approximation of\nan eigenvalue and of an eigenvector of $A$). Assume $A$ is\ndiagonalizable and $A = XDX^{-1}$, with $D$ a diagonal matrix. Then the\nmatrix $A$ has an eigenvalue $\\lambda$ which satisfies the inequality:\n$$|\\lambda - \\tilde{\\lambda}| \\leq \\kappa_p(X) \\|r\\|_p$$\n\n**see also:**\n\n-   Wikipedia,",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BauerFikeTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Bauer-Fike theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be a subset of a topological space $X$.\n\nThe union of all open sets contained in $A$ is defined to be the\n*interior* of $A$. Equivalently, one could define the interior of $A$ to\nthe be the largest open set contained in $A$.\n\nIn this entry we denote the interior of $A$ by $\\int(A)$. Another common\nnotation is $A^\\circ$.\n\nThe *exterior* of $A$ is defined as the union of all open sets whose\nintersection with $A$ is empty. That is, the exterior of $A$ is the\ninterior of the complement of $A$.\n\nThe interior of a set enjoys many special properties, some of which are\nlisted below:\n\n1.  $\\int(A)\\subseteq A$\n\n2.  $\\int(A)$ is open\n\n3.  $\\int(\\int(A))=\\int(A)$\n\n4.  $\\int(X)=X$\n\n5.  $\\int(\\emptyset)=\\emptyset$\n\n6.  $A$ is open if and only if $A=\\int(A)$\n\n7.  $\\overline{A^\\complement}=(\\int(A))^\\complement$\n\n8.  $\\overline{A}^\\complement = \\int(A^\\complement)$\n\n9.  $A\\subseteq B$ implies that $\\int(A)\\subseteq \\int(B)$\n\n10. $\\int(A)=A\\setminus \\partial A$, where $\\partial A$ is the boundary\n    of $A$\n\n11. $X=\\int(A)\\cup \\partial A \\cup \\int(A^\\complement)$\n\n[9]{} S. Willard, *General Topology*, Addison-Wesley Publishing Company,\n1970.",
+  "language": "INFORMAL",
+  "phrase": "Interior",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Interior"
+    }
+  ],
+  "indexable": true
+}

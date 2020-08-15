@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Minkowski space* is a 4 dimensional real vector space with a\nnon-degenerate pseudo-metric of signature $(-+++)$.\n\nMore precisely, $M$ with a metric $g$ is a Minkowski space iff:\n\n-   $M$ is a 4 dimensional real vector space\n\n-   $g$ is a symmetric 2-covariant tensor (defines a quadratic form )\n\n-   $g$ is non-degenerate (i.e.\n    $\\forall {x\\in M}, g(x,y) = 0 \\implies y=0$)\n\n-   the of $g$ contains one negative and three positive diagonal\n    entries[^1].\n\n[^1]: this convention is sometimes reversed depending on notation",
+  "language": "INFORMAL",
+  "phrase": "Minkowski Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinkowskiSpace"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A special case of the of functions is the [*antiperiodicity*]{}. An\n[*antiperiodic*]{} function $f$ satisfies for a certain constant $p$ the\nequation $$f(z+p) \\;=\\; -f(z)$$ for all values of the variable $z$. The\nconstant $p$ is the [*antiperiod*]{} of $f$. Then, $f$ has also other\nantiperiods, e.g. $-p$, and generally $(2n\\!+\\!1)p$ with any\n$n \\in \\mathbb{Z}$.\n\nThe antiperiodic function $f$ is always as well periodic with period\n$2p$, since\n$$f(z+2p) \\;=\\; f((z+p)+p) \\;=\\; -f(z+p) \\;=\\; -(-f(z)) \\;=\\;\nf(z).$$ Naturally, then there are all periods $2np$ with\n$n \\in \\mathbb{Z}$.\n\nNot all periodic functions are antiperiodic.\\\nFor example, the sine and cosine functions are antiperiodic with\n$p = \\pi$, which is their absolutely least antiperiod:\n$$\\sin(z+\\pi) \\;=\\; -\\sin{z}, \\qquad \\cos(z+\\pi) \\;=\\; -\\cos{z}$$ The\nand cotangent functions are not antiperiodic although they are periodic\n(with the prime period $\\pi$; see complex tangent and cotangent).\n\nThe exponential function is antiperiodic with the antiperiod $i\\pi$ (see\nEuler relation): $$e^{z+i\\pi}\\;=\\; e^z e^{i\\pi} \\;=\\; -e^z$$",
+  "language": "INFORMAL",
+  "phrase": "Antiperiodic Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AntiperiodicFunction"
+    }
+  ],
+  "indexable": true
+}

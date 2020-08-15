@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "decidable set",
+    "computable set",
+    "decidable predicate",
+    "computable predicate"
+  ],
+  "definition": "A subset $S$ of the natural numbers $\\mathbb{N}$ is said to be\n*recursive* if its characteristic function $$\\begin{aligned}\n\\chi_S(x) &:=& \\left\\{\n\\begin{array}{ll}\n1 & \\mbox{ if } x\\in S \\\\\n0 & \\mbox{ if } x\\in \\mathbb{N}-S\n\\end{array}\\right.\\end{aligned}$$ is recursive (computable). In other\nwords, there is an algorithm (via Turing machine for example) that\ndetermines whether an element is in $S$ or not in $S$.\n\nMore generally, a subset $S\\subseteq \\mathbb{N}^n$ is *recursive* if its\ncharacteristic function $f_S$ is recursive.\n\nA recursive set is also known as a *decidable set* or a *computable\nset*.\n\nExamples of recursive sets are finite subset of $\\mathbb{N}$, the set\n$\\mathbb{N}$ itself, the set of even integers, the set of Fibonacci\nnumbers, the set of pairs $(a,b)$ where $a$ divides $b$, and the set of\nprime numbers. In the last example, one may use the Sieve of\nEratosthenes as an algorithm to determine the primality of an integer.\n\nA set $S\\subseteq \\mathbb{N}$ is *recursively enumerable* if the partial\nfunction $$\\begin{aligned}\nf(x) &:=& \\left\\{\n\\begin{array}{ll}\n1 & \\mbox{ if } x\\in S \\\\\n\\mbox{undefined} & \\mbox{ if } x\\in \\mathbb{N}-S\n\\end{array}\\right.\\end{aligned}$$ is computable. In other words, there\nis an algorithm that halts (and returns $1$) only when an element in $S$\nis used as an input.\n\n**Remarks**\n\n-   A special case of a recursive set is that of a *primitive recursive\n    set*. A set is *primitive recursive* if its characteristic function\n    is . All of the examples cited above are primitive recursive.\n\n-   On the other hand, one can broaden the scope of recursiveness to\n    sets which are not necessarily subsets of $\\mathbb{N}^n$. Below are\n    two examples:\n\n    -   Since $\\mathbb{Z}$ can be effectively embedded in $\\mathbb{N}$,\n        so the notion of recursive sets be extended to subsets of\n        $\\mathbb{Z}$.\n\n    -   Since every finite set $\\Sigma$ can be encoded by the natural\n        numbers, we can define a *recursive language* over $\\Sigma$ to\n        be a subset $L\\subseteq \\Sigma^*$ such that $L$, when encoded by\n        the natural numbers, is a recursive set. Equivalently, $L$ is\n        recursive iff there is a Turing machine that decides $L$\n        (accepts $L$ and rejects $\\Sigma^*-L$).\n\n-   Similarly, recursive enumerability can be defined on languages: a\n    language $L$ over $\\Sigma$ is *recursively enumerable* if its\n    encoding by the natural numbers is a recursively enumerable set.\n    This is equivalent to saying that $L$ is accepted by a Turing\n    machine.\n\n-   Using the above definition, one can define a *recursive predicate*\n    or a *recursively enumerable predicate* $\\varphi(x)$ according to\n    whether $\\lbrace x\\mid \\varphi(x)\\rbrace$ is a recursive or\n    recursively enumerable set respectively.",
+  "language": "INFORMAL",
+  "phrase": "Recursive Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RecursiveSet"
+    }
+  ],
+  "indexable": true
+}

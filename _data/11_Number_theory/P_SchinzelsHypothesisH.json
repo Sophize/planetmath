@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let a set of irreducible polynomials $P_1,P_2,P_3,...,P_k$ with integer\ncoefficients have the property that for any prime $p$ there exists some\n$n$ such that $P_1(n)P_2(n)...P_k(n) \\not\\equiv 0 (mod\\; p)$. Schinzel\u2019s\nHypothesis H that there are infinitely many values of $n$ for which\n$P_1(n),P_2(n),...,$ and $P_k(n)$ are all prime numbers.\n\nThe 1st condition is necessary since if $P_i$ is reducible then $P_i(n)$\ncannot be prime except in the finite number of cases where all but one\nof its factors are equal to 1 or -1. The second condition is necessary\nas otherwise there will always be at least 1 of the $P_i(n)$ divisible\nby $p$; and thus not all of the $P_i(n)$ are prime except in the finite\nnumber of cases where one of the $P_i(n)$ is equal to $p$.\n\nIt includes several other conjectures, such as the twin prime\nconjecture.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchinzelsHypothesisH"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Schinzel's Hypothesis H"
+  ]
+}

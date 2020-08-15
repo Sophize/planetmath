@@ -1,0 +1,17 @@
+{
+  "argumentText": "$f$ is continuous, so it will transform compact sets into compact sets.\nThus since $[a,b]$ is compact, $f([a,b])$ is also compact. $f$ will thus\nattain on the interval $[a,b]$ a maximum and a minimum value because\nreal compact sets are closed and bounded.\n\nConsider the maximum and later use the same argument for $-f$ to\nconsider the minimum.\n\nBy a known if the maximum is attained in the interior of the domain,\n$c \\in ]a,b[$ then $f(c) \\text{is a maximum} \\implies f'(c)=0$, since\n$f$ is differentiable.\n\nIf the maximum isn\u2019t attained in $]a,b[$ and since it must be attained\nin $[a,b]$ either $f(a)$ or $f(b)$ is a maximum.\n\nFor the minimum consider $-f$ and note that $-f$ will verify all\nconditions of the theorem and that a maximum of $-f$ corresponds to a\nminimum of $f$ and that $-f'(c)=0 \\iff f'(c)=0$.",
+  "conclusion": "#P_LeastAndGreatestValueOfFunction",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfLeastAndGreatestValueOfFunction"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of least and greatest value of function"
+  ]
+}

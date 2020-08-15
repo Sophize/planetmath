@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given a system of linear partial differential equations with analytic\ncoefficients $a_{j i_1, \\ldots ,i_m}$ and $b_i$\n$$\\sum_{j, i_1,\\ldots ,i_m} a_{j i_1, \\ldots ,i_m} (x_1, \\ldots, x_m) {\\partial^{i_1 + \\cdots +i_m} u_j \\over \\partial x_1^{i_1} \\ldots \\partial x_m^{i_m}} = b_i (x_1, \\ldots, x_m)$$\nand analytic Cauchy data specified along a noncharacteristic analytic\nsurface, there exists a neighborhood of the surface such that every\nsmooth solution of the system defined in that neighborhood is analytic.\n\nThis theorem stengthens the Cauchy-Kowalewski theorem. While the latter\ntheorem asserts that a unique analytic solution exists, it still allows\nthe possibility that there might exist non-analytic solutions.\nHolmgren\u2019s theorem asserts that this is not the case for linear systems.\n\nIt is often possible to determine the neighborhood in which Holmgren\u2019s\ntheorem holds explicitly. For instance, for many hyperbolic equations,\none can show that this neighborhood can be taken to be the entire domain\nof dependence of the surface along which the boundary values were\nspecified.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HolmgrenUniquenessTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Holmgren uniqueness theorem"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "entropy"
+  ],
+  "definition": "Let $(X,d)$ be a compact metric space and $f\\colon X\\to X$ a continuous\nmap. For each $n\\geq 0$, we define a new metric $d_n$ by\n$$d_n(x,y)=\\max\\{d(f^i(x),f^i(y)): 0\\leq i<n\\}.$$ Two points are\n$\\epsilon$-close with respect to this metric if their first $n$ iterates\nare $\\epsilon$-close. For $\\epsilon>0$ and $n\\geq 0$ we say that\n$F\\subset X$ is an $(n,\\epsilon)$-separated set if for each pair $x,y$\nof points of $F$ we have $d_n(x,y)>\\epsilon$. Denote by $N(n,\\epsilon)$\nthe maximum cardinality of an $(n,\\epsilon)$-separated set (which is\nfinite, because $X$ is compact). Roughly, $N(n,\\epsilon)$ represents the\nnumber of \u201cdistinguishable\u201d orbit segments of length $n$, assuming we\ncannot distinguish points that are less than $\\epsilon$ apart. The\ntopological entropy of $f$ is defined by\n$$h_{top}(f)=\\lim_{\\epsilon\\to 0} \\left(\\limsup_{n\\to \\infty} \\frac{1}{n}\\log N(n,\\epsilon)\\right).$$\nIt is easy to see that this limit always exists, but it could be\ninfinite. A rough interpretation of this number is that it measures the\naverage exponential growth of the number of distinguishable orbit\nsegments. Hence, roughly speaking again, we could say that the higher\nthe topological entropy is, the more essentially different orbits we\nhave.\n\nTopological entropy was first introduced in 1965 by Adler, Konheim and\nMcAndrew, with a different (but equivalent) definition to the one\npresented here. The definition we give here is due to Bowen and\nDinaburg.",
+  "language": "INFORMAL",
+  "phrase": "Topological Entropy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TopologicalEntropy"
+    }
+  ],
+  "indexable": true
+}

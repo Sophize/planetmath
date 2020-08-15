@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *semiring* is a set $A$ with two operations, $+$ and $\\cdot$, such\nthat $0\\in A$ makes $(A,+)$ into a commutative monoid, $1\\in A$ makes\n$(A,\\cdot)$ into a monoid, the operation $\\cdot$ over $+$, and for any\n$a\\in A$, $0\\cdot a=a\\cdot 0=0$. Usually, $a\\cdot b$ is instead written\n$ab$.\n\nA ring $(R,+,\\cdot)$, can be described as a semiring for which $(R,+)$\nis required to be a group. Thus every ring is a semiring. The natural\nnumbers $\\mathbb{N}$ form a semiring, but not a ring, with the usual\nmultiplication and addition.\n\nEvery semiring $A$ has a quasiorder $\\preceq$ given by $a\\preceq b$ if\nand only if there exists some $c\\in A$ such that $a+c=b$. Any element\n$a\\in A$ with an additive inverse is smaller than any other element.\nThus if $A$ has a nonzero element $a$ with an additive inverse, then the\nelements $-a$, $0$, $a$ form a cycle with respect to $\\preceq$. If $+$\nis an operation, then $\\preceq$ is a partial order. Addition and (left\nand right) multiplication are .",
+  "language": "INFORMAL",
+  "phrase": "Semiring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Semiring"
+    }
+  ],
+  "indexable": true
+}

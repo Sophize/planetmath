@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "$\\mathbb{R}$-tree"
+  ],
+  "definition": "A metric space $X$ is said to be a *real tree* or *${\\mathbb}{R}$-tree*,\nif for each $x,y\\in X$ there is a unique arc from $x$ to $y$, and\nfurthermore this arc is an isometric .\n\nEvery real tree is a hyperbolic metric space; moreover, every real tree\nis 0 hyperbolic.\n\nThe Cayley graph of any free group is considered to be a real tree. Note\nthat its graph is a tree in the graph theoretic sense. To make it a real\ntree, we view the edges as to the line segment $[0,1]$ under a\n(surjective) and attach the edges to the tree. The resulting 1-complex\nis then a locally finite real tree. Because of this result, every free\ngroup is a hyperbolic group.",
+  "language": "INFORMAL",
+  "phrase": "Real Tree",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RealTree"
+    }
+  ],
+  "indexable": true
+}

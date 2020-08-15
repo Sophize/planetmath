@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A Boolean algebra $A$ is a *complete Boolean algebra* if for every\nsubset $C$ of $A$, the arbitrary join and arbitrary meet of $C$ exist.\n\nBy de Morgan\u2019s laws, it is easy to see that a Boolean algebra is\ncomplete iff the arbitrary join of any subset exists iff the arbitrary\nmeet of any subset exists. For a proof of this, see .\n\nFor an example of a complete Boolean algebra, let $S$ be any set. Then\nthe powerset $P(S)$ with the usual set theoretic operations is a\ncomplete Boolean algebra.\n\nIn a complete Boolean algebra, the infinite distributive and infinite\ndeMorgan\u2019s laws hold:\n\n-   $x\\wedge \\bigvee A = \\bigvee (x\\wedge A)$ and\n    $x\\vee \\bigwedge A = \\bigwedge (x\\vee A)$\n\n-   $(\\bigvee A)^* = \\bigwedge A^*$ and $(\\bigwedge A)^* = \\bigvee A^*$,\n    where $A^*:=\\lbrace a^* \\mid a\\in A\\rbrace$.\n\nIn the category of complete Boolean algebras, a morphism between two\nobjects is a Boolean algebra homomorphism that preserves arbitrary joins\n(equivalently, arbitrary meets), and is called a *complete Boolean\nalgebra homomorphism*.\n\n**Remark** There are infinitely many algebras between Boolean algebras\nand complete Boolean algebras. Let $\\kappa$ be a cardinal. A Boolean\nalgebra $A$ is said to be $\\kappa$-complete if for every subset $C$ of\n$A$ with $|C|\\le \\kappa$, $\\bigvee C$ (and equivalently $\\bigwedge C$)\nexists. A $\\kappa$-complete Boolean algebra is usually called a\n$\\kappa$-algebra. If $\\kappa=\\aleph_0$, the first aleph number, then it\nis called a *countably complete Boolean algebra*.\n\nAny complete Boolean algebra is $\\kappa$-complete, and any\n$\\kappa$-complete is $\\lambda$-complete for any $\\lambda\\le \\kappa$. An\nexample of a $\\kappa$-complete algebra that is not complete, take a set\n$S$ with $\\kappa < |S|$, then the collection $A\\subseteq P(S)$\nconsisting of any subset $T$ such that either $|T|\\le \\kappa$ or\n$|S-T|\\le \\kappa$ is $\\kappa$-complete but not complete.\n\nA Boolean algebra homomorphism $f$ between two $\\kappa$-algebras $A,B$\nis said to be $\\kappa$-complete if\n$$f(\\bigvee \\lbrace a \\mid a\\in C\\rbrace)= \\bigvee \\lbrace f(a)\\mid a\\in C\\rbrace$$\nfor any $C\\subseteq A$ with $|C|\\le \\kappa$.",
+  "language": "INFORMAL",
+  "phrase": "Complete Boolean Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompleteBooleanAlgebra"
+    }
+  ],
+  "indexable": true
+}

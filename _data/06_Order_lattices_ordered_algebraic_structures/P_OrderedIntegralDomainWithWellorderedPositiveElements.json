@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $(R,\\,\\leq)$ is an integral domain and if the set\n$R_+ = \\{r\\in R: \\,\\,0 < r\\}$ of its is well-ordered, then $R$ and $R_+$\ncan be expressed as sets of multiples of the unity as follows:\n\n-   $R   = \\{m\\cdot 1: \\,\\,m\\in\\mathbb{Z}\\}$,\n\n-   $R_+ = \\{n\\cdot 1: \\,\\,n\\in\\mathbb{Z}_+\\}$.\n\nThe theorem may be interpreted so that such an integral domain is\nisomorphic with the ordered ring $\\mathbb{Z}$ of rational integers.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderedIntegralDomainWithWellorderedPositiveElements"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "ordered integral domain with well-ordered positive elements"
+  ]
+}

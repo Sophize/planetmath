@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be the Cartan matrix of a complex, semi-simple, finite\ndimensional, Lie algebra $\\mathfrak{g}$. Recall that $A = (a_{ij})$\nwhere $a_{ij} = \\langle \\alpha_i, \\alpha_j^\\vee \\rangle$ where the\n$\\alpha_i$ are simple roots for $\\mathfrak{g}$ and the $\\alpha_j^\\vee$\nare simple coroots. The *extended Cartan matrix* denoted $\\hat A$ is\nobtained from $A$ by adding a zero-th row and column corresponding to\nadding a new simple root $\\alpha_0 := -\\theta$ where $\\theta$ is the\nmaximal (relative to $\\left\\{ \\alpha_1,\\ldots,\\alpha_n \\right\\}$) root\nfor $\\mathfrak{g}$. $\\theta$ can be defined as a root of $\\mathfrak{g}$\nsuch that when written in terms of simple roots\n$\\theta = \\sum_i m_i \\alpha_i$ the coefficient sum $\\sum_i m_i$ is\nmaximal (i.e. it has maximal height). Such a root can be shown to be\nunique.\n\nThe matrix $\\hat A$ is an example of a generalized Cartan matrix. The\ncorresponding Kac-Moody Lie algerba is said to be of affine type.\n\nFor example if $\\mathfrak{g} = \\mathfrak{sl}_n \\mathbb{C}$ then $\\hat A$\nis obtained from $A$ by adding a zero-th row: $(2,-1,0,\\ldots,0,-1)$ and\nzero-th column $(2,-1,0,\\ldots,0,-1)$ simultaneously to the Cartan\nmatrix for $\\mathfrak{sl}_n \\mathbb{C}$.\n\n[1]{} Victor Kac, *Infinite Dimensional Lie Algebras*, Third edition.\nCambridge University Press, Cambridge, 1990.",
+  "language": "INFORMAL",
+  "phrase": "Extended Cartan Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtendedCartanMatrix"
+    }
+  ],
+  "indexable": true
+}

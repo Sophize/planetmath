@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "L-function of an elliptic curve"
+  ],
+  "definition": "Let $E$ be an elliptic curve over $\\mathbb{Q}$ with Weierstrass\nequation: $$y^2+a_1xy+a_3y=x^3+a_2x^2+a_4x+a_6$$ with coefficients\n$a_i\\in\\mathbb{Z}$. For $p$ a prime in $\\mathbb{Z}$, define $N_p$ as the\nnumber of points in the reduction of the curve modulo $p$, this is, the\nnumber of points in:\n$$\\{O\\}\\cup\\{(x,y)\\in{\\mathbb{F}_p}^2\\colon y^2+a_1xy+a_3y-x^3-a_2x^2-a_4x-a_6\\equiv 0\\ mod\\ p\\}$$\nwhere $O$ is the point at infinity. Also, let $a_p=p+1-N_p$. We define\nthe *local part at $p$ of the L-series* to be:\n$$L_p(T) = \\begin{cases} 1-a_pT+pT^2  \\text{, if $E$ has good reduction at $p$}, \\\\\n 1-T  \\text{, if $E$ has split multiplicative reduction at $p$},\\\\\n 1+T  \\text{, if $E$ has non-split multiplicative reduction at $p$},\\\\\n 1  \\text{, if $E$ has additive reduction at $p$}. \\end{cases}$$\n\nThe L-series of the elliptic curve $E$ is defined to be:\n$$L(E,s) = \\prod_{p}\\frac{1}{L_p(p^{-s})}$$ where the product is over\nall primes.\n\nNote: The product converges and gives an analytic function for all\n$Re(s)>3/2$. This follows from the fact that $\\mid a_p \\mid \\leq\n2\\sqrt{p}$. However, far more is true:\n\nThe L-series $L(E,s)$ has an analytic continuation to the entire complex\nplane, and it satisfies the following functional equation. Define\n$$\\Lambda(E,s)=({N_{E/\\mathbb{Q}}})^{s/2}(2\\pi)^{-s}\\Gamma(s)L(E,s)$$\nwhere ${N_E/\\mathbb{Q}}$ is the conductor of $E$ and $\\Gamma$ is the\nGamma function. Then:\n$$\\Lambda(E,s)=w\\Lambda(E,2-s)\\quad with\\ w=\\pm 1$$\n\nThe number $w$ above is usually called the *root number* of $E$, and it\nhas an important conjectural meaning (see Birch and Swinnerton-Dyer\nconjecture).\n\nThis result was known for elliptic curves having complex multiplication\n(Deuring, Weil) until the general result was finally proven.\n\n[9]{} James Milne, [*Elliptic Curves*]{}, . Joseph H. Silverman, [*The\nArithmetic of Elliptic Curves*]{}. Springer-Verlag, New York, 1986.\nJoseph H. Silverman, [*Advanced Topics in the Arithmetic of Elliptic\nCurves*]{}. Springer-Verlag, New York, 1994. Goro Shimura,\n[*Introduction to the Arithmetic Theory of Automorphic Functions*]{}.\nPrinceton University Press, Princeton, New Jersey, 1971.",
+  "language": "INFORMAL",
+  "phrase": "L-Series Of An Elliptic Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LseriesOfAnEllipticCurve"
+    }
+  ],
+  "indexable": true
+}

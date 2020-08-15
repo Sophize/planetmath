@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Theta$ be a bounded subset of ${\\mathbb{R}}^n$ let\n$N_{\\Theta}(\\epsilon)$ be the minimum number of balls of radius\n$\\epsilon$ required to cover $\\Theta$. Then define the *Hausdorff\ndimension* $d_H$ of $\\Theta$ to be\n$$d_H (\\Theta):= - \\lim_{\\epsilon \\rightarrow 0} \\frac{\\log N_{\\Theta}(\\epsilon)}{\\log \\epsilon}.$$\n\nHausdorff dimension is easy to calculate for simple objects like the\nSierpinski gasket or a Koch curve. Each of these may be covered with a\ncollection of scaled-down copies of itself. In fact, in the case of the\nSierpinski gasket, one can take the individual triangles in each\napproximation as balls in the covering. At stage $n$, there are $3^n$\ntriangles of radius $\\frac{1}{2^n}$, and so the Hausdorff dimension of\nthe Sierpinski triangle is at most\n$- \\frac{n \\log 3}{n \\log 1/2} = \\frac{\\log 3}{\\log 2}$, and it can be\nshown that it is equal to $\\frac{\\log 3}{\\log 2}$.\n\n#### From some notes from Koro\n\nThis definition can be extended to a general metric space $X$ with\ndistance function $d$.\n\nDefine the *diameter* $|C|$ of a bounded subset $C$ of $X$ to be\n$\\sup_{x,y\\in C} d(x,y)$.\n\nDefine a *$r$-cover* of $X$ to be a collection of subsets $C_i$ of $X$\nindexed by some countable set $I$, such that $|C_i| < r$ and\n$X = \\cup_{i\\in I} C_i$.\n\nWe also define the function $$H^D_r (X) = \\inf \\sum_{i\\in I} |C_i|^D$$\nwhere the infimum is over all countable $r$-covers of $X$. The\n*Hausdorff dimension* of $X$ may then be defined as\n$$d_H (X)=\\inf \\{ D\\mid \\lim_{r\\rightarrow 0} H^D_r(X)=0 \\}.$$ When $X$\nis a subset of ${\\mathbb{R}}^n$ with any norm-induced metric, then this\ndefinition reduces to that given above.",
+  "language": "INFORMAL",
+  "phrase": "Hausdorff Dimension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HausdorffDimension"
+    }
+  ],
+  "indexable": true
+}

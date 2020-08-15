@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*refactorable number*]{} or [*tau number*]{} is an integer $n$ that\nis divisible by the count of its divisors, or to put it algebraically,\n$n$ is such that $\\tau(n)|n$, with $\\tau(n)$ being the divisor function.\nThe first few refactorable numbers are listed in the OEIS A033950 are 1,\n2, 8, 9, 12, 18, 24, 36, 40, 56, 60, 72, 80, 84, 88, 96. The equation\n$\\gcd(n, x) = \\tau(n)$ has solutions only if $n$ is a refactorable\nnumber.",
+  "language": "INFORMAL",
+  "phrase": "Refactorable Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RefactorableNumber"
+    }
+  ],
+  "indexable": true
+}

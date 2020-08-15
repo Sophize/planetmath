@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "normaliser condition"
+  ],
+  "definition": "A group is said to satisfy the *normalizer condition* if every proper\nsubgroup is properly contained in its own normalizer. That is, a group\n$G$ satisfies the normalizer condition if and only if $H<N_G(H)$ for all\n$H<G$. A group that satisfies the normalizer condition is sometimes\ncalled an *N-group*.\n\nEvery nilpotent group is an N-group, and every N-group is locally\nnilpotent. In particular, a finitely generated group is an N-group if\nand only if it is nilpotent.\n\nA group satisfies the normalizer condition if and only if all its\nsubgroups are ascendant.",
+  "language": "INFORMAL",
+  "phrase": "Normalizer Condition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalizerCondition"
+    }
+  ],
+  "indexable": true
+}

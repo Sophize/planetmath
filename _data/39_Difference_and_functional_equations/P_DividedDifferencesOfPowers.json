@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry, we will prove the claims about divided differences of\npolynomials. Because the divided difference is a linear operator, we can\nfocus our attention on powers.\n\nIf $f(x) = x^n$ and $m \\le n$, then $$\\Delta^m f [x_0, \\cdots x_m] = \n\\sum_{k_0 + \\cdots + k_m = n - m} x_0^{k_0} \\cdots x_m^{k_m}.$$ If\n$m > n$, then $\\Delta^m f [x_0, \\cdots x_m] = 0$.\n\nWe proceed by induction. The formula is trivially true when $m = 0$.\nAssume that the formula is true for a certain value of $m$. Then we have\n$$\\begin{aligned}\n\\Delta^{m+1} f [x_0, \\cdots x_{m+1}] &= \n{\\Delta^m f [x_1, x_2 \\cdots x_m] - \\Delta^m f [x_0, x_2 \\cdots x_m]\n \\over x_1 - x_0} \\\\ &=\n\\sum_{k + k_2 + \\cdots + k_m = n - m} \n{(x_1^k - x_0^k) x_2^{k_2} \\cdots x_m^{k_m}\n \\over x_1 - x_0}\\end{aligned}$$ Using the identity for the sum of a\ngeometric series, $${x_1^k - x_0^k \\over x_1 - x_0} =\n\\sum_{k_0 + k_1 = k - 1} x_0^{k_0} x_1^{k_1},$$ this becomes\n$$\\begin{aligned}\n\\Delta^{m+1} f [x_0, \\cdots x_{m+1}] &= \n\\sum_{k + k_2 + \\cdots + k_m = n - m} \\quad\n\\sum_{k_0 + k_1 = k - 1} \nx_0^{k_0} x_1^{k_1} x_2^{k_2} \\cdots x_{m+1}^{k_{m+1}} \\\\ &=\n\\sum_{k_0 + k_1 + k_2 + \\cdots + k_m = n - (m + 1)}\nx_0^{k_0} x_1^{k_1} x_2^{k_2} \\cdots x_{m+1}^{k_{m+1}}.\\end{aligned}$$\nNote that when $k=0$, we have $x_1^k - x_0^k = 0$, which is consistent\nwith the formula given above because, in that case, there are no\nsolutions to $k_1 + k_2 = k$, so the sum is empty and, by convention,\nequals zero. Likewise, when $n=m$, then the only solution to\n$k_0 + \\cdots + k_m = 0$ is $k_0 = \\cdots = k_m = 0$, so the sum only\nconsists of one term, $x_0^0 \\cdots x_m^0 = 1$ so\n$\\Delta^n f [x_0, \\cdots x_n] = 1$, hence taking further differences\nproduces zero.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DividedDifferencesOfPowers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "divided differences of powers"
+  ]
+}

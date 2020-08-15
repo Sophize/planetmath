@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Any normed field is isomorphic either to the field $\\mathbb{R}$ of real\nnumbers or to the field $\\mathbb{C}$ of complex numbers.\n\nThe [*normed field*]{} means a field $K$ having a subfield $R$\nisomorphic to $\\mathbb{R}$ and satisfying the following: There is a\nmapping $\\|\\cdot\\|$ from $K$ to the set of non-negative reals such that\n\n-   $\\|a\\| = 0$ iff $a = 0$\n\n-   $\\|ab\\| \\leqq \\|a\\|\\cdot\\|b\\|$\n\n-   $\\|a+b\\| \\leqq \\|a\\|+\\|b\\|$\n\n-   $\\|ab\\| = |a|\\cdot\\|b\\|$ when $a \\in R$ and $b \\in K$\n\nUsing the Gelfand\u2013Tornheim theorem, it can be shown that the only fields\nwith archimedean valuation are isomorphic to subfields of $\\mathbb{C}$\nand that the valuation is the usual absolute value (modulus) or some\npositive power of the absolute value.\n\n[8]{} Emil Artin: [**]{}. Lecture notes. Mathematisches Institut,\nG\u00f6ttingen (1959).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GelfandTornheimTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gelfand--Tornheim theorem",
+    "Gelfand-Tornheim theorem"
+  ]
+}

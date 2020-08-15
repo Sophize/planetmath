@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $H$ be a bialgebra. A **left $H$-module coalgebra** is a coalgebra\n$A$ which is a left $H$-module with action $h \\triangleright a$\nsatisfying\n$$\\Delta(h \\triangleright a) = \\sum (h_{(1)} \\triangleright a_{(1)}) \\otimes (h_{(2)} \\triangleright a_{(2)}), \\quad\n\\varepsilon(h \\triangleright a) = \\varepsilon(h) \\varepsilon(a),$$ for\nall $h \\in H$ and $a \\in A$.\n\nThere is a dual notion of a $H$-comodule algebra.\n\nLet $H$ be a bialgebra. Then $H$ is itself a $H$-module coalgebra for\nthe left regular action $g \\triangleright h = gh$.",
+  "language": "INFORMAL",
+  "phrase": "Module Coalgebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModuleCoalgebra"
+    }
+  ],
+  "indexable": true
+}

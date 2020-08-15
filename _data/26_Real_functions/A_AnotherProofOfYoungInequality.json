@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let\n$$F(x)=\\int_0^x \\phi(t)dt, \\text{   and   } G(x)=\\int_0^x \\phi^{-1}(t)dt.$$\nSince $\\phi^{-1}$ is strictly increasing, $G$ is strictly convex, hence\nlies above its supporting line, i.e. for every $c$ and $x\\neq c$\n$$G(b)> G(c)+G'(c)(b-c)=G(c)+ \\phi^{-1}(c)(b-c).$$ In particular, for\n$c=\\phi(a)$ we have $$F(a)+G(b)>F(a)+G(\\phi(a))+a(b-\\phi(a))=ab,$$\nbecause $F(a)+G(\\phi(a))=a\\phi(a)$.",
+  "conclusion": "#P_YoungInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnotherProofOfYoungInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "another proof of Young inequality"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "We start by showing that semimartingale convergence is a on the space of\nsemimartingales. That is, addition of processes and multiplication by\nreal numbers are operations.\n\nThe continuity of addition follows immediately from the fact that the\ntopology is given by a translation-invariant metric $D^{\\rm s}$; if\n$X^n\\rightarrow X$ and $Y^n\\rightarrow Y$ then\n$$D^{\\rm s}(X^n+Y^n-X-Y)\\le D^{\\rm s}(X^n-X)+D^{\\rm s}(Y^n-Y)\\rightarrow 0$$\nso $X^n+Y^n\\rightarrow X+Y$. Also, suppose that $\\lambda_n$ are real\nnumbers converging to $\\lambda$. Then, it is easily shown that\n$D^{\\rm s}(\\lambda_nY)\\le\\max(|\\lambda_n|,1)D^{\\rm s}(Y)$ for all\nprocesses $Y$ and, therefore, $$\\begin{split}\nD^{\\rm s}(\\lambda_nX^n-\\lambda X)&\\le D^{\\rm s}(\\lambda_n(X^n-X))+D^{\\rm s}((\\lambda_n-\\lambda)X)\\\\\n&\\le \\max(|\\lambda_n|,1)D^{\\rm s}(X^n-X)+D^{\\rm s}((\\lambda_n-\\lambda)X).\n\\end{split}$$ As was noted (in ), the statement that\n$D^{\\rm}((\\lambda_n-\\lambda)X)\\rightarrow 0$ whenever\n$\\lambda_n\\rightarrow \\lambda$ is equivalent to the statement that $X$\nis a semimartingale, so $\\lambda_nX_n\\rightarrow\\lambda X$ and\n$D^{\\rm s}$ does indeed generate a vector topology.\n\nIt only remains to show that the topology is complete. So, suppose that\n$X^n-X^m\\rightarrow 0$ under the semimartingale topology. Then, we also\nhave ucp convergence (see semimartingale convergence implies ucp\nconvergence) and, $X^n\\xrightarrow{\\rm ucp} X$ for a cadlag adapted\nprocess $X$ (see completeness under ucp convergence). We need to show\nthat this also converges under the semimartingale topology.\n\nFor any simple predictable process $\\xi$,\n$\\int_0^t\\xi\\,dX^n\\rightarrow\\int_0^t\\xi\\,dX$ in probability. Therefore,\nfor any sequence of simple predictable processes $\\xi^n$,\n$$\\int_0^t\\xi^n\\,dX^n-\\int_0^t\\xi^n\\,dX\n=\\lim_{m\\rightarrow \\infty}\\left(\\int_0^t\\xi^n\\,dX^n-\\int_0^t\\xi^n\\,dX^m\\right)$$\nwhere the limit is taken in probability. If $|\\xi^n|\\le 1$ then the\ncondition that $X^n-X^m$ goes to zero in the semimartingale topology\nimplies that the right hand side tends to zero in probability as $n$\ngoes to infinity and, $X^n\\rightarrow X$ in the semimartingale topology.\n\nThis shows that semimartingale convergence is complete on the space of\ncadlag adapted processes. To show that it is complete on the set of\nsemimartingales, we just need to show that the process $X$ above is a\nsemimartingale whenever $X^n$ are. However, for any sequence of real\nnumbers $\\lambda_n\\rightarrow 0$ then,\n$$D^{\\rm s}(\\lambda_n X)\\le D^{\\rm s}(\\lambda_nX^m)+\\max(|\\lambda_n|,1)D^{\\rm s}(X-X^m).$$\nAs noted previously, the condition that $X^m$ are semimartingales gives\n$\\lambda_nX^m\\rightarrow 0$ as $n$ tends to infinity.\n$$\\limsup_{n\\rightarrow\\infty}D^{\\rm s}(\\lambda_n X)\\le \\sup_n\\max(|\\lambda_n|,1)D^{\\rm s}(X-X^m).$$\nTaking the limit $m\\rightarrow\\infty$ shows that $\\lambda_n X$ tends to\nzero in the semimartingale topology and, consequently, $X$ is a\nsemimartingale.",
+  "conclusion": "#P_CompletenessOfSemimartingaleConvergence",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCompletenessOfSemimartingaleConvergence"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of completeness of semimartingale convergence"
+  ]
+}

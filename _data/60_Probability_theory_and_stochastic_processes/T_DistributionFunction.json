@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "cumulative distribution function",
+    "distribution"
+  ],
+  "definition": "\\[this entry is currently being revised, so hold off on corrections\nuntil this line is removed\\]\\\nLet $F: {\\mathbbmss{R}}\\to {\\mathbbmss{R}}$. Then $F$ is a *distribution\nfunction* if\n\n1.  $F$ is nondecreasing,\n\n2.  $F$ is continuous from the right,\n\n3.  $\\lim_{x \\rightarrow -\\infty} F(x) = 0$, and\n    $\\lim_{x \\rightarrow \\infty} F(x) = 1$.\n\nAs an example, suppose that $\\Omega = {\\mathbbmss{R}}$ and that\n$\\mathcal{B}$ is the $\\sigma$-algebra of Borel subsets of\n${\\mathbbmss{R}}$. Let $P$ be a probability measure on\n$(\\Omega, \\mathcal{B})$. Define $F$ by $$F(x) = P((-\\infty, x]).$$ This\nparticular $F$ is called the *distribution function* of $P$. It is easy\nto verify that 1,2, and 3 hold for this $F$.\n\nIn fact, every distribution function is the distribution function of\nsome probability measure on the Borel subsets of ${\\mathbbmss{R}}$. To\nsee this, suppose that $F$ is a distribution function. We can define $P$\non a single half-open interval by $$P((a,b]) = F(b) - F(a)$$ and extend\n$P$ to unions of disjoint intervals by\n$$P( \\cup_{i=1}^\\infty (a_i, b_i])= \\sum_{i=1}^\\infty P((a_i, b_i]).$$\nand then further extend $P$ to all the Borel subsets of\n${\\mathbbmss{R}}$. It is clear that the distribution function of $P$ is\n$F$.\n\nRandom Variables\n----------------\n\nSuppose that $(\\Omega, \\mathcal{B}, P)$ is a probability space and\n$X: \\Omega \\to {\\mathbbmss{R}}$ is a random variable. Then there is an\n*induced* probability measure $P_X$ on ${\\mathbbmss{R}}$ defined as\nfollows:\\\n$$P_X(E) = P(X^{-1}(E))$$ for every Borel subset $E$ of\n${\\mathbbmss{R}}$. $P_X$ is called the *distribution* of $X$. The\n*distribution function* of $X$ is\n$$F_X(x) = P(\\omega | X(\\omega) \\leq x).$$ The distribution function of\n$X$ is also known as the law of $X$. Claim: $F_X$ = the distribution\nfunction of $P_X$.\n\n$$\\begin{aligned}\nF_X(x) &=& P(\\omega | X(\\omega) \\leq x) \\\\\n&=& P(X^{-1}((-\\infty, x]) \\\\\n&=& P_X((-\\infty, x]) \\\\\n&=& F(x).\\end{aligned}$$\n\nDensity Functions\n-----------------\n\nSuppose that $f: {\\mathbbmss{R}} \\to {\\mathbbmss{R}}$ is a nonnegative\nfunction such that $$\\int_{-\\infty}^\\infty f(t)dt=1.$$ Then one can\ndefine $F: {\\mathbbmss{R}} \\to {\\mathbbmss{R}}$ by\n$$F(x) = \\int_{-\\infty}^x f(t)dt.$$ Then it is clear that $F$ satisfies\nthe conditions 1,2,and 3 so $F$ is a distribution function. The function\n$f$ is called a density function for the distribution $F$.\n\nIf $X$ is a discrete random variable with density function $f$ and\ndistribution function $F$ then\n\n$$F(x)=\\sum_{x_j\\leq x} f(x_j).$$",
+  "language": "INFORMAL",
+  "phrase": "Distribution Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DistributionFunction"
+    }
+  ],
+  "indexable": true
+}

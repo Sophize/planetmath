@@ -1,0 +1,17 @@
+{
+  "argumentText": "#### Hausdorff\u2019s maximum principle implies Zorn\u2019s lemma.\n\nConsider a partially ordered set $X$, where every chain has an upper\nbound. According to the maximum principle there exists a maximal totally\nordered subset $Y\\subseteq X$. This then has an upper bound, $x$. If $x$\nis not the largest element in $Y$ then $\\{x\\}\\cup Y$ would be a totally\nordered set in which $Y$ would be properly contained, contradicting the\ndefinition. Thus $x$ is a maximal element in $X$.\n\n#### Zorn\u2019s lemma implies the well-ordering theorem.\n\nLet $X$ be any non-empty set, and let ${\\mathcal{A}}$ be the collection\nof pairs $(A,\\leq)$, where $A\\subseteq X$ and $\\leq$ is a well-ordering\non $A$. Define a relation $\\preceq$, on ${\\mathcal{A}}$ so that for all\n$x,y\\in{\\mathcal{A}}: x\\preceq y$ iff $x$ equals an initial of $y$. It\nis easy to see that this defines a partial order relation on\n${\\mathcal{A}}$ (it inherits reflexibility, anti symmetry and\ntransitivity from one set being an initial and thus a subset of the\nother).\n\nFor each chain $C\\subseteq{\\mathcal{A}}$, define $C'=(R,\\leq')$ where R\nis the union of all the sets $A$ for all $(A,\\leq)\\in C$, and $\\leq'$ is\nthe union of all the relations $\\leq$ for all $(A,\\leq)\\in C$. It\nfollows that $C'$ is an upper bound for $C$ in ${\\mathcal{A}}$.\n\nAccording to Zorn\u2019s lemma, ${\\mathcal{A}}$ now has a maximal element,\n$(M,\\leq_M)$. We postulate that $M$ contains all members of $X$, for if\nthis were not true we could for any $a\\in X-M$ construct $(M_*,\\leq_*)$\nwhere $M_*=M\\cup\\{a\\}$ and $\\leq_*$ is extended so $S_a(M_*)=M$. Clearly\n$\\leq_*$ then defines a well-order on $M_*$, and $(M_*,\\leq_*)$ would be\nlarger than $(M,\\leq_M)$ contrary to the definition.\n\nSince $M$ contains all the members of $X$ and $\\leq_M$ is a\nwell-ordering of $M$, it is also a well-ordering on $X$ as required.\n\n#### The well-ordering theorem implies Hausdorff\u2019s maximum principle.\n\nLet $(X,\\preceq)$ be a partially ordered set, and let $\\leq$ be a\nwell-ordering on $X$. We define the function $\\phi$ by transfinite\nrecursion over $(X,\\leq)$ so that $$\\phi(a) = \\begin{cases}\n\\{a\\}         &\\text{if }\\{a\\}\\cup\\bigcup_{b<a}\\phi(b)\\text{ is totally ordered under }\\preceq.\\\\\n\\emptyset &\\text{otherwise}.\n\\end{cases}.$$ It follows that $\\bigcup_{x\\in X}\\phi(x)$ is a maximal\ntotally ordered subset of $X$ as required.",
+  "conclusion": "#P_ZornsLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquivalenceOfHausdorffsMaximumPrincipleZornsLemmaAndTheWellorderingTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "equivalence of Hausdorff's maximum principle, Zorn's lemma and the well-ordering theorem"
+  ]
+}

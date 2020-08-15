@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Fock space"
+  ],
+  "definition": "The Bargmann-Fock space (or simply Fock space) is the Hilbert space of\nentire functions, $\\mathcal{F}^2(\\mathbb{C})$ s.t.\n$$\\int_\\mathbb{C}|F(z)|^2 e^{- \\pi |z|^2}dx dy<\\infty$$ with associated\ninner product $$\\int_\\mathbb{C}F(z)\\overline{G(z)}e^{- \\pi |z|^2}dx dy$$\n\nwhere $z=x+i y$\n\n[2]{} V. Bargmann, \u201cRemarks on a Hilbert Space of Analytic Function\u201d\n[*Proceedings of the National Academy of Sciences of the United States\nof America*]{} [**48**]{} (1962): 199 - 204 V. Bargmann & I. T. Todorov,\n\u201cSpaces of analytic functions on a complex cone as carriers for the\nsymmetric tensor representations of SO(n)\u201d [*Journal of Mathematical\nPhysics*]{} [**18**]{} 6 (1977): 1141 - 1148",
+  "language": "INFORMAL",
+  "phrase": "Bargmann-Fock Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BargmannFockSpace"
+    }
+  ],
+  "indexable": true
+}

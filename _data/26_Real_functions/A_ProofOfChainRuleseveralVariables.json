@@ -1,0 +1,17 @@
+{
+  "argumentText": "We first consider the case $m=1$ i.e.\u00a0$G\\colon I\\to {\\mathbb R}^n$ where\n$I\\subset {\\mathbb R}$ is a neighbourhood of a point\n$x_0\\in {\\mathbb R}$ and $F\\colon U\\subset {\\mathbb R}^n\\to {\\mathbb R}$\nis defined on a neighbourhood $U$ of $y_0=G(x_0)$ such that\n$G(I)\\subset U$. We suppose that both $G$ is differentiable at the point\n$x_0$ and $F$ is differentiable in $y_0$. We want to compute the\nderivative of the compound function $H(x)=F(G(x))$ at $x=x_0$.\n\nBy the definition of derivative (using Landau notation) we have\n$$F(y_0+ k) = F(y_0) + DF(y_0) k + o(|k|).$$ Choose any $h\\neq 0$ such\nthat $x_0+h\\in I$ and set $k=G(x_0+h)-G(x_0)$ to obtain\n$$\\begin{aligned}\n\\frac{H(x_0+h)-H(x_0)}{h} &=\n\\frac{F(G(x_0+h))-F(G(x_0))}{h}\\\\\n&=\\frac{F(G(x_0)+k)-F(G(x_0))}{h} = \\frac{F(y_0+k)-F(y_0)}{h}\\\\\n&=\\frac{DF(y_0) (G(x_0+h)-G(x_0)) + o(|G(x_0+h)-G(x_0)|)}{h}\\\\\n&=DF(y_0) \\frac{G(x_0 + h) -G(x_0)}{h} +\\frac{o(|G(x_0+h)-G(x_0)|)}{h}.\\end{aligned}$$\n\nLetting $h\\to 0$ the first term of the sum converges to\n$DF(y_0) G'(x_0)$ hence we want to prove that the second term converges\nto $0$. Indeed we have $$\\left|\\frac{o(|G(x_0+h)-G(x_0)|)}{h}\\right|\n =\\left|\\frac{o(|G(x_0+h)-G(x_0)|)}{|G(x_0+h)-G(x_0)|}\\right|\\cdot\n  \\left|\\frac{G(x_0+h)-G(x_0)}{h}\\right|.$$ By the definition of\n$o(\\cdot)$ the first fraction tends to $0$, while the second fraction\ntends to the absolute value of $G'(x_0)$. Thus the product tends to $0$,\nas needed.\n\nConsider now the general case\n$G\\colon V\\subset {\\mathbb R}^m\\to U\\subset {\\mathbb R}^n$. Given\n$v\\in {\\mathbb R}^m$ we are going to compute the directional derivative\n$$\\frac{\\partial F\\circ G}{\\partial v} (x_0) = \\frac{d F\\circ g}{dt} (0)$$\nwhere $g(t)=G(x_0+tv)$ is a function of a single variable\n$t\\in{\\mathbb R}$. Thus we fall back to the previous case and we find\nthat $$\\frac{\\partial F\\circ G}{\\partial v} (x_0) = DF(G(x_0)) g'(0).\n= DF(G(x_0)) \\frac{\\partial G}{\\partial v} (x_0)$$ In particular when\n$v=e_k$ is the $k$-th coordinate vector, we find $$g'(0) = \n D_{x_k} F \\circ G (x_0) = DF(G(x_0)) D_{x_k} G(x_0)\n= \\sum_{i=1}^n D_{y_i} G(x_0) D_{x_k} G^i(x_0)$$ which can be compactly\nwritten $$D F \\circ G(x_0) = DF(G(x_0)) DG(x_0).$$",
+  "conclusion": "#P_ChainRuleseveralVariables",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfChainRuleseveralVariables"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of chain rule (several variables)"
+  ]
+}

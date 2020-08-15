@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "first degree congruence"
+  ],
+  "definition": "The [*linear congruence*]{} $$ax\\equiv b \\pmod{m},$$ where $a$, $b$ and\n$m$ are known integers and $\\gcd{(a,\\,m)} = 1$, has exactly one solution\n$x$ in $\\mathbb{Z}$, when numbers congruent to each other are not\nregarded as different. The solution can be obtained as\n$$x = a^{\\varphi(m)-1}b,$$ where $\\varphi$ means Euler\u2019s phi-function.\n\nSolving the linear congruence also gives the solution of the\n[*Diophantine equation*]{} $$ax\\!-\\!my = b,$$ and conversely. If\n$x = x_0$, $y = y_0$ is a solution of this equation, then the general\nsolution is $$\\begin{cases}\nx = x_0\\!+\\!km,\\\\\ny = y_0\\!+\\!ka,\\\\\n\\end{cases}$$ where $k = 0$, $\\pm1$, $\\pm2$, \u2026",
+  "language": "INFORMAL",
+  "phrase": "Linear Congruence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearCongruence"
+    }
+  ],
+  "indexable": true
+}

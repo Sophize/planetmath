@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "p-extension"
+  ],
+  "definition": "Let $p$ be a prime number. A Galois extension of fields $E/F$, with\n$G=\\operatorname{Gal}(E/F)$, is said to be a $p$-extension if $G$ is a\n$p$-group.\n\nLet $d$ be a square-free integer. Then the field extension\n${\\mathbb{Q}}(\\sqrt{d})/{\\mathbb{Q}}$ is a $2$-extension.\n\nLet $p>2$ be a prime and, for any $n$, let $\\zeta_{p^n}$ be a primitive\n$p^n$th root of unity. The cyclotomic extension:\n$${\\mathbb{Q}}(\\zeta_{p^n})/{\\mathbb{Q}}(\\zeta_p)$$ is a $p$-extension.\nIndeed:\n$$G_n=\\operatorname{Gal}({\\mathbb{Q}}(\\zeta_{p^n})/{\\mathbb{Q}})\\cong ({\\mathbb{Z}}/p^n{\\mathbb{Z}})^\\times$$\nThus, $|G_n|=\\varphi(p^n)=p^{(n-1)}(p-1)$ and $|G_1|=\\varphi(p)=p-1$,\nwhere $\\varphi$ is the Euler phi function. Therefore the extension above\nis of degree $p^{(n-1)}$.",
+  "language": "INFORMAL",
+  "phrase": "$P$-Extension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Pextension"
+    }
+  ],
+  "indexable": true
+}

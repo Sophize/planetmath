@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Espace Etale",
+    "Etale space",
+    "Espace \\'Etal\\'e"
+  ],
+  "definition": "The [\u00c9tal\u00e9]{}\u00a0space (Espace [\u00c9tal\u00e9]{}) is a topological space associated\nto a presheaf ${\\mathcal{F}}$ on a space $X$. The \u00c9tal\u00e9 space is defined\nto be the disjoint union of stalks of the sheaf ${\\mathcal{F}}$.\n\n$${\\mathcal{E}}_{{\\mathcal{F}}} \\equiv \\coprod_{x\\in X} {\\mathcal{F}}_x$$\n\nOver each open set $U\\subset X$, there is a set of sections\n$\\Gamma(U,{\\mathcal{F}})$. A basis for the topology on the\n[\u00c9tal\u00e9]{}\u00a0space is formed by taking the open sets to be of the form\n${\\mathcal{U}}_s = \\{s_x, x\\in U\\}$, for $s\\in \\Gamma(U,{\\mathcal{F}})$\nand $s_x$ the germ of $s$ at $x$. There is a natural map\n$\\pi\\!:\\!{\\mathcal{E}}_{{\\mathcal{F}}} \\rightarrow X$ which takes germs\n$s_x$ in the stalk ${\\mathcal{F}}_x$ over $x$ to $x$.\n\nLet $s\\in \\Gamma(U,{\\mathcal{F}})$ and\n$s^\\prime \\in \\Gamma(U^\\prime,{\\mathcal{F}})$ with\n$U\\cap U^\\prime \\ne \\emptyset$. At each point $x\\in U \\cap U^\\prime$\nwhere $s_x = s^\\prime_x$, by the definition of germs there exists an\nopen set $V\\subset U\\cap U^\\prime$ containing $x$ such that $s$ and\n$s^\\prime$ restrict to the same section on $V$ ($s|_V = s^\\prime|_V$).\nThis verifies that $\\{{\\mathcal{U}}_s\\}$ form a basis for\n${\\mathcal{E}}_{{\\mathcal{F}}}$.\n\nThen there is another presheaf, $\\widetilde{{\\mathcal{F}}}$, whose\nsections are the continuous functions from $X$ to\n${\\mathcal{E}}_{{\\mathcal{F}}}$ assigning an element\n$s(x)\\in {\\mathcal{F}}_x$ to each point $x \\in X$. This presheaf forms a\nsheaf equivalent to the sheafification of the presheaf ${\\mathcal{F}}$.",
+  "language": "INFORMAL",
+  "phrase": "\\'Etal\\'E Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EtaleSpace"
+    }
+  ],
+  "indexable": true
+}

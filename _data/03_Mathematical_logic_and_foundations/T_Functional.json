@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "#### Definition\n\nA *functional* $T$ is a function mapping a function space (often a\nvector space) $V$ in to a field of scalars $K$, typically taken to be\n${{\\mathbb}{R}}$ or $\\mathbb{C}$.\n\n#### Discussion\n\nExamples of functionals include the integral and entropy. A functional\n$f$ is often indicated by the use of brackets, $T[x]$ rather than\n$T(x)$.\n\nThe *linear functionals* are those functionals $T$ that\n\n-   $T(x+y)=T(x)+T(y)$\n\n-   $T(cx)=cT(x)$\n\nfor any $c\\in K$, $x,y\\in V$.",
+  "language": "INFORMAL",
+  "phrase": "Functional",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Functional"
+    }
+  ],
+  "indexable": true
+}

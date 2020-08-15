@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathfrak{g}}$ be a Lie algebra. The [*lower central series*]{} of\n${\\mathfrak{g}}$ is the filtration of subalgebras\n$${\\mathcal{D}}_1 {\\mathfrak{g}}\\supset {\\mathcal{D}}_2 {\\mathfrak{g}}\\supset {\\mathcal{D}}_3 {\\mathfrak{g}}\\supset \\cdots \\supset {\\mathcal{D}}_k {\\mathfrak{g}}\\supset \\cdots$$\nof ${\\mathfrak{g}}$, inductively defined for every natural number $k$ as\nfollows: $$\\begin{aligned}\n{\\mathcal{D}}_1 {\\mathfrak{g}}& := & [{\\mathfrak{g}},{\\mathfrak{g}}] \\\\\n{\\mathcal{D}}_k {\\mathfrak{g}}& := & [{\\mathfrak{g}}, {\\mathcal{D}}_{k-1} {\\mathfrak{g}}]\\end{aligned}$$\n\nThe [*upper central series*]{} of ${\\mathfrak{g}}$ is the filtration\n$${\\mathcal{D}}^1 {\\mathfrak{g}}\\supset {\\mathcal{D}}^2 {\\mathfrak{g}}\\supset {\\mathcal{D}}^3 {\\mathfrak{g}}\\supset \\cdots \\supset {\\mathcal{D}}^k {\\mathfrak{g}}\\supset \\cdots$$\ndefined inductively by $$\\begin{aligned}\n{\\mathcal{D}}^1 {\\mathfrak{g}}& := & [{\\mathfrak{g}},{\\mathfrak{g}}] \\\\\n{\\mathcal{D}}^k {\\mathfrak{g}}& := & [{\\mathcal{D}}^{k-1} {\\mathfrak{g}}, {\\mathcal{D}}^{k-1} {\\mathfrak{g}}]\\end{aligned}$$\n\nIn fact both ${\\mathcal{D}}^k {\\mathfrak{g}}$ and\n${\\mathcal{D}}_k {\\mathfrak{g}}$ are ideals of ${\\mathfrak{g}}$, and\n${\\mathcal{D}}^k {\\mathfrak{g}}\\subset {\\mathcal{D}}_k {\\mathfrak{g}}$\nfor all $k$. The Lie algebra ${\\mathfrak{g}}$ is defined to be\n[*nilpotent*]{} if ${\\mathcal{D}}_k {\\mathfrak{g}}= 0$ for some\n$k \\in \\mathbb{N}$, and [*solvable*]{} if\n${\\mathcal{D}}^k {\\mathfrak{g}}= 0$ for some $k \\in \\mathbb{N}$.\n\nA subalgebra ${\\mathfrak{h}}$ of ${\\mathfrak{g}}$ is said to be\n[*nilpotent*]{} or [*solvable*]{} if ${\\mathfrak{h}}$ is nilpotent or\nsolvable when considered as a Lie algebra in its own right. The terms\nmay also be applied to ideals of ${\\mathfrak{g}}$, since every ideal of\n${\\mathfrak{g}}$ is also a subalgebra.",
+  "language": "INFORMAL",
+  "phrase": "Solvable Lie Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SolvableLieAlgebra"
+    }
+  ],
+  "indexable": true
+}

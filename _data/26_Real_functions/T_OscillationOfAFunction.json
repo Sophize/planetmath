@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f:X\\subset\\mathbb{R}\\to\\mathbb{R}$. The [**oscillation**]{} of the\nfunction $f$ on the set $X$ is said to be\n$$\\omega(f,X)=\\sup_{a,b\\,\\in\\, X}|f(b)-f(a)|,$$ where $a, b$ are\narbitrary points in $X$.\n\nExamples\n--------\n\n-   $\\omega(x^2, \\, [-1,2])=4$\n\n-   $\\omega(x, \\, [-1,2])=3$\n\n-   $\\omega(x, \\, (-1,2))=3$\n\n-   $\\omega(\\operatorname{sgn}x \\, [-1,2])=2$\n\n-   $\\omega(\\operatorname{sgn}x \\, [0,2])=1$\n\n-   $\\omega(\\operatorname{sgn}x \\, (0,2])=0$\n\nCauchy\u2019s criterion can be expressed in terms of this\nconcept.[@cite:Zorich]\n\n[99]{} V., Zorich, [*Mathematical Analysis I*]{}, pp. 131, First Ed.,\nSpringer-Verlag, 2004.",
+  "language": "INFORMAL",
+  "phrase": "Oscillation Of A Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OscillationOfAFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $E$ be a Euclidean vector space, $R\\subset E$ a root system, and\n$R^+\\subset R$ a choice of positive roots. We define the [ *positive\nWeyl chamber*]{} (relative to $R^+$) to be the closed set\n$$\\mathcal{C}=\\{u\\in E\\mid (u,\\alpha)\\geq 0\\text{ for all }\\alpha\\in\nR^+\\}.$$ A weight which lies inside the positive Weyl chamber is called\n[*dominant*]{}.\n\nThe interior of $\\mathcal{C}$ is a fundamental domain for the action of\nthe Weyl group on $E$. The image $w(\\mathcal{C})$ of $\\mathcal{C}$ under\nthe any element $w$ of the Weyl group is called a [*Weyl chamber*]{}.\nThe Weyl group $W$ acts simply transitively on the set of Weyl chambers.",
+  "language": "INFORMAL",
+  "phrase": "Weyl Chamber",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeylChamber"
+    }
+  ],
+  "indexable": true
+}

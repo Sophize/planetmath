@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Recall, that if $k$ is a field and $G$ is a group, then the group\nalgebra $kG$ can be turned into a Hopf algebra, by defining\ncomultiplication $\\Delta(g)=g\\otimes g$, counit $\\varepsilon(g)=1$ and\nantipode $S(g)=g^{-1}$.\n\nNow let $H$ be a Hopf algebra over a field $k$, with identity $1$,\ncomultiplication $\\Delta$, counit $\\varepsilon$ and antipode $S$. Recall\nthat element $g\\in H$ is called grouplike iff $g\\neq 0$ and\n$\\Delta(g)=g\\otimes g$. The set of all grouplike elements $G(H)$ is\nnonempty, because $1\\in G(H)$. Also, since comultiplication is an\nalgebra morphism, then $G(H)$ is multiplicative, i.e. if $g,h\\in G(H)$,\nthen $gh\\in G(H)$. Furthermore, it can be shown that for any $g\\in G(H)$\nwe have $S(g)\\in G(H)$ and $S(g)g=gS(g)=1$. Thus $G(H)$ is a group under\nmultiplication inherited from $H$.\n\nIt is easy to see, that the vector subspace spanned by $G(H)$ is a Hopf\nsubalgebra of $H$ isomorphic to $kG(H)$. It can be shown that $G(H)$ is\nalways linearly independent, so if $H$ is finite dimensional, then\n$G(H)$ is a finite group. Also, if $H$ is finite dimensional, then it\nfollows from the Nichols-Zoeller Theorem, that the order of $G(H)$\ndivides $\\mathrm{dim}_{k}H$.\n\nFrom these observations it follows that if $\\mathrm{dim}_{k}H=p$ is a\nprime number, then $G(H)$ is either trivial or the order of $G(H)$ is\nequal to $p$ (i.e. $G(H)$ is cyclic of order $p$). The second case\nimplies that $H$ is isomorphic to $k\\mathbb{Z}_{p}$ and it can be shown\nthat the first case cannot occur.",
+  "language": "INFORMAL",
+  "phrase": "Grouplike Elements In Hopf Algebras",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GrouplikeElementsInHopfAlgebras"
+    }
+  ],
+  "indexable": true
+}

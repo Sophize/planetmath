@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "upper density",
+    "lower density",
+    "natural density",
+    "arithmetic density"
+  ],
+  "definition": "Let $A$ be a subset of $\\mathbb{Z}^{+}$. For any $n \\in \\mathbb{Z}^{+}$\nput $A(n)=\\{1,2,\\ldots,n\\} \\cap A$.\n\nDefine the [*upper asymptotic density*]{} $\\overline{d}(A)$ of $A$ by\n\n$$\\overline{d}(A) = \\limsup_{n \\rightarrow \\infty} \\frac{|A(n)|}{n}$$\n\n$\\overline{d}(A)$ is also known simply as the [*upper density*]{} of\n$A$.\\\nSimilarly, we define $\\underline{d}(A)$, the [*lower asymptotic\ndensity*]{} of $A$, by\n$$\\underline{d}(A) = \\liminf_{n \\rightarrow \\infty} \\frac{ |A(n)| }{n}$$\nWe say $A$ has [*asymptotic density*]{} $d(A)$ if\n$\\underline{d}(A)=\\overline{d}(A)$, in which case we put\n$d(A)=\\overline{d}(A)$.",
+  "language": "INFORMAL",
+  "phrase": "Asymptotic Density",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AsymptoticDensity"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "vector triple product",
+    "triple vector product"
+  ],
+  "definition": "The cross product of a vector with a cross product is called the\n[*triple cross product*]{}.\n\nThe of the triple cross product or [*Lagrange\u2019s* ]{} is\n$$\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = (\\vec{a} \\cdot    \\vec{c})\\vec{b}-(\\vec{a} \\cdot \\vec{b})\\vec{c}$$\n(\u201cexterior dot far times near minus exterior dot near times far\u201d \u2014 this\nworks also when \u201cexterior\u201d is the last ).\n\nThe the vectors $\\vec{b}$ and $\\vec{c}$ (when these are not parallel).\n\nNote that the use of parentheses in the triple cross products is\nnecessary, since the cross product operation is not , i.e., generally we\nhave\n$$(\\vec{a}\\times\\vec{b})\\times\\vec{c} \\neq\\vec{a}\\times(\\vec{b}\\times\\vec{c})$$\n(for example: $(\\vec{i}\\times\\vec{i})\\times\\vec{j} = \\vec{0}$ but\n$\\vec{i}\\times(\\vec{i}\\times\\vec{j}) = -\\vec{j}$ when\n$(\\vec{i},\\,\\vec{j},\\,\\vec{k})$ is a right-handed orthonormal basis of\n$\\mathbb{R}^3$). So the $(\\mathbb{R}^3,\\,+,\\,\\times)$ is not a ring.\n\nA direct consequence of the is the [*Jacobi identity*]{}\n$$\\vec{a}\\times(\\vec{b}\\times\\vec{c})+\\vec{b}\\times(\\vec{c}\\times\\vec{a})+\n  \\vec{c} \\times(\\vec{a}\\times\\vec{b}) = \\vec{0},$$ which is one of the\nproperties making $(\\mathbb{R}^3,\\,+,\\,\\times)$ a Lie algebra.\n\nIt follows from the also that\n$$(\\vec{a}\\times\\vec{b})\\times(\\vec{c}\\times\\vec{d}) = (\\vec{a}\\vec{b}\\vec{d})\\vec{c}-(\\vec{a}\\vec{b}\\vec{c})\\vec{d}$$\nwhere $(\\vec{u}\\vec{v}\\vec{w})$ means the triple scalar product of\n$\\vec{u}$, $\\vec{v}$ and $\\vec{w}$.",
+  "language": "INFORMAL",
+  "phrase": "Triple Cross Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TripleCrossProduct"
+    }
+  ],
+  "indexable": true
+}

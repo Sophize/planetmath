@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For any player $i$, a strategy $s^*\\in S_i$ *weakly dominates* another\nstrategy $s^\\prime\\in S_i$ if:\n$$\\forall s_{-i}\\in S_{-i}\\left[u_i(s^*,s_{-i})\\geq u_i(s^\\prime,s_{-i})\\right]$$\n\n(Remember that $S_{-i}$ represents the product of all strategy sets\nother than $i$\u2019s)\n\n$s^*$ *strongly dominates* $s^\\prime$ if:\n$$\\forall s_{-i}\\in S_{-i}\\left[u_i(s^*,s_{-i})> u_i(s^\\prime,s_{-i})\\right]$$",
+  "language": "INFORMAL",
+  "phrase": "Dominant Strategy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DominantStrategy"
+    }
+  ],
+  "indexable": true
+}

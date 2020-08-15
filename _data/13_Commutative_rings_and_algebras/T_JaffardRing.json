@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\operatorname{dim}$ denote Krull dimension. A *Jaffard* ring is a\nring $A$ for which $\\operatorname{dim}(A[x])=\\operatorname{dim}(A)+1$\n(compare to the bound on the Krull dimension of polynomial rings). Such\na ring is said to be *Jaffardian*.\n\nSince this condition holds for Noetherian rings, every Noetherian ring\nis Jaffardian. Examples of rings that are not Jaffardian are thus\nrelatively difficult to come by, since we are already forced to search\nexclusively in the realm of non-Noetherian rings. The first example of a\nnon-Jaffardian ring seems to have been found by A. Seidenberg [@Seid]:\nthe subring of ${\\overline}{\\mathbb{Q}}[[T]]$ consisting of power series\nwhose constant term is rational.\n\nA *Jaffard domain* is a Jaffard ring which is also an integral domain.\n\n[9]{} A. Seidenberg, *A note on the dimension theory of rings.* Pacific\nJ. of Mathematics, Volume 3 (1953), 505-512.",
+  "language": "INFORMAL",
+  "phrase": "Jaffard Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JaffardRing"
+    }
+  ],
+  "indexable": true
+}

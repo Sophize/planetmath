@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(t_{j})_{j \\in \\mathbb{Z}}$ a increasing sequence of positive real\nnumbers such that\n$$t_{j + 1} - t_{j} \\geq \\gamma > 1, \\quad j \\in \\mathbb{Z}.$$ Then for\nall $n \\in \\mathbb{N}$ and for all complex sequences\n$(c_{j})_{j = -n}^{n}$, we have\n$$m \\sum_{j = -n}^{n} |c_{j}|^{2} \\leq \\int_{-\\pi}^{\\pi} \\left| \\sum_{j = -n}^{n} \\sqrt{\\frac{1}{2\\pi}} c_{j}e^{i t_{j} x} \\right|^{2} dx,$$\nwhere $$m = \\frac{2}{\\pi}\\left( 1 - \\frac{1}{\\gamma^{2}} \\right).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InghamInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Ingham Inequality"
+  ]
+}

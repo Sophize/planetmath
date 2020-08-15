@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "half-factorial domain"
+  ],
+  "definition": "An integral domain $D$ is called a [*half-factorial ring*]{} (HFD) if it\nsatisfies the following conditions:\n\n-   Every nonzero element of $D$ that is not a unit can be factored into\n    a product of a finite number of irreducibles.\n\n-   If $p_1p_2\\cdots p_m$ and $q_1q_2\\cdots q_n$ are two factorizations\n    of the same element $a$ into irreducibles, then $m = n$.\n\nIf, in , the irreducibles $p_i$ and $q_j$ are always pairwise\nassociates, then $D$ is a factorial ring (UFD).\\\nFor example, many in the maximal order of an algebraic number field are\nhalf-factorial rings, e.g. $\\mathbb{Z}[3\\sqrt{2}]$ is a HFD but not a\nUFD (see ).",
+  "language": "INFORMAL",
+  "phrase": "Half-Factorial Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HalffactorialRing"
+    }
+  ],
+  "indexable": true
+}

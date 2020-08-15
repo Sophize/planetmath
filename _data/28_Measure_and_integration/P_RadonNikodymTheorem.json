@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mu$ and $\\nu$ be two $\\sigma$-finite measures on the same\nmeasurable space $(\\Omega, \\mathscr{S})$, such that $\\nu\\ll \\mu$ (i.e.\n$\\nu$ is absolutely continuous with respect to $\\mu$.) Then there exists\na measurable function $f$, which is nonnegative and finite, such that\nfor each $A\\in \\mathscr{S}$, $$\\nu(A)=\\int_A fd\\mu.$$ This function is\nunique (any other function satisfying these conditions is equal to $f$\n$\\mu$-almost everywhere,) and it is called the *Radon-Nikodym\nderivative* of $\\nu$ with respect to $\\mu$, denoted by\n$f = \\frac{d\\nu}{d\\mu}$.\n\n**Remark.** The theorem also holds if $\\nu$ is a signed measure. Even if\n$\\nu$ is not $\\sigma$-finite the theorem holds, with the exception that\n$f$ is not necessarely finite.\n\n**Some properties of the Radon-Nikodym derivative**\n\nLet $\\nu$, $\\mu$, and $\\lambda$ be $\\sigma$-finite measures in\n$(\\Omega,\\mathscr{S})$.\n\n1.  If $\\nu \\ll \\lambda$ and $\\mu\\ll\\lambda$, then\n    $$\\frac{d(\\nu+\\mu)}{d\\lambda} = \n    \\frac{d\\nu}{d\\lambda}+\\frac{d\\mu}{d\\lambda}\\;\\; \n    \\mu\\mbox{-almost everywhere};$$\n\n2.  If $\\nu\\ll\\mu\\ll\\lambda$, then\n    $$\\frac{d\\nu}{d\\lambda}=\\frac{d\\nu}{d\\mu}\\frac{d\\mu}{d\\lambda}\n    \\;\\; \\mu\\mbox{-almost everywhere};$$\n\n3.  If $\\mu\\ll\\lambda$ and $g$ is a $\\mu$-integrable function, then\n    $$\\int_\\Omega gd\\mu = \\int_\\Omega g\\frac{d\\mu}{d\\lambda}d\\lambda;$$\n\n4.  If $\\mu\\ll\\nu$ and $\\nu \\ll\\mu$, then\n    $$\\frac{d\\mu}{d\\nu}=\\left(\\frac{d\\nu}{d\\mu}\\right)^{-1}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RadonNikodymTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Radon-Nikodym theorem"
+  ]
+}

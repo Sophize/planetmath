@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "joint probability function",
+    "joint distribution"
+  ],
+  "definition": "Let $X_1, X_2, ..., X_n$ be $n$ random variables all defined on the same\nprobability space. The **joint discrete density function** of\n$X_1, X_2, ..., X_n$, denoted by\n$f_{X_1, X_2, ..., X_n}(x_1,x_2,...,x_n)$, is the following function:\\\n\n$f_{X_1, X_2, ..., X_n}: R^n \\to R$\\\n$f_{X_1, X_2, ..., X_n}(x_1,x_2,...,x_n) = P[X_1 = x_1, X_2 = x_2, ... , X_n = x_n]$\\\n\nAs in the single variable case, sometimes it\u2019s expressed as\n$p_{X_1, X_2, ..., X_n}(x_1,x_2,...,x_n)$ to mark the difference between\nthis function and the continuous joint density function.\\\n\nAlso, as in the case where $n=1$, this function satisfies:\\\n\n1.  $f_{X_1, X_2, ..., X_n}(x_1,...,x_n) \\geq  0$\n    $\\forall (x_1,...,x_n)$\n\n2.  $\\sum_{x_1, ... ,x_n}^{} {  f_{X_1, X_2, ..., X_n}(x_1,...,x_n) }= 1$\n\nIn this case,\n$f_{X_1, X_2, ..., X_n}(x_1,...,x_n) = P[ X_1 = x_1, X_2 = x_2, ... , X_n = x_n ]$.",
+  "language": "INFORMAL",
+  "phrase": "Joint Discrete Density Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JointDiscreteDensityFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If for the given $n$th prime $p_n$ the inequality\n$$p_n < {1 \\over 3} \\sum_{i = n - 1}^{n + 1} p_i$$ is true, then $p_n$\nis said to be a [*weak prime*]{}. That is, the arithmetic mean of the\ngiven prime, the prime immediately below and the one immediately above,\nis more than the middle prime. The first few are 3, 7, 13, 19, 23, 31,\n43, 47, 61, 73, 83, 89, listed in A051635 of Sloane\u2019s OEIS.",
+  "language": "INFORMAL",
+  "phrase": "Weak Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeakPrime"
+    }
+  ],
+  "indexable": true
+}

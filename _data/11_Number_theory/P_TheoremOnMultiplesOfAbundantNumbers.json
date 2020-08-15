@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Theorem. The product $nm$ of an abundant number $n$ and any integer\n$m > 0$ is also an abundant number, regardless of the abundance or\ndeficiency of $m$.\n\nProof. Choose an abundant number $n$ with $k$ divisors\n$d_1, \\ldots ,d_k$ (where the divisors are sorted in ascending order and\n$d_1 = 1$, $d_k = n$) that add up to $2n + a$, where $a > 0$ is the\nabundance of $n$. For maximum flair, set $a = 1$, the bare minimum for\nabundance (that is, a quasiperfect number). Next, for $m$ choose a\nspectacularly deficient number such that $\\gcd(m, n) = 1$, preferably\nsome large prime number. If we choose a prime number, its divisors will\nonly add up to $m + 1$. However, the divisors of $nm$ will include each\n$d_im$, where $d_i$ is a divisor of $n$ and $0 < i \\le k$. Therefore,\nthe divisors of $nm$ will add up to\n$$\\sum_{i = 1}^k d_i + \\sum_{i = 1}^k d_im = 2nm + a(m + 1) + 2n.$$\n\nIt now becomes obvious that by insisting that $m$ and $n$ be coprime we\nare guaranteeing that if $m$ is itself prime, it will bring at least $k$\nnew divisors to the table. But what if $\\gcd(m, n) > 1$, or in the most\nextreme case, $m = n$? In such a case, we just can\u2019t use the same\nformula for the sum of divisors of $nm$ that we used when $m$ and $n$\nwere coprime, as that would count some divisors twice. However, $m = n$\nstill brings new divisors to the table, and those new divisors add up to\n$$\\sum_{i = 2}^k d_id_k = 2n^2 + 2a^2 + a.$$\n\nHaving proven these extreme cases, it is obvious that $nm$ will be\nabundant in other cases, such as $m$ being a composite deficient number,\na perfect number, an abundant number sharing some but not all prime\nfactors with $n$, etc.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheoremOnMultiplesOfAbundantNumbers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "theorem on multiples of abundant numbers"
+  ]
+}

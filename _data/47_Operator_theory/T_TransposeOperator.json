@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "conjugate operator"
+  ],
+  "definition": "Let $X, Y$ be normed vector spaces and $X', Y'$ be their continuous dual\nspaces.\n\n[ **-**]{} Let $T:X \\longrightarrow Y$ be a bounded linear operator. The\noperator $T':Y' \\longrightarrow X'$ given by\n$$T'\\phi = \\phi \\circ T , \\;\\;\\; \\phi \\in Y'$$ is called the\n[**transpose operator**]{} of $T$ or the [**conjugate operator**]{} of\n$T$.\n\nIt is clear that $T'$ is well defined, i.e. $\\phi \\circ T \\in X'$, since\nthe composition of two continuous linear operators is again a continuous\nlinear operator.\n\nMoreover, it can be easily checked that $T'$ is a bounded linear\noperator.\n\n[**Remarks -**]{}\n\n-   When the vector spaces are finite dimensional, the transpose\n    operator corresponds to the matrix associated to it.\n\n-   For Hilbert spaces, a somewhat similar definition is that of adjoint\n    operator. But this two notions do not coincide: while the transpose\n    operator corresponds to the transpose of a matrix, the adjoint\n    operator corresponds to the conjugate transpose of a matrix.",
+  "language": "INFORMAL",
+  "phrase": "Transpose Operator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TransposeOperator"
+    }
+  ],
+  "indexable": true
+}

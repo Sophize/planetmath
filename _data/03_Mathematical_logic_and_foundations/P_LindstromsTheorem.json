@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "One of the very first results of the study of model theoretic logics is\na characterization theorem due to Per Lindstr\u00f6m. He showed that the\nclassical first order logic is the strongest logic having the following\nproperties\n\n-   Being closed under contradictory negation\n\n-   Compactness\n\n-   L\u00f6wenheim-Skolem theorem\n\nalso, he showed that first order logic can be characterised as the\nstrongest logic for which the following hold\n\n-   Completeness (r.e. axiomatisability)\n\n-   L\u00f6wenheim-Skolem theorem\n\nThe notion of \u201cstrength\u201d used here is as follows. A logic $\\mathbf{L}'$\nis stronger than $\\mathbf{L}$ or as strong if every class of structures\ndefinable in $\\mathbf{L}$ is also definable in $\\mathbf{L}'$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LindstromsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lindstr\\\"om's theorem"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "variety of algebras",
+    "primitive class"
+  ],
+  "definition": "Let $K$ be a class of algebraic systems of the same type. Consider the\nfollowing \u201coperations\u201d on $K$:\n\n1.  $S(K)$ is the class of subalgebras of algebras in $K$,\n\n2.  $P(K)$ is the class of direct products of non-empty collections of\n    algebras in $K$, and\n\n3.  $H(K)$ is the class of homomorphic images of algebras in $K$.\n\nIt is clear that $K$ is a subclass of $S(K),P(K)$, and $H(K)$.\n\nAn *equational class* is a class $K$ of algebraic systems such that\n$S(K),P(K)$, and $H(K)$ are subclasses of $K$. An equational class is\nalso called a *variety*.\n\nA subclass $L$ of a variety $K$ is called a *subvariety* of $K$ if $L$\nis a variety itself.\n\n**Examples**.\n\n-   In the variety of groups, the classes of abelian groups is\n    equational. However, the following classes are not: simple groups,\n    cyclic groups, finite groups, and divisible groups.\n\n-   In the variety of rings, the classes of commutative rings and\n    Boolean rings are varieties. Most classes of rings, however, are not\n    equational. For example, the class of Noetherian rings is not\n    equational, as infinite products of Noetherian rings are not\n    Noetherian.\n\n-   In the variety of lattices, the classes of modular lattices and\n    distributive lattices are equational, while complete lattices and\n    complemented lattices are not.\n\n-   The class of Heyting algebras is equational, and so is the subclass\n    of Boolean algebras.\n\n-   The class of torsion free abelian groups is *not* equational. For\n    example, the homomorphic image of $\\mathbb{Z}$ under the canonical\n    map $\\mathbb{Z}\\mapsto \\mathbb{Z}_n$ is not torsion free.\n\n**Remarks**.\n\n-   If $A,B$ are any of $H,S,P$, we define $AB(K):=A(B(K))$ for any\n    class $K$ of algebras, and write $A\\subseteq B$ iff\n    $A(K)\\subseteq B(K)$. Then $SH\\subseteq HS$, $PH\\subseteq HP$ and\n    $PS\\subseteq SP$.\n\n-   If $C$ is any one of $H,S,P$, then $C^2:=CC=C$.\n\n-   If $K$ is any class of algebras, then $HSP(K)$ is an equational\n    class.\n\n-   For any class of algebras, let $P_S(K)$ be the family of all\n    subdirect products of all non-empty collections of algebras of $K$.\n    Then $HSP(K)=HP_S(K)$.\n\n-   The reason for call such classes \u201cequational\u201d is due to the fact\n    that algebras within the same class all satisfy a set of\n    \u201cequations\u201d, or \u201c\u201d. Indeed, a famous theorem of Birkhoff says:\n\n    > a class $V$ of algebras is equational iff there is a set $\\Sigma$\n    > of identities (or equations) such that $K$ is the smallest class\n    > of algebras where each algebra $A\\in V$ is satisfied by every\n    > identity $e\\in \\Sigma$. In other words, $V$ is the set of all\n    > models of $\\Sigma$:\n    > $$V=\\operatorname{Mod}(\\Sigma)=\\lbrace A \\mbox{ is a structure }\\mid (\\forall e\\in \\Sigma)\\to(A\\models e) \\rbrace.$$\n\n[7]{} G. Gr\u00e4tzer: [*Universal Algebra*]{}, 2nd Edition, Springer, New\nYork (1978).",
+  "language": "INFORMAL",
+  "phrase": "Equational Class",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquationalClass"
+    }
+  ],
+  "indexable": true
+}

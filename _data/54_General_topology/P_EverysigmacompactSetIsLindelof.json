@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every set is Lindel\u00f6f (every open cover has a countable subcover).\n\nLet $X$ be a $\\sigma$-compact. Let $\\mathcal{A}$ be an open cover of $X$\n. Since $X$ is $\\sigma$-compact, it is the union of countable many\ncompact sets, $$X = \\bigcup_{i=0}^{\\infty}X_{i}$$ with $X_{i}$ compact.\nConsider the cover\n$\\mathcal{A}_{i}=\\left\\{A\\in\\mathcal{A}: X_{i}\\cap A \\neq \\emptyset\n\\right\\}$ of the set $X_{i}$. This cover is well defined, it is not\nempty and covers $X_{i}$: for each $x \\in X_{i}$ there is at least one\nof the open sets $A\\in\\mathcal{A}$ such that $x \\in A$.\n\nSince $X_{i}$ is compact, the cover $\\mathcal{A}_{i}$ has a finite\nsubcover. Then $$X_{i}\\subseteq\n\\bigcup_{j=0}^{N_j}A_{i}^{j}$$ and thus\n$$X\\subseteq \\bigcup_{i=0}^{\\infty}\n\\left(\\bigcup_{j=0}^{N_j}A_{i}^{j}\\right).$$ That is, the set\n$\\left\\{A_{i}^{j} \\right\\}$ is a countable subcover of $\\mathcal{A}$\nthat covers $X$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EverysigmacompactSetIsLindelof"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every $\\sigma$-compact set is Lindel\\\"of"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $S$ be a ring with identity and $R\\subset S$ a subring, such that\n$R$ is contained in the center of $S$. In this case $S$ is a (left)\n$R$-module via multiplication. Throughout by modules we will understand\nleft modules and by global dimension we will understand left global\ndimension (we will denote it by $\\mbox{gl dim}(S)$).\n\n**Proposition.** Assume that $\\mbox{gl dim}(S)=n<\\infty$. If $S$ is free\nas a $R$-module, then $\\mbox{gl dim}(R)\\leq n+1$.\n\n*Proof.* Let $M$ be a $R$-module. Then, there exists exact sequence\n$$0\\rightarrow K\\rightarrow P_n\\rightarrow\\cdots\\rightarrow P_0\\rightarrow M\\rightarrow 0,$$\nof $R$-modules, where each $P_i$ is projective (module $K$ is just a\nkernel of a map $P_n\\to P_{n-1}$). We will show, that $K$ is also\nprojective (and since $M$ is arbitrary, it will show that\n$\\mbox{gl dim}(R)\\leq n+1$).\n\nSince $S$ is free as a $R$-module, then the extension of scalars\n$(-\\otimes_{R} S)$ is an exact functor from the cateogry of $R$-modules\nto the category of $S$-modules. Furthermore for any projective\n$R$-module $M$, the $S$-module $M\\otimes_{R} S$ is projective (in the\ncategory of $S$-modules). Thus we have following exact sequence of\n$S$-modules\n$$0\\rightarrow K\\otimes_{R} S\\rightarrow P_n\\otimes_{R} S\\rightarrow\\cdots\\rightarrow P_0\\otimes_{R} S\\rightarrow M\\otimes_{R} S\\rightarrow 0,$$\nwhere each $P_i\\otimes_{R} S$ is a projective $S$-module. But projective\ndimension of $M\\otimes_{R} S$ is at most $n$ (since\n$\\mbox{gl dim}(S)=n$). Thus $K\\otimes_{R} S$ is a projective $S$-module\n(please, see for more details).\n\nNote that the restriction of scalars functor also maps projective\n$S$-modules into projective $R$-modules. Thus $K\\otimes_{R} S$ is a\nprojective $R$-module. But $S$ is free $R$-module, so\n$$S\\simeq \\bigoplus_{i\\in I} R,$$ for some index set $I$. Finally we\nhave\n$$K\\otimes_{R} S\\simeq K\\otimes_{R} \\big(\\bigoplus_{i\\in I} R\\big)\\simeq \\bigoplus_{i\\in I} \\big(K\\otimes_{R}R\\big)\\simeq \\bigoplus_{i\\in I} K.$$\nThis shows, that $K$ is a direct summand of a projective $R$-module\n$K\\otimes_{R} R$ and therefore $K$ is projective, which completes the\nproof. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GlobalDimensionOfASubring"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "global dimension of a subring"
+  ]
+}

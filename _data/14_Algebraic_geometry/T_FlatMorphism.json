@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "flat"
+  ],
+  "definition": "Let $f\\colon X\\to Y$ be a morphism of schemes. Then a sheaf\n$\\mathcal{F}$ of $\\mathcal{O}_X$-modules is *flat over $Y$ at a point\n$x\\in X$* if $\\mathcal{F}_x$ is a $\\mathcal{O}_{Y,f(x)}$-module by way\nof the map $f^\\sharp\\colon \\mathcal{O}_Y\\to\\mathcal{O}_X$ associated to\n$f$.\n\nThe morphism $f$ itself is said to be *flat* if $\\mathcal{O}_X$ is flat\nover $Y$ at every point of $X$.\n\nThis is the natural condition for $X$ to form a \u201ccontinuous family\u201d over\n$Y$. That is, for each $y\\in Y$, the fiber $X_y$ of $f$ over $y$ is a\nscheme. We can consider $X$ as a family of schemes parameterized by $Y$.\nIf the morphism $f$ is flat, then this family should be thought of as a\n\u201ccontinuous family\u201d. In particular, this means that certain\ncohomological invariants remain constant on the fibers of $X$.\n\n[9]{} Robin Hartshorne, [*Algebraic Geometry*]{}, Springer\u2013Verlag, 1977\n(GTM [**52**]{}).",
+  "language": "INFORMAL",
+  "phrase": "Flat Morphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FlatMorphism"
+    }
+  ],
+  "indexable": true
+}

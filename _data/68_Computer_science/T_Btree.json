@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *B-tree of $m$* is a search tree in which\n\n-   every node has at most $m$ children,\n\n-   every node, other than a root or leaf, has at least $m/2$ children,\n\n-   the root has at least 2 children if it is not a leaf,\n\n-   all leaf nodes appear on the same level\n\n-   a nonleaf node with $k$ children has $k-1$ keys.\n\nIf the tree has $n$ nodes its height is $O(log_2(n))$.",
+  "language": "INFORMAL",
+  "phrase": "B-Tree",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Btree"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "classical adjoint"
+  ],
+  "definition": "The *adjugate*, ${{\\operatorname{adj}}(A)}$, of an $n\\times n$ matrix\n$A$, is the $n\\times n$ matrix $$\\label{eq:def1}\n  {{\\operatorname{adj}}(A)}_{ij} = (-1)^{i+j}\\, M_{\\!ji}(A)$$ where\n$M_{\\!ji}(A)$ is the indicated minor of $A$ (the determinant obtained by\ndeleting row $j$ and column $i$ from $A$). The adjugate is also known as\nthe *classical adjoint*, to distinguish it from the which denotes the\nconjugate transpose operation.\n\nAn equivalent characterization of the adjugate is the following:\n$$\\label{eq:def2}\n  {{\\operatorname{adj}}(A)}A = \\det(A) I.$$ The equivalence of and\nfollows easily from the of the determinant. Thus, the adjugate operation\nis closely related to the matrix inverse. Indeed, if $A$ is invertible,\nthe adjugate can be defined as\n$${{\\operatorname{adj}}(A)}= \\det(A)A^{-1}$$\n\nYet another definition of the adjugate is the following:\n$$\\begin{aligned}\n  \\label{eq:def3}\n  {{\\operatorname{adj}}(A)}= p_{n-1}(A) I &- p_{n-2}(A) A + p_{n-3}(A) A^2 - \\cdots \\\\ \\nonumber\n  & +  (-1)^{n-2}p_1(A) A^{n-2} + (-1)^{n-1}A^{n-1},\\end{aligned}$$\nwhere $p_1(A)=\\operatorname{tr}(A), p_2(A),\\ldots, p_n(A) = \\det(A)$ are\nthe elementary invariant polynomials of $A$. The latter arise as\ncoefficients in the characteristic polynomial $p(t)$ of $A$, namely\n$$p(t) = \\det(t I - A) = t^n - p_1(A) t^{n-1} + \\cdots + (-1)^n p_n(A).$$\nThe equivalence of and follows from the Cayley-Hamilton theorem. The\nlatter states that $p(A)=0$, which in turn implies that\n$$A ( A^{n-1} - p_1(A) A^{n-2} + \\cdots + (-1)^{n-1} p_{n-1}(A) ) =\n (-1)^{n-1} \\det(A) I$$\n\nThe adjugate operation enjoys a number of notable properties:\n$$\\begin{aligned}\n  &{\\operatorname{adj}}(AB) ={\\operatorname{adj}}(B){\\operatorname{adj}}(A),\\\\\n  &{\\operatorname{adj}}(A^t) = {{\\operatorname{adj}}(A)}^t,\\\\\n  &\\det({{\\operatorname{adj}}(A)}) = \\det(A)^{n-1}.\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Adjugate",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Adjugate"
+    }
+  ],
+  "indexable": true
+}

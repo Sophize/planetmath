@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space, and let $\\sim$ be an equivalence\nrelation on $X$. Write $X^*$ for the set of equivalence classes of $X$\nunder $\\sim$. The [*quotient topology*]{} on $X^*$ is the topology whose\nopen sets are the subsets $U \\subset X^*$ such that\n$$\\bigcup U \\subset X$$ is an open subset of $X$. The space $X^*$ is\ncalled the [*quotient space*]{} of the space $X$ with respect to $\\sim$.\nIt is often written $X/\\sim$.\n\nThe projection map $\\pi: X \\longrightarrow X^*$ which sends each element\nof $X$ to its equivalence class is always a continuous map. In fact, the\nmap $\\pi$ satisfies the stronger property that a subset $U$ of $X^*$ is\nopen if and only if the subset $\\pi^{-1}(U)$ of $X$ is open. In general,\nany surjective map $p: X \\longrightarrow Y$ that satisfies this stronger\nproperty is called a [*quotient map*]{}, and given such a quotient map,\nthe space $Y$ is always homeomorphic to the quotient space of $X$ under\nthe equivalence relation $$x \\sim x' \\iff p(x) = p(x').$$\n\nAs a set, the construction of a quotient space collapses each of the\nequivalence classes of $\\sim$ to a single point. The topology on the\nquotient space is then chosen to be the strongest topology such that the\nprojection map $\\pi$ is continuous.\n\nFor $A \\subset X$, one often writes $X/A$ for the quotient space\nobtained by identifying all the points of $A$ with each other.",
+  "language": "INFORMAL",
+  "phrase": "Quotient Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientSpace"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f \\in F[x]$ be a polynomial over a field $F$, and let $K$ be its\nsplitting field. If $K$ is a radical extension of $F$, then the Galois\ngroup $\\operatorname{Gal}(K/F)$ is a solvable group.\n\nConversely, if the Galois group $\\operatorname{Gal}(K/F)$ is a solvable\ngroup, then $K$ is a radical extension of $F$ provided that the\ncharacteristic of $K$ is either $0$ or greater than $\\deg(f)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaloisCriterionForSolvabilityOfAPolynomialByRadicals"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Galois criterion for solvability of a polynomial by radicals"
+  ]
+}

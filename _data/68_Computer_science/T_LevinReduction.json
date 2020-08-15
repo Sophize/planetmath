@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $R_1$ and $R_2$ are search problems and $\\mathcal{C}$ is a complexity\nclass then a $\\mathcal{C}$ *Levin reduction* of $R_1$ to $R_2$ consists\nof three functions $g_1, g_2, g_3\\in\\mathcal{C}$ which satisfy:\n\n-   $g_1$ is a $\\mathcal{C}$ Karp reduction of $L(R_1)$ to $L(R_2)$\n\n-   If $R_1(x,y)$ then $R_2(f(x),g(x,y))$\n\n-   If $R_2(f(x),z)$ then $R_1(x,h(x,z))$\n\nNote that a $\\mathcal{C}$ Cook reduction can be constructed by\ncalculating $f(x)$, using the oracle to find $z$, and then calculating\n$h(x,z)$.\n\n$\\mathcal{P}$ Levin reductions are just called Levin reductions.",
+  "language": "INFORMAL",
+  "phrase": "Levin Reduction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LevinReduction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "fixed point arithmetic",
+    "fixed point",
+    "fixed-point"
+  ],
+  "definition": "For computation or display in [*fixed-point arithmetic*]{}, each real\nnumber $x$ has a variable number $k > 0$ of integer digits\n$d_{k - 1}, \\ldots, d_0$ (in order left to right from the most to the\nleast significant digit) in base $b$ but always $l$ fractional digits to\nthe right of the point. Thus, $$x = \\sum_{i = -l}^{k - 1} d_ib^i.$$ For\nexample, for the usual mundane applications of money, $b = 10$ and\n$l = 2$.\n\nFixed-point arithmetic can adequately represent any rational number\n${n \\over m}$ provided that $m \\leq b^l$ and $m$ has no prime factors\n$b$ doesn\u2019t (counting repeated prime factors). Addition and subtraction\nin fixed-point arithmetic present no special problems for such numbers.\nWhen it comes to multiplication and division, we run into cases where\nthe result cannot be adequately represented though the operands can.\n\nIn those cases it may be practical to perform the computations in\nfloating point and display the results in fixed-point. In fact, this is\nwhat many business calculators do (such as cash registers); they compute\nin binary floating point and display in decimal fixed-point. Another\noption is to continue the calculations in fixed-point by settling for\ncrude approximations. Depending on the application and the user, the\nloss of precision may be acceptable. There are two ways to handle the\nloss of precision: if $d_{-l-1} > {b \\over 2}$, we could then assign\n$d_{-l} = d_{-l} + 1$ (propagating the change as needed to the more\nsignificant digits); or we could simply ignore everything to the right\nof $d_{-l}$.\n\nOlder versions of FractInt for 80386 IBM-compatibles used fixed-point\narithmetic. Most computers (and even game consoles) today have floating\npoint units, reducing the need for fixed-point. Even so, newer\nimplementations of the C programming language are expected to provide\nfixed-point data types and appropriately overload built-in functions to\nhandle those data types (see ISO/IEC TR 18037:2004).",
+  "language": "INFORMAL",
+  "phrase": "Fixed-Point Arithmetic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FixedpointArithmetic"
+    }
+  ],
+  "indexable": true
+}

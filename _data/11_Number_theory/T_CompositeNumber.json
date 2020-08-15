@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "composite"
+  ],
+  "definition": "A *composite number* is a positive integer which is not prime and not\nequal to 1. That is, $n$ is composite if $n = ab$, with $a$ and $b$\nnatural numbers both not equal to 1.\n\n#### Examples.\n\n-   1 is not composite (and also not prime), by definition.\n\n-   2 is not composite, as it is prime.\n\n-   15 is composite, since $15 = 3\\cdot 5$.\n\n-   93555 is composite, since $93555 = 3^5\\cdot 5 \\cdot 7 \\cdot 11$.\n\n-   52223 is not composite, since it is prime.\n\nMore generally, we can define compositeness any time there is an ambient\nnotion of an irreducible element. In an integral domain, for example, an\nelement is said to be *composite* if it neither zero, a unit, nor\nirreducible.",
+  "language": "INFORMAL",
+  "phrase": "Composite Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompositeNumber"
+    }
+  ],
+  "indexable": true
+}

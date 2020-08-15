@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An ordinal $\\alpha$ is called *additively indecomposable* if it is not\n$0$ and for any $\\beta,\\gamma<\\alpha$, we have $\\beta+\\gamma<\\alpha$.\nThe set of additively indecomposable ordinals is denoted $\\indecomp$.\n\nObviously $1\\in\\indecomp$, since $0+0<1$. No finite ordinal other than\n$1$ is in $\\indecomp$. Also, $\\omega\\in\\indecomp$, since the sum of two\nfinite ordinals is still finite. More generally, every infinite cardinal\nis in $\\indecomp$.\n\n$\\indecomp$ is closed and unbounded, so the enumerating function of\n$\\indecomp$ is normal. In fact, $f_\\indecomp(\\alpha)=\\omega^\\alpha$.\n\nThe derivative $f_\\indecomp^\\prime(\\alpha)$ is written\n$\\epsilon_\\alpha$. Ordinals of this form (that is, fixed points of\n$f_\\indecomp$) are called *epsilon numbers*. The number\n$\\epsilon_0=\\omega^{\\omega^{\\omega^{\\cdot^{\\cdot^\\cdot}}}}$ is therefore\nthe first fixed point of the series\n$\\omega,\\omega^\\omega\\!,\\omega^{\\omega^\\omega}\\!\\!,\\ldots$",
+  "language": "INFORMAL",
+  "phrase": "Additively Indecomposable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdditivelyIndecomposable"
+    }
+  ],
+  "indexable": true
+}

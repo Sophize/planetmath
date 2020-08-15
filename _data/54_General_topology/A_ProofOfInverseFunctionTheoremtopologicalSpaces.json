@@ -1,0 +1,17 @@
+{
+  "argumentText": "We only have to prove that whenever $A\\subset X$ is an open set, then\nalso $B=(f^{-1})^{-1}(A) = f(A) \\subset Y$ is open ($f$ is an open\nmapping). Equivalently it is enough to prove that $B'=Y\\setminus B$ is\nclosed.\n\nSince $f$ is bijective we have $B' = Y\\setminus B = f(X\\setminus A)$\n\nAs $A'=X\\setminus A$ is closed and since $X$ is compact $A'$ is compact\ntoo (this and the following are well know properties of compact spaces).\nMoreover being $f$ continuous we know that also $B'=f(A')$ is compact.\nFinally since $Y$ is Hausdorff then $B'$ is closed.",
+  "conclusion": "#P_InverseFunctionTheoremtopologicalSpaces",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfInverseFunctionTheoremtopologicalSpaces"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of inverse function theorem (topological spaces)"
+  ]
+}

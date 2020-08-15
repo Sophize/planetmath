@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "linear diagrams",
+    "sequence"
+  ],
+  "definition": "A *categorical sequence* is a *linear \u2018diagram\u2019 of morphisms, or arrows,\nin an abstract category*. In a concrete category, such as the category\nof sets, the categorical sequence consists of sets joined by\nset-theoretical mappings in linear fashion, such as:\n$$\\cdots \\rightarrow\nA\\buildrel f \\over \\longrightarrow\nB \\buildrel \\phi \\over  \\longrightarrow\nHom_{Set}(A,B),$$ where $Hom_{Set}(A,B)$ is the set of functions from\nset $A$ to set $B$.\n\nExamples\n--------\n\n### The chain complex is a categorical sequence example:\n\nConsider a ring $R$ and the *chain complex* consisting of a sequence of\nand homomorphisms:\n\n$$\\cdots \\rightarrow\nA_{n+1} \\buildrel {d_{n+1}} \\over \\longrightarrow\nA_n \\buildrel {d_n} \\over \\longrightarrow\nA_{n-1} \\rightarrow\n\\cdots$$ (with the additional condition imposed by\n$d_n\\circ d_{n+1} = 0$ for each pair of adjacent homomorphisms\n$(d_{n+1}, d_n)$; this is equivalent to the condition\n$\\im d_{n+1} \\subseteq \\ker d_n$ that needs to be satisfied in order to\ndefine this categorical sequence completely as a *chain complex*).\nFurthermore, a sequence of homomorphisms $$\\cdots \\rightarrow\nA_{n+1} \\buildrel {f_{n+1}} \\over \\longrightarrow\nA_n \\buildrel {f_n} \\over \\longrightarrow\nA_{n-1} \\rightarrow\n\\cdots$$ is said to be [*exact*]{} if each pair of adjacent\nhomomorphisms $(f_{n+1}, f_n)$ is *exact*, that is, if\n${\\rm im} f_{n+1} = {\\rm ker} f_n$ for all $n$. This concept can be then\ngeneralized to morphisms in a , thus leading to the corresponding\ndefinition of an in an Abelian category.\n\nInasmuch as categorical diagrams can be defined as functors, exact\nsequences of special types of morphisms can also be regarded as the\ncorresponding, special functors. Thus, exact sequences in Abelian\ncategories can be regarded as certain functors of Abelian categories;\nthe details of such functorial (abelian) constructions are left to the\nreader as an exercise. Moreover, in (commutative or Abelian) homological\nalgebra, an is simply defined as a functor $F$ between two Abelian\ncategories, $\\mathcal{A}$ and $\\mathcal{B}$,\n$F: \\mathcal{A} \\to \\mathcal{B}$, which preserves categorical exact\nsequences, that is, if $F$ carries a short exact sequence\n$0 \\to C \\to D \\to E \\to 0$ (with $0, C, D$ and $E$ objects in\n$\\mathcal{A}$) into the corresponding sequence in the Abelian category\n$\\mathcal{B}$, ($0 \\to F(C) \\to F(D) \\to F(E) \\to 0$), which is also\nexact (in $\\mathcal{B}$).",
+  "language": "INFORMAL",
+  "phrase": "Categorical Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CategoricalSequence"
+    }
+  ],
+  "indexable": true
+}

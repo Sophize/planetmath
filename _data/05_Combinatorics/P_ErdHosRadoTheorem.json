@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Repeated exponentiation for cardinals is denoted\n$\\operatorname{exp}_i(\\kappa)$, where $i<\\omega$. It is defined by:\n\n$$\\operatorname{exp}_0(\\kappa)=\\kappa$$\n\nand\n\n$$\\operatorname{exp}_{i+1}(\\kappa)=2^{\\operatorname{exp}_{i}(\\kappa)}$$\n\nThe Erd\u0151s-Rado theorem states that:\n\n$$\\operatorname{exp}_i(\\kappa)^+\\rightarrow(\\kappa^+)^{i+1}_\\kappa$$\n\nThat is, if $f:[\\operatorname{exp}_i(\\kappa)^+]^{i+1}\\rightarrow\\kappa$\nthen there is a homogeneous set of size $\\kappa^+$.\n\nAs special cases, $(2^\\kappa)^+\\rightarrow(\\kappa^+)^2_\\kappa$ and\n$(2^{\\aleph_0})^+\\rightarrow(\\aleph_1)^2_{\\aleph_0}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ErdHosRadoTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Erd\\H{o}s-Rado theorem"
+  ]
+}

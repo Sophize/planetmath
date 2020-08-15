@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Equitable matrices have been used in economics and group theory [@eves].\n\nAn $n\\times n$ matrix $M=(m_{ij})$ is an *equitable matrix* if all\n$m_{ij}$ are positive, and $m_{ij}=m_{ik} m_{kj}$ for all\n$i,j,k=1,\\ldots, n$.\n\nSetting $i=j=k$ yields $m_{ii}=m_{ii} m_{ii}$ so diagonal elements of\nequitable matrices equal $1$. Next, setting $i=j$ yields\n$m_{ii}=m_{ik} m_{ki}$, so $m_{ik} =1/m_{ki}$.\n\n### Examples {#examples .unnumbered}\n\n1.  An example of an equitable matrix of order $n$ is\n    $$\\begin{pmatrix} 1 & \\cdots & 1 \\\\\n                      \\vdots & \\ddots & \\vdots \\\\\n                      1 & \\cdots & 1 \\end{pmatrix}.$$ This example shows\n    that equitable matrices exist for all $n$.\n\n2.  The most general equitable matrix of orders $2$ and $3$ are\n    $$\\begin{pmatrix} 1 & a \\\\\n                      1/a & 1 \\end{pmatrix},$$ and\n    $$\\begin{pmatrix} 1 & a & ab  \\\\\n                      1/a & 1 &b \\\\\n                      1/ab & 1/b & 1 \\end{pmatrix},$$ where $a,b,c>0$.\n\n### Properties {#properties .unnumbered}\n\n1.  A $n \\times n$ matrix $M=(m_{ij})$ is equitable if and only if it\n    can be expressed in the form\n    $$m_{ij} = \\exp (\\lambda_i - \\lambda_j)$$ for real numbers\n    $\\lambda_1, \\lambda_2, \\ldots, \\lambda_n$ with $\\lambda_1 = 0$. ()\n\n2.  An equitable matrix is completely determined by its first row. If\n    $m_{1i}$, $i=1, \\ldots, n$ are known, then\n    $$m_{ij} = \\frac{m_{1j}}{m_{1i}}.$$\n\n3.  If $M$ is an $n\\times n$ equitable matrix, then\n    $$\\operatorname{exp}(M) = I + \\frac{e^n-1}{n} M,$$ where\n    $\\operatorname{exp}$ is the matrix exponential.\n\n4.  Equitable matrices form a group under the Hadamard product [@eves].\n\n5.  If $M$ is an $n\\times n$ equitable matrix and\n    $s\\colon \\{1,\\ldots, r\\}\\to \\{1, \\ldots, n\\}$ is a mapping, then\n    $$K_{ab} = M_{s(a)\\, s(b)}, \\quad a,b=1,\\ldots, r$$ is an equitable\n    $r\\times r$ matrix. In particular, striking the $l$:th row and\n    column in an equitable matrix yields a new equitable matrix.\n\nSee [@eves] for further properties and references.\n\n[9]{} H. Eves, *Elementary Matrix Theory*, Dover publications, 1980.",
+  "language": "INFORMAL",
+  "phrase": "Equitable Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquitableMatrix"
+    }
+  ],
+  "indexable": true
+}

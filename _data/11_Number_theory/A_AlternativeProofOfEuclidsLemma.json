@@ -1,0 +1,17 @@
+{
+  "argumentText": "We give an alternative proof (see Euclid\u2019s lemma proof), which does not\nuse the Fundamental Theorem of Arithmetic (since, usually, Euclid\u2019s\nlemma is used to prove FTA).\n\nIf $a\\mid bc$ and $\\gcd(a,b)=1$ then $a\\mid c$.\n\nBy assumption $\\gcd(a,b)=1$, thus we can use Bezout\u2019s lemma to find\nintegers $x,y$ such that $ax+by=1$. Hence $c\\cdot(ax+by)=c$ and\n$acx+bcy=c$. Since $a\\mid a$ and $a \\mid bc $ (by hypothesis), we\nconclude that $a \\mid acx + bcy =c $ as claimed.",
+  "conclusion": "#P_EuclidsLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternativeProofOfEuclidsLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "alternative proof of Euclid's lemma"
+  ]
+}

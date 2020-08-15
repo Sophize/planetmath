@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $\\mathcal{A}$ be a Banach \\*-algebra, $H$ an\nHilbert space and $I$ the identity operator in $H$. A\n$\\pi : \\mathcal{A} \\longrightarrow H$ is topologically irreducible if\nand only if $\\pi(\\mathcal{A})' = \\mathbb{C}I$, i.e. if and only if the\ncommutant of $\\pi(\\mathcal{A})$ consists of scalar multiples of the\nidentity operator.\n\n[**Proof :**]{} $(\\Longrightarrow)$\n\nAs $\\pi(\\mathcal{A})$ is selfadjoint, $\\pi(\\mathcal{A})'$ is a von\nNeumann algebra.\n\nSuppose $\\pi(\\mathcal{A})' \\neq \\mathbb{C}I$. Then the dimension of\n$\\pi(\\mathcal{A})'$ is greater than one.\n\nIt is known that von Neumann algebras of dimension greater than one\ncontain non-trivial projections, so there is a projection\n$P \\in \\pi(\\mathcal{A})'$ such that $P \\neq 0$ and $P \\neq I$.\n\nAs $P \\in \\pi(\\mathcal{A})'$, $P$ commutes with every operator\n$T \\in \\pi(\\mathcal{A})$, that is $PT=TP$.\n\nThus $Ran \\; P$ is an invariant subspace of every\n$T \\in \\pi(\\mathcal{A})$. Therefore $\\pi$ is not an irreducible\nrepresentation.\n\n$(\\Longleftarrow)$\n\nConversely, suppose that $\\pi$ is not an irreducible representation.\nThere exists a closed $\\pi(\\mathcal{A})$-invariant subspace different\nfrom $\\{0\\}$ and $H$.\n\nLet $P$ be the projection onto that closed invariant subspace.\n\nInvariance can be expressed as: $\\pi(a)P = P \\pi(a) P$ for every\n$a \\in \\mathcal{A}$. It follows that\n$$P\\pi(a) = (\\pi(a)^*P)^*=(\\pi(a^*)P)^*=(P\\pi(a^*)P)^*=P\\pi(a^*)^*P=P\\pi(a)P=\\pi(a)P$$\nfor every $a \\in \\mathcal{A}$.\n\nWe conclude that $P$ commutes with every element of $\\pi(\\mathcal{A})$,\ni.e. $P \\in \\pi(\\mathcal{A})'$.\n\nThus $\\pi(\\mathcal{A})' \\neq \\mathbb{C}I \\;\\; \\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CriterionForABanachalgebraRepresentationToBeIrreducible"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "criterion for a Banach *-algebra representation to be irreducible"
+  ]
+}

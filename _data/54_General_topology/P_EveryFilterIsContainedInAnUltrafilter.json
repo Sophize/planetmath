@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a set and $\\mathcal{F}$ be a filter on $X$. Then there exists\nan ultrafilter $\\mathcal{U}$ on $X$ which is finer than $\\mathcal{F}$.\n\nAn importance consequnce of this theorem is the existence of free\nultrafilters on infinite sets. According to the theorem, there must\nexist an ultrafilter which is finer than the cofinite filter. Since the\ncofinite filter is free, every filter finer than it must also be free,\nand hence there exists a free ultafilter.\n\nAlso note that this theorem requires the axiom of choice.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryFilterIsContainedInAnUltrafilter"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every filter is contained in an ultrafilter"
+  ]
+}

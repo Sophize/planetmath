@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose that $\\mu : G \\subset {\\mathbb{C}} \\rightarrow {\\mathbb{C}}$ is\na measurable function, then the partial differential equation\n$$f_{\\bar{z}}(z) = \\mu(z)f_z(z)$$ is called the [*Beltrami differential\nequation*]{}.\n\nIf furthermore $\\lvert \\mu(z) \\rvert < 1$ and in fact\n$\\lvert \\mu(z) \\rvert$ has a uniform bound less then 1 over the domain\nof definition, then the solution is a quasiconformal mapping with\n$\\mu(z)$ and $d_f = \\sup_z \\lvert \\mu(z) \\rvert$.\n\nA conformal mapping has $f_{\\bar{z}} \\equiv 0$ and so the solution can\nbe conformal if and only if $\\mu \\equiv 0$.\n\nThe partial derivatives $f_z$ and $f_{\\bar{z}}$ (where $\\bar{z}$ is the\ncomplex conjugate of $z$) can here be given in terms of the real and\nimaginary parts of $f = u + iv$ as $$\\begin{aligned}\nf_z & = \\frac{1}{2} ( u_x + v_y ) + \\frac{i}{2} ( v_x - u_y ),\n\\\\\nf_{\\bar{z}} & = \\frac{1}{2} ( u_x - v_y ) + \\frac{i}{2} ( v_x + u_y ).\\end{aligned}$$\n\n[9]{} L. V. Ahlfors. **. Van Nostrand-Reinhold, Princeton, New Jersey,\n1966",
+  "language": "INFORMAL",
+  "phrase": "Beltrami Differential Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BeltramiDifferentialEquation"
+    }
+  ],
+  "indexable": true
+}

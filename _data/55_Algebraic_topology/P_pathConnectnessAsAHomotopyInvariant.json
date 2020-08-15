@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let $X$ and $Y$ be arbitrary topological spaces with $Y$\n(path) connected. If there are maps $f:X\\rightarrow Y$ and\n$g:Y\\rightarrow X$ such that $g\\circ f:X\\rightarrow X$ is homotopic to\nthe identity map, then $X$ is (path) connected.\\\n\\\n***Proof:*** Let $f:X\\rightarrow Y$ and $g:Y\\rightarrow X$ be maps\nsatisfying theorem\u2019s assumption. Furthermore let $X=\\bigcup X_i$ be a\ndecomposition of $X$ into (path) connected components. Since $Y$ is\n(path) connected, then $g(Y)\\subseteq X_i$ for some $i$. Thus\n$(g\\circ f)(X)\\subseteq X_i$. Now let $H:I\\times X\\rightarrow X$ be the\nhomotopy from $g\\circ f$ to the identity map. Let\n$\\alpha_{x}:I\\rightarrow X$ be a path defined by the formula:\n$\\alpha_{x}(t)=H(t,x)$. Since for all $x\\in X$ we have\n$\\alpha_{x}(0)\\in X_i$ and $I$ is path connected, then\n$\\alpha_{x}(I)\\subseteq X_i$. Therefore $H(I\\times X)\\subseteq X_i$, but\n$H(\\{1\\}\\times X)=X$ which implies that $X_i=X$, so $X$ is (path)\nconnected. $\\square$\\\n\\\nStraightforward application of this theorem is following:\\\n\\\n**Corollary.** Let $X$ and $Y$ be homotopy equivalent spaces. Then $X$\nis (path) connected if and only if $Y$ is (path) connected.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/pathConnectnessAsAHomotopyInvariant"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "(path) connectness as a homotopy invariant"
+  ]
+}

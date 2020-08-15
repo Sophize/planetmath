@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let $R$ be a commutative ring with non-zero unity 1 and\n$\\mathfrak{p}$ an ideal of $R$. The quotient ring $R/\\mathfrak{p}$ is an\nintegral domain if and only if $\\mathfrak{p}$ is a prime ideal.\\\n[*Proof.*]{} $1^{\\underline{o}}$. First, let $\\mathfrak{p}$ be a prime\nideal of $R$. Then $R/\\mathfrak{p}$ is of course a commutative ring and\nhas the unity $1+\\mathfrak{p}$. If the product\n$(r+\\mathfrak{p})(s+\\mathfrak{p})$ of two residue classes vanishes, i.e.\nequals $\\mathfrak{p}$, then we have $rs+\\mathfrak{p}= \\mathfrak{p}$, and\ntherefore $rs$ must belong to $\\mathfrak{p}$. Since $\\mathfrak{p}$ is ,\neither $r$ or $s$ belongs to $\\mathfrak{p}$, i.e.\n$r+\\mathfrak{p}= \\mathfrak{p}$ or $s+\\mathfrak{p}= \\mathfrak{p}$.\nAccordingly, $R/\\mathfrak{p}$ has no zero divisors and is an integral\ndomain.\n\n$2^{\\underline{o}}$. Conversely, let $R/\\mathfrak{p}$ be an integral\ndomain and let the product $rs$ of two elements of $R$ belong to\n$\\mathfrak{p}$. It follows that\n$(r+\\mathfrak{p})(s+\\mathfrak{p}) = rs+\\mathfrak{p} = \\mathfrak{p}$.\nSince $R/\\mathfrak{p}$ has no zero divisors,\n$r+\\mathfrak{p} = \\mathfrak{p}$ or $s+\\mathfrak{p} =\\mathfrak{p} $.\nThus, $r$ or $s$ belongs to $\\mathfrak{p}$, i.e. $\\mathfrak{p}$ is a\nprime ideal.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientRingModuloPrimeIdeal"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "quotient ring modulo prime ideal"
+  ]
+}

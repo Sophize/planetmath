@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A general dictionary would define [*primality*]{} as \u201cthe quality or\ncondition of being a prime number.\u201d In mathematics, it might be more\nuseful to define primality as a Boolean-valued function that returns\nTrue if the input number is prime and False otherwise. Two examples: the\nprimality of 47 is True; the primality of 42 is False.\n\nIt is not necessary to perform integer factorization to know the\nprimality of a given integer, as there are various congruences and other\nrelations which prime numbers satisfy but non-primes don\u2019t; these can\nserve as primality tests. The primality of certain large numbers, such\nas the thirtieth Fermat number, has been determined even though all we\nknow of its least prime factor is that it is less than the square root\nof the composite Fermat number. Before the primality of a large number\nis ascertained, it might be considered a probable prime. 1 is the only\ninteger to be declared non-prime without a previously unknown factor\nbeing discovered.",
+  "language": "INFORMAL",
+  "phrase": "Primality",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Primality"
+    }
+  ],
+  "indexable": true
+}

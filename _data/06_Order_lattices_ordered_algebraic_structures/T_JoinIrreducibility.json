@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "join-irreducible",
+    "meet-irreducible"
+  ],
+  "definition": "An element $a$ in a lattice $L$ is said to be *join irreducible* iff $a$\nis not a bottom element, and, whenever $a=b\\vee c$, then $a=b$ or $a=c$.\nDually, $a\\in L$ is *meet irreducible* iff $a$ is not a top element,\nand, whenever $a=b\\wedge c$, then $a=b$ or $a=c$. If $a$ is both join\nand meet irreducible, then $a$ is said to be *irreducible*. Any atom in\na lattice is join irreducible.\n\n**Example**. In the lattice diagram (Hasse diagram) below, $$\\xymatrix{\n& 1 \\ar@{-}[d] & \\\\\n& a \\ar@{-}[ld] \\ar@{-}[rd] \\\\\nb \\ar@{-}[rd] & & c \\ar@{-}[ld] \\\\\n& d \\ar@{-}[d] & \\\\\n& 0 \n}$$ $a$ is meet irreducible but not join irreducible, $d$ is join\nirreducible but not meet irreducible, while $b,c$ are irreducible.\n\nFrom this, we make the observations that in any chain, all the elements\nexcept the bottom one are join irreducible. Dually, all the elements\nexcept the top one are meet irreducible. An element is join irreducible\niff it at most one other element. An element is meet irreducible iff it\nis covered by at most one other element.\n\n**Remark.** If a lattice satisfies the descending chain condition, then\nevery element can be expressed as a join of join irreducible elements.\nThis statement can be dualized: if a lattice satisfies the ascending\nchain condition, then every element is the meet of meet irreducible\nelements.\n\n[6]{} B. A. Davey, H. A. Priestley, [*Introduction to Lattices and\nOrder*]{}, 2nd Edition, Cambridge (2003)",
+  "language": "INFORMAL",
+  "phrase": "Join Irreducibility",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JoinIrreducibility"
+    }
+  ],
+  "indexable": true
+}

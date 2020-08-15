@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be any set, and let $(Y,d)$ be a metric space. A sequence\n$f_1,f_2,\\dots$ of functions mapping $X$ to $Y$ is said to be *uniformly\nconvergent* to another function $f$ if, for each $\\varepsilon>0$, there\nexists $N$ such that, for all $x$ and all $n>N$, we have\n$d(f_n(x),f(x))<\\varepsilon$. This is denoted by\n$f_n\\xrightarrow[]{u} f$, or \u201c$f_n\\rightarrow f$ uniformly\u201d or, less\nfrequently, by $f_n\\rightrightarrows f$.",
+  "language": "INFORMAL",
+  "phrase": "Uniform Convergence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformConvergence"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $E$ be a topological space on which a topological group $G$ acts\ncontinuously and freely. The map $\\pi:E\\to E/G=B$ is called a *principal\nbundle* (or *principal $G$-bundle*) if the projection map $\\pi:E\\to B$\nis a locally trivial bundle.\n\nAny principal bundle with a section $\\sigma:B\\to E$ is trivial, since\nthe map $\\phi:B\\times G\\to E$ given by $\\phi(b,g)=g\\cdot\\sigma(b)$ is an\nisomorphism. In particular, any $G$-bundle which is topologically\ntrivial is also isomorphic to $B\\times G$ as a $G$-space. Thus any local\ntrivialization of $\\pi:E\\to B$ as a topological bundle is an equivariant\ntrivialization.",
+  "language": "INFORMAL",
+  "phrase": "Principal Bundle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrincipalBundle"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $P$ be a degree $n>0$ monic complex polynomial in one indeterminate,\nlet $f$ be a continuous function on the real line, let $k$ be an integer\nvarying from 0 to $n-1$, and let $y_k$ be a complex number. The solution\nto the ODE $$\\label{se}P(d/d t)\\ y=f(t),\\quad\ny^{(k)}(0)=y_k$$ is $$\\label{sse}\ny(t)=\\sum\\ y_k\\ g_k(t)+\\int_0^t g_{n-1}(t-x)\\ f(x)\\ d x,$$ where\n$g_k(t)$ is the coefficient of $z^k$ in the product of $P(z)$ by the\nsingular part of $$\\frac{e^{t z}}{P(z)}\\quad.$$ Moreover, if $A$ is a\ncomplex square matrix annihilated by $P$, then\n$$\\label{e}e^{t A}=\\sum\\ g_k(t)\\ A^k.$$\n\n(\\[se\\]) into $$\\label{ve}\nY'-B\\,Y=f(t)\\ v,\\quad Y(0)=Y_0$$ by putting $Y_k:=y^{(k)}$,\n$Y_{0k}:=y_k$, and by letting $B$ be the transpose companion matrix of\n$P$, and $v$ the last vector of the canonical basis of $\\mathbb{C}^n$.\nThe solution to (\\[ve\\]) is\n$$Y(t)=e^{t B}\\ Y_0+\\int_0^t\\ f(x)\\ e^{(t-x)B}\\ v\\ d x.$$ There is a\nunique $n$-tuple of functions $h_k$ such that $e^{t A}$ is the sum of\nthe $h_k(t)\\,A^k$ whenever $A$ is a complex square matrix annihilated by\n$P$. The first line of $B^k$ being the $(k+1)$-th vector of the\ncanonical basis of $\\mathbb{C}^n$ (for $0\\le k<n$), we obtain\n$$y(t)=\\sum\\ y_k\\ h_k(t)\n+\\int_0^t h_{n-1}(t-x)\\ f(x)\\ d x,$$ so that the proof of (\\[sse\\]) and\n(\\[e\\]) boils down to verifying $$h_k(t)=g_k(t).$$ a real value of $t$,\nlet $G\\in\\mathbb{C}[X]$ be the sum of the $g_k(t)\\, X^k$, form the\nentire function $$\\varphi(z)=\\frac{e^{t z}-G(z)}{P(z)}\\quad,$$ multiply\nthe above equality by $P(z)$, and replace $z$ by $A$.",
+  "language": "INFORMAL",
+  "phrase": "Order N Constant Coefficient Differential Equations And Matrix Exponential",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderNConstantCoefficientDifferentialEquationsAndMatrixExponential"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *integer part* of a real number is the part of the number that\nappears before the decimal . For example, the integer part of $\\pi$ is\n$3$, and the integer part of $-\\sqrt{2}$ is $-1$.\n\nTo be more precise, for $x \\in \\mathbb{R}$, the integer part of $x$,\ndenoted as $[x]$, is given by\n\n$$[x]=\\begin{cases}\n\\lfloor x \\rfloor \\text{ if } x \\ge 0 \\\\\n\\lceil x \\rceil \\text{ if } x<0, \\end{cases}$$\n\nwhere $\\lfloor x \\rfloor$ and $\\lceil x \\rceil$ denote the floor and\nceiling of $x$, respectively.",
+  "language": "INFORMAL",
+  "phrase": "Integer Part",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegerPart"
+    }
+  ],
+  "indexable": true
+}

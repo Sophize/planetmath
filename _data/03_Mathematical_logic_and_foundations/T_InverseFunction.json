@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "non-singular function",
+    "nonsingular function",
+    "non-singular",
+    "nonsingular",
+    "inverse"
+  ],
+  "definition": "Suppose $f:X\\to Y$ is a function between sets $X$ and $Y$, and suppose\n$f^{-1}:Y\\to X$ is a mapping that satisfies $$\\begin{aligned}\nf^{-1}\\circ f &=& \\operatorname{id}_X, \\\\\nf\\circ f^{-1} &=& \\operatorname{id}_Y,\\end{aligned}$$ where\n$\\operatorname{id}_A$ denotes the identity function on the set $A$. Then\n$f^{-1}$ is called the *inverse of* $f$, or the *inverse function of*\n$f$. If $f$ has an inverse near a point $x\\in X$, then $f$ is\n*invertible near $x$*. (That is, if there is a set $U$ containing $x$\nsuch that the restriction of $f$ to $U$ is invertible, then $f$ is\ninvertible near $x$.) If $f$ is invertible near all $x\\in X$, then $f$\nis *invertible*.\n\n### Properties {#properties .unnumbered}\n\n1.  When an inverse function exists, it is unique.\n\n2.  The inverse function and the inverse image of a set coincide in the\n    following sense. Suppose $f^{-1}(A)$ is the inverse image of a set\n    $A\\subset Y$ under a function $f:X\\to Y$. If $f$ is a bijection,\n    then $f^{-1}(y)=f^{-1}(\\{y\\})$.\n\n3.  The inverse function of a function $f:X\\to Y$ exists if and only if\n    $f$ is a bijection, that is, $f$ is an injection and a surjection.\n\n4.  A linear mapping between vector spaces is invertible if and only if\n    the determinant of the mapping is nonzero.\n\n5.  For differentiable functions between Euclidean spaces, the inverse\n    function theorem gives a necessary and sufficient condition for the\n    inverse to exist. This can be generalized to maps between Banach\n    spaces which are differentiable in the sense of Frechet.\n\n### Remarks {#remarks .unnumbered}\n\nWhen $f$ is a linear mapping (for instance, a matrix), the term\n*non-singular* is also used as a synonym for invertible.",
+  "language": "INFORMAL",
+  "phrase": "Inverse Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InverseFunction"
+    }
+  ],
+  "indexable": true
+}

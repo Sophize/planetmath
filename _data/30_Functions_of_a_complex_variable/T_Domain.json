@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A non-empty open set in $\\mathbb{C}^n$ is called a *domain*.\n\nThe topology considered is the Euclidean one (viewing $\\mathbb{C}$ as\n$\\mathbb{R}^2$). So we have that for a domain $D$ being connected is\nequivalent to being path-connected.\n\nSince we have that every component of a region $D$ will be a domain, we\nhave that every region has at most countably many components.\n\nThis definition has no particular relationship to the notion of an ,\nused in algebra. In number theory, one sometimes talks about fundamental\ndomains in the upper half-plane, these have a different definition and\nare not normally open. In set theory, one often talks about the of a\nfunction. This is a separate concept. However, when one is interested in\ncomplex analysis, it is often reasonable to consider only functions\ndefined on connected open sets in $\\mathbb{C}^n$, which we have called\ndomains in this entry. In this context, the two notions coincide.\\\nA *domain* in a metric space (or more generally in a topological space)\nis a connected open set.\n\nCf. , .",
+  "language": "INFORMAL",
+  "phrase": "Domain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Domain"
+    }
+  ],
+  "indexable": true
+}

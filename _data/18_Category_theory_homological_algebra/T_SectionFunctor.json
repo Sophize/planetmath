@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Essential data\n==============\n\nLet us consider an Abelian category $\\mathcal{C}$ which is locally small\nand a dense subcategory $\\mathcal{A}$ of $\\mathcal{C}$, with\n$T: \\mathcal{C} \\to  \\mathcal{C}/\\mathcal{A}$ being the canonical\nfunctor. Moreover, let us assume that $T$ has a right adjoint denoted by\n$S$ such that one has the following functorial isomorphism, or natural\nequivalence:\n\n$$Hom_{\\mathcal{C}}(X, S(Y)) \\cong Hom_{\\mathcal{C} / \\mathcal{A}}$$.\n\nThe right adjoint functor\n$$S: \\mathcal{C}/ \\mathcal{A} \\to \\mathcal{C}$$ of $T$\u2013 which is\nspecified by the essential data above\u2013 is called a *section functor*.\n\nNote: the category $\\mathcal{A}$ is defined as a *localizing\nsubcategory*.",
+  "language": "INFORMAL",
+  "phrase": "Section Functor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SectionFunctor"
+    }
+  ],
+  "indexable": true
+}

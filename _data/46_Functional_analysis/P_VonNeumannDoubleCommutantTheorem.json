@@ -1,0 +1,18 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The von Neumann double commutant theorem is a remarkable result in the\ntheory of self-adjoint algebras of operators on Hilbert spaces, as it\nexpresses purely topological aspects of these algebras in terms of\npurely algebraic properties.\n\n$\\,$\n\n[**Theorem - von Neumann -**]{} Let $H$ be a and $B(H)$ its algebra of\nbounded operators. Let $\\mathcal{M}$ be a \\*-subalgebra of $B(H)$ that\ncontains the identity operator. The following statements are equivalent:\n\n1.  $\\mathcal M = \\mathcal M''$, i.e. $\\mathcal M$ equals its double\n    commutant.\n\n2.  $\\mathcal M$ is closed in the weak operator topology.\n\n3.  $\\mathcal M$ is closed in the strong operator topology.\n\n$\\,$\n\nThus, a purely topological property of a $\\mathcal{M}$, as being closed\nfor some operator topology, is equivalent to a purely algebraic\nproperty, such as being equal to its double commutant.\n\nThis result is also known as the *bicommutant theorem* or the *von\nNeumann density theorem*.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VonNeumannDoubleCommutantTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "von Neumann double commutant theorem",
+    "double commutant theorem",
+    "bicommutant theorem",
+    "von Neumann bicommutant theorem",
+    "von Neumann density theorem"
+  ]
+}

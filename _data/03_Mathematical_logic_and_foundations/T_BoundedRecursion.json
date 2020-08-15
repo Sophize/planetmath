@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "bounded primitive recursion"
+  ],
+  "definition": "In this entry, the following notations are used:\n\n> $\\mathcal{F} = \\bigcup \\lbrace F_k \\mid k \\in \\mathbb{N}\n> \\rbrace$, where for each $k \\in \\mathbb{N}$, and\n> $F_k = \\lbrace f \\mid f \\colon \\mathbb{N}^{k}\n> \\to \\mathbb{N} \\rbrace$.\n\n**Definition**. A function $f\\in F_{m+1}$ is said to be defined by\n*bounded recursion* via functions $g\\in F_m$, $h\\in F_{m+2}$, and\n$k\\in F_{m+1}$ if, for any $\\boldsymbol{x}\\in \\mathbb{N}^m$ and\n$y\\in \\mathbb{N}$,\n\n1.  $f$ is defined by primitive recursion via $g$ and $h$:\n\n    -   $f(\\boldsymbol{x},0)=g(\\boldsymbol{x})$,\n\n    -   $f(\\boldsymbol{x},y+1)=h(\\boldsymbol{x},y,f(\\boldsymbol{x},y))$;\n\n2.  $f$ is bounded from above by $k$:\n\n    -   $f(\\boldsymbol{x},y)\\le k(\\boldsymbol{x},y)$.\n\nClearly, a function that is defined by bounded recursion is defined by\nprimitive recursion. Conversely, a function is defined by primitive\nrecursion, it is also defined by bounded recursion, since it is bounded\nby itself. However, the two concepts are not exactly the same. To make\nthis precise, we first define what it means for a set of\nnumber-theoretic functions be closed under bounded recursion:\n\n**Definition**. A set $\\mathcal{B}\\subseteq \\mathcal{F}$ is said to be\n*closed under bounded recursion* if, for any $f$ defined by bounded\nrecursion via $g,h,k\\in \\mathcal{B}$, then $f\\in \\mathcal{B}$.\n\nIt is clear that $\\mathcal{F}$ is closed under both primitive recursion\nand bounded recursion, and so are $\\mathcal{PR}$, the set of all\nprimitive recursive functions, as well as $\\mathcal{R}\\cap \\mathcal{F}$,\nthe set of all total recursive functions. However,\n\nThe set $\\mathcal{ER}$ of all elementary recursive functions is closed\nunder bounded recursion, but not primitive recursion.\n\nSince the exponential function, the $i$-th prime function, and the\nfunction $(x)_y$ (the exponent of $y$ in $x$) are elementary recursive,\nwe have the following corollary:\n\nIf $f$ is defined by course-of-values recursion via an elementary\nrecursive function $h$, and $f$ is bounded from above by an elementary\nrecursive function $k$, then $f$ is elementary recursive.",
+  "language": "INFORMAL",
+  "phrase": "Bounded Recursion",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundedRecursion"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Any metric $d: X \\times X \\to \\mathbb{R}$ on a set $X$ must satisfy the\ntriangle inequality:\n\n$$(\\forall x,y,z) \\quad d(x,z) \\leq d(x,y) + d(y,z)$$\n\nAn [*ultrametric*]{} must additionally satisfy a stronger version of the\ntriangle inequality:\n\n$$(\\forall x,y,z) \\quad d(x,z) \\leq \\max\\{ d(x,y),  d(y,z) \\}$$\n\nHere is an example of an ultrametric on a space with 5 points, labelled\n$a,b,c,d,e$:\n\n$$\\begin{array}{c|c|c|c|c|c}\n   & a  & b  & c  & d  & e\n\\\\ \\hline\n a & 0  & 12 & 4  & 6  & 12\n\\\\ \\hline\n b &    & 0  & 12 & 12 & 5\n\\\\ \\hline\n c &    &    & 0  & 6  & 12\n\\\\ \\hline\n d &    &    &    & 0  & 12\n\\\\ \\hline\n e &    &    &    &    & 0\n\\end{array}$$\n\nIn the table above, an entry $n$ in the for element $x$ and the for\nelement $y$ indicates that $d(x,y)=n$, where $d$ is the ultrametric. By\nsymmetry of the ultrametric ($d(x,y)=d(y,x)$), the above table yields\nall values of $d(x,y)$ for all $x,y \\in \\{a,b,c,d,e\\}$.\n\nThe ultrametric condition is equivalent to the ultrametric three point\ncondition:\n\n$$(\\forall x,y,z) \\quad x,y,z \\textrm{ can be renamed such that } d(x,z) \\leq d(x,y) = d(y,z)$$\n\nUltrametrics can be used to model bifurcating hierarchical systems. The\ndistance between nodes in a weight-balanced binary tree is an\nultrametric. Similarly, an ultrametric can be modelled by a\nweight-balanced binary tree, although the choice of tree is not\nnecessarily unique. Tree models of ultrametrics are sometimes called\n*ultrametric trees*.\n\nThe metrics induced by non-Archimedean valuations are ultrametrics.",
+  "language": "INFORMAL",
+  "phrase": "Ultrametric",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ultrametric"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Index Set Theorem: *If $A$ is an index set and\n$A\\neq\\varnothing, \\omega$, then either $K\\leq_1 A$ or\n$K\\leq_1 A^{\\complement}$.*\n\nIn the statement of the theorem, $K$ is the halting set\n$\\{x : \\varphi_x(x)\\: converges \\}$, $\\leq_1$ is the one-one\nreducibility (or 1-reducibility) relation symbol, and $A^{\\complement}$\nstands for the complement of the set $A$ (relative to $\\omega$).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndexSetTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "index set theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Salem number is a real algebraic integer $\\alpha>1$ whose algebraic\nconjugates all lie in the unit disk\n$\\{\\,z\\in\\mathbb{C} \\,\\big|\\, |z|\\leq 1\\,\\}$ with at least one on the\nunit circle $\\{\\,z\\in\\mathbb{C}\\,\\big|\\,|z|= 1\\,\\}$.\n\nPowers of a Salem number $\\alpha^n\\ (n=1,2,\\dotsc)$ are everywhere dense\nmodulo $1$, but are not uniformly distributed modulo $1$.\n\nThe smallest known Salem number is the largest positive root of\n$$\\alpha^{10}+\\alpha^9-\\alpha^7-\\alpha^6-\\alpha^5-\\alpha^4-\\alpha^3+\\alpha+1=0.$$",
+  "language": "INFORMAL",
+  "phrase": "Salem Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SalemNumber"
+    }
+  ],
+  "indexable": true
+}

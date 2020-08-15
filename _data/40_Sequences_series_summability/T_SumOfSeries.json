@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If a series $\\sum_{n = 1}^\\infty a_n$ of real or complex numbers is\nconvergent and the limit of its partial sums is $S$, then $S$ is said to\nbe the [*sum of the series*]{}. This circumstance may be denoted by\n$$\\sum_{n = 1}^\\infty a_n \\;=\\; S$$ or equivalently\n$$a_1+a_2+a_3+\\ldots \\;=\\; S.$$ The sum of series has the distributive\nproperty $$c\\,(a_1+a_2+a_3+\\ldots) \\;=\\; ca_1+ca_2+ca_3+\\ldots$$ with\nrespect to multiplication. Nevertheless, one must not think that the sum\nseries means an addition of infinitely many numbers \u2014 it\u2019s only a\nquestion of the limit $$\\lim_{n\\to\\infty}\n\\underbrace{(a_1+a_2+\\ldots+a_n)}_{\\textrm{partial sum}}.$$ See also the\nentry \u201cmanipulating convergent series\u201d!\n\nThe sum of the series is equal to the sum of a partial sum and the\ncorresponding remainder term.",
+  "language": "INFORMAL",
+  "phrase": "Sum Of Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SumOfSeries"
+    }
+  ],
+  "indexable": true
+}

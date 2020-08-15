@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In the following we will assume that the term \u201csmooth\u201d implies just\n$C^1$ (once continuously differentiable). By smooth homotopy we will\nthat the homotopy mapping is itself continuously differentiable\n\nSuppose that $M$ is a connected, smooth manifold without boundary of\ndimension $m$ and suppose $f,g \\colon M \\to S^m$ are smooth mappings to\nthe $m$-sphere. Then $f$ and $g$ are smoothly homotopic if and only if\n$f$ and $g$ have the same Brouwer degree.\n\nWhen $M$ is not orientable, then we can always \u201cflip\u201d the orientation by\nfollowing a closed loop on the manifold and one can then prove the\nfollowing result.\n\nSuppose that $M$ is not orientable, connected smooth manifold without\nboundary of dimension $m$, and suppose $f,g \\colon M \\to S^m$ are smooth\nmappings to the $m$-sphere. Then $f$ and $g$ are smoothly homotopic if\nand only if $f$ and $g$ have the same degree mod 2.\n\n[9]{} John\u00a0W. Milnor. [**]{}. The University Press of Virginia,\nCharlottesville, Virginia, 1969.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HopfTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hopf theorem"
+  ]
+}

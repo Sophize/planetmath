@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sheaf ${\\mathfrak{L}}$ of ${\\mathcal{O}}_X$ modules on a ringed space\n${\\mathcal{O}}_X$ is called ** if there is another sheaf of\n${\\mathcal{O}}_X$-modules ${\\mathfrak{L}}'$ such that\n${\\mathfrak{L}}\\otimes{\\mathfrak{L}}'\\cong{\\mathcal{O}}_X$. A sheaf is\ninvertible if and only if it is locally free of rank 1, and its inverse\nis the sheaf\n${\\mathfrak{L}}^{\\vee}\\cong\\mathcal{H}om({\\mathfrak{L}},{\\mathcal{O}}_X)$,\nby the map.\n\nThe set of invertible sheaves form an abelian group under tensor\nmultiplication, called the Picard group of $X$.",
+  "language": "INFORMAL",
+  "phrase": "Invertible Sheaf",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InvertibleSheaf"
+    }
+  ],
+  "indexable": true
+}

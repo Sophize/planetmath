@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X_\\alpha$ with $\\alpha\\in A$ be a collection of topological spaces,\nand let $Z_\\alpha\\subseteq X_\\alpha$ be subsets. Let\n$$X=\\prod_{\\alpha} X_\\alpha$$ and $$Z = \\prod_{\\alpha} Z_\\alpha.$$ In\nother words, $z\\in Z$ means that $z$ is a function\n$z\\colon A\\to \\cup_\\alpha Z_\\alpha$ such that $z(\\alpha)\\in Z_\\alpha$\nfor each $\\alpha$. Thus, $z\\in X$ and we have $$Z\\subseteq X$$ as sets.\n\nThe product topology of $Z$ coincides with the subspace topology induced\nby $X$.\n\nLet us denote by $\\tau_X$ and $\\tau_Z$ the product topologies for $X$\nand $Z$, respectively. Also, let\n$$\\pi_{X,\\alpha}\\colon X\\to X_\\alpha, \\quad   \\pi_{Z,\\alpha}\\colon Z\\to Z_\\alpha$$\nbe the canonical projections defined for $X$ and $Z$. The for $X$ and\n$Z$ are given by $$\\begin{aligned}\n\\beta_X &=& \\{ \\pi_{X,\\alpha}^{-1}(U) : \\alpha \\in A, U\\in \\tau(X_\\alpha) \\}, \\\\\n\\beta_Z &=& \\{ \\pi_{Z,\\alpha}^{-1}(U) : \\alpha \\in A, U\\in \\tau(Z_\\alpha) \\}, \\end{aligned}$$\nwhere $\\tau(X_\\alpha)$ is the topology of $X_\\alpha$ and\n$\\tau(Z_\\alpha)$ is the subspace topology of\n$Z_\\alpha\\subseteq X_\\alpha$. The claim follows as\n$$\\beta_Z = \\{ B\\cap Z : B\\in \\beta_X \\}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProductTopologyAndSubspaceTopology"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "product topology and subspace topology"
+  ]
+}

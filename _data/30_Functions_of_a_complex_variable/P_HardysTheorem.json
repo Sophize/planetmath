@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f$ be a holomorphic function on $B(0,R)$ (the open ball of radius\n$R$) and $f$ is not a constant function, then\n$$I(r) := \\frac{1}{2\\pi} \\int_0^{2\\pi} \\lvert f(r e^{i\\theta}) \\rvert d\\theta$$\nis strictly increasing and $\\log I(r)$ is a convex function of $\\log r$.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1978.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HardysTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hardy's theorem"
+  ]
+}

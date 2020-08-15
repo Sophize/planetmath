@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a subring of the field $K$, $1\\in R$. An element $\\alpha$ of\nthe field is integral over $R$ if and only if all $\\varphi$ of $K$\nsatisfy the implication\n$$\\varphi \\mathrm{\\,\\,is\\,finite\\,in\\,}R\\,\\,\\,\\Rightarrow\n          \\,\\,\\varphi(\\alpha)\\mathrm{\\,is\\,finite}.$$\n\n**1.** Let $R$ be a subring of the field $K$, $1\\in R$. The integral\nclosure of $R$ in $K$ is the intersection of all valuation domains in\n$K$ which contain the ring $R$. The integral closure is integrally\nclosed in the field $K$.\n\n**2.** Every valuation domain is integrally closed in its field of\nfractions.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegrityCharacterizedByPlaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "integrity characterized by places"
+  ]
+}

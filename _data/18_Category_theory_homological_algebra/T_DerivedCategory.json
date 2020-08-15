@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathscr{A}}$ be an abelian category, and let\n${\\mathcal{K}}({\\mathscr{A}})$ be the category of chain complexes in\n${\\mathscr{A}}$, with the morphisms being chain homotopy classes of\nmaps. Call a morphism of chain complexes a *quasi-isomorphism* if it\ninduces an isomorphism on homology groups of the complexes. For example,\nany chain homotopy is a quasi-isomorphism, but not conversely. Now let\nthe derived category ${\\mathcal{D}}({\\mathscr{A}})$ be the category\nobtained from ${\\mathcal{K}}({\\mathscr{A}})$ by adding a formal inverse\nto every quasi-isomorphism (technically this called a localization of\nthe category).\n\nDerived categories seem somewhat obscure, but in fact, many\nmathematicians believe they are the appropriate place to do homological\nalgebra. One of their great advantages is that the important functors of\nhomological algebra which are left or right exact\n($\\mathrm{Hom}$,$N\\otimes_k-$, where $N$ is a fixed $k$-module, the\nglobal sections functor $\\Gamma$, etc.) become exact on the of derived\nfunctors (with an appropriately modified definition of exact).\n\nSee *Methods of Homological Algebra*, by Gelfand and Manin for more\ndetails.",
+  "language": "INFORMAL",
+  "phrase": "Derived Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivedCategory"
+    }
+  ],
+  "indexable": true
+}

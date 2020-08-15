@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a ring with subring $R$.\n\nWe say that $S$ is [*module-finite*]{} over $R$ if $S$ is finitely\ngenerated as an $R$-module.\n\nWe say that $S$ is [*ring-finite*]{} over $R$ if $S=R[v_1,\\ldots,v_n]$\nfor some $v_1,\\ldots,v_n \\in S$.\n\nNote that module-finite implies ring-finite, but the converse is false.\n\nIf $L$ is ring-finite over $K$, with $L,K$ fields, then $L$ is a finite\nextension of $K$.",
+  "language": "INFORMAL",
+  "phrase": "Module-Finite",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Modulefinite"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "po-ring",
+    "l-ring",
+    "lattice-ordered ring"
+  ],
+  "definition": "A ring $R$ that is a poset at the same time is called a *partially\nordered ring*, or a *po-ring*, if, for $a,b,c\\in R$,\n\n-   $a\\le b$ implies $a+c\\le b+c$, and\n\n-   $0\\le a$ and $0\\le b$ implies $0\\le ab$.\n\nNote that $R$ does not have to be associative.\n\nIf the underlying poset of a po-ring $R$ is in fact a lattice, then $R$\nis called a *lattice-ordered ring*, or an *l-ring* for short.\n\n**Remark**. The underlying abelian group of a po-ring (with addition\nbeing the binary operation) is a po-group. The same is true for l-rings.\n\nBelow are some examples of po-rings:\n\n-   Clearly, any (totally) ordered ring is a po-ring.\n\n-   The ring of continuous functions over a topological space is an\n    l-ring.\n\n-   Any matrix ring over an ordered field is an l-ring if we define\n    $(a_{ij})\\le (b_{ij})$ whenever $a_{ij}\\le b_{ij}$ for all $i,j$.\n\n**Remark**. Let $R$ be a po-ring. The set\n$R^+:=\\lbrace r\\in R\\mid 0\\le r\\rbrace$ is called the *positive cone* of\n$R$.\n\n[8]{} G. Birkhoff [*Lattice Theory*]{}, 3rd Edition, AMS Volume XXV,\n(1967).",
+  "language": "INFORMAL",
+  "phrase": "Partially Ordered Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartiallyOrderedRing"
+    }
+  ],
+  "indexable": true
+}

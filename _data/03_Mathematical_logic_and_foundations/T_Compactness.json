@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A logic is said to be $(\\kappa,\\lambda)$-compact, if the following holds\n\n> If $\\Phi$ is a set of sentences of cardinality less than or equal to\n> $\\kappa$ and all subsets of $\\Phi$ of cardinality less than $\\lambda$\n> are consistent, then $\\Phi$ is consistent.\n\nFor example, first order logic is $(\\omega,\\omega)$-compact, for if all\nfinite subsets of some class of sentences are consistent, so is the\nclass itself.",
+  "language": "INFORMAL",
+  "phrase": "Compactness",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Compactness"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definition {#definition .unnumbered}\n==========\n\nLet $H$ be an Hilbert Space, $B(H)$ the algebra of bounded operators in\n$H$ and $\\mathcal{F} \\subset B(H)$.\n\nThe [**commutant**]{} of $\\mathcal{F}$, usually denoted $\\mathcal{F}'$,\nis the subset of $B(H)$ consisting of all elements that commute with\nevery element of $\\mathcal{F}$, that is\n\n$\\mathcal{F}'=\\{T \\in B(H):\\; TS=ST \\,,\\;\\;\\; \\forall S \\in \\mathcal{F}\\}$\n\nThe [**double commutant**]{} of $\\mathcal{F}$ is just $(\\mathcal{F}')'$\nand is usually denoted $\\mathcal{F}''$.\n\nProperties: {#properties .unnumbered}\n===========\n\n-   If $\\mathcal{F}_1 \\subseteq \\mathcal{F}_2$, then\n    $\\mathcal{F}_2' \\subseteq \\mathcal{F}_1'$.\n\n-   $\\mathcal{F} \\subseteq \\mathcal{F}''$.\n\n-   If $\\mathcal{A}$ is a subalgebra of $B(H)$, then\n    $\\mathcal{A} \\cap \\mathcal{A}'$ is the of $\\mathcal{A}$.\n\n-   If $\\mathcal{F}$ is self-adjoint then $\\mathcal{F}'$ is\n    self-adjoint.\n\n-   $\\mathcal{F}'$ is always a subalgebra of $B(H)$ that contains the\n    identity operator and is closed in the weak operator topology.\n\n-   If $\\mathcal{F}$ is self-adjoint then $\\mathcal{F}'$ is a von\n    Neumann algebra.\n\n[**Remark:**]{} The commutant is a particular case of the more general\ndefinition of centralizer.",
+  "language": "INFORMAL",
+  "phrase": "Commutant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Commutant"
+    }
+  ],
+  "indexable": true
+}

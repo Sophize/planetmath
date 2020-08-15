@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\{H_i\\}_{i \\in I}$ be a family of Hilbert spaces indexed by a set\n$I$. The direct sum of this family of Hilbert spaces, denoted as\n$$\\bigoplus_{i \\in I} H_i$$ consists of all elements $v$ of the of\n$\\{H_i\\}_{i \\in I}$ such that $\\sum \\| v_i\\|^2 < \\infty$. Of course, for\nthe previous sum to be finite only at most a countable number of $v_i$\ncan be non-zero.\n\nVector addition and scalar multiplication are defined termwise: If\n$u, v \\in \\bigoplus_{i \\in I} H_i$, then $(u+v)_i = u_i + v_i$ and\n$(sv)_i = s v_i$.\n\nThe inner product of two vectors is defined as\n$$\\langle u, v \\rangle = \\sum_{i \\in I} \\langle u_i, v_i \\rangle$$\n\nLinked PDF file:\n\nhttp://images.planetmath.org/cache/objects/6363/pdf/DirectSumOfHilbertSpaces.pdf",
+  "language": "INFORMAL",
+  "phrase": "Direct Sum Of Hilbert Spaces",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirectSumOfHilbertSpaces"
+    }
+  ],
+  "indexable": true
+}

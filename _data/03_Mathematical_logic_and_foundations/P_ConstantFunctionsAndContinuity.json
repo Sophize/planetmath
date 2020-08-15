@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "It is easy to see that every constant function between topological\nspaces is continuous. A converse result is as follows.\n\nSuppose $X$ is path connected and $D$ is a countable discrete\ntopological space. If $f\\colon X\\to D$ is continuous, then $f$ is a\nconstant function.\n\nBy we can assume that $D$ is either $\\{1,\\ldots, n\\}$, $n\\ge 2$ or\n${\\mathbbmss{Z}}$, and these are equipped with the subspace topology of\n${\\mathbbmss{R}}$. Suppose $f(X)$ has at least two distinct elements,\nsay $\\alpha,\\beta\\in {\\mathbbmss{Z}}$ so that\n$$f(x)=\\alpha, \\quad f(y)=\\beta$$ for some $x,y\\in X$. Since $X$ is path\nconnected there is a continuous path $\\gamma\\colon[0,1]\\to X$ such that\n$\\gamma(0)=x$ and $\\gamma(1)=y$. Then $f\\circ\\gamma\\colon [0,1]\\to D$ is\ncontinuous. Since $D$ has the subspace topology of ${\\mathbbmss{R}}$,\nimplies that also $f\\circ\\gamma\\colon [0,1]\\to {\\mathbbmss{R}}$ is\ncontinuous. Since $f\\circ \\gamma$ achieves two different values, it\nachieves uncountably many values, by the intermediate value theorem.\nThis is a contradiction since $f\\circ \\gamma([0,1])$ is countable.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConstantFunctionsAndContinuity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "constant functions and continuity"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $U \\subset \\mathbb{C}$ be a simply connected domain, and suppose\n$f: U \\longrightarrow \\mathbb{C}$ is holomorphic. Then\n$$\\int_C f(z)\\ dz = 0$$ for any smooth closed curve $C$ in $U$.\n\nMore generally, if $U$ is any domain, and $C_1$ and $C_2$ are two\nhomotopic smooth closed curves in $U$, then\n$$\\int_{C_1} f(z)\\ dz = \\int_{C_2} f(z)\\ dz.$$ for any holomorphic\nfunction $f: U \\longrightarrow \\mathbb{C}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosedCurveTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "closed curve theorem"
+  ]
+}

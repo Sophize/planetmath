@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The set $E$ of units of a ring $R$ forms a group with respect to ring\nmultiplication.\n\n[*Proof.*]{} If $u$ and $v$ are two units, then there are the elements\n$r$ and $s$ of $R$ such that $ru = ur = 1$ and $sv = vs = 1$. Then we\nget that$(sr)(uv) = s(r(uv)) = s((ru)v) = s(1v) = sv = 1$, similarly\n$(uv)(sr) = 1$. Thus also $uv$ is a unit, which means that $E$ is closed\nunder multiplication. Because $1 \\in E$ and along with $u$ also its\ninverse $r$ belongs to $E$, the set $E$ is a group.\\\n**Corollary.** In a commutative ring, a ring product is a unit iff all\nare units.\\\nThe group $E$ of the units of the ring $R$ is called the [*group of\nunits of the ring*]{}. If $R$ is a field, $E$ is said to be the\n[*multiplicative group of the field*]{}.\\\n**Examples**\n\n1.  When $R = \\mathbb{Z}$, then $E = \\{1,\\,-1\\}$.\n\n2.  When $R = \\mathbb{Z}[i]$, the ring of Gaussian integers, then\n    $E = \\{1,\\,i,\\,-1,\\,-i\\}$.\n\n3.  When $R = \\mathbb{Z}[\\sqrt{3}]$,\n    $E = \\{\\pm(2\\!+\\!\\sqrt{3})^n\\,\\vdots\\,\\,\\, n\\in\\mathbb{Z}\\}$.\n\n4.  When $R = K[X]$ where $K$ is a field, then\n    $E = K\\!\\smallsetminus\\!\\{0\\}$.\n\n5.  When $R = \\{0\\!+\\!\\mathbb{Z},\\,1\\!+\\!\\mathbb{Z},\\,\\ldots,\\, \n     m\\!-\\!1\\!+\\!\\mathbb{Z}\\}$ is the residue class ring modulo $m$,\n    then $E$ consists of the prime classes modulo $m$, i.e. the residue\n    classes $l\\!+\\!\\mathbb{Z}$ satisfying $\\gcd(l, m) = 1$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupOfUnits"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "group of units",
+    "unit group"
+  ]
+}

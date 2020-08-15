@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The order of a non-trivial elliptic function cannot be zero. This is a\nsimple consequence of Liouville\u2019s theorem. Were the order of an elliptic\nfunction zero, then the function would have no poles. By definition, an\nelliptic function has no essential singularities and is doubly periodic.\nHence, if the degree were zero, the function would be continuous\neverywhere and hence, being doubly periodic, would be bounded (since\ncontinuous functions on a compact domain (like the closure of the\nfundamental parallelogram) are bounded). By Liouville\u2019s theorem, this\nwould imply that the function is constant.\n\nThe order of an elliptic function cannot be 1. This follows from the\nfact that the residues at the poles of an elliptic function within a\nfundamental parallelogram must sum to zero \u2014 if the function were of\ndegree 1, it would have exactly one first-order pole in the fundamental\nparallelgram but any first-order pole must have a non-zero residue.\n\nAny number greater than one is possible as the order of an elliptic\nfunction. As an example of an elliptic function of order two, we may\ntake the Weierstass $\\wp$-function, which has a single pole of order 2\nin the fundamental domain. The $n$-th derivative of this function will\nhave a single pole of order $n+2$ in the fundamental domain, hence be of\norder $n+2$, so is an example showing that, for every integer greater\nthan 2, there exists an elliptic function having that integer as its\norder.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PossibleOrdersOfEllipticFunctions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "possible orders of elliptic functions"
+  ]
+}

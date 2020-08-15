@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V$ be a vector space of dimension $n$ over a field $K$. If\n$(b_1,\\,\\ldots,\\,b_n)$ is a basis of $V$, then any element $v$ of $V$\ncan be uniquely expressed in the form\n$$v \\;=\\; \\xi_1b_1\\!+\\ldots+\\!\\xi_nb_n$$ with\n$\\xi_1,\\,\\ldots,\\,\\xi_n \\in K$. The $(\\xi_1,\\,\\ldots,\\,\\xi_n)$\u00a0is called\nthe *coordinate vector* of $v$ with respect to the basis in question.\nThe scalars $\\xi_i$ are the *coordinates* (or the *components* of $v$).\n\nIt\u2019s evident that the correspondence\n$$v \\;\\mapsto\\; (\\xi_1,\\,\\ldots,\\,\\xi_n)$$ provides a linear isomorphism\nbetween the vector space $V$ and the vector space formed by the\nCartesian product $K^n$.",
+  "language": "INFORMAL",
+  "phrase": "Coordinate Vector",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CoordinateVector"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathord{\\mathbf{Set}}}$ be the category of all sets with\nfunctions as the morphisms, and let ${\\mathord{\\mathbf{Cat}}}$ be the\ncategory of all small categories with functors as the morphisms.\n\nThe **nerve** of a (small) category $C$ is the simplicial set\n$\\hom(i(-),C)$, where $i\\colon \\Delta \\to {\\mathord{\\mathbf{Cat}}}$ is\nthe fully faithful functor that takes each ordered set $[n]$ in the\nsimplicial category, $\\Delta$, to the pre-order\n${\\mathord{\\mathbf{n+1}}}$. The nerve is a functor\n${\\mathord{\\mathbf{Cat}}} \\to {\\mathord{\\mathbf{Set}}}^{\\Delta^{\\mathrm{op}}}$.\n\nLet $X$ be a topological space with open cover $\\{U_\\alpha\\}$. The nerve\nof the open covering of $X$ is the nerve of the partially-ordered set\n$\\{U_\\alpha\\}$ with relation that of inclusion. Thus, it assigns to\nevery $n$ the set of maps from the totally ordered set $n+1$ to the\nposet $\\{U_\\alpha\\}$.",
+  "language": "INFORMAL",
+  "phrase": "Nerve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Nerve"
+    }
+  ],
+  "indexable": true
+}

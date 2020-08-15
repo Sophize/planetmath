@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "$k$-restricted homomorphism",
+    "k-restricted homomorphism"
+  ],
+  "definition": "Let $h$ be a homomorphism over an alphabet $\\Sigma$. Let $L$ be a\nlanguage over $\\Sigma$. We say that $h$ is *$k$-restricted* on $L$ if\n\n1.  there is a letter $b\\in \\operatorname{Alpha}(L)$ such that no word\n    in $L$ begins with $b$ and contains more than $k-1$ consecutive\n    occurrences of $b$ in it,\n\n2.  for any $a\\in \\operatorname{Alpha}(L)$, $$h(a) = \\left\\{\n    \\begin{array}{ll}\n    \\lambda & \\textrm{if } a=b \\\\\n    a & \\textrm{otherwise.}\n    \\end{array}\n    \\right.$$\n\nHere, $\\operatorname{Alpha}(L)$ is the set of all letters in $\\Sigma$\nthat occur in words of $L$.\n\nIt is easy to see that any $k$-restricted homomorphism on $L$ is a\n$k$-linear erasing on $L$, for if $u\\in L$ is a non-empty word, then we\nmay write $u=v_1 b^{m_1} v_2 b^{m_2} \\cdots v_n b^{m_n}$, where each\n$0<m_i\\le k-1$, and each $v_i$ is a non-empty word not containing any\noccurrences of $b$. Then\n$$|u| = |v_1\\cdots v_{n-1}| + \\sum_{i=1}^n m_i \\le |h(u)|+n(k-1) \\le |h(u)|+(k-1)|h(u)| = k|h(u)|.$$\nNote that $n\\le |h(u)|$ since $1\\le |v_i|$ for each $i=1,\\ldots, n$. A\n$k$-linear erasing is in general not a $k$-restricted homomorphism, an\nexample of which is the following: $L=\\lbrace a,ab\\rbrace^*$ and\n$h:\\lbrace a,b\\rbrace \\to \\lbrace a,b\\rbrace$ given by $h(a)=a^2$ and\n$h(b)=\\lambda$. Then $h$ is a $1$-linear erasing, but not a\n$1$-restricted homomorphism, on $L$.\n\nA family $\\mathscr{F}$ of languages is said to be *closed under\nrestricted homomorphism* if for every $L\\in \\mathscr{F}$, and every\n$k$-restricted homomorphism $h$ on $L$, $h(L)\\in \\mathscr{F}$. By the\nprevious paragraph, we see that if $\\mathscr{F}$ is closed under linear\nerasing, it is closed under restricted homomorphism. The converse of\nthis is not necessarily true.\n\n[9]{} A. Salomaa, [*Formal Languages*]{}, Academic Press, New York\n(1973).",
+  "language": "INFORMAL",
+  "phrase": "Restricted Homomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RestrictedHomomorphism"
+    }
+  ],
+  "indexable": true
+}

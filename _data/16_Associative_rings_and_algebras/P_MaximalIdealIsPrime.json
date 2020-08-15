@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** In a commutative ring with non-zero unity, any maximal\nideal is a prime ideal.\n\n[*Proof.*]{} Let $\\mathfrak{m}$ be a maximal ideal of such a ring $R$\nand let the ring product $rs$ belong to $\\mathfrak{m}$ but e.g.\n$r \\notin \\mathfrak{m}$. The maximality of $\\mathfrak{m}$ implies that\n$\\mathfrak{m}\\!+\\!(r) = R = (1)$. Thus there exists an element\n$m \\in \\mathfrak{m}$ and an element $x \\in R$ such that $m\\!+\\!xr = 1$.\nNow $m$ and $rs$ belong to $\\mathfrak{m}$, whence\n$$s = 1s = (m\\!+\\!xr)s = sm\\!+\\!x(rs) \\in \\mathfrak{m}.$$ So we can say\nthat along with $rs$, at least one of its belongs to $\\mathfrak{m}$, and\ntherefore $\\mathfrak{m}$ is a prime ideal of $R$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MaximalIdealIsPrime"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "maximal ideal is prime"
+  ]
+}

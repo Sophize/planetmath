@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sequence of the form $$a,\\,ar,\\,ar^2,\\,ar^3,\\,\\ldots$$ of real or\ncomplex numbers is called [*geometric sequence*]{}. of the geometric\nsequence is thus that every two consecutive members of the sequence have\nthe constant ratio $r$, called usually the [*common ratio*]{} of the\nsequence (if $ar = 0$, speaking the ratio of members does not exist).\n\nThe $n^\\mathrm{th}$ member of the geometric sequence has the\n$$a_n = ar^{n-1}.$$ Let $a \\neq 0$. The sequence is convergent for\n$|r| < 1$ having the 0, and for $r = 1$ having as constant sequence the\nlimit $a$.\n\nWhen the members of the sequence are positive numbers, each member is\nthe geometric mean of the preceding and the following member; the name\n\u201cgeometric sequence\u201d(or \u201cgeometric series\u201d) is due to this fact (a fact\nis true for the harmonic series and harmonic mean).",
+  "language": "INFORMAL",
+  "phrase": "Geometric Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeometricSequence"
+    }
+  ],
+  "indexable": true
+}

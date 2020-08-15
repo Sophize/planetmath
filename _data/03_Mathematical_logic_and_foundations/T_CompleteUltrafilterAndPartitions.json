@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*If $U$ is an ultrafilter on a set $S$, then*\n\n*$U$ is $\\kappa$-complete $\\Leftrightarrow$ there is no partition of $S$\ninto $\\kappa$-many pieces for which each piece $X_\\alpha$ of the\npartition is not in $U$.*\n\nWe prove the case of $\\sigma$-completeness; the case of arbitrary\ninfinite cardinality follows closely. For the $\\Rightarrow$ direction,\nlet $P$ be a partition of $S$ into $\\omega$ many pieces, all of which do\nnot belong to $U$, and write $S=\\bigcup_{n=1}^\\omega X_n$ to illustrate\nthis partition. Now,\n$\\varnothing=S^\\complement=\\bigcap_{n=1}^\\omega X_n^\\complement$. Since,\nby our assumption, each of the $X_n$ do not belong to $U$, we have\n$X_n^\\complement\\in U$ for each $n<\\omega$ as $U$ is an ultrafilter.\nThus, $\\left(\\bigcap_{n=1}^\\omega X_n^\\complement\\right)\\in U$ by\n$\\sigma$-completeness. This, however, means $\\varnothing\\in U$,\ncontradicting the definition of a filter.\n\nNote that the converse states that every partition $P$ of $S$ into\n$\\omega$-many pieces has a (unique) piece $X_1\\in U$. To prove this, let\n$Y_n$ be a collection of $\\omega$ many members of $U$ and let\n$Y=\\bigcap_{n=1}^\\omega Y_n$. Now consider the partition\n$\\{P_\\iota:\\iota\\leq\\omega\\}$ of $S\\setminus Y$:\n\nfor each $s\\in S\\setminus Y$, put $s\\in P_\\iota$ if $\\iota$ is the least\nindex for which $s\\not\\in Y_\\iota$.\n\nIt is easy to verify that each $s\\in S\\setminus Y$ belongs to a *unique*\n$P_\\iota$, the collection of $P_\\iota$\u2019s is indeed a partition of\n$S\\setminus Y$.\n\nAlong with $Y$, $\\{P_\\iota:\\iota\\leq\\omega\\}$ partitions $S$ into\n$\\aleph_0=\\omega$ many pieces. A (unique) piece of this partition\nbelongs in $U$: $P_{\\iota*}\\in U$ or $Y\\in U$. But,\n$P_\\iota\\cap Y_\\iota=\\varnothing\\not\\in U$ by the definition of\n$P_\\iota$. This excludes the possibility for the former to belong in $U$\n(cf. alternative characterization of filter) and so $Y\\in U$.\n\nThus, starting from an arbitrary collection $\\{Y_n\\}$ of $\\omega$-many\nmembers of $U$, we have identified a partition of $S$ for which the\nunique piece which belongs to $U$ is $\\cap Y_n$. Therefore, $U$ is\n$\\sigma$-complete.",
+  "language": "INFORMAL",
+  "phrase": "Complete Ultrafilter And Partitions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompleteUltrafilterAndPartitions"
+    }
+  ],
+  "indexable": true
+}

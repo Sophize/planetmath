@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a probability distribution (density) function $f_X(x)$ with random\nvariable $X$ and $x\\in \\mathbb{R}$, a *mode* of $f_X(x)$ is a real\nnumber $\\alpha$ such that:\n\n1.  $f_X(\\alpha)\\neq \\operatorname{min}(f_X(x))$,\n\n2.  $f_X(\\alpha)\\geq f_X(z)$ for all $z\\in \\mathbb{R}$.\n\n*The* mode of $f_X$ is the set of all modes of $f_X$ (It is also\ncustomary to say denote the mode of $f_X$ to be elements within the mode\nof $f_X$). If the mode contains one element, then we say that $f_X$ is\n*unimodal*. If it has two elements, then $f_X$ is called *bimodal*. When\n$f_X$ has more than two modes, it is called *multimodal*.\n\n-   if $\\Omega=\\lbrace 0,1,2,2,3,4,4,4,5,5,6,7,8 \\rbrace$ is the sample\n    space for the random variable $X$, then the mode of the distribution\n    function $f_X$ is 4.\n\n-   if $\\Omega=\\lbrace 0,2,4,5,6,6,7,9,11,11,14,18 \\rbrace$ is the\n    sample space for $X$, then the modes of $f_X$ are 6 and 11 and $f_X$\n    is bimodal.\n\n-   For a binomial distribution with mean $np$ and variance $np(1-p)$,\n    the mode is\n    $$\\lbrace \\alpha \\mid p(n+1)-1\\leq \\alpha \\leq p(n+1) \\rbrace.$$\n\n-   For a Poisson distribution with integral sample space and mean\n    $\\lambda$, if $\\lambda$ is non-integral, then the mode is the\n    largest integer less than or equal to $\\lambda$; if $\\lambda$ is an\n    integer, then both $\\lambda$ and $\\lambda-1$ are modes.\n\n-   For a normal distribution with mean $\\mu$ and standard deviation\n    $\\sigma$, the mode is $\\mu$.\n\n-   For a gamma distribution with the shape parameter $\\gamma$, location\n    parameter $\\mu$, and scale parameter $\\beta$, the mode is $\\gamma-1$\n    if $\\gamma>1$.\n\n-   Both the Pareto and the exponential distributions have mode = 0.",
+  "language": "INFORMAL",
+  "phrase": "Mode",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Mode"
+    }
+  ],
+  "indexable": true
+}

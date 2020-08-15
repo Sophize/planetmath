@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "real analytic variety",
+    "real analytic set"
+  ],
+  "definition": "Let $U \\subset {\\mathbb{R}}^N$ be an open set.\n\nA closed set $X \\subset U$ is called a [*real analytic subvariety*]{} of\n$U$ such that for each point $p \\in X$, there exists a neigbourhood $V$\nand a set $\\mathcal{F}$ of real analytic functions defined in $V$, such\nthat\n$$X \\cap V = \\{ p \\in V \\mid f(p) = 0 \\text{ for all } f \\in \\mathcal{F} \\}.$$\nIf $U = {\\mathbb{R}}^N$ and all the $f \\in \\mathcal{F}$ are real\npolynomials, then $X$ is said to be a [*real algebraic subvariety*]{}.\n\nIf $X$ is not required to be closed, then it is said to be a [*local\nreal analytic subvariety*]{}. Sometimes $X$ is called a real analytic\nset or real analytic variety. Similarly as for complex analytic sets we\ncan also define the regular and singular points.\n\nA point $p \\in X$ is called a [*regular point*]{} if there is a\nneighbourhood $V$ of $p$ such that $X \\cap V$ is a submanifold. Any\nother point is called a [*singular point*]{}.\n\nThe set of regular points of $X$ is denoted by $X^-$ or sometimes $X^*.$\nThe set of singular points is no longer a subvariety as in the complex\ncase, though it can be sown to be semianalytic. In general, real\nsubvarieties is far worse behaved than their complex counterparts.\n\n[9]{} Jacek Bochnak, Michel Coste, Marie-Francoise Roy. [**]{}.\nSpringer, 1998.",
+  "language": "INFORMAL",
+  "phrase": "Real Analytic Subvariety",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RealAnalyticSubvariety"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Bernoulli numbers and polynomials"
+  ],
+  "definition": "For $n = 0,\\,1,\\,2,\\,\\ldots$, the [*Bernoulli polynomial*]{} may be\ndefined as the uniquely determined polynomial $b_n(x)$ satisfying\n$$\\begin{aligned}\n\\int_x^{x+1}\\!b_n(t)\\,dt \\;=\\; x^n.\\end{aligned}$$\n\nThe constant term of $b_n(x)$ is the $n^{\\mathrm{th}}$ [*Bernoulli\nnumber*]{} $B_n$.\n\nThe Bernoulli polynomial is often denoted also $B_n(x)$.\\\nThe uniqueness of the solution $b_n(x)$ in (1) is justificated by the\n\n**Lemma.** For any polynomial $f(x)$, there exists a unique polynomial\n$g(x)$ with the same degree satisfying $$\\begin{aligned}\n\\int_x^{x+1}\\!g(t)\\,dt \\;=\\; f(x).\\end{aligned}$$\n\n[*Proof.*]{} For every $n = 0,\\,1,\\,2,\\,\\ldots$, the polynomial\n$$g_n(x) \\;=:\\; \\int_x^{x+1}\\!t^n\\,dt \\;=\\; \\frac{(x\\!+\\!1)^{n+1}-x^{n+1}}{n\\!+\\!1}$$\nis monic and its degree is $n$. If the coefficient of $x^n$ in $f(x)$ is\n$a_0$, then the difference $f(x)\\!-\\!a_0g_n(x)$ is a polynomial of\ndegree $n\\!-\\!1$. Correspondingly we obtain\n$f(x)-a_0g_n(x)-a_1g_{n-1}(x)$ having the degree $n\\!-\\!2$ and so on.\nFinally we see that $$f(x)-a_0g_n(x)-a_1g_{n-1}(x)-\\ldots-a_ng_0(x)$$\nmust be the zero polynomial. Therefore $$\\begin{aligned}\nf(x) & \\;=\\; a_0g_n(x)+a_1g_{n-1}(x)+\\ldots+a_ng_0(x)\\\\\n     & \\;=\\; \\sum_{i=0}^na_ig_{n-i}(x)\\\\\n     & \\;=\\; \\sum_{i=0}^na_i\\int_x^{x+1}t^{n-i}\\,dt\\\\\n     & \\;=\\; \\int_x^{x+1}\\sum_{i=0}^na_it^{n-i}\\,dt\\end{aligned}$$\nwhence we have $\\displaystyle g(x) = \\sum_{i=0}^na_ix^{n-i}$.\\\nThe proof implies also that the coefficients of $g(x)$ are rational, if\nthe coefficients of $f(x)$ are such. So we know that all Bernoulli\npolynomials have only rational coefficients.\\\nThe relation (1) implies easily, that the Bernoulli polynomials form an\nAppell sequence.\n\n[7]{} . . : [ ** ]{}. \u201c\u201d. (1982).\n\nEnglish translation:\n\nM. M. Postnikov: *Introduction to algebraic number theory*. Science\nPubls (\u201cNauka\u201d). Moscow (1982).",
+  "language": "INFORMAL",
+  "phrase": "Bernoulli Polynomials And Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BernoulliPolynomialsAndNumbers"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** A congruence of $n$th degree and modulo a prime number has\nat most $n$ incongruent roots.\\\n*Proof.* In the case $n = 1$, the assertion turns out from the entry\nlinear congruence. We make the induction hypothesis, that the assertion\nis true for congruences of degree less than $n$.\n\nWe suppose now that the congruence $$\\begin{aligned}\nf(x) \\;:=\\; a_nx^n+a_{n-1}x^{n-1}+\\ldots+a_0 \\;\\equiv\\; 0 \\pmod{p},\\end{aligned}$$\nwhere $p \\nmid a_n$, has at least $n$ incongruent roots\n$x_1,\\,x_2,\\,\\ldots,\\,x_n$. Form the congruence $$\\begin{aligned}\nf(x) \\;\\equiv\\; a_n(x-x_1)(x-x_2)\\cdots(x-x_n) \\pmod{p}.\\end{aligned}$$\nBoth sides have the same term $a_nx^n$ of the highest degree, whence\nthey may be cancelled from the congruence and the degree of (2) has a\nlower degree than $n$. Because (2), however, clearly has $n$ incongruent\nroots $x_1,\\,x_2,\\,\\ldots,\\,x_n$, it must by the induction hypothesis be\nsimplifiable to the form $0 \\equiv 0 \\pmod{p}$ and thus be an identical\ncongruence.\n\nNow, if the congruence (1) had an additional incongruent root $x_{n+1}$,\ni.e. $P(x_{n+1}) \\equiv 0 \\pmod{p}$, then the identical congruence (2)\nwould imply\n$$a_n(x_{n+1}-x_1)(x_{n+1}-x_2)\\cdots(x_{n+1}-x_n) \\;\\equiv\\; 0 \\pmod{p}.$$\nYet, this is impossible, since no one of the of the left hand side is\ndivisible by $p$. This settles the induction proof.\\\nCf. .\\\n**Example.** When $f(x) := x^5\\!+\\!x\\!+\\!1 \\equiv 0 \\pmod{7}$, we have\\\n$f(0) \\equiv 1 \\pmod{7}$,\\\n$f(1) \\equiv 3 \\pmod{7}$,\\\n$f(2) \\equiv 32+2+1 \\equiv 0 \\pmod{7}$,\\\n$f(3) \\equiv 27\\cdot9+3+1 \\equiv -1\\cdot2+4 \\equiv 2 \\pmod{7}$,\\\n$f(4) \\equiv (-3)^5+4+1 \\equiv +2+5 \\equiv 0 \\pmod{7}$,\\\n$f(5) \\equiv (-2)^5+5+1 \\equiv -32+6 \\equiv -26 \\equiv 2 \\pmod{7}$,\\\n$f(6) \\equiv (-1)^5+6+1 \\equiv 6 \\pmod{7}$.\\\nThus only the representants 2 and 4 of a complete residue system modulo\n7 (see conditional congruences) are roots of the given congruense. A\ncongruence needs not have the maximal amount of incongruent roots\nmentionned in the theorem.\n\n[9]{} : [*Lukuteorian ja korkeamman algebran alkeet*]{}. Tiedekirjasto\nNo. 17.Kustannusosakeyhti\u00f6 Otava, Helsinki (1950).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CongruenceOfArbitraryDegree"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "congruence of arbitrary degree"
+  ]
+}

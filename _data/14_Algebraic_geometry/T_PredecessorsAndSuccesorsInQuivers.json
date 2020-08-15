@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $Q=(Q_0,Q_1,s,t)$ be a quiver, i.e. $Q_0$ is a set of vertices,\n$Q_1$ is a set of arrows and $s,t:Q_1\\to Q_0$ are functions called\nsource and target respectively. Recall, that\n$$\\omega=(\\alpha_1,\\ldots,\\alpha_n)$$ is a path in $Q$, if each\n$\\alpha_i\\in Q_1$ and $t(\\alpha_i)=s(\\alpha_{i+1})$ for all\n$i=1,\\ldots,n-1$. The length of $\\omega$ is defined as $n$.\n\n**Definition.** If $a,b\\in Q_0$ are vertices such that there exists a\npath $$\\omega=(\\alpha_1,\\ldots,\\alpha_n)$$ with $s(\\alpha_1)=a$ and\n$t(\\alpha_n)=b$, then $a$ is said to be a **predecessor** of $b$ and $b$\nis said to be a **successor** of $a$. Additionally if there is such path\nof length $1$, i.e. there exists an arrow from $a$ to $b$, then $a$ is a\n**direct predecessor** of $b$ and $b$ is a **direct succesor** of $a$.\n\nFor a given vertex $a\\in Q_0$ we define the following sets:\n$$a^{-}=\\{b\\in Q_0\\ |\\ b\\mbox{ is a direct predecessor of }a\\};$$\n$$a^{+}=\\{b\\in Q_0\\ |\\ b\\mbox{ is a direct successor of }a\\}.$$\n\nThe elements in $a^{-}\\cup a^{+}$ are called **neighbours** of $a$.\n\n**Example.** Consider the following quiver: $$\\xymatrix{\n& & & 3 \\\\\n0\\ar[r]& 1\\ar[r] & 2\\ar[ru]\\ar[rd]\\\\\n & & & 4\n}$$ Then $$2^{-}=\\{1\\};\\ \\ 2^{+}=\\{3,4\\};$$ and $1,3,4$ are all\nneighbours of $2$. Also $0$ is a predecessor of $2$, but not direct.",
+  "language": "INFORMAL",
+  "phrase": "Predecessors And Succesors In Quivers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PredecessorsAndSuccesorsInQuivers"
+    }
+  ],
+  "indexable": true
+}

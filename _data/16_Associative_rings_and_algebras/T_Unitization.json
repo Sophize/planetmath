@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "minimal unitization"
+  ],
+  "definition": "The operation of unitization allows one to add a unity element to an\nalgebra. Because of this construction, one can regard any algebra as a\nsubalgebra of an algebra with unity. If the algebra already has a unity,\nthe operation creates a larger algebra in which the old unity is no\nlonger the unity.\n\nLet $\\A$ be an algebra over a ring $\\R$ with unity $1$. Then, as a\nmodule, the unitization of $\\A$ is the direct sum of $\\R$ and $\\A$:\n$$\\A^+ = \\R \\oplus \\A$$ The product operation is defined as follows:\n$$(x, a) \\cdot (y, b) = (xy, ab + xb + ya)$$ The unity of $\\A^+$ is\n$(1,0)$.\n\nIt is also possible to unitize any ring using this construction if one\nregards the ring as an algebra over the ring of . (See the entry every\nring is an integer algebra for details.) It is worth noting, however,\nthat the result of unitizing a ring this way will always be a ring whose\nunity has zero characteristic. If one has a ring of finite\ncharacteristic $k$, one can instead regard it as an algebra over\n$\\mathbb{Z}_k$ and unitize accordingly to obtain a ring of\ncharacteristic $k$.\n\nThe construction described above is often called \u201cminimal unitization\u201d.\nIt is in fact minimal, in the sense that every other unitization\ncontains this unitization as a subalgebra.",
+  "language": "INFORMAL",
+  "phrase": "Unitization",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Unitization"
+    }
+  ],
+  "indexable": true
+}

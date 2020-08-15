@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $B_k$ denote the $k$th Bernoulli number:\n$$B_0=1,\\quad B_1=-\\frac{1}{2},\\quad B_2=\\frac{1}{6},\\quad B_3=0,\\quad B_4=-\\frac{1}{30},\\ldots,\\ B_{10}=\\frac{5}{66},\\ldots$$\nIn fact, $B_k=0$ for all odd $k\\geq 3$, so we will only consider $B_k$\nfor even $k$. The following congruence is due to Ernst Eduard Kummer:\n\nLet $p$ be a prime. Suppose that $k\\geq 2$ is an even integer which is\nnot divisible by $(p-1)$. Then the quotient $B_k/k$ is $p$-integral,\nthat is, as a fraction in lower terms, $p$ does not divide its\ndenominator. Furthermore, if $h$ is another even integer with\n$(p-1)\\nmid k$ and $k\\equiv h \\mod (p-1)$ then\n$$\\frac{B_k}{k}\\equiv \\frac{B_h}{h} \\mod p.$$\n\nThe interested reader should see also the congruence of Clausen and von\nStaudt for a similar result. As an example of Kummer\u2019s congruence, let\n$p=7$ and $k=4$. Then:\n$$\\frac{B_4}{4}=\\frac{-\\frac{1}{30}}{4}=-\\frac{1}{120}\\equiv 6 \\mod 7$$\nIf we pick $h=10$ (so that $10\\equiv 4 \\mod (p-1)$) then:\n$$\\frac{B_{10}}{10}=\\frac{\\frac{5}{66}}{10}=\\frac{1}{132}\\equiv 6 \\mod 7$$\nwhich is what the theorem predicted.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KummersCongruence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kummer's congruence",
+    "Kummer congruence"
+  ]
+}

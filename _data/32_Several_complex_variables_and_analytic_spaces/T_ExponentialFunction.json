@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "logarithm function"
+  ],
+  "definition": "We begin by defining the exponential function\n$\\exp:{\\mathbb}{R}{\\rightarrow}{\\mathbb}{R}^+$ for all real values of\n$x$ by the power series\n\n$$\\exp(x) = \\sum_{k = 0}^{\\infty}\\frac{x^k}{k!}$$\n\nThe graph of the exponential function is as follows:\n\n(-4,-5)(4,25) (0,0)(-3.5,-1.5)(3.5,24) (0.3,24)[$y$]{} (3.4,1.4)[$x$]{}\n\nIt has a few elementary properties, which can be easily shown.\n\n-   The radius of convergence is infinite\n\n-   $\\exp(0) = 1$\n\n-   It is infinitely differentiable, and the derivative is the\n    exponential function itself\n\n-   $\\exp(x) \\ge 1 + x$ so it is positive and unbounded on the\n    non-negative reals\n\nNow consider the function $f:\\mathbb{R}\\rightarrow\\mathbb{R}$ with\n\n$$f(x) = \\exp(x)\\exp(y-x)$$\n\nso, by the product rule and property 3\n\n$$f'(x) = 0.$$\n\nSince the only continuous functions that have a derivative of 0 are\nconstant functions, and since $f(0)=\\exp(y)$, we get\n\n$$\\exp(x)\\exp(y-x) = \\exp(y) \\quad \\forall y,x \\in \\mathbb{R}.$$\n\nWith a suitable change of variables, we have\n\n$$\\exp(x+y) = \\exp(x)\\exp(y),$$ $$\\exp(x)\\exp(-x) = 1.$$\n\nConsider just the non-negative reals. Since it is unbounded, by the\nintermediate value theorem, it can take any value on the interval\n$[1,\\infty)$. We have that the derivative is strictly positive so by the\nmean-value theorem, $\\exp(x)$ is strictly increasing. This gives\nsurjectivity and injectivity i.e. it is a bijection from\n$[0,\\infty) \\rightarrow [1,\\infty)$.\n\nNow $\\exp(-x) = \\frac{1}{\\exp(x)}$, so it is also a bijection from\n$(-\\infty,0) \\rightarrow (0, 1)$. Therefore we can say that $\\exp(x)$ is\na bijection onto $\\mathbb{R}^+.$\n\nWe can now naturally define the logarithm function, as the inverse of\nthe exponential function. It is usually denoted by\n$\\operatorname{ln}(x)$, and it maps $\\mathbb{R}^+$ to $\\mathbb{R}.$\n\nSimilarly, the natural log base, $e$ may be defined by $e = \\exp(1).$\n\nSince the exponential function obeys the rules normally associated with\npowers, it is often denoted by $e^x$. In fact it is now possible to\ndefine powers in terms of the exponential function by\n\n$$a^x = e^{x\\operatorname{ln}(a)} \\quad a > 0.$$\n\nNote the domain may be extended to the complex plane with all the same\nproperties as before, except the bijectivity and ordering properties.\n\nComparison with the power series expansions for sine and cosine yields\nthe following identity, with the famous corollary attributed to Euler:\n\n$$e^{ix} = \\cos(x) + i\\sin(x)$$ $$e^{i\\pi}+1=0,$$\n\nthe last of which often being considered one of the most beautiful\nidentities in all of mathematics, relating the important numbers $e$,\n$\\pi$, $i$, $1$, and $0$ all in one equation.",
+  "language": "INFORMAL",
+  "phrase": "Exponential Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExponentialFunction"
+    }
+  ],
+  "indexable": true
+}

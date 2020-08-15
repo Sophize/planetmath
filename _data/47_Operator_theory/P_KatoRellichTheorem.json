@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathcal{H}$ be a Hilbert space,\n$A\\colon D(A)\\subset \\mathcal{H}\\to\n\\mathcal{H}$ a self-adjoint operator and\n$B\\colon D(B)\\subset\\mathcal{H}\\to\n\\mathcal{H}$ a symmetric operator with $D(A)\\subset D(B)$.\n\nWe say that $B$ is $A$-bounded if there are positive constants\n$\\alpha,\\beta$ such that $$\\|Bx\\|\\leq \\alpha\\|Ax\\|+\\beta\\|x\\|$$ for all\n$x\\in D(A)$, and we say that $\\alpha$ is an *$A$-bound* for $B$.\n\n(Kato-Rellich) If $B$ is *$A$-bounded* with $A$-bound smaller than $1$,\nthen $A+B$ is self-adjoint on $D(A)$, and essentially self-adjoint on\nany core of $A$. Moreover, if $A$ is bounded below, then so is $A+B$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KatoRellichTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kato-Rellich theorem",
+    "Rellich-Kato theorem"
+  ]
+}

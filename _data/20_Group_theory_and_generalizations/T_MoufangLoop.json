@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Proposition:** Let $Q$ be a nonempty quasigroup.\n\nI\\) The following conditions are equivalent. $$\\begin{aligned}\n(x(yz))x &=& (xy)(zx) \\qquad\\text{for all } x,y,z\\in Q \\\\\n((xy)z)y &=& x(y(zy)) \\qquad\\text{for all } x,y,z\\in Q \\\\\n(xz)(yx) &=& x((zy)x) \\qquad\\text{for all } x,y,z\\in Q \\\\\n((yz)y)x &=& y(z(yx)) \\qquad\\text{for all } x,y,z\\in Q\\end{aligned}$$\n\nII\\) If $Q$ satisfies those conditions, then $Q$ has an identity element\n(i.e., $Q$ is a loop).\n\nFor a proof, we refer the reader to the two references. Kunen in \\[1\\]\nshows that that any of the four conditions implies the existence of an\nidentity element. And Bol and Bruck \\[2\\] show that the four conditions\nare equivalent for loops.\n\n**Definition:** A nonempty quasigroup satisfying the conditions (1)\u2013(4)\nis called a Moufang quasigroup or, equivalently, a Moufang loop (after\nRuth Moufang, 1905\u20131977).\n\nThe 16-element set of unit octonions over $\\mathbb{Z}$ is an example of\na nonassociative Moufang loop. Other examples appear in projective\ngeometry, coding theory, and elsewhere.\n\n**References**\n\n\\[1\\] Kenneth Kunen, [*Moufang Quasigroups*]{}, J. Algebra 83 (1996)\n231\u2013234. (A preprint in PostScript format is available from Kunen\u2019s\nwebsite: .)\n\n\\[2\\] R. H. Bruck, [*A Survey of Binary Systems,*]{} Springer-Verlag,\n1958.",
+  "language": "INFORMAL",
+  "phrase": "Moufang Loop",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MoufangLoop"
+    }
+  ],
+  "indexable": true
+}

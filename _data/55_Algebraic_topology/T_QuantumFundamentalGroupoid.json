@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "quantum spacetimes homotopy theory"
+  ],
+  "definition": "A *quantum fundamental groupoid* $F_{{\\mathcal Q}}$ is defined as a\nfunctor $F_{{\\mathcal Q}}: \\mathbf{H}_B \\to {{\\mathcal Q}}_G$, where\n$\\mathbf{H}_B$ is the category of Hilbert space bundles, and\n${{\\mathcal Q}}_G$ is the category of locally compact quantum groupoids\nand their homomorphisms.\n\nFundamental groupoid functors and functor categories\n----------------------------------------------------\n\nThe natural setting for the definition of a quantum fundamental groupoid\n$F_{{\\mathcal Q}}$ is in one of the functor categories\u2013 that of ,\n$F_{{\\mathcal G}}$, and their defined in the context of quantum\ncategories of quantum spaces ${{\\mathcal Q}}$ represented by Hilbert\nspace bundles or rigged Hilbert (also called Frech\u00e9t) spaces\n$\\mathbf{H}_B$.\n\nOther related functor categories are those specified with the general\ndefinition of the *fundamental groupoid functor*,\n$F_{{\\mathcal G}}: \\textbf{Top} \\to {\\mathcal G}_2$, where **Top** is\nthe category of topological spaces and ${\\mathcal G}_2$ is the .\n\nA specific example of a quantum fundamental groupoid can be given for\nspin foams of spin networks, with a spin foam defined as a functor\nbetween spin network categories. Thus, because spin networks or graphs\nare specialized one-dimensional CW-complexes whose cells are linked\nquantum spin states, their quantum fundamental groupoid is defined as a\nfunctor representation of CW-complexes on rigged Hilbert spaces (also\ncalled Frech\u00e9t nuclear spaces).",
+  "language": "INFORMAL",
+  "phrase": "Quantum Fundamental Groupoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuantumFundamentalGroupoid"
+    }
+  ],
+  "indexable": true
+}

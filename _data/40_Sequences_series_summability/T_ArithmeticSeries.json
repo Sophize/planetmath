@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *arithmetic series* is the series, $\\sum_{i=1}^na_i$, in which each\nreal term has the form $ a_i=a_{i-1}+d $ for $i=2,\\ldots, n $ where $ d$\nis constant. The sum of the sequence is given by the following\n$\\displaystyle \\frac{1}{2}n[2a_1+d(n-1)].$ In order to find the formula\nabove firstly we express the terms of the sequence, $ a_2, \\ldots, a_n$\nin terms of $ a_1$ and the constant $ d$. In this case we get\n$ a_2=a_1+d, a_3=a_2+2d,\\ldots , a_n=a_1+(n-1)d$. Now we express the sum\nof the sequence by developing the series forward and we have:\n$$S_n=\\sum_{i=1}^na_i =a_1+a_1+d+\\cdots +a_1+(n-2)d+a_1+(n-1)d$$\nReversely, we develop the series backwards and we get\n$$S_n=a_n-d+a_n-2d+\\cdots +a_n-(n-1)d$$\\\nIt is easily seen that by adding the two expressions we get\n$$\\begin{aligned}\n2S_n=n(a_1+a_n)\\\\\nS_n= \\frac{1}{2}n(a_1+a_n)\\end{aligned}$$ Hence, by substituting\n$a_n=a_1+(n-1)d$ we get the first formula.",
+  "language": "INFORMAL",
+  "phrase": "Arithmetic Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArithmeticSeries"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f\\colon X \\to Y$ be a function and $A$ and $B$ be sets such that\n$X\\subseteq A$ and $Y\\subseteq B$. An *extension* of $f$ to $A$ is a\nfunction $g\\colon A \\to B$ such that $f(x)=g(x)$ for all $x\\in X$.\nAlternatively, $g$ is an extension of $f$ to $A$ if $f$ is the\nrestriction of $g$ to $X$.\n\nTypically, functions are not arbitrarily extended. Rather, it is usually\ninsisted upon that extensions have certain properties. Examples include\nanalytic continuations and meromorphic extensions.",
+  "language": "INFORMAL",
+  "phrase": "Extension Of A Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtensionOfAFunction"
+    }
+  ],
+  "indexable": true
+}

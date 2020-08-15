@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Let $A$ be a subset of ${\\mathbb{R}}$, and let $f$ be\na function from $f:A\\to {\\mathbb{R}}$. Then\n\n1.  $f$ is *increasing* or *weakly increasing*, if $x\\le y$ implies that\n    $f(x)\\le f(y)$ (for all $x$ and $y$ in $A$).\n\n2.  $f$ is *strictly increasing* or *strongly increasing*, if $x< y$\n    implies that $f(x)< f(y)$.\n\n3.  $f$ is *decreasing* or *weakly decreasing*, if $x\\le y$ implies that\n    $f(x)\\ge f(y)$.\n\n4.  $f$ is *strictly decreasing* or *strongly decreasing* if $x< y$\n    implies that $f(x)> f(y)$.\n\n5.  $f$ is *monotone*, if $f$ is either increasing or decreasing.\n\n6.  $f$ is *strictly monotone* or *strongly monotone*, if $f$ is either\n    strictly increasing or strictly decreasing.\n\n[**Theorem**]{} Let $X$ be a bounded or unbounded open interval of\n${\\mathbb{R}}$. In other words, let $X$ be an interval of the form\n$X=(a,b)$, where $a,b\\in{\\mathbb{R}}\\cup\\{-\\infty,\\infty\\}$. Futher, let\n$f:X\\to {\\mathbb{R}}$ be a monotone function.\n\n1.  The set of points where $f$ is discontinuous is at most countable\n    [@aliprantis; @rudin].\n\n2.  $f$ is differentiable almost everywhere ([@jones], pp. 514).\n\n[9]{} C.D. Aliprantis, O. Burkinshaw, *Principles of Real Analysis*, 2nd\ned., Academic Press, 1990. W. Rudin, *Principles of Mathematical\nAnalysis*, McGraw-Hill Inc., 1976. F. Jones, *Lebesgue Integration on\nEuclidean Spaces*, Jones and Barlett Publishers, 1993.",
+  "language": "INFORMAL",
+  "phrase": "Increasing/Decreasing/Monotone Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IncreasingdecreasingmonotoneFunction"
+    }
+  ],
+  "indexable": true
+}

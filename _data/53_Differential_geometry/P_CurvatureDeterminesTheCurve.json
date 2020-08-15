@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The of plane curve determines uniquely the form and of the curve, i.e.\none has the\n\n**Theorem.** If $s\\mapsto k(s)$ is a continuous real function, then\nthere exists always plane curves satisfying the equation\n$$\\begin{aligned}\n        \\kappa \\;=\\; k(s)\\end{aligned}$$ between their curvature\n$\\kappa$ and the arc length $s$. All these curves are .\\\n[*Proof.*]{} Suppose that a curve $C$ satisfies the condition (1). Let\nthe value $s = 0$ correspond to the point $P_0$ of this curve. We choose\n$O$ as the origin of the plane. The tangent and the normal of $C$ in $O$\nare chosen as the $x$-axis and the $y$-axis, with positive directions\nthe directions of the tangent and normal vectors of $C$, respectively.\nAccording to (1) and the definition of curvature, the equation\n$$\\frac{d\\theta}{ds} \\;=\\; k(s)$$ for the direction angle $\\theta$ of\nthe tangent of $C$ is valid in this coordinate system; the initial\ncondition is $$\\theta \\;=\\; 0 \\quad \\mbox{when} \\quad s \\;=\\; 0.$$ Thus\nwe get $$\\begin{aligned}\n     \\theta \\;=\\; \\int_0^s k(t) d\\!t \\;:=\\; \\vartheta(s),\\end{aligned}$$\nwhich implies $$\\begin{aligned}\n   \\frac{dx}{ds} \\;=\\; \\cos{\\vartheta(s)}, \\qquad \n   \\frac{dy}{ds} \\;=\\; \\sin{\\vartheta(s)}.\\end{aligned}$$ Since\n$x = y = 0$ when $s = 0$, we obtain $$\\begin{aligned}\n  x \\;=\\; \\int_0^s \\cos{\\vartheta(t)}\\,dt, \\qquad y \\;=\\; \n  \\int_0^s \\sin{\\vartheta(t)}\\,dt.\\end{aligned}$$ Thus the function\n$s\\mapsto k(s)$ determines uniquely these functions $x$ and $y$ of the\nparameter $s$, and (4) represents a curve with definite form and .\n\nThe above reasoning shows that every curve which satisfies (1) is with\nthe curve (4).\n\nWe have still to show that the curve (4) satisfies the condition (1). By\nthe equations (4) we get the equations (3), which imply\n$(\\frac{dx}{ds})^2+(\\frac{dy}{ds})^2 = 1$, or $ds^2 = dx^2+dy^2$ which\nmeans that the parameter $s$ represents the arc length of the curve (4),\ncounted from the origin. Differentiating (3) we get, because\n$\\vartheta'(s) = k(s)$ by (2), $$\\begin{aligned}\n\\frac{d^2x}{ds^2} \\;=\\; -k(s)\\sin{\\vartheta(s)}, \\qquad \n\\frac{d^2y}{ds^2} \\;=\\; k(s)\\cos{\\vartheta(s)}.    \\end{aligned}$$ The\nequations (3) and (5) then yield\n$$\\frac{dx}{ds}\\frac{d^2y}{ds^2}-\\frac{dy}{ds}\\frac{d^2x}{ds^2} \\;=\\; k(s),$$\ni.e. the curvature of (4), according the , satisfies\n$$\\left| \\begin{matrix} x' & y' \\cr x'' & y'' \\end{matrix} \\right| \\;=\\; k(s).$$\nThus the proof is settled.\n\n[8]{} : [*Differentiali- ja integralilasku ja sen sovellutukset I*]{}.\nWSOY. Helsinki (1950).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CurvatureDeterminesTheCurve"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "curvature determines the curve",
+    "fundamental theorem of plane curves"
+  ]
+}

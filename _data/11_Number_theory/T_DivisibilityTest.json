@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "divisibility rule"
+  ],
+  "definition": "A means of determining whether $m|n$ without actually having to\ncalculate $n \\over m$. Most divisibility tests exploit some\ncharacteristic of the multiples of $m$ in a given base $b$.\n\nFor example, suppose that for some reason you wanted to determine\nwhether 24709898213 is divisible by 11 but didn\u2019t have access to (or\ndidn\u2019t want to use) a calculator or computer. You don\u2019t need to know the\nresult or the remainder (if applicable).\n\nThe most obvious way to make the determination is by actually dividing\n24709898213 by 11. This could take ten subtractions and at least six\nmultiplication table look-ups (even if one has memorized the\nmultiplication table, it still counts as an operation). The answer is\n2246354383 and there is no remainder, meaning that 24709898213 is in\nfact divisible by 11.\n\nIf on the other hand you add up the odd place digits (2 + 7 + 9 + 9 + 2\n+ 3) and subtract the sum of the even place digits (4 + 0 + 8 + 8 + 1),\nyou get the answer 11, meaning that 24709898213 is in fact divisible by\n11; this result was obtained having needed just two additions and one\nsubtraction. This is the well-known base 10 divisibility test by 11,\nwhich is that an integer $n$ is divisible by 11 if the difference\nbetween the sum of the odd-placed digits and the even-placed digits is\nalso a multiple of 11.\n\nA few other well-known divisibility tests in base 10 are:\n\n$n$ is divisible by 2 if the least significant digit is 0, 2, 4, 6 or 8.\n\n$n$ is divisible by 3 if it has digital root 3, 6 or 9.\n\n$n$ is divisible by 5 if the least significant digit is 0 or 5.\n\n$n$ is divisible by 9 if it has digital root 9.\n\n$n$ is divisible by 10 if the least significant digit is 0.\n\nFrom this it can be generalized to other bases: that if $2|b$ then the\nleast significant digit of the number has to be even for the number as a\nwhole to also be even; that if the digital root of $n$ is $b - 1$ then\n$(b - 1)|n$; that $b^x|n$ if the $x$ least significant digits of $n$ are\nall zeroes; and that $(b + 1)|n$ if the difference of the odd placed\ndigits and the even place digits of $n$ is a multiple of $b + 1$.\n\nFor some semiprimes $pq$ it might still be advantageous to perform two\ndivisibility tests (one for $p$ and then one for $q$) than to calculate\n$n \\over {pq}$.\n\nDivisibility tests are usually more useful for humans than for\ncomputers, and then only for sufficiently small numbers. For example, a\ncomputer might be able to divide 10000! + 11 by 11 in an\nimmediate-feeling .032 seconds, but it might take .094 seconds just to\nfigure out what the base 10 digits of 10000! + 11 are. However, the\ndivisibility tests in binary might be useful for certain programming\nproblems.",
+  "language": "INFORMAL",
+  "phrase": "Divisibility Test",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DivisibilityTest"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *polyrectangle* $P$ in ${\\mathbb R}^n$ is a finite collection\n$P=\\{R_1,\\ldots,R_N\\}$ of compact rectangles $R_i\\subset {\\mathbb R}^n$\nwith disjoint interior. A *compact rectangle* $R_i$ is a Cartesian\nproduct of compact intervals:\n$R_i=[a_1^i,b_1^i]\\times \\cdots \\times [a_n^i,b_n^i]$ where\n$a_j^i<b_j^i$ (these are also called *$n$-dimensional intervals*).\n\nThe union of the compact rectangles of a polyrectangle $P$ is denoted by\n$$\\cup P := \\bigcup_{R\\in P} R = R_1 \\cup \\cdots \\cup R_N.$$ It is a\ncompact subset of ${\\mathbb R}^n$.\n\nWe can define the ($n$-dimensional) measure of $\\cup P$ in a way. If\n$R=[a_1,b_1]\\times \\cdots \\times [a_n,b_n]$ is a rectangle we define the\nmeasure of $R$ as $$\\mathrm{meas}(R) := (b_1-a_1)\\cdots (b_n-a_n)$$ and\ndefine the measure of the polyrectangle $P$ as:\n$$\\mathrm{meas}(P) := \\sum_{R\\in P} \\mathrm{meas}(R).$$\n\nMoreover if we are given a bounded function $f\\colon \\cup P\\to\\mathbb R$\nwe can define the *upper* and *lower Riemann sums* of $f$ over $\\cup P$\nby $$S^*(f,P) := \\sum_{R\\in P} \\mathrm{meas}(R)\\sup_{x\\in R} f(x),\\qquad\n   S_*(f,P) := \\sum_{R\\in P} \\mathrm{meas}(R)\\inf_{x\\in R} f(x).$$\n\nPolyrectangles are then used to define the Peano Jordan measure of\nsubsets of $\\mathbb R^n$ and to define Riemann multiple integrals. To\nachieve this, it is useful to introduce the so called *refinements*. The\nfamily of rectangles $R_i$ which appear in the definition\u00a0\\[defpoly\\]\nare called a *partition* of $\\overline{\\cup P}$ in rectangles. It is\nclear that the set $\\cup P$ can be represented by different\npolyrectangles. For example any rectangle $R$ can be split in $2^n$\nsmaller rectangles by dividing in two parts each of the $n$ intervals\ndefining $R$. We claim that given two polyrectangles $P$ and $Q$ there\nexists a polyrectangle $S$ such that\n$(\\cup P)\\cup (\\cup Q) \\subset \\cup S$ and such that given any rectangle\n$R$ in $P$ or $Q$, $R$ is the union of rectangles in $S$.",
+  "language": "INFORMAL",
+  "phrase": "Polyrectangle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Polyrectangle"
+    }
+  ],
+  "indexable": true
+}

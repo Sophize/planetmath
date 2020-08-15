@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "index"
+  ],
+  "definition": "Let $P$ be a Fredholm operator. The **index** of $P$ is defined as\n$$\\begin{aligned}\n{\\mathop{\\mathrm{index}}\\nolimits}(P) & = & \\dim\\ker(P) - \\dim{\\mathop{\\mathrm{coker}}\\nolimits}(P) \\\\\n& = & \\dim\\ker(P) - \\dim\\ker(P^*).\\end{aligned}$$ Note: this is well\ndefined as $\\ker(P)$ and $\\ker(P^*)$ are finite-dimensional vector\nspaces, for $P$ Fredholm.\n\n****\n\n-   ${\\mathop{\\mathrm{index}}\\nolimits}(P^*) = -{\\mathop{\\mathrm{index}}\\nolimits}(P)$.\n\n-   ${\\mathop{\\mathrm{index}}\\nolimits}(P+K) = {\\mathop{\\mathrm{index}}\\nolimits}(P)$\n    for any compact operator $K$.\n\n-   If\n    $P_1\\colon {\\mathord{\\mathcal{H}}}_1 \\to {\\mathord{\\mathcal{H}}}_2$\n    and\n    $P_2\\colon {\\mathord{\\mathcal{H}}}_2 \\to {\\mathord{\\mathcal{H}}}_3$\n    are Fredholm operators, then\n    ${\\mathop{\\mathrm{index}}\\nolimits}(P_2 P_1) = {\\mathop{\\mathrm{index}}\\nolimits}(P_1) + {\\mathop{\\mathrm{index}}\\nolimits}(P_2)$.\n\n-   If $t \\to P_t$, $t \\in [0,1]$ is a norm continuous path of Fredholm\n    operators, then\n    ${\\mathop{\\mathrm{index}}\\nolimits}(P_t) = {\\mathop{\\mathrm{index}}\\nolimits}(P_0)$.\n\nFredholm operators of the form $\\mathit{invertible} + \\mathit{compact}$\nhave index zero.",
+  "language": "INFORMAL",
+  "phrase": "Fredholm Index",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FredholmIndex"
+    }
+  ],
+  "indexable": true
+}

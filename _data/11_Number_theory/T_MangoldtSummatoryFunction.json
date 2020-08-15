@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "von Mangoldt summatory function"
+  ],
+  "definition": "A number theoretic function used in the study of prime numbers;\nspecifically it was used in the proof of the prime number theorem.\n\nIt is defined thus:\n\n$$\\psi(x) = \\sum_{r \\leq x} \\Lambda(r)$$\n\nwhere $\\Lambda$ is the Mangoldt function.\n\nThe Mangoldt summatory function is valid for all positive real x.\n\nNote that we do not have to worry that the inequality above is\nambiguous, because $\\Lambda(x)$ is only non-zero for natural $x$. So no\nmatter whether we take it to mean r is real, integer or natural, the\nresult is the same because we just get a lot of zeros added to our\nanswer.\n\nThe prime number theorem, which states:\n\n$$\\pi(x) \\sim \\frac{x}{\\ln(x)}$$\n\nwhere $\\pi(x)$ is the prime counting function, is equivalent to the\nstatement that:\n\n$$\\psi(x) \\sim x$$\n\nWe can also define a \u201csmoothing function\u201d for the summatory function,\ndefined as:\n\n$$\\psi_1(x) = \\int_0^x \\psi(t) dt$$\n\nand then the prime number theorem is also equivalent to:\n\n$$\\psi_1(x) \\sim \\frac{1}{2} x^2$$\n\nwhich turns out to be easier to work with than the original form.",
+  "language": "INFORMAL",
+  "phrase": "Mangoldt Summatory Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MangoldtSummatoryFunction"
+    }
+  ],
+  "indexable": true
+}

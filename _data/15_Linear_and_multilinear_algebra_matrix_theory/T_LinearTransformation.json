@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "linear map",
+    "vector space homomorphism",
+    "linear mapping"
+  ],
+  "definition": "Let $V$ and $W$ be vector spaces over the same field $F$. A *linear\ntransformation* is a function $T\\colon V \\to W$ such that:\n\n-   $T(v+w) = T(v)+T(w)$ for all $v,w \\in V$\n\n-   $T(\\lambda v) = \\lambda T(v)$ for all $v\\in V$, and $\\lambda \\in F$\n\nThe set of all linear maps $V \\to W$ is denoted by $\\Hom_F(V,W)$ or\n$\\mathscr{L}(V,W)$.\n\n**Examples:**\n\n-   Let $V=\\mathbb{R}^n$ and $W=\\mathbb{R}^m$ and $A$ is any $m\\times n$\n    matrix. Then the function $L_A:V\\to W$ defined by $L_A(v)=Av$, the\n    multiplication of matrix $A$ and the vector $v$ (considered as an\n    $n\\times 1$ matrix), is a linear transformation.\n\n-   Let $V$ be the space of all differentiable functions over\n    $\\mathbb{R}$ and $W$ the space of all continuous functions over\n    $\\mathbb{R}$. Then $D:V\\to W$ defined by $D(f)=f'$, the derivative\n    of $f$, is a linear transformation.\n\n**Properties:**\n\n-   $T(0) = 0$.\n\n-   If $S$ and $T$ are linear transformations from $V$ to $W$, and\n    $k\\in F$, then so are $S+T$ and $kT$. As a result, $\\Hom_F(V,W)$ is\n    a vector space over F.\n\n-   If $G\\colon W\\to U$ is a linear transformations then\n    $G\\circ T\\colon V\\to U$ is also a linear transformation.\n\n-   The $\\Ker(T)=\\{v\\in V \\mid T(v) = 0\\}$ is a subspace of $V$.\n\n-   The $\\Im(T) = \\{T(v) \\mid v\\in V\\}$ is a subspace of $W$.\n\n-   The inverse image $T^{-1}(w)$ is a subspace if and only if $w=0$.\n\n-   A linear transformation is injective if and only if $\\Ker(T)=\\{0\\}$.\n\n-   If $v \\in V$ then $T^{-1}(T(v)) = v + \\Ker(T)$.\n\n-   If $w\\in \\Im(T)$ then $T(T^{-1}(w)) = \\{w\\}$.\n\n**Remark**. A linear transformation $T:V\\to W$ such that $W=V$ is called\na *linear operator*, and a *linear functional* when $W=F$.\n\n**See also:**\n\n-   Wikipedia,",
+  "language": "INFORMAL",
+  "phrase": "Linear Transformation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearTransformation"
+    }
+  ],
+  "indexable": true
+}

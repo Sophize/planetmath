@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *homogeneous group* is a set $G$ together with a map\n$():G \\times G \\times G \\to G$ satisfying:\n\ni)$(a,a,b)=b$\n\nii)$(a,b,b)=a$\n\niii)$((a,b,c),d,e)=(a,b,(c,d,e))$\n\nfor all $a,b,c,d,e \\in G$.\n\nA map $f:G \\to H$ of homogeneous groups is a homomorphism if it\n$f(a,b,c)=(fa,fb,fc)$, for all $a,b,c \\in G$.\n\nA non-empty homogeneous group is essentially a group, as given any\n$x \\in G$, we may define the following product on $G$:\n\n$ab=(a,x,b)$.\n\nThis gives $G$ the of a group with identity $x$. The choice of $x$ does\nnot affect the isomorphism class of the group obtained.\n\nOne may recover a homogeneous group from a group obtained this way, by\nsetting\n\n$(a,b,c)=ab^{-1}c$.\n\nAlso, every group may be obtained from a homogeneous group.\n\nHomogeneous groups are homogeneous: Given $a,b \\in G$ we have a\nhomomorphism $f$ taking $a$ to $b$, given by $fx=(x,a,b)$.\n\nIn this way homogeneous groups differ from groups, as whilst often used\nto describe symmetry, groups themselves have a distinct element: the\nidentity.\n\nAlso the definition of homogeneous groups is given purely in of\nidentities, and does not exclude the empty set.",
+  "language": "INFORMAL",
+  "phrase": "Homogeneous Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomogeneousGroup"
+    }
+  ],
+  "indexable": true
+}

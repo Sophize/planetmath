@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The square matrix $A$ is said to be nilpotent if\n$A^n = \\underbrace{AA\\cdots A}_{\\textrm{n times}} = \\mathbf{0}$ for some\npositive integer $n$ (here $\\mathbf{0}$ denotes the matrix where every\nentry is 0).\n\nA matrix is nilpotent iff its eigenvalues are all 0.\n\nLet $A$ be a nilpotent matrix. Assume $A^n = \\mathbf{0}$. Let $\\lambda$\nbe an eigenvalue of $A$. Then $A\\mathbf{x} = \\lambda \\mathbf{x}$ for\nsome nonzero vector $\\mathbf{x}$. By induction\n$\\lambda^n \\mathbf{x} = A^n \\mathbf{x} = 0$, so $\\lambda = 0$.\n\nConversely, suppose that all eigenvalues of $A$ are zero. Then the\nchararacteristic polynomial of $A$: $\\det(\\lambda I - A) = \\lambda^n$.\nIt now follows from the Cayley-Hamilton theorem that $A^n = \\mathbf{0}$.\n\nSince the determinant is the product of the eigenvalues it follows that\na nilpotent matrix has determinant 0. Similarly, since the trace of a\nsquare matrix is the sum of the eigenvalues, it follows that it has\ntrace 0.\n\nOne class of nilpotent matrices are the (lower or upper), this follows\nfrom the fact that the eigenvalues of a triangular matrix are the\ndiagonal elements, and thus are all zero in the case of *strictly*\ntriangular matrices.\n\nNote for $2\\times2$ matrices $A$ the theorem implies that $A$ is\nnilpotent iff $A=\\mathbf{0}$ or $A^2=\\mathbf{0}$.\n\nAlso it is worth noticing that any matrix that is similar to a nilpotent\nmatrix is nilpotent.",
+  "language": "INFORMAL",
+  "phrase": "Nilpotent Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NilpotentMatrix"
+    }
+  ],
+  "indexable": true
+}

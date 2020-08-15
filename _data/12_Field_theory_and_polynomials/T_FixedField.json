@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K/F$ be a field extension with Galois group\n$G = \\operatorname{Gal}(K/F)$, and let $H$ be a subgroup of $G$. The\n[*fixed field*]{} of $H$ in $K$ is the set\n$$K^H := \\{ x \\in K \\mid \\sigma(x) = x\\text{ for all }\\sigma \\in H \\}.$$\nThe set $K^H$ is always a field, and $F \\subset K^H \\subset K$.",
+  "language": "INFORMAL",
+  "phrase": "Fixed Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FixedField"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "The inequality $$\\phi(t)\\leq K+L\\int_{t_0}^t\\psi(s)\\phi(s)ds\n\\label{ineq}$$ is equivalent to\n$$\\frac{\\phi(t)}{K+L\\int_{t_0}^t\\psi(s)\\phi(s)ds}\\leq 1$$ Multiply by\n$L\\psi(t)$ and integrate, giving\n$$\\int_{t_0}^t \\frac{L\\psi(s)\\phi(s)ds}{K+L\\int_{t_0}^s\\psi(\\tau)\\phi(\\tau)d\\tau}\\leq L\\int_{t_0}^t \\psi(s)ds$$\nThus\n$$\\ln\\left(K+L\\int_{t_0}^t\\psi(s)\\phi(s)ds\\right)-\\ln K\\leq L\\int_{t_0}^t \\psi(s)ds$$\nand finally\n$$K+L\\int_{t_0}^t\\psi(s)\\phi(s)ds\\leq K\\exp\\left(L\\int_{t_0}^t\\psi(s)ds\\right)$$\nUsing (\\[ineq\\]) in the left hand side of this inequality gives the\nresult.",
+  "conclusion": "#P_GronwallsLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfGronwallsLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Gronwall's lemma"
+  ]
+}

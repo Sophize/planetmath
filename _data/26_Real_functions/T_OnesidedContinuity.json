@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The real function $f$ is [*continuous from the left*]{} in the point\n$x = x_0$ iff $$\\lim_{x\\to x_0-}f(x) = f(x_0).$$\n\nThe real function $f$ is [*continuous from the right*]{} in the point\n$x = x_0$ iff $$\\lim_{x\\to x_0+}f(x) = f(x_0).$$\n\nThe real function $f$ is [*continuous on the closed interval*]{}\n$[a,\\,b]$ iff it is continuous at all points of the open interval\n$(a,\\,b)$, from the right continuous at $a$ and from the left continuous\nat $b$.\\\n**Examples.** The ceiling function $\\lceil{x}\\rceil$ is from the left\ncontinuous at each integer, the mantissa function\n$x\\!-\\!\\lfloor{x}\\rfloor$ is from the right continuous at each integer.",
+  "language": "INFORMAL",
+  "phrase": "One-Sided Continuity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OnesidedContinuity"
+    }
+  ],
+  "indexable": true
+}

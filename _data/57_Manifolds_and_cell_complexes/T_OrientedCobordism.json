@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "cobordant",
+    "bordism"
+  ],
+  "definition": "Two oriented $n$-manifolds $M$ and $M'$ are called [*cobordant*]{} if\nthere is an oriented $n+1$ manifold with boundary $N$ such that\n$\\partial N=M\\coprod M'^{opp}$ where $M'^{opp}$ is $M'$ with orientation\nreversed. The triple $(N,M,M')$ is called a [*oriented cobordism*]{}.\nCobordism is an equivalence relation, and a very coarse invariant of\nmanifolds. For example, all surfaces are cobordant to the empty set (and\nhence to each other).\n\nThere is a cobordism category, where the objects are manifolds, and the\nmorphisms are cobordisms between them. This category is important in\ntopological .",
+  "language": "INFORMAL",
+  "phrase": "Oriented Cobordism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrientedCobordism"
+    }
+  ],
+  "indexable": true
+}

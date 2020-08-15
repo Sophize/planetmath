@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given two sets $A$ and $B$, we say that $A$ is a subset of $B$ (which we\ndenote as $A\\subseteq B$ or simply $A\\subset B$) if every element of $A$\nis also in $B$. That is, the following implication holds:\n$$x\\in A\\Rightarrow x\\in B.$$ The relation between $A$ and $B$ is then\ncalled [*set inclusion*]{}.\n\nSome examples:\n\nThe set $A=\\{d,r,i,t,o\\}$ is a subset of the set $B=\\{p,e,d,r,i,t,o\\}$\nbecause every element of $A$ is also in $B$. That is, $A\\subseteq B$.\n\nOn the other hand, if $C=\\{p,e,d,r,o\\}$, then neither $A \\subseteq C$\n(because $t\\in A$ but $t\\not\\in C$) nor $C \\subseteq A$ (because\n$p\\in C$ but $p\\not\\in A$). The fact that $A$ is not a subset of $C$ is\nwritten as $A\\not\\subseteq C$. Similarly, we have $C\\not\\subseteq A$.\n\nIf $X\\subseteq Y$ and $Y\\subseteq X$, it must be the case that $X=Y$.\n\nEvery set is a subset of itself, and the empty set is a subset of every\nother set. The set $A$ is called a proper subset of $B$, if $A\\subset B$\nand $A\\neq B$. In this case, we do not use $A\\subseteq B$.",
+  "language": "INFORMAL",
+  "phrase": "Subset",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Subset"
+    }
+  ],
+  "indexable": true
+}

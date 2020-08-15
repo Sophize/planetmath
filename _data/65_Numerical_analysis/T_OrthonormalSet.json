@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definition {#definition .unnumbered}\n==========\n\nAn *orthonormal set* is a subset $S$ of an inner product space, such\nthat $\\ip{x,y}=\\delta_{xy}$ for all $x,y\\in S$. Here $\\ip{\\cdot,\\cdot}$\nis the inner product, and $\\delta$ is the Kronecker delta.\n\nMore verbosely, we may say that an orthonormal set is a subset $S$ of an\ninner product space such that the following two conditions hold:\n\n1.  If $x,y \\in S$ and $x\\ne y$, then $x$ is to $y$.\n\n2.  If $x \\in S$, then the norm of $x$ is $1$.\n\nStated this way, the origin of the term is clear: an orthonormal set of\nvectors is both orthogonal and normalized.\n\nNotes {#notes .unnumbered}\n=====\n\nNote that the empty set is orthonormal, as is a set consisting of a\nsingle vector of unit norm in an inner product space.\n\nThe columns (or rows) of a real orthogonal matrix form an orthonormal\nset. In fact, this is an example of an orthonormal basis.\n\nApplications {#applications .unnumbered}\n============\n\nA standard application is finding an orthonormal basis for a vector\nspace, such as by Gram-Schmidt orthonormalization. Orthonormal bases are\ncomputationally simple to work with.",
+  "language": "INFORMAL",
+  "phrase": "Orthonormal Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrthonormalSet"
+    }
+  ],
+  "indexable": true
+}

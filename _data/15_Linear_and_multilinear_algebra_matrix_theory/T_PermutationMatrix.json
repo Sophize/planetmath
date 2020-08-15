@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Permutation Matrix\n==================\n\nLet $n$ be a positive integer. A *permutation matrix* is any $n\\times n$\nmatrix which can be created by rearranging the rows and/or columns of\nthe $n\\times n$ identity matrix. More formally, given a permutation\n$\\pi$ from the symmetric group $S_n$, one can define an $n\\times n$\npermutation matrix $P_{\\pi}$ by $P_{\\pi}=(\\delta_{i\\, \\pi(j)})$, where\n$\\delta$ denotes the Kronecker delta symbol.\n\nPremultiplying an $n\\times n$ matrix $A$ by an $n\\times n$ permutation\nmatrix results in a rearrangement of the rows of $A$. For example, if\nthe matrix $P$ is obtained by swapping rows $i$ and $j$ of the\n$n \\times n$ identity matrix, then rows $i$ and $j$ of $A$ will be\nswapped in the product $PA$.\n\nPostmultiplying an $n\\times n$ matrix $A$ by an $n\\times n$ permutation\nmatrix results in a rearrangement of the columns of $A$. For example, if\nthe matrix $P$ is obtained by swapping rows $i$ and $j$ of the\n$n \\times n$ identity matrix, then columns $i$ and $j$ of $A$ will be\nswapped in the product $AP$.\n\nProperties\n==========\n\nPermutation matrices have the following properties:\n\n-   They are .\n\n-   They are invertible.\n\n-   For a positive integer $n$, the $n \\times n$ permutation matrices\n    form a group under matrix multiplication.\n\n-   Since they have a single 1 in each row *and* each column, they are\n    doubly stochastic.\n\n-   They are the extreme points of the convex set of doubly stochastic\n    matrices.",
+  "language": "INFORMAL",
+  "phrase": "Permutation Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PermutationMatrix"
+    }
+  ],
+  "indexable": true
+}

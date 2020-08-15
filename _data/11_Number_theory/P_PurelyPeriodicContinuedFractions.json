@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We know that periodic continued fractions represent quadratic\nirrationals; this article characterizes purely periodic continued\nfractions. We will use freely the results on convergents to a continued\nfraction.\n\n(Galois) A quadratic irrational $t$ is represented by a purely periodic\nsimple continued fraction if and only if $t>1$ and its conjugate $s$\nunder the transformation $\\sqrt{d}\\mapsto -\\sqrt{d}$ satisfies $-1<s<0$.\n\nSuppose first that $t$ is represented by a purely periodic continued\nfraction $$t=[\\overline{a_0,a_1,\\ldots,a_{r-1}}].$$ Note that\n$a_0\\geq 1$ since it appears again in the continued fraction. Thus\n$t>1$. The $r^{\\mathrm{th}}$ complete convergent is again $t$, so that\nwe have $$t = \\frac{p_{r-2}+tp_{r-1}}{q_{r-2}+tq_{r-1}}$$ so that\n$$q_{r-1}t^2 + (q_{r-2}-p_{r-1})t - p_{r-2}=0$$ Consider the polynomial\n$f(x) = q_{r-1}x^2 + (q_{r-2}-p_{r-1})x - p_{r-2}$. $f(t)=0$, so the\nother root of $f(x)$ is the conjugate $s$ of $t$. But\n$f(-1) = (p_{r-1}-p_{r-2})+(q_{r-1}-q_{r-2})>0$ since the $p_i$ and the\n$q_i$ are both strictly increasing sequences, while $f(0) = -p_{r-2}<0$.\nThus $s$ lies between $-1$ and $0$ and we are done.\n\nNow suppose that $t>1$ and $-1<s<0$, and let the continued fraction for\n$t$ be $[a_0,a_1,\\ldots]$. Let $t_n$ be the $n^{\\mathrm{th}}$ complete\nconvergent of $t$, and $s_n = \\overline{t_n}$. Thus $s_0=s$. Then\n$$t=t_0 = a_0 + \\frac{1}{t_1}$$ so that\n$$s_0 = \\overline{t_0} = a_0+\\frac{1}{\\overline{t_1}} = a_0+\\frac{1}{s_1}$$\nand thus $$\\frac{1}{s_1} = -a_0 + s_0 < -a_0 \\leq -1$$ so that\n$-1 < s_1 < 0$. Inductively, we have $-1 < s_n = \\overline{t_n} < 0$ for\nall $n\\geq 0$. Suppose now that the continued fraction for $t$ is not\npurely periodic, but rather has the form\n$$t = [a_0,a_1,\\ldots,a_{k-1},\\overline{a_k,a_{k+1},\\ldots,a_{k+j-1}}]$$\nfor $k\\geq 1$. Then $t_k = t_{k+j}$ and so\n$$t_{k-1}-t_{k+j-1} = \\left(a_{k-1}+\\frac{1}{t_k}\\right) - \\left(a_{k+j-1}+\\frac{1}{t_{k+j}}\\right) = a_{k-1}-a_{k+j-1}$$\nBut $a_{k-1}\\neq a_{k+j-1}$, otherwise $a_{k-1}$ would have been the\nfirst element of the repeating period. Thus $t_{k-1}-t_{k+j-1}$ is a\nnonzero integer and thus $s_{k-1}-s_{k+j-1}$ is as well. But\n$-1<s_{k-1}-s_{k+j-1}<1$, which is a contradiction. Thus $k=0$ and the\ncontinued fraction is purely periodic.\n\n[10]{} A.M.\u00a0Rockett\u00a0& P.\u00a0Sz\u00fcsz, *Continued Fractions*, World Scientific\nPublishing, 1992.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PurelyPeriodicContinuedFractions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "purely periodic continued fractions"
+  ]
+}

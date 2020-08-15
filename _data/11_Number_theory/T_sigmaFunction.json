@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "divisor sigma",
+    "sum of divisors function",
+    "$\\sigma_1$ function"
+  ],
+  "definition": "Given a positive integer $n$, the sum of the integers $0 < d \\le n$ such\nthat $d|n$ is the value of the [*sum of divisors function*]{} for $n$,\noften symbolized by a Greek lowercase $\\sigma$. Thus,\n$$\\sigma(n) = \\sum_{d|n} d.$$ Sometimes this function is referred to as\n$\\sigma_1(n)$, highlighting its relation to the divisor function.\n\nGiven coprime integers $m$ and $n$ (that is, $\\gcd(m, n) = 1$) then\n$\\sigma(mn) = \\sigma(m)\\sigma(n)$, meaning that the sum of divisors\nfunction is a multiplicative function.",
+  "language": "INFORMAL",
+  "phrase": "$\\Sigma$ Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/sigmaFunction"
+    }
+  ],
+  "indexable": true
+}

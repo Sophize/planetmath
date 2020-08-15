@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "\\'etale"
+  ],
+  "definition": "A morphism of schemes $f:X\\to Y$ is *\u00e9tale* if it is flat and\nunramified.\n\nThis is the appropriate generalization of \u201clocal homeomorphism\u201d from\ntopology or \u201clocal isomorphism\u201d from real differential geometry.\nEquivalently, $f$ is \u00e9tale if and only if any of the following\nconditions hold:\n\n-   $f$ is locally of finite type and formally \u00e9tale.\n\n-   $f$ is flat and the relative sheaf of differentials vanishes.\n\n-   $f$ is smooth of relative dimension zero.\n\n-   $f$ locally looks like $A[x_1,\\ldots,x_n]/(p_1,\\ldots,p_n)$ where\n    the Jacobian vanishes.\n\nA morphism $f:X\\to Y$ of varieties over an algebraically closed field is\n\u00e9tale at a point $x\\in X$ if it induces an isomorphism between the\ncompleted local rings $\\widehat{\\mathcal{O}}_x$ and\n$\\widehat{\\mathcal{O}}_{f(x)}$. If $X$ and $Y$ are over an arbitrary\nfield $k$, then the required condition becomes that $k(x)$ is a\nseparable algebraic extension of $k(y)$, where $y=f(x)$, and $f$ induces\nan isomorphism between $\\widehat{\\mathcal{O}}_y \\otimes_{k(y)} k(x)$ and\n$\\widehat{\\mathcal{O}}_x$.\n\nA morphism $f$ of nonsingular varieties over an algebraically closed\nfield is \u00e9tale if and only if $f$ induces an isomorphism on the tangent\nspaces. In the differentiable category, the implicit function theorem\nimplies that such a function is actually an isomorphism on some small\nneighborhood. On schemes, of course, the Zariski topology is too coarse\nfor this to be the case. One way to define a finer \u201ctopology\u201d, making\nthe scheme into a site, is by using \u00e9tale maps.\n\nThe word \u00e9tale comes from French, where it can be used to describe a\ncalm or slack sea.\n\n[9]{} Jean Dieudonn\u00e9, [*A Panorama of Pure Mathematics*]{}, Academic\nPress, 1982. Robin Hartshorne, [*Algebraic Geometry*]{},\nSpringer\u2013Verlag, 1977 (GTM [**52**]{}).",
+  "language": "INFORMAL",
+  "phrase": "\\'Etale Morphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/etaleMorphism"
+    }
+  ],
+  "indexable": true
+}

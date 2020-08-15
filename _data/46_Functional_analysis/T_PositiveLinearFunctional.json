@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "### Definition\n\nLet $\\mathcal{A}$ be a and $\\phi$ a linear functional on $\\mathcal{A}$.\n\nWe say that $\\phi$ is a [**positive linear functional**]{} on\n$\\mathcal{A}$ if $\\phi$ is such that $\\phi(x)\\geq 0$ for every\n$x \\geq 0$, i.e. for every positive element $x \\in \\mathcal{A}$.\n\n### Properties\n\nLet $\\phi$ be a positive linear functional on $\\mathcal{A}$. Then\n\n-   $\\phi(x^*) = \\overline{\\phi(x)}\\;\\;$ for every $x \\in \\mathcal{A}$.\n\n<!-- -->\n\n-   $|\\phi(x^*y)|^2 \\leq \\phi(x^*x)\\phi(y^*y)\\;\\;$ for every\n    $x, y \\in \\mathcal{A}$. This is an analog of the Cauchy-Schwartz\n    inequality\n\nLet $\\phi$ be a linear functional on a $C^*$-algebra $\\mathcal{A}$ with\nidentity element $e$. Then\n\n-   $\\phi$ is positive if and only if $\\phi$ is and $\\|\\phi\\|= \\phi(e)$.\n\n### Examples\n\n-   Let $X$ be a locally compact Hausdorff space and $C_0(X)$ the\n    $C^*$-algebra of continuous functions $X \\longrightarrow \\mathbb{C}$\n    that vanish at infinity. Let $\\mu$ be a regular Radon measure on\n    $X$. The linear functional $\\phi$ defined by integration against\n    $\\mu$, $$\\phi(f) := \\int_X f\\;d\\mu\\;, \\qquad\\qquad f \\in C_0(x)$$ is\n    a positive linear functional on $C_0(X)$. In fact, by the , all\n    positive linear functionals of $C_0(X)$ are of this form.",
+  "language": "INFORMAL",
+  "phrase": "Positive Linear Functional",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PositiveLinearFunctional"
+    }
+  ],
+  "indexable": true
+}

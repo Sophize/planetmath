@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $M$ is a right module over a ring $R$, and $\\alpha$ is an\nendomorphism of $R$, we define the [*conjugate module*]{} $M^\\alpha$ to\nbe the right $R$-module whose underlying set is\n$\\{ m^\\alpha \\mid m \\in M \\}$, with abelian group structure identical to\nthat of $M$ (i.e. $(m-n)^\\alpha = m^\\alpha - n^\\alpha$), and scalar\nmultiplication given by\n${m^\\alpha} \\cdot r = (m \\cdot \\alpha(r))^\\alpha$ for all $m$ in $M$ and\n$r$ in $R$.\n\nIn other words, if $\\phi: R \\to {\\rm End}_{\\Bbb Z}(M)$ is the ring\nhomomorphism that describes the right module action of $R$ upon $M$,\nthen $\\phi \\alpha$ describes the right module action of $R$ upon\n$M^\\alpha$.\n\nIf $N$ is a left $R$-module, we define ${^\\alpha N}$ similarly, with\n$r \\cdot {^\\alpha n} = {^\\alpha(\\alpha(r) \\cdot n)}$.",
+  "language": "INFORMAL",
+  "phrase": "Conjugate Module",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConjugateModule"
+    }
+  ],
+  "indexable": true
+}

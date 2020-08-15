@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In the following, $G$ is an abelian group.\n\nThe group $\\mathbb{Q} \\otimes_{\\mathbb{Z}} G$ is called the divisible\nhull of $G$.\n\nIt is a $\\mathbb{Q}$-vector space such that the scalar\n$\\mathbb{Z}$-multiplication of $G$ is extended to $\\mathbb{Q}$.\n\nThe elements $g_1, g_2, ... , g_r \\in G$ are called rationally\nindependent if they are linearly independent over $\\mathbb{Z}$, i.e. for\nall\n$n_1, ... , n_r \\in Z$:$$n_1 g_1 + ... + n_r g_r = 0 \\Rightarrow n_1 = ... = n_r = 0.$$\n\nThe dimension of $\\mathbb{Q} \\otimes_{\\mathbb{Z}} G$ over $\\mathbb{Q}$\nis called the rational rank of $G$.\n\nWe denote the rational rank of $G$ by\n$r(G)$.**Example**:$r(\\mathbb{Z} \\times \\mathbb{Z}) = 2$ because\n$\\mathbb{Q} \\otimes_\\mathbb{Z} (\\mathbb{Z} \\times \\mathbb{Z}) = (\\mathbb{Q} \\otimes_{\\mathbb{Z}} \\mathbb{Z}) \\times (\\mathbb{Q} \\otimes_{\\mathbb{Z}} \\mathbb{Z}) = \\mathbb{Q} \\times \\mathbb{Q}$.**Properties**:\n\n-   If $H$ is a subgroup of $G$ then we have:$$r(G) = r(H) + r(G/H).$$\n    It results from the fact that $_\\mathbb{Z}\\mathbb{Q}$ is a flat\n    module.\n\n-   The rational rank of the group $G$ can be defined as the least upper\n    bound (finite or infinite) of the cardinals $r$ such that there\n    exist $r$ rationally independent elements in $G$.",
+  "language": "INFORMAL",
+  "phrase": "Rational Rank Of A Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RationalRankOfAGroup"
+    }
+  ],
+  "indexable": true
+}

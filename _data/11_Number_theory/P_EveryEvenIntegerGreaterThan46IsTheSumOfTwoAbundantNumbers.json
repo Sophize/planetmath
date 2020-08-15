@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every sufficiently large even integer $n > 46$ can be expressed as the\nsum of abundant numbers $a$ and $b$ thus: $a + b = n$.\n\nFirst we rewrite $n = 2x$ (where $x$ is some positive integer) as\n$n = 20m + r$, where $r$ satisfies $n \\equiv r \\mod 20$ and\n$m = {{n - r} \\over {20}}$. If $r = 0$, then we\u2019re done, we can simply\nset $a = 20$ and $b = 20(m - 1)$ (or vice versa if preferred), thanks to\nthe theorem on multiples of abundant numbers.\n\nThe other nine possible values of $r$ are almost as easy to dispose of:\n\nIf $r = 2$, then assign $a = 20(m - 2)$ and $b = 42$. This works for\n$m > 2$.\n\nIf $r = 4$, then set $a = 20(m - 1)$ and $b = 24$. This works for\n$m > 1$.\n\nIf $r = 6$, then $a = 20(m - 3)$ and $b = 66$. This works for $m > 3$.\n\nIf $r = 8$, then $a = 20(m - 2)$ and $b = 48$.\n\nIf $r = 10$, then $a = 20(m - 1)$ and $b = 30$.\n\nIf $r = 12$, then $a = 20m$ and $b = r$.\n\nIf $r = 14$, then $a = 20(m - 5)$ and $b = 114$. This works for $m > 4$.\n\nIf $r = 16$, then $a = 20(m - 1)$ and $b = 36$.\n\nIf $r = 18$, then $a = 20m$ and $b = r$.\n\nThis leaves us 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 26, 28, 34, 46,\n54, 74 and 94 to concern ourselves with. We can get rid of 54, 74 and 94\nby simply subtracting 24 from each of them. 46 is the largest even value\nwe can\u2019t remove from this list. Thus it\u2019s proven that all even $n > 46$\ncan be expressed as the sum of a pair of abundant numbers.\n\nWe wish to generalize this to odd integers. Given the fact that the\nsmallest odd abundant number is 945, by \u201csufficiently large\u201d we will\nhave to mean an integer greater than that, and an empirical proof such\nas the one given above for even integers might have to use the second\nodd abundant number, 1575. This would give us almost eight hundred\npossible values of $r$ to worry about, making a more abstract method\nappear more attractive.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryEvenIntegerGreaterThan46IsTheSumOfTwoAbundantNumbers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every even integer greater than 46 is the sum of two abundant numbers"
+  ]
+}

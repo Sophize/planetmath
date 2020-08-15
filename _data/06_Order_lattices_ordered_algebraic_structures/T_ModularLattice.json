@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Dedekind lattice"
+  ],
+  "definition": "A lattice $L$ is said to be *modular* if\n$x \\lor (y \\land z) = (x \\lor y) \\land z$ for all $x,y,z\\in L$ such that\n$x \\leq z$. In fact it is sufficient to show that\n$x \\lor (y \\land z) \\ge (x \\lor y) \\land z$ for all $x,y,z\\in L$ such\nthat $x \\leq z$, as the reverse inequality holds in all lattices (see\nmodular inequality).\n\nThere are a number of other equivalent conditions for a lattice $L$ to\nbe modular:\n\n-   $(x\\meet y)\\join(x\\meet z)=x\\meet(y\\join(x\\meet z))$ for all\n    $x,y,z\\in L$.\n\n-   $(x\\join y)\\meet(x\\join z)=x\\join(y\\meet(x\\join z))$ for all\n    $x,y,z\\in L$.\n\n-   For all $x,y,z\\in L$, if $x<z$ then either $x\\meet y<z\\meet y$ or\n    $x\\join y<z\\join y$.\n\nThe following are examples of modular lattices.\n\n-   All .\n\n-   The lattice of normal subgroups of any group.\n\n-   The lattice of submodules of any . (See modular law.)\n\nA finite lattice $L$ is modular if and only if it is graded and its rank\nfunction $\\rho$ satisfies $\\rho(x)+\\rho(y)=\\rho(x\\land y)+\\rho(x\\lor y)$\nfor all $x,y\\in L$.",
+  "language": "INFORMAL",
+  "phrase": "Modular Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModularLattice"
+    }
+  ],
+  "indexable": true
+}

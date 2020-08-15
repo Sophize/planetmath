@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A multinomial is a mathematical expression consisting of two or more\nterms, e.g. $$a_1 x_1 + a_2 x_2 + \\ldots + a_k x_k.$$ The multinomial\ntheorem provides the general form of the expansion of the powers of this\nexpression, in the process specifying the multinomial coefficients which\nare found in that expansion. The expansion is:\n$$(x_1 + x_2 + \\ldots + x_k)^n =\n\\sum \\frac{n!}{n_1! n_2! \\dotsb n_k!} x_1^{n_1} x_2^{n_2} \\cdots x_k^{n_k}$$\nwhere the sum is taken over all multi-indices\n$(n_1, \\ldots n_k)\\in\\mathbb{N}^k$ that sum to $n$.\n\nThe expression $\\frac{n!}{n_1! n_2! \\cdots n_k!}$ occurring in the\nexpansion is called *multinomial coefficient* and is denoted by\n$$\\binom{n}{n_1, n_2, \\dotsc, n_k}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultinomialTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "multinomial theorem"
+  ]
+}

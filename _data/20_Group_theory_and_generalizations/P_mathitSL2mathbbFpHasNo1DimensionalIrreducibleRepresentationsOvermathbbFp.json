@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The group $G={\\operatorname{SL}}(2,{\\mathbb{F}_p})$ has no non-trivial\n$1$ dimensional irreducible representations over ${\\mathbb{F}_p}$.\n\nNotice that a $1$ dimensional representations over ${\\mathbb{F}_p}$ is\njust a homomorphism:\n$$\\rho \\colon {\\operatorname{SL}}(2,{\\mathbb{F}_p}){\\longrightarrow}\\mathbb{F}_p^\\times.$$\nLet $\\rho$ be as above. Then there exist an induced homomorphism for the\nprojective special linear group:\n$$\\bar{\\rho} \\colon {\\operatorname{PSL}}(2,{\\mathbb{F}_p}) {\\longrightarrow}\\mathbb{F}_p^\\times/\\{ \\pm \\mathit{Id} \\}$$\ndefined by $\\bar{\\rho}(A)=\\rho(B) \\mod \\{ \\pm \\mathit{Id} \\}$, where $B$\nis any lift of $A$ to ${\\operatorname{SL}}(2,{\\mathbb{F}_p})$ (this is\nwell defined because $\\rho(-\\mathit{Id})=\\pm \\mathit{Id}$). Since\n${\\operatorname{PSL}}(2,{\\mathbb{F}_p})$ is simple, the image of\n$\\bar{\\rho}$ is trivial, and therefore, the image of $\\rho$ is contained\nin $\\{ \\pm \\mathit{Id} \\}$.\n\nHowever, ${\\operatorname{SL}}(2,{\\mathbb{F}_p})$ does not have subgroups\nof index $2$ (a subgroup of index $2$ is normal). For our purposes, it\nsuffices to show that:\n$$\\rho\\colon {\\operatorname{SL}}(2,{\\mathbb{F}_p}){\\longrightarrow}\\{\\pm \\mathit{Id} \\}$$\nsatisfies $\\rho(-\\mathit{Id})=\\mathit{Id}$. Let\n$S\\in{\\operatorname{SL}}(2,{\\mathbb{F}_p})$ be the matrix:\n$$S=\\left(\\begin{array}{cc}\n  0 & -1 \\\\\n  1 & 0 \\\\\n\\end{array}\\right).$$ Notice that $S^2=-\\mathit{Id}$ and so\n$\\rho(S^2)=(\\rho(S))^2=\\mathit{Id}=\\rho(-\\mathit{Id})$, as desired.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/mathitSL2mathbbFpHasNo1DimensionalIrreducibleRepresentationsOvermathbbFp"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$\\mathit{SL}(2,\\mathbb{F}_p)$ has no $1$ dimensional irreducible representations over $\\mathbb{F}_p$"
+  ]
+}

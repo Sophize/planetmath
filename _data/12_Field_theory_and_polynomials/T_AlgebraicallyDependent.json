@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $L$ be a field extension of a field $K$. Two elements\n$\\alpha, \\beta$ of $L$ are *algebraically dependent* if there exists a\nnon-zero polynomial $f(x,y)\\in K[x,y]$ such that $f(\\alpha,\\beta)=0$. If\nno such polynomial exists, $\\alpha$ and $\\beta$ are said to be\n*algebraically independent*.\n\nMore generally, elements $\\alpha_1,\\ldots,\\alpha_n\\in L$ are said to be\nalgebraically dependent if there exists a non-zero polynomial\n$f(x_1,\\ldots,x_n)\\in K[x_1,\\ldots,x_n]$ such that\n$f(\\alpha_1,\\alpha_2,\\ldots,\\alpha_n)=0$. If no such polynomial exists,\nthe collection of $\\alpha$\u2019s are said to be algebraically independent.",
+  "language": "INFORMAL",
+  "phrase": "Algebraically Dependent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraicallyDependent"
+    }
+  ],
+  "indexable": true
+}

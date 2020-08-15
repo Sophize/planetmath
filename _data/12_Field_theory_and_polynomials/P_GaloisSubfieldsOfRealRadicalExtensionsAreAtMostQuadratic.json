@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $F\\subset L\\subset K=F(\\sqrt[n]\\alpha)\\subset{\\mathbb{R}}$ are\nfields with $\\alpha\\in F$ and $L$ Galois over $F$. Then $[L:F]\\leq 2$.\n\n**Proof.** Let $\\zeta_n$ be a primitive $n^{\\mathrm{th}}$ root of unity,\nand define $F'=F(\\zeta_n)$, $L'=L(\\zeta_n)$, and\n$K'=K(\\zeta_n)=F'(\\sqrt[n]\\alpha)$. $$\\xymatrix @R1pc@C.3pc{\n& K'=K(\\zeta_n)=F'(\\sqrt[n]\\alpha) \\ar@{-}[dl]\\ar@{-}[dr] & & \\\\\nK=F(\\sqrt[n]\\alpha) \\ar@{-}[dr] & & L'=L(\\zeta_n) \\ar@{-}[dl]\\ar@{-}[dr] & \\\\\n& L \\ar@{-}[dr] & & F'=F(\\zeta_n) \\ar@{-}[dl] \\\\\n& & F &\n}$$ Now, $L'/F'$ is Galois since $L/F$ is. But $K'$ is a Kummer\nextension of $F'$, so has cyclic Galois group and thus $L'/F'$ has\ncyclic Galois group as well (being a quotient of\n$\\operatorname{Gal}(K'/F')$). Thus $L'$ is a Kummer extension of $F'$,\nso that $L'=F'(\\sqrt[n]{\\beta})$ for some $\\beta\\in F'$. It follows that\n$L=F(\\sqrt[n]{\\beta})$. But since $L$ is Galois over $F$, it follows\nthat $n\\leq 2$ (since otherwise in order to be Galois, $L$ would have to\ncontain the non-real $n^{\\mathrm{th}}$ roots of unity).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaloisSubfieldsOfRealRadicalExtensionsAreAtMostQuadratic"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Galois subfields of real radical extensions are at most quadratic"
+  ]
+}

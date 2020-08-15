@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "universal"
+  ],
+  "definition": "If $\\Phi$ is a class of $n$-ary relations with $\\vec{x}$ as the only\nfree variables, an $n+1$-ary formula $\\psi$ is *universal* for $\\Phi$ if\nfor any $\\phi\\in\\Phi$ there is some $e$ such that\n$\\psi(e,\\vec{x})\\leftrightarrow\\phi(\\vec{x})$. In other words, $\\psi$\ncan simulate any element of $\\Phi$.\n\nSimilarly, if $\\Phi$ is a class of function of $\\vec{x}$, a formula\n$\\psi$ is universal for $\\Phi$ if for any $\\phi\\in\\Phi$ there is some\n$e$ such that $\\psi(e,\\vec{x})=\\phi(\\vec{x})$.",
+  "language": "INFORMAL",
+  "phrase": "Universal Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniversalRelation"
+    }
+  ],
+  "indexable": true
+}

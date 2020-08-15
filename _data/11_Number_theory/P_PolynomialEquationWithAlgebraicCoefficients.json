@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $\\alpha_1,\\,\\ldots,\\,\\alpha_k$ are algebraic numbers \\[resp.\nalgebraic integers\\] and\n$$f_1(\\alpha_1,\\,\\ldots,\\,\\alpha_k),\\;\\ldots,\\;f_n(\\alpha_1,\\,\\ldots,\\,\\alpha_k)$$\npolynomials in $\\alpha_1,\\,\\ldots,\\,\\alpha_k$ with rational \\[resp.\ninteger\\] coefficients, then all complex roots of the equation\n$$\\begin{aligned}\nx^n+f_1(\\alpha_1,\\,\\ldots,\\,\\alpha_k)x^{n-1}+\\ldots+f_n(\\alpha_1,\\,\\ldots,\\,\\alpha_k) \\;=\\; 0\\end{aligned}$$\nare algebraic numbers \\[resp. algebraic integers\\].\\\n*Proof.* Let the minimal polynomial $x^m+a_1x^{m-1}+\\ldots+a_m$ of\n$\\alpha_1$ over $\\mathbb{Z}$ have the\n$$\\alpha_1^{(1)} = \\alpha_1,\\; \\alpha_1^{(2)},\\; \\ldots,\\; \\alpha_1^{(m)}$$\nand denote by $F(x;\\,\\alpha_1,\\,\\alpha_2,\\,\\ldots,\\,\\alpha_k)$ the left\nhand side of the equation (1). Consider the equation $$\\begin{aligned}\nG(x;\\,\\alpha_2,\\,\\ldots,\\,\\alpha_k) \n\\;:=\\; \\prod_{i=1}^m F(x;\\,\\alpha_1^{(i)},\\,\\alpha_2,\\,\\ldots,\\,\\alpha_k) \\;=\\; 0.\\end{aligned}$$\nHere, the coefficients of the polynomial $G$ are polynomials in the\nnumbers\n$$\\alpha_1^{(1)},\\; \\alpha_1^{(2)},\\; \\ldots,\\; \\alpha_1^{(m)},\\; \\alpha_2,\\; \\ldots,\\; \\alpha_k$$\nwith rational \\[resp. integer\\] coefficients. Thus the coefficients of\n$G$ are symmetric polynomials $g_j$ in the numbers $\\alpha_1^{(i)}$:\n$$G \\;=\\; \\sum_jg_jx^j$$ By the fundamental theorem of symmetric\npolynomials, the coefficients $g_j$ of $G$ are polynomials in\n$\\alpha_2,\\,\\ldots,\\,\\alpha_k$ with rational \\[resp. integer\\]\ncoefficients. Consequently, $G$ has the form\n$$G \\;=\\; x^h+a_1'(\\alpha_2,\\,\\ldots,\\,\\alpha_k)x^{h-1}+\\ldots+a_h'(\\alpha_2,\\,\\ldots,\\,\\alpha_k)$$\nwhere the coefficients $a_i'(\\alpha_2,\\,\\ldots,\\,\\alpha_k)$ are polynoms\nin the numbers $\\alpha_j$ with rational \\[resp. integer\\] coefficients.\nAs one continues similarly, removing one by one also\n$\\alpha_2,\\,\\ldots,\\,\\alpha_k$ which go back to the rational \\[resp.\ninteger\\] coefficients of the corresponding minimal polynomials, one\nshall finally arrive at an equation $$\\begin{aligned}\nx^s+A_1x^{s-1}+\\ldots+A_s \\;=\\; 0,\\end{aligned}$$ among the roots of\nwhich there are the roots of (1); the coefficients $A_\\nu$ do no more\nexplicitely depend on the algebraic numbers\n$\\alpha_1,\\,\\ldots,\\,\\alpha_k$ but are rational numbers \\[resp.\nintegers\\].\\\nAccordingly, the roots of (1) are algebraic numbers \\[resp. algebraic\nintegers\\], Q.E.D.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolynomialEquationWithAlgebraicCoefficients"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "polynomial equation with algebraic coefficients",
+    "monic equation with algebraic coefficients"
+  ]
+}

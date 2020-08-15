@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Consider the integer 384. Multiplying its digits,\n$$3 \\times 8 \\times 4 = 96$$ and $${{384} \\over {96}} = 91.$$\n\nWhen an integer is divisible by the product of its digits, it\u2019s called a\n[*Zuckerman number*]{}. That is, given $m$ is the number of digits of\n$n$ and $d_x$ (for $x \\le k$) is an integer of $n$,\n\n$${\\prod_{i = 1}^m d_i}|n$$\n\nAll 1-digit numbers and the base number itself are Zuckerman numbers.\n\nIt is possible for an integer to be divisible by its multiplicative\ndigital root and yet not be a Zuckerman number because it doesn\u2019t divide\nits first digit product evenly (for example, 1728 in base 10 has\nmultiplicative digital root 2 but is not divisible by\n$1 \\times 7 \\times 2 \\times 8 = 112$). The reverse is also possible (for\nexample, 384 is divisible by 96, as shown above, but clearly not by its\nmultiplicative digital root 0).\n\n[2]{} J. J. Tattersall, [*Elementary number theory in nine chapters*]{},\np. 86. Cambridge: Cambridge University Press (2005)",
+  "language": "INFORMAL",
+  "phrase": "Zuckerman Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZuckermanNumber"
+    }
+  ],
+  "indexable": true
+}

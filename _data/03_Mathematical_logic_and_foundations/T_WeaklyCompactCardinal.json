@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "weakly compact"
+  ],
+  "definition": "Weakly compact cardinals are (large) infinite cardinals which have a\nproperty related to the syntactic compactness theorem for first order\nlogic. Specifically, for any infinite cardinal $\\kappa$, consider the\nlanguage $L_{\\kappa,\\kappa}$.\n\nThis language is identical to first logic except that:\n\n-   infinite conjunctions and disjunctions of fewer than $\\kappa$\n    formulas are allowed\n\n-   infinite strings of fewer than $\\kappa$ quantifiers are allowed\n\nThe weak compactness theorem for $L_{\\kappa,\\kappa}$ states that if\n$\\Delta$ is a set of sentences of $L_{\\kappa,\\kappa}$ such that\n$|\\Delta|=\\kappa$ and any $\\theta\\subset\\Delta$ with $|\\theta|<\\kappa$\nis consistent then $\\Delta$ is consistent.\n\nA cardinal is weakly compact if the weak compactness theorem holds for\n$L_{\\kappa,\\kappa}$.",
+  "language": "INFORMAL",
+  "phrase": "Weakly Compact Cardinal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeaklyCompactCardinal"
+    }
+  ],
+  "indexable": true
+}

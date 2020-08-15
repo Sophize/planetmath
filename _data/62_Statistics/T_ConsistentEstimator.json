@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a set of samples $X_1,\\ldots,X_n$ from a given probability\ndistribution $f$ with an unknown parameter $\\theta\\in\\Theta$, where\n$\\Theta$ is the parameter space that is a subset of $\\mathbb{R}^m$. Let\n$U(=U(X_1,\\ldots,X_n))$ be an estimator of $\\theta$. Allowing the sample\nsize $n$ to vary, we get a sequence of estimators for $\\theta$:\n$$\\begin{aligned}\nU_1 &=& U(X_1),\\\\\n&\\vdots& \\\\\nU_n &=& U(X_1,\\ldots,X_n), \\\\\n&\\vdots&\\end{aligned}$$ We say that the sequence of estimators\n$\\lbrace U_n \\rbrace$ *consistent* (or that $U$ is a *consistent\nestimator* of $\\theta$), if $U_i$ converges in probability to $\\theta$\nfor *every* $\\theta\\in\\Theta$. That is, for every $\\varepsilon>0$,\n$$\\lim_{n\\rightarrow\\infty}P(|h_n-\\theta|\\geq\\varepsilon)=0$$ for all\n$\\theta\\in\\Theta$.\\\n\\\n**Remark**. Suppose $U$ is an estimator of $\\theta$ such that the\nsequence $\\lbrace U_n\\rbrace$ is consistent. If\n$\\alpha_n\\to\\alpha\\in\\mathbb{R}$ and $\\beta_n\\to\\beta\\in\n\\mathbb{R}^m$ are two convergent sequences of constants with\n$0<|\\alpha|<\\infty$ and $|\\beta|<\\infty$, then the sequence $\\lbrace\nV_n\\rbrace$, defined by $V_n:=\\alpha_n U_n+\\beta_n$, is consistent, $V$\nis an estimator of $\\alpha\\theta + \\beta$.\n\nFirst, observe that $$\\begin{aligned}\n|V_n-(\\alpha\\theta+\\beta)| &=&\n|\\alpha_nU_n+\\beta_n-\\alpha\\theta-\\beta|\\\\\n&\\le&|\\alpha_nU_n-\\alpha\\theta|+|\\beta_n-\\beta|\\\\\n&=&|\\alpha_nU_n-\\alpha_n\\theta+\\alpha_n\\theta-\\alpha\\theta|+|\\beta_n-\\beta|\\\\\n&\\le&|\\alpha_nU_n-\\alpha_n\\theta|+|\\alpha_n\\theta-\\alpha\\theta|+|\\beta_n-\\beta|\\\\\n&=&|\\alpha_n||U_n-\\theta|+|\\alpha_n-\\alpha||\\theta|+|\\beta_n-\\beta|.\\end{aligned}$$\nThis implies $$\\begin{aligned}\n&& P(|V_n-(\\alpha\\theta+\\beta)|\\ge\\varepsilon)\n\\\\&\\le& P(|\\alpha_n||U_n-\\theta|+|\\alpha_n-\\alpha|\n|\\theta|+|\\beta_n-\\beta|\\ge\\varepsilon)\n\\\\&=&P(|U_n-\\theta|\\ge\n\\frac{\\varepsilon-|\\beta_n-\\beta|-|\\alpha_n-\\alpha||\\theta|}{|\\alpha_n|}).\\end{aligned}$$\nAs $n\\to\\infty$, $|\\beta_n-\\beta|\\to 0$,\n$|\\alpha_n-\\alpha||\\theta|\\to 0$, and $|\\alpha_n|\\to|\\alpha|\\ne 0$. So\nthe last expression goes to $0$ as $n\\to\\infty$. Therefore,\n$$\\lim_{n\\to\\infty}P(|V_n-(\\alpha\\theta+\\beta)|\\ge\\varepsilon)=0,$$ and\nthus $\\lbrace V_n\\rbrace$ is a consistent sequence of estimators of\n$\\alpha\\theta+\\beta$.",
+  "language": "INFORMAL",
+  "phrase": "Consistent Estimator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConsistentEstimator"
+    }
+  ],
+  "indexable": true
+}

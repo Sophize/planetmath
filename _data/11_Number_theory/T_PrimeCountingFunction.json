@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*prime counting function*]{} is a non-multiplicative function for\nany positive real number $x$, denoted as $\\pi(x)$ and gives the number\nof primes not exceeding $x$. It usually takes a positive integer $n$ for\nan argument. The first few values of $\\pi(n)$ for $n = 1, 2, 3, \\ldots $\nare $0, 1, 2, 2, 3, 3, 4, 4, 4, 4, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8 \\ldots $\n( ).\n\nThe asymptotic behavior of $\\pi(x) \\sim x/\\ln x$ is given by the prime\nnumber theorem. This function is closely related with [*Chebyshev\u2019s\nfunctions*]{} $\\vartheta(x)$ and $\\psi(x)$.",
+  "language": "INFORMAL",
+  "phrase": "Prime Counting Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimeCountingFunction"
+    }
+  ],
+  "indexable": true
+}

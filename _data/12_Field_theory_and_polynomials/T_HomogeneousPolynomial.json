@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A polynomial $P(x_1, \\cdots, x_n)$ of degree $k$ is called homogeneous\nif $P(cx_1, \\cdots, cx_n) = c^{k}P(x_1, \\cdots, x_n)$ for all constants\n$c$.\n\nAn equivalent definition is that all terms of the polynomial have the\nsame degree (i.e. $k$).\n\nObserve that a polynomial $P$ is homogeneous iff\n$\\deg P = \\operatorname{ord}P$.\n\nAs an important example of homogeneous polynomials one can mention the\nsymmetric polynomials.",
+  "language": "INFORMAL",
+  "phrase": "Homogeneous Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomogeneousPolynomial"
+    }
+  ],
+  "indexable": true
+}

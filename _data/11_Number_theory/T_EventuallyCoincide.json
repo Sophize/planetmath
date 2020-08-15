@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "eventually coinciding"
+  ],
+  "definition": "Let $A$ and $B$ be two nonempty sets of integers. We say that $A$ and\n$B$ *eventually coincide* if there is an integer $C$ such that $n\\in A$\nif and only if $n\\in B$ for all $n\\geq C$. In this case, we write\n$A\\sim B$, noting that the relation of eventually coinciding is clearly\nan equivalence relation. While a seemingly trivial notation, this turns\nout to be the \u201cright\u201d notion of of sets when dealing with asymptotic\nproperties such as .\n\n[9]{} Nathanson, Melvyn B., *Elementary Methods in Number Theory*,\nGraduate Texts in Mathematics, Volume 195. Springer-Verlag, 2000.",
+  "language": "INFORMAL",
+  "phrase": "Eventually Coincide",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EventuallyCoincide"
+    }
+  ],
+  "indexable": true
+}

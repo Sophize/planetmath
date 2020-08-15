@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A polyomino consists of a number of identical connected squares placed\nin distinct locations in the plane so that at least one side of each\nsquare is adjacent to (i.e. completely coincides with the side of)\nanother square (if the polyomino consists of at least two squares).\n\nA polyomino with $n$ squares is called an [*n-omino*]{}. For small $n$,\npolyominoes have special names. A 1-omino is called a [*monomino*]{}, a\n2-omino a [*domino*]{}, a 3-omino a [*tromino*]{} or [*triomino*]{},\netc. The famous Tetris video game derives its name from the fact that\nthe bricks are [*tetrominoes*]{} or 4-ominoes.\n\n![All distinct 1-, 2-, 3-, 4-, and 5-ominoes. Pentominoes have been\nscaled in the figure to fit on the page.](Polyomino.1.eps)\n\n![All distinct 1-, 2-, 3-, 4-, and 5-ominoes. Pentominoes have been\nscaled in the figure to fit on the page.](Polyomino.2.eps)\n\n![All distinct 1-, 2-, 3-, 4-, and 5-ominoes. Pentominoes have been\nscaled in the figure to fit on the page.](Polyomino.3.eps)\n\n![All distinct 1-, 2-, 3-, 4-, and 5-ominoes. Pentominoes have been\nscaled in the figure to fit on the page.](Polyomino.4.eps)\n\n![All distinct 1-, 2-, 3-, 4-, and 5-ominoes. Pentominoes have been\nscaled in the figure to fit on the page.](Polyomino.5.eps)\n\n[*Fixed polyominoes*]{} (which are also called [*lattice animals*]{})\nare considered distinct if they cannot be translated into each other,\nwhile [*free polyominoes*]{} must also be distinct under rotation and\nreflection.\n\n![All distinct, fixed dominoes and trominoes.](Polyomino.6.eps)\n\n![All distinct, fixed dominoes and trominoes.](Polyomino.7.eps)\n\nThe topic of how many distinct (free or fixed) n-ominoes exist for a\ngiven $n$ has been the subject of much research. It is known that the\nnumber of free n-ominoes $A_n$ grows exponentially. More precisely, it\ncan be proven that $3.72^n < A_n < 4.65^n$.\n\nPolyominoes are special instances of [*polyforms*]{}.",
+  "language": "INFORMAL",
+  "phrase": "Polyomino",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Polyomino"
+    }
+  ],
+  "indexable": true
+}

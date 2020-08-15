@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "$n$-transitive"
+  ],
+  "definition": "Let $G$ be a group, $X$ a set on which it acts. Let $X^{(n)}$ be the set\nof order $n$-tuples of distinct elements of $X$. This is a $G$-set by\nthe diagonal action:\n$$g\\cdot (x_1,\\ldots,x_n)=(g\\cdot x_1,\\ldots,g\\cdot x_n)$$\n\nThe action of $G$ on $X$ is said to be $n$-transitive if it acts\ntransitively on $X^{(n)}$.\n\nFor example, the standard action of $S^n$, the symmetric group, is\n$n$-transitive, and the standard action of $A_n$, the alternating group,\nis $(n-2)$-transitive.",
+  "language": "INFORMAL",
+  "phrase": "Multiply Transitive",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplyTransitive"
+    }
+  ],
+  "indexable": true
+}

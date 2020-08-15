@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "AMC",
+    "MC"
+  ],
+  "definition": "The axiom of choice states that every set $C$ of non-empty sets has a\nchoice function. There are a number of ways to modify the statement so\nas to produce something that is similar but perhaps weaker version of\nthe axiom. For example, we can play with the size (cardinality) of the\nset $C$, the sizes of the elements in $C$, as well as the choice\nfunction itself. Below are some of the variations of AC:\n\n1.  Varying the size of $C$: let $\\lambda$ be a cardinal. Then\n    AC$(\\lambda,\\infty)$ is the statement that every set $C$ of\n    non-empty sets, where $|C|=\\lambda$, has a choice function. If\n    $\\lambda = \\aleph_0$, then we have the axiom of countable choice.\n\n2.  Varying sizes of members of $C$: let $\\lambda$ be a cardinal. Then\n    AC$(\\infty,\\kappa)$ is the statement that every set $C$ of non-empty\n    sets of cardinality $\\kappa$ has a choice function. Another\n    variation is called the *axiom of choice for finite sets*\n    AC$(\\infty,<\\! \\aleph_0)$: every set $C$ of non-empty finite sets\n    has a choice function.\n\n3.  Varying choice function: The most popular is what is known as the\n    *axiom of multiple choice* (AMC), which states that every set $C$ of\n    non-empty sets, there is a multivalued function from $C$ to\n    $\\bigcup C$ such that $f(A)$ is finite non-empty and\n    $f(A)\\subseteq A$.\n\n4.  Varying any combination of the above three, for example\n    AC$(\\lambda,\\kappa)$ is the statement that every collection $C$ of\n    size $\\lambda$ of non-empty sets of size $\\kappa$ has a choice\n    function.\n\nIt\u2019s easy to see that all of the variations are provable in ZFC. In\naddition, some of them are provable in ZF, for example, AC$(n,\\infty)$\nfor any finite cardinal, and AC$(\\infty,1)$.\n\nConversely, it can be shown that AMC implies AC in ZF.\n\nOther implications include: AC$(\\infty,\\kappa)$ for all $\\kappa$ implies\nthe axiom of dependent choices, another weaker version of AC. For finite\ncardinals, we have the following: AC$(\\infty,mn)$ implies\nAC$(\\infty,n)$, where $m,n$ are finite cardinals.\n\nLet $C$ be a set of non-empty sets of cardinality $n$. For each\n$a\\in C$, define\n$a^*:=a\\times m:=\\lbrace (x,i)\\mid x\\in a,\\mbox{ and } i\\in m\\rbrace$.\nThen the set $D=\\lbrace a^*\\mid a\\in C\\rbrace$ is a set of non-empty\nsets of cardinality $mn$, hence has a choice function $f$ by assumption.\nThen $p\\circ f\\circ g$ is a choice function for $C$, where\n$p:\\bigcup D\\to \\bigcup C$ is the projection given by $p(x,i)=x$, and\n$g:C\\to D$ is the function given by $g(a)=a^*$.\n\nFor more implications, see the references below.\n\n[8]{} H. Herrlich, *Axiom of Choice*, Springer, (2006). T. J. Jech, *The\nAxiom of Choice*, North-Holland Pub. Co., Amsterdam, (1973).",
+  "language": "INFORMAL",
+  "phrase": "Variations On Axiom Of Choice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VariationsOnAxiomOfChoice"
+    }
+  ],
+  "indexable": true
+}

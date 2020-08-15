@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "$C^*$-module"
+  ],
+  "definition": "A **(right) pre-Hilbert module** over a $C^*$-algebra $A$ is a right\n$A$-module ${\\mathord{\\mathcal{E}}}$ equipped with an $A$-valued inner\nproduct\n$\\langle-,-\\rangle\\colon {\\mathord{\\mathcal{E}}}\\times {\\mathord{\\mathcal{E}}}\\to A$,\ni.e.\u00a0a sesquilinear pairing satisfying $$\\begin{aligned}\n\\langle u,va\\rangle & = & \\langle u,v\\rangle a \\\\\n\\langle u,v\\rangle & = & \\langle v,u\\rangle^* \\\\\n\\langle v,v\\rangle & \\geq & 0, \\mbox{ with\\ } \\langle v,v\\rangle = 0 \\mbox{ iff\\ } v = 0,\\end{aligned}$$\nfor all $u,v \\in {\\mathord{\\mathcal{E}}}$ and $a \\in A$. Note, positive\ndefiniteness is well-defined due to the notion of positivity for\n$C^*$-algebras. The norm of an element $v \\in {\\mathord{\\mathcal{E}}}$\nis defined by ${\\Vert v\\Vert} = \\sqrt{{\\Vert \\langle v,v\\rangle\\Vert}}$.\n\nA **(right) Hilbert module** over a $C^*$-algebra $A$ is a right\npre-Hilbert module over $A$ which is complete with respect to the norm.\n\nA complex Hilbert space is a Hilbert ${\\mathbb{C}}$-module.\n\nA $C^*$-algebra $A$ is a Hilbert $A$-module with inner product\n$\\langle a,b\\rangle = a^*b$.\n\nA **Hilbert $A$-$B$-bimodule** is a (right) Hilbert module\n${\\mathord{\\mathcal{E}}}$ over a $C^*$-algebra $B$ together with a\n\\*-homomorphism $\\pi$ from a $C^*$-algebra $A$ to\n${\\mathop{\\mathrm{End}}\\nolimits}({\\mathord{\\mathcal{E}}})$.",
+  "language": "INFORMAL",
+  "phrase": "Hilbert Module",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HilbertModule"
+    }
+  ],
+  "indexable": true
+}

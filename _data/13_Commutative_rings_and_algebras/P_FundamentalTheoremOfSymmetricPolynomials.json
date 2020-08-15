@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every symmetric polynomial $P(x_1,\\,x_2,\\,\\ldots,\\,x_n)$ in the\nindeterminates $x_1,\\,x_2,\\,\\ldots,\\,x_n$ can be expressed as a\npolynomial $Q(p_1,\\,p_2,\\,\\ldots,\\,p_n)$ in the elementary symmetric\npolynomials $p_1,\\,p_2,\\,\\ldots,\\,p_n$ of $x_1,\\,x_2,\\,\\ldots,\\,x_n$.\nThe polynomial $Q$ is unique, its coefficients are elements of the ring\ndetermined by the coefficients of $P$ and its degree with respect to\n$p_1,\\,p_2,\\,\\ldots,\\,p_n$ is same as the degree of $P$ with respect to\n$x_1$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalTheoremOfSymmetricPolynomials"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fundamental theorem of symmetric polynomials",
+    "fundamental theorem of symmetric functions"
+  ]
+}

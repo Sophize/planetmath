@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "equicontinuity"
+  ],
+  "definition": "Definition\n==========\n\nLet $X$ be a topological space, $(Y, d)$ a metric space and $C(X,Y)$ the\nset of continuous functions $X \\to Y$.\n\nLet $\\mathcal{F}$ be a subset of $C(X,Y)$. A function\n$f \\in \\mathcal{F}$ is continuous at a point $x_0$ when given\n$\\epsilon > 0$ there is a neighbourhood $U$ of $x_0$ such that\n$d(f(x),f(x_0)) < \\epsilon$ for every $x \\in U$. When the same\nneighbourhood $U$ can be chosen for all functions $f \\in \\mathcal{F}$,\nthe family $\\mathcal{F}$ is said to be *equicontinuous*. More precisely:\n\n$\\,$\n\n[**Definition -**]{} Let $\\mathcal{F}$ be a subset of $C(X,Y)$. The set\nof functions $\\mathcal{F}$ is said to be [**equicontinuous at**]{}\n$x_0 \\in X$ if for every $\\epsilon >0$ there is a neighbourhood $U$ of\n$x_0$ such that for every $x \\in U$ and every $f \\in \\mathcal{F}$ we\nhave $$\\begin{aligned}\nd(f(x),f(x_0)) < \\epsilon\\end{aligned}$$\n\nThe set $\\mathcal{F}$ is said to be [**equicontinuous**]{} if it is\nequicontinuous at every point $x \\in X$.\n\nExamples\n========\n\n-   A finite set of functions in $C(X, Y)$ is always equicontinuous.\n\n-   When $X$ is also a metric space, a family of functions in $C(X,Y)$\n    that share the same Lipschitz constant is equicontinuous.\n\n-   The family of functions $\\{f_n\\}_{n \\in \\mathbb{N}}$, where\n    $f_n:\\mathbb{R} \\to \\mathbb{R}$ is given by $f_n(x):=\\arctan (nx)$\n    is not equicontinuous at $0$.\n\nProperties\n==========\n\n-   If a subset $\\mathcal{F} \\subseteq C(X, Y)$ is totally bounded under\n    the uniform metric, then $\\mathcal{F}$ is equicontinuous.\n\n-   Suppose $X$ is compact. If a sequence of functions $\\{f_n\\}$ in\n    $C(X, \\mathbb{R}^k)$ is equibounded and equicontinuous, then the\n    sequence $\\{f_n\\}$ has a uniformly convergent subsequence. ()\n\n-   Let $\\{f_n\\}$ be a sequence of functions in $C(X, Y)$. If $\\{f_n\\}$\n    is equicontinuous and converges pointwise to a function $f:X \\to Y$,\n    then $f$ is continuous and $\\{f_n\\}$ converges to $f$ in the\n    compact-open topology.\n\n[9]{} J. Munkres, *Topology* (2nd edition), Prentice Hall, 1999.",
+  "language": "INFORMAL",
+  "phrase": "Equicontinuous",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Equicontinuous"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "convex hull",
+    "convex envelope",
+    "convex closure"
+  ],
+  "definition": "Let $V$ be some vector space over $\\Bbb{R}$. Let $X$ be some set of\nelements of $V$. Then a [*convex combination*]{} of elements from $X$ is\na linear combination of the form\n$$\\lambda_1 x_1 + \\lambda_2 x_2 + \\cdots + \\lambda_n x_n$$ for some\n$n > 0$, where each $x_i \\in X$, each $\\lambda_i \\ge 0$ and\n$\\sum_i \\lambda_i = 1$.\n\nLet ${\\rm co}(X)$ be the set of all convex combinations from $X$. We\ncall ${\\rm co}(X)$ the [*convex hull*]{}, or [*convex envelope*]{}, or\n[*convex closure*]{} of $X$. It is a convex set, and is the smallest\nconvex set which contains $X$. A set $X$ is convex if and only if\n$X = {\\rm co}(X)$.",
+  "language": "INFORMAL",
+  "phrase": "Convex Combination",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvexCombination"
+    }
+  ],
+  "indexable": true
+}

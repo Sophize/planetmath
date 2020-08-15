@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $U \\subset \\mathbb{C}$ be a simply connected domain, and suppose $f$\nis a complex valued function which is defined and analytic on all but\nfinitely many points $a_1, \\dots, a_m$ of $U$. Let $C$ be a closed curve\nin $U$ which does not intersect any of the $a_i$. Then\n$$\\int_C f(z)\\ dz = 2 \\pi i \\sum_{i=1}^m \\eta(C,a_i) \\operatorname{Res}(f;a_i),$$\nwhere $$\\eta(C,a_i) := \\frac{1}{2 \\pi i} \\int_C \\frac{dz}{z-a_i}$$ is\nthe winding number of $C$ about $a_i$, and $\\operatorname{Res}(f;a_i)$\ndenotes the residue of $f$ at $a_i$.\n\nThe Cauchy residue theorem generalizes both the Cauchy integral theorem\n(because analytic functions have no poles) and the Cauchy integral\nformula (because $f(x)/(x-a)^n$ for analytic $f$ has exactly one pole at\n$x=a$ with residue\n$\\operatorname{Res}(f(x)/(x-a)^n,a) = f^{(n)}(a)/n!)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyResidueTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cauchy residue theorem",
+    "Cauchy residue formula",
+    "residue theorem"
+  ]
+}

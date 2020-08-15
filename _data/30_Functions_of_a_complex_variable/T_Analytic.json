@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "real analytic",
+    "real analytic function",
+    "complex analytic",
+    "complex analytic function",
+    "analytic function"
+  ],
+  "definition": "Let $U$ be a domain in the complex numbers (resp., real numbers). A\nfunction $f: U \\longrightarrow \\mathbb{C}$ (resp.,\n$f: U \\longrightarrow \\mathbb{R}$) is [*analytic*]{} (resp., [*real\nanalytic*]{}) if $f$ has a Taylor series about each point $x \\in U$ that\nconverges to the function $f$ in an open neighborhood of $x$.\n\nOn Analyticity and Holomorphicity\n=================================\n\nA complex function is analytic if and only if it is holomorphic. Because\nof this equivalence, an analytic function in the complex case is often\ndefined to be one that is holomorphic, instead of one having a Taylor\nseries as above. Although the two definitions are equivalent, it is not\nan easy matter to prove their equivalence, and a reader who does not yet\nhave this result available will have to pay attention as to which\ndefinition of analytic is being used.",
+  "language": "INFORMAL",
+  "phrase": "Analytic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Analytic"
+    }
+  ],
+  "indexable": true
+}

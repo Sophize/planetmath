@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Karhunen-Loeve transform",
+    "Hotelling transform",
+    "PCA"
+  ],
+  "definition": "The principal components analysis is a mathematical way of determining\nthat linear transformation of a sample of points in $N$-dimensional\nspace which exhibits the properties of the sample most clearly along the\ncoordinate axes. Along the new axes the sample variances are extremes\n(maxima and minima), and uncorrelated. The name comes from the principal\naxes of an ellipsoid (e.g. the ellipsoid of inertia), which are just the\ncoordinate axes in question.\n\nBy their definition, the principal axes will include those along which\nthe point sample has little or no spread (minima of variance). Hence, an\nanalysis in terms of principal components can show (linear)\ninterdependence in data. A point sample of $N$ dimensions for whose $N$\ncoordinates $M$ linear relations hold, will show only $(N-M)$ axes along\nwhich the spread is non-zero. Using a cutoff on the spread along each\naxis, a sample may thus be reduced in its dimensionality (see\n\\[Bishop95\\]).\n\nThe principal axes of a point sample are found by choosing the origin at\nthe \u201ccentre of gravity\u201d and forming the dispersion matrix\n\n$$t_{ij} = (1/N) \\sum [(x_i-\\left<x_i\\right>)(x_j-\\left<x_j\\right>)]$$\n\nwhere the sum is over the $N$ points of the sample and the $x_i$ are the\n$i$th components of the point coordinates. $\\left<.\\right>$ stands for\nthe average of the parameter. The principal axes and the variance along\neach of them are then given by the eigenvectors and associated\neigenvalues of the dispersion matrix.\n\nPrincipal component analysis has in practice been used to reduce the\ndimensionality of problems, and to transform interdependent coordinates\ninto significant and independent ones. An example used in several\nparticle physics experiments is that of reducing redundant observations\nof a particle track in a detector to a low-dimensional subspace whose\naxes correspond to parameters describing the track. Another example is\nin image processing; where it can be used for color quantization.\nPrinciple components analysis is described in \\[O\u2019Connel74\\].\n\n[**References**]{}\n\n-   Originally from The Data Analysis Briefbook ()\n\n<!-- -->\n\n-   C.M. Bishop, Neural Networks for Pattern Recognition, Oxford\n    University Press, Oxford, 1995.\n\n-   M.J. O\u2019Connel, Search Program for Significant Variables, Comp. Phys.\n    Comm. 8 (1974) 49.",
+  "language": "INFORMAL",
+  "phrase": "Principal Components Analysis",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrincipalComponentsAnalysis"
+    }
+  ],
+  "indexable": true
+}

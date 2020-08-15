@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Fibonacci Wieferich prime"
+  ],
+  "definition": "A [*Wall-Sun-Sun prime*]{} is a prime number $p > 5$ such that\n$p^2 | F_{p - \\left(\\frac{p}{5}\\right)}$, with $F_n$ being the $n$th\nFibonacci number and $\\left(\\frac{p}{5}\\right)$ being a Legendre symbol.\nThe prime $p$ always divides $F_{p - \\left(\\frac{p}{5}\\right)}$, but no\ncase is known for the square of a prime $p^2$ also dividing that.\n\nThe search for these primes started in the 1990s as Donald Dines Wall,\nZhi-Hong Sun and Zhi-Wei Sun searched for counterexamples to Fermat\u2019s\nlast theorem. But Andrew Wiles\u2019s proof does not rule out the existence\nof these primes: if Fermat\u2019s last theorem was false and there existed a\nprime exponent $p$ such that $x^p + y^p = z^p$, the square of such a\nprime would also divide $F_{p - \\left(\\frac{p}{5}\\right)}$, but with\nFermat\u2019s last theorem being true, the existence of a Wall-Sun-Sun prime\nwould not present a contradiction.\n\nAs of 2005, the lower bound was $3.2 \\times 10^{12}$, given by McIntosh.\n\n[1]{} Richard Crandall & Carl Pomerance, [*Prime Numbers: A\nComputational Perspective*]{}, 2nd Edition. New York: Springer (2005):\n32",
+  "language": "INFORMAL",
+  "phrase": "Wall-Sun-Sun Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WallSunSunPrime"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $Q$ be a quiver and $k$ an arbitrary field.\n\n**Proposition.** The path algebra $kQ$ is unitary if and only if $Q$ has\na finite number of vertices.\n\n*Proof.* ,,$\\Rightarrow$\u201d Assume, that $Q$ has an infinite number of\nvertices and let $1\\in kQ$ be an identity. Then we can express $1$ as\n$$1=\\sum_{i=1}^{n}\\lambda_n\\cdot w_n$$ where $\\lambda_n\\in k$ and $w_n$\nare paths (they form a basis of $kQ$ as a vector space). Since $Q$ has\nan infinite number of vertices, then we can take a stationary path $e_x$\nfor some vertex $x$ such that there is no path among ${w_1,\\ldots,w_n}$\nending in $x$. By definition of $kQ$ and by the fact that $1$ is an\nidentity we have:\n$$e_x = 1\\cdot e_x=\\left(\\sum_{i=1}^{n}\\lambda_n\\cdot w_n\\right)\\cdot e_x=\\sum_{i=1}^{n}\\lambda_n\\cdot (w_n\\cdot e_x)=\\sum_{i=1}^{n}\\lambda_n\\cdot 0 = 0.$$\nContradiction. $\\square$\n\n,,$\\Leftarrow$\u201d If the set $Q_0$ of vertices of $Q$ is finite, then put\n$$1=\\sum_{q\\in Q_0}e_q$$ where $e_q$ denotes the stationary path (note\nthat $1$ is well-defined, since the sum is finite). If $w$ is a path in\n$Q$ from $x$ to $y$, then $e_x\\cdot w=w$ and $w\\cdot e_y=w$. All other\ncombinations of $w$ with $e_q$ yield $0$ and thus we obtain that\n$$1\\cdot w = w = w\\cdot 1.$$ This completes the proof. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnitalPathAlgebras"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "unital path algebras"
+  ]
+}

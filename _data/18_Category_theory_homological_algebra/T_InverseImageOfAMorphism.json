@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f:A\\to B$ be a morphism in a category $\\mathcal{C}$. Let\n${\\operatorname{im}}(f)$ be the image of $f$ and\n$i:{\\operatorname{im}}(f)\\to B$ be a representing monomorphism. The\ninverse image of $f$ is the pullback of $f:A\\to B$ and\n$i: {\\operatorname{im}}(f) \\to B$: $$\\xymatrix@+=3pc{\n{C}\\ar[r] \\ar[d] &{A}\\ar[d]^{f} \\\\\n{{\\operatorname{im}}(f)}\\ar[r]^i &{B}\n}$$ $C$ is sometimes denoted by $f^{-1}(B)$. Since the diagram is a\npullback and $i$ is monomoprhic, the inverse image $f^{-1}(B)$ is a\nsubobject of $A$ (see for more detail.)\n\nFor example, in $\\textbf{Set}$, the category of sets, the inverse image,\nin the sense above, of a morphism $f:A\\to B$ is just the of $f$ as a\nfunction: clearly, $$f^{-1}(B)=\\lbrace a\\in A\\mid f(a)\\in B\\rbrace$$ is\na set (a subset of $A$). Let $j:f^{-1}(B)\\to A$ be the canonical\ninclusion, and $\\overline{f}: f^{-1}(B)\\to {\\operatorname{im}}(f)$ be\nthe induced function by restricting the domain of $f$ to $f^{-1}(B)$ and\nthe range to ${\\operatorname{im}}(f)$. The diagram above is clearly\ncommutative. Suppose there is a set $S$ and two functions $g:S\\to A$ and\n$h:S\\to {\\operatorname{im}}(f)$ such that $f\\circ g= i\\circ h$. Define\n$k:S\\to f^{-1}(B)$ by $k(s)=g(s)$. This is a well-defined function,\nsince $f(g(s))=i(h(s))=h(s)\\in B$, or $g(s)\\in f^{-1}(B)$. Furthermore,\n$j(k(s))=j(g(s))=g(s)$, and\n$\\overline(f)(k(s))=f(k(s))=f(g(s))=i(h(s))=h(s)$. Finally, it is easy\nto see that $k$ is unique.\n\n**Remark**. The *inverse coimage* of a morphism is dually defined.\n\n[9]{} C. Faith *Algebra: Rings, Modules, and Categories I*,\nSpringer-Verlag, New York (1973)",
+  "language": "INFORMAL",
+  "phrase": "Inverse Image Of A Morphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InverseImageOfAMorphism"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *sinusoid* is a curve of the form $$\\begin{aligned}\n  \\mathbb{R}&\\to& \\mathbb{R}^2 \\\\\n   t&\\mapsto & (t,\\,\\sin{kt}),\\end{aligned}$$ where $k>0$ is a parameter\ndetermining the oscillation.\n\nThe basic sinusoid, the curve $$y  = \\sin{x}$$ in the $xy$-plane,\noscillates periodically with the , $2\\pi$, as $x$ increases.\n\n![image](sinusoid)\n\n-   On the interval $[0,\\,\\frac{\\pi}{2}]$, the curve is ascending\n    because the , $\\cos{x}$, is positive for acute angles $x$.\n\n-   Consequently, on the interval $[\\frac{\\pi}{2},\\,\\pi]$,the supplement\n    formula $\\sin{(\\pi-x)} = \\sin{x}$ tells that the sinusoid is\n    descending.\n\n-   Thus we get on the whole interval $[0,\\,\\pi]$ a cap-formed\n    ($\\smallfrown$) arc.\n\n-   Because , we have on the interval $[-\\pi,\\,0]$ the of the cap, a\n    cup-formed ($\\smallsmile$) arc.\n\n-   All in all, on the period interval $[-\\pi,\\,\\pi]$ the sinusoid\n    consists of the consecutive cup and cap, together a lying-S formed\n    ($\\backsim$) arc.\n\n-   The same is repeated on each other period interval\n    $[(2n\\!-\\!1)\\pi,\\,(2n\\!+\\!1)\\pi]$ where $n\\in\\mathbb{Z}$.",
+  "language": "INFORMAL",
+  "phrase": "Sinusoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Sinusoid"
+    }
+  ],
+  "indexable": true
+}

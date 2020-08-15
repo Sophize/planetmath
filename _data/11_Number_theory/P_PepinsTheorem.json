@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} (P\u00e9pin). A Fermat number $F_n = 2^{2^n} + 1$ is prime\nonly if $$3^{\\frac{F_n - 1}{2}} \\equiv -1 \\mod F_n.$$ In other words, if\n3 raised to the largest power of two not greater than the Fermat number\nleaves as a remainder the next higher power of two when divided by that\nFermat number (since $F_n - 1 = 2^{2^n}$), then that Fermat number is a\nFermat prime.\n\nFor example, $17 = 2^{2^2} + 1$ is a Fermat prime, and we can see that\n$3^8 = 6561$, which leaves a remainder of 16 when divided by 17. The\nsmallest Fermat number not to be a prime is 4294967297, as it is the\nproduct of 641 and 6700417, and $3^{2147483648}$ divided by 4294967297\nleaves a remainder of 10324303 rather than 4294967296.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PepinsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "P\\'epin's theorem",
+    "Pepin's theorem"
+  ]
+}

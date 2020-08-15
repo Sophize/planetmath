@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring. A sequence of and homomorphisms $$\\cdots \\rightarrow\n A^{n-1} \\xrightarrow{d_{n-1}} A^n \\xrightarrow{d_n} A^{n+1} \\xrightarrow{d_{n+1}}\n \\cdots$$ is said to be a *cochain complex* (or *$R$-complex*, or just\n*complex*) if each pair of adjacent homomorphisms $(d_{n-1}, d_n)$\nsatisfies the relation $d_n\\circ d_{n-1} = 0$. This is equivalent to\nsaying that $\\operatorname{im}d_{n-1} \\subseteq \\ker d_n$. We often\ndenote such a complex by $(\\mathcal{A}, d)$, or simply $\\mathcal{A}$.\n\nCompare this to the notion of an exact sequence, which requires\n$\\operatorname{im}d_{n-1} = \\ker d_n$. Compare also to the notion of a\nchain complex, in which the arrows go in the opposite direction.\n\nThe homomorphisms $d_n$ in the chain complex are called *coboundary\noperators*, or *coboundary maps*. Elements of $\\ker d_n$ are known as\n*cocycles*; elements of $\\operatorname{im}d_{n-1}$ as *coboundaries*.",
+  "language": "INFORMAL",
+  "phrase": "Cochain Complex",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CochainComplex"
+    }
+  ],
+  "indexable": true
+}

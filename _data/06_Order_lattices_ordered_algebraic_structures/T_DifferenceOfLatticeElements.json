@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathfrak{A}$ is a lattice with least element $0$.\n\nLet $a,b\\in\\mathfrak{A}$. A ** of $a$ and $b$ is an element\n$c\\in\\mathfrak{A}$ that $b\\cap c=0$ and $a\\cup b=b\\cup c$. When there is\nonly one difference of $a$ and $b$, it is denoted $a\\setminus b$.\n\nOne immediate property is: $0$ is the unique difference of any element\n$a$ and itself ($a\\setminus a=0$). For if $c$ is such a difference, then\n$a\\cap c=0$ and $a=a\\cup c$. So $c\\le a$ by the second equation, and\nhence that $c=a\\cap c=0$ by the first equation.\n\nFor arbitrary lattices ** of two given elements do not necessarily\nexist. For some lattices there may be more than one difference of two\ngiven elements.\n\nFor a distributive lattice with bottom element $0$, the difference of\ntwo elements, if it exists, must be unique. To see this, let $c$ and $d$\nbe two differences of $a$ and $b$. Then\n\n-   $b\\cap c=b\\cap d=0$, and\n\n-   $a\\cup b = b\\cup c = b\\cup d$.\n\nSo\n$c= c\\cap (b\\cup c)= c\\cap (b\\cup d)= (c \\cap b)\\cup (c\\cap d)=0\\cup (c\\cap d)= c\\cap d$.\nSimilarly, $d=d\\cap c$. As a result, $c = c\\cap d=d\\cap c=d$.",
+  "language": "INFORMAL",
+  "phrase": "Difference Of Lattice Elements",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DifferenceOfLatticeElements"
+    }
+  ],
+  "indexable": true
+}

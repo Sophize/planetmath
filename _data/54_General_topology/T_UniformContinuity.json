@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In this entry, we extend the usual definition of a uniformly continuous\nfunction between metric spaces to arbitrary uniform spaces.\n\nLet $(X,\\mathcal{U}),(Y,\\mathcal{V})$ be uniform spaces (the second\ncomponent is the uniformity on the first component). A function\n$f:X\\to Y$ is said to be *uniformly continuous* if for any\n$V\\in\\mathcal{V}$ there is a $U\\in \\mathcal{U}$ such that for all\n$x\\in X$, $U[x]\\subseteq f^{-1}(V[f(x)])$.\n\nSometimes it is useful to use an alternative but equivalent version of\nuniform continuity of a function:\n\nSuppose $f:X\\to Y$ is a function and $g:X\\times X \\to Y\\times Y$ is\ndefined by $g(x_1,x_2)=(f(x_1), f(x_2))$. Then $f$ is uniformly\ncontinuous iff for any $V\\in \\mathcal{V}$, there is a $U\\in \\mathcal{U}$\nsuch that $U\\subseteq g^{-1}(V)$.\n\nSuppose $f$ is uniformly continuous. Pick any $V\\in \\mathcal{V}$. Then\n$U\\in \\mathcal{U}$ exists with $U[x]\\subseteq f^{-1}(V[f(x)])$ for all\n$x\\in X$. If $(a,b)\\in U$, then $b\\in U[a]\\subseteq f^{-1}(V[f(a)])$, or\n$f(b)\\subseteq V[f(a)]$, or $g(a,b)=(f(a),f(b))\\in V$. The converse is\nstraightforward.\n\n**Remark**. Note that we could have picked $U$ so the inclusion becomes\nan equality.\n\n. If $f:X\\to Y$ is uniformly continuous, then it is continuous under the\nuniform topologies of $X$ and $Y$.\n\nLet $A$ be open in $Y$ and set $B=f^{-1}(A)$. Pick any $x\\in B$. Then\n$y=f(x)$ has a uniform neighborhood $V[y]\\subseteq A$. By the uniform\ncontinuity of $f$, there is an entourage $U\\in \\mathcal{U}$ with\n$x\\in U[x]\\subseteq f^{-1}(V[y])\\subseteq f^{-1}(A)=B$.\n\n**Remark**. The converse is not true, even in metric spaces.",
+  "language": "INFORMAL",
+  "phrase": "Uniform Continuity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformContinuity"
+    }
+  ],
+  "indexable": true
+}

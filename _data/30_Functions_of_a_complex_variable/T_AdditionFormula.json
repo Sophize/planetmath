@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "addition theorem"
+  ],
+  "definition": "The [*addition formula*]{} of a or complex function shows how the value\nof the function on a sum-formed variable can be expressed with the\nvalues of this function and perhaps of another function on the addends.\\\n**Examples**\n\n1.  Addition formula of an additive function $f$,\\\n    $f(x\\!+\\!y) = f(x)+f(y)$\n\n2.  Addition formula of the natural power function, i.e. the binomial\n    theorem,\\\n    $(x\\!+\\!y)^n = \\sum_{j = 0}^n {n\\choose j} x^{n-j}y^j\\qquad(n = 0,\\,1,\\,2,\\,\\ldots)$\n\n3.  Addition formula of the ,\\\n    $e^{x+y} = e^xe^y$\n\n4.  Addition formulae of the , e.g.\\\n    $\\cos(x\\!+\\!y) = \\cos{x}\\cos{y}-\\sin{x}\\sin{y},\\footnote{The addition formula of cosine is sometimes called ``the mother of all formulae''.}\\,\\,\\,\\,\n    \\tan(x\\!+\\!y) = \\frac{\\tan{x}+\\tan{y}}{1-\\tan{x}\\tan{y}}$\n\n5.  Addition formulae of the hyperbolic functions, e.g.\\\n    $\\sinh(x\\!+\\!y) = \\sinh{x}\\cosh{y}+\\cosh{x}\\sinh{y}$\n\n6.  Addition formula of the Bessel function,\\\n    $J_n(x\\!+\\!y) = \\sum_{\\nu=-\\infty}^{\\infty}J_\\nu(x)J_{n-\\nu}(y)\n    \\qquad(n = 0,\\,\\pm1,\\,\\pm2,\\,\\ldots)$\n\nThe five first of those are instances of ; e.g. $\\cosh{x}$ and\n$\\sinh{x}$ are tied together by the algebraic\n$\\cosh^2{x}-\\sinh^2{x} = 1$.\n\nOne may also speak of the [*subtraction formulae*]{} of functions \u2014 one\nexample would be $e^{x-y} = \\frac{e^x}{e^y}$.",
+  "language": "INFORMAL",
+  "phrase": "Addition Formula",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdditionFormula"
+    }
+  ],
+  "indexable": true
+}

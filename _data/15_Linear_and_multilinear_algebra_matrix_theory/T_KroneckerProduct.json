@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "tensor product (for matrices)",
+    "direct product"
+  ],
+  "definition": "[**Definition.**]{} Let $A=(a_{ij})$ be a $n\\times n$ matrix and let $B$\nbe a $m\\times m$ matrix. Then the *Kronecker product* of $A$ and $B$ is\nthe $mn\\times mn$ block matrix $$\\begin{aligned}\nA\\otimes B &=&\\left( \\begin{array}{ccc} \na_{11} B & \\cdots & a_{1n} B \\\\\n\\vdots & \\ddots & \\vdots \\\\\na_{n1} B & \\cdots & a_{nn} B \\\\\n\\end{array} \\right).\\end{aligned}$$ The Kronecker product is also known\nas the *direct product* or the *tensor product* [@eves].\n\n[**Fundamental properties**]{} [@eves; @kailath]\n\n1.  The product is bilinear. If $k$ is a scalar, and $A,B$ and $C$ are\n    square matrices, such that $B$ and $C$ are of the same order, then\n    $$\\begin{aligned}\n    A\\otimes (B+C) &=& A\\otimes B + A\\otimes C,\\\\ \n    (B+C)\\otimes A &=& B\\otimes A + C\\otimes A,\\\\\n    k(A\\otimes B) &=& (kA)\\otimes B = A\\otimes (kB).\\end{aligned}$$\n\n2.  If $A,B,C,D$ are square matrices such that the products $AC$ and\n    $BD$ exist, then $(A\\otimes B)(C\\otimes D)$ exists and\n    $$\\begin{aligned}\n    (A\\otimes B)(C\\otimes D) &=& AC\\otimes BD.\\end{aligned}$$ If $A$ and\n    $B$ are invertible matrices, then $$\\begin{aligned}\n    (A\\otimes B)^{-1} &=& A^{-1} \\otimes B^{-1}.\\end{aligned}$$\n\n3.  If $A$ and $B$ are square matrices, then for the transpose ($A^T$)\n    we have $$\\begin{aligned}\n    (A\\otimes B)^{T} &=& A^{T} \\otimes B^{T}.\\end{aligned}$$\n\n4.  Let $A$ and $B$ be square matrices of orders $n$ and $m$,\n    respectively. If $\\{\\lambda_i | i=1,\\ldots,n \\}$ are the eigenvalues\n    of $A$ and $\\{\\mu_j | j=1,\\ldots, m \\}$ are the eigenvalues of $B$,\n    then $\\{\\lambda_i \\mu_j |  i=1,\\ldots, n, \\, j=1,\\ldots, m \\}$ are\n    the eigenvalues of $A\\otimes B$. Also, $$\\begin{aligned}\n    \\det (A\\otimes B) &=& (\\det A)^m (\\det B)^n, \\\\\n    {\\mathop{\\mathrm{rank}}}(A\\otimes B) &=& {\\mathop{\\mathrm{rank}}}A\\, {\\mathop{\\mathrm{rank}}}B, \\\\\n    {\\mathop{\\mathrm{trace}}}(A\\otimes B) &=& {\\mathop{\\mathrm{trace}}}A\\, {\\mathop{\\mathrm{trace}}}B, \\\\\\end{aligned}$$\n\n[9]{} H. Eves, *Elementary Matrix Theory*, Dover publications, 1980. T.\nKailath, A.H. Sayed, B. Hassibi, *Linear estimation*, Prentice Hall,\n2000",
+  "language": "INFORMAL",
+  "phrase": "Kronecker Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KroneckerProduct"
+    }
+  ],
+  "indexable": true
+}

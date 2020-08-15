@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A **simplicial object** in a category $C$ is a contravariant functor\nfrom the simplicial category $\\Delta$ to $C$. Such a functor $X$ is\nuniquely specified by the morphisms\n$X(\\delta^n_i)\\colon X([n]) \\to X([n-1])$ and\n$X(\\sigma^n_i)\\colon X([n]) \\to X([n+1])$, which satisfy\n$$\\begin{aligned}\nX(\\delta^{n-1}_i)\\,X(\\delta^n_j) & = & X(\\delta^{n-1}_{j-1})\\,X(\\delta^n_i)\n\\quad\\mbox{for\\ } i<j, \\\\\nX(\\sigma^{n+1}_i)\\,X(\\sigma^n_j) & = & X(\\sigma^{n+1}_{j+1})\\,X(\\sigma^n_i)\n\\quad\\mbox{for\\ } i\\leq j, \\\\\nX(\\delta^{n+1}_i)\\,X(\\sigma^n_j) & = & \\left\\{\n\\begin{array}{ll}\nX(\\sigma^{n-1}_{j-1})\\,X(\\delta^n_i) & \\mbox{if\\ } i<j, \\\\\n{\\mathrm{id}}_n & \\mbox{if\\ } i=j \\mbox{\\ or\\ } i=j+1, \\\\\nX(\\sigma^{n-1}_j)\\,X(\\delta^n_{i-1}) & \\mbox{if\\ } i>j+1.\n\\end{array}\\right.\\end{aligned}$$\n\nIn particular, a **simplicial set** is a simplicial object in\n${\\mathord{\\mathbf{Set}}}$. Equivalently, one could say that a\nsimplicial set is a presheaf on $\\Delta$. The object $X([n])$ of a\nsimplicial set is a set of $n$-simplices, and is called the\n$n$-skeleton.",
+  "language": "INFORMAL",
+  "phrase": "Simplicial Object",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimplicialObject"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "The definition of $\\binom{n}{k}$ is the number of $k$-subsets out from\nan $n$-set. Using this combinatorial meaning the proof is\nstraightforward.\n\nLet $x$ a distinct element from the $n$-set. As previously stated,\n$\\binom{n}{k}$ counts the number of subsets with $k$ elements, chosen\nfrom the set with $n$ elements. Now, some of these subsets will contain\n$x$ and some others don\u2019t.\n\nThe number of $k$-subsets not containing $x$ is $\\binom{n-1}{k}$, since\nwe need to choose $k$ elements from the $n-1$ elements different from\n$x$.\n\nThe number of $k$-subsets containing $x$ is $\\binom{n-1}{k-1}$, because\nif it is given that $x$ is in the subset, we only need to choose the\nremaining $k-1$ elements from the $n-1$ elements that are different from\n$x$.\n\nThus $$\\binom{n}{k} = \\binom{n-1}{k} + \\binom{n-1}{k-1}.$$",
+  "conclusion": "#P_PascalsRule",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPascalsRule"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Pascal's rule"
+  ]
+}

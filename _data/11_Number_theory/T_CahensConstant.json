@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Cahen constant"
+  ],
+  "definition": "Whereas a simple addition of unit fractions with the terms of\nSylvester\u2019s sequence as denominators gives as a result the integer 1, an\nalternating sum $$\\sum_{i = 0}^\\infty \\frac{(-1)^i}{a_i - 1}$$ (where\n$a_i$ is the $i$th term of Sylvester\u2019s sequence) gives the\ntranscendental number known as *Cahen\u2019s constant* (after Eug\u00e8ne Cahen)\nwith an approximate decimal value of\n0.643410546288338026182254307757564763286587860268239505987 (see A118227\nin Sloane\u2019s OEIS). Alternatively, we can express Cahen\u2019s constant as\n$$\\sum_{j = 0}^\\infty \\frac{1}{a_{2j}}.$$ The recurrence relation\n$b_{n + 2} = {b_n}^2b_{n + 1} + b_n$ gives us the terms for the\ncontinued fraction representation of this constant:\n$$1 + \\frac{1}{{b_0}^2 + \\frac{1}{{b_1}^2 + \\frac{1}{{b_3}^2 + \\, \\cdots}}}$$",
+  "language": "INFORMAL",
+  "phrase": "Cahen'S Constant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CahensConstant"
+    }
+  ],
+  "indexable": true
+}

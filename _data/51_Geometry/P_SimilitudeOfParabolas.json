@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Two parabolas need not be congruent, but they are always similar.\nWithout the definition of parabola by focus and directrix, the fact\nturns out of the simplest equation $y = ax^2$ of parabola.\n\nLet us take two parabolas\n$$y \\;=\\; ax^2 \\quad \\mbox{and} \\quad y \\;=\\; bx^2$$ which have the\norigin as common vertex and the $y$-axis as common axis. Cut the\nparabolas with the line $y = mx$ through the vertex. The first parabola\ngives $$ax^2 = mx,$$ whence the abscissa of the other point of\nintersection is $\\frac{m}{a}$; the corresponding ordinate is thus\n$\\frac{m^2}{a}$. So, this point has the position vector\n$$\\vec{u} \\;=\\; \\left(\\!\\begin{array}{c}\\frac{m}{a}\\\\\\frac{m^2}{a}\\end{array}\\!\\right)\n\\;=\\; \\frac{m}{a}\\left(\\!\\begin{array}{c}1\\\\m\\end{array}\\!\\right)$$\nSimilarly, the cutting point of the line and the second parabola has the\nposition vector\n$$\\vec{v} \\;=\\; \\left(\\!\\begin{array}{c}\\frac{m}{b}\\\\\\frac{m^2}{b}\\end{array}\\!\\right)\n\\;=\\; \\frac{m}{b}\\left(\\!\\begin{array}{c}1\\\\m\\end{array}\\!\\right)$$\nAccordingly, those position vectors have the $$a\\vec{u} \\;=\\; b\\vec{v}$$\nfor all values of the slope $m$ of the cutting line. This means that\nboth parabolas are homothetic with respect to the origin and therefore\nalso similar.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimilitudeOfParabolas"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "similitude of parabolas",
+    "similarity of parabolas"
+  ]
+}

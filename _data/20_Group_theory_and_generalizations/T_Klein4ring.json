@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Klein's four-ring",
+    "Klein four-ring"
+  ],
+  "definition": "One of the two smallest non-commutative rings is the [*Klein 4-ring*]{}\n$(R,+,\\cdot)$ where $(R,+)$ is the Klein 4-group $\\{0,\\,a,\\,b,\\,c\\}$\nwith $0$ the neutral element and the binary operation \u201c$\\cdot$\u201d given by\nthe table\n\n$$\\begin{array}{c|cccc}\n\\cdot & 0 & a & b & c \\\\\n\\hline\n\\;  0 & 0 & 0 & 0 & 0 \\\\\n\\;  a & 0 & a & 0 & a \\\\\n\\;  b & 0 & b & 0 & b \\\\\n\\;  c & 0 & c & 0 & c\n  \\end{array}$$\n\nNote that this ring has two different right unities $a$ and $c$.\\\nThe Klein 4-ring has the subrings $\\{0,\\,a\\}$, $\\{0,\\,b\\}$ and\n$\\{0,\\,c\\}$ and the two-sided ideal $\\{0,\\,b\\}$.",
+  "language": "INFORMAL",
+  "phrase": "Klein 4-Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Klein4ring"
+    }
+  ],
+  "indexable": true
+}

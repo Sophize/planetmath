@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Pareto distribution"
+  ],
+  "definition": "$X$ is a **Pareto random variable** with parameters **$a, b$** if\n\n$f_X(x) = \\frac{a b^a}{x^{a+1}} $, $x\\in[b,\\infty)$\n\nParameters:\n\n[$\\star$ ]{}\n\n$a \\in (0,\\infty)$\n\n$b \\in (0,\\infty)$\n\nSyntax:\n\n$X\\sim Pareto(a,b)$\n\nNotes:\n\n1.  $X$ represents a random variable with shape parameter $a$ and scale\n    parameter $b$.\n\n2.  The expected value of $X$ is noted as $E[X] = \\frac{a b}{a-1}$ with\n    $a\\in\\{2,3,\\ldots\\}$\n\n3.  The variance of $X$ is noted as\n    $Var[X] = \\frac{a b^2}{(a-1)^2 (a-2)}$, $a \\in \\{3,4,...\\}$\n\n4.  The cumulative distribution function of $X$ is noted as\n    $F(x) = 1 - (\\frac{b}{x})^a$\n\n5.  The moments of $X$ around 0 are noted as\n    $E[X^n] = \\frac{a b^n}{a-n}$, $n \\in \\{1,2,...,a-1\\}$",
+  "language": "INFORMAL",
+  "phrase": "Pareto Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ParetoRandomVariable"
+    }
+  ],
+  "indexable": true
+}

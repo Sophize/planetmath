@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The Gelfand Transform {#the-gelfand-transform .unnumbered}\n---------------------\n\nLet $\\mathcal{A}$ be a Banach algebra over $\\mathbb{C}$. Let\n$\\bigtriangleup$ be the space of all multiplicative linear functionals\nin $\\mathcal{A}$, endowed with the weak-\\* topology. Let\n$C(\\bigtriangleup)$ denote the algebra of complex valued continuous\nfunctions in $\\bigtriangleup$.\n\nThe [**Gelfand transform**]{} is the mapping\n\n$\\widehat{}\\;\\;:\\mathcal{A} \\longrightarrow C(\\bigtriangleup)$\n\n$x \\longmapsto \\widehat{x}$\n\nwhere $\\widehat{x} \\in C(\\bigtriangleup)$ is defined by\n$\\;\\;\\widehat{x} (\\phi) := \\phi(x), \\;\\;\\;\\forall \\phi \\in \\bigtriangleup$\n\nThe Gelfand transform is a continuous homomorphism from $\\mathcal{A}$ to\n$C(\\bigtriangleup)$.\n\n[**Theorem -**]{} Let $C_{0}(\\bigtriangleup)$ denote the algebra of\ncomplex valued continuous functions in $\\bigtriangleup$, that vanish at\ninfinity. The image of the Gelfand transform is contained in\n$C_{0}(\\bigtriangleup)$.\n\nThe Gelfand transform is a very useful tool in the study of commutative\nBanach algebras and, particularly, commutative .\n\nClassification of commutative $C^*$-algebras: Gelfand-Naimark theorems {#classification-of-commutative-c-algebras-gelfand-naimark-theorems .unnumbered}\n----------------------------------------------------------------------\n\nThe following results are called the Gelfand-Naimark theorems. They\nclassify all commutative $C^*$-algebras and all commutative\n$C^*$-algebras with identity element.\n\n[**Theorem 1 -**]{} Let $\\mathcal{A}$ be a $C^*$-algebra over\n$\\mathbb{C}$. Then $\\mathcal{A}$ is \\*-isomorphic to $C_{0}(X)$ for some\nlocally compact Hausdorff space $X$. Moreover, the Gelfand transform is\na \\*-isomorphism between $\\mathcal{A}$ and $C_{0}(\\bigtriangleup)$.\n\n[**Theorem 2 -**]{} Let $\\mathcal{A}$ be a unital $C^*$-algebra over\n$\\mathbb{C}$. Then $\\mathcal{A}$ is \\*-isomorphic to $C(X)$ for some\ncompact Hausdorff space $X$. Moreover, the Gelfand transform is a\n\\*-isomorphism between $\\mathcal{A}$ and $C(\\bigtriangleup)$.\n\nThe above theorems can be substantially improved. In fact, there is an\nbetween the category of commutative $C^*$-algebras and the category of\nlocally compact Hausdorff spaces. For more and details about this, see\nthe entry about the general .",
+  "language": "INFORMAL",
+  "phrase": "Gelfand Transform",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GelfandTransform"
+    }
+  ],
+  "indexable": true
+}

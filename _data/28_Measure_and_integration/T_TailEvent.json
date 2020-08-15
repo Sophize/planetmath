@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Omega$ be a set and $\\mathcal F$ a sigma algebra of subsets of\n$\\Omega$. Given the random variables $\\{X_n, n \\in {\\mathbb N}\\}$,\ndefined on the measurable space $(\\Omega,\\mathcal F)$, the *tail events*\nare the events of the *tail $\\sigma$-algebra*\n$$\\mathcal F_{\\infty}=\\bigcap^{\\infty}_{n=1}\\sigma\n(X_n,X_{n+1},\\cdots)$$ where $\\sigma (X_n,X_{n+1},\\cdots)$ is the\n$\\sigma$-algebra induced by $(X_n,X_{n+1},\\cdots)$.\n\nOne can intuitively think of tail events as those events whose ocurrence\nor not is not affected by altering any finite number of random variables\nin the sequence. Some examples are $$\\{\\lim \\sup\nX_n <c \\}, \\sum X_n \\mbox{converges }, \\lim  X_n \\mbox{ exists}$$\n\nOne of the most important theorems in probability theory due to\nKolomogorv, is the Kolmogorov zero-one law which states that, in the\ncase of independent random variables, the probability of any tail event\nis 0 or 1 (provided there is a probability measure defined on\n$(\\Omega,\\mathcal F)$)",
+  "language": "INFORMAL",
+  "phrase": "Tail Event",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TailEvent"
+    }
+  ],
+  "indexable": true
+}

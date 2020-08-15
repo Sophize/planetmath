@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $H$ be a bialgebra. A **right $H$-comodule coalgebra** is a\ncoalgebra $A$ which is a right $H$-comodule satisfying\n$$(\\Delta\\otimes{\\mathrm{id}}) t(a) = \\sum a_{(1)(1)} \\otimes a_{(2)(1)} \\otimes a_{(1)(2)}a_{(2)(2)}, \\quad\n(\\varepsilon\\otimes{\\mathrm{id}}) t(a) = \\varepsilon(a) {\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_H,$$\nfor all $h \\in H$ and $a \\in A$.\n\nThere is a dual notion of a $H$-module algebra.\n\nLet $H$ be a Hopf algebra. Then $H$ is itself a $H$-comodule coalgebra\nfor the adjoint coaction $t(h) = h_{(2)} \\otimes S(h_{(1)}) h_{(3)}$.",
+  "language": "INFORMAL",
+  "phrase": "Comodule Coalgebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComoduleCoalgebra"
+    }
+  ],
+  "indexable": true
+}

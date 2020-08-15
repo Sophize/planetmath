@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The principle of persistence of analytic relations states that any\nalgebraic relation between several analytic functions which holds on a\nsufficiently large set also holds wherever the functions are defined.\n\nA more explicit statement of this principle is as follows: Let\n$f_1, f_2, \\ldots f_n$ be complex analytic functions. Suppose that there\nexists an open set $D$ on which all these functions are defined and that\nthere exists a polynomial $p$ of $n$ variables such that\n$p(f_1(z), f_2 (z), \\ldots, f_n(z)) = 0$ whenever $z$ lies in a subset\n$X$ of $D$ which has a limit point in $D$. Then\n$p (f_1 (z), f_2 (z), \\ldots f_n (z)) = 0$ for all $z \\in D$.\n\nThis fact is a simple consequence of the rigidity theorem for analytic\nfunctions. If $f_1, f_2, \\ldots f_n$ are all analytic in $D$, then\n$p (f_1 (z), f_2 (z), \\ldots f_n (z))$ is also analytic in $D$. Hence,\nif $p (f_1 (z), f_2 (z), \\ldots,  f_n (z)) = 0$ when $z$ in $X$, then\n$p (f_1 (z), f_2 (z), \\ldots,  f_n (z)) = 0$ for all $z \\in D$.\n\nThis principle is very useful in establishing identites involving\nanalytic functions because it means that it suffices to show that the\nidentity holds on a small subset. For instance, from the fact that the\nfamiliar identity $\\sin^2 x + \\cos^2 x = 1$ holds for all real $x$, it\nautomatically holds for all complex values of $x$. This principle also\nmeans that it is unnecessary to specify for which values of the variable\nan algebraic relation between analytic functions holds since, if such a\nrelation holds, it will hold for all values for which the functions\nappearing in the relation are defined.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PersistenceOfAnalyticRelations"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "persistence of analytic relations"
+  ]
+}

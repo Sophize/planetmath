@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "homothety"
+  ],
+  "definition": "Let $\\mathcal{P}$ and $\\mathcal{Q}$ be similar polygons,\n$(P_1,P_2,\\ldots,P_n)$ and $(Q_1,Q_2,\\ldots,Q_n)$ the respective\nvertices, so that corresponding vertices under similarity are listed in\nthe same order.\n\nWe say that $\\mathcal{P}$ and $\\mathcal{Q}$ are homothetic if all the\nlines $P_jQ_j$ are concurrent.\n\n![image](homot)\\\n$ABCD$ is homothetic to $A'B'C'D'$.\n\nThe concurrence point of all lines is called the *homothety center*\nNotice that a necessary and sufficient condition for two similar\npolygons to be homothetic is that corresponding sides be parallel.\n\nIf $O$ is the homothety center of two polygons $\\mathcal{A}$ and\n$\\mathcal{B}$, then for any pair $P, Q$ of corresponding points under\nthe homothety (that is, $AB$ passes through $O$), the ratio\n$$k=\\frac{OP}{OQ}$$ is known as *homothety ratio*, and it coincides with\nthe similarity ratio. It is customary to work with directed segments\nwhen talking of homothety, so the homothety ratio is a signed number.\n\nWhen $k$ is positive we speak of *direct homothety* and not only\nsimilarity is preserved, but pictures also have the same orientation\n(corresponding points to the upper part of one figure are on the upper\npart of the other). However, if $k$ is negative we have *reverse\nhomothety*, and corresponding lines remain parallel but all orientations\nare reversed, so it looks like one picture is upside-down when compared\nto the other.\n\n  -------------------- --------------------\n   ![image](dirhomot)   ![image](invhomot)\n    Direct homothety    Reverse homothethy\n  -------------------- --------------------\n\nThere is a special case where we have two congruent figures with the\nsame orientation, in this case all the dashed lines are parallel, and we\nsay that the homothety center is the point at infinity.\n\nAn alternate way of defining homothety is requiring the existence of\nsome point $O$ such that all the lines $PO$ where $P$ is a point on a\nfigure, intersect the other figure on a point $Q$ in such way that all\nthe ratios $OP/OQ$ are the same.\n\nAlthough both definitions are equivalent for polygons, the later has the\nbenefit that it can be applied to arbitrary figures, and so we can talk\nabout homothethy between arbitrary figures. For instance, it can be\nproved that any two circles are homotopic, in both direct and inverse\nways, and the homothety centers can be located intersecting appropiated\ncircle tangents when they exist.",
+  "language": "INFORMAL",
+  "phrase": "Homothetic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Homothetic"
+    }
+  ],
+  "indexable": true
+}

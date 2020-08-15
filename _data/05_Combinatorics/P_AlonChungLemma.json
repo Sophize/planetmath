@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G= (V,E)$ be a undirected graph of $n$ vertices such that the\ndegree of each vertex is equal to $d$. Let $X$ be a subset of $V$. Then\nthe number of edges in the subgraph induced by $X$ is at most\n$$\\frac{1}{2n} \\Big( d|X|^2 +  \\lambda |X|(n- |X|) \\Big)$$ where\n$\\lambda$ is the second largest eigenvalue of the adjacency matrix of\n$G$.\n\n[**Reference:**]{} N. Alon and F. R. K. Chung, \u201cExplicit construction of\nlinear sized tolerant networks,\u201d Discrete Math., vol. 72, pp. 15-19,\n1988.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlonChungLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Alon-Chung lemma"
+  ]
+}

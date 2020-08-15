@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For a ring $R$, and $R$-module $A$, we have a covariant functor\n${\\mathrm{Hom}_{R}(A,-)}$. The functions ${\\mathrm{Ext}}^n_R(A,-)$ are\ndefined to be the right derived functors of\n${\\mathrm{Hom}_{R}(A,-)}: {\\mathrm{Ext}}^n_R(A,-)=R^n{\\mathrm{Hom}_{R}(A,-)}$.\n\n${\\mathrm{Ext}}$ gets its name from the existence of a natural bijection\nbetween elements of ${\\mathrm{Ext}}^1_R(A,B)$ and of $B$ by $A$ up to\nisomorphism of short exact sequences, where an of $B$ by $A$ is an exact\nsequence $$0\\to B\\to C\\to A\\to 0.$$ For example,\n$${\\mathrm{Ext}}^1_{\\mathbb{Z}}({\\mathbb{Z}}/n{\\mathbb{Z}},{\\mathbb{Z}})\\cong{\\mathbb{Z}}/n{\\mathbb{Z}},$$\nwith $0$ corresponding to the trivial\n$0\\to{\\mathbb{Z}}\\to{\\mathbb{Z}}\\oplus{\\mathbb{Z}}/n{\\mathbb{Z}}\\to 0$,\nand $m\\neq 0$ corresponding to\n$$\\xymatrix{0 \\ar [r] & {\\mathbb{Z}}\\ar [r]^n & {\\mathbb{Z}}\\ar [r]^m & {\\mathbb{Z}}/n{\\mathbb{Z}}\\ar [r]&0}.$$\n\nA more modern interpretation of the ${\\mathrm{Ext}}$ functors was given\nby S. Mac Lane, namely that there is a correspondence between\n${\\mathrm{Ext}}^n(A,B)$ with equivalence classes of exact sequences\n\n$$\\begin{aligned}\n0\\rightarrow B\\rightarrow C_n\\rightarrow C_{n-1}\\rightarrow\\cdots\\rightarrow C_1\\rightarrow A\\rightarrow 0\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Ext",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ext"
+    }
+  ],
+  "indexable": true
+}

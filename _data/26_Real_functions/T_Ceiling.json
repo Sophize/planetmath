@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "ceiling function",
+    "smallest integer function",
+    "smallest integer greater than or equal to"
+  ],
+  "definition": "The *ceiling* of a real number is the smallest integer greater than or\nequal to the number. The ceiling of $x$ is usually denoted by\n$\\lceil x\\rceil$.\n\nSome examples: $\\lceil 6.2\\rceil=7$, $\\lceil 0.4\\rceil=1$,\n$\\lceil 7\\rceil=7$, $\\lceil -5.1\\rceil=-5$, $\\lceil \\pi\\rceil=4$,\n$\\lceil -4\\rceil=-4$.\n\nNote that this function is not the integer part ($[x]$), since\n$\\lceil 3.5\\rceil = 4$ and $[3.5]=3$.\n\nThe notation for floor and ceiling was introduced by Iverson in\n1962[@Higham].\n\n[9]{} N. Higham, Handbook of writing for the mathematical sciences,\nSociety for Industrial and Applied Mathematics, 1998.",
+  "language": "INFORMAL",
+  "phrase": "Ceiling",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ceiling"
+    }
+  ],
+  "indexable": true
+}

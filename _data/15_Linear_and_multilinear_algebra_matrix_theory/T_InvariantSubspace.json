@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $T: V\\rightarrow V$ be a linear transformation of a vector space\n$V$. A subspace $U\\subset V$ is called a [*$T$-invariant subspace*]{} if\n$T(u)\\in U$ for all $u\\in U$.\n\nIf $U$ is an invariant subspace, then the restriction of $T$ to $U$\ngives a well defined linear transformation of $U$. Furthermore, suppose\nthat $V$ is $n$-dimensional and that $v_1,\\ldots, v_n$ is a basis of $V$\nwith the first $m$ vectors giving a basis of $U$. Then, the representing\nmatrix of the transformation $T$ relative to this basis takes the form\n$$\\begin{pmatrix}\n  A & B \\\\\n  0 & C\n\\end{pmatrix}$$ where $A$ is an $m\\times m$ matrix representing the\nrestriction transformation $T\\big|_U:U\\to U$ relative to the basis\n$v_1,\\ldots, v_m$.",
+  "language": "INFORMAL",
+  "phrase": "Invariant Subspace",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InvariantSubspace"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For determining the imaginary quadratic fields whose ring of integers\nhas unique factorization, one can use the following\n\n**Lemma.** Let $d$ be a negative integer with $d \\equiv 1 \\pmod{4}$, $p$\nthe greatest odd integer with $p \\leqq \\sqrt{\\frac{1}{3}|d|}$ and\n$q = \\frac{1}{4}(1\\!-\\!d)$. In the imaginary quadratic field\n$\\mathbb{Q}(\\sqrt{d})$, the factorization of integers is if and only if\nthe integers $$\\begin{aligned}\nt^2\\!-\\!t\\!+\\!q \\quad\\; \\left(t = 1,\\,2,\\,\\ldots,\\, \\frac{p\\!+\\!1}{2}\\right)\\end{aligned}$$\nare in the field of the rational numbers.\\\nThe lemma yields the below table:\n\n   $q$    $d = 1-4q$   $p$   $\\frac{1}{2}(p\\!+\\!1)$   the numbers (1)\n  ------ ------------ ----- ------------------------ -----------------\n   $1$       $-3$      $1$            $1$                    1\n   $2$       $-7$      $1$            $1$                    2\n   $3$      $-11$      $1$            $1$                    3\n   $5$      $-19$      $1$            $1$                    5\n   $11$     $-43$      $3$            $2$                 11, 13\n   $17$     $-67$      $3$            $2$                 17, 19\n   $41$     $-163$     $7$            $4$             41, 43, 47, 53\n\n[9]{} : [*Lukuteorian ja korkeamman algebran alkeet*]{}. Tiedekirjasto\nNo. 17.Kustannusosakeyhti\u00f6 Otava, Helsinki (1950).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LemmaForImaginaryQuadraticFields"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "lemma for imaginary quadratic fields"
+  ]
+}

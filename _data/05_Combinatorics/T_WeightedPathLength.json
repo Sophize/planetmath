@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an extended binary tree $T$ (that is, simply any complete binary\ntree, where leafs are denoted as *external nodes*), associate weights\nwith each external node. The *weighted path length* of $T$ is the sum of\nthe product of the weight and path length of each external node, over\nall external nodes.\n\nAnother formulation is that weighted path length is $\\sum w_jl_j$ over\nall external nodes $j$, where $w_j$ is the weight of an external node\n$j$, and $l_j$ is the distance from the root of the tree to $j$. If\n$w_j = 1$ for all $j$, then weighted path length is exactly the same as\nexternal path length.\n\n### Example {#example .unnumbered}\n\nLet $T$ be the following extended binary tree. Square nodes are external\nnodes, and circular nodes are internal nodes. Values in external nodes\nindicate weights, which are given in this problem, while values in\ninternal nodes represent the weighted path length of subtrees rooted at\nthose nodes, and are calculated from the given weights and the given\ntree. The weight of the tree as a whole is given at the root of the\ntree.\n\n![image](tree.10)\n\nThis tree happens to give the minimum weighted path length for this\nparticular set of weights.",
+  "language": "INFORMAL",
+  "phrase": "Weighted Path Length",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeightedPathLength"
+    }
+  ],
+  "indexable": true
+}

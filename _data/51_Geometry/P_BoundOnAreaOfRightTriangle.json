@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We may bound the area of a right triangle in terms of its perimeter. The\nderivation of this bound is a good exercise in constrained optimization\nusing Lagrange multipliers.\n\nIf a right triangle has perimeter $P$, then its area is bounded as\n$$A \\le \\frac{3 - 2 \\sqrt{2}}{4} P^2$$ with equality when one has an\nisosceles right triangle.\n\nSuppose a triangle has legs of length $x$ and $y$. Then its hypotenuse\nhas length $\\sqrt{x^2 + y^2}$, so the perimeter is given as\n$$P = x + y + \\sqrt{x^2 + y^2} .$$ The area, of course, is\n$$A = \\frac{1}{2} x y .$$\n\nWe want to maximize $A$ subject to the constraint that $P$ be constant.\nThis means that the gradient of $A$ will be proportional to the gradient\nof $P$. That is to say, for some constant $\\lambda$, we will have\n$$\\begin{aligned}\n\\frac{\\partial A}{\\partial x} &=& \\lambda \\frac{\\partial P}{\\partial x} \\\\\n\\frac{\\partial A}{\\partial y} &=& \\lambda \\frac{\\partial P}{\\partial y}\\end{aligned}$$\nTogether with the constraint, these form a system of three equations for\nthe three quantities $x$, $y$, and $\\lambda$. Writing them out\nexplicitly, $$\\begin{aligned}\n\\frac{1}{2} y &=& \\lambda \\left( 1 + \\frac{x}{\\sqrt{x^2 + y^2}} \\right) \\\\\n\\frac{1}{2} x &=& \\lambda \\left( 1 + \\frac{y}{\\sqrt{x^2 + y^2}} \\right) \\\\\nP &=& x + y + \\sqrt{x^2 + y^2}\\end{aligned}$$ Not that we cannot have\n$\\lambda = 0$ because that would mean that all sides of our triangle\nwould have zero length. Hence, we may eliminate $\\lambda$ between the\nfirst two equations to obtain\n$$x \\left( 1 + \\frac{x}{\\sqrt{x^2 + y^2}} \\right) =\ny \\left( 1 + \\frac{y}{\\sqrt{x^2 + y^2}} \\right),$$ which may be\nmanipulated to yield\n$$(x - y) \\left( 1 + \\frac{x+y}{\\sqrt{x^2 + y^2}} \\right) = 0.$$ We have\ntwo case to consider \u2014 either the first factor or the second factor may\nequal zero. If the second factor equals zero,\n$$1 + \\frac{x+y}{\\sqrt{x^2 + y^2}} = 0,$$ move the \u201c1\u201d to the other side\nof the equation and cross-multiply to obtain\n$$x + y = - \\sqrt{x^2 + y^2}.$$ Since we want $x \\ge 0$ and $y \\ge 0$\nbut the right-hand side is non-positive, the only option would be to\nhave a trianagle of zero area. The other possibility was to have the\nsecond factor equal zero, which would give $$x - y = 0.$$ In this case,\n$x$ equals $y$. Imposing this condition on the constraint, we see that\n$$P = (2 + \\sqrt{2}) x,$$ so we have the solution $$\\begin{aligned}\nx &=& \\frac{P}{2 + \\sqrt{2}} = \\frac{2 - \\sqrt{2}}{2} P \\\\\ny &=& \\frac{P}{2 + \\sqrt{2}} = \\frac{2 - \\sqrt{2}}{2} P .\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundOnAreaOfRightTriangle"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "bound on area of right triangle"
+  ]
+}

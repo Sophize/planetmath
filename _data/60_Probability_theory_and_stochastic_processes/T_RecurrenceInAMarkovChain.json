@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "null recurrent",
+    "positive recurrent",
+    "strongly ergodic",
+    "weakly ergodic"
+  ],
+  "definition": "Let $\\lbrace X_n\\rbrace$ be a Markov chain and $I$ the state space.\nGiven $i,j\\in I$ and any non-negative integer $n$, define a number\n$F_{ij}^n$ as follows: $$F_{ij}^n:=\n\\begin{cases}\n0&\\text{if } n=0,\\\\\nP(X_n=j\\mbox{ and }X_m\\ne j\\mbox{ for }0<m<n \\mid X_0=i)&\\text{otherwise}.\n\\end{cases}$$ In other words, $F_{ij}^n$ is the probability that the\nprocess *first* reaches state $j$ at time $n$ from state $i$ at time\n$0$.\n\nFrom the definition of $F_{ij}^n$, we see that the probability of the\nprocess reaching state $j$ *within and including* time $n$ from state\n$i$ at time $0$ is given by $$\\sum_{m=0}^n F_{ij}^m.$$ As $n\\to \\infty$,\nwe have the limiting probability of the process reaching $j$\n*eventually* from the initial state of $i$ at $0$, which we denote by\n$F_{ij}$: $$F_{ij}:=\\sum_{m=0}^{\\infty} F_{ij}^m.$$\n\n**Definitions**. A state $i\\in I$ is said to be *recurrent* or\n*persistent* if $F_{ii}=1$, and *transient* otherwise.\n\nGiven a recurrent state $i$, we can further classify it according to\n\u201chow soon\u201d the state $i$ returns after its initial appearance. Given\n$F_{ii}^n$, we can calculate the expected number of steps or transitions\nrequired to *return* to state $i$ by time $n$. This expectation is given\nby $$\\sum_{m=0}^n m F_{ii}^m.$$ When $n\\to \\infty$, the above expression\nmay or may not approach a limit. It is the expected number of\ntransitions needed to return to state $i$ *at all* from the beginning.\nWe denote this figure by $\\mu_i$:\n$$\\mu_{i}:=\\sum_{m=0}^{\\infty} m F_{ii}^m.$$\n\n**Definitions**. A recurrent state $i\\in I$ is said to be ** or\n*strongly ergodic* if $\\mu_i<\\infty$, otherwise it is called *null* or\n*weakly ergodic*. If a stronly ergodic state is in addition , then it is\nsaid to be an *ergodic state*.",
+  "language": "INFORMAL",
+  "phrase": "Recurrence In A Markov Chain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RecurrenceInAMarkovChain"
+    }
+  ],
+  "indexable": true
+}

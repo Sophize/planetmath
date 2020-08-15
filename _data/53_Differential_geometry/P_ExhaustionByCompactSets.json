@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $U$ be an open set in ${\\mathbbmss{R}}^n$ (or a manifold with\ncountable base). Then there exists a sequence of compact sets\n$K_1, K_2, \\ldots$ such that $$\\begin{aligned}\n      K_i &\\subseteq& \\operatorname{int} K_{i+1}, \\quad i=1,2,\\ldots, \\\\\n      U &=& \\cup_{i=1}^\\infty K_i,\\end{aligned}$$ where\n\u201c$\\operatorname{int}$\u201d denotes the topological interior. Such a sequence\nis called an *exhaustion by compact sets* for $U$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExhaustionByCompactSets"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "exhaustion by compact sets"
+  ]
+}

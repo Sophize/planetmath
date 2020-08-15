@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "Landau notation",
+    "small o",
+    "big o",
+    "order of infinity",
+    "order of zero"
+  ],
+  "definition": "Let us consider a domain $D$ and an accumulation point\n$x_0\\in \\overline D$. Important examples are $D={\\mathbb R}$ and\n$x_0\\in D$ or $D=\\mathbb N$ and $x_0=+\\infty$. Let\n$f\\colon D\\to {\\mathbb R}$ be any function. We are going to define the\nspaces $o(f)$ and $O(f)$ which are families of real functions defined on\n$D$ and which depend on the point $x_0\\in \\overline D$.\n\nSuppose first that there exists a neighbourhood $U$ of $x_0$ such that\n$f$ restricted to $U\\cap D$ is always different from zero. We say that\n$g\\in o(f)$ as $x\\to x_0$ if $$\\lim_{x\\to x_0} \\frac{g(x)}{f(x)}=0.$$ We\nsay that $g \\in O(f)$ as $x\\to x_0$ if there exists a neighbourhood $U$\nof $x_0$ such that\n$$\\frac{g(x)}{f(x)} \\text{is bounded if restricted to $D\\cap U$}.$$ In\nthe case when $f\\equiv 0$ in a neighbourhood of $x_0$, we define\n$o(f)=O(f)$ as the set of all functions $g$ which are null in a\nneighbourhood of $0$.\n\nThe families $o$ and $O$ are usually called \u201csmall-o\u201d and \u201cbig-o\u201d or,\nsometimes, \u201csmall ordo\u201d, \u201cbig ordo\u201d.",
+  "language": "INFORMAL",
+  "phrase": "Formal Definition Of Landau Notation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FormalDefinitionOfLandauNotation"
+    }
+  ],
+  "indexable": true
+}

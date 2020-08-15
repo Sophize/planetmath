@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let A,B,C,D be matrices of sizes $p\\times p$, $p\\times q$, $q\\times p$\nand $q\\times q$ respectively and suppose that $D$ is invertible. Let\n$$M=\\begin{pmatrix} A & B \\\\ C & D \\end{pmatrix}$$ so that $M$ is a\n$(p+q)\\times(p+q)$ matrix.\\\nThen the *Schur complement* of the block $D$ of the matrix $M$ is the\n$p\\times p$ matrix, $A-BD^{-1}C$. Analogously if $A$ is invertible then\nthe *Schur complement* of the block $A$ of the matrix $M$ is the\n$q\\times q$ matrix, $D-CA^{-1}B$. In the first case, when $D$ is\ninvertible, the Schur complement arises as the result of performing a\npartial Gaussian elimination by multiplying the matrix $M$ from the\nright with the lower triangular block matrix,\n$$T=\\begin{pmatrix} I & O \\\\ -D^{-1}C & D^{-1} \\end{pmatrix}$$ where $I$\nis the $p\\times p$ identity matrix and $O$ is the $p\\times q$ zero\nmatrix. Analogously, in the second case, we take the Schur complement by\nmultiplying the matrix $M$ from the left with the lower triangular block\nmatrix $$T=\\begin{pmatrix} A^{-1} & O \\\\ -CA^{-1} & I \\end{pmatrix}$$\\\n**see also:**\n\n-   Wikipedia,",
+  "language": "INFORMAL",
+  "phrase": "Schur Complement",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchurComplement"
+    }
+  ],
+  "indexable": true
+}

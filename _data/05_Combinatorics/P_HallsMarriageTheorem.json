@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $S = \\{ S_1,S_2,\\dots S_n \\}$ be a finite collection of finite sets.\nThere exists a system of distinct representatives of $S$ if and only if\nthe following condition holds for any $T \\subseteq S$:\n$$\\left | \\cup T \\right | \\geq |T|$$\n\nAs a corollary, if this condition fails to hold anywhere, then no SDR\nexists.\n\nThis is known as Hall\u2019s marriage theorem. The name arises from a\nparticular application of this theorem. Suppose we have a finite set of\nsingle men/women, and, for each man/woman, a finite collection of\nwomen/men to whom this person is attracted. An SDR for this collection\nwould be a way each man/woman could be (theoretically) married happily.\nHence, Hall\u2019s marriage theorem can be used to determine if this is\npossible.\n\nAn application of this theorem to graph theory gives that if\n$G(V_1, V_2, E)$ is a bipartite graph, then $G$ has a complete matching\nthat saturates every vertex of $V_1$ if and only if $|S|\\leq |N(S)|$ for\nevery subset $S\\subset V_1$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HallsMarriageTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hall's marriage theorem",
+    "marriage theorem"
+  ]
+}

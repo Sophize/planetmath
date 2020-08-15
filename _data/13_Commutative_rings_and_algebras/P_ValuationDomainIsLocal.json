@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every valuation domain is a local ring.\n\n[*Proof.*]{} Let $R$ be a valuation domain and $K$ its field of\nfractions. We shall show that the set of all non-units of $R$ is the\nonly maximal ideal of $R$.\n\nLet $a$ and $b$ first be such elements of $R$ that $a-b$ is a unit of\n$R$; we may suppose that $ab \\neq 0$ since otherwise one of $a$ and $b$\nis instantly stated to be a unit. Because $R$ is a valuation domain in\n$K$, therefore e.g. $\\frac{a}{b}\\in R$. Because now\n$\\frac{a-b}{b} = 1-\\frac{a}{b}$ and $(a-b)^{-1}$ belong to $R$, so does\nalso the product $\\frac{a-b}{b}\\cdot(a-b)^{-1} = \\frac{1}{b}$, i.e. $b$\nis a unit of $R$. We can conclude that the difference $a-b$ must be a\nnon-unit whenever $a$ and $b$ are non-units.\n\nLet $a$ and $b$ then be such elements of $R$ that $ab$ is its unit, i.e.\n$a^{-1}b^{-1}\\in R$. Now we see that\n$$a^{-1} = b\\cdot a^{-1}b^{-1}\\in R,\\,\\,\\,b^{-1} = a\\cdot a^{-1}b^{-1}\\in R ,$$\nand consequently $a$ and $b$ both are units. So we conclude that the\nproduct $ab$ must be a non-unit whenever $a$ is an element of $R$ and\n$b$ is a non-unit.\n\nThus the non-units form an ideal $\\mathfrak{m}$. Suppose now that there\nis another ideal $\\mathfrak{n}$ of $R$ such that\n$\\mathfrak{m}\\subset\\mathfrak{n}\\subseteq R$. Since $\\mathfrak{m}$\ncontains all non-units, we can take a unit $\\varepsilon$ in\n$\\mathfrak{n}$. Thus also the product $\\varepsilon^{-1}\\varepsilon$,\ni.e. 1, belongs to $\\mathfrak{n}$, or $R\\subseteq\\mathfrak{n}$. So we\nsee that $\\mathfrak{m}$ is a maximal ideal. On the other hand, any\nmaximal ideal of $R$ contains no units and hence is contained in\n$\\mathfrak{m}$; therefore $\\mathfrak{m}$ is the only maximal ideal.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ValuationDomainIsLocal"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "valuation domain is local"
+  ]
+}

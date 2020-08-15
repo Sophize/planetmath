@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definition\n==========\n\nLet $A$ be a subset of $X$. The *complement* of $A$ in $X$ (denoted\n$A^\\complement$ when the larger set $X$ is clear from context) is the\nset difference $X \\setminus A$.\n\nThe Venn diagram below illustrates the complement of $A$ in red.\n\n(0,0)(8,6) (0,0)(8,0)(8,6)(0,6) (4,3)[2]{} (4,3)[$A$]{}\n(1,5)[$X\\setminus A$]{} (8.5,5.75)[$X$]{} (0,0)[$.$]{} (8,6)[$.$]{}\n\nProperties\n==========\n\n-   $(A^{\\complement})^\\complement=A$\n\n-   $\\emptyset^\\complement = X$\n\n-   $X^\\complement = \\emptyset$\n\n-   If $A$ and $B$ are subsets of $X$, then\n    $A\\setminus B = A\\cap B^\\complement$, where the complement is taken\n    in $X$.\n\nde Morgan\u2019s laws\n================\n\nLet $X$ be a set with subsets $A_i \\subset X$ for $i\\in I$, where $I$ is\nan arbitrary index-set. In other words, $I$ can be finite, countable, or\nuncountable. Then\n\n$$\\begin{aligned}\n\\left( \\bigcup_{i\\in I} A_i \\right)^\\complement &=& \\bigcap_{i\\in I} A_i^\\complement, \\\\\n\\left( \\bigcap_{i\\in I} A_i \\right)^\\complement &=& \\bigcup_{i\\in I} A_i^\\complement.\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Complement",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Complement"
+    }
+  ],
+  "indexable": true
+}

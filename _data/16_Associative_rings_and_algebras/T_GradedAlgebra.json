@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An algebra $A$ over a graded ring $B$ is *graded* if it is itself a\ngraded ring and a graded module over $B$ such that\n$$A^p \\cdot A^q \\subseteq A^{p+q}$$ where $A^i$, $i \\in \\mathbb{N}$, are\nsubmodules of $A$. More generally, one can replace $\\mathbb{N}$ by a\nmonoid or semigroup $G$. In which case, $A$ is called a $G$-graded\nalgebra. A graded algebra then is the same thing as an\n$\\mathbb{N}$-graded algebra.\n\nExamples of graded algebras include the polynomial ring $k[X]$ being an\n$\\mathbb{N}$-graded $k$-algebra, and the exterior algebra.",
+  "language": "INFORMAL",
+  "phrase": "Graded Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GradedAlgebra"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The aim of this entry is to present a list of the key objects and\noperators used in linear algebra. Each entry in the list links (or will\nlink in the future) to the corresponding PlanetMath entry where the\nobject is presented in greater detail. For convenience, this list also\npresents the encouraged notation to use (at PlanetMath) for these\nobjects. Some of this notation is simply an example of more general\nnotation, either notation in set theory or notation for functions. Some\nnotation is also standard from category theory.\n\nSuppose $V$ is a vector space over a field $K$. Where the field $K$ is\nclear from context it is sometimes eliminated from the notation. Let $L$\nbe a linear operator, or linear transformation, from $V$ to $W$, and $E$\nbe an endomorphism of $V$.\n\n-   $\\mathscr{L}(V,W)$, the set of linear transformations between vector\n    spaces $V$ and $W$ (also $\\operatorname{Hom}_K(V,W)$),\n\n-   basis of a vector space and the matrix associated with the basis,\n\n-   $\\dim_K V$, of $V$,\n\n-   $\\operatorname{span}\\{e_1,\\ldots,e_n\\}$ vector space spanned by\n    vectors $\\{e_i\\}$ (note that the list of vectors need not be\n    finite). Some other notations are $(e_1,e_2,\\ldots,e_n)$ or\n    $\\langle e_1,e_2,\\ldots,e_n\\rangle$ (do not confuse last one with\n    similar inner product notation),\n\n-   $\\det E$, determinant of a linear operator,\n\n-   $\\operatorname{tr} E$, trace of a linear operator (also\n    $\\operatorname{trace} E$),\n\n-   $\\operatorname{im} L$, image of a linear operator (also\n    $\\operatorname{img} L$ and $L(V)$),\n\n-   $\\operatorname{ker} L$, kernel of a linear operator,\n\n-   for sets $A,B$ and a point $x\\in V$, the expressions $A+B$, $A-B$,\n    $A+x$ are the (not especially if $A$ and $B$ are subspaces, then\n    their sum is a subspace, but the result may not be a direct sum),\n\n-   $V^\\ast$, dual space of a vector space $V$ (also $V^\\vee$ or\n    $\\operatorname{Hom}_K(V,K)$),\n\n-   $A^\\ast$, adjoint operator of a linear operator,\n\n-   $V\\oplus W$, direct sum of vector spaces $V$ and $W$ (both internal\n    end external),\n\n-   $V\\otimes_K W$, tensor product of $V$ and $W$, and\n\n-   $V\\wedge W$, antisymmetrized tensor product (also called the wedge\n    product),\n\n-   bilinear forms and quadratic forms\n\n-   generalizations of vector spaces over a field to vector spaces over\n    a division ring to modules over a ring.",
+  "language": "INFORMAL",
+  "phrase": "Concepts In Linear Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConceptsInLinearAlgebra"
+    }
+  ],
+  "indexable": true
+}

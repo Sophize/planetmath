@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K \\subset {\\mathbb{C}}$ be a compact subset of the complex plane\nsuch that ${\\mathbb{C}} \\backslash K$ (the complement of $K$) is\nconnected, and let $f\\colon K \\to {\\mathbb{C}}$ be a continuous function\nwhich is also holomorphic on the interior of $K.$ Then $f$ is the\nuniform limit on $K$ of holomorphic polynomials (polynomials in one\ncomplex variable).\n\nSo for any $\\epsilon > 0$ one can find a polynomial\n$p(z) = \\sum_{j=1}^n a_j z^j$ such that\n$\\lvert f(z) - p(z) \\rvert < \\epsilon$ for all $z \\in K.$\n\nDo note that this theorem is not a weaker version of Runge\u2019s theorem.\nHere, we do not need $f$ to be holomorphic on a neighbourhood of $K,$\nbut just on the interior of $K.$ For example, if the interior of $K$ is\nempty, then $f$ just needs to be continuous on $K.$ Further, it could be\nthat the closure of the interior of $K$ might not be all of $K.$\nConsider $K = D \\cup [-10,10],$ where $D$ is the closed unit disc. Then\n$K$ has two lines coming out of either end of the disc and $f$ needs to\nonly be continuous there.\n\nAlso note that this theorem is distinct from the Stone-Weierstrass\ntheorem. The point here is that the polynomials are holomorphic in\nMergelyan\u2019s theorem.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1978.\nWalter Rudin. [**]{}. McGraw-Hill, Boston, Massachusetts, 1987.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MergelyansTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Mergelyan's theorem"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $(X,d)$ be a non-empty, complete metric space, and let $T$ be a\ncontraction mapping on $(X,d)$ with constant $q$. Pick an arbitrary\n$x_0 \\in X$, and define the sequence $(x_n)_{n=0}^{\\infty}$ by\n$x_n:=T^nx_0$. Let $a:=d(Tx_0,x_0)$. We first show by induction that for\nany $n\\ge 0$, $$d(T^nx_0,x_0)\\le\\frac{1-q^n}{1-q} a.$$ For $n=0$, this\nis obvious. For any $n\\ge 1$, suppose that\n$d(T^{n-1}x_0,x_0)\\le\\frac{1-q^{n-1}}{1-q}a$. Then $$\\begin{aligned}\nd(T^nx_0,x_0)&\\le&d(T^nx_0,T^{n-1}x_0)+d(x_0,T^{n-1}x_0)\\\\\n&\\le&q^{n-1}d(Tx_0,x_0)+\\frac{1-q^{n-1}}{1-q}a\\\\\n&=&\\frac{q^{n-1}-q^n}{1-q}a+\\frac{1-q^{n-1}}{1-q}a\\\\\n&=&\\frac{1-q^n}{1-q}a\\end{aligned}$$ by the triangle inequality and\nrepeated application of the property $d(Tx,Ty)\\le qd(x,y)$ of $T$. By\ninduction, the inequality holds for all $n \\ge 0$.\\\n\\\nGiven any $\\epsilon>0$, it is possible to choose a natural number $N$\nsuch that $\\frac{q^n}{1-q}a<\\epsilon$ for all $n\\ge N$, because\n$\\frac{q^n}{1-q}a\\to 0$ as $n\\to\\infty$. Now, for any $m,n\\ge N$ (we may\nassume that $m\\ge n$), $$\\begin{aligned}\nd(x_m,x_n)&=&d(T^mx_0,T^nx_0)\\\\\n&\\le&q^nd(T^{m-n}x_0,x_0)\\\\\n&\\le&q^n\\frac{1-q^{m-n}}{1-q}a\\\\\n&<&\\frac{q^n}{1-q}a<\\epsilon,\\end{aligned}$$ so the sequence $(x_n)$ is\na Cauchy sequence. Because $(X,d)$ is complete, this implies that the\nsequence has a limit in $(X,d)$; define $x^*$ to be this limit. We now\nprove that $x^*$ is a fixed point of $T$. Suppose it is not, then\n$\\delta:=d(Tx^*,x^*)>0$. However, because $(x_n)$ converges to $x^*$,\nthere is a natural number $N$ such that $d(x_n,x^*)<\\delta/2$ for all\n$n\\ge N$. Then $$\\begin{aligned}\nd(Tx^*,x^*)&\\le&d(Tx^*,x_{N+1})+d(x^*,x_{N+1})\\\\\n&\\le&qd(x^*,x_N)+d(x^*,x_{N+1})\\\\\n&<&\\delta/2+\\delta/2=\\delta,\\end{aligned}$$ contradiction. So $x^*$ is a\nfixed point of $T$. It is also unique. Suppose there is another fixed\npoint $x'$ of $T$; because $x'\\neq\nx^*$, $d(x',x^*)>0$. But then\n$$d(x',x^*)=d(Tx',Tx^*)\\le qd(x',x^*)<d(x',x^*),$$ contradiction.\nTherefore, $x^*$ is the unique fixed point of $T$.",
+  "conclusion": "#P_BanachFixedPointTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBanachFixedPointTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Banach fixed point theorem"
+  ]
+}

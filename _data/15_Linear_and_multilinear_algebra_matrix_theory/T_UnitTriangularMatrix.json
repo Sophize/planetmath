@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "unit left triangular matrix",
+    "unit right triangular matrix"
+  ],
+  "definition": "A *unit triangular matrix* is a triangular matrix with $1$ on the\ndiagonal.\\\ni.e.\n\nA *unit upper triangular matrix* is of the form\n\n$$\\begin{bmatrix}\n1 & a_{12} & a_{13} & \\cdots & a_{1n} \\\\\n0 & 1 & a_{23} & \\cdots & a_{2n} \\\\\n0 & 0 & 1 & \\cdots & a_{3n} \\\\\n\\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\\n0 & 0 & 0 & \\cdots & 1\n\\end{bmatrix}$$\n\nand is sometimes called a *unit right triangular matrix*.\n\nA *unit lower triangular matrix* is of the form\n\n$$\\begin{bmatrix}\n1 & 0 & 0 & \\cdots & 0 \\\\\na_{21} & 1 & 0 & \\cdots & 0 \\\\\na_{31} & a_{32} & 1 & \\cdots & 0 \\\\\n\\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\\na_{n1} & a_{n2} & a_{n3} & \\cdots & 1\n\\end{bmatrix}$$\n\nand is sometimes called a *unit left triangular matrix*.",
+  "language": "INFORMAL",
+  "phrase": "Unit Triangular Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnitTriangularMatrix"
+    }
+  ],
+  "indexable": true
+}

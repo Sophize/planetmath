@@ -1,0 +1,17 @@
+{
+  "argumentText": "We prove that if $\\Lambda:X \\rightarrow Y$ is a continuous linear\nsurjective map between Banach spaces, then $\\Lambda$ is an open map. It\nsuffices to show that $\\Lambda$ maps the open unit ball in $X$ to a\nneighborhood of the origin of $Y$.\n\nLet $U$, $V$ be the open unit balls in $X$, $Y$ respectively. Then\n$X=\\cup_{k \\in \\mathbb{N}} kU$, so, since $\\Lambda$ is surjective,\n$Y=\\Lambda(X)=\\Lambda(\\cup_{k \\in \\mathbb{N}} kU)=\\cup_{k \\in \\mathbb{N}} \\Lambda(kU)$.\nBy the Baire category theorem, $Y$ is not the union of countably many\nnowhere dense sets, so there is some $k \\in \\mathbb{N}$ and some open\nset $W \\subset Y$ such that $W$ is contained in the closure of\n$\\Lambda(kU)$.\n\nLet $y_0 \\in W$, and pick $\\eta>0$ so that $y_0+y \\in W$ for all $y$\nwith $||y||<\\eta$. Then $y_0$ and $y_0+y$ are limit points of\n$\\Lambda(kU)$, so there are sequences ${x_i'}$ and ${x_i''}$ in $kU$\nwith $\\Lambda x_i' \\rightarrow y_0$ and\n$\\Lambda x_i'' \\rightarrow y_0+y$. Letting $x_i=x_i''-x_i'$, we have\n$||x_i|| < 2k$ and $\\Lambda x_i \\rightarrow y$. So for any\n$y \\in \\eta V$ there is a sequence ${x_i}$ in $2kU$ with\n$\\Lambda x_i \\rightarrow y$. Then by the linearity of $\\Lambda$, we have\nthat for any $\\epsilon>0$ and any $y \\in Y$, there is an $x \\in X$ with:\n\n$||x||< \\delta^{-1} ||y||$ $||\\Lambda x -y||<\\epsilon $ (1)\n\nwhere $\\delta=\\eta/2k$.\n\nNow let $y \\in \\delta V$ and $\\epsilon>0$. Then there is some $x_1$ with\n$||x_1||< 1$ and $||y-\\Lambda x_1||<\\epsilon \\delta$. Define a sequence\n${x_n}$ inductively as follows. Assume:\n\n$ ||y-\\Lambda(x_1+x_2+...+x_n)||<\\epsilon \\delta 2^{-n} $ (2)\n\nThen by (1) we can pick $x_{n+1}$ so that:\n\n$||x_{n+1}||< \\epsilon 2^{-n}$ (3)\n\nand\n$||y-\\Lambda(x_1+x_2+...+x_n) - \\Lambda(x_{n+1})||<\\epsilon \\delta 2^{-(n+1)}$,\nso (2) is satisfied for $x_{n+1}$.\n\nPut $s_n=x_1+x_2+...+x_n$. Then from (3), $s_n$ is a Cauchy sequence,\nand so, since $X$ is complete, it converges to some $x \\in X$. By (2),\n$\\Lambda s_n \\rightarrow y$, and by the continuity of $\\Lambda$,\n$\\Lambda s_n \\rightarrow \\Lambda x$, so $\\Lambda x= y$. Also,\n$||x||=\\lim_{n \\rightarrow \\infty} ||s_n|| \\leq \\sum_{n=1}^\\infty ||x_n|| < 1+\\epsilon$.\nThus $\\Lambda((1+\\epsilon)U) \\supset \\eta V$, or\n$\\Lambda(U) \\supset (1+\\epsilon)^{-1} \\delta V$. Since this is true for\nall $\\epsilon>0$, we have\n$\\Lambda(U) \\supset \\cup_{\\epsilon>0} (1+\\epsilon)^{-1} \\delta V = \\delta V$.",
+  "conclusion": "#P_OpenMappingTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfOpenMappingTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of open mapping theorem"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Champernowne constant"
+  ],
+  "definition": "For a given base $b$, [*Champernowne\u2019s constant*]{} $C_b$ is the result\nof concatenating the base $b$ digits of the positive integers in order\nafter 0 and a decimal point, that is,\n$$\\sum_{i = 1}^\\infty \\frac{i}{b^{\\sum_{j = 1}^i k}}$$ (where $k$ is the\nnumber of digits of $j$ in base $b$).\n\nKurt Mahler proved that $C_{10}$ (approximately\n0.123456789101112131415161718192021...) is a transcendental number.\nChampernowne had earlier proved that $C_{10}$ is a normal number.",
+  "language": "INFORMAL",
+  "phrase": "Champernowne'S Constant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChampernownesConstant"
+    }
+  ],
+  "indexable": true
+}

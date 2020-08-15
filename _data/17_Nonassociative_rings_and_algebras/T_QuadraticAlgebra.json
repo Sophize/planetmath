@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A non-associative algebra $A$ (with unity $1_A$) over a commutative ring\n$R$ (with unity $1_R$) is called a *quadratic algebra* if $A$ admits a\nquadratic form $Q\\colon A\\to R$ such that\n\n1.  $Q(1_A)=1_R$,\n\n2.  the quadratic equation $x^2-b(1_A,x)x+Q(x)1_A=0$ is satisfied by all\n    $x\\in A$, where $b$ is the associated symmetric bilinear form given\n    by $b(x,y):=Q(x+y)-Q(x)-Q(y)$.",
+  "language": "INFORMAL",
+  "phrase": "Quadratic Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuadraticAlgebra"
+    }
+  ],
+  "indexable": true
+}

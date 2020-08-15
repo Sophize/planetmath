@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem involves Eilenberg-MacLane spaces in relation to\ncohomology groups for connected CW-complexes.\n\nCohomology group theorem for connected CW-complexes ([@MJP1999]):\n\nLet $K(\\pi,n)$ be Eilenberg-MacLane spaces for connected $X$, Abelian\ngroups $\\pi$ and integers $n \\geq 0$. Let us also consider the set of\nnon-basepointed homotopy classes $[X, K(\\pi,n)]$ of non-basepointed maps\n$\\eta :X \\to K(\\pi,n)$ and the $\\overline{H}^n(X;\\pi)$. Then, there\nexist the following *natural isomorphisms*:\n\n$$[X, K(\\pi,n)]  \\cong \\overline{H}^n(X;\\pi),$$\n\nRelated remarks:\n----------------\n\n1.  In order to determine all cohomology operations one needs only to\n    compute the cohomology of all Eilenberg-MacLane spaces $K(\\pi,n)$;\n    (source: ref [@MJP1999]);\n\n2.  When $n = 1$, and $\\pi$ is *non-Abelian*, one still has that\n    $[X,K(\\pi ,1)] \\cong Hom(\\pi_1(X),\\pi)/\\pi$, that is, the conjugacy\n    class or representation of $\\pi_1$ into $\\pi$;\n\n3.  A derivation of this result based on the fundamental cohomology\n    theorem is also attached.\n\n[9]{}\n\nMay, J.P. 1999. *A Concise Course in Algebraic Topology*, The University\nof Chicago Press: Chicago.,p.173.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CohomologyGroupTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "cohomology group theorem",
+    "fundamental cohomology theorem"
+  ]
+}

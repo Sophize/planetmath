@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*$px + 1$ map*]{} is a generalization of the $3x + 1$ map, or\nCollatz problem, in which an input number $x$ is tested for divisibility\nby primes less than an odd prime $p$: if $x$ is divisible by any such\nprime, it is divided by the smallest such prime; otherwise it is\nmultiplied by $p$ and incremented by 1. In the case $p = 3$, the test\nfor the input number simplifies to a parity test, because 2 is the only\nprime less than 3. The map can be iteratively applied, generally\nresulting in sequences that rise and fall aperiodically before reaching\n1 in ways that are not readily apparent from the original $x$ (with the\nobvious exception of $x$ being a power of two, in which case the\nresulting sequence from the original $x$ to 1 is a listing of powers of\ntwo in strictly descending order; a similar pattern occurs when $x$ is a\npower of a prime). Once the sequence reaches 1, continued iteration\nproduces a predictable cycle, especially when $p$ is a Mersenne prime.\n\nFor example, with the $7x + 1$ map, an input $x$ is tested for\ndivisibility by 2, 3 and 5 (in that order), and whichever test passes\nfirst causes the output to be $x$ divided by that prime; but if all\ntests fail, then the output is $7x + 1$. Applied to 19, the map gives\nthe sequence 19, 134, 67, 470, 235, 47, 330, 165, 55, 11, 78, 39, 13,\n92, 46, 23, 162, 81, 27, 9, 3, 1. (Notice that 470 is followed by 235\nand then 47; similarly 330 is followed by 165, 55 and then 11). It is\nbelieved that for any $p$, iteration on any $x$ will eventually reach 1,\nbut just as the original $p = 3$ problem remains unsolved, so does the\ngeneralized problem.",
+  "language": "INFORMAL",
+  "phrase": "$Px + 1$ Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Px1Map"
+    }
+  ],
+  "indexable": true
+}

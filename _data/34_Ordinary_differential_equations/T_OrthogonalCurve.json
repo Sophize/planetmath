@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "orthogonal trajectory"
+  ],
+  "definition": "If a family of plane curves (with one free parameter) satisfies the\ndifferential equation $$F(x,\\,y,\\,y') \\;=\\; 0,$$ where\n$y' = \\frac{dy}{dx}$, then the family of curves all the first curves\nsatisfies the differential equation\n$$F\\left(x,\\,y,\\,-\\frac{1}{y'}\\right) \\;=\\; 0.$$ Anyone of the latter\ncurves is an *orthogonal curve* of the former ones.\n\n**Example.** Let\u2019s consider the family of rectangular hyperbolas\n$$x^2-y^2 \\;=\\; c$$ with the parameter $c$ taking any real value.\nDerivating with respect to $x$ gives the differential equation of this\nfamily, $$x-yy' \\;=\\; 0,$$ and by replacing here $y'$ with\n$-\\frac{1}{y'}$ we obtain the differential equation\n$$x+\\frac{y}{y'} \\;=\\; 0$$ of the orthogonal curves. Integrating its\nform $$\\frac{dy}{y} \\;=\\; -\\frac{dx}{x}$$ gives the solution\n$$xy \\;=\\; C,$$ which another family of rectangular hyperbolas.\n\nIn the picture below (by drini), there are four hyperbolas of the first\nfamily (blue) given by the values $c = -1,\\,-2,\\,-4,\\,-8$ and four\nhyperbolas of the orthogonal family (red) given by the values\n$C = 1,\\,2,\\,4,\\,8$.\n\n(-5.4,-5.4)(5.2,5.4) (0,0)(-5,-5)(5,5) (-5,-5)(5,5)",
+  "language": "INFORMAL",
+  "phrase": "Orthogonal Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrthogonalCurve"
+    }
+  ],
+  "indexable": true
+}

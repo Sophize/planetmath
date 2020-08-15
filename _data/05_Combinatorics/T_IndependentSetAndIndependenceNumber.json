@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "stable set",
+    "anticlique"
+  ],
+  "definition": "A set of vertices in a graph $G$ is called an [*independent set*]{} if\nthere are no edges between the vertices.\n\nThe [*independence number*]{} of a graph $G$, usually denoted by\n$\\alpha(G)$, is the size of a maximal independent set in $G$.\n$\\alpha(G) \\geq \\nu$ means that there are $\\nu$ vertices with no edges\nbetween them.\n\nAn independent set is sometimes called a stable set or an anticlique.",
+  "language": "INFORMAL",
+  "phrase": "Independent Set And Independence Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndependentSetAndIndependenceNumber"
+    }
+  ],
+  "indexable": true
+}

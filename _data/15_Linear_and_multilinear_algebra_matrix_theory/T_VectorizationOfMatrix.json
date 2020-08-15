@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "vectorization",
+    "vectorisation"
+  ],
+  "definition": "The [*vectorization*]{} of a $m\\!\\times\\!n$ matrix $A = (a_{ij})$ the\nmatrix to a column vector $\\mbox{vec}(A)$, which consists of all columns\nof $A$ stacked in :\n$$\\mbox{vec}(A) \\;:=\\; \\left(a_{11}\\;\\;a_{21}\\;\\ldots\\;a_{m1}\\;\\;\\;a_{12}\\;\\;a_{22}\\;\\ldots\\;a_{m2}\\;\\;\n\\ldots\\;\\ldots\\;\\;a_{1n}\\;\\;a_{2n}\\;\\ldots\\;a_{mn}\\right)^\\intercal$$\nThe mapping vec from the vector space formed by the $m\\!\\times\\!n$\nmatrices to the vector space of the column vectors of the $mn$ is\napparently a linear transformation.",
+  "language": "INFORMAL",
+  "phrase": "Vectorization Of Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VectorizationOfMatrix"
+    }
+  ],
+  "indexable": true
+}

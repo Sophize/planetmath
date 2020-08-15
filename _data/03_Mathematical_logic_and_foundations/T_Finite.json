@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A set $S$ is *finite* if there exists a natural number $n$ and a\nbijection from $S$ to $n$. Note that we are using the set theoretic\ndefinition of natural number, under which the natural number $n$ equals\nthe set $\\{0,1,2,\\ldots,n-1\\}$. If there exists such an $n$, then it is\nunique, and we call $n$ the *cardinality* of $S$.\n\nEquivalently, a set $S$ is finite if and only if there is no bijection\nbetween $S$ and any proper subset of $S$.",
+  "language": "INFORMAL",
+  "phrase": "Finite",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Finite"
+    }
+  ],
+  "indexable": true
+}

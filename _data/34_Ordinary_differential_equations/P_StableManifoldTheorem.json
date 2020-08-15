@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $E$ be an open subset of $\\mathbb{R}^n$ containing the origin, let\n$f\\in C^1(E)$, and let $\\phi_t$ be the flow of the nonlinear system\n$x'=f(x)$.\n\nSuppose that $f(x_0)=0$ and that $Df(x_0)$ has $k$ eigenvalues with\nnegative real part and $n-k$ eigenvalues with positive real part. Then\nthere exists a $k$-dimensional differentiable manifold $S$ tangent to\nthe stable subspace $E^S$ of the linear system $x'=Df(x)x$ at $x_0$ such\nthat for all $t\\geq 0$, $\\phi_t(S)\\subset S$ and for all $y\\in S$,\n$$\\lim_{t\\to\\infty}\\phi_t(y)=x_0$$ and there exists an $n-k$ dimensional\ndifferentiable manifold $U$ tangent to the unstable subspace $E^U$ of\n$x'=Df(x)x$ at $x_0$ such that for all $t\\leq 0$, $\\phi_t(U)\\subset U$\nand for all $y\\in U$, $$\\lim_{t\\to -\\infty}\\phi_t(y)=x_0.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StableManifoldTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "stable manifold theorem"
+  ]
+}

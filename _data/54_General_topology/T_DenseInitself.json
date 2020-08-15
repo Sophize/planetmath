@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A subset $A$ of a topological space is said to be *dense-in-itself* if\n$A$ contains no isolated points.\n\nNote that if the subset $A$ is also a closed set, then $A$ will be a\nperfect set. Conversely, every perfect set is dense-in-itself.\n\nA simple example of a set which is dense-in-itself but not closed (and\nhence not a perfect set) is the subset of irrational numbers. This set\nis dense-in-itself because every neighborhood of an irrational number\n$x$ contains at least one other irrational number $y \\ne x$. On the\nother hand, this set of irrationals is not closed because every rational\nnumber lies in its closure.\n\nFor similar reasons, the set of rational numbers is also dense-in-itself\nbut not closed.",
+  "language": "INFORMAL",
+  "phrase": "Dense In-Itself",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DenseInitself"
+    }
+  ],
+  "indexable": true
+}

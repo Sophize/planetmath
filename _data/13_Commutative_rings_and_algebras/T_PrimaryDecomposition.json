@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "shortest primary decomposition"
+  ],
+  "definition": "Let $R$ be a commutative ring and $A$ be an ideal in $R$. A\n*decomposition* of $A$ is a way of writing $A$ as a finite intersection\nof primary ideals: $$\\begin{aligned}\nA=\\bigcap_{i=1}^n Q_i,\\end{aligned}$$\n\nwhere the $Q_i$ are primary in $R$.\n\nNot every ideal admits a primary decomposition, so we define a\n*decomposable ideal* to be one that does.\n\n**Example**. Let $R={{\\mathbb}{Z}}$ and take $A=(180)$. Then $A$ is\ndecomposable, and a primary decomposition of $A$ is given by\n$$\\begin{aligned}\nA=(4)\\cap (9)\\cap (5),\\end{aligned}$$ since $(4)$, $(9)$, and $(5)$ are\nall primary ideals in ${{\\mathbb}{Z}}$.\n\nGiven a primary decomposition $A=\\cap Q_i$, we say that the\ndecomposition is a *minimal primary decomposition* if for all $i$, the\nprime ideals $P_i=\\text{rad}(Q_i)$ (where rad denotes the radical of an\nideal) are distinct, and for all $1\\leq i\\leq n$, we have\n$$\\begin{aligned}\nQ_i\\not\\subset \\bigcap_{j\\neq i} Q_j\\end{aligned}$$\n\nIn the example above, the decomposition $(4)\\cap (9)\\cap (5)$ of $A$ is\nminimal, where as $A=(2)\\cap (4) \\cap (3) \\cap (9) \\cap (5)$ is not.\n\nEvery primary decomposition can be refined to admit a minimal primary\ndecomposition.",
+  "language": "INFORMAL",
+  "phrase": "Primary Decomposition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimaryDecomposition"
+    }
+  ],
+  "indexable": true
+}

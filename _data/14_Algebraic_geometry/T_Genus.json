@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "\u201cGenus\u201d has number of distinct but compatible definitions.\n\nIn topology, if $S$ is an orientable surface, its genus $g(S)$ is the\nnumber of \u201chandles\u201d it has. More precisely, from the classification of\nsurfaces, we know that any orientable surface is a sphere, or the\nconnected sum of $n$ tori. We say the sphere has genus 0, and that the\nconnected sum of $n$ tori has genus $n$ (alternatively, genus is\nadditive with respect to connected sum, and the genus of a torus is 1).\nAlso, $g(S)=1-\\chi(S)/2$ where $\\chi(S)$ is the Euler characteristic of\n$S$.\n\nIn algebraic geometry, the [genus]{} of a smooth projective curve $X$\nover a field $k$ is the dimension over $k$ of the vector space\n$\\Omega^1(X)$ of global regular differentials on $X$. Recall that a\nsmooth complex curve is also a Riemann surface, and hence topologically\na surface. In this case, the two definitions of genus coincide.",
+  "language": "INFORMAL",
+  "phrase": "Genus",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Genus"
+    }
+  ],
+  "indexable": true
+}

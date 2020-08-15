@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For a complex analytic subvariety $V$ and $p \\in V$ a regular point, let\n$\\dim_p V$ denote the complex dimension of $V$ near the point $p.$\n\nLet $U \\subset {\\mathbb{C}}^n$ be a and let $S$ be a complex analytic\nsubvariety of $U$ of dimension $m < n.$ Let $V$ be a complex analytic\nsubvariety of $U \\backslash S$ such that $\\dim_p V > m$ for all regular\npoints $p \\in V.$ Then the closure of $V$ in $U$ is an analytic variety\nin $U.$\n\nThe condition that $\\dim_p V > m$ for all regular $p$ is the same as\nsaying that all the irreducible components of $V$ are of dimension\nstrictly greater than $m.$ To show that the restriction on the dimension\nof $S$ is \u201csharp,\u201d consider the following example where the dimension of\n$V$ equals the dimension of $S$. Let $(z,w) \\in {\\mathbb C}^2$ be our\ncoordinates and let $V$ be defined by $w = e^{1/z}$ in\n${\\mathbb C}^2 \\setminus S,$ where $S$ is defined by $z = 0.$ The\nclosure of $V$ in ${\\mathbb C}^2$ cannot possibly be analytic. To see\nthis look for example at $W = \\overline{V} \\cap \\{ w = 1 \\}.$ If\n$\\overline{V}$ is analytic then $W$ ought to be a zero dimensional\ncomplex analytic set and thus a set of isolated points, but it has a\nlimit point $(0,1)$ by Picard\u2019s theorem.\n\nFinally note that there are various generalizations of this theorem\nwhere the set $S$ need not be a variety, as long as it is of small\nenough dimension. Alternatively, if $V$ is of finite volume, we can\nweaken the restrictions on $S$ even further.\n\n[9]{} Klaus Fritzsche, Hans Grauert. [**]{}, Springer-Verlag, New York,\nNew York, 2002. Hassler Whitney. [**]{}. Addison-Wesley, Philippines,\n1972.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RemmertSteinTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Remmert-Stein theorem",
+    "Remmert-Stein extension theorem"
+  ]
+}

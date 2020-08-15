@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If ${f:{X\\rightarrow Y}}$ is a weak homotopy equivalence and $X$ and $Y$\nare path-connected and of the homotopy type of CW complexes, then $f$ is\na strong homotopy equivalence.\n\nIt is essential to the theorem that isomorphisms between $\\pi_k(X)$ and\n$\\pi_k(Y)$ for all $k$ are induced by a map ${f:{X\\rightarrow Y}};$ if\nan isomorphism exists which is not induced by a map, it need not be the\ncase that the spaces are homotopy equivalent.\n\nFor example, let $X={{{\\mathbb R}}P}^m{\\times}S^n$ and\n$Y={{{\\mathbb R}}P}^n{\\times}S^m.$ Then the two spaces have isomorphic\nhomotopy groups because they both have a universal covering space\nhomeomorphic to $S^m{\\times}S^n,$ and it is a double covering in both\ncases. However, for $m<n,$ $X$ and $Y$ are not homotopy equivalent, as\ncan be seen, for example, by using homology: $$\\begin{aligned}\nH_m(X;{{{\\mathbb Z}}/ 2{{\\mathbb Z}}})&{\\cong}&{{{\\mathbb Z}}/ 2{{\\mathbb Z}}}, \\quad \\textrm{but} \\\\\nH_m(Y;{{{\\mathbb Z}}/ 2{{\\mathbb Z}}})&{\\cong}&{{{\\mathbb Z}}/ 2{{\\mathbb Z}}}\\oplus{{{\\mathbb Z}}/ 2{{\\mathbb Z}}}.\\end{aligned}$$\n\n(Here, ${{{\\mathbb R}}P}^n$ is $n$-dimensional real projective space,\nand $S^n$ is the $n$-sphere.)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WhiteheadTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Whitehead theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A tree is, by definition, a partially ordered set. An *ordered tree* is\na tree equipped with a linear extension. In other words, its a linear\norder on the nodes of the tree that obeys the parent-child relationship\nof the tree. By Zorn\u2019s lemma, every tree can be ordered. When a tree $T$\nis finite, the linear extension of the tree can be constructed\ninductively:\n\n1.  First, label the nodes of $T$: each label is an $n$-tuple of\n    positive integers, for some $n$,\n\n    1.  the root of $T$ is labeled $(1)$,\n\n    2.  if a node $V$ of $T$ has been labeled $(m_1,\\ldots,m_k)$, and if\n        the children of $T$ are $V_1,\\ldots, V_{\\ell}$, then label each\n        $V_i$ by $(m_1,\\ldots, m_k, i)$.\n\n    From this labeling process, we see that the (direct) children of the\n    root have labels $(1,1),(1,2),\\ldots $. In general, if a node is of\n    level $k$, its label is a $k$-tuple starting with $1$. It is easy to\n    see that each label corresponds to a unique node of $T$: for if two\n    distinct nodes are of different level, their labels are clearly\n    different. However, if they are of the same level, then the last\n    components of their labels are distinct.\n\n2.  Next, order the labels of the nodes lexicographically. In other\n    words, given an $m$-tuple $p=(p_1,\\ldots, p_m)$ and an $n$-tuple\n    $q=(q_1,\\ldots, q_n)$, compare them componentwise, starting from the\n    first. There are two cases:\n\n    1.  either all $k$ components match, where $k=\\min(m,n)$, or\n\n    2.  $p_j\\ne q_j$, but $p_i=q_i$ for all $i<j$, where\n        $j\\le \\min(m,n)$.\n\n    Then $p<q$ iff $m< n$ in the first case, or $p_j< q_j$ in the\n    second. This ordering on the labels induces an ordering on the\n    nodes: for nodes $V$ and $V'$ with labels $p$ and $p'$,\n    $$V\\le V' \\qquad \\mbox{iff} \\qquad p\\le p'.$$ This ordering on the\n    nodes is linear, and extends the partial ordering on $T$.\n\nFor example, below are two diagrams of the same tree. The one on the\nright is labeled by the method above:\n\n![image](tree1.eps)\n\n![image](tree2.eps)\n\nBy ordering the labels, we get the corresponding ordering of the nodes:\n$$a < b < e < f < c < g < h < i < j < k < d.$$",
+  "language": "INFORMAL",
+  "phrase": "Ordered Tree",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderedTree"
+    }
+  ],
+  "indexable": true
+}

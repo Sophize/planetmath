@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "von Neumann-finite"
+  ],
+  "definition": "A ring $R$ is *Dedekind-finite* if for $a, b \\in R$, whenever $ab=1$\nimplies $ba=1$.\n\nOf course, every commutative ring is Dedekind-finite. Therefore, the\ntheory of Dedekind finiteness is trivial in this case. Some other\nexamples are\n\n1.  any ring of endomorphisms over a finite dimensional vector space\n    (over a field)\n\n2.  any division ring\n\n3.  any ring of matrices over a division ring\n\n4.  finite direct product of Dedekind-finite rings\n\n5.  by the last three examples, any semi-simple ring is Dedekind-finite.\n\n6.  any ring $R$ with the property that there is a natural number $n$\n    such that $x^n=0$ for every nilpotent element $x\\in R$\n\nThe finite dimensionality in the first example can not be extended to\nthe infinite case. Lam in [@lam] gave an example of a ring that is not\nDedekind-finite arising out of the ring of endomorphisms over an\ninfinite dimensional vector space (over a field).\n\n[8]{} T. Y. Lam, [*A First Course in Noncommutative Rings*]{},\nSpringer-Verlag, New York (1991). T. Y. Lam, [*Lectures on Modules and\nRings*]{}, Springer-Verlag, New York (1999).",
+  "language": "INFORMAL",
+  "phrase": "Dedekind-Finite",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Dedekindfinite"
+    }
+  ],
+  "indexable": true
+}

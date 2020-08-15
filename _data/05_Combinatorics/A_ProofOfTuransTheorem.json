@@ -1,0 +1,17 @@
+{
+  "argumentText": "If the graph $G$ has $n\\leq p-1$ vertices it cannot contain any\n$p$\u2013clique and thus has at most ${n\\choose 2}$ edges. So in this case we\nonly have to prove that\n$$\\frac{n(n-1)}{2}\\leq\\left( 1-\\frac{1}{p-1}\\right)\\frac{n^2}{2}.$$\nDividing by $n^2$ we get\n$$\\frac{n-1}{n}=1-\\frac{1}{n}\\leq 1-\\frac{1}{p-1},$$ which is true since\n$n\\leq p-1$.\n\nNow we assume that $n\\geq p$ and the set of vertices of $G$ is denoted\nby $V$. If $G$ has the maximum number of edges possible without\ncontaining a $p$\u2013clique it contains a $p-1$\u2013clique, since otherwise we\nmight add edges to get one. So we denote one such clique by $A$ and\ndefine $B:=G\\backslash A$.\n\nSo $A$ has ${p-1\\choose 2}$ edges. We are now interested in the number\nof edges in $B$, which we will call $e_B$, and in the number of edges\nconnecting $A$ and $B$, which will be called $e_{A,B}$. By induction we\nget:\n$$e_B\\leq\\frac{1}{2}\\left( 1-\\frac{1}{p-1}\\right)\\left(n-p+1\\right)^2.$$\nSince $G$ does not contain any $p$\u2013clique every vertice of $B$ is\nconnected to at most $p-2$ vertices in $A$ and thus we get:\n$$e_{A,B}\\leq (p-2)(n-p+1).$$ Putting this together we get for the\nnumber of edges $|E|$ of $G$:\n$$|E|\\leq{p-1\\choose 2}+\\frac{1}{2}\\left(1-\\frac{1}{p-1}\\right)(n-p+1)^2+(p-2)(n -p+1).$$\nAnd thus we get: $$|E|\\leq\\left( 1-\\frac{1}{p-1}\\right)\\frac{n^2}{2}.$$",
+  "conclusion": "#P_TuransTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfTuransTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Turan's theorem"
+  ]
+}

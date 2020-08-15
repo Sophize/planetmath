@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *transcendence degree* of a set $S$ over a field $K$, denoted $T_S$,\nis the size of the maximal subset $S'$ of $S$ such that all the elements\nof $S'$ are algebraically independent.\n\nThe *transcendence degree* of a field extension $L$ over $K$ is the\ntranscendence degree of the minimal subset of $L$ needed to generate $L$\nover $K$.\n\nHeuristically speaking, the transcendence degree of a finite set $S$ is\nobtained by taking the number of elements in the set, subtracting the\nnumber of algebraic elements in that set, and then subtracting the\nnumber of algebraic relations between distinct pairs of elements in $S$.\n\nThe set $S=\\{\\sqrt{7}, \\pi, \\pi^2, e\\}$ has transcendence $T_S\\leq2$\nover $\\mathbb{Q}$ since there are four elements, $\\sqrt{7}$ is\nalgebraic, and the polynomial $f(x,y)=x^2-y$ gives an algebraic\ndependence between $\\pi$ and $\\pi^2$ (i.e. $(\\pi,\\pi^2)$ is a root of\n$f$), giving $T_S\\leq4-1-1=2$. If we assume the conjecture that $e$ and\n$\\pi$ are algebraically independent, then no more dependencies can\nexist, and we can conclude that, in fact, $T_S=2$.",
+  "language": "INFORMAL",
+  "phrase": "Transcendence Degree",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TranscendenceDegree"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Krull valuation $|\\cdot|_K$ of the field $K$ is called the [ *of the\nKrull valuation*]{} $|\\cdot|_k$ of the field $k$, if $k$ is a subfield\nof $K$ and $|\\cdot|_k$ is the restriction of $|\\cdot|_K$ on $k$.\n\nThe trivial valuation is the only of the trivial valuation of $k$ to an\nalgebraic extension field $K$ of $k$.\n\n[*Proof.*]{} Let\u2019s denote by $|\\cdot|$ the trivial valuation of $k$ and\nalso its arbitrary Krull to $K$. Suppose that there is an element\n$\\alpha$ of $K$ such that $|\\alpha| > 1$. This element satisfies an\nalgebraic equation $$\\alpha^n+a_1\\alpha^{n-1}+...+a_n = 0,$$ where\n$a_1,\\, ..., \\,a_n\\, \\in k$. Since $|a_j| \\leqq 1$ for all $j$\u2019s, we get\nthe impossibility $$0 = |\\alpha^n+a_1\\alpha^{n-1}+...+a_n| =\n\\max\\{|\\alpha|^n,\\,|a_1|\\!\\cdot|\\!\\alpha|^{n-1},\\, ...,\\, |a_n|\\} = \n|\\alpha|^n > 1$$ (cf. the sharpening of the ultrametric triangle\ninequality). Therefore we must have $|\\xi| \\leqq 1$ for all $\\xi\\in K$,\nand because the condition $0 < |\\xi| < 1$ would imply that\n$|\\xi^{-1}| > 1$, we see that\n$$|\\xi| = 1 \\quad \\forall\\xi\\in K\\!\\setminus\\!\\{0\\},$$ which that the\nvaluation is trivial.\n\nThe proof (in \\[1\\]) of the next \u201cextension theorem\u201d is much longer (one\nmust utilize the extension theorem concerning the place of field):\n\nEvery Krull valuation of a field $k$ can be extended to a Krull\nvaluation of any field of $k$.\n\nReferences {#references .unnumbered}\n----------\n\n\\[1\\] Emil Artin: . Lecture notes. Mathematisches Institut, G\u00f6ttingen\n(1959).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtensionOfKrullValuation"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "extension of Krull valuation"
+  ]
+}

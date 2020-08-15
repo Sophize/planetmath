@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $U \\subset \\mathbb{C}$ be a domain with $C^1$ boundary. Let\n$f \\colon U \\to \\mathbb{C}$ be a $C^1$ function that is $C^1$ up to the\nboundary. Then for $z \\in U,$ $$f(z) =\n\\frac{1}{2\\pi i}\n\\int_{\\partial U} \\frac{f(w)}{w-z} dw\n-\n\\frac{1}{2\\pi i}\n\\int_{U} \\frac{\\frac{\\partial f}{\\partial \\bar{z}}(w)}{w-z} d\\bar{w} \\wedge dw .$$\n\nNote that $C^1$ up to the boundary means that the function and the\nderivative extend to be continuous functions on the closure of $U.$ The\ntheorem follows from Stokes\u2019 theorem. When $f$ is holomorphic, then the\nsecond term is zero and this is the classical Cauchy integral formula.\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedCauchyIntegralFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "generalized Cauchy integral formula",
+    "generalized Cauchy formula"
+  ]
+}

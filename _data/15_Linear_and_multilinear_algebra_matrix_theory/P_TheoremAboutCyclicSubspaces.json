@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $k$ be field, $V$ a vector space over $k$, $\\dim V=n$, and\n$T:V \\to V$ a linear operator. Let $W$ be a subspace of $V$. And let\n$v_{1},\\ldots,v_{r} \\in V$ such that\n$W=Z(v_{1},T) \\bigoplus \\cdots \\bigoplus Z(v_{r},T)$ (see the cyclic\nsubspace definition), and $(m_{v_{i}}, m_{v_{j}})=1$ if $i \\neq j$,\nwhere $m_{v}$ denotes the minimal polynomial of $v$ (or in other words,\nits annihilator polynomial). Then,\n$Z(v_{1}+\\cdots+v_{r},T)=Z(v_{1},T) \\bigoplus \\cdots \\bigoplus Z(v_{r}, T)$,\nand $m_{v_{1}+ \\cdots +v_{r}}=m_{v_{1}}  \\cdots  m_{v_{r}}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheoremAboutCyclicSubspaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "theorem about cyclic subspaces"
+  ]
+}

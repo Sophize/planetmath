@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The following system of partial differential equations\n$$\\frac{\\partial u}{\\partial x} = \\frac{\\partial v}{\\partial y},\\quad\n\\frac{\\partial u}{\\partial y} = -\\frac{\\partial v}{\\partial x},$$ where\n$u(x,y), v(x,y)$ are real-valued functions defined on some open subset\nof ${\\mathbb{R}}^2$, was introduced by Riemann\\[1\\] as a definition of a\nholomorphic function. Indeed, if $f(z)$ satisfies the standard\ndefinition of a holomorphic function, i.e. if the complex derivative\n$$f'(z) = \\lim_{\\zeta\\rightarrow 0} \\frac{f(z+\\zeta)-f(z)}{\\zeta}$$\nexists in the domain of definition, then the real and imaginary parts of\n$f(z)$ satisfy the Cauchy-Riemann equations. Conversely, if $u$ and $v$\nsatisfy the Cauchy-Riemann equations, and if their partial derivatives\nare continuous, then the complex valued function\n$$f(z) = u(x,y) + i v(x,y),\\quad z=x+i y,$$ possesses a continuous\ncomplex derivative.\n\n#### References\n\n1.  D. Laugwitz, *Bernhard Riemann, 1826-1866: Turning points in the\n    Conception of Mathematics*, translated by Abe Shenitzer.\n    Birkhauser, 1999.",
+  "language": "INFORMAL",
+  "phrase": "Cauchy-Riemann Equations",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyRiemannEquations"
+    }
+  ],
+  "indexable": true
+}

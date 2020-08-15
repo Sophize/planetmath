@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In this entry, $\\lfloor \\cdot \\rfloor$ denotes the floor function and\n$m$ denotes Lebesgue measure.\n\nFor every positive integer $n$, let\n$\\displaystyle A_n=\\left[ \\frac{n-2^{\\left\\lfloor \\log_2 n \\right\\rfloor}}{2^{\\left\\lfloor \\log_2 n \\right\\rfloor}} , \\frac{n-2^{\\left\\lfloor \\log_2 n \\right\\rfloor}+1}{2^{\\left\\lfloor \\log_2 n \\right\\rfloor}} \\right]$.\nThen every $A_n$ is a subset of $[0,1]$ ( to see a proof) and is\nLebesgue measurable (clear from the fact that each of them is ).\n\nFor every positive integer $n$, define $f_n \\colon [0,1] \\to \\mathbb{R}$\nby $f_n=\\chi_{A_n}$, where $\\chi_S$ denotes the characteristic function\nof the set $S$. The sequence $\\{f_n\\}$ is called the *traveling hump\nsequence*. This colorful name arises from the sequence of the graphs of\nthese functions: A \u201chump\u201d seems to travel from\n$\\displaystyle \\left[ 0, \\frac{1}{2^k} \\right]$ to\n$\\displaystyle \\left[ \\frac{2^k-1}{2^k}, 1 \\right]$, then shrinks by\nhalf and starts from the very left again.\n\nThe traveling hump sequence is an important sequence for at least two\nreasons. It provides a counterexample for the following two statements:\n\n-   Convergence in measure implies convergence almost everywhere with\n    respect to $m$.\n\n-   implies convergence almost everywhere with respect to $m$.\n\nNote that $\\{f_n\\}$ is a sequence of measurable functions that does not\n. For every $x \\in [0,1]$, there exist infinitely many positive integers\n$a$ such that $f_a(x)=0$, and there exist infinitely many positive\nintegers $b$ such that $f_b(x)=1$.\n\nOn the other hand, $\\{f_n\\}$ converges in measure to $0$ and to $0$.",
+  "language": "INFORMAL",
+  "phrase": "Traveling Hump Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TravelingHumpSequence"
+    }
+  ],
+  "indexable": true
+}

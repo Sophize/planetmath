@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*trivial valuation*]{} of a field $K$ is the Krull valuation\n$|\\cdot|$ of $K$ such that $|0| = 0$ and $|x| = 1$ for other elements\n$x$ of $K$.\n\nProperties {#properties .unnumbered}\n----------\n\n1.  Every field has the trivial valuation.\n\n2.  The trivial valuation is non-archimedean.\n\n3.  The valuation ring of the trivial valuation is the whole field and\n    the corresponding maximal ideal is the zero ideal.\n\n4.  The field is with respect to (the metric given by) its trivial\n    valuation.\n\n5.  A finite field has only the trivial valuation. (Let $a$ be the\n    primitive element of the multiplicative group of the field, which is\n    . If $|\\cdot|$ is any valuation of the field, then one must have\n    $|a| = 1$ since otherwise $|1| \\neq 1$. Consequently,\n    $|x| = |a^m| = |a|^m = 1^m = 1$ for all non-zero elements $x$.)\n\n6.  Every algebraic extension of finite fields has only the trivial\n    valuation, but every field of characteristic 0 has non-trivial\n    valuations.",
+  "language": "INFORMAL",
+  "phrase": "Trivial Valuation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TrivialValuation"
+    }
+  ],
+  "indexable": true
+}

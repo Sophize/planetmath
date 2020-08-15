@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $T:V\\rightarrow W$ be a linear mapping, with $V$ finite-dimensional.\nWe wish to show that\n$$\\dim V = \\dim {\\mathop{\\mathrm{Ker}}}T + \\dim{\\mathop{\\mathrm{Img}}}T$$\n\nThe images of a basis of $V$ will span ${\\mathop{\\mathrm{Img}}}T$, and\nhence ${\\mathop{\\mathrm{Img}}}T$ is finite-dimensional. Choose then a\nbasis $w_1,\\ldots,w_n$ of ${\\mathop{\\mathrm{Img}}}T$ and choose\npreimages $v_1,\\ldots,v_n\\in U$ such that\n$$w_i = T(v_i),\\quad i=1\\ldots n$$ Choose a basis $u_1,\\ldots,u_k$ of\n${\\mathop{\\mathrm{Ker}}}T$. The result will follow once we show that\n$u_1,\\ldots,u_k,v_1,\\ldots,v_n$ is a basis of $V$.\n\nLet $v\\in V$ be given. Since $T(v)\\in {\\mathop{\\mathrm{Img}}}T$, by\ndefinition, we can choose scalars $b_1,\\ldots,b_n$ such that\n$$T(v)= b_1 w_1 + \\ldots b_n w_n.$$ Linearity of $T$ now implies that\n$T(b_1 v_1 + \\ldots + b_n v_n-v) = 0,$ and hence we can choose scalars\n$a_1,\\ldots, a_k$ such that\n$$b_1 v_1 + \\ldots + b_n v_n-v = a_1 u_1 + \\ldots a_k u_k.$$ Therefore\n$u_1,\\ldots,u_k,v_1,\\ldots,v_n$ span $V$.\n\nNext, let $a_1,\\ldots, a_k,b_1,\\ldots,b_n$ be scalars such that\n$$a_1 u_1+\\ldots +a_k u_k + b_1 v_1 + \\ldots + b_n v_n = 0.$$ By\napplying $T$ to both sides of this equation it follows that\n$$b_1 w_1 + \\ldots + b_n w_n =0,$$ and since $w_1,\\ldots, w_n$ are\nlinearly independent that $$b_1= b_2 = \\ldots = b_n = 0.$$ Consequently\n$$a_1 u_1+\\ldots +a_k u_k = 0$$ as well, and since $u_1,\\ldots, u_k$ are\nalso assumed to be linearly independent we conclude that\n$$a_1= a_2 = \\ldots = a_k = 0$$ also. Therefore\n$u_1,\\ldots,u_k,v_1,\\ldots,v_n$ are linearly independent, and are\ntherefore a basis. Q.E.D.",
+  "conclusion": "#P_RanknullityTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfRanknullityTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of rank-nullity theorem"
+  ]
+}

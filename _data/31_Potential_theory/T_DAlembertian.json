@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "wave operator",
+    "D'Alembert operator"
+  ],
+  "definition": "The D\u2019Alembertian is the equivalent of the Laplacian in Minkowskian\ngeometry. It is given by:\n$$\\Box = \\nabla^2 - \\frac{1}{c^2} \\frac{\\partial^2}{\\partial t^2}$$ Here\nwe assume a Minkowskian metric of the form $(+, +, +, -)$ as typically\nseen in special relativity. The connection between the Laplacian in\nEuclidean space and the D\u2019Alembertian is clearer if we write both\noperators and their corresponding metric.\n\nLaplacian\n---------\n\n$$\\mbox{Metric: } ds^2 = dx^2 + dy^2 + dz^2$$\n$$\\mbox{Operator: } \\nabla^2 = \\frac{\\partial^2}{\\partial x^2} + \\frac{\\partial^2}{\\partial y^2} + \\frac{\\partial^2}{\\partial z^2}$$\n\nD\u2019Alembertian\n-------------\n\n$$\\mbox{Metric: } ds^2 = dx^2 + dy^2 + dz^2 -cdt^2$$\n$$\\mbox{Operator: } \\Box = \\frac{\\partial^2}{\\partial x^2} + \\frac{\\partial^2}{\\partial y^2} + \\frac{\\partial^2}{\\partial z^2} - \\frac{1}{c^2}\\frac{\\partial^2}{\\partial t^2}$$\n\nIn both cases we simply differentiate twice with respect to each\ncoordinate in the metric. The D\u2019Alembertian is hence a special case of\nthe generalised Laplacian.\n\nConnection with the wave equation\n=================================\n\nThe wave equation is given by:\n$$\\nabla^2 u = \\frac{1}{c^2}\\frac{\\partial^2}{\\partial t^2} u$$\nFactorising in terms of operators, we obtain:\n$$(\\nabla^2 - \\frac{1}{c^2}\\frac{\\partial^2}{\\partial t^2})u = 0$$ or\n$$\\Box u = 0$$ Hence the frequent appearance of the D\u2019Alembertian in\nspecial relativity and electromagnetic theory.\n\nAlternative notation\n====================\n\nThe symbols $\\Box$ and $\\Box^2$ are both used for the D\u2019Alembertian.\nSince it is unheard of to square the D\u2019Alembertian, this is not as\nconfusing as it may appear. The symbol for the Laplacian, $\\Delta$ or\n$\\nabla^2$, is often used when it is clear that a Minkowski space is\nbeing referred to.\n\nAlternative definition\n======================\n\nIt is common to define Minkowski space to have the metric\n$(-, +, +, +)$, in which case the D\u2019Alembertian is simply the negative\nof that defined above:\n$$\\Box = \\frac{1}{c^2} \\frac{\\partial^2}{\\partial t^2} -\\nabla^2$$",
+  "language": "INFORMAL",
+  "phrase": "D'Alembertian",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DAlembertian"
+    }
+  ],
+  "indexable": true
+}

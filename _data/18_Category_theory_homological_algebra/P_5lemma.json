@@ -1,0 +1,20 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $A_i,B_i$ for $i=1,\\ldots,5$ are objects in an abelian category (for\nexample, modules over a ring $R$) such that there is a commutative\ndiagram\n$$\\xymatrix{A_1\\ar[r]\\ar[d]^{\\gamma_1}&A_2\\ar[r]\\ar[d]^{\\gamma_2}&\nA_3\\ar[r]\\ar[d]^{\\gamma_3}&A_4\\ar[r]\\ar[d]^{\\gamma_4}&A_5\\ar[d]^{\\gamma_5}\\\\\nB_1\\ar[r]&B_2\\ar[r]&B_3\\ar[r]&B_4\\ar[r]&B_5}$$ with the rows exact, and\n$\\gamma_1$ is surjective, $\\gamma_5$ is injective, and $\\gamma_2$ and\n$\\gamma_4$ are isomorphisms, then $\\gamma_3$ is an isomorphism as well.\n\nA special case of this is the short 5-lemma, in which $A_1=A_5=B_1=B_5$\nare the trivial objects of the category (hence the rows form short exact\nsequences). In this case, we have that if $\\gamma_2$ and $\\gamma_4$ are\ninjective (resp. surjective, isomorphisms), then $\\gamma_3$ is also\ninjective (resp. surjective, an isomorphism).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/5lemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "5-lemma",
+    "five-lemma",
+    "5-lemma",
+    "short five lemma",
+    "short 5-lemma",
+    "five lemma",
+    "5 lemma"
+  ]
+}

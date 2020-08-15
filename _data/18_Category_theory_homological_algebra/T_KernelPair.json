@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f:A\\to B$ be a morphism in a category $\\mathcal{C}$. The *kernel\npair* of $f$ is defined as the pair of morphisms\n$(k_1: K\\to A, k_2:K\\to A)$ such that $$\\xymatrix@+=4pc{\n{K}\\ar[r]^{k_1}\\ar[d]_{k_2} &{A}\\ar[d]^{f} \\\\\n{A}\\ar[r]_{f}&{B}\n}$$ is a pullback diagram.\n\nSince $$\\xymatrix@+=4pc{\n{A}\\ar[r]^{1_A}\\ar[d]_{1_A} &{A}\\ar[d]^{f} \\\\\n{A}\\ar[r]_{f}&{B}\n}$$ is a commutative diagram, we have a unique morphism $g:A\\to K$ such\nthat $$\\xymatrix@+=4pc{\nA\\ar@/^1ex/[rrd]^{1_A} \\ar@/_1ex/[rdd]_{1_A} \\ar[rd]^g & & \\\\\n& K \\ar[d]^{k_2} \\ar[r]_{k_1} & A\\ar[d]^f \\\\\n& A\\ar[r]_f & B.\n}$$ is commutative. As a result, $k_1$ and $k_2$ are both monomorphisms:\nif $k_1\\circ h_1 = k_1\\circ h_2$, then\n$$h_1 = 1_A \\circ h_1 = (g\\circ k_1) \\circ h_1 = g\\circ (k_1 \\circ h_1) =g\\circ (k_1 \\circ h_2) = (g\\circ k_1) \\circ h_2 = 1_A \\circ h_2 = h_2.$$\n\nFor example, in **Set**, the category of sets, the kernel pair of a\nfunction $f:A\\to B$ is the pair $p_1:K\\to A$ and $p_2:K\\to A$, given by\n$$K=\\lbrace (a,b) \\in A\\times A \\mid f(a)=f(b) \\rbrace,$$ and $p_1$ and\n$p_2$ are given by $$p_1(a,b)=a \\qquad \\mbox{and} \\qquad p_2(a,b)=b.$$\nThis is just the kernel of a function, in the sense of universal\nalgebra. Please see for more details.\n\nThe notion of *cokernel pair* is dually defined.\n\n**Remark**. $f:A\\to B$ is a monomorphism iff the kernel pair of $f$ is\n$(1_A,1_A)$. Dually, $f$ is an epimorphism iff the cokernel pair of $f$\nis $(1_A,1_A)$.\n\n[9]{} F. Borceux *Basic Category Theory, Handbook of Categorical Algebra\nI*, Cambridge University Press, Cambridge (1994)",
+  "language": "INFORMAL",
+  "phrase": "Kernel Pair",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KernelPair"
+    }
+  ],
+  "indexable": true
+}

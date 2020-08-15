@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Definition.** A polynomial $P=a_nx^n+\\cdots+a_0$ over an integral\ndomain $D$ is said to be *primitive* if its coefficients are not all\ndivisible by any element of $D$ other than a unit.\n\n**Proposition (Gauss).** Let $D$ be a unique factorization domain and\n$F$ its field of fractions. If a polynomial $P\\in D[x]$ is reducible in\n$F[x]$, then it is reducible in $D[x]$.\n\n**Remark.**The above statement is often used in its contrapositive form.\nFor an example of this usage, see .\n\n*Proof.* A primitive polynomial in $D[x]$ is by definition divisible by\na non invertible constant polynomial, and therefore reducible in $D[x]$\n(unless it is itself constant). There is therefore nothing to prove\nunless $P$ (which is not constant) is primitive. By assumption there\nexist non-constant $S,\\,T \\in F[x]$ such that $P=ST$. There are elements\n$a,\\,b\\in F$ such that $aS$ and $bT$ are in $D[x]$ and are primitive\n(first multiply by a nonzero element of $D$ to chase any denominators,\nthen divide by the gcd of the resulting coefficients in $D$). Then\n$aSbT = abP$ is primitive by Gauss\u2019s lemma I, but $P$ is primitive as\nwell, so $ab$ is a unit of $D$ and $P=(ab)^{-1}(aS)(bT)$ is a nontrivial\ndecomposition of $P$ in $D[X]$. This completes the proof.\\\n**Remark.** Another result with the same name is Gauss\u2019 lemma on\nquadratic residues.\\\nFrom the above proposition and its proof one may infer the\n\n**Theorem.** If a primitive polynomial of $D[x]$ is divisible in $F[x]$,\nthen it splits in $D[x]$ into primitive prime factors. These are\nuniquely determined up to unit factors of $D$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GausssLemmaII"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gauss's lemma II",
+    "Gauss' lemma II"
+  ]
+}

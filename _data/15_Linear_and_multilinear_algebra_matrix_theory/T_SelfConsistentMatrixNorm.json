@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A matrix norm $N$ is said to be *self consistent* if\n$$N({\\mathbf{A}}{\\mathbf{B}})\\leq N({\\mathbf{A}})\\cdot N({\\mathbf{B}})$$\nfor all pairs of matrices ${\\mathbf{A}}$ and ${\\mathbf{B}}$ such that\n${\\mathbf{A}}{\\mathbf{B}}$ is defined.",
+  "language": "INFORMAL",
+  "phrase": "Self Consistent Matrix Norm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SelfConsistentMatrixNorm"
+    }
+  ],
+  "indexable": true
+}

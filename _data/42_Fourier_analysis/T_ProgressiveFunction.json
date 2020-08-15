@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "#### Definition\n\nA function $f \\in L^2({\\ensuremath{\\mathbb R}})$ is called *progressive*\niff its Fourier transform is supported by positive frequencies only:\n$${\\ensuremath{\\mathop{\\rm supp}}}\\hat{f} \\subseteq {\\ensuremath{\\mathbb R}}_+.$$\nIt is called *regressive* iff the time reversed function $f(-t)$ is\nprogressive, or equivalently, if\n$${\\ensuremath{\\mathop{\\rm supp}}}\\hat{f} \\subseteq {\\ensuremath{\\mathbb R}}_-.$$",
+  "language": "INFORMAL",
+  "phrase": "Progressive Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProgressiveFunction"
+    }
+  ],
+  "indexable": true
+}

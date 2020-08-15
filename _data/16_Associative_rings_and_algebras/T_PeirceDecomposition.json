@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $e$ be an idempotent of a ring $R$, not necessarily with an\nidentity. For any subset $X$ of $R$, we introduce the notations:\n\n$$(1-e)X = \\{ x - ex \\mid x \\in X\\}$$\n\nand\n\n$$X(1-e) = \\{x - xe \\mid x \\in X\\}.$$\n\nIf it happens that $R$ has an identity element, then $1-e$ is a\nlegitimate element of $R$, and this notation agrees with the usual\nproduct of an element and a set.\n\nIt is easy to see that $Xe \\cap X(1-e) = 0 = eX \\cap (1-e)X$ for any set\n$X$ which contains $0$.\n\nApplying this first on the right with $X = R$ and then on the left with\n$X = Re$ and $X = R(1-e)$, we obtain:\n\n$$R = eRe \\oplus eR(1-e) \\oplus (1-e)Re \\oplus (1-e)R(1-e).$$\n\nThis is called the [*Peirce Decompostion*]{} of $R$ with respect to $e$.\n\nNote that $eRe$ and $(1-e)R(1-e)$ are subrings, $eR(1-e)$ is an\n$eRe$-$(1-e)R(1-e)$-bimodule, and $(1-e)Re$ is a\n$(1-e)R(1-e)$-$eRe$-bimodule.\n\nThis is an example of a generalized matrix ring:\n\n$$R {\\cong}\\begin{pmatrix}\n    eRe & eR(1-e) \\\\\n    (1-e)Re & (1-e)R(1-e) \\\\\n  \\end{pmatrix}$$\n\nMore generally, if $R$ has an identity element, and\n$e_1, e_2, \\dots, e_n$ is a complete set of orthogonal idempotents, then\n\n$$R {\\cong}\\begin{pmatrix}\n    e_1Re_1 & e_1Re_2 & \\dots & e_1Re_n \\\\\n    e_2Re_1 & e_2Re_2 & \\dots & e_2Re_n \\\\\n    \\vdots & \\vdots & \\ddots & \\vdots \\\\\n    e_nRe_1 & e_nRe_2 & \\dots & e_nRe_n\n  \\end{pmatrix}$$\n\nis a generalized matrix ring.",
+  "language": "INFORMAL",
+  "phrase": "Peirce Decomposition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PeirceDecomposition"
+    }
+  ],
+  "indexable": true
+}

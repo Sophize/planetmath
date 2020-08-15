@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If\n$$\\mathcal{L}\\{f_1(t)\\} \\,=\\, F_1(s) \\quad\\mbox{and}\\quad \\mathcal{L}\\{f_2(t)\\} \\,=\\, F_2(s),$$\nthen\n$$\\mathcal{L}\\left\\{\\int_0^tf_1(\\tau)f_2(t-\\tau)\\,d\\tau\\right\\} \\;=\\; F_1(s)F_2(s).$$\\\n[*Proof.*]{} According to the definition of Laplace transform, one has\n$$\\mathcal{L}\\left\\{\\int_0^tf_1(\\tau)f_2(t-\\tau)\\,d\\tau\\right\\} \n \\;=\\; \\int_0^\\infty e^{-st}\\left(\\int_0^t f_1(\\tau)f_2(t-\\tau)\\,d\\tau\\right)dt,$$\nwhere the right hand side is a double integral over the angular region\nbounded by the lines $\\tau = 0$ and $\\tau = t$ in the first quadrant of\nthe $t\\tau$-plane. Changing the of integration, we write\n$$\\mathcal{L}\\left\\{\\int_0^tf_1(\\tau)f_2(t-\\tau)\\,d\\tau\\right\\} \n \\;=\\; \\int_0^\\infty\\left(f_1(\\tau)\\int_\\tau^\\infty e^{-st}f_2(t-\\tau)\\,dt\\right)d\\tau.$$\nMaking in the inner integral the substitution $t-\\tau := u$, we obtain\n$$\\int_\\tau^\\infty e^{-st}f_2(t-\\tau)\\,dt \\,=\\, \\int_0^\\infty e^{-(u+\\tau)s}f_2(u)\\,du \n= e^{-\\tau s}\\int_0^\\infty e^{-su}f_2(u)\\,du = e^{-\\tau s}F_2(s),$$\nwhence\n$$\\mathcal{L}\\left\\{\\int_0^tf_1(\\tau)f_2(t-\\tau)\\,d\\tau\\right\\} \\;=\\; \\int_0^\\infty f_1(\\tau)e^{-\\tau s}F_2(s)\\,d\\tau \n\\,=\\, F_2(s)\\int_0^\\infty f_1(\\tau)e^{-\\tau s}\\,d\\tau  = F_1(s)F_2(s),$$\nQ.E.D.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LaplaceTransformOfConvolution"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Laplace transform of convolution",
+    "convolution property of Laplace transform"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "law of parsimony"
+  ],
+  "definition": "The following example in statistics illustrates the principle of\n*Occam\u2019s razor*. See for a thorough discussion, mathematical or not, of\nthis principle, which is also known as the *principle of parsimony*.\n\n**Example in statistics:**\n\nGiven the following ten pairs of hypothetical observations of continuous\nresponse variable $Y$ and continuous explanatory variable $X$:\n\n   $X$   1    2    3    4    5    6    7    8    9    10\n  ----- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----\n   $Y$   11   13   15   15   16   18   21   22   22   24\n\nbe fitted using a linear regression model given by\n$$Y=\\alpha + \\beta X.$$ Using the method of least squares, the\nregression coefficients are found to be $\\alpha=9.867$ and\n$\\beta=1.424$, so that the regression line is $$Y=9.867+1.424X.$$ The\np-values for both regression coefficients are found to be less than\n0.0001 and the p-value for the overall fit of the model is also less\nthan 0.0001. The p-value analysis can be summarized by the following\ntable:\n\n             $\\alpha$     $\\beta$    overall fit of model\n  --------- ----------- ----------- ----------------------\n   p-value   $<0.0001$   $<0.0001$        $<0.0001$\n\nThis indicates that the linear regression equation fits the data very\nwell.\n\nNext, fit the data using a 2nd order polynomial regression model, given\nby $$Y=\\alpha + \\beta X + \\gamma X^2.$$ Least square estimation shows\nthat the regression equation is given by\n$$Y=9.783 + 1.466X - 0.004X^2.$$ The following table shows the result of\nthe p-value analysis of the 2nd order polynomial regression model:\n\n             $\\alpha$    $\\beta$    $\\gamma$   overall fit of model\n  --------- ----------- ---------- ---------- ----------------------\n   p-value   $<0.0001$   $0.0085$    0.9188         $<0.0001$\n\nThe p-value for the fit of the overall model suggests that the\npolynomial regression equation also fits the data well. The same can be\nsaid about the estimates of the regression coefficients $\\alpha$ and\n$\\beta$. However, the coefficient $\\gamma=-0.004$ shows that the\nadditional term does not contribute too much to the overall fit of the\nmodel to the observations. Furthermore, its p-value is very high,\nindicating that the $X^2$ term is not significant.\n\nIn light of the above analysis, we prefer the simpler model\n$Y=\\alpha + \\beta X$ over the more complicated one\n$Y=\\alpha + \\beta X + \\gamma X^2$. This example shows that, in\nstatistical modeling, when a simpler, easier to interpret model exists\nin the presence of more complicated ones, the simpler one should be\nchosen. This is Occam\u2019s razor at work!",
+  "language": "INFORMAL",
+  "phrase": "Occam'S Razor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OccamsRazor"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $x_1,x_2,\\ldots,x_n$ and $y_1,y_2,\\ldots,y_n$ are two sequences (at\nleast one of them consisting of positive numbers):\n\n-   if $x_1<x_2<\\cdots<x_n$ and $y_1<y_2<\\cdots<y_n$\n    then$$\\left(\\frac{x_1+x_2+\\cdots+x_n}{n}\\right)\\left(\\frac{y_1+y_2+\\cdots+y_n}{n}\\right)\n    \\le\\frac{x_1y_1+x_2y_2+\\cdots+x_ny_n}{n}.$$\n\n-   if $x_1<x_2<\\cdots<x_n$ and $y_1>y_2>\\cdots>y_n$\n    then$$\\left(\\frac{x_1+x_2+\\cdots+x_n}{n}\\right)\\left(\\frac{y_1+y_2+\\cdots+y_n}{n}\\right)\n    \\ge\\frac{x_1y_1+x_2y_2+\\cdots+x_ny_n}{n}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChebyshevsInequality1"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Chebyshev's inequality"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Cholesky factorization",
+    "matrix square root"
+  ],
+  "definition": "Cholesky Decomposition\n======================\n\nA symmetric and positive definite matrix can be efficiently decomposed\ninto a lower and upper triangular matrix. For a matrix of any type, this\nis achieved by the LU decomposition which factorizes $A = LU$. If $A$\nsatisfies the above criteria, one can decompose more efficiently into\n$A=LL^T$ where $L$ is a lower triangular matrix with positive diagonal\nelements. $L$ is called the *Cholesky triangle*.\n\nTo solve $Ax = b$, one solves first $Ly = b$ for $y$, and then $L^Tx=y$\nfor $x$.\n\nA variant of the Cholesky decomposition is the form $A=R^TR$ , where $R$\nis upper triangular.\n\nCholesky decomposition is often used to solve the normal equations in\nlinear least squares problems; they give $A^TAx=A^Tb$ , in which $A^TA$\nis symmetric and positive definite.\n\nTo derive $A=LL^T$, we simply equate coefficients on both sides of the\nequation:\n\n$$\\begin{bmatrix}\n a_{11} & a_{12} & \\cdots & a_{1n} \\\\\n a_{21} & a_{22} & \\cdots & a_{2n} \\\\\n a_{31} & a_{32} & \\cdots & a_{3n} \\\\\n \\vdots & \\vdots & \\ddots & \\vdots \\\\\n a_{n1} & a_{n2} & \\cdots & a_{nn} \n\\end{bmatrix}\n=\n\\begin{bmatrix}\n l_{11} & 0      & \\cdots & 0 \\\\\n l_{21} & l_{22} & \\cdots & 0 \\\\\n \\vdots & \\vdots & \\ddots & \\vdots \\\\\n l_{n1} & l_{n2} & \\cdots & l_{nn}\n\\end{bmatrix}\n\\begin{bmatrix}\n l_{11} & l_{21} & \\cdots & l_{n1} \\\\\n 0      & l_{22} & \\cdots & l_{n2} \\\\\n \\vdots & \\vdots & \\ddots & \\vdots \\\\\n 0      & 0      & \\cdots & l_{nn}\n\\end{bmatrix}$$\n\nSolving for the unknowns (the nonzero $l_{ji}$s), for $i=1,\\cdots ,n$\nand $j=i-1,\\ldots ,n$, we get:\n\n$$\\begin{aligned}\n l_{ii} & = & \\sqrt{\\left( a_{ii} - \\sum_{k=1}^{i-1} l_{ik}^2 \\right)} \\\\\n l_{ji} & = & \\left(a_{ji} - \\sum_{k=1}^{i-1} l_{jk} l_{ik} \\right) / l_{ii}\\end{aligned}$$\n\nBecause $A$ is symmetric and positive definite, the expression under the\nsquare root is always positive, and all $l_{ij}$ are real.\n\n[3]{}\n\nOriginally from The Data Analysis Briefbook ()",
+  "language": "INFORMAL",
+  "phrase": "Cholesky Decomposition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CholeskyDecomposition"
+    }
+  ],
+  "indexable": true
+}

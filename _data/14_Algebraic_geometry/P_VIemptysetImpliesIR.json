@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Note that most of the notation used here is defined in the entry prime\nspectrum.\n\nIf $R$ is a commutative ring with identity and $I$ is an ideal of $R$\nwith $V(I)=\\emptyset$, then $I=R$.\n\nLet $R$ be a commutative ring with identity and $I$ be an ideal of $R$\nwith $I \\neq R$. Then, by , there exists a maximal ideal $M$ of $R$\ncontaining $I$. Since $M$ is , then $M$ is a proper prime ideal of $R$.\nThus, $M \\in V(I)$. The theorem follows.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VIemptysetImpliesIR"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$V(I)=\\emptyset$ implies $I=R$"
+  ]
+}

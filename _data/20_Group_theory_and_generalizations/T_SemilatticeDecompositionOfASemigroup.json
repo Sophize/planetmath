@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A semigroup $S$ has a *semilattice decomposition* if we can write\n$S = \\bigcup_{\\gamma \\in \\Gamma}S_\\gamma$ as a disjoint union of\nsubsemigroups, indexed by elements of a semilattice $\\Gamma$, with the\nadditional condition that $x \\in S_\\alpha$ and $y \\in S_\\beta$ implies\n$xy \\in S_{\\alpha\\beta}$.\n\nSemilattice decompositions arise from homomorphims of semigroups onto\nsemilattices. If $\\phi \\colon S \\to \\Gamma$ is a surjective\nhomomorphism, then it is easy to see that we get a semilattice\ndecomposition by putting $S_\\gamma = \\phi^{-1}(\\gamma)$ for each\n$\\gamma \\in \\Gamma$. Conversely, every semilattice decomposition defines\na map from $S$ to the indexing set $\\Gamma$ which is easily seen to be a\nhomomorphism.\n\nA third way to look at semilattice decompositions is to consider the\ncongruence $\\rho$ defined by the homomorphism\n$\\phi \\colon S \\to \\Gamma$. Because $\\Gamma$ is a semilattice,\n$\\phi(x^2) = \\phi(x)$ for all $x$, and so $\\rho$ satisfies the\nconstraint that $x \\,\\rho\\, x^2$ for all $x \\in S$. Also,\n$\\phi(xy) = \\phi(yx)$ so that $xy \\,\\rho\\, yx$ for all $x, y \\in S$. A\ncongruence $\\rho$ which satisfies these two conditions is called a\n*semilattice congruence*.\n\nConversely, a semilattice congruence $\\rho$ on $S$ gives rise to a\nhomomorphism from $S$ to a semilattice $S/\\rho$. The $\\rho$-classes are\nthe components of the decomposition.",
+  "language": "INFORMAL",
+  "phrase": "Semilattice Decomposition Of A Semigroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemilatticeDecompositionOfASemigroup"
+    }
+  ],
+  "indexable": true
+}

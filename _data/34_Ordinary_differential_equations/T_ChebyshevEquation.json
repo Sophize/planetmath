@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Chebyshev differential equation"
+  ],
+  "definition": "Chebyshev\u2019s equation is the second order linear differential equation\n$$(1-x^2)\\frac{d^2y}{dx^2} - x\\frac{dy}{dx} + p^2y = 0$$ where $p$ is a\nreal constant.\n\nThere are two independent solutions which are given as series by:\n\n$$y_1(x) = 1 - \\tfrac{p^2}{2!}x^2 + \\tfrac{(p-2)p^2(p+2)}{4!}x^4\n      - \\tfrac{(p-4)(p-2)p^2(p+2)(p+4)}{6!}x^6 + \\dotsb$$ and\n$$y_2(x) = x - \\tfrac{(p-1)(p+1)}{3!}x^3 + \\tfrac{(p-3)(p-1)(p+1)(p+3)}{5!}x^5 - \\dotsb$$\n\nIn each case, the coefficients are given by the recursion\n$$a_{n+2} = \\frac{(n-p)(n+p)}{(n+1)(n+2)} a_n$$ with $y_1$ arising from\nthe choice $a_0 = 1$, $a_1 = 0$, and $y_2$ arising from the choice\n$a_0 = 0$, $a_1 = 1$.\n\nThe series converge for $|x| < 1$; this is easy to see from the ratio\ntest and the recursion formula above.\n\nWhen $p$ is a non-negative integer, one of these series will terminate,\ngiving a polynomial solution. If $p \\ge 0$ is even, then the series for\n$y_1$ terminates at $x^p$. If $p$ is odd, then the series for $y_2$\nterminates at $x^p$.\n\nThese polynomials are, up to multiplication by a constant, the Chebyshev\npolynomials. These are the only polynomial solutions of the Chebyshev\nequation.\n\n(In fact, polynomial solutions are also obtained when $p$ is a negative\ninteger, but these are not new solutions, since the Chebyshev equation\nis invariant under the substitution of $p$ by $-p$.)",
+  "language": "INFORMAL",
+  "phrase": "Chebyshev Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChebyshevEquation"
+    }
+  ],
+  "indexable": true
+}

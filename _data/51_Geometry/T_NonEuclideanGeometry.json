@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *non-Euclidean geometry* is a in which at least one of the axioms from\nEuclidean geometry fails. Within this entry, only geometries that are\nconsidered to be two-dimensional will be considered.\n\nThe most common non-Euclidean geometries are those in which the parallel\npostulate fails; , there is not a unique line that does not intersect a\ngiven line through a point not on the given line. Note that this is\nequivalent to saying that the sum of the angles of a triangle is not\nequal to $\\pi$ radians.\n\nIf there is more than one such parallel line, the is called *hyperbolic*\n(or *Bolyai-Lobachevski*). In these of , the sum of the angles of a\ntriangle is strictly in $0$ and $\\pi$ radians. (This sum is not constant\nas in Euclidean geometry; it depends on the area of the triangle. See\nthe entry regarding defect for more details.)\n\nAs an example, consider the disc\n$\\{(x,y) \\in \\mathbb{R}^2 : x^2+y^2<1 \\}$ in which a point is similar to\nthe Euclidean point and a line is defined to be a chord (excluding its\nendpoints) of the () boundary. This is the Beltrami-Klein model for\n$\\mathbb{H}^2$. It is relatively easy to see that, in this , given a\nline and a point not on the line, there are infinitely many lines\npassing through the point that are parallel to the given line.\n\nIf there is no parallel line, the is called *spherical* (or *elliptic*).\nIn these of , the sum of the angles of a triangle is strictly in $\\pi$\nand $3\\pi$ radians. (This sum is not constant as in Euclidean geometry;\nit depends on the area of the triangle. See the entries regarding and\narea of a spherical triangle for more details.)\n\nAs an example, consider the surface of the\n$\\{(x,y,z) \\in \\mathbb{R}^3 : x^2+y^2+z^2=1 \\}$ in which a point is\nsimilar to the Euclidean point and a line is defined to be a great\ncircle. (Note that, when a sphere serves as a model of spherical\ngeometry, its radius is typically assumed to be 1.) It is relatively\neasy to see that, in this , given a line and a point not on the line, it\nis impossible to find a line passing through the point that does not\nintersect the given line.\n\nNote also that, in spherical geometry, two distinct points do not\nnecessarily determine a unique line; however, two distinct points that\nare not antipodal always determine a unique line.\n\nOne final example of a non-Euclidean is *semi-Euclidean geometry*, in\nwhich the axiom of Archimedes fails.",
+  "language": "INFORMAL",
+  "phrase": "Non-Euclidean Geometry",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NonEuclideanGeometry"
+    }
+  ],
+  "indexable": true
+}

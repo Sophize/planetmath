@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a ring and $\\mathfrak{a}_1$, $\\mathfrak{a}_2$, \u2026,\n$\\mathfrak{a}_n$ its ideals (left, right or two-sided). We say that $R$\nis the [*internal direct sum*]{} of these ideals, denoted by\n$$R =  \\mathfrak{a}_1\\oplus\\mathfrak{a}_2\\oplus\\cdots\\oplus\\mathfrak{a}_n,$$\nif both of the following conditions are true:\n$$R = \\mathfrak{a}_1+\\mathfrak{a}_2+\\cdots+\\mathfrak{a}_n,$$\n$$\\mathfrak{a}_i\\cap\\sum_{j\\neq i}\\mathfrak{a}_j = \\{0\\}\\quad\\forall i.$$\n\nIf $\\mathfrak{a}_1$, $\\mathfrak{a}_2$, \u2026, $\\mathfrak{a}_n$ are ideals of\nthe ring $R$, then the following two statements are equivalent:\n\n-   $R = \\mathfrak{a}_1\\oplus\\mathfrak{a}_2\\oplus\\cdots\\oplus\\mathfrak{a}_n$.\n\n-   Every element $r$ of $R$ has a unique expression\\\n    $r = a_1\\!+\\!a_2\\!+\\cdots+\\!a_n$ with\n    $a_i\\in\\mathfrak{a}_i\\,\\,\\,\\forall i$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InternalDirectSumOfIdeals"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "internal direct sum of ideals"
+  ]
+}

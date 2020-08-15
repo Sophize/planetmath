@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The codifferential $\\delta$ of a $k$-form on an $n$-dimensional\nRiemannian manifold is given by:\n\n$$(-1)^{n(k+1)+1}\\ast d \\ast$$\n\nwhere $\\ast$ is the Hodge star operator and $d$ is the exterior\nderivative.\n\nLet $g$ denote the matrix locally representing the metric with respect\nto co-ordinates $x_1,\\cdots,x_n$. Then for a 1-form $w$ we have:\n\n$$\\delta w = \\frac{-1}{\\surd{({\\rm Det } g)}} \\frac{\\partial}{\\partial\nx_i}\\left[\\surd{({\\rm Det } g)} \\{g^{-1}\\}_{ij}  w_j \\right]$$",
+  "language": "INFORMAL",
+  "phrase": "Codifferential",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Codifferential"
+    }
+  ],
+  "indexable": true
+}

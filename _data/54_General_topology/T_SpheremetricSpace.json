@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "sphere"
+  ],
+  "definition": "The set $\\{ x \\mid d(x,c) = r \\}$ is called the *sphere* of radius $r$\nwith centre $c$. This generalizes the notion of spheres to metric\nspaces.\n\nNote that the sphere in a metric space need not look like a sphere in\nEuclidean space. For instance, if we impose the metric\n$d(x,y) = max \\{|x_1-y_1|, |x_2-y_2|, |x_3-y_3|\\}$ on $\\mathbb{R}^3$\ninstead of the Euclidean metric, spheres according to this metric are\nactually cubes! Even more bizarre situations can occur in general \u2014 a\nsphere might be disconnected, or it may be discrete, or it may even be\nan empty set.",
+  "language": "INFORMAL",
+  "phrase": "Sphere (Metric Space)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpheremetricSpace"
+    }
+  ],
+  "indexable": true
+}

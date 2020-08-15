@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(A,d)$ and $(A^{'},d^{'})$ be chain complexes. A *chain map*\n$f:A \\to A^{'}$ is a sequence of homomorphisms $\\{f_n\\}$ such that\n$d_{n}^{'} \\circ f_{n} =  f_{n-1} \\circ d_{n}$ for each $n$.\nDiagramatically, this says that the following diagram commutes:\n$$\\xymatrix{\n& A_{n} \\ar[d]^{f_n} \\ar[r]^{d_{n}} & A_{n-1} \\ar[d]^{f_{n-1}} \\\\\n& A_{n}^{'} \\ar[r]^{d_{n}^{'}} & A_{n-1}^{'}\n}$$",
+  "language": "INFORMAL",
+  "phrase": "Chain Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChainMap"
+    }
+  ],
+  "indexable": true
+}

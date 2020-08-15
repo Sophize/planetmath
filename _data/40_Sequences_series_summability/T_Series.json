@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a sequence of numbers (real or complex) $\\{a_n\\}$ we define a\nsequence of *partial sums* $\\{S_N\\}$, where $S_N=\\sum_{n=1}^N a_n$. This\nsequence is called the *series* with *terms* $a_n$. We define the *sum\nof the series* $\\sum_{n=1}^\\infty a_n$ to be the limit of these partial\nsums. More precisely $$\\sum_{n=1}^\\infty a_n = \\lim_{N\\to\\infty} S_n\n    = \\lim_{N\\to\\infty} \\sum_{n=1}^N a_n.$$ In a context where this\ndistinction does not matter much (this is usually the case) one\nidentifies a series with its sum, if the latter exists.\n\nTraditionally, as above, series are infinite sums of real numbers.\nHowever, the formal constraints on the terms $\\{a_n\\}$ are much less\nstrict. We need only be able to add the terms and take the limit of\npartial sums. So in full generality the terms could be complex numbers\nor even elements of certain rings, fields, and vector spaces.",
+  "language": "INFORMAL",
+  "phrase": "Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Series"
+    }
+  ],
+  "indexable": true
+}

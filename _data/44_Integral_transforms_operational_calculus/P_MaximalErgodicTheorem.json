@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(X,\\mathcal{B},\\mu)$ be a probability space and $T:X\\rightarrow X$\na measure preserving transformation. Let $f$ be a $L^1(\\mu)$ function.\nDefine the averages\n$$f^*(x)=\\sup_{N\\geq 1} \\frac{1}{N} \\sum_{i=0}^{N-1} f(T^i(x))$$ Then,\nfor any $\\lambda \\in \\textbf{R}$, we have:\n$$\\int_{f^*>\\lambda} fd\\mu \\geq \\lambda \\mu ( \\{f^* > \\lambda \\} )$$\nThis theorem may be used in the proof of the ergodic theorem (also known\nas Birkhoff ergodic theorem, or pointwise or strong ergodic theorem)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MaximalErgodicTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Maximal ergodic theorem"
+  ]
+}

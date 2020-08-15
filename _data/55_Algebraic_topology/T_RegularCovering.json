@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "normal covering",
+    "Galois covering"
+  ],
+  "definition": "Let $p\\co E\\to X$ be a covering map where $E$ and $X$ are connected and\nlocally path connected and let $X$ have a basepoint $*$. The following\nare equivalent:\n\n1.  The action of ${ \\operatorname{Aut}}(p)$, the group of covering\n    transformations of $p$, is transitive on the fiber $p^{-1}(*)$,\n\n2.  for some $e\\in p^{-1}(*)$, $p_*\\left(\\pi_1(E,e)\\right)$ is a normal\n    subgroup of $\\pi_1(X,*)$, where $p_*$ denotes $\\pi_1(p)$,\n\n3.  $\\forall e,e'\\in p^{-1}(*), \\quad\n      p_*\\left(\\pi_1(E,e)\\right)=p_* \\left(\\pi_1(E,e')\\right)$,\n\n4.  there is a discrete group $G$ such that $p$ is a principal\n    $G$-bundle.\n\nAll the elements for the proof of this theorem are contained in the\narticles about the monodromy action and the deck transformations.\n\nA covering with the properties described in the previous theorem is\ncalled a *regular* or *normal* covering. The term *Galois* covering is\nalso used sometimes.",
+  "language": "INFORMAL",
+  "phrase": "Regular Covering",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegularCovering"
+    }
+  ],
+  "indexable": true
+}

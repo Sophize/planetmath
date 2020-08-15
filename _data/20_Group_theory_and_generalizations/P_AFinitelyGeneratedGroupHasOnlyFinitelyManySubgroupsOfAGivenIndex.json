@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a finitely generated group and let $n$ be a positive integer.\nLet $H$ be a subgroup of $G$ of index $n$ and consider the action of $G$\non the coset space $(G:H)$ by right multiplication. Label the cosets\n$1, \\ldots, n$, with the coset $H$ labelled by $1$. This gives a\nhomomorphism $\\phi : G \\to S_n$. Now, $x \\in H$ if and only if $Hx = H$,\nthat is, $G$ fixes the coset $H$. Therefore, $H =\n{\\mathrm{Stab}}_G(1) = \\{g \\in G \\mid 1(g\\phi) = 1\\}$, and this is\ncompletely determined by $\\phi$. Now let $X$ be a finite generating set\nfor $G$. Then $\\phi$ is determined by the images $x\\phi$ of the\ngenerators $x\n\\in X$. There are $|S_n| = n!$ choices for the image of each $x \\in\nX$, so there are at most $n!^{|X|}$ homomorphisms $G \\to S_n$. Hence,\nthere are only finitely many possibilities for $H$.\n\n[99]{}\n\nM.\u00a0[Hall, Jr.]{}, *A topology for free groups and related groups*, Ann.\nof Math. **52** (1950), no.\u00a01, 127\u2013139.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AFinitelyGeneratedGroupHasOnlyFinitelyManySubgroupsOfAGivenIndex"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "A finitely generated group has only finitely many subgroups of a given index"
+  ]
+}

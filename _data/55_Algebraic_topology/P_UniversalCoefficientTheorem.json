@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Universal Coefficient Theorem for homology expresses the homology\ngroups with coefficients in an arbitrary abelian group $G$ in terms of\nthe homology groups with coefficients in $\\mathbb{Z}$.\n\n**Theorem (Universal Coefficients for Homology)**\\\nLet $K$ be a chain complex of free abelian groups, and let $G$ any\nabelian group. Then there exists a split short exact sequence\n\n$$\\xymatrix{\n0 \\ar[r] & H_n(K) \\otimes_{\\mathbb{Z}} G \\ar[r]^{\\alpha} & H_n(K \\otimes_{\\mathbb{Z}} G) \\ar[r]^{\\beta} & \\mbox{Tor}(H_{n-1}(K),G) \\ar[r] & 0.}$$\n\nAs well, $\\alpha$ and $\\beta$ are natural with respect to chain maps and\nhomomorphisms of coefficient groups. The diagram splits naturally with\nrespect to coefficient homomorphisms but not with respect to chain maps.\nHere, the functor $\\mathrm{Tor(\\_,G)}$ is\n$\\mathrm{Tor}^{\\mathbb{Z}}_{1}(\\_,G)$, the first left derived functor of\n$\\otimes_{\\mathbb{Z}} G$.\n\nWe can define the map $\\alpha$ as follows: Chose a cycle\n$[u] \\in H_n(K)$ represented by $u \\in K_n$. Then\n$u \\otimes x \\in K_n \\otimes G$ is a cycle, so we set\n$\\alpha([u] \\otimes x)$ to be the homology class of $u \\otimes x$. Of\ncourse, one must check that this is well defined, in that it does not\ndepend on our representative for $[u]$.\n\nThe universal coefficient theorem for cohomology expresses the\ncohomology groups of a complex in terms of its homology groups. More\nspecifically we have the following\n\n**Theorem (Universal Coefficients for Cohomology)**\\\nLet $K$ be a chain complex of free abelian groups, and let $G$ be any\nabelian group. Then there exists a split short exact sequence\n\n$$\\xymatrix{\n0 \\ar[r] & \\mbox{Ext}(H_{n-1}(K),G) \\ar[r]^{\\beta} & H^n(\\mbox{Hom}(K,G)) \\ar[r]^{\\alpha} & \\mbox{Hom}(H_n(K),G) \\ar[r] & 0.}$$\n\nThe homomorphisms $\\beta$ and $\\alpha$ are natural with respect to\ncoefficient homomorphisms and chain maps. The diagram splits naturally\nwith respect to coefficient homomorphisms but not with respect to chain\nmaps. Here $\\mathrm{Ext}(\\_,G)$ is\n$\\mathrm{Ext}^{1}_{\\mathbb{Z}}(\\_,G)$, the first right derived functor\nof $\\mathrm{Hom}_\\mathbb{Z}(\\_,G)$.\n\nThe map $\\alpha$ above is defined above in the following manner: Let\n$[u] \\in H^n(\\mbox{Hom}(K,G))$ be represented by the cocycle\n$u \\in \\mbox{Hom}(K_n,G)$. For $[x]$ a cycle in $H_n(K)$ represented by\n$x \\in K_n$, we have $u(x) \\in G$. We therefore set\n$\\alpha([u])([x]) = u(x)$. Again, it is necessary to check that this\ndoes not depend on the chosen representatives $x$ and $u$.\n\n[9]{} W. Massey, [*Singular Homology Theory*]{}, Springer-Verlag, 1980",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniversalCoefficientTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "universal coefficient theorem"
+  ]
+}

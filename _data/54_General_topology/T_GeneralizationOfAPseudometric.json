@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "semipseudometric",
+    "quasipseudometric",
+    "semipseudometric space",
+    "quasipseudometric space"
+  ],
+  "definition": "Let $X$ be a set. Let $d:X\\times X \\to \\mathbb{R}$ be a function with\nthe property that $d(x,y)\\ge 0$ for all $x,y\\in X$. Then $d$ is a\n\n1.  *semi-pseudometric* if $d(x,y)=d(y,x)$ for all $x,y\\in X$,\n\n2.  *quasi-pseudometric* if $d(x,z)\\le d(x,y)+d(y,z)$ for all\n    $x,y,z\\in X$.\n\n$X$ equipped with a function $d$ described above is called a\n*semi-pseudometric space* or a *quasi-pseudometric* space, depending on\nwhether $d$ is a semi-pseudometric or a quasi-pseudometric. A\npseudometric is the same as a semi-pseudometric that is a\nquasi-pseudometric at the same time.\n\nIf $d$ satisfies the property that $d(x,y)=0$ implies $x=y$, then $d$ is\ncalled a *semi-metric* if $d$ is a semi-pseudometric, or a\n*quasi-metric* if $d$ is a quasi-pseudometric.",
+  "language": "INFORMAL",
+  "phrase": "Generalization Of A Pseudometric",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizationOfAPseudometric"
+    }
+  ],
+  "indexable": true
+}

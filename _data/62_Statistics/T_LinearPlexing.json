@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "We have fixed $\\alpha$ as the maximum acceptable probability of\ncommiting a type $I$ error. But associated with each normalized test of\nsignificance is $\\gamma$, the probability of commiting a type $I$ error.\n\nNotice that as we make $\\gamma$ smaller, the smaller the critical region\nbecomes and thus the larger the value of the test statistic must be for\nthe null hypothesis to be rejected.\n\nFind $p$, defined as the smallest $\\gamma$ for which we can still reject\n$H_0$.\n\nReject $H_0$ if $\\alpha < p$.",
+  "language": "INFORMAL",
+  "phrase": "Linear Plexing",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearPlexing"
+    }
+  ],
+  "indexable": true
+}

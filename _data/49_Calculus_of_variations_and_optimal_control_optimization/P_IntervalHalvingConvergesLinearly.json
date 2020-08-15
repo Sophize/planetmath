@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The interval halving algorithm converges linearly.\n\nTo see that interval halving (or bisection) converges linearly we use\nthe alternative definition of linear convergence that says that\n$ |x_{i+1}-x_i|<c |x_i-x_{i-1}|$ for some constant $1>c>0$.\n\nIn the case of interval halving, $|x_{i+1}-x_i|$ is the length of the\ninterval we should search for the solution in and has $x_{i+2}$ as its\nmidpoint. We have then that this interval has half the length of the\nprevious interval which means,\n$\\mathit{length}_{i+1} = \\frac{1}{2}\\mathit{length}_i $. Thus $c= 1/2$\nand we have exact linear convergence.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntervalHalvingConvergesLinearly"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "interval halving converges linearly"
+  ]
+}

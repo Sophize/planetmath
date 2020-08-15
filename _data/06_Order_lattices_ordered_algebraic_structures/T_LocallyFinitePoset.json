@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A poset $P$ is *locally finite* if every interval $[x,y]$ in $P$ is\nfinite. For example, $\\mathbb{Z}$ with the usual order is locally finite\nbut not finite, while $\\mathbb{Q}$ is neither.\n\nEvery locally finite poset is also chain finite, but the converse does\nnot hold. To see this, define a partial order on $\\mathbb{N}$ by the\nrule that $k \\le \\ell$ if and only if $k=0$ or $\\ell=1$. Thus $0$ is the\nminimum element, $1$ is the maximum element, and the remaining elements\nform an infinite antichain. Every bounded chain in this poset is finite\nbut the entire poset is an infinite interval, so the poset is chain\nfinite but not locally finite.",
+  "language": "INFORMAL",
+  "phrase": "Locally Finite Poset",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocallyFinitePoset"
+    }
+  ],
+  "indexable": true
+}

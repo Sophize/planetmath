@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A module is noetherian if and only if all of its submodules and are\nnoetherian.\n\nSuppose $M$ is Noetherian (over a ring $R$), and $N\\subseteq M$ a\nsubmodule. Since any submodule of $M$ is finitely generated, any\nsubmodule of $N$, being a submodule of $M$, is finitely generated as\nwell. Next, if $A/N$ is a submodule of $M/N$, and if $a_1,\\ldots, a_n$\nis a generating set for $A\\subseteq M$, then $a_1+N,\\ldots,a_n+N$ is a\ngenerating set for $A/N$. Conversely, if every submodule of $M$ is\nNoetherian, then $M$, being a submodule itself, must be Noetherian.\n\nA weaker form of the converse is the following:\n\nIf $N\\subseteq M$ is a submodule of $M$ such that $N$ and $M/N$ are\nNoetherian, then $M$ is Noetherian.\n\nSuppose $A_1\\subseteq A_2\\subseteq \\cdots $ is an ascending chain of\nsubmodules of $M$. Let $B_i=A_i\\cap N$, then\n$B_1\\subseteq B_2\\subseteq \\cdots $ is an ascending chain of submodules\nof $N$. Since $N$ is Noetherian, the chain terminates at, say $B_n$. Let\n$C_i=(A_i+N)/N$, then $C_1\\subseteq C_2\\subseteq \\cdots $ is an\nascending chain of submodules of $M/N$. Since $M/N$ is Noetherian, the\nchain stops at, say $C_m$. Let $k=\\max(m,n)$. Then we have $B_k=B_{k+1}$\nand $C_k=C_{k+1}$. We want to show that $A_k=A_{k+1}$. Since\n$A_k\\subseteq A_{k+1}$, we need the other inclusion. Pick\n$a\\in A_{k+1}$. Then $a+N=b+N$, where $b\\in A_k$. This means that\n$a-b\\in N$. But $b\\in A_{k+1}$ as well, so $a-b\\in N\\cap A_{k+1}$. Since\n$N\\cap A_k =N\\cap A_{k+1}$, this means that $a-b\\in A_k$ or $a\\in A_k$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CriterionForAModuleToBeNoetherian"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "criterion for a module to be noetherian"
+  ]
+}

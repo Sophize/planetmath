@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "extension"
+  ],
+  "definition": "We say that a field $K$ is an *extension* of $F$ if $F$ is a subfield of\n$K$.\n\nWe usually denote $K$ being an extension of $F$ by $F\\subset K$,\n$F\\le K$, $K/F$ or $$\\xymatrix{\nK \\ar@{-}[d] \\\\\nF\n}$$ One may speak of the [*field extension*]{} $K/F$ and call $F$ the\n[*base field*]{}.\n\nIf $K$ is an extension of $F$, we can regard $K$ as a vector space over\n$F$. The dimension of this space (which could possibly be infinite) is\ndenoted $[K:F]$, and called the [*degree*]{} of the extension.[^1]\n\nOne of the classic theorems on extensions states that if\n$F\\subset K\\subset L$, then $$[L:F]=[L:K][K:F]$$ (in other words,\ndegrees are multiplicative in towers).\n\n[^1]: The term \u201cdegree\u201d reflects the fact that, in the more general\n    setting of Dedekind domains and scheme-theoretic algebraic curves,\n    the degree of an extension of function fields equals the algebraic\n    degree of the polynomial defining the projection map of the\n    underlying curves.",
+  "language": "INFORMAL",
+  "phrase": "Extension Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtensionField"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Fix a commutative unital ring $K$ of characteristic 0. Let $X$ be a\nfinite set and $K\\langle X\\rangle$ the free associative algebra on $X$.\nThen define the map\n$\\delta:K\\langle X\\rangle\\rightarrow K\\langle X\\rangle\\otimes K\\langle X\\rangle$\nby $x\\mapsto x\\otimes 1+1\\otimes x$.\n\n[@Jacobson Thm V.9] An element $a\\in K\\langle X\\rangle$ is a Lie element\nif and only if $a\\delta=a\\otimes 1+1\\otimes a$.\n\nThe term Lie element applies only when an element is taken from the\nuniversal enveloping algebra of a Lie algebra. Here the Lie algebra in\nquestion is the free Lie algebra on $X$, $FL\\langle X\\rangle$ whose\nuniversal enveloping algebra is $K\\langle X\\rangle$ by a theorem of\nWitt.\n\nThis characterization of Lie elements is a primary means in modern\nproofs of the Baker-Campbell-Hausdorff formula.\n\n[10]{} Nathan Jacobson *Lie Algebras*, Interscience Publishers, New\nYork, 1962.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FriedrichsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Friedrichs' theorem"
+  ]
+}

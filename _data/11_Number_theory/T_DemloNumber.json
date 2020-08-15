@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "wonderful Demlo number"
+  ],
+  "definition": "Given base $b$, a number of the form $({{b^n - 1} \\over {b - 1}})^2$ for\n$n > 0$ (that is, the square of a repunit) is a [*Demlo number*]{},\nsometimes called a [*wonderful Demlo number*]{}.\n\nThe Demlo numbers for $n < b$ are also palindromic numbers, and\nspecifically of the form\n$$nb^{n - 1} + \\sum_{i = 1}^{n - 1} (ib^{2n - i} + ib^{i - 1}),$$ that\nis, the most significant digits are the first $n$ digits of base $b$ in\norder and the least significant digits are the first $n$ digits of base\n$b$ backwards.",
+  "language": "INFORMAL",
+  "phrase": "Demlo Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DemloNumber"
+    }
+  ],
+  "indexable": true
+}

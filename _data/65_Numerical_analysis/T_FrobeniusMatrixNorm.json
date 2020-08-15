@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Euclidean matrix norm",
+    "matrix F-norm",
+    "Hilbert-Schmidt norm"
+  ],
+  "definition": "Let $R$ be a ring with a valuation $|\\cdot|$ and let $M(R)$ denote the\nset of matrices over $R$. The *Frobenius norm function* or *Euclidean\nmatrix norm* is the norm function\n$||\\,\\cdot\\,||_F:M(R){\\rightarrow}{{\\mathbb}{R}}$ given by\n$$\\begin{aligned}\n||\\,A\\,||_F = \\sqrt{\\sum_{i=1}^m\\sum_{j=1}^n|a_{ij}|^2},\\end{aligned}$$\nwhere $m$ and $n$ respectively denote the number of rows and columns of\n$A$. Note $A$ need not be square for this definition. A more concise\n(though ) definition, in the case that $R=\\mathbb{R}$ or $\\mathbb{C}$,\nis $$\\begin{aligned}\n||\\,A\\,||_F = \\sqrt{\\textrm{trace}(A^*A)},\\end{aligned}$$ where $A^*$\ndenotes the conjugate transpose of $A$.\n\nSome :\n\n-   Denote the columns of $A$ by $A_i$. A nice property of the norm is\n    that $$\\begin{aligned}\n    ||A||_F^2=||A_1||_2^2+||A_2||_2^2+\\cdots+||A_n||_2^2.\\end{aligned}$$\n\n-   Let $A$ be a square matrix and let $U$ be a unitary matrix of same\n    size as $A$. Then $||\\,A\\,||_F = ||\\,U^\\ast A U\\,||_F$ where\n    $U^\\ast$ is the conjugate transpose of $U$.\n\n-   If $AB$ is defined, then\n    $||\\,A B\\,||_F \\le ||\\,A\\,||_F\\ ||\\,B\\,||_F$.",
+  "language": "INFORMAL",
+  "phrase": "Frobenius Matrix Norm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FrobeniusMatrixNorm"
+    }
+  ],
+  "indexable": true
+}

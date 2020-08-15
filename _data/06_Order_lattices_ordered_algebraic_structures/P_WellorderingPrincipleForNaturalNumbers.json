@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every nonempty set $S$ of natural numbers contains a least element; that\nis, there is some number $a$ in $S$ such that $a \\leq b$ for all $b$\nbelonging to $S$.\\\nBeware that there is another statement (which is equivalent to the axiom\nof choice) called the *well-ordering principle*. It asserts that every\nset can be well-ordered.\n\nNote that the well-ordering principle for natural numbers is equivalent\nto the principle of mathematical induction (or, the principle of finite\ninduction).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WellorderingPrincipleForNaturalNumbers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "well-ordering principle for natural numbers"
+  ]
+}

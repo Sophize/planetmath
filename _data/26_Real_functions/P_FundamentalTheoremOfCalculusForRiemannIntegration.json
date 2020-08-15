@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry we discuss the fundamental theorems of calculus for\nRiemann integration.\n\n[ **-**]{} Let $f$ be a Riemann integrable function on an interval\n$[a,b]$ and $F$ defined in $[a,b]$ by $F(x)= \\int_a^x f(t)\\,dt + k$,\nwhere $k \\in \\mathbb{R}$ is a constant. Then $F$ is continuous in\n$[a,b]$ and $F'=f$ .\n\n$\\,$\n\n[ **-**]{} Let $F$ be a continuous function in an interval $[a,b]$ and\n$f$ a Riemann integrable function such that $F'(x)=f(x)$ except at most\nin a finite number of points $x$. Then $F(x)-F(a) = \\int_a^xf(t)\\,dt$.\n\n$\\,$\n\nObservations\n------------\n\nNotice that the second fundamental theorem is not a converse of the\nfirst. In the first we conclude that $F'=f$ except in a set of , while\nin the second we assume that $F'=f$ except in a finite number of points.\nIn fact, the two theorems can never be the converse of each other as the\nfollowing example shows:\n\n[**Example :**]{} Let $F$ be the devil staircase function, defined on\n$[0,1]$. We have that\n\n-   $F$ is continuous in $[0,1]$,\n\n-   $F'=0$ except in a set of (this set must be contained in the Cantor\n    set),\n\n-   $f:=0$ is clearly a Riemann integrable function and\n    $\\int_0^x 0\\,dt = 0$.\n\nThus, $F(x) \\neq \\int_0^x F'(t)\\,dt$.\n\nThis leads to the question: what kind functions $F$ can be expressed as\n$F(x) = F(a) + \\int_a^x g(t)\\,dt$, for some function $g$ ? The answer to\nthis question lies in the concept of (a which the devil staircase does\nnot possess), but for that a more general of integration must be\ndeveloped (the ).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalTheoremOfCalculusForRiemannIntegration"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fundamental theorem of calculus for Riemann integration"
+  ]
+}

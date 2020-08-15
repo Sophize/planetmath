@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $M$ is a compact smooth manifold, a diffeomorphism $f\\colon M\\to M$\n(or a flow $\\phi\\colon{\\mathbb{R}}\\times M\\to M$) such that the whole\nspace $M$ is an hyperbolic set for $f$ (or $\\phi$) is called an *Anosov\ndiffeomorphism* (or flow).\n\nAnosov diffeomorphisms were introduced by D.V. Anosov, who proved that\nthey are $\\mathcal{C}^1$-structurally stable.\n\nNot every manifold admits an Anosov diffeomorphism; for example, there\nare no such diffeomorphisms on the sphere $S^n$. The simplest examples\nof compact manifolds admiting them are the tori $\\mathbb{T}^n$: they\nadmit the so called linear Anosov diffeomorphisms, which are\nisomorphisms of $\\mathbb{T}^n$ having no eigenvalue of modulus $1$. It\nwas proved that any other Anosov diffeomorphism in $\\mathbb{T}^n$ is\ntopologically conjugate to one of this kind.\n\nIt is not known which manifolds support Anosov diffeomorphisms. The only\nknown examples of are nilmanifolds and infranilmanifolds, and it is\nconjectured that these are the only ones. Anosov flows are more\nabundant; for example, if $M$ is a Riemannian manifold of negative\nsectional curvature, then its geodesic flow is an Anosov flow.\n\nAnother famous conjecture is that the nonwandering set of any Anosov\ndiffeomorphism is the whole manifold $M$. This is known to be true for\nlinear Anosov diffeomorphisms (and hence for any Anosov diffeomorphism\nin a torus). For Anosov flows, there are examples where the nonwandering\nset is a proper subset of $M$.",
+  "language": "INFORMAL",
+  "phrase": "Anosov Diffeomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnosovDiffeomorphism"
+    }
+  ],
+  "indexable": true
+}

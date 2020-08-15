@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given two integers $n,k>0$ such that $k\\le n$, we have the following\ninequalities for the binomial coefficient ${n\\choose k}$:\n$$\\begin{aligned}\n{n \\choose k} & \\le & \\frac{n^k}{k!} \\\\\n{n \\choose k} & \\le & \\left(\\frac{n\\cdot e}{k}\\right)^k \\\\\n{n \\choose k} & \\ge & \\left(\\frac{n}{k}\\right)^k \\\\\\end{aligned}$$ Here\n$e$ is the base of natural logarithms. Also, for large $n$,\n${n \\choose k} \\approx \\frac{n^k}{k!}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UpperAndLowerBoundsToBinomialCoefficient"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "upper and lower bounds to binomial coefficient"
+  ]
+}

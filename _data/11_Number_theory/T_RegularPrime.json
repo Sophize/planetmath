@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A prime $p$ is [*regular*]{} if the class number of the cyclotomic field\n$\\mathbb{Q}(\\zeta_p)$ is not divisible by $p$ (where\n$\\zeta_p := e^{2 \\pi i/p}$ denotes a primitive $p^\\mathrm{th}$ root of\nunity). An [*irregular prime*]{} is a prime that is not regular.\n\nRegular primes rose to prominence as a result of Ernst Kummer\u2019s work in\nthe 1850\u2019s on Fermat\u2019s Last Theorem. Kummer was able to prove Fermat\u2019s\nLast Theorem in the case where the exponent is a regular prime, a result\nthat prior to Wiles\u2019s recent work was the only demonstration of Fermat\u2019s\nLast Theorem for a large class of exponents. In the course of this work\nKummer also established the following numerical criterion for\ndetermining whether a prime is regular:\n\n-   $p$ is regular if and only if none of the numerators of the\n    Bernoulli numbers $B_0$, $B_2$, $B_4, \\ldots, B_{p-3}$ is a multiple\n    of $p$.\n\nBased on this criterion it is possible to give a heuristic argument that\nthe regular primes have density $e^{-1/2}$ in the set of all\nprimes\u00a0[@ir]. Despite this, there is no known proof that the set of\nregular primes is infinite, although it is known that there are\ninfinitely many irregular primes.\n\n[9]{} Kenneth Ireland & Michael Rosen, *A Classical Introduction to\nModern Number Theory,* Springer-Verlag, New York, Second Edition, 1990.",
+  "language": "INFORMAL",
+  "phrase": "Regular Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegularPrime"
+    }
+  ],
+  "indexable": true
+}

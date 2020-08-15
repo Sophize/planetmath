@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Kolmogorov-Nagumo function of the mean",
+    "H\\\"older mean"
+  ],
+  "definition": "[**Definition**]{}\n\nLet $x_1$, $x_2,\\ldots, x_n$ be real numbers, and $f$ a continuous and\nstrictly increasing or decreasing function on the real numbers. If each\nnumber $x_i$ is assigned a weight $p_i$, with $\\sum_{i=1}^n p_i= 1$, for\n$i=1,\\ldots,n$, then the *generalized mean* is defined as\n$$f^{-1}\\Big( \\sum_{i=1}^n p_i f(x_i) \\Big).$$\n\n[**Special cases**]{}\n\n1.  $f(x)=x$, $p_i=1/n$ for all $i$: arithmetic mean\n\n2.  $f(x)=x$: weighted mean\n\n3.  $f(x)=\\log(x)$, $p_i=1/n$ for all $i$: geometric mean\n\n4.  $f(x)=1/x$ and $p_i=1/n$ for all $i$: harmonic mean\n\n5.  $f(x)=x^2$ and $p_i=1/n$ for all $i$: root-mean-square\n\n6.  $f(x)=x^d$ and $p_i=1/n$ for all $i$: power mean\n\n7.  $f(x)=x^d$: weighted power mean\n\n8.  $f(x)=2^{(1-\\alpha)x}$, $\\alpha\\neq 1$, $x_i=-\\log_2 p_i$: R\u00e9nyi\u2019s\n    $\\alpha$-entropy",
+  "language": "INFORMAL",
+  "phrase": "Generalized Mean",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedMean"
+    }
+  ],
+  "indexable": true
+}

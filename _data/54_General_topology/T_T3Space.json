@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *regular space* is a topological space in which points and closed sets\ncan be separated by open sets; in other words, given a closed set $A$\nand a point $x\\notin A$, there are disjoint open sets $U$ and $V$ such\nthat $x\\in U$ and $A\\subseteq V$.\n\nA *$\\T_3$ space* is a regular . A $\\T_3$ space is necessarily also\n$\\T_2$, that is, Hausdorff.\n\nNote that some authors make the opposite distinction between $\\T_3$\nspaces and regular spaces, that is, they define $\\T_3$ spaces to be\ntopological spaces in which points and closed sets can be separated by\nopen sets, and then define regular spaces to be topological spaces that\nare both $\\T_3$ and $\\T_0$. (With these definitions, $\\T_3$ does not\nimply $\\T_2$.)",
+  "language": "INFORMAL",
+  "phrase": "T3 Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/T3Space"
+    }
+  ],
+  "indexable": true
+}

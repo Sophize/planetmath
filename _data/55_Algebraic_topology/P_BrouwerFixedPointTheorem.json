@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} Let\n$\\textbf{B}=\\{x\\in{\\mathbb{R}}^n: {\\left\\|x\\right\\|}\\le 1\\}$ be the\nclosed unit ball in ${\\mathbb{R}}^n$. Any continuous function\n$f: \\textbf{B}\\to\\textbf{B}$ has a fixed point.\n\nNotes {#notes .unnumbered}\n-----\n\nShape is not important\n\n:   The theorem also applies to anything homeomorphic to a closed disk,\n    of course. In particular, we can replace $\\textbf{B}$ in the\n    formulation with a square or a triangle.\n\nCompactness counts (a)\n\n:   The theorem is not true if we drop a point from the interior of\n    $\\textbf{B}$. For example, the map $f(\\vec{x})=\\frac{1}{2}\\vec{x}$\n    has the single fixed point at $0$; dropping it from the domain\n    yields a map with no .\n\nCompactness counts (b)\n\n:   The theorem is not true for an open disk. For instance, the map\n    $f(\\vec{x})=\\frac{1}{2}\\vec{x}+(\\frac{1}{2},0,\\ldots,0)$ has its\n    single fixed point on the boundary of $\\textbf{B}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BrouwerFixedPointTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Brouwer fixed point theorem"
+  ]
+}

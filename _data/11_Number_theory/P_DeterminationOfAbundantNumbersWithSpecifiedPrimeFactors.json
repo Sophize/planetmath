@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The formula for sums of factors may be used to find all abundant numbers\nwith a specified set of prime factors or that no such numbers exist. To\naccomplish this, we first do a little algebraic manipulation to our\nformula.\n\nA number $n$ whose factorization into prime numbers is\n$\\prod_{i=1}^k p_i^{m_1}$ is abundant if and only if $$\\prod_{i=1}^k\n\\left( {\n1 - p_i^{-m_i - 1}  \\over\n1 - p_i^{-1}\n} \\right)\n> 2.$$\n\nBy definition $n$ is abundant, if the sum of the proper divisors of $n$\nis greater than $n$. Using our formula, this is equivalent to the\ncondition $$\\prod_{i=1}^k\n\\left( {\np_i^{m_i + 1} - 1 \\over p_i - 1\n} \\right) >\n2 \\prod_{i=1}^k p_i^{m_i}.$$ Dividing the $k$-th term in the product on\nthe left-hand side by the $k$-th term on the right-hand side,\n$${1 \\over p_i^{m_i}}\n{p_i^{m_i + 1} - 1 \\over p_i - 1} =\n{p_i^{-m_i - 1} \\over p_i^{-1}}\n{p_i - p_i^{-m_i} \\over p_i - 1} =\n{1 - p_i^{-m_i - 1} \\over 1 - p_i^{-1}},$$ so the condition becomes\n$$\\prod_{i=1}^k\n\\left( {\n1 - p_i^{-m_i - 1} \\over 1 - p_i^{-1}\n} \\right)\n> 2$$\n\nNote that each of the terms in the product is bigger than 1. Furthemore,\nthe $k$-th term is bounded by $${1 \\over 1 - p_i^{-1}} = \n{p_i \\over p_i - 1}.$$ This means that it is only possible to have an\nabundant number whose prime factors are $\\{p_i \\mid 1 \\le i \\le k\\}$ if\n$$\\prod_{i=1}^k\n\\left( {p_i \\over p_i - 1} \\right)\n> 2.$$ As it turns out, the convers also holds, so we have a nice\ncriterion for determining when a set of prime numbers happens to be the\nset of prime divisors of an abundant number.\n\nA finite set $S$ of prime numbers is the set of prime divisors of an\nabundant number if and only if\n$$\\prod_{p \\in S} \\left( {p \\over p - 1} \\right) > 2.$$\n\nAs described above, if $S$ is a set of prime factors of an abundant\nnumber, then we may bound each term in the inequality of the previous\ntheorem to obtain the inequality in the current theorem. Assume, then\nthat $S$ is a finite set of prime numbers which satisfies said\ninequality. Then, by continuity, there must exist a real number\n$\\epsilon > 0$ such that $$\\prod_{p \\in S} \n\\left( {p \\over p - 1} - x \\right) \n> 2$$ whenver $0 < x < \\epsilon$. Since $\\lim_{k \\to \\infty} \nn^{-k} = 0$ when $n > 1$, we can, for every $p \\in S$, find an $m(p)$\nsuch that $${p^{m(p)} \\over p - 1} < \\epsilon.$$ Hence,\n$$\\prod_{p \\in S}\n\\left( {p \\over p - 1} - \n{p^{m(p)} \\over p - 1} \\right) =\n\\prod_{p \\in S}\n\\left( {1 - p^{-m(p)-1} \\over 1 - p^{-1}} \\right) > 2$$ so, by the\nprevious theorem, $\\prod_{p \\in S} p^{m(p)}$ is an abundant number.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DeterminationOfAbundantNumbersWithSpecifiedPrimeFactors"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "determination of abundant numbers with specified prime factors"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In a topological space $X$, a point $x$ is a *limit point of the\nsequence* $x_0, x_1, \\ldots$ if, for every open set containing $x$,\nthere are finitely many indices such that the corresponding elements of\nthe sequence do not belong to the open set.\n\nA point $x$ is an *accumulation point of the sequence*\n$x_0, x_1, \\ldots$ if, for every open set containing $x$, there are\ninfinitely many indices such that the corresponding elements of the\nsequence belong to the open set.\n\nIt is worth noting that the set of limit points of a sequence can differ\nfrom the set of limit points of the set of elements of the sequence.\nLikewise the set of accumulation points of a sequence can differ from\nthe set of accumulation points of the set of elements of the sequence.\n\nReference: L. A. Steen and J. A. Seebach, Jr. \u201cCounterxamples in\nTopology\u201d Dover Publishing 1970",
+  "language": "INFORMAL",
+  "phrase": "Limit Points Of Sequences",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitPointsOfSequences"
+    }
+  ],
+  "indexable": true
+}

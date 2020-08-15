@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Disjoint union of two sets {#disjoint-union-of-two-sets .unnumbered}\n==========================\n\nLet $A$ and $B$ be sets. Then their *disjoint union* is the union\n$$A\\coprod B := A\\cup(B\\times\\{\\star\\}),$$ where $\\star$ is an object\nchosen so that $A$ and $B\\times\\{\\star\\}$ are disjoint. Normally\n$B\\times\\{\\star\\}$ is identified with $B$ in the obvious way. The\nelement $\\star$ is almost never mentioned; it serves only as a \u201ctag\u201d to\nmake the two sets disjoint. If $A$ and $B$ are already disjoint, then\n$A\\coprod B$ is isomorphic to $A\\cup B$; this is the most common\nsituation in practice.\n\nDisjoint union of many sets {#disjoint-union-of-many-sets .unnumbered}\n===========================\n\nIf we have a collection of sets $\\{A_i\\}$ indexed by some set $I$, then\nthe disjoint union\n$$\\coprod_{i\\in I} A_i := \\bigcup_{i\\in I} A_i\\times\\{i\\}.$$ Observe\nthat we have a natural isomorphism $A_i \\to A_i\\times\\{i\\}$, and that\nthe images of any pair of these isomorphisms have empty intersection.\nThis is also often called being pairwise disjoint and is a much stronger\ncondition than that the intersection of all the images is empty. As\nbefore, if the $A_i$ are already pairwise disjoint, then\n$$\\coprod_{i\\in I} A_i \\cong \\bigcup_{i\\in I} A_i.$$\n\nExplanation {#explanation .unnumbered}\n===========\n\nIf one is working in some category, the term \u201cdisjoint union\u201d often\nmeans \u201ccoproduct\u201d.\n\nFor example, as sets, $\\mathbb{R}\\coprod\\mathbb{R}$ is two copies of the\nreal line. As topological spaces, $\\mathbb{R}\\coprod\\mathbb{R}$ is again\ntwo copies of the real line with a topology whose open sets are pairs of\nreal open sets, one for each copy of $\\mathbb{R}$. This is the coproduct\nin the category of topological spaces.\n\nOf course, there are many categories where this usage is unnatural. For\nexample, in the category of pointed sets, the coproduct is the disjoint\nunion with the distinguished points identified. In the category of\nabelian groups, the coproduct is the direct sum.\n\nAnother closely related usage should be mentioned. Occasionally an\nauthor will write \u201c\u2026and $A\\cup B$ is a disjoint union\u2026\u201d. What this means\nis that $A\\cup B$ is isomorphic to $A\\coprod B$, which is to say that\n$A$ and $B$ are already disjoint.",
+  "language": "INFORMAL",
+  "phrase": "Disjoint Union",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DisjointUnion"
+    }
+  ],
+  "indexable": true
+}

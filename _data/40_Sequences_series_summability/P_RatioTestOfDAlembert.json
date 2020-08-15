@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A lighter version of the ratio test is the\n\n**Ratio test of d\u2019Alembert.** Let $a_1\\!+\\!a_2\\!+\\ldots$ be a series\nwith positive terms.\n\n$1^\\circ$. If there exists a number $q$ such that $0 < q < 1$ and\n$$\\begin{aligned}\n\\frac{a_{n+1}}{a_n} \\;\\le\\; q \\quad \\mbox{for all}\\;\\; n \\ge n_0,\\end{aligned}$$\nthen the series converges.\n\n$2^\\circ$. If there exists a number $n_0$ such that $$\\begin{aligned}\n\\frac{a_{n+1}}{a_n} \\;\\ge\\; 1 \\quad \\mbox{for all}\\;\\; n \\ge n_0,\\end{aligned}$$\nthen the series diverges.\\\n*Proof.* $1^\\circ$. By the condition (1), we have $a_{n+1} \\le a_nq$;\nthus we get the estimations $$a_{n_0+1} \\;\\le\\; a_{n_0}q,$$\n$$a_{n_0+2} \\;\\le\\; a_{n_0+1}q \\;\\le\\; a_{n_0}q^2,$$\n$$\\cdots \\quad \\cdots \\quad \\cdots$$\n$$a_{n_0+p} \\;\\le\\; a_{n_0+p-1}q \\;\\le\\; \\ldots \\;\\le\\; a_{n_0}q^p,$$\n$$\\cdots \\quad \\cdots \\quad \\cdots$$ Because\n$a_{n_0}q+a_{n_0}q^2+\\ldots+a_{n_0}q^p+\\ldots$ is a convergent geometric\nseries, those inequalities and the comparison test imply that the series\n$$a_{n_0+1}\\!+\\!a_{n_0+2}\\!+\\ldots+\\!a_{n_0+p}\\!+\\ldots$$ and as well\nthe whole series $a_1\\!+\\!a_2\\!+\\ldots$ is convergent.\n\n$2^\\circ$. The condition (2) yields\n$$a_{n_0+1} \\;\\ge\\; a_{n_0}, \\quad a_{n_0+2} \\;\\ge\\; a_{n_0+1} \\;\\ge\\; a_{n_0}, \\quad \\ldots$$\nand since $a_{n_0}$ is positive, the limit of $a_n$ as $n$ tends to\ninfinity cannot be 0. Hence the given series does not fulfil the\nnecessary condition of convergence.\\\n**Example.** If the variable $x$ in the power series\n$$\\sum_{n=0}^\\infty n!x^n$$ is distinct from zero, we have\n$$\\frac{|(n\\!+\\!1)!x^{n+1}|}{|n!x^n|} \\;=\\; (n\\!+\\!1)|x| \\;\\ge\\; 1 \\quad \\mbox{for all}\\;\\; n \\ge n_0.$$\nThen the series does not . The known theorem of Abel says that the\nseries diverges for all $x \\neq 0$. It means that the radius of\nconvergence is 0.\n\n[7]{} . . : [*. I* ]{}. \u201c\u201d. (1970).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RatioTestOfDAlembert"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "ratio test of d'Alembert"
+  ]
+}

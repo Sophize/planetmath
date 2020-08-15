@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A Nash equilibrium of a game is a set of (possibly mixed) strategies\n$\\sigma=(\\sigma_1,\\ldots,\\sigma_n)$ such that, if each player $i$\nbelieves that that every other player $j$ will play $\\sigma_j$, then $i$\nshould play $\\sigma_i$. That is, when $u_i$ is the utility function for\nthe $i$-th player:\n$$\\sigma_i\\neq \\sigma^\\prime_i\\rightarrow u_i(\\sigma_i,\\sigma_{-1})>u_i(\\sigma^\\prime_i,\\sigma_{-1})$$\n$$\\forall i\\leq n \\text{ and } \\forall \\sigma^\\prime_i\\in \\Sigma_i$$\n\nTranslated, this says that if any player plays any strategy other than\nthe one in the Nash equilibrium then that player would do worse than\nplaying the Nash equilibrium.",
+  "language": "INFORMAL",
+  "phrase": "Nash Equilibrium",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NashEquilibrium"
+    }
+  ],
+  "indexable": true
+}

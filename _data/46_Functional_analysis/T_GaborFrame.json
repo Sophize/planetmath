@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "One may be interested in Gabor frames and its related theory if one\nlooks further into the frame framework. First, denote a lattice by\n$\\Lambda=A \\mathbb{Z}^{2d}$, where $A$ is an invertible matrix, and let\n$\\pi(\\xi,\\phi)f=e^{2 \\pi i \\xi x}f(x-\\phi)$\n\nLet $g \\in L^2(\\mathbb{R}^d)$ be a nonzero window, and let\n$\\lambda \\in \\Lambda$, then\n$$G(g,\\lambda)=\\left\\{ \\pi(\\lambda)g : \\lambda \\in \\Lambda \\right\\}$$ is\na Gabor system. If $G(g,\\lambda)$ is a frame, it\u2019s called a Gabor frame\nfor $L^2(\\mathbb{R}^d)$\n\nSupose now that one wants to look at a more general framework, and work\nwith functions in $L^2(\\mathbb{R}^d,\\mathbb{C}^n)$. Then the definition\nabove generalises to\n\nLet $\\boldsymbol{g} \\in L^2(\\mathbb{R}^d,\\mathbb{C}^n)$ be a nonzero\nwindow and let $\\lambda \\in \\Lambda$, then\n\n$$\\boldsymbol{G}(\\boldsymbol{g},\\lambda)=\\left\\{ \\pi(\\lambda) \\boldsymbol{g} : \\lambda \\in \\Lambda \\right\\}$$\n\nis a Gabor super-frame if the frame inequalities hold, where\n$$\\pi( \\xi, \\phi ) \\boldsymbol{g}=e^{2 \\pi \\i x \\cdot \\xi}\\left( g_1(x-\\phi),g_2(x-\\phi),...,g_n(x-\\phi) \\right)$$\n\nand for\n$ \\boldsymbol{f},\\boldsymbol{h} \\in L^2(\\mathbb{R}^d,\\mathbb{C}^n) $\n$$\\left\\langle \\boldsymbol{f},\\boldsymbol{h} \\right\\rangle_{L^2(\\mathbb{R}^d,\\mathbb{C}^n)} \n= \\sum_{i=1}^n \\left\\langle f_i , h_i \\right\\rangle_{L^2(\\mathbb{R}^d)}$$\n\n[1]{} Karlheinz Gr\u00c3\u00b6chenig, \u201cFoundations of Time-Frequency Analysis,\u201d\n[*Birkhh\u00c3\u00a4user*]{} (2000)",
+  "language": "INFORMAL",
+  "phrase": "Gabor Frame",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaborFrame"
+    }
+  ],
+  "indexable": true
+}

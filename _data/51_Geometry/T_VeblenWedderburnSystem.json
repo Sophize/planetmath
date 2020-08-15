@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "Veblen-Wedderburn ring",
+    "quasifield",
+    "VW system",
+    "V-W system"
+  ],
+  "definition": "A *Veblen-Wedderburn system* is an algebraic system over a set $R$ with\ntwo binary operations $+$ (called addition) and $\\cdot$ (called\nmultiplication) on $R$ such that\n\n1.  there is a $0\\in R$, and that $R$ is an abelian group under $+$,\n    with $0$ the additive identity\n\n2.  $R-\\lbrace 0\\rbrace$, together with $\\cdot$, is a loop (we denote\n    $1$ as its identity element)\n\n3.  $\\cdot$ is right distributive over $+$; that is,\n    $(a+b)\\cdot c=a\\cdot c+ b\\cdot c$\n\n4.  if $a\\ne b$, then the equation $x\\cdot a=x\\cdot b+c$ has a unique\n    solution in $x$\n\nA Veblen-Wedderburn system is also called a *quasifield*.\n\nUsually, we write $ab$ instead of $a\\cdot b$.\n\nFor any $a,b,c\\in R$, by defining a ternary operation $*$ on $R$, given\nby $$a*b*c:=a b+c,$$ it is not hard to see that $(R,*,0,1)$ is a ternary\nring. In fact, it is a linear ternary ring because $ab=a*b*0$ and\n$a+c=a*1*c$.\n\nFor example, any field, or more generally, any division ring,\nassociative or not, is Veblen-Wedderburn. An example of a\nVeblen-Wedderburn system that is not a division ring is the Hall\nquasifield.\n\nA well-known fact about Veblen-Wedderburn systems is that, the\nprojective plane of a Veblen-Wedderburn system is a translation plane,\nand, conversely, every translation plane can be coordinatized by a\nVeblen-Wedderburn system. This is the reason why a translation plane is\nalso called a Veblen-Wedderburn plane.\n\n**Remark**. Let $R$ be a Veblen-Wedderburn system. If the multiplication\n$\\cdot$, in addition to be right distributive over $+$, is also left\ndistributive over $+$, then $R$ is a semifield. If $\\cdot$, on the other\nhand, is associative, then $R$ is an abelian nearfield (a nearfield such\nthat $+$ is commutative).\n\n[7]{} R. Casse, [*Projective Geometry, An Introduction*]{}, Oxford\nUniversity Press (2006)",
+  "language": "INFORMAL",
+  "phrase": "Veblen-Wedderburn System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VeblenWedderburnSystem"
+    }
+  ],
+  "indexable": true
+}

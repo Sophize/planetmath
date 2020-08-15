@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ be a category. A *comonad* over $\\mathcal{C}$ consists\nof an endofunctor $T\\colon\\mathcal{C}\\to\\mathcal{C}$ along with natural\ntransformations $\\Delta\\colon T\\dot{\\to}T\\circ T$ and\n$\\varepsilon\\colon T\\dot{\\to}\\operatorname{id}_{\\mathcal{C}}$. The\nnatural transformation $\\Delta$ is coassociative, in the sense that the\ndiagram $$\\xymatrix{\n& T\\ar[dl]_{\\Delta}\\ar[dr]^{\\Delta} & \\\\\nT\\circ T\\ar[dr]_{T\\Delta} & & T\\circ T\\ar[dl]^{\\Delta T} \\\\\n& T\\circ T\\circ T &\n}$$ is commutative. Moreover, $\\Delta$ is counitary, in the sense that\nthe diagram $$\\xymatrix{\n & T\\ar[dl]\\ar[dr]\\ar[dd]^{\\Delta} & \\\\\n\\operatorname{id}_{\\mathcal{C}}T & & T\\operatorname{id}_{\\mathcal{C}} \\\\\n& G\\circ G\\ar[lu]^{\\varepsilon T}\\ar[ru]^{T\\varepsilon} &\n}$$ also commutes. Observe that the defining diagrams for a comonad are\nprecisely dual to those for a monad. Thus one could more briefly define\na comonad over a category $\\mathcal{C}$ as a monad over the opposite\ncategory ${{\\mathcal{C}}^{\\mathrm{op}}}$.\n\nJust as one can define algebras over a monad it is possible to define\ncoalgebras over a comonad.\n\n[99]{} S.\u00a0A.\u00a0Joni and G.-C.\u00a0Rota, [*Coalgebras and bialgebras in\ncombinatorics*]{}, Stud.\u00a0Appl.\u00a0Math., 61 (1979), pp. 93\u2013139.\n\nS.\u00a0Mac\u00a0Lane. [*Categories for the Working Mathematician*]{}, 2nd ed.\nSpringer-Verlag, 1997\n\nS.\u00a0Mac\u00a0Lane and I.\u00a0Moerdijk. [*Sheaves and Geometry in Logic: A First\nIntroduction to Topos Theory*]{}, Springer-Verlag, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Comonad",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Comonad"
+    }
+  ],
+  "indexable": true
+}

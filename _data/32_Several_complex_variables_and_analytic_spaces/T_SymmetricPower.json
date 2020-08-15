@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set and let\n$$X^m := \\underbrace{X \\times \\cdots \\times X}_{m-\\text{times}} .$$\nDenote an element of $X^m$ by $x = (x_1,\\ldots,x_m).$ Define an\nequivalence relation by $x \\sim x'$ if and only if there exists a\npermutation $\\sigma$ of $(1,\\ldots,m),$ such that\n$x_i = x'_{\\sigma{i}}$.\n\nThe $m^{\\text{th}}$ symmetric power of $X$ is the set\n$X^m_{sym} := X^m / \\sim.$ That is, the set of equivalence classes of\n$X^m$ under the relation $\\sim.$\n\nLet $\\pi$ be the natural projection of $X^m$ onto $X^m_{sym}$.\n\n$f \\colon X^m \\to Y$ is a symmetric function if and only if there exists\na function $g \\colon X^m_{sym} \\to Y$ such that $f = g \\circ \\pi.$\n\nFrom now on let $R$ be an integral domain. Let\n$\\tau' \\colon X^m \\to X^m$ be the map\n$\\tau'(x) := (\\tau_1(x),\\ldots,\\tau_m(x)),$ where $\\tau_k$ is the\n$k^\\text{th}$ elementary symmetric polynomial. By the above lemma, we\nhave a function $\\tau \\colon X^m_{sym} \\to X^m$, where\n$\\tau' = \\tau \\circ \\pi .$\n\n$\\tau$ is one to one. If $R$ is algebraically closed, then $\\tau$ is\nonto.\n\nA very useful case is when $R = \\mathbb{C}.$ In this case, when we put\non the natural complex manifold structure onto ${\\mathbb{C}}^m_{sym},$\nthe map $\\tau$ is a biholomorphism of ${\\mathbb{C}}^m_{sym}$ and\n${\\mathbb{C}}^m .$\n\n[9]{} Hassler Whitney. [**]{}. Addison-Wesley, Philippines, 1972.",
+  "language": "INFORMAL",
+  "phrase": "Symmetric Power",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SymmetricPower"
+    }
+  ],
+  "indexable": true
+}

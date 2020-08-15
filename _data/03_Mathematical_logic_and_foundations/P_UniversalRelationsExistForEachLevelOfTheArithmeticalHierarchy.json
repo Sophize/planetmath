@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $L\\in\\{\\Sigma_n,\\Delta_n,\\Pi_n\\}$ and take any $k\\in\\mathbb{N}$.\nThen there is a $k+1$-ary relation $U\\in L$ such that $U$ is universal\nfor the $k$-ary relations in $L$.\n\nProof {#proof .unnumbered}\n-----\n\nFirst we prove the case where $L=\\Delta_1$, the recursive relations. We\nuse the example of a G\u00f6del numbering.\n\nDefine $T$ to be a $k+2$-ary relation such that $T(e,\\vec{x},a)$ if:\n\n-   $e=\\ulcorner\\phi\\urcorner$\n\n-   $a$ is a deduction of either $\\phi(\\vec{x})$ or $\\neg\\phi(\\vec{x})$\n\nSince $\\Delta_1$, it follows that $T$ is $\\Delta_1$. Then define\n$U^\\prime(e,\\vec{x})$ to be the least $a$ such that $T(e,\\vec{x},a)$ and\n$U(e,\\vec{x})\\leftrightarrow (U^\\prime(e,\\vec{x}))_{\\operatorname{len}(U^\\prime(e,\\vec{x}))}=e$.\nThis is again $\\Delta_1$ since the $\\Delta_1$ functions are .\n\nIf $f$ is any $k-ary$ $\\Delta_1$ function then\n$f(\\vec{x})=U(\\ulcorner f\\urcorner,\\vec{x})$.\n\nNow take $L$ to be the $k$-ary relatons in either $\\Sigma_n$ or $\\Pi_n$.\nCall the universal relation for $k+n$-ary $\\Delta_1$ relations\n$U_\\Delta$. Then any $\\phi\\in L$ is equivalent to a relation in the form\n$Q y_1 Q^\\prime y_2 \\cdots Q^* y_n \\psi(\\vec{x},\\vec{y})$ where\n$g\\in\\Delta_1$, and so\n$U(\\vec{x})=Q y_1 Q^\\prime y_2 \\cdots Q^* y_n U_\\Delta(\\ulcorner\\psi\\urcorner,\\vec{x},\\vec{y})$.\nThen $U$ is universal for $L$.\n\nFinally, if $L$ is the $k$-ary $\\Delta_n$ relations and $\\phi\\in L$ then\n$\\phi$ is equivalent to relations of the form\n$\\exists y_1\\forall y_2\\cdots Q y_n \\psi(\\vec{x},\\vec{y})$ and\n$\\forall z_1\\exists z_2\\cdots Q z_n\\eta(\\vec{x},\\vec{z})$. If the\n$k$-ary universal relations for $\\Sigma_n$ and $\\Pi_n$ are $U_\\Sigma$\nand $U_\\Pi$ respectively then\n$\\phi(\\vec{x})\\leftrightarrow U_\\Sigma(\\ulcorner\\psi\\urcorner,\\vec{x})\\wedge U_\\Pi(\\ulcorner\\eta\\urcorner,\\vec{x})$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniversalRelationsExistForEachLevelOfTheArithmeticalHierarchy"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "universal relations exist for each level of the arithmetical hierarchy"
+  ]
+}

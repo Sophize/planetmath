@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "First we define the function $$H(t) =\n  \\begin{cases}\n    1 & \\text{for } 0 \\leq t < \\tfrac{1}{2} \\\\\n    -1 & \\text{for } \\tfrac{1}{2} \\leq t \\leq 1 \\\\\n    0 & \\text{otherwise.}\n  \\end{cases}$$ and the sequence of functions\n$$H_n(t) = 2^{j/2}H(2^j t - k)$$ for $n=2^j+k$ where $j>0$ and\n$0\\leq k \\leq 2^j$. We also set $H_0(t)=1$.\n\nIf $\\{Z_n:0\\leq n < \\infty \\}$ is a sequence of independent Gaussian\nrandom variables with mean $0$ and variance $1$, then the series defined\nby $$X_t = \\sum^{\\infty}_{n=0} \\left(Z_n \\int_0^t H_n(s)\\;ds\\right)$$\nconverges uniformly on $[0,1]$ with probability one. Moreover, the\nprocess $\\{X_t\\}$ defined by the limit is a *Brownian motion* for\n$0 \\leq t \\leq 1$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WaveletRepresentationOfBrownianMotion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "wavelet representation of Brownian motion",
+    "construction of Brownian motion"
+  ]
+}

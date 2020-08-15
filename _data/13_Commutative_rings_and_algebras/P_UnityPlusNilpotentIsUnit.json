@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $x$ is a nilpotent element of a ring with unity 1 (which may be 0),\nthen the sum $1\\!+\\!x$ is a unit of the ring.\n\nIf $x=0$, then $1\\!+\\!x=1$, which is a unit. Thus, we may assume that\n$x \\neq 0$.\n\nSince $x$ is nilpotent, there is a positive integer $n$ such that\n$x^n=0$. We multiply $1\\!+\\!x$ by another ring element:\n$$\\begin{aligned}\n(1\\!+\\!x)\\cdot\\sum_{j=0}^{n-1}(-1)^jx^j\n&=& \\sum_{j=0}^{n-1}(-1)^jx^j\\!+\\!\\sum_{k=0}^{n-1}(-1)^kx^{k+1}\\\\\n&=& \\sum_{j=0}^{n-1}(-1)^jx^j\\!-\\!\\sum_{k=1}^n(-1)^kx^k\\\\\n&=& 1\\!+\\!\\sum_{j=1}^{n-1}(-1)^jx^j\\!-\\!\\sum_{k=1}^{n-1}(-1)^kx^k\\!-\\!(-1)^nx^n\\\\\n&=& 1\\!+\\!0\\!+\\!0\\\\\n&=& 1\\end{aligned}$$\n\n(Note that the summations include the term $(-1)^0x^0$, which is why\n$x=0$ is excluded from this case.)\n\nThe reversed multiplication gives the same result. Therefore, $1\\!+\\!x$\nhas a multiplicative inverse and thus is a unit.\n\nNote that there is a this proof and geometric series: The goal was to\nproduce a multiplicative inverse of $1\\!+\\!x$, and geometric series\nyields that\n\n$$\\displaystyle \\frac{1}{1\\!+\\!x}=\\sum_{n=0}^{\\infty} (-1)^nx^n,$$\n\nprovided that the summation . Since $x$ is nilpotent, the summation has\na finite number of nonzero terms and thus .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnityPlusNilpotentIsUnit"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "unity plus nilpotent is unit"
+  ]
+}

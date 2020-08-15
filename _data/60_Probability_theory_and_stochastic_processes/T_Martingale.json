@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Definition**. Let\n$(\\Omega, {\\mathcal{F}},({\\mathcal{F}}_t)_{t\\in\\mathbb{T}},{\\mathbb P})$\nbe a filtered probability space and $(X_t)$ be a stochastic process such\nthat $X_t$ is for all $t\\in\\mathbb{T}$. Then, $X=(X_t, {\\mathcal{F}}_t)$\nis called a *submartingale* if\n$$\\mathbb{E}^{{\\mathbb P}}[X_t|{\\mathcal{F}}_s] \\geq X_s,\\, \\mbox{for every $s < t$, a.e.[${\\mathbb P}$],}$$\nand a *supermartigale* if\n$$\\mathbb{E}^{{\\mathbb P}}[X_t|{\\mathcal{F}}_s] \\leq X_s,\\, \\mbox{for every $s < t$, a.e.[${\\mathbb P}$].}$$\n\nA submartingale that is also a supermartingale is called a *martingale*,\ni.e., a martingale satisfies\n$$\\mathbb{E}^{{\\mathbb P}}[X_t|{\\mathcal{F}}_s] = X_s,\\, \\mbox{for\nevery $s < t$, a.e.[${\\mathbb P}$].}$$\n\nSimilarly, if the $\\{{\\mathcal{F}}_t\\}$ form a decreasing collection of\n$\\sigma$-subalgebras of ${\\mathcal{F}}$, then $X$ is called a *reverse\nsubmartingale* if\n$$\\mathbb{E}^{{\\mathbb P}}[X_s|{\\mathcal{F}}_t] \\geq X_t,\\, \\mbox{for every $s < t$, a.e.[${\\mathbb P}$],}$$\nand a *reverse supermartingale* if\n$$\\mathbb{E}^{{\\mathbb P}}[X_s|{\\mathcal{F}}_t] \\leq X_t,\\, \\mbox{for every $s < t$, a.e.[${\\mathbb P}$].}$$\n\n**Remarks**\n\n-   The martingale property captures the idea of a fair bet, where the\n    expected future value is equal to the current value.\n\n-   The submartingale property is equivalent to\n    $$\\int_A X_t \\, d{\\mathbb P}\\geq\n    \\int_A X_s \\, d{\\mathbb P}\\,\\,\\, \\mbox{for every $A \\in {\\mathcal{F}}_s$ and $s <\n    t$}$$ and similarly for the other definitions. This is immediate\n    from the definition of conditional expectation.",
+  "language": "INFORMAL",
+  "phrase": "Martingale",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Martingale"
+    }
+  ],
+  "indexable": true
+}

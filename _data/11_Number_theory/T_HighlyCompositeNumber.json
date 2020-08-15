@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "We call $n$ a highly composite number if $d(n)>d(m)$ for all $m<n$,\nwhere $d(n)$ is the number of divisors of $n$. The first several are 1,\n2, 4, 6, 12, 24. The sequence is in Sloane\u2019s OEIS.\n\nThe integer $n$ is [*superior*]{} highly composite if there is an\n$\\epsilon>0$ such that for all $m\\not=n$,\n$$d(n) n^{-\\epsilon} > d(m) m^{-\\epsilon}.$$ The first several superior\nhighly composite numbers are 2, 6, 12, 60, 120, 360. The sequence is in\nSloane\u2019s encyclopedia.\n\n[9]{} L. Alaoglu\u00a0and\u00a0P. Erd\u00f6s, [*On highly composite and similar\nnumbers*]{}. Trans. Amer. Math. Soc. [**56**]{} (1944), 448\u2013469.",
+  "language": "INFORMAL",
+  "phrase": "Highly Composite Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HighlyCompositeNumber"
+    }
+  ],
+  "indexable": true
+}

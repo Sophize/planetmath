@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "\\[Bolyai-Gerwien Theorem\\] Given two polygons with the same area, it is\npossible to cut up one polygon into a finite number of smaller polygonal\npieces and from those pieces assemble into the other polygon.\n\nTo cast the theorem in more mathematically rigorous terms, let $P$ be a\npolygon in a plane (Euclidean plane). A *dissection* or *polygonal\ndecomposition* of $P$ is a finite set of polygons $P_1,\\ldots, P_n$ such\nthat $P=P_1\\cup \\cdots \\cup P_n$ and $P_i\\cap P_j$ is either a line\nsegment, a point, or the empty set. Two polygons $P$ and $Q$ are said to\nbe *equidecomposable* (or *scissor-equivalent*) if there is a dissection\n$\\lbrace P_i\\mid i=1,\\ldots, n \\rbrace$ of $P$ and a finite set of rigid\nmotions $\\lbrace m_i\\mid i=1,\\ldots, n\\rbrace$ such that\n$\\lbrace m_i(P_i)\\mid i=1,\\ldots, n\\rbrace$ is a dissection of $Q$. From\nthis definition, it is easy to see that equidecomposability is an\nequivalence relation on the set of all polygons in a given plane.\nFurthermore, if two polygons are equidecomposable, they have the same\narea, and the converse of which is the statement of Bolyai-Gerwien\nTheorem.\n\nOne possible proof is to show that any polygon can be broken down into\ntriangles. These triangles can be reassembled into rectangles, which can\nthen be joined into one big rectangle. This big rectangle can then be\nreassembled into a square.\n\n**Remarks**. Farkas Bolyai conjectured this in the 1790s and William\nWallace proved it in 1808. Unaware of this, Paul Gerwien proved it again\nin 1833, and then Bolyai, unaware of both earlier results, gave another\nproof in 1835.\n\nDavid Hilbert wondered if the same could be done for any pair of\npolyhedra of equal volume (see the third of Hilbert\u2019s problems). Dehn\nproved that this could not be done shortly after (Dehn\u2019s Theorem).\nHowever, under some suitable conditions, Hadwiger proved that\nequidecomposability is still possible.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BolyaiGerwienTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Bolyai-Gerwien theorem",
+    "Wallace-Bolyai-Gerwien theorem",
+    "Bolyai-Gerwin theorem",
+    "polygonal decomposition"
+  ]
+}

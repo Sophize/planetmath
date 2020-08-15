@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Dirichlet L-function"
+  ],
+  "definition": "The *Dirichlet L-series* associated to a Dirichlet character $\\chi$ is\nthe series $$L(\\chi,s)=\\sum_{n=1}^\\infty \\frac{\\chi(n)}{n^s}.$$ It\nconverges absolutely and uniformly in the domain\n$\\Re(s) \\geq 1 + \\delta$ for any positive $\\delta$, and admits the Euler\nproduct identity $$L(\\chi,s)=\\prod_p \\frac{1}{1-\\chi(p)p^{-s}}$$ where\nthe product is over all primes $p$, by virtue of the multiplicativity of\n$\\chi$. In the case where $\\chi=\\chi_0$ is the trivial character mod m,\nwe have $$L(\\chi_0,s)=\\zeta(s)\\prod_{p|m} (1-p^{-s}),$$ where $\\zeta(s)$\nis the Riemann Zeta function. If $\\chi$ is non-primitive, and $C_\\chi$\nis the conductor of $\\chi$, we have\n$$L(\\chi,s)=L(\\chi\\prime,s)\\prod_{p|m\\atop p\\nmid C_\\chi}(1-\\chi(p)p^{-s}),$$\nwhere $\\chi\\prime$ is the primitive character which induces $\\chi$. For\nnon-trivial, primitive characters $\\chi$ mod m, $L(\\chi,s)$ admits an\nanalytic continuation to all of $\\mathbb{C}$ and satsfies the symmetric\nfunctional equation\n$$L(\\chi,s)\\left(\\frac{m}{\\pi}\\right)^{s/2}\\Gamma\\left(\\frac{s+e_\\chi}{2}\\right)=\\frac{g_1(\\chi)}{i^{e_\\chi}\\sqrt{m}}L(\\chi^{-1},1-s)\\left(\\frac{m}{\\pi}\\right)^{\\frac{1-s}{2}}\\Gamma\\left(\\frac{1-s+e_\\chi}{2}\\right).$$\nHere, $e_\\chi\\in \\{0,1\\}$ is defined by $\\chi(-1)=(-1)^{e_\\chi}\\chi(1)$,\n$\\Gamma$ is the gamma function, and $g_1(\\chi)$ is a Gauss sum. (3),(4),\nand (5) combined show that $L(\\chi,s)$ admits a meromorphic continuation\nto all of $\\mathbb{C}$ for all Dirichlet characters $\\chi$, and an\nanalytic one for non-trivial $\\chi$. Again assuming that $\\chi$ is\nnon-trivial and primitive character mod m, if $k$ is a positive integer,\nwe have $$L(\\chi,1-k)=-\\frac{B_{k,\\chi}}{k},$$ where $B_{k,\\chi}$ is a\ngeneralized Bernoulli number. By (5), taking into account the poles of\n$\\Gamma$, we get for $k$ positive, $k \\equiv e_\\chi$ mod 2,\n$$L(\\chi,k)=(-1)^{1+\\frac{k-e_\\chi}{2}}\\frac{g_1(\\chi)}{2i^{e_\\chi}}\\left(\\frac{2\\pi}{m}\\right)^k\\frac{B_{k,\\chi^{-1}}}{k!}.$$\nThis series was first investigated by Dirichlet (for whom they were\nnamed), who used the non-vanishing of $L(\\chi,1)$ for non-trivial $\\chi$\nto prove his famous Dirichlet\u2019s theorem on primes in arithmetic\nprogression. This is probably the first instance of using complex\nanalysis to prove a purely number theoretic result.",
+  "language": "INFORMAL",
+  "phrase": "Dirichlet L-Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirichletLseries"
+    }
+  ],
+  "indexable": true
+}

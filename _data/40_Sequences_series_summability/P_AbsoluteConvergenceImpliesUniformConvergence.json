@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $T$ be a topological space, $f$ be a continuous function from $T$ to\n$[0,\\infty)$, and let $\\{f_k\\}_{k=0}^\\infty$ be a sequence of continuous\nfunctions from $T$ to $[0,\\infty)$ such that, for all $x \\in T$, the sum\n$\\sum_{k=0}^\\infty f_k (x)$ converges to $f(x)$. Then the convergence of\nthis sum is uniform on compact subsets of $T$.\n\nLet $X$ be a compact subset of $T$ and let $\\epsilon$ be a positive real\nnumber. We will construct an open cover of $X$. Because the series is\nassumed to converge pointwise, for every $x \\in X$, there exists an\ninteger $n_x$ such that $\\sum_{k=n_x}^\\infty f_k (x) < \\epsilon \n/ 3$. By continuity, there exists an open neighborhood $N_1$ of $x$ such\nthat $|f(x) - f(y)| \n< \\epsilon /3$ when $y \\in N_1$ and an open neighborhood $N_2$ of $x$\nsuch that $\\left| \n\\sum_{k=0}^{n_x} f_k (x) - \\sum_{k=0}^n  f_k (y) \\right| < \\epsilon / 3$\nwhen $y \\in N_2$. Let $N_x$ be the intersection of $N_1$ and $N_2$.\nThen, for every $y \\in N$, we have\n$$f(y) - \\sum_{k=0}^{n_x} f_k (y) < |f(y) - f(x)| + \n                                   \\left| f(x) - \\sum_{k=0}^{n_x} f_k (x) \\right| +\n                                   \\left| \\sum_{k=0}^{n_x} f_k (x) - \\sum_{k=0}^{n_x} f_k (y) \\right|\n                                 < \\epsilon .$$ In this way, we\nassociate to every point $x$ an neighborhood $N_x$ and an integer $n_x$.\nSince $X$ is compact, there will exist a finite number of points\n$x_1, \\ldots x_m$ such that\n$X \\subseteq N_{x_1} \\cup \\cdots \\cup N_{x_m}$. Let $n$ be the greatest\nof $n_{x_1}, \n\\ldots, n_{x_m}$. Then we have $f(y) - \\sum_{k=0}^n f_k (y) < \\epsilon$\nfor all $y \\in X$, so, the functions $f_k$ being positive,\n$f(y) - \\sum_{k=0}^h f_k (y) < \\epsilon$ for all $h \\ge n$, which means\nthat the sum converges uniformly.\n\nNote: This result can also be deduced from Dini\u2019s theorem, since the\npartial sums of positive functions are monotonically increasing.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbsoluteConvergenceImpliesUniformConvergence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "absolute convergence implies uniform convergence"
+  ]
+}

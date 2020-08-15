@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ and $Y$ be metric spaces and let $a \\in X$ be a limit point of\n$X$. Suppose that $f\\colon X \\setminus \\{a\\} \\to Y$ is a function\ndefined everywhere except at $a$. For $L \\in Y$, we say the *limit* of\n$f(x)$ as $x$ approaches $a$ is equal to $L$, or\n$$\\lim_{x \\to a} f(x) = L$$ if, for every real number $\\varepsilon > 0$,\nthere exists a real number $\\delta > 0$ such that, whenever $x \\in X$\nwith $0 < d_X(x,a)\n< \\delta$, then $d_Y(f(x), L) < \\varepsilon$.\n\nThe formal definition of limit as given above has a well\u2013deserved\nreputation for being notoriously hard for inexperienced students to\nmaster. There is no easy fix for this problem, since the concept of a\nlimit is inherently difficult to state precisely (and indeed wasn\u2019t even\naccomplished historically until the 1800\u2019s by Cauchy, well after the\ndevelopment of calculus in the 1600\u2019s by Newton and Leibniz). However,\nthere are number of related definitions, which, taken together, may shed\nsome light on the nature of the concept.\n\n-   The notion of a limit can be generalized to mappings between\n    arbitrary topological spaces, under some mild restrictions. In this\n    context we say that $\\lim_{x \\to a} f(x) = L$ if $a$ is a limit\n    point of $X$ and, for every neighborhood $V$ of $L$ (in $Y$), there\n    is a deleted neighborhood $U$ of $a$ (in $X$) which is mapped into\n    $V$ by $f$. One also requires that the range $Y$ be Hausdorff (or at\n    least $T_1$) in order to ensure that limits, when they exist, are\n    unique.\n\n-   Let $a_n, n\\in\\mathbb{N}$ be a sequence of elements in a metric\n    space $X$. We say that $L\\in X$ is the limit of the sequence, if for\n    every $\\varepsilon>0$ there exists a natural number $N$ such that\n    $d(a_n,L)< \\varepsilon$ for all natural numbers $n> N$.\n\n-   The definition of the limit of a mapping can be based on the limit\n    of a sequence. To wit, $\\lim_{x \\to a} f(x) = L$ if and only if, for\n    every sequence of points $x_n$ in $X$ converging to $a$ (that is,\n    $x_n \\to a$, $x_n \\neq a$), the sequence of points $f(x_n)$ in $Y$\n    converges to $L$.\n\nIn calculus, $X$ and $Y$ are frequently taken to be Euclidean spaces\n$\\mathbb{R}^n$ and $\\mathbb{R}^m$, in which case the distance functions\n$d_X$ and $d_Y$ cited above are just Euclidean distance.",
+  "language": "INFORMAL",
+  "phrase": "Limit",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Limit"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "omega-limit set"
+  ],
+  "definition": "Let $X$ be a metric space, and let $f:X\\rightarrow X$ be a\nhomeomorphism. The *$\\omega$-limit set* of $x\\in X$, denoted by\n$\\omega(x,f)$, is the set of cluster points of the forward orbit\n$\\{f^n(x)\\}_{n\\in {\\mathbb{N}}}$. Hence, $y\\in \\omega(x,f)$ if and only\nif there is a strictly increasing sequence of natural numbers\n$\\{n_k\\}_{k\\in {\\mathbb{N}}}$ such that $f^{n_k}(x)\\rightarrow y$ as\n$k\\rightarrow\\infty$.\n\nAnother way to express this is\n$$\\omega(x,f) = \\bigcap_{n\\in {\\mathbb{N}}} \\overline{\\{f^k(x): k>n\\}}.$$\n\nThe *$\\alpha$-limit set* is defined in a similar fashion, but for the\nbackward orbit; i.e. $\\alpha(x,f)=\\omega(x,f^{-1})$.\n\nBoth sets are $f$-invariant, and if $X$ is compact, they are compact and\nnonempty.\n\nIf $\\varphi:{\\mathbb{R}}\\times X\\to X$ is a continuous flow, the\ndefinition is similar: $\\omega(x,\\varphi)$ consists of those elements\n$y$ of $X$ for which there exists a strictly increasing sequnece\n$\\{t_n\\}$ of real numbers such that $t_n\\rightarrow \\infty$ and\n$\\varphi(x,t_n) \\rightarrow y$ as $n\\rightarrow\\infty$. Similarly,\n$\\alpha(x,\\varphi)$ is the $\\omega$-limit set of the reversed flow (i.e.\n$\\psi(x,t) = \\phi(x,-t)$). Again, these sets are invariant and if $X$ is\ncompact they are compact and nonempty. Furthermore,\n$$\\omega(x,f) = \\bigcap_{n\\in {\\mathbb{N}}}\\overline{\\{\\varphi(x,t):t>n\\}}.$$",
+  "language": "INFORMAL",
+  "phrase": "$\\Omega$-Limit Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/omegalimitSet"
+    }
+  ],
+  "indexable": true
+}

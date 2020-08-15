@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If $\\vartheta$ is an algebraic number of degree $n$ with\nminimal polynomial $f(x)$, then the [ *of the number*]{} $\\vartheta$,\ni.e. the discriminant\n$\\Delta(1,\\,\\vartheta,\\,\\ldots,\\,\\vartheta^{n-1})$, is\n$$d(\\vartheta) = (-1)^\\frac{n(n-1)}{2}\\mbox{N}(f'(\\vartheta)),$$ where N\nmeans the absolute norm.\\\n[*Proof.*]{} Let the algebraic conjugates of the number $\\vartheta$,\ni.e. all complex zeroes of $f(x)$, be\n$\\vartheta_1 = \\vartheta,\\,\\vartheta_2,\\,\\ldots,\\,\\vartheta_n$. If\n$f(x) = x^n+a_1x^{n-1}+\\ldots+a_n$, we have\n$$f'(\\vartheta) = n\\vartheta^{n-1}+(n-1)a_1\\vartheta^{n-2}+\\ldots+2a_{n-2}\\vartheta+a_{n-1} \\in \\mathbb{Q}(\\vartheta).$$\nThe of $f'(\\vartheta)$ in $\\mathbb{Q}(\\vartheta)/\\mathbb{Q}$ is the\nproduct of all $[f'(\\vartheta)]^{(i)}$ of $f'(\\vartheta)$, which is\n$$\\mbox{N}(f'(\\vartheta)) = \n[f'(\\vartheta)]^{(1)}[f'(\\vartheta)]^{(2)}\\cdots[f'(\\vartheta)]^{(n)} = f'(\\vartheta_1)f'(\\vartheta_2)\\cdots f'(\\vartheta_n).$$\nOn the other side, the polynonomial $f(x)$ in its linear factors is\n$$f(x) = (x-\\vartheta_1)(x-\\vartheta_2)\\cdots(x-\\vartheta_n),$$ whence\nits derivative may be written\n$$f'(x) = \\sum_{\\nu=1}^n(x-\\vartheta_1)\\cdots(x-\\vartheta_{\\nu-1})\\,(x-\\vartheta_{\\nu+1})\\cdots(x-\\vartheta_n).$$\nSubstituting $x = \\vartheta_\\nu$ gives simply\n$$f'(\\vartheta_\\nu) = \\prod_{j\\neq\\nu}(\\vartheta_\\nu-\\vartheta_j)\\quad \\mbox{for\\;\\;} \\nu = 1,\\,\\ldots,\\,n.$$\nMultiplying these equations we obtain\n$$\\mbox{N}(f'(\\vartheta)) = \\prod_{\\nu=1}^nf'(\\vartheta_\\nu) = \\prod_{i\\neq j}(\\vartheta_i-\\vartheta_j).$$\nThe discriminant of $\\vartheta$ is same as the discriminant of the\nequation $f(x) = 0$. Therefore\n$$d(\\vartheta) = \\left[\\prod_{i<j}(\\vartheta_i-\\vartheta_j)\\right]^2,$$\nwhere the number of the factors in the brackets is\n$(n-1)+(n-2)+\\ldots+1 = \\frac{(n-1)n}{2}$. Thus we obtain the asserted\nresult $$d(\\vartheta) = \n\\left[\\prod_{i<j}(\\vartheta_i-\\vartheta_j)\\right]\\cdot(-1)^\\frac{n(n-1)}{2}\\left[\\prod_{j<i}(\\vartheta_i-\\vartheta_j)\\right] \n= (-1)^\\frac{n(n-1)}{2}\\prod_{i\\neq j}(\\vartheta_i-\\vartheta_j) = (-1)^\\frac{n(n-1)}{2}\\mbox{N}(f'(\\vartheta)).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiscriminantOfAlgebraicNumber"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "discriminant of algebraic number"
+  ]
+}

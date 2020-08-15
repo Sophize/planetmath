@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "We assume that all representations ($G$-modules) are finite-dimensional.\n\nIf $N_1$ and $N_2$ are $G$-modules over a field $k$ (i.e.\nrepresentations of $G$ in $N_1$ and $N_2$), then a map\n$\\varphi:N_1\\to N_2$ is a *$G$-map* if $\\varphi$ is $k$-linear and\npreserves the $G$-action, i.e. if\n$$\\varphi(\\sigma \\cdot x)=\\sigma\\cdot \\varphi(x)$$\n\n$G$-maps have subrepresentations, also called $G$-submodules, as their\nkernel and image. To see this, let $\\varphi:N_1\\to N_2$ be a $G$-map;\nlet $M_1\\subset N_1$ and $M_2\\subset N_2$ be the kernel and image\nrespectively of $\\varphi$. $M_1$ is a submodule of $N_1$ if it is stable\nunder the action of $G$, but\n$$x\\in M_1\\Rightarrow \\varphi(\\sigma\\cdot x)=\\sigma\\cdot\\varphi(x)=0\\Rightarrow \\sigma\\cdot x\\in M_1$$\n$M_2$ is a submodule of $N_2$ if it is stable under the action of $G$,\nbut\n$$y=\\varphi(x)\\in M_2\\Rightarrow \\sigma\\cdot y=\\sigma\\cdot \\varphi(x)=\\varphi(\\sigma\\cdot x)\\Rightarrow \\sigma\\cdot y\\in M_2$$\n\nFinally, we define the intuitive concept of a quotient $G$-module.\nSuppose $N'\\subset N$ is a $G$-submodule. Then $N/N'$ is a\nfinite-dimensional vector space. We can define an action of $G$ on\n$N/N'$ via $\\sigma(n+N')=\\sigma(n)+\\sigma(N')=\\sigma(n)+N'$, so that\n$n+N'$ is well-defined under the action and $N/N'$ is a $G$-module.",
+  "language": "INFORMAL",
+  "phrase": "Quotient Representations",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientRepresentations"
+    }
+  ],
+  "indexable": true
+}

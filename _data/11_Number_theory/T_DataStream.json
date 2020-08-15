@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "time series",
+    "sequence of tuples",
+    "stream"
+  ],
+  "definition": "A [*data stream*]{} is an ordered pair $\\left( s,\\Delta \\right) $\n\nwhere:\n\n1\\. $s$ is a sequence of tuples,\n\n2\\. $\\Delta $ is the sequence of time intervals (i.e. rational or real\nnumbers) and each $\\Delta _{n} > 0$",
+  "language": "INFORMAL",
+  "phrase": "Data Stream",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DataStream"
+    }
+  ],
+  "indexable": true
+}

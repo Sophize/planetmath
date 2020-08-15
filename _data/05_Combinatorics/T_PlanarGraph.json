@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "planar"
+  ],
+  "definition": "Description {#description .unnumbered}\n===========\n\nA *planar graph* is a graph which can be drawn on a plane (a flat 2-d\nsurface) or on a sphere, with no edges crossing. When drawn on a sphere,\nthe edges divide its area in a number of regions called faces (or\n\u201ccountries\u201d, in the context of map coloring). When drawn on a plane,\nthere is one *outer country* taking up all the space outside the\ndrawing. Every graph drawn on a sphere can be drawn on a plane (puncture\nthe sphere in the interior of any one of the countries) and vice versa.\nStatements on map coloring are often simpler in terms of a spherical map\nbecause the outer country is no longer a special case.\n\nThe number of faces (countries) equals $c+1$ where $c$ is the\n*cyclomatic number*, $c=m-n+k$ (where $m$ is the number of edges, $n$\nthe number of vertices, and $k$ the number of connected components of\nthe graph). All this holds equally for planar multigraphs and\npseudographs.\n\nNo complete graphs above $K_4$ are planar. $K_4$, drawn without\ncrossings, looks like :\n\n$$\\xymatrix{\n  & A\\ar@{-}[d] \\ar@{-}[ddl] \\ar@{-}[ddr] &    \\\\\n  & B\\ar@{-}[dl] \\ar@{-}[dr] &    \\\\\nC \\ar@{-}[rr] &   & D }$$\n\nHence it is planar (try this for $K_5$.)\n\nA drawing of a planar graph is a drawing in which each edge is drawn as\na line segment. Every planar graph has a drawing. This result was found\nindependently by Wagner, F\u00e1ry and Stein. Schnyder improved this further\nby showing how to draw any planar graph with $n$ vertices on an integer\ngrid of $O(n^2)$ area.\n\nDefinition {#definition .unnumbered}\n==========\n\nIdeally, this definition would just formalize what was described above.\nIt will not, exactly. It will formalize the notion of a graph *with an\nembedding into the plane*.\n\nLet $M$ be a topological manifold. Then a *graph on $M$* is a pair\n$(G,\\iota)$, where\n\n1.  $G$ is a multigraph,\n\n2.  $\\iota$ is a function from the graph topology of $G$ into $M$, and\n\n3.  $\\iota$ is a homeomorphism onto its image.\n\nA *plane graph* is a graph on $\\mathbb{R}^2$.\n\nA *planar graph* is a graph $G$ that has an embedding $\\iota$ making\n$(G,\\iota)$ into a plane graph.\n\nNormally, the only manifolds $M$ that are of interest are\ntwo-dimensional.\n\nThe most usual question for which this definition finds a use is \u201ccan\nthe following graph $G$ be made into a graph on $M$?\u201d. When $M$ is the\nplane, this is usually phrased as \u201cIs $G$ a planar graph?\u201d. Wagner\u2019s\ntheorem provides a criterion for answering this question. When $M$ is a\ntorus, the answer changes: the complete bipartite graph $K_{3,3}$ can be\nmade into a graph on the torus.\n\nA graph on a manifold has a notion of \u201cface\u201d as well as the usual graph\nnotions of vertex and edge.",
+  "language": "INFORMAL",
+  "phrase": "Planar Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PlanarGraph"
+    }
+  ],
+  "indexable": true
+}

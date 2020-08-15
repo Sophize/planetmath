@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "annihilator prime"
+  ],
+  "definition": "Let $R$ be a ring, and let $M$ be an $R$-module. A prime ideal $P$ of\n$R$ is an for $M$ if $P={\\rm ann}(X)$, the annihilator of some nonzero\nsubmodule $X$ of $M$.\n\nNote that if this is the case, then the module ${\\rm ann}_M(P)$ contains\n$X$, has $P$ as its annihilator, and is a $(R/P)$-module.\n\nIf, in addition, $P$ is equal to the annihilator of a submodule of $M$\nthat is a $(R/P)$-module, then we call $P$ an of $M$.",
+  "language": "INFORMAL",
+  "phrase": "Associated Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AssociatedPrime"
+    }
+  ],
+  "indexable": true
+}

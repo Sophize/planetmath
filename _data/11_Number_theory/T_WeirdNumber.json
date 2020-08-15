@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an abundant number $n$, if no subset of its divisors\n$d_1, \\ldots , d_{\\tau(n) - 1}$ (where $\\tau$ is the divisor function)\ncan be selected that adds up to $n$ (that is, $n$ is [*not*]{} a\nsemiperfect number), then $n$ is said to be a [*weird number*]{}.\n\nThe first few weird numbers are 70, 836, 4030, 5830, 7192, 7912, 9272,\n(listed in A006037 of Sloane\u2019s OEIS). All the known weird numbers are\neven. In 1972, Benkoski wondered if there are any odd weird numbers; to\nthis day $10^{17}$ is an accepted lower bound. Despite this question of\nparity, it has been proven that there are infinitely many weird numbers\nand that they have positive Schnirelmann density.\n\nEven so, weird numbers are rarer than semiperfect numbers; twice a weird\nnumber is usually a semiperfect number, which makes all subsequent\nmultiples of a weird number also semiperfect.\n\nTrivia\n------\n\nThe band Boards of Canada records for the label Music70. Track 9 of\ntheir album [*Geogaddi*]{} is titled \u201cThe Smallest Weird Number.\u201d\n\n[9]{} S. Benkoski, \u201cAre All Weird Numbers Even?\u201d, [*Amer. Math.\nMonthly*]{} [**79**]{} (1972), 774.\n\nWWikipedia,",
+  "language": "INFORMAL",
+  "phrase": "Weird Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeirdNumber"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "economical number"
+  ],
+  "definition": "A [*frugal number*]{} or [*economical number*]{} $n$ is an integer with\na base $b$ representation of $k$ digits for which the prime\nfactorization uses fewer than $k$ digits (with repeated prime factors\ngrouped with exponents and the digits of those exponents counted\nwhenever greater than 1). The first few frugal numbers in base 10 are\n125, 128, 243, 256, 343, 512, 625, 729, 1024, 1029, 1215, 1250, 1280,\n1331, 1369, 1458, 1536, 1681, 1701, 1715, 1792, 1849, 1875, etc. (listed\nin A046759 of Sloane\u2019s OEIS). For example, 128 is frugal in base 10\nbecause it is written with three digits, while its factorization of\n$2^7$ uses just two digits. 128 also happens to be frugal in binary. If\nwe regard 1 as not prime, then 1 is a frugal number in all positional\nbases (for example, Mathematica returns its factorization as an empty\nset).\n\n[1]{} D. Darling, \u201cEconomical number\u201d in [*The Universal Book of\nMathematics: From Abracadabra To Zeno\u2019s paradoxes*]{}. Hoboken, New\nJersey: Wiley (2004)",
+  "language": "INFORMAL",
+  "phrase": "Frugal Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FrugalNumber"
+    }
+  ],
+  "indexable": true
+}

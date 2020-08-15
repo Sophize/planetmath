@@ -1,0 +1,17 @@
+{
+  "argumentText": "Euler\u2019s formula implies the linear lower bound\n$\\operatorname{cr}(G)\\geq m-3n+6$, and so it cannot be used directly.\nWhat we need is to consider the subgraphs of our graph, apply Euler\u2019s\nformula on them, and then combine the estimates. The probabilistic\nmethod provides a natural way to do that.\n\nConsider a minimal embedding of $G$. Choose independently every vertex\nof $G$ with probability $p$. Let $G_p$ be a graph induced by those\nvertices. By Euler\u2019s formula, $\\operatorname{cr}(G_p)-m_p+3n_p\\geq 0$.\nThe expectation is clearly $$E(\\operatorname{cr}(G_p)-m_p+3n_p)\\geq 0.$$\nSince $E(n_p)=pn$, $E(m_p)=p^2 m$ and $E(X_p)=p^4\\operatorname{cr}(G)$,\nwe get an inequality that bounds the crossing number of $G$ from below,\n$$\\operatorname{cr}(G)\\geq p^{-2} m-3p^{-3}n.$$ Now set $p=\\frac{4n}{m}$\n(which is at most $1$ since $m\\geq 4n$), and the inequaliy becomes\n$$\\operatorname{cr}(G)\\geq \\frac{1}{64}\\frac{m^3}{n^2}.$$ Similarly, if\n$m\\geq\\frac{9}{2}n$, then we can set $p=\\frac{9n}{2m}$ to get\n$$\\operatorname{cr}(G)\\geq \\frac{4}{243}\\frac{m^3}{n^2}.$$\n\n[1]{}\n\nMartin Aigner and G[\u00fc]{}nter\u00a0M. Ziegler. . Springer, 1999.",
+  "conclusion": "#P_CrossingLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCrossingLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of crossing lemma"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Systematic sampling is a method of sampling $n$ items from a population\nof $N$ items with the following sequence of procedures:\n\n1.  label each item in the population as $x_i$, where $1\\leq i\\leq\n    N$,\n\n2.  randomly select one item from the first $k$ items in the population,\n    where $k=\\lceil N/n \\rceil$, the smallest integer greater than or\n    equal to $N/n$,\n\n3.  pick the $k$th item thereafter, $x_i,x_{i+k},x_{i+2k},\\ldots$, until\n    all $n$ items are picked.\n\nIf $N\\equiv0 \\mod n$, then all $n$ items can be picked before reaching\nthe end of the population. Otherwise, define $x_{j+N}:=x_j$. Using this,\nwe can continue to pick our sample units until all $n$ items are\npicked.\\\n\\\nThe above method suggests that we do not have to make our first pick\nfrom among the first $k$ items. By the above definition, we can start\nanywhere in the population and still end up $n$ units of sample.\\\n\\\n**Remarks.**\n\n-   If $n$ divides $N$, then systematic sampling can be viewed as\n    grouping the population into $k=N/n$ strata, and picking one sample\n    from each stratum. The difference between systematic sampling and\n    stratified sampling is that in systematic sampling, only the first\n    sample is picked randomly, all other samples are picked based on the\n    position of the first pick.\n\n-   Again, if $n\\mid N$, one can view systematic sampling as a one-stage\n    cluster sampling, where a primary sampling unit is defined as the\n    set of units $x_i,x_{i+k},\\ldots,x_{i+(n-1)k}$ in the population,\n    where $k=N/n$ and $1\\leq i\\leq k$. In this way, there are $k$\n    primary sampling units. A simple random sample of one unit can then\n    be drawn from these $k$ units. All of the items within the selected\n    primary sample will then be the complete sample drawn by systematic\n    sampling.\n\n-   If some linear trend exists in the population, it is a good idea to\n    order the population so the linearity is preserved by the order, so\n    that when a systematic sampling is performed, the linearity gets\n    carried over to the samples.\n\n-   When ordering the population, care should be taken so that there\n    does not exhibit any periodic patterns (seasonality, etc...) that\n    would greatly bias the sample.",
+  "language": "INFORMAL",
+  "phrase": "Systematic Sampling",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SystematicSampling"
+    }
+  ],
+  "indexable": true
+}

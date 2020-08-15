@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "order reversing"
+  ],
+  "definition": "-   Given finite dimensional vector spaces $V$ and $W$, a *duality* of\n    the projective geometry $PG(V)$ to $PG(W)$ is an order-reversing\n    bijection $f:PG(V)\\rightarrow PG(W)$. If $W=V$ then we can refer to\n    $f$ as a correlation.\n\n-   A correlation of order $2$ is called a *polarity*.\n\n-   The set of correlations and collineations $f:PG(V)\\rightarrow PG(V)$\n    form a group denoted $P\\Gamma L^*(V)$ with the operation of\n    composition.\n\nDualities are determined by where they map collinear triples. Given a\nmap define on the points of $PG(V)$ to the hyperplanes of $PG(W)$ which\nmaps collinear triples to triples of hyperplanes which intersect in a\ncodimension 2 subspace, this specifies a unique duality.\n\nA polarity/duality necessarily interchanges points with hyperplanes. In\nthis context points are called \u201cpoles\u201d and hyperplanes \u201cpolars.\u201d\n\nAn alternative definition of a duality is a projectivity\n(order-preserving map) $f:PG(V)\\rightarrow PG(V^*)$.\n\nThrough the use of the fundamental theorem of projective geometry,\ndualities and polarities can be identified with non-degenerate\nsesquilinear forms. (See .)",
+  "language": "INFORMAL",
+  "phrase": "Polarity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Polarity"
+    }
+  ],
+  "indexable": true
+}

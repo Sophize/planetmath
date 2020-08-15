@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "logical or",
+    "disjunctive truth function"
+  ],
+  "definition": "A disjunction is true if either of its parameters (called disjuncts) are\ntrue. Disjunction does *not* correspond to \u201cor\u201d in English (see\nexclusive or.) Disjunction uses the symbol $\\lor$ or sometimes $+$ when\ntaken in algebraic context. Hence, disjunction of $a$ and $b$ would be\nwritten $$a \\lor b$$ or $$a + b$$ The truth table for disjunction is\n\n   $a$   $b$   $a \\lor b$\n  ----- ----- ------------\n    F     F        F\n    F     T        T\n    T     F        T\n    T     T        T",
+  "language": "INFORMAL",
+  "phrase": "Disjunction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Disjunction"
+    }
+  ],
+  "indexable": true
+}

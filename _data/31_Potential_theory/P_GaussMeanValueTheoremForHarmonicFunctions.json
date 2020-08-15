@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If the function $u(z) \\equiv u(x,\\,y)$ is harmonic in a domain of\ncomplex plane which contains the disc $|z-z_0| \\leqq r$, then\n$$\\begin{aligned}\n    u(z_0) = \\frac{1}{2\\pi}\\int_0^{2\\pi}u(z_0+re^{i\\varphi})\\,d\\varphi.\\end{aligned}$$\nConversely, if a real function $u(x,\\,y)$ is continuous in a domain $G$\nof $\\mathbb{R}^2$ and satisfies on all circles of $G$ the equation (1),\nthen it is harmonic.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaussMeanValueTheoremForHarmonicFunctions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gauss' mean value theorem for harmonic functions"
+  ]
+}

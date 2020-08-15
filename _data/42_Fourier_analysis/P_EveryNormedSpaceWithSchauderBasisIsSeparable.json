@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Here we show that every normed space that has a Schauder basis is . Note\nthat we are (implicitly) assuming that the normed spaces in question are\nspaces over the field $K$ where $K$ is either $\\mathbb{R}$ or\n$\\mathbb{C}$. So let $(X, \\left\\|\\cdot\\right\\|)$ be a normed space with\nSchauder basis, say $S = \\left\\{e_1, e_2,\\dots\\right\\}$. Notice that our\nnotation implies that $S$ is infinite. In finite dimensional case, the\nsame proof with a slight modification will yield the result.\n\nNow, set $Q$ to be the set of all finite sums $q_1e_1+\\cdots + q_ne_n$\nsuch that each $q_j = a_j + b_ji$ where $a_j, b_j \\in \\mathbb{Q}$.\nClearly $Q$ is countable. It remains to show that $Q$ is in $X$.\n\nLet $\\epsilon > 0$. Let $x \\in X$. By definition of Schauder basis,\nthere is a sequence of scalars $(\\alpha_n)$ and there exists $N$ such\nthat for all $n \\geq N$ we have,\n$$\\left\\|\\sum_{j=1}^{n}\\alpha_je_j - x\\right\\| < \\epsilon/2$$ But then\nin particular,\n$$\\left\\|\\sum_{j=1}^{N}\\alpha_je_j - x\\right\\| < \\epsilon/2$$\nFurthermore, by density of $\\mathbb{Q}$ in $\\mathbb{R}$, we know that\nthere exist constants $a_1,\\dots, a_N, b_1,\\dots, b_N$ in $\\mathbb{Q}$\nsuch that,\n$$\\left\\|\\sum_{j=1}^N(a_j + b_ji)e_j - \\sum_{j=1}^N\\alpha_je_j\\right\\|<\\epsilon/2$$\nBy triangle inequality we obtain:\n$$\\left\\|\\sum_{j=1}^N(a_j + b_ji)e_j - x\\right\\| \\leq \\left\\|\\sum_{j=1}^N(a_j + b_ji)e_j - \\sum_{j=1}^N\\alpha_je_j\\right\\| + \\left\\|\\sum_{j=1}^{N}\\alpha_je_j - x\\right\\| < \\epsilon$$\nNoting that $$\\sum_{j=1}^N(a_j + b_ji)e_j$$ is an element of $Q$ (by\nconstruction of $Q$) and that $x$ and $\\epsilon$ were arbitrary, we\nconclude that every neighborhood of $x$ contains an element of $Q$, for\nall $x$ in $X$. This proves that $Q$ is dense in $X$ and completes the\nproof.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryNormedSpaceWithSchauderBasisIsSeparable"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every normed space with Schauder basis is separable"
+  ]
+}

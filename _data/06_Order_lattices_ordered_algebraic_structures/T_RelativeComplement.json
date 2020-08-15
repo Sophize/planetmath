@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A complement of an element in a lattice is only defined when the lattice\nin question is . In general, a lattice is not bounded and there are no\ncomplements to speak of. Nevertheless, if the sublattice of a lattice is\nbounded, we can speak of complements of an element *relative* to that\nsublattice.\n\nLet $L$ be a lattice, $a$ an element of $L$, and $I=[b,c]$ an in $L$. An\nelement $d\\in L$ is said to be a complement of $a$ *relative* to $I$ if\n$$a\\vee d=c\\,\\mbox{ and }\\,a\\wedge d=b.$$\n\nIt is easy to see that $a\\le c$ and $b\\le a$, so $a\\in I$. Similarly,\n$d\\in I$.\n\nAn element $a\\in L$ is said to be *relatively complemented* if for every\ninterval $I$ in $L$ with $a\\in I$, it has a complement relative to $I$.\nThe lattice $L$ itself is called a *relatively complemented lattice* if\nevery element of $L$ is relatively complemented. Equivalently, $L$ is\nrelatively complemented iff each of its interval is a complemented\nlattice.\n\n**Remarks**.\n\n-   A relatively complemented lattice is complemented if it is bounded.\n    Conversely, a complemented lattice is relatively complemented if it\n    is .\n\n-   The notion of a relative complement of an element in a lattice has\n    nothing to do with that found in set theory: let $U$ be a set and\n    $A,B$ subsets of $U$, the relative complement of $A$ in $B$ is the\n    set theoretic difference $B-A$. While the relative difference is\n    necessarily a subset of $B$, $A$ does not have to be a subset of\n    $B$.",
+  "language": "INFORMAL",
+  "phrase": "Relative Complement",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RelativeComplement"
+    }
+  ],
+  "indexable": true
+}

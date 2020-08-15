@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $p\\co E\\to B$ and $f\\co X\\to B$ be (continuous) maps. Then a\n*lifting* of $f$ to $E$ is a (continuous) map $\\tilde f\\co X\\to E$ such\nthat $p\\circ \\tilde\nf=f$. The terminology is justified by the following commutative diagram\n$$\\xymatrix{\n&{E}\\ar[d]^{p}\\\\\n{X}\\ar@{-->}[ur]^{\\tilde f}\\ar[r]_{f} & {B} }$$ which expresses this\ndefinition. $\\tilde f$ is also said to *lift* $f$ or to be *over* $f$.\n\nThis notion is especially useful if $p\\co E\\to B$ is a fiber bundle. In\nparticular lifting of paths is instrumental in the investigation of\ncovering spaces.\n\nThis terminology is used in more general contexts: $X$, $E$ and $B$\ncould be objects (and $p$, $f$ and $\\tilde f$ be morphisms) in any\ncategory.",
+  "language": "INFORMAL",
+  "phrase": "Lifting Of Maps",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LiftingOfMaps"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Euler's formula"
+  ],
+  "definition": "(also known as [*Euler\u2019s formula*]{}) is considered the first between\nthe fields of algebra and geometry, as it relates the exponential\nfunction to the trigonometric sine and cosine functions.\n\nEuler\u2019s relation states that $$e^{ix} = \\cos{x}+i\\sin{x}$$\n\nStart by noting that $$i^k=\\begin{cases} \n1 & \\mbox{if\\; } k\\equiv 0\\!\\!\\pmod 4\\\\\ni & \\mbox{if\\; } k\\equiv 1\\!\\!\\pmod 4\\\\\n-1 & \\mbox{if\\; } k\\equiv 2\\!\\!\\pmod 4\\\\\n-i & \\mbox{if\\; } k\\equiv 3\\!\\!\\pmod 4\n\\end{cases}$$\n\nUsing the Taylor series expansions of $e^x$, $\\sin x$ and $\\cos x$ (see\nthe entries on the complex exponential function and the complex sine and\ncosine), it follows that $$\\begin{aligned}\ne^{ix} & = \\sum_{n=0}^{\\infty} \\frac{i^n x^n}{n!}\\\\\n& = \\sum_{n=0}^{\\infty}\\left(\\frac{x^{4n}}{(4n)!}+\n\\frac{ix^{4n+1}}{(4n+1)!}\n-\\frac{x^{4n+2}}{(4n+2)!}-\\frac{ix^{4n+3}}{(4n+3)!}\\right)\\end{aligned}$$\nBecause the series expansion above is absolutely convergent for all $x$,\nwe can rearrange the terms of the series as $$\\begin{aligned}\ne^{ix} &=  \\sum_{n=0}^{\\infty} (-1)^n\\frac{x^{2n}}{(2n)!}+\ni\\sum_{n=0}^{\\infty} (-1)^n\\frac{x^{2n+1}}{(2n+1)!}\\\\\n&= \\cos{x}+i\\sin{x}\\end{aligned}$$\n\nAs a special case, we get the beautiful and well-known identity, often\ncalled *Euler\u2019s identity*: $$e^{i\\pi}=-1$$",
+  "language": "INFORMAL",
+  "phrase": "Euler Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulerRelation"
+    }
+  ],
+  "indexable": true
+}

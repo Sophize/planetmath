@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Frattini subgroup of a finite group is .\n\nLet $\\Frat G$ denote the Frattini subgroup of a finite group $G$. Let\n$S$ be a Sylow subgroup of $\\Frat G$. Then by the Frattini argument,\n$G=\\Frat{G}N_G(S)=\\genby{\\Frat G\\cup N_G(S)}$. But the Frattini subgroup\nis finite and formed of non-generators, so it follows that\n$G=\\genby{N_G(S)}=N_G(S)$. Thus $S$ is normal in $G$, and therefore\nnormal in $\\Frat G$. The result now follows, as .\n\nIn fact, the same proof shows that for any group $G$, if $\\Frat G$ is\nfinite then $\\Frat G$ is nilpotent.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FrattiniSubgroupOfAFiniteGroupIsNilpotentThe"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Frattini subgroup of a finite group is nilpotent, the"
+  ]
+}

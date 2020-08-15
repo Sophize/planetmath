@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "essential extension"
+  ],
+  "definition": "Let $\\mathcal C$ be a category and $A,B \\in \\mathrm{Ob}(\\mathcal C)$.\nThen a monomorphism $f \\in \\mathcal C(A,B)$ is said to be an *essential\nextension* (or *essential monomorphism*) iff :\n\nIf $g\\in\\mathcal C(B,C)$ be such that\n$g \\circ f : A\\rightarrow B\\rightarrow C$ is a monomorphism then $g$ is\na monomorphism.\n\nSome examples:\n\n-   Consider the category of commutative rings. One way to redefine\n    essential extension in this category is in the following way:\n\n    If $A$ is a subring of another ring $B$ then $B$ is an essential\n    extension of $A$ iff for any $b\\in B\\backslash\\{0\\}$ there exists a\n    $c\\in B$ such that $bc \\in A\\backslash\\{0\\}$.\n\n-   In the category of modules see .\n\n-   In the category of groups see essential subgroups.",
+  "language": "INFORMAL",
+  "phrase": "Essential Monomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EssentialMonomorphism"
+    }
+  ],
+  "indexable": true
+}

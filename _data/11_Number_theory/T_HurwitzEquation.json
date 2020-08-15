@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a length $k$ and a multiplier $m$, a [*Hurwitz equation*]{} for a\nset of integers $x_1, x_2, \\ldots , x_k$ states that\n\n$$\\sum_{i = 1}^k {x_i}^2 = m\\prod_{i = 1}^k x_i.$$\n\nThere is no solution to the equation if $m > k$. Solutions can sometimes\nbe found for $m \\leq k$ by starting from a $k$-long set of 1s. The\nMarkov equation for the Markov numbers has $k = m = 3$.\n\n[2]{} R. K. Guy, [*Unsolved Problems in Number Theory*]{} New York:\nSpringer-Verlag 2004: D12",
+  "language": "INFORMAL",
+  "phrase": "Hurwitz Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HurwitzEquation"
+    }
+  ],
+  "indexable": true
+}

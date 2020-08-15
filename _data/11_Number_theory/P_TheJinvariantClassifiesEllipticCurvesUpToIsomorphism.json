@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry, an isomorphism over $K$ should be understood in the sense\nof the entry isomorphism of varieties.\n\nLet $K$ be a field, and let $\\overline{K}$ be a fixed algebraic closure\nof $K$.\n\n1.  Two elliptic curves $E_1$ and $E_2$ are (over $\\overline{K}$) if and\n    only if they have the same $j$-invariant, i.e. $j(E_1)=j(E_2)$.\\\n\n2.  Let $j_0\\in \\overline{K}$ be fixed. There exists an elliptic curve\n    $E$ defined over the field $K(j_0)$ such that $j(E)=j_0$.\n\nFor part $2$:\n\n-   For $j_0=0$, the curve $E_0\\colon y^2+y=x^3$ satisfies $j(E)=0$;\n\n-   For $j_0=1728$, the curve $E_{1728} \\colon y^2=x^3+x$ satisfies\n    $j(E_{1728})=1728$;\n\n-   If $j_0\\neq 0, 1728$ consider the elliptic curve:\n    $$E=E_{j_0} \\colon y^2+xy=x^3-\\frac{36}{j_0-1728}x-\\frac{1}{j_0-1728}.$$\n    It satisfies $j(E)=j_0$ and it is defined over $K(j_0)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheJinvariantClassifiesEllipticCurvesUpToIsomorphism"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the $j$-invariant classifies elliptic curves up to isomorphism"
+  ]
+}

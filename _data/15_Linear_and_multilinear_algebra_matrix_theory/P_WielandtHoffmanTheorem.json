@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ and $B$ be . Let their eigenvalues $a_i$ and $b_i$ be ordered\nsuch that $\\sum_i |a_i-b_i|^2$ is minimized. Then we have the following\ninequality $$\\sum_i |a_i-b_i|^2 \\le \\|A-B\\|_F^2,$$ where $\\|\\cdot\\|_F$\nis the Frobenius matrix norm.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WielandtHoffmanTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Wielandt-Hoffman theorem"
+  ]
+}

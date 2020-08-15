@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be an ordered ring and let $a \\in R$. The *absolute value* of\n$a$ is defined to be the function $|\\ |\\colon R \\to R$ given by $$|a| :=\n\\begin{cases}\na & \\text{\\ \\ if } a \\geq 0, \\\\\n-a & \\text{\\ \\ otherwise.}\n\\end{cases}$$ In particular, the usual absolute value $|\\ |$ on the\nfield $\\mathbb{R}$ of real numbers is defined in this manner. An\nequivalent definition over the real numbers is $|a| := \\max\\{a, -a\\}$.\n\nAbsolute value has a different meaning in the case of complex numbers:\nfor a complex number $z \\in \\mathbb{C}$, the absolute value $|z|$ of $z$\nis defined to be $\\sqrt{x^2+y^2}$, where $z = x+yi$ and\n$x,y \\in \\mathbb{R}$ are real.\n\nAll absolute value functions satisfy the defining properties of a\nvaluation, including:\n\n-   $|a| \\ge 0$ for all $a \\in R$, with equality if and only if $a = 0$\n\n-   $|ab| = |a| \\cdot |b|$ for all $a,b \\in R$\n\n-   $|a+b| \\le |a| + |b|$ for all $a, b \\in R$ (triangle inequality)\n\nHowever, in general they are not literally valuations, because\nvaluations are required to be real valued. In the case of $\\mathbb{R}$\nand $\\mathbb{C}$, the absolute value is a valuation, and it induces a\nmetric in the usual way, with distance function defined by\n$d(x,y) := |x-y|$.",
+  "language": "INFORMAL",
+  "phrase": "Absolute Value",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbsoluteValue"
+    }
+  ],
+  "indexable": true
+}

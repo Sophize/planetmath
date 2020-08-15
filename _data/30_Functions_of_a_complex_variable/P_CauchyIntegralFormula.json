@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "#### The formulas.\n\nLet $D=\\{z\\in\\mathbb{C} : |z-z_0| <R\\}$ be an open disk in the complex\nplane, and let $f(z)$ be a holomorphic[^1] function defined on some open\ndomain that contains $D$ and its boundary. Then, for every $z\\in D$ we\nhave $$\\begin{aligned}\nf(z) &=& \\frac{1}{2 \\pi i} \\oint_C \\frac{f(\\zeta)}{\\zeta-z}\\ d\\zeta \\\\\nf'(z) &=& \\frac{1}{2 \\pi i} \\oint_C \\frac{f(\\zeta)}{(\\zeta-z)^2}\\ d\\zeta \\\\\n& \\vdots & \\\\\nf^{(n)}(z) &=& \\frac{n!}{2 \\pi i} \\oint_C \\frac{f(\\zeta)}{(\\zeta-z)^{n+1}}\\ d\\zeta  \\end{aligned}$$\nHere $C=\\partial D$ is the corresponding circular boundary contour,\noriented counterclockwise, with the most obvious parameterization given\nby $$\\zeta=z_0+R e^{it},\\quad 0\\leq t\\leq 2\\pi.$$\n\n#### Discussion.\n\nThe first of the above formulas underscores the \u201crigidity\u201d of\nholomorphic functions. Indeed, the values of the holomorphic function\ninside a disk $D$ are completely specified by its values on the boundary\nof the disk. The second formula is useful, because it gives the\nderivative in terms of an integral, rather than as the outcome of a\nlimit process.\n\n#### Generalization.\n\nThe following technical generalization of the formula is needed for the\ntreatment of removable singularities. Let $S$ be a finite subset of $D$,\nand suppose that $f(z)$ is holomorphic for all $z\\notin\n S$, but also that $f(z)$ is bounded near all $z\\in S$. Then, the above\nformulas are valid for all $z\\in D\\setminus S$.\n\nUsing the Cauchy residue theorem, one can further generalize the\nintegral formula to the situation where $D$ is any domain and $C$ is any\nclosed rectifiable curve in $D$; in this case, the formula becomes\n$$\\eta(C,z) f(z) = \\frac{1}{2 \\pi i} \\oint_C \\frac{f(\\zeta)}{\\zeta-z}\\ d\\zeta$$\nwhere $\\eta(C,z)$ denotes the winding number of $C$. It is valid for all\npoints $z \\in D \\setminus S$ which are not on the curve $C$.\n\n[^1]: It is necessary to draw a distinction between holomorphic\n    functions (those having a complex derivative) and analytic functions\n    (those representable by power series). The two concepts are, in\n    fact, equivalent, but the standard proof of this fact uses the\n    Cauchy Integral Formula with the (apparently) weaker holomorphicity\n    hypothesis.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyIntegralFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cauchy integral formula"
+  ]
+}

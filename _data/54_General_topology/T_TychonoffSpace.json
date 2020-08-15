@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "Tikhonov space",
+    "Tychonoff topological space",
+    "Tikhonov topological space",
+    "Tychonov space",
+    "Tychonov topological space"
+  ],
+  "definition": "A topological space $X$ is said to be *completely regular* if whenever\n$C\\subseteq X$ is closed and $x\\in X\\setminus C$ then there is a\ncontinuous function $f\\colon X\\to[0,1]$ with $f(x)=0$ and\n$f(C)\\subseteq\\{1\\}$.\n\nA completely regular space that is also (and therefore ) is called a\n*Tychonoff space*, or a *$T_{3\\frac{1}{2}}$ space*.\n\nSome authors interchange the meanings of \u2018completely regular\u2019 and\n\u2018$T_{3\\frac{1}{2}}$\u2019 compared to the above.\n\nIt can be proved that a topological space is Tychonoff if and only if it\nhas a Hausdorff compactification.",
+  "language": "INFORMAL",
+  "phrase": "Tychonoff Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TychonoffSpace"
+    }
+  ],
+  "indexable": true
+}

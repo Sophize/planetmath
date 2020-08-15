@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *mixed group* is a partial groupoid $G$ such that $G$ contains a\nnon-empty subset $K$, called the *kernel* of $G$, with the following\nconditions:\n\n1.  if $a,b\\in G$, then $ab$ is defined iff $a\\in K$,\n\n2.  if $a,b\\in K$ and $c\\in G$, then $(ab)c=a(bc)$,\n\n3.  if $a\\in K$, then $K\\subseteq aK\\cap Ka$,\n\n4.  if $a\\in K$ and $b\\in G$ such that $ab=b$, then $ac=c$ for all\n    $c\\in G$.\n\nMixed groups are generalizations of groups, as the following proposition\nillustrates:\n\nIf $K=G$, then $G$ is a group.\n\n$G$ is a groupoid by condition 1, and a semigroup by condition 2.\n\nNow, by condition 3, given $a\\in G$, there is $b\\in G$ such that $ba=a$,\nso that $bc=c$ for all $c\\in G$ by condition 4. In other words, $b$ is a\nleft identity of $G$. Again, by condition 3, for every $a\\in G$, there\nis a $d\\in G$ such that $b=da$. So $ad= a(bd)=a(da)d=(ad)^2$, so, by\ncondition 4, $adx=x$ for all $x\\in G$. In particular, set $x=a$, we get\n$a=(ad)a=a(da)=ab$. Hence, $b$ is a two-sided identity, and $G$ is a\nmonoid.\n\nFinally, by condition 3, for every $a\\in G$, there are $c,d\\in G$, such\nthat $b=ac=da$. So, $c=bc=(da)c=d(ac)=db=d$, showing that $a$ has a\ntwo-sided inverse. This means that $G$ is a group.\n\nFor a non-trivial example of a mixed group, let $G$ be a group and $H$ a\nsubgroup of $G$. Define a new multiplication $\\cdot$ on $G$ as follows:\n$a\\cdot b$ is defined iff $a\\in H$, and if $a\\cdot b$ is defined, it is\ndefined as $ab$, the group multiplication of $a$ and $b$. Then\n$(G,\\cdot)$ is a mixed group. Clearly, associativity of $\\cdot$ is\nautomatically satisfied. Next, pick any $a\\in H$, then, for any\n$b\\in H$, $a^{-1}\\cdot b$ and $b\\cdot a^{-1}$ are both elements of $H$,\nso that $b\\in a\\cdot H\\cap H\\cdot a$, and condition 3 is also satisfied.\nFinally, if $a\\in H$ and $b\\in G$ such that $a\\cdot b=b$, then $a$ is\nthe multiplicative identity of $G$, clearly $a\\cdot c=c$ for all\n$c\\in G$.\n\n[0]{} R. H. Bruck, [*A Survey of Binary Systems*]{}, Springer-Verlag,\n1966 R. Baer, [*Zur Einordnung der Theorie der Mischgruppen in die\nGruppentheorie*]{}, S.-B. Heidelberg. Akad. Wiss., Math.-naturwiss. KI.\n1928, 4, 13 pp R. Baer, [*\u00dcber die Zerlegungen einer Mischgruppe nach\neiner Untermischgruppe*]{}, S.-B. Heidelberg. Akad. Wiss.,\nMath.-naturwiss. KI. 1928, 5, 13 pp A. Loewy, [*\u00dcber abstrakt definierte\nTransmutationssysteme oder Mischgruppen*]{}, J. reine angew. Math. 157,\npp 239-254, 1927",
+  "language": "INFORMAL",
+  "phrase": "Mixed Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MixedGroup"
+    }
+  ],
+  "indexable": true
+}

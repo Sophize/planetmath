@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f:\\mathbb{R}^n\\to \\mathbb{R}$ be a $C^1(\\mathbb{R}^n)$ function,\nthat is, a partially differentiable function in all its coordinates. The\nsymbol $\\nabla$, named *nabla*, represents the gradient operator, whose\naction on $f(x_1,x_2,\\ldots,x_n)$ is given by $$\\begin{aligned}\n\\nabla f&=&\\left(f_{x_1},f_{x_2},\\ldots,f_{x_n}\\right)\\\\\n&=&\\left(\n\\frac{\\partial f}{\\partial x_1},\\frac{\\partial f}{\\partial x_2},\\ldots,\\frac{\\partial f}{\\partial x_n}\n\\right)\\end{aligned}$$\n\nProperties {#properties .unnumbered}\n==========\n\n1.  If $f,g$ are functions, then\n    $$\\nabla(fg) = (\\nabla f) g + f \\nabla g.$$\n\n2.  For any scalars $\\alpha$ and $\\beta$ and functions $f$ and $g$,\n    $$\\nabla(\\alpha f + \\beta g) = \\alpha \\nabla f + \\beta \\nabla g.$$\n\nThe $\\nabla$ symbolism {#the-nabla-symbolism .unnumbered}\n======================\n\nUsing the $\\nabla$ formalism, the divergence operator can be expressed\nas $\\nabla\\cdot$, the curl operator as $\\nabla\\times$, and the Laplacian\noperator as $\\nabla^2$. To wit, for a given vector field\n$${\\mathbf{A}}= A_x\\, {\\mathbf{i}}+ A_y\\, {\\mathbf{j}}+ A_z\\, {\\mathbf{k}},$$\nand a given function $f$ we have $$\\begin{aligned}\n\\nabla\\cdot {\\mathbf{A}}&= \\frac{\\partial A_x}{\\partial x} +\n\\frac{\\partial A_y}{\\partial y} +\\frac{\\partial A_z}{\\partial z} \\\\\n\\nabla\\times {\\mathbf{A}}&=\n{\\left(}\\frac{\\partial A_z}{\\partial y} - \\frac{\\partial A_y}{\\partial z}\n{\\right)}{\\mathbf{i}}+\n{\\left(}\\frac{\\partial A_x}{\\partial z} -\n\\frac{\\partial A_z}{\\partial x}{\\right)}{\\mathbf{j}}+\n{\\left(}\\frac{\\partial A_y}{\\partial x} -\n\\frac{\\partial A_x}{\\partial y}{\\right)}{\\mathbf{k}}\\\\\n\\nabla^2 f &= \\frac{\\partial^2 f}{\\partial x^2} +\n\\frac{\\partial^2 f}{\\partial y^2} +\\frac{\\partial^2 f}{\\partial z^2}.\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Nabla",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Nabla"
+    }
+  ],
+  "indexable": true
+}

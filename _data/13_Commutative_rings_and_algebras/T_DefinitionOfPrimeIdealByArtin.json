@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Lemma.** Let $R$ be a commutative ring and $S$ a multiplicative\nsemigroup consisting of a subset of $R$. If there exist of $R$ which are\ndisjoint with $S$, then the set $\\mathfrak{S}$ of all such ideals has a\nmaximal element with respect to the set inclusion.\n\n[*Proof.*]{} Let $C$ be an arbitrary chain in $\\mathfrak{S}$. Then the\nunion $$\\mathfrak{b} \\;:=\\; \\bigcup_{\\mathfrak{a} \\in C}\\mathfrak{a},$$\nwhich belongs to $\\mathfrak{S}$, may be taken for the upper bound of\n$C$, since it clearly is an ideal of $R$ and disjoint with $S$. Because\n$\\mathfrak{S}$ thus is inductively ordered with respect to\n\u201c$\\subseteq$\u201d, our assertion follows from Zorn\u2019s lemma.\\\n**Definition.** The maximal elements in the Lemma are [*prime ideals*]{}\nof the commutative ring.\\\nThe ring $R$ itself is always a prime ideal ($S = \\varnothing$). If $R$\nhas no zero divisors, the zero ideal $(0)$ is a prime ideal\n($S = R\\!\\smallsetminus\\!\\{0\\}$).\n\nIf the ring $R$ has a non-zero unity element 1, the prime ideals\ncorresponding the semigroup $S = \\{1\\}$ are the maximal ideals of $R$.\n\n[9]{} : [*Theory of Algebraic Numbers*]{}. Lecture notes. Mathematisches\nInstitut, G\u00f6ttingen (1959).",
+  "language": "INFORMAL",
+  "phrase": "Definition Of Prime Ideal By Artin",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DefinitionOfPrimeIdealByArtin"
+    }
+  ],
+  "indexable": true
+}

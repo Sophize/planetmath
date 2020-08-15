@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $(G,*)$ is a group, then $H$ is a *characteristic subgroup* of $G$\n(written $H \\operatorname{\\,char\\,}G$) if every automorphism of $G$ maps\n$H$ to itself. That is, if $f\\in{\\rm Aut}(G)$ and $h\\in H$ then\n$f(h)\\in H$.\n\nA few properties of characteristic subgroups:\n\n-   If $H\\operatorname{\\,char\\,}G$ then $H$ is a normal subgroup of $G$.\n\n-   If $G$ has only one subgroup of a given cardinality then that\n    subgroup is characteristic.\n\n-   If $K\\operatorname{\\,char\\,}H$ and $H\\trianglelefteq G$ then\n    $K\\trianglelefteq G$. (Contrast with normality of subgroups is not\n    transitive.)\n\n-   If $K\\operatorname{\\,char\\,}H$ and $H\\operatorname{\\,char\\,}G$ then\n    $K\\operatorname{\\,char\\,}G$.\n\nProofs of these properties:\n\n-   Consider $H\\operatorname{\\,char\\,}G$ under the inner automorphisms\n    of $G$. Since every automorphism preserves $H$, in particular every\n    inner automorphism preserves $H$, and therefore $g*h*g^{-1}\\in H$\n    for any $g\\in G$ and $h\\in H$. This is precisely the definition of a\n    normal subgroup.\n\n-   Suppose $H$ is the only subgroup of $G$ of order $n$. In general,\n    take subgroups to subgroups, and of course isomorphisms take\n    subgroups to subgroups of the same order. But since there is only\n    one subgroup of $G$ of order $n$, any automorphism must take $H$ to\n    $H$, and so $H\\operatorname{\\,char\\,}G$.\n\n-   Take $K\\operatorname{\\,char\\,}H$ and $H\\trianglelefteq G$, and\n    consider the inner automorphisms of $G$ (automorphisms of the form\n    $h\\mapsto g*h*g^{-1}$ for some $g\\in G$). These all preserve $H$,\n    and so are automorphisms of $H$. But any automorphism of $H$\n    preserves $K$, so for any $g\\in G$ and $k\\in K$, $g*k*g^{-1}\\in K$.\n\n-   Let $K\\operatorname{\\,char\\,}H$ and $H\\operatorname{\\,char\\,}G$, and\n    let $\\phi$ be an automorphism of $G$. Since\n    $H\\operatorname{\\,char\\,}G$, $\\phi[H]=H$, so $\\phi_H$, the\n    restriction of $\\phi$ to $H$ is an automorphism of $H$. Since\n    $K\\operatorname{\\,char\\,}H$, so $\\phi_H[K]=K$. But $\\phi_H$ is just\n    a restriction of $\\phi$, so $\\phi[K]=K$. Hence\n    $K\\operatorname{\\,char\\,}G$.",
+  "language": "INFORMAL",
+  "phrase": "Characteristic Subgroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacteristicSubgroup"
+    }
+  ],
+  "indexable": true
+}

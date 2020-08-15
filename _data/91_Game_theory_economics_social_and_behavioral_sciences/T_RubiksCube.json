@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Rubik cube"
+  ],
+  "definition": "A mechanical puzzle in the shape of a cube, invented by the Hungarian\nmathematician Ern\u00c3\u00b6 Rubik. Each of the six faces is subdivided into nine\nsquares, which may be painted in any of six different colors, and any of\nthe sides may be rotated independently of the others. The central square\nof each face rotates with the sides, but relative to each other, the\ncentral squares are stationary.\n\nA Rubik\u2019s cube is said to be solved when the nine squares of each face\nall have the same color. When any face has two or more colors on it, the\ncube is said to be scrambled.\n\nHypothesis. The maximum number of moves from a scrambled to a solved\ncube is 22. (A quarter rotation and a half rotation both count as one\nmove).\n\nIt is known for a fact that for a given cube there are more than 43\nquintillion possible combinations, but the maximum number of moves\nhypothesis remains to be proven.\n\nCurrently, the best (though not necessarily speediest) method to solve\nthe cube is considered to be the solve-by-layers method. Instead of\ntrying to solve one face at a time, one tries to first solve the \u201ctop\u201d\nlayer. E.g., if the solver chooses white to be the top face, and his\ncube has blue as the opposite color of white, the solver solves the\nwhite face so that the top three squares of the red face are all red,\nthe top three squares of the blue face are all blue, etc. Then he solves\nthe middle layer so that between the central squares of any two faces\n(except the top and bottom face) there is a piece with the appropriate\nmatching colors. Lastly, the bottom layer is solved first by putting the\ncorners in their place and lastly the middle pieces.\n\nWhite is usually the face that the licensed manufacturer puts their logo\non. The license only requires that the six colors be distinct. One\npopular choice of colors is white, red, green, orange, blue and yellow.\nIn the United States, Rubik\u2019s cube is usually implemented in black\nplastic with colored stickers on the squares of the faces. This permits\nsomeone to solve the cube by removing the stickers and replacing them\nelsewhere on the cube (this is not considered a legitimate solution).\n\nThe standard Rubik\u2019s cube is sometimes referred to as 3 by 3 cube.\nVariations range from 2 by 2 cubes to 6 by 6 cubes.",
+  "language": "INFORMAL",
+  "phrase": "Rubik'S Cube",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RubiksCube"
+    }
+  ],
+  "indexable": true
+}

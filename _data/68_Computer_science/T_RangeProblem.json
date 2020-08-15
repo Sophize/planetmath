@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *range problem* is a weakened form of a search problem. It consists of\ntwo functions $f_l$ and $f_u$ (the lower and upper bounds) and a linear\nordering $<$ on the ranges of $f_1$ and $f_2$. A Turing machine solves a\nrange problem if, for any $x$, the machine eventually halts with an\noutput $y$ such that $f_1(x)<y<f_2(x)$.\n\nFor example, given any function $f$ with range in $\\mathbb{R}$ and any\n$g:\\mathbb{N}\\rightarrow\\mathbb{R}$, the *strong range problem*\n$\\operatorname{StrongRange}_g(f)$ is given by lower bound\n$f(x)\\cdot(1-\\frac{1}{1-g(|x|)})$ and upper bound\n$f(x)\\cdot(1-\\frac{1}{1+g(|x|)})$ (note that $g$ is passed the length of\n$x$, not the value, which need not even be a number).",
+  "language": "INFORMAL",
+  "phrase": "Range Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RangeProblem"
+    }
+  ],
+  "indexable": true
+}

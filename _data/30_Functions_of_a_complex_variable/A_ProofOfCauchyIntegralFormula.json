@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $D=\\{z\\in{\\mathbb{C}}:\\Vert z-z_0\\Vert< R\\}$ be a disk in the\ncomplex plane, $S\\subset D$ a finite subset, and $U\\subset{\\mathbb{C}}$\nan open domain that contains the closed disk $\\overline{D}$. Suppose\nthat\n\n-   $f:U\\backslash S\\rightarrow {\\mathbb{C}}$ is holomorphic, and that\n\n-   $f(z)$ is bounded near all $z\\in D\\backslash S$.\n\nHence, by a straightforward compactness argument we also have that\n$f(z)$ is bounded on $\\overline{D}\\backslash S$, and hence bounded on\n$D\\backslash S$.\n\nLet $z\\in D\\backslash\nS$ be given, and set\n$$g(\\zeta) = \\frac{f(\\zeta)-f(z)}{\\zeta-z},\\quad \\zeta\\in D\\backslash\nS',$$ where $S'=S\\cup \\{ z\\}$. Note that $g(\\zeta)$ is holomorphic and\nbounded on $ D\\backslash S'$. The second assertion is true, because\n$$g(\\zeta)\\rightarrow f'(z),\\;\\mbox{as}\\; \\zeta\\rightarrow z.$$\nTherefore, by the Cauchy integral theorem\n$$\\oint_C g(\\zeta)\\, d\\zeta=0,$$ where $C$ is the counterclockwise\ncircular contour parameterized by\n$$\\zeta = z_0 + R e^{it},\\; 0\\leq t\\leq 2\\pi.$$ Hence, $$\\label{eq:1}\n\\oint_C \\frac{f(\\zeta)}{\\zeta-z}\\, d\\zeta = \\oint_C\n\\frac{f(z)}{\\zeta-z}\\, d\\zeta.$$\n\n$\\mathbf{Lemma}$ If $z\\in{\\mathbb{C}}$ is such that\n$\\Vert z\\Vert\\neq 1$, then\n$$\\oint_{\\Vert\\zeta\\Vert=1} \\frac{d\\zeta}{\\zeta-z} =\n\\begin{cases}\n  0 &\\text{if } \\Vert z\\Vert>1\\\\\n  2\\pi i &\\text{if } \\Vert z\\Vert<1\\\\\n\\end{cases}$$\n\nThe proof is a fun exercise in elementary integral calculus, an\napplication of the half-angle trigonometric substitutions.\n\nThanks to the Lemma, the right hand side of evaluates to $2\\pi i f(z).$\nDividing through by $2\\pi i$, we obtain\n$$f(z) = \\frac{1}{2\\pi i} \\oint_C \\frac{f(\\zeta)}{\\zeta-z}\\, d\\zeta,\n\\quad z\\in D,$$ as desired.\n\nSince a circle is a compact set, the defining limit for the derivative\n$$\\frac{d}{dz} \\frac{f(\\zeta)}{\\zeta-z}= \n\\frac{f(\\zeta)}{(\\zeta-z)^2},\\quad z\\in D$$ converges uniformly for\n$\\zeta\\in \\partial D$. Thanks to the uniform convergence, the order of\nthe derivative and the integral operations can be interchanged. In this\nway we obtain the second formula:\n$$f'(z) = \\frac{1}{2\\pi i} \\frac{d}{dz} \\oint_C\n\\frac{f(\\zeta)}{\\zeta-z}\\, d\\zeta  =  \\frac{1}{2\\pi i} \\oint_C\n\\frac{f(\\zeta)}{(\\zeta-z)^2}\\, d\\zeta,\\quad z\\in D.$$",
+  "conclusion": "#P_CauchyIntegralFormula",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCauchyIntegralFormula"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Cauchy integral formula"
+  ]
+}

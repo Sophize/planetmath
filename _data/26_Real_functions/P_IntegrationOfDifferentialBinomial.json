@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let $a$, $b$, $c$, $\\alpha$, $\\beta$ be given real numbers\nand $\\alpha\\beta \\neq 0$. The antiderivative\n$$I = \\int x^a(\\alpha+\\beta x^b)^c\\,dx$$ is expressible by of the\nelementary functions only in the three cases:\n$(1)\\,\\, \\frac{a+1}{b}+c\\in\\mathbb{Z}$,\n$(2)\\,\\, \\frac{a+1}{b}\\in\\mathbb{Z}$, $(3)\\,\\, c\\in\\mathbb{Z}$\n\nIn accordance with P. L. Chebyshev (1821$-$1894), who has proven this\ntheorem, the expression $x^a(\\alpha+\\beta x^b)^c\\,dx$ is called a\n[*differential binomial*]{}.\n\nIt may be worth noting that the differential binomial may be expressed\nin terms of the incomplete beta function and the hypergeometric\nfunction. Define $y = \\beta x^b / \\alpha$. Then we have\n$$I = {1 \\over b} \\alpha^{{a + 1 \\over b} + c} \\beta^{-{a + 1 \\over b}} B_y \\left( {1 + a \\over b}, c - 1 \\right)$$\n$$= {1 \\over 1 + a} \\alpha^{{a + 1 \\over b} + c} \\beta^{-{a + 1 \\over b}} y^{1 + a \\over b} F \\left( {a + 1 \\over b}, 2-c; {1 + a + b \\over b}; y \\right)$$\n\nChebyshev\u2019s theorem then follows from the theorem on elementary cases of\nthe hypergeometric function.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegrationOfDifferentialBinomial"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "integration of differential binomial"
+  ]
+}

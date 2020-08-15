@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ be a monoidal category, with tensor product $\\otimes$.\nThen we say that\n\n-   $\\mathcal{C}$ is *closed*, or *left closed*, if the functor\n    $A\\otimes -$ on $\\mathcal{C}$ has a right adjoint $[A,-]_l$\n\n-   $\\mathcal{C}$ is *right closed* if the functor $-\\otimes B$ on\n    $\\mathcal{C}$ has a right adjoint $[B,-]_r$\n\n-   $\\mathcal{C}$ is *biclosed* if it is both left closed and right\n    closed.\n\nA biclosed symmetric monoidal category is also known as a *symmetric\nmonoidal closed category*. In a symmetric monoidal closed category,\n$A\\otimes B\\cong B\\otimes A$, so $[A, B]_l \\cong [A,B]_r$. In this case,\nwe denote the right adjoint by $[A,B]$.\n\nSome examples:\n\n-   Any cartesian closed category is symmetric monoidal closed.\n\n-   In particular, as a category with finite products is symmetric\n    monoidal, it is biclosed iff it is cartesian closed.\n\n-   An example of a biclosed monoidal category that is not symmetric\n    monoidal is the category of bimodules over a non-commutative ring.\n    The right adjoint of $A\\times -$ is $[A,-]_l$, where $[A,B]_l$ is\n    the collection of all left $R$-linear bimodule homomorphisms from\n    $A$ to $B$, while the right adjoint of $-\\times A$ is $[A,-]_r$,\n    where $[A,B]_r$ is the collection of all right $R$-linear bimodule\n    homomorphisms from $A$ to $B$. Unless $R$ is commutative,\n    $[A,B]_l \\ne [A,B]_r$ in general.\n\nmore to come...",
+  "language": "INFORMAL",
+  "phrase": "Closed Monoidal Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosedMonoidalCategory"
+    }
+  ],
+  "indexable": true
+}

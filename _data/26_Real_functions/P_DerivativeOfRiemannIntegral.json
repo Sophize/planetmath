@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f$ be a continuous function from an open subset $A$ of\n$\\mathbb{R}^2$ to $\\mathbb{R}$. Suppose that also the partial derivative\n$f'_t(x,\\,t)$ is continuous in $A$ which contains the line segments\nalong which the integration is performed and that $a(t)$ and $b(t)$ are\nreal functions differentiable in some point $t_0$. Denote\n$$F(t) = \\int_{a(t)}^{b(t)}f(x,\\,t)\\,dx$$ and\n$$G(t) = b'(t_0)\\cdot f(b(t),\\,t)-a'(t_0)\\cdot f(a(t),\\,t)\n            +\\int_{a(t)}^{b(t)}f'_t(x,\\,t)\\,dx.$$ Then one has the\nderivative $$F'(t_0) = G(t_0)$$ in all such points $t = t_0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivativeOfRiemannIntegral"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "derivative of Riemann integral"
+  ]
+}

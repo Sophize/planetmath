@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $X$ be a Banach space and $M$ a closed subspace.\nThen $X/M$ with the quotient norm is a Banach space.\n\n[**Proof :**]{} In to prove that $X/M$ is a Banach space it is enough to\nprove that every series in $X/M$ that converges absolutely also\nconverges in $X/M$.\n\nLet $\\sum_{n} X_n$ be an absolutely convergent series in $X/M$, i.e.,\n$\\sum_{n} \\|X_n\\|_{X/M} < \\infty$. By definition of the quotient norm,\nthere exists $x_n \\in X_n$ such that\n\n$$\\|x_n \\| \\le \\|X_n \\|_{X/M} + 2^{-n}$$\n\nIt is clear that $\\sum_{n} \\|x_n\\| < \\infty$ and so, as $X$ is a Banach\nspace, $\\sum_{n} x_n$ is convergent.\n\nLet $x = \\sum_{n} x_n$ and $s_k = \\sum_{n=1}^k x_n$. We have that\n\n$$x - s_k + M = (x+M) - (s_k +M) = (x+M) - \\sum_{n=1}^k (x_n +M) = (x+M) - \\sum_{n=1}^k X_n$$\n\nSince $\\|x-s_k + M \\|_{X/M} \\leq \\|x-s_k\\| \\longrightarrow 0$ we see\nthat $\\sum_n X_n$ converges in $X/M$ to $x+M$. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientsOfBanachSpacesByClosedSubspacesAreBanachSpacesUnderTheQuotientNorm"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "quotients of Banach spaces by closed subspaces are Banach spaces under the quotient norm"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Using the distributive law, we perform the multiplication\n$$(\\cos\\varphi_1+i\\sin\\varphi_1)(\\cos\\varphi_2+i\\sin\\varphi_2)\n = (\\cos\\varphi_1\\cos\\varphi_2-\\sin\\varphi_1\\sin\\varphi_2)+i(\\sin\\varphi_1\\cos\\varphi_2+\\cos\\varphi_1\\sin\\varphi_2).$$\nUsing the addition formulas of and we still obtain the formula\n$$\\begin{aligned}\n(\\cos\\varphi_1+i\\sin\\varphi_1)(\\cos\\varphi_2+i\\sin\\varphi_2)\n = \\cos(\\varphi_1+\\varphi_2)+i\\sin(\\varphi_1+\\varphi_2).\\end{aligned}$$\n\nThe inverse number of $\\cos\\varphi_2+i\\sin\\varphi_2$ is calculated as\nfollows: $$\\frac{1}{\\cos\\varphi_2+i\\sin\\varphi_2} = \n\\frac{\\cos\\varphi_2-i\\sin\\varphi_2}{(\\cos\\varphi_2-i\\sin\\varphi_2)(\\cos\\varphi_2+i\\sin\\varphi_2)}\n= \\frac{\\cos\\varphi_2-i\\sin\\varphi_2}{\\cos^2\\varphi_2+\\sin^2\\varphi_2}$$\nThis equals $\\cos\\varphi_2-i\\sin\\varphi_2$, and since the cosine is an\nand the sine an odd function, we have $$\\begin{aligned}\n\\frac{1}{\\cos\\varphi_2+i\\sin\\varphi_2} = \\cos(-\\varphi_2)+i\\sin(-\\varphi_2).\\end{aligned}$$\nThe equations (1) and (2) imply\n$$\\frac{\\cos\\varphi_1+i\\sin\\varphi_1}{\\cos\\varphi_2+i\\sin\\varphi_2} = \n(\\cos\\varphi_1+i\\sin\\varphi_1)(\\cos(-\\varphi_2)+i\\sin(-\\varphi_2))= \n\\cos(\\varphi_1+(-\\varphi_2))+i\\sin(\\varphi_1+(-\\varphi_2)),$$ i.e.\n$$\\begin{aligned}\n\\frac{\\cos\\varphi_1+i\\sin\\varphi_1}{\\cos\\varphi_2+i\\sin\\varphi_2} =  \n\\cos(\\varphi_1-\\varphi_2)+i\\sin(\\varphi_1-\\varphi_2).\\end{aligned}$$\nAccording to the formulae (1) and (3), for the complex numbers\n$$z_1 = r_1(\\cos\\varphi_1+i\\sin\\varphi_1)\\;\\;\\mbox{and}\\;\\;z_2 = r_2(\\cos\\varphi_2+i\\sin\\varphi_2)$$\nwe have\n$$z_1z_2 = r_1r_2(\\cos(\\varphi_1+\\varphi_2)+i\\sin(\\varphi_1+\\varphi_2)),$$\n$$\\frac{z_1}{z_2} \\;=\\; \\frac{r_1}{r_2}(\\cos(\\varphi_1-\\varphi_2)+i\\sin(\\varphi_1-\\varphi_2)).$$\nThus we have the\n\n**Theorem.** The modulus of the product of two complex numbers equals\nthe product of the moduli of the factors and the argument equals the sum\nof the arguments of the . The modulus of the quotient of two complex\nnumbers equals the quotient of the moduli of the dividend and the\ndivisor and the argument equals the difference of the arguments of the\ndividend and the divisor.\\\n**Remark.** The equation (1) may be by induction generalised for more\nthan two factors of the left hand ; then the special case where all\nfactors are equal gives de Moivre identity.\\\n**Example.** Since\n$$(2\\!+\\!i)(3\\!+\\!i) = 5\\!+\\!5i \\;=\\; 5e^{\\frac{\\pi}{4}},$$ one has\n$$\\arctan\\frac{1}{2}+\\arctan\\frac{1}{3} \\;=\\; \\frac{\\pi}{4}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArgumentOfProductAndQuotient"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "argument of product and quotient",
+    "product and quotient of complex numbers"
+  ]
+}

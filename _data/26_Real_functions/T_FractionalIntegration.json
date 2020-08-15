@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "fractional integral"
+  ],
+  "definition": "The basic idea of \u201cRiemann-Liouville\u201d type fractional integration comes\nfrom the following observation:\n\nGiven any integrable function $f:{\\mathbb R}\\mapsto {\\mathbb R}$ in one\nvariable, we have the following Cauchy Integration Formula:\n\n$$D^{-n}(f)(x)=\\int_{t_n=0}^x dt_n\\ldots \\int_{t_1=0}^{t_2}\nf(t_1)\\,dt_1 =\\frac{1}{(n-1)!} \\int_{t=0}^x f(t)(x-t)^{n-1}\\,dt$$\n\nwhen switching the index from integer $n$ to non-integer $\\alpha$ gives\nthe ideas of the following definitions:\n\n[**Definition 1:**]{} [Left-Hand Riemann-Liouville Integration]{}\n\n$$I^{\\alpha}_L (f)(s,t)=\n\\frac{1}{\\Gamma(\\alpha)}\\int_{u=s}^tf(u)(t-u)^{\\alpha-1}\\,du\n=\\int_{u=s}^t f(u)\\,dg^{\\alpha}_t(u)$$\n\nwhere $$g^{\\alpha}_t(u)=\\frac{t^{\\alpha}-(t-u)^{\\alpha}}\n{\\Gamma(\\alpha+1)}$$\n\n[**Definition 2:**]{} [Right-Hand Riemann-Liouville Integration]{}\n\n$$I^{\\alpha}_R (f)(s,t)=\n\\frac{1}{\\Gamma(\\alpha)}\\int_{u=s}^tf(u)(u-s)^{\\alpha-1}\\,du\n=\\int_{u=s}^t f(u)\\,dh^{\\alpha}_t(u)$$\n\nwhere $$h^{\\alpha}_t(u)=\\frac{s^{\\alpha}+(u-s)^{\\alpha}}\n{\\Gamma(\\alpha+1)}$$\n\n[**Definition 3:**]{} [Riesz Potential]{}\n\n$$I^{\\alpha}_C (f)(s,t;p)=\n\\frac{1}{\\Gamma(\\alpha)}\\int_{u=s}^tf(u)|u-p|^{\\alpha-1}\\,du\n=\\int_{u=s}^t f(u)\\,dr^{\\alpha}_p(u)$$\n\nwhere $$r^{\\alpha}_p(u)=\\frac{p^{\\alpha}+{\\rm sign}(u-p)\n|u-p|^{\\alpha}}{\\Gamma(\\alpha+1)}$$,\n\n${\\rm sign}(x)=1$ for $x>0$, ${\\rm sign}(x)=0$ for $x=0$,\n${\\rm sign}(x)=-1$ for $x<0$\n\nand $\\Gamma(x)$ is the gamma function of $x$",
+  "language": "INFORMAL",
+  "phrase": "Fractional Integration",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FractionalIntegration"
+    }
+  ],
+  "indexable": true
+}

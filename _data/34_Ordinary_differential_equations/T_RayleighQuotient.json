@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [**Rayleigh quotient**]{}, $R_{{\\mathbf{A}}}$, to the Hermitian\nmatrix ${\\mathbf{A}}$ is defined as\\\n$$R_{{\\mathbf{A}}}({\\mathbf{x}})=\\frac{{\\mathbf{x}}^H {\\mathbf{A}} {\\mathbf{x}}}{{\\mathbf{x}}^H {\\mathbf{x}}}, \\quad {\\mathbf{x}}\\neq {\\mathbf{0}},$$where\n${\\mathbf{x}}^H$ is the Hermitian conjugate of ${\\mathbf{x}}$.\n\nThe importance of this quantity (in fact, the reason Rayleigh first\nintroduced it) is that its critical values are the eigenvectors of $A$\nand the values of the quotient at these special vectors are the\ncorresponding eigenvalues. This observation leads to the *variational\nmethod* for computing the spectrum of a positive matrix (either exactly\nor approximately). Namely, one first minimizes the Rayleigh quotient\nover the whole vector space. This gives the lowest eigenvalue and\ncorresponding eigenvector. Next, one restricts attention to the\northogonal complement of the eigenvector found in the first step and\nminimizes over this subspace. That produces the next lowest eigenvalue\nand corresponding eigenvector. One can continue this process\nrecursively. At each step, one minimizes the Rayleigh quotient over the\nsubspace orthogonal to all the vectors found in the preceding steps to\nfind another eigenvalue and its corresponding eigenvector.\n\nThis concept of Rayleigh quotient also makes sense in the more general\nsetting when $A$ is a Hermitian operator on a Hilbert space.\nFurthermore, it is possible to make use of the Rayleigh-Ritz method in\ncases where the operator has a discrete spectrum bounded from below,\nsuch as the Laplace operator on a compact domain. This method is often\nemployed in practise because, in physical applications, one is\noftentimes interested in only the lowest eigenvalue or perhaps the first\nfew lowest eigenvalues and not so concerned with the rest of the\nspectrum.",
+  "language": "INFORMAL",
+  "phrase": "Rayleigh Quotient",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RayleighQuotient"
+    }
+  ],
+  "indexable": true
+}

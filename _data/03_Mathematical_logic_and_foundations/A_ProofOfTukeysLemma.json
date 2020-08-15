@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $S$ be a set and $F$ a set of subsets of $S$ such that $F$ is of\nfinite character. By Zorn\u2019s lemma, it is enough to show that $F$ is\ninductive. For that, it will be enough to show that if $(F_i)_{i\\in I}$\nis a family of elements of $F$ which is totally ordered by inclusion,\nthen the union $U$ of the $F_i$ is an element of $F$ as well (since $U$\nis an upper bound on the family $(F_i)$). So, let $K$ be a finite subset\nof $U$. Each element of $U$ is in $F_i$ for some $i\\in I$. Since $K$ is\nfinite and the $F_i$ are totally ordered by inclusion, there is some\n$j\\in I$ such that all elements of $K$ are in $F_j$. That is,\n$K\\subset F_j$. Since $F$ is of finite character, we get $K\\in F$, QED.",
+  "conclusion": "#P_TukeysLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfTukeysLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Tukey's lemma"
+  ]
+}

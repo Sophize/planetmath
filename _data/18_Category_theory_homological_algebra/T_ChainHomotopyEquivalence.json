@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $C$ and $D$ be two objects from the abelian category of chain\ncomplexes. A morphism (or chain map) $f\\colon C\\to D$ is said to be a\n*chain homotopy equivalence* if there is a morphism $g\\colon D\\to C$\nsuch that\n\n1.  there is a chain homotopy between $fg$ and $1\\colon D\\to D$; and\n\n2.  there is a chain homotopy between $gf$ and $1\\colon C\\to C$.\n\nIf a chain homotopy equivalence from a chain complex $C$ to $D$ exists,\nthen $C$ is said to be *chain homotopy equivalent* to $D$. Chain\nhomotopy equivalence is an equivalence relation among chain complexes.",
+  "language": "INFORMAL",
+  "phrase": "Chain Homotopy Equivalence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChainHomotopyEquivalence"
+    }
+  ],
+  "indexable": true
+}

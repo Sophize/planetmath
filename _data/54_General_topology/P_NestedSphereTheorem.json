@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In a metric space $X$, let $\\overline{B}_{r}(x)$ be the closed ball\ncentered at $x\\in X$ with radius $r>0$.\n\nA metric space $X$ is complete if and only if every sequence\n$\\{\\overline B_{r_n}(x_n)\\}_n$ such that\n$\\overline B_{r_{i+1}}(x_{i+1}) \\subseteq \\overline B_{r_i}(x_i)$ and\n$r_n \\to 0$ when $n \\to \\infty$ has a nonempty intersection *(i.e.\n$\\bigcap_{n=1}^{\\infty}\\overline B_{r_n}(x_n) \\neq \\emptyset$)*.\n\n[1]{} Kolmogorov, A.N. & Fomin, S.V.: Introductory Real Analysis,\nTranslated & Edited by Richard A. Silverman. Dover Publications, Inc.\nNew York, 1970.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NestedSphereTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "nested sphere theorem"
+  ]
+}

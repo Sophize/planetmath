@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A traditional model of a language makes every formula of that language\neither true or false. A *Boolean valued model* is a generalization in\nwhich formulas take on any value in a Boolean algebra.\n\nSpecifically, a Boolean valued model of a signature $\\Sigma$ over the\nlanguage $\\mathcal{L}$ is a set $\\mathcal{A}$ together with a Boolean\nalgebra $\\mathcal{B}$. Then the objects of the model are the functions\n$\\mathcal{A}^\\mathcal{B}=\\mathcal{B}\\rightarrow\\mathcal{A}$.\n\nFor any formula $\\phi$, we can assign a value $\\lVert\\phi\\rVert$ from\nthe Boolean algebra. For example, if $\\mathcal{L}$ is the language of\nfirst order logic, a typical recursive definition of $\\lVert\\phi\\rVert$\nmight look something like this:\n\n-   $\\lVert f=g \\rVert=\\bigvee_{f(b)=g(b)}b$\n\n-   $\\lVert\\neg\\phi\\rVert=\\lVert\\phi\\rVert^\\prime$\n\n-   $\\lVert\\phi\\vee\\psi\\rVert=\\lVert\\phi\\rVert\\vee\\lVert\\psi\\rVert$\n\n-   $\\lVert\\exists x\\phi(x)\\rVert=\\bigvee_{f\\in\\mathcal{A}^\\mathcal{B}} \\lVert\\phi(f)\\rVert$",
+  "language": "INFORMAL",
+  "phrase": "Boolean Valued Model",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BooleanValuedModel"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "event"
+  ],
+  "definition": "A *transition event* (or simply *event*) on a state set $S$ is an\nelement $e = (s_i, s_j) \\in (S\\times S)$ of a binary relation on state\nset $S$ that signifies the transition from one state to another. An\nevent $e$ is defined by a condition function $c(s_i)$ which evaluates a\nBoolean function in state $s_i$ and by an action function $p$.",
+  "language": "INFORMAL",
+  "phrase": "Transition Event",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TransitionEvent"
+    }
+  ],
+  "indexable": true
+}

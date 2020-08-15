@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "$k$-analytic algebraic function",
+    "analytic algebraic"
+  ],
+  "definition": "Let $k$ be a field, and let $k\\{x_1,\\ldots,x_n\\}$ be the ring of\nconvergent power series in $n$ variables. An element in this ring can be\nthought of as a function defined in a neighbourhood of the origin in\n$k^n$ to $k$. The most common cases for $k$ are $\\mathbb{C}$ or\n$\\mathbb{R}$, where the convergence is with respect to the standard\neuclidean metric. These definitions can also be generalized to other\nfields.\n\nA function $f \\in k\\{x_1,\\ldots,x_n\\}$ is said to be *$k$-analytic\nalgebraic* if there exists a nontrivial polynomial $p \\in\nk[x_1,\\ldots,x_n,y]$ such that $p(x,f(x)) \\equiv 0$ for all $x$ in a\nneighbourhood of the origin in $k^n$. If $k=\\mathbb{C}$ then $f$ is said\nto be *holomorphic algebraic* and if $k=\\mathbb{R}$ then $f$ is said to\nbe *real-analytic algebraic* or a *Nash function*.\n\nThe same definition applies near any other point other then the origin\nby just translation.\n\nA mapping $f \\colon U \\subset k^n \\to k^m$ where $U$ is a neighbourhood\nof the origin is said to be $k$-analytic algebraic if each component\nfunction is analytic algebraic.\n\n[9]{} M. Salah Baouendi, Peter Ebenfelt, Linda Preiss Rothschild.\n[**]{}, Princeton University Press, Princeton, New Jersey, 1999.",
+  "language": "INFORMAL",
+  "phrase": "Analytic Algebraic Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnalyticAlgebraicFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Using Lagrange\u2019s identity, we have $$\\begin{aligned}\n\\label{1}\n\\left(\\sum_{k=1}^4 x_ky_k\\right)^2 & = \\left(\\sum_{k=1}^4\nx_k^2\\right)\\left(\\sum_{k=1}^4 y_k^2\\right) -\\sum_{1 \\le k < i \\le 4} (x_ky_i\n-x_iy_k)^2\\mbox{.}\\end{aligned}$$ We group the six squares into 3 groups\nof two squares and rewrite: $$\\begin{aligned}\n\\label{2}\n&(x_1y_2 -x_2y_1)^2 +(x_3y_4 -x_4y_3)^2  \\\\ \\nonumber\n= &((x_1y_2 -x_2y_1) +(x_3y_4 -x_4y_3))^2  -2((x_1y_2 -x_2y_1)(x_3y_4 -x_4y_3)) \\\\\n\\label{3}\n&(x_1y_3 -x_3y_1)^2 +(x_2y_4 -x_4y_2)^2 \\\\  \\nonumber\n =& ((x_1y_3 -x_3y_1) -(x_2y_4\n-x_4y_2))^2 +2(x_1y_3 -x_3y_1)(x_2y_4 -x_4y_2) \\\\\n\\label{4}\n&(x_1y_4 -x_4y_1)^2 +(x_2y_3 -x_3y_2)^2\\\\\n =& ((x_1y_4 -x_4y_1) +(x_2y_3\n-x_3y_2))^2\n-2(x_1y_4 -x_4y_1)(x_2y_3 -x_3y_2)\\mbox{.}\\end{aligned}$$ Using\n$$\\begin{aligned}\n\\label{5}\n-2((x_1y_2 -x_2y_1)(x_3y_4 -x_4y_3))\n&+2(x_1y_3 -x_3y_1)(x_2y_4 -x_4y_2) \\\\\n\\nonumber\n-2(x_1y_4 -x_4y_1)(x_2y_3 -x_3y_2)& =0\\end{aligned}$$ we get\n$$\\begin{aligned}\n\\label{6}\n\\sum_{1 \\le k < i \\le 4} (x_ky_i -x_iy_k)^2 & = ((x_1y_2 -x_2y_1) & +(x_3y_4\n-x_4y_3))^2 \\\\\n&+((x_1y_3 -x_3y_1) -(x_2y_4\n-x_4y_2))^2 \\\\ \\nonumber\n&+((x_1y_4 -x_4y_1) +(x_2y_3\n-x_3y_2))^2\\end{aligned}$$ by adding equations \\[2\\]-\\[4\\]. We put the\nresult of equation \\[6\\] into \\[1\\] and get $$\\begin{aligned}\n\\left(\\sum_{k=1}^4 x_ky_k\\right)^2 \\\\\n\\nonumber  =\\left(\\sum_{k=1}^4\nx_k^2\\right)\\left(\\sum_{k=1}^4 y_k^2\\right) &-( (x_1y_2 -x_2y_1 +x_3y_4\n-x_4y_3)^2 \\\\ \\nonumber\n&-(x_1y_3 -x_3y_1 +x_4y_2 -x_2y_4\n)^2 & -(x_1y_4 -x_4y_1 +x_2y_3\n-x_3y_2)^2\\end{aligned}$$ which is equivalent to the claimed identity.",
+  "conclusion": "#P_EulerFoursquareIdentity",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfEulerFoursquareIdentity"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Euler four-square identity"
+  ]
+}

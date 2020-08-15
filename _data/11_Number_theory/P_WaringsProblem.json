@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Waring asked whether it is possible to represent every natural number as\na sum of number of nonnegative $k$\u2019th powers, that is, whether the set\n$\\{\\,n^k \\mid n \\in \\mathbb{Z_+}\\,\\}$ is an . He was led to this\nconjecture by which asserted that every natural number can be\nrepresented as a sum of four squares.\n\nHilbert [@cite:hilbert_waring] was the first to prove the conjecture for\nall $k$. In his paper he did not give an explicit bound on $g(k)$, the\nnumber of powers needed, but later it was proved that\n$$g(k)=2^k+\\left\\lfloor\\left(\\frac{3}{2}\\right)^k\\right\\rfloor-2$$\nexcept possibly finitely many exceptional $k$, none of which are known.\n\nWooley[@cite:wooley_waring], improving the result of\nVinogradov[@cite:vinogradov_waringG], proved that the number of $k$\u2019th\npowers needed to represent all *sufficiently large* integers is\n$$G(k)\\leq k (\\ln k + \\ln \\ln k + O(1)).$$\n\n[1]{}\n\nDavid Hilbert. Beweis f[\u00fc]{}r [D]{}arstellbarkeit der ganzen [Z]{}ahlen\ndurch eine feste [A]{}nzahl $n$-ter [P]{}otenzen ([W]{}aringsches\n[P]{}roblem). , pages 281\u2013300, 1909. Available electronically from .\nRobert\u00a0C. Vaughan. . Cambridge University Press, 1981. .\n\nI.\u00a0M. Vinogradov. On an upper bound for [$G(n)$]{}. , 23:637\u2013642, 1959.\n.\n\nTrevor\u00a0D. Wooley. Large improvements in Waring\u2019s problem. ,\n135(1):131\u2013164, 1992. . at .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WaringsProblem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Waring's problem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "### Introduction {#introduction .unnumbered}\n\nThe definiteness of a matrix is an important property that has use in\nmany areas of mathematics and physics. Below are some examples:\n\n1.  In optimizing problems, the definiteness of the Hessian matrix\n    determines the quality of an extremal value. The full details can be\n    found on .\n\n[**Definition**]{} [@pease] Suppose $A$ is an $n\\times n$ square\nHermitian matrix. If, for any non-zero vector $x$, we have that\n$$x^\\ast Ax>0,$$ then $A$ a *positive definite* matrix. (Here\n$x^\\ast=\\overline{x}^t$, where $\\overline{x}$ is the complex conjugate\nof $x$, and $x^t$ is the transpose of $x$.)\n\nOne can show that a Hermitian matrix is positive definite if and only if\nall its eigenvalues are positive [@pease]. Thus the determinant of a\npositive definite matrix is positive, and a positive definite matrix is\nalways invertible. The Cholesky decomposition provides an economical\nmethod for solving linear equations involving a positive definite\nmatrix. Further conditions and properties for positive definite matrices\nare given in [@johnson:pdm].\n\n[9]{} M. C. Pease, *Methods of Matrix Algebra*, Academic Press, 1965\nC.R. Johnson, *Positive definite matrices*, American Mathematical\nMonthly, Vol. 77, Issue 3 (March 1970) 259-264.",
+  "language": "INFORMAL",
+  "phrase": "Positive Definite",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PositiveDefinite"
+    }
+  ],
+  "indexable": true
+}

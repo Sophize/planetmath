@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *monomial* is a product of non-negative powers of variables. It may\nalso include an optional coefficient (which is sometimes ignored when\ndiscussing particular properties of monomials). A polynomial can be\nthought of as a sum over a set of monomials.\n\nFor example, the following are monomials.\n\n$$\\begin{array}{ccc}\n1 & x & x^2y \\\\\n\\\\\nxyz & 3x^4y^2z^3 & -z\n\\end{array}$$\n\nIf there are $n$ variables from which a monomial may be formed, then a\nmonomial may be represented without its coefficient as a vector of $n$\nnaturals. Each position in this vector would correspond to a particular\nvariable, and the value of the element at each position would correspond\nto the power of that variable in the monomial. For instance, the\nmonomial $x^2yz^3$ formed from the set of variables\n$\\left\\{ w, x, y, z \\right\\}$ would be represented as\n$\\begin{pmatrix}0&2&1&3\\end{pmatrix}^T$. A constant would be a zero\nvector.\n\nGiven this representation, we may define a few more concepts. First, the\n*degree of a monomial* is the sum of the elements of its vector\nrepresentation. Thus, the degree of $x^2yz^3$ is $0 + 2 + 1 + 3 = 6$,\nand the degree of a constant is 0. If a polynomial is represented as a\nsum over a set of monomials, then the degree of a polynomial can be\ndefined as the degree of the monomial of largest degree belonging to\nthat polynomial.",
+  "language": "INFORMAL",
+  "phrase": "Monomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Monomial"
+    }
+  ],
+  "indexable": true
+}

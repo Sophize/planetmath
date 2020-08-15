@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $U\\subset{\\mathbb{C}}$ be an open neighbourhood of a point\n$a\\in {\\mathbb{C}}$. We say that a function\n$f:U\\backslash\\{a\\}\\rightarrow {\\mathbb{C}}$ has a *removable\nsingularity* at $a$, if the complex derivative $f'(z)$ exists for all\n$z\\neq a$, and if $f(z)$ is bounded near $a$.\n\nRemovable singularities can, as the name suggests, be removed.\n\nSuppose that $f:U\\backslash\\{a\\}\\rightarrow {\\mathbb{C}}$ has a\nremovable singularity at $a$. Then, $f(z)$ can be holomorphically\nextended to all of $U$, i.e. there exists a holomorphic\n$g:U\\rightarrow{\\mathbb{C}}$ such that $g(z)=f(z)$ for all $z\\neq a$.\n\n*Proof.* Let $C$ be a circle centered at $a$, oriented counterclockwise,\nand sufficiently small so that $C$ and its interior are contained in\n$U$. For $z$ in the interior of $C$, set\n$$g(z) = \\frac{1}{2\\pi i} \\oint_C \\frac{f(\\zeta)}{\\zeta-z}d\\zeta.$$\nSince $C$ is a compact set, the defining limit for the derivative\n$$\\frac{d}{dz} \\frac{f(\\zeta)}{\\zeta-z}= \n\\frac{f(\\zeta)}{(\\zeta-z)^2}$$ converges uniformly for $\\zeta\\in C$.\nThanks to the uniform convergence, the order of the derivative and the\nintegral operations can be interchanged. Hence, we may deduce that\n$g'(z)$ exists for all $z$ in the interior of $C$. Furthermore, by the\nCauchy integral formula we have that $f(z)=g(z)$ for all $z\\neq a$, and\ntherefore $g(z)$ furnishes us with the desired extension.",
+  "language": "INFORMAL",
+  "phrase": "Removable Singularity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RemovableSingularity"
+    }
+  ],
+  "indexable": true
+}

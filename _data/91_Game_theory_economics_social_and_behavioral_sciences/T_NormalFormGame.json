@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "strategic form game"
+  ],
+  "definition": "A *normal form game* is a game of complete information in which there is\na list of $n$ players, numbered $1,\\ldots,n$. Each player has a strategy\nset, $S_i$ and a utility function\n$u_i:\\prod_{i\\leq n} S_i\\rightarrow \\mathbb{R}$.\n\nIn such a game each player simultaneously selects a move $s_i\\in S_i$\nand receives $u_i((s_1,\\ldots,s_n))$.\n\nNormal form games with two players and finite strategy sets can be\nrepresented in normal form, a matrix where the rows each stand for an\nelement of $S_1$ and the columns for an element of $S_2$. Each cell of\nthe matrix contains an ordered pair which states the payoffs for each\nplayer. That is, the cell $i,j$ contains $(u_1(s_i,s_j),u_2(s_i,s_j))$\nwhere $s_i$ is the $i$-th element of $S_1$ and $s_j$ is the $j$-th\nelement of $S_2$.",
+  "language": "INFORMAL",
+  "phrase": "Normal Form Game",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalFormGame"
+    }
+  ],
+  "indexable": true
+}

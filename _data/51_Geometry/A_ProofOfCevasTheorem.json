@@ -1,0 +1,17 @@
+{
+  "argumentText": "As in the article on Ceva\u2019s Theorem, we will consider directed line\nsegments.\n\nLet $X$, $Y$ and $Z$ be points on $BC$, $CA$ and $AB$, respectively,\nsuch that $AX$, $BY$ and $CZ$ are concurrent, and let $P$ be the point\nwhere $AX$, $BY$ and $CZ$ meet. Draw a parallel to $AB$ through the\npoint $C$. Extend $AX$ until it intersects the parallel at a point $A'$.\nConstruct $B'$ in a similar way extending $BY$.\n\n![image](ceva-proof)\n\nThe triangles $\\triangle ABX$ and $\\triangle A'CX$ are similar, and so\nare $\\triangle ABY$ and $\\triangle CB'Y$. Then the following equalities\nhold:\n$$\\frac{BX}{XC}=\\frac{AB}{CA'},\\qquad\\frac{CY}{YA}=\\frac{CB'}{BA}$$ and\nthus $$\\label{ec1}\n\\frac{BX}{XC}\\cdot\\frac{CY}{YA}=\\frac{AB}{CA'}\\cdot\\frac{CB'}{BA}=\\frac{CB'}{A'C}.$$\nNotice that if directed segments are being used then $AB$ and $BA$ have\nopposite signs, and therefore when cancelled change the sign of the\nexpression. That\u2019s why we changed $CA'$ to $A'C$.\n\nNow we turn to consider the following similarities:\n$\\triangle AZP\\sim\\triangle A'CP$ and $\\triangle BZP\\sim\\triangle B'CP$.\nFrom them we get the equalities\n$$\\frac{CP}{ZP}=\\frac{A'C}{AZ},\\qquad\\frac{CP}{ZP}=\\frac{CB'}{ZB}$$\nwhich lead to $$\\frac{AZ}{ZB}=\\frac{A'C}{CB'}.$$ Multiplying the last\nexpression with (\\[ec1\\]) gives\n$$\\frac{AZ}{ZB}\\cdot\\frac{BX}{XC}\\cdot\\frac{CY}{YA}=1$$ and we conclude\nthe proof.\n\nTo prove the converse, suppose that $X,Y,Z$ are points on $BC,CA,AB$\nrespectively and satisfying\n$$\\frac{AZ}{ZB}\\cdot\\frac{BX}{XC}\\cdot\\frac{CY}{YA}=1.$$\n\nLet $Q$ be the intersection point of $AX$ with $BY$, and let $Z'$ be the\nintersection of $CQ$ with $AB$. Since then $AX,BY,CZ'$ are concurrent,\nwe have $$\\frac{AZ'}{Z'B}\\cdot\\frac{BX}{XC}\\cdot\\frac{CY}{YA}=1$$ and\nthus $$\\frac{AZ'}{Z'B}=\\frac{AZ}{ZB}$$ which implies $Z=Z'$, and\ntherefore $AX,BY,CZ$ are concurrent.",
+  "conclusion": "#P_CevasTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCevasTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Ceva's theorem"
+  ]
+}

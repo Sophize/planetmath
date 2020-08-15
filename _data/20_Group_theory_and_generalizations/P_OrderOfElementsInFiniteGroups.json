@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "This article proves two elementary results regarding the orders of group\nelements in finite groups.\n\nLet $G$ be a finite group, and let $a\\in G$ and $b\\in G$ be elements of\n$G$ that commute with each other. Let $m=\\lvert a\\rvert$,\n$n=\\lvert b\\rvert$. If $\\gcd(m,n)=1$, then $mn=\\lvert ab\\rvert$.\n\n**Proof.** Note first that $$(ab)^{mn}=a^{mn}b^{mn}=(a^m)^n(b^n)^m=e_G$$\nsince $a$ and $b$ commute with each other. Thus\n$\\lvert ab\\rvert \\leq mn$. Now suppose $\\lvert ab\\rvert=k$. Then\n$$e_G=(ab)^k=(ab)^{km}=a^{km}b^{km}=b^{km}$$ and thus $n|km$. But\n$\\gcd(m,n)=1$, so $n|k$. Similarly, $m|k$ and thus\n$mn|k=\\lvert ab\\rvert$. These two results together imply that $mn=k$.\n\nLet $G$ be a finite abelian group. If $G$ contains elements of orders\n$m$ and $n$, then it contains an element of order $\\mathrm{lcm}(m,n)$.\n\n**Proof.** Choose $a$ and $b$ of orders $m$ and $n$ respectively, and\nwrite $$\\mathrm{lcm}(m,n)=\\prod p_i^{k_i}$$ where the $p_i$ are distinct\nprimes. Thus for each $i$, either $p_i^{k_i}\\mid m$ or\n$p_i^{k_i}\\mid n$. Thus either $a^{m/p_i^{k_i}}$ or $b^{n/p_i^{k_i}}$\nhas order $p_i^{k_i}$. Let this element be $c_i$. Now, the orders of the\n$c_i$ are pairwise coprime by construction, so\n$$\\left\\lvert \\prod c_i\\right\\rvert=\\prod \\left\\lvert c_i\\right\\rvert=\\mathrm{lcm}(m,n)$$\nand thus $\\prod c_i$ is the required element.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderOfElementsInFiniteGroups"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "order of elements in finite groups"
+  ]
+}

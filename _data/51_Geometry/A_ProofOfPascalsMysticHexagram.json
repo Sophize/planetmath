@@ -1,0 +1,17 @@
+{
+  "argumentText": "We can choose homogeneous coordinates $(x,y,z)$ such that the equation\nof the given nonsingular conic is $yz+zx+xy=0$, or equivalently\n$$\\label{eq:conic}\nz(x+y)=-xy$$ and the vertices of the given hexagram $A_1A_5A_3A_4A_2A_6$\nare\n\n  --------------------- ---------------\n    $A_1=(x_1,y_1,z_1)$   $A_4=(1,0,0)$\n    $A_2=(x_2,y_2,z_2)$   $A_5=(0,1,0)$\n    $A_3=(x_3,y_3,z_3)$   $A_6=(0,0,1)$\n  --------------------- ---------------\n\n(see Remarks below). The equations of the six sides, arranged in\nopposite pairs, are then\n\n  --------------------- ---------------------\n    $A_1A_5: x_1z=z_1x$   $A_4A_2: y_2z=z_2y$\n    $A_5A_3: x_3z=z_3x$   $A_2A_6: y_2x=x_2y$\n    $A_3A_4: z_3y=y_3z$   $A_6A_1: y_1x=x_1y$\n  --------------------- ---------------------\n\nand the three points of intersection of pairs of opposite sides are\n$$A_1A_5\\cdot A_4A_2 = (x_1z_2,z_1y_2,z_1z_2)$$\n$$A_5A_3\\cdot A_2A_6 = (x_2x_3,y_2x_3,x_2z_3)$$\n$$A_3A_4\\cdot A_6A_1 = (y_3x_1,y_3y_1,z_3y_1)$$ To say that these are\ncollinear is to say that the determinant $$D=\\left| \\begin{array}{ccc}\nx_1z_2 & z_1y_2 & z_1z_2 \\\\\nx_2x_3 & y_2x_3 & x_2z_3 \\\\\ny_3x_1 & y_3y_1 & z_3y_1\n\\end{array}\\right|$$ is zero. We have\n\n  ------ ------------------------------------------\n    $D=$    $x_1y_1y_2z_2z_3x_3-x_1y_1z_2x_2y_3z_3$\n           $+z_1x_1x_2y_2y_3z_3-y_1z_1x_2y_2z_3x_3$\n           $+y_1z_1z_2x_2x_3y_3-z_1x_1y_2z_2x_3y_3$\n  ------ ------------------------------------------\n\nUsing (\\[eq:conic\\]) we get\n$$(x_1+y_1)(x_2+y_2)(x_3+y_3)D=x_1y_1x_2y_2x_3y_3S$$ where\n$(x_1+y_1)(x_2+y_2)(x_3+y_3)\\ne 0$ and $$\\begin{aligned}\nS&= &(x_1+y_1)(y_2x_3-x_2y_3) \\\\\n & +&(x_2+y_2)(y_3x_1-x_3y_1) \\\\\n & +&(x_3+y_3)(y_1x_2-x_1y_2) \\\\\n &= &0\\end{aligned}$$ QED.\n\n**Remarks:** For more on the use of coordinates in a projective plane,\nsee e.g. (an 11-page PDF).\n\nA synthetic proof (without coordinates) of Pascal\u2019s theorem is possible\nwith the aid of cross ratios or the related notion of harmonic sets (of\nfour collinear points).\n\nPascal\u2019s proof is lost; presumably he had only the real affine plane in\nmind. A proof restricted to that case, based on Menelaus\u2019s theorem, can\nbe seen at .",
+  "conclusion": "#P_PascalsMysticHexagram",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPascalsMysticHexagram"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Pascal's mystic hexagram"
+  ]
+}

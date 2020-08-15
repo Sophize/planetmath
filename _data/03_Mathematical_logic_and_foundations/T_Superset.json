@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given two sets $A$ and $B$, $A$ is a *superset* of $B$ if every element\nin $B$ is also in $A$. We denote this relation as $A\\supseteq B$. This\nis equivalent to saying that $B$ is a subset of $A$, that is\n$A\\supseteq B \\Leftrightarrow B\\subseteq A$.\n\nSimilar rules to those that hold for $\\subseteq$ also hold for\n$\\supseteq$. If $X\\supseteq Y$ and $Y\\supseteq X$, then $X = Y$. Every\nset is a superset of itself, and every set is a superset of the empty\nset.\n\nWe say $A$ is a *proper superset* of $B$ if $A \\supseteq B$ and\n$A \\neq B$. This relation is sometimes denoted by $A \\supset B$, but\n$A \\supset B$ is often used to mean the more general superset relation,\nso it should be made explicit when \u201cproper superset\u201d is intended,\npossibly by using $X\\varsupsetneq Y$ or $X\\supsetneqq Y$ (or\n$X\\supsetneq Y$ or $X\\varsupsetneqq Y$).\n\nOne will occasionally see a collection $C$ of subsets of some set $X$\nmade into a partial order \u201cby containment\u201d. Depending on context this\ncan mean defining a partial order where $Y\\leq Z$ means $Y \\subseteq Z$,\nor it can mean defining the opposite partial order: $Y\\leq Z$ means\n$Y \\supseteq Z$. This is frequently used when applying Zorn\u2019s lemma.\n\nOne will also occasionally see a collection $C$ of subsets of some set\n$X$ made into a category, usually by defining a single abstract morphism\n$Y\\to Z$ whenever $Y\\subseteq Z$ (this being a special case of the\ngeneral method of treating pre-orders as categories). This allows a\nconcise definition of presheaves and sheaves, and it is generalized when\ndefining a site.",
+  "language": "INFORMAL",
+  "phrase": "Superset",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Superset"
+    }
+  ],
+  "indexable": true
+}

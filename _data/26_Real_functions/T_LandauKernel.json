@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For $k\\in\\mathbb{N}$ the *Landau kernel* $L_k(t)$ is defined as\n$$L_k=\\left\\{\\begin{array}{lr}\n\\frac{1}{c_k}(1-t^2)^k&\\text{if }t\\in[-1,1]\\\\\n0&\\text{otherwise}\n\\end{array}\\right.$$ with $$c_k:=\\int_{-1}^1(1-t^2)^kdt.$$ $L_k$ is\nnonnegative and continuous on $\\mathbb{R}$. Due to the choice of $c_k$\nwe have $$\\int_{-\\infty}^\\infty L_k(t)dt=1.$$ Also we have for all\npositive, real $r$: $$\\begin{aligned}\n\\int_{\\mathbb{R}\\backslash[-r,r]}L_k(t)dt&\\leq\\frac{2}{c_k}\\int_r^1(1-t^2)^kdt\\\\\n&\\leq(k+1)(1-r^2)^k.\\end{aligned}$$ Therefore $(L_k)_{k\\in\\mathbb{N}}$\nis a Dirac sequence.",
+  "language": "INFORMAL",
+  "phrase": "Landau Kernel",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LandauKernel"
+    }
+  ],
+  "indexable": true
+}

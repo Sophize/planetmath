@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem.**]{} A compact set in a Hausdorff space is closed.\n\n*Proof.* Let $A$ be a compact set in a Hausdorff space $X$. The case\nwhen $A$ is empty is trivial, so let us assume that $A$ is non-empty.\nUsing , it follows that each point $y$ in $A^{{\\complement}}$ has a\nneighborhood $U_y$, which is disjoint to $A$. (Here, we denote the\ncomplement of $A$ by $A^{{\\complement}}$.) We can therefore write\n$$\\begin{aligned}\nA^{{\\complement}} &=& \\bigcup_{y\\in A^{{\\complement}}} U_y.\\end{aligned}$$\nSince an arbitrary union of open sets is open, it follows that $A$ is\nclosed. $\\Box$\n\n[**Note.**]{}\u00c2\u00a0\\\nThe above theorem can, for instance, be found in [@kelley] (page 141),\nor [@singer] (Section 2.1, Theorem 2).\n\n[9]{} J.L. Kelley, *General Topology*, D. van Nostrand Company, Inc.,\n1955. I.M. Singer, J.A.Thorpe, *Lecture Notes on Elementary Topology and\nGeometry*, Springer-Verlag, 1967.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ACompactSetInAHausdorffSpaceIsClosed"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a compact set in a Hausdorff space is closed"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\I$ be an incidence structure with point set $\\P$ and block set\n$\\B$. Let $X_\\P$ be a partition of $\\P$ into classes $\\P_i$, and $X_\\B$\na partition of $\\B$ into classes $\\B_j$. Let $\\#(\\0p,\\B_j)$ denote for a\nmoment the number of blocks in class $\\B_j$ incident with point $\\0p$,\nand $\\#(\\0b,\\P_i)$ the number of points in class $\\P_i$ incident with\nblock $\\0b$. Now the pair $(X_\\P,X_\\B)$ is said to be\n\n-   [**point-tactical**]{} iff $\\#(\\0p,\\B_j)$ is for any $\\0p$ the same\n    for all $\\B_j$, and is the same for all $\\0p$ within a class $\\P_i$,\n\n-   [**block-tactical**]{} iff $\\#(\\0b,\\P_i)$ is for any $\\0b$ the same\n    for all $\\P_i$, and is the same for all $\\0b$ within a class $\\B_j$,\n\n-   a [**tactical decomposition**]{} if both hold.\n\nAn incidence structure admitting a tactical decomposition with a single\npoint class $\\P_0=\\P$ is called [**resolvable**]{} and $X_\\B$ its\n[**resolution**]{}. Note $\\#(\\0p,\\B_j)$ is now a constant throughout. If\nthe constant is 1 the resolution is called a [**parallelism**]{}.\n\nExample of point- and block-tactical: let $\\I$ be simple (it\u2019s a\nhypergraph) and let $(X_\\P,X_\\B)$ partition $\\P$ and $\\B$ into a single\nclass each. This is point-tactical for a regular hypergraph, and\nblock-tactical for a uniform hypergraph.\n\nExample of parallelism: an affine plane (lines are the blocks, with\nparallel ones in the same class).\n\nA natural example of a tactical decomposition is provided by the\nautomorphism group $G$ of $\\I$. It induces a tactical decomposition with\nas point classes the orbits of $G$ acting on $\\P$ and as block classes\nthe orbits of $G$ acting on $\\B$.\n\nTrivial example of a tactical decomposition: a partition into singleton\npoint and block classes.\n\nThe term tactical decomposition ([*taktische Zerlegung*]{} in German)\nwas introduced by Peter Dembowski.",
+  "language": "INFORMAL",
+  "phrase": "Tactical Decomposition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TacticalDecomposition"
+    }
+  ],
+  "indexable": true
+}

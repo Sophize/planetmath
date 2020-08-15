@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A ring $R$ which is a topological space is called a *topological ring*\nif the addition, multiplication, and the additive inverse functions are\ncontinuous functions from $R \\times R$ to $R$.\n\nA *topological division ring* is a topological ring such that the\nmultiplicative inverse function is continuous away from $0$. A\n*topological field* is a topological division ring that is a field.\n\n**Remark**. It is easy to see that if $R$ contains the multiplicative\nidentity $1$, then $R$ is a topological ring iff addition and\nmultiplication are continuous. This is true because the additive inverse\nof an element can be written as the product of the element and $-1$.\nHowever, if $R$ does not contain $1$, it is necessary to impose the\ncontinuity condition on the additive inverse operation.",
+  "language": "INFORMAL",
+  "phrase": "Topological Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TopologicalRing"
+    }
+  ],
+  "indexable": true
+}

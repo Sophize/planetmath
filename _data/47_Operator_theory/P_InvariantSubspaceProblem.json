@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Initially formulated for Banach spaces, the [**invariant subspace\nconjecture**]{} stated the following:\n\n*Let $X$ be a complex Banach space. Then every bounded operator $T$ in\n$X$ has a non-trivial invariant subspace, i.e. there exists a closed\nvector subspace $S \\subset X$ such that $S \\neq 0$, $S \\neq X$ and\n$T(S) \\subseteq S$.*\n\nThis conjecture was proven to be false when P. Enflo (1975) and . Read\n(1984) gave examples of bounded operators which did not have the above\nproperty.\n\nHowever, if one considers only Hilbert spaces, this is still an open\nproblem. Today the [**invariant subspace conjecture**]{} is formulated\nas follows:\n\n*Let $H$ be a complex Hilbert space. Then every bounded operator $T$ in\n$H$ has a non-trivial invariant subspace, i.e. there exists a closed\nvector subspace $S \\subset H$ such that $S \\neq 0$, $S \\neq H$ and\n$T(S) \\subseteq S$.*",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InvariantSubspaceProblem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "invariant subspace problem",
+    "invariant subspace conjecture"
+  ]
+}

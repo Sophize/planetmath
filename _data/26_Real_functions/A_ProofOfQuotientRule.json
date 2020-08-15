@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $F(x) = f(x)/g(x)$. Then\n\n$$\\begin{aligned}\nF'(x) & = & \\lim_{h \\to0} \\frac{F(x+h)-F(x)}{h} = \\lim_{h \\to0} \\frac{\\frac{f(x+h)}{g(x+h)}-\\frac{f(x)}{g(x)}}{h}\\\\\n& = & \\lim_{h\\to0} \\frac{f(x+h)g(x)-f(x)g(x+h)}{hg(x+h)g(x)}\\end{aligned}$$\n\nLike the product rule, the key to this proof is subtracting and adding\nthe same quantity. We separate $f$ and $g$ in the above expression by\nsubtracting and adding the term $f(x)g(x)$ in the numerator.\n\n$$\\begin{aligned}\nF'(x) & = & \\lim_{h \\to0} \\frac{f(x+h)g(x)-f(x)g(x)+f(x)g(x)-f(x)g(x+h)}{hg(x+h)g(x)} \\\\\n& = & \\lim_{h \\to0} \\frac{g(x)\\frac{f(x+h)-f(x)}{h}-f(x) \\frac{g(x+h)-g(x)}{h}}{g(x+h)g(x)} \\\\\n& = & \\frac{\\lim_{h \\to0}g(x) \\cdot \\lim_{h \\to0} \\frac{f(x+h)-f(x)}{h}-\\lim_{h \\to0} f(x) \\cdot \\lim_{h \\to0} \\frac{g(x+h)-g(x)}{h}}{\\lim_{h \\to0}g(x+h) \\cdot \\lim_{h \\to0}g(x)} \\\\\n& = & \\frac{g(x)f'(x)-f(x)g'(x)}{\\lbrack g(x) \\rbrack ^2}\\end{aligned}$$",
+  "conclusion": "#P_QuotientRule",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfQuotientRule"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of quotient rule"
+  ]
+}

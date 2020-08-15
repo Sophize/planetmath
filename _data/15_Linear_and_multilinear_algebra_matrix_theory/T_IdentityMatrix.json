@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The $n \\times n$ *identity matrix* $I$ (or $I_n$) over a ring $R$ (with\nan identity 1) is the square matrix with coefficients in $R$ given by\n\n$$I = \n\\begin{bmatrix}\n1 & 0 & \\cdots & 0 \\\\\n0 & 1 & \\cdots & 0 \\\\\n0 & 0 & \\ddots & 0 \\\\\n0 & 0 & \\cdots & 1\n\\end{bmatrix},$$\n\nwhere the numeral \u201c1\u201d and \u201c0\u201d respectively represent the multiplicative\nand additive identities in $R$.\n\n### Properties\n\nThe identity matrix $I_n$ serves as the multiplicative identity in the\nring of $n\\times n$ matrices over $R$ with standard matrix\nmultiplication. For any $n\\times n$ matrix $M$, we have $I_nM=MI_n=M$,\nand the identity matrix is uniquely defined by this property. In\naddition, for any $n\\times m$ matrix $A$ and $m\\times n$ $B$, we have\n$IA=A$ and $BI=B$.\n\nThe $n\\times n$ identity matrix $I$ satisfy the following properties\n\n-   For the determinant, we have $\\det I = 1$, and for the trace, we\n    have $\\operatorname{tr}I = n$.\n\n-   The identity matrix has only one eigenvalue $\\lambda =1$ of\n    multiplicity $n$. The corresponding eigenvectors can be chosen to be\n    $v_1=(1,0,\\ldots, 0),\\ldots, v_n=(0,\\ldots, 0,1)$.\n\n-   The matrix exponential of $I$ gives $e^I = e I$.\n\n-   The identity matrix is a diagonal matrix.",
+  "language": "INFORMAL",
+  "phrase": "Identity Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdentityMatrix"
+    }
+  ],
+  "indexable": true
+}

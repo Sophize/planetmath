@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "final sink"
+  ],
+  "definition": "Let ${\\mathbf{A}}$ be a concrete category over ${\\mathbf{X}}$. A source\n$({A\\overset{f_i}\\toA_i})_{i\\in I}$ in ${\\mathbf{A}}$ is called\n*initial* provided that an ${\\mathbf{X}}$-morphism\n${f:{| B |}\\to{| A |}}$ is an ${\\mathbf{A}}$-morphism whenever each\ncomposite ${f_i\\circ f:{| B |}\\to{| A_i |}}$ is an\n${\\mathbf{A}}$-morphism.\n\nThe dual notion is called a *final sink*.\n\nA source $(A,f_i)_I$ in the category of topological spaces\n${{\\mathbf{Top}}}$ is initial if and only if $A$ has the initial\ntopology with respect to the family $(f_i)_I$.\n\nA topological space $X$ is completely regular if and only if the source\n$S(X,{\\mathbb{R}})$, consisting of all continuous maps from $X$ to the\nreal line, is initial (in the construct ${{\\mathbf{Top}}}$); and $X$ is\na Tychonoff space if and only if $S(X,{\\mathbb{R}})$ is an initial\nmono-source.\n\nA similar characterization holds for epireflective subcategories of\n${{\\mathbf{Top}}}$.\n\n[1]{}\n\nJ.\u00a0Ad\u00e1mek, H.\u00a0Herrlich, and G.\u00a0Strecker. . Wiley, New York, 1990.",
+  "language": "INFORMAL",
+  "phrase": "Initial Source",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InitialSource"
+    }
+  ],
+  "indexable": true
+}

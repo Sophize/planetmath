@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A universal Turing machine $U$ is a Turing machine with a single binary\none-way read-only input tape, on which it expects to find the encoding\nof an arbitrary Turing machine $M$. The set of all Turing machine\nencodings must be prefix-free, so that no special end-marker or \u2018blank\u2019\nis needed to recognize a code\u2019s end. Having transferred the description\nof $M$ onto its worktape, $U$ then proceeds to simulate the behaviour of\n$M$ on the remaining contents of the input tape. If $M$ halts, then $U$\ncleans up its worktape, leaving it with just the output of $M$, and\nhalts too.\n\nIf we denote by $M()$ the partial function computed by machine $M$, and\nby $<M>$ the encoding of machine $M$ as a binary string, then we have\n$U(<M>x)=M(x)$.\n\nThere are two kinds of universal Turing machine, depending on whether\nthe input tape alphabet of the simulated machine is $\\{0,1,\\#\\}$ or just\n$\\{0,1\\}$. The first kind is a [*plain*]{} Universal Turing machine;\nwhile the second is a [*prefix*]{} Universal Turing machine, which has\nthe nice property that the set of inputs on which it halts is prefix\nfree.\n\nThe letter $U$ is commonly used to denote a fixed universal machine,\nwhose type is either mentioned explicitly or assumed clear from context.",
+  "language": "INFORMAL",
+  "phrase": "Universal Turing Machine",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniversalTuringMachine"
+    }
+  ],
+  "indexable": true
+}

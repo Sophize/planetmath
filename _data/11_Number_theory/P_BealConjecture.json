@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Beal conjecture :\n\nLet $A,B,C,x,y,z$ be nonzero integers such that $x$, $y$, and $z$ are\nall $\\ge 3$, and $$A^x+B^y=C^z$$ Then $A$, $B$, and $C$ (or any two of\nthem) are not relatively prime.\n\nIt is clear that the famous statement known as Fermat\u2019s Last Theorem\nwould follow from this stronger claim.\n\nSolutions of equation (1) are not very scarce. One parametric solution\nis $$[a(a^m + b^m)]^m + [b(a^m + b^m)]^m = (a^m + b^m)^{m+1}$$ for\n$m\\ge 3$, and $a,b$ such that the are nonzero. But computerized\nsearching brings forth quite a few additional solutions, such as:\n\n$$\\begin{aligned}\n3^3 + 6^3 &= 3^5 \\\\\n3^9 + 54^3 &= 3^{11} \\\\\n3^6 + 18^3 &= 3^8 \\\\\n7^6 + 7^7 &= 98^3 \\\\\n27^4 + 162^3 &= 9^7 \\\\\n211^3 + 3165^3 &= 422^4 \\\\\n386^3 + 4825^3 &= 579^4 \\\\\n307^3 + 614^4 &= 5219^3 \\\\\n5400^3 + 90^4 &= 630^4 \\\\\n217^3 + 5642^3 &= 651^4 \\\\\n271^3 + 813^4 &= 7588^3 \\\\\n602^3 + 903^4 &= 8729^3 \\\\\n624^3 + 14352^3 &= 312^5 \\\\\n1862^3 + 57722^3 &= 3724^4 \\\\\n2246^3 + 4492^4 &= 74118^3 \\\\\n1838^3 + 97414^3 &= 5514^4\\end{aligned}$$\n\nMysteriously, the summands have a common factor $>1$ in each instance.\n\nDan Vanderkam has verified the Beal conjecture for all values of all six\nvariables up to 1000, and he provides source code for anyone who wants\nto repeat the verification for himself. A 64-bit machine is required.\nSee http://www.owlnet.rice.edu/\u00a0danvk/beal.html\n\nThis conjecture is \u201cwanted in Texas, dead or alive\u201d. For the details,\nplus some additional , see .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BealConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Beal conjecture",
+    "Beal's conjecture"
+  ]
+}

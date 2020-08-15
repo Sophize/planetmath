@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "powerset"
+  ],
+  "definition": "If $X$ is a set, then the *power set of $X$*, denoted by\n${\\mathcal{P}(X)}$, is the set whose elements are the subsets of $X$.\n\n### Properties {#properties .unnumbered}\n\n1.  If $X$ is finite, then $|{\\mathcal{P}(X)}|=2^{|X|}$.\n\n2.  The above property also holds when $X$ is not finite. For a set $X$,\n    let $|X|$ be the cardinality of $X$. Then\n    $|{\\mathcal{P}(X)}|=2^{|X|}=|2^X|$, where $2^X$ is the set of all\n    functions from $X$ to $\\{0,1\\}$.\n\n3.  For an arbitrary set $X$, Cantor\u2019s theorem states: a) there is no\n    bijection between $X$ and ${\\mathcal{P}(X)}$, and b) the cardinality\n    of ${\\mathcal{P}(X)}$ is greater than the cardinality of $X$.\n\n### Example {#example .unnumbered}\n\nSuppose $S=\\{a,b\\}$. Then\n${\\mathcal{P}(S)}=\\{\\emptyset, \\{a\\}, \\{b\\}, S\\}$. In particular,\n$|{\\mathcal{P}(S)}|=2^{|S|}=4$.\n\n### Related definition {#related-definition .unnumbered}\n\nIf $X$ is a set, then the *finite power set of $X$*, denoted by\n$\\mathcal{F}(X)$, is the set whose elements are the [**finite**]{}\nsubsets of $X$.\n\n### Remark {#remark .unnumbered}\n\nDue to the canonical correspondence between elements of\n${\\mathcal{P}(X)}$ and elements of $2^X$, the power set is sometimes\nalso denoted by $2^X$.",
+  "language": "INFORMAL",
+  "phrase": "Power Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PowerSet"
+    }
+  ],
+  "indexable": true
+}

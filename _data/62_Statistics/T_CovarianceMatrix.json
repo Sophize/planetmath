@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "variance covariance matrix"
+  ],
+  "definition": "Let $\\mathbf{X}=(X_1,\\ldots,X_n)^T$ be a random vector. Then the\n*covariance matrix* of $\\mathbf{X}$, denoted by $\\mathbf{Cov(X)}$, is\n$\\lbrace Cov(X_i,X_j) \\rbrace$. The diagonals of $\\mathbf{Cov(X)}$ are\n$Cov(X_i,X_i)=Var[X_i]$. In matrix notation,\n$$\\mathbf{Cov(X)}=\\begin{pmatrix} Var[X_1] & \\cdots & Cov(X_1,X_n) \\\\\n\\vdots & & \\vdots \\\\ Cov(X_n,X_1) & \\cdots & Var[X_n] \\end{pmatrix}.$$\n\nIt is easily seen that $\\mathbf{Cov(X)}=\\mathbf{Var[X]}$ via\n$$\\begin{pmatrix} E[{X_1}^2]-E[X_1]^2 & \\cdots & E[X_1X_n]-E[X_1]E[X_n] \\\\\n\\vdots & & \\vdots \\\\ E[X_nX_1]-E[X_n]E[X_1] & \\cdots & E[{X_n}^2]-E[X_n]^2 \\end{pmatrix} = \\mathbf{E\\Big[\\big(X-E[X]\\big)\\big(X-E[X]\\big)^T\\Big]}.$$\n\nThe covariance matrix is symmetric and if the $X_i$\u2019s are independent,\nidentically distributed (iid) with variance $\\boldsymbol{\\sigma}^2$,\nthen $$\\mathbf{Cov(X)}=\\boldsymbol{\\sigma}^2\\mathbf{I}.$$",
+  "language": "INFORMAL",
+  "phrase": "Covariance Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CovarianceMatrix"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Every subgroup of a topological group is either clopen\nor has empty interior.\n\n$\\,$\n\n[***Proof:***]{} Let $G$ be a topological group and $H \\subseteq G$ a\nsubgroup. Suppose the interior of $H$ is nonempty, i.e. there is a\nnon-empty open set $U$ of $G$ such that $U \\subseteq H$. Translating $U$\naround $H$ we can see that $H$ is open: if $u \\in U$ then for every\n$h \\in H$ the set $hu^{-1}U$ is open in $G$, is contained in $H$ and\ncontains $h$, which implies that $H$ is open in $G$.\n\nLet us now see that $H$ is closed. Let $\\overline{H}$ denote the closure\nof $H$ and let $H^2$ be the set of elements of the form $h_1h_2$ where\n$h_1, h_2 \\in H$. Of course, since $H$ is a subgroup of $G$, we have\nthat $H^2=H$. Also, since $H$ is open we know\nthat$ H\\subseteq \\overline{H} \\subseteq H^2$ (see - 5). Hence\n$\\overline{H}=H$, i.e. $H$ is closed.\n\nWe have proven that a subgroup of a topological group must be clopen or\nit must have empty interior. Since this two topological properties can\nnever be satisfied simultaneously, we have that every subgroup of a\ntopological group is either clopen or it has empty interior. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubgroupOfTopologicalGroupIsEitherClopenOrHasEmptyInterior"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "subgroup of topological group is either clopen or has empty interior"
+  ]
+}

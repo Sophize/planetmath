@@ -1,0 +1,17 @@
+{
+  "argumentText": "The proof consist of several parts which we will give for completeness.\nLet $K$ denote $\\ker f$. The following calculation validates that for\nevery $g\\in G$ and $k \\in K$: $$\\begin{array}{llll}\n  f(gkg^{-1}) &=& f(g) \\, f(k) \\, f(g)^{-1} & \\text{($f$ is an homomorphism)}\\\\\n  &=& f(g) \\, 1_H \\, f(g)^{-1} & \\text{(definition of $K$)}\\\\\n  &=& 1_H &\n\\end{array}$$ Hence, $gkg^{-1}$ is in $K$. Therefore, $K$ is a normal\nsubgroup of $G$ and $G/K$ is well-defined.\n\nTo prove the theorem we will define a map from $G/K$ to the image of $f$\nand show that it is a function, a homomorphism and finally an\nisomorphism.\n\nLet $\\theta\\colon G/K \\to \\operatorname{Im} f$ be a map that sends the\ncoset $gK$ to $f(g)$.\n\nSince $\\theta$ is defined on representatives we need to show that it is\nwell defined. So, let $g_1$ and $g_2$ be two elements of $G$ that belong\nto the same coset (i.e. $g_1K = g_2K$). Then, $g_1^{-1}g_2$ is an\nelement of $K$ and therefore $f(g_1^{-1}g_2)=1$ (because $K$ is the\nkernel of $G$). Now, the rules of homomorphism show that\n$f(g_1)^{-1}f(g_2)=1$ and that is equivalent to $f(g_1)=f(g_2)$ which\nimplies the equality $\\theta(g_1K)=\\theta(g_2K)$.\n\nNext we verify that $\\theta$ is a homomorphism. Take two cosets $g_1K$\nand $g_2K$, then: $$\\begin{array}{llll}\n  \\theta (g_1K\\cdot g_2K) &=& \\theta(g_1g_2K) & \\text{(operation in $G/K$)}\\\\\n  &=& f(g_1g_2) & \\text{(definition of $\\theta$)}\\\\\n  &=& f(g_1)f(g_2) & \\text{($f$ is an homomorphism)}\\\\\n  &=& \\theta (g_1K)\\theta (g_2K)\\ & \\text{(definition of $\\theta$)}\n\\end{array}$$\n\nFinally, we show that $\\theta$ is an isomorphism (i.e. a bijection). The\nkernel of $\\theta$ consists of all cosets $gK$ in $G/K$ such that\n$f(g)=1$ but these are exactly the elements $g$ that belong to $K$ so\nonly the coset $K$ is in the kernel of $\\theta$ which implies that\n$\\theta$ is an injection. Let $h$ be an element of $\\operatorname{Im} f$\nand $g$ its pre-image. Then, $\\theta(gK)$ equals $f(g)$ thus\n$\\theta(gK)=h$ and therefore $\\theta$ is surjective.\n\nThe theorem is proved. Some version of the theorem also states that the\nfollowing diagram is commutative: $$\\xymatrix{\nG \\ar[rd]_{f} \\ar[r]^{\\pi} & G/K \\ar[d]_{\\theta} \\\\\n& H }$$ were $\\pi$ is the natural projection that takes $g\\in G$ to\n$gK$. We will conclude by verifying this. Take $g$ in $G$ then,\n$\\theta(\\pi(g))=\\theta(gK)=f(g)$ as needed.",
+  "conclusion": "#P_FirstIsomorphismTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfFirstIsomorphismTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of first isomorphism theorem"
+  ]
+}

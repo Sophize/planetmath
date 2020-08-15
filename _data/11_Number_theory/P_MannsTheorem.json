@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ and $B$ be subsets of $\\mathbb{Z}$. If $0 \\in A \\cap B$,\n$$\\sigma(A+B)\\geq \\min(1,\\sigma A + \\sigma B),$$ where $\\sigma$ denotes\nSchnirelmann density.\n\nThis statement was known also as $(\\alpha+\\beta)$-conjecture until H.\u00a0B.\nMann proved it in 1942.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MannsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Mann's theorem",
+    "$(\\alpha+\\beta)$-conjecture"
+  ]
+}

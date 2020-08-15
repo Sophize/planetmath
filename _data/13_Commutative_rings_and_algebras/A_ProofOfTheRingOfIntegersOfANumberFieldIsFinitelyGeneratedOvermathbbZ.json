@@ -1,0 +1,17 @@
+{
+  "argumentText": "**Proof:** Choose any basis $\\alpha_1,\\ldots,\\alpha_n$ of $K$ over\n${\\mathbb{Q}}$. Using the theorem in the entry multiples of an algebraic\nnumber, we can multiply each element of the basis by an integer to get a\nnew basis $\\alpha_1,\\ldots,\\alpha_n$ with each\n$\\alpha_i\\in\\mathcal{O}_K$. Consider the group homomorphism\n$$\\varphi:K\\rightarrow {\\mathbb{Q}}^n:\\gamma\\mapsto(\\operatorname{Tr}_{\\mathbb{Q}}^K(\\gamma\\alpha_1),\\ldots,\\operatorname{Tr}_{\\mathbb{Q}}^K(\\gamma\\alpha_n))$$\nwhere $\\operatorname{Tr}_{\\mathbb{Q}}^K$ is the from $K$ to\n${\\mathbb{Q}}$. Note that $\\varphi$ is $1-1$, since if $\\gamma\\neq 0$\nand $\\varphi(\\gamma)=0$, then\n$$n=\\operatorname{Tr}_{\\mathbb{Q}}^K(1)=\\operatorname{Tr}_{\\mathbb{Q}}^K(\\gamma\\gamma^{-1})=\\operatorname{Tr}_{\\mathbb{Q}}^K(\\gamma\\sum r_i\\alpha_i)=\\sum r_i \\operatorname{Tr}_{\\mathbb{Q}}^K(\\gamma\\alpha_i)=0$$\nwhere the last equality holds since $\\gamma\\in\\ker\\varphi$.\n\nHence $\\varphi:\\mathcal{O}_K\\hookrightarrow {\\mathbb{Z}}^n$, so\n$\\mathcal{O}_K$ is finitely generated and torsion-free. It has rank\n$\\geq n$ since the $\\alpha_i$ are linearly independent, and rank\n$\\leq n$ since it injects into ${\\mathbb{Z}}^n$, so it has rank $n$.",
+  "conclusion": "#P_TheRingOfIntegersOfANumberFieldIsFinitelyGeneratedOvermathbbZ",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfTheRingOfIntegersOfANumberFieldIsFinitelyGeneratedOvermathbbZ"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of the ring of integers of a number field is finitely generated over $\\mathbb{Z}$"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*Mian-Chowla sequence*]{} is a $B_2$ sequence with $a_1 = 1$ and\n$a_n$ for $n > 2$ being the smallest integer such that each pairwise sum\n$a_i + a_j$ is distinct, where $0 < i < (n + 1)$ and likewise for $j$,\nthat is, $1 \\le i \\le j \\le n$. The case $i = j$ is always considered.\n\nAt the beginning, with $a_1$, there is only one pairwise sum, 2. $a_2$\ncan be 2 since the pairwise sums then are 2, 3 and 4. $a_3$ can\u2019t be 3\nbecause then there would be the pairwise sums 1 + 3 = 2 + 2 = 4. Thus\n$a_3 = 4$. The sequence, listed in A005282 of Sloane\u2019s OEIS, continues\n8, 13, 21, 31, 45, 66, 81, 97, 123, 148, 182, 204, 252, 290, 361, 401,\n475, ... If we define $a_1 = 0$, the resulting sequence is the same\nexcept each term is one less.\n\nRachel Lewis noticed that\n$$\\sum_{i = 1}^\\infty \\frac{1}{a_i} \\equiv 2.1585$$, a constant listed\nin Finch\u2019s book.\n\nOne way to calculate the Mian-Chowla sequence in Mathematica is thus:\n\n    a = Table[1, {40}];\n    n = 2;\n    test = 1;\n    While[n < 41,\n          mcFlag = False;\n          While[Not[mcFlag], \n                test++;\n                a[[n]] = test;\n                pairSums = Flatten[Table[a[[i]] + a[[j]], {i, n}, {j, i, n}]];\n                mcFlag = TrueQ[Length[pairSums] == Length[Union[pairSums]]]\n          ];\n          n++\n    ];\n    a\n\n[5]{} S. R. Finch, [*Mathematical Constants*]{}, Cambridge (2003):\nSection 2.20.2 R. K. Guy [*Unsolved Problems in Number Theory*]{}, New\nYork: Springer (2003)",
+  "language": "INFORMAL",
+  "phrase": "Mian-Chowla Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MianChowlaSequence"
+    }
+  ],
+  "indexable": true
+}

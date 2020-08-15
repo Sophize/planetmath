@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $n \\ge m \\in \\mathbb{N}$. Let $a_0, b_0$ be the least non-negative\nresidues of $n,m \\pmod{p}$, respectively. (Additionally, we set $r=n-m$,\nand $r_0$ is the least non-negative residue of $r$ modulo $p$.) Then the\nstatement follows from\n$$\\binom{n}{m} \\equiv \\binom{a_0}{b_0}\\binom{\\left\\lfloor\n\\frac{n}{p}\\right\\rfloor}{\\left\\lfloor\\frac{m}{p}\\right\\rfloor} \\pmod{p}.$$\n\nWe define the \u2019carry indicators\u2019 $c_i$ for all $i \\ge 0$ as\n$$c_i =\\left(\n\\begin{array}{lll}\n1 & \\mbox{if}\n & b_i +r_i \\ge p \\\\\n0 & \\mbox{otherwise}\n\\end{array}\\right.,$$ and additionally $c_{-1} =0$.\n\nThe special case $s=1$ of Anton\u2019s congruence is:\n$${\\left(n!\\right)_p} \\equiv \\left(- 1\\right)^{\\left\\lfloor \\frac{n}{p}\\right\\rfloor}\\cdot\na_0! \\pmod{p},$$ where $a_0$ as defined above, and ${\\left(n!\\right)_p}$\nis the product of numbers $\\le n$ not divisible by $p$. So we have\n$$\\frac{n!}{\\left\\lfloor\n\\frac{n}{p}\\right\\rfloor!p^{\\left\\lfloor\\frac{n}{p}\\right\\rfloor}} ={\\left(n!\\right)_p}\n\\equiv (-1)^{\\left\\lfloor\\frac{n}{p}\\right\\rfloor}\\cdot a_0! \\pmod{p}$$\nWhen dividing by the left-hand terms of the congruences for $m$ and $r$,\nwe see that the power of $p$ is\n$$\\left\\lfloor\\frac{n}{p}\\right\\rfloor -\\left\\lfloor\\frac{m}{p}\\right\\rfloor\n-\\left\\lfloor\\frac{r}{p}\\right\\rfloor =c_0$$ So we get the congruence\n$$\\frac{\\binom{n}{m}}{\\binom{\\left\\lfloor\\frac{n}{p}\\right\\rfloor}{\\left\\lfloor\\frac{m}{p}\\right\\rfloor}\\cdot\np^{c_0}} \\equiv (-1)^{c_0}\\cdot \\binom{a_0}{b_0},$$ or equivalently\n$$\\label{L1}\n\\left(\\frac{-1}{p}\\right)^{c_0}\\cdot \\binom{n}{m} \\equiv\n\\binom{a_0}{b_0}\\binom{\\left\\lfloor\\frac{n}{p}\\right\\rfloor}{\\left\\lfloor\\frac{m}{p}\\right\\rfloor} \\pmod{p}.$$\n\nNow we consider $c_0 =1$. Since $$a_0 =b_0 +r_0 -\\underbrace{pc_0=p},$$\n$b_0 +r_0 < b_0 \\leftrightarrow c_0 =1 \\leftrightarrow b_0 -(p -r_0) =a_0 <b_0\n\\leftrightarrow \\binom{a_0}{b_0}=0 $. So both congruences\u2013the one in the\nstatement and (\\[L1\\])\u2013 produce the same results.",
+  "conclusion": "#P_LucassTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfLucassTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Lucas's theorem"
+  ]
+}

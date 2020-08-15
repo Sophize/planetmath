@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Student's $t$",
+    "t-distribution"
+  ],
+  "definition": "Let $X$ and $Y$ be random variables such that\n\n1.  $X$ and $Y$ are independent\n\n2.  $X\\sim \\operatorname{N}(0,1)$, the standard normal distribution\n    (with mean $0$ and variance $1$)\n\n3.  $Y\\sim \\chi^2(n)$, the chi-square distribution with n degrees of\n    freedom\n\nDefine a new random variable $Z$ by\n$$Z=X/\\Big(\\frac{Y}{n}\\Big)^{\\frac{1}{2}}$$ Then the distribution of $Z$\nis called the *$t$ distribution with $n$ degrees of freedom*, denoted by\n$Z\\sim \\operatorname{t}(n)$.\n\nBy transformation of the random variables $X$ and $Y$, one can show that\nthe probability density function of the $t$ distribution of $Z$ has the\nform:\n$$f_Z(x)=\\frac{1}{\\sqrt{n}\\operatorname{B}(\\frac{n}{2},\\frac{1}{2})}\n\\Big(1+\\frac{x^2}{n}\\Big)^{-\\frac{n+1}{2}},$$ where\n$\\operatorname{B}(\\alpha,\\beta)$ is the beta function.\n\nBelow are graphs of some $t$ probability density functions for various\ndegrees ($d$) of freedom.\n\n![image](tdist)\n\n, , ,\n\n**Remarks**\n\n-   the $t$ distribution is also known as the Student\u2019s $t$\n    distribution. The name Student came from the 19th Century research\n    chemist William Sealy Gossett, who was employed by the brewing\n    company Guinness to improve the yield of crops used to produce its\n    beer. Gossett conducted agricultural experiments and used random\n    numbers to help determine the sampling distribution of the data he\n    collected. Because the brewing company wanted to keep the research\n    results confidential for competitve reasons, Gossett had to use a\n    pen name to publish his findings. Student was his pen name and the\n    distribution he found turned out to be the $t$ distribution.\n\n-   $\\operatorname{t}(1) = \\operatorname{Cauchy}(0,1)$, the Cauchy\n    distribution with parameters $0$ and $1$.\n\n-   $\\operatorname{t}(n)$ is asymptotically (as $n\\rightarrow\\infty$)\n    $\\operatorname{N}(0,1)$, the standard normal distribution with mean\n    $0$ and variance $1$.\n\n-   If $X\\sim  \\operatorname{t}(n)$, $E[|X |^k]$ exists iff $k<n$.\n    Therefore, a $t$ distribution has no mean if it has one degree of\n    freedom. For $n>1$, $\\operatorname{E}[X] = 0$. For $n>2$,\n    $\\operatorname{Var}[X] = \\frac{n}{n-2}$.\n\n-   If $X_1,\\ldots,X_n$ are random samples from a normal distribution\n    with mean $\\mu$ and variance $\\sigma^2$. Let $\\hat{\\mu}$ be the\n    sample mean and $\\hat{\\sigma}^2$ the sample variance, then\n    $$U=\\frac{\\hat{\\mu}-\\mu}{\\hat{\\sigma}/\\sqrt{n}}\\sim \\operatorname{t}(n-1)$$\n    Please note that the statistic $U$ does not depend on $\\sigma^2$,\n    and thus is used often in testing hypotheses involving comparison of\n    the sample mean to the true mean, given a set of random samples that\n    are normally distributed with an unknown mean and an unknown\n    variance. This is an example of a $t$ test.",
+  "language": "INFORMAL",
+  "phrase": "T Distribution",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TDistribution"
+    }
+  ],
+  "indexable": true
+}

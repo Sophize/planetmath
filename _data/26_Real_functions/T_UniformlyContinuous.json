@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f: A \\rightarrow \\mathbb{R}$ be a real function defined on a subset\n$A$ of the real line. We say that $f$ is *uniformly continuous* if,\ngiven an arbitrary small positive $\\varepsilon$, there exists a positive\n$\\delta$ such that whenever two points in $A$ differ by less than\n$\\delta$, they are mapped by $f$ into points which differ by less than\n$\\varepsilon$. In symbols:\n$$\\forall \\varepsilon > 0\\ \\exists \\delta > 0\\ \\forall x,y \\in A\\ |x-y| < \\delta \\Rightarrow |f(x)-f(y)| < \\varepsilon.$$\n\nEvery uniformly continuous function is also continuous, while the\nconverse does not always hold. For instance, the function\n$f: ]0,+\\infty[ \\rightarrow \\mathbb{R}$ defined by $f(x) = 1/x$ is\ncontinuous in its domain, but not uniformly.\n\nA more general definition of uniform continuity applies to functions\nbetween metric spaces (there are even more general environments for\nuniformly continuous functions, i.e. uniform spaces). Given a function\n$f: X \\rightarrow Y$, where $X$ and $Y$ are metric spaces with distances\n$d_X$ and $d_Y$, we say that $f$ is uniformly continuous if\n$$\\forall \\varepsilon > 0\\ \\exists \\delta > 0\\ \\forall x,y \\in X\\ d_X(x,y) < \\delta \\Rightarrow d_Y(f(x),f(y)) < \\varepsilon.$$\n\nUniformly continuous functions have the property that they map Cauchy\nsequences to Cauchy sequences and that they preserve uniform convergence\nof sequences of functions.\n\nAny continuous function defined on a compact space is uniformly\ncontinuous (see Heine-Cantor theorem).",
+  "language": "INFORMAL",
+  "phrase": "Uniformly Continuous",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformlyContinuous"
+    }
+  ],
+  "indexable": true
+}

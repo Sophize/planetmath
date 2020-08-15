@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In computability theory, a set $A\\subseteq\\omega$ is called an *index\nset* if for all $x, y$,\n\n$$x\\in A, \\varphi_x=\\varphi_y \\Longrightarrow y\\in A.$$\n\n$\\varphi_x$ stands for the partial function with G\u00f6del number (or index)\n$x$.\n\nThus, if $A$ is an index set and $\\varphi_x=\\varphi_y$, then either\n$x, y\\in A$ or $x, y\\not\\in A$. Intuitively, if $A$ contains the G\u00f6del\nindex $x$ of a partial function $\\varphi$, then $A$ contains all indices\nfor the partial function. (Recall that there are $\\aleph_0$ G\u00f6del\nnumbers for each partial function.)\n\nIt is instructive to compare the notion of an index set in computability\ntheory with that of an *indexing* set.",
+  "language": "INFORMAL",
+  "phrase": "Index Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndexSet"
+    }
+  ],
+  "indexable": true
+}

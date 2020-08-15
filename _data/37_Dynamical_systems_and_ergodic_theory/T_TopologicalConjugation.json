@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ and $Y$ be topological spaces, and let $f\\colon X\\to X$ and\n$g\\colon Y\\to Y$ be continuous functions. We say that $f$ is\n*topologically semiconjugate* to $g$, if there exists a continuous\nsurjection $h\\colon Y\\to X$ such that $fh=hg$. If $h$ is a\nhomeomorphism, then we say that $f$ and $g$ are *topologically\nconjugate*, and we call $h$ a *topological conjugation* between $f$ and\n$g$.\n\nSimilarly, a flow $\\varphi$ on $X$ is topologically semiconjugate to a\nflow $\\psi$ on $Y$ if there is a continuous surjection $h\\colon Y\\to X$\nsuch that $\\varphi(h(y),t) = h\\psi(y,t)$ for each $y\\in Y$,\n$t\\in {\\mathbb{R}}$. If $h$ is a homeomorphism then $\\psi$ and $\\varphi$\nare topologically conjugate.\n\nRemarks\n-------\n\nTopological conjugation defines an equivalence relation in the space of\nall continuous surjections of a topological space to itself, by\ndeclaring $f$ and $g$ to be related if they are topologically conjugate.\nThis equivalence relation is very useful in the theory of dynamical\nsystems, since each class contains all functions which share the same\ndynamics from the topological viewpoint. In fact, orbits of $g$ are\nmapped to homeomorphic orbits of $f$ through the conjugation. Writing\n$g = h^{-1}fh$ makes this fact evident: $g^n = h^{-1}f^nh$. Speaking\ninformally, topological conjugation is a \u201cchange of coordinates\u201d in the\ntopological sense.\n\nHowever, the analogous definition for flows is somewhat restrictive. In\nfact, we are requiring the maps $\\varphi(\\cdot,t)$ and $\\psi(\\cdot,t)$\nto be topologically conjugate for each $t$, which is requiring more than\nsimply that orbits of $\\varphi$ be mapped to orbits of $\\psi$\nhomeomorphically. This motivates the definition of *topological\nequivalence*, which also partitions the set of all flows in $X$ into\nclasses of flows sharing the same dynamics, again from the topological\nviewpoint.\n\nWe say that $\\psi$ and $\\varphi$ are *topologically equivalent*, if\nthere is an homeomorphism $h:Y\\to X$, mapping orbits of $\\psi$ to orbits\nof $\\varphi$ homeomorphically, and preserving orientation of the orbits.\nThis means that:\n\n1.  $h(\\mathcal{O}(y,\\psi)) = \\{h(\\psi(y,t)): t\\in{\\mathbb{R}}\\} = \\{\\varphi(h(y),t):t\\in{\\mathbb{R}}\\}= \\mathcal{O}(h(y),\\varphi)$\n    for each $y\\in Y$;\n\n2.  for each $y\\in Y$, there is $\\delta>0$ such that, if\n    $0<|s|< t < \\delta$, and if $s$ is such that\n    $\\varphi(h(y),s) = h(\\psi(y,t))$, then $s>0$.",
+  "language": "INFORMAL",
+  "phrase": "Topological Conjugation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TopologicalConjugation"
+    }
+  ],
+  "indexable": true
+}

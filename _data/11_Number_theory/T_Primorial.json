@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*primorial*]{} of $n$, or $n\\#$, is the product of the first $n$\nconsecutive primes, thus:\n\n$$\\prod_{i = 1}^n p_i$$\n\n($p_i$ is the $i$th prime number).\n\nThe first few primorials are 2, 6, 30, 210, 2310, 30030, 510510,\n9699690, 223092870, 6469693230, 200560490130; these are listed in\nA002110 of Sloane\u2019s OEIS. Sometimes the notation $n\\#$ is used to refer\nto the product of all primes $p < \\pi(n)$, where $\\pi$ is the prime\ncounting function (so then $4\\# = 6$ rather than 210).\n\nPrimorials are used in the classic proof that there are infinitely many\nprimes: assuming that there are exactly $n$ primes and no more,\n$n\\# + 1$ is a number that is not divisible by any of the existing\nprimes, but if that is a prime then it contradicts the initial\nassumption.\n\nIf, in reckoning the sieve of Eratosthenes, one strikes out again\nnumbers that have already been struck off, the sequence of the smallest\nnumber struck off $n$ times is precisely the sequence of the primorials.\n\nAny highly composite number (with the exception of 1) can be expressed\nas a product of primorials in at least one way.",
+  "language": "INFORMAL",
+  "phrase": "Primorial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Primorial"
+    }
+  ],
+  "indexable": true
+}

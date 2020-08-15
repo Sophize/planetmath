@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} [@eves] Let $p:\\mathbb{C}\\to\\mathbb{C}$ be a\npolynomial of degree $n$ with complex (or real) coefficients. Then $p$\nis a *reciprocal polynomial* if $$p(z) = \\pm z^n p(1/z)$$ for all\n$z\\in \\mathbb{C}$.\n\nExamples of reciprocal polynomials are Gaussian polynomials, as well as\nthe characteristic polynomials of orthogonal matrices (including the\nidentity matrix as a special case), symplectic matrices, , and the\nPascal matrices [@higham].\n\nIt is clear that if $z$ is a zero for a reciprocal polynomial, then\n$1/z$ is also a zero. This property motivates the name. This means that\nthe spectra of matrices of above type is symmetric with respect to the\nunit circle in $\\mathbb{C}$; if $\\lambda\\in \\mathbb{C}$ is an\neigenvalue, so is $1/\\lambda$.\n\nThe sum, difference, and product of two reciprocal polynomials is again\na reciprocal polynomial. Hence, reciprocal polynomials form an algebra\nover the complex numbers.\n\n[9]{} H. Eves, *Elementary Matrix Theory*, Dover publications, 1980.\nN.J. Higham, *Accuracy and Stability of Numerical Algorithms*, 2nd ed.,\nSIAM, 2002.",
+  "language": "INFORMAL",
+  "phrase": "Reciprocal Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ReciprocalPolynomial"
+    }
+  ],
+  "indexable": true
+}

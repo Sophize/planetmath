@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Two topological spaces $X$ and $Y$ are if there is a Borel measurable\nfunction $f\\colon X\\rightarrow Y$ with Borel inverse. Such a function is\nsaid to be a Borel isomorphism. The following result classifies all\nPolish spaces up to Borel isomorphism.\n\nEvery uncountable Polish space is Borel isomorphic to $\\mathbb{R}$ with\nthe standard topology.\n\nAs the Borel $\\sigma$-algebra on any countable metric space is just its\npower set, this shows that every Polish space is Borel isomorphic to one\nand only one of the following.\n\n1.  $\\left\\{1,2,\\ldots,n\\right\\}$ for some $n\\ge 0$, with the discrete\n    topology.\n\n2.  $\\mathbb{N}=\\left\\{1,2,\\ldots\\right\\}$ with the discrete topology.\n\n3.  $\\mathbb{R}$ with the standard topology.\n\nIn particular, two Polish spaces are Borel isomorphic if and only if\nthey have the same cardinality, and any uncountable Polish space has the\ncardinality of the continuum.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolishSpacesUpToBorelIsomorphism"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Polish spaces up to Borel isomorphism"
+  ]
+}

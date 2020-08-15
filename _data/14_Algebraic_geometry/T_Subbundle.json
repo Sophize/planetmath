@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "sub-bundle",
+    "vector sub-bundle",
+    "vector subbundle",
+    "sub-vector bundle",
+    "sub vector bundle"
+  ],
+  "definition": "Given a vector bundle $\\pi \\!:\\! \\mathcal E \\rightarrow M$, a subbundle\n$\\mathcal E^\\prime$ is a subset of the total space,\n$\\mathcal E^\\prime \\subset \\mathcal E$, so that\n$$\\pi\\vert_{\\mathcal E^\\prime}\\!:\\! \\mathcal E^\\prime \\rightarrow M$$ is\na vector bundle, and for each point $p\\in M$, the fibre at $p$\n$${\\pi\\vert_{\\mathcal E^{\\prime}}}^{-1}(p) = \\mathcal E^\\prime_p$$ is a\nvector subspace of $\\mathcal E_p = \\pi^{-1}(p)$",
+  "language": "INFORMAL",
+  "phrase": "Subbundle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Subbundle"
+    }
+  ],
+  "indexable": true
+}

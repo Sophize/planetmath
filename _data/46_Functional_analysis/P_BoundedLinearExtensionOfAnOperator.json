@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Bounded Linear Extension\n------------------------\n\nLet $X$ and $Y$ be normed vector spaces and denote by $\\widetilde{X}$\nand $\\widetilde{Y}$ their completions.\n\n$\\,$\n\n[**Theorem 1 -**]{} Every bounded linear operator\n$T:X \\longrightarrow Y$ can be extended to a bounded linear operator\n$\\widetilde{T} : \\widetilde{X} \\longrightarrow \\widetilde{Y}$. Moreover,\nthis extension is unique and $\\|T\\| = \\|\\widetilde{T}\\|$.\n\n$\\,$\n\nIn particular, if $Y$ is a Banach space and $S \\subseteq X$ is a (not\nnecessarily ) subspace of $X$, an operator $T:S \\longrightarrow Y$ has\nan extension $\\widetilde{T} : \\overline{S} \\longrightarrow Y$ to\n$\\overline{S}$ (the of $S$), which is unique and such that\n$\\|T\\|= \\|\\widetilde{T}\\|$.\n\nFunctorial Property of the Extension\n------------------------------------\n\nThe extension of bounded linear operators between two normed vector\nspaces to their completions is functorial. More precisely, let\n$\\mathbf{NVec}$ be the category of normed vector spaces (whose are the\nbounded linear operators) and $\\mathbf{Ban}$ the categroy of Banach\nspaces (whose are also the bounded linear operators). We have that\n\n$\\,$\n\n[**Theorem 2 -**]{} The completion\n$\\,\\widetilde{\\,} : \\mathbf{NVec} \\longrightarrow \\mathbf{Ban}$, which\nassociates each normed vector space $X$ with its completion\n$\\widetilde{X}$ and each bounded linear operator $T$ with its extension\n$\\widetilde{T}$, is a covariant functor.\n\n$\\,$\n\nThis, in particular, implies that\n$\\widetilde{T_1T_2} = \\widetilde{T_1}\\widetilde{T_2}$.\n\nExtensions in Spaces with Additional Structure\n----------------------------------------------\n\nWhen the normed vector spaces $X$ and $Y$ have some additional structure\n(for example, when $X$ and $Y$ are normed algebras) it is interesting to\nknow if the (unique) extension of a morphism $T:X \\longrightarrow Y$\npreserves the additional structure. The following theorem states that\nthis indeed the case for normed algebras or normed \\*-algebras.\n\n$\\,$\n\n[**Theorem 3 -**]{} If $X$ and $Y$ be normed vector spaces that are also\nnormed algebras (normed \\*-algebras) and $T:X \\longrightarrow Y$ is a\nbounded homomorphism (bounded \\*-homomorphism), then the unique bounded\nlinear extension $\\widetilde{T}$ of $T$ is also an homomorphism\n(\\*-homomorphism).\n\n$\\,$\n\nThus, completion is also a covariant functor from the category of normed\nalgebras (normed \\*-algebras) to category of Banach algebras (Banach\n\\*-algebras).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundedLinearExtensionOfAnOperator"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "bounded linear extension of an operator",
+    "continuous extension of an operator"
+  ]
+}

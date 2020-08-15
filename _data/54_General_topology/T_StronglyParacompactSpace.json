@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "strongly paracompact topological space"
+  ],
+  "definition": "A collection $\\mathcal{A}$ of sets is said to be *star-finite* if each\nmember of $\\mathcal{A}$ meets only finitely many members of\n$\\mathcal{A}$.\n\nA topological space $X$ is said to be *strongly paracompact* if every\nopen cover of $X$ has a star-finite open refinement.\n\nA star-finite open cover of a topological space is clearly locally\nfinite. Therefore, every strongly paracompact space is paracompact (as\nthe name suggests).",
+  "language": "INFORMAL",
+  "phrase": "Strongly Paracompact Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StronglyParacompactSpace"
+    }
+  ],
+  "indexable": true
+}

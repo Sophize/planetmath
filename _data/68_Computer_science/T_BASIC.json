@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Beginner's All-purpose Symbolic Instruction Code"
+  ],
+  "definition": "[*BASIC*]{} (an acronym for [*Beginner\u2019s All-purpose Symbolic\nInstruction Code*]{}) is a computer procedure-oriented programming\nlanguage designed by John Kemeny and Thomas Kurtz in the 1960s to be\neasily learned by anyone. Over the years, various companies made their\nown proprietary versions and included them in their computers (and Texas\nInstruments made their own version, TI-BASIC, which is included in some\nof their calculators). Microsoft\u2019s Visual Basic is the programming\nlanguage of choice for in-house programming at small businesses. But in\nmathematics and physics, BASIC is little used outside of the classroom.\n\nThe following BASIC program takes two integers as inputs and outputs\ntheir greatest common divisor using Euclid\u2019s algorithm:\n\n    100 REM Program Greatest Common Divisor Using Euclidean algorithm\n    110 INPUT \"Please enter a positive integer A\"; A\n    115 INPUT \"Please enter a positive integer B\"; B\n    120 WHILE B > 0\n    121 TEMPA = B\n    122 A = B\n    123 B = TEMPA MOD B\n    124 WEND\n    130 PRINT \"The GCD is \"; A\n    140 END",
+  "language": "INFORMAL",
+  "phrase": "Basic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BASIC"
+    }
+  ],
+  "indexable": true
+}

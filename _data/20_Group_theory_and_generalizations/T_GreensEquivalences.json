@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Green's relations"
+  ],
+  "definition": "Let $S$ be a semigroup. Green\u2019s equivalences are five on $S$:\n$\\mathcal{L, R, H, D, J}$\n\nFor all $x,y\\in S$,\\\n$x\\mathcal{L}y$ if $S^1x=S^1y$, i.e. $sx=y, ty=x$ for some $s,t\\in S^1$\\\n$x\\mathcal{R}y$ if $xS^1=yS^1$, i.e. $xs=y, yt=x$ for some $s,t\\in S^1$\n\n$x\\mathcal{J}y$ if $S^1xS^1=S^1yS^1$, i.e. $sxt=y, uyv=x$ for some\n$s,t,u,v\\in S^1$\n\n$x\\mathcal{H}y$ if $x\\mathcal{L}y$ and $x\\mathcal{R}y$, i.e.\n$\\mathcal{H=L\\cap R}$\\\n$x\\mathcal{D}y$ if $\\exists z\\in S$ such that $x\\mathcal{L}z$ and\n$z\\mathcal{R}y$, i.e. $\\mathcal{D=L\\circ R}$\n\nIt is clear that\n$\\mathcal{H}\\subseteq\\mathcal{L},\\mathcal{H}\\subseteq\\mathcal{R},\\mathcal{L}\\subseteq\\mathcal{D},\\mathcal{R}\\subseteq\\mathcal{D},\\mathcal{D}\\subseteq\\mathcal{J}$\n\nThese play a fundamental role in understanding the of semigroups.",
+  "language": "INFORMAL",
+  "phrase": "Green'S Equivalences",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GreensEquivalences"
+    }
+  ],
+  "indexable": true
+}

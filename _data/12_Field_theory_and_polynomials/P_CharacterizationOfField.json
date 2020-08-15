@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathcal{R}\\neq 0$ be a commutative ring with identity. The ring\n$\\mathcal{R}$ (as above) is a field if and only if $\\mathcal{R}$ has\nexactly two ideals: $(0),\\mathcal{R}$.\n\n[**($\\Rightarrow$)**]{} Suppose $\\mathcal{R}$ is a field and let\n$\\mathcal{A}$ be a non-zero ideal of $\\mathcal{R}$. Then there exists\n$r\\in \\mathcal{A}\\subseteq \\mathcal{R}$ with $r\\neq 0$. Since\n$\\mathcal{R}$ is a field and $r$ is a non-zero element, there exists\n$s\\in \\mathcal{R}$ such that $$s\\cdot r =1 \\in \\mathcal{R}$$ Moreover,\n$\\mathcal{A}$ is an ideal, $r\\in \\mathcal{A}, s\\in\n\\mathcal{S}$, so $s\\cdot r =1 \\in \\mathcal{A}$. Hence\n$\\mathcal{A}=\\mathcal{R}$. We have proved that the only ideals of\n$\\mathcal{R}$ are $(0)$ and $\\mathcal{R}$ as desired.\n\n[**($\\Leftarrow$)**]{} Suppose the ring $\\mathcal{R}$ has only two\nideals, namely $(0),\\mathcal{R}$. Let $a\\in \\mathcal{R}$ be a non-zero\nelement; we would like to prove the existence of a multiplicative\ninverse for $a$ in $\\mathcal{R}$. Define the following set:\n$$\\mathcal{A}=(a)=\\{r\\in\\mathcal{R} \\mid r=s\\cdot a, \\text{ for\nsome } s\\in\\mathcal{R}\\}$$ This is clearly an ideal, the ideal generated\nby the element $a$. Moreover, this ideal is not the zero ideal because\n$a\\in \\mathcal{A}$ and $a$ was assumed to be non-zero. Thus, since there\nare only two ideals, we conclude $\\mathcal{A}=\\mathcal{R}$. Therefore\n$1\\in\n\\mathcal{A}=\\mathcal{R}$ so there exists an element $s\\in\n\\mathcal{R}$ such that $$s\\cdot a=1 \\in \\mathcal{R}$$ Hence for all\nnon-zero $a\\in \\mathcal{R}$, $a$ has a multiplicative inverse in\n$\\mathcal{R}$, so $\\mathcal{R}$ is, in fact, a field.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacterizationOfField"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "characterization of field",
+    "a field only has two ideals"
+  ]
+}

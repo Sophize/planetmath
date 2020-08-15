@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The following problem is a *linear ordinary differential equation*:\n\nLet $A\\colon I \\to {\\mathbbmss{C}}^{n\\times n}$ be a known matrix. Find\na matrix $x\\colon I \\to {\\mathbbmss{C}}^{n\\times n}$ (or vector\n$x\\colon I \\to {\\mathbbmss{C}}^n$) such that $$\\begin{aligned}\n  x'&=& Ax,\\\\\n  x(0)&=& x_0,\\end{aligned}$$ where $x_0$ is a known initial value.",
+  "language": "INFORMAL",
+  "phrase": "Linear Ordinary Differential Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearOrdinaryDifferentialEquation"
+    }
+  ],
+  "indexable": true
+}

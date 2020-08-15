@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "super algebra"
+  ],
+  "definition": "A graded algebra $A$ is said to be a **superalgebra** if it has a\n${\\mathbb{Z}}/2{\\mathbb{Z}}$ grading. As a vector space, a superalgebra\nhas a decomposition into two homogeneous subspaces, $A = A_0\\oplus A_1$.\nThe homogeneous subspace $A_0$ is known as the space of **even**\nelements of $A$, and $A_1$ is known as the space of **odd** elements.\nLet $|a|$ denote the degree of a homogeneous element. That is, $|a| = 0$\nif $a \\in A_0$ and $|a| = 1$ if $a \\in A_1$. The degree satisfies\n$|ab| = |a| + |b|$.",
+  "language": "INFORMAL",
+  "phrase": "Superalgebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Superalgebra"
+    }
+  ],
+  "indexable": true
+}

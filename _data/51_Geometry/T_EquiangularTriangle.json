@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *equiangular triangle* is one for which all three interior angles are\ncongruent.\n\n(-0.2,-0.2)(5.2,5.2) (0,0)(5,0)(2.5,4.33) (2.5,4.5)[$A$]{}\n(0,-0.2)[$B$]{} (5,-0.2)[$C$]{} (0,0)[0.5]{}[0]{}[60]{}\n(5,0)[0.5]{}[120]{}[180]{} (2.5,4.33)[0.5]{}[240]{}[300]{}\n\nBy the theorem at determining from angles that a triangle is isosceles,\nwe can conclude that, in any geometry in which ASA holds, an equilateral\ntriangle is . In any geometry in which ASA, SAS, SSS, and AAS all hold,\nthe isosceles triangle theorem yields that the bisector of any angle of\nan equiangular triangle coincides with the height, the median and the\nperpendicular bisector of the opposite side.\n\nThe following statements hold in Euclidean geometry for an equiangular\ntriangle.\n\n-   The triangle is determined by specifying one side.\n\n-   If $r$ is the length of the side, then the height is equal to\n    $\\displaystyle \\frac{r\\sqrt{3}}{2}$.\n\n-   If $r$ is the length of the side, then the area is equal to\n    $\\displaystyle \\frac{r^2\\sqrt{3}}{4}$.",
+  "language": "INFORMAL",
+  "phrase": "Equiangular Triangle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquiangularTriangle"
+    }
+  ],
+  "indexable": true
+}

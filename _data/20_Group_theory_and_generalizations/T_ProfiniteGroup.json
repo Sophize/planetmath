@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "profinite"
+  ],
+  "definition": "Definition\n==========\n\nA topological group $G$ is *profinite* if it is isomorphic to the\ninverse limit of some projective system of finite groups. In other\nwords, $G$ is profinite if there exists a directed set $I$, a collection\nof finite groups $\\{H_i\\}_{i \\in I}$, and homomorphisms\n$\\alpha_{ij}\\colon H_j \\to H_i$ for each pair $i,j \\in I$ with\n$i \\leq j$, satisfying\n\n1.  $\\alpha_{ii} = 1$ for all $i \\in I$,\n\n2.  $\\alpha_{ij} \\circ \\alpha_{jk} = \\alpha_{ik}$ for all $i,j,k \\in I$\n    with $i \\leq j \\leq k$,\n\nwith the property that:\n\n-   $G$ is isomorphic as a group to the projective limit\n    $${\\,\\underset{\\longleftarrow}{\\lim}\\,}H_i := \\left\\{\\left.(h_i) \\in \\prod_{i \\in I} H_i\\ \\right|\\ \\alpha_{ij}(h_j) = h_i\\ \\text{ for all }\\ i \\leq j\\right\\}$$\n    under componentwise multiplication.\n\n-   The isomorphism from $G$ to\n    ${\\,\\underset{\\longleftarrow}{\\lim}\\,}H_i$ (considered as a subspace\n    of $\\prod H_i$) is a homeomorphism of topological spaces, where each\n    $H_i$ is given the discrete topology and $\\prod H_i$ is given the\n    product topology.\n\nThe topology on a profinite group is called the [*profinite\ntopology*]{}.\n\nProperties\n==========\n\nOne can show that a topological group is profinite if and only if it is\ncompact and totally disconnected. Moreover, every profinite group is\nresidually finite.",
+  "language": "INFORMAL",
+  "phrase": "Profinite Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProfiniteGroup"
+    }
+  ],
+  "indexable": true
+}

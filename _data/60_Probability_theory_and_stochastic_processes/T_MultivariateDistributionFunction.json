@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A function $F:\\mathbb{R}^n\\to [0,1]$ is said to be a *multivariate\ndistribution function* if\n\n1.  $F$ is non-decreasing in each of its arguments; i.e., for any\n    $1\\le i\\le n$, the function $G_i:\\mathbb{R}\\to [0,1]$ given by\n    $G_i(x):=F(a_1,\\ldots,a_{i-1},x,a_{i+1},\\ldots,a_n)$ is\n    non-decreasing for any set of $a_j\\in \\mathbb{R}$ such that\n    $j\\ne i$.\n\n2.  $G_i(-\\infty)=0$, where $G_i$ is defined as above; i.e., the limit\n    of $G_i$ as $x\\to -\\infty$ is $0$\n\n3.  $F(\\infty,\\ldots,\\infty)=1$; i.e. the limit of $F$ as each of its\n    arguments approaches infinity, is 1.\n\nGenerally, right-continuty of $F$ in each of its arguments is added as\none of the conditions, but it is not assumed here.\n\nIf, in the second condition above, we set $a_j=\\infty$ for $j\\ne i$,\nthen $G_i(x)$ is called a (one-dimensional) *margin* of $F$. Similarly,\none defines an $m$-dimensional ($m<n$) *margin* of $F$ by setting $n-m$\nof the arguments in $F$ to $\\infty$. For each $m<n$, there are\n$\\binom{n}{m}$ $m$-dimensional margins of $F$. Each $m$-dimensional\nmargin of a multivariate distribution function is itself a multivariate\ndistribution function. A one-dimensional margin is a distribution\nfunction.\n\nMultivariate distribution functions are typically found in probability\ntheory, and especially in statistics. An example of a commonly used\nmultivariate distribution function is the multivariate Gaussian\ndistribution function. In $\\mathbb{R}^2$, the standard bivariate\nGaussian distribution function (with zero mean vector, and the identity\nmatrix as its covariance matrix) is given by\n$$F(x,y)=\\frac{1}{2\\pi}\\int_{-\\infty}^x \\int_{-\\infty}^y \\operatorname{exp}\\big({-\\frac{s^2+t^2}{2}}\\big) ds dt$$\n\nB. Schweizer and A. Sklar have generalized the above definition to\ninclude a wider class of functions. The generalization has to do with\nthe weakening of the coordinate-wise non-decreasing condition (first\ncondition above). The attempt here is to study a class of functions that\ncan be used as models for distributions of distances between points in a\n\u201cprobabilistic metric space\u201d.\n\n[8]{} B. Schweizer and A. Sklar, [*Probabilistic Metric Spaces*]{},\nDover Publications, (2005).",
+  "language": "INFORMAL",
+  "phrase": "Multivariate Distribution Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultivariateDistributionFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *group scheme* is a group object in the category of schemes.\nSimilarly, if $S$ is a scheme, a *group scheme over $S$* is a group\nobject in the category of schemes over $S$.\n\nAs usual with schemes, the points of a group scheme are not the whole\nstory. For example, a group scheme may have only one point over its\nfield of definition and yet not be trivial. The points of the underlying\ntopological space do not form a group under the obvious choice for a\ngroup law.\n\nWe can view a group scheme $G$ as a \u201cgroup machine\u201d: given a ring $R$,\nthe set of $R$-points of $G$ forms a group. If $S$ is a scheme that is\nnot affine, we can nevertheless interpret $G$ as a family of groups\nfibred over $S$.",
+  "language": "INFORMAL",
+  "phrase": "Group Scheme",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupScheme"
+    }
+  ],
+  "indexable": true
+}

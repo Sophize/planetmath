@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *infimum* of a set $S$ is the greatest lower bound of $S$ and is\ndenoted $\\inf(S)$.\n\nLet $A$ be a set with a partial order $\\leq$, and let $S \\subseteq A$.\nFor any $x \\in A$, $x$ is a lower bound of $S$ if $x \\leq y$ for any\n$y \\in S$. The infimum of $S$, denoted $\\inf(S)$, is the greatest such\nlower bound; that is, if $b$ is a lower bound of $S$, then\n$b \\leq \\inf(S)$.\n\nNote that it is not necessarily the case that $\\inf(S) \\in S$. Suppose\n$S = (0, 1)$; then $\\inf(S) = 0$, but $0 \\not\\in S$.\n\nAlso note that a set does not necessarily have an infimum. See the\nattachments to this entry for examples.",
+  "language": "INFORMAL",
+  "phrase": "Infimum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Infimum"
+    }
+  ],
+  "indexable": true
+}

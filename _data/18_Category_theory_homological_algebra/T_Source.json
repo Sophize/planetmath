@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In the whole entry we suppose we are given a category ${\\mathbf{A}}$. By\nan object we always mean an object in ${\\mathbf{A}}$ and by a morphisms\nan ${\\mathbf{A}}$-morphism.\n\nA *source* in a category ${\\mathbf{A}}$ is a pair $(A,(f_i)_{i\\in I})$\nwhere $A$ is an object and ${f_i:A\\toA_i}$ are morphisms indexed by a\nclass $I$.\n\nThe object $A$ is called the *domain of the source* and the family\n$(A_i)_{i\\in I}$ is called the codomain of the source.\n\nA *sink* is a pair $((f_i)_{i\\in I},A)$ where $A$ is an object and\n${f_i:A_i\\toA}$ are morphisms.\n\nSources can be composed with morphisms. If\n$\\mathcal S=(A,(f_i)_{i\\in I}$ is a source and ${f:B\\toA}$ is a\nmorphism, we use the notation\n$(B,(f_i\\circ f)_{i\\in I})=\\mathcal S\\circ f$. Similarly, for sinks, we\nuse the notation $f\\circ\\mathcal S=((f\\circ f_i)_{i\\in I},B)$ if\n$\\mathcal S=((f_i)_{i\\in I}, A)$ is a sink and ${f:A\\toB}$ is a\nmorphism.\n\nA source $\\mathcal S=(A,(f_i)_{i\\in I})$ is called a *monosource* if for\nany pair ${r,s:B\\toA}$ of morphisms from the equality\n$\\mathcal S\\circ r=\\mathcal S\\circ s$ follows $r=s$.\n\nA sink $\\mathcal S=((f_i)_{i\\in I},A)$ is called an *episink* if for any\npair ${r,s:A\\toB}$ of morphisms $r=s$ whenever\n$r\\circ\\mathcal S=s\\circ\\mathcal S$.\n\nA monosource ${\\mathcal}S$ is called *extremal monosource*, if the\nfollowing holds: Whenever $\\mathcal S=\\overline{\\mathcal S}\\circ e$ for\nan epimorphism $e$, then $e$ is an isomorphism.\n\nAn episink ${\\mathcal}S$ is called *extremal episink* if the following\nholds: Whenever $\\mathcal S=m\\circ\\overline{\\mathcal S}$ pre for a\nmonomorphism $m$, tak $m$ is an isomorphism.\n\nEvery limit is an extremal monosource, a colimit is an extremal episink.\n\n[1]{}\n\nJ.\u00a0Ad\u00e1mek, H.\u00a0Herrlich, and G.\u00a0Strecker. . Wiley, New York, 1990.",
+  "language": "INFORMAL",
+  "phrase": "Source",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Source"
+    }
+  ],
+  "indexable": true
+}

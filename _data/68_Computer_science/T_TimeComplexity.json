@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Time Complexity\n===============\n\n*Time complexity* refers to a function describing how much time it will\ntake an algorithm to execute, based on the parameters of its input. The\nexact value of this function is usually ignored in favour of its order,\nexpressed in the so-called Big-O notation (this is based on the limit of\nthe time complexity function as the values of its parameters increase\nwithout bound.)\n\n*Complexity classes* are equivalence classes of time complexities which\nare \u201cequal\u201d in Big-O notation. Further, there are meta-complexity\nclasses[^1] of time complexities which have Big-O expressions that\ndiffer only by some specific parameter. For instance, $O(n^2)$ and\n$O(n^3)$ are both *polynomial time* complexity classes, similarly\n$O(2^n)$ and $O(3^n)$ are *exponential time* complexity classes.\n\nExample\n=======\n\nAll comparison-based sorting has time complexity no better than\n$O(n \\log n)$, where $n$ is the number of elements to be sorted. The\nexact expression for time complexity of a particular sorting algorithm\nmay be something like $T(n)= a n \\log  n + b$, with $a$ and $b$\nconstants, which still is order $O(n \\log n)$.\n\n[^1]: This term has been invented for use in this entry.",
+  "language": "INFORMAL",
+  "phrase": "Time Complexity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TimeComplexity"
+    }
+  ],
+  "indexable": true
+}

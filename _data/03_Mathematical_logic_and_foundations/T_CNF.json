@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "conjunctive normal form"
+  ],
+  "definition": "A propositional formula is a CNF formula, meaning Conjunctive Normal\nForm, if it is a conjunction of disjunction of literals (a literal is a\npropositional variable or its negation). Hence, a CNF is a formula of\nthe form: $K_1 \\wedge K_2 \\wedge \\ldots \\wedge K_n$, where each $K_i$ is\nof the form $l_{i1} \\vee l_{i2} \\vee \\ldots \\vee l_{im}$ for literals\n$l_{ij}$ and some $m$ (which can vary for each $K_i$).\n\nExample:\n$(x\\vee y \\vee \\neg z) \\wedge (y\\vee  \\neg w \\vee \\neg u) \\wedge (x\\vee v)$.",
+  "language": "INFORMAL",
+  "phrase": "Cnf",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CNF"
+    }
+  ],
+  "indexable": true
+}

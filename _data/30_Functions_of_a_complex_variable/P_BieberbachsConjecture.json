@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem is known as the Bieberbach conjecture, even though\nit has now been proven. Bieberbach proposed it in 1916 and it was\nfinally proven in 1984 by Louis de Branges.\n\nFirstly note that if $f \\colon {\\mathbb{D}} \\to {\\mathbb{C}}$ is a\nschlicht function (univalent, $f(0) = 0$ and $f'(0) = 1$) then $f$ has a\npower series representation as\n$$f(z) = z + a_2 z^2 + a_3 z^3 + \\cdots = z + \\sum_{k=2}^\\infty a_k z^k .$$\n\nSuppose that $f$ is a schlicht function, then $\\lvert a_k \\rvert \\leq k$\nfor all $k \\geq 2$ and furthermore if there is some integer $k$ such\nthat $\\lvert a_k \\rvert = k$, then $f$ is some rotation of the Koebe\nfunction.\n\nIn fact if $f$ is a rotation of the Koebe function then\n$\\lvert a_k \\rvert = k$ for all $k$.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1995.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BieberbachsConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Bieberbach's conjecture",
+    "Bieberbach conjecture"
+  ]
+}

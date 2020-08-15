@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $C/K$ be a curve defined over the field $K$, and $D$ a divisor for\nthat curve. We define the *space of functions associated to a divisor*\nby\n\n$$\\begin{aligned}\n\\mathcal{L}(D)=\\{f\\in {\\overline}{K}(C)^*:\\text{div}(f)\\geq -D\\}\\cup\\{0\\},\\end{aligned}$$\n\nwhere ${\\overline}{K}(C)^*$ denotes the dual to the function field of\n$C$.\n\nFor any $D$, ${\\mathcal}{L}(D)$ is a finite-dimensional vector space\nover ${\\overline}{K}$, the algebraic closure of $K$, and we denote its\ndimension by $\\ell(D)$, a somewhat ubiquitous number that, for example,\nappears in the Riemann-Roch theorem for curves.",
+  "language": "INFORMAL",
+  "phrase": "Space Of Functions Associated To A Divisor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpaceOfFunctionsAssociatedToADivisor"
+    }
+  ],
+  "indexable": true
+}

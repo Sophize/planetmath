@@ -1,0 +1,19 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $I\\subset{\\mathbb{R}}$ be an interval, and let\n$\\gamma:I\\to{\\mathbb{R}}^3$ be an arclength parameterization of an\noriented space curve, assumed to be , and free of points of inflection.\nLet $T(s)$, $N(s)$, $B(s)$ denote the corresponding moving trihedron,\nand $\\kappa(s),\n\\tau(s)$ the corresponding and . The following differential relations,\ncalled the Serret-Frenet equations, hold between these three vectors.\n$$\\begin{aligned}\n\\label{eq:dT}\nT'(s) &=& \\kappa(s) N(s);\\\\\n\\label{eq:dN}\nN'(s) &=& -\\kappa(s) T(s) + \\tau(s)B(s); \\\\\n\\label{eq:dB}\nB'(s) &=& -\\tau(s) N(s).\\end{aligned}$$\n\nEquation follows directly from the $N(s)$ and from the , $\\kappa(s)$.\nTaking the derivative of the relation $$N(s)\\cdot T(s) = 0,$$ gives\n$$N'(s)\\cdot T(s)  = - T'(s) \\cdot N(s) = -\\kappa(s).$$ Taking the\nderivative of the relation $$N(s)\\cdot N(s) = 1,$$ gives\n$$N'(s) \\cdot N(s) = 0.$$ By the , we have\n$$N'(s)\\cdot B(s) = \\tau(s).$$ This proves equation . Finally, taking\nderivatives of the relations $$\\begin{gathered}\nT(s)\\cdot B(s) = 0,\\\\\nN(s)\\cdot B(s) = 0,\\\\\nB(s)\\cdot B(s) =1,  \\end{gathered}$$ and making use of and gives\n$$\\begin{gathered}\nB'(s) \\cdot T(s) = -T'(s)\\cdot B(s) = 0,\\\\\nB'(s) \\cdot N(s) = -N'(s)\\cdot B(s) = -\\tau(s),\\\\\nB'(s)\\cdot B(s) = 0.  \\end{gathered}$$ This proves equation .\n\nIt is also convenient to describe the Serret-Frenet equations by using\nmatrix notation. Let $F:I \\to {\\operatorname{SO}}(3)$ (see - special\northogonal group), the mapping defined by\n$$F(s) = (T(s),N(s),B(s)),\\quad s\\in I$$ represent the Frenet frame as a\n$3\\times 3$ orthonormal matrix. Equations can be succinctly given as\n$$F(s)^{-1} F'(s) = \n\\begin{pmatrix}\n  0 & \\kappa(s) & 0 \\\\\n  -\\kappa(s)  & 0 & \\tau(s) \\\\\n  0 & -\\tau(s) & 0\n\\end{pmatrix}$$ In this formulation, the above relation is also known as\nthe structure equations of an oriented space curve.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SerretFrenetEquations"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Serret-Frenet equations",
+    "Frenet equations",
+    "Frenet-Serret equations",
+    "Frenet-Serret formulas",
+    "Serret-Frenet formulas",
+    "Frenet formulas"
+  ]
+}

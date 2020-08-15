@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $f:[a,b]\\to\\mathbb{R}$ and $g:[a,b]\\to\\mathbb{R}$ be continuous on\n$[a,b]$ and differentiable on $(a,b)$. Define the function\n$$h(x)=f(x)\\left(g(b)-g(a)\\right)-g(x)\\left(f(b)-f(a)\\right)-f(a)g(b)+f(b)g(a).$$\nBecause $f$ and $g$ are continuous on $[a,b]$ and differentiable on\n$(a,b)$, so is $h$. Furthermore, $h(a)=h(b)=0$, so by Rolle\u2019s theorem\nthere exists a $\\xi\\in(a,b)$ such that $h'(\\xi)=0$. This implies that\n$$f'(\\xi)\\left(g(b)-g(a)\\right)-g'(\\xi)\\left(f(b)-f(a)\\right)=0$$ and,\nif $g(b)\\neq g(a)$,\n$$\\frac{f'(\\xi)}{g'(\\xi)}=\\frac{f(b)-f(a)}{g(b)-g(a)}.$$",
+  "conclusion": "#P_ExtendedMeanvalueTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfExtendedMeanvalueTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of extended mean-value theorem"
+  ]
+}

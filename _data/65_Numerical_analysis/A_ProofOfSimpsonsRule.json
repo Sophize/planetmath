@@ -1,0 +1,17 @@
+{
+  "argumentText": "We want to derive Simpson\u2019s rule for $$\\int_a^b f(x) \\,dx.$$\n\nWe will use Newton and Cotes formulas for $n=2$. In this case, $x_0=a$,\n$x_2=b$ and $x_1 = (a+b)/2$. We use Lagrange\u2019s interpolation formula to\nget a polynomial $p(x)$ such that $p(x_j)=f(x_j)$ for $j=0,1,2$.\n\nThe corresponding interpolating polynomial is\n$$p(x)=f(x_1)\\frac{(x-x_2)(x-x_3)}{(x_1-x_2)(x_1-x_3)}+\nf(x_2)\\frac{(x-x_1)(x-x_3)}{(x_2-x_1)(x_2-x_3)}\n+f(x_3)\\frac{(x-x_1)(x-x_2)}{(x_3-x_1)(x_3-x_2)}.$$ and thus\n$$\\int_a^b f(x) \\,dx\\approx \n\\int_a^b f(x_1)\\frac{(x-x_2)(x-x_3)}{(x_1-x_2)(x_1-x_3)}+\nf(x_2)\\frac{(x-x_1)(x-x_3)}{(x_2-x_1)(x_2-x_3)}\n+f(x_3)\\frac{(x-x_1)(x-x_2)}{(x_3-x_1)(x_3-x_2)}\\,dx.$$\n\nSince integration is linear, we are concerned only with integrating each\nterm in the sum. Now, taking $x_j = a + hj$ where $j=0,1,2$ and\n$h=|b-a|/2$, we can rewrite the quotients on the last integral as\n$$\\int_a^b p(x)\\, dx = hf(x_0)\\int_0^2\\frac{(t-1)(t-2)}{(0-1)(0-2)}\\,dt + \n hf(x_1)\\int_0^2\\frac{(t-0)(t-2)}{(1-0)(1-2)}\\,dt + \n hf(x_2)\\int_0^2\\frac{(t-0)(t-1)}{(2-0)(2-1)}\\,dt.$$ and if we calculate\nthe integrals on the last expression we get\n$$\\int_a^b p(x)\\,dx=hf(x_0)\\frac{1}{3} + hf(x_1)\\frac{4}{3}+hf(x_2)\\frac{1}{3},$$\nwhich is Simpson\u2019s rule:\n$$\\int_a^b f(x)\\,dx \\approx \\frac{h}{3}(f(x_0) + 4f(x_1) + f(x_2)).$$",
+  "conclusion": "#P_SimpsonsRule",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfSimpsonsRule"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Simpson's rule"
+  ]
+}

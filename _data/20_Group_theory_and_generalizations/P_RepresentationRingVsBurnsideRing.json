@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a finite group and let $k$ be any field. If $X$ is a $G$-set,\nthen we may consider the vector space $V_k(X)$ over $k$ which has $X$ as\na basis. In this manner $V_k(X)$ becomes a representation of $G$ via\naction induced from $X$ and linearly extended to $V_k(X)$. It can be\nshown that $V_k(X)$ only depends on the isomorphism class of $X$, so we\nhave a well-defined mapping: $$[X]\\mapsto [V_k(X)]$$ which can be easily\nextended to the function $$\\beta:\\Omega(G)\\to R_k(G);$$\n$$\\beta([X])=[V_k(X)]$$ where on the left side we have the Burnside ring\nand on the right side the representation ring. It can be shown, that\n$\\beta$ is actually a ring homomorphism, but in most cases it neither\ninjective nor surjective. But the following theorem due to Segal gives\nus some properties of $\\beta$:\n\n**Theorem (Segal).** Let $\\beta:\\Omega(G)\\to R_{\\mathbb{Q}}(G)$ be\ndefined as above with rationals as the underlying field. If $G$ is a\n$p$-group for some prime number $p$, then $\\beta$ is surjective.\nFurthermore $\\beta$ is an isomorphism if and only if $G$ is cyclic.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RepresentationRingVsBurnsideRing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "representation ring vs burnside ring"
+  ]
+}

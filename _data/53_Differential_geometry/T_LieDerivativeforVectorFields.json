@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a smooth manifold, and $X,Y\\in{\\mathcal{T}}(M)$ smooth vector\nfields on $M$. Let $\\Theta:{\\mathcal{U}}\\rightarrow M$ be the flow of\n$X$, where ${\\mathcal{U}}\\subseteq {\\mathbb{R}}\\times M$ is an open\nneighborhood of ${\\left\\{ 0 \\right\\}}\\times M$. We make use of the\nfollowing notation:\n$${\\mathcal{U}}^p={\\left\\{ t\\in{\\mathbb{R}}\\,|\\,(t,p)\\in{\\mathcal{U}}\\right\\}},\\ \\ \\forall p\\in M,$$\n$${\\mathcal{U}}_t={\\left\\{ p\\in M\\,|\\,(t,p)\\in{\\mathcal{U}}\\right\\}},\\ \\ \\forall t\\in{\\mathbb{R}},$$\nand we introduce the auxiliary maps\n$\\theta_t:{\\mathcal{U}}_t\\rightarrow M$ and\n$\\theta^p:{\\mathcal{U}}^p\\rightarrow M$ defined as\n$$\\Theta(t,p)=\\theta_t(p)=\\theta^p(t),\\ \\ \\forall (t,p)\\in{\\mathcal{U}}.$$\n\nThe *Lie derivative* of $Y$ along $X$ is the vector field\n${\\mathcal{L}}_XY\\in{\\mathcal{T}}(M)$ defined by\n$$({\\mathcal{L}}_XY)_p=\\left.      \\frac{d}{dt}     {\\left(          d(\\theta_{-t})_{\\theta_t(p)}  (Y_{\\theta_t(p)})      \\right)}     \\right|_{t=0}\n=\\lim_{t\\rightarrow0}\\frac{d(\\theta_{-t})_{\\theta_t(p)}\n(Y_{\\theta_t(p)}) - Y_p}{t},\\ \\ \\forall p\\in M,$$ where\n$d(\\theta_{-t})_{\\theta_t(p)}\\in\\mathrm{Hom}(T_{\\theta_{t}(p)}M,T_pM)$\nif the push-forward of $\\theta_{-t}$, i.e.\n$$d(\\theta_{-t})_{\\theta_t(p)}(v)(f)=v(f\\circ\\theta_{-t}),\\ \\ \\ \\forall v\\in T_{\\theta_{-t}(p)}M,\\ f\\in C^\\infty(p).$$\n\nThe following result is not immediate at all.\n\n${\\mathcal{L}}_XY=[X,Y]$, where $[X,Y]=XY-YX$ is the Lie bracket of $X$\nand $Y$.",
+  "language": "INFORMAL",
+  "phrase": "Lie Derivative (For Vector Fields)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LieDerivativeforVectorFields"
+    }
+  ],
+  "indexable": true
+}

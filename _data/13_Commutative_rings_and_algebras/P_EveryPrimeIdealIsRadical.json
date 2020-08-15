@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathcal{R}$ be a commutative ring and let $\\mathfrak{P}$ be a\nprime ideal of $\\mathcal{R}$.\n\nEvery prime ideal $\\mathfrak{P}$ of $\\mathcal{R}$ is a radical ideal,\ni.e. $$\\mathfrak{P}=\\operatorname{Rad(\\mathfrak{P})}$$\n\nRecall that $\\mathfrak{P}\\subsetneq \\mathcal{R} $ is a prime ideal if\nand only if for any $a,b\\in \\mathcal{R}$ $$a\\cdot b\\in\n\\mathfrak{P} \\Rightarrow a\\in \\mathfrak{P} \\text{ or } b\\in\n\\mathfrak{P}$$ Also, recall that\n$$\\operatorname{Rad}(\\mathfrak{P})=\\{ r\\in \\mathcal{R} \\mid\n\\exists n\\in {\\mathbb{N}}\\text{ such that } r^n\\in \\mathfrak{P} \\}$$\n\nObviously, we have $\\mathfrak{P}\\subseteq\n\\operatorname{Rad}(\\mathfrak{P})$ (just take $n=1$), so it remains to\nshow the reverse inclusion.\n\nSuppose $r\\in \\operatorname{Rad}(\\mathfrak{P})$, so there exists some\n$n\\in {\\mathbb{N}}$ such that $r^n\\in \\mathfrak{P}$. We want to prove\nthat $r$ must be an element of the prime ideal $\\mathfrak{P}$. For this,\nwe use induction on $n$ to prove the following proposition:\n\nFor all $n\\in{\\mathbb{N}}$, for all $r\\in \\mathcal{R}$,\n$r^n\\in\\mathfrak{P} \\Rightarrow r\\in \\mathfrak{P}$.\n\n[**Case $n=1$:**]{} This is clear, $r\\in \\mathfrak{P}\n\\Rightarrow r\\in \\mathfrak{P}$.\n\n[**Case $n$ $\\Rightarrow$ Case $n+1$:** ]{} Suppose we have proved the\nproposition for the case $n$, so our induction hypothesis is\n$$\\forall r\\in\\mathcal{R}, \\quad r^n\\in\\mathfrak{P} \\Rightarrow r\\in\n\\mathfrak{P}$$ and suppose $r^{n+1}\\in \\mathfrak{P}$. Then\n$$r\\cdot r^n = r^{n+1} \\in \\mathfrak{P}$$ and since $\\mathfrak{P}$ is a\nprime ideal we have\n$$r\\in \\mathfrak{P} \\text{ or } r^n\\in \\mathfrak{P}$$ Thus we conclude,\neither directly or using the induction hypothesis, that\n$r\\in \\mathfrak{P}$ as desired.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryPrimeIdealIsRadical"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every prime ideal is radical",
+    "prime ideal is radical"
+  ]
+}

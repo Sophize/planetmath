@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $p\\in {\\mathbb{R}}$ and $x\\in{\\mathbb{R}},\\;|x|<1$ be given. We wish\nto show that\n$$(1+x)^p = \\sum_{n=0}^\\infty p^{\\underline{n}}\\; \\frac{x^n}{n!},$$\nwhere $p^{\\underline{n}}$ denotes the $n{^{\\text{th}}}$ falling\nfactorial of $p$.\n\nThe convergence of the series in the right-hand side of the above\nequation is a straight-forward consequence of the ratio test. Set\n$$f(x) = (1+x)^p.$$ and note that\n$$f^{(n)}(x) = p^{\\underline{n}}\\, (1+x)^{p-n}.$$ The desired equality\nnow follows from Taylor\u2019s Theorem. Q.E.D.",
+  "conclusion": "#P_BinomialFormula",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBinomialFormula"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of binomial formula"
+  ]
+}

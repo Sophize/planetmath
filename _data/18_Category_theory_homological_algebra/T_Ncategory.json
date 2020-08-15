@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "higher order categories",
+    "higher dimensional algebra"
+  ],
+  "definition": "a small $n$-category , $\\mathcal{C}_n$, is the $n$-th order category of\n(small) $n$-categories $n$-$\\mathcal{C}at$ constructed by induction on\n$n$ in two main stages:\n\n1.  define the category $0$-Cat as the category $\\mathcal{S}et$ of sets\n    and functions;\n\n2.  define the category $(n+1)-\\mathcal{C}at$ as the category of ($n$)\n    categories enriched over the category $\\mathcal{C}_n$. The\n    construction is simplified by beginning with the definition of the\n    2-category.\n\n    The following, more detailed *recursive construction* of\n    $n-\\mathcal{C}at$ utilizes the fact that *if a category\n    $\\mathcal{C}$ has finite products, the category of\n    $\\mathcal{C}$-enriched categories also has finite products*.\n\n<!-- -->\n\n1.  define $\\mathcal{C}at$ , or category $1-\\mathcal{C}at$ as the\n    category of small categories and functors;\n\n2.  define a class of objects $A, B,...$ in $\\mathcal{C}at$ called\n    *\u2018$0$-cells\u2019*;\n\n3.  for all \u2018$0$-cells\u2019 $A$, $B$, consider the set\n    $Hom_{\\mathcal{C}_2}(A, B)$, or , whose $2$-morphisms, or\n    \u2018$1$-cells\u2019, are defined as natural transformations called\n    \u2018$2$-cells\u2019, $\\eta: F \\to G$ for any two \u2018morphisms\u2019 of\n    $\\mathcal{C}at$, with $F$ and $G$ being functors between the\n    \u2018$0$-cells\u2019 $A$ and $B$, $F,G: A \\to B$);\n\n4.  the 2-categorical composition is denoted as \u201c$ \\bullet$\" and is\n    called the vertical composition;\n\n5.  a *horizontal composition*, \u201c$\\circ$\", is defined for all triples of\n    $0$-cells, $A$, $B$ and $C$ in $\\mathcal{C}at$ as the functor\n    $\\circ: \\mathcal{C}_2(B,C) \\times \\mathcal{C}_2(A,B) = \\mathcal{C}_2(A,C)$;\n    which is *associative*;\n\n6.  the identities under horizontal composition are the identities of\n    the $2$-cells of $1_X$ for any $X$ in $\\mathcal{C}at$;\n\n7.  for any object $A$ in $\\mathcal{C}at$ there is a functor from the\n    one-object/one-arrow category **$1$** (terminal object) to\n    $\\mathcal{C}_2(A,A)$.\n\n8.  repeat the last $(n-1)$ steps to define \u20183\u2019-cells, ..., to\n    $n$-cells; the resulting structure is called an $n$-category, but it\n    is in fact a metagraph, metacategory, or more generally, a\n    $\\S_{n-1}$-supercategory with *$n$ composition laws* and it is also\n    called more recently a *higher order category* or a *higher\n    dimensional algebra*.\n\n**Note** Because the 2-cells can be considered as 2-morphisms between\n1-morphisms, they are also written as: $\\eta : F \\Rightarrow G$, and are\ndepicted as labelled faces in the plane determined by their domains and\ncodomains.",
+  "language": "INFORMAL",
+  "phrase": "N-Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ncategory"
+    }
+  ],
+  "indexable": true
+}

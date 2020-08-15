@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Chebyshev polynomials of first kind* are defined by the simple\nformula $$T_n(x)=\\cos(nt),$$ where $x=\\cos t$.\n\nIt is an example of a *trigonometric polynomial*.\n\nThis can be seen to be a polynomial by expressing $\\cos(kt)$ as a\npolynomial of $\\cos(t)$, by using the formula for cosine of angle-sum:\n\n$$\\begin{aligned}\n\\cos(1t)&=&\\cos(t)\\\\\n\\cos(2t)&=&\\cos(t)\\cos(t) - \\sin(t)\\sin(t) = 2(\\cos(t))^2-1\\\\\n\\cos(3t)&=&4(\\cos(t))^3-3\\cos(t)\\\\\n&\\vdots&\\end{aligned}$$\n\nSo we have $$\\begin{aligned}\nT_0(x)&=&1\\\\\nT_1(x)&=&x\\\\\nT_2(x)&=&2x^2-1\\\\\nT_3(x)&=&4x^3-3x\\\\\n&\\vdots&\\end{aligned}$$\n\nThese polynomials obey the recurrence relation:\n$$T_{n+1}(x) \\;=\\; 2xT_n(x)-T_{n-1}(x)$$ for $n = 1,\\,2,\\,\\ldots$\n\nRelated are the *Chebyshev polynomials of the second kind* that are\ndefined as $$U_{n-1}(\\cos t) = \\frac{\\sin(n t)}{\\sin (t)},$$ which can\nsimilarly be seen to be polynomials through either a similar process as\nthe above or by the relation $U_{n-1}(t) = n T_n'(t)$.\n\nThe first few are: $$\\begin{aligned}\nU_0(x)&=&1\\\\\nU_1(x)&=&2x\\\\\nU_2(x)&=&4x^2-1\\\\\nU_3(x)&=&8x^3-4x\\\\\n&\\vdots&\\end{aligned}$$\n\nThe same recurrence relation also holds for $U$:\n$$U_{n+1}(x) \\;=\\; 2xU_n(x)-U_{n-1}(x)$$ for $n = 1,\\,2,\\,\\ldots$.",
+  "language": "INFORMAL",
+  "phrase": "Chebyshev Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChebyshevPolynomial"
+    }
+  ],
+  "indexable": true
+}

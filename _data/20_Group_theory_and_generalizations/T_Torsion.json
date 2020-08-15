@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "group torsion"
+  ],
+  "definition": "The [**torsion**]{} of a group $G$ is the set\n$${\\mathop{\\mathrm{Tor}}\\nolimits}(G) = \\{ g \\in G : g^n = e \\mbox{ for some $n \\in {\\mathbb{N}}$}\\}.$$\nA group is said to be [**torsion-free**]{} if\n${\\mathop{\\mathrm{Tor}}\\nolimits}(G) = \\{e\\}$, i.e.\u00a0the torsion consists\nonly of the identity element.\n\nIf $G$ is abelian (or, more generally, locally nilpotent) then\n${\\mathop{\\mathrm{Tor}}\\nolimits}(G)$ is a subgroup (the [**torsion\nsubgroup**]{}) of $G$. Whenever ${\\mathop{\\mathrm{Tor}}\\nolimits}(G)$ is\na subgroup of $G$, then it is fully invariant and\n$G/{\\mathop{\\mathrm{Tor}}\\nolimits}(G)$ is torsion-free.\n\nFor any finite group $G$, ${\\mathop{\\mathrm{Tor}}\\nolimits}(G) = G$.\n\nThe torsion of the circle group ${\\mathbb{R}}/{\\mathbb{Z}}$ is\n${\\mathop{\\mathrm{Tor}}\\nolimits}({\\mathbb{R}}/{\\mathbb{Z}}) = {\\mathbb{Q}}/{\\mathbb{Z}}$.",
+  "language": "INFORMAL",
+  "phrase": "Torsion",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Torsion"
+    }
+  ],
+  "indexable": true
+}

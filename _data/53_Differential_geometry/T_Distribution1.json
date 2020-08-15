@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "C^\\infty n-plane distribution"
+  ],
+  "definition": "In the following we will $C^\\infty$ when we say smooth.\n\nLet $M$ be a smooth manifold of dimension $m$. Let $n \\leq m$ and for\neach $x \\in M$, we assign an $n$-dimensional subspace\n$\\Delta_x \\subset T_x(M)$ of the tangent space in such a way that for a\nneighbourhood $N_x \\subset M$ of $x$ there exist $n$ linearly\nindependent smooth vector fields $X_1,\\ldots,X_n$ such that for any\npoint $y \\in N_x$, $X_1(y),\\ldots,X_n(y)$ span $\\Delta_y$. We let\n$\\Delta$ refer to the collection of all the $\\Delta_x$ for all $x \\in M$\nand we then call $\\Delta$ a [*distribution*]{} of dimension $n$ on $M$,\nor sometimes a [*$C^\\infty$ $n$-plane distribution*]{} on $M$. The set\nof smooth vector fields $\\{ X_1,\\ldots,X_n \\}$ is called a [*local\nbasis*]{} of $\\Delta$.\n\nNote: The naming is unfortunate here as these distributions have nothing\nto do with . However the naming is in wide use.\n\nWe say that a distribution $\\Delta$ on $M$ is [*involutive*]{} if for\nevery point $x \\in M$ there exists a local basis $\\{ X_1,\\ldots,X_n \\}$\nin a neighbourhood of $x$ such that for all $1 \\leq i, j \\leq n$,\n$[X_i,X_j]$ (the commutator of two vector fields) is in the span of\n$\\{ X_1,\\ldots,X_n \\}$. That is, if $[X_i,X_j]$ is a linear combination\nof $\\{ X_1,\\ldots,X_n \\}$. Normally this is written as\n$[ \\Delta , \\Delta ] \\subset \\Delta$.\n\n[9]{} William M. Boothby. [**]{}, Academic Press, San Diego, California,\n2003.",
+  "language": "INFORMAL",
+  "phrase": "Distribution",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Distribution1"
+    }
+  ],
+  "indexable": true
+}

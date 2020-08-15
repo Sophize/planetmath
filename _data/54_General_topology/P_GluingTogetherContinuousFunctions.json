@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Introduction {#introduction .unnumbered}\n============\n\nSuppose we have a collection $\\cal S$ of subsets of a topological space\n$X$, and for each $A\\in\\cal S$ we have a continuous function\n$f_A\\colon A\\to Y$, where $Y$ is another topological space. If the\nfunctions $f_A$ agree wherever their domains intersect, then we can glue\nthem together in the obvious way to form a new function\n$f\\colon\\cup{\\cal S}\\to Y$. The theorems in this entry give some\nsufficient conditions for $f$ to be continuous.\n\nTheorems {#theorems .unnumbered}\n========\n\nLet $X$ and $Y$ be topological spaces, let $\\cal S$ be a locally finite\ncollection of of $X$, and let $f\\colon\\cup{\\cal S}\\to Y$ be a function\nsuch that the $f|_A$ is continuous for all $A\\in\\cal S$. Then $f$ is\ncontinuous.\n\nLet $X$ and $Y$ be topological spaces, let $\\cal S$ be a collection of\nof $X$, and let $f\\colon\\cup{\\cal S}\\to Y$ be a function such that the\nrestriction $f|_A$ is continuous for all $A\\in\\cal S$. Then $f$ is\ncontinuous.\n\nNotes {#notes .unnumbered}\n=====\n\nNote that the theorem for closed subsets requires the collection to be\nlocally finite. To see that this is condition cannot be omitted, notice\nthat any function $f\\colon\\R\\to\\R$ restricts to a continuous function on\neach singleton, yet need not be continuous itself.\n\nProofs {#proofs .unnumbered}\n======\n\nThe two theorems are proved in essentially in the same way, but for the\nfirst theorem we need to make use of the fact that the union of a\nlocally finite collection of closed sets is closed.\n\n[**Proof of Theorem 1.**]{} Let $C$ be a closed subset of $Y$. Then\n$f^{-1}(C)=\\bigcup_{A\\in\\cal S}(A\\cap f^{-1}(C))\n=\\bigcup_{A\\in\\cal S}(f|_A)^{-1}(C)$. By continuity, each\n$(f|_A)^{-1}(C)$ is closed in $A$. But by assumption each $A$ is closed\nin $X$, so it follows that each $(f|_A)^{-1}(C)$ is closed in $X$. Thus\n$f^{-1}(C)$ is the union of a locally finite collection of closed sets,\nand is therefore closed in $X$, and so closed in $\\cup\\cal S$. So $f$ is\ncontinuous.\n\n[**Proof of Theorem 2.**]{} Let $U$ be an open subset of $Y$. Then\n$f^{-1}(U)=\\bigcup_{A\\in\\cal S}(A\\cap f^{-1}(U))\n=\\bigcup_{A\\in\\cal S}(f|_A)^{-1}(U)$. By continuity, each\n$(f|_A)^{-1}(U)$ is open in $A$. But by assumption each $A$ is open in\n$X$, so it follows that each $(f|_A)^{-1}(U)$ is open in $X$. Thus\n$f^{-1}(U)$ is the union of a collection of open sets, and is therefore\nopen in $X$, and so open in $\\cup\\cal S$. So $f$ is continuous.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GluingTogetherContinuousFunctions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "gluing together continuous functions"
+  ]
+}

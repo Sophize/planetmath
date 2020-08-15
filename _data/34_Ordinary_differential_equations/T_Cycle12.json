@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "periodic solution",
+    "stable periodic solution",
+    "unstable periodic solution",
+    "asymptotically stable periodic solution"
+  ],
+  "definition": "Let $$\\dot{x}=f(x)$$ be an autonomous ordinary differential equation\ndefined by the vector field $f\\colon V \\to V$ then $x(t)\\in V$ a\nsolution of the system is a *cycle(or *periodic solution*)* if it is a\nclosed solution which is not an equilibrium point. The *period* of a\ncycle is the smallest positive $T$ such that $x(t)=x(t+T)$.\\\nLet $\\phi_t(x)$ be the flow defined by the above ODE and $d$ be the\nmetric of $V$ then:\\\nA cycle, $\\Gamma$, is a *stable cycle* if for all $\\epsilon>0$ there\nexists a neighborhood $U$ of $\\Gamma$ such that for all $x\\in U$,\n$d(\\phi_t(x),\\Gamma)< \\epsilon$.\\\nA cycle, $\\Gamma$, is *unstable cycle* if it is not a stable cycle.\\\nA cycle, $\\Gamma$, is *asymptotically stable cycle* if for all $x\\in U$\nwhere $U$ is a neighborhood of $\\Gamma$,\n$\\lim_{t\\to\\infty}d(\\phi_t(x),\\Gamma)=0$.[@PL]\\\n**example:**\\\nLet $$\\begin{aligned}\n\\dot{x} & = & -y\\\\\n\\dot{y} & = & x\\end{aligned}$$ then the above autonomous ordinary\ndifferential equations with initial value condition $(x(0),y(0))=(1,0)$\nhas a solution which is a stable cycle. Namely the solution defined by\n$$\\begin{aligned}\nx(t) & = & \\cos t\\\\\ny(t) & = & \\sin t\\end{aligned}$$ which has a period of $2\\pi$.\n\n[2]{} Perko, Lawrence: Differential Equations and Dynamical Systems\n*(Third Edition)*. Springer, New York, 2001.",
+  "language": "INFORMAL",
+  "phrase": "Cycle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Cycle12"
+    }
+  ],
+  "indexable": true
+}

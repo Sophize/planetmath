@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "There are two different functions which are collectively known as the\n*Chebyshev functions*:\n\n$$\\begin{aligned}\n\\vartheta(x)=\\sum_{p\\leq x}\\log p.\\end{aligned}$$\n\nwhere the notation used indicates the summation over all positive primes\n$p$ less than or equal to $x$, and $$\\begin{aligned}\n\\psi(x)=\\sum_{p\\leq x}k\\log p,\\end{aligned}$$ where the same summation\nnotation is used and $k$ denotes the unique integer such that\n$p^k\\leq x$ but $p^{k+1}>x$. Heuristically, the first of these two\nfunctions the number of primes less than $x$ and the second does the\nsame, but weighting each prime in accordance with their logarithmic\nrelationship to $x$.\n\nMany innocuous results in number owe their proof to a relatively\nanalysis of the asymptotics of one or both of these functions. For\nexample, the fact that for any $n$, we have $$\\begin{aligned}\n\\prod_{p\\leq n}p<4^n\\end{aligned}$$ is equivalent to the statement that\n$\\vartheta(x)<x\\log 4$.\n\nA somewhat less innocuous result is that the prime number theorem (i.e.,\nthat $\\pi(x)\\sim \\frac{x}{\\log x}$) is equivalent to the statement that\n$\\vartheta(x)\\sim x$, which in turn, is equivalent to the statement that\n$\\psi(x)\\sim x$.\n\n[9]{} Ireland, Kenneth and Rosen, Michael. A Classical Introduction to\nModern Number Theory. Springer, 1998.\n\nNathanson, Melvyn B. Elementary Methods in Number Theory. Springer,\n2000.",
+  "language": "INFORMAL",
+  "phrase": "Chebyshev Functions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChebyshevFunctions"
+    }
+  ],
+  "indexable": true
+}

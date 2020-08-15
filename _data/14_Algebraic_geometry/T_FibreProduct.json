@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "fiber product",
+    "pullback",
+    "pull-back",
+    "fibred product"
+  ],
+  "definition": "Let $S$ be a scheme, and let $i: X {\\longrightarrow}S$ and\n$j: Y {\\longrightarrow}S$ be schemes over $S$. A [*fibre product*]{} of\n$X$ and $Y$ over $S$ is a scheme $X \\times_S Y$ together with morphisms\n$$\\begin{aligned}\n& p: X \\times_S Y {\\longrightarrow}X & \\\\\n& q: X \\times_S Y {\\longrightarrow}Y &\\end{aligned}$$ such that given\nany scheme $Z$ with morphisms $$\\begin{aligned}\n& x: Z {\\longrightarrow}X & \\\\\n& y: Z {\\longrightarrow}Y &\\end{aligned}$$ where\n$i \\circ x = j \\circ y$, there exists a unique morphism\n$$(x,y): Z {\\longrightarrow}X \\times_S Y$$ making the diagram\n$$\\xymatrix{\nZ \\ar@/_/[ddr]_y \\ar@/^/[drr]^x \\ar@{.>}[dr]|-{(x,y)} \\\\\n& X \\times_S Y \\ar[d]^-q \\ar[r]_-p & X \\ar[d]^-i \\\\\n& Y \\ar[r]_-j & S\n}$$ commute. In other words, a fiber product is an object\n$X \\times_S Y$, [**together with**]{} morphisms $p,q$ making the diagram\ncommute, with the universal property that any other collection $(Z,x,y)$\nforming such a commutative diagram maps into $(X\\times_S Y,p,q)$.\n\nFibre products of schemes always exist and are unique up to canonical\nisomorphism.\n\n#### Other notes\n\nFibre products are also called pullbacks and can be defined in any\ncategory using the same definition (but need not exist in general). For\nexample, they always exist in the category of modules over a fixed ring,\nas well as in the category of groups.",
+  "language": "INFORMAL",
+  "phrase": "Fibre Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FibreProduct"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "If we let $f^{-1}:\\kappa\\rightarrow P(S)$ be the inverse of $f$\nrestricted to $S$ then Fodor\u2019s lemma is equivalent to the claim that for\nany function such that $\\alpha\\in f(\\kappa)\\rightarrow \\alpha>\\kappa$\nthere is some $\\alpha\\in S$ such that $f^{-1}(\\alpha)$ is stationary.\n\nThen if Fodor\u2019s lemma is false, for every $\\alpha\\in S$ there is some\nclub set $C_\\alpha$ such that $C_\\alpha\\cap f^{-1}(\\alpha)=\\emptyset$.\nLet $C=\\Delta_{\\alpha<\\kappa} C_\\alpha$. The club sets are closed under\ndiagonal intersection, so $C$ is also club and therefore there is some\n$\\alpha\\in S\\cap C$. Then $\\alpha\\in C_\\beta$ for each $\\beta<\\alpha$,\nand so there can be no $\\beta<\\alpha$ such that\n$\\alpha\\in f^{-1}(\\beta)$, so $f(\\alpha)\\geq\\alpha$, a contradiction.",
+  "conclusion": "#P_FodorsLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfFodorsLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Fodor's lemma"
+  ]
+}

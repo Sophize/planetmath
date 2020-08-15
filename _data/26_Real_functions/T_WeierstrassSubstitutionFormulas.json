@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Weierstra{\\ss} substitution formulas"
+  ],
+  "definition": "The *Weierstrass substitution formulas* for $-\\pi < x < \\pi$ are:\n\n$\\begin{array}{rl}\n\\sin x & =\\displaystyle \\frac{2t}{1+t^2} \\\\\n& \\\\\n\\cos x & =\\displaystyle \\frac{1-t^2}{1+t^2}\\\\\n& \\\\\ndx & =\\displaystyle \\frac{2}{1+t^2} \\, dt\n\\end{array}$\n\nThey can be obtained in the following manner:\n\nMake the *Weierstrass substitution*\n$\\displaystyle t=\\tan \\left( \\frac{x}{2} \\right)$. (This substitution is\nalso known as the *universal trigonometric substitution*.) Then we have\n\n$\\begin{array}{rl}\n\\displaystyle \\cos \\left( \\frac{x}{2} \\right) & = \\displaystyle \\frac{1}{\\displaystyle \\sec \\left( \\frac{x}{2} \\right)} \\\\\n& \\\\\n& = \\displaystyle \\frac{1}{\\displaystyle \\sqrt{1+\\tan^2\\left( \\frac{x}{2} \\right)}} \\\\\n& \\\\\n& = \\displaystyle \\frac{1}{\\sqrt{1+t^2}}\n\\end{array}$\n\nand\n\n$\\begin{array}{rl}\n\\displaystyle \\sin \\left( \\frac{x}{2} \\right) & = \\displaystyle \\cos \\left( \\frac{x}{2} \\right) \\cdot \\tan \\left( \\frac{x}{2} \\right) \\\\\n& \\\\\n& = \\displaystyle \\frac{t}{\\sqrt{1+t^2}}.\n\\end{array}$\n\nNote that these are just the \u201cformulas involving \u201d as designated in the\nentry goniometric formulas; however, due to the restriction on $x$, the\n$\\pm$\u2019s are unnecessary.\n\nUsing the above formulas along with the double angle formulas, we obtain\n\n$\\begin{array}{rl}\n\\sin x & =\\displaystyle 2\\sin\\left( \\frac{x}{2} \\right)\\cdot \\cos\\left( \\frac{x}{2} \\right) \\\\\n& \\\\\n& =\\displaystyle 2 \\cdot \\frac{t}{\\sqrt{1+t^2}} \\cdot \\frac{1}{\\sqrt{1+t^2}} \\\\\n& \\\\\n& =\\displaystyle \\frac{2t}{1+t^2}\n\\end{array}$\n\nand\n\n$\\begin{array}{rl}\n\\cos x & =\\displaystyle \\cos^2\\left( \\frac{x}{2} \\right)-\\sin^2\\left( \\frac{x}{2} \\right) \\\\\n& \\\\\n& =\\displaystyle \\left( \\frac{1}{\\sqrt{1+t^2}} \\right)^2-\\left( \\frac{t}{\\sqrt{1+t^2}} \\right)^2 \\\\\n& \\\\\n& =\\displaystyle \\frac{1}{1+t^2}-\\frac{t^2}{1+t^2} \\\\\n& \\\\\n& =\\displaystyle \\frac{1-t^2}{1+t^2}.\n\\end{array}$\n\nFinally, since $\\displaystyle t=\\tan\\left( \\frac{x}{2} \\right)$, solving\nfor $x$ yields that $x=2\\arctan t$. Thus,\n$\\displaystyle dx=\\frac{2}{1+t^2} \\, dt$.\n\nThe Weierstrass substitution formulas are most useful for .",
+  "language": "INFORMAL",
+  "phrase": "Weierstrass Substitution Formulas",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeierstrassSubstitutionFormulas"
+    }
+  ],
+  "indexable": true
+}

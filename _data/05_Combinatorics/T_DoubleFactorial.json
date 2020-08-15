@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *double factorial* of a positive integer $n$ is the product $n!!$ of\nthe positive integers less than or equal to $n$ that have the same\nparity as $n$, that is, $$n!! = n (n-2) (n-4)\\cdots k_n$$ where $k_n$\ndenotes $1$ if $n$ is an odd number and $2$ if $n$ is an even number.\n\nFor example, $$7!! = 7 \\cdot 5 \\cdot 3 \\cdot 1 = 105$$\n$$10!! = 10\\cdot 8\\cdot 6\\cdot 4\\cdot 2 = 3840$$\n\nNote that $n!!$ is not the same as $(n!)!$.\n\nObserve that $(2n)!! = 2^n n!$ and $(2n+1)!! = \\frac{(2n+1)!}{2^n n!}$.",
+  "language": "INFORMAL",
+  "phrase": "Double Factorial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DoubleFactorial"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "complex root",
+    "principal root"
+  ],
+  "definition": "The phrase \u201c*the $n$-th root of a number*\u201d is a somewhat misleading\nconcept that requires a fair amount of thought to make rigorous.\n\nFor $n$ a positive integer, we define *an* $n$-th root of a number $x$\nto be a number $y$ such that $y^n=x$. The number $n$ is said to be the\n*index* of the root. Note that the term \u201cnumber\u201d here is ambiguous, as\nthe discussion can apply in a variety of contexts (groups, rings,\nmonoids, etc.) The purpose of this entry is specifically to deal with\n$n$-th roots of real and complex numbers.\n\nIn an effort to give meaning to the term *the* $n$-th root of a real\nnumber $x$, we define it to be the unique real number that $y$ is *an*\n$n$th root of $x$ and such that\n$\\operatorname{sign}(x)=\\operatorname{sign}(y)$, if such a number\nexists. We denote this number by $\\sqrt[n]{x}$, or by $x^{\\frac{1}{n}}$\nif $x$ is positive. This specific $n$th root is also called the\n*principal $n$th root*.\n\nExample: $\\sqrt[4]{81} = 3$ because\n$3^4 = 3 \\times 3 \\times 3 \\times 3= 81$, and $3$ is the unique positive\nreal number with this property.\n\nExample: If $x+1$ is a positive real number, then we can write\n$\\sqrt[5]{x^5 + 5x^4 + 10x^3 + 10x^2 + 5x + 1} = x + 1$ because\n$(x + 1)^5 = (x^2 + 2x + 1)^2(x + 1) = x^5 + 5x^4 + 10x^3 + 10x^2 + 5x + 1$.\n(See the Binomial Theorem and .)\n\nThe nth root operation is distributive for multiplication and division,\nbut not for addition and subtraction. That is,\n$\\sqrt[n]{x \\times y} = \\sqrt[n]{x} \\times \\sqrt[n]{y}$, and\n$\\sqrt[n]{\\frac{x}{y}} = \\frac{\\sqrt[n]{x}}{\\sqrt[n]{y}}$. However,\nexcept in special cases,\n$\\sqrt[n]{x + y} \\not= \\sqrt[n]{x} + \\sqrt[n]{y}$ and\n$\\sqrt[n]{x - y} \\not= \\sqrt[n]{x} - \\sqrt[n]{y}$.\n\nExample: $\\sqrt[4]{\\frac{81}{625}} = \\frac{3}{5}$ because\n$\\left(\\frac{3}{5}\\right)^4 = \\frac{3^4}{5^4} = \\frac{81}{625}$.\n\nNote that when we restrict our attention to real numbers, expressions\nlike $\\sqrt{-3}$ are undefined. Thus, for a more full definition of\n$n$th roots, we will have to incorporate the notion of complex numbers:\n*The nth roots of a complex number* $t = x + yi$ are all the complex\nnumbers $z_1, z_2, \\ldots, z_n \\in \\mathbb{C}$ that satisfy the\ncondition $z_k^n = t$. Applying the fundamental theorem of algebra\n(complex version) to the function $x^n-t$ tells us that $n$ such complex\nnumbers always exist (counting multiplicity).\n\nOne of the more popular methods of finding these roots is through\ntrigonometry and the geometry of complex numbers. For a complex number\n$z=x+iy$, recall that we can put $z$ in polar form: $z=(r, \\theta)$,\nwhere $r = \\sqrt[2]{x^2 + y^2}$, and $\\theta = \\frac{\\pi}{2}$ if\n$x = 0$, and $\\theta = \\arctan{\\frac{y}{x}}$ if $x \\not= 0$. (See the\nPythagorean Theorem.) For the specific procedures involved, see\ncalculating the nth roots of a complex number.",
+  "language": "INFORMAL",
+  "phrase": "Nth Root",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NthRoot"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that $G_k \\subset {\\mathbb{C}}^n$ are domains of holomorphy such\nthat $G_k \\subset G_j$ whenever $k < j$. Then $\\bigcup_{k=1}^\\infty G_k$\nis a domain of holomorphy.\n\nThis is related to the fact that an increasing union of pseudoconvex\ndomains is pseudoconvex and so it can be proven using that fact and the\nsolution of the Levi problem. Though historically this theorem was in\nfact used to solve the Levi problem.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BehnkeSteinTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Behnke-Stein theorem",
+    "increasing union of domains of holomorphy is a domain of holomorphy"
+  ]
+}

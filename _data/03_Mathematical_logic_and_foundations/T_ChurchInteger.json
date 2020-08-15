@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Church integer* is a representation of integers as functions,\ninvented by Alonzo Church. An integer $N$ is represented as a\nhigher-order function, which applies a given function to a given\nexpression $N$ times.\n\nFor example, in the programming language Haskell, a function that\nreturns a particular Church integer might be\n\n$$\\begin{aligned}\n\\operatorname{church} 0 &= \\ f x \\rightarrow x\\\\\n\\operatorname{church} n &= c\\\\\n&\\operatorname{where}: c f x = c' f (f x)\\\\\n&\\hspace{.5in}\\operatorname{where}: c' = \\operatorname{church} (n - 1)\\\\\\end{aligned}$$\n\nThe transformation from a Church integer to an integer might be\n\n    unchurch n = n (+1) 0\n\nThus we can generate the integers\u2013the `(+1)` function would be applied\nto an initial value of $0$ $n$ times, yielding the ordinary integer $n$.",
+  "language": "INFORMAL",
+  "phrase": "Church Integer",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChurchInteger"
+    }
+  ],
+  "indexable": true
+}

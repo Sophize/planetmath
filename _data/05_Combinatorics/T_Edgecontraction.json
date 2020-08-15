@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an edge $xy$ of a graph $G$, the graph $G/xy$ is obtained from $G$\nby *contracting* the edge $xy$; that is, to get $G/xy$ we identify the\nvertices $x$ and $y$ and remove all loops and duplicate edges. A graph\n$G'$ obtained by a sequence of edge-contractions is said to be a\n*contraction* of $G$.",
+  "language": "INFORMAL",
+  "phrase": "Edge-Contraction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Edgecontraction"
+    }
+  ],
+  "indexable": true
+}

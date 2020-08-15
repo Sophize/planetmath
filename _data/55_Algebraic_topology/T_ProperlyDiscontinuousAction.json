@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a group and $E$ a topological space on which $G$ acts by\nhomeomorphisms, that is there is a homomorphism\n${\\rho}\\co G\\to { \\operatorname{Aut}}(E)$, where the latter denotes the\ngroup of self-homeomorphisms of $E$. The action is said to be *properly\ndiscontinuous* if each point $e\\in E$ has a neighborhood $U$ with the\nproperty that all non trivial elements of $G$ move $U$ outside itself:\n$$\\forall g\\in G\\quad g \\neq  {\\operatorname{id}}\\Rightarrow gU\\cap U=\\emptyset\\,.$$\n\nFor example, let $p\\co E\\to X$ be a covering map, then the group of deck\ntransformations of $p$ acts properly discontinuously on $E$. Indeed if\n$e\\in\nE$ and $D\\in { \\operatorname{Aut}}(p)$ then one can take as $U$ to be\nany neighborhood with the property that $p(U)$ is evenly covered. The\nfollowing shows that this is the only example:\n\nAssume that $E$ is a connected and locally path connected Hausdorff\nspace. If the group $G$ acts properly discontinuously on $E$ then the\nquotient map $p\\co E\\to E/G$ is a covering map and\n${ \\operatorname{Aut}}(p)=G$.",
+  "language": "INFORMAL",
+  "phrase": "Properly Discontinuous Action",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProperlyDiscontinuousAction"
+    }
+  ],
+  "indexable": true
+}

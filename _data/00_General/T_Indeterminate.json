@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An [*indeterminate*]{} is simply a variable that is not known or\nsolvable. It is usually denoted by a mathematical alphabet ($x$, $y$,\n$z$, or $\\alpha$, $\\beta$, etc...). It is important to distinguish\nbetween a variable and an indeterminate in that a variable is solvable,\nat least conditionally. To make this more precise, let\u2019s see two\nexamples:\n\n1.  Let $x$ be a variable such that $2+3x=a+bx$, where\n    $a,b\\in\\mathbb{Q}$. Then $x=(a-2)/(3-b)$. Here $x$ is solvable\n    conditioned on the equation given. Any values of $a$ and\n    $b\\,(\\neq 3)$ will yield a value for $x$.\n\n2.  Let $x$ be an indeterminate such that $2+3x=a+bx$, where\n    $a,\\,b\\in\\mathbb{Q}$. Since $x$ can not be solved, we have $2=a$ and\n    $3=b$. Note that if $a$ and $b$ are previously assigned to be values\n    other than 2 and 3 respectively, then $x$ is no longer an\n    indeterminate.",
+  "language": "INFORMAL",
+  "phrase": "Indeterminate",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Indeterminate"
+    }
+  ],
+  "indexable": true
+}

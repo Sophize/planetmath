@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $f(x)$ is a polynomial with integer coefficients and $x_0$ and $h$\nintegers, then the congruence $$\\begin{aligned}\nf(x_0\\!+\\!h) \\;\\equiv\\; f(x_0)+f'(x_0)h \\;\\; \\pmod{h^2}\\end{aligned}$$\nis in force.\n\n[*Proof.*]{} Because of the linear properties of (1) we can confine us\nto the monomials $f(x) := x^n$. Then $f'(x) = nx^{n-1}$. By the binomial\ntheorem we have $$\\begin{aligned}\n(x_0\\!+\\!h)^n \\;=\\; x_0^n\\!+\\!nx_0^{n-1}h+h^2P(x_0)\\end{aligned}$$ where\n$P(x_0)$ is a polynomial in $x_0$ with integer coefficients. The\nequality (2) may be written as the asserted congruence (1).",
+  "language": "INFORMAL",
+  "phrase": "Short Taylor Theorem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ShortTaylorTheorem"
+    }
+  ],
+  "indexable": true
+}

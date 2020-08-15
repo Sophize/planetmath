@@ -1,0 +1,17 @@
+{
+  "argumentText": "Since both $A$ and $B$ are normal, they can be diagonalized by unitary\ntransformations:\n$$A = V^\\dagger C V \\quad \\text{and} \\quad B = W^\\dagger D W,$$ where\n$C$ and $D$ are diagonal, $V$ and $W$ are unitary, and $(~)^\\dagger$\ndenotes the conjugate transpose. The Frobenius matrix norm is defined by\nthe quadratic form $\\|A\\|_F^2 = \\tr[A^\\dagger A]$ and is invariant under\nunitary transformations, hence\n$$\\|A-B\\|_F^2 = \\|V^\\dagger C V - W^\\dagger D W\\|_F^2\n    = \\|C\\|_F^2 + \\|D\\|_F^2\n      - 2\\Re\\tr[C^\\dagger U^\\dagger D U],$$ where $U=W V^\\dagger$. The\nmatrix $U$ is also unitary, let its matrix elements be given by\n$(U)_{ij} = u_{ij}$. Unitarity implies that the matrix with elements\n$|u_{ij}|^2$ has its row and column sums equal to $1$, in other words,\nit is doubly stochastic.\n\nThe diagonal elements $C_{ii} = a_i$ are eigenvalues of $A$ and\n$D_{ii} = b_i$ are those of $B$. Writing out the Frobenius norm\nexplicitly, we get $$\\|A-B\\|_F^2 = \\sum_{i} (|a_i|^2+|b_i|^2)\n    - 2\\Re\\sum_{ij} \\overline{a}_i |u_{ij}|^2 b_j\n    \\ge \\sum_{i} (|a_i|^2+|b_i|^2)\n      - 2\\min_{S} \\Re \\sum_{ij} \\overline{a}_i s_{ij} b_j,$$ where the\nminimum is taken over all doubly stochastic matrices $S$, whose elements\nare $(S)_{ij} = s_{ij}$. By the Birkoff-von Neumann theorem, doubly\nstochastic matrices form a closed polyhedron with permutation matrices\nat the vertices. The expression $\\sum_{ij} \\overline{a}_i s_{ij} b_j$ is\na linear functional on this polyhedron, hence its minimum is achieved at\none of the vertices, that is when $S$ is a permutation matrix.\n\nIf $S$ represents the permutation $\\sigma$, its action can be written as\n$\\sum_{j} s_{ij} b_j = b_{\\sigma(i)}$. Finally, we can write the last\ninequality as $$\\|A-B\\|_F^2 \\ge \\sum_{i} (|a_i|^2+|b_{\\sigma(i)}|^2)\n    - 2\\min_{\\sigma} \\Re\\sum_{ij} \\overline{a}_i b_{\\sigma(i)}\n    = \\min_{\\sigma} |a_i-b_{\\sigma(i)}|^2,$$ which is exactly the\nstatement of the Wielandt-Hoffman theorem.",
+  "conclusion": "#P_WielandtHoffmanTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfWielandtHoffmanTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Wielandt-Hoffman theorem"
+  ]
+}

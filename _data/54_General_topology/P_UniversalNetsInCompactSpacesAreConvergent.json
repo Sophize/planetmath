@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} A universal net\n$ (x_{\\alpha})_{\\alpha \\in \\mathcal{A}}$ in a compact space $ X$ is\nconvergent.\n\n[**Proof :**]{} Suppose by contradiction that\n$(x_{\\alpha})_{\\alpha \\in \\mathcal{A}}$ was not convergent. Then for\nevery $x \\in X$ we would find neighborhoods $U_x$ such that\n$$\\forall_{\\alpha \\in \\mathcal{A}}\\;\\;\\; \\exists_{\\alpha \\leq \\alpha_0} \\;\\;\\; x_{\\alpha_0} \\notin U_x$$\n\nThe collection of all this neighborhoods cover $X$, and as $X$ is\ncompact, a finite number $U_{x_1}, U_{x_2}, \\dots, U_{x_n}$ also cover\n$X$.\n\nThe net $(x_{\\alpha})_{\\alpha \\in \\mathcal{A}}$ is not eventually in\n$U_{x_k}$ so it must be eventually in $X-U_{x_k}$ (because it is a net).\nTherefore we can find $\\alpha_k \\in \\mathcal{A}$ such that\n$$\\forall_{\\alpha_k \\leq \\alpha} \\;\\;\\; x_{\\alpha} \\in X-U_{x_k}$$\n\nBecause we have a finite number\n$\\alpha_1, \\alpha_2 \\dots, \\alpha_n \\in \\mathcal{A}$ we can find\n$\\gamma \\in \\mathcal{A}$ such that $\\alpha_k \\leq \\gamma$ for each\n$1 \\leq k \\leq n$.\n\nThen $x_{\\gamma} \\in X-U_{x_k}$ for all $k$, i.e.\n$x_{\\gamma} \\notin U_{x_k}$ for all $k$. But\n$U_{x_1}, U_{x_2}, \\dots, U_{x_n}$ cover $X$ and thus we have a\ncontradiction. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniversalNetsInCompactSpacesAreConvergent"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "universal nets in compact spaces are convergent"
+  ]
+}

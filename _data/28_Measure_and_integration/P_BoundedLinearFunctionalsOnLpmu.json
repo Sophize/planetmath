@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $\\mu$ is a positive measure on a set $X$, $1\\leq p\\leq\\infty$, and\n$g\\in L^q(\\mu)$, where $q$ is the H\u00f6lder conjugate of $p$, then H\u00f6lder\u2019s\ninequality implies that the map $f\\mapsto\\int_Xfgd\\mu$ is a bounded\nlinear functional on $L^p(\\mu)$. It is therefore natural to ask whether\nor not all such functionals on $L^p(\\mu)$ are of this form for some\n$g\\in L^q(\\mu)$. Under fairly mild hypotheses, and excepting the case\n$p=\\infty$, the Radon-Nikodym Theorem answers this question\naffirmatively.\n\nLet $(X,\\mathfrak{M},\\mu)$ be a $\\sigma$-finite measure space,\n$1\\leq p<\\infty$, and $q$ the H\u00f6lder conjugate of $p$. If $\\Phi$ is a\nbounded linear functional on $L^p(\\mu)$, then there exists a unique\n$g\\in L^q(\\mu)$ such that $$\\Phi(f)=\\int_Xfgd\\mu$$ for all\n$f\\in L^p(\\mu)$. Furthermore, ${\\Vert\\Phi\\Vert}={\\Vertg\\Vert}_q$. Thus,\nunder the stated hypotheses, $L^q(\\mu)$ is isometrically isomorphic to\nthe dual space of $L^p(\\mu)$.\n\nIf $1<p<\\infty$, then the assertion of the theorem remains valid without\nthe assumption that $\\mu$ is $\\sigma$-finite; however, even with this\nhypothesis, the result can fail in the case that $p=\\infty$. In\nparticular, the bounded linear functionals on $L^\\infty(m)$, where $m$\nis Lebesgue measure on $[0,1]$, are not all obtained in the above manner\nvia members of $L^1(m)$. An explicit example illustrating this is\nconstructed as follows: the assignment $f\\mapsto f(0)$ defines a bounded\nlinear functional on $C([0,1])$, which, by the Hahn-Banach Theorem, may\nbe extended to a bounded linear functional $\\Phi$ on $L^\\infty(m)$.\nAssume for the sake of contradiction that there exists $g\\in L^1(m)$\nsuch that $\\Phi(f)=\\int_{[0,1]}fgdm$ for every $f\\in L^\\infty(m)$, and\nfor $n\\in\\mathbb{Z}^+$, define $f_n:[0,1]\\rightarrow\\mathbb{C}$ by\n$f_n(x)=\\max{\\{1-nx,0\\}}$. As each $f_n$ is continuous, we have\n$\\Phi(f_n)=\\varphi(f_n)=1$ for all $n$; however, because\n$f_n\\rightarrow 0$ almost everywhere and ${\\vertf_n\\vert}\\leq 1$, the\nDominated Convergence Theorem, together with our hypothesis on $g$,\ngives\n$$1=\\lim_{n\\rightarrow\\infty}\\Phi(f_n)=\\lim_{n\\rightarrow\\infty}\\int_{[0,1]}f_ngdm=0\\text{,}$$\na contradiction. It follows that no such $g$ can exist.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundedLinearFunctionalsOnLpmu"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "bounded linear functionals on $L^p(\\mu)$"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $M$ be the center of the circle through $A$, $B$ and $C$.\n\n![image](thales.eps)\n\nThen $AM=BM=CM$ and thus the triangles $AMC$ and $BMC$ are isosceles. If\n$\\angle BMC=:\\alpha$ then $\\angle MCB=90^\\circ-\\frac{\\alpha}{2}$ and\n$\\angle CMA=180^\\circ-\\alpha$. Therefore $\\angle ACM=\\frac{\\alpha}{2}$\nand $$\\angle ACB=\\angle MCB+\\angle ACM=90^\\circ.$$ QED.",
+  "conclusion": "#P_ThalesTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfThalesTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Thales' theorem"
+  ]
+}

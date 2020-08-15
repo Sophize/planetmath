@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "shuffle"
+  ],
+  "definition": "Let $p$ and $q$ be positive natural numbers. Further, let $S(k)$ be the\nset of permutations of the numbers $\\{1,\\ldots, k\\}$. A permutation\n$\\tau\\in S(p+q)$ is a $(p,q)$ *shuffle* if $$\\begin{aligned}\n\\tau(1)< &\\cdots& < \\tau(p), \\\\\n\\tau(p+1)< &\\cdots& < \\tau(p+q).\\end{aligned}$$ The set of all $(p,q)$\nshuffles is denoted by $S(p,q)$.\n\nIt is clear that $S(p,q)\\subset S(p+q)$. Since a $(p,q)$ shuffle is\ncompletely determined by how the $p$ first elements are mapped, the\ncardinality of $S(p,q)$ is ${p+q \\choose p}$. The wedge product of a\n$p$-form and a $q$-form can be defined as a sum over $(p,q)$ shuffles.",
+  "language": "INFORMAL",
+  "phrase": "$(P,Q)$ Shuffle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/pqShuffle"
+    }
+  ],
+  "indexable": true
+}

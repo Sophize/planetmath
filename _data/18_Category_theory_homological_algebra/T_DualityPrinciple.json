@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Sigma$ be any statement of the elementary theory of an abstract\ncategory. We form the dual of $\\Sigma$ as follows:\n\n1.  Replace each occurrence of \u201cdomain\u201d in $\\Sigma$ with \u201ccodomain\u201d and\n    conversely.\n\n2.  Replace each occurrence of $g \\circ f =h$ with $f \\circ g = h$\n\nInformally, these conditions state that the dual of a statement is\nformed by reversing arrows and compositions. For example, consider the\nfollowing statements about a category $\\mathcal{C}$:\n\n-   $f:A \\to B$\n\n-   $f$ is monic, i.e. for all morphisms $g,h$ for which composition\n    makes sense, $f \\circ g = f \\circ h$ implies $g=h$.\n\nThe respective dual statements are\n\n-   $f:B \\to A$\n\n-   $f$ is epi, i.e. for all morphisms $g,h$ for which composition makes\n    sense, $g \\circ f = h \\circ f$ implies $g=h$.\n\nThe *duality principle* asserts that if a statement is a theorem, then\nthe dual statment is also a theorem. We take \u201ctheorem\u201d here to mean\nprovable from the axioms of the elementary theory of an abstract\ncategory. In practice, for a valid statement about a particular category\n$\\mathcal{C}$, the dual statement is valid in the dual category\n$\\mathcal{C}^{*}$ ($\\mathcal{C}^{op}$).\n\nIf the property $\\Sigma$ is the same as its dual, then it is called\n*self-dual*.",
+  "language": "INFORMAL",
+  "phrase": "Duality Principle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DualityPrinciple"
+    }
+  ],
+  "indexable": true
+}

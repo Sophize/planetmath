@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\Delta = \\{z: {| z |} < 1\\}$ be the open unit disk in the complex\nplane ${\\mathbb{C}}$. Let $f\\colon\\Delta\\to\\Delta$ be a holomorphic\nfunction with $f(0)=0$. Then ${| f(z) |} \\le {| z |}$ for all\n$z\\in\\Delta$, and ${| f'(0) |} \\le 1$. If the equality\n${| f(z) |}={| z |}$ holds for *any* $z\\ne 0$ or ${| f'(0) |}=1$, then\n$f$ is a rotation: $f(z)=az$ with ${| a |}=1$.\n\nThis lemma is less celebrated than the bigger guns (such as the Riemann\nmapping theorem, which it helps prove); however, it is one of the\nsimplest results capturing the \u201crigidity\u201d of holomorphic functions. No\nresult exists for real functions, of course.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchwarzLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Schwarz lemma"
+  ]
+}

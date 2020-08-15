@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space and suppose that $x\\in X$. If\n$\\{x\\}=\\overline{\\{x\\}}$ then we say that $x$ is a *closed point*. In\nother words, $x$ is closed if $\\lbrace x\\rbrace$ is a closed set.\n\nFor example, the real line $\\mathbb{R}$ equipped with the usual metric\ntopology, every point is a closed point.\n\nMore generally, if a topological space is , then every point in it is\nclosed. If we remove the condition of being $T_1$, then the property\nfails, as in the case of the Sierpinski space $X=\\lbrace x,y\\rbrace$,\nwhose open sets are $\\varnothing$, $X$, and $\\lbrace x \\rbrace$. The\nclosure of $\\lbrace x\\rbrace$ is $X$, not $\\lbrace x\\rbrace$.",
+  "language": "INFORMAL",
+  "phrase": "Closed Point",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosedPoint"
+    }
+  ],
+  "indexable": true
+}

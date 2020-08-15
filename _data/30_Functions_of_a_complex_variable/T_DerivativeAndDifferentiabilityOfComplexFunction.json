@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f(z)$ be given uniquely in a neighborhood of the point $z$ in\n$\\mathbb{C}$. If the difference quotient\n$$\\frac{\\Delta f}{\\Delta z} \\;=\\; \\frac{f(z+\\Delta z)-f(z)}{\\Delta z}$$\ntends to a finite limit $A$ as $\\Delta z \\to 0$, then $A$ is the\n[*derivative*]{} of $f$ at the point $z$ and is denoted by\n$$\\begin{aligned}\nf'(z) = A = \\lim_{\\Delta z \\to 0}\\frac{\\Delta f}{\\Delta z}.\\end{aligned}$$\nThus the difference $\\lambda = \\frac{\\Delta f}{\\Delta z}-A$ tends to\nzero simultaneously with $\\Delta z$, and $\\Delta f$ has the expansion\n$$\\Delta f = A\\Delta z+\\lambda\\Delta z.$$ If we denote\n$|\\Delta z| \\;=:\\; \\varrho$, we have\n$$\\lambda\\Delta z = \\frac{\\lambda\\Delta z}{\\varrho}\\cdot\\varrho\n\\;=\\; \\langle\\varrho\\rangle\\varrho$$ where $\\langle\\varrho\\rangle$ means\na complex number vanishing when $|\\Delta z| = \\varrho \\to 0$.\nConsequently, (1) implies $$\\begin{aligned}\n\\Delta f \\;=\\; A\\Delta z+\\langle\\varrho\\rangle\\varrho\\end{aligned}$$ in\nwhich $A = f'(z)$ and $\\varrho = |\\Delta z|$. It\u2019s easily seen that the\nconditions (1) and (2) are equivalent. The latter expresses the\n[*differentiability*]{} of $f$ at $z$. By it one can sayt that the\nincrement of $f$ is \u201clocally proportional\u201d to the increment of $z$. Cf.\nthe consideration of differential of real functions.\\\n\n[9]{} : [*Johdatus funktioteoriaan*]{} (\u2018Introduction to function\ntheory\u2019). Mercatorin kirjapaino, Helsinki (1936).\n\n: [*Funktioteoria*]{}. Kustannusosakeyhti\u00f6 Otava, Helsinki (1963).\n\n\\",
+  "language": "INFORMAL",
+  "phrase": "Derivative And Differentiability Of Complex Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivativeAndDifferentiabilityOfComplexFunction"
+    }
+  ],
+  "indexable": true
+}

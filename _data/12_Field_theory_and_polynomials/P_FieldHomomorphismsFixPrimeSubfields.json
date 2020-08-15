@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $F$ and $K$ be fields having the same prime subfield $L$ and\n$\\varphi \\colon F \\to K$ be a field homomorphism. Then $\\varphi$ fixes\n$L$.\n\nWithout loss of generality, it will be assumed that $L$ is either\n$\\mathbb{Q}$ or $\\mathbb{Z}/c\\mathbb{Z}$.\n\nSince $\\varphi$ is a field homomorphism, $\\varphi(0)=0$, $\\varphi(1)=1$,\nand, for every $x \\in F$, $\\varphi(-x)=-\\varphi(x)$.\n\nLet $n \\in \\mathbb{Z}$ and $c$ be the characteristic of $F$. Then\n\n  -------------- ---------------------------------------------------------------------------------------------------------------------------\n    $\\varphi(n)$ $\\equiv \\varphi(\\operatorname{sign}(n)|n|) \\operatorname{mod} c$, where $\\operatorname{sign}$ denotes the signum function\n                 $\\displaystyle \\equiv \\operatorname{sign}(n)\\varphi(|n|) \\operatorname{mod} c$\n                 $\\displaystyle \\equiv \\operatorname{sign}(n)\\varphi\\left(\\sum_{j=1}^{|n|} 1\\right) \\operatorname{mod} c$\n                 $\\displaystyle \\equiv \\operatorname{sign}(n)\\sum_{j=1}^{|n|} \\varphi(1) \\operatorname{mod} c$\n                 $\\displaystyle \\equiv \\operatorname{sign}(n)\\sum_{j=1}^{|n|} 1 \\operatorname{mod} c$\n                 $\\equiv \\operatorname{sign}(n)|n| \\operatorname{mod} c$\n                 $\\equiv n \\operatorname{mod} c$.\n  -------------- ---------------------------------------------------------------------------------------------------------------------------\n\nThis the proof in the case that $c$ is prime.\n\nNow consider $c=0$. Let $x \\in \\mathbb{Q}$. Then there exist\n$a,b \\in \\mathbb{Z}$ with $b>0$ such that $\\displaystyle x=\\frac{a}{b}$.\nThus,\n$\\displaystyle b\\varphi(x)=\\sum_{j=1}^b\\varphi\\left(\\frac{a}{b}\\right)=\\varphi\\left(\\sum_{j=1}^b \\frac{a}{b}\\right)=\\varphi(a)=a$.\nTherefore, $\\displaystyle \\varphi(x)=\\frac{a}{b}=x$. Hence, $\\varphi$\nfixes $\\mathbb{Q}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FieldHomomorphismsFixPrimeSubfields"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "field homomorphisms fix prime subfields"
+  ]
+}

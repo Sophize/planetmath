@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "indecomposable"
+  ],
+  "definition": "By definition, an *indecomposable group* is a nontrivial group that\ncannot be expressed as the internal direct product of two proper normal\nsubgroups. A group that is not indecomposable is called, predictably\nenough, *decomposable*.\n\nThe analogous concept exists in module theory. An indecomposable module\nis a nonzero module that cannot be expressed as the direct sum of two\nnonzero submodules.\n\nThe following examples are left as exercises for the reader.\n\n1.  Every simple group is indecomposable.\n\n2.  If $p$ is prime and $n$ is any positive integer, then the additive\n    group $\\mathbb{Z}/p^n\\mathbb{Z}$ is indecomposable. Hence, not every\n    indecomposable group is simple.\n\n3.  The additive groups $\\mathbb{Z}$ and $\\mathbb{Q}$ are\n    indecomposable, but the additive group $\\mathbb{R}$ is decomposable.\n\n4.  If $m$ and $n$ are relatively prime integers (and both greater than\n    one), then the additive group $\\mathbb{Z}/mn\\mathbb{Z}$ is\n    decomposable.\n\n5.  Every finitely generated abelian group can be expressed as the\n    direct sum of finitely many indecomposable groups. These summands\n    are uniquely determined up to isomorphism.\n\n[**References**]{}.\n\n-   Dummit, D. and R. Foote, *Abstract Algebra*. (2d ed.), New York:\n    John Wiley and Sons, Inc., 1999.\n\n-   Goldhaber, J. and G. Ehrlich, *Algebra*. London: The Macmillan\n    Company, 1970.\n\n-   Hungerford, T., *Algebra*. New York: Springer, 1974.",
+  "language": "INFORMAL",
+  "phrase": "Indecomposable Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndecomposableGroup"
+    }
+  ],
+  "indexable": true
+}

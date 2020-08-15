@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose a point $p$ lies in the convex hull of a set\n$P\\subset \\mathbb{R}^d$. Then there is a subset $P'\\subset P$ consisting\nof no more than $d+1$ points such that $p$ lies in the convex hull of\n$P'$.\n\nFor example, if a point $p$ is contained in a convex hull of a set\n$P\\subset \\mathbb{R}^2$, then there are three points in $P$ that\ndetermine the triangle containing $p$, provided, of course, that $P$\ncontains at least three points.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CaratheodorysTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Carath\\'eodory's theorem"
+  ]
+}

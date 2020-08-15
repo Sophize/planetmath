@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*slope angle*]{} $\\alpha$ of any line in $\\mathbb{R}^2$ is the the\nline and $x$-axis; in the case that the line is descending, the angle is\nnegative. We always have that $-90^{\\circ}<\\alpha\\le 90^{\\circ}$.\n\nFor all non-vertical lines having a slope of $m$, the slope angle is\n\n$$\\alpha=\\arctan{m},$$\n\nand we also have that\n\n$$m=\\tan\\alpha.$$\n\nBelow are some examples of slope angles of lines that intersect the\n$x$-axis.\n\n(-7,-3)(7,3) (-7,0)[.]{} (1,3)[.]{} (7,-3)[.]{} (-7,0)(-1,0) (1,0)(7,0)\n(-7,-2)(-1,2) (1,3)(7,-3) (-4,0)[0.3]{}[0]{}[33.69]{}\n(4,0)[0.3]{}[-40.5]{}[0]{} (-3.2,0.2)[$\\alpha$]{}\n(5.0,-0.3)[$|\\alpha|$]{} (-0.8,-0.2)[$x$]{} (7.15,-0.2)[$x$]{}\n(-3.5,-2.5)[$\\mbox{positive \\,}\\alpha$]{}\n(3.5,-2.5)[$\\mbox{negative \\,}\\alpha$]{}\n\nIn some mathematical works, the slope angle of a line in $\\mathbb{R}^2$\nis defined to be the angle measured from the positive $x$-axis to the\nline in the counterclockwise direction. This definition has some\ndrawbacks because slope angles are then allowed to be obtuse but can no\nlonger be negative. When this definition is used, the\n$\\alpha=\\arctan{m}$ no longer holds. The convention in PlanetMath is to\nuse the former definition.\n\n[9]{} \u201cSlope, Distance and Equation Calculator.\u201d [*1729 Software\nSystems.*]{} Accessed on 24 June 2007. URL: \u201cSlope angle.\u201d *McGraw-Hill\nDictionary of Scientific and Technical Terms.* McGraw-Hill Companies,\nInc., 2003. Accessed via Answers.com on 7 June 2007. URL:",
+  "language": "INFORMAL",
+  "phrase": "Slope Angle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SlopeAngle"
+    }
+  ],
+  "indexable": true
+}

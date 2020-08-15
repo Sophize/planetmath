@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $R$ is a left semisimple ring, then\n$$R \\cong \\mathbb{M}_{n_1}(D_1) \\times \\cdot\\cdot\\cdot \\times \\mathbb{M}_{n_r}(D_r)$$\nwhere each $D_i$ is a division ring and $\\mathbb{M}_{n_i}(D_i)$ is the\nmatrix ring over $D_i$, $i = 1, 2, \\ldots, r$. The positive integer $r$\nis unique, and so are the division rings (up to permutation).\n\nSome immediate consequences of this theorem:\n\n-   A Artinian ring is isomorphic to a matrix ring over a division ring.\n\n-   A commutative semisimple ring is a finite direct product of fields.\n\nThis theorem is a special case of the more general theorem on\nsemiprimitive rings.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WedderburnArtinTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Wedderburn-Artin theorem",
+    "structure theorem on semisimple rings",
+    "Artin-Wedderburn theorem"
+  ]
+}

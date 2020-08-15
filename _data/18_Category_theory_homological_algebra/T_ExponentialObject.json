@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ be a category with finite products and $A,B$ be\nobjects in $\\mathcal{C}$. An object $E$ in $\\mathcal{C}$ is called an\n*exponential object* from $A$ to $B$ if it satisfies the following\nconditions:\n\n-   there is a morphism $f:E\\times A\\to B$, called an *evaluation\n    morphism*\n\n-   for any morphism $g:C\\times A\\to B$, there is a unique morphism\n    $h:C\\to E$ such that $f\\circ (h\\times 1_A)=g$, where\n    $h\\times 1_A:C\\times A\\to E\\times A$ is the product morphism of $h$\n    and the identity morphism on $A$.\n\nThe two conditions can be summarized by the following commutative\ndiagram:\n\n$\n\\xymatrix@R-=20pt{\nE\\times A\\ar[dr]^f\\\\\n&B\\\\\nC\\times A\\ar[ur]_g\\ar[uu]^{h\\times 1_A}\n}\n$\n\nwhere $h$ is uniquely determined by $g$. It is easy to see that any two\nexponential objects from $A$ to $B$ are isomorphic, hence the existence\nof an exponential objects between two objects is a universal property.\nWe may write $B^A (\\cong E$ above) *the* exponential object from $A$ to\n$B$.\n\nFor example, in the category of sets, $\\textbf{Set}$, where products\nclearly exist (empty set is a set!) between pairs of objects (sets), the\nexponential from $A$ to $B$ is the set $B^A$, which is defined as the\nset of all functions from $A$ to $B$. The evaluation morphism is the\nfunction $ev: B^A\\times A\\to B$ given by $ev(f,a)=f(a)$, where\n$f\\in B^A$ and $a\\in A$. If $g:C\\times A\\to B$ is any function, then we\ndefine $h:C\\to B^A$ by $h(c)(a)=g(c,a)$. Then\n$ev\\circ (h\\times 1_A)(c,a)=ev(h(c),a)=h(c)(a)=g(c,a)$, and $ev$ is\nuniversal (in the sense of the second condition above).\n\nSince each $h$ is uniquely determined by $g$ in the above definition,\nand conversely every $h$ determines a $g$ by the formula\n$g=f\\circ (h\\times 1_A)$, we have a bijection\n$$\\hom(C\\times A,B)\\cong \\hom(C,B^A).$$\n\nIf an exponential object exists between every pair of objects in\ncategory $C$ with finite products, then we say that $C$ *has\nexponentials*. According to the bijection above, we see that the functor\n$\\cdot\\times A:\\mathcal{C}\\to \\mathcal{C}$ has a right adjoint, namely\n$\\cdot ^A:\\mathcal{C}\\to\\mathcal{C}$, called the *exponential functor*.\n\nIt can be seen that a category $C$ with finite products has exponentials\niff the covariant function $\\cdot\\times A:\\mathcal{C}\\to\\mathcal{C}$ has\na right adjoint for every object $A$ in $\\mathcal{C}$.",
+  "language": "INFORMAL",
+  "phrase": "Exponential Object",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExponentialObject"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Schauder basis"
+  ],
+  "definition": "A [*countable basis*]{} $\\beta$ of a vector space $V$ over a field $F$\nis a countable subset $\\beta \\subset V$ with the property that every\nelement $v \\in V$ can be written as an infinite series\n$$v = \\sum_{x \\in \\beta} a_x x$$ in exactly one way (where $a_x \\in F$).\nWe are implicitly assuming, without further comment, that the vector\nspace $V$ has been given a topological structure or normed structure in\nwhich the above infinite sum is absolutely convergent (so that it\nconverges to $v$ regardless of the order in which the terms are summed).\n\nThe archetypical example of a countable basis is the Fourier series of a\nfunction: every continuous real-valued periodic function $f$ on the unit\ncircle $S^1 = \\mathbb{R}/2\\pi$ can be written as a Fourier series\n$$f(x) = \\sum_{n=0}^\\infty a_n \\cos(n x) + \\sum_{n=1}^\\infty b_n \\sin(n x)$$\nin exactly one way.\n\nNote: A countable basis is a countable set, but it is not usually a\nbasis.",
+  "language": "INFORMAL",
+  "phrase": "Countable Basis",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CountableBasis"
+    }
+  ],
+  "indexable": true
+}

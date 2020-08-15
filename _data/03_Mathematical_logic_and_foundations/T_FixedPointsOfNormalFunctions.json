@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $f\\colon M\\rightarrow\\mathbf{On}$ is a function from any set of\nordinals to the class of ordinals then\n$\\operatorname{Fix}(f)=\\{x\\in M\\mid f(x)=x\\}$ is the set of fixed points\nof $f$. $f^\\prime$, the *derivative* of $f$, is the enumerating function\nof $\\operatorname{Fix}(f)$.\n\nIf $f$ is then $\\operatorname{Fix}(f)$ is $\\kappa$-closed and\n$\\kappa$-normal, and therefore $f^\\prime$ is also $\\kappa$-normal.\n\nFor example, the function which takes an ordinal $\\alpha$ to the ordinal\n$1+\\alpha$ has a fixed point at every ordinal $\\geq\\omega$, so\n$f^\\prime(\\alpha)=\\omega+\\alpha$.",
+  "language": "INFORMAL",
+  "phrase": "Fixed Points Of Normal Functions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FixedPointsOfNormalFunctions"
+    }
+  ],
+  "indexable": true
+}

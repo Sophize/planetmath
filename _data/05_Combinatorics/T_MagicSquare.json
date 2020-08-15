@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A magic square of order $n$ is an $n\\times n$ array using each one of\nthe numbers $1,2,3,\\ldots,n^2$ once and such that the sum of the numbers\nin each row, column or main diagonal is the same.\n\nExample: $$\\begin{pmatrix}\n8 & 1 & 6\\\\\n3 & 5 & 7\\\\\n4 & 9  & 2\n\\end{pmatrix}$$\n\nIt\u2019s easy to prove that the sum is always $\\frac{1}{2}n(n^2+1)$. So in\nthe example with $n=3$ the sum is always $\\frac{1}{2}(3\\times 10)=15$.\n\nOne way to generalize this concept is to allow any numbers in the\nentries, instead of $1,2,\\ldots,n$.",
+  "language": "INFORMAL",
+  "phrase": "Magic Square",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MagicSquare"
+    }
+  ],
+  "indexable": true
+}

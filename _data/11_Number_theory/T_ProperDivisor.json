@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "aliquot part",
+    "restricted divisor"
+  ],
+  "definition": "If a divisor $d$ of $n$ (that is, $d|n$) satisfies $0 < |d| < |n|$, then\n$d$ is a [*proper divisor*]{} of $n$. In the realm of real positive\nintegers, it is usually considered sufficient to list the positive\ndivisors. For example, the proper divisors of 42 are 1, 2, 3, 6, 7, 14,\n21.\n\nBy restricting the sum of divisors to proper divisors, some $n$ will be\nless than this sum (deficient numbers, including prime numbers), some\nwill be equal (perfect numbers) and some will be greater (abundant\nnumbers). The term [*restricted divisor*]{} is sometimes used to further\ndistinguish divisors in the range $1 < |d| < |n|$ (and sometimes it used\nto mean the same thing as proper divisor). Thus, in our example, the\nlist would be shortened to 2, 3, 6, 7, 14, 21.",
+  "language": "INFORMAL",
+  "phrase": "Proper Divisor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProperDivisor"
+    }
+  ],
+  "indexable": true
+}

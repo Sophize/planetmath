@@ -1,0 +1,17 @@
+{
+  "argumentText": "By Schur\u2019s theorem, a unitary matrix $U$ and an upper triangular matrix\n$T$ exist such that $A=UTU^H$, $T$ being diagonal if and only if $A$ is\nnormal. Then $A^HA=UT^HU^HUTU^H=UT^HTU^H$, which means $A^HA$ and $T^HT$\nare similar; so they have the same trace. We have:\n\n$\\|A\\|_F^2=\\operatorname{Tr}(A^HA)=\\operatorname{Tr}(T^HT)=\\sum_{i=1}^n\\left|\\lambda_i\\right|^2+\\sum_{i<j}\\left|t_{ij}\\right|^2=$\n\n$=\\operatorname{Tr}(D^HD)+\\sum_{i<j}\\left|t_{ij}\\right|^2\\geq\\operatorname{Tr}(D^HD)=\\|D\\|_F^2.$\n\nIf and only if $A$ is normal, $T=D$ and therefore equality\nholds.$\\square$",
+  "conclusion": "#P_SchursInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfSchursInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Schur's inequality"
+  ]
+}

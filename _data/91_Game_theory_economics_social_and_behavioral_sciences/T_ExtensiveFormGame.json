@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A game in *extensive form* is one that can be represented as a tree,\nwhere each node corresponds to a choice by one of the players. Unlike a\nnormal form game, in an extensive form game players make choices\nsequentially. However players do not necessarily always know which node\nthey are at (that is, what moves have already been made).\n\nFormally, an extensive form game is a set of nodes together with a\nfunction for each non-terminal node. The function specifies which player\nmoves at that node, what actions are available, and which node comes\nnext for each action. For each terminal node, there is instead a\nfunction defining utilities for each player when that node is the one\nthe game results in. Finally the nodes are partitioned into information\nsets, where any two nodes in the same information set must have the same\nactions and the same moving player.\n\nA pure strategy for each player is a function which, for each\ninformation set, selects one of the available actions. That is, if\nplayer $i$\u2019s information sets are $h_1,h_2,\\ldots,h_m$ with\ncorresponding sets actions $a_1,a_2,\\ldots,a_m$ then\n$S_i=\\prod_x h_x\\rightarrow \\prod_x a_x$.",
+  "language": "INFORMAL",
+  "phrase": "Extensive Form Game",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtensiveFormGame"
+    }
+  ],
+  "indexable": true
+}

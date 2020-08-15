@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Induced Operators\n=================\n\nLet $(X_1, \\mathfrak{B}_1, \\mu_1)$ and $(X_2, \\mathfrak{B}_2, \\mu_2)$ be\nmeasure spaces and denote by $L^0(X_1)$ and $L^0(X_2)$ the corresponding\nspaces of measurable functions (with values in $\\mathbb{C}$).\n\n[**Definition -**]{} If $T: X_1 \\longrightarrow X_2$ is a\nmeasure-preserving transformation we can define an operator\n$U_T:L^0(X_2) \\longrightarrow L^0(X_1)$ by\n\n$$(U_T f)(x):=f(Tx)\\,, \\qquad\\qquad f \\in L^0(X_2),\\; x \\in X_1$$\n\nThe operator $U_T$ is called the *by $T$*.\n\nMany ideas in ergodic theory can be explored by studying this operator.\n\nBasic Properties\n================\n\nThe following are clear:\n\n-   $U_T$ is linear.\n\n-   $U_T$ maps real valued functions to real valued functions.\n\n-   If $f \\geq 0$ then $U_Tf \\geq 0$\n\n-   $U_T k = k$ for every constant function $k$.\n\n-   $U_T(fg)=U_T(f)U_T(g)$.\n\n-   $U_T$ maps characteristic functions to characteristic functions.\n    Moreover, $U_T \\chi_B = \\chi_{T^{-1}B}$, for every measurable set\n    $B \\in \\mathfrak{B}_2$.\n\n-   If $T_1:X_1 \\longrightarrow X_2$ and $T_2:X_2 \\longrightarrow X_3$\n    are measure preserving maps, then\n    $U_{T_2 \\circ T_1} = U_{T_1}U_{T_2}$.\n\nPreserving Integrals\n====================\n\n[**Theorem 1 -**]{} If $f \\in L^0(X_2)$ then\n$\\int_{X_1} U_Tf\\;d\\mu_1 = \\int_{X_2} f\\;d\\mu_2$, where if one side does\nnot exist or is infinite, then the other side has the same property.\n\nInduced Isometries\n==================\n\nIt can further be seen that a measure-preserving transformation induces\nan isometry between , for $p \\geq 1$.\n\n[**Theorem 2 -**]{} Let $p \\geq 1$. We have that\n$U_T(L^p(X_2)) \\subseteq L^p(X_1)$ and, moreover,\n$$\\|U_T(f)\\|_p = \\|f\\|_p\\,, \\qquad\\qquad \\text{for all}\\; f \\in L^p(X_2)$$\n\n$\\,$\n\nThus, when restricted to $L^p$-spaces, $U_T$ is called the *isometry\ninduced by $T$*.",
+  "language": "INFORMAL",
+  "phrase": "Operator Induced By A Measure Preserving Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OperatorInducedByAMeasurePreservingMap"
+    }
+  ],
+  "indexable": true
+}

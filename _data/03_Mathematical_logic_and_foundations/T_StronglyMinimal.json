@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $L$ be a first order language and let $M$ be an $L$-structure. Let\n$S$, a subset of the domain of $M$ be a definable infinite set. Then $S$\nis [*minimal*]{} iff every definable $C \\subseteq S$ we have either $C$\nis finite or $S \\setminus C$ is finite. We say that $M$ is [*minimal*]{}\niff the domain of $M$ is a strongly minimal set.\n\nWe say that $M$ is [*strongly minimal*]{} iff for every $N \\equiv M$, we\nhave that $N$ is minimal. Thus if $T$ is a complete $L$ theory then we\nsay $T$ is [*strongly minimal*]{} if it has some model (equivalently all\nmodels) which is strongly minimal.\n\nNote that $M$ is strongly minimal iff every definable subset of $M$ is\nquantifier free definable in a language with just equality. Compare this\nto the notion of o-minimal structures.",
+  "language": "INFORMAL",
+  "phrase": "Strongly Minimal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StronglyMinimal"
+    }
+  ],
+  "indexable": true
+}

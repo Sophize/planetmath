@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f(z)$ be a complex analytic function on the annulus\n$r_1\\leq{\\left\\lvert z\\right\\rvert}\\leq r_3$. Let $M(r)$ be the maximum\nof ${\\left\\lvert f(z)\\right\\rvert}$ on the circle\n${\\left\\lvert z\\right\\rvert}=r$. Then $\\log M(r)$ is a convex function\nof $\\log r$. Moreover, if $f(z)$ is not of the form $cz^\\lambda$ for\nsome $\\lambda$, then $\\log M(r)$ is a as a function of $\\log r$.\n\nThe conclusion of the theorem can be restated as\n$$\\log\\frac{r_3}{r_1} \\log M(r_2) \\leq \\log\\frac {r_3}{r_2} \\log M(r_1) + \n\\log\\frac {r_2}{r_1} \\log M(r_3)$$ for any three concentric circles of\nradii $r_1<r_2<r_3$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HadamardThreecircleTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hadamard three-circle theorem"
+  ]
+}

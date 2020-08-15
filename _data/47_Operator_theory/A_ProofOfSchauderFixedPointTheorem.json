@@ -1,0 +1,17 @@
+{
+  "argumentText": "The idea of the proof is to reduce to the finite dimensional case where\nwe can apply the Brouwer fixed point theorem.\n\nGiven $\\epsilon>0$ notice that the family of open sets\n$\\{ B_\\epsilon(x)\\colon x\\in K\\}$ is an open covering of $K$. Being $K$\ncompact there exists a finite subcover, i.e. there exists $n$ points\n$x_1,\\ldots, x_n$ of $K$ such that the balls $B_\\epsilon(x_i)$ cover the\nwhole set $K$.\n\nDefine the functions $g_1, \\ldots, g_n$ by $$g_i(x):=\n\\begin{cases}\n\\epsilon -\\|x-x_i\\|, & \\;\\;\\textrm{if $\\|x-x_i\\| \\leq \\epsilon$} \\\\\n0, & \\;\\;\\textrm{if $\\|x-x_i\\| \\geq \\epsilon$}\n\\end{cases}$$\n\nIt is clear that each $g_i$ is continuous, $g_i(x) \\geq 0$ and\n$\\sum_{i=1}^n g_i(x) > 0$ for every $x \\in K$.\n\nThus we can define a function in $K$ by\n$$g(x):= \\frac{\\sum_{i=1}^n g_i(x) x_i}{\\sum_{i=1}^n g_i(x)}$$\n\nThe above function $g$ is a continuous function from $K$ to the convex\nhull $K_0$ of $x_1, \\ldots, x_n$. Moreover one can easily prove the\nfollowing $$\\|g(x)-x\\| \\leq \\epsilon \\quad\\;\\; \\forall_{x \\in K}$$\n\nNow, define the function $B:=g \\circ f$. The restriction $\\tilde{B}$ of\n$B$ to $K_0$ provides a continuous function $K_0 \\longrightarrow K_0$.\n\nSince $K_0$ is compact convex subset of a finite dimensional vector\nspace, we can apply the Brouwer fixed point theorem to assure the\nexistence of $z \\in K_0$ such that $$B(z) = \\tilde{B}(z) = z$$\n\nTherefore $g(f(z)) = z$ and we have the inequality\n$$\\|f(z) - z\\| = \\|f(z) - g(f(z))\\| \\leq \\epsilon$$\n\nSummarizing, for each $\\epsilon >0$ there exists $z = z(\\epsilon) \\in K$\nsuch that $\\|f(z) - z\\| \\leq \\epsilon$. Then\n\n$$\\forall_{m \\in \\mathbb{N}} \\quad\\;\\; \\exists_{z_m \\in K} \\quad\\;\\; \\|f(z_m)-z_m\\| \\leq \\frac{1}{m}$$\n\nAs $f(z_m)$ is in the compact space $K$, there is a subsequence\n$z_{m_k}$ such that $f(z_{m_k}) \\longrightarrow x_0$, for some\n$x_0 \\in K$.\n\nWe then have $$\\begin{aligned}\n\\|z_{m_k} -x_0\\| & = & \\|z_{m_k} - f(z_{m_k}) +f(z_{m_k}) -x_0\\| \\\\\n& \\leq & \\|f(z_{m_k})-z_{m_k}\\| + \\|f(z_{m_k}) - x_0\\| \\\\\n& \\leq & \\frac{1}{m_k} + \\|f(z_{m_k}) - x_0\\| \\longrightarrow 0\\end{aligned}$$\nwhich means that $z_{m_k} \\longrightarrow x_0$.\n\nAs $f$ is continuous we have $f(z_{m_k}) \\longrightarrow f(x_0)$. Both\nlimits of $f(z_{m_k})$ must coincide, so we conclude that $$f(x_0)=x_0$$\n\ni.e. $f$ has a fixed point. $\\square$",
+  "conclusion": "#P_SchauderFixedPointTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfSchauderFixedPointTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Schauder fixed point theorem"
+  ]
+}

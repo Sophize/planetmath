@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{A}$ be an abelian category. Let\n$M\\in\\operatorname{Ob}(\\mathcal{A})$. If there is an exact sequence\n$$\\xymatrix{0\\ar[r]&S\\ar[r]&P_n\\ar[r]&{\\cdots}\\ar[r]&P_1\\ar[r]&P_0\\ar[r]&M\\ar[r]&0},$$\nwhere each $P_i$ is a projective object in $\\mathcal{A}$, then we call\n$S$ an $n$th *syzygy* of $M$.\n\nIf $S$ is itself projective, then the projective dimension of $M$,\n$\\operatorname{pd}(M)$, is less than or equal to $n$.\n\n**Remark**.\n\n1.  The word \u201csyzygy\u201d is used in astromony to describe three celestial\n    objects (usually the Sun, Moon and Earth, or the Sun, Earth and\n    Moon) being collinear.\n\n2.  Any two $n$th syzygies of a given object are projectively\n    equivalent.",
+  "language": "INFORMAL",
+  "phrase": "Syzygy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Syzygy"
+    }
+  ],
+  "indexable": true
+}

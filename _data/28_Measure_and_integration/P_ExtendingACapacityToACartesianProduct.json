@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A capacity on a set $X$ can be extended to a set function on a Cartesian\nproduct $X\\times K$ simply by projecting any subset onto $X$, and then\napplying the original capacity.\n\nSuppose that $(X,\\mathcal{F})$ is a paved space such that $\\mathcal{F}$\nis closed under finite unions and finite intersections, and that\n$(K,\\mathcal{K})$ is a compact paved space. Define $\\mathcal{G}$ to be\nthe closure under finite unions and finite intersections of the paving\n$\\mathcal{F}\\times\\mathcal{K}$ on $X\\times K$.\n\nIf $I$ is an $\\mathcal{F}$-capacity and $\\pi_X\\colon X\\times K\\to X$ is\nthe projection map, we can form the composition $$\\begin{aligned}\n&I\\circ\\pi_X\\colon\\mathcal{P}(X\\times K)\\to\\mathbb{R},\\\\\n&I\\circ\\pi_X(S) = I(\\pi_X(S)).\\end{aligned}$$ Then\n$\\pi_X(S)\\in \\mathcal{F}_\\delta$ for any $S\\in\\mathcal{G}_\\delta$, and\n$I\\circ\\pi_X$ is a $\\mathcal{G}$-capacity.\n\nThis result justifies looking at capacities when considering projections\nfrom the Cartesian product $X\\times K$ onto $X$. We see that the\nproperty of being a capacity is preserved under composing with such\nprojections. However, additivity of set functions is not preserved, so\nthe corresponding result would not be true if \u201ccapacity\u201d was replaced by\n\u201cmeasure\u201d or \u201couter measure\u201d.\n\nRecall that if $S\\subseteq X\\times K$ is\n$(\\mathcal{G},I\\circ\\pi_X)$-capacitable then, for any $\\epsilon>0$,\nthere is an $A\\in\\mathcal{G}_\\delta$ such that $A\\subseteq S$ and\n$I\\circ\\pi_X(A)>I\\circ\\pi_X(S)-\\epsilon$. However,\n$\\pi_X(A)\\subseteq\\pi_X(S)$ and, by the above theorem,\n$\\pi_X(A)\\in\\mathcal{F}_\\delta$. This has the following consequence.\n\nLet $S\\subseteq X\\times K$ be $(\\mathcal{G},I\\circ\\pi_X)$-capacitable.\nThen, $\\pi_X(S)$ is $(\\mathcal{F},I)$-capacitable.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtendingACapacityToACartesianProduct"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "extending a capacity to a Cartesian product"
+  ]
+}

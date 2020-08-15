@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Simpson\u2019s $\\frac{3}{8}$ rule is a method for approximating a definite\nintegral by evaluating the integrand at finitely many points. The formal\nrule is given by\n$$\\int_{x_{0}}^{x_{3}}f(x)\\,dx\\;\\approx\\;\\frac{3h}{8}\\left[f(x_{0})+3f(x_{1})+3f(x_{2})+f(x_{3})\\right]$$\nwhere $x_1=x_0+h$, $x_2=x_0+2h$, $x_3=x_0+3h$.\n\nSimpson\u2019s $\\frac{3}{8}$ rule is the third Newton-Cotes quadrature\nformula. It has degree of precision 3. This means it is exact for\npolynomials of degree less than or equal to three. Simpson\u2019s\n$\\frac{3}{8}$ rule is an improvement to the traditional Simpson\u2019s rule.\nThe extra function evaluation gives a slightly more accurate\napproximation . We can see this with an example.\n\nUsing the fundamental theorem of the calculus, one shows\n\n$$\\int_{0}^{\\pi}\\sin(x)\\,dx =2.$$\n\nIn this case Simpson\u2019s rule gives,\n$$\\int_{0}^{\\pi}\\sin(x)\\,dx\\,\\approx\\;\\frac{\\pi}{6}\\left[\\sin(0)+4\\sin\\left(\\frac{\\pi}{2}\\right)+\\sin(\\pi)\\right]\\,=\\,2.094$$\n\nHowever, Simpson\u2019s $\\frac{3}{8}$ rule does slightly better.\n\n$$\\int_{0}^{\\pi}\\sin(x)\\,dx\\,\\approx\\;\\left(\\frac{3}{8}\\right)\\frac{\\pi}{3}\\left[\\sin(0)+3\\sin\\left(\\frac{\\pi}{3}\\right)+3\\sin\\left(\\frac{2\\pi}{3}\\right)+\\sin(\\pi)\\right]\\,=\\,2.040$$",
+  "language": "INFORMAL",
+  "phrase": "Simpson'S 3/8 Rule",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Simpsons38Rule"
+    }
+  ],
+  "indexable": true
+}

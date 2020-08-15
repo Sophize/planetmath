@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[ **-**]{} Let $X$ be an inner product space (over $\\mathbb{R}$ or\n$\\mathbb{C}$) and $x, y \\in X$ two orthogonal vectors. Then\n$$\\|x+y\\|^2 = \\|x\\|^2 + \\|y\\|^2.$$\n\n[**Proof :**]{} As $x \\perp y$ one has $\\langle x, y \\rangle = 0$. Then\n$$\\begin{aligned}\n\\|x+y\\|^2 & = & \\langle x+y, x+y \\rangle \\\\\n& = & \\langle x, x \\rangle + \\langle x, y \\rangle + \\langle y, x \\rangle + \\langle y, y \\rangle \\\\\n& = & \\|x\\|^2 + \\langle x, y \\rangle + \\overline{\\langle x, y \\rangle} +\\|y\\|^2 \\\\\n& = & \\|x\\|^2 + \\|y\\|^2 \\qquad\\qquad\\qquad\\quad \\square\\end{aligned}$$\n\n$Remark -$ This theorem is valid (with the same proof) for spaces with a\nsemi-definite inner product.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PythagoreanTheoremInInnerProductSpaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Pythagorean theorem in inner product spaces",
+    "Pythagoras theorem in inner product spaces"
+  ]
+}

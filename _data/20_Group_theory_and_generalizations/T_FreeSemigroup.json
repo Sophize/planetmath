@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set. We define the power of $X$ in a language-theoretical\nmanner as $$X^n={\\left\\{ x_1x_2\\ldots x_n\\mid x_j\\in X\n  \\hbox{ for all }j\\in{\\left\\{ 1,\\ldots,n \\right\\}} \\right\\}}$$ for all\n$n\\in\\mathbb{N}\\setminus {\\left\\{ 0 \\right\\}}$, and\n$$X^0={\\left\\{ \\varepsilon \\right\\}},$$ where $\\varepsilon\\notin X$.\nNote that the set $X$ is not necessarily an alphabet, that is, it may be\ninfinite; for example, we may choose $X=\\mathbb{R}$.\n\nWe define the sets $X^+$ and $X^*$ as\n$$X^+=\\bigcup_{n\\in\\mathbb{N}\\setminus{\\left\\{ 0 \\right\\}}}   X^n$$ and\n$$X^*=\\bigcup_{n\\in\\mathbb{N}}   X^n  =  X^+\\cup{\\left\\{ \\varepsilon \\right\\}}.$$\nThe elements of $X^*$ are called *words* on $X$, and $\\varepsilon$ is\ncalled the *empty word* on $X$.\n\nWe define the *juxtaposition* of two words $v,w\\in X^*$ as\n$$vw=v_1v_2\\ldots v_n w_1w_2\\ldots w_m,$$ where $v=v_1v_2\\ldots v_n$ and\n$w=w_1w_2\\ldots w_m$, with $v_i,w_j\\in X$ for each $i$ and $j$. It is\neasy to see that the juxtaposition is associative, so if we equip $X^+$\nand $X^*$ with it we obtain respectively a semigroup and a monoid.\nMoreover, $X^+$ is the *free semigroup* on $X$ and $X^*$ is the *free\nmonoid* on $X$, in the sense that they solve the following universal\nmapping problem: given a semigroup $S$ (resp.\u00a0a monoid $M$) and a map\n$\\Phi\\colon X\\to S$ (resp.\u00a0$\\Phi\\colon X\\to M$), a semigroup\nhomomorphism $\\overline\\Phi\\colon X^+\\to S$ (resp.\u00a0a monoid homomorphism\n$\\overline\\Phi\\colon X^*\\to M$) exists such that the following diagram\ncommutes: $$\\xymatrix{\n  & X \\ar[r]^{\\iota} \\ar[d]_{\\Phi} & X^+ \\ar[dl]^{\\overline{\\Phi}} \\\\\n  & S &\n  }$$ (resp. $$\\xymatrix{\n  & X \\ar[r]^{\\iota} \\ar[d]_{\\Phi} & X^* \\ar[dl]^{\\overline{\\Phi}} \\\\\n  & M &\n  }$$ ), where $\\iota\\colon X\\to X^+$ (resp.\u00a0$\\iota\\colon X\\to X^*$) is\nthe inclusion map. It is well known from universal algebra that $X^+$\nand $X^*$ are unique up to isomorphism.\n\n[9]{} J.M. Howie, *[Fundamentals of Semigroup Theory]{}, Oxford\nUniversity Press, Oxford, 1991.*",
+  "language": "INFORMAL",
+  "phrase": "Free Semigroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FreeSemigroup"
+    }
+  ],
+  "indexable": true
+}

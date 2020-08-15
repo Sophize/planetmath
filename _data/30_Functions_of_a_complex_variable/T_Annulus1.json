@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "open annulus",
+    "annular region"
+  ],
+  "definition": "An *annulus* is the region bounded between two (usually concentric)\ncircles.\n\nAn *open annulus* is a domain in the complex plane of the form\n$$A = A_w(r,R) = \\{z \\in {\\mathbb{C}}: r < |z-w| < R\\},$$ where $w$ is\nan arbitrary complex number, and $r$ and $R$ are real numbers with\n$0 < r < R$. Such a set is often called an *annular region*.\n\nIt should be noted that the annulus usually refers to an open annulus.\n\nMore generally, one can allow $r = 0$ or $R = \\infty$. (This makes sense\nfor the purposes of the bound on $|z-w|$ above.) This would make an\nannulus include the cases of a punctured disc, and some unbounded\ndomains.\n\nAnalogously, a *closed annulus* is a set of the form\n$${\\overline{A}} = {\\overline{A}}_w(r,R) = \\{z \\in {\\mathbb{C}}: r \\leq |z-w| \\leq R\\},$$\nwhere $w \\in {\\mathbb{C}}$, and $r$ and $R$ are real numbers with\n$0 < r < R$.\n\nOne can show that two annuli $D_w(r,R)$ and $D_{w'}(r',R')$ are\nconformally equivalent if and only if $R/r = R'/r'$. More generally, the\ncomplement of any closed disk in an open disk is conformally equivalent\nto precisely one annulus of the form $D_0(r,1)$.",
+  "language": "INFORMAL",
+  "phrase": "Annulus",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Annulus1"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "algorithmic entropy",
+    "information content"
+  ],
+  "definition": "The (plain) complexity $C(x)$ of a binary string $x$ is the length of a\nshortest program $p$ such that $U(p)=x$, i.e. the (plain) universal\nTuring machine on input $p$, outputs $x$ and halts. The\nlexicographically least such $p$ is denoted $x^{\\ast}$. The prefix\ncomplexity $K(x)$ is defined similarly in terms of the prefix universal\nmachine. When clear from context, $x^{\\ast}$ is also used to denote the\nlexicographically least prefix program for $x$.\n\nPlain and prefix conditional complexities $C(x|y), K(x|y)$ are defined\nsimilarly but with $U(x|y)=x$, i.e. the universal machine starts out\nwith $y$ written on its worktape.\n\nSubscripting these functions with a Turing machine $M$, as in\n$K_M(x|y)$, denotes the corresponding complexity in which we use machine\n$M$ in place of the universal machine $U$.",
+  "language": "INFORMAL",
+  "phrase": "Kolmogorov Complexity Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KolmogorovComplexityFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $n$ and $k$ be integers with $1 \\leq k \\leq n$. Denote by $Q_{k,n}$\nthe totality of all sequences of $k$ integers, where the elements of the\nsequence are strictly increasing and choosen from $\\{1, \\ldots , n\\}$.\n\nLet $A=(a_{ij})$ be an $m \\times n$ matrix with elements from some set,\nusually taken to be a field for ring. Let $k$ and $r$ be positive\nintegers with $1 \\leq k \\leq m$, $1 \\leq r \\leq n$,\n$ \\alpha \\in Q_{k,m}$ and $ \\beta \\in Q_{r,n}$. We let\n$ \\alpha = (i_1, \\ldots , i_k)$ and $ \\beta =(j_1, \\ldots , j_r)$\n\nThe submatrix $A[\\alpha, \\beta]$ has $(s,t)$ entry equal to $a_{i_sj_t}$\nand has $k$ rows and $r$ columns.\n\nWe denote by $A(\\alpha, \\beta)$ the submatrix of $A$ whose rows and\ncolumns are complementary to $\\alpha $ and $\\beta$, respectively.\n\nWe can also define similarly the notations $A[\\alpha, \\beta)$ and\n$A(\\alpha, \\beta]$.",
+  "language": "INFORMAL",
+  "phrase": "Submatrix Notation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubmatrixNotation"
+    }
+  ],
+  "indexable": true
+}

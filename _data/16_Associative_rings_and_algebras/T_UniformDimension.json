@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a module over a ring $R$, and suppose that $M$ contains no\ninfinite direct sums of non-zero submodules. (This is the same as saying\nthat $M$ is a module of finite rank.)\n\nThen there exists an integer $n$ such that $M$ contains an essential\nsubmodule $N$ where $$N = U_1 \\oplus U_2 \\oplus \\dots \\oplus U_n$$ is a\ndirect sum of $n$ uniform submodules.\n\nThis number $n$ does not depend on the choice of $N$ or the\ndecomposition into uniform submodules.\n\nWe call $n$ the *uniform dimension* of $M$. Sometimes this is written\n${\\operatorname{u-dim}}M = n$.\n\nIf $R$ is a field $K$, and $M$ is a finite-dimensional vector space over\n$K$, then ${\\operatorname{u-dim}}M = \\dim_KM$.\n\n${\\operatorname{u-dim}}M = 0$ if and only if $M = 0$.",
+  "language": "INFORMAL",
+  "phrase": "Uniform Dimension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformDimension"
+    }
+  ],
+  "indexable": true
+}

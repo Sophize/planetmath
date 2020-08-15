@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(X_1,d_1)$ and $(X_2,d_2)$ be metric spaces. A function\n$f\\colon X_1\\to X_2$ is said to be an *isometric mapping* (or *isometric\nembedding*) if $$d_1(x,y)=d_2(f(x),f(y))$$ for all $x,y\\in X_1$.\n\nEvery isometric mapping is injective, for if $x,y\\in X_1$ with $x\\neq y$\nthen $d_1(x,y)>0$, and so $d_2(f(x),f(y))>0$, and then $f(x)\\neq f(y)$.\nOne can also easily show that every isometric mapping is continuous.\n\nAn isometric mapping that is surjective (and therefore bijective) is\ncalled an *isometry*. (Readers are warned, however, that some authors do\nnot require isometries to be surjective; that is, they use the term\n[*isometry*]{} for what we have called an isometric mapping.) Every\nisometry is a homeomorphism.\n\nIf there is an isometry between the metric spaces $(X_1,d_1)$ and\n$(X_2,d_2)$, then they are said to be *isometric*. Isometric spaces are\nessentially identical as metric spaces, and in particular they are\nhomeomorphic.\n\nGiven any metric space $(X,d)$, the set of all isometries $X\\to X$ forms\na group under composition. This group is called the *isometry group* (or\n*group of isometries*) of $X$, and may be denoted by $\\Iso(X)$ or\n$\\Isom(X)$. In general, [*an*]{} (as opposed to [*the*]{}) isometry\ngroup (or group of isometries) of $X$ is any subgroup of $\\Iso(X)$.",
+  "language": "INFORMAL",
+  "phrase": "Isometry",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Isometry"
+    }
+  ],
+  "indexable": true
+}

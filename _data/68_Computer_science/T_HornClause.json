@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In logic, a [*Horn clause*]{} is a clause (a disjunction of literals)\nwith at most one positive literal. A Horn clause with exactly one\npositive literal is a definite clause; a Horn clause with no positive\nliterals is sometimes called a goal clause, especially in logic\nprogramming. A Horn formula is a conjunctive normal form formula whose\nclauses are all Horn; in other words, it is a conjunction of Horn\nclauses. A [*dual-Horn clause*]{} is a clause with at most one negative\nliteral. Horn clauses play a basic role in logic programming and are\nimportant for constructive logic.\n\nThe following is an example of a (definite) Horn clause:\n\n$$\\neg p \\vee \\neg q \\vee \\cdots \\vee \\neg t \\vee u$$\n\nSuch a formula can be rewritten in the following form, which is more\ncommon in logic programming and similar fields:\n\n$$(p \\wedge q \\wedge \\cdots \\wedge t) \\rightarrow u$$\n\nThe relevance of Horn clauses to theorem proving by first-order\nresolution is that the resolution of two Horn clauses is a Horn clause.\nMoreover, the resolution of a goal clause and a definite clause is again\na goal clause. In automated theorem proving, this can lead to greater\nefficiencies in proving a theorem (represented as a goal clause). In\nfact, Prolog is a programming language based on Horn clauses (Prolog\nalso includes constructs such as the cut that cannot be easily expressed\nin logic).\n\nHorn clauses are also of interest in computational complexity, where the\nproblem of finding a set of variable assignments to make a conjunction\nof Horn clauses true is a P-complete problem, sometimes called HORNSAT.\nThis is P\u2019s version of the boolean satisfiability problem, a central\nNP-complete problem.\n\nThe name \u201cHorn clause\u201d comes from the logician Alfred Horn, who first\npointed out the significance of such clauses in 1951, in the article \u201cOn\nsentences which are true of direct unions of algebras\u201d, [*Journal of\nSymbolic Logic*]{}, [**16**]{}, 14 - 21.\n\n[*This entry was adapted from the Wikipedia article as of December 19,\n2006.*]{}",
+  "language": "INFORMAL",
+  "phrase": "Horn Clause",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HornClause"
+    }
+  ],
+  "indexable": true
+}

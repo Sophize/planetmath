@@ -1,0 +1,17 @@
+{
+  "argumentText": "The following is a proof of the Waring\u2019s formula using formal power\nseries. We will work with formal power series in indeterminate $z$ with\ncoefficients in the ring $\\mathbb{Q}[x_1,\\ldots,x_n]$. We also need the\nfollowing equality $$-\\log(1-z) = \\sum_{j=1}^\\infty \\frac{z^j}{j}.$$\n\nTaking log on both sides of\n$$1 - \\sigma_1z+\\ldots + (-1)^n \\sigma_n z^n =\n  \\prod_{m=1}^n(1-x_mz),$$ we get\n$$\\log(1 - \\sigma_1z+\\ldots + (-1)^n \\sigma_n z^n) =\n  \\sum_{m=1}^n \\log(1-x_mz), \\label{eq}$$ Waring\u2019s formula will follow\nby comparing the coefficients on both sides.\n\nThe right hand side of the above equation equals\n$$\\sum_{m=1}^n \\sum_{j=1}^\\infty \\frac{x_m^j}{j}z^j$$ or\n$$\\sum_{j=1}^\\infty \\left( \\sum_{m=1}^n  x_m^j \\right)\n  \\frac{z^j}{j}$$ The coefficient of $z^k$ is equal to $S_k/k$.\n\nOn the other hand, the left hand side of can be written as\n$$\\sum_{j=1}^\\infty\n \\frac{1}{j}(\\sigma_1z-\\sigma_2z^2+\\ldots+(-1)^{n-1} \\sigma_n\n z^n)^j.$$ For each $j$, the coefficient of $z^k$ in\n$$(\\sigma_1z-\\sigma_2z^2+\\ldots+(-1)^{n-1} \\sigma_n\n z^n)^j$$ is\n$$\\sum_{i_1,\\ldots,i_n} (-1)^{i_2+i_4+i_6+\\ldots} \\frac{j!}{i_1!\\cdots\ni_n!}\\sigma_1^{i_1} \\cdots \\sigma_n^{i_n},$$ where the summation is\nextended over all $n$-tuple $(i_1,\\ldots,i_n)$ whose entries are\nnon-negative integers, such that $$\\begin{gathered}\ni_1+i_2+\\ldots+i_n = j \\\\\ni_1+2i_2+\\ldots +ni_n = k.\\end{gathered}$$ So the coefficient of $z^k$\nin the left hand side of is\n$$\\sum_{j=1}^\\infty \\sum_{i_1,\\ldots,i_n} (-1)^{i_2+i_4+i_6+\\ldots}\n\\frac{(j-1)!}{i_1!\\cdots i_n!}\\sigma_1^{i_1} \\cdots\n\\sigma_n^{i_n},$$ or\n$$\\sum (-1)^{i_2+i_4+i_6+\\ldots} \\frac{(i_1+\\ldots+i_n-1)!}{i_1!\\cdots\ni_n!}\\sigma_1^{i_1} \\cdots \\sigma_n^{i_n}.$$ The last summation is over\nall $(i_1,\\ldots, i_n)\\in \\mathbb{Z}^n$ with non-negative entries such\nthat $i_1+2i_2+\\ldots+ni_n=k$.",
+  "conclusion": "#P_WaringsFormula",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfWaringsFormula"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Waring's formula"
+  ]
+}

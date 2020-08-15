@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "\n\n**Example:**\\\n$f(x)=x^2$ is a convex function on $[0,10]$. Then\n$$(0.2\\cdot4+ 0.5\\cdot3+0.3\\cdot7)^2 \\leq 0.2(4^2) + 0.5(3^2)+0.3(7^2).$$\n\nA very special case of this inequality is when $\\mu_k=\\frac{1}{n}$\nbecause then\n$$f\\left(\\frac{1}{n}\\sum_{k=1}^n x_k\\right)\\le\\frac{1}{n}\\sum_{k=1}^n f(x_k)$$\nthat is, the value of the function at the mean of the $x_k$ is less or\nequal than the mean of the values of the function at each $x_k$.\n\nThere is another formulation of Jensen\u2019s inequality used in\nprobability:\\\nLet $X$ be some random variable, and let $f(x)$ be a convex function\n(defined at least on a segment containing the range of $X$). Then the\nexpected value of $f(X)$ is at least the value of $f$ at the mean of\n$X$: $$\\mathrm{E}[f(X)] \\ge f(\\mathrm{E}[ X]).$$ With this approach, the\nweights of the first form can be seen as probabilities.",
+  "statement": "If $f$ is a convex function on the interval $[a,b]$, for each\n$\\left\\{x_k\\right\\}_{k=1}^n \\in[a,b]$ and each\n$\\left\\{\\mu_k\\right\\}_{k=1}^n$ with $\\mu_{k}\\geq0$ one has:\n$$f\\left(\\frac{\\sum_{k=1}^{n}\\mu_{k}x_{k}}{\\sum_{k}^{n}\\mu_{k}}\\right)\\leq\\frac{\\sum_{k=1}^{n}\\mu_{k}f\\left(x_{k}\\right)}{\\sum_{k}^{n}\\mu_{k}}.$$\n\nA common situation occurs when $\\mu_1+\\mu_2+\\cdots+\\mu_n=1$; in this\ncase, the inequality simplifies to:\n\n$$f\\left(\\sum_{k=1}^n \\mu_k x_k\\right)\\leq \\sum_{k=1}^n \\mu_k f(x_k)$$\nwhere $0\\le \\mu_k\\le 1$.\n\nIf $f$ is a concave function, the inequality is reversed.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JensensInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Jensen's inequality"
+  ]
+}

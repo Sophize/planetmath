@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "RLE",
+    "run length encoding"
+  ],
+  "definition": "[*Run-length encoding*]{} (RLE) is a lossless compression algorithm\nwhich counts how many times a symbol or group of symbols is repeated\nconsecutively in the input.\n\nFor example, the values of the prime counting function $\\pi(n)$ up to 72\nare: 0, 1, 2, 2, 3, 3, 4, 4, 4, 4, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 8, 8,\n9, 9, 9, 9, 9, 9, 10, 10, 11, 11, 11, 11, 11, 11, 12, 12, 12, 12, 13,\n13, 14, 14, 14, 14, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 17,\n17, 18, 18, 18, 18, 18, 18, 19, 19, 19, 19, 20, 20, 21, 21, 21, 21, 21,\n21. These can be run-length encoded as: one 0, one 1, two 2s, two 3s,\nfour 4s, two 5s, four 6s, two 7s, four 8s, six 9s, two 10s, six 11s,\nfour 12s, two 13s, four 14ws, five 15s, etc.\n\nRun-length encoding is obviously most effective for inputs containing\nmany repetitions of a symbol or group of symbols, such as flat-color\ndrawings with straight line boundaries. For example, the first line of a\nrun-length encoding of a 720 by 481 drawing of the American flag\nstretched flat could look something like this: 240 BLUE, 480 RED. Below\nthe blue field, a line-by-line second pass would result in even greater\ncompression: 37 lines of 720 WHITE, followed by 37 lines of 720 RED,\nthen 37 lines of 720 RED, etc. But for a more photorealistic drawing,\nrun-length encoding would result in the opposite of compression.",
+  "language": "INFORMAL",
+  "phrase": "Run-Length Encoding",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RunlengthEncoding"
+    }
+  ],
+  "indexable": true
+}

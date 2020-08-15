@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A fibration is a map satisfying the homotopy lifting property. This is\neasily seen to be equivalent to the following:\n\nA map $f:X \\to Y$ is a fibration if and only if there is a continuous\nfunction which given a path, $\\phi$, in $Y$ and a point, $x$, lying\nabove $\\phi(0)$, returns a lift of $\\phi$, starting at $x$.\n\nLet $D^2$ denote the set of complex numbers with modulus less than or\nequal to 1. An example of a fibration is the map $g: D^2 \\to [-1,1]$\nsending a complex number $z$ to $re(z)$.\n\nNote that if we restrict $g$ to the boundary of $D^2$, we do not get a\nfibration. Although we may still lift any path to begin at a prescribed\npoint, we cannot make this assignment continuously.\n\nAnother class of fibrations are found in fibre bundles.",
+  "language": "INFORMAL",
+  "phrase": "Fibration",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Fibration"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a Jordan algebra $J$ we define a ternary product on $J$ by\n$$\\{xyz\\}=(x.y).z+(y.z).x - (z.x).y.$$\n\nWhen $J$ is a special Jordan algebra of characteristic not 2, we know\nthe product $x.y=\\frac{1}{2}(xy+yx)$. In this context a computation\nshows $$\\{xyz\\}=\\frac{1}{2}(xyz+zyx).$$ This gives a simple method by\nwhich to compute the triple product in a special Jordan algebra.\n\nA key instance of the Jordan triple product is the case when $x=z$\n(setting $x^{.2}=x.x$ for notation). Here we get\n$$\\{xyx\\}=2 (x.y).x-x^{.2}.y.$$ In a special Jordan algebra this becomes\n$\\{xyx\\}=xyx$ in the associative product. To treat a Jordan algebra as a\nquadratic Jordan algebra this product plays the role of one of the two\nquadratic operations: $U_y:y\\mapsto \\{xyx\\}$. The other is the usual\nsquaring product $y\\mapsto y^{.2}$.\n\nTo establish uniform proof for Jordan algebra in characteristic 2 and\nalso include exceptional Jordan algebras it is often preferable to\nencode computations using the unary product: $x^{.2}$ and the triple\nproduct $\\{xyz\\}$. The connection between the triple product and the\nquadratic unary product is found in the Jordan identity:\n$$(a^{.2}.b).a=a^{.2}.(b.a)$$ This idea was exploited by McCrimmon to\nestablish quadratic Jordan algebras and many uniform and previously\nunknown results on Jordan algebras.\n\nThe triple product can be compared to the Jacobi product on an algebra\nwith a $[,]$ multiplication $$\\# xyz\\#=[[x,y],z]+[[y,z],x]+[[z,x],y].$$\nTo make a closer parallel use the typical assumption that $[z,x]=-[x,z]$\n(outside of characteristic 0) then we can write:\n$$\\# xyz\\#=[[x,y],z]+[[y,z],x]-[[x,z],y].$$ Since Jordan algebras are\ncommutative we can also write $$\\{xyz\\}=(x.y).z+(y.z).x - (x.z).y.$$\nHowever, unlike Lie algebras where $\\# xyz\\#=0$, in Jordan algebras the\ntriple product is almost never 0.",
+  "language": "INFORMAL",
+  "phrase": "Jordan Triple Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JordanTripleProduct"
+    }
+  ],
+  "indexable": true
+}

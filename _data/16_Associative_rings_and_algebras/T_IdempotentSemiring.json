@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "i-semiring",
+    "dioid"
+  ],
+  "definition": "A semiring $S$ is called an *idempotent semiring*, or *i-semiring* for\nshort, if, addition $+$ is an idempotent binary operation:\n$$a+a=a,\\qquad\\mbox{ for all }a\\in S.$$\n\n**Some properties of an i-semiring $S$**.\n\n1.  If we define a binary relation $\\le$ on $S$ by\n    $$a\\le b\\qquad\\mbox{ iff }\\qquad a+b=b$$ then $\\le$ becomes a\n    partial order on $S$. Indeed, for $a+a=a$ implies $a\\le a$; if\n    $a\\le b$ and $b\\le a$, then $b=a+b=a$; and finally, if $a\\le b$ and\n    $b\\le c$, then $a+c=a+(b+c)=(a+b)+c=b+c=c$ so $a\\le c$.\n\n2.  $0\\le a$ for any $a\\in S$, because $0+a=a$.\n\n3.  Define $a\\vee b$ as the supremum of $a$ and $b$ (with respect to\n    $\\le$). Then $a\\vee b$ exists and $$a\\vee b=a+b.$$ To see this, we\n    have $a+(a+b)=(a+a)+b=a+b$, so $a\\le a+b$. Similarly $b\\le a+b$. If\n    $a\\le c$ and $b\\le c$, then $(a+b)+c=a+(b+c)=a+c=c$. So $a+b\\le c$.\n\n4.  Collecting all the information above, we see that $(S,+)$ is an\n    upper semilattice with $+$ as the join operation on $S$ and $0$ the\n    bottom element.\n\n5.  Additon and multiplication respect partial ordering: suppose\n    $a\\le b$, then for any $c\\in S$, $(c+a)+(c+b)=(c+c)+(a+b)=c+b$,\n    hence $c+a\\le c+b$; also, $cb=c(a+b)=ca+cb$ implies $ca\\le cb$.\n\n**Remark**. $S$ in general is not a lattice, and $1$ is not the top\nelement of $S$.\n\nThe main example of an i-semiring is a Kleene algebra used in the theory\nof computations.",
+  "language": "INFORMAL",
+  "phrase": "Idempotent Semiring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdempotentSemiring"
+    }
+  ],
+  "indexable": true
+}

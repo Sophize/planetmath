@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose that $\\hat{\\mathbb{C}} := {\\mathbb{C}} \\cup \\{ \\infty \\}$ is the\nextended complex plane (the Riemann sphere).\n\nSuppose $\\gamma \\colon [0,1] \\to \\hat{\\mathbb{C}}$ is a path in\n$\\hat{\\mathbb{C}}$. The [*spherical length*]{} of $\\gamma$ is defined as\n$$\\ell (\\gamma) :=\n2 \\int_\\gamma \\frac{\\lvert dz \\rvert}{1+\\lvert z \\rvert^2}\n=\n2 \\int_0^1 \\frac{\\lvert \\gamma'(t) \\rvert}{1+\\lvert \\gamma(t) \\rvert^2} dt.$$\n\nLet $z_1, z_2 \\in \\hat{\\mathbb{C}}$, and let $\\Gamma$ be the set of all\npaths in $\\hat{\\mathbb{C}}$ from $z_1$ to $z_2$, then the distance from\n$z_1$ to $z_2$ in the [*spherical metric*]{} is defined as\n$$\\sigma(z_1,z_2) := \\inf_{\\gamma \\in \\Gamma} \\ell(\\gamma) .$$\n\nMore intuitivelly this is the shortest distance to travel from $z_1$ to\n$z_2$ if we think of these points as being on the Riemann sphere, and we\ncan only travel on the Riemann sphere itself (we cannot \u201cdrill\u201d a\nstraight line from $z_1$ to $z_2$).\n\n[9]{} Theodore\u00a0B. Gamelin. [**]{}. Springer-Verlag, New York, New York,\n2001.",
+  "language": "INFORMAL",
+  "phrase": "Spherical Metric",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SphericalMetric"
+    }
+  ],
+  "indexable": true
+}

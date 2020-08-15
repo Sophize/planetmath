@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "universal cover"
+  ],
+  "definition": "Let $X$ be a topological space. A [*universal covering space*]{} is a\ncovering space $\\tilde{X}$ of $X$ which is connected and simply\nconnected.\n\nIf $X$ is based, with basepoint $x$, then a [*based cover*]{} of $X$ is\ncover of $X$ which is also a based space with a basepoint $x'$ such that\nthe covering is a map of based spaces. Note that any cover can be made\ninto a based cover by choosing a basepoint from the pre-images of $x$.\n\nThe universal covering space has the following universal property: If\n$\\pi:(\\tilde X,x_0)\\to(X,x)$ is a based universal cover, then for any\nconnected based cover $\\pi':(X',x')\\to (X,x)$, there is a unique\ncovering map $\\pi'':(\\tilde X,x_0)\\to(X',x')$ such that\n$\\pi=\\pi'\\circ\\pi''$.\n\nClearly, if a universal covering exists, it is unique up to unique\nisomorphism. But not every topological space has a universal cover. In\nfact $X$ has a universal cover if and only if it is semi-locally simply\nconnected (for example, if it is a locally finite CW-complex or a\nmanifold).",
+  "language": "INFORMAL",
+  "phrase": "Universal Covering Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniversalCoveringSpace"
+    }
+  ],
+  "indexable": true
+}

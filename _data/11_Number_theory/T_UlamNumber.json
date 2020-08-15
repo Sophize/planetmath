@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The $n$th [*Ulam number*]{} $U_n$ for $n > 2$ is the smallest number\ngreater than $U_{n - 1}$ which is a sum of two smaller Ulam numbers in a\nunique way. $U_1 = 1$ and $U_2 = 2$; the sequence continues 3, 4, 6, 8,\n11, 13, 16, 18, 26, 28, 36, 38, 47, 48, 53, 57, 62, 69, 72, 77, 82, 87,\n97, 99, 102, 106, 114, 126, 131, 138, 145, 148, 155, 175, 177, 180, 182,\n189, 197, etc. (listed in A002858 of Sloane\u2019s OEIS); it is what is\nusually referred to as the [*Ulam sequence*]{}.\n\nSo, for example, 47 is an Ulam number because it is the sum of the pair\nof smaller Ulam numbers 11 and 36, and no other pair, while 48 is also\nan Ulam number because it is the sum of 1 and 47, and no other pair. 49\nis not an Ulam number because it is the sum of 1 and 48, and of 2 and\n47.\n\nfirst studied this sequences in the 1960s \u201cin a peculiar attempt to get\na 1D analog of a 2D cellular automaton\u201d (Wolfram, 2002). In 2001 Jud\nMcCranie verified that among the first 40000000, the only consecutive\npairs that are also both Ulam numbers are 1 and 2, 2 and 3, 3 and 4, and\n47 and 48. More recently, in 2006, Neil Sloane conjectured that a plot\nof the Ulam numbers will produce a line that is very close to\n$$y = \\frac{1351}{100}x.$$\n\nUlam numbers and the resulting Ulam sequences can be generalized to\nhaving different initial values $U_1$ and $U_2$ with the only\nrequirement being that $U_1 < U_2$, these are sometimes referred to as\n[*Ulam-type sequences*]{}. If $U_1 = 2$ and $2 \\nmid U_2$, then the\nUlam-type sequence will have only one other even term (Schmerl &\nSpiegel, 1994).\n\n[2]{} J. Schmerl & E. Spiegel, \u201cThe Regularity of Some 1-Additive\nSequences\u201d. [*J. Combinatoric Theory Ser.*]{} A [**66**]{} (1994): 172 -\n175 S. Wolfram [*A New Kind of Science*]{} New York: Wolfram Media\n(2002): 908",
+  "language": "INFORMAL",
+  "phrase": "Ulam Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UlamNumber"
+    }
+  ],
+  "indexable": true
+}

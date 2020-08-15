@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let $R$ be a commutative ring containing regular elements.\nEvery fractional ideal $\\mathfrak{a}$ of $R$ is finitely generated and ,\ni.e. regular elements.\n\n[*Proof.*]{} Let $T$ be the total ring of fractions of $R$ and $e$ the\nunity of $T$.We first show that the inverse ideal of $\\mathfrak{a}$ has\nthe unique $[R':\\mathfrak{a}]$ where $R' := R+\\mathbb{Z}e$. If\n$\\mathfrak{a}^{-1}$ is an inverse ideal of $\\mathfrak{a}$, it means that\n$\\mathfrak{aa}^{-1} = R'$. Therefore we have\n$$\\mathfrak{a}^{-1} \\subseteq \\{t\\in T\\,\\vdots \\,\\,\\, t\\mathfrak{a}\\subseteq R'\\} = [R'\\!:\\!\\mathfrak{a}],$$\nso that\n$$R' = \\mathfrak{aa}^{-1} \\subseteq \\mathfrak{a}[R'\\!:\\!\\mathfrak{a}]\n         \\subseteq R'.$$ This implies that\n$\\mathfrak{aa}^{-1} = \\mathfrak{a}[R'\\!:\\!\\mathfrak{a}]$, and because\n$\\mathfrak{a}$ is a cancellation ideal, it must that\n$\\mathfrak{a}^{-1} = [R'\\!:\\!\\mathfrak{a}]$, i.e.\n$[R'\\!:\\!\\mathfrak{a}]$ is the unique inverse of the ideal\n$\\mathfrak{a}$.\n\nSince $\\mathfrak{a}[R'\\!:\\!\\mathfrak{a}] = R'$, there exist some\nelements $a_1,\\,\\ldots,\\,a_n$ of $\\mathfrak{a}$ and the elements\n$b_1,\\,\\ldots,\\,b_n$ of $[R'\\!:\\!\\mathfrak{a}]$ such that\n$a_1b_1\\!+\\cdots+\\!a_nb_n = e$. Then an arbitrary element $a$ of\n$\\mathfrak{a}$ satisfies\n$$a = a_1(b_1a)\\!+\\cdots+\\!a_n(b_na) \\in (a_1,\\,\\ldots,\\,a_n)$$ because\nevery $b_ia$ belongs to the ring $R'$. Accordingly,\n$\\mathfrak{a} \\subseteq (a_1,\\,\\ldots,\\,a_n)$. Since the converse\ninclusion is apparent, we have seen that $\\{a_1,\\,\\ldots,\\,a_n\\}$ is a\nfinite of the invertible ideal $\\mathfrak{a}$.\n\nSince the elements $b_i$ belong to the total ring of fractions of $R$,\nwe can choose such a regular element $d$ of $R$ that each of the\nproducts $b_id$ belongs to $R$. Then\n$$d = a_1(b_1d)\\!+\\cdots+\\!a_n(b_nd) \\in (a_1,\\,\\ldots,\\,a_n) = \\mathfrak{a},$$\nand thus the fractional ideal $\\mathfrak{a}$ contains a regular element\nof $R$, which obviously is regular in $T$, too.\n\n[9]{} . Queens University Press. Kingston, Ontario (1968).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InvertibleIdealIsFinitelyGenerated"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "invertible ideal is finitely generated"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "anti-Hermitian matrix"
+  ],
+  "definition": "[**Definition.**]{} A square matrix $A$ with complex entries is\n*skew-Hermitian*, if $$A^* = -A.$$ Here $A^\\ast={\\overline{A\\dtra}}$,\n$A\\dtra$ is the transpose of $A$, and ${\\overline{A}}$ is is the complex\nconjugate of the matrix $A$.\n\nProperties. {#properties. .unnumbered}\n-----------\n\n1.  The trace of a skew-Hermitian matrix is .\n\n2.  The eigenvalues of a skew-Hermitian matrix are .\n\n*Proof.* Property (1) follows directly from property (2) since the trace\nis the sum of the eigenvalues. But one can also give a simple proof as\nfollows. Let $x_{ij}$ and $y_{ij}$ be the real respectively imaginary\nparts of the elements in $A$. Then the diagonal elements of $A$ are of\nthe form $x_{kk} + i y_{kk}$, and the diagonal elements in $A^\\ast$ are\nof the form $-x_{kk} + iy_{kk}$. Hence $x_{kk}$, i.e., the real part for\nthe diagonal elements in $A$ must vanish, and property (1) follows. For\nproperty (2), suppose $A$ is a skew-Hermitian matrix, and $x$ an\neigenvector corresponding to the eigenvalue $\\lambda$, i.e.,\n$$\\begin{aligned}\n\\label{gugg}\nAx &=& \\lambda x.\\end{aligned}$$ Here, $x$ is a complex column vector.\nSince $x$ is an eigenvector, $x$ is not the zero vector, and\n$x^\\ast x > 0$. Without loss of generality we can assume $x^\\ast x =1$.\nThus $$\\begin{aligned}\n{\\overline{\\lambda}} &=& x^\\ast {\\overline{\\lambda}} x\\\\\n&=& ( x^\\ast \\lambda x )^\\ast \\\\\n&=& (x^\\ast A x )^\\ast \\\\\n&=& x^\\ast A^\\ast x \\\\\n&=& x^\\ast (-A) x \\\\\n&=& -x^\\ast \\lambda x \\\\\n&=& - \\lambda .\\end{aligned}$$ Hence the eigenvalue $\\lambda$\ncorresponding to $x$ is . $\\Box$",
+  "language": "INFORMAL",
+  "phrase": "Skew-Hermitian Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SkewHermitianMatrix"
+    }
+  ],
+  "indexable": true
+}

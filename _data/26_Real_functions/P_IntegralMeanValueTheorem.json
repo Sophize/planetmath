@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $f$ and $g$ are continuous real functions on an interval $[a,b]$, and\n$g$ is additionally non-negative on $(a,b)$, then there exists a\n$\\zeta\\in(a,b)$ such that\n$${\\int_{a}^{b}\\!{f(x)g(x)}\\,\\mathrm{d}{x}}=f(\\zeta){\\int_{a}^{b}\\!{g(x)}\\,\\mathrm{d}{x}}\n.$$\n\nSince $f$ is continuous on a closed bounded set, $f$ is bounded and\nattains its bounds, say\n$f\\left(x_0\\right)\\leq f(x)\\leq f\\left(x_1\\right)$ for all $x\\in[a,b]$.\nThus, since $g$ is non-negative for all $x\\in[a,b]$\n$$f\\left(x_0\\right)g(x)\\leq f(x)g(x)\\leq f\\left(x_1\\right)g(x)\n.$$ Integrating both sides gives\n$$f\\left(x_0\\right){\\int_{a}^{b}\\!{g(x)}\\,\\mathrm{d}{x}}\\leq{\\int_{a}^{b}\\!{f(x)g(x)}\\,\\mathrm{d}{x}}\\leq f\\left(x_1\\right){\\int_{a}^{b}\\!{g(x)}\\,\\mathrm{d}{x}}\n.$$ If ${\\int_{a}^{b}\\!{g(x)}\\,\\mathrm{d}{x}}=0$, then $g(x)$ is\nidentically zero, and the result follows trivially. Otherwise,\n$$f\\left(x_0\\right)\\leq\\frac{{\\int_{a}^{b}\\!{f(x)g(x)}\\,\\mathrm{d}{x}}}{{\\int_{a}^{b}\\!{g(x)}\\,\\mathrm{d}{x}}}\\leq f\\left(x_1\\right)\n,$$ and the result follows from the intermediate value theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralMeanValueTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "integral mean value theorem"
+  ]
+}

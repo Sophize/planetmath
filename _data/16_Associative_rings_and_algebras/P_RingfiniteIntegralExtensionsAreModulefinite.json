@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem** If $B$ is a subring of $A$ and $u_1,\\ldots,u_s\\in A$ are\nintegral over $B$, then $B[u_1,\\ldots,u_s]$ is module-finite over $B$.\n\n**Proof.** If $s=1$ then $u^n+b_1 u^{n-1}+\\cdots+b_n=0$, so\n$\\{1,u,\\ldots,u^{n-1}\\}$ spans $B[u]$ over $B$.\n\nIf $s>1$, use induction on\n$B\\subset B[u_1]\\subset B[u_1,u_2]\\subset\\ldots\\subset B[u_1,\\ldots,u_s]$\nand multiply the spanning sets together.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RingfiniteIntegralExtensionsAreModulefinite"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "ring-finite integral extensions are module-finite"
+  ]
+}

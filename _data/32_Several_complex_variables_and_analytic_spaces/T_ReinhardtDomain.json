@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "We call an open set $G \\subset {\\mathbb{C}}^n$ a [*Reinhardt domain*]{}\nif $(z_1,\\ldots,z_n) \\in G$ implies that\n$(e^{i\\theta_1}z_1,\\ldots,e^{i\\theta_n}z_n) \\in G$ for all real\n$\\theta_1,\\ldots,\\theta_n$.\n\nThe reason for studying these kinds of domains is that Reinhardt domain\nare the domains of convergence of power series in several complex\nvariables. Note that in one complex variable, a Reinhardt domain is just\na disc.\n\nNote that the intersection of Reinhardt domains is still a Reinhardt\ndomain, so for every Reinhardt domain, there is a smallest Reinhardt\ndomain which contains it.\n\nSuppose that $G$ is a Reinhardt domain which contains 0 and that\n$\\tilde{G}$ is the smallest Reinhardt domain such that\n$G \\subset \\tilde{G}$. Then any function holomorphic on $G$ has a\nholomorphic to $\\tilde{G}$.\n\nIt actually turns out that a Reinhardt domain is a domain of\nconvergence.\n\nexamples of Reinhardt domains in ${\\mathbb{C}}^n$ are polydiscs such as\n$\\underbrace{{\\mathbb{D}} \\times \\cdots \\times {\\mathbb{D}}}_n$ where\n${\\mathbb{D}} \\subset {\\mathbb{C}}$ is the unit disc.\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Reinhardt Domain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ReinhardtDomain"
+    }
+  ],
+  "indexable": true
+}

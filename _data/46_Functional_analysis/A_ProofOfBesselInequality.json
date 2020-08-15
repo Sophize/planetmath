@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let\n$$r_n = x - \\sum_{k=1}^{n} {\\left\\langlex,e_k\\right\\rangle}\\cdot e_k.$$\nThen for $j=1,\\ldots,n$, $$\\begin{aligned}\n{\\left\\langler_n,e_j\\right\\rangle} &=\n{\\left\\langlex,e_j\\right\\rangle} -\n\\sum_{k=1}^{n} {\\left\\langle{\\left\\langlex,e_k\\right\\rangle}\\cdot e_k,e_j\\right\\rangle} \\\\\n&= {\\left\\langlex,e_j\\right\\rangle} -\n{\\left\\langlex,e_j\\right\\rangle}{\\left\\langlee_j,e_j\\right\\rangle} = 0\\end{aligned}$$\nso $e_1,\\ldots,e_n,r_n$ is an orthogonal series.\n\nComputing norms, we see that\n$${\\left\\|x\\right\\|}^2 = {\\left\\|r_n + \\sum_{k=1}^{n} {\\left\\langlex,e_k\\right\\rangle}\\cdot e_k\\right\\|}^2 =\n{\\left\\|r_n\\right\\|}^2 + \\sum_{k=1}^{n} {\\left|{\\left\\langlex,e_k\\right\\rangle}\\right|}^2 \\ge\n\\sum_{k=1}^{n} {\\left|{\\left\\langlex,e_k\\right\\rangle}\\right|}^2.$$ So\nthe series\n$$\\sum_{k=1}^{\\infty} {\\left|{\\left\\langlex,e_k\\right\\rangle}\\right|}^2$$\nconverges and is bounded by ${\\left\\|x\\right\\|}^2$, as required.",
+  "conclusion": "#P_BesselInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBesselInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Bessel inequality"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Informally, the Jordan curve theorem states that every Jordan curve\ndivides the Euclidean plane into an \u201coutside\u201d and an \u201cinside\u201d. The proof\nof this geometrically plausible result requires surprisingly heavy\nmachinery from topology. The difficulty lies in the great generality of\nthe statement and inherent difficulty in formalizing the exact meaning\nof words like \u201ccurve\u201d, \u201cinside\u201d, and \u201coutside.\u201d\n\nThere are several equivalent formulations.\n\nIf $\\Gamma$ is a simple closed curve in ${\\mathbb{R}}^2$, then\n${\\mathbb{R}}^2 \\setminus \\Gamma$ has precisely two .\n\nIf $\\Gamma$ is a simple closed curve in the sphere $S^2$, then\n$S^2 \\setminus \\Gamma$ consists of precisely two connected components.\n\nLet $h: {\\mathbb{R}}\\to {\\mathbb{R}}^2$ be a one-to-one continuous map\nsuch that $|h(t)| \\to \\infty$ as $|t| \\to \\infty$. Then\n${\\mathbb{R}}^2 \\setminus h({\\mathbb{R}})$ consists of precisely two\nconnected components.\n\nThe two connected components mentioned in each formulation are, of\ncourse, the inside and the outside the Jordan curve, although only in\nthe first formulation is there a clear way to say what is out and what\nis in. There we can define \u201cinside\u201d to be the bounded connected\ncomponent, as any picture can easily convey.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JordanCurveTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Jordan curve theorem"
+  ]
+}

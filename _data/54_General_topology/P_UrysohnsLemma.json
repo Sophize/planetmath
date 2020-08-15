@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A *normal space* is a topological space $X$ such that whenever $A$ and\n$B$ are disjoint closed subsets of $X$, then there are disjoint open\nsubsets $U$ and $V$ of $X$ such that $A\\subseteq U$ and $B\\subseteq V$.\n\n(Note that some authors include $\\mathrm{T}_1$ in the definition, which\nis equivalent to requiring the space to be Hausdorff.)\n\n*Urysohn\u2019s Lemma* states that $X$ is normal if and only if whenever $A$\nand $B$ are disjoint closed subsets of $X$, then there is a continuous\nfunction $f\\colon X\\to[0,1]$ such that $f(A)\\subseteq\\{0\\}$ and\n$f(B)\\subseteq\\{1\\}$. (Any such function is called an *Urysohn\nfunction*.)\n\nA corollary of Urysohn\u2019s Lemma is that normal spaces are completely\nregular.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UrysohnsLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Urysohn's lemma"
+  ]
+}

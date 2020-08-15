@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In set theory, *de Morgan\u2019s laws* relate the three basic set operations\nto each other; the union, the intersection, and the complement. de\nMorgan\u2019s laws are named after the Indian-born British mathematician and\nlogician Augustus De Morgan (1806-1871) [@wikidemorgan].\n\nIf $A$ and $B$ are subsets of a set $X$, de Morgan\u2019s laws state that\n$$\\begin{aligned}\n(A \\cup B)^\\complement &=& A^\\complement \\cap B^\\complement, \\\\ \n(A \\cap B)^\\complement &=& A^\\complement \\cup B^\\complement.\\end{aligned}$$\nHere, $\\cup$ denotes the union, $\\cap$ denotes the intersection, and\n$A^\\complement$ denotes the set complement of $A$ in $X$, i.e.,\n$A^\\complement= X\\setminus A$.\n\nAbove, de Morgan\u2019s laws are written for two sets. In this form, they are\nintuitively quite clear. For instance, the first claim states that an\nelement that is not in $A\\cup B$ is not in $A$ and not in $B$. It also\nstates that an elements not in $A$ and not in $B$ is not in $A\\cup B$.\n\nFor an arbitrary collection of subsets, de Morgan\u2019s laws are as follows:\n\n[**Theorem.**]{} Let $X$ be a set with subsets $A_i \\subset X$ for\n$i\\in I$, where $I$ is an arbitrary index-set. In other words, $I$ can\nbe finite, countable, or uncountable. Then $$\\begin{aligned}\n \\Big( \\bigcup_{i\\in I} A_i \\Big)^\\complement &=& \\bigcap_{i\\in I} A_i^\\complement, \\\\\n \\Big( \\bigcap_{i\\in I} A_i \\Big)^\\complement &=& \\bigcup_{i\\in I} A_i^\\complement.\n \\end{aligned}$$ ()\n\n[**de Morgan\u2019s laws in a** ]{}\\\nFor Boolean variables $x$ and $y$ in a Boolean algebra, de Morgan\u2019s laws\nstate that $$\\begin{aligned}\n(x \\land y)' &=& x' \\lor y', \\\\\n(x \\lor y)' &=& x' \\land y'.\\end{aligned}$$ Not surprisingly, de\nMorgan\u2019s laws form an indispensable tool when simplifying digital\ncircuits involving and, or, and not gates [@mano].\n\n[9]{} Wikipedia\u2019s , 4/2003. M.M. Mano, *Computer Engineering: Hardware\nDesign*, Prentice Hall, 1988.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DeMorgansLaws"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "de Morgan's laws"
+  ]
+}

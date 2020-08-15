@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "left-transposable integer"
+  ],
+  "definition": "Given a base $b$ integer $n$ with $k$ digits $d_1, \\ldots, d_k$ (with\n$d_1$ being the least significant digit), and an integer $1 < m < b$, if\nit is the case that\n$$m(\\sum_{i = 1}^k d_ib^{i - 1}) = d_1b^{k - 1} + (\\sum_{i = 2}^k d_ib^{i - 2}),$$\nthen $n$ is called an $m$-[*parasitic number*]{} or\n$m$-[*left-transposable number*]{}.\n\nIf one takes an $m$-parasitic number, concatenates copies of its digits\nin order whatever number of times one wants, the resulting new number\nwill also be $m$-parasitic.",
+  "language": "INFORMAL",
+  "phrase": "Parasitic Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ParasiticNumber"
+    }
+  ],
+  "indexable": true
+}

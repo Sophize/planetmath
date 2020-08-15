@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a subset of ${\\mathbb{R}}$. We say that $X$ is bounded when\nthere exists a real number $M$ such that $|x|<M$ for all $x\\in X$. When\n$X$ is an interval, we speak of a bounded interval.\n\nThis can be generalized first to ${\\mathbb{R}}^n$. We say that\n$X\\subseteq {\\mathbb{R}}^n$ is bounded if there is a real number $M$\nsuch that $\\Vert x\\Vert<M$ for all $x\\in X$ and $\\Vert\\cdot\\Vert$ is the\nEuclidean distance between $x$ and $y$.\n\nThis condition is equivalent to the statement: There is a real number\n$T$ such that $\\Vert x-y\\Vert<T$ for all $x,y\\in X$.\n\nA further generalization to any metric space $V$ says that\n$X\\subseteq V$ is bounded when there is a real number $M$ such that\n$d(x,y)<M$ for all $x,y\\in X$, where $d$ is the metric on $V$.",
+  "language": "INFORMAL",
+  "phrase": "Bounded",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Bounded1"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *metric space* is a set $X$ together with a real valued function\n$d: X \\times X \\longrightarrow \\mathbb{R}$ (called a *metric*, or\nsometimes a *distance* function) such that, for every $x,y,z \\in X$,\n\n-   $d(x,y) \\geq 0$, with equality[^1] if and only if $x=y$\n\n-   $d(x,y) = d(y,x)$\n\n-   $d(x,z) \\leq d(x,y) + d(y,z)$\n\nFor $x \\in X$ and $\\varepsilon \\in \\mathbb{R}$ with $\\varepsilon > 0$,\nthe *open ball* around $x$ of radius $\\varepsilon$ is the set\n$B_\\varepsilon(x) := \\{y \\in X \\mid d(x,y) < \\varepsilon\\}$. An *open\nset* in $X$ is a set which equals an arbitrary (possibly empty) union of\nopen balls in $X$, and $X$ together with these open sets forms a\nHausdorff topological space. The topology on $X$ formed by these open\nsets is called the *metric topology*, and in fact the open sets form a\nbasis for this topology ().\n\nSimilarly, the set\n$\\bar{B}_\\varepsilon(x) := \\{y \\in X \\mid d(x,y) \\leq \\varepsilon\\}$ is\ncalled a *closed ball* around $x$ of radius $\\varepsilon$. Every closed\nball is a closed subset of $X$ in the metric topology.\n\nThe prototype example of a metric space is $\\mathbb{R}$ itself, with the\nmetric defined by $d(x,y) := |x-y|$. More generally, any normed vector\nspace has an underlying metric space structure; when the vector space is\nfinite dimensional, the resulting metric space is isomorphic to\nEuclidean space.\n\n[9]{} J.L. Kelley, *General Topology*, D. van Nostrand Company, Inc.,\n1955.\n\n[^1]: This condition can be replaced with the weaker statement\n    $d(x,y) = 0 \\iff x=y$ without affecting the definition.",
+  "language": "INFORMAL",
+  "phrase": "Metric Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MetricSpace"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "$\\mathbb{Q}$"
+  ],
+  "definition": "The rational numbers $\\mathbb{Q}$ are the fraction field of the ring\n$\\mathbb{Z}$ of integers. In more elementary terms, a rational number is\na quotient $a/b$ of two integers $a$ and $b$, where $b$ is nonzero. Two\nfractions $a/b$ and $c/d$ are equivalent if the product of the cross\nterms is equal: $$\\frac{a}{b} = \\frac{c}{d} \\iff ad = bc$$ Addition and\nmultiplication of fractions are given by the formulae $$\\begin{aligned}\n\\frac{a}{b} + \\frac{c}{d} & = & \\frac{ad + bc}{bd} \\\\\n\\frac{a}{b} \\cdot \\frac{c}{d} & = & \\frac{ac}{bd}\\end{aligned}$$\n\nThe field of rational numbers is an ordered field, under the ordering\nrelation $\\leq$ defined as follows: $a/b \\leq c/d$ if\n\n1.  the inequality $a\\cdot d \\leq b \\cdot c$ holds in the integers, and\n    $b$ has the same sign as $d$, or\n\n2.  the inequality $a\\cdot d \\geq b \\cdot c$ holds in the integers, and\n    $b$ has the opposite sign as $d$.\n\nUnder this ordering relation, the rational numbers form a topological\nspace under the order topology. The set of rational numbers is dense\nwhen considered as a subset of the real numbers.",
+  "language": "INFORMAL",
+  "phrase": "Rational Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RationalNumber"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $R$ be a ring with identity $1$ and $M_n(R)$ the\nring of $n \\times n$ matrices with entries in $R$. The centralizer of\nthe matrix units is the set $R\\cdot Id$, consisting of all multiples of\nthe identity matrix.\n\n$\\,$\n\n[***:***]{} It is clear that the multiples of the identity matrix\ncommute with all matrix units, and therefore belong to their\ncentralizer. We will now prove the converse.\n\nWe will regard the elements of $M_n(R)$ as endomorphisms of the module\n$\\oplus_{i =1}^n R$. We will denote by $\\{e_i\\}$ the canonical basis of\n$\\oplus_{i =1}^n R$ and by $E_{ij}$ the matrix unit whose entry $(i,j)$\nis $1$.\n\nLet $S = [s_{ij}] \\in M_n(R)$ be an element of the centralizer of the\nmatrix units. For all $i, j, k$ we must have\n\n$$\\begin{aligned}\nSE_{ij}\\, e_k = E_{ij}S\\, e_k\\end{aligned}$$\n\nBut a straightforward computation shows that $SE_{ij\\,}e_j = S\\, e_i$\nand $E_{ij}S\\, e_j = s_{jj}\\,e_i$. Since $j$ is arbitrary we see, by\nequality (1), that all $s_{jj}$ are equal, say $s_{jj} = s \\in R$.\n\nHence, $S\\, e_i = s\\, e_i$, wich means that $S = s\\,Id$. We conclude\nthat $S$ must be a multiple of the identity matrix. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CentralizerOfMatrixUnits"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "centralizer of matrix units"
+  ]
+}

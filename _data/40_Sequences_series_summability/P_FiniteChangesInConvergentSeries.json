@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem means that at the beginning of a convergent\nseries, one can remove or attach a finite amount of terms without\ninfluencing on the convergence of the series \u2013 the convergence is\ndetermined alone by the infinitely long \u201ctail\u201d of the series.\nConsequently, one can also freely change the of a finite amount of\nterms.\\\n**Theorem.** Let $k$ be a natural number. A series\n$\\displaystyle\\sum_{n=1}^\\infty a_n$ converges iff the series\n$\\displaystyle\\sum_{n=k+1}^\\infty\\!a_n$ converges. Then the sums of both\nseries are with $$\\begin{aligned}\n\\sum_{n=k+1}^\\infty\\!a_n \\;=\\; \\sum_{n=1}^\\infty a_n-\\sum_{n=1}^k a_n.\\end{aligned}$$\n\n*Proof.* Denote the $k$th partial sum of $\\sum_{n=1}^\\infty a_n$ by\n$S_k$ and the $n$th partial sum of $\\sum_{n=k+1}^\\infty a_n$ by $S_n'$.\nThen we have $$\\begin{aligned}\nS_n' \\;=\\; \\sum_{n=k+1}^{k+n}\\!a_n \\;=\\; S_{k+n}\\!-\\!S_k.\\end{aligned}$$\n$1^\\circ$. If $\\sum_{n=1}^\\infty a_n$ converges, i.e.\n$\\lim_{n\\to\\infty}S_n := S$ exists as a finite number, then (2) implies\n$$\\lim_{n\\to\\infty}S_n' \\;=\\; \\lim_{n\\to\\infty}S_{k+n}-\\lim_{n\\to\\infty}S_k \\;=\\; S\\!-\\!S_k.$$\nThus $\\sum_{n=k+1}^\\infty a_n$ converges and (1) is true.\n\n$2^\\circ$. If we suppose $\\sum_{n=k+1}^\\infty a_n$ to be convergent,\ni.e. $\\lim_{n\\to\\infty}S_n' := S'$ exists as finite, then (2) implies\nthat\n$$\\lim_{n\\to\\infty}S_n \\;=\\; \\lim_{n\\to\\infty}S_{k+n} \\;=\\; \\lim_{n\\to\\infty}(S_k+S_n') \\;=\\; S_k\\!+\\!S'.$$\nThis means that $\\sum_{n=1}^\\infty a_n$ is convergent and\n$S = S_k\\!+\\!S'$, which is (1), is in .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FiniteChangesInConvergentSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "finite changes in convergent series"
+  ]
+}

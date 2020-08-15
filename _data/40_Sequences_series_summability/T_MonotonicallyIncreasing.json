@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "monotone increasing",
+    "strictly increasing"
+  ],
+  "definition": "A sequence $(s_n)$, $s_n \\in \\mathbb{R} $ is called *monotonically\nincreasing* if\n\n$$s_m > s_n \\; \\forall \\; m > n$$\n\nSimilarly, a real function $f(x)$ is called monotonically increasing if\n\n$$f(x) > f(y) \\; \\forall \\; x > y$$\n\nCompare this to monotonically nondecreasing.\n\n**Conflict note.** This condition is also sometimes called *strictly\nincreasing* [@NIST]. In such a context, \u201cmonotonically increasing\u201d has\nthe same meaning as monotonically nondecreasing.\n\n[3]{} \u201c,\u201d from the NIST Dictionary of Algorithms and Data Structures,\nPaul E. Black, ed.",
+  "language": "INFORMAL",
+  "phrase": "Monotonically Increasing",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MonotonicallyIncreasing"
+    }
+  ],
+  "indexable": true
+}

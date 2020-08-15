@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Frobenius endomorphism",
+    "Frobenius map"
+  ],
+  "definition": "Let $F$ be a field of characteristic $p>0$. Then for any $a, b \\in F$,\n$$\\begin{aligned}\n(a + b)^p &=& a^p + b^p,\n\\\\ (ab)^p &=& a^p b^p.\\end{aligned}$$\n\nThus the map $$\\begin{matrix}\\phi: F &\\to& F \n\\\\ a &\\mapsto& a^p\n\\end{matrix}$$ is a field homomorphism, called the *Frobenius\nhomomorphism*, or simply the *Frobenius map* on $F$. If it is surjective\nthen it is an automorphism, and is called the *Frobenius automorphism*.\n\nNote: This morphism is sometimes also called the \u201csmall Frobenius\u201d to\ndistinguish it from the map $a \\mapsto a^q$, with $q=p^n$. This map is\nthen also referred to as the \u201cbig Frobenius\u201d or the \u201cpower Frobenius\nmap\u201d.",
+  "language": "INFORMAL",
+  "phrase": "Frobenius Homomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FrobeniusHomomorphism"
+    }
+  ],
+  "indexable": true
+}

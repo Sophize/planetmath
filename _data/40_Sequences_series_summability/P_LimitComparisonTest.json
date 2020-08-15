@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem is a powerful test for convergence of series.\n\nLet $\\sum_{n=0}^\\infty a_n$ and $\\sum_{n=0}^\\infty b_n$ be two series of\npositive numbers.\\\n\n1.  If the limit $$\\lim_{n\\to \\infty} \\frac{a_n}{b_n}=L$$ exists and\n    $L\\neq 0$ is a non-zero finite number, then both series\n    $\\sum_{n=0}^\\infty a_n$ and $\\sum_{n=0}^\\infty b_n$ converge or both\n    diverge.\\\n\n2.  If $L=0$ and $\\sum_{n=0}^\\infty b_n$ converges then\n    $\\sum_{n=0}^\\infty a_n$ converges as well. If $L=0$ and\n    $\\sum_{n=0}^\\infty a_n$ diverges then $\\sum_{n=0}^\\infty b_n$\n    diverges as well.\\\n\n3.  Similarly, if the limit is infinite (\u201c$L=\\infty$\u201d) and\n    $\\sum_{n=0}^\\infty a_n$ converges then $\\sum_{n=0}^\\infty b_n$\n    converges as well. If $L=\\infty$ and $\\sum_{n=0}^\\infty b_n$\n    diverges then $\\sum_{n=0}^\\infty a_n$ diverges as well.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitComparisonTest"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "limit comparison test"
+  ]
+}

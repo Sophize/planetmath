@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Tietze transforms* are the following four transformations whereby one\ncan transform a presentation of a group into another presentation of the\nsame group:\n\n1.  If a relation $W=V$, where $W$ and $V$ are some word in the\n    generators of the group, can be derived from the defining relations\n    of a group, add $W=V$ to the list of relations.\n\n2.  If a relation $W=V$ can be derived from the remaining generators,\n    remove $W=V$ fronm the list of relations.\n\n3.  If $W$ is a word in the generators and $W=x$, then add $x$ to the\n    list of generators and $W=x$ to the list of relations.\n\n4.  If a relation takes the form $W=x$, where $x$ is a generator and $W$\n    is a word in generators other than $x$, then remove $W=x$ from the\n    list of relations, replace all occurences of $x$ in the remaining\n    relations by $W$ and remove $x$ from the list of generators.\n\nNote that transforms 1 and 2 are inverse to each other and likewise 3\nand 4 are inverses. More generally, the term \u201cTietze transform\u201d referes\nto a transform which can be expressed as the compositon of a finite\nnumber of the four transforms listed above. By way of contrast, the term\n\u201c*elementary Tietze transformation*\u201d is used to denote the four\ntransformations given above and the term \u201c*general Tietze transform*\u201d\ncould be used to indicate a member of the larger class.\n\nTieze showed that any two presentations of the same finitely presented\ngroup differ by a general Tietze transform.",
+  "language": "INFORMAL",
+  "phrase": "Tietze Transform",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TietzeTransform"
+    }
+  ],
+  "indexable": true
+}

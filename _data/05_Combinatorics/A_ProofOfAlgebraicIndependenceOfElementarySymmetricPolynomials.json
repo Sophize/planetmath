@@ -1,0 +1,17 @@
+{
+  "argumentText": "Geometric proof, works when R is a division ring.\\\nConsider the quotient field Q of R and then the algebraic closure $K$ of\n$Q$.\n\nConsider the substitution map that associates to values\n$t_1,\\ldots,t_n \\in K^n$ the symmetric functions in these variables\n$s_1,\\ldots,s_n$. $$\\begin{array}{lccr}\n\\phi: & K^n & \\to & K^n\\\\\n      &  (t_i) & \\mapsto & (s_i)\n\\end{array}$$ Because $K$ is algebraic closed this map is surjective.\nIndeed, fix values $v_i$, then on an algebraic closed field there are\nroots $t_i$ such that $$X^n + \\sum_i v_i X^i = \\Pi_i (X+t_i)$$ And by\ndeveloping the right-hand side we get $v_i = s_i$.\n\nThen we consider the transposition morphism of algebras $\\phi^*$ :\n$$\\begin{array}{lccr}\n\\phi^*: & R[S_1,\\ldots,S_n] & \\to & R[T_1,\\ldots,T_n]\\\\\n      & f & \\mapsto & f\\circ\\phi\n\\end{array}$$ The capital letters are there to emphasize the $S_i$ and\n$T_i$ are variables and $R[S_1,\\ldots,S_n]$ and $R[T_1,\\ldots,T_n]$ are\nregarded as function algebras over $K^n$.\n\nThe theorem stating that the symmetric functions are algebraically\nindependent is no more than saying that this morphism is injective. As a\nmatter of fact, $\\phi^*(S_i)$ is the $i^{th}$ symmetric function in the\n$T_i$, and $\\phi^*$ is clearly a morphism of algebras.\\\nThe conclusion is then straightforward from the surjectivity of $\\phi$\nbecause if $f\\circ\\phi = 0$ for some $f$, then by surjectivity of $\\phi$\nit means that $f$ was zero in the first place. In other words the kernel\nof $\\phi^*$ is reduced to 0.",
+  "conclusion": "#P_AlgebraicIndependenceOfElementarySymmetricPolynomials",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfAlgebraicIndependenceOfElementarySymmetricPolynomials"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of algebraic independence of elementary symmetric polynomials"
+  ]
+}

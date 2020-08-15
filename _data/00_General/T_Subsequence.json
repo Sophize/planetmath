@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a sequence $\\{x_n\\}_{n\\in {\\mathbb{N}}}$, any infinite subset of\nthe sequence forms a subsequence. We formalize this as follows:\n\nIf $X$ is a set and $\\{a_n\\}_{n \\in \\mathbb{N}}$ is a sequence in $X$,\nthen a *subsequence* of $\\{a_n\\}$ is a sequence of the form\n$\\{a_{n_r}\\}_{r \\in \\mathbb{N}}$ where $\\{n_r\\}_{r \\in \\mathbb{N}}$ is a\nstrictly increasing sequence of natural numbers.\n\nEquivalently, $\\{y_n\\}_{n\\in {\\mathbb{N}}}$ is a subsequence of\n$\\{x_n\\}_{n\\in {\\mathbb{N}}}$ if\n\n1.  $\\{y_n\\}_{n\\in{\\mathbb{N}}}$ is a sequence of elements of $X$, and\n\n2.  there is a strictly increasing function\n    $a:{\\mathbb{N}}\\to {\\mathbb{N}}$ such that\n    $$y_n = x_{a(n)} \\quad \\text{ for all } n\\in{\\mathbb{N}}.$$\n\nLet $X={\\mathbb{R}}$ and let $\\{x_n\\}$ be the sequence\n$$\\left\\{\\frac{1}{n}\\right\\}_{n\\in{\\mathbb{N}}}=\\left\\{1,\\frac{1}{2},\\frac{1}{3},\\frac{1}{4},\\ldots\\right\\}.$$\nThen, the sequence\n$$\\{y_n\\}_{n\\in{\\mathbb{N}}}=\\left\\{\\frac{1}{n^2}\\right\\}_{n\\in{\\mathbb{N}}}=\\left\\{1,\\frac{1}{4},\\frac{1}{9},\\frac{1}{16},\\ldots\\right\\}$$\nis a subsequence of $\\{x_n\\}$. The subsequence of natural numbers\nmentioned in the definition is $\\{n^2\\}_{n\\in{\\mathbb{N}}}$ and the\nfunction $a:{\\mathbb{N}}\\to{\\mathbb{N}}$ mentioned above is $a(n)=n^2$.",
+  "language": "INFORMAL",
+  "phrase": "Subsequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Subsequence"
+    }
+  ],
+  "indexable": true
+}

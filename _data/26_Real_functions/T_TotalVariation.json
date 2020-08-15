@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\gamma:[a,b]\\rightarrow X$ be a function mapping an interval\n$[a,b]$ to a metric space $(X,d)$. We say that $\\gamma$ is of *bounded\nvariation* if there is a constant $M$ such that, for each partition\n$P=\\{a=t_0<t_1<\\cdots < t_n=b\\}$ of $[a,b]$,\n$$v(\\gamma, P)= \\sum_{k=1}^n d(\\gamma(t_k),\\gamma(t_{k-1})) \\leq M.$$\nThe *total variation* $V_\\gamma$ of $\\gamma$ is defined by\n$$V_\\gamma = \\sup\\{v(\\gamma,P):\\textnormal{$P$ is a partition of $[a,b]$}\\}.$$\n\nIt can be shown that, if $X$ is either $\\mathbb{R}$ or $\\mathbb{C}$,\nevery continuously differentiable (or piecewise continuously\ndifferentiable) function $\\gamma:[a,b]\\rightarrow X$ , and\n$$V_\\gamma = \\int_a^b |\\gamma'(t)|dt.$$ Also, if $\\gamma$ is of bounded\nvariation and $f:[a,b]\\rightarrow X$ is continuous, then the\nRiemann-Stieltjes integral $\\int_a^b fd\\gamma$ is finite.\n\nIf $\\gamma$ is also continuous, it is said to be a *rectifiable path*,\nand $V(\\gamma)$ is the length of its trace.\n\nIf $X=\\mathbb{R}$, it can be shown that $\\gamma$ is of bounded variation\nif and only if it is the difference of two monotonic functions.",
+  "language": "INFORMAL",
+  "phrase": "Total Variation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TotalVariation"
+    }
+  ],
+  "indexable": true
+}

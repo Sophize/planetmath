@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a group, then $G$ is isomorphic to a subgroup of the\npermutation group $S_{G}$\n\nIf $G$ is finite and of order $n$, then $G$ is isomorphic to a subgroup\nof the permutation group $S_{n}$\n\nFurthermore, suppose $H$ is a proper subgroup of $G$. Let\n$X = \\{Hg | g \\in G\\}$ be the set of right cosets in $G$. The map\n$\\theta:G \\to S_{X}$ given by $\\theta(x)(Hg) = Hgx$ is a homomorphism.\nThe kernel is the largest normal subgroup of $H$. We note that\n$|S_X| = [G : H]!$. Consequently if $|G|$ doesn\u2019t divide $[G :  H]!$\nthen $\\theta$ is not an isomorphism so $H$ contains a non-trivial normal\nsubgroup, namely the kernel of $\\theta$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CayleysTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cayley's theorem"
+  ]
+}

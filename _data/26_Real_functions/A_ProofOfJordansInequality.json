@@ -1,0 +1,17 @@
+{
+  "argumentText": "To prove that\n$$\\frac{2}{\\pi}x\\leq\\sin(x)\\leq x, \\forall\\;x\\in [0,\\frac{\\pi}{2}]$$\n\nconsider a circle (circle with radius = 1 ). Take any point $P$ on the\ncircumference of the circle.\n\nDrop the perpendicular from $P$ to the horizontal line, $M$ being the\nfoot of the perpendicular and $Q$ the reflection of $P$ at $M$. (refer\nto figure)\n\nLet $x = \\angle POM.$\n\nFor $x$ to be in $[0,\\frac{\\pi}{2}]$, the point $P$ lies in the first\nquadrant, as shown.\n\n![image](jord1.eps)\n\nThe length of line segment $PM$ is $\\sin(x)$. Construct a circle of\nradius $MP$, with $M$ as the center.\n\n![image](jord2.eps)\n\nLength of line segment $PQ$ is $2\\sin(x)$.\n\nLength of arc $PAQ$ is $2x$.\n\nLength of arc $PBQ$ is $\\pi\\sin(x)$.\n\nSince $PQ \\leq$ length of arc $PAQ$ (equality holds when $x = 0$) we\nhave $2\\sin(x) \\leq 2x$. This implies $$\\sin(x) \\leq x$$\n\nSince length of arc $PAQ$ is $\\leq $ length of arc $PBQ$ (equality holds\ntrue when $x = 0$ or $x = \\frac{\\pi}{2}$), we have $2x \\leq \\pi\\sin(x)$.\nThis implies $$\\frac{2}{\\pi}x \\leq \\sin(x)$$\n\nThus we have\n$$\\frac{2}{\\pi}x\\leq\\sin(x)\\leq x,   \\forall\\;x\\in [0,\\frac{\\pi}{2}]$$",
+  "conclusion": "#P_JordansInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfJordansInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Jordan's Inequality"
+  ]
+}

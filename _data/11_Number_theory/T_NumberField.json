@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "algebraic number field"
+  ],
+  "definition": "A field which is a finite extension of $\\mathbb{Q}$, the rational\nnumbers, is called a [**number field**]{} (sometimes called [*algebraic\nnumber field*]{}). If the degree of the extension $K/{\\mathbb{Q}}$ is\n$n$ then we say that $K$ is a number field of degree $n$ (over\n${\\mathbb{Q}}$).\\\n\nThe field of rational numbers ${\\mathbb{Q}}$ is a number field.\\\n\nLet $K={\\mathbb{Q}}(\\sqrt{d})$, where $d\\neq 1$ is a square-free\nnon-zero integer and $\\sqrt{d}$ stands for any of the roots of $x^2-d=0$\n(note that if $\\sqrt{d}\\in K$ then $-\\sqrt{d}\\in K$ as well). Then $K$\nis a number field and $[K:{\\mathbb{Q}}]=2$. We can explictly describe\nall elements of $K$ as follows:\n$$K=\\{ t+s\\sqrt{d} : t,s \\in {\\mathbb{Q}}\\}.$$\n\nA number field $K$ such that the degree of the extension\n$K/{\\mathbb{Q}}$ is $2$ is called a [**quadratic number field**]{}.\n\nIn fact, if $K$ is a quadratic number field, then it is easy to show\nthat $K$ is one of the fields described in Example $2$.\n\nLet $K_n={\\mathbb{Q}}(\\zeta_n)$ be a cyclotomic extension of\n${\\mathbb{Q}}$, where $\\zeta_n$ is a primitive $n$th root of unity. Then\n$K$ is a number field and $$[K:{\\mathbb{Q}}]=\\varphi(n)$$ where\n$\\varphi(n)$ is the Euler phi function. In particular, $\\varphi(3)=2$,\ntherefore $K_3$ is a quadratic number field (in fact\n$K_3={\\mathbb{Q}}(\\sqrt{-3})$). We can explicitly describe all elements\nof $K$ as follows:\n$$K_n=\\{ q_0+q_1\\zeta_n+q_2\\zeta_n^2+\\ldots+q_{n-1}\\zeta_n^{n-1} : q_i\\in {\\mathbb{Q}}\\}.$$\nIn fact, one can do better. Every element of $K_n$ can be uniquely\nexpressed as a rational combination of the $\\varphi(n)$ elements\n$\\{\\zeta_n^a : \\gcd(a,n)=1,\\ 1\\leq a < n\\}$.\n\nLet $K$ be a number field. Then any subfield $L$ with\n${\\mathbb{Q}}\\subseteq L \\subseteq K$ is also a number field. For\nexample, let $p$ be a prime number and let $F={\\mathbb{Q}}(\\zeta_p)$ be\na cyclotomic extension of ${\\mathbb{Q}}$, where $\\zeta_p$ is a primitive\n$p$th root of unity. Let $F^+$ be the maximal real subfield of $F$.\n$F^{+}$ is a number field and it can be shown that:\n$$F^+={\\mathbb{Q}}(\\zeta_p+\\zeta_p^{-1}).$$",
+  "language": "INFORMAL",
+  "phrase": "Number Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NumberField"
+    }
+  ],
+  "indexable": true
+}

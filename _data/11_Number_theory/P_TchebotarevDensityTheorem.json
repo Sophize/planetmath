@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $L/K$ be any finite Galois extension of number fields with Galois\ngroup $G$. For any conjugacy class $C \\subset G$, the subset of prime\nideals $\\mathfrak{p} \\subset K$ which are unramified in $L$ and satisfy\nthe property\n$$[L/K,\\mathfrak{P}] \\in C\\ \\text{for any prime }\\ \\mathfrak{P} \\subset L\\ \\text{containing }\\ \\mathfrak{p}$$\nhas analytic density $\\frac{|C|}{|G|}$, where $[L/K,\\mathfrak{P}]$\ndenotes the Artin symbol at $\\mathfrak{P}$.\n\nNote that the conjugacy class of $[L/K,\\mathfrak{P}]$ is independent of\nthe choice of prime $\\mathfrak{P}$ lying over $\\mathfrak{p}$, since any\ntwo such choices of primes are related by a Galois automorphism and\ntheir corresponding Artin symbols are conjugate by this same\nautomorphism.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TchebotarevDensityTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Tchebotarev density theorem",
+    "Chebotarev density theorem"
+  ]
+}

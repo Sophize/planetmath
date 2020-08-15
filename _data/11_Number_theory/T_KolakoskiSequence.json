@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Kolakowski's sequence"
+  ],
+  "definition": "A *Kolakoski sequence* is a \u201cself-describing\u201d sequence\n$\\{k_n\\}_{k=0}^{\\infty}$ of alternating blocks of 1\u2019s and 2\u2019s, given by\nthe following rules:\n\n-   $k_0=1$.[^1]\n\n-   $k_n$ is the length of the $(n+1)$\u2019th block.\n\nThus, the sequence begins 1, 2, 2, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 1, 2,\n1, ...\n\nIt is conjectured that the density of 1\u2019s in the sequence is 0.5. It is\nnot known whether the 1\u2019s *have* a density; however, it *is* known that\nwere this true, that density would be 0.5. It is also not known whether\nthe sequence is a strongly recurrent sequence; this too would imply\ndensity 0.5.\n\nExtensive computer experiments strongly support the conjecture.\nFurthermore, if $o_n$ is the number of 1\u2019s in the first $n$ elements,\nthen it appears that $o_n = 0.5n + O(\\log n)$. Note for comparison that\nfor a *random* sequence of 1\u2019s and 2\u2019s, the number of 1\u2019s in the first\n$n$ elements is with high probability $0.5n + O(\\sqrt{n})$.\n\nTo generate rapidly a large number of elements of the sequence, it is\nmost efficient to build a heirarchy of generators for the sequence. *If*\nthe conjecture is correct, then the depth of this heirarchy is only\n$O(\\log n)$ to generate the first $n$ elements.\n\nThis is in .\n\n[^1]: Some sources start the sequence at $k_0=2$, instead. This only has\n    the effect of shifting the sequence by one position.",
+  "language": "INFORMAL",
+  "phrase": "Kolakoski Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KolakoskiSequence"
+    }
+  ],
+  "indexable": true
+}

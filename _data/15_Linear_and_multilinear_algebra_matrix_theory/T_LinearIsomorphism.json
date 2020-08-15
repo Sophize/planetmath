@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "invertible linear map",
+    "bijective linear map",
+    "non-singular linear map"
+  ],
+  "definition": "Suppose $V$ and $W$ are vector spaces and $L\\colon V\\to W$ is a linear\nmap. Then $L$ is a *linear isomorphism* if $L$ is bijective.\n\n### Properties {#properties .unnumbered}\n\n1.  Compositions and of linear isomorphisms is a linear isomorphism.\n\n2.  The inverse of a linear isomorphisms is a linear isomorphism.\n\n3.  If either $V$ or $W$ if finite dimensional, then $\\dim V=\\dim W$.\n    (This is a consequence of the rank-nullity theorem.)",
+  "language": "INFORMAL",
+  "phrase": "Linear Isomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearIsomorphism"
+    }
+  ],
+  "indexable": true
+}

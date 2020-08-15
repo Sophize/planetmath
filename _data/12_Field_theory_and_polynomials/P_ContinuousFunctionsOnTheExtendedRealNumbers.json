@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Within this entry, $\\overline{\\mathbb{R}}$ will be used to refer to the\nextended real numbers.\n\nLet $f \\colon \\mathbb{R} \\to \\mathbb{R}$ be a function. Then\n$\\overline{f} \\colon \\overline{\\mathbb{R}} \\to \\overline{\\mathbb{R}}$\ndefined by\n\n$\\overline{f}(x)=\\begin{cases}\nf(x) & \\text{ if } x \\in \\mathbb{R} \\\\\nA & \\text{ if } x=\\infty \\\\\nB & \\text{ if } x=-\\infty \\end{cases}$\n\nis continuous if and only if $f$ is continuous such that\n$\\displaystyle \\lim_{x \\to \\infty} f(x)=A$ and\n$\\displaystyle \\lim_{x \\to -\\infty} f(x)=B$ for some\n$A,B \\in \\overline{\\mathbb{R}}$.\n\nNote that $\\overline{f}$ is continuous if and only if\n$\\displaystyle \\lim_{x \\to c} \\overline{f}(x)=\\overline{f}(c)$ for all\n$c \\in \\overline{\\mathbb{R}}$. By defintion of $\\overline{f}$ and the\ntopology of $\\overline{\\mathbb{R}}$,\n$\\displaystyle \\lim_{x \\to c} \\overline{f}(x)=\\displaystyle \\lim_{x \\to c} f(x)$\nfor all $c \\in \\overline{\\mathbb{R}}$. Thus, $\\overline{f}$ is\ncontinuous if and only if\n$\\displaystyle \\lim_{x \\to c} f(x)=\\overline{f}(c)$ for all\n$c \\in \\overline{\\mathbb{R}}$. The latter condition is to the hypotheses\nthat $f$ is continuous on $\\mathbb{R}$,\n$\\displaystyle \\lim_{x \\to \\infty}f(x)=A$, and\n$\\displaystyle \\lim_{x \\to -\\infty}f(x)=B$.\n\nNote that, without the universal assumption that $f$ is a function from\n$\\mathbb{R}$ to $\\mathbb{R}$, necessity holds, but sufficiency does not.\nAs a counterexample to sufficiency, consider the function\n$\\overline{f} \\colon \\mathbb{R} \\to \\mathbb{R}$ defined by\n\n$\\overline{f}(x)=\\begin{cases}\n\\displaystyle \\frac{1}{x^2} & \\text{ if } x \\in \\mathbb{R} \\setminus \\{0\\} \\\\\n\\infty & \\text{ if } x=0 \\\\\n0 & \\text{ if } x=\\pm \\infty. \\end{cases}$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuousFunctionsOnTheExtendedRealNumbers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "continuous functions on the extended real numbers"
+  ]
+}

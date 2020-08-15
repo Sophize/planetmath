@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a semigroup. If $S$ has no ideals other than itself, then $S$\nis said to be *simple*.\n\nIf $S$ has no left ideals \\[resp. right ideals\\] other than itself, then\n$S$ is said to be *left simple* \\[resp. *right simple*\\].\n\nRight simple and left simple are stronger conditions than simple.\n\nA semigroup $S$ is left simple if and only if $Sa = S$ for all\n$a \\in S$. A semigroup is both left and right simple if and only if it\nis a group.\n\nIf $S$ has a zero element $\\theta$, then $0 = \\{ \\theta \\}$ is always an\nideal of $S$, so $S$ is not simple (unless it has only one element). So\nin studying semigroups with a zero, a slightly weaker definition is\nrequired.\n\nLet $S$ be a semigroup with a zero. Then $S$ is *zero simple*, or\n$0$-simple, if the following conditions hold:\n\n-   $S^2 \\neq 0$\n\n-   $S$ has no ideals except $0$ and $S$ itself\n\nThe condition $S^2 = 0$ really only eliminates one semigroup: the\n2-element null semigroup. Excluding this semigroup makes parts of the\nstructure theory of semigroups cleaner.",
+  "language": "INFORMAL",
+  "phrase": "Simple Semigroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimpleSemigroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(R,+,*)$ a ring. A subring is a subset $S$ of $R$ with the\noperations $+$ and $*$ of $R$ restricted to $S$ and such that $S$ is a\nring by itself.\n\nNotice that the restricted operations inherit the associative and\ndistributive properties of $+$ and $*$, as well as commutativity of $+$.\nSo for $(S,+,*)$ to be a ring by itself, we need that $(S,+)$ be a\nsubgroup of $(R,+)$ and that $(S,*)$ be closed. The subgroup condition\nis equivalent to $S$ being non-empty and having the property that\n$x-y\\in S$ for all $x,y\\in S$.\n\nA subring $S$ is called a left ideal if for all $s\\in S$ and all\n$r\\in R$ we have $r*s\\in S$. Right ideals are defined similarly, with\n$s*r$ instead of $r*s$. If $S$ is both a left ideal and a right ideal,\nthen it is called a two-sided ideal. If $R$ is commutative, then all\nthree definitions coincide. In ring theory, ideals are far more\nimportant than subrings, as they play a role analogous to normal\nsubgroups in group theory.\n\nExample:\n\nConsider the ring $({\\mathbb{Z}},+,\\cdot$). Then\n$(2{\\mathbb{Z}},+,\\cdot)$ is a subring, since the difference and product\nof two even numbers is again an even number.",
+  "language": "INFORMAL",
+  "phrase": "Subring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Subring"
+    }
+  ],
+  "indexable": true
+}

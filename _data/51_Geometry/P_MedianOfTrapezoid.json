@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The segment connecting the midpoints of the of a trapezoid, i.e. the\nmedian of the trapezoid, is parallel to the bases and its length equals\nthe arithmetic mean of the legs.\\\n[*Proof.*]{} Let $AB$ and $CD$ be the bases of a trapezoid $ABCD$ and\n$E$ the midpoint of the leg $AD$ and $F$ the midpoint of the leg $BC$.\nThen the median $EF$ may be determined as vector as follows:\n$$\\begin{aligned}\n\\overrightarrow{EF} &= \\overrightarrow{ED}+\\overrightarrow{DC}+\\overrightarrow{CF}\\\\ \n& = \\frac{1}{2}\\overrightarrow{AD}+\\overrightarrow{DC}+\\frac{1}{2}\\overrightarrow{CB}\\\\ \n& = \\frac{1}{2}(\\overrightarrow{AD}+\\overrightarrow{DC}+\\overrightarrow{CB})+\\frac{1}{2}\\overrightarrow{DC}\\\\\n& = \\frac{1}{2}\\overrightarrow{AB}+\\frac{1}{2}\\overrightarrow{DC}\\\\\n& = \\frac{1}{2}(\\overrightarrow{AB}+\\overrightarrow{DC})\\end{aligned}$$\nThe last expression tells that\n$\\overrightarrow{EF} \\parallel \\overrightarrow{AB}+\\overrightarrow{DC} \\parallel \\overrightarrow{AB}$\nand\n$\\displaystyle|\\overrightarrow{EF}| = \\frac{|\\overrightarrow{AB}\\!+\\!\\overrightarrow{DC}|}{2} = \n\\frac{|\\overrightarrow{AB}|\\!+\\!|\\overrightarrow{DC}|}{2}$. Q.E.D.\n\n(-1,-1)(7,4) (0,0)(6,0) (6,0)(5,4) (2,4)(5,4) (2,4)(0,0) (1,2)(5.5,2)\n(1,2) (5.5,2) (0,-0.3)[$A$]{} (6,-0.3)[$B$]{} (5,4.3)[$C$]{}\n(2,4.3)[$D$]{} (0.74,2)[$E$]{} (5.7,2)[$F$]{} (0.75,1)[$p$]{}\n(1.74,3)[$p$]{} (5.55,1)[$q$]{} (5.05,3)[$q$]{}",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MedianOfTrapezoid"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "median of trapezoid"
+  ]
+}

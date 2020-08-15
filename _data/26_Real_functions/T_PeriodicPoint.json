@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f:X\\to X$ be a function and $f^n$ its $n$-th iteration. A point $x$\nis called a *periodic point* of period $n$ of $f$ if it is a fixed point\nof $f^n$. The least $n$ for which $x$ is a fixed point of $f^n$ is\ncalled *prime period* or *least period*.\n\nIf $f$ is a function $\\mathbb{R}$ to $\\mathbb{R}$ or $\\mathbb{C}$ to\n$\\mathbb{C}$ then a periodic point $x$ of prime period $n$ is called\n*hyperbolic* if $|(f^n)'(x)|\\neq 1$, *attractive* if $|(f^n)'(x)|<1$ and\n*repelling* if $|(f^n)'(x)|>1$.",
+  "language": "INFORMAL",
+  "phrase": "Periodic Point",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PeriodicPoint"
+    }
+  ],
+  "indexable": true
+}

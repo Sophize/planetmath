@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Dedekind zeta function of an abelian number field factors as a\nproduct of Dirichlet L-functions as follows. Let $K$ be an abelian\nnumber field, i.e. $K/{\\mathbb{Q}}$ is Galois and\n${\\operatorname{Gal}}(K/{\\mathbb{Q}})$ is abelian. Then, by the\nKronecker-Weber theorem, there is an integer $n$ (which we choose to be\nminimal) such that $K\\subseteq {\\mathbb{Q}}(\\zeta_n)$ where $\\zeta_n$ is\na primitive $n$th root of unity. Let\n$G={\\operatorname{Gal}}({\\mathbb{Q}}(\\zeta_n)/{\\mathbb{Q}})\\cong\n({\\mathbb{Z}}/n{\\mathbb{Z}})^\\times$ and let\n$\\chi:G\\to {\\mathbb{C}}^\\times$ be a Dirichlet character. Then the\nkernel of $\\chi$ determines a fixed field of ${\\mathbb{Q}}(\\zeta_n)$.\nFurther, for any field $K$ as before, there exists a group $X$ of\nDirichlet characters of $G$ such that $K$ is equal to the intersection\nof the fixed fields by the kernels of all $\\chi\\in X$. The order of $X$\nis $[K:{\\mathbb{Q}}]$ and $X\\cong {\\operatorname{Gal}}(K/{\\mathbb{Q}})$.\n\n\\[factor\\] Let $K$ be an abelian number field and let $X$ be the\nassociated group of Dirichlet characters. The Dedekind zeta function of\n$K$ factors as follows: $$\\zeta_K(s)=\\prod_{\\chi \\in X} L(s,\\chi).$$\n\nNotice that for the trivial character $\\chi_0$ one has\n$L(s,\\chi_0)=\\zeta(s)$, the Riemann zeta function, which has a simple\npole at $s=1$ with residue $1$. Thus, for an arbitrary abelian number\nfield $K$:\n$$\\zeta_K(s)=\\prod_{\\chi \\in X}L(s,\\chi)=\\zeta(s)\\cdot \\prod_{\\chi_0\\neq \\chi \\in\nX} L(s,\\chi)$$ where the last product is taken over all non-trivial\ncharacters $\\chi \\in X$.\n\n[99]{} L. C. Washington, [*Introduction to Cyclotomic Fields*]{},\nSpringer-Verlag, New York.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FactorizationOfTheDedekindZetaFunctionOfAnAbelianNumberField"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Factorization of the Dedekind zeta function of an abelian number field"
+  ]
+}

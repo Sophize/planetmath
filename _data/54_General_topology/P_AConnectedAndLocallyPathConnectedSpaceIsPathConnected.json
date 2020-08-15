@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Theorem. A connected, locally path connected topological space is path\nconnected.\n\nProof. Let $X$ be the space and fix $p \\in X$. Let $C$ be the set of all\npoints in $X$ that can be joined to $p$ by a path. $C$ is nonempty so it\nis enough to show that $C$ is both closed and open.\n\nTo show first that $C$ is open: Let $c$ be in $C$ and choose an open\npath connected neighborhood $U$ of $c$. If $u \\in U$ we can find a path\njoining $u$ to $c$ and then join that path to a path from $p$ to $c$.\nHence $u$ is in $C$.\n\nTo show that $C$ is closed: Let $c$ be in $\\overline{C} $ and choose an\nopen path connected neighborhood $U$ of $c$. Then\n$C \\cap U \\neq \\varnothing$. Choose $q \\in C \\cap U$. Then $c$ can be\njoined to $q$ by a path and $q$ can be joined to $p$ by a path, so by\naddition of paths, $p$ can be joined to $c$ by a path, that is,\n$c \\in C$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AConnectedAndLocallyPathConnectedSpaceIsPathConnected"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a connected and locally path connected space is path connected"
+  ]
+}

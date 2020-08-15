@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set, and $G$ a transitive permutation group on $X$. Then\n$G$ is said to be a *primitive permutation group* if it has no\nnontrivial .\n\nFor example, the symmetric group $S_4$ is a primitive permutation group\non $\\{1,2,3,4\\}$.\n\nNote that $D_8$ is not a primitive permutation group on the vertices of\na square, because the pairs of opposite points form a nontrivial block.\n\nIt can be shown that a transitive permutation group $G$ on a set $X$ is\nprimitive if and only if the stabilizer $\\operatorname{Stab}_G(x)$ is a\nmaximal subgroup of $G$ for all $x\\in X$.",
+  "language": "INFORMAL",
+  "phrase": "Primitive Permutation Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimitivePermutationGroup"
+    }
+  ],
+  "indexable": true
+}

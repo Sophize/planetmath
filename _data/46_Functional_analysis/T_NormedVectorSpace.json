@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "normed space",
+    "normed linear space"
+  ],
+  "definition": "Let $\\mathbb{F}$ be a field which is either $\\mathbb{R}$ or\n$\\mathbb{C}$. A ** over $\\mathbb{F}$ is a pair\n$(V,{\\lVert \\cdot \\rVert})$ where $V$ is a vector space over\n$\\mathbb{F}$ and ${\\lVert \\cdot \\rVert}\\colon V\\to\\mathbb{R}$ is a\nfunction such that\n\n1.  ${\\lVert v \\rVert}\\geq 0$ for all $v\\in V$ and ${\\lVert v \\rVert}=0$\n    if and only if $v=0$ in $V$ (*positive definiteness*)\n\n2.  ${\\lVert \\lambda v \\rVert} = {\\lvert \\lambda \\rvert}{\\lVert v \\rVert}$\n    for all $v\\in V$ and all $\\lambda\\in\\mathbb{F}$\n\n3.  ${\\lVert v+w \\rVert}\\leq{\\lVert v \\rVert}+{\\lVert w \\rVert}$ for all\n    $v,w\\in V$ (the *triangle inequality*)\n\nThe function ${\\lVert \\cdot \\rVert}$ is called a *norm* on $V$.\n\nSome properties of norms:\n\n1.  If $W$ is a subspace of $V$ then $W$ can be made into a normed space\n    by simply restricting the norm on $V$ to $W$. This is called the\n    induced norm on $W$.\n\n2.  Any normed vector space $(V,{\\lVert \\cdot \\rVert})$ is a metric\n    space under the metric $d\\colon V \\times V \\to \\mathbb{R}$ given by\n    $d(u,v)={\\lVert u-v \\rVert}$. This is called the *metric induced by\n    the norm ${\\lVert \\cdot \\rVert}$*.\n\n3.  It follows that any normed space is a locally convex topological\n    vector space, in the topology induced by the metric defined above.\n\n4.  In this metric, the norm defines a continuous map from $V$ to\n    $\\mathbb{R}$ - this is an easy consequence of the triangle\n    inequality.\n\n5.  If $(V, {\\langle  ,  \\rangle})$ is an inner product space, then\n    there is a natural induced norm given by\n    ${\\lVert v \\rVert} = \\sqrt{{\\langle v , v \\rangle}}$ for all\n    $v \\in V$.\n\n6.  The norm is a convex function of its argument.",
+  "language": "INFORMAL",
+  "phrase": "Normed Vector Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormedVectorSpace"
+    }
+  ],
+  "indexable": true
+}

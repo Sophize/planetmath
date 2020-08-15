@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A (small) category $\\mathcal{C}$ consists of a set of objects $C_0$ and\na set of arrows $C_1$ together with the following structure:\n\n-   a source map $s: C_1 \\to C_0$ assigning an object $s(f)$ to each\n    arrow $f \\in C_1$ ,\n\n-   a target map: $t: C_1 \\to  C_0$ assigning an object t(f) to each\n    arrow $f \\in  C_1$ ,\n\n-   an identity map $1 : C_0 \\to C_1$ assigning to each object $A$ an\n    arrow $1_A$ with $$s(1_A) = t(1_A) = A,$$\n\n-   a composition map $\\circ : C_1 \\times C_1 \\to C_1$ assigning to each\n    pair of arrows $f,g$ , such that $$s(g) = t(f)$$, a third arrow\n    $g \\circ f$ with $s(g \\circ f) = s(f)$ and $t(g \\circ f) = t(g)$.\n\n-   The composition thus defined \u201c$\\circ$\u201d is associative, that is,\n    $$h \\circ (g \\circ f) = (h \\circ g) \\circ f$$ whenever these\n    compositions make sense.\n\n-   the identity map satisfies $f \\circ 1_A = f $ for any $f$ such that\n    $s(f) = A$ and $1_A \\circ g = g$, and any $g$ such that $ t(g) = A$.\n\n[9]{} P. A. Zito. 2008. \\[arXiv: math.CT\\]. ,(Preprint).",
+  "language": "INFORMAL",
+  "phrase": "Small Category- Alternative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SmallCategoryAlternative"
+    }
+  ],
+  "indexable": true
+}

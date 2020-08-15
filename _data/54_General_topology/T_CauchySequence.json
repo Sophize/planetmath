@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "fundamental sequence"
+  ],
+  "definition": "A sequence $x_0, x_1, x_2, \\dots$ in a metric space $(X,d)$ is a *Cauchy\nsequence* if, for every real number $\\epsilon > 0$, there exists a\nnatural number $N$ such that $d(x_n,x_m) < \\epsilon$ whenever $n,m > N$.\n\nLikewise, a sequence $v_0, v_1, v_2, \\dots$ in a topological vector\nspace $V$ is a *Cauchy sequence* if and only if for every neighborhood\n$U$ of $\\mathbf{0}$, there exists a natural number $N$ such that\n$v_n - v_m \\in U$ for all $n,m > N$. These two definitions are\nequivalent when the topology of $V$ is induced by a metric.",
+  "language": "INFORMAL",
+  "phrase": "Cauchy Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchySequence"
+    }
+  ],
+  "indexable": true
+}

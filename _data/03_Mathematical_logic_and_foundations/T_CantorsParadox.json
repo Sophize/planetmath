@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Cantor\u2019s paradox* demonstrates that there can be no largest\ncardinality. In particular, there must be an unlimited number of\ninfinite cardinalities. For suppose that $\\alpha$ were the largest\ncardinal. Then we would have $|\\mathcal{P}(\\alpha)|=|\\alpha|$. (Here\n$\\mathcal{P}(\\alpha)$ denotes the power set of $\\alpha$.) Suppose\n$f:\\alpha\\rightarrow\\mathcal{P}(\\alpha)$ is a bijection proving their\nequicardinality. Then $X=\\{\\beta\\in\\alpha\\mid \\beta\\not\\in f(\\beta)\\}$\nis a subset of $\\alpha$, and so there is some $\\gamma\\in\\alpha$ such\nthat $f(\\gamma)=X$. But $\\gamma\\in X\\leftrightarrow\\gamma\\notin X$,\nwhich is a paradox.\n\nThe key part of the argument strongly resembles Russell\u2019s paradox, which\nis in some sense a generalization of this paradox.\n\nBesides allowing an unbounded number of cardinalities as ZF set theory\ndoes, this paradox could be avoided by a few other tricks, for instance\nby not allowing the construction of a power set or by adopting\nparaconsistent logic.",
+  "language": "INFORMAL",
+  "phrase": "Cantor'S Paradox",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CantorsParadox"
+    }
+  ],
+  "indexable": true
+}

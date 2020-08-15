@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "ircomp"
+  ],
+  "definition": "Let $G \\subset {\\mathbb{C}}^N$ be an open set.\n\nA locally analytic set (or an analytic variety) $V \\subset G$ is said to\nbe [*irreducible*]{} if whenever we have two locally analytic sets $V_1$\nand $V_2$ such that $V = V_1 \\cup V_2$, then either $V = V_1$ or\n$V = V_2$. Otherwise $V$ is said to be [**]{}. A maximal irreducible\nsubvariety of $V$ is said to be an [*irreducible component*]{} of $V$.\nSometimes irreducible components are called [*ircomps*]{}.\n\nNote that if $V$ is an analytic variety in $G$, then a subvariety $W$ is\nan irreducible component of $V$ if and only if $W^*$ (the set of regular\npoints of $W$) is a connected complex analytic manifold. This means that\nthe irreducible components of $V$ are the closures of the connected\ncomponents of $V^*$.\n\n[9]{} Hassler Whitney. [**]{}. Addison-Wesley, Philippines, 1972.",
+  "language": "INFORMAL",
+  "phrase": "Irreducible Component",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IrreducibleComponent1"
+    }
+  ],
+  "indexable": true
+}

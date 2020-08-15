@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every valuation domain determines a Krull valuation of the field of\nfractions.\n\n[*Proof.*]{} Let $R$ be a valuation domain, $K$ its field of fractions\nand $E$ the group of units of $R$. Then $E$ is a normal subgroup of the\nmultiplicative group $K^* = K\\!\\smallsetminus\\!\\{0\\}$. So we can form\nthe factor group $K^*/E$, consisting of all cosets $aE$ where\n$a\\in K^*$, and attach to it the additional \u201ccoset\u201d $0E$ getting thus a\nmultiplicative group $K/E$ equipped with zero. If\n$\\mathfrak{m} = R\\!\\smallsetminus\\!E$ is the maximal ideal of $R$ (any\nvaluation domain has a unique maximal ideal \u2014 cf. valuation domain is\nlocal), then we denote\n$\\mathfrak{m}^* = \\mathfrak{m}\\!\\smallsetminus\\!\\{0\\}$ and\n$S = \\mathfrak{m}^*/E = \\{aE:\\,\\,a\\in \\mathfrak{m}^*\\}$. Then the\nsubsemigroup $S$ of $K/E$ makes $K/E$ an ordered group equipped with\nzero. It is not hard to check that the mapping $$x\\mapsto |x| := xE$$\nfrom $K$ to $K/E$ is a Krull valuation of the field $K$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ValuationDeterminedByValuationDomain"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "valuation determined by valuation domain"
+  ]
+}

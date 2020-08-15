@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $n$ be the order of a finite cyclic group $G$. For every positive\n$m$ of $n$, there exists one and only one subgroup of order $m$ of $G$.\nThe group $G$ has no other subgroups.\\\n*Proof.* If $g$ is a generator of $G$ and $n = mk$, then $g^k$ generates\nthe subgroup $\\langle g^k\\rangle$, the order of which is equal to the\norder of $g^k$, i.e. equal to $m$. Any subgroup $H$ of $G$ is cyclic\n(see ). If $|H| = m$, then $H$ must have a generator of order $m$; thus\napparently $H = \\langle g^{\\pm k}\\rangle = \\langle g^k\\rangle$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubgroupsOfFiniteCyclicGroup"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "subgroups of finite cyclic group"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\left\\{ A_{n}\\right\\} _{n=1}^{\\infty }$ be a sequence of sets, and\n$A$ a set.\n\nThe sequence $\\left\\{ A_{n}\\right\\} _{n=1}^{\\infty }$ is said to *from\nbelow* to $A$, (shortly, $A_{n}\\uparrow A$ or $A_n \\nearrow A$), iff\\\n1) $A_{n}\\subseteq A_{n+1}$ \u00a0$\\forall n\\geq 1$\\\n2) $\\displaystyle A=\\bigcup_{n=1}^{\\infty }A_{n}$\n\nThe sequence $\\left\\{ A_{n}\\right\\} _{n=1}^{\\infty }$ is said to *from\nabove* to $A$, (shortly, $A_{n}\\downarrow A$ or $A_n \\searrow A$), iff\\\n1) $A_{n+1}\\subseteq A_{n}$ \u00a0$\\forall n\\geq 1$\\\n2) $\\displaystyle A=\\bigcap_{n=1}^{\\infty }A_{n}$\n\nIn both cases the less accurate\nnotation$$A=\\lim_{n\\longrightarrow \\infty }A_{n}$$\n\nis also used.",
+  "language": "INFORMAL",
+  "phrase": "Sequence Of Sets Convergence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SequenceOfSetsConvergence"
+    }
+  ],
+  "indexable": true
+}

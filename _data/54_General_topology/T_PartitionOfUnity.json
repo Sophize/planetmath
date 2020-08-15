@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space. A [**partition of unity**]{} is a\ncollection of continuous functions\n$\\{\\varepsilon_i \\colon X \\to [0,1]\\}$ such that\n$$\\sum_i \\varepsilon_i(x) = 1 \\quad\\mbox{for all $x \\in X$}.$$\n\nA partition of unity is [**locally finite**]{} if each $x$ in $X$ is\ncontained in an open set on which only a finite number of\n$\\varepsilon_i$ are non-zero. That is, if the cover\n$\\{\\varepsilon_i^{-1}((0,1])\\}$ is locally finite.\n\nA partition of unity is [**subordinate to an open cover**]{} $\\{U_i\\}$\nof $X$ if each $\\varepsilon_i$ is zero on the complement of $U_i$.\n\nA partition of unity for ${\\mathbb{S}}^1$ is given by\n$\\{ \\sin^2(\\theta/2), \\cos^2(\\theta/2) \\}$ subordinate to the covering\n$\\{ (0, 2\\pi), (-\\pi, \\pi) \\}$.\n\n**Application to integration**\n\nLet $M$ be an orientable manifold with volume form $\\omega$ and a\npartition of unity $\\{\\varepsilon_i(x)\\}$. Then, the integral of a\nfunction $f(x)$ over $M$ is given by\n$$\\int_M f(x) \\omega = \\sum_i \\int_{U_i} \\varepsilon_i(x) f(x) \\omega.$$\nIt is of the choice of partition of unity.",
+  "language": "INFORMAL",
+  "phrase": "Partition Of Unity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartitionOfUnity"
+    }
+  ],
+  "indexable": true
+}

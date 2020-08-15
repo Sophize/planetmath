@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $f$ is a schlicht function (univalent function on the unit disc\nsuch that $f(0) = 0$ and $f'(0) = 1$) then\n$$\\frac{1-\\lvert z \\rvert}{(1+\\lvert z \\rvert)^3}\n\\leq\n\\lvert f'(z) \\rvert\n\\leq\n\\frac{1+\\lvert z \\rvert}{(1-\\lvert z \\rvert)^3},$$ and\n$$\\frac{\\lvert z \\rvert}{(1+\\lvert z \\rvert)^2}\n\\leq\n\\lvert f(z) \\rvert\n\\leq\n\\frac{\\lvert z \\rvert}{(1-\\lvert z \\rvert)^2}.$$ Equality holds for one\nof the four inequalities at some point $z \\not= 0$ if and only if $f$ is\na rotation of the Koebe function.\n\nFollowing is a generalized distortion theorem.\n\nIf $K$ is a compact subset of a region $G \\subset {\\mathbb{C}}$, then\nthere is a constant $M$ (depending on $K$) such that for every univalent\nfunction $f$ on $G$ and ever pair of points $z,w \\in K$ we have\n$$\\frac{1}{M}\n\\leq\n\\frac{\\lvert f'(z) \\rvert}{\\lvert f'(w) \\rvert}\n\\leq\nM .$$\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1995.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KoebeDistortionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Koebe distortion theorem",
+    "distortion theorem",
+    "generalized distortion theorem",
+    "K\\\"obe distortion theorem"
+  ]
+}

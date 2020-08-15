@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Consider $\\mu$ a probability measure, and $f:M\\rightarrow M$ a measure\npreserving dynamical system. Consider $A:M\\rightarrow GL(d,\\textbf{R})$,\na measurable transformation, where GL(d,**R**) is the space of\ninvertible square matrices of size $d$. Consider the multiplicative\ncocycle $(\\phi^n(x))_n$ defined by the transformation $A$.\n\nIf $\\log^+||A||$ is integrable, where\n$\\log^+||A||=\\max\\{ \\log ||A||,0\\}$, then:\n$$\\lambda_{\\max}(x)=\\lim_n \\frac{1}{n} \\log ||\\phi^n(x)||$$ exists\nalmost everywhere, and $\\lambda^+_{\\max}$ is integrable and\n$$\\int \\lambda_{\\max} d\\mu = \\lim_n \\frac{1}{n} \\int \\log ||\\phi^n|| d\\mu = \\inf_n \\frac{1}{n} \\int \\log ||\\phi^n||d\\mu$$\n\nIf $\\log^+||A^{-1}||$ is integrable, then:\n$$\\lambda_{\\min}(x)=\\lim_n -\\frac{1}{n} \\log ||\\phi^{-n}(x)||$$ exists\nalmost everywhere, and $\\lambda^+_{\\min}$ is integrable and\n$$\\int \\lambda_{\\min} d\\mu = \\lim_n -\\frac{1}{n} \\int \\log ||\\phi^{-n}|| d\\mu = \\sup_n -\\frac{1}{n} \\int \\log ||\\phi^{-n}||d\\mu$$\n\nFurthermore, both $\\lambda_{\\min}$ and $\\lambda_{\\max}$ are invariant\nfor the tranformation $f$, that is,\n$\\lambda_{\\min}\\circ f(x)=\\lambda_{\\min}(x)$ and\n$\\lambda_{\\max}\\circ f(x)=\\lambda_{\\max}(x)$, for $\\mu$ almost\neverywhere.\n\nThis theorem is a direct consequence of Kingman\u2019s subadditive ergodic\ntheorem, by observing that both $$\\log ||\\phi^n(x)||$$ and\n$$\\log ||\\phi^{-n}(x)||$$ are subadditive sequences.\n\nThe results in this theorem are strongly improved by Oseledet\u2019s\nmultiplicative ergodic theorem, or Oseledet\u2019s decomposition.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FurstenbergKestenTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Furstenberg-Kesten theorem"
+  ]
+}

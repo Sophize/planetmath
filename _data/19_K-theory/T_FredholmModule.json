@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Fredholm modules represent abstract elliptic pseudo-differential\noperators.\n\nAn [**odd Fredholm module**]{} $({\\mathord{\\mathcal{H}}},F)$ over a\n$C^*$-algebra $A$ is given by an involutive representation $\\pi$ of $A$\non a Hilbert space ${\\mathord{\\mathcal{H}}}$, together with an operator\n$F$ on ${\\mathord{\\mathcal{H}}}$ such that $F = F^*$,\n$F^2 = {\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}$ and\n$[F,\\pi(a)] \\in {\\mathbb{K}}({\\mathord{\\mathcal{H}}})$ for all\n$a \\in A$.\n\nAn [**even Fredholm module**]{} $({\\mathord{\\mathcal{H}}},F,\\Gamma)$ is\ngiven by an odd Fredholm module $({\\mathord{\\mathcal{H}}},F)$ together\nwith a ${\\mathbb{Z}}_2$-grading $\\Gamma$ on ${\\mathord{\\mathcal{H}}}$,\n$\\Gamma = \\Gamma^*$, $\\Gamma^2 = {\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}$, such\nthat $\\Gamma\\pi(a) = \\pi(a)\\Gamma$ and $\\Gamma F = -F\\Gamma$.\n\nA Fredholm module is called [**degenerate**]{} if $[F,\\pi(a)] = 0$ for\nall $a \\in A$. Degenerate Fredholm modules are homotopic to the\n0-module.\n\nAn even Fredholm module $({\\mathord{\\mathcal{H}}},F,\\Gamma)$ over\n${\\mathbb{C}}$ is given by $$\\begin{aligned}\n{\\mathord{\\mathcal{H}}}& = & {\\mathbb{C}}^k\\oplus{\\mathbb{C}}^k\n\\quad\\mbox{with\\ }\n\\pi(a) = \\left(\\begin{array}{cc}\na{\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_k & 0 \\\\\n0 & 0 \\end{array}\\right), \\\\\nF & = & \\left(\\begin{array}{cc}\n0 & {\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_k \\\\\n{\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_k & 0 \\end{array}\\right), \\\\\n\\Gamma & = & \\left(\\begin{array}{cc}\n{\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_k & 0 \\\\\n0 & -{\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_k \\end{array}\\right).\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Fredholm Module",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FredholmModule"
+    }
+  ],
+  "indexable": true
+}

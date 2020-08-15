@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $Q=(Q_0, Q_1, s, t)$ be a quiver, i.e. $Q_0$ is a set of vertices,\n$Q_1$ is a set of arrows and $s,t:Q_1\\to Q_0$ are functions such that\n$s$ maps each arrow to its source and $t$ maps each arrow to its target.\n\nA **representation** $\\mathbb{V}$ of $Q$ over a field $k$ is a family of\nvector spaces $\\{V_i\\}_{i\\in Q_0}$ over $k$ together with a family of\n$k$-linear maps $\\{f_a:V_{s(a)}\\to V_{t(a)}\\}_{a\\in Q_1}$.\n\nA **morphism** $F:\\mathbb{V}\\to\\mathbb{W}$ between representations\n$\\mathbb{V}=(V_i,g_a)$ and $\\mathbb{W}=(W_i,h_a)$ is a family of\n$k$-linear maps $\\{F_i:V_i\\to W_i\\}_{i\\in Q_0}$ such that for each arrow\n$a\\in Q_1$ the following relation holds:\n$$F_{t(a)}\\circ g_{a} = h_{a}\\circ F_{s(a)}.$$\n\nObviously we can compose morphisms of representations and in this the\ncase class of all representations and representation morphisms together\nwith the standard composition is a category. This category is abelian.\n\nIt can be shown that for each finite quiver $Q$ (i.e. with $Q_0$ finite)\nand field $k$ there exists an algebra $A$ over $k$ such that the\ncategory of representations of $Q$ is equivalent to the category of\nmodules over $A$.\n\nA representation $\\mathbb{V}$ of $Q$ is called **trivial** iff $V_i=0$\nfor each vertex $i\\in Q_0$.\n\nA representation $\\mathbb{V}$ of $Q$ is called **locally\nfinite-dimensional** iff $\\mathrm{dim}_k V_i<\\infty$ for each vertex\n$i\\in Q_0$ and **finite-dimensional** iff $\\mathbb{V}$ is locally\nfinite-dimensional and $V_i=0$ for almost all vertices $i\\in Q_0$.",
+  "language": "INFORMAL",
+  "phrase": "Quiver Representations And Representation Morphisms",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuiverRepresentationsAndRepresentationMorphisms"
+    }
+  ],
+  "indexable": true
+}

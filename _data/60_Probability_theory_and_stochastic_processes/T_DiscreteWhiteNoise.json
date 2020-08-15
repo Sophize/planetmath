@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The stochastic process $\\{ Z_t, t \\in T \\}$,where T is the set of\nnatural integers $\\mathbb{N}$ or the set of all integers $\\mathbb{Z}$,\nis said to be white noise with mean 0 and variance $\\sigma^2$, written\n$\\{ Z_t\\}\\sim WN(0,\\sigma^2)$, if and only if $\\{ Z_t\\}$ has zero mean\nand autocovariance function $$\\gamma\\left(h\\right) =\n\\left\\{ \n\\begin{array}{ll} \n\\sigma^2 & \\textrm{if } h=0 \\\\\n0 & \\textrm{if } h\\neq 0  \\end{array}\n\\right.$$",
+  "language": "INFORMAL",
+  "phrase": "Discrete White Noise",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiscreteWhiteNoise"
+    }
+  ],
+  "indexable": true
+}

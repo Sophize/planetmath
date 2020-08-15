@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $a_1,a_2, \\ldots$ is a sequence of real or complex numbers. If\nthe series $$\\sum_{k=1}^\\infty a_k$$ converges, then\n$\\lim_{k\\to \\infty} a_k = 0$.\n\n### Remarks {#remarks .unnumbered}\n\n1.  The harmonic series $\\sum_{k=1}^\\infty 1/k$ shows that the\n    implication can not be reversed.\n\n2.  This result can be used as a first test for convergence of a series\n    $\\sum_{k=1}^\\infty a_k$. If $a_k$ does not converge to $0$, then\n    $\\sum_{k=1}^\\infty a_k$ does not converge either.\n\nLet $S\\in {\\mathbbmss{C}}$ be the value of the sum, and let\n$\\varepsilon>0$ be arbitrary. Then there exists an $N\\ge 1$ such that\n$$| \\sum_{k=1}^M a_k -S | < \\frac{\\varepsilon}{2}$$ for all $M\\ge N$.\nFor $j\\ge N$ we then have $$\\begin{aligned}\n|a_{j+1}| &=& | \\sum_{k=1}^{j+1} a_k -\\sum_{k=1}^j a_k| \\\\\n          &\\le & | \\sum_{k=1}^{j+1} a_k -S | + |S - \\sum_{k=1}^j a_k| \\\\\n          &<& \\varepsilon,\\end{aligned}$$ and the claim follows.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ifsumk1inftyAkConvergesThenAkto0"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "if $\\sum_{k=1}^\\infty a_k$ converges then $a_k\\to 0$",
+    "necessary condition of convergence"
+  ]
+}

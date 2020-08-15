@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathcal G}$ be a groupoid, defined as usual by a category in\nwhich all morphisms are invertible, with the *structure maps*\n$s,t: G_1 \\longrightarrow  G_0$, and $u: G_0 \\longrightarrow G_1$. Given\na vector bundle $q : E \\longrightarrow  G_0$, the *frame groupoid* is\ndefined as $$\\Phi(E)=s,t: \\phi(E) \\longrightarrow  G_0$$, with $\\phi(E)$\nbeing the set of all vector space isomorphisms\n$\\eta: E_x \\longrightarrow  E_y$ over all pairs $(x,y) \\in {G_0}^2$,\nalso with the usual conditions for the structure maps of the groupoid.\n\nLet $G$ be a group and $V$ a vector space. A *group representation* is\nthen defined as a homomorphism $$h: G  \\longrightarrow  End(V),$$ with\n$End(V)$ being the group of endomorphisms $e: V \\longrightarrow V $ of\nthe vector space $V$.\n\n[**Note:**]{} With the notation used above, let us consider\n$q:E \\longrightarrow  G_0$ to be a vector bundle. Then, consider a\n*group representation*\u2013 which was here defined as the representation\n$R_G$ of a group $G$ [*via*]{} the group action on the vector space $V$,\nor as the homomorphism $h: G  \\longrightarrow  End(V)$, with $End(V)$\nbeing the group of endomorphisms of the vector space $V$. The\ngeneralization of group representations to the representations of\ngroupoids then occurs naturally by considering the groupoid action on a\nvector bundle $q: E \\longrightarrow  G_0$. Therefore, the frame groupoid\nenters into the definition of .",
+  "language": "INFORMAL",
+  "phrase": "Frame Groupoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FrameGroupoid"
+    }
+  ],
+  "indexable": true
+}

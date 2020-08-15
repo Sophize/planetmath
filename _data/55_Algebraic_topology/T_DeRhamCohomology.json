@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a paracompact ${\\cal C}^\\infty$ differential manifold. Let\n$$\\Omega X=\\bigoplus_{i=0}^\\infty\\Omega^i X$$ denote the\ngraded-commutative $\\mathbb{R}$-algebra of differential forms on $X$.\nTogether with the exterior derivative\n$$d^i\\colon\\Omega^i X\\to\\Omega^{i+1}X\\quad(i=0,1,\\ldots),$$ $\\Omega X$\nforms a chain complex $(\\Omega X,d)$ of $\\mathbb{R}$-vector spaces. The\n${\\rm H}_{\\rm dR}^i X$ of $X$ are defined as the homology groups of this\ncomplex, that is to say\n$${\\rm H}_{\\rm dR}^i X:=(\\ker d^i)/({\\mathop{\\mathrm{im}}}d^{i-1})\\quad(i=0,1,\\ldots),$$\nwhere $\\Omega^{-1}X$ is taken to be 0, so $d^{-1}\\colon 0\\to\\Omega^0 X$\nis the zero map. The wedge product in $\\Omega X$ induces the structure\nof a graded-commutative $\\mathbb{R}$-algebra on\n$${\\rm H}_{\\rm dR}X:=\\bigoplus_{i=0}^{\\infty}{{\\rm H}_{\\rm dR}}^i X.$$\n\nIf $X$ and $Y$ are both paracompact ${\\cal C}^\\infty$ manifolds and\n$f\\colon X\\to Y$ is a differentiable map, there is an induced map\n$$f^*\\colon {{\\rm H}_{\\rm dR}}Y\\to{{\\rm H}_{\\rm dR}}X,$$ defined by\n$$f^*[\\omega]:=[f^*\\omega]\\quad\\hbox{for $\\omega\\in\\ker d$}.$$ Here\n$[\\omega]$ denotes the class of $\\omega$ modulo\n${\\mathop{\\mathrm{im}}}d$, and the second $f^*$ is the map\n$\\Omega Y\\to\\Omega X$ induced by the functor $\\Omega$. This action on\ndifferentiable maps makes the de Rham cohomology into a contravariant\nfunctor from the category of paracompact ${\\cal C}^\\infty$ manifolds to\nthe category of graded-commutative $\\mathbb{R}$-algebras. It turns out\nto be homotopy invariant; this implies that homotopy equivalent\nmanifolds have isomorphic de Rham cohomology.",
+  "language": "INFORMAL",
+  "phrase": "De Rham Cohomology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DeRhamCohomology"
+    }
+  ],
+  "indexable": true
+}

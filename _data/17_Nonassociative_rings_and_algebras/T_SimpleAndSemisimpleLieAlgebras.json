@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A Lie algebra is called [*simple*]{} if it has no proper ideals and is\nnot abelian. A Lie algebra is called [*semi-simple*]{} if it has no\nproper solvable ideals and is not abelian.\n\nLet $k=\\R$ or $\\C$. Examples of simple algebras are\n${\\mathfrak{sl}}_nk$, the Lie algebra of the special linear group\n(traceless matrices), ${\\mathfrak{so}}_nk$, the Lie algebra of the\nspecial orthogonal group (skew-symmetric matrices), and\n${\\mathfrak{sp}}_{2n} k$ the Lie algebra of the symplectic group. Over\n$\\R$, there are other simple Lie algebas, such as ${\\mathfrak{su}}_n$,\nthe Lie algebra of the special unitary group (skew-Hermitian matrices).\nAny semi-simple Lie algebra is a direct product of simple Lie algebras.\n\nSimple and semi-simple Lie algebras are one of the most widely studied\nclasses of algebras for a number of reasons. First of all, many of the\nmost interesting Lie groups have semi-simple Lie algebras. Secondly,\ntheir representation theory is very well understood. Finally, there is a\nbeautiful classification of simple Lie algebras.\n\nOver $\\C$, there are 3 infinite series of simple Lie algebras:\n${\\mathfrak{sl}}_n$, ${\\mathfrak{so}}_n$ and ${\\mathfrak{sp}}_{2n}$, and\n5 exceptional simple Lie algebras\n${\\mathfrak{g}}_2,{\\mathfrak{f}}_4,{\\mathfrak{e}}_6,{\\mathfrak{e}}_7$,\nand ${\\mathfrak{e}}_8$. Over $\\R$ the picture is more complicated, as\nseveral different Lie algebras can have the same complexification (for\nexample, ${\\mathfrak{su}}_n$ and ${\\mathfrak{sl}}_n\\R$ both have\ncomplexification ${\\mathfrak{sl}}_n\\C$).",
+  "language": "INFORMAL",
+  "phrase": "Simple And Semi-Simple Lie Algebras",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimpleAndSemisimpleLieAlgebras"
+    }
+  ],
+  "indexable": true
+}

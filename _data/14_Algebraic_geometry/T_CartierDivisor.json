@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "On a scheme $X$, a Cartier divisor is a global section of the sheaf\n$\\mathcal{K}^*/{\\mathcal{O}}^*$, where $\\mathcal{K}^*$ is the\nmultiplicative sheaf of meromorphic functions, and ${\\mathcal{O}}^*$ the\nmultiplicative sheaf of invertible regular functions (the units of the\nstructure sheaf).\n\nMore explicitly, a Cartier divisor is a choice of open cover $U_i$ of\n$X$, and meromorphic functions $f_i\\in \\mathcal{K}^*(U_i)$, such that\n$f_i/f_j\\in{\\mathcal{O}}^*(U_{i}\\cap U_j)$, along with two Cartier\ndivisors being the same if the open cover of one is a refinement of the\nother, with the same functions attached to open sets, or if $f_i$ is\nreplaced by $gf_i$ with $g\\in{\\mathcal{O}}_*$.\n\nIntuitively, the only carried by Cartier divisor is where it vanishes,\nand the order it does there. Thus, a Cartier divisor should give us a\nWeil divisor, and vice versa. On \u201cnice\u201d (for example, nonsingular over\nan algebraically closed field) schemes, it does.",
+  "language": "INFORMAL",
+  "phrase": "Cartier Divisor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CartierDivisor"
+    }
+  ],
+  "indexable": true
+}

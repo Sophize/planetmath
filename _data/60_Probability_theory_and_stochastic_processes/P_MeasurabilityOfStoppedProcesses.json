@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a real-valued stochastic process and $\\tau$ be a stopping\ntime. If $X$ satisfies any of the following properties then so does the\nstopped process $X^\\tau$.\n\n1.  $X$ is jointly measurable.\n\n2.  $X$ is progressively measurable.\n\n3.  $X$ is optional.\n\n4.  $X$ is predictable.\n\nIn particular, if $X$ is a right-continuous and adapted process then it\nis progressive (alternatively, it is optional). Then, the stopped\nprocess $X^\\tau$ will also be progressive and is therefore\nright-continuous and adapted.\n\nAlso, for any progressive process $X$ and bounded stopping time\n$\\tau\\le t$, the above result shows that $X_\\tau=X^\\tau_t$ will be\n$\\mathcal{F}_t$-measurable.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeasurabilityOfStoppedProcesses"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "measurability of stopped processes"
+  ]
+}

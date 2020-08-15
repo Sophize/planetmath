@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Teichmuler character",
+    "Teichmuller lift",
+    "Teichm\\\"uller lift"
+  ],
+  "definition": "Before we define the Teichm\u00fcller character, we begin with a corollary of\nHensel\u2019s lemma.\n\nLet $p$ be a prime number. The ring of ${\\mathbb{Z}}_p$ contains exactly\n$p-1$ distinct $(p-1)$th roots of unity. Furthermore, every $(p-1)$th\nroot of unity is distinct modulo $p$.\n\nNotice that ${\\mathbb{Q}}_p$, the $p$-adic rationals, is a field.\nTherefore $f(x)=x^{p-1}-1$ has at most $p-1$ roots in ${\\mathbb{Q}}_p$\n(see ). Moreover, if we let $a\\in {\\mathbb{Z}}$ with $1\\leq a \\leq p-1$\nthen $f(a)=a^{p-1}-1\\equiv 0 \\mod p$ by Fermat\u2019s little theorem. Since\n$f'(a)=(p-1)\\cdot a^{p-2}$ is non-zero modulo $p$, the trivial case of\nHensel\u2019s lemma implies that there exist a root of $x^{p-1}-1$ in\n${\\mathbb{Z}}_p$ which is congruent to $a$ modulo $p$. Hence, there are\nat least $p-1$ roots in ${\\mathbb{Z}}_p$, and we can conclude that there\nare exactly $p-1$ roots.\n\nThe Teichm\u00fcller character is a homomorphism of multiplicative groups:\n$$\\omega \\colon \\mathbb{F}_p^\\times \\to {\\mathbb{Z}}_p^\\times$$ such\nthat $\\omega(a)$ is the unique $(p-1)$th root of unity in\n${\\mathbb{Z}}_p$ which is congruent to $a$ modulo $p$ (which exists by\nthe corollary above). The map $\\omega$ is sometimes called the\nTeichm\u00fcller lift of $\\mathbb{F}_p$ to ${\\mathbb{Z}}_p$ ($0\\mod p$ would\nlift to $0\\in {\\mathbb{Z}}_p$).\n\nSome authors define the Teichm\u00fcller character to be the homomorphism:\n$$\\hat{\\omega}\\colon {\\mathbb{Z}}_p^\\times \\to {\\mathbb{Z}}_p^\\times$$\ndefined by $$\\hat{\\omega}(z)=\\lim_{n\\to \\infty} z^{p^n}.$$ Notice that\nfor any $z\\in {\\mathbb{Z}}_p^\\times$, $\\hat{\\omega}(z)$ is a $(p-1)$th\nroot of unity:\n$$(\\hat{\\omega}(z))^p=\\left( \\lim_{n\\to \\infty} z^{p^n} \\right)^p= \\lim_{n\\to \\infty} z^{p^{n+1}}=\\hat{\\omega}(z).$$\nThus, the value $\\hat{\\omega}(z)$ is the same than $\\omega(z \\mod p)$.",
+  "language": "INFORMAL",
+  "phrase": "Teichm\\\"Uller Character",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TeichmullerCharacter"
+    }
+  ],
+  "indexable": true
+}

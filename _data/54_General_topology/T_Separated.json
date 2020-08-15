@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose $A$ and $B$ are subsets of a topological\nspace $X$. Then $A$ and $B$ are [**separated**]{} provided that\n$$\\begin{array}{ccc}\n\\overline{A}\\cap B &=& \\emptyset, \\\\\nA\\cap \\overline{B} &=& \\emptyset,\n\\end{array}$$ where $\\overline{A}$ is the in $X$.\n\n### Properties {#properties .unnumbered}\n\n1.  If $A,B$ are separated in $X$, and $f\\colon X\\to Y$ is a\n    homeomorphism, then $f(A)$ and $f(B)$ are separated in $Y$.\n\n### Examples {#examples .unnumbered}\n\n1.  On ${\\mathbbmss{R}}$, the intervals $(0,1)$ and $(1,2)$ are\n    separated.\n\n2.  If $d(x,y)\\ge r+s$, then the open balls $B_r(x)$ and $B_s(y)$ are\n    separated .\n\n3.  If $A$ is a clopen set, then $A$ and $A^\\complement$ are separated.\n    This follows since $\\overline{S}=S$ when $S$ is a closed set.\n\n### Remarks {#remarks .unnumbered}\n\nThe above definition follows [@kelley]. In [@jameson], separated sets\nare called [**strongly disjoin[t]{}**]{} sets.\n\n[9]{} J.L. Kelley, *General Topology*, D. van Nostrand Company, Inc.,\n1955. G.J. Jameson, *Topology and Normed Spaces*, Chapman and Hall,\n1974.",
+  "language": "INFORMAL",
+  "phrase": "Separated",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Separated"
+    }
+  ],
+  "indexable": true
+}

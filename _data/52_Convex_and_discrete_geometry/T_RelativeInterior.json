@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a subset of the $n$-dimensional Euclidean space\n$\\mathbb{R}^n$. The *relative interior* of $S$ is the interior of $S$\nconsidered as a subset of its affine hull $\\operatorname{Aff}(S)$, and\nis denoted by $\\operatorname{ri}(S)$.\n\nThe difference between the interior and the relative interior of $S$ can\nbe illustrated in the following two examples. Consider the closed unit\nsquare $$I^2:=\\lbrace (x,y,0)\\mid 0\\le x, y\\le 1\\rbrace$$ in\n$\\mathbb{R}^3$. Its interior is $\\varnothing$, the empty set. However,\nits relative interior is\n$$\\operatorname{ri}(I^2)=\\lbrace (x,y,0)\\mid 0< x,y< 1\\rbrace,$$ since\n$\\operatorname{Aff}(I^2)$ is the $x$-$y$ plane\n$\\lbrace (x,y,0)\\mid x,y\\in\\mathbb{R}\\rbrace$. Next, consider the closed\nunit cube $$I^3:=\\lbrace (x,y,z)\\mid 0\\le x, y, z\\le 1\\rbrace$$ in\n$\\mathbb{R}^3$. The interior and the relative interior of $I^3$ are the\nsame:\n$$\\operatorname{int}(I^3)=\\operatorname{ri}(I^3)=\\lbrace (x,y,z)\\mid 0< x,y,z< 1\\rbrace.$$\n\n**Remarks**.\n\n-   As another example, the relative interior of a point is the point,\n    whereas the interior of a point is $\\varnothing$.\n\n-   It is true that if $T\\subseteq S$, then\n    $\\operatorname{int}(T)\\subseteq \\operatorname{int}(S)$. However,\n    this is not the case for the relative interior operator\n    $\\operatorname{ri}$, as shown by the above two examples:\n    $\\varnothing\\neq I^2\\subseteq I^3$, but\n    $\\operatorname{ri}(I^2)\\cap \\operatorname{ri}(I^3)=\\varnothing$.\n\n-   The companion concept of the relative interior of a set $S$ is the\n    *relative boundary* of $S$: it is the boundary of $S$ in\n    $\\operatorname{Aff}(S)$, denoted by $\\operatorname{rbd}(S)$.\n    Equivalently,\n    $\\operatorname{rbd}(S)=\\overline{S}-\\operatorname{ri}(S)$, where\n    $\\overline{S}$ is the closure of $S$.\n\n-   $S$ is said to be *relatively open* if $S=\\operatorname{ri}(S)$.\n\n-   All of the definitions above can be generalized to convex sets in a\n    topological vector space.",
+  "language": "INFORMAL",
+  "phrase": "Relative Interior",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RelativeInterior"
+    }
+  ],
+  "indexable": true
+}

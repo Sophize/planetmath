@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "root discriminant"
+  ],
+  "definition": "Let $K$ be a number field, let $d_K$ be its discriminant and let\n$n=[K:{\\mathbb{Q}}]$ be the degree over ${\\mathbb{Q}}$. The quantity:\n$$|\\sqrt[n]{d_K}|$$ is called the [**root-discriminant**]{} of $K$ and\nit is usually denoted by $\\operatorname{rd}_K$.\n\nThe following lemma is one of the motivations for the previous\ndefinition:\n\nLet $E/F$ be an extension of number fields which is unramified at all\nfinite primes. Then ${\\operatorname{rd}}_E={\\operatorname{rd}}_F$. In\nparticular, the Hilbert class field of a number field has the same\nroot-discriminant as the number field.\n\nNotice that the relative discriminant ideal (or different) for $E/F$ is\nthe ring of integers in $F$. Therefore we have: $$|d_E|=|d_F|^{[E:F]}$$\nThe results follows by taking $[E:{\\mathbb{Q}}]$-th roots on both sides\nof the previous equation.",
+  "language": "INFORMAL",
+  "phrase": "Root-Discriminant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Rootdiscriminant"
+    }
+  ],
+  "indexable": true
+}

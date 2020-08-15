@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "alternate form",
+    "alternating",
+    "symplectic hyperbolic plane"
+  ],
+  "definition": "A bilinear form $A$ on a vector space $V$ (over a field $k$) is called\nan *alternating form* if for all $v\\in V$, $A(v,v)=0$.\n\nSince for any $u,v\\in V$,\n$$0=A(u+v,u+v)=A(u,u)+A(u,v)+A(v,u)+A(v,v)=A(u,v)+A(v,u),$$ we see that\n$A(u,v)=-A(v,u)$. So an alternating form is automatically a\nanti-symmetric, or skew symmetric form. The converse is true if the\ncharacteristic of $k$ is not $2$.\n\nLet $V$ be a two dimensional vector space over $k$ with an alternating\nform $A$. Let $\\lbrace e_1,e_2\\rbrace$ be a basis for $V$. The matrix\nassociated with $A$ looks like\n\n$\n\\begin{pmatrix}\nA(e_1,e_1) & A(e_1,e_2) \\\\\nA(e_2,e_1) & A(e_2,e_2)\n\\end{pmatrix}=r\n\\begin{pmatrix}\n0 & 1 \\\\\n-1 & 0\n\\end{pmatrix}=rS,\n$\n\nwhere $r=A(e_1,e_2)$. The skew symmetric matrix $S$ has the property\nthat its diagonal entries are all $0$. $S$ is called the $2\\times 2$\n*alternating* or *symplectic matrix*.\n\n$A$ is called *non-singular* or *non-degenerate* if there exist a\nvectors $u,v\\in V$ such that $A(u,v)\\neq 0$. $u,v$ are necessarily\nnon-zero. Note that the associated matrix $rS$ is non-singular iff\n$r\\neq 0$ iff $A$ is non-singular.\n\nIn the two dimensional vector space case above, if $A$ is non-singular,\nwe can re-scale the basis elements so that $r=1$. This means that the\nmatrix associated with $A$ is the alternating matrix. A two-dimensional\nvector space which carries a non-singular alternating form is sometimes\ncalled an *alternating* or *symplectic hyperbolic plane*. Some authors\nalso call it simply a hyperbolic plane. But here on PlanetMath, we will\nreserve the shorter name for its cousin in the category of quadratic\nspaces. Let\u2019s denote an alternating hyperbolic plane by $\\mathcal{A}$.\n\n**Remark.** In general, it can be shown that if $V$ is an\n$n$-dimensional vector space equipped with a non-singular alternating\nform $A$, then $V$ can be written as an orthogonal direct sum of the\nalternating hyperbolic planes $\\mathcal{A}$. In other words, the\nassociated matrix for $A$ has the block form\n\n$\n\\begin{pmatrix}\nS & \\boldsymbol{0} & \\cdots & \\boldsymbol{0} \\\\\n\\boldsymbol{0} & S & \\cdots & \\boldsymbol{0} \\\\\n\\vdots & \\vdots & \\ddots & \\vdots \\\\\n\\boldsymbol{0} & \\boldsymbol{0} & \\cdots & S \\\\\n\\end{pmatrix},\\mbox{ where }\\boldsymbol{0}=\n\\begin{pmatrix}\n0 & 0 \\\\ 0 & 0\n\\end{pmatrix}.\n$\n\nFurthermore, $n$ is even. $V$ is called a symplectic vector space.",
+  "language": "INFORMAL",
+  "phrase": "Alternating Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternatingForm"
+    }
+  ],
+  "indexable": true
+}

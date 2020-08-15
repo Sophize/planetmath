@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "cadlag process",
+    "rcll process",
+    "R-process",
+    "right-process"
+  ],
+  "definition": "A c\u00e0dl\u00e0g process $X$ is a stochastic process for which the paths\n$t\\mapsto X_t$ are right-continuous with left limits everywhere, with\nprobability one. The word *c\u00e0dl\u00e0g* is an acronym from the French for\n\u201ccontinu \u00e0 droite, limites \u00e0 gauche\u201d. Such processes are widely used in\nthe theory of noncontinuous stochastic processes. For example,\nsemimartingales are c\u00e0dl\u00e0g, and continuous-time martingales and many\ntypes of Markov processes have c\u00e0dl\u00e0g modifications.\n\nGiven a c\u00e0dl\u00e0g process $X_t$ with time index $t$ ranging over the\nnonnegative real numbers, its left limits are often denoted by\n$$X_{t-}=\\lim_{\\substack{s\\rightarrow t,\\\\ s<t}}X_s$$ for every $t>0$.\nAlso, the jump at time $t$ is written as $$\\Delta X_t = X_t-X_{t-}.$$\n\nAlternative terms used to refer to a c\u00e0dl\u00e0g process are *rcll*\n(right-continuous with left limits), *R-process* and *right-process*.\n\nAlthough used less frequently, a process whose paths are almost surely\nleft-continuous with right limits everywhere are known as *c\u00e0gl\u00e0d*,\n*lcrl* or *L-processes*.",
+  "language": "INFORMAL",
+  "phrase": "C\\`Adl\\`Ag Process",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CadlagProcess"
+    }
+  ],
+  "indexable": true
+}

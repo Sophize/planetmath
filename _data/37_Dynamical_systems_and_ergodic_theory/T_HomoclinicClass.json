@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a compact smooth manifold and $f\\colon M\\to M$ a\ndiffeomorphism. The *homoclinic class* of a hyperbolic periodic point\n$p$ of $f$, denoted $H(p,f)$, is the closure of the set of transverse\nintersections between the stable and unstable manifolds all points in\nthe orbit of $p$; i.e.\n$$H(p,f)=\\operatorname{cl}\\left(\\bigcup_{n\\in {\\mathbb{N}}} W^s(p)\\pitchfork \\bigcup_{n\\in {\\mathbb{Z}}} W^u(p)\\right).$$\nHomoclinic classes are topologically transitive, and the number of\nhomoclinic classes is at most countable. Moreover, generically (in the\n$\\mathcal{C}^1$ topology of $\\operatorname{Diff}(M)$), they are pairwise\ndisjoint and maximally transitive.",
+  "language": "INFORMAL",
+  "phrase": "Homoclinic Class",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomoclinicClass"
+    }
+  ],
+  "indexable": true
+}

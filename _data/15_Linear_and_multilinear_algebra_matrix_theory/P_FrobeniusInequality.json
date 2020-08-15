@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For any matrices $A$,$B$,$C$ such that $ABC$ exists, then\n$\\operatorname{rank} AB + \\operatorname{rank} BC \\leq \\operatorname{rank} ABC+\n\\operatorname{rank} B.$\n\n[9]{} Carl D. Meyer *Matrix Analysis and Applied Linear Algebra*",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FrobeniusInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Frobenius inequality"
+  ]
+}

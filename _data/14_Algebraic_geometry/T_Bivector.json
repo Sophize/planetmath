@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *bivector* is a two-dimensional analog to a one-dimensional vector.\nWhereas a vector is often utilized to represent a one-dimensional\ndirected quantity (often visualized geometrically as a directed\nline-segment), a bivector is used to represent a two-dimensional\ndirected quantity (often visualized as an oriented plane-segment).\n\nSince a bivector is a two-dimensional entity, it can be built up from\ntwo linearly independent vectors, $\\mathbf{a}$ and $\\mathbf{b}$ by means\nof the exterior product. $$\\mathbf{B} = \\mathbf{a} \\wedge \\mathbf{b}$$\nThe vectors $\\mathbf{a}$ and $\\mathbf{b}$ span the subspace represented\nby the bivector $\\mathbf{B}$. Typically the orientation of the bivector\nis established by placing the two vectors tail-to-tail and sweeping from\nthe first vector to the second. In this way, an oppositely oriented\nbivector may be obtained by reversing the order of the vectors in the\nexterior product.\n$$\\mathbf{a} \\wedge \\mathbf{b} = -\\mathbf{b} \\wedge \\mathbf{a}$$",
+  "language": "INFORMAL",
+  "phrase": "Bivector",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Bivector"
+    }
+  ],
+  "indexable": true
+}

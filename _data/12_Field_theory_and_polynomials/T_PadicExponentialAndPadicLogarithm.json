@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "$p$-adic exponential",
+    "$p$-adic logarithm"
+  ],
+  "definition": "Let $p$ be a prime number and let ${\\mathbb{C}}_p$ be the field of .\n\nThe $p$-adic exponential is a function\n$\\exp_p\\colon R \\to {\\mathbb{C}}_p$ defined by\n$$\\exp_p(s)=\\sum_{n=0}^\\infty \\frac{s^n}{n!}$$ where\n$$R=\\{ s\\in {\\mathbb{C}}_p : |s|_p<\\frac{1}{p^{1/(p-1)}}\\}.$$\n\nThe domain of $\\exp_p$ is restricted because the radius of convergence\nof the series $\\sum_{n=0}^\\infty z^n/n!$ over ${\\mathbb{C}}_p$ is\nprecisely $r=p^{-1/(p-1)}$. Recall that, for $z\\in {\\mathbb{Q}}_p$, we\ndefine $$|z|_p=\\frac{1}{p^{\\nu_p(z)}}$$ where $\\nu_p(z)$ is the largest\nexponent $\\nu$ such that $p^\\nu$ divides $z$. For example, if $p\\geq 3$,\nthen $\\exp_p$ is defined over $p{\\mathbb{Z}}_p$. However, $e=\\exp_p(1)$\nis never defined, but $\\exp_p(p)$ is well-defined over ${\\mathbb{C}}_p$\n(when $p=2$, the number $e^4\\in {\\mathbb{C}}_2$ because\n$|4|_2=0.25<0.5=r$).\n\nThe $p$-adic logarithm is a function $\\log_p\\colon S\\to {\\mathbb{C}}_p$\ndefined by $$\\log_p(1+s)=\\sum_{n=1}^\\infty (-1)^{n+1}\\frac{s^n}{n}$$\nwhere $$S=\\{ s\\in {\\mathbb{C}}_p : |s|_p<1\\}.$$ We extend the $p$-adic\nlogarithm to the entire $p$-adic complex field ${\\mathbb{C}}_p$ as\nfollows. One can show that:\n$${\\mathbb{C}}_p=\\{ p^t\\cdot w\\cdot u: t\\in {\\mathbb{Q}},\\ w\\in W,\\ u\\in U\\}=p^{{\\mathbb{Q}}}\\times W \\times U$$\nwhere $W$ is the group of all roots of unity of order prime to $p$ in\n${\\mathbb{C}}_p^\\times$ and $U$ is the open circle of radius centered at\n$z=1$: $$U=\\{ s\\in {\\mathbb{C}}_p : |s-1|_p < 1\\}.$$ We define\n$\\log_p\\colon {\\mathbb{C}}_p \\to {\\mathbb{C}}_p$ by:\n$$\\log_p(s)=log_p(u)$$ where $s=p^r\\cdot w \\cdot u$, with $w\\in W$ and\n$u\\in U$.\n\nWith $\\exp_p$ and $\\log_p$ defined as above:\n\n1.  If $\\exp_p(s)$ and $\\exp_p(t)$ are defined then\n    $\\exp_p(s+t)=\\exp_p(s)\\exp_p(t)$.\n\n2.  $\\log_p(s)=0$ if and only if $s$ is a rational power of $p$ times a\n    root of unity.\n\n3.  $\\log_p(xy)=\\log_p(x)+\\log_p(y)$, for all $x$ and $y$.\n\n4.  If $|s|_p<p^{-1/(p-1)}$ then\n    $$\\exp_p(\\log_p(1+s))=1+s,\\quad \\log_p(\\exp_p(s))=s.$$\n\nIn a similar way one defines the general $p$-adic power by:\n$$s^z=\\exp_p(z\\log_p(s))$$ where it makes sense.",
+  "language": "INFORMAL",
+  "phrase": "P-Adic Exponential And P-Adic Logarithm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PadicExponentialAndPadicLogarithm"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "congruent"
+  ],
+  "definition": "Let $a$, $b$ be integers and $m$ a non-zero integer. We say that *$a$ is\ncongruent to $b$ modulo $m$*, if $m$ divides $b-a$ (the word\n[*modulo*]{} is the dative case of the Latin noun meaning the \u2019module\u2019).\nWe write this [*number congruence*]{} or shortly [*congruence*]{} as\n$$a\\equiv b\\pmod{m}.$$\n\nIf $a$ and $b$ are congruent modulo $m$, it means that both numbers\nleave the same residue when divided by $m$.\n\nCongruence with a fixed module is an equivalence relation on\n$\\mathbb{Z}$. The set of equivalence classes, the so-called [*residue\nclasses*]{}, is a cyclic group of order $m$ (assuming it positive) with\nrespect to addition and a ring if we consider also the multiplication\nmodulo $m$. This ring is usually denoted as\n$$\\frac{\\mathbb{Z}}{m\\mathbb{Z}}$$ and called the [*residue class\nring*]{} modulo $m$. This ring is also commonly denoted as\n$\\mathbb{Z}_m$, $\\mathbb{Z}/(m)$. However, when $m = p$ is a prime\nnumber, notation $\\mathbb{Z}_p$ is also used to denote $p$-adic\nnumbers.\\\n**of congruences**\n\n1.  If $a\\equiv b\\pmod{m}$, then $a\\!+\\!c\\equiv b\\!+\\!c\\pmod{m}$ and\n    $ac\\equiv bc\\pmod{m}$.\n\n2.  If $a\\equiv b\\pmod{m}$ and $c\\equiv d\\pmod{m}$, then\n    $a\\!\\pm\\!c\\equiv b\\!\\pm\\!d\\pmod{m}$ and $ac\\equiv bd\\pmod{m}$.\n\n3.  If $a\\equiv b\\pmod{m}$ and $f$ is a polynomial with integer\n    coefficients, then $f(a)\\equiv f(b)\\pmod{m}$.\n\n4.  If $ac\\equiv bc\\pmod{m}$ and $\\gcd(c,\\,m) = 1$, then\n    $a\\equiv b\\pmod{m}$.\n\n5.  If $ac \\equiv bc \\pmod{m}$, then\n    $a \\equiv b \\pmod{\\frac{m}{\\gcd(c,\\,m)}}$.\\\n\n[*Proof of*]{} 5. Let $\\gcd(c,\\,m) := d,\\;\\; c := c'd,\\;\\; m := m'd$,\nwhere $\\gcd(c',\\,m') = 1$. The given congruence means that\n$m \\mid (a\\!-\\!b)c$, whence $m' \\mid (a\\!-\\!b)c'$. Since $c'$ and $m'$\nare coprime, we infer that $m' \\mid a\\!-\\!b$, i.e.\n$a \\equiv b \\pmod{m'}$. Q.E.D.\\\n**Remark.** For justifying the latter asserted congruence of 2, one\nforms the sum $(a-b)c+(c-d)b$ in which the both differences are supposed\ndivisible by $m$. Since the sum is simply $ac-bd$ and divisible by $m$,\none obtains the asserted congruence. By induction, it is generalised to\nthe case with any number $n$ of factors on both ; hence one infers also\nthe result $a^n \\equiv b^n \\pmod{m}$.",
+  "language": "INFORMAL",
+  "phrase": "Congruence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Congruence"
+    }
+  ],
+  "indexable": true
+}

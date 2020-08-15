@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Moore-Penrose pseudoinverse"
+  ],
+  "definition": "Let $A$ be an $m\\times n$ matrix with entries in $\\mathbb{C}$. The\n*Moore-Penrose generalized inverse*, denoted by $A^{\\dagger}$, is an\n$n\\times m$ matrix with entries in $\\mathbb{C}$, such that\n\n1.  $AA^{\\dagger}A=A$\n\n2.  $A^{\\dagger}AA^{\\dagger}=A^{\\dagger}$\n\n3.  $AA^{\\dagger}$ and $A^{\\dagger}A$ are both Hermitian\n\n**Remarks**\n\n-   The Moore-Penrose generalized inverse of a given matrix is unique.\n\n-   If $A^{\\dagger}$ is the Moore-Penrose generalized inverse of $A$,\n    then $(A^{\\dagger})^{\\operatorname{T}}$ is the Moore-Penrose\n    generalized inverse of $A^{\\operatorname{T}}$.\n\n-   If $A=BC$ such that\n\n    1.  $A\\in\\mathbb{C}^{m\\times n}$, $B\\in\\mathbb{C}^{m\\times r}$, and\n        $C\\in\\mathbb{C}^{r\\times n}$,\n\n    2.  $r=\\operatorname{rank}(A)=\\operatorname{rank}(B)=\\operatorname{rank}(C)$,\n        then\n        $$A^{\\dagger}=C^{\\ast}(CC^{\\ast})^{-1}(B^{\\ast}B)^{-1}B^{\\ast}.$$\n\nFor example, let $$A=\\begin{pmatrix} 1&1&i \\\\ 0&1&0 \\end{pmatrix}.$$\nTransform $A$ to its row echelon form to get a decomposition of $A=BC$,\nwhere\n$$B=\\begin{pmatrix} 1&1 \\\\ 0&1 \\end{pmatrix}\\mbox{ and }C=\\begin{pmatrix} 1&0&i \\\\ 0&1&0 \\end{pmatrix}.$$\nIt is readily verified that\n$2=\\operatorname{rank}(A)=\\operatorname{rank}(B)=\\operatorname{rank}(C)$.\nSo\n$$A^{\\dagger}=\\frac{1}{2}\\begin{pmatrix} 1&-1 \\\\ 0&2 \\\\ -i&i \\end{pmatrix}.$$\nWe check that\n$$AA^{\\dagger}=I\\mbox{ and }A^{\\dagger}A=\\frac{1}{2}\\begin{pmatrix} 1&0&i \\\\ 0&2&0 \\\\ -i&0&1 \\end{pmatrix}$$\nare both Hermitian. Furthermore, $AA^{\\dagger}A=A$ and\n$A^{\\dagger}AA^{\\dagger}=A^{\\dagger}$. So, $A^{\\dagger}$ is the\nMoore-Penrose generalized inverse of $A$.",
+  "language": "INFORMAL",
+  "phrase": "Moore-Penrose Generalized Inverse",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MoorePenroseGeneralizedInverse"
+    }
+  ],
+  "indexable": true
+}

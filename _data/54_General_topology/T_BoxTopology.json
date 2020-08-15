@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "box product topology"
+  ],
+  "definition": "Let $\\{ (X_\\alpha,\\T_\\alpha) \\}_{\\alpha\\in A}$ be a family of\ntopological spaces. Let $Y$ denote the generalized Cartesian product of\nthe sets $X_\\alpha$, that is $$Y = \\prod_{\\alpha\\in A} X_\\alpha.$$ Let\n$\\B$ denote the set of all products of open sets of the corresponding\nspaces, that is $$\\B = \\left\\{ \\prod_{\\alpha\\in A} U_\\alpha \\,\\Biggm|\\,\n       U_\\alpha\\in\\T_\\alpha \\text{ for all } \\alpha\\in A \\right\\}.$$\n\nNow we can construct the *box product* $(Y,\\S)$, where $\\S$, referred to\nas the [*box topology*]{}, is the topology the base $\\B$.\n\nWhen $A$ is a set, the box topology coincides with the product topology.\n\nExample {#example .unnumbered}\n=======\n\nAs an example, the box product of two topological spaces $(X_0,\\T_0)$\nand $(X_1,\\T_1)$ is $(X_0\\times X_1,\\S)$, where the box topology $\\S$\n(which is the same as the product topology) consists of all sets of the\nform $\\bigcup_{i\\in I}(U_i\\times V_i)$, where $I$ is some index set and\nfor each $i\\in I$ we have $U_i\\in\\T_0$ and $V_i\\in\\T_1$.",
+  "language": "INFORMAL",
+  "phrase": "Box Topology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoxTopology"
+    }
+  ],
+  "indexable": true
+}

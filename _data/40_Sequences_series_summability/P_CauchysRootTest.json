@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $\\sum a_{n}$ is a series of positive real terms and\n$$\\sqrt[n]{a_{n}} < k < 1$$ for all $n > N$, then $\\sum a_{n}$ is\nconvergent. If $\\sqrt[n]{a_{n}} \\geq 1$ for an infinite number of values\nof $n$, then $\\sum a_{n}$ is divergent.\n\n### Limit form {#limit-form .unnumbered}\n\nGiven a series $\\sum a_{n}$ of complex terms, set\n$$\\rho = \\limsup_{n \\to \\infty} \\sqrt[n]{| a_{n} |}$$ The series\n$\\sum a_{n}$ is absolutely convergent if $\\rho < 1$ and is divergent if\n$\\rho > 1$. If $\\rho = 1$, then the test is inconclusive.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchysRootTest"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cauchy's root test",
+    "root test"
+  ]
+}

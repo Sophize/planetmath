@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *hemimetric* on a set $X$ is a function\n$d\\colon X\\times X\\to {\\mathbb{R}}$ such that\n\n1.  $d(x,y)\\geq 0$;\n\n2.  $d(x,z) \\leq d(x,y) + d(y,z)$;\n\n3.  $d(x,x) = 0$;\n\nfor all $x,y,z\\in X$.\n\nHence, essentially $d$ is a metric which fails to satisfy symmetry and\nthe property that distinct points have positive distance. A hemimetric\ninduces a topology on $X$ in the same way that a metric does, a basis of\nopen sets being $$\\{B(x,r): x\\in X, r>0\\},$$ where\n$B(x,r)=\\{y\\in X : d(x,y)<r\\}$ is the $r$-ball centered at $x$.",
+  "language": "INFORMAL",
+  "phrase": "Hemimetric",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Hemimetric"
+    }
+  ],
+  "indexable": true
+}

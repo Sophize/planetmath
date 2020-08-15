@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $p\\geq 5$ be a prime and let $G={\\operatorname{SL}}(2,\\mathbb{F}_p)$\nbe the special linear group over the field with $p$ elements.\n\nThe group $G={\\operatorname{SL}}(2,{\\mathbb{F}_p})$ has no non-trivial\n$1$ dimensional irreducible representations over ${\\mathbb{F}_p}$.\n\nSee an for the proof.\n\nNext, we construct several irreducible representations for\n$G={\\operatorname{SL}}(2,{\\mathbb{F}_p})$. For $0\\leq m \\leq p-1$, let\n$V_m$ be the ${\\mathbb{F}_p}$ vector space of homogeneous polynomials of\ndegree $m$ in the independent variables $x$ and $y$ (of course, for\n$m=0$, the representation is trivial). We give $V_m$ a structure of\n${\\mathbb{F}_p}[G]$-module as follows. Let $p=p((x,y))\\in V_m$ and\n$A\\in {\\operatorname{SL}}(2,{\\mathbb{F}_p})$. We define:\n$$A\\cdot p := p( A\\cdot (x,y)^t)=p(a_{11}x+a_{12}y,a_{21}x+a_{22}y)$$\nwhere $t$ denotes transpose. The representations $V_m$ are, in a sense,\nall the irreducible representations of $G$.\n\nFor $0\\leq m \\leq p-1$, the representations $V_m$ are irreducible\nrepresentations of dimension $m+1$ over ${\\mathbb{F}_p}$. Furthermore,\nup to isomorphism, there are no other irreducible representations of $G$\nover ${\\mathbb{F}_p}$.\n\n[00]{} Charles B. Thomas, [*Representations of Finite and Lie\nGroups*]{}, Imperial College Press, London.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IrreducibleRepresentationsOfTheSpecialLinearGroupOvermathbbFp"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "irreducible representations of the special linear group over $\\mathbb{F}_p$"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "nonstandard real",
+    "non-standard real"
+  ],
+  "definition": "An ultrafilter ${\\mathcal{F}}$ on a set $I$ is called [*nonprincipal*]{}\nif no finite subsets of $I$ are in ${\\mathcal{F}}$.\n\nFix once and for all a nonprincipal ultrafilter ${\\mathcal{F}}$ on the\nset ${\\mathbb{N}}$ of natural numbers. Let $\\sim$ be the equivalence\nrelation on the set ${\\mathbb{R}}^{\\mathbb{N}}$ of sequences of real\nnumbers given by\n$$\\{a_n\\} \\sim \\{b_n\\} \\iff \\{n \\in {\\mathbb{N}}\\mid a_n = b_n\\} \\in {\\mathcal{F}}$$\nLet $^*{\\mathbb{R}}$ be the set of equivalence classes of\n${\\mathbb{R}}^{\\mathbb{N}}$ under the equivalence relation $\\sim$. The\nset $^*{\\mathbb{R}}$ is called the set of [*hyperreals*]{}. It is a\nfield under coordinatewise addition and multiplication:\n$$\\begin{aligned}\n\\{a_n\\} + \\{b_n\\} & = & \\{a_n+b_n\\} \\\\\n\\{a_n\\} \\cdot \\{b_n\\} & = & \\{a_n\\cdot b_n\\}\\end{aligned}$$ The field\n$^*{\\mathbb{R}}$ is an ordered field under the ordering relation\n$$\\{a_n\\} \\leq \\{b_n\\} \\iff \\{n \\in {\\mathbb{N}}\\mid a_n \\leq b_n\\} \\in {\\mathcal{F}}$$\nThe real numbers embed into $^*{\\mathbb{R}}$ by the map sending the real\nnumber $x \\in {\\mathbb{R}}$ to the equivalence class of the constant\nsequence given by $x_n := x$ for all $n$. In what follows, we adopt the\nconvention of treating ${\\mathbb{R}}$ as a subset of $^*{\\mathbb{R}}$\nunder this embedding.\n\nA hyperreal $x \\in\\,^*{\\mathbb{R}}$ is:\n\n-   [*limited*]{} if $a < x < b$ for some real numbers\n    $a,b \\in {\\mathbb{R}}$\n\n-   [*positive unlimited*]{} if $x > a$ for all real numbers\n    $a \\in {\\mathbb{R}}$\n\n-   [*negative unlimited*]{} if $x < a$ for all real numbers\n    $a \\in {\\mathbb{R}}$\n\n-   [*unlimited*]{} if it is either positive unlimited or negative\n    unlimited\n\n-   [*positive infinitesimal*]{} if $0 < x < a$ for all positive real\n    numbers $a \\in {\\mathbb{R}}^+$\n\n-   [*negative infinitesimal*]{} if $a < x < 0$ for all negative real\n    numbers $a \\in {\\mathbb{R}}^-$\n\n-   [*infinitesimal*]{} if it is either positive infinitesimal or\n    negative infinitesimal\n\nFor any subset $A$ of ${\\mathbb{R}}$, the set $^*A$ is defined to be the\nsubset of $^*{\\mathbb{R}}$ consisting of equivalence classes of\nsequences $\\{a_n\\}$ such that\n$$\\{n \\in {\\mathbb{N}}\\mid a_n \\in A\\} \\in {\\mathcal{F}}.$$ The sets\n$^*\\mathbb{N}$, $^*\\mathbb{Z}$, and $^*\\mathbb{Q}$ are called\n[*hypernaturals*]{}, [*hyperintegers*]{}, and [*hyperrationals*]{},\nrespectively. An element of $^*\\mathbb{N}$ is also sometimes called\n[*hyperfinite*]{}.",
+  "language": "INFORMAL",
+  "phrase": "Hyperreal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Hyperreal"
+    }
+  ],
+  "indexable": true
+}

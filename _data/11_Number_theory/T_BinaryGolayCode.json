@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *binary Golay Code* ${\\mathcal}{G}_{23}$ is a perfect linear binary\n\\[23,12,7\\]-code with a plethora of different constructions.\n\nSample Constructions {#sample-constructions .unnumbered}\n--------------------\n\n-   [**Lexicographic Construction:**]{} Let $v_0$ be the all-zero word\n    in ${\\mathbb}{F}_2^{23}$, and inductively define $v_j$ to be the\n    smallest word (smallest with respect to the lexicographic ordering\n    on ${\\mathbb}{F}_2^{23}$ that differs from $v_i$ in at least 7\n    places for all $i<j$.\n\n-   [ **Construction:**]{} ${\\mathcal}{G}_{23}$ is the quadratic residue\n    code of length 23.\n\nThe *extended binary Golay Code* ${\\mathcal}{G}_{24}$ is obtained by\nappending a zero-sum check digit to the end of every word in\n${\\mathcal}{G}_{23}$.\n\nBoth the binary Golay code and the extended binary Golay code have some\nremarkable .\n\nProperties {#properties .unnumbered}\n----------\n\n-   ${\\mathcal}{G}_{24}$ has 4096 codewords: 1 of weight 0, 759 of\n    weight 8, 2576 of weight 12, 759 of weight 18, and 1 of weight 24.\n\n-   The automorphism group of ${\\mathcal}{G}_{24}$ is the Mathieu group\n    $M_{24}$, one of the sporadic groups.\n\n-   The Golay Code is used to define the Leech Lattice, one of the most\n    efficient sphere-packings known to date.\n\n-   The optimal strategy to the mathematical game called Mogul is to\n    always revert the current position to one corresponding to a word of\n    the Golay code.\n\n-   The words of weight 8 in ${\\mathcal}{G}_{24}$ form a $S(5,8,24)$\n    Steiner system. In fact, this property uniquely determines the code.",
+  "language": "INFORMAL",
+  "phrase": "Binary Golay Code",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BinaryGolayCode"
+    }
+  ],
+  "indexable": true
+}

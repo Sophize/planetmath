@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If the real function $f$ has continuous derivative on the\ninterval $[a,\\,b]$, then on this interval,\n\n-   $f$ is of bounded variation,\n\n-   $f$ can be expressed as difference of two continuously\n    differentiable monotonic functions.\n\n[*Proof.*]{} $1^{\\underline{o}}$. The continuous function $|f'|$ has its\ngreatest value $M$ on the closed interval $[a,\\,b]$, i.e.\n$$|f'(x)| \\leqq M \\quad \\forall x \\in [a,\\,b].$$ Let $D$ be an arbitrary\npartition of $[a,\\,b]$, with the points\n$$x_0 = a < x_1 < x_2 < \\ldots < x_{n-1} < b = x_n.$$ Consider $f$ on a\nsubinterval $[x_{i-1},\\,x_i]$. By the mean-value theorem, there exists\non this subinterval a point $\\xi_i$ such that\n$f(x_i)-f(x_{i-1}) = f'(\\xi_i)(x_i-x_{i-1})$. Then we get\n$$S_D := \\sum_{i=1}^n|f(x_i)-f(x_{i-1})| = \\sum_{i=1}^n|f'(\\xi_i)|(x_i-x_{i-1}) \\leqq M\\sum_{i=1}^n(x_i-x_{i-1}) \n= M(b-a).$$ Thus the total variation satisfies\n$$\\sup_{D}\\{\\mbox{all }S_D\\mbox{'s}\\} \\leqq M(b-a) < \\infty,$$ whence\n$f$ is of bounded variation on the interval $[a,\\,b]$.\n\n$2^{\\underline{o}}$. Define the functions $G$ and $H$ by setting\n$$G := \\frac{|f'|+f'}{2}, \\quad H := \\frac{|f'|-f'}{2}.$$ We see that\nthese are non-negative and that $f' = G-H$. Define then the functions\n$g$ and $h$ on $[a,\\,b]$ by\n$$g(x) := f(a)+\\int_a^xG(t)\\,dt, \\quad h(x) := \\int_a^xH(t)\\,dt.$$\nBecause $G$ and $H$ are non-negative, the functions $g$ and $h$ are\nmonotonically nondecreasing. We have also\n$$(g-h)(x) = f(a)\\!+\\!\\int_a^x(G(t)\\!-\\!H(t))\\,dt = f(a)\\!+\\!\\int_a^xf'(t)\\,dt = f(x),$$\nwhence $f = g-h$. Since $G$ and $H$ are by their definitions continuous,\nthe monotonic functions $g$ and $h$ have continuous derivatives\n$g' = G$, $h' = H$. So $g$ and $h$ fulfil the requirements of the\ntheorem.\\\n**Remark.** It may be proved that each function of bounded variation is\ndifference of two bounded monotonically increasing functions.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuousDerivativeImpliesBoundedVariation"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "continuous derivative implies bounded variation"
+  ]
+}

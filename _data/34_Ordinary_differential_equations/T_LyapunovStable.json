@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Lyapunov stability",
+    "Liapunov stable",
+    "Liapunov stability"
+  ],
+  "definition": "A fixed point $x^*$ is [*Lyapunov stable*]{} if trajectories of nearby\npoints $x$ remain close for future time. More formally the fixed point\n$x^*$ is Lyapunov stable, if for any $\\epsilon>0$, there is a $\\delta>0$\nsuch that for all $t\\ge 0$ and for all $x \\neq x^*$ it is verified\n$$\\begin{aligned}\nd(x^*,x)<\\delta \\Rightarrow d(x^*,x(t))<\\epsilon.\\end{aligned}$$ In\nparticular, $d(x^*,x(0))=0$.",
+  "language": "INFORMAL",
+  "phrase": "Lyapunov Stable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LyapunovStable"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "set partition"
+  ],
+  "definition": "A *partition* $P$ of a set $S$ is a collection of pairwise disjoint\nnonempty sets such that $\\cup P = S$.\n\nAny partition $P$ of a set $S$ introduces an equivalence relation on\n$S$, where each $A \\in P$ is an equivalence class. Similarly, given an\nequivalence relation on $S$, the collection of distinct equivalence\nclasses is a partition of $S$.",
+  "language": "INFORMAL",
+  "phrase": "Partition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Partition"
+    }
+  ],
+  "indexable": true
+}

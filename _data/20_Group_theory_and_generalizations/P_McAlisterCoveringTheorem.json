@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A subset $X$ in an inverse semigroup $S$ is called *unitary* if for any\nelements $x\\in X$ and $s\\in S$, $xs\\in X$ or $sx\\in X$ implies $s\\in X$.\n\nAn inverse semigroup is *E-unitary* if its semigroup of idempotents is\nunitary.\n\nLet $S$ be an inverse semigroup; then, there exists an E-unitary inverse\nsemigroup $P$ and a surjective, idempotent-separating homomorphism\n$\\theta:P\\rightarrow S$.\n\nAlso, if $S$ is finite, then $P$ may be chosen to be finite as well.\n\nNote that a homomorphism is *idempotent-separating* if it is injective\non idempotents.\n\nM. Lawson, *Inverse Semigroups: The Theory of Partial Symmetries*, World\nScientific, 1998",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/McAlisterCoveringTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "McAlister covering theorem"
+  ]
+}

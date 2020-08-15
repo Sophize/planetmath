@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definition\n==========\n\nThe term *Euclidean vector space* is synonymous with\n*finite-dimensional, real, positive definite, inner product space*. The\ncanonical example is ${\\mathbb{R}}^n$, equipped with the usual dot\nproduct. Indeed, every Euclidean vector space $V$ is isomorphic to\n${\\mathbb{R}}^n$, up to a choice of orthonormal basis of $V$. As well,\nevery Euclidean vector space $V$ carries a natural metric space\nstructure given by\n$$d(u,v) = \\sqrt{\\left< u-v, u-v \\right>},\\quad u,v\\in V.$$\n\nRemarks.\n========\n\n-   An analogous object with complex numbers as the base field is called\n    a unitary space.\n\n-   Dropping the assumption of finite-dimensionality we arrive at the\n    class of real pre-Hilbert spaces.\n\n-   If we drop the inner product and the vector space structure, but\n    retain the metric space structure, we arrive at the notion of a\n    Euclidean space.",
+  "language": "INFORMAL",
+  "phrase": "Euclidean Vector Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EuclideanVectorSpace"
+    }
+  ],
+  "indexable": true
+}

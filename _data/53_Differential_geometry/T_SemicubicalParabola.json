@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "semicubic parabola",
+    "Neile's parabola",
+    "Neil's parabola"
+  ],
+  "definition": "The curve $y = x^3$ is sometimes called a [*cubic(al) parabola*]{}, as\n$y = x^2$ a parabola. Thus there is reason to call the curve\n$$y \\;=\\; x^{\\frac{3}{2}} \\;=\\; x\\sqrt{x}$$ a [*semicubical\nparabola*]{}. Since this equation implies that $$\\begin{aligned}\ny^2 \\;=\\; x^3,\\end{aligned}$$ which is satisfied as well by negative\nreal numbers $y$, it is natural to the semicubical parabola also points\nbelow the $x$-axis. Therefore the equation (1) can be equivalently\nwritten as $$\\begin{aligned}\ny \\;=\\; \\pm{x}^{\\frac{3}{2}} \\;=\\; \\pm{x}\\sqrt{x}.\\end{aligned}$$\nAccording to (1) or (2), the semicubical parabola has symmetry about the\n$x$-axis. Because the positive of (2) forms a strictly increasing and\nthe negative branch a strictly decreasing power function for\n$x \\leqq 0$, the graph of (2) has an ordinary cusp in the origin.\n\n(-2,-6)(4,6) (0,0)(-1.5,-5.5)(3.8,5.5) (3.8,-0.2)[$x$]{}\n(0.2,5.5)[$y$]{} (3,2.5)[$y^2 = x^3$]{}\n\nThe arc length of the semicubical parabola from the origin to the\nabscissa $x$ is\n$$s(x) \\;=\\; \\int_0^x\\sqrt{1+\\!\\left(\\frac{d}{dt}t^\\frac{3}{2}\\right)^2}\\,dt \\;=\\; \n\\frac{(4\\!+\\!9x)\\sqrt{4\\!+\\!9x}-8}{27},$$ i.e. an algebraic expression\nin $x$. Actually, the semicubical parabola is historically the first\nalgebraic curve (after the straight line) having an algebraic arc\nlength.\\\nMaking a of the plane, one can write a more general equation\n$$\\begin{aligned}\nay^2 \\;=\\; x^3\\end{aligned}$$ of the semicubical parabola; here $a$ is a\npositive constant.\\\nThe semicubic parabola is also the evolute of a parabola; e.g. the\nequation $$3y^2 \\;=\\; (x-\\frac{1}{2})^3$$ the evolute of the parabola\n$y^2 = x$ (cf. determining envelope).",
+  "language": "INFORMAL",
+  "phrase": "Semicubical Parabola",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemicubicalParabola"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The defines the natural logarithm as $$\\begin{aligned}\n\\ln{x} \\;=\\; \\int_1^x\\frac{1}{t}\\,dt \\qquad (x > 0)\\end{aligned}$$ and\nderives the $$\\ln{xy} \\;=\\; \\ln{x}+\\ln{y}$$ which implies easily by\ninduction that $$\\begin{aligned}\n\\ln{a}^n \\;=\\; n\\ln{a}.\\end{aligned}$$\\\nBasing on (1), we prove here the\n\n**Theorem.** The function $x \\mapsto \\ln{x}$ is strictly increasing and\ncontinuous on $\\mathbb{R}_+$. It has the limits $$\\begin{aligned}\n\\lim_{x\\to+\\infty}\\ln{x} \\;=\\; +\\infty \\quad\\mbox{and}\\quad \\lim_{x\\to 0+}\\ln{x} \\;=\\; -\\infty.\\end{aligned}$$\n\n*Proof.* By the above definition, $\\ln{x}$ is differentiable:\n$$\\frac{d}{dx}\\ln{x} \\;=\\; \\frac{1}{x} \\;>\\; 0$$ Accordingly, $\\ln{x}$\nis also continuous and strictly increasing.\n\nLet $M$ be an arbitrary positive number. We have\n$\\ln2 = \\int_1^2\\frac{dt}{t} > 0$. There exists a positive integer $n$\nsuch that $n\\ln2 > M$ (see Archimedean property). By (2) we thus get\n$\\ln{2^n} > M$, and since $\\ln{x}$ is strictly increasing, we see that\n$$\\ln{x} > M \\quad \\forall x > 2^n.$$ Hence the first limit assertion is\ntrue. Now $-M < 0$. If $x > 2^n$, then $\\ln{x} > M$ and\n$$0 \\;<\\; \\frac{1}{x} \\;<\\; 2^{-n}, \\qquad \n\\ln\\frac{1}{x} \\;=\\; \\int_1^{\\frac{1}{x}}\\frac{dt}{t} \\;=\\; \\int_x^1\\frac{du}{u} \\;=\\; -\\ln{x} \\;<\\; -M$$\n( $xt := u$). From this we can infer the second limit assertion.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitsOfNaturalLogarithm"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "limits of natural logarithm"
+  ]
+}

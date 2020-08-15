@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A filtered probability space, or *stochastic basis*,\n$(\\Omega,\\mathcal{F},(\\mathcal{F}_t)_{t\\in T},\\mathbb{P})$ consists of a\nprobability space $(\\Omega,\\mathcal{F},\\mathbb{P})$ and a\n$(\\mathcal{F}_t)_{t\\in T}$ contained in $\\mathcal{F}$. Here, $T$ is the\ntime index set, and is an ordered set \u2014 usually a subset of the real\nnumbers \u2014 such that $\\mathcal{F}_s\\subseteq\\mathcal{F}_t$ for all $s<t$\nin $T$.\n\nFiltered probability spaces form the setting for defining and studying\nstochastic processes. A process $X_t$ with time index $t$ ranging over\n$T$ is said to be adapted if $X_t$ is an $\\mathcal{F}_t$-measurable\nrandom variable for every $t$.\n\nWhen the index set $T$ is an of the real numbers (i.e.,\ncontinuous-time), it is often convenient to impose further conditions.\nIn this case, the filtered probability space is said to satisfy the\n*usual conditions* or *usual hypotheses* if the following conditions are\nmet.\n\n-   The probability space $(\\Omega,\\mathcal{F},\\mathbb{P})$ is .\n\n-   The $\\sigma$-algebras $\\mathcal{F}_t$ contain all the sets in\n    $\\mathcal{F}$ of zero probability.\n\n-   The filtration $\\mathcal{F}_t$ is right-continuous. That is, for\n    every non-maximal $t\\in T$, the $\\sigma$-algebra\n    $\\mathcal{F}_{t+}\\equiv\\bigcap_{s>t}\\mathcal{F}_s$ is equal to\n    $\\mathcal{F}_t$.\n\nGiven any filtered probability space, it can always be enlarged by\npassing to the completion of the probability space, adding zero\nprobability sets to $\\mathcal{F}_t$, and by replacing $\\mathcal{F}_t$ by\n$\\mathcal{F}_{t+}$. This will then satisfy the usual conditions. In\nfact, for many types of processes defined on a complete probability\nspace, their natural filtration will already be right-continuous and the\nusual conditions met. However, the process of completing the probability\nspace depends on the specific probability measure $\\mathbb{P}$ and in\nmany situations, such as the study of Markov processes, it is necessary\nto study many different measures on the same space. A much weaker\ncondition which can be used is that the $\\sigma$-algebras\n$\\mathcal{F}_t$ are universally complete, which is still strong enough\nto apply much of the \u2018heavy machinery\u2019 of stochastic processes, such as\nthe Doob-Meyer decomposition, section theorems, etc.",
+  "language": "INFORMAL",
+  "phrase": "Filtered Probability Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FilteredProbabilitySpace"
+    }
+  ],
+  "indexable": true
+}

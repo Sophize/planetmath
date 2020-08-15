@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "extremely disconnected"
+  ],
+  "definition": "A topological space $X$ is said to be [*extremally disconnected*]{} if\nevery open set in $X$ has an open closure.\n\nIt can be shown that $X$ is extremally disconnected iff any two disjoint\nopen sets in $X$ have disjoint closures. Every extremally disconnected\nspace is totally disconnected.\n\n#### Notes\n\nSome authors like [@willard] and [@kelley] use the above definition as\nis, while others (e.g.\u00a0[@steen; @bourbaki]) require that an extremally\ndisconnected space should (in addition to the above condition) also be a\nHausdorff space.\n\n[9]{} S.\u00a0Willard, *General Topology*, Addison-Wesley, Publishing\nCompany, 1970. J.\u00a0L.\u00a0Kelley, *General Topology*, D.\u00a0van\u00a0Nostrand\nCompany, Inc., 1955. L.\u00a0A.\u00a0Steen, J.\u00a0A.\u00a0Seebach, Jr.,*Counterexamples in\ntopology*, Holt, Rinehart and Winston, Inc., 1970. N.\u00a0Bourbaki, *General\nTopology, Part 1*, Addison-Wesley Publishing Company, 1966.",
+  "language": "INFORMAL",
+  "phrase": "Extremally Disconnected",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtremallyDisconnected"
+    }
+  ],
+  "indexable": true
+}

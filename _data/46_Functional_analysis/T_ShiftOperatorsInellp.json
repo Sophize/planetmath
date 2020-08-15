@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathbbmss{F}}$ be ${\\mathbbmss{R}}$ or ${\\mathbbmss{C}}$, and let\n$1\\le p\\le \\infty$, let $\\ell^p({\\mathbbmss{F}}), \\Vert\\cdot \\Vert_p$ be\nas in the parent entry.\n\nThe right and left *shift operators*\n$S_r, S_l\\colon \\ell^p({\\mathbbmss{F}})\\to \\ell^p({\\mathbbmss{F}})$ as\ndefined as follows. For\n$a=(a_1,a_2, \\ldots)\\in \\ell^p({\\mathbbmss{F}})$,\n$$S_r(a)=(0,a_1, a_2, \\ldots)$$ and $$S_l(a)=(a_2, a_3, \\ldots).$$\n\n### Properties {#properties .unnumbered}\n\n1.  $S_l \\circ S_r$ is the identity, but $S_r\\circ S_l$ is not.\n\n2.  $S_r$ is an isometry; $\\Vert S_r(a)\\Vert = \\Vert a \\Vert$, and\n    $\\Vert S_l(a)\\Vert_p \\le \\Vert a\\Vert$. Both shift operators are\n    therefore bounded (and continuous).",
+  "language": "INFORMAL",
+  "phrase": "Shift Operators In $\\Ell^P$",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ShiftOperatorsInellp"
+    }
+  ],
+  "indexable": true
+}

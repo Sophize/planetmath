@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A group $G$ is *locally finite* if any finitely generated subgroup of\n$G$ is finite.\n\nA locally finite group is a torsion group. The converse, also known as\nthe Burnside Problem, is not true. Burnside, however, did show that if a\nmatrix group is torsion, then it is locally finite.\n\n(Kaplansky) If $G$ is a group such that for a normal subgroup $N$ of\n$G$, $N$ and $G/N$ are locally finite, then $G$ is locally finite.\n\nA solvable torsion group is locally finite. To see this, let\n$G = G_0 \\supset G_1 \\supset \\cdots \\supset G_n = (1)$ be a composition\nseries for $G$. We have that each $G_{i+1}$ is normal in $G_i$ and the\nfactor group $G_i/G_{i+1}$ is abelian. Because $G$ is a torsion group,\nso is the factor group $G_i/G_{i+1}$. Clearly an abelian torsion group\nis locally finite. By applying the fact in the previous paragraph for\neach step in the composition series, we see that $G$ must be locally\nfinite.\n\n[9]{} E. S. Gold and I. R. Shafarevitch, [*On towers of class\nfields*]{}, Izv. Akad. Nauk SSR, 28 (1964) 261-272. I. N. Herstein,\n[*Noncommutative Rings*]{}, The Carus Mathematical Monographs, Number\n15, (1968). I. Kaplansky, [*Notes on Ring Theory*]{}, University of\nChicago, Math Lecture Notes, (1965). C. Procesi, [*On the Burnside\nproblem*]{}, Journal of Algebra, 4 (1966) 421-426.",
+  "language": "INFORMAL",
+  "phrase": "Locally Finite Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocallyFiniteGroup"
+    }
+  ],
+  "indexable": true
+}

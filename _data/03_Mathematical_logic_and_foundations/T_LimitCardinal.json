@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*limit cardinal*]{} is a cardinal $\\kappa$ such that\n$\\lambda^+<\\kappa$ for every cardinal $\\lambda<\\kappa$. Here $\\lambda^+$\ndenotes the cardinal successor of $\\lambda$. If $2^\\lambda<\\kappa$ for\nevery cardinal $\\lambda<\\kappa$, then $\\kappa$ is called a [*strong\nlimit cardinal*]{}.\n\nEvery strong limit cardinal is a limit cardinal, because\n$\\lambda^+\\leq2^\\lambda$ holds for every cardinal $\\lambda$. Under GCH,\nevery limit cardinal is a strong limit cardinal because in this case\n$\\lambda^+=2^\\lambda$ for every infinite cardinal $\\lambda$.\n\nThe three smallest limit cardinals are $0$, $\\aleph_0$ and\n$\\aleph_\\omega$. Note that some authors do not count $0$, or sometimes\neven $\\aleph_0$, as a limit cardinal. An infinite cardinal\n$\\aleph_\\alpha$ is a limit cardinal if and only if $\\alpha$ is either\n$0$ or a limit ordinal.",
+  "language": "INFORMAL",
+  "phrase": "Limit Cardinal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitCardinal"
+    }
+  ],
+  "indexable": true
+}

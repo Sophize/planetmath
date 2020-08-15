@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Jacobi theta functions can be expressed as infinite products:\n\n$$\\vartheta_1 (z;q) = 2 q^{1/4} \\sin z \\prod_{n=1}^\\infty (1 - q^{2n}) (1 - 2 q^{2n} \\cos 2 z + q^{4n})$$\n$$\\vartheta_2 (z;q) = 2 q^{1/4} \\cos z \\prod_{n=1}^\\infty (1 - q^{2n}) (1 + 2 q^{2n} \\cos 2 z + q^{4n})$$\n$$\\vartheta_3 (z;q) = \\prod_{n=1}^\\infty (1 - q^{2n}) (1 + 2 q^{2n-1} \\cos 2 z + q^{4n-2})$$\n$$\\vartheta_4 (z;q) = \\prod_{n=1}^\\infty (1 - q^{2n}) (1 - 2 q^{2n-1} \\cos 2 z + q^{4n-2})$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProductRepresentationsOfJacobivarthetaFunctions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "product representations of Jacobi $\\vartheta$ functions"
+  ]
+}

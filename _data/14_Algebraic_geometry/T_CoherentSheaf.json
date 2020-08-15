@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "quasi-coherent sheaf"
+  ],
+  "definition": "Let $R$ be a ring with unity, and $X = \\mathrm{Spec}\\, R$ be its prime\nspectrum. Given an $R$-module $M$, one can define a presheaf on $X$ by\ndefining its sections on an open set $U$ to be\n${\\mathcal{O}}_X(U)\\otimes_R M$. We call the sheafification of this\n$\\tilde M$, and a sheaf of this form on $X$ is called\n[*quasi-coherent*]{}. If $M$ is a finitely generated module, then\n$\\tilde{M}$ is called coherent. A sheaf on an arbitrary scheme $X$ is\ncalled (quasi-)coherent if it is (quasi-)coherent on each open affine\nsubset of $X$.",
+  "language": "INFORMAL",
+  "phrase": "Coherent Sheaf",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CoherentSheaf"
+    }
+  ],
+  "indexable": true
+}

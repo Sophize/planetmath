@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "$p$-adic analytic"
+  ],
+  "definition": "Let ${\\mathbb{C}}_p$ be the field of . Let $U$ be a domain in\n${\\mathbb{C}}_p$. A function $f: U \\longrightarrow {\\mathbb{C}}_p$ is\n[*$p$-adic analytic*]{} if $f$ has a Taylor series (with coefficients in\n${\\mathbb{C}}_p$) about each point $z \\in U$ that converges to the\nfunction $f$ in an open neighborhood of $z$.\n\nFor example, the is analytic on its domain of definition:\n$$U=\\{ z\\in {\\mathbb{C}}_p : |z|_p<\\frac{1}{p^{1/(p-1)}}\\}.$$\n\nThe study of $p$-adic analytic functions is usually called [*$p$-adic\nanalysis*]{} and it is very similar to complex analysis in many\nrespects, although there are important differences coming from the\ndistinct topologies of ${\\mathbb{C}}$ and ${\\mathbb{C}}_p$.",
+  "language": "INFORMAL",
+  "phrase": "P-Adic Analytic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PadicAnalytic"
+    }
+  ],
+  "indexable": true
+}

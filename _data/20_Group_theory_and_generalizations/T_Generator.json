@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $G$ is a cyclic group and $g \\in G$, then $g$ is a [*generator* ]{}\nof $G$ if $\\langle g \\rangle =G$.\n\nAll infinite cyclic groups have exactly $2$ generators. To see this, let\n$G$ be an infinite cyclic group and $g$ be a generator of $G$. Let\n$z \\in \\mathbb{Z}$ such that $g^z$ is a generator of $G$. Then\n$\\langle g^z \\rangle =G$. Then $g \\in G= \\langle g^z \\rangle$. Thus,\nthere exists $n \\in {\\mathbb Z}$ with $g=(g^z)^n=g^{nz}$. Therefore,\n$g^{nz-1}=e_G$. Since $G$ is infinite and $|g|=|\\langle g \\rangle |=|G|$\nmust be infinity, $nz-1=0$. Since $nz=1$ and $n$ and $z$ are integers,\neither $n=z=1$ or $n=z=-1$. It follows that the only generators of $G$\nare $g$ and $g^{-1}$.\n\nA finite cyclic group of order $n$ has exactly $\\varphi(n)$ generators,\nwhere $\\varphi$ is the Euler totient function. To see this, let $G$ be a\nfinite cyclic group of order $n$ and $g$ be a generator of $G$. Then\n$|g|=|\\langle g \\rangle |=|G|=n$. Let $z \\in \\mathbb{Z}$ such that $g^z$\nis a generator of $G$. By the division algorithm, there exist\n$q,r \\in \\mathbb{Z}$ with $0 \\le r<n$ such that $z=qn+r$. Thus,\n$g^z=g^{qn+r}=g^{qn}g^r=(g^n)^qg^r=(e_G)^qg^r=e_Gg^r=g^r$. Since $g^r$\nis a generator of $G$, it must be the case that\n$\\langle g^r \\rangle =G$. Thus,\n$\\displaystyle n=|G|=|\\langle g^r \\rangle|=|g^r|=\\frac{|g|}{\\gcd(r,|g|)}=\\frac {n}{\\gcd(r,n)}$.\nTherefore, $\\gcd(r,n)=1$, and the result follows.",
+  "language": "INFORMAL",
+  "phrase": "Generator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Generator"
+    }
+  ],
+  "indexable": true
+}

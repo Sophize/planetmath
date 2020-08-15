@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A supernatural number $\\omega$ is a formal product $$\\begin{aligned}\n\\omega=\\prod_{p} p^{n_p},\\end{aligned}$$ where $p$ runs over all\n(rational) prime numbers, and the values $n_p$ are each either natural\nnumbers or the symbol $\\infty$.\n\nWe note first that by the fundamental theorem of arithmetic, we can view\nany natural number as a supernatural number. Supernatural numbers form a\ngeneralization of natural numbers in two ways: First, by allowing the\npossibility of infinitely many prime factors, and second, by allowing\nany given prime to divide $\\omega$ \u201cinfinitely often,\u201d by taking that\nprime\u2019s corresponding exponent to be the symbol $\\infty$.\n\nWe can extend the usual $p$-adic to these supernatural numbers by\ndefining, for $\\omega$ as above, $v_p(\\omega)=n_p$ for each $p$. We can\nthen extend the notion of divisibility to supernatural numbers by\ndeclaring $\\omega_1\\mid\\omega_2$ if $v_p(\\omega_1)\\leq v_p(\\omega_2)$\nfor all $p$ (where, by definition, the symbol $\\infty$ is considered\ngreater than any natural number). Finally, we can also generalize the\nnotion of the least common multiple (lcm) and greatest common divisor\n(gcd) for (arbitrarily many) supernatural numbers, by defining\n\n$$\\begin{aligned}\n\\operatorname{lcm}(\\{\\omega_i\\})&=\\prod_p p^{\\sup(v_p(\\omega_i))}\\\\\n\\operatorname{gcd}(\\{\\omega_i\\})&=\\prod_p p^{\\inf(v_p(\\omega_i))}\\\\\\end{aligned}$$\n\nNote that the supernatural version of the definitions of divisibility,\n$\\operatorname{lcm}$, and $\\operatorname{gcd}$ carry over exactly from\ntheir corresponding notions for natural numbers, though we can now take\nthe gcd or lcm of infinitely many natural numbers (to get a supernatural\nnumber).\n\nSupernatural numbers are used to define orders and indices of profinite\ngroups and subgroups, in which case many of the theorems from finite\ngroup theory carry over verbatim.\n\n[9]{} \\[Ram\\] Ramakrishnan, Dinikara and Valenza, Robert. *Fourier\nAnalysis on Number Fields*. Graduate Texts in Mathematics, volume 186.\nSpringer-Verlag, New York, NY. 1989. \\[Ser\\] Serre, J.-P. (Ion, P.,\ntranslator) *Galois Cohomology*. Springer, New York, NY. 1997",
+  "language": "INFORMAL",
+  "phrase": "Supernatural Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SupernaturalNumber"
+    }
+  ],
+  "indexable": true
+}

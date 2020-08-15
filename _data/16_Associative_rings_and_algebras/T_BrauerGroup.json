@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Algebraic view\n==============\n\nLet $K$ be a field. The [*Brauer group*]{} $\\operatorname{Br}(K)$ of $K$\nis the set of all equivalence classes of central simple algebras over\n$K$, where two central simple algebras $A$ and $B$ are equivalent if\nthere exists a division ring $D$ over $K$ and natural numbers $n,m$ such\nthat $A$ (resp. $B$) is isomorphic to the ring of $n \\times n$ (resp.\n$m \\times m$) matrices with coefficients in $D$.\n\nThe group operation in $\\operatorname{Br}(K)$ is given by tensor\nproduct: for any two central simple algebras $A,B$ over $K$, their\nproduct in $\\operatorname{Br}(K)$ is the central simple algebra\n$A \\otimes_K B$. The identity element in $\\operatorname{Br}(K)$ is the\nclass of $K$ itself, and the inverse of a central simple algebra $A$ is\nthe [*opposite algebra*]{} $A^{\\operatorname{opp}}$ defined by reversing\nthe order of the multiplication operation of $A$.\n\nCohomological view\n==================\n\nThe Brauer group of $K$ is naturally isomorphic to the second Galois\ncohomology group $H^2({\\operatorname{Gal}}(K^{\\operatorname{sep}}/K),\n(K^{\\operatorname{sep}})^{\\times})$. See Theorem 12 and succeeding\nremarks.",
+  "language": "INFORMAL",
+  "phrase": "Brauer Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BrauerGroup"
+    }
+  ],
+  "indexable": true
+}

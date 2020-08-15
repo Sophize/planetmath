@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given two polynomials $a(x)$ and $b(x)$ *polynomial (long) division* is\na method for calculating $a(x)/b(x)$ that is, finding the polynomials\n$q(x)$ and $r(x)$ such that $a(x)=b(x)q(x)+r(x)$.\n\nHere is an example to show the method.Let $a(x)=x^4-2x^3+5$ and\n$b(x)=x^2+3x-2$. The method looks very similar to integer division since\na polynomial $\\sum_{i=0}^{n} c_ix^i$ is somewhat similar to an integer\n$\\sum_{i=0}^{n} c_i  10^i$\n\nIn the initial setting we only write the coefficients, notice that\n$a(x)=x^4-2x^3+0x^2+0x+5$. It will then be\n\n![image](pd.eps)\n\nIn the next step we se that $1/1=1$ and we multiply 1 3 -2 with 1 and\nthen subtract the result.\n\n![image](pd1.eps)\n\nThen we move down the next number, in this case a zero, and $-5/1=-5$ so\nwe get -5, and multiply by -5 and subtract\n\n![image](pd2.eps)\n\nas a final result we get\n\n![image](pd3.eps)\n\nThe result is $q(x)=1\\ -5\\  17$, which translates to $q(x)=x^2-5x+17$\nand $r(x)=-61x+39$.\n\nIt is also possible to write the entire polynomial, that is, writing all\nthe $x^i$\u2019s. Like this\n\n![image](pd4.eps)",
+  "language": "INFORMAL",
+  "phrase": "Polynomial Long Division",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolynomialLongDivision"
+    }
+  ],
+  "indexable": true
+}

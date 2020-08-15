@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let $f(z)$ be holomorphic in a domain $A$ of $\\mathbb{C}$.\nIf $C$ is a closed contour not intersecting itself which with its domain\nis contained in $A$ and if $z$ is an arbitrary point inside $C$, then\n$$\\begin{aligned}\nf(z) \\;=\\; \\frac{1}{2i\\pi}\\oint_C\\frac{f(t)}{t\\!-\\!z}\\,dt.\\end{aligned}$$\n\n*Proof.* Let $\\varepsilon$ be any positive number. Denote by $C_r$ the\ncircles with radius $r$ and centered in $z$. We have\n$$\\oint_C\\frac{f(t)}{t\\!-\\!z}\\,dt \\;=\\; \\oint_C\\frac{f(z)\\!+\\!(f(t)\\!-\\!f(z))}{t\\!-\\!z}\\,dt\n\\;=\\; \\underbrace{\\oint_C\\frac{f(z)}{t\\!-\\!z}\\,dt}_I+\\underbrace{\\oint_C\\frac{f(t)\\!-\\!f(z)}{t\\!-\\!z}\\,dt}_J.$$\nAccording to the corollary of Cauchy integral theorem and its example,\nwe may write $$I \\;=\\; f(z)\\oint_C\\frac{dt}{t\\!-\\!z} \\;=\\; 2i\\pi f(z).$$\nIf $0 < r < \\mbox{ some } r_0$, we have\n$$J \\;=\\; \\oint_{C_r}\\frac{f(t)\\!-\\!f(z)}{t\\!-\\!z}\\,dt.$$ The continuity\nof $f$ in the point $z$ implies, that $$|f(t)\\!-\\!f(z)| < \\varepsilon$$\nwhen $0 < |t\\!-\\!z| < \\mbox{ some } \\delta_\\varepsilon$ i.e. when\n$$\\begin{aligned}\nt \\in C_r\\, \\mbox{ and }\\, 0 < r < \\mbox{ some } r_1.\\end{aligned}$$ If\n(2) is in , we obtain first\n$$\\left|\\frac{f(t)\\!-\\!f(z)}{t\\!-\\!z}\\right| \\;=\\; \\frac{|f(t)\\!-\\!f(z)|}{|t\\!-\\!z|} \n\\;=\\; \\frac{|f(t)\\!-\\!f(z)|}{r} \\;<\\; \\frac{\\varepsilon}{r},$$ whence,\nby the estimation theorem of integral,\n$$|J| \\;\\leqq\\; \\frac{\\varepsilon}{r}\\cdot2\\pi r \\;=\\; 2\\pi\\varepsilon \\quad \n\\mbox{for} \\quad 0 < r < \\min\\{r_0,\\,r_1\\},$$ and lastly\n$$\\begin{aligned}\n\\left|\\frac{1}{2i\\pi}\\oint_C\\frac{f(t)}{t\\!-\\!z}\\,dt-f(z)\\right| \\;=\\; \\left|\\frac{1}{2i\\pi}J\\right| \\;\\leqq\\; \\frac{1}{2\\pi}\\cdot2\\pi\\varepsilon \\;=\\; \\varepsilon \\quad \\mbox{when  } 0 < r < \\min\\{r_0,\\,r_1\\}.\\end{aligned}$$\nThis result implies (1).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VariantOfCauchyIntegralFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "variant of Cauchy integral formula",
+    "Cauchy integral formula"
+  ]
+}

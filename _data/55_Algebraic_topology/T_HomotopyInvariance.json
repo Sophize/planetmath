@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\cal F$ be a functor from the category of topological spaces to\nsome category $\\cal C$. Then $\\cal F$ is called [*homotopy invariant*]{}\nif for any two homotopic maps $f,g\\colon X\\to Y$ between topological\nspaces $X$ and $Y$ the morphisms ${\\cal F}f$ and ${\\cal F}g$ in $\\cal C$\ninduced by $\\cal F$ are identical.\n\nSuppose $\\cal F$ is a homotopy invariant functor, and $X$ and $Y$ are\nhomotopy equivalent topological spaces. Then there are continuous maps\n$f\\colon X\\to Y$ and $g\\colon Y\\to X$ such that\n$g\\circ f\\simeq{\\rm id}_X$ and $f\\circ g\\simeq{\\rm id}_Y$ (i.e.\n$g\\circ f$ and $f\\circ g$ are homotopic to the identity maps on $X$ and\n$Y$, respectively). Assume that $\\cal F$ is a covariant functor. Then\nthe homotopy invariance of $\\cal F$ implies\n$${\\cal F}g\\circ{\\cal F}f={\\cal F}(g\\circ f)={\\rm id}_{{\\cal F}X}$$ and\n$${\\cal F}f\\circ{\\cal F}g={\\cal F}(f\\circ g)={\\rm id}_{{\\cal F}Y}.$$\nFrom this we see that ${\\cal F}X$ and ${\\cal F}Y$ are isomorphic in\n$\\cal C$. (The same argument clearly holds if $\\cal F$ is contravariant\ninstead of covariant.)\n\nAn important example of a homotopy invariant functor is the fundamental\ngroup $\\pi_1$; here $\\cal C$ is the category of groups.",
+  "language": "INFORMAL",
+  "phrase": "Homotopy Invariance",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomotopyInvariance"
+    }
+  ],
+  "indexable": true
+}

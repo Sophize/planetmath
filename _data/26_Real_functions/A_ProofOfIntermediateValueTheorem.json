@@ -1,0 +1,17 @@
+{
+  "argumentText": "We first prove the following lemma.\n\nIf $f:[a,b] \\to \\mathbb{R}$ is a continuous function with\n$f(a) \\le 0 \\le f(b)$ then there exists a $c \\in [a,b]$ such that\n$f(c) = 0$.\n\nDefine the sequences $(a_n)$ and $(b_n)$ inductively, as follows.\n\n$$a_0 = a \\quad b_0 = b$$ $$c_n = \\frac{a_n + b_n}{2}$$\n$$(a_n, b_n) = \\begin{cases} (a_{n-1}, c_{n-1}) & f(c_{n-1}) \\ge 0 \\\\           (c_{n-1}, b_{n-1}) & f(c_{n-1}) < 0  \\end{cases}$$\n\nWe note that\n\n$$a_0 \\le a_1 \\le \\cdots \\le a_n \\le b_n \\le \\cdots \\le b_1 \\le b_0$$\n$$(b_n - a_n) = 2^{-n}(b_0 - a_0)$$\n$$\\label{eqn} f(a_n) \\le 0 \\le f(b_n)$$\n\nBy the fundamental axiom of analysis $(a_n) \\to \\alpha$ and\n$(b_n) \\to \\beta$. But $(b_n - a_n) \\to 0$ so $\\alpha = \\beta$. By\ncontinuity of $f$\n$$(f(a_n)) \\to f(\\alpha) \\quad (f(b_n)) \\to f(\\alpha)$$ But we have\n$f(\\alpha) \\le 0$ and $f(\\alpha) \\ge 0$ so that $f(\\alpha) = 0$.\nFurthermore we have $a \\le \\alpha \\le b$, proving the assertion.\n\nSet $g(x) = f(x) - k$ where $f(a) \\le k \\le f(b)$. $g$ satisfies the\nsame conditions as before, so there exists a $c$ such that $f(c) = k$.\nThus proving the more general result.",
+  "conclusion": "#P_IntermediateValueTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfIntermediateValueTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of intermediate value theorem"
+  ]
+}

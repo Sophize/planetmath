@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If the [*coefficient ring*]{} $R$ is an integral domain, then so is also\nits polynomial ring $R[X]$.\n\n[*Proof.*]{} Let $f(X)$ and $g(X)$ be two non-zero polynomials in $R[X]$\nand let $a_f$ and $b_g$ be their leading coefficients, respectively.\nThus $a_f \\neq 0$, $b_g \\neq 0$, and because $R$ has no zero divisors,\n$a_fb_g \\neq 0$. But the product $a_fb_g$ is the leading coefficient of\n$f(X)g(X)$ and so $f(X)g(X)$ cannot be the zero polynomial.\nConsequently, $R[X]$ has no zero divisors, Q.E.D.\\\n**Remark.** The theorem may by induction be generalized for the\npolynomial ring $R[X_1,\\,X_2,\\,\\ldots,\\,X_n]$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolynomialRingOverIntegralDomain"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "polynomial ring over integral domain"
+  ]
+}

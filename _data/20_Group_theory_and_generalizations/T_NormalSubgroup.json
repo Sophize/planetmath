@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "normal"
+  ],
+  "definition": "A subgroup $H$ of a group $G$ is [*normal*]{} if $aH = Ha$ for all\n$a \\in G$. Equivalently, $H \\subset G$ is normal if and only if\n$aHa^{-1} = H$ for all $a \\in G$, i.e., if and only if each conjugacy\nclass of $G$ is either entirely inside $H$ or entirely outside $H$.\n\nThe notation $H \\trianglelefteq G$ or $H \\triangleleft G$ is often used\nto denote that $H$ is a normal subgroup of $G$.\n\nThe kernel $\\ker(f)$ of any group homomorphism $f: G \\longrightarrow G'$\nis a normal subgroup of $G$. More surprisingly, the converse is also\ntrue: any normal subgroup $H \\subset G$ is the kernel of some\nhomomorphism (one of these being the projection map\n$\\rho: G \\longrightarrow G/H$, where $G/H$ is the quotient group).",
+  "language": "INFORMAL",
+  "phrase": "Normal Subgroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalSubgroup"
+    }
+  ],
+  "indexable": true
+}

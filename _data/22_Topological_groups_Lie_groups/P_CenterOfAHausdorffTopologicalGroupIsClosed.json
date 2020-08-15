@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $G$ be a Hausdorff topological group. Then the\ncenter of $G$ is a closed normal subgroup.\n\n$\\,$\n\n[***Proof:***]{} Let $Z$ be the center of $G$. We know that $Z$ is a\nnormal subgroup of $G$. Let us see that it is closed.\n\nLet $s \\in \\overline{Z}$, the closure of $Z$. There exists a net\n$\\{s_{\\lambda}\\}$ in $Z$ converging to $s$. Then, for every $g \\in G$,\nwe have that\n\n-   $gs_{\\lambda} \\longrightarrow gs$\n\n-   $s_{\\lambda}g \\longrightarrow sg$\n\nBut since $Z$ is the center of $G$ we have that\n$gs_{\\lambda} = s_{\\lambda}g$, and as $G$ is Hausdorff one must have\n$sg=gs$. This implies that $s \\in Z$, i.e. $Z$ is closed. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CenterOfAHausdorffTopologicalGroupIsClosed"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "center of a Hausdorff topological group is closed"
+  ]
+}

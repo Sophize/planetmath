@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem shows that the decomposition of an (integral)\ninvertible ideal into its prime factors is unique, if it exists. This\napplies to the ring of integers in a number field or, more generally, to\nany Dedekind domain, in which every nonzero ideal is invertible.\n\nLet $I$ be an invertible ideal in an integral domain $R$, and that\n$$I=\\mathfrak{p}_1\\mathfrak{p}_2\\cdots\\mathfrak{p}_m=\\mathfrak{q}_1\\mathfrak{q}_2\\cdots\\mathfrak{q}_n$$\nare two factorizations of $I$ into a product of prime ideals. Then $m=n$\nand, up to reordering of the factors, $\\mathfrak{p}_k=\\mathfrak{q}_k$\n($k=1,2,\\ldots,n$).\n\nHere we allow the case where $m$ or $n$ is zero, in which case such an\nempty product is taken to be the full ring $R$.\n\nWe use induction on $m+n$. First, the case with $m+n=0$ is trivial, so\nsuppose that $m+n>0$. As the set of prime ideals $\\mathfrak{p}_k$,\n$\\mathfrak{q}_k$ is partially ordered by inclusion, there must be a\nminimal element. After reordering, without loss of generality we may\nsuppose that it is $\\mathfrak{p}_1$. Then\n$$\\mathfrak{q}_1\\mathfrak{q}_2\\cdots\\mathfrak{q}_n\\subseteq\\mathfrak{p}_1,$$\nso $n\\ge 1$. Furthermore, as $\\mathfrak{p}_1$ is prime, this implies\nthat $\\mathfrak{q}_k\\subseteq\\mathfrak{p}_1$ for some $k$. After\nreordering the factors, we can take $k=1$, so that\n$\\mathfrak{q}_1\\subseteq\\mathfrak{p}_1$.\n\nAs $\\mathfrak{p}_1$ is minimal among the prime factors, we have\n$\\mathfrak{q}_1=\\mathfrak{p}_1$. Also, $\\mathfrak{p}_1$ is a factor of\nthe invertible ideal $I$ and so is itself invertible. Therefore, it can\nbe cancelled from the products,\n$$\\mathfrak{p}_2\\cdots\\mathfrak{p}_m=\\mathfrak{q}_2\\cdots\\mathfrak{q}_n.$$\nThe induction hypothesis gives $m=n$ and, after reordering,\n$\\mathfrak{p}_k=\\mathfrak{q}_k$ for $k=2,\\ldots,n$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimeIdealFactorizationIsUnique"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "prime ideal factorization is unique"
+  ]
+}

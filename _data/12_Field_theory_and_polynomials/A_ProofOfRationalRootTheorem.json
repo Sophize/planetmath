@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $p(x) \\in \\mathbb{Z}[x]$. Let $n$ be a positive integer with\n$\\operatorname{deg} p(x)=n$. Let $c_0, \\ldots , c_n \\in \\mathbb{Z}$ such\nthat $p(x)=c_nx^n+c_{n-1}x^{n-1}+\\cdots +c_1x+c_0$.\n\nLet $a,b \\in \\mathbb{Z}$ with $\\operatorname{gcd}(a,b)=1$ and $b>0$ such\nthat $\\displaystyle \\frac{a}{b}$ is a root of $p(x)$. Then\n\n$\\begin{array}{ll}\n0 & \\displaystyle =p\\left( \\frac{a}{b} \\right) \\\\\n\\\\\n& \\displaystyle =c_n \\left( \\frac{a}{b} \\right)^n+c_{n-1} \\left( \\frac{a}{b} \\right)^{n-1} +\\cdots +c_1 \\cdot \\frac{a}{b} +c_0 \\\\\n\\\\\n& \\displaystyle =c_n \\cdot \\frac{a^n}{b^n}+c_{n-1} \\cdot \\frac{a^{n-1}}{b^{n-1}} +\\cdots +c_1 \\cdot \\frac{a}{b} +c_0. \\end{array}$\n\nMultiplying through by $b^n$ and rearranging yields:\n\n$\\begin{array}{rl}\nc_na^n+c_{n-1}a^{n-1}b+\\cdots +c_1ab^{n-1} +c_0b^n & =0 \\\\\n\\\\\nc_0b^n & =-c_na^n-c_{n-1}a^{n-1}b -\\cdots -c_1ab^{n-1} \\\\\n\\\\\nc_0b^n & =a \\left( -c_na^{n-1}-c_{n-1}a^{n-2}b -\\cdots -c_1b^{n-1} \\right) \\\\\n\\end{array}$\n\nThus, $a|c_0b^n$ and, by hypothesis, $\\operatorname{gcd}(a,b)=1$. This\nimplies that $a|c_0$.\n\nSimilarly:\n\n$\\begin{array}{rl}\nc_na^n+c_{n-1}a^{n-1} b+\\cdots +c_1ab^{n-1} +c_0b^n & =0 \\\\\n\\\\\nc_na^n & =-c_{n-1}a^{n-1} b-\\cdots -c_1ab^{n-1} -c_0b^n \\\\\n\\\\\nc_na^n & =b \\left( -c_{n-1}a^{n-1} -\\cdots -c_1ab^{n-1} -c_0b^{n-1} \\right) \\\\\n\\end{array}$\n\nTherefore, $b|c_na^n$ and $b|c_n$.",
+  "conclusion": "#P_RationalRootTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfRationalRootTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of rational root theorem"
+  ]
+}

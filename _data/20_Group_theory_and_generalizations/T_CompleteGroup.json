@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *complete group* is a group $G$ that is\n\n1.  centerless (center $Z(G)$ of $G$ is the trivial group), and\n\n2.  any of its automorphism $g\\colon G\\to G$ is an inner automorphism.\n\nIf a group $G$ is complete, then its group of automorphisms,\n$\\operatorname{Aut}(G)$, is isomorphic to $G$. Here\u2019s a quick proof.\nDefine $\\phi\\colon G\\to \\operatorname{Aut}(G)$ by $\\phi(g)=g^{\\#}$,\nwhere $g^{\\#}(x)=gxg^{-1}$. For $g,h\\in G$,\n$(gh)^{\\#}(x)=(gh)x(gh)^{-1}=g(hxh^{-1})g^{-1}=(g^{\\#}h^{\\#})(x)$, so\n$\\phi$ is a homomorphism. It is onto because every $\\alpha\\in\n\\operatorname{Aut}(G)$ is inner, (=$g^{\\#}$ for some $g\\in G$). Finally,\nif $g^{\\#}(x)=h^{\\#}(x)$, then $gxg^{-1}=hxh^{-1}$, which means\n$(h^{-1}g)x=x(h^{-1}g)$, for all $x\\in G$. This implies that\n$h^{-1}g\\in Z(G)=\\langle e \\rangle$, or $h=g$. $\\phi$ is one-to-one.\\\n\\\nIt can be shown that all symmetric groups on $n$ letters are complete\ngroups, except when $n=2$ and $6$.\n\n[8]{} J. Rotman, [*The Theory of Groups, An Introduction*]{}, Allyn and\nBacon, Boston (1965).",
+  "language": "INFORMAL",
+  "phrase": "Complete Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompleteGroup"
+    }
+  ],
+  "indexable": true
+}

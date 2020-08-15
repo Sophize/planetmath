@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f \\colon G \\subset {\\mathbb{C}} \\to {\\mathbb{C}}$ be a continuously\ndifferentiable function in the real sense, using ${\\mathbb{R}}^2$\ninstead of ${\\mathbb{C}}$, identifying $f(z)$ with $f(x,y)$ where\n$z = x + iy$ and we also write $\\bar{z} = x - iy$ (the complex\nconjugate). Then we have the following partial derivatives:\n$$\\begin{aligned}\n\\frac{\\partial f}{\\partial z} & :=\n\\frac{1}{2} \\left(\n\\frac{\\partial f}{\\partial x} - i \\frac{\\partial f}{\\partial y}\n\\right) ,\n\\\\\n\\frac{\\partial f}{\\partial \\bar{z}} & :=\n\\frac{1}{2} \\left(\n\\frac{\\partial f}{\\partial x} + i \\frac{\\partial f}{\\partial y}\n\\right) .\\end{aligned}$$ Sometimes these are written as $f_z$ and\n$f_{\\bar{z}}$ respectively.\n\nThe classical Cauchy-Riemann equations are equivalent to\n$$\\frac{\\partial f}{\\partial \\bar{z}} = 0 .$$ This can be seen if we\nwrite $f = u+iv$ for real valued $u$ and $v$ and then the differentials\nbecome $$\\begin{aligned}\n\\frac{\\partial f}{\\partial z} & =\n\\frac{1}{2} \\left(\n\\frac{\\partial u}{\\partial x} + \\frac{\\partial v}{\\partial y}\n\\right)\n+\n\\frac{i}{2} \\left(\n\\frac{\\partial v}{\\partial x} - \\frac{\\partial u}{\\partial y}\n\\right) ,\n\\\\\n\\frac{\\partial f}{\\partial \\bar{z}} & =\n\\frac{1}{2} \\left(\n\\frac{\\partial u}{\\partial x} - \\frac{\\partial v}{\\partial y}\n\\right)\n+\n\\frac{i}{2} \\left(\n\\frac{\\partial v}{\\partial x} + \\frac{\\partial u}{\\partial y}\n\\right) .\\end{aligned}$$\n\nIn several complex dimensions, for a function\n$f \\colon G \\subset {\\mathbb{C}}^n \\to {\\mathbb{C}}$ which maps\n$(z_1,\\ldots,z_n) \\mapsto f(z_1,\\ldots,z_n)$ where $z_j = x_j + i y_j$\nwe generalize simply by $$\\begin{aligned}\n\\frac{\\partial f}{\\partial z_j} & :=\n\\frac{1}{2} \\left(\n\\frac{\\partial f}{\\partial x_j} - i \\frac{\\partial f}{\\partial y_j}\n\\right) ,\n\\\\\n\\frac{\\partial f}{\\partial \\bar{z}_j} & :=\n\\frac{1}{2} \\left(\n\\frac{\\partial f}{\\partial x_j} + i \\frac{\\partial f}{\\partial y_j}\n\\right) .\\end{aligned}$$\n\nThen the Cauchy-Riemann equations are given by\n$$\\frac{\\partial f}{\\partial \\bar{z}_j} = 0 \\qquad \\text{for all $1 \\leq j \\leq n$} .$$\nThat is, $f$ is holomorphic if and only if it satisfies the above\nequations.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Cauchy-Riemann Equations (Complex Coordinates)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyRiemannEquationscomplexCoordinates"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry $\\leq$ has three different meanings:\n\n1.  - The of a given .\n\n2.  - The usual in $\\mathbb{R}$.\n\n3.  - The of a directed set taken as the domain of a given net.\n\nIt will be clear from the context which one is being used.\n\n[**Theorem -**]{} Every $C^*$-algebra has an approximate identity\n$(e_{\\lambda})_{\\lambda \\in \\Lambda}$. Moreover, the approximate\nidentity $(e_{\\lambda})_{\\lambda \\in \\Lambda}$ can be chosen to the\nfollowing :\n\n-   $0\\leq e_{\\lambda}\\;\\;\\;\\;\\forall_{\\lambda \\in \\Lambda}$\n\n-   $\\|e_{\\lambda}\\| \\leq 1\\;\\;\\;\\;\\forall_{\\lambda \\in \\Lambda}$\n\n-   $\\lambda \\leq \\mu\\; \\Rightarrow \\;e_{\\lambda}\\leq e_{\\mu}$, i.e.\n    $(e_{\\lambda})_{\\lambda \\in \\Lambda}$ is increasing.\n\nFor $C^*$-algebras the approximate identity can be chosen as an\nincreasing sequence $0\\leq e_1 \\leq e_2 \\leq \\dots$ of norm-one\nelements.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CalgebrasHaveApproximateIdentities"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$C^*$-algebras have approximate identities"
+  ]
+}

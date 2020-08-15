@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The interval $[0,1)$ can be subdivided into an countably infinite\ncollection of disjoint subsets $A_i, i = 0,1,2,\\ldots$ such that, by\ntranslating each set one obtains a collection of disjoint sets $B_i$\nsuch that $\\bigcup_{i=1}^\\infty B_i = [0,2)$\n\nThis paradox challenges the naive \u201c\u201d notion that if one a set into a\ncountable number of pieces and reassembles them, the result will have\nthe same measure as the original set.\n\nThe resolution to this and similar paradoxes lies in the fact that the\nsets $A_i$ were not defined constructively. To show that they exist, one\nneeds to appeal to the non-constructive axiom of choice. What the\nparadox shows is that one can\u2019t have one\u2019s cake and eat it too \u2014 either\none can cling to the naive \u201c\u201d picture and forego non-constructive\ntechniques as the intuitionist school of mathematics does, or else if,\nlike the majority of mathematicians, one wants to keep the powerful\ntools provided by non-constructive techniques in set theory, one must\ngive up the naive notion that every set is measurable and limit \u201c\u201d to\noperations involving measurable sets.\n\nIt might be worth mentioning that it is essential that there be an\ninfinite number of sets $A_i$. As an elegant argument posted by jihema\nshows, it is not possible to find a finite collection of disjoint\nsubsets of $[0,1)$ such that a union of translations of these subsets\nequals $[0,2)$. In higher dimensions, the situation is worse because, as\nBanach and Tarski showed, it is possible to derive analogous paradoxes\ninvolving only a finite number of subsets.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PseudoparadoxInMeasureTheory"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "pseudoparadox in measure theory",
+    "one-dimensional Banach-Tarski paradox"
+  ]
+}

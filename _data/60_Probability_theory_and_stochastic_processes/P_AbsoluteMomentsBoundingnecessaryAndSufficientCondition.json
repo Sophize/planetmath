@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a random variable;\nthen$$E[\\left\\vert X\\right\\vert ^{k}]\\leq M^{k}\\text{ \\ \\ \\ \\ \\ \\ }\\forall k\\geq\n1,k\\in \\mathbf{N}$$\n\nif and only if,$\\forall i\\geq 0,i\\in \\mathbf{N}$\n$$E\\left[ \\left\\vert X\\right\\vert ^{k}\\right] \\leq E\\left[ \\left\\vert\nX\\right\\vert ^{i}\\right] M^{k-i}\\text{ \\ \\ \\ \\ \\ \\ \\ }\\forall k\\geq i,k\\in \\mathbf{N}$$\n\na\\) $(E\\left[ \\left\\vert X\\right\\vert ^{k}\\right] \\leq E\\left[\n\\left\\vert X\\right\\vert ^{i}\\right] M^{k-i}$ \u00a0$\\Longrightarrow $ \u00a0$%\nE[\\left\\vert X\\right\\vert ^{k}]\\leq M^{k})$\n\nIt\u2019s enough to take $i=0$ and the thesis follows easily.\n\nb\\) $(E[\\left\\vert X\\right\\vert ^{k}]\\leq M^{k}$ $\\Longrightarrow E\\left[\n\\left\\vert X\\right\\vert ^{k}\\right] \\leq E\\left[ \\left\\vert X\\right\\vert ^{i}%\n\\right] M^{k-i})$\n\nLet $1\\leq i\\leq k$ (the case $i=0$ is trivial). Then, using\nCauchy-Schwarz inequality $N$ times, one has:$$\\begin{aligned}\nE[\\left\\vert X\\right\\vert ^{k}] &=&E\\left[ \\left\\vert X\\right\\vert ^{\\frac{i%\n}{2}}\\left\\vert X\\right\\vert ^{k-\\frac{i}{2}}\\right]  \\\\\n&\\leq &E\\left[ \\left\\vert X\\right\\vert ^{i}\\right] ^{\\frac{1}{2}}E\\left[\n\\left\\vert X\\right\\vert ^{2k-i}\\right] ^{\\frac{1}{2}} \\\\\n&=&E\\left[ \\left\\vert X\\right\\vert ^{i}\\right] ^{\\frac{1}{2}}E\\left[\n\\left\\vert X\\right\\vert ^{\\frac{i}{2}}\\left\\vert X\\right\\vert ^{2k-\\frac{3}{2%\n}i}\\right] ^{\\frac{1}{2}} \\\\\n&\\leq &E\\left[ \\left\\vert X\\right\\vert ^{i}\\right] ^{\\left( \\frac{1}{2}+%\n\\frac{1}{4}\\right) }E\\left[ \\left\\vert X\\right\\vert ^{4k-3i}\\right] ^{\\frac{1%\n}{4}} \\\\\n&\\leq &E\\left[ \\left\\vert X\\right\\vert ^{i}\\right] ^{\\left( \\frac{1}{2}+%\n\\frac{1}{4}+\\frac{1}{8}\\right) }E\\left[ \\left\\vert X\\right\\vert ^{\\left(\n8k-7i\\right) }\\right] ^{\\frac{1}{8}} \\\\\n&&... \\\\\n&\\leq &E\\left[ \\left\\vert X\\right\\vert ^{i}\\right] ^{\\left( \\sum_{m=1}^{N}%\n\\frac{1}{2^{m}}\\right) }E\\left[ \\left\\vert X\\right\\vert ^{2^{N}k-\\left(\n2^{N}-1\\right) i}\\right] ^{\\frac{1}{2^{N}}} \\\\\n&=&E\\left[ \\left\\vert X\\right\\vert ^{i}\\right] ^{\\left( 1-\\frac{1}{2^{N}}%\n\\right) }E\\left[ \\left\\vert X\\right\\vert ^{2^{N}\\left( k-i\\right) +i}\\right]\n^{\\frac{1}{2^{N}}} \\\\\n&\\leq &E\\left[ \\left\\vert X\\right\\vert ^{i}\\right] ^{\\left( 1-\\frac{1}{2^{N}}%\n\\right) }M^{\\left( k-i\\right) +\\frac{i}{2^{N}}},\\end{aligned}$$\n\nand since this must hold for any $N$, we obtain\n$$E[\\left\\vert X\\right\\vert ^{k}]\\leq E\\left[ \\left\\vert X\\right\\vert ^{i}%\n\\right] M^{k-i}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbsoluteMomentsBoundingnecessaryAndSufficientCondition"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "absolute moments bounding (necessary and sufficient condition)"
+  ]
+}

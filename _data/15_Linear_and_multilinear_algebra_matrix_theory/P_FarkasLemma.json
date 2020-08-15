@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given an $m\\times n$ matrix $A$ and an $1\\times n$ real row vector $c$,\nboth with real coefficients, one and only one of the following systems\nhas a solution:\n\n1.  $Ax\\leq 0$ and $cx > 0$ for some $n$-column vector $x$;\n\n2.  $wA = c$ and $w\\geq 0$ for some $m$-row vector $w$.\n\nEquivalently, one and only one of the following has a solution:\n\n1.  $Ax\\leq 0$, $x\\leq 0$ and $cx>0$ for some $n$-column vector $x$;\n\n2.  $wA\\leq c$ and $w\\geq 0$ for some $m$-row vector $w$.\n\n**Remark.** Here, $Ax\\geq 0$ means that every of $Ax$ is nonnegative,\nand similarly with the other expressions.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FarkasLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Farkas lemma",
+    "Farkas theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\triangle ABC$ be a triangle, $AL$ the angle bisector of\n$\\angle BAC$ and $AX$ any line passing through $A$. The isogonal\nconjugate line to $AX$ is the line $AY$ obtained by reflecting the line\n$AX$ on the angle bisector $AL$.\n\n![image](isogonal.eps)\n\nIn the picture $\\angle YAL = \\angle LAX$. This is the reason why $AX$\nand $AY$ are called isogonal conjugates, since they form the same angle\nwith $AL$. (iso= equal, gonal = angle).\n\nLet $P$ be a point on the plane. The lines $AP,BP,CP$ are concurrent by\nconstruction. Consider now their isogonals conjugates (reflections on\nthe inner angle bisectors). The isogonals conjugates will also concurr\nby the fundamental theorem on isogonal lines, and their intersection\npoint $Q$ is called the isogonal conjugate of $P$.\n\nIf $Q$ is the isogonal conjugate of $P$, then $P$ is the isogonal\nconjugate of $Q$ so both are often referred as an isogonal conjugate\npair.\n\nAn example of isogonal conjugate pair is found by looking at the\ncentroid of the triangle and the Lemoine point.",
+  "language": "INFORMAL",
+  "phrase": "Isogonal Conjugate",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IsogonalConjugate"
+    }
+  ],
+  "indexable": true
+}

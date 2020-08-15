@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "genus"
+  ],
+  "definition": "The *genus* is a topological invariant of surfaces. It is one of the\noldest known topological invariants and, in fact, much of topology has\nbeen created in to generalize this notion to more general situations\nthan the topology of surfaces. Also, it is a complete invariant in the\nsense that, if two orientable closed surfaces have the same genus, then\nthey must be topologically equivalent. This important topological\ninvariant may be defined in several equivalent ways as given in the\nresult below:\n\nLet $\\Sigma$ be a compact, orientable connected $2$\u2013dimensional manifold\n(a.k.a. surface) without boundary. Then the following two numbers are\nequal (in particular the first number is an integer)\n\n-   half the first Betti number of $\\Sigma$\n    $$\\frac{1}{2}\\dim H^1(\\Sigma\\,;\\mathbb{Q})\\quad,$$\n\n-   the cardinality of a set $C$ of mutually non-intersecting simple\n    closed curves with the property that $\\Sigma\\setminus C$ is a\n    connected surface.\n\nThe integer of the above theorem is called the genus of the surface.\n\nAny compact orientable surface without boundary is a connected sum of\n$g$ tori, where $g$ is its genus.\n\nThe previous theorem is the reason why genus is sometimes referred to as\n\u201cthe number of handles\u201d.\n\nThe genus is a homeomorphism , i.e. two compact orientable surfaces\nwithout boundary are homeomorphic if and only if they have the same\ngenus.",
+  "language": "INFORMAL",
+  "phrase": "Genus Of Topological Surface",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GenusOfTopologicalSurface"
+    }
+  ],
+  "indexable": true
+}

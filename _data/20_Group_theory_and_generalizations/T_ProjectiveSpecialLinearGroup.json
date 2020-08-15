@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "PSL"
+  ],
+  "definition": "Let $V$ be a vector space over a field $F$ and let\n${\\operatorname{SL}}(V)$ be the special linear group. Let $Z$ be the\ncenter of ${\\operatorname{SL}}(V)$. The [**projective special linear\ngroup**]{} associated to $V$ is the quotient group\n${\\operatorname{SL}}(V)/Z$ and is usually denoted by\n${\\operatorname{PSL}}(V)$.\n\nWhen $V$ is a finite dimensional vector space over $F$ (of dimension\n$n$) then we write ${\\operatorname{PSL}}(n,F)$ or\n${\\operatorname{PSL}}_n(F)$. We also identify the linear transformations\nof $V$ with $n\\times n$ matrices, so ${\\operatorname{PSL}}$ may be\nregarded as a quotient of the group of matrices\n${\\operatorname{SL}}(n,F)$ by its center.\n\nNote: see the entry on projective space for the origin of the\nterminology.\n\nThe center $Z$ of ${\\operatorname{SL}}(n,F)$ is the group of all scalar\nmatrices $\\lambda\\cdot \\operatorname{Id}$ where $\\lambda$ is an $n$th\nroot of unity in $F$.\n\nIn particular, for $n=2$, $Z=\\{ \\pm \\operatorname{Id} \\}$ and:\n$${\\operatorname{PSL}}(2,F)={\\operatorname{SL}}(2,F)/\\{ \\pm \\operatorname{Id} \\}.$$\n\nAs a consequence of the previous theorem, we obtain:\n\nFor $n\\geq 3$, ${\\operatorname{PSL}}(n,F)$ is a simple group.\nFurthermore, if $\\mathbb{F}$ is a finite field then the groups\n$${\\operatorname{PSL}}(n,\\mathbb{F})={\\operatorname{SL}}(n,\\mathbb{F})/Z,\\quad n\\geq 2$$\nare all finite simple groups, except for $n=2$ and\n$\\mathbb{F}=\\mathbb{F}_2,\\mathbb{F}_3$.\n\n[00]{} S. Lang, [*Algebra*]{}, Springer-Verlag, New York. D. Dummit, R.\nFoote, [*Abstract Algebra*]{}, Second Edition, Wiley.",
+  "language": "INFORMAL",
+  "phrase": "Projective Special Linear Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProjectiveSpecialLinearGroup"
+    }
+  ],
+  "indexable": true
+}

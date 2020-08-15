@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "sector"
+  ],
+  "definition": "A sector is a fraction of the interior of a circle, described by a\ncentral angle $\\theta$. If $\\theta = 2 \\pi,$ the sector becomes a\ncomplete circle.\n\n![image](sector.eps)\n\nIf the central angle is $\\theta,$ and the radius of the circle is $r,$\nthen the area of the sector is given by $$\\frac{1}{2}r^2\\theta$$\n\nThis is obvious from the fact that the area of a sector is\n$\\frac{\\theta}{2 \\pi}$ times the area of the circle (which is\n$\\pi r^2$). Note that, in the formula, $\\theta$ is in radians.\n\n**Remark**. Since the length $a$ of the arc of the sector is $r\\theta$,\nthe area of the sector is $\\frac{1}{2}ar$, which is equal to the area of\na triangle with base $=a$ and the height $=r$.",
+  "language": "INFORMAL",
+  "phrase": "Sector Of  A Circle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SectorOfACircle"
+    }
+  ],
+  "indexable": true
+}

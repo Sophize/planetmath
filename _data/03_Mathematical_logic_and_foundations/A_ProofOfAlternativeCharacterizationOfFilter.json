@@ -1,0 +1,17 @@
+{
+  "argumentText": "First, suppose that $\\mathbf{F}$ is a filter. We shall show that, for\nany two elements $A$ and $B$ of $\\mathbf{F}$, it is the case that $A\n\\cap B \\in \\mathbf{F}$ if and only if $A \\in \\mathbf{F}$ and $B \\in\n\\mathbf{F}$.\n\nBy the definition of filter, if $A \\in \\mathbf{F}$ and $B \\in\n\\mathbf{F}$ then $A \\cap B \\in \\mathbf{F}$. Since $A \\supseteq A \\cap\nB$ and $\\mathbf{F}$ is a filter, $A \\cap B \\in \\mathbf{F}$ implies $A\n\\in \\mathbf{F}$. Likewise, $A \\cap B \\in \\mathbf{F}$ implies $B \\in\n\\mathbf{F}$.\n\nNext, we shall show that any proper subset $\\mathbf{F}$ of the power set\nof $X$ such that $A \\cap B \\in \\mathbf{F}$ if and only if $A \\in\n\\mathbf{F}$ and $B \\in \\mathbf{F}$ is a filter.\n\nIf the empty set were to belong to $\\mathbf{F}$ then for any $A\n\\subset X$, we would have $A \\cap \\emptyset = \\emptyset \\in\n\\mathbf{F}$. This would imply that every subset of $X$ belongs to\n$\\mathbf{F}$, contrary to our hypothesis that $\\mathbf{F}$ is a proper\nsubset of the power set of $X$.\n\nIf $A \\subseteq B \\subseteq X$ and $A \\in \\mathbf{F}$, then $A \\cap B\n= A \\in \\mathbf{F}$. By our hypothesis, $B \\in \\mathbf{F}$.\n\nThe third defining property of a filter \u2014 If $A \\in \\mathbf{F}$ and\n$B \\in \\mathbf{F}$ then $A \\cap B \\in \\mathbf{F}$ \u2014 is part of our\nhypothesis.",
+  "conclusion": "#P_AlternativeCharacterizationOfFilter",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfAlternativeCharacterizationOfFilter"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of alternative characterization of filter"
+  ]
+}

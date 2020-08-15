@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Two cyclic rings are isomorphic if and only if they have the same order\nand the same behavior.\n\nLet $R$ be a cyclic ring with behavior $k$ and $r$ be a of the additive\ngroup of $R$ with $r^2=kr$. Also, let $S$ be a cyclic ring.\n\nIf $R$ and $S$ have the same order and the same behavior, then let $s$\nbe a generator of the additive group of $S$ with $s^2=ks$. Define\n$\\varphi \\colon R \\to S$ by $\\varphi(cr)=cs$ for every\n$c \\in \\mathbb{Z}$. This map is clearly well defined and surjective.\nSince $R$ and $S$ have the same order, $\\varphi$ is injective. Since,\nfor every $a,b \\in \\mathbb{Z}$,\n$\\varphi(ar)+\\varphi(br)=as+bs=(a+b)s=\\varphi((a+b)r)=\\varphi(ar+br)$\nand\n\n$\\begin{array}{rl}\n\\varphi(ar)\\varphi(br) & =(as)(bs) \\\\\n& =(ab)s^2 \\\\\n& =(ab)(ks) \\\\\n& =(abk)s \\\\\n& =\\varphi((abk)r) \\\\\n& =\\varphi((ab)(kr)) \\\\\n& =\\varphi((ab)r^2) \\\\\n& =\\varphi((ar)(br)), \\end{array}$\n\nit follows that $\\varphi$ is an isomorphism.\n\nConversely, let $\\psi \\colon R \\to S$ be an isomorphism. Then $R$ and\n$S$ must have the same order. If $R$ is infinite, then $S$ is infinite,\nand $k$ is a nonnegative integer. If $R$ is finite, then $k$ $|R|$,\nwhich equals $|S|$. In either case, $k$ is a candidate for the behavior\nof $S$. Since $r$ is a generator of the additive group of $R$ and $\\psi$\nis an isomorphism, $\\psi(r)$ is a generator of the additive group of\n$S$. Since $(\\psi(r))^2=\\psi(r^2)=\\psi(kr)=k\\psi(r)$, it follows that\n$S$ has behavior $k$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CriteriaForCyclicRingsToBeIsomorphic"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "criteria for cyclic rings to be isomorphic"
+  ]
+}

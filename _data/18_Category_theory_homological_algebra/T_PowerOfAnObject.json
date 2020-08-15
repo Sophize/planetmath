@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ be a category and $A$ an object in $\\mathcal{C}$.\nSuppose $n$ is a non-negative integer. The *$n$-th power* of $A$ is\ndefined as the direct product of $A$ with itself $n$ times. In other\nwords, the *$n$-th power* of $A$ is an object $P$ in $\\mathcal{C}$,\ntogether with $n$ parallel morphisms\n$\\pi_1, \\ldots, \\pi_n \\in \\hom(P,A)$, such that if there are $n$\nparallel morphisms $p_1, \\ldots, p_n \\in \\hom(B,A)$, then there is a\nunique morphism $h:B\\to P$ such that $\\pi_i\\circ h=p_i$, where\n$i=1,\\ldots, n$. The commutative diagram below illustrates the\nsituation:\n\n$$\\xymatrix@C=0.5cm{& B \\ar@{.>}[d]^{h} \\ar@/_4ex/[dddl]_{p_1} \\ar@/^4ex/[dddr]^{p_n} & \\\\ & P \\ar[ddl]_{\\pi_1}=\"1\" \\ar[ddr]^{\\pi_n}=\"2\" & \\\\ & & \\\\ A & \\cdots & A \\ar@{}\"1\";\"2\"|-{\\cdots}}$$\n\nThe $n$-th power of $A$ is denoted by $A^n$.\n\nBelow are some properties of the power of an object in a category:\n\n-   Each of the projection morphisms $\\pi_i$ is a split epimorphism.\n\n-   $A^1 \\cong A$.\n\n-   $A^0$ is a terminal object in $\\mathcal{C}$.\n\n-   $A^{m+n}\\cong A^n \\times A^m$, if the product exists.\n\nFor example, in the category of sets, the $n$-th power of a set $A$ is\nthe set of $n$-tuples where each entry is an element of $A$.\n\n**Remark**. The *copower* of an object is defined dually. All of the\nproperties above can be dualized. For example, the $0$-th copower of an\nobject is an initial object. The $n$-th copower of an object $A$ in\n**Set** is the disjoint union of $n$-copies of $A$.",
+  "language": "INFORMAL",
+  "phrase": "Power Of An Object",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PowerOfAnObject"
+    }
+  ],
+  "indexable": true
+}

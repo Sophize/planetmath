@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $M$ is a positive definite Hermitian matrix. Then $M$ has a\ndiagonalization\n$$M= P^* \\operatorname{diag}(\\lambda_1, \\ldots, \\lambda_n) P$$ where $P$\nis a unitary matrix and $\\lambda_1, \\ldots, \\lambda_n$ are the\neigenvalues of $M$, which are all positive.\n\nWe can now define the *squar[e]{} roo[t]{}* of $M$ as the matrix\n$$M^{1/2}= P^* \\operatorname{diag}(\\sqrt{\\lambda_1}, \\ldots, \\sqrt{\\lambda_n}) P.$$\nThe following properties are clear\n\n1.  $M^{1/2} M^{1/2}=M$,\n\n2.  $M^{1/2}$ is Hermitian and positive definite.\n\n3.  $M^{1/2}$ and $M$ commute\n\n4.  $(M^{1/2})^T=(M^T)^{1/2}$.\n\n5.  $(M^{1/2})^{-1}=(M^{-1})^{1/2}$, so one can write $M^{-1/2}$\n\n6.  If the eigenvalues of $M$ are $(\\lambda_1, \\ldots, \\lambda_n)$, then\n    the eigenvalues of $M^{1/2}$ are\n    $(\\sqrt{\\lambda_1}, \\ldots, \\sqrt{\\lambda_n})$.",
+  "language": "INFORMAL",
+  "phrase": "Square Root Of Positive Definite Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SquareRootOfPositiveDefiniteMatrix"
+    }
+  ],
+  "indexable": true
+}

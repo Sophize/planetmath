@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "powers of sines and cosines",
+    "integration of trigonometric functions"
+  ],
+  "definition": "To obtain a reduction formula for\n$\\displaystyle \\int \\sin^n x \\cos^m x \\, dx$ :\n\n- Split off $\\sin x$ to integrate by parts\n\n$\\displaystyle = \\int \\sin^{n-1} x \\cos^m x \\sin x \\, dx$\n\nTake\n$\\displaystyle u = \\sin^{n-1} x \\cos^m x\\,, \\text{   and }dv = \\sin x \\, dx$\nSo\n$\\displaystyle du = [(n-1)\\sin^{n-2} x \\cos^{m+1} x - m \\sin ^n x \\cos^{m-1} x] \\, dx\\,, \\text{   and }v = - \\cos x$\n- Then simplify to get\n\n$\\displaystyle = - \\sin^{n-1} x \\cos^{m+1} x + (n-1) \\int \\sin^{n-2} x \\cos^{m+2} x \\, dx - m \\int \\sin^n x \\cos^m x \\, dx$-\nNow use the identity $\\displaystyle \\sin^2 x + \\cos^2 x = 1$ in the\nmiddle term and simplify to get\n\n$\\displaystyle = - \\sin^{n-1} x \\cos^{m+1} x + (n-1) \\int \\sin^{n-2} x \\cos^m x \\, dx - (n-1) \\int \\sin^n x \\cos^m x \\, dx - m \\int \\sin^n x \\cos^m x \\, dx$-\nTake the last two integrals to the left side:\n\n$\\displaystyle [1+(n-1)+m] \\int \\sin^n x \\cos^m x \\, dx = - \\sin^{n-1} x \\cos^{m+1} x + (n-1) \\int \\sin^{n-2}x \\cos^m x \\, dx$-\nSince $[1+(n-1)+m]=m+n$ divide both sides by $m+n$ and hence\n\n$\\displaystyle \\int \\sin^n x \\cos^m x \\, dx = -\\frac{\\sin^{n-1} x \\cos^{m+1} x}{m+n} + \\frac{n-1}{m+n} \\int \\sin^{n-2}x \\cos^m x \\, dx$\n\nUsing the exact same method but instead of splitting off $\\sin x$ , one\ncan split off $\\cos x$ and follow similar procedure to obtain another\nreduction formula:\n\n$\\displaystyle \\int \\sin^n x \\cos^m x \\, dx = \\frac{\\sin^{n+1} x \\cos^{m-1} x}{m+n} + \\frac{m-1}{m+n} \\int \\sin^n x \\cos^{m-2} x \\, dx$",
+  "language": "INFORMAL",
+  "phrase": "Reduction Formulas",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ReductionFormulas"
+    }
+  ],
+  "indexable": true
+}

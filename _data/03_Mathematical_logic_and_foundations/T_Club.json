@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $\\kappa$ is a cardinal then a set $C\\subseteq\\kappa$ is *closed* iff\nfor any $S\\subseteq C$ and $\\alpha<\\kappa$, $\\sup(S\\cap \\alpha)=\\alpha$\nthen $\\alpha\\in C$. (That is, if the limit of some sequence in $C$ is\nless than $\\kappa$ then the limit is also in $C$.)\n\nIf $\\kappa$ is a cardinal and $C\\subseteq\\kappa$ then $C$ is *unbounded*\nif, for any $\\alpha<\\kappa$, there is some $\\beta\\in C$ such that\n$\\alpha<\\beta$.\n\nIf a set is both closed and unbounded then it is a *club* set.",
+  "language": "INFORMAL",
+  "phrase": "Club",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Club"
+    }
+  ],
+  "indexable": true
+}

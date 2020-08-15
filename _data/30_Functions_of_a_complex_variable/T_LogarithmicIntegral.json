@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Li"
+  ],
+  "definition": "The European or Eulerian version of [*logarithmic integral*]{} (in Latin\n[*logarithmus integralis*]{}) is defined as $$\\begin{aligned}\n  {\\operatorname{Li}}{x} := \\int_2^x\\frac{dt}{\\ln{t}},\\end{aligned}$$\nand the American version is $$\\begin{aligned}\n  {\\operatorname{li}}{x} := \\int_0^x\\frac{dt}{\\ln{t}},\\end{aligned}$$\nThe integrand $\\displaystyle\\frac{1}{\\ln{t}}$ has a singularity $t = 1$,\nand for $x > 1$ the latter definition is interpreted as the Cauchy\nprincipal value $${\\operatorname{li}}{x} = \n\\lim_{\\varepsilon\\to 0+}\\left(\\int_0^{1-\\varepsilon}\\!\\frac{dt}{\\ln{t}}\n+\\int_{1+\\varepsilon}^x\\frac{dt}{\\ln{t}}\\right).$$ The connection\nbetween (1) and (2) is\n$${\\operatorname{Li}}{x} = {\\operatorname{li}}{x}-{\\operatorname{li}}{2}.$$\nThe logarithmic integral appears in some physical problems and in a\nformulation of the prime number theorem (${\\operatorname{Li}}{x}$ gives\na slightly better approximation for the prime counting function than\n${\\operatorname{li}}{x}$).\n\nOne has the asymptotic series expansion\n$${\\operatorname{Li}}{x} = \\frac{x}{\\ln{x}}\\sum_{n=0}^\\infty\\frac{n!}{(\\ln{x})^n}.$$\n\nThe definition of the logarithmic integral may be extended to the whole\ncomplex plane, and one gets the analytic function\n${\\operatorname{Li}}{z}$ having the branch point $z = 1$ and the\nderivative $\\displaystyle\\frac{1}{\\log{z}}$.",
+  "language": "INFORMAL",
+  "phrase": "Logarithmic Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LogarithmicIntegral"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a smooth manifold, and\n\n-   let $C^\\infty(M)$ denote the algebra of smooth functions on $M$;\n\n-   let $V(M)$ denote the Lie-algebra of smooth vector fields;\n\n-   and let $\\Omega^k(M)$ denote the vector space of smooth,\n    differential $k$-forms.\n\nRecall that a differential form $\\alpha \\in \\Omega^k(M)$ is a\nmultilinear, alternating mapping $$\\alpha:V(M)\\times \\cdots \\times\nV(M) \\text{(k times)}\\to C^\\infty(M)$$ such that, in local coordinates,\n$\\alpha$ looks like a multilinear combination of its vector field\narguments. Thus, employing the Einstein summation convention and local\ncoordinates , we have\n$$\\alpha(u,v,\\dots, w) = \\alpha_{ij\\dots k }\\, u^i v^j \\cdots w^k,$$\nwhere $u,v,\\dots, w $ is a list of $k$ vector fields. Recall also that\n$C^\\infty(M)$ is a $V(M)$ module. The action is given by a directional\nderivative, and takes the form\n$$v(f) = v^i \\partial_i f,\\quad v\\in V(M),\\; f\\in C^\\infty(M).$$\n\nWith these preliminaries out of the way, we have the following\ndescription of the exterior derivative operator $d:\\Omega^k(M)\\to\n\\Omega^{k+1}(M)$. For $\\omega\\in \\Omega^k(M)$, we have $$\\begin{aligned}\n\\label{eq:domega}\n(d \\omega)(v_0,v_1,\\dots, v_k) =& \\sum_{0\\leq i\\leq k} (-1)^k v_i\n\\omega(\\dots,\\widehat{v}_i,\\dots) + \\\\ \\nonumber\n&\\ +\\sum_{0\\leq i<j\\leq k}\n(-1)^{i+j} \\omega([v_i,v_j],\\dots, \\widehat{v}_i,\\dots\n\\widehat{v}_j,\\dots ),\\end{aligned}$$ where $\\widehat{v}_i$ indicates\nthe omission of the argument $v_i$.\n\nThe above expression of $d\\omega$ can be taken as the definition of the\nexterior derivative. Letting the $v_i$ arguments be coordinate vector\nfields, it is not hard to show that the above definition is equivalent\nto the usual definition of $d$ as a derivation of the exterior algebra\nof differential forms, or the local coordinate definition of $d$. The\nnice feature of is that it is equivalent to the definition of the\ncoboundary operator for Lie algebra cohomology. Thus, we see that de\nRham cohomology, which is the cohomology of the cochain complex\n$d:\\Omega^k(M)\\to \\Omega^{k+1}(M)$, is just zeroth-order Lie algebra\ncohomology of $V(M)$ with coefficients in $C^\\infty(M)$. The bit about\n\u201czeroth order\u201d means that we are considering cochains that are zeroth\norder differential operators of their arguments \u2014 in other words,\ndifferential forms.",
+  "language": "INFORMAL",
+  "phrase": "Coboundary Definition Of Exterior Derivative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CoboundaryDefinitionOfExteriorDerivative"
+    }
+  ],
+  "indexable": true
+}

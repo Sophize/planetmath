@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *concrete category* over a category ${\\mathcal{B}}$ is a category\n${\\mathcal{A}}$ together with a faithful functor\n${{U:{\\mathcal{A}}\\to{\\mathcal{B}}}}$. (The functor $U$ is sometimes\ncalled the *forgetful functor* or the *underlying functor*.)\n\nA concrete category over ${{\\mathbf{Set}}}$ is called a *construct*.\n(Here ${{\\mathbf{Set}}}$ denotes the category of sets.)\n\nThis means that in a construct objects can be interpreted as sets and\nmorphisms as maps.\n\n[**Remarks:**]{}\n\n1.  An alternative meaning of a *concrete category* is that of a\n    category with objects that have elements; such objects can be\n    classes, semigroups, monoids, groups, groupoids, topological spaces,\n    and so on.\n\n2.  Note also the Yoneda-Grothendieck Lemma that relates a category\n    $\\mathcal{C}$ to the functor category $\\hat{\\mathcal{C}}$ of\n    contravariant functors from $\\mathcal{C}$ to ${\\bf Sets}$, the\n    category of sets.\n\n[1]{}\n\nJ.\u00a0Ad\u00e1mek, H.\u00a0Herrlich, and G.\u00a0Strecker. . Wiley, New York, 1990.",
+  "language": "INFORMAL",
+  "phrase": "Concrete Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConcreteCategory"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Assume that $Y$ is an arbitrary topological space and $X$\nis a contractible topological space. Then all maps $f:X\\rightarrow Y$\nare homotopic if and only if $Y$ is path connected.\\\n\\\n***Proof:*** Assume that all maps are homotopic. In particular constant\nmaps are homotopic, so if $y_{1},y_{2}\\in Y$, then there exists a\ncontinous map $H:I\\times Y\\rightarrow Y$ such that $H(0,y)=y_1$ and\n$H(1,y)=y_2$ for all $y\\in Y$. Thus the map $\\alpha:I\\rightarrow Y$\ndefined by the formula $\\alpha(t)=H(t,y_0)$ for a fixed $y_0\\in Y$ is\nthe wanted path.\\\n\\\nOn the other hand assume that $Y$ is path connected. Since $X$ is\ncontractible, then for any $c\\in X$ there exists a continous homotopy\n$H:I\\times X\\rightarrow X$ connecting the identity map and a constant\nmap $c$. Let $f:X\\rightarrow Y$ be an arbitrary map. Define a map\n$F:I\\times X\\rightarrow Y$ by the formula: $F(t,x)=f(H(t,x))$. This map\nis a homotopy from $f$ to a constant map $f(c)$. Thus every map is\nhomotopic to some constant map.\\\n\\\nThe space $Y$ is path connected, so for all $y_1,y_2\\in Y$ there exists\na path $\\alpha:I\\rightarrow Y$ from $y_1$ to $y_2$. Therefore constant\nmaps are homotopic via the homotopy $H(t,x)=\\alpha(t)$.\\\n\\\nFinaly for any continous maps $f,g:X\\rightarrow Y$ and any point\n$c\\in X$ we get: $$f\\simeq f(c)\\simeq g(c)\\simeq g,$$ which completes\nthe proof. $\\square$\\\n\\\n\\\n**Corollary.** If $X$ is a contractible space, then for any topological\nspace $Y$ there exists a bijection between the set $[X,Y]$ of homotopy\nclasses of maps from $X$ to $Y$ and the set $\\pi_0(Y)$ of path\ncomponents of $Y$.\\\n\\\n***Proof:*** Assume that $Y=\\bigcup Y_{i}$, where $Y_i$ are path\ncomponents of $Y$. It is well known that contractible spaces are path\nconnected, thus the image of any continous map $f:X\\rightarrow Y$ is\ncontained in $Y_i$ for some $i$. It follows from the theorem that two\nmaps from $X$ to $Y$ are homotopic if and only if their images are\ncontained in the same $Y_i$. Thus we have a well defined, injective map\n$$\\psi:[X,Y]\\rightarrow\\pi_0(Y)$$ $$\\psi([f])=Y_i,$$ where $i$ is such\nthat $f(X)\\subseteq Y_i$. This map is also surjective, since for any\n$ i $ there exists $y\\in Y_i$, so the class of the constant map $f(x)=y$\nis mapped into $Y_i$. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomotopyWithAContractibleDomain"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "homotopy with a contractible domain"
+  ]
+}

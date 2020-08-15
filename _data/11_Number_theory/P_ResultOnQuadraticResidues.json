@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let $p$ be an odd prime. Then $-3$ is a quadratic residue\nmodulo $p$ if and only if $p \\equiv 1\\pmod{3}$.\n\n*Proof.* Preliminary to the proof, we remark first that $-1$ is a\nquadratic residue modulo $p$, where $p$ is an odd prime, if and only if\n$p \\equiv 1\\pmod{4}$.\n\nIf $p \\equiv 1\\pmod{4}$ then\n$$\\left(\\frac{-3}{p}\\right) = \\left(\\frac{-1}{p}\\right)\\left(\\frac{3}{p}\\right) = \\left(\\frac{p}{3}\\right).$$\nNow if $p \\equiv 3\\pmod{4}$, then\n$$\\left(\\frac{-3}{p}\\right) = \\left(\\frac{-1}{p}\\right)\\left(\\frac{3}{p}\\right) = (-1)(-1)\\left(\\frac{p}{3}\\right) = \\left(\\frac{p}{3}\\right).$$\nThus,\n$\\displaystyle \\left(\\frac{-3}{p}\\right) = \\left(\\frac{p}{3}\\right)$,\nand $\\displaystyle \\left(\\frac{p}{3}\\right)=1$ if and only if\n$p \\equiv 1\\pmod{3}$. $\\Box$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ResultOnQuadraticResidues"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "result on quadratic residues"
+  ]
+}

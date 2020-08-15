@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $x$ is a point on a smooth manifold $M$, then a [*germ of smooth\nfunctions near $x$*]{} is represented by a pair $(U,f)$ where\n$U \\subseteq M$ is an open neighbourhood of $x$, and $f$ is a smooth\nfunction $U \\rightarrow \\mathbb{R}$. Two such pairs $(U,f)$ and $(V,g)$\nare considered equivalent if there is a third open neighbourhood $W$ of\n$x$, contained in both $U$ and $V$, such that $f|_W=g|_W$. To be\nprecise, a germ of smooth functions near $x$ is an equivalence class of\nsuch pairs.\n\nIn more fancy language: the set $\\mathcal{O}_x$ of germs at $x$ is the\nstalk at $x$ of the sheaf $\\mathcal{O}$ of smooth functions on $M$. It\nis clearly an $\\mathbb{R}$-algebra.\n\nGerms are useful for defining the tangent space $T_x M$ in a\ncoordinate-free manner: it is simply the space of all\n$\\mathbb{R}$-linear maps $X:\\mathcal{O}_x \\rightarrow \\mathbb{R}$\nsatisfying Leibniz\u2019 rule $X(fg)=X(f)g+fX(g)$. (Such a map is called an\n$\\mathbb{R}$-linear derivation of $\\mathcal{O}_x$ with values in\n$\\mathbb{R}$.)",
+  "language": "INFORMAL",
+  "phrase": "Germ Of Smooth Functions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GermOfSmoothFunctions"
+    }
+  ],
+  "indexable": true
+}

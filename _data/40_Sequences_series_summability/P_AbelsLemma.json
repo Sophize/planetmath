@@ -1,0 +1,18 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\{a_i\\}_{i=0}^N$ and $\\{b_i\\}_{i=0}^N$ be sequences of real (or\ncomplex) numbers with $N\\ge 0$. For $n=0,\\ldots, N$, let $A_n$ be the\npartial sum $A_n=\\sum_{i=0}^na_i$. Then\n$$\\sum_{i=0}^N a_i b_i = \\sum_{i=0}^{N-1}A_i(b_i-b_{i+1})+A_N b_N.$$\n\nIn the trivial case, when $N=0$, then sum on the right hand side should\nbe interpreted as identically zero. In other words, if the upper limit\nis below the lower limit, there is no summation.\n\nAn inductive proof can be found . The result can be found in [@guenther]\n(Exercise 3.3.5).\n\nIf the sequences are indexed from $M$ to $N$, we have the following\nvariant:\n\n[**Corollary**]{} Let $\\{a_i\\}_{i=M}^N$ and $\\{b_i\\}_{i=M}^N$ be\nsequences of real (or complex) numbers with $0\\le M \\le N$. For\n$n=M,\\ldots, N$, let $A_n$ be the partial sum $A_n=\\sum_{i=M}^na_i$.\nThen\n$$\\sum_{i=M}^N a_i b_i = \\sum_{i=M}^{N-1}A_i(b_i-b_{i+1})+A_N b_N.$$\n\n*Proof.* By defining $a_0=\\ldots =a_{M-1}=b_0=\\ldots =b_{M-1} =0$, we\ncan apply Theorem 1 to the sequences $\\{a_i\\}_{i=0}^N$ and\n$\\{b_i\\}_{i=0}^N$. $\\Box$\n\n[9]{} R.B. Guenther, L.W. Lee, *Partial Differential Equations of\nMathematical Physics and Integral Equations*, Dover Publications, 1988.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbelsLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Abel's lemma",
+    "summation by parts",
+    "Abel's partial summation",
+    "Abel's identity",
+    "Abel's transformation"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $W \\subseteq X \\subseteq {\\mathbb{C}}$ and\n$f\\colon X\\to{\\mathbb{C}}$. Then $f$ is ** on $W$ if there exists an\n$M\\in{\\mathbb{R}}$ such that, for all $x,y\\in W$, $x \\neq y$\n$$|f(x)-f(y)|\\leq M|x-y|$$\n\nIf $a,b\\in{\\mathbb{R}}$ with $a<b$ and $f\\colon [a,b]\\to{\\mathbb{R}}$ is\nLipschitz on $(a,b)$, then $f$ is absolutely continuous on $[a,b]$.",
+  "language": "INFORMAL",
+  "phrase": "Lipschitz Function",
+  "remarks": "\n\n**Example:** Is\n\n$$f(x) = \\frac{1}{\\sqrt{x}},~~~x \\in [0,1]$$\n\na Lipschitz function.\n\nWe need to estimate the constant $M$.\n\n$$|f(x) - f(y)| = \\left|\\frac{1}{\\sqrt{x}} - \\frac{1}{\\sqrt{y}} \\right| = \\left|\\frac{\\sqrt{x} - \\sqrt{y}}{\\sqrt{xy}} \\right| = \\left|\\frac{x - y}{\\sqrt{xy} (\\sqrt{x} + \\sqrt{y})} \\right| = \\frac{1}{|\\sqrt{xy} (\\sqrt{x} + \\sqrt{y})|} |x-y|.$$\n\nIt follows that\n\n$$M = \\frac{1}{|\\sqrt{xy} (\\sqrt{x} + \\sqrt{y})|}$$\n\nand $f(x)$ is not Lipschitz at $x=0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LipschitzFunction"
+    }
+  ],
+  "indexable": true
+}

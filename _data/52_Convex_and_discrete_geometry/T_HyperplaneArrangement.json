@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "subspace arrangement",
+    "central arrangement"
+  ],
+  "definition": "Let $V$ be a vector space over a field $\\mathbb{K}$. A [*hyperplane\narrangment*]{} in $V$ is a family\n$\\mathcal{A}=\\{\\mathcal{H}_i\\}_{i\\in I}$ of affine hyperplanes in $V$.\nIf all of the hyperplanes pass through $0$, $\\mathcal{A}$ is called\n[*central*]{}; otherwise, it is [*affine*]{}. More generally, a\n[*subspace arrangement*]{} is a family of affine subspaces of $V$. The\nsame distinction between central and affine subspace arrangement holds.\n\nLet $V=\\mathbb{K}^n$. Then the family\n$$\\mathbb{K}P^n=\\{S\\subset V\\mid\\dim_{\\mathbb{K}}(S)=1\\}$$ of\n$1$-dimensional subspaces of $V$ is a central subspace arrangement, the\nprojective space of dimension $n$ over $\\mathbb{K}$.\n\nInstead of considering all lines through a vector space, we could\nconsider all $k$-dimensional subspaces of the space.\n\nAgain let $V=\\mathbb{K}^n$, and suppose $0\\le k\\le n$. Then the family\n$$\\operatorname{Gr}(V,k)=\\{S\\subset V\\mid\\dim_{\\mathbb{K}}(S)=k\\}$$ of\n$k$-dimensional subspaces of $V$ is a central subspace arrangement, the\nGrassmannian. Observe that\n$\\mathbb{K}P^n=\\operatorname{Gr}(\\mathbb{K}^n,1)$.\n\nIf $V$ is a topological vector space and $\\mathcal{A}$ is a hyperplane\narrangement, then it makes sense to ask for the fundamental group of the\ncomplement $V\\setminus\\bigcup_{\\mathcal{H}\\in\\mathcal{A}}\\mathcal{H}$.\n\nIf $\\mathcal{A}$ is a finite hyperplane arrangement over\n$V=\\mathcal{R}^n$, then the arrangement $V$ into a finite number of\ncontractible cells. By selecting a point in each cell and taking the\nconvex hull of the result, we obtain a polytope combinatorially\nequivalent to the zonotope dual to the arrangement. Since the question\nof the fundamental group here is not interesting, we could also use the\nembedding $\\mathbb{R}^n\\hookrightarrow\\mathbb{C}^n$ to complexify\n$\\mathcal{A}$. In this case the complement\n$\\mathbb{C}^n\\setminus\\bigcup_{\\mathcal{H}\\in\\mathcal{A}}\\mathcal{H}$\nusually has nontrivial fundamental group.\n\n[9]{} Klain, D.\u00a0A., and G.-C.\u00a0Rota, [*, Introduction to geometric\nprobability*]{}, Cambridge University Press, 1997. Orlik, P., and\nH.\u00a0Terao, [*Arrangements of hyperplanes*]{}, Springer-Verlag, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Hyperplane Arrangement",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HyperplaneArrangement"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "What is the size of the largest family $\\mathcal{F}$ of subsets of an\n$n$-element set such that no $A\\in \\mathcal{F}$ is a subset of\n$B\\in \\cal{F}$? Sperner [@cite:sperner_antichain] gave an answer in the\nfollowing elegant theorem:\n\nFor every family $\\mathcal{F}$ of incomparable subsets of an $n$-set,\n${\\left\\lvert \\mathcal{F}\\right\\rvert}\\leq \\binom{n}{{\\left\\lfloor n/2\\right\\rfloor}}$.\n\nA family satisfying the conditions of Sperner\u2019s theorem is usually\ncalled *Sperner family* or *antichain*. The later terminology stems from\nthe fact that subsets of a finite set ordered by inclusion form a\nBoolean lattice.\n\nThere are many generalizations of Sperner\u2019s theorem. On one hand, there\nare refinements like LYM inequality that strengthen the theorem in\nvarious ways. On the other hand, there are generalizations to posets\nother than the Boolean lattice. For a comprehensive exposition of the\ntopic one should consult a well-written monograph by\nEngel[@cite:engel_sperner].\n\n[1]{}\n\nB[\u00e9]{}la Bollob[\u00e1]{}s. Combinatorics: Set systems, hypergraphs, families\nof vectors, and combinatorial probability. 1986. .\n\nKonrad Engel. , volume\u00a065 of [*Encyclopedia of Mathematics and Its\nApplications*]{}. Cambridge University Press. .\n\nEmanuel Sperner. in [S]{}atz [\u00fc]{}ber [U]{}ntermengen einer endlichen\n[M]{}enge. , 27:544\u2013548, 1928. at .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpernersTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Sperner's theorem"
+  ]
+}

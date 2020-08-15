@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "bag"
+  ],
+  "definition": "A *multiset* is a set for which repeated elements are considered.\n\nNote that the standard definition of a set also allows repeated\nelements, but these are not *treated* as repeated elements. For example,\n$\\{1,1,3\\}$ as a *set* is actually equal to $\\{1,3\\}$. However, as a\n*multiset*, $\\{1,1,3\\}$ is not simplifiable further.\n\nA definition that makes clear the distinction between set and multiset\nfollows:\n\nA multiset is a pair $(X, f)$, where $X$ is a set, and $f$ is a function\nmapping $X$ to the cardinal numbers greater than zero. $X$ is called the\n*underlying set* of the multiset, and for any $x \\in X$, $f(x)$ is the\n*multiplicity* of $x$.\n\nUsing this definition and expressing $f$ as a set of ordered pairs, we\nsee that the multiset $\\{1,3\\}$ has $X = \\{1,3\\}$ and\n$f = \\{(1,1),(3,1)\\}$. By contrast, the multiset $\\{1,1,3\\}$ has\n$X = \\{1,3\\}$ and $f = \\{(1,2),(3,1)\\}$.\n\nGenerally, a multiplicity of zero is not allowed, but a few\nmathematicians do allow for it, such as Bogart and Stanley. It is far\nmore common to disallow infinite multiplicity, which greatly complicates\nthe definition of operations such as unions, intersections, complements,\netc.\n\n[3]{} Kenneth P. Bogart, [*Introductory Combinatorics*]{}. Florence,\nKentucky: Cengage Learning (2000): 93 John L. Hickman, \u201cA note on the\nconcept of multiset\u201d [*Bulletin of the Australian Mathematical\nSociety*]{} [**22**]{} (1980): 211 - 217 Richard P. Stanley,\n[*Enumerative Combinatorics*]{} Vol 1. Cambridge: Cambridge University\nPress (1997): 15",
+  "language": "INFORMAL",
+  "phrase": "Multiset",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Multiset"
+    }
+  ],
+  "indexable": true
+}

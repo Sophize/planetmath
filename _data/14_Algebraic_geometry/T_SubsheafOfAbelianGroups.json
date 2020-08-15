@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "subsheaf",
+    "subsheaves"
+  ],
+  "definition": "Let $\\mathcal{F}$ be a sheaf of abelian groups over a topological space\n$X$. Let $\\mathcal{G}$ be a sheaf over $X$, such that for every open set\n$U \\subset X$, $\\mathcal{G}(U)$ is a subgroup of $\\mathcal{F}(U)$. And\nfurther let the on $\\mathcal{G}$ be by those on $\\mathcal{F}$. Then\n$\\mathcal{G}$ is a *subsheaf* of $\\mathcal{F}$.\n\nSuppose a sheaf of abelian groups $\\mathcal{F}$ is defined as a disjoint\nunion of stalks $\\mathcal{F}_x$ over points $x \\in X$, and $\\mathcal{F}$\nis topologized in the appropriate manner. In particular, each stalk is\nan abelian group and the group operations are continuous. Then a\nsubsheaf $\\mathcal{G}$ is an open subset of $\\mathcal{F}$ such that\n$\\mathcal{G}_x = \n\\mathcal{G} \\cap \\mathcal{F}_x$ is a subgroup of $\\mathcal{F}_x$.\n\nWhen $\\mathcal{G}$ is a subsheaf of $\\mathcal{F}$, then\n$\\mathcal{F}_x / \\mathcal{G}_x$ is an abelian group. Considering this to\nbe the stalk over $x$ we have a sheaf which is denoted by\n$\\mathcal{F}/\\mathcal{G}$, with the topology being the quotient\ntopology.\n\nSuppose $M$ is a complex manifold. Let $\\mathcal{M}^*$ be the sheaf of\ngerms of meromorphic functions which are not identically zero. That is,\nfor $z \\in M,$ the stalk $\\mathcal{M}^*_z$ is the abelian group of germs\nof meromorphic functions at $z$ with the group operation being\nmultiplication. Then $\\mathcal{O}^*$, the sheaf of germs of holomorphic\nfunctions which are not identically 0 is a subsheaf of $\\mathcal{M}^*$.\n\nThe sheaf $\\mathcal{M}^* / \\mathcal{O}^*$ is then the sheaf of divisors.\nIf $M$ is of (complex) dimension 1, then $\\mathcal{M}^* / \\mathcal{O}^*$\nis just the sheaf of functions into the integers with finite support.\n\n[9]{} Glen E. Bredon. [**]{}, Springer, 1997. Robin Hartshorne. [**]{},\nSpringer, 1977. Lars H\u00f6rmander. [**]{}, North-Holland Publishing\nCompany, New York, New York, 1973.",
+  "language": "INFORMAL",
+  "phrase": "Subsheaf Of Abelian Groups",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubsheafOfAbelianGroups"
+    }
+  ],
+  "indexable": true
+}

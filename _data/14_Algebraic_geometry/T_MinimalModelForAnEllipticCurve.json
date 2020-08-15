@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "minimal equation"
+  ],
+  "definition": "Let $K$ be a local field, complete with respect to a discrete valuation\n$\\nu$ (for example, $K$ could be ${\\mathbb{Q}}_p$, the field of , which\nis complete with respect to the ).\n\nLet $E/K$ be an elliptic curve defined over $K$ given by a Weierstrass\nequation $$y^2+a_1xy+a_3y=x^3+a_2x^2+a_4x+a_6$$ where\n$a_1, a_2, a_3,a_4,a_6$ are constants in $K$. By a suitable change of\nvariables, we may assume that $\\nu(a_i)\\geq 0$. As it is pointed out in\n, any other Weierstrass equation for $E$ is obtained by a change of\nvariables of the form $$x=u^2x'+r,\\quad y=u^3y'+su^2x'+t$$ with\n$u,r,s,t\\in K$ and $u\\neq 0$. Moreover, by Proposition 2 in the same\nentry, the discriminants of both equations satisfy\n$\\Delta=u^{12}\\Delta'$, so they only differ by a $12$th power of a\nnon-zero number in $K$. Let us define a set:\n$$S=\\{ \\nu(\\Delta) : \\Delta \\text{ is the discriminant of a Weierstrass eq. for $E$ and } \\nu(\\Delta)\\geq 0\\}$$\nSince $\\nu$ is a discrete valuation, the set $S$ is a set of\nnon-negative integers, therefore it has a minimum value $m\\in S$.\nMoreover, by the remark above, $m$ satisfies $0\\leq m <12$ and $m$ is\nthe unique number $t\\in S$ with $0\\leq t < 12$.\n\nLet $E/K$ be an elliptic curve over a local field $K$, complete with\nrespect to a discrete valuation $\\nu$. A Weierstrass equation for $E$\nwith discriminant $\\Delta$ is said to be a minimal model for $E$ (at\n$\\nu$) if $\\nu(\\Delta)=m$, the minimum of the set $S$ above.\n\nIt follows from the discussion above that every elliptic curve over a\nlocal field $K$ has a minimal model over $K$.\n\nLet $F$ be a number field and let $\\nu$ be an infinite or finite place\n(archimedean or non-archimedean prime) of $F$. Let $E/F$ be an elliptic\ncurve over $F$. A given Weierstrass model for $E/F$ is said to be\nminimal at $\\nu$ if the same model is minimal over $F_\\nu$, the\ncompletion of $F$ at $\\nu$. A Weierstrass equation for $E/F$ is said to\nbe minimal if it is minimal at $\\nu$ for all places $\\nu$ of $F$.\n\nIt can be shown that all elliptic curves over ${\\mathbb{Q}}$ have a\nglobal minimal model. However, this is not true over general number\nfields. There exist elliptic curves over a number field $F$ which do not\nhave a global minimal model (i.e. any given model is not minimal at\n$\\nu$ for every $\\nu$).",
+  "language": "INFORMAL",
+  "phrase": "Minimal Model For An Elliptic Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinimalModelForAnEllipticCurve"
+    }
+  ],
+  "indexable": true
+}

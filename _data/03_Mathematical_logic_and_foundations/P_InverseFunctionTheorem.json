@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathbf{f}$ be a continuously differentiable, vector-valued\nfunction mapping the open set $E \\subset \\mathbb{R}^{n}$ to\n$\\mathbb{R}^{n}$ and let $S = \\mathbf{f}(E)$. If, for some point\n$\\mathbf{a} \\in E$, the Jacobian, $| J_{\\mathbf{f}}(\\mathbf{a}) |$, is\nnon-zero, then there is a uniquely defined function $\\mathbf{g}$ and two\nopen sets $X \\subset E$ and $Y \\subset S$ such that\n\n1.  $\\mathbf{a} \\in X$, $\\mathbf{f}(\\mathbf{a}) \\in Y$;\n\n2.  $Y = \\mathbf{f}(X)$;\n\n3.  $\\mathbf{f}:X \\to Y$ is one-one;\n\n4.  $\\mathbf{g}$ is continuously differentiable on $Y$ and\n    $\\mathbf{g}(\\mathbf{f}(\\mathbf{x})) = \\mathbf{x}$ for all\n    $\\mathbf{x} \\in X$.\n\n### Simplest case\n\nWhen $n = 1$, this theorem becomes: Let $f$ be a continuously\ndifferentiable, real-valued function defined on the open interval $I$.\nIf for some point $a \\in I$, $f'(a) \\neq 0$, then there is a\nneighbourhood $[\\alpha, \\beta]$ of $a$ in which $f$ is strictly\nmonotonic. Then $y \\to f^{-1}(y)$ is a continuously differentiable,\nstrictly monotonic function from $[f(\\alpha), f(\\beta)]$ to\n$[\\alpha, \\beta]$. If $f$ is increasing (or decreasing) on\n$[\\alpha, \\beta]$, then so is $f^{-1}$ on $[f(\\alpha), f(\\beta)]$.\n\n### Note\n\nThe inverse function theorem is a special case of the implicit function\ntheorem where the dimension of each variable is the same.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InverseFunctionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "inverse function theorem"
+  ]
+}

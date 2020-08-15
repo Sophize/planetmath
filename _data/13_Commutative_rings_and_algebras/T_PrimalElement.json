@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An element $r$ in a commutative ring $R$ is called *primal* if whenever\n$r\\mid ab$, with $a,b\\in R$, then there exist elements $s,t\\in R$ such\nthat\n\n1.  $r=st$,\n\n2.  $s\\mid a$ and $t\\mid b$.\n\n**Lemma**. In a commutative ring, an element that is both irreducible\nand primal is a prime element.\n\nSuppose $a$ is irreducible and primal, and $a\\mid bc$. Since $a$ is\nprimal, there is $x,y\\in R$ such that $a=xy$, with $x\\mid b$ and\n$y\\mid c$. Since $a$ is irreducible, either $x$ or $y$ is a unit. If $x$\nis a unit, with $z$ as its inverse, then $za=zxy=y$, so that $a\\mid y$.\nBut $y\\mid c$, we have that $a\\mid c$.",
+  "language": "INFORMAL",
+  "phrase": "Primal Element",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimalElement"
+    }
+  ],
+  "indexable": true
+}

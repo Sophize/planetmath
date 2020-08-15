@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Boolean ring* is a ring $R$ that has a multiplicative identity, and\nin which every element is idempotent, that is,\n$$x^2=x\\text{ for all }x\\in R.$$ Boolean rings are necessarily . Also,\nif $R$ is a Boolean ring, then $x=-x$ for each $x\\in R$.\n\nBoolean rings are equivalent to Boolean algebras (or ). Given a Boolean\nring $R$, define $x \\land y = xy$ and $x \\lor y = x + y + xy$ and\n$x'=x+1$ for all $x,y\\in R$, then $(R,\\land,\\lor,\\phantom{i}',0,1)$ is a\nBoolean algebra. Given a Boolean algebra\n$(L,\\land,\\lor,\\phantom{i}',0,1)$, define $x\\cdot y = x \\land y$ and\n$x + y = (x' \\land y) \\lor (x \\land y')$, then $(L,\\cdot,+)$ is a\nBoolean ring. In particular, the category of Boolean rings is isomorphic\nto the category of Boolean lattices.\n\nExamples {#examples .unnumbered}\n========\n\nAs mentioned above, every Boolean algebra can be considered as a Boolean\nring. In particular, if $X$ is any set, then the power set ${\\cal P}(X)$\nforms a Boolean ring, with intersection as multiplication and symmetric\ndifference as addition.\n\nLet $R$ be the ring ${\\mathbb{Z}}_2\\times{\\mathbb{Z}}_2$ with the\noperations being coordinate-wise. Then we can check: $$\\begin{aligned}\n(1,1)\\times(1,1)&=&(1,1)\\\\\n(1,0)\\times(1,0)&=&(1,0)\\\\\n(0,1)\\times(0,1)&=&(0,1)\\\\\n(0,0)\\times(0,0)&=&(0,0)\\end{aligned}$$ the four elements that form the\nring are idempotent. So $R$ is Boolean.",
+  "language": "INFORMAL",
+  "phrase": "Boolean Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BooleanRing"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A bialgebra $A$ is called [*almost cocommutative*]{} if there is an unit\n${\\mathcal{R}}\\in A\\otimes A$ such that\n$${\\mathcal{R}}\\Delta(a)=\\Delta^{op}(a){\\mathcal{R}}$$ where\n$\\Delta^{op}$ is the opposite comultiplication (the usual\ncomultiplication, composed with the flip map of the tensor product\n$A\\otimes A$). The element ${\\mathcal{R}}$ is often called the\n${\\mathcal{R}}$-matrix of $A$.\n\nThe significance of the almost cocommutative condition is that\n$\\sigma_{V,W}=\\sigma\\circ{\\mathcal{R}}:V\\otimes W\\to W\\otimes V$ gives a\nnatural isomorphism of bialgebra representations, where $V$ and $W$ are\n$A$-modules, making the category of $A$-modules into a quasi-tensor or\nbraided monoidal category. Note that $\\sigma_{W,V}\\circ\\sigma_{V,W}$ is\nnot necessarily the identity (this is the [*braiding*]{} of the\ncategory).",
+  "language": "INFORMAL",
+  "phrase": "Almost Cocommutative Bialgebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlmostCocommutativeBialgebra"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Recall that composition algebra $C$ over a field $k$ is specified with a\nquadratic form $q:C\\to k$. Furthermore, two quadratic forms $q:C\\to k$\nand $r:D\\to k$ are isometric if there exists an invertible linear map\n$f:C\\to D$ such that $r(f(x))=q(x)$ for all $x\\in C$.\n\n[@Schafer:nonass Theorem 3.23] Two unital Cayley-Dickson algebras $C$\nand $D$ over a field $k$ of characteristic not $2$ are isomorphic if,\nand only if, their quadratic forms are isometric.\n\nA Cayley-Dickson algebra is split if the algebra has non-trivial\nzero-divisors.\n\n[@Schafer:nonass Corollary 3.24] Upto isomorphism there is only one\nsplit Cayley-Dickson algebra and the quadratic form has Witt index 4.\n\nOver the real numbers instead of Witt index, we say the signature of the\nquadratic form is $(4,4)$.\n\nThis result is often used together with a theorem of Hurwitz which\nlimits the dimensions of composition algebras to dimensions 1,2, 4 or 8.\nThus to classify the composition algebras over a given field $k$ of\ncharacteristic not 2, it suffices to classify the non-degenerate\nquadratic forms $q:k^n\\to k$ with $n=1,2,4$ or $8$.\n\n[7]{} Richard\u00a0D. Schafer, *An introduction to nonassociative algebras*,\nPure and Applied Mathematics, Vol. 22, Academic Press, New York, 1966.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JacobsonsTheoremOnCompositionAlgebras"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Jacobson's theorem on composition algebras"
+  ]
+}

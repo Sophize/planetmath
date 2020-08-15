@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An integer $n$ that in a given base $b$ is a palindrome. Given $n$ being\n$k$ digits $d_x$ long in base $b$, its value being\n$$n = \\sum_{i = 0}^{k - 1} d_kb^i$$ then if the equalities $d_k = d_1$,\n$d_{k - 1} = d_2$, etc., hold, then $n$ is a [*palindromic number*]{}.\nThere are infinitely many palindromic numbers in any given base.",
+  "language": "INFORMAL",
+  "phrase": "Palindromic Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PalindromicNumber"
+    }
+  ],
+  "indexable": true
+}

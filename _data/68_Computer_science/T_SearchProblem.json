@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $R$ is a binary relation such that\n$\\operatorname{field}(R)\\subseteq\\Gamma^+$ and $T$ is a Turing machine,\nthen $T$ *calculates* $f$ if:\n\n-   If $x$ is such that there is some $y$ such that $R(x,y)$ then $T$\n    accepts $x$ with output $z$ such that $R(x,z)$ (there may be\n    multiple $y$, and $T$ need only find one of them)\n\n-   If $x$ is such that there is no $y$ such that $R(x,y)$ then $T$\n    rejects $x$\n\nNote that the of a partial function is a binary relation, and if $T$\ncalculates a partial function then there is at most one possible output.\n\nA $R$ can be viewed as a *search problem*, and a Turing machine which\ncalculates $R$ is also said to solve it. Every search problem has a\ncorresponding decision problem, namely\n$L(R)=\\{x\\mid \\exists y R(x,y)\\}$.\n\nThis definition may be generalized to $n$-ary relations using any\nsuitable encoding which allows multiple strings to be compressed into\none string (for instance by listing them consecutively with a\ndelimiter).",
+  "language": "INFORMAL",
+  "phrase": "Search Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SearchProblem"
+    }
+  ],
+  "indexable": true
+}

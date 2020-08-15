@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a function $f$, the quantity $f'/f$ is known as the *logarithmic\nderivative* of $f$. This name comes from the observation that, on\naccount of the chain rule, $$(\\log f)' = f' \\log' (f) = f'/f.$$\n\nThe logarithmic derivative has several basic properties which make it\nuseful in various contexts.\n\nThe logarithmic derivative of the product of functions is the sum of\ntheir logarithmic derivatives. This follows from the product rule:\n$${(fg)' \\over fg} =\n{fg' + f'g \\over fg} = \n{f' \\over f} + {g' \\over g}$$\n\nThe logarithmic derivative of the quotient of functions is the\ndifference of their logarithmic derivatives. This follows from the\nquotient rule: $${(f/g)' \\over f/g} =\n{f'g - fg' \\over g^2} {g \\over f} =\n{f' \\over f} - {g' \\over g}$$\n\nThe logarithmic derivative of the $p$-th power of a function is $p$\ntimes the logarithmic derivative of the function. This follows from the\npower rule: $${(f^p)' \\over f^p} =\n{p f^{p-1} f' \\over f^p} =\np \\, {f' \\over f}$$\n\nThe logarithmic derivative of the exponential of a function equals the\nderivative of a function. This follows from the chain rule:\n$${\\left( e^f \\right)' \\over e^f} =\n{e^f \\, f' \\over e^f} = f'$$\n\nUsing these identities, it is rather easy to compute the logarithmic\nderivatives of expressions which are presented in factored form. For\ninstance, suppose we want to compute the logarithmic derivative of\n$$e^{x^2} { (x-2)^3 (x-3) \\over x - 1}.$$ Using our identities, we find\nthat its logarithic derivative is\n$$2x + {3 \\over x-2} + {1 \\over x-3} - {1 \\over x-1}.$$",
+  "language": "INFORMAL",
+  "phrase": "Logarithmic Derivative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LogarithmicDerivative"
+    }
+  ],
+  "indexable": true
+}

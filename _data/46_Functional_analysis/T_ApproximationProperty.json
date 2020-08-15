@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "approximation by finite rank operators"
+  ],
+  "definition": "Let $Y$ be a Banach space and $B(Y)$ the algebra of bounded operators in\n$Y$. We say that $Y$ has the [**approximation property**]{} if there is\na sequence $(P_n)$ of operators in $B(Y)$ such that\n$$P_n y \\longrightarrow y \\;\\;\\; \\forall_{y \\in Y}$$\n\ni.e. $(P_n)$ converges in the strong operator topology to the identity\noperator.\n\nThe fundamental fact about spaces with the approximation property is\nthat every compact operator is the norm limit of finite rank operators.\n\n[**Theorem -**]{} Let $X$ be a normed vector space and $Y$ a Banach\nspace with the approximation property. Then every compact operator\n$T: X \\longrightarrow Y$ is the norm limit of operators of finite rank.\n\n[**Examples :**]{}\n\n-   Separable Hilbert spaces have the approximation property. Note\n    however that compact operators on Hilbert spaces (not just separable\n    ones) are always norm limit of finite rank operators.\n\n-   The have the approximation property.\n\nMoreover,\n\n[**Theorem -**]{} If $Y$ is a Banach space with a Schauder basis then it\nhas the approximation property.",
+  "language": "INFORMAL",
+  "phrase": "Approximation Property",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ApproximationProperty"
+    }
+  ],
+  "indexable": true
+}

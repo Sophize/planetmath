@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "iid",
+    "independent and identically distributed"
+  ],
+  "definition": "Two random variables $X$ and $Y$ are said to be *identically\ndistributed* if they are defined on the same probability space\n$(\\Omega,\\mathcal{F},P)$, and the distribution function $F_X$ of $X$ and\nthe distribution function $F_Y$ of $Y$ are the same: $F_X=F_Y$. When $X$\nand $Y$ are identically distributed, we write $X \\stackrel{d}{=} Y$.\n\nA set of random variables $X_i$, $i$ in some index set $I$, is\nidentically distributed if $X_i \\stackrel{d}{=} X_j$ for every pair\n$i,j\\in I$.\n\nA collection of random variables $X_i$ ($i\\in I$) is said to be\n*independent identically distributed*, if the $X_i$\u2019s are identically\ndistributed, and (every finite subfamily of $X_i$ is independent). This\nis often abbreviated as *iid*.\n\nFor example, the interarrival times $T_i$ of a Poisson process of rate\n$\\lambda$ are independent and each have an exponential distribution with\nmean $1/\\lambda$, so the $T_i$ are independent identically distributed\nrandom variables.\n\nMany other examples are found in statistics, where individual data\npoints are often assumed to realizations of iid random variables.",
+  "language": "INFORMAL",
+  "phrase": "Independent Identically Distributed",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndependentIdenticallyDistributed"
+    }
+  ],
+  "indexable": true
+}

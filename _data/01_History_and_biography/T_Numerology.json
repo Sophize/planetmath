@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Modern [*numerology*]{} is the divination of the future by means of\nreducing the name and birthdate of the person for whom the chart is\nbeing cast for to single base 10 digits by means of modular arithmetic.\nThe digits are assigned abstract human qualities beforehand, and once\nthe digits are obtained, arithmetic (or any kind of mathematics) no\nlonger plays any r\u00f4le in the process. Numerology is considered with as\nmuch disdain by mathematicians as astrology is by astronomers, if not\nmore so.\n\nThe letters of the person\u2019s name are assigned numerical values, (e.g., A\n= 1, B = 2, C = 3, etc.) and added up, then the digital root of the sum\nis obtained. (It doesn\u2019t matter if J = 10 or J = 1, the overall result\nwill be the same.) The same procedure applies for the birthdate (e.g.,\nJanuary = 1, February = 2, etc.) Any computer algebra system capable of\nstring manipulation by ASCII or Unicode character codes is capable of\nperforming calculations for numerology. For example, Mathematica\nprovides the `FromCharacterCode` and `ToCharacterCode` functions. One\nonly needs to remember to subtract 64 or 96 (depending on case), to use\nonly one case and to not use spaces.\n\nAncient Greeks such as Pythagoras believed that numbers indeed possessed\nabstract human qualities based on their mathematical properties, or\nperhaps even occult significance relevant to mystery religions. There is\nno vestige of this in modern numerology, but mathematics carries\nvestiges of this in some of its terminology, if nothing else (for\nexample, the amicable numbers).\n\nThe term \u201cnumerology\u201d is sometimes used derogatorily to refer to what\ncould more accurately be described as \u201cnumber folklore.\u201d Richard Guy\u2019s\nstrong law of small numbers \u201csuggests that number folklore is likely to\ndevelop\u201d as a result of people liking to find patterns from finite\namounts of data. (Slone, 2007)\n\n[6]{} K. Lagerquist and L. Lenard, [*The Complete Idiot\u2019s Guide to\nNumerology*]{} Indianapolis: Macmillan (1999) M. Slone, personal\ncommunication (2007)",
+  "language": "INFORMAL",
+  "phrase": "Numerology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Numerology"
+    }
+  ],
+  "indexable": true
+}

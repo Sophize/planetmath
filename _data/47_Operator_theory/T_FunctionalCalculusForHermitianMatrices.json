@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $I\\subset\\mathbb{R}$ be a real interval, $f$ a real-valued function\non $I$, and let $M$ be an $n\\times n$ real symmetric (and thus\nHermitian) matrix whose eigenvalues are contained in $I$.\n\nBy the spectral theorem, we can diagonalize $M$ by an orthogonal matrix\n$O$, so we can write $M=ODO^{-1}$ where $D$ is the diagonal matrix\nconsisting of the eigenvalues\n$\\{\\lambda_1,\\lambda_2,\\ldots,\\lambda_n\\}$. We then define\n\n$$\\begin{aligned}\nf(A)=Of(D)O^{-1},\\end{aligned}$$\n\nwhere $f(D)$ denotes the diagonal matrix whose diagonal entries are\ngiven by $f(\\lambda_i)$.\n\nIt is easy to verify that $f(A)$ is well-defined, i.e. a permutation of\nthe eigenvalues corresponds to the same definition of $f(A)$.",
+  "language": "INFORMAL",
+  "phrase": "Functional Calculus For Hermitian Matrices",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FunctionalCalculusForHermitianMatrices"
+    }
+  ],
+  "indexable": true
+}

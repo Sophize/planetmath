@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*empty product*]{} of numbers is the borderline case of product,\nwhere the number of is empty. The most usual examples are the following.\n\n-   The of a non-zero number: $a^0$\n\n-   The factorial of 0: 0!\n\n-   The of unity, which has no prime factors\n\nThe value of the empty sum of numbers is equal to the additive identity\nnumber, 0. Similarly, the empty product of numbers is equal to the\nnumber, 1.\n\n**Note.** When considering the complex numbers as pairs of real numbers\none often identifies the pairs $(x,\\,0)$ and the reals $x$. In this\nsense one can think that the Cartesian product $\\mathbb{R}\\times\\{0\\}$\nis equal to $\\mathbb{R}$. This seems to the equation\n$$\\mathbb{R}\\times\\mathbb{R}^0 = \\mathbb{R}^{1+0} = \\mathbb{R}^1 = \\mathbb{R},$$\nalthough the of Cartesian product is nowhere stated. Nevertheless, it is\nsometimes natural to define that the Cartesian product of an empty\ncollection of sets equals to a set with one element; so it may that e.g.\n$\\mathbb{R}^0 = \\{0\\}.$\n\nOne can also consider empty products in categories. It follows directly\nfrom the definition that an object in a category is a of an empty family\nof objects in the category if and only if it is a terminal object of the\ncategory. Sets are a special case of this: in the category of sets the\nsingletons are the terminal objects, so the empty product exists and is\na singleton.",
+  "language": "INFORMAL",
+  "phrase": "Empty Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EmptyProduct"
+    }
+  ],
+  "indexable": true
+}

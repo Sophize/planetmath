@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $C$ and $D$ be two categories with functors $F\\colon C \\to D$ and\n$G\\colon D \\to C$. The functors $F$ and $G$ are an **equivalence of\ncategories** if there are natural isomorphisms\n$FG \\cong {\\mathrm{id}}_D$ and $GF \\cong {\\mathrm{id}}_C$.\n\nNote, $F$ is left adjoint to $G$, and $G$ is right adjoint to $F$ as\n$$\\hom_D(F(c),d) \\stackrel{G}{\\longrightarrow} \\hom_C(GF(c),G(d)) \\longleftrightarrow \\hom_C(c,G(d)).$$\nAnd, $F$ is right adjoint to $G$, and $G$ is left adjoint to $F$ as\n$$\\hom_C(G(d),c) \\stackrel{F}{\\longrightarrow} \\hom_D(FG(d),F(c)) \\longleftrightarrow \\hom_D(d,F(c)).$$\n\nIn practical terms, two categories are equivalent if there is a faithful\nfunctor $F\\colon C \\to D$, such that every object $d \\in D$ is\nisomorphic to an object $F(c)$, for some $c \\in C$.",
+  "language": "INFORMAL",
+  "phrase": "Equivalence Of Categories",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquivalenceOfCategories"
+    }
+  ],
+  "indexable": true
+}

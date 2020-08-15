@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "measurable space"
+  ],
+  "definition": "A [*Borel space*]{} $(X; \\mathcal{B}(X))$ is defined as a set $X$,\ntogether with a Borel $\\mathcal{B}(X)$ of subsets of $X$, called Borel\nsets. The Borel algebra on $X$ is the smallest $\\sigma$-algebra\ncontaining all open sets (or, equivalently, all closed sets if the\ntopology on closed sets is selected).\n\nBorel sets were named after the French mathematician Emile Borel.\n\nA subspace of a Borel space $(X; \\mathcal{B} (X))$ is a subset\n$S \\subset X$ endowed with the relative Borel structure, that is the\n$\\sigma$-algebra of all subsets of $S$ of the form $S \\bigcap E$, where\n$E$ is a Borel subset of $X$.\n\nA *rigid Borel space* $(X_r; \\mathcal{B} (X_r))$ is defined as a Borel\nspace whose only automorphism $f: X_r \\to X_r$ (that is, with $f$ being\na bijection, and also with $f(A) = f^{-1}(A)$ for any\n$A \\in \\mathcal{B}(X_r)$) is the identity function\n$1_{(X_r; \\mathcal{B}(X_r))}$ (ref.[@BA91]).\n\nR. M. Shortt and J. Van Mill provided the first construction of a rigid\nBorel space on a \u2018set of large cardinality\u2019.\n\n[9]{}\n\nM.R. Buneci. 2006., , [*Surveys in Mathematics and its Applications*]{},\nVolume 1: 71\u201398.\n\nB. Aniszczyk. 1991. A rigid Borel space., [*Proceed. AMS.*]{}, 113\n(4):1013-1015., .\n\nA. Connes.1979. Sur la th\u00e9orie noncommutative de l\u2019 integration,\n[*Lecture Notes in Math.*]{}, Springer-Verlag, Berlin, [**725**]{}:\n19-14.",
+  "language": "INFORMAL",
+  "phrase": "Borel Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BorelSpace"
+    }
+  ],
+  "indexable": true
+}

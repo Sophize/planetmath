@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Fibonacci triangle",
+    "Hosoya triangle"
+  ],
+  "definition": "[*Hosoya\u2019s triangle*]{} or the [*Fibonacci triangle*]{} is a triangular\narrangement of numbers (like Pascal\u2019s triangle) based on the Fibonacci\nnumbers. Each number is the sum of the two numbers above in either the\nleft diagonal or the right diagonal. The first few rows are:\n\n$$\\begin{aligned}\n\\begin{array}{cccccccccccccccccc}\n& & & & & & & & & 1 & & & & & & & &\\\\\n& & & & & & & & 1 & & 1 & & & & & & &\\\\\n& & & & & & & 2 & & 1 & & 2 & & & & & &\\\\\n& & & & & & 3 & & 2 & & 2 & & 3 & & & & &\\\\\n& & & & & 5 & & 3 & & 4 & & 3 & & 5 & & & &\\\\\n& & & & 8 & & 5 & & 6 & & 6 & & 5 & & 8 & & &\\\\\n& & & 13 & & 8 & & 10 & & 9 & & 10 & & 8 & & 13 & &\\\\\n& & 21 & & 13 & & 16 & & 15 & & 15 & & 16 & & 13 & & 21 &\\\\\n& & & & &\\vdots & & & & \\vdots & & & & \\vdots& & & & \\\\\n\\end{array}\\end{aligned}$$\n\n(See sequence A058071 in Sloaen\u2019s OEIS). The recurrence relation is\n$H(0, 0) = H(1, 0) = H(1, 1) = H(2, 1) = 1$ and\n$H(n, j) = H(n - 1, j) + H(n - 2, j)$ or\n$H(n, j) = H(n - 1, j - 1) + H(n - 2, j - 2)$.\n\nThus, the two outermost diagonals are the Fibonacci numbers, while the\nnumbers on the middle vertical line are the squares of the Fibonacci\nnumbers. All the other numbers in the triangle are the product of two\ndistinct Fibonacci numbers greater than 1. The row sums are the\nconvolved Fibonacci numbers (A001629 in Sloane\u2019s OEIS).\n\n[2]{} Haruo Hosoya, \u201cFibonacci Triangle\u201d [*The Fibonacci Quarterly*]{}\n[**14**]{} 2 (1976): 173 - 178 Thomas Koshy, [*Fibonacci and Lucas\nNumbers and Applications*]{}. New York: Wiley & Sons (2001): 187 - 195",
+  "language": "INFORMAL",
+  "phrase": "Hosoya'S Triangle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HosoyasTriangle"
+    }
+  ],
+  "indexable": true
+}

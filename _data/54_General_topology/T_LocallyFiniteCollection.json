@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ be a collection of subsets of a topological space $X$.\n\n$\\mathcal{C}$ is said to be *locally finite* if for all $x\\in X$ there\nis a neighbourhood $U$ of $x$ such that $U \\cap A = \\varnothing$ for all\nbut finitely many $A \\in \\mathcal{C}$.\n\nSimilarly, $\\mathcal{C}$ is said to be *locally countable* if for all\n$x\\in X$ there is a neighbourhood $U$ of $x$ such that\n$U \\cap A = \\varnothing$ for all but countably many $A \\in \\mathcal{C}$.",
+  "language": "INFORMAL",
+  "phrase": "Locally Finite Collection",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocallyFiniteCollection"
+    }
+  ],
+  "indexable": true
+}

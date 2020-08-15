@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A **Fredholm equation of the first kind** is an integral equation of the\nform $$\\int_{a}^{b} K(x,y) f(y) dy = g(x), \\quad \\forall x \\in [a,b],$$\nand a **Fredholm equation of the second kind** is an integral equation\nof the form\n$$f(x) - \\lambda\\int_{a}^{b} K(x,y)f(y)dy = g(x), \\quad \\forall x \\in [a, b],$$\nwhere $$Kf(x) = \\int_{a}^{b} K(x,y)f(y)dy, \\quad \\forall x \\in [a, b]$$\nis a compact operator in some function space.",
+  "language": "INFORMAL",
+  "phrase": "Fredholm Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FredholmEquation"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $n$ be a positive integer and define the sets $I_n$, $D_n$, and\n$T_n$ as follows:\n\n-   $I_n=\\{ m \\in \\mathbb{Z}: 1 \\le m \\le n \\}$\n\n-   $D_n=\\{ d \\in I_n: d>1$ and $d|n \\}$\n\n-   $T_n=\\{ t \\in I_n: t$ is a totative of $n \\}$\n\nThen $D_n \\cup T_n=I_n$ if and only if $n=1$, $n=4$, or $n$ is prime.\n\nNecessity:\n\nIf $n=1$, then $D_n=\\emptyset$ and $T_n=\\{1\\}$. Thus,\n$D_n \\cup T_n=I_n$.\n\nIf $n=4$, then $D_n=\\{2,4\\}$ and $T_n=\\{1,3\\}$. Thus,\n$D_n \\cup T_n=I_n$.\n\nIf $n$ is prime, then $D_n=\\{ n \\}$ and $T_n=I_n \\setminus \\{ n \\}$.\nThus, $D_n \\cup T_n=I_n$.\n\nSufficiency:\n\nThis will be proven by considering its contrapositive.\n\nSuppose first that $n$ is a power of $2$. Then $n \\ge 8$. Thus,\n$6 \\in I_n$. On the other hand, $6$ is neither a totative of $n$ (since\n$\\gcd(6,n)=2$) nor a divisor of $n$ (since $n$ is a power of $2$).\nHence, $D_n \\cup T_n \\neq I_n$.\n\nNow suppose that $n$ is even and is not a power of $2$. Let $k$ be a\npositive integer such that $2^k$ exactly divides $n$. Since $n$ is not a\npower of $2$, it must be the case that $n=2^kr$ for some odd integer\n$r \\ge 3$. Thus, $n=2^kr>2^{k+1}$. Therefore, $2^{k+1} \\in I_n$. On the\nother hand, $2^{k+1}$ is neither a totative of $n$ (since $n$ is even)\nnor a divisor of $n$ (since $2^k$ exactly divides $n$). Hence,\n$D_n \\cup T_n \\neq I_n$.\n\nFinally, suppose that $n$ is odd. Let $p$ be the smallest prime divisor\nof $n$. Since $n$ is not prime, it must be the case that $n=ps$ for some\nodd integer $s \\ge 3$. Thus, $n=ps>2p$. Therefore, $2p \\in I_n$. On the\nother hand, $2p$ is neither a totative of $n$ (since $\\gcd(2p,n)=p$) nor\na divisor of $n$ (since $n$ is odd). Hence, $D_n \\cup T_n \\neq I_n$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RelationshipBetweenTotativesAndDivisors"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "relationship between totatives and divisors"
+  ]
+}

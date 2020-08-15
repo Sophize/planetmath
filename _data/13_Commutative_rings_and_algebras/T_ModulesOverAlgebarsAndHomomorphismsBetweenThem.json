@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring and let $A$ be an associative algebra (not necessarily\nunital).\n\n**Definition.** A (left) $A$-module over $R$ is a pair $(M,\\circ)$ where\n$M$ is a (left) $R$-module and $$\\circ:A\\times M\\to M$$ is a\n$R$-bilinear map such that the following conditions hold:\n\n1.  $(a\\circ b)\\circ x=a\\circ(b\\circ x)$\n\n2.  $r(a\\circ x)=(ra)\\circ x=a\\circ(rx)$\n\nfor any $a,b\\in A$, $x\\in M$ and $r\\in R$. We will simply use capital\nletters to denote modules.\n\nLet $M$ be an $A$-module over $R$. If $M'\\subseteq M$ and\n$A'\\subseteq A$ then by $A'M'$ we denote $R$-submodule of $M$ generated\nby elements of the form $am$ for $a\\in A'$ and $m\\in M'$. We will call\n$M$ **unitary** if $AM=M$. Note, that if $A$ has multiplicative identity\n$1$, then $M$ is unitary if and only if $1m=m$ for any $m\\in M$.\n\nThe reason we use name ,,$A$-module over $R$\u201d instead of ,,$A$-module\u201d\nis that these to concepts may differ. The latter means that we treat $A$\nsimply as a ring and take modules over it. But such module need not be\nequiped with a ,,good\u201d $R$-module structure. On the other hand this is\nalways the case, when $M$ is unitary over unital algebra.\n\nIf $M$ and $N$ are two $A$-modules over $R$, then a function $f:M\\to N$\nis called an $A$-homomorphism iff $f$ is an $R$-homomorphism and\nadditionaly $f(am)=af(m)$ for any $a\\in A$ and $m\\in M$.\n\nIt can be easily checked that $A$-modules over $R$ together with\n$A$-homomorphisms form a category which is abelian. Furthermore, if $A$\nis unital, then its full subcategory consisting unitary $R$-modules over\n$A$ is equivalent to category of unitary $A$-modules.\n\nIn most cases it is important to assume that the base ring $R$ is a\nfield, even algebraically closed.",
+  "language": "INFORMAL",
+  "phrase": "Modules Over Algebars And Homomorphisms Between Them",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModulesOverAlgebarsAndHomomorphismsBetweenThem"
+    }
+  ],
+  "indexable": true
+}

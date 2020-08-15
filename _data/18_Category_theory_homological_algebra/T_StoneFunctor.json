@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Stone-functor"
+  ],
+  "definition": "The *Stone-functor* $S: Top^{op} \\rightarrow Boo$ (where $Boo$ is the\nconstruct of boolean algebras and boolean homomorphisms) assigns to each\ntopological space the boolean algebra of its clopen subsets, and for any\ncontinuous map $f: X \\rightarrow Y$; i.e. for any morphism\n$f: Y \\rightarrow X$ in $Top^{op}$, $Sf: S(Y) \\rightarrow S(X)$ is given\nby $Sf(Z) = f^{-1}[Z]$.",
+  "language": "INFORMAL",
+  "phrase": "Stone Functor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StoneFunctor"
+    }
+  ],
+  "indexable": true
+}

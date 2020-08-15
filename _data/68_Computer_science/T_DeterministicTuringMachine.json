@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The formal definition of a deterministic Turing machine is a tuple:\n\n$$T=(Q,\\Sigma,\\Gamma,\\delta,q_0,B,F)$$\n\nWhere $Q$ is a finite set of states, $\\Gamma$ is the finite set of tape\nsymbols, $B\\in\\Gamma$ is the blank symbol, $\\Sigma\\subseteq\\Gamma$ is\nthe set of input symbols,\n$\\delta:Q\\times\\Gamma\\rightarrow Q\\times\\Gamma\\times\\{L,R\\}$ is the move\nfunction, $q_0\\in Q$ is the start state and $F\\subseteq Q$ is the set of\nfinal states. (Note that, despite the name, $\\delta$ is a partial\nfunction which will be undefined for some pairs $(q,A)$.)\n\nA Turing machine is conceived to be a box with a tape and a tape head.\nThe tape consists of an infinite number of cells stretching in both\ndirections, with the tape head always located over exactly one of these\ncells. Each cell has symbol from $\\Gamma$ written on it.\n\nAt the beginning of its computation, $T$ is in state $q_0$ and a finite\nstring $S$ (the input string) over the alphabet $\\Sigma$ is written on\nthe tape, with the tape located over the first letter of $S$. Each cell\nbefore the beginning or after the end of $S$ is blank. For each move, if\nthe current state is $q$ and the value of the cell under the tape head\nis $A$ then suppose $\\delta(q,A)=(q^\\prime, A^\\prime,D)$. The value of\nthe cell under the tape head is changed to $A^\\prime$, the state changes\nto $q^\\prime$, and the tape head moves to the left if $D=L$ and to the\nright if $D=R$. If $\\delta(q,A)$ is undefined then the machine halts.\n\nFor any $S\\in\\Gamma^+$, we say $T$ accepts $S$ if $T$ halts in a state\n$q\\in F$ when $S$ is the input string, that $T$ rejects $S$ if $T$ halts\nin a state $q\\not\\in F$, and otherwise that $T$ does not halt on $S$.\n\nThis definition can easily be extended to multiple tapes with various\nrules. $\\delta$ should be a function from\n$Q\\times\\Gamma^n\\rightarrow\\Gamma^m\\times\\{L,R\\}^n$ where $n$ is the\nnumber of tapes, $m$ is the number of input tapes, and $L$ is\ninterpreted to mean not moving (rather than moving to the left) for\none-way tapes.",
+  "language": "INFORMAL",
+  "phrase": "Deterministic Turing Machine",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DeterministicTuringMachine"
+    }
+  ],
+  "indexable": true
+}

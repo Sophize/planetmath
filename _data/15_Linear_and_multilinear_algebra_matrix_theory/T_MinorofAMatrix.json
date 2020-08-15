@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an $n\\times m$ matrix $A$ with entries $a_{ij}$, a *minor* of $A$\nis the determinant of a smaller matrix formed from its entries by\nselecting only some of the rows and columns. Let\n$K=\\{k_1,k_2,\\ldots,k_p\\}$ and $L=\\{l_1,l_2,\\ldots,l_p\\}$ be subsets of\n$\\{1,2,\\ldots,n\\}$ and $\\{1,2,\\ldots,m\\}$, respectively. The indices are\nchosen such that $k_1 < k_2 < \\cdots < k_p$ and\n$l_1 < l_2 < \\cdots < l_p$. The $p$-th order minor defined by $K$ and\n$L$ is the following determinant\n$$A\\begin{pmatrix} k_1 & k_2 & \\cdots & k_p \\\\\n    l_1 & l_2 & \\cdots & l_p \\end{pmatrix} =\n  \\begin{vmatrix}\n    a_{k_1 l_1} & a_{k_1 l_2} & \\cdots & a_{k_1 l_p} \\\\\n    a_{k_2 l_1} & a_{k_2 l_2} & \\cdots & a_{k_2 l_p} \\\\\n    \\vdots      & \\vdots      & \\ddots & \\vdots      \\\\\n    a_{k_p l_1} & a_{k_p l_2} & \\cdots & a_{k_p k_p}\n  \\end{vmatrix}.$$ If $p$ exceeds either $m$ or $n$, then the minor is\nautomatically zero. When $p=m=n$, the minor is simply the determinant of\nthe matrix. If $K=L$, then the minor is called *principal*. The word\n*minor* may also refer to just the matrix formed from the selected rows\nand columns, not necessarily its determinant. The precise meaning is\nusually clear from context.\n\nThere does not seem to be a standard notation for matrix minors. Another\npossible notation is $[A]_{K,L}$.\n\nSome authors reserve the term *minor* for the case when only one row and\none column are removed. This use is in conjunction with the concept of a\n**.",
+  "language": "INFORMAL",
+  "phrase": "Minor (Of A Matrix)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinorofAMatrix"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $N$ be a natural number. Consider the equation $$x^2+y^2=N$$ Let\n$L(N)$ denote the number of naturals $z \\leq N$ such that the equation\n$x^2+y^2=z$ has at least one integer solution $(x,y)$. The\nLaudau-Ramanujan constant is defined as the limit\n$$\\lim_{N\\rightarrow \\infty} \\frac{L(N)\\sqrt{\\log(N)}}{N}\\approx 0.76422365358922066299069873125$$",
+  "language": "INFORMAL",
+  "phrase": "Landau-Ramanujan Constant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LandauRamanujanConstant"
+    }
+  ],
+  "indexable": true
+}

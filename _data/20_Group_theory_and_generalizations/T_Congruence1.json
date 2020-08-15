@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a semigroup. An equivalence relation $\\sim$ defined on $S$ is\ncalled a *congruence* if it is preserved under the semigroup operation.\nThat is, for all $x, y, z \\in S$, if $x \\sim y$ then $xz \\sim yz$ and\n$zx \\sim zy$.\n\nIf $\\sim$ satisfies only $x \\sim y$ implies $xz \\sim yz$ (resp.\n$zx \\sim zy$) then $\\sim$ is called a *right congruence* (resp. *left\ncongruence*).\n\nSuppose $f: S \\to T$ is a semigroup homomorphism. Define $\\sim$ by\n$x \\sim y$ iff $f(x) = f(y)$. Then it is easy to see that $\\sim$ is a\ncongruence.\n\nIf $\\sim$ is a congruence, defined on a semigroup $S$, write $[x]$ for\nthe equivalence class of $x$ under $\\sim$. Then it is easy to see that\n$[x] \\cdot [y] = [xy]$ is a well-defined operation on the set of\nequivalence classes, and that in fact this set becomes a semigroup with\nthis operation. This semigroup is called the *quotient of $S$ by $\\sim$*\nand is written $S/\\sim$.\n\nThus semigroup are related to homomorphic images of semigroups in the\nsame way that normal subgroups are related to homomorphic images of\ngroups. More precisely, in the group case, the congruence is the coset\nrelation, rather than the normal subgroup itself.",
+  "language": "INFORMAL",
+  "phrase": "Congruence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Congruence1"
+    }
+  ],
+  "indexable": true
+}

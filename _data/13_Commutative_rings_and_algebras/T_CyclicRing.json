@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A ring is a [*cyclic ring* ]{} if its additive group is cyclic.\n\nEvery cyclic ring is commutative under multiplication. For if $R$ is a\ncyclic ring, $r$ is a of the additive group of $R$, and $s,t \\in R$,\nthen there exist $a,b \\in {\\mathbb Z}$ such that $s=ar$ and $t=br$. As a\nresult, $st=(ar)(br)=(ab)r^2=(ba)r^2=(br)(ar)=ts.$ (Note the disguised\nuse of the .)\n\nA result of the is that every ring with squarefree order is a cyclic\nring.\n\nIf $n$ is a positive integer, then, up to isomorphism, there are exactly\n$\\tau (n)$ cyclic rings of order $n$, where $\\tau$ refers to the tau\nfunction. Also, if a cyclic ring has order $n$, then it has exactly\n$\\tau (n)$ subrings. This result mainly follows from Lagrange\u2019s theorem\nand its converse. Note that the converse of Lagrange\u2019s theorem does not\nhold in general, but it does hold for finite cyclic groups.\n\nEvery subring of a cyclic ring is a cyclic ring. Moreover, every subring\nof a cyclic ring is an ideal.\n\n$R$ is a finite cyclic ring of order $n$ if and only if there exists a\npositive divisor $k$ of $n$ such that $R$ is isomorphic to\n$k{\\mathbb Z}_{kn}$. $R$ is an cyclic ring that has no zero divisors if\nand only if there exists a positive integer $k$ such that $R$ is\nisomorphic to $k{\\mathbb Z}$. (See behavior and its attachments for\ndetails.) Finally, $R$ is an cyclic ring that has zero divisors if and\nonly if it is isomorphic to the following subset of\n${\\mathbf M}_{2\\operatorname{x}2}({\\mathbb Z})$:\n\n$\\left\\{ \\left. \\left( \\begin{array}{cc}\nc & -c \\\\\nc & -c \\end{array} \\right) \\right| c \\in {\\mathbb Z} \\right\\}$\n\nThus, any cyclic ring that has zero divisors is a zero ring.\n\n[9]{} Buck, Warren. **. Charleston, IL: Eastern Illinois University,\n2004.\n\nKruse, Robert L. and Price, David T. *Nilpotent Rings*. New York: Gordon\nand Breach, 1969.\n\nMaurer, I. Gy. and Vincze, J. \u201cDespre Inele Ciclice.\u201d *Studia\nUniversitatis Babe\u015f-Bolyai. Series Mathematica-Physica*, vol. 9 \\#1.\nCluj, Romania: Universitatea Babe\u015f-Bolyai, 1964, pp. 25-27.\n\nPeinado, Rolando E. \u201cOn Finite Rings.\u201d *Mathematics Magazine*, vol. 40\n\\#2. Buffalo: The Mathematical Association of America, 1967, pp. 83-85.",
+  "language": "INFORMAL",
+  "phrase": "Cyclic Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CyclicRing"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The below theorem gives three conditions that form alternative\npostulates. It is not hard to show that they hold in the group defined\nordinarily.\n\nLet the non-empty set $G$ satisfy the following three conditions:\\\nI. For every two elements $a$, $b$ of $G$ there is a unique element $ab$\nof $G$.\\\nII. For every three elements $a$, $b$, $c$ of $G$ the equation\n$(ab)c = a(bc)$ holds.\\\nIII. For every two elements $a$ and $b$ of $G$ there exists at least one\nsuch element $x$ and at least one such element $y$ of $G$ that\n$xa = ay = b$.\\\nThen the set $G$ forms a group.\n\n[*Proof.*]{} If $a$ and $b$ are arbitrary elements, then there are at\nleast one such $e_a$ and such $e_b$ that $e_aa = a$ and $be_b = b$.\nThere are also such $x$ and $y$ that $xb = e_a$ and $ay = e_b$. Thus we\nhave\n$$e_a = xb = x(be_b) = (xb)e_b = e_ae_b = e_a(ay) = (e_aa)y = ay = e_b,$$\ni.e. there is a unique neutral element $e$ in $G$. Moreover, for any\nelement $a$ there is at least one couple $a'$, $a''$ such that\n$a'a = aa'' = e$. We then see that\n$$a' = a'e = a'(aa'') = (a'a)a'' = ea'' = a'',$$ i.e. $a$ has a unique\nneutralizing element $a'$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternativeDefinitionOfGroup"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "alternative definition of group"
+  ]
+}

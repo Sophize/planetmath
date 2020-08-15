@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "canonical homomorphism",
+    "natural homomorphism"
+  ],
+  "definition": "**Proposition.** If $H$ is a normal subgroup of a group $G$, then the\nmapping\n$$\\varphi\\!:\\, G \\to G/H \\quad \\mbox{where} \\quad \\varphi(x) \\;=\\; xH \\;\\; \\forall x \\in G$$\nis a surjective homomorphism whose kernel is $H$.\\\n*Proof.* Because every coset appears as image, the mapping $\\varphi$ is\nsurjective. It is also homomorphic, since for all elements $x,\\,y$ of\n$G$, one has\n$$\\varphi(xy) \\;=\\; (xy)H \\;=\\; xH\\!\\cdot\\!yH \\;=\\; \\varphi(x)\\varphi(y).$$\nThe identity element of the factor group $G/H$ is the coset $eH = H$,\nwhence\n$$\\operatorname{ker}(\\varphi) \\;=\\; \\{x \\in G\\,\\vdots\\;\\; \\varphi(x) \\,=\\, H\\} \\;=\\; \\{x \\in G\\,\\vdots\\;\\; xH \\,=\\, H\\}\n \\;=\\; H.$$\\\nThe mapping $\\varphi$ in the proposition is called *natural projection*\nor *canonical homomorphism*.",
+  "language": "INFORMAL",
+  "phrase": "Natural Projection",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NaturalProjection"
+    }
+  ],
+  "indexable": true
+}

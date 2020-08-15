@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "opposite category",
+    "opposite",
+    "opposite morphism"
+  ],
+  "definition": "Let $\\mathcal{C}$ be a category. The *dual category* $\\mathcal{C}^{*}$\nof $\\mathcal{C}$ is the category which has the same objects as\n$\\mathcal{C}$, but in which all morphisms are \u201creversed\u201d. That is to say\nif $A,B$ are objects of $\\mathcal{C}$ and we have a morphism\n$f: A \\to B$, then we formally define an arrow $f^{*}: B \\to A$ in\n$\\mathcal{C}^{*}$. $f^*$ is called the *opposite arrow*, or *opposite\nmorphism* of $f$. The composition $f^{*}\\circ g^{*}$ is then defined to\nbe $(g\\circ f)^{*}$. The dual category is sometimes called the *opposite\ncategory* and is denoted $\\mathcal{C}^{\\operatorname{op}}$.\n\nThe category of Hopf algebras over a field $k$ is (equivalent to) the\nopposite category of affine group schemes over $\\operatorname{spec} k$.\n\nCategorical properties of $\\mathcal{C}$ lead directly to categorical\nproperties of $\\mathcal{C}^{\\operatorname{op}}$; constructions on\n$\\mathcal{C}$ become constructions on $\\mathcal{C}^{\\operatorname{op}}$.\nUsually such a construction is indicated with the prefix \u201cco-\u201d. For\nexample, a coproduct is a product on the opposite category; this can be\nseen by looking at the commutative diagram that completely specifies a\ncoproduct, and noting that it is the same as the diagram specifying a\nproduct with the arrows reversed. More generally, an inverse limit is a\ndirect limit on the opposite category; for this reason, it is sometimes\ncalled a colimit. A cokernel is a kernel in the opposite category. Many\nother similar concepts exist.\n\nIf $F$ is a covariant functor from $\\mathcal{C}$ to some other category\n$\\mathcal{D}$, then we can define, in a natural way, a contravariant\nfunctor $F^{\\operatorname{op}}$ from $C^{\\operatorname{op}}$ to $D$,\ncalled the *opposite functor* of $F$. In fact, this is often how\ncontravariant functors are defined, and it is why most categorical\ntheorems and constructions need not explicitly consider both cases.",
+  "language": "INFORMAL",
+  "phrase": "Dual Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DualCategory"
+    }
+  ],
+  "indexable": true
+}

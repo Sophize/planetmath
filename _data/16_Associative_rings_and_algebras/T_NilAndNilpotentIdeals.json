@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An element $x$ of a ring is *nilpotent* if $x^n = 0$ for some positive\ninteger $n$.\n\nA ring $R$ is *nil* if every element in $R$ is nilpotent. Similarly, a\none- or two-sided ideal is called *nil* if each of its elements is\nnilpotent.\n\nA ring $R$ \\[resp. a one- or two sided ideal $A$\\] is *nilpotent* if\n$R^n = 0$ \\[resp. $A^n = 0$\\] for some positive integer $n$.\n\nA ring or an ideal is *locally nilpotent* if every finitely generated\nsubring is nilpotent.\n\nThe following implications hold for rings (or ideals):\n\n$$\\text{nilpotent} \\quad\\Rightarrow \\text{locally nilpotent} \\quad\\Rightarrow \\text{nil}$$",
+  "language": "INFORMAL",
+  "phrase": "Nil And Nilpotent Ideals",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NilAndNilpotentIdeals"
+    }
+  ],
+  "indexable": true
+}

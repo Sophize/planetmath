@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A subgraph $B$ of a graph $G$ is a *block of* $G$ if either it is a\nbridge (together with the vertices incident with the bridge) or else it\nis a maximal 2-connected subgraph of $G$.\n\nAny two blocks of a graph $G$ have at most one vertex in common. Also,\nevery vertex belonging to at least two blocks is a cutvertex of $G$,\nand, conversely, every cutvertex belongs to at least two blocks.",
+  "language": "INFORMAL",
+  "phrase": "Block",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Block"
+    }
+  ],
+  "indexable": true
+}

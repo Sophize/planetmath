@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $A$ is a square matrix depending on a real parameter $t$ taking\nvalues in an open set $I\\subseteq {\\mathbbmss{R}}$. Further, suppose all\ncomponent functions in $A$ are differentiable, and $A(t)$ is invertible\nfor all $t$. Then, in $I$, we have\n$$\\frac{dA^{-1}}{dt}=-A^{-1} \\frac{dA}{dt} A^{-1},$$ where\n$\\frac{d}{dt}$ is the derivative.\n\nSuppose $a_{ij}(t)$ are the component functions for $A$, and $a^{jk}(t)$\nare component functions for $A^{-1}(t)$. Then for each $t$ we have\n$$\\sum_{j=1}^n a_{ij}(t) a^{jk}(t)=\\delta_i^k$$ where $n$ is the order\nof $A$, and $\\delta_i^k$ is the Kronecker delta symbol. Hence\n$$\\sum_{j=1}^n \\frac{da_{ij}}{dt} a^{jk} + a_{ij}\\frac{da^{jk}}{dt} = 0,$$\nthat is, $$\\frac{dA}{dt} A^{-1} = - A \\frac{dA^{-1}}{dt}$$ from which\nthe claim follows.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivativeOfInverseMatrix"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "derivative of inverse matrix"
+  ]
+}

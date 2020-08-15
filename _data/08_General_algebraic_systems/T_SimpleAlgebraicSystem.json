@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "simple"
+  ],
+  "definition": "An algebraic system $A$ is *simple* if the only congruences on it are\n$A\\times A$ and $\\Delta$, the diagonal relation.\n\nFor example, let\u2019s find out what are the simple algebras in the class of\ngroups. Let $G$ be a group that is simple in the sense defined above.\n\nFirst, what are the congruences on $G$? A congruence $C$ on $G$ is a\nsubgroup of $G\\times G$ and an equivalence relation on $G$ at the same\ntime. As an equivalence relation, $C$ corresponds to a partition of $G$\nin the following manner: $G=\\bigcup_{i\\in I} N_i$ and\n$C=\\bigcup_{i\\in I} N_i^2$, where $N_i\\cap N_j=\\varnothing$ for\n$i\\ne j$. Each of the $N_i$ is an equivalence class of $C$. Let $N$ be\nthe equivalence class containing $1$. If $a,b\\in N$, then $[a]=[b]=[1]$,\nso that $[ab]=[a][b]=[1][1]=[1]$, or $ab\\in N$. In addition,\n$[a^{-1}]=[1][a^{-1}]=[a][a^{-1}]=[aa^{-1}]=[1]$, so $a^{1}\\in N$. $N$\nis a subgroup of $G$. Furthermore, if $c\\in G$,\n$[cac^{-1}]=[c][a][c^{-1}]= [c][1][c^{-1}]= [cc^{-1}]=[1]$, so that\n$cac^{-1}\\in N$, $N$ is a normal subgroup of $G$. Conversely, given a\nnormal subgroup $N$ of $G$, forming left (right) cosets $N_i$ of $N$,\nand taking $C=\\bigcup_{i\\in I} N_i^2$ gives us the congruence $C$ on\n$G$.\n\nNow, if $G$ is simple, then this says that the only congruences on $G$\nare $G\\times G$ and $\\Delta$, which corresponds to $G$ having $G$ and\n$\\langle 1\\rangle$ as the only normal subgroups. So, $G$ as a simple\nalgebra is just a simple group. Conversely, if $G$ is a simple group,\nthen the only congruences on $G$ are those corresponding to $G$ and\n$\\langle 1\\rangle$, the only normal subgroups of $G$. Therefore, a\nsimple group is a simple algebra.\n\n**Remark**. Any simple algebraic system is subdirectly irreducible.",
+  "language": "INFORMAL",
+  "phrase": "Simple Algebraic System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimpleAlgebraicSystem"
+    }
+  ],
+  "indexable": true
+}

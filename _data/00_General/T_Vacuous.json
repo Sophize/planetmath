@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "vacuously",
+    "vacuously true",
+    "vacuous truth"
+  ],
+  "definition": "Suppose $X$ is a set and $P$ is a property defined as follows:\n$$\\begin{aligned}\n& &  \\mbox{$X$ has property $P$ if and only if} \\\\\n& &  \\mbox{$\\forall Y[$ $Y$ satisfies condition $1] \\Rightarrow$ $Y$ satisfies condition $2$ }\\end{aligned}$$\nwhere condition $1$ and condition $2$ define the property. If condition\n$1$ is never satisfied then $X$ satisfies property $P$ *vacuously*.\n\n### Examples {#examples .unnumbered}\n\n1.  If $X$ is the set $\\{1,2,3\\}$ and $P$ is the property defined as\n    above with condition $1=$ $Y$ is a infinite subset of $X$, and\n    condition $2=$ $Y$ contains $7$. Then $X$ has property $P$ vacously;\n    every infinite subset of $\\{1,2,3\\}$ contains the number $7$\n    [@wiki].\n\n2.  The empty set is a Hausdorff space (vacuously).\n\n3.  Suppose property $P$ is defined by the statement:\\\n    *The present King of France does not exist.*\\\n    Then either of the following propositions is satisfied vacuously.\\\n    *The present king of France is bald.*\\\n    *The present King of France is not bald.*\n\n[9]{} Wikipedia .",
+  "language": "INFORMAL",
+  "phrase": "Vacuous",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Vacuous"
+    }
+  ],
+  "indexable": true
+}

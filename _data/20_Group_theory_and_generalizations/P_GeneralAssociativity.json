@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If an associative binary operation of a set $S$ is denoted by \u201c$\\cdot$\u201d,\nthe associative law in $S$ is usually expressed as\n$$(a\\!\\cdot\\!b)\\!\\cdot\\!c = a\\!\\cdot\\!(b\\!\\cdot\\!c),$$ or leaving out\nthe dots, $(ab)c = a(bc)$. Thus the common value of both may be denoted\nas $abc$. With four elements of $S$ we can , using only the\nassociativity, as follows:\n$$(ab)(cd) = a(b(cd)) = a((bc)d)= (a(bc))d = ((ab)c)d$$ So we may denote\nthe common value of those five expressions as $abcd$.\n\nThe expression formed of elements $a_1$, $a_2$, \u2026, $a_n$ of $S$ . The\ncommon value is denoted by $a_1a_2\\ldots a_n$.\n\n**Note.** The $n$ elements can be joined, without changing their , in\n$\\frac{(2n-2)!}{n!(n-1)!}$ ways (see the Catalan numbers).\n\nThe theorem is proved by induction on $n$. The cases $n = 3$ and $n = 4$\nhave been stated above.\n\nLet $n \\in \\mathbb{Z}_+$. The expression $aa \\ldots a$ with $n$ equal\n\u201cfactors\u201d $a$ may be denoted by $a^n$ and called a [*power*]{} of $a$.\nIf the associative operation is denoted \u201cadditively\u201d, then the \u201csum\u201d\n$a\\!+\\!a\\!+\\cdots+\\!a$ of $n$ equal elements $a$ is denoted by $na$ and\ncalled a [*multiple*]{} of $a$; hence in every ring one may consider\npowers and multiples. According to whether $n$ is an even or an odd\nnumber, one may speak of [*even powers*]{}, [*odd powers*]{}, [*even\nmultiples*]{}, [*odd multiples*]{}.\n\nThe following two laws can be proved by induction:\n$$a^m\\cdot a^n = a^{m+n}$$ $$(a^m)^n = a^{mn}$$ In notation:\n$$ma\\!+\\!na = (m\\!+\\!n)a,$$ $$n(ma) = (mn)a$$\n\n**Note.** If the set $S$ together with its operation is a group, then\nthe notion of multiple $na$ resp. power $a^n$ can be extended for\nnegative integer and zero values of $n$ by means of the inverse and\nidentity elements. The above laws remain in .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralAssociativity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "general associativity"
+  ]
+}

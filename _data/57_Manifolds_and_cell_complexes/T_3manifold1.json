@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In this brief note we define and give instances of the notion of a\n3-manifold.\n\nA *3-manifold* is a Hausdorff topological space which is locally\nhomeomorphic to the Euclidean space ${\\mathbb{R}}^3$.\n\nOne can see from simple constructions the great variety of objects that\nindicate how they are worth to study.\n\nFirst examples without boundary:\n\n1.  For example, with the Cartesian product we can get:\n\n    -   $S^2\\times S^1$\n\n    -   ${\\mathbb{R}}P^2\\times S^1$\n\n    -   $T\\times S^1$\n\n    -   $K\\times S^1$\n\n    where $S^1$ and $S^2$ are the 1- and 2-dimensional spheres\n    respectively, $T$ is a torus, $K$ a Klein bottle, and\n    $\\mathbb{R}P^2$ is the 2-dimensional real projective space.\n\n2.  Also by the generalization of the Cartesian product: *fiber\n    bundles*, one can build bundles $E$ of the type\n    $$F\\subset E\\to S^1$$ where $F$ is any closed surface.\n\n3.  Or interchanging the roles, bundles as: $$S^1\\subset E\\to F$$\n\n4.  knots and links complements\n\nFor the second type it is known that for each *isotopy class* $[\\phi]$\nof maps $F\\to F$ correspond to an unique bundle $E_{\\phi}$. Any\nhomeomorphism $f:F\\to F$ representing the isotopy class $[\\phi]$ is\ncalled a *monodromy* for $E_{\\phi}$.\n\nFrom the previous paragraph we infer that the *mapping class group* play\na important role in the understanding at least for this subclass of\nobjets.\n\nFor the third class above one can use an *orbifold* instead of a simple\nsurface to get a class of 3-manifolds called *Seifert fiber spaces*\nwhich are a large class of spaces needed to understand the modern\nclassifications for 3-manifolds.\n\n[**References**]{}\n\n-   J.C. G\u00f3mez-Larra\u00f1aga. [*3-manifolds which are unions of three solid\n    tori*]{}, Manuscripta Math. 59 (1987), 325-330.\n\n-   J.C. G\u00f3mez-Larra\u00f1aga, F.J. Gonz\u00e1lez-Acu\u00f1a, J. Hoste. [*Minimal\n    Atlases on 3-manifolds*]{}, Math. Proc. Camb. Phil. Soc. 109 (1991),\n    105-115.\n\n-   J. Hempel. [*3-manifolds*]{}, Princeton University Press 1976.\n\n-   P. Orlik. [*Seifert Manifolds*]{}, Lecture Notes in Math. 291, 1972\n    Springer-Verlag.\n\n-   P. Scott. [*The geometry of 3-manifolds*]{}, Bull. London Math. Soc.\n    15 (1983), 401-487.",
+  "language": "INFORMAL",
+  "phrase": "3-Manifold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/3manifold1"
+    }
+  ],
+  "indexable": true
+}

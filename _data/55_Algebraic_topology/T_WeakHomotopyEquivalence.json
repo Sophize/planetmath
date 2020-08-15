@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "weak equivalence"
+  ],
+  "definition": "A continuous map ${f:{X\\rightarrow Y}}$ between path-connected based\ntopological spaces is said to be a [*weak homotopy equivalence*]{} if\nfor each $k\\ge 1$ it induces an isomorphism\n${f_*:{\\pi_k(X)\\rightarrow \\pi_k(Y)}}$ between the $k$th homotopy\ngroups. $X$ and $Y$ are then said to be [*weakly homotopy\nequivalent.*]{}\n\nIt is [*not*]{} enough for $\\pi_k(X)$ to be isomorphic to $\\pi_k(Y)$ for\nall $k.$ The definition requires these isomorphisms to be induced by a\nspace-level map $f.$\n\nMore generally, two spaces $X$ and $Y$ are defined to be weakly homotopy\nequivalent if there is a sequence of spaces and maps\n$$X \\to X_1 {\\leftarrow}X_2 \\to X_3 {\\leftarrow}\\cdots \\to X_n {\\leftarrow}Y$$\nin which each map is a weak homotopy equivalence.",
+  "language": "INFORMAL",
+  "phrase": "Weak Homotopy Equivalence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeakHomotopyEquivalence"
+    }
+  ],
+  "indexable": true
+}

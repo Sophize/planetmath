@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "$G \\subset {\\mathbb{C}}^n$ is pseudoconvex if and only if for any family\nof closed analytic discs $\\{ d_{\\alpha} \\}_{\\alpha \\in I}$ in $G$ with\n$\\cup_{\\alpha \\in I} \\partial d_\\alpha$ being a relatively compact set\nin $G$ then $\\cup_{\\alpha \\in I} d_\\alpha$ is also a relatively compact\nset in $G$.\n\nThis is the analogue of one of the definitions of a convex set. Just\nreplace pseudoconvex with convex and closed analytic discs with closed\nline segments.\n\n[9]{} M. Salah Baouendi, Peter Ebenfelt, Linda Preiss Rothschild.\n[**]{}, Princeton University Press, Princeton, New Jersey, 1999.\nSteven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence, Rhode\nIsland, 1992.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Kontinuitatssatz"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kontinuit\\\"atssatz",
+    "Hartogs Kontinuit\\\"atssatz",
+    "Kontinuitatssatz"
+  ]
+}

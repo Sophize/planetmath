@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a commutative ring and $E$ an extension ring of it. If\n$\\alpha \\in E$ and commutes with all elements of $R$, then the smallest\nsubring of $E$ containing $R$ and $\\alpha$ is denoted by $R[\\alpha]$. We\nsay that $R[\\alpha]$ is obtained from $R$ by adjoining $\\alpha$ to $R$\nvia [*ring adjunction*]{}.\n\nBy the about \u201cevaluation homomorphism\u201d,\n$$R[\\alpha] = \\{f(\\alpha)\\mid \\, f(X)\\in R[X]\\},$$ where $R[X]$ is the\npolynomial ring in one indeterminate over $R$. Therefore, $R[\\alpha]$\nconsists of all expressions which can be formed of $\\alpha$ and elements\nof the ring $R$ by using additions, subtractions and multiplications.\n\n**Examples:** The polynomial rings $R[X]$, the ring $\\mathbb{Z}[i]$ of\nthe Gaussian integers, the ring $\\mathbb{Z}[\\frac{-1+i\\sqrt{3}}{2}]$ of\nEisenstein integers.",
+  "language": "INFORMAL",
+  "phrase": "Ring Adjunction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RingAdjunction"
+    }
+  ],
+  "indexable": true
+}

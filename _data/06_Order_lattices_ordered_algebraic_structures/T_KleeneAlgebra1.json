@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "This entry concerns a Kleene algebra that is defined as a lattice\nsatisfying certain conditions. There is another of Kleene algebra, which\nis the abstraction of the algebra of regular expressions in the theory\nof computations. The two concepts are different. For Kleene algebras of\nthe second kind, please see this .\n\nA lattice $L$ is said to be a *Kleene algebra* if it is a De Morgan\nalgebra (with the associated unary operator $\\sim$ on $L$) such that\n$(\\sim a\\wedge a)\\le (\\sim b\\vee b)$ for all $a,b\\in L$.\n\nAny Boolean algebra $A$ is a Kleene algebra, if the complementation\noperator $'$ is interpreted as $\\sim$. This is true because\n$a'\\wedge a=0\\le 1=b'\\vee b$ for all $a, b\\in A$. The converse is not\ntrue. For example, consider the chain\n$\\mathbf{n}=\\lbrace 0,1,\\ldots,n\\rbrace$, with the usual ordering.\nDefine $\\sim$ by $\\sim(k)=n-k$. Then it is easy to see that $\\sim$\nsatisfies all the defining conditions of a De Morgan algebra. In\naddition, since every $a,b\\in \\mathbf{n}$ are comparable, say $a\\le b$,\nthen $(\\sim a\\wedge a)\\le a\\le b\\le (\\sim b\\vee b)$. And if $b\\le a$ on\nthe other hand, then $\\sim a\\le\\ \\sim b$ so that\n$(\\sim a\\wedge a)\\le\\ \\sim a\\le\\ \\sim b\\le (\\sim b\\vee b)$. But\n$\\mathbf{n}$ is not Boolean, as $a\\vee b$ is never $n$ unless one of\nthem is.\n\n**Remark**. As Boolean algebras are the algebraic realizations of the\nclassical two-valued propositional logic, Kleene algebras are the\nrealizations of a three-valued propositional logic, where the three\ntruth values can be described as true ($2$), false ($0$), and unknown\n($1$). Just as $\\lbrace 0,1\\rbrace$ is the simplest Boolean algebra (it\nis a simple algebra), $\\lbrace 0,1,2\\rbrace$ is the simplest Kleene\nalgebra, where $\\sim$ is defined the same way as in the example above.\n\n[6]{} G. Gr\u00e4tzer, [*General Lattice Theory*]{}, 2nd Edition, Birkh\u00e4user\n(1998)",
+  "language": "INFORMAL",
+  "phrase": "Kleene Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KleeneAlgebra1"
+    }
+  ],
+  "indexable": true
+}

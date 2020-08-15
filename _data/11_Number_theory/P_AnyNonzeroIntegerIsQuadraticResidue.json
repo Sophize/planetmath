@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** For every nonzero integer $a$ there exists an odd prime\nnumber $p$ such that $a$ is a quadratic residue modulo $p$.\n\n[*Proof.*]{} $1^\\circ.$ $a = 2$. We see that $3^2 \\equiv 2 \\pmod7$ and\n$7 \\nmid 2$, whence 2 is a quadratic residue modulo $7$.\\\n$2^\\circ.$ $2 \\mid a$ but $a \\neq 2$. The number $1^2-a = 1-a$ (which is\nodd and $\\neq \\pm1$) has an odd prime factor $p$ which does not divide\n$a$. Thus $a$ is a quadratic residue modulo $p$.\\\n$3^\\circ.$ $a = 3$. We state that $4^2-3 = 13 \\equiv 0 \\pmod{13}$ and\n$13 \\nmid 3$. Therefore 3 is a quadratic residue modulo 13.\\\n$4^\\circ.$ $a = 5$. We see that $4^2-5 = 11 \\equiv 0 \\pmod{11}$ and\n$11 \\nmid 5$, i.e. 5 is a quadratic residue modulo 11.\\\n$5^\\circ.$ $2 \\nmid a$ but $a \\neq 3$, $a \\neq 5$. Now the number\n$2^2-a = 4-a$ (which is odd and $\\neq \\pm1$) has an odd prime factor\n$p$. Moreover, $p \\nmid a$ since $p \\nmid 4$. Accordingly, $a$ is a\nquadratic residue modulo $p$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnyNonzeroIntegerIsQuadraticResidue"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "any nonzero integer is quadratic residue"
+  ]
+}

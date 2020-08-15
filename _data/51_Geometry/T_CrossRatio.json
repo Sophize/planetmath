@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "cross-ratio"
+  ],
+  "definition": "The *cross ratio* of the points $a$, $b$, $c$, and $d$ in\n$\\mathbb{C}\\cup\\{\\infty\\}$ is denoted by $[a, b, c, d\\,]$ and is defined\nby $$[a, b, c, d\\,] = \\frac{a-c}{a-d}\\cdot\\frac{b-d}{b-c}.$$ Some\nauthors denote the cross ratio by $(a, b, c, d)$.\n\nExamples {#examples .unnumbered}\n========\n\nThe cross ratio of $1$, $i$, $-1$, and $-i$ is\n$$\\frac{1-(-1)}{1-(-i)}\\cdot\\frac{i-(-i)}{i-(-1)}\n=\\frac{4i}{(1+i)^2}=2.$$\n\nThe cross ratio of $1$, $2i$, $3$, and $4i$ is\n$$\\frac{1-3}{1-4i}\\cdot\\frac{2i-4i}{2i-3}\n=\\frac{4i}{5+14i}\n=\\frac{56+20i}{221}.$$\n\nProperties {#properties .unnumbered}\n==========\n\n1.  The cross ratio is invariant under M\u00f6bius transformations and\n    projective transformations. This fact can be used to determine\n    distances between objects in a photograph when the distance between\n    certain reference points is known.\n\n2.  The cross ratio $[a, b, c, d\\,]$ is real if and only if $a$, $b$,\n    $c$, and $d$ lie on a single circle on the Riemann sphere.\n\n3.  The function\n    $T:\\mathbb{C}\\cup\\lbrace \\infty \\rbrace \\to\\mathbb{C}\\cup\\lbrace \\infty\\rbrace$\n    defined by $$T(z) = [z, b, c, d\\,]$$ is the unique M\u00f6bius\n    transformation which sends $b$ to $1$, $c$ to $0$, and $d$ to\n    $\\infty$.\n\n[1]{} Ahlfors, L., *Complex Analysis*. McGraw-Hill, 1966. Beardon, A.\nF., *The Geometry of Discrete Groups*. Springer-Verlag, 1983. Henle, M.,\n*Modern Geometries: Non-Euclidean, Projective, and Discrete*.\nPrentice-Hall, 1997 \\[2001\\].",
+  "language": "INFORMAL",
+  "phrase": "Cross Ratio",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CrossRatio"
+    }
+  ],
+  "indexable": true
+}

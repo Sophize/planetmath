@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Wiener process"
+  ],
+  "definition": "One-dimensional *Brownian motion* is a stochastic process $W(t)$,\ndefined for $t\\in [0,\\infty)$ such that\n\n1.  $W(0) = 0$ almost surely\n\n2.  The sample paths $t \\mapsto W(t)$ are almost surely continuous.\n\n3.  For any finite sequence of times $t_0 < t_1 < \\cdots <t_n$, the\n    increments\n    $$W(t_1)-W(t_0), W(t_2)-W(t_1), \\dotsc, W(t_n)-W(t_{n-1})$$ are\n    independent.\n\n4.  For any times $s < t$, $W(t)-W(s)$ is normally distributed with mean\n    zero and variance $t-s$.\n\nA $d$-dimensional Brownian motion is a stochastic process\n$W(t) = (W_1(t), \\dots, W_d(t))$ in $\\mathbb{R}^d$ whose coordinate\nprocesses $W_i(t)$ are independent one-dimensional Brownian motions.\n\n![Sample paths of a standard Brownian motion](brownian.eps)",
+  "language": "INFORMAL",
+  "phrase": "Brownian Motion",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BrownianMotion"
+    }
+  ],
+  "indexable": true
+}

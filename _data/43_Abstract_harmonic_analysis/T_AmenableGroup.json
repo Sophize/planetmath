@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a locally compact group and $L^\\infty(G)$ be the Banach space\nof all essentially bounded functions $G \\to {\\mathbb{R}}$ with respect\nto the Haar measure.\n\nA linear functional on $L^\\infty(G)$ is called a **mean** if it maps the\nconstant function $f(g) = 1$ to 1 and non-negative functions to\nnon-negative numbers.\n\nLet $L_g$ be the left action of $g \\in G$ on $f \\in L^\\infty(G)$,\ni.e.\u00a0$(L_g f)(h) = f(g^{-1}h)$. Then, a mean $\\mu$ is said to be **left\ninvariant** if $\\mu(L_g f) = \\mu(f)$ for all $g \\in G$ and\n$f \\in L^\\infty(G)$. Similarly, **right invariant** if\n$\\mu(R_g f) = \\mu(f)$, where $R_g$ is the right action\n$(R_g f)(h) = f(hg)$.\n\nA locally compact group $G$ is **amenable** if there is a left (or\nright) invariant mean on $L^\\infty(G)$.\n\nAll finite groups and all abelian groups are amenable. Compact groups\nare amenable as the Haar measure is an (unique) invariant mean.\n\nIf a group contains a free (non-abelian) subgroup on two generators then\nit is not amenable.",
+  "language": "INFORMAL",
+  "phrase": "Amenable Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AmenableGroup"
+    }
+  ],
+  "indexable": true
+}

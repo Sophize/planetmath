@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Gray code"
+  ],
+  "definition": "An $n$-bit binary *Gray code* is a non-repeating sequence of the\nintegers from $0$ to $2^n-1$ inclusive such that the binary\nrepresentation of each number in the sequence differs by exactly one bit\nfrom the binary representation of the previous number: that is, the\nHamming distance between consecutive elements is $1$. In addition, we\nalso define a *cyclic Gray code* to be a Gray code where an extra\ncondition is imposed: The last number in the sequence must differ by\nexactly one bit from the first number in the sequence.\n\nFor example, one $3$-bit cyclic Gray code is:\n\n$$000_2$$ $$010_2$$ $$011_2$$ $$001_2$$ $$101_2$$ $$111_2$$ $$110_2$$\n$$100_2$$\n\nThere is a one-to-one correspondence between all possible $n$-bit Gray\ncodes and all possible Hamiltonian cycles on an $n$-dimensional\nhypercube. (To see why this is so, imagine assigning a binary number to\neach vertex of a hypercube where an edge joins each pair of vertices\nthat differ by exactly one bit.)",
+  "language": "INFORMAL",
+  "phrase": "Binary Gray Code",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BinaryGrayCode"
+    }
+  ],
+  "indexable": true
+}

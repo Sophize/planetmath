@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $$\\begin{aligned}\n\\dot{x}_1 &=& f_1(x_1,\\ldots,x_n)\\\\\n& \\vdots & \\\\\n\\dot{x}_n &=& f_n(x_1,\\ldots,x_n)\\end{aligned}$$ be a system of first\norder ordinary differential equation. The $x_j$ *nullcline* is the set\nof points which satisfy $f_j(x_1,\\ldots,x_n)=0$. Note that at an\nintersection point of all the nullclines implies that $$\\begin{aligned}\n0 &=& f_1(x_1,\\ldots,x_n)\\\\\n& \\vdots & \\\\\n0 &=& f_n(x_1,\\ldots,x_n).\\end{aligned}$$ Hence the intersection point\nof all the nullclines is an equilibrium point of the system.\\\n\\\n**example:**\n\n-   see some qualitative analysis of FitzHugh-Nagumo equation using\n    nullclines",
+  "language": "INFORMAL",
+  "phrase": "Nullcline",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Nullcline"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "exponential distribution"
+  ],
+  "definition": "$X$ is a *exponential random variable* with parameter $\\lambda>0$ if its\nprobability density function is given for $x>0$ by\n\n$$\\begin{aligned}\nf_X(x) = \\lambda e^{-\\lambda x}.\\end{aligned}$$\n\nTo denote this, one usually writes $X\\sim Exp(\\lambda)$.\n\nFor an exponential random variable $X$:\n\n1.  $X$ is commonly used to model lifetimes and duration between Poisson\n    events.\n\n2.  The expected value of $X$ is given by $E[X] = \\frac{1}{\\lambda}$\n\n3.  The variance of $X$ is given by $Var[X] = \\frac{1}{\\lambda^2}$\n\n4.  The moments of $X$ are given by\n    $M_X(t) = \\frac{\\lambda}{\\lambda - t}$\n\n5.  It is interesting to note that $X$ is a gamma random variable with\n    an $\\alpha$ parameter of 1.",
+  "language": "INFORMAL",
+  "phrase": "Exponential Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExponentialRandomVariable"
+    }
+  ],
+  "indexable": true
+}

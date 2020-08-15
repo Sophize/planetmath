@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Sigma$ be an alphabet. As usual, $\\Sigma^+$ denotes the set of all\nnon-empty words over $\\Sigma$. Let $P\\subset \\Sigma^+ \\times \\Sigma^+$\nbe finite. Call a finite sequence $$(u_1,v_1),\\ldots, (u_n,v_n)$$ of\npairs in $P$ a *correspondence* in $P$ if\n$$u_1\\cdots u_n = v_1\\cdots v_n.$$ The word $u_1\\cdots u_n$ is called a\n*match* in $P$.\n\nFor example, if $\\Sigma=\\lbrace a,b\\rbrace$, and\n$P=\\lbrace (b,b^2), (a^2,a), (b^2a,b^3), (ab^2,a^2b) \\rbrace$. Then\n$$(a^2,a), (ab^2,a^2b), (b^2a,b^3), (ab^2,a^2b), (b,b^2)$$ is a\ncorrespondence in $P$.\n\nOn the other hand, there are no correspondences in\n$\\lbrace (ab, a), (a, ba^2)\\rbrace$.\n\nThe Post correspondence problem asks the following:\n\n> Is there an algorithm (Turing machine or any other equivalent\n> computing models) such that when an arbitrary $P$ is given as an\n> input, returns $1$ if there exists a correspondence in $P$ and $0$\n> otherwise.\n\nThe problem is named after E. Post because he proved\n\nThe Post correspondence problem is unsolvable (no such algorithms\nexist).",
+  "language": "INFORMAL",
+  "phrase": "Post Correspondence Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PostCorrespondenceProblem"
+    }
+  ],
+  "indexable": true
+}

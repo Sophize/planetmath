@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a plane curve, we may associate to each point on the curve an\northonormal basis consisting of the unit normal tangent vector and the\nunit normal. In general, different points will have different bases\nassociated to them, so we may ask how the basis depends upon the choice\nof point. The Serret-Frenet equations answer this question by relating\nthe rte of change of the basis vectors to the curvature of the curve.\n\nSuppose $I$ is an open interval and $c\\colon I \\to {\\mathbbmss{R}}^2$ is\na twice continuously differentiable curve such that $\\Vert c'\\Vert = 1$.\nLet us then define the *tangent vecto[r]{}* and *normal vecto[r]{}* as\n$$\\begin{aligned}\n   {\\mathbf{T}}&=& c', \\\\\n   {\\mathbf{N}}&=& J \\cdot {\\mathbf{T}},\\end{aligned}$$ where\n$J=\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}$ is the rotational\nmatrix that rotates the plane $90$ degrees counterclockwise.\n\n### Curvature {#curvature .unnumbered}\n\nDifferentiating $\\langle c',c'\\rangle=1$ yields\n$\\langle {\\mathbf{T}}',{\\mathbf{T}}\\rangle=0$, so ${\\mathbf{T}}'$ is in\nthe orthogonal complement of ${\\mathbf{T}}$, which is $1$-dimensional.\nSince $J\\cdot {\\mathbf{T}}$ is also in the orthogonal complement, it\nfollows that there exists a function\n$\\kappa\\colon I \\to {\\mathbbmss{R}}$ such that\n$${\\mathbf{T}}'=\\kappa J \\cdot {\\mathbf{T}}.$$ Furthermore, $\\kappa$ is\nuniquely determined by this equation. We define this unique $\\kappa$ to\nbe the *curvatur[e]{}* of $c$. Explicitly,\n$$\\kappa = \\langle {\\mathbf{T}}',J \\cdot {\\mathbf{T}}\\rangle.$$\n\n### Serret-Frenet equations {#serret-frenet-equations .unnumbered}\n\nBy the definition of curvature $$\\begin{aligned}\n  {\\mathbf{T}}'&=& \\kappa J\\cdot {\\mathbf{T}}= \\kappa {\\mathbf{N}}\\end{aligned}$$\nand so $$\\begin{aligned}\n  {\\mathbf{N}}'&=& J\\cdot {\\mathbf{T}}' \n      = \\kappa J {\\mathbf{N}}= -\\kappa {\\mathbf{T}}\\end{aligned}$$ since\n$J^2=-\\operatorname{I}$. These are the *Serret-Frenet* equations\n$$\\begin{aligned}\n   \\begin{pmatrix} {\\mathbf{T}}\\\\ {\\mathbf{N}}\\end{pmatrix}' = \n   \\begin{pmatrix} 0 & \\kappa \\\\ -\\kappa & 0 \\end{pmatrix}\n\\begin{pmatrix} {\\mathbf{T}}\\\\ {\\mathbf{N}}\\end{pmatrix}.\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Serret-Frenet Equations In $\\Mathbb{R}^2$",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SerretFrenetEquationsInmathbbR2"
+    }
+  ],
+  "indexable": true
+}

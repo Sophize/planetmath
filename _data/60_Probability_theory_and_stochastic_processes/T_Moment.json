@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Moments*\\\n\nGiven a random variable $X$, the **$k$th moment** of $X$ is the value\n$E[X^k]$, if the expectation exists.\\\n\\\nNote that the expected value is the first moment of a random variable,\nand the variance is the second moment minus the first moment squared.\\\n\nThe $k$th moment of $X$ is usually obtained by using the moment\ngenerating function.\n\n*Central moments*\\\n\nGiven a random variable $X$, the **$k$th central moment** of $X$ is the\nvalue $E\\big[(X-E[X])^k\\big]$, if the expectation exists. It is denoted\nby $\\mu_k$.\\\n\\\nNote that the $\\mu_1=0$ and $\\mu_2=Var[X]=\\sigma^2$. The third central\nmoment divided by the standard deviation cubed is called the *skewness*\n$\\tau$: $$\\tau=\\frac{\\mu_3}{\\sigma^3}$$ The skewness measures how\n\u201csymmetrical\u201d, or rather, how \u201cskewed\u201d, a distribution is with respect\nto its mode. A non-zero $\\tau$ means there is some degree of skewness in\nthe distribution. For example, $\\tau>0$ means that the distribution has\na longer positive tail.\n\nThe fourth central moment divided by the fourth power of the standard\ndeviation is called the *kurtosis* $\\kappa$:\n$$\\kappa=\\frac{\\mu_4}{\\sigma^4}$$ The kurtosis measures how \u201cpeaked\u201d a\ndistribution is compared to the standard normal distribution. The\nstandard normal distribution has $\\kappa=3$. $\\kappa<3$ means that the\ndistribution is \u201cflatter\u201d than then standard normal distribution, or\n*platykurtic*. On the other hand, a distribution with $\\kappa>3$ can be\ncharacterized as being more \u201cpeaked\u201d than $N(0,1)$, or *leptokurtic*.",
+  "language": "INFORMAL",
+  "phrase": "Moment",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Moment"
+    }
+  ],
+  "indexable": true
+}

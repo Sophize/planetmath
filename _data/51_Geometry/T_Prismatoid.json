@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *prismatoid* is a polyhedron, possibly not convex, whose vertices all\nlie in one or the other of two parallel planes. The perpendicular\ndistance between the two planes is called the *altitude* of the\nprismatoid. The faces that lie in the parallel planes are called the\n*bases* of the prismatoid. The *midsection* is the polygon formed by\ncutting the prismatoid by a plane parallel to the bases halfway between\nthem.\n\nThe volume of a prismatoid is given by the *prismoidal formula*:\n\n$$V = \\frac{1}{6} h(B_1 + B_2 + 4M)$$ where $h$ is the altitude, $B_1$\nand $B_2$ are the areas of the bases and $M$ is the area of the\nmidsection.\n\nAn alternate formula is :\n\n$$V = \\frac{1}{4}h ( B_1 + 3S)$$ where $S$ is the area of the polygon\nthat is formed by cutting the prismatoid by a plane parallel to the\nbases but 2/3 of the distance from $B_1$ to $B_2$.\n\nA proof of the prismoidal formula for the case where the prismatoid is\nconvex is in [@Br]. It is also proved in [@Ha] for any prismatoid. The\nalternate formula is proved in [@Ha].\n\nSome authors impose the condition that the lateral faces must be\ntriangles or trapezoids. However, this condition is unnecessary since it\nis easily shown to hold.\n\n[99]{} A. Day Bradley, Prismatoid, Prismoid, Generalized Prismoid, *The\nAmerican Math. Monthly,* **86**, (1979), 486-490. G.B. Halsted,\n*Rational Geometry: A textbook for the Science of Space. Based on\nHilbert\u2019s Foundations*, second edition, John Wiley and Sons, New York,\n1907",
+  "language": "INFORMAL",
+  "phrase": "Prismatoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Prismatoid"
+    }
+  ],
+  "indexable": true
+}

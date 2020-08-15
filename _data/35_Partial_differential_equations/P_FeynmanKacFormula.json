@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X_t$ be the $n$-dimensional It\u014d process satisfying the stochastic\ndifferential equation $$dX_t = \\mu(X_t) \\, dt + \\sigma(X_t) \\, dW_t$$\nand let $A$ be its infinitesimal generator.\n\nFurther suppose that $q$ is a lower-bounded continuous function on\n${\\mathbb{R}}^n$, and $f$ is a twice-differentiable function on\n${\\mathbb{R}}^n$ with compact support. Then\n$$u(t,x) = {\\mathbb{E}}\\bigl[ e^{-\\int_0^t q(X_s) \\, ds} \\, f(X_t) \\mid X_0 = x \\bigr]\\,,\n\\quad t\\geq 0\\,, x \\in {\\mathbb{R}}^n$$ is a solution to the partial\ndifferential equation\n$${\\frac{\\partial u}{\\partial t}} = Au(x) - uq(x)$$ with initial\ncondition $u(0, x) = f(x)$.\n\n(The expectation for $u$ is to be taken with respect to the probability\nmeasure under which $W_t$ is a Brownian motion.)\n\n[9]{} Bernt \u00d8ksendal. [*, An Introduction with Applications*]{}. 5th\ned., Springer 1998. Hui-Hsiung Kuo. [*Introduction to Stochastic\nIntegration*]{}. Springer 2006.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FeynmanKacFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Feynman-Kac formula"
+  ]
+}

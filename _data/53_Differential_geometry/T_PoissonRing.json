@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Poisson ring* $A$ is a commutative ring on which a binary operation\n$[,]$, known as the Poisson bracket is defined. This operation must\nsatisfy the following identities:\n\n1.  $[f,g] = -[g,f]$\n\n2.  $[f + g, h] = [f,h] + [g,h]$\n\n3.  $[fg,h] = f[g,h] + g[f,h]$\n\n4.  $[f,[g,h]] + [g,[h,f]] + [h,[f,g]] = 0$\n\nIf, in addition, $A$ is an algebra over a field, then we call $A$ a\n*Poisson algebra*. In this case, we may wish to add the extra\nrequirement $$[sf,g] = s[f,g]$$ for all scalars $s$.\n\nBecause of properties 2 and 3, for each $g \\in A$, the operation $ad_g$\ndefined as $ad_g(f) = [f,g]$ is a derivation. If the set\n$\\{ ad_g | g \\in A \\}$ generates the set of derivations of $A$, we say\nthat $A$ is *non-degenerate*.\n\nIt can be shown that, if $A$ is non-degenerate and is isomorphic as a\ncommutative ring to the algebra of smooth functions on a manifold $M$,\nthen $M$ must be a symplectic manifold and $[,]$ is the Poisson bracket\ndefined by the symplectic form.\n\nMany important operations and results of symplectic geometry and\nHamiltonian mechanics may be formulated in terms of the Poisson bracket\nand, hence, apply to Poisson algebras as well. This observation is\nimportant in studying the classical limit of quantum mechanics \u2014 the\nnon-commutative algebra of operators on a Hilbert space has the Poisson\nalgebra of functions on a symplectic manifold as a singular limit and\nproperties of the non-commutative algebra pass over to corresponding\nproperties of the Poisson algebra.\n\nIn addition to their use in mechanics, Poisson algebras are also used in\nthe study of Lie groups.",
+  "language": "INFORMAL",
+  "phrase": "Poisson Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PoissonRing"
+    }
+  ],
+  "indexable": true
+}

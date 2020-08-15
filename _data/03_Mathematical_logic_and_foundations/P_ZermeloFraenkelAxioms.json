@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Ernst Zermelo and Abraham Fraenkel proposed the following axioms as a\nfor what is now called Zermelo-Fraenkel set theory, or ZF. If this set\nof axioms are accepted along with the Axiom of Choice, it is often\ndenoted ZFC.\n\n-   *Equality of sets*: If $X$ and $Y$ are sets, and $x \\in X$ iff\n    $x \\in Y$, then $X = Y$.\n\n-   *Pair set*: If $X$ and $Y$ are sets, then there is a set $Z$\n    containing only $X$ and $Y$.\n\n-   *over a set*: If $X$ is a set, then there exists a set that contains\n    every element of each $x \\in X$.\n\n-   **: If $X$ is a set, then there exists a set $\\mathcal{P}(x)$ with\n    the property that $Y \\in \\mathcal{P}(x)$ iff any element $y \\in Y$\n    is also in $X$.\n\n-   *Replacement axiom*: Let $F(x,y)$ be some formula. If, for all $x$,\n    there is exactly one $y$ such that $F(x,y)$ is true, then for any\n    set $A$ there exists a set $B$ with the property that $b \\in B$ iff\n    there exists some $a \\in A$ such that $F(a,b)$ is true.\n\n-   **: Let $F(x)$ be some formula. If there is some $x$ that makes\n    $F(x)$ true, then there is a set $Y$ such that $F(Y)$ is true, but\n    for no $y \\in Y$ is $F(y)$ true.\n\n-   *Existence of an infinite set*: There exists a non-empty set $X$\n    with the property that, for any $x \\in X$, there is some $y \\in X$\n    such that $x \\subseteq y$ but $x \\neq y$.\n\n-   **: If $X$ is a set and $P$ is a condition on sets, there exists a\n    set $Y$ whose members are precisely the members of $X$ satisfying\n    $P$. (This axiom is also occasionally referred to as the **).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZermeloFraenkelAxioms"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Zermelo-Fraenkel axioms",
+    "Zermelo-Fraenkel set theory",
+    "ZFC",
+    "ZF"
+  ]
+}

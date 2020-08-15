@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "first quartile",
+    "third quartile",
+    "IQR"
+  ],
+  "definition": "Given a distribution function $F_X$ of a random variable $X$, on a\nprobability space $(\\Omega, B, P)$ a *$p^{\\text{th}}$-percentile* of\n$F_X$ for a given real number $p$, is a real number $r$ such that\n\n1.  $\\displaystyle P(X\\leq r)\\geq \\frac{p}{100},$\n\n2.  $\\displaystyle P(X\\geq r)\\geq 1-\\frac{p}{100}.$\n\n**Remarks**.\n\n-   The most common percentiles of a distribution function are the (the\n    $50^{\\text{th}}$-percentile or the second quartile), the *lower\n    quartile* (the $25^{\\text{th}}$-percentile or the first quartile),\n    and the *upper quartile* (the $75^{\\text{th}}$-percentile or the\n    third quartile).\n\n-   In practice, the quartiles are calculated as follows: calculate the\n    median $m$ first, then the median of the data points below $m$ is\n    the first quartile, and the median of the data points above $m$ is\n    the third quartile.\n\n-   The interval between the first quartile and the third quartile is\n    called the *interquartile range*, or *IQR* for short. Sometimes, the\n    difference between the first and third quartiles is also called the\n    IQR. Like standard deviation, IQR is a measure of dispersion.\n    However, IQR is a more robust statistic.",
+  "language": "INFORMAL",
+  "phrase": "Percentile",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Percentile"
+    }
+  ],
+  "indexable": true
+}

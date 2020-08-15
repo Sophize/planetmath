@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If the function series $$\\begin{aligned}\n\\sum_{n=1}^\\infty f_n(x)\\end{aligned}$$ is uniformly convergent on the\ninterval $[a,\\,b]$, on which the $f_n(x)$ are continuous from the right\nor from the left, then the sum function $S(x)$ of the series has the\nsame property.\\\n[*Proof.*]{} Suppose that the terms $f_n(x)$ are continuous from the\nright. Let $\\varepsilon$ be any positive number and\n$$S(x) \\;:=\\; S_n(x)+R_{n+1}(x),$$ where $S_n(x)$ is the $n^\\mathrm{th}$\npartial sum of (1) ($n \\,=\\, 1,\\,2,\\,\\ldots$). The uniform convergence\nimplies the existence of a number $n_\\varepsilon$ such that on the whole\ninterval we have\n$$|R_{n+1}(x)| < \\frac{\\varepsilon}{3} \\quad \\mathrm{when}\\;\\; n > n_\\varepsilon.$$\nLet now $n > n_\\varepsilon$ and $x_0,\\, x_0\\!+\\!h \\in [a,\\,b]$ with\n$h > 0$. Since every $f_n(x)$ is continuous from the right in $x_0$, the\nsame is true for the finite sum $S_n(x)$, and therefore there exists a\nnumber $\\delta_\\varepsilon$ such that\n$$|S_n(x_0\\!+\\!h)-S_n(x_0)| < \\frac{\\varepsilon}{3} \\quad \\mathrm{when}\\;\\; 0 < h < \\delta_\\varepsilon.$$\nThus we obtain that $$\\begin{aligned}\n|S(x_0\\!+\\!h)-S(x_0)| & \\;=\\; |[S_n(x_0\\!+\\!h)-S_n(x_0)]+R_{n+1}(x_0\\!+\\!h)-R_{n+1}(x_0|\\\\\n                      & \\;\\leqq\\; |S_n(x_0\\!+\\!h)-S_n(x_0)|+|R_{n+1}(x_0\\!+\\!h)|+|R_{n+1}(x_0)|\\\\\n                      & \\;<\\; \\frac{\\varepsilon}{3}\\!+\\!\\frac{\\varepsilon}{3}\\!+\\!\\frac{\\varepsilon}{3} \\;=\\; \\varepsilon\\end{aligned}$$\nas soon as $$0 < h < \\delta_\\varepsilon.$$ This means that $S$ is\ncontinuous from the right in an arbitrary point $x_0$ of $[a,\\,b]$.\n\nAnalogously, one can prove the assertion concerning the continuity from\nthe left.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OnesidedContinuityBySeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "one-sided continuity by series",
+    "one-sided continuity of series with terms one-sidedly continuous"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given $n$, the prime factorization of $n!$ can be obtained by applying\n[*de Polignac\u2019s formula*]{}:\n$$\\prod_{i = 1}^{\\pi(n)} {p_i}^{\\displaystyle \\sum_{j = 1}^{\\lfloor \\log_{p_i} n \\rfloor} \\lfloor \\frac{n}{{p_i}^j} \\rfloor},$$\nwhere $p_i$ is the $i$th prime and $\\pi(n)$ is the prime counting\nfunction. For both the product and the summation, the iterator\u2019s end\nvalue can be set to infinity and the formula is still correct. When\n$n < {p_i}^j$, dividing the former by the latter gives a value that\nfloors to zero, and then ${p_i}^0 = 1$. And when $i > \\pi(n)$ then all\n$j$ give zero in the summation, and the multiplicand for the product is\nalso 1. It is for the sake of a computer implementation that it is\nnecessary to stop the iterations when they no longer give useful\nresults.\n\nA small disadvantage of de Polignac\u2019s formula is that it is necessary to\nknow all the primes up to $n$. If the implementation mistakenly iterates\nthrough a composite value, the error might not be detected, while even\nwith a dumb implementation of trial division (e.g., one that tries odd\ncomposite values) the worst that can happen is that time is wasted by\ntrying to divide by a composite value whose prime factors have already\nbeen divided out of the factorial.\n\nLet\u2019s work out an example: factoring 10!. The primes less than 10 are 2,\n3, 5 and 7. The base 2 logarithm of 10 is approximately 3.32, meaning we\nonly need to divide and floor up to 2\u2019s cube. Half 10 is 5, a quarter of\n10 is 2.5 and an eighth of 10 is 1.25; adding up the integer parts of\nthese gives us 8, so the exponent for 2 in the factorization of 10! is\n8. The base 3 logarithm of 10 is approximately 2.0959. A third of 10 is\nabout 3.3333 and a ninth of 10 is about 1.1111; the integer parts of\nthese added up gives 4, so the exponent for 3 in the factorization is 4.\nFor both bases 5 and 7, the logarithm of 10 is more than 1 but less than\n2. 10 divided by 5 is 2, so that\u2019s our exponent for 5. 10 divided by 7\nis about 1.42857, so 1 is our exponent for 7. Then we verify that indeed\n$2^8 \\times 3^4 \\times 5^2 \\times 7^1 = 3628800 = 10!$",
+  "language": "INFORMAL",
+  "phrase": "De Polignac'S Formula",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DePolignacsFormula"
+    }
+  ],
+  "indexable": true
+}

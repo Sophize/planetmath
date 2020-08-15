@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $S$ be an inverse semigroup and $X$ a set. An inverse semigroup\nhomomorphism $\\phi:S\\rightarrow{\\mathfrak{I}}(X)$, where\n${\\mathfrak{I}}(X)$ denotes the symmetric inverse semigroup, is called a\n*representation* of $S$ by bijective partial maps on $X$. The\nrepresentation is said to be *faithful* if $\\phi$ is a monomorphism,\ni.e. it is injective.\n\nGiven $s\\in S$, we define $\\rho_s\\in{\\mathfrak{I}}(S)$ as the bijective\npartial map with domain\n$${\\mathrm{dom}}(\\rho_s)=Ss^{-1}={\\left\\{ ts^{-1}\\,|\\,t\\in S \\right\\}}$$\nand defined by $$\\rho_s(t)=ts,\\ \\ \\forall t\\in {\\mathrm{dom}}(\\rho_s).$$\nThen the map $s\\mapsto\\rho_s$ is a representation called the\n*Wagner-Preston representation* of $S$. The following result, due to\nWagner and Preston, is analogous to the Cayley representation theorem\nfor groups.\\\n\nThe Wagner-Preston representation of an inverse semigroup is faithful.\n\n[9]{} N. Petrich, *Inverse Semigroups*, Wiley, New York, 1984. G.B.\nPreston, *Representation of inverse semi-groups*, J. London Math. Soc.\n29 (1954), 411-419.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WagnerPrestonRepresentationTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Wagner-Preston representation theorem"
+  ]
+}

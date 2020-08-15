@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A class of $L$-structures $S$ has the [*amalgamation property*]{} if and\nonly if whenever $A,B_{1},B_{2} \\in S$ and $f_{i}:A \\ra B_{i}$ are\nelementary embeddings for $i \\in \\{1,2\\}$ then there is some $C \\in S$\nand some elementary embeddings $g_{i}:B_{i} \\ra C$ for $i \\in \\{1,2\\}$\nso that $g_{1}(f_{1}(x))=g_{2}(f_{2}(x))$ for all $x \\in A$. That is,\nthe following diagram commutes.\n\n$$\\xymatrix{\n& {A} \\ar[dl]_{f_1} \\ar[dr]^{f_2} & \\\\\n{B_1} \\ar[dr]_{g_1} & & {B_2} \\ar[dl]^{g_2} \\\\\n& {C} & \n}$$\n\nCompare this with the free product with amalgamated subgroup for groups\nand the definition of pushout there.",
+  "language": "INFORMAL",
+  "phrase": "Amalgamation Property",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AmalgamationProperty"
+    }
+  ],
+  "indexable": true
+}

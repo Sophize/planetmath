@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A curve $\\alpha : [a, b] \\rightarrow \\mathbb{R}^{n}$ is said to be\n**piecewise smooth** if each component $\\alpha_{1}, \\ldots, \\alpha_{n}$\nof $\\alpha$ has a bounded derivative\n$\\alpha_{i}' \\quad (i = 1, \\ldots, n)$ which is continuous everywhere in\n$[a, b]$ except (possibly) at a finite number of points at which left-\nand right-sided derivatives exist.\n\n-   Every piecewise smooth curve is rectifiable.\n\n-   Every rectifiable curve can be approximated by piecewise smooth\n    curves.",
+  "language": "INFORMAL",
+  "phrase": "Piecewise Smooth",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PiecewiseSmooth"
+    }
+  ],
+  "indexable": true
+}

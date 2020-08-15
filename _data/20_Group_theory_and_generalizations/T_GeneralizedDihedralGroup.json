@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "generalised dihedral group"
+  ],
+  "definition": "Let $A$ be an abelian group. The *generalized dihedral group*\n$\\operatorname{Dih}(A)$ is the semidirect product $A\\semidirect C_2$,\nwhere $C_2$ is the cyclic group of order $2$, and the of $C_2$ maps\nelements of $A$ to their inverses.\n\nIf $A$ is cyclic, then $\\operatorname{Dih}(A)$ is called a dihedral\ngroup. The finite dihedral group $\\operatorname{Dih}(C_n)$ is commonly\ndenoted by $D_n$ or $D_{2n}$ (the differing conventions being a source\nof confusion). The infinite dihedral group\n$\\operatorname{Dih}(C_\\infty)$ is denoted by $D_\\infty$, and is\nisomorphic to the free product $C_2*C_2$ of two cyclic groups of order\n$2$.\n\nIf $A$ is an elementary abelian $2$-group, then so is\n$\\operatorname{Dih}(A)$. If $A$ is not an elementary abelian $2$-group,\nthen $\\operatorname{Dih}(A)$ is non-abelian.\n\nThe subgroup $A\\times\\{1\\}$ of $\\operatorname{Dih}(A)$ is of index $2$,\nand every element of $\\operatorname{Dih}(A)$ that is not in this\nsubgroup has order $2$. This property in fact characterizes generalized\ndihedral groups, in the sense that if a group $G$ has a subgroup $N$ of\nindex $2$ such that all elements of the complement $G\\setminus N$ are of\norder $2$, then $N$ is abelian and $G\\cong \\operatorname{Dih}(N)$.",
+  "language": "INFORMAL",
+  "phrase": "Generalized Dihedral Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedDihedralGroup"
+    }
+  ],
+  "indexable": true
+}

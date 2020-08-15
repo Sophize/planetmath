@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(X,\\mathscr{S},\\mu)$ be a probability space and let\n$f\\colon X\\to X$ be a measure preserving transformation.\n\nFor any $E\\in \\mathscr{S}$, the set of those points $x$ of $E$ such that\n$f^n(x)\\notin E$ for all $n>0$ has zero measure. That is, almost every\npoint of $E$ returns to $E$. In fact, almost every point returns\ninfinitely often; i.e.\n$$\\mu\\left(\\{x\\in E:\\textnormal{ there exists } N \\textnormal{\nsuch that }f^n(x)\\notin E \\textnormal{ for all } n>N\\}\\right)=0.$$\n\nThe following is a topological version of this theorem:\n\nIf $X$ is a second countable Hausdorff space and $\\mathscr{S}$ contains\nthe Borel sigma-algebra, then the set of recurrent points of $f$ has\nfull measure. That is, almost every point is recurrent.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PoincareRecurrenceTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Poincar\\'e recurrence theorem"
+  ]
+}

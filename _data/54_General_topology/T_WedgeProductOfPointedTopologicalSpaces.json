@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "wedge",
+    "wedge product"
+  ],
+  "definition": "[**Definition.**]{} Let $\\{(X_i,x_i)\\}_{i\\in I}$ be a finite family of\ndisjoint pointed topological spaces. The *wedge product* of these spaces\nis\n\n$$\\bigvee_{i\\in I} X_i = \\left(\\bigcup_{i\\in I} X_i\\right) / \\{x_i: i\\in I\\}.$$\n\nThis can be generalized to arbitrary families of pointed topological\nspaces, although this may require that the topology on\n$\\bigcup_{i\\in I} X_i$ satisfy a coherence condition (see [@Munkres]).\n\n[9]{} Munkres, J. R. (2000). *Topology* (2nd. ed.). Upper Saddle River,\nNJ: Prentice Hall. Prasolov, V. V. (2004). *Elements of combinatorial\nand differential topology*. Providence, RI: American Mathematical\nSociety. Shick, P. L. (2007). *Topology: Point-set and geometric*.\nHoboken, NJ: John Wiley & Sons.",
+  "language": "INFORMAL",
+  "phrase": "Wedge Product Of Pointed Topological Spaces",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WedgeProductOfPointedTopologicalSpaces"
+    }
+  ],
+  "indexable": true
+}

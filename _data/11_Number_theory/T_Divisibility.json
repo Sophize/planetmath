@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "divides",
+    "divisor",
+    "factor",
+    "multiple"
+  ],
+  "definition": "Given integers $a$ and $b$, then we say $a$ *divides* $b$ if and only if\nthere is some $q \\in \\mathbb{Z}$ such that $b=qa$.\n\nThere are many other ways in common use to express this relationship:\n\n-   $a\\mid b$ (read \u201c$a$ divides $b$\u201d).\n\n-   $b$ is divisible by $a$.\n\n-   $a$ is a factor of $b$.\n\n-   $a$ is a divisor of $b$.\n\n-   $b$ is a *multiple* of $a$.\n\nThe notion of divisibility can apply to other rings (e.g., polynomials).",
+  "language": "INFORMAL",
+  "phrase": "Divisibility",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Divisibility"
+    }
+  ],
+  "indexable": true
+}

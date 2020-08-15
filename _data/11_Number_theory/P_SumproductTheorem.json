@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $\\mathbb{F}$ is a finite field. Then given a subset $A$ of\n$\\mathbb{F}$ we define the *sum* of $A$ to be the set\n$$A+A=\\{a+b:a,b\\in A\\}$$ and the product to be the set\n$$A\\cdot A=\\{a\\cdot b:a,b\\in A\\}.$$ We concern ourselves with estimating\nthe size of $A+A$ and $A\\cdot A$ relative to the size of $A$, and\nultimately also to the size of $\\mathbb{F}$.\n\nIf $A$ is empty then $A+A$ is empty as is $A\\cdot A$ and so\n$|A|=|A+A|=|A\\cdot A|$. Now suppose $A$ is non-empty then let $a\\in A$.\nThen $$a+A=\\{a+b:b\\in A\\}\\subset A+A$$ so $|A|\\leq |A+A|$. If $A=\\{0\\}$\nthen $A\\cdot A=A$ so finally assume $a\\in A$, $a\\neq 0$. Then we have\n$$a\\cdot A=\\{a\\cdot b:b\\in A\\}\\subset A\\cdot A$$ so in any case it\nalways follows that $$\\label{eq:lower}\n   |A|\\leq |A+A|, |A\\cdot A|.$$\n\nNow if $\\mathbb{F}$ has a proper subfield $\\mathbb{F}_0$ \u2013 for instance\n$\\mathbb{F}=GF(p^2)$ and $\\mathbb{F}_0=GF(P)$ \u2013 then setting\n$A=\\mathbb{F}_0$ makes $A=A+A=A\\cdot A$ and so in this situation the\nbound in (\\[eq:lower\\]) is tight, that is, $|A|=|A+A|=|A\\cdot A|$. So we\ninsist now that $\\mathbb{F}$ is a prime field, so it has no proper\nsubfields.\n\nWe would like to understand what size $A$ must have to ensure that\neither $A+A$ or $A\\cdot A$ is larger than $A$. (Note this is not the\nsame as asking if $A\\neq A+A$ or $A\\cdot A$ as we are concerned only\nwith growth in size not the change in the elements of the set.) Clearly\n$A=\\{0\\}$ fails, as does $A=\\mathbb{F}$ and with some intuition as\nguidance it is safe to presume that $A$ must be large enough to have\nenough elements to produce many elements as a sum or product but also\nsmall enough that these these new elements outgrow the size of $A$. This\nis the content of the following important result.\n\nLet $\\mathbb{F}=\\mathbb{Z}_p$ be the field of prime order $p$. Let $A$\nbe any subset of $\\mathbb{F}$ such that\n$$|\\mathbb{F}|^{\\delta} < |A| < |\\mathbb{F}|^{1-\\delta}$$ for some\n$\\delta>0$. Then $$\\max\\{|A+A|,|A\\cdot A|\\}\\geq C |A|^{1+\\varepsilon}$$\nfor some $\\varepsilon>0$ which depends on $\\delta$ and some constant $C$\nwhich also depends on $\\delta$.\n\nThe proof is non-trivial. Jean Bourgain was awarded the Fields\u2019 medal in\n1994, Terence Tao in 2006 with the prize in part due to his various\ncontributions in additive number theory.\\\n\\",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SumproductTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "sum-product theorem",
+    "Sum-product estimate"
+  ]
+}

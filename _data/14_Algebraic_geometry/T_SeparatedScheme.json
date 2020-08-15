@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A scheme $X$ is defined to be a [*separated scheme*]{} if the morphism\n$$d: X \\to X \\times_{{\\operatorname{Spec}}{\\mathbb{Z}}} X$$ into the\nfibre product $X \\times_{{\\operatorname{Spec}}{\\mathbb{Z}}} X$ which is\ninduced by the identity maps $i: X {\\longrightarrow}X$ in each\ncoordinate is a closed immersion.\n\nNote the similarity to the definition of a Hausdorff topological space.\nIn the situation of topological spaces, a space $X$ is Hausdorff if and\nonly if the diagonal morphism $X {\\longrightarrow}X \\times X$ is a\nclosed embedding of topological spaces. The definition of a separated\nscheme is very similar, except that the topological product is replaced\nwith the scheme fibre product.\n\nMore generally, if $X$ is a scheme over a base scheme $Y$, the scheme\n$X$ is defined to be *separated* over $Y$ if the diagonal embedding\n$$d: X \\to X \\times_{Y} X$$ is a closed immersion.",
+  "language": "INFORMAL",
+  "phrase": "Separated Scheme",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SeparatedScheme"
+    }
+  ],
+  "indexable": true
+}

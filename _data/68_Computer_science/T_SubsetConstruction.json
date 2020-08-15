@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "powerset construction"
+  ],
+  "definition": "The subset construction is a technique of turning a non-deterministic\nautomaton into a deterministic one, while keeping the accepting language\nthe same. This technique shows that an NDFA is no more powerful in terms\nof word acceptance than a DFA.\n\nWe begin by looking at a semiautomaton $(S,\\Sigma,\\delta)$. The\ntransition function $\\delta$ is a function from $S\\times \\Sigma$ to\n$P(S)$, which maps a pair $(s,a)$ to a subset $\\delta(s,a)$ of $S$.\nObserve that $\\delta$ can be extended to a function $\\delta'$ from\n$P(S)\\times \\Sigma$ to $P(S)$ by setting\n$$\\delta'(T,a):=\\bigcup \\lbrace \\delta(t,a)\\mid t\\in T\\rbrace$$ for any\nsubset $T$ of $S$ and $a\\in \\Sigma$. Note that\n$\\delta'(\\varnothing,a)=\\varnothing$. What we have just done is turning\na semiautomaton $(S,\\Sigma,\\delta)$ into a deterministic semiautomaton\n$(S',\\Sigma,\\delta')$, where $S'=P(S)$, the powerset of $S$.\n\nIt is easy to see, by induction on the length of $u$, that\n$\\delta'(T,u)=\\bigcup \\lbrace \\delta(t,u)\\mid t\\in T\\rbrace$.\n\nNext, given an NDFA $A=(S,\\Sigma,\\delta,I,F)$, we turn it into a DFA\n$A':=(S',\\Sigma,\\delta',I',F')$ as follows:\n\n-   $(S',\\Sigma,\\delta')$ is derived from $(S,\\Sigma,\\delta)$ by the\n    construction above,\n\n-   $I'=I$, and\n\n-   $F'=\\lbrace T\\subseteq S\\mid T\\cap F\\ne \\varnothing\\rbrace$.\n\nSince $I'$ is an element of $S'=P(S)$, and $F'\\subseteq S'$, $A'$ is a\nwell-defined DFA.\n\n$L(A)=L(A')$.\n\n$u\\in L(A)$ iff $\\delta(q,u)\\cap F\\ne \\varnothing$ (where $q\\in I$) iff\n$\\delta'(I,u) \\in F'$ iff $u\\in L(A')$.\n\nWhat happens if the NDFA in question contains ? Suppose\n$p\\stackrel{\\epsilon}{\\rightarrow} q$ is an $\\epsilon$-transition, and\n$p\\ne q$. Then\n$\\delta'(\\lbrace p \\rbrace,\\epsilon) = \\lbrace q\\rbrace \\ne \\lbrace p\\rbrace$,\nwhich is not allowed in a DFA.\n\nTo get around this difficulty, we make a small modification on $A'$.\nFirst, define, for any $T\\subseteq S$, the *$\\epsilon$-closure*\n$C_{\\epsilon}(T)$ of $T$ as the set\n$$C_{\\epsilon}(T):=\\lbrace t \\mid t \\in \\delta'(T,\\epsilon^k), k\\ge 0 \\rbrace$$\nFor any $T\\subseteq S$, $\\delta'(C_{\\epsilon}(T),a)=C_{\\epsilon}(T)$. If\nthe automaton does not contain any $\\epsilon$-transitions, then\n$C_{\\epsilon}(T)=T$.\n\nNow, let NDFA $A$ be an , define $A'':=(S',\\Sigma,\\delta'',I'',F'')$ as\nfollows:\n\n-   $S'=P(S)$,\n\n-   $\\delta''(T,a)= \\delta'(C_{\\epsilon}(T),a)$, where $\\delta'$ is\n    defined in (1) above,\n\n-   $I''=C_{\\epsilon}(I)$, and\n\n-   $F''=\\lbrace T\\subseteq S\\mid C_{\\epsilon}(T)\\cap F\\ne \\varnothing\\rbrace$.\n\nBy definition, $A''$ is a DFA, and it can be shown that $L(A'')=L(A)$.\nThe proof is very similar to the one given .",
+  "language": "INFORMAL",
+  "phrase": "Subset Construction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubsetConstruction"
+    }
+  ],
+  "indexable": true
+}

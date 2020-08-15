@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\tau$ be a signature and $\\varphi$ be a sentence over $\\tau$. A\n$\\mathcal{M}$ for $\\tau$ is called a *model* of $\\varphi$ if\n$$\\mathcal{M}\\models \\varphi,$$ where $\\models$ is the satisfaction\nrelation. When $\\mathcal{M}\\models \\varphi$, we says that $\\varphi$\n*satisfies* $\\mathcal{M}$, or that $\\mathcal{M}$ is *satisfied by*\n$\\varphi$.\n\nMore generally, we say that a $\\tau$-structure $\\mathcal{M}$ is a\n*model* of a theory $T$ over $\\tau$, if $\\mathcal{M}\\models \\varphi$ for\nevery $\\varphi\\in T$. When $\\mathcal{M}$ is a model of $T$, we say that\n$T$ *satisfies* $\\mathcal{M}$, or that $\\mathcal{M}$ is satisfied by\n$T$, and is written $$\\mathcal{M}\\models T.$$\n\n**Example**. Let $\\tau=\\lbrace \\cdot \\rbrace$, where $\\cdot$ is a binary\noperation symbol. Let $x,y,z$ be variables and\n$$T=\\lbrace \\forall x \\forall y \\forall z \\left((x\\cdot y)\\cdot z=x\\cdot (y\\cdot z)\\right) \\rbrace.$$\nThen it is easy to see that any model of $T$ is a semigroup, and vice\nversa.\n\nNext, let $\\tau'=\\tau\\cup \\lbrace e\\rbrace$, where $e$ is a constant\nsymbol, and\n$$T'=T\\cup \\lbrace \\forall x (x\\cdot e=x), \\forall x\\exists y (x\\cdot y=e)\\rbrace.$$\nThen $G$ is a model of $T'$ iff $G$ is a group. Clearly any group is a\nmodel of $T'$. To see the converse, let $G$ be a model of $T'$ and let\n$1\\in G$ be the interpretation of $e\\in \\tau'$ and\n$\\cdot:G\\times G\\to G$ be the interpretation of $\\cdot\\in \\tau'$. Let us\nwrite $xy$ for the product $x\\cdot y$. For any $x\\in G$, let $y\\in G$\nsuch that $xy=1$ and $z\\in G$ such that $yz=1$. Then\n$1z=(xy)z=x(yz)=x1=x$, so that $1x=1(1z)=(1\\cdot 1)z=1z=x$. This shows\nthat $1$ is the identity of $G$ with respect to $\\cdot$. In particular,\n$x=1z=z$, which implies $1=yz=yx$, or that $y$ is a inverse of $x$ with\nrespect to $\\cdot$.\n\n**Remark**. Let $T$ be a theory. A class of $\\tau$-structures is said to\nbe *axiomatized by* $T$ if it is the class of all models of $T$. $T$ is\nsaid to be the *set of axioms* for this class. This class is necessarily\nunique, and is denoted by $\\operatorname{Mod}(T)$. When $T$ consists of\na single sentence $\\varphi$, we write $\\operatorname{Mod}(\\varphi)$.",
+  "language": "INFORMAL",
+  "phrase": "Model",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Model"
+    }
+  ],
+  "indexable": true
+}

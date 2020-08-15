@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *asymptotic estimate* is an that involves the use of $O$, $o$, or\n$\\sim$. These are all defined in the entry Landau notation. Examples of\nasymptotic are:\n\n  ----------------------------------------- ------------------------------------------------ ---------------------------------------------\n    $\\displaystyle \\sum_{n \\le x} \\mu^2(n)$ $\\displaystyle = \\frac{6}{\\pi^2}x+O(\\sqrt{x})$   (see convolution method for more details)\n                     $\\displaystyle \\pi(x)$ $\\displaystyle \\sim \\frac{x}{\\log x}$            (see prime number theorem for more details)\n  ----------------------------------------- ------------------------------------------------ ---------------------------------------------\n\nUnless otherwise specified, asymptotic are typically valid for\n$x \\to \\infty$. An example of an asymptotic that is different from those\nabove in this aspect is\n$$\\cos x=1-\\frac{x^2}{2}+O(x^4) \\text{ for } |x|<1.$$ Note that the\nabove would be undesirable for $x \\to \\infty$, as the would be larger\nthan the . Such is not the case for $|x|<1$, though.\n\nTools that are useful for obtaining asymptotic include:\n\n-   the Euler-Maclaurin summation formula\n\n-   Abel\u2019s lemma\n\n-   the\n\n-   the Dirichlet hyperbola method\n\nIf $A \\subseteq \\mathbb{N}$, then an asymptotic for\n$\\displaystyle \\sum_{n \\le x} \\chi_A(x)$, where $\\chi_A$ denotes the of\n$A$, enables one to determine the asymptotic density of $A$ using the\n$$\\lim_{x \\to \\infty} \\frac{1}{x} \\sum_{n \\le x} \\chi_A(x)$$ provided\nthe limit exists. The upper asymptotic density of $A$ and the lower\nasymptotic density of $A$ can be computed in a manner using $\\limsup$\nand $\\liminf$, respectively. (See for more details.)\n\nFor example, $\\mu^2$ is the characteristic function of the squarefree\nnatural numbers. Using the asymptotic above yields the asymptotic\ndensity of the squarefree natural numbers:\n\n$\\begin{array}{ll}\n\\displaystyle \\lim_{x \\to \\infty} \\frac{1}{x} \\sum_{n \\le x} \\mu^2(n) & \\displaystyle =\\lim_{x \\to \\infty} \\frac{1}{x} \\left( \\frac{6}{\\pi^2}x+O(\\sqrt{x}) \\right) \\\\\n\\\\\n& \\displaystyle =\\lim_{x \\to \\infty} \\frac{6}{\\pi^2}+O \\left( \\frac{\\sqrt{x}}{x} \\right) \\\\\n\\\\\n& \\displaystyle =\\frac{6}{\\pi^2} \\end{array}$",
+  "language": "INFORMAL",
+  "phrase": "Asymptotic Estimate",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AsymptoticEstimate"
+    }
+  ],
+  "indexable": true
+}

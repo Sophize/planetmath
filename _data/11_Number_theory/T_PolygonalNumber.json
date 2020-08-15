@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "figurate number"
+  ],
+  "definition": "A polygonal number, or figurate number, is any value of the function\n$$P_d(n)=\\frac{(d-2)n^2+(4-d)n}{2}$$ for integers $n\\ge 0$ and $d\\ge 3$.\nA \u201cgeneralized polygonal number\u201d is any value of $P_d(n)$ for some\ninteger $d\\ge 3$ and any $n\\in\\mathbb{Z}$. For fixed $d$, $P_d(n)$ is\ncalled a $d$-gonal or $d$-polygonal number. For $d=3,4,5,\\ldots$, we\nspeak of a triangular number, a square number or a square, a pentagonal\nnumber, and so on.\n\nAn equivalent definition of $P_d$, by induction on $n$, is: $$P_d(0)=0$$\n$$P_d(n)=P_d(n-1)+(d-2)(n-1)+1\\qquad\\text{ for all }n\\ge 1$$\n$$P_d(n-1)=P_d(n)+(d-2)(1-n)-1\\qquad\\text{ for all }n<0\\;.$$ From these\nequations, we can deduce that all generalized polygonal numbers are\nnonnegative integers. The first two formulas show that $P_d(n)$ points\ncan be arranged in a set of $n$ nested $d$-gons, as in this diagram of\n$P_3(5)=15$ and $P_5(5)=35$.\n\n![image](dgon)\n\nPolygonal numbers were studied somewhat by the ancients, as far back as\nthe Pythagoreans, but nowadays their interest is mostly historical, in\nconnection with this famous result:\n\n**Theorem:** For any $d\\ge 3$, any integer $n\\ge 0$ is the sum of some\n$d$ $d$-gonal numbers.\n\nIn other words, any nonnegative integer is a sum of three triangular\nnumbers, four squares, five pentagonal numbers, and so on. Fermat made\nthis remarkable statement in a letter to Mersenne. Regrettably, he never\nrevealed the argument or proof that he had in mind. More than a century\npassed before Lagrange proved the easiest case: Lagrange\u2019s four-square\ntheorem. The case $d=3$ was demonstrated by Gauss around 1797, and the\ngeneral case by Cauchy in 1813.",
+  "language": "INFORMAL",
+  "phrase": "Polygonal Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolygonalNumber"
+    }
+  ],
+  "indexable": true
+}

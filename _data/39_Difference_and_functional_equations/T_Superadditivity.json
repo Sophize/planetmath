@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "superadditive"
+  ],
+  "definition": "A sequence $\\{a_n\\}_{n=1}^\\infty$ is called *superadditive* if it\nsatisfies the inequality $$\\label{eqn:seq}\na_{n+m}\\geq a_n+a_m\\qquad\\text{for all $n$ and $m$}.$$ The major reason\nfor use of superadditive sequences is the following lemma due to Fekete.\n\nFor every superadditive sequence $\\{a_n\\}_{n=1}^\\infty$ the limit\n$\\lim a_n/n$ exists and is equal to $\\sup a_n/n$.\n\nSimilarly, a function $f(x)$ is *superadditive* if\n$$f(x+y)\\geq f(x)+f(y)\\qquad\\text{for all $x$ and $y$}.$$ The analogue\nof Fekete lemma holds for superadditive functions as well.\n\nThere are extensions of Fekete lemma that do not require to hold for all\n$m$ and $n$. There are also results that allow one to deduce the rate of\nconvergence to the limit whose existence is stated in Fekete lemma if\nsome kind of both super- and subadditivity is present. A good exposition\nof this topic may be found in [@cite:steele_azuma].\n\n[1]{}\n\nGy[\u00f6]{}rgy Polya and G[\u00e1]{}bor Szeg[\u00f6]{}. , volume\u00a01. 1976. .\n\nMichael\u00a0J. Steele. , volume\u00a069 of [*CBMS-NSF Regional Conference Series\nin Applied Mathematics*]{}. SIAM, 1997. .",
+  "language": "INFORMAL",
+  "phrase": "Superadditivity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Superadditivity"
+    }
+  ],
+  "indexable": true
+}

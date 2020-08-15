@@ -1,0 +1,17 @@
+{
+  "argumentText": "Consider the compact interval $[a,b], a<b$ and a continuous real valued\nfunction $f$. If $f(a).f(b)<0$ then there exists $c\\in(a,b)$ such that\n$f(c)=0$\n\nWLOG consider $f(a)<0$ and $f(b)>0$. The other case can be proved using\n$-f(x)$ which will also verify the theorem\u2019s conditions.\n\nconsider $a_1 = \\frac{a+b}{2}$, three cases can occur:\n\n-   $f(a_1)=0$, in this case the theorem is proved $c=a_1$\n\n-   $f(a_1)>0$, in this case consider the interval $I_1 = (a,a_1)$\n\n-   $f(a_1)<0$, in this case consider the interval $I_1 = (a_1,b)$\n\nso starting with an open interval $I_0 = (a,b)$ we get another open\ninterval $I_1 \\subset I_0$ with length half of the original\n$|I_1| = \\frac{|I_0|}{2}$.\n\nRepeat the procedure to the interval $I_n$ and get another interval\n$I_{n+1}$.\n\nWe can thus define a succession of open intervals $I_n$ such that\n$I_{n+1} \\subset I_n$, $|I_n|=2^{-n}|I_0|$, such that $I_n = (a_n,b_n)$\nand $f(a_n)<0<f(b_n)$.\n\nThe succession $c_{2n} = a_n, c_{2n+1}=b_n$ is Cauchy by construction\nsince $m>n \\implies |c_m-c_n|<2^{-[n/2]}|I_0|$.\n\n$c_n$ is therefore convergent $c_n\\to c\\in [a,b]$, and since $a_n$ and\n$b_n$ are sub-successions, they converge to the same limit.\n\n$f$ is continuous in $[a,b]$ so $x_n \\to x \\implies f(x_n) \\to f(x)$\n\nBy construction\n\n$f(a_n)<0$ and $f(b_n)>0$ so in the limit\n$\\lim_{n \\to \\infty} f(a_n) = f(\\lim_{n \\to \\infty} a_n)= f(c)\\le 0$ and\n$\\lim_{n \\to \\infty} f(b_n) = f(c) \\ge 0$.\n\nSo there exists $c \\in [a,b]$ such that\n$0 \\le f(c) \\le 0 \\implies f(c)=0$.\n\nBut since $f(a).f(b)<0$, neither $f(a)=0$ nor $f(b)=0$ and since\n$f(c)=0$, $c \\in (a,b)$",
+  "conclusion": "#P_BolzanosTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBolzanosTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Bolzano's theorem"
+  ]
+}

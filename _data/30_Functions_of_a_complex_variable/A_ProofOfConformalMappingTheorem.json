@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $D\\subset\\mathbb{C}$ be a domain, and let $f\\colon D\\to\\mathbb{C}$\nbe an analytic function. By identifying the complex plane $\\mathbb{C}$\nwith $\\mathbb{R}^2$, we can view $f$ as a function from $\\mathbb{R}^2$\nto itself: $$\\tilde f(x,y):=(\\Re f(x+iy), \\Im f(x+iy))=(u(x,y),v(x,y))$$\nwith $u$ and $v$ real functions. The Jacobian matrix of $\\tilde f$ is\n$$J(x,y)=\\frac{\\partial(u,v)}{\\partial(x,y)}=\\begin{pmatrix}\nu_x & u_y \\\\\nv_x & v_y\n\\end{pmatrix}.$$ As an analytic function, $f$ satisfies the\nCauchy-Riemann equations, so that $u_x=v_y$ and $u_y=-v_x$. At a fixed\npoint $z=x+iy\\in D$, we can therefore define $a=u_x(x,y)=v_y(x,y)$ and\n$b=u_y(x,y)=-v_x(x,y)$. We write $(a,b)$ in polar coordinates as\n$(r\\cos\\theta,r\\sin\\theta)$ and get $$J(x,y)=\\begin{pmatrix}\na & b \\\\\n-b & a\n\\end{pmatrix} = r\\begin{pmatrix}\n\\cos\\theta & \\sin\\theta \\\\\n-\\sin\\theta & \\cos\\theta\n\\end{pmatrix}.$$\n\nNow we consider two smooth curves through $(x,y)$, which we parametrize\nby $\\gamma_1(t)=(u_1(t),v_1(t))$ and $\\gamma_2(t)=(u_2(t),v_2(t))$. We\ncan choose the parametrization such that $\\gamma_1(0)=\\gamma_2(0)=z$.\nThe images of these curves under $\\tilde f$ are $\\tilde f\\circ\\gamma_1$\nand $\\tilde f\\circ\\gamma_2$, respectively, and their derivatives at\n$t=0$ are $$(\\tilde f\\circ\\gamma_1)'(0)=\n\\frac{\\partial(u,v)}{\\partial(x,y)}(\\gamma_1(0))\n\\cdot \\frac{{\\rm d}\\gamma_1}{{\\rm d}t}(0)=\nJ(x,y)\\begin{pmatrix}\n\\frac{{\\rm d}u_1}{{\\rm d}t} \\\\\n\\frac{{\\rm d}v_1}{{\\rm d}t}\n\\end{pmatrix}$$ and, similarly,\n$$(\\tilde f\\circ\\gamma_2)'(0)=J(x,y)\\begin{pmatrix}\n\\frac{{\\rm d}u_2}{{\\rm d}t} \\\\\n\\frac{{\\rm d}v_2}{{\\rm d}t}\n\\end{pmatrix}$$ by the chain rule. We see that if $f'(z)\\neq 0$, $f$\ntransforms the tangent vectors to $\\gamma_1$ and $\\gamma_2$ at $t=0$\n(and therefore in $z$) by the orthogonal matrix $$J/r=\\begin{pmatrix}\n\\cos\\theta & \\sin\\theta \\\\\n-\\sin\\theta & \\cos\\theta\n\\end{pmatrix}$$ and scales them by a factor of $r$. In particular, the\ntransformation by an orthogonal matrix implies that the angle between\nthe tangent vectors is preserved. Since the determinant of $J/r$ is 1,\nthe transformation also preserves orientation (the direction of the\nangle between the tangent vectors). We conclude that $f$ is a conformal\nmapping at each point where its derivative is nonzero.",
+  "conclusion": "#P_ConformalMappingTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfConformalMappingTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of conformal mapping theorem"
+  ]
+}

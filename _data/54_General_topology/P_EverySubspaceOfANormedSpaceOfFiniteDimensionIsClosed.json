@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(V, \\| \\cdot \\|)$ be a normed vector space, and $S \\subset V$ a\nfinite dimensional subspace. Then $S$ is closed.\n\n**Proof**\n\nLet $a \\in \\overline{S} $ and choose a sequence $\\{a_n\\}$ with\n$a_n \\in S$ such that $a_n$ converges to $a$. Then $\\{a_n\\}$ is a Cauchy\nsequence in $V$ and is also a Cauchy sequence in $S$. Since a finite\ndimensional normed space is a Banach space, $S$ is complete, so\n$\\{a_n\\}$ converges to an element of $S$. Since limits in a normed space\nare unique, that limit must be $a$, so $a \\in S$.\n\n**Example**\n\nThe result depends on the field being the real or complex numbers.\nSuppose the $V = Q \\times R$, viewed as a vector space over $Q$ and\n$S = Q \\times Q$ is the finite dimensional subspace. Then clearly\n$(1, \\sqrt{2})$ is in $V$ and is a limit point of $S$ which is not in\n$S$. So $S$ is not closed.\n\n**Example**\n\nOn the other hand, there is an example where $Q$ is the underlying field\nand we can still show a finite dimensional subspace is closed. Suppose\nthat $V = Q^n$, the set of $n$-tuples of rational numbers, viewed as\nvector space over $Q$. Then if $S$ is a finite dimensional subspace it\nmust be that $S = \\{x | Ax = 0\\}$ for some matrix $A$. That is, $S$ is\nthe inverse image of the closed set $\\{0\\}$. Since the map $x \\to Ax$ is\ncontinuous, it follows that $S$ is a closed set.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EverySubspaceOfANormedSpaceOfFiniteDimensionIsClosed"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every subspace of a normed space of finite dimension is closed"
+  ]
+}

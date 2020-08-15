@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every uncountable Polish space is, up to a countable subset, an\ninjective image of Baire space $\\mathcal{N}$.\n\nLet $X$ be an uncountable Polish space. Then, there is a one-to-one and\ncontinuous function $f\\colon\\mathcal{N}\\rightarrow X$ such that\n$X\\setminus f(\\mathcal{N})$ is countable.\n\nAlthough the inverse\n$f^{-1}\\colon f(\\mathcal{N})\\rightarrow \\mathcal{N}$ will not generally\nbe continuous, it is at least Borel measurable. It can be shown that\nthis is true for all one-to-one and continuous functions between Polish\nspaces, although here it follows directly from .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InjectiveImagesOfBaireSpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "injective images of Baire space"
+  ]
+}

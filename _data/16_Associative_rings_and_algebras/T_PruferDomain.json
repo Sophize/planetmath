@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A commutative integral domain $R$ is a *Pr\u00fcfer domain* if every finitely\ngenerated nonzero ideal $I$ of $R$ is invertible.\n\nLet $R_I$ denote the localization of $R$ at $R\\backslash I$. Then the\nfollowing statements are equivalent:\n\n-   i\\) $R$ is a Pr\u00fcfer domain.\n\n-   ii\\) For every prime ideal $P$ in $R$, $R_P$ is a valuation domain.\n\n-   iii\\) For every maximal ideal $M$ in $R$, $R_M$ is a valuation domain.\n\nA Pr\u00fcfer domain is a Dedekind domain if and only if it is Noetherian.\n\nIf $R$ is a Pr\u00fcfer domain with quotient field $K$, then any domain $S$\nsuch that $R\\subset S\\subset K$ is Pr\u00fcfer.\n\n[9]{} Thomas W. Hungerford. Algebra. Springer-Verlag, 1974. New York,\nNY.",
+  "language": "INFORMAL",
+  "phrase": "Pr\\\"Ufer Domain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PruferDomain"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "An algebraic set over an uncountably infinite base field $\\mathbb{F}$\n(like the real or complex numbers) cannot be countably infinite.\n\nProof: Let $S$ be a countably infinite subset of $\\mathbb{F}^n$. By a\ncardinality argument (see the attachment), there must exist a line such\nthat the projection of this set to the line is infinite. Since the\nprojection of an algebraic set to a linear subspace is an algebraic set,\nthe projection of $S$ to this line would be an algebraic subset of the\nline. However, an algebraic subset of a line is the locus of zeros of\nsome polynomial, hence must be finite. Therefore, $S$ could not be\nalgebraic since that would lead to a contradiction.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CountableAlgebraicSets"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "countable algebraic sets"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "quasinormal subgroup",
+    "quasi-normal subgroup"
+  ],
+  "definition": "Let $G$ be a group. A subgroup $H$ of $G$ is said to be *permutable* if\nit permutes with all subgroups of $G$, that is, $KH=HK$ for all\n$K\\leq G$. We sometimes write $H\\per G$ to indicate that $H$ is a\npermutable subgroup of $G$.\n\nPermutable subgroups were introduced by , who called them *quasinormal*\nsubgroups.\n\nNormal subgroups are clearly permutable.\n\nPermutable subgroups are ascendant. This is a result of\nStonehewer[@stonehewer], who also showed that in a finitely generated\ngroup, all permutable subgroups are subnormal.\n\n[9]{} Stewart E.\u00a0Stonehewer, [*Permutable subgroups of infinite\ngroups*]{}, Math.\u00a0Z.\u00a0125 (1972), 1\u201316. (This paper is .)",
+  "language": "INFORMAL",
+  "phrase": "Permutable Subgroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PermutableSubgroup"
+    }
+  ],
+  "indexable": true
+}

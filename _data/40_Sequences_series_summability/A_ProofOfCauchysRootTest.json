@@ -1,0 +1,17 @@
+{
+  "argumentText": "If for all $n\\geq N$ $$\\sqrt[n]{a_n}<k<1$$ then $$a_n<k^n<1.$$ Since\n$\\sum_{i=N}^\\infty k^i$ converges so does $\\sum_{i=N}^\\infty a_n$ by the\ncomparison test. If $\\sqrt[n]{a_n}>1$ then by comparison with\n$\\sum_{i=N}^\\infty 1$ the series is divergent. Absolute convergence in\ncase of nonpositive $a_n$ can be proven in exactly the same way using\n$\\sqrt[n]{|a_n|}$.",
+  "conclusion": "#P_CauchysRootTest",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCauchysRootTest"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Cauchy's root test"
+  ]
+}

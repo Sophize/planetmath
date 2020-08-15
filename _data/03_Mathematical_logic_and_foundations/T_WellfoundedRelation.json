@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A binary relation $R$ on a $X$ is *well-founded* if and only if\n\n-   each nonempty subclass of $X$ contains an $R$-minimal element and,\n\n-   for each $x \\in X$, $\\lbrace y \\mid y\\,R\\,x \\rbrace$ is a set.\n\nThe notion of a well-founded relation is a generalization of that of a\nwell-ordering relation: proof by induction and definition by recursion\nmay be carried out over well-founded relations.",
+  "language": "INFORMAL",
+  "phrase": "Well-Founded Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WellfoundedRelation"
+    }
+  ],
+  "indexable": true
+}

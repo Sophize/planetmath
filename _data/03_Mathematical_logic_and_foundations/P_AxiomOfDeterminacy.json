@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "When doing descriptive set theory, it is conventional to use either\n$\\omega^\\omega$ or $2^\\omega$ as your space of \u201creals\u201d (these spaces are\nhomeomorphic to the irrationals and the Cantor set, respectively).\nThroughout this article, I will use the term \u201creals\u201d to refer to\n$\\omega^\\omega$.\n\nLet $X \\subseteq \\omega^\\omega$ be given and consider the following game\non $X$ played between two players, I and II: I starts by saying a\nnatural number; II hears this number and replies with another (or\npossibly the same one); I hears this and replies with another; etc. The\nsequence of numbers said (in the order they were said) is a point in\n$\\omega^\\omega$. I wins if this point is in $X$, otherwise II wins.\n\nA map $\\sigma: \\omega^{<\\omega} \\to \\omega$ is said to be a winning\nstrategy for I if it has the following property: if, after the play has\ngone $n_0 n_1 \\dotsc n_M$, I plays $\\sigma(n_0 \\dotsc n_M)$ for each\nmove, then I wins. A winning strategy for II is defined analogously.\n\nThe [*axiom of determinacy*]{} (AD) states that every such game is\ndetermined, that is either I or II has a winning strategy.\n\nUsing choice, a non-determined game can be constructed directly: for\n$\\alpha< {\\mathfrak{c}}$, enumerate the uncountable closed subsets of\nthe reals $F_\\alpha$. Now construct two sequences\n${\\langle x_\\alpha : \\alpha < {\\mathfrak{c}}\\rangle}$ and\n${\\langle y_\\alpha: \\alpha < {\\mathfrak{c}}\\rangle}$ by choosing\n$x_\\alpha, y_\\alpha$ as distinct points from $F_\\alpha$ which are not in\n${\\lbrace x_\\gamma, y_\\gamma : \\gamma < \\alpha \\rbrace}$ (this is\npossible as each uncountable closed set has cardinality\n${\\mathfrak{c}}$). Then the game on the set of all $x_\\alpha$s is\nnon-determined.\n\nFrom ZF+AD, one may prove many nice facts about the reals, such as: any\nsubset is Lebesgue measurable, any subset has a perfect subset and the\ncontinuum hypothesis. ZF+AD also proves the axiom of countable choice.\n\nAD itself is not taken seriously by many set theorists as a genuine\nalternative to choice. However, there is a weakening of AD (the axiom of\nquasi-projective determinacy, or QPD, which states that all games in\n${\\mathsf{L}}[{\\mathbb{R}}]$ are determined) which is consistent with\nZFC (in fact, it\u2019s equiconsistent to a large cardinal axiom) which is a\nserious axiom candidate.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AxiomOfDeterminacy"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "axiom of determinacy",
+    "AD"
+  ]
+}

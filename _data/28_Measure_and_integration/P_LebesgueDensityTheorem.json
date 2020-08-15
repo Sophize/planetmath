@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mu$ be the Lebesgue measure on $\\mathbb{R}^n$, and for a\nmeasurable set $A\\subset \\mathbb{R}^n$ define the density of $A$ in\n$\\epsilon$-neighborhood of $x\\in\\mathbb{R}^n$ by\n$$d_\\epsilon(x)=\\frac{\\mu(A\\cap B_\\epsilon(x))}{\\mu(B_\\epsilon(x))}$$\nwhere $B_\\epsilon(x)$ denotes the ball of radius $\\epsilon$ centered at\n$x$.\n\nThe Lebesgue density theorem asserts that for almost every point of $A$\nthe density $$\\label{eq:densdef}\nd(x)=\\lim_{\\epsilon\\to 0} d_{\\epsilon}(x)$$ exists and is equal to $1$.\n\nIn other words, for every measurable set $A$ the density of $A$ is $0$\nor $1$ almost everywhere. However, it is a curious fact that if\n$\\mu(A)>0$ and $\\mu(\\mathbb{R}^n\\setminus A)>0$, then there are always\npoints of $\\mathbb{R}^n$ where the density is neither $0$ nor $1$\n[@cite:croft_latticepts Lemma 4].\n\n[1]{}\n\nHallard\u00a0T. Croft. Three lattice-point problems of [Steinhaus]{}. ,\n33:71\u201383, 1982. .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LebesgueDensityTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lebesgue density theorem"
+  ]
+}

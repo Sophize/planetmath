@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A Heyting algebra that is also a complete lattice is called a complete\nHeyting algebra. In the following, we give a lattice characterization of\ncomplete Heyting algebras without the relative pseudocomplementation\noperator $\\to$.\n\nLet $H$ be a complete Heyting algebra, then\n$$x\\to y = \\bigvee \\lbrace z\\mid z\\wedge x \\le y\\rbrace$$ for any\n$x,y\\in H$, and $$x \\wedge \\bigvee A = \\bigvee (x\\wedge A),$$ where\n$x\\wedge A:=\\lbrace x\\wedge y\\mid y\\in A\\rbrace$, for any $x\\in H$, and\nany subset $A$ of $H$.\n\nWe first prove the identity $x \\wedge \\bigvee A = \\bigvee (x\\wedge A)$.\nFor any $y \\in H$, we have $x \\wedge \\bigvee A \\le y$ iff\n$\\bigvee A \\le x\\to y$ iff $a\\le x\\to y$ for all $a\\in A$ iff\n$x\\wedge a \\le y$ for all $a\\in A$ iff $\\bigvee (x\\wedge A) \\le y$,\nhence $x\\wedge \\bigvee A = \\bigvee (x\\wedge A)$.\n\nNext, we show $x\\to y = \\bigvee \\lbrace z\\mid z\\wedge x \\le y \\rbrace$.\nFor any $a\\in H$, we have $a\\le x\\to y$ iff $a\\wedge x\\le y$ iff\n$a\\in \\lbrace z\\mid z\\wedge x\\le y\\rbrace$ iff\n$a\\le \\bigvee \\lbrace z\\mid z\\wedge x\\le y\\rbrace$.\n\nThe converse of the above is also true.\n\nLet $H$ be a complete lattice such that\n$$x \\wedge \\bigvee A = \\bigvee (x\\wedge A),$$ where\n$x\\wedge A:=\\lbrace x\\wedge y\\mid y\\in A\\rbrace$, for any $x\\in H$, and\nany subset $A$ of $H$. Then for any $x,y\\in H$, defining\n$$x\\to y: = \\bigvee \\lbrace z\\mid z\\wedge x \\le y\\rbrace$$ turns $H$\ninto a complete Heyting algebra.\n\nWe want to show that $a\\le x\\to y$ iff $a\\wedge x\\le y$ for any\n$a\\in H$: $a\\le x\\to y$ iff\n$a\\le \\bigvee \\lbrace z\\mid z\\wedge x\\le y\\rbrace$. So\n$x\\wedge a \\le x \\wedge \\bigvee \\lbrace z\\mid z\\wedge x\\le y\\rbrace = \\bigvee \\lbrace x\\wedge z\\mid z\\wedge x\\le y\\rbrace \\le \\bigvee \\lbrace y \\rbrace = y$\n\nFrom this, one readily concludes that any finite distributive lattice is\nHeyting.\n\n**Remark**. Since any complete lattice is bounded, a complete Brouwerian\nlattice is a complete Heyting algebra. A complete Heyting algebra is\nalso called a *frame*.",
+  "language": "INFORMAL",
+  "phrase": "Complete Heyting Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompleteHeytingAlgebra"
+    }
+  ],
+  "indexable": true
+}

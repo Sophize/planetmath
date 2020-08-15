@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Definition.** Let $\\alpha$, $\\beta$ and $\\kappa$ be of an algebraic\nnumber field $K$ and $\\kappa \\neq 0$. One defines $$\\begin{aligned}\n\\alpha \\equiv \\beta \\pmod{\\kappa}\\end{aligned}$$ if and only if\n$\\kappa \\mid \\alpha\\!-\\!\\beta$, i.e. iff there is an integer $\\lambda$\nof $K$ with $\\alpha\\!-\\!\\beta = \\lambda\\kappa$.\\\n**Theorem.** The congruence \u201c$\\equiv$\u201d modulo $\\kappa$ defined above is\nan equivalence relation in the maximal order of $K$. There are only a\nfinite amount of the equivalence classes, the [*residue classes modulo\n$\\kappa$*]{}.\\\n[*Proof.*]{} For justifying the transitivity of \u201c$\\equiv$\u201d, suppose (1)\nand $\\beta \\equiv \\gamma \\pmod{\\kappa}$; then there are the integers\n$\\lambda$ and $\\mu$ of $K$ such that $\\alpha\\!-\\!\\beta = \\lambda\\kappa$,\n$\\beta\\!-\\!\\gamma = \\mu\\kappa$. Adding these equations we see that\n$\\alpha\\!-\\!\\gamma = (\\lambda\\!+\\!\\mu)\\kappa$ with the integer\n$\\lambda\\!+\\!\\mu$ of $K$. Accordingly,\n$\\alpha \\equiv \\gamma \\pmod{\\kappa}$.\\\nLet $\\omega$ be an arbitrary integer of $K$ and\n$\\{\\omega_1,\\,\\omega_2,\\,\\ldots,\\,\\omega_n\\}$ a minimal basis of the\nfield. Then we can write\n$$\\omega = a_1\\omega_1+a_2\\omega_2+\\ldots+a_n\\omega_n,$$ where the\n$a_i$\u2019s are rational integers. For $i = 1,\\,2,\\,\\ldots,\\,n$, the\ndivision algorithm determines the rational integers $q_i$ and $r_i$ with\n$$a_i = \\mbox{N}(\\kappa)q_i+r_i, \\quad 0 \\leqq r_i < |\\mbox{N}(\\kappa)|,$$\nwhence\n$$\\omega = \\mbox{N}(\\kappa)(\\underbrace{q_1\\omega_1+q_2\\omega_2+\\ldots+q_n\\omega_n}_{=\\,\\pi})\n+(\\underbrace{r_1\\omega_1+r_2\\omega_2+\\ldots+r_n\\omega_n}_{=\\,\\varrho}).$$\nSo we have $$\\begin{aligned}\n\\omega = \\mbox{N}(\\kappa)\\pi\\!+\\!\\varrho,\\end{aligned}$$ where $\\pi$ and\n$\\varrho$ are some integers of the field. If\n$\\kappa^{(1)},\\,\\kappa^{(2)},\\,\\ldots,\\,\\kappa^{(n)}$ are the algebraic\nconjugates of $\\kappa = \\kappa^{(1)}$, then\n$$\\mbox{N}(\\kappa) = \\underbrace{\\kappa^{(1)}}_{\\mbox{integer}}\\underbrace{\\kappa^{(2)}\\cdots\\kappa^{(n)}}_{\\mbox{integer}} = \\kappa\\kappa' \\in \\mathbb{Z}.$$\nHence, $\\kappa$ divides $\\mbox{N}(\\kappa)$ in the ring of integers of\n$K$, and (2) implies $$\\omega \\equiv \\varrho \\pmod\\kappa.$$ Since any\nnumber $r_i$ has $|\\mbox{N}(\\kappa)|$ different possible values\n$0,\\,1,\\,\\ldots,\\,|\\mbox{N}(\\kappa)|\\!-\\!1$, there exist\n$|\\mbox{N}(\\kappa)|^n$ different ordered tuplets\n$(r_1,\\,r_2,\\,\\ldots,\\,r_n)$. Therefore there exist at most\n$|\\mbox{N}(\\kappa)|^n$ different residues and residue classes in the\nring.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CongruenceInAlgebraicNumberField"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "congruence in algebraic number field",
+    "congruence in number field"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "no-cycles",
+    "no-cycle",
+    "no cycles condition",
+    "cycle"
+  ],
+  "definition": "Let $X$ be a metric space and let $f\\colon X\\to X$ be a homeomorphism.\nSuppose $\\mathcal F= \\{\\Lambda_1,\\dots,\\Lambda_k\\}$ is a family of\ncompact invariant sets for $f$. Define a relation $\\rightarrow$ on\n$\\mathcal{F}$ by $\\Lambda_i \\rightarrow \\Lambda_j$ if\n$$W^u(\\Lambda_i)\\cap W^s(\\Lambda_j) - \\bigcup_{l=1}^k \\Lambda_l \\neq \\emptyset,$$\nthat is, if the unstable set of $\\Lambda_i$ intersects the stable set of\n$\\Lambda_j$ outside the union of the $\\Lambda_l$\u2019s.\n\nA cycle for $\\mathcal F$ is a sequence $\\{n_i:i=1,\\dots,j\\}$ such that\n$$\\Lambda_{n_i}\\rightarrow \\Lambda_{n_{i+1}}$$ for $1\\leq i<j$ and\n$$\\Lambda_{n_j}\\rightarrow \\Lambda_{n_1}.$$ With some abuse of notation,\nwe can write this as\n$$\\Lambda_{n_1}\\rightarrow\\Lambda_{n_2}\\rightarrow\\cdots\\rightarrow\\Lambda_{n_j}\\rightarrow\\Lambda_{n_1}.$$\n\nIf $\\mathcal{F}$ has no cycles, then we say that it satisfies the\n*no-cycles condition*.",
+  "language": "INFORMAL",
+  "phrase": "No-Cycles Condition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NocyclesCondition"
+    }
+  ],
+  "indexable": true
+}

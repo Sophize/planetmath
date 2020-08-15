@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Proposition**. Let $L$ be a poset. Then the following are equivalent.\n\n1.  $L$ is a complete lattice.\n\n2.  for every subset $A$ of $L$, $\\bigvee A$ exists.\n\n3.  for every finite subset $F$ of $L$ and every directed set $D$ of\n    $L$, $\\bigvee F$ and $\\bigvee D$ exist.\n\nImplications $1.\\Rightarrow 2.\\Rightarrow 3.$ are clear. We will show\n$3.\\Rightarrow 2.\\Rightarrow 1.$\n\n$(3.\\Rightarrow 2.)$ If $A=\\varnothing$, then $\\bigvee A=0$ by\ndefinition. So assume $A$ be a non-empty subset of $L$. Let $A^{\\prime}$\nbe the set of all finite subsets of $A$ and\n$B=\\lbrace \\bigvee F\\mid F\\in A^{\\prime}\\rbrace$. By assumption, $B$ is\nwell-defined and $A\\subseteq B$. Next, let $B^{\\prime}$ be the set of\nall directed subsets of $B$, and\n$C=\\lbrace \\bigvee D\\mid D\\in B^{\\prime}\\rbrace$. By assumption again,\n$C$ is well-defined and $B\\subseteq C$. Now, every chain in $C$ has a\nmaximal element in $C$ (since a chain is a directed set), $C$ itself has\na maximal element $d$ by Zorn\u2019s Lemma. We will show that $d$ is the\nleast upper bound of elments of $A$. It is clear that each $a\\in A$ is\nbounded above by $d$ ($A\\subseteq B\\subseteq C$). If $t$ is an upper\nbound of elements of $A$, then it is an upper bound of elements of $B$,\nand hence an upper bound of elements of $C$, which means $d\\le t$.\n\n$(2.\\Rightarrow 1.)$ By assumption $\\bigvee \\varnothing$ exists ($=0$),\nso that $\\bigwedge L=0$. Now suppose $A$ is a proper subset of $L$. We\nwant to show that $\\bigwedge A$ exists. If $A=\\varnothing$, then\n$\\bigwedge A=\\bigvee L=1$ by definition of an arbitrary meet over the\nempty set. So assume $A\\neq \\varnothing$. Let $A^{\\prime}$ be the set of\nlower bounds of $A$:\n$A^{\\prime}=\\lbrace x\\in L\\mid x\\le a\\mbox{ for all }a\\in A\\rbrace$ and\nlet $b=\\bigvee A^{\\prime}$, the least upper bound of $A^{\\prime}$. $b$\nexists by assumption. Since $A$ is a set of upper bounds of\n$A^{\\prime}$, $b\\le a$ for all $a\\in A$. This means that $b$ is a lower\nbound of elements of $A$, or $b\\in A^{\\prime}$. If $x$ is any lower\nbound of elements of $A$, then $x\\le b$, since $x$ is bounded above by\n$b$ ($b=\\bigvee A^{\\prime}$). This shows that $\\bigwedge A$ exists and\nis equal to $b$.\n\n**Remarks**.\n\n-   Dually, a poset is a complete lattice iff every subset has an\n    infimum iff infimum exists for every finite subset and every\n    directed subset.\n\n-   The above proposition shows, for example, that every closure system\n    is a complete lattice.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CriteriaForAPosetToBeACompleteLattice"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "criteria for a poset to be a complete lattice"
+  ]
+}

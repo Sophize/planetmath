@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f:\\mathbb{R}^+\\rightarrow \\mathbb{R^+}$ be a function with the\nfollowing properties:\n\n1.  $\\log f(x)$ is a convex function (i.e. $f$ is logarithmically\n    convex);\n\n2.  $f(x+1) = xf(x)$ for all $x>0$;\n\n3.  $f(1)=1.$\n\nThen $f(x)=\\Gamma(x)$ for all $x>0$.\\\nThat is, the only function satisfying those properties is the gamma\nfunction (restricted to the positive reals.)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BohrMollerupTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Bohr-Mollerup theorem",
+    "characterization of the gamma function"
+  ]
+}

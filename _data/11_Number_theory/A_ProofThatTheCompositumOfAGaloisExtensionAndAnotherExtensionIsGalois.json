@@ -1,0 +1,17 @@
+{
+  "argumentText": "The diagram of the situation of the theorem is: $$\\xymatrix @R1pc@C1pc{\n & & & \\ar@{-}[llld]\\ar@{-}[rdd]EF \\\\\n\\ar@{-}[rdd]E \\\\\n & & &    & \\ar@{-}[llld]F \\\\ \n & \\ar@{-}[d]E\\cap F \\\\\n & K\n}$$ To see that $EF/F$ is Galois, note that since $E/K$ is Galois, $E$\nis a splitting field of a set of polynomials over $K$; clearly $EF$ is a\nsplitting field of the same set of polynomials over $F$. Also, if\n$f\\in K[x]$ is separable over $K$, then also $f$ is separable over $F$.\nThus $EF$ is normal and separable over $F$, so is Galois. $E$ is\nobviously Galois over $E\\cap F$ since $E\\cap F\\supset K$.\n\nLet $r$ be the restriction map\n$$r: H = \\operatorname{Gal}(EF/F) \\to \\operatorname{Gal}(E/K) : \\sigma \\mapsto \\sigma |_E$$\n$r$ is clearly a group homomorphism, and since $E$ is normal over $K$,\n$r$ is well-defined.\n\nClaim $r$ is injective. For suppose $\\sigma\\in\\operatorname{Gal}(EF/F)$\nand $\\sigma|_E$ is the identity. Then $\\sigma$ is fixed on $F$ (since it\nis in $\\operatorname{Gal}(EF/F)$ and on $E$ (since its restriction to\n$E$ is the identity), so is fixed on $EF$ and thus is itself the\nidentity.\n\nNow, the image of $r$ is a subgroup of $\\operatorname{Gal}(E/K)$ with\nfixed field $L$, and thus the image of $r$ is $\\operatorname{Gal}(E/L)$.\nClaim $E\\cap F=L$. $\\subset$ is obvious: any element $x\\in E\\cap F$ is\nfixed by $\\sigma|_E$ for each $\\sigma\\in H$ since $\\sigma$ fixes $F$.\nThus $E\\cap F\\subset L$. To see the reverse inclusion, choose $x\\in L$;\nthen $x$ is fixed by each $r(\\sigma)$ for $\\sigma\\in H$. But\n$x\\in L\\subset E$, so that (as an element of $E$), $x$ is fixed by each\n$\\sigma\\in H$. Thus $x\\in F$ so that $x\\in E\\cap F$.\n\nThus $L = E\\cap F$, and $r$ is then an isomorphism\n$\\operatorname{Gal}(EF/F)\\cong \\operatorname{Gal}(E/E\\cap F)$.\n\n[10]{} Morandi,\u00a0P., *Field and Galois Theory*, Springer, 1996.",
+  "conclusion": "#P_TheCompositumOfAGaloisExtensionAndAnotherExtensionIsGalois",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofThatTheCompositumOfAGaloisExtensionAndAnotherExtensionIsGalois"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof that the compositum of a Galois extension and another extension is Galois"
+  ]
+}

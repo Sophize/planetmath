@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $E/{\\mathbb{Q}}$ be an elliptic curve given by the equation:\n$$E\\colon y^2=x(x-t)(x-s), \\text{ with } t,s\\in {\\mathbb{Z}}$$ and\nsuppose that $E$ has $s=m+a$ primes of bad reduction, with $m$ and $a$\nbeing the number of primes with multiplicative and additive reduction\nrespectively. Then the rank of $E$, denoted by $R_E$, satisfies:\n$$R_E\\leq m+2a-1$$\n\nAs an application of the theorem above, we can prove that\n$E_1\\colon y^2=x^3-x$ has only finitely many rational solutions. Indeed,\nthe discriminant of $E_1$, $\\Delta=64$, is only divisible by $p=2$,\nwhich is a prime of (bad) multiplicative reduction. Therefore\n$R_{E_1}=0$. Moreover, the Nagell-Lutz theorem implies that the only\ntorsion points on $E_1$ are those of order $2$. Hence, the only rational\npoints on $E_1$ are: $$\\{ \\mathcal{O}, (0,0),(1,0),(-1,0)\\}.$$\n\n[9]{} James Milne, [*Elliptic Curves*]{}, online course notes.\\",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundForTheRankOfAnEllipticCurve"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "bound for the rank of an elliptic curve"
+  ]
+}

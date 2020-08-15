@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For any odd prime $p$, Gauss\u2019s lemma quickly yields $$\\begin{aligned}\n\\left( \\frac{2}{p} \\right) &=& 1 \\text{ if }p\\equiv\\pm 1\\pmod{8} \\\\\n\\left( \\frac{2}{p} \\right) &=& -1 \\text{ if }p\\equiv\\pm 3\\pmod{8}\\end{aligned}$$\nBut there is another way, which goes back to Euler, and is worth seeing,\ninasmuch as it is the prototype of certain more general arguments about\ncharacter sums.\n\nLet $\\sigma$ be a primitive eighth root of unity in an algebraic closure\nof $\\mathbb{Z}/p\\mathbb{Z}$, and write $\\tau=\\sigma+\\sigma^{-1}$. We\nhave $\\sigma^4=-1$, whence $\\sigma^2+\\sigma^{-2}=0$, whence\n$$\\tau^2=2\\;.$$ By the binomial formula, we have\n$$\\tau^p=\\sigma^p+\\sigma^{-p}\\;.$$ If $p\\equiv\\pm 1\\pmod 8$, this\nimplies $\\tau^p=\\tau$. If $p\\equiv\\pm 3\\pmod 8$, we get instead\n$\\tau^p=\\sigma^5+\\sigma^{-5}=\n-\\sigma^{-1}-\\sigma=-\\tau$. In both cases, we get\n$\\tau^{p-1}=\\left( \\frac{2}{p} \\right)$, proving (1) and (2).\n\nA variation of the argument, closer to Euler\u2019s, goes as follows. Write\n$$\\sigma=\\exp(2\\pi i/8)$$ $$\\tau=\\sigma+\\sigma^{-1}$$ Both are algebraic\nintegers. Arguing much as above, we end up with\n$$\\tau^{p-1}\\equiv\\left( \\frac{2}{p} \\right)\\pmod{p}$$ which is enough.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuadraticCharacterOf2"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "quadratic character of 2"
+  ]
+}

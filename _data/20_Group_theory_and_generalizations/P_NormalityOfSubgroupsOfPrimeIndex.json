@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $H$ is a subgroup of a finite group $G$ of index $p$, where $p$ is\nthe smallest prime dividing the order of $G$, then $H$ is normal in $G$.\n\nSuppose $H\\leq G$ with ${\\vertG\\vert}$ finite and ${\\vertG:H\\vert}=p$,\nwhere $p$ is the smallest prime divisor of ${\\vertG\\vert}$, let $G$ act\non the set $L$ of left cosets of $H$ in $G$ by left , and let\n$\\varphi:G\\rightarrow S_p$ be the by this action. Now, if\n$g\\in\\ker\\varphi$, then $gxH=xH$ for each $x\\in G$, and in particular,\n$gH=H$, whence $g\\in H$. Thus $K=\\ker\\varphi$ is a normal subgroup of\n$H$ (being contained in $H$ and normal in $G$). By the First Isomorphism\nTheorem, $G/K$ is isomorphic to a subgroup of $S_p$, and consequently\n${\\vertG/K\\vert}={\\vertG:K\\vert}$ must $p!$; moreover, any divisor of\n${\\vertG:K\\vert}$ must also\n${\\vertG\\vert}={\\vertG:K\\vert}{\\vertK\\vert}$, and because $p$ is the\nsmallest divisor of ${\\vertG\\vert}$ different from $1$, the only\npossibilities are ${\\vertG:K\\vert}=p$ or ${\\vertG:K\\vert}=1$. But\n${\\vertG:K\\vert}={\\vertG:H\\vert}{\\vertH:K\\vert}=p{\\vertH:K\\vert}\\geq p$,\nwhich ${\\vertG:K\\vert}=p$, and consequently ${\\vertH:K\\vert}=1$, so that\n$H=K$, from which it follows that $H$ is normal in $G$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalityOfSubgroupsOfPrimeIndex"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "normality of subgroups of prime index"
+  ]
+}

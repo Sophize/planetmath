@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In any ring $R$, the additive identity is unique and usually denoted by\n$0$. It is called the zero or [*neutral element*]{} of the ring and it\nsatisfies the zero property under multiplication. The additive inverse\nof the zero must be zero itself. For suppose otherwise: that there is\nsome nonzero $c \\in R$ so that $0 + c = 0$. For any element $a \\in R$ we\nhave $a + 0 = a$ since $0$ is the additive identity. Now, because\naddition is associative we have $$\\begin{aligned}\n0 & = & a + 0 \\\\ \n & = & a + (0 + c) \\\\\n & = & (a + 0) + c \\\\\n & = & a + c.\\end{aligned}$$ Since $a$ is any arbitrary element in the\nring, this would imply that (nonzero) $c$ is an additive identity,\ncontradicting the uniqueness of the additive identity. And so our\nsuppostition that $0$ has a nonzero inverse cannot be true. So the\nadditive inverse of the zero is zero itself. We can write this as\n$-0 = 0$, where the $-$ sign means \u201cadditive inverse\".\n\nYes, for sure, there are other ways to come to this result, and we\nencourage you to have a bit of fun describing your own reasons for why\nthe additive inverse of the zero of the ring must be zero itself.\n\nFor example, since $0$ is the neutral element of the ring this means\nthat $0 + 0 = 0$. From this it immediately follows that $-0 = 0$.",
+  "language": "INFORMAL",
+  "phrase": "Additive Inverse Of The Zero In A Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdditiveInverseOfTheZeroInARing"
+    }
+  ],
+  "indexable": true
+}

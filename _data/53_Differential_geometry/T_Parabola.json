@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *parabola* is the locus of points $P$ in the Euclidean plane which are\nequidistant from a given line $\\ell$, called the *directrix*, and a\ngiven point $F$ not on the directrix, called the *focus*.\n\nTo obtain a simple equation for the parabola, assume that the directrix\nis parallel to the $x$-axis, the focus is on the $y$-axis, and the\ndirectrix and focus are the same distance from the origin. By reflecting\nthe plane if necessary, this means that there is a positive number $a$\nsuch that the equation of the directrix $\\ell$ is $y = -a$ and the\nposition of the focus $F$ is $(0, a)$. Then the condition that a point\n$(x,y)$ is equidistant from $\\ell$ and $F$ can be interpreted as the\nequation $$(y + a)^2 = x^2 + (y - a)^2.$$ Since\n$(y + a)^2 - (y - a)^2 = 4ay$, the above equation simplifies to\n$$y = \\frac{1}{4a}x^2.$$\n\nBelow is the graph of a parabola for $a=1$:\n\n(-4.5,-2.5)(4.5,4.5) (0,0)(-4.5,-1.5)(4.5,4.5) (4.5,-0.5)[$x$]{}\n(-0.4,4.5)[$y$]{} (4,4)(0,0) (-4.5,0)[.]{} (0,-2.2)[Graph of\n$\\displaystyle y=\\frac{1}{4}x^2$]{}\n\nFrom the equation $$y = \\frac{1}{4a}x^2,$$ we can immediately observe\nsome important properties of the parabola. First, since $x^2$ is an even\nfunction, the parabola is symmetric with respect to the $y$-axis; this\ncan also be deduced directly from the geometric definition of the\nparabola. The intersection point of the parabola and the symmetry axis,\nis called the *apex* of the parabola; it is the point of the parabola\nnearest the directrix. Second, notice that the coefficient of $x^2$ in\nthe equation of the parabola is inversely proportional to $2a$, the\ndistance between the focus and the directrix. So this distance controls\nhow rapidly the function $\\frac{1}{4a}x^2$ grows. As $a$ tends to zero,\nthe parabola becomes flatter and flatter, tending to the line $y = 0$ in\nthe degenerate case $a = 0$. On the other hand, as $a$ increases, the of\nthe parabola at $0$ increases. When $a$ tends to infinity, the parabola\nbegins to resemble a hairpin more and more until it suddenly becomes a\nsingle point, the origin, in the degenerate case $a = \\infty$.\n\nThe parabola is a conic section with eccentricity 1. All parabolas are\nsimilar, which follows directly from the definition of parabola.",
+  "language": "INFORMAL",
+  "phrase": "Parabola",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Parabola"
+    }
+  ],
+  "indexable": true
+}

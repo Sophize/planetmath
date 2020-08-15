@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a base $b$ integer $n$ with $k$ digits $d_1, \\ldots, d_k$,\nconsider $d_k$ the least significant digit and $d_1$, to suit our\npurpose in this case. If for each $1 < j < k$ it is the case that\n$$(\\sum_{i = 1}^j d_ib^{k - j - i}) | j,$$ then $n$ is said to be a\n[*polydivisible number*]{}.\n\nA reasonably good estimate of how many polydivisible numbers base $b$\nhas is $$\\sum_{i = 2}^{b - 1} \\frac{(b - 1)b^{i - 1}}{i!}.$$",
+  "language": "INFORMAL",
+  "phrase": "Polydivisible Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolydivisibleNumber"
+    }
+  ],
+  "indexable": true
+}

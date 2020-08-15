@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A metric space $(X,d)$ is said to have the *disjoint disks property*\n(DDP) if for every pair of continuous maps $f,g: B^2 \\to X$ of the\nclosed $B^2$ into $X$ and every $\\epsilon > 0$ there exist continuous\nmaps $f', g' : B^2 \\to X$ such that $d(f,f') < \\epsilon$ ,\n$d(g,g') < \\epsilon$ and $f'(B^2) \\cap g'(B^2) = \\varnothing$.",
+  "language": "INFORMAL",
+  "phrase": "Disjoint Disks Property",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DisjointDisksProperty"
+    }
+  ],
+  "indexable": true
+}

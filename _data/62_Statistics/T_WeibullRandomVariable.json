@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Weibull distribution",
+    "Rayleigh distribution"
+  ],
+  "definition": "$X$ is a *Weibull random variable* if it has a probability density\nfunction, given by\n$$f_X(x)=\\frac{\\gamma}{\\alpha}(\\frac{x-\\mu}{\\alpha})^{\\gamma-1}\ne^{-(\\frac{x-\\mu}{\\alpha})^\\gamma}$$ where\n$\\alpha,\\gamma,\\mu\\in\\mathbb{R}$, $\\alpha,\\gamma>0$ and $x\\ge\\mu$.\n$\\alpha$ is the *scale parameter*, $\\gamma$ is the *shape parameter*,\nand $\\mu$ is the *location parameter*.\n\nNotation for $X$ having a Weibull distribution is\n$X\\sim \\mbox{Wei}(\\alpha,\\gamma,\\mu)$. Usually, the location and scale\nparameters are dropped by the transformation $$Y=\\frac{X-\\mu}{\\alpha}$$\nso that $Y\\sim \\mbox{Wei}(\\gamma):=\\mbox{Wei}(1,\\gamma,0)$. The\nresulting distribution is called the *standard Weibull*, or *Rayleigh\ndistribution*:\n$$f_X(x)=\\gamma x^{\\gamma-1}\\operatorname{exp}(-x^\\gamma)$$\n\n****: Given a standard Weibull distribution $X\\sim \\mbox{Wei}(\\gamma)$:\n\n1.  $\\operatorname{E}[X]=\\Gamma(\\frac{\\gamma+1}{\\gamma})$, where\n    $\\Gamma$ is the gamma function\n\n2.  Median = $(\\operatorname{ln}2)^{\\frac{1}{\\gamma}}$\n\n3.  Mode $= \\begin{cases}\n    (1-\\frac{1}{\\gamma})^{1/\\gamma} & \\mbox{if $\\gamma>1$}\\\\\n    0 & \\mbox{otherwise} \\end{cases}$\n\n4.  $\\operatorname{Var}[X]=\\Gamma(\\frac{\\gamma+2}{\\gamma})-\\Gamma(\\frac{\\gamma+1}{\\gamma})^2$\n\n5.  $X\\sim \\mbox{Wei}(\\alpha,\\gamma,0)$ iff\n    $X^{\\gamma}\\sim \\mbox{Exp}(\\alpha^\\gamma)$, the exponential\n    distribution with parameter $\\alpha^\\gamma$\n\n**Remark.** The Weibull distribution is often used to model reliability\nor lifetime of such as light bulbs.",
+  "language": "INFORMAL",
+  "phrase": "Weibull Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeibullRandomVariable"
+    }
+  ],
+  "indexable": true
+}

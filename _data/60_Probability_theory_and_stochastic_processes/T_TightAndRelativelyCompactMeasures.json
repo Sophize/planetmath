@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathcal{M}}=\\{\\mu_i,i \\in I \\}$ be a family of finite measures on\nthe Borel subsets of a metric space $\\Omega$. We say that\n${\\mathcal{M}}$ is tight iff for each $\\epsilon>0$ there is a compact\nset $K$ such that $\\mu_i(\\Omega-K)<\\epsilon$ for all $i$. We say that\n${\\mathcal{M}}$ is relatively compact iff each sequence in\n${\\mathcal{M}}$ has a subsequence converging weakly to a finite measure\non ${\\mathcal{B}}(\\Omega)$.\n\nIf $\\{F_i,i \\in I \\}$ is a family of distribution functions, relative\ncompactness or tightness of $\\{F_i\\}$ refers to relative compactness or\ntightness of the corresponding measures.\n\nLet $\\{F_i,i \\in I \\}$ be a family of distribution functions with\n$F_i(\\infty)-F_i(-\\infty)<M<\\infty$ for all $i$. The family is tight iff\nit is relatively compact.\n\nComing soon...(needs other theorems before)",
+  "language": "INFORMAL",
+  "phrase": "Tight And Relatively Compact Measures",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TightAndRelativelyCompactMeasures"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $p$ and $ q$ be positive natural numbers. Further, let $S(k)$ be the\nsymmetric group on the numbers $ \\{1,\\ldots, k\\}$. A permutation\n$ \\tau\\in S(p+q)$ is a $ (p,q)$ *unshuffle* if there exist\n$i_1 < \\cdots < i_p $ and $j_1 < \\cdots <  j_q $ s.t.\n$$\\tau(i_1)=1, \\ldots ,\\tau(i_p)=p$$ and\n$$\\tau(j_1)=p+1 \\ldots ,  \\tau(j_q)=p+q.$$\n\nAlternatively a $(p,q)$ *unshuffle* is a permutation $ \\tau\\in S(p+q)$\ns.t.\u00a0$\\tau^{-1}$ is a $(p,q)$ shuffle.\n\nSince a $ (p,q)$ unshuffle is completely determined by\n$\\{i_1,\\ldots ,i_p \\}$, the cardinality of\n$\\{\\sigma\\in S(p+q)|\\mbox{$\\sigma$ is an unshuffle}\\}$ is\n$\\binom{p+q}{q}$.",
+  "language": "INFORMAL",
+  "phrase": "$(P,Q)$ Unshuffle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/pqUnshuffle"
+    }
+  ],
+  "indexable": true
+}

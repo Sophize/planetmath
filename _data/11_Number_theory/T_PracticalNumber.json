@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A positive integer $m$ is called a *practical number* if every positive\ninteger $n<m$ is a sum of distinct positive divisors of $m$.\n\n[**.**]{} An integer $\\,m\\ge 2,$\n$\\,m=p_1^{\\alpha_1}p_2^{\\alpha_2}\\cdots p_\\ell^{\\alpha_\\ell},$ with\nprimes $p_1<p_2<\\dots<p_\\ell$ and integers $\\alpha_i\\ge 1,$ is practical\nif and only if $\\,p_1=2\\,$ and, for $i=2,3,\\dots,\\ell,$\n$$p_i\\le\\sigma\\!\\left(p_1^{\\alpha_\n1}p_2^{\\alpha_2}\\cdots p_{i-1}\n^{\\alpha_{i-1}}\\right)+1,$$ where $\\sigma(n)$ denotes the sum of the\npositive divisors of $n.$\n\nLet $P(x)$ be the counting function of practical numbers. Saias\u00a0[@Sai],\nusing suitable sieve methods introduced by Tenenbaum [@Te1; @Te2],\nproved a good estimate in terms of a Chebishev-type theorem: for\nsuitable constants $c_1$ and $c_2$,\n$$c_1\\frac x{\\log x}<P(x)<c_2\\frac x{\\log x}.$$\n\nIn [@Me1] Melfi proved a Goldbach-type result showing that every even\npositive integer is a sum of two practical numbers, and that there exist\ninfinitely many triplets of practical numbers of the form $m-2,m,m+2$.\n\n[9]{}\n\nG.\u00a0Melfi, On two conjectures about practical numbers, [*J.\u00a0Number\nTheory*]{} [**56**]{} (1996), 205\u2013210.\n\nE.\u00a0Saias, Entiers \u00e0 diviseurs denses 1, [*J.\u00a0Number Theory*]{}\n[**62**]{} (1997), 163\u2013191.\n\nG.\u00a0Tenenbaum, Sur un probl\u00e8me de crible et ses applications, Ann. Sci.\n\u00c9c. Norm. Sup. (4) [**19** ]{} (1986), 1\u201330.\n\nG.\u00a0Tenenbaum, Sur un probl\u00e8me de crible et ses applications, 2.\nCorrigendum et \u00e9tude du graphe divisoriel, Ann. Sci. \u00c9c. Norm. Sup. (4)\n[**28** ]{} (1995), 115\u2013127.",
+  "language": "INFORMAL",
+  "phrase": "Practical Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PracticalNumber"
+    }
+  ],
+  "indexable": true
+}

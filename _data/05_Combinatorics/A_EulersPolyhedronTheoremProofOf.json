@@ -1,0 +1,17 @@
+{
+  "argumentText": "This proof is not one of the standard proofs given to Euler\u2019s formula. I\nfound the idea presented in one of Coxeter\u2019s books. It presents a\ndifferent approach to the formula, that may be more familiar to modern\nstudents who have been exposed to a \u201cDiscrete Mathematics\u201d course. It\nfalls into the category of \u201cinformal\u201d proofs: proofs which assume\nwithout proof certain properties of planar graphs usually proved with\nalgebraic topology. This one makes deep (but somewhat hidden) use of the\nJordan curve theorem.\n\nLet $G=(V,E)$ be a planar graph; we consider some particular planar\nembedding of $G$. Let $F$ be the set of *faces* of this embedding. Also\nlet $G'=(F,E')$ be the dual graph ($E'$ contains an edge between any 2\nadjacent faces of $G$). The planar embeddings of $G$ and $G'$ determine\na correspondence between $E$ and $E'$: two vertices of $G$ are adjacent\niff they both belong to a pair of adjacent faces of $G$; denote by\n$\\phi:E\\to E'$ this correspondence.\n\n![image](euler1)\n\nIn all illustrations, we represent a planar graph $G$, and the two sets\nof edges $T\\subseteq E$ (in red) and $T'\\subseteq E'$ (in blue).\n\nLet $T\\subseteq E$ be a spanning tree of $G$. Let\n$T' = E' \\setminus \\phi[E]$. We claim that $T'$ is a spanning tree of\n$G'$. Indeed,\n\n$T'$ contains no loop.\n\n:   ![image](euler2)\n\n    Given any loop of edges in $T'$, we may draw a loop on the faces of\n    $G$ which participate in the loop. This loop must partition the\n    vertices of $G$ into two non-empty sets, and only crosses edges of\n    $E\\setminus T$. Thus, $(V,T)$ has more than a single connected\n    component, so $T$ is not spanning.\n\n    \\[The proof of this utilizes the Jordan curve theorem.\\]\n\n$T'$ spans $G'$.\n\n:   ![image](euler3)\n\n    For suppose $T'$ does not connect all faces $F$. Let $f_1,f_2\\in F$\n    be two faces with no path between them in $T'$. Then $T$ must\n    contain a cycle separating $f_1$ from $f_2$, and cannot be a tree.\n\n    \\[The proof of this utilizes the Jordan curve theorem.\\]\n\nWe thus have a partition $E=T\\cup \\phi^{-1}[T']$ of the edges of $G$\ninto two sets. Recall that in any tree, the number of edges is one less\nthan the number of vertices. It follows that\n$$|E| = |T| + |T'| = (|V|-1) + (|F|-1) = |V|+|F|-2,$$ as required.",
+  "conclusion": "#P_EulersPolyhedronTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulersPolyhedronTheoremProofOf"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "Euler's polyhedron theorem, proof of"
+  ]
+}

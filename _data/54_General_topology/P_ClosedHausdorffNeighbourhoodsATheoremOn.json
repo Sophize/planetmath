@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem.**]{} If $X$ is a topological space in which every point has\na closed Hausdorff neighbourhood, then $X$ is Hausdorff.\n\n[**Note.**]{} In this theorem (and the proof that follows)\nneighbourhoods are not assumed to be open. That is, a neighbourhood of a\npoint $x$ is a set $A$ such that $x$ lies in the interior of $A$.\n\n[**Proof of theorem.**]{} Let $X$ be a topological space in which every\npoint has a closed Hausdorff neighbourhood. Suppose $a,b\\in X$ are\ndistinct. It suffices to show that $a$ and $b$ have disjoint\nneighbourhoods. By assumption, there is a closed Hausdorff neighbourhood\n$N$ of $b$. If $a\\notin N$, then $X\\setminus N$ and $N$ are disjoint\nneighbourhoods of $a$ and $b$ (as $N$ is closed).\n\nSo suppose $a\\in N$. As $N$ is Hausdorff, there are disjoint sets\n$U_0,V_0\\subseteq N$ that are open in $N$, such that $a\\in U_0$ and\n$b\\in V_0$. There are open sets $U$ and $V$ of $X$ such that\n$U_0=U\\cap N$ and $V_0=V\\cap N$. Note that $U$ is a neighbourhood of\n$a$, and $V$ is a neighbourhood of $b$. As $N$ is a neighbourhood of\n$b$, it follows that $V\\cap N$ (that is, $V_0$) is a neighbourhood of\n$b$. We have $U\\cap V_0=U_0\\cap V_0=\\emptyset$. So $U$ and $V_0$ are\ndisjoint neighbourhoods of $a$ and $b$. QED.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosedHausdorffNeighbourhoodsATheoremOn"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "closed Hausdorff neighbourhoods, a theorem on"
+  ]
+}

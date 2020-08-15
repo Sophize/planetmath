@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The continuous image of a compact set is also compact.\n\nLet $X$ and $Y$ be topological spaces, $f \\colon X \\to Y$ be continuous,\n$A$ be a compact subset of $X$, $I$ be an indexing set, and\n$\\{V_\\alpha\\}_{\\alpha\\in I}$ be an open cover of $f(A)$. Thus,\n$\\displaystyle f(A)\\sub \\bigcup_{\\alpha\\in I} V_\\alpha$. Therefore,\n$\\displaystyle A\\sub f^{-1}\\bigg( f(A) \\bigg) \\sub f^{-1} \\left( \\bigcup_{\\alpha\\in I} V_{\\alpha} \\right)=\\bigcup_{\\alpha\\in I} f^{-1} (V_\\alpha)$.\n\nSince $f$ is continuous, each $f^{-1}(V_\\alpha)$ is an open subset of\n$X$. Since $\\displaystyle A\\sub \\bigcup_{\\alpha\\in I} f^{-1} (V_\\alpha)$\nand $A$ is compact, there exists $n \\in \\mathbb{N}$ with\n$\\displaystyle A\\sub\\bigcup_{j=1}^n f^{-1} \\left( V_{\\alpha_j} \\right)$\nfor some $\\alpha_1, \\dots , \\alpha_n \\in I$. Hence,\n$\\displaystyle f(A)\\sub f \\left( \\bigcup_{j=1}^n f^{-1} (V_{\\alpha_j}) \\right)=f\\left( f^{-1} \\left( \\bigcup_{j=1}^n V_{\\alpha_j} \\right) \\right) \\sub \\bigcup_{j=1}^n V_{\\alpha_j}$.\nIt follows that $f(A)$ is compact.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuousImageOfACompactSetIsCompact"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "continuous image of a compact set is compact"
+  ]
+}

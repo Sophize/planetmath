@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "diamond"
+  ],
+  "definition": "Let $S\\subseteq\\kappa$ be a stationary set. Then the combinatorial\nprinciple $\\Diamond_S$ holds if and only if there is a sequence\n$\\langle A_{\\alpha}\\rangle_{\\alpha\\in S}$ such that each\n$A_{\\alpha}\\subseteq\\alpha$ and for any $A\\subseteq\\kappa$,\n$\\{\\alpha\\in S\\mid A\\cap\\alpha=A_{\\alpha}\\}$ is stationary.\n\nTo get some sense of what this means, observe that for any\n$\\lambda<\\kappa$, $\\{\\lambda\\}\\subseteq\\kappa$, so the set of\n$A_\\alpha=\\{\\lambda\\}$ is stationary (in $\\kappa$). More strongly,\nsuppose $\\kappa>\\lambda$. Then any subset of $T\\subset\\lambda$ is\nbounded in $\\kappa$ so $A_\\alpha=T$ on a stationary set. Since\n$|S|=\\kappa$, it follows that $2^\\lambda\\leq\\kappa$. Hence\n$\\Diamond_{\\aleph_1}$, the most common form (often written as just\n$\\Diamond$), implies CH.\n\nC. Akemann and N. Weaver used $\\Diamond$ to construct a $C^*$-algebra\nserving as a counterexample to Naimark\u2019s problem.\n\n[9]{} Akemann, C., and N. Weaver, [*Consistency of a counterexample to\nNaimark\u2019s problem*]{}. Preprint available on the arXiv at .",
+  "language": "INFORMAL",
+  "phrase": "$\\Diamond$",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Diamond"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $h^*$ be a generalized cohomology theory (for example, let\n$h^*=H^*$, singular cohomology with integer coefficients). Let\n$\\xi\\to X$ be a vector bundle of dimension $d$ over a topological space\n$X$. Assume for convenience that $\\xi$ has a Riemannian metric, so that\nwe may speak of its associated sphere and disk bundles, $S(\\xi)$ and\n$D(\\xi)$ respectively.\n\nLet $x\\in X$, and consider the fibers $S(\\xi_x)$ and $D(\\xi_x)$. Since\n$D(\\xi_x)/S(\\xi_x)$ is homeomorphic to the $d$-sphere, the\nEilenberg-Steenrod axioms for $h^*$ imply that\n$h^{*+d}(D(\\xi_x),S(\\xi_x))$ is isomorphic to the coefficient group\n$h^*({\\mathrm{pt}})$ of $h^*$. In fact, $h^*(D(\\xi_x),S(\\xi_x))$ is a\nfree module of rank one over the ring $h^*({\\mathrm{pt}})$.\n\nAn element $\\tau\\in h^*(D(\\xi),S(\\xi))$ is said to be a *Thom class* for\n$\\xi$ if, for every $x\\in X$, the restriction of $\\tau$ to\n$h^*(D(\\xi_x),S(\\xi_x))$ is an $h^*({\\mathrm{pt}})$-module generator.\n\nNote that $\\tau$ lies necessarily in $h^d(D(\\xi),S(\\xi))$.\n\nIf a Thom class for $\\xi$ exists, $\\xi$ is said to be *orientable* with\nrespect to the cohomology theory $h^*$.\n\nNotice that we may consider $\\tau$ as an element of the reduced\n$h^*$-cohomology group ${\\tilde{h}}^*(X^\\xi)$, where $X^\\xi$ is the Thom\nspace $D(\\xi)/S(\\xi)$ of $\\xi$. As is the case in the definition of the\nThom space, the Thom class may be defined without reference to\nassociated disk and sphere bundles, and hence to a Riemannian metric on\n$\\xi$. For example, the pair $(\\xi,\\xi-X)$ (where $X$ is included in\n$\\xi$ as the zero section) is homotopy equivalent to $(D(\\xi),S(\\xi))$.\n\nIf $h^*$ is singular cohomology with integer coefficients, then $\\xi$\nhas a Thom class if and only if it is an orientable vector bundle in the\nordinary sense, and the choices of Thom class are in one-to-one\ncorrespondence with the orientations.",
+  "language": "INFORMAL",
+  "phrase": "Thom Class",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThomClass"
+    }
+  ],
+  "indexable": true
+}

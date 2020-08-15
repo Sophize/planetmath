@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*sparsely totient number*]{} is the largest integer with a given\ntotient. That is, given an sparsely totient number $n$, the inequality\n$\\phi(m) > \\phi(n)$ (with $\\phi(x)$ being Euler\u2019s totient function) is\ntrue for any $m > n$. For example, $\\phi(12) = 4$. We can then verify\nthat $\\phi(13) = 12$, $\\phi(14) = 6$ and $\\phi(15) = 8$. Accepting as\ntrue that the inequality $\\phi(n) > \\sqrt{n}$ holds for all $n > 6$, we\ndon\u2019t need to check any larger numbers to confirm that 12 is the largest\ninteger with 4 as its totient.\n\nThe first few sparsely totient numbers are 2, 6, 12, 18, 30, 42, 60, 66,\n90, 120, 126, 150, 210, 240, 270, 330, 420, 462, 510, 630, 660, 690,\n840, 870, etc., listed in A036913 of Sloane\u2019s OEIS.\n\nAll sparsely totient numbers are even. In 1986, Masser and Shiu proved\nthat the $i$th primorial multiplied by the $i$th prime (for $i > 1$,\nthus: 18, 150, 1470, 25410, 390390, etc.) is a sparsely totient number.\n\n[2]{} Roger C. Baker & Glyn Harman, \u201cSparsely totient numbers,\u201d\n[*Annales de la faculte des sciences de Toulouse Ser. 6*]{} [**5**]{}\nno. 2 (1996): 183 - 190 D. W. Masser & P. Shiu, \u201cOn sparsely totient\nnumbers,\u201d [*Pacific J. Math.*]{} [**121**]{}, no. 2 (1986): 407 - 426.",
+  "language": "INFORMAL",
+  "phrase": "Sparsely Totient Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SparselyTotientNumber"
+    }
+  ],
+  "indexable": true
+}

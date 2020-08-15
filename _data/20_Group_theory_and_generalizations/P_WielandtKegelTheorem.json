@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If a finite group is the product of two nilpotent subgroups, then it is\nsolvable.\n\nThat is, if $H$ and $K$ are nilpotent subgroups of a finite group $G$,\nand $G=HK$, then $G$ is solvable.\n\nThis result can be considered as a generalization of , because if a\ngroup $G$ is of order $p^m q^n$, where $p$ and $q$ are distinct primes,\nthen $G$ is the product of a and Sylow $q$-subgroup, both of which are\nnilpotent.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WielandtKegelTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Wielandt-Kegel theorem",
+    "Kegel-Wielandt theorem"
+  ]
+}

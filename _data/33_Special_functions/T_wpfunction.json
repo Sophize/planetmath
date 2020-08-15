@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "$\\wp$",
+    "Weierstrass $\\wp$ function",
+    "Weierstrass p-function",
+    "p-Weierstrass",
+    "Weierstrass $\\wp$-function"
+  ],
+  "definition": "Let $L$ be a lattice on ${\\mathbbmss{C}}$. The Weierstrass $\\wp$\nfunction associated to $L$ is given by\n$$\\wp(z) = \\frac{1}{z^2} + \\sum_{w\\in L\\setminus\\{0\\}} \\left(\\frac{1}{(z-w)^2} -  \\frac{1}{w^2} \\right).$$\n\nThe $\\wp$ function is meromorphic and analytic on\n${\\mathbbmss{C}}\\setminus L$, whereas at each $w\\in L$, it has an order\n$2$ pole. It is also an even function, because $\\wp(z)=\\wp(-z)$.\n\nIts derivative $$\\wp'(z)=-2\\sum_{w\\in L} \\frac{1}{(z-w)^3}$$ is also an\nodd, meromorphic, and elliptic function, analytic at\n${\\mathbbmss{C}}\\setminus L$ and having order $3$ poles at each\n$w\\in L$.\n\nThe functions $\\wp$ and $\\wp'$ form together a generator set for the\nfield of elliptic functions associated to the lattice $L$.",
+  "language": "INFORMAL",
+  "phrase": "$\\Wp$-Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/wpfunction"
+    }
+  ],
+  "indexable": true
+}

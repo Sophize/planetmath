@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose we have a set of $n$ congruences of the form\n$$\\begin{array}{ccc}\n x & \\equiv & a_1 \\pmod{p_1} \\\\\n x & \\equiv & a_2 \\pmod{p_2} \\\\\n   & \\vdots &  \\\\\nx & \\equiv & a_n \\pmod{p_n} \\\\\n\\end{array}$$ where $p_1, p_2, \\dots, p_n$ are relatively prime. Let\n$$P = \\prod_{i=1}^n p_i$$ and, for all $i \\in \\mathbb{N}$\n($1 \\leq i \\leq n$), let $y_i$ be an integer that satisfies\n$$y_i \\cdot \\frac{P}{p_i} \\equiv 1 \\pmod{p_i}$$ Then one solution of\nthese congruences is $$x_0 = \\sum_{i=1}^n a_iy_i \\cdot \\frac{P}{p_i}$$\nAny $x \\in \\mathbb{Z}$ satisfies the set of congruences if and only if\nit satisfies $$x \\equiv x_0 \\pmod{P}$$\n\nThe Chinese remainder theorem originated in the book *\u201cSun Zi Suan\nJing\u201d*, or Sun Tzu\u2019s Arithmetic Classic, by the Chinese mathematician\nSun Zi, or Sun Tzu, who also wrote \u201cSun Zi Bing Fa\u201d, or Sun Tzu\u2019s The\nArt of War. The theorem is said to have been used to count the size of\nthe ancient Chinese armies (i.e., the soldiers would split into groups\nof 3, then 5, then 7, etc, and the \u201cleftover\u201d soldiers from each\ngrouping would be counted).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChineseRemainderTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Chinese remainder theorem"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a [*B\u00e9zout ring*]{}, i.e. a commutative ring with non-zero\nunity where every finitely generated ideal is a principal ideal. If\n$a,\\,b,\\,c$ are three elements of $R$ such that $a$ and $b$ divide $c$\nand $\\gcd(a,\\,b) = 1$, then also $ab$ divides $c$.\n\n[*Proof.*]{} The divisibility assumptions that $c = aa_1 = bb_1$ where\n$a_1$ and $b_1$ are some elements of $R$. Because $R$ is a B\u00e9zout ring,\nthere exist such elements $x$ and $y$ of $R$ that\n$\\gcd(a,\\,b) = 1 = xa+yb$. This implies the equation\n$a_1 = xaa_1+yba_1 = xbb_1+yba_1$ which shows that $a_1$ is divisible by\n$b$, i.e. $a_1 = bb_2$, $b_2\\in R$. Consequently, $c = aa_1 = abb_2$, or\n$ab \\mid c$ Q.E.D.\n\n**Note 1.** The theorem may by induction be generalized for several of\n$c$.\n\n**Note 2.** The theorem holds e.g. in all B\u00e9zout domains, especially in\nprincipal ideal domains, such as $\\mathbb{Z}$ and polynomial rings over\na field.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DivisibilityByProduct"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "divisibility by product"
+  ]
+}

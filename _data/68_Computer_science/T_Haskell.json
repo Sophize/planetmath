@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[*Haskell*]{} is a computer programming language designed by a committee\nin 1990 to consolidate the best features of the many purely functional\nprogramming languages that were created in the late 1980s. Haskell is\nthus neither a procedural programming language nor an object-oriented\none, although it offers monads such as [do]{} to support procedural\nprogramming and classes with inheritance to support object-oriented\nprogramming (there is also a variant of Haskell called O\u2019Haskell which\nincludes more support for object-oriented programming). In general,\nHaskell programs are most naturally written declaratively.\n\nThe standard version of the language is Haskell 98; Haskell 2007 hasn\u2019t\nbeen released yet but is expected to be only a minor revision of Haskell\n98.\n\nThe standard Haskell prelude includes the function [gcd]{}, which\ncomputes the greatest common divisor of two integers. The following\nHaskell code is a reimplementation of the [gcd]{} function.\n\n    -- gcd.hs -- compute the gcd of two integers\n    -- View this page in TeX mode for documentation and license.\n\n    mygcd :: Int -> Int -> Int\n    mygcd m n\n      | (n < 0)   = mygcd m (abs n)\n      | (n == 0)  = m\n      | (m < n)   = mygcd n m\n      | otherwise = mygcd n (mymod m n)\n\n    mydiv :: Int -> Int -> Int\n    mydiv m n\n      | (m < 0)   = negate (mydiv (negate m) n)\n      | (n < 0)   = negate (mydiv m (negate n))\n      | (m < n)   = 0\n      | otherwise = 1 + mydiv (m-n) n\n\n    mymod :: Int -> Int -> Int\n    mymod m n = m - n * (mydiv m n)",
+  "language": "INFORMAL",
+  "phrase": "Haskell",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Haskell"
+    }
+  ],
+  "indexable": true
+}

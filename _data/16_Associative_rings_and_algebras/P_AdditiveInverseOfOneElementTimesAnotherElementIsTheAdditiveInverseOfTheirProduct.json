@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a ring. For all $x,y \\in R$\n\n$(-x)\\cdot y = x\\cdot (-y) = -(x\\cdot y)$\n\nAll we need to prove is that\n$(-x)\\cdot y + x\\cdot y = x\\cdot (-y) + x\\cdot y = 0$\n\nNow: $(-x)\\cdot y + x\\cdot y = ((-x) + x)\\cdot y$ by distributivity.\n\nSince $(-x)+x=0$ by definition and for all $y$, $0\\cdot y=0$ we get:\n\n$(-x)\\cdot y + x\\cdot y = 0\\cdot y = 0$ and thus\n$(-x)\\cdot y = - (x\\cdot y)$\n\nFor $x\\cdot (-y)$, use the previous properties of rings to show that\n\n$x\\cdot (-y) + x\\cdot y = x\\cdot ((-y) +y) = x\\cdot 0 = 0$\n\nand thus $x \\cdot (-y) = - (x\\cdot y)$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdditiveInverseOfOneElementTimesAnotherElementIsTheAdditiveInverseOfTheirProduct"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "additive inverse of one element times another element is the additive inverse of their product"
+  ]
+}

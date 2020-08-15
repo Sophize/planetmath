@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "finite projective module"
+  ],
+  "definition": "Let $R$ be a unital ring. A finitely generated projective right\n$R$-module is of the form $eR^n$, $n \\in {\\mathbb{N}}$, where $e$ is an\nidempotent in ${\\mathop{\\mathrm{End}}\\nolimits}_R(R^n)$.\n\nLet $A$ be a unital $C^*$-algebra and $p$ be a projection in\n${\\mathop{\\mathrm{End}}\\nolimits}_A(A^n)$, $n \\in {\\mathbb{N}}$. Then,\n${\\mathord{\\mathcal{E}}}= pA^n$ is a finitely generated projective right\n$A$-module. Further, ${\\mathord{\\mathcal{E}}}$ is a pre-Hilbert\n$A$-module with ($A$-valued) inner product\n$$\\langle u,v \\rangle = \\sum_{i=1}^n u_i^* v_i, \\quad u,v \\in {\\mathord{\\mathcal{E}}}.$$",
+  "language": "INFORMAL",
+  "phrase": "Finitely Generated Projective Module",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FinitelyGeneratedProjectiveModule"
+    }
+  ],
+  "indexable": true
+}

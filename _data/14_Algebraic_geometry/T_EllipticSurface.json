@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $k$ be a field and let $C/k$ be a smooth projective curve defined\nover the field $k$ and has genus $g$. The function field of $C/k$ will\nbe denoted by $K=k(C)$. An elliptic surface ${\\mathcal{E}}$ over the\ncurve $C$ is, by definition, a two-dimensional projective variety\ntogether with:\n\n1.  A morphism $\\pi: {\\mathcal{E}}\\to C$ such that for all but finitely\n    many points $t\\in C(\\overline{k})$, the fiber\n    ${\\mathcal{E}}_t=\\pi^{-1}(t)$ is a non-singular curve of genus $1$,\n\n2.  A section to $\\pi$ (the [*zero section*]{}) $\\sigma_0: C \\to\n    {\\mathcal{E}}$.\n\nWith this definition, ${\\mathcal{E}}/K$ may be regarded as an elliptic\ncurve over the field $K$.\n\nThe surface $y^2=x^3+t$ is an elliptic surface over the curve\n$\\mathbb{P}^1({\\mathbb{Q}})$. It may be regarded as an elliptic curve\nover the function field ${\\mathbb{Q}}(t)$.\n\n[00]{}\n\nR. Miranda, [*The basic theory of elliptic surfaces*]{}, Dottorato di\nRicerca in Matematica, Dipartimento di Mathematica dell\u2019 Universit\u00c3\u00a0 di\nPisa, ETS Editrice Pisa, 1989.\n\nJ. Silverman, [*Advanced Topics in the Arithmetic of Elliptic\nCurves*]{}, Graduate Texts in Mathematics 151, Springer-Verlag, New\nYork.",
+  "language": "INFORMAL",
+  "phrase": "Elliptic Surface",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EllipticSurface"
+    }
+  ],
+  "indexable": true
+}

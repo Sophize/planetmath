@@ -1,0 +1,17 @@
+{
+  "argumentText": "We will first prove the formula when $A=I$.\n\nSuppose that $R^{-1}+Y^TX$ is invertible. Thus\n$$(R^{-1}+Y^TX)(R^{-1}+Y^TX)^{-1} = I.$$ and\n$$R^{-1}(R^{-1}+Y^TX)^{-1}+Y^TX(R^{-1}+Y^TX)^{-1} = I.$$\n\nMultiply by $XR$ from the left, and multiply by $Y^T$ from the right, we\nget $$X(R^{-1}+Y^TX)^{-1}Y^T + XR Y^TX(R^{-1}+Y^TX)^{-1}Y^T = XRY^T.$$\n\nThe right hand side is equal to $B-I$, while the left hand side can be\nfactorized as $$(I+XRY^T)X(R^{-1}+Y^TX)^{-1}Y^T.$$\n\nSo, $$B\\cdot (X(R^{-1}+Y^TX)^{-1}Y^T) = B-I.$$ After rearranging, we\nobtain $$I =  B(I-X(R^{-1}+Y^TX)^{-1}Y^T).$$\n\nTherefore $$(I+XRY^T)^{-1}  =\nI-X(R^{-1}+Y^TX)^{-1}Y^T \\tag{*}$$\n\nFor the general case $B=A+XRY^T$, consider $$BA^{-1} = I+XRY^TA^{-1}.$$\nWe can apply (\\*) with $Y^T$ replaced by $Y^TA^{-1}$.",
+  "conclusion": "#P_InverseOfMatrixWithSmallrankAdjustment",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfInverseOfMatrixWithSmallrankAdjustment"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of inverse of matrix with small-rank adjustment"
+  ]
+}

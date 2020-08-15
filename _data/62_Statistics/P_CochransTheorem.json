@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\textbf{X}$ be multivariate normally distributed as\n$\\boldsymbol{N_p(0,I)}$ such that\n$$\\textbf{X}^{\\operatorname{T}}\\textbf{X}=\\sum_{i=1}^{k}Q_i,$$ where\neach\n\n1.  $Q_i$ is a quadratic form\n\n2.  $Q_i=\\textbf{X}^{\\operatorname{T}}\\textbf{B}_i\\textbf{X}$, where\n    $\\textbf{B}_i$ is a $p$ by $p$ square matrix\n\n3.  $\\textbf{B}_i$ is positive semidefinite\n\n4.  $\\operatorname{rank}(\\textbf{B}_i)=r_i$\n\nThen any two of the following imply the third:\n\n1.  $\\sum_{i=1}^{k}r_i=p$\n\n2.  each $Q_i$ has a with $r_i$ of freedom, $\\chi^2(r_i)$\n\n3.  $Q_i$\u2019s are mutually independent\n\nAs an example, suppose ${X_1}^2\\sim\\chi^2(m_1)$ and\n${X_2}^2\\sim\\chi^2(m_2)$. Furthermore, assume ${X_1}^2\\geq {X_2}^2$ and\n$m_1>m_2$, then $${X_1}^2-{X_2}^2\\sim\\chi^2(m_1-m_2).$$ This corollary\nis known as *Fisher\u2019s theorem*.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CochransTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cochran's theorem"
+  ]
+}

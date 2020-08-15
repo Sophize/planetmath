@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "left notation"
+  ],
+  "definition": "We are said to be using if we write functions to the left of their\narguments. That is, if $\\alpha : X \\to Y$ is a function and $x \\in X$,\nthen $\\alpha x$ is the image of $x$ under $\\alpha$.\n\nFurthermore, if we have a function $\\beta : Y \\to Z$, then we write the\ncomposition of the two functions as $\\beta \\alpha : X \\to Z$, and the\nimage of $x$ under the composition as\n$\\beta \\alpha x = (\\beta \\alpha) x = \\beta(\\alpha x)$.\n\nCompare this to right function notation.",
+  "language": "INFORMAL",
+  "phrase": "Left Function Notation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeftFunctionNotation"
+    }
+  ],
+  "indexable": true
+}

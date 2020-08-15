@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $F$ be a finite field of characteristic $p$, and let $f$ and $g$ be\ndistinct monic irreducible (non-constant) polynomials in the polynomial\nring $F[X]$. Define the [*Legendre symbol*]{} $\\left(\\frac{f}{g}\\right)$\nby $$\\left(\\frac{f}{g}\\right) :=\n\\begin{cases}\n1 & \\text{ if $f$ is a square in the quotient ring $F[X]/(g)$,} \\\\\n-1 & \\text{ otherwise.}\n\\end{cases}$$ The quadratic reciprocity theorem for polynomials over a\nfinite field states that\n$$\\left(\\frac{f}{g}\\right) \\left(\\frac{g}{f}\\right) = (-1)^{\\frac{p-1}{2} \\deg(f) \\deg(g)}.$$\n\n[9]{} Feng, Ke Qin and Ying, Linsheng, [*An elementary proof of the law\nof quadratic reciprocity in $F\\sb q(T)$.*]{} Sichuan Daxue Xuebao\n[**26**]{} (1989), Special Issue, 36\u201340. Merrill, Kathy D. and Walling,\nLynne H., [*On quadratic reciprocity over function fields.*]{} Pacific\nJ. Math. [**173**]{} (1996), no. 1, 147\u2013150.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuadraticReciprocityForPolynomials"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "quadratic reciprocity for polynomials"
+  ]
+}

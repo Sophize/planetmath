@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let us consider skew-angled triangles. If one knows three parts of a\ntriangle, among which at least one side, then the other parts may be\ncalculated by using the law of sines and the law of cosines. We\ndistinguish four cases:\n\n1.  **ASA.** Known two angles and one side, e.g. $\\alpha$, $\\beta$, $c$.\n    Other parts: $$\\gamma = 180\\sp\\circ\\!-\\!(\\alpha\\!+\\!\\beta), \\quad\n    a = \\frac{c\\sin\\alpha}{\\sin\\gamma},\\quad b = \\frac{c\\sin\\beta}{\\sin\\gamma}$$\n\n    ![ASA (angle-side-angle)](triangle.1.eps)\n\n2.  **SSS.** Known all sides $a$, $b$, $c$. The angles are obtained from\n    $$\\cos\\alpha = \\frac{b^2\\!+\\!c^2\\!-\\!a^2}{2bc},\n     \\quad\\cos\\beta = \\frac{c^2\\!+\\!a^2\\!-\\!b^2}{2ca}, \n     \\quad\\cos\\gamma = \\frac{a^2\\!+\\!b^2\\!-\\!c^2}{2ab}.$$\n\n    ![SSS (side-side-side)](triangle.2.eps)\n\n3.  **SAS.** Known two sides and the angle between them, e.g. $b$, $c$,\n    $\\alpha$. Other parts from\n    $$a^2 = b^2\\!+\\!c^2\\!-\\!2bc\\cos\\alpha, \\quad \\sin\\beta = \\frac{b\\sin\\alpha}{a}, \n    \\quad \\sin\\gamma = \\frac{c\\sin\\alpha}{a}$$\n\n    ![SAS (side-angle-side)](triangle.3.eps)\n\n4.  **SSA.** Known two sides and the angle of one of them, e.g. $a$,\n    $b$, $\\alpha$. Other parts are gotten from\n    $$\\sin\\beta = \\frac{b\\sin\\alpha}{a},\n     \\quad \\gamma = 180\\sp\\circ\\!-\\!(\\alpha\\!+\\!\\beta), \n     \\quad c = \\frac{a\\sin\\gamma}{\\sin\\alpha}.$$\n\n    ![SSA (side-side-angle)](triangle.4.eps)\n\n    Since the SSA criterion alone does not prove congruence, it is not\n    surprising that there may not always be a single solution for\n    $\\beta$ here. In fact, if the first equation gives $\\sin\\beta > 1$,\n    then the situation is impossible and the triangle does not exist. If\n    the equation gives $\\sin\\beta < 1$, one gets two distinct values of\n    $\\beta$; an acute $\\beta_1$ and an obtuse\n    $\\beta_2 = 180\\sp\\circ-\\beta_1$. If in this case $\\beta_1 > \\alpha$,\n    then there are two different triangles as , but if\n    $\\beta_1 \\le \\alpha$, then there is only one triangle.\n\n-",
+  "language": "INFORMAL",
+  "phrase": "Triangle Solving",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TriangleSolving"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "From the theorem in the parent article - that an $A$-module $M$ has a\ncomposition series if and only if it satisfies both chain conditions -\nit is easy to see that\n\nLet $k$ be a field, $V$ a $k$-vector space. Then the following are\nequivalent:\n\n1.  $V$ is finite-dimensional;\n\n2.  $V$ has a composition series;\n\n3.  $V$ satisfies the ascending chain condition (acc);\n\n4.  $V$ satisfies the descending chain condition (dcc).\n\nClearly (1) $\\Rightarrow$ (2), since submodules are just subspaces. (2)\n$\\Rightarrow$ (3) and (2) $\\Rightarrow$ (4) from the parent article. So\nit remains to see that (3) $\\Rightarrow$ (1) and (4) $\\Rightarrow$ (1).\nBut if $V$ is infinite-dimensional, we can choose a sequence\n$\\{x_i\\}_{i\\ge 1}$ of linearly independent elements. Let $U_n$ be the\nsubspace spanned by $x_1,\\dotsc,x_n$ and $V_n$ the subspace spanned by\n$x_{n+1},x_{n+2},\\dots$. Then the $U_i$ form a strictly ascending\ninfinite family of subspaces, so $V$ does not satisfy the ascending\nchain condition; the $V_i$ form a strictly descending infinite family of\nsubspaces, so $V$ does not satisfy the descending chain condition.\n\nThis easily implies the following:\n\nLet $A$ be a ring in which $(0) = {\\mathfrak{m}}_1\\dots{\\mathfrak{m}}_n$\nwhere the ${\\mathfrak{m}}_i$ are (not necessarily distinct) maximal\nideals. Then $A$ is Noetherian if and only if $A$ is Artinian.\n\nWe have the sequence of ideals\n$$A \\supset {\\mathfrak{m}}_1 \\supset {\\mathfrak{m}}_1{\\mathfrak{m}}_2 \\supset\\dots\\supset {\\mathfrak{m}}_1\\dots{\\mathfrak{m}}_n = 0$$\nEach factor\n${\\mathfrak{m}}_1\\dots{\\mathfrak{m}}_{i-1}/{\\mathfrak{m}}_1\\dots{\\mathfrak{m}}_i$\nis a vector space over the field $A/{\\mathfrak{m}}_i$. By the above\ntheorem, each quotient satisfies the acc if and only if it satisfies the\ndcc. But by repeatedly applying the fact that in a short exact sequence,\nthe middle term satisfies the acc (dcc) if and only if both ends do, we\nsee that $A$ satisfies the acc if and only if it satisfies the dcc.\n\n[10]{} M.F.\u00a0Atiyah, I.G.\u00a0MacDonald, *Introduction to Commutative\nAlgebra*, Addison-Wesley 1969.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChainConditionsInVectorSpaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "chain conditions in vector spaces"
+  ]
+}

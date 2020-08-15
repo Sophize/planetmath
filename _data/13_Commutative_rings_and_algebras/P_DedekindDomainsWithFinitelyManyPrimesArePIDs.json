@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A commutative ring in which there are only finitely many maximal ideals\nis known as a semi-local ring. For such rings, the property of being a\nDedekind domain and of being a principal ideal domain coincide.\n\nA Dedekind domain in which there are only finitely many prime ideals is\na principal ideal domain.\n\nThis result is sometimes proven using the chinese remainder theorem or,\nalternatively, it follows directly from the fact that invertible ideals\nin semi-local rings are principal.\n\nSuppose that $R$ is a Dedekind domain such as the ring of algebraic\nintegers in a number field. Although there are infinitely many prime\nideals in such a ring, we can use the result that localizations of\nDedekind domains are Dedekind and apply the above theorem to\nlocalizations of $R$.\n\nIn particular, if $\\mathfrak{p}$ is a nonzero prime ideal, then\n$R_\\mathfrak{p}\\equiv(R\\setminus\\mathfrak{p})^{-1}R$ is a Dedekind\ndomain with a unique nonzero prime ideal, so the theorem shows that it\nis a principal ideal domain.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DedekindDomainsWithFinitelyManyPrimesArePIDs"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Dedekind domains with finitely many primes are PIDs"
+  ]
+}

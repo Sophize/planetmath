@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "exchangeable stochastic process"
+  ],
+  "definition": "A finite set of random variables $\\lbrace X_1,\\ldots,X_n \\rbrace$\ndefined on a common probablility space $(\\Omega, \\mathcal{F}, P)$ is\nsaid to be *exchangeable* if\n$$P\\big((X_1\\in B_1)\\cap\\cdots\\cap(X_n\\in B_n)\\big)=P\\big((X_{\\sigma(1)}\\in B_1)\\cap\\cdots\\cap(X_{\\sigma(n)}\\in B_n)\\big)$$\nfor every set of Borel sets $\\lbrace B_1,\\ldots, B_n\\rbrace$, and every\npermutation $\\sigma\\in S_n$. In other words, $X_1,\\ldots,X_n$ are\nexchangeable if their joint probability distribution function is the\nsame regardless of their order.\n\nA stochastic process $\\lbrace X_i\\rbrace$ is said to be *exchangeable*\nif every finite subset of $\\lbrace X_i\\rbrace$ is exchangeable.\n\n**Remarks**\n\n-   If $S=\\lbrace X_1,\\ldots,X_n \\rbrace$ is exchangeable, then every\n    subset of $S$ is exchangeable (by picking suitable $B_i$ and\n    $\\sigma$). In particular, all $X_i$ are identically distributed, for\n    $$P(X_i\\in B)=P\\big((X_i\\in B)\\cap(X_j\\in \\mathbb{R})\\big)=P\\big((X_j\\in B)\\cap(X_i\\in \\mathbb{R})\\big)=P(X_j\\in B).$$\n\n-   If $S=\\lbrace X_1,\\ldots,X_n\\rbrace$ is iid, then $S$ is\n    exchangeable, since the joint distribution of $X_i$ is the product\n    of the distributions of $X_i$:\n    $$P\\big((X_1\\in B_1)\\cap\\cdots\\cap(X_n\\in B_n)\\big)=P(X_{\\sigma(1)}\\in B_1)\\big)\\cdots P(X_{\\sigma(n)}\\in B_n)\\big).$$",
+  "language": "INFORMAL",
+  "phrase": "Exchangeable Random Variables",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExchangeableRandomVariables"
+    }
+  ],
+  "indexable": true
+}

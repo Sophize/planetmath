@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *category $Rep({{\\mathsf{G}}})$ of representations* has objects the\nrepresentations of a groupoid ${{\\mathsf{G}}}$, and as morphisms the\n*intertwiners* $i : \\rho_j \\longrightarrow \\rho_k$ that are (vector)\nbundle morphisms $i:E \\longrightarrow E$ over the manifold $M$ so that\n$\\rho_k(g) \\circ i = i \\circ \\rho_j$. Because representations are\nfunctors $\\rho: {{\\mathsf{G}}}\\longrightarrow {\\bf Vect}$, an itertwiner\n$i$ is in fact a natural transformation between two such functors that\nare groupoid representations of ${{\\mathsf{G}}}$, in this case\nimplemented [*via*]{} the vector bundle morphisms\n$i: E \\longrightarrow E$.",
+  "language": "INFORMAL",
+  "phrase": "Category Of Representations",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CategoryOfRepresentations"
+    }
+  ],
+  "indexable": true
+}

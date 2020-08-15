@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given a semigroup $S$ and an $n\\in \\mathbb{Z}^+$ then the function\n$f:S\\rightarrow S$ defined by $f(a)=a^n$ has an SLP representations of\ncomputational length $O(\\log_2 n)$. Inparticular, if we can compute\n$a^n$ using only $O(\\log_2 n)$ multiplications.\n\nLet $f_{0}:S\\rightarrow S$ be the map $f(x)=x$ and $f_1:S\\rightarrow S$\nbe defined by $f_1(x)=xx$. So far we recognize that $f_0(x)$ evaluates\nto $x^1=x^{2^0}$ and $f_1(x)$ evaluates to $x^2=x^{2^1}$. *But we\ncaution that we do not define these functions with exponents because we\nwant to demonstrate that from an algorithm to multiply we can create an\nefficient algorithm to exponentiate.*\n\nFor $1<i\\leq k$ define (recalling that $f_{i+1}$ may use the output of\nany previous $f_i$ evaluation) $$f_{i+1}(x):=f_1(f_i(x)).$$ Evidently,\n$f_{i+1}(x)$ evaluates to $f_i(x)^2$. By induction, $f_i(x)$ evaluates\nto $x^{2^i}$ and thus $f_{i+1}(x)$ evaluates to\n$(x^{2^i})^2=x^{2^{i+1}}$. Therefore we establish that $f_j(x)=x^{2^j}$\nfor all nonnegative integers $j$. Furthermore, to evaluate $f_j(x)$ uses\n$j$ multiplications.\n\nNow write $n$ in binary: $n=a_0 2^0+a_1 2^1 +\\cdots +a_k 2^k$ with\n$a_i=0,1$ for $0\\leq i< k\\leq \\log_2 n$. Let\n$0\\leq i_1<i_2<\\cdots<i_s\\leq k$ be the indices for which\n$a_{i_t}\\neq 0$, $1\\leq t\\leq s$. Then define\n$$g_{n}(x)=f_{i_1}(x) f_{i_2}(x)\\cdots f_{i_s}(x)$$ Thus, $g_n(x)$\nevaluates to: $$\\begin{aligned}\n(x^{2^{i_1}}) (x^{2^{i_2}}) \\cdots (x^{2^{i_s}}) & =\n (x^{2^0})^{a_0} (x^{2^1})^{a_1} \\cdots (x^{2^k})^{a_k}\\\\\n& = x^{a_0 2^0+a_1 2^1+\\cdots +a_k 2^k}\\\\\n& = x^n.\\end{aligned}$$ Because each $f_{i+1}(x)$ uses the output of\n$f_{i}(x)$, the cost of evaluating $g_n$ is the cost of evaluating\n$f_{i_s}(x)$ plus the final cost of multiplying\n$f_{i_1}(x)\\cdots f_{i_s}(x)$. Thus, evaluating $g_n$ uses $i_s+(s-1)$\nmultiplications. As $s\\leq \\log_2 n$ it follows that evaluating $g_n$\nuses no more than $2\\log_2 n$ multiplications.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MethodOfRepeatedSquaring"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "method of repeated squaring",
+    "successive squaring"
+  ]
+}

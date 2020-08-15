@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Proposition**. If for any topological spaces $X$ and $Y$ the\n$n$-dimensional sphere $\\mathbb{S}^{n}$ is homeomorphic to $X\\times Y$,\nthen either $X$ has exactly one point or $Y$ has exactly one point.\n\n*Proof*. Recall that the homotopy group functor is additive, i.e.\n$\\pi_{n}(X\\times Y)\\simeq\\pi_{n}(X)\\oplus\\pi_{n}(Y)$. Assume that\n$\\mathbb{S}^{n}$ is homeomorphic to $X\\times Y$. Now\n$\\pi_{n}(\\mathbb{S}^{n})\\simeq\\mathbb{Z}$ and thus we have:\n$$\\mathbb{Z}\\simeq\\pi_{n}(\\mathbb{S}^{n})\\simeq\\pi_{n}(X\\times Y)\\simeq\\pi_{n}(X)\\oplus\\pi_{n}(Y).$$\nSince $\\mathbb{Z}$ is an indecomposable group, then either\n$\\pi_{n}(X)\\simeq 0$ or $\\pi_{n}(Y)\\simeq 0$.\n\nAssume that $\\pi_{n}(Y)\\simeq 0$. Consider the map $p:X\\times Y\\to Y$\nsuch that $p(x,y)=y$. Since $X\\times Y$ is homeomorphic to\n$\\mathbb{S}^{n}$ and $\\pi_{n}(Y)\\simeq 0$, then $p$ is homotopic to some\nconstant map. Let $y_0\\in Y$ and $H:\\mathrm{I}\\times X\\times Y\\to Y$ be\nsuch that $$H(0,x,y)=p(x,y)=y;$$ $$H(1,x,y)=y_0.$$ Consider the map\n$F:\\mathrm{I}\\times X\\times Y\\to X\\times Y$ defined by the formula\n$$F(t,x,y)=(x,H(t,x,y)).$$ Note that $F(0,x,y)=(x,y)$ and\n$F(1,x,y)=(x,y_{0})$ and thus $X\\times\\{y_0\\}$ is a deformation retract\nof $X\\times Y$. But $X\\times Y$ is a sphere and spheres do not have\nproper deformation retracts (please see for more details). Therefore\n$X\\times\\{y_{0}\\}=X\\times Y$, so $Y=\\{y_{0}\\}$ has exactly one point.\n$\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheSphereIsIndecomposableAsATopologicalSpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the sphere is indecomposable as a topological space"
+  ]
+}

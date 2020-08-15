@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Sorgenfrey's half-open square topology",
+    "Sorgenfrey plane"
+  ],
+  "definition": "The *Sorgenfrey plane* is the product of the Sorgenfrey line with\nitself. This topology can also be described as the topology on\n$\\mathbb{R}^2$ which arises from the basis\n$\\{ [a,b) \\times [c,d) \\mid a,b,c,d \\in \\mathbb{R}, a < b , c < d \\}$.\n\nIt is interesting to note that, even though the Sorgenfrey line enjoys\nthe , the Sorgenfrey plane does not. To see this, one can note that the\nline $x + y = 0$ is a closed subset in this topology and that the\ninduced topology on this line is the discrete topology. Since the\nLindel\u00f6f property is weakly hereditary, the discrete topology on the\nreal line would have to be Lindel\u00f6f if the Sorgenfrey plane topology\nwere Lindel\u00f6f. However, the discrete topology on an uncountable set can\nnever have the Lindel\u00f6f property, so the Sorgenfrey topology cannot have\nthis property either.\n\n[**Reference**]{}\n\nSorgenfrey, R. H. *On the Topological Product of Paracompact Spaces*,\nBulletin of the American Mathematical Society, (1947) 631-632",
+  "language": "INFORMAL",
+  "phrase": "Sorgenfrey Half-Open Plane",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SorgenfreyHalfopenPlane"
+    }
+  ],
+  "indexable": true
+}

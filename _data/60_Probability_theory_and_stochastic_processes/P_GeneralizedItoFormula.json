@@ -1,0 +1,19 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The generalized It\u00f4 formula, or *generalized It\u00f4\u2019s lemma*, is an\nextension of that applies also to discontinuous processes. For a cadlag\nprocess $X$, we write $\\Delta X_t\\equiv X_t-X_{t-}$ for its jump at time\n$t$.\n\nSuppose that $X=(X^1,\\ldots,X^n)$ is a semimartingale taking values in\nan open subset $U$ of $\\mathbb{R}^n$ and\n$f\\colon U\\rightarrow\\mathbb{R}$ is twice continuously differentiable.\nThen, $$\\label{eq:1}\\begin{split}\ndf(X_s)=&\\sum_{i=1}^n f_{,i}(X_{t-})\\,dX^i_t + \\frac{1}{2}\\sum_{i,j=1}^nf_{,ij}(X_{t-})\\,d[X^i,X^j]^c_t\\\\\n& + \\left(\\Delta f(X_t)-\\sum_{i=1}^n f_{,i}(X_{t-})\\,\\Delta X^i_t\\right).\n\\end{split}$$\n\nHere, $[X^i,X^j]^c$ represents the continuous part of the quadratic\ncovariation,\n$$[X^i,X^j]^c_t=[X^i,X^j]_t-\\sum_{s\\le t}\\Delta X^i_s\\Delta X^j_s$$\nwhich is a continuous finite variation process. The final term on the\nright hand side of (\\[eq:1\\]) involving the jumps of $X$ represents the\ndifferential $dZ$ of the process\n$$Z_t=\\sum_{s\\le t}\\left(\\Delta f(X_s)-\\sum_{i=1}^n f_{,i}(X_{s-})\\,\\Delta X^i_s\\right).$$\nThis is indeed a well defined finite variation process, as the sum of\nthe absolute values\n$$\\sum_{s\\le t}\\left|\\Delta f(X_s)-\\sum_{i=1}^n f_{,i}(X_{s-})\\,\\Delta X^i_s\\right|\n\\le K\\sum_{s\\le t}\\Vert \\Delta X_s\\Vert^2\\le K\\sum_{i=1}^n [X^i]_t$$ is\nfinite. Here, $K$ is a finite random variable, and this bound follows\nfrom expanding $f$ as a Taylor series to second order.\n\nThe reason for using differential notation and writing the formula in\nterms of the continuous part of the quadratic covariation should be\nclear when it is considered that writing out the expression in full\ngives the following rather messy formula. $$\\begin{split}\n&f(X_t)=f(X_0)+\\sum_{i=1}^n \\int_0^tf_{,i}(X_{s-})\\,dX^i_s + \\frac{1}{2}\\sum_{i,j=1}^n\\int_0^tf_{,ij}(X_{s-})\\,d[X^i,X^j]_s\\\\\n&\\ + \\sum_{s\\le t}\\left(\\Delta f(X_s)-\\sum_{i=1}^n f_{,i}(X_{s-})\\,\\Delta X^i_s-\\frac{1}{2}\\sum_{i,j=1}^n\\int_0^tf_{,ij}(X_{s-})\\,\\Delta X^i_s\\Delta X^j_s\\right).\n\\end{split}$$ This formula may be understood as for continuous processes\ntogether with an additional term to ensure that the jumps of the right\nhand side are equal to $\\Delta f(X_t)$. The need for this adjustment\nterm comes from the fact that It\u00f4\u2019s formula for continuous processes is\nessentially a Taylor expansion to second order, which only applies when\nthe increments $\\delta X_t=X_{t+\\delta t}-X_t$ vanish in the limit of\nsmall $\\delta t$. This needs adjusting whenever the process jumps.\n\nThe first term on the right hand side of (\\[eq:1\\]) is a stochastic\nintegral and, hence, is a semimartingale. As the remaining terms are\nfinite variation processes, the following consequence is obtained.\n\nSuppose that $X=(X^1,\\ldots,X^n)$ is a semimartingale taking values in\nan open subset $U$ of $\\mathbb{R}^n$ and\n$f\\colon U\\rightarrow\\mathbb{R}$ is twice continuously differentiable.\nThen $f(X)$ is a semimartingale.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedItoFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "generalized Ito formula",
+    "generalized It\\^o formula",
+    "generalized It\\\"o formula",
+    "generalized Ito's lemma",
+    "generalized It\\^o's lemma",
+    "generalized It\\\"o's lemma"
+  ]
+}

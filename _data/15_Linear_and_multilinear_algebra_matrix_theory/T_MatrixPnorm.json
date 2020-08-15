@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A class of matrix norms, denoted $\\Vert\\cdot\\Vert_p$, is defined as\n\n$$\\Vert\\,A\\,\\Vert_p = \\sup_{x\\neq0}\\frac{\\Vert\\,Ax\\,\\Vert_p}{\\Vert\\,x\\,\\Vert_p}\n\\qquad{}x\\in\\mathbb{R}^n,A\\in\\mathbb{R}^{m\\times n}.$$\n\nThe matrix $p$-norms are defined in terms of the **.\n\nAn alternate definition is\n\n$$\\Vert\\,A\\,\\Vert_p = \\max_{\\Vert\\,x\\,\\Vert_p=1}\\Vert\\,Ax\\,\\Vert_p.$$\n\nAs with vector $p$-norms, the most important are the 1, 2, and $\\infty$\nnorms. The 1 and $\\infty$ norms are very easy to calculate for an\narbitrary matrix:\n\n$$\\begin{array}{ll}\n    \\Vert\\,A\\,\\Vert_1 & = \\displaystyle\\max_{1\\leq j\\leq n}\\sum_{i=1}^m|a_{ij}| \\\\\n    \\Vert\\,A\\,\\Vert_\\infty & = \\displaystyle\\max_{1\\leq i\\leq m}\\sum_{j=1}^n|a_{ij}|.\n\\end{array}$$\n\nIt directly follows from this that\n$\\Vert\\,A\\,\\Vert_1 = \\Vert\\,A^T\\,\\Vert_\\infty$.\n\nThe calculation of the $2$-norm is more complicated. However, it can be\nshown that the 2-norm of $A$ is the square root of the largest\n*eigenvalue* of $A^TA$. There are also various inequalities that allow\none to make estimates on the value of $\\Vert\\,A\\,\\Vert_2$:\n\n$$\\frac{1}{\\sqrt{n}}\\Vert\\,A\\,\\Vert_\\infty \\leq \\Vert\\,A\\,\\Vert_2 \\leq \\sqrt{m}\\Vert\\,A\\,\\Vert_\\infty.$$\n\n$$\\frac{1}{\\sqrt{m}}\\Vert\\,A\\,\\Vert_1 \\leq \\Vert\\,A\\,\\Vert_2 \\leq \\sqrt{n}\\Vert\\,A\\,\\Vert_1 .$$\n\n$$\\Vert\\,A\\,\\Vert_2^2\\leq\\Vert\\,A\\,\\Vert_\\infty\\cdot\\Vert\\,A\\,\\Vert_1.$$\n\n$$\\Vert\\,A\\,\\Vert_2 \\leq \\Vert\\,A\\,\\Vert_F\\leq\\sqrt{n}\\Vert\\,A\\,\\Vert_2.$$\n\n($\\Vert\\,A\\,\\Vert_F$ is the *Frobenius matrix norm*)",
+  "language": "INFORMAL",
+  "phrase": "Matrix P-Norm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MatrixPnorm"
+    }
+  ],
+  "indexable": true
+}

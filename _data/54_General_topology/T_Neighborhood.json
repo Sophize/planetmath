@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "neighbourhood"
+  ],
+  "definition": "The meaning of the word neighborhood in topology is not well\nstandardized. For most authors, a *neighborhood* of a point $x$ in a\ntopological space $X$ is an open subset $U$ of $X$ which contains $x$.\nIf $X$ is a metric space, then an open ball around $x$ is one example of\na neighborhood. Unless otherwise specified, this definition of\nneighborhood predominantes on this site.\n\nMore generally, a neighborhood of any subset $S$ of $X$ is defined to be\nan open set of $X$ containing $S$.\n\nSome authors use the word neighborhood to denote any subset $U$ that\ncontains an open subset containing $x$. This alternative usage has the\nadvantage that it is easier to develop the theory of filters for\ntopological spaces. At the other extreme, some analysis texts which deal\nonly in metric spaces define a neighborhood to be an open ball around a\npoint $x$.\n\nTopologists tolerate this ambiguity because the most common usage, \u201c$S$\ncontains a neighborhood of $x$\u201d is unaffected by the choice. In fact,\nalmost any argument involving neighborhoods would be unaffected by\nshrinking a neighborhood to a smaller open set or to an open ball (in\nthe context of metric spaces).\n\nA *deleted neighborhood* of $x$ is an open set of the form\n$U \\setminus \\{x\\}$, where $U$ is an open subset of $X$ which contains\n$x$.",
+  "language": "INFORMAL",
+  "phrase": "Neighborhood",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Neighborhood"
+    }
+  ],
+  "indexable": true
+}

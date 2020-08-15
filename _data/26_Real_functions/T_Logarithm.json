@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "#### Definition.\n\nThree real numbers $x, y, p$, with $x,y>0$ and $x \\neq 1$, are said to\nobey the logarithmic relation $$\\log_x(y)= p$$ if they obey the\ncorresponding exponential relation: $$x^p=y.$$ Note that by the\nmonotonicity and continuity property of the exponential operation, for\ngiven $x$ and $y$ there exists a unique $p$ satisfying the above\nrelation. We are therefore able to says that [*$p$ is the logarithm of\n$y$ relative to the base $x$.*]{}\n\n#### Properties.\n\nThere are a number of basic algebraic identities involving logarithms.\n$$\\begin{aligned}\n\\log_x(yz) &= \\log_x(y) + \\log_x(z)\\\\ \n\\log_x \\left( \\frac{y}{z} \\right) &= \\log_x(y) - \\log_x(z)\\\\\n\\log_x(y^z) &= z \\log_x(y) \\\\\n\\log_x(1) &= 0 \\\\\n\\log_x(x) &= 1 \\\\\n\\log_x(y) \\log_y(x) &= 1\\\\\n\\log_y(z) &= \\frac{\\log_x(z)}{\\log_x(y)}\\end{aligned}$$\n\nBy the very first identity, any logarithm to the set of positive\nintegers is an additive function.\n\n[**Notes.**]{} In essence, logarithms convert multiplication to\naddition, and exponentiation to multiplication. Historically, these\nproperties of the logarithm made it a useful tool for doing numerical\ncalculations. Before the advent of electronic calculators and computers,\ntables of logarithms and the logarithmic slide rule were essential\ncomputational aids.\n\nScientific applications predominantly make use of logarithms whose base\nis the Eulerian number $e = 2.71828\\ldots$. Such logarithms are called\n[*natural logarithms*]{} and are commonly denoted by the symbol $\\ln$,\ne.g. $$\\ln(e) = 1.$$ Natural logarithms naturally give rise to the\nnatural logarithm function.\n\nA frequent convention, seen in elementary mathematics texts and on\ncalculators, is that logarithms that do not give a base explicitly are\nassumed to be base $10$, e.g. $$\\log(100) = 2.$$ This is far from . In\nRudin\u2019s \u201cReal and Complex analysis\u201d, for example, we see a baseless\n$\\log$ used to refer to the natural logarithm. By contrast, computer\nscience and information theory texts often assume 2 as the default\nlogarithm base. This is motivated by the fact that $\\log_2(N)$ is the\napproximate number of bits required to encode $N$ different messages.\n\nThe invention of logarithms is commonly credited to John Napier \\[ \\]",
+  "language": "INFORMAL",
+  "phrase": "Logarithm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Logarithm"
+    }
+  ],
+  "indexable": true
+}

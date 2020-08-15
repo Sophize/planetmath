@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $a_k$ and $b_k$ be two sequences of real or complex numbers for\n$k \\in {\\mathbb N}_0$ ( ${\\mathbb N}_0$ is the set of natural numbers\ncontaining zero). The Cauchy product is defined by:\n$$(a \\circ b)(k) = \\sum_{l=0}^k a_l b_{k-l}.$$ This is basically the\nconvolution for two sequences. Therefore the product of two series\n$\\sum_{k=0}^{\\infty} a_k$, $\\sum_{k=0}^{\\infty} b_k$ is given by:\n$$\\sum_{k=0}^{\\infty} c_k = \\left(\\sum_{k=0}^{\\infty} a_k \\right)\\cdot \\left(\\sum_{k=0}^{\\infty} b_k \\right) =\n\\sum_{k=0}^{\\infty} \\sum_{l=0}^k a_l b_{k-l}.$$ A sufficient condition\nfor the resulting series $\\sum_{k=0}^{\\infty} c_k$ to be absolutely\nconvergent is that $\\sum_{k=0}^{\\infty} a_k$ and\n$\\sum_{k=0}^{\\infty} b_k$ both converge absolutely .",
+  "language": "INFORMAL",
+  "phrase": "Cauchy Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyProduct"
+    }
+  ],
+  "indexable": true
+}

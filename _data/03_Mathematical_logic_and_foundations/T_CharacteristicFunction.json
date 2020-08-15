@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "indicator function"
+  ],
+  "definition": "[**Definition**]{} Suppose $A$ is a subset of a set $X$. Then the\nfunction $$\\chi_A(x) =\n\\begin{cases}\n1,&\\text{when }x\\in A,\\\\\n0,&\\text{when }x\\in X\\setminus A\n\\end{cases}$$ is the *characteristic function* for $A$.\n\n### Properties\n\nSuppose $A,B$ are subsets of a set $X$.\n\n1.  For set intersections and set unions, we have $$\\begin{aligned}\n       \\chi_{A\\cap B} &=& \\chi_A \\chi_B, \\\\\n       \\chi_{A\\cup B} &=& \\chi_A + \\chi_B - \\chi_{A\\cap B},\\\\\n       \\chi_{A\\cap B} &=& \\min(\\chi_A,\\chi_B),\\\\\n       \\chi_{A\\cup B} &=& \\max(\\chi_A,\\chi_B).\n       \\end{aligned}$$\n\n2.  For the symmetric difference,\n    $$\\chi_{A\\bigtriangleup B} = \\chi_A + \\chi_B - 2\\chi_{A\\cap B}.$$\n\n3.  For the set complement, $$\\chi_{A^\\complement} = 1-\\chi_A.$$\n\n### Remarks\n\nA synonym for characteristic function is *indicator function*\n[@folland].\n\n[9]{} G.B. Folland, *Real Analysis: Modern Techniques and Their\nApplications*, 2nd ed, John Wiley & Sons, Inc., 1999.",
+  "language": "INFORMAL",
+  "phrase": "Characteristic Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacteristicFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A measure space $(X,\\mathscr{S},\\mu)$ is said to be *complete* if every\nsubset of a set of measure $0$ is measurable (and consequently, has\nmeasure $0$); i.e. if for all $E\\in\\mathscr{S}$ such that $\\mu(E)=0$ and\nfor all $S\\subset E$ we have $\\mu(S)=0$.\n\nIf a measure space is not complete, there exists a of it, which is a\ncomplete measure space $(X,\\overline{\\mathscr{S}},\\overline{\\mu})$ such\nthat $\\mathscr{S}\\subset\\overline{\\mathscr{S}}$ and\n$\\overline {\\mu}_{|\\mathscr{S}} = \\mu$, where $\\overline{\\mathscr{S}}$\nis the smallest $\\sigma$-algebra containing both $\\mathscr{S}$ and all\nsubsets of elements of zero measure of $\\mathscr{S}$.",
+  "language": "INFORMAL",
+  "phrase": "Complete Measure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompleteMeasure"
+    }
+  ],
+  "indexable": true
+}

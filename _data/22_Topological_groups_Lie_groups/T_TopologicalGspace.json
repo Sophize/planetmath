@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "G-space"
+  ],
+  "definition": "Essential data\n--------------\n\nLet us recall the definition of a *topological group*; this is a group\n$(G, . ,e)$ together with a topology on $G$ such that\n$(x,y) \\mapsto xy^{-1}$ is continuous, i.e., from $G \\times G$ into $G$.\nNote also that $G \\times G$ is regarded as a topological space defined\nby the product topology.\n\nConsider $G$ to be a topological group with the above notations, and\nalso let $X$ be a topological space, such that an action $a$ of $G$ on\n$X$ is continuous if $a : G \\times X \\to X$ is continuous; with these\nconditions, $X$ is defined to be a *topological G-space*.\n\n[9]{} Howard Becker, Alexander S. Kechris. 1996. *The Descriptive Set\nTheory of Polish Group Actions* Cambridge University Press: Cambridge,\nUK, p.14.",
+  "language": "INFORMAL",
+  "phrase": "Topological G-Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TopologicalGspace"
+    }
+  ],
+  "indexable": true
+}

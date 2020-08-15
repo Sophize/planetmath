@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "sch\\\"onfinkeling",
+    "sch\\\"onfinkelization"
+  ],
+  "definition": "*Currying* is the technique of emulating multiple-parametered functions\nwith higher-order functions. The notion is that a function of $n$\narguments can be thought of as a function of 1 argument that maps to a\nfunction of $n-1$ arguments. A *curried function* is a function\nrepresented by currying, e.g.\n\n$$f \\colon A \\to (B\\to C)$$\n\nFor conciseness, the mapping operator $\\rightarrow$ is usually\nconsidered right-associative, so one could drop the parentheses in the\nexpression above and write $f \\colon A\\to B\\to C$ instead.\n\nIn contrast, an *uncurried function* is usually specified as a mapping\nfrom a Cartesian product, such as\n\n$$f \\colon (A\\times B)\\to C.$$\n\nThe term *currying* is derived from the name of Haskell Curry, a\n20th-century logician. However, Curry was not the first person to\ndiscover this notion, as it was first introduced by Gottlob Frege in\n1893 and expanded by Moses Sch\u00f6nfinkel in the 1920s. Hence the notion is\nsometimes referred to as *sch\u00f6nfinkeling*.\n\nFrom the perspective of category theory, currying can be thought of as\nexploiting the fact that $-\\times B$ and $\\operatorname{Hom}(B,-)$ are\nadjoint functors on ${\\mathbf{Set}}$. That is, for each set $B$, there\nis a natural equivalence\n$$\\nu\\colon \\operatorname{Hom}_{{\\mathbf{Set}}}(-\\times B,-)\\overset{\\cdot}{\\longrightarrow}\\operatorname{Hom}_{{\\mathbf{Set}}}(-,\\operatorname{Hom}(B,-))$$\ndefined by sending a map $f\\colon (A\\times B)\\to C$ to the map\n$\\nu_f\\colon A\\to \\operatorname{Hom}(B, C)$. For each $a\\in A$,\n$\\nu_f(a)\\colon\nB\\to C$ is the map defined by $\\nu_f(a)(b) = f(a,b)$.",
+  "language": "INFORMAL",
+  "phrase": "Currying",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Currying"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*iterated totient function*]{} $\\phi^k(n)$ is $a_k$ in the\nrecurrence relation $a_0 = n$ and $a_i = \\phi(a_{i - 1})$ for $i > 0$,\nwhere $\\phi(x)$ is Euler\u2019s totient function.\n\nAfter enough iterations, the function eventually hits 2 followed by an\ninfinite trail of ones. Ianucci et al define the \u201cclass\u201d $c$ of $n$ as\nthe integer such that $\\phi^c(n) = 2$.\n\nWhen the iterated totient function is summed thus:\n$$\\sum_{i = 1}^{c + 1} \\phi^i(n)$$ it can be observed that just as $2^x$\nis a quasiperfect number when it comes to adding up proper divisors, it\nis also \u201cquasiperfect\u201d when adding up the iterated totient function.\nQuite unlike regular perfect numbers, $3^x$ (which are obviously odd)\nare \u201cperfect\u201d when adding up the iterated totient.\n\n[2]{} D. E. Ianucci, D. Moujie & G. L. Cohen, \u201cOn Perfect Totient\nNumbers\u201d [*Journal of Integer Sequences*]{}, [**6**]{}, 2003: 03.4.5 R.\nK. Guy, [*Unsolved Problems in Number Theory*]{} New York:\nSpringer-Verlag 2004: B42",
+  "language": "INFORMAL",
+  "phrase": "Iterated Totient Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IteratedTotientFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *latticoid* is a set $L$ with two binary operations, the meet $\\wedge$\nand the join $\\vee$ on $L$ satisfying the following conditions:\n\n1.  (idempotence) $x\\wedge x=x\\vee x=x$ for any $x\\in L$,\n\n2.  (commutativity) $x\\wedge y=y\\wedge x$ and $x\\vee y=y\\vee x$ for any\n    $x,y\\in L$, and\n\n3.  (absorption) $x\\vee (y\\wedge x)=x\\wedge (y\\vee x)=x$ for any\n    $x,y\\in L$.\n\nA latticoid is like a lattice without the associativity assumption,\ni.e., a lattice is a latticoid that is both meet associative and join\nassociative.\n\nIf one of the binary operations is associative, say $\\wedge$ is\nassociative, we may define a latticoid as a poset as follows:\n$$x\\le y\\mbox{ iff }x\\wedge y=x.$$ Clearly, $\\le$ is reflexive, as\n$x\\wedge x=x$. If $x\\le y$ and $y\\le x$, then $x=x\\wedge y=y\\wedge x=y$,\nso $\\le$ is anti-symmetric. Finally, suppose $x\\le y$ and $y\\le z$, then\n$x\\wedge z=(x\\wedge y)\\wedge z=x\\wedge (y\\wedge z)=x\\wedge y=x$, or\n$x\\le z$, $\\le$ is transitive.\n\nOnce a latticoid is a poset, we may easily visualize it by a diagram\n(Hasse diagram), much like that of a lattice. Position $y$ above $x$ if\n$x\\le y$ and connect a line segment between $x$ and $y$. The following\nis the diagram of a latticoid that is meet associative but not join\nassociative: $$\\xymatrix{\n& {a\\vee b} \\ar@{-}[d] & \\\\\n& c \\ar@{-}[ld] \\ar@{-}[rd] & \\\\\na \\ar@{-}[rd] & & b \\ar@{-}[ld] \\\\\n& {a\\wedge b} &\n}$$ It is not join associative because $(a\\vee b)\\vee c= a\\vee b$,\nwhereas $a\\vee (b\\vee c)=a\\vee c=c\\ne a\\vee b$.\n\nGiven a latticoid $L$, we can define a dual $L^*$ of $L$ by using the\nsame underlying set, and define the meet of $a$ and $b$ in $L^*$ as the\njoin of $a$ and $b$ in $L$, and the join of $a$ and $b$ (in $L^*$) as\nthe meet of $a$ and $b$ in $L$. $L$ is a meet-associative latticoid iff\n$L^*$ is join-associative.",
+  "language": "INFORMAL",
+  "phrase": "Latticoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Latticoid"
+    }
+  ],
+  "indexable": true
+}

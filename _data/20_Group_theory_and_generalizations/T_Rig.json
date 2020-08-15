@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *rig* $(R, +, \\cdot)$ is a set $R$ together with two binary operations\n$+:R^2 \\to R:(a, b) \\mapsto a + b$ and\n$\\cdot:R^2 \\to R:(a, b) \\mapsto ab$, such that both $(R, +)$ and\n$(R, \\cdot)$ are monoids, where $\\cdot$ distributes over $+$. That is if\n$\\{a, b, c, d\\} \\subset R$ then $(a+b)(c+d) = ac + ad + bc +bd$. The\nnatural numbers with ordinary addition and multiplication\n$(\\mathbf{N}, +, \\cdot)$ is a rig.\n\nA rig $(R, +, \\cdot)$ is a ring if $(R, +)$ is a group. The integers\nwith ordinary addition and multiplication $(\\mathbf{Z}, +, \\cdot)$ is a\nring.",
+  "language": "INFORMAL",
+  "phrase": "Rig",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Rig"
+    }
+  ],
+  "indexable": true
+}

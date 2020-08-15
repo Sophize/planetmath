@@ -1,0 +1,20 @@
+{
+  "alternatePhrases": [
+    "smooth function",
+    "differentiable mapping",
+    "differentiable map",
+    "smooth mapping",
+    "smooth map",
+    "continuously differentiable"
+  ],
+  "definition": "Let $f\\colon V\\to W$ be a function, where $V$ and $W$ are Banach spaces.\nFor $x\\in V$, the function $f$ is said to be *differentiable* at $x$ if\nits derivative exists at that point. Differentiability at $x\\in V$\nimplies continuity at $x$. If $S\\subset V$, then $f$ is said to be\ndifferentiable on $S$ if $f$ is differentiable at every point $x\\in S$.\n\nFor the most common example, a real function\n$f\\colon{\\mathbb{R}}\\to{\\mathbb{R}}$ is differentiable if its derivative\n$\\frac{df}{dx}$ exists for every point in the region of interest. For\nanother common case of a real function of $n$ variables\n$f(x_1,x_2,\\ldots,x_n)$ (more formally\n$f\\colon{\\mathbb{R}}^n\\to{\\mathbb{R}}$), it is not sufficient that the\npartial derivatives $\\frac{\\partial f}{\\partial x_i}$ exist for $f$ to\nbe differentiable. The derivative of $f$ must exist in the original\nsense at every point in the region of interest, where ${\\mathbb{R}}^n$\nis treated as a Banach space under the usual Euclidean vector norm.\n\nIf the derivative of $f$ is continuous, then $f$ is said to be $C^1$. If\nthe $k$th derivative of $f$ is continuous, then $f$ is said to be $C^k$.\nBy convention, if $f$ is only continuous but does not have a continuous\nderivative, then $f$ is said to be $C^0$. Note the inclusion property\n$C^{k+1} \\subset C^k$. And if the $k$-th derivative of $f$ is continuous\nfor all $k$, then $f$ is said to be $C^\\infty$. In other words\n$C^\\infty$ is the intersection $C^\\infty = \\bigcap_{k=0}^\\infty C^k$.\n\nDifferentiable functions are often referred to as [*smooth*]{}. If $f$\nis $C^k$, then $f$ is said to be $k$-smooth. Most often a function is\ncalled smooth (without qualifiers) if $f$ is $C^\\infty$ or $C^1$,\ndepending on the context.",
+  "language": "INFORMAL",
+  "phrase": "Differentiable Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DifferentiableFunction"
+    }
+  ],
+  "indexable": true
+}

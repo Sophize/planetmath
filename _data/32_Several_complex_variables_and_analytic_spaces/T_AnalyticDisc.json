@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $D := \\{ z \\in {\\mathbb{C}} \\mid \\lvert z \\rvert < 1 \\}$ be the open\nunit disc. A non-constant holomorphic mapping $\\varphi \\colon D \\to\n{\\mathbb{C}}^n$ is called an [*analytic disc*]{} in ${\\mathbb{C}}^n$.\nThe really refers to both the embedding and the image. If the mapping\n$\\varphi$ extends continuously to the closed unit disc $\\bar{D}$, then\n$\\varphi(\\bar{D})$ is called a [*closed analytic disc*]{} and\n$\\varphi(\\partial D)$ is called the [*boundary of a closed analytic\ndisc*]{}.\n\nAnalytic discs play in some sense a role of line segments in\n${\\mathbb{C}}^n$. For example they give another way to see that a domain\n$G \\subset {\\mathbb{C}}^n$ is pseudoconvex. See the Hartogs\nKontinuitatssatz theorem.\n\nAnother use of analytic discs are as a technique for extending CR\nfunctions on generic manifolds [@ber:submanifold]. The idea here is that\nyou can always extend a function from the boundary of a disc to the\ninside of the disc by solving the Dirichlet problem.\n\nA closed analytic disc $\\varphi$ is said to be [*attached*]{} to a set\n$M \\subset\n{\\mathbb{C}}^n$ if $\\varphi(\\partial D) \\subset M$, that is if $\\varphi$\nmaps the boundary of the unit disc to $M$.\n\nAnalytic discs are also used for defining the Kobayashi metric and thus\nplays a role in the study of invariant metrics.\n\n[9]{} M. Salah Baouendi, Peter Ebenfelt, Linda Preiss Rothschild.\n[**]{}, Princeton University Press, Princeton, New Jersey, 1999.\nSteven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence, Rhode\nIsland, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Analytic Disc",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnalyticDisc"
+    }
+  ],
+  "indexable": true
+}

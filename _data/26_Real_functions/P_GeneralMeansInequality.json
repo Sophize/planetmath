@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The power means inequality is a generalization of arithmetic-geometric\nmeans inequality.\n\nIf $0\\neq r\\in{\\mathbbmss{R}}$, the $r$-mean (or $r$-th power mean) of\nthe nonnegative numbers $a_1,\\ldots,a_n$ is defined as\n$$M^r(a_1,a_2,\\ldots,a_n)= \\left(\\frac{1}{n}\\displaystyle{\\sum_{k=1}^n a_k^r}\\right)^{1/r}$$\n\nGiven real numbers $x,y$ such that $xy\\neq 0$ and $x<y$, we have\n$$M^x \\leq M^y$$ and the equality holds if and only if\n$a_1 = ... = a_n$.\n\nAdditionally, if we define $M^0$ to be the geometric mean\n$(a_1a_2...a_n)^{1/n}$, we have that the inequality above holds for\narbitrary real numbers $x<y$.\n\nThe mentioned inequality is a special case of this one, since $M^1$ is\nthe arithmetic mean, $M^0$ is the geometric mean and $M^{-1}$ is the\nharmonic mean.\n\nThis inequality can be further generalized using weighted power means.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralMeansInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "general means inequality",
+    "power means inequality"
+  ]
+}

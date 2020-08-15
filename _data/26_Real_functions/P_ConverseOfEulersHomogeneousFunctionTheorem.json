@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If the function $f$ of the real variables\n$x_1,\\,\\ldots,\\,x_k$ satisfies the identity $$\\begin{aligned}\nx_1\\frac{\\partial f}{\\partial x_1}+\\ldots+x_k\\frac{\\partial f}{\\partial x_k} = nf,\\end{aligned}$$\nthen $f$ is a homogeneous function of degree $n$.\\\n[*Proof.*]{} Let $f(tx_1,\\,\\ldots,\\,tx_k) := \\varphi(t)$.\nDifferentiating with respect to $t$ we obtain\n$$\\varphi'(t) = x_1f'_{x_1}(tx_1,\\,\\ldots,\\,tx_k)+\\ldots+x_kf'_{x_k}(tx_1,\\,\\ldots,\\,tx_k) \n= \\frac{1}{t}[tx_1f'_{x_1}(tx_1,\\,\\ldots,\\,tx_k)+\\ldots+tx_kf'_{x_k}(tx_1,\\,\\ldots,\\,tx_k)],$$\nwhich by (1) may be written\n$$\\varphi'(t) = \\frac{n}{t}f(tx_1,\\,\\ldots,\\,tx_k) = \\frac{n}{t}\\varphi(t).$$\nAccordingly, $$\\frac{\\varphi'(t)}{\\varphi(t)} = \\frac{n}{t},$$ which\nimplies the integrated form $$\\ln|\\varphi(t)| = \\ln{t^n}+\\ln{C}$$ for\nany positive $t$. Thus we have $\\varphi(t) = Ct^n$, where $C$ is\nindependent on $t$. Choosing $t = 1$ we see that $C = \\varphi(1)$, and\ntherefore $\\varphi(t) = t^n\\varphi(1)$. This last equation means that\n$$f(tx_1,\\,\\ldots,\\,tx_k) = t^nf(x_1,\\,\\ldots,\\,x_k)$$ saying that $f$\nis a (positively) homogeneous function of degree $n$.\n\n[8]{} : [*Differentiali- ja integralilasku ja sen sovellutukset II*]{}.\nMercatorin Kirjapaino Osakeyhti\u00f6, Helsinki (1932).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConverseOfEulersHomogeneousFunctionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "converse of Euler's homogeneous function theorem",
+    "converse of Euler's theorem on homogeneous functions"
+  ]
+}

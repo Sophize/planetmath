@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "hypergeometric distribution"
+  ],
+  "definition": "$X$ is a **hypergeometric random variable** with parameters\n**$M, K, n$** if\\\n\n$f_X(x) = \\frac{ { K \\choose x} {M-K \\choose n-x} }{ {M \\choose n} }$,\n$x=\\{0,1,...,n\\}$\\\n\nParameters:\\\n\n[$\\star$ ]{}\n\n$M \\in \\{1,2,...\\}$\n\n$K \\in \\{0,1,...,M\\}$\n\n$n \\in \\{1,2,...,M\\}$\n\nSyntax:\\\n\n$X\\sim Hypergeo(M,K,n)$\\\n\nNotes:\\\n\n1.  $X$ represents the number of \u201cspecial\u201d items (from the $K$ special\n    items) present on a sample of $n$ from a population with $M$ items.\n\n2.  The expected value of $X$ is noted as $E[X] = n \\frac{K}{M}$\n\n3.  The variance of $X$ is noted as\n    $Var[X] = n \\frac{K}{M} \\frac{M-K}{M} \\frac{M-n}{M-1}$\n\nApproximation techniques:\n\nIf ${K \\choose 2} << n, M-K+1-n$ then $X$ can be approximated as a\n**binomial random variable** with parameters $n=K$ and\n$p=\\frac{M-K+1-n}{M-K+1}$. This approximation simplifies the\ndistribution by looking at a system with replacement for large values of\n$M$ and $K$.",
+  "language": "INFORMAL",
+  "phrase": "Hypergeometric Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HypergeometricRandomVariable"
+    }
+  ],
+  "indexable": true
+}

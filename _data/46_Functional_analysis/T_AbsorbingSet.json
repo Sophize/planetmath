@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V$ be a vector space over a field $F$ equipped with a non-discrete\nvaluation ${\\vert{\\cdot}\\vert}:F\\to\\mathbb{R}$. Let $A,B$ be two subsets\nof $V$. Then $A$ is said to *absorb* $B$ if there is a non-negative real\nnumber $r$ such that, for all $\\lambda\\in F$ with\n${\\vert{\\lambda}\\vert}\\geq r$, $B\\subseteq\\lambda A$. $A$ is said to be\nan *absorbing set*, or a *radial subset* of $V$ if $A$ absorbs all\nfinite subsets of $V$.\n\nEquivalently, $A$ is absorbing if for any $x\\in V$, there is a\nnon-negative real number $r$ such that $x\\in\\lambda A$ for all\n$\\lambda\\in F$ with ${\\vert{\\lambda}\\vert}\\geq r$. If a finite subset\n$B$ of $V$ consists of $x_1,\\ldots,x_n$, then corresponding to each\n$x_i$, there is an $r_i\\geq 0$ such that $x_i\\in\\lambda A$ such that\n$\\vert\\lambda\\mid\\geq r_i$, $\\forall\\lambda\\in F$. So $x_i\\in\\lambda A$\nwith ${\\vert{\\lambda}\\vert}\\geq r$ if we take\n$r=\\max\\lbrace r_1,\\ldots,r_n\\rbrace$. So $A$ absorbs $B$.\n\n**Example**. If $V=\\mathbb{R}^n$ and $F=\\mathbb{R}$, then any set\ncontaining an open ball centered at $0$ is absorbing. This implies that\nan absorbing set does not have to be connected, convex.\n\nA closely related concept is that of a *circled set*, or a *balanced\nset*. Let $V$ and $F$ be defined as above. A subset $C$ of $V$ is said\nto be *circled*, or *balanced*, if $\\lambda C\\subseteq C$ for all\n${\\vert{\\lambda}\\vert}\\leq 1$. Clearly, $C$ absorbs itself\n($C\\subseteq\\lambda^{-1}C$, ${\\vert{\\lambda^{-1}}\\vert}\\geq 1$), and\n$0\\in C$. $C$ is also symmetric ($-C=C$), for $-C\\subseteq C$ and\n$C=-(-C)\\subseteq -C$. As an example of a circled set that is neither\nabsorbing nor convex, consider $V=\\mathbb{R}^2$ and $F=\\mathbb{R}$, and\n$C$ the union of $x$ and $y$ axes. For an example of an absorbing set\nthat is not circled, take the union of a unit disk and an annulus\ncentered at 0 that is large enough so it is disjoint from the disk.",
+  "language": "INFORMAL",
+  "phrase": "Absorbing Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbsorbingSet"
+    }
+  ],
+  "indexable": true
+}

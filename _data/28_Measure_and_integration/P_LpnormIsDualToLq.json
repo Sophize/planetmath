@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $(X,\\mathfrak{M},\\mu)$ is any measure space and $1\\le p,q\\le \\infty$\nare then, for $f\\in L^p$, the following linear function can be defined\n$$\\begin{aligned}\n&\\Phi_f\\colon L^q\\rightarrow\\mathbb{C},\\\\\n&g\\mapsto\\Phi_f(g)\\equiv\\int fg\\,d\\mu.\\end{aligned}$$ The shows that\nthis gives a well defined and bounded linear map. Its operator norm is\ngiven by\n$$\\Vert\\Phi_f\\Vert=\\left\\{\\Vert fg\\Vert_1:g\\in L^q, \\Vert g\\Vert_q=1\\right\\}.$$\nThe following theorem shows that the operator norm of $\\Phi_f$ is equal\nto the $L^p$-norm of $f$.\n\nLet $(X,\\mathfrak{M},\\mu)$ be a $\\sigma$-finite measure space and $p,q$\nbe H\u00f6lder conjugates. Then, any measurable function\n$f\\colon X\\rightarrow\\mathbb{C}$ has $L^p$-norm $$\\label{eq:1}\n\\Vert f\\Vert_p=\\sup\\left\\{\\Vert fg\\Vert_1: g\\in L^q, \\Vert g\\Vert_q=1\\right\\}.$$\nFurthermore, if either $p<\\infty$ and $\\Vert f\\Vert_p<\\infty$ or $p=1$\nthen $\\mu$ is not required to be $\\sigma$-finite.\n\nNote that the $\\sigma$-finite condition is required, except in the cases\nmentioned. For example, if $\\mu$ is the measure satisfying\n$\\mu(A)=\\infty$ for every nonempty set $A$, then $L^p(\\mu)=\\{0\\}$ for\n$p<\\infty$ and it is easily checked that equality (\\[eq:1\\]) fails\nwhenever $f=1$ and $p>1$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LpnormIsDualToLq"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$L^p$-norm is dual to $L^q$"
+  ]
+}

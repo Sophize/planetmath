@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $x_1,\\ldots, x_n$ be $n$ indeterminates. For $k\\geq 1$, let\n$\\sigma_k$ be the $k$th elementary symmetric polynomials in $x_1,\n\\ldots, x_n$, and $S_k$ be the $k$th power sum defined as\n$$S_k = \\sum_{i=1}^n x_i^k.$$\n\nLike the Newton\u2019s formula, the Waring formula is a relation between\n$\\sigma_k$ and $S_k$:\n\n$$S_k = \\sum (-1)^{(i_2+i_4+i_6+\\ldots)} \\frac{(i_1+i_2+\\ldots+i_n-1)!k}{i_1!i_2!\\cdots i_n!}\n\\sigma_1^{i_1} \\sigma_2^{i_2} \\cdots \\sigma_n^{i_n},$$ where the\nsummation is over all $n$-tuples $(i_1,\\ldots, i_n)\\in\\mathbb{Z}^n$ with\nnon-negative components, such that $$i_1+2i_2+\\ldots+ni_n = k.$$\n\nIn particular, when there are two indeterminates, i.e. $n=2$, the Waring\nformula reads $$x_1^k + x_2^k = \\sum_{i=0}^{\\lfloor k/2 \\rfloor}\n  (-1)^i\\frac{k}{k-i}\\binom{k-i}{i}(x_1+x_2)^{k-2i}(x_1x_2)^i.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WaringsFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Waring's formula",
+    "Waring formula"
+  ]
+}

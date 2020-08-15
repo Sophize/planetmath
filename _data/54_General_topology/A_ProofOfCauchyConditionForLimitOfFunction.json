@@ -1,0 +1,17 @@
+{
+  "argumentText": "The forward direction is . Assume that $\\lim_{x \\to x_0}f(x) =\nL$. Then given $\\epsilon$ there is a $\\delta$ such that\n$$|f(u)- L| < \\epsilon/2 \\text{ when } 0 < |u-x_0| < \\delta.$$\n\nNow for $0 < |u - x_0 | < \\delta$ and $ 0< |v- x_0 | < \\delta$ we have\n$$|f(u)- L| < \\epsilon/2 \\text{ and }  |f(v)-L| < \\epsilon/2$$ and so\n\n$$|f(u)-f(v)| = | f(u)- L -(f(v)-L)| \\leq\n  |f(u)-L|+|f(v)-L| < \\epsilon/2+\\epsilon/2 = \\epsilon.$$\n\nWe prove the reverse by contradiction. Assume that the condition holds.\nNow suppose that $\\lim_{x \\to x_0}f(x)$ does not exist. This means that\nfor any $l$ and any $\\epsilon$ sufficiently small then for any\n$\\delta>0$ there is $x_l$ such that\n$0<|xl-x_0|< \\delta~\\text{and}~|f(x_l)-l| \\geq \\epsilon$. For any such\n$\\epsilon$ choose $u$ such that $0 < |u-x_0| < \\delta $ and put $l=f(v)$\nthen substituting in the condition with $u=x_l$ we get\n$|f(x_l)-l| < \\epsilon$. A contradiction.",
+  "conclusion": "#P_CauchyConditionForLimitOfFunction",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCauchyConditionForLimitOfFunction"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Cauchy condition for limit of function"
+  ]
+}

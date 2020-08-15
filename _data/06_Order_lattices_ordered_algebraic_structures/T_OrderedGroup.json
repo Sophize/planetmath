@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Definition 1.** We say that the subsemigroup $S$ of the group $G$\n(with the operation denoted multiplicatively) defines an $G$, if\n\n-   $a^{-1}Sa \\subseteq S \\quad \\forall a\\in G,$\n\n-   $G = S\\cup \\{1\\} \\cup S^{-1}$ where $S^{-1} = \\{s^{-1}: \\,s\\in S\\}$\n    and the members of the union are pairwise disjoint.\n\nThe order \u201c$<$\u201d of the group $G$ is explicitly given by setting in $G$:\n$$a < b \\,\\, \\Leftrightarrow \\,\\,ab^{-1}\\in S$$ Then we speak of the\n[*ordered group*]{} $(G,\\,<)$, or simply $G$.\\\n\nThe order \u201c$<$\u201d defined by the subsemigroup $S$ of the group $G$ has the\nfollowing properties.\n\n1.  For all $a,\\,b\\in G$, exactly one of the conditions\n    $a < b,\\,\\,a = b,\\,\\,b < a$ holds.\n\n2.  $a < b \\,\\land\\, b < c \\,\\,\\Rightarrow\\,\\,a < c$\n\n3.  $a < b \\,\\,\\Rightarrow\\,\\, ac < bc \\,\\land\\, ca < cb$\n\n4.  $a < b \\,\\land\\, c < d \\,\\,\\Rightarrow\\,\\, ac < bd$\n\n5.  $a < b \\,\\,\\Leftrightarrow\\,\\, b^{-1} < a^{-1}$\n\n6.  $a < 1 \\,\\,\\Leftrightarrow\\,\\, a\\in S$\n\n**Definition 2.** The set $G$ is an [*ordered group equipped with\nzero*]{} 0, if the set $G^*$ of its elements distinct from its element 0\nforms an ordered group $(G^*,\\,<)$ and if\n\n-   $0a = a0 = 0 \\quad\\forall a\\in G,$\n\n-   $0 < a \\quad\\forall a\\in G^*.$\n\nCf. 7 in examples of semigroups.\n\n[9]{} : [*Theory of Algebraic Numbers*]{}. Lecture notes. Mathematisches\nInstitut, G\u00f6ttingen (1959). : [*Les syst\u00e8mes d\u2019id\u00e9aux*]{}. Dunod, Paris\n(1960).",
+  "language": "INFORMAL",
+  "phrase": "Ordered Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderedGroup"
+    }
+  ],
+  "indexable": true
+}

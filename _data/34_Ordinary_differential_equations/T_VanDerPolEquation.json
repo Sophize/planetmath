@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "van der Pol oscillator"
+  ],
+  "definition": "In 1920 the Dutch physicist Balthasar van der Pol studied a differential\nequation that describes the circuit of a vacuum tube. It has been used\nto model other phenomenon such as the human heartbeat by Johannes van\nder Mark[@C].\\\nThe *van der Pol equation* equation is a case of a Lienard system and is\nexpressed as a second order ordinary differential equation\n$$\\frac{d^2x}{dt^2}-\\mu(1-x^2)\\frac{dx}{dt}+x=0$$ or a first order\nplanar ordinary differential equation $$\\begin{aligned}\n\\dot{x} & = & y + \\mu(x-x^3)\\\\\n\\dot{y} & = & -x\\end{aligned}$$ where $\\mu$ is a real parameter. The\nparameter $\\mu$ is usually considered to be positive since the the term\n$-\\mu(1-x^2)$ adds to the model a nonlinear damping. [@C]\n\n**Properties:**\n\n-   If $\\mu=0$ then the origin is a center. In fact, if $\\mu=0$ then\n    $$\\frac{d^2x}{dt^2}+x=0$$ and if we suppose that the initial\n    condition are $(x_0,\\dot{x}_0)$ then the solution to the system is\n    $$x(t)=x_0\\cos t + \\dot{x}_0\\sin t.$$ All solutions except the\n    origin are periodic and circles. See phase portrait below.\n\n-   If $\\mu>0$ the system has a unique limit cycle, and the limit cycle\n    is attractive. This follows directly from Lienard\u2019s theorem. [@P]\n\n-   The system is sometimes given under the form $$\\begin{aligned}\n    \\dot{X} &=& -Y\\\\\n    \\dot{Y} &=& X + \\mu(1-X^2)Y\\end{aligned}$$ which equivalent to the\n    previous planar system under the change of coordinate\n    $(X, Y)= (\\sqrt{3}x,-\\sqrt{3}(y+\\mu(x-x^3)))$.[@C]",
+  "language": "INFORMAL",
+  "phrase": "Van Der Pol Equation",
+  "remarks": "\n\n**Example:**\\\nThe geometric representation of the phase portrait is done by taking\ninitial condition from an equally spaced grid and calculating the\nsolution for positive and negative time.\n\nFor the parameter $\\mu=1$, the system has an attractive limit cycle and\nthe origin is a repulsive focus.\n\n![image](vanderpol_mu1.eps)\\\nPhase portrait when $\\mu=1$.\n\nWhen the parameter $\\mu=0$ the origin is a center.\n\n![image](vanderpol_mu0.eps)\\\nPhase portrait when $\\mu=0$.\n\nFor the parameter $\\mu=-1$, the system has a repulsive limit cycle and\nthe origin is an attractive focus.\n\n![image](vanderpol_mum1.eps)\\\nPhase portrait when $\\mu=-1$.\n\n[1]{} , *Ordinary Differential Equations with Applications*, Springer,\nNew York, 1999.\n\n, *Differential Equations and Dynamical Systems*, Springer, New York,\n2001.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VanDerPolEquation"
+    }
+  ],
+  "indexable": true
+}

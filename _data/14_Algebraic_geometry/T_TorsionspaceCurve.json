@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "torsion"
+  ],
+  "definition": "Let $I\\subset R$ be an interval and let $\\gamma:I\\to{\\mathbb{R}}^3$ be a\nparameterized space curve, assumed to be and free of points of\ninflection. We interpret $\\gamma(t)$ as the trajectory of a particle\nmoving through 3-dimensional space. Let $T(t), N(t), B(t)$ denote the\ncorresponding moving trihedron. The speed of this particle is given by\n$\\Vert\n\\gamma'(t) \\Vert$.\n\nIn order for a moving particle to escape the osculating plane, it is\nnecessary for the particle to \u201croll\u201d along the axis of its tangent\nvector, thereby lifting the normal acceleration vector out of the\nosculating plane. The \u201crate of roll\u201d, that is to say the rate at which\nthe osculating plane rotates about the tangent vector, is given by\n$B(t)\\cdot N'(t)$; it is a number that depends on the speed of the\nparticle. The rate of roll relative to the particle\u2019s speed is the\nquantity\n$$\\tau(t) = \\frac{B(t)\\cdot N'(t)}{\\Vert \\gamma'(t)\\Vert}= \\frac{(\n\\gamma'(t)\\times \\gamma''(t)) \\cdot \\gamma'''(t)}{\\Vert \\gamma'(t)\\times\n\\gamma''(t)\\Vert^2 },$$ called the torsion of the curve, a quantity that\nis invariant with respect to reparameterization. The torsion $\\tau(t)$\nis, therefore, a measure of an intrinsic property of the oriented space\ncurve, another real number that can be covariantly assigned to the point\n$\\gamma(t)$.",
+  "language": "INFORMAL",
+  "phrase": "Torsion (Space Curve)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TorsionspaceCurve"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose we are given $N+1$ data points $\\{(x_{k},y_{k})\\}$ such that\n\n$$a=x_{0}<\\dots<x_{N}. \\label{knot}$$\n\nThen the function $S(x)$ is called a *cubic spline interpolation* if\nthere exists $N$ cubic polynomials $S_{k}(x)$ with coefficients\n$s_{k,i}\\,\\,0\\leq i\\leq 3$ such that the following hold.\n\n1.  $S(x)=S_{k}(x)=\\sum_{i=0}^{3}s_{k,i}(x-x_{k})^{i} \\;  \\;\\;\\forall x\\in\n    [x_{k},x_{k+1}]\\;\\;\\;0\\leq k \\leq N-1$\n\n2.  $S(x_{k})=y_{k}\\;\\;\\;0\\leq k \\leq N$\n\n3.  $S_{k}(x_{k+1})=S_{k+1}(x_{k+1})\\;\\;\\;0\\leq k \\leq N-2$\n\n4.  $S^{\\prime}_{k}(x_{k+1})=S^{\\prime}_{k+1}(x_{k+1})\\;\\;\\;0\\leq k \\leq N-2$\n\n5.  $S^{\\prime \\prime}_{k}(x_{k+1})=S^{\\prime \\prime}_{k+1}(x_{k+1})\\;\\;\\;0\\leq k \\leq N-2$\n\nThe set of points $\\eqref{knot}$ are called the knots. The set of cubic\nsplines on a fixed set of knots, forms a vector space for cubic spline\naddition and scalar multiplication.\n\nSo we see that the cubic spline not only interpolates the data\n$\\{(x_{k},y_{k})\\}$ but matches the first and second derivatives at the\nknots. Notice, from the above definition, one is free to specify\nconstraints on the endpoints. One common end point constraint is\n$S^{\\prime\\prime}(a)=0\\;\\;S^{\\prime\\prime}(b)=0$, which is called the\nnatural spline. Other popular choices are the clamped cubic spline,\nparabolically terminated spline and curvature-adjusted spline. Cubic\nsplines are frequently used in numerical analysis to fit data. Matlab\nuses the command spline to find cubic spline interpolations with\nnot-a-knot end point conditions. For example, the following commands\nwould find the cubic spline interpolation of the curve $4\\cos(x)+1$ and\nplot the curve and the interpolation marked with $\\text{o's}$.\n\n    x = 0:2*pi;\n    y = 4*cos(x)+1;\n     xx = 0:.001:2*pi;\n    yy = spline(x,y,xx);\n    plot(x,y,'o',xx,yy)",
+  "language": "INFORMAL",
+  "phrase": "Cubic Spline Interpolation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CubicSplineInterpolation"
+    }
+  ],
+  "indexable": true
+}

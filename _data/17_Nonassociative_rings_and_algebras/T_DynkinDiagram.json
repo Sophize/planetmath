@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Dynkin diagrams are a combinatorial way of representing the information\nin a root system. Their primary advantage is that they are easier to\nwrite down, remember, and analyze than explicit representations of a\nroot system. They are an important tool in the classification of simple\nLie algebras.\n\nGiven a reduced root system $R\\subset E$, with $E$ an inner-product\nspace, choose a base or simple roots $\\Pi$ (or equivalently, a set of\npositive roots $R^+$). The Dynkin diagram associated to $R$ is a graph\nwhose vertices are $\\Pi$. If $\\pi_i$ and $\\pi_j$ are distinct elements\nof the root system, we add\n$m_{ij}=\\frac{-4(\\pi_i,\\pi_j)^2}{(\\pi_i,\\pi_i)(\\pi_j,\\pi_j)}$ lines\nbetween them. This number is obivously positive, and an integer since it\nis the product of 2 quantities that the axioms of a root system require\nto be integers. By the Cauchy-Schwartz inequality, and the fact that\nsimple roots are never anti-parallel (they are all strictly contained in\nsome half space), $m_{ij}\\in\\{0,1,2,3\\}$. Thus Dynkin diagrams are\nfinite graphs, with single, double or triple edges. Fact, the criteria\nare much stronger than this: if the multiple edges are counted as single\nedges, all Dynkin diagrams are trees, and have at most one multiple\nedge. In fact, all Dynkin diagrams fall into 4 infinite families, and 5\nexceptional cases, in exact parallel to the classification of simple Lie\nalgebras.\n\n([*Does anyone have good Dynkin diagram pictures? I\u2019d love to put some\nup, but am decidedly lacking.*]{})",
+  "language": "INFORMAL",
+  "phrase": "Dynkin Diagram",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DynkinDiagram"
+    }
+  ],
+  "indexable": true
+}

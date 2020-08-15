@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "difference equation"
+  ],
+  "definition": "A *recurrence relation* is an equation which gives the value of an\nelement of a sequence in terms of the values of the sequence for smaller\nvalues of the position index and the position index itself. If the\nposition $n$ of a sequence $s$ is denoted by $s_n$, then the next value\nof the sequence expressed as a recurrence relation would be of the form\n$$s_{n+1} = f(s_1,s_2,\\ldots,s_{n-1},s_n,n)$$ where $f$ is any function.\n\nIf $k$ is a positive integer, then a sequence $s$ satisfies a *$k$th\norder recurrence relation* if $s_{n+1}$ can be written in terms of\n$s_n,\\dots,s_{n-k+1}$ whenever $n+1>k$. In other words, the recurrence\nrelation for $s$ is of the form\n$$s_{n-1} = f(s_{n-k+1},\\dots,s_{n-1},s_n,n)$$ for some function $f$.\n\nAn example of a recurrence relation is $$s_{n+1} = s_n + (n+1),$$ which\nis the recurrence relation for the sum of the integers from $1$ to\n$n+1$. This could also be expressed as $$s_n = s_{n-1} + n$$ keeping in\nmind that, as long as we set the proper initial values of the sequence,\nthe recurrence relation indices can have any constant amount added or\nsubtracted. Note that this is a first order recurrence relation.\n\nAs another example of a recurrence relation, the Fibonacci sequence\nsatisfies the recurrence relation $$s_{n+1} = s_n + s_{n-1}.$$ Note that\nthis is a second order recurrence relation.",
+  "language": "INFORMAL",
+  "phrase": "Recurrence Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RecurrenceRelation"
+    }
+  ],
+  "indexable": true
+}

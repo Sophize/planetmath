@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Theorem: The spectrum of a stochastic matrix is contained in the unit\ndisc in the complex plane.\n\nLet $A$ be a stochastic matrix and let $m$ be an eigenvalue of $A$, with\n$v$ eigenvector; then, for any self-consistent matrix norm\n$\\left\\Vert .\\right\\Vert $, we have:\n$$\\left|m\\right|\\left\\Vert v\\right\\Vert =\\left\\Vert mv\\right\\Vert =\\left\\Vert Av\\right\\Vert \\leq\\left\\Vert A\\right\\Vert \\left\\Vert v\\right\\Vert ,$$\nthat is, since $v$ is nonzero,\n$$\\left|m\\right|\\leq\\left\\Vert A\\right\\Vert .$$ Now, for a (doubly)\nstochastic matrix,\n$$\\left\\Vert A\\right\\Vert _1 = \\max_j \\left(\\sum_i \\left|a_{ij}\\right|\\right)=1$$\nwhence the conclusion.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EigenvaluesOfStochasticMatrix"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "eigenvalues of stochastic matrix"
+  ]
+}

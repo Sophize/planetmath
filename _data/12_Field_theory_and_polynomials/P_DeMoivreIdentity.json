@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "From the Euler relation\n\n$$e^{i\\theta} = \\cos \\theta + i \\sin \\theta$$\n\nit follows that\n\n$$\\begin{aligned}\ne^{i\\theta \\cdot n} &= (e^{i\\theta})^n\\\\\n\\cos n \\theta + i \\sin n \\theta &= (\\cos \\theta + i \\sin \\theta)^n\\end{aligned}$$\n\nwhere $n\\in\\mathbb{Z}$. This is called *de Moivre\u2019s formula*, and\nbesides being generally useful, it\u2019s a convenient way to remember\ndouble- (and higher-multiple-) angle formulas. For example,\n\n$$\\cos 2 \\theta + i \\sin 2 \\theta = (\\cos \\theta + i \\sin \\theta)^2 = \\cos^2 \\theta + 2 i \\sin \\theta \\cos \\theta - \\sin^2 \\theta.$$\n\nSince the imaginary parts and real parts on each side must be equal, we\nmust have $$\\cos 2 \\theta = \\cos^2 \\theta - \\sin^2 \\theta$$ and\n$$\\sin 2 \\theta = 2 \\sin \\theta \\cos \\theta.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DeMoivreIdentity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "de Moivre identity",
+    "de Moivre's theorem",
+    "de Moivre's formula"
+  ]
+}

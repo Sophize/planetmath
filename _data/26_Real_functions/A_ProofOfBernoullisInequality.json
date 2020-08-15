@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $I$ be the interval $(-1, \\infty)$ and $f :I \\rightarrow \\mathbb R$\nthe function defined as: $$f(x) = (1 + x)^\\alpha - 1 - \\alpha x$$ with\n$\\alpha \\in \\mathbb R \\setminus \\lbrace 0, 1 \\rbrace$ fixed. Then $f$ is\ndifferentiable and its derivative is\n$$f'(x) = \\alpha (1 + x)^{\\alpha - 1} - \\alpha,\n   \\mbox{ for all } x \\in I,$$ from which it follows that\n$f'(x) = 0 \\Leftrightarrow x = 0$.\n\n1.  If $0 < \\alpha < 1$ then $f'(x) < 0$ for all $x \\in (0, \\infty)$ and\n    $f'(x) > 0$ for all $x \\in (-1, 0)$ which means that $0$ is a global\n    maximum point for $f$. Therefore $f(x) < f(0)$ for all\n    $x \\in I \\setminus \\lbrace 0 \\rbrace$ which means that\n    $(1 + x)^\\alpha < 1 + \\alpha x$ for all $x \\in (-1, 0)$.\n\n2.  If $\\alpha \\notin [0, 1]$ then $f'(x) > 0$ for all\n    $x \\in (0, \\infty)$ and $f'(x) < 0$ for all $x \\in (-1, 0)$ meaning\n    that $0$ is a global minimum point for $f$. This implies that\n    $f(x) > f(0)$ for all $x \\in I \\setminus \\lbrace 0 \\rbrace$ which\n    means that $(1 + x)^\\alpha > 1 + \\alpha x$ for all $x \\in (-1, 0)$.\n\nChecking that the equality is satisfied for $x = 0$ or for $ \\alpha \\in\n\\lbrace 0, 1 \\rbrace $ ends the proof.",
+  "conclusion": "#P_BernoullisInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBernoullisInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Bernoulli's inequality"
+  ]
+}

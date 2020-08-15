@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "residual",
+    "quotient ideal"
+  ],
+  "definition": "Let $R$ be a commutative ring having regular elements and let $T$ be its\ntotal ring of fractions. If $\\mathfrak{a}$ and $\\mathfrak{b}$ are\nfractional ideals of $R$, then one can define two different or\n[*residuals*]{} of $\\mathfrak{a}$ by $\\mathfrak{b}$:\n\n-   $\\mathfrak{a\\!:\\!b}\\, \\;:=\\; \n         \\{r\\in R|\\quad r\\mathfrak{b} \\subseteq \\mathfrak{a}\\}$\n\n-   $[\\mathfrak{a\\!:\\!b}] \\;:=\\; \n         \\{t\\in T|\\quad t\\mathfrak{b} \\subseteq \\mathfrak{a}\\}$\n\nThey both are fractional ideals of $R$, and the former in fact an\nintegral ideal of $R$. It is clear that\n$$\\mathfrak{a\\!:\\!b} \\;=\\; [\\mathfrak{a\\!:\\!b}]\\cap\\!R.$$ In the special\ncase that $R$ has non-zero unity and $\\mathfrak{b}$ has the inverse\nideal $\\mathfrak{b}^{-1}$, we have\n$$[\\mathfrak{a\\!:\\!b}] \\;=\\; \\mathfrak{a}\\mathfrak{b}^{-1},$$ in\nparticular $$[R\\!:\\!\\mathfrak{b}] \\;=\\; \\mathfrak{b}^{-1}.$$\n\nSome rules concerning the former of quotient (the corresponding rules\nare valid also for the latter ):\n\n1.  $\\mathfrak{a}\\subseteq\\mathfrak{b}\\,\\,\\,\\,\\Rightarrow\\,\\,\\,\n    \\mathfrak{a}:\\mathfrak{c}\\subseteq\\mathfrak{b}:\\mathfrak{c}\\,\\,\n    \\land\\,\\,\\mathfrak{c}:\\mathfrak{a}\\supseteq\\mathfrak{c}:\\mathfrak{b}$\n\n2.  $\\mathfrak{a}:(\\mathfrak{b}\\mathfrak{c}) =    (\\mathfrak{a}:\\mathfrak{b}):\\mathfrak{c}$\n\n3.  $\\mathfrak{a}:(\\mathfrak{b}+\\mathfrak{c})= (\\mathfrak{a}:\\mathfrak{b})\\cap(\\mathfrak{a}:\\mathfrak{c})$\n\n4.  $(\\mathfrak{a}\\cap\\mathfrak{b}):\\mathfrak{c} = (\\mathfrak{a}:\\mathfrak{c})\\cap(\\mathfrak{b}:\\mathfrak{c})$\n\n**Remark.** In a Pr\u00fcfer ring $R$ the and intersection of ideals are dual\noperations of each other in the sense that there we have the duals\n\n$\\quad\\quad \\mathfrak{a}:(\\mathfrak{b}\\cap\\mathfrak{c}) = (\\mathfrak{a}:\\mathfrak{b})+(\\mathfrak{a}:\\mathfrak{c})$\n\n$\\quad\\quad (\\mathfrak{a}+\\mathfrak{b}):\\mathfrak{c} = (\\mathfrak{a}:\\mathfrak{c})+(\\mathfrak{b}:\\mathfrak{c})$\n\nof the two last rules if the are finitely generated.",
+  "language": "INFORMAL",
+  "phrase": "Quotient Of Ideals",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientOfIdeals"
+    }
+  ],
+  "indexable": true
+}

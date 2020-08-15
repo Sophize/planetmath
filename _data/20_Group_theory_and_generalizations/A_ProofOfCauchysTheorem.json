@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $G$ be a finite group, and suppose $p$ is a prime divisor of $|G|$.\nConsider the set $X$ of all $p$-tuples $(x_1, \\ldots, x_p)$ for which\n$x_1\\cdots x_p = 1$. Note that $|X| = |G|^{p-1}$ is a multiple of $p$.\nThere is a natural group action of the cyclic group\n$\\mathbb{Z}/p\\mathbb{Z}$ on $X$ under which\n$m \\in \\mathbb{Z}/p\\mathbb{Z}$ sends the tuple $(x_1, \\ldots, x_p)$ to\n$(x_{m+1}, \\ldots, x_p, x_1, \\ldots, x_m)$. By the Orbit-Stabilizer\nTheorem, each orbit contains exactly $1$ or $p$ tuples. Since\n$(1,\\ldots, 1)$ has an orbit of cardinality $1$, and the orbits\npartition $X$, the cardinality of which is divisible by $p$, there must\nexist at least one other tuple $(x_1,\\ldots, x_p)$ which is left fixed\nby every element of $\\mathbb{Z}/p\\mathbb{Z}$. For this tuple we have\n$x_1 = \\ldots = x_p$, and so $x_1^p=x_1\\cdots x_p=1$, and $x_1$ is\ntherefore an element of order $p$.\n\n[9]{} James H.\u00a0McKay. [*Another Proof of Cauchy\u2019s Group Theorem*]{},\nAmerican Math.\u00a0Monthly, 66 (1959), p119.",
+  "conclusion": "#P_CauchysTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCauchysTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Cauchy's theorem"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If $\\alpha$ is an algebraic number, then there exists a\nnon-zero of $\\alpha$ which is an algebraic integer.\n\n[*Proof.*]{} Let $\\alpha$ be a of the equation\n$$x^n\\!+\\!r_1x^{n-1}\\!+\\!r_2x^{n-2}\\!+\\cdots+\\!r_n = 0,$$ where $r_1$,\n$r_2$, \u2026, $r_n$ are rational numbers ($n > 0$). Let $l$ be the least\ncommon multiple of the denominators of the $r_j$\u2019s. Then we have\n$$0 = l^n(\\alpha^n\\!+\\!r_1\\alpha^{n-1}\\!+\\!r_2\\alpha^{n-2}\\!+\\cdots+\\!r_n) =\n (l\\alpha)^n\\!+\\!lr_1(l\\alpha)^{n-1}\\!+\\!l^2r_2(l\\alpha)^{n-2}\\!+\\cdots+\\!l^nr_n,$$\ni.e. the the algebraic equation\n$$x^n\\!+\\!lr_1x^{n-1}\\!+\\!l^2r_2x^{n-2}\\!+\\cdots+\\!l^nr_n = 0$$ with\nrational integer coefficients.\\\nAccording to the theorem, any algebraic number $\\xi$ is a of an\nalgebraic integer (of the field $\\mathbb{Q}(\\xi)$) and a rational\ninteger.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplesOfAnAlgebraicNumber"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "multiples of an algebraic number"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[*Primality testing*]{} is the evaluation of an integer to determine its\nprimality, to see whether it is prime or composite without actually\nfactoring it. Primality testing is often accomplished using congruences,\nsuch as from Fermat\u2019s little theorem, but there are also other methods.\n\nWith small numbers, it is practical to use integer factorization to\ndetermine primality; this is not the case for larger numbers with a\nlarge least prime factor. For larger numbers, such as most Mersenne\nnumbers, there are special primality tests which in the case of a\ncomposite input return only False without giving any idea as to any of\nthe factors. In the case of the Mersenne numbers, the Lucas-Lehmer\nprimality test is quite effective. For numbers of no particular special\nform, sophisticated elliptic curve tests can be used.\n\nFor practical purposes, primality testing might further have to be\nlimited to answering whether a given number is a probable prime which\ncould turn out to be a pseudoprime to a given base with further testing.\nIn Mathematica, the primality function is `PrimeQ[n]`, which uses the\nstrong Miller-Rabin primality test, which is thought to be infallible\neven for large numbers which Mathematica would not be able to factor.\n\nIn 2002, Agrawal, Kayal and Saxena published an algorithm they claim\nperforms primality testing in polynomial time. Soon after mathematicians\nsuch as Carl Pomerance looked at the Agrawal, Kayal and Saxena paper and\nsaid it appears to be correct. By 2004, their paper was accepted as\ncorrect, confirming the long-held belief that primality testing is a\nP-problem.\n\n[2]{} Manindra Agrawal, Neeraj Kayal & Nitin Saxena, \u201cPRIMES is in P\u201d,\n[*Annals of Math.*]{} [**160**]{} (2004): 781 \u00e2\u20ac\u201c 793 Eric Weisstein,\n\u201cPrimality Testing Is Easy\u201d [*MathWorld News*]{}, August 7, 2002",
+  "language": "INFORMAL",
+  "phrase": "Primality Testing",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimalityTesting"
+    }
+  ],
+  "indexable": true
+}

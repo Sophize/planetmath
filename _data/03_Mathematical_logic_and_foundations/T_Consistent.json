@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $T$ is a theory of $\\mathcal{L}$ then it is consistent iff there is\nsome model $\\mathcal{M}$ of $\\mathcal{L}$ such that\n$\\mathcal{M}\\vDash T$. If a theory is not consistent then it is\ninconsistent.\n\nA slightly different definition is sometimes used, that $T$ is\nconsistent iff $T\\not\\vdash\\bot$ (that is, as long as it does not prove\na contradiction). As long as the proof calculus used is sound and\ncomplete, these two definitions are equivalent.",
+  "language": "INFORMAL",
+  "phrase": "Consistent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Consistent"
+    }
+  ],
+  "indexable": true
+}

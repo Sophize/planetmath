@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $X$ be a smooth manifold, and let $\\omega$ be a closed differential\nform of degree $k>0$ on $X$. For any $x\\in X$, there exists a\ncontractible neighbourhood $U\\subset X$ of $x$ (i.e. $U$ is homotopy\nequivalent to a single point), with inclusion map\n$$\\iota\\colon U\\hookrightarrow X.$$ To construct such a neighbourhood,\ntake for example an open ball in a coordinate chart around $x$. Because\nof the homotopy invariance of de Rham cohomology, the $k$th de Rham\ncohomology group ${\\rm H}^k(U)$ is isomorphic to that of a point; in\nparticular, $${\\rm H}^k(U)=0\\quad\\hbox{for all $k>0$}.$$ Since\n$d(\\iota^*\\omega)=\\iota^*(d\\omega)=0$, this implies that there exists a\n$(k-1)$-form $\\eta$ on $U$ such that $d\\eta=\\iota^*\\omega$. In the case\nwhere $X$ is a contractible manifold, such an $\\eta$ exists globally\nsince we can choose $U=X$ above.",
+  "conclusion": "#P_PoincareLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPoincareLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Poincar\\'e lemma"
+  ]
+}

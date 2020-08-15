@@ -1,0 +1,17 @@
+{
+  "argumentText": "Consider the partial product $P_n = \\prod_{i=1}^n p_i$.\n\nBy definition we say that the infinite product $\\prod_{n=1}^\\infty p_n$\nis convergent iff $P_n$ is convergent.\n\nSuppose every $p_n>0$\n\n$\\ln$ is a continuous bijection from $\\mathbb{R}^+$ to $\\mathbb{R}$,\ntherefore\n$\\lim_{n\\to \\infty} a_n = a \\iff \\lim_{n\\to \\infty} \\ln(a_n) = \\ln(a)$,\nprovided $a_n>0$ and $a>0$.\n\nso saying $P_n\\to P > 0$ is equivalent to saying that $\\ln(P_n)$\nconverges.\n\nSince $\\ln(P_n) = \\ln(\\prod_{i=1}^n p_i) = \\sum_{i=1}^n \\ln(p_i)$, the\ninfinite product converges to a positive value iff the series\n$\\sum_{n=1}^\\infty \\ln(p_n)$ is convergent.\n\nIn particular, if the infinite product converges to a positive value,\nthen $\\ln(p_n)\\to 0 \\implies p_n \\to 1$.\n\n$P_n \\to 0$, is equivalent to saying\n$\\sum_{n=1}^\\infty \\ln(p_n) = -\\infty$\n\nFor the second part of the theorem:\n\n$\\prod_{n=1}^\\infty (1+p_n)$ converges absolutely to a positive value\niff $\\sum_{n=1}^\\infty p_n$ converges absolutely.\n\nas we have seen, $1+p_n \\to 1 \\implies p_n \\to 0$\n\nconsider: $\\lim_{x\\to 0} \\frac{\\ln(1+x)}{x} = 1$ (this is easy to prove\nsince by Taylor\u2019s expansion $\\ln(1+x) = x + O(x^2)$)\n\nSince $p_n \\to 0$ we can say that\n$\\lim_{n \\to \\infty} \\frac{\\ln(1+p_n)}{p_n} = 1$ and by the limit\ncomparison test, either both $\\sum_{n=1}^\\infty \\ln(1+p_n)$ and\n$\\sum_{i=1}^n p_i$ converge or diverge.",
+  "conclusion": "#P_ConvergenceCriterionForInfiniteProduct",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfConvergenceCriterionForInfiniteProduct"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of convergence criterion for infinite product"
+  ]
+}

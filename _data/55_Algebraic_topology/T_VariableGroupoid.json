@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "variable topology"
+  ],
+  "definition": "A *variable groupoid* is defined as a family of groupoids\n$\\{\\mathsf{G}_{\\lambda}\\}$ indexed by a parameter $\\lambda \\in T$ , with\n$T$ being either an index set or a class (which may be a time parameter,\nfor *time-dependent or dynamic groupoids*). If $\\lambda$ belongs to a\nset $M$, then we may consider simply a projection\n$\\mathsf{G} \\times M {{\\longrightarrow}}M$, which is an example of a\ntrivial fibration. More generally, one can consider a *fibration of\ngroupoids* $\\mathsf{G} \\hookrightarrow Z {{\\longrightarrow}}M$ (Higgins\nand Mackenzie, 1990) as defining a non-trivial *variable groupoid*.\n\n**Remarks** An indexed family or class of topological groupoids\n$[{\\mathsf{G}}_i]$ with $i \\in I$ in the category **Grpd** of groupoids\nwith additional axioms, rules, or properties of the underlying\ntopological groupoids, that specify an indexed family of topological\ngroupoid homomorphisms for each variable groupoid structure.\\\nBesides systems modelled in terms of a *fibration of groupoids*, one may\nconsider a *multiple groupoid* defined as a set of $N$ groupoid\nstructures, any distinct pair of which satisfy an [*interchange law*]{}\nwhich can be formulated as follows. There exists a unique expression\nwith the following content:\n\n$$\\begin{bmatrix}\nx&y \\\\z&w\n\\end{bmatrix}\\quad {\\def\\objectstyle{\\scriptstyle}  \\objectmargin={0pt}\n\\xy\n(0,4)*+{}=\"a\",(0,-2)*+{\\rule{0em}{1.5ex}i}=\"b\",(7,4)*+{\\;j}=\"c\"\n\\ar@{->} \"a\";\"b\" \\ar @{->}\"a\";\"c\" \\endxy },$$\n\nwhere $i$ and $j$ must be distinct for this concept to be well defined.\nThis uniqueness can also be represented by the equation\n$$(x\\circ_j y)\\circ_i(z \\circ_j w)= (x\\circ_i z)\\circ_j(y \\circ_i\nw).$$\n\n**Remarks** This illustrates the principle that a 2-dimensional formula\nmay be more comprehensible than a linear one.\n\nBrown and Higgins, 1981a, showed that certain multiple groupoids\nequipped with an extra structure called *connections* were equivalent to\nanother structure called a *crossed complex* which had already occurred\nin homotopy theory. such as *double, or multiple* groupoids (Brown,\n2004; 2005). For example, the notion of an *atlas* of structures should,\nin principle, apply to a lot of interesting, topological and/or\nalgebraic, structures: groupoids, multiple groupoids, Heyting algebras,\n$n$-valued logic algebras and $C^*$-convolution -algebras. Such examples\noccur frequently in *Higher Dimensional Algebra* (HDA).",
+  "language": "INFORMAL",
+  "phrase": "Variable Groupoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VariableGroupoid"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let\n$I = [a_1, b_1] \\times \\cdots \\times [a_N, b_N] \\subset {\\mathbb{R}}^N$\nbe a compact interval, and let $f:I\\to{\\mathbb{R}}^M$ be a function. Let\n$\\epsilon > 0$. If there exists a $y \\in {\\mathbb{R}}^M$ and a partition\n$P_\\epsilon$ of $I$ such that for each refinement $P$ of $P_\\epsilon$\n(and corresponding Riemann Sum $S(f, P)$),\n$$\\left\\|S(f,P) - y\\right\\| < \\epsilon$$ Then we say that $f$ is Riemann\nintegrable over $I$, that $y$ is the Riemann integral of $f$ over $I$,\nand we write $$\\int_I f := \\int_I f\\, d\\mu := y$$\n\nNote also that it is possible to extend this definition to more\narbitrary sets; for any bounded set $D$, one can find a compact interval\n$I$ such that $D \\subset I$, and define a function\n$$\\tilde{f}:I\\to{\\mathbb{R}}^M\\quad x \\mapsto\n\\begin{cases}\nf(x),& x \\in D \\\\\n0, &x \\notin D\n\\end{cases}$$ in which case we define $$\\int_D f := \\int_I \\tilde{f}$$",
+  "language": "INFORMAL",
+  "phrase": "Generalized N-Dimensional Riemann Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedNdimensionalRiemannIntegral"
+    }
+  ],
+  "indexable": true
+}

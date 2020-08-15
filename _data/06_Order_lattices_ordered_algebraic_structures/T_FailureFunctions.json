@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Background: see messages. Abstract definition: Let $\\phi(x)$ be a\nfunction of $x$. Then $x$ = $\\psi(x_0)$ is a failure function IF\n$\\phi(psi(x_0))$ is a failure in accordance with our definition of a\nfailure. Here $x_0$ is a specific function of $x$. Note the dual role\nplayed by $x$. It is a variable in $\\phi(x)$ and a function of a\nspecific value of $x_0$ in $\\psi(x_0)$. . Examples: 1) Let our\ndefinition of a failure be a composite number.Let the parent function,\n$\\phi(x)$, be a polynomial ring in which $ x$ belongs to $Z$. Then\n$x  = psi(x_0)  =  x_0  +  k*\\psi(x_0)$ is a failure function.Here $k$\nbelongs to $Z$.",
+  "language": "INFORMAL",
+  "phrase": "Failure  Functions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FailureFunctions"
+    }
+  ],
+  "indexable": true
+}

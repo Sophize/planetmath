@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a ring (with unity $1$) and let $a$ be an element of $R$.\nThen $$(-1)\\cdot a = -a$$ where $-1$ is the additive inverse of $1$ and\n$-a$ is the additive inverse of $a$.\n\nNote that for any $a$ in $R$ there exists a unique \u201c$-a$\u201d by the\nuniqueness of additive inverse in a ring. We check that $(-1)\\cdot a$\nequals the additive inverse of $a$. $$\\begin{aligned}\na+(-1)\\cdot a &=& 1\\cdot a + (-1)\\cdot a, \\quad \\text{ by the definition of }1\\\\\n&=& (1+ (-1))\\cdot a, \\quad \\text{ by the distributive law}\\\\\n&=& 0\\cdot a,\\quad \\text{ by the definition of }-1\\\\\n&=& 0, \\quad \\text{ as a result of the properties of zero} \\end{aligned}$$\nHence $(-1)\\cdot a$ is \u201can\u201d additive inverse for $a$, and by uniqueness\n$(-1)\\cdot a = -a$, [*the*]{} additive inverse of $a$. Analogously, we\ncan prove that $a\\cdot (-1) = -a$ as well.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinusOneTimesAnElementIsTheAdditiveInverseInARing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "minus one times an element is the additive inverse in a ring",
+    "$(-1)\\cdot a= -a$"
+  ]
+}

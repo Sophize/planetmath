@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The plane is ruled by parallel lines $ 2$ inches apart and a $ 1$-inch\nlong needle is dropped at random on the plane. What is the probability\nthat it hits parallel lines?\\\n*Solution.*\\\nThe first issue is to find some appropriate probability space\n$(\\Omega, \\mathcal{F}, P)$. For this,\n\n-   $h=$ distance from the center of the needle to the nearest line\n\n-   $\\theta=$ the angle that the needle makes with the horizontal\n    ranging from $0$ to $\\frac{\\pi}{2}$.\n\nThese fully determine the position of the needle. Let us next take the\n\n1.  The probability space is $\\Omega=[0,1]\\times[0,\\frac{\\pi}{2})$\n\n2.  The probability of an event $B$ is denoted by $P[B]$ is equal to\n    $\\frac{area\\,\\ of\\,\\ B}{\\frac{\\pi}{2}}$\n\nNow we denote by $A$ the event that the needle hits a horizontal line.\nIt is easily seen that this happens when $\\sin\\theta\\geq \\frac{h}{1/2}$.\nConsequently $A=\\{(\\theta, h)\\in \\Omega : h\\leq \\frac{\\sin\\theta}{2}\\}$\nand then we get\n$P[A]=\\frac{2}{\\pi}\\int_0^\\frac{\\pi}{2}\\frac{1}{2}\\sin\\theta d\\theta=\\frac{1}{\\pi}\\square$\n\nIn general case, when the length of needle is $l$ and the distance of\nparallel lines is $d$ provided that $l<d$, the probability we want is\n$\\frac{2l}{\\pi d}$. This is obvious just taking the $l/d$-point from one\nedge instead of the center of the needle.",
+  "language": "INFORMAL",
+  "phrase": "Buffon'S Needle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BuffonsNeedle"
+    }
+  ],
+  "indexable": true
+}

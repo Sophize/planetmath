@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Natural deduction refers to related proof systems for several different\nkinds of logic, intended to be similar to the way people actually\nreason. Unlike many other proof systems, it has many rules and few\naxioms. Sequents in natural deduction have only one formula on the right\nside.\n\nTypically the rules consist of one pair for each connective, one of\nwhich allows the introduction of that symbol and the other its\nelimination.\n\nTo give one example, the proof rules $\\rightarrow I$ and $\\rightarrow E$\nare:\n\n$$\\frac{\\Gamma,\\alpha\\Rightarrow\\beta}{\\Gamma\\Rightarrow\\alpha\\rightarrow\\beta}\n(\\rightarrow I)$$\n\nand\n$$\\frac{\\begin{array}{cc}\\Gamma\\Rightarrow\\alpha\\rightarrow\\beta &\\Sigma\\Rightarrow\\alpha\\end{array}}{[\\Gamma,\\Sigma]\\Rightarrow\\beta}\n(\\rightarrow E)$$",
+  "language": "INFORMAL",
+  "phrase": "Natural Deduction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NaturalDeduction"
+    }
+  ],
+  "indexable": true
+}

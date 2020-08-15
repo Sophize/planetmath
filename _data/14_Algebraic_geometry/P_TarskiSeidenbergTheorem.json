@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The set of semialgebraic sets is closed under projection.\n\nThat is, if $A \\subset {\\mathbb{R}}^n \\times {\\mathbb{R}}^m$ is a\nsemialgebraic set, and if $\\pi$ is the projection onto the first $n$\ncoordinates, then $\\pi(A)$ is also semialgebraic.\n\n[\u0141]{}ojasiewicz generalized this theorem further. For this we need a bit\nof notation.\n\nLet $U \\subset {\\mathbb{R}}^n$. Suppose $\\mathcal{A}(U)$ is any ring of\nreal valued functions on $U$. Define $\\mathcal{S}(\\mathcal{A}(U))$ to be\nthe smallest set of subsets of $U$, which contain the sets\n$\\{ x\\in U \\mid f(x) > 0 \\}$ for all $f \\in \\mathcal{A}(U)$, and is\nclosed under finite union, finite intersection and complement. Let\n$\\mathcal{A}(U)[t]$ denote the ring of polynomials in\n$t \\in {\\mathbb{R}}^m$ with coefficients in $\\mathcal{A}(U)$.\n\nSuppose that\n$V \\subset U \\times {\\mathbb{R}}^m \\subset {\\mathbb{R}}^{n+m}$, is such\nthat $V \\in \\mathcal{S}(\\mathcal{A}(U)[t])$. Then the projection of $V$\nonto the first $n$ variables is in $\\mathcal{S}(\\mathcal{A}(U))$.\n\n[9]{} Edward Bierstone and Pierre\u00a0D. Milman, *Semianalytic and\nsubanalytic sets*, Inst. Hautes \u00c9tudes Sci. Publ. Math. (1988), no.\u00a067,\n5\u201342.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TarskiSeidenbergTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Tarski-Seidenberg theorem"
+  ]
+}

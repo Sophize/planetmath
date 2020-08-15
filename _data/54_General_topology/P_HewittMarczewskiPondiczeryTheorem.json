@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *Hewitt\u2013Marczewski\u2013Pondiczery Theorem* is a result on the density of\nproducts of topological spaces. This theorem was arrived at\nindependently by Hewitt[@hewitt], Marczewski[@marcz] and\nPondiczery[@pond] in the 1940s.\n\nLet $\\kappa$ be an infinite cardinal number and $S$ an index set of\ncardinality at most $2^\\kappa$. If $X_s$ $(s\\in S)$ are topological\nspaces with $d(X_s)\\le\\kappa$ then\n$$d\\left(\\prod_{s\\in S}X_s\\right)\\le\\kappa.$$\n\nThe special case $\\kappa=\\aleph_0$ says that the product of at most\ncontinuum many separable spaces is separable.\n\n[3]{} Edwin Hewitt, [*A remark on density characters*]{},\nBull.\u00a0Amer.\u00a0Math.\u00a0Soc.\u00a052 (1946), 641\u2013643. (This paper is available as a\nPDF file from the AMS website: .) Edward Marczewski, [*S\u00e9parabilit\u00e9 et\nmultiplication cart\u00e9sienne des espaces topologiques*]{}, Fund.\u00a0Math.\u00a034\n(1947), 127\u2013143. (This paper is available as a PDF file from the Polish\nVirtual Library of Science: .) E.\u00a0S.\u00a0Pondiczery, [*Power problems in\nabstract spaces*]{}, Duke Math.\u00a0J.\u00a011 (1944), 835\u2013837.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HewittMarczewskiPondiczeryTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hewitt-Marczewski-Pondiczery theorem"
+  ]
+}

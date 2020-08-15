@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\Gamma$ be a discrete, torsion-free subgroup of\n${\\mathrm{SL}_{2} {\\mathbb{Q}}_p}$ (where ${\\mathbb{Q}}_p$ is the field\nof ). Then $\\Gamma$ is free.\n\nThere exists a $p+1$ regular tree $X$ on which\n${\\mathrm{SL}_{2} {\\mathbb{Q}}_p}$ acts, with stabilizer\n${\\mathrm{SL}_{2} {\\mathbb{Z}}_p}$ (here, ${\\mathbb{Z}}_p$ denotes the\nring of ). Since ${\\mathbb{Z}}_p$ is compact in its profinite topology,\nso is ${\\mathrm{SL}_{2} {\\mathbb{Z}}_p}$. Thus,\n${\\mathrm{SL}_{2} {\\mathbb{Z}}_p}\\cap\\Gamma$ must be compact, discrete\nand torsion-free. Since compact and discrete implies finite, the only\nsuch group is trivial. Thus, $\\Gamma$ acts freely on $X$. Since groups\nacting freely on trees are free, $\\Gamma$ is free.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IharasTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Ihara's theorem"
+  ]
+}

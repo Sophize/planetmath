@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $p$ be an odd prime. Then $-1$ is a quadratic residue modulo $p$ if\nand only if $p\\equiv 1 \\mod 4$.\n\nLet $p$ be an odd prime. Notice that $p$ is congruent to either $1$ or\n$3$ modulo $4$. By the definition of the Legendre symbol, we need to\nverify that $\\displaystyle \\left(\\frac{-1}{p}\\right) = 1$ if and only if\n$p\\equiv 1 \\mod 4$. By Euler\u2019s criterion\n$$\\left(\\frac{-1}{p}\\right)\\equiv (-1)^{(p-1)/2} \\mod p.$$ Finally, note\nthat the integer $\\displaystyle \\frac{p-1}{2}$ is even if\n$p\\equiv 1 \\mod 4$ and odd if $p\\equiv 3 \\mod 4$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CasesWhenMinusOneIsAQuadraticResidue"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "cases when minus one is a quadratic residue"
+  ]
+}

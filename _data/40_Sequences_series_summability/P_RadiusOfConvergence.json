@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "To the power series $$\\sum_{k=0}^{\\infty}a_k(x-x_0)^k$$ there exists a\nnumber $r\\in [0,\\infty]$, its *radius of convergence*, such that the\nseries converges absolutely for all (real or complex) numbers $x$ with\n$|x-x_0|<r$ and diverges whenever $|x-x_0|>r$. This is known as [*Abel\u2019s\ntheorem on power series*]{}. (For $|x-x_0|= r$ no general statements can\nbe made.)\n\nThe radius of convergence is given by:\n$$r=\\liminf_{k\\to\\infty}\\frac{1}{\\sqrt[k]{|a_k|}}$$ and can also be\ncomputed as $$r=\\lim_{k\\to\\infty}\\left|\\frac{a_k}{a_{k+1}}\\right|,$$ if\nthis limit exists.\n\nIt follows from the that for any radius $r'$ smaller than the radius of\nconvergence, the power series converges uniformly within the closed disk\nof radius $r'$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RadiusOfConvergence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "radius of convergence",
+    "Abel's theorem on power series"
+  ]
+}

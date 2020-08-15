@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be an immersed submanifold of $M$, with immersion $i:X\\to M$.\nThen we can restrict the tangent bundle of $M$ to $N$ or more properly,\ntake the pullback $i^*TM$. This, as an vector bundle over $X$ should\ncontain a lot of information about the embedding of $X$ into $M$. But\nthere is a natural injection $TX\\to i^*TM$, and the subbundle which is\nthe image of this only has information on the intrinsic properties of\n$X$, and thus is useless in obtaining information about the embedding of\n$X$ into $M$. Instead, to get information on this, we take the quotient\n$i^*TM/TX=NX$, the normal bundle of $X$. The normal bundle is very\nstrongly dependent on the immersion $i$. If $E$ is any vector bundle on\n$X$, then $E$ is the normal bundle for the embedding of $X$ into $E$ as\nthe zero section.\n\nThe normal bundle determines the local geometry of the embedding of $X$\ninto $M$ in the following sense: In $M$, there exists an open\nneighborhood $U\\supset X$ which is diffeomorphic to $NX$ by a\ndiffeomorphism taking $X$ to the zero section.",
+  "language": "INFORMAL",
+  "phrase": "Normal Bundle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalBundle"
+    }
+  ],
+  "indexable": true
+}

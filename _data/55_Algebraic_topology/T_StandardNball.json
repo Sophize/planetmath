@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "unit n-ball",
+    "unit ball",
+    "standard $n$-ball"
+  ],
+  "definition": "The *standard n-ball* is\n$B^n = \\{x \\in \\mathbb{R}^n | \\quad ||x|| \\le 1 \\}$, where\n$||x||^2 = \\sum_{i=1}^n {x_i}^2 $. The standard n-ball is also called\nthe *unit n-ball* or the *n-disk*.\n\nThe notation in the literature for the standard n-ball is not uniform.\nSometimes it is denoted by $V^n$ , $D^n$ ,$E^n$ or ${\\overline{E}}^n$.\n\nThe boundary of the standard n-ball is $S^{n-1}$, the n-1-sphere.\n\nA space that is homeomorphic to the standard n-ball is called an\n*n-cell*.\n\nA 1-cell is called an arc and a 2-cell is called a disk.",
+  "language": "INFORMAL",
+  "phrase": "Standard N-Ball",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StandardNball"
+    }
+  ],
+  "indexable": true
+}

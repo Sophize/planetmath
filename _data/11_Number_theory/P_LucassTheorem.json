@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $m,n \\in \\mathbb{N}-\\{0\\}$ be two natural numbers . If $p$ is a\nprime number and :\n$$m = a_k p^k + a_{k-1} p^{k-1} + \\cdots + a_1 p + a_0 , n = b_k p^k + b_{k-1} p^{k-1} + \\cdots + b_1 p + b_0$$\nare the base-p expansions of $m$ and $n$ , then the following congruence\nis true :\n$${m \\choose n} \\equiv {a_0 \\choose b_0} {a_1 \\choose b_1} \\cdots {a_k \\choose b_k} (\\verb|mod p|)$$\nNote : the binomial coefficient is defined in the usual way , namely :\n$${x \\choose y} = \\frac{x!}{y!(x-y)!}$$ if $x \\geq y$ and $0$ otherwise\n(of course , x and y are natural numbers).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LucassTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lucas's theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The real-valued multivariate gamma function is defined by\n$$\\Gamma_m(a) = \\int_{\\mathfrak{S}} e^{-\\operatorname{Tr}S} \\left|S\\right|^{a-{1 \\over 2}(m+1)}\\, {\\rm d} S,$$\n\nwhere $\\mathfrak{S}$ is the set of all $m \\times m$ real, positive\ndefinite symmetric matrices, i.e.\n$$\\mathfrak{S} = \\left\\{S \\in \\Bbb{R}^{m \\times m} \\mid S > 0, x^{\\rm T}Sx > 0\\, \\forall\\, x \\in \\mathbb{R}^{m \\times 1}\\setminus\\{ 0\\}\\right\\}.$$\nThe real-valued multivariate gamma function can also be expressed in\nterms of the gamma function as follows\n\n$$\\Gamma_m(a) = \\pi^{{1 \\over 4} m (m-1)} \\prod\\limits_{i=1}^{m}\\Gamma\\left(a-{1 \\over 2}(i-1)\\right).$$\n\nReference {#reference .unnumbered}\n---------\n\nA. T. James, \u201cDistributions of matrix variates and latent roots derived\nfrom normal samples,\u201d [*Ann. Math. Statist.*]{}, vol. 35, pp. 475-501,\n1964.",
+  "language": "INFORMAL",
+  "phrase": "Multivariate Gamma Function (Real-Valued)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultivariateGammaFunctionrealvalued"
+    }
+  ],
+  "indexable": true
+}

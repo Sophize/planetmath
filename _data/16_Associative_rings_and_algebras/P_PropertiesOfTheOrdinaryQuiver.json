@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $k$ be a field and $A$ be a finite-dimensional algebra over $k$.\nDenote by $Q_A$ of $A$.\n\n**Theorem.** The following statements hold:\n\n1.  If $A$ is basic and connected, then $Q_A$ is a connected quiver.\n\n2.  If $Q$ is a finite quiver and $I$ is an in $kQ$ and $A=kQ/I$, then\n    $Q_A$ and $Q$ are isomorphic.\n\n3.  If $A$ is basic and connected, then $A$ is isomorphic to $kQ_A/I$\n    for some (not necessarily unique) $I$.\n\nFor proofs please see [@ASS Chapter II.3].\n\n[99]{} I. Assem, D. Simson, A. Skowronski, *Elements of the\nRepresentation Theory of Associative Algebras, vol 1.*, Cambridge\nUniversity Press 2006, 2007",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertiesOfTheOrdinaryQuiver"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "properties of the ordinary quiver"
+  ]
+}

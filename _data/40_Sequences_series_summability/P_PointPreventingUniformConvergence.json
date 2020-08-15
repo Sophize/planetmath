@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If the sequence $f_1,\\,f_2,\\,f_3,\\,\\ldots$ of real\nfunctions converges at each point of the interval $[a,\\,b]$ but does not\nconverge uniformly on this interval, then there exists at least one\npoint $x_0$ of the interval such that the function sequence converges\nuniformly on no closed sub-interval of $[a,\\,b]$ containing $x_0$.\n\n[*Proof.*]{} Let the limit function of the sequence on the interval\n$[a,\\,b]$ be $f$. According the entry uniform convergence on union\ninterval, the sequence can not converge uniformly to $f$ both\nhalf-intervals $[a,\\,\\frac{a+b}{2}]$ and $[\\frac{a+b}{2},\\,b]$, since\notherwise it would do it on the union $[a,\\,b]$. Denote by $[a_1,\\,b_1]$\nthe first (fom left) of those half-intervals on which the convergence is\nnot uniform. We have $[a,\\,b] \\supset [a_1,\\,b_1]$. Then the interval\n$[a_1,\\,b_1]$ is halved and chosen its half-interval $[a_2,\\,b_2]$ on\nwhich the convergence is not uniform. We can continue similarly\narbitrarily far and obtain a unique endless sequence\n$$[a,\\,b] \\supset [a_1,\\,b_1] \\supset [a_2,\\,b_2] \\supset \\ldots$$ of\nnested intervals on which the convergence of the function sequence is\nnot uniform, and besides the length of the intervals tend to zero:\n$$\\lim_{n\\to\\infty}(b_n-a_n) = \\lim_{n\\to\\infty}\\frac{b-a}{2^n} = 0.$$\nThe nested interval theorem thus gives a unique real number $x_0$\nbelonging to each of the intervals $[a,\\,b]$ and $[a_n,\\,b_n]$. Then\n$\\lim_{n\\to\\infty}a_n = x_0 = \\lim_{n\\to\\infty}b_n$. Let us choose\n$\\alpha$ and $\\beta$ such that\n$a \\leqq \\alpha \\leqq x_0 \\leqq \\beta \\leqq b$. There exist the integers\n$n_1$ and $n_2$ such that\n$$|a_n-x_0| = x_0-a_n \\leqq x_0-\\alpha\\quad \\mbox{when}\\;\\;n > n_1$$\n$$|b_n-x_0| = b_n-x_0 \\leqq \\beta-x_0\\quad \\mbox{when}\\;\\;n > n_2.$$\nTherefore\n$$\\alpha \\leqq a_n \\leqq x_0 \\leqq b_n \\leqq \\beta \\quad\\mbox{when}\\;\\;n > \\max\\{n_1,\\,n_2\\}.$$\nThis means that $f_n \\to f$ not uniformly on\n$[a_n,\\,b_n] \\subset [\\alpha,\\,\\beta]$, whence the function sequence\ndoes not converge uniformly on the arbitrarily chosen subinterval\n$[\\alpha,\\,\\beta]$ of $[a,\\,b]$ containing $x_0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PointPreventingUniformConvergence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "point preventing uniform convergence"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $g \\in L^2({\\mathbb{R}})$ and\n$g_{m,n}(x) = e^{2\\pi i m x} g(x - n)$, where $m,n \\in {\\mathbb{Z}}$. If\n$\\{g_{m,n}: m, n \\in {\\mathbb{Z}}\\}$ is an orthonormal basis for\n$L^2({\\mathbb{R}})$, then either\n$$\\int_{-\\infty}^\\infty x^2 |g(x)|^2\\; dx = \\infty \\text{ or } \\int_{-\\infty}^\\infty \\xi^2|\\hat{g}(\\xi)|^2\\; d\\xi = \\infty.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BalianLow"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Balian-Low"
+  ]
+}

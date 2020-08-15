@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a . We say that $R$ is a [*right Ore domain*]{} if any two\nnonzero elements of $R$ have a nonzero common right multiple, i.e. for\nevery pair of nonzero $x$ and $y$, there exists a pair of elements $r$\nand $s$ of $R$ such that $xr = ys \\neq 0$.\n\nThis condition turns out to be equivalent to the following conditions on\n$R$ when viewed as a right $R$-module:\\\n(a) $R_R$ is a uniform module.\\\n(b) $R_R$ is a module of finite rank.\n\nThe definition of a [*left Ore domain*]{} is similar.\n\nIf $R$ is a commutative , then it is a right (and left) Ore domain.",
+  "language": "INFORMAL",
+  "phrase": "Ore Domain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OreDomain"
+    }
+  ],
+  "indexable": true
+}

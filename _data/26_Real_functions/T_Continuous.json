@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "continuous function",
+    "continuous map",
+    "continuous mapping"
+  ],
+  "definition": "Let $X$ and $Y$ be topological spaces. A function $f\\colon X \\to Y$ is\n[*continuous*]{} if, for every open set $U \\subset Y$, the inverse image\n$f^{-1}(U)$ is an open subset of $X$.\n\nIn the case where $X$ and $Y$ are metric spaces (e.g. Euclidean space,\nor the space of real numbers), a function $f\\colon X \\to Y$ is\ncontinuous if and only if for every $x \\in X$ and every real number\n$\\epsilon > 0$, there exists a real number $\\delta > 0$ such that\nwhenever a point $z \\in X$ has distance less than $\\delta$ to $x$, the\npoint $f(z) \\in Y$ has distance less than $\\epsilon$ to $f(x)$.\n\n[**Continuity at a point**]{}\n\nA related notion is that of local continuity, or continuity at a point\n(as opposed to the whole space $X$ at once). When $X$ and $Y$ are\ntopological spaces, we say $f$ is [*continuous at a point*]{} $x \\in X$\nif, for every open subset $V \\subset Y$ containing $f(x)$, there is an\nopen subset $U \\subset X$ containing $x$ whose image $f(U)$ is contained\nin $V$. Of course, the function $f\\colon X \\to Y$ is continuous in the\nfirst sense if and only if $f$ is continuous at every point $x \\in X$ in\nthe second sense (for students who haven\u2019t seen this before, proving it\nis a worthwhile exercise).\n\nIn the common case where $X$ and $Y$ are metric spaces (e.g., Euclidean\nspaces), a function $f$ is continuous at $x \\in X$ if and only if for\nevery real number $\\epsilon > 0$, there exists a real number\n$\\delta > 0$ satisfying the property that $d_Y(f(x),f(z)) < \\epsilon$\nfor all $z \\in X$ with $d_X(x,z) < \\delta$. Alternatively, the function\n$f$ is continuous at $a \\in X$ if and only if the limit of $f(x)$ as\n$x \\to a$ satisfies the equation $$\\lim_{x \\to a} f(x) = f(a).$$",
+  "language": "INFORMAL",
+  "phrase": "Continuous",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Continuous"
+    }
+  ],
+  "indexable": true
+}

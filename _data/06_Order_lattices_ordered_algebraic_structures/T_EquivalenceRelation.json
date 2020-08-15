@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *equivalence relation* $\\sim$ on a set $S$ is a relation that is:\n\nReflexive.\n\n:   $a\\sim a$ for all $a\\in S$.\n\nSymmetric.\n\n:   Whenever $a\\sim b$, then $b\\sim a$.\n\nTransitive.\n\n:   If $a\\sim b$ and $b\\sim c$ then $a\\sim c$.\n\nIf $a$ and $b$ are related this way we say that they are *equivalent*\nunder $\\sim$. If $a\\in S$, then the set of all elements of $S$ that are\nequivalent to $a$ is called the *equivalence class* of $a$. The set of\nall equivalence classes under $\\sim$ is written $S/\\sim$.\n\nAn equivalence relation on a set induces a partition on it. Conversely,\nany partition induces an equivalence relation. Equivalence relations are\nimportant, because often the set $S$ can be \u2019transformed\u2019 into another\nset (quotient space) by considering each equivalence class as a single\nunit.\n\nTwo examples of equivalence relations:\n\n1\\. Consider the set of integers ${\\mathbbmss{Z}}$ and take a positive\ninteger $m$. Then $m$ induces an equivalence relation by $a\\sim b$ when\n$m$ divides $b-a$ (that is, $a$ and $b$ leave the same remainder when\ndivided by $m$).\n\n2\\. Take a group $(G,\\cdot)$ and a subgroup $H$. Define $a\\sim b$\nwhenever $ab^{-1}\\in H$. That defines an equivalence relation. Here\nequivalence classes are called cosets.",
+  "language": "INFORMAL",
+  "phrase": "Equivalence Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquivalenceRelation"
+    }
+  ],
+  "indexable": true
+}

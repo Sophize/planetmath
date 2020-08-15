@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "tree"
+  ],
+  "definition": "In a set , a *tree* is defined to be a set $T$ and a relation\n$<_T\\subseteq T\\times T$ such that:\n\n-   $<_T$ is a partial ordering of $T$\n\n-   For any $t\\in T$, $\\{s\\in T\\mid s<_Tt\\}$ is well-ordered\n\nThe nodes (elements of the tree) immediately greater than a node are\ntermed its *children*, the node immediately less is its *parent* (if it\nexists), any node less is an *ancestor* and any node greater is a\n*descendant*. A node with no ancestors is a *root*.\n\nThe partial ordering represents from the root, and the well-ordering\nrequirement prohibits any loops or splits below a node (that is, each\nnode has at most one parent, and therefore at most one grand-parent, and\nso on). Conversely, if $a<_Td$ then there is exactly one $b\\leq_Td$ such\nthat $a<_Tb$ and there is nothing between $a$ and $b$. Note that there\nis no requirement that a node have a parent\u2013there could be an infinitely\nlong branch $a_1<_Ta_2<_Ta_2<_T\\cdots$ with each $a_i<_Tb$.\n\nSince there is generally no requirement that the tree be connected, the\nnull ordering makes any set into a tree, although the tree is a trivial\none, since each element of the set forms a single node with no children.\n\nSince the set of ancestors of any node is well-ordered, we can it with\nan ordinal. We call this the *height*, and write:\n$\\operatorname{ht}(t)=\\operatorname{o.t.}(\\{s\\in T\\mid s<_Tt\\})$. This\nall accords with usage: a root has height $0$, something immediately\nabove the root has height $1$, and so on. We can then assign a height to\nthe tree itself, which we define to be the least number greater than the\nheight of any element of the tree. For finite trees this is just one\ngreater than the height of its tallest element, but infinite trees may\nnot have a tallest element, so we define\n$\\operatorname{ht}(T)=\\sup\\{\\operatorname{ht}(t)+1\\mid t\\in T\\}$.\n\nFor every $\\alpha<_T\\operatorname{ht}(T)$ we define the $\\alpha$-th\n*level* to be the set\n$T_\\alpha=\\{t\\in T\\mid\\operatorname{ht}(t)=\\alpha\\}$. So of course $T_0$\nis all roots of the tree. If $\\alpha<_T\\operatorname{ht}(T)$ then\n$T(\\alpha)$ is the subtree of elements with height less than $\\alpha$:\n$t\\in T(\\alpha)\\leftrightarrow x\\in T \\wedge \\operatorname{ht}(t)<\\alpha$.\n\nWe call a tree a $\\kappa$-tree for any cardinal $\\kappa$ if $|T|=\\kappa$\nand $\\operatorname{ht} (T)=\\kappa$. If $\\kappa$ is finite, the only way\nto do this is to have a single branch of length $\\kappa$.",
+  "language": "INFORMAL",
+  "phrase": "Tree (Set Theoretic)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TreesetTheoretic"
+    }
+  ],
+  "indexable": true
+}

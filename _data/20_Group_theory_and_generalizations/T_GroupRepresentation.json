@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "representation"
+  ],
+  "definition": "Let $G$ be a group, and let $V$ be a vector space. A *representation* of\n$G$ in $V$ is a group homomorphism\n$\\rho\\colon G \\to \\operatorname{GL}(V)$ from $G$ to the general linear\ngroup $\\operatorname{GL}(V)$ of invertible linear transformations of\n$V$.\n\nEquivalently, a representation of $G$ is a vector space $V$ which is a\n$G$-module, that is, a (left) module over the group ring\n$\\mathbb{Z}[G]$. The equivalence is achieved by assigning to each\nhomomorphism $\\rho\\colon G \\to \\operatorname{GL}(V)$ the module\nstructure whose scalar multiplication is defined by\n$g \\cdot v := (\\rho(g))(v)$, and extending linearly. Note that, although\ntechnically a group representation is a homomorphism such as $\\rho$,\nmost authors invariably denote a representation using the underlying\nvector space $V$, with the homomorphism being understood from context,\nin much the same way that vector spaces themselves are usually described\nas sets with the corresponding binary operations being understood from\ncontext.\n\n#### Special kinds of representations\n\n(preserving all notation from above)\n\nA representation is *faithful* if either of the following equivalent\nconditions is satisfied:\n\n-   $\\rho\\colon G \\to \\operatorname{GL}(V)$ is injective,\n\n-   $V$ is a faithful left $\\mathbb{Z}[G]$\u2013module.\n\nA *subrepresentation* of $V$ is a subspace $W$ of $V$ which is a left\n$\\mathbb{Z}[G]$\u2013submodule of $V$; such a subspace is sometimes called a\n$G$-invariant subspace of $V$. Equivalently, a subrepresentation of $V$\nis a subspace $W$ of $V$ with the property that\n$$(\\rho(g))(w) \\in W \\text{ for all } g \\in G \\text{ and } w \\in W.$$\n\nA representation $V$ is called [*irreducible*]{} if it has no\nsubrepresentations other than itself and the zero module.",
+  "language": "INFORMAL",
+  "phrase": "Group Representation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupRepresentation"
+    }
+  ],
+  "indexable": true
+}

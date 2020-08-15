@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An Argand diagram is the graphical representation of complex numbers\nwritten in polar coordinates. For example, if $z\\in \\mathbb{C}$ is a\ncomplex number, then $z$ can be written as $re^{i\\theta}$, where $r$ is\nthe length of $z$ considered as a vector $(x,y)\\in \\mathbb{R}^2$, with\n$z=x+yi$, and $\\theta$ is the value such that\n$\\tan \\theta = \\frac{y}{x}$, and can be interpreted as the angle $z$\nmakes with the $x$-axis. The Argand diagram of $z$ is thus\n\n(-0.5,-0.5)(4.5,2) (0,0)(4.5,0) (4,-0.3)[$x$]{} (0,0)(3,1.75)\n(3.75,1.5)[$z=(r,\\theta)$]{} (0,0)[1]{}[0]{}[(3,1.75)]{}\n(1.25,0.3)[$\\theta$]{} (1.5,1.2)[$r$]{}\n\nArgand is the name of Jean-Robert Argand, the Frenchman who is credited\nwith the geometric interpretation of the complex numbers",
+  "language": "INFORMAL",
+  "phrase": "Argand Diagram",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArgandDiagram"
+    }
+  ],
+  "indexable": true
+}

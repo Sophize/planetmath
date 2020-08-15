@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a positive integer $n$, the \u201cpower tower\u201d\n$n^{(n - 1)^{(n - 2) \\dots }}$ is the [*exponential factorial*]{} of\n$n$. The recurrence relation is $a_1 = 1$, $a_n = n^{a_{n - 1}}$ for\n$n > 1$.\n\nSo for example, $9 = 3^{2^1}$, $262144 = 4^{3^{2^1}}$. The exponential\nfactorial for 5 has almost two hundred thousand base 10 digits. The ones\nthat are small enough are listed in sequence A049384 of Sloane\u2019s OEIS.\n\nThe sum of the reciprocals of the exponential factorials is a Liouville\nnumber.\n$$\\sum_{i = 1}^\\infty {1 \\over a_i} \\approx 1.6111149258083767361111111$$",
+  "language": "INFORMAL",
+  "phrase": "Exponential Factorial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExponentialFactorial"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "induced congruence"
+  ],
+  "definition": "Let $f:(A,O)\\to (B,O)$ be a homomorphism between two algebraic systems\n$A$ and $B$ (with $O$ as the operator set). Each element $b\\in B$\ncorresponds to a subset $K(b):=f^{-1}(b)$ in $A$. Then\n$\\lbrace K(b)\\mid b\\in B\\rbrace$ forms a partition of $A$. The *kernel*\n$\\ker(f)$ of $f$ is defined to be\n$$\\ker(f):=\\bigcup_{b\\in B}K(b)\\times K(b).$$\n\nIt is easy to see that\n$\\ker(f)=\\lbrace (x,y)\\in A\\times A\\mid f(x)=f(y)\\rbrace$. Since it is a\nsubset of $A\\times A$, it is relation on $A$. Furthermore, it is an\nequivalence relation on $A$: [[^1]]{}\n\n1.  $\\ker(f)$ is reflexive: for any $a\\in A$, $a\\in K(f(a))$, so that\n    $(a,a)\\in K(f(a))^2\\subseteq \\ker(f)$\n\n2.  $\\ker(f)$ is symmetric: if $(a_1,a_2)\\in \\ker(f)$, then\n    $f(a_1)=f(a_2)$, so that $(a_2,a_1)\\in \\ker(f)$\n\n3.  $\\ker(f)$ is transitive: if $(a_1,a_2),(a_2,a_3)\\in \\ker(f)$, then\n    $f(a_1)=f(a_2)=f(a_3)$, so $(a_1,a_3)\\in \\ker(f)$.\n\nWe write $a_1 \\equiv a_2 \\pmod {\\ker(f)}$ to denote\n$(a_1,a_2)\\in \\ker(f)$.\n\nIn fact, $\\ker(f)$ is a congruence relation: for any $n$-ary operator\nsymbol $\\omega\\in O$, suppose $c_1,\\ldots,c_n$ and $d_1,\\ldots,d_n$ are\ntwo sets of elements in $A$ with $c_i\\equiv d_i \\mod \\ker(f)$. Then\n$$f(\\omega_A(c_1,\\ldots,c_n) = \\omega_B(f(c_1),\\ldots,f(c_n))=\\omega_B(f(d_1),\\ldots,f(d_n)) = f(\\omega_A(d_1,\\ldots,d_n)),$$\nso\n$\\omega_A(c_1,\\ldots,c_n)\\equiv \\omega_A(d_1,\\ldots,d_n) \\pmod {\\ker(f)}$.\nFor this reason, $\\ker(f)$ is also called the *congruence induced by*\n$f$.\n\n**Example**. If $A,B$ are groups and $f:A\\to B$ is a group homomorphism.\nThen the kernel of $f$, using the definition above is just the union of\nthe square of the cosets of $$N=\\lbrace x\\mid f(x)=e\\rbrace,$$ the\ntraditional definition of the kernel of a group homomorphism (where $e$\nis the identity of $B$).\n\n**Remark**. The above can be generalized. See the in model theory.\n\n[^1]: In general, $\\lbrace N_i\\rbrace$ is a partition of a set $A$ iff\n    $\\bigcup N_i^2$ is an equivalence relation on $A$.",
+  "language": "INFORMAL",
+  "phrase": "Kernel Of A Homomorphism Between Algebraic Systems",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KernelOfAHomomorphismBetweenAlgebraicSystems"
+    }
+  ],
+  "indexable": true
+}

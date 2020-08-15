@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In the entry one defines for real variable $x$ the real exponential\nfunction $\\exp{x}$, i.e. $e^x$, as the sum of power series:\n$$e^x \\;=\\; \\sum_{k=0}^\\infty\\frac{x^k}{k!}$$ The series form implies\nimmediately that the real exponential function attains only positive\nvalues when $x \\geqq 0$. Also for $-1 \\leqq x < 0$ the positiveness is\neasy to see by grouping the series terms pairwise.\n\nIn to study the sign of $e^x$ for arbitrary real $x$, we may multiply\nthe series of $e^x$ and $e^{-x}$ using . We obtain\n$$e^xe^{-x} \\;=\\; \\sum_{n=0}^\\infty\\frac{x^n}{n!}\\!\\sum_{k=0}^\\infty(-1)^k\\frac{x^k}{k!} \n\\;=\\; \\sum_{n=0}^\\infty\\!\\sum_{j=0}^n(-1)^j\\frac{x^n}{j!(n\\!-\\!j)!} \n\\;=\\; \\sum_{n=0}^\\infty\\frac{x^n}{n!}\\!\\sum_{j=0}^n\\!{n\\choose j}(-1)^j \\;=\\; \\sum_{n=0}^\\infty\\frac{x^n}{n!}\\cdot0^n.$$\nThe last sum equals 1. So, if $-x > 0$, then $e^{-x} > 0$, whence $e^x$\nmust be positive.\\\nLet us now consider arbitrary complex value $z = x\\!+\\!iy$ where $x$ and\n$y$ are real. Using the addition formula of complex exponential function\nand the Euler relation, we can write\n$$e^z \\;=\\; e^{x+iy} \\;=\\; e^xe^{iy} \\;=\\; e^x(\\cos{y}+i\\sin{y}).$$ From\nthis we see that the absolute value of $e^z$ is $e^x$, which we above\nhave proved to be positive. Accordingly, we may write the\n\n**Theorem.** The complex exponential function never vanishes.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExponentialFunctionNeverVanishes"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "exponential function never vanishes",
+    "real exponential function is positive"
+  ]
+}

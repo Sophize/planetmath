@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*trace*]{} $\\operatorname{Tr}(A)$ of a square matrix $A$ is defined\nto be the sum of the diagonal entries of $A$. It satisfies the following\nformulas:\n\n-   $\\operatorname{Tr}(A+B) = \\operatorname{Tr}(A) + \\operatorname{Tr}(B)$\n\n-   $\\operatorname{Tr}(AB) = \\operatorname{Tr}(BA)$()\n\nwhere $A$ and $B$ are square matrices of the same size.\n\nThe [*trace*]{} $\\operatorname{Tr}(T)$ of a linear transformation\n$T\\colon V \\longrightarrow V$ from any finite dimensional vector space\n$V$ to itself is defined to be the trace of any matrix representation of\n$T$ with respect to a basis of $V$. This scalar is independent of the\nchoice of basis of $V$, and in fact is equal to the sum of the\neigenvalues of $T$ (over a splitting field of the characteristic\npolynomial), including multiplicities.\n\nThe following link presents some examples for calculating the trace of a\nmatrix.\n\nA [*trace*]{} on a $C^*$-algebra $A$ is a positive linear functional\n$\\phi\\colon A\\to\\mathbb{C}$ that has the .",
+  "language": "INFORMAL",
+  "phrase": "Trace",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Trace"
+    }
+  ],
+  "indexable": true
+}

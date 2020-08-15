@@ -1,0 +1,17 @@
+{
+  "argumentText": "We begin with two differentiable functions $f(x)$ and $g(x)$ and show\nthat their product is differentiable, and that the derivative of the\nproduct has the desired form.\n\nBy simply calculating, we have for all values of $x$ in the domain of\n$f$ and $g$ that\n\n$$\\begin{aligned}\n\\frac{{\\ensuremath{\\mathrm{d}}}}{{\\ensuremath{\\mathrm{d}x}}}\\left[f(x)g(x)\\right]\n& = & \\lim_{h\\to0}\\frac{f(x+h)g(x+h) - f(x)g(x)}{h} \\\\\n& = & \\lim_{h\\to0}\\frac{f(x+h)g(x+h) + f(x+h)g(x) - f(x+h)g(x) - f(x)g(x)}{h} \\\\\n& = & \\lim_{h\\to0}\\left[f(x+h)\\frac{g(x+h)-g(x)}{h} + g(x)\\frac{f(x+h)-f(x)}{h}\\right] \\\\\n& = & \\lim_{h\\to0}\\left[f(x+h)\\frac{g(x+h)-g(x)}{h}\\right] + \\lim_{h\\to0}\\left[g(x)\\frac{f(x+h)-f(x)}{h}\\right] \\\\\n& = & f(x)g'(x) + f'(x)g(x).\\end{aligned}$$\n\nThe key argument here is the next to last line, where we have used the\nfact that both $f$ and $g$ are differentiable, hence the limit can be\ndistributed across the sum to give the desired equality.",
+  "conclusion": "#P_ProductRule",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfProductRule"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of product rule"
+  ]
+}

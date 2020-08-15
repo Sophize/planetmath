@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a Lie group, and ${\\mathfrak{g}}$ its Lie algebra. Then $G$\nhas a natural action on ${\\mathfrak{g}}^*$ called the coadjoint action,\nsince it is dual to the adjoint action of $G$ on ${\\mathfrak{g}}$. The\norbits of this action are submanifolds of ${\\mathfrak{g}}^*$ which carry\na natural symplectic structure, and are in a certain sense, the minimal\nsymplectic manifolds on which $G$ acts. The orbit through a point\n$\\lambda\\in{\\mathfrak{g}}^*$ is typically denoted\n${\\mathcal{O}}_\\lambda$.\n\nThe tangent space $T_\\lambda{\\mathcal{O}}_\\lambda$ is naturally\nidenified by the action with ${\\mathfrak{g}}/{\\mathfrak{r}}_\\lambda$,\nwhere ${\\mathfrak{r}}_\\lambda$ is the Lie algebra of the stabilizer of\n$\\lambda$. The symplectic form on ${\\mathcal{O}}_\\lambda$ is given by\n$\\omega_\\lambda(X,Y)=\\lambda([X,Y])$. This is obviously anti-symmetric\nand non-degenerate since $\\lambda([X,Y])=0$ for all $Y\\in{\\mathfrak{g}}$\nif and only if $X\\in {\\mathfrak{r}}_\\lambda$. This also shows that the\nform is well-defined.\n\nThere is a close association between coadoint orbits and the\nrepresentation theory of $G$, with irreducible representations being\nrealized as the space of sections of line bundles on coadjoint orbits.\nFor example, if ${\\mathfrak{g}}$ is compact, coadjoint orbits are\npartial flag manifolds, and this follows from the Borel-Bott-Weil\ntheorem.",
+  "language": "INFORMAL",
+  "phrase": "Coadjoint Orbit",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CoadjointOrbit"
+    }
+  ],
+  "indexable": true
+}

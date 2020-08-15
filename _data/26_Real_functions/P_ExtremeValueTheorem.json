@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Extreme Value Theorem.** ]{} [*Let $a$ and $b$ be real numbers with\n$a<b$, and let $f$ be a continuous, real valued function on $[a,b]$.\nThen there exists $c,d\\in[a,b]$ such that $f(c)\\leq f(x) \\leq f(d)$ for\nall $x\\in[a,b]$.* ]{}\n\n[*Proof.* ]{} We show only the existence of $d$. By the boundedness\ntheorem $f([a,b])$ is bounded above; let $l$ be the least upper bound of\n$f([a,b])$. Suppose, for a contradiction, that there is no $d\\in[a,b]$\nsuch that $f(d)=l$. Then the function $$g(x) = \\frac{1}{l-f(x)}$$ is\nwell defined and continuous on $[a,b]$. Since $l$ is the least upper\nbound of $f([a,b])$, for any positive real number $M$ we can find\n$\\alpha\\in[a,b]$ such that $f(\\alpha)>l-\\frac{1}{M}$, then\n$$M < \\frac{1}{l-f(\\alpha)} \\textrm{.}$$ So $g$ is unbounded on $[a,b]$.\nBut by the boundedness theorem $g$ is bounded on $[a,b]$. This\ncontradiction finishes the proof.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtremeValueTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "extreme value theorem",
+    "Weierstrass extreme value theorem"
+  ]
+}

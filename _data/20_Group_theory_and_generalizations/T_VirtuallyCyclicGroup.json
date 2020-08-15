@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "cyclic-by-finite group"
+  ],
+  "definition": "A *virtually cyclic group* is a group that has a cyclic subgroup of\nfinite . Every virtually cyclic group in fact has a normal cyclic\nsubgroup of finite index (namely, the core of any cyclic subgroup of\nfinite index), and virtually cyclic groups are therefore also known as\n*cyclic-by-finite groups*.\n\nA finite-by-cyclic group (that is, a group $G$ with a finite normal\nsubgroup $N$ such that $G/N$ is cyclic) is always virtually cyclic. To\nsee this, note that a finite-by-cyclic group is either finite, in which\ncase it is certainly virtually cyclic, or it is finite-by-$\\Z$, in which\ncase the .\n\nFinite-by- groups are also virtually cyclic. In fact, we have the\nfollowing classification theorem:[@hempel][@rdiat]\n\nGroups of the following three types are all virtually cyclic. Moreover,\nevery virtually cyclic group is of exactly one of these three types.\n\n-   finite\n\n-   finite-by-(infinite cyclic)\n\n-   finite-by-(infinite dihedral)\n\nAs an immediate corollary we have the following result:[@macpherson]\n\nEvery torsion-free virtually cyclic group is either trivial or infinite\ncyclic.\n\n[9]{} Lemma 11.4 (pages 102\u2013103) in: John Hempel, [*3-Manifolds*]{},\nAmerican Mathematical Society, 2004, ISBN 0821836951. Page 137 of:\nAlejandro Adem, Jesus Gonzalez, Guillermo Pastor (eds.), Recent\ndevelopments in algebraic topology \u2014 A conference to celebrate Sam\nGitler\u2019s 70th birthday, San Miguel de Allende, Mexico, December 3\u20136,\n2003. Lemma 3.2 (pages 225\u2013226) of: Dugald Macpherson, [*Permutation\nGroups Whose Subgroups Have Just Finitely Many Orbits*]{} (pages 221\u2013230\nin: W.\u00a0Charles Holland (ed.) [*Ordered Groups and Infinite Permutation\nGroups*]{}, Kluwer Academic Publishers, 1996).",
+  "language": "INFORMAL",
+  "phrase": "Virtually Cyclic Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VirtuallyCyclicGroup"
+    }
+  ],
+  "indexable": true
+}

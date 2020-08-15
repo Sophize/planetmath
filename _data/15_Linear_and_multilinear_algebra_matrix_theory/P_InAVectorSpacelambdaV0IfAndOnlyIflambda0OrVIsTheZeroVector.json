@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} Let $V$ be a vector space over the field $F$. Further,\nlet $\\lambda \\in F$ and $v\\in V$. Then $\\lambda v = 0$ if and only if\n$\\lambda$ is zero, or if $v$ is the zero vector, or if both $\\lambda$\nand $v$ are zero.\n\n*Proof.* Let us denote by $0_F$ and by $1_F$ the zero and unit elements\nin $F$ respectively. Similarly, we denote by $0_V$ the zero vector in\n$V$. Suppose $\\lambda = 0_F$. Then, by , we have that\n$$1_Fv + 0_F v = 1_Fv,$$ for all $v\\in V$. By , there is an element in\n$V$ that cancels $1_F v$. Adding this element to both yields\n$ 0_F v = 0_V$. Next, suppose that $v=0_V$. We claim that\n$\\lambda 0_V = 0_V$ for all $\\lambda\\in F$. This follows from the\nprevious claim if $\\lambda = 0$, so let us assume that\n$\\lambda \\neq 0_F$. Then $\\lambda^{-1}$ exists, and implies that\n$$\\lambda \\lambda^{-1} v +\\lambda 0_V = \\lambda(\\lambda^{-1} v + 0_V)$$\nholds for all $v\\in V$. Then using , we have that\n$$v + \\lambda 0_V = v$$ for all $v\\in V$. Thus $\\lambda 0_V$ satisfies\nthe axiom for the zero vector, and $\\lambda 0_V = 0_V$ for all\n$\\lambda \\in F$.\n\nFor the other direction, suppose $\\lambda v = 0_V$ and\n$\\lambda\\neq 0_F$. Then, using , we have that\n$$v = 1_F v = \\lambda^{-1} \\lambda v    = \\lambda^{-1} 0_V    = 0_V.$$\nOn the other hand, suppose $\\lambda v = 0_V$ and $v \\neq 0_V$. If\n$\\lambda \\neq 0$, then the above calculation for $v$ is again valid\nwhence $$0_V \\neq v = 0_V,$$ which is a contradiction, so $\\lambda = 0$.\n$\\Box$\n\nThis result with proof can be found in [@greub], page 6.\n\n[9]{} W. Greub, *Linear Algebra*, Springer-Verlag, Fourth edition, 1975.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InAVectorSpacelambdaV0IfAndOnlyIflambda0OrVIsTheZeroVector"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "in a vector space, $\\lambda v = 0$ if and only if $\\lambda =0$ or $v$ is the zero vector"
+  ]
+}

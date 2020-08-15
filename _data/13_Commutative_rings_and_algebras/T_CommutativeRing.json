@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(X,+,\\cdot)$ be a ring. Since $(X,+)$ is required to be an abelian\ngroup, the operation \u201c$+$\u201d necessarily is commutative.\n\nThis needs not to happen for \u201c$\\cdot$\u201d. Rings $R$ where \u201c$\\cdot$\u201d is\ncommutative, that is, $x\\!\\cdot\\!y = y\\!\\cdot\\!x$ for all $x,y\\in R$,\nare called commutative rings.\n\nThe commutative rings are rings which are more like the fields than\nother rings are, but there are certain dissimilarities. A field has\nalways a multiplicative inverse for each of its nonzero elements, but\nthe same needs not to be true for a commutative ring. Further, in a\ncommutative ring there may exist zero divisors, i.e. nonzero elements\nhaving product zero. Since the ideals of a commutative ring are , the\nthese rings are more comfortable to handle than other rings.\n\nThe study of commutative rings is called [*commutative algebra*]{}.",
+  "language": "INFORMAL",
+  "phrase": "Commutative Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CommutativeRing"
+    }
+  ],
+  "indexable": true
+}

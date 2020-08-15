@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a group.\n\nA *descending series* of $G$ is a family $(H_\\alpha)_{\\alpha\\le\\beta}$\nof subgroups of $G$, where $\\beta$ is an ordinal, such that $H_0=G$ and\n$H_\\beta=\\{1\\}$, and $H_{\\alpha+1}\\normal H_\\alpha$ for all\n$\\alpha<\\beta$, and $$\\bigcap_{\\alpha<\\delta}H_\\alpha=H_\\delta$$\nwhenever $\\delta\\le\\beta$ is a limit ordinal.\n\nNote that this is a generalization of the concept of a subnormal series.\nCompare also the dual concept of an ascending series.\n\nGiven a descending series $(H_\\alpha)_{\\alpha\\le\\beta}$, the subgroups\n$H_\\alpha$ are called the *terms* of the series and the\n$H_\\alpha/H_{\\alpha+1}$ are called the *factors* of the series.\n\nA subgroup of $G$ that is a term of some descending series of $G$ is\ncalled a *descendant subgroup* of $G$.\n\nA descending series of $G$ in which all terms are normal in $G$ is\ncalled a *descending normal series*.\n\nLet $\\mathfrak{X}$ be a property of groups. A group is said to be\n*hypo-$\\mathfrak{X}$* if it has a descending normal series whose factors\nall have property $\\mathfrak{X}$. So, for example, a *hypoabelian group*\nis a group that has a descending normal series with abelian factors.\nHypoabelian groups are sometimes called *SD-groups*; they are precisely\nthe groups that have no non-trivial perfect subgroups, and they are also\nprecisely the groups in which the transfinite derived series eventually\nreaches $\\{1\\}$.",
+  "language": "INFORMAL",
+  "phrase": "Descending Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DescendingSeries"
+    }
+  ],
+  "indexable": true
+}

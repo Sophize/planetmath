@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The modal logic **T** is the smallest normal modal logic containing the\nschema T: $$\\square A \\to A$$ A Kripke frame $(W,R)$ is reflexive if $R$\nis reflexive on $W$.\n\nT is valid in a frame $\\mathcal{F}$ iff $\\mathcal{F}$ is reflexive.\n\nFirst, suppose $\\mathcal{F}$ is not reflexive, say, $(w,w)\\notin R$. Let\n$M$ be a model based on $\\mathcal{F}$ such that\n$V(p)=\\lbrace u\\mid w R u \\rbrace$, where $p$ is a propositional\nvariable. By the construction of $V(p)$, we see that for all $u$ such\nthat $w R u$, we have $\\models_u p$, so $\\models_w \\square p$. But since\n$w\\notin V(p)$, $\\not \\models_w p$. This means that\n$\\not \\models_w \\square p \\to p$.\n\nConversely, let $\\mathcal{F}$ be a reflexive frame, and $M$ any model\nbased on $\\mathcal{F}$, with $w$ a world in $M$. Suppose\n$\\models_w \\square A$. Then for all $u$ such that $w R u$,\n$\\models_u A$. Since $w R w$, we get $\\models_w A$. Therefore,\n$\\models_w \\square A \\to A$.\n\nAs a result,\n\n**T** is sound in the class of reflexive frames.\n\nSince any theorem in **T** is deducible from a finite sequence\nconsisting of tautologies, which are valid in any frame, instances of T,\nwhich are valid in reflexive frames by the proposition above, and\napplications of modus ponens and necessitation, both of which preserve\nvalidity in any frame, whence the result.\n\nIn addition, using the canonical model of **T**, we have\n\n**T** is complete in the class of reflexive frames.\n\nWe show that the canonical frame $\\mathcal{F}_{\\textbf{T}}$ is\nreflexive. For any maximally consistent set $w$, if\n$A \\in \\Delta_w:=\\lbrace B\\mid \\square B\\in w\\rbrace$, then\n$\\square A \\in w$. Since **T** contains $\\square A\\to A$, we get that\n$A\\in w$ by modus ponens and the fact that $w$ is closed under modus\nponens. Therefore $w R_{\\textbf{T}} w$, or $R_{\\textbf{T}}$ is\nreflexive.\n\n**T** properly extends the modal system **D**, for $\\square A \\to A$ is\nnot valid in any non-reflexive serial frame, such as the one $(W,R)$,\nwhere $W=\\lbrace u,w\\rbrace$ and $R=\\lbrace (u,u),(w,u)\\rbrace$: just\nlet $V(p)=\\lbrace w \\rbrace$. So $\\models_w p$ and $\\not \\models_u p$,\nor $\\not \\models_w \\square p$. This means\n$\\not \\models_w \\square p \\to p$.",
+  "language": "INFORMAL",
+  "phrase": "Modal Logic T",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModalLogicT"
+    }
+  ],
+  "indexable": true
+}

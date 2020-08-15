@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ and $B$ be commuting matrices. If $B$ is invertible, then $A$\nand $B^{-1}$ commute, and if $A$ and $B$ are invertible, then $A^{-1}$\nand $B^{-1}$ commute.\n\nBy assumption $$AB = BA,$$ multiplying from the left and from the right\nby $B^{-1}$ yields $$B^{-1} A = A B^{-1}.$$ The second claim follows\nsimilarly.\n\nThe statement and proof of this result can obviously be extended to\nelements of any monoid. In particular, in the case of a group, we see\nthat two elements commute if and only if their inverses do.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IfAAndBCommuteSoDoAAndB1"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "If $A$ and $B$ commute so do $A$ and $B^{-1}$"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "pluriharmonic"
+  ],
+  "definition": "Let $f \\colon G \\subset {\\mathbb{C}}^n \\to {\\mathbb{C}}$ be a $C^2$\n(twice continuously differentiable) function. $f$ is called\n[*pluriharmonic*]{} if for every complex line\n$\\{ a + b z \\mid z \\in {\\mathbb{C}} \\}$ the function\n$z \\mapsto f(a + bz)$ is harmonic on the set\n$\\{ z \\in {\\mathbb{C}} \\mid a + b z \\in G \\}$.\n\nNote that every pluriharmonic function is a harmonic function, but not\nthe other way around. Further it can be shown that for holomorphic\nfunctions of several complex variables the real (and the imaginary)\nparts are locally pluriharmonic functions. Do note however that just\nbecause a function is harmonic in each variable separately does not\nimply that it is pluriharmonic.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Pluriharmonic Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PluriharmonicFunction"
+    }
+  ],
+  "indexable": true
+}

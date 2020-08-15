@@ -1,0 +1,21 @@
+{
+  "alternatePhrases": [
+    "positive definite",
+    "negative definite form",
+    "negative definite",
+    "indefinite form",
+    "indefinite",
+    "nonnegative definite",
+    "nonpositive definite"
+  ],
+  "definition": "A bilinear form $B$ on a real or complex vector space $V$ is [*positive\ndefinite*]{} if $B(x,x) > 0$ for all nonzero vectors $x \\in V$. On the\nother hand, if $B(x,x) < 0$ for all nonzero vectors $x \\in V$, then we\nsay $B$ is [*negative definite*]{}. If $B(x,x) \\ge 0$ for all vectors\n$x \\in V$, then we say $B$ is [*nonnegative definite*]{}. Likewise, if\n$B(x,x) \\le 0$ for all vectors $x \\in V$, then we say $B$ is\n[*nonpositive definite*]{}.\n\nA form which is neither positive definite nor negative definite is\ncalled [*indefinite*]{}.",
+  "language": "INFORMAL",
+  "phrase": "Positive Definite Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PositiveDefiniteForm"
+    }
+  ],
+  "indexable": true
+}

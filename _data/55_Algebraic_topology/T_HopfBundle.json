@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hopf fibration"
+  ],
+  "definition": "Consider $S^3\\subset {\\mathbb{R}}^4={\\mathbb{C}}^2$. The structure of\n${\\mathbb{C}}^2$ gives a map ${\\mathbb{C}}^2-\\{0\\}\\to{\\mathbb{C}}P^1$,\nthe complex projective line by the natural projection. Since\n${\\mathbb{C}}P^1$ is homeomorphic to $S^2$, by restriction to $S^3$, we\nget a map $\\pi:S^3\\to S^2$. We call this the Hopf bundle.\n\nThis is a , and a generator of $\\pi_3(S^2)$. From the :\n$$\\cdots\\pi_n(S^1)\\to \\pi_n(S^3)\\to\\pi_n(S^2)\\to\\cdots$$ we get that\n$\\pi_n(S^3)\\cong \\pi_n(S^2)$ for all $n\\geq 3$. In particular,\n$\\pi_3(S^2)\\cong\\pi_3(S^3)\\cong{\\mathbb{Z}}$.",
+  "language": "INFORMAL",
+  "phrase": "Hopf Bundle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HopfBundle"
+    }
+  ],
+  "indexable": true
+}

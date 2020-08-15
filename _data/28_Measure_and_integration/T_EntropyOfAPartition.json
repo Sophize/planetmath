@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(X,\\mathscr{B},\\mu)$ be a probability space. A measurable partition\nof $X$ is a partition such that each of its elements is a measurable set\n(i.e. an element of $\\mathscr{B}$).\n\nGiven a finite measurable partition $\\mathcal{P}$, its ** is\n$$H_\\mu(\\mathcal{P})=\\sum_{P\\in\\mathcal{P}} -\\mu(P)\\log\\mu(P),$$ where\nwe assume $0\\log 0 = 0$ for convenience.\n\n**Remarks.**\n\n1.  Entropy can be interpreted as a measure of the *a priori*\n    uncertainity about the outcome of the measurement an experiment,\n    assuming that we are measuring it through the given partition (i.e.,\n    we are going to be told in which atom of the partition the result\n    is). Thus, the finer a partition is, the higher the resulting\n    entropy. In particular, the trivial partition $\\{X\\}$ has entropy\n    $0$, since there is only one possible outcome, so there is no\n    uncertainity at all. On the other hand, the measurement gives no\n    information at all about the \u201creal\u201d outcome of the experiment, which\n    reflects the complementary intepretation of entropy: as the\n    information gained from the measurement. This is because of the\n    intuitive fact that more uncertainity about the outcome of the\n    measurement means that more information will be obtained from\n    knowing it about the \u201creal\u201d outcome.\n\n2.  Equally intuitive is the fact that among all measurable partitions\n    of $X$ into $n$ atoms, the maximum possible entropy is attained at\n    those in which the atoms are equally likely (i.e., all atoms have\n    equal measure $1/n$). This can be proved by means of standard\n    calculus, and a direct computation shows that the maximum value is\n    $\\log n$.\n\n3.  Since the definition of entropy involves only the measure of atoms\n    of the given partition, two partitions which are equal modulo\n    measure zero have the same entropy.\n\n4.  There is a natural correspondence between finite measurable\n    partitions and finite sub-$\\sigma$-algebras of $\\mathscr{B}$. For\n    this reason, to each finite sub-$\\sigma$-algebra $\\mathscr{P}$ we\n    can define its entropy by $H_\\mu(\\mathcal{P})$ where $\\mathcal{P}$\n    is the (unique) partition which generates $\\mathscr{P}$. For short,\n    we denote this entropy by $H_\\mu(\\mathscr{P})$.",
+  "language": "INFORMAL",
+  "phrase": "Entropy Of A Partition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EntropyOfAPartition"
+    }
+  ],
+  "indexable": true
+}

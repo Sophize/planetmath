@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a deterministic polynomial-time function from\n$\\mathbb{N}^{<\\omega}$ to $\\mathbb{N}^{<\\omega}$ with *stretch function*\n$l:\\mathbb{N}\\rightarrow\\mathbb{N}$, so that if $x$ has length $n$ then\n$G(x)$ has length $l(n)$. Then let $G_n$ be the distribution on strings\nof length $l(n)$ defined by the output of $G$ on a randomly selected\nstring of length $n$ selected by the uniform distribution.\n\nThen we say $G$ is *pseudorandom generator* if\n$\\{G_n\\}_{n\\in\\mathbb{N}}$ is pseudorandom.\n\nIn effect, $G$ translates a random input of length $n$ to a pseudorandom\noutput of length $l(n)$. Assuming $l(n)>n$, this expands a random\nsequence (and can be applied multiple times, since $G_n$ can be replaced\nby the distribution of $G(G(x))$).",
+  "language": "INFORMAL",
+  "phrase": "Pseudorandom Generator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PseudorandomGenerator"
+    }
+  ],
+  "indexable": true
+}

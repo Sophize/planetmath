@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $U_i \\sim  N_p(\\mu_i, \\Sigma ), \\quad i=1,\\ldots, k$ be independent\n$p$-dimensional random variables, which are . Let\n$S= \\sum_{i=1}^k U_i {U_i}^T$. Let $M$ be the $k\\times p$ matrix with\n$\\mu_1, \\ldots, \\mu_k$ as rows. Then the joint distribution of the\nelements of $S$ is said to be a *Wishart distribution on* $k$ *of\nfreedom* , and is denoted by $W_p(k, \\Sigma, M)$. If $M=0$, the\ndistribution is said to be *central* and is denoted by $W_p(k, \\Sigma)$.\nThe Wishart distribution is a multivariate generalization of the\n$\\chi^2$ distribution.\n\n$W_p$ has a density function when $k \\geq p$.",
+  "language": "INFORMAL",
+  "phrase": "Wishart Distribution",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WishartDistribution"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that the real functions $f$ and $g$ are defined on an interval\n$\\Delta$. Then on this interval\n\n-   $\\inf(f\\!+\\!g) \\;\\geqq\\; \\inf f+\\inf g$\n\n-   $\\sup(f\\!+\\!g) \\;\\leqq\\; \\sup f+\\sup g$\n\nIf $f$ and $g$ are also nonnegative on $\\Delta$, we can write\n\n-   $\\inf(fg) \\;\\geqq\\; \\inf f\\cdot\\inf g$\n\n-   $\\sup(fg) \\;\\leqq\\; \\sup f\\cdot\\sup g$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InfimumAndSupremumOfSumAndProduct"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "infimum and supremum of sum and product"
+  ]
+}

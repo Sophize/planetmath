@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Proposition.** If the $a_n$ of the convergent series\n$$a_1+a_2+\\ldots$$ are positive and form a monotonically decreasing\nsequence, then $$\\begin{aligned}\n\\lim_{n\\to\\infty}na_n \\;=\\; 0.\\end{aligned}$$\n\n*Proof.* Let $\\varepsilon$ be any positive number. By the Cauchy\ncriterion for convergence and the positivity of the terms, there is a\npositive integer $m$ such that\n$$0 \\;<\\; a_{m+1}+\\ldots+a_{m+p} \\;<\\; \\frac{\\varepsilon}{2} \\qquad (p \\;=\\; 1,\\,2,\\,\\ldots).$$\nSince the sequence $a_1,\\,a_2,\\,\\ldots$ is decreasing, this implies\n$$\\begin{aligned}\n0 \\;<\\; pa_{m+p} \\;<\\; \\frac{\\varepsilon}{2} \\qquad (p \\;=\\; 1,\\,2,\\,\\ldots).\\end{aligned}$$\nChoosing here especially $p := m$, we get\n$$0 \\;<\\; ma_{m+m} \\;<\\; \\frac{\\varepsilon}{2},$$ whence again due to\nthe decrease, $$\\begin{aligned}\n0 \\;<\\; ma_{m+p} \\;<\\; \\frac{\\varepsilon}{2} \\qquad (p \\;=\\; m,\\,m\\!+\\!1,\\,\\ldots).\\end{aligned}$$\nAdding the inequalities (2) and (3) with the common values\n$p = m,\\,m\\!+\\!1,\\,\\ldots$ then yields\n$$0 \\;<\\; (m\\!+\\!p)a_{m+p} \\;<\\; \\varepsilon \\qquad \\mbox{for}\\quad p \\;\\geqq\\; m.$$\nThis may be written also in the form\n$$0 \\;<\\; na_n \\;<\\; \\varepsilon \\qquad \\mbox{for} \\quad n\\;\\geqq\\; 2m$$\nwhich means that $\\lim_{n\\to\\infty}na_n \\;=\\; 0$.\\\n**Remark.** The assumption of monotonicity in the Proposition is\nessential. I.e., without it, one cannot gererally get the limit result\n(1). A counterexample would be the series $a_1\\!+\\!a_2\\!+\\ldots$ where\n$a_n := \\frac{1}{n}$ for any perfect square $n$ but 0 for other values\nof $n$. Then this series is convergent (cf. the over-harmonic series),\nbut $na_n = 1$ for each perfect square $n$; so $na_n \\not\\to 0$ as\n$n \\to \\infty$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvergentSeriesWhereNotOnlyanButAlsoNanTendsTo0"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "convergent series where not only$~a_n$ but also $na_n$ tends to 0",
+    "Olivier's theorem"
+  ]
+}

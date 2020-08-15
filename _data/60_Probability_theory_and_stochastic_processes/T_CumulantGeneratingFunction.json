@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a random variable $X$, the *cumulant generating function* of $X$\nis the following function:\\\n$$H_X(t) = \\ln E[e^{tX}]$$ for all $t \\in R$ in which the expectation\nconverges.\n\nIn other , the cumulant generating function is just the logarithm of the\nmoment generating function.\n\nThe cumulant generating function of $X$ is defined on a (possibly\ndegenerate) interval containing $t=0$; one has $H_X(0)=0$; moreover,\n$H_X(t)$ is a . (Indeed, the moment generating function is defined on a\npossibly degenerate interval containing $t=0$, which image is a positive\ninterval containing $t=1$; so the logarithm is defined on the same\ninterval on which is defined the moment generating function.)\n\nThe $k$th-derivative of the cumulant generating function evaluated at\nzero is the $k$th cumulant of $X$.",
+  "language": "INFORMAL",
+  "phrase": "Cumulant Generating Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CumulantGeneratingFunction"
+    }
+  ],
+  "indexable": true
+}

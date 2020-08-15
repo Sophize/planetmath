@@ -1,0 +1,17 @@
+{
+  "argumentText": "This theorem can be proved combining the cyclic decomposition theorem\nand the primary decomposition theorem. By hypothesis, the characteristic\npolynomial of $T$ factorizes completely over $F$, and then so does the\nminimal polynomial of $T$ (or its annihilator polynomial). This is\nbecause the minimal polynomial of $T$ has exactly the same factors on\n$F[X]$ as the characteristic polynomial of $T$. Let\u2019s suppose then that\nthe minimal polynomial of $T$ factorizes as\n$m_{T}=(X-\\lambda_1)^{\\alpha_1} \\ldots (X-\\lambda_r)^{\\alpha_r}$. We\nknow, by the primary decomposition theorem, that\n$$V=\\bigoplus_{i=1}^{r}\\ker((T-\\lambda_iI)^{\\alpha_i}).$$ Let $T_{i}$ be\nthe restriction of $T$ to $\\ker((T-\\lambda_iI)^{\\alpha_{i}})$. We apply\nnow the cyclic decomposition theorem to every linear operator\n$$(T_{i}-\\lambda_iI) \\colon \\ker(T-\\lambda_iI)^{\\alpha_{i}}\\to \\ker(T-\\lambda_iI)^{\\alpha_{i}}.$$\nWe know then that $\\ker(T-\\lambda_iI)^{\\alpha_i}$ has a basis $B_{i}$ of\nthe form\n$B_{i}= B_{1,i} \\bigcup B_{2,i} \\bigcup \\ldots \\bigcup B_{d_i,i}$ such\nthat each $B_{s,i}$ is of the form\n$$B_{s,i}=\\{v_{s,i}, (T-\\lambda_i)v_{s,i}, (T-\\lambda_i)^{2}v_{s,i}, \\ldots, \n(T-\\lambda_i)^{k_{s,i}}v_{s,i}\\}.$$\n\nLet\u2019s see that $T$ in each of this \u201ccyclic sub-basis\u201d $B_{s,i}$ is a\nJordan block: Simply notice the following fact about this polynomials:\n$$\\begin{aligned}\nX(X-\\lambda_i)^{j} &=&\n(X-\\lambda_i)^{j+1}+X(X-\\lambda_i)^{j}-(X-\\lambda_i)^{j+1} \\\\\n&=& (X-\\lambda_i)^{j+1}+(X-X+\\lambda_i)(X-\\lambda_i)^{j} \\\\\n&=& (X-\\lambda_i)^{j+1}+\\lambda_i(X-\\lambda_i)^{j}\\end{aligned}$$ and\nthen\n$$T(T-\\lambda_iI)^{j}(v_{s,i})=(T-\\lambda_i)^{j+1}(v_{s,i})+\\lambda_i(T-\\lambda_iI)^{j}(v_{s,i}).$$\nSo, if we also notice that $(T-\\lambda_iI)^{k_{s,i}+1}(v_{s,i})=0$, we\nhave that $T$ in this sub-basis is the Jordan block $$\\begin{pmatrix}\n\\lambda_i & 0 & 0 & \\cdots & 0 & 0\\\\\n1 & \\lambda_i & 0 & \\cdots & 0 & 0\\\\\n0 & 1 & \\lambda_i & \\cdots & 0 & 0\\\\\n\\vdots & \\vdots & \\vdots & \\ddots & \\vdots & \\vdots \\\\\n0 & 0 & 0 & \\cdots & \\lambda_i & 0\\\\\n0 & 0 & 0 & \\cdots & 1 & \\lambda_{i}\n\\end{pmatrix}$$\n\nSo, taking the basis\n$B=B_{1} \\bigcup B_{2} \\bigcup \\ldots \\bigcup B_{r}$, we have that $T$\nin this basis has a Jordan form.\n\nThis form is unique (except for the order of the blocks) due to the\nuniqueness of the cyclic decomposition.",
+  "conclusion": "#P_JordanCanonicalFormTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfJordanCanonicalFormTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Jordan canonical form theorem"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** In a ring (not necessarily commutative) with unity, any\nmaximal ideal is a prime ideal.\n\n[*Proof.*]{} Let $\\mathfrak{m}$ be a maximal ideal of such a ring $R$\nand suppose $R$ has ideals $\\mathfrak{a}$ and $\\mathfrak{b}$ with\n$\\mathfrak{a}\\mathfrak{b} \\subseteq \\mathfrak{m}$, but\n$\\mathfrak{a} \\nsubseteq \\mathfrak{m}$. Since $\\mathfrak{m}$ is maximal,\nwe must have $\\mathfrak{a} + \\mathfrak{m} = R$. Then,\n$$\\mathfrak{b} = R\\mathfrak{b} = (\\mathfrak{a} + \\mathfrak{m})\\mathfrak{b}\n= \\mathfrak{a}\\mathfrak{b} + \\mathfrak{m}\\mathfrak{b} \\subseteq \\mathfrak{m} + \\mathfrak{m}\n= \\mathfrak{m}.$$ Thus, either $\\mathfrak{a} \\subseteq \\mathfrak{m}$ or\n$\\mathfrak{b} \\subseteq \\mathfrak{m}$. This demonstrates that\n$\\mathfrak{m}$ is prime.\n\nNote that the condition that $R$ has an identity element is essential.\nFor otherwise, we may take $R$ to be a finite zero ring. Such rings\ncontain no proper prime ideals. As long as the number of elements of $R$\nis not prime, $R$ will have a non-zero maximal ideal.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MaximalIdealIsPrimegeneralCase"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "maximal ideal is prime (general case)"
+  ]
+}

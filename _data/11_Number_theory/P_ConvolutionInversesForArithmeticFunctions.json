@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "An arithmetic function $f$ has a convolution inverse if and only if\n$f(1) \\neq 0$.\n\nIf $f$ has a convolution inverse $g$, then $f*g=\\varepsilon$, where\n$\\varepsilon$ denotes the convolution identity function. Thus,\n$1=\\varepsilon(1)=(f*g)(1)=f(1)g(1)$, and it follows that $f(1) \\neq 0$.\n\nConversely, if $f(1) \\neq 0$, then an arithmetic function $g$ must be\nconstructed such that $(f*g)(n)=\\varepsilon(n)$ for all\n$n \\in \\mathbb{N}$. This will be done by induction on $n$.\n\nSince $f(1) \\neq 0$, we have that\n$\\displaystyle \\frac{1}{f(1)} \\in \\mathbb{C}$. Define\n$\\displaystyle g(1)=\\frac{1}{f(1)}$.\n\nNow let $k \\in \\mathbb{N}$ with $k>1$ and $g(1), \\dots, g(k-1)$ be such\nthat $(f*g)(n)=\\varepsilon(n)$ for all $n \\in \\mathbb{N}$ with $n<k.$\nDefine\n\n$$g(k)=-\\frac{1}{f(1)}\\sum_{d|k \\text{ and } d<k} f \\left( \\frac{k}{d} \\right) g(d).$$\n\nThen\n\n  -------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n  $\\displaystyle (f*g)(k)$   $\\displaystyle = \\sum_{d|k} f \\left( \\frac{k}{d} \\right) g(d)$\n                             $\\displaystyle = f(1)g(k) + \\sum_{d|k \\text{ and } d<k} f \\left( \\frac{k}{d} \\right) g(d)$\n                             $\\displaystyle = f(1) \\left( -\\frac{1}{f(1)}\\sum_{d|k \\text{ and } d<k} f \\left( \\frac{k}{d} \\right) g(d) \\right) + \\sum_{d|k \\text{ and } d<k} f \\left( \\frac{k}{d} \\right) g(d)$\n                             $\\displaystyle =0$\n                             $\\displaystyle =\\varepsilon(k).$\n  -------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nIn the entry titled arithmetic functions form a ring, it is proven that\nconvolution is associative and commutative. Thus,\n$G=\\{ f \\colon \\mathbb{N} \\to \\mathbb{C} \\, | f(1) \\neq 0 \\}$ is an\nabelian group under convolution. The set of all multiplicative functions\nis a subgroup of $G$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvolutionInversesForArithmeticFunctions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "convolution inverses for arithmetic functions"
+  ]
+}

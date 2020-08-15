@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "associated sheaf"
+  ],
+  "definition": "Let $F$ be a presheaf over a topological space $X$ with values in a\ncategory ${\\mathcal{A}}$ for which sheaves are defined. The\n[*sheafification*]{} of $F$, if it exists, is a sheaf $F'$ over $X$\ntogether with a morphism $\\theta: F {\\longrightarrow}F'$ satisfying the\nfollowing universal property:\n\n> For any sheaf $G$ over $X$ and any morphism of presheaves\n> $\\phi: F {\\longrightarrow}G$ over $X$, there exists a unique morphism\n> of sheaves $\\psi: F' {\\longrightarrow}G$ such that the diagram\n> $$\\xymatrix{\n> F \\ar[r]^{\\theta} \\ar@/_1pc/[rr]_{\\phi} & F' \\ar[r]^{\\psi} & G\n> }$$ commutes.\n\nIn light of the universal property, the sheafification of $F$ is\nuniquely defined up to canonical isomorphism whenever it exists. In the\ncase where ${\\mathcal{A}}$ is a concrete category (one consisting of\nsets and set functions), the sheafification of any presheaf $F$ can be\nconstructed by taking $F'(U)$ to be the set of all functions\n$s: U {\\longrightarrow}\\bigcup_{p \\in U} F_p$ such that\n\n1.  $s(p) \\in F_p$ for all $p \\in U$\n\n2.  For all $p \\in U$, there is a neighborhood $V \\subset U$ of $p$ and\n    a section $t \\in F(V)$ such that, for all $q \\in V$, the induced\n    element $t_q \\in F_q$ equals $s(q)$\n\nfor all open sets $U \\subset X$. Here $F_p$ denotes the stalk of the\npresheaf $F$ at the point $p$.\n\nThe following quote, taken from\u00a0[@mumford], is perhaps the best\nexplanation of sheafification to be found anywhere:\n\n> $F'$ is \u201cthe best possible sheaf you can get from $F$\u201d. It is easy to\n> imagine how to get it: first identify things which have the same\n> restrictions, and then add in all the things which can be patched\n> together.\n\n[9]{}",
+  "language": "INFORMAL",
+  "phrase": "Sheafification",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Sheafification"
+    }
+  ],
+  "indexable": true
+}

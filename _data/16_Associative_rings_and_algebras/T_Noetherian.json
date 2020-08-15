@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "left noetherian",
+    "right noetherian"
+  ],
+  "definition": "A module $M$ is [*noetherian*]{} if it satisfies the following\nequivalent conditions:\n\n-   the ascending chain condition holds for submodules of $M$ ;\n\n-   every nonempty family of submodules of $M$ has a maximal element;\n\n-   every submodule of $M$ is finitely generated.\n\nA ring $R$ is [*left noetherian*]{} if it is noetherian as a left module\nover itself (i.e. if $_RR$ is a ), and [*right noetherian*]{} if it is\nnoetherian as a right module over itself (i.e. if $R_R$ is an ), and\nsimply [*noetherian*]{} if both conditions hold.",
+  "language": "INFORMAL",
+  "phrase": "Noetherian",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Noetherian"
+    }
+  ],
+  "indexable": true
+}

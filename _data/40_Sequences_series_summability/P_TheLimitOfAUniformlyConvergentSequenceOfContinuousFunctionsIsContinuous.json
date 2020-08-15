@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem.**]{} The limit of a uniformly convergent sequence of\ncontinuous functions is continuous.\n\n*Proof.* Let $f_n,f:X\\rightarrow Y$, where $(X,\\rho)$ and $(Y,d)$ are\nmetric spaces. Suppose $f_n \\rightarrow f$ uniformly and each $f_n$ is\ncontinuous. Then given any $\\epsilon>0$, there exists $N$ such that\n$n>N$ implies $d(f(x),f_{n}(x)) < \\frac{\\epsilon}{3}$ for all $x$. Pick\nan arbitrary $n$ larger than $N$. Since $f_n$ is continuous, given any\npoint $x_0$, there exists $\\delta>0$ such that $0<\\rho(x,x_0)<\\delta$\nimplies $d(f_n(x), f_n(x_0))<\\frac{\\epsilon}{3}$. Therefore, given any\n$x_0$ and $\\epsilon>0$, there exists $\\delta>0$ such that\n$$0<\\rho(x,x_0)<\\delta\\Rightarrow d(f(x),f(x_0)) \\leq d(f(x),f_n(x)) + d(f_n(x),f_n(x_0)) + d(f_n(x_0),f(x_0)) < \\epsilon.$$\nTherefore, $f$ is continuous.\n\nThe theorem also generalizes to when $X$ is an arbitrary topological\nspace. To generalize it to $X$ an arbitrary topological space, note that\nif $d(f_n(x),f(x))< \\epsilon/3$ for all $x$, then\n$x_0\\in f_n^{-1}(B_{\\epsilon/3}(f_n(x_0)))\\subseteq f^{-1}(B_\\epsilon(f(x_0)))$,\nso $f^{-1}(B_\\epsilon(f(x_0)))$ is a neighbourhood of $x_0$. Here\n$B_{\\epsilon}(y)$ denote the open ball of radius $\\epsilon$, centered at\n$y$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheLimitOfAUniformlyConvergentSequenceOfContinuousFunctionsIsContinuous"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the limit of a uniformly convergent sequence of continuous functions is continuous"
+  ]
+}

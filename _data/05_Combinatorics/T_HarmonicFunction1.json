@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A real or complex-valued function $f:V\\to\\mathbb{R}$ or\n$f:V\\to\\mathbb{C}$ defined on the vertices\u00a0$V$ of a graph $G=(V,E)$ is\ncalled *harmonic* at $v\\in V$ if its value at\u00a0$v$ is its average value\nat the neighbours of\u00a0$v$:\n$$f(v) = \\frac{1}{\\operatorname{deg}(v)} \\sum_{\\{u,v\\}\\in E} f(u).$$ It\nis called harmonic *except on\u00a0$A$*, for some $A\\subseteq V$, if it is\nharmonic at each $v\\in V\\setminus A$, and harmonic if it is harmonic at\neach $v\\in V$.\n\nAny harmonic $f:\\mathbb{Z}^n\\to\\mathbb{R}$, where $\\mathbb{Z}^n$ is the\n$n$-dimensional grid, is if below (or above). However, this is not\nnecessarily true on other graphs.",
+  "language": "INFORMAL",
+  "phrase": "Harmonic Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HarmonicFunction1"
+    }
+  ],
+  "indexable": true
+}

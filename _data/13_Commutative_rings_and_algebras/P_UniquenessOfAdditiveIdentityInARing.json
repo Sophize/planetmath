@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a ring. There exists a unique element $0$ in $R$ such that\nfor all $a$ in $R$: $$0+a=a+0=a.$$\n\nBy the definition of ring, there exists at least one identity in $R$,\ncall it $0_1$. Suppose $0_2\\in R$ is an element which also the of\nadditive identity. Thus, $$0_2+0_1=0_2$$ On the other hand, $0_1$ is an\nadditive identity, therefore: $$0_2+0_1=0_1+0_2=0_1$$ Hence $0_2=0_1$,\ni.e. there is a unique additive identity.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniquenessOfAdditiveIdentityInARing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "uniqueness of additive identity in a ring"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f(x_1,\\ldots,x_k)$ be a smooth homogeneous function of degree $n$.\nThat is, $$f(t x_1, \\ldots, t x_k) = t^n f(x_1, \\ldots, x_k).\n    \\label{hom-def} \\tag{*}$$ Then the following identity holds\n$$x_1 \\frac{\\del f}{\\del x_1} + \\cdots + x_k \\frac{\\del f}{\\del x_k}\n    = n f.$$\n\nBy homogeneity, the relation holds for all $t$. Taking the t-derivative\nof both sides, we establish that the following identity holds for all\n$t$: $$x_1 \\frac{\\del f}{\\del x_1}(t x_1, \\ldots, t x_k) + \\cdots +\n  x_k \\frac{\\del f}{\\del x_k}(t x_1, \\ldots, t x_k)\n    = n t^{n-1} f(x_1, \\ldots, x_k).$$ To obtain the result of the\ntheorem, it suffices to set $t=1$ in the previous formula.\n\nSometimes the differential operator\n$\\displaystyle{x_1 \\frac{\\del}{\\del x_1} + \\cdots\n+ x_k \\frac{\\del}{\\del x_k}}$ is called the *Euler operator*. An\nequivalent way to state the theorem is to say that homogeneous functions\nare eigenfunctions of the Euler operator, with the degree of homogeneity\nas the eigenvalue.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulersTheoremOnHomogeneousFunctions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Euler's theorem on homogeneous functions"
+  ]
+}

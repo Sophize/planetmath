@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a vector space and $\\phi_1, \\dotsc, \\phi_n \\in X^*$ be\nfunctionals belonging to the dual space. A linear functional $f \\in X^*$\nbelongs to the linear span of $\\phi_1, \\dotsc, \\phi_n$ if and only if\n$\\ker f \\supseteq \\bigcap_{i=1}^n \\ker \\phi_i$.\n\n$\\ker$ refers to the kernel. Note that the domain $X$ need not be\nfinite-dimensional.\n\nThe \u201conly if\u201d part is easy: if $f = \\sum_{i=1}^n \\lambda_i \\phi_i$ for\nsome scalars $\\lambda_i$, and $x \\in X$ is such that $\\phi_i(x) = 0$ for\nall $i$, then clearly $f(x) = 0$ too.\n\nThe \u201cif\u201d part will be proved by induction on $n$.\n\nSuppose $\\ker f \\supseteq \\ker \\phi_1$. If $f = 0$, then the result is\ntrivial. Otherwise, there exists $y \\in X$ such that $f(y) \\neq 0$. By\nhypothesis, we also have $\\phi_1(y) \\neq 0$. Every $z \\in X$ can be\ndecomposed into $z = x+ ty$ where $x \\in \\ker \\phi_1 \\subseteq \\ker f$,\nand $t$ is a scalar. Indeed, just set $t = \\phi_1(z)/\\phi_1(y)$, and\n$x = z-ty$. Then we propose that\n$$f(z) = \\frac{f(y)}{\\phi_1(y)} \\phi_1(z)\\,, \\text{ for all $z \\in X$.}$$\nTo check this equation, simply evaluate both sides using the\ndecomposition $z = x+ty$.\n\nNow suppose we have $\\ker f \\supseteq \\bigcap_{i=1}^n \\ker \\phi_i$ for\n$n > 1$. Restrict each of the functionals to the subspace\n$W = \\ker \\phi_n$, so that\n$\\ker f|_W \\supseteq \\bigcap_{i=1}^{n-1} \\ker \\phi_i|_W$. By the\ninduction hypothesis, there exist scalars\n$\\lambda_1, \\dotsc, \\lambda_{n-1}$ such that\n$f|_W = \\sum_{i=1}^{n-1} \\lambda_i \\phi_i|_W$. Then\n$\\ker ( f - \\sum_{i=1}^{n-1} \\lambda_i \\phi_i ) \\supseteq \nW = \\ker \\phi_n$, and the argument for the case $n=1$ can be applied\nanew, to obtain the final $\\lambda_n$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpanningSetsOfDualSpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "spanning sets of dual space"
+  ]
+}

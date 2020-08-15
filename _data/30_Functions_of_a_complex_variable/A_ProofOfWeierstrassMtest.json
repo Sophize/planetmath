@@ -1,0 +1,17 @@
+{
+  "argumentText": "Consider the sequence of partial sums $s_n=\\sum_{m=1}^n f_m$. Take any\n$p,q\\in\\N$ such that $p\\le q$,then, for every $x\\in X$, we have\n$$\\begin{aligned}\n    |s_q(x)-s_p(x)| &=& \\left|\\sum_{m=p+1}^q f_m(x)\\right| \\\\\n        &\\le& \\sum_{m=p+1}^q |f_m(x)| \\\\\n        &\\le& \\sum_{m=p+1}^q M_m\\end{aligned}$$ But since\n$\\sum_{n=1}^\\infty M_n$ converges, for any $\\eps>0$ we can find an\n$N\\in\\N$ such that, for any $p,q>N$ and $x\\in X$, we have\n$|s_q(x)-s_p(x)|\\le\\sum_{m=p+1}^q M_m<\\eps$. Hence the sequence $s_n$\nconverges uniformly to $\\sum_{n=1}^\\infty f_n$.",
+  "conclusion": "#P_WeierstrassMtest",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfWeierstrassMtest"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Weierstrass M-test"
+  ]
+}

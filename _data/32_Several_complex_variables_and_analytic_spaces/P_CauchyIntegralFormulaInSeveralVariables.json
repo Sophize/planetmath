@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $D = D_1 \\times \\ldots \\times D_n \\subset {\\mathbb{C}}^n$ be a\npolydisc.\n\nLet $f$ be a function continuous in $\\bar{D}$ (the closure of $D$). Then\n$f$ is in $D$ if and only if for all $z = (z_1,\\ldots,z_n) \\in D$ we\nhave $$f(z_1,\\ldots,z_n)\n=\n\\frac{1}{{(2 \\pi i)}^n}\n\\int_{\\partial D_1}\n\\cdots\n\\int_{\\partial D_n}\n\\frac{f(\\zeta_1,\\ldots,\\zeta_n)}\n{(\\zeta_1 - z_1)\n\\ldots\n(\\zeta_n - z_n)}\nd\\zeta_1 \\ldots d\\zeta_n .$$\n\nAs in the case of one variable this theorem can be in fact used as a\ndefinition of holomorphicity. Note that when $n > 1$ then we are no\nlonger integrating over the boundary of the polydisc but over the\ndistinguished boundary, that is over $\\partial D_1 \\times \\ldots \\times\n\\partial D_n$.\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyIntegralFormulaInSeveralVariables"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cauchy integral formula in several variables"
+  ]
+}

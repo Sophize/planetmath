@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "semimartingale convergence"
+  ],
+  "definition": "Let\n$(\\Omega,\\mathcal{F},(\\mathcal{F}_t)_{t\\in\\mathbb{R}_+}),\\mathbb{P})$ be\na filtered probability space and $(X^n_t)$, $(X_t)$ be cadlag adapted\nprocesses. Then, $X^n$ is said to converge to $X$ in the *semimartingale\ntopology* if $X^n_0\\rightarrow X_0$ in probability and\n$$\\int_0^t\\xi^n\\,dX^n-\\int_0^t\\xi^n\\,dX\\rightarrow 0$$ in probability as\n$n\\rightarrow\\infty$, for every $t>0$ and sequence of simple predictable\nprocesses $|\\xi^n|\\le 1$.\n\nThis topology occurs with stochastic calculus where, according to the ,\nstochastic integrals converge in the semimartingale topology.\nFurthermore, stochastic integration with respect to any predictable\nprocess $\\xi$ is continuous under the semimartingale topology. That is,\nif $X^n$ are semimartingales converging to $X$ then $\\int\\xi\\,dX^n$\nconverges to $\\int\\xi\\,dX$, a fact which does not hold under weaker\ntopologies such as ucp convergence.\n\nAlso, for cadlag martingales, $L^1$ convergence implies semimartingale\nconvergence.\n\nIt can be shown that semimartingale convergence implies ucp convergence.\nConsequently, $X^n$ converges to $X$ in the semimartingale topology if\nand only if\n$$X^n_0-X_0+\\int\\xi^n\\,dX^n-\\int\\xi^n\\,dX\\xrightarrow{\\rm ucp} 0$$ for\nall sequences of simple predictable processes $|\\xi^n|\\le 1$.\n\nThe topology is described by a metric as follows. First, let\n$D^{\\rm ucp}(X-Y)$ be a metric defining the ucp topology. For example,\n$$D^{\\rm ucp}(X)=\\sum_{n=1}^\\infty 2^{-n}\\mathbb{E}\\left[\\min\\left(1,\\sup_{t<n}|X_t|\\right)\\right].$$\nThen, a metric $D^{\\rm s}(X-Y)$ for semimartingale convergence is given\nby\n$$D^{\\rm s}(X)=\\sup\\left\\{D^{\\rm ucp}(X_0+\\xi\\cdot X):|\\xi|\\le 1\\textrm{ is simple previsible}\\right\\}$$\n($\\xi\\cdot X$ denotes the integral $\\int\\xi\\,dX$). This is a proper\nmetric under identification of processes with almost surely equivalent\nsample paths, otherwise it is a pseudometric.\n\nIf $\\lambda_n\\not=0$ is a sequence of real numbers converging to zero\nand $X$ is a cadlag adapted process then $\\lambda_nX\\rightarrow 0$ in\nthe semimartingale topology if and only if\n$$\\lambda_n\\int_0^t\\xi^n\\,dX\\rightarrow 0$$ in probability, for every\n$t>0$ and simple predictable processes $|\\xi^n|\\le 1$. By the , this is\nequivalent to the statement that\n$$\\left\\{\\int_0^t\\xi\\,dX:|\\xi|\\le 1\\textrm{ is simple predictable}\\right\\}$$\nis bounded in probability for every $t>0$. So, $\\lambda_nX\\rightarrow 0$\nin the semimartingale topology if and only if $X$ is a semimartingale.\nIt follows that semimartingale convergence only becomes a when\nrestricted to the space of semimartingales. Then, it can be shown that .",
+  "language": "INFORMAL",
+  "phrase": "Semimartingale Topology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemimartingaleTopology"
+    }
+  ],
+  "indexable": true
+}

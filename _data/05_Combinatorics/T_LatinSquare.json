@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Latin square* of $n$ is an $n\\times n$ array such that each column\nand each row are made with the same $n$ symbols, using every one exactly\nonce .\n\nExamples. $$\\left(\\begin{array}{cccc}\na & b & c & d\\\\\nc & d & a &b\\\\\nd & c & b & a\\\\\nb & a & d & c\n\\end{array}\\right)\n\\qquad\n\\left(\\begin{array}{cccc}\n1 & 2&  3&  4\\\\\n4 & 3 & 2 & 1\\\\\n2 & 1 & 4 & 3\\\\\n3 & 4 & 1 & 2\n\\end{array}\\right)$$",
+  "language": "INFORMAL",
+  "phrase": "Latin Square",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LatinSquare"
+    }
+  ],
+  "indexable": true
+}

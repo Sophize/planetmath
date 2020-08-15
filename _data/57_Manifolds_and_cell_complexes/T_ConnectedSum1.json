@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ and $N$ be two $n$-manifolds. Choose points $m\\in M$ and\n$n\\in N$, and let $U, V$ be neighborhoods of these points, respectively.\nSince $M$ and $N$ are manifolds, we may assume that $U$ and $V$ are\nballs, with boundaries homeomorphic to $(n-1)$-spheres, since this is\npossible in ${\\mathbb{R}}^n$. Then let\n${\\varphi}:\\partial U\\to\\partial V$ be a homeomorphism. If $M$ and $N$\nare oriented, this should be orientation preserving with respect to the\ninduced orientation (that is, degree 1). Then the *connected sum*\n$M\\sharp N$ is $M-U$ and $N-V$ glued along the boundaries by\n${\\varphi}$.\n\nThat is, $M\\sharp N$ is the disjoint union of $M-U$ and $N-V$ modulo the\nequivalence relation $x\\sim y$ if $x\\in\\partial U$, $y\\in\\partial V$ and\n${\\varphi}(x)=y$.",
+  "language": "INFORMAL",
+  "phrase": "Connected Sum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConnectedSum1"
+    }
+  ],
+  "indexable": true
+}

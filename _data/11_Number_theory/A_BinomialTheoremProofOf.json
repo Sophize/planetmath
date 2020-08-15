@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let [[*a*]{}]{} and [[*b*]{}]{} be commuting elements of some rig. Then\n$$(a+b)^n = \\sum_{k=0}^n \\binom{n}{k} a^k b^{n-k},$$ where the\n$\\binom{n}{k}$ are binomial coefficients.\n\nEach term in the expansion of $(a+b)^n$ is obtained by making\n[[*n*]{}]{} decisions of whether to use [[*a*]{}]{} or [[*b*]{}]{} as a\nfactor. Moreover, any sequence of [[*n*]{}]{} such decisions yields a\nterm in the expansion. So the expandsion of $(a+b)^n$ is precisely the\nsum of all the [[*ab*]{}]{}-words of length [[*n*]{}]{}, where each word\nappears exactly once.\n\nSince [[*a*]{}]{} and [[*b*]{}]{} commute, we can reduce each term via\nrewrite rules of the form $b^na\\mapsto ab^n$ to a term in which the\n[[*a*]{}]{} factors precede all the [[*b*]{}]{} factors. This produces a\nterm of the form $a^k b^{n-k}$ for some [[*k*]{}]{}, where we use the\nexpressions $a^0\nb^n$ and $a^n b^0$ to denote $b^n$ and $a^n$ respectively. For example,\nreducing the word $babab^2aba$ yields $a^4 b^5$, via the following\nreduction. $$babab^2aba \\mapsto\na ba ba b^2a b \\mapsto\na^2babab^3 \\mapsto\na^3bab^4 \\mapsto\na^4b^5.$$ After performing this rewriting process, we collect like\nterms. Let us illustrate this with the case [[*n*]{}]{} = 3.\n$$\\begin{aligned}\n(a+b)^3\n&= aaa + aab + aba + abb + baa + bab + bba + bbb \\\\\n&= a^3 + a^2b + a^2 b + ab^2 +a^2 b + ab^2 + ab^2 + b^3 \\\\\n&= a^3 + 3a^2b + 3ab^2 + b^3.\\end{aligned}$$ To determine the\ncoefficient of a reduced term, it suffices to determine how many\n[[*ab*]{}]{}-words have that reduction. Since reducing a term only\nchanges the positions of [[*a*]{}]{}s and [[*b*]{}]{}s and not their\nnumber, all the [[*ab*]{}]{}-words where [[*k*]{}]{} of the letters are\n[[*b*]{}]{}s and [[*n-k*]{}]{} are [[*a*]{}]{}s, for $0\\le k\\le n$, have\nthe same normalization. But there are exactly $\\binom{n}{k}$ such\n[[*ab*]{}]{}-words, since there are $\\binom{n}{k}$ ways to select\n[[*k*]{}]{} positions out of [[*n*]{}]{} to place [[*a*]{}]{}s in an\n[[*ab*]{}]{}-word of length [[*n*]{}]{}. This shows that the coefficient\nof the $a^n$ term is $\\binom{n}{0}=1$, the coefficient of the $b^n$ term\nis $\\binom{n}{n}=1$, and that the coefficient of the $a^k b^{n-k}$ term\nis $\\binom{n}{k}$.",
+  "conclusion": "#P_BinomialTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BinomialTheoremProofOf"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "binomial theorem, proof of"
+  ]
+}

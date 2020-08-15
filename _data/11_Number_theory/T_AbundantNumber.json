@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An integer $n$ is an [*abundant number*]{} if the sum of the proper\ndivisors of $n$ is more than $n$ itself, or the sum of all the divisors\nis more than twice $n$. That is, $\\sigma(n) > 2n$, with $\\sigma(n)$\nbeing the sum of divisors function.\n\nFor example, the integer 30. Its proper divisors are 1, 2, 3, 5, 6, 10,\n15, which add up to 42.\n\nMultiplying a perfect number by some integer $x$ gives an abundant\nnumber (as long as $x > 1$).\n\nGiven a pair of amicable numbers, the lesser of the two is abundant, its\nproper divisors adding up to the greater of the two.",
+  "language": "INFORMAL",
+  "phrase": "Abundant Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbundantNumber"
+    }
+  ],
+  "indexable": true
+}

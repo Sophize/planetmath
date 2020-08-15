@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "bounded linear mapping"
+  ],
+  "definition": "If $(V_1,\\|\\cdot\\|_1)$ and $(V_2,\\|\\cdot\\|_2)$ are normed vector spaces,\na linear mapping $T:V_1\\rightarrow V_2$ is continuous if it is\ncontinuous in the metric induced by the norms.\n\nIf there is a nonnegative constant $c$ such that\n$\\|T(x)\\|_2\\leq c\\|x\\|_1$ for each $x\\in V_1$, we say that $T$ is **.\nThis should not be confused with the usual terminology referring to a\nbounded function as one that has bounded range. In fact, bounded linear\nmappings usually have unbounded ranges.\n\nThe expression *bounded linear mapping* is often used in functional\nanalysis to refer to continuous linear mappings as well. This is because\nthe two definitions are equivalent:\n\nIf $T$ is bounded, then\n$\\|T(x)-T(y)\\|_2 = \\|T(x-y)\\|_2 \\leq c\\|x-y\\|_1$, so $T$ is a Lipschitz\nfunction. Now suppose $T$ is continuous. Then there exists $r>0$ such\nthat $\\|T(x)\\|_2 \\leq 1$ when $\\|x\\|_1\\leq r$. For any $x\\in V_1$, we\nthen have\n$$\\frac{r}{\\|x\\|_1}\\|T(x)\\|_2 = \\|T\\left(\\frac{r}{\\|x\\|_1}x\\right)\\|_2 \\leq 1,$$\nhence $\\|T(x)\\|_2\\leq r\\|x\\|_1$; so $T$ is bounded.\n\nIt can be shown that a linear mapping between two topological vector\nspaces is continuous if and only if it is $0$ [@rudin_fap].\n\n[9]{} W. Rudin, *Functional Analysis*, McGraw-Hill Book Company, 1973.",
+  "language": "INFORMAL",
+  "phrase": "Continuous Linear Mapping",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuousLinearMapping"
+    }
+  ],
+  "indexable": true
+}

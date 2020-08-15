@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The heat equation in 1-dimension (for example, along a metal wire) is a\npartial differential equation of the following form:\n\n$$\\frac{\\partial u}{\\partial t} = c^2 \\cdot \\frac{\\partial^2 u}{\\partial x^2}$$\n\nalso written as\n\n$$u_{t} = c^2 \\cdot u_{xx}$$\n\nWhere $u:\\mathbb{R}^2\\to\\mathbb{R}$ is the function giving the\ntemperature at time $t$ and position $x$ and $c$ is a real valued\nconstant. This can be easily extended to 2 or 3 dimensions as\n\n$$u_{t} = c^2 \\cdot ( u_{xx} + u_{yy} )$$ and\n$$u_{t} = c^2 \\cdot ( u_{xx} + u_{yy} + u_{zz} )$$\n\nNote that in the steady state, that is when $u_{t} = 0$, we are left\nwith the Laplacian of $u$:\n\n$$\\Delta u = 0$$",
+  "language": "INFORMAL",
+  "phrase": "Heat Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HeatEquation"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $Y$ be a random variable with cumulative probability distribution\nfunction $F_Y(y)$. Then the *survivor function* $S(y)$ is defined to be:\n$$S(y) = 1 - F_Y(y) = P(Y\\geq y).$$ The random variable $Y$ is often\ncalled the *survival time*.\n\nThe survivor function is the probability of survival beyond time $Y=y$.\n\n**Examples.** The three most commonly used distribution functions for\nsurvival time are:\n\n1.  , with $S(y)=\\exp(-\\gamma y).$\n\n2.  Weibull distribution, with $S(y)=\\exp(-y^{\\gamma})$ using the\n    standard Weibull distribution.\n\n3.  extreme-value distribution, with\n    $S(y)=\\exp(-\\exp(\\displaystyle{\\frac{y-\\alpha}{\\beta}})).$",
+  "language": "INFORMAL",
+  "phrase": "Survivor Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SurvivorFunction"
+    }
+  ],
+  "indexable": true
+}

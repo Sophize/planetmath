@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "limit along filter",
+    "F-limit"
+  ],
+  "definition": "Let ${{\\mathcal}F}$ be a filter on ${\\mathbb{N}}$ and $(x_n)$ be a\nsequence in a metric space $(X,d)$. We say that $L$ is the\n*${{\\mathcal}F}$-limit* of $(x_n)$ if\n$$A({\\varepsilon})=\\{n\\in{\\mathbb{N}}: d(x_n,L)<{\\varepsilon}\\} \\in {{\\mathcal}F}$$\nfor every ${\\varepsilon}>0$.\n\nThe name *along ${{\\mathcal}F}$* is used as well.\n\nIn the usual definition of limit one requires all sets\n$A({\\varepsilon})$ to be cofinite - i.e.\u00a0they have to be large. In the\ndefinition of ${{\\mathcal}F}$-limit we simply choose which sets are\nconsidered to be large - namely the sets from the filter\n${{\\mathcal}F}$.\n\nRemarks {#remarks .unnumbered}\n-------\n\nThis notion shouldn\u2019t be confused with the notion of defined in general\ntopology.\n\nLet us note that the same notion is defined by some authors using the\ndual notion of ideal instead of filter and, of course, all results can\nbe reformulated using ideals as well. For this approach see e.g.\u00a0[@ksw].\n\nExamples {#examples .unnumbered}\n--------\n\nLimit along the Fr\u00e9chet filter, which consist of complements of finite\nsets, is the usual limit of a sequence.\n\nLimit of the sequence $(x_n)$ along the principal filter\n${{\\mathcal}F}_k=\\{A\\subseteq{\\mathbb{N}}; k\\in A\\}$ is $x_k$.\n\nIf we put ${{\\mathcal}F}=\\{{\\mathbb{N}}\\setminus A: d(A)=0\\}$, where $d$\ndenotes the asymptotic density, then it can be shown that\n${{\\mathcal}F}$ is a filter. In this case ${{\\mathcal}F}$-convergence is\nknown as statistical convergence.\n\n[1]{}\n\nM.\u00a0A. Alekseev, L.\u00a0[Yu.]{} Glebsky, and E.\u00a0I. Gordon, *On approximations\nof groups, group actions [and Hopf]{} algebras*, Journal of Mathematical\nSciences **107** (2001), no.\u00a05, 4305\u20134332.\n\nB.\u00a0Balcar and P.\u00a0[\u0160]{}t\u011bp\u00e1nek, *Teorie mno\u017ein*, Academia, Praha, 1986\n(Czech).\n\nK.\u00a0Hrbacek and T.\u00a0Jech, *[Introduction to set theory]{}*, [Marcel\nDekker]{}, New York, 1999.\n\nP.\u00a0Kostyrko, T.\u00a0[\u0160]{}al[\u00e1]{}t, and W.\u00a0Wilczy[\u0144]{}ski,\n*[$\\mathcal{I}$]{}-convergence*, Real Anal. Exchange **26** (2000-2001),\n669\u2013686.",
+  "language": "INFORMAL",
+  "phrase": "Limit Along A Filter",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitAlongAFilter"
+    }
+  ],
+  "indexable": true
+}

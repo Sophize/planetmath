@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Definition**. A *pure subgroup* $H$ of an abelian group $G$ is\n\n1.  a subgroup of $G$, such that\n\n2.  $H\\cap mG=mH$ for all $m\\in\\mathbb{Z}$.\n\nThe second condition says that for any $h\\in H$ such that $h=ma$ for\nsome integer $m$ and some $a\\in G$, then there exists $b\\in H$ such that\n$h=mb$. In other words, if $h$ is divisible in $G$ by an integer, then\nit is divisible in $H$ by that same integer. Purity in abelian groups is\na relative notion, and we denote $H<_pG$ to mean that $H$ is a pure\nsubgroup of $G$.\n\n**Examples**. All groups mentioned below are abelian groups.\n\n1.  For any group, two trivial examples of pure subgroups are the\n    trivial subgroup and the group itself.\n\n2.  Any or any direct summand of a group is pure.\n\n3.  *The* torsion subgroup (= the subgroup of all torsion elements) of\n    any group is pure.\n\n4.  If $K<_pH$, $H<_pG$, then $K<_pG$.\n\n5.  If $H=\\bigcup_{i=1}^{\\infty}H_i$ with $H_i\\leq H_{i+1}$ and\n    $H_i<_pG$, then $H<_pG$.\n\n6.  In $Z_{n^2}$, $\\langle n \\rangle$ is an example of a subgroup that\n    is not pure.\n\n7.  In general, $\\langle m \\rangle<_p Z_n$ if\n    $\\operatorname{gcd}(s,t)=1$, where $s=\\operatorname{gcd}(m,n)$ and\n    $t=n/s$.\n\n**Remark**. This definition can be generalized to modules over\ncommutative rings.\n\n**Definition**. Let $R$ be a commutative ring and\n$\\mathcal{E}\\colon 0\\rightarrow A\\rightarrow B\\rightarrow\nC\\rightarrow 0$ a short exact sequence of $R$-modules. Then\n$\\mathcal{E}$ is said to be *pure* if it remains exact after tensoring\nwith any $R$-module. In other words, if $D$ is any $R$-module, then\n$$D\\otimes\\mathcal{E}\\colon0\\rightarrow D\\otimes A\\rightarrow D\\otimes B\\rightarrow D\\otimes C\\rightarrow\n0,$$ is exact.\n\n**Definition**. Let $N$ be a submodule of $M$ over a ring $R$. Then $N$\nis said to be a *pure submodule* of $M$ if the exact sequence\n$$0\\rightarrow N\\rightarrow M\\rightarrow M/N\\rightarrow 0$$ is a pure\nexact sequence.\n\nFrom this definition, it is clear that $H$ is a pure subgroup of $G$ iff\n$H$ is a pure $\\mathbb{Z}$-submodule of $G$.\n\n**Remark**. $N$ is a pure submodule of $M$ over $R$ iff whenever a\nfinite sum $$\\sum r_im_i=n\\in N,$$ where $m_i\\in M$ and $r_i\\in R$\nimplies that $$n=\\sum r_in_i$$ for some $n_i\\in N$. As a result, if $I$\nis an ideal of $R$, then the purity of $N$ in $M$ means that\n$N\\cap IM=IN$, which is a generalization of the second condition in the\ndefinition of a pure subgroup above.",
+  "language": "INFORMAL",
+  "phrase": "Pure Subgroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PureSubgroup"
+    }
+  ],
+  "indexable": true
+}

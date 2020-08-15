@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A complex number of the form $a+bi$, where $a,b\\in\\mathbb{Z}$, is called\na Gaussian integer.\n\nIt is easy to see that the set $S$ of all Gaussian integers is a subring\nof $\\mathbb{C}$; specifically, $S$ is the smallest subring containing\n$\\{1,i\\}$, whence $S={\\mathbb{Z}[i]}$.\n\n${\\mathbb{Z}[i]}$ is a Euclidean ring, hence a principal ring, hence a\nunique factorization domain.\n\nThere are four units (i.e. invertible elements) in the ring\n${\\mathbb{Z}[i]}$, namely $\\pm 1$ and $\\pm i$. Up to multiplication by\nunits, the primes in ${\\mathbb{Z}[i]}$ are\n\n-   ordinary prime numbers $\\equiv 3\\mod 4$\n\n-   elements of the form $a\\pm bi$ where $a^2+b^2$ is an ordinary prime\n    $\\equiv 1\\mod 4$ (see Thue\u2019s lemma)\n\n-   the element $1+i$.\n\nUsing the ring of Gaussian integers, it is not hard to show, for\nexample, that the Diophantine equation $x^2+1=y^3$ has no solutions\n$(x,y)\\in{\\mathbb{Z}}\\times{\\mathbb{Z}}$ except $(0,1)$.",
+  "language": "INFORMAL",
+  "phrase": "Gaussian Integer",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaussianInteger"
+    }
+  ],
+  "indexable": true
+}

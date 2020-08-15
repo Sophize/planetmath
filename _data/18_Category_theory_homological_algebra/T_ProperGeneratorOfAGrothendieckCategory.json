@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Introduction: family of generators and generator of a category\n--------------------------------------------------------------\n\nLet $\\mathcal{C}$ be a category. A family of its objects\n$\\left\\{U_i\\right\\}_{i \\in I}$ is said to be a *family of generators* of\n$\\mathcal{C}$ if for every pair of distinct morphisms\n$\\alpha, \\beta: A \\to B $ there is a morphism $u: U_i \\to A$ for some\nindex $i \\in I$ such that $\\alpha u \\neq \\beta u$.\n\nOne notes that in an additive category, $\\left\\{U_i\\right\\}_{i \\in I}$\nis a family of generators if and only if for each nonzero morphism\n$\\alpha$ in $\\mathcal{C}$ there is a morphism $u: U_i \\to A$ such that\n$ \\alpha u \\neq 0$.\n\nAn object $U$ in $\\mathcal{C}$ is called a *generator* for $\\mathcal{C}$\nif $U \\in \\left\\{U_i\\right\\}_{i \\in I}$ with\n$\\left\\{U_i\\right\\}_{i \\in I}$ being a family of generators for\n$\\mathcal{C}$.\n\nEquivalently, (viz. Mitchell) $U$ is a [*generator*]{} for $\\mathcal{C}$\nif and only if the set-valued functor $H^U$ is an imbedding functor.\n\nProper generator of a Grothendieck category\n-------------------------------------------\n\nA *proper generator* $U_p$ of a Grothendieck category $\\mathcal{G}$ is\ndefined as a generator $U_p$ which has the property that a monomorphism\n$ i: U' \\to U_p$ induces an isomorphism $\\iota$,\n$$Hom_{\\mathcal{G}}(U_p,U_p) \\cong Hom_{\\mathcal{G}} (U',U_p),$$ if and\nonly if $i$ is an isomorphism.",
+  "language": "INFORMAL",
+  "phrase": "Proper Generator Of A Grothendieck Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProperGeneratorOfAGrothendieckCategory"
+    }
+  ],
+  "indexable": true
+}

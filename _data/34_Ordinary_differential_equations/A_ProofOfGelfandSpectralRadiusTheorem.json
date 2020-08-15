@@ -1,0 +1,17 @@
+{
+  "argumentText": "For any $\\epsilon>0$, consider the matrix\n$$\\tilde{A}=(\\rho(A)+\\epsilon)^{-1}A$$ Then, obviously,\n$$\\rho(\\tilde{A}) = \\frac{\\rho(A)}{\\rho(A)+\\epsilon}<1$$ and, by a\nwell-known result on convergence of matrix powers,\n$$\\lim_{k \\to \\infty}\\tilde{A}^k=0.$$ That means, by sequence limit\ndefinition, a natural number $N_1\\in \\mathbf{N}$ exists such that\n$$\\forall k\\geq N_1 \\Rightarrow \\|\\tilde{A}^k\\| < 1$$ which in turn\nmeans: $$\\forall k\\geq N_1 \\Rightarrow \\|A^k\\| < (\\rho(A)+\\epsilon)^k$$\nor $$\\forall k\\geq N_1 \\Rightarrow \\|A^k\\|^{1/k} < (\\rho(A)+\\epsilon).$$\n\nLet\u2019s now consider the matrix $$\\check{A}=(\\rho(A)-\\epsilon)^{-1}A$$\nThen, obviously,\n$$\\rho(\\check{A}) = \\frac{\\rho(A)}{\\rho(A)-\\epsilon}>1$$ and so, by the\nsame convergence theorem,$\\|\\check{A}^k\\|$ is not bounded. This means a\nnatural number $N_2\\in \\mathbf{N}$ exists such that\n$$\\forall k\\geq N_2 \\Rightarrow \\|\\check{A}^k\\|>1$$ which in turn means:\n$$\\forall k\\geq N_2 \\Rightarrow \\|A^k\\| > (\\rho(A)-\\epsilon)^k$$ or\n$$\\forall k\\geq N_2 \\Rightarrow \\|A^k\\|^{1/k} > (\\rho(A)-\\epsilon).$$\nTaking $N:=max(N_1,N_2)$ and putting it all together, we obtain:\n$$\\forall \\epsilon>0, \\exists N\\in\\mathbb{N}: \\forall k\\geq N \\Rightarrow \\rho(A)-\\epsilon < \\|A^k\\|^{1/k} < \\rho(A)+\\epsilon$$\nwhich, by definition, is\n$$\\lim_{k \\to \\infty}\\|A^k\\|^{1/k} = \\rho(A).\\,\\,\\square$$\n\nActually, in case the norm is , the proof shows more than the thesis; in\nfact, using the fact that $|\\lambda|\\leq\\rho(A)$, we can replace in the\nlimit definition the left lower bound with the spectral radius itself\nand write more precisely:\n$$\\forall \\epsilon>0, \\exists N\\in\\mathbb{N}: \\forall k\\geq N \\Rightarrow \\rho(A) \\leq \\|A^k\\|^{1/k} < \\rho(A)+\\epsilon$$\nwhich, by definition, is\n$$\\lim_{k \\to \\infty}\\|A^k\\|^{1/k} = \\rho(A)^+.$$",
+  "conclusion": "#P_GelfandSpectralRadiusTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfGelfandSpectralRadiusTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Gelfand spectral radius theorem"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** In the Euclidean plane, let $l$ be a line and $A$ and $B$\ntwo points not on $l$. If $X$ is a point of $l$ such that the sum\n$AX\\!+\\!XB$ is the least possible, then the lines $AX$ and $BX$ form\nequal angles with the line $l$.\n\nThis [*Heron\u2019s principle*]{}, concerning the reflection of light, is a\nspecial case of [*Fermat\u2019s principle*]{} in optics.\\\n[*Proof.*]{} If $A$ and $B$ are on different sides of $l$, then $X$ must\nbe on the line $AB$, and the assertion is trivial since the vertical\nangles are equal. Thus, let the points $A$ and $B$ be on the same side\nof $l$. Denote by $P$ and $Q$ the points of the line $l$ where the\nnormals of $l$ set through $A$ and $B$ intersect $l$, respectively. Let\n$C$ be the intersection point of the lines $AQ$ and $BP$. Then, $X$ is\nthe point of $l$ where the normal line of $l$ set through $C$ intersects\n$l$.\n\n(-3,-1)(3,3) (-2.6,0)(2.6,0) (-2,2.5)(2,1.6) (-2,2.5)(-2,0) (2,1.6)(2,0)\n(-2,2.5)(2,0) (2,1.6)(-2,0) (0.439,0.976)(0.439,0) (0.439,0)\n(-2.2,2.75)[$A$]{} (2,1.83)[$B$]{} (-2,-0.25)[$P$]{} (2,-0.25)[$Q$]{}\n(0.44,1.3)[$C$]{} (0.44,-0.25)[$X$]{} (2.8,0)[$l$]{}\n\nJustification: From two pairs of similar right triangles we get the\nproportion equations $$AP:CX \\;=\\; PQ:XQ, \\qquad BQ:CX \\;=\\; PQ:PX,$$\nwhich imply the equation $$AP:PX \\;=\\; BQ:XQ.$$ From this we can infer\nthat also $$\\Delta AXP \\sim \\Delta BXQ.$$ Thus the corresponding angles\n$AXP$ and $BXQ$ are equal.\n\n(-3,-3)(3,3) (-2.6,0)(2.6,0) (-2,2.5)(2,1.6) (-2,2.5)(-2,-2.5)(0.439,0)\n(-2,2.5)(0.439,0) (0.439,0)(2,1.6) (0.439,0) (-2,2.75)[$A$]{}\n(2,1.83)[$B$]{} (-2.2,-0.25)[$P$]{} (0.44,-0.27)[$X$]{} (2.8,0)[$l$]{}\n(-2,2.5)(-0.7,0)(2,1.6) (-0.7,0)(-2,-2.5) (-0.7,-0.29)[$X_1$]{}\n(-2.3,-2.5)[$A'$]{} (-2.15,1.15)(-1.85,1.15) (-2.15,1.05)(-1.85,1.05)\n(-2.15,-1.2)(-1.85,-1.2) (-2.15,-1.1)(-1.85,-1.1)\n\nWe still state that the route $AXB$ is the shortest. If $X_1$ is another\npoint of the line $l$, then $AX_1\\,=\\,A'X_1$, and thus we obtain\n$$AX_1B \\;=\\; A'X_1B \\;=\\; A'X_1+X_1B \\;\\geqq\\; A'B \\;=\\; A'XB \\;=\\; AXB.$$\n\n[8]{} : [*Geometria. Lyhyt kurssi*]{}. Matematiikan laitos. Turun\nyliopisto (University of Turku), Turku (2007).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HeronsPrinciple"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Heron's principle"
+  ]
+}

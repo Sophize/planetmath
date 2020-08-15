@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "oriented space curve",
+    "parameterized space curve"
+  ],
+  "definition": "#### Kinematic definition.\n\nA *parameterized space curve* is a parameterized curve taking values in\n3-dimensional Euclidean space. It may be interpreted as the trajectory\nof a particle moving through space. Analytically, a smooth space curve\nis represented by a sufficiently differentiable mapping\n$\\gamma:I \\to {\\mathbb{R}}^3, $ of an interval $I\\subset {\\mathbb{R}}$\ninto 3-dimensional Euclidean space ${\\mathbb{R}}^3$. Equivalently, a\nparameterized space curve can be considered a 3-vector of functions:\n$$\\gamma(t) =\n\\begin{pmatrix}\n  x(t)\\\\ y(t) \\\\ z(t)\n\\end{pmatrix},\\quad t\\in I.$$\n\n#### Regularity hypotheses.\n\nTo preclude the possibility of kinks and corners, it is necessary to add\nthe hypothesis that the mapping be , that is to say that the derivative\n$\\gamma'(t)$ never vanishes. Also, we say that $\\gamma(t)$ is a point of\ninflection if the first and second derivatives $\\gamma'(t), \\gamma''(t)$\nare linearly dependent. Space curves with points of inflection are\nbeyond the scope of this entry. Henceforth we make the assumption that\n$\\gamma(t)$ is both and lacks points of inflection.\n\n#### Geometric definition.\n\nA *space curve*, per se, needs to be conceived of as a subset of\n${\\mathbb{R}}^3$ rather than a mapping. Formally, we could define a\nspace curve to be the image of some parameterization\n$\\gamma:I\\to{\\mathbb{R}}^3$. A more useful concept, however, is the\nnotion of an *oriented space curve*, a space curve with a specified\ndirection of motion. Formally, an oriented space curve is an equivalence\nclass of parameterized space curves; with\n$\\gamma_1:I_1\\to{\\mathbb{R}}^3$ and $\\gamma_2:I_2\\to{\\mathbb{R}}^3$\nbeing judged equivalent if there exists a smooth, monotonically\nincreasing reparameterization function $\\sigma:\nI_1\\to I_2$ such that\n$$\\gamma_1(t) = \\gamma_2(\\sigma(t)),\\quad t\\in I_1.$$\n\n#### Arclength parameterization.\n\nWe say that $\\gamma:I\\to{\\mathbb{R}}^3$ is an arclength parameterization\nof an oriented space curve if\n$$\\Vert \\gamma'(t) \\Vert = 1,\\quad t\\in I.$$ With this hypothesis the\nlength of the space curve between points $\\gamma(t_2)$ and $\\gamma(t_1)$\nis just $\\vert t_2-t_1 \\vert$. In other words, the parameter in such a\nparameterization measures the relative distance along the curve.\n\nStarting with an arbitrary parameterization\n$\\gamma: I\\to {\\mathbb{R}}^3$, one can obtain an arclength\nparameterization by fixing a $t_0\\in I$, setting\n$$\\sigma(t) = \\int^t_{t_0} \\Vert \\gamma'(x)\\Vert \\, dx,$$ and using the\ninverse function $\\sigma^{-1}$ to reparameterize the curve. In other\nwords, $$\\hat{\\gamma}(t) = \\gamma(\\sigma^{-1}(t))$$ is an arclength\nparameterization. Thus, every space curve possesses an arclength\nparameterization, unique up to a choice of additive constant in the\narclength parameter.",
+  "language": "INFORMAL",
+  "phrase": "Space Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpaceCurve"
+    }
+  ],
+  "indexable": true
+}

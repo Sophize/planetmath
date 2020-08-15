@@ -1,0 +1,17 @@
+{
+  "argumentText": "We show that a sequence $x_1,x_2,\\ldots$ of real numbers converges to a\nlimit in the extended real numbers if and only if the number of\nupcrossings $U[a,b]$ is finite for all $a<b$.\n\nDenoting the infimum limit and supremum limit by\n$$l = \\liminf_{n\\rightarrow\\infty}x_n,\\ u=\\limsup_{n\\rightarrow\\infty}x_n,$$\nthen $l\\le u$ and the sequence converges to a limit if and only if\n$l=u$.\n\nWe first show that if the sequence converges then $U[a,b]$ is finite for\n$a<b$. If $l>a$ then there is an $N$ such that $x_n>a$ for all $n\\ge N$.\nSo, all upcrossings of $[a,b]$ must start before time $N$, and we may\nconclude that $U[a,b]\\le N$ is finite. On the other hand, if $l\\le a$\nthen $u=l<b$ and we can infer that $x_n<b$ for all $n\\ge N$ and some\n$N$. Again, this gives $U[a,b]\\le N$.\n\nConversely, suppose that the sequence does not converge, so that $u>l$.\nThen choose $a<b$ in the interval $(l,u)$. For any integer $n$, there is\nthen an $m>n$ such that $x_m>b$ and an $m>n$ with $x_m<a$. This allows\nus to define infinite sequences $s_k,t_k$ by $t_0=0$ and\n$$\\begin{aligned}\n&s_k=\\inf\\left\\{m\\ge t_{k-1}\\colon X_{m}<a\\right\\},\\\\\n&t_k=\\inf\\left\\{m\\ge s_{k}\\colon X_{m}>b\\right\\},\\end{aligned}$$ for\n$k\\ge 1$. Clearly, $s_1<t_1<s_2<\\cdots$ and $x_{s_k}<a<b<x_{t_k}$ for\nall $k\\ge 1$, so $U[a,b]=\\infty$.",
+  "conclusion": "#P_ConvergenceOfASequenceWithFiniteUpcrossings",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfConvergenceOfASequenceWithFiniteUpcrossings"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of convergence of a sequence with finite upcrossings"
+  ]
+}

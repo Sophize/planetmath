@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An [*unit fraction*]{} $\\frac{n}{d}$ is a fraction whose numerator\n$n = 1$. If its integer denominator $d > 1$, then a fraction is also a\nproper fraction. So there is only one unit fraction which is improper,\nnamely 1.\n\nSuch fractions are known from Egyptian mathematics where we can find a\nlot of special representations of the numbers as a sum of an unit\nfractions, which are now called [*Egyptian fractions*]{}. From the Rhind\npapyrus as an example:\n\n$$\\frac{2}{71} = \\frac{1}{40} + \\frac{1}{568} + \\frac{1}{710} \\; .$$\n\nMany unit fractions are in the pairs of the adjacent fractions. An unit\nfractions are some successive or non-successive terms of any Farey\nsequence $F_{n}$ of a degree $n$. For example the fractions\n$\\frac{1}{2}$ and $\\frac{1}{4}$ are adjacent, but they are not the\nsuccessive terms in the Farey sequence $F_{5}$. The fractions\n$\\frac{1}{3}$ and $\\frac{1}{4}$ are also adjacent and they are\nsuccessive terms in the $F_{5}$.",
+  "language": "INFORMAL",
+  "phrase": "Unit Fraction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnitFraction"
+    }
+  ],
+  "indexable": true
+}

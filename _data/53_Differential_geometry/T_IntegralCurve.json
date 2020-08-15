@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose $M$ is a smooth manifold, and $X$ is a smooth\nvector field on $M$. Then an [**integral curve**]{} of $X$ through a\npoint $x\\in M$ is a curve $c\\colon I\\to M$, such that $$\\begin{aligned}\n c'(t) &=& (X\\circ c)(t), \\,\\,\\,\\,\\,\\,\\,\\mbox{for all $t$ in $I$}\\\\\n c(0) &=& x.\\end{aligned}$$ Here $I\\subset {\\mathbb{R}}$ is some open\ninterval of $0$, and $c'(t)$ is the tangent vector in $T_{c(t)}M$\nrepresented by the curve.\n\nSuppose $x^i$ are local coordinates for $M$, $c^i$ are functions\nrepresenting $c$ in these local coordinates, and\n$X=X^i \\frac{\\partial}{\\partial x^i}$. Then the condition on $c$ is\n$$\\frac{dc^i}{dt}(t) = X^i\\circ c(t), \\quad \\mbox{for all $t$}.$$",
+  "language": "INFORMAL",
+  "phrase": "Integral Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralCurve"
+    }
+  ],
+  "indexable": true
+}

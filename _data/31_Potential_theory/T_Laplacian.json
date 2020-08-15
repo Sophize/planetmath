@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(x_1, \\ldots, x_n)$ be Cartesian coordinates for some open set\n$\\Omega$ in ${\\mathbb{R}}^n$. Then the *Laplacian* differential operator\n$\\Delta$ is defined as\n$$\\Delta = \\frac{\\partial^2 }{\\partial x_1^2} + \\cdots + \\frac{\\partial^2 }{\\partial x_n^2}.$$\nIn other words, if $f$ is a twice differentiable function\n$f:\\Omega\\to {\\mathbb{C}}$, then\n$$\\Delta f = \\frac{\\partial^2 f}{\\partial x_1^2} + \\cdots + \\frac{\\partial^2 f}{\\partial x_n^2}.$$\nA coordinate independent definition of the Laplacian is\n$\\Delta = \\nabla \\cdot \\nabla$, i.e., $\\Delta$ is the composition of\ngradient and codifferential.\n\nA harmonic function is one for which the Laplacian vanishes.\n\n### Notes {#notes .unnumbered}\n\nAn older symbol for the Laplacian is $\\nabla^2$ \u2013 conceptually the\nscalar product of $\\nabla$ with itself. This form is more favoured by\nphysicists.\n\n### Derivation {#derivation .unnumbered}\n\nto see an article that derives the Laplacian in spherical coordinates.",
+  "language": "INFORMAL",
+  "phrase": "Laplacian",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Laplacian"
+    }
+  ],
+  "indexable": true
+}

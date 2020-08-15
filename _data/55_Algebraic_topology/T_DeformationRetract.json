@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ and $Y$ be topological spaces such that $Y\\subset X$. A\n*deformation retract* of $X$ onto $Y$ is a collection of mappings\n$f_t:X\\rightarrow X$, $t\\in [0,1]$ such that\n\n1.  $f_0 = id_X$, the identity mapping on $X$,\n\n2.  $f_1(X) \\subseteq Y$,\n\n3.  $Y$ is a retract of $X$ via $f_1$ (that is, $f_1$ restricted to $Y$\n    is the identity on $Y$)\n\n4.  the mapping $X\\times I\\rightarrow X$, $(x,t)\\mapsto f_t(x)$ is\n    continuous, where the topology on $X\\times I$ is the product\n    topology.\n\nOf course, by condition 3, condition 2 can be improved: $f_1(X)=Y$.\n\nA deformation retract is called a *strong deformation retract* if\ncondition 3 above is replaced by a stronger form: $Y$ is a retract of\n$X$ via $f_t$ for every $t\\in [0,1]$.\n\n### Properties {#properties .unnumbered}\n\n-   Let $X$ and $Y$ be as in the above definition. Then a collection of\n    mappings $f_t:X\\rightarrow X$, $t\\in [0,1]$ is a deformation retract\n    (of $X$ onto $Y$) if and only if it is a rel Y $\\operatorname{id}_X$\n    and some retraction $r$ of $X$ onto $Y$.\n\n### Examples {#examples .unnumbered}\n\n-   If $x_0\\in \\mathbb{R}^n$, then $f_t(x)=(1-t)x+tx_0$,\n    $x\\in \\mathbb{R}^n$ shows that $\\mathbb{R}^n$ deformation retracts\n    onto $\\{x_0\\}$. Since $\\{x_0\\} \\subset \\mathbb{R}^n$, it follows\n    that deformation retract is not an equivalence relation.\n\n-   The same map as in the previous example can be used to deformation\n    retract any star-shaped set in $\\mathbb{R}^n$ onto a point.\n\n-   we obtain a deformation retraction of $\\mathbb{R}^n\\backslash \\{0\\}$\n    onto the $S^{n-1}$ by setting\n    $$f_t(x)=(1-t)x+t \\displaystyle{\\frac{x}{||x||}},$$ where\n    $x\\in \\mathbb{R}^n\\backslash \\{0\\}$, $n>0$,\n\n-   The deformation retracts onto the circle $S^1$.\n\n-   The $2$-torus with one point removed deformation retracts onto two\n    copies of $S^1$ joined at one point. (The circles can be chosen to\n    be longitudinal and latitudinal circles of the torus.)\n\n-   The characters E,F,H,K,L,M,N, and T all deformation retract onto the\n    charachter I, while the letter Q deformation retracts onto the\n    letter O.",
+  "language": "INFORMAL",
+  "phrase": "Deformation Retract",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DeformationRetract"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If the series $$\\begin{aligned}\nu_1\\!+\\!u_2\\!+\\!u_3\\!+\\ldots\\end{aligned}$$ with real terms $u_i$ is\nconditionally convergent, i.e. converges but\n$|u_1|\\!+\\!|u_2|\\!+\\!|u_3|\\!+\\cdots$ diverges, then the both series\n$$\\begin{aligned}\na_1\\!+\\!a_2\\!+\\!a_3\\!+\\ldots \\quad \\mbox{and} \\quad -b_1\\!-\\!b_2\\!-\\!b_3\\!-\\ldots\\end{aligned}$$\nconsisting of the positive and negative terms of (1) are divergent \u2014\nmore accurately,\n$$\\lim_{n\\to\\infty}\\sum_{i=1}^na_n \\;=\\; +\\infty\\quad\\mbox{and}\\quad\\lim_{n\\to\\infty}\\sum_{i=1}^n(-b_n) \\;=\\; -\\infty.$$\\\n[*Proof.*]{} If both of the series (2) were convergent, having the sums\n$A$ and $-B$, then we had\n$$0 \\leqq |u_1|\\!+\\!|u_2|\\!+\\ldots+\\!|u_n| < A\\!+\\!B$$ for every $n$.\nThis would however mean that (1) would converge absolutely, contrary to\nthe conditional convergence. If, on the other hand, one of the series\n(2) were convergent and the other divergent, then we can see that (1)\nhad to diverge, contrary to what is supposed in the theorem. In fact, if\ne.g. $a_1\\!+\\!a_2\\!+\\!a_3\\!+\\ldots$ were convergent, then the partial\nsum $a_1\\!+\\!a_2\\!+\\ldots+\\!a_n$ were below a finite bound for each $n$,\nwhereas the $n^\\mathrm{th}$ partial sum of the divergent one of (2)\nwould tend to $-\\infty$ as $n \\to \\infty$; then should also the\n$n^\\mathrm{th}$ partial sum of (1) tend to $-\\infty$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConditionallyConvergentRealSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "conditionally convergent real series"
+  ]
+}

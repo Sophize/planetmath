@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Tarski proposed the following axiom for set theory:\n\nFor every set $S$, there exists a set $U$ which enjoys the following\nproperties:\n\n-   $S$ is an element of $U$\n\n-   For every element $X \\in U$, every subset of $X$ is also an element\n    of $U$.\n\n-   For every element $X \\in U$, the power set of $X$ is also an element\n    of $U$.\n\n-   Every subset of $U$ whose cardinality is less than the cardinality\n    of $U$ is an element of $U$.\n\nThis axiom implies the axiom of choice. It also implies the existence of\ninaccessible cardinal numbers.",
+  "language": "INFORMAL",
+  "phrase": "Tarski'S Axiom",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TarskisAxiom"
+    }
+  ],
+  "indexable": true
+}

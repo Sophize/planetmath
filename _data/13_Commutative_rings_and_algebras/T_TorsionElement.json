@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a commutative ring, and $M$ an $R$-module. We call an element\n$m\\in M$ a *torsion element* if there exists a non-zero-divisor\n$\\alpha \\in R$ such that $\\alpha\\cdot m=0$. The set is denoted by\n$tor(M)$.\n\n$tor(M)$ is not empty since $0 \\in tor(M)$. Let $m, n \\in tor(M)$, so\nthere exist $\\alpha, \\beta \\ne 0 \\in R$ such that\n$0=\\alpha\\cdot m=\\beta\\cdot n$. Since\n$\\alpha\\beta \\cdot (m-n)=\\beta\\cdot \\alpha\\cdot m -\\alpha\\cdot \\beta\\cdot n=0, \\alpha\\beta\\ne 0$,\nthis implies that $m-n \\in tor(M)$. So $tor(M)$ is a subgroup of $M$.\nClearly $\\tau\\cdot m \\in tor(M)$ for any non-zero $\\tau \\in R$. This\nshows that $tor(M)$ is a submodule of $M$, the **torsion submodule** of\n$M$. In particular, a module that equals its own torsion submodule is\nsaid to be a *torsion module*.",
+  "language": "INFORMAL",
+  "phrase": "Torsion Element",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TorsionElement"
+    }
+  ],
+  "indexable": true
+}

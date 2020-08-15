@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "quantum operator algebra",
+    "C*-algebra",
+    "$C^*$-algebra"
+  ],
+  "definition": "A C\\*-algebra $A$ is called a [*nuclear*]{} C\\*-algebra if all C\\*-norms\non every algebraic tensor product $A \\otimes X$, of $A$ with any other\nC\\*-algebra $X$, agree with, and also equal the spatial C\\*-norm (*viz*\nLance, 1981). Therefore, there is a unique completion of $A \\otimes X$\nto a C\\*-algebra , for any other C\\*-algebra $X$.\n\nExamples of nuclear C\\*-algebras\n--------------------------------\n\n-   All commutative C\\*-algebras and all finite-dimensional C\\*-algebras\n\n-   Group C\\*-algebras of amenable groups\n\n-   Crossed products of strongly amenable C\\*-algebras by amenable\n    discrete groups,\n\n-   Type $1$ C\\*-algebras.\n\nExact C\\*-algebra\n-----------------\n\nIn general terms, a $C^*$-algebra is exact if it is isomorphic with a\n$C^*$-subalgebra of some nuclear $C^*$-algebra. The precise definition\nof an *exact $C^*$-algebra* follows.\n\nLet $M_n$ be a matrix space, let $\\mathcal{A}$ be a general operator\nspace, and also let $\\mathbb{C}$ be a C\\*-algebra. A $C^*$-algebra\n$\\mathbb{C}$ is exact if it is \u2018finitely representable\u2019 in $M_n$, that\nis, if for every finite dimensional subspace $E$ in $\\mathcal{A}$ and\nquantity $epsilon > 0$, there exists a subspace $F$ of some $M_n$, and\nalso a linear isomorphism $T:E \\to F$ such that the $cb$-norm\n$$|T|_{cb}|T^{-1}|_{cb} < 1 + epsilon.$$\n\nNote: A counter-example\n-----------------------\n\nA $C^*$ -subalgebra of a nuclear C\\*-algebra **need not be** nuclear.\n\n[9]{} E. C. Lance. 1981. Tensor Products and nuclear C\\*-algebras., in\n[*Operator Algebras and Applications,*]{} R.V. Kadison, ed., Proceed.\nSymp. Pure Maths., **38**: 379-399, part 1.\\\nN. P. Landsman. 1998. \u201cLecture notes on $C^*$-algebras, Hilbert\n$C^*$-Modules and Quantum Mechanics\", pp. 89 .",
+  "language": "INFORMAL",
+  "phrase": "Nuclear C*-Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NuclearCalgebra"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\delta \\ge 0$. A metric space $(X,d)$ is *$\\delta$ hyperbolic* if,\nfor any figure $ABC$ in $X$ that is a geodesic triangle with respect to\n$d$ and for every $P \\in \\overline{AB}$, there exists a point\n$Q \\in \\overline{AC} \\cup \\overline{BC}$ such that $d(P,Q) \\le \\delta$.\n\nA *hyperbolic metric space* is a metric space that is $\\delta$\nhyperbolic for some $\\delta \\ge 0$.\n\nAlthough a metric space is hyperbolic if it is $\\delta$ hyperbolic for\nsome $\\delta \\ge 0$, one usually tries to find the smallest value of\n$\\delta$ for which a hyperbolic metric space $(X,d)$ is $\\delta$\nhyperbolic.\n\nA example of a hyperbolic metric space is the real line under the usual\nmetric. Given any three points $A,B,C \\in \\mathbb{R}$, we always have\nthat $\\overline{AB} \\subseteq \\overline{AC} \\cup \\overline{BC}$. Thus,\nfor any $P \\in \\overline{AB}$, we can take $Q=P$. Therefore, the real\nline is 0 hyperbolic. reasoning can be used to show that every real tree\nis 0 hyperbolic.",
+  "language": "INFORMAL",
+  "phrase": "Hyperbolic Metric Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HyperbolicMetricSpace"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Liouville function* is defined by $\\lambda (1) = 1$ and\n$\\lambda (n) = (-1)^{k_1 + k_2 + \\cdots + k_r}$, if the prime\nfactorization of $n > 1$ is $n = p_1^{k_1} p_2^{k_2} \\cdots p_r^{k_r}$\n(where each $p_i$ is positive). This function is completely\nmultiplicative and the $$\\sum_{d|n} \\lambda (d) =\n\\begin{cases}\n1 &\\text{if $n=m^2$ for some integer $m$}\\\\\n0 &\\text{otherwise,}\n\\end{cases}$$ where the sum runs over all positive divisors of $n$.",
+  "language": "INFORMAL",
+  "phrase": "Liouville Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LiouvilleFunction"
+    }
+  ],
+  "indexable": true
+}

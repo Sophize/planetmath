@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $A$ is a square matrix, $\\|A\\|<1$, then $I-A$ is nonsingular and\n$(I-A)^{-1}=I+A+A^2+\\cdots=\\sum_{k=0}^{\\infty}A^k$. This is the *Neumann\nseries*.\\\nIt provides approximations of $(I-A)^{-1}$ when $A$ has entries of small\nmagnitude. For example, a first-order approximation is\n$(I-A)^{-1}\\approx I+A$.\\\nIt is obvious that this is a generalization of the geometric series.\n\n[6]{} Carl D. Meyer, [*Matrix Analysis and Applied Linear Algebra*]{}.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NeumannSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Neumann series"
+  ]
+}

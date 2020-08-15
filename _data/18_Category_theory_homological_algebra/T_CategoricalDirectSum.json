@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "direct sum",
+    "coproduct"
+  ],
+  "definition": "Let $\\{C_i\\}_{i \\in I}$ be a set of objects in a category $\\mathcal{C}$.\nA [*direct sum*]{} of the collection $\\{C_i\\}_{i \\in I}$ is an object\n$\\coprod_{i \\in I} C_i$ of $\\mathcal{C}$, with morphisms\n$\\iota_i: C_i \\longrightarrow \\coprod_{j \\in I} C_j$ for each $i \\in I$,\nsuch that:\n\nFor every object $A$ in $\\mathcal{C}$, and any collection of morphisms\n$f_i: C_i \\longrightarrow A$ for every $i \\in I$, there exists a unique\nmorphism $f: \\coprod_{i \\in I} C_i \\longrightarrow A$ making the\nfollowing diagram commute for all $i \\in I$. $$\\xymatrix{\nC_i \\ar[dr]_{\\iota_i} \\ar[rr]^{f_i} & & A \\\\\n& \\coprod_{j \\in I} C_j \\ar@{-->}[ur]_{f}\n}$$",
+  "language": "INFORMAL",
+  "phrase": "Categorical Direct Sum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CategoricalDirectSum"
+    }
+  ],
+  "indexable": true
+}

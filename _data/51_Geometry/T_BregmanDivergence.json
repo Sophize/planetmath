@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Bregman distance"
+  ],
+  "definition": "A *Bregman divergence*, or *Bregman distance*, $B_F$ on a space\n$\\mathcal{X}\\subseteq \\mathbb{R}^d$ is defined for a strictly convex and\ndifferentiable function $F: \\mathcal{X} \\to \\mathbb{R}$ as\n\n$$B_F(p,q)=F(p)-F(q)-\\innerproduct{p-q}{\\nabla F(q)},$$\n\nwhere $$\\innerproduct{p}{q}=p^T q$$ denotes the inner product, and\n$$\\nabla F(x)=[\\frac{\\partial F}{\\partial x_1}, \\cdots , \\frac{\\partial F}{\\partial x_d}]^T$$\nthe partial derivatives.\n\nChoosing $F(x)=\\sum_{i=1}^d x_i^2$ yields the squared Euclidean distance\n$B_{x^2}(p,q)=||p-q||^2$, and choosing $F(x)=\\sum_{i=1}^d x_i\\log x_i$\nyields the relative entropy, called the Kullback-Leibler divergence.",
+  "language": "INFORMAL",
+  "phrase": "Bregman Divergence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BregmanDivergence"
+    }
+  ],
+  "indexable": true
+}

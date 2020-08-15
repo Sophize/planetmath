@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *beta function* is defined as\n$$B(p,q) = \\int_0^1 x^{p-1} (1-x)^{q-1} dx$$ for any real numbers\n$p,q > 0$. For other complex values of $p$ and $q$, we can define\n$B(p,q)$ by analytic continuation.\n\nThe beta function has the property\n$$B(p,q) = \\frac{\\Gamma(p) \\Gamma(q)}{\\Gamma(p+q)}$$ for all complex\nnumbers $p$ and $q$ for which the right-hand side is defined. Here\n$\\Gamma$ is the gamma function.\n\nAlso, $$B(p,q) = B(q,p)$$ and\n$$B({\\textstyle\\frac{1}{2},\\frac{1}{2}}) = \\pi.$$\n\nThe beta function was first defined by in 1730, and the name was given\nby J.\u00a0Binet.",
+  "language": "INFORMAL",
+  "phrase": "Beta Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BetaFunction"
+    }
+  ],
+  "indexable": true
+}

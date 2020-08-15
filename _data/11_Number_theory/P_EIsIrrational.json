@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "From the Taylor series for $e^x$ we know the following equation:\n$$e=\\sum_{k=0}^{\\infty}\\frac{1}{k!}.$$ Now let us assume that $e$ is\nrational. This would there are two natural numbers $a$ and $b$, such\nthat: $$e=\\frac{a}{b}.$$ This yields: $$b!e\\in\\mathbb{N}.$$ Now we can\nwrite $e$ using (1): $$b!e=b!\\sum_{k=0}^{\\infty}\\frac{1}{k!}.$$ This can\nalso be written:\n$$b!e=\\sum_{k=0}^{b}\\frac{b!}{k!}+\\sum_{k=b+1}^{\\infty}\\frac{b!}{k!}.$$\nThe first sum is obviously a natural number, and thus\n$$\\sum_{k=b+1}^{\\infty}\\frac{b!}{k!}$$ must also be . Now we see:\n$$\\sum_{k=b+1}^{\\infty}\\frac{b!}{k!}=\\frac{1}{b+1}+\\frac{1}{(b+1)(b+2)}+...<\n\\sum_{k=1}^{\\infty}\\left(\\frac{1}{b+1}\\right)^k=\\frac{1}{b}.$$ Since\n$\\frac{1}{b}\\leq 1$ we conclude:\n$$0<\\sum_{k=b+1}^{\\infty}\\frac{b!}{k!}<1.$$ We have also seen that this\nis an integer, but there is no integer between 0 and 1. So there cannot\nexist two natural numbers $a$ and $b$ such that $e=\\frac{a}{b}$, so $e$\nis irrational.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EIsIrrational"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "e is irrational"
+  ]
+}

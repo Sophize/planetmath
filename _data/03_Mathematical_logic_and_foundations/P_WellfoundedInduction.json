@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Definition.**]{} Let $S$ be a non-empty set, and $R$ be a binary\nrelation on $S$. Then $R$ is said to be a [**well-founded**]{} relation\nif and only if every nonempty subset $X\\subseteq S$ has an . When $R$ is\nwell-founded, we also call the underlying set $S$ well-founded.\n\nNote that $R$ is by no means required to be a total order, or even a\npartial order. When $R$ is a partial order, then $R$-minimality is the\nsame as minimality (of the partial order). A classical example of a\nwell-founded set that is not totally ordered is the set ${\\mathbb{N}}$\nof natural numbers ordered by division, i.e. $aRb$ if and only if $a$\ndivides $b$, and $a\\not=1$. The $R$-minimal elements of ${\\mathbb{N}}$\nare the prime numbers.\n\nLet $\\Phi$ be a property defined on a well-founded set $S$. The\nprinciple of well-founded induction states that if the following is true\n:\n\n1.  $\\Phi$ is true for all the $R$-minimal elements of $S$\n\n2.  for every $a$, if for every $x$ such that $xRa$, we have $\\Phi(x)$,\n    then we have $\\Phi(a)$\n\nthen $\\Phi$ is true for every $a\\in S$.\n\nAs an example of application of this principle, we mention the proof of\nthe fundamental theorem of arithmetic : every natural number has a\nunique factorization into prime numbers. The proof goes by well-founded\ninduction in the set ${\\mathbb{N}}$ ordered by division.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WellfoundedInduction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "well-founded induction"
+  ]
+}

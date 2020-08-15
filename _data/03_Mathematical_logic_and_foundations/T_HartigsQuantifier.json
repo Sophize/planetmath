@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*H\u00e4rtig\u2019s quantifier* is a quantifier which takes two variables and two\nformulas, written $Ixy\\phi(x)\\psi(y)$. It asserts that\n$|\\{x\\mid \\phi(x)\\}|=|\\{y\\mid\\psi(y)\\}|$. That is, the cardinality of\nthe values of $x$ which make $\\phi$ is the same as the cardinality of\nthe values which make $\\psi(x)$ true. Viewed as a generalized\nquantifier, $I$ is a $\\langle 2\\rangle$ quantifier.\n\nClosely related is the *Rescher quantifier*, which also takes two\nvariables and two formulas, is written $Jxy\\phi(x)\\psi(y)$, and asserts\nthat $|\\{x\\mid \\phi(x)\\}|\\leq|\\{y\\mid\\psi(y)|$. The Rescher quantifier\nis sometimes defined instead to be a similar but different quantifier,\n$Jx\\phi(x)\\leftrightarrow |\\{x\\mid\\phi(x)\\}|>|\\{x\\mid\\neg\\phi(x)\\}|$.\nThe first definition is a $\\langle 2\\rangle$ quantifier while the second\nis a $\\langle 1\\rangle$ quantifier.\n\nAnother similar quantifier is Chang\u2019s quantifier $Q^C$, a\n$\\langle 1\\rangle$ quantifier defined by\n$Q^C_M=\\{X\\subseteq M\\mid |X|=|M|\\}$. That is, $Q^Cx\\phi(x)$ is true if\nthe number of $x$ satisfying $\\phi$ has the same cardinality as the\nuniverse; for finite models this is the same as $\\forall$, but for\ninfinite ones it is not.",
+  "language": "INFORMAL",
+  "phrase": "H\\\"Artig'S Quantifier",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HartigsQuantifier"
+    }
+  ],
+  "indexable": true
+}

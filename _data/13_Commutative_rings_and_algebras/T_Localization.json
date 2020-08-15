@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "ring of fractions"
+  ],
+  "definition": "Let $R$ be a commutative ring and let $S$ be a nonempty multiplicative\nsubset of $R$. The [*localization*]{} of $R$ at $S$ is the ring\n$S^{-1} R$ whose elements are equivalence classes of $R \\times S$ under\nthe equivalence relation $(a,s) \\sim (b,t)$ if $r(at - bs) = 0$ for some\n$r \\in S$. Addition and multiplication in $S^{-1}R$ are defined by:\n\n-   $(a,s) + (b,t) = (at+bs,st)$\n\n-   $(a,s) \\cdot (b,t) = (a \\cdot b,s \\cdot t)$\n\nThe equivalence class of $(a,s)$ in $S^{-1}R$ is usually denoted $a/s$.\nFor $a \\in R$, the localization of $R$ at the minimal multiplicative set\ncontaining $a$ is written as $R_a$. When $S$ is the complement of a\nprime ideal $\\mathfrak{p}$ in $R$, the localization of $R$ at $S$ is\nwritten $R_{\\mathfrak{p}}$.",
+  "language": "INFORMAL",
+  "phrase": "Localization",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Localization"
+    }
+  ],
+  "indexable": true
+}

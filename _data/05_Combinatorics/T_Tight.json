@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A bound is *tight* if it can be realized. A bound that is not tight is\nsometimes said to be *slack*.\n\nFor example, let $\\mathcal{S}$ be the collection of all finite subsets\nof $\\mathbb{R}^2$ in general position. Define a function\n$g\\colon\\mathbb{N}\\to\\mathbb{N}$ as follows. First, let the weight of an\nelement $S$ of $\\mathcal{S}$ be the size of its largest convex subset,\nthat is,\n$$w(S) = \\max \\{ |T| \\colon T\\subset S\\text{\\ and $T$ is convex} \\}.$$\nThe function $g$ is defined by\n$$g(n) = \\min \\{ |S| \\colon w(S) \\ge n\\},$$ that is, $g(n)$ is the\nsmallest number such that any collection of $g(n)$ points in general\nposition contains a convex $n$-gon. (By the , $g(n)$ is always finite,\nso $g$ is a well-defined function.) The bounds for $g$ due to Erd\u0151s and\nSzekeres are $$2^{n-2} + 1\\le g(n) \\le \\binom{2n-4}{n-2} + 1.$$ The\nlower bound is tight because for each $n$, there is a set of $2^{n-2}$\npoints in general position which contains no convex $n$-gon. On the\nother hand, the upper bound is believed to be slack. In fact, according\nto the Erd\u0151s-Szekeres conjecture, the formula for $g(n)$ is exactly the\nlower bound: $g(n) = 2^{n-2} + 1$.",
+  "language": "INFORMAL",
+  "phrase": "Tight",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Tight"
+    }
+  ],
+  "indexable": true
+}

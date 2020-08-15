@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K/F$ be a Galois extension, and let $x \\in K$. The [*trace*]{}\n$\\operatorname{Tr}_F^K(x)$ of $x$ is defined to be the sum of all the\nelements of the orbit of $x$ under the group action of the Galois group\n$\\operatorname{Gal}(K/F)$ on $K$; taken with multiplicities if $K/F$ is\na finite extension.\n\nIn the case where $K/F$ is a finite extension,\n$$\\operatorname{Tr}_F^K(x) := \\sum_{\\sigma \\in \\operatorname{Gal}(K/F)} \\sigma(x)$$\n\nThe trace of $x$ is always an element of $F$, since any element of\n$\\operatorname{Gal}(K/F)$ permutes the orbit of $x$ and thus fixes\n$\\operatorname{Tr}_F^K(x)$.\n\nThe name \u201ctrace\u201d derives from the fact that, when $K/F$ is finite, the\ntrace of $x$ is simply the trace of the linear transformation\n$T: K \\longrightarrow K$ of vector spaces over $F$ defined by\n$T(v) := xv$.",
+  "language": "INFORMAL",
+  "phrase": "Trace",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Trace1"
+    }
+  ],
+  "indexable": true
+}

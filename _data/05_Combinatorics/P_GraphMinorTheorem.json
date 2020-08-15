@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $(G_k)_{k\\in\\Bbb{N}}$ is an infinite sequence of finite graphs, then\nthere exist two numbers $m<n$ such that $G_m$ is isomorphic to a minor\nof $G_n$.\n\nThis theorem is often referred to as the deepest result in graph theory.\nIt was proven by Robertson and Seymour in 1988 as the culminating result\nof a long series of articles, and the proof was recently published in\nthe Journal of Combinatorial Theory series B. It resolves Wagner\u2019s\nconjecture in the affirmative and leads to an important generalization\nof Kuratowski\u2019s theorem.\n\nSpecifically, to every set $\\cal{G}$ of finite graphs which is closed\nunder taking minors (meaning if $G\\in\\cal{G}$ and $H$ is isomorphic to a\nminor of $G$, then $H\\in\\cal{G}$) there exist *finitely many* graphs\n$G_1,\\ldots,G_n$ such that $\\cal{G}$ consists precisely of those finite\ngraphs that do not have a minor isomorphic to one of the $G_i$. The\ngraphs $G_1,\\ldots,G_n$ are often referred to as the *forbidden minors*\nfor the class $\\cal{G}$.\n\nReferences\n----------\n\n-   Neil Robertson and P.D. Seymour. Graph Minors XX: Wagner\u2019s\n    conjecture. [*Journal of Combinatorial Theory B*]{}, Volume 92,\n    Issue 2, November 2004, Pages 325-357.\n    <http://dx.doi.org/10.1016/j.jctb.2004.08.001>",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GraphMinorTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "graph minor theorem"
+  ]
+}

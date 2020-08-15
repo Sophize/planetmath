@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Any Krull valuation $|\\cdot|$ of a field $K$ determines a unique\nvaluation domain $R = \\{a\\in K: \\,\\,|x|\\leqq 1\\}$, whose field of\nfraction is $K$.\n\n[*Proof.*]{} We first see that $1\\in R$ since $|1| = 1$. Let then\n$a,\\,b$ be any two elements of $R$. The non-archimedean triangle\ninequality shows that $|a-b| \\leqq \\max\\{|a|,\\,|b|\\} \\leqq 1$, i.e. that\nthe difference $a-b$ belongs to $R$. Using the 4 of inequalities we\nobtain $$|ab| = |a|\\cdot|b| \\leqq 1\\cdot 1 = 1$$ which shows that also\nthe product $ab$ is element of $R$. Thus, $R$ is a subring of the field\n$K$, and so an integral domain. Let now $c$ be an arbitrary element of\n$K$ not belonging to $R$. This implies that $1 < |c|$, whence\n$|c^{-1}| = |c|^{-1} < 1$ (see the 5). Consequently, the inverse\n$c^{-1}$ belongs to $R$, and we conclude that $R$ is a valuation domain.\nThe $a = \\frac{a}{1}$ and $c = \\frac{1}{c^{-1}}$ make evident that $K$\nis the field of fractions of $R$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KrullValuationDomain"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Krull valuation domain"
+  ]
+}

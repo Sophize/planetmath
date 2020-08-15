@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "rank"
+  ],
+  "definition": "The *rank* of a linear mapping $L\\colon U\\to V$ is defined to be the\n$\\dim L(U)$, the dimension of the mapping\u2019s image. Speaking less\nformally, the rank gives the number of independent linear constraints on\n$u\\in U$ imposed by the equation $$L(u)=0.$$\n\n### Properties {#properties .unnumbered}\n\n1.  If $V$ is finite-dimensional, then ${\\operatorname{rank}}L=\\dim V$\n    if and only if $L$ is surjective.\n\n2.  If $U$ is finite-dimensional, then ${\\operatorname{rank}}L=\\dim U$\n    if and only if $L$ is injective.\n\n3.  Composition of linear mappings does not increase rank. If\n    $M\\colon V\\to W$ is another linear mapping, then\n    $${\\operatorname{rank}}ML \\le\n      {\\operatorname{rank}}L$$ and\n    $${\\operatorname{rank}}ML \\le {\\operatorname{rank}}M.$$ Equality\n    holds in the first case if and only if $M$ is an isomorphism, and in\n    the second case if and only if $L$ is an isomorphism.",
+  "language": "INFORMAL",
+  "phrase": "Rank Of A Linear Mapping",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RankOfALinearMapping"
+    }
+  ],
+  "indexable": true
+}

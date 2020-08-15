@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*hyperperfect number*]{} $n$ for a given $k$ is an integer such that\n$k \\sigma(n) = -1 + k + (k + 1)n$, where $\\sigma(x)$ is the sum of\ndivisors function. $n$ is then called $k$-hyperperfect. For example, 325\nis 3-hyperperfect since its divisors (1, 5, 13, 25, 65, 325) add up to\n434, and $3 \\times 434 = -1 + 3 + (3 + 1)325 = 1302$. Numbers that are\n1-hyperperfect are by default called perfect numbers, since\n$1 \\sigma(n) = -1 + 1 + (1 + 1)n = 2n$.\n\nThe 2-hyperperfect numbers are listed in A007593 of Sloane\u2019s OEIS. As of\n2007, the only known 3-hyperperfect number is 325. The two known\n4-hyperperfect numbers are 1950625 and 1220640625, a sequence too short\nto list in the OEIS, and no 5-hyperperfect numbers are known to exist.\nThe 6-hyperperfect numbers are listed in A028499.\n\n[1]{} Judson S. McCrainie, \u201cA Study of Hyperperfect Numbers\u201d [*Journal\nof Integer Sequences*]{} [**3**]{} (2000): 00.1.3",
+  "language": "INFORMAL",
+  "phrase": "Hyperperfect Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HyperperfectNumber"
+    }
+  ],
+  "indexable": true
+}

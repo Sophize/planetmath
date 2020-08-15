@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X_1,\\dots, X_n$ be independent random variables in a probability\nspace, such that $\\operatorname{E}[X_k]=0$ and\n$\\operatorname{Var}[X_k] <\\infty$ for $k=1,\\dots, n$. Then, for each\n$\\lambda>0$,\n\n$$P\\left(\\max_{1\\leq k\\leq n} |S_k|\\geq\\lambda\\right)\\leq \\frac{1}{\\lambda^2}\\operatorname{Var}[S_n] = \\frac{1}{\\lambda^2}\\sum_{k=1}^n \\operatorname{Var}[X_k],$$\n\nwhere $S_k = X_1 +\\cdots + X_k$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KolmogorovsInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kolmogorov's inequality"
+  ]
+}

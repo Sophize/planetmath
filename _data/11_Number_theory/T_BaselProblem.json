@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*Basel problem*]{}, first posed by Pietro Mengoli in 1644, asks for\na finite formula for the infinite sum\n$$\\sum_{i = 1}^{\\infty} \\frac{1}{i^2}.$$ Though Mengoli verified the\nWallis formulae for $\\pi$, it did not occur to him that $\\pi$ was also\ninvolved in the solution of this problem. Jakob Bernoulli also tried in\nvain to solve this problem. Even an approximate decimal value eluded\ncontemporary mathematicians: an answer accurate to just five decimal\nplaces requires iterating up to at least $i = 112000$, which without the\naid of a computer was wholly impractical in Mengoli\u2019s day. The problem\nwas finally solved in 1741, when, after almost a decade of work,\nLeonhard Euler conclusively proved that\n$$\\frac{\\pi^2}{6} = \\zeta(2) = \\sum_{i = 1}^{\\infty}\\frac{1}{i^2}.$$ The\nvalue, 1.6449340668482264365... could then be computed to almost as many\ndecimal places as were known of $\\pi$. See\n\n[1]{} Ed Sandifer, \u201cEuler\u2019s Solution of the Basel Problem - The Longer\nStory\u201d. Danbury, Connecticut: Western Connecticut State University\n(2003)",
+  "language": "INFORMAL",
+  "phrase": "Basel Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BaselProblem"
+    }
+  ],
+  "indexable": true
+}

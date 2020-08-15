@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $T$ be a Turing machine and let $L\\subseteq\\Gamma^+$ be a language.\nWe say $T$ *decides* $L$ if for any $x\\in L$, $T$ accepts $x$, and for\nany $x\\notin L$, $T$ rejects $x$.\n\nWe say $T$ *enumerates* $L$ if:\n$$x\\in L \\text{ iff } T \\text{ accepts } x$$\n\nFor some Turing machines (for instance non-deterministic machines) these\ndefinitions are equivalent, but for others they are not. For example, in\norder for a deterministic Turing machine $T$ to decide $L$, it must be\nthat $T$ halts on every input. On the other hand $T$ could enumerate $L$\nif it does not halt on some strings which are not in $L$.\n\n$L$ is sometimes said to be a *decision problem*, and a Turing machine\nwhich decides it is said to solve the decision problem.\n\nThe set of strings which $T$ accepts is denoted $L(T)$.",
+  "language": "INFORMAL",
+  "phrase": "Decision Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DecisionProblem"
+    }
+  ],
+  "indexable": true
+}

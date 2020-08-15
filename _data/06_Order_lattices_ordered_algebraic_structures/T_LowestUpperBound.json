@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a set with a partial ordering $\\leq$, and let $T$ be a subset\nof $S$. A *lowest upper bound*, or *supremum*, of $T$ is an upper bound\n$x$ of $T$ with the property that $x \\leq y$ for every upper bound $y$\nof $T$. The lowest upper bound of $T$, when it exists, is denoted\n$\\operatorname{sup}(T)$.\n\nA lowest upper bound of $T$, when it exists, is unique.\n\nGreatest lower bound is defined similarly: a *greatest lower bound*, or\n*infimum*, of $T$ is a lower bound $x$ of $T$ with the property that\n$x \\geq y$ for every lower bound $y$ of $T$. The greatest lower bound of\n$T$, when it exists, is denoted $\\operatorname{inf}(T)$.\n\nIf $A = \\{a_1,a_2,\\ldots,a_n\\}$ is a finite set, then the supremum of\n$A$ is simply $\\max(A)$, and the infimum of $A$ is equal to $\\min(A)$.",
+  "language": "INFORMAL",
+  "phrase": "Lowest Upper Bound",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LowestUpperBound"
+    }
+  ],
+  "indexable": true
+}

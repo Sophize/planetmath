@@ -1,0 +1,20 @@
+{
+  "alternatePhrases": [
+    "bilinear function",
+    "bilinear operation",
+    "bilinear mapping",
+    "bilinear operator",
+    "bilinear pairing",
+    "pairing"
+  ],
+  "definition": "Let $R$ be a ring, and let $M$, $N$ and $P$ be modules over $R$. A\nfunction $f\\colon M\\times N\\to P$ is said to be a *bilinear map* if for\neach $b\\in M$ the function $h\\colon N\\to P$ defined by $h(y)=f(b,y)$ for\nall $y\\in N$ is (that is, an $R$-module homomorphism), and for each\n$c\\in N$ the function $g\\colon M\\to P$ defined by $g(x)=f(x,c)$ for all\n$x\\in M$ is linear. Sometimes we may say that the function is\n*$R$-bilinear*, .\n\nA common case is a bilinear map $V\\times V\\to V$, where $V$ is a vector\nspace over a field $K$; the vector space with this operation then forms\nan algebra over $K$.\n\nIf $R$ is a commutative ring, then every $R$-bilinear map\n$M\\times N\\to P$ corresponds in a natural way to a linear map\n$M\\otimes N\\to P$, where $M\\otimes N$ is the tensor product of $M$ and\n$N$ (over $R$).",
+  "language": "INFORMAL",
+  "phrase": "Bilinear Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BilinearMap"
+    }
+  ],
+  "indexable": true
+}

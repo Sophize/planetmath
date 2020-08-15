@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For every $n \\in \\mathbb{N}$ ${\\left(n\\underline{!}\\right)_p}$ stands\nfor the product of numbers between $1$ and $n$ which are not divisible\nby a given prime $p$. And we set ${\\left(0\\underline{!}\\right)_p} =1$.\n\nThe corollary below generalizes a result first found by Anton,\nStickelberger, and Hensel:\n\nLet $N_0$ be the least non-negative residue of $n \\pmod{p^s}$ where $p$\nis a prime number and $n \\in \\mathbb{N}$. Then\n$${\\left(n\\underline{!}\\right)_p} \\equiv \\left(\\pm 1\\right)^{\\left\\lfloor n/p^s\n\\right\\rfloor}\\cdot {\\left(N_0\\underline{!}\\right)_p} \\pmod{p^s}.$$\n\nWe write each $r$ in the product below as $ip^s +j$ to get\n$$\\begin{aligned}\n{\\left(n\\underline{!}\\right)_p} &=& \\prod\\limits_{\\substack{1 \\le r \\le n\\\\ p^s \\not\\div r}} r \\\\ &=&\\left( \n\\prod\\limits_{\\substack{0 \\le i \\le \\left\\lfloor n/p^s\\right\\rfloor -1 \\\\ 1 \\le j < p^s \\\\ p^s\n\\not\\div j}} ip^s +j\\right)\\left( \\prod\\limits_{\\substack{i=\\left\\lfloor\nn/p^s\\right\\rfloor \\\\ 1\\le j \\le N_0 \\\\ p^s \\not\\div j}} ip^s +j\\right) \\\\\n &\\equiv& \\prod\\limits_{i=0}^{\\left\\lfloor n/p^s \\right\\rfloor -1}\n\\prod\\limits_{\\substack{1 \\le j < p^s \\\\ p^s \\not\\div j }} j\\cdot\n    \\prod\\limits_{\\substack{j=1 \\\\ p^s \\not\\div j}}^{N_0} j) \\\\\n &\\equiv&\n{\\left(p^s\\underline{!}\\right)_p}^{\\left\\lfloor n/p^s\\right\\rfloor}\\cdot {\\left(N_0\\underline{!}\\right)_p} \\pmod{p^s}.\\end{aligned}$$\nFrom Wilson\u2019s theorem for prime powers it follows that\n$${\\left(n\\underline{!}\\right)_p} \\equiv\n\\begin{cases} \n{\\left(N_0\\underline{!}\\right)_p} \\text{if} & p=2, s \\ge 3 \\\\\n(-1)^{\\left\\lfloor n/p^s\\right\\rfloor}\\cdot{\\left(N_0\\underline{!}\\right)_p} & \\text{otherwise.}\n\\end{cases} \\pmod{p^s}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AntonsCongruence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Anton's congruence"
+  ]
+}

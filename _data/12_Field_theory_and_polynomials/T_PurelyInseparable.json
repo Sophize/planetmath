@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $F$ be a field of characteristic $p > 0$ and let $\\alpha$ be an\nelement which is algebraic over $F$. Then $\\alpha$ is said to be *purely\ninseparable* over $F$ if $\\alpha^{p^n} \\in F$ for some $n \\ge 0$.\n\nAn algebraic field extension $K/F$ is *purely inseparable* if each\nelement of $K$ is purely inseparable over $F$.\n\nPurely inseparable extensions have the following property: if $K/F$ is\npurely inseparable, and $A$ is an algebraic closure of $F$ which\ncontains $K$, then any homomorphism $K \\to A$ which fixes $F$\nnecessarily fixes $K$.\n\nLet $K/F$ be an arbitrary algebraic extension. Then there is an\nintermediate field $E$ such that $K/E$ is purely inseparable, and $E/F$\nis separable.\n\nLet $s$ be an indeterminate, and let $K = {\\mathbb{F}}_3(s)$ where\n${\\mathbb{F}}_3$ is the finite field with $3$ elements. Let\n$F = {\\mathbb{F}}_3(s^6)$. Then $K/F$ is neither separable, nor purely\ninseparable. Let $E = {\\mathbb{F}}_3(s^3)$. Then $E/F$ is separable, and\n$K/E$ is purely inseparable.",
+  "language": "INFORMAL",
+  "phrase": "Purely Inseparable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PurelyInseparable"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Define $$Y = \\begin{cases}\n  d & X \\ge d \\\\\n  0 & \\text{otherwise} \\\\\n\\end{cases}.$$ Then $0 \\le Y \\le X$. Additionally, it follows\nimmediately from the definition that $Y$ is a random variable (i.e.,\nthat it is measurable). Computing the expected value of $Y$, we have\nthat\n$$\\mathbb{E}[X] \\ge \\mathbb{E}[Y] = d\\cdot\\mathbb{P}_{}\\left\\{X \\ge d\\right\\},$$\nand the inequality follows.",
+  "conclusion": "#P_MarkovsInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfMarkovsInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Markov's inequality"
+  ]
+}

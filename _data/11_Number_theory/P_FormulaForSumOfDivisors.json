@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If one knows the factorization of a number, one can compute the sum of\nthe positive divisors of that number without having to write down all\nthe divisors of that number. To do this, one can use a formula which is\nobtained by summing a geometric series.\\\n\nSuppose that $n$ is a positive integer whose factorization into prime\nfactors is $\\prod_{i=1}^k p_i^{m_i}$, where the $p_i$\u2019s are distinct\nprimes and the multiplicities $m_i$ are all at least $1$. Then the sum\nof the divisors of $n$ equals $$\\prod_{i=1}^k\n{p_i^{m_i + 1} - 1 \\over p_i - 1}$$ and the sum of the proper divisors\nof $n$ equals $$\\prod_{i=1}^k\n{p_i^{m_i + 1} - 1 \\over p_i - 1} -\n\\prod_{i=1}^k p_i^{m_i}.$$\n\nA number will divide $n$ if and only if prime factors are also prime\nfactors of $n$ and their multiplicity is less than to or equal to their\nmultiplicities in $n$. In other words, a divisors $n$ can be expressed\nas $\\prod_{i=1}^k p_i^{\\mu_i}$ where $0 \\le\n\\mu_i \\le m_i$. Then the sum over all divisors becomes the sum over all\npossible choices for the $\\mu_i$\u2019s: $$\\sum_{d \\mid n} d =\n\\sum_{0 \\le \\mu_i \\le m_i}\n\\prod_{i=1}^k p_i^{\\mu_i}$$ This sum may be expressed as a multiple sum\nlike so: $$\\sum_{\\mu_1 = 0}^{m_1} \n\\sum_{\\mu_2 = 0}^{m_2} \\cdots\n\\sum_{\\mu_k = 0}^{m_k}\n\\prod_{i=1}^k p_i^{\\mu_i}$$ This sum of products may be factored into a\nproduct of sums: $$\\prod_{i=1}^k\n\\left( \n\\sum_{\\mu_i = 0}^{m_i}\np_i^{\\mu_i}\n\\right)$$ Each of these sums is a geometric series; hence we may use the\nformula for sum of a geometric series to conclude $$\\sum_{d \\mid n} d =\n\\prod_{i=1}^k\n{p_i^{m_i + 1} - 1 \\over p_i - 1}.$$ If we want only proper divisors, we\nshould not include $n$ in the sum, so we obtain the formula for proper\ndivisors by subtracting $n$ from our formula.\\\n\nAs an illustration, let us compute the sum of the divisors of $1800$.\nThe factorization of our number is $2^3 \\cdot 3^2 \\cdot 5^2$. Therefore,\nthe sum of its divisors equals $$\\left( {2^4 - 1} \\over {2 - 1} \\right)\n\\left( {3^3 - 1} \\over {3 - 1} \\right)\n\\left( {5^3 - 1} \\over {5 - 1} \\right) =\n{15 \\cdot 26 \\cdot 124 \\over 2 \\cdot 4} =\n6045.$$ The sum of the proper divisors equals $6045 - 1800 = 4245$, so\nwe see that $1800$ is an abundant number.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FormulaForSumOfDivisors"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "formula for sum of divisors"
+  ]
+}

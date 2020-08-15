@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathcal{A}$ be an abelian category. The [*snake lemma*]{} consists\nof the following two claims:\n\n1.  Suppose $$\\begin{CD}\n    0@>>> A_1@>>> B_1@>>> C_1@>>> 0\\\\\n    & & @V\\alpha VV @V\\beta VV @V\\gamma VV\\\\\n    0@>>> A_2@>>>B_2@>>>C_2@>>>0\n    \\end{CD}$$ is a commutative diagram in $\\mathcal{A}$ with exact\n    rows. Then there is an exact sequence\n    $$0 \\to   {\\mathrm{ker}\\,}\\alpha \\to   {\\mathrm{ker}\\,}\\beta \\to   {\\mathrm{ker}\\,}\\gamma\n                   \\stackrel{s}{\\longrightarrow}\n          {\\mathrm{coker}\\,}\\alpha \\to {\\mathrm{coker}\\,}\\beta \\to {\\mathrm{coker}\\,}\\gamma\\to 0,$$\n    usually called the [*kernel-cokernel sequence*]{}. The morphism $s$\n    is called the [*connecting morphism*]{}.\n\n2.  Applying the previous claim inductively, for any short exact\n    sequence $$0 \\to \\mathbf{A} \\to \\mathbf{B} \\to \\mathbf{C} \\to 0$$ of\n    chain complexes in $\\mathcal{A}$, there is a corresponding\n    $$\\cdots \\to H_n(\\mathbf{A})\\to H_n(\\mathbf{B})\\to H_n(\\mathbf{C})\n           \\to H_{n-1}(\\mathbf A)\\to\\cdots$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SnakeLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "snake lemma",
+    "zig-zag lemma",
+    "serpent lemma"
+  ]
+}

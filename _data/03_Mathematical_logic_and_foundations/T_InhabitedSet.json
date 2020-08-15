@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A set $A$ is called *inhabited*, if there exists an element $a\\in A$.\nNote that in classical mathematics this is equivalent to\n$A\\neq\\emptyset$ (i.e. $A$ being nonempty), yet in intuitionistic\nmathematics we actually have to find an element $a\\in A$. For example\nthe set, which contains $1$ if Goldbach\u2019s conjecture is true and $0$ if\nit is false is certainly nonempty, yet by today\u2019s state of knowledge we\ncannot say if $A$ is inhabited, since we do not know an element of $A$.",
+  "language": "INFORMAL",
+  "phrase": "Inhabited Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InhabitedSet"
+    }
+  ],
+  "indexable": true
+}

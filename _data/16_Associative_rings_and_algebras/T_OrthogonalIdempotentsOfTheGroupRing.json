@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a finite abelian group, let $L$ be any field containing the\n$|G|$-th roots of unity, and let $\\hat{G}$ denote the character group of\n$G$ with values in $L$. For any character $\\chi\\in \\hat{G}$, we define\n$\\varepsilon_\\chi$, the corresponding *orthogonal idempotent of the\ngroup ring* $L[G]$, by $$\\begin{aligned}\n\\varepsilon_\\chi=\\frac{1}{|G|}\\sum_{g\\in G} \\chi(g)g^{-1}.\\end{aligned}$$\n\nThe following equalities hold:\n\n-   $\\varepsilon_\\chi^2=\\varepsilon_\\chi$ for all $\\chi$\n\n-   $\\varepsilon_\\chi\\varepsilon_\\psi=0$ for any $\\chi\\neq\\psi$\n\n-   $\\sum_{\\chi\\in\\hat{G}}\\varepsilon_\\chi=1$\n\n-   $\\varepsilon_\\chi\\cdot g=\\chi(g)\\varepsilon_\\chi$\n\nThese orthogonal idempotents are used to decompose modules over $L[G]$:\nIf $M$ is such a module, then $M=\\oplus_\\chi (\\varepsilon_\\chi M)$.",
+  "language": "INFORMAL",
+  "phrase": "Orthogonal Idempotents Of The Group Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrthogonalIdempotentsOfTheGroupRing"
+    }
+  ],
+  "indexable": true
+}

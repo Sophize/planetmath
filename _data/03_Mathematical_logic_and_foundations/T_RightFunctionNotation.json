@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "right notation"
+  ],
+  "definition": "We are said to be using if we write functions to the right of their\narguments. That is, if $\\alpha : X \\to Y$ is a function and $x \\in X$,\nthen $x \\alpha$ is the image of $x$ under $\\alpha$.\n\nFurthermore, if we have a function $\\beta : Y \\to Z$, then we write the\ncomposition of the two functions as $\\alpha \\beta : X \\to Z$, and the\nimage of $x$ under the composition as\n$x \\alpha \\beta = x (\\alpha \\beta) = (x \\alpha) \\beta$.\n\nCompare this to left function notation.",
+  "language": "INFORMAL",
+  "phrase": "Right Function Notation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RightFunctionNotation"
+    }
+  ],
+  "indexable": true
+}

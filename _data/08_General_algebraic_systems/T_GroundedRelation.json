@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A **grounded relation** over a sequence of sets is a mathematical object\nconsisting of two components. The first component is a subset of the\ncartesian product taken over the given sequence of sets, which sets are\ncalled the *domains* of the relation. The second component is just the\ncartesian product itself.\n\nFor example, if $L$ is a grounded relation over a finite sequence of\nsets, $X_1, \\ldots, X_k$, then $L$ has the form $L = (F(L), G(L))$,\nwhere $F(L) \\subseteq G(L) = X_1 \\times \\ldots \\times X_k$.\n\nRemarks\n=======\n\n-   In various language that is used, $F(L)$ may be called the *figure*\n    or the *graph* of $L$, while $G(L)$ may be called the *ground* of\n    $L$.\n\n-   The default assumption in almost all applications is that the\n    domains of the grounded relation are nonempty sets, hence departures\n    from this assumption need to be noted explicitly.\n\n-   In many applications all relations are considered relative to\n    explicitly specified grounds. In these settings it is conventional\n    to refer to grounded relations somewhat more simply as \u201crelations\".\n\n-   One often hears or reads the usage\n    $``L \\subseteq X_1 \\times \\ldots \\times X_k\"$ when the speaker or\n    writer really means\n    $``F(L) \\subseteq X_1 \\times \\ldots \\times X_k\"$. Be charitable in\n    your interpretations.\n\n-   The cardinality of $G(L)$ is referred to as the *adicity* or the\n    *arity* of the relation. For example, in the finite case, $L$ may be\n    described as $k$*-adic* or $k$*-ary*.\n\n-   The set $\\mathrm{dom}_j(L) := X_j$ is referred to as the\n    $j^{\\mbox{\\small{th}}}$ *domain* of the relation.\n\n-   In the special case where $k = 2$, the set $X_1$ is called \u201cthe\n    domain\" and the set $X_2$ is called \u201cthe codomain\" of the relation.",
+  "language": "INFORMAL",
+  "phrase": "Grounded Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroundedRelation"
+    }
+  ],
+  "indexable": true
+}

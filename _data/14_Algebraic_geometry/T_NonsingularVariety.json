@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "non-singular variety"
+  ],
+  "definition": "A variety over an algebraically closed field $k$ is *nonsingular* at a\npoint $x$ if the local ring $\\mathcal{O}_x$ is a regular local ring.\nEquivalently, if around the point one has an open affine neighborhood\nwherein the variety is cut out by certain polynomials $F_1, \\ldots, F_n$\nof $m$ variables $x_1, \\ldots, x_m$, then it is nonsingular at $x$ if\nthe Jacobian has maximal rank at that point. Otherwise, $x$ is a\n*singular point*.\n\nA variety is *nonsingular* if it is nonsingular at each point.\n\nOver the real or complex numbers, nonsingularity corresponds to\n\u201csmoothness\u201d: at nonsingular points, varieties are locally real or\ncomplex manifolds (this is simply the implicit function theorem).\nSingular points generally have \u201ccorners\u201d or self intersections. Typical\nexamples are the curves $x^2=y^3$, which has a cusp at $(0,0)$ and is\nnonsingular everywhere else, and $x^2(x+1)=y^2$, which has a\nself-intersection at $(0,0)$ and is nonsingular everywhere else.",
+  "language": "INFORMAL",
+  "phrase": "Nonsingular Variety",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NonsingularVariety"
+    }
+  ],
+  "indexable": true
+}

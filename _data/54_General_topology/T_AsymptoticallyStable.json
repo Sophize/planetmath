@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(X,d)$ be a metric space and $f\\colon X\\to X$ a continuous\nfunction. A point $x\\in X$ is said to be *Lyapunov stable* if for each\n$\\epsilon>0$ there is $\\delta>0$ such that for all $n\\in {\\mathbb{N}}$\nand all $y\\in X$ such that $d(x,y)<\\delta$, we have\n$d(f^n(x),f^n(y))<\\epsilon$.\n\nWe say that $x$ is asymptotically stable if it belongs to the interior\nof its stable set, i.e. if there is $\\delta>0$ such that\n$\\lim_{n\\to\\infty} d(f^n(x),f^n(y))=0$ whenever $d(x,y)<\\delta$.\n\nIn a similar way, if $\\varphi\\colon X\\times {\\mathbb{R}}\\to X$ is a\nflow, a point $x\\in X$ is said to be Lyapunov stable if for each\n$\\epsilon>0$ there is $\\delta>0$ such that, whenever $d(x,y)<\\delta$, we\nhave $d(\\varphi(x,t),\\varphi(y,t))<\\epsilon$ for each $t\\geq 0$; and $x$\nis called asymptotically stable if there is a neighborhood $U$ of $x$\nsuch that $\\lim_{t\\to\\infty} d(\\varphi(x,t),\\varphi(y,t)) = 0$ for each\n$y\\in U$.",
+  "language": "INFORMAL",
+  "phrase": "Asymptotically Stable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AsymptoticallyStable"
+    }
+  ],
+  "indexable": true
+}

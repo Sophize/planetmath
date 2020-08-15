@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $E$ be an elliptic curve. The [*endomorphism ring*]{} of $E$,\ndenoted $\\operatorname{End}(E)$, is the set of all regular maps\n$\\phi \\colon E\n\\to E$ such that $\\phi(O)=O$, where $O \\in E$ is the identity element\nfor the group structure of $E$. Note that this is indeed a ring under\naddition ($(\\phi + \\psi)(P)=\\phi(P) +\n\\psi(P)$) and composition of maps.\n\nThe following theorem implies that every endomorphism is also a group\nendomorphism:\n\nLet $E_1, E_2$ be elliptic curves, and let $\\phi \\colon E_1\n\\to E_2$ be a regular map such that $\\phi(O_{E_1})=O_{E_2}$. Then $\\phi$\nis also a group homomorphism, i.e.\n$$\\forall P,Q \\in E_1,\\ \\phi(P +_{E_1}\nQ)=\\phi(P)+_{E_2}\\phi(Q).$$\n\n\\[Proof: See $\\cite{silverman}$, Theorem 4.8, page 75\\]\\\nIf $\\operatorname{End}(E)$ is isomorphic (as a ring) to an $R$ in a\nquadratic imaginary field $K$ then we say that the elliptic curve E has\n[*complex multiplication*]{} by $K$ (or complex multiplication by $R$).\n\n[*Note*]{}: $\\operatorname{End}(E)$ always contains a subring isomorphic\nto $\\mathbb{Z}$, formed by the [*multiplication by n*]{} maps:\n$$[n]\\colon E \\to E,\\quad [n]P=n\\cdot P$$ and, in general, these are all\nthe maps in the endomorphism ring of $E$.\n\n[**Example**]{}: Fix $d\\in \\mathbb{Z}$. Let $E$ be the elliptic curve\ndefined by $$y^2=x^3-dx$$ then this curve has complex multiplication by\n$\\mathbb{Q}(i)$ (more concretely by $\\mathbb{Z}(i)$). Besides the\nmultiplication by $n$ maps, $\\operatorname{End}(E)$ contains a genuine\nnew element: $$[i]\\colon E \\to E,\\quad [i](x,y)=(-x,iy)$$ (the name\n[*complex multiplication*]{} comes from the fact that we are\n\u201cmultiplying\u201d the points in the curve by a complex number, $i$ in this\ncase).\n\n[8]{} James Milne, [*Elliptic Curves*]{}, online course notes. Joseph H.\nSilverman, [*The Arithmetic of Elliptic Curves*]{}. Springer-Verlag, New\nYork, 1986. Joseph H. Silverman, [*Advanced Topics in the Arithmetic of\nElliptic Curves*]{}. Springer-Verlag, New York, 1994. Goro Shimura,\n[*Introduction to the Arithmetic Theory of Automorphic Functions*]{}.\nPrinceton University Press, Princeton, New Jersey, 1971.",
+  "language": "INFORMAL",
+  "phrase": "Complex Multiplication",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComplexMultiplication"
+    }
+  ],
+  "indexable": true
+}

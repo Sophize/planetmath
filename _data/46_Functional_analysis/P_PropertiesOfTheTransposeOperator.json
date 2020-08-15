@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry, whenever $V,W$ are normed vector spaces,\n$\\mathcal{B}(V,W)$ denotes the algebra of bounded linear operators\n$V \\longrightarrow W$.\n\nLet $X, Y, Z$ be normed vector spaces and $X', Y', Z'$ be their\ncontinuous dual spaces. Let $T, S \\in \\mathcal{B}(X,Y)$,\n$R \\in \\mathcal{B}(Y,Z)$ and $\\lambda \\in \\mathbb{C}$.\n\n### Basic properties\n\n-   $T' \\in \\mathcal{B}(Y',X')$ and $\\|T\\|=\\|T\\,'\\|$.\n\n-   $(\\lambda T)' = \\lambda T'$.\n\n-   $(S+T)' = S'+T'$.\n\n-   $(RT)' = T'R'$.\n\n-   If $T^{-1}$ exists and $T^{-1} \\in \\mathcal{B}(Y,X)$ then\n    $(T')^{-1} \\in \\mathcal{B}(X',Y')$ and $(T')^{-1} = (T^{-1})'$.\n\n### Miscellaneous properties\n\n-   If we endow $X'$ and $Y'$ with the weak-\\* topology then\n    $T':Y' \\longrightarrow X'$ is continuous.\n\n-   $T$ is an isometric isomorphism if and only if $T'$ is an isometric\n    isomorphism.\n\n-   If $T$ is then $T'$ is also compact.\n\n-   If $T'$ is compact and $Y$ is a Banach space, then $T$ is also\n    compact.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertiesOfTheTransposeOperator"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "properties of the transpose operator",
+    "transpose operator properties"
+  ]
+}

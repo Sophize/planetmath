@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Recall that given an equivalence relation $R$ on a set $A$, we can form\nthe quotient $A/R$ of $A$ by $R$. Elements of $A/R$ are the equivalence\nclasses under $R$. There are two functional properties of $A/R$:\n\n-   If $p_1,p_2$ are projections of $R$ onto $A$, given by $p_1(a,b)=a$\n    and $p_2(a,b)=b$, then the canonical surjection $q:A\\to A/R$ is the\n    coequalizer of $p_1$ and $p_2$.\n\n    First, $q\\circ p_1(a,b) = q(a)=[a]=[b]= q(b)=q\\circ p_2$. Suppose\n    that $r:A\\to B$ is another function with $r\\circ p_1=r\\circ p_2$.\n    Define $f:A/R\\to B$ by $f([a])=r(a)$. This is a well-defined\n    function because $[a]=[b]$ implies that\n    $r(a)=r\\circ p_1(a,b)=r\\circ p_2(a,b)=r(b)$. This shows that\n    $f\\circ q=r$, which also implies that $f$ is uniquely determined.\n\n-   $p_1$ and $p_2$ form a kernel pair of $q$.\n\n    Again, $q\\circ p_1 = q\\circ p_2$, as was just shown previously. Now\n    suppose $g,h:C\\to A$ are functions with $q\\circ g = q\\circ h$. For\n    any $c\\in C$, we see that $[g(c)]=q(g(c))=q(h(c))=[h(c)]$, so that\n    $(g(c),h(c))\\in R$. Define $s:C\\to R$ by $s(c)=(g(c),h(c))$. Then\n    $p_1\\circ s=g$ and $p_2\\circ s=h$. It is again easy to see that $s$\n    is uniquely determined by $g$ and $h$. Hence, $p_1,p_2$ are a kernel\n    pair of $g$.\n\n**Definition**. An equivalence relation object $(R,p_1,p_2)$ on an\nobject $A$ in a category $\\mathcal{C}$ is said to be an *effective\nequivalence relation object* if\n\n-   the projections $p_1,p_2$ has a coequalizer $q:A\\to A/R$, and\n\n-   $p_1,p_2$ form the kernel pair of $q$.\n\nIn other words, $R$ is effective iff there is an exact fork\n$$\\xymatrix@+=2cm{R \\ar@<0.75ex>[r]^-{p_1} \\ar@<-0.75ex>[r]_-{p_2} & A \\ar[r]^-q & A/R}$$\n\nIn **Set**, the category of sets, every equivalence relation object\n(which is just an equivalence relation on a set) is effective, as we\nhave just shown above. However, this is not true in general. For\nexample, not every equivalence relation object is effective in **Top**,\nthe category of topological spaces (and continuous functions).\n\nMore to come...",
+  "language": "INFORMAL",
+  "phrase": "Effective Equivalence Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EffectiveEquivalenceRelation"
+    }
+  ],
+  "indexable": true
+}

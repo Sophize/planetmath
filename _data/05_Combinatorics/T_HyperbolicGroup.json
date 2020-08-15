@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "hyperbolicity"
+  ],
+  "definition": "A finitely generated group $G$ is *hyperbolic* if, for some finite set\nof generators $A$ of $G$, the Cayley graph $\\Gamma(G,A)$, considered as\na metric space with $d(x,y)$ being the minimum number of edges one must\ntraverse to get from $x$ to $y$, is a hyperbolic metric space.\n\nHyperbolicity is a group-theoretic property. That is, if $A$ and $B$ are\nfinite sets of generators of a group $G$ and $\\Gamma(G,A)$ is a\nhyperbolic metric space, then $\\Gamma(G,B)$ is a hyperbolic metric\nspace.\n\nexamples of hyperbolic groups include finite groups and free groups. If\n$G$ is a finite group, then for any $x,y \\in G$, we have that\n$d(x,y) \\le |G|$. (See the entry for a pictorial example.) If $G$ is a\nfree group, then its Cayley graph is a real tree.",
+  "language": "INFORMAL",
+  "phrase": "Hyperbolic Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HyperbolicGroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Laurent expansion"
+  ],
+  "definition": "A *Laurent series* centered about $a$ is a series of the form\n$$\\sum_{k=-\\infty}^\\infty c_k (z-a)^k$$ where\n$c_k, a, z \\in \\mathbb{C}$. The *principal part* of a Laurent series is\nthe subseries $\\sum_{k=-\\infty}^{-1} c_k (z-a)^k$.\n\nOne can prove that the above series converges everywhere inside the\n(possibly empty) set\n$$D := \\{z \\in \\mathbb{C} \\mid R_1 < |z-a| < R_2 \\}$$ where\n$$R_1 := \\limsup_{k \\rightarrow\\infty} |c_{-k}|^{1/k}$$ and\n$$R_2 := 1/\\left(\\limsup_{k \\rightarrow\\infty} |c_{k}|^{1/k}\\right).$$\n\nEvery Laurent series has an associated function, given by\n$$f(z) := \\sum_{k=-\\infty}^\\infty c_k (z-a)^k,$$ whose domain is the set\nof points in $\\mathbb{C}$ on which the series converges. This function\nis analytic inside the annulus $D$, and conversely, every analytic\nfunction on an annulus is equal to some unique Laurent series. The\ncoefficients of Laurent series for an analytic function can be\ndetermined using the Cauchy integral formula.",
+  "language": "INFORMAL",
+  "phrase": "Laurent Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LaurentSeries"
+    }
+  ],
+  "indexable": true
+}

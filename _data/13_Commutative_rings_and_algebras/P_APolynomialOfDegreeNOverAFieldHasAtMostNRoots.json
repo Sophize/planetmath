@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a commutative ring with identity and let $p(x)\\in R[x]$ be a\npolynomial with coefficients in $R$. The element $a\\in R$ is a root of\n$p(x)$ if and only if $(x-a)$ divides $p(x)$.\n\nSee proof of factor theorem using division.\n\n\u00a0\\\n\nLet $F$ be a field and let $p(x)$ be a non-zero polynomial in $F[x]$ of\ndegree $n\\geq 0$. Then $p(x)$ has at most $n$ roots in $F$ (counted with\nmultiplicity).\n\nWe proceed by induction. The case $n=0$ is trivial since $p(x)$ is a\nnon-zero constant, thus $p(x)$ cannot have any roots.\n\nSuppose that any polynomial in $F[x]$ of degree $n$ has at most $n$\nroots and let $p(x)\\in F[x]$ be a polynomial of degree $n+1$. If $p(x)$\nhas no roots then the result is trivial, so let us assume that $p(x)$\nhas at least one root $a\\in F$. Then, by the lemma above, there exist a\npolynomial $q(x)$ such that: $$p(x)=(x-a)\\cdot q(x).$$ Hence,\n$q(x)\\in F[x]$ is a polynomial of degree $n$. By the induction\nhypothesis, the polynomial $q(x)$ has at most $n$ roots. It is clear\nthat any root of $q(x)$ is a root of $p(x)$ and if $b\\neq a$ is a root\nof $p(x)$ then $b$ is also a root of $q(x)$. Thus, $p(x)$ has at most\n$n+1$ roots, which concludes the proof of the theorem.\n\nNote: The fundamental theorem of algebra states that if $F$ is\nalgebraically closed then any polynomial of degree $n$ has exactly $n$\nroots (counted with multiplicity).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/APolynomialOfDegreeNOverAFieldHasAtMostNRoots"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a polynomial of degree $n$ over a field has at most $n$ roots"
+  ]
+}

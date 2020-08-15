@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [**t-cat**]{} of a topological space $X$ is the minimal number of\nopen sets that cover $X$ such that each open set in the cover has the\nhomotopy type of the unit circle $S^1$. This means that for each open\nset $U$, the inclusion $U\\stackrel{i}\\hookrightarrow X$ is homotopic to\nsome factorization $U\\stackrel{a}\\to S^1\\stackrel{b}\\to X$, i.e.\n$$i\\simeq b\\circ a.$$\n\nWhen $X$ is manifold, this is related to the round complexity of $X$.\n\n[9]{} D. Siersma, G. Khimshiasvili, [*On minimal round functions*]{},\nPreprint 1118, Department of Mathematics, Utrecht University, 1999, pp.\n18.",
+  "language": "INFORMAL",
+  "phrase": "T-Cat",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Tcat"
+    }
+  ],
+  "indexable": true
+}

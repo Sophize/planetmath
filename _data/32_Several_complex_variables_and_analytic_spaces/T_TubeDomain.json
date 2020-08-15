@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $S \\subset {\\mathbb{R}}^n$ is an open set (usually connected),\nthen we define\n$$T_S := \\{ z \\in {\\mathbb{C}}^n \\mid \\operatorname{Re} z \\in S \\} .$$\nWe call $T_S$ the [*tube domain*]{} associated to $S$.\n\nBasically the idea is that these domains give you complete freedom in\nthe imaginary coordinates. An interesting fact about these domains is\nthat $T_S$ is pseudoconvex if and only if $T_S$ is convex in the\ngeometric sense, and this is true if and only if $S$ itself is convex.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Tube Domain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TubeDomain"
+    }
+  ],
+  "indexable": true
+}

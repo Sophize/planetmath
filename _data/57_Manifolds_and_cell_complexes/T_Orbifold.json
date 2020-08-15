@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "orbifold structure"
+  ],
+  "definition": "Roughly, an orbifold is the quotient of a manifold by a finite group.\nFor example, take a sheet of paper and add a small crease perpendicular\nto one side at the halfway point. Then, line up the two halves of the\nside. This may be thought of as the plane $\\mathbb R^2$ modulo the group\n$\\mathbb Z^2$. Now, let us give the definition.\n\nDefine a category $\\mathcal X$: The objects are pairs $(G,X)$, where $G$\nis a finite group acting effectively on a connected smooth manifold $X$.\nA morphism $\\Phi$ between two objects $(G^\\prime, X^\\prime)$ and $(G,X)$\nis a family of open embeddings $\\phi:X^\\prime\\rightarrow X$ which\nsatisfy\n\n-   for each embedding $\\phi\\in\\Phi$, there is an injective homomorphism\n    $\\lambda_\\phi:G^\\prime\\rightarrow G$ such that $\\phi$ is\n    $\\lambda_\\phi$ equivariant\n\n-   For $g\\in G$, we have $$\\begin{aligned}\n    g\\phi&:X^\\prime\\rightarrow X\\\\\n    g\\phi&:x\\mapsto g\\phi(x)\\end{aligned}$$ and if\n    $(g\\phi)(X) \\cap \\phi(X) \\ne \\emptyset$, then $g\\in\n    \\lambda_\\phi(G^\\prime)$.\n\n-   $\\Phi = \\{g\\phi, g\\in G$}, for any $\\phi \\in \\Phi$\n\nNow, we define orbifolds. Given a paracompact Hausdorff space $X$ and a\nnice open covering $\\mathcal U$ which forms a basis for the topology on\n$X$, an orbifold structure $\\mathcal V$ on $X$ consists of\n\n1.  For $U\\in \\mathcal U$, $\\mathcal V(U) = (G_U,\\tilde U)\\stackrel \\tau\n    \\rightarrow U$ is a ramified cover $\\tilde U \\rightarrow U$ which\n    identifies $\\tilde U\\slash G_U \\cong U$\n\n2.  For $U\\subset V \\in \\mathcal U$, there exists a morphism\n    $\\phi_{VU}(G_U, \\tilde U)\\rightarrow (G_V, \\tilde V)$ covering the\n    inclusion\n\n3.  If $U\\subset V\\subset W \\in \\mathcal U$, $\\phi_{WU} =\n    \\phi_{WV}\\circ\\phi_{VU}$\n\nReferences:\n\n\\[1\\] Kawasaki T., The Signature theorem for V-manifolds. Topology 17\n(1978), 75-83. MR0474432 (57:14072)",
+  "language": "INFORMAL",
+  "phrase": "Orbifold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Orbifold"
+    }
+  ],
+  "indexable": true
+}

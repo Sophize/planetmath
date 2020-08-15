@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $A$ and $B$ are $\\mathbb{Z}$-graded algebras, we define the *graded\ntensor product* (or *super tensor product*) $A \\otimes_{su} B$ to be the\nordinary tensor product as graded modules, but with multiplication -\ncalled the [*super product*]{} - defined by\n$$(a \\otimes b)(a' \\otimes b') = (-1)^{(\\text{deg \\ } b)(\\text{deg \\ } a')}aa' \\otimes bb'$$\nwhere $a,a',b,b'$ are homogeneous. The super tensor product of $A$ and\n$B$ is itself a graded algebra, as we grade the super tensor product of\n$A$ and $B$ as follows:\n\n$$(A \\otimes_{su} B)^n = \\coprod_{p,q \\text{ : } p + q = n} A^p \\otimes B^q$$",
+  "language": "INFORMAL",
+  "phrase": "Graded Tensor Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GradedTensorProduct"
+    }
+  ],
+  "indexable": true
+}

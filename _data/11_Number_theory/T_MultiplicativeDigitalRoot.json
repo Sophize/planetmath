@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "repeated digit product",
+    "repeated digital product"
+  ],
+  "definition": "Given an integer $m$ consisting of $k$ digits $d_1, \\dots, d_k$ in base\n$b$, let $$j = \\prod_{i = 1}^{k} d_i,$$ then repeat this operation on\nthe digits of $j$ until $j < b$. This stores in $j$ the [*multiplicative\ndigital root*]{} of $m$. The number of iterations of the multiplication\noperation is called the [*multiplicative persistence*]{} of $m$.",
+  "language": "INFORMAL",
+  "phrase": "Multiplicative Digital Root",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplicativeDigitalRoot"
+    }
+  ],
+  "indexable": true
+}

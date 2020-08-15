@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Henkin* or *branching* quantifier is a multi-variable quantifier in\nwhich the selection of variables depends only on some, but not all, of\nthe other quantified variables. For instance the simplest Henkin\nquantifier can be written:\n$$\\begin{array}{c}\\forall x\\exists y\\\\\\forall a\\exists b\\end{array}\\phi(x,y,a,b)$$\n\nThis quantifier, inexpressible in ordinary first order logic, can best\nbe understood by its skolemization. The formula above is equivalent to\n$\\forall x\\forall a\\phi(x,f(y),a,g(a))$. Critically, the selection of\n$y$ depends only on $x$ while the selection of $b$ depends only on $a$.\nFor instance, given a value for $a$, a value of $b$ must be chosen which\nis compatible with every possible value of $x$, while given any $x$, the\nvalue of $y$ chosen must be compatible with every value of $a$.\n\nLogics with this quantifier are stronger than first order logic, lying\nbetween first and second order logic in strength. For instance the\nHenkin quantifier can be used to define the Rescher quantifier, and by\nextension H\u00e4rtig\u2019s quantifer:\n\n$$\\begin{array}{c}\n\\forall x\\exists y\\\\\n\\forall a\\exists b\n\\end{array}\n[(x=a\\leftrightarrow y=b)\\wedge\\phi(x)\\rightarrow\\psi(y)]\\leftrightarrow Rxy\\phi(x)\\psi(y)$$\n\nTo see that this is true, observe that this essentially requires that\nthe Skolem functions $f(x)=y$ and $g(a)=b$ the same, and moreover that\nthey are injective. Then for each $x$ satisfying $\\phi(x)$, there is a\ndifferent $f(x)$ satisfying $\\psi((f(x))$.\n\nThis concept can be generalized to the *game-theoretical quantifiers*.\nThis concept comes from interpreting a formula as a game between a\n\u201cProver\u201d and \u201cRefuter.\u201d A theorem is provable whenever the Prover has a\nwinning strategy; at each $\\wedge$ the Refuter chooses which side they\nwill play (so the Prover must be prepared to win on either) while each\n$\\vee$ is a choice for the Prover. At a $\\neg$, the players switch\nroles. Then $\\forall$ represents a choice for the Refuter and $\\exists$\nfor the Prover.\n\nClassical first order logic, then, adds the requirement that the games\nhave perfect information. The game-theoretical quantifers remove this\nrequirement, so for instance the Henkin quantifier, which would be\nwritten $\\forall x\\exists y\\forall a\\exists_{/\\forall x} b\\phi(x,y,a,b)$\nstates that when the Prover makes a choice for $b$, it is made without\nknowledge of what was chosen at $x$.",
+  "language": "INFORMAL",
+  "phrase": "Game-Theoretical Quantifier",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GametheoreticalQuantifier"
+    }
+  ],
+  "indexable": true
+}

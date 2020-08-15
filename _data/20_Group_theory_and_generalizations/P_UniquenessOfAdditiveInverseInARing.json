@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a ring, and let $a$ be any element of $R$. There exists a\nunique element $b$ of $R$ such that $a+b=0$, i.e. there is a unique for\n$a$.\n\nLet $a$ be an element of $R$. By definition of ring, there exists at\nleast one of $a$, call it $b_1$, so that $a+b_1=0$. Now, suppose $b_2$\nis another additive inverse of $a$, i.e. another element of $R$ such\nthat $$a+b_2=0$$ where $0$ is the of $R$. Let us show that $b_1=b_2$.\nUsing properties for a ring and the above equations for $b_1$ and $b_2$\nyields $$\\begin{aligned}\nb_1 &=& b_1+0 \\quad \\text{(definition of zero)}\\\\\n &=& b_1+(a+b_2) \\quad (b_2 \\text{ is an additive inverse of }a)\\\\\n &=& (b_1+a)+b_2 \\quad (\\text{associativity in }R)\\\\\n &=& 0+b_2 \\quad (b_1\\text{ is an additive inverse of }a)\\\\\n &=& b_2 \\quad \\text{(definition of zero)}.\\end{aligned}$$ Therefore,\nthere is a unique additive inverse for $a$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniquenessOfAdditiveInverseInARing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "uniqueness of additive inverse in a ring"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "For fixed $x>0,\\ x\\neq 1$ the function $$w_x(r)=\\int_1^x t^{r-1} dt=\n\\begin{cases} \\frac{x^r-1}{r}\\quad& r\\neq 0\\\\\n\\log x\\quad& r=0\n\\end{cases}$$ is strictly increasing.\\\nBernoulli inequality is equivalent to $$w_{1+x}(r) > (<)\\ w_{1+x}(1)$$",
+  "conclusion": "#P_BernoullisInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnotherProofOfBernoullisInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "another proof of Bernoulli's inequality"
+  ]
+}

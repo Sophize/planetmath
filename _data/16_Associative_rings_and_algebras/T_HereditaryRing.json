@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring. A right (left) $R$-module $M$ is called right (left)\n*hereditary* if every submodule of $M$ is projective over $R$.\n\n**Remarks**.\n\n-   If $M$ is semisimple, then $M$ is hereditary.\n\n-   Suppose $M$ is an external direct sum of hereditary right (left)\n    $R$-modules, then $M$ is itself hereditary.\n\nA ring $R$ is said to be a right (left) *hereditary ring* if all of its\nright (left) ideals are projective as modules over $R$. If $R$ is both\nleft and right hereditary, then $R$ is simply called a hereditary ring.\n\n**Remarks.**\n\n-   Even though the notions of left and right heredity in rings are\n    symmetrical, one does not imply the other.\n\n-   If $R$ is semisimple, then $R$ is hereditary.\n\n-   If $R$ is hereditary, then every free $R$-module is a hereditary\n    module.\n\n-   A hereditary integral domain is a Dedekind domain, and conversely.\n\n-   The global dimension of a non-semisimple hereditary ring is 1.",
+  "language": "INFORMAL",
+  "phrase": "Hereditary Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HereditaryRing"
+    }
+  ],
+  "indexable": true
+}

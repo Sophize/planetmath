@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *groupoid* is a set $G$ together with a subset $G_2 \\subset G^2$ of\ncomposable pairs, a *multiplication*\n$\\mu : G_2 \\to G : (a, b) \\mapsto ab$ and an *inversion*\n$\\cdot ^{-1} : G \\to G : a \\mapsto a^{-1}$ such that\n\n1.  $\\cdot^{-1} \\circ \\cdot^{-1} = \\mathrm{id}_G$,\n\n2.  if $\\{(a, b), (b, c)\\} \\subset G_2$ then\n    $\\{(ab, c), (a, bc)\\} \\subset G_2$ and $(ab)c = a(bc)$,\n\n3.  $(b, b^{-1}) \\in G_2$ and if $(a, b) \\in G_2$ then $abb^{-1} = a$\n    and\n\n4.  $(b^{-1}, b) \\in G_2$ and if $(b, c) \\in G_2$ then $b^{-1}bc = c$.\n\nFurthermore we have the *source* or *domain map*\n$\\sigma : G \\to G : a \\mapsto a^{-1}a$ and the *target* or *range map*\n$\\tau : G \\to G : a \\mapsto aa^{-1}$. The image of these maps is called\nthe *unit space* and denoted $G_0$. If the unit space is a singleton\nthan we regain the notion of a group.\n\nWe also define $G_a := \\sigma^{-1}(\\{a\\})$, $G^b := \\tau^{-1}(\\{b\\})$\nand $G_a^b := G_a \\cap G^b$. It is not hard to see that $G_a^a$ is a\ngroup, which is called the *isotropy group* at $a$.\n\nWe say that a groupoid $G$ is *principal* and *transitive*, if the map\n$(\\sigma, \\tau) : G \\to G_0 \\times G_0$ is injective and surjective,\nrespectively.\n\nA groupoid can be more abstractly and more succinctly defined as a\ncategory whose morphisms are all isomorphisms.\n\nA *topological groupoid* is a groupoid $G$ which is also a topological\nspace, such that the multiplication and inversion are continuous when\n$G_2$ is endowed with the induced product topology from $G^2$.\nConsequently also $\\sigma$ and $\\tau$ are continuous.\n\n[9]{} P.J. Higgins, [*Categories and groupoids*]{}, van Nostrand\noriginal, 1971; Reprint Theory and Applications of Categories, 7 (2005)\npp 1-195.\n\nR. Brown, [*Topology and groupoids*]{}, xxv+512pp, Booksurge 2006.\n\nR. Brown, \u2018Three themes in the work of Charles Ehresmann:\nLocal-to-global; Groupoids; Higher dimensions\u2019, [*Proceedings of the 7th\nConference on the Geometry and Topology of Manifolds: The Mathematical\nLegacy of Charles Ehresmann, Bedlewo (Poland) 8.05.2005-15.05.2005*]{},\nBanach Centre Publications 76, Institute of Mathematics Polish Academy\nof Sciences, Warsaw, (2007) 51-63. (math.DG/0602499).",
+  "language": "INFORMAL",
+  "phrase": "Topological Groupoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TopologicalGroupoid"
+    }
+  ],
+  "indexable": true
+}

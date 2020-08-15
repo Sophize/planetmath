@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $\\vartheta_1,\\,\\vartheta_2,\\,\\ldots,\\,\\vartheta_n$ are the algebraic\nconjugates of the algebraic number $\\vartheta_1$, then the algebraic\nnumber fields\n$\\mathbb{Q}(\\vartheta_1),\\,\\mathbb{Q}(\\vartheta_2),\\,\\ldots,\\,\\mathbb{Q}(\\vartheta_n)$\nare the [*conjugate fields*]{} of $\\mathbb{Q}(\\vartheta_1)$.\n\nNotice that the conjugate fields of $\\mathbb{Q}(\\vartheta_1)$ are always\nisomorphic but not necessarily distinct.\n\nAll conjugate fields are equal,\n$\\mathbb{Q}(\\vartheta_1)= \\mathbb{Q}(\\vartheta_2)=\\ldots=\\mathbb{Q}(\\vartheta_n)$,\nor equivalently $\\vartheta_1,\\ldots,\\vartheta_n$ belong to\n$\\mathbb{Q}(\\vartheta_1)$, if and only if the extension\n$\\mathbb{Q}(\\vartheta_1)/\\mathbb{Q}$ is a Galois extension of fields.\nThe reason for this is that if $\\vartheta_1$ is an algebraic number and\n$m(x)$ is the minimal polynomial of $\\vartheta_1$ then the roots of\n$m(x)$ are precisely the algebraic conjugates of $\\vartheta_1$.\n\nFor example, let $\\vartheta_1 = \\sqrt{2}$. Then its only conjugate is\n$\\vartheta_2=-\\sqrt{2}$ and $\\mathbb{Q}(\\sqrt{2})$ is Galois and\ncontains both $\\vartheta_1$ and $\\vartheta_2$. Similarly, let $p$ be a\nprime and let $\\vartheta_1=\\zeta$ be a . Then the algebraic conjugates\nof $\\zeta$ are $\\zeta^2,\\ldots,\\zeta^{p-1}$ and so all conjugate fields\nare equal to $\\mathbb{Q}(\\zeta)$ and the extension\n$\\mathbb{Q}(\\zeta)/\\mathbb{Q}$ is Galois. It is a cyclotomic extension\nof $\\mathbb{Q}$.\n\nNow let $\\vartheta_1=\\sqrt[3]{2}$ and let $\\zeta$ be a primitive $3$rd\nroot of unity (i.e. $\\zeta$ is a root of $x^2+x+1$, so we can pick\n$\\zeta=\\frac{-1+\\sqrt{-3}}{2}$). Then the conjugates of $\\vartheta_1$\nare $\\vartheta_1$, $\\vartheta_2=\\zeta\\sqrt[3]{2}$, and\n$\\vartheta_3=\\zeta^2\\sqrt[3]{2}$. The three conjugate fields\n$\\mathbb{Q}(\\vartheta_1)$, $\\mathbb{Q}(\\vartheta_2)$, and\n$\\mathbb{Q}(\\vartheta_3)$ are distinct in this case. The Galois closure\nof each of these fields is $\\mathbb{Q}(\\zeta,\\sqrt[3]{2})$.",
+  "language": "INFORMAL",
+  "phrase": "Conjugate Fields",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConjugateFields"
+    }
+  ],
+  "indexable": true
+}

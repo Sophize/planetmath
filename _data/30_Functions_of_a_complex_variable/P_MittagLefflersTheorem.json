@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be an open subset of $\\mathbb{C}$, let $\\{a_k\\}$ be a sequence\nof distinct points in $G$ which has no limit point in $G$. For each $k$,\nlet $A_{1k},\\dots,A_{m_kk}$ be arbitrary complex coefficients, and\ndefine $$S_k(z) = \\sum_{j=1}^{m_k} \\frac{A_{jk}}{(z-a_k)^j}.$$ Then\nthere exists a meromorphic function $f$ on $G$ whose poles are exactly\nthe points $\\{a_k\\}$ and such that the singular part of $f$ at $a_k$ is\n$S_k(z)$, for each $k$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MittagLefflersTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Mittag-Leffler's theorem"
+  ]
+}

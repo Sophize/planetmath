@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We all know the elementary formula to compute the area of a triangle:\nbasis times height divided by two. This formula can be justified with a\nscissor type argument: one divides the triangle into smaller polygons\nand rearranges these polygons to obtain a rectangle which should have\nthe same area.\n\nCan we use the same argument to compute the volume of a pyramid? This is\nthe third Hilbert\u2019s problem. Quite surprisingly the answer is negative,\nas states the theorem below. This means that the formulae to compute the\nvolume of polyhedra cannot be proved without a limiting process (for\nexample using integrals).\n\nWe say that two polyhedra $P$ and $Q$ are *scissor-equivalent* if there\nexists a finite number $P_1,\\ldots, P_N$ of polyhedra and\n$\\theta_1,\\ldots,\\theta_N$ isometries such that\n\n1.  $P=\\bigcup_{k=1}^N P_k$ and $Q=\\bigcup_{k=1}^N \\theta_k(P_k)$;\n\n2.  $P_j\\cap P_k$ and $\\theta_j(P_j) \\cap \\theta_k(P_k)$ have empty\n    interior for every $k\\neq j$\n\nThe properties given above assure that two scissor-equivalent polyhedra\nmust have the same volume. It is also simple to prove that the\nscissor-equivalence is indeed an equivalence relation.\n\nThe regular tetrahedron is not *scissor-equivalent* to any\nparallelepiped.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DehnsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Dehn's theorem"
+  ]
+}

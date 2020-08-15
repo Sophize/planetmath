@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a set and $\\mathcal{F}$ a field of sets of $S$. Let $X$ be a\ntopological vector space.\n\nA [**vector measure**]{} is a function\n$\\mu : \\mathcal{F} \\longrightarrow X$ that is , i.e. for any two\ndisjoint sets $A_1, A_2$ in $\\mathcal{F}$ we have\n$$\\mu(A_1 \\cup A_2) = \\mu(A_1)+\\mu(A_2)$$\n\nA vector measure $\\mu$ is said to be [****]{} if for any sequence\n$(A_n)_{n \\in \\mathbb{N}}$ of disjoint sets in $\\mathcal{F}$ such that\n$\\displaystyle \\bigcup_{n =1}^{\\infty}A_n \\in \\mathcal{F}$ one has\n$$\\mu(\\bigcup_{n =1}^{\\infty}A_n) = \\sum_{n=1}^{\\infty} \\mu(A_n)$$ where\nthe series converges in the topology of $X$.\n\nIn the particular case when $X = \\mathbb{C}$, a countably additive\nvector measure is usually called a [**complex measure**]{}.\n\nThus, vector measures are to measures and signed measures but they take\nvalues on a vector space (with a particular topology).\n\n### Examples :\n\n-   Let $(X, \\mathfrak{B}, \\lambda)$ be a measure space. Consider the\n    Banach space with $1 \\leq p \\leq \\infty$. Define the the function\n    $\\mu : \\mathfrak{B} \\longrightarrow L^p(X, \\mathfrak{B}, \\mu)$ by\n    $$\\mu(A) := \\chi_A$$ where $\\chi_A$ denotes the characteristic\n    function of the measurable set $A$. It is easily seen that $\\mu$ is\n    a vector measure, which is countably additive if $1 \\leq p < \\infty$\n    (in case $p = \\infty$, countably additiveness fails).\n\n<!-- -->\n\n-   spectral measures are vector measures in the $\\sigma$-algebra of\n    Borel sets in $\\mathbb{C}$ whose values are projections on some\n    Hilbert space. They are used in general formulations of the spectral\n    theorem.",
+  "language": "INFORMAL",
+  "phrase": "Vector Measure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VectorMeasure"
+    }
+  ],
+  "indexable": true
+}

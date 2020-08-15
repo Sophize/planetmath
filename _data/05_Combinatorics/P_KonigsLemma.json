@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $T$ be a rooted directed tree. If each vertex has finite degree but\nthere are arbitrarily long rooted paths in $T$, then $T$ contains an\ninfinite path.\n\nFor each $n\\ge 1$, let $P_n$ be a rooted path in $T$ of length $n$, and\nlet $c_n$ be the child of the root appearing in $P_n$. By assumption,\nthe set $\\{c_n\\mid n\\ge 1\\}$ is finite. Since the set\n$\\{P_n\\mid n\\ge 1\\}$ is infinite, the pigeonhole principle implies that\nthere is a child $c$ of the root such that $c=c_n$ for infinitely many\n$n$.\n\nNow let us look at the subtree $T_c$ of $T$ rooted at $c$. Each vertex\nhas finite degree, and since there are paths $P_n$ of arbitrarily long\nlength in $T$ passing through $c$, there are arbitrarily long paths in\n$T_c$ rooted at $c$. Hence if $T$ satisfies the hypothesis of the lemma,\nthe root has a child $c$ such that $T_c$ also satisfies the hypothesis\nof the lemma. Hence we may inductively build up a path in $T$ of\ninfinite length, at each stage selecting a child so that the subtree\nrooted at that vertex still has arbitrarily long paths.\n\n[9]{} Kleene, Stephen., *Mathematical Logic*, New York: Wiley, 1967.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KonigsLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "K\\\"onig's lemma",
+    "Koenig's lemma"
+  ]
+}

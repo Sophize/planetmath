@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "invisible step"
+  ],
+  "definition": "Let $M=(S,\\Sigma,\\rightarrow)$ be a labelled state transition system\n(LTS). Recall that for each label $\\alpha \\in \\Sigma$, there is an\nassociated binary relation $\\stackrel{\\alpha}{\\rightarrow}$ on $S$.\nSingle out a label $\\tau\\in \\Sigma$, and call it the *silent step*.\nDefine the following relations:\n\n1.  Let $\\Rightarrow$ be the reflexive and transitive closures of\n    $\\stackrel{\\tau}{\\rightarrow}$. In other words, $p \\Rightarrow q$\n    iff either $p=q$, or there is a positive integer $n>1$ and states\n    $r_1,\\ldots, r_n$ such that $p= r_1$ and $q=r_n$ and\n    $r_i \\stackrel{\\tau}{\\rightarrow}  r_{i+1}$, where\n    $i=1,\\ldots, n-1$.\n\n2.  Next, for any label $\\alpha$ that is not the silent step $\\tau$ in\n    $\\Sigma$, define\n    $$\\stackrel{\\alpha}{\\Rightarrow}\\;\\;\\; := \\;\\;\\; \\stackrel{\\alpha}{\\rightarrow} \\circ \\Rightarrow \\circ \\stackrel{\\alpha}{\\rightarrow},$$\n    where $\\circ$ denotes the relational composition operation. In other\n    words, $p \\stackrel{\\alpha}{\\Rightarrow} q$ iff there are states $r$\n    and $s$ such that $p \\stackrel{\\alpha}{\\rightarrow} r$,\n    $r \\Rightarrow s$, and $s \\stackrel{\\alpha}{\\rightarrow} q$.\n\n3.  Finally, for any label $\\alpha\\in \\Sigma$, let\n    $$\\stackrel{(\\alpha)}{\\Rightarrow}\\;\\;\\; := \\;\\;\\; \\left\\{\n    \\begin{array}{ll}\n    \\Rightarrow & \\mbox{if }\\alpha=\\tau\\\\\n    \\stackrel{\\alpha}{\\Rightarrow} & \\textrm{otherwise.}\n    \\end{array}\n    \\right.$$\n\n**Definition**. Let $M=(S_1,\\Sigma,\\rightarrow_1)$ and\n$N=(S_2,\\Sigma,\\rightarrow_2)$ be two labelled state transition systems,\nwith $\\tau \\in \\Sigma$ the silent step. A relation\n$\\approx \\subseteq S_1 \\times S_2$ is called a *weak simulation* if\nwhenever $p \\approx q$ and any labelled transition\n$p \\stackrel{\\alpha}{\\rightarrow}_1 p'$, there is a state $q'\\in S_2$\nsuch that $p' \\approx q'$ and $p' \\stackrel{(\\alpha)}{\\Rightarrow}_2 q$.\n$\\approx$ is a *weak bisimulation* if both $\\approx$ and its converse\n$\\approx^{-1}$ are weak simulations.",
+  "language": "INFORMAL",
+  "phrase": "Weak Bisimulation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeakBisimulation"
+    }
+  ],
+  "indexable": true
+}

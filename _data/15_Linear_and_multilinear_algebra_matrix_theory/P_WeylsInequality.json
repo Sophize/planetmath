@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ and $E$ be two $n \\times n$ Hermitian matrices, with $E$\npositive semidefinite.\n\nLet $\\lambda_i(A)$, $\\lambda_i(A+E)$, $1\\leq i\\leq n$ be the eigenvalues\nof $A$ and $A+E$ respectively, ordered in such a way that\n\n$$|\\lambda_1|\\leq |\\lambda_2|\\leq \\cdots \\leq |\\lambda_n|.$$\n\nThen\n\n$$\\lambda_i(A)\\leq \\lambda_i(A+E).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeylsInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Weyl's inequality"
+  ]
+}

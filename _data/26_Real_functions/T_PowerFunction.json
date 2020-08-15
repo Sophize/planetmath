@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A real [*power function*]{} $f\\!:\\,\\mathbb{R}_+\\to\\mathbb{R}$ has the\nform $$f(x) \\;=\\; x^a$$ where $a$ is a given real number.\n\nThe power function $x\\mapsto x^a$ is differentiable with the derivative\n$x\\mapsto ax^{a-1}$ and strictly increasing if $a > 0$ and strictly\ndecreasing if $a < 0$ (and 1 if $a = 0$).\n\nThe power functions comprise the [*natural power functions*]{}\n$x\\mapsto x^n$ with $n = 0,\\,1,\\,2,\\,\\ldots$, the [*root functions*]{}\n$x\\mapsto \\sqrt[n]{x} = x^{\\frac{1}{n}}$ with $n = 1,\\,2,\\,3,\\,\\ldots$\nand other [*fraction power functions*]{} $x\\mapsto x^a$ with $a$ any\nfractional number.\n\n**Note.** The power $x^a$ may of course be meaningful also for other\nthan positive values of $x$, if $a$ is an integer. On the other hand,\ne.g. $(-1)^{\\sqrt{2}}$ has no real values \u2014 see the general power.",
+  "language": "INFORMAL",
+  "phrase": "Power Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PowerFunction"
+    }
+  ],
+  "indexable": true
+}

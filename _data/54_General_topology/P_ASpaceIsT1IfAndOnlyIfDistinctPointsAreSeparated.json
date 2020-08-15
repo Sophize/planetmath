@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a topological space. Then $X$ is a $T_1$-space if and only if\nsets $\\{x\\}$, $\\{y\\}$ are separated for all distinct $x,y\\in X$.\n\nSuppose $X$ is a $T_1$-space. Then every singleton is closed and if\n$x,y\\in X$ are distinct, then $$\\begin{aligned}\n   \\{x\\} \\cap \\overline{\\{y\\}} &=& \\{x\\} \\cap \\{y\\} =\\emptyset, \\\\\n  \\overline{ \\{x\\} }\\cap \\{y\\} &=& \\{x\\} \\cap \\{y\\} =\\emptyset, \\end{aligned}$$\nand $\\{x\\}$, $\\{y\\}$ are separated. On the other hand, suppose that\n$\\{x\\} \\cap \\overline{\\{y\\}}  =\\emptyset$ for all $x\\neq y$. It follows\nthat $\\overline{\\{y\\}}=\\{y\\}$, so $\\{y\\}$ is closed and $X$ is a\n$T_1$-space.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ASpaceIsT1IfAndOnlyIfDistinctPointsAreSeparated"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a space is $T_1$ if and only if distinct points are separated"
+  ]
+}

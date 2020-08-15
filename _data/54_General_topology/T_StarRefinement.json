@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set and $\\mathscr{C}=\\lbrace C_i\\mid i\\in I\\rbrace$ be a\ncover of $X$ (we assume $C_i$ and $X$ are all subsets of some universe).\nLet $A\\subseteq X$. The *star* of $A$ (with respect to the cover\n$\\mathscr{C}$) is defined as\n$$\\star(A,\\mathscr{C}):=\\bigcup \\lbrace C_i\\in \\mathscr{C} \\mid C_i\\cap A\\neq \\varnothing \\rbrace.$$\nWhen $A$ is a singleton, we write\n$\\star(x,\\mathscr{C})=\\star(\\lbrace x\\rbrace, \\mathscr{C})$.\n\n**Properties of $\\star$**\n\n1.  $A\\subseteq \\star(A,\\mathscr{C})$.\n\n2.  If $A\\subseteq B$, then\n    $\\star(A,\\mathscr{C})\\subseteq \\star(B,\\mathscr{C})$.\n\n3.  For any cover $\\mathscr{C}$ of $X$, the sets\n    $\\mathscr{C}^{\\star}:=\\lbrace \\star(C_i,\\mathscr{C}) \\mid C_i\\in \\mathscr{C}\\rbrace$\n    and $\\mathscr{C}^b:=\\lbrace \\star(x,\\mathscr{C})\\mid x\\in X\\rbrace$\n    are both covers of $X$.\n\n4.  $\\mathscr{C}\\preceq \\mathscr{C}^b \\preceq \\mathscr{C}^{\\star}$\n    ($\\preceq$ denotes cover refinement).\n\n**Definitions**. Let $\\mathscr{C},\\mathscr{D}$ be two covers of $X$. If\n$\\mathscr{C}^{\\star} \\preceq \\mathscr{D}$, then we say that\n$\\mathscr{C}$ is a *star refinement* of $\\mathscr{D}$, denoted by\n$\\mathscr{C} \\preceq^{\\star} \\mathscr{D}$. If\n$\\mathscr{C}^b \\preceq \\mathscr{D}$, then we say that $\\mathscr{C}$ is a\n*barycentric refinement* of $\\mathscr{D}$, denoted by\n$\\mathscr{C} \\preceq^b \\mathscr{D}$.\n\n**Remark**. By property 4 above, it is easy to see that\n$\\mathscr{C} \\preceq^{\\star}\\mathscr{D}\\Rightarrow \\mathscr{C} \\preceq^b\\mathscr{D}\\Rightarrow \\mathscr{C} \\preceq \\mathscr{D}$.\n\n[9]{} S. Willard, *General Topology*, Addison-Wesley, Publishing\nCompany, 1970.",
+  "language": "INFORMAL",
+  "phrase": "Star Refinement",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StarRefinement"
+    }
+  ],
+  "indexable": true
+}

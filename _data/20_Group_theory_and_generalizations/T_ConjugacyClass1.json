@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ a group, and consider its operation (action) on itself give by\nconjugation, that is, the mapping $$(g,x)\\mapsto gxg^{-1}$$\n\nSince conjugation is an equivalence relation, we obtain a partition of\n$G$ into equivalence classes, called *conjugacy classes*. So, the\nconjugacy class of $X$ (represented $C_x$ or $C(x)$ is given by\n$$C_x=\\{y\\in X :y=gxg^{-1} \\mbox{for some }g\\in G\\}$$",
+  "language": "INFORMAL",
+  "phrase": "Conjugacy Class",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConjugacyClass1"
+    }
+  ],
+  "indexable": true
+}

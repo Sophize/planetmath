@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $U \\subset \\mathbb{C}$ be a domain and let\n$f: U \\longrightarrow \\mathbb{C}$ be a function represented by a Laurent\nseries $$f(z) := \\sum_{k=-\\infty}^\\infty c_k (z-a)^k$$ centered about\n$a$. The coefficient $c_{-1}$ of the above Laurent series is called the\n*residue* of $f$ at $a$, and denoted $\\operatorname{Res}(f;a)$.",
+  "language": "INFORMAL",
+  "phrase": "Residue",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Residue"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "module action",
+    "left module action",
+    "right module action",
+    "unital module"
+  ],
+  "definition": "(This is a definition of modules in terms of ring homomorphisms. You may\nprefer to read instead.)\n\nLet $R$ be a ring, and let $M$ be an abelian group.\n\nWe say that $M$ is a [*left $R$-module*]{} if there exists a ring\nhomomorphism $\\phi\\colon R \\to {\\rm End}_{\\Bbb{Z}}(M)$ from $R$ to the\nring of abelian group endomorphisms on $M$ (in which multiplication of\nendomorphisms is composition, using left function notation). We\ntypically denote this function using a multiplication notation:\n$$[\\phi(r)](m) = r \\cdot m = rm.$$\n\nThis ring homomorphism defines what is called a of $R$ upon $M$.\n\nIf $R$ is a unital ring (i.e. a ring with identity), then we typically\ndemand that the ring homomorphism map the unit $1 \\in R$ to the identity\nendomorphism on $M$, so that $1 \\cdot m = m$ for all $m \\in M$. In this\ncase we may say that the module is *unital*.\n\nTypically the abelian group structure on $M$ is expressed in additive\nterms, i.e. with operator $+$, identity element $0_M$ (or just $0$), and\ninverses written in the form $-m$ for $m \\in M$.\n\nRight module actions are defined similarly, only with the elements of\n$R$ being written on the right sides of elements of $M$. In this case we\neither need to use an anti-homomorphism\n$R \\to \\operatorname{End}_{\\mathbb{Z}}(M)$, or switch to right notation\nfor writing functions.",
+  "language": "INFORMAL",
+  "phrase": "Module",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Module1"
+    }
+  ],
+  "indexable": true
+}

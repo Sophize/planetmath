@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $G$ is a group and $X$ a set, then $X$ is called a left $G$-Set if\nthere exists a mapping $\\lambda : G \\times X \\rightarrow X$ with\n\n$$\\lambda(g_1,\\lambda(g_2,x)) = \\lambda(g_1 g_2, x)$$\n\nor shorter with $\\lambda(g,x) = gx$\n\n$$g_1(g_2(x)) = (g_1 g_2)(x)$$\n\nfor all $x \\in X$ and $g_1,g_2 \\in G$. And when $G$ acts on a set $X$,\nthe set $X$ is always a $G$-set.\\\n\\\n$X$ is called a right $G$-Set if there exists a mapping\n$\\lambda : X \\times G \\rightarrow X$ with\n\n$$\\lambda(\\lambda(x,g_2),g_1) = \\lambda(x,g_2 g_1)$$",
+  "language": "INFORMAL",
+  "phrase": "$G$-Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GSet"
+    }
+  ],
+  "indexable": true
+}

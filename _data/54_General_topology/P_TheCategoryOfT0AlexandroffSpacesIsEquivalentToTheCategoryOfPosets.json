@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathcal{AT}$ be the category of all $\\mathrm{T}_{0}$, Alexandroff\nspaces and continuous maps between them. Furthermore let\n$\\mathcal{POSET}$ be the category of all posets and order preserving\nmaps.\n\n**Theorem.** The categories $\\mathcal{AT}$ and $\\mathcal{POSET}$ are\nequivalent.\n\n*Proof.* Consider two functors: $$T:\\mathcal{AT}\\to\\mathcal{POSET};$$\n$$S:\\mathcal{POSET}\\to \\mathcal{AT},$$ such that $T(X,\\tau)=(X,\\leq)$,\nwhere $\\leq$ is an induced partial order on an Alexandroff space and\n$T(f)=f$ for continuous map. Analogously, let $S(X,\\leq)=(X,\\tau)$,\nwhere $\\tau$ is an induced Alexandroff topology on a poset and $S(f)=f$\nfor order preserving maps. One can easily show that $T$ and $S$ are well\ndefined. Furthermore, it is easy to verify that equalities\n$T\\circ S=1_{\\mathcal{POSET}}$ and $S\\circ T=1_{\\mathcal{AT}}$ hold,\nwhich completes the proof. $\\square$\n\n**Remark.** Of course every finite topological space is Alexandroff,\nthus we have very nice ,,interpretation\u201d of finite $\\mathrm{T}_{0}$\nspaces - finite posets (since functors $T$ and $S$ do not change\nset-theoretic properties of underlying sets such as finitness).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheCategoryOfT0AlexandroffSpacesIsEquivalentToTheCategoryOfPosets"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the category of T0 Alexandroff spaces is equivalent to the category of posets"
+  ]
+}

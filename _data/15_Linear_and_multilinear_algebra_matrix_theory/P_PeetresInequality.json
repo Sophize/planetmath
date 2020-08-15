@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem \\[Peetre\u2019s inequality\\]**]{} [@barros; @trevesI] If $t$ is a\nreal number and $x,y$ are vectors in ${\\mathbb{R}}^n$, then\n$$\\Big( \\frac{1+|x|^2}{1+|y|^2} \\Big)^t \\le 2^{|t|} (1+|x-y|^2)^{|t|}.$$\n\n[**Proof.**]{} (Following [@barros].) Suppose $b$ and $c$ are vectors in\n${\\mathbb{R}}^n$. Then, from $(|b|-|c|)^2\\ge 0$, we obtain\n$$2|b| \\cdot |c| \\le |b|^2 + |c|^2.$$ Using this inequality and the\nCauchy-Schwarz inequality, we obtain $$\\begin{aligned}\n1+ |b-c|^2 &=& 1+ |b|^2 - 2 b\\cdot c + |c|^2 \\\\\n&\\le & 1+ |b|^2 + 2 |b| |c| + |c|^2 \\\\\n&\\le & 1+ 2|b|^2 + 2|c|^2 \\\\\n&\\le & 2\\big( 1+|b|^2+ |c|^2+|b|^2 |c|^2\\big)\\\\\n&= & 2( 1+|b|^2)(1+ |c|^2)\\end{aligned}$$ Let us define $a=b-c$. Then\nfor any vectors $a$ and $b$, we have $$\\begin{aligned}\n\\label{AA}\n    \\frac{1+|a|^2}{1+|b|^2}   \\le 2 (1+|a-b|^2).\\end{aligned}$$ Let us\nnow return to the given inequality. If $t=0$, the claim is trivially\ntrue for all $x,y$ in ${\\mathbb{R}}^n$. If $t>0$, then raising both\nsides in inequality \\[AA\\] to the power of $t$, using $t=|t|$, and\nsetting $a=x$, $b=y$ yields the result. On the other hand, if $t<0$,\nthen raising both sides in inequality \\[AA\\] to the power to $-t$, using\n$-t=|t|$, and setting $a=y$, $b=x$ yields the result. $\\Box$\n\n[9]{} J. Barros-Neta, *An introduction to the theory of distributions*,\nMarcel Dekker, Inc., 1973. F. Treves, *Introduction To\nPseudodifferential and Fourier Integral Operators*, Vol. I, Plenum\nPress, 1980.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PeetresInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Peetre's inequality"
+  ]
+}

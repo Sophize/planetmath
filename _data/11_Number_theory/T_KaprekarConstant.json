@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Kaprekar's constant"
+  ],
+  "definition": "The [*Kaprekar constant*]{} $K_k$ in a given base $b$ is a $k$-digit\nnumber $K$ such that subjecting any other $k$-digit number $n$ (except\nthe repunit $R_k$ and numbers with $k - 1$ repeated digits) to the\nfollowing process:\n\n1\\. Arrange the digits of $n$ in ascending order, forming the $k$-digit\nnumber $a$, and then in descending order, forming the $k$-digit number\n$b$.\n\n2\\. If $a > b$, calculate $a - b = c$; otherwise $b - a = c$.\n\n3\\. Goto step 1 using $c$ instead of $n$.\n\neventually gives $K$. (This process is sometimes called the [*Kaprekar\nroutine*]{}).\n\nFor $b = 10$, the Kaprekar constant for $k = 4$ is 6174. Using\n$n = 1729$, we find that 9721 - 1279 gives 8442. Then 8442 - 2448 =\n5994. Then 9954 - 4599 gives 5355. Then 5553 - 3555 gives 1998. Then\n9981 - 1899 gives 8082. Then 8820 - 288 gives 8532. Then 8532 - 2538\nfinally gives 6174. (Some numbers take longer than others). $K_2$ and\n$K_7$ don\u2019t exist for $b = 10$.",
+  "language": "INFORMAL",
+  "phrase": "Kaprekar Constant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KaprekarConstant"
+    }
+  ],
+  "indexable": true
+}

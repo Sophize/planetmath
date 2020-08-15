@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "finite dimensional probability distributions",
+    "ffd"
+  ],
+  "definition": "Just as one can associate a random variable $X$ with its distribution\n$F_X$, one can associate a stochastic process\n$\\lbrace X(t) \\mid t\\in T \\rbrace$ with some distributions, such that\nthe distributions will more or less describe the process. While the set\nof distributions $\\lbrace F_{X(t)} \\mid t\\in T \\rbrace$ can describe the\nrandom variables $X(t)$ individually, it says nothing about the\nrelationships between any pair, or more generally, any finite set of\nrandom variables $X(t)$\u2019s at different $t$\u2019s. Another way is to look at\nthe joint probability distribution of all the random variables in a\nstochastic process. This way we can derive the probability distribution\nfunctions of individual random variables. However, in most stochastic\nprocesses, there are infinitely many random variables involved, and we\nrun into trouble right away.\n\nTo resolve this, we enlarge the above set of distribution functions to\ninclude all joint probability distributions of finitely many $X(t)$\u2019s,\ncalled *the family of finite dimensional probability distributions*.\nSpecifically, let $n<\\infty$ be any positive integer, an\n*$n$-dimensional probability distribution* of the stochastic process\n$\\lbrace X(t) \\mid t\\in T \\rbrace$ is a joint probability distribution\nof $X(t_1),\\ldots,X(t_n)$, where $t_i\\in T$:\n$$F_{t_1,\\ldots,t_n}(x_1,\\ldots,x_n):=F_{X(t_1),\\ldots,X(t_n)}(x_1,\\ldots,x_n)\n=P(\\lbrace X(t_1)\\leq x_1 \\rbrace \\cap \\cdots \\cap \\lbrace\nX(t_n)\\leq x_n \\rbrace).$$ The set of *all* $n$-dimensional probability\ndistributions for each $n\\in\\mathbb{Z}^{+}$ and each set of\n$t_1,\\ldots,t_n\\in T$ is called *the* family of finite dimensional\nprobability distributions, or family of finite dimensional\ndistributions, abbreviated f.f.d., of the stochastic process\n$\\lbrace X(t)\\mid t\\in T\\rbrace$.\n\nLet $\\sigma$ be a permutation on $\\lbrace 1,\\ldots, n\\rbrace$. For any\n$t_1,\\ldots,t_n\\in T$ and $x_1,\\ldots,x_n\\in \\mathbb{R}$, define\n$s_i=t_{\\sigma(i)}$ and $y_i=x_{\\sigma(i)}$. Then $$\\begin{aligned}\nF_{s_1,\\ldots,s_n}(y_1,\\ldots,y_n) &=& \nP(\\lbrace X(s_1)\\leq y_1 \\rbrace \\cap \\cdots \\cap \\lbrace X(s_n)\\leq y_n \\rbrace) \\\\ &=&\nP(\\lbrace X(t_1)\\leq x_1 \\rbrace \\cap \\cdots \\cap \\lbrace X(t_n)\\leq x_n \\rbrace) \\\\ &=& F_{t_1,\\ldots,t_n}(x_1,\\ldots,x_n).\\end{aligned}$$\n\nWe say that the finite probability distributions are *consistent* with\none another if, for any $n$, each set of $t_1,\\ldots,t_{n+1}\\in T$,\n$$F_{t_1,\\ldots,t_n}(x_1,\\ldots,x_n)=\\lim_{x_{n+1}\\to\\infty}F_{t_1,\\ldots,t_n,t_{n+1}}(x_1,\\ldots,x_n,x_{n+1}).$$\n\nTwo stochastic processes $\\lbrace X(t) \\mid t\\in T \\rbrace$ and\n$\\lbrace Y(s) \\mid s\\in S \\rbrace$ are said to be *identically\ndistributed*, or *versions of each other* if\n\n1.  $S=T$, and\n\n2.  $\\lbrace X(t)\\rbrace$ and $\\lbrace Y(s)\\rbrace$ have the same f.f.d.",
+  "language": "INFORMAL",
+  "phrase": "Distributions Of A Stochastic Process",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DistributionsOfAStochasticProcess"
+    }
+  ],
+  "indexable": true
+}

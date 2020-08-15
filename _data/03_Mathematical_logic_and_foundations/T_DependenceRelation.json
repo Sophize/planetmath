@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set. A (binary) relation $\\prec$ between an element $a$ of\n$X$ and a subset $S$ of $X$ is called a *dependence relation*, written\n$a \\prec S$, when the following conditions are satisfied:\n\n1.  if $a \\in S$, then $a \\prec S$;\n\n2.  if $a \\prec S$, then there is a finite subset $S_0$ of $S$, such\n    that $a \\prec S_0$;\n\n3.  if $T$ is a subset of $X$ such that $b \\in S$ implies $b \\prec T$,\n    then $a \\prec S$ implies $a \\prec T$;\n\n4.  if $a \\prec S$ but $a \\not\\prec S-\\lbrace b \\rbrace$ for some\n    $b \\in S$, then\n    $b \\prec (S-\\lbrace b \\rbrace)\\cup\\lbrace a \\rbrace$.\n\nGiven a *dependence relation* $\\prec$ on $X$, a subset $S$ of $X$ is\nsaid to be *independent* if $a \\not\\prec S - \\lbrace a \\rbrace$ for all\n$a \\in S$. If $S \\subseteq T$, then $S$ is said to *span* $T$ if\n$t \\prec S$ for every $t \\in T$. $S$ is said to be a *basis* of $X$ if\n$S$ is *independent* and $S$ *spans* $X$.\n\n**Remark.** If $X$ is a non-empty set with a *dependence relation*\n$\\prec$, then $X$ always has a *basis* with respect to $\\prec$.\nFurthermore, any two [**]{} of $X$ have the same cardinality.\n\n**Examples:**\n\n-   Let $V$ be a vector space over a field $F$. The relation $\\prec$,\n    defined by $\\upsilon \\prec S$ if $\\upsilon$ is in the subspace $S$,\n    is a dependence relatoin. This is equivalent to the definition of\n    [**]{}.\n\n-   Let $K$ be a field extension of $F$. Define $\\prec$ by\n    $\\alpha \\prec S$ if $\\alpha$ is algebraic over $F(S)$. Then $\\prec$\n    is a dependence relation. This is equivalent to the definition of\n    *algebraic dependence*.",
+  "language": "INFORMAL",
+  "phrase": "Dependence Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DependenceRelation"
+    }
+  ],
+  "indexable": true
+}

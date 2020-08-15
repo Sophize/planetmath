@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Here denote $L^+(X)$ as the space of measurable functions\n$X \\to [0,\\infty]$. Furthermore all integrals are Lebesgue integrals.\n\nSuppose $(X,{\\mathcal{M}},\\mu)$ and $(Y,{\\mathcal{N}},\\nu)$ are measure\nspaces. If $f \\in L^+(X \\times Y)$, then the functions\n$x \\mapsto \\int_Y f(x,y) d\\nu(y)$ and $y \\mapsto \\int_X f(x,y) d\\mu(x)$\nare in $L^+(X)$ and $L^+(Y)$ respectively, and furthermore if we denote\nby $\\mu \\times \\nu$ the product measure, then\n$$\\int_{X \\times Y} f \\, d(\\mu \\times \\nu) =\n\\int_X \\left[ \\int_Y f(x,y) \\,d\\nu(y) \\right] d\\mu(x) = \n\\int_Y \\left[ \\int_X f(x,y) \\,d\\mu(x) \\right] d\\nu(y) .$$\n\nBasically this says that you can switch the of integrals, or integrate\nover the product space as long as everything is positive and the spaces\nare $\\sigma$-finite. Do note that we allow the functions to take on the\nvalue of infinity with the standard conventions used in Lebesgue\nintegration. That is, $0 \\cdot \\infty = 0$, so that if a function is\ninfinite on a set of measure 0, then this does not contribute anything\nto the value of the integral. See the entry on extended real numbers for\nfurther discussion.\n\nIf we take the counting measure on ${\\mathbb{N}}$, then one can the\nTonelli theorem for sums.\n\nSuppose that $f_{ij} \\geq 0$ for all $i,j \\in {\\mathbb{N}}$, then\n$$\\sum_{i,j \\in {\\mathbb{N}}} f_{ij}\n=\n\\sum_{i=1}^\\infty \\sum_{j=1}^\\infty f_{ij}\n=\n\\sum_{j=1}^\\infty \\sum_{i=1}^\\infty f_{ij} .$$\n\nIn the above theorem we have used ${\\mathbb{N}}$ as our set for\nsimplicity and familiarity of notation. If you would have an uncountable\nnumber of non-zero elements $f_{ij}$ then all the sums would be infinite\nand the result would be trivial. So the theorem for arbitrary sets just\nreduces to the above case.\n\n[9]{} Gerald B. Folland. **. John Wiley & Sons, Inc., New York, New\nYork, 1999",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TonellisTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Tonelli's theorem"
+  ]
+}

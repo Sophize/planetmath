@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "lazy caterers sequence",
+    "circle cutting problem",
+    "pancake cutting problem"
+  ],
+  "definition": "Given a pancake (or a circle), how can one cut $n$ pieces (not\nnecessarily of the same size) with the minimum number of cuts? For\nexample, to cut a pancake into four pieces, four cuts could be made,\neach starting at the center and going to the edge. But it would be much\nsimpler to make just two cuts to cut it into four pieces.\n\nThe maximum number of pieces that can be created with a given number of\ncuts $n$ is given by the formula $$\\frac{n^2 + n + 2}{2}$$ which gives\nthe *lazy caterer\u2019s sequence*: 1, 2, 4, 7, 11, 16, 22, 29, 37, 46, 56,\n67, 79, 92, ... (listed in A000124 of Sloane\u2019s OEIS).\n\nThe numbers of this sequence are also called *central polygonal\nnumbers*, and have applications in various other mathematical problems.\nEach of these numbers is 1 plus a triangular number.\n\nShel Kaphan, in a remark to the OEIS writes that \u201cwhen constructing a\nzonohedron, one zone at a time, out of (up to) 3-D non-intersecting\nparallelepipeds, the $n$th element of this sequence is the number of\nedges in the $n$th zone added with the $n$th layer of parallelepipeds.\u201d",
+  "language": "INFORMAL",
+  "phrase": "Lazy Caterer'S Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LazyCaterersSequence"
+    }
+  ],
+  "indexable": true
+}

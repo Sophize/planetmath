@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Gelfand triple"
+  ],
+  "definition": "In extensions of Quantum Mechanics [@RdM2k5; @JPA96], the concept of\nrigged Hilbert spaces allows one \u201cto put together\u201d the discrete spectrum\nof eigenvalues corresponding to the bound states (eigenvectors) with the\ncontinuous spectrum (as , for example, in the case of the ionization of\nan atom or the photoelectric effect).\n\nA [*rigged Hilbert space*]{} is a pair $({\\mathcal H},\\phi)$ with\n${\\mathcal H}$ a Hilbert space and $\\phi$ is a dense subspace with a\ntopological vector space structure for which the inclusion map\n[**$i$**]{} is continuous. Between ${\\mathcal H}$ and its dual space\n${\\mathcal H}^*$ there is defined the [*adjoint map*]{}\n$i^*: {\\mathcal H}^* \\to \\phi^*$ of the continuous inclusion map $i$.\nThe duality pairing between $\\phi$ and $\\phi^*$ also needs to be\ncompatible with the inner product on ${\\mathcal H}$:\n$$\\langle u, v\\rangle_{\\phi \\times \\phi^*} = (u, v)_{{\\mathcal H}}$$\nwhenever $u \\in \\phi \\subset {\\mathcal H}$ and\n$v \\in {\\mathcal H}= {\\mathcal H}^* \\subset \\phi^*$.\n\n[9]{} R. de la Madrid, \u201cThe role of the rigged Hilbert space in Quantum\nMechanics.\u201d, Eur. J. Phys. 26, 287 (2005); $quant-ph/0502053$.\n\nJ-P. Antoine, \u201cQuantum Mechanics Beyond Hilbert Space\u201d (1996), appearing\nin [*Irreversibility and Causality, Semigroups and Rigged Hilbert\nSpaces*]{}, Arno Bohm, Heinz-Dietrich Doebner, Piotr Kielanowski, eds.,\nSpringer-Verlag, $ISBN 3-540-64305-2$.",
+  "language": "INFORMAL",
+  "phrase": "Rigged Hilbert Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RiggedHilbertSpace"
+    }
+  ],
+  "indexable": true
+}

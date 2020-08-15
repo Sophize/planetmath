@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*multiplicative encoding*]{} of a finite sequence $a$ of positive\nintegers $k$ long is the product of the first $k$ primes with the\nmembers of the sequence used as exponents, thus\n$$\\prod_{i = 1}^k {p_i}^{a_i},$$ with $p_i$ being the $i$th prime\nnumber. For example, the fourth row of Pascal\u2019s triangle is 1, 3, 3, 1.\nThe multiplicative encoding is $2^1 3^3 5^3 7^1 = 47250$.\n\nEncryption is not the purpose of multiplicative encoding, as the\noriginal sequence is easily retrieved with trial division. However,\nthere are applications in combinatorics. Neil Sloane, for example,\nencodes the most famous number triangles as multiplicative encodings of\nthe rows in order. While the resulting sequence for Pascal\u2019s triangle\ndoes not consist of squarefree numbers (save the first two), it does\ncontain only singly even numbers.\n\nAnother use is in logic, such as Kurt G\u00f6del encoding a logical\nproposition as a single integer. As an example, Nagel and Newman convert\n$(\\exists x)(x = sy)$ to the integer sequence 8, 4, 13, 9, 8, 13, 5, 7,\n17, 9, and by multiplicative encoding to the single integer\n172225505803959398742621651659678877886965404082311908389214945877004912002249920215937500000000.\n\n[2]{} Ernest Nagel & James Newman, [*G\u00f6del\u2019s Proof*]{}. New York: New\nYork University Press (2001): 75 - 76 Neil Sloane, [*The Encyclopedia of\nInteger Sequences*]{}. New York: Academic Press (1995): M1722",
+  "language": "INFORMAL",
+  "phrase": "Multiplicative Encoding",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplicativeEncoding"
+    }
+  ],
+  "indexable": true
+}

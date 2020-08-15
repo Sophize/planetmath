@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Where a M\u00f6bius strip is a two dimensional object with only one surface\nand one edge, a Klein bottle is a two dimensional object with a single\nsurface, and no edges. Consider for comparison, that a sphere is a two\ndimensional surface with no edges, but that has two surfaces.\n\nA Klein bottle can be constructed by taking a rectangular subset of\n$\\mathbb{R}^2$ and identifying opposite edges with each other, in the\nfollowing fashion:\n\nConsider the rectangular subset $[-1,1] \\times [-1,1]$. Identify the\npoints $(x, 1)$ with $(x, -1)$, and the points $(1,y)$ with the points\n$(-1,-y)$. Doing these two operations simultaneously will give you the\nKlein bottle.\n\nVisually, the above is accomplished by the following. Take a rectangle,\nand match up the arrows on the edges so that their orientation matches:\n\n![image](klein.eps)\n\nThis of course is completely impossible to do physically in\n3-dimensional space; to be able to properly create a Klein bottle, one\nwould need to be able to build it in 4-dimensional space.\n\nTo construct a pseudo-Klein bottle in 3-dimensional space, you would\nfirst take a cylinder and cut a hole at one point on the side. Next,\nbend one end of the cylinder through that hole, and attach it to the\nother end of the clyinder.\n\nA Klein bottle may be parametrized by the following equations:\n$$\\begin{aligned}\nx &= \\begin{cases}\na\\cos(u)\\bigl(1+\\sin(u)\\bigr) + r\\cos(u)\\cos(v) & 0 \\le u < \\pi\\\\\na\\cos(u)\\bigl(1+\\sin(u)\\bigr) + r\\cos(v + \\pi) & \\pi < u \\le 2\\pi\n\\end{cases}\\\\\ny &=\\begin{cases}\nb\\sin(u) + r\\sin(u)\\cos(v) & 0 \\le u < \\pi\\\\\nb\\sin(u) & \\pi < u \\le 2\\pi\n\\end{cases}\\\\\nz &= r\\sin(v)\\end{aligned}$$\n\nwhere $v\\in [0,2\\pi], u \\in [0, 2\\pi], r = c(1-\\frac{\\cos(u)}{2})$ and\n$a, b, c$ are chosen arbitrarily.",
+  "language": "INFORMAL",
+  "phrase": "Klein Bottle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KleinBottle"
+    }
+  ],
+  "indexable": true
+}

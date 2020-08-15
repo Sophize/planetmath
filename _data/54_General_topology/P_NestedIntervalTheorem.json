@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If\n$$[a_1,\\,b_1] \\;\\supseteq\\; [a_2,\\,b_2] \\;\\supseteq\\; [a_3,\\,b_3] \\;\\supseteq\\ldots$$\nis a sequence of nested closed intervals, then $$\\begin{aligned}\n\\bigcap_{n=1}^\\infty [a_n,\\,b_n] \\;\\neq\\; \\varnothing.\\end{aligned}$$ If\nalso $\\displaystyle\\lim_{n\\to\\infty}(b_n\\!-\\!a_n) = 0$, then the\ninfinite intersection consists of a unique real number.\n\nThere are two consequences to nesting of intervals:\n$[a_m,\\,b_m]\\subseteq[a_n,\\,b_n]$ for $n\\le m$:\n\n1.  first of all, we have the inequality $a_n\\le a_m$ for $n\\le m$,\n    which means that the sequence $a_1, a_2, \\ldots, a_n, \\ldots$ is\n    nondecreasing;\n\n2.  in addition, we also have two inequalities: $a_m\\le b_n$ and\n    $a_n\\le b_m$. In either case, we have that $a_i\\le b_j$ for all\n    $i,j$. This means that the sequence $a_1, a_2, \\ldots, a_n, \\ldots$\n    is bounded from above by all $b_i$, where $i=1,2,\\ldots$.\n\nTherefore, the limit of the sequence $(a_i)$ exists, and is just the\nsupremum, say $a$ (see proof ). Similarly the sequence $(b_i)$ is\nnonincreasing and bounded from below by all $a_i$, where $i=1,2,\\ldots$,\nand hence has an infimum $b$.\n\nNow, as the supremum of $(a_i)$, $a\\le b_i$ for all $i$. But because $b$\nis the infimum of $(b_i)$, $a\\le b$. Therefore, the interval $[a,b]$ is\nnon-empty (containing at least one of $a,b$). Since\n$a_i\\le a\\le b\\le b_i$, every interval $[a_i,b_i]$ contains the interval\n$[a,b]$, so their intersection also contains $[a,b]$, hence is\nnon-empty.\n\nIf $c$ is a point outside of $[a,b]$, say $c<a$, then there is some\n$a_i$, such that $c<a_i$ (by the definition of the supremum $a$), and\nhence $c\\notin [a_i,b_i]$. This shows that the intersection actually\ncoincides with $[a,b]$.\n\nNow, since $\\displaystyle\\lim_{n\\to\\infty}(b_n-a_n) = 0$, we have that\n$b-a=\\displaystyle\\lim_{n\\to\\infty}b_n - \\displaystyle\\lim_{n\\to\\infty} a_n = \\displaystyle\\lim_{n\\to\\infty}(b_n-a_n) = 0$.\nSo $a=b$. This means that the intersection of the nested intervals\ncontains a single point $a$.\n\n**Remark**. This result is called the *nested interval theorem*. It is a\nrestatement of the *finite intersection property* for the compact set\n$[a_1,\\,b_1]$. The result may also be proven by elementary methods:\nnamely, any number lying in between the supremum of all the $a_n$ and\nthe infimum of all the $b_n$ will be in all the nested intervals.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NestedIntervalTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "nested interval theorem"
+  ]
+}

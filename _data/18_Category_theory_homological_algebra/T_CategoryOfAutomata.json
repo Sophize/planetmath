@@ -1,0 +1,21 @@
+{
+  "alternatePhrases": [
+    "automata category",
+    "category of sequential machines",
+    "automata category",
+    "abstract automata",
+    "robots",
+    "machines",
+    "category of sequential machines or automata"
+  ],
+  "definition": "The Category of Automata\n========================\n\nA [*classical automaton, s-automaton*]{} ${\\mathcal A}$, or sequential\nmachine, is defined as a quintuple of three sets: $I$,$O$ and $S$, and\ntwo set-theoretical mappings:\n\n$$(I, O, S, \\delta: I \\times S \\rightarrow S; \\lambda: S \\times S \\rightarrow O),$$\n\nwhere $I$ is the set of s-automaton inputs, $S$ is the set of states (or\nthe state space of the s-automaton), $O$ is the set of s-automaton\noutputs, $\\delta$ is the [*transition function*]{} that maps a\ns-automaton state $s_j$ onto its next state $s_{j+1}$ in response to a\nspecific s-automaton input $j \\in I$, and $\\lambda$ is the *output\nfunction* that maps couples of consecutive (or sequential) s-automaton\nstates $(s_i, s_{i+1})$ onto s-automaton outputs $o_{i+1}$\n($(s_i, s_{i+1}) \\mapsto o_{i+1}$, hence the older name of sequential\nmachine for an s-automaton).\n\nA categorical automaton can also be defined by a commutative square\ndiagram containing all of the above components.\n\nWith the above automaton definition(s) one can now also define morphisms\nbetween automata and their composition.\n\nA *homomorphism of automata* or [*automaton homomorphism*]{} is a\nmorphism of automata quintuples that preserves commutativity of the\nset-theoretical mapping compositions of both the transition function\n$\\delta$ and the output function $\\lambda$.\n\nWith the above two definitions one now has sufficient data to define the\ncategory of automata and automata homomorphisms.\n\nA *category of automata* is defined as a category of quintuples\n$(I, O, X, \\delta: I \\times X \\rightarrow X; \\lambda: X \\times S \\rightarrow O)$\nand automata homomorphisms\n$h:{{\\mathcal A}}_i \\rightarrow {{\\mathcal A}}_j$, such that these\nhomomorphisms commute with both the transition and the output functions\nof any automata ${{\\mathcal A}}_i$ and ${{\\mathcal A}}_j$.\n\nRemarks:\n--------\n\n1.  *Automata homomorphisms* can be considered also as automata\n    transformations or as semigroup homomorphisms, when the state space,\n    $X$, of the automaton is defined as a *semigroup* $S$.\n\n2.  Abstract automata have numerous realizations in the real world as :\n    machines, robots, devices, computers, supercomputers, always\n    considered as *discrete* state space sequential machines.\n\n3.  Fuzzy or analog devices are not included as standard automata.\n\n4.  Similarly, *variable (transition function)* automata are not\n    included, but Universal Turing machines are.\n\nAn alternative definition of an automaton is also in use: as a\nfive-tuple $(S, \\Sigma, \\delta, I, F)$, where $\\Sigma$ is a non-empty\nset of symbols $\\alpha$ such that one can define a [*configuration*]{}\nof the automaton as a couple $(s,\\alpha)$ of a state $s \\in S $ and a\nsymbol $\\alpha \\in \\Sigma $. Then $\\delta$ defines a \u201cnext-state\nrelation, or a transition relation\u201d which associates to each\nconfiguration $(s, \\alpha)$ a subset $\\delta (s,\\alpha)$ of S- the state\nspace of the automaton. With this formal automaton definition, the\n*category of abstract automata* can be defined by specifying automata\nhomomorphisms in terms of the morphisms between five-tuples representing\nsuch abstract automata.\n\nA special case of automaton is that of a [*stable automaton*]{} when all\nits state transitions are [*reversible*]{}; then its state space can be\nseen to possess a groupoid (algebraic) structure. The [*category of\nreversible automata*]{} is then a 2-category, and also a subcategory of\nthe 2-category of groupoids, or the groupoid category.\n\nNote:\n-----\n\nOther definitions of automata, sequential machines, semigroup automata\nor cellular automata lead to subcategories of the category of automata\ndefined above. On the other hand, the category of quantum automata is\nnot a subcategory of the automata category defined here.",
+  "language": "INFORMAL",
+  "phrase": "Category Of Automata",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CategoryOfAutomata"
+    }
+  ],
+  "indexable": true
+}

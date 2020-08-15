@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{C}$ be a category and $\\mathcal{D}$ a subcategory of\n$\\mathcal{C}$. $\\mathcal{D}$ is called a *reflective subcategory* of\n$\\mathcal{C}$ if the inclusion functor\n$\\operatorname{Inc}:\\mathcal{D}\\to \\mathcal{C}$ has a left adjoint. More\nexplicitly, $\\mathcal{D}$ in $\\mathcal{C}$ is reflective iff for every\nobject $A$ in $\\mathcal{C}$, there is an object $B$ in $\\mathcal{D}$ and\na morphism $f:A\\to B$ such that any morphism $g:A\\to C$ can be uniquely\nfactored through $f$; that is, there is a unique morphism $h:B\\to C$\nsuch that $g=h\\circ f$.\n\nThe left adjoint is called the *reflection functor* and the mapped\nobjects and morphisms are called the *reflections* (of the objects and\nmorphisms being mapped by the reflection functor).\n\nSome of the most common reflective subcategories are\n\n-   The subcategory of abelian groups in the category of groups. The\n    reflection functor is the abelianization functor.\n\n-   The subcategory of fields in the category of integral domains. The\n    reflection of an integral domain is its field of fractions.\n\n-   The subcategory of complete lattices in the category of lattices.\n    The reflection of a lattice is its lattice of ideals.\n\n**Remark**. If the inclusion functor has a right adjoint, then the\nsubcategory is said to be *coreflective*. In other words, $\\mathcal{D}$\nin $\\mathcal{C}$ is coreflective iff for any object $A\\in \\mathcal{C}$,\nthere is an object $B\\in \\mathcal{D}$ and a morphism $f:B\\to A$ such\nthat any morphism $g:C\\to A$ can be uniquely factored through $f$ (by a\nunique morphism $f:C\\to B$). For example, the subcategory of torsion\nabelian groups in the category of abelian groups is coreflective. The\ncoreflection of an abelian group is its torsion subgroup.",
+  "language": "INFORMAL",
+  "phrase": "Reflective Subcategory",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ReflectiveSubcategory"
+    }
+  ],
+  "indexable": true
+}

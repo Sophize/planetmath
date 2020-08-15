@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In this definition, all rings are assumed to be rings with identity and\nall ring homomorphisms are assumed to be unital.\n\nLet $R$ be a ring. An *algebra* over $R$ is a ring $A$ together with a\nring homomorphism $f\\colon R \\to Z(A)$, where $Z(A)$ denotes the center\nof $A$. A *subalgebra* of $A$ is a subset of $A$ which is an algebra.\n\nEquivalently, an algebra over a ring $R$ is an $R$\u2013module $A$ which is a\nring and satisfies the property\n$$r\\cdot(x*y) = (r\\cdot x)*y = x*(r\\cdot y)$$ for all $r \\in R$ and all\n$x,y \\in A$. Here $\\cdot$ denotes $R$-module multiplication and $*$\ndenotes ring multiplication in $A$. One passes between the two\ndefinitions as follows: given any ring homomorphism\n$f\\colon R \\longrightarrow Z(A)$, the scalar multiplication rule\n$$r \\cdot b := f(r)*b$$ makes $A$ into an $R$-module in the sense of the\nsecond definition. Conversely, if $A$ satisfies the requirements of the\nsecond definition, then the function $f\\colon R \\to A$ defined by\n$f(r) := r \\cdot 1$ is a ring homomorphism from $R$ into $Z(A)$.",
+  "language": "INFORMAL",
+  "phrase": "Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Algebra"
+    }
+  ],
+  "indexable": true
+}

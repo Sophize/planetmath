@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(M, d)$ be a metric space, and let\n$ \\mathbb{N} = P_{1} \\bigcup \\cdots \\bigcup P_{k}$ be a partition of the\nset of natural numbers such that $P_{i}$ is infinite for every $i$, that\nis, there is a bijection $f_{i} \\colon \\mathbb{N} \\to P_{i}$. Then,\ngiven a sequence $(x_n)_{n \\in \\mathbb{N}}$, it converges to $x \\in M$\nif and only if the subsequence $$(x_{f_i(n)})_n$$ converges to $x$ for\nevery $i = 1, \\cdots, k$.\n\n**Examples**\n\nIf you have a sequence $(x_n)_n$ and a natural number $k$, and you know\nthat it converges to $x$ for every corresponding subsequence over the\nclasses of remainders modulo $k$, then it converges to $x$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacterizationOfConvergenceOfSequencesInMetricSpaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "characterization of convergence of sequences in metric spaces"
+  ]
+}

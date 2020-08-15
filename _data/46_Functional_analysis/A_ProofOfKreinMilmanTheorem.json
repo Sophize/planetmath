@@ -1,0 +1,17 @@
+{
+  "argumentText": "The proof is consist of three steps for good understanding. We will show\ninitially that the set of extreme points of $K$,$Ex(K)$ is non-empty,\n$Ex(K)\\neq \\emptyset $. We consider that\n$\\mathcal{A}=\\{A\\subset K\\colon A \\subset K , $extreme$ \\}$.\\\nStep1\\\nThe family set $\\mathcal{A}$ ordered by $\\subset $ has a minimal\nelement, in other words there exist $A \\in  \\mathcal{A}$ such as\n$\\forall B\\in \\mathcal{A},B\\subset A$ we have that $B=A$.\\\nProof1\\\nWe consider\n$A<B \\Leftrightarrow B\\subset A, \\forall A,B \\in  \\mathcal{A}$. The\nordering relation $<$ is a partially relation on $\\mathcal{A}$. We must\nshow that $A$ is maximal element for $\\mathcal{A}$. We apply Zorn\u2019s\nlemma.We suppose that $$\\mathcal{C}=\\{A_i\\colon i\\in I\\}$$ is a chain of\n$\\mathcal{A}$.Witout loss of generality we take $A=\\bigcap_{i\\in I} A_i$\nand then $A\\neq \\emptyset$. $\\mathcal{C}$ has the property of finite\nintersections and it is consist of closed sets. So we have that\n$\\bigcap_{i\\in I}A_i\\neq \\emptyset$. It is easy to see that\n$A\\in  \\mathcal{A}$. Also $A\\subset A_i$, for any $i\\in I$, so we have\nthat $A>A_i$, for any $i\\in I$.\\\nStep2\\\nEvery minimal element of $\\mathcal{A}$ is a set which has only one\npoint.\\\nProof2\\\nWe suppose that there exist a minimal element $A$ of $\\mathcal{A}$ which\nhas at least two points, $x,y \\in A$. There exist $x^* \\in X^*$ such as\n$x^*(x)\\neq x^*(y)$, witout loss of generality we have that\n$x^*(x)<x^*(y)$. $A$ is compact set (closed subset of the compact $K$).\nAlso there exist $\\alpha \\in \\mathbb{R}$ such that\n$\\alpha=\\sup_{z\\in A}x^*(z)$ and\n$B=\\{z\\in A\\colon x^*(z)=\\alpha\\}\\neq \\emptyset$. It is obvious that $B$\nis an extreme subset of $A$, $B$ is an extreme subset of\n$K$,$B \\in \\mathcal{A}$. $x\\notin B$ since $B\\in \\mathcal{A}$ and\n$B \\subsetneq A$ that contradicts to the fact that $A$ is minimal\nextreme subset of $\\mathcal{A}$.\\\nFrom the above two steps we have that $Ex(K)\\neq \\emptyset$.\\\nStep3\\\n$K=\\bar co(Ex(K))$ where $\\bar co(Ex(K))$ denotes the closed convex hull\nof extreme points of $K$.\\\nProof3\\\nLet $L=\\bar co(Ex(K))$. Then $L$ is closed subset of $K$, therefore it\nis compact, and convex clearly by the definition. We suppose that\n$L\\subsetneqq K$. Then there exist $x\\in K-L$. Let use Hahn-Banach\ntheorem(geometric form). There exist $x^* \\in X^*$ such as\n$\\sup_{w\\in L}x^*(w)<x^*(x)$. Let $\\alpha=\\sup\\{x^*(y)\\colon y\\in K\\}$,\n$B=\\{y\\in K\\colon x^*(y)=\\alpha\\}$. Similar to Step2 $B$ is extreme\nsubset of $K$. $B$ is compact and from step1 and step2 we have that\n$Ex(B)\\neq \\emptyset$. It is true that $Ex(B)\\subset Ex(K)\\subset L$.\nNow let $y \\in Ex(B)$ then $x^*(y)=\\alpha$ and if\n$y \\in L x^*(y)<x^*(x)\\leq \\alpha $. That is a contradiction.",
+  "conclusion": "#P_KreinMilmanTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfKreinMilmanTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Krein-Milman theorem"
+  ]
+}

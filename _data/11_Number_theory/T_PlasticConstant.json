@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "plastic number",
+    "silver number",
+    "silver constant"
+  ],
+  "definition": "Given the equation $P^3 = P + 1$, solve for $P$. The only solution in\nreal numbers is\n$P = \\sqrt[3]{\\frac{1}{2}+\\frac{1}{6}\\sqrt{\\frac{23}{3}}}+\\sqrt[3]{\\frac{1}{2}-\\frac{1}{6}\\sqrt{\\frac{23}{3}}} = \\frac{\\sqrt[3]{12(9+\\sqrt{69})}+\\sqrt[3]{12(9-\\sqrt{69})}}{6} \\approx 1.3247179572447$,\nand $P$ is the *plastic constant*, also known as the *silver number*.\n\nAnother way to calculate the plastic constant is\n${{P(n)} \\over {P(n - 1)}}$, where $P(n)$ is the $n^{th}$ term of either\nthe Padovan sequence or the Perrin sequence. For about $n > 20$ the\napproximation is adequate for all practical purposes.",
+  "language": "INFORMAL",
+  "phrase": "Plastic Constant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PlasticConstant"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V$ be a representation of a Lie algebra ${\\mathfrak{g}}$ over a\nfield $k$. Then a bilinear form $B:V\\times V\\to k$ is [*invariant*]{} if\n$$B(Xv,w)+B(v,Xw)=0.$$ for all $X\\in{\\mathfrak{g}}, v,w\\in V$. This\ncriterion seems a little odd, but in the context of Lie algebras, it\nmakes sense. For example, the map $\\tilde{B}:V\\to V^*$ given by\n$v\\mapsto B(\\cdot,v)$ is equivariant if and only if $B$ is an invariant\nform.",
+  "language": "INFORMAL",
+  "phrase": "Invariant Form (Lie Algebras)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InvariantFormLieAlgebras"
+    }
+  ],
+  "indexable": true
+}

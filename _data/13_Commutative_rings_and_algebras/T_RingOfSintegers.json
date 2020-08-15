@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "ring of S-integers"
+  ],
+  "definition": "Let $K$ be a number field and let $S$ be a finite set of absolute values\nof $K$, containing all archimedean valuations. The ring of $S$-integers\nof $K$, usually denoted by $R_S$, is the ring:\n$$R_S=\\{ k\\in K : \\nu(k)\\geq 0 \\text{ for all valuations } \\nu \\notin S \\}.$$\n\nNotice that, for any set $S$ as above, the ring of integers of $K$,\n$\\mathcal{O}_K$, is always contained in $R_S$.\n\nLet $K={\\mathbb{Q}}$ and let $S=\\{\\nu_p,|\\cdot|\\}$ where $p$ is a prime\nand $\\nu_p$ is the usual $p$-adic valuation, and $|\\cdot|$ is the usual\nabsolute value. Then $$R_S={\\mathbb{Z}}\\left[\\frac{1}{p}\\right]$$ , i.e.\n$R_S$ is the result of adjoining (as a new ring element) $1/p$ to\n${\\mathbb{Z}}$ (i.e. we allow to invert $p$).",
+  "language": "INFORMAL",
+  "phrase": "Ring Of $S$-Integers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RingOfSintegers"
+    }
+  ],
+  "indexable": true
+}

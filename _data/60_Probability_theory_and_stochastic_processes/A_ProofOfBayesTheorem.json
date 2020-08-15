@@ -1,0 +1,17 @@
+{
+  "argumentText": "The proof of Bayes\u2019 theorem is no more than an exercise in substituting\nthe definition of conditional probability into the formula, and applying\nthe total probability theorem.\n$$\\frac{{{\\mathbb{P}_{}\\left\\{B\\right\\}}}{{\\mathbb{P}_{}\\left\\{E|B\\right\\}}}}{\\sum_i {{\\mathbb{P}_{}\\left\\{A_i\\right\\}}}{{\\mathbb{P}_{}\\left\\{E|A_i\\right\\}}}} =\n\\frac{{{\\mathbb{P}_{}\\left\\{E\\cap B\\right\\}}}}{\\sum_i {{\\mathbb{P}_{}\\left\\{E\\cap A_i\\right\\}}}} =\n= \\frac{{{\\mathbb{P}_{}\\left\\{E\\cap B\\right\\}}}}{{{\\mathbb{P}_{}\\left\\{E\\right\\}}}} = {{\\mathbb{P}_{}\\left\\{B|E\\right\\}}}.$$",
+  "conclusion": "#P_BayesTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBayesTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Bayes' Theorem"
+  ]
+}

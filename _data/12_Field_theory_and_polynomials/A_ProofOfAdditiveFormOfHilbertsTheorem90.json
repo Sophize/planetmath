@@ -1,0 +1,17 @@
+{
+  "argumentText": "Set $n=[L:K]$.\n\nFirst, let there be $x\\in L$ such that $y=x-\\sigma(x)$. Then\n$$\\operatorname{Tr}(y)=(x-\\sigma(x))+(\\sigma(x)-\\sigma^2(x))+\\cdots +(\\sigma^{n-1}(x)-\\sigma^n(x))=0$$\nbecause $x=\\sigma^n(x)$.\n\nNow, let $\\operatorname{Tr}(y)=0$. Choose $z\\in L$ with\n$\\operatorname{Tr}(z)\\neq 0$. Then there exists $x\\in L$ with\n$$x\\operatorname{Tr}(z)=y\\sigma(z)+(y+\\sigma(y))\\sigma^2(z)+\\cdots +(y+\\sigma(y)+\\cdots+\\sigma^{n-1}(y))\\sigma^{n-1}(z).$$\nSince $\\operatorname{Tr}(z)\\in K$ we have\n$$\\sigma(x)\\operatorname{Tr}(z)= \\sigma(y)\\sigma^2(z)+(\\sigma(y)+\\sigma^2(y))\\sigma^3(z)+\\cdots +(\\sigma(y)+\\cdots +\\sigma^{n-2})\\sigma^{n-1}(z)+(\\sigma(y)+\\cdots +\\sigma^{n-1}(y))\\sigma^n(z).$$\nNow remember that $\\operatorname{Tr}(y)=0$. We obtain $$\\begin{aligned}\n(x-\\sigma(x))\\operatorname{Tr}(z)&=&y\\sigma(z)+ (y+\\sigma(y))\\sigma^2(z)+\\cdots +(y+\\sigma(y)+\\cdots+\\sigma^{n-1}(y))\\sigma^{n-1}(z)\\\\\n&&-\\sigma(y)\\sigma^2(z)-(\\sigma(y)+\\sigma^2(y))\\sigma^3(z)-\\cdots -(\\sigma(y)+\\cdots +\\sigma^{n-2})\\sigma^{n-1}(z)+yz\\\\\n&=&y\\operatorname{Tr}(z),\\end{aligned}$$ so $y=x-\\sigma(x)$, as we\nwanted to show.",
+  "conclusion": "#P_AdditiveFormOfHilbertsTheorem90",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfAdditiveFormOfHilbertsTheorem90"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of additive form of Hilbert's theorem 90"
+  ]
+}

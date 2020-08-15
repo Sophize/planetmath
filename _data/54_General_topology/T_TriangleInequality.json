@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(X,d)$ be a metric space. The *triangle inequality* states that for\nany three points $x,y,z\\in X$ we have $$d(x,y) \\le d(x,z) + d(z,y).$$\n\nThe name comes from the special case of ${\\mathbbmss{R}}^n$ with the\nstandard topology, and geometrically meaning that in any triangle, the\nsum of the lengths of two sides is greater (or equal) than the third.\n\nActually, the triangle inequality is one of the properties that define a\nmetric, so it holds in any metric space. Two important cases are\n${\\mathbbmss{R}}$ with $d(x,y)=|x-y|$ and ${\\mathbbmss{C}}$ with\n$d(x,y)=\\Vert x-y\\Vert$ (here we are using complex modulus, not absolute\nvalue).\n\nThere is a second triangle inequality, sometimes called the *reverse\ntriangle inequality*, which also holds in any metric space and is\nderived from the definition of metric: $$d(x,y) \\ge |d(x,z) - d(z,y)|.$$\n\nIn Euclidean geometry, this inequality is expressed by saying that each\nside of a triangle is greater than the difference of the other two.\n\nThe reverse triangle inequality can be proved from the first triangle\ninequality, as we now show.\n\nLet $x, y, z \\in X$ be given. For any $a,b,c \\in X$, from the first\ntriangle inequality we have: $$d(a,b) \\le d(a,c) + d(c,b)$$ and thus\n(using $d(b,c) = d(c,b)$ for any $b, c \\in X$): $$\\label{eq:ste1}\nd(a,c) \\ge d(a,b) - d(b,c)$$ and writing (\\[eq:ste1\\]) with\n$a=x, b=z, c=y$: $$\\label{eq:ste2}\nd(x,y) \\ge d(x,z) - d(z,y)$$ while writing (\\[eq:ste1\\]) with\n$a=y, b=z, c=x$ we get: $$d(y,x) \\ge d(y,z) - d(z,x)$$ or\n$$\\label{eq:ste3}\nd(x,y) \\ge d(z,y) - d(x,z);$$ from (\\[eq:ste2\\]) and (\\[eq:ste3\\]),\nusing the properties of the absolute value, it follows finally:\n$$d(x,y) \\ge \\left|d(x,z) - d(z,y)\\right|$$ which is the second triangle\ninequality.",
+  "language": "INFORMAL",
+  "phrase": "Triangle Inequality",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TriangleInequality"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $f_1, f_2,\\dots$ is a sequence of nonnegative measurable functions in\na measure space $X$, then $$\\int_X \\liminf_{n\\rightarrow\\infty} f_n \\leq\n\\liminf_{n\\rightarrow\\infty}\\int_X f_n$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FatousLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Fatou's lemma"
+  ]
+}

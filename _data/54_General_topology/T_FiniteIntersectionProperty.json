@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "finite intersection condition",
+    "f.i.c.",
+    "f.i.p."
+  ],
+  "definition": "A collection $\\mathcal{A}={\\{A_\\alpha\\}}_{\\alpha\\in I}$ of subsets of a\nset $X$ is said to have the *finite intersection property*, abbreviated\nf.i.p., if every finite subcollection ${\\{A_1,A_2,\\ldots,A_n\\}}$ of\n$\\mathcal{A}$ satisifes $\\bigcap_{i=1}^nA_i\\neq\\emptyset$.\n\nThe finite intersection property is most often used to give the\nfollowing condition for the of a topological space (a proof of which may\nbe found ):\n\nA topological space $X$ is compact if and only if for every collection\n$\\mathcal{C}={\\{C_\\alpha\\}}_{\\alpha\\in J}$ of closed subsets of $X$\nhaving the finite intersection property,\n$\\bigcap_{\\alpha\\in J}C_\\alpha\\neq\\emptyset$.\n\nAn important special case of the preceding is that in which\n$\\mathcal{C}$ is a countable collection of non-empty nested sets, i.e.,\nwhen we have $$C_1\\supset C_2\\supset C_3\\supset\\cdots\\text{.}$$ In this\ncase, $\\mathcal{C}$ automatically has the finite intersection property,\nand if each $C_i$ is a closed subset of a compact topological space,\nthen, by the proposition, $\\bigcap_{i=1}^\\infty C_i\\neq\\emptyset$.\n\nThe f.i.p. characterization of may be used to prove a general result on\nthe uncountability of certain compact Hausdorff spaces, and is also used\nin a proof of Tychonoff\u2019s Theorem.\n\n[1]{} J. Munkres, *Topology*, 2nd ed. Prentice Hall, 1975.",
+  "language": "INFORMAL",
+  "phrase": "Finite Intersection Property",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FiniteIntersectionProperty"
+    }
+  ],
+  "indexable": true
+}

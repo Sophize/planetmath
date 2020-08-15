@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "stable set",
+    "unstable set",
+    "unstable manifold"
+  ],
+  "definition": "Let $X$ be a topological space, and $f\\colon X\\rightarrow X$ a\nhomeomorphism. If $p$ is a fixed point for $f$, the *stable and unstable\nsets* of $p$ are defined by $$\\begin{aligned}\nW^s(f,p)&=\\{q\\in X: f^n(q)\\xrightarrow[n\\rightarrow\\infty]{} p\\},\\\\ \nW^u(f,p)&=\\{q\\in X: f^{-n}(q)\\xrightarrow[n\\rightarrow\\infty]{} p\\}, \\end{aligned}$$\nrespectively.\n\nIf $p$ is a periodic point of least period $k$, then it is a fixed point\nof $f^k$, and the stable and unstable sets of $p$ are $$\\begin{aligned}\nW^s(f,p)&= W^s(f^k,p)\\\\\nW^u(f,p)&=W^u(f^k,p).\\end{aligned}$$\n\nGiven a neighborhood $U$ of $p$, the *local stable and unstable sets* of\n$p$ are defined by $$\\begin{aligned}\nW^s_{\\text{loc}}(f,p,U)&= \\{q\\in U: f^n(q)\\in U \\textnormal{ for each }\nn\\geq 0\\},\\\\ \nW^u_{\\text{loc}}(f,p,U)&= W^s_{\\text{loc}}(f^{-1},p,U).\\end{aligned}$$\n\nIf $X$ is metrizable, we can define the stable and unstable sets for any\npoint by $$\\begin{aligned}\nW^s(f,p) &= \\{q\\in U: d(f^n(q),f^n(p))\\xrightarrow[n\\rightarrow\\infty]{} 0\\},\\\\\nW^u(f,p) &= W^s(f^{-1},p),\\end{aligned}$$ where $d$ is a metric for $X$.\nThis definition clearly coincides with the previous one when $p$ is a\nperiodic point.\n\nWhen $K$ is an invariant subset of $X$, one usually denotes by\n$W^s(f,K)$ and $W^u(f,K)$ (or just $W^s(K)$ and $W^u(K)$) the stable and\nunstable sets of $K$, defined as the set of points $x\\in X$ such that\n$d(f^n(x),K)\\to 0$ when $x\\to \\infty$ or $-\\infty$, respectively.\n\nSuppose now that $X$ is a compact smooth manifold, and $f$ is a\n${\\mathcal{C}}^k$ diffeomorphism, $k\\geq 1$. If $p$ is a hyperbolic\nperiodic point, the stable manifold theorem assures that for some\nneighborhood $U$ of $p$, the local stable and unstable sets are\n${\\mathcal{C}}^k$ embedded disks, whose tangent spaces at $p$ are $E^s$\nand $E^u$ (the stable and unstable spaces of $Df(p)$), respectively;\nmoreover, they vary continuously (in certain sense) in a neighborhood of\n$f$ in the ${\\mathcal{C}}^k$ topology of ${\\operatorname{Diff}}^k(X)$\n(the space of all ${\\mathcal{C}}^k$ diffeomorphisms from $X$ to itself).\nFinally, the stable and unstable sets are ${\\mathcal{C}}^k$ injectively\nimmersed disks. This is why they are commonly called *stable and\nunstable* manifolds. This result is also valid for nonperiodic points,\nas long as they lie in some hyperbolic set (stable manifold theorem for\nhyperbolic sets).",
+  "language": "INFORMAL",
+  "phrase": "Stable Manifold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StableManifold"
+    }
+  ],
+  "indexable": true
+}

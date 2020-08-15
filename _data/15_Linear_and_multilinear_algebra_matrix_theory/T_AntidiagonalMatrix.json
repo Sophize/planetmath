@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be a square matrix (over any field ${\\mathbbmss{F}}$). An entry\nin $A$ is an *anti-diagonal entry* if it is on the line going from the\nlower left corner of $A$ to the upper right corner. If all entries in\n$A$ are zero except on the anti-diagonal, then $A$ is an *anti-diagonal\nmatrix*.\n\nIf $a_1, \\ldots, a_n \\in {\\mathbbmss{F}}$, let\n$$\\operatorname{adiag}(a_1, \\ldots, a_n) = \\begin{pmatrix}\n0 & 0     & 0     & 0   & a_1 \\\\\n0 & 0     & 0     & a_2 & 0  \\\\\n0 & 0     & a_{3} &     & 0  \\\\\n0 & \\cdot & 0     &     & 0  \\\\\na_n & 0   & 0     &     &  0\n\\end{pmatrix}.$$\n\n### Properties of anti-diagonal matrices {#properties-of-anti-diagonal-matrices .unnumbered}\n\n1.  If $A$ and $D$ are $n\\times n$ anti-diagonal and diagonal matrices,\n    respectively, then $AD, DA$ are anti-diagonal.\n\n2.  The product of two anti-diagonal matrices is an diagonal matrix.",
+  "language": "INFORMAL",
+  "phrase": "Anti-Diagonal Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AntidiagonalMatrix"
+    }
+  ],
+  "indexable": true
+}

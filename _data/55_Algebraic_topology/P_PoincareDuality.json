@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $M$ is a compact, oriented, $n$-dimensional manifold, then there is a\ncanonical (though non-) isomorphism $$D:H^q(M,\\Z)\\to H_{n-q}(M,\\Z)$$\n(where $H^k(M,\\Z)$ is the $k$th homology group of $M$ with integer\ncoefficients and $H_k(M,\\Z)$ the $k$th group) for all $q$, which is\ngiven by cap product with a generator of $H_n(M,\\Z)$ (a choice of a\ngenerator here corresponds to an orientation). This isomorphism exists\nwith coefficients in $\\mathbb{Z}/2\\mathbb{Z}$ regardless of orientation.\n\nThis isomorphism gives a nice interpretation to cup product. If $X,Y$\nare transverse submanifolds of $M$, then $X\\cap Y$ is also a\nsubmanifold. All of these submanifolds represent homology classes of $M$\nin the appropriate dimensions, and\n$$D^{-1}([X])\\cup D^{-1}([Y])=D^{-1}([X\\cap Y]),$$ where $\\cup$ is cup\nproduct, and $\\cap$ in intersection, not cap product.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PoincareDuality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Poincar\\'e duality",
+    "Poincar\\'e isomorphism"
+  ]
+}

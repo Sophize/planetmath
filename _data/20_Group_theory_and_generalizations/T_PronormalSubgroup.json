@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A subgroup $H$ of a group $G$ is called a *pronormal subgroup* if for\nall $x\\in G$ the subgroups $H$ and $xHx^{-1}$ are conjugate in\n$\\genby{H,xHx^{-1}}$.\n\nSome facts about pronormal subgroups:\n\n-   Normal subgroups are pronormal.\n\n-   Maximal subgroups are pronormal.\n\n-   Abnormal subgroups are pronormal.\n\n-   Sylow subgroups of finite groups are pronormal.\n\n-   The normalizer of a pronormal subgroup is abnormal.\n\n-   A pronormal subgroup is normal if and only if it is subnormal.",
+  "language": "INFORMAL",
+  "phrase": "Pronormal Subgroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PronormalSubgroup"
+    }
+  ],
+  "indexable": true
+}

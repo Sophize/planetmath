@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "sigma matrices"
+  ],
+  "definition": "The Pauli matrices are a set of three Hermitian, unitary matrices used\nby Wolfgang Pauli in his theory of quantum-mechanical spin. They are\ngiven by: $$\\begin{aligned}\n\\sigma_1 &= \\begin{pmatrix} 0 & 1\\\\\n                            1 & 0\n            \\end{pmatrix}\\\\\n\\sigma_2 &= \\begin{pmatrix} 0 & -i\\\\\n                            i & 0\n            \\end{pmatrix}\\\\\n\\sigma_3 &= \\begin{pmatrix} 1 & 0\\\\\n                            0 & -1\n            \\end{pmatrix}\\\\\\end{aligned}$$\n\nThey satisfy the following commutation and anticommutation identities:\n$$\\begin{aligned}\n\\left[ \\sigma_i, \\sigma_j \\right] &= 2i\\epsilon_{ijk} \\sigma_k\\text{where $\\epsilon_{ijk}$ is the Levi-Civita symbol}\\\\\n\\lbrace \\sigma_i, \\sigma_j \\rbrace &=2 \\mathbf{I} \\delta_{ij} \\text{where $\\mathbf{I}$ is the identity matrix and $\\delta_{ij}$ is the Kronecker delta}\\end{aligned}$$\n\nDelta notation\n--------------\n\nWith the identity matrix $\\textbf{I}$, the Pauli matrices form a group.\nWhen combined in this way, they are often given the symbols $\\delta_i$,\nas follows:\n\n$$\\begin{aligned}\n\\delta_0 &= \\begin{pmatrix} 1 & 0\\\\\n                            0 & 1\n            \\end{pmatrix}\\\\\n\\delta_1 &= \\begin{pmatrix} 0 & 1\\\\\n                            1 & 0\n            \\end{pmatrix}\\\\\n\\delta_2 &= \\begin{pmatrix} 0 & -i\\\\\n                            i & 0\n            \\end{pmatrix}\\\\\n\\delta_3 &= \\begin{pmatrix} 1 & 0\\\\\n                            0 & -1\n            \\end{pmatrix}\\\\\\end{aligned}$$\n\nThis choice is useful when writing the Dirac matrices.",
+  "language": "INFORMAL",
+  "phrase": "Pauli Matrices",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PauliMatrices"
+    }
+  ],
+  "indexable": true
+}

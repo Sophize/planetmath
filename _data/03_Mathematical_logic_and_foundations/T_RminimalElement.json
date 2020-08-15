@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "R-minimal",
+    "$R$-minimal"
+  ],
+  "definition": "Let $A$ be a set and $R$ be a relation on $A$. Suppose that $B$ is a\nsubset of $A$. An element $a\\in B$ is said to be [**$R$-minimal in\n$B$**]{} if and only if there is no $x\\in B$ such that $xRa$. An\n$R$-minimal element in $A$ is simply called [**$R$-minimal**]{}.\n\nFrom this definition, it is evident that if $A$ has an $R$-minimal\nelement, then $R$ is not reflexive. However, the definition of\n$R$-minimality is sometimes adjusted slightly so as to allow\nreflexivity: $a\\in B$ is $R$-minimal (in $B$) iff the only $x\\in B$ such\nthat $xRa$ is when $x=a$.\n\n**Remark**. Using the second definition, it is easy to see that when $R$\nis a partial order, then an element $a$ is $R$-minimal iff it is\nminimal.",
+  "language": "INFORMAL",
+  "phrase": "R-Minimal Element",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RminimalElement"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "B-algebra",
+    "Banach *-algebra",
+    "B*-algebra",
+    "$B^*$-algebra"
+  ],
+  "definition": "A **Banach algebra** $\\mathcal{A}$ is a Banach space (over $\\mathbb{C}$)\nwith an multiplication law compatible with the norm which turns\n$\\mathcal{A}$ into an algebra. Compatibility with the norm means that,\nfor all $a,b \\in \\mathcal{A}$, it is the case that the following product\ninequality holds:\n$${\\Vert ab\\Vert} \\leq {\\Vert a\\Vert}\\,{\\Vert b\\Vert}$$\n\nA **Banach \\*-algebra** is a Banach algebra $\\mathcal{A}$ with a map\n${}^* \\colon \\mathcal{A} \\to \\mathcal{A}$ which satisfies the following\nproperties: $$\\begin{aligned}\na^{**} & = & a, \\\\\n(ab)^* & = & b^* a^*, \\\\\n(a+b)^* & = & a^* + b^*, \\\\\n(\\lambda a)^* & = & \\bar{\\lambda} a^* \\quad\\forall\\lambda\\in{\\mathbb{C}}, \\\\\n{\\Vert a^*\\Vert} & = & {\\Vert a\\Vert},\\end{aligned}$$\n\nwhere $\\bar{\\lambda}$ is the complex conjugation of $\\lambda$. In other\nwords, the operator $^*$ is an involution.\n\nThe algebra of bounded operators on a Banach space is a Banach algebra\nfor the operator norm.",
+  "language": "INFORMAL",
+  "phrase": "Banach Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BanachAlgebra"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let ${\\mathcal H}^m$ denote the Hausdorff measure. Let $m\\le n$ and\nconsider a Lipschitz function $f\\colon {\\mathbb R}^m \\to {\\mathbb R}^n$.\nIf $A\\subset {\\mathbb R}^m$ is a Lebesgue measurable set, the equality\n$$\\int_A J_f(x) \\,dx = \\int_{{\\mathbb R}^n} {\\mathcal H}^0(f^{-1}(\\{y\\})\\cap A) \\, d{\\mathcal H}^m y$$\nholds, where $$J_f(x) = \\sqrt{\\det(Df(x)\\cdot Df(x)^*)}$$ is the\nJacobian determinant of $f$ in the point $x$ and represent the\n$m$-volume of the image of the unit cube under the linear map $Df(x)$.\n\nIf $u\\in L^1({\\mathbb R}^m)$ then one has\n$$\\int_{{\\mathbb R}^m} u(x) J_f(x)\\, dx = \\int_{{\\mathbb R}^n}\\sum_{x\\in f^{-1}(\\{y\\})} u(x)\\, d{\\mathcal H}^m y.$$\n\nNotice that this formula is a generalization of the change of variables\nin integrals on ${\\mathbb R}^n$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AreaFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "area formula"
+  ]
+}

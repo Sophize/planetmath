@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Prerequisites: [Algebraic General\nTopology](http://www.mathematics21.org/algebraic-general-topology.html).\n\n[**Conjecture.**]{}\n$\\prod^{\\operatorname{Strd}}a \\not\\asymp \\prod^{\\operatorname{Strd}}b \\Leftrightarrow b\\in\\prod^{\\operatorname{Strd}}a \\Leftrightarrow a\\in\\prod^{\\operatorname{Strd}}b \\Leftrightarrow \\forall i\\in n: a_i\\not\\asymp b_i$\nfor every $n$-indexed families $a$ and $b$ of filters on powersets.\n\nThe above conjecture has the below consequence (see my book for not so\nlong proof).\n\n[**Conjecture.**]{} Let $f$ is a staroid on powersets and\n$a\\in \\prod_{i\\in\\operatorname{arity}f}\\operatorname{Src}f_i$,\n$b\\in \\prod_{i\\in\\operatorname{arity}f}\\operatorname{Dst}f_i$. Then\n$$\\prod^{\\operatorname{Strd}}a \\left[ \\prod^{(C)}f \\right] \\prod^{\\operatorname{Strd}}b \\Leftrightarrow\n\\forall i\\in n: a_i[f_i]b_i.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntersectingTwoStaroidalProducts"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Intersecting two staroidal products"
+  ]
+}

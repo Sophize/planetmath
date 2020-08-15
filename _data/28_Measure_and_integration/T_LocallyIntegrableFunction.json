@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose that $U$ is an open set in ${\\mathbb{R}}^n$,\nand $f\\colon U\\to{\\mathbb{C}}$ is a Lebesgue measurable function. If the\nLebesgue integral $$\\int_K |f| dx$$ is finite for all compact subsets\n$K$ in $U$, then $f$ is *locally integrable*. The set of all such\nfunctions is denoted by $L^1_{\\scriptsize{\\mbox{loc}}}(U)$.\n\n### Example {#example .unnumbered}\n\n1.  $L^1(U)\\subset L^1_{\\scriptsize{\\mbox{loc}}}(U)$, where $L^1(U)$ is\n    the set of (globally) integrable functions.\n\n2.  Continuous functions are locally integrable.\n\n3.  The function $f(x)=1/x$ for $x\\neq 0$ and $f(0)=0$ is not locally\n    integrable.",
+  "language": "INFORMAL",
+  "phrase": "Locally Integrable Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocallyIntegrableFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "\n\n**Example:** We try to determine the value of\n$$\\lim_{x\\to \\infty}\\frac{x^2}{e^x}.$$ As $x$ approaches $\\infty$ the\nexpression becomes an indeterminate form $\\frac{\\infty}{\\infty}$. By\napplying L\u2019H\u00f4pital\u2019s rule twice we get\n$$\\lim_{x\\to\\infty}\\frac{x^2}{e^x}=\\lim_{x\\to \\infty}\\frac{2x}{e^x}=\\lim_{x\\to \\infty}\\frac{2}{e^x}=0.$$\nAnother example of the usage of L\u2019H\u00f4pital\u2019s rule can be found .",
+  "statement": "L\u2019H\u00f4pital\u2019s rule states that given an unresolvable limit of the form\n$\\frac{0}{0}$ or $\\frac{\\infty}{\\infty}$, the ratio of functions\n$\\frac{f(x)}{g(x)}$ will have the same limit at $c$ as the ratio\n$\\frac{f'(x)}{g'(x)}$. In short, if the limit of a ratio of functions\napproaches an indeterminate form, then\n$$\\lim_{x\\rightarrow c}\\frac{f(x)}{g(x)} = \\lim_{x\\rightarrow c}\\frac{f'(x)}{g'(x)}$$\nprovided this last limit exists. L\u2019H\u00f4pital\u2019s rule may be applied\nindefinitely as long as the conditions are satisfied. However it is\nimportant to note, that the nonexistance of $\\lim\\frac{f'(x)}{g'(x)}$\ndoes not prove the nonexistance of $\\lim\\frac{f(x)}{g(x)}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LHopitalsRule"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "l'H\\^opital's rule",
+    "l'Hospital's rule"
+  ]
+}

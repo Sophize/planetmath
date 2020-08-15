@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "polynomial form"
+  ],
+  "definition": "Let $R$ be an associative ring. A (multivariate) polynomial $f$ over $R$\nis said to be *homogeneous of degree* $r$ if it is expressible as an\n$R$- of monomials of degree $r$:\n$$f(x_1,\\ldots,x_n)=\\sum_{i=1}^{m}a_i{x_1}^{r_{i1}}\\cdots{x_n}^{r_{in}},$$\nwhere $r=r_{i1}+\\cdots+r_{in}$ for all $i\\in\\lbrace 1,\\ldots,m\\rbrace$\nand $a_i\\in R$.\n\nA general homogeneous polynomial is also known sometimes as a\n*polynomial form*. A homogeneous polynomial of degree 1 is called a\n*linear form*; a homogeneous polynomial of degree 2 is called a\n*quadratic form*; and a homogeneous polynomial of degree 3 is called a\n*cubic form*.\n\n**Remarks**.\n\n1.  If $f$ is a homogeneous polynomial over a ring $R$ with\n    $\\operatorname{deg}(f)=r$, then\n    $f(tx_1,\\ldots,tx_n)=t^rf(x_1,\\ldots,x_n)$. In fact, a homogeneous\n    function that is also a polynomial is a homogeneous polynomial.\n\n2.  Every polynomial $f$ over $R$ can be expressed uniquely as a finite\n    sum of homogeneous polynomials. The homogeneous polynomials that\n    make up the polynomial $f$ are called the *homogeneous components*\n    of $f$.\n\n3.  If $f$ and $g$ are homogeneous polynomials of degree $r$ and $s$\n    over a domain $R$, then $fg$ is homogeneous of degree $r+s$. From\n    this, one sees that given a domain $R$, the ring $R[\\boldsymbol{X}]$\n    is a graded ring, where $\\boldsymbol{X}$ is a finite set of\n    indeterminates. The condition that $R$ does not have any zero\n    divisors is essential here. As a counterexample, in\n    $\\mathbb{Z}_6[x,y]$, if $f(x,y)=2x+4y$ and $g(x,y)=3x+3y$, then\n    $f(x,y)g(x,y)=0$.\n\n**Examples**\n\n-   $f(x,y) = x^2+xy+yx+y^2$ is a homogeneous polynomial of degree 2.\n    Notice the middle two monomials could be combined into the monomial\n    2xy if the variables are allowed to commute with one another.\n\n-   $f(x) = x^3+1$ is not a homogeneous polynomial.\n\n-   $f(x,y,z) = x^3+xyz+zyz+3xy^2+x^2-xy+y^2+zy+z^2+xz+y+2x+6$ is a\n    polynomial that is the sum of four homogeneous polynomials:\n    $x^3+xyz+zyz+3xy^2$ (with degree 3), $x^2-xy+y^2+zy+z^2+xz$ (degree\n    = 2), $y+2x$ (degree = 1) and $6$ (deg = 0).\n\n-   Every symmetric polynomial can be written as a sum of symmetric\n    homogeneous polynomials.",
+  "language": "INFORMAL",
+  "phrase": "Homogeneous Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomogeneousPolynomial1"
+    }
+  ],
+  "indexable": true
+}

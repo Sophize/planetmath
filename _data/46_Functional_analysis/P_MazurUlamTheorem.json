@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every between normed vector spaces over $\\R$ is an affine\ntransformation.\n\nNote that we consider isometries to be surjective by definition. The\nresult is not in general true for non-surjective isometric mappings.\n\nThe result does not extend to normed vector spaces over $\\C$, as can be\nseen from the fact that complex conjugation is an isometry $\\C\\to\\C$ but\nis not affine over $\\C$. (But complex conjugation is clearly affine over\n$\\R$, and in general any normed vector space over $\\C$ can be considered\nas a normed vector space over $\\R$, to which the theorem can be\napplied.)\n\nThis theorem was first proved by Mazur and Ulam.[@mazurulam] A simpler\nproof has been given by Jussi V\u00e4is\u00e4l\u00e4.[@vaisala]\n\n[9]{} S.\u00a0Mazur and S.\u00a0Ulam, [*Sur les transformations isom\u00e9triques\nd\u2019espaces vectoriels norm\u00e9s*]{}, C.\u00a0R.\u00a0Acad.\u00a0Sci., Paris 194 (1932),\n946\u2013948. Jussi V\u00e4is\u00e4l\u00e4, [*A proof of the Mazur\u2013Ulam theorem*]{},\nAmer.\u00a0Math.\u00a0Mon.\u00a0110, \\#7 (2003), 633\u2013635. (A preprint is .)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MazurUlamTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Mazur-Ulam theorem"
+  ]
+}

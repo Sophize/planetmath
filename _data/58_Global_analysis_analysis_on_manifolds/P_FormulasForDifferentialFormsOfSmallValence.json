@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "#### Coboundary formulas.\n\nGiven a function $f$ (same thing as a differential $0$-form), a\ndifferential 1-form $\\alpha$ and a differential 2-form $\\beta$, and for\nvector fields $u,v,w$, we have $$\\begin{aligned}\n  d f(u) =& u(f),\\\\\n  d \\alpha(u,v) =& u(\\alpha(v)) - v(\\alpha(u))-\n  \\alpha([u,v]);\\\\\n  d \\beta(u,v,w) =& u( \\beta(v,w)) +v(\\beta(w,u)) +\n  w(\\beta(u,v)) \\\\ &\\ -\\beta([u,v],w) - \\beta([v,w],u) -\n  \\beta([w,u],v).\\end{aligned}$$\n\n#### Local coordinate formulas.\n\nLet $f$ be a function, $v=v^i\\,\n\\partial_i$ a vector field, and $\\alpha = \\alpha_i\\, d x^i$ and $\\beta\n= \\beta_i\\, d x^i$ be 1-forms, and $\\gamma=\\tfrac{1}{2} \\gamma_{ij}\\,\ndx^i \\wedge dx^j$ a $2$-form, expressed relative to a system of local\ncoordinates. The corresponding interior product expressions are:\n$$\\begin{aligned}\n  \\iota_v(\\alpha) &= v^i \\alpha_i ,\\\\\n  \\iota_v(\\gamma) &= v^i \\gamma_{ij}\\, dx^j.\\end{aligned}$$ The exterior\nproduct formulas are: $$\\begin{aligned}\n  \\alpha\\wedge\\beta &= \\alpha_i \\beta_j\\, dx^i\\wedge dx^j \\\\\n  &=\\tfrac{1}{2} (\\alpha_i \\beta_j - \\alpha_j \\beta_i)\\, d x^i \\wedge\n  d x^j\\\\ &= \\sum_{i<j} (\\alpha_i \\beta_j - \\alpha_j \\beta_i)\\, d x^i\n  \\wedge d x^j;\\\\\n  \\alpha\\wedge\\gamma &= \\tfrac{1}{2} \\, \\alpha_i \\gamma_{jk}\\,\n  dx^i\\wedge dx^j\\wedge dx^k \\\\ \n  &=\\tfrac{1}{6} (\\alpha_i \\gamma_{jk} + \\alpha_j \\gamma_{ki} +\n  \\alpha_k \\gamma_{ij})\\, d x^i \\wedge\n  d x^j \\wedge d x^k \\\\ \n  &=\\sum_{i<j<k} (\\alpha_i \\gamma_{jk} + \\alpha_j \\gamma_{ki} +\n  \\alpha_k \\gamma_{ij})\\, d x^i \\wedge\n  d x^j \\wedge d x^k.\\end{aligned}$$ The exterior derivative formulas\nare: $$\\begin{aligned}\n  df &= \\partial_i f\\, dx^i,\\\\\n  d\\alpha &= \\partial_i \\alpha_j \\,dx^i\\wedge dx^j \\\\\n  &=\\tfrac{1}{2}\\,(\\partial_i \\alpha_j-\\partial_j\\alpha_i) \\,dx^i\\wedge dx^j \\\\\n  &=\\sum_{i<j} (\\partial_i \\alpha_j-\\partial_j\\alpha_i) \\,dx^i\\wedge dx^j;\\\\\n  d\\gamma &= \\tfrac{1}{2}\\, \\partial_i \\gamma_{jk} \\,dx^i\\wedge\n  dx^j\\wedge dx^k \\\\\n  &=\\tfrac{1}{6}\\,(\\partial_i \\gamma_{jk}+\\partial_j \\gamma_{ki}\n  +\\partial_k \\gamma_{ij}) \\,dx^i\\wedge\n  dx^j\\wedge dx^k \\\\\n  &=\\sum_{i<j<k}(\\partial_i \\gamma_{jk}+\\partial_j \\gamma_{ki}\n  +\\partial_k \\gamma_{ij}) \\,dx^i\\wedge\n  dx^j\\wedge dx^k .\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FormulasForDifferentialFormsOfSmallValence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "formulas for differential forms of small valence"
+  ]
+}

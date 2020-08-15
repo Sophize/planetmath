@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\{e_n\\}$ be an orthonormal basis for a (real or complex)\ninfinite-dimensional Hilbert space $\\mathcal{H}$. If $\\{c_n\\}$ is a\nsequence of (real or complex) numbers such that\n$\\sum \\lvert c_n \\lvert^2$ converges, then there is an\n$x\\in \\mathcal{H}$ such that $x=\\sum_{n=1}^{\\infty} c_n e_n$, and\n$c_n = \\langle x,e_n \\rangle$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RieszFischerTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Riesz-Fischer theorem"
+  ]
+}

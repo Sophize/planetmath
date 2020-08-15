@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a random variable. Define $F_X\\colon R \\to [0,1] $ as\n$F_X(x) = \\operatorname{Pr}[X \\leq x]$ for all $x$. The function\n$F_X(x)$ is called the *cumulative distribution function* of $X$.\n\nEvery cumulative distribution function satisfies the following\nproperties:\n\n1.  $\\lim_{x \\to -\\infty}{F_X(x)}=0$ and\n    $\\lim_{x \\to +\\infty}{F_X(x)}=1$,\n\n2.  $F_X$ is a monotonically nondecreasing function,\n\n3.  $F_X$ is continuous from the right,\n\n4.  $\\operatorname{Pr}[a < X \\leq b] = F_X(b) - F_X(a)$.\n\nIf $X$ is a discrete random variable, then the cumulative distribution\ncan be expressed as $F_X(x) = \\sum_{k\\leq x} \\operatorname{Pr}[X = k]$.\n\nSimilarly, if $X$ is a continuous random variable, then\n$F_X(x) = \\int_{-\\infty}^{x} f_X(y) dy$ where $f_X$ is the density\ndistribution function.",
+  "language": "INFORMAL",
+  "phrase": "Cumulative Distribution Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CumulativeDistributionFunction"
+    }
+  ],
+  "indexable": true
+}

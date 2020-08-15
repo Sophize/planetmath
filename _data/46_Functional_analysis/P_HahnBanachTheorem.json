@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Hahn-Banach theorem is a foundational result in functional analysis.\nRoughly speaking, it asserts the existence of a great variety of bounded\n(and hence continuous) linear functionals on an normed vector space,\neven if that space happens to be infinite-dimensional. We first consider\nan abstract version of this theorem, and then give the more classical\nresult as a corollary.\n\nLet $V$ be a real, or a complex vector space, with $K$ denoting the\ncorresponding field of scalars, and let\n$${\\operatorname{p}}:V\\rightarrow{\\mathbb{R}}^+$$ be a seminorm on $V$.\n\nLet $f:U\\to K$ be a linear functional defined on a subspace\n$U\\subset V$. If the restricted functional satisfies\n$$\\vert f({\\mathbf{u}})\\vert\\leq {{\\operatorname{p}}({\\mathbf{u}})},\\quad {\\mathbf{u}}\\in U,$$\nthen it can be extended to all of $V$ without violating the above\nproperty. To be more precise, there exists a linear functional\n$F:V\\to K$ such that $$\\begin{aligned}\n    F({\\mathbf{u}}) &= f({\\mathbf{u}}),\\quad {\\mathbf{u}}\\in U\\\\\n    \\vert F({\\mathbf{u}}) \\vert &\\leq {{\\operatorname{p}}({\\mathbf{u}})},\\quad {\\mathbf{u}}\\in V.\n  \\end{aligned}$$\n\nWe say that a linear functional $f:V\\to K$ is *bounded* if there exists\na bound $B\\in{\\mathbb{R}}^+$ such that $$\\label{eq:bdef}\n    \\vert f({\\mathbf{u}})\\vert \\leq B {{\\operatorname{p}}({\\mathbf{u}})},\\quad {\\mathbf{u}}\\in V.$$\nIf $f$ is a bounded linear functional, we define $\\Vert f\\Vert$, the\nnorm of $f$, according to\n$$\\Vert f \\Vert = \\sup \\{ \\vert f({\\mathbf{u}})\\vert : {{\\operatorname{p}}({\\mathbf{u}})} = 1 \\}.$$\nOne can show that $\\Vert f\\Vert$ is the infimum of all the possible $B$\nthat satisfy\n\nLet $f:U\\to K$ be a bounded linear functional defined on a subspace\n$U\\subset V$. Let $\\Vert f \\Vert_U$ denote the norm of $f$ relative to\nthe restricted seminorm on $U$. Then there exists a bounded extension\n$F:V\\to K$ with the same norm, i.e. $$\\Vert F\\Vert_V = \\Vert f\\Vert_U.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HahnBanachTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hahn-Banach theorem"
+  ]
+}

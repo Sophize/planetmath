@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The series $a_1\\!+\\!a_2\\!+\\!a_3\\!+\\cdots$ with positive is\n\n-   convergent if, starting from some value of $n$, its fulfil the\n    condition $$\\frac{a_{n+1}}{a_n} \\leqq 1-\\frac{\\mu}{n}$$ where $\\mu$\n    is a and $> 1$;\n\n-   divergent if, starting from some value of $n$, its fulfil the\n    condition $$\\frac{a_{n+1}}{a_n} \\geqq 1-\\frac{1}{n}-\\frac{M}{n^2}$$\n    where $M$ is a .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RaabesCriteria"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Raabe's criteria"
+  ]
+}

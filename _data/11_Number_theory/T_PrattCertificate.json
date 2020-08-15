@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Pratt certificate*]{} for a given integer $n$ is a primality\ncertificate in which the numbers allow verification of primality by\nusing the converse of Fermat\u2019s little theorem (or Lehmer\u2019s theorem).\nGenerating a Pratt certificate requires knowledge of the prime\nfactorization of $n - 1$ (the primes $p_i$). Then, one must find a\nwitness $w$ such that $w^{n - 1} \\equiv 1 \\mod n$ but not\n$$w^{\\frac{n - 1}{p_i}} \\equiv 1 \\mod n$$ for any $i \\leq \\omega(n - 1)$\n(with $\\omega(x)$ being the number of distinct prime factors function).\nPratt certificates typically include witnesses not just for $n$ but also\nfor the prime factors of $n - 1$.\n\nBecause a Pratt certificate requires the factorization of $n - 1$, it is\ngenerally only used for small numbers, with \u201csmall\u201d being roughly\ndefined as being less than about a billion. We\u2019ll use a much smaller\nnumber for our example, one for which it would actually be faster to\njust perform trial division: $n = 127$. We then have to factor 126,\nwhich gives us 2, 3, 3, 7. Choosing our witness $w = 12$, we then see\nthat $12^{126} \\equiv 1 \\mod 127$ but $12^{63} \\equiv -1 \\mod 127$,\n$12^{42} \\equiv 107 \\mod 127$ and $12^{18} \\equiv 8 \\mod 127$. Most\nalgorithms for the Pratt certificate generally hard-code 2 as a prime\nnumber, but provide certificates for the other primes in the\nfactorization. For this example we won\u2019t bother to give certificates for\n3 and 7.",
+  "language": "INFORMAL",
+  "phrase": "Pratt Certificate",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrattCertificate"
+    }
+  ],
+  "indexable": true
+}

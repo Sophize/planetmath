@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Lychrel number* is a number which never yields a palindrome in the\niterative process of adding to itself a copy of itself with digits\nreversed. For example, if we start with the number 983 we get:\n\n-   $983+389 = 1372$\n\n-   $1372+2731 = 4103$\n\n-   $4103+3014 = 7117$\n\nSo in 3 steps we get a palindrome, hence 983 is not a Lychrel number.\n\nIn fact, it is not known if there exist any Lychrel numbers in base 10\n(numbers colloquially called \u201cLychrel numbers\u201d in base 10 are in fact\njust *Lychrel candidates*). However, in base 2 for example, there have\nbeen numbers proven to be Lychrel numbers[^1]. The first Lychrel\ncandidate is 196:\n\n-   $196+691 = 887$\n\n-   $887+788 = 1675$\n\n-   $1675+5761 = 7436$\n\n-   $7436+6347 = 13783$\n\n-   $13783+38731 = 52514$\n\n-   $52514+41525 = 94039$\n\n-   $94039+93049 = 187088$\n\n-   $187088+880781 = 1067869$\n\n-   $\\ldots$\n\nThis has been followed out to millions of digits, with no palindrome\nfound in the sequence.\n\nThe following table gives the number of Lychrel candidates found within\nascending ranges:\n\n              Range              Possible Lychrels\n  ----------------------------- -------------------\n             0 - 100                     0\n           100 - 1,000                   2\n         1,000 - 10,000                  3\n        10,000 - 100,000                69\n       100,000 - 1,000,000              99\n    10,000,000 - 100,000,000           1728\n   100,000,000 - 1,000,000,000        29,813\n\n[9]{}\n\nWade VanLandingham, John Walker,\n\n[^1]: [@walker] informs us that Ronald Sprague has proved that the\n    number 10110, for example, is a Lychrel number is base 2.",
+  "language": "INFORMAL",
+  "phrase": "Lychrel Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LychrelNumber"
+    }
+  ],
+  "indexable": true
+}

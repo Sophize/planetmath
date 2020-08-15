@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The following results generalize the Stone-Weierstrass theorem (and its\n) for locally compact spaces. The cost of this generalization is that\none no longer deals with all continuous functions, but only those that\nvanish at infinity.\n\nReal version {#real-version .unnumbered}\n------------\n\n[**Theorem -**]{} Let $ X$ be a locally compact space and\n$C_0(X, \\mathbb{R})$ the algebra of continuous functions\n$X \\to \\mathbb{R}$ that , endowed with the sup norm\n$\\Vert \\cdot \\Vert _{\\infty}$. Let $\\mathcal{A}$ be a subalgebra of\n$C_0(X; \\mathbb{R})$ for which the following conditions hold:\n\n1.  $\\forall x, y \\in X, x \\ne y, \\exists f \\in \\mathcal{A} : f(x) \\neq f(y)\\;$,\n    i.e. $ \\mathcal{A}$ separates points.\n\n2.  For each $x \\in X$ there exists $f \\in \\mathcal{A}$ such that\n    $f(x) \\neq 0$.\n\nThen $\\mathcal{A}$ is dense in $C_0(X; \\mathbb{R})$.\n\nComplex version {#complex-version .unnumbered}\n---------------\n\n[**Theorem -**]{} Let $X$ be a locally compact space and $C_0(X)$ the\nalgebra of continuous functions $X \\to \\mathbb{C}$ that vanish at\ninfinity, endowed with the sup norm $\\Vert \\cdot \\Vert _{\\infty}$. Let\n$\\mathcal{A}$ be a subalgebra of $C_0(X)$ for which the following\nconditions hold:\n\n1.  $\\forall x, y \\in X, x \\ne y, \\exists f \\in \\mathcal{A} : f(x) \\neq f(y)\\;$,\n    i.e. $\\mathcal{A}$ separates points.\n\n2.  For each $x \\in X$ there exists $f \\in \\mathcal{A}$ such that\n    $f(x) \\neq 0$.\n\n3.  If $f \\in \\mathcal{A}$ then $\\overline{f} \\in \\mathcal{A}\\;$, i.e.\n    $ \\mathcal{A}$ is a self-adjoint subalgebra of $ C(X)$.\n\nThen $\\mathcal{A}$ is dense in $C_0(X)$.",
+  "language": "INFORMAL",
+  "phrase": "Stone-Weierstrass Theorem For Locally Compact Spaces",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StoneWeierstrassTheoremForLocallyCompactSpaces"
+    }
+  ],
+  "indexable": true
+}

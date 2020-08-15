@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} Suppose $\\{X_\\alpha\\}_{\\alpha\\in A}$ is a collection of\nHausdorff spaces. Then the generalized Cartesian product\n$ \\prod_{\\alpha\\in A} X_\\alpha $ equipped with the product topology is a\nHausdorff space.\n\n*Proof.* Let $Y=\\prod_{\\alpha\\in A} X_\\alpha$, and let $x,y$ be distinct\npoints in $Y$. Then there is an index $\\beta \\in A$ such that $x(\\beta)$\nand $y(\\beta)$ are distinct points in the Hausdorff space $X_\\beta$. It\nfollows that there are open sets $U$ and $V$ in $X_\\beta$ such that\n$x(\\beta)\\in U$, $y(\\beta) \\in V$, and $U\\cap V = \\emptyset$. Let\n$\\pi_\\beta$ be the projection operator $Y\\to X_\\beta$ defined . By the\ndefinition of the product topology, $\\pi_\\beta$ is continuous, so\n$\\pi_\\beta^{-1}(U)$ and $\\pi_\\beta^{-1}(V)$ are open sets in $Y$. Also,\nsince the , we have that $$\\begin{aligned}\n\\pi_\\beta^{-1}(U) \\cap \\pi_\\beta^{-1}(V) &=& \\pi_\\beta^{-1} \\big(U \\cap V\\big) \\\\\n &=& \\emptyset.\\end{aligned}$$ Finally, since $x(\\beta)\\in U$, i.e.,\n$\\pi_\\beta(x)\\in U$, it follows that $x\\in \\pi_\\beta^{-1}(U)$.\nSimilarly, $y\\in \\pi_\\beta^{-1}(V)$. We have shown that $U$ and $V$ are\nopen disjoint neighborhoods of $x$ respectively $y$. In other words, $Y$\nis a Hausdorff space. $\\Box$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProductTopologyPreservesTheHausdorffProperty"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "product topology preserves the Hausdorff property"
+  ]
+}

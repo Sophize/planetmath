@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a topological space and $(x_\\alpha)_{\\alpha\\in A}$ a net in\n$X$. A point $x\\in X$ is an accumulation point of $(x_\\alpha)$ if and\nonly if some subnet of $(x_\\alpha)$ converges to $x$.\n\nSuppose first that $(x_{\\alpha_\\beta})_{\\beta\\in B}$ is a subnet of\n$(x_\\alpha)$ converging to $x$. Given an open subset $U$ of $X$\ncontaining $x$ and $\\alpha\\in A$, we may select $\\beta_1\\in B$ such that\n$x_{\\alpha_\\beta}\\in U$ for $\\beta\\geq\\beta_1$, as well as\n$\\beta_2\\in B$ such that $\\alpha_{\\beta}\\geq\\alpha$ for\n$\\beta\\geq\\beta_2$. Finally, because $B$ is directed, there exists\n$\\beta\\in B$ such that $\\beta\\geq\\beta_1$ and $\\beta\\geq\\beta_2$; we\nthen have $\\alpha_\\beta\\geq\\alpha$ and $x_{\\alpha_\\beta}\\in U$, so that\n$(x_\\alpha)$ is frequently in $U$, whence $x$ is an accumulation point\nof $(x_\\alpha)$. Conversely, suppose that $x$ is an accumulation point\nof $(x_\\alpha)$, let $N$ be the set of open neighborhoods of $x$ in $X$,\ndirected by reverse inclusion, and let $B=A\\times N$, directed in the\nnatural way. For each pair $(\\gamma,U)\\in B$, select\n$\\alpha_{(\\gamma,U)}\\in B$ such that $\\alpha\\geq\\gamma$ and\n$x_{\\alpha_{(\\gamma,U)}}\\in U$;\n$(x_{\\alpha_{(\\gamma,U)}})_{(\\gamma,U)\\in B}$ is then a subnet of\n$(x_\\alpha)$ that converges to $x$, for given $U\\in N$ and\n$\\gamma\\in A$, if $(\\gamma^\\prime,U^\\prime)\\geq(\\gamma,U)$, then\n$\\alpha_{(\\gamma^\\prime,U)}\\geq\\gamma^\\prime\\geq\\gamma$ and\n$x_{\\alpha_{(\\gamma^\\prime,U^\\prime)}}\\in U^\\prime\\subseteq U$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AccumulationPointsAndConvergentSubnets"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "accumulation points and convergent subnets"
+  ]
+}

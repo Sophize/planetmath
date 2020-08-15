@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $p$ be an odd prime and $n$ an integer such that $(n,p)=1$ (that is,\n$n$ and $p$ are relatively prime).\n\nThen $(n|p)\\equiv n^{(p-1)/2}\\pmod{p}$ where $(n|p)$ is the Legendre\nsymbol.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulersCriterion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Euler's criterion"
+  ]
+}

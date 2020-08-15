@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "(See Lang, Exercise 54 p. 81) Suppose $G_1,\\ldots G_n$ are subgroups of\n$G$ that generate $G$. Suppose further that $G$ acts on a set $S$ and\nthat there are subsets $S_1,S_2,\\ldots S_n\\subset S$, and some\n$s\\in S-\\cup S_i$ such that for each $1\\leq i\\leq n$, the following\nholds for each $g\\in G_i, g\\neq e$:\n\n-   $g(S_j)\\subset S_i$ if $j\\neq i$, and\n\n-   $g(s)\\in S_i$.\n\nThen $G=G_1\\star\\ldots\\star G_n$ (where $\\star$ denotes the free\nproduct).\n\n**Proof:** Any $g\\in G$ can be written $g=g_1g_2\\ldots g_k$ with\n$g_i\\in G_{j_i}, j_i\\neq j_{i+1}, g_i\\neq e$, since the $G_i$ generate\n$G$. Thus there is a surjective homomorphism\n$\\phi:\\coprod G_i\\twoheadrightarrow G$ (since $\\coprod G_i$, as the\ncoproduct, has this universal property). We must show $\\ker \\phi$ is\ntrivial. Choose $g_1g_2\\ldots g_k$ as above. Then $g_k(s)\\in S_{j_k}$,\n$g_{k-1}(g_k(s))\\in S_{j_{k-1}}$, and so forth, so that\n$g_1(g_2(\\ldots(g_k(s)\\ldots)\\in S_{j_1}$. But $e(s)=s\\notin S_{j_1}$.\nThus $\\phi(g_1g_2\\ldots g_k) \\neq e$, and $\\phi$ is injective.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FreeProductsAndGroupActions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "free products and group actions"
+  ]
+}

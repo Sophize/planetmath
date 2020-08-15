@@ -1,0 +1,17 @@
+{
+  "argumentText": "Since $\\det Df(a)\\neq 0$ the Jacobian matrix $Df(a)$ is invertible: let\n$A=(Df(a))^{-1}$ be its inverse. Choose $r>0$ and $\\rho>0$ such that\n$$B=\\overline{B_\\rho(a)} \\subset E,$$\n$$\\Vert Df(x) - Df(a)\\Vert \\le \\frac{1}{2n\\Vert A \\Vert}\\quad\n\\forall x \\in B,$$ $$r\\le \\frac{\\rho}{2\\Vert A\\Vert}.$$\n\nLet $y\\in B_r(f(a))$ and consider the mapping\n$$T_y \\colon B \\to {\\mathbb R}^n$$ $$T_y(x) = x + A\\cdot(y-f(x)).$$ If\n$x\\in B$ we have $$\\Vert D T_y(x)\\Vert = \\Vert 1- A\\cdot Df(x)\\Vert\n  \\le \\Vert A\\Vert \\cdot \\Vert Df(a) - Df(x)\\Vert \\le \\frac{1}{2n}.$$\nLet us verify that $T_y$ is a contraction mapping. Given $x_1,x_2\\in B$,\nby the Mean-value Theorem on ${\\mathbb R}^n$ we have\n$$\\vert T_y(x_1) - T_y(x_2)\\vert \\le \n   \\sup_{x\\in[x_1,x_2]} n \\Vert DT_y(x)\\Vert \\cdot\n  \\vert x_1 - x_2\\vert \\le \\frac 1 2 \\vert x_1 -x_2\\vert.$$ Also notice\nthat $T_y(B)\\subset B$. In fact, given $x\\in B$, $$\\vert T_y(x)-a\\vert \n\\le \\vert T_y(x) - T_y(a)\\vert + \\vert T_y(a)-a\\vert\n\\le \\frac 1 2 \\vert x -a\\vert + \\vert A\\cdot (y-f(a))\\vert\n\\le \\frac \\rho 2 + \\Vert A\\Vert r \\le \\rho.$$\n\nSo $T_y\\colon B\\to B$ is a contraction mapping and hence by the\ncontraction principle there exists one and only one solution to the\nequation $$T_y(x)=x,$$ i.e. $x$ is the only point in $B$ such that\n$f(x)=y$.\n\nHence given any $y\\in B_r(f(a))$ we can find $x\\in B$ which solves\n$f(x)=y$. Let us call $g\\colon B_r(f(a))\\to B$ the mapping which gives\nthis solution, i.e. $$f(g(y))=y.$$\n\nLet $V=B_r(f(a))$ and $U=g(V)$. Clearly $f\\colon U \\to V$ is one to one\nand the inverse of $f$ is $g$. We have to prove that $U$ is a\nneighbourhood of $a$. However since $f$ is continuous in $a$ we know\nthat there exists a ball $B_\\delta(a)$ such that\n$f(B_\\delta(a))\\subset B_r(y_0)$ and hence we have\n$B_\\delta(a)\\subset U$.\n\nWe now want to study the differentiability of $g$. Let $y\\in V$ be any\npoint, take $w\\in {\\mathbb R}^n$ and $\\epsilon>0$ so small that\n$y+\\epsilon w\\in V$. Let $x=g(y)$ and define\n$v(\\epsilon)=g(y+\\epsilon w)-g(y)$.\n\nFirst of all notice that being\n$$\\vert T_y(x+v(\\epsilon)) - T_y(x)\\vert \\le \\frac 1 2 \\vert v(\\epsilon)\\vert$$\nwe have\n$$\\frac 1 2 \\vert v(\\epsilon) \\ge \\vert v(\\epsilon)-\\epsilon A\\cdot w\\vert\n  \\ge \\vert v(\\epsilon)\\vert - \\epsilon\\Vert A\\Vert\\cdot \\vert w\\vert$$\nand hence\n$$\\vert v(\\epsilon)\\vert \\le 2\\epsilon \\Vert A\\Vert\\cdot\\vert w\\vert.$$\nOn the other hand we know that $f$ is differentiable in $x$ that is we\nknow that for all $v$ it holds $$f(x+v)-f(x) = Df(x)\\cdot v + h(v)$$\nwith $\\lim_{v\\to 0} h(v)/\\vert v\\vert = 0$. So we get\n$$\\frac{\\vert h(v(\\epsilon))\\vert}{\\epsilon}\n\\le \\frac{2\\Vert A\\Vert\\cdot \\vert w\\vert\\cdot \\vert h(v(\\epsilon))\\vert}\n{v(\\epsilon)} \\to 0 \\qquad\\mathrm{when}\\ \\epsilon\\to 0.$$ So\n$$\\lim_{\\epsilon\\to 0} \\frac {g(y+\\epsilon)-g(y)}{\\epsilon}\n  =\\lim_{\\epsilon\\to 0} \\frac {v(\\epsilon)}{\\epsilon}\n  = \\lim_{\\epsilon\\to 0} Df(x)^{-1}\\cdot \\frac{\\epsilon w - h(v(\\epsilon))}{\\epsilon}\n  = Df(x)^{-1}\\cdot w$$ that is $$Dg(y)=Df(x)^{-1}.$$",
+  "conclusion": "#P_InverseFunctionTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfInverseFunctionTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of inverse function theorem"
+  ]
+}

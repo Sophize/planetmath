@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $L$ be a regular language (a.k.a. type 3 language). Then there exist\nan integer $n$ such that, if the length of a word $W$ is greater than\n$n$, then $W = ABC$ where $A,B,C$ are subwords such that\n\n1.  The length of the subword $B$ is less than $n$.\n\n2.  The subword $B$ cannot be empty (although one of $A$ or $C$ might\n    happen to be empty).\n\n3.  For all integers $k > 0$, it is the case that $AB^kC$ belongs to\n    $L$, where exponentiation denotes repetition of a subword $k$ times.\n\nAn important use of this lemma is to show that a language is not\nregular. (Remember, just because a language happens to be described in\nterms of an irregular grammar does not automatically preclude the\npossibility of describing the same language also by a regular grammar.)\nThe idea is to assume that the language is regular, then arrive at a\ncontradiction via this lemma.\n\nAn example of such a use of this lemma is afforded by the language\n$$L = \\{0^p 1^q 0^p \\mid p,q > 0 \\}.$$ Let $n$ be the number whose\nexistence is guaranteed by the lemma. Now, consider the word\n$W = 0^{n+1} 1^{n+1} 0^{n+1}$. There must exist subwords $A,B,C$ such\nthat $W = ABC$ and $B$ must be of length less than $n$. The only\npossibilities are the following\n\n1.  $A = 0^u, B = 0^v, C = 0^{n+1-u-v} 1^{n+1} 0^{n+1}$\n\n2.  $A = 0^{n+1-u}, B = 0^u 1^v, C = 1^{n+1-v} 0^{n+1}$\n\n3.  $A = 0^{n+1} 1^v, B = 1^u, C = 1^{n+1-u-v} 0^{n+1}$\n\n4.  $A = 0^{n+1} 1^{n+1-v}, B = 1^v 0^u, C = 0^{n+1-u}$\n\n5.  $A = 0^{n+1} 1^{n+1} 0^u, B = 0^v, C = 0^{n+1-u-v}$\n\nIn these cases, $AB^2C$ would have the following form:\n\n1.  $AB^2C = 0^{n+1+v} 1^{n+1} 0^{n+1}$\n\n2.  $AB^2C = 0^{n+1} 1^v 0^u 1^{n+1} 0^{n+1}$\n\n3.  $AB^2C = 0^{n+1} 1^{n+1+u} 0^{n+1}$\n\n4.  $AB^2C = 0^{n+1} 1^{n+1} 0^u 1^v 0^{n+1}$\n\n5.  $AB^2C = 0^{n+1} 1^{n+1} 0^{n+1+u}$\n\nIt is easy to see that, in each of these five cases, $AB^2C \\notin L$.\nHence $L$ cannot be a regular language.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PumpingLemmaregularLanguages"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "pumping lemma (regular languages)",
+    "pumping lemma"
+  ]
+}

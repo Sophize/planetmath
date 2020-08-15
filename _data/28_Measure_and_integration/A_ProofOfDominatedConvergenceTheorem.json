@@ -1,0 +1,17 @@
+{
+  "argumentText": "It is not difficult to prove that $f$ is measurable. In fact we can\nwrite $$f(x)=\\sup_n \\inf_{k\\ge n} f_k(x)$$ and we know that measurable\nfunctions are closed under the $\\sup$ and $\\inf$ operation.\n\nConsider the sequence $g_n(x)=2\\Phi(x) - \\vert f(x)-f_n(x)\\vert$.\nClearly $g_n$ are nonnegative functions since $f-f_n\\le 2\\Phi$. So,\napplying Fatou\u2019s Lemma, we obtain $$\\begin{aligned}\n\\lefteqn{\\lim_{n\\to\\infty} \\int_X \\vert f-f_n\\vert\\, d\\mu \n\\le \\limsup_{n\\to \\infty} \\int_X \\vert f-f_n\\vert\\, d\\mu}\\\\\n& = & - \\liminf_{n\\to\\infty} \\int_X -\\vert f-f_n\\vert\\, d\\mu \\\\\n& = & \\int_X 2\\Phi\\, d\\mu - \\liminf_{n\\to\\infty}\\int_X 2\\Phi-\\vert f-f_n\\vert\\,d\\mu\\\\\n& \\le & \\int_X 2\\Phi\\, d\\mu - \\int_X 2\\Phi - \\limsup_{n\\to \\infty}\\vert f-f_n\\vert\\, d\\mu \\\\\n&= & \\int_X 2\\Phi\\, d\\mu - \\int_X 2\\Phi\\, d\\mu = 0.\\end{aligned}$$",
+  "conclusion": "#P_DominatedConvergenceTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfDominatedConvergenceTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of dominated convergence theorem"
+  ]
+}

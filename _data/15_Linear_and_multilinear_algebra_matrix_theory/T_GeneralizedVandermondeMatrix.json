@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "generalised Vandermonde matrix"
+  ],
+  "definition": "A *generalized Vandermonde matrix* is a square matrix with entries in\n$\\mathbb{R}$ of the form:\n\n$$(a_i^{b_j})_{i,j=1}^n = \\begin{pmatrix}\na_1^{b_1} & a_1^{b_2} & \\cdots & a_1^{b_n} \\cr\na_2^{b_1} & a_2^{b_2} & \\cdots & a_2^{b_n} \\cr\n\\vdots & \\vdots & & \\vdots \\cr\na_n^{b_1} & a_n^{b_2} & \\cdots & a_n^{b_n}\n\\end{pmatrix}$$ with real numbers $ 0<a_1<a_2<\\cdots<a_n$ and\n$ b_1<b_2<\\cdots<b_n$.",
+  "language": "INFORMAL",
+  "phrase": "Generalized Vandermonde Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedVandermondeMatrix"
+    }
+  ],
+  "indexable": true
+}

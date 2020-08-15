@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "well-pointed topoi",
+    "well-pointed"
+  ],
+  "definition": "The concept of well-pointed topoi was introduced by Freyd in\u00a0[@Fr]. A\ntopos is *well-pointed* if it satisfies either the following equivalent\nconditions:\n\n1.  The terminal object $1$ distinguishes morphisms in the sense that if\n    the diagram $$\\xymatrix{\n    1\\ar[r]^x & A\\ar@<1ex>[r]^f\\ar@<-1ex>[r]_g & B\n    }$$ commutes for every morphism $x\\colon 1\\to A$, then in fact\n    $$\\xymatrix{\n    A\\ar@<1ex>[r]^f\\ar@<-1ex>[r]_g & B\n    }$$ commutes, that is, $f=g$. Moreover, $1$ is not isomorphic to the\n    initial object.\n\n2.  The topos $\\mathcal{T}$ is complemented and supports split, and the\n    truth object $\\Omega$ of $\\mathcal{T}$ has exactly two elements,\n    $\\top\\colon 1\\to\\Omega$, and $\\bot\\colon 1\\to\\Omega$. To say that\n    $\\mathcal{T}$ is *complemented* means that if $m\\colon X\\to Y$ is a\n    monomorphism, then there exists a monomorphism $m'\\colon X'\\to Y$\n    such that $m\\sqcup m'\\colon X\\sqcup X'\\to Y$ is an isomorphism. To\n    say that $\\mathcal{T}$ *supports split* means that every subobject\n    of $1$ is projective.\n\nEvery well-pointed topos is a Boolean topos.\n\n[99]{} P.\u00a0Freyd. Aspects of topoi. [*Bull. Austral. Math. Soc.*]{}\n[**7**]{} (1972), 1\u201376.\n\nP.\u00a0T.\u00a0Johnstone. [*Topos theory*]{}. Academic Press, 1977.\n\nS.\u00a0Mac\u00a0Lane and I.\u00a0Moerdijk. [*Sheaves and Geometry in Logic: A First\nIntroduction to Topos Theory*]{}, Springer-Verlag, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Well-Pointed Topos",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WellpointedTopos"
+    }
+  ],
+  "indexable": true
+}

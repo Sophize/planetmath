@@ -1,0 +1,17 @@
+{
+  "argumentText": "First, let $\\mathcal{C}$ be the collection of bounded open intervals of\nthe real numbers. As this is a , shows that any measure defined on the\n$\\sigma$-algebra $\\sigma(\\mathcal{C})$ is uniquely determined by its\nvalues restricted to $\\mathcal{C}$. It remains to prove the existence of\nsuch a measure.\n\nDefine the length of an interval as $p((a,b))=b-a$ for $a<b$. The\nLebesgue outer measure\n$\\mu^*\\colon\\mathcal{P}(X)\\rightarrow\\mathbb{R}_+\\cup\\{\\infty\\}$ is\ndefined as $$\\label{eq:1}\n\\mu^*(A)=\\inf\\left\\{\\sum_{i=1}^\\infty p(A_i): A_i\\in\\mathcal{C},\\ A\\subseteq\\bigcup_{i=1}^\\infty A_i\\right\\}.$$\nThis is indeed an (see construction of outer measures) and, furthermore,\nfor any interval of the form $(a,b)$ it agrees with the standard\ndefinition of length, $\\mu^*((a,b))=p((a,b))=b-a$ (see ).\n\nWe show that intervals $(-\\infty,a)$ are . Choosing any $\\epsilon > 0$\nand interval $A\\in\\mathcal{C}$ the definition of $p$ gives\n$$p(A)=p(A\\cap(-\\infty,a))+p(A\\cap(a,\\infty)).$$ So, choosing an\narbitrary set $E\\subseteq\\mathbb{R}$ and a sequence $A_i\\in\\mathcal{C}$\ncovering $E$, $$\\begin{split}\n\\sum_{i=1}^\\infty p(A_i) &=\\sum_{i=1}^\\infty p(A_i\\cap (-\\infty,a))+\\sum_{i=1}^\\infty p(A_i\\cap(a,\\infty))\\\\\n&\\ge \\mu^*(E\\cap(-\\infty,a))+\\mu^*(E\\cap(a,\\infty)).\n\\end{split}$$ So, from equation (\\[eq:1\\]) $$\\label{eq:2}\n\\mu^*(E)\\ge \\mu^*(E\\cap(-\\infty,a))+\\mu^*(E\\cap(a,\\infty)).$$ Also,\nchoosing any $\\epsilon>0$ and using the subadditivity of $\\mu^*$,\n$$\\begin{split}\n\\mu^*(E\\cap(a,\\infty))&\\ge\\mu^*(E\\cap(a-\\epsilon,\\infty))-\\mu^*(E\\cap(a-\\epsilon,a+\\epsilon))\\\\\n&\\ge\\mu^*(E\\cap[a,\\infty))-\\mu^*((a-\\epsilon,a+\\epsilon))\\\\\n&=\\mu^*(E\\cap[a,\\infty))-2\\epsilon.\n\\end{split}$$ As $\\epsilon>0$ is arbitrary,\n$\\mu^*(E\\cap(a,\\infty))\\ge\\mu^*(E\\cap[a,\\infty))$ and substituting into\n(\\[eq:2\\]) shows that\n$$\\mu^*(E)\\ge \\mu^*(E\\cap(-\\infty,a))+\\mu^*(E\\cap[a,\\infty)).$$\nConsequently, intervals of the form $(-\\infty,a)$ are\n$\\mu^*$-measurable. As such intervals generate the Borel\n$\\sigma$-algebra and, by Caratheodory\u2019s lemma, the $\\mu^*$-measurable\nsets form a $\\sigma$-algebra on which $\\mu^*$ is a measure, it follows\nthat the restriction of $\\mu^*$ to the Borel $\\sigma$-algebra is itself\na measure.",
+  "conclusion": "#P_ExistenceOfTheLebesgueMeasure",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfExistenceOfTheLebesgueMeasure"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of existence of the Lebesgue measure"
+  ]
+}

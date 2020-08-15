@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $A$ and $D$ are square matrices\n\n-   If $A^{-1}$ exists, then\n    $$\\det \\begin{pmatrix} A & B \\\\ C & D \\end{pmatrix}=\\det(A)\\det(D-CA^{-1}B)\\\\$$\n\n-   If $D^{-1}$ exists, then\n    $$\\det \\begin{pmatrix} A & B \\\\ C & D \\end{pmatrix}=\\det(D)\\det(A-BD^{-1}C)$$\n\nThe matrices $D-CA^{-1}B$ and $A-BD^{-1}C$ are called the Schur\ncomplements of $A$ and $D$, respectively.\\\nMention that\n\n-   If $A$, $D$ are square matrices, then\n    $$\\det \\begin{pmatrix} A & B \\\\ O & D \\end{pmatrix}=\\det(A) \\det(D)$$,\n    where $O$ is a zero matrix.\n\n-   Also we have that\n    $$\\det \\begin{pmatrix} A & O \\\\ O & B \\end{pmatrix}=\\det(A)\\det(B).$$\n\n-   Another useful result for block determinants is the following.\\\n    As $J=\\begin{pmatrix} O & I \\\\ -I & O \\end{pmatrix}$ is a symplectic\n    matrix, we have that $\\det J=1$. Using now the fact that\n    $\\det MN= \\det(M) \\det(N)$ for any $M$, $N$ square matrices, we have\n    that $$\\det \\begin{pmatrix} O & A \\\\ B & O \\end{pmatrix}\n    =\\det \\begin{pmatrix} O & A \\\\ B & O \\end{pmatrix}\\det J\n    =-\\det(A)\\det(B)$$\n\nThis holds for any square matrices $A$,$B$ and for the last point\n$A$,$B$ have also the same order. They do not need to be invertible.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BlockDeterminants"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "block determinants"
+  ]
+}

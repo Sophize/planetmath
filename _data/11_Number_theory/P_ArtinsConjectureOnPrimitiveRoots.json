@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $m$ be a number in the list $2,4,p^k$ or $2p^k$ for some $k\\geq 1$.\nThen we know that $m$ has a primitive root, but finding one can be a\nrather challenging problem (theoretically and computationally).\n\nGauss conjectured that the number $10$ is a primitive root for\ninfinitely many primes $p$. Much later, in $1927$, Emil Artin made the\nfollowing conjecture:\n\nLet $n$ be an integer not equal to $-1$ or a square. Then $n$ is a\nprimitive root for infinitely many primes $p$.\n\nHowever, up to now, nobody has been able to show that a single integer\n$n$ is a primitive root for infinitely many primes. It can be shown that\nthe number $3$ is a primitive root for every Fermat prime but,\nunfortunately, the existence of infinitely many Fermat primes is far\nfrom obvious, and in fact it is quite dubious (only five Fermat primes\nare known!).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArtinsConjectureOnPrimitiveRoots"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Artin's conjecture on primitive roots",
+    "Artin's conjecture"
+  ]
+}

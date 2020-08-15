@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A $n \\times n$ matrix is *equitable* if and only if it can be expressed\nin the form $$m_{ij} = \\exp (\\lambda_i - \\lambda_j)$$ for real numbers\n$\\lambda_1, \\lambda_2, \\ldots, \\lambda_n$ with $\\lambda_1 = 0$.\n\nAssume that $m_{ij}$ are the entries of an equitable matrix.\n\nSince all the elements of an equitable matrix are positive by\ndefinition, we can write $$m_{ij} = \\exp \\mu_{ij}$$ with the quantities\n$\\mu_{ij}$ being real numbers (which may be positive, negative or zero).\n\nIn terms of this representation, the defining identity for an equitable\nmatrix becomes $$\\mu_{ik} = \\mu_{ij} + \\mu_{jk}$$ Since this comprises a\nsystem of linear equations for the quantities $\\mu_{ij}$, we could solve\nit using the usual methods of matrix theory. However, for this\nparticular system of linear equations, there is a much simpler approach.\n\nConsider the special case of the identity when $i=j=k$:\n$$\\mu_{ii} = \\mu_{ii} + \\mu_{ii}.$$ This simplifies to $$\\mu_{ii} = 0.$$\nIn other words, all the diagonal entries are zero.\n\nConsider the case when $i = k$ (but does not equal $j$).\n$$\\mu_{ij} + \\mu_{ji} = \\mu_{ii}$$ By wat we have just shown, the right\nhand side of this equation equals zero. Hence, we have\n$$\\mu_{ij} = - \\mu_{ji}.$$ In other words, the matrix of $\\mu$\u2019s is\nantisymmetric.\n\nWe may express any entry in terms of the $n$ entries $\\mu_{i1}$:\n$$\\mu_{ij} = \\mu_{i1} + \\mu_{1j} = \\mu_{i1} - \\mu_{j1}$$\n\nWe will conclude by noting that if, given any $n$ numbers $\\lambda_i$\nwith $\\lambda_1 = 0$, but the remaining $\\lambda$\u2019s arbitrary, we define\n$$\\mu_{ij} = \\lambda_i - \\lambda_j,$$ then\n$$\\mu_{ij} + \\mu_{jk} = \\lambda_i - \\lambda_j + \\lambda_j - \\lambda_k = \\lambda_i - \\lambda_k = \\mu_{ik}$$\nHence, we obtain a solution of the equations\n$$\\mu_{ik} = \\mu_{ij} + \\mu_{jk}.$$ Moreover, by what we what we have\nseen, if we set $\\lambda_i = \\mu_{i1}$, all solutions of these equations\ncan be so described.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ParameterizationOfEquitableMatrices"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "parameterization of equitable matrices"
+  ]
+}

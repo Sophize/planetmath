@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be a commutative ring with partial ordering $A^+$ and suppose\nthat $B$ is a ring that admits a partial ordering. If\n$f:A \\rightarrow B$ is a ring monomorphism (thus we regard $B$ as an\nover-ring of $A$), then any partial ordering of $B$ that can contain\n$f(A^+)$ will also contain the set $B^+\\subset B$ defined by\n$$B^+ :=\\{\\sum_{i=1}^n f(a_i)b_i^2  : n\\in {\\mathbb{N}},a_1,\\dots,a_n\\in A^+\\}$$\n$B^+$ is itself a partial ordering and it is called the *weakest partial\nordering of $B$ that extends $A^+$ (through $f$)*. It is called\n\u201cweakest\u201d because this is the smallest partial ordering $B^+$ of $B$\nthat will transform $f$ into a poring monomorphism (i.e. a monomorphism\nin the category of partially ordered rings)\n$f:(A,A^+)\\rightarrow (B,B^+)$ (for simplicity, we abuse the symbol $f$\nhere).",
+  "language": "INFORMAL",
+  "phrase": "Weakest Extension Of A Partial Ordering",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeakestExtensionOfAPartialOrdering"
+    }
+  ],
+  "indexable": true
+}

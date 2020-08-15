@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Knodel number"
+  ],
+  "definition": "The [*Kn\u00f6del numbers*]{} $K_n$ for a given positive integer $n$ are the\nset of composite integers $m > n$ such that any $b < m$ coprime to $m$\nsatisfies $b^{m - n} \\equiv 1 \\mod m$. The Carmichael numbers are $K_1$.\nThere are infinitely many Knodel number $K_n$ for a given $n$, something\nwhich was first proven only for $n > 2$. Erd\u0151s speculated that this was\nalso true for $n = 1$ but two decades passed before this was\nconclusively proved by Alford, Granville and Pomerance.\n\n[5]{} W. R. Alford, A. Granville, and C. Pomerance. \u201cThere are\nInfinitely Many Carmichael Numbers\u201d [*Annals of Mathematics*]{}\n[**139**]{} (1994): 703 - 722 P. Ribenboim, [*The Little Book of Bigger\nPrimes*]{}, (2004), New York: Springer-Verlag, p. 102.",
+  "language": "INFORMAL",
+  "phrase": "Kn\\\"Odel Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KnodelNumber"
+    }
+  ],
+  "indexable": true
+}

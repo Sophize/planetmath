@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S \\subseteq \\mathbb{R}$, and let $S'$ be the complement of $S$ with\nrespect to $\\mathbb{R}$. The set $S$ is said to be *Lebesgue measurable*\nif, for any $A \\subseteq \\mathbb{R}$,\n\n$$m^{*}(A) = m^{*}(A \\cap S) + m^{*}(A \\cap S')$$\n\nwhere $m^{*}(S)$ is the Lebesgue outer measure of $S$. If $S$ is\nLebesgue measurable, then we define the *Lebesgue measure* of $S$ to be\n$m(S) = m^{*}(S)$. The Lebesgue measurable sets include open sets,\nclosed sets as well all the sets obtained from them by taking countable\nunions and intersections. However, with aid of the axiom of choice it is\npossible to construct non-measurable sets.\n\nThe Lebesgue measure on $\\mathbb{R}^n$ is the of the $n$-fold product\nmeasure of the Lebesgue measure on $\\mathbb{R}$.\n\nThe Lebesgue measure is a formalization of the intuitive notion of\nlength of a set in $\\mathbb{R}$, an area of a set in $\\mathbb{R}^2$ and\nvolume in $\\mathbb{R}^3$, etc. It obeys many properties one would expect\nfrom these intuitive notions, such as invariance under translation and\nrotation.\n\nThe Lebesgue measure was introduced by Henri Lebesgue in the first\ndecade of the twentieth century. It became the prototypical example of\nwhat later became known simply as measure, a concept which unified such\ndiverse objects as area, probability, and function.",
+  "language": "INFORMAL",
+  "phrase": "Lebesgue Measure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LebesgueMeasure"
+    }
+  ],
+  "indexable": true
+}

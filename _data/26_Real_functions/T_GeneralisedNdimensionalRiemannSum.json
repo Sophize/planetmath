@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $I = [a_1, b_1] \\times \\cdots \\times [a_N, b_N]$ be an $N$-cell in\n${\\mathbb{R}}^N$. For each $j = 1, \\ldots, N$, let\n$a_j = t_{j,0} < \\ldots < t_{j,N} = b_j$ be a partition $P_j$ of\n$[a_j, b_j]$. We define a partition $P$ of $I$ as\n$$P := P_1 \\times \\cdots \\times P_N$$ Each partition $P$ of $I$\ngenerates a subdivision of $I$ (denoted by $(I_\\nu)_\\nu$) of the form\n$$I_\\nu = [t_{1,j},t_{1,j+1}]\\times \\cdots \\times [t_{N,k},t_{N,k+1}]$$\n\nLet $f : U \\to {\\mathbb{R}}^M$ be such that $I \\subset U$, and let\n$(I_\\nu)_\\nu$ be the corresponding subdivision of a partition $P$ of\n$I$. For each $\\nu$, choose $x_\\nu \\in I_\\nu$. Define\n$$S(f,P) := \\sum_\\nu f(x_\\nu)\\mu(I\\nu)$$ As the Riemann sum of $f$\ncorresponding to the partition $P$.\n\nA partition $Q$ of $I$ is called a refinement of $P$ if $P \\subset Q$.",
+  "language": "INFORMAL",
+  "phrase": "Generalised N-Dimensional Riemann Sum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralisedNdimensionalRiemannSum"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "height"
+  ],
+  "definition": "Suppose we have an algebraic number such that the polynomial of smallest\ndegree it is a root of (with the co-efficients relatively prime) is\ngiven by:\n\n$$\\sum_{i=0}^n a_i x^i .$$\n\nThen the height $h$ of the algebraic number is given by:\n\n$$h = n + \\sum_{i=0}^n |a_i| .$$\n\nThis is a quantity which is used in the proof of the existence of\ntranscendental numbers.\n\n[99]{} Shaw, R. Mathematics Society Notes, 1st edition. King\u2019s School\nChester, 2003. Stewart, I. Galois Theory, 3rd edition. Chapman and Hall,\n2003. Baker, A. Transcendental Number Theory, 1st edition. Cambridge\nUniversity Press, 1975.",
+  "language": "INFORMAL",
+  "phrase": "Height Of An Algebraic Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HeightOfAnAlgebraicNumber"
+    }
+  ],
+  "indexable": true
+}

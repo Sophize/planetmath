@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A grammar is said to be of *Chomsky normal form* if every production has\neither of the two forms $$A \\to BC \\qquad \\mbox{ or } \\qquad A \\to a$$\nwhere $A,B,C$ are non-terminal symbols, and $a$ is a terminal symbol.\n\nGrammars of this sort are context-free, hence they describe context-free\nlanguages. Moreover, given any context-free language not containing the\nempty word $\\lambda$, there exists a Chomsky normal form grammar which\ndescribes it.",
+  "language": "INFORMAL",
+  "phrase": "Chomsky Normal Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChomskyNormalForm"
+    }
+  ],
+  "indexable": true
+}

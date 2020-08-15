@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*silver ratio*]{} is the sum of 1 and the square root of 2,\nrepresented by the Greek letter delta with a subscript S. That is,\n$\\delta_S = 1 + \\sqrt{2}$, with an approximate value of\n2.4142135623730950488 (see A014176 in Sloane\u2019s OEIS). Its continued\nfraction is $$2 + \\frac{1}{2 + \\frac{1}{2 + \\frac{1}{2 + \\ddots}}},$$\nwhich suggests that the Pell numbers $P_n$ can be used as convergents.\nSimilarly, the $n$th power of the silver ratio for $n > 0$ is\n$P_n\\delta_S + P_{n - 1}$.",
+  "language": "INFORMAL",
+  "phrase": "Silver Ratio",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SilverRatio"
+    }
+  ],
+  "indexable": true
+}

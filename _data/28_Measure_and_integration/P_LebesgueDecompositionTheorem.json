@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mu$ and $\\nu$ be two $\\sigma$-finite signed measures in the\nmeasurable space $(\\Omega,\\mathscr{S})$. There exist two signed measures\n$\\nu_0$ and $\\nu_1$ such that:\n\n1.  $\\nu=\\nu_0+\\nu_1$;\n\n2.  $\\nu_0\\ll\\mu$ (i.e. $\\nu_0$ is absolutely continuous with respect to\n    $\\mu$;)\n\n3.  $\\nu_1\\perp\\mu$ (i.e. $\\nu_1$ and $\\mu$ are singular.)\n\nThese two measures are uniquely determined.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LebesgueDecompositionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lebesgue decomposition theorem"
+  ]
+}

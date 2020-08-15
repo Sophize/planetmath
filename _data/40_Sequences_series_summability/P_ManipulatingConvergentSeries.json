@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The of the series in the following theorems are supposed to be either\nreal or complex numbers.\n\nIf the series $a_1+a_2+\\cdots$ and $b_1+b_2+\\cdots$ converge and have\nthe sums $a$ and $b$, respectively, then also the series\n$$\\begin{aligned}\n           (a_1+b_1)+(a_2+b_2)+\\cdots\\end{aligned}$$ converges and has\nthe sum $a\\!+\\!b$.\n\n[*Proof.*]{} The $n^\\mathrm{th}$ partial sum of (1) has the limit\n$$\\lim_{n\\to\\infty}\\sum_{j = 1}^n(a_j+b_j) = \n\\lim_{n\\to\\infty}\\sum_{j = 1}^na_j+\\lim_{n\\to\\infty}\\sum_{j = 1}^nb_j = a\\!+\\!b.$$\n\nIf the series $a_1+a_2+\\cdots$ converges having the sum $a$ and if $c$\nis any , then also the series $$\\begin{aligned}\n              ca_1+ca_2+\\cdots\\end{aligned}$$ converges and has the sum\n$ca$.\n\n[*Proof.*]{} The $n^\\mathrm{th}$ partial sum of (2) has the limit\n$$\\lim_{n\\to\\infty}\\sum_{j = 1}^nca_j = c\\lim_{n\\to\\infty}\\sum_{j = 1}^na_j = \nca.$$\n\nIf the of any converging series $$\\begin{aligned}\na_1+a_2+a_3+\\cdots\\end{aligned}$$ are grouped arbitrarily without\nchanging their , then the resulting series $$\\begin{aligned}\n(a_1+\\cdots+a_{m_1})+(a_{m_1+1}+\\cdots+a_{m_2})+(a_{m_2+1}+\\cdots+a_{m_3})+\\cdots\\end{aligned}$$\nalso converges and its sum equals to the sum of (3).\n\n[*Proof.*]{} Since all the partial sums of (4) are simultaneously\npartial sums of (3), they have as limit the sum of the series (3).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ManipulatingConvergentSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "manipulating convergent series"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given integers $n \\ge m \\ge 0$ and a prime number $p$, then the power of\n$p$ dividing $\\binom{n}{m}$ is equal to the number of carries when\nadding $m$ and $n -m$ in base $p$.\n\nFor the proof we can allow of numbers in base $p$ with leading zeros. So\nlet $$\\begin{aligned}\nn_dn_{d-1}\\cdots n_0 & := n, \\\\\nm_dm_{d-1}\\cdots m_0 & := m,\\end{aligned}$$ all in base $p$. We set\n$r=n-m$ and denote the $p$-adic representation of $r$ with\n$r_dr_{d-1}\\cdots r_0$.\n\nWe define $c_{-1} =0$, and for each $0 \\le j \\le d$ $$c_j =\\begin{cases}\n1 & \\text{for $m_j +r_j \\ge p$} \\\\\n0 &\\text{otherwise.}\n\\end{cases}$$\n\nFinally, we introduce $\\delta_p(n)$ as the sum of digits in the $p$-adic\nof $n$. Then it follows that the power of $p$ dividing $\\binom{n}{m}$ is\n$$\\frac{\\delta_p(m) +\\delta_p(r) -\\delta_p(n)}{p-1}.$$ For each\n$j \\ge 0$, we have $$n_j =m_j +r_j +c_{j-1} -p.c_j.$$ Then\n$$\\begin{aligned}\n\\delta_p(m) +\\delta_p(r) -\\delta_p(n) &=\\sum_{k=0}^d \\left(m_k +r_k -n_k\\right)\n\\\\\n&=\\sum_{k=0}^d \\left((p-1)c_j\\right)\n&+\\sum_{k=0}^d \\left(c_j\n-c_{j-1}\\right) \\\\\n&=\\sum_{k=0}^d (p-1)c_j&+c_d -c_{-1}\\end{aligned}$$ This gives us\n$$\\frac{\\delta_p(m) +\\delta_p(r) -\\delta_p(n)}{p-1} =\\sum_{k=0}^d c_k,$$\nthe total number of carries.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KummersTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kummer's theorem"
+  ]
+}

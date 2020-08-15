@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $p\\colon V\\to {\\mathbb{R}}$ is a seminorm on a real (or complex)\nvector space $V$. Then\n\n1.  $p(0)=0$,\n\n2.  $p(v)\\ge 0$ for all $v\\in V$.\n\nProperty $1$ follows using homogeneity;\n$$p(0)=p(0\\cdot 0) = |0| p(0) =0.$$ Property $2$ follows using\nsublinearity and Property 1; $$0=p(0)=p(v-v) \\le p(v)+p(-v) = 2p(v).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BasicPropertiesOfSeminorms"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "basic properties of seminorms"
+  ]
+}

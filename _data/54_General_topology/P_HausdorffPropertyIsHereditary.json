@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A subspace of a Hausdorff space is Hausdorff.\n\nLet $ X$ be a Hausdorff space , and let $ Y$ be a subspace of $ X$. Let\n$y_1,y_2 \\in Y$ where $y_1\\neq y_2$. Since $X$ is Hausdorff, there are\ndisjoint neighborhoods $U_1$ of $y_1$ and $U_2$ of $y_2$ $\\in X$. Then\n$U_1 \\cap Y$ is a neighborhood of $y_1$ in $Y$ and $U_2 \\cap Y$ is a\nneighborhood of $y_2$ in $Y$, and $U_1 \\cap Y$ and $U_2 \\cap Y$ are\ndisjoint. Therefore, $Y$ is Hausdorff.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HausdorffPropertyIsHereditary"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hausdorff property is hereditary"
+  ]
+}

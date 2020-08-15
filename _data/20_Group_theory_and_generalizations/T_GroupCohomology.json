@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "cohomology"
+  ],
+  "definition": "Let $G$ be a group and let $M$ be a (left) $G$-module. The $0^{th}$\n*cohomology group* of the $G$-module $M$ is\n$$H^0(G,M)=\\{m\\in M: \\forall \\sigma \\in G,\\ \\sigma m=m\\}$$ which is the\nset of elements of $M$ which are $G$-invariant, also denoted by $M^G$.\n\nA map $\\phi\\colon G\\to M$ is said to be a *crossed homomorphism* (or\n*1-cocycle*) if $$\\phi(\\alpha\\beta)=\\phi(\\alpha)+\\alpha\\phi(\\beta)$$ for\nall $\\alpha,\\beta \\in G$. If we fix $m\\in M$, the map\n$\\rho\\colon G\\to M$ defined by $$\\rho(\\alpha)=\\alpha m-m$$ is clearly a\ncrossed homomorphism, said to be *principal* (or *1-coboundary*). We\ndefine the following groups: $$\\begin{aligned}\n\\nonumber Z^1(G,M)&=&\\{\\phi: G\\to M\\colon \\phi \\text{ is a 1-cocycle}\\}\\\\\n\\nonumber B^1(G,M)&=&\\{\\rho: G\\to M\\colon \\rho \\text{ is a\n1-coboundary}\\}\\end{aligned}$$ Finally, the $1^{st}$ *cohomology group*\nof the $G$-module $M$ is defined to be the quotient group:\n$$H^1(G,M)=Z^1(G,M)/B^1(G,M)$$\n\nThe following proposition is very useful when trying to compute\ncohomology groups:\n\nLet $G$ be a group and let $A,B,C$ be $G$-modules related by an exact\nsequence: $$0\\to A\\to B\\to C\\to 0$$ Then there is a long exact sequence\nin cohomology:\n$$0\\to H^0(G,A)\\to H^0(G,B)\\to H^0(G,C)\\to H^1(G,A)\\to H^1(G,B)\\to\nH^1(G,C)\\to \\ldots$$\n\nIn general, the cohomology groups $H^n(G,M)$ can be defined as follows:\n\nDefine $C^0(G,M)=M$ and for $n\\geq 1$ define the additive group:\n$$C^n(G,M)=\\{\\phi\\colon G^n \\to M\\}$$ The elements of $C^n(G,M)$ are\ncalled $n$-cochains. Also, for $n\\geq 0$ define the $n^{th}$ coboundary\nhomomorphism $d_n\\colon\nC^n(G,M) \\to C^{n+1}(G,M)$: $$\\begin{aligned}\n\\nonumber d_n(\\phi)(g_1,...,g_{n+1})&=&g_1\\cdot \\phi(g_2,...,g_{n+1})\\\\\n\\nonumber &+&\n\\sum_{i=1}^n(-1)^i\\phi(g_1,...,g_{i-1},g_ig_{i+1},g_{i+2},\n...,g_{n+1})\\\\\n\\nonumber &+& (-1)^{n+1}\\phi(g_1,...,g_n)\\end{aligned}$$ Let\n$Z^n(G,M)=\\operatorname{ker} d_n$ for $n\\geq 0$, the set of $n$-cocyles.\nAlso, let $B^0(G,M)=1$ and for $n\\geq 1$ let\n$B^n(G,M)=\\operatorname{image}d_{n-1}$, the set of $n$-coboundaries.\\\nFinally we define the $n^{th}$-cohomology group of $G$ with coefficients\nin $M$ to be $$H^n(G,M)=Z^n(G,M)/B^n(G,M)$$\n\n[9]{} J.P. Serre, [*Galois Cohomology*]{}, Springer-Verlag, New York.\nJames Milne, [*Elliptic Curves*]{}. Joseph H. Silverman, [*The\nArithmetic of Elliptic Curves*]{}. Springer-Verlag, New York, 1986.",
+  "language": "INFORMAL",
+  "phrase": "Group Cohomology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupCohomology"
+    }
+  ],
+  "indexable": true
+}

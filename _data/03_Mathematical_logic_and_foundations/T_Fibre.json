@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "fiber"
+  ],
+  "definition": "Given a function $f\\colon X \\longrightarrow Y$, a *fibre* is an inverse\nimage of an element of $Y$. That is given $y \\in Y$,\n$f^{-1}(\\{y\\}) = \\{ x \\in X \\mid f(x) = y \\}$ is a fibre.\n\n[**Example:**]{} Define\n$f\\colon \\mathbb{R}^2 \\longrightarrow \\mathbb{R}$ by\n$f(x,y) = x^2 + y^2$. Then the fibres of $f$ consist of concentric\ncircles about the origin, the origin itself, and empty sets depending on\nwhether we look at the inverse image of a positive number, zero, or a\nnegative number respectively.\n\n[**Example:**]{} Suppose $M$ is a manifold, and $\\pi\\colon TM\\to M$ is\nthe canonical projection from the tangent bundle $TM$ to $M$. Then\nfibres of $\\pi$ are the tangent spaces $T_x(M)$ for $x\\in M$.",
+  "language": "INFORMAL",
+  "phrase": "Fibre",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Fibre"
+    }
+  ],
+  "indexable": true
+}

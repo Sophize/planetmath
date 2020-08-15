@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "O notation",
+    "omega notation",
+    "theta notation",
+    "big-O notation"
+  ],
+  "definition": "Given two functions $f$ and $g$ from $\\mathbb{R}^+$ to $\\mathbb{R}^+$,\nthe notation $$f=O(g)$$ means that the ratio\n$\\displaystyle \\frac{f(x)}{g(x)}$ stays bounded as $x\\to\\infty$. If\nmoreover that ratio approaches zero, we write $$f=o(g).$$\n\nIt is legitimate to write, say, $2x=O(x)=O(x^2)$, with the understanding\nthat we are using the equality sign in an unsymmetric (and informal)\nway, in that we do not have, for example, $O(x^2)=O(x)$.\n\nThe notation $$f=\\Omega(g)$$ means that the ratio\n$\\displaystyle \\frac{f(x)}{g(x)}$ is bounded away from zero as\n$x\\to\\infty$, or equivalently $g=O(f)$.\n\nIf both $f=O(g)$ and $f=\\Omega(g)$, we write $f=\\Theta(g)$.\n\nOne more notational convention in this group is $$f(x)\\sim g(x),$$\nmeaning $\\displaystyle \\lim_{x\\to\\infty}\\frac{f(x)}{g(x)}=1$.\n\nIn analysis, such notation is useful in describing error . For example,\nthe Riemann hypothesis is equivalent to the conjecture\n$$\\pi(x)=\\operatorname{li} x+O(\\sqrt{x}\\log x),$$ where\n$\\operatorname{li} x$ denotes the logarithmic integral.\n\nLandau notation is also handy in applied mathematics, e.g. in describing\nthe time complexity of an algorithm. It is common to say that an\nalgorithm requires $O(x^3)$ steps, for example, without needing to\nspecify exactly what is a step; for if $f=O(x^3)$, then $f=O(Ax^3)$ for\nany positive constant $A$.",
+  "language": "INFORMAL",
+  "phrase": "Landau Notation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LandauNotation"
+    }
+  ],
+  "indexable": true
+}

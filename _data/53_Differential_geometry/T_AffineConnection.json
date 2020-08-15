@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An affine connection is a connection defined on the tangent bundle of a\nmanifold. Such connections enjoy many properties which are not true of\nconnections on other bundles. The reason for this goes back to the fact\nthat to define a connection, one needs to consider two vector spaces,\nthe tangent space and the fiber space. In the case of an affine\nconnection, these two spaces are the same, and this leads to\npossibilities which one would not have when the spaces were distinct.\n\nPerhaps the most important property of affine connections is that they\nallow one to define geodesics. Because the defining equation of a\ngeodesic involves the covariant derivative of a tangent vector field,\nonly affine connections give rise to geodesics. Furthermore, the\nconverse is true: An affine connection is uniquely determined by the set\nof its geodesic curves.\n\nGiven an affine connection, one can obtain another affine connection by\ninterchanging the role of the vector which specifies direction of\nparallel transport and the vector being transported. In local\ncoordinates, an expression for this new connection is\n$${C'}^i_{jk} = C^i_{kj}$$ Since the difference of two connections is a\ntensor field, one has a tensor field, known as the torsion tensor,\nassociated to every affine connection.\n$$T^i_{jk} = C^i_{jk} - C^i_{kj}$$",
+  "language": "INFORMAL",
+  "phrase": "Affine Connection",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AffineConnection"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a projective algebraic variety $X$ and a line bundle $L\\to X$, the\n*Kodaira-Itaka dimension* of $L$ is defined to be the supremum of the\ndimensions of the image of $X$ by the map $\\varphi_{|mL|}$ associated to\nthe linear system $|mL|$, when $m$ is a positive integer, namely\n$$\\kappa(L)=\\sup_{m\\in\\mathbb N}\\{\\dim\\varphi_{|mL|}(X)\\}.$$\n\nIt is a standard fact that if we consider the graded ring\n$$R(X,L)=\\bigoplus_{m\\in\\mathbb N}H^0(X,mL),$$ then\n$\\text{tr.deg} R(X,L)=\\kappa(L)+1$.\n\nWhen the line bundle we have is the canonical bundle $K_X$ of $X$, then\nits Kodaira-Itaka dimension is called *Kodaira dimension* of $X$.\n\nIn paticular, if for some $m$ we have $\\dim\\varphi_{|mL|}(X)=\\dim X$\nthen $\\kappa(L)=\\dim X$ and $L$ is called *big*.\n\nIf $\\kappa(X)=\\kappa(K_X)=\\dim X$, then $X$ is said to be of *general\ntype*.",
+  "language": "INFORMAL",
+  "phrase": "Kodaira-Itaka Dimension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KodairaItakaDimension"
+    }
+  ],
+  "indexable": true
+}

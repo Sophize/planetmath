@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Many authors tried to formalize the notation of a graph. This problem is\nrelatively simple if we allow at most $1$ edge between vertices. But for\nmultigraphs, i.e. graphs with many edges (possibly infinitely many)\nbetween vertices this tends to be problematic formally. We wish to give\nan alternative definition, which uses so called .\n\n**Definition.** A **multigraph** or **non-oriented graph** is a triple\n$$G=(V,E,\\tau)$$ where $V$ is a nonempty set whose elements are called\nvertices, $E$ is a set whose elements are called edges and\n$$\\tau:E\\to V^2_{sym}$$ is a function which takes every edge to a pair\nof vertices called ends of this edge. On the right side we have a of $V$\nto ensure that the order of ends is not important.\n\nThis definition allows loops and even infinite number of edges between\ntwo vertices and is one of the most general and formal.",
+  "language": "INFORMAL",
+  "phrase": "Alternative Definition Of A Multigraph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternativeDefinitionOfAMultigraph"
+    }
+  ],
+  "indexable": true
+}

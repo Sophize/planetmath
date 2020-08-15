@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a Hausdorff space, let $A$ be a compact non-empty set in $X$,\nand let $y$ a point in the complement of $A$. Then there exist disjoint\nopen sets $U$ and $V$ in $X$ such that $A\\subset U$ and $y\\in V$.\n\nFirst we use the fact that $X$ is a Hausdorff space. Thus, for all\n$x\\in A$ there exist disjoint open sets $U_x$ and $V_x$ such that\n$x\\in U_x$ and $y\\in V_x$. Then $\\{U_x\\}_{x\\in A}$ is an open cover for\n$A$. Using , it follows that there exist a finite set $A_0\\subset A$\nsuch that $\\{U_x\\}_{x\\in A_0}$ is a finite open cover for $A$. Let us\ndefine $$\\begin{aligned}\nU= \\bigcup_{x\\in A_0} U_x,\\,\\,\\,\\,\\,&\\,&\\,\\,\\,\\,\\, V= \\bigcap_{x\\in A_0} V_x.\\end{aligned}$$\nNext we show that these sets satisfy the given conditions for $U$ and\n$V$. First, it is clear that $U$ and $V$ are open. We also have that\n$A\\subset U$ and $y\\in V$. To see that $U$ and $V$ are disjoint, suppose\n$z\\in U$. Then $z\\in U_x$ for some $x\\in A_0$. Since $U_x$ and $V_x$ are\ndisjoint, $z$ can not be in $V_x$, and consequently $z$ can not be in\n$V$.\n\nThe above result and proof follows [@kelley] (Chapter 5, Theorem 7) or\n[@singer] (page 27).\n\n[9]{} J.L. Kelley, *General Topology*, D. van Nostrand Company, Inc.,\n1955. I.M. Singer, J.A.Thorpe, *Lecture Notes on Elementary Topology and\nGeometry*, Springer-Verlag, 1967.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PointAndACompactSetInAHausdorffSpaceHaveDisjointOpenNeighborhoods"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "point and a compact set in a Hausdorff space have  disjoint open neighborhoods."
+  ]
+}

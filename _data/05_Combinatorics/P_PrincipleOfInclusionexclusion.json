@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *principle of inclusion-exclusion* provides a way of methodically\ncounting the union of possibly non-disjoint sets.\n\nLet $C = \\{A_1, A_2, \\dots A_N\\}$ be a finite collection of finite sets.\nLet $I_k$ represent the set of $k$-fold intersections of members of $C$\n(e.g., $I_2$ contains all possible intersections of two sets chosen from\n$C$).\n\nThen\n$$\\left| \\bigcup_{i=1}^{N} A_i \\right| = \\sum_{j=1}^N \\left( (-1)^{(j+1)} \\sum_{S \\in I_j} |S| \\right )$$\n\nFor example: $$|A \\cup B| = |A|+|B|-|A \\cap B|$$\n$$|A \\cup B \\cup C| = |A|+|B|+|C|-(|A \\cap B|+|A \\cap C|+|B \\cap C|)+|A \\cap B \\cap C|$$\n\nThe principle of inclusion-exclusion, combined with de Morgan\u2019s laws,\ncan be used to count the intersection of sets as well. Let $A$ be some\nuniversal set such that $A_k \\subseteq A$ for each $k$, and let\n$\\overline{A_k}$ represent the complement of $A_k$ with respect to $A$.\nThen we have\n\n$$\\left | \\bigcap_{i=1}^N A_i \\right | = \\left |\\overline{ \\bigcup_{i=1}^N \\overline{A_i} }\\right |$$\n\nthereby turning the problem of finding an intersection into the problem\nof finding a union.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrincipleOfInclusionexclusion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "principle of inclusion-exclusion",
+    "inclusion-exclusion principle"
+  ]
+}

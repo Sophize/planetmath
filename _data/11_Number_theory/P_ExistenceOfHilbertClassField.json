@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K$ be a number field. There exists a finite extension $E$ of $K$\nwith the following properties:\n\n1.  $[E:K]=h_K$, where $h_K$ is the class number of $K$.\n\n2.  $E$ is Galois over $K$.\n\n3.  The ideal class group of $K$ is isomorphic to the Galois group of\n    $E$ over $K$.\n\n4.  Every ideal of ${\\mathcal{O}_{K}}$ is a principal ideal of the ring\n    extension ${\\mathcal{O}_{E}}$.\n\n5.  Every prime ideal ${\\cal P}$ of ${\\mathcal{O}_{K}}$ decomposes into\n    the product of $\\frac{h_K}{f}$ prime ideals in ${\\mathcal{O}_{E}}$,\n    where $f$ is the of $[{\\cal P}]$ in the ideal class group of\n    ${\\mathcal{O}_{E}}$.\n\nThere is a unique field $E$ satisfying the above five properties, and it\nis known as the [*Hilbert class field*]{} of $K$.\n\nThe field $E$ may also be characterized as the extension of $K$. Note\nthat in this context, the term \u2018unramified\u2019 is meant not only for the\nfinite places (the classical ideal theoretic ) but also for the infinite\nplaces. That is, every real embedding of $K$ extends to a real embedding\nof $E$. As an example of why this is necessary, consider some real\nquadratic field.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExistenceOfHilbertClassField"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "existence of Hilbert class field"
+  ]
+}

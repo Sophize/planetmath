@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "remainder",
+    "tail of series"
+  ],
+  "definition": "Let $S_n$ be the $n^\\mathrm{th}$ partial sum of the series\n$a_1\\!+\\!a_2\\!+\\cdots$ with real or complex $a_n$\n($n = 1,\\,2,\\,\\ldots$).\n\n-   If the series is convergent with sum $S$, then we call the\n    $R_n := S\\!-\\!S_n$ the $n^\\mathrm{th}$ [*remainder term*]{} or\n    simply [*remainder*]{} of the series ($n = 1,\\,2,\\,\\ldots$). Then\n    $\\lim_{n\\to\\infty}R_n = 0$.\n\n-   If there exists a number $s$ such that\n    $\\lim_{n\\to\\infty}(s\\!-\\!S_n) = 0$, then the series is convergent\n    and its sum is $s$.",
+  "language": "INFORMAL",
+  "phrase": "Remainder Term",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RemainderTerm"
+    }
+  ],
+  "indexable": true
+}

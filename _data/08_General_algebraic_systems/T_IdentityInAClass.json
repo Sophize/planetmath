@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ be a class of algebraic systems of the same type. An *identity*\non $K$ is an expression of the form $p=q$, where $p$ and $q$ are $n$-ary\npolynomial symbols of $K$, such that, for every algebra $A\\in K$, we\nhave\n$$p_A(a_1,\\ldots, a_n)=q_A(a_1,\\ldots,a_n)\\qquad\\mbox{ for all }a_1,\\ldots, a_n\\in A,$$\nwhere $p_A$ and $q_A$ denote the induced polynomials of $A$ by the\ncorresponding polynomial symbols. An identity is also known sometimes as\nan *equation*.\n\n**Examples**.\n\n-   Let $K$ be a class of algebras of the type\n    $\\lbrace e, ^{-1}, \\cdot \\rbrace$, where $e$ is nullary, $^{-1}$\n    unary, and $\\cdot$ binary. Then\n\n    1.  $x\\cdot e=x$,\n\n    2.  $e\\cdot x=e$,\n\n    3.  $(x\\cdot y)\\cdot z=x\\cdot (y\\cdot z)$,\n\n    4.  $x\\cdot x^{-1}=e$,\n\n    5.  $x^{-1}\\cdot x=e$, and\n\n    6.  $x\\cdot y= y\\cdot x$.\n\n    can all be considered identities on $K$. For example, in the fourth\n    equation, the right hand side is the unary polynomial $q(x)=e$. Any\n    algebraic system satisfying the first three identities is a monoid.\n    If a monoid also satisfies identities 4 and 5, then it is a group. A\n    group satisfying the last identity is an abelian group.\n\n-   Let $L$ be a class of algebras of the type\n    $\\lbrace \\vee, \\wedge \\rbrace$ where $\\vee$ and $\\wedge$ are both\n    binary. Consider the following possible identities\n\n    1.  $x\\vee x=x$,\n\n    2.  $x\\vee y=y\\vee x$,\n\n    3.  $x\\vee (y\\vee z)=(x\\vee y)\\vee z$,\n\n    4.  $x\\wedge x=x$,\n\n    5.  $x\\wedge y=y\\wedge x$,\n\n    6.  $x\\wedge (y\\wedge z)=(x\\wedge y)\\wedge z$,\n\n    7.  $x\\vee (y\\wedge x)=x$,\n\n    8.  $x\\wedge (y\\vee x)=x$,\n\n    9.  $x\\vee (y\\wedge (x\\vee z))=(x\\vee y)\\wedge (x\\vee z)$,\n\n    10. $x\\wedge (y\\vee (x\\wedge z))=(x\\wedge y)\\vee (x\\wedge z)$,\n\n    11. $x\\vee (y\\wedge z)=(x\\vee y)\\wedge (x\\vee z)$, and\n\n    12. $x\\wedge (y\\vee z)=(x\\wedge y)\\vee (x\\wedge z)$.\n\n    If algebras of $K$ satisfy identities 1-8, then $K$ is a class of\n    lattices. If 9 and 10 are satisfied as well, then $K$ is a class of\n    modular lattices. If every identity is satisified by algebras of\n    $K$, then $K$ is a class of distributive lattices.",
+  "language": "INFORMAL",
+  "phrase": "Identity In A Class",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdentityInAClass"
+    }
+  ],
+  "indexable": true
+}

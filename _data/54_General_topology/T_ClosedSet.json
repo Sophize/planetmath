@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "closed subset"
+  ],
+  "definition": "Let $(X,\\tau)$ be a topological space. Then a subset $C\\subseteq X$ is\n*closed* if its complement $X\\setminus C$ is open under the topology\n$\\tau$.\n\nExamples:\n\n-   In any topological space $(X,\\tau)$, the sets $X$ and $\\emptyset$\n    are always closed.\n\n-   Consider $\\R$ with the standard topology. Then $[0,1]$ is closed\n    since its complement $(-\\infty,0) \\cup (1,\\infty)$ is open (being\n    the union of two open sets).\n\n-   Consider $\\R$ with the lower limit topology. Then $[0,1)$ is closed\n    since its complement $(-\\infty,0)\\cup[1,\\infty)$ is open.\n\nClosed subsets can also be characterized as follows:\n\nA subset $C\\subseteq X$ is closed if and only if $C$ contains all of its\ncluster points, that is, $C'\\subseteq C$.\n\nSo the set $\\{1,1/2,1/3,1/4,\\ldots\\}$ is not closed under the standard\ntopology on $\\R$ since $0$ is a cluster point not contained in the set.",
+  "language": "INFORMAL",
+  "phrase": "Closed Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosedSet"
+    }
+  ],
+  "indexable": true
+}

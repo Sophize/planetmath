@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} If $i,k$ are multi-indices in ${\\mathbb{N}}^n$, and\n$x=(x_1,\\ldots, x_n)$, then $$\\begin{aligned}\n\\partial^i x^k = \\left\\{ \\begin {array}{ll} \n \\frac{k!}{(k-i)!} x^{k-i} & \\mbox{if}\\,\\, i\\le k, \\\\\n                         0 & \\mbox{otherwise}.\n \\end{array} \\right.\\end{aligned}$$\n\n*Proof.* The proof follows from the corresponding rule for the ordinary\nderivative; if $i,k$ are in $0,1,2,\\ldots$, then $$\\begin{aligned}\n\\label{usual}\n\\frac{d^i}{dx^i} x^k = \\left\\{ \\begin {array}{ll}  \\frac{k!}{(k-i)!} x^{k-i} & \\mbox{if}\\,\\, i\\le k, \\\\\n0 & \\mbox{otherwise.} \n \\end{array} \\right.\\end{aligned}$$ Suppose $i=(i_1,\\ldots, i_n)$,\n$k=(k_1,\\ldots, k_n)$, and $x=(x_1,\\ldots, x_n)$. Then we have that\n$$\\begin{aligned}\n\\partial^i x^k &=& \\frac{\\partial^{|i|}}{\\partial x_1^{i_1} \\cdots \\partial x_n^{i_n}} x_1^{k_1} \\cdots x_n^{k_n} \\\\\n &=& \\frac{\\partial^{i_1}}{\\partial x_1^{i_1}} x_1^{k_1} \\cdot \\cdots \\cdot  \\frac{\\partial^{i_n}}{\\partial x_n^{i_n}} x_n^{k_n}.\\end{aligned}$$\nFor each $r=1,\\ldots, n$, the function $x_r^{k_r}$ only depends on\n$x_r$. In the above, each partial differentiation\n$\\partial/\\partial x_r$ therefore reduces to the corresponding ordinary\ndifferentiation $d/dx_r$. Hence, from equation \\[usual\\], it follows\nthat $\\partial^i x^k$ vanishes if $i_r > k_r$ for any $r=1,\\ldots, n$.\nIf this is not the case, i.e., if $i\\le k$ as multi-indices, then for\neach $r$,\n$$\\frac{d^{i_r}}{dx_r^{i_r}} x_r^{k_r} =  \\frac{k_r!}{(k_r-i_r)!} x_r^{k_r-i_r},$$\nand the theorem follows. $\\Box$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiindexDerivativeOfAPower"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "multi-index derivative of a power"
+  ]
+}

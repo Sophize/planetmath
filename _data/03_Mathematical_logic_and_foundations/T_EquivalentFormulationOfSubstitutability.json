@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose a variable $x$ occurs free in a wff $A$. A term $t$ is free for\n$x$ in $A$ iff no variables in $t$ are bound by a quantifier in\n$A[t/x]$.\n\nWe do induction on the complexity of $A$.\n\n-   If $A$ is atomic, then any $t$ is free for $x$ in $A$, and clearly\n    $A[t/x]$ is just $A$, which has no bound variables.\n\n-   If $A$ is of the form $B\\to C$, then $t$ is free for $x$ in $A$ iff\n    $t$ is free for $x$ in both $B$ and $C$ iff no variables in $t$ are\n    bound in either $B$ or $C$ iff no variables in $t$ are bound in $A$.\n\n-   Finally, suppose $A$ is of the form $\\exists y B$. Since $x$ is free\n    in $A$, $x$ is not $y$, and $t$ is free for $x$ in $A$ iff $y$ is\n    not in $t$ and $t$ is free for $x$ in $B$ iff, by induction, $y$ is\n    not in $t$ and no variables of $t$ are bound in $B[t/x]$ iff no\n    variables of $t$ are bound in $\\exists y B[t/x]$, which is just\n    $A[t/x]$ (since $x\\ne y$).\n\nIf $x$ does not occur free in $A$ (either $x$ occurs bound in $A$ or not\nat all in $A$), then $t$ is obviously free for $x$ in $A$, but $A[t/x]$\nis just $A$, and there is no guarantee that variables in $t$ are bound\nin $A$ or not.\n\nIn the special case where $t$ is a variable $y$, we see that $y$ is free\nfor $x$ in $A$ iff $y$ is not bound in $A[y/x]$, provided that $x$\noccurs free in $A$. In other words, $y$ is free for $x$ in $A$ iff no\nfree occurrences of $x$ in $A$ are in the scope of $Qy$, where $Q$ is\neither $\\exists$ or $\\forall$. So if $y$ is not bound in $A$, $y$ is\nfree for $x$ in $A$, regardless of whether $x$ is free or bound in $A$.\nAlso, $x$ is always free for $x$ in $A$.",
+  "language": "INFORMAL",
+  "phrase": "Equivalent Formulation Of Substitutability",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquivalentFormulationOfSubstitutability"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "q-binomial coefficients"
+  ],
+  "definition": "For an indeterminate $q$ and integers $n \\ge m \\ge 0$ we define the\nfollowing:\n\n\\(a) $(m)_q = q^{m-1} + q^{m-2} + \\cdots + 1$ for $m>0$,\n\n\\(b) $(m!)_q = (m)_q (m-1)_q \\cdots (1)_q$ for $m>0$, and $(0!)_q = 1$,\n\n\\(c) ${n \\choose m}_q = \\frac{(n!)_q}{(m!)_q ((n-m)!)_q}$. If $m>n$ then\nwe define ${n \\choose m}_q=0$.\n\nThe expressions ${n \\choose m}_q$ are called [*$q$-binomial\ncoefficients*]{} or [*Gaussian polynomials*]{}.\n\nNote: if we replace $q$ with 1, then we obtain the familiar integers,\nfactorials, and binomial coefficients. Specifically,\n\n\\(a) $(m)_1 = m$,\n\n\\(b) $(m!)_1 = m!$,\n\n\\(c) ${n \\choose m}_1 = {n \\choose m}$.\n\n\\(d) ${m \\choose m}_q=1$.",
+  "language": "INFORMAL",
+  "phrase": "Gaussian Polynomials",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaussianPolynomials"
+    }
+  ],
+  "indexable": true
+}

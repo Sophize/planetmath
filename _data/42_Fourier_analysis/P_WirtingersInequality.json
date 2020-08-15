@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem:** Let $f\\colon{\\mathbb{R}}\\to{\\mathbb{R}}$ be a periodic\nfunction of period $2\\pi$, which is continuous and has a continuous\nderivative throughout ${\\mathbb{R}}$, and such that $$\\label{eq:1}\n\\int_0^{2\\pi}f(x)=0\\;.$$ Then $$\\label{eq:2}\n\\int_0^{2\\pi}f'^2(x)dx\\ge\\int_0^{2\\pi}f^2(x)dx$$ with equality if and\nonly if $f(x)=a\\cos x+b\\sin x$ for some $a$ and $b$ (or equivalently\n$f(x)=c\\sin (x+d)$ for some $c$ and $d$).\n\n**Proof:** Since Dirichlet\u2019s conditions are met, we can write\n$$f(x)=\\frac{1}{2}a_0+\\sum_{n\\ge 1}(a_n\\sin nx+b_n\\cos nx)$$ and\nmoreover $a_0=0$ by . By Parseval\u2019s identity,\n$$\\int_0^{2\\pi}f^2(x)dx=\\sum_{n=1}^\\infty(a_n^2+b_n^2)$$ and\n$$\\int_0^{2\\pi}f'^2(x)dx=\\sum_{n=1}^\\infty n^2(a_n^2+b_n^2)$$ and since\nthe summands are all $\\ge 0$, we get , with equality if and only if\n$a_n=b_n=0$ for all $n\\ge 2$.\n\nHurwitz used Wirtinger\u2019s inequality in his tidy 1904 proof of the\nisoperimetric inequality.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WirtingersInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Wirtinger's inequality",
+    "Wirtinger inequality"
+  ]
+}

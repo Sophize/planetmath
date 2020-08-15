@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set equipped with two metrics $\\rho$ and $\\sigma$. We say\nthat $\\rho$ is *equivalent* to $\\sigma$ (on $X$) if the identity map on\n$X$, is a homeomorphism between the metric topology on $X$ induced by\n$\\rho$ and the metric topology on $X$ induced by $\\sigma$.\n\nFor example, if $(X,\\rho)$ is a metric space, then the function\n$\\sigma: X\\to \\mathbb{R}$ defined by\n$$\\sigma(x,y):=\\frac{\\rho(x,y)}{1+\\rho(x,y)}$$ is a metric on $X$ that\nis equivalent to $\\rho$. This shows that every metric is equivalent to a\nbounded metric.",
+  "language": "INFORMAL",
+  "phrase": "Metric Equivalence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MetricEquivalence"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "homomorphism"
+  ],
+  "definition": "A monoid is a semigroup $G$ which contains an identity element; that is,\nthere exists an element $e \\in G$ such that $e \\cdot a = a \\cdot e = a$\nfor all $a \\in G$.\n\nIf $e$ and $f$ are identity elements of a monoid $G$, then\n$e=e\\cdot f=f\\cdot e=f$, so we may speak of \u201cthe\u201d identity element of\n$G$.\n\nA *monoid homomorphism* from monoids $G$ to $H$ is a semigroup\nhomomorphism $f:G\\to H$ such that $f(e_G)=e_H$, where $e_G,e_H$ are\nidentity elements of $G$ and $H$ respectively.",
+  "language": "INFORMAL",
+  "phrase": "Monoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Monoid"
+    }
+  ],
+  "indexable": true
+}

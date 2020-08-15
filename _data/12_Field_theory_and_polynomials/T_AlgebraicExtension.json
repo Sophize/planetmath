@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "algebraic field extension"
+  ],
+  "definition": "Let $L/K$ be an extension of fields. $L/K$ is said to be an *algebraic\nextension* of fields if every element of $L$ is algebraic over $K$. If\n$L/K$ is not algebraic then we say that it is a transcendental extension\nof fields.\n\n[**Examples:** ]{}\n\n1.  Let $L={\\mathbb{Q}}(\\sqrt{2})$. The extension $L/{\\mathbb{Q}}$ is an\n    algebraic extension. Indeed, any element $\\alpha\\in L$ is of the\n    form $$\\alpha=q+t\\sqrt{2}\\in L$$ for some $q,t\\in{\\mathbb{Q}}$. Then\n    $\\alpha\\in L$ is a root of $$X^2-2qX+q^2-2t^2=0$$\n\n2.  The field extension ${\\mathbb{R}}/ {\\mathbb{Q}}$ is not an algebraic\n    extension. For example, $\\pi\\in {\\mathbb{R}}$ is a transcendental\n    number over ${\\mathbb{Q}}$ (see pi). So ${\\mathbb{R}}/{\\mathbb{Q}}$\n    is a transcendental extension of fields.\n\n3.  Let $K$ be a field and denote by $\\overline{K}$ the algebraic\n    closure of $K$. Then the extension $\\overline{K}/K$ is algebraic.\n\n4.  In general, a finite extension of fields is an algebraic extension.\n    However, the converse is not true. The extension\n    $\\overline{{\\mathbb{Q}}}/{\\mathbb{Q}}$ is *far* from finite.\n\n5.  The extension ${\\mathbb{Q}}(\\pi)/{\\mathbb{Q}}$ is transcendental\n    because $\\pi$ is a transcendental number, i.e. $\\pi$ is not the root\n    of any polynomial $p(x)\\in {\\mathbb{Q}}[x]$.",
+  "language": "INFORMAL",
+  "phrase": "Algebraic Extension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraicExtension"
+    }
+  ],
+  "indexable": true
+}

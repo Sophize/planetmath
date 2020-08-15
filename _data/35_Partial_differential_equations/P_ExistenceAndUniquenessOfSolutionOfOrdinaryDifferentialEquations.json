@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $E\\subset W$ where $E$ is an open subset of $W$ which is a normed\nvector space, and let $f$ be a continuous differentiable map\n$$f: E \\to W.$$ Then the ordinary differential equation defined as\n$$\\dot{x} = f(x)$$ with the initial condition $$x(0) = x_0$$ where\n$x_0 \\in E$ has a unique solution on some interval containing zero. More\nspecifically there exists $\\alpha>0$ such that the following is a unique\nfunction $$x:(-\\alpha,\\alpha) \\to E$$ such that $\\dot{x}=f\\circ x$ and\n$x(0)=x_0$.[@HS]\n\n[1]{} Hirsch, W. Morris, Smale, Stephen.: Differential Equations,\nDynamical Systems, And Linear Algebra. Academic Press, Inc. New York,\n1974.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExistenceAndUniquenessOfSolutionOfOrdinaryDifferentialEquations"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "existence and uniqueness of solution of ordinary differential equations"
+  ]
+}

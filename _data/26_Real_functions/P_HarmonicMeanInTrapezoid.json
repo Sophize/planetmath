@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If a line parallel to the bases of a trapezoid passes\nthrough the intersecting point of the diagonals, then the portion of the\nline inside the trapezoid is the harmonic mean of the bases.\n\n[*Proof.*]{} Let $AB$ and $DC$ be the bases of a trapezoid $ABCD$ and\n$E$ the intersecting point of the diagonals of $ABCD$. Denote the\ncutting point of $AD$ and the line through $E$ and parallel to the bases\nby $P$, and the cutting point of $BC$ and the same line by $Q$. Then we\nhave $$\\Delta CDE \\;\\sim\\; \\Delta ABE$$ with line ratio\n$\\displaystyle\\frac{k}{h} = \\frac{CD}{AB}$, where $h$ and $k$ are the\nheights of the triangles $ABE$ and $CDE$, respectively, when $h\\!+\\!k$\nequals the height of the trapezoid. We have also\n$$\\Delta PED \\;\\sim\\; \\Delta ABD$$ with line ratio\n$$PE:AB \\;=\\; \\frac{k}{h\\!+\\!k} \\;=\\; \\frac{\\frac{k}{h}}{1\\!+\\!\\frac{k}{h}} \n\\;=\\; \\frac{\\frac{CD}{AB}}{1+\\frac{CD}{AB}}.$$ Thus we can express the\nlength of $PE$ as\n$$PE \\;=\\; AB\\cdot\\frac{\\frac{CD}{AB}}{1+\\frac{CD}{AB}} \n\\;=\\; \\frac{CD}{1+\\frac{CD}{AB}} \\;=\\; \\frac{AB\\!\\cdot\\!CD}{AB\\!+\\!CD}.$$\nSimilarly we may determine $EQ$ and that $EQ = PE$. Consequently,\n$$PQ \\;=\\; PE\\!+\\!EQ \\;=\\; \\frac{2\\!\\cdot\\!AB\\!\\cdot\\!CD}{AB\\!+\\!CD},$$\nwhich is the harmonic mean of the bases $AB$ and $CD$.\\\n\n(-1,-1)(7,4) (0,0)(6,0)(5,4)(2,4) (0,0)(6,0) (2,4)(5,4)\n\n(0,0)(5,4) (6,0)(2,4) (1.33,2.67)(5.33,2.67) (-0.5,2.67)(1.33,2.67)\n(5.33,2.67)(6.5,2.67) (1.33,2.67) (5.33,2.67) (3.33,0)(3.33,4)\n(0,-0.3)[$A$]{} (6,-0.3)[$B$]{} (5,4.3)[$C$]{} (2,4.3)[$D$]{}\n(3.4,2.40)[$E$]{} (1.2,2.85)[$P$]{} (5.5,2.85)[$Q$]{} (3.5,1.30)[$h$]{}\n(3.5,3.45)[$k$]{} (3.33,0.2)(3.11,0.2) (3.11,0.2)(3.11,0)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HarmonicMeanInTrapezoid"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "harmonic mean in trapezoid"
+  ]
+}

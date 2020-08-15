@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be a subset of a topological vector space $X$.\n\n$A$ is called *totally bounded* if , for each neighborhood $G$ of 0,\nthere exists a finite subset $S$ of $A$ with $A$ contained in the sumset\n$S + G$.\n\nThe definition can be restated in the following form when $X$ is a\nmetric space:\n\nA set $A \\subseteq X$ is said to be [*totally bounded*]{} if for every\n$\\epsilon>0$, there exists a finite subset $\\{s_1,s_2,\\ldots ,s_n\\}$ of\n$A$ such that $A\\subseteq \\bigcup _{k=1} ^n B(s_k,\\epsilon )$, where\n$B(s_k,\\epsilon)$ denotes the open ball around $s_k$ with radius\n$\\epsilon$.\n\n[9]{} G. Bachman, L. Narici, *Functional analysis*, Academic Press,\n1966. A. Wilansky, *Functional Analysis*, Blaisdell Publishing Co., 1964\nW. Rudin, *Functional Analysis*, 2nd ed. McGraw-Hill , 1973",
+  "language": "INFORMAL",
+  "phrase": "Totally Bounded",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TotallyBounded"
+    }
+  ],
+  "indexable": true
+}

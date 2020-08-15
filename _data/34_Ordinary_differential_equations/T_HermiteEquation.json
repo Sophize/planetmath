@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hermite differential equation"
+  ],
+  "definition": "The linear differential equation\n$$\\frac{d^2f}{dz^2}-2z\\frac{df}{dz}+2nf \\;=\\; 0,$$ in which $n$ is a\nreal , is called the [*Hermite equation*]{}. Its general solution is\n$f := Af_1\\!+\\!Bf_2$ with $A$ and $B$ arbitrary and the functions $f_1$\nand $f_2$ presented as\\\n$f_1(z) \\;:=\\; z+\\frac{2(1-n)}{3!}z^3+\\frac{2^2(1-n)(3-n)}{5!}z^5+\n\\frac{2^3(1-n)(3-n)(5-n)}{7!}z^7+\\ldots\\!,$\\\n$f_2(z) \\;:=\\; 1+\\frac{2(-n)}{2!}z^2+\\frac{2^2(-n)(2-n)}{4!}z^4+\n\\frac{2^3(-n)(2-n)(4-n)}{6!}z^6+\\ldots$\\\nIt\u2019s easy to check that these power series satisfy the differential\nequation. The coefficients $b_\\nu$ in both series obey the recurrence\n$$b_\\nu \\;=\\; \\frac{2(\\nu\\!-\\!2\\!-\\!n)}{\\nu(nu\\!-\\!1)}b_{\\nu\\!-\\!2}.$$\nThus we have the\n$$R \\;=\\; \\lim_{\\nu\\to\\infty}\\left|\\frac{b_{\\nu-2}}{b_\\nu}\\right| \\;=\\; \n\\lim_{\\nu\\to\\infty}\\frac{\\nu}{2}\\!\\cdot\\!\\frac{1\\!-\\!1/\\nu}{1\\!-\\!(n\\!+\\!2)/\\nu} \\;=\\; \\infty.$$\nTherefore the series converge in the whole complex plane and define\nentire functions.\n\nIf the $n$ is a non-negative integer, then one of $f_1$ and $f_2$ is\nsimply a polynomial function. The polynomial solutions of the Hermite\nequation are usually normed so that the highest is $(2z)^n$ and called\nthe Hermite polynomials.",
+  "language": "INFORMAL",
+  "phrase": "Hermite Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HermiteEquation"
+    }
+  ],
+  "indexable": true
+}

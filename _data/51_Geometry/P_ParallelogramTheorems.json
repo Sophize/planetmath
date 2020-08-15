@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem 1.** The opposite sides of a parallelogram are congruent.\n\n(-2,-2)(4,2) (-2,-1)(3,-1)(4,2)(-1,2) (-1,2)(3,-1)\n(-0.7,1.6)[$\\alpha$]{} (3,-0.55)[$\\beta$]{} (-0.3,1.8)[$\\gamma$]{}\n(2.45,-0.75)[$\\delta$]{} (-2.4,-1)[$A$]{} (3.15,-1)[$B$]{}\n(4.15,2)[$C$]{} (-1.2,2)[$D$]{}\n\nIn the parallelogram $ABCD$, the line $BD$ as a transversal cuts the\nparallel lines $AD$ and $BC$, whence by the theorem of the the alternate\ninterior angles $\\alpha$ and $\\beta$ are congruent. And since the line\n$BD$ also cuts the parallel lines $AB$ and $DC$, the alternate interior\nangles $\\gamma$ and $\\delta$ are congruent. Moreover, the triangles\n$ABD$ and $CDB$ have a common side $BD$. Thus, these triangles are\ncongruent (ASA). Accordingly, the corresponding sides are congruent:\n$AB = DC$ and $AD = BC$.\n\n**Theorem 2.** If both pairs of opposite sides of a quadrilateral are\ncongruent, the quadrilateral is a parallelogram.\n\n**Theorem 3.** If one pair of opposite sides of a quadrilateral are both\nparallel and congruent, the quadrilateral is a parallelogram.\n\n**Theorem 4.** The diagonals of a parallelogram bisect each other.\n\n**Theorem 5.** If the diagonals of a quadrilateral bisect each other,\nthe quadrilateral is a parallelogram.\n\nAll of the above theorems hold in Euclidean geometry, but not in\nhyperbolic geometry. These theorems do not make sense in spherical\ngeometry because there are no parallelograms!",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ParallelogramTheorems"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "parallelogram theorems",
+    "properties of parallelograms"
+  ]
+}

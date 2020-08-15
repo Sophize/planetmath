@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Erdos-Selfridge classification of primes"
+  ],
+  "definition": "Paul Erd\u0151s and John Selfridge classified primes $p$ thus: If the largest\nprime factor of $p + 1$ is 2 or 3, then $p$ is in class 1+. Otherwise,\nassign to $c$ the class of the largest prime factor of $p + 1$, then $p$\nis in class $(c + 1)+$. Class 1+ primes are of the form $2^i3^j - 1$ for\n$i > -1$ and $j > -1$.\n\nAccording to this scheme, $p < 200$ are sorted thus:\n\nClass 1+: 2, 3, 5, 7, 11, 17, 23, 31, 47, 53, 71, 107, 127, 191 ( listed\nin A005105 of Sloane\u2019s OEIS)\n\nClass 2+: 13, 19, 29, 41, 43, 59, 61, 67, 79, 83, 89, 97, 101, 109, 131,\n137, 139, 149, 167, 179, 197, 199 (A005106)\n\nClass 3+: 37, 103, 113, 151, 157, 163, 173, 181, 193 (A005107)\n\nClass 4+: 73\n\nA005113 lists the smallest prime of class $n+$.\n\nClearly, all Mersenne primes are class 1+. The known Fermat primes show\nslightly more variety: 257 is class 3+ while 65537 is class 4+.\n\n[1]{} R. K. Guy, [*Unsolved Problems in Number Theory*]{}. New York:\nSpringer-Verlag (2004)",
+  "language": "INFORMAL",
+  "phrase": "Erd\\H{O}S-Selfridge Classification Of Primes",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ErdHosSelfridgeClassificationOfPrimes"
+    }
+  ],
+  "indexable": true
+}

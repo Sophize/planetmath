@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A set $X$ is transitive if and only if its power set $\\mathcal{P}(X)$ is\ntransitive.\n\nFirst assume $X$ is transitive. Let $A \\in B \\in \\mathcal{P}(X)$. Since\n$B \\in \\mathcal{P}(X)$, $B \\subseteq X$. Thus, $A \\in X$. Since $X$ is\ntransitive, $A \\subseteq X$. Hence, $A \\in \\mathcal{P}(X)$. It follows\nthat $\\mathcal{P}(X)$ is transitive.\n\nConversely, assume $\\mathcal{P}(X)$ is transitive. Let $a \\in X$. Then\n$\\{a\\} \\in \\mathcal{P}(X)$. Since $\\mathcal{P}(X)$ is transitive,\n$\\{a\\} \\subseteq \\mathcal{P}(X)$. Thus, $a \\in \\mathcal{P}(X)$. Hence,\n$a \\subseteq X$. It follows that $X$ is transitive.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CriterionForASetToBeTransitive"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "criterion for a set to be transitive"
+  ]
+}

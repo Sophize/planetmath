@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "functions with critical loops"
+  ],
+  "definition": "Let $M$ be a manifold. By a *round function* we a function\n$M\\to{\\mathbb{R}}$ whose critical points form connected components, each\nof which is homeomorphic to the circle $S^1$.\n\nFor example, let $M$ be the torus. Let $K=]0,2\\pi[\\times]0,2\\pi[$. Then\nwe know that a map $X\\colon K\\to{\\mathbb{R}}^3$ given by\n$$X(\\theta,\\phi)=((2+\\cos\\theta)\\cos\\phi,(2+\\cos\\theta)\\sin\\phi,\\sin\\theta)$$\nis a parametrization for almost all of $M$. Now, via the projection\n$\\pi_3\\colon{\\mathbb{R}}^3\\to{\\mathbb{R}}$ we get the restriction\n$G=\\pi_3|_M\\colon M\\to{\\mathbb{R}}$ whose critical sets are determined\nby\n$$\\nabla G(\\theta,\\phi)={\\left(\\begin{array}{c} {\\partial G\\over \\partial\\theta},{\\partial G\\over \\partial\\phi} \\end{array}\\right) }(\\theta,\\phi)=(0,0)$$\nif and only if $\\theta={\\pi\\over 2},\\ {3\\pi\\over 2}$.\n\nThese two values for $\\theta$ give the critical set\n$$X{\\left(\\begin{array}{c} {\\pi\\over 2},\\phi \\end{array}\\right) }=(2\\cos\\phi,2\\sin\\phi,1)$$\n$$X{\\left(\\begin{array}{c} {3\\pi\\over 2},\\phi \\end{array}\\right) }=(2\\cos\\phi,2\\sin\\phi,-1)$$\nwhich represent two extremal circles over the torus $M$.\n\nObserve that the Hessian for this function is $d^2(G)=\n\\left(\\begin{array}{cc}\n-\\sin\\theta & 0 \\\\\n0          & 0 \n\\end{array}\\right)\n$ which clearly it reveals itself as of ${\\rm rank}(d^2(G))=1$ at the\ntagged circles, making the critical point degenerate, that is, showing\nthat the critical points are not isolated.",
+  "language": "INFORMAL",
+  "phrase": "Round Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RoundFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $A_i, B_i, C_i$, for $i=1,2,3$ are objects of an abelian category\nsuch that there is a commutative diagram $$\\xymatrix{\n & 0\\ar[d]&0\\ar[d]&0\\ar[d]&\\\\\n0\\ar[r] & A_1\\ar[r]\\ar[d]&B_1\\ar[r]\\ar[d]&C_1\\ar[r]\\ar[d]&0\\\\\n0\\ar[r] & A_2\\ar[r]\\ar[d]&B_2\\ar[r]\\ar[d]&C_2\\ar[r]\\ar[d]&0\\\\\n0\\ar[r] & A_3\\ar[r]\\ar[d]&B_3\\ar[r]\\ar[d]&C_3\\ar[r]\\ar[d]&0\\\\\n  & 0 & 0 & 0 &}$$ with the columns and bottom two rows are exact, then\nthe top row is exact as well.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/9lemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "9-lemma"
+  ]
+}

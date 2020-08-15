@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a discrete valuation ring. Then all nonzero ideals of $R$ are\npowers of its maximal ideal ${\\mathfrak{m}}$.\n\n**Proof.** Let ${\\mathfrak{m}}= (\\pi)$ (that is, $\\pi$ is a uniformizer\nfor $R$). Assume that $R$ is not a field (in which case the result is\ntrivial), so that $\\pi\\neq 0$. Let $I=(\\alpha)\\subset R$ be any ideal;\nclaim $(\\alpha)={\\mathfrak{m}}^k$ for some $k$. By the Krull\nintersection theorem, we have $$\\bigcap_{n\\geq 0}{\\mathfrak{m}}^n=(0)$$\nso that we may choose $k\\geq 0$ with\n$\\alpha\\in {\\mathfrak{m}}^k-{\\mathfrak{m}}^{k+1}$. Since\n$\\alpha\\in{\\mathfrak{m}}^k$, we have $\\alpha = u\\pi^k$ for $u\\in R$.\n$u\\notin {\\mathfrak{m}}$, since otherwise\n$\\alpha\\in{\\mathfrak{m}}^{k+1}$, so that $\\alpha$ is a unit (in a DVR,\nthe maximal ideal consists precisely of the nonunits). Thus\n$(\\alpha)=(\\pi)^k$.\n\nLet $R$ be a Noetherian local ring with a principal maximal ideal. Then\nall nonzero ideals are powers of the maximal ideal ${\\mathfrak{m}}$.\n\n**Proof.** Let $I=(\\alpha_1,\\ldots,\\alpha_n)$ be an ideal of $R$. Then\nby the above argument, for each $i$, $\\alpha_i = u_i\\pi^{k_i}$ for $u_i$\na unit, and thus $I=(\\pi^{k_1},\\ldots,\\pi^{k_n}) = (\\pi^k)$ for\n$k=\\min(k_1,\\ldots,k_n)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdealsOfADiscreteValuationRingArePowersOfItsMaximalIdeal"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "ideals of a discrete valuation ring are powers of its maximal ideal"
+  ]
+}

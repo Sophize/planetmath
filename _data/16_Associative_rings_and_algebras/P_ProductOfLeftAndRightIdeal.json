@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathfrak{a}$ and $\\mathfrak{b}$ be ideals of a ring $R$. Denote by\n$\\mathfrak{ab}$ the subset of $R$ formed by all finite sums of products\n$ab$ with $a \\in \\mathfrak{a}$ and $b \\in \\mathfrak{b}$. It is\nstraightforward to verify the following facts:\n\n-   If $\\mathfrak{a}$ is a and $\\mathfrak{b}$ a right ideal,\n    $\\mathfrak{ab}$ is a two-sided ideal of $R$.\n\n-   If both $\\mathfrak{a}$ and $\\mathfrak{b}$ are two-sided ideals, then\n    $\\mathfrak{ab} \\subseteq \\mathfrak{a}\\cap\\mathfrak{b}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProductOfLeftAndRightIdeal"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "product of left and right ideal"
+  ]
+}

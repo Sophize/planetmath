@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Chernoff-Cram\u00e8r inequality is a very general and powerful way of\nbounding random variables. Compared with the famous Chebyshev bound,\nwhich implies inverse polynomial decay inequalities, the Chernoff-Cram\u00e8r\nmethod yields exponential decay inequalities, at the cost of needing a\nfew more hypotheses on random variables\u2019 .\n\nTheorem: (Chernoff-Cram\u00e8r inequality)\n\nLet $\\{X_{i}\\}_{i=1}^{n}$ be a collection of independent random\nvariables such that $E[\\exp \\left( tX_{i}\\right) ]<+\\infty $\n\u00a0$\\forall i$ in a right neighborhood of $t=0$, i.e. for any $t\\in(0,c)$\n(Cram\u00e8r condition).\n\nThen a zero-valued for $x=0$, positive, strictly increasing, strictly\nconvex function $\\Psi (x):[0,\\infty )\\mapsto R^{+}$ exists such that:\\\n$$\\Pr\\left\\{ \\sum_{i=1}^{n}\\left( X_{i}-E[X_{i}]\\right) >\\varepsilon \\right\\}\n\\leq \\exp \\left( -\\Psi (\\varepsilon )\\right) \\ \\forall \\varepsilon \\geq 0$$\n\nNamely, one has: $$\\begin{aligned}\n\\Psi (x) &=&\\sup_{0 < t < c}\\left( tx -\\psi (t)\\right)  \\\\\n\\psi (t) &=&\\sum_{i=1}^{n}\\ln E\\left[ e^{t\\left( X_{i}-EX_{i}\\right) }\\right]\n=\\sum_{i=1}^{n}\\left(\\ln E\\left[ e^{tX_{i}}\\right] -tE\\left[ X_{i}\\right]\\right)\\end{aligned}$$\n\nthat is, $\\Psi (x)$ is the Legendre of the cumulant generating function\nof the $\\sum_{i=1}^{n}\\left( X_{i}-E[X_{i}]\\right)$ random variable.\n\nRemarks:\n\n1\\) Besides its importance for theoretical questions, the Chernoff-Cram\u00e9r\nbound is also the starting point to derive many deviation or\nconcentration inequalities, among which , Kolmogorov, , , Hoeffding and\nChernoff ones are worth mentioning. All of these inequalities are\nobtained imposing various further conditions on $X_{i}$ random\nvariables, which turn out to affect the general form of the cumulant\ngenerating function $\\psi(t)$.\\\n2) Sometimes, instead of bounding the sum of n independent random\nvariables, one needs to estimate they \u2019\u2019 i.e. the quantity\n$\\frac{1}{n}\\sum_{i=1}^{n}X_i$; in to reuse Chernoff-Cram\u00e9r bound, it\u2019s\nenough to note that\n$$\\Pr\\left\\{\\frac{1}{n}\\sum_{i=1}^{n}\\left( X_{i}-E[X_{i}]\\right) >\\varepsilon^{\\prime}\\right\\}=\\Pr\\left\\{\\sum_{i=1}^{n}\\left( X_{i}-E[X_{i}]\\right) >n\\varepsilon^{\\prime}\\right\\}$$\nso that one has only to replace, in the above stated inequality,\n$\\varepsilon$ with $n\\varepsilon^{\\prime}$.\\\n3) It turns out that the Chernoff-Cramer bound is asymptotically sharp,\nas Cram\u00c3\u00a8r theorem shows.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChernoffCramerBound"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Chernoff-Cramer bound"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f:{\\mathbb{R}}\\to {\\mathbb{R}}$ be a function which is continuous\non the interval $[a,b]$ and differentiable on $(a,b)$. Then there exists\na number $c: a < c < b$ such that\n\n$$f'(c) = \\frac{f(b) - f(a)}{b - a}.$$\n\nThe geometrical meaning of this theorem is illustrated in the picture:\\\n\n![image](mittelwertsatz.ps)\n\nThe dashed line connects the points $(a,f(a))$ and $(b,f(b))$. There is\n$c$ between $a$ and $b$ at which the tangent to $f$ has the same slope\nas the dashed line.\n\nThe mean-value theorem is often used in the integral context: There is a\n$c \\in [a,b]$ such that\n\n$$(b-a)f(c) = \\int_{a}^{b} f(x) dx.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeanvalueTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "mean-value theorem"
+  ]
+}

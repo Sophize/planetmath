@@ -1,0 +1,17 @@
+{
+  "argumentText": "Suppose that $f(x)$ is a polynomial with real or complex coefficients of\ndegree $n-1$. Since $f$ is a polynomial, it is infinitely\ndifferentiable. Therefore, $f$ has a Taylor expansion about $a$. Since\n$f^{(n)}(x)=0$, the terminates after the $n-1^{\\text{th}}$ term. Also,\nthe $n^{\\text{th}}$ remainder of the Taylor series vanishes; ,\n$\\displaystyle R_n(x)=\\frac{f^{(n)}(y)}{n!}x^n=0$. Thus, the function is\nequal to its Taylor series. Hence,\n\n$\\begin{array}{rl}\nf(x) & \\displaystyle =\\sum_{k=0}^{n-1}\\frac{f^{(k)}(a)}{k!}(x-a)^k \\\\\n& \\\\\n& \\displaystyle =f(a)+\\sum_{k=1}^{n-1}\\frac{f^{(k)}(a)}{k!}(x-a)^k \\\\\n& \\\\\n& \\displaystyle =f(a)+(x-a)\\sum_{k=1}^{n-1}\\frac{f^{(k)}(a)}{k!}(x-a)^{k-1} \\\\\n& \\\\\n& \\displaystyle =f(a)+(x-a)\\sum_{k=0}^{n-2}\\frac{f^{(k+1)}(a)}{(k+1)!}(x-a)^k. \\end{array}$\n\nIf $f(a)=0$, then\n$\\displaystyle f(x)=(x-a)\\sum_{k=0}^{n-2}\\frac{f^{(k+1)}(a)}{(k+1)!}(x-a)^k$.\nThus, $f(x)=(x-a)g(x)$, where $g(x)$ is the polynomial\n$\\displaystyle \\sum_{k=0}^{n-2}\\frac{f^{(k+1)}(a)}{(k+1)!}(x-a)^k$.\nHence, $x-a$ is a factor of $f(x)$.\n\nConversely, if $x-a$ is a factor of $f(x)$, then $f(x)=(x-a)g(x)$ for\nsome polynomial $g(x)$. Hence, $f(a)=(a-a)g(a)=0$.\n\nIt follows that $x-a$ is a factor of $f(x)$ if and only if $f(a)=0$.",
+  "conclusion": "#P_FactorTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfFactorTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of factor theorem"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A statistic $S(\\boldsymbol{X})$ on a random sample of data\n$\\boldsymbol{X}=(X_1,\\ldots,X_n)$ is said to be a *complete statistic*\nif for any Borel measurable function $g$,\n$$E(g(S))=0\\quad\\mbox{implies}\\quad P(g(S)=0)=1.$$ In other words,\n$g(S)=0$ almost everywhere whenever the expected value of $g(S)$ is $0$.\nIf $S(\\boldsymbol{X})$ is associated with a family $f(x\\mid \\theta)$ of\nprobability density functions (or mass function in the discrete case),\nthen completeness of $S$ means that $g(S)=0$ almost everywhere whenever\n$E_{\\theta}(g(S))=0$ for every $\\theta$.\n\n\\[Lehmann-Scheff\u00e9\\] If $S(\\boldsymbol{X})$ is a complete sufficient\nstatistic and $h(\\boldsymbol{X})$ is an unbiased estimator for $\\theta$,\nthen, given $$h_0(s) = E(h(\\boldsymbol{X}) | S(\\boldsymbol{X})=s),$$\n$h_0(S)=h_0(S(\\boldsymbol{X}))$ is a uniformly minimum variance unbiased\nestimator of $\\theta$. Furthermore, $h_0(S)$ is unique almost everywhere\nfor every $\\theta$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LehmannScheffeTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lehmann-Scheff\\'e theorem",
+    "Lehmann-Scheffe theorem"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "W-polynomial"
+  ],
+  "definition": "A function $W\\colon {\\mathbb{C}}^n \\to {\\mathbb{C}}$ of the form\n$$W(z_1,\\ldots,z_n) = z_n^m + \\sum_{j=1}^{m-1}a_j(z_1,\\ldots,z_{n-1})z_n^j ,$$\nwhere the $a_j$ are holomorphic functions in a neighbourhood of the\norigin, which vanish at the origin, is called a [*Weierstrass\npolynomial*]{}.\n\nAny codimension 1 complex analytic subvariety of ${\\mathbb{C}}^n$ can be\nwritten as the zero set of a Weierstrass polynomial using the\nWeierstrass preparation theorem. This in general cannot be done for\nhigher codimension.\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Weierstrass Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeierstrassPolynomial"
+    }
+  ],
+  "indexable": true
+}

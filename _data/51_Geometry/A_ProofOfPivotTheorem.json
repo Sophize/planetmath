@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $\\triangle ABC$ be a triangle, and let $D$, $E$, and $F$ be points\non $BC$, $CA$, and $AB$, respectively. The circumcircles of\n$\\triangle AEF$ and $\\triangle BFD$ intersect in $F$ and in another\npoint, which we call $P$. Then $AEPF$ and $BFPD$ are cyclic\nquadrilaterals, so $$\\angle A+\\angle EPF=\\pi$$ and\n$$\\angle B+\\angle FPD=\\pi$$ Combining this with\n$\\angle A+\\angle B+\\angle C=\\pi$ and $\\angle\nEPF+\\angle FPD+\\angle DPE=2\\pi$, we get $$\\angle C+\\angle DPE=\\pi.$$\nThis implies that $CDPE$ is a cyclic quadrilateral as well, so that $P$\nlies on the circumcircle of $\\triangle CDE$. Therefore, the\ncircumcircles of the triangles $AEF$, $BFD$, and $CDE$ have a common\npoint, $P$.\n\n![image](pivot.eps)",
+  "conclusion": "#P_PivotTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPivotTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of pivot theorem"
+  ]
+}

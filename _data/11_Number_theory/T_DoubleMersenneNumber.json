@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*double Mersenne number*]{} is a number of the form\n$2^{2^p - 1} - 1$. Put another way, negative one plus 2 raised to the\npower of a Mersenne number. The first few double Mersenne numbers (and\nthe ones small enough to show here) are: 3, 7, 127,\n170141183460469231731687303715884105727.\n\nIf a double Mersenne number is itself prime, then it is called a\n[*double Mersenne\u00a0prime*]{}. Obviously its index is then a Mersenne\nprime. The four double Mersenne numbers listed above are all primes, but\nas of today, $2^{170141183460469231731687303715884105727} - 1$ is a\nprobable prime, despite an intense effort to find factors. (According to\nthe Prime Pages, if it\u2019s composite, its least prime factor must be at\nleast $5 \\times 10^{51}$.",
+  "language": "INFORMAL",
+  "phrase": "Double Mersenne Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DoubleMersenneNumber"
+    }
+  ],
+  "indexable": true
+}

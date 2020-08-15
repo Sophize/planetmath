@@ -1,0 +1,17 @@
+{
+  "argumentText": "Given that $M$ is the midpoint of a chord $PQ$ of a circle and $AB$ and\n$CD$ are two other chords passing through $M$, we will prove that $M$ is\nthe midpoint of $XY,$ where $X$ and $Y$ are the points where $AD$ and\n$BC$ cut $PQ$ respectively.\n\n![image](but1.eps)\n\nLet $O$ be the center of the circle. Since $OM$ is perpendicular to $XY$\n(the line from the center of the circle to the midpoint of a chord is\nperpendicular to the chord), to show that $XM = MY,$ we have to prove\nthat $\\angle XOM = \\angle YOM.$ Drop perpendiculars $OK$ and $ON$ from\n$O$ onto $AD$ and $BC$, respectively. Obviously, $K$ is the midpoint of\n$AD$ and $N$ is the midpoint of $BC$. Further,\n$$\\angle DAB = \\angle DCB$$ and $$\\angle ADC = \\angle ABC$$ as angles\nsubtending equal arcs. Hence triangles $ADM$ and $CBM$ are similar and\nhence $$\\frac{AD}{AM} = \\frac{BC}{CM}$$ or\n$$\\frac{AK}{KM} = \\frac{CN}{NM}$$ In other words, in triangles $AKM$ and\n$CNM, $ two pairs of sides are proportional. Also the angles between the\ncorresponding sides are equal. We infer that the triangles $AKM$ and\n$CNM$ are similar. Hence $\\angle AKM = \\angle CNM.$\n\nNow we find that quadrilaterals $OKXM$ and $ONYM$ both have a pair of\nopposite straight angles. This implies that they are both cyclic\nquadrilaterals.\n\nIn $OKXM,$ we have $\\angle AKM = \\angle XOM$ and in $ONYM,$ we have\n$\\angle CNM = \\angle YOM.$ From these two, we get\n$$\\angle XOM = \\angle YOM.$$ Therefore $M$ is the midpoint of $XY.$",
+  "conclusion": "#P_ButterflyTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfButterflyTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of butterfly theorem"
+  ]
+}

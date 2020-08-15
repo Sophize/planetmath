@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "C*-groupoid system",
+    "locally compact dynamical system with Haar measure"
+  ],
+  "definition": "A *C\\*-groupoid system* or *groupoid C\\*-dynamical system* is a *triple*\n$(A, {{\\mathsf{G}}}_{lc}, \\rho )$, where: $A$ is a C\\*-algebra, and\n${{\\mathsf{G}}}_{lc}$ is a locally compact (topological) groupoid with a\ncountable basis for which there exists an associated continuous Haar\nsystem and a continuous groupoid (homo) morphism\n$\\rho: {{\\mathsf{G}}}_{lc} \\longrightarrow Aut(A)$ defined by the\nassignment $x \\mapsto \\rho_x(a)$ (from ${{\\mathsf{G}}}_{lc}$ to $A$)\nwhich is continuous for any $a \\in A$; moreover, one considers the norm\ntopology on $A$ in defining ${{\\mathsf{G}}}_{lc}$. (Definition\nintroduced in ref. [@MT1984].)\n\nA *groupoid C\\*-dynamical system* can be regarded as an extension of the\nordinary concept of dynamical system. Thus, it can also be utilized to\nrepresent a quantum dynamical system upon further specification of the\nC\\*-algebra as a , and also of ${{\\mathsf{G}}}_{lc}$ as a ; in the\nlatter case, with additional conditions it can also simulate either , or\nvariable classical automata, depending on the added restrictions\n(ergodicity, etc.).\n\n[9]{} T. Matsuda, Groupoid dynamical systems and crossed product,\nII-case of C\\*-systems., *Publ. RIMS*, Kyoto Univ., **20**: 959-976\n(1984).",
+  "language": "INFORMAL",
+  "phrase": "Groupoid C*-Dynamical System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupoidCdynamicalSystem"
+    }
+  ],
+  "indexable": true
+}

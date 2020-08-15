@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem holds in any geometry in which SAS is valid.\nSpecifically, it holds in both Euclidean geometry and hyperbolic\ngeometry (and therefore in neutral geometry) as well as in spherical\ngeometry.\n\nThe angles opposite to the congruent sides of an isosceles triangle are\ncongruent.\n\nLet triangle $\\triangle ABC$ be isosceles such that the legs\n$\\overline{AB}$ and $\\overline{AC}$ are congruent.\n\n(-3,-2)(3,3) (-2,-2)(0,2)(2,-2) (-1.2,0.1)(-0.8,-0.1)\n(0.8,-0.1)(1.2,0.1) (0,2.2)[$A$]{} (-2.2,-2)[$B$]{} (2.2,-2)[$C$]{}\n\nSince we have\n\n-   $\\overline{AB} \\cong \\overline{AC}$\n\n-   $\\angle A \\cong \\angle A$ by the of $\\cong$\n\n-   $\\overline{AC} \\cong \\overline{AB}$ by the of $\\cong$\n\nwe can use SAS to conclude that $\\triangle ABC \\cong \\triangle ACB$.\nSince corresponding parts of congruent triangles are congruent, it\nfollows that $\\angle B \\cong \\angle C$.\n\nIn geometries in which SAS and ASA are both valid, the converse theorem\nof this theorem is also true. This theorem is stated and proven in the\nentry determining from angles that a triangle is isosceles.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnglesOfAnIsoscelesTriangle"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "angles of an isosceles triangle"
+  ]
+}

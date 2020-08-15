@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An ideal $Q$ in a commutative ring $R$ is a *primary ideal* if for all\nelements $x,y\\in R$, we have that if $xy\\in Q$, then either $x\\in Q$ or\n$y^n\\in Q$ for some $n\\in{\\mathbb}{N}$.\n\nThis is clearly a generalization of the notion of a prime ideal, and\n(very) loosely mirrors the relationship in ${\\mathbb}{Z}$ between prime\nnumbers and prime powers.\n\nIt is clear that every prime ideal is primary.\n\n**Example.** Let $Q=(25)$ in $R={\\mathbb}{Z}$. Suppose that $xy\\in Q$\nbut $x\\notin Q$. Then $25|xy$, but 25 does not divide $x$. Thus 5 must\ndivide $y$, and thus some power of $y$ (namely, $y^2$), must be in $Q$.\n\nThe radical of a primary ideal is always a prime ideal. If $P$ is the\nradical of the primary ideal $Q$, we say that $Q$ is *$P$-primary*.",
+  "language": "INFORMAL",
+  "phrase": "Primary Ideal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimaryIdeal"
+    }
+  ],
+  "indexable": true
+}

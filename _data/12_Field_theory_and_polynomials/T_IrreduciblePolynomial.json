@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "prime polynomial",
+    "indivisible polynomial"
+  ],
+  "definition": "Let $f(x) = a_0\\!+\\!a_1x\\!+\\cdots+\\!a_nx^n$ be a polynomial with complex\ncoefficients $a_{\\nu}$ and with the $n > 0$. If $f(x)$ can not be\nwritten as product of two polynomials with positive degrees and with\ncoefficients in the field $\\mathbb{Q}(a_0,\\,a_1,\\,\\ldots,\\,a_n)$, then\nthe polynomial $f(x)$ is said to be . Otherwise, $f(x)$ is\n[*reducible*]{}.\n\n**Examples.** All linear polynomials are . The polynomials $x^2\\!-\\!3$,\n$x^2\\!+\\!1$ and $x^2\\!-\\!i$ are (although they split in linear factors\nin the fields $\\mathbb{Q}(\\sqrt{3})$, $\\mathbb{Q}(i)$ and\n$\\mathbb{Q}(\\frac{1\\!+\\!i}{\\sqrt{2}})$, respectively). The polynomials\n$x^4\\!+\\!4$ and $x^6\\!+\\!1$ are not .\\\nThe above definition of polynomial is special case of the more general\nsetting where $f(x)$ is a non-constant polynomial in the polynomial ring\n$K[x]$ of a field $K$; if $f(x)$ is not expressible as product of two\npolynomials with positive degrees in the ring $K[x]$, then $f(x)$ is (in\n$K[x]$).\n\n**Example.** If $K$ is the Galois field with two elements (0 and 1),\nthen the trinomial $x^2\\!+\\!x\\!+\\!1$ of $K[x]$ is (because an equation\n$x^2\\!+\\!x\\!+\\!1 = (x\\!+\\!a)(x\\!+\\!b)$ would imply the two conflicting\nconditions $a\\!+\\!b = 1$ and $ab = 1$).",
+  "language": "INFORMAL",
+  "phrase": "Irreducible Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IrreduciblePolynomial"
+    }
+  ],
+  "indexable": true
+}

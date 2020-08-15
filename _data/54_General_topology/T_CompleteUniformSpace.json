@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "semicomplete",
+    "semi-complete"
+  ],
+  "definition": "Let $X$ be a uniform space with uniformity $\\mathcal{U}$. A filter\n$\\mathcal{F}$ on $X$ is said to be a *Cauchy filter* if for each\nentourage $V$ in $\\mathcal{U}$, there is an $F\\in \\mathcal{F}$ such that\n$F\\times F\\subseteq V$.\n\nWe say that $X$ is *complete* if every Cauchy filter is a convergent\nfilter in the topology $T_{\\mathcal{U}}$ by $\\mathcal{U}$. $\\mathcal{U}$\nin this case is called a *complete uniformity*.\n\nA *Cauchy sequence* $\\lbrace x_i\\rbrace$ in a uniform space $X$ is a\nsequence in $X$ whose section filter is a Cauchy filter. A Cauchy\nsequence is said to be convergent if its section filter is convergent.\n$X$ is said to be *sequentially complete* if every Cauchy sequence\nconverges (every section filter of it converges).\n\n**Remark**. This is a generalization of the concept of completeness in a\nmetric space, as a metric space is a uniform space. As we see above, in\nthe course of this generalization, two notions of completeness emerge:\nthat of completeness and sequentially completeness. Clearly,\ncompleteness always imply sequentially completeness. In the context of a\nmetric space, or a metrizable uniform space, the two notions are\nindistinguishable: sequentially completeness also implies completeness.",
+  "language": "INFORMAL",
+  "phrase": "Complete Uniform Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompleteUniformSpace"
+    }
+  ],
+  "indexable": true
+}

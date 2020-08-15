@@ -1,0 +1,17 @@
+{
+  "argumentText": "This is a proof in of nets. Recall the following facts:\n\n[ **1 -**]{} A net $(x_{\\alpha})_{\\alpha \\in \\mathcal{A}}$ in\n$\\prod_{i \\in I}X_i$ converges to $x \\in \\prod_{i \\in I}X_i$ if and only\nif each coordinate $(x_{\\alpha}^i)_{\\alpha \\in \\mathcal{A}}$ converges\nto $x^i \\in X_i$\n\n[ **2 -**]{} A topological space $X$ is compact if and only if every net\nin $X$ has a convergent subnet.\n\n[ **3 -**]{} Every net has a universal subnet.\n\n[ **4 -**]{} A $(x_{\\alpha})_{\\alpha \\in \\mathcal{A}}$ in a compact\nspace $X$ is convergent. (see this )\n\nWe now prove Tychonoff\u2019s theorem.\n\n[**Proof (Tychonoff\u2019s theorem) :**]{} Let\n$(x_{\\alpha})_{\\alpha \\in \\mathcal{A}}$ be a net in\n$\\prod_{i \\in I}X_i$.\n\nUsing Lemma 3 we can find a subnet $(y_{\\beta})_{\\beta \\in \\mathcal{B}}$\nof $(x_{\\alpha})_{\\alpha \\in \\mathcal{A}}$.\n\nIt is easily seen that each coordinate net\n$(y_{\\beta}^i)_{\\beta \\in \\mathcal{B}}$ is a net in $X_i$.\n\nUsing Lemma 4 we see that each coordinate net converges, because $X_i$\nis compact.\n\nUsing Lemma 1 we see that the whole net\n$(y_{\\beta})_{\\beta \\in \\mathcal{B}}$ converges in $\\prod_{i \\in I}X_i$.\n\nWe conclude that every net in $\\prod_{i \\in I}X_i$ has a convergent\nsubnet, so, by Lemma 2, $\\prod_{i \\in I}X_i$ must be compact. $\\square$",
+  "conclusion": "#P_TychonoffsTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfTychonoffsTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Tychonoff's theorem"
+  ]
+}

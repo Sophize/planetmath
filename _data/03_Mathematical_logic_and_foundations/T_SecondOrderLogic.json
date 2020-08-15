@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "second-order logic",
+    "second order",
+    "second-order"
+  ],
+  "definition": "*Second order logic* refers to logics with two (or three) types where\none type consists of the objects of interest and the second is either\nsets of those objects or functions on those objects (or both, in the\nthree type case). For instance, second order arithmetic has two types:\nthe numbers and the sets of numbers.\n\nFormally, second order logic usually has:\n\n-   the standard quantifiers (four of them, since each type needs its\n    own universal and existential quantifiers)\n\n-   the standard connectives\n\n-   the relation $=$ with its normal semantics\n\n-   if the second type represents sets, a relation $\\in$ where the first\n    argument is of the first type and the second argument is the second\n    type\n\n-   if the second type represents functions, a binary function which\n    takes one argument of each type and results in an object of the\n    first type, representing function application\n\nSpecific second order logics may deviate from this definition slightly.\nIn particular, there are some first order logics with additional\nquantifiers whose strength is comparable to that of second order logic.\nSome mathematicians have argued that these should be considered second\norder logics, despite not precisely matching the definition above.\n\nSome people, chiefly Quine, have raised philisophical objections to\nsecond order logic, centering on the question of whether models require\nfixing some set of sets or functions as the \u201cactual\u201d sets or functions\nfor the purposes of that model.",
+  "language": "INFORMAL",
+  "phrase": "Second Order Logic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SecondOrderLogic"
+    }
+  ],
+  "indexable": true
+}

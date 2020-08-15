@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "self-adjoint"
+  ],
+  "definition": "#### Definition.\n\nLet $U$ be a finite-dimensional inner-product space over a field\n${\\mathbb{K}}$. Let $T:U\\rightarrow U$ be an endomorphism, and note that\nthe adjoint endomorphism $T{^{\\displaystyle \\star}}$ is also an\nendomorphism of $U$. It is therefore possible to add, subtract, and\ncompare $T$ and $T{^{\\displaystyle \\star}}$, and we are able to make the\nfollowing definitions. An endomorphism $T$ is said to be [*self-dual*]{}\n(a.k.a. [ *self-adjoint*]{}) if $$T=T{^{\\displaystyle \\star}}.$$ By\ncontrast, we say that the endomorphism is [*anti self-dual*]{} if\n$$T=-T{^{\\displaystyle \\star}}.$$\n\nExactly the same definitions can be made for an endomorphism of a\ncomplex vector space with a Hermitian inner product.\n\n#### Relation to the matrix transpose.\n\nAll of these definitions have their counterparts in the matrix setting.\nLet $M\\in\n{\\mathop{\\mathrm{Mat}}\\nolimits}_{n,n}({\\mathbb{K}})$ be the matrix of\n$T$ relative to an orthogonal basis of $U$. Then $T$ is self-dual if and\nonly if $M$ is a symmetric matrix, and anti self-dual if and only if $M$\nis a skew-symmetric matrix.\n\nIn the case of a Hermitian inner product we must replace the transpose\nwith the conjugate transpose. Thus $T$ is self dual if and only if $M$\nis a Hermitian matrix, i.e. $$M = \\overline{M^t}.$$ It is anti self-dual\nif and only if $$M = -\\overline{M^t}.$$",
+  "language": "INFORMAL",
+  "phrase": "Self-Dual",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Selfdual"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $GL(d,R)$ denote the invertible $d\\times d$-matrices over a ring\n$R$, and $M_d(R)$ the set of all $d\\times d$-matrices over $R$. When $R$\nis a finite field of order $q$, commonly denoted $GF(q)$ or\n$\\mathbb{F}_q$, we prefer to write simply $q$. In particular, $q$ is a\npower of a prime.\n\n$$\\frac{|GL(d,q)|}{|M_d(q)|}=\\prod_{i=1}^d \\left( 1-\\frac{1}{q^i}\\right).$$\n\nThe number of $d\\times d$-matrices over a $GF(q)$ is $q^{d^2}$. When a\nmatrix is invertible, its rows form a basis of the vector space\n$GF(q)^d$ and this leads to the following formula\n$$|GL(d,q)|=q^{\\binom{d}{2}}\\prod_{i=1}^d (q^i-1).$$ (Refer to )\n\nNow we prove the ratio holds:\n$$\\prod_{i=1}^d \\left( 1-\\frac{1}{q^i}\\right)\n= \\prod_{i=1}^d \\frac{q^i-1}{q^i}\n= \\frac{1}{q^{\\binom{d+1}{2}}}\\prod_{i=1}^d (q^i-1)\n= \\frac{1}{q^{d^2}}q^{\\binom{d}{2}}\\prod_{i=1}^d (q^i-1)\n   = \\frac{|GL(d,q)|}{|M_d(q)|}.$$\n\nAs $q\\rightarrow \\infty$ with $d$ fixed, the proportion of invertible\nmatrices to all matrices converges to 1. That is:\n$$\\lim_{q\\rightarrow \\infty} \\frac{|GL(d,q)|}{|M_d(q)|}=1.$$\n\n\\[coro:random-mat\\] As $d\\rightarrow \\infty$ and $q$ is fixed, the\nproportion of invertible matrices decreases monotonically and converges\ntowards a positive limit. Furthermore,\n$$\\frac{1}{4} \\leq 1-\\frac{q^2-q+1}{q^2 (q-1)} \\leq \n\\prod_{i=1}^d\\left(1-\\frac{1}{q^i}\\right) \\leq 1-\\frac{1}{q}.$$\n\nBy direct expansion we find\n$$\\prod_{i=1}^\\infty (1-a_i)=1-\\sum_{1\\leq i} a_i+\\sum_{1\\leq i<j} a_i a_j\n    - \\sum_{1\\leq i<j<k} a_i a_j a_k +\\cdots.$$ So setting $a_0=1$ and\n$$a_{i+1}=a_i\\sum_{j=i+1}^\\infty \\frac{1}{q^j}=a_i\\frac{1}{q^{i}(q-1)}$$\nfor all $i\\in\\mathbb{N}$, we have\n$$\\prod_{i=1}^\\infty\\left(1-\\frac{1}{q^i}\\right) = \\sum_{i=0}^\\infty (-1)^i a_i.$$\nAs $a_i\\geq 0$, $a_{i}\\geq a_{i+1}$ for all $i\\in\\mathbb{N}$ and\n$a_i\\rightarrow 0$ as $i\\rightarrow \\infty$, we may use Leibniz\u2019s\ntheorem to conclude the alternating series converges. Furthermore, we\nmay estimate the error to the $N$-th term with error within\n$\\pm a_{N+1}$. Using $N=2$ we have an estimate of $1-1/q$ with error\n$\\pm \\frac{1}{q^2(q-1)}$. Since $q\\geq 2$ this gives $1/2$ with error\n$\\pm 1/4$. Thus we have at least $1/4$ chance of choosing an invertible\nmatrix at random.\n\n$q=2$ is the only field size where the proportion of invertible matrices\nto all matrices is less than $1/2$.\n\nAcknowledgements: due to discussions with Wei Zhou, silverfish and\nmathcam.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProportionsOfInvertibleMatrices"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "proportions of invertible matrices",
+    "proportions invertible linear transformations"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Definition.** From a family of plane curves, the [*osculating\ncurve*]{} of the curve $y = f(x)$ in a certain point is the curve of the\nfamily which has the highest order contact with the curve $y = f(x)$ in\nthat point.\\\n**Example 1.** From the family of the graphs of the polynomial functions\n$$P_n(x) := c_0+c_1(x-x_0)+\\ldots+c_n(x-x_0)^n,$$ the osculating curve\nof $y = f(x)$ in $(x_0,\\,f(x_0))$ is the Taylor polynomial of degree $n$\nof the function $f$.\\\n**Example 2.** Determine the osculating hyperbola with axes parallel to\nthe coordinate axes for the curve $y = \\cos{x}$ in the point $(0,\\,1)$.\nWhat is the order of contact?\n\nWe may seek the osculating hyperbola from the three-parametric family\n$$\\begin{aligned}\n\\frac{x^2}{a^2}-\\frac{(y-y_0)^2}{b^2} = -1.\\end{aligned}$$\n\nRemoving the denominators and differentiating six times successively\nyield the equations $$\\begin{aligned}\n\\begin{cases}\nb^2x^2-a^2(y-y_0)^2+ a^2b^2 = 0,\\\\\nb^2x-a^2(y-y_0)y' = 0,\\\\\nb^2-a^2y'^2-a^2(y-y_0)y'' = 0,\\\\\n3y'y''+(y-y_0)y''' = 0,\\\\\n3y''^2+4y'y'''+(y-y_0)y'''' = 0,\\\\\n10y''y'''+5y'y''''+(y-y_0)y^{(5)} = 0,\\\\\n10y'''^2+15y''y''''+6y'y^{(5)}+(y-y_0)y^{(6)} = 0.\n\\end{cases}\\end{aligned}$$ Into these equations we can substitute the\ncoordinates $x = 0,\\, y = 1$ of the contact point and the values of the\nderivatives\n$$y' = -\\sin{x},\\;y'' = -\\cos{x},\\;y''' = \\sin{x},\\;y'''' = \\cos{x},\\;y^{(5)} = -\\sin{x},\\;y^{(6)} = -\\cos{x}$$\nof cosine in that point; the values are $0,\\;-1,\\;0,\\;1,\\,0,\\;-1$. The\nfirst, third and fifth of the equations (2) give the result\n$y_0 = 4,\\;\\, b^2 = 9,\\;\\, a^2 = 3$, whence the osculating hyperbola is\n$$\\frac{x^2}{3}-\\frac{(y-4)^2}{9} = -1.$$ When we substitute the\npertinent values of the cosine derivatives into the two last equations\n(2), we see that only the former of them is satisfied. It means that the\norder of contact between the cosine curve and the hyperbola is 5.\\\n**Example 3.** The osculating parabola of the $y = e^x$ in the point\n$(0,\\,1)$ is $$4x^2+y^2+4xy+14x-20y+19 = 0.$$ The order of contact is\nonly 3.",
+  "language": "INFORMAL",
+  "phrase": "Osculating Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OsculatingCurve"
+    }
+  ],
+  "indexable": true
+}

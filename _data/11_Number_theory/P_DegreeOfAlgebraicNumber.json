@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** The of any algebraic number $\\alpha$ in the number field\n$\\mathbb{Q}(\\vartheta)$ divides the degree of $\\vartheta$. The zeroes of\nthe characteristic polynomial $g(x)$ of $\\alpha$ consist of the\nalgebraic conjugates of $\\alpha$, each of which having equal\nmultiplicity as zero of $g(x)$.\\\n*Proof.* Let the minimal polynomial of $\\alpha$ be\n$$a(x) \\;:=\\; x^k+a_1x^{k-1}+\\ldots+a_k$$ and all zeroes of this be\n$\\alpha_1 = \\alpha,\\,\\alpha_2,\\,\\ldots,\\,\\alpha_k$. Denote the canonical\npolynomial of $\\alpha$ with respect to the $\\vartheta$ by $r(x)$; then\n$$a(r(\\vartheta)) \\;=\\; a(\\alpha) \\;=\\; 0.$$ If\n$a(r(x)) \\;:=\\; \\varphi(x)$, then the equation $$\\varphi(x) \\;=\\; 0$$\nhas rational coefficients and is satisfied by $\\vartheta$. Since the\nminimal polynomial $f(x)$ of $\\vartheta$ is , it must divide\n$\\varphi(x)$ and all algebraic conjugates\n$\\vartheta_1 = \\vartheta,\\,\\vartheta_2,\\,\\ldots,\\,\\vartheta_n$ of\n$\\vartheta$ make $\\varphi(x)$ zero. Hence we have\n$$a(\\alpha^{(i)}) \\;=\\; a(r(\\vartheta_i)) \\;=\\; 0 \\quad \\mbox{for}\\quad i \\,=\\, 1,\\,2,\\,\\ldots,\\,n$$\nwhere the numbers $\\alpha^{(i)}$ are the of $\\alpha$. Thus these\n$\\mathbb{Q}(\\vartheta)$-conjugates are roots of the irreducible equation\n$a(x) = 0$, whence $a(x)$ must divide the characteristic polynomial\n$g(x)$. Let the $[a(x)]^m$ exactly divide $g(x)$, when\n$$g(x) \\;=\\; [a(x)]^mb(x), \\quad a(x) \\nmid b(x).$$ Antithesis:\n$\\mbox{deg}(b(x)) \\,\\geqq\\, 1$ and $b(\\beta) \\,=\\, 0$.\\\nThis implies that $g(\\beta) = 0$, i.e. $\\beta$ is one of the numbers\n$\\alpha^{(i)}$. Therefore, $\\beta$ were a zero of $a(x)$ and thus\n$a(x) \\mid b(x)$, which is impossible. Consequently,the antithesis is\nwrong, i.e. $b(x)$ is a constant, which must be 1 because $g(x)$ and\n$a(x)$ are monic polynomials. So, $g(x) = [a(x)]^m$. Since\n$$a(x) \\;=\\; (x\\!-\\!\\alpha_1)(x\\!-\\!\\alpha_2)\\cdots(x\\!-\\!\\alpha_k),$$\nit follows that\n$$g(x) \\;=\\; (x\\!-\\!\\alpha_1)^m(x\\!-\\!\\alpha_2)^m\\cdots(x\\!-\\!\\alpha_k)^m.$$\nHence $km \\,=\\, n$ and $k$ divides $n$, as asserted. Moreover, each\n$\\alpha_j$ is a zero of order $m$ of $g(x)$, i.e. appears among the\nroots $\\alpha^{(1)},\\,\\alpha^{(2)},\\,\\ldots,\\,\\alpha^{(n)}$ of the\nequation $g(x) = 0$ $m$ times.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DegreeOfAlgebraicNumber"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "degree of algebraic number"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $ABCD$ be a cyclic quadrialteral. We will prove that\n$$AC\\cdot BD=AB\\cdot CD + BC\\cdot DA.$$\n\n![image](ptolomeo)\n\nFind a point $E$ on $BD$ such that $\\angle BCA=\\angle ECD$. Since\n$\\angle BAC=\\angle BDC$ for opening the same arc, we have triangle\nsimilarity $\\triangle ABC\\sim \\triangle DEC$ and so\n$$\\frac{AB}{DE}=\\frac{CA}{CD}$$ which implies $AC\\cdot ED = AB\\cdot CD$.\n\nAlso notice that $\\triangle ADC \\sim \\triangle BEC$ since have two pairs\nof equal angles. The similarity implies $$\\frac{AC}{BC}=\\frac{AD}{BE}$$\nwhich implies $AC\\cdot BE = BC\\cdot DA$.\n\nSo we finally have $AC\\cdot BD=AC(BE+ED)=AB\\cdot CD+BC\\cdot DA$.",
+  "conclusion": "#P_PtolemysTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPtolemysTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Ptolemy's theorem"
+  ]
+}

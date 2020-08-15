@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring and $M$ a (right) module over $R$. A short exact\nsequence of modules $$\\xymatrix{\nP_1\\ar[r]^{p_1} & P_0\\ar[r]^{p_0} & M\\ar[r] & 0\n}$$ is called a **minimal projective presentation** of $M$ if both\n$p_0:P_0\\to M$ and $p_1:P_1\\to\\mathrm{ker}p_0$ are projective covers.\n\nMinimal projective presenetations are unique in the following sense: if\n$$\\xymatrix{\nP_1\\ar[r]^{p_1} & P_0\\ar[r]^{p_0} & M\\ar[r] & 0 \\\\\nP'_1\\ar[r]^{p'_1} & P'_0\\ar[r]^{p'_0} & M\\ar[r] & 0 \\\\\n}$$ are both minimal projective presentations of $M$, then this diagram\ncan be completed to the following commutative one: $$\\xymatrix{\nP_1\\ar[r]^{p_1}\\ar[d]^{a} & P_0\\ar[r]^{p_0}\\ar[d]^{b} & M\\ar[r]\\ar[d]^{=} & 0 \\\\\nP'_1\\ar[r]^{p'_1} & P'_0\\ar[r]^{p'_0} & M\\ar[r] & 0 \\\\\n}$$ were both $a,b$ are isomorphisms.\n\nIt can be shown, that if $R$ is a finite-dimensional algebra over a\nfield $k$, then every finitely generated $R$-module $M$ admits minimal\nprojective presentation (indeed, $R$ is in this case).",
+  "language": "INFORMAL",
+  "phrase": "Minimal Projective Presentation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinimalProjectivePresentation"
+    }
+  ],
+  "indexable": true
+}

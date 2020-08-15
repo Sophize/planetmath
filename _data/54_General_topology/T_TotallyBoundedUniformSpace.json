@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A uniform space $X$ with uniformity $\\mathcal{U}$ is called *totally\nbounded* if for every entourage $U\\in \\mathcal{U}$, there is a finite\ncover $C_1,\\ldots,C_n$ of $X$, such that $C_i\\times C_i\\in U$ for every\n$i=1,\\ldots,n$. $\\mathcal{U}$ is called a totally bounded uniformity.\n\n**Remark**. A uniform space is compact (under the uniform topology) iff\nit is complete and totally bounded.\n\n[9]{} S. Willard, *General Topology*, Addison-Wesley, Publishing\nCompany, 1970.",
+  "language": "INFORMAL",
+  "phrase": "Totally Bounded Uniform Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TotallyBoundedUniformSpace"
+    }
+  ],
+  "indexable": true
+}

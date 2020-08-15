@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that $f$ is a continuously differentiable function defined on an\nopen subset $E$ of $\\mathbb{R}^2$, i.e. it has on $E$ the continuous\npartial derivatives $f_x'(x,\\,y)$ and $f_y'(x,\\,y)$.\n\nIf $y(x)$ is a solution of the ordinary differential equation\n$$\\begin{aligned}\n\\frac{dy}{dx} \\;=\\; f(x,\\,y),\\end{aligned}$$ then we have\n$$\\begin{aligned}\ny'(x) \\;=\\; f(x,\\,y(x)), \\end{aligned}$$ $$\\begin{aligned}\ny''(x) \\;=\\; f_x'(x,\\,y(x))+f_y'(x,\\,y(x))\\,y'(x)\\end{aligned}$$ (see\nthe ). Thus there exists on $E$ the second derivative $y''(x)$ which is\nalso continuous. More generally, we can infer the\n\n**Theorem.** If $f(x,\\,y)$ has in $E$ the continuous partial derivatives\nup to the order $n$, then any solution $y(x)$ of the differential\nequation (1) has on $E$ the continuous derivatives $y^{(i)}(x)$ up to\nthe $n\\!+\\!1$.\\\n**Note 1.** The derivatives $y^{(i)}(x)$ are got from the equation (1)\nvia succesive differentiations. Two first ones are (2) and (3), and the\nnext two ones, with a simpler notation:\n$$y''' \\;=\\; f_{xx}''+2f_{xy}''y'+f_{yy}''y'^2+f_y'y'',$$\n$$y^{(4)} \\;=\\; f_{xxx}'''+3f_{xxy}'''y'+3f_{xyy}'''y'^2+f_{yyy}'''y'^3+3f_{xy}''y''+3f_{yy}''y'y''+f_y'y'''$$\n\n**Note 2.** It follows from (3) that the curve $$\\begin{aligned}\nf_x'(x,\\,y)+f_y'(x,\\,y)f(x,\\,y) \\;=\\; 0\\end{aligned}$$ is the locus of\nthe inflexion points of the integral curves of (1), or more exactly, the\nlocus of the points where the integral curves have with their tangents a\nmore than one. The curve (4) is also the locus of the points of tangency\nof the integral curves and their isoclines.\n\n[9]{} . Mercatorin Kirjapaino Osakeyhti\u00f6, Helsinki (1935).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivativesOfSolutionOfFirstOrderODE"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "derivatives of solution of first order ODE"
+  ]
+}

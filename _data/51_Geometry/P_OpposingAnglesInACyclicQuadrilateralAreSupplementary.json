@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "*\\[Euclid, Book III, Prop. 22\\]* If a quadrilateral is inscribed in a\ncircle, then opposite angles of the quadrilateral sum to $180^{\\circ}$.\n\nLet $ABCD$ be a quadrilateral inscribed in a circle\n\n(-3.0000,-3.0000)(3.0000,3.0000) (-3.1,-3.1)[.]{} (3.1,3.1)[.]{}\n(0.0000,0.0000) \\[45.0000\\](0.0000,0.0000)[$O$]{}\n(0.0000,0.0000)[2.0000]{} (2.0000,0.0000)\n\\[0.0000\\](2.0000,0.0000)[$A$]{} (0.5176,1.9319)\n\\[75.0000\\](0.5176,1.9319)[$B$]{} (-1.9696,-0.3473)\n\\[190.0000\\](-1.9696,-0.3473)[$C$]{} (1.5321,-1.2856)\n\\[320.0000\\](1.5321,-1.2856)[$D$]{}\n(2.0000,0.0000)(0.5176,1.9319)(-1.9696,-0.3473)(1.5321,-1.2856)\n(0.0000,0.0000)(0.5176,1.9319) (0.0000,0.0000)(1.5321,-1.2856)\n\nNote that $\\angle BAD$ subtends arc $BCD$ and $\\angle BCD$ subtends arc\n$BAD$. Now, since a circumferential angle is half the corresponding\ncentral angle, we see that $\\angle BAD + \\angle BCD$ is one half of the\nsum of the two angles $BOD$ at $O$. But the sum of these two angles is\n$360^{\\circ}$, so that $$\\angle BAD + \\angle BCD = 180^{\\circ}$$\nSimilarly, the sum of the other two opposing angles is also\n$180^{\\circ}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OpposingAnglesInACyclicQuadrilateralAreSupplementary"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "opposing angles in a cyclic quadrilateral are supplementary"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(X_i,{\\varrho}_i)$ be a metric space for each $i=1,2,\\ldots, $\nwhere the diameter of $X_i$ using ${\\varrho}_i$ is less than $1/i$. Then\nthe product topology for the space $\\prod_{i=1}^\\infty X_i$ is given by\nthe metric\n$${\\varrho}(x,y)=\\sum_{i=1}^\\infty \\frac1{2^i}\\varrho_i(x_i,y_i).$$\nHence, a countable product of metrizable topological spaces is again\nmetrizable.\n\nSince the convergence in the product topology is the pointwise\nconvergence, the same is true for the metric space with the above\nmetric.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProductOfMetricSpaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "product of metric spaces"
+  ]
+}

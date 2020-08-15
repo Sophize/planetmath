@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V$ be a normed vector space with norm $\\| \\cdot \\|$. Let $M$ be a\nclosed subspace of $V$ and $V/M$ the quotient vector space.\n\nThe norm $\\| \\cdot \\|$ induces a norm $\\| \\cdot \\|_{V/M}$ in $V/M$,\ncalled the [**quotient norm**]{}, given by\n\n$$\\| v+M \\|_{V/M}:= \\inf_{u \\in v+M} \\|u\\| = \\inf_{m \\in M} \\|v+m\\|$$\n\n[**Theorem -**]{} $\\| \\cdot \\|_{V/M}$ is a norm in $V/M$ iff $M$ is\nclosed in $V$.",
+  "language": "INFORMAL",
+  "phrase": "Quotient Norm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientNorm"
+    }
+  ],
+  "indexable": true
+}

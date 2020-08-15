@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V$ be a comodule with a right coaction $t\\colon V \\to V\\otimes A$\nof a coalgebra $A$. An element $v \\in V$ is **right coinvariant** if\n$$t(v) = v\\otimes{\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_A.$$ The set of\ncoinvariants of $A$ is a sub-comodule with the trivial coaction of $A$.\nThe sub-comodule of right (or left) coinvariants of $V$ is sometimes\ndenoted by $V^{\\mathrm{co}A}$ (or ${}^{\\mathrm{co}A}V$).",
+  "language": "INFORMAL",
+  "phrase": "Coinvariant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Coinvariant"
+    }
+  ],
+  "indexable": true
+}

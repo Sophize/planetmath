@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A square matrix is said to be a *stable matrix* if every eigenvalue of\nhas negative real part. The matrix is called *positive stable* if every\neigenvalue has positive real part.\n\n[*Motivation:*]{} In the following system of linear differential\nequations, $$\\mathbf{x}'(t) = M \\mathbf{x}(t)$$ it is easy to see that\nthe point $\\mathbf{x}=\\mathbf{0}$ is an equilibrium point. The\ntrajectory $\\mathbf{x}(t)$ will converge to $\\mathbf{0}$ for every\ninitial value $\\mathbf{x}(0)$ if and only if the matrix $M$ is a stable\nmatrix.",
+  "language": "INFORMAL",
+  "phrase": "Stable Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StableMatrix"
+    }
+  ],
+  "indexable": true
+}

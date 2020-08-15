@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a topological space $X$ the fundamental groupoid $\\Pi_1(X)$ of $X$\nis defined as follows:\n\n-   The objects of $\\Pi_1(X)$ are the points of $X$\n    $$\\mathrm{Obj}(\\Pi_1(X))=X\\,,$$\n\n-   morphisms are homotopy classes of paths \u201crel endpoints\u201d that is\n    $$\\mathrm{Hom}_{\\Pi_1(X)}(x,y)=\\mathrm{Paths}(x,y)/\\sim\\,,$$ where,\n    $\\sim$ denotes homotopy rel endpoints, and,\n\n-   composition of morphisms is defined via concatenation of paths.\n\nIt is easily checked that the above defined category is indeed a\ngroupoid with the inverse of (a morphism represented by) a path being\n(the homotopy class of) the \u201creverse\u201d path. Notice that for $x \\in X$,\nthe group of automorphisms of $x$ is the fundamental group of $X$ with\nbasepoint $x$, $$\\mathrm{Hom}_{\\Pi_1(X)}(x,x)=\\pi_1(X,x)\\,.$$\n\nLet $f\\co X\\to Y$ be a continuous function between two topological\nspaces. Then there is an induced functor\n$$\\Pi_1(f)\\co \\Pi_1(X)\\to\\Pi_1(Y)$$ defined as follows\n\n-   on objects $\\Pi_1(f)$ is just $f$,\n\n-   on morphisms $\\Pi_1(f)$ is given by \u201ccomposing with $f$\u201d, that is if\n    $\\alpha\\co I\\to$\u00a0$ X$ is a path representing the morphism\n    $[\\alpha]\\co x\\to y$ then a representative of\n    $\\Pi_1(f)([\\alpha])\\co f(x)\\to f(y)$ is determined by the following\n    commutative diagram\n    $$\\xymatrix{{I}\\ar[d]_{\\alpha}\\ar@{-->}[dr]^{\\Pi_1(f)(\\alpha)}\\\\\n     {X}\\ar[r]_f&{Y} }$$\n\nIt is straightforward to check that the above indeed defines a functor.\nTherefore $\\Pi_1$ can (and should) be regarded as a functor from the\ncategory of topological spaces to the category of groupoids. This\nfunctor is not really homotopy invariant but it is \u201chomotopy invariant\nup to homotopy\u201d in the sense that the following holds.\n\nA homotopy between two continuous maps induces a natural transformation\nbetween the corresponding functors.\n\nA reader who understands the meaning of the statement should be able to\ngive an explicit construction and supply the proof without much trouble.",
+  "language": "INFORMAL",
+  "phrase": "Fundamental Groupoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalGroupoid"
+    }
+  ],
+  "indexable": true
+}

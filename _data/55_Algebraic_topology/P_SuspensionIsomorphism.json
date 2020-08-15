@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a topological space. There is a natural isomorphism\n$${s:{H_{n+1}(SX)\\rightarrow H_{n}(X)}},$$ where $SX$ stands for the\nunreduced suspension of $X.$\n\nIf $X$ has a basepoint, there is a natural isomorphism\n$${s:{\\widetilde{H}_{n+1}({\\Sigma}X)\\rightarrow \\widetilde{H}_n(X)}},$$\nwhere ${\\Sigma}X$ is the reduced suspension.\n\nA similar proposition holds with homology replaced by cohomology.\n\nIn fact, these propositions follow from the Eilenberg-Steenrod axioms\nwithout the dimension axiom, so they hold for any generalized\n(co)homology theory in place of integral (co)homology.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SuspensionIsomorphism"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "suspension isomorphism"
+  ]
+}

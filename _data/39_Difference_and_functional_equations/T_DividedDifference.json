@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f$ be a real (or complex) function. Given distinct real (or\ncomplex) numbers $x_0, x_1, x_2, \\ldots$, the *divided differences* of\n$f$ are defined recursively as follows: $$\\begin{aligned}\n\\Delta^1 f [x_0, x_1] &= {f(x_1) - f(x_0) \\over x_1 - x_0} \\\\\n\\Delta^{n+1} f [x_0, x_1,\\ldots, x_{n+1}] &= {\\Delta^n f [x_1, x_2, \\ldots ,x_{n+1}] - \\Delta^n f [x_0, x_2 ,\\ldots, x_{n+1}] \\over x_1 - x_0}\\end{aligned}$$\nIt is also convenient to define the zeroth divided difference of $f$ to\nbe $f$ itself: $$\\Delta^0 f [x_0] = f[x_0]$$\n\nSome important properties of divided differences are:\n\n1.  Divided differences are invariant under permutations of\n    $x_0, x_1, x_2, \\ldots$\n\n2.  If $f$ is a polynomial of order $m$ and $m < n$, then the $n$-th\n    divided differences of $f$ vanish identically\n\n3.  If $f$ is a polynomial of order $m+n$, then\n    $\\Delta^n (x,x_1, \\ldots ,x_n)$ is a polynomial in $x$ of order $m$.\n\nDivided differences are useful for interpolating functions when the\nvalues are given for unequally spaced values of the argument.\n\nBecuse of the first property listed above, it does not matter with\nrespect to which two arguments we compute the divided difference when we\ncompute the $n+1$-st divided difference from the $n$-th divided\ndifference. For instance, when computing the divided difference table\nfor tabulated values of a function, a convenient choice is the\nfollowing:\n$$\\Delta^{n+1} f [x_0, x_1,\\ldots, x_{n+1}] = {\\Delta^n f [x_1, x_2, \\ldots ,x_{n+1}] - \\Delta^n f [x_0, x_1 ,\\ldots, x_{n}] \\over x_{n+1} - x_0}$$",
+  "language": "INFORMAL",
+  "phrase": "Divided Difference",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DividedDifference"
+    }
+  ],
+  "indexable": true
+}

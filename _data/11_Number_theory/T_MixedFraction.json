@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "mixed number"
+  ],
+  "definition": "Any improper fraction $\\frac{a}{b}$ can be uniquely written as a sum of\nan integer $q$ and a proper fraction $\\frac{r}{b}$: $$\\begin{aligned}\n\\frac{a}{b} \\;=\\; q\\!+\\!\\frac{r}{b}\\end{aligned}$$ The decomposition (1)\nis guaranteed by the division algorithm for integers. The sum form is\ncalled *mixed fraction* or *mixed number*.\\\nFor explicitly given integers $q$, $r$, $b$, the mixed fraction is\nusually written without the plus sign, for example\n$$\\frac{9}{2} \\;=\\; 4\\frac{1}{2}.$$\n\nGiven an improper fraction of the positive integers $a$ and $b$, their\ndivision gives the incomplete quotient $q$ and the remainder $r$; then\nthe mixed fraction can be gotten by (1).\\\nOn the other hand, if one wants to convert e.g. $8\\frac{11}{15}$ into an\nimproper fraction, one needs first to convert the integer part 8 into\nfifteenths, obtaining\n$$8 \\;=\\; \\frac{8\\!\\cdot\\!15}{15} \\;=\\; \\frac{120}{15},$$ this fraction\nis added to the ready fifteenths $\\frac{11}{15}$; the total amount of\nfifteenths is $\\frac{131}{15}$; thus one has\n$$8\\frac{11}{15} \\;=\\; \\frac{131}{15}.$$\\\n**Note.** A minus sign in front of a mixed fraction belongs not only for\nthe integer part but also for the fractional part, i.e. for example\n$-2\\frac{1}{4} \\,=\\, -2\\!-\\!\\frac{1}{4}$.\\\nThe rational expressions, i.e. denoted quotients of polynomials, have\nanalogous to mixed fractions. E.g., if the degree of the polynomial\n$A(x)$ is at least equal to the degree of $B(x)$, we have\n$$\\begin{aligned}\n\\frac{A(x)}{B(x)} \\;=\\; Q(x)\\!+\\!\\frac{R(x)}{B(x)}.\\end{aligned}$$ Here\nthe degree of the remainder polynomial $R(x)$ is less than the degree of\nthe numerator polynomial $B(x)$, an arithmetic fact that has been well\ndocumented for over 4,000 years. Fibonacci in the Liber Abaci used mixed\nfraction arithmetic in 1202 AD. Archimedes Calculus included mixed\nfractions to record the area of a parabola. Egyptian scribes in 1650 BCE\nalso used this class of mixed fraction arithmetic. One scribe, Ahmes\nscaled a volume unit in multiples of 64 so that a quotient recorded 1/64\nunits and a remainder recorded 1/320 units.",
+  "language": "INFORMAL",
+  "phrase": "Mixed Fraction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MixedFraction"
+    }
+  ],
+  "indexable": true
+}

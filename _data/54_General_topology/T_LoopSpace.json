@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space, and give the space of continuous maps\n$[0,1]\\to X$, the compact-open topology, that is a subbasis for the\ntopology is the collection of sets $\\{\\sigma : \\sigma(K)\\subset U \\}$\nfor $K\\subset [0,1]$ compact and $U\\subset X$ open.\n\nThen for $x\\in X$, let $\\Omega_{x}X$ be the subset of loops based at $x$\n(that is $\\sigma$ such that $\\sigma(0) = \\sigma(1) = x$), with the\nrelative topology.\n\n$\\Omega_{x}X$ is called the loop space of $X$ at $x$.",
+  "language": "INFORMAL",
+  "phrase": "Loop Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LoopSpace"
+    }
+  ],
+  "indexable": true
+}

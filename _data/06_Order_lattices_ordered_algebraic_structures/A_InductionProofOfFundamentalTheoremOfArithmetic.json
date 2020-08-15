@@ -1,0 +1,17 @@
+{
+  "argumentText": "We present an induction proof by Zermelo for the .\\\n**Part 1.** Every positive integer $n$ is a product of prime numbers.\n\n[*Proof.*]{} If $n = 1$, it is the empty product of primes, and if\n$n =2$, it is a prime number.\n\nLet then $n > 2$. Make the induction hypothesis that all positive\nintegers $m$ with $1 < m < n$ are products of prime numbers. If $n$ is a\nprime number, the thing is ready. Else, $n$ is a product of smaller\nnumbers; these are, by the induction hypothesis, products of prime\nnumbers. The proof is complete.\\\n**Part 2.** For any positive integer $n$, its representation as product\nof prime numbers is unique up to the order of the prime factors.\n\n[*Proof.*]{} The assertion is clear in the case that $n$ is a prime\nnumber, especially when $n = 2$.\n\nLet then $n > 2$ and suppose that the assertion is true for all positive\nintegers less than $n$.\n\nIf now $n$ is a prime, we are ready. Therefore let it be a composite\nnumber. There is a least nontrivial factor $p$ of $n$. This $p$ must be\na prime. Put $n = pb$ where b is a positive integer. By the induction\nhypothesis, $b$ has a unique prime factor decomposition. Thus $n$ has a\nunique prime decomposition containing the prime factor $p$.\n\nNow we will show that $n$ cannot have other prime decompositions. Make\nthe antithesis that $n$ has a different prime decomposition; let $q$ be\nthe least prime factor in it. Now we have $p < q$ and $n = qc$ where\n$c \\in \\mathbb{Z}_+$ and $c < n$ with $p \\nmid c$. Then\n$$\\begin{aligned}\nn_0 \\;:=\\; n-pc = \n    \\begin{cases}\n      pb-pc = p(b-c)\\\\\n      qc-pc = (q-p)c  \n    \\end{cases}\\end{aligned}$$ is a positive integer less than $n$.\nSince $p \\mid n_0$, the induction hypothesis implies that the prime $p$\nis in the prime decomposition of $(q-p)c$ and thus also at least of\n$q\\!-\\!p$ or $c$. But we know that $p \\nmid c$, whence $p \\mid q-p$.\nThus we would get $p \\mid q\\!-\\!p\\!+\\!p = q$. Because both $p$ and $q$\nare primes, it would follow that $p = q$. This contradicts the fact that\n$p < q$. Consequently, our antithesis is wrong. Accordingly, $n$ has\nonly one prime decomposition, and the induction proof is complete.\n\n[8]{} : \u201cZermelo ja aritmetiikan peruslause\u201d. $-$ [*Solmu*]{} **1**\n(2014). : [*Elementare Betrachtungen zur Theorie der Primzahlen*]{}. $-$\nWissenschaftliche Gesellschaft zu G\u00f6ttingen (1934). English translation\nin: H.-D. Ebbinghaus & A. Kanamori (eds.): [*Ernst Zermelo. Collected\nWorks. Volume I. Set Theory*]{}, Miscellanea, Springer (2010). Ernst\nZermelo: \u201cElementary considerations concerning the theory of prime\nnumbers\u201d 576$-$581.",
+  "conclusion": "#P_FundamentalTheoremOfArithmetic",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InductionProofOfFundamentalTheoremOfArithmetic"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "induction proof of fundamental theorem of arithmetic"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "First some notation. Let $\\partial_\\infty G$ be the extended boundary of\n$G$. That is, the boundary of $G$, plus optionally the point at infinity\nif in fact $G$ is unbounded.\n\nLet $G$ be a simply connected region and let\n$f \\colon G \\to {\\mathbb{C}}$ and $\\varphi \\colon G \\to {\\mathbb{C}}$ be\nanalytic functions. Furthermore suppose that $\\varphi$ never vanishes\nand is bounded on $G$. If $M$ is a constant and\n$\\partial_\\infty G = A \\cup B$ such that\n\n1.  for every $a \\in A$,\n    $\\varlimsup_{z\\rightarrow a} \\lvert f(z) \\rvert \\leq M$, and\n\n2.  for every $b \\in B$, and $\\eta > 0$,\n    $\\varlimsup_{z \\rightarrow b} \\lvert f(z) \\rvert \\lvert \\varphi(z) \\rvert^\\eta \\leq M$,\n\nthen $\\lvert f(z) \\rvert \\leq M$ for all $z \\in G$.\n\nThis theorem is a generalization of the maximal modulus principle, but\ninstead of requiring that the function is bounded as we approach the\nboundary, we only need a restriction on its growth to it to in fact be\nbounded in all of $G$.\n\nIf you let $A = \\partial_\\infty G$ (and $\\varphi \\equiv 1$ perhaps),\nthen you get almost exactly one version of the maximal modulus\nprinciple. In this case it turns out that $G$ need not be simply\nconnected since that is only needed to define\n$z \\mapsto \\varphi(z)^\\eta$.\n\nIn fact the requirement that $G$ be simply connected can be eased up a\nbit in this theorem since it is only needed locally. So the theorem is\nstill true if for every point $z \\in \\partial_\\infty G$ there exists an\nopen neighbourhood $N$ of $z$ such that $N \\cap G$ is simply connected.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1978.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PhragmenLindelofTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Phragm\\'en-Lindel\\\"of theorem",
+    "Phragm\\'en-Lindel\\\"of principle"
+  ]
+}

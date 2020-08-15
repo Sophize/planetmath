@@ -1,0 +1,19 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that $V \\subset U \\subset {\\mathbb{C}}^2$ is an irreducible\ncomplex analytic subset of (complex) dimension 1 where $U$ is a domain.\nSuppose that $0 \\in V$. Then there exists an analytic (holomorphic) map\n$f \\colon {\\mathbb{D}} \\to V$, where ${\\mathbb{D}}$ is the unit disc,\nsuch that $f(0) = 0$ and $f({\\mathbb{D}}) = N$ where $N \\subset V$ is a\nneighbourhood of $0$ in $V$, $f$ is one to one, and further\n$f |_{{\\mathbb{D}}\\backslash \\{0\\}}$ is a biholomorphism onto\n$N \\backslash \\{0\\}$. In fact there exist suitable local coordinates\n$(z,w)$ in ${\\mathbb{C}}^2$ such that $f$ is then given by\n$\\xi \\mapsto (z,w)$ where $z = \\xi^k$, $w = \\sum_{n=m}^\\infty a_n \\xi^n$\nwhere $m > k$.\n\nThis is sometimes written as $$w = \\sum_{n=m}^\\infty a_n z^{n/k}$$ and\nhence the name [*Puiseux series parametrization*]{}. If you do however\nwrite it like this, it must be properly interpreted, as the Puiseux\nseries is in general not single valued.\n\nA similar result for arbitrary complex analytic sets with singularities\nof codimension 1 in higher dimensional spaces under further conditions\non the singular set was obtained by Stutz, see Chirka [@Chirka:CAS] page\n98.\n\n[9]{} E. M. Chirka. [**]{}. Kluwer Academic Publishers, Dordrecht, The\nNetherlands, 1989. Alexandru Dimca. [**]{}. Vieweg, Braunschweig,\nGermany, 1987.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PuiseuxParametrization"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Puiseux parametrization",
+    "Puiseux series parametrization",
+    "Puiseux normalization",
+    "Puiseux series normalization",
+    "Puiseux parameterization",
+    "Puiseux series parameterization"
+  ]
+}

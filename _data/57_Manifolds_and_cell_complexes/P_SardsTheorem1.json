@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\phi : X^n \\rightarrow Y^m$ be a smooth map on smooth manifolds. A\n[*critical point*]{} of $\\phi$ is a point $p\\in X$ such that the\ndifferential $\\phi_* : T_pX \\rightarrow T_{\\phi(p)}Y$ considered as a\nlinear transformation of real vector spaces has $<m$. A [*critical\nvalue*]{} of $\\phi$ is the image of a critical point. A [*regular\nvalue*]{} of $\\phi$ is a point $q\\in Y$ which is not the image of any\ncritical point. In particular, $q$ is a regular value of $\\phi$ if\n$q\\in Y \\setminus \\phi(X)$.\n\nFollowing Spivak [@Spivak], we say a subset $V$ of $Y^m$ *has measure\nzero* if there is a sequence of coordinate charts $(x_i,U_i)$ whose\nunion contains $V$ and such that $x_i(U_i\\cap V)$ has measure 0 (in the\nusual sense) in $\\mathbb{R}^m$ for all $i$. With that definition, we can\nnow state:\n\n[**Sard\u2019s Theorem.**]{} Let $\\phi : X \\rightarrow Y$ be a smooth map on\nsmooth manifolds. Then the set of critical values of $\\phi$ has measure\nzero.\n\n[9]{} Spivak, Michael. *A Comprehensive Introduction to Differential\nGeometry.* Volume I, Third Edition. Publish of Perish, Inc. Houston,\nTexas. 1999.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SardsTheorem1"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Sard's theorem"
+  ]
+}

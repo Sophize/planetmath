@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *propositional logic* is a logic in which the only objects are\n*propositions*, that is, objects which themselves have truth values.\nVariables represent propositions, and there are no relations, functions,\nor quantifiers except for the constants $T$ and $\\bot$ (representing\ntrue and false respectively). The connectives are typically $\\neg$,\n$\\wedge$, $\\vee$, and $\\rightarrow$ (representing negation, conjunction,\ndisjunction, and implication), however this set is redundant, and other\nchoices can be used ($T$ and $\\bot$ can also be considered $0$-ary\nconnectives).\n\nA model for propositional logic is just a truth function $\\nu$ on a set\nof variables. Such a truth function can be easily extended to a truth\nfunction $\\overline{\\nu}$ on all formulas which contain only the\nvariables $\\nu$ is defined on by adding recursive clauses for the usual\ndefinitions of connectives. For instance\n$\\overline{\\nu}(\\alpha\\wedge\\beta)=T$ iff\n$\\overline{\\nu}(\\alpha)=\\overline{\\nu}(\\beta)=T$.\n\nThen we say $\\nu\\models\\phi$ if $\\overline{\\nu}(\\phi)=T$, and we say\n$\\models\\phi$ if for every $\\nu$ such that $\\overline{\\nu}(\\phi)$ is\ndefined, $\\nu\\models\\phi$ (and say that $\\phi$ is a tautology).\n\nPropositional logic is decidable: there is an easy way to determine\nwhether a sentence is a tautology. It can be done using truth tables,\nsince a truth table for a particular formula can be easily produced, and\nthe formula is a tautology if every assignment of truth values makes it\ntrue. It is not known whether this method is efficient: the equivalent\nproblem of whether a formula is satisfiable (that is, whether its\nnegation is a tautology) is a canonical example of an\n$\\mathcal{NP}$-complete problem.",
+  "language": "INFORMAL",
+  "phrase": "Propositional Logic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropositionalLogic"
+    }
+  ],
+  "indexable": true
+}

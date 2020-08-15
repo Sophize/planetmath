@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "$p$-adic valuation"
+  ],
+  "definition": "Let $p$ be a positive prime number. For every non-zero rational number\n$x$ there exists a unique integer $n$ such that\n$$x = p^n\\cdot\\frac{u}{v}$$ with some integers $u$ and $v$ indivisible\nby $p$. We define $$|x|_p :=\n \\begin{cases}\n   (\\frac{1}{p})^n \\quad \\mathrm{when} \\,\\, x \\neq 0, \\\\\n   0 \\quad \\mathrm{when} \\,\\, x=0,\n \\end{cases}$$ obtaining a non-archimedean valuation, the so-called\n$p$-[*adic valuation*]{} $$|\\cdot|_p:\\,\\mathbb{Q} \\to \\mathbb{R}$$ of\nthe field $\\mathbb{Q}$.\n\nThe value group of the $p$-adic valuation consists of all integer-powers\nof the prime number $p$. The valuation ring of the valuation is called\nthe ring of the [*p-integral rational numbers*]{}; their denominators,\nwhen to lowest terms, are not divisible by $p$.\n\nThe field of rationals has the [*2-adic, 3-adic, 5-adic, 7-adic*]{} and\nso on valuations (which may be called, according to Greek, [*dyadic,\ntriadic, pentadic, heptadic*]{} and so on). They all are with each\nother.\n\nIf one replaces the number $\\frac{1}{p}$ by any positive $\\varrho$ less\nthan 1, one obtains an $p$-adic valuation; among these the valuation\nwith $\\varrho = \\frac{1}{p}$ is sometimes called the [*normed $p$-adic\nvaluation*]{}. Analogously we can say that the absolute value is the\nnormed archimedean valuation of $\\mathbb{Q}$ which corresponds the\ninfinite prime $\\infty$ of $\\mathbb{Z}$.\n\nThe product of all normed valuations of $\\mathbb{Q}$ is the trivial\nvaluation $|\\cdot|_\\mathrm{tr}$, i.e.\n$$\\prod_{p\\,\\mathrm{prime}}|x|_p = |x|_\\mathrm{tr} \\quad \n                            \\forall x\\in\\mathbb{Q}.$$",
+  "language": "INFORMAL",
+  "phrase": "P-Adic Valuation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PadicValuation"
+    }
+  ],
+  "indexable": true
+}

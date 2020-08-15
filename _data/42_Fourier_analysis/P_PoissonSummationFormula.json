@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f:{\\mathbb{R}}\\to{\\mathbb{R}}$ be an integrable function and let\n$${\\hat{f}}(\\xi)= \\int_{{\\mathbb{R}}} e^{-2\\pi i\\xi x} f(x)dx,\\quad \\xi\\in{\\mathbb{R}}.$$\nbe its Fourier transform. The Poisson summation formula is the assertion\nthat $$\\label{eq:psf}\n  \\sum_{n\\in{\\mathbb{Z}}} f(n) = \\sum_{n\\in{\\mathbb{Z}}} {\\hat{f}}(n).$$\nwhenever $f$ is such that both of the above infinite sums are absolutely\nconvergent.\n\nEquation is useful because it establishes a correspondence between\nFourier series and Fourier integrals. To see the connection, let\n$$g(x)=\\sum_{n\\in{\\mathbb{Z}}} f(x+n),\\quad x\\in{\\mathbb{R}},$$ be the\nperiodic function obtained by pseudo-averaging[^1] $f$ relative to\n${\\mathbb{Z}}$ acting as the discrete group of translations on\n${\\mathbb{R}}$. Since $f$ was assumed to be integrable, $g$ is defined\nalmost everywhere, and is integrable over $[0,1]$ with\n$$\\Vert g \\Vert_{{L^{\\!1}}[0,1]}\\leq \\Vert f\\Vert_{{L^{\\!1}}({\\mathbb{R}})}.$$\nSince $f$ is integrable, we may interchange integration and summation to\nobtain\n$${\\hat{f}}(k) = \\sum_{n\\in{\\mathbb{Z}}} \\int_0^1 f(x+n)e^{-2\\pi ik x} dx =\n\\int_0^1 e^{-2\\pi i k x} g(x) dx$$ for every $k\\in{\\mathbb{Z}}$. In\nother words, the restriction of the Fourier transform of $f$ to the\nintegers gives the Fourier coefficients of the averaged, periodic\nfunction $g$. Since we have assumed that the ${\\hat{f}}(k)$ form an\nabsolutely convergent series, we have that\n$$g(x) = \\sum_{k\\in{\\mathbb{Z}}} {\\hat{f}}(k) e^{2\\pi ik x}$$ in the\nsense of uniform convergence. Evaluating the above equation at $x=0$, we\nobtain the Poisson summation formula .\n\n[^1]: This terminology is at best a metaphor. The operation in question\n    is not a genuine mean, in the technical sense of that word.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PoissonSummationFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Poisson summation formula",
+    "Poisson summation"
+  ]
+}

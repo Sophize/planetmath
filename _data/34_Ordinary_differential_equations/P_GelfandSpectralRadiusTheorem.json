@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For every self-consistent matrix norm, $||\\cdot||$, and every square\nmatrix ${\\mathbf{A}}$ we can write\\\n$$\\rho({\\mathbf{A}})=\\lim_{n \\to \\infty} ||{\\mathbf{A}}^n||^{\\frac{1}{n}}.$$\\\nNote: $\\rho({\\mathbf{A}})$ denotes the spectral radius of\n${\\mathbf{A}}$.\n\nThis theorem also generalizes to infinite dimensions and plays an\nimportant role in the theory of operator algebras. If $\\mathcal{A}$ is a\nBanach algebra with norm $||\\cdot||$ and $A \\in \\mathcal{A}$, then we\nhave\\\n$$\\rho({\\mathbf{A}})=\\lim_{n \\to \\infty} ||{\\mathbf{A}}^n||^{\\frac{1}{n}}.$$\\\nIt is worth pointing out that the self-consistency condition which was\nimposed on the matrix norm is part of the definition of a Banach\nalgebra. A common case of the infinite-dimensional generalization occurs\nwhen $\\mathcal{A}$ is the algebra of bounded operators on a Hilbert\nspace \u2014 the operators may be regarded as an infinite-dimensional\ngeneralization of the square matrices.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GelfandSpectralRadiusTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gelfand spectral radius theorem",
+    "spectral radius formula"
+  ]
+}

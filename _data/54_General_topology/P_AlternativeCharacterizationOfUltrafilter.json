@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a set. A filter $\\F$ over $X$ is an ultrafilter if and only\nif it satisfies the following condition: if $A \\coprod B = X$ (see\ndisjoint union), then either $A \\in \\F$ or $B \\in \\F$.\n\nThis result can be generalized somewhat: a filter $\\F$ over $X$ is an\nultrafilter if and only if it satisfies the following condition: if\n$A \\cup B = X$ (see union), then either $A \\in \\F$ or $B \\in \\F$.\n\nThis theorem can be extended to the following two propositions about\nfinite unions:\n\n1.  A filter $\\F$ over $X$ is an ultrafilter if and only if, whenever\n    $A_1,\\dots,A_n$ are subsets of $X$ such that\n    $\\coprod_{i=1}^n A_i = X$ then there exists exactly one $i$ such\n    that $A_i \\in \\F$.\n\n2.  A filter $\\F$ over $X$ is an ultrafilter if and only if, whenever\n    $A_1,\\dots,A_n$ are subsets of $X$ such that\n    $\\bigcup_{i=1}^n A_i = X$ then there exists an $i$ such that\n    $A_i \\in \\F$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternativeCharacterizationOfUltrafilter"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "alternative characterization of ultrafilter"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "orthogonal sum"
+  ],
+  "definition": "Let $(V_1,B_1)$ and $(V_2,B_2)$ be two vector spaces, each equipped with\na symmetric bilinear form. Form the direct sum of the two vector spaces\n$V:=V_1\\oplus V_2$. Next define a symmetric bilinear form $B$ on $V$ by\n$$B((u_1,u_2),(v_1,v_2)):=B_1(u_1,v_1)+B_2(u_2,v_2),$$ where\n$u_1,v_1\\in V_1$ and $u_2,v_2\\in V_2$. Since\n$B((u_1,0),(u_2,0))=B_1(u_1,u_2)$, we see that $B=B_1$ when the domain\nof $B$ is restricted to $V_1$. Therefore, $V_1$ can be viewed as a\nsubspace of $V$ with respect to $B$. The same holds for $V_2$.\n\nNow suppose $(u,0)\\in V_1$ and $(0,v)\\in V_2$ are two arbitrary vectors.\nThen $B((u,0),(0,v))=B_1(u,0)+B_2(0,v)=0+0=0$. In other words, $V_1$ and\n$V_2$ are \u201corthogonal\u201d to one another with respect to $B$.\n\nFrom the above discussion, we say that $(V,B)$ is the *orthogonal direct\nsum* of $(V_1,B_1)$ and $(V_2,B_2)$. Clearly the above construction is\nunique (up to linear isomorphisms respecting the bilinear forms). As\nvectors from $V_1$ and $V_2$ can be seen as being \u201cperpendicular\u201d to\neach other, we appropriately write $V$ as $$V_1\\bot V_2.$$\n\n**Orthogonal Direct Sums of Quadratic Spaces.** Since a symmetric\nbiliner form induces a quadratic form (on the same space), we can speak\nof orthogonal direct sums of quadratic spaces. If $(V_1,Q_1)$ and\n$(V_2,Q_2)$ are two quadratic spaces, then the orthogonal direct sum of\n$V_1$ and $V_2$ is the direct sum of $V_1$ and $V_2$ with the\ncorresponding quadratic form defined by $$Q((u,v)):=Q_1(u)+Q_2(v).$$ It\nmay be shown that any $n$-dimensional quadratic space $(V,Q)$ is an\northogonal direct sum of $n$ one-dimensional quadratic subspaces. The\nquadratic form associated with a one-dimensional quadratic space is\nnothing more than $ax^2$ (the form is uniquely determined by the single\ncoefficient $a$), and the space associated with this form is generally\nwritten as $\\langle a\\rangle$. A finite dimensional quadratic space $V$\nis commonly written as\n$$\\langle a_1\\rangle \\bot \\cdots \\bot \\langle a_n \\rangle,\\mbox{ or simply } \\langle a_1,\\ldots,a_n\\rangle,$$\nwhere $n$ is the dimension of $V$.\n\n**Remark.** The orthogonal direct sum may also be defined for vector\nspaces associated with bilinear forms that are , skew symmetric or\nHermitian. The construction is similar to the one discussed above.",
+  "language": "INFORMAL",
+  "phrase": "Orthogonal Direct Sum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrthogonalDirectSum"
+    }
+  ],
+  "indexable": true
+}

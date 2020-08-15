@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $L$ be a context-free language (a.k.a. type 2 language). Then there\nexist two integers $m$ and $n$ such that, if the length of a word $W$ is\ngreater than $m$, then $W = ABCDE$ where $A,B,C,D,E$ are subwords such\nthat\n\n1.  The length of the subword $BCD$ is less than $n$.\n\n2.  $BD$ is not be empty.\n\n3.  For all integers $k > 0$, it is the case that $AB^kCD^kE$ belongs to\n    $L$, where exponentiation denotes repetition of a subword $k$ times.\n\nAn important use of this lemma is that it allows one to show that a\nlanguage is not context-free. (Remember, just because a language happens\nto be described in terms of a context-sensitive grammar does not\nautomatically preclude the possibility of describing the same language\nalso by a context-free language.) The idea is to assume that the\nlanguage is context-free, then arrive at a contradiction via this lemma.\n\nAs an illustrative example, consider the following language, which\nconsists of but one terminal symbol, \u2018x\u2019 and which consists of all\nstrings of \u2018x\u2019 \u2019s whose length is a perfect square. Were this a\ncontext-free language, there would exist integers $m$ and $n$ as above.\nChoose an integer $h$ such that $h^2 > m$. Then the word $x^{h^2}$\nbelongs to our language and the lemma tells us that it can be written as\n$ABCDE$ so as to satisfy the conditions enumerated above. Write\n$A = x^a$, $B = x^b$, $C = x^c$, $D = x^d$, $E = x^e$ for suitable\nnonnegative integers $a,b,c,d,e$. Then we have\n$a + b + c + d + e = k^2$; by condition , $b + d > 0$ and, by condition\n, $a + kb + c + kd + e$ would have to be a perfect square because\n$AB^kCD^kE$ would be a word of the language. This, however, leads to a\ncontradiction: $h^2 + k (b + d)$ could not possibly be a perfect square\nfor all $k$ unless $b + d = 0$.\n\nAs an exercise, the reader may consider constructing a context-sensitive\ngrammar for this language and posting it as an attachment to this entry\n(at which time this sentence will come down).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PumpingLemmacontextfreeLanguages"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "pumping lemma (context-free languages)",
+    "pumping lemma"
+  ]
+}

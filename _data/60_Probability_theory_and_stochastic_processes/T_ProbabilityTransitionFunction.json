@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *probability transition function* (p.t.f., or just t.f. in context) on\na measurable space $(\\Omega, \\mathcal{F})$ is a family $P_{s,t}$,\n$0 \\leq s < t$ of transition probabilities on $(\\Omega, \\mathcal{F})$\nsuch that for every three real numbers $s < t < v$, the family the\n*Chapman-Kolmogorov equation*\n$$\\int P_{s,t}(x, dy)P_{t,v}(y, A) = P_{s,v}(x, A)$$ for every\n$x \\in \\Omega$ and $A \\in \\mathcal{F}$. The t.f. is said to be if\n$P_{s,t}$ depends on $s$ and $t$ only through their $t-s$. In this case,\nwe write $P_{t,0} = P_t$ and the family $\\{P_t, t \\geq 0\\}$ is a\nsemigroup, and the Chapman-Kolmogorov equation reads\n$$P_{t+s}(x, A) = \\int P_s(x, dy) P_t(y, A).$$\n\n[1]{} D. Revuz & M. Yor, *Continuous Martingales and Brownian Motion*,\nThird Edition Corrected. Volume 293, Grundlehren der mathematischen\nWissenschaften. Springer, Berlin, 2005.",
+  "language": "INFORMAL",
+  "phrase": "Probability Transition Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProbabilityTransitionFunction"
+    }
+  ],
+  "indexable": true
+}

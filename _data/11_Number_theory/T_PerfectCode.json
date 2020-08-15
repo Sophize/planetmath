@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $C$ be a $(n,k,d)$-code over ${\\mathbb}{F}_q$.\n\nThe *packing radius* of $C$ is defined to be the value $$\\begin{aligned}\n\\rho(C)=\\frac{d-1}{2}.\\end{aligned}$$\n\nThe *covering radius* of $C$ is $$\\begin{aligned}\nr(C)=\\max_x\\min_c \\delta(x,c)\\end{aligned}$$ with\n$x\\in {\\mathbb}{F}_q^n$ and $c\\in C$, and where $\\delta$ denotes the\nHamming distance on ${\\mathbb}{F}_q^n$.\n\nThe $C$ is said to be *perfect* if $r(C)=\\rho(C)$.\n\nThe list of of linear perfect codes is very short, including only\ntrivial codes, Hamming codes (i.e. $\\rho=1$), and the binary and ternary\ncodes.",
+  "language": "INFORMAL",
+  "phrase": "Perfect Code",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PerfectCode"
+    }
+  ],
+  "indexable": true
+}

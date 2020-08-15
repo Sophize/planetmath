@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "prefix notation",
+    "\\L{}ukasiewicz notation",
+    "Lukasiewicz notation"
+  ],
+  "definition": "Whereas operators are traditionally placed between operands, with\nparentheses used to override operator precedence, it is possible to\nplace each operator to the left of its operands, thus eliminating\nambiguity and the need for parentheses, and even the need for rules of\noperator precedence.\n\nThis is known as *Polish notation* (after the Polish mathematician Jan\n\u0141ukasiewicz who came up with it), or *prefix notation*. Polish notation\nis a system of notating mathematical operations (whether arithmetic,\nlogical, etc.) where the operators precede their operands and the\nambiguities of operator precedence and the need for parentheses are\naltogether eliminated.\n\nFor example, $2 + 3 \\times 15$ probably means 47, but if the possibility\nexists that the author meant but neglected to put in parentheses, the\nexpression could actually mean $(2 + 3) \\times 15 = 75$. In Polish\nnotation, we could define the basic arithmetic operators to all be\nbinary, and write $+ \\times 2 \\quad 3 \\quad 15$ with the confidence that\nit will evaluate to 21 rather than 47.\n\nLisp is one computer programming language that uses Polish notation. In\n\u0141ukasiewicz\u2019s vision, parentheses are not necessary at all, certainly\nnot for resolving operator precedence. Lisp, however, uses parentheses\nto specify arity by enclosing operands affected by a single operator in\na \u201clist,\u201d and \u201cthe only hierarchy rule \\[in Lisp is\\] ... that innermost\nlists are evaluated before the lists that enclose them.\u201d (Chirlian,\n1986) Thus, in the Lisp expression $(- 21 (+ 3 \\quad 5 \\ 8))$, the\naddition operator is ternary and the subtraction operator is binary.\n\nCertain LaTeX packages, such as pstricks, also use Polish notation when\nused for plotting plane curves.\n\nFor stack-based programming languages like Adobe PostScript, reverse\nPolish notation (or postfix notation) \u2013 in which the operators are\nwritten after the operands \u2013 is often the norm. Note that it is quite\ncommon for authors to confuse Polish and reverse Polish, e.g., page 3 of\nChirlian (1986) speaks of \u201c[*reverse Polish*]{} or [*prefix*]{}\nnotation.\u201d\n\n[1]{} P. Chirlian, [*Lisp*]{}, Cleveland: Weber Systems pp. 3, 29 - 34\n(1986)",
+  "language": "INFORMAL",
+  "phrase": "Polish Notation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolishNotation"
+    }
+  ],
+  "indexable": true
+}

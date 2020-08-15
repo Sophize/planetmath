@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K/F$ be a Galois extension, and let $x \\in K$. The [*norm*]{}\n$\\operatorname{N}_F^K(x)$ of $x$ is defined to be the product of all the\nelements of the orbit of $x$ under the group action of the Galois group\n$\\operatorname{Gal}(K/F)$ on $K$; taken with multiplicities if $K/F$ is\na finite extension.\n\nIn the case where $K/F$ is a finite extension, the norm of $x$ can be\ndefined to be the determinant of the linear transformation\n$[x]: K \\to K$ given by $[x](k) := xk$, where $K$ is regarded as a\nvector space over $F$. This definition does not require that $K/F$ be\nGalois, or even that $K$ be a field\u2014for instance, it remains valid when\n$K$ is a division ring (although $F$ does have to be a field, in order\nfor determinant to be defined). Of course, for finite Galois extensions\n$K/F$, this definition agrees with the previous one, and moreover the\nformula\n$$\\operatorname{N}_F^K(x) := \\prod_{\\sigma \\in \\operatorname{Gal}(K/F)} \\sigma(x)$$\nholds.\n\nThe norm of $x$ is always an element of $F$, since any element of\n$\\operatorname{Gal}(K/F)$ permutes the orbit of $x$ and thus fixes\n$\\operatorname{N}_F^K(x)$.",
+  "language": "INFORMAL",
+  "phrase": "Norm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Norm"
+    }
+  ],
+  "indexable": true
+}

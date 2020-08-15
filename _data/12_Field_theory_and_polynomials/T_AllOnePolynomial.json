@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "all-one polynomial",
+    "AOP"
+  ],
+  "definition": "An *all one polynomial* (*AOP*) is a polynomial used in finite fields,\nspecifically GF($2$). The AOP is a 1-equally spaced polynomial.\n\nAn AOP of degree $m$ can be written as follows:\n\n$$\\operatorname{AOP}(x) = \\sum_{i=0}^{m} x^i = x^m + x^{m-1} + \\ldots + x + 1$$\n\nOver GF($2$) the AOP has many interesting properties, including:\n\n-   The Hamming weight of the AOP is $m + 1$.\n\n-   The AOP is irreducible polynomial iff $m+1$ is prime and $2$ is a\n    primitive root modulo $m+1$.\n\n-   The only AOP that is a primitive polynomial is $x^2 + x + 1$.\n\nDespite the fact that the Hamming weight is large, because of the ease\nof representation and other improvements there are efficient hardware\nand software implementations for use in areas such as coding theory and\ncryptography.",
+  "language": "INFORMAL",
+  "phrase": "All One Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AllOnePolynomial"
+    }
+  ],
+  "indexable": true
+}

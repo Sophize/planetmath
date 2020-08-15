@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *truth function* is a function that returns one of two values, one of\nwhich is interpreted as \u201ctrue,\u201d and the other which is interpreted as\n\u201cfalse\u201d. Typically either \u201cT\u201d and \u201cF\u201d are used, or \u201c1\u201d and \u201c0\u201d,\nrespectively. Using the latter, we can write\n$$f : \\{0,1\\}^n \\rightarrow \\{0,1\\}$$ defines a truth function $f$. That\nis, $f$ is a mapping from any number ($n$) of true/false (0 or 1) values\nto a single value, which is 0 or 1.",
+  "language": "INFORMAL",
+  "phrase": "Truth Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TruthFunction"
+    }
+  ],
+  "indexable": true
+}

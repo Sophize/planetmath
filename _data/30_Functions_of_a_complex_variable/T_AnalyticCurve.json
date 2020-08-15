@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "analytic arc",
+    "smooth analytic curve",
+    "real analytic curve"
+  ],
+  "definition": "There are several somewhat different definitions of the word *analytic\ncurve* depending on context. In the context of a real analytic manifold\n(for example ${\\mathbb{R}}^n$), the most generic definition is perhaps\nthe following.\n\nSuppose $X$ is a real analytic manifold. A curve $\\gamma \\subset X$ is\nan *analytic curve* if it is a real analytic submanifold of dimension 1.\nEquivalently if near each point $p \\in \\gamma,$ there exists a real\nanalytic mapping $f \\colon (-1,1) \\to X,$ such that $f$ has nonvanishing\ndifferential and maps onto a neighbourhood of $p$ in $\\gamma .$\n\nIt is sometimes common to equate the mapping $f$ and the curve $\\gamma$.\nIf the curve is as above but instead in the complex plane, we can\ninstead make the following equivalent definition.\n\nA curve $\\gamma \\subset \\mathbb{C}$ is said to be an [*analytic\ncurve*]{} (or [*analytic arc*]{}) if every point of $\\gamma$ has an open\nneighbourhood $\\Delta$ for which there is an onto conformal map\n$f \\colon {\\mathbb{D}} \\to \\Delta$ (where\n${\\mathbb{D}} \\subset \\mathbb{C}$ is the unit disc) such that\n${\\mathbb{D}} \\cap {\\mathbb{R}}$ is mapped onto $\\Delta \\cap \\gamma$ by\n$f.$\n\nOther words for this concept are *smooth analytic curve*, in which case\nthe word *analytic curve* would be reserved for curves with\nsingularities. That is, for real analytic subvarieties of $X$. Some\nauthors will emphasize the fact that this is a real curve and say *real\nanalytic curve*.\n\nIn the context of subvarieties the following definition may be used.\n\nAn *analytic curve* is a complex analytic subvariety of dimension 1 of a\ncomplex manifold.\n\nNote that locally all complex analytic subvarieties of dimension 1 in\n${\\mathbb{C}}^2$ can be parametrized by a the Puiseux parametrization\ntheorem. Perhaps that is why there is the confusion in using the term.\n\n[9]{} Theodore\u00a0B. Gamelin. [**]{}. Springer-Verlag, New York, New York,\n2001. Hassler Whitney. [**]{}. Addison-Wesley, Philippines, 1972.",
+  "language": "INFORMAL",
+  "phrase": "Analytic Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnalyticCurve"
+    }
+  ],
+  "indexable": true
+}

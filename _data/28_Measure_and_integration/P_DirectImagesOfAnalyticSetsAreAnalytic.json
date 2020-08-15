@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For measurable spaces $(X,\\mathcal{F})$ and $(Y,\\mathcal{G})$, consider\na measurable function $f\\colon X\\rightarrow Y$. By definition, the\ninverse image $f^{-1}(A)$ will be in $\\mathcal{F}$ whenever $A$ is in\n$\\mathcal{G}$. However, the situation is more complicated for , which in\ngeneral do not preserve measurability. However, as stated by the\nfollowing theorem, the class of analytic subsets of Polish spaces is\nclosed under direct images.\n\nLet $f\\colon X\\rightarrow Y$ be a Borel measurable function between\nPolish spaces $X$ and $Y$. Then, the direct image $f(A)$ is analytic\nwhenever $A$ is an analytic subset of $X$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirectImagesOfAnalyticSetsAreAnalytic"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "direct images of analytic sets are analytic"
+  ]
+}

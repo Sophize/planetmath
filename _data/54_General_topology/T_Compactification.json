@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hausdorff compactification"
+  ],
+  "definition": "Let $X$ be a topological space. A (Hausdorff) compactification of $X$ is\na pair $(K,h)$ where $K$ is a Hausdorff topological space and\n$h:X\\rightarrow K$ is a continuous function such that\n\n-   $K$ is compact\n\n-   $h$ is a homeomorphism between $X$ and $h(X)$\n\n-   $\\overline{h(X)}^K=K$ where $\\overline{A}^K$ denotes closure in $K$\n    for any subset $A$ of $K$\n\n$h$ is often considered to be the inclusion map, so that $X\\subseteq K$\nwith $\\overline{X}^K=K$.",
+  "language": "INFORMAL",
+  "phrase": "Compactification",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Compactification"
+    }
+  ],
+  "indexable": true
+}

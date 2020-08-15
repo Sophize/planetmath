@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *polymatroid* defined by a given matroid $(E,r)$ is the set of all\nfunctions $w:E\\to\\mathbb{R}$ such that\n$$w(e)\\ge 0\\qquad\\text{for all }e\\in E$$\n$$\\sum_{e\\in S}w(e)\\le r(S)\\qquad\\text{for all }S\\subset E\\;.$$\nPolymatroids are related to the convex polytopes seen in linear\nprogramming, and have similar uses.",
+  "language": "INFORMAL",
+  "phrase": "Polymatroid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Polymatroid"
+    }
+  ],
+  "indexable": true
+}

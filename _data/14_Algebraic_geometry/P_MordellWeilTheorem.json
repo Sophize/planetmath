@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K$ be a number field and let $E$ be an elliptic curve over $K$. By\n$E(K)$ we denote the set of points in $E$ with coordinates in $K$.\n\n$E(K)$ is a finitely generated abelian group.\n\nThe proof of this theorem is fairly involved. The main two ingredients\nare the so called , the concept of height function for abelian groups\nand the \u201c\u201d theorem.\\\nSee $\\cite{silverman}$, Chapter VIII, page 189.\n\n[9]{} James Milne, [*Elliptic Curves*]{}, online course notes. Joseph H.\nSilverman, [*The Arithmetic of Elliptic Curves*]{}. Springer-Verlag, New\nYork, 1986. Joseph H. Silverman, [*Advanced Topics in the Arithmetic of\nElliptic Curves*]{}. Springer-Verlag, New York, 1994. Goro Shimura,\n[*Introduction to the Arithmetic Theory of Automorphic Functions*]{}.\nPrinceton University Press, Princeton, New Jersey, 1971.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MordellWeilTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Mordell-Weil theorem"
+  ]
+}

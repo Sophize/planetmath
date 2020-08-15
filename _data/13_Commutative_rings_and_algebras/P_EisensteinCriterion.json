@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f$ be a primitive polynomial over a commutative unique\nfactorization domain $R$, say\n$$f(x)=a_0 + a_1x + a_2x^2 + \\ldots + a_nx^n \\;.$$ If $R$ has an\nirreducible element $p$ such that $$p\\mid a_m \\qquad 0\\le m\\le n-1$$\n$$p^2 \\nmid a_0$$ $$p \\nmid a_n$$ then $f$ is irreducible.\n\nSuppose $$f=(b_0 + \\ldots + b_s x^s)(c_0 + \\ldots + c_t x^t)$$ where\n$s>0$ and $t>0$. Since $a_0 = b_0 c_0$, we know that $p$ divides one but\nnot both of $b_0$ and $c_0$; suppose $p \\mid c_0$. By hypothesis, not\nall the $c_m$ are divisible by $p$; let $k$ be the smallest index such\nthat $p\\nmid c_k$. We have\n$a_k = b_0 c_k + b_1 c_{k-1} + \\ldots + b_k c_0$. We also have\n$p\\mid a_k$, and $p$ divides every summand except one on the right side,\nwhich yields a contradiction. QED",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EisensteinCriterion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Eisenstein criterion",
+    "Eisenstein irreducibility criterion"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Kurzweil-Henstock integral",
+    "gauge integral"
+  ],
+  "definition": "A *gauge* $\\delta$ is a function which assigns to every real number $x$\nan interval $\\delta (x)$ such that $x \\in \\delta (x)$.\n\nGiven a gauge $\\delta$, a partition ${U_i}_{i=1}^n$ of an interval\n$[a,b]$ is said to be $\\delta$-fine if, for every point $x \\in [a,b]$,\nthe set $U_i$ containing $x$ is a subset of $\\delta (x)$\n\nA function $f : [a, b] \\rightarrow \\mathbb{R}$ is said to be\n**generalized Riemann integrable** on $[a,b]$ if there exists a number\n$L \\in \\mathbb{R}$ such that for every $\\epsilon > 0$ there exists a\ngauge $\\delta_{\\epsilon}$ on $[a,b]$ such that if $\\dot{\\mathcal{P}}$ is\nany $\\delta_{\\epsilon}$-fine partition of $[a,b]$, then\n$$| S(f ; \\dot{\\mathcal{P}}) - L | < \\epsilon,$$ where\n$S(f ; \\dot{\\mathcal{P}})$ is any Riemann sum for $f$ using the\npartition $\\dot{\\mathcal{P}}$. The collection of all generalized Riemann\nintegrable functions is usually denoted by $\\mathcal{R}^{*}[a,b]$.\n\nIf $f \\in \\mathcal{R}^{*}[a,b]$ then the number $L$ is uniquely\ndetermined, and is called the **generalized Riemann integral** of $f$\nover $[a,b]$.\n\nThe reason that this is called a generalized Riemann integral is that,\nin the special case where $\\delta (x) = [x - y, x + y]$ for some number\n$y$, we recover the Riemann integral as a special case.\n\n![Riemann sum over a $\\delta$-fine partition](riemann.eps)",
+  "language": "INFORMAL",
+  "phrase": "Generalized Riemann Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedRiemannIntegral"
+    }
+  ],
+  "indexable": true
+}

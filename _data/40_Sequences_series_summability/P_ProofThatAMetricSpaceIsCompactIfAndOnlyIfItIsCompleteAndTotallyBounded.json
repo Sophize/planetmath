@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem:**\u00a0A metric space is compact if and only if it is complete and\ntotally bounded.\n\n**Proof.** \u00a0Let $X$ be a metric space with metric $d$. If $X$ is\ncompact, then it is sequentially compact and thus complete. Since $X$ is\ncompact, the covering of $X$ by all $\\epsilon$-balls must have a finite\nsubcover, so that $X$ is totally bounded.\n\nNow assume that $X$ is complete and totally bounded. For metric spaces,\ncompact and sequentially compact are equivalent; we prove that $X$ is\nsequentially compact. Choose a sequence $p_n\\in X$; we will find a\nCauchy subsequence (and hence a convergent subsequence, since $X$ is\ncomplete).\n\nCover $X$ by finitely many balls of radius $1$ (since $X$ is totally\nbounded). At least one of those balls must contain an infinite number of\nthe $p_i$. Call that ball $B_1$, and let $S_1$ be the set of integers\n$i$ for which $p_i\\in B_1$.\n\nProceeding inductively, it is clear that we can define, for each\npositive integer $k>1$, a ball $B_k$ of radius $1/k$ containing an\ninfinite number of the $p_i$ for which $i\\in S_{k-1}$; define $S_k$ to\nbe the set of such $i$.\n\nEach of the $S_k$ is infinite, so we can choose a sequence $n_k\\in S_k$\nwith $n_k < n_{k+1}$ for all $k$. Since the $S_k$ are nested, we have\nthat whenever $i,j\\geq k$, then $n_i,n_j\\in S_k$. Thus for all\n$i,j\\geq k$, $p_{n_i}$ and $p_{n_j}$ are both contained in a ball of\nradius $1/k$. Hence the sequence $p_{n_k}$ is Cauchy.\n\n[9]{} J. Munkres, *Topology* , Prentice Hall, 1975.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofThatAMetricSpaceIsCompactIfAndOnlyIfItIsCompleteAndTotallyBounded"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "proof that a metric space is compact if and only if it is complete and totally bounded"
+  ]
+}

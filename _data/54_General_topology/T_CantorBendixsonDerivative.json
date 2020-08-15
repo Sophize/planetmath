@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "set derivative"
+  ],
+  "definition": "Let $A$ be a subset of a topological space $X$. Its *Cantor-Bendixson\nderivative* $A'$ is defined as the set of accumulation points of $A$. In\nother words $$A' = \\{ x\\in X \\mid x\\in \\overline{A\\setminus \\{x\\}} \\}.$$\nThrough transfinite induction, the Cantor-Bendixson derivative can be\ndefined to any order $\\alpha$, where $\\alpha$ is an arbitrary ordinal.\nLet $A^{(0)} = A$. If $\\alpha$ is a successor ordinal, then\n$A^{(\\alpha)} = \\left(A^{(\\alpha-1)}\\right)'$. If $\\lambda$ is a limit\nordinal, then $A^{(\\lambda)} = \\bigcap_{\\alpha<\\lambda} A^{(\\alpha)}$.\nThe *Cantor-Bendixson rank* of the set $A$ is the least ordinal $\\alpha$\nsuch that $A^{(\\alpha)} = A^{(\\alpha+1)}$. Note that $A' = A$ implies\nthat $A$ is a perfect set.\n\nSome basic properties of the Cantor-Bendixson derivative include\n\n1.  $(A\\cup B)' = A'\\cup B'$,\n\n2.  $(\\bigcup_{i\\in I} A_i)' \\spse \\bigcup_{i\\in I} A_i'$,\n\n3.  $(\\bigcap_{i\\in I} A_i)' \\sse \\bigcap_{i\\in I} A_i'$,\n\n4.  $(A\\setminus B)' \\spse A' \\setminus B'$,\n\n5.  $A\\sse B \\impl A' \\sse B'$,\n\n6.  $\\overline{A} = A \\cup A'$,\n\n7.  $\\overline{A'} = A'$.\n\nThe last property requires some justification. Obviously, $A'\\sse\n\\overline{A'}$. Suppose $a\\in \\overline{A'}$, then every neighborhood of\n$a$ contains some points of $A'$ distinct from $a$. But by definition of\n$A'$, each such neighborhood must also contain some points of $A$. This\nimplies that $a$ is an accumulation point of $A$, that is $a\\in A'$.\nTherefore $\\overline{A'}\\sse A'$ and we have $\\overline{A'}=A'$.\n\nFinally, from the definition of the Cantor-Bendixson rank and the above\nproperties, if $A$ has Cantor-Bendixson rank $\\alpha$, the sets\n$$A^{(1)} \\supset A^{(2)} \\supset \\cdots \\supset A^{(\\alpha)}$$ form a\nstrictly decreasing chain of closed sets.",
+  "language": "INFORMAL",
+  "phrase": "Cantor-Bendixson Derivative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CantorBendixsonDerivative"
+    }
+  ],
+  "indexable": true
+}

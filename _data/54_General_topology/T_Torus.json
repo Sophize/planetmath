@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Visually, the torus looks like a doughnut. Informally, we take a\nrectangle, identify two edges to form a cylinder, and then identify the\ntwo ends of the cylinder to form the torus. Doing this gives us a\nsurface of genus one. It can also be described as the Cartesian product\nof two circles, that is, $S^1 \\times S^1$. The torus can be\nparameterized in Cartesian coordinates by:\n$$x = \\cos(s) \\cdot(R + r \\cdot \\cos(t))$$\n$$y = \\sin(s) \\cdot (R + r \\cdot \\cos(t))$$ $$z = r \\cdot \\sin(t)$$ with\n$R$ the *major radius* and $r$ the *minor radius* are constant, and\n$s,t \\in [0,2\\pi)$.\n\n![image](torus)\\\n\nTo create the torus mathematically, we start with the closed subset\n$X = [0,1] \\times [0,1] \\subseteq \\mathbb{R}^2$. Let $X^*$ be the set\nwith elements: $$\\{ x \\times 0, x \\times 1 \\mid 0 < x < 1 \\}$$\n$$\\{ 0 \\times y, 1 \\times y \\mid 0 < y < 1 \\}$$ and also the four-point\nset $$\\{ 0 \\times 0, 1 \\times 0, 0 \\times 1, 1 \\times 1 \\}.$$\n\nThis can be schematically represented in the following diagram.\n\n![image](torus-2)\\\n\nNote that $X^*$ is a partition of $X$, where we have identified opposite\nsides of the square together, and all four corners together. We can then\nform the quotient topology induced by the quotient map\n$p\\colon X \\longrightarrow X^*$ by sending each element $x \\in X$ to the\ncorresponding element of $X^*$ containing $x$.\\",
+  "language": "INFORMAL",
+  "phrase": "Torus",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Torus"
+    }
+  ],
+  "indexable": true
+}

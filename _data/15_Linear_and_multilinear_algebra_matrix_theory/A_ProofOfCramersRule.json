@@ -1,0 +1,17 @@
+{
+  "argumentText": "Since $\\det(A) \\neq 0$, by properties of the determinant we know that\n$A$ is invertible.\n\nWe claim that this implies that the equation $Ax=b$ has a unique\nsolution. Note that $A^{-1}b$ is a solution since\n$A(A^{-1}b)=(AA^{-1})b=b$, so we know that a solution exists.\n\nLet $s$ be an arbitrary solution to the equation, so $As=b$. But then\n$s=(A^{-1}A)s=A^{-1}(As)=A^{-1}b$, so we see that $A^{-1}b$ is the only\nsolution.\n\nFor each integer $i$, $1 \\leq i \\leq n$, let $a_i$ denote the $i$th\ncolumn of $A$, let $e_i$ denote the $i$th column of the identity matrix\n$I_n$, and let $X_i$ denote the matrix obtained from $I_n$ by replacing\ncolumn $i$ with the column vector $x$.\n\nWe know that for any matrices $A,B$ that the $k$th column of the product\n$AB$ is simply the product of $A$ and the $k$th column of $B$. Also\nobserve that $Ae_k=a_k$ for $k=1,\\ldots,n$. Thus, by multiplication, we\nhave: $$\\begin{array}{lll}\n   AX_i & = & A (e_1,\\ldots,e_{i-1},x,e_{i+1},\\ldots,e_n) \\\\\n        & = & (Ae_1,\\ldots,Ae_{i-1},Ax,Ae_{i+1},\\ldots,Ae_n) \\\\\n        & = & (a_1,\\ldots,a_{i-1},b,a_{i+1},\\ldots,a_n) \\\\\n        & = & M_i \n\\end{array}$$\n\nSince $X_i$ is $I_n$ with column $i$ replaced with $x$, computing the\ndeterminant of $X_i$ with cofactor expansion gives:\n$$\\det(X_i) = (-1)^{(i+i)} x_i \\det(I_{n-1}) = 1 \\cdot x_i \\cdot 1 = x_i$$\nThus by the multiplicative property of the determinant,\n$$\\det(M_i) = \\det(AX_i) = \\det(A) \\det(X_i) = \\det(A) x_i$$ and so\n$x_i = \\frac{\\det(M_i)}{\\det(A)}$ as required.",
+  "conclusion": "#P_CramersRule",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCramersRule"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Cramer's rule"
+  ]
+}

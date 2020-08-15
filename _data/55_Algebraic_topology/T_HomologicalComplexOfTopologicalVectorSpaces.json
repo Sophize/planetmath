@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "ChainComplex"
+  ],
+  "definition": "A *homological complex of topological vector spaces* is a pair\n$(E_{\\bullet}, d)$, where $E_{\\bullet} = (E_q)_{q \\in Z}$ is a sequence\nof topological vector spaces and $d = (d_q)_{q \\in Z}$ is a sequence of\ncontinuous linear maps $d_ q$ from $E_{q+1}$ into $E_q$ which satisfy\n$d_q \\circ d_{q+1} = 0$.\n\n**Remarks**\n\n-   The *homological complex of topological vector spaces* is a specifc\n    example of a *chain complex*.\\\n\n-   A sequence of $R$-modules and their homomorphisms is said to be a\n    $R$-complex.",
+  "language": "INFORMAL",
+  "phrase": "Homological Complex Of Topological Vector Spaces",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomologicalComplexOfTopologicalVectorSpaces"
+    }
+  ],
+  "indexable": true
+}

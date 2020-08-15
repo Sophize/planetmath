@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $\\mathfrak{M}$ is a transitive model of set theory and $P$ is a\npartial order then we can define a *forcing relation*:\n$$p\\Vdash_P \\phi(\\tau_1,\\ldots,\\tau_n)$$ ($p$ *forces*\n$\\phi(\\tau_1,\\ldots,\\tau_n)$)\n\nfor any $p\\in P$, where $\\tau_1,\\ldots,\\tau_n$ are $P$- names.\n\nSpecifically, the relation holds if for every generic filter $G$ over\n$P$ which contains $p$,\n$$\\mathfrak{M}[G]\\vDash \\phi(\\tau_1[G],\\ldots,\\tau_n[G])$$\n\nThat is, $p$ forces $\\phi$ if every of $\\mathfrak{M}$ by a generic\nfilter over $P$ containing $p$ makes $\\phi$ true.\n\nIf $p\\Vdash_P \\phi$ holds for every $p\\in P$ then we can write\n$\\Vdash_P\\phi$ to mean that for any generic $G\\subseteq P$,\n$\\mathfrak{M}[G]\\vDash\\phi$.",
+  "language": "INFORMAL",
+  "phrase": "Forcing Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ForcingRelation"
+    }
+  ],
+  "indexable": true
+}

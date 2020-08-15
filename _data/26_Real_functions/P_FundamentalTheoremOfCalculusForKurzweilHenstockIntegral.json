@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let the $\\int$ symbol denote the Kurzweil-Henstock integral. We can then\ngive the most general version of the fundamental theorem of calculus.\n\nLet $F \\colon [a,b] \\to {\\mathbb{R}}$ and suppose the derivative $F'(x)$\nexists for all $x \\in [a,b]$. Then $$\\int_a^b F'(x) dx = F(b)-F(a) .$$\n\nThe reader should note the subtle difference from the standard version.\nHere we do not assume anything about $F'$ except that it exists. For the\nstandard version we usually assume that $F'$ is continuous, and if we\nuse the Lebesgue integral we must assume that $F'$ is Lebesgue\nintegrable. Part of this theorem is that $F'$ is Kurzweil-Henstock\nintegrable, hence no extra assumptions are necessary.\n\nAn example of a function where the standard version has problems is the\nfunction $$F(x) :=\n\\begin{cases}\nx^2 \\sin \\frac{1}{x^2} & \\text{ if $x \\not= 0$} \\\\\n0 & \\text{ if $x = 0$} .\n\\end{cases}$$ $F$ is differentiable everywhere, but $$F'(x) =\n\\begin{cases}\n2x \\sin \\frac{1}{x^2} - \\frac{2}{x}\\cos \\frac{1}{x^2} & \\text{ if $x \\not= 0$} \\\\\n0 & \\text{ if $x = 0$} .\n\\end{cases}$$ Which is not continuous and in fact unbounded on any\ninterval containing zero.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalTheoremOfCalculusForKurzweilHenstockIntegral"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fundamental theorem of calculus for Kurzweil-Henstock integral"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "plurisubharmonic"
+  ],
+  "definition": "Let $f \\colon G \\subset {\\mathbb{C}}^n \\to {\\mathbb{R}}$ be an upper\nsemi-continuous function. $f$ is called [*plurisubharmonic*]{} if for\nevery complex line $\\{ a + b z \\mid z \\in {\\mathbb{C}} \\}$ the function\n$z \\mapsto f(a + bz)$ is a subharmonic function on the set\n$\\{ z \\in {\\mathbb{C}} \\mid a + b z \\in G \\}$.\n\nSimilarly, we could also define a [*plurisuperharmonic*]{} function just\nlike we have a superharmonic function, but again it just means that $-f$\nis plurisubharmonic, and so this extra is not very useful.\n\nA continuous plurisubharmonic function is said to be a [*pseudoconvex\nfunction*]{}.\n\nNote that since plurisubharmonic is a long word, many authors abbreviate\nwith [*psh*]{}, [*plsh*]{}, or [*plush*]{}.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Plurisubharmonic Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PlurisubharmonicFunction"
+    }
+  ],
+  "indexable": true
+}

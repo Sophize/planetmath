@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Turing-computable"
+  ],
+  "definition": "A function is *Turing computable* if the function\u2019s value can be\ncomputed with a Turing machine.\n\nMore specifically, let $D$ be a set of words in a given alphabet and let\n$f$ be a function which maps elements of $D$ to words on the same\nalphabet. We say that $f$ is *Turing computable* if there exists a\nTuring machine such that\n\n-   If one starts the Turing machine with a word $w \\in D$ as the\n    initial content of the tape, the computation will halt.\n\n-   When the computation halts, the tape will read $f(w)$.\n\nFormally, let $\\Sigma$ be an alphabet and $f:\\Sigma^* \\to \\Sigma^*$ on\nwords over $\\Sigma$. Then $f$ is said to be Turing-computable if there\nis a Turing machine $T$ over $\\Sigma$ (its input alphabet), as defined\nin this , such that for any $w\\in \\Sigma^*$,\n$$(s,\\tau_w,1) \\rightarrow^* (h,\\tau_{f(w)},m)$$ for some $m$. Here, $h$\nis a halt state (either an accept or a reject state), and $\\tau_w$ for\nany word $w$ is defined as the tape description such that the content of\nthe $i$-th square is the $i$-th letter of $w$, and blank everywhere\nelse.\n\nBecause of the fact that all types of Turing machines (deterministic,\nnon-deterministic, single head, multiple head, etc.) all have the same\ncomputational power, it does not matter which type of Turing machine one\nuses in the definition.\n\nIt is not hard to find examples of Turing computable functions \u2014 because\nTuring machines provide an idealized model for the operation of the\ndigital computer, any function which can be evaluated by a computer\nprovides an example.",
+  "language": "INFORMAL",
+  "phrase": "Turing Computable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TuringComputable"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Chu space* over a set $\\Sigma$ is a triple\n$(\\mathcal{A},r,\\mathcal{X})$ with\n$r:\\mathcal{A}\\times\\mathcal{X}\\rightarrow\\Sigma$. $\\mathcal{A}$ is\ncalled the *carrier* and $\\mathcal{X}$ the *cocarrier*.\n\nAlthough the definition is symmetrical, in practice asymmetric uses are\ncommon. In particular, often $\\mathcal{X}$ is just taken to be a set of\nfunction from $\\mathcal{A}$ to $\\Sigma$, with $r(a,x)=x(a)$ (such a Chu\nspace is called *normal* and is abbreviated\n$(\\mathcal{A},\\mathcal{X})$).\n\nWe define the *perp* of a Chu space\n$\\mathcal{C}=(\\mathcal{A},r,\\mathcal{X})$ to be\n$\\mathcal{C}^\\perp=(\\mathcal{X},r^\\smallsmile,\\mathcal{A})$ where\n$r^\\smallsmile(x,a)=r(a,x)$.\n\nDefine $\\hat{r}$ and $\\check{r}$ to be functions defining the *rows* and\n*columns* of $\\mathcal{C}$ respectively, so that\n$\\hat{r}(a):\\mathcal{X}\\rightarrow\\Sigma$ and\n$\\check{r}(x):\\mathcal{A}\\rightarrow\\Sigma$ are given by\n$\\hat{r}(a)(x)=\\check{r}(x)(a)=r(a,x)$. Clearly the rows of\n$\\mathcal{C}$ are the columns of $\\mathcal{C}^\\perp$.\n\nUsing these definitions, a Chu space can be represented using a matrix.\n\nIf $\\hat{r}$ is injective then we call $\\mathcal{C}$ *separable* and if\n$\\check{r}$ is injective we call $\\mathcal{C}$ *extensional*. A Chu\nspace which is both separable and extensional is *biextensional*.",
+  "language": "INFORMAL",
+  "phrase": "Chu Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChuSpace"
+    }
+  ],
+  "indexable": true
+}

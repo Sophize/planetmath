@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In spherical geometry, a *limiting triangle* is a great circle of the\nsphere that is serving as the model for the geometry.\n\nThe motivation for this definition is as follows: In Euclidean geometry\nand hyperbolic geometry, if three collinear points are connected, the\nresult is *always* a line segment, which does not contain any area. In\nspherical geometry, if the three points are close to each other, this\nprocedure will produce a great arc (the equivalent to a line segment in\nthis geometry). On the other hand, if the three points are sufficiently\nspaced from each other, this procedure will yield an entire great circle\n(the equivalent to a line in this geometry). For example, imagine that\nthe circle shown below is a great circle of a sphere. Then connecting\nthe three plotted points yields the entire great circle.\n\n(-2,-2)(2,2) (0,0)[2]{} (0,2)(-1.732,-1)(1.732,-1)\n\nThus, limiting triangles are geodesic triangles determined by three\ncollinear points that are sufficiently spaced from each other.\n\nspeaking, the resulting figure is not a triangle in spherical geometry;\nhowever, it is useful for demonstrating the following facts in spherical\ngeometry:\n\n-   $540^{\\circ}$ is the least upper bound of the angle sum of a\n    triangle;\n\n-   $2\\pi$ is the least upper bound of the area of a .",
+  "language": "INFORMAL",
+  "phrase": "Limiting Triangle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitingTriangle"
+    }
+  ],
+  "indexable": true
+}

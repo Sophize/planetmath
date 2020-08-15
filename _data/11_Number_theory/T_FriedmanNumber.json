@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Consider the integer 28547. In the equation\n$28547 = (8+5)^{4}-(7 \\times 2)$ expressed in base 10, both sides use\nthe same digits.\n\nAn integer is a [*Friedman number*]{} if it can be put into an equation\nsuch that both sides use the same digits but the right hand side has one\nor more basic arithmetic operators (addition, subtraction,\nmultiplication, division, exponentiation) interspersed. Brackets, as\nusual, are essential to clarify the order of operations. These numbers\nare named after Erich Friedman, Assoc. Professor of Mathematics at\nStetson University. With the help of his students he has researched\nFriedman numbers in bases 2 through 10 and even with Roman numerals.\n\nWhen both sides use the digits in the same order, the number is called a\n\u201cnice\u201d or \u201cstrong\u201d Friedman number. For example,\n$3125=(3 + [1 \\times 2])^5$.\n\nThese concepts can be transplanted into any standard positional\nnumbering system using 0. Transplanting into the realm of Roman\nnumerals, however, requires the addition of the extra constraint that\nthe right hand side of the equation use at least one other operator\nbesides addition or subtraction.\n\nLinks\n-----",
+  "language": "INFORMAL",
+  "phrase": "Friedman Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FriedmanNumber"
+    }
+  ],
+  "indexable": true
+}

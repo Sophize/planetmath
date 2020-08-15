@@ -1,0 +1,17 @@
+{
+  "argumentText": "Given $\\epsilon>0$ we aim at finding a $4\\epsilon$-net in $F$ i.e. a\nfinite set of points $F_\\epsilon$ such that\n$$\\bigcup_{f\\in F_\\epsilon} B_{4\\epsilon}(f)\\supset F$$ (see the\ndefinition of totally bounded). Let $\\delta>0$ be given with respect to\n$\\epsilon$ in the definition of equi-continuity (see uniformly\nequicontinuous) of $F$. Let $X_\\delta$ be a $\\delta$-lattice in $X$ and\n$Y_\\epsilon$ be a $\\epsilon$-lattice in $Y$. Let now\n$Y_\\epsilon^{X_\\delta}$ be the set of functions from $X_\\delta$ to\n$Y_\\epsilon$ and define $G_\\epsilon\\subset Y_\\epsilon^{X_\\delta}$ by\n$$G_\\epsilon = \\{ g\\in Y_\\epsilon^{X_\\delta}\\colon \n    \\exists f\\in F\\ \\forall x\\in X_\\delta\\quad d(f(x),g(x))<\\epsilon\\}.$$\nSince $Y_\\epsilon^{X_\\delta}$ is a finite set, $G_\\epsilon$ is finite\ntoo: say $G_\\epsilon=\\{g_1,\\ldots, g_N\\}$. Then define\n$F_\\epsilon\\subset F$, $F_\\epsilon=\\{f_1,\\ldots, f_N\\}$ where\n$f_k\\colon X\\to Y$ is a function in $F$ such that\n$d(f_k(x),g_k(x))<\\epsilon$ for all $x\\in X_\\delta$ (the existence of\nsuch a function is guaranteed by the definition of $G_\\epsilon$).\n\nWe now will prove that $F_\\epsilon$ is a $4\\epsilon$-lattice in $F$.\nGiven $f\\in F$ choose $g\\in\n{Y_\\epsilon}^{X_\\delta}$ such that for all $x\\in X_\\delta$ it holds\n$d(f(x),g(x)) < \\epsilon$ (this is possible as for all $x\\in X_\\delta$\nthere exists $y\\in Y_\\epsilon$ with $d(f(x),y)<\\epsilon$). We conclude\nthat $g\\in G_\\epsilon$ and hence $g=g_k$ for some $k\\in\\{1,\\ldots, N\\}$.\nNotice also that for all $x\\in X_\\delta$ we have\n$d(f(x),f_k(x))\\le d(f(x),g_k(x)) + d(g_k(x),f_k(x)) < 2\\epsilon$.\n\nGiven any $x\\in X$ we know that there exists $x_\\delta\\in X_\\delta$ such\nthat $d(x,x_\\delta)<\\delta$. So, by equicontinuity of $F$,\n$$d(f(x),f_k(x)) \\le\n    d(f(x),f(x_\\delta)) \n    + d(f_k(x),f_k(x_\\delta)) + d(f(x_\\delta),f_k(x_\\delta))\n    < 4\\epsilon.$$",
+  "conclusion": "#P_AscoliArzelaTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfAscoliArzelaTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Ascoli-Arzel\\`a theorem"
+  ]
+}

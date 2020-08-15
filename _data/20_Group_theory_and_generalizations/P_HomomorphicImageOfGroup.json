@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** The homomorphic image of a group is a group. More detailed,\nif $f$ is a homomorphism from the group $(G,\\,\\ast)$ to the groupoid\n$(\\Gamma,\\,\\star)$, then the groupoid $(f(G),\\,\\star)$ also is a group.\nEspecially, the isomorphic image of a group is a group.\\\n*Proof.* Let $\\alpha,\\,\\beta,\\,\\gamma$ be arbitrary elements of the\nimage $f(G)$ and $a,\\,b,\\,c$ some elements of $G$ such that\n$f(a) = \\alpha,\\, f(b) = \\beta,\\, f(c) = \\gamma$. Then\n$$\\alpha \\star \\beta \\;=\\; f(a) \\star f(b) \\;=\\; f(a \\ast b) \\;\\in\\; f(G),$$\nwhence $f(G)$ is closed under \u201c$\\star$\u201d, and we, in fact, can speak of a\ngroupoid $(f(G),\\,\\star)$.\n\nSecondly, we can calculate $$\\begin{aligned}\n(\\alpha\\star\\beta)\\star\\gamma &\\;=\\; (f(a) \\star f(b)) \\star f(c)\\\\\n&\\;=\\; f(a \\ast b) \\star f(c)\\\\\n&\\;=\\; f((a \\ast b) \\ast c)\\\\\n&\\;=\\; f(a \\ast(b \\ast c))\\\\\n&\\;=\\; f(a) \\star f(b \\ast c)\\\\\n&\\;=\\; f(a) \\star (f(b) \\star f(c))\\\\\n&\\;=\\; \\alpha \\star (\\beta \\star \\gamma),\\end{aligned}$$ whence the\nassociativity is in in the groupoid $(f(G),\\,\\star)$.\n\nLet $e$ be the identity element of $(G,\\,\\ast)$ and\n$f(e) = \\varepsilon$. Then\n$$\\varepsilon \\star \\alpha \\;=\\; f(e) \\star f(a) \\;=\\; f(e \\ast a) \\;=\\; f(a) \\;=\\; \\alpha,$$\n$$\\alpha \\star \\varepsilon \\;=\\; f(a) \\star f(e) \\;=\\; f(a \\ast e) \\;=\\; f(a) \\;=\\; \\alpha,$$\nand therefore $\\varepsilon$ is an identity element in $f(G)$.\n\nIf $f(a^{-1}) = \\alpha'$, then\n$$\\alpha \\star \\alpha' \\;=\\; f(a) \\star f(a^{-1}) \\;=\\; f(a \\ast a^{-1}) \\;=\\; f(e) \\;=\\; \\varepsilon,$$\n$$\\alpha' \\star \\alpha \\;=\\; f(a^{-1}) \\star f(a) \\;=\\; f(a^{-1} \\ast a) \\;=\\; f(e) \\;=\\; \\varepsilon.$$\nThus any element $\\alpha$ of $f(G)$ has in $f(G)$ an inverse.\n\nAccordingly, $(f(G),\\, \\star)$ is a group.\\\n**Remark 1.** If $(G,\\,\\ast)$ is Abelian, the same is true for\n$(f(G),\\, \\star)$.\n\n**Remark 2.** Analogically, one may prove that the homomorphic image of\na ring is a ring.\\\n**Example.** If we define the mapping $f$ from the group\n$(\\mathbb{Z},\\,+)$ to the groupoid $(\\mathbb{Z}_9,\\,\\cdot)$ by\n$$f(n) \\;:=\\; \\langle4\\rangle^n,$$ then $f$ is homomorphism:\n$$f(m\\!+\\!n) \\;=\\; \\langle4\\rangle^{m+n} \\;=\\; \\langle4\\rangle^m\\langle4\\rangle^n \\;=\\; f(m)f(n).$$\nThe image $f(\\mathbb{Z})$ consists of powers of the $\\langle4\\rangle$,\nwhich are\n$$\\langle4\\rangle,\\;\\; \\langle16\\rangle = \\langle7\\rangle,\\;\\; \\langle64\\rangle = \\langle1\\rangle.$$\nThese apparently form the cyclic group of order 3.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomomorphicImageOfGroup"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "homomorphic image of group"
+  ]
+}

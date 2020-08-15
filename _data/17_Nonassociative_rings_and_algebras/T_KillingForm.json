@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathfrak{g}}$ be a finite dimensional Lie algebra over a field\n$k$, and $X,Y\\in{\\mathfrak{g}}$. Let\n${\\mathrm{ad}}_X:{\\mathfrak{g}}\\to{\\mathfrak{g}}$ be the adjoint action,\n${\\mathrm{ad}}_XY=[X,Y]$.\n\nThen the Killing form on ${\\mathfrak{g}}$ is a bilinear map\n$$B_{{\\mathfrak{g}}}:{\\mathfrak{g}}\\times{\\mathfrak{g}}\\to k$$ given by\n$$B_{{\\mathfrak{g}}}(X,Y)={\\mathrm{tr}}({\\mathrm{ad}}_X\\circ{\\mathrm{ad}}_Y).$$\n\nThe Killing form is under the adjoint action and symmetric (since trace\nis symmetric).",
+  "language": "INFORMAL",
+  "phrase": "Killing Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KillingForm"
+    }
+  ],
+  "indexable": true
+}

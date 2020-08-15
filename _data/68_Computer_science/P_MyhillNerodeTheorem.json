@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $L$ be a language on the finite alphabet $A$ and let $\\mathcal{N}_L$\nbe its Nerode equivalence. The following are equivalent.\n\n1.  $L$ is recognized by a deterministic finite automaton.\n\n2.  $A^\\ast/\\mathcal{N}_L$ is finite.\n\nMoreover, the number of classes of $\\mathcal{N}_L$ is the smallest\nnumber of states of a DFA recognizing $L$.\n\n*Proof.* First, suppose\n$A^\\ast/\\mathcal{N}_L=\\{q_0=[\\lambda]_{\\mathcal{N}_L},\\ldots,q_{k-1}\\}=Q,$\nwhere $\\lambda$ is the empty word on $A$. Construct a DFA\n$\\mathcal{A}=\\left<Q,A,q_0,\\delta,F\\right>$ (called the *Nerode\nautomaton* for $L$) with $\\delta:Q\\times A\\to Q$ defined by\n$$\\label{eq:map}\n\\delta(q,a)=[wa]_{\\mathcal{N}_L}\\;,\\;\\;w\\in q\\;,$$ and\n$$\\label{eq:final}\nF=\\{q\\in Q\\mid\\exists w\\in L\\mid w\\in q\\}\\;.$$ Then $\\delta$ is well\ndefined because $w_1\\mathcal{N}_Lw_2$ implies $w_1u\\mathcal{N}_Lw_2u$.\nIt is also straightforward that $\\mathcal{A}$ recognizes $L$.\n\nOn the other hand, let $\\mathcal{A}=\\left<Q,A,q_0,\\delta,F\\right>$ be a\nDFA that recognizes $L$. Extend $\\delta$ to $Q\\times A^\\ast$ by putting\n$\\delta(q,\\lambda)=q$ and $\\delta(q,aw)=\\delta(\\delta(q,a),w)$ for every\n$q\\in Q$, $a\\in A$, $w\\in A^\\ast$. Define\n$f:Q\\to A^\\ast/\\mathcal{N}_L\\cup\\{\\emptyset\\}$ as $$\\label{eq:f}\nf(q) = \\left\\{\\begin{array}{ll}\n[w]_{\\mathcal{N}_L}\n& \\mathrm{if}\\;\\delta(q_0,w)=q \\\\\n\\emptyset\n& \\mathrm{if}\\;\\delta(q_0,w)\\neq q\\forall w\\in A^\\ast\n\\end{array}\n\\right.$$ Then $f$ is well defined. In fact, suppose $q_1=q_2=q$: then\neither $f(q_1)=f(q_2)=\\emptyset$, or there are $w_1,w_2\\in A^\\ast$ such\nthat $\\delta(q_0,w_1)=\\delta(q_0,w_2)=q$. But in the latter case,\n$\\delta(q_0,w_1u)=\\delta(q_0,w_2u)=\\delta(q,u)$ for any $u\\in A^\\ast$,\nhence $w_1\\mathcal{N}_Lw_2$ since $\\mathcal{A}$ recognizes $L$. Finally,\nfor any $w\\in A^\\ast$ we have\n$[w]_{\\mathcal{N}_L}=f\\left(\\delta(q_0,w)\\right),$ so every class of\n$\\mathcal{N}_L$ has a preimage according to $f$; consequently,\n$|Q|\\geq|A^\\ast/\\mathcal{N}_L|$. $\\Box$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MyhillNerodeTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Myhill-Nerode theorem",
+    "Myhill-Nerode theorem for languages"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $V$ is a proper analytic variety in an open set $U \\subset\n{\\mathbb{C}}^n$ (that is of dimension at most $n-1$) suppose that\n$f \\colon U \\backslash V \\to\n{\\mathbb{C}}$ is holomorphic and further that $f$ is locally bounded in\n$U$ Then there exists a unique holomorphic extention of $f$ to all of\n$U$.\n\nIf $V$ is of even lower dimension we can in fact even drop the locally\nbounded requirement, see the Hartogs extension theorem.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992. Hassler Whitney. [**]{}. Addison-Wesley,\nPhilippines, 1972.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RiemannsRemovableSingularityTheoremInSeveralVariables"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Riemann's removable singularity theorem in several variables",
+    "Riemann's extension theorem"
+  ]
+}

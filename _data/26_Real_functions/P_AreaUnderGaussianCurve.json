@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The area between the curve $y = e^{-x^2}$ and the $x$-axis equals\n$\\sqrt{\\pi}$, i.e. $$\\int_{-\\infty}^\\infty e^{-x^2}\\,dx = \\sqrt{\\pi}.$$\n\n![image](gaussian-curve.eps)\n\n[*Proof.*]{} The square of the area is\n\n$$\\begin{aligned}\n\\bigg(\\int_{-\\infty}^\\infty e^{-x^2}\\,dx\\bigg)^2 \n& = \\lim_{a\\to\\infty}\\bigg(\\int_{-a}^a e^{-x^2}\\,dx\\bigg)^2\\\\ \n& = \\lim_{a\\to\\infty}\\int_{-a}^a e^{-x^2}\\,dx\\,\\cdot\\int_{-a}^a e^{-y^2}\\,dy\\\\\n& = \\lim_{a\\to\\infty}\\int_{-a}^a \\int_{-a}^a e^{-(x^2+y^2)}\\,dx\\,dy\\\\\n& = \\lim_{R\\to\\infty}\\int_0^R\\!\\int_0^{2\\pi}e^{-r^2}r\\,dr\\,d\\varphi\\\\\n& = \\lim_{R\\to\\infty}2\\pi\\!\\int_0^R e^{-r^2}r\\,dr\\\\\n& = -\\pi\\!\\lim_{R\\to\\infty}\\!{\\operatornamewithlimits{\\Big/}_{\\!\\!\\!0}^{\\,\\quad\\,\\,R}}e^{-r^2}\\\\\n& = \\pi\\!\\lim_{R\\to\\infty}(1-e^{-R^2}) \\;=\\; \\pi.\\end{aligned}$$\n\nHere, the limit of the double integral over a square has been replaced\nby the limit of the double integral over a disc, because both limits are\nequal. That both limits are equal can be demonstrated by the elementary\n$$0 \\leq \\int_{-a}^a \\int_{-a}^a\\!e^{-(x^2 + y^2)}\\,dx\\,dy\n- \\int_0^a\\!\\int_0^{2\\pi}\\!e^{-r^2} r\\,dr\\,d\\varphi\n\\leq \\underbrace{e^{-a^2}}_{greatest\\,value}\\!\\cdot\\,\\underbrace{(4a^2\\!-\\!\\pi a^2)}_{area}\n= (4\\!-\\!\\pi)\\!\\cdot\\!\\frac{a^2}{e^{a^2}},$$ and\n$\\frac{a^2}{e^{a^2}} \\to 0$ when $a \\to \\infty$ (see growth of\nexponential function).\\\n**Remark.** Since $e^{-x^2}$ is an even function, $$\\begin{aligned}\n\\int_0^\\infty e^{-x^2}\\,dx=\\frac{\\sqrt{\\pi}}{2}\\:\\cdot\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AreaUnderGaussianCurve"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "area under Gaussian curve",
+    "Gaussian integral",
+    "area under the bell curve"
+  ]
+}

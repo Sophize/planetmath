@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry, the class number of a number field $F$ is denoted by\n$h_F$.\n\nLet $p$ be a fixed prime number.\n\n-   Let $F/K$ be a Galois extension with Galois group\n    ${\\operatorname{Gal}}(F/K)$ and suppose $F/K$ is a $p$-extension (so\n    ${\\operatorname{Gal}}(F/K)$ is a $p$-group). Assume that there is at\n    most one prime or archimedean place which ramifies in $F/K$. If\n    $h_F$ is divisible by $p$ then $h_K$ is also divisible by $p$.\\\n\n-   Let $F/{\\mathbb{Q}}$ be a Galois extension of the rational numbers\n    and assume that ${\\operatorname{Gal}}(F/{\\mathbb{Q}})$ is a\n    $p$-group and at most one place (finite or infinite) ramifies then\n    $h_F$ is not divisible by $p$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClassNumberDivisibilityInPextensions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "class number divisibility in $p$-extensions"
+  ]
+}

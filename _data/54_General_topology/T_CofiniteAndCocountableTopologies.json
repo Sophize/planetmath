@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *cofinite topology* on a set $X$ is defined to be the topology\n$\\mathcal{T}$ where $$\\mathcal{T} = \\{A \\subseteq X \\mid\n  X \\setminus A \\hbox{ is finite, or } A=\\emptyset\\}.$$ In other words,\nthe closed sets in the cofinite topology are $X$ and the finite subsets\nof $X$.\n\nAnalogously, the *cocountable topology* on $X$ is defined to be the\ntopology in which the closed sets are $X$ and the countable subsets of\n$X$.\n\nThe cofinite topology on $X$ is the coarsest on $X$.\n\nThe cofinite topology on a finite set $X$ is the discrete topology.\nSimilarly, the cocountable topology on a countable set $X$ is the\ndiscrete topology.\n\nA set $X$ together with the cofinite topology forms a compact\ntopological space.",
+  "language": "INFORMAL",
+  "phrase": "Cofinite And Cocountable Topologies",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CofiniteAndCocountableTopologies"
+    }
+  ],
+  "indexable": true
+}

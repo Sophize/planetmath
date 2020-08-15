@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In a Mercator Projection the point on the sphere (of radius R) with\nlongitude $L$ (positive East) and latitude $\\lambda$ (positive North) is\nmapped to the point in the plane with coordinates $x,y$:\n\n$$x = R L$$ $$y = R \\ln(\\tan( \\frac{\\pi}{4} + \\frac{\\lambda}{2}))$$\n\nThe Mercator projection satisfies two important properties: it is\nconformal, that is it preserves angles, and it maps the sphere\u2019s\nparallels into straight line segments of length $2\\pi R$. (A parallel of\nlatitude means a small circle comprised of points at a specified\nlatitude).\n\nStarting from these two properties we can derive the Mercator\nProjection. First note that a parallel of latitude $\\lambda$\u00a0has length\n$2\\pi R \\cos( \\lambda)$. To make the projections of the parallels all\nthe same length a stretching factor in longitude of\n$\\frac{1}{\\cos( \\lambda)}$ will have to be applied. For the mapping to\nbe conformal, the same stretching factor must be applied in latitude\nalso. Note that the stretching factor varies with $\\lambda$ so to map a\nspecified latitude $\\lambda_0$ to an ordinate $y$ we must evaluate an\nintegral. $$y = \\int_{0}^{\\lambda_0} (1/\\cos( \\lambda)) d\\lambda$$ Early\nmapmakers such as Mercator evaluated this integral numerically to\nproduce what is called a Table of Meridional Parts that can be used to\nmap $\\lambda_0$ into y. Later it was noticed that the integral of one\nover cosine actually has a closed form, leading to the expression for\n$y$ shown above.",
+  "language": "INFORMAL",
+  "phrase": "Mercator Projection",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MercatorProjection"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[*Interlace*]{} is the method to create a new data stream from two data\nstreams, each of which has a constant time interval sequence. Formally,\nsuppose $A = (a , \\Delta_{a} )$ and $B = (b, \\Delta_{b})$ are two data\nstreams, each have a constant time sequence. For convenience, we use\n$\\Delta_{a}$ and $\\Delta_{b}$ to also denote the constant terms of each\nof those sequences. We construct a new data stream\n$C = (c, \\Delta_{c})$, also having constant time interval, as follows:\n\n$\nc_{n}=\\left\\{\n\\begin{array}{cc}\nb_{n-\\left\\lfloor n z \\right\\rfloor } & \\left\\lfloor n z\n\\right\\rfloor =\\left\\lfloor \\left( n+1\\right) z \\right\\rfloor \\\\\na_{\\left\\lfloor n z \\right\\rfloor } & \\left\\lfloor n z \\right\\rfloor\n\\neq \\left\\lfloor \\left( n+1\\right) z \\right\\rfloor\n\\end{array}\n\\right. , z =\\frac{\\Delta _{b}}{\\Delta _{a}+\\Delta _{b}},\\Delta _{c}=\n\\frac{\\Delta _{a}\\Delta _{b}}{\\Delta _{a}+\\Delta _{b}} \\label{interlace}\n$\n\n[*Deinterlace* ]{} is the method of constructing two data streams , $A$\nand $B$, each having constant time interval, from a given data stream\n$C$ and primary interlace value $\\Delta $ of computed stream, where $C$\nhas constant time interval.\n\n$\na_{n} = c_{n+ \\left\\lceil \\frac{(n+1)\\Delta _{a}}{\\Delta _{b}} \\right\\rceil }\\\n,\\ \\Delta _{a}=\\frac{\\Delta _{c}\\Delta _{b}}{\\left\\vert \\Delta _{c}-\\Delta _{b}\\right\\vert }\n\\label{deinterlace_a}\n$ and $\nb_{n} = c_{n+\\left\\lfloor \\frac{n\\Delta _{b}}{\\Delta _{a}}\\right\\rfloor}\n,\\ \\Delta _{b}=\\frac{\\Delta _{c}\\Delta _{a}}{\\left\\vert \\Delta _{c}-\\Delta_{a}\\right\\vert } \\label{deintrlace_b}\n$\n\nThis sequences are the Fraenkel partition theorem instance.\n\n[**References**]{}\n\n \\[1\n\n:   \\] Aviezri S. Fraenkel, [*The bracket function and complementary\n    sets of integers*]{}, Canad. J. Math. [**21**]{} (1969), 6\u201327.\n    [****]{}\n\n \\[2\n\n:   \\] Michal Widera, [*Deterministic method of data sequence\n    processing*]{}, Vol. IV, ISSN 1732-1360, Annales UMCS (2006),\n    314\u2013331. [****]{}",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StreamInterlaceAndDeinterlace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "stream interlace and deinterlace",
+    "interlace deinterlace"
+  ]
+}

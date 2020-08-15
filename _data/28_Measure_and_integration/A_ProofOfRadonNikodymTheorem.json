@@ -1,0 +1,17 @@
+{
+  "argumentText": "The following proof of Radon-Nikodym theorem is based on the original\nargument by John von Neumann. We suppose that $\\mu$ and $\\nu$ are real,\nnonnegative, and finite. The extension to the $\\sigma$-finite case is a\nstandard exercise, as is $\\mu$-a.e. uniqueness of Radon-Nikodym\nderivative. Having done this, the thesis also holds for signed and\ncomplex-valued measures.\n\nLet $(X,\\mathcal{F})$ be a measurable space and let\n$\\mu,\\nu:\\mathcal{F}\\to[0,R]$ two finite measures on $X$ such that\n$\\nu(A)=0$ for every $A\\in\\mathcal{F}$ such that $\\mu(A)=0$. Then\n$\\sigma=\\mu+\\nu$ is a finite measure on $X$ such that $\\sigma(A)=0$ if\nand only if $\\mu(A)=0$.\n\nConsider the linear functional\n$T:L^2(X,\\mathcal{F},\\sigma)\\to\\mathbb{R}$ defined by $$\\label{eq:T}\nTu=\\int_Xu\\;d\\mu\\;\\;\\forall u\\in L^2(X,\\mathcal{F},\\sigma)\\;.$$ $T$ is\nwell-defined because $\\mu$ is finite and dominated by $\\sigma$, so that\n$L^2(X,\\mathcal{F},\\sigma)\n\\subseteq L^2(X,\\mathcal{F},\\mu)\n\\subseteq L^1(X,\\mathcal{F},\\mu);$ it is also linear and bounded because\n$|Tu|\\leq\\|u\\|_{L^2(X,\\mathcal{F},\\sigma)}\\cdot\\sqrt{\\sigma(X)}.$ By\nRiesz representation theorem, there exists\n$g\\in L^2(X,\\mathcal{F},\\sigma)$ such that $$\\label{eq:g}\nTu=\\int_Xu\\;d\\mu=\\int_Xu\\cdot g\\,d\\sigma$$ for every\n$u\\in L^2(X,\\mathcal{F},\\sigma)$. Then $\\mu(A)=\\int_Ag\\,d\\sigma$ for\nevery $A\\in\\mathcal{F}$, so that $0<g\\leq 1$ $\\mu$- and $\\sigma$-a.e.\n(Consider the former with $A=\\{x\\mid g(x)\\leq 0\\}$ or\n$A=\\{x\\mid g(x)>1\\}$.) Moreover, the second equality in (\\[eq:q\\]) holds\nwhen $u=\\chi_A$ for $A\\in\\mathcal{F}$, thus also when $u$ is a simple\nmeasurable function by linearity of integral, and finally when $u$ is a\n($\\mu$- and $\\sigma$-a.e.) nonnegative $\\mathcal{F}$-measurable function\nbecause of the monotone convergence theorem.\n\nNow, $1/g$ is $\\mathcal{F}$-measurable and nonnegative $\\mu$- and\n$\\sigma$-a.e.; moreover, $\\dfrac{1}{g}\\cdot g=1$ $\\sigma$- and\n$\\mu$-a.e. Thus, for every $A\\in\\mathcal{F}$, $$\\label{eq:1/g}\n\\int_A\\frac{1}{g}\\,d\\mu\n=\\int_Ad\\sigma\n=\\sigma(A)$$ Since $\\sigma$ is finite, $1/g\\in L^1(X,\\mathcal{F},\\mu)$,\nand so is $f=\\dfrac{1}{g}-1$. Then for every $A\\in\\mathcal{F}$\n$$\\nu(A)=\\sigma(A)-\\mu(A)\n=\\int_A\\left(\\frac{1}{g}-1\\right)d\\mu\n=\\int_Af\\,d\\mu\\,.$$",
+  "conclusion": "#P_RadonNikodymTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfRadonNikodymTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Radon-Nikodym theorem"
+  ]
+}

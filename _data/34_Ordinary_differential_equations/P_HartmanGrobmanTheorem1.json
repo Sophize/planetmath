@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Consider the differential equation $$x'=f(x)\n\\label{eq}$$ where $f$ is a $C^1$ vector field. Assume that $x_0$ is a\nhyperbolic equilibrium of $f$. Denote $\\Phi_t(x)$ the flow of (\\[eq\\])\nthrough $x$ at time $t$. Then there exists a homeomorphism\n$\\varphi(x)=x+h(x)$ with $h$ bouded, such that\n$$\\varphi\\circ e^{tDf(x_0)}=\\Phi_t\\circ\\varphi$$ is a sufficiently small\nneighboorhood of $x_0$.\n\nThis fundamental theorem in the qualitative analysis of nonlinear\ndifferential equations states that, in a small neighborhood of $x_0$,\nthe flow of the nonlinear equation (\\[eq\\]) is qualitatively similar to\nthat of the linear system $x'=Df(x_0)x$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HartmanGrobmanTheorem1"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hartman-Grobman theorem"
+  ]
+}

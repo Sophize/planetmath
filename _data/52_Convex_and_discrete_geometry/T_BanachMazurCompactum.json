@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Banach-Mazur metric* is a distance on the space of all Banach\nspaces. If $B_1,B_2$ are $n$-dimensional Banach spaces, the distance\nbetween them is\n$$d(B_1,B_2)=\\ln\\inf \\{\\,{\\lVert T\\rVert}\\cdot{\\lVert T^{-1}\\rVert} : T\\in\nGL(B_1,B_2)\\,\\}.$$ Then $d$ satisfies the triangle inequality, and\n$d(B_1,B_2)=0$ if and only if $B_1$ and $B_2$ are isometric. The space\nof isometry of $n$-dimensional Banach spaces under this metric is a\ncompact metric space, known as a *Banach-Mazur compactum*.",
+  "language": "INFORMAL",
+  "phrase": "Banach-Mazur Compactum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BanachMazurCompactum"
+    }
+  ],
+  "indexable": true
+}

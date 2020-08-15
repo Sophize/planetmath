@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} Let $X$ be a partially ordered set. Then there exists a\nmaximal totally ordered subset of $X$.\n\nThe Hausdorff\u2019s maximum principle is one of the many theorems equivalent\nto the . The below proof uses Zorn\u2019s lemma, which is also equivalent to\nthe .\n\nLet $S$ be the set of all totally ordered subsets of $X$. $S$ is not\nempty, since the empty set is an element of $S$. Partial order $S$ by\ninclusion. Let $\\tau$ be a chain (of elements) in $S$. Being each\ntotally ordered, the union of all these elements of $\\tau$ is again a\ntotally ordered subset of $X$, and hence an element of $S$, as is easily\nverified. This shows that $S$, ordered by inclusion, is inductive. The\nresult now follows from Zorn\u2019s lemma.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HausdorffsMaximumPrinciple"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hausdorff's maximum principle",
+    "maximum principle",
+    "Hausdorff maximality theorem"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** For non-negative numbers $x$ and $y$, the inequalities\n$$\\sqrt{xy} \\;\\leqq\\; \\frac{x\\!+\\!\\sqrt{xy}\\!+\\!y}{3} \\;\\leqq\\; \\frac{x\\!+\\!y}{2}$$\nare in , i.e. the Heronian mean is always at least equal to the\ngeometric mean and at most equal to the arithmetic mean. The equality\nsigns are true if and only if $x = y$.\\\n[*Proof.*]{}\\\n$1^\\circ.$ $$\\begin{aligned}\n\\sqrt{xy}\\;\\leqq\\;\\frac{x\\!+\\!\\sqrt{xy}\\!+\\!y}{3}&\\quad\\Leftrightarrow\\quad 3\\sqrt{xy} \\leqq x\\!+\\!\\sqrt{xy}\\!+\\!y\\\\ \n& \\quad \\Leftrightarrow \\quad 2\\sqrt{xy} \\leqq x\\!+\\!y\\\\ \n& \\quad \\Leftrightarrow \\quad 4xy \\leqq x^2\\!+\\!2xy\\!+\\!y^2\\\\\n& \\quad \\Leftrightarrow \\quad 0 \\leqq x^2\\!-\\!2xy\\!+\\!y^2\\\\\n& \\quad \\Leftrightarrow \\quad 0 \\leqq (x\\!-\\!y)^2\\end{aligned}$$\n$2^\\circ.$ $$\\begin{aligned}\n\\frac{x\\!+\\!\\sqrt{xy}\\!+\\!y}{3} \\leqq \\frac{x\\!+\\!y}{2}\\;\\;& \\quad\\Leftrightarrow\\quad 2x\\!+\\!2\\sqrt{xy}\\!+\\!2y \\leqq 3x\\!+\\!3y\\\\ \n& \\quad \\Leftrightarrow \\quad 2\\sqrt{xy} \\leqq x\\!+\\!y\\\\\n& \\quad \\Leftrightarrow \\quad  4xy \\leqq x^2\\!+\\!2xy\\!+\\!y^2\\\\\n& \\quad \\Leftrightarrow \\quad 0 \\leqq (x\\!-\\!y)^2\\end{aligned}$$ All\ninequalities of both chains are since $x$ and $y$ are non-negative. As\nfor the equalities, the chains are valid with the mere equality signs.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HeronianMeanIsBetweenGeometricAndArithmeticMean"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Heronian mean is between geometric and arithmetic mean",
+    "Heronian mean inequalities"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "To define a rational function on complex projective space\n${\\mathbb{P}}^n$, we just take two homogeneous polynomials of the same\ndegree $p$ and $q$ on ${\\mathbb{C}}^{n+1},$ and we note that $p/q$\ninduces a meromorphic function on ${\\mathbb{P}}^n.$ In fact, every\nmeromorphic function on ${\\mathbb{P}}^n$ is rational.\n\nLet $f$ be a meromorphic function on ${\\mathbb{P}}^n$. Then $f$ is\nrational.\n\nNote that the zero set of $f$ and the pole set are analytic subvarieties\nof ${\\mathbb{P}}^n$ and hence algebraic by Chow\u2019s theorem. $f$ induces a\nmeromorphic function $\\tilde{f}$ on\n${\\mathbb{C}}^{n+1} \\setminus \\{ 0 \\}$. Let $p$ and $q$ be two\nhomogeneous polynomials such that $q = 0$ are the poles and $p=0$ are\nthe zeros of $\\tilde{f}.$ We can assume we can take $p$ and $q$ such\nthat if we multiply $\\tilde{f}$ by $q/p$ we have a holomorphic function\noutside the origin. Hence $(q/p)\\tilde{f}$ extends through the origin by\nHartogs\u2019 theorem. Further since $\\tilde{f}$ was constant on complex\nlines through the origin, it is not hard to see that $(q/p)\\tilde{f}$ is\nhomogeneous and hence a homogeneous polynomial, by the same argument as\nin the proof of Chow\u2019s theorem. Since it is not zero outside the origin,\nit can\u2019t be zero at the origin, and hence $(q/p)\\tilde{f}$ must be a\nconstant, and the proof is finished.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeromorphicFunctionOnProjectiveSpaceMustBeRational"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "meromorphic function on projective space must be rational"
+  ]
+}

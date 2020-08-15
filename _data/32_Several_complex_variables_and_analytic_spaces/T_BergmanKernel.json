@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G \\subset {\\mathbb{C}}^n$ be a . And let $A^2(G)$ be the Bergman\nspace. For a fixed $z \\in G$, the functional $f \\mapsto f(z)$ is a\nbounded linear functional. By the Riesz representation theorem (as\n$A^2(G)$ is a Hilbert space) there exists an element of $A^2(G)$ that\nrepresents it, and let\u2019s call that element $k_z \\in A^2(G)$. That is we\nhave that $f(z) = \\langle f, k_z \\rangle$. So we can define the\n[*Bergman kernel*]{}.\n\nThe function $$K(z,w) := \\overline{k_z(w)}$$ is called the [*Bergman\nkernel*]{}.\n\nBy definition of the inner product in $A^2(G)$ we then have that for\n$f \\in A^2(G)$ $$f(z) =\n\\int_G f(w) K(z,w) dV(w) ,$$ where $dV$ is the volume measure.\n\nAs the $A^2(G)$ space is a subspace of $L^2(G,dV)$ which is a separable\nHilbert space then $A^2(G)$ also has a countable orthonormal basis, say\n$\\{ \\varphi_j \\}_{j=1}^\\infty$.\n\nWe can compute the Bergman kernel as\n$$K(z,w) = \\sum_{j=1}^\\infty \\varphi_j(z)\\overline{\\varphi_j(w)} ,$$\nwhere the sum converges uniformly on compact subsets of $G \\times G$.\n\nNote that integration against the Bergman kernel is just the orthogonal\nprojection from $L^2(G,dV)$ to $A^2(G)$. So not only is this kernel\nreproducing for holomorphic functions, but it will produce a holomorphic\nfunction when we just feed in any $L^2(G,dV)$ function.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Bergman Kernel",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BergmanKernel"
+    }
+  ],
+  "indexable": true
+}

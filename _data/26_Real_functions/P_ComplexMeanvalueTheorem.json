@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} [@evard] Suppose $\\Omega$ is an open convex set in\n${\\mathbb{C}}$, suppose $f$ is a holomorphic function\n$f:\\Omega\\to {\\mathbb{C}}$, and suppose $a,b$ are distinct points in\n$\\Omega$. Then there exist points $u,v$ on $L_{ab}$ (the straight line\nconnecting $a$ and $b$ not containing the endpoints), such that\n$$\\begin{aligned}\n\\Re\\{ \\frac{f(b)-f(a)}{b-a} \\} = \\Re\\{ f'(u) \\}, \\\\\n\\Im\\{ \\frac{f(b)-f(a)}{b-a} \\} = \\Im\\{ f'(v) \\}, \\end{aligned}$$ where\n$\\Re$ and $\\Im$ are the and imaginary parts of a complex number,\nrespectively.\n\n[9]{} J.-Cl. Evard, F. Jafari, *A Complex Rolle\u2019s Theorem*, American\nMathematical Monthly, Vol. 99, Issue 9, (Nov. 1992), pp. 858-861.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComplexMeanvalueTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "complex mean-value theorem"
+  ]
+}

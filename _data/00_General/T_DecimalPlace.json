@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *decimal place* of a number (a real number) $r$ is the position of a\ndigit in its decimal expansion relative to the decimal point. Let us\nwrite $r$ as a decimal number:\n\n$\\xymatrix @C=0pt @H=10pt {A_nA_{n-1}\\ldots A_1 & \\bullet & D_1D_2\\ldots D_m \\ldots \\\\\n& \\save *\\txt{the decimal point} \\restore \\ar[u] & }$\n\nwhere each of the $A_i$ and $D_j$ is a digit in the decimal system (one\nof $0,1,2,3,4,5,6,7,8,9$). In this decimal expansion,\n\n-   the $i$-th decimal place to the left of the decimal point is the\n    position of $A_i$, and\n\n-   the $j$-th decimal place to the right of the decimal place is the\n    position of $D_j$.\n\nThe digits $A_i$ and $D_j$ are called the *decimal place values*. $A_i$\nis the decimal place value corresponding to the $i$-th decimal place to\nthe left of the decimal point, while $D_j$ is the decimal place value\ncorresponding to the $j$-th decimal place to the right of the decimal\npoint.\n\nFor decimal places closer to the decimal point, specific names are used.\nBelow are some of the most commonly used names:\n\n  ----------------- ------------------- ------------------- -----------------\n        name              position from      direction from           example\n                      the decimal point   the decimal point   (position of 7)\n        ones                        1st                left             $7.2$\n        tens                        2nd                left       $71(=71.0)$\n      hundreds                      3rd                left     $735(=735.0)$\n      thousands                     4th                left   $7126(=7126.0)$\n       tenths                       1st               right             $0.7$\n     hundredths                     2nd               right           $12.47$\n     thousandths                    3rd               right           $9.837$\n   ten thousandths                  4th               right          $6.0037$\n  ----------------- ------------------- ------------------- -----------------\n\n**Remark**. Instead of saying the $n$-th decimal place to the left or\nright of the decimal point, we simply say the $n$-th decimal place to\nmean the $n$-th decimal place to the *right* of the decimal point, and\nsay $(-n)$-th decimal place to mean the $n$-th decimal place to the\n*left* of the decimal point.\n\nFor example, in $1632.9758$, the digit $5$ is located on the third\ndecimal place, while $6$ is located on the negative third decimal place.",
+  "language": "INFORMAL",
+  "phrase": "Decimal Place",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DecimalPlace"
+    }
+  ],
+  "indexable": true
+}

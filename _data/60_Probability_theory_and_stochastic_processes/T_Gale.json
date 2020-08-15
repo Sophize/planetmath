@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\nu$ be a probability measure on Cantor space $\\mathbf{C}$, and let\n$s\\in[0, \\infty)$.\n\n1.  A $\\nu$-$s$-[*supergale*]{} is a function\n    $d:\\lbrace 0,1\\rbrace ^{*}\\rightarrow [0,\\infty)$ that satisfies the\n    condition $$d(w)\\nu(w)^{s}\\geq d(w0)\\nu(w0)^{s}+d(w1)\\nu(w1)^{s}$$\n    for all $w\\in\\lbrace 0,1\\rbrace^{*}$, the set of all finite strings\n    of $0$\u2019s and $1$\u2019s (including $e$, the empty string).\n\n2.  A $\\nu$-$s$-[*gale*]{} is a $\\nu$-$s$-[*supergale*]{} that satisfies\n    the condition with equality for all $w\\in\\lbrace 0,1\\rbrace^{*}$.\n\n3.  A $\\nu$-[*supermartingale*]{} is a $\\nu$-1-supergale.\n\n4.  A $\\nu$-[*martingale*]{} is a $\\nu$-1-gale.\n\n5.  An $s$-[*supergale*]{} is a $\\mu$-$s$-supergale, where $\\mu$ is the\n    uniform probability measure.\n\n6.  An $s$-[*gale*]{} is a $\\mu$-$s$-gale.\n\n7.  A [*supermartingale*]{} is a 1-supergale.\n\n8.  A [*martingale*]{} is a 1-gale.\n\nPut in another way, a martingale is a function\n$d:\\lbrace 0,1 \\rbrace^{*}\\rightarrow [0,\\infty)$ such that, for all\n$w\\in \\lbrace 0,1 \\rbrace^{*}$, $d(w)=(d(w0)+d(w1))/2$.\n\nLet $d$ be a $\\nu$-$s$-[*supergale*]{}, where $\\nu$ is a probability\nmeasure on $\\mathbf{C}$ and $s\\in[0,\\infty)$. We say that $d$\n[*succeeds*]{} on a sequence $S\\in\\mathbf{C}$\nif$$\\limsup_{n\\rightarrow \\infty} d(S[0..n-1])=\\infty.$$ The [*success\nset*]{} of $d$ is\n$S^{\\infty}[d]=\\lbrace S\\in\\mathbf{C}\\bigl | d\\text{ succeeds on }S\\rbrace$.\n$d$ succeeds on a language $A\\subseteq \\lbrace 0,1 \\rbrace^{*}$ if $d$\nsucceeds on the characteristic sequence $\\chi_A$ of $A$. We say that $d$\n[*succeeds strongly*]{} on a sequence $S\\in\\mathbf{C}$\nif$$\\liminf_{n\\rightarrow\\infty}d(S[0..n-1])=\\infty.$$ The [*strong\nsuccess set*]{} of $d$ is\n$S^{\\infty}_{\\text{str}}[d]=\\lbrace S\\in\\mathbf{C}\\bigl | d\\text{ succeeds strongly on }S\\rbrace$.\n\nIntuitively, a supergale $d$ is a betting strategy that bets on the next\nbit of a sequence when the previous bits are known. $s$ is the parameter\nthat tunes the fairness of the betting. The smaller $s$ is, the less\nfair the betting is. If $d$ succeeds on a sequence, then the bonus we\ncan get from applying $d$ as the betting strategy on the sequence is\nunbounded. If $d$ succeeds strongly on a sequence, then the bonus goes\nto infinity.",
+  "language": "INFORMAL",
+  "phrase": "Gale",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Gale"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "agm",
+    "AGM"
+  ],
+  "definition": "If $x$ and $y$ are non-negative real numbers, we can form their\narithmetic mean $a_0 = (x+y)/2$ as well as their geometric mean\n$g_0 = \\sqrt{xy}$. This procedure can be repeated to form a sequence of\narithmetic and geometic means $a_{n+1} = (a_n+g_n)/2$ and\n$g_{n+1} = \\sqrt{a_n g_n}$. By the arithmetic-geometric means inequality\nwe have $a_n \\ge a_{n+1} \\ge g_{n+1} \\ge g_n$ (with equality holding\nonly when $a_n=g_n$), hence these sequences converge to a number between\n$x$ and $y$, with the rate of convergence being superlinear. The\n*arithmetic-geometric mean* $M(x,y)$ of $x$ and $y$ is defined as this\nlimit $$M(x,y) = \\lim_{n\\to\\oo} a_n, g_n.$$ The origin of the name is\nobvious from the construction. Alternative notations for $M(x,y)$ are\n$\\agm(x,y)$ or $\\AGM(x,y)$.\n\nThe AGM lies between the arithmetic and geometric means of $x$ and $y$,\n$$\\frac{x+y}{2} \\ge M(x,y) \\ge \\sqrt{xy},$$ with equality holding only\nin case of equality $x=y$. The AGM is also a homogeneous function of\ndegree $1$, namely $M(\\alpha x, \\alpha y)\n= \\alpha M(x,y)$ for $\\alpha > 0$. It is also symmetric\n$M(x,y) = M(y,x)$. These properties are obvious from the construction.\n\nThe AGM can be used to numerically evaluate elliptic integrals of the\nfirst and second kinds. For example,\n$$M(x,y) = \\frac{\\pi}{4} \\frac{x+y}{K\\left(\\frac{|x-y|}{x+y}\\right)},$$\nwhere $K(k)$ is the elliptic integral of the first kind as function of\nthe modulus $k$.\n\nAs a numerical method, the arithmetic-geometric mean has much to\nrecommend it. By its nature, it automatically provides upper and lower\nbounds for the answer, so one does not have to separately estimate\nerror. To compute the arithmetic-geometric mean to a certain accuracy,\nwe only need to carry out the computation until the difference between\n$a_n$ and $g_n$ is smaller than the desired accuracy.\n\nBecause convergence is superlinear, only a few iterations are necessarry\nto obtain the answer. For instance, if we compute $M(1,k)$ with $k$ less\nthan a billion, we already obtain at least fifteen-place accuracy after\neight iterations, as the following computation of $M(1,123456789)$\nshows:\n\n[c|c|c]{} $n$ & $g_n$ & $a_n$\\\n0 & 1.0 & 123456789.0\\\n1 & 11111.111060555555 & 61728395.0\\\n2 & 828173.3227017411 & 30869753.055530276\\\n3 & 5056234.365511624 & 15848963.189116009\\\n4 & 8951875.352937901 & 10452598.777313817\\\n5 & 9673177.418448625 & 9702237.06512586\\\n6 & 9687696.345716598 & 9687707.241787244\\\n7 & 9687701.793750389 & 9687701.793751922\\\n8 & 9687701.793751154 & 9687701.793751154\n\nThe fact that relatively few iterations are necessarry to obtain a\nhighly accurate result also means that one does not have to worry much\nabout the cumulative effect of roundoff errors in the various steps of\nthe computation.",
+  "language": "INFORMAL",
+  "phrase": "Arithmetic-Geometric Mean",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArithmeticgeometricMean"
+    }
+  ],
+  "indexable": true
+}

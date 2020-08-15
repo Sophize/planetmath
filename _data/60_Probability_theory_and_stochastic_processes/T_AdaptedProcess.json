@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "adapted"
+  ],
+  "definition": "Let $\\lbrace X_t \\mid t\\in T\\rbrace$ be a stochastic process defined on\na probability space $(\\Omega,\\mathcal{F},P)$ and\n$\\lbrace \\mathcal{F}_t \\mid t\\in T\\rbrace$ a filtration (an increasing\nsequence of sigma subalgebras of $\\mathcal{F}$), where $T$ is a linearly\nordered subset of $\\mathbb{R}$ with a minimum $t_0$. Then the process\n$\\lbrace X_t\\rbrace$ is said to be *adapted to* the filtration\n$\\lbrace \\mathcal{F}_t\\rbrace$ if for each $t\\ge t_0$, $X_t$ is :\n$$X_t^{-1}(B)\\in \\mathcal{F}_t\\mbox{ for each Borel set }B\\in\\mathbb{R}.$$\nA stochastic process is an *adapted process* if it is adapted to some\nfiltration.",
+  "language": "INFORMAL",
+  "phrase": "Adapted Process",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdaptedProcess"
+    }
+  ],
+  "indexable": true
+}

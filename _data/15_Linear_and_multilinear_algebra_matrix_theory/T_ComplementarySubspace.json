@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "algebraic complement"
+  ],
+  "definition": "#### Direct sum decomposition.\n\nLet $U$ be a vector space, and $V,W\\subset U$ subspaces. We say that $V$\nand $W$ span $U$, and write $$U=V+W$$ if every $u\\in U$ can be expressed\nas a sum $$u=v+w$$ for some $v\\in V$ and $w\\in W$.\n\nIf in addition, such a decomposition is unique for all $u\\in U$, or\nequivalently if $$V\\cap W=\\{ 0\\},$$ then we say that $V$ and $W$ form a\n*direct sum decomposition* of $U$ and write $$U=V\\oplus W.$$ In such\ncircumstances, we also say that $V$ and $W$ are *complementary*\nsubspaces, and also say that $W$ is an *algebraic complement* of $V$.\n\nHere is useful characterization of complementary subspaces if $U$ is\nfinite-dimensional.\n\nLet $U, V, W$ be as above, and suppose that $U$ is finite-dimensional.\nThe subspaces $V$ and $W$ are complementary if and only if for every\nbasis $v_1,\\ldots, v_m$ of $V$ and every basis $w_1,\\ldots,w_n$ of $W$,\nthe combined list $$v_1,\\ldots,v_m,w_1,\\ldots,w_n$$ is a basis of $U$.\n\n**Remarks**.\n\n-   Since every linearly independent subset of a vector space can be\n    extended to a basis, every subspace has a complement, and the\n    complement is necessarily unique.\n\n-   Also, direct sum decompositions of a vector space $U$ are in a\n    one-to-one correspondence fashion with projections on $U$.\n\n#### Orthogonal decomposition.\n\nSpecializing somewhat, suppose that the ground field ${\\mathbb{K}}$ is\neither the real or complex numbers, and that $U$ is either an inner\nproduct space or a unitary space, i.e. $U$ comes equipped with a\npositive-definite inner product\n$$\\langle,\\rangle:U\\times U\\rightarrow {\\mathbb{K}}.$$ In such\ncircumstances, for every subspace $V\\subset U$ we define the orthogonal\ncomplement of $V$, denoted by $V^\\perp$ to be the subspace\n$$V^\\perp = \\{ u\\in U: \\langle v,u\\rangle = 0,\\text{ for all }\nv\\in V\\}.$$\n\nSuppose that $U$ is finite-dimensional and $V\\subset U$ a subspace.\nThen, $V$ and its orthogonal complement $V^\\perp$ determine a direct sum\ndecomposition of $U$.\n\nNote: the Proposition is false if either the finite-dimensionality or\nthe positive-definiteness assumptions are violated.",
+  "language": "INFORMAL",
+  "phrase": "Complementary Subspace",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComplementarySubspace"
+    }
+  ],
+  "indexable": true
+}

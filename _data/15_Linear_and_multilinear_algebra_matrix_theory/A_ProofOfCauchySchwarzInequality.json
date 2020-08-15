@@ -1,0 +1,17 @@
+{
+  "argumentText": "If $a$ and $b$ are linearly dependent, we write\n$\\boldsymbol{b}=\\lambda \\boldsymbol{a}$. So we get:\n$$\\langle \\boldsymbol{a},\\lambda \\boldsymbol{a}\\rangle^2=\\lambda^2\\langle \\boldsymbol{a},\\boldsymbol{a}\\rangle^2=\\lambda^2 ||\\boldsymbol{a}||^4=||\\boldsymbol{a}||^2||\\boldsymbol{b}||^2.$$\nSo we have equality if $\\boldsymbol{a}$ and $\\boldsymbol{b}$ are\nlinearly dependent. In the other case we look at the quadratic function\n$$||x\\cdot \\boldsymbol{a}+\\boldsymbol{b}||^2=x^2||\\boldsymbol{a}||^2+2x\\langle\\boldsymbol{a} ,\\boldsymbol{b}\\rangle + ||\\boldsymbol{b}||^2.$$\nThis function is positive for every real $x$, if $\\boldsymbol{a}$ and\n$\\boldsymbol{b}$ are linearly independent. Thus it has no real zeroes,\nwhich means that\n$$\\langle\\boldsymbol{a}, \\boldsymbol{b}\\rangle^2 - ||\\boldsymbol{a}||^2 ||\\boldsymbol{b}||^2$$\nis always negative. So we have:\n$$\\langle\\boldsymbol{a}, \\boldsymbol{b}\\rangle^2 < ||\\boldsymbol{a}||^2||\\boldsymbol{b}||^2,$$\nwhich is the Cauchy-Schwarz inequality if $\\boldsymbol{a}$ and\n$\\boldsymbol{b}$ are linearly independent.",
+  "conclusion": "#P_CauchySchwarzInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCauchySchwarzInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Cauchy-Schwarz inequality"
+  ]
+}

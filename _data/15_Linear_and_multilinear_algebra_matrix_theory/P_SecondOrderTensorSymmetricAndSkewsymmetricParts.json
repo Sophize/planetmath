@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We shall prove the following theorem on existence and uniqueness. (Here,\nwe assime that the ground field has characteristic different from 2.\nThis hypothesis is satisfied for the cases of greatest interest, namely\nreal and complex ground fields.)\n\nEvery covariant and contravariant tensor of second rank may be expressed\nunivocally as the sum of a symmetric and skew-symmetric tensor.\n\nLet us consider a contravariant tensor.\n\n[*1. Existence.*]{} Put $$\\begin{aligned}\nU^{ij}=\\frac{1}{2}(T^{ij}+T^{ji}), \\qquad  W^{ij}=\\frac{1}{2}(T^{ij}-T^{ji}).\\end{aligned}$$\nThen $U^{ij}=U^{ji}$ is symmetric, $W^{ij}=-W^{ji}$ is skew-symmetric,\nand $$\\begin{aligned}\nT^{ij}=U^{ij}+W^{ij}.\\end{aligned}$$ [*2. Uniqueness.*]{} Let us suppose\nthat $T^{ij}$ admits the decompositions $$\\begin{aligned}\nT^{ij}=U^{ij}+W^{ij}=U'^{ij}+W'^{ij}.\\end{aligned}$$ By taking the\ntransposes $$\\begin{aligned}\nT^{ji}=U^{ji}+W^{ji}=U'^{ji}+W'^{ji},\\end{aligned}$$ we separate the\nsymmetric and skew-symmetric parts in both equations and making use of\ntheir symmetry properties, we have $$\\begin{aligned}\nU^{ij}-U'^{ij} & = & W'^{ij}-W^{ij} \\\\\n=U^{ji}-U'^{ji} & = & W'^{ji}-W^{ji} \\\\\n=W^{ij}-W'^{ij} & = & U'^{ij}-U^{ij} \\\\\n=-(U^{ij}-U'^{ij}) & = & 0,\\end{aligned}$$ which shows uniqueness of\neach part. [*mutatis mutandis*]{} for a covariant tensor $T_{ij}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SecondOrderTensorSymmetricAndSkewsymmetricParts"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "second order tensor: symmetric and skew-symmetric parts"
+  ]
+}

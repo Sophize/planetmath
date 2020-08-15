@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $P\\subset{\\mathbb{R}}^2$ be a polygon with all vertices on lattice\npoints on the grid ${\\mathbb{Z}}^2$. Let $I$ be the number of lattice\npoints that lie *inside* $P$, and let $O$ be the number of lattice\npoints that lie on the boundary of $P$. Then the area of $P$ is\n$$A(P) = I + \\frac{1}{2}O - 1.$$\n\n![image](pick)\n\nIn the above example, we have $I=5$ and $O=13$, so the area is\n$A=10\\frac{1}{2}$; inspection shows this is true.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PicksTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Pick's theorem"
+  ]
+}

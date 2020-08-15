@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Want to extend a homeomorphism of the circle $S^1$ to the whole disk\n$D^2$?\n\nLet $f\\colon S^1\\to S^1$ be a homeomorphism. Then the formula\n$$F(x)=||x||f(x/||x||)$$ allows you to define a map $F\\colon D^2\\to D^2$\nwhich extends $f$, for if $x\\in S^1\\subset D^2$ then $||x||=1$ and\n$F(x)=1\\cdot f(x/1)=f(x)$. Clearly this map is continuous, save (maybe)\nthe origin, since this formula is undefined there. Nevertheless this is\nremovable.\n\nTo check continuity at the origin use: [*\u201cA map $f$ is continuous at a\npoint $p$ if and only if for each sequence $x_n\\to p$,\n$f(x_n)\\to f(p)$\u201d*]{}.\n\nSo take a sequence $u_n\\in D^2$ such that $u_n\\to 0$ (i.e. which tends\nto the origin). Then $F(u_n)=||u_n||f(u_n/||u_n||)$ and since\n$f(u_n/||u_n||)\\neq 0$, hence $||u_n||\\to 0$ implies $F(u_n)\\to 0$, that\nis $F$ is also continuous at the origin.\n\nThe same method works for $f^{-1}$.\n\nIn the same vein one can extend homeomorphisms $S^n\\to S^n$ to\n$D^{n+1}\\to D^{n+1}$.",
+  "language": "INFORMAL",
+  "phrase": "Alexander Trick",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlexanderTrick"
+    }
+  ],
+  "indexable": true
+}

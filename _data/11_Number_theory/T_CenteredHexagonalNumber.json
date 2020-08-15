@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "hex number"
+  ],
+  "definition": "A [*centered hexagonal number*]{}, or [*hex number*]{} is a figurate\nnumber that represents a hexagon with a dot in the center and all other\ndots surrounding the center dot equidistantly. The centered hexagonal\nnumber for $n$ is given by the formula\n$1 + 6\\left({1 \\over 2} n(n + 1 ) \\right)$. In other words, the centered\nhexagonal number for $n$ is the triangular number for $n$ multiplied by\n6, then add 1.\n\nThe first few centered hexagonal numbers are: 1, 7, 19, 37, 61, 91, 127,\n169, 217, 271, 331, 397, 469, 547, 631, 721, 817, 919, ... listed in\nA003215 of Sloane\u2019s OEIS.\n\nTo find centered hexagonal numbers besides 1 that are also triangular\nnumbers or squares, it is necessary to solve Diophantine equations. By\nsolving the Diophantine equation ${1 \\over 2} m(m + 1) = 3n^2 + 3n + 1,$\nwe learn that 91, 8911 and 873181 are numbers that are both centered\nhexagonal numbers and triangular numbers (they grow very large after\nthat), while solving the Diophantine equation $m^2 = 3n^2 + 3n + 1,$ we\nlearn that 169 and 32761 are centered hexagonal numbers that are also\nsquares.\n\nThe sum of the first $n$ centered hexagonal numbers is $n^3$. The\ndifference between $(2n)^2$ and the $n$th centered hexagonal number is a\nnumber of the form $n^2 + 3n - 1$, while the difference between\n$(2n - 1))^2$ and the $n$th centered hexagonal number is an oblong\nnumber.",
+  "language": "INFORMAL",
+  "phrase": "Centered Hexagonal Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CenteredHexagonalNumber"
+    }
+  ],
+  "indexable": true
+}

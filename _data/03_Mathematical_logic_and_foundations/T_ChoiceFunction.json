@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *choice function* on a set $S$ is a function $f$ with domain $S$ such\nthat $f(x)\\in x$ for all $x\\in S$.\n\nA choice function on $S$ simply picks one element from each member of\n$S$. So in order for $S$ to have a choice function, every member of $S$\nmust be a nonempty set. The (AC) states that every set of nonempty sets\ndoes have a choice function.\n\nWithout AC the situation is more complicated, but we can still show that\nsome sets have a choice function. Here are some examples:\n\n-   If $S$ is a finite set of nonempty sets, then we can construct a\n    choice function on $S$ by picking one element from each member of\n    $S$. This requires only finitely many choices, so we don\u2019t need to\n    use AC.\n\n-   If every member of $S$ is a well-ordered nonempty set, then we can\n    pick the least element of each member of $S$. In this case we may be\n    making infinitely many choices, but we have a rule for making the\n    choices, so AC is not needed. The distinction between \u201cwell-ordered\u201d\n    and \u201cwell-orderable\u201d is important here: if the members of $S$ were\n    merely well-orderable, we would first have to choose a well-ordering\n    of each member, and this might require infinitely many arbitrary\n    choices, and therefore AC.\n\n-   If every member of $S$ is a nonempty set, and the union $\\cup S$ is\n    well-orderable, then we can choose a well-ordering for this union,\n    and this induces a well-ordering on every member of $S$, so we can\n    now proceed as in the previous example. In this case we were able to\n    well-order every member of $S$ by making just one choice, so AC\n    wasn\u2019t needed. (This example shows that the Well-Ordering Principle,\n    which states that every set is well-orderable, implies AC. The\n    converse is also true, but less trivial \u2014 .)",
+  "language": "INFORMAL",
+  "phrase": "Choice Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChoiceFunction"
+    }
+  ],
+  "indexable": true
+}

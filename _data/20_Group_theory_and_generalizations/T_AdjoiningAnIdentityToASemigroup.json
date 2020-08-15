@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "It is possible to formally adjoin an identity element to any semigroup\nto make it into a monoid.\n\nSuppose $S$ is a semigroup without an identity, and consider the set\n$S \\cup \\{1\\}$ where $1$ is a symbol not in $S$. Extend the semigroup\noperation from $S$ to $S \\cup \\{1\\}$ by additionally defining:\n$$s \\cdot 1 = s = 1 \\cdot s, \\text{for all} s \\in S \\cup {1}$$ It is\neasy to verify that this defines a semigroup (associativity is the only\nthing that needs to be checked).\n\nAs a matter of notation, it is customary to write $S^1$ for the\nsemigroup $S$ with an identity adjoined in this manner, if $S$ does not\nalready have one, and to agree that $S^1 = S$, if $S$ does already have\nan identity.\n\nDespite the simplicity of this construction, however, it rarely allows\none to simplify a problem by considering monoids instead of semigroups.\nAs soon as one starts to look at the structure of the semigroup, it is\nalmost invariably the case that one needs to consider subsemigroups and\nideals of the semigroup which do not contain the identity.",
+  "language": "INFORMAL",
+  "phrase": "Adjoining An Identity To A Semigroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdjoiningAnIdentityToASemigroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $w(z)$ be a holomorphic function on a simple closed curve $C$ and\ninside it. If $a_1,\\,a_2,\\,\\ldots,\\,a_m$ are inside $C$ the simple zeros\nof a function $f(z)$ holomorphic on $C$ and inside, then\n$$\\begin{aligned}\nw(a_1)\\!+\\!w(a_2)\\!+\\ldots+\\!w(a_m) \\;=\\; \\frac{1}{2i\\pi}\\!\\oint_C\\!w(z)\\frac{f'(z)}{f(z)}\\,dz\\end{aligned}$$\nwhere the contour integral is taken anticlockwise.\n\nThe if some of the zeros are multiple and are counted with .\n\nIf the zeros $a_j$ of $f(z)$ have the multiplicities $\\alpha_j$ and the\nfunction has inside $C$ also the poles $b_1,\\,b_2,\\,\\ldots,\\,b_n$ with\nthe multiplicities $\\beta_1,\\,\\beta_2,\\,\\ldots,\\,\\beta_n$, then (1) must\nbe written $$\\begin{aligned}\n\\sum_j\\alpha_jw(a_j)-\\sum_k\\beta_kw(b_k) \\;=\\; \\frac{1}{2i\\pi}\\!\\oint_C\\!w(z)\\frac{f'(z)}{f(z)}\\,dz.\\end{aligned}$$\n\nThe special case $w(z) \\equiv 1$ gives from (2) the argument principle.\n\n[8]{} : [*Le calcul des r\u00e9sidus et ses applications \u00e0 la th\u00e9orie des\nfonctions*]{}. Gauthier-Villars, Paris (1905).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SumOfValuesOfHolomorphicFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "sum of values of holomorphic function"
+  ]
+}

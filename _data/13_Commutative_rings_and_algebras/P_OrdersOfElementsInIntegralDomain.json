@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(D,\\,+,\\,\\cdot)$ be an integral domain, i.e. a commutative ring\nwith non-zero unity 1 and no zero divisors. All non-zero elements of $D$\nhave the same in the additive group $(D,\\,+)$.\n\n[*Proof.*]{} Let $a$ be arbitrary non-zero element. Any $na$ may be\nwritten as\n$$na = n(1a) = \\underbrace{1a+1a+\\cdots+1a}_{n} = (\\underbrace{1+1+\\cdots+1}_{n})a = (n1)a.$$\nThus, because $a \\ne 0$ and there are no zero divisors, an equation\n$na = 0$ is with the equation $n1 = 0$. So $a$ must have the same as the\nunity of $D$.\n\n**Note.** The of the unity element is the of the integral domain, which\nis 0 or a positive prime number.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrdersOfElementsInIntegralDomain"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "orders of elements in integral domain"
+  ]
+}

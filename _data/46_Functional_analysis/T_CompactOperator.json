@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "completely continuous"
+  ],
+  "definition": "Let $X$ and $Y$ be two Banach spaces. A **compact operator** (completely\ncontinuous operator) is a linear operator $T \\colon X \\to Y$ that maps\nthe unit ball in $X$ to a set in $Y$ with compact closure. It can be\nshown that a compact operator is necessarily a bounded operator.\n\nThe set of all compact operators on $X$, commonly denoted by\n${\\mathbb{K}}(X)$, is a closed two-sided ideal of the set of all bounded\noperators on $X$, ${\\mathbb{B}}(X)$.\n\nAny bounded operator which is the norm limit of a sequence of finite\nrank operators is compact. In the case of Hilbert spaces, the converse\nis also true. That is, any compact operator on a Hilbert space is a norm\nlimit of finite rank operators.\n\nLet $k(x,y)$, with $x,y \\in [0,1]$, be a continuous function. The\noperator defined by\n$$(T\\psi)(x) = \\int_0^1 k(x,y) \\psi(y) \\,{\\mathrm{d}}y, \\qquad \\psi \\in C([0,1])$$\nis compact.",
+  "language": "INFORMAL",
+  "phrase": "Compact Operator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompactOperator"
+    }
+  ],
+  "indexable": true
+}

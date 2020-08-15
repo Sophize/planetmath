@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Cullen prime*]{} is a Cullen number $C_m$ that is also a prime\nnumber. The first two Cullen primes are 3 and\n393050634124102232869567034555427371542904833, corresponding to $m = 1$\nand 141 respectively; other $m$ to give Cullen primes are 4713, 5795,\n6611, 18496, 32292, 32469, 59656, 90825, etc. listed in A005849 of\nSloane\u2019s OEIS (those primes being too large to write here). None of\nthese indexes are prime, and it is a matter of conjecture whether there\nexists a Cullen prime of the form $p2^p + 1$ with $p$ also prime. It is\nnot even known whether there are infinitely many Cullen primes (a\npossibility despite their rarity).",
+  "language": "INFORMAL",
+  "phrase": "Cullen Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CullenPrime"
+    }
+  ],
+  "indexable": true
+}

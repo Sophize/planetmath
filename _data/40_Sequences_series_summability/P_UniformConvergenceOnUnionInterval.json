@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If $a < b < c$ and the sequence $f_1,\\,f_2,\\,f_3,\\,\\ldots$\nof real functions converges uniformly both on the interval $[a,\\,b]$ and\non the interval $[b,\\,c]$, then the function sequence converges\nuniformly also on the interval $[a,\\,c]$.\n\n[*Proof.*]{} We have the limit functions\n$\\displaystyle f_{ab} := \\lim_{n\\to\\infty}f_n$ on $[a,\\,b]$ and\n$\\displaystyle f_{bc} := \\lim_{n\\to\\infty}f_n$. It follows that\n$$f_{ab}(b) = \\lim_{n\\to\\infty}f_n(b) = f_{bc}(b).$$ Define the new\nfunction $$\\begin{aligned}\nf(x) :=\n\\begin{cases}\nf_{ab}(x) \\quad \\forall x\\,\\in [a,\\,b],\\\\\nf_{bc}(x) \\quad \\forall x\\,\\in [b,\\,c].\n\\end{cases}\\end{aligned}$$ Choose an arbitrary positive number\n$\\varepsilon$. The supposed uniform convergences on the intervals\n$[a,\\,b]$ and $[b,\\,c]$ imply the existence of the numbers\n$n_1(\\varepsilon)$ and $n_2(\\varepsilon)$ such that\n$$|f_n(x)-f(x)| < \\varepsilon\\;\\;\\forall x\\,\\in [a,\\,b],\\quad\\mbox{when}\\; n > n_1(\\varepsilon)$$\nand\n$$|f_n(x)-f(x)| < \\varepsilon\\;\\;\\forall x\\,\\in [b,\\,c],\\quad\\mbox{when}\\; n > n_2(\\varepsilon).$$\nIf one takes $n > \\max\\{n_1(\\varepsilon),\\,n_2(\\varepsilon)\\}$, then one\nhas simultaneously on both intervals $[a,\\,b]$ and $[b,\\,c]$, i.e. on\nthe whole greater interval $[a,\\,c]$, the condition\n$$|f_n(x)-f(x)| < \\varepsilon.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformConvergenceOnUnionInterval"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "uniform convergence on union interval"
+  ]
+}

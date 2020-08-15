@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*biquadratic extension*]{} of a field $F$ is a Galois extension $K$\nof $F$ such that $\\operatorname{Gal} (K/F)$ is isomorphic to the Klein\n4-group. It receives its name from the fact that any such $K$ is the\ncompositum of two distinct quadratic extensions of $F$. The name can be\nsomewhat misleading, however, since biquadratic extensions of $F$ have\nexactly three distinct subfields that are quadratic extensions of $F$.\nThis is easily seen to be true by the fact that the Klein 4-group has\nexactly three distinct subgroups of 2.\n\nNote that, if $\\alpha, \\beta \\in F$, then\n$F(\\sqrt{\\alpha}, \\sqrt{\\beta})$ is a biquadratic extension of $F$ if\nand only if none of $\\alpha$, $\\beta$, and $\\alpha \\beta$ are squares in\n$F$.",
+  "language": "INFORMAL",
+  "phrase": "Biquadratic Extension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BiquadraticExtension"
+    }
+  ],
+  "indexable": true
+}

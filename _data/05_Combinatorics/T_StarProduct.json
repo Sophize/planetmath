@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *star product* of two graded posets $(P,\\le_P)$ and $(Q,\\le_Q)$,\nwhere $P$ has a unique maximal element $\\widehat{1}$ and $Q$ has a\nunique minimal element $\\widehat{0}$, is the poset $P*Q$ on the set\n$(P\\setminus\\widehat{1})\\cup(Q\\setminus\\widehat{0})$. We define the\npartial order $\\le_{P*Q}$ by $x\\le y$ if and only if:\n\n1.  $\\{x,y\\}\\subset P$, and $x\\le_P y$;\n\n2.  $\\{x,y\\}\\subset Q$, and $x\\le_Q y$; or\n\n3.  $x\\in P$ and $y\\in Q$.\n\nIn other words, we pluck out the top of $P$ and the bottom of $Q$, and\nrequire that everything in $P$ be smaller than everything in $Q$. For\nexample, suppose $P=Q=B_2$. $$\\xymatrix{\n&\n\\widehat{1}_P\\ar@{-}[dl]\\ar@{-}[dr] & \n&\n&\n&\n\\widehat{1}_Q\\ar@{-}[dl]\\ar@{-}[dr] & \n\\\\\na_P\\ar@{-}[dr] &\n&\nb_P\\ar@{-}[dl] &\n&\na_Q\\ar@{-}[dr] &\n&\nb_Q\\ar@{-}[dl]\n\\\\\n&\n\\widehat{0}_P &\n&\n&\n&\n\\widehat{0}_Q &\n}$$ Then $P*Q$ is the poset with the Hasse diagram below. $$\\xymatrix{\n&\n\\widehat{1}_Q\\ar@{-}[dl]\\ar@{-}[dr] &\n\\\\\na_Q\\ar@{-}[d]\\ar@{-}[drr] &\n&\nb_Q\\ar@{-}[dll]\\ar@{-}[d]\n\\\\\na_P\\ar@{-}[dr] &\n&\nb_P\\ar@{-}[dl]\n\\\\\n&\n\\widehat{0}_P &\n}$$ The star product of Eulerian posets is Eulerian.\n\n[9]{} Stanley, R., *Flag $f$-vectors and the $\\mathbf{cd}$-index*, Math.\nZ. 216 (1994), 483-499.",
+  "language": "INFORMAL",
+  "phrase": "Star Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StarProduct"
+    }
+  ],
+  "indexable": true
+}

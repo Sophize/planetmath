@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $X$ is a topological space, and $A$ a subspace, then the inclusion\nmap $A\\hookrightarrow X$ makes $C_n(A)$ into a subgroup of $C_n(X)$.\nSince the boundary map on $C_*(X)$ restricts to the boundary map on\n$C_*(A)$, we can take the quotient complex $C_*(X,A)$, $$\\begin{CD}\n@<\\partial<< C_n(X)/C_n(A) @<\\partial<< C_{n+1}(X)/C_{n+1}(A) @<\\partial<<\n\\end{CD}$$\n\nThe homology groups of this complex $H_n(X,A)$, are called the\n[*relative homology groups*]{} of the pair $(X,A)$. Under relatively\nmild hypotheses, $H_n(X,A)=H_n(X/A)$ where $X/A$ is the set of\nequivalence classes of the relation $x\\sim y$ if $x=y$ or if $x,y\\in A$,\ngiven the quotient topology (this is essentially $X$, with $A$ reduced\nto a single point). Relative homology groups are important for a number\nof reasons, principally for computational ones, since they fit into long\nexact sequences, which are powerful computational tools in homology.",
+  "language": "INFORMAL",
+  "phrase": "Relative Homology Groups",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RelativeHomologyGroups"
+    }
+  ],
+  "indexable": true
+}

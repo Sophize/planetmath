@@ -1,0 +1,17 @@
+{
+  "argumentText": "By induction on $n$. It is harmless to let $n$ = $m + 1$, since $0$\nlacks proper subsets. Suppose that $f : n \\to n$ is injective.\n\nTo begin, note that $m \\in f[n]$. Otherwise, $f[m] \\subseteq m$, so that\nby the induction hypothesis, $f[m] = m$. Then $f[n] =\nf[m]$, since $f[n] \\subseteq m$. Therefore, for some $k < m$,\n$f(k) = f(m)$.\n\nLet $g : f[n] \\to f[n]$ transpose $m$ and $f(m)$. Then $h \\vert_m\n: m \\to m$ is injective, where $h = g \\circ f$. By the induction\nhypothesis, $h \\vert_m[m] = m$. Therefore: $$\\begin{aligned}\nf[n] &= g \\circ h[n]\n\\\\\n&= h[n]\n\\\\\n&= m \\cup \\{m\\}\n\\\\\n&= m + 1\n\\\\\n&= n \\text{.}\\end{aligned}$$",
+  "conclusion": "#P_PigeonholePrinciple",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnotherProofOfPigeonholePrinciple"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "another proof of pigeonhole principle"
+  ]
+}

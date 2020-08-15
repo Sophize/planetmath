@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\vartheta$ be an algebraic integer of $n$. The algebraic number\nfield $\\mathbb{Q}(\\vartheta)$ has always an integral basis of the form\n\n$\\displaystyle\\omega_1 = 1,$\\\n$\\displaystyle\\omega_2 = \\frac{a_{21}\\!+\\!\\vartheta}{d_2},$\\\n$\\displaystyle\\omega_3 = \\frac{a_{31}\\!+\\!a_{32}\\vartheta\\!+\\!\\vartheta^2}{d_3},$\\\n$\\vdots\\,\\qquad\\vdots\\,\\qquad\\vdots$\\\n$\\displaystyle\\omega_n = \\frac{a_{n1}\\!+\\!a_{n2}\\vartheta\\!+\\ldots+\\!a_{n,n-1}\\vartheta^{n-2}\\!+\\!\\vartheta^{n-1}}{d_n}$,\n\nwhere the $a_{ij}$\u2019s and $d_i$\u2019s are rational integers such that\n$$d_2\\mid d_3\\mid d_4\\mid\\ldots\\mid d_n,$$ i.e.\n$$d_i\\mid d_{i+1}\\quad \\forall\\, i = 2,\\,3,\\,\\ldots,\\,n\\!-\\!1.$$\n\nThe integral basis $\\omega_1,\\,\\omega_2,\\,\\ldots,\\,\\omega_n$\u00a0is called a\n[*canonical basis*]{} of the number field.\n\n**Remark.** The integers $a_{ij}$ can be reduced so that for all $i$ and\n$j$, $$-\\frac{d_i}{2} < a_{ij} \\leqq \\frac{d_i}{2}.$$ Then one may speak\nof an [*adjusted canonical basis*]{}. In the case of a quadratic number\nfield $\\mathbb{Q}(\\sqrt{d})$ with $d \\equiv 1\\, (\\mbox{mod}\\, 4)$ we\nhave (see the examples of ring of integers of a number field)\n$$\\omega_1 = 1,  \\quad \\omega_2 = \\frac{1\\!+\\!\\sqrt{d}}{2}.$$ The\ndiscriminant of this basis is $d$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CanonicalBasis"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "canonical basis"
+  ]
+}

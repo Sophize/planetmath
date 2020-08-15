@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A $k$-[*superperfect number*]{} $n$ is an integer such that\n$\\sigma^k(n) = 2n$, where $\\sigma^k(x)$ is the iterated sum of divisors\nfunction. For example, 16 is 2-superperfect since its divisors add up to\n31, and in turn the divisors of 31 add up to 32, which is twice 16.\n\nAt first Suryanarayana only considered 2-superperfect numbers. It is\neasy to prove that numbers of the form $2^{p - 1}$ are 2-superperfect\nonly if $2^p - 1$ is a Mersenne prime. The existence of odd\n2-superperfect numbers appears as unlikely as that of regular odd\nperfect numbers.\n\nLater, Dieter Bode generalized the concept for any $k$ and proved that\nwhen $k > 2$ there are no even $k$-superperfect numbers. Others have\nfurther generalized the concept to $(k, m)$-superperfect numbers\nsatisifying the equality $\\sigma^k(n) = mn$, and Weisstein programs a\nMathematica command to default to $m = 2$ when the third argument is\nomitted. For example, 8, 21, and 512 are (2, 3)-superperfect, since the\nsecond iteration of the sum of divisors function gives thrice them, 24,\n63, and 1536 respectively.\n\nNot to be confused with hyperperfect numbers, which satisfy a different\nequality involving the sum of divisors function.\n\n[3]{} R. K. Guy, [*Unsolved Problems in Number Theory*]{} New York:\nSpringer-Verlag 2004: B9 D. Suryanarayana, \u201cSuper perfect numbers\u201d\n[*Elem. Math.*]{} [**24**]{} (1969): 16 - 17 E. Weisstein, \u201c\u201d\n[*Mathworld*]{}",
+  "language": "INFORMAL",
+  "phrase": "Superperfect Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SuperperfectNumber"
+    }
+  ],
+  "indexable": true
+}

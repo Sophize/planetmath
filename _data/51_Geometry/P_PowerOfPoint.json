@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If a secant of the circle is drawn through a point ($P$), then the\nproduct of the line segments on the secant between the point and the\nperimeter of the circle is on the direction of the secant. The product\nis called [*the power of the point with respect to the circle*]{}.\n\n[*Proof.*]{} Let $PA$ and $PB$ be the segments of a secant and $PA'$ and\n$PB'$ the segments of another secant. Then the triangles $PAB'$ and\n$PA'B$ are similar since they have equal angles, namely the central\nangles $\\angle APB'$ and $\\angle BPA'$ and the inscribed angles\n$\\angle PAB'$ and $\\angle PA'B$. Thus we have the\n$$\\frac{PA}{PA'} = \\frac{PB'}{PB},$$ which implies the asserted equation\n$$PA\\cdot PB = PA'\\cdot PB'.$$\n\n(-3,-2)(3,3) (-3,-2)(2.6,3) (-3,-2)(2.8,-1.2) (-3,-2)[.]{} (2.6,3)[.]{}\n(2.8,-1.2)[.]{} (0,-2.5)[.]{} (0,0)[2.5]{} (0,0)(-3,-2) (-3.4,-2)[$P$]{}\n(-1.6,-1.6)[$A$]{} (-1.8,-0.9)[$A'$]{} (2,-1.1)[$B$]{} (1.9,2)[$B'$]{}\n\n**Notes.** If the point $P$ is outside a circle, then value of the power\nof the point with respect to the circle is equal to the square of the\nlimited tangent of the circle from $P$; this may be considered as the\nlimit case of the power of point where the both intersection points of\nthe secant with the circle coincide. Another of the notion power of\npoint is got when the line through $P$ does not intersect the circle; we\ncan think that then the intersecting points are imaginary; also now the\nproduct of the \u201cimaginary line segments\u201d is the same.\n\nDenote by $p^2$ the power of the point $P := (a,\\,b)$ with respect to\ncircle $$K(x,\\,y) := (x-x_0)^2+(y-y_0)^2-r^2 = 0.$$ Then, by the\nPythagorean theorem, we obtain $$\\begin{aligned}\np^2 = (a-x_0)^2+(b-y_0)^2-r^2\\end{aligned}$$ if $P$ is outside the\ncircle and $$\\begin{aligned}\np^2 = r^2-((a-x_0)^2+(b-y_0)^2)\\end{aligned}$$ if $P$ is inside of the\ncircle. If in the latter case, we change the definition of the power of\npoint to be the negative value $-p^2$ for a point inside the circle,\nthen in both cases the power of the point $(a,\\,b)$ is equal to\n$$K(a,\\,b) \\equiv (a-x_0)^2+(b-y_0)^2-r^2.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PowerOfPoint"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "power of point",
+    "power of the point",
+    "power of a point"
+  ]
+}

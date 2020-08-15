@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "xor",
+    "logical xor",
+    "logical exclusive or"
+  ],
+  "definition": "The logical operator xor, short for \u201cexclusive or\u201d, is a binary operator\nthat is true iff exactly one of its parameters is true, and thus\ncorresponds to the normal use of \u201cor\u201d in English. Xor uses the symbol\n$\\oplus$ due to its similarity to disjunction, which sometimes uses $+$.\nThe truth table for xor is\n\n   $a$   $b$   $a \\oplus b$\n  ----- ----- --------------\n    F     F         F\n    F     T         T\n    T     F         T\n    T     T         F",
+  "language": "INFORMAL",
+  "phrase": "Exclusive Or",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExclusiveOr"
+    }
+  ],
+  "indexable": true
+}

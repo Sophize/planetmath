@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*complex exponential function*]{} $\\exp:\\,\\mathbb{C}\\to \\mathbb{C}$\nmay be defined in many equivalent ways: Let $z = x\\!+\\!iy$ where\n$x,\\,y\\in\\mathbb{R}$.\n\n-   $\\displaystyle\\exp{z} \\;:=\\; e^x(\\cos{y}+i\\sin{y})$\n\n-   $\\displaystyle\\exp{z} \\;:=\\; \\lim_{n\\to\\infty}\\left(1+\\frac{z}{n}\\right)^n$\n\n-   $\\displaystyle\\exp{z} \\;:=\\; \\sum_{n = 0}^\\infty\\frac{z^n}{n!}$\n\nThe complex exponential function is usually denoted in power form:\n$$e^z \\;:=\\; \\exp{z},$$ where $e$ is the Napier\u2019s constant. It also\ncoincincides with the real exponential function when $z$ is real (choose\n$y = 0$). It has all the properties of power, e.g.\n$e^{-z} = \\frac{1}{e^z}$; these are consequences of the addition formula\n$$e^{z_1+z_2} \\;=\\; e^{z_1}e^{z_2}$$ of the complex exponential\nfunction.\n\nThe function gets all complex values except 0 and is having the (the\nwith least non-zero modulus) $2\\pi i$. The $\\exp$ is holomorphic, its\nderivative $$\\frac{d}{dz}e^z \\;=\\; e^z,$$ which is obtained from the\nseries form via termwise differentiation, is similar as in $\\mathbb{R}$.\n\nSo we have a fourth way to define\n\n-   $\\exp{z} \\;:=\\; w(z)$\n\nwith $w$ the solution of the differential equation\n$\\displaystyle\\frac{dw}{dz} = w$ under the initial condition $w(0) = 1$.\n\n**Some formulae:**\n$$|e^z| \\;=\\; e^x, \\quad \\arg{e^z} \\;=\\; y+2n\\pi\\quad(n = 0,\\,\\pm1,\\,\\pm2,\\,\\ldots),$$\n$$\\mbox{Re}(e^z) \\;=\\; e^x\\cos{y}, \\quad \\mbox{Im}(e^z) \\;=\\; e^x\\sin{y}$$",
+  "language": "INFORMAL",
+  "phrase": "Complex Exponential Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComplexExponentialFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $Q=(Q_0,Q_1,s,t)$ be a quiver, i.e. $Q_0$ is a set of vertices,\n$Q_1$ is a set of arrows and $s,t:Q_1\\to Q_0$ are source and target\nfunctions.\n\n**Definition.** We will say that $Q$ is **locally finite** iff for any\nvertex $a\\in Q_0$ there is a finite number of of $a$. Equivalently if\nthere is a finite number of arrows ending in $a$ and finite number of\narrows starting from $a$.\n\nNote that even when $Q$ has a finite number of vertices, then $Q$ is not\nnecessarily locally finite. Consider the following example:\n$$Q=(\\{*\\},\\mathbb{N},s,t)$$ such that $s(n)=t(n)=*$ for any\n$n\\in\\mathbb{N}$. In other words $Q$ has one vertex and countably many\narrows starting and ending at it. This quiver is not locally finite.\n\nEvery finite quiver, i.e. quiver with finite number of vertices and\narrows is locally finite.",
+  "language": "INFORMAL",
+  "phrase": "Locally Finite Quiver",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocallyFiniteQuiver"
+    }
+  ],
+  "indexable": true
+}

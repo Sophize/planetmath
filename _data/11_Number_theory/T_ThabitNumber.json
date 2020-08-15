@@ -1,0 +1,22 @@
+{
+  "alternatePhrases": [
+    "Thabit ibn Kurra number",
+    "Thabit ibn Kurrah number",
+    "Thabit ibn Qurra number",
+    "Thabit ibn Qurrah number",
+    "Thabit bin Kurra number",
+    "Thabit bin Kurrah number",
+    "Thabit bin Qurra number",
+    "Thabit bin Qurrah number"
+  ],
+  "definition": "An integer of the form $3 \\cdot 2^n - 1$, or $2^{n + 1} + 2^n - 1$. They\nare listed in A055010 of Sloane\u2019s OEIS. The Thabit numbers are a subset\nof the Proth numbers.\n\nThe mathematician and astronomer Thabit ibn Qurra studied these numbers\nin search of a formula for amicable pairs. He found that when two\nconsecutive Thabit numbers are also prime numbers (corresponding to\nindices $n$ and $n - 1$) and $9 \\cdot 2^{2n - 1} - 1$ is a prime number,\ntoo, then these numbers multiplied by $2^n$ will reveal an amicable\npair. The only $n$ known to fit these criteria are 2, 4 and 7. The\nlargest Thabit number known to be prime corresponds to index 2312734,\nits immediate lower neighbor is composite.\n\nIt is conjectured that the nimfactorial of a Thabit number is always 2.",
+  "language": "INFORMAL",
+  "phrase": "Thabit Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThabitNumber"
+    }
+  ],
+  "indexable": true
+}

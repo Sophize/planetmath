@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "fundamental theorem of vector calcululs"
+  ],
+  "definition": "The Helmholtz theorem states that any vector $\\mathbf{F}$ may be\ndecomposed into an irrotational (curl-free) and a solenoidal\n(divergence-free) part under certain conditions (given below). More\nprecisely, it may be written in the form:\n$$\\mathbf{F} = -\\nabla \\varphi + \\nabla \\times \\mathbf{A}$$ where\n$\\varphi$ is a scalar potential and $\\mathbf{A}$ is a vector potential.\nBy the definitions of scalar and vector potentials it follows that the\nfirst term on the right-hand side is irrotational and the second is\nsolenoidal. The general conditions for this to be true are:\n\n1.  The divergence of $\\mathbf{F}$ must vanish at infinity.\n\n2.  The curl of $\\mathbf{F}$ must also vanish at infinity.",
+  "language": "INFORMAL",
+  "phrase": "Helmholtz Decomposition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HelmholtzDecomposition"
+    }
+  ],
+  "indexable": true
+}

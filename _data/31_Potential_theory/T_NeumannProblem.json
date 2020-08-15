@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $\\Omega$ is a region of ${\\mathbb{R}}^n$ and $\\partial\\Omega$ is\nthe boundary of $\\Omega$. Further suppose $f$ is a function\n$f\\colon\\partial \\Omega\\to{\\mathbb{C}}$, and suppose\n$\\frac{\\partial}{\\partial n}$ corresponds to taking a derivative in a\ndirection normal to the boundary $\\partial\\Omega$ at any point. Then the\n*Neumann problem* is to find a function\n$\\phi\\colon \\Omega\\cup \\partial \\Omega \\to{\\mathbb{C}}$ such that\n$$\\begin{aligned}\n\\frac{\\partial\\phi}{\\partial n} &=& f,\\quad \\text{on $\\partial \\Omega$}, \\\\\n\\nabla^2 \\phi &=& 0,\\quad \\text{in $\\Omega$}. \\end{aligned}$$ Here\n$\\nabla^2$ represents the Laplacian operator and the second condition is\nthat $\\phi$ be a harmonic function on $\\Omega$. The condition for the\nexistence of a solution $\\phi$ of the Neumann problem is that integral\nof the normal derivative of the function $\\phi$, calculated over the\nentire boundary $\\partial\\Omega$, vanish. This follows from the identic\nequation $$\\begin{aligned}\n\\int_{\\partial\\Omega}\\frac{\\partial\\phi}{\\partial n}d\\sigma=\n\\int_\\Omega\\nabla\\!\\cdot\\!(\\nabla\\phi)d\\tau=\\int_\\Omega\\nabla^2\\phi\\,d\\tau\\end{aligned}$$\nand from the fact that $\\nabla^2\\phi=0$.",
+  "language": "INFORMAL",
+  "phrase": "Neumann Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NeumannProblem"
+    }
+  ],
+  "indexable": true
+}

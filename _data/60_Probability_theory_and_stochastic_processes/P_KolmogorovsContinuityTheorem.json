@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X=\\lbrace X_t \\rbrace_{t\\geq 0}$ be a process satisfying the\nfollowing condition$\\colon$ For all $T>0$ there exist positive constants\n$\\alpha$, $\\beta$, $D$ such that\n$$E[|X_t-X_s|^{\\alpha}]\\leq D|t-s|^{1+\\beta} \\,\\,\\ 0\\leq s, t\\leq T.$$\\\nThen there exists a continuous modification of $X$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KolmogorovsContinuityTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kolmogorov's continuity theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Lienard system* is a planar ordinary differential equation\n$$\\begin{aligned}\n\\dot{x} & = & y -f(x)\\\\\n\\dot{y} & = & -g(x)\\end{aligned}$$ with conditions on the smoothness of\n$f$ and $g$. It is equivalent to the following second order ordinary\ndifferential equation $$\\ddot{x}+f'(x)\\dot{x}+g(x)=0.$$ **Example:**\n\n-   van der Pol equation\n\n[1]{} , *Differential Equations and Dynamical Systems*, Springer, New\nYork, 2001.",
+  "language": "INFORMAL",
+  "phrase": "Lienard System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LienardSystem"
+    }
+  ],
+  "indexable": true
+}

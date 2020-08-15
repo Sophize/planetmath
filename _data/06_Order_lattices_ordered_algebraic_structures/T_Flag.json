@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V$ be a finite-dimensional vector space. A filtration of subspaces\n$$V_1\\subset V_2\\subset\\cdots \\subset V_n= V$$ is called a *flag* in\n$V$. We speak of a [*complete flag*]{} when $$\\dim V_i = i$$ for each\n$i=1,\\ldots,n$.\n\nNext, putting $$d_k = \\dim V_k,\\quad k=1,\\ldots n,$$ we say that a list\nof vectors $(u_1,\\ldots,u_{d_n})$ is an *adapted basis* relative to the\nflag, if the first $d_1$ vectors give a basis of $V_1$, the first $d_2$\nvectors give a basis of $V_2$, etc. Thus, an alternate characterization\nof a complete flag, is that the first $k$ elements of an adapted basis\nare a basis of $V_k$.\n\n#### Example\n\nLet us consider ${\\mathbb{R}}^n$. For each $k=1,\\ldots,n$ let $V_k$ be\nthe span of $e_1,\\ldots,e_k$, where $e_j$ denotes the $j{^{\\text{th}}}$\nbasic vector, i.e. the column vector with $1$ in the $j{^{\\text{th}}}$\nposition and zeros everywhere else. The $V_k$ give a complete flag in\n${\\mathbb{R}}^n$ . The list $(e_1,e_2,\\ldots, e_n)$ is an adapted basis\nrelative to this flag, but the list $(e_2,e_1,\\ldots,e_n)$ is not.\n\n#### Generalizations.\n\nMore generally, a flag can be defined as a maximal chain in a partially\nordered set. If one considers the poset consisting of subspaces of a\n(finite dimensional) vector space, one recovers the definition given\nabove.",
+  "language": "INFORMAL",
+  "phrase": "Flag",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Flag"
+    }
+  ],
+  "indexable": true
+}

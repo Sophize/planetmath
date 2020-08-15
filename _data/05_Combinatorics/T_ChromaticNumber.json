@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *chromatic number* of a graph is the minimum number of colours\nrequired to colour it.\n\nConsider the following graph:\n\n$$\\xymatrix{\n{\\color{red}A} \\ar@{-}[r] & {\\color{blue}B} \\ar@{-}[r] \\ar@{-}[d] & {\\color{red}C} \\ar@{-}[r] \\ar@{-}[dl] & {\\color{green}F} \\ar@{-}[dl] \\\\\n& {\\color{green}D} \\ar@{-}[r] & {\\color{blue}E} & }$$\n\nThis graph has been coloured using $3$ colours. Furthermore, it\u2019s clear\nthat it cannot be coloured with fewer than $3$ colours, as well: it\ncontains a subgraph ($BCD$) that is isomorphic to the complete graph of\n$3$ vertices. As a result, the chromatic number of this graph is indeed\n$3$.\n\nThis example was easy to solve by inspection. In general, however,\nfinding the chromatic number of a large graph (and, similarly, an\noptimal colouring) is a very difficult (NP-hard) problem.",
+  "language": "INFORMAL",
+  "phrase": "Chromatic Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChromaticNumber"
+    }
+  ],
+  "indexable": true
+}

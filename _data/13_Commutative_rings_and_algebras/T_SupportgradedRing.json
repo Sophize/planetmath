@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a groupoid (semigroup, group) and suppose\n$R = \\bigoplus_{s \\in S}\nR_{s}$ is an $S$- graded ring.\n\nWe define the [*support*]{} of $r$ to be the set\n${\\,{\\rm supp}\\,}(r) = \\{ s \\in S \\mid\nr_{s} \\neq 0 \\}$. We can extend this definition to\n${\\,{\\rm supp}\\,}(R) = \\bigcup {\\,{\\rm supp}\\,}R_{s} \\neq 0 \\}$. If\n${\\,{\\rm supp}\\,}(R)$ is a finite set then we say that the ring $R$ has\n[*finite support*]{}.",
+  "language": "INFORMAL",
+  "phrase": "Support (Graded Ring)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SupportgradedRing"
+    }
+  ],
+  "indexable": true
+}

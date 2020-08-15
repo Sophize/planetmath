@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $I$ is an open interval on $\\mathbb{R}$, and\n$f\\colon I\\to {\\mathbb{C}}$ is differentiable at $x\\in I$. Then $f$ is\ncontinuous at $x$. Further, if $f$ is differentiable on $I$, then $f$ is\ncontinuous on $I$.\n\nSuppose $x\\in I$. Let us show that $f(y)\\to f(x)$, when $y\\to x$. First,\nif $y\\in I$ is distinct to $x$, then\n$$f(x)-f(y) = \\frac{f(x)-f(y)}{x-y} (x-y).$$ Thus, if $f'(x)$ is the\nderivative of $f$ at $x$, we have $$\\begin{aligned}\n\\lim_{y\\to x} f(x)-f(y) &=& \\lim_{y\\to x} \\frac{f(x)-f(y)}{x-y} (x-y) \\\\\n   &=& \\lim_{y\\to x} \\frac{f(x)-f(y)}{x-y}\\  \\lim_{y\\to x}  (x-y) \\\\\n   &=& f'(x)\\  0 \\\\\n   &=& 0,\\end{aligned}$$ where the second equality is justified since\nboth limits on the second line exist. The second claim follows since $f$\nis continuous on $I$ if and only if $f$ is continuous at $x$ for all\n$x\\in I$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DifferentiableFunctionsAreContinuous"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "differentiable functions are continuous"
+  ]
+}

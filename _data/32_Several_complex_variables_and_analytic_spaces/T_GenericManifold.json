@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "generic submanifold"
+  ],
+  "definition": "Let $M \\subset {\\mathbb{C}}^N$ be a real submanifold of real dimension\n$n$. We say that $M$ is a [*generic manifold*]{} if for every $x \\in M$\nwe have $$T_x(M) + JT_x(M) = T_x({\\mathbb{C}}^N),$$ where $J$ denotes\nthe operator of multiplication by the imaginary unit in\n$T_x({\\mathbb{C}}^N)$. That is every vector in $T_x({\\mathbb{C}}^N)$ can\nbe written as $X + JY$ where $X, Y \\in T_x(M)$.\n\nFor more details about the tangent spaces and the $J$ operator see the\nentry on . In fact every generic manifold is also CR manifold (the\nconverse is not true however). A basic important result about generic\nsubmanifolds is.\n\nLet $M \\subset {\\mathbb{C}}^N$ be a generic submanifold and let\n$f \\colon U \\subset {\\mathbb{C}}^N \\to {\\mathbb{C}}$ be a holomorphic\nfunction where $U$ is a connected open set such that\n$M \\cap U \\not= \\emptyset$, and further suppose that\n$f(M \\cap U) = \\{ 0 \\}$, that is $f$ is zero when restricted to $M$.\nThen in fact $f \\equiv 0$ on $U$.\n\nFor example in ${\\mathbb{C}}^1$ the real line is a generic submanifold,\nand any holomorphic function which is zero on the real line is zero\neverywhere (if the domain of the function is connected and intersects\nthe real line of course). There are of course much stronger uniqueness\nresults for the complex plane so the above is mostly useful for higher\ndimensions.\n\n[9]{} M. Salah Baouendi, Peter Ebenfelt, Linda Preiss Rothschild.\n[**]{}, Princeton University Press, Princeton, New Jersey, 1999.",
+  "language": "INFORMAL",
+  "phrase": "Generic Manifold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GenericManifold"
+    }
+  ],
+  "indexable": true
+}

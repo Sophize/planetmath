@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "exact fork"
+  ],
+  "definition": "A category $\\mathcal{C}$ is called a *regular category* if\n\n1.  every morphism has a kernel pair,\n\n2.  every kernel pair has a coequalizer, and\n\n3.  the pullback of every regular epimorphism along any morphism exists\n    and is again regular. This means the following: if $f:A\\to B$ is a\n    regular epimorphism, and $g:C\\to B$ is any morphism, then the\n    pullback diagram below\n    $$\\xymatrix@+=1.5cm{D \\ar[r]^h \\ar[d] & C \\ar[d]^g \\\\ A \\ar[r]_f & B}$$\n    exists, and $h$ is again a regular epimorphism.\n\nSome examples of regular categories are: any abelian category, the\ncategory of sets, and the category of groups. On the other hand, the\ncategory of topological spaces and the category of small categories are\nnot regular.\n\n**Remarks**.\n\n-   If a category $\\mathcal{C}$ is finitely complete, it can be shown\n    that $\\mathcal{C}$ is regular iff the strong epimorphisms are stable\n    under pullbacks, and every morphism has a mono-strong-epi\n    factorization: for every morphisms $f$, we have $f=g\\circ h$ where\n    $g$ is a monomorphism and $h$ is a strong epimorphism.\n\n-   Regular categories are generalizations of abelian categories, so\n    that the exactness conditions can be defined without the requirement\n    that the categories be additive. More precisely, in a regular\n    category $\\mathcal{C}$, we define an *exact sequence*, or *exact\n    fork*, to be a 6-tuple $(A,B,C,f,g,h)$ where\n\n    -   $A,B,C$ are objects\n\n    -   $f,g:A\\to B$ and $h:B\\to C$ are morphisms:\n        $\\xymatrix@+=2cm{A \\ar@<0.5ex>[r]^f \\ar@<-0.5ex>[r]_g & B \\ar[r]^h & C}$\n\n    such that $(f,g)$ is the kernel pair of $h$ and $h$ is the\n    coequalizer of $f$ and $g$. $h$ is the coequalizer portion of the\n    exact sequence, and $(f,g)$ is the kernel pair portion of the exact\n    sequence.\n\n    One of the first consequences of the above definition is: every\n    regular epimorphism in a regular category is the coequalizer portion\n    of an exact sequence.\n\n    The main result, however, is that, in an abelian category, the two\n    notions of the exactness coincide in the following sense:\n    $(A,B,C,f,g,h)$ is exact precisely when\n    $$\\xymatrix@+=2cm{0 \\ar[r] & A \\ar[r]^-{f \\choose g} & B\\oplus B \\ar[r]^-{(h \\enspace -h)} & C \\ar[r] & 0}$$\n    is a short exact sequence.\n\n[9]{} F. Borceux *Categories and Structures, Handbook of Categorical\nAlgebra II*, Cambridge University Press, Cambridge (1994)",
+  "language": "INFORMAL",
+  "phrase": "Regular Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegularCategory"
+    }
+  ],
+  "indexable": true
+}

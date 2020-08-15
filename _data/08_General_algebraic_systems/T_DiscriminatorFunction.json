@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "switching function"
+  ],
+  "definition": "Let $A$ be a non-empty set. The *ternary discriminator* on $A$ is the\nternary operation $t$ on $A$ such that $$t(a,b,c):= \\left\\{\n\\begin{array}{ll}\na & \\textrm{if } a\\ne b,\\\\\nc & \\textrm{otherwise.}\n\\end{array}\n\\right.$$ In other words, $t$ is a function that determines whether or\nnot a pair of elements in $A$ are the same, hence the name\ndiscriminator.\n\nIt is easy to see that, by setting two of the three variables the same,\n$t$ becomes a constant function: $t(a,b,a)=a$, $t(a,a,b)=b$, and\n$t(a,b,b)=a$.\n\nMore generally, the *quaternary discriminator* or the *switching\nfunction* on $A$ is the quaternary operation $q$ on $A$ such that\n$$q(a,b,c,d):= \\left\\{\n\\begin{array}{ll}\nd & \\textrm{if } a\\ne b,\\\\\nc & \\textrm{otherwise.}\n\\end{array}\n\\right.$$\n\nHowever, this generalization is really an equivalent concept in the\nsense that one can derive one type of discriminator from another: given\n$q$ above, set $t(a,b,c)=q(a,b,c,a)$. Conversely, given $t$ above, set\n$q(a,b,c,d) = t(t(a,b,c),t(a,b,d),d)$.\n\n**Remark**. The following ternary functions $t_1,t_2:A^3\\to A$ could\nalso serve as discriminator functions: $$t_1(a,b,c):= \\left\\{\n\\begin{array}{ll}\nb & \\textrm{if } a\\ne b,\\\\\nc & \\textrm{otherwise.}\n\\end{array}\n\\right.\n\\hspace{1cm}\nt_2(a,b,c):= \\left\\{\n\\begin{array}{ll}\nc & \\textrm{if } a\\ne b,\\\\\na & \\textrm{otherwise.}\n\\end{array}\n\\right.$$ But they are really no different from *the* ternary\ndiscriminator $t$:\n$$t_1(a,b,c)=t(b,a,c)\\quad \\mbox{ and }\\quad t(a,b,c)=t_1(b,a,c),$$\n$$t_2(a,b,c)=t(c,t(a,b,c),a)\\quad \\mbox{ and }\\quad t(a,b,c)=t_2(a,t_2(a,b,c),c).$$\n\n[9]{} G. Gr\u00e4tzer: [*Universal Algebra*]{}, 2nd Edition, Springer, New\nYork (1978). S. Burris, H.P. Sankappanavar: [*A Course in Universal\nAlgebra*]{}, Springer, New York (1981).",
+  "language": "INFORMAL",
+  "phrase": "Discriminator Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiscriminatorFunction"
+    }
+  ],
+  "indexable": true
+}

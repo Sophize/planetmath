@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an integer $n$, count how many integers $m$ in the set\n$\\{n + 1, n + 2, \\ldots n^2\\}$ satisfy $\\phi(m) = n$. This is the\n[*totient valence*]{} of $n$, usually labelled $N_{\\phi}(n)$. (The only\ntwo special cases are 2 and 6, for which one has to look a little\nbeyound $n^2$).\n\nRobert Carmichael conjectured that $N_{\\phi}(n) = 1$ never. Two\nsequences in Sloane\u2019s OEIS that list numbers with higher totient\nvalences than preceding numbers are A007374 and A097942.",
+  "language": "INFORMAL",
+  "phrase": "Totient Valence Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TotientValenceFunction"
+    }
+  ],
+  "indexable": true
+}

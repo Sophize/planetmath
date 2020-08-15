@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given $\\alpha$, a real algebraic number of degree $n \\neq 1$, there is a\nconstant $c = c( \\alpha ) > 0$ such that for all rational numbers\n$p/q, (p,q)=1$, the inequality\n$$\\left| \\alpha - \\frac{p}{q} \\right| > \\frac{c(\\alpha )}{q^n}$$ holds.\n\nMany mathematicians have worked at strengthening this theorem:\n\n-   Thue: If $\\alpha$ is an algebraic number of degree $n \\geq 3$, then\n    there is a constant $c_0 = c_0( \\alpha , \\epsilon ) > 0$ such that\n    for all rational numbers $p/q$, the inequality\n    $$\\left| \\alpha - \\frac{p}{q} \\right| > c_0 q^{-1- \\epsilon - n/2}$$\n    holds.\n\n-   Siegel: If $\\alpha$ is an algebraic number of degree $n \\geq 2$,\n    then there is a constant $c_1 = c_1( \\alpha , \\epsilon ) > 0$ such\n    that for all rational numbers $p/q$, the inequality\n    $$\\left| \\alpha - \\frac{p}{q} \\right| > c_1 q^{- \\lambda}, \\qquad \\lambda = {\\min}_{t=1,\\ldots ,n} \\left( \\frac{n}{t+1} + t \\right) + \\epsilon$$\n    holds.\n\n-   Dyson: If $\\alpha$ is an algebraic number of degree $n > 3$, then\n    there is a constant $c_2 = c_2( \\alpha , \\epsilon ) > 0$ such that\n    for all rational numbers $p/q$ with $q > c_2$, the inequality\n    $$\\left| \\alpha - \\frac{p}{q} \\right| > q^{- \\sqrt{2n}- \\epsilon }$$\n    holds.\n\n-   Roth: If $\\alpha$ is an irrational algebraic number and\n    $\\epsilon > 0$, then there is a constant\n    $c_3 = c_3( \\alpha , \\epsilon ) > 0$ such that for all rational\n    numbers $p/q$, the inequality\n    $$\\left| \\alpha - \\frac{p}{q} \\right| > c_3 q^{-2 - \\epsilon }$$\n    holds.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LiouvilleApproximationTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Liouville approximation theorem"
+  ]
+}

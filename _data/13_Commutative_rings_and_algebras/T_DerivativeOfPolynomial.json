@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be an arbitrary commutative ring. If\n$$f(X) \\,:=\\, \\sum_{i=1}^na_iX^i$$ is a polynomial in the ring $R[X]$,\none can form in a polynomial ring $R[X,\\,Y]$ the polynomial\n$$f(X\\!+\\!Y) \\,=\\, \\sum_{i=1}^na_i(X\\!+\\!Y)^i.$$ Expanding this by the\nof $Y$ yields uniquely the form $$\\begin{aligned}\nf(X\\!+\\!Y) \\,:=\\, f(X)+f_1(X)\\,Y+f_2(X,\\,Y)\\,Y^2,\\end{aligned}$$ where\n$f_1(X) \\in R[X]$ and $f_2(X,\\,Y) \\in R[X,\\,Y]$.\n\nWe define the polynomial $f_1(X)$ in (1) the [*derivative of the\npolynomial*]{} $f(X)$ and denote it by $f'(X)$ or\n$\\displaystyle\\frac{df}{dX}$.\\\nIt is apparent that this algebraic definition of derivative of\npolynomial is in harmony with the definition of of analysis when $R$ is\n$\\mathbb{R}$ or $\\mathbb{C}$; then we identify substitution homomorphism\nand polynomial function.\\\nIt is easily shown the linearity of the derivative of polynomial and the\nproduct rule $$(fg)' = f'g+g'f$$ with its generalisations. Especially:\n$$(X^n)' = nX^{n-1} \\quad\\mbox{for}\\;\\; n = 1,\\,2,\\,3,\\,\\ldots$$\\\n**Remark.** The polynomial ring $R[X]$ may be thought to be a subring of\n$R[[X]]$, the ring of formal power series in $X$. The $R[[X]]$ extend\nthe concept of derivative of polynomial and obey laws.\\\nIf we have a polynomial $f \\in R\\,[X_1,\\,X_2,\\,\\ldots,\\,X_m]$, we can\nanalogically define the [*partial derivatives*]{} of $f$, denoting them\nby $\\displaystyle\\frac{\\partial f}{\\partial X_i}$. Then, e.g. the \u201c\u201d\n$$X_1\\frac{\\partial f}{\\partial X_1}+X_2\\frac{\\partial f}{\\partial X_2}+\\ldots+X_m\\frac{\\partial f}{\\partial X_m}\n\\;=\\; nf$$ is true for a homogeneous polynomial $f$ of degree $n$.",
+  "language": "INFORMAL",
+  "phrase": "Derivative Of Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivativeOfPolynomial"
+    }
+  ],
+  "indexable": true
+}

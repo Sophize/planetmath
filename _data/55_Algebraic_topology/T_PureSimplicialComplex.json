@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A finite simplicial complex is *pure* if each facet has the same\ndimension.\n\nFor example, any polytope is pure, but the simplicial complex\n$$\\{\\emptyset, a, b, c, d, ab, ac, bc, cd, abc\\}$$ is not pure because\n$cd$ and $abc$ are facets with different dimensions.",
+  "language": "INFORMAL",
+  "phrase": "Pure Simplicial Complex",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PureSimplicialComplex"
+    }
+  ],
+  "indexable": true
+}

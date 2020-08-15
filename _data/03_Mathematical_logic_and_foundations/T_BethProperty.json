@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A logic is said to have the *Beth property* if whenever a predicate $R$\nis implicitly definable by $\\phi$ (i.e. if all models have at most one\nunique extension satisfying $\\phi$), then $R$ is explicitly definable\nrelative to $\\phi$ (i.e. there is a $\\psi$ not containing $R$,such that\n$\\phi \\models \\forall x_1, .., x_n (R(x_1,...,x_n) \\leftrightarrow \\psi(x_1,...,x_n))$).",
+  "language": "INFORMAL",
+  "phrase": "Beth Property",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BethProperty"
+    }
+  ],
+  "indexable": true
+}

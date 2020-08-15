@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathbb{F}_q$ be the finite field with $q$ elements, and consider\nthe special linear group $\\operatorname{SL}(n, \\mathbb{F}_q)$ over the\nfield $\\mathbb{F}_q$.\n\n1.  $\\operatorname{SL}(n, \\mathbb F_q)$ is finite. Furthermore,\n    $\\lvert \\operatorname{SL}(n, \\mathbb{F}_q) \\rvert = \\frac{1}{q-1}\\prod_{i=0}^{n-1}(q^n-q^i)$.\n\n2.  $\\operatorname{SL}(n, \\mathbb F_q)$ is a perfect group, meaning that\n    $[\\operatorname{SL}(n,\\mathbb{F}_q),\\operatorname{SL}(n,\\mathbb{F}_q)] = \\operatorname{SL}(n,\\mathbb{F}_q)$,\n    where $[,]$ is the commutator bracket with two exceptions:\n    $\\operatorname{SL}(2,\\mathbb{F}_2)$ and\n    $\\operatorname{SL}(2,\\mathbb{F}_3)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheoremsOfSpecialLinearGroupOverAFiniteField"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "theorems of special linear group over a finite field"
+  ]
+}

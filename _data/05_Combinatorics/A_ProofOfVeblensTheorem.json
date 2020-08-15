@@ -1,0 +1,17 @@
+{
+  "argumentText": "The proof is very easy by induction on the number of elements of the set\n$E$ of edges. If $E$ is empty, then all the vertices have degree zero,\nwhich is even. Suppose $E$ is nonempty. If the graph contains no cycle,\nthen some vertex has degree $1$, which is odd. Finally, if the graph\ndoes contain a cycle $C$, then every vertex has the same degree mod $2$\nwith respect to $E-C$, as it has with respect to $E$, and we can\nconclude by induction.",
+  "conclusion": "#P_VeblensTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfVeblensTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Veblen's theorem"
+  ]
+}

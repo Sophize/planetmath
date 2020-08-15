@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\alpha$ be a real number. The sequence $(1+\\frac{\\alpha}{n})^n$ is\nmonotone increasing for all $n>\n|\\alpha|$.\n\nLet $n>|\\alpha|$. We want to prove the following inequality:\n$$\\left(1+\\frac{\\alpha}{n}\\right)^n \\leq\n\\left(1+\\frac{\\alpha}{n+1}\\right)^{n+1}$$ Since both sides are positive,\nthis follows by taking the $(n+1)$-th root and using the\narithmetic-geometric-harmonic means inequality:\n$$\\sqrt[n+1]{\\left(1+\\frac{\\alpha}{n}\\right)^n} =\n\\underbrace{\\sqrt[n+1]{1\\cdot \\left(1+\\frac{\\alpha}{n}\\right)\n\\cdots \\left(1+\\frac{\\alpha}{n}\\right)} }_{\\textrm{$n+1$ elements}\n} \\leq \\frac{1+n\\left(1+\\frac{\\alpha}{n}\\right)}{n+1} =\n1+\\frac{\\alpha}{n+1}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/1fracalphannIsMonotoneForLargeN"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$(1+\\frac{\\alpha}{n})^n$ is monotone for large $n$"
+  ]
+}

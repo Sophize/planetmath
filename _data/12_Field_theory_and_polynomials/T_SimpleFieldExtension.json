@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K(\\alpha)$ be obtained from the field $K$ via the of the element\n$\\alpha$, which is called the *primitive element* of the field extension\n$K(\\alpha)/K$. We shall settle the of the field $K(\\alpha)$.\n\nWe consider the substitution homomorphism\n$\\varphi: K[X] \\rightarrow K[\\alpha]$, where\n$$\\sum a_{\\nu}X^\\nu \\mapsto \\sum a_{\\nu}\\alpha^\\nu.$$ According to the\nring homomorphism theorem, the image ring $K[\\alpha]$ is isomorphic with\nthe residue class ring $K[X]/\\frak{p}$, where $\\frak{p}$ is the ideal of\npolynomials having $\\alpha$ as their zero. Because $K[\\alpha]$ is, as\nsubring of the field $K(\\alpha)$, an integral domain, then also\n$K[X]/\\frak{p}$ has no zero divisors, and hence $\\frak{p}$ is a prime\nideal. It must be principal, for $K[X]$ is a principal ideal ring.\n\nThere are two possibilities:\n\n1.  $\\frak{p} = (p(X))$, where $p(X)$ is an irreducible polynomial with\n    $p(\\alpha) = 0$. Because every non-zero prime ideal of $K[X]$ is\n    maximal, the isomorphic image $K[X]/(p(X))$ of $K[\\alpha]$ is a\n    field, and it must give the of $K(\\alpha) = K[\\alpha]$. We say that\n    $\\alpha$ is [*algebraic with respect to*]{} $K$ (or [*over*]{} $K$).\n    In this case, we have a finite field extension $K(\\alpha)/K$.\n\n2.  $\\frak{p} = (0)$. This means that the homomorphism $\\varphi$ is an\n    isomorphism between $K[X]$ and $K[\\alpha]$, i.e. all expressions\n    $\\sum a_{\\nu}\\alpha^\\nu$ behave as the polynomials\n    $\\sum a_{\\nu}X^\\nu$. Now, $K[\\alpha]$ is no field because $K[X]$ is\n    not such, but the isomorphy of the rings implies the isomorphy of\n    the corresponding fields of fractions. Thus the simple extension\n    field $K(\\alpha)$ is isomorphic with the field $K(X)$ of rational\n    functions in one indeterminate $X$. We say that $\\alpha$ is [ *with\n    respect to*]{} $K$ (or [*over*]{} $K$). This time we have a simple\n    infinite field extension $K(\\alpha)/K$.",
+  "language": "INFORMAL",
+  "phrase": "Simple Field Extension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimpleFieldExtension"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K$ be a number field and let $C/K$ be a non-singular curve defined\nover $K$ and genus $g$. When the genus is $0$, the curve is isomorphic\nto $\\mathbb{P}^1$ (over an algebraic closure $\\overline{K}$) and\ntherefore $C(K)$ is either empty or equal to $\\mathbb{P}^1(K)$ (in\nparticular $C(K)$ is infinite). If the genus of $C$ is $1$ and $C(K)$\ncontains at least one point over $K$ then $C/K$ is an elliptic curve and\nthe Mordell-Weil theorem shows that $C(K)$ is a finitely generated\nabelian group (in particular, $C(K)$ may be finite or infinite).\nHowever, if $g\\geq 2$, Mordell conjectured in $1922$ that $C(K)$ cannot\nbe infinite. This was first proven by Faltings in $1983$.\n\nLet $K$ be a number field and let $C/K$ be a non-singular curve defined\nover $K$ of genus $g\\geq 2$. Then $C(K)$ is finite.\n\nThe reader may also be interested in Siegel\u2019s theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FaltingsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Faltings' theorem",
+    "Mordell's conjecture"
+  ]
+}

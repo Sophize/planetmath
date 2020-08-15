@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be an invertible matrix, and $A^{-1}$ its inverse, whose columns\nare $A^{-1}_1,\\cdots,A^{-1}_n$. Then, by definition of matrix inverse,\n$AA^{-1}=I_n$. But this implies\n$AA^{-1}_1 = e_1,\\ldots,AA^{-1}_n = e_n$, with $e_1,\\cdots,e_n$ being\nthe first,$\\ldots$,$n$-th column of $I_n$ respectively.\n\n$A$ being non singular (or invertible), for all $k \\leq n$,\n$AA^{-1}_k = e_k$ has a solution for $A^{-1}_k$, which can be found by\nGaussian elimination of $[A \\mid e_k]$.\n\nThe only part that changes between the augmented matrices constructed is\nthe last column, and these last columns, once the Gaussian elimination\nhas been performed, correspond to the columns of $A^{-1}$. Because of\nthis, the steps we need to take for the Gaussian elimination are the\nsame for each augmented matrix.\n\nTherefore, we can solve the matrix equation by performing Gaussian\nelimination on $[A \\mid e_1 \\cdots e_n]$, or $[A \\mid I_n]$.",
+  "language": "INFORMAL",
+  "phrase": "Proof Of Matrix Inverse Calculation By Gaussian Elimination",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfMatrixInverseCalculationByGaussianElimination"
+    }
+  ],
+  "indexable": true
+}

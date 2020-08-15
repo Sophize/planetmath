@@ -1,0 +1,17 @@
+{
+  "argumentText": "Since this paradox depends crucially on the axiom of choice, we will\nplace the application of this controversial axiom at the head of the\nproof rather than bury it deep within the bowels of the argument.\n\nOne can define an equivalence relation $\\sim$ on $\\mathbb{R}$ by the\ncondition that $x \\sim y$ if and only if $x - y$ is rational. By the\nArchimedean property of the real line, for every $x \\in \\mathbb{R}$\nthere will exist a number $y \\in [0,1)$ such that $y \\sim x$. Therefore,\nby the axiom of choice, there will exist a choice function\n$f \\colon \\mathbb{R} \\to [0,1)$ such that $f(x) = f(y)$ if and only if\n$x \\sim y$.\n\nWe shall use our choice function $f$ to exhibit a bijection between\n$[0,1)$ and $[0,2)$. Let $w$ be the \u201cwrap-around function\u201d which is\ndefined as $w(x) = x$ when $x \\ge 0$ and $w(x) = x + 2$ when $x <\n0$. Define $g \\colon [0,1) \\to \\mathbb{R}$ by $$g(x) = w(2x - f(x))$$\nFrom the definition, it is clear that, since $x \\sim f(x)$ and $w(x)\n\\sim x$, $g(x) \\sim x$. Also, it is easy to see that $g$ maps $[0,1)$\ninto $[0,2)$. If $f(x) \\le 2x$, then $g(x) = 2x - f(x) \\le\n2x < 2$. On the other hand, if $f(x) > 2x$, then $g(x) = 2x + 2 -\nf(x)$. Since $2x - f(x)$ is strictly negative, $g(x) < 2$. Since\n$f(x) < 1$, $g(x) > 0$.\n\nNext, we will show that $g$ is injective. Suppose that $g(x) =\ng(y)$ and $x < y$. By what we already observed, $x \\sim y$, so $y -\nx$ is a non-negative rational number and $f(x) = f(y)$. There are 3\npossible cases: 1) $f(x) \\le 2x \\le 2y$ In this case, $g(x) = g(y)$\nimplies that $2x - f(x) = 2y - f(x)$, which would imply that $x =\ny$. 2) $2x < f(x) < 2y$ In this case, $g(x) = g(y)$ implies $2 + 2x\n- f(x) = 2y - f(x)$ which, in turn, implies that $y = x + 1$, which is\nimpossible if both $x$ and $y$ belong to $[0,1)$. 3) $2x < 2y <\nf(x)$ In this case, $g(x) = g(y)$ implies that $2x + 2 - f(x) = 2y +\n2 - f(x)$, which would imply that $x = y$. The only remaining\npossibility is that $x=y$, so $g(x) = g(y)$ implies that $x = y$.\n\nNext, we show that $g$ is surjective. Pick a number $y$ in $[0,2)$. We\nneed to find a number $x \\in [0,1)$ such that $w(2x - f(y)) = y$. If\n$f(y) + y < 2$, we can choose $x = (f(y) + y)/2$. If $2 \\le f(y)\n+ y$, we can choose $x = (f(y) + y)/2 - 1$.\n\nHaving shown that $g$ is a bijection between $[0,1)$ and $[0,2)$, we\nshall now complete the proof by examining the action of $g$. As we\nalready noted, $g(x) - x$ is a rational number. Since the rational\nnumbers are countable, we can arrange them in a series $r_0, r_1,\nr_2 \\ldots$ such that no number is counted twice. Define $A_i\n\\subset C_1$ as $$A_i = \\{ x \\in [0,1) \\mid g(x) = r_i \\}$$ It is\nobvious from this definition that the $A_i$ are mutually disjoint.\nFurthermore, $\\bigcup_{i=1}^\\infty A_i = [0,1)$ and\n$\\bigcup_{i=1}^\\infty B_i = [0,2)$ where $B_i$ is the translate of $A_i$\nby $r_i$.",
+  "conclusion": "#P_PseudoparadoxInMeasureTheory",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPseudoparadoxInMeasureTheory"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of pseudoparadox in measure theory"
+  ]
+}

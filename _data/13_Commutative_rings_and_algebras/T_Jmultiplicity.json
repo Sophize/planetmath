@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(R,\\frakm)$ be a Noetherian local ring with proper ideal $I$.\nDefine\n$$j(I)=\\lim_{n\\to \\infty} \\frac{(d-1)!}{n^{d-1}} \\length_R(H_\\frakm^0(I^n/I^{n+1}))$$\nand call it the j-multiplicity of $I$. Here $H_\\frakm^0(\\bullet)$ is the\n0-th local cohomology functor. When $I$ is $\\frakm$-primary, it is same\nas the Hilbert-Samuel multiplicity $e_I(R)$.",
+  "language": "INFORMAL",
+  "phrase": "J-Multiplicity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Jmultiplicity"
+    }
+  ],
+  "indexable": true
+}

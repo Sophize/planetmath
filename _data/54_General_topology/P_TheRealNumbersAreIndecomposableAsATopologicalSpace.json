@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathbb{R}$ be the set of real numbers with standard topology. We\nwish to show that if $\\mathbb{R}$ is homeomorphic to $X\\times Y$ for\nsome topological spaces $X$ and $Y$, then either $X$ is one point space\nor $Y$ is one point space. First let us prove a lemma:\n\n**Lemma**. Let $X$ and $Y$ be path connected topological spaces such\nthat cardinality of both $X$ and $Y$ is at least $2$. Then for any point\n$(x_0,y_0)\\in X\\times Y$ the space $X\\times Y \\setminus \\{(x_0,y_0)\\}$\nwith subspace topology is path connected.\n\n*Proof*. Let $x'\\in X$ and $y'\\in Y$ such that $x'\\neq x_0$ and\n$y'\\neq y_0$ (we assumed that such points exist). It is sufficient to\nshow that for any point $(x_1,y_1)$ from\n$X\\times Y \\setminus \\{(x_0,y_0)\\}$ there exists a continous map\n$\\sigma:\\mathrm{I}\\to X\\times Y$ such that $\\sigma(0)=(x_1,y_1)$,\n$\\sigma(1)=(x',y')$ and $(x_0,y_0)\\not\\in\\sigma(\\mathrm{I})$.\n\nLet $(x_1,y_1)\\in X\\times Y \\setminus \\{(x_0,y_0)\\}$. Therefore either\n$x_1\\neq x_0$ or $y_1\\neq y_0$. Assume that $y_1\\neq y_0$ (the other\ncase is analogous). Choose paths $\\sigma:\\mathrm{I}\\to X$ from $x_1$ to\n$x'$ and $\\tau:\\mathrm{I}\\to Y$ from $y_1$ to $y'$. Then we have induced\npaths:\n$$\\sigma':\\mathrm{I}\\to X\\times Y\\ \\ \\mathrm{such}\\ \\mathrm{that}\\ \\sigma'(t)=(\\sigma(t),y_1);$$\n$$\\tau':\\mathrm{I}\\to X\\times Y\\ \\ \\mathrm{such}\\ \\mathrm{that}\\ \\tau'(t)=(x',\\tau(t)).$$\nThen the path $\\sigma' * \\tau':\\mathrm{I}\\to X\\times Y$ defined by the\nformula\n$$(\\sigma' * \\tau')(t) = \\begin{cases} \\sigma'(2t)  &\\mathrm{when}\\ \\ 0\\leq t\\leq\\frac{1}{2}\\\\\n\\tau'(2t-1) &\\mathrm{when}\\ \\ \\frac{1}{2}\\leq t\\leq 1\n\\end{cases}$$ is a desired path. $\\square$\n\n**Proposition**. If there exist topological spaces $X$ and $Y$ such that\n$\\mathbb{R}$ is homeomorphic to $X\\times Y$, then either $X$ has exactly\none point or $Y$ has exactly one point.\n\n*Proof*. Assume that neither $X$ nor $Y$ has exactly one point. Now\n$X\\times Y$ is path connected since it is homeomorphic to $\\mathbb{R}$,\nso it is well known that both $X$ and $Y$ have to be path connected\n(please see for more details). Therefore for any point\n$(x,y)\\in X\\times Y$ the space $X\\times Y\\setminus \\{(x,y)\\}$ is also\npath connected (due to lemma), but there exists a real number\n$r\\in\\mathbb{R}$ such that $X\\times Y\\setminus \\{(x,y)\\}$ is\nhomeomorphic to $\\mathbb{R}\\setminus\\{r\\}$. Contradiction, since\n$\\mathbb{R}\\setminus\\{r\\}$ is not path connected. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheRealNumbersAreIndecomposableAsATopologicalSpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the real numbers are indecomposable as a topological space"
+  ]
+}

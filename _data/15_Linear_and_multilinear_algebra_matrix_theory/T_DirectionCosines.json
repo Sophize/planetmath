@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If the non-zero vector $\\vec{r} = x\\vec{i}+y\\vec{j}+z\\vec{k}$ of\n$\\mathbb{R}^3$ forms the angles $\\alpha$, $\\beta$ and $\\gamma$ with the\npositive directions of $x$-axis, $y$-axis and $z$-axis, respectively,\nthen the numbers $$\\cos{\\alpha},\\; \\cos{\\beta},\\; \\cos{\\gamma}$$ are the\n[*direction cosines*]{} of the vector. Any triple $l,\\,m,\\,n$ of\nnumbers, which are to the direction cosines, are [*direction numbers*]{}\nof the vector.\n\nIf $r = \\sqrt{x^2+y^2+z^2}$ is the of $\\vec{r}$, we see easily that\n$$\\cos{\\alpha} = \\frac{x}{r},\\;\\; \\cos{\\beta} = \\frac{y}{r},\\;\\; \\cos{\\gamma} = \\frac{z}{r}.$$\n\nConversely, the components of the vector on the coordinate axes may be\nobtained from\n$$x = r\\cos{\\alpha},\\;\\; y = r\\cos{\\beta},\\;\\; z = r\\cos{\\gamma}.$$\n\nWe also see that the direction cosines satisfy\n$$\\cos^2\\alpha+\\cos^2\\beta+\\cos^2\\gamma = 1.$$",
+  "language": "INFORMAL",
+  "phrase": "Direction Cosines",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirectionCosines"
+    }
+  ],
+  "indexable": true
+}

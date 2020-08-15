@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "lexicographic enumeration"
+  ],
+  "definition": "The *standard enumeration* of $\\lbrace 0,1\\rbrace ^{*}$ is the sequence\nof strings $s_0 =\\lambda$, $s_1 = 0$, $s_2 = 1$, $s_3 = 00$, $s_4 = 01$,\n$\\cdots$ in lexicographic order.\n\nThe *characteristic function* of a language $A$ is\n$\\chi_{A}:\\mathbb{N}\\rightarrow \\lbrace 0, 1\\rbrace$ such that\n$$\\chi_{A}(n)=\\begin{cases}\n1,\\text{ if }s_n \\in A\\\\\n0,\\text{ if }s_n \\notin A.\n\\end{cases}$$ The *characteristic sequence* of a language $A$ (also\ndenoted as $\\chi_A$) is the concatenation of the values of the\ncharacteristic function in the natural order.",
+  "language": "INFORMAL",
+  "phrase": "Standard Enumeration",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StandardEnumeration"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "#### Definition\n\nAn *(orthonormal dyadic) wavelet set* on ${\\mathbb R}$ is a subset\n$E \\subset {\\mathbb R}$ such that\n\n1.  $\\chi_E \\in L^2({\\mathbb R})$ (since $\\|\\chi_E\\| = \\sqrt{m(E)}$,\n    this implies $m(E) < \\infty$).\n\n2.  $\\frac{\\chi_E}{\\sqrt{m(E)}}$ is the Fourier transform of an\n    orthonormal dyadic wavelet,\n\nwhere $\\chi_E$ is the characteristic function of $E$, and $m(E)$ is the\nLebesgue measure of $E$.\n\n#### Characterization\n\n$E \\subset {\\mathbb R}$ is a wavelet set iff\n\n1.  $\\{E + 2\\pi n\\}_{n\\in {\\mathbb Z}}$ is a measurable partition of\n    $\\mathbb R$; i.e.\n    ${\\mathbb R}\\backslash \\bigcup_{n\\in \\mathbb Z} \\{ E + 2\\pi n\\}$ has\n    measure zero, and $\\bigcap_{n=i,j} \\{E+2\\pi n\\}$ has measure zero if\n    $i\\neq j$. In short, $E$ is a $2\\pi$-translation \u201ctiler\u201d of\n    $\\mathbb R$\n\n2.  $\\{2^n E\\}_{n\\in \\mathbb Z}$ is a $2$-dilation \u201ctiler\u201d of\n    $\\mathbb R$ (once again modulo sets of measure zero).\n\n#### Notes\n\nThere are higher dimensional analogues to wavelet sets in $\\mathbb R$,\ncorresponding to wavelets in higher dimensions. Wavelet sets can be used\nto derive wavelets\u2014 by creating a set $E$ satisfying the conditions\ngiven above, and using the inverse Fourier transform on $\\chi_E$, you\nare guaranteed to recover a wavelet. A particularly interesting open\nquestion is: do all wavelets contain wavelet sets in their frequency\nsupport?",
+  "language": "INFORMAL",
+  "phrase": "Wavelet Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WaveletSet"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f: \\mathbb{R}^n \\to \\mathbb{R}$ be smooth. Further suppose that the\ngradient of $f$ differs from zero at every point of a level set. Then it\nfollows from the implicit function theorem that that level set is a\nsmooth hypersurface. Furthermore, at any point of the level set, the\ngradient of the function at that point is orthogonal to the level set.\n\nOne can generalize this observation to manifolds. Suppose that $M$ is a\nsmooth manifold and that $f: M \\to \\mathbb{R}$ is smooth. Further\nsuppose that the gradient of $f$ differs from zero at every point of a\nlevel set. Then it follows from the implicit function theorem that that\nlevel set is a smooth hypersurface. If one chooses a Riemannian metric\non the manifold, the gradient of the function at that point will be\northogonal to the level set.",
+  "language": "INFORMAL",
+  "phrase": "Level Sets Of Smooth Functions On Manifolds",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LevelSetsOfSmoothFunctionsOnManifolds"
+    }
+  ],
+  "indexable": true
+}

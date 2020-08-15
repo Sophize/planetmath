@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $\\mathbf{u}\\in\\mathbb{R}^{2}$, $\\mathbf{v}\\in\\mathbb{R}^{2}$ and\n$\\mathbf{0}\\in\\mathbb{R}^{2}$. Let\u2019s consider the convex hull of the set\n$T=\\left\\{ \\mathbf{u},\\mathbf{v},\\mathbf{0}\\right\\} $. By definition,\nthe convex hull of $T$, noted $coT$, is the smallest convex set that\ncontains $T$. Now, the triangle $\\Delta_{T}$ spanned by $T$ is convex\nand contains $T$. Then $coT\\subseteq\\Delta_{T}$. Now, every convex $C$\nset containing $T$ must satisfy that\n$t\\mathbf{u}+\\left(1-t\\right)\\mathbf{v}\\in C$, $t\\mathbf{u}\\in C$ and\n$t\\mathbf{v}\\in C$ for $0\\leq t\\leq1$ (at least the convex combination\nof the points of $T$ are contained in $C$). This means that the boundary\nof $\\Delta_{T}$ is contained in $C$. But then every convex combination\nof points of $\\partial\\Delta_{T}$ must also be contained in $C$, meaning\nthat $\\Delta_{T}\\subseteq C$ for every convex set containing $T$. In\nparticular, $\\Delta_{T}\\subseteq coT$.\n\nSince the convex hull is exactly the set containing all convex\ncombinations of points of\n$T$,$$\\Delta_{T}=coT=\\left\\{ \\mathbf{x}\\in\\mathbb{R}^{2}:\\mathbf{x}=\\lambda\\mathbf{u}+\\mu\\mathbf{v}+\\left(1-\\lambda-\\mu\\right)\\mathbf{0},0\\leq\\lambda,\\mu,\\leq1,0\\leq1-\\lambda-\\mu\\leq1\\right\\}$$\nwe conclude that $\\mathbf{x}\\in\\mathbb{R}^{2}$ is in the triangle\nspanned by $T$ if and only if\n$\\mathbf{x}=\\lambda\\mathbf{u}+\\mu\\mathbf{v}$ with\n$0\\leq\\lambda,\\mu,\\leq1$ and $0\\leq\\lambda+\\mu\\leq1$.",
+  "conclusion": "#P_WhenIsAPointInsideATriangle",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfWhenIsAPointInsideATriangle"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of when is a point inside a triangle"
+  ]
+}

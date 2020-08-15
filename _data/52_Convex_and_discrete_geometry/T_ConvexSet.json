@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "convex"
+  ],
+  "definition": "Let $S$ a subset of ${\\mathbbmss{R}}^n$. We say that $S$ is *convex*\nwhen, for any pair of points $A,B$ in $S$, the segment $\\overline{AB}$\nlies entirely inside $S$.\n\nThe former statement is equivalent to saying that for any pair of\nvectors $u,v$ in $S$, the vector $(1-t)u+tv$ is in $S$ for all\n$t\\in[0,1]$.\n\nIf $S$ is a convex set, for any $u_1,u_2,\\ldots,u_r$ in $S$, and any\npositive numbers $\\lambda_1,\\lambda_2,\\ldots,\\lambda_r$ such that\n$\\lambda_1+\\lambda_2+\\cdots+\\lambda_r=1$ the vector\n$$\\sum_{k=1}^r\\lambda_k u_k$$ is in $S$.\n\nExamples of convex sets in the plane are circles, triangles, and\nellipses. The definition given above can be generalized to any real\nvector space:\n\nLet $V$ be a vector space (over ${\\mathbbmss{R}}$ or ${\\mathbbmss{C}}$).\nA subset $S$ of $V$ is *convex* if for all points $x,y$ in $S$, the line\nsegment $\\{\\alpha x + (1-\\alpha) y \\mid  \\alpha\\in(0,1)\\} $ is also in\n$S$.\n\nMore generally, the same definition works for any vector space over an\nordered field.\n\nA *polyconvex set* is a finite union of compact, convex sets.\n\n**Remark**. The notion of convexity can be generalized to an arbitrary\npartially ordered set: given a poset $P$ (with partial ordering $\\le$),\na subset $C$ of $P$ is said to be *convex* if for any $a,b\\in C$, if\n$c\\in P$ is between $a$ and $b$, that is, $a\\le c \\le b$, then $c\\in C$.",
+  "language": "INFORMAL",
+  "phrase": "Convex Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvexSet"
+    }
+  ],
+  "indexable": true
+}

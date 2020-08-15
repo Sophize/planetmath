@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *$\\sigma$-ring of sets* is a nonempty collection $\\mathcal{S}$ of sets\nsuch that\n\n-   if $A \\in \\mathcal{S}$ and $B \\in \\mathcal{S}$ then\n    $A-B \\in \\mathcal{S}$ and\n\n-   if $A_i \\in \\mathcal{S}$ for $i=1,2 \\ldots,$ then\n    $\\cup_{i=1}^{\\infty} A_i \\in \\mathcal{S}$\n\nA $\\sigma$-ring is also closed under countable intersections since\n$$\\cap_{i=1}^{\\infty} A_i = A - \\cup_{i=1}^{\\infty}(A-A_i)$$ where\n$A = \\cup_{i=1}^{\\infty} A_i$.\n\n$\\sigma$-rings are used in measure theory.",
+  "language": "INFORMAL",
+  "phrase": "Sigma--Ring Of Sets",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SigmaringOfSets"
+    }
+  ],
+  "indexable": true
+}

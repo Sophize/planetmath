@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "(**Chinese Remainder Theorem**) Let $R$ be a ring and\n$I_1,I_2, ..., I_n$ ideals such that $R =I_j +R^2 $ for all $j$. The\nhomomorphism:$$\\begin{aligned}\nf: R \\rightarrow R/I_1 \\times R/I_2 \\times ... \\times R/I_n \\\\\nf(a) = (a+I_1, a+I_2, ...,a+I_n)\\end{aligned}$$ is surjective and\n$ker f = I_1 \\cap I_2\\cap \\cdots \\cap I_n$.\n\nClearly $f$ is a homomorphism with kernel\n$I_1\\cap I_2\\cap \\cdots \\cap I_n$. It remains to show the surjectivity.\nWe have: $$\\begin{aligned}\nR = I_1 + R^2 = I_1 + (I_1 + I_2)(I_1 + I_3) \\\\\n\\subseteq I_1 + I_1^2 + I_1I_3 + I_2I_1 + I_2I_3  \\\\ \\subseteq I_1+(I_2\\cap I_3).\\end{aligned}$$\nMoreover,$$\\begin{aligned}\n R = I_1 + R^2 = I_1 + (I_1 + I_2\\cap I_3)(I_1+I_4)\n \\\\ = I_1 + I_1I_4 + (I_2\\cap I_3)I_1 + (I_2\\cap I_3)I_4  \\\\ \\subseteq I_1 + (I_2\\cap I_3\\cap I_4).\\end{aligned}$$\nContinuing, we obtain that $R = I_1 + \\bigcap_{j\\ne 1}I_j$. We show\nsimilarly\nthat:$$R = I_2 + \\bigcap_{j\\ne 2}I_j = I_3 +\\bigcap_{j\\ne 3}I_j = \\cdots = I_n + \\bigcap_{j\\ne n} I_j.$$\nGiven elements $a_1, a_2, ..., a_n$, we can find $x_j\\in I_j$ and\n$y_j\\in \\bigcap_{j\\ne k} I_k$ such that $a_j = x_j + y_j$.Take\n$a:=\\sum_{i=1}^n x_i = a_j\\pmod{I_j}$.\nHence$$f(a) = (a_1 +I_1, a_2+I_2, ..., a_n+I_n),$$ and we conclude that\n$f$ is surjective as required.\n\n**Notes** 1.The relation $R = I_j +R^2$ is satisfied when $R$ is ring\nwith unity. In that case $R^2 = R$.2. The case for integers is obtained\nfrom the above result. For this, take $R = \\mathbb{Z}$ and\n$I_j = (p_j) = p_j\\mathbb{Z}$. The fact that two solutions of the set of\ncongruences must $x = x_0 \\pmod{p_1 ... p_n}$ is a consequence\nof:$$I_1\\cap I_2 \\cap \\cdots \\cap I_n = (p_1)\\cap (p_2)\\cap \\cdots \\cap (p_n) =(p_1p_2 ... p_n)\\mathbb{Z}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChineseRemainderTheoremForRingsNoncommutativeCase"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Chinese remainder theorem for rings, noncommutative case",
+    "chinese remainder theorem"
+  ]
+}

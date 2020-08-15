@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Mimicking the Lusternik-Schnirelmann category invariant for a smooth\nmanifold $M$ we can ask about the minimal number of critical loops of\nsmooth scalar maps $M\\to\\mathbb{R}$ which are round functions, that is\nfunctions whose critical points are aligned in a disjoint union of\nclosed curves (a link).\n\nThis number is called the [**round complexity**]{} of $M$ and it is\nsymbolized as ${\\rm roc}(M)$\n\nThen\n$${\\rm roc}(M)=\\min\\#\\{\\mbox{critical loops of\\quad}f\\quad|\\quad f\\colon M \\to\\mathbb{R}\\quad \\mbox{is round function}\\}$$\n\nThis concept is related to the invariant called t-cat.\n\nTheorem 1: [*The round complexity for the 2-torus and the Klein bottle\nis two; all the other closed surfaces have a round complexity of\nthree.*]{}\n\nTheorem 2: [*For each closed manifold, $t-cat\\le roc$*]{}\n\n[**Bibliography**]{}\n\nD. Siersma, G. Khimshiasvili, On minimal round functions, Preprint 1118,\nDepartment of Mathematics, Utrecht University, 1999, pp. 18.",
+  "language": "INFORMAL",
+  "phrase": "Round Complexity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RoundComplexity"
+    }
+  ],
+  "indexable": true
+}

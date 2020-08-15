@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The derivative of a real function, which has on a whole interval a value\n$c$, vanishes in every point of this interval:\n$$\\frac{d}{dx}c \\;=\\; 0$$\\\nThe converse theorem of this is also true. Ernst Lindel\u00f6f calls it the\n*fundamental theorem of integral calculus* (in Finnish *integraalilaskun\nperuslause*). It can be formulated as\n\n**Theorem.** If a real function in continuous and its derivative\nvanishes in all points of an interval, the value of this function does\nnot change on this interval.\n\n*Proof.* We make the antithesis that there were on the interval two\ndistinct points $x_1$ and $x_2$ with $f(x_1) \\neq f(x_2)$. Then the\nmean-value theorem guarantees a point $\\xi$ between $x_1$ and $x_2$ such\nthat $$f'(\\xi) \\;=\\; \\frac{f(x_1)\\!-\\!f(x_2)}{x_1\\!-\\!x_2},$$ which\nvalue is distinct from zero. This is, however, impossible by the\nassumption of the theorem. So the antithesis is wrong and the theorem .\\\nThe contents of the theorem may be expressed also such that if two\nfunctions have the same derivative on a whole interval, then the\ndifference of the functions is constant on this interval. Accordingly,\nif $F$ is an antiderivative of a function $f$, then any other\nantiderivative of $f$ has the form $x \\mapsto F(x)\\!+\\!C$, where $C$ is\na constant.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalTheoremOfIntegralCalculus"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fundamental theorem of integral calculus"
+  ]
+}

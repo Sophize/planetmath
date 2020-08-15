@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a set. A *cycle* is a permutation (bijective function of a\nset onto itself) such that there exist distinct elements\n$a_1, a_2,\\ldots,a_k$ of $S$ such that\n$$f(a_i) = a_{i+1}\\qquad \\mbox{and}\\qquad f(a_k)=a_1$$ that is\n$$\\begin{aligned}\nf(a_1)&=&a_{2}\\\\\nf(a_{2})&=&a_{3}\\\\\n&\\vdots&\\\\\nf(a_{k})&=&a_{1}\\\\\\end{aligned}$$ and $f(x)=x$ for any other element of\n$S$.\n\nThis can also be pictured as\n$$a_1\\mapsto a_{2}\\mapsto a_{3}\\mapsto\\cdots\\mapsto a_{k}\\mapsto a_{1}$$\nand $$x\\mapsto x$$ for any other element $x\\in S$, where $\\mapsto$\nrepresents the action of $f$.\n\nOne of the basic results on symmetric groups says that any finite\npermutation can be expressed as product of disjoint cycles.",
+  "language": "INFORMAL",
+  "phrase": "Cycle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Cycle1"
+    }
+  ],
+  "indexable": true
+}

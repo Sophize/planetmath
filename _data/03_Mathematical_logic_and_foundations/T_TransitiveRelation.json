@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A relation $\\mathcal{R}$ on a set $A$ is *transitive* if and only if\n$\\forall x,y,z \\in A$,\n$(x\\mathcal{R}y \\land y\\mathcal{R}z) \\rightarrow (x\\mathcal{R}z)$.\n\nFor example, the \u201cis a subset of\u201d relation $\\subseteq$ on any set of\nsets is transitive. The \u201cless than\u201d relation $<$ on the set of real\nnumbers is also transitive.\n\nThe \u201cis not equal to\u201d relation $\\neq$ on the set of integers is not\ntransitive, because $1\\neq 2$ and $2\\neq 1$ does not imply $1\\neq 1$.",
+  "language": "INFORMAL",
+  "phrase": "Transitive Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TransitiveRelation"
+    }
+  ],
+  "indexable": true
+}

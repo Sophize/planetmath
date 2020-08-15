@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A hypertext is a kind of database system which allows creative linking\nof objects. It is essentially made by structural hyperlinks that follow\nthe structural metadata and external referential links. Hypertext system\nis essentially used to better organize large information sources so that\nbrowsing through them is easier. An example of hypertext is the World\nWide Web.\n\nIf H be a structure and C be a collection then hypertext HT = (H,\nContents, P) is a triple such that:\n\n\\(1) Contents $\\subseteq$ C $\\cup$ AllSubStreams $\\cup$\nAllSubStructuredStreams\n\n\\(2) P is a function which associates a node of the hypertext with the\nnode content.",
+  "language": "INFORMAL",
+  "phrase": "Hypertext",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Hypertext"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A group is said to be *Hopfian* if it is not isomorphic to any of its\nproper . A group $G$ is Hopfian if and only if every surjective\nendomorphism $G\\to G$ is an automorphism.\n\nA group is said to be *co-Hopfian* if it is not isomorphic to any of its\nproper subgroups. A group $G$ is co-Hopfian if and only if every\ninjective endomorphism $G\\to G$ is an automorphism.\n\nExamples {#examples .unnumbered}\n========\n\nEvery finite group is obviously Hopfian and co-Hopfian.\n\nThe group of rationals is an example of an infinite group that is both\nHopfian and co-Hopfian.\n\nThe group of integers is Hopfian, but not co-Hopfian. More generally,\nevery finitely generated abelian group is Hopfian, but is not co-Hopfian\nunless it is finite.\n\nQuasicyclic groups are co-Hopfian, but not Hopfian.\n\nFree groups of infinite rank are neither Hopfian nor co-Hopfian. By\ncontrast, free groups of finite rank are Hopfian (though not co-Hopfian\nunless of rank zero).\n\nBy a theorem of Mal\u2019cev, every finitely generated residually finite\ngroup is Hopfian.\n\nThe Baumslag-Solitar group with presentation\n$\\langle b,t\\mid t^{-1}b^2t=b^3\\rangle$ is an example of a finitely\ngenerated group that is not Hopfian.",
+  "language": "INFORMAL",
+  "phrase": "Hopfian Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HopfianGroup"
+    }
+  ],
+  "indexable": true
+}

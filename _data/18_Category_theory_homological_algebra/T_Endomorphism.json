@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Endomorphism* is such morphism (morphism is another for homomorphism)\nwhose source and destination are the same object.\n\nThat is a morphism $f$ is *endomorphism*, when\n$\\mathrm{Src}f=\\mathrm{Dst}f=A$ where $A$ is some object (e.g. $A$ may\nbe an abstract algebra). Then one can say, the object of endomorphism\n$f$ is $A$.\n\nIn the most general case endomorphisms are encountered in category\ntheory. As a special case of this endomorphisms are also encountered in\nabstract algebra.\n\nA morphism which is both an endomorphism and an isomorphism is called\n*automorphism*.\n\nThe sets of endomorphisms and automorphisms for an object $A$ of a\ncategory are often denoted correspondingly as $\\mathrm{End}(A)$ and\n$\\mathrm{Aut}(A)$ or sometimes as $\\mathrm{end}(A)$ and\n$\\mathrm{aut}(A)$.\n\n*Endomorphisms* also can be considered as objects of and (if the set of\nmorphisms of our category is preordered) also of .",
+  "language": "INFORMAL",
+  "phrase": "Endomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Endomorphism"
+    }
+  ],
+  "indexable": true
+}

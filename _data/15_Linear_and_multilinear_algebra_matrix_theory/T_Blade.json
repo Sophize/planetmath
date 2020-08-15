@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A blade is a term often used to describe a basis entity in the space\ndefined by a geometric algebra. Since a geometric algebra is a\nmulti-graded space, the basis entities also have multiple grades. To\ndistinguish the various graded entities, the blades are often prefixed\nby their grade. For example a grade-$k$ basis entity would be called a\n$k$-blade.\n\nThe number of linearly independent $k$-blades in a particular geometric\nalgebra is dependent on the number of dimensions of the manifold on\nwhich the algebra is defined. For an $n$-dimensional manifold, the\nnumber of $k$-blades is given by the binomial coefficient.\n$$N_k = \\left( \\begin{array}{c}\nn \\\\\nk\n\\end{array} \\right)$$ The total number of basis blades of all grades in\na geometric algebra defined on an $n$-manifold is then:\n$$N = \\sum_{k=0}^n N_k = 2^n$$",
+  "language": "INFORMAL",
+  "phrase": "Blade",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Blade"
+    }
+  ],
+  "indexable": true
+}

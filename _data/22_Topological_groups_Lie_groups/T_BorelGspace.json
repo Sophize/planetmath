@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A (standard) Borel G-space is defined in connection with a standard\nBorel space which shall be specified first.\n\nBasic definitions\n-----------------\n\n-   [**a. Standard Borel space**]{}\n\n    A *standard Borel space* is defined as a measurable space, that is,\n    a set $X$ equipped with a $\\sigma$ -algebra $\\mathcal{S}$, such that\n    there exists a Polish topology on $X$ with $S$ its $\\sigma$-algebra\n    of Borel sets.\n\n-   [**b. Borel G-space**]{}\n\n    Let $G$ be a Polish group and $X$ a (standard) Borel space. An\n    action $a$ of $G$ on $X$ is defined to be a *Borel action* if\n    $a: G \\times X \\to X$ is a Borel-measurable map or a . In this case,\n    a standard Borel space $X$ that is acted upon by a Polish group with\n    a Borel action is called a *(standard) Borel G-space*.\n\n-   [**c. Borel morphisms**]{}\n\n    Homomorphisms, embeddings or isomorphisms between standard Borel\n    G-spaces are called *Borel* if they are Borel\u2013measurable.\n\nBorel G-spaces have the nice property that the product and sum of a\ncountable sequence of Borel G-spaces $(X_n)_{n \\in N}$ are also Borel\nG-spaces. Furthermore, the subspace of a Borel G-space determined by an\n[*invariant*]{} Borel set is also a Borel G-space.",
+  "language": "INFORMAL",
+  "phrase": "Borel G-Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BorelGspace"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f$ be an holomorphic function with an essential singularity at\n$w\\in \\mathbb{C}$. Then there is a number $z_0\\in \\mathbb{C}$ such that\nthe image of any neighborhood of $w$ by $f$ contains\n$\\mathbb{C}-\\{z_0\\}$. In other words, $f$ assumes every complex value,\nwith the possible exception of $z_0$, in any neighborhood of $w$.\n\n*Remark.* Little Picard theorem follows as a corollary: Given a\nnonconstant entire function $f$, if it is a polynomial, it assumes every\nvalue in $\\mathbb{C}$ as a consequence of the fundamental theorem of\nalgebra. If $f$ is not a polynomial, then $g(z)=f(1/z)$ has an essential\nsingularity at $0$; Picard\u2019s theorem implies that $g$ (and thus $f$)\nassumes every complex value, with one possible exception.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PicardsTheorem1"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Picard's theorem",
+    "great Picard theorem"
+  ]
+}

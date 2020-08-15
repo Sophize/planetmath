@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Wallman's disjunction property"
+  ],
+  "definition": "A partially ordered set $\\mathfrak{A}$ with a least element $0$ has the\n*disjunction property of Wallman* if for every pair $(a,b)$ of elements\nof the poset, either $b\\leq a$ or there exists an element $c\\leq b$ such\nthat $c\\ne 0$ and $c$ has no nontrivial common predecessor with $a$.\nThat is, in the latter case, the only $x$ with $x\\leq a$ and $x\\leq c$\nis $x=0$.\n\nFor the case if the poset $\\mathfrak{A}$ is a $\\cap$-semilattice\n*disjunction property of Wallman* is equivalent to every of the\nfollowing three formulas:\n\n1.  $\\forall a,b\\in\\mathfrak{A}:(\\{c\\in\\mathfrak{A}|c\\cap a\\ne 0\\} = \\{c\\in\\mathfrak{A}|c\\cap b\\ne 0\\} \\Rightarrow a = b)$;\n\n2.  $\\forall a,b\\in\\mathfrak{A}:(\\{c\\in\\mathfrak{A}|c\\cap a\\ne 0\\} \\subseteq \\{c\\in\\mathfrak{A}|c\\cap b\\ne 0\\} \\Rightarrow\n      a \\subseteq b)$;\n\n3.  $\\forall a,b\\in\\mathfrak{A}:(a\\subset b \\Rightarrow\n    \\{c\\in\\mathfrak{A}|c\\cap a\\ne 0\\} \\subset \\{c\\in\\mathfrak{A}|c\\cap b\\ne 0\\})$.\n\nThe proof of this equivalence can be found in .",
+  "language": "INFORMAL",
+  "phrase": "Disjunction Property Of Wallman",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DisjunctionPropertyOfWallman"
+    }
+  ],
+  "indexable": true
+}

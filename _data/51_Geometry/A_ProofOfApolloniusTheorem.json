@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $b = \\overline{CA}$, $a = \\overline{BC}$, $c = \\overline{AB}$, and\n$m = \\overline{AM}$. Let $\\angle CMA = \\theta$, so that\n$\\angle BMA = \\pi - \\theta$.\n\nBy the law of cosines, $b^2 = m^2 + \\frac{a^2}{4} - am \\cos\\theta$ and\n$c^2 = m^2 + \\frac{a^2}{4} - am \\cos (\\pi - \\theta) = m^2 + \\frac{a^2}{4} + am \\cos \\theta $,\nand adding gives $$b^2 + c^2 = 2m^2 + \\frac{a^2}{2}.$$ QED",
+  "conclusion": "#P_ApolloniusTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfApolloniusTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Apollonius theorem"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Any cube of integer is a difference of two squares, which\nin the case of a positive cube are the squares of two successive\ntriangular numbers.\\\nFor proving the assertion, one needs only to check the identity\n$$a^3 \\;\\equiv\\; \\left(\\frac{(a\\!+\\!1)a}{2}\\right)^{\\!2}-\\left(\\frac{(a\\!-\\!1)a}{2}\\right)^{\\!2}.$$\n\nFor example we have $(-2)^3 = 1^2\\!-\\!3^2$ and\n$4^3 = 64 = 10^2\\!-\\!6^2$.\\\nSumming the first $n$ positive cubes, the identity allows between\nconsecutive brackets, $$\\begin{aligned}\n1^3\\!+\\!2^3\\!+\\!3^3\\!+\\!4^3\\!+\\ldots+\\!n^3 &\\;=\\; \n[1^2\\!-\\!0^2]\\!+\\![3^2\\!-\\!1^2]\\!+\\![6^2\\!-\\!3^2]\\!+\\![10^2\\!-\\!6^2]\\!+\\ldots\n+\\!\\left[\\!\\left(\\frac{(n\\!+\\!1)n}{2}\\right)^{\\!2}\\!-\\!\\left(\\frac{(n\\!-\\!1)n}{2}\\right)^{\\!2}\\right]\\\\ \n&\\;=\\; \\left(\\frac{n^2\\!+\\!n}{2}\\right)^{\\!2},\\end{aligned}$$ saving\nonly the square $\\left(\\frac{(n+1)n}{2}\\right)^2$. Thus we have this\nexpression presenting the sum of the first $n$ positive cubes (cf. the\nNicomachus theorem).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CubeOfAnInteger"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "cube of an integer"
+  ]
+}

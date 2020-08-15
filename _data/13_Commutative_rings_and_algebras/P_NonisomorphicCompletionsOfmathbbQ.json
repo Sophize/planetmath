@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "No field $\\mathbb{Q}_p$ of the [*$p$-adic numbers*]{} () is isomorphic\nwith the field $\\mathbb{R}$ of the real numbers.\n\n[*Proof.*]{} Let\u2019s assume the existence of a field isomorphism\n$f:\\,\\mathbb{R}\\to \\mathbb{Q}_p$ for some positive prime number $p$. If\nwe denote $f(\\sqrt{p}) = a$, then we obtain\n$$a^2 = (f(\\sqrt{p}))^2 = f((\\sqrt{p})^2) = f(p) = p,$$ because the\nisomorphism maps the elements of the prime subfield on themselves. Thus,\nif $|\\cdot|_p$ is the of $\\mathbb{Q}$ and of $\\mathbb{Q}_p$, we get\n$$|a|_p = \\sqrt{|a^2|_p} = \\sqrt{|p|_p} = \\sqrt{\\frac{1}{p}},$$ which\nvalue is an irrational number as a rational. But this is impossible,\nsince the value group of the completion $\\mathbb{Q}_p$ must be the same\nas the value group $|\\mathbb{Q}\\setminus\\{0\\}|_p$ which consists of all\ninteger powers of $p$. So we conclude that there can not exist such an\nisomorphism.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NonisomorphicCompletionsOfmathbbQ"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "non-isomorphic completions of $\\mathbb{Q}$"
+  ]
+}

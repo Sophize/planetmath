@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a base $b$ integer $$n = \\sum_{i = 1}^k d_ib^{i - 1}$$ where $d_1$\nis the least significant digit and $d_k$ is the most significant, and\n$k \\ge b$, if for each $-1 < m < b$ there is at least one $d_x = m$\namong the digits of $n$, then $n$ is a [*pandigital number*]{} in base\n$b$.\n\nThe smallest pandigital number in base $b$ is\n$$b^{b - 1} + \\sum_{d = 2}^{b - 1} db^{(b - 1) - d},$$ while the largest\n(with only one instance of each digit) is $$\\sum_{d = 1}^{b - 1} db^d.$$\n\nThere are infinitely many pandigital numbers with more than one instance\nof one or more digits.\n\nIf $b$ is not prime, a pandigital number must have at least $b + 1$\ndigits to be prime. With $k = b$ for the length of digits of a\npandigital number $n$, it follows from the divisibility rules in that\nbase that $(b - 1)|n$.\n\nSometimes a number with at least one instance each of the digits 1\nthrough $b - 1$ but no instances of 0 is called a [*zeroless pandigital\nnumber*]{}.",
+  "language": "INFORMAL",
+  "phrase": "Pandigital Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PandigitalNumber"
+    }
+  ],
+  "indexable": true
+}

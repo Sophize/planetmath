@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $$\\overline{X}_n = (X_{n1},\\dots,X_{nk}) \\;\\mbox{and} \\; \n\\overline{X} = (X_1,\\dots,X_k)$$ be random vectors. Then\n$\\overline{X}_n$ converges to $\\overline{X}$ if and only if\n$$\\sum_{i=1}^k t_iX_{ni} \\xrightarrow[n\\rightarrow\\infty]{D} \n\\sum_{i=1}^k t_iX_i.$$ for each $(t_1,\\dots,t_k)\\in \\mathbb{R}^k$. That\nis, if every linear combination of the coordinates of $\\overline{X}_n$\nconverges in distribution to the correspondent linear combination of\ncoordinates of $\\overline{X}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CramerWoldTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cram\\'er-Wold theorem"
+  ]
+}

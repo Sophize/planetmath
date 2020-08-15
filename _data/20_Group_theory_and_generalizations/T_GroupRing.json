@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For any group $G$, the [*group ring*]{} $\\mathbb{Z}[G]$ is defined to be\nthe ring whose additive group is the abelian group of formal integer\nlinear combinations of elements of $G$, and whose multiplication\noperation is defined by multiplication in $G$, extended\n$\\mathbb{Z}$\u2013linearly to $\\mathbb{Z}[G]$.\n\nMore generally, for any ring $R$, the [*group ring*]{} of $G$ over $R$\nis the ring $R[G]$ whose additive group is the abelian group of formal\n$R$\u2013linear combinations of elements of $G$, i.e.:\n$$R[G] := \\left\\{\\left. \\sum_{i=1}^n r_i g_i\\ \\right|\\ r_i \\in R,\\ g_i \\in G\\right\\},$$\nand whose multiplication operation is defined by $R$\u2013linearly extending\nthe group multiplication operation of $G$. In the case where $K$ is a\nfield, the group ring $K[G]$ is usually called a [*group algebra*]{}.",
+  "language": "INFORMAL",
+  "phrase": "Group Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupRing"
+    }
+  ],
+  "indexable": true
+}

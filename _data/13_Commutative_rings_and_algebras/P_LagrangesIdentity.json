@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a commutative ring, and let\n$x_1, \\ldots, x_n, y_1, \\ldots, y_n$ be arbitrary elements in $R$. Then\n$$\\left(\\sum_{k=1}^n x_ky_k\\right)^2 =\\left(\\sum_{k=1}^n x_k^2\\right)\\left(\\sum_{k=1}^n\ny_k^2\\right)\n- \\sum_{1 \\le k < i \\le n} (x_ky_i -x_iy_k)^2\\mbox{.}$$\n\nSince $R$ is commutative, we can apply the binomial formula.We start out\nwith\n$$\\left(\\sum_{i=1}^n x_iy_i\\right)^2 =\\sum_{i=1}^n (x_i^2y_i^2) +\\sum_{1\n\\leq i< j\\leq n} 2 x_iy_jx_jy_i$$ Using the binomial formula, we see\nthat $$(x_iy_j -x_jy_i)^2 =x_i^2y_j^2 -2x_ix_jy_iy_j +x_j^2y_i^2.$$ So\nwe get\n\n$$\\begin{aligned}\n\\left(\\sum\\limits_{i=1}^n x_iy_i\\right)^2 +\\sum\\limits_{1\n\\leq i< j\\leq n}^n(x_iy_j -x_jy_i)^2\n&=&\\sum\\limits_{i=1}^n \\left(x_i^2y_i^2\\right) +\\sum\\limits_{1\n\\leq i< j\\leq n}^n \\left(x_i^2y_j^2\n+x_j^2y_i^2\\right)  \\\\\n&=&\\left(\\sum\\limits_{i=1}^n x_i^2\\right)\\left(\\sum\\limits_{i=1}^n y_i^2\\right)\\end{aligned}$$\n\nNote that changing the roles of $i$ and $j$ in $x_iy_j -x_jy_i$, we get\n$$x_jy_i -x_iy_j =-(x_iy_j -x_jy_i),$$ but the negative sign will\ndisappear when we square. So we can rewrite the last equation to\n$$\\left(\\sum\\limits_{i=1}^n x_iy_i\\right)^2 +\\sum\\limits_{1 \\le i <j \\le n} (x_iy_j -x_jy_i)^2\n=\\left(\\sum_{i=1}^n x_i^2\\right)\\left(\\sum_{i=1}^n y_i^2\\right).$$ This\nis equivalent to the stated identity.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LagrangesIdentity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Lagrange's identity"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Pick\u2019s theorem:\n\nLet $P\\subset{\\mathbb{R}}^2$ be a polygon with all vertices on lattice\npoints on the grid ${\\mathbb{Z}}^2$. Let $I$ be the number of lattice\npoints that lie *inside* $P$, and let $O$ be the number of lattice\npoints that lie on the boundary of $P$. Then the area of $P$ is\n$$A(P) = I + \\frac{1}{2}O - 1.$$\n\n![image](pick.eps)\n\nTo prove, we shall first show that Pick\u2019s theorem has an additive\ncharacter. Suppose our polygon has more than 3 vertices. Then we can\ndivide the polygon $P$ into 2 polygons $P_1$ and $P_2$ such that their\ninteriors do not meet. Both have fewer vertices than $P.$ We claim that\nthe validity of Pick\u2019s theorem for $P$ is equivalent to the validity of\nPick\u2019s theorem for $P_1$ and $P_2.$\n\nDenote the area, number of interior lattice points and number of\nboundary lattice points for $P_k$ by $A_k, I_k$ and $O_k,$ respectively,\nfor $k=1,2.$\n\nClearly $A = A_1 + A_2.$\n\nAlso, if we denote the number of lattice points on the edges common to\n$P_1$ and $P_2$ by $L,$ then $$I = I_1 + I_2 + L - 2$$ and\n$$O = O_1 + O_2 -2L + 2$$\n\nHence\n$$I + \\frac{1}{2}O - 1 =   I_1 + I_2 + L - 2 + \\frac{1}{2}O_1 + \\frac{1}{2}O_2 - L + 1 - 1$$\n$$= I_1 + \\frac{1}{2}O_1 -1 + I_2 + \\frac{1}{2}O_2 -1$$\n\nThis proves the claim. Therefore we can triangulate $P$ and it suffices\nto prove Pick\u2019s theorem for triangles. Moreover by further\ntriangulations we may assume that there are no lattice points on the\nboundary of the triangle other than the vertices. To prove pick\u2019s\ntheorem for such triangles, embed them into rectangles.\n\n![image](pick1.eps)\n\nAgain by additivity, it suffices to prove Pick\u2019s theorem for rectangles\nand rectangular triangles which have no lattice points on the hypotenuse\nand whose other two sides are parallel to the coordinate axes. If these\ntwo sides have lengths $a$ and $b,$ respectively, we have\n$$A = \\frac{1}{2}ab$$ and $$O = a+b+1.$$ Furthermore, by thinking of the\ntriangle as half of a rectangle, we get $$I = \\frac{1}{2}(a-1)(b-1).$$\n(Note that here it is essential that no lattice points are on the\nhypotenuse) From these equations for $A, I$ and $O,$ Pick\u2019s theorem is\nsatisfied for these triangles.\n\nFinally for a rectangle, whose sides have lengths $a$ and $b,$ we find\nthat $$A = ab$$ $$I = (a-1)(b-1)$$ and $$O = 2a + 2b.$$ From these\nPick\u2019s theorem follows for rectangles too. This completes our proof.",
+  "conclusion": "#P_PicksTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPicksTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Pick's theorem"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "osculating circle"
+  ],
+  "definition": "Let a given plane curve $\\gamma$ have a definite $\\kappa$ in a point $P$\nof $\\gamma$. The [*circle of curvature*]{} of $\\gamma$ in the point $P$\nis the circle which has the radius $\\frac{1}{|\\kappa|}$ and which has\nwith the curve the common tangent in $P$ and which in a neighbourhood of\n$P$ is on the same side as the curve.\n\nThe radius $\\varrho$ of the circle of curvature is the [*radius of\ncurvature*]{} of $\\gamma$ in $P$. The center of the circle of curvature\nis the [*center of curvature*]{} of $\\gamma$ in $P$.\n\nWhen the curve $\\gamma$ is given in the parametric form\n$$x = x(t),\\;\\; y \u00c2\u00b4= y(t),$$ the coordinates of the center of curvature\nbelonging to the point $(x,\\,y)$ of the curve are\n$$\\xi = x-\\frac{(x'^2+y'^2)y'}{x'y''-x''y'},\\quad\n\\eta = y+\\frac{(x'^2+y'^2)x'}{x'y''-x''y'}.$$\n\n**Example.** Since the curvature of the parabola $y = x^2$ in the origin\nis $-2$, the corresponding radius of curvature is $\\frac{1}{2}$ and the\ncenter of curvature $(0,\\,\\frac{1}{2})$.\n\nFurthermore, it is possible to define the circle of curvature without\nfirst knowing about curvature of the curve. (In fact, using this\ndefinition, one could reverse the procedure and define curvature as the\nradius of the circle of curvature.) We may define the circle of\ncurvature a point $P$ of $\\gamma$ as the unique circle passing through\n$P$ which makes a second-order contact with $\\gamma$ at $P$.",
+  "language": "INFORMAL",
+  "phrase": "Circle Of Curvature",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CircleOfCurvature"
+    }
+  ],
+  "indexable": true
+}

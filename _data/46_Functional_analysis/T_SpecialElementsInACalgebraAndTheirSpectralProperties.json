@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition -**]{} Suppose $\\mathcal{A}$ is a . An element\n$x \\in \\mathcal{A}$ is said to be:\n\n-   [**normal**]{} if $x^*x = xx^*$\n\n-   [**self-adjoint**]{} if $x^* = x$\n\n-   [**unitary**]{} if $\\mathcal{A}$ has an identity element $e$ and\n    $x^*x = xx^* = e$\n\n-   [**positive**]{} if $x = y^*y$ for some element $y \\in \\mathcal{A}$\n\n-   [**projection**]{} if $x^* = x$ and $x^2=x$\n\n-   [**partial isometry**]{} if $x^*x$ and $xx^*$ are both projections\n\n### Properties of the special elements in terms of their spectrum\n\nIn the following $\\sigma(x)$ denotes the spectrum of an element $x$ and\n$R_{\\sigma}(x)$ its spectral radius.\n\n[**Theorem 1 -**]{} Suppose $\\mathcal{A}$ is a $C^*$-algebra and\n$x \\in \\mathcal{A}$. If $x$ is normal then $\\|x\\| = R_{\\sigma}(x)$\n\n[**Theorem 2 -**]{} Suppose $\\mathcal{A}$ is a $C^*$-algebra and\n$x \\in \\mathcal{A}$.\n\n-   If $x$ is self-adjoint, then $\\sigma(x) \\subset \\mathbb{R}$.\n\n-   If $x$ is unitary, then $\\sigma(x) \\subset \\partial D$, where\n    $D \\subset \\mathbb{C}$ is the unit disk.\n\n-   If $x$ is positive, then $\\sigma(x) \\subset \\mathbb{R}^{+}$\n\n-   If $x$ is a projection, then $\\sigma(x) \\subset \\{0,1\\}$\n\n[**Theorem 3 -**]{} Suppose $\\mathcal{A}$ is a commutative $C^*$-algebra\nand $x \\in \\mathcal{A}$. Then\n\n-   $x$ is self-adjoint if and only if $\\sigma(x) \\subset \\mathbb{R}$.\n\n-   $x$ is unitary if and only if $\\sigma(x) \\subset \\partial D$, where\n    $D \\subset \\mathbb{C}$ is the unit disk.\n\n-   $x$ is positive if and only if $\\sigma(x) \\subset \\mathbb{R}^{+}$\n\n-   $x$ is a projection if and only if $\\sigma(x) \\subset \\{0,1\\}$\n\n[**Theorem 4 -**]{} Suppose $\\mathcal{A}$ is a $C^*$-algebra and $x$ is\nnormal in $\\mathcal{A}$. Then\n\n-   $x$ is self-adjoint if and only if $\\sigma(x) \\subset \\mathbb{R}$.\n\n-   $x$ is unitary if and only if $\\sigma(x) \\subset \\partial D$, where\n    $D \\subset \\mathbb{C}$ is the unit disk.\n\n-   $x$ is positive if and only if $\\sigma(x) \\subset \\mathbb{R}^{+}$\n\n-   $x$ is a projection if and only if $\\sigma(x) \\subset \\{0,1\\}$",
+  "language": "INFORMAL",
+  "phrase": "Special Elements In A $C^*$-Algebra And Their Spectral Properties",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpecialElementsInACalgebraAndTheirSpectralProperties"
+    }
+  ],
+  "indexable": true
+}

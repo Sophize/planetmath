@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "conditional truth function"
+  ],
+  "definition": "An implication is a logical construction that essentially tells us if\none condition is true, then another condition must be also true.\nFormally it is written $$a \\rightarrow b$$ or $$a \\Rightarrow b$$ which\nwould be read \u201c$a$ implies $b$\u201d, or \u201c$a$ therefore $b$\u201d, or \u201cif $a$,\nthen $b$\u201d (to name a few).\n\nImplication is often confused for \u201cif and only if\u201d, or the biconditional\ntruth function ($\\Leftrightarrow$). They are not, however, the same. The\nimplication $a \\rightarrow b$ is true even if only $b$ is true. So the\nstatement \u201cpigs have wings, therefore it is raining today\u201d, is true if\nit is indeed raining, despite the fact that the first item is false.\n\nIn fact, any implication $a \\rightarrow b$ is called *vacuously true*\nwhen $a$ is false. By contrast, $a \\Leftrightarrow b$ would be false if\neither $a$ or $b$ was by itself false\n($a \\Leftrightarrow b \\equiv (a \\land b) \\lor (\\lnot a \\land \\lnot b)$,\nor in terms of implication as\n$(a \\rightarrow b) \\land (b \\rightarrow a)$).\n\nIt may be useful to remember that $a \\rightarrow b$ only tells you that\nit *cannot* be the case that $b$ is false while $a$ is true; $b$ must\n\u201cfollow\u201d from $a$ (and \u201cfalse\u201d does follow from \u201cfalse\u201d). Alternatively,\n$a \\rightarrow b$ is in fact equivalent to\n\n$$b \\lor \\lnot a$$\n\nThe truth table for implication is therefore\n\n   a   b   $a \\rightarrow b$\n  --- --- -------------------\n   F   F           T\n   F   T           T\n   T   F           F\n   T   T           T",
+  "language": "INFORMAL",
+  "phrase": "Implication",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Implication"
+    }
+  ],
+  "indexable": true
+}

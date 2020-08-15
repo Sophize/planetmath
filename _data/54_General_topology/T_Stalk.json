@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $F$ be a presheaf over a topological space $X$ with values in an\nabelian category ${\\mathcal{A}}$, and suppose direct limits exist in\n${\\mathcal{A}}$. For any point $p \\in X$, the [*stalk*]{} $F_p$ of $F$\nat $p$ is defined to be the object in ${\\mathcal{A}}$ which is the\ndirect limit of the objects $F(U)$ over the directed set of all open\nsets $U \\subset X$ containing $p$, with respect to the restriction\nmorphisms of $F$. In other words,\n$$F_p := {\\,\\underset{U \\ni p}{\\underset{\\longrightarrow}{\\lim}}\\,}F(U)$$\nIf ${\\mathcal{A}}$ is a category consisting of sets, the stalk $F_p$ can\nbe viewed as the set of all germs of sections of $F$ at the point $p$.\nThat is, the set $F_p$ consists of all the equivalence classes of\nordered pairs $(U,s)$ where $p \\in U$ and $s \\in F(U)$, under the\nequivalence relation $(U,s) \\sim (V,t)$ if there exists a neighborhood\n$W \\subset U \\cap V$ of $p$ such that\n$\\operatorname{res}_{U,W} s = \\operatorname{res}_{V,W} t$.\n\nBy universal properties of direct limit, a morphism\n$\\phi: F {\\longrightarrow}G$ of presheaves over $X$ induces a morphism\n$\\phi_p: F_p {\\longrightarrow}G_p$ on each stalk $F_p$ of $F$. Stalks\nare most useful in the context of sheaves, since they encapsulate all of\nthe local data of the sheaf at the point $p$ (recall that sheaves are\nbasically defined as presheaves which have the property of being\ncompletely characterized by their local behavior). Indeed, in many of\nthe standard examples of sheaves that take values in rings (such as the\nsheaf ${\\mathcal{D}}_X$ of smooth functions, or the sheaf\n${\\mathcal{O}}_X$ of regular functions), the ring $F_p$ is a local ring,\nand much of geometry is devoted to the study of sheaves whose stalks are\nlocal rings (so-called \u201clocally ringed spaces\u201d).\n\nWe mention here a few illustrations of how stalks accurately reflect the\nlocal behavior of a sheaf; all of these are drawn from\u00a0[@hartshorne].\n\n-   A morphism of sheaves $\\phi: F {\\longrightarrow}G$ over $X$ is an\n    isomorphism if and only if the induced morphism $\\phi_p$ is an\n    isomorphism on each stalk.\n\n-   A sequence $F {\\longrightarrow}G {\\longrightarrow}H$ of morphisms of\n    sheaves over $X$ is an exact sequence at $G$ if and only if the\n    induced morphism $F_p {\\longrightarrow}G_p {\\longrightarrow}H_p$ is\n    exact at each stalk $G_p$.\n\n-   The sheafification $F'$ of a presheaf $F$ has stalk equal to $F_p$\n    at every point $p$.\n\n[9]{}",
+  "language": "INFORMAL",
+  "phrase": "Stalk",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Stalk"
+    }
+  ],
+  "indexable": true
+}

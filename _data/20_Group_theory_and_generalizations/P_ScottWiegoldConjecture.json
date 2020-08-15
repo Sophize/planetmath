@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Scott-Wiegold conjecture (1976) is stated as follows:\n\nGiven distinct prime numbers $p$, $q$ and $r$, the free product of\ncyclic groups $C_p * C_q * C_r$ is not the normal closure of any single\nelement.\n\nIn 1992 this was included as problem 5.53 of The Kourovka Notebook:\n[*Unsolved Problems in* ]{} [@Kour].\n\nThe conjecture was proven to be true in 2001 by James Howie [@Howi].\nDespite remaining an unsolved problem for 25 years, the proof is both\nbrief and fairly elementary.\n\nWhilst the question is group theoretic and involves only , the proof\ndoes not use any combinatorial but instead depends on basic notions from\ntopology.\n\nV.D.Mazurov, E.I. Khukhro (Eds.), [*Unsolved Problems in Group\nTheory*]{}: The Kourovka Notebook, $12^{\\it th}$ Edition, Russian\nAcademy of Sciences, Novosibirsk, 1992.\n\nJames Howie, [*A proof of the Scott-Wiegold conjecture on free products\nof cyclic groups*]{}, Journal of Pure and Applied Algebra 173, 2002\npp.167\u2013176",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ScottWiegoldConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Scott-Wiegold conjecture",
+    "one relator products of cyclic groups"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "We say that $G' = (V',E')$ is a *subgraph* of $G = (V,E)$ if\n$V' \\subseteq V$ and $E' \\subseteq E$. In this case we write\n$G' \\subseteq G$.\n\nIf $G'$ contains *all edges* of $G$ that join two vertices in $V'$ then\n$G'$ is said to be the subgraph *induced* or *spanned by* $V'$ and is\ndenoted by $G[V']$. Thus, a subgraph $G'$ of $G$ is an induced subgraph\nif $G' = G[V(G')]$. If $V' = V$, then $G'$ is said to be a *spanning*\nsubgraph of $G$.\n\nOften, new graphs are constructed from old ones by deleting or adding\nsome vertices and edges. If $W \\subset V(G)$, then\n$G - W = G[V\\setminus W]$ is the subgraph of $G$ obtained by deleting\nthe vertices in $W$ *and all edges incident with them*. Similarly, if\n$E' \\subseteq E(G)$, then $G - E' = (V(G),E(G) \\setminus E')$. If\n$W = {w}$ and $E' = {xy}$, then this notation is simplified to $G - w$\nand $G - xy$. Similarly, if $x$ and $y$ are nonadjacent vertices of $G$,\nthen $G + xy$ is obtained from $G$ by joining $x$ to $y$.",
+  "language": "INFORMAL",
+  "phrase": "Subgraph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Subgraph"
+    }
+  ],
+  "indexable": true
+}

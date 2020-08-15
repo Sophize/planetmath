@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suranyi\u2019s theorem states that every integer $k$ can be expressed as the\nfollowing sum: $$k=\\pm 1^2 \\pm 2^2 \\pm \\cdots \\pm m^2$$ for some\n$m \\in \\mathbb{Z}^+$.\\\nWe prove this by induction, taking the first four whole numbers as our\ncases: $$0 = 1^2 + 2^2 - 3^2 + 4^2 - 5^2 - 6^2 + 7^2$$ $$1 = 1^2$$\n$$2 = -1^2 - 2^2 - 3^2 + 4^2$$ $$3 = -1^2 + 2^2$$\\\nNow it suffices to prove that if the theorem is true for $k$ then it is\nalso true for $k+4$.\\\nAs $$(m+1)^2 - (m+2)^2 - (m+3)^2 + (m+4)^2 = 4$$ it\u2019s simple to finish\nthe proof:\\\nif $ k=\\pm 1^2 \\pm \\cdots \\pm m^2 $ then\n$$(k+4)=\\pm 1^2 \\pm \\cdots \\pm m^2 + (m+1)^2 - (m+2)^2 - (m+3)^2 + (m+4)^2$$\nand we are done.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SuranyisTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Suranyi's theorem"
+  ]
+}

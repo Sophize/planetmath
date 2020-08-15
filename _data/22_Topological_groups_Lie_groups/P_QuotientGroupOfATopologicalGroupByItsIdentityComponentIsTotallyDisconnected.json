@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Assume that $G$ is a topological group and $G_{e}$ is the identity\ncomponent. It is well known, that $G_{e}$ is a normal subgroup of $G$,\nthus we may speak about quotient group.\n\n**Proposition.** The quotient group $G/G_{e}$ is totally disconnected.\n\n*Proof.* First of all note that connected components of $G$ are of the\nform $gG_{e}$. Indeed, $G_{e}$ is a connected component of $e\\in G$ and\nfor any $g\\in G$ we have a homeomorphism $f_{g}:G\\to G$ such that\n$f_{g}(x)=gx$. Thus $f_{g}(G_{e})=gG_{e}$ is a connected component of\n$g\\in G$ (please, see for more details).\n\nNow let $\\pi:G\\to G/G_{e}$ be the quotient map (which is open and onto)\nand $A\\subseteq G/G_{e}$ be an arbitrary, connected subset of $G/G_{e}$.\nAssume that there are at least two points in $A$. Consider the subset\n$\\pi^{-1}(A)\\subseteq G$ (which is the union of some cosets). Since $A$\nhas at least two points, then $\\pi^{-1}(A)$ contains at least two\ncosets, which are connected components of $G$. Thus $\\pi^{-1}(A)$ is not\nconnected. Therefore there exist $U,V\\subseteq \\pi^{-1}(A)$ such that\n$U,V$ are open (in $\\pi^{-1}(A)$), disjoint and $U\\cup V=\\pi^{-1}(A)$.\n\nNote that if $x\\in U$, then the connected component of $x$ (which is\nequal to $xG_{e}$) is contained in $U$. Indeed, assume that\n$xG_{e}\\not\\subseteq U$. Then there is $h\\in xG_{e}$ such that\n$h\\not\\in U$. Then, since $U\\cup V=\\pi^{-1}(A)$ we have that $h\\in V$.\nBut then $U\\cap xG_{e}$ and $V\\cap xG_{e}$ are nonempty open and\ndisjoint subsets of $xG_{e}$ such that\n$(U\\cap xG_{e})\\cup(V\\cap xG_{e})=xG_{e}$. Contradiction, because\n$xG_{e}$ is connected. Analogusly, whenever $x\\in V$, then\n$xG_{e}\\subseteq V$.\n\nTherefore both $U$ and $V$ are unions of cosets. Thus $\\pi(U)$ and\n$\\pi(V)$ are disjoint. Furthermore $\\pi(U)\n\\cup\\pi(V)=A$ and both $\\pi(U)$, $\\pi(V)$ are open in $A$ (because $\\pi$\nis an open map). This means that $A$ is not connected. Contradiction.\nThus $A$ has at most one element, which completes the proof. $\\square$\n\n**Remark.** This proposition can be easily generalized as follows:\nassume that $X$ is a topological space, $X=\\bigcup X_i$ is a\ndecomposition of $X$ into connected components and $R$ is an equivalence\nrelation associated to this decomposition (i.e. $xRy$ if and only if\nthere exists $i$ such that $x,y\\in X_i$). Then, if the quotient map\n$\\pi:X\\to X/R$ is open, then $X/R$ is totally disconnected.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientGroupOfATopologicalGroupByItsIdentityComponentIsTotallyDisconnected"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "quotient group of a topological group by its identity component is totally disconnected"
+  ]
+}

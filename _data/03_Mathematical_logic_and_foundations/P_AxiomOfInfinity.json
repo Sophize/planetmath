@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "There exists an infinite set.\n\nThe Axiom of Infinity is an axiom of Zermelo-Fraenkel set theory. At\nfirst glance, this axiom seems to be ill-defined. How are we to know\nwhat constitutes an infinite set when we have not yet defined the notion\nof a finite set? However, once we have a theory of ordinal numbers in\nhand, the axiom makes sense.\n\nMeanwhile, we can give a definition of finiteness that does not rely\nupon the concept of number. We do this by introducing the notion of an\ninductive set. A set $S$ is said to be inductive if $\\emptyset \\in S$\nand for every $x \\in S$, $x \\cup \\{ x \\} \\in S$. We may then state the\nAxiom of Infinity as follows:\n\nThere exists an inductive set.\n\nIn symbols:\n\n$$\\exists S [\\emptyset \\in S \\land (\\forall x \\in S)[x \\cup \\{ x \\} \\in S]]$$\n\nWe shall then be able to prove that the following conditions are\nequivalent:\n\n1.  There exists an inductive set.\n\n2.  There exists an infinite set.\n\n3.  The least nonzero limit ordinal, $\\omega$, is a set.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AxiomOfInfinity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "axiom of infinity",
+    "infinity"
+  ]
+}

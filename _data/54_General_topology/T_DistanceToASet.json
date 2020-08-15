@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a metric space with a metric $d$. If $A$ is a non-empty\nsubset of $X$ and $x\\in X$, then the *distance from $x$ to $A$*\n[@kelley] is defined as $$d(x,A) := \\inf_{a\\in A} d(x,a).$$ We also\nwrite $d(x,A)=d(A,x)$.\n\nSuppose that $x,y$ are points in $X$, and $A\\subset X$ is non-empty.\nThen we have the following triangle inequality $$\\begin{aligned}\nd(x,A) &=& \\inf_{a\\in A} d(x,a) \\\\\n        &\\le& d(x,y) + \\inf_{a\\in A} d(y,a) \\\\\n        &=& d(x,y) + d(y,A).\\end{aligned}$$\n\nIf $X$ is only a pseudo-metric space, then the above definition and\ntriangle-inequality also hold.\n\n[9]{} J.L. Kelley, *General Topology*, D. van Nostrand Company, Inc.,\n1955.",
+  "language": "INFORMAL",
+  "phrase": "Distance To A Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DistanceToASet"
+    }
+  ],
+  "indexable": true
+}

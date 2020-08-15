@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "BCH formula",
+    "Baker-Campbell-Hausdorff formula",
+    "Baker-Campbell-Hausdorff formulae"
+  ],
+  "definition": "Given a linear operator $A$, we define:\n$$\\exp{A} := \\sum_{k=0}^{\\infty} \\frac{1}{k!}A^k.$$ It follows that\n$$\\frac{\\partial}{\\partial \\tau} e^{\\tau A} = A e^{\\tau A}= e^{\\tau A} A.$$\nConsider another linear operator $B$. Let\n$B(\\tau)=e^{\\tau A} B e^{-\\tau A}$. Then one can prove the following\nseries representation for $B(\\tau)$: $$\\label{eq:genbch}\nB(\\tau)= \\sum_{m=0}^{\\infty} \\frac{{\\tau}^m}{m!}B_m,$$ where\n$B_m =[A,B]_m := [A,[A,B]_{m-1}]$ and $B_0:=B$. A very important special\ncase of eq.\u00a0(\\[eq:genbch\\]) is known as the [*Baker-Campbell-Hausdorff\n(BCH)*]{} formula. Namely, for $\\tau =1$ we get:\n$$e^A \\; B e^{-A} = \\sum_{m=0}^{\\infty} \\frac{1}{m!} B_m.$$\nAlternatively, this expression may be rewritten as\n$$[B,e^{-A}] = e^{-A} \\left( [A,B]+\\frac{1}{2} [A,[A,B]] + \\cdots  \n\\right),$$ or $$[e^A,B] = \\left( [A,B]+\\frac{1}{2} [A,[A,B]] + \\cdots  \n\\right) e^A.$$ There is a descendent of the BCH formula, which often is\nalso referred to as BCH formula. It provides us with the multiplication\nlaw for two exponentials of linear operators: Suppose\n$[A,[A,B]] = [B,[B,A]] = 0$. Then,\n$$e^A e^B = e^{A+B} e^{\\frac{1}{2}[A,B]}.$$ Thus, if we want to commute\ntwo exponentials, we get an extra factor\n$$e^A e^B = e^B e^A e^{[A,B]}.$$",
+  "language": "INFORMAL",
+  "phrase": "Baker-Campbell-Hausdorff Formula(E)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BakerCampbellHausdorffFormulae"
+    }
+  ],
+  "indexable": true
+}

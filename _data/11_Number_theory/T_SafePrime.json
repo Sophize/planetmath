@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a prime $q$, if ${{q - 1} \\over 2} = p$, where $p$ is another\nprime number, then $q$ is a [*safe prime*]{}. It follows that\n$q - 1 = 2p$ (and thus a semiprime) and $p$ is a Sophie Germain prime.\n\nEvery safe prime matches to a Sophie Germain prime this way, and some\nsafe primes are Sophie Germain primes themselves too, matching to yet\nanother safe prime. A set of primes linked in this way is called a\nCunningham chain of the first kind. For example, 2, 5, 11, 23, 47. With\nPocklington\u2019s criterion, one can prove the primality of a safe prime if\none has first proven the primality of its matching Sophie Germain prime.\n\nThe first few safe primes are 5, 7, 11, 23, 47, 59, 83, 107, 167, 179,\n227, ... These are listed in A005385 of Sloane\u2019s OEIS. As of 2010, the\nlargest known safe prime is $183027 \\times 2^{265441} - 1$.\n\nSafe primes have been used in various methods of cryptography, but the\nsafety of their use depends not just on these mathematical properties\nbut also on their being large enough that their multiples can\u2019t be\nfactored in a reasonable period of time by contemporary computers.\n\nExternal links\n--------------\n\nfrom the Prime Pages.",
+  "language": "INFORMAL",
+  "phrase": "Safe Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SafePrime"
+    }
+  ],
+  "indexable": true
+}

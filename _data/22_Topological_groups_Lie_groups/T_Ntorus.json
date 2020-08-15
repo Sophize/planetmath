@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *$n$-torus*, denoted $T^n$, is a smooth orientable $n$ dimensional\nmanifold which is the product of $n$ 1-spheres, i.e.\n$T^n = \\underbrace{ S^{1} \\times \\cdots \\times S^{1}}_{n}$.\n\nEquivalently, the $n$-torus can be considered to be $\\mathbb{R}^n$\nmodulo the action (vector addition) of the integer lattice\n$\\mathbb{Z}^n$.\n\nThe $n$-torus is in addition a topological group. If we think of $S^{1}$\nas the unit circle in $\\mathbb{C}$ and\n$T^n = \\underbrace{ S^{1} \\times \\cdots \\times S^{1}}_{n}$, then $S^{1}$\nis a topological group and so is $T^n$ by coordinate-wise\nmultiplication. That is,\n$$(z_1,z_2,\\ldots,z_n) \\cdot (w_1,w_2,\\ldots,w_n) = (z_1w_1,z_2w_2,\\ldots,z_nw_n)$$",
+  "language": "INFORMAL",
+  "phrase": "$N$-Torus",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ntorus"
+    }
+  ],
+  "indexable": true
+}

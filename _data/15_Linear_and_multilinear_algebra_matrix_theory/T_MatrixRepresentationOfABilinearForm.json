@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a bilinear form, $B : U \\times V \\rightarrow K$, we show how we\ncan represent it with a matrix, with respect to a particular pair of\nbases for $U$ and $V$\n\nSuppose $U$ and $V$ are finite-dimensional and we have chosen bases,\n${{\\cal B}_1} = \\{e_1, \\ldots\\}$ and ${{\\cal B}_2}=\\{f_1, \\ldots\\}$. Now\nwe define the matrix $C$ with entries $C_{ij} = B(e_i, f_j)$. This will\nbe the matrix associated to $B$ with respect to this basis as follows;\nIf we write $x,y \\in V$ as column vectors in terms of the chosen bases,\nthen check $B(x,y) = x^T C y$. Further if we choose the corresponding\ndual bases for $U^\\ast$ and $V^\\ast$ then $C$ and $C^T$ are the\ncorresponding matrices for $B_R$ and $B_L$, respectively (in the sense\nof linear maps). Thus we see that a symmetric bilinear form is\nrepresented by a symmetric matrix, and similarly for skew-symmetric\nforms.\n\nLet ${{\\cal B}_1^\\prime}$ and ${{\\cal B}_2^\\prime}$ be new bases, and\n$P$ and $Q$ the corresponding change of basis matrices. Then the new\nmatrix is $C^\\prime = P^{T}CQ$.",
+  "language": "INFORMAL",
+  "phrase": "Matrix Representation Of A Bilinear Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MatrixRepresentationOfABilinearForm"
+    }
+  ],
+  "indexable": true
+}

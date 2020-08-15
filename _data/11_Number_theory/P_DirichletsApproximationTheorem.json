@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Theorem (Dirichlet, c. 1840): For any real number $\\theta$ and any\ninteger $n\\ge 1$, there exist integers $a$ and $b$ such that\n$1 \\le a \\le n$ and\n$ \\arrowvert a\\theta-b \\arrowvert \\le \\frac{1}{n+1}$.\n\nProof: We may assume $n\\ge 2$. For each integer $a$ in the interval\n$[1,n]$, write $r_a = a\\theta - [a\\theta] \\in [0,1)$, where $[x]$\ndenotes the greatest integer less than $x$. Since the $n+2$ numbers\n$0, r_a, 1$ all lie in the same unit interval, some two of them differ\n(in absolute value) by at most $\\frac{1}{n+1}$. If $0$ or $1$ is in any\nsuch pair, then the other element of the pair is one of the $r_a$, and\nwe are done. If not, then $0 \\le r_k - r_l \\le \\frac{1}{n+1}$ for some\ndistinct $k$ and $l$. If $k>l$ we have $r_k - r_l = r_{k-l}$, since each\nside is in $[0,1)$ and the difference between them is an integer.\nSimilarly, if $k<l$, we have $1-(r_k - r_l) = r_{l-k}$. So, with $a=k-l$\nor $a=l-k$ respectively, we get\n$$\\arrowvert r_a - c \\arrowvert \\le \\frac{1}{n+1}$$ where $c$ is $0$ or\n$1$, and the result follows.\n\nIt is clear that we can add the condition $\\gcd(a,b)=1$ to the\nconclusion.\n\nThe same statement, but with the weaker conclusion\n$ \\arrowvert a\\theta-b \\arrowvert < \\frac{1}{n}$, admits a slightly\nshorter proof, and is sometimes also referred to as the Dirichlet\napproximation theorem. (It was that shorter proof which made the\n\u201cpigeonhole principle\u201d famous.) Also, the theorem is sometimes\nrestricted to irrational values of $\\theta$, with the (nominally\nstronger) conclusion $\\arrowvert a\\theta-b \\arrowvert < \\frac{1}{n+1}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirichletsApproximationTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Dirichlet's approximation theorem",
+    "Dirichlet approximation theorem"
+  ]
+}

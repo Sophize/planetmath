@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "alephs"
+  ],
+  "definition": "The *aleph numbers* are infinite cardinal numbers defined by transfinite\nrecursion, as described below. They are written $\\aleph_\\alpha$, where\n$\\aleph$ is aleph, the first letter of the Hebrew alphabet, and $\\alpha$\nis an ordinal number. Sometimes we write $\\omega_\\alpha$ instead of\n$\\aleph_\\alpha$, usually to emphasise that it is an ordinal.\n\nTo start the transfinite recursion, we define $\\aleph_0$ to be the first\ninfinite ordinal. This is the cardinality of countably infinite sets,\nsuch as $\\N$ and $\\Q$. For each ordinal $\\alpha$, the cardinal number\n$\\aleph_{\\alpha+1}$ is defined to be the least ordinal of cardinality\ngreater than $\\aleph_\\alpha$. For each limit ordinal $\\delta$, we define\n$\\aleph_\\delta=\\bigcup_{\\alpha\\in\\delta}\\aleph_\\alpha$.\n\nAs a consequence of the , every infinite set is equinumerous with an\naleph number. Every infinite cardinal is therefore an aleph. More\nprecisely, for every infinite cardinal $\\kappa$ there is exactly one\nordinal $\\alpha$ such that $\\kappa=\\aleph_\\alpha$.",
+  "language": "INFORMAL",
+  "phrase": "Aleph Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlephNumbers"
+    }
+  ],
+  "indexable": true
+}

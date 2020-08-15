@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Borel space",
+    "measure groupoid"
+  ],
+  "definition": "Definitions\n-----------\n\n-   [**a. Borel function** ]{}\n\n    A function $f_B: (X; \\mathcal{B}) \\to (X; \\mathcal{C}$) of is\n    defined to be a *Borel function* if the inverse image of every Borel\n    set under $f_B ^{-1}$ is also a Borel set.\n\n-   [**b. Borel groupoid**]{}\n\n    Let ${{\\mathbb G}}$ be a groupoid and ${{\\mathbb G}}^{(2)}$ a subset\n    of ${{\\mathbb G}}\\times {{\\mathbb G}}$\u2013 the set of its composable\n    pairs. A [*Borel groupoid*]{} is defined as a groupoid\n    ${{\\mathbb G}}_B$ such that ${{\\mathbb G}}_B^{(2)}$ is a Borel set\n    in the product structure on\n    ${{\\mathbb G}}_B \\times {{\\mathbb G}}_B$, and also with functions\n    $ (x,y) \\mapsto xy$ from ${{\\mathbb G}}_B^{(2)}$ to\n    ${{\\mathbb G}}_B$, and $ x \\mapsto x^{-1}$ from ${{\\mathbb G}}_B$ to\n    ${{\\mathbb G}}_B$ defined such that they are all (ref. [@MRB2k6]).\n\n### Analytic Borel space\n\n${{\\mathbb G}}_B$ becomes an if its Borel structure is .\n\nA Borel space $(X; \\mathcal{B})$ is called *analytic* if it is countably\nseparated, and also if it is the image of a Borel function from a\nstandard Borel space.\n\n[9]{} M.R. Buneci. 2006., , [*Surveys in Mathematics and its\nApplications*]{}, Volume 1, p.75 .",
+  "language": "INFORMAL",
+  "phrase": "Borel Groupoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BorelGroupoid"
+    }
+  ],
+  "indexable": true
+}

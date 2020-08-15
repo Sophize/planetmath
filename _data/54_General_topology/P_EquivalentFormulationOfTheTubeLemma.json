@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let us recall the thesis of the tube lemma. Assume, that $X$ and $Y$ are\ntopological spaces.\n\n**(TL)** If $U\\subseteq X\\times Y$ is open (in product topology) and if\n$x\\in X$ is such that $x\\times Y\\subseteq U$, then there exists an open\nneighbourhood $V\\subseteq X$ of $x$ such that $V\\times Y\\subseteq U$.\n\nWe wish to give a relation between (TL) and the the following thesis,\nconcering closed projections:\n\n**(CP)** The projection $\\pi:X\\times Y\\to X$ given by $\\pi(x,y)=x$ is a\nclosed map.\n\nThe following theorem relates these two statements:\n\n**Theorem.** (TL) is equivalent to (CP).\n\n*Proof.* ,,$\\Rightarrow$\u201d Let $F\\subseteq X\\times Y$ be a closed set and\nlet $U=(X\\times Y)\\backslash F$ be its open complement. We will show,\nthat $\\pi(F)$ is closed, by showing that $V=X\\backslash\\pi(F)$ is open.\nSo assume, that $x\\in V$. Obviously\n$$\\big(\\pi^{-1}(x)=x\\times Y\\big)\\cap F=\\emptyset.$$ Therefore\n$x\\times Y\\subseteq U$ and by (TL) there exists open neighbourhood\n$V'\\subseteq X$ of $x$ such that $V'\\times Y\\subseteq U$. It easily\nfollows, that $V'\\subseteq V$ and it is open, so (since $x$ was chosen\narbitrary) $V$ is open.\n\n,,$\\Leftarrow$\u201d Let $U\\subseteq X\\times Y$ be an open subset such that\n$x\\times Y\\subseteq U$ for some $x\\in X$. Let\n$F=(X\\times Y)\\backslash U$. Then $F$ is closed and by (CP) we have that\n$\\pi(F)\\subseteq X$ is closed. Also $x\\not\\in\\pi(F)$ and thus\n$V=X\\backslash\\pi(F)$ is an open neighbourhood of $x$. It can be easily\nchecked, that $V\\times Y\\subseteq U$, which completes the proof.\n$\\square$\n\n**Remark.** The theorem doesn\u2019t state that any of statements is true. It\nis well known (see tha parent object), that if both $X$ and $Y$ are\nHausdorff with $Y$ compact, then both are true. On the other hand, for\nexample for $X=Y=\\mathbb{R}$, where $\\mathbb{R}$ denotes reals with\nstandard topology, they are both false. For example consider\n$$F=\\{(x,y)\\in\\mathbb{R}^2\\ |\\ xy=1\\}.$$ Of course $F$ is closed, but\n$\\pi(F)=\\mathbb{R}\\backslash\\{0\\}$ is not closed, so the (CP) is false.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquivalentFormulationOfTheTubeLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "equivalent formulation of the tube lemma"
+  ]
+}

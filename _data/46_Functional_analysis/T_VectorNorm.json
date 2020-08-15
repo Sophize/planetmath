@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A vector norm on the real vector space $V$ is a function\n$f : V \\to \\mathbb{R}$ that satisfies the following properties:\n\n$$\\begin{aligned}\n    f(x) = 0 \\iff x = 0 && \\\\\n    f(x) \\ge 0          && x \\in V \\\\\n    f(x+y) \\leq f(x)+f(y) && x,y \\in V \\\\\n    f(\\alpha x) = |\\alpha|f(x) && \\alpha \\in \\mathbb{R},x\\in V\\end{aligned}$$\n\nSuch a function is denoted as $||\\,x\\,||$. Particular norms are\ndistinguished by subscripts, such as $||\\,x\\,||_V$, when referring to a\nnorm in the space $V$. A *unit vector* with respect to the norm\n$||\\,\\cdot\\,||$ is a vector $x$ satisfying $||\\,x\\,|| = 1$.\\\nA vector norm on a complex vector space is defined similarly.\n\nA common (and useful) example of a real norm is the Euclidean norm given\nby $||x||=(x_1^2 + x_2^2 +  \\cdots + x_n^2)^{1/2}$ defined on\n$V=\\mathbb{R}^n$. Note, however, that there exists vector spaces which\nare metric, but upon which it is not possible to define a norm. If it\npossible, the space is called a [*normed vector space*]{}. Given a\nmetric on the vector space, a necessary and sufficient condition for\nthis space to be a normed space, is $$\\begin{aligned}\n     d(x+a,y+a)=&d(x,y) & \\forall x,y,a \\in V\\\\\n     d(\\alpha x,\\alpha y)=&|\\alpha|d(x,y) &\\forall x,y \\in V, \\alpha \\in \\mathbb{R}\\\\\\end{aligned}$$\nBut given a norm, a metric can always be defined by the equation\n$ d(x,y)=||x-y||$. Hence every normed space is a metric space.",
+  "language": "INFORMAL",
+  "phrase": "Vector Norm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VectorNorm"
+    }
+  ],
+  "indexable": true
+}

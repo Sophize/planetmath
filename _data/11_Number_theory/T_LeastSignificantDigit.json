@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*least significant digit*]{} of a number $n$ written in a given\npositional base $b$ is the digit in the least significant place value,\nand has to be in the range $-1 < d_1 < b$. In the case of an integer,\nthe least significant digit is the 1\u2019s place value, usually written to\nthe right of the $b$\u2019s place value. In the case of a transcendental\nnumber, there is no actual least significant digit, but for\ncomputational purposes the rational approximation would have a least\nsignificant digit.\n\nIn an array of digits $k$ long meant for mathematical manipulation, it\nmight be convenient to index the least significant digit with index 1 or\n0, and the more significant digits with larger integers. (This enables\nthe calculation of the value of a given digit as $d_ib^i$ rather than\n$d_ib^{k - i}$.) For an array of digits meant for text string\nmanipulation, however, the least significant digit might be placed at\nposition $k$ (for example, by Mathematica\u2019s IntegerDigits function).\n\nIn binary, the least significant digit is often called the [*least\nsignificant bit*]{}.",
+  "language": "INFORMAL",
+  "phrase": "Least Significant Digit",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeastSignificantDigit"
+    }
+  ],
+  "indexable": true
+}

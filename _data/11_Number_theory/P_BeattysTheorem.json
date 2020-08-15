@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $p$ and $q$ are positive irrationals such that\n$$\\frac{1}{p}+\\frac{1}{q}=1$$ then the sequences $$\\begin{aligned}\n\\{\\lfloor np\\rfloor\\}_{n=1}^\\infty&=&\\lfloor p\\rfloor,\\lfloor 2p\\rfloor,\\lfloor 3p\\rfloor,\\ldots\\\\\n\\{\\lfloor nq\\rfloor\\}_{n=1}^\\infty&=&\\lfloor q\\rfloor,\\lfloor 2q\\rfloor,\\lfloor 3q\\rfloor,\\ldots\\\\\\end{aligned}$$\nwhere $\\lfloor x\\rfloor$ denotes the floor (or greatest integer\nfunction) of $x$, constitute a partition of the set of positive\nintegers.\n\nThat is, every positive integer is a member exactly once of one of the\ntwo sequences and the two sequences have no common terms.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BeattysTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Beatty's theorem"
+  ]
+}

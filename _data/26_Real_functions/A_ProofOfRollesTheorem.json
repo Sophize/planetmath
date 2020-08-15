@@ -1,0 +1,17 @@
+{
+  "argumentText": "Because $f$ is continuous on a compact (closed and bounded) interval\n$I = [a,b]$, it attains its maximum and minimum values. In case\n$f(a)=f(b)$ is both the maximum and the minimum, then there is nothing\nmore to say, for then $f$ is a constant function and $f' \\equiv 0$ on\nthe whole interval $I$. So suppose otherwise, and $f$ attains an\nextremum in the open interval $(a,b)$, and without loss of generality,\nlet this extremum be a maximum, considering $-f$ in lieu of $f$ as\nnecessary. We claim that at this extremum $f(c)$ we have $f'(c) = 0$,\nwith $a < c < b$.\n\nTo show this, note that $f(x) - f(c) \\leq 0$ for all $x \\in I$, because\n$f(c)$ is the maximum. By definition of the derivative, we have that\n$$f'(c) = \\lim_{x \\to c} \\frac{f(x) - f(c)}{x - c}.$$ Looking at the\none-sided limits, we note that\n$$R = \\lim_{x \\to c^+} \\frac{f(x) - f(c)}{x - c} \\leq 0$$ because the\nnumerator in the limit is nonpositive in the interval $I$, yet\n$x - c > 0$, as $x$ approaches $c$ from the right. Similarly,\n$$L = \\lim_{x \\to c^-} \\frac{f(x) - f(c)}{x - c} \\geq 0.$$ Since $f$ is\ndifferentiable at $c$, the left and right limits must coincide, so\n$0 \\leq L = R \\leq 0$, that is to say, $f'(c) = 0$.",
+  "conclusion": "#P_RollesTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfRollesTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Rolle's theorem"
+  ]
+}

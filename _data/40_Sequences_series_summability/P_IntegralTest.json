@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Consider a sequence $(a_n)=\\{a_0,a_1,a_2,a_3,\\ldots\\}$ and given\n$M\\in {\\mathbbmss{R}}$ consider any monotonically nonincreasing function\n$f:[M,+\\infty)\\to {\\mathbbmss{R}}$ which extends the sequence, i.e.\n$$f(n) = a_n \\qquad \\forall n\\ge M$$\n\nAn example is $$a_n = 2n\\qquad \\to\\qquad f(x) = 2x$$ (the former being\nthe sequence $\\{0,2,4,6,8,\\ldots\\}$ and the later the doubling function\nfor any real number.\n\nWe are interested on finding out when the summation\n$$\\sum_{n = 0}^{\\infty}a_n$$ converges.\n\nThe integral test states the following.\n\nThe series $$\\sum_{n = 0}^{\\infty}a_n$$ converges if and only if the\nintegral $$\\int_M^\\infty f(x)\\, dx$$ is finite.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralTest"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "integral test"
+  ]
+}

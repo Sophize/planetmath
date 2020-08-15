@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M \\subset {\\mathbb{C}}^n$ be a smooth submanifold of real\ncodimension 1. Let $p \\in M$ and let $r_p$ denote the generator of the\nprincipal ideal of germs at $p$ of smooth functions vanishing on $M$.\nDefine the number $$\\Delta_1(M,p) = \\sup_{z} \\frac{v(z^* r_p)}{v(z)} ,$$\nwhere $z$ ranges over all parametrized holomorphic curves\n$z \\colon {\\mathbb{D}} \\to {\\mathbb{C}}^n$ (where ${\\mathbb{D}}$ is the\nunit disc) such that $z(0) = 0$, $v$ is the order of vanishing at the\norigin, and $z^* r_p$ is the composition of $r_p$ and $z$. The order of\nvanishing $v(z)$ is $k$ if $k$ is the smallest integer such that the\n$k$th derivative of $z$ is nonzero at the origin and all derivatives of\nsmaller order are zero at the origin. Infinity is allowed for $v(z)$ if\nall derivatives vanish.\n\nWe say $M$ is of ** (or finite 1-type) at $p \\in M$ in the sense of\nD\u2019Angelo if $$\\Delta_1(M,p) < \\infty .$$\n\nIf $M$ is real analytic, then $M$ is finite type at $p$ if and only if\nthere does not exist any germ of a complex analytic subvariety at\n$p \\in M$, that is contained in $M$. If $M$ is only smooth, then it is\npossible that $M$ is not finite type, but does not contain a germ of a\nholomorphic curve. However, if $M$ is not finite type, then there exists\na holomorphic curve which \u201ctouches\u201d $M$ to infinite order.\n\nThe Diederich-Fornaess theorem can be then restated to say that every\ncompact real analytic subvariety of ${\\mathbb{C}}^n$ is of D\u2019Angelo\nfinite type at every point.\n\n[9]{} M. Salah Baouendi, Peter Ebenfelt, Linda Preiss Rothschild.\n[**]{}, Princeton University Press, Princeton, New Jersey, 1999.\nD\u2019Angelo, John\u00a0P. [**]{}, CRC Press, 1993.",
+  "language": "INFORMAL",
+  "phrase": "D'Angelo Finite Type",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DAngeloFiniteType"
+    }
+  ],
+  "indexable": true
+}

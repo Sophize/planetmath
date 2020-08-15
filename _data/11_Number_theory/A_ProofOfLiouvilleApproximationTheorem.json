@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $\\alpha$ satisfy the equation\n$f(\\alpha)=a_n\\alpha^n+a_{n-1}\\alpha^{n-1}+\\dots+a_0=0$ where the $a_i$\nare integers. Choose $M$ such that\n$M>\\max_{\\alpha-1\\leq x\\leq\\alpha+1}|f'(x)|$.\n\nSuppose $\\frac{p}{q}$ lies in $(\\alpha-1,\\alpha+1)$ and\n$f\\left(\\frac{p}{q}\\right)\\neq 0$.\n\n$$\\left|f\\left(\\frac{p}{q}\\right)\\right|=\\frac{\\left|a^np^n+a_{n-1}p^{n-1}q+\\dots+a_0q^n\\right|}{q^n}\\geq\\frac{1} {q^n}$$\n\nsince the numerator is a non-zero integer.\n\nBy the mean-value theorem\n\n$$\\frac{1}{q^n}\\leq \\left|f\\left(\\frac{p}{q}\\right)-f(\\alpha)\\right|=\\left|\\left(\\frac{p}{q}-\\alpha\\right)f'(x)\\right|<M\\left|\\frac{p}{q}-\\alpha\\right|.$$",
+  "conclusion": "#P_LiouvilleApproximationTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfLiouvilleApproximationTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Liouville approximation theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set with metric $d$, $Y\\subseteq X$, and\n$L=\\{d(x,y):x,y\\in Y,x\\ne y\\}$. If $K:=\\#(L)$ is finite, $Y$ is said to\nbe a [*$K$-distance set*]{}.\n\n$Y$ is called a [*maximal $K$-distance set*]{} if and only if for all\n$x\\in X\\setminus Y$, there exists $y\\in Y$ such that $d(x,y)\\notin L$.\nThat is, if anything is added to $Y$, it is no longer a $K$-distance\nset.\n\n$Y$ is called a [*spherical $K$-distance set*]{} if and only if $Y$ is a\n$K$-distance set and every element of $Y$ is a fixed distance $r$ from\nsome element $c$, so $Y$ is a subset of the centered at $c$ with radius\n$r$.\n\nFor example, let $X=\\mathbb{R}^2$ with $d=$ the box metric:\n$d(x,y)=\\max\\{|x_1-y_1|,|x_2-y_2|\\}$ with $x_i,y_i$ components of $x,y$,\nrespectively. Let\n$Y=\\{(0,0),(1,0),(2,0),(0,1),(1,1),(2,1),(0,2),(1,2),(2,2)\\}$. Then\n$L=\\{1,2\\}$, so $K=2$, so $Y$ is a 2-distance set.\n\nNote: please do not confuse this definition of $K$-distance set with\n$\\Delta_K(Y)$, the $K$-distance set of $Y$.",
+  "language": "INFORMAL",
+  "phrase": "K-Distance Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KdistanceSet"
+    }
+  ],
+  "indexable": true
+}

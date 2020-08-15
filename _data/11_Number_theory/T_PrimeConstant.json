@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The number $\\rho$ defined by $$\\rho = \\sum_{p} \\frac{1}{2^p}$$ is known\nas the [*prime constant*]{}. It is simply the number whose binary\nexpansion corresponds to the characteristic function of the set of prime\nnumbers. That is, its $n$th binary digit is $1$ if $n$ is prime and $0$\nif $n$ is composite.\n\nThe beginning of the decimal expansion of $\\rho$ is:\n$$\\rho = 0.414682509851111660248109622...$$\n\nThe number $\\rho$ is easily shown to be irrational. To see why, suppose\nit were rational. Denote the $k$th digit of the binary expansion of\n$\\rho$ by $r_k$. Then, since $\\rho$ is assumed rational, there must\nexist $N$, $k$ positive integers such that $r_n=r_{n+ik}$ for all $n>N$\nand all $i \\in \\mathbb{N}$.\n\nSince there are an infinite number of primes, we may choose a prime\n$p>N$. By definition we see that $r_p=1$. As noted, we have\n$r_p=r_{p+ik}$ for all $i \\in \\mathbb{N}$. Now consider the case $i=p$.\nWe have $r_{p+i \\cdot k}=r_{p+p \\cdot k}=r_{p(k+1)}=0$, since $p(k+1)$\nis composite because $k+1 \\geq 2$. Since $r_p \\neq r_{p(k+1)}$ we see\nthat $\\rho$ is irrational.\n\nThe partial continued fractions of the prime constant can be found .",
+  "language": "INFORMAL",
+  "phrase": "Prime Constant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimeConstant"
+    }
+  ],
+  "indexable": true
+}

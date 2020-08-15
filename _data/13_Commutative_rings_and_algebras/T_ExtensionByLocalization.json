@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "ring extension by localization"
+  ],
+  "definition": "Let $R$ be a commutative ring and let $S$ be a non-empty multiplicative\nsubset of $R$. Then the of $R$ at $S$ gives the commutative ring\n$S^{-1}R$ but, generally, it has no subring isomorphic to $R$. Formally,\n$S^{-1}R$ consists of all elements $\\frac{a}{s}$ ($a \\in R$, $s \\in S$).\nTherefore, $S^{-1}R$ is called also a [*ring of quotients*]{} of $R$. If\n$0 \\in S$, then $S^{-1}R = \\{0\\}$; we assume now that $0 \\notin S$.\n\n-   The mapping $a \\mapsto \\frac{as}{s}$, where $s$ is any element of\n    $S$, is well-defined and a homomorphism from $R$ to $S^{-1}R$. All\n    elements of $S$ are mapped to units of $S^{-1}R$.\n\n-   If, especially, $S$ contains no zero divisors of the ring $R$, then\n    the above mapping is an isomorphism from $R$ to a certain subring of\n    $S^{-1}R$, and we may think that $S^{-1}R \\supseteq R$. In this\n    case, the ring of fractions of $R$ is an extension ring of $R$; this\n    concerns of course the case that $R$ is an integral domain. But if\n    $R$ is a finite ring, then $S^{-1}R = R$, and no proper extension is\n    obtained.",
+  "language": "INFORMAL",
+  "phrase": "Extension By Localization",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtensionByLocalization"
+    }
+  ],
+  "indexable": true
+}

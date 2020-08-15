@@ -1,0 +1,17 @@
+{
+  "argumentText": "In this proof, we first restrict to when $x$ and $a$ are integers and\nonly later lift this restricton.\n\nLet $a > 0$ be an integer, let $b > 1$ be real, and let $x$ be an\ninteger.\n\nConsider the following inequality\n$$\\left( 1 + {1 \\over x} \\right)^a \\le 1 + {a \\over x} \\left( 1 + {1 \\over x}\n \\right)^{a-1}$$ If $x \\ge 2$, then we have\n$$\\left( 1 + {1 \\over x} \\right)^a \\le 1  + {a \\over\n x} \\left( {3 \\over 2} \\right)^{a-1} .$$ Define $X$ to be the greater of\n$2$ and $\\lceil a\n(3/2)^{a-1} / (1 - \\sqrt{b}) \\rceil$; when $x > X$, we have\n$$\\left( 1 + {1 \\over x} \\right)^a \\le \\sqrt{b}.$$\n\nRewrite $x^a / b^x$ as follows when $x > X$:\n$${x^a \\over b^x} = {X^a \\over b^X} \\prod_{n=X}^x \\left( 1 + {1 \\over n} \n \\right)^a {1 \\over b}$$ By the inequality established above, each term\nin the product will be bounded by $1 / \\sqrt{b}$, hence\n$${x^a \\over b^x} \\le {X^a \\over b^X} {1 \\over (\\sqrt{b})^{x - X}}$$\nSince $b > 1$, it is also the case that $\\sqrt{b} > 1$, hence we have\nthe inequality $$(\\sqrt{b})^n \\ge 1 + n (\\sqrt{b} - 1)$$ Combining the\nlast two inequalities yields the following:\n$${x^a \\over b^x} \\le {X^a \\over b^X} \\le {1 \\over 1 + (x - X)\n (\\sqrt{b} - 1)}$$ From this, it follows that\n$\\lim_{x \\to \\infty} x^a / b^x = 0$ when $a$ and $x$ are integers.\n\nNow we lift the restriction that $a$ be an integer. Since the power\nfunction is increasing, $x^a / b^x \\le x^{\\lceil a \\rceil} /\nb^x$, so we have $\\lim_{x \\to \\infty} x^a / b^x = 0$ for real values of\n$a$ as well.\n\nTo lift the restriction on $x$, let us write $x = x_1 + x_2$ where $x_1$\nis an integer and $0 \\le x_2 < 1$. Then we have $${x^a \\over\nb^x} = {x_1^a \\over b^{x_1}} \\left( {x_1 + x_2 \\over x_1} \\right)^a\nb^{-x_2}$$ If $x > 2$, then $(x_1 + x_2) / x_2 < 1.5$. Since $x_2\n\\ge 0, b^{-x_2} \\le 1$. Hence, for all real $x > 2$, we have $${x^a\n\\over b^x} \\le 1.5^a {x_1^a \\over b^{x_1}}$$ From this inequality, it\nfollows that $\\lim_{x \\to \\infty} x^a / b^x = 0$ for real values of $x$\nas well.",
+  "conclusion": "#P_GrowthOfExponentialFunction",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfGrowthOfExponentialFunction"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of growth of exponential function"
+  ]
+}

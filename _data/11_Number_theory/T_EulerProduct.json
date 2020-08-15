@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $f$ is a multiplicative function, then $$\\label{eq:euler_prod}\n\\sum_{n=1}^\\infty f(n)=\n\\prod_{p\\text{ is prime}}(1+f(p)+f(p^2)+\\dotsb)$$ provided the sum on\nthe left converges absolutely. The product on the right is called the\n*Euler product* for the sum on the left.\n\nExpand partial products on right of to obtain by fundamental theorem of\narithmetic $$\\begin{aligned}\n\\prod_{p<y}(1+f(p)+f(p^2)+\\dotsb)&=\n\\sum_{k_1}f(p_1^{k_1})\\sum_{k_2}f(p_2^{k_2}) \\dotsb\\sum_{k_t}f(p_t^{k_t})\\\\\n&=\\sum_{k_1,k_2,\\dotsc,k_t} f(p_1^{k_1})f(p_2^{k_2})\\dotsb f(p_t^{k_t})\\\\\n&=\\sum_{k_1,k_2,\\dotsc,k_t} f(p_1^{k_1}p_2^{k_2}\\dotsb p_t^{k_t})\\\\\n&=\\sum_{P_+(n)<y} f(n)\\end{aligned}$$ where $p_1,p_2,\\dotsc,p_t$ are all\nthe primes between $1$ and $y$, and $P_+(n)$ denotes the largest prime\nfactor of $n$. Since every natural number less than $y$ has no factors\nexceeding $y$ we have that\n$${\\left\\lvert \\sum_{n=1}^\\infty f(n)-\\sum_{P_+(n)<y}\nf(n)\\right\\rvert}\\leq\\sum_{n=y}^\\infty {\\left\\lvert f(n)\\right\\rvert}$$\nwhich tends to zero as $y\\to \\infty$.\n\nExamples {#examples .unnumbered}\n========\n\n-   If the function $f$ is defined on prime powers by $f(p^k)=1/p^k$ for\n    all $p<x$ and $f(p^k)=0$ for all $p\\geq x$, then allows one to\n    estimate $\\prod_{p<x}\n    (1+1/(p-1))$ $$\\prod_{p<x} \\left(1+\\frac{1}{p-1}\\right) =\\prod_{p<x}\n    \\left(1+\\frac{1}{p}+\\frac{1}{p^2}+\\dotsb\\right)=\\sum_{P_+(n)<x}\n    \\frac{1}{n}>\\sum_{n<x}\\frac{1}{n}>\\ln x.$$ One of the consequences\n    of this formula is that there are infinitely many primes.\n\n-   The Riemann zeta function is defined by the means of the series\n    $$\\zeta(s)=\\sum_{n=1}^\\infty n^{-s}\\qquad\\text{for $\\Re s>1$}.$$\n    Since the series converges absolutely, the Euler product for the\n    zeta function is\n    $$\\zeta(s)=\\prod_{p}\\frac{1}{1-p^{-s}}\\qquad\\text{for $\\Re s>1$}.$$\n    If we set $s=2$, then on the one hand $\\zeta(s)=\\sum_n 1/n^2$ is\n    $\\pi^2/6$ (proof is ), an irrational number, and on the other hand\n    $\\zeta(2)$ is a product of rational functions of primes. This yields\n    yet another proof of infinitude of primes.",
+  "language": "INFORMAL",
+  "phrase": "Euler Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulerProduct"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If there exists an abundant number $n$ with divisors $d_1, \\ldots, d_k$,\nsuch that $$\\sum_{i = 1}^k d_i = 2n + 1,$$ that number would be called a\n[*quasiperfect number*]{}. Such a number would be $n > 10^{35}$ and have\n$\\omega(n) > 6$ (where $\\omega$ is the number of distinct prime factors\nfunction).\n\nA quasiperfect number would thus overshoot the mark for being a perfect\nnumber by a margin of just 1. (The powers of 2 are short of perfection\nby a margin of 1).",
+  "language": "INFORMAL",
+  "phrase": "Quasiperfect Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuasiperfectNumber"
+    }
+  ],
+  "indexable": true
+}

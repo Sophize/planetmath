@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a ring with 1.\n\n1.  If $a\\in R$ has a right inverse but no left inverses, then $a$ has\n    infinitely many right inverses.\n\n2.  If $a\\in R$ has more than one right inverse, then $a$ has infinitely\n    many right inverses.\n\n$$$$\n\n1.  Let $ab=1$. Define\n    $b_0=b, b_1=1-b_0a+b_0, \\dots, b_{i+1}=1-b_ia+b_i, \\ldots$ Then, by\n    induction, we see that $ab_i = a-ab_{i-1}a+ab_{i-1}=a-a+1=1$. Next\n    we want to show that $b_i\\neq b_j$ if $i\\neq j$. Suppose $i>j$ and\n    $b_i=b_j$. Again by induction, we have\n    $$b_j=b_i=1+(1-a)+\\cdots+(1-a)^{i-j-1}+b_j(1-a)^{i-j}$$ If we let\n    $c=1+(1-a)+\\cdots+(1-a)^{i-j-1}$ then\n    $(1-a)c=c(1-a)=(1-a)+(1-a)^2+\\cdots+(1-a)^{i-j}=c-1+(1-a)^{i-j}$. So\n    Equation 3 can be rewritten as\n    $c=b_j-b_j(1-a)^{i-j}=b_j(1-(1-a)^{i-j})=b_jca$. Then\n    $cb_j=b_jcab_j=b_jc$. Now, note that for $m\\leq n$,\n    $(1-a)^nb_j^m = (1-a)^{n-m}(b_j-1)^m$. This implies that\n    $$\\begin{aligned}\n    c{{b}_{j}^{\\phantom{j}i-j-1}} &=& {{b}_{j}^{\\phantom{j}i-j-1}}+(b_j-1){{b}_{j}^{\\phantom{j}i-j-2}}+\\cdots+(b_j-1)^{i-j-1} \\\\ &=& g(b_j)+(b_j-1)^{i-j-1}.\\end{aligned}$$\n    On the other hand, we also have $$\\begin{aligned}\n    c{{b}_{j}^{\\phantom{j}i-j-1}} &=& b_jc{{b}_{j}^{\\phantom{j}i-j-2}} \\\\ &=& b_j({{b}_{j}^{\\phantom{j}i-j-2}}+(b_j-1)^{i-j-3}+\n    \\cdots+(1-a)(b_j-1)^{i-j-2}) \\\\ &=& g(b_j)+b_j(1-a)(b_j-1)^{i-j-2}.\\end{aligned}$$\n    So combining the above two equations, we get\n    $(b_j-1)^{i-j-1}=b_j(1-a)(b_j-1)^{i-j-2}$. Let $d=\n    (b_j-1)^{i-j-2}$, then $(b_j-1)d=b_j(1-a)d=b_jd-b_jad$. Simplify, we\n    have $d=b_jad$. Expanding $d$, then $$\\begin{aligned}\n    {{b}_{j}^{\\phantom{j}i-j-2}}+\\cdots+(-1)^{i-j-2} &=& (b_ja)({{b}_{j}^{\\phantom{j}i-j-2}}+\\cdots+(-1)^{i-j-2}) \\\\\n    &=& b_ja{{b}_{j}^{\\phantom{j}i-j-2}}+\\cdots+b_ja(-1)^{i-j-2} \\\\ &=& {{b}_{j}^{\\phantom{j}i-j-2}}+\\cdots+(-1)^{i-j-2}b_ja.\\end{aligned}$$\n    Then $1=b_ja$ and we have reached a contradiction.\n\n2.  For the next part, notice that if $b$ and $c$ are two distinct right\n    inverses of $a$, then neither one of them can be a left inverse of\n    $a$, for if, say, $ba=1$, then $c=(ba)c=b(ca)=b$. So we can apply\n    the same technique used in the previous portion of the problem. Note\n    that if $b_ja=1$, then\n    $$1=b_ja=(1-b_{j-1}a+b_{j-1})a=a-b_{j-1}a^2+b_{j-1}a.$$ Multiply\n    $b_{j-1}$ from the right, we have\n    $$b_{j-1}=ab_{j-1}-b_{j-1}a^2b_{j-1}+b_{j-1}ab_{j-1}=1-b_{j-1}a+b_{j-1}$$\n    Thus $b_{j-1}a=1$. Keep going until we reach $ba=1$, again a\n    contradiction.\n\n**Remark**. The first part of the above proposition implies that a\nfinite ring is Dedekind-finite.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InfinitudeOfInverses"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "infinitude of inverses"
+  ]
+}

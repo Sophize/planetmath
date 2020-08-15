@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $L(G)$ be the of a finite connected graph $G$ with $n$ vertices. Let\nthe eigenvalues of $L(G)$ be denoted by\n$\\lambda_1 \\le \\lambda_2 \\le \\cdots \\le \\lambda_n$, which is the usual\nnotation in spectral graph theory. The *connectivity* of $G$ is\n$\\lambda_2$. The usual notation for the algebraic connectivity is\n$a(G)$. The parameter is a measure of how well the graph is connected.\nFor example, $a(G) \\not = 0$ if and only if $G$ is connected.\n\n[99]{} Fieldler, M. Algebraic connectivity of graphs, *Czech. Math. J.*\n**23** (98) (1973) pp. 298-305. Merris, R. Laplacian matrices of graphs:\na survey, *Lin. Algebra and its Appl.* **197/198** (1994) pp. 143-176.",
+  "language": "INFORMAL",
+  "phrase": "Algebraic Connectivity Of A Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraicConnectivityOfAGraph"
+    }
+  ],
+  "indexable": true
+}

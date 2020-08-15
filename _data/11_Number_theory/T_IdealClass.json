@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "ideal classes"
+  ],
+  "definition": "Let $K$ be a number field. Let $\\mathfrak{a}$ and $\\mathfrak{b}$ be\nideals in $\\mathcal{O}_{K}$ (the ring of algebraic integers of $K$).\nDefine a relation $\\sim$ on the ideals of $\\mathcal{O}_{K}$ in the\nfollowing way: write $\\mathfrak{a} \\sim \\mathfrak{b}$ if there exist\nnonzero elements $\\alpha$ and $\\beta$ of $\\mathcal{O}_K$ such that\n$(\\alpha)\\mathfrak{a}=(\\beta)\\mathfrak{b}$.\n\nThe relation $\\sim$ is an equivalence relation, and the equivalence\nclasses under $\\sim$ are known as [*ideal classes*]{}.\n\nThe number of equivalence classes, denoted by $h$ or $h_K$, is called\nthe [*class number*]{} of $K$.\n\nNote that the set of ideals of any ring $R$ forms an abelian semigroup\nwith the product of ideals as the semigroup operation. By replacing\nideals by ideal classes, it is possible to define a group on the ideal\nclasses of $\\mathcal{O}_{K}$ in the following way.\n\nLet $\\mathfrak{a}$, $\\mathfrak{b}$ be ideals of $\\mathcal{O}_{K}$.\nDenote the ideal classes of which $\\mathfrak{a}$ and $\\mathfrak{b}$ are\nrepresentatives by $[\\mathfrak{a}]$ and $[\\mathfrak{b}]$ respectively.\nThen define $\\cdot$ by\n$$[\\mathfrak{a}] \\cdot [\\mathfrak{b}]=[\\mathfrak{a} \\mathfrak{b}]$$\n\nLet\n${\\cal C} = \\{ [\\mathfrak{a}] \\mid \\mathfrak{a} \\neq (0), \\mathfrak{a} \\text{ an ideal of } \\mathcal{O}_{K} \\}$.\nWith the above definition of multiplication, $\\cal C$ is an abelian\ngroup, called the [*ideal class group*]{} (or frequently just the *class\ngroup*) of $K$.\n\nNote that the ideal class group of $K$ is simply the quotient group of\nthe ideal group of $K$ by the subgroup of principal fractional ideals.",
+  "language": "INFORMAL",
+  "phrase": "Ideal Class",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdealClass"
+    }
+  ],
+  "indexable": true
+}

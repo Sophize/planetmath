@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let the complex function $f(z)$ be holomorphic in a deleted\nneighbourhood of the point $z = z_0$ of the closed complex plane\n$\\mathbb{C}\\cup\\{\\infty\\}$. This point is\n\n-   a regular point (or a removable singularity) iff $f(z)$ is bounded\n    in a neighbourhood of $z_0$,\n\n-   a pole iff $\\displaystyle\\lim_{z \\to z_0}|f(z)| \\,=\\, +\\infty$,\n\n-   an essential singularity iff there is neither of the above cases.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RiemannsTheoremOnIsolatedSingularities"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Riemann's theorem on isolated singularities",
+    "Riemann's theorem"
+  ]
+}

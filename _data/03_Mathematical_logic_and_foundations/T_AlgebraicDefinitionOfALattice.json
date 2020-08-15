@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The defines a lattice as a relational structure (a poset) satisfying the\ncondition that every pair of elements has a supremum and an infimum.\nAlternatively and equivalently, a lattice $L$ can be a defined directly\nas an algebraic structure with two binary operations called meet\n$\\wedge$ and join $\\vee$ satisfying the following conditions:\n\n-   (idempotency of $\\vee$ and $\\wedge$): for each $a\\in L$,\n    $a\\vee a=a\\wedge a=a$;\n\n-   (commutativity of $\\vee$ and $\\wedge$): for every $a,b\\in L$,\n    $a\\vee b=b\\vee a$ and $a\\wedge b=b\\wedge a$;\n\n-   (associativity of $\\vee$ and $\\wedge$): for every $a,b,c\\in L$,\n    $a\\vee(b\\vee c)=(a\\vee b)\\vee c$ and\n    $a\\wedge (b\\wedge c)=(a\\wedge b)\\wedge c$; and\n\n-   (absorption): for every $a,b\\in L$, $a\\wedge (a\\vee b)=a$ and\n    $a\\vee (a\\wedge b)=a$.\n\nIt is easy to see that this definition is equivalent to the one given in\nthe parent, as follows: define a binary relation $\\le$ on $L$ such that\n$$a\\le b\\quad\\mbox{ iff }\\quad a\\vee b=b.$$ Then $\\le$ is reflexive by\nthe idempotency of $\\vee$. Next, if $a\\le b$ and $b\\le a$, then\n$a=a\\vee b=b$, so $\\le$ is anti-symmetric. Finally, if $a\\le b$ and\n$b\\le c$, then $a\\vee c= a\\vee (b\\vee c)=(a\\vee b)\\vee c=b\\vee c=c$, and\ntherefore $a\\le c$. So $\\le$ is transitive. This shows that $\\le$ is a\npartial order on $L$. For any $a,b\\in L$,\n$a\\vee (a\\vee b)=(a\\vee a)\\vee b=a\\vee b$ so that $a\\le a\\vee b$.\nSimilarly, $b\\le a\\vee b$. If $a\\le c$ and $b\\le c$, then\n$(a\\vee b)\\vee c = a\\vee (b\\vee c)=a\\vee c=c$. This shows that $a\\vee b$\nis the supremum of $a$ and $b$. Similarly, $a\\wedge b$ is the infimum of\n$a$ and $b$.\n\nConversely, if $(L,\\le)$ is defined as in the parent entry, then by\ndefining\n$$a\\vee b = \\sup\\lbrace a,b\\rbrace \\quad \\mbox{ and } \\quad a\\wedge b=\\inf\\lbrace a,b\\rbrace,$$\nthe four conditions above are satisfied. For example, let us show one of\nthe absorption laws: $a\\vee (a\\wedge b)=a$. Let\n$c=\\inf\\lbrace a,b\\rbrace \\le a=a\\wedge b$. Then $c\\le a$ so that\n$\\sup\\lbrace a,c\\rbrace=a$, which precisely translates to\n$a=a\\vee c=a\\vee(a\\wedge b)$. The remainder of the proof is left for the\nreader to try.",
+  "language": "INFORMAL",
+  "phrase": "Algebraic Definition Of A Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraicDefinitionOfALattice"
+    }
+  ],
+  "indexable": true
+}

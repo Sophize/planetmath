@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *mollifier* is a smooth function\n$f\\colon {\\mathbbmss{R}}^n \\to {\\mathbbmss{R}}$ such\n\n1.  $f(x)\\ge 0$ for all $x\\in {\\mathbbmss{R}}^n$,\n\n2.  $f$ is normalized such that\n    $$\\int_{{\\mathbbmss{R}}^n} f(x) dx = 1,$$\n\n3.  $f(0)=1$.",
+  "language": "INFORMAL",
+  "phrase": "Mollifier",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Mollifier"
+    }
+  ],
+  "indexable": true
+}

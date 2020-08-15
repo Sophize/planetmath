@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An $m$-dimensional *rectifiable current* is a current $T$ whose action\nagainst a $m$-form $\\omega$ can be written as\n$$T(\\omega) = \\int_S \\theta(x)\\langle \\xi(x),\\omega(x)\\rangle d\\mathcal H^m(x)$$\nwhere $S$ is an $m$-dimensional bounded rectifiable set, $\\xi$ is an\norientation of $S$ i.e.\u00a0$\\xi(x)$ is a unit $m$-vector representing the\napproximate tangent plane of $S$ at $x$ for $\\mathcal H^m$-a.e.\u00a0$x\\in S$\nand, finally, $\\theta(x)$ is an integer valued measurable function\ndefined a.e.\u00a0on $S$ (called *multiplicity*). The space of\n$m$-dimensional rectifiable currents is denoted by $\\mathcal R_m$.\n\nAn $m$-dimensional rectifiable current $T$ such that the boundary\n$\\partial T$ is itself an $(m-1)$-dimensional rectifiable current, is\ncalled *integral current*. The space of integral currents is denoted by\n$\\mathbf I_m$. We point out that the word \u201cintegral\u201d refers to the fact\nthat the multiplicity $\\theta$ is integer valued.\n\nAlso notice that rectifiable and integral currents are not vector\nsubspaces of the space of currents. In fact while the sum of two\nrectifiable currents is again a rectifiable current, the multiplication\nby a real number gives a rectifiable current only if the number is an\ninteger.\n\nThe compactness theorem makes the space of integral currents a good\nspace where geometric problems can be ambiented.\n\nOn rectifiable currents one can define an *integral flat norm*\n$$\\mathcal F(T) := \\inf \\{\\mathbf M(A) + \\mathbf M(B)\\colon\n   T=A+\\partial B,\\quad A\\in \\mathcal R_m,\\ B\\in\\mathcal R_{m+1}\\}.$$\n\nThe closure of the space $\\mathcal R_m$ under the integral flat norm is\ncalled the space of *integral flat chains* and is denoted by\n$\\mathcal F_m$.\n\nAs a consequence of the closure theorem, one finds that\n$\\mathcal R_m = \\{T\\in \\mathcal F_m\\colon \\mathbf M(T)<\\infty\\}$ where\n$\\mathbf M$ is the mass norm of a current.",
+  "language": "INFORMAL",
+  "phrase": "Rectifiable Current",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RectifiableCurrent"
+    }
+  ],
+  "indexable": true
+}

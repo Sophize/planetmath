@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A filtered algebra over the field $k$ is an algebra $(A,\\cdot)$ over $k$\nwhich is endowed with a filtration\n$\\mathcal{F}=\\{F_i\\}_{i\\in \\mathbb{N}}$ by subspaces, compatible with\nthe multiplication in the following sense\n$$\\forall m,n \\in \\mathbb{N},\\qquad F_m\\cdot F_n\\subset F_{n+m}.$$\n\nA special case of filtered algebra is a graded algebra. In general there\nis the following construction that produces a graded algebra out of a\nfiltered algebra.\n\nLet $(A,\\cdot,\\mathcal{F})$ be a filtered algebra then the *associated*\n$ \\mathcal{G}(A)$ is defined as follows:\n\n-   As a vector space\n    $$\\mathcal{G}(A)=\\bigoplus_{n\\in \\mathbb{N}}G_n\\,,$$ where,\n    $$G_0=F_0,\\quad \\text{and } \\forall n>0, \\quad G_n=F_n/F_{n-1}\\,,$$\n\n-   the multiplication is defined by\n    $$(x+F_{n})(y+F_{m})=x\\cdot y+F_{n+m}$$\n\nThe multiplication is well defined and endows $\\mathcal{G}(A)$ with the\nof a graded algebra, with gradation $\\{G_n\\}_{n \\in \\mathbb{N}}$.\nFurthermore if $A$ is associative then so is $\\mathcal{G}(A)$.\n\nAn example of a filtered algebra is the Clifford algebra\n$\\mathrm{Cliff}(V,q)$ of a vector space $V$ endowed with a quadratic\nform $q$. The associated graded algebra is $\\bigwedge V$, the exterior\nalgebra of $V$.\n\nAs algebras $A$ and $\\mathcal{G}(A)$ are distinct (with the exception of\nthe trivial case that $A$ is graded) but as vector spaces they are\nisomorphic.\n\nThe underlying vector spaces of $A$ and $\\mathcal{G}(A)$ are isomorphic.",
+  "language": "INFORMAL",
+  "phrase": "Filtered Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FilteredAlgebra"
+    }
+  ],
+  "indexable": true
+}

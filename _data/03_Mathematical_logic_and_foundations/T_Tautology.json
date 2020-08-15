@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "tautological",
+    "tautologically"
+  ],
+  "definition": "A *tautology* is a statement (or form) which is true solely on account\nof its logical form rather than because of the meaning of the terms\nemployed.\n\nIn propositional logic, a tautology is a statement which is true\nregardless of the truth value of the substatements of which it is\ncomposed. An example would be\n\nIt is a sunny day and on a sunny day the rain does not fall so the rain\ndoes not fall.\n\nThis statement is true no matter what the truth value of the statements\nof which it is comprised, \u201cIt is a sunny day\u201d and \u201cThe rain does not\nfall\u201d may be. More generally, any statement of the form\n\n(P and (if P then Q)) implies Q\n\nor, in symbols,\n\n$$(P \\wedge (P \\rightarrow Q)) \\rightarrow Q$$\n\nis true no matter what statements one may substitute for $P$ and for\n$Q$. (They may even contain connectives themselves. An expression of the\nsort appearing above in which one can obtain tautologies by substituting\narbitrary statements for the variables which appear in the expression is\nknown as a *tautologous form*.)\n\nTo test a statement or form to see if it is a tautology, one may\nconstruct a truth table. If it turns out that one obtains \u201cT\u201d in every\ncolumn, then the statement is a tautology.\n\nIn predicate logic, a tautology is a statement which is true no matter\nwhat choice one makes for the predicates which appear in that statement.\nA simple example would be\n\nIf all cats are black then there exists a black cat.\n\nThis is of the general form\n\n$$(\\forall x) (A(x) \\rightarrow B(x)) \\rightarrow (\\exists x) (A(x) \\rightarrow B(x))$$\n\nwith $A$ being \u201cis a cat\u201d and $B$ being \u201cis black\u201d.\n\nIn the notation of Peano, tautology is denoted by \u201c$\\curlyvee$\u201d. (\u201cv\u201d\ncomes from the Latin \u201cverum\u201d = \u2019true\u2019.)",
+  "language": "INFORMAL",
+  "phrase": "Tautology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Tautology"
+    }
+  ],
+  "indexable": true
+}

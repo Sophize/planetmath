@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $U$ be a simply connected open proper subset of $\\mathbb{C}$, and\nlet $a\\in U$. There is a unique analytic function\n$f:U\\rightarrow\\mathbb{C}$ such that\n\n1.  $f(a)=0$, and $f'(a)$ is real and positive;\n\n2.  $f$ is injective;\n\n3.  $f(U)=\\{z\\in \\mathbb{C}:|z|<1\\}$.\n\n**Remark.** As a consequence of this theorem, any two simply connected\nregions, none of which is the whole plane, are conformally equivalent.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RiemannMappingTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Riemann mapping theorem"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "labeled state transition system",
+    "TS",
+    "LTS",
+    "STS",
+    "LSTS"
+  ],
+  "definition": "A *state transition system* (TS) is a pair $(S,\\rightarrow)$, where\n$\\rightarrow$ is a binary relation on $S$. Elements of $S$ are called\n*states* and elements of $\\rightarrow$ are called *transitions*. When\n$(p,q)\\in \\rightarrow$, we write $p\\rightarrow q$.\n\nA *labelled state transition system* (LTS) is a triple\n$(S,\\Sigma,\\rightarrow)$ where\n$\\rightarrow \\subseteq S\\times \\Sigma \\times S$. Elements of $\\Sigma$\nare called *labels* of the system. If $(p,\\alpha,q)\\in \\rightarrow$, we\nwrite $p\\stackrel{\\alpha}{\\rightarrow} q$. In this way, an LTS can be\nthought of as an STS where each transition is labelled (possibly by more\nthan one label). On the other hand, any TS is just a LTS with one label\nand every transition has the same label.\n\nExamples of LTS are mostly found in theoretical computer science, such\nas automata and Turing machines. An automaton, for example, is just an\nLTS $(S,\\rightarrow)$ with two distinguished mutually disjoint sets\n(subsets of $S$) of states: a set of *start states*, and a set of\n*final* or *accept states*.\n\nGiven an LTS $(S,\\rightarrow)$, if we take the reflexive transitive\nclosure of $\\rightarrow$, then we get a binary relation $\\Rightarrow$ on\n$S$ called the *reachability relation*. In other words, for any\n$p\\in S$, $p\\Rightarrow p$, and for any $q\\in S$, if $p\\Rightarrow q$,\nthen there is a finite sequence $p=p_1,\\ldots p_{n+1}=q$, such that\n$p_i\\rightarrow p_{i+1}$ for $i=1,\\ldots n$. When $p\\Rightarrow q$, we\nsay that $q$ is *reachable* from $p$.\n\nFor an LTS $(S,\\rightarrow)$ with a set $I$ of start states, a state is\nsaid to be *inaccessible* if it is not reachable from any start state.\nIf $S$ is finite, one can use the one of the search techniques to find\nall inaccessible states of $S$. Here\u2019s a basic breadth-first search\nalgorithm:\n\n1.  Initially, circle all start states as accessible. If there are no\n    start states, skip to step 5.\n\n2.  Then for each circled $p$, circle all $q$ such that\n    $p\\rightarrow q$.\n\n3.  Then cross out each $p$ after all $q$ such $p\\rightarrow q$ have\n    been circled.\n\n4.  Repeat the last two steps for each circled $q$. Do this until there\n    are no more circled states.\n\n5.  Finally, the states in $S$ are either crossed out or unmarked, and\n    inaccessible states are precisely the unmarked states.\n\nAn LTS is said to be *deterministic* if $\\rightarrow$ is a partial\nfunction. Otherwise, it is *non-deterministic*.",
+  "language": "INFORMAL",
+  "phrase": "Labelled State Transition System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LabelledStateTransitionSystem"
+    }
+  ],
+  "indexable": true
+}

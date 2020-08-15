@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *pure strategy* provides a definition for a way a player can play a\ngame. In particular, it defines, for every possible choice a player\nmight have to make, which option the player picks. A player\u2019s strategy\nspace is the set of pure strategies available to that player.\n\nA *mixed strategy* is an assignment of a probability to each pure\nstrategy. It defines a probability over the strategies, and reflect\nthat, rather than choosing a particular pure strategy, the player will\nrandomly select a pure strategy based on the distribution given by their\nmixed strategy. Of course, every pure strategy is a mixed strategy (the\nfunction which takes that strategy to $1$ and every other one to $0$).\n\nThe following notation is often used:\n\n-   $S_i$ for the strategy space of the $i$-th player\n\n-   $s_i$ for a particular element of $S_i$; that is, a particular pure\n    strategy\n\n-   $\\sigma_i$ for a mixed strategy. Note that\n    $\\sigma_i\\in S_i\\rightarrow [0,1]$ and\n    $\\sum_{s_i\\in S_i} \\sigma_i(s_i)=1$.\n\n-   $\\Sigma_i$ for the set of all possible mixed strategies for the\n    $i$-th player\n\n-   $S$ for $\\prod_i S_i$, the set of all possible of pure strategies\n    (essentially the possible outcomes of the game)\n\n-   $\\Sigma$ for $\\prod_i \\Sigma_i$\n\n-   $\\sigma$ for a *strategy profile*, a single element of $\\Sigma$\n\n-   $S_{-i}$ for $\\prod_{j\\neq i} S_j$ and $\\Sigma_{-i}$ for\n    $\\prod_{j\\neq i} \\Sigma_j$, the sets of possible pure and mixed\n    strategies for all players other than $i$.\n\n-   $s_{-i}$ for an element of $S_{-i}$ and $\\sigma_{-i}$ for an element\n    of $\\Sigma_{-i}$.",
+  "language": "INFORMAL",
+  "phrase": "Strategy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Strategy"
+    }
+  ],
+  "indexable": true
+}

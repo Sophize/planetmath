@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A=(a_{ij})$ and $B=(b_{ij})$ be two $n\\times n$ matrices. We define\ntheir ** as the matrix whose $(i,j)$th entry is the pair\n$(a_{ij},b_{ij})$.\n\nA *Graeco-Latin square* is then the join of two Latin squares.\n\nThe name comes from Euler\u2019s use of Greek and Latin letters to\ndifferentiate the entries on each array.\n\nAn example of Graeco-Latin square: $$\\begin{pmatrix}\na\\alpha & b\\beta & c\\gamma & d\\delta\\\\\nd\\gamma & c\\delta & b\\alpha & a\\beta\\\\\nb\\delta & a\\gamma & d\\beta &  c\\alpha\\\\\nc\\beta & d\\alpha & a\\delta & b\\gamma\n\\end{pmatrix}$$",
+  "language": "INFORMAL",
+  "phrase": "Graeco-Latin Squares",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GraecoLatinSquares"
+    }
+  ],
+  "indexable": true
+}

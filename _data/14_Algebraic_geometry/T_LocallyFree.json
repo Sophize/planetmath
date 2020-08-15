@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sheaf of ${\\mathcal{O}}_X$-modules ${\\mathcal{F}}$ on a ringed space\n$X$ is called [*locally free*]{} if for each point $p\\in X$, there is an\nopen $U$ of $x$ such that ${\\mathcal{F}}|_U$ is as an\n${\\mathcal{O}}_X|_U$-module, or equivalently, ${\\mathcal{F}}_p$, the\nstalk of ${\\mathcal{F}}$ at $p$, is free as a\n$({\\mathcal{O}}_X)_p$-module. If ${\\mathcal{F}}_p$ is of $n$, then\n${\\mathcal{F}}$ is said to be of rank $n$.",
+  "language": "INFORMAL",
+  "phrase": "Locally Free",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocallyFree"
+    }
+  ],
+  "indexable": true
+}

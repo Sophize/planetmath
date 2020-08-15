@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "repeated digit sum",
+    "repeated digital sum"
+  ],
+  "definition": "Given an integer $m$ consisting of $k$ digits $d_1, \\dots, d_k$ in base\n$b$, let $$j = \\sum_{i = 1}^{k} d_i,$$ then repeat this operation on the\ndigits of $j$ until $j < b$. This stores in $j$ the [*digital root*]{}\nof $m$. The number of iterations of the sum operation is called the\n[*additive persistence*]{} of $m$.\n\nThe digital root of $b^x$ is always 1 for any natural $x$, while the\ndigital root of $yb^n$ (where $y$ is another natural number) is the same\nas the digital root of $y$. This should not be taken to imply that the\ndigital root is necessarily a multiplicative function.\n\nThe digital root of an integer of the form $n(b - 1)$ is always $b - 1$.\n\nAnother way to calculate the digital root for $m > b$ is with the\nformula $m - (b - 1)\\lfloor {{m - 1} \\over {b - 1}} \\rfloor$.",
+  "language": "INFORMAL",
+  "phrase": "Digital Root",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DigitalRoot"
+    }
+  ],
+  "indexable": true
+}

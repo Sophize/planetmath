@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $D$ is an integral domain then it is a PID iff it has a\n*Dedekind-Hasse valuation*, that is, a function\n$\\nu:D-\\{0\\}\\rightarrow \\mathbb{Z}^+$ such that for any $a,b\\in D-\\{0\\}$\neither\n\n-   $a\\in (b)$\n\n    or\n\n-   $\\exists \\alpha\\in(a)\\exists\\beta\\in(b)\\left[0<\\nu(\\alpha+\\beta)<\\nu(b)\\right]$\n\n[*Proof:*]{} First, let $\\nu$ be a Dedekind-Hasse valuation and let $I$\nbe an ideal of an integral domain $D$. Take some $b\\in I$ with $\\nu(b)$\nminimal (this exists because the integers are well-ordered) and some\n$a\\in I$ such that $a\\neq 0$. $I$ must contain both $(a)$ and $(b)$, and\nsince it is closed under addition, $\\alpha+\\beta\\in I$ for any\n$\\alpha\\in(a),\\beta\\in(b)$.\n\nSince $\\nu(b)$ is minimal, the second possibility above is ruled out, so\nit follows that $a\\in (b)$. But this holds for any $a\\in I$, so $I=(b)$,\nand therefore every ideal is princple.\n\nFor the converse, let $D$ be a PID. Then define $\\nu(u)=1$ for any unit.\nAny non-zero, non-unit can be factored into a finite product of\nirreducibles (since ), and every such factorization of $a$ is of the\nsame length, $r$. So for $a\\in D$, a non-zero non-unit, let\n$\\nu(a)=r+1$. Obviously $r\\in\\mathbb{Z}^+$.\n\nThen take any $a,b\\in D-\\{0\\}$ and suppose $a\\notin (b)$. Then take the\nideal of elements of the form\n$\\{\\alpha+\\beta|\\alpha\\in (a), \\beta\\in(b)\\}$. Since this is a PID, it\nis a principal ideal $(c)$ for some $r\\in D-\\{0\\}$, and since\n$0+b=b\\in(c)$, there is some non-unit $x\\in D$ such that $xc=b$. Then\n$N(b)=N(xr)$. But since $x$ is not a unit, the factorization of $b$ must\nbe longer than the factorization of $c$, so $\\nu(b)>\\nu(c)$, so $\\nu$ is\na Dedekind-Hasse valuation.",
+  "language": "INFORMAL",
+  "phrase": "Dedekind-Hasse Valuation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DedekindHasseValuation"
+    }
+  ],
+  "indexable": true
+}

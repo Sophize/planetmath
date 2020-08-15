@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a group.\n\nAn *ascending series* of $G$ is a family $(H_\\alpha)_{\\alpha\\le\\beta}$\nof subgroups of $G$, where $\\beta$ is an ordinal, such that $H_0=\\{1\\}$\nand $H_\\beta=G$, and $H_\\alpha\\normal H_{\\alpha+1}$ for all\n$\\alpha<\\beta$, and $$\\bigcup_{\\alpha<\\delta}H_\\alpha=H_\\delta$$\nwhenever $\\delta\\le\\beta$ is a limit ordinal.\n\nNote that this is a generalization of the concept of a subnormal series.\nCompare also the dual concept of a descending series.\n\nGiven an ascending series $(H_\\alpha)_{\\alpha\\le\\beta}$, the subgroups\n$H_\\alpha$ are called the *terms* of the series and the\n$H_{\\alpha+1}/H_\\alpha$ are called the *factors* of the series.\n\nA subgroup of $G$ that is a term of some ascending series of $G$ is\ncalled an *ascendant subgroup* of $G$. The notation $H\\asc G$ is\nsometimes used to indicate that $H$ is an ascendant subgroup of $G$.\n\nThe groups in which every subgroup is ascendant are precisely the groups\nthat satisfy the normalizer condition. Groups in which every cyclic\nsubgroup is ascendant are called *Gruenberg groups*. It can be shown\nthat in a Gruenberg group, every finitely generated subgroup is\nascendant and nilpotent (and so, in particular, Gruenberg groups are\nlocally nilpotent).\n\nAn ascending series of $G$ in which all terms are normal in $G$ is\ncalled an *ascending normal series*.\n\nLet $\\mathfrak{X}$ be a property of groups. A group is said to be\n*hyper-$\\mathfrak{X}$* if it has an ascending normal series whose\nfactors all have property $\\mathfrak{X}$. So, for example, a\n*hyperabelian group* is a group that has an ascending normal series with\nabelian factors. Hyperabelian groups are sometimes called\n*$SI^*$-groups*.",
+  "language": "INFORMAL",
+  "phrase": "Ascending Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AscendingSeries"
+    }
+  ],
+  "indexable": true
+}

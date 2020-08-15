@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(X_n)_{n\\ge 1}$ be a stationary Markov chain and let $i$ and $j$ be\nstates in the indexing set. We say that $i$ leads to $j$ or $j$ is\naccessible from $i$, and write $i\\to j$, if it is possible for the chain\nto get from state $i$ to state $j$:\n$$i\\to j \\iff P(X_n = j : X_0 = i) > 0 \\quad \\textrm{for some} \\quad n\\ge 0$$\n\nIf $i\\to j$ and $j\\to i$ we say $i$ communicates with $j$ and write\n$i\\leftrightarrow j$. $\\leftrightarrow$ is an equivalence relation (easy\nto prove). The equivalence classes of this relation are the\n*communicating classes* of the chain. If there is just one class, we say\nthe chain is an *irreducible chain*.\n\nA class $C$ is a *closed class* if $i\\in C$ and $i\\to j$ implies that\n$j\\in C$ \u201cOnce the chain enters a closed class, it cannot leave it\u201d\n\nA state $i$ is an *absorbing state* if $\\{i\\}$ is a closed class.",
+  "language": "INFORMAL",
+  "phrase": "Class Structure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClassStructure"
+    }
+  ],
+  "indexable": true
+}

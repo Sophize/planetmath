@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(X_i)_{i\\in I}$ be a family of nonempty topological spaces. The\nproduct space (see product topology) $$\\prod_{i\\in I}X_i$$ is compact if\nand only if each of the spaces $X_i$ is compact.\n\nNot surprisingly, if $I$ is infinite, the proof requires the Axiom of\nChoice. Conversely, one can show that Tychonoff\u2019s theorem implies that\nany product of nonempty sets is nonempty, which is one form of the Axiom\nof Choice.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TychonoffsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Tychonoff's theorem",
+    "Tichonov's theorem"
+  ]
+}

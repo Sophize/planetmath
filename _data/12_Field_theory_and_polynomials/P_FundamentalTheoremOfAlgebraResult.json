@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "This leads to the following theorem:\n\nGiven a polynomial $p(x)=a_nx^n+a_{n-1}x^{n-1}+\\ldots+a_1x+a_0 $ of\ndegree $n\\geq 1$ where $a_i\\in \\mathbb{C}$, there are exactly $n$ roots\nin $\\mathbb{C}$ to the equation $p(x)=0$ if we count multiple roots.\n\n*Proof* The non-constant polynomial $a_1x-a_0$ has one root,\n$x=a_0/a_1$. Next, assume that a polynomial of degree $n-1$ has $n-1$\nroots.\n\nThe polynomial of degree $n$ has then by the fundamental theorem of\nalgebra a root $z_n$. With polynomial division we find the unique\npolynomial $q(x)$ such that $p(x)=(x-z_n)q(x)$. The original equation\nhas then $1 + (n-1)=n $ roots. By induction, every non-constant\npolynomial of degree $n$ has exactly $n$ roots.\n\nFor example, $x^4=0$ has four roots, $x_1=x_2=x_3=x_4=0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalTheoremOfAlgebraResult"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fundamental theorem of algebra result"
+  ]
+}

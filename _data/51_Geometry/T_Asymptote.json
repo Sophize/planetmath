@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If a plane curve $\\gamma$ has a continuing infinitely far from the\norigin $O$, then $\\gamma$ may have an [*asymptote*]{}: The direct line\n$l$ is an asymptote of $\\gamma$, if\n$$\\lim_{d(P, \\,O) \\to \\infty}d(P, \\,l) = 0,$$ where $d(P, \\,O)$ means\nthe of the point $P$ of the from the origin and $d(P, \\,l)$ the of $P$\nfrom the line $l$.\n\n**Examples**: The hyperbola $\\frac{x^2}{a^2}-\\frac{y^2}{b^2} = 1$ has\nthe asymptotes $y = \\pm\\frac{b}{a}x$; the curve $y = \\frac{\\sin x}{x}$\nthe asymptote $y = 0$.\n\n![image](asympt1)",
+  "language": "INFORMAL",
+  "phrase": "Asymptote",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Asymptote"
+    }
+  ],
+  "indexable": true
+}

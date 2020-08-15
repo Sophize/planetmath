@@ -1,0 +1,17 @@
+{
+  "argumentText": "*Outline:*\n\nGiven any function $f$ purporting to violate the theorem by being\nsurjective (or cofinal) on $\\lambda$, we show that there are fewer than\n$\\kappa$ possible values of $f(\\alpha)$, and therefore only\n$\\max(\\alpha,\\kappa)$ possible elements in the entire range of $f$, so\n$f$ is not surjective (or cofinal).\n\n*Details:*\n\nSuppose $\\lambda>\\kappa$ is a cardinal of $\\mathfrak{M}$ that is not a\ncardinal in $\\mathfrak{M}[G]$.\n\nThere is some function $f\\in\\mathfrak{M}[G]$ and some cardinal\n$\\alpha<\\lambda$ such that $f:\\alpha\\rightarrow\\lambda$ is surjective.\nThis has a name, $\\hat{f}$. For each $\\beta<\\alpha$, consider\n$$F_\\beta=\\{\\gamma<\\lambda\\mid p\\Vdash \\hat{f}(\\beta)=\\gamma\\}\\text{ for some }p\\in P$$\n\n$|F_\\beta|<\\kappa$, since any two $p\\in P$ which force different values\nfor $\\hat{f}(\\beta)$ are incompatible and $P$ has no sets of\nincompatible elements of size $\\kappa$.\n\nNotice that $F_\\beta$ is definable in $\\mathfrak{M}$. Then the range of\n$f$ must be contained in $F=\\bigcup_{i<\\alpha} F_i$. But\n$|F|\\leq\\alpha\\cdot\\kappa=\\max(\\alpha,\\kappa)<\\lambda$. So $f$ cannot\npossibly be surjective, and therefore $\\lambda$ is not collapsed.\n\nNow suppose that for some $\\alpha\\geq\\lambda>\\kappa$,\n$\\operatorname{cf}(\\alpha)=\\lambda$ in $\\mathfrak{M}$ and for some\n$\\eta<\\lambda$ there is a cofinal function $f:\\eta\\rightarrow\\alpha$.\n\nWe can construct $F_\\beta$ as above, and again the range of $f$ is\ncontained in $F=\\bigcup_{i<\\eta} F_i$. But then\n$|\\operatorname{range}(f)|\\leq|F|\\leq\\eta\\cdot\\kappa<\\lambda$. So there\nis some $\\gamma<\\alpha$ such that $f(\\beta)<\\gamma$ for any\n$\\beta<\\eta$, and therefore $f$ is not cofinal in $\\alpha$.",
+  "conclusion": "#P_PartialOrderWithChainConditionDoesNotCollapseCardinals",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPartialOrderWithChainConditionDoesNotCollapseCardinals"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of partial order with chain condition does not collapse cardinals"
+  ]
+}

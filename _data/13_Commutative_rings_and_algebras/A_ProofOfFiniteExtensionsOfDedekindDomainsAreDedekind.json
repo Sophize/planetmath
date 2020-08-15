@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $R$ be a Dedekind domain with field of fractions $K$. If $L/K$ is a\nfinite extension of fields and $A$ is the integral closure of $R$ in\n$L$, then we show that $A$ is also a Dedekind domain.\n\nWe procede by splitting the proof up into the separable and purely\ninseparable cases. Letting $F$ consist of all elements of $L$ which are\nseparable over $K$, then $F/K$ is a separable extension and $L/F$ is a\npurely inseparable extension.\n\nFirst, the integral closure $B$ of $R$ in $F$ is a Dedekind domain (see\nproof of finite separable extensions of Dedekind domains are Dedekind).\nThen, as $A$ is integrally closed and contains $B$, it is equal to the\nintegral closure of $B$ in $L$ and, therefore, is a Dedekind domain (see\nproof of finite inseparable extensions of Dedekind domains are\nDedekind).",
+  "conclusion": "#P_FiniteExtensionsOfDedekindDomainsAreDedekind",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfFiniteExtensionsOfDedekindDomainsAreDedekind"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of finite extensions of Dedekind domains are Dedekind"
+  ]
+}

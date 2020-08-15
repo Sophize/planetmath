@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a set and $\\circ$ and $\\bullet$ two binary operations on $S$.\nThen $\\circ$ and $\\bullet$ are said to satisfy the *interchange law* if\n$$(a\\circ b)\\bullet (c\\circ d)=(a\\bullet c)\\circ (b\\bullet d),$$\nprovided that the operations are defined on both sides of the equation.\n\nAn element $e\\in S$ is a $\\circ$-identity, or an identity with respect\nto $\\circ$, if $e\\circ a=a\\circ e=a$ provided the operations are\ndefined.\n\nIf $\\circ$ is a total function (defined for all of $S\\times S$), then\nthere is at most one $\\circ$-identity.\n\nIf $e$ and $f$ are both $\\circ$-idenities, then $e=e\\circ f=f$.\n\nIf both $\\circ$ and $\\bullet$ are total functions, and identities exist\nand the same with respect to both operations, then $\\circ=\\bullet$ and\nis commutative.\n\nSuppose that $e$ is both the $\\circ$-identity and the\n$\\bullet$-identity. Then, according to the interchange law,\n$a\\bullet d = (a\\circ e)\\bullet (e\\circ d)=(a\\bullet e)\\circ (e\\bullet d) = a \\circ d$,\nshowing that $\\bullet = \\circ$. Again, using the interchange law,\n$a\\bullet d=(e\\circ a)\\bullet (d\\circ e)= (e\\bullet d)\\circ (a\\bullet e) = d\\circ a = d\\bullet a$,\nshowing that $\\bullet$ is commutative.",
+  "language": "INFORMAL",
+  "phrase": "Interchange Law",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InterchangeLaw"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "diagonal map"
+  ],
+  "definition": "Given a topological space $X$, the *diagonal embedding*, or *diagonal\nmap* of $X$ into $X\\times X$ (with the product topology) is the map\n\n$$x\\stackrel{\\Delta}{\\longmapsto}(x,x) .$$\n\n$X$ is homeomorphic to the image of $\\Delta$ (which is why we use the\nword \u201cembedding\u201d).\n\nWe can perform the same construction with objects other than topological\nspaces: for instance, there\u2019s a diagonal map\n$\\Delta\\colon G\\to G\\times G$, from a group into its direct sum with\nitself, given by the same . It\u2019s sensible to call this an embedding,\ntoo, since $\\Delta$ is a monomorphism.\n\nWe could also imagine a diagonal map into an n-fold product given by\n\n$$x\\stackrel{\\Delta_n}{\\longmapsto}(x,x,\\ldots ,x).$$\n\n### Why call it the diagonal map? {#why-call-it-the-diagonal-map .unnumbered}\n\nPicture $\\mathbb{R}$. Its diagonal embedding into the Cartesian plane\n$\\mathbb{R}\\times\\mathbb{R}$ is the diagonal line $y=x$.\n\n### What\u2019s it good for? {#whats-it-good-for .unnumbered}\n\nSometimes we can use information about the product space $X\\times X$\ntogether with the diagonal embedding to get back information about $X$.\nFor instance, $X$ is Hausdorff if and only if the image of $\\Delta$ is\nclosed in $X\\times X$ \\[\\]. If we know more about the product space than\nwe do about $X$, it might be easier to check if\n$\\operatorname{Im}\\Delta$ is closed than to verify the Hausdorff\ncondition directly.\n\nWhen studying algebraic topology, the fact that we have a diagonal\nembedding for any space $X$ lets us define a bit of extra structure in\ncohomology, called the cup product. This makes cohomology into a ring,\nso that we can bring additional algebraic muscle to bear on topological\nquestions.\n\nAnother application from algebraic topology: there is something called\nan $H$-space, which is essentially a topological space in which you can\nmultiply two points together. The diagonal embedding, together with the\nmultiplication, lets us say that the cohomology of an $H$-space is a\nHopf algebra; this structure lets us find out lots of things about\n$H$-spaces by analogy to what we know about compact Lie groups.",
+  "language": "INFORMAL",
+  "phrase": "Diagonal Embedding",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiagonalEmbedding"
+    }
+  ],
+  "indexable": true
+}

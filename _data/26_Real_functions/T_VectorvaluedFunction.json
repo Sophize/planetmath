@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $n$ be a positive integer greater than 1. A function $F$ from a\nsubset $T$ of $\\mathbb{R}$ to the Cartesian product $\\mathbb{R}^n$ is\ncalled a *vector-valued function* of one real variable. Such a function\nto any real number $t$ of $T$ a coordinate vector\n$$F(t) \\;=\\; (f_1(t),\\,\\ldots,\\,f_n(t)).$$ Hence one may say that the\nvector-valued function $F$ is composed of $n$ real functions\n$t \\mapsto f_i(t)$, the values of which at $t$ are the components of\n$F(t)$. Therefore the function $F$ itself may be written in the\ncomponent form $$\\begin{aligned}\nF \\;=\\; (f_1,\\,\\ldots,\\,f_n).\\end{aligned}$$\n\n**Example.** The ellipse\n$$\\{(a\\cos{t},\\,b\\sin{t})\\,\\vdots\\;\\; t \\in \\mathbb{R}\\}$$ is the value\nset of a vector-valued function $\\mathbb{R} \\to \\mathbb{R}^2$ ($t$ is\nthe eccentric anomaly).\\\n*Limit, derivative and integral* of the function (1) are defined\ncomponentwise through the equations\n\n-   $\\displaystyle\\lim_{t\\to t_0}F(t) \\;:=\\; \\left(\\lim_{t\\to t_0}f_1(t),\\,\\ldots,\\,\\lim_{t\\to t_0}f_n(t)\\right)$\n\n-   $\\displaystyle F'(t) \\;:=\\; \\left(f_1'(t),\\,\\ldots,\\,f_n'(t)\\right)$\n\n-   $\\displaystyle\\int_a^b\\!F(t)\\,dt \\;:=\\; \\left(\\int_a^b\\!f_1(t)\\,dt,\\,\\ldots,\\,\\int_a^b\\!f_n(t)\\,dt\\right)$\n\nThe function $F$ is said to be *continuous, differentiable or\nintegrable* on an interval $[a,\\,b]$ if every component of $F$ has such\na property.\\\n**Example.** If $F$ is continuous on $[a,\\,b]$, the set\n$$\\begin{aligned}\n\\gamma \\;:=\\; \\{F(t)\\,\\vdots\\;\\;\\; t \\in [a,\\,b]\\}\\end{aligned}$$ is a\n(continuous) curve in $\\mathbb{R}^n$. It follows from the above\ndefinition of the derivative $F'(t)$ that $F'(t)$ is the limit of the\nexpression $$\\begin{aligned}\n\\frac{1}{h}[F(t\\!+\\!h)-F(t)]\\end{aligned}$$ as $h \\to 0$. Geometrically,\nthe vector (3) is parallel to the line segment connecting (the end\npoints of the position vectors of) the points $F(t\\!+\\!h)$ and $F(t)$.\nIf $F$ is differentiable in $t$, the direction of this line segment then\ntends infinitely the direction of the tangent line of $\\gamma$ in the\npoint $F(t)$. Accordingly, the direction of the tangent line is\ndetermined by the derivative vector $F'(t)$.",
+  "language": "INFORMAL",
+  "phrase": "Vector-Valued Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VectorvaluedFunction"
+    }
+  ],
+  "indexable": true
+}

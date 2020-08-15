@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "self descriptive number"
+  ],
+  "definition": "A [*self-descriptive number*]{} $n$ in base $b$ is an integer such that\neach base $b$ digit $$d_x = \\sum_{d_i = x} 1$$ where each $d_i$ is a\ndigit of $n$, $i$ is a very simple, standard iterator operating in the\nrange $-1 < i < b$, and $x$ is a position of a digit; thus $n$\n\u201cdescribes\u201d itself.\n\nFor example, the integer 6210001000 written in base 10. It has six\ninstances of the digit 0, two instances of the digit 1, a single\ninstance of the digit 2, a single instance of the digit 6 and no\ninstances of any other base 10 digits.\n\nBase 4 might be the only base with two self-descriptive numbers,\n$1210_4$ and $2020_4$. From base 7 onwards, every base $b$ has at least\none self-descriptive number of the form\n$(b - 4)^{b - 1} + 2b^{b - 2} + b^{b - 3} + b^4$. It has been proven\nthat 6210001000 is the only self-descriptive number in base 10, but it\u2019s\nnot known if any higher bases have any self-descriptive numbers of any\nother form.\n\nSequence A108551 of the OEIS lists self-descriptive numbers from quartal\nto hexadecimal.",
+  "language": "INFORMAL",
+  "phrase": "Self-Descriptive Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SelfdescriptiveNumber"
+    }
+  ],
+  "indexable": true
+}

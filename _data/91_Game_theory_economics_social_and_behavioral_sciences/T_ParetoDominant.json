@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An outcome $s^*$ *strongly Pareto dominates* $s^\\prime$ if:\n$$\\forall i\\leq n \\left[u_i(s^*)>u_i(s^\\prime)\\right]$$\n\nAn outcome $s^*$ *weakly Pareto dominates* $s^\\prime$ if:\n$$\\forall i\\leq n \\left[u_i(s^*)\\geq u_i(s^\\prime)\\right]$$\n\n$s^*$ is *strongly Pareto optimal* if whenever $s^\\prime$ weakly Pareto\ndominates $s^*$, $\\forall i\\leq n\\left[u_i(s^*)=u_i(s^\\prime)\\right]$.\nThat is, there is no strategy which provides at least as large a payoff\nto each player and a larger one to at least one. $s^*$ is *weakly Pareto\noptimal* if there is no $s^\\prime$ such that $s^\\prime$ strongly Pareto\ndominates $s^*$.",
+  "language": "INFORMAL",
+  "phrase": "Pareto Dominant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ParetoDominant"
+    }
+  ],
+  "indexable": true
+}

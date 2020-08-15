@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The sequence of polynomials $$\\begin{aligned}\n\\langle P_0(x),\\, P_1(x),\\, P_2(x),\\, \\ldots\\rangle\\end{aligned}$$ with\n$$P_n(x) \\;:=\\; ax^n \\qquad (n = 0,\\,1,\\,2,\\,\\ldots)$$ is a geometric\nsequence and has trivially the properties $$\\begin{aligned}\nP_n'(x) \\;=\\; nP_{n-1}(x) \\qquad (n = 0,\\,1,\\,2,\\,\\ldots)\\end{aligned}$$\nand $$\\begin{aligned}\nP_n(x\\!+\\!y) \\;=\\; \\sum_{k=0}^n {n \\choose k}P_k(x)y^{n-k}\\end{aligned}$$\n(see the binomial theorem). There are also other polynomial sequences\n(1) having these properties, for example the sequences of the Bernoulli\npolynomials, the Euler polynomials and the Hermite polynomials. Such\nsequences are called *Appell sequences* and their members are sometimes\ncharacterised as *generalised monomials*, because of resemblance to the\ngeometric sequence.\n\nGiven the first member $P_0(x)$, which must be a nonzero constant\npolynomial, of any Appell sequence (1), the other members are determined\nrecursively by $$\\begin{aligned}\nP_n(x) \\;=\\; \\int_0^x\\!\\!P_{n-1}(t)\\,dt+C_n\\end{aligned}$$ as one gives\nthe values of the constants of integration $C_n$; thus the number\nsequence $$\\langle C_0,\\,C_1,\\,C_2,\\,\\ldots\\rangle$$ determines the\nAppell sequence uniquely. So the choice $C_1 = C_2 = \\ldots := 0$ yields\na geometric sequence and the choice $C_n := B_n$ for\n$n = 0,\\,1,\\,2,\\,\\ldots$ the .\\\nThe properties (2) and (3) are . The implication $(2)\\Rightarrow(3)$ may\nbe shown by on $n$. The reverse implication is gotten by using the\ndefinition of derivative: $$\\begin{aligned}\nP_n'(x) &\\;=\\;  \\lim_{\\Delta x \\to 0}\\frac{P_n(x\\!+\\!\\Delta x)-P_n(x)}{\\Delta x}\\\\\n& \\;=\\; \\lim_{\\Delta x \\to 0}\\frac{P_0(x)\\Delta x^n+{n \\choose 1}P_1(x)\\Delta x^{n-1}+\\ldots+{n \\choose n-1}P_{n-1}(x)\\Delta x}{\\Delta x}\\\\\n& \\;=\\; {n \\choose n\\!-\\!1}P_{n-1}(x)\\\\\n& \\;=\\; nP_{n-1}(x).\\end{aligned}$$\n\nSee also .",
+  "language": "INFORMAL",
+  "phrase": "Appell Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AppellSequence"
+    }
+  ],
+  "indexable": true
+}

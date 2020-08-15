@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Lipschitz",
+    "Lipschitz continuous"
+  ],
+  "definition": "A mapping $f: X \\to Y$ between metric spaces is said to satisfy the\nLipschitz condition, or to be *Lipschitz continuous* or *$L$-Lipschitz*\nif there exists a real constant $L$ such that\n$$d_Y(f(p),f(q)) \\leq L d_X(p,q),\\quad \\text{for all}\\; p,q\\in X.$$\n\nThe least constant $L$ for which the previous inequality holds, is\ncalled the *Lipschitz constant* of $f$. The space of Lipschitz\ncontinuous functions is often denoted by $\\mathrm{Lip}(X,Y)$.\n\nClearly, every Lipschitz continuous function is continuous.\n\n#### Notes.\n\nMore generally, one says that a mapping satisfies a Lipschitz condition\nof order $\\alpha>0$ if there exists a real constant $C$ such that\n$$d_Y(f(p),f(q)) \\leq C d_X(p,q)^\\alpha,\\quad \\text{for all}\\; p,q\\in X.$$\n\nFunctions which satisfy this condition are also called *H[\u00f6]{}lder\ncontinuous* or *$\\alpha$-H[\u00f6]{}lder*. The vector space of such functions\nis denoted by $C^{0,\\alpha}(X,Y)$ and hence $\\mathrm{Lip}=C^{0,1}$.",
+  "language": "INFORMAL",
+  "phrase": "Lipschitz Condition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LipschitzCondition"
+    }
+  ],
+  "indexable": true
+}

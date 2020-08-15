@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $k$ be a field, let $R$ be an ${\\mathbb}{N}^m$- $k$-algebra, and let\n$M$ be a ${{\\mathbb}{Z}}^m$-graded $R$-module.\n\nLet $\\mathcal{H}(R_+)$ be the homogeneous union of the irrelevant ideal\nof $R$.\n\nA *partial homogeneous system of parameters* for $M$ is a finite\nsequence of elements\n$\\theta_1, \\theta_2, \\ldots, \\theta_r\\in\\mathcal{H}(R_+)$ such that\n\n$$\\begin{aligned}\n\\dim\\left(M/\\left(\\sum_{i=1}^r \\theta_iM\\right)\\right)=\\dim(M)-r,\\end{aligned}$$\n\nwhere $\\dim$ gives the Krull dimension.\n\nA () *homogeneous system of parameters* is a partial homogeneous system\nof parameters such that $r=\\dim(M)$.\n\nA sequence $\\theta_1,\\ldots,\\theta_r\\in\\mathcal{H}(R_+)$ is a\n*$M$-sequence* if for all $i$ with $0\\leq i<r$, we have that\n$\\theta_{i+1}$ is not a zero-divisor in\n\n$$\\begin{aligned}\nM/\\left(\\sum_{j=1}^i \\theta_iM\\right).\\end{aligned}$$\n\nFinally, view $M$ as being ${{\\mathbb}{Z}}$-graded by using any\nspecialization of the above ${{\\mathbb}{Z}}^m$-grading. Then we define\nthe *depth* of $M$ to be the length of the longest homogeneous\n$M$-sequence.\n\n[9]{} Richard P. Stanley, [*Combinatorics and Commutative Algebra*]{},\nSecond edition, Birkhauser Press. Boston, MA. 1986.",
+  "language": "INFORMAL",
+  "phrase": "Homogeneous System Of Parameters",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomogeneousSystemOfParameters"
+    }
+  ],
+  "indexable": true
+}

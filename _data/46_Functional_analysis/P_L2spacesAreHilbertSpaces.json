@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(X, \\mathfrak{B}, \\mu)$ be a measure space. Let $L^2(X)$ denote the\nassociated with this measure space, i.e. $L^2(X)$ consists of measurable\nfunctions $f:X \\longrightarrow \\mathbb{C}$ such that\n$$\\|f\\|_2 := \\left (\\int_X |f|^2 d\\mu \\right)^{\\frac{1}{2}} < \\infty$$\nidentified up to equivalence almost everywhere.\n\nIt is known that all , with $1\\leq p \\leq \\infty$, are Banach spaces\nwith respect to the $\\;\\|\\cdot\\|_p$. For $L^2(X)$ we can say more:\n\n[**Theorem -**]{} $L^2(X)$ is an Hilbert Space with respect to the inner\nproduct $\\langle \\cdot, \\cdot \\rangle$ defined by\n$$\\langle f, g \\rangle = \\int_X f\\overline{g} \\;d\\mu$$\n\n*Proof:*\n\n*Sesquilinearity* follows from the (that is, the inner product defined\nabove is linear in the first argument and conjugate linear in the second\none). The conjugate symmetry is evident.\n\nPositive definiteness holds by construction: If $\\int_X |f|^2 d\\mu = 0$,\nthen $|f|^2$ (and therefore $f$) is zero almost everywhere, thus the\nequivalence class of $f$ is the equivalence class of the zero function\n(which is the additive neutral element of the space).\n\nCompleteness is proved for the general case of $L^p$-spaces in\n.$\\square$\n\n### Remarks\n\n-   The spaces $\\mathbb{C}^n$ or $\\mathbb{R}^n$ with the usual inner\n    product are particular examples of $L^2(X)$, choosing\n    $X = \\{1, \\dots, n\\}$ with the counting measure.\n\n-   Choosing appropriate spaces $X$ it can be shown that all Hilbert\n    spaces are isometrically isomorphic to a $L^2$-space.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/L2spacesAreHilbertSpaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$L^2$-spaces are Hilbert spaces",
+    "square integrable functions form an Hilbert space"
+  ]
+}

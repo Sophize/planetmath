@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*bornivore*]{} is a set which absorbs all bounded sets. That is, $G$\nis a bornivore if given any bounded set $B$, there exists a $\\delta > 0$\nsuch that $\\epsilon B \\subset G$ for $0 \\leq \\epsilon < \\delta$.\n\nA locally convex topological vector space is said to be\n[*bornological*]{} if every convex bornivore is a neighborhood of 0.\n\nA metrizable topological vector space is bornological.\n\n[99]{} A. Wilansky, *Functional Analysis*, Blaisdell Publishing Co.\n1964. H.H. Schaefer, M. P. Wolff, *Topological Vector Spaces*, 2nd ed.\n1999, Springer-Verlag.",
+  "language": "INFORMAL",
+  "phrase": "Bornological Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BornologicalSpace"
+    }
+  ],
+  "indexable": true
+}

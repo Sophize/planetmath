@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definition\n----------\n\n[**Definition -**]{} Let $G$ be a group. Two subgroups\n$S_1, S_2 \\subseteq G$ are said to be [**commensurable**]{}, in which\ncase we write $S_1 \\sim S_2$, if $S_1 \\cap S_2$ has finite index both in\n$S_1$ and in $S_2$, i.e. if $[S_1 : S_1 \\cap S_2]$ and\n$[S_2 : S_1 \\cap S_2]$ are both finite.\n\nThis can be interpreted informally in the following : $S_1$ and $S_2$\nare commensurable if their intersection $S_1 \\cap S_2$ is \u201cbig\u201d in both\n$S_1$ and $S_2$.\n\nCommensurability is an equivalence relation\n-------------------------------------------\n\n[ **-**]{} of subgroups is an equivalence relation. In particular, if\n$S_1 \\sim S_2$ and $S_2 \\sim S_3$, then $S_1 \\sim S_3$.\n\n[***:***]{} Let $S_1$, $S_2$ and $S_3$ be subgroups of a group $G$.\n\n-   Reflexivity: we have that $S_1 \\sim S_1$, since $[S_1: S_1] = 1$.\n\n-   Symmetry: is clear from the definition.\n\n-   Transitivity: if $S_1 \\sim S_2$ and $S_2 \\sim S_3$, then one has\n    $$\\begin{aligned}\n    [S_1:S_1 \\cap S_3] & \\leq & [S_1:S_1 \\cap S_2 \\cap S_3]\\\\\n    & = & [S_1:S_1 \\cap S_2][S_1 \\cap S_2 : S_1 \\cap S_2 \\cap S_3]\\\\\n    & \\leq & [S_1:S_1 \\cap S_2][S_2:S_2 \\cap S_3]\\\\\n    & < & \\infty.\\end{aligned}$$ Similarly, we can prove that\n    $[S_3:S_1 \\cap S_3] < \\infty$ and therefore $S_1 \\sim S_3$.\n    $\\square$\n\nExamples:\n---------\n\n-   All non-zero subgroups of $\\mathbb{Z}$ are commensurable with each\n    other.\n\n-   All conjugacy classes of the general linear group\n    $GL(n;\\mathbb{Z})$, seen as a subgroup of $GL(n;\\mathbb{Q})$, are\n    commensurable with each other.\n\n[9]{} A. Krieg, **, Mem. Amer. Math. Soc., no. 435, vol. 87, 1990.",
+  "language": "INFORMAL",
+  "phrase": "Commensurable Subgroups",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CommensurableSubgroups"
+    }
+  ],
+  "indexable": true
+}

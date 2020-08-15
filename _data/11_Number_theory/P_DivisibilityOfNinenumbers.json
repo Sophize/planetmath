@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We know that 9 is divisible by the prime number 3 and that 99 by another\nprime number 11. If we study the divisibility other \u201cnine-numbers\u201d by\nprimes, we can see that 999 is divisible by a greater prime number 37\nand 9999 by 101 which also is a prime, and so on. Such observations may\nbe generalised to the following\\\n**Proposition.** For every positive odd prime $p$ except 5, there is a\nnine-number $999...9$ divisible by $p$.\\\n*Proof.* Let $p$ be a positive odd prime $\\neq 5$. Let\u2019s form the set of\nthe integers $$\\begin{aligned}\n9,\\,99,\\,999,\\,\\ldots,\\, \\underbrace{99...9}_{p\\; \\mathrm{nines}}.\\end{aligned}$$\nWe make the antithesis that no one of these numbers is divisible by $p$.\nTherefore, their least nonnegative remainders modulo $p$ are some of the\n$p\\!-\\!1$ numbers $$\\begin{aligned}\n1,\\,2,\\,3,\\,\\ldots,\\,p\\!-\\!1.\\end{aligned}$$ Thus there are at least two\nof the numbers (1), say $a$ and $b$ ($a< b$), having the same remainder.\nThe difference $b\\!-\\!a$ then has the decadic of the form\n$$b\\!-\\!a \\;=\\; 999...9000...0,$$ which comprises at least one 9 and one\n0. Because of the equal remainders of $a$ and $b$, the difference is\ndivisible by $p$. Since $b\\!-\\!a = 999...9\\!\\cdot\\!1000...0$ and 2 and 5\nare the only prime factors of the latter , $p$ must divide the former\nfactor $999...9$ (cf. divisibility by prime). But this is one of the\nnumbers (1), whence our antithesis is wrong. Consequently, at least one\nof (1) is divisible by $p$.\\\nIn other , one can write propositions analogous to the above one\nconcerning the decadic system, for example in the dyadic (a.k.a. digital\nsystem:\\\n**Proposition.** For every odd prime $p$, there is a number\n$111...1_{\\mathrm{two}}$ divisible by $p$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DivisibilityOfNinenumbers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "divisibility of nine-numbers"
+  ]
+}

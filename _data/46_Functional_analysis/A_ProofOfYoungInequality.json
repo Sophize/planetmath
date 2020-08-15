@@ -1,0 +1,17 @@
+{
+  "argumentText": "By the concavity of the $\\log$ function we have\n$$\\log ab = \\frac 1 p \\log a^p + \\frac 1 q \\log b^q \\le \\log(\\frac 1 p a^p + \\frac 1 q b^q).$$\nBy exponentiation we obtain the desired result.",
+  "conclusion": "#P_YoungInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfYoungInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Young Inequality"
+  ]
+}

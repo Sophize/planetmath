@@ -1,0 +1,17 @@
+{
+  "argumentText": "We suppose that \u201c$\\cdot$\u201d is an associative binary operation of the set\n$S$.\\\nLet $f_1\\!:\\,S \\to 2^S$ be the mapping\n$$f_1(a_1) \\;:=\\; \\{a_1\\} \\quad \\forall a_1 \\in S.$$ We define\nrecursively the mapping\n$$f_n\\!:\\,\\underbrace{S\\!\\times\\!S\\!\\times\\!\\ldots\\!\\times\\!S}_n \\to 2^S$$\nsuch that $$\\begin{aligned}\nf_n(a_1,\\ldots,\\,a_n) \\;:=\\; \\bigcup_{r=1}^{n-1}f_r(a_1,\\ldots,\\,a_r)\\cdot f_{n-r}(a_{r+1},\\ldots,\\,a_n)\\end{aligned}$$\nfor $n = 2,\\,3,\\,4,\\,\\ldots$\n\nFor example,\n$$f_2(a_1,a_2) \\;=\\; \\{a_1\\}\\cdot\\{a_2\\} \\;=\\; \\{a_1\\cdot a_2\\},$$\n$$f_3(a_1,a_2,a_3) \\;=\\; \\{a_1\\cdot(a_2\\cdot a_3)\\}\\cup\\{(a_1\\cdot a_2)\\cdot a_3\\} \\;=\\; \n\\{a_1\\cdot(a_2\\cdot a_3),\\,(a_1\\cdot a_2)\\cdot a_3\\} \\;=\\; \\{(a_1\\cdot a_2)\\cdot a_3\\};$$\nthe last equality due to the associativity. It\u2019s clear that always\n$$|f_1(a_1)|\\;=\\; 1,\\qquad |f_2(a_1,a_2)| \\;=\\; 1,\n\\qquad |f_3(a_1,a_2,a_3)| \\;=\\; 1.$$\n\nWe shall show by induction that $$\\begin{aligned}\n|f_n(a_1,a_2,\\ldots,\\,a_n)| \\;=\\; 1\\end{aligned}$$ for each positive\ninteger $n$. This means that all groupings of the $n$ fixed elements\nusing parentheses in forming the products with \u201c$\\cdot$\u201d yield one\nsingle element.\\\nWe make the induction hypothesis, that (2) is true for all $n < k.$\n\nNow let $z$ and $z'$ be arbitrary elements of $f_k(a_1,\\ldots,\\,a_k)$.\nThen there exist the elements $x,y,x',y'$ of $S$ and the integers\n$r, s \\in \\{1,\\,\\ldots,\\,k\\!-\\!1\\}$ such that\n$$z \\;=\\; x\\cdot y,\\quad x \\in f_r(a_1,\\ldots,\\,a_r),\\quad y \\in f_{k-r}(a_{r+1},\\ldots,\\, a_k),$$\n$$z' \\;=\\; x'\\cdot y',\\quad x' \\in f_s(a_1,\\ldots,\\,a_s),\\quad y' \\in f_{k-s}(a_{s+1},\\ldots,\\, a_k).$$\nIf specially $r = s$, then, by the induction hypothesis, $x = x'$ and\n$y = y'$, whence $z = x\\cdot y = x'\\cdot y' = z'$. If on the contrary,\n$r \\neq s$, e.g. $r < s$, then the induction hypothesis guarantees the\nexistence of an element $v$ of $S$ such that\n$$f_{s-r}(a_{r+1},\\ldots,\\,a_s) \\;=\\; \\{v\\}$$ and\n$$x' \\;=\\; x\\cdot v,\\quad y \\;=\\; v\\cdot y'.$$ Since \u201c$\\cdot$\u201d is\nassociative, we have\n$$z \\;=\\; x\\cdot y \\;=\\; x\\cdot(v\\cdot y') \\;=\\; (x\\cdot v)\\cdot y' \\;=\\; x'\\cdot y' \\;=\\; z'.$$\nThus the equation (2) is in force for $n = k$.",
+  "conclusion": "#P_GeneralAssociativity",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfGeneralAssociativity"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of general associativity"
+  ]
+}

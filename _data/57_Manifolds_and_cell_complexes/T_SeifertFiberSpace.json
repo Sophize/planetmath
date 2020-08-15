@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "circle bundle"
+  ],
+  "definition": "In the field of three dimensional manifolds there is a kind which can be\nconsidered as spaces which are fibered by , that is, for each point in\nthe space there is a unique circle (a homeomorph of $S^1$) which\ncontains it.\n\nA Seifert fiber space can be defined as a circle bundle over an\norbifold, however these kind of 3-manifolds appeared much earlier than\nthe concept of fiber-bundle.\n\nTo construct them one must begin learning how to fiber a solid torus.\nNaturally a solid torus $D^2\\times S^1$ is foliated by circles\n$p\\times S^1$ where $p\\in D^2$.\n\nTo get different fibered solid tori one must begin with a solid torus\n$D^2\\times S^1$, cut it along a meridian disk and twist the resulting\nsolid cylinder by a rational angle $2\\pi(a/b)$ (being $a,b$ coprime) and\nreglue to obtain a new fibering by circles of the old torus, where the\nfibers all are still longitudinal circles but differs by the previous\none in the fact that now only the center\u2019s disk is a trivial circle but\nany other point in the disk is in a circle which is $b$ times longer\nthat the central one.\n\nIt is possible construct an associated 2-manifold identifying each fiber\nto a point to get the so called [**orbit surface**]{}.\n\n[**References**]{}\n\nH. Seifert,[*Topologie drei-dimensionaler gefaserter R\u00e4ume*]{}, Acta.\nMath. 60 (1933), 147 - 238.\n\nM.Brin, [*Seifert Fibered Spaces, Notes for a course given in the Spring\nof 1993*]{}, on line at\nftp://ftp.math.binghamton.edu/pub/matt/seifert.pdf",
+  "language": "INFORMAL",
+  "phrase": "Seifert Fiber Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SeifertFiberSpace"
+    }
+  ],
+  "indexable": true
+}

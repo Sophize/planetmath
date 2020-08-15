@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $B_r$ be the $r$th Bernoulli polynomial. Then the $r$th [**Bernoulli\nnumber**]{} is $$B_r := B_r(0).$$\n\nThis means, in particular, that the Bernoulli numbers are given by an\nexponential generating function in the following way:\n$$\\sum_{r=0}^{\\infty} B_r \\frac{y^r}{r!} = \\frac{y}{e^y-1}$$ and, in\nfact, the Bernoulli numbers are usually defined as the coefficients that\nappear in such expansion.\n\nObserve that this generating function can be rewritten:\n$$\\frac{y}{e^y-1} = \\frac{y}{2}\\frac{e^y+1}{e^y-1} - \\frac{y}{2} = (y/2)(\\operatorname{tanh}(y/2) -1).$$\nSince $\\operatorname{tanh}$ is an odd function, one can see that\n$B_{2r+1}=0$ for $r \\geq 1$. Numerically,\n$B_0 = 1, B_1 = -\\frac{1}{2}, B_2 = \\frac{1}{6}, B_4 = -\\frac{1}{30}, \\cdots$\n\nThese combinatorial numbers occur in a number of contexts; the most\nelementary is perhaps that they occur in the formulas for the . They\nalso occur in the Maclaurin expansion for the tangent function and in\nthe Euler-Maclaurin summation formula.",
+  "language": "INFORMAL",
+  "phrase": "Bernoulli Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BernoulliNumber"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $R$ be a noetherian ring and let $f(x) = a_n x^n + a_{n-1}\nx^{n-1} + \\ldots + a_1 x + a_0 \\in R[x]$ with $a_n\\neq 0$. Then call\n$a_n$ the *initial coefficient* of $f$.\n\nLet $I$ be an ideal in $R[x]$. We will show $I$ is finitely generated,\nso that $R[x]$ is noetherian. Now let $f_0$ be a polynomial of least\ndegree in $I$, and if $f_0, f_1, \\ldots , f_k$ have been chosen then\nchoose $f_{k+1}$ from $I\\smallsetminus (f_0,\nf_1, \\ldots , f_k)$ of minimal degree. Continuing inductively gives a\nsequence $(f_k)$ of elements of $I$.\n\nLet $a_k$ be the initial coefficient of $f_k$, and consider the ideal\n$J=(a_1, a_2, a_3, \\ldots )$ of initial coefficients. Since $R$ is\nnoetherian, $J=(a_0, \\ldots , a_N)$ for some $N$.\n\nThen $I=(f_0, f_1, \\ldots , f_N)$. For if not then\n$f_{N+1}\\in I\\smallsetminus (f_0, f_1, \\ldots , f_N)$, and\n$a_{N+1} = \\sum_{k=0}^N u_k a_k$ for some $u_1, u_2, \\ldots ,\nu_N\\in R$. Let $g(x)=\\sum_{k=0}^N u_k f_k x^{\\nu_k}$ where $\\nu_k\n= \\operatorname{deg}(f_{N+1})-\\operatorname{deg}(f_k)$.\n\nThen $\\operatorname{deg}(f_{N+1} - g) <\n\\operatorname{deg}(f_{N+1})$, and $f_{N+1} - g \\in I$ and\n$f_{N+1}-g\\notin (f_0, f_1, \\ldots , f_N)$. But this contradicts\nminimality of $\\operatorname{deg}(f_{N+1})$.\n\nHence, $R[x]$ is noetherian.$\\square$",
+  "conclusion": "#P_HilbertBasisTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfHilbertBasisTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Hilbert basis theorem"
+  ]
+}

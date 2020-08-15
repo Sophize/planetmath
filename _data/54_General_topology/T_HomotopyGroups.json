@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "higher homotopy groups"
+  ],
+  "definition": "The homotopy groups are an infinite series of (covariant) functors\n$\\pi_n$ indexed by non-negative integers from based topological spaces\nto groups for $n>0$ and sets for $n=0$. $\\pi_n(X,x_0)$ as a set is the\nset of all homotopy classes of maps of pairs\n$(D^n,\\partial D^n)\\to (X,x_0)$, that is, maps of the disk into $X$,\ntaking the boundary to the point $x_0$. Alternatively, these can be\nthought of as maps from the sphere $S^n$ into $X$, taking a basepoint on\nthe sphere to $x_0$. These sets are given a group structure by declaring\nthe product of 2 maps $f,g$ to simply attaching two disks $D_1,D_2$ with\nthe right orientation along part of their boundaries to get a new disk\n$D_1\\cup D_2$, and mapping $D_1$ by $f$ and $D_2$ by $g$, to get a map\nof $D_1\\cup D_2$. This is continuous because we required that the\nboundary go to a , and well defined up to homotopy.\n\nIf $f:X\\to Y$ satisfies $f(x_0)=y_0$, then we get a homomorphism of\nhomotopy groups $f^*:\\pi_n(X,x_0)\\to\\pi_n(Y,y_0)$ by simply composing\nwith $f$. If $g$ is a map $D^n\\to X$, then $f^*([g])=[f\\circ g]$.\n\nMore algebraically, we can define homotopy groups inductively by\n$\\pi_n(X,x_0)\\cong\\pi_{n-1}(\\Omega X,y_0)$, where $\\Omega X$ is the loop\nspace of $X$, and $y_0$ is the constant path sitting at $x_0$.\n\nIf $n>1$, the groups we get are abelian.\n\nHomotopy groups are invariant under homotopy equivalence, and higher\nhomotopy groups ($n>1$) are not changed by the taking of covering\nspaces.\n\nSome examples are:\n\n$\\pi_n(S^n)=\\mathbb{Z}$.\n\n$\\pi_m(S^n)=0$ if $m<n$.\n\n$\\pi_n(S^1)=0$ if $n>1$.\n\n$\\pi_n(M)=0$ for $n>1$ where $M$ is any surface of nonpositive Euler\ncharacteristic (not a sphere or projective plane).",
+  "language": "INFORMAL",
+  "phrase": "Homotopy Groups",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomotopyGroups"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**(Schur\u2019s Test)** Let $(X, \\mu)$ be a measure space ($\\mu$ a positive\nmeasure). Let $K$ be a positive, measurable function on $X \\times X$.\nDefine the operator $$\\begin{aligned}\nT f(x) &:= \\int_X K(x,y) f(y) \\,d\\mu(y), x \\in X\\end{aligned}$$\n\nIf for some $1 < p < \\infty$ there exists a measurable, strictly\npositive function $h$ and a constant $M > 0$ such that $$\\begin{aligned}\n&\\int_X K(x,y) h(y)^q \\,d\\mu(y) \\leq M h(x)^q \\\\\n&\\int_X K(x,y) h(x)^p \\,d\\mu(x) \\leq M h(y)^p\\end{aligned}$$\n\nwith $p^{-1} + q^{-1} = 1$, then $||T|| \\leq M$ in $L^p(X, d\\mu)$.\n\nLet $f \\in L^p(X, d\\mu)$. We have $$\\begin{aligned}\n|T f(x)| &\\leq \\int_{X} h(y) h(y)^{-1} |f(y)| K(x,y) \\,d\\mu(y) \\end{aligned}$$\n\nhence by Hoelder\u2019s inequality $$\\begin{aligned}\n|T f(x)| &\\leq \\left[\\int_X K(x,y) h(y)^q \\,d\\mu(y) \\right]^{\\frac{1}{q}} \\left[\\int_X K(x,y) h(y)^{-p} |f(y)|^p \\,d\\mu(y)\\right]^{\\frac{1}{p}}\\end{aligned}$$\n\nBy the first inequality in the assumption we have $$\\begin{aligned}\n|T f(x)| &\\leq M^{\\frac{1}{q}} h(x) \\left[\\int_X K(x,y) h(y)^{-p} |f(y)|^p \\,d\\mu(y) \\right]^{\\frac{1}{p}}\\end{aligned}$$\n\nEvaluating $||T f||_p^p$ by Fubini and the second inequality in the\nassumption we obtain $$\\begin{aligned}\n\\int_X |T f(x)|^p \\,d\\mu(x) &\\leq M^p \\int_X |f(y)|^p \\,d\\mu(y)\\end{aligned}$$\n\nThis completes the proof.\n\nA noted special case is Young\u2019s Inequality\n\n**(Young)**\n\nLet $K \\colon \\mathbb{R}^n \\times \\mathbb{R}^n \\to \\mathbb{C}$ be\nBorel-measurable such that there is a constant $C > 0$ with\n$$\\begin{aligned}\n& \\sup_{x \\in \\mathbb{R}^n} \\int_{\\mathbb{R}^n} |K(x,y)| \\,d\\lambda^n(y) \\leq C \\\\\n& \\sup_{y \\in \\mathbb{R}^n} \\int_{\\mathbb{R}^n} |K(x,y)| \\,d\\lambda^n(x) \\leq C\\end{aligned}$$\n\nFor $f \\in L^p(\\mathbb{R}^n)$ ($1 \\leq p \\leq +\\infty$) define\n$$\\begin{aligned}\nT(f)(x) &:= \\int_{\\mathbb{R}^n} K(x,y) f(y)\\,d\\lambda^n(y)\\end{aligned}$$\n\nThen $||T f||_p \\leq C ||f||_p$.\n\n[99]{} H. Hedenmalm, Boris Korenblum, Kehe Zhu *Theory of Bergman\nspaces*, Springer Verlag, New York, 2000",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchursTest"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Schur's Test"
+  ]
+}

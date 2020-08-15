@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Legendre Symbol.**\\\nLet $p$ be an odd prime. The *Legendre symbol*\n$\\left(\\frac{a}{p}\\right)$ or $(a|p)$ is defined as:\n$$\\left(\\frac{a}{p}\\right) =\n\\begin{cases}\n1 &\\text{if }a \\text{ is a quadratic residue }\\pmod{p}\\\\\n-1 &\\text{if }a \\text{ is a quadratic nonresidue }\\pmod{p}\\\\\n0 & \\text{if } p \\text{ divides }a\n\\end{cases}$$\n\nThe Legendre symbol can be computed by means of Euler\u2019s criterion or\nGauss\u2019 lemma.\n\nGeneralizations of this symbol are the Jacobi Symbol and the Kronecker\nsymbol.",
+  "language": "INFORMAL",
+  "phrase": "Legendre Symbol",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LegendreSymbol"
+    }
+  ],
+  "indexable": true
+}

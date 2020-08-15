@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *outer automorphism group* of a group is the of its automorphism\ngroup by its inner automorphism group:\n$$\\mathrm{Out}(G)=\\mathrm{Aut}(G)/\\mathrm{Inn}(G).$$\n\nThere is some variance in terminology about \u201can outer automorphism.\u201d\nSome authors define an outer automorphism as any automorphism\n$\\phi:G\\rightarrow G$ which is not an inner automorphism. In this way an\nouter automorphism still permutes the group $G$. However, an equally\ncommon definition is to declare an outer automorphism as an element of\n$\\mathrm{Out}(G)$ and consequently the elements are cosets of\n$\\mathrm{Inn}(G)\\phi$, and not a map $\\phi:G\\rightarrow G$. In this\ndefinition it is not generally possible to treat the element as a\npermutation of $G$. In particular, the outer automorphism group of a\ngeneral group $G$ does not act on the group $G$ in a natural way. An\nexception is when $G$ is abelian so that $\\mathrm{Inn}(G)=1$; thus, the\nelements of $\\mathrm{Out}(G)$ are canonically identified with those of\n$\\mathrm{Aut}(G)$ so we can speak of the action by outer automorphisms.",
+  "language": "INFORMAL",
+  "phrase": "Outer Automorphism Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OuterAutomorphismGroup"
+    }
+  ],
+  "indexable": true
+}

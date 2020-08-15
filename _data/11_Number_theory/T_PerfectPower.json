@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Pillai's conjecture"
+  ],
+  "definition": "The power $m^n$ is called a *perfect power* if $m$ and $n$ are integers\nboth greater than 1. The perfect powers form the ascending order\nsequence (cf. Sloane\u2019s ) $$\\begin{aligned}\n4,\\,8,\\,9,\\,16,\\,25,\\,27,\\,32,\\,36,\\,49,\\,64,\\,81,\\,100,\\,121,\\,125,\\,\\ldots,\\end{aligned}$$\ni.e.\n$$2^2,\\;2^3,\\,3^2,\\;2^4 = 4^2,\\;5^2,\\;3^3,\\;2^5,\\,6^2,\\;7^2,\\;2^6 = 4^3 = 8^2,\\;3^4 = 9^2,\\;10^2,\\;11^2,\\;5^3,\\;\\ldots$$\nS. S. Pillai has conjectured in 1945, that if the $i^{\\mathrm{th}}$\nmember of the sequence (1) is denoted by $a_i$, then $$\\begin{aligned}\n\\liminf_{i\\to\\infty}(a_{i+1}\\!-\\!a_i) \\;=\\; \\infty.\\end{aligned}$$ This\ndoes not necessarily that one had\n$\\lim_{i\\to\\infty}(a_{i+1}\\!-\\!a_i) = \\infty$, since there may always\nexist little differences $a_{i+1}\\!-\\!a_i$ arbitrarily far from the\nbegin of the sequence (1).\\\nThe equation (2) is to the\n\n**Pillai\u2019s conjecture.** For any positive integer $k$, the Diophantine\nequation $$x^m\\!-\\!y^n \\;=\\; k$$ has only a finite number of solutions\n$(x,\\,y,\\,m,\\,n)$ where the integers $x,\\,y,\\,m,\\,n$ all are greater\nthan 1.\\\nPillai\u2019s conjecture generalises the Catalan\u2019s conjecture ($k = 1$) in\nwhich the number of solutions is 1.\\\nThe series formed by the inverse numbers of the perfect powers converges\nabsolutely, and its sum may be calculated easily: $$\\begin{aligned}\n\\sum_{m,n=2}^\\infty\\frac{1}{m^n} &\\;=\\; \\sum_{m=2}^\\infty\\sum_{n=2}^\\infty\\frac{1}{m^n}\\\\\n&\\;=\\; \\sum_{m=2}^\\infty\\sum_{n=2}^\\infty\\frac{1}{m^2}\\!\\cdot\\!\\frac{1}{m^{n-2}}\\\\\n&\\;=\\; \\sum_{m=2}^\\infty\\frac{1}{m^2}\\sum_{n=2}^\\infty\\frac{1}{m^{n-2}}\\\\\n&\\;=\\; \\sum_{m=2}^\\infty\\frac{1}{m^2}\\sum_{n=0}^\\infty\\left(\\frac{1}{m}\\right)^{\\!n}\\\\\n&\\;=\\; \\sum_{m=2}^\\infty\\frac{1}{m^2}\\!\\cdot\\!\\frac{1}{1\\!-\\!\\frac{1}{m}}\\\\\n&\\;=\\; \\sum_{m=2}^\\infty\\frac{1}{m(m\\!-\\!1)}\\\\\n&\\;=\\; \\sum_{m=2}^\\infty\\left(\\frac{1}{m\\!-\\!1}-\\frac{1}{m}\\right)\\end{aligned}$$\nThe sum of this is equal to 1.\n\n[8]{} : On $a^x\\!-\\!b^y = c$. \u2013 *J. Indian math. Soc.* **2** (1936).",
+  "language": "INFORMAL",
+  "phrase": "Perfect Power",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PerfectPower"
+    }
+  ],
+  "indexable": true
+}

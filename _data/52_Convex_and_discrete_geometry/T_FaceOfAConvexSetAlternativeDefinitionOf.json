@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "face"
+  ],
+  "definition": "The following definition of a face of a convex set in a real vector\nspace is sometimes useful.\n\nLet $C$ be a convex subset of $\\mathbb{R}^n$. Before we define faces, we\nintroduce oriented hyperplanes and supporting hyperplanes.\n\nGiven any vectors $n$ and $p$ in $\\mathbb{R}^n$, define the hyperplane\n$H(n,p)$ by\n$$H(n,p) = \\{ x \\in \\mathbb{R}^n \\colon n \\cdot (x - p) = 0 \\};$$ note\nthat this is the degenerate hyperplane $\\mathbb{R}^n$ if $n=0$. As long\nas $H(n,p)$ is nondegenerate, its removal disconnects $\\mathbb{R}^n$.\nThe *upper halfspace* of $\\mathbb{R}^n$ determined by $H(n,p)$ is\n$$H(n,p)^+ = \\{ x \\in \\mathbb{R}^n \\colon n \\cdot (x - p) \\ge 0 \\}.$$ A\nhyperplane $H(n,p)$ is a *supporting hyperplane* for $C$ if its upper\nhalfspace contains $C$, that is, if $C\\subset H(n.p)^+$.\n\nUsing this terminology, we can define a *face* of a convex set $C$ to be\nthe intersection of $C$ with a supporting hyperplane of $C$. Notice that\nwe still get the empty set and $C$ as improper faces of $C$.\n\n**Remarks.** Let $C$ be a convex set.\n\n-   If $F_1 = C\\cap H(n_1,p_1)$ and $F_2 = C\\cap H(n_2,p_2)$ are faces\n    of $C$ intersecting in a point $p$, then $H(n_1+n_2,p)$ is a\n    supporting hyperplane of $C$, and\n    $F_1\\cap F_2 = C\\cap H(n_1+n_2,p)$. This shows that the faces of $C$\n    form a meet-semilattice.\n\n-   Since each proper face lies on the base of the upper halfspace of\n    some supporting hyperplane, each such face must lie on the relative\n    boundary of $C$.",
+  "language": "INFORMAL",
+  "phrase": "Face Of A Convex Set, Alternative Definition Of",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FaceOfAConvexSetAlternativeDefinitionOf"
+    }
+  ],
+  "indexable": true
+}

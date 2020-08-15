@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a magic square, magic cube, etc., the sum of any row, column or\ndiagonal is called the *magic constant* of that magic square, cube, etc.\n\nIn the case of a standard $n \\times n$ magic square that uses the\nintegers from 1 to $n^2$, the magic constant is\n$$\\frac{1}{n}\\sum_{i = 1}^{n^2} i,$$ while that for a magic cube is\n$$\\frac{1}{n^2}\\sum_{i = 1}^{n^3} i.$$ We can then generalize to higher\ndimensions $d$ thus: $$\\frac{1}{n^{d - 1}}\\sum_{i = 1}^{n^d} i.$$\n\nSo, for dimension $d$ the magic constant is $\\frac{n(n^d + 1)}{2}$. For\ninstance, a Franklin magic square ($n = 8,d = 2$) has magic constant\n$\\frac{8(8^2 + 1)}{2} = 260$.\n\nIn a trivial sense, an $n \\times n$ sudoku puzzle has a magic constant\nof $n^2$.",
+  "language": "INFORMAL",
+  "phrase": "Magic Constant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MagicConstant"
+    }
+  ],
+  "indexable": true
+}

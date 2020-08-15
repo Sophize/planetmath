@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a profinite group, and let $H$ be any closed subgroup. We\ndefine the *of $H$ in $G$* by\n\n$$\\begin{aligned}\n[G:H]=\\operatorname{lcm}(\\{[G/N:HN/N]\\}),\\end{aligned}$$\n\nwhere $N$ runs over all open (and hence of finite index) subgroups of\n$G$, and where $\\operatorname{lcm}$ is taken in the sense of the least\ncommon multiple of supernatural numbers.\n\nIn particular, we can define the *order of a profinite group* to be the\nindex of the identity subgroup in $G$: $$\\begin{aligned}\n|G|:=[G:\\{e\\}].\\end{aligned}$$\n\nSome examples of orders of profinite groups:\n\n-   $G=\\mathbb{Z}_p$, the ring of $p$-adic integers. Since every finite\n    quotient of $\\mathbb{Z}_p$ is cyclic of $p^n$ elements (for some\n    $n$), and every such group occurs as a quotient, we have\n    $|G|=\\operatorname{lcm}(p^n),$ where $n$ runs over all natural\n    numbers. Thus $|G|=p^\\infty$.\n\n-   $G=\\widehat{\\mathbb{Z}}.$ Since $G\\approx\\prod_p\\mathbb{Z}_p$, we\n    have $|G|=\\prod_p |\\mathbb{Z}_p|=\\prod_p p^\\infty$. This example\n    illustrates the limitations of this concept: Despite being\n    \u201crelatively small\u201d in of profinite groups, $\\widehat{\\mathbb{Z}}$\n    has the largest possible profinite order.\n\n[9]{} \\[Ram\\] Ramakrishnan, Dinikara and Valenza, Robert. *Fourier\nAnalysis on Number Fields*. Graduate Texts in Mathematics, volume 186.\nSpringer-Verlag, New York, NY. 1989. \\[Ser\\] Serre, J.-P. (Ion, P.,\ntranslator) *Galois Cohomology*. Springer, New York, NY. 1997",
+  "language": "INFORMAL",
+  "phrase": "Order Of A Profinite Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderOfAProfiniteGroup"
+    }
+  ],
+  "indexable": true
+}

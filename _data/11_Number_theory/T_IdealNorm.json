@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "norm of an ideal",
+    "norm of ideal"
+  ],
+  "definition": "Let $\\alpha$ and $\\beta$ be algebraic integers in an algebraic number\nfield $K$ and $\\mathfrak{m}$ a non-zero ideal in the ring of integers of\n$K$. We say that $\\alpha$ and $\\beta$ are [*congruent modulo the\nideal*]{} $\\mathfrak{m}$ in the case that\n$\\alpha\\!-\\!\\beta \\in \\mathfrak{m}$. This is denoted by\n$$\\alpha \\equiv \\beta \\pmod{\\mathfrak{m}}.$$ This congruence relation\nthe ring of integers of $K$ into equivalence classes, which are called\nthe [*residue classes modulo the ideal*]{} $\\mathfrak{m}$.\n\n**Definition.** Let $K$ be an algebraic number field and $\\mathfrak{a}$\na non-zero ideal in $K$. The [*absolute norm of ideal*]{} $\\mathfrak{a}$\nmeans the number of all residue classes modulo $\\mathfrak{a}$.\n\n**Remark.** The of any ideal $\\mathfrak{a}$ of $K$ is finite \u2014 it has\nthe expression\n$$\\N(\\mathfrak{a}) = \\sqrt{\\frac{\\Delta(\\mathfrak{a})}{d}}$$ where\n$\\Delta(\\mathfrak{a})$ is the discriminant of the ideal and $d$ the\nfundamental number of the field.\n\n-   $\\N(\\mathfrak{ab}) \n      = \\N(\\mathfrak{a})\\!\\cdot\\!\\N(\\mathfrak{b})$\n\n-   $\\N(\\mathfrak{a}) = 1 \\quad\\Leftrightarrow\\quad \\mathfrak{a} = (1)$\n\n-   $\\N((\\alpha)) = |\\N(\\alpha)|$\n\n-   $\\N(\\mathfrak{a}) \\in \\mathfrak{a}$\n\n-   If $\\N(\\mathfrak{p})$ is a rational prime, then $\\mathfrak{p}$ is a\n    prime ideal.",
+  "language": "INFORMAL",
+  "phrase": "Ideal Norm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdealNorm"
+    }
+  ],
+  "indexable": true
+}

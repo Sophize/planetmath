@@ -1,0 +1,17 @@
+{
+  "argumentText": "We prove the equivalence of the following five conditions for a\ntopological space $X$:\n\n-   \\(DCC) $X$ satisfies the for closed subsets.\n\n-   (ACC) $X$ satisfies the for open subsets.\n\n-   (Min) Every nonempty family of closed subsets has a minimal element.\n\n-   (Max) Every nonempty family of open subsets has a maximal element.\n\n-   (HC) Every subset of $X$ is compact.\n\n[**Proof**]{}.\n\nLet $f\\colon P(X) \\to P(X)$ be the complement map, i.e.,\n$f(A) = X \\setminus A$ for any subset $A$ of $X$. Then $f$ induces an\norder-reversing bijective map between the open subsets of $X$ and the\nclosed subsets of $X$. Sending arbitrary /sets of open/closed subsets of\n$X$ through $f$ then immediately yields the equivalence of conditions of\nthe theorem, and also the equivalence of (Min) and (Max).\n\n(Min) $\\Rightarrow$ (DCC) is obvious, since the elements of an infinite\nstrictly descending chain of closed subsets of $X$ would form a set of\nclosed subsets of $X$ without minimal element. Likewise, given a\nnon-empty set $S$ consisting of closed subsets of $X$ without minimal\nelement, one can construct an infinite strictly descending chain in $S$\nsimply by starting with any $A_0 \\in S$ and choosing for $A_{n+1}$ any\nproper subset of $A_n$ satisfying $A_{n+1} \\in S$. Hence, we have proven\nconditions (ACC), (DCC), (Min) and (Max) of the theorem to be\nequivalent, and will be done if we can prove equivalence of statement\n(HC) to the others.\n\nTo this end, first assume statement (HC), and let\n$(U_i)_{i \\in {\\mathbb{N}}}$ be an ascending sequence of open subsets of\n$X$. Then obviously, the $U_i$ form an open cover of\n$U = \\bigcup_{i \\in {\\mathbb{N}}} U_i$, which by assumption is bound to\nhave a finite subcover. Hence, there exists $n \\in {\\mathbb{N}}$ such\nthat $\\bigcup_{i=0}^n U_i = \\bigcup_{i \\in {\\mathbb{N}}} U_i$, so our\nascending sequence is in fact stationary. Conversely, assume statement\n(Max) of the theorem, let $A \\subseteq X$ be any subset of $X$ and let\n$(U_i)_ {i \\in I}$ be a family of open sets in $X$ such that the\n$U_i \\cap A$ form an open cover of $A$ with respect to the subspace\ntopology. Then, by the assumption, the set of finite unions of the $U_i$\nhas at least one maximal element, say $U$, and with any $i \\in I$ we\nobtain $U_i \\cup U = U$ because of maximality of $U$. Hence, we have\n$U_i \\subseteq U$ for all $i \\in I$, so in fact\n$\\bigcup_{i \\in I} U_i = U$. But, $U$ was a union of a finite number of\n$U_i$ by construction; hence, a finite subcovering of $U$ and thereby of\n$A$ has been found.",
+  "conclusion": "#P_AlternativeCharacterizationsOfNoetherianTopologicalSpaces",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternativeCharacterizationsOfNoetherianTopologicalSpacesProofOf"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "alternative characterizations of Noetherian topological spaces, proof of"
+  ]
+}

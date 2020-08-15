@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $V$ be a topological vector space. Every proper\nsubspace $S \\subset V$ has empty interior.\n\n[**Proof :**]{} Let $S$ be a subspace of $V$. Suppose there is a\nnon-empty open set $A \\subseteq S$.\n\nFix a point $a_0 \\in A \\subseteq S$. Since the vector sum operation is\ncontinuous, translations of open sets are again open sets. In\nparticular, the set $A - a_0 := \\{x-a_0 : x \\in A\\}$ is an open set of\n$V$ that contains the origin $0$.\n\nAs $S$ is a vector subspace and $A \\subseteq S$, we see that the\ntranslation $A-a_0$ is still contained in $S$.\n\nSince the scalar multiplication operation is continuous it follows\neasily that, for every $x \\in V$, the function\n$f_x: \\mathbb{K} \\longrightarrow V$ given by\n$$f_x (\\lambda) = \\lambda x$$ is also continuous.\n\nConsider now any vector $v \\in V$. The set $f_v^{-1}(A-a_0)$ is an open\nset that contains $0$. Thus, taking a value\n$\\lambda \\in f_v^{-1}(A-a_0)$ we see that $$\\lambda v \\in A-a_0 ,$$ i.e.\nwe can multiply $v$ by a sufficiently small $\\lambda$ such that\n$\\lambda v$ belongs to the open set $A - a_0$.\n\nSince the set $A- a_0$ is contained in $S$, we see that\n$\\lambda v \\in S$, and therefore $v \\in S$.\n\nThis proves that $V=S$, i.e. $S$ is not proper.\n\nWe conclude that if $S$ is proper then $S$ has empty interior. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProperSubspacesOfATopologicalVectorSpaceHaveEmptyInterior"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "proper subspaces of a topological vector space have empty interior"
+  ]
+}

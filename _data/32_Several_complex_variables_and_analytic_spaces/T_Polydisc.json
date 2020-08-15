@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "open polydisc"
+  ],
+  "definition": "We denote the set\n$$D^n(z,r) := \\{ w \\in {\\mathbb{C}}^n \\mid \\lvert z_k - w_k \\rvert < r\n\\text{ for all } k = 1,\\ldots,n \\}$$ an [*open polydisc*]{}. We can also\nhave [*polydiscs*]{} of the form\n$$D^1(z_1,r_1) \\times \\ldots \\times D^1(z_n,r_n) .$$ The set\n$\\partial D^1(z_1,r_1) \\times \\ldots \\times \\partial D^1(z_n,r_n)$ is\ncalled the [*distinguished boundary*]{} of the polydisc.\n\nBe careful not to confuse this with the open ball in ${\\mathbb{C}}^n$ as\nthat is defined as\n$$B(z,r) := \\{ w \\in {\\mathbb{C}}^n \\mid \\lvert z - w \\rvert < r \\} .$$\nWhen $n > 1$ then open balls and open polydiscs are not\nbiholomorphically equivalent (there is no 1-1 biholomorphic mapping\nbetween the two).\n\nIt is common to write $\\bar{D}^n(z,r)$ for the closure of the polydisc.\nBe careful with this notation however as some texts outside of complex\nanalysis use $D(x,r)$ and the \u201cdisc\u201d to represent a closed ball in two\nreal dimensions.\n\nAlso note that when $n=2$ the is sometimes used.\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Polydisc",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Polydisc"
+    }
+  ],
+  "indexable": true
+}

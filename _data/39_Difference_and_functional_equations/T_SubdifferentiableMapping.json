@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a Banach space, and let $X^*$ be the dual space of $X$. For a\nfunction $f \\colon X \\rightarrow \\mathbb{R}$, and $x\\in X$, let us\ndefine\n$$\\partial f(x) = \\{r^* \\in X^* \\; : f(x) - f(y) \\leq  r^\\ast(x - y) \\; \\ \\mbox{for all} \\  y \\in X\\}.$$\nIf $\\partial f(x)$ is non-empty, then $f$ is *subdifferentiable* at\n$x \\in X$, and if $\\partial f(x)$ is non-empty for all $x$, then $f$ is\n*subdifferentiable* [@Zalinescu; @Rockafellar].\n\n[9]{} C. Zalinescu, *Convex Analysis in General Vector Spaces*, World\nScientific Publishing Company, 2002. R.T. Rockafellar, *Convex\nAnalysis*, Princeton University Press, 1996.",
+  "language": "INFORMAL",
+  "phrase": "Subdifferentiable Mapping",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubdifferentiableMapping"
+    }
+  ],
+  "indexable": true
+}

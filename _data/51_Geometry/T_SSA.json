@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*SSA* is a method for determining whether two triangles are congruent by\ncomparing two sides and a non-inclusive angle. However, unlike SAS, SSS,\nASA, and SAA, this does not prove congruence in all cases.\n\nSuppose we have two triangles, $\\triangle ABC$ and $\\triangle PQR$.\n$\\triangle ABC \\cong? \\triangle PQR$ if\n$\\overline{AB} \\cong \\overline{PQ}$,\n$\\overline{BC} \\cong \\overline{QR}$, and either\n$\\angle BAC \\cong \\angle QPR$ or $\\angle BCA \\cong \\angle QRP$.\n\nSince this method does not prove congruence, it is more useful for\ndisproving it. If the SSA method is attempted between $\\triangle ABC$\nand $\\triangle PQR$ and fails for every $ABC$,$BCA$, and $CBA$ against\nevery $PQR$,$QRP$, and $RPQ$, then\n$\\triangle ABC \\not\\cong \\triangle PQR$.\n\nSuppose $\\triangle ABC$ and $\\triangle PQR$ the SSA test. The specific\ncase where SSA fails, known as the ambiguous case, occurs if the\ncongruent angles, $\\angle BAC$ and $\\angle QPR$, are acute. Let us\nillustrate this.\n\nSuppose we have a right triangle, $\\triangle XYZ$, with right angle\n$\\angle XZY$. Let $P$ and $Q$ be two points on $\\overleftrightarrow{XZ}$\nequidistant from $Z$ such that $P$ is between $X$ and $Z$ and $Q$ is\nnot. Since $\\angle XZY$ is right, this makes $\\angle PZY$ right, and\n$P$,$Q$ are equidistant from $Z$, thus $\\overleftrightarrow {YZ}$\nbisects $P$ and $Q$, and as such, every point on that line is\nequidistant from $P$ and $Q$. From this, we know $Y$ is equidistant from\n$P$ and $Q$, thus $\\overline{YP} \\cong \\overline{YQ}$. Further,\n$\\angle YXP$ is in fact the same angle as $\\angle YXQ$, thus\n$\\angle YXP \\cong \\angle YXQ$. Since\n$\\overline{XY} \\cong \\overline{XY}$, $\\triangle XYP$ and $\\triangle XYQ$\nclearly meet the SSA test, and yet, just as clearly, are not congruent.\nThis results from $\\angle YXZ$ being acute. This example also reveals\nthe exception to the ambiguous case, namely $\\triangle XYZ$. If $R$ is a\npoint on $\\overleftrightarrow{XZ}$ such that\n$\\overline{YR} \\cong \\overline{YZ}$, then $R \\cong Z$. Proving this\nexception amounts to determining that $\\angle XZY$ is right, in which\ncase the congruency could be proven instead with SAA.\n\nHowever, if the congruent angles are not acute, i.e., they are either\nright or obtuse, then SSA is definitive.",
+  "language": "INFORMAL",
+  "phrase": "Ssa",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SSA"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that $G$ is a group on a set $X$. For each $x\\in X$, let $Gx$ be\nthe orbit of $x$, let $G_x$ be the stabilizer of $x$, and let\n${\\cal L}_x$ be the set of left cosets of $G_x$. Then for each $x\\in X$\nthe function $f\\colon Gx\\to{\\cal L}_x$ defined by $gx\\mapsto gG_x$ is a\nbijection. In particular, $$|Gx| = [G:G_x]$$ and\n$$|Gx|\\cdot|G_x| = |G|$$ for all $x\\in X$.\n\n[**Proof**]{}:\\\nIf $y\\in Gx$ is such that $y=g_1x=g_2x$ for some $g_1,g_2\\in G$, then we\nhave $g_2^{-1}g_1x=g_2^{-1}g_2x=1x=x$, and so $g_2^{-1}g_1\\in G_x$, and\ntherefore $g_1G_x=g_2G_x$. This shows that $f$ is well-defined.\n\nIt is clear that $f$ is surjective. If $gG_x = g'G_x$, then $g = g'h$\nfor some $h \\in G_x$, and so $gx = (g'h)x= g'(hx) = g'x$. Thus $f$ is\nalso injective.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrbitstabilizerTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "orbit-stabilizer theorem"
+  ]
+}

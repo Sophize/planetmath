@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "DVR"
+  ],
+  "definition": "A *discrete valuation ring* $R$ is a principal ideal domain with exactly\none **nonzero** maximal ideal $M$. Any generator $t$ of $M$ is called a\n*uniformizer* or *uniformizing element* of $R$; in other words, a\nuniformizer of $R$ is an element $t \\in R$ such that $t \\in M$ but\n$t \\notin M^2$.\n\nGiven a discrete valuation ring $R$ and a uniformizer $t \\in R$, every\nelement $z \\in R$ can be written uniquely in the form $u \\cdot t^n$ for\nsome unit $u \\in R$ and some nonnegative integer $n \\in \\mathbb{Z}$. The\ninteger $n$ is called the *order* of $z$, and its value is independent\nof the choice of uniformizing element $t \\in R$.",
+  "language": "INFORMAL",
+  "phrase": "Discrete Valuation Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiscreteValuationRing"
+    }
+  ],
+  "indexable": true
+}

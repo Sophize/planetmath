@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $L$ be a set and let $\\mathcal{C}$ be the set of all consequence\noperators on $S$. Then we may define a binary relation\n$\\le \\,\\subset \\mathcal{C} \\times\n\\mathcal{C}$ and binary operations\n$\\wedge, \\vee, \\veebar \\colon \\mathcal{C}\\times \\mathcal{C} \\to \\mathcal{C}$\nas follows:\n\nFor $C_1, C_2 \\in \\mathcal{C}$, we have $C_1 \\le C_2$ when, for all\n$X \\subseteq L$, we have $C_1 (X) \\subseteq C_2 (X)$\n\nFor $C_1, C_2 \\in \\mathcal{C}$, we have $(C_1 \\wedge C_2) (X) = \nC_1 (X) \\cap C_2 (X)$ for all $X \\subseteq L$.\n\nFor $C_1, C_2 \\in \\mathcal{C}$, we have $(C_1 \\vee C_2) (X) = \nC_1 (X) \\cup C_2 (X)$ for all $X \\subseteq L$.\n\nFor $C_1, C_2 \\in \\mathcal{C}$, we have $(C_1 \\veebar C_2) (X) =\n\\cap \\{ Y \\mid X \\subseteq Y \\subseteq L \\land C_1 (Y) = C_2 (Y)\n= Y \\}$ for all $X \\subseteq L$.",
+  "language": "INFORMAL",
+  "phrase": "Operations On Consequence Operators",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OperationsOnConsequenceOperators"
+    }
+  ],
+  "indexable": true
+}

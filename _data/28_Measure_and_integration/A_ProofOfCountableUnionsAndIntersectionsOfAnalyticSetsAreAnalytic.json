@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $(X,\\mathcal{F})$ be a paved space and $(A_n)_{n\\in\\mathbb{N}}$ be a\nsequence of $\\mathcal{F}$-. We show that their union and intersection is\nalso analytic.\n\nFrom the definition of $\\mathcal{F}$-analytic sets, there exist compact\npaved spaces $(K_n,\\mathcal{K}_n)$ and\n$S_n\\in(\\mathcal{F}\\times\\mathcal{K}_n)_{\\sigma\\delta}$ such that\n$$A_n=\\left\\{x\\in X\\colon (x,y)\\in S_n\\text{ for some }y\\in K_n\\right\\}.$$\n\nWe start by showing that $\\bigcap_nA_n$ is analytic. Let $K=\\prod_nK_n$\nand $\\mathcal{K}=\\prod_n\\mathcal{K}_n$ be the product paving, and\n$\\pi_n\\colon K\\rightarrow K_n$ be the projection map. Then\n$x\\in\\bigcap_nA_n$ if and only if for each $n$ there is a $y_n\\in K_n$\nwith $(x,y_n)\\in S_n$. Equivalently, setting $y=(y_1,y_2,\\cdots)$, then\n$(x,y)\\in \\bigcap_n\\pi^{-1}_n(S_n)$. However, this is in\n$(\\mathcal{F}\\times\\mathcal{K}_n)_{\\sigma\\delta}$ and we can write,\n$$\\bigcap_nA_n = \\pi_X\\left(\\bigcap_n\\pi^{-1}_n(S_n)\\right),$$ where\n$\\pi_X\\colon X\\times K\\rightarrow X$ is the projection map. As products\nof compact pavings are compact, $(K,\\mathcal{K})$ is compact and it\nfollows from the definition that $\\bigcap_nA_n$ is\n$\\mathcal{F}$-analytic.\n\nWe now show that $\\bigcup_n A_n$ is analytic. Let $K=\\sum_nK_n$ and\n$\\mathcal{K}=\\sum_n\\mathcal{K}_n$ be the direct sum paving, . Also,\nwrite $S_n=\\bigcap_{m=1}^\\infty T_{m,n}$ for\n$T_{m,n}\\in(\\mathcal{F}\\times\\mathcal{K}_n)_\\sigma$. We identify $K_n$\nwith a subset of $K$, so that $K$ is the union of the disjoint sets\n$K_n$. Then $x\\in\\bigcup_nA_n$ if and only if $(x,y)\\in S_n$ for some\n$n$ and some $y\\in K$, $$\\bigcup_nA_n=\\pi_X\\left(\\bigcup_nS_n\\right).$$\nHowever, the fact that $K_{n_1},K_{n_2}$ are disjoint for $n_1\\not= n_2$\nsays that $T_{m,n_1},T_{m,n_2}$ are disjoint and, therefore,\n$$\\bigcup_nS_n=\\bigcup_n\\bigcap_mT_{m,n}=\\bigcap_m\\bigcup_nT_{m,n}\\in\\left(\\mathcal{F}\\times\\mathcal{K}\\right)_{\\sigma\\delta}.$$\nSo $\\bigcup_nA_n$ is $\\mathcal{F}$-analytic.",
+  "conclusion": "#P_CountableUnionsAndIntersectionsOfAnalyticSetsAreAnalytic",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCountableUnionsAndIntersectionsOfAnalyticSetsAreAnalytic"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of countable unions and intersections of analytic sets are analytic"
+  ]
+}

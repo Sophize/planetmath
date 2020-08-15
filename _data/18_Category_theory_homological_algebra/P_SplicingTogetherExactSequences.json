@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "This article proves a simple but very useful result about \u201csplicing\u201d\ntogether two exact sequences. Assume we are working in an abelian\ncategory such as groups, rings, or modules.\n\nLet $$A \\to B \\xrightarrow{f} C$$ and $$D \\xrightarrow{g} E \\to F$$ be\nexact, and assume that there is an isomorphism\n$\\varphi : {\\mathrm{coker}}f \\to \\ker g$. Define\n$\\psi : C\\to D: c\\mapsto \\varphi(\\bar{c})$, where $\\bar{c}$ is the image\nof $c$ in ${\\mathrm{coker}}f$. Then the following is exact:\n$$A \\to B \\xrightarrow{f} C \\xrightarrow{\\psi} D \\xrightarrow{g} E \\to F$$\n\nExactness at $C$:\n$$c\\in \\ker \\psi \\iff \\psi(c) = \\varphi(\\bar{c})=0 \\iff \\bar{c} = 0 \\iff c\\in{\\mathrm{im}}f.$$\nExactness at $D$:\n$$d\\in \\ker g \\iff d = \\varphi(\\bar{c}) \\text{ for some } c\\in C \\iff d = \\psi(c)\\text{ for some } c\\in C.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SplicingTogetherExactSequences"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "splicing together exact sequences",
+    "splicing lemma"
+  ]
+}

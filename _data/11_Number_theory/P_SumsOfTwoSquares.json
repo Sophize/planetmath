@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The set of the sums of two squares of integers is closed under\nmultiplication; in fact we have the identical equation $$\\begin{aligned}\n(a^2\\!+\\!b^2)(c^2\\!+\\!d^2) \\;=\\; (ac\\!-\\!bd)^2\\!+\\!(ad\\!+\\!bc)^2.\\end{aligned}$$\n\nThis was presented by Leonardo Fibonacci in 1225 (in *Liber\nquadratorum*), but was known also by Brahmagupta and already by\nDiophantus of Alexandria (III book of his *Arithmetica*).\n\nThe proof of the equation may utilize Gaussian integers as follows:\n$$\\begin{aligned}\n   (a^2\\!+\\!b^2)(c^2\\!+\\!d^2) &\\;=\\; \n    (a\\!+\\!ib)(a\\!-\\!ib)(c\\!+\\!id)(c\\!-\\!id)\\\\\n&\\;=\\;(a\\!+\\!ib)(c\\!+\\!id)(a\\!-\\!ib)(c\\!-\\!id)\\\\\n&\\;=\\;[(ac\\!-\\!bd)\\!+\\!i(ad\\!+\\!bc)][(ac\\!-\\!bd)\\!-\\!i(ad\\!+\\!bc)]\\\\\n&\\;=\\;(ac\\!-\\!bd)^2\\!+\\!(ad\\!+\\!bc)^2\\end{aligned}$$\\\n**Note 1.** The equation (1) is the special case $n = 2$ of Lagrange\u2019s\nidentity.\\\n**Note 2.** Similarly as (1), one can derive the identity\n$$\\begin{aligned}\n(a^2\\!+\\!b^2)(c^2\\!+\\!d^2) \\;=\\; (ac\\!+\\!bd)^2\\!+\\!(ad\\!-\\!bc)^2.\\end{aligned}$$\nThus in most cases, we can get two different nontrivial sum forms (i.e.\nwithout a zero addend) for a given product of two sums of squares. For\nexample, the product $$65 = 5\\!\\cdot\\!13 = (2^2\\!+\\!1^2)(3^2\\!+\\!2^2)$$\nattains the two forms $4^2\\!+\\!7^2$ and $8^2\\!+\\!1^2$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SumsOfTwoSquares"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "sums of two squares",
+    "Diophantus' identity",
+    "Brahmagupta's identity",
+    "Fibonacci's identity"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set.\n\nDefinitions {#definitions .unnumbered}\n===========\n\nA collection $\\mathcal{U}$ of subsets of $X$ is an *ultrafilter* if\n$\\mathcal{U}$ is a filter, and whenever $A\\subseteq X$ then either\n$A\\in\\mathcal{U}$ or $X\\setminus A\\in\\mathcal{U}$.\n\nEquivalently, an ultrafilter on $X$ is a filter on $X$.\n\nMore generally, an is a maximal proper filter of the lattice. This is\nindeed a generalization, as an ultrafilter on $X$ can then be defined as\nan ultrafilter of the power set $\\mathcal{P}(X)$.\n\nTypes of ultrafilter {#types-of-ultrafilter .unnumbered}\n====================\n\nFor any $x\\in X$ the set $\\{A\\subseteq X\\mid x\\in A\\}$ is an ultrafilter\non $X$. An ultrafilter formed in this way is called a *fixed\nultrafilter*, or a *principal ultrafilter*, or a *trivial ultrafilter*.\nAny other ultrafilter on $X$ is called a *free ultrafilter*, or a\n*non-principal ultrafilter*. An ultrafilter on a finite set is\nnecessarily fixed. On any infinite set there are free ultrafilters (),\nbut their existence depends on the Axiom of Choice, and so none can be\nexplicitly constructed.\n\nAn ultrafilter $\\mathcal{U}$ on $X$ is called a *uniform ultrafilter* if\nevery member of $\\mathcal{U}$ has the same cardinality. (An ultrafilter\non a singleton is uniform, but this is a degenerate case and is often\nexcluded. All other uniform ultrafilters are free.)",
+  "language": "INFORMAL",
+  "phrase": "Ultrafilter",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ultrafilter"
+    }
+  ],
+  "indexable": true
+}

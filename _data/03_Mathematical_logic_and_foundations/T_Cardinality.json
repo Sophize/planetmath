@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "size"
+  ],
+  "definition": "Cardinality {#cardinality .unnumbered}\n===========\n\n*Cardinality* is a notion of the size of a set which does not rely on\nnumbers. It is a relative notion. For instance, two sets may each have\nan infinite number of elements, but one may have a greater cardinality.\nThat is, in a sense, one may have a \u201cmore infinite\u201d number of elements.\nSee Cantor diagonalization for an example of how the reals have a\ngreater cardinality than the natural numbers.\n\nThe formal definition of cardinality rests upon the notion mappings\nbetween sets:\n\nThe cardinality of a set $A$ is greater than or equal to the cardinality\nof a set $B$ if there is a one-to-one function (an injection) from $B$\nto $A$. Symbolically, we write $|A| \\geq |B|$.\n\nand\n\nSets $A$ and $B$ have the same cardinality if there is a one-to-one and\nonto function (a bijection) from $A$ to $B$. Symbolically, we write\n$|A| = |B|$.\n\nIt can be shown that if $|A| \\geq |B|$ and $|B| \\geq |A|$ then\n$|A| = |B|$. This is the Schr\u00c3\u00b6der-Bernstein Theorem.\n\nEquality of cardinality is variously called *equipotence*,\n*equipollence*, *equinumerosity*, or *equicardinality*. For $|A| = |B|$,\nwe would say that \u201c$A$ is *equipotent* to $B$\u201d, \u201c$A$ is *equipollent* to\n$B$\u201d, or \u201c$A$ is *equinumerous* to $B$\u201d.\n\nAn equivalent definition of cardinality is\n\nThe cardinality of a set $A$ is the unique cardinal number $\\kappa$ such\nthat $A$ is equinumerous with $\\kappa$. The cardinality of $A$ is\nwritten $|A|$.\n\nThis definition of cardinality makes use of a special class of numbers,\ncalled the cardinal numbers. This highlights the fact that, while\ncardinality can be understood and defined without appealing to numbers,\nit is often convenient and useful to treat cardinality in a \u201cnumeric\u201d\nmanner.\n\nResults {#results .unnumbered}\n=======\n\nSome results on cardinality:\n\n1.  $A$ is equipotent to $A$.\n\n2.  If $A$ is equipotent to $B$, then $B$ is equipotent to $A$.\n\n3.  If $A$ is equipotent to $B$ and $B$ is equipotent to $C$, then $A$\n    is equipotent to $C$.\n\nRespectively:\n\n1.  The identity function on $A$ is a bijection from $A$ to $A$.\n\n2.  If $f$ is a bijection from $A$ to $B$, then $f^{-1}$ exists and is a\n    bijection from $B$ to $A$.\n\n3.  If $f$ is a bijection from $A$ to $B$ and $g$ is a bijection from\n    $B$ to $C$, then $f \\circ g$ is a bijection from $A$ to $C$.\n\nExample {#example .unnumbered}\n=======\n\nThe set of even integers $2\\Z$ has the same cardinality as the set of\nintegers $\\Z$: if we define $f\\colon 2\\Z \\to \\Z$ such that\n$f(x) = \\frac{x}{2}$, then $f$ is a bijection, and therefore\n$|2\\Z| = |\\Z|$.",
+  "language": "INFORMAL",
+  "phrase": "Cardinality",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Cardinality"
+    }
+  ],
+  "indexable": true
+}

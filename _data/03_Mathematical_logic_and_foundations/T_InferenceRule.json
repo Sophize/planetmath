@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "rule of inference"
+  ],
+  "definition": "In logic, an *inference rule* is a rule whereby one may correctly draw a\nconclusion from one or more premises. For example, the law of the\ncontrapositive allows one to conclude a statement of the form\n$$\\neg Q \\Rightarrow \\neg P$$ from a premise of the form\n$$P \\Rightarrow Q.$$ Here, \u2018$P$\u2019 and \u2018$Q$\u2019 are propositional variables,\nwhich can stand for arbitrary propositions. A popular way to indicate\napplications of rules of inference is to list the premises above a line\nand write the conclusions below the line. For instance, we might\nindicate the law of the contrapositive thus:\n$${P \\Rightarrow Q \\over \\neg Q \\Rightarrow \\neg P}$$\n\nA typical application of the law of contrapositive would be to conclude\n\u201cIf my clothes are dry, then it is not raining\u201d, from \u201cIf it rains, then\nmy clothes will be wet.\u201d which could be expressed as follows using the\nnotation described above:\n$${\\hbox{If it rains, then my clothes will be wet.} \\over\n\\hbox{If my clothes are dry, then it is not raining.}}$$ (In this\ninstance, $P$ is \u201cIt is raining\u201d and $Q$ is \u201cMy clothes are dry\u201d.\n\nAn important feature of rules of inference is that they are purely\nformal, which means that all that matters is the form of the expression;\nmeaning is not a consideration in applying a rule of inference. Thus,\nthe following are equally valid applications of the rule of the\ncontrapositive:\n$${\\hbox{If the jabberwocky is mimsy, then the toves blithe.} \\over\n\\hbox{If the toves are not blithing, then the jabberwocky is not mimsy.}}$$\n$${\\hbox{If my cat has a tail, then my cat is a dog.} \\over\n\\hbox{If my cat is not a dog, then my cat does not have a tail.}}$$\n\nIn the first example, the statements are nonsense and in the second\nexample, the statements are false, but this doesn\u2019t matter \u2014 both\nexamples constitute valid apllications of the rule of the\ncontrapositive. Of course, in order to draw valid conclusions, we need\nto start with valid premises, but the point of these examples is clarify\nthe distinction between valid statements and valid applications of rules\nof inference.",
+  "language": "INFORMAL",
+  "phrase": "Inference Rule",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InferenceRule"
+    }
+  ],
+  "indexable": true
+}

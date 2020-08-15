@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Bertrand's paradox"
+  ],
+  "definition": "Given an equilateral triangle inscribed on a circle, draw a chord on the\ncircle at random. *Bertrand\u2019s problem*, first posed by Joseph Bertrand\nin 1888, asks: what is the probability that that chord will be longer\nthan a side of the triangle? Put another way, what is the probability\nthat the length of a chord from a random single point along the\ncircumference of the circle to a vertex of the triangle will form an\nangle from the intersection of the angle along the circle?\n\nThere are at least three different ways to randomly choose the chords:\nby choosing midpoints, by choosing endpoints, or by choosing chords.\nThus the following solutions are obtained:\n\n1\\. Randomly place a dot anywhere in the circle. Then draw the chord that\nhas that dot as its midpoint. If the distance from the chord\u2019s midpoint\nto the center of the circle is less than half the radius of the circle,\nthen the chord will definitely be longer than a side of the triangle.\nThe probability is then 25%.\n\n2\\. Randomly place a dot anywhere on the circumference of the circle.\nThen draw a chord to connect that dot to any vertex of the triangle. It\nbecomes visibly obvious that the midpoint of that chord has to fall\nsomewhere between the two vertices other than the vertex we chose to\nconnect our random dot to in order for the resulting chord to be longer\nthan a side of the triangle. The probability is then approximately 33%.\n\n3\\. Randomly draw a chord that is parallel to one of the sides of the\ntriangle. If the chord falls entirely on what is not part of the\ntriangle, then it is clear that it will be shorter than that side. The\nsame is true for that reflected part on the other side of the triangle.\nThe probability is then 50%.\n\nBecause three different results to this problem are obtained depending\non the selection method, the problem is sometimes known as *Bertrand\u2019s\nparadox*.",
+  "language": "INFORMAL",
+  "phrase": "Bertrand'S Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BertrandsProblem"
+    }
+  ],
+  "indexable": true
+}

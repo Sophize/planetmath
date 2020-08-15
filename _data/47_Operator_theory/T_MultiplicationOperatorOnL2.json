@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(X,\\mathcal{A},\\mu)$ be a measure space and\n$f \\colon X \\to \\mathbb{K}$ a measurable function. Then\n$M_f \\colon \\phi \\mapsto f \\phi$ is the multiplication operator with $f$\ndefined on the subspace\n$Dom(M_f)=\\{\\phi \\in L^2_\\mathbb{K}(X,\\mathcal{A},\\mu) \\colon f \\phi \\in L^2_\\mathbb{K}(X,\\mathcal{A},\\mu)\\}$.\nIt plays an important role in quantum mechanics where the multiplication\nwith the coordinates on $\\mathbb{R}^n$ is the position operator.",
+  "language": "INFORMAL",
+  "phrase": "Multiplication Operator On $L^2$",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplicationOperatorOnL2"
+    }
+  ],
+  "indexable": true
+}

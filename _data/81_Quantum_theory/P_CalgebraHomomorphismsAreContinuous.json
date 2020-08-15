@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $\\mathcal{A}, \\mathcal{B}$ be and\n$f:\\mathcal{A} \\longrightarrow \\mathcal{B}$ a \\*-homomorphism. Then $f$\nis and $\\|f\\| \\leq 1$ (where $\\|f\\|$ is the of $f$ seen as a linear\noperator between the spaces $\\mathcal{A}$ and $\\mathcal{B}$).\n\nFor this reason it is often said that homomorphisms between\n$C^*$-algebras are .\n\n[**Corollary -**]{} A \\*-isomorphism between $C^*$-algebras is an .\\\n$\\;$\n\n[***Proof of Theorem :***]{} Let us first suppose that $\\mathcal{A}$ and\n$\\mathcal{B}$ have identity elements, both denoted by $e$.\n\nWe denote by $\\sigma(x)$ and $R_{\\sigma}(x)$ the spectrum and the\nspectral radius of an element $x \\in \\mathcal{A}$ or $\\mathcal{B}$.\n\nLet $a \\in \\mathcal{A}$ and $\\lambda \\in \\mathbb{C}$. If $a- \\lambda e$\nis invertible in $\\mathcal{A}$, then $f(a- \\lambda e)$ is invertible in\n$\\mathcal{B}$. Thus, $$\\sigma(f(a)) \\subseteq \\sigma(a)\\,.$$ Hence\n$R_{\\sigma}(f(a)) \\leq R_{\\sigma}(a)$ for every $a \\in \\mathcal{A}$.\nTherefore, by the result from ,\n$$\\|f(a)\\| = \\sqrt{R_{\\sigma}(f(a)^*f(a))} = \\sqrt{R_{\\sigma}(f(a^*a))} \\leq \\sqrt{R_{\\sigma}(a^*a)}= \\|a\\|\\,.$$\n\nWe conclude that $f$ is and $\\|f\\| \\leq 1$.\n\nIf $\\mathcal{A}$ or $\\mathcal{B}$ do not have identity elements, we can\nconsider their minimal unitizations, and the result follows from the\nabove . $\\square$\n\n[***Proof of Corollary :***]{} This follows from the fact that $f^{-1}$\nis also a \\*-homomorphism and therefore $\\|f^{-1}(b)\\|\\leq \\|b\\|$ for\nevery $b \\in \\mathcal{B}$. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CalgebraHomomorphismsAreContinuous"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$C^*$-algebra homomorphisms are continuous",
+    "automatic continuity of $C^*$-homomorphisms",
+    "homomorphisms of $C^*$-algebras are continuous"
+  ]
+}

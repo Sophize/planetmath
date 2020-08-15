@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Kahler potential"
+  ],
+  "definition": "A [K\u00e4hler potential]{} is a real-valued function $f$ defined on some\ncoordinate patch of a Hermitean manifold such that the metric of the\nmanifold is given by the expression\n$$g_{ij*} = {\\partial^2 f \\over dz^i d{\\overline z}^j} .$$ It turns out\nthat, for every K\u00e1hler manifold, there will exist a coordinate\nneighborhood of any given point in which the metric can be expresses in\nterms of a potential this way.\n\nAs an elementary example of a K\u00e4hler potential, we may consider\n$f(z,{\\overline z}) = z\n{\\overline z}$. This potential gives rise to the flat metric\n$ds^2 = dz d{\\overline z}$.\n\nK\u00e4hler potentials have applications in physics. For example, this\nfunction $f(x) = \\log(x) + g(x)$ relates to the motion of certain\nsubatomic particles called gauginos.\n\n[1]{} T. Barreiro, B. de Carlos & E. J. Copeland, \u201cOn non-perturbative\ncorrections to the K\u00e4hler potential\u201d [*Physical Review*]{} D57 (1998):\n7354 - 7360",
+  "language": "INFORMAL",
+  "phrase": "K\\\"Ahler Potential",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KahlerPotential"
+    }
+  ],
+  "indexable": true
+}

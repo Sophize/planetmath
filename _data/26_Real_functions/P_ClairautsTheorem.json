@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $\\mathbf{f}\\colon\\mathbb{R}^n \\to \\mathbb{R}^m$ is a function whose\nsecond partial derivatives exist and are continuous on a set\n$S \\subseteq \\mathbb{R}^n$, then\n$$\\frac{\\partial^2 f}{\\partial x_i \\partial x_j}\n  =\\frac{\\partial^2 f}{\\partial x_j \\partial x_i}$$ on $S$, where\n$1 \\leq i,j \\leq n$.\n\nThis theorem is commonly referred to as *the equality of mixed\npartials*. It is usually first presented in a vector calculus course,\nand is useful in this context for proving basic properties of the\ninterrelations of gradient, divergence, and curl. For example, if\n$\\mathbf{F}\\colon \\mathbb{R}^3 \\to \\mathbb{R}^3$ is a function\nsatisfying the hypothesis, then\n$\\nabla \\cdot (\\nabla \\times \\mathbf{F}) =0$. Or, if\n$f\\colon\\mathbb{R}^3 \\to \\mathbb{R}$ is a function satisfying the\nhypothesis, then $\\nabla \\times \\nabla f= \\mathbf{0}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClairautsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Clairaut's theorem",
+    "equality of mixed partials"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $x_1$, $x_2,\\ldots, x_m$, and $y_1$, $y_2 \\ldots, y_n$ be elements\nin a field $F$, satisfying the that\n\n1.  $x_1, \\ldots, x_m$ are distinct,\n\n2.  $y_1, \\ldots, y_n$ are distinct, and\n\n3.  $x_i+y_j\\neq 0$ for $1\\leq i \\leq m$, $1\\leq j \\leq n$.\n\nThe matrix $$\\begin{bmatrix}\n\\frac{1}{x_1+y_1} & \\frac{1}{x_1+y_2} & \\cdots &\\frac{1}{x_1+y_n} \\\\\n\\frac{1}{x_2+y_1} & \\frac{1}{x_2+y_2} & \\cdots &\\frac{1}{x_2+y_n} \\\\\n\\vdots & \\vdots & \\ddots & \\vdots \\\\\n\\frac{1}{x_m+y_1} & \\frac{1}{x_m+y_2} & \\cdots &\\frac{1}{x_m+y_n}\n\\end{bmatrix}$$ is called a [*Cauchy matrix*]{} over $F$.\n\nThe determinant of a square Cauchy matrix is\n$$\\frac{ \\prod_{i<j} (x_i-x_j)(y_i-y_j) } {\\prod_{ij} (x_i+y_j)}$$\n\nSince $x_i$\u2019s are distinct and $y_j$\u2019s are distinct by definition, a\nsquare Cauchy matrix is non-singular. Any submatrix of a rectangular\nCauchy matrix has full rank.",
+  "language": "INFORMAL",
+  "phrase": "Cauchy Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyMatrix"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "All we need to prove is that every finite dimensional vector space $V$\nwith an anti-symmetric non-degenerate linear form $\\omega$ has an even\ndimension $2k$. This is only a linear algebra result. In the case of a\nsymplectic manifold $V$ is just the tangent space at a point, and thus\nits dimension equals the manifold\u2019s dimension.\n\nPick any not null vector $v_0 \\in V$. Since $\\omega$ is non-degenerate\n$\\omega(v_0,\\cdot)$ is a not null linear form. Therefore there exists a\nnot null vector $u_0$ such that $\\omega(v_0,u_0)=1$\n\nNow $v_0$ and $u_0$ are linearly independent because if\n$v_0=\\lambda u_0$ then\n$\\omega(v_0, u_0) = \\omega(\\lambda u_0, u_0) = \\lambda \\omega(u_0,u_0) = 0$\n(by anti-symmetry).\n\nLet $V_0 = \\operatorname{span}\\{v_0, u_0\\}$. Consider a space $V_1$ of\n\u201corthogonal\u201d elements to $V_0$ under $\\omega$. That is:\n\n$V_1 = \\left\\{ v_1\\in V: \\text{ for all $v \\in V_0$},\\: \\omega(v,v_1)=0 \\right\\}$\n\nWe now prove $V = V_0 \\bigoplus V_1$:\n\n-   $V_0 \\bigcap V_1 = \\{0\\}$\n\n    Suppose $w \\in V_0 \\bigcap V_1$ is not null, then it can be written\n    $w = \\alpha v_0 + \\beta u_0$ because it belongs to $V_0$. Since it\n    also belongs to $V_1$ is is \u201corthogonal\u201d to both $v_0$ and $u_0$.\n    That is:\n\n    $\\omega(v_0,w) = 0 \\implies \\beta \\omega(v_0,u_0) = 0 \\implies \\beta =0$\n    similarly\n\n    $\\omega(u_0,w) = 0 \\implies \\alpha \\omega(u_0,v_0) = 0 \\implies \\alpha =0$\n\n    So $w$ must be null.\n\n-   $V = V_0 \\bigoplus V_1$\n\n    Suppose $w \\in V$. Let $\\alpha = \\omega(v_0,w)$,\n    $\\beta = \\omega(u_0,w)$, $w_0 = \\alpha u_0 - \\beta v_0$.\n\n    Then $\\omega(v_0,w_0) = \\alpha = \\omega(v_0,w)$ and\n    $\\omega(u_0,w_0)=\\beta=\\omega(u_0,w)$.\n\n    Considering $w_1=w - w_0$ we have $w = w_0 + w_1$ (by construction)\n    and\n    $\\omega(v_0,w_1) = \\omega(v_0, w-w_0)=\\omega(v_0,w) - \\omega(v_0,w_0) = \\omega(v_0,w) -  \\omega(v_0,w) =0 $\n    and similarly for $\\omega(u_0,w_1)$\n\n    So $w_1 \\in V_1$, $w_0 \\in V_0$ and $w=w_0 + w_1$ and thus\n    $V = V_0 \\bigoplus V_1$\n\nSo the matrix representation of $\\omega$ is block-diagonal in\n$V_0 \\bigoplus V_1$ and a restriction anti-symmetric bilinear for of\n$\\omega$ to $V_1$ exists.\n\nIf $V_1$ is not null we can repeat the procedure with the restriction.\nSince\n$\\operatorname{dim}(V)=\\operatorname{dim}(V_0)+\\operatorname{dim}(V_1)$\nand $V$ is finite dimensional the procedure must stop at a finite step.\n\nAt the end we get a decomposition $V=\\bigoplus_{i=0}^{k-1}V_i$, where\n$\\operatorname{dim}(V_i)=2$ and $\\operatorname{dim}(V)=2k$ is even.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EverySymplecticManifoldHasEvenDimension"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every symplectic manifold has even dimension"
+  ]
+}

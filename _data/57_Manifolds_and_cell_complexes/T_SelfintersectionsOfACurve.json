@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "self-intersections of a curve {#self-intersections-of-a-curve .unnumbered}\n=============================\n\nLet $X $ be a topological manifold and $\\gamma:[0,1]\\rightarrow X$ a\nsegment of a curve in $X $.\\\nThen the curve is said to have a self-intersection in a point $p\\in X$\nif $\\gamma$ fails to be injective, i.e. if there exists $a,b\\in (0,1)$,\nwith $a \\neq b$ such that $\\gamma(a)=\\gamma(b)$. Usually, the case when\nthe curve is closed i.e. $\\gamma(0)=\\gamma(1)$, is not considered as a\nself-intersecting curve.",
+  "language": "INFORMAL",
+  "phrase": "Self-Intersections Of A Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SelfintersectionsOfACurve"
+    }
+  ],
+  "indexable": true
+}

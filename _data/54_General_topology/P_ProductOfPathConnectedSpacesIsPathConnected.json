@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Proposition**. Let $X$ and $Y$ be topological spaces. Then $X\\times Y$\nis path connected if and only if both $X$ and $Y$ are path connected.\n\n*Proof*. \u201d$\\Leftarrow$\u201d Assume that $X$ and $Y$ are path connected and\nlet $(x_1,y_1), (x_2,y_2)\\in X\\times Y$ be arbitrary points. Since $X$\nis path connected, then there exists a continous map\n$$\\sigma:\\mathrm{I}\\to X$$ such that\n$$\\sigma(0)=x_1\\ \\ \\mathrm{and}\\ \\ \\sigma(1)=x_{2}.$$ Analogously there\nexists a continous map $$\\tau:\\mathrm{I}\\to Y$$ such that\n$$\\tau(0)=y_1\\ \\ \\mathrm{and}\\ \\ \\tau(1)=y_{2}.$$ Then we have an\ninduced map $$\\sigma\\times\\tau:\\mathrm{I}\\to X\\times Y$$ defined by the\nformula: $$( \\sigma\\times\\tau )(t)=(\\sigma(t),\\tau(t)),$$ which is\ncontinous path from $(x_1,y_1)$ to $(x_2,y_2)$.\n\n\u201d$\\Rightarrow$\u201d On the other hand assume that $X\\times Y$ is path\nconnected. Let $x_1,x_2\\in X$ and $y_0\\in Y$. Then there exists a path\n$$\\sigma:\\mathrm{I}\\to X\\times Y$$ such that\n$$\\sigma(0)=(x_1,y_0)\\ \\ \\mathrm{and}\\ \\ \\sigma(1)=(x_1,y_0).$$ We also\nhave the projection map $\\pi: X\\times Y\\to X$ such that $\\pi(x,y)=x$.\nThus we have a map $$\\tau:\\mathrm{I}\\to X$$ defined by the formula\n$$\\tau(t)=\\pi(\\sigma(t)).$$ This is a continous path from $x_1$ to\n$x_2$, therefore $X$ is path connected. Analogously $Y$ is path\nconnected. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProductOfPathConnectedSpacesIsPathConnected"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "product of path connected spaces is path connected"
+  ]
+}

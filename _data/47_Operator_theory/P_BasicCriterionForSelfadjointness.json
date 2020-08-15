@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A\\colon D(A)\\subset \\mathscr{H}\\to \\mathscr{H}$ be a symmetric\noperator on a Hilbert space. The following are equivalent:\n\n1.  $A=A^*$ (i.e $A$ is self-adjoint);\n\n2.  $\\operatorname{Ker}(A^* \\pm i) = \\{0\\}$ and $A$ is closed;\n\n3.  $\\operatorname{Ran}(A \\pm i) = \\mathscr{H}$.\n\n*Remark:* $A+\\lambda$ represents the operator\n$A+\\lambda I\\colon D(A)\\subset \\mathscr{H}\\to \\mathscr{H}$, and\n$\\operatorname{Ker}$ and $\\operatorname{Ran}$ stand for kernel and\nrange, respectively.\n\nA similar version for essential self-adjointness is an easy corollary of\nthe above. The following are equivalent:\n\n1.  $\\overline A=A^*$ (i.e. $A$ is essentially self-adjoint);\n\n2.  $\\operatorname{Ker}(A^*\\pm i) = \\{0\\}$;\n\n3.  $\\operatorname{Ran}(A \\pm i)$ is dense in $\\mathscr{H}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BasicCriterionForSelfadjointness"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "basic criterion for self-adjointness"
+  ]
+}

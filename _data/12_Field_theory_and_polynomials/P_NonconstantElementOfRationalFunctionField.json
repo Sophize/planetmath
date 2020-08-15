@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K$ be a field. Every transcendent field extension $K(\\alpha)/K$ may\nbe represented by the extension $K(X)/K$, where $K(X)$ is the field of\nfractions of the polynomial ring $K[X]$ in one indeterminate $X$. The\nelements of $K(X)$ are rational functions, i.e. rational expressions\n$$\\begin{aligned}\n\\varrho = \\frac{f(X)}{g(X)}\\end{aligned}$$ with $f(X)$ and $g(X)$\npolynomials in $K[X]$.\n\nLet the non-constant rational function (1) be reduced to lowest terms\nand let the greater of the degrees of its numerator and denominator be\n$n$. This element $\\varrho$ is transcendental with respect to the base\nfield $K$. The field extension $K(X)/K(\\varrho)$ is algebraic and of\ndegree $n$.\n\n[*Proof.*]{} The element $X$ satisfies the equation $$\\begin{aligned}\n                \\varrho\\,g(X)\\!-\\!f(X) = 0,\\end{aligned}$$ the\ncoefficients of which are in the field $K(\\varrho)$, actually in the\nring $K[\\varrho]$. If all these coefficients were zero, we could take\none non-zero coefficient $b_\\nu$ in $g(X)$ and the coefficient $a_\\nu$\nof the same power of $X$ in $f(X)$, and then we would have especially\n$\\varrho b_\\nu\\!-a_\\nu = 0$; this would mean that\n$\\varrho = \\frac{a_\\nu}{b_\\nu}$ = constant, contrary to the supposition.\nThus at least one coefficient in (2) differs from zero, and we conclude\nthat $X$ is algebraic with respect to $K(\\varrho)$. If $K(\\varrho)$ were\nalgebraic with respect to $K$, then also $X$ should be algebraic with\nrespect to $K$. This is not true, and therefore we see that $K(\\varrho)$\nis transcendental, Q.E.D.\n\nFurther, $X$ is a zero of the $n^\\mathrm{th}$ degree polynomial\n$$h(Y) = \\varrho\\,g(Y)\\!-\\!f(Y)$$ of the ring $K(\\varrho)[Y]$, actually\nof the ring $K[\\varrho][Y]$, i.e. of $K[\\varrho$,Y\\]. The polynomial is\nirreducible in this ring, since otherwise it would have there two\nfactors, and because $h(Y)$ is linear in $\\varrho$, the other factor\nshould depend only on $Y$; but there can not be such a factor, for the\npolynomials $f(Z)$ and $g(Z)$ are relatively prime. The conclusion is\nthat $X$ is an algebraic element over $K(\\varrho)$ of degree $n$ and\ntherefore also $$(K(X):K(\\varrho)) = n,$$ Q.E.D.\n\n[9]{} B. L. van der Waerden: [*Algebra*]{}. Siebte Auflage der\n[*Modernen Algebra*]{}. Erster Teil.\\\n\u2014 Springer-Verlag. Berlin, Heidelberg (1966).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NonconstantElementOfRationalFunctionField"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "non-constant element of rational function field",
+    "field of rational functions",
+    "rational function field"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *halting problem* is to determine, given a particular input to a\nparticular computer program, whether the program will terminate after a\nfinite number of steps.\n\nThe consequences of a solution to the halting problem are far-reaching.\nConsider some predicate $P(x)$ regarding natural numbers; suppose we\nconjecture that $P(x)$ holds for all $x \\in \\mathbb{N}$. (Goldbach\u2019s\nconjecture, for example, takes this form.) We can write a program that\nwill count up through the natural numbers and terminate upon finding\nsome $n$ such that $P(n)$ is false; if the conjecture holds in general,\nthen our program will never terminate. Then, *without running the\nprogram*, we could pass it along to a halting program to prove or\ndisprove the conjecture.\n\nIn 1936, Alan Turing proved that the halting problem is undecideable;\nthe argument is presented here informally. Consider a hypothetical\nprogram that decides the halting the problem:\n\n[Halt]{}[P, I]{}[A computer program $P$ and some input $I$ for\n$P$]{}[True if $P$ halts on $I$ and false otherwise]{}\n\nThe implementation of the algorithm, as it turns out, is irrelevant. Now\nconsider another program:\n\n[Break]{}[x]{}[Code $x$]{} [**begin**\\\n\\\n**end**]{}\n\nIf our halting solution determines that Break(Break) halts, then it will\nimmediately enter an infinite loop; otherwise, Break will return\nimmediately. We must conclude that the Halt program does not decide the\nhalting problem. So for any attempted solution to the halting problem,\nwe can find some input which breaks that solution.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HaltingProblem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "halting problem"
+  ]
+}

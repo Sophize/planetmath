@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "torsion group"
+  ],
+  "definition": "A group $G$ is said to be *periodic* (or *torsion*) if every element of\n$G$ is of finite order.\n\nAll finite groups are periodic. More generally, all locally finite\ngroups are periodic. Examples of periodic groups that are not locally\nfinite include Tarski groups, and Burnside groups $B(m,n)$ of odd\nexponent $n\\ge665$ on $m>1$ generators.\n\nSome easy results on periodic groups:\n\nEvery of a periodic group is periodic.\n\nEvery of a periodic group is periodic.\n\nEvery of a periodic group by a periodic group is periodic.\n\nEvery restricted direct product of periodic groups is periodic.\n\nNote that (unrestricted) direct products of periodic groups are not\nnecessarily periodic. For example, the direct product of all finite\ncyclic groups $\\Z/n\\Z$ is not periodic, as the element that is $1$ in\nevery coordinate has infinite order.\n\nSome further results on periodic groups:\n\nEvery solvable periodic group is locally finite.\n\nEvery periodic abelian group is the direct sum of its maximal over all\nprimes $p$.",
+  "language": "INFORMAL",
+  "phrase": "Periodic Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PeriodicGroup"
+    }
+  ],
+  "indexable": true
+}

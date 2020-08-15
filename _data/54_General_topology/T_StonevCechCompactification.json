@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Stone-\u010cech compactification is a technique for embedding a Tychonoff\ntopological space in a compact Hausdorff space.\n\nLet $X$ be a Tychonoff space and let $C$ be the space of all continuous\nfunctions from $X$ to the closed interval $[0,1]$. To each element\n$x \\in X$, we may associate the evaluation functional\n$e_x \\colon C \\to [0,1]$ defined by $e_x (f) = f(x)$. In this way, $X$\nmay be identified with a set of functionals.\n\nThe space $[0,1]^C$ of *all* functionals from $C$ to $[0,1]$ may be\nendowed with the Tychonoff product topology. Tychonoff\u2019s theorem asserts\nthat, in this topology, $[0,1]^C$ is a compact Hausdorff space. The\nclosure in this topology of the subset of $[0,1]^C$ which was identified\nwith $X$ via evaluation functionals is $\\beta X$, the Stone-\u010cech\ncompactification of $X$. Being a closed subset of a compact Hausdorff\nspace, $\\beta X$ is itself a compact Hausdorff space.\n\nThis construction has the wonderful property that, for any compact\nHausdorff space $Y$, every continuous function $f \\colon X \\to Y$ may be\nextended to a *unique* continuous function\n$\\beta f \\colon \\beta X \\to Y$.",
+  "language": "INFORMAL",
+  "phrase": "Stone-\\V{C}Ech Compactification",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StonevCechCompactification"
+    }
+  ],
+  "indexable": true
+}

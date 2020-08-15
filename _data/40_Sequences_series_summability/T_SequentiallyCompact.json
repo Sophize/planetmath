@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "sequential compactness"
+  ],
+  "definition": "A topological space $X$ is *sequentially compact* if every sequence in\n$X$ has a convergent subsequence.\n\nEvery sequentially compact space is countably compact. Conversely, every\nfirst countable countably compact space is sequentially compact. The\nordinal space $W(2\\omega_1)$ is sequentially compact but not first\ncountable, since $\\omega_1$ has not countable local basis.\n\nNext, compactness and sequential compactness are not compatible. In\nother words, neither one implies the other. Here\u2019s an example of a\ncompact space that is not sequentially compact. Let $X=I^I$, where $I$\nis the closed unit interval (with the usual topology), and $X$ is\nequipped with the product topology. Then $X$ is compact (since $I$ is,\ntogether with Tychonoff theorem). However, $X$ is not sequentially\ncompact. To see this, let $f_n:I\\to I$ be the function such that for any\n$r\\in I$, $f(r)$ is the $n$-th digit of $r$ in its binary expansion. But\nthe sequence $f_1,\\ldots, f_n,\\ldots$ has no convergent subsequences: if\n$f_{n_1},\\ldots, f_{n_k},\\ldots$ is a subsequence, let $r\\in I$ such\nthat its binary expansion has its $k$-th digit $0$ iff $k$ is odd, and\n$1$ otherwise. Then $f_{n_1}(r),\\ldots, f_{n_k}(r), \\ldots$ is the\nsequence $0,1,0,1,\\ldots$, and is clearly not convergent. The ordinal\nspace $\\Omega_0:=W(\\omega_1)$ is an example of a sequentially compact\nspace that is not compact, since the cover\n$\\lbrace W(\\alpha)\\mid \\alpha\\in \\Omega_0\\rbrace$ has no finite\nsubcover.\n\nWhen $X$ is a metric space, the following are equivalent:\n\n-   $X$ is sequentially compact.\n\n-   $X$ is limit point compact.\n\n-   $X$ is compact.\n\n-   $X$ is totally bounded and complete.",
+  "language": "INFORMAL",
+  "phrase": "Sequentially Compact",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SequentiallyCompact"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let the real functions $f_1(x)$, $f_2(x)$, ... be defined in the\ninterval $[a, b]$. If they all the condition\n$$|f_n(x)| \\leqq M_n \\quad \\forall\\,x\\in[a, b],$$ with\n$\\sum_{n = 1}^{\\infty}M_n$ a convergent series of , then the function\nseries $$f_1(x)\\!+\\!f_2(x)\\!+\\!\\cdots$$ on the interval $[a, b]$.\n\nThe theorem is valid also for the series with complex function terms,\nwhen one replaces the interval with a subset of $\\mathbb{C}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeierstrassCriterionOfUniformConvergence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Weierstrass' criterion of uniform convergence",
+    "Weierstrass' M-test"
+  ]
+}

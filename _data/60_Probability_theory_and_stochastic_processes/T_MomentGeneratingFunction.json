@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a random variable $X$, the *moment generating function* of $X$ is\nthe following function:\\\n\n$M_X(t) = E[e^{tX}]$ for $t \\in R$ (if the expectation converges).\n\nIt can be shown that if the moment generating function of $X$ is defined\non an interval around the origin, then\\\n\n$E[X^k] = M_X^{(k)}(t) |_{t=0} $\\\n\nIn other words, the $k$th-derivative of the moment generating function\nevaluated at zero is the $k$th moment of $X$.",
+  "language": "INFORMAL",
+  "phrase": "Moment Generating Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MomentGeneratingFunction"
+    }
+  ],
+  "indexable": true
+}

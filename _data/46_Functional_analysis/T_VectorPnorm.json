@@ -1,0 +1,22 @@
+{
+  "alternatePhrases": [
+    "Minkowski norm",
+    "Euclidean vector norm",
+    "vector Euclidean norm",
+    "vector 1-norm",
+    "vector 2-norm",
+    "vector infinity-norm",
+    "L^p metric",
+    "L^p"
+  ],
+  "definition": "A class of vector norms, called a $p$-norm and denoted $||\\cdot||_p$, is\ndefined as\n\n$$||\\,x\\,||_p = (|x_1|^p + \\cdots + |x_n|^p)^\\frac{1}{p}\\qquad p\\geq1, x\\in{\\mathbbmss{R}}^n$$\n\nThe most widely used are the 1-norm, 2-norm, and $\\infty$-norm:\n\n$$\\begin{aligned}\n    ||\\,x\\,||_1 & =& |x_1| + \\cdots + |x_n| \\\\\n    ||\\,x\\,||_2 & =& \\sqrt{|x_1|^2 + \\cdots + |x_n|^2} = \\sqrt{x^Tx} \\\\\n    ||\\,x\\,||_\\infty & =& \\displaystyle\\max_{1\\leq i\\leq n}|x_i|\\end{aligned}$$\n\nThe 2-norm is sometimes called the Euclidean vector norm, because\n$||\\,x-y\\,||_2$ yields the Euclidean distance between any two vectors\n$x,y\\in {\\mathbbmss{R}}^n$. The 1-norm is also called the taxicab metric\n(sometimes Manhattan metric) since the distance of two points can be\nviewed as the distance a taxi would travel on a city (horizontal and\nvertical movements).\n\nA useful fact is that for finite dimensional spaces (like\n${\\mathbbmss{R}}^n$) the three mentioned norms are . Moreover, all\n$p$-norms are equivalent. This can be proved using that any norm has to\nbe continuous in the $2$-norm and working in the unit circle.\n\nThe in function spaces is a generalization of these norms by using\ncounting measure.",
+  "language": "INFORMAL",
+  "phrase": "Vector P-Norm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VectorPnorm"
+    }
+  ],
+  "indexable": true
+}

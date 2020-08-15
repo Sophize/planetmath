@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $B$ be a ring with a subring $A$. An element $x \\in B$ is\n[*algebraic*]{} over $A$ if there exist elements\n$a_1, \\dots, a_n \\in A$, with $a_n \\neq 0$, such that\n$$a_n x^n + a_{n-1} x^{n-1} + \\cdots + a_1 x + a_0 = 0.$$ An element\n$x \\in B$ is [*transcendental*]{} over $A$ if it is not algebraic.\n\nThe ring $B$ is [*algebraic*]{} over $A$ if every element of $B$ is\nalgebraic over $A$.",
+  "language": "INFORMAL",
+  "phrase": "Algebraic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Algebraic1"
+    }
+  ],
+  "indexable": true
+}

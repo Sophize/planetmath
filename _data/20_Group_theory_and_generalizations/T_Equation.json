@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Equation**\n\nAn [*equation*]{} concerns usually elements of a certain set $M$, where\none can say if two elements are equal. In the simplest case, $M$ has one\nbinary operation \u201c$*$\u201d producing as result some elements of $M$, and\nthese can be compared. Then, an equation in $(M,\\,*)$ is a proposition\nof the form $$\\begin{aligned}\n                             E_1 = E_2,\\end{aligned}$$ where one has\n[*equated*]{} two expressions $E_1$ and $E_2$ formed with \u201c$*$\u201d of the\nelements or indeterminates of $M$. We call the expressions $E_1$ and\n$E_2$ respectively the [*left hand side*]{} and the [*right hand\nside*]{} of the equation (1).\\\n**Example.** Let $S$ be a set and $2^S$ the set of its subsets. In the\ngroupoid $(2^S,\\,\\smallsetminus)$, where \u201c$\\smallsetminus$\u201d is the set\ndifference, we can write the equation\n$$(A\\!\\smallsetminus\\!B)\\!\\smallsetminus\\!B = A\\!\\smallsetminus\\!B$$\n(which is always true).\\\nOf course, $M$ may be equipped with more operations or be a module with\nsome ring of multipliers \u2014 then an equation (1) may them.\n\nBut one need not assume any algebraic structure for the set $M$ where\nthe expressions $E_1$ and $E_2$ are values or where they elements. Such\na situation would occur e.g. if one has a continuous mapping $f$ from a\ntopological space $L$ to another $M$; then one can consider an equation\n$$f(x) = y.$$ A somewhat case is the equation $$\\dim{V} = 2$$ where $V$\nis a certain or a vector space; both elements of the extended real\nnumber system.\\\n**Root of equation**\n\nIf an equation (1) in $M$ one indeterminate, say $x$, then a value of\n$x$ which satisfies (1), i.e. makes it true, is called a [*root*]{} or a\n[*solution*]{} of the equation. Especially, if we have a polynomial\nequation $f(x) = 0$, we may speak of the or the [**]{} $x_0$; it is the\nmultiplicity of the zero $x_0$ of the polynomial $f(x)$. A [*multiple\nroot*]{} has multiplicity greater than 1.\\\n**Example.** The equation $$x^2\\!+\\!1 = x$$ in the system $\\mathbb{C}$\nof the complex numbers has as its roots the numbers\n$$x := \\frac{1\\!\\pm\\!i\\sqrt{3}}{2},$$ which, by the way, are the\nprimitive sixth roots of unity. Their multiplicities are 1.",
+  "language": "INFORMAL",
+  "phrase": "Equation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Equation"
+    }
+  ],
+  "indexable": true
+}

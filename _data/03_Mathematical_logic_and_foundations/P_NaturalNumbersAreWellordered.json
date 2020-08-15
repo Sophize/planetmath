@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In many proofs, one needs the following property of positive and\nnonnegative integers:\\\n**Theorem.** Any non-empty set of natural numbers contains a least\nnumber.\n\n*Proof.* Let $A$ be an arbitrary non-empty subset of $\\mathbb{N}$.\nDenote\n$$C \\;=\\; \\{x \\in \\mathbb{N}\\,\\vdots\\;\\; x \\leq a\\; \\forall a \\in A\\}.$$\nThen of course, $0 \\in C$. There exists surely an element $c$ of $C$\nsuch that $c\\!+\\!1 \\notin C$, since otherwise the induction property\nwould imply that $C = \\mathbb{N}$. Because $c\\!+\\!1 \\notin C$, there is\na number $a_0$ of the set $A$ such that $a_0 < c\\!+\\!1$. On the other ,\nwe must have $c \\leq a_0$. Consequently, $c = a_0$ and therefore\n$$a_0 \\;=\\; c \\;\\leq\\; a\\;\\; \\forall a \\in A.$$ Hence, $A$ has the least\nnumber $a_0$. Q.E.D.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NaturalNumbersAreWellordered"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "natural numbers are well-ordered"
+  ]
+}

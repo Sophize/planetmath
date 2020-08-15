@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Schr\\\"odinger operator",
+    "Schr\\\"odinger formulation of QM"
+  ],
+  "definition": "[**Definition 0.1**]{} The [Hamiltonian operator]{} **H** introduced in\nquantum mechanics (QM) by Schroedinger (and thus sometimes also called\nthe *Schroedinger operator*) on the Hilbert space $L^2({\\mathbb{R}}^n)$\nis given by the action:\n$$\\psi \\mapsto [-\\nabla^2 +V(x)]\\psi, \\quad\\psi\\in L^2({\\mathbb{R}}^n),$$\n\nThe operator defined above $[-\\nabla^2 +V(x)]$ , for a potential\nfunction $V(x)$ specified as the real-valued function\n$V\\colon {\\mathbb{R}}^n \\to {\\mathbb{R}}$ is called the [*Hamiltonian\noperator*]{}, $\\mathbb{H}$, and only very rarely the [*Schr\u00f6dinger\noperator*]{}.\n\nSchroedinger formulation of QM\n------------------------------\n\nThe energy conservation (quantum) law written with the operator\n$\\mathbb{H}$ as the Schr\u00f6dinger equation is fundamental in quantum\nmechanics and is perhaps the most utilized, mathematical computation\ndevice in quantum mechanics of systems with a finite number of degrees\nof freedom. There is also, however, the alternative approach in the\nHeisenberg picture, or formulation, in which the observable and other\noperators are time-dependent whereas the state vectors $\\psi$ are\ntime-independent, which reverses the time dependences betwen operators\nand state vectors from the more popular Schr\u00f6dinger formulation. Other\nformulations of quantum theories occur in quantum field theories (QFT),\nsuch as QED (quantum electrodynamics) and QCD (quantum chromodynamics).\n\nHeisenberg formulation of QM\n----------------------------\n\nAlthough the two formulations, or pictures, are unitarily (or\nmathematically) equivalent, however, sometimes the claim is made that\nthe Heisenberg picture is \u201cmore natural and fundamental than the\nSchr\u00f6dinger\u201d formulation because the Lorentz invariance from General\nRelativity is also encountered in the Heisenberg picture, and also\nbecause there is a \u2018correspondence\u2019 between the commutator of an\nobservable operator with the Hamiltonian operator, and the Poisson\nbracket formulation of classical mechanics. If the state vector $\\psi$,\nor $\\left| \\psi \\right\\rangle$ does not change with time as in the\nHeisenberg picture, then the \u2018equation of motion\u2019 of a (quantum)\nobservable operator is :\n\n$$\\frac{d}{dt} A_{quantum} = (i\\hbar)^{-1}[A,H] + \\left(\\frac {\\partial A}{\\partial t}\\right)_{classical}$$",
+  "language": "INFORMAL",
+  "phrase": "Hamiltonian Operator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HamiltonianOperator"
+    }
+  ],
+  "indexable": true
+}

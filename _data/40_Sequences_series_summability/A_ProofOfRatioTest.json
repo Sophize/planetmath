@@ -1,0 +1,17 @@
+{
+  "argumentText": "Assume $k < 1$. By definition $\\exists N$ such that\n$n > N \\implies |\\frac{a_{n+1}}{a_n} - k| < \\frac{1-k}{2} \\implies |\\frac{a_{n+1}}{a_n}| < \\frac{1+k}{2} < 1$\n\ni.e. eventually the series $|a_n|$ becomes less than a convergent\ngeometric series, therefore a shifted subsequence of $|a_n|$ converges\nby the comparison test. Note that a general sequence $b_n$ converges iff\na shifted subsequence of $b_n$ converges. Therefore, by the absolute\nconvergence theorem, the series $a_n$ converges.\n\nSimilarly for $k > 1$ a shifted subsequence of $|a_n|$ becomes greater\nthan a geometric series tending to $\\infty$, and so also tends to\n$\\infty$. Therefore $a_n$ diverges.",
+  "conclusion": "#P_RatioTest",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfRatioTest"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of ratio test"
+  ]
+}

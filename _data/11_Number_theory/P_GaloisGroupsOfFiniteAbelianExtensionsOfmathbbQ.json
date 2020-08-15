@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a finite abelian group with $|G|>1$. Then there exist\ninfinitely many number fields $K$ with $K/\\mathbb{Q}$ Galois and\n$\\operatorname{Gal}(K/\\mathbb{Q}) \\cong G$.\n\nThis will first be proven for $G$ cyclic.\n\nLet $|G|=n$. By Dirichlet\u2019s theorem on primes in arithmetic\nprogressions, there exists a prime $p$ with\n$p \\equiv 1 \\operatorname{mod} n$. Let $\\zeta_p$ denote a\n$p^{\\text{th}}$ root of unity. Let $L=\\mathbb{Q}(\\zeta_p)$. Then\n$L/\\mathbb{Q}$ is Galois with $\\operatorname{Gal}(L/\\mathbb{Q})$ cyclic\nof $p-1$. Since $n$ divides $p-1$, there exists a subgroup $H$ of\n$\\operatorname{Gal}(L/\\mathbb{Q})$ such that\n$\\displaystyle |H|=\\frac{p-1}{n}$. Since\n$\\operatorname{Gal}(L/\\mathbb{Q})$ is cyclic, it is abelian, and $H$ is\na normal subgroup of $\\operatorname{Gal}(L/\\mathbb{Q})$. Let $K=L^H$,\nthe subfield of $L$ by $H$. Then $K/\\mathbb{Q}$ is Galois with\n$\\operatorname{Gal}(K/\\mathbb{Q})$ cyclic of order $n$. Thus,\n$\\operatorname{Gal}(K/\\mathbb{Q}) \\cong G$.\n\nLet $p$ and $q$ be distinct primes with\n$p \\equiv 1 \\operatorname{mod} n$ and $q \\equiv 1 \\operatorname{mod} n$.\nThen there exist subfields $K_1$ and $K_2$ of $\\mathbb{Q}(\\zeta_p)$ and\n$\\mathbb{Q}(\\zeta_q)$, respectively, such that\n$\\operatorname{Gal}(K_1/\\mathbb{Q}) \\cong G$ and\n$\\operatorname{Gal}(K_2/\\mathbb{Q}) \\cong G$. Note that\n$K_1 \\cap K_2=\\mathbb{Q}$ since\n$\\mathbb{Q} \\subseteq K_1 \\cap K_2 \\subseteq \\mathbb{Q}(\\zeta_p) \\cap \\mathbb{Q}(\\zeta_q)=\\mathbb{Q}$.\nThus, $K_1 \\neq K_2$. Therefore, for every prime $p$ with\n$p \\equiv 1 \\operatorname{mod} n$, there exists a distinct number field\n$K$ such that $K/\\mathbb{Q}$ is Galois and\n$\\operatorname{Gal}(K/\\mathbb{Q}) \\cong G$. The theorem in the cyclic\ncase follows from using the full of Dirichlet\u2019s theorem on primes in\narithmetic progressions: There exist infinitely many primes $p$ with\n$p \\equiv 1 \\operatorname{mod} n$.\n\nThe general case follows immediately from the above , the , and a\ntheorem regarding the Galois group of the compositum of two Galois\nextensions.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaloisGroupsOfFiniteAbelianExtensionsOfmathbbQ"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Galois groups of finite abelian extensions of $\\mathbb{Q}$"
+  ]
+}

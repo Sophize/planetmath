@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We state the existence of the essential supremum for a set $\\mathcal{S}$\nof extended real valued functions on a measure space\n$(\\Omega,\\mathcal{F},\\mu)$.\n\nSuppose that the measure space $(\\Omega,\\mathcal{F},\\mu)$ is\n$\\sigma$-finite. Then, the essential supremum of $\\mathcal{S}$ exists.\nFurthermore, if $\\mathcal{S}$ is nonempty then there exists a sequence\n$(f_n)_{n=1,2,\\ldots}$ in $\\mathcal{S}$ such that $$\\label{eq:1}\n\\operatorname{esssup}\\mathcal{S}=\\sup_n f_n.$$\n\nNote that, by reversing the inequalities, this result also applies to\nthe essential infimum, except that equation (\\[eq:1\\]) is replaced by\n$$\\operatorname{essinf}\\mathcal{S}=\\inf_nf_n.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExistenceOfTheEssentialSupremum"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "existence of the essential supremum"
+  ]
+}

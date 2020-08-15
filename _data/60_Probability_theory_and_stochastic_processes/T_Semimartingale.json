@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Semimartingales are adapted stochastic processes which can be used as\nintegrators in the general theory of stochastic integration. Examples of\nsemimartingales include Brownian motion, all local martingales, finite\nvariation processes and Levy processes.\n\nGiven a filtered probability space\n$(\\Omega,\\mathcal{F},(\\mathcal{F}_t)_{t\\in\\mathbb{R}_+},\\mathbb{P})$, we\nconsider real-valued stochastic processes $X_t$ with time index $t$\nranging over the nonnegative real numbers. Then, semimartingales have\nhistorically been defined as follows.\n\nA semimartingale $X$ is a cadlag adapted process having the\ndecomposition $X=M+V$ for a local martingale $M$ and a finite variation\nprocess $V$.\n\nMore recently, the following alternative definition has also become\ncommon. For simple predictable integrands $\\xi$, the stochastic integral\n$\\int\\xi\\,dX$ is easily defined for any process $X$. The following\ndefinition characterizes semimartingales as processes for which this\nintegral is well behaved.\n\nA semimartingale $X$ is a cadlag adapted process such that\n$$\\left\\{\\int_0^t\\xi\\,dX:|\\xi|\\le 1\\textrm{ is simple predictable}\\right\\}$$\nis bounded in probability for each $t\\in\\mathbb{R}_+$.\n\nWriting $\\Vert\\xi\\Vert$ for the supremum norm of a process $\\xi$, this\ndefinition characterizes semimartingales as processes for which\n$$\\int_0^t\\xi^n\\,dX\\rightarrow 0$$ in probability as\n$n\\rightarrow\\infty$ for each $t>0$, where $\\xi^n$ is any sequence of\nsimple predictable processes satisfying $\\Vert\\xi^n\\Vert\\rightarrow 0$.\nThis property is necessary and, as it turns out, sufficient for the\ndevelopment of a theory of stochastic integration for which results such\nas bounded convergence holds.\n\nThe equivalence of these two definitions of semimartingales is stated by\nthe Bichteler-Dellacherie theorem.\n\nA stochastic process $X_t=(X^1_t,X^2_t,\\ldots,X^n_t)$ taking values in\n$\\mathbb{R}^n$ is said to be a semimartingale if $X^k_t$ is a\nsemimartingale for each $k=1,2,\\ldots,n$.",
+  "language": "INFORMAL",
+  "phrase": "Semimartingale",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Semimartingale"
+    }
+  ],
+  "indexable": true
+}

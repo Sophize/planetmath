@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "homology of a complex",
+    "homology"
+  ],
+  "definition": "If $(\\mathbf{A},d)$ is a chain complex $$\\begin{CD}\n\\cdots@<{d_{n-1}}<<A_{n-1} @<{d_{n}}<< A_n@<{d_{n+1}}<< A_{n+1} @<{d_{n+2}}<<\\cdots\n\\end{CD}$$ then the $n$-th *homology group* (or *homology module*)\n$H_n(\\mathbf{A},d)$ of $(\\mathbf{A},d)$ is the quotient module\n$$H_n(\\mathbf{A},d)=\\frac{\\ker d_n}{{\\operatorname{im}}d_{n+1}}.$$\n\nThe chain complex is an if and only if all of the homology groups are\ntrivial. The homology groups can therefore be thought of as measuring\nthe extent to which the chain complex fails to be exact.\n\nHomology groups of other objects are defined as the homology groups of\nan associated chain complex. (In particular, see the entry on the .)",
+  "language": "INFORMAL",
+  "phrase": "Homology Of A Chain Complex",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomologyOfAChainComplex"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "$\\omega$-limit cycle",
+    "$\\alpha$-limit cycle"
+  ],
+  "definition": "Let $$\\dot{x}=f(x)$$ be a planar autonomous ordinary differential\nequation and $\\Gamma$ be a periodic solution of the system. If the or\nthe of a solution with initial value not on $\\Gamma$ and the respective\nlimit set is $\\Gamma$ then $\\Gamma$ is a *limit cycle*. In simpler terms\na limit cycle is an isolated periodic solution of the system.\\\nA limit cycle, $\\Gamma$, is a *stable limit cycle* *(or *$\\omega$-limit\ncycle*)* if $\\Gamma$ is the $\\omega$-limit set of all solutions in some\nneighborhood of $\\Gamma$.\\\nA limit cycle, $\\Gamma$, is a *unstable limit cycle* *(or\n*$\\alpha$-limit cycle*)* if $\\Gamma$ is the $\\alpha$-limit set of all\nsolutions in some neighborhood of $\\Gamma$.[@PL]\n\n[2]{} Perko, Lawrence: Differential Equations and Dynamical Systems\n*(Third Edition)*. Springer, New York, 2001.",
+  "language": "INFORMAL",
+  "phrase": "Limit Cycle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitCycle"
+    }
+  ],
+  "indexable": true
+}

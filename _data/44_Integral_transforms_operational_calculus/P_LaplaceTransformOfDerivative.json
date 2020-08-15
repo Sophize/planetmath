@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If the real function $t \\mapsto f(t)$ and its derivative\nare Laplace-transformable and $f$ is continuous for $t > 0$, then\n$$\\begin{aligned}\n\\mathcal{L}\\{f'(t)\\} \\;=\\; s\\,F(s)-\\lim_{t\\to0+}\\!f(t).\\end{aligned}$$\n\n[*Proof.*]{} By the definition of Laplace transform and using\nintegration by parts, the left hand side of (1) may be written\n$$\\int_0^\\infty\\!e^{-st}f'(t)\\,dt \n\\;=\\;  {\\operatornamewithlimits{\\Big/}_{\\!\\!\\!t=0}^{\\,\\quad \\infty}}\\!e^{-st}f(t)+s\\!\\int_0^\\infty\\!e^{-st}f(t)\\,dt\n\\;=\\; \\lim_{t\\to\\infty}e^{-st}f(t)-\\lim_{t\\to0}e^{-st}f(t)+s\\,F(s).$$\nThe Laplace-transformability of $f$ implies that $e^{-st}f(t)$ tends to\nzero as $t$ increases boundlessly. Thus the last expression leads to the\nright hand side of (1).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LaplaceTransformOfDerivative"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Laplace transform of derivative"
+  ]
+}

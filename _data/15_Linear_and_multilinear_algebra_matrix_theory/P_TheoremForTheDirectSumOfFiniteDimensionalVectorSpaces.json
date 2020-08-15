@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} Let $S$ and $T$ be subspaces of a finite dimensional\nvector space $V$. Then $V$ is the direct sum of $S$ and $T$, i.e.,\n$V=S\\oplus T$, if and only if $\\dim V = \\dim S + \\dim T$ and\n$S\\cap T = \\{0\\}$.\n\n*Proof.* Suppose that $V=S\\oplus T$. Then, by definition, $V=S+T$ and\n$S\\cap T=\\{0\\}$. The dimension theorem for subspaces states that\n$$\\dim (S+T) + \\dim S\\cap T = \\dim S + \\dim T.$$ Since the dimension of\nthe zero vector space $\\{0\\}$ is zero, we have that\n$$\\dim V = \\dim S + \\dim T,$$ and the first direction of the claim\nfollows.\n\nFor the other direction, suppose $\\dim V = \\dim S + \\dim T$ and\n$S\\cap T = \\{0\\}$. Then the dimension theorem theorem for subspaces\nimplies that $$\\dim (S+T) = \\dim V.$$ Now $S+T$ is a subspace of $V$\nwith the same dimension as $V$ so, , $V=S+T$. This proves the second\ndirection. $\\Box$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheoremForTheDirectSumOfFiniteDimensionalVectorSpaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "theorem for the direct sum of finite dimensional vector spaces"
+  ]
+}

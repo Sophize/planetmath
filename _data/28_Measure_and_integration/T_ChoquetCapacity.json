@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "capacity"
+  ],
+  "definition": "A *Choquet capacity*, or just *capacity*, on a set $X$ is a kind of set\nfunction, mapping the power set $\\mathcal{P}(X)$ to the real numbers.\n\nLet $\\mathcal{F}$ be a collection of subsets of $X$. Then, an\n$\\mathcal{F}$-capacity is an increasing set function\n$$I\\colon\\mathcal{P}(X)\\rightarrow\\mathbb{R}_+$$ satisfying the\nfollowing.\n\n1.  If $(A_n)_{n\\in\\mathbb{N}}$ is an increasing sequence of subsets of\n    $X$ then $I(A_n)\\rightarrow I\\left(\\bigcup_mA_m\\right)$ as\n    $n\\rightarrow\\infty$.\n\n2.  If $(A_n)_{n\\in\\mathbb{N}}$ is a decreasing sequence of subsets of\n    $X$ such that $A_n\\in\\mathcal{F}$ for each $n$, then\n    $I(A_n)\\rightarrow I\\left(\\bigcap_mA_m\\right)$ as\n    $n\\rightarrow\\infty$.\n\nThe condition that $I$ is increasing means that $I(A)\\le I(B)$ whenever\n$A\\subseteq B$. Note that capacities differ from the concepts of\nmeasures and outer measures, as no additivity or subadditivity\nconditions are imposed. However, for any finite measure, there is a . An\nimportant application to the theory of measures and analytic sets is\ngiven by the capacitability theorem.\n\nThe *$(\\mathcal{F},I)$-capacitable* sets are defined as follows. Recall\nthat $\\mathcal{F}_\\delta$ denotes the collection of countable\nintersections of sets in the paving $\\mathcal{F}$.\n\nLet $I$ be an $\\mathcal{F}$-capacity on a set $X$. Then a subset\n$A\\subseteq X$ is *$(\\mathcal{F},I)$-capacitable* if, for each\n$\\epsilon >0$, there exists a $B\\in\\mathcal{F}_\\delta$ such that\n$B\\subseteq A$ and $I(B)\\ge I(A)-\\epsilon$.\n\nAlternatively, such sets are called $I$-capacitable or, simply,\ncapacitable.",
+  "language": "INFORMAL",
+  "phrase": "Choquet Capacity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChoquetCapacity"
+    }
+  ],
+  "indexable": true
+}

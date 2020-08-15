@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a commutative ring. For any ideal $I$ of $R$, the\n[*radical*]{} of $I$, written $\\sqrt{I}$ or $\\operatorname{Rad}(I)$, is\nthe set $$\\{a \\in R \\mid a^n \\in I \\text{ for some integer } n>0 \\}$$\n\nThe radical of an ideal $I$ is always an ideal of $R$.\n\nIf $I = \\sqrt{I}$, then $I$ is called a [*radical ideal*]{}.\n\nEvery prime ideal is a radical ideal. If $I$ is a radical ideal, the\nquotient ring $R/I$ is a ring with no nonzero nilpotent elements.\n\nMore generally, the radical of an ideal in can be defined over an\narbitrary ring. Let $I$ be an ideal of a ring $R$, the radical of $I$ is\nthe set of $a\\in R$ such that every m-system containing $a$ has a\nnon-empty intersection with $I$:\n$$\\sqrt{I}:=\\lbrace a\\in R\\mid \\mbox{if }S\\mbox{ is an $m$-system, and }a\\in S,\\mbox{ then }S\\cap I\\ne \\varnothing\\rbrace.$$\n\nUnder this definition, we see that $\\sqrt{I}$ is again an ideal\n(two-sided) and it is a subset of\n$\\lbrace a\\in R\\mid a^n\\in I \\mbox{ for some integer }n>0\\rbrace$.\nFurthermore, if $R$ is commutative, the two sets coincide. In other\nwords, this definition of a radical of an ideal is indeed a\n\u201cgeneralization\u201d of the radical of an ideal in a commutative ring.",
+  "language": "INFORMAL",
+  "phrase": "Radical Of An Ideal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RadicalOfAnIdeal"
+    }
+  ],
+  "indexable": true
+}

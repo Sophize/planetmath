@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "non-invertible",
+    "singular transformation"
+  ],
+  "definition": "Singular\n========\n\nAn $ m \\times n$ matrix $ A$ with entries from a field is called\n*singular* if its rows or columns are linearly dependent. This is\nequivalent to the following conditions:\n\n1.  The nullity of $ A$ is greater than zero (\n    $ \\operatorname{null}(A) > 0$).\n\n2.  The homogeneous linear system $ A\\mathbf{x} = 0 $ has a non-trivial\n    solution.\n\nIf $m$ = $n$ this is equivalent to the following conditions:\n\n1.  The determinant $ \\det(A)=0$.\n\n2.  The rank of $ A$ is less than $ n$.",
+  "language": "INFORMAL",
+  "phrase": "Singular",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Singular"
+    }
+  ],
+  "indexable": true
+}

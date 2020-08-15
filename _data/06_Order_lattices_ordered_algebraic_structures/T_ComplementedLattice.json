@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "perspective elements",
+    "complemented"
+  ],
+  "definition": "Let $L$ be a bounded lattice (with $0$ and $1$), and $a\\in L$. A\n*complement* of $a$ is an element $b\\in L$ such that\n\n> $a\\land b=0$ and $a\\lor b=1$.\n\n**Remark**. Complements may not exist. If $L$ is a non-trivial chain,\nthen no element (other than $0$ and $1$) has a complement. This also\nshows that if $a$ is a complement of a non-trivial element $b$, then $a$\nand $b$ form an antichain.\n\nAn element in a bounded lattice is *complemented* if it has a\ncomplement. A *complemented lattice* is a bounded lattice in which every\nelement is complemented.\n\n**Remarks**.\n\n-   In a complemented lattice, there may be more than one complement\n    corresponding to each element. Two elements are said to be\n    *related*, or *perspective* if they have a common complement. For\n    example, the following lattice is complemented.\n\n    $$\\xymatrix{\n    & 1 \\ar@{-}[ld] \\ar@{-}[d] \\ar@{-}[rd] & \\\\\n    a \\ar@{-}[rd] & b \\ar@{-}[d] & c \\ar@{-}[ld] \\\\\n    & 0 &\n    }$$\n\n    Note that none of the non-trivial elements have unique complements.\n    Any two non-trivial elements are related via the third.\n\n-   If a complemented lattice $L$ is a distributive lattice, then $L$ is\n    uniquely complemented (in fact, a Boolean lattice). For if $y_1$ and\n    $y_2$ are two complements of $x$, then\n    $$y_2=1\\land y_2=(x\\lor y_1)\\land y_2=\n    (x\\land y_2)\\lor(y_1\\land y_2)=0\\lor(y_1\\land y_2)=y_1\\land y_2.$$\n    Similarly, $y_1=y_2\\land y_1$. So $y_2=y_1$.\n\n-   In the category of complemented lattices, a morphism between two\n    objects is a $\\lbrace 0,1\\rbrace$-lattice homomorphism; that is, a\n    lattice homomorphism which preserves $0$ and $1$.",
+  "language": "INFORMAL",
+  "phrase": "Complemented Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComplementedLattice"
+    }
+  ],
+  "indexable": true
+}

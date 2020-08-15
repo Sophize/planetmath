@@ -1,0 +1,17 @@
+{
+  "argumentText": "If $A^{-1}$ exists, then $$\\begin{pmatrix} A & B \\\\ C & D \\end{pmatrix}\n=\\begin{pmatrix} I & O \\\\ CA^{-1} & I \\end{pmatrix}\\begin{pmatrix} A & B \\\\ O & D-CA^{-1}B \\end{pmatrix}.$$\nSo $$\\det \\begin{pmatrix} A & B \\\\ C & D \\end{pmatrix}\n=\\det \\begin{pmatrix} I & O \\\\ CA^{-1} & I \\end{pmatrix}\\det \\begin{pmatrix} A & B \\\\ O & D-CA^{-1}B \\end{pmatrix}.$$\nEach of the first matrices in the decompositions are triangular. Hence\ntheir determinants equal $1$. This means that the determinant of the\noriginal matrix equals the determinant of either of the second matrices\nin the decomposition. Therefore\n$$\\det \\begin{pmatrix} A & B \\\\ C & D \\end{pmatrix} =\\det(A)\\det(D-CA^{-1}B).$$\nThe second formula follows by using a similar trick.",
+  "conclusion": "#P_BlockDeterminants",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBlockDeterminants"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of block determinants"
+  ]
+}

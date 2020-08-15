@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $$\\dot{x}=f(x)$$ be a system of autonomous ordinary differential\nequation in $\\mathbb{R}^n$ defined by a vector field\n$f\\colon \\mathbb{R}^n\\to \\mathbb{R}^n$. A set $A$ is said to be an\n*attracting set*[@GH; @P] if\n\n1.  $A$ is closed and invariant,\n\n2.  there exists an open neighborhood $U$ of $A$ such that all solution\n    with initial solution in $U$ will eventually enter $A$ ($x(t)\\to A$)\n    as $t\\to \\infty$.\n\nAdditionally, if $A$ contains a dense orbit then $A$ is said to be an\n*attractor*[@GH; @P].\\\nConversely, a set $R$ is said to be a *repelling set*[@GH] if $R$\nsatisfy the condition 1. and 2. where $t\\to \\infty$ is replaced by\n$t\\to -\\infty$. Similarly, if $R$ contains a dense orbit then $R$ is\nsaid to be a *repellor*[@GH].\n\n[1]{} , *Nonlinear Oscillations, Dynamical Systems, and Bifurcations of\nVector Fields*, Springer, New York, 1983. , *Differential Equations and\nDynamical Systems*, Springer, New York, 2001.",
+  "language": "INFORMAL",
+  "phrase": "Attractor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Attractor"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $m>1$ be an integer such that the integer $g$ is a primitive root\nfor $m$. Suppose $a$ is another integer relatively prime to $g$. The\nindex of $a$ (to base $g$) is the smallest positive integer $n$ such\nthat $g^n\\equiv a \\mod m$, and it is denoted by $\\operatorname{ind} a$\nor $\\operatorname{ind}_g a$.\n\nSuppose $g$ is a primitive root of $m$.\n\n1.  ${\\operatorname{ind}}1 \\equiv 0 \\mod \\phi(m)$;\n    ${\\operatorname{ind}}g \\equiv 1 \\mod \\phi(m)$, where $\\phi$ is the\n    Euler phi function.\n\n2.  $a\\equiv b \\mod m$ if and only if\n    ${\\operatorname{ind}}a \\equiv {\\operatorname{ind}}b \\mod \\phi(m)$.\n\n3.  ${\\operatorname{ind}}(ab) \\equiv {\\operatorname{ind}}a + {\\operatorname{ind}}b \\mod \\phi(m)$.\n\n4.  ${\\operatorname{ind}}a^k \\equiv k{\\operatorname{ind}}a \\mod \\phi(m)$\n    for any $k\\geq 0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertiesOfTheIndexOfAnIntegerWithRespectToAPrimitiveRoot"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "properties of the index of an integer with respect to a primitive root"
+  ]
+}

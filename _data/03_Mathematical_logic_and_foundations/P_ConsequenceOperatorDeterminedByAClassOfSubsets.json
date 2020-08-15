@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $L$ be a set and let $K$ be a subset of $\\mathcal{P}(L)$. The the\nmapping $C \\colon \\mathcal{P}(L) \\to \\mathcal{P}(L)$ defined as\n$ C(X) = \\cap \\{ Y \\in K\n\\mid X \\subseteq Y\\}$ is a consequence operator.\n\nWe need to check that $C$ satisfies the defining properties.\n\n*Property 1:* Since every element of the set\n$\\{ Y \\in K \\mid X \\subseteq Y \\}$ contains $X$, we have\n$X \\subseteq C(X)$.\n\n*Property 2:* For every element $Y$ of $K$ such that $X \\subseteq Y$, it\nalso is the case that $C(X) \\subseteq Y$ because an intersection of a\nfamily of sets is a subset of any member of the family. In other words\n(or rather, symbols),\n$$\\{ Y \\in K \\mid X \\subseteq Y \\} \\subseteq \\{ Y \\in K \\mid C(X) \n\\subseteq Y \\},$$ hence $C(C(X)) \\subseteq C(X)$. By the first property\nproven above, $C(X)\n\\subseteq C(C(X))$ so $C(C(X)) = C(X)$. Thus, $C \\circ C = C$.\n\n*Property 3:* Let $X$ and $Y$ be two subsets of $L$ such that\n$X \\subseteq Y$. Then if, for some other subset $Z$ of $L$, we have\n$Y \\subset Z$, it follows that $X \\subset Z$. Hence,\n$$\\{ Z \\in K \\mid Y \\subseteq Z \\} \\subseteq \\{ Z \\in K \\mid X \n\\subseteq Z \\},$$ so $C(X) \\subseteq C(Y)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConsequenceOperatorDeterminedByAClassOfSubsets"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "consequence operator determined by a class of subsets"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Sigma$ be a fixed signature, and ${\\mathfrak{A}}$ and\n${\\mathfrak{B}}$ be two structures for $\\Sigma$. Given a homomorphism\n$f\\colon {\\mathfrak{A}}\\to {\\mathfrak{B}}$, the *kernel* of $f$ is the\nrelation $\\ker(f)$ on $A$ defined by\n$${\\langlea,a'\\rangle} \\in \\ker(f) \\Iff f(a) = f(a').$$ So defined, the\nkernel of $f$ is a congruence on ${\\mathfrak{A}}$. If $\\Sigma$ has a\nconstant symbol 0, then the kernel of $f$ is often defined to be the\npreimage of $0^{\\mathfrak{B}}$ under $f$. Under this definition, if\n${\\{0^{\\mathfrak{B}}\\}}$ is a substructure of ${\\mathfrak{B}}$, then the\nkernel of $f$ is a substructure of ${\\mathfrak{A}}$.",
+  "language": "INFORMAL",
+  "phrase": "Kernel",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Kernel1"
+    }
+  ],
+  "indexable": true
+}

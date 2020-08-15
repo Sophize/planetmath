@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Since Wedderburn proved his celebrated theorem that any finite division\nring is commutative, the interest in studying properties on a ring that\nwould render the ring commutative dramatically increased. Below is a\nlist of some of the so-called \u201ccommutativity theorems\u201d on a ring,\nshowing how much one can generalize the result that Wedderburn first\nobtained. In the list below, $R$ is assumed to be unital ring.\n\nIn each of the cases below, $R$ is commutative:\n\n1.  (Wedderburn\u2019s theorem) $R$ is a finite division ring.\n\n2.  (Jacobson) If for every element $a\\in R$, there is a positive\n    integer $n>1$ (depending on $a$), such that $a^n=a$.\n\n3.  (Jacobson-Herstein) For every $a,b\\in R$, if there is a positive\n    integer $n>1$ (depending on $a,b$) such that $$(ab-ba)^n=ab-ba.$$\n\n4.  (Herstein) If there is an integer $n>1$ such that for every element\n    $a\\in R$ such that $a^n-a\\in Z(R)$, the center of $R$.\n\n5.  (Herstein) If for every $a\\in R$, there is a polynomial\n    $p\\in \\mathbb{Z}[X]$ ($p$ depending on $a$) such that\n    $a^2p(a)-a\\in Z(R)$.\n\n6.  (Herstein) If for every $a,b\\in R$, such that there is an integer\n    $n>1$ (depending on $a,b$) with $$(a^n-a)b=b(a^n-a).$$\n\nSome of the commutativity problems can be derived fairly easily, such as\nthe following examples:\n\nIf $R$ is a ring with $1$ such that $(ab)^2=a^2b^2$ for all $a,b\\in R$,\nthen $R$ is commutative.\n\nLet $a, b \\in R$. From the assumption, we have $((a+1)b)^2=(a+1)^2b^2$.\nExpanding the LHS, we get $(ab)^2+(ab)b+\nb(ab)+b^2$. Expanding the RHS, we get $a^2b^2+2ab^2+b^2$. Equating both\nsides and eliminating common terms, we have $$bab=ab^2$$ Similarly, from\n$(a(b+1))^2=a^2(b+1)^2$, we expand the equations and get\n$$(ab)^2+(ab)a+a(ab)+a^2=a^2b^2+2a^2b+a^2.$$ Hence $$aba=a^2b$$ Finally,\nexpanding out $((a+1)(b+1))^2=(a+1)^2(b+1)^2$ and eliminating common\nterms, keeping in mind Equations (1) and (2) from above, we get $ab=ba$.\n\n\\[thm\\][Corollary]{}\n\nIf each element of a ring $R$ is idempotent, then $R$ is commutative.\n\nIf $R$ contains $1$, then we can apply Theorem 2: for $(st)^2=st=s^2t^2$\nfor any $s,t\\in R$. Otherwise, we do the following trick: first\n$2s = (2s)^2 = 4s^2 = 4s$, so that $2s=0$ for all $s\\in R$. Next,\n$s+t = (s+t)^2 = s^2 + st + ts + t^2 = s+st+ts+t$, so $0=st+ts$, which\nimplies $st=st+(st+ts)=2st + ts=ts$, and the result follows.\n\n*The corollary also follows directly from part 2 of Theorem 1.*\n\n[8]{} I. N. Herstein, *Noncommutative Rings*, The Mathematical\nAssociation of America (1968).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CommutativityTheoremsOnRings"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "commutativity theorems on rings"
+  ]
+}

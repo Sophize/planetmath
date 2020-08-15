@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S_n$ denote the symmetric group on $n$ elements. Let\n$\\chi:S_n\\to\\mathbb C$ be a complex character. For any $n\\times n$\nmatrix $A=(a_{ij})_{i,j=1}^n$ define the *immanent* of $A$ as\n$$\\operatorname{Imm}_{\\chi} (A)=\\sum_{\\sigma\\in {S_n}} \\chi(\\sigma) \\prod_{j=1}^n A_{j \\, \\sigma( j)}.$$\n\nSpecial cases of immanents are determinants and permanents \u2014 in the case\nwhere $\\chi$ is the constant character ($\\chi (x) = 1$ for all\n$x \\in S_n$), $\\operatorname{Imm}_{\\chi} (A)$ is the permanent of $A$.\nIn the case where $\\chi$ is the sign of the permutation (which is the\ncharacter of the permutation group associated to the (non-trivial)\none-dimensional representation), $\\operatorname{Imm}_{\\chi} (A)$ is the\ndeterminant of $A$.",
+  "language": "INFORMAL",
+  "phrase": "Immanent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Immanent"
+    }
+  ],
+  "indexable": true
+}

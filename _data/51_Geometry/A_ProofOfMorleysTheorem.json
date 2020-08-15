@@ -1,0 +1,17 @@
+{
+  "argumentText": "![image](morley)\n\nThe scheme of this proof, due to A. Letac, is to use the sines law to\nget formulas for the segments $AR$, $AQ$, $BP$, $BR$, $CQ$, and $CP$,\nand then to apply the cosines law to the triangles $ARQ$, $BPR$, and\n$CQP$, getting $RQ$, $PR$, and $QP$.\n\nTo simplify some formulas, let us denote the angle $\\pi/3$, or 60\ndegrees, by $\\sigma$. Denote the angles at $A$, $B$, and $C$ by $3a$,\n$3b$, and $3c$ respectively, and let $R$ be the circumradius of $ABC$.\nWe have $BC = 2R \\sin(3a)$. Applying the sines law to the triangle\n$BPC$, $$\\begin{aligned}\nBP/\\sin(c) &=& BC/\\sin(\\pi - b - c) = 2R \\sin(3a)/\\sin(b + c) \\\\\n           &=& 2R\\sin(3a)/\\sin(\\sigma - a)\\end{aligned}$$ so\n$$BP = 2R\\sin(3a)\\sin(c)/\\sin(\\sigma - a)\\;.$$ Combining that with the\nidentity $$\\sin(3a) = 4\\sin(a)\\sin(\\sigma + a)\\sin(\\sigma -a)$$ we get\n$$BP = 8R\\sin(a)\\sin(c)\\sin(\\sigma + a)\\;.$$ Similarly,\n$$BR = 8R\\sin(c)\\sin(a)\\sin(\\sigma + c)\\;.$$\n\nUsing the cosines law now, $$PR^2 = BP^2 + BR^2 - 2 BP\\cdot BR\\cos(b)$$\n$$= 64 \\sin^2(a)\\sin^2(c)[\n\\sin^2(\\sigma + a) + \\sin^2(\\sigma+ c) -\n 2\\sin(\\sigma + a)\\sin(\\sigma + c)\\cos(b)]\\;.$$ But we have\n$$(\\sigma + a) + (\\sigma + c) + b = \\pi\\;.$$ whence the cosines law can\nbe applied to those three angles, getting\n$$\\sin^2(b) = \\sin^2(\\sigma + a) + \\sin^2(\\sigma + c) -\n2\\sin(\\sigma + a)\\sin(\\sigma + c)\\cos(b)$$ whence\n$$PR = 8R\\sin(a)\\sin(b)\\sin(c)\\;.$$ Since this expression is symmetric\nin $a$, $b$, and $c$, we deduce $$PR = RQ = QP$$ as claimed.\n\n**Remarks:** It is not hard to show that the triangles $RYP$, $PZQ$, and\n$QXR$ are isoscoles.\n\nBy the sines law we have $$\\frac{AR}{\\sin b}=\\frac{BR}{\\sin a}\\qquad\n\\frac{BP}{\\sin c}=\\frac{CP}{\\sin b}\\qquad\n\\frac{CQ}{\\sin a}=\\frac{AQ}{\\sin c}$$ whence\n$$AR\\cdot BP\\cdot CQ = AQ\\cdot BR\\cdot CP\\;.$$ This implies that if we\nidentify the various vertices with complex numbers, then\n$$(P-C)(Q-A)(R-B)=\\frac{-1+i\\sqrt{3}}{2}(P-B)(Q-C)(R-A)$$ provided that\nthe triangle $ABC$ has positive orientation, i.e.\n$$\\Re\\left(\\frac{C-A}{B-A}\\right)>0\\;.$$\n\nI found Letac\u2019s proof at , with the reference *Sphinx*, **9** (1939) 46.\nSeveral shorter and prettier proofs of Morley\u2019s theorem can also be seen\nat cut-the-knot.",
+  "conclusion": "#P_MorleysTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfMorleysTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Morley's theorem"
+  ]
+}

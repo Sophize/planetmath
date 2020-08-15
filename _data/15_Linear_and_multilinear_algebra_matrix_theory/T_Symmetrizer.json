@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V$ be a vector space over a field $F$. Let $n$ be an integer, where\n$n < \\mathrm{char}(F)$ if $\\mathrm{char}(F) \\neq 0$. Let $S_n$ be the\nsymmetric group on $\\{1,\\ldots, n\\}.$ The linear operator\n$S: V^{\\otimes n} \\to V^{\\otimes n}$ defined by:\n\n$$S = \\frac{1}{n!} \\sum_{\\sigma \\in S_n} P(\\sigma)$$ is called the\n*symmetrizer*. Here $P(\\sigma)$ is the permutation operator. It is clear\nthat $P(\\sigma )S = SP(\\sigma )= S$ for all $\\sigma \\in S_n$.\n\n****\\\nLet $S$ be the symmetrizer for $V^{\\otimes n}$. Then an order-n tensor\n$A$ is if and only $S(A) = A$.\n\n**Proof**\\\nIf $A$ is then\n$$S(A) = \\frac{1}{n!} \\sum_{\\sigma \\in S_n} P(\\sigma)A = \\frac{1}{n!} \\sum_{\\sigma \\in S_n} A = A.$$\nIf $S(A) = A$ then\n$$P(\\sigma)A = P(\\sigma)S(A) = P(\\sigma)S(A) = S(A) = A$$ for all\n$\\sigma \\in S_n$, so $A$ is .\n\nThe theorem says that a is an eigenvector of the linear operator $S$\ncorresponding to the eigenvalue 1. It is easy to verify that $S^2 = S$,\nso that $S$ is a projection onto $S^n(V)$.",
+  "language": "INFORMAL",
+  "phrase": "Symmetrizer",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Symmetrizer"
+    }
+  ],
+  "indexable": true
+}

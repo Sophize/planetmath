@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A set (sometimes called a family) ${\\mathcal{F}}$ of continuous\nfunctions $f \\colon X \\to Y$ for some () metric spaces $X$ and $Y$ is\ncalled [**]{} if each sequence of functions in ${\\mathcal{F}}$ contains\na subsequence which converges uniformly on compact subsets of $X$ to a\ncontinuous function from $X$ to $Y$.\n\nThis definition is often used in complex analysis for spaces of\nholomorphic functions. It turns out that a sequence of holomorphic\nfunctions that converges uniformly on compact sets converges to a\nholomorphic function. So you can replace $X$ with a region in the\ncomplex plane, $Y$ with the complex plane itself and every instance of\n\u201ccontinuous\u201d with \u201cholomorphic\u201d and you get a version of the definition\nmost used in complex analysis.\n\nAnother space where this is often used is the space of meromorphic\nfunctions. This is similar to the holomorphic case, but instead of using\nthe standard metric for convergence we must use the spherical metric.\nThat is if $\\sigma$ is the spherical metric, then want $f_n(z) \\to f(z)$\nuniformly on compact subsets to mean that $\\sigma(f_n(z),f(z))$ goes to\n0 uniformly on compact subsets.\n\nNote that this is a classical definition that, while very often used, is\nnot really with modern naming. In more modern , one would give a metric\non the space of continuous (holomorphic) functions that corresponds to\nconvergence on compact subsets and then you\u2019d say \u201cprecompact set of\nfunctions\u201d in such a metric space instead of saying \u201c family of\ncontinuous (holomorphic) functions\u201d. This added generality however makes\nit more cumbersome to use since one would need to define the metric\nmentioned above.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1978.",
+  "language": "INFORMAL",
+  "phrase": "Normal Family",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalFamily"
+    }
+  ],
+  "indexable": true
+}

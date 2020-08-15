@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $B:V \\times V \\rightarrow K$ is a symmetric bilinear form over a\nfinite-dimensional vector space, where the characteristic of the field\nis not 2, then we may prove that there is an orthogonal basis such that\n$B$ is represented by\n\n$$\\bordermatrix{& \\cr\n& a_{1} &  0  & \\ldots & 0\\cr\n& 0  &  a_{2} & \\ldots & 0\\cr\n& \\vdots & \\vdots & \\ddots & \\vdots\\cr\n& 0  &   0       &\\ldots & a_{n}\\cr\n}$$\n\nRecall that a bilinear form has a well-defined rank, and denote this by\n$r$.\n\nIf $K = \\mathbb{R}$ we may choose a basis such that\n$a_1 = \\cdots = a_t = 1$, $a_{t+1} = \\cdots = a_{t+p} = -1$ and\n$a_{t+p+j} = 0$, for some integers $p$ and $t$, where\n$1 \\le j \\le n-t-p$. Furthermore, these integers are *invariants* of the\nbilinear form. This is known as *Sylvester\u2019s Law of Inertia*. $B$ is\n*positive definite* if and only if $t = n$, $p = 0$. Such a form\nconstitutes a *real inner product space*.\n\nIf $K = \\mathbb{C}$ we may go further and choose a basis such that\n$a_1 = \\cdots = a_r = 1$ and $a_{r + j} = 0$, where $1 \\le j \\le n-r$.\n\nIf $K = F_p$ we may choose a basis such that\n$a_1 = \\cdots = a_{r-1} = 1$,\n\n$a_r = n$ or $a_r = 1$; and $a_{r+j} = 0$, where $1 \\le j \\le n-r$, and\n$n$ is the least positive quadratic non-residue.",
+  "language": "INFORMAL",
+  "phrase": "Canonical Basis For Symmetric Bilinear Forms",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CanonicalBasisForSymmetricBilinearForms"
+    }
+  ],
+  "indexable": true
+}

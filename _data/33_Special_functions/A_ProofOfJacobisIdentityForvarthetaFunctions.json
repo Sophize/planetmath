@@ -1,0 +1,17 @@
+{
+  "argumentText": "We start with the Fourier transform of\n$f(x) = e^{i \\pi \\tau x^2 + 2 i x z}$:\n$$\\int_{-\\infty}^{+\\infty} e^{i \\pi \\tau x^2 + 2 i x z} e^{2 \\pi ixy} \\, dx = (- i \\tau)^{-1/2} e^{-i {(z + \\pi y)^2 \\over \\pi \\tau}}$$\n\nApplying the Poisson summation formula, we obtain the following:\n$$\\sum_{n=-\\infty}^{+\\infty} e^{i \\pi \\tau n^2 + 2 i n z} = (- i \\tau)^{-1/2} \\sum_{n=-\\infty}^{+\\infty} e^{-i {(z + \\pi n)^2 \\over \\pi \\tau}}$$\n\nThe left hand equals $\\vartheta_3 (z \\mid \\tau)$. The right hand can be\nrewritten as follows:\n$$\\sum_{n=-\\infty}^{+\\infty} e^{-i {(z + \\pi n)^2 \\over \\pi \\tau}} = e^{-i {z^2 \\over \\pi \\tau}} \\sum_{n=-\\infty}^{+\\infty} e^{-i {\\pi n^2 \\over \\tau} - {2 i n z \\over \\tau}} = e^{-i {z^2 \\over \\pi \\tau}} \\vartheta_3 (z / \\tau  \\mid -1 / \\tau)$$\n\nCombining the two expressions yields\n$$\\vartheta_3 (z \\mid \\tau) = e^{-i {z^2 \\over \\pi \\tau}} \\vartheta_3 (z / \\tau  \\mid -1 / \\tau)$$",
+  "conclusion": "#P_JacobisIdentityForvarthetaFunctions",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfJacobisIdentityForvarthetaFunctions"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Jacobi's identity for $\\vartheta$ functions"
+  ]
+}

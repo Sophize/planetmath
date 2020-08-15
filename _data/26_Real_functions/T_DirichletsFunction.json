@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Dirichlet\u2019s function* $f:\\mathbb{R}\\to\\mathbb{R}$ is defined as\n$$f\\left(x\\right) =\n  \\left\\{ \n  \\begin{array}{ll} \n    \\frac{1}{q}  &  \\textrm{if } x=\\frac{p}{q}\n                        \\textrm{ is a rational number in lowest terms,} \\\\\n    0              &  \\textrm{if } x \\textrm{ is an irrational number.} \n  \\end{array}\n  \\right.$$ This function has the property that it is continuous at\nevery irrational number and discontinuous at every rational one.\n\nAnother function that often goes by the same name is the function\n$$f\\left(x\\right) =\n  \\left\\{ \n  \\begin{array}{ll} \n    1  &  \\textrm{if } x \\textrm{ is an rational number.}\\\\\n    0              &  \\textrm{if } x \\textrm{ is an irrational number.} \n  \\end{array}\n  \\right.$$ This nowhere-continuous function has the surprising\nexpression $$\\begin{aligned}\nf(x) = \\lim_{m \\to \\infty} \\lim_{n \\to \\infty} \\cos^{2 n} (m! \\pi x).\\end{aligned}$$\n\nThis is often given as the (amazing!) example of a sequence of\neverywhere-continuous functions whose limit function is nowhere\ncontinuous.",
+  "language": "INFORMAL",
+  "phrase": "Dirichlet'S Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirichletsFunction"
+    }
+  ],
+  "indexable": true
+}

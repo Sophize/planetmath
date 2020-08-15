@@ -1,0 +1,17 @@
+{
+  "argumentText": "*1.* Let $X$ be a martingale. By the optional sampling theorem we have\n$E(X_c|\\mathcal{F}_{\\tau}) = X_{c \\wedge \\tau} = X_{\\tau} \\forall \\tau \\leq c$.\nSince conditional expectations are uniformly integrable the first\ndirection follows.\n\n*2.* Let $(\\tau_k)_{k \\geq 1}$ be a local sequence of stopping times\n(i.e. $\\tau_k \\uparrow \\infty$ a.s. and $X^{\\tau_k}$ martingale\n$\\forall k \\in \\mathbb{N}$). For each $t \\in \\mathbb{R}_{+}$ we have\n$X_{\\tau_k \\wedge t} \\to X_t, k \\to \\infty$ almost surely. The set\n$$\\begin{aligned}\n\\{X_{\\tau_k \\wedge t} : k \\in \\mathbb{N}\\} &\\subset \\{X_{\\tau} : \\tau \\ \\text{stopping time}, \\tau \\leq c\\}\\end{aligned}$$\n\nis uniformly integrable (take $c = t$). It follows that\n$X_t^{\\tau_k} \\stackrel{\\substack{\\mathscr{L}^1}}{\\longrightarrow} X_t, k \\to \\infty$.\nSince the martingale property is stable under $\\mathscr{L}^1$\nconvergence, $X$ is a martingale.",
+  "conclusion": "#P_MartingaleCriterioncontinuousTime",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfMartingaleCriterioncontinuousTime"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Martingale criterion (continuous time)"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Since\n$\\displaystyle \\left| \\int g \\, d\\mu \\right| \\le \\int |g| \\, d\\mu \\le \\int \\Phi \\, d\\mu < \\infty$,\nwe have that $\\displaystyle \\int g \\, d\\mu > - \\infty$. Similarly,\n$\\displaystyle \\int h \\, d\\mu < \\infty$.\n\nThe inequality\n$\\displaystyle \\liminf_{n \\to \\infty} \\int f_n \\, d\\mu \\le \\limsup_{n \\to \\infty} \\int f_n \\, d\\mu$\nis obvious by definition of $\\liminf$ and $\\limsup$.\n\nDefine a sequence of functions $k_n \\colon X \\to \\mathbb{R}$ by\n$k_n(x)=f_n(x)+\\Phi (x)$. Then each $k_n$ is nonnegative (since\n$-f_n \\le |f_n| \\le \\Phi$) and integrable (since\n$k_n \\le |f_n|+\\Phi \\le 2\\Phi$), as is\n$\\displaystyle k := \\liminf_{n \\to \\infty} k_n$. Fatou\u2019s lemma yields\nthat\n$\\displaystyle \\int k \\, d\\mu \\le \\liminf_{n \\to \\infty} \\int k_n \\, d\\mu$.\nThus:\n\n$\\begin{array}{ll}\n\\displaystyle \\int g \\, d\\mu + \\int \\Phi \\, d\\mu & \\displaystyle = \\int (g+\\Phi) \\, d\\mu \\\\\n\\\\\n& \\displaystyle = \\int k \\, d\\mu \\\\\n\\\\\n& \\displaystyle \\le \\liminf_{n \\to \\infty} \\int k_n \\, d\\mu \\\\\n\\\\\n& \\displaystyle = \\liminf_{n \\to \\infty} \\int (f_n+\\Phi) \\, d\\mu \\\\\n\\\\\n& \\displaystyle = \\liminf_{n \\to \\infty} \\left( \\int f_n \\, d\\mu + \\int \\Phi \\, d\\mu \\right) \\\\\n\\\\\n& \\displaystyle = \\liminf_{n \\to \\infty} \\int f_n \\, d\\mu + \\liminf_{n \\to \\infty} \\int \\Phi \\, d\\mu \\\\\n\\\\\n& \\displaystyle = \\liminf_{n \\to \\infty} \\int f_n \\, d\\mu + \\int \\Phi \\, d\\mu \\end{array}$\n\nSince $\\displaystyle \\int \\Phi \\, d\\mu < \\infty$, it follows that\n$\\displaystyle \\int g \\, d\\mu \\le \\liminf_{n \\to \\infty} \\int f_n \\, d\\mu$.\n\nNote that $|-f_n|=|f_n| \\le \\Phi$. Thus,\n\n[ll]{} $\\displaystyle -\\int h \\, d\\mu$ &\n$\\displaystyle = \\int -h \\, d\\mu$\\\n\\\n& $\\displaystyle = \\int -\\limsup_{n \\to \\infty} f_n \\, d\\mu$\\\n\\\n&\n$\\displaystyle = \\int \\liminf_{n \\to \\infty} \\left( -f_n \\right) \\, d\\mu$\\\n\\\n& $\\displaystyle \\le \\liminf_{n \\to \\infty} \\int -f_n \\, d\\mu$ by a\nprevious ,\\\n\\\n&\n$\\displaystyle = \\liminf_{n \\to \\infty} \\left( -\\int f_n \\, d\\mu \\right)$\\\n\\\n& $\\displaystyle = -\\limsup_{n \\to \\infty} \\int f_n \\, d\\mu.$\n\nHence,\n$\\displaystyle \\limsup_{n \\to \\infty} \\int f_n \\, d\\mu \\le \\int h \\, d\\mu$.\nIt follows that\n$\\displaystyle -\\infty < \\int g \\, d\\mu \\le \\liminf_{n \\to \\infty} \\int f_n \\, d\\mu \\le \\limsup_{n \\to \\infty} \\int f_n \\, d\\mu \\le \\int h \\, d\\mu < \\infty$.\n$\\qedsymbol$",
+  "conclusion": "#P_FatouLebesgueTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfFatouLebesgueTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Fatou-Lebesgue theorem"
+  ]
+}

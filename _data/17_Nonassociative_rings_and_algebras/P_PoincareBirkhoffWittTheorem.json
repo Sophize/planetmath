@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathfrak{g}$ be a Lie algebra over a field $k$, and let $B$ be a\n$k$-basis of $\\mathfrak{g}$ equipped with a linear order $\\leq$. The\n[*Poincar\u00e9-Birkhoff-Witt-theorem*]{} (often abbreviated to\n[*PBW-theorem*]{}) states that the monomials\n$$x_1 x_2 \\cdots x_n \\text{ with } x_1 \\leq x_2 \\leq \\cdots \\leq x_n \\text{\nelements of } B$$ constitute a $k$-basis of the universal enveloping\nalgebra $U(\\mathfrak{g})$ of $\\mathfrak{g}$. Such monomials are often\ncalled [*ordered monomials*]{} or [*PBW-monomials*]{}.\n\nIt is easy to see that they span $U(\\mathfrak{g})$: for all $n \\in\n{\\mathbb{N}}$, let $M_n$ denote the set\n$$M_n=\\{(x_1,\\ldots,x_n)\\mid x_1 \\leq \\cdots \\leq x_n\\} \\subset B^n,$$\nand denote by $\\pi:\\bigcup_{n=0}^\\infty B^n \\rightarrow U(\\mathfrak{g})$\nthe multiplication map. Clearly it suffices to prove that\n$$\\pi(B^n) \\subseteq \\sum_{i=0}^n \\pi(M_i)$$ for all\n$n \\in {\\mathbb{N}}$; to this end, we proceed by induction. For $n=0$\nthe statement is clear. Assume that it holds for $n-1\\geq 0$, and\nconsider a list $(x_1,\\ldots,x_n) \\in B^n$. If it is an element of\n$M_n$, then we are done. Otherwise, there exists an index $i$ such that\n$x_i>x_{i+1}$. Now we have $$\\begin{aligned}\n\\pi(x_1,\\ldots,x_n)&=\\pi(x_1,\\ldots,x_{i-1},x_{i+1},x_i,x_{i+2},\\ldots,x_n)\\\\\n&+x_1\\cdots x_{i-1}[x_i,x_{i+1}]x_{i+1}\\cdots x_n.\\end{aligned}$$ As $B$\nis a basis of $\\mathfrak{k}$, $[x_i,x_{i+1}]$ is a linear combination of\n$B$. Using this to expand the second term above, we find that it is in\n$\\sum_{i=0}^{n-1} \\pi(M_i)$ by the induction hypothesis. The argument of\n$\\pi$ in the first term, on the other hand, is lexicographically smaller\nthan $(x_1,\\ldots,x_n)$, but contains the same entries. Clearly this\nrewriting proces must end, and this concludes the induction step.\n\nThe proof of linear independence of the PBW-monomials is slightly more\ndifficult, but can be found in most introductory texts on Lie algebras,\nsuch as the classic below.\n\n[9]{} N. Jacobson. **. Dover Publications, New York, 1979",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PoincareBirkhoffWittTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Poincar\\'e-Birkhoff-Witt theorem",
+    "PBW-theorem"
+  ]
+}

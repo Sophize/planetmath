@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let ${\\mathbb}{Q}(\\zeta_p)$ be a cyclotomic extension of\n${{\\mathbb}{Q}}$, with $p$ an odd prime, let $A$ be the Sylow\n$p$-subgroup of the ideal class group of ${\\mathbb}{Q}(\\zeta_p)$, and\nlet $G$ be the Galois group of this extension. Note that the character\ngroup of $G$, denoted $\\hat{G}$, is given by $$\\begin{aligned}\n\\hat{G}=\\{\\chi^i\\mid0\\leq i\\leq p-2\\}\\end{aligned}$$\n\nFor each $\\chi\\in\\hat{G}$, let $\\varepsilon_\\chi$ denote the\ncorresponding orthogonal idempotent of the group ring, and note that the\n$p$-Sylow subgroup of the ideal class group is a $\\mathbb{Z}[G]$-module\nunder the typical multiplication. Thus, using the orthogonal\nidempotents, we can decompose the module $A$ via\n$A=\\sum_{i=0}^{p-2}A_{\\omega^i}\\equiv\\sum_{i=0}^{p-2}A_i$.\n\nLast, let $B_k$ denote the $k$th Bernoulli number.\n\nLet $i$ be odd with $3\\leq i\\leq p-2$. Then\n$A_i\\neq 0 \\iff p\\mid B_{p-i}$.\n\nOnly the first direction of this theorem ($\\implies$) was proved by\nHerbrand himself. The converse is much more intricate, and was proved by\nKen Ribet.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HerbrandsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Herbrand's theorem"
+  ]
+}

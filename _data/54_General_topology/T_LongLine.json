@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *long line* is a non-paracompact Hausdorff $1$-dimensional manifold\nconstructed as follows. Let ${\\Omega}$ be the first uncountable ordinal\n(viewed as an ordinal space) and consider the set\n$$L:={\\Omega}\\times [0,1)$$ endowed with the order topology induced by\nthe lexicographical order, that is the order defined by\n$$({\\alpha}_1,t_1) < ({\\alpha}_2,t_2) \\iff {\\alpha}_1<{\\alpha}_2 \\quad\\text{or}\\quad\n({\\alpha}_1={\\alpha}_2 \\quad\\text{and}\\quad t_1<t_2)\\,.$$ Intuitively\n$L$ is obtained by \u201cfilling the gaps\u201d between consecutive ordinals in\n${\\Omega}$ with intervals, much the same way that nonnegative reals are\nobtained by filling the gaps between consecutive natural numbers with\nintervals.\n\nSome of the properties of the long line:\n\n-   $L$ is a chain.\n\n-   $L$ is not compact; in fact $L$ is not Lindel\u00f6f.\n\n    Indeed $\\left\\{\\,[\\,0,{\\alpha}):{\\alpha}<{\\Omega}\\right\\}$ is an\n    open cover of $L$ that has no countable subcovering. To see this\n    notice that\n    $$\\bigcup\\left\\{\\, [\\,0,{\\alpha}_x):x\\in X\\right\\}=\\left[\\,0,\\sup\\{{\\alpha}_x:x\\in X\\}\\right)\\,$$\n    and since the supremum of a countable collection of countable\n    ordinals is a countable ordinal such a union can never be\n    $[\\,0,{\\Omega})$.\n\n-   However, $L$ is sequentially compact.\n\n    Indeed every sequence has a convergent subsequence. To see this\n    notice that given a sequence $a:=(a_n)$ of elements of $L$ there is\n    an ordinal ${\\alpha}$ such that all the terms of $a$ are in the\n    subset $[\\,0,{\\alpha}\\,]$. Such a subset is compact since it is\n    homeomorphic to $[\\,0,1\\,]$.\n\n-   $L$ therefore is not metrizable.\n\n-   $L$ is a $1$\u2013dimensional locally Euclidean\n\n-   $L$ therefore is not paracompact.\n\n-   $L$ is first countable.\n\n-   $L$ is not separable.\n\n-   All homotopy groups of $L$ are trivial.\n\n-   However, $L$ is not contractible.\n\nVariants {#variants .unnumbered}\n========\n\nThere are several variations of the above construction.\n\n-   Instead of $[\\,0,{\\Omega})$ one can use $(0,{\\Omega})$ or\n    $[\\,0,{\\Omega}\\,]$. The latter (obtained by adding a single point to\n    $L$) is compact.\n\n-   One can consider the \u201cdouble\u201d of the above construction. That is the\n    space obtained by gluing two copies of $L$ along $0$. The resulting\n    open manifold is not homeomorphic to $L\\setminus \\{0\\}$.",
+  "language": "INFORMAL",
+  "phrase": "Long Line",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LongLine"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ be a field and $\\overline{K}$ be its algebraic closure. The set\n$\\operatorname{Latt}(K)$ of all intermediate fields $E$ (where\n$K\\subseteq E\\subseteq \\overline{K}$), ordered by set theoretic\ninclusion, is a poset. Furthermore, it is a complete lattice, where $K$\nis the bottom and $\\overline{K}$ is the top.\n\nThis is the direct result of the fact that any topped intersection\nstructure is a complete lattice, and $\\operatorname{Latt}(K)$ is such a\nstructure. However, it can be easily proved directly: for any collection\nof intermediate fields $\\lbrace E_i\\mid i\\in I\\rbrace$, the intersection\nis clearly an intermediate field, and is the infimum of the collection.\nThe compositum of these fields, which is the smallest intermediate field\n$E$ such that $E_i\\subseteq E$, is the supremum of the collection.\n\nIt is not hard to see that $\\operatorname{Latt}(K)$ is an algebraic\nlattice, since the union of any directed family of intermediate fields\nbetween $K$ and $\\overline{K}$ is an intermediate field. The compact\nelements in $\\operatorname{Latt}(K)$ are the finite algebraic extensions\nof $K$. The set of all compact elements in $\\operatorname{Latt}(K)$,\ndenoted by $\\operatorname{Latt}_F(K)$, is a lattice ideal, for any\nsubfield of a finite algebraic extension of $K$ is finite algebraic over\n$K$. However, $\\operatorname{Latt}_F(K)$, as a sublattice, is usually\nnot complete (take the compositum of all simple extensions\n$\\mathbb{Q}(\\sqrt{p})$, where $p\\in \\mathbb{Z}$ are rational primes).",
+  "language": "INFORMAL",
+  "phrase": "Lattice Of Fields",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LatticeOfFields"
+    }
+  ],
+  "indexable": true
+}

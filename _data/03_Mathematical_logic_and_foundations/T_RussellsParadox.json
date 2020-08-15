@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "axiom of unrestricted comprehension"
+  ],
+  "definition": "Suppose that for any coherent proposition $P(x)$, we can construct a set\n$\\{x: P(x)\\}$. Let $S = \\{x: x \\not\\in x\\}$. Suppose $S \\in S$; then, by\ndefinition, $S \\not\\in S$. Likewise, if $S \\not\\in S$, then by\ndefinition $S \\in S$. Therefore, we have a contradiction. Bertrand\nRussell gave this paradox as an example of how a purely intuitive set\ntheory can be inconsistent. The regularity axiom, one of the\nZermelo-Fraenkel axioms, was devised to avoid this paradox by\nprohibiting self-swallowing sets.\\\n\\\nAn interpretation of Russell paradox without any formal language of set\ntheory could be stated like \u201cIf the barber shaves all those who do not\nthemselves shave, does he shave himself?\u201d. If you answer himself that is\nfalse since he only shaves all those who do not themselves shave. If you\nanswer someone else that is also false because he shaves all those who\ndo not themselves shave and in this case he is part of that set since he\ndoes not shave himself. Therefore we have a contradiction.\n\n**Remark**. Russell\u2019s paradox is the result of an axiom (due to Frege)\nin set theory, now obsolete, known as the *axiom of (unrestricted)\ncomprehension*, which states: if $\\phi$ is a predicate in the language\nof set theory, then there is a set that contains exactly those elements\n$x$ such that $\\phi(x)$. In other words, $\\lbrace x\\mid \\phi(x)\\rbrace$\nis a set. So if we take $\\phi(x)$ to be $x\\notin x$, we arrive at\nRussell\u2019s paradox.",
+  "language": "INFORMAL",
+  "phrase": "Russell'S Paradox",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RussellsParadox"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Giuga number* is a squarefree composite number $n$ such that each\nprime factor $p_i|({n \\over {p_i}} - 1)$. For these numbers it then\nfollows that $nB_{\\phi(n)} \\equiv -1 \\bmod n$, (where $B_x$ is a\nBernoulli number).\n\nThe first few Giuga numbers are 30, 858, 1722, 66198, 2214408306,\n24423128562 (listed in sequence A007850 of Sloane\u2019s OEIS).\n\nAll known Giuga numbers are even and have at least three factors. An odd\nGiuga number would have to have at least twelve factors.",
+  "language": "INFORMAL",
+  "phrase": "Giuga Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GiugaNumber"
+    }
+  ],
+  "indexable": true
+}

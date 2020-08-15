@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $\\lambda_i$ be the i-th eigenvalue of $A+E$. Then, by the\nCourant-Fisher min-max theorem and being $x^HEx \\geq 0$ by hypothesis,\nwe have:\n\n$\\lambda_i(A+E)=\\max\\limits_{S, dim S=i}\\min\\limits_{\\|x\\|\\ne 0}\\frac{x^H(A+E)x}{x^H x}=$\\\n$=\\max\\limits_{S,\\dim S=i}\\min\\limits_{\\|x\\|\\ne 0}\\left(\\frac{x^HAx}{x^Hx}+\\frac{x^HEx}{x^Hx}\\right)\\geq\\max\\limits_{S,\\dim S=i}\\min\\limits_{\\|x\\|\\ne 0}\\frac{x^HAx}{x^Hx}=\\lambda_i(A)$.",
+  "conclusion": "#P_WeylsInequality",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfWeylsInequality"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Weyl's inequality"
+  ]
+}

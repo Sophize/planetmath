@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In an , let $x,y,z$ be vectors. Then\n$$\\Vert x+y\\Vert^2 + \\Vert y +z \\Vert^2 + \\Vert z +x \\Vert^2 =\n\\Vert  x \\Vert^2 + \\Vert y \\Vert^2 + \\Vert z \\Vert^2 + \\Vert x + y +z \\Vert^2.$$\n\nTaking $x+z=0$ we have the usual parallelogram law.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizationOfTheParallelogramLaw"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "generalization of the parallelogram law"
+  ]
+}

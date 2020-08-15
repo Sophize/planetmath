@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $C$ be an abelian category, and $f\\colon A\\to B$ be a morphism of\n$C$. Then $\\ker f$ is an inverse limit.\n\nRecalling the definition of a kernel in an abelian category, we can see\nthat $i\\colon X\\to A$ is a kernel of $f$ if and only if the following\ndiagrams commute: $$\\xymatrix{\n& X \\ar[dl]_i \\ar[dr]^{f\\circ i}&\\\\\nA \\ar[rr]^f & & B \n}$$ $$\\xymatrix{\n& X \\ar[dl]_i \\ar[dr]^{0\\circ i}&\\\\\nA \\ar[rr]^0 & & B \n}$$ and $f\\circ i = 0\\circ i$.\n\nLet $I$ be the category $$\\xymatrix{\n\\diamondsuit \\ar@<0.5ex>[r]^\\dagger \\ar@<-0.5ex>[r]_\\ddagger & \\heartsuit\n}$$ and define a functor $G\\colon I\\to C$ by $G(\\diamondsuit)=A$,\n$G(\\heartsuit)=B$, $G(\\dagger) = f$, and $G(\\ddagger) = 0$.\n\nSuppose that $\\operatorname{\\varprojlim}G$ exists and is equal to $Y$.\nThen there are maps $\\pi_\\diamondsuit\\colon Y\\to A$ and\n$\\pi_\\heartsuit\\colon Y\\to A$ that make the following diagrams commute:\n$$\\xymatrix{\n& Y \\ar[dl]_{\\pi_\\diamondsuit} \\ar[dr]^{\\pi_\\heartsuit}&\\\\\nA \\ar[rr]^{G(\\dagger)=f} & & B \n}$$ $$\\xymatrix{\n& Y \\ar[dl]_{\\pi_\\diamondsuit} \\ar[dr]^{\\pi_\\heartsuit}&\\\\\nA \\ar[rr]^{G(\\ddagger)=0} & & B \n}$$ This is exactly the universal condition for a kernel in an abelian\ncategory.\n\nBy reversing arrows, we can see that a cokernel is a direct limit.\n\nThis result can be extremely useful in proving exactness results: one\nshows that finite inverse and direct limits exist and are exact in a\nparticular category, and one immediately obtains the fact that sums,\nproducts, kernels and cokernels are all exact.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KernelIsAnInverseLimit"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "kernel is an inverse limit"
+  ]
+}

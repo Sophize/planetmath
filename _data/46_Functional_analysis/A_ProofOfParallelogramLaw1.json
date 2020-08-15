@@ -1,0 +1,17 @@
+{
+  "argumentText": "The proof supplied here for the parallelogram law uses the properties of\nnorms and inner products. See the entries about these for more details\nregarding the following calculations.\n\n  --------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n  $\\Vert x+y \\Vert^2+\\Vert x-y \\Vert^2$   $=\\langle x+y,x+y \\rangle + \\langle x-y,x-y \\rangle$\n                                          $=\\langle x,x+y \\rangle + \\langle y,x+y \\rangle + \\langle x,x-y \\rangle - \\langle y,x-y \\rangle$\n                                          $=\\overline{\\langle x+y,x \\rangle}+\\overline{\\langle x+y,y \\rangle}+\\overline{\\langle x-y,x \\rangle}-\\overline{\\langle x-y,y \\rangle}$\n                                          $\\displaystyle =\\overline{\\langle x,x \\rangle + \\langle y,x \\rangle}+\\overline{\\langle x,y \\rangle + \\langle y,y \\rangle}+\\overline{\\langle x,x \\rangle - \\langle y,x \\rangle}-\\left( \\overline{\\langle x,y \\rangle - \\langle y,y \\rangle} \\right)$\n                                          $=\\overline{\\langle x,x \\rangle}+\\overline{\\langle y,x \\rangle}+\\overline{\\langle x,y \\rangle}+\\overline{\\langle y,y \\rangle}+\\overline{\\langle x,x \\rangle}-\\overline{\\langle y,x \\rangle}-\\overline{\\langle x,y \\rangle}+\\overline{\\langle y,y \\rangle}$\n                                          $=\\langle x,x \\rangle + \\langle y,y \\rangle + \\langle x,x \\rangle + \\langle y,y \\rangle$\n                                          $=2\\langle x,x \\rangle +2 \\langle y,y \\rangle$\n                                          $=2 \\Vert x \\Vert^2+2 \\Vert y \\Vert^2$.\n  --------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+  "conclusion": "#P_ParallelogramLaw1",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfParallelogramLaw1"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of parallelogram law"
+  ]
+}

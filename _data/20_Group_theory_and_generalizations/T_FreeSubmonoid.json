@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be an arbitrary set, let $A^\\ast$ be the free monoid on $A$, and\nlet $e$ be the identity element (empty word) of $A^\\ast$.\n\nLet $M$ be a submonoid of $A^\\ast$. The *minimal generating set* of $M$\nis $$\\label{eq:mgs}\n{\\ensuremath{\\mathrm{mgs}}}(M) = (M\\setminus\\{e\\})\\setminus(M\\setminus\\{e\\})^2\\;.$$\nShortly, ${\\ensuremath{\\mathrm{mgs}}}(M)$ is the set of all the\nnontrivial elements of $M$ that cannot be \u201creconstructed\u201d as products of\nelements of $M$. It is straightforward that\n\n1.  $({\\ensuremath{\\mathrm{mgs}}}(M))^\\ast=M$, and\n\n2.  if $S\\subseteq A^\\ast$ and $M\\subseteq S^\\ast$, then\n    ${\\ensuremath{\\mathrm{mgs}}}(M)\\subseteq S$.\n\nWe say that $M$ is a *free submonoid* of $A^\\ast$ if it is isomorphic\n(as a monoid) to a free monoid $B^\\ast$ for some set $B$. A set\n$K\\subseteq A^\\ast$ such that $K={\\ensuremath{\\mathrm{mgs}}}(M)$ for\nsome free submonoid $M$ of $A^\\ast$ is also called a *code*.",
+  "language": "INFORMAL",
+  "phrase": "Free Submonoid",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FreeSubmonoid"
+    }
+  ],
+  "indexable": true
+}

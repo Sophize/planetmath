@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring. A *left ideal* (resp., *right ideal*) $I$ of $R$ is a\nnonempty subset $I \\subset R$ such that:\n\n-   $a-b \\in I$ for all $a,b \\in I$\n\n-   $r \\cdot a \\in I$ (resp. $a \\cdot r \\in I$) for all $a \\in I$ and\n    $r \\in R$\n\nA *two-sided ideal* is a left ideal $I$ which is also a right ideal. If\n$R$ is a commutative ring, then these three notions of ideal are\nequivalent. Usually, the word \u201cideal\u201d by itself means two-sided ideal.\n\nThe name \u201cideal\u201d comes from the study of number theory. When the failure\nof unique factorization in number fields was first noticed, one of the\nsolutions was to work with so-called \u201cideal numbers\u201d in which unique\nfactorization did hold. These \u201cideal numbers\u201d were in fact ideals, and\nin Dedekind domains, unique factorization of ideals does indeed hold.\nThe term \u201cideal number\u201d is no longer used; the term \u201cideal\u201d has replaced\nand generalized it.",
+  "language": "INFORMAL",
+  "phrase": "Ideal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ideal"
+    }
+  ],
+  "indexable": true
+}

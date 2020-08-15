@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a locally compact topological group. In general, the Banach\n\\*-algebra $L^1(G)$ () does not have an identity element. In fact:\n\n[ **-**]{} $L^1(G)$ has an identity element if and only if $G$ is\ndiscrete.\n\nWhen $G$ is discrete the identity element of $L^1(G)$ is just the Dirac\ndelta, i.e. the function that takes the value $1$ on the identity\nelement of $G$ and vanishes everywhere else.\n\nNevertheless, $L^1(G)$ has always an approximate identity.\n\n[**Theorem -**]{} $L^1(G)$ has an approximate identity\n$(e_{\\lambda})_{\\lambda \\in \\Lambda}$. Moreover the approximate identity\n$(e_{\\lambda})_{\\lambda \\in \\Lambda}$ can be chosen to the following :\n\n-   $e_{\\lambda}$ is ,\n\n-   $\\|e_\\lambda\\|_1 = 1$,\n\n-   $e_{\\lambda} \\in C_c(G)$\n\nwhere $C_c(G)$ stands for the space of continuous functions\n$G \\longrightarrow \\mathbb{C}$ with compact support.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/L1GHasAnApproximateIdentity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$L^1(G)$ has an approximate identity"
+  ]
+}

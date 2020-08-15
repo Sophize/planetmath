@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "floor function",
+    "bracket function",
+    "greatest integer function",
+    "greatest integer less than or equal to"
+  ],
+  "definition": "The *floor* of a real number is the greatest integer less than or equal\nto the number. The floor of $x$ is usually denoted by\n$\\lfloor x\\rfloor$.\n\n(-5.5,-4.5)(5.5,4.3) (0,0)(-4.5,-3.5)(4.5,3.5) (0.3,3.55)[$y$]{}\n(4.6,0.3)[$x$]{} (-3,-3)(-2,-2)(-1,-1)(1,1)(2,2)(3,3) (0,0)\n(-3,-3)(-2,-3) (-2,-2)(-1,-2) (-1,-1)(0,-1) (0,0)(1,0) (1,1)(2,1)\n(2,2)(3,2) (3,3)(4,3)\n(-2.5,2.5)[$\\mbox{Graph\\; } y = \\lfloor{x}\\rfloor$]{}\n\nThe real function $x \\mapsto \\lfloor{x}\\rfloor$ is monotonically\nnondecreasing and satisfies $$x-1 < \\lfloor{x}\\rfloor \\leqq x$$ for all\n$x$. The function is continuous everywhere except in the integer points\n$0,\\,\\pm1,\\,\\pm2,\\,\\ldots$ where it is only continuous from the right.\nOne has $$\\lfloor\\lfloor{x}\\rfloor\\rfloor \\;=\\; \\lfloor{x}\\rfloor,$$\ni.e. the function is idempotent.\\\n**Some examples**:\n\n-   $\\lfloor 6.2\\rfloor=6$,\n\n-   $\\lfloor 0.4\\rfloor=0$,\n\n-   $\\lfloor 7\\rfloor=7$,\n\n-   $\\lfloor -5.1\\rfloor=-6$,\n\n-   $\\lfloor \\pi\\rfloor=3$,\n\n-   $\\lfloor -4\\rfloor=-4$.\n\nNote that this function is not the integer part ($[x]$), since\n$\\lfloor -3.5\\rfloor = -4$ and $[ -3.5]=-3$. However, both functions\nagree for non-negative numbers.\n\nThe notation for floor and ceiling was introduced by Iverson in\n1962[@Higham]. In some texts however, the bracket notation is used to\ndenote the floor function (although they actually work with integer\npart) so it is sometimes also called the *bracket function*.\n\n[9]{} N. Higham, Handbook of writing for the mathematical sciences,\nSociety for Industrial and Applied Mathematics, 1998.",
+  "language": "INFORMAL",
+  "phrase": "Floor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Floor"
+    }
+  ],
+  "indexable": true
+}

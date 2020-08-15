@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $O$ the circumcenter of $\\triangle ABC$ and $G$ its centroid. Extend\n$OG$ until a point $P$ such that $OG/GP=1/2$. We\u2019ll prove that $P$ is\nthe orthocenter $H$.\n\nDraw the median $AA'$ where $A'$ is the midpoint of $BC$. Triangles\n$OGA'$ and $PGA$ are similar, since $GP=2GO$, $AG=2A'G$ and\n$\\angle OGA'=\\angle PGA$. Then $\\angle OA'G =\\angle PGA$ and\n$OA'\\parallel AP$. But $OA'\\perp BC$ so $AP\\perp BC$, that is, $AP$ is a\nheight of the triangle.\n\nRepeating the same argument for the other medians proves that $P$ lies\non the three heights and therefore it must be the orthocenter $H$.\n\nThe ratio is $OG/GH=1/2$ since we constructed it that way.",
+  "conclusion": "#P_EulerLine",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulerLineProof"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "Euler line proof"
+  ]
+}

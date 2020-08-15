@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Two stochastic processes $\\lbrace X(t)\\mid t\\in T \\rbrace$ and\n$\\lbrace Y(t)\\mid t\\in T \\rbrace$ are said to be ** if for *any*\npositive integer $n<\\infty$, and *any* sequence $t_1,\\ldots,t_n\\in T$,\nthe random vectors $\\boldsymbol{X}:=(X(t_1),\\ldots,X(t_n))$ and\n$\\boldsymbol{Y}:=(Y(t_1),\\ldots,Y(t_n))$ are independent. This means,\nfor any two $n$-dimensional Borel sets $A,B\\subseteq\\mathbb{R}^n$, we\nhave $$P\\Big[\\boldsymbol{X}^{-1}(A)\\cap\\boldsymbol{Y}^{-1}(B)\\Big]\n=P\\Big[\\boldsymbol{X}^{-1}(A)\\Big]P\\Big[\\boldsymbol{Y}^{-1}(B)\\Big].$$",
+  "language": "INFORMAL",
+  "phrase": "Independent Stochastic Processes",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndependentStochasticProcesses"
+    }
+  ],
+  "indexable": true
+}

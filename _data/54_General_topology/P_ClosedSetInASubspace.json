@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In the following, let $X$ be a topological space.\n\nSuppose $Y\\subseteq X$ is equipped with the subspace topology, and\n$A\\subseteq Y$. Then $A$ is in $Y$ if and only if $A=Y\\cap J$ for some\nclosed set $J\\subseteq X$.\n\nIf $A$ is closed in $Y$, then $Y\\setminus A$ is in $Y$, and by the\ndefinition of the subspace topology, $Y\\setminus A = Y\\cap U$ for some\nopen $U\\subseteq X$. Using , we obtain $$\\begin{aligned}\n  A &=& Y\\setminus (Y\\setminus A) \\\\\n    &=& Y\\setminus(Y\\cap U) \\\\\n    &=& Y\\setminus U \\\\\n    &=& Y\\cap U^\\complement.\\end{aligned}$$ On the other hand, if\n$A=Y\\cap J$ for some closed $J\\subseteq X$, then\n$Y\\setminus A = Y\\setminus(Y\\cap J) = Y\\cap J^\\complement$, and so\n$Y\\setminus A$ is open in $Y$, and therefore $A$ is closed in $Y$.\n\nSuppose $X$ is a topological space, $C\\subseteq X$ is a closed set\nequipped with the subspace topology, and $A\\subseteq C$ is closed in\n$C$. Then $A$ is closed in $X$.\n\nThis follows from the previous theorem: since $A$ is closed in $C$, we\nhave $A = C\\cap J$ for some closed set $J\\subseteq X$, and $A$ is closed\nin $X$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosedSetInASubspace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "closed set in a subspace"
+  ]
+}

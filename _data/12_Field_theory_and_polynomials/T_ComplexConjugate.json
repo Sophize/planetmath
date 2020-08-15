@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definition\n==========\n\nScalar Complex Conjugate\n------------------------\n\nLet $z$ be a complex number with real part $a$ and imaginary part $b$,\n\n$$z = a+bi$$\n\nThen the *complex conjugate* of $z$ is\n\n$$\\bar{z} = a - bi$$\n\nComplex conjugation represents a reflection about the real axis on the\nArgand diagram representing a complex number.\n\nSometimes a star ($*$) is used instead of an overline, e.g. in physics\nyou might see\n\n$$\\int_{-\\infty}^{\\infty}\\Psi^{*}\\Psi dx=1$$\n\nwhere $\\Psi^*$ is the complex conjugate of a wave .\n\nMatrix Complex Conjugate\n------------------------\n\nLet $A=(a_{ij})$ be a $n\\times m$ matrix with complex entries. Then the\n*complex conjugate* of $A$ is the matrix\n${\\overline{A}}=({\\overline{a_{ij}}})$. In particular, if\n$v=(v^1, \\ldots, v^n)$ is a complex row/column vector, then\n${\\overline{v}}=({\\overline{v^1}}, \\ldots, {\\overline{v^n}})$.\n\nHence, the matrix complex conjugate is what we would expect: the same\nmatrix with all of its scalar components conjugated.\n\nProperties of the Complex Conjugate\n===================================\n\nScalar Properties\n-----------------\n\nIf $u,v$ are complex numbers, then\n\n1.  ${\\overline{uv}}= ({\\overline{u}})({\\overline{v}})$\n\n2.  ${\\overline{u+v}}= {\\overline{u}}+{\\overline{v}}$\n\n3.  $\\big({\\overline{u}}\\big)^{-1} = {\\overline{u^{-1}}}$\n\n4.  ${\\overline{({\\overline{u}})}} = u$\n\n5.  If $v\\neq 0$, then\n    ${\\overline{(\\frac{u}{v})}} = {{\\overline{u}}}/{{\\overline{v}}}$\n\n6.  Let $u = a + bi$. Then\n    ${\\overline{u}} u = u {\\overline{u}} = a^2+b^2 \\ge 0$ (the complex\n    modulus).\n\n7.  If $z$ is written in polar form as $z=r e^{i\\phi}$, then\n    ${\\overline{z}}=re^{-i\\phi}$.\n\nMatrix and Vector Properties\n----------------------------\n\nLet $A$ be a matrix with complex entries, and let $v$ be a complex\nrow/column vector.\n\nThen\n\n1.  ${\\overline{A^T}}=\\big({\\overline{A}}\\big)^T$\n\n2.  ${\\overline{Av}}={\\overline{A}}{\\overline{v}}$, and\n    ${\\overline{vA}}={\\overline{v}}{\\overline{A}}$. (Here we assume that\n    $A$ and $v$ are compatible size.)\n\nNow assume further that $A$ is a complex square matrix, then\n\n1.  ${\\operatorname{trace}}{\\overline{A}} = {\\overline{({\\operatorname{trace}}\\ A)}}$\n\n2.  $\\det {\\overline{A}} = {\\overline{(\\det A)}}$\n\n3.  $\\big({\\overline{A}}\\big)^{-1} = {\\overline{A^{-1}}}$",
+  "language": "INFORMAL",
+  "phrase": "Complex Conjugate",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComplexConjugate"
+    }
+  ],
+  "indexable": true
+}

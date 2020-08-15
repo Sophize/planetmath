@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *unit vector* is a unit-length element of Euclidean space.\nEquivalently, one may say that the norm of a unit vector is equal to\n$1$, and write $\\Vert {\\mathbf{u}}\\Vert=1$, where ${\\mathbf{u}}$ is the\nvector in question.\n\nLet ${\\mathbf{v}}$ be a non-zero vector. To *normalize* ${\\mathbf{v}}$\nis to find the unique unit vector with the same direction as\n${\\mathbf{v}}$. This is done by multiplying ${\\mathbf{v}}$ by the\nreciprocal of its length; the corresponding unit vector is given by\n${\\mathbf{u}}=\\frac{{\\mathbf{v}}}{\\Vert\n  {\\mathbf{v}}\\Vert}$.\n\n#### Note:\n\nThe concept of a unit vector and normalization makes sense in any vector\nspace equipped with a real or complex norm. Thus, in quantum mechanics\none represents states as unit vectors belonging to a (possibly)\ninfinite-dimensional Hilbert space. To obtain an expression for such\nstates one normalizes the results of a calculation.\n\n#### Example:\n\nConsider $\\mathbb{R}^3$ and the vector ${\\mathbf{v}}=(1,2,3)$. The norm\n(length) is $\\sqrt{14}$. Normalizing, we obtain the unit vector\n${\\mathbf{u}}$ pointing in the same direction, namely\n${\\mathbf{u}}=\\left(\\frac{1}{\\sqrt{14}},\\frac{2}{\\sqrt{14}},\\frac{3}{\\sqrt{14}}\\right)$.",
+  "language": "INFORMAL",
+  "phrase": "Unit Vector",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnitVector"
+    }
+  ],
+  "indexable": true
+}

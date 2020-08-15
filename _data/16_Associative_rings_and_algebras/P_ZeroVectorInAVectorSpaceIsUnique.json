@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} The zero vector in a vector space is unique.\n\n*Proof.* Suppose $0$ and $\\tilde{0}$ are zero vectors in a vector space\n$V$. Then both $0$ and $\\tilde{0}$ must satisfy , i.e., for all\n$v\\in V$, $$\\begin{aligned}\nv + 0 &=& v,\\\\\nv + \\tilde{0} &=& v.\\end{aligned}$$ Setting $v=\\tilde{0}$ in the first\nequation, and $v=0$ in the second yields $\\tilde{0} + 0 = \\tilde{0}$ and\n$0 + \\tilde{0} = 0$. Thus, using , $$\\begin{aligned}\n{\\displaystyle0} &= \\tilde{0} + 0 \\\\\n  &= 0 + \\tilde{0} \\\\\n  &= \\tilde{0},\\end{aligned}$$ and $0=\\tilde{0}$. $\\Box$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZeroVectorInAVectorSpaceIsUnique"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "zero vector in a vector space is unique"
+  ]
+}

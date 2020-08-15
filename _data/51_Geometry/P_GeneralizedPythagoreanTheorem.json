@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If three similar polygons are constructed on the sides of a right\ntriangle, then the area of the polygon constructed on the hypotenuse is\nequal to the sum of the areas of the polygons constructed on the legs.\n\n(-1,-2)(6,5)\n\n(0,0)(0,4)(3,4) (3,4)(4.92,2.56)(3,0) (0,0)(3,0)(1.92,-1.44)\n\n(1.08,1.44)(3,0)\n\n(0,0)(3,0)(3,4)\n\n(0,0)(0,4)(1.08,1.44)(1.92,-1.44)(3,0)(3,4)(4.92,2.56)\n\nWe when say that the polygon is constructed on a side of the right\ntriangle, we mean that the polygon shares an entire side with the\npolygon.\n\nBeginning of proof. First, it suffices to prove the theorem for polygons\nof only one shape. Suppose that the areas of two polygons $P$ and $P'$\nof different shapes constructed on some side of the triangle have a\nratio $k$. Then the areas of polygons similar to them (say $R$ and $R'$)\nand constructed on another side which is $m$ times longer, will be $m^2$\ntimes larger for both shapes. Therefore, they will have the same ratio,\n$k$. Hence if the areas of $P', Q', R'$ satisfy the property that the\nfirst two add up to the third one, then the same will hold true for the\nareas of $P,Q$ and $R$ where are $k$ times greater.\n\nSo instead of constructing a square on each side, as Euclid did, we use\na right triangle that is similar to the original right triangle. And\ninstead of constructing the triangle on the outside, we use the inside\nof the triangle.\n\nDrop an altitude of the right triangle to its hypotenuse. This altitude\ndivides the triangle into two triangles and each is similar to the\noriginal triangle. We now have three similar right triangles constructed\non the sides of the original right triangle, and two of them add up to\nthe third one.\n\nEnd of proof.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedPythagoreanTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "generalized Pythagorean theorem",
+    "Pythagorean theorem"
+  ]
+}

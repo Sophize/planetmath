@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Triangular Matrix\n=================\n\nLet $n$ be a positive integer.\n\nAn *upper triangular matrix* is of the form:\n\n$$\\begin{bmatrix}\na_{11} & a_{12} & a_{13} & \\cdots & a_{1n} \\\\\n   0   & a_{22} & a_{23} & \\cdots & a_{2n} \\\\\n   0   &   0    & a_{33} & \\cdots & a_{3n} \\\\\n\\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\\n   0   &   0    &    0   & \\cdots & a_{nn}\n\\end{bmatrix}$$\n\nAn upper triangular matrix is sometimes also called *right triangular*.\n\nA *lower triangular matrix* is of the form:\n\n$$\\begin{bmatrix}\na_{11} &   0    &   0    & \\cdots &    0   \\\\\na_{21} & a_{22} &   0    & \\cdots &    0   \\\\\na_{31} & a_{32} & a_{33} & \\cdots &    0   \\\\\n\\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\\na_{n1} & a_{n2} & a_{n3} & \\cdots & a_{nn} \n\\end{bmatrix}$$\n\nA lower triangular matrix is sometimes also called *left triangular*.\n\nNote that upper triangular matrices and lower triangular matrices must\nbe square matrices.\n\nA *triangular matrix* is a matrix that is an upper triangular matrix or\nlower triangular matrix. Note that some matrices, such as the identity\nmatrix, are both upper and lower triangular. A matrix is upper and lower\ntriangular simultaneously if and only if it is a diagonal matrix.\n\nTriangular matrices allow numerous algorithmic shortcuts in many\nsituations. For example, if $A$ is an $n\\times n$ triangular matrix, the\nequation $Ax=b$ can be solved for $x$ in at most $n^2$ operations.\n\nIn fact, triangular matrices are so useful that much computational\nlinear algebra begins with factoring (or decomposing) a general matrix\nor matrices into triangular form. Some matrix factorization methods are\nthe Cholesky factorization and the LU-factorization. Even including the\nfactorization step, enough later operations are typically avoided to\nyield an overall time savings.\n\nProperties\n==========\n\nTriangular matrices have the following properties ( \u201ctriangular\u201d with\neither \u201cupper\u201d or \u201clower\u201d uniformly):\n\n-   The inverse of a triangular matrix is a triangular matrix.\n\n-   The product of two triangular matrices is a triangular matrix.\n\n-   The determinant of a triangular matrix is the product of the\n    diagonal elements.\n\n-   The eigenvalues of a triangular matrix are the diagonal elements.\n\nThe last two properties follow easily from the cofactor expansion of the\ntriangular matrix.",
+  "language": "INFORMAL",
+  "phrase": "Triangular Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TriangularMatrix"
+    }
+  ],
+  "indexable": true
+}

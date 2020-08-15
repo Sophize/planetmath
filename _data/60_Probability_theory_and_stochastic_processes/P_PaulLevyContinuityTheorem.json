@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $F_1,F_2,\\dots$ be distribution functions with characteristic\nfunctions $\\varphi_1,\\varphi_2,\\dots$, respectively. If $\\varphi_n$\nconverges pointwise to a limit $\\varphi$, and if $\\varphi(t)$ is\ncontinuous at $t=0$, then there exists a distribution function $F$ such\nthat $F_n\\rightarrow F$ , and the characteristic function associated to\n$F$ is $\\varphi$.\n\n**Remark.** The reciprocal of this theorem is a corollary to the\nHelly-Bray theorem; hence $F_n\\rightarrow F$ weakly if and only if\n$\\varphi_n\\rightarrow\\varphi$ pointwise; but this theorem says something\nstronger than the sufficiency of that : it says that the limit of a\nsequence of characteristic functions is a characteristic function\nwhenever it is continuous at 0.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PaulLevyContinuityTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Paul L\\'evy continuity theorem"
+  ]
+}

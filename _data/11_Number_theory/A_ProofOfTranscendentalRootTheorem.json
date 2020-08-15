@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $F\\subset K$ be a field extension with $K$ an algebraically closed\nfield. Let $x\\in K$ be transcendental over $F$. Then for any natural\nnumber $n\\geq 1$, the element $x^{1/n}\\in K$ is also transcendental over\n$F$.\n\nSuppose $x$ is transcendental over a field $F$, and assume for a\ncontradiction that $x^{1/n}$ is algebraic over $F$. Thus, there is a\npolynomial $P(y)\\in F[y]$ such that $P(x^{1/n})=0$ (note that the\npolynomial $y^n-x$ is [*not*]{} a polynomial with coefficients in $F$,\nso $P(y)$ might be more involved). Then the field\n$H=F(x^{1/n})\\subseteq K$ is a finite algebraic extension of $F$, and\nevery element of $H$ is algebraic over $K$. However $x\\in H$, so $x$ is\nalgebraic over $F$ which is a contradiction.",
+  "conclusion": "#P_TranscendentalRootTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfTranscendentalRootTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of transcendental root theorem"
+  ]
+}

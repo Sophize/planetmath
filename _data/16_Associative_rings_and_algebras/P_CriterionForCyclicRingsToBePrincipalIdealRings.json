@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A cyclic ring is a principal ideal ring if and only if it has a\nmultiplicative identity.\n\nLet $R$ be a cyclic ring. If $R$ has a multiplicative identity $u$, then\n$u$ the additive group of $R$. Let $I$ be an ideal of $R$. Since\n$\\{0_R\\}$ is principal, it may be assumed that $I$ contains a nonzero\nelement. Let $n$ be the smallest natural number such that $nu \\in I$.\nThe inclusion $\\langle nu \\rangle \\subseteq I$ is trivial. Let\n$t \\in I$. Since $t \\in R$, there exists $a \\in \\mathbb{Z}$ with $t=au$.\nBy the division algorithm, there exists $q,r \\in \\mathbb{Z}$ with\n$0 \\le r < n$ such that $a=qn+r$. Thus,\n$t=au=(qn+r)u=(qn)u+ru=q(nu)+ru$. Since $ru=t-q(nu) \\in I$, by choice of\n$n$, it must be the case that $r=0$. Thus, $t=q(nu)$. Hence,\n$\\langle nu \\rangle = I$, and $R$ is a principal ideal ring.\n\nConversely, if $R$ is a principal ideal ring, then $R$ is a principal\nideal. Let $k$ be the behavior of $R$ and $r$ be a of the additive group\nof $R$ such that $r^2=kr$. Since $R$ is principal, there exists\n$s \\in R$ such that $\\langle s \\rangle = R$. Let $a \\in \\mathbb{Z}$ such\nthat $s=ar$. Since $r \\in R = \\langle s \\rangle$, there exists $t \\in R$\nwith $st=r$. Let $b \\in \\mathbb{Z}$ such that $t=br$. Then\n$r=st=(ar)(br)=(ab)r^2=(ab)(kr)=(abk)r$. If $R$ is infinite, then\n$abk=1$, in which case $k=1$ since $k$ is nonnegative. If $R$ is finite,\nthen $abk \\equiv 1 \\operatorname{mod} |R|$, in which case $k=1$ since\n$k$ is a positive divisor of $|R|$. In either case, $R$ has behavior\none, and it follows that $R$ has a multiplicative identity.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CriterionForCyclicRingsToBePrincipalIdealRings"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "criterion for cyclic rings to be principal ideal rings"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hermitian inner product"
+  ],
+  "definition": "An *inner product* on a vector space $V$ over a field $K$ (which must be\neither the field $\\mathbb{R}$ of real numbers or the field $\\mathbb{C}$\nof complex numbers) is a function\n$(\\ ,\\ ): V \\times V \\longrightarrow K$ such that, for all\n$k_1,k_2 \\in K$ and\n${{{\\bf v}}}_1, {{{\\bf v}}}_2, {{{\\bf v}}}, {{{\\bf w}}}\\in V$, the\nfollowing properties hold:\n\n1.  $(k_1 {{{\\bf v}}}_1 + k_2 {{{\\bf v}}}_2, {{{\\bf w}}}) = k_1 ({{{\\bf v}}}_1, {{{\\bf w}}}) + k_2 ({{{\\bf v}}}_2, {{{\\bf w}}})$\n    (linearity[^1])\n\n2.  $({{{\\bf v}}}, {{{\\bf w}}}) = \\overline{({{{\\bf w}}}, {{{\\bf v}}})}$,\n    where $\\overline{\\ \\ \\ \\ }$ denotes complex conjugation (conjugate\n    symmetry)\n\n3.  $({{{\\bf v}}}, {{{\\bf v}}}) \\geq 0$, and\n    $({{{\\bf v}}}, {{{\\bf v}}}) = 0$ if and only if\n    ${{{\\bf v}}}= {{{\\bf 0}}}$ (positive definite)\n\n(Note: Rule 2 guarantees that\n$({{{\\bf v}}},{{{\\bf v}}}) \\in \\mathbb{R}$, so the inequality\n$({{{\\bf v}}},{{{\\bf v}}}) \\geq 0$ in rule 3 makes sense even when\n$K=\\mathbb{C}$.)\n\nThe standard example of an inner product is the dot product on $K^n$:\n$$((x_1,\\dots,x_n), (y_1,\\dots,y_n)) := \\sum_{i=1}^n x_i \\overline{y_i}$$\n\nEvery inner product space is a normed vector space, with the norm being\ndefined by $||{{{\\bf v}}}|| := \\sqrt{({{{\\bf v}}},{{{\\bf v}}})}$.\n\n[^1]: A small minority of authors impose linearity on the second\n    coordinate instead of the first coordinate.",
+  "language": "INFORMAL",
+  "phrase": "Inner Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InnerProduct"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "centre",
+    "center"
+  ],
+  "definition": "The concept of is a special case of the midpoint of a curve or arbitrary\nfigure in $\\mathbb{R}^2$ or $\\mathbb{R}^3$.\n\nA point $T$ is a [*midpoint*]{} of the figure $f$, if for each point $A$\nof $f$ there is a point $B$ of $f$ such that $T$ is the midpoint of the\nline segment $AB$. One says also that $f$ is symmetric about the point\n$T$.\\\nGiven the equation of a curve in $\\mathbb{R}^2$ or of a surface $f$ in\n$\\mathbb{R}^3$, one can, if , take a new point $T$ for the origin by\nusing the linear substitutions of the form\n$$x \\;:=\\; x'\\!+\\!a, \\qquad y \\;:=\\; y'\\!+\\!b \\quad \\mbox{etc.}$$ Thus\none may test whether the origin is the midpoint of $f$ by checking\nwhether $f$ always contains along with any point $(x,\\,y,\\,z)$ also the\npoint $(-x,\\,-y,\\,-z)$.\\\nIt is easily verified the\n\n**Theorem.** If the origin is the midpoint of a quadratic curve or a\nquadratic surface, then its equation has no 1.\\\nSimilarly one can verify the generalisation, that if the origin is the\nmidpoint of an algebraic curve or surface of degree $n$, the equation\nhas no terms of degree $n\\!-\\!1$, $n\\!-\\!3$ and so on.\\\n**Note.** Some curves and surfaces have infinitely many midpoints (see\n).\n\n[8]{} : [*Analyyttisen geometrian oppikirja*]{}. Tiedekirjasto Nr. 19.\nSecond edition. Kustannusosakeyhti\u00f6 Otava, Helsinki (1963).",
+  "language": "INFORMAL",
+  "phrase": "Midpoint",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Midpoint1"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Baire space, $\\mathcal{N}\\equiv\\mathbb{N}^\\mathbb{N}$, is the set of all\nfunctions $x\\colon\\mathbb{N}\\rightarrow\\mathbb{N}$ together with the\nproduct topology. This is homeomorphic to the set of irrational numbers\nin the unit interval, with the homeomorphism\n$f\\colon\\mathcal{N}\\rightarrow(0,1)\\setminus\\mathbb{Q}$ given by\ncontinued fraction expansion\n$$f(x)=\\sfrac{1}{x(1)+\\sfrac{1}{x(2)+\\sfrac{1}{\\ddots}}}.$$\n\n\\[thm:1\\] Let $I$ be an open interval of the real numbers and $S$ be a\ncountable dense subset of $I$. Then, $I\\setminus S$ is homeomorphic to\nBaire space.\n\nMore generally, Baire space is uniquely characterized up to\nhomeomorphism by the following properties.\n\nA topological space $X$ is homeomorphic to Baire space if and only if\n\n1.  It is a nonempty Polish space.\n\n2.  It is .\n\n3.  No nonempty open subsets are compact.\n\nIn particular, for an open interval $I$ of the real numbers and\ncountable dense subset $S\\subseteq I$, then $I\\setminus S$ is easily\nseen to satisfy these properties and Theorem \\[thm:1\\] follows.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpacesHomeomorphicToBaireSpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "spaces homeomorphic to Baire space"
+  ]
+}

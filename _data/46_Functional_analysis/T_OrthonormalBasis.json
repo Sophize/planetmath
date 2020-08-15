@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hilbert basis"
+  ],
+  "definition": "Definition {#definition .unnumbered}\n==========\n\nAn *orthonormal basis* (or *Hilbert basis*) of an inner product space\n$V$ is a subset $B$ of $V$ satisfying the following two properties:\n\n-   $B$ is an orthonormal set.\n\n-   The linear span of $B$ is dense in $V$.\n\nThe first condition means that all elements of $B$ have norm $1$ and\nevery element of $B$ is to every other element of $B$. The second\ncondition says that every element of $V$ can be approximated arbitrarily\nclosely by (finite) linear combinations of elements of $B$.\n\nOrthonormal bases of Hilbert spaces {#orthonormal-bases-of-hilbert-spaces .unnumbered}\n===================================\n\nEvery Hilbert space has an orthonormal basis. The cardinality of this\northonormal basis is called the *dimension* of the Hilbert space. (This\nis well-defined, as the cardinality does not depend on the choice of\northonormal basis. This dimension is not in general the same as .)\n\nIf $B$ is an orthonormal basis of a Hilbert space $H$, then for every\n$x\\in H$ we have $$x=\\sum_{b\\in B}\\ip{x,b}b.$$ Thus $x$ is expressed as\na (possibly infinite) \u201clinear combination\u201d of elements of $B$. The\nexpression is well-defined, because only countably many of the terms\n$\\ip{x,b}b$ are non-zero (even if $B$ itself is uncountable), and if\nthere are infinitely many non-zero terms the series is unconditionally\nconvergent. For any $x,y\\in H$ we also have\n$$\\ip{x,y}=\\sum_{b\\in B}\\ip{x,b}\\ip{b,y}.$$",
+  "language": "INFORMAL",
+  "phrase": "Orthonormal Basis",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrthonormalBasis"
+    }
+  ],
+  "indexable": true
+}

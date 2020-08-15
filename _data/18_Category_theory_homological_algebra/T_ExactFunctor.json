@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "left exact functor",
+    "right exact functor"
+  ],
+  "definition": "A covariant functor $F$ is said to be [*left exact*]{} if whenever\n$$0 \\to A \\buildrel \\alpha \\over \\longrightarrow B \\buildrel \\beta \\over \\longrightarrow C$$\nis an exact sequence, then\n$$0 \\to FA \\buildrel F\\alpha \\over \\longrightarrow FB \\buildrel F\\beta \\over \\longrightarrow FC$$\nis also an exact sequence.\n\nA covariant functor $F$ is said to be [*right exact*]{} if whenever\n$$A \\buildrel \\alpha \\over \\longrightarrow B \\buildrel \\beta \\over \\longrightarrow C \\to 0$$\nis an exact sequence, then\n$$FA \\buildrel F\\alpha \\over \\longrightarrow FB \\buildrel F\\beta \\over \\longrightarrow FC \\to 0$$\nis also an exact sequence.\n\nA contravariant functor $F$ is said to be [*left exact*]{} if whenever\n$$A \\buildrel \\alpha \\over \\longrightarrow B \\buildrel \\beta \\over \\longrightarrow C \\to 0$$\nis an exact sequence, then\n$$0 \\to FC \\buildrel F\\beta \\over \\longrightarrow FB \\buildrel F\\alpha \\over \\longrightarrow FA$$\nis also an exact sequence.\n\nA contravariant functor $F$ is said to be [*right exact*]{} if whenever\n$$0 \\to A \\buildrel \\alpha \\over \\longrightarrow B \\buildrel \\beta \\over \\longrightarrow C$$\nis an exact sequence, then\n$$FC \\buildrel F\\beta \\over \\longrightarrow FB \\buildrel F\\alpha \\over \\longrightarrow FA \\to 0$$\nis also an exact sequence.\n\nA (covariant or contravariant) functor is said to be [*exact*]{} if it\nis both left exact and right exact.",
+  "language": "INFORMAL",
+  "phrase": "Exact Functor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExactFunctor"
+    }
+  ],
+  "indexable": true
+}

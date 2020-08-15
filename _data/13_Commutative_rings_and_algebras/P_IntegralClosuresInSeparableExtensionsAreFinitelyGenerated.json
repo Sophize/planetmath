@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The theorem below generalizes to arbitrary integral ring extensions\n(under certain conditions) the fact that the ring of integers of a\nnumber field is finitely generated over ${\\mathbb{Z}}$. The proof\nparallels the proof of the number field result.\n\nLet $B$ be an integrally closed Noetherian domain with field of\nfractions $K$. Let $L$ be a finite separable extension of $K$, and let\n$A$ be the integral closure of $B$ in $L$. Then $A$ is a finitely\ngenerated $B$-module.\n\nWe first show that the $Tr^L_K$ maps $A$ to $B$. Choose $u\\in A$ and let\n$f=Irr(u,K)\\in K[x]$ be the minimal polynomial for $u$ over $K$; assume\n$f$ is of degree $d$. Let the conjugates of $u$ in some splitting field\nbe $u=a_1,\\ldots,a_d$. Then the $a_i$ are all integral over $B$ since\nthey satisfy $u$\u2019s monic polynomial in $B[x]$. Since the coefficients of\n$F$ are polynomials in the $a_i$, they too are integral over $B$. But\nthe coefficients are in $K$, and $B$ is integrally closed (in $K$), so\nthe coefficients are in $B$. But $Tr^L_K(u)$ is just the coefficient of\n$x^{d-1}$ in $f$, and thus $Tr^L_K(u)\\in B$. This proves the claim.\n\nNow, choose a basis $\\omega_1,\\ldots,\\omega_d$ of $L/K$. We may assume\n$\\omega_i\\in A$ by multiplying each by an appropriate element of $B$.\n(To see this, let $Irr(\\omega_i,K)\\in K[x] = x^d+k_1x^{d-1}+\\ldots+k_d$.\nChoose $b\\in B$ such that $bk_i\\in B\\ \\forall i$. Then\n$(b\\omega)^d+bk_1(b\\omega)^{d-1}+\\ldots+b^dk_d=0$ and thus\n$b\\omega\\in A$). Define a linear map\n$\\varphi:L\\rightarrow K^d:a\\mapsto(Tr^L_K (a\\omega_1),\\ldots,Tr^L_K (a\\omega_d))$.\n\n$\\varphi$ is 1-1, since if $u\\in\\ker\\varphi, u\\neq 0$, then $Tr(uL)=0$.\nBut $uL=L$, so $Tr^L_K$ is identically zero, which cannot be since $L$\nis separable over $K$ (it is a standard result that separability is\nequivalent to nonvanishing of the trace map; see for example\n[@bib:morandi], Chapter 8).\n\nBut $Tr^L_K:A\\rightarrow B$ by the above, so\n$\\varphi:A\\hookrightarrow B^d$. Since $B$ is Noetherian, any submodule\nof a finitely generated module is also finitely generated, so $A$ is\nfinitely generated as a $B$-module.\n\n[10]{} P.\u00a0Morandi, *Field and Galois Theory*, Springer, 2006.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralClosuresInSeparableExtensionsAreFinitelyGenerated"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "integral closures in separable extensions are finitely generated"
+  ]
+}

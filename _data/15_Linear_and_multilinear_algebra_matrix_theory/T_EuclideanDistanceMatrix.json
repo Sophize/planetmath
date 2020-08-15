@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *Euclidean distance matrix* (EDM) is a real $m\\times m$ matrix $X$\nsuch that for some points $y_1,\\ldots,y_m$ in $\\mathbb{R}^m$,\n$X_{ik}=\\left\\Vert y_i-y_k\\right\\Vert_2^2$, where $\\Vert\\cdot\\Vert_2$ is\nthe 2-norm on $\\mathbb{R}^m$.\n\nA EDM $X$ inherits the following from the norm that defines it:\n\n-   $X_{ii}=0$;\n\n-   $X_{ij}=X_{ji}\\ge 0$;\n\n-   $\\sqrt{X_{ik}}\\le\\sqrt{X_{ij}}+\\sqrt{X_{jk}}$.\n\nAdditionally, $X$ is a EDM if and only if the diagonal entries of $X$\nare all 0 and for all $z\\in\\mathbb{R}^m$ whose components sum to 0,\n$z^TXz\\le 0$.\n\nFinally, the set of $m\\times m$ EDMs forms a convex in the set of all\n$m\\times m$ matrices.\n\n[4]{} S. Boyd, L. Vandenberghe, *Convex Optimization*, Cambridge\nUniversity Press, 2004.",
+  "language": "INFORMAL",
+  "phrase": "Euclidean Distance Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EuclideanDistanceMatrix"
+    }
+  ],
+  "indexable": true
+}

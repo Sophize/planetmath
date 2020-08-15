@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For every finite collection of non-collinear points in Euclidean space,\nthere is a line that passes through exactly two of them.\n\nConsider all lines passing through two or more points in the collection.\nSince not all points lie on the same line, among pairs of points and\nlines that are non-incident we can find a point $A$ and a line $l$ such\nthat the distance $d(A,l)$ between them is minimal. Suppose the line $l$\ncontained more than two points. Then at least two of them, say $B$ and\n$C$, would lie on the same side of the perpendicular from $p$ to $l$.\nBut then either $d(AB,C)$ or $d(AC,B)$ would be smaller than the\ndistance $d(A,l)$ which contradicts the minimality of $d(A,l)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SylvestersTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Sylvester's theorem"
+  ]
+}

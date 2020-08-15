@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For simplicity, let us work only with positive integers.\n\nWe want to prove that if a,b,m are integers, then\n$${\\,\\mathrm{lcm}}(ma,mb) = m{\\,\\mathrm{lcm}}(a,b).$$\n\nFirst notice that any common multiple of $ma$ and $mb$ is also a\nmultiple of $m$, so any common multiple of $ma$ and $mb$ is of the form\n$mk$ with some integer $k$.\n\nNow notice that if $t={\\,\\mathrm{lcm}}(a,b)$ and $u<t$, it cannot happen\nthat $a\\mid u$ and $b\\mid u$, since $t$ is the smallest number, So, when\n$a\\nmid u$ then $ma\\nmid mu$, and if $b\\nmid u$ then $mb \\nmid mu$. We\nconclude that $mu$ is *not* a common multiple of $ma$ and $mb$ when\n$u<t$.\n\nSo far, we proved that $mt = m{\\,\\mathrm{lcm}}(a,b)$ is a common\nmultiple of $ma$ and $mb$, and previous paragraph shows that there is no\nsmaller common multiple, therefore $m{\\,\\mathrm{lcm}}(a,b)$ is the\n*least* common multiple of $ma$ and $mb$, in other words:\n$${\\,\\mathrm{lcm}}(ma,mb) = m{\\,\\mathrm{lcm}}(a,b).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/mathrmlcmmambmmathrmlcmab"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$\\mathrm{lcm}(ma,mb) =m \\mathrm{lcm}(a,b)$"
+  ]
+}

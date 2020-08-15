@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Assume that we have an integral $$\\int_a^\\infty\\!f(x)\\,dx$$\nwhere the real function $f$ and its derivative $f'$ are continuous and\n$f'$ additionally bounded on the interval $[a,\\,\\infty)$. Then\n$$\\begin{aligned}\n\\lim_{x\\to\\infty}f(x) \\;=\\; 0.\\end{aligned}$$\n\n*Proof.* If $c > a$, we obtain\n$$\\int_a^c\\!f(x)f'(x)\\,dx \\;=\\; \\frac{1}{2}{\\operatornamewithlimits{\\Big/}_{\\!\\!\\!a}^{\\,\\quad c}}\\!(f(x))^2 \n\\;=\\; \\frac{(f(c))^2-(f(a))^2}{2},$$ from which $$\\begin{aligned}\n(f(c))^2 \\;=\\; (f(a))^2+2\\!\\int_a^c\\!f(x)f'(x)\\,dx.\\end{aligned}$$ Using\nthe boundedness of $f'$ and the absolute convergence, we can estimate\nupwards the integral\n$$\\int_a^c\\!|f(x)f'(x)|\\,dx \\;=\\; \\int_a^c\\!|f(x)||f'(x)|\\,dx \\;\\leqq\\; M\\!\\int_a^c\\!|f(x)|\\,dx \n\\;\\leqq\\; M\\!\\int_a^\\infty\\!|f(x)|\\,dx \\quad \\forall c \\in [a,\\,\\infty)$$\nwhence $\\int_a^\\infty\\!|f(x)f'(x)|\\,dx$ is finite and thus\n$\\int_a^\\infty\\!f(x)f'(x)\\,dx$ converges absolutely. Hence (2) implies\n$$\\lim_{c\\to\\infty}(f(c))^2 \\;=\\; (f(a))^2+2\\int_a^\\infty\\!f(x)f'(x)\\,dx,$$\ni.e. $\\displaystyle\\lim_{x\\to\\infty}(f(x))^2$ exists as finite,\ntherefore also $$\\lim_{x\\to\\infty}|f(x)| \\;:=\\; A.$$ Antithesis:\n$A > 0$. It implies that there is an $x_0\\;(\\geqq a)$ such that\n$$|f(x)| \\;\\geqq\\; \\frac{A}{2} \\quad \\forall x \\geqq x_0.$$ If now\n$b > x_0$, then we had\n$$\\int_{x_0}^b\\!|f(x)|\\,dx \\;\\geqq\\; \\frac{A}{2}(b\\!-\\!x_0) \\;\\; \\longrightarrow \\infty \\quad \\mbox{as}\\;\\; b \\to \\infty.$$\nThis means that $\\int_{x_0}^\\infty|f(x)|\\,dx$ and consequently also\n$\\int_a^\\infty|f(x)|\\,dx$ would be divergent. Since it is not true, we\ninfer that $A = 0$, i.e. that the assertion (1) is true.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbsoluteConvergenceOfIntegralAndBoundednessOfDerivative"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "absolute convergence of integral and boundedness of derivative"
+  ]
+}

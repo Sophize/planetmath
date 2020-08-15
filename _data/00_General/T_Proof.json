@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*proof*]{} is an argument designed to show that a statement (usually\na theorem) is true.\n\nThe mathematical concept of proof differs from the scientific concept in\nthat in mathematics, a proof is logically deduced from axioms or from\nother theorems which have also been logically deduced, whereas for a\nscientific proof a preponderance of evidence is sufficient. Thus, a\nvalid mathematical proof assures there are no counterexamples to the\nproven statement.\n\nThere are several kinds of proofs, one commonly used one being proof by\ncontradiction. A proof by contradiction starts by assuming that the\nopposite of the theorem is true, and then proceeds to work out the\nconsequences of that assumption until encountering a contradiction, thus\nproving the theorem.\n\nAccording to Paul Nahin, the most famous proof by contradiction is\nEuclid\u2019s proof of the infinitude of primes, which starts by assuming\nthat there is in fact a largest prime number (and thus the primes are\nfinite). Proofs that a given number is irrational (such as $\\pi$ or\n$\\sqrt{5}$) also tend to prove the irrationality of the number by at\nfirst assuming that the number is in fact rational and that there are\ntwo integers which form a ratio for the given number.\n\nAnother kind of proof is the proof by induction, which starts by showing\nthe statement is true for a small case (such as $n = 1$ when dealing\nwith integers) and that the statement is true for a larger case when it\nis true for the immediately smaller case (e.g., that if it\u2019s true for\n$n$ it is also true for $n + 1$). Thus, showing that it is true for the\nsmall case proves that it is also true for the next larger case, and the\nnext larger case after that, and therefore all the larger cases.\n\nA proof by construction shows that a specified object actually exists by\nshowing how to construct that object. For example, to prove that it is\npossible to draw by compass and straightedge an isosceles triangle with\nan angle that is half of any of the two other angles, a constructive\nproof would give the instructions on how to draw such a triangle.\n\n[3]{} Paul J. Nahin, [*Dr. Euler\u2019s Fabulous Formula: Cures Many\nMathematical Ills*]{}. Princeton: Princeton University Press (2006): 8\nThomas A. Whitelaw, [*Introduction to Abstract Algebra*]{}. New York:\nCRC Press (1995): 11",
+  "language": "INFORMAL",
+  "phrase": "Proof",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Proof"
+    }
+  ],
+  "indexable": true
+}

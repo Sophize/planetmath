@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a complex manifold and $\\mathcal{F}$ be an analytic sheaf.\nFor $z \\in M$, denote by $\\mathcal{F}_z$ the stalk of $\\mathcal{F}$ at\n$z$. By $\\mathcal{O}$ denote the sheaf of germs of analytic functions.\nFor a section $f$ and a point $z \\in M$ denote by $f_z$ the germ of $f$\nat $z$.\n\n$\\mathcal{F}$ is said to be *locally finitely generated* if for every\n$z \\in M$, there is a neighbourhood $U$ of $z$, a finite number of\nsections $f_1,\\ldots,f_k \\in \\Gamma(U,\\mathcal{F})$ such that for each\n$w \\in U$, $\\mathcal{F}_w$ is a finitely generated module (as an\n$\\mathcal{O}_w$-module).\n\nLet $U$ be a neighbourhood in $M$ and Suppose that $f_1,\\ldots,f_k$ are\nsections in $\\Gamma(U,\\mathcal{F})$. Let $\\mathcal{R}(f_1,\\ldots,f_k)$\nbe the subsheaf of ${\\mathcal{O}}^k$ over $U$ consisting of the germs\n$$\\{ (g_1,\\ldots,g_k) \\in {\\mathcal{O}}^k_z \\mid\n   \\sum_{j=1}^k g_j (f_j)_z = 0 \\} .$$ $\\mathcal{R}(f_1,\\ldots,f_k)$ is\ncalled the *sheaf of relations*.\n\n$\\mathcal{F}$ is called a *coherent analytic sheaf* if $\\mathcal{F}$ is\nlocally finitely generated and if for every open subset $U \\subset M$,\nand $f_1,\\ldots,f_k \\in \\Gamma(U,\\mathcal{F})$, the sheaf\n$\\mathcal{R}(f_1,\\ldots,f_k)$ is locally finitely generated.\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Coherent Analytic Sheaf",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CoherentAnalyticSheaf"
+    }
+  ],
+  "indexable": true
+}

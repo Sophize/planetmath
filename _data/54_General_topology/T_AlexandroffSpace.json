@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Topological space $X$ is called *Alexandroff* if the intersection of\nevery family of open sets is open.\n\nOf course every finite topological space is Alexandroff, but there are\nalso bigger Alexandroff spaces. For example let $\\mathbb{R}$ denote the\nset of real numbers and let\n$\\tau=\\{[a,\\infty)\\ |\\ a\\in\\mathbb{R}\\} \\cup \\{(b,\\infty)\\ |\\ b\\in\\mathbb{R}\\}$.\nThen $\\tau$ is a topology on $\\mathbb{R}$ and $(\\mathbb{R},\\tau)$ is an\nAlexandroff space.\n\nIf $X$ is an Alexandroff space and $A\\subseteq X$, then we may talk\nabout smallest open neighbourhood of $A$. Indeed, let\n$$A^{o}=\\bigcap \\{U\\subseteq X\\ |\\ U\\mbox{ is open and }A\\mbox{ is contained in }U\\}.$$\nThen $A^{o}$ is open.",
+  "language": "INFORMAL",
+  "phrase": "Alexandroff Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlexandroffSpace"
+    }
+  ],
+  "indexable": true
+}

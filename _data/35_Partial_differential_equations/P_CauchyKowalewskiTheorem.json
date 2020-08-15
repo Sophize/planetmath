@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Consider a system of partial differential equations involving $m$\ndependent variables $u_1, \\ldots, u_m$ and $n+1$ independent variables\n$t, x_1, \\ldots, x_n$:\n$${\\partial u_i \\over \\partial t} = F_i \\left( u_1, \\ldots, u_m; t, x_1, \\ldots, x_n; {\\partial u_1 \\over \\partial x_1}, \\ldots, {\\partial u_m \\over \\partial x_n} \\right)$$\nin which $F_1 ,\\ldots, F_m$ are analytic functions in a neighborhood of\na point $(u_1^0, \\ldots, u_m^0; t^0, x_1^0, \\ldots, x_n^0)$ subject to\nthe boundary conditions $$u_i = f_i (x_1, \\ldots, x_n)$$ when $t = t^0$\nfor given functions $f_i$ which are analytic in a neighborhood of\n$x_1^0, \\ldots, x_n^0$ such that $u_i^0 = f_i (x^0_1, \\ldots, x^0_n)$.\n\nThe Cauchy-Kowalewski theorem asserts that this boundary value problem\nhas a unique analytic solution $u_i = f_i (t,x_1, \\ldots, x_n)$ in a\nneighborhood of $(u_1^0, \\ldots, u_m^0; 0, x_1^0, \\ldots, x_n^0)$.\n\nThe Cauchy-Kowalewski theorem is a local existence theorem \u2014 it only\nasserts that a solution exists in a neighborhood of the point, not in\nall space. A peculiar feature of this theorem is that the type of the\ndifferential equation (whether it is elliptic, parabolic, or hyperbolic)\nis irrelevant. As soon as one either considers global solutions or\nrelaxes the assumption of analyticity, this is no longer the case \u2014 the\nexistence and uniqueness of solutions to a differential equation (or\nsystem of differential equations) will depend upon the type of the\nequation.\n\nBy simple transformations, one can generalize this theorem.\n\nBy making a change of variable $t' = t - \\phi (x_1, \\ldots, x_m)$, with\n$\\phi$ analytic, one can generalize the theorem to the case where the\nboundary values are specified on a surface given by the equation\n$t = \\phi (x_1, \\ldots, x_m)$ rather than on the plane $t = t^0$.\n\nOne can allow higher order derivatives by the device of introducing new\nvariables. For instance, to allow third order time derivatives of $u_1$,\none could introduce new variables $u_{1t}$ and $u_{1tt}$ and augment the\nsystem of equations by adding\n$${\\partial u_1 \\over \\partial t} = u_{1t}$$ and\n$${\\partial u_{1t} \\over \\partial t} = u_{1tt}$$ Likewise, one can\neliminate spatial derivatives. The manner in which one introduces new\nequations for these new variables is somewhat clumsy to describe in\ngeneral, and it is best to explain it by example, as is done in a to\nthis entry.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyKowalewskiTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cauchy-Kowalewski theorem",
+    "Cauchy-Kovalevskaya theorem"
+  ]
+}

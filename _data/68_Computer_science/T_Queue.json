@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *queue* is a one-dimensional data structure to which new members or\nelements are generally added (pushed or enqueued) at the end and removed\n(popped or dequeued) from the start. (Compare this to a stack).\n\nObviously a new pushed element gets an index number one higher than the\nmost recently pushed element. It depends on the actual implementation\nwhether elements are re-indexed when the start element is popped. To\ngive two real-world examples:\n\na\\. When people queue up at the DMV by getting a number from the\nTake-A-Number dispenser, they give up their number ticket when they get\nup to the booth, but the number of the tickets of the people behind them\nin the queue are not changed to reflect their decreasing distance to the\nfront of the queue. For example, when ticket 47 is called, the person\nwith ticket 48 still has ticket 48 in their hands.\n\nb\\. When Netflix mails its customers the number 1 DVD on their queue, all\nthe movies remaining in the queue are renumbered accordingly,\nautomatically, by the website. Suppose for example a customer\u2019s queue\ngoes something like this:\n\n1\\. [*Proof*]{} 2. [*Good Will Hunting*]{} 3. [*A Beautiful Mind*]{} 4.\n[*Pi*]{} 5. [*Stand and Deliver*]{} etc.\n\nThen Netflix sends them [*Proof*]{}, so the customer\u2019s queue changes\nlike so:\n\n1\\. [*Good Will Hunting*]{} 2. [*A Beautiful Mind*]{} 3. [*Pi*]{} 4.\n[*Stand and Deliver*]{} 5. [*Sneakers*]{} etc.\n\nOf course there are always deviations. In a queue to get on a\nroller-coaster, someone might take cuts. Or it might in some cases even\nbe institutionally permissible to ignore queue order somewhat. For\nexample, in a triage situation, a doctor might choose to treat the\nsecond patient to arrive, an old woman who is coughing her lungs out,\ninstead of the first patient, a young man with a paper cut. Or in the\nNetflix example, if all the copies of [*Proof*]{} are out with other\ncustomers, Netflix might send the example customer [*Good Will\nHunting*]{} now and then [*Proof*]{} later.\n\nIn practice, queues always have capacity limits. For example, a computer\nthat is tied up with a very computationally intensive task (such as\nfactoring a very large prime) might become sluggish in processing the\nkeyboard buffer. The user might quickly type way more than the buffer\ncan accomodate, and when the computer finally can process the keyboard\nbuffer, only a few letters of what the user typed might show up in the\noutput.",
+  "language": "INFORMAL",
+  "phrase": "Queue",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Queue"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "supertriangular"
+  ],
+  "definition": "A *strictly* is an upper triangular matrix which has $0$ on the main\ndiagonal. Similarly a *strictly lower triangular matrix* is a lower\ntriangular matrix which has $0$ on the main diagonal. i.e.\n\nA strictly upper triangular matrix is of the form\n\n$$\\begin{bmatrix}\n0 & a_{12} & a_{13} & \\cdots & a_{1n} \\\\\n0 & 0 & a_{23} & \\cdots & a_{2n} \\\\\n0 & 0 & 0 & \\cdots & a_{3n} \\\\\n\\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\\n0 & 0 & 0 & \\cdots & 0\n\\end{bmatrix}$$\n\nA strictly lower triangular matrix is of the form\n\n$$\\begin{bmatrix}\n0 & 0 & 0 & \\cdots & 0 \\\\\na_{21} & 0 & 0 & \\cdots & 0 \\\\\na_{31} & a_{32} & 0 & \\cdots & 0 \\\\\n\\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\\na_{n1} & a_{n2} & a_{n3} & \\cdots & 0\n\\end{bmatrix}$$",
+  "language": "INFORMAL",
+  "phrase": "Strictly Upper Triangular Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StrictlyUpperTriangularMatrix"
+    }
+  ],
+  "indexable": true
+}

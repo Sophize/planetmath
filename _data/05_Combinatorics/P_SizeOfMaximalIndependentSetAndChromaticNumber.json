@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\alpha(G)$ be the size of the largest independent set in a graph\n$G$, and $\\chi(G)$ the chromatic number of $G$.\n\n[**Theorem:**]{} $\\alpha(G)\\chi(G) \\geq |G|$.\n\nThe vertices of $G$ can be partitioned into $\\chi(G)$ monochromatic\nclasses. Each class is an independent set, and hence cannot have size\nlarger than $\\alpha(G)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SizeOfMaximalIndependentSetAndChromaticNumber"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "size of maximal independent set and chromatic number"
+  ]
+}

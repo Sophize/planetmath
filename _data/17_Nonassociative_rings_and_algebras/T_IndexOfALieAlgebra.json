@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathfrak{q}$ be a Lie algebra over $\\mathbb{K}$ and\n$\\mathfrak{q}^*$ its vector space dual. For $\\xi \\in \\mathfrak{q}^*$ let\n$\\mathfrak{q}_{\\xi}$ denote the stabilizer of $\\xi$ with respect to the\nco-adjoint representation.\n\nThe *index* of $\\mathfrak{q}$ is defined to be\n\n$$\\operatorname{ind \\,}\\mathfrak{q} := \\min\\limits_{\\xi \\in \\mathfrak{g}^*} \\dim \n\\mathfrak{q}_{\\xi}$$\n\nExamples {#examples .unnumbered}\n========\n\n1.  If $\\mathfrak{q}$ is reductive then\n    $\\operatorname{ind \\,}\\mathfrak{q} = \\operatorname{rank \\,}\\mathfrak{q}$.\n    Indeed, $\\mathfrak{q}$ and $\\mathfrak{q}^*$ are isomorphic as\n    representations for $\\mathfrak{q}$ and so the index is the minimal\n    dimension among stabilizers of elements in $\\mathfrak{q}$. In\n    particular the minimum is realized in the stabilizer of any\n    *regular* element of $\\mathfrak{q}$. These elemtents have stabilizer\n    dimension equal to the rank of $\\mathfrak{q}$.\n\n2.  If $\\operatorname{ind \\,}\\mathfrak{q} = 0$ then $\\mathfrak{q}$ is\n    called a *Frobenius Lie algebra*. This is equivalent to condition\n    that the *Kirillov form*\n    $K_{\\xi} \\colon \\mathfrak{q} \\times \\mathfrak{q} \\to \n    \\mathbb{K}$ given by $(X,Y) \\mapsto \\xi([X,Y])$ is non-singular for\n    some $\\xi \\in \\mathfrak{q}^*$. Another equivalent condition when\n    $\\mathfrak{q}$ is the Lie algebra of an algebraic group $Q$ is that\n    $\\mathfrak{q}$ is Frobenius if and only if $Q$ has an open orbit on\n    $\\mathfrak{q}^*$.",
+  "language": "INFORMAL",
+  "phrase": "Index Of A Lie Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndexOfALieAlgebra"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "exponential operation"
+  ],
+  "definition": "#### Preamble.\n\nWe use ${\\mathbb{R}}^+\\subset{\\mathbb{R}}$ to denote the set of positive\nreal numbers. Our aim is to define the exponential, or the generalized\npower operation, $$x^p,\\quad x\\in{\\mathbb{R}}^+,\\; p\\in{\\mathbb{R}}.$$\nThe power index $p$ in the above expression is called the exponent. We\ntake it as proven that ${\\mathbb{R}}$ is a complete, ordered field. No\nother properties of the real numbers are invoked.\n\n#### Definition.\n\nFor $x\\in{\\mathbb{R}}^+$ and $n\\in{\\mathbb{Z}}$ we define $x^n$ in terms\nof repeated multiplication. To be more precise, we inductively\ncharacterize natural number powers as follows:\n$$x^0 = 1,\\quad x^{n+1} = x\\cdot x^n,\\quad n\\in{\\mathbb{N}}.$$ The\nexistence of the reciprocal is guaranteed by the assumption that\n${\\mathbb{R}}$ is a field. Thus, for negative exponents, we can define\n$$x^{-n} = (x^{-1})^n,\\quad n\\in{\\mathbb{N}},$$ where $x^{-1}$ is the\nreciprocal of $x$.\n\nThe case of arbitrary exponents is somewhat more complicated. A possible\nstrategy is to define roots, then rational powers, and then extend by\ncontinuity. Our approach is different. For $x\\in{\\mathbb{R}}^+$ and\n$p\\in {\\mathbb{R}}$, we define the set of all reals that one would want\nto be smaller than $x^p$, and then define the latter as the least upper\nbound of this set. To be more precise, let $x>1$ and define\n$$L(x,p)=\\{ z\\in{\\mathbb{R}}^+: z^n<x^m \\text{ for all } m\\in{\\mathbb{Z}},\\; n\\in\n{\\mathbb{N}}\\text{ such that } m<pn\\}.$$ We then define $x^p$ to be the\nleast upper bound of $L(x,p)$. For $x<1$ we define\n$$x^p = (x^{-1})^{-p}.$$\n\nThe exponential operation possesses a number of important , some of\nwhich characterize it up to uniqueness.\n\n#### Note.\n\nIt is also possible to define the exponential operation in terms of the\nexponential function and the natural logarithm. Since these concepts\nrequire the context of differential theory, it seems preferable to give\na basic definition that relies only on the foundational property of the\nreals.",
+  "language": "INFORMAL",
+  "phrase": "Exponential",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Exponential"
+    }
+  ],
+  "indexable": true
+}

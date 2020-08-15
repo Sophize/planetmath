@@ -1,0 +1,17 @@
+{
+  "argumentText": "If there is a $m$ such that $a_m=-\\infty$, then, by subadditivity, we\nhave $a_n=-\\infty$ for all $n>m$. Then, both sides of the equality are\n$-\\infty$, and the theorem holds. So, we suppose that\n$a_n \\in \\textbf{R}$ for all $n$. Let $L=\\inf_n \\frac{a_n}{n}$ and let\n$B$ be any number greater than $L$. Choose $k\\geq 1$ such that\n$$\\frac{a_k}{k}<B$$ For $n>k$, we have, by the division algorithm there\nare integers $p_n$ and $q_n$ such that $n=p_nk+q_n$, and\n$0\\leq q_n \\leq k-1$. Applying the definition of subadditivity many\ntimes we obtain:\n$$a_n=a_{p_nk+q_n}\\leq a_{p_nk}+a_{q_n} \\leq p_na_k+a_{q_n}$$ So,\ndividing by $n$ we obtain:\n$$\\frac{a_n}{n} \\leq \\frac{p_nk}{n} \\frac{a_k}{k}+\\frac{a_{q_n}}{n}$$\nWhen $n$ goes to infinity, $\\frac{p_nk}{n}$ converges to $1$ and\n$\\frac{a_{q_n}}{n}$ converges to zero, because the numerator is bounded\nby the maximum of $a_i$ with $0\\leq i \\leq k-1$. So, we have, for all\n$B>L$: $$L\\leq \\lim_n \\frac{a_n}{n} \\leq \\frac{a_k}{k} < B$$ Finally,\nlet $B$ go to $L$ and we obtain\n$$L=\\inf_n \\frac{a_n}{n}=\\lim_n \\frac{a_n}{n}$$",
+  "conclusion": "#P_FeketesSubadditiveLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfFeketesSubadditiveLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "Proof of Fekete's subadditive lemma"
+  ]
+}

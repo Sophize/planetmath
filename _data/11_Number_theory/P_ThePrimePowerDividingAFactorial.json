@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In 1808, Legendre showed that the exact power of a prime $p$ dividing\n$n!$ is $$\\sum_{i=1}^K \\left\\lfloor \\frac{n}{p^i} \\right\\rfloor$$ where\n$K$ is the largest power of $p$ being $\\leq n$.\n\nIf $p>n$ then $p$ doesn\u2019t divide $n!$, and its power is 0, and the sum\nabove is empty. So let the prime $p \\le n$.\\\nFor each $1 \\le i \\le K$, there are $\\left\\lfloor \\frac{n}{p^i}\n\\right\\rfloor\n-\\left\\lfloor \\frac{n}{p^{i+1}} \\right\\rfloor$ numbers between 1 and $n$\nwith $i$ being the greatest power of $p$ dividing each. So the power of\n$p$ dividing $n!$ is\n$$\\sum_{i=1}^K i\\cdot \\left(\\left\\lfloor \\frac{n}{p^i} \\right\\rfloor\n-\\left\\lfloor \\frac{n}{p^{i+1}} \\right\\rfloor\\right).$$ But each\n$\\left\\lfloor \\frac{n}{p^i} \\right\\rfloor, i \\ge 2$ in the sum appears\nwith factors $i$ and $i-1$, so the above sum equals\n$$\\sum{i=1}^K \\left\\lfloor \\frac{n}{p^i} \\right\\rfloor.$$\n\n$$\\sum_{k=1}^K \\left\\lfloor \\frac{n}{p^K} \\right\\rfloor =\\frac{n\n-\\delta_p(n)}{p-1},$$ where $\\delta_p$ denotes the sums of digits\nfunction in base $p$.\n\nIf $n < p$, then $\\delta_p(n) =n$ and\n$\\left\\lfloor \\frac{n}{p} \\right\\rfloor$ is\n$0 =\\frac{n -\\delta_p(n)}{p-1}$. So we assume $p \\leq n$.\n\nLet $n_Kn_{K-1}\\cdots n_0$ be the $p$-adic representation of $n$. Then\n$$\\begin{aligned}\n\\frac{n -\\delta_p(n)}{p-1} &= \\sum_{k=1}^K n_k\\left(\\sum_{j=0}^{k-1} p^j\\right)\n\\\\\n&=\\sum_{0 \\le j < k \\le K} p^j.n_k  \\\\\n&=\\left(n_1 +n_2p +\\ldots +n_Kp^{K-1}\\right)\n\\\\\n&+\\left(n_2 +n_3p +\\ldots +n_Kp^{K-2}\\right) \\\\\n& \\ddots \\\\\n& +n_K \\\\\n&&= \\sum_{k=1}^K \\left\\lfloor \\frac{n}{p^k}\\right\\rfloor.\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThePrimePowerDividingAFactorial"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the prime power dividing a factorial"
+  ]
+}

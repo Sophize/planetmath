@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "analytical hierarchy"
+  ],
+  "definition": "The *analytic hierarchy* is a hierarchy of either (depending on context)\nformulas or relations similar to the arithmetical hierarchy. It is\nessentially the second order equivalent. Like the arithmetical\nhierarchy, the relations in each level are exactly the relations defined\nby the formulas of that level.\n\nThe first level can be called $\\Delta^1_0$, $\\Delta^1_1$, $\\Sigma^1_0$,\nor $\\Pi^1_0$, and consists of the arithmetical formulas or relations.\n\nA formula $\\phi$ is $\\Sigma^1_n$ if there is some arithmetical formula\n$\\psi$ such that:\n\n$$\\phi(\\vec k)=\\exists X_1\\forall X_2\\cdots Q X_n\\psi(\\vec k,\\vec X_n)$$\n$$\\text{ where }Q\\text{ is either }\\forall\\text{ or }\\exists\\text{, whichever maintains the pattern of alternating quantifiers, and each } X_i \\text{ is a set variable (that is, second order)}$$\n\nSimilarly, a formula $\\phi$ is $\\Pi^1_n$ if there is some arithmetical\nformula $\\psi$ such that:\n\n$$\\phi(\\vec k)=\\forall X_1\\exists X_2\\cdots Q X_n\\psi(\\vec k,\\vec X_n)$$\n$$\\text{ where }Q\\text{ is either }\\forall\\text{ or }\\exists\\text{, whichever maintains the pattern of alternating quantifiers, and each } X_i \\text{ is a set variable (that is, second order)}$$",
+  "language": "INFORMAL",
+  "phrase": "Analytic Hierarchy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnalyticHierarchy"
+    }
+  ],
+  "indexable": true
+}

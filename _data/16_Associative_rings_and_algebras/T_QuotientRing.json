@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "difference ring",
+    "factor ring",
+    "residue-class ring"
+  ],
+  "definition": "[**Definition.** ]{} Let $R$ be a ring and let $I$ be a of $R$. To\ndefine the quotient ring $R/I$, let us first define an equivalence\nrelation in $R$. We say that the elements $a,b\\in R$ are equivalent,\nwritten as $a\\sim b$, if and only if $a-b\\in I$. If $a$ is an element of\n$R$, we denote the corresponding equivalence class by $[a]$. Thus\n$[a]=[b]$ if and only if $a-b\\in I$. The [*quotient ring*]{} of $R$\nmodulo $I$ is the set $R/I=\\{[a]\\, |\\, a\\in R\\}$, with a ring structure\ndefined as follows. If $[a],[b]$ are equivalence classes in $R/I$, then\n\n-   $[a]+[b] = [a+b]$,\n\n-   $[a]\\cdot [b]=[a\\cdot b]$.\n\nHere $a$ and $b$ are some elements in $R$ that represent $[a]$ and\n$[b]$. By construction, every element in $R/I$ has such a representative\nin $R$. Moreover, since $I$ is closed under addition and multiplication,\none can verify that the ring structure in $R/I$ is well defined.\n\nA common notation is $a+I=[a]$ which is consistent with the notion of\nclasses $[a]=aH\\in G/H$ for a group $G$ and a normal subgroup $H$.\n\n### Properties {#properties .unnumbered}\n\n1.  If $R$ is commutative, then $R/I$ is commutative.\n\n2.  The mapping $R\\to R/I$, $a\\mapsto [a]$ is a homomorphism, and is\n    called the .\n\n### Examples {#examples .unnumbered}\n\n1.  For a ring $R$, we have $R/R=\\{[0]\\}$ and $R/\\{0\\}=R$.\n\n2.  Let $R=\\mathbb{Z}$, and let $I=2\\mathbb{Z}$ be the set of even\n    numbers. Then $R/I$ contains only two classes; one for even numbers,\n    and one for odd numbers. Actually this quotient ring is a field. It\n    is the only field with two elements (up to isomorphy) and is also\n    denoted by $\\mathbb{F}_2$.\n\n3.  One way to construct complex numbers is to consider the field\n    $\\mathbb{R}[T]/(T^2+1)$. This field can viewed as the set of all\n    polynomials of degree $1$ with normal addition and\n    $(a+bT)(c+dT)=ac-bd+(ad+bc)T$, which is like complex multiplication.",
+  "language": "INFORMAL",
+  "phrase": "Quotient Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientRing"
+    }
+  ],
+  "indexable": true
+}

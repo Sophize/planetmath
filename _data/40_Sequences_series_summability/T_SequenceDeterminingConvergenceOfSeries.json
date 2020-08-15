@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Theorem.** Let $a_1\\!+\\!a_2\\!+\\ldots$ be any series of real $a_n$. If\nthe positive numbers $r_1,\\,r_2,\\,\\ldots$ are such that\n$$\\begin{aligned}\n\\lim_{n\\to\\infty}\\frac{a_n}{r_n} \\;=\\; L \\;\\neq\\, 0,\\end{aligned}$$ then\nthe series converges simultaneously with the series\n$r_1\\!+\\!r_2\\!+\\ldots$\\\n*Proof.* In the case that the limit (1) is positive, the supposition\nimplies that there is an integer $n_0$ such that $$\\begin{aligned}\n0.5L \\;<\\; \\frac{a_n}{r_n} \\;<\\; 1.5L \\quad \\textrm{for  } n \\geqq n_0.\\end{aligned}$$\nTherefore\n$$0 \\;<\\; 0.5Lr_n \\;<\\; a_n \\;<\\; 1.5Lr_n \\quad \\textrm{for all  } n \\geqq n_0,$$\nand since the series $\\sum_{n=1}^\\infty0.5Lr_n$ and\n$\\sum_{n=1}^\\infty1.5Lr_n$ converge simultaneously with the series\n$r_1\\!+\\!r_2\\!+\\ldots$, the comparison test guarantees that the same\nconcerns the given series $a_1\\!+\\!a_2\\!+\\ldots$\\\nThe case where (1) is negative, whence we have\n$$\\lim_{n\\to\\infty}\\frac{-a_n}{r_n} \\;=\\; -L > 0,$$ may be handled as\nabove.\\\n**Note.** For the case $L = 0$, see the limit comparison test.",
+  "language": "INFORMAL",
+  "phrase": "Sequence Determining Convergence Of Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SequenceDeterminingConvergenceOfSeries"
+    }
+  ],
+  "indexable": true
+}

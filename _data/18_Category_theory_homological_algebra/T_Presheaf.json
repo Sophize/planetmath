@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For a topological space $X$ a presheaf $F$ with values in a category\n$\\mathcal{C}$ associates to each open set $U\\subset X$, an object $F(U)$\nof $\\mathcal{C}$ and to each inclusion $U\\subset V$ a morphism of\n$\\mathcal{C}$, $\\rho_{UV} : F(V)\\to F(U)$, the restriction morphism. It\nis required that $\\rho_{UU} = 1_{F(U)}$ and\n$\\rho_{UW} = \\rho_{UV}\\circ \\rho_{VW}$ for any $U\\subset V\\subset W$.\n\nA presheaf with values in the category of sets (or abelian groups) is\ncalled a presheaf of sets (or abelian groups). If no target category is\nspecified, either the category of sets or abelian groups is most likely\nunderstood.\n\nA more categorical way to state it is as follows. For $X$ form the\ncategory ${\\bf Top}(X)$ whose objects are open sets of $X$ and whose\nmorphisms are the inclusions. Then a presheaf is merely a contravariant\nfunctor ${\\bf Top}(X)\\to\\mathcal{C}$.",
+  "language": "INFORMAL",
+  "phrase": "Presheaf",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Presheaf"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** The set of all elements of a ring, which have a finite\norder in the additive group of the ring, is a (two-sided) ideal of the\nring.\\\n[*Proof.*]{} Let $S$ be the set of the elements with finite order in the\nring $R$. Denote by $o(x)$ the order of $x$. Take arbitrary elements\n$a,\\,b$ of the set $S$.\n\nIf $\\operatorname{lcm}(o(a),\\,o(b)) = n = ko(a) = lo(b)$, then\n$$n(a-b) = na-nb = ko(a)a-lo(b)b = k\\cdot0-l\\cdot0 = 0-0 = 0.$$ Thus\n$o(a-b) \\leqq n < \\infty$ and so $a-b \\in S$.\n\nFor any element $r$ of $R$ we have\n$$o(a)(ra) = \\underbrace{ra+ra+\\ldots+ra}_{o(a)} = r(\\underbrace{a+a+\\ldots+a}_{o(a)}) =\nr(o(a)a) = r\\cdot0 = 0.$$ Therefore, $o(ra) \\leqq o(a) < \\infty$ and\n$ra \\in S$. Similarly, $ar \\in S$.\n\nSince $S$ satisfies the conditions for an ideal, the theorem has been\nproven.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdealOfElementsWithFiniteOrder"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "ideal of elements with finite order"
+  ]
+}

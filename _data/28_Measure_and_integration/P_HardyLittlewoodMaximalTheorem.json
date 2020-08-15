@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "There is a constant $K>0$ such that for each Lebesgue integrable\nfunction $f\\in L^1(\\mathbb{R}^n)$, and each $t>0$,\n$$m(\\{x:Mf(x)>t\\}) \\leq \\frac{K}{t}\\|f\\|_1 = \\frac{K}{t}\\int_{\\mathbb{R}^n} |f(x)|dx,$$\nwhere $Mf$ is the Hardy-Littlewood maximal function of $f$.\n\n**Remark.** The theorem holds for the constant $K=3^n$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HardyLittlewoodMaximalTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hardy-Littlewood maximal theorem"
+  ]
+}

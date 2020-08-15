@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A formula in first order logic is said to be in *prenex form* if all\nquantifiers occur in the front of the formula, before any occurrences of\npredicates and connectives. Schematically, a proposition in prenex form\nwill appear as follows\n\n$$(Q_1 x_1) (Q_1 x_1) \\hdots \\langle \\hbox{matrix} \\rangle$$\n\nwhere each \u201c$Q$\u201d stands for either \u201c$\\forall$\u201d or \u201c$\\exists$\u201d and\n\u201c$\\langle \\hbox{matrix} \\rangle$\u201d is constructed from predicates and\nconnectives. For example, the proposition\n\n$$(\\forall x) (\\exists y) (\\forall z) \\, (x > z \\rightarrow y > z)$$\n\nis in prenex form whilst the statement\n\n$$(\\forall x) \\, (x > 0 \\rightarrow (\\exists y) (x = y^2))$$\n\nis not in prenex form, but is equivalent to the statement\n\n$$(\\forall x) (\\exists y) \\, (x > 0 \\rightarrow x = y^2)$$\n\nwhich is in prenex form.\n\nThis requirement that the statement be expressed in prenex form puts no\nreal restriction on the statements which we may consider because it is\npossible to systematically express any statement in prenex form by a\nsystematic use of the several equivalences:",
+  "language": "INFORMAL",
+  "phrase": "Prenex Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrenexForm"
+    }
+  ],
+  "indexable": true
+}

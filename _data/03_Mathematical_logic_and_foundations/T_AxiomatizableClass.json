@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "axiomatisable class",
+    "finitely axiomatizable",
+    "finitely axiomatisable",
+    "EC",
+    "EC$_{\\Delta}$"
+  ],
+  "definition": "Let $L$ be a first order language and $T$ a theory in $L$. Recall that a\nmodel $M$ is an $L$-structure such that $M$ satisfies every sentence in\n$T$. We say that the structure $M$ is a model of $T$. Let us write\n$\\operatorname{Mod}(T)$ the class of all $L$-structures that are models\nof $T$.\n\n**Definition**. A class $K$ of $L$-structures is said to be\n*axiomatizable* if there is a theory $T$ such that\n$K=\\operatorname{Mod}(T)$. Furthermore, $K$ is a *finitely\naxiomatizable* or *elemenary class* if $T$ is finite.\n\nFor example, the class of groups is elementary (and hence\naxiomatizable), because the set of group axioms is finite. However, the\nclass of infinite groups is axiomatizable but not elementary. Similarly,\nthe class of $R$-modules is elementary iff $R$ is finite. The class of\nlocally finite groups is an example of a non-axiomatizable class.\n\n**Remarks**.\n\n-   $K$ is an elementary class iff there is a sentence $\\varphi$ such\n    that $K=\\operatorname{Mod}(\\lbrace \\varphi \\rbrace)$, for sentences\n    $\\varphi_1,\\ldots,\\varphi_n$ can be combined to form\n    $\\varphi_1\\wedge \\cdots \\wedge \\varphi_n$, which is also a sentence\n    since it has no free variables.\n\n-   A class is axiomatizable iff it is an intersection of elementary\n    classes. As such elementary class is sometimes abbreviated EC, and\n    axiomatizable class EC$_{\\Delta}$, where $\\Delta$ means is another\n    symbol for intersection.\n\n-   A caution to the reader: some authors call an elementary class an\n    axiomatizable class that is defined here.",
+  "language": "INFORMAL",
+  "phrase": "Axiomatizable Class",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AxiomatizableClass"
+    }
+  ],
+  "indexable": true
+}

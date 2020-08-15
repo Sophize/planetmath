@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(\\Omega, {\\mathfrak{B}}, \\mu)$ be a probability space, and let\n$X,Y\\in{\\mathfrak{B}}$ be events.\n\nThe *conditional probability* of $X$ given $Y$ is defined as\n$$\\mu(X|Y) = \\frac{\\mu(X \\cap Y)}{\\mu(Y)}$$ provided $\\mu(Y)>0$. (If\n$\\mu(Y)=0$, then $\\mu(X|Y)$ is not defined.)\n\nIf $\\mu(X)>0$ and $\\mu(Y)>0$, then\n$$\\mu(X|Y)\\mu(Y) = \\mu(X\\cap Y) = \\mu(Y|X)\\mu(X),$$ and so also\n$$\\mu(X|Y) = \\frac{\\mu(Y | X)\\mu(X)}{\\mu(Y)},$$ which is Bayes\u2019 Theorem.",
+  "language": "INFORMAL",
+  "phrase": "Conditional Probability",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConditionalProbability"
+    }
+  ],
+  "indexable": true
+}

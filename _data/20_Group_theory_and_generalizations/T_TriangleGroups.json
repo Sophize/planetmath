@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Consider the following group presentation:\n$$\\Delta(l,m,n)=\\langle a,b,c:a^2,b^2,c^2,(ab)^l,(bc)^n,(ca)^m\\rangle$$\nwhere $l,m,n\\in\\mathbb{N}$.\n\nA group with this presentation corresponds to a triangle; roughly, the\ngenerators are reflections in its sides and its angles are\n$\\pi/l,\\pi/m,\\pi/n$.\n\nDenote by $D(l,m,n)$ the subgroup of 2 in $\\Delta(l,m,n)$, corresponding\nto preservation of of the triangle.\n\nThe $D(l,m,n)$ are defined by the following presentation:\n$$D(l,m,n)=\\langle x,y:x^l,y^m,(xy)^n\\rangle$$\n\nNote that $D(l,m,n)\\cong D(m,l,n)\\cong D(n,m,l)$, so $D(l,m,n)$ is of\nthe $l,m,n$.\n\nArising from the geometrical nature of these groups, $$1/l+1/m+1/n>1$$is\ncalled the *spherical case*,$$1/l+1/m+1/n=1$$is called the *Euclidean\ncase*, and$$1/l+1/m+1/n<1$$is called the *hyperbolic case*\n\nGroups either of the form $\\Delta(l,m,n)$ or $D(l,m,n)$ are referred to\nas *triangle groups*; groups of the form $D(l,m,n)$ are sometimes\nrefered to as *von Dyck groups*.",
+  "language": "INFORMAL",
+  "phrase": "Triangle Groups",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TriangleGroups"
+    }
+  ],
+  "indexable": true
+}

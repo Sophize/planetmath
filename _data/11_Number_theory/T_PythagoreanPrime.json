@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Pythagorean prime*]{} $p$ is a prime number of the form $4n + 1$.\nThe first few are 5, 13, 17, 29, 37, 41, 53, 61, 73, 89, 97, etc.,\nlisted in A002144 of Sloane\u2019s OEIS. Because of its form, a Pythagorean\nprime is the sum of two squares, e.g., 29 = 25 + 4. In fact, with the\nexception of 2, these are the only primes that can be represented as the\nsum of two squares (thus, in Waring\u2019s problem, all other primes require\nthree or four squares).\n\nThough Pythagorean primes are primes on the line of real integers, they\nare not Gaussian primes in the complex plane. Expressing a Pythagorean\nprime as $a^2 + b^2$ (it doesn\u2019t matter whether $a < b$ or viceversa)\nleads to the complex factorization by simple plugging in of the values\nthus: $p = (a + bi)(a - bi)$, where $i$ is the imaginary unit.",
+  "language": "INFORMAL",
+  "phrase": "Pythagorean Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PythagoreanPrime"
+    }
+  ],
+  "indexable": true
+}

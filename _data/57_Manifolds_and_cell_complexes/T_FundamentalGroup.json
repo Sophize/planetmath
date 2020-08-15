@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "first homotopy group"
+  ],
+  "definition": "Let $(X,x_{0})$ be a pointed topological space (that is, a topological\nspace with a chosen basepoint $x_{0}$). Denote by $[(S^1,1),(X,x_{0})]$\nthe set of homotopy classes of maps $\\sigma\\colon S^{1} \\to X$ such that\n$\\sigma(1)=x_{0}$. Here, $1$ denotes the basepoint $(1,0) \\in S^{1}$.\nDefine a product\n$[(S^1,1),(X,x_{0})] \\times [(S^1,1),(X,x_{0})] \\to [(S^1,1),(X,x_{0})]$\nby $[\\sigma][\\tau]=[\\sigma\\tau]$, where $\\sigma\\tau$ means \u201ctravel along\n$\\sigma$ and then $\\tau$\u201d. This gives $[(S^1,1),(X,x_{0})]$ a group\nstructure and we define the *fundamental group* of $(X,x_0)$ to be\n$\\pi_1(X,x_{0})= [(S^1,1),(X,x_{0})]$.\n\nIn general, the fundamental group of a topological space depends upon\nthe choice of basepoint. However, basepoints in the same path-component\nof the space will give isomorphic groups. In particular, this means that\nthe fundamental group of a (non-empty) path-connected space is\nwell-defined, up to isomorphism, without the need to specify a\nbasepoint.\n\nHere are some examples of fundamental groups of familiar spaces:\n\n-   $\\pi_1(\\R^n)\\cong\\{0\\}$ for each $n\\in\\N$.\n\n-   $\\pi_1(S^1)\\cong\\mathbb{Z}$.\n\n-   $\\pi_1(T)\\cong \\mathbb{Z}\\oplus\\mathbb{Z}$, where $T$ is the torus.\n\nIt can be shown that $\\pi_1$ is a functor from the category of pointed\ntopological spaces to the category of groups. In particular, the\nfundamental group is a topological invariant, in the sense that if\n$(X,x_0)$ is homeomorphic to $(Y,y_0)$ via a basepoint-preserving map,\nthen $\\pi_1(X,x_0)$ is isomorphic to $\\pi_1(Y,y_{0})$.\n\nIt can also be shown that two homotopically equivalent path-connected\nspaces have isomorphic fundamental groups.\n\nHomotopy groups generalize the concept of the fundamental group to\nhigher dimensions. The fundamental group is the first homotopy group,\nwhich is why the notation $\\pi_1$ is used.",
+  "language": "INFORMAL",
+  "phrase": "Fundamental Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalGroup"
+    }
+  ],
+  "indexable": true
+}

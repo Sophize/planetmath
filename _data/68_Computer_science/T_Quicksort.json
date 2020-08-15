@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Quicksort is a divide-and-conquer algorithm for sorting in the\ncomparison model. Its expected running time is $O(n\\lg n)$ for sorting\n$n$ values.\n\nAlgorithm {#algorithm .unnumbered}\n---------\n\nQuicksort can be implemented recursively, as follows:\n\n[Quicksort]{}[$L$]{}[A list $L$ of $n$ elements]{}[The list $L$ in\nsorted order]{} [**if** $n > 1$ **then**\\\n]{}\\\n[**else**\\\n]{}\n\nAnalysis {#analysis .unnumbered}\n--------\n\nThe behavior of quicksort can be analyzed by considering the computation\nas a binary tree. Each node of the tree corresponds to one recursive\ncall to the quicksort procedure.\n\nConsider the initial input to the algorithm, some list $L$. Call the\nSorted list $S,$ with $i$th and $j$th elements $S_i$ and $S_j.$ These\ntwo elements will be compared with some probability $p_{ij}$. This\nprobability can be determined by considering two preconditions on $S_i$\nand $S_j$ being compared:\n\n-   $S_i$ or $S_j$ must be chosen as a pivot $p$, since comparisons only\n    occur against the pivot.\n\n-   No element between $S_i$ and $S_j$ can have already been chosen as a\n    pivot before $S_i$ or $S_j$ is chosen. Otherwise, would be separated\n    into different sublists in the recursion.\n\nThe probability of any particular element being chosen as the pivot is\nuniform. Therefore, the chance that $S_i$ or $S_j$ is chosen as the\npivot before any element between them is $2/(j-i+1)$. This is precisely\n$p_{ij}.$\n\nThe expected number of comparisons is just the summation over all\npossible comparisons of the probability of that particular comparison\noccurring. By linearity of expectation, no independence assumptions are\nnecessary. The expected number of comparisons is therefore\n\n$$\\begin{aligned}\n\\sum_{i=1}^{n}\\sum_{j>i}^{n}p_{ij} & = & \\sum_{i=1}^{n}\\sum_{j>i}^{n}\\frac{2}{j-i+1} \\\\\n & = & \\sum_{i=1}^{n}\\sum_{k=2}^{n-i+1}\\frac{2}{k}\\\\\n & \\le & 2\\sum_{i=1}^{n}\\sum_{k=1}^{n}\\frac{1}{k}\\\\\n & = & 2nH_n = O(n\\lg n),\\end{aligned}$$\n\nwhere $H_n$ is the $n$th Harmonic number.\n\nThe worst case behavior is $\\Theta(n^2)$, but this almost never occurs\n(with high probability it does not occur) with random pivots.",
+  "language": "INFORMAL",
+  "phrase": "Quicksort",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Quicksort"
+    }
+  ],
+  "indexable": true
+}

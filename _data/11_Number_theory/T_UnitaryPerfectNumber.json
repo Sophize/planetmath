@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*unitary perfect number*]{} is an integer which is the sum of its\npositive proper unitary divisors, not including the number itself. (A\ndivisor $d$ of a number $n$ is a unitary divisor if $d$ and\n$\\frac{n}{d}$ share no common factors.) Some perfect numbers are not\nunitary perfect numbers, and some unitary perfect numbers are not\nregular perfect numbers.\n\nThe first few unitary perfect numbers are 6, 60, 90, 87360,\n146361946186458562560000 (sequence A002827 in the OEIS).\n\nThere are no odd unitary perfect numbers. This follows since one has\n$2d*(n)$ dividing the sum of the unitary divisors of an odd number\n(where $d*(n)$ is the number of distinct prime divisors of $n$). One\ngets this because the sum of all the unitary divisors is a\nmultiplicative function and one has the sum of the unitary divisors of a\npower of a prime $p^a$ is $p^a + 1$ which is even for all odd primes\n$p$. Therefore, an odd unitary perfect number must have only one\ndistinct prime factor, and it is not hard to show that a power of prime\ncannot be a unitary perfect number, since there are not enough divisors.\nIt\u2019s not known whether or not there are infinitely many unitary perfect\nnumbers.",
+  "language": "INFORMAL",
+  "phrase": "Unitary Perfect Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnitaryPerfectNumber"
+    }
+  ],
+  "indexable": true
+}

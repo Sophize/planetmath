@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $\\mu_x$ and $\\mu_y$ be measures on $X$ and $Y$ respectively, let\n$\\mu$ be the product measure $\\mu_x \\otimes \\mu_y$, and let $f(x,y)$ be\n$\\mu$-integrable on $A\\subset X\\times Y$. Then\n$$\\int_A f(x,y) d\\mu = \\int_X\\left(\\int_{A_x} f(x,y) d\\mu_y\\right) d\\mu_x = \\int_Y\\left(\\int_{A_y} f(x,y) d\\mu_x\\right) d\\mu_y$$\nwhere $$A_x = \\{y\\mid (x,y)\\in A\\} , A_y = \\{x\\mid (x,y)\\in A\\}$$\n\n**Proof**: Assume for now that $f(x,y)\\geq 0$. Consider the set\n$$U = X\\times Y\\times\\mathbb{R}$$ equipped with the measure\n$$\\mu_u = \\mu_x \\otimes \\mu_y \\otimes \\mu^1 = \\mu \\otimes \\mu^1 = \\mu_x \\otimes \\lambda$$\nwhere $\\mu^1$ is ordinary Lebesgue measure and\n$\\lambda = \\mu_y \\otimes \\mu^1$. Also consider the set $W\\subset U$\ndefined by $$W = \\{(x,y,z)\\mid (x,y)\\in A, 0\\leq z\\leq f(x,y)\\}$$ Then\n$$\\mu_{u}\\left(W\\right) = \\int_A f(x,y) d\\mu$$ And\n$$\\mu_{u}\\left(W\\right) = \\int_X \\lambda\\left(W_x\\right) d\\mu_x$$ where\n$$W_x = \\{(y,z)\\mid (x,y,z)\\in W\\}$$ However, we also have that\n$$\\lambda\\left(W_x\\right) = \\int_{A_x} f(x,y) d\\mu_y$$ Combining the\nlast three equations gives us Fubini\u2019s theorem. To remove the\nrestriction that $f(x,y)$ be nonnegative, write $f$ as\n$$f(x,y) = f^{+}(x,y) - f^{-}(x,y)$$ where\n$$f^{+}(x,y) = \\frac{\\vert f(x,y)\\vert + f(x,y)}{2}, f^{-}(x,y) = \\frac{\\vert f(x,y)\\vert - f(x,y)}{2}$$\nare both nonnegative.",
+  "conclusion": "#P_FubinisTheoremForTheLebesgueIntegral",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfFubinisTheoremForTheLebesgueIntegral"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Fubini's theorem for the Lebesgue integral"
+  ]
+}

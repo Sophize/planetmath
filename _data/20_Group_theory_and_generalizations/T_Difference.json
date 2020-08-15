@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*difference of*]{} two numbers $a$ and $b$ is a number $d$ such\nthat $$b\\!+\\!d \\;=\\; a.$$ The difference of $a$ (the [*minuend*]{}) and\n$b$ (the [*subtrahend*]{}) is denoted by $a\\!-\\!b$.\n\nThe definition is for the elements $a,\\,b$ of any Abelian group (e.g. of\na vector space).The difference of them is always unique.\\\n**Note 1.** Forming the difference of numbers (resp. elements), i.e.\nsubtraction, is in a certain sense converse to the addition operation:\n$$(x\\!+\\!y)\\!-\\!y \\;=\\; x$$\n\n**Note 2.** As for real numbers, one may say that the difference\n*between* $a$ and $b$ is $|a\\!-\\!b|$ (which is the same as $|b\\!-\\!a|$);\nthen it is always nonnegative. For all complex numbers, such a phrase\nwould be nonsense.\\\n**Some**\n\n-   $b\\!+\\!(a\\!-\\!b) \\;=\\; a$\n\n-   $a\\!-\\!b \\;=\\; a\\!+\\!(-b)$\n\n-   $-(a\\!-\\!b) \\;=\\; b\\!-\\!a$\n\n-   $n(a\\!-\\!b) \\;=\\; na\\!-\\!nb \\quad (n\\in\\mathbb{Z})$\n\n-   $a\\!-\\!a \\;=\\; 0$",
+  "language": "INFORMAL",
+  "phrase": "Difference",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Difference"
+    }
+  ],
+  "indexable": true
+}

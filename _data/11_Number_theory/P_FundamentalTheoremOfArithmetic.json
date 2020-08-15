@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Each positive integer $n$ has a unique as a product\n$$n = \\prod_{i=0}^l {p_i}^{a_i}$$ of positive powers of its distinct\npositive [*prime divisors*]{} $p_i$. The [*prime divisor*]{} of $n$\nmeans a (rational) prime number $n$. A synonymous name is [*prime\nfactor*]{}.\n\nThe of the prime divisors and for $n=1$ is an empty product.\n\nFor some results it is useful to assume that $p_i < p_j$ whenever\n$i < j$.\n\nThe FTA was the last of the fundamental theorems proven by C.F. Gauss.\nGauss wrote his proof in \u201cDiscussions on Arithmetic\u201d ([*Disquisitiones\nArithmeticae*]{}) in 1801 formalizing congruences. Euclid and Greeks\nused prime properties of the FTA without rigorously proving its\nexistence. It appears that the fundamentals of the FTA were used\ncenturies before, and after, the Greeks within Egyptian fraction\narithmetic. Fibonacci, for example, wrote in Egyptian fraction\narithmetic, used three notations to detail Euclidean and medieval\nfactoring methods.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FundamentalTheoremOfArithmetic"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "fundamental theorem of arithmetic"
+  ]
+}

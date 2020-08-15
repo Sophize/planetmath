@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "holomorph-convex"
+  ],
+  "definition": "Let $G \\subset {\\mathbb{C}}^n$ be a domain, or alternatively for a more\ngeneral definition let $G$ be an $n$ dimensional complex analytic\nmanifold. Further let ${\\mathcal{O}}(G)$ stand for the set of\nholomorphic functions on $G$.\n\nLet $K \\subset G$ be a compact set. We define the [*holomorphically* ]{}\nof $K$ as\n$$\\hat{K}_G := \\{ z \\in G \\mid \\lvert f(z) \\rvert \\leq \\sup_{w \\in K} \\lvert f(w) \\rvert \\text{ for all } f \\in {\\mathcal{O}}(G) \\} .$$\nThe domain $G$ is called [*holomorphically convex*]{} if for every\n$K \\subset G$ compact in $G$, $\\hat{K}_G$ is also compact in $G$.\nSometimes this is just abbreviated as [*holomorph-convex*]{}.\n\nNote that when $n=1$, any domain $G$ is holomorphically convex since\nwhen $n=1$ $\\hat{K}_G = K$ for all compact $K \\subset G$. Also note that\nthis is the same as being a domain of holomorphy.\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Holomorphically Convex",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HolomorphicallyConvex"
+    }
+  ],
+  "indexable": true
+}

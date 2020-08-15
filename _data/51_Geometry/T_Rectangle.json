@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Rectangle**. A quadrilateral whose four angles are equal, that is,\nwhose 4 angles are equal to $90^\\circ$.\n\n![image](rectangulo)\n\n***Any rectangle is a parallelogram.***\\\nThis follows from angles $\\angle BAD $ and $\\angle ADC$ adding up\n$180^\\circ$.\n\nSince parallelograms have their opposite sides equal, so do rectangles.\nIn the picture, $AB=CD$ and $BC=DA$.\n\nRectangles are the only parallelograms to be also cyclic (since opposite\nangles add up $180^\\circ$.\n\nNotice that every square is also a rectangle, but there are rectangles\nthat are not squares\n\nRectangles have their two diagonals equal (since triangles $ABC$ and\n$ABD$ are congruent), A nice result following from this is that the\nquadrilateral obtained by joining the midpoints of the sides is a\nrhombus.\n\n![image](rectangulo2)\n\nSince $PQ$ joins midpoints of sides in triangle $ABC$, we have\n$PQ=CA/2$. Similarly we have $RS=CA/2$, $QR=BD/2$ and $SP=BD/2$ and thus\nthe sides of quadrilateral $PQRS$ are all equal, in other words, $PQRS$\nis a rhombus.",
+  "language": "INFORMAL",
+  "phrase": "Rectangle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Rectangle"
+    }
+  ],
+  "indexable": true
+}

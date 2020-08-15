@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(C,\\Delta,\\varepsilon)$ and $(D,\\Delta',\\varepsilon')$ be\ncoalgebras.\n\n**Definition.** We will say that coalgebra homomorphism $f:C\\to D$ is a\n*coalgebra isomorphism*, if there exists a coalgebra homomorphism\n$g:D\\to C$ such that $f\\circ g=\\mathrm{id}_{D}$ and\n$g\\circ f=\\mathrm{id}_{C}$.\n\n**Remark.** Of course every coalgebra isomorphism is a linear\nisomorphism, thus it is ,,one-to-one\u201d and ,,onto\u201d. One can show that the\nconverse also holds, i.e. if $f:C\\to D$ is a coalgebra homomorphism such\nthat $f$ is ,,one-to-one\u201d and ,,onto\u201d, then $f$ is a coalgebra\nisomorphism.\n\n**Definition.** We will say that coalgebras $(C,\\Delta,\\varepsilon)$ and\n$(D,\\Delta',\\varepsilon')$ are *isomorphic* if there exists coalgebra\nisomorphism $f:C\\to D$. In this case we often write\n$(C,\\Delta,\\varepsilon)\\simeq (D,\\Delta',\\varepsilon')$ or simply\n$C\\simeq D$ if structure maps are known from the context.\n\n**Remarks.** Of course the relation ,,$\\simeq$\u201d is an equivalence\nrelation. Furthermore, (from the coalgebraic point of view) isomorphic\ncoalgebras are the same, i.e. they share all coalgebraic properties.",
+  "language": "INFORMAL",
+  "phrase": "Coalgebra Isomorphisms And Isomorphic Coalgebras",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CoalgebraIsomorphismsAndIsomorphicCoalgebras"
+    }
+  ],
+  "indexable": true
+}

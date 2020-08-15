@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "normal distribution",
+    "standard normal distribution",
+    "bell distribution",
+    "bell curve",
+    "Gaussian"
+  ],
+  "definition": "For any real numbers $\\mu$ and $\\sigma > 0$, the *Gaussian probability\ndistribution function* with mean $\\mu$ and variance $\\sigma^2$ is\ndefined by $$f(x) = \\frac{1}{\\sqrt{2 \\pi \\sigma^2}} \n\\exp \\left( - \\tfrac12 \\left( \\tfrac{x - \\mu}{\\sigma} \\right) ^2 \\right).$$\nWhen $\\mu=0$ and $\\sigma = 1$, it is usually called *standard normal\ndistribution*.\n\nA random variable $X$ having distribution density $f$ is said to be a\n*normally distributed random variable*, denoted by\n$X\\sim N(\\mu,\\sigma^2)$. It has expected value $\\mu$, and variance\n$\\sigma^2$.\n\nCumulative distribution function {#cumulative-distribution-function .unnumbered}\n--------------------------------\n\nThe cumulative distribution function of a standard normal variable,\noften denoted by\n$$\\Phi(z) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^z e^{-x^2/2} \\, dx\\,,$$\ncannot be calculated in closed form in terms of the elementary\nfunctions, but its values are tabulated in most statistics books and ,\nand can be computed using most computer statistical packages and\nspreadsheets.\n\nUses of the Gaussian distribution {#uses-of-the-gaussian-distribution .unnumbered}\n---------------------------------\n\nThe normal distribution is probably the most frequently used\ndistribution. Its graph looks like a bell-shaped function, which is why\nit is often called *bell distribution*.\n\nThe normal distribution is important in probability theory and\nstatistics. Empircally, many observed distributions, such as of people\u2019s\nheights, test scores, experimental errors, are found to be more or less\nto be Gaussian. And theoretically, the normal distribution arises as a\nlimiting distribution of averages of large numbers of samples, justified\nby the central limit theorem.\n\n![Graph of densities of the normal distribution for various values of\nthe standard deviation $\\sigma$](bell-curve)\n\nProperties {#properties .unnumbered}\n----------\n\n  ---------------------------- ---------------------------------------------------------\n              Mean                                       $\\mu$\n            Variance                                  $\\sigma^2$\n            Skewness                                       0\n            Kurtosis                                       3\n   Moment-generating function     $M_X(t) = \\exp\\bigl(\\mu t + (\\sigma t)^2/2 \\bigr) $\n    Characteristic function     $\\phi_X(t) = \\exp\\bigl(\\mu i t -(\\sigma t)^2/2 \\bigr) $\n  ---------------------------- ---------------------------------------------------------\n\n-   If $Z$ is a standard normal random variable, then\n    $X = \\sigma Z + \\mu$ is distributed as $N(\\mu, \\sigma^2)$, and\n    conversely.\n\n-   The sum of any finite number of independent normal variables is\n    itself a normal random variable.\n\nRelations to other distributions {#relations-to-other-distributions .unnumbered}\n--------------------------------\n\n1.  The standard normal distribution can be considered as a Student-t\n    distribution with infinite degrees of freedom.\n\n2.  The square of the standard normal random variable is the chi-squared\n    random variable of degree 1. Therefore, the sum of squares of $n$\n    independent standard normal random variables is the chi-squared\n    random variable of degree $n$.",
+  "language": "INFORMAL",
+  "phrase": "Normal Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalRandomVariable"
+    }
+  ],
+  "indexable": true
+}

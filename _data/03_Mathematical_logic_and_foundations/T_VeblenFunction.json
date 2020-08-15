@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Veblen function* is used to obtain larger ordinal numbers than\nthose provided by exponentiation. It builds on a hierarchy of closed and\nunbounded classes:\n\n-   $Cr(0)$ is the additively indecomposable numbers, $\\mathbb{H}$\n\n-   $Cr(Sn)=Cr(n)^\\prime$ the set of fixed points of the enumerating\n    function of $Cr(n)$\n\n-   $Cr(\\lambda)=\\bigcap_{\\alpha<\\lambda} Cr(\\alpha)$\n\nThe Veblen function $\\varphi_\\alpha\\beta$ is defined by setting\n$\\varphi_\\alpha$ equal to the enumerating function of $Cr(\\alpha)$.\n\nWe call a number $\\alpha$ *strongly critical* if $\\alpha\\in Cr(\\alpha)$.\nThe class of strongly critical ordinals is written $\\mathbf{SC}$, and\nthe enumerating function is written\n$f_{\\mathbf{SC}}(\\alpha)=\\Gamma_\\alpha$.\n\n$\\Gamma_0$, the first strongly critical ordinal, is also called the\n*Feferman-Schutte* ordinal.",
+  "language": "INFORMAL",
+  "phrase": "Veblen Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VeblenFunction"
+    }
+  ],
+  "indexable": true
+}

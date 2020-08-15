@@ -1,0 +1,17 @@
+{
+  "argumentText": "Being $f$ holomorphic by Cauchy-Riemann equations the differential form\n$f(z)\\,dz$ is closed. So by the lemma about closed differential forms on\na simple connected domain we know that the integral $\\int_C f(z)\\, dz$\nis equal to $\\int_{C'} f(z)\\, dz$ if $C'$ is any curve which is\nhomotopic to $C$. In particular we can consider a curve $C'$ which turns\naround the points $a_j$ along small circles and join these small circles\nwith segments. Since the curve $C'$ follows each segment two times with\nopposite orientation it is enough to sum the integrals of $f$ around the\nsmall circles.\n\nSo letting $z=a_j+\\rho e^{i\\theta}$ be a parameterization of the curve\naround the point $a_j$, we have $dz=\\rho i e^{i\\theta}\\, d \\theta$ and\nhence\n$$\\int_C f(z)\\, dz = \\int_{C'} f(z)\\, dz = \\sum_j \\eta(C,a_j)\\int_{\\partial B_\\rho(a_j)} f(z)\\, dz$$$$= \\sum_j \\eta(C,a_j) \\int_0^{2\\pi} f(a_j+\\rho e^{i\\theta}) \\rho i e^{i\\theta}\\, d\\theta$$\nwhere $\\rho>0$ is chosen so small that the balls $B_\\rho(a_j)$ are all\ndisjoint and all contained in the domain $U$. So by linearity, it is\nenough to prove that for all $j$\n$$i\\int_0^{2\\pi} f(a_j+e^{i\\theta})\\rho e^{i\\theta}\\, d\\theta = 2\\pi i \\mathrm{Res}(f,a_j).$$\n\nLet now $j$ be fixed and consider now the Laurent series for $f$ in\n$a_j$: $$f(z)= \\sum_{k\\in \\mathbb Z} c_k (z-a_j)^k$$ so that\n$\\mathrm{Res}(f,a_j)=c_{-1}$. We have\n$$\\int_0^{2\\pi} f(a_j+e^{i\\theta})\\rho e^{i\\theta}\\, d\\theta =\n  \\sum_k \\int_0^{2\\pi} c_k (\\rho e^{i\\theta})^k \\rho e^{i\\theta}\\, d\\theta\n =\\rho^{k+1} \\sum_k c_k \\int_0^{2\\pi}  e^{i(k+1)\\theta}\\, d\\theta.$$\nNotice now that if $k=-1$ we have\n$$\\rho^{k+1} c_k \\int_0^{2\\pi} e^{i(k+1)\\theta}\\, d\\theta = \nc_{-1}\\int_0^{2\\pi} d\\theta = 2\\pi c_{-1} = 2\\pi \\,\\mathrm{Res}(f,a_j)$$\nwhile for $k\\neq -1$ we have\n$$\\int_0^{2\\pi} e^{i(k+1)\\theta}\\, d\\theta =  \\left[\\frac{e^{i(k+1)\\theta}}{i(k+1)}\\right]_0^{2\\pi} = 0.$$\nHence the result follows.",
+  "conclusion": "#P_CauchyResidueTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCauchyResidueTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Cauchy residue theorem"
+  ]
+}

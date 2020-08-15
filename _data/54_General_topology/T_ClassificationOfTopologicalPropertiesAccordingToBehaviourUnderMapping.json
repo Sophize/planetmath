@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Topological properties may be classified by their behaviour with respect\nto mappings. The basis of such a classification is the following\nquestion: Given two topological spaces $X$ and $Y$ and a continuous map\n$f \\colon X \\to Y$, can one infer that one of the spaces has a certain\ntopological property from the fact that the other space has this\nproperty?\n\nA trivial case of this question may be disposed of. If $f$ is a\nhomeomorphism, then the spaces $X$ and $Y$ cannot be distinguished using\nonly the techniques of topology, and hence both spaces will have exactly\nthe same topological properties.\n\nTo obtain a non-trivial classification, we must consider more general\nmaps. Since every map may be expressed as the composition of an\ninclusion and a surjection, it is natural to consider the cases where\n$f$ is an inclusion and where it is a surjection.\n\nIn the case of an inclusion, we can define the following\nclassifications:\n\nA property of a topological space is called [**hereditary**]{} if it is\nthe case that whenever a space has that property, every subspace of that\nspace also has the same property.\n\nA property of a topological space is called [**weakly hereditary**]{} if\nit is the case that whenever a space has that property, every *closed*\nsubspace of that space also has the same property.\n\nIn the case of a surjection, we can define the following\nclassifications:\n\nA property of a topological space is called [**continuous**]{} if it is\nthe case that, whenever a space has this property, the images of this\nspace under all continuous mapping also have the same property.\n\nA property of a topological space is called [**open**]{} if it is the\ncase that, whenever a space has this property, the images of this space\nunder all open continuous mappings also have the same property.\n\nA property of a topological space is called [**closed invariant**]{} if\nit is the case that, whenever a space has this property, the images of\nthis space under all closed continuous mapping also have the same\nproperty.",
+  "language": "INFORMAL",
+  "phrase": "Classification Of Topological Properties According To Behaviour Under Mapping",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClassificationOfTopologicalPropertiesAccordingToBehaviourUnderMapping"
+    }
+  ],
+  "indexable": true
+}

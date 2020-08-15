@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The $$\\begin{aligned}\n\\frac{\\partial}{\\partial a}\\log_ax \\;=\\; -\\frac{\\ln{x}}{(\\ln{a})^2a}\\end{aligned}$$\nfor the partial derivative of logarithm expression with respect to the\nbase $a$ may be derived by denoting first $$\\log_ax \\;=\\; y.$$ By the\ndefinition of logarithm, this equation means the same as\n$$a^y \\;=\\; x,$$ where we can take the natural logarithms\n$$y\\ln{a} \\;=\\; \\ln{x}$$ solving then $$y \\;=\\; \\frac{\\ln{x}}{\\ln{a}}.$$\nThen, the differentiation is easy:\n$$\\frac{\\partial y}{\\partial a} \\;=\\; \\frac{0\\ln{a}-\\frac{1}{a}\\ln{x}}{(\\ln{a})^2} \\;=\\; -\\frac{\\ln{x}}{(\\ln{a})^2a}.$$",
+  "language": "INFORMAL",
+  "phrase": "Derivative Of Logarithm With Respect To Base",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivativeOfLogarithmWithRespectToBase"
+    }
+  ],
+  "indexable": true
+}

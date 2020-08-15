@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$, $Y$ be topological spaces and $x\\in X$. Consider the set of all\ncontinuous functions $$C(X,Y)=\\{f:X\\to Y\\ |\\ f\\mbox{ is continuous}\\}.$$\nFor any two functions $f,g:X\\to Y$ we put $$f\\sim_{x} g$$ if and only if\nthere exists an open neighbourhood $U\\subseteq X$ of $x$ such that\n$$f_{|U}=g_{|U}.$$ The corresponding quotient set is called **the germ\nspace** at $x\\in X$ and we denote it by $G_x(X,Y)$.\n\nMore generally, if $X$, $Y$ are topological spaces with $x\\in X$, then\nconsider the following set:\n$$C_x(X,Y)=\\{f:U\\to Y\\ |\\ f\\mbox{ is continuous and }U\\mbox{ is an open neighbourhood of }x\\}.$$\nAgain we define a relation on $C_x(X,Y)$. If $f:U\\to Y$ and $g:U'\\to Y$,\nthen put $$f\\sim_{x} g$$ if and only if there exists and open\nneighbourhood $V\\subseteq X$ of $x$ such that $V\\subseteq U\\cap U'$ and\n$$f_{|V}=g_{|V}.$$ The corresponding set is called **the generalized\ngerm space** at $x\\in X$ and we denote it by $G_x^*(X,Y)$.\n\nNote that if $Y=\\mathbb{R}$ or $Y=\\mathbb{C}$ (or $Y$ is any topological\nring), then both $G_x(X,Y)$ and $G_x^*(X,Y)$ have a well-defined ring\nstructure via pointwise addition and multiplication.",
+  "language": "INFORMAL",
+  "phrase": "Germ Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GermSpace"
+    }
+  ],
+  "indexable": true
+}

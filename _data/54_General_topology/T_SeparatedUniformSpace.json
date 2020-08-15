@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "separating",
+    "Hausdorff uniform space"
+  ],
+  "definition": "Let $X$ be a uniform space with uniformity $\\mathcal{U}$. $X$ is said to\nbe *separated* or *Hausdorff* if it satisfies the following *separation\naxiom*: $$\\bigcap \\mathcal{U}=\\Delta,$$ where $\\Delta$ is the diagonal\nrelation on $X$ and $\\bigcap \\mathcal{U}$ is the intersection of all\nelements (entourages) in $\\mathcal{U}$. Since\n$\\Delta\\subseteq \\bigcap \\mathcal{U}$, the separation axiom says that\nthe only elements that belong to every entourage of $\\mathcal{U}$ are\nprecisely the diagonal elements $(x,x)$. Equivalently, if $x\\ne y$, then\nthere is an entourage $U$ such that $(x,y)\\notin U$.\n\nThe reason for calling $X$ separated has to do with the following\nassertion:\n\n> $X$ is separated iff $X$ is a Hausdorff space under the topology\n> $T_{\\mathcal{U}}$ $\\mathcal{U}$.\n\nRecall that\n$T_{\\mathcal{U}}=\\lbrace A\\subseteq X\\mid \\mbox{for each }x\\in A\\mbox{, there is }U\\in \\mathcal{U}\\mbox{, such that }U[x]\\subseteq A\\rbrace$,\nwhere $U[x]$ is some uniform neighborhood of $x$ where, under\n$T_{\\mathcal{U}}$, $U[x]$ is also a neighborhood of $x$. To say that $X$\nis Hausdorff under $T_{\\mathcal{U}}$ is the same as saying every pair of\ndistinct points in $X$ have disjoint uniform neighborhoods.\n\n$(\\Rightarrow)$. Suppose $X$ is separated and $x,y\\in X$ are distinct.\nThen $(x,y)\\notin U$ for some $U\\in \\mathcal{U}$. Pick\n$V\\in \\mathcal{U}$ with $V\\circ V\\subseteq U$. Set $W=V\\cap V^{-1}$,\nthen $W$ is symmetric and $W\\subseteq V$. Furthermore,\n$W\\circ W\\subseteq V\\circ V\\subseteq U$. If $z\\in W[x]\\cap W[y]$, then\n$(x,z),(y,z)\\in W$. Since $W$ is symmetric, $(z,y)\\in W$, so\n$(x,y)=(x,z)\\circ (z,y)\\in W\\circ W\\subseteq U$, which is a\ncontradiction.\n\n$(\\Leftarrow)$. Suppose $X$ is Hausdorff under $T_{\\mathcal{U}}$ and\n$(x,y)\\in U$ for every $U\\in \\mathcal{U}$ for some $x,y\\in X$. If\n$x\\ne y$, then there are $V[x]\\cap W[y]=\\varnothing$ for some\n$V,W\\in \\mathcal{U}$. Since $(x,y)\\in V$ by assumption, $y\\in V[x]$. But\n$y\\in W[y]$, contradicting the disjointness of $V[x]$ and $W[y]$.\nTherefore $x=y$.",
+  "language": "INFORMAL",
+  "phrase": "Separated Uniform Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SeparatedUniformSpace"
+    }
+  ],
+  "indexable": true
+}

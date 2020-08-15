@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every compact metric space is second countable.\n\nLet $(X,d)$ be a compact metric space, and for each $n\\in\\mathbb{Z}^+$\ndefine $\\mathcal{A}_n=\\{B(x,1/n):x\\in X\\}$, where $B(x,1/n)$ denotes the\nopen ball centered about $x$ of $1/n$. Each such collection is an open\ncover of the compact space $X$, so for each $n\\in\\mathbb{Z}^+$ there\nexists a finite collection $\\mathcal{B}_n\\subseteq\\mathcal{A}_n$ that\n$X$. Put $\\mathcal{B}=\\bigcup_{n=1}^\\infty\\mathcal{B}_n$. Being a\ncountable union of finite sets, it follows that $\\mathcal{B}$ is\ncountable; we assert that it forms a basis for the metric topology on\n$X$. The first property of a basis is satisfied trivially, as each set\n$\\mathcal{B}_n$ is an open cover of $X$. For the second property, let\n$x,x_1,x_2\\in X$, $n_1,n_2\\in\\mathbb{Z}^+$, and suppose\n$x\\in B(x_1,1/n_1)\\cap B(x_2,1/n_2)$. Because the sets $B(x_1,1/n_1)$\nand $B(x_2,1/n_2)$ are open in the metric topology on $X$, their\nintersection is also open, so there exists $\\epsilon>0$ such that\n$B(x,\\epsilon)\\subseteq B(x_1,1/n_1)\\cap B(x_2,1/n_2)$. Select\n$N\\in\\mathbb{Z}^+$ such that $1/N<\\epsilon$. There must exist $x_3\\in X$\nsuch that $x\\in B(x_3,1/2N)$ (since $\\mathcal{B}_{2N}$ is an open cover\nof $X$). To see that\n$B(x_3,1/2N)\\subseteq B(x_1,1/n_1)\\cap B(x_2,1/n_2)$, let\n$y\\in B(x_3,1/2N)$. Then we have\n$$d(x,y)\\leq d(x,x_3)+d(x_3,y)<\\dfrac{1}{2N}+\\dfrac{1}{2N}=\\dfrac{1}{N}<\\epsilon\\text{,}$$\nso that $y\\in B(x,\\epsilon)$, from which it follows that\n$y\\in B(x_1,1/n_1)\\cap B(x_2,1/n_2)$, hence that\n$B(x_3,1/2N)\\subseteq B(x_1,1/n_1)\\cap B(x_2,1/n_2)$. Thus the countable\ncollection $\\mathcal{B}$ forms a basis for a topology on $X$; the\nverification that the topology by $\\mathcal{B}$ is in fact the metric\ntopology follows by an to that used to verify the second property of a\nbasis, and completes the proof that $X$ is second countable.\n\nIt is worth nothing that, because a countable union of countable sets is\ncountable, it would have been sufficient to assume that $(X,d)$ was a\nLindel\u00f6f space.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ACompactMetricSpaceIsSecondCountable"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a compact metric space is second countable"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A real number $x$ is a *period* if it is expressible as the integral of\nan (with algebraic coefficients) over an algebraic domain, and this\nintegral is absolutely convergent. This is called the number\u2019s *period\nrepresentation*. An *algebraic domain* is a subset of ${{\\mathbb}{R}}^n$\ngiven by inequalities with algebraic coefficients. A complex number is\ndefined to be a period if both its real and imaginary parts are. The set\nof all complex periods is denoted by ${\\mathcal}{P}$.\n\nExamples\n========\n\nThe transcendental number $\\pi$ is a period since we can write\n$$\\begin{aligned}\n\\pi=\\int\\limits_{x^2+y^2\\leq1}~dx~dy.\\end{aligned}$$\n\nAny algebraic number $\\alpha$ is a period since we use the somewhat\ndefinition that integration over a 0-dimensional space is taken to mean\nevaluation: $$\\begin{aligned}\n\\alpha=\\int_{\\{\\alpha\\}}x\\end{aligned}$$\n\nThe logarithms of algebraic numbers are periods: $$\\begin{aligned}\n\\log\\alpha=\\int_1^\\alpha\\frac{1}{x}~dx\\end{aligned}$$\n\nNon-periods\n===========\n\nIt is by no means trivial to find complex non-periods, though their\nexistence is clear by a counting argument: The set of complex numbers is\nuncountable, whereas the set of periods is countable, as there are only\ncountably many algebraic domains to choose and countably many algebraic\nfunctions over which to integrate.\n\nInclusion\n=========\n\nWith the existence of a non-period, we have the following chain of set\ninclusions:\n\n$$\\begin{aligned}\n{{\\mathbb}{Z}}\\subsetneq {{\\mathbb}{Q}}\\subsetneq{\\overline}{{{\\mathbb}{Q}}}\\subsetneq{\\mathcal}{P}\\subsetneq{{\\mathbb}{C}},\\end{aligned}$$\n\nwhere ${\\overline}{{{\\mathbb}{Q}}}$ denotes the set of algebraic\nnumbers. The periods promise to prove an interesting and important set\nof numbers in that nebulous between ${\\overline}{{{\\mathbb}{Q}}}$ and\n${{\\mathbb}{C}}$.\n\nReferences\n==========\n\nKontsevich and Zagier. *Periods*. 2001. Available on line at\n<http://www.ihes.fr/PREPRINTS/M01/M01-22.ps.gz>.",
+  "language": "INFORMAL",
+  "phrase": "Period",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Period"
+    }
+  ],
+  "indexable": true
+}

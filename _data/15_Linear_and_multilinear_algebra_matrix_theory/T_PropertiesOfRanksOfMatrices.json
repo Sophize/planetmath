@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $D$ be a division ring and $M$ a matrix over $D$. In , the ranks of\n$M$ are defined, and the following properties regarding ranks and\nelementary matrix operations are shown in the table below:\n\npreservation of ranks of $M$\n\n  operation                                     left row rank   right row rank   left column rank   right column rank\n  --------------------------------------------- --------------- ---------------- ------------------ -------------------\n  row exchange                                  yes             yes              yes                yes\n  column exchange                               yes             yes              yes                yes\n  row addition                                  yes             yes              yes                yes\n  column addition                               yes             yes              yes                yes\n  left non-zero row scalar multiplication       yes             no               no                 yes\n  left non-zero column scalar multiplication    no              yes              yes                no\n  right non-zero row scalar multiplication      no              yes              yes                no\n  right non-zero column scalar multiplication   yes             no               no                 yes\n\nFrom the properties above, one sees that\n\nleft column rank &=& right row rank, $\\qquad$ right column rank &=& left\nrow rank.\n\nIf $D$ is a field, all ranks of $M$ are identical, since left and right\nmultiplications are the same. Now, back to assuming $D$ a division ring.\nRefer the right ranks of $M$ to be either the right row rank or right\ncolumn rank of $M$. Left ranks, row ranks, and column ranks are\nsimilarly referred. Ranks of $M$ can be either one of the four ranks of\n$M$.\n\nThe following are additional properties of ranks of matrices of $D$:\n\n1.  if $r\\ne 0$, then $rM$ and $Mr$ have the same ranks as those of $M$.\n\nMore to come...",
+  "language": "INFORMAL",
+  "phrase": "Properties Of Ranks Of Matrices",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertiesOfRanksOfMatrices"
+    }
+  ],
+  "indexable": true
+}

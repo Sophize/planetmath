@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "degree"
+  ],
+  "definition": "Suppose that $M$ and $N$ are two oriented differentiable manifolds of\ndimension $n$ (without boundary) with $M$ compact and $N$ connected and\nsuppose that $f \\colon M \\to N$ is a differentiable mapping. Let $Df(x)$\ndenote the differential mapping at the point $x \\in M$, that is the\nlinear mapping $Df(x) \\colon T_x(M) \\to T_{f(x)}(N)$. Let\n$\\operatorname{sign} Df(x)$ denote the sign of the determinant of\n$Df(x)$. That is the sign is positive if $f$ preserves orientation and\nnegative if $f$ reverses orientation.\n\nLet $y \\in N$ be a regular value, then we define the [*Brower degree*]{}\n(or just degree) of $f$ by\n$$\\operatorname{deg} f := \\sum_{x \\in f^{-1}(y)} \\operatorname{sign} Df(x) .$$\n\nIt can be shown that the degree does not depend on the regular value $y$\nthat we pick so that $\\operatorname{deg} f$ is well defined.\n\nNote that this degree coincides with the as defined for maps of spheres.\n\n[9]{} John\u00a0W. Milnor. [**]{}. The University Press of Virginia,\nCharlottesville, Virginia, 1969.",
+  "language": "INFORMAL",
+  "phrase": "Brouwer Degree",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BrouwerDegree"
+    }
+  ],
+  "indexable": true
+}

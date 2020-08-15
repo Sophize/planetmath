@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "directed complete graph"
+  ],
+  "definition": "A *tournament* is a directed graph obtained by choosing a direction for\neach edge in an undirected complete graph. For example, here is a\ntournament on 4 vertices: $$\\xymatrix{\n        1 \\ar[dr] \\ar[r] &2 \\ar[d]\\\\\n        3 \\ar[u] \\ar[ur] &4 \\ar[l]}$$ Any tournament on a finite number\n$n$ of vertices contains a Hamiltonian path, i.e., directed path on all\n$n$ vertices. This is easily shown by induction on $n$: suppose that the\nstatement holds for $n$, and consider any tournament $T$ on $n+1$\nvertices. Choose a vertex $v_0$ of $T$ and consider a directed path\n$v_1,v_2,\\ldots,v_n$ in $T\\setminus \\{v_0\\}$. Now let\n$i \\in \\{0,\\ldots,n\\}$ be maximal such that $v_j \\rightarrow\nv_0$ for all $j$ with $1 \\leq j \\leq i$. Then\n$$v_1,\\ldots,v_i,v_0,v_{i+1},\\ldots,v_n$$ is a directed path as desired.\n\nThe name \u201ctournament\u201d originates from such a graph\u2019s interpretation as\nthe outcome of some sports competition in which every player encounters\nevery other player exactly once, and in which no draws occur; let us say\nthat an arrow points from the winner to the loser. A player who wins all\ngames would naturally be the tournament\u2019s winner. However, as the above\nexample shows, there might not be such a player; a tournament for which\nthere isn\u2019t is called a [*$1$-paradoxical*]{} tournament. More\ngenerally, a tournament $T=(V,E)$ is called [*$k$-paradoxical*]{} if for\nevery $k$-subset $V'$ of $V$ there is a $v_0 \\in V \\setminus V'$ such\nthat $v_0 \\rightarrow v$ for all $v \\in V'$. By means of the\nprobabilistic method Erd\u0151s showed that if $|V|$ is sufficiently large,\nthen almost every tournament on $V$ is $k$-paradoxical.\n\nA *transitive tournament* is a tournament in which, for all vertices\n$v_0$, $v_1$ and $v_2$, if there is an edge from $v_0$ to $v_1$ and an\nedge from $v_1$ to $v_2$ then there is also an edge from $v_0$ to $v_2$.",
+  "language": "INFORMAL",
+  "phrase": "Tournament",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Tournament"
+    }
+  ],
+  "indexable": true
+}

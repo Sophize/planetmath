@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Pontryagin dual\n===============\n\nLet $G$ be a locally compact abelian and $\\mathbb{T}$ the , i.e. the\nunit circle in $\\mathbb{C}$.\n\n[**Definition -**]{} A continuous homomorphism\n$G \\longrightarrow \\mathbb{T}$ is called a [**character**]{} of $G$. The\nset of all characters is called the [**Pontryagin dual**]{} of $G$ and\nis denoted by $\\hat{G}$.\n\nUnder pointwise multiplication $\\hat{G}$ is also an abelian group. Since\n$\\hat{G}$ is a group of functions we can make it a topological group\nunder the compact-open topology (topology of convergence on compact\nsets).\n\nExamples\n========\n\n-   $\\hat{\\mathbb{Z}} \\cong \\mathbb{T}$, via $n \\mapsto z^n$ with\n    $z \\in \\mathbb{T}$.\n\n-   $\\hat{\\mathbb{T}} \\cong \\mathbb{Z}$, via $z \\mapsto z^n$ with\n    $n \\in \\mathbb{Z}$.\n\n-   $\\hat{\\mathbb{R}} \\cong \\mathbb{R}$, via $t \\mapsto e^{ist}$ with\n    $s \\in \\mathbb{R}$.\n\nProperties\n==========\n\nThe following are some important of the dual group:\n\n[**Theorem -**]{} Let $G$ be a locally compact abelian group. We have\nthat\n\n-   $\\hat{G}$ is also locally compact.\n\n-   $\\hat{G}$ is second countable if and only if $G$ is second\n    countable.\n\n-   $\\hat{G}$ is compact if and only if $G$ is discrete.\n\n-   $\\hat{G}$ is discrete if and only if $G$ is compact.\n\n-   $\\widehat{(\\oplus_{i \\in J} G_i)} \\cong \\oplus_{i \\in J} \\hat{G_i}$\n    for any finite set $J$. This isomorphism is natural.\n\nPontryagin duality\n==================\n\nLet $f:G \\longrightarrow H$ be a continuous homomorphism of locally\ncompact abelian groups. We can associate to it a canonical map\n$\\hat{f}:\\hat{H} \\longrightarrow \\hat{G}$ defined by $$\\begin{aligned}\n\\hat{f}(\\phi)\\,(s):= \\phi(f(s))\\;, \\qquad\\qquad \\phi \\in \\hat{H},\\; s \\in G\\end{aligned}$$\nThis canonical construction preserves identity mappings and\ncompositions, i.e. the dualization process $\\hat{\\;}$ is a functor:\n\n[**Theorem -**]{} The dualization\n$\\hat{\\;}:\\mathord{\\mathbf{LcA}} \\longrightarrow \\mathord{\\mathbf{LcA}} $\nis a contravariant functor from the category of locally compact abelian\ngroups to itself.\n\nIsomorphism with the second dual\n================================\n\nAlthough in general there is not a canonical identification of $G$ with\nits dual $\\hat{G}$, there is a natural isomorphism between $G$ and its\ndual\u2019s dual $\\hat{\\hat{G}}$:\n\n[**Theorem -**]{} The map $G \\longrightarrow \\hat{\\hat{G}}$ defined by\n$s \\mapsto \\hat{\\hat{s}}$, where $\\hat{\\hat{s}}(\\phi) := \\phi(s)$, is a\nnatural isomorphism between $G$ and $\\hat{\\hat{G}}$.\n\nApplications\n============\n\nThe study of dual groups allows one to visualize Fourier series, Fourier\ntransforms and discrete Fourier transforms from a more abstract and\nunified view-point, providing the for a general definition of Fourier\ntransform. Thus, dual groups and Pontryagin duality are the of the of\nabstract abelian harmonic analysis.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PontryaginDuality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Pontryagin duality",
+    "Pontrjagin duality",
+    "Pontriagin duality"
+  ]
+}

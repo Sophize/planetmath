@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "bipartite"
+  ],
+  "definition": "A *bipartite graph* is a graph with a chromatic number of $2$.\n\nThe following graph, for example, is bipartite:\n\n$$\\xymatrix{\n{\\color{red}A} \\ar@{-}[rrr] \\ar@{-}[rd] \\ar@{-}[ddd] & & & {\\color{blue}B} \\\\\n& {\\color{blue}E} & {\\color{red}F} \\ar@{-}[ur] \\ar@{-}[l] \\ar@{-}[d] & \\\\\n& {\\color{red}H} \\ar@{-}[u] \\ar@{-}[r] \\ar@{-}[dl] & {\\color{blue}G} & \\\\\n{\\color{blue}D} & & & {\\color{red}C} \\ar@{-}[uuu] \\ar@{-}[lll] \\ar@{-}[ul] }$$\n\nOne way to think of a bipartite graph is by partitioning the vertices\ninto two disjoint sets where vertices in one set are adjacent only to\nvertices in the other set. In the above graph, this may be more obvious\nwith a different :\n\n$$\\xymatrix{\n{\\color{red}A} \\ar@{-}[r] \\ar@{-}[rd] \\ar@{-}[rdd] & {\\color{blue}E} \\\\\n{\\color{red}F} \\ar@{-}[ru] \\ar@{-}[r] \\ar@{-}[rdd] & {\\color{blue}B} \\\\\n{\\color{red}H} \\ar@{-}[ruu] \\ar@{-}[r] \\ar@{-}[rd] & {\\color{blue}D} \\\\\n{\\color{red}C} \\ar@{-}[ruu] \\ar@{-}[ru] \\ar@{-}[r] & {\\color{blue}G}}$$\n\nThe two subsets are the two columns of vertices, all of which have the\nsame colour.\n\nA graph is bipartite if and only if all its cycles have even length.\nThis is easy to see intuitively: any path of odd length on a bipartite\nmust end on a vertex of the opposite colour from the beginning vertex\nand hence cannot be a cycle.",
+  "language": "INFORMAL",
+  "phrase": "Bipartite Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BipartiteGraph"
+    }
+  ],
+  "indexable": true
+}

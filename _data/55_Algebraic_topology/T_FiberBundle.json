@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "fibre bundle"
+  ],
+  "definition": "Let $F$ be a topological space and $G$ be a topological group which acts\non $F$ on the left. A *fiber bundle* with fiber $F$ and *structure\ngroup* $G$ consists of the following data:\n\n-   a topological space $B$ called the base space, a space $E$ called\n    the total space and a continuous surjective map $\\pi:E \\to B$ called\n    the projection of the bundle,\n\n-   an open cover $\\{U_i\\}$ of $B$ along with a collection of continuous\n    maps $\\{\\phi_i: \\pi^{-1}U_i \\to F\\}$ called *local trivializations*\n    and\n\n-   a collection of continuous maps $\\{g_{ij}: U_i \\cap U_j \\to G\\}$\n    called *transition functions*\n\nwhich satisfy the following properties\n\n1.  the map $\\pi^{-1}U_i \\to U_i \\times F$ given by\n    $e \\mapsto (\\pi(e),\\phi_i(e))$ is a homeomorphism for each $i$,\n\n2.  for all indices $i,j$ and $e \\in \\pi^{-1}(U_i \\cap U_j)$,\n    $g_{ji}(\\pi(e))\\cdot \\phi_i(e) = \\phi_j(e)$ and\n\n3.  for all indices $i,j,k$ and $b \\in U_i \\cap U_j \\cap U_k$,\n    $g_{ij}(b)g_{jk}(b) = g_{ik}(b)$.\n\nReaders familiar with \u010cech cohomology may recognize condition 3), it is\noften called the *cocycle condition*. Note, this imples that $g_{ii}(b)$\nis the identity in $G$ for each $b$, and $g_{ij}(b) = g_{ji}(b)^{-1}$.\n\nIf the total space $E$ is homeomorphic to the product $B \\times F$ so\nthat the bundle projection is essentially projection onto the first\nfactor, then $\\pi : E \\to B$ is called a *trivial bundle*. Some examples\nof fiber bundles are vector bundles and covering spaces.\n\nThere is a notion of morphism of fiber bundles $E,E'$ over the same base\n$B$ with the same structure group $G$. Such a morphism is a\n$G$-equivariant map $\\xi:E\\to E'$, making the following diagram commute\n\n$$\\xymatrix{E\\ar[rr]^\\xi\\ar[dr]_\\pi& &E'\\ar[dl]^{\\pi'}\\\\ &B&}.$$\n\nThus we have a category of fiber bundles over a fixed base with fixed\nstructure group.",
+  "language": "INFORMAL",
+  "phrase": "Fiber Bundle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FiberBundle"
+    }
+  ],
+  "indexable": true
+}

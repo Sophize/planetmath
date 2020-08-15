@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The **praeclarum theorema**, or *splendid theorem*, is a theorem of\npropositional calculus that was noted and named by G.W. Leibniz, who\nstated and proved it in the following manner:\n\n> If $a$ is $b$ and $d$ is $c$, then $ad$ will be $bc$.\n>\n> This is a fine theorem, which is proved in this way:\n>\n> $a$ is $b$, therefore $ad$ is $bd$ (by what precedes),\n>\n> $d$ is $c$, therefore $bd$ is $bc$ (again by what precedes),\n>\n> $ad$ is $bd$, and $bd$ is $bc$, therefore $ad$ is $bc$. Q.E.D.\n>\n> (Leibniz, *Logical Papers*, p. 41).\n\nExpressed in contemporary logical notation, the praeclarum theorema (PT)\nmay be written as follows:\n\n$$((a \\Rightarrow b) \\land (d \\Rightarrow c)) \\Rightarrow ((a \\land d) \\Rightarrow (b \\land c))$$\n\nRepresenting as under the , the praeclarum theorema is expressed by\nmeans of the following formal equation:\n\n  ------------------------------------- -----\n   ![image](PraeclarumTheoremaFigure1)   (1)\n  ------------------------------------- -----\n\nAnd here\u2019s a neat proof of that nice theorem.\n\n  ------------------------------------- -----\n   ![image](PraeclarumTheoremaFigure2)   (2)\n  ------------------------------------- -----\n\nReferences\n==========\n\n-   Leibniz, Gottfried W. (1679\u20131686 ?), \u201cAddenda to the Specimen of the\n    Universal Calculus\", pp. 40\u201346 in G.H.R. Parkinson (ed., trans.,\n    1966), *Leibniz : Logical Papers*, Oxford University Press, London,\n    UK.\n\nReadings\n========\n\n-   Sowa, John F. (2002), \u201cPeirce\u2019s Rules of Inference\", .\n\nResources\n=========\n\n-   Dau, Frithjof (2008), .\n\n-   Megill, Norman (2008), @ .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PraeclarumTheorema"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "praeclarum theorema",
+    "splendid theorem"
+  ]
+}

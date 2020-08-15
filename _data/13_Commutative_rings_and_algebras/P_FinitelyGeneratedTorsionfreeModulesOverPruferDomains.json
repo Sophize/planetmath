@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $M$ be a finitely generated torsion-free module over a Pr\u00fcfer domain\n$R$. Then, $M$ is isomorphic to a\n$$M\\cong \\mathfrak{a}_1\\oplus\\cdots\\oplus\\mathfrak{a}_n$$ of finitely\ngenerated ideals $\\mathfrak{a}_1,\\ldots,\\mathfrak{a}_n$.\n\nAs invertible ideals are projective and direct sums of projective\nmodules are themselves projective, this theorem shows that $M$ is also a\nprojective module. Conversely, if every finitely generated torsion-free\nmodule over an integral domain $R$ is projective then, in particular,\nevery finitely generated nonzero ideal of $R$ will be projective and\nhence invertible. So, we get the following characterization of Pr\u00fcfer\ndomains.\n\nAn integral domain $R$ is Pr\u00fcfer if and only if every finitely generated\ntorsion-free $R$-module is .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FinitelyGeneratedTorsionfreeModulesOverPruferDomains"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "finitely generated torsion-free modules over Pr\\\"ufer domains"
+  ]
+}

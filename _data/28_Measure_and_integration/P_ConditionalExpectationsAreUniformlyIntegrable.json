@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The collection of all conditional expectations of an integrable random\nvariable forms a uniformly integrable set. More generally, we have the\nfollowing result.\n\nLet $S$ be a uniformly integrable set of random variables defined on a\nprobability space $(\\Omega,\\mathcal{F},\\mathbb{P})$. Then, the set\n$$\\left\\{\\mathbb{E}[X\\mid\\mathcal{G}]:\\textrm{$X\\in S$ and $\\mathcal{G}$ is a sub-$\\sigma$-algebra of $\\mathcal{F}$}\\right\\}$$\nis also uniformly integrable.\n\nTo prove the result, we first use the fact that uniform integrability\nimplies that $S$ is $L^1$-bounded. That is, there is a constant $L>0$\nsuch that $\\mathbb{E}[|X|]\\le L$ for every $X\\in S$. Also, choosing any\n$\\epsilon>0$, there is a $\\delta>0$ so that\n$$\\mathbb{E}[|X|1_A]<\\epsilon$$ for all $X\\in S$ and $A\\in\\mathcal{F}$\nwith $\\mathbb{P}(A)\\le\\delta$.\n\nSet $K=L/\\delta$. Then, if $Y=\\mathbb{E}[X\\mid\\mathcal{G}]$ for any\n$X\\in S$ and $\\mathcal{G}\\subseteq\\mathcal{F}$, Jensen\u2019s inequality\ngives $$|Y|\\le\\mathbb{E}[|X|\\mid\\mathcal{G}].$$ So, applying Markov\u2019s\ninequality,\n$$\\mathbb{P}(|Y|>K)\\le K^{-1}\\mathbb{E}[|Y|]\\le K^{-1}\\mathbb{E}[|X|]\\le L/K=\\delta$$\nand, therefore\n$$\\mathbb{E}[|Y|1_{\\{|Y|>K\\}}]\\le \\mathbb{E}[|X|1_{\\{|Y|>K\\}}]<\\epsilon.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConditionalExpectationsAreUniformlyIntegrable"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "conditional expectations are uniformly integrable"
+  ]
+}

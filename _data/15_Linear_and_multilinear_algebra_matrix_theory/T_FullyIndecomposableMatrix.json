@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An $n\\times n$ matrix $A$ that contains an $s \\times (n-s)$ zero\nsubmatrix for some positive integer $s$ is said to be [*partly\ndecomposable*]{}. If no such submatrix exists then $A$ is said to be *it\nfully indecomposable*. By convention, a $1 \\times 1$ matrix is fully\nindecomposable if it is nonzero. $A$ is [*nearly decomposable*]{} if it\nfully indecomposable but whenever a nonzero entry is changed to 0 the\nresulting matrix is partly decomposable.",
+  "language": "INFORMAL",
+  "phrase": "Fully Indecomposable Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FullyIndecomposableMatrix"
+    }
+  ],
+  "indexable": true
+}

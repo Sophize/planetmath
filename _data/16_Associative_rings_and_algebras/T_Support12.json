@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R[G]$ be the group ring of a group $G$ over a ring $R$.\n\nLet $x = \\sum_g x_g g$ be an element of $R[G]$. The *support* of $x$,\noften written ${\\operatorname{supp}}(x)$, is the set of elements of $G$\nwhich occur with non-zero coefficient in the expansion of $x$.\n\nThus: $${\\operatorname{supp}}(x) = \\{ g \\in G \\mid x_g \\neq 0 \\}.$$",
+  "language": "INFORMAL",
+  "phrase": "Support",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Support12"
+    }
+  ],
+  "indexable": true
+}

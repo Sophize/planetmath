@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Cylindrical coordinates* are a system of coordinates for\n$\\mathbb{R}^3$. Two of the coordinates correspond to the polar\ncoordinates of $\\mathbb{R}^2$, and the third coordinate corresponds with\nthe $z$ axis. Thus, the coordinates are given by\n\n$$\\left( \\begin{array}{c}\nx \\\\\ny \\\\\nz \\end{array} \\right)=\\left( \\begin{array}{c}\nr \\cos \\theta \\\\\nr \\sin \\theta \\\\\nz \\end{array} \\right),$$\n\nwhere $r$ is the distance from $(0,0,0)$ to $(x,y,0)$ and $\\theta$ is\nthe azimuthal angle defined for $\\theta \\in [0,2\\pi )$.\n\nJust as with polar coordinates, one can convert from Cartesian\ncoordinates to cylindrical coordinates for any point not lying on the\n$z$ axis via\n\n$$\\begin{aligned}\nr(x,y) &=& \\sqrt{x^2+ y^2}, \\\\\n\\theta(x,y) &=& \\arctan (x,y),\\end{aligned}$$\n\nwhere $\\arctan$ is defined .",
+  "language": "INFORMAL",
+  "phrase": "Cylindrical Coordinates",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CylindricalCoordinates"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For any $a$ and $b$ there exists a set $\\{ a, b \\}$ that contains\nexactly $a$ and $b$.\n\nThe Axiom of Pairing is one of the axioms of Zermelo-Fraenkel set\ntheory. In symbols, it reads:\n$$\\forall a \\forall b \\exists c \\forall x (x \\in c \\leftrightarrow x = a \\lor x = b).$$\nUsing the Axiom of Extensionality, we see that the set $c$ is unique, so\nit makes sense to define the pair\n$$\\{ a, b \\} = \\mbox{ the unique } c \\mbox{ such that } \\forall x (x \\in c \\leftrightarrow x = a \\lor x = b).$$\n\nUsing the Axiom of Pairing, we may define, for any set $a$, the\nsingleton $$\\{ a \\} = \\{ a, a \\}.$$\n\nWe may also define, for any set $a$ and $b$, the ordered pair\n$$(a, b) = \\{ \\{ a \\}, \\{ a, b \\} \\}.$$\n\nNote that this definition satisfies the condition\n$$(a, b) = (c, d) \\mbox{ iff } a = c \\mbox{ and } b = d.$$\n\nWe may define the ordered $n$-tuple recursively\n$$(a_1, \\ldots, a_n) = ((a_1, \\ldots, a_{n-1}), a_n).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AxiomOfPairing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "axiom of pairing",
+    "pairing"
+  ]
+}

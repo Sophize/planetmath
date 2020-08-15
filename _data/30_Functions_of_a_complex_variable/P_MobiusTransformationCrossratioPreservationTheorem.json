@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A M\u00f6bius transformation $f: z \\mapsto w$ preserves the cross-ratios,\ni.e.\\\n$$\\frac{(w_1-w_2)(w_3-w_4)}{(w_1-w_4)(w_3-w_2)} = \\frac{(z_1-z_2)(z_3-z_4)}{(z_1-z_4)(z_3-z_2)}$$\n\nConversely, given two quadruplets which have the same cross-ratio, there\nexists a M\u00f6bius transformation which maps one quadruplet to the other.\n\nA consequence of this result is that the cross-ratio of $(a,b,c,d)$ is\nthe value at $a$ of the M\u00f6bius transformation that takes $b$, $c$, $d$,\nto $1$, $0$, $\\infty$ respectively.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MobiusTransformationCrossratioPreservationTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "M\\\"obius transformation cross-ratio preservation theorem"
+  ]
+}

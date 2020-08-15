@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G \\subset {\\mathbb{C}}^n$ be an open set and let ${\\mathcal{F}}_G$\nbe the smallest class of functions on $G$ to\n${\\mathbb{R}} \\cup \\{ - \\infty \\}$ that contains all of the functions\n$z \\mapsto \\log \\lvert f(z) \\rvert$ where $f$ is holomorphic on $G$ and\nsuch that ${\\mathcal{F}}_G$ is closed with respect to the following\nconditions:\n\n-   If $\\varphi_1 , \\varphi_2 \\in {\\mathcal{F}}_G$, then\n    $\\varphi_1 + \\varphi_2 \\in {\\mathcal{F}}_G$.\n\n-   If $\\varphi \\in {\\mathcal{F}}_G$ then\n    $a \\varphi_1 \\in {\\mathcal{F}}_G$ for all $a \\geq 0$.\n\n-   If $\\{ \\varphi_k \\} \\in {\\mathcal{F}}_G$ and\n    $\\varphi_1 \\geq \\varphi_2 \\geq \\ldots$, then\n    $\\lim_{k\\to\\infty} \\varphi_k \\in {\\mathcal{F}}_G$.\n\n-   If $\\{ \\varphi_k \\} \\in {\\mathcal{F}}_G$ and the sequence is\n    uniformly bounded above on compact sets, then\n    $\\sup_k \\varphi_k \\in {\\mathcal{F}}_G$.\n\n-   If $\\varphi \\in {\\mathcal{F}}_G$ and\n    $\\hat{\\varphi}(w) := \\limsup_{w \\to z} \\varphi(w)$, then\n    $\\hat{\\varphi} \\in {\\mathcal{F}}_G$\n\n-   If $\\varphi |_U \\in {\\mathcal{F}}_U$ for all $U \\subset G$ where $U$\n    is relatively compact (the closure of $U$ is compact), then\n    $\\varphi \\in {\\mathcal{F}}_G$.\n\nThese functions are called the [*Hartogs functions*]{}.\n\nIt is known that if $n=1$ then the upper semi-continuous Hartogs\nfunctions are precisely the subharmonic functions on $G$.\n\nAll plurisubharmonic functions are Hartogs functions if $G$ is a domain\nof holomorphy.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Hartogs Functions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HartogsFunctions"
+    }
+  ],
+  "indexable": true
+}

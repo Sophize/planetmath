@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "automatic structure",
+    "FA presentation"
+  ],
+  "definition": "Let $S$ be a relational structure (for example, a graph).\n\n$S$ has an *automatic presentation* if (for some alphabet $\\Sigma$)\nthere is a language $L\\subseteq \\Sigma^*$ and a surjective map $f$ from\n$L$ onto the ) of $S$ such that\n\n-   $L$ can be checked by a (Membership)\n\n-   The language of all convolutions of $x,y\\in L$ where $f(x)=f(y)$ can\n    be checked by a (Equality)\n\n-   For all $n$-ary $R_i$ in $S$, the language of all convolutions of\n    $x_1,x_2,\\ldots,x_n\\in L$ where $R_i(f(x_1),f(x_2),\\ldots,f(x_n))$\n    can be checked by a ()\n\nThe class of languages accepted by finite automata, i.e. regular\nlanguages, is closed under operations like union, intersection,\ncomplementation etc, and it is decidable whether or not a finite accepts\nthe empty language. This allows any first order sentence over the\nstructure to be decided - using union for \u2019and\u2019, complementation for\n\u2019not\u2019 etc., and emptiness for dealing with \u2019there exists\u2019. As such, the\nfirst order theory of any structure with an automatic presentation is\ndecidable.\n\nNote that wrt group this is inspired by, but not to, the definition of\nautomatic groups.",
+  "language": "INFORMAL",
+  "phrase": "Automatic Presentation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AutomaticPresentation"
+    }
+  ],
+  "indexable": true
+}

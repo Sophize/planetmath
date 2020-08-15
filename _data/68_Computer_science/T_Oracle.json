@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *oracle* is a way to allow Turing machines access to information they\ncannot necessarily calculate. It makes it possible to consider whether\nsolving one problem would make it possible to solve another problem, and\ntherefore to ask whether one problem is harder than another.\n\nIf $T$ is a Turing machine and $\\pi$ is a problem (either a search\nproblem or a decision problem) with appropriate alphabet then $T^\\pi$\ndenotes the machine which runs $T$ using $\\pi$ as an oracle.\n\nA Turing machine with an oracle has three special states $?$, $y$ and\n$n$. Whenever $T^\\pi$ enters state $?$ it *queries* the oracle about\n$x$, the series of non-blank symbols to the right of the tape head. If\n$\\pi$ is a decision problem then the machine immediately changes to\nstate $y$ if in $x\\in\\pi$ and $n$ otherwise. If $\\pi$ is a search\nproblem then it switches to state $n$ if there is no $z$ such that\n$\\pi(x,z)$ and to state $y$ is there is such a $z$. In the latter case\nthe section of the tape containing $x$ is changed to contain $z$.\n\nIn either case, the oracle allows the machine to behave as if it could\nsolve $\\pi$, since each time it accesses the oracle, the result is the\nsame as a machine which solves $\\pi$.\n\nAlternate but equivalent definitions use a special tape to contain the\nquery and response.\n\nClearly if $L\\neq L^\\prime$ then $L(T^L)$ may not be equal to\n$L(T^{L^\\prime})$.\n\nBy definition, if $T$ is a Turing machine appropriate for a complexity\nclass $\\mathcal{C}$ then $T^L$ is a $\\mathcal{C}$ Cook reduction of\n$L(T^L)$ to $L$.\n\nIf $\\mathcal{C}$ is a complexity class then $T^\\mathcal{C}$ is a\ncomplexity class with\n$T^\\mathcal{C}=\\{L\\mid L=L(T^C)\\wedge C\\in \\mathcal{C}\\}$. If\n$\\mathcal{D}$ is another complexity class then\n$\\mathcal{D}^\\mathcal{C}=\\{L\\mid L\\in T^\\mathcal{C}\\wedge L(T^\\emptyset)\\in\\mathcal{D}\\}$.",
+  "language": "INFORMAL",
+  "phrase": "Oracle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Oracle"
+    }
+  ],
+  "indexable": true
+}

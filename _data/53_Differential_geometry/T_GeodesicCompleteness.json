@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A Riemannian metric on a manifold $M$ is said to be [**geodesically\ncomplete**]{} iff its geodesic flow is a complete flow, i.e. iff for\nevery point $p\\in M$ and every tangent vector $v\\in T_pM$ at $p$ the\nsolution to the geodesic equation\n$$\\nabla_{\\dot{\\gamma}}\\dot{\\gamma}=0$$ with initial condition\n$\\gamma(0)=p$, $\\dot{\\gamma}(0)=v$ is defined for all time. The\nHopf-Rinow theorem asserts that a Riemannian metric is complete if and\nonly if the corresponding metric on $M$ defined by\n$$d(p,q)\\colon=\\inf\\{L(c), \\; c\\colon[0,1]\\to M,\\; c(0)=p,\\; c(1)=q\\}$$\nis a complete metric (i.e. Cauchy sequences converge). Here $L(c)$\ndenote the length of the smooth curve $c$, i.e.\n$$L(c)\\colon=\\int_0^1 \\|\\dot{c}(t)\\|_{c(t)} \\,dt$$ For a proof of the\nHopf-Rinow theorem see Milnor\u2019s monograph [*Morse Theory*]{} Princeton\nAnnals of Math Studies [**51**]{} page 62.",
+  "language": "INFORMAL",
+  "phrase": "Geodesic Completeness",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeodesicCompleteness"
+    }
+  ],
+  "indexable": true
+}

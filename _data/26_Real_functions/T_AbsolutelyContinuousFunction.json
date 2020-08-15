@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "is the precise condition one needs to impose in order for the\nfundamental theorem of calculus to hold for the Lebesgue integral.\n\nSuppose $[a,b]$ be a closed bounded interval of ${\\mathbbmss{R}}$. Then\na function $f\\colon [a,b]\\to{\\mathbbmss{C}}$ is [**absolutely\ncontinuous**]{} on $[a,b]$, if for any $\\varepsilon>0$, there is a\n$\\delta>0$ such that the following condition holds:\n\n-   If $(a_1,b_1), \\ldots, (a_n,b_n)$ is a finite collection of disjoint\n    open intervals in $[a,b]$ such that\n    $$\\sum_{i=1}^n (b_i-a_i)< \\delta,$$ then\n    $$\\sum_{i=1}^n |f(b_i)-f(a_i)|< \\varepsilon.$$\n\nLet $f\\colon [a,b] \\to {\\mathbbmss{C}}$ be a function. Then $f$ is\nabsolutely continuous if and only if there is a function $g\\in L^1(a,b)$\n(i.e. a $g\\colon(a,b)\\to {\\mathbbmss{C}}$ with\n$\\displaystyle \\int_a^b |g|< \\infty$), such that\n$$f(x) = f(a) + \\int_a^x g(t) dt$$ for all $x\\in[a,b]$. What is more, if\n$f$ and $g$ are as above, then $f$ is differentiable almost everywhere\nand $f'=g$ almost everywhere. (Above, both integrals are Lebesgue\nintegrals.)\n\nSee [@jones; @aliprantis] for proof.\n\nSee also [@wikiabs], and [@barcenas] for a discussion about different\nproofs.\n\n[9]{} Wikipedia, entry on . F. Jones, *Lebesgue Integration on Euclidean\nSpaces*, Jones and Barlett Publishers, 1993. C.D. Aliprantis, O.\nBurkinshaw, *Principles of Real Analysis*, 2nd ed., Academic Press,\n1990. D. B\u2019arcenas, *The Fundamental Theorem of Calculus for Lebesgue\nIntegral*, Divulgaciones Matem\u00e1ticas, Vol. 8, No. 1, 2000, pp. 75-85.",
+  "language": "INFORMAL",
+  "phrase": "Absolutely Continuous Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbsolutelyContinuousFunction"
+    }
+  ],
+  "indexable": true
+}

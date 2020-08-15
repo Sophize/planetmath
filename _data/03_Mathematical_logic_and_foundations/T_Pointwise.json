@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "When concepts (properties, operations, etc.) on a set $Y$ are extended\nto functions $f\\colon X \\longrightarrow Y$ by treating each function\nvalue $f(x)$ in isolation, the extended concept is often qualified with\nthe word *pointwise*. One example is pointwise convergence of\nfunctions\u2014a sequence $\\{f_n\\}_{n=1}^\\infty$ of functions\n$X \\longrightarrow Y$ converges pointwise to a function $f$ if\n$\\lim_{n \\rightarrow \\infty} f_n(x) = f(x)$ for all $x \\in X$.\n\nAn important of pointwise concepts are the *pointwise\noperations*\u2014operations defined on functions by applying the operations\nto function values separately for each point in the domain of\ndefinition. These include $$\\begin{aligned}\n  (f+g)(x) ={}& f(x)+g(x) && \\text{(pointwise addition)}\\\\\n  (f \\cdot g)(x) ={}& f(x) \\cdot g(x) &&\n    \\text{(pointwise multiplication)}\\\\\n  (\\lambda f)(x) ={}& \\lambda \\cdot f(x) &&\n    \\text{(pointwise multiplication by scalar)}\\end{aligned}$$ where the\nidentities hold for all $x \\in X$. Pointwise operations inherit such\nproperties as associativity, commutativity, and distributivity from\ncorresponding operations on $Y$.\n\nAn example of an operation on functions which is *not* pointwise is the\nproduct.",
+  "language": "INFORMAL",
+  "phrase": "Pointwise",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Pointwise"
+    }
+  ],
+  "indexable": true
+}

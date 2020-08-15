@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "homological dimension"
+  ],
+  "definition": "For any ring $R$, the *left global dimension* of $R$ is defined to be\nthe supremum of projective dimensions of left modules of $R$:\n$$l.\\operatorname{Gd}(R):=\\operatorname{sup}\\lbrace\\operatorname{pd}_R(M)\\mid M\\mbox{ is a left R-module }\\rbrace.$$\n\nSimilarly, the *right global dimension* of $R$ is:\n$$r.\\operatorname{Gd}(R):=\\operatorname{sup}\\lbrace\\operatorname{pd}_R(M)\\mid M\\mbox{ is a right R-module }\\rbrace.$$\n\nIf $R$ is commutative, then\n$l.\\operatorname{Gd}(R)=r.\\operatorname{Gd}(R)$ and we may drop $l$ and\n$r$ and simply use $\\operatorname{Gd}(R)$ to mean the *global dimension*\nof $R$.\n\n**Remarks**.\n\n1.  For a ring $R$, $l.\\operatorname{Gd}(R)=0$ iff\n    $r.\\operatorname{Gd}(R)=0$ (see the first example below). However,\n    in general, $l.\\operatorname{Gd}(R)$ is not necessarily the same as\n    $r.\\operatorname{Gd}(R)$.\n\n2.  The left (right) global dimension of a ring can also be defined in\n    terms of injective dimensions. For example, for right global\n    dimension of $R$, we have:\n    $r.\\operatorname{Gd}(R)=\\operatorname{sup}\\lbrace\\operatorname{id}_R(M)\\mid M\\mbox{ is a right R-module }\\rbrace$.\n    This definition turns out to be equivalent to the one using\n    projective dimensions.\n\n**Examples**.\n\n1.  $l.\\operatorname{Gd}(R)=0$ iff $R$ is a semisimple ring iff\n    $r.\\operatorname{Gd}(R)=0$.\n\n2.  $r.\\operatorname{Gd}(R)=1$ iff $R$ is a right hereditary ring that\n    is not semisimple.",
+  "language": "INFORMAL",
+  "phrase": "Global Dimension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GlobalDimension"
+    }
+  ],
+  "indexable": true
+}

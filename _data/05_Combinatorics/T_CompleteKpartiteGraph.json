@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "complete $k$-partite graph"
+  ],
+  "definition": "A *complete k-partite graph* is a maximal [[*k*]{}]{}-partite graph. In\nother words, a graph is complete [[*k*]{}]{}-partite provided that its\nvertex set admits a partition $V=V_1\\sqcup\\dots\\sqcup V_k$ such that for\nany $u\\in V_i$ and $v\\in V_j$, [[*uv*]{}]{} is an edge if and only if\n$i\\ne j$.\n\nFor any tuple $(a_1,\\dots,a_k)$, there is up to graph isomorphism a\nsingle complete [[*k*]{}]{}-partite graph with maximal stable sets\n$V_1,\\dots, V_k$ such that for each $i$, there are exactly $a_i$\nvertices in $V_i$. This graph is denoted by $K_{a_1,\\dots,a_k}$.\n\nBelow we display the 3-partite complete graph $K_{2,3,4}$:\n\n$$\\xymatrix{\n  & {\\color{red}A} \\ar@{-}[dl] \\ar@{-}[ddl] \\ar@{-}[dddl] \\ar@{-}[ddddl] \\ar@{-}[rrrdd] \\ar@{-}[rrrddd] & {\\color{red}B} \\ar@{-}[dll] \\ar@{-}[ddll] \\ar@{-}[dddll] \\ar@{-}[ddddll] \\ar@{-}[rrdd] \\ar@{-}[rrddd]& {\\color{red}C} \\ar@{-}[dlll] \\ar@{-}[ddlll] \\ar@{-}[dddlll] \\ar@{-}[ddddlll] \\ar@{-}[rdd] \\ar@{-}[rddd] &   \\\\\n{\\color{blue}D} \\ar@{-}[rrrrd] \\ar@{-}[rrrrdd] &   &   &   &   \\\\\n{\\color{blue}E} \\ar@{-}[rrrr] \\ar@{-}[rrrrd] &   &   &   & {\\color{green}H} \\\\ \n{\\color{blue}F} \\ar@{-}[rrrru] \\ar@{-}[rrrr] &   &   &   & {\\color{green}I} \\\\\n{\\color{blue}G} \\ar@{-}[rrrruu] \\ar@{-}[rrrru] &   &   &   &\n}$$",
+  "language": "INFORMAL",
+  "phrase": "Complete K-Partite Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompleteKpartiteGraph"
+    }
+  ],
+  "indexable": true
+}

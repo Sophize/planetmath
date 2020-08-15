@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In any the self-dual *modular inequality* is true: if $ x\\leq z $ then\n$ x\\lor (y\\land z)\\leq (x\\lor y)\\land z $.\n\n$ x\\leq x\\lor y $ and we are given that $ x\\leq z$, so\n$ x\\leq (x\\lor y)\\land z $. Also, $ y\\land z\\leq y \\leq x\\lor y $ and\n$ y\\land z\\leq z $ imply that $ y\\land z\\leq (x\\lor y)\\land z$.\nTherefore, $ x\\lor (y\\land z)\\leq(x\\lor y)\\land z$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModularInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "modular inequality"
+  ]
+}

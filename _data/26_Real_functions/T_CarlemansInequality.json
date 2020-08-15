@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Theorem**]{} ([@hormander], pp. 24) For positive real numbers\n$\\{a_n\\}_{n=1}^\\infty$, *Carleman\u2019s inequality* states that\n$$\\sum_{n=1}^\\infty \\big(a_1 a_2 \\cdots a_n\\big)^{1/n} \\le e \\sum_{n=1}^\\infty\na_n.$$ Although the constant $e$ (the natural log base) is optimal, it\nis possible to refine Carleman\u2019s inequality by decreasing the weight\ncoefficients on the right hand side [@yuan].\n\n[9]{} L. H\u00f6rmander, *The Analysis of Linear Partial Differential\nOperators I, (Distribution theory and Fourier Analysis)*, 2nd ed,\nSpringer-Verlag, 1990. B.Q. Yuan, *Refinements of Carleman\u2019s\ninequality*, Journal of Inequalities in Pure and Applied Mathematics,\nVol. 2, Issue 2, 2001, Article 21.",
+  "language": "INFORMAL",
+  "phrase": "Carleman'S Inequality",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CarlemansInequality"
+    }
+  ],
+  "indexable": true
+}

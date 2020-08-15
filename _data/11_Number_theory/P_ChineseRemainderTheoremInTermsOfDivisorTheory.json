@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In a ring with a divisor theory, a congruence\n$\\alpha \\equiv \\beta \\pmod{\\mathfrak{a}}$ with respect to a divisor\n$\\mathfrak{a}$ that $\\mathfrak{a} \\mid \\alpha\\!-\\!\\beta$.\\\n**Theorem.** Let $\\mathcal{O}$ be an integral domain having the divisor\ntheory $\\mathcal{O}^* \\to \\mathfrak{D}$. For arbitrary pairwise coprime\ndivisors $\\mathfrak{a}_1,\\,\\ldots,\\,\\mathfrak{a}_s$ in $\\mathfrak{D}$\nand for arbitrary elements $\\alpha_1,\\,\\ldots,\\,\\alpha_s$ of the domain\n$\\mathcal{O}$ there exists an element $\\xi$ in $\\mathcal{O}$ such that\n$$\\begin{aligned}\n\\begin{cases}\n\\xi\\, \\equiv\\, \\alpha_1 \\pmod{\\mathfrak{a}_1}\\\\\n\\cdots \\qquad \\cdots \\qquad \\cdots\\\\\n\\xi\\, \\equiv\\, \\alpha_s \\pmod{\\mathfrak{a}_s}\n\\end{cases}\\end{aligned}$$\n\n[*Proof.*]{} Let\n$$\\mathfrak{b}_i \\,:=\\, \\prod_{j \\neq i}\\mathfrak{a}_j \\quad (i = 1,\\,\\ldots,\\,s).$$\nApparently, the divisors $\\mathfrak{b}_1,\\,\\ldots,\\,\\mathfrak{b}_s$ are\nmutually coprime, whence there are in the ring $\\mathcal{O}$ the\nelements $\\beta_1,\\,\\ldots,\\,\\beta_s$ divisible by the divisors\n$\\mathfrak{b}_1,\\,\\ldots,\\,\\mathfrak{b}_s$, respectively, such that\n$$\\begin{aligned}\n\\beta_1+\\ldots+\\beta_s = 1.\\end{aligned}$$ For every $i \\neq j$, the\ndivisor $\\mathfrak{a}_i$ divides $\\mathfrak{b}_j$ and therefore also the\nelement $\\beta_j$. Then the equation (1) implies that\n$\\beta_i \\equiv 1 \\pmod{\\mathfrak{a}_i}$ and thus the element\n$$\\xi \\,:=\\, \\alpha_1\\beta_1+\\ldots+\\alpha_s\\beta_s$$ satisfies\n$$\\xi \\,\\equiv\\, \\alpha_i\\beta_i \\,\\equiv\\, \\alpha_i\\! \\pmod{\\mathfrak{a}_i}$$\nfor each $i = 1,\\,\\ldots,\\,s$. Q.E.D.\n\n[9]{} . . : [ ** ]{}. \u201c\u201d. (1982).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChineseRemainderTheoremInTermsOfDivisorTheory"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Chinese remainder theorem in terms of divisor theory"
+  ]
+}

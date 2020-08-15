@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "fractional power"
+  ],
+  "definition": "Let $m$ be an integer and $n$ a positive factor of $m$. If $x$ is a\npositive real number, we may write the identical equation\n$$(x^{\\frac{m}{n}})^n \\;=\\; x^{\\frac{m}{n}\\cdot n} \\;=\\; x^m$$ and\ntherefore the definition of gives the $$\\begin{aligned}\n\\sqrt[n]{x^m} \\;=\\;  x^{\\frac{m}{n}}.\\end{aligned}$$ Here, the exponent\n$\\frac{m}{n}$ is an integer. For enabling the validity of (1) for the\ncases where $n$ does not divide $m$ we must set the following\n\n**Definition.** Let $\\frac{m}{n}$ be a fractional number, i.e. an\ninteger $m$ not divisible by the integer $n$, which latter we assume to\nbe positive. For any positive real number $x$ we define the [*fraction\npower*]{} $x^{\\frac{m}{n}}$ as the $n^\\mathrm{th}$ $$\\begin{aligned}\n             x^{\\frac{m}{n}} \\;:=\\; \\sqrt[n]{x^m}.\\end{aligned}$$\n\n**Remarks**\n\n1.  The existence of the in the right hand side of (2) is proved .\n\n2.  The defining equation (2) is independent on the form of the exponent\n    $\\frac{m}{n}$: If $\\frac{k}{l} = \\frac{m}{n}$, then we have\n    $(\\sqrt[n]{x^m})^{ln} = [(\\sqrt[n]{x^m})^n]^l = x^{lm} = x^{kn} = \n    [(\\sqrt[l]{x^k})^l]^n = (\\sqrt[l]{x^k})^{ln}$, and because the\n    mapping $y\\mapsto y^{ln}$ is injective in $\\mathbb{R}_+$, the\n    positive numbers $\\sqrt[l]{x^k}$ and $\\sqrt[n]{x^m}$ must be equal.\n\n3.  The fraction power function $x\\mapsto x^{\\frac{m}{n}}$ is a special\n    case of power function.\n\n4.  The presumption that $x$ is positive signifies that one can not\n    identify all $n^\\mathrm{th}$ $\\sqrt[n]{x}$ and the powers\n    $x^{\\frac{1}{n}}$. For example, $\\sqrt[3]{-8}$ equals $-2$ and\n    $\\frac{2}{6} = \\frac{1}{3}$, but one **must not**\n    $$(-8)^{\\frac{1}{3}} \\;=\\; (-8)^{\\frac{2}{6}} \\;=\\; \\sqrt[6]{(-8)^2} \\;=\\; \\sqrt[6]{64} \\;=\\; 2.$$\n    The point is that $(-8)^{\\frac{1}{3}}$ is not defined in\n    $\\mathbb{R}$. Here we have $l = 6$ and the mapping $y\\mapsto y^{ln}$\n    is not injective in $\\mathbb{R}_-\\cup\\mathbb{R}_+$. \u2014 Nevertheless,\n    some people and books may use also for negative $x$ the equality\n    $\\sqrt[n]{x} = x^{\\frac{1}{n}}$ and more generally\n    $\\sqrt[n]{x^m} = x^{\\frac{m}{n}}$ where one then insists that\n    $\\gcd(m,\\,n) = 1.$\n\n5.  According to the preceding item, for the negative values of $x$ the\n    derivative of , e.g. $\\sqrt[3]{x}$, ought to be calculated as\n    follows:\n    $$\\frac{d\\sqrt[3]{x}}{dx} \\;=\\; \\frac{d(-\\sqrt[3]{-x})}{dx} \n    \\;=\\; -\\frac{d(-x)^\\frac{1}{3}}{dx} \\;=\\; -\\frac{1}{3}\\!\\cdot\\!(-x)^{-\\frac{2}{3}}(-1) \n    \\;=\\;\\frac{1}{3\\sqrt[3]{(-x)^2}} \\;=\\; \\frac{1}{3\\sqrt[3]{x^2}}$$\n    The result is similar as $\\frac{d\\sqrt[3]{x}}{dx}$ for positive\n    $x$\u2019s, although the root functions are not special cases of the\n    power function.",
+  "language": "INFORMAL",
+  "phrase": "Fraction Power",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FractionPower"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "truth functional completeness",
+    "truth functionally complete"
+  ],
+  "definition": "Recall that in classical propositional logic, well-formed formulas\n(wffs) can be built up (recursively) from propositional variables via\nlogical connectives. There are several choices for the logical\nconnectives used:\n\n-   $F_1=\\lbrace \\neg, \\vee \\rbrace$,\n\n-   $F_2=\\lbrace \\neg, \\wedge \\rbrace$,\n\n-   $F_3=\\lbrace \\neg, \\to \\rbrace$,\n\n-   $F_4=\\lbrace \\neg, \\vee, \\wedge \\rbrace$,\n\n-   $F_5=\\lbrace \\neg, \\vee, \\wedge, \\to, \\leftrightarrow \\rbrace$.\n\nFor a given set $V$ of (propositional) variables, and a set $F$ of\nlogical connectives, denote $\\overline{V}(F)$ the set of all wffs built\nfrom $V$ with respect to $F$. From the choices above, we see that\n$\\overline{V}(F_i) \\subset \\overline{V}(F_5)$ for all $i<5$, and\n$\\overline{V}(F_j) \\subset \\overline{V}(F_4)$ for all $j<3$.\n\nHowever, we know that, intuitively, some of the connectives are\n\u201credundant\u201d in that they can be \u201cdefined\u201d using existing connectives.\nFor example, the connective $\\leftrightarrow$ can be defined in terms of\n$\\to$ and $\\vee$: $$p\\leftrightarrow q:= (p\\to q)\\vee (q\\to p),$$ and\n$\\to$ can in turn be defined in terms of $\\vee$ and $\\neg$:\n$$p\\to q:= (\\neg p) \\vee q,$$ etc... This means that, although\n$\\overline{V}(F_5)$ is a much larger set than, say, $\\overline{V}(F_1)$,\nevery extra wff in $\\overline{V}(F_5)$ is in some way *equivalent* to an\nwff in $\\overline{V}(F_1)$. This equivalence is the familiar semantic\nequivalence. If fact, we can show that $\\neg$ and $\\vee$ are all we\nneed: \u201cany\u201d logical connective can be \u201cdefined\u201d in terms of them, not\njust the ones mentioned above. This is the notion of *truth functional\ncompleteness*, or *functional completeness* for short. To make this\nprecise, we have the following:\n\n**Definition** A set $F$ of logical connectives is said to be *truth\nfunctionally complete*, or *functionally complete* if, given logical\nconnective $\\phi$, every wff in\n$\\overline{V}(F \\cup \\lbrace \\phi \\rbrace)$ is semantically equivalent\nto a wff in $\\overline{V}(F)$, considered as a subset of\n$\\overline{V}(F \\cup \\lbrace \\phi \\rbrace)$.\n\nIt is clear that if $F$ is functionally complete, so is any of its\nsuperset. Also, given a set $F$ of logical connectives, if there is a\nfunctionally complete set $G$ of logical connectives such that every wff\nin $\\overline{V}(G)$ is semantically equivalent to a wff in\n$\\overline{V}(F)$, then $F$ is functionally complete.\n\nFor example, it can be shown that $F_1$ above is functionally complete,\nand as an easy corollary, so is each of the rest of $F_i$ above.\n\n[7]{} D. van Dalen: [*Logic and Structure*]{}, Springer, 4th Ed., Berlin\n(2008). H. Enderton: [*A Mathematical Introduction to Logic*]{},\nAcademic Press, San Diego (1972).",
+  "language": "INFORMAL",
+  "phrase": "Functional Completeness",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FunctionalCompleteness"
+    }
+  ],
+  "indexable": true
+}

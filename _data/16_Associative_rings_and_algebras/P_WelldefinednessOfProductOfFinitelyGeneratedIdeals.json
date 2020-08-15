@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Ler $R$ be of a commutative ring with nonzero unity. If\n$$\\begin{aligned}\n\\mathfrak{a} \\;=\\; (a_1,\\,\\ldots,\\,a_m) \\;=\\; (\\alpha_1,\\,\\ldots,\\,\\alpha_\\mu)\\end{aligned}$$\nand $$\\begin{aligned}\n\\mathfrak{b} \\;=\\; (b_1,\\,\\ldots,\\,b_n) \\;=\\, (\\beta_1,\\,\\ldots,\\,\\beta_\\nu)\\end{aligned}$$\nare two finitely generated ideals of $R$, both with two , then the\nideals\n$$\\mathfrak{c} \\;:=\\; (a_1b_1,\\,\\ldots,\\,a_ib_j,\\,\\ldots,\\,a_mb_n)$$ and\n$$\\mathfrak{d} \\;:=\\; (\\alpha_1\\beta_1,\\,\\ldots,\\,\\alpha_i\\beta_j,\\,\\ldots,\\,\\alpha_\\mu\\beta_\\nu)$$\nare equal.\\\n*Proof.* By (1) and (2), for every $i,\\,j$, there are elements\n$r_{ik},\\,s_{jl}$ of $R$ such that $$\\begin{aligned}\na_i \\;=\\; r_{i1}\\alpha_1\\!+\\ldots+r_{i\\mu}\\alpha_\\mu, \\quad b_j \\;=\\; s_{j1}\\beta_1\\!+\\ldots+s_{j\\nu}\\beta_\\nu.\\end{aligned}$$\nMultiplying the equations (3) we see that $$a_ib_j \\;=\\; \n(r_{i1}s_{j1})(\\alpha_1\\beta_1)\\!+\\!(r_{i2}s_{j1})(\\alpha_2\\beta_1)\\!+\\ldots+\\!(r_{i\\mu}s_{j\\nu})(\\alpha_\\mu\\beta_\\nu),$$\nwhence the generators $a_ib_j$ of $\\mathfrak{c}$ belong to\n$\\mathfrak{d}$ and consecuently $\\mathfrak{c} \\subseteq \\mathfrak{d}$.\nThe reverse containment is seen similarly.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WelldefinednessOfProductOfFinitelyGeneratedIdeals"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "well-definedness of product of finitely generated ideals"
+  ]
+}

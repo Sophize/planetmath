@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a compact Hausdorff space and $C(X)$ the algebra of\ncontinuous functions $X \\longrightarrow \\mathbb{C}$. Recall that $C(X)$\nis a vector lattice with the usual : $f\\leq g \\Longleftrightarrow g-f$\ntakes positive (or zero) values.\n\n$\\,$\n\n[**Theorem -** ]{} If every subset of $C(X)$ that is bounded from above\nhas a least upper bound (i.e. $C(X)$ is a bounded complete lattice),\nthen $X$ is extremally disconnected.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompactHausdorffSpaceIsExtremallyDisconnectedIfItsFunctionAlgebraIsABoundedCompleteLattice"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "compact Hausdorff space is extremally disconnected if its function algebra is a bounded complete lattice",
+    "sufficient condition for a compact Hausdorf space to be extremally disconnected"
+  ]
+}

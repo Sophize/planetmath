@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "*Theorem.*The set of all real transcendental numbers is uncountable.\n\n*Proof.* Denote $\\mathbb{T}$ and $\\mathbb{A}$ be the set of real\ntranscendental and real algebraic numbers respectively. Suppose\n$\\mathbb{T}$ is countable. Then the union\n$\\mathbb{T} \\cup \\mathbb{A} = \\mathbb{R}$ is also countable, since\n$\\mathbb{A}$ is also countable, which is a contradiction. Therefore\n$\\mathbb{T}$ must be uncountable. $\\Box$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheSetOfAllRealTranscendentalNumbersIsUncountable"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the set of all real transcendental numbers is uncountable"
+  ]
+}

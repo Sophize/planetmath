@@ -1,0 +1,17 @@
+{
+  "argumentText": "The proof follows directly from Apollonius theorem noticing that each\ndiagonal is a median for the triangles in which parallelogram is split\nby the other diagonal. Also, the diagonals bisect each other.\n\n![image](parallelogramlaw)\n\nTherefore, Apollonius theorem implies\n$$2\\left(\\frac{d_1}{2}\\right)^2 +\\left(\\frac{d_2}{2}\\right)^2=u^2+v^2.$$\nMultiplying both sides by $2$ and simplification leads to the desired\nexpression.",
+  "conclusion": "#P_ParallelogramLaw",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfParallelogramLaw"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of parallelogram law"
+  ]
+}

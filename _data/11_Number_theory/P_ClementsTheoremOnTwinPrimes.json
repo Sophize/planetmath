@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{}. (P. Clement) Given a prime number $p$, $p + 2$ is also\na prime (and $p$ and $p + 2$ form a twin prime) if and only if\n$4(p - 1)! \\equiv -4 - p \\pmod{p^2 + 2p}$.\n\nRichard Crandall and Carl Pomerance see this theorem as \u201ca way to\nconnect the notion of twin-prime pairs with the Wilson-Lagrange\ntheorem.\u201d\n\n[1]{} Richard Crandall & Carl Pomerance, [*Prime Numbers: A\nComputational Perspective*]{}, 2nd Edition. New York: Springer (2005):\n65, Exercise 1.57",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClementsTheoremOnTwinPrimes"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Clement's theorem on twin primes"
+  ]
+}

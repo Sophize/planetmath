@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An [*addition chain*]{} $a$ is a sequence of integers of length $k$ such\nthat each term $a_i$ for $0 < i \\leq k$ (with $a_0 = 1$) is the sum of\ntwo previous terms in at least one way. In the sum $a_m + a_n$ it is not\nrequired that $m \\neq n$. For example, 1, 2, 3, 5, 10, 20, 40, 80, is an\naddition chain of length 7: 3 is 1 + 2, 5 = 2 + 3, 10 = 5 + 5, and the\nrest have $m = n$.\n\nThere are various subclassifications of addition chains, such as the\nLucas chains. A Mian-Chowla sequence is an addition chain with the\nrestriction that each term is the sum of two previous terms in only one\nway. The length may be infinite, and thus the Fibonacci sequence is an\naddition chain.",
+  "language": "INFORMAL",
+  "phrase": "Addition Chain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdditionChain"
+    }
+  ],
+  "indexable": true
+}

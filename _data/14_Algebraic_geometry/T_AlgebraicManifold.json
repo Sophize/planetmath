@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "algebraic submanifold",
+    "$k$-algebraic manifold",
+    "$k$-algebraic submanifold"
+  ],
+  "definition": "Let $k$ be a field and let $M \\subset k^n$ be a submanifold. $M$ is said\nto be an *algebraic manifold* (or $k$-algebraic) if there exists an\nirreducible algebraic variety $V \\subset k^n$ such that\n$\\dim V = \\dim M$ and $M \\subset V$. If $k = \\mathbb{R}$, then $M$ is\ncalled a *Nash manifold*.\n\nIt can be proved that such a manifold is defined as the zero set of a\nfinite collection of analytic algebraic functions.\n\n[9]{} M. Salah Baouendi, Peter Ebenfelt, Linda Preiss Rothschild.\n[**]{}, Princeton University Press, Princeton, New Jersey, 1999.",
+  "language": "INFORMAL",
+  "phrase": "Algebraic Manifold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraicManifold"
+    }
+  ],
+  "indexable": true
+}

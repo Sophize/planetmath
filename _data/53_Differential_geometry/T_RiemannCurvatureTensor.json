@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{X}$ denote the vector space of smooth vector fields on a\nsmooth Riemannian manifold $(M,g)$. Note that $\\mathcal{X}$ is actually\na $\\mathcal{C}^\\infty(M)$ module because we can multiply a vector field\nby a function to obtain another vector field. The *Riemann curvature\ntensor* is the tri-linear $\\mathcal{C}^\\infty$ mapping\n$$R:{\\mathcal{X}}\\times{\\mathcal{X}}\\times{\\mathcal{X}}\\to{\\mathcal{X}},$$\nwhich is defined by\n$$R(X,Y)Z=\\nabla_X\\nabla_YZ-\\nabla_Y\\nabla_XZ-\\nabla_{[X,Y]}Z$$ where\n$X,Y,Z\\in\\mathcal{X}$ are vector fields, where $\\nabla$ is the\nLevi-Civita connection attached to the metric tensor $g$, and where the\nsquare brackets denote the Lie bracket of two vector fields. The\ntri-linearity means that for every smooth $f\\colon M\\to\\mathbb{R}$ we\nhave $$fR(X,Y)Z=R(fX,Y)Z=R(X,fY)Z=R(X,Y)fZ.$$\n\nIn components this tensor is classically denoted by a set of\nfour-indexed components ${R^i}_{jkl}$. This means that given a basis of\nlinearly independent vector fields $X_i$ we have\n$$R(X_j,X_k)X_l=\\sum_s {R^s}_{jkl}X_s.$$\n\nIn a two dimensional manifold it is known that the Gaussian curvature it\nis given by $$K_g=\\frac{R_{1212}}{g_{11}g_{22}-{g_{12}}^2}$$",
+  "language": "INFORMAL",
+  "phrase": "Riemann Curvature Tensor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RiemannCurvatureTensor"
+    }
+  ],
+  "indexable": true
+}

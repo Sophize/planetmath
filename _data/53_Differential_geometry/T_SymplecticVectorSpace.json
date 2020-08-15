@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *symplectic vector space* $(V,\\omega)$ is a finite dimensional real\nvector space $V$ equipped with an alternating non-degenerate 2-tensor,\ni.e., a bilinear map $\\omega\\colon V\\times V\\rightarrow\\mathbb R$ that\nsatisfies the following properties:\n\n1.  Alternating: For all $v,w\\in V$, $\\omega(v,w)=-\\omega(w,v)$.\n\n2.  Non-degenerate: If $\\omega(v,w)=0$ for all $w\\in V$, then $v=0$.\n\nThe tensor $\\omega$ is called a for $V$.\n\nA linear automorphism $T\\in\\mathrm{Aut}(V)$ is called *linear\nsymplectomorphism* when $T^*\\omega=\\omega$, i.e.\n$$\\omega(Tv,Tw)=\\omega(v,w)\\ \\ \\forall v,w\\in W.$$ Linear\nsymplectomorphisms of $(V,\\omega)$ form a group (under composition of\nlinear map) that is denoted by $\\mathrm{Sp(V,\\omega)}$.\n\nOne can show that a symplectic vector space is always even dimensional\n[@duff].\n\n[9]{} D. McDuff, D. Salamon, *Introduction to Symplectic Topology*,\nClarendon Press, 1997.",
+  "language": "INFORMAL",
+  "phrase": "Symplectic Vector Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SymplecticVectorSpace"
+    }
+  ],
+  "indexable": true
+}

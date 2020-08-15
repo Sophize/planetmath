@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $I$ be an ideal of a semigroup $S$. Define a congruence $\\sim$ by\n$x \\sim y$ iff $x = y$ or $x, y \\in I$.\n\nThen the *Rees factor* of $S$ by $I$ is the quotient $S/\\sim$. As a\nmatter of notation, the congruence $\\sim$ is normally suppressed, and\nthe quotient is simply written $S/I$.\n\nNote that a Rees factor always has a zero element. Intuitively, the\nquotient identifies all element in $I$ and the resulting element is a\nzero element.",
+  "language": "INFORMAL",
+  "phrase": "Rees Factor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ReesFactor"
+    }
+  ],
+  "indexable": true
+}

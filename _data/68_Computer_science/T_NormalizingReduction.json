@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set and $\\rightarrow$ a reduction (binary relation) on $X$.\nAn element $x \\in X$ is said to be in *normal form* with respect to\n$\\rightarrow$ if $x \\nrightarrow y$ for all $y \\in X$, i.e., if there is\nno $y \\in X$ such that $x \\rightarrow y$. Equivalently, $x$ is in normal\nform with respect to $\\to$ iff $x\\notin \\operatorname{dom}(\\to)$. To be\n*irreducible* is a common synonym for \u2018to be in normal form\u2019.\n\nDenote by $\\stackrel{*}{\\rightarrow}$ the reflexive transitive closure\nof $\\rightarrow$. An element $y \\in X$ is said to be *a normal form of*\n$x \\in X$ if $y$ is in normal form and $x \\stackrel{*}{\\rightarrow} y$.\n\nA reduction $\\to$ on $X$ is said to be *normalizing* if every element\n$x\\in X$ has a normal form.\n\n**Examples**.\n\n-   Let $X$ be any set. Then no elements in $X$ are in normal form with\n    respect to any reduction that is either reflexive. If $\\to$ is a\n    symmetric relation, then $x\\in X$ is in normal form with respect to\n    $\\to$ iff $x$ is not in the domain (or range) of $\\to$.\n\n-   Let $X=\\lbrace a,b,c,d\\rbrace$ and\n    $\\to = \\lbrace (a,a),(a,b),(a,c),(b,c),(a,d)\\rbrace$. Then $c$ and\n    $d$ are both in normal form. In addition, they are both normal forms\n    of $a$, while $d$ is a normal form only for $a$. However, $X$ is not\n    normalizing because neither $c$ nor $d$ have normal forms.\n\n-   Let $X$ be the set of all positive integers greater than $1$. Define\n    the reduction $\\to$ on $X$ as follows: $a\\to b$ if there is an\n    element $c\\in X$ such that $a=bc$. Then it is clear that every prime\n    number is in normal form. Furthermore, every element $x$ in $X$ has\n    $n$ normal forms, where $n$ is the number of prime divisors of $x$.\n    Clearly, $n\\ge 1$ for every $x\\in X$. As a result, $X$ is\n    normalizing.",
+  "language": "INFORMAL",
+  "phrase": "Normalizing Reduction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalizingReduction"
+    }
+  ],
+  "indexable": true
+}

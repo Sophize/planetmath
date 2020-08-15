@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a base $b$ integer $$n = \\sum_{i = 1}^k d_ib^{i - 1}$$ where $d_1$\nis the least significant digit and $d_k$ is the most significant, if it\nis also the case that $$n = \\sum_{i = 1}^k d_i!$$ then $n$ is a\n*factorion*. In other words, the sum of the factorials of the digits in\na standard positional integer base $b$ (such as base 10) gives the same\nnumber as multiplying the digits by the appropriate power of that base.\nWith the exception of 1, the factorial base representation of a\nfactorion is always different from that in the integer base. Obviously,\nall numbers are factorions in factorial base.\n\n1 is a factorion in any integer base. 2 is a factorion in all integer\nbases except binary. In base 10, there are only four factorions: 1, 2,\n145 and 40585. For example,\n$4 \\times 10^4 + 0 \\times 10^3 + 5 \\times 10^2 + 8 \\times 10^1 + 5 \\times 10^0 = 4! + 0! + 5! + 8! + 5! = 40585$.\n(The factorial base representation of 40585 is 10021001).\n\n[1]{} D. Wells, [*The Penguin Dictionary of Curious and Interesting\nNumbers*]{} London: Penguin Group. (1987): 125",
+  "language": "INFORMAL",
+  "phrase": "Factorion",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Factorion"
+    }
+  ],
+  "indexable": true
+}

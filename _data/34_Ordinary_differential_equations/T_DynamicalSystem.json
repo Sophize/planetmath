@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "supercategorical dynamics"
+  ],
+  "definition": "A *dynamical system* on $X$ where $X$ is an open subset of\n$\\mathbb{R}^n$ is a differentiable map\n$$\\phi: \\mathbb{R}\\times X \\to X$$ where\n$$\\phi (t,\\mathbf{x}) = \\phi_t (\\mathbf{x})$$ satisfies\n\n-   $\\phi_0(\\mathbf{x}) = \\mathbf{x}$ for all $\\mathbf{x}\\in X$ *(the\n    identity function)*\n\n-   $\\phi_t \\circ \\phi_s (\\mathbf{x}) = \\phi_{t+s}(\\mathbf{x})$ for all\n    $s,t \\in \\mathbb{R}$ *(composition)*\n\n[@1][@2]\n\nNote that a *planar dynamical system* is the same definition as above\nbut with $X$ an open subset of $\\mathbb{R}^2$.\n\n[2]{} Hirsch W. Morris, Smale, Stephen, Devaney L. Robert: Differential\nEquations, Dynamical Systems & An Introduction to Chaos *(Second\nEdition)*. Elsevier Academic Press, New York, 2004. Perko, Lawrence:\nDifferential Equations and Dynamical Systems *(Third Edition)*.\nSpringer, New York, 2001.",
+  "language": "INFORMAL",
+  "phrase": "Dynamical System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DynamicalSystem"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "cardinal of the continuum",
+    "cardinal number of the continuum"
+  ],
+  "definition": "The *cardinality of the continuum*, often denoted by $\\continuum$, is\nthe cardinality of the set $\\R$ of real numbers. A set of cardinality\n$\\continuum$ is said to have *continuum many* elements.\n\nCantor\u2019s diagonal argument shows that $\\continuum$ is uncountable.\nFurthermore, it can be shown that $\\R$ is equinumerous with the power\nset of $\\N$, so $\\continuum=2^{\\aleph_0}$. It can also be shown that\n$\\continuum$ has uncountable cofinality.\n\nIt can also be shown that\n$$\\continuum=\\continuum^{\\aleph_0}=\\aleph_0\\continuum=\\continuum\\continuum\n=\\continuum+\\kappa=\\continuum^n$$ for all finite cardinals $n\\ge1$ and\nall cardinals $\\kappa\\le\\continuum$. See the article on cardinal\narithmetic for some of the basic facts underlying these equalities.\n\nThere are many properties of $\\continuum$ that independent of ZFC, that\nis, they can neither be proved nor disproved in ZFC, assuming that ZF is\nconsistent. For example, for every nonzero natural number $n$, the\nequality $\\continuum=\\aleph_n$ is independent of ZFC. (The case $n=1$ is\nthe well-known .) The same is true for most other alephs, although in\nsome cases equality can be ruled out on the grounds of cofinality, e.g.,\n$\\continuum\\neq\\aleph_\\omega$. In particular, $\\continuum$ could be\neither $\\aleph_1$ or $\\aleph_{\\omega_1}$, so it could be either a\nsuccessor cardinal or a limit cardinal, and either a regular cardinal or\na singular cardinal.",
+  "language": "INFORMAL",
+  "phrase": "Cardinality Of The Continuum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CardinalityOfTheContinuum"
+    }
+  ],
+  "indexable": true
+}

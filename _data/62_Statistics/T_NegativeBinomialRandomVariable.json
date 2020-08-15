@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "negative binomial distribution"
+  ],
+  "definition": "$X$ is a *negative binomial random variable* with parameters $r$ and $p$\nif\\\n\n$f_X(x) ={r+x-1 \\choose x} p^r (1-p)^x$, $x=\\{0,1,...\\}$\\\n\nParameters:\\\n\n[$\\star$ ]{}\n\n$r > 0$\n\n$p \\in [0,1]$\n\nSyntax:\\\n\n$X\\sim NegBin(r,p)$\\\n\nNotes:\\\n\n1.  If $r \\in \\mathbb{N}$, $X$ represents the number of failed Bernoulli\n    trials before the $r$th success. Note that if $r=1$ the variable is\n    a geometric random variable.\n\n2.  $E[X] = r \\frac{1-p}{p}$\n\n3.  $Var[X] = r \\frac{1-p}{p^2}$\n\n4.  $M_X(t) = (\\frac{p}{1 - (1-p)e^t})^r$",
+  "language": "INFORMAL",
+  "phrase": "Negative Binomial Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NegativeBinomialRandomVariable"
+    }
+  ],
+  "indexable": true
+}

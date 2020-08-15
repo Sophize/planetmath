@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An [*alternating sum*]{} is a sequence of arithmetic operations in which\neach addition is followed by a subtraction, and viceversa, applied to a\nsequence of numerical entities. For example,\n$$\\log 2 = 1 - \\frac{1}{2} + \\frac{1}{3} - \\frac{1}{4} + \\frac{1}{5} - \\frac{1}{6} + \\frac{1}{7} - \\ldots$$\nAn alternating sum is also called an alternating series.\n\nAlternating sums are often expressed in summation notation with the\niterated expression involving multiplication by negative one raised to\nthe iterator. Since a negative number raised to an odd number gives a\nnegative number while raised to an even number gives a positive number\n(see: factors with minus sign), $(-1)^i$ essentially has the effect of\nturning the odd-indexed terms of the sequence negative but keeping their\nabsolute values the same. Our previous example would thus be restated\n$$\\log 2 = \\sum_{i = 1}^\\infty (-1)^{i - 1} \\frac{1}{i}.$$\n\nIf the operands in an alternating sum decrease in value as the iterator\nincreases, and approach zero, then the alternating sum converges to a\nspecific value. This fact is used in many of the best-known expression\nfor $\\pi$ or fractions thereof, such as the Gregory series:\n$$\\frac{\\pi}{4} = \\sum_{i = 0}^\\infty (-1)^i \\frac{1}{2i + 1}$$\n\nOther constants also find expression as alternating sums, such as\nCahen\u2019s constant.\n\nAn alternating sum need not necessarily involve an infinity of operands.\nFor example, the alternating factorial of $n$ is computed by an\nalternating sum stopping at $i = n$.\n\n[1]{} Tobias Dantzig, [*Number: The Language of Science*]{}, ed. Joseph\nMazur. New York: Pi Press (2005): 166",
+  "language": "INFORMAL",
+  "phrase": "Alternating Sum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternatingSum"
+    }
+  ],
+  "indexable": true
+}

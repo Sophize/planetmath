@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A Wieferich prime a is prime number $p$ such that $p^2$ divides\n$2^{p-1}-1$; compare this with Fermat\u2019s little theorem, which states\nthat every prime $p$ divides $2^{p-1}-1$. Wieferich primes were first\ndescribed by Arthur Wieferich in 1909 in works pertaining to Fermat\u2019s\nlast theorem.\n\nThe only known Wieferich primes are 1093 and 3511, found by W. Meissner\nin 1913 and N. G. W. H. Beeger in 1922, respectively; if any others\nexist, they must be at least $1.25\\times 10^{15}$. The conjecture that\nonly finitely many Wieferich primes exist remains unproven, though J. H.\nSilverman was able to show in 1988 that if the abc Conjecture holds,\nthen for any positive integer $a>1$, there exist infinitely many primes\n$p$ such that $p^2$ does not divide $a^{p-1}-1$. In particular, there\nare infinitely many primes which are not Wieferich.\n\nWieferich primes and Fermat\u2019s last theorem {#wieferich-primes-and-fermats-last-theorem .unnumbered}\n------------------------------------------\n\nThe following theorem connecting Wieferich primes and Fermat\u2019s last\ntheorem was proven by Wieferich in 1909:\n\nLet $p$ be prime, and let $x, y, z$ be integers such that\n$x^p+y^p+z^p=0$. Furthermore, assume that $p$ does not divide the\nproduct $xyz$. Then $p$ is a Wieferich prime.\n\nIn 1910, Mirimanoff was able to expand this theorem by showing that, if\nthe preconditions of the theorem hold true for some prime $p$, then\n$p^2$ must also divide $3^{p-1}$. Prime numbers of this kind have been\ncalled Mirimanoff primes on occasion, but the name has not entered\ngeneral mathematical use.\n\nAn analysis of Wieferich primes also proved crucial to Preda\nMihailescu\u2019s proof of the (formerly-named) Catalan\u2019s conjecture.\n\n[9]{} Ireland, Kenneth and Rosen, Michael. A Classical Introduction to\nModern Number Theory. Springer, 1998.\n\nNathanson, Melvyn B. Elementary Methods in Number Theory. Springer,\n2000.\n\nWikipedia, the free encyclopedia, entry on Wieferich primes. All text is\navailable under the terms of the GNU Free Documentation License",
+  "language": "INFORMAL",
+  "phrase": "Wieferich Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WieferichPrime"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "slant",
+    "inclination"
+  ],
+  "definition": "The [*angle between a line $l$ and a plane $\\tau$*]{} is defined as the\n**least possible** angle $\\omega$ between $l$ and a line contained by\n$\\tau$.\n\nIt is apparent that $\\omega$ satisfies always\n$0 \\leqq \\omega \\leqq 90^\\circ$.\n\nLet the plane $\\tau$ be given by the $Ax\\!+\\!By\\!+\\!Cz\\!+\\!D = 0$, i.e.\nits normal vector has the components $A,\\,B,\\,C$. Let a direction vector\nof the line $l$ have the components $a,\\,b,\\,c$. Then the angle $\\omega$\nbetween $l$ and $\\tau$ is obtained from the equation\n$$\\sin\\omega = \\frac{|Aa\\!+\\!Bb\\!+\\!Cc|}{\\sqrt{A^2\\!+\\!B^2\\!+\\!C^2}\\sqrt{a^2\\!+\\!b^2\\!+\\!c^2}}.$$\nIn fact, the is the cosine of the angle $\\alpha$ between $l$ and the\nsurface normal of $\\tau$ (see angle between two lines), and $\\omega$ is\nthe complementary angle of $\\alpha$.\\\n\n(-1,-0.5)(8,5) (2,3)(0,0)(5,0)(7,3) (2,3)(3.44,3) (3.73,3)(7,3)\n(1,1.5)(4.7,1.5) (4.7,1.5)(6,1.5) (4.7,1.5)(2.5,4.5)\n(4.2,1.7)[$\\omega$]{} (1.7,0.7)[$\\tau$]{} (3,4.2)[$l$]{}\n(0,-0.032)(5.023,-0.032)(7.023,3) (4.7,1.5)[0.25]{}[130]{}[180]{}\n(-1,-0.5)[.]{} (8,5)[.]{}\n\n**Example.** Consider the $xy$-plane and the line $l$ through the origin\nand the point $(1,\\,1,\\,1)$. We can use the components $1,\\,1,\\,1$ for\nthe direction vector of $l$ and the components $0,\\,0,\\,1$ for the\nnormal vector of the plane. We have\n$$\\omega \\;=\\; \\arcsin\\frac{1\\!\\cdot\\!0\\!+\\!1\\!\\cdot\\!0\\!+\\!1\\!\\cdot\\!1}{\\sqrt{1^2\\!+\\!1^2\\!+\\!1^2}\\sqrt{0^2\\!+\\!0^2\\!+\\!1^2}} \n\\;=\\; \\arcsin\\frac{1}{\\sqrt{3}} \\approx 35.26^\\circ.$$",
+  "language": "INFORMAL",
+  "phrase": "Angle Between Line And Plane",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AngleBetweenLineAndPlane"
+    }
+  ],
+  "indexable": true
+}

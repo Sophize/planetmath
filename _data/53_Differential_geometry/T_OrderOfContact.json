@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "order contact"
+  ],
+  "definition": "Suppose that $A$ and $B$ are smooth curves in $\\mathbb{R}^n$ which pass\nthrough a common point $P$. We say that $A$ and $B$ have zeroth order\ncontact if their tangents at $P$ are distinct.\n\nSuppose that $A$ and $B$ are tangent at $P$. We may then set up a\ncoordinate system in which $P$ is the origin and the $x_1$ axis is\ntangent to both curves. By the implicit function theorem, there will be\na neighborhood of $P$ such that $A$ can be described parametrically as\n$x_i = f_i (x_1)$ with $i = 2, \\ldots, n$ and $B$ can be described\nparametrically as $x_i = g_i (x_1)$ with $i = 2, \\ldots, n$. We then\ndefine the *order of contact* of $A$ and $B$ at $P$ to be the largest\ninteger $m$ such that all partial derivatives of $f_i$ and $g_i$ of\norder not greater than $m$ at $P$ are equal.",
+  "language": "INFORMAL",
+  "phrase": "Order Of Contact",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderOfContact"
+    }
+  ],
+  "indexable": true
+}

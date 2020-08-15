@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "product log"
+  ],
+  "definition": "Lambert\u2019s $W$ function is the inverse of the function\n$f: {\\mathbbmss{C}}\\to {\\mathbbmss{C}}$ given by $f(x) := x e^x$. That\nis, $W(x)$ is the complex valued function that satisfies\n$$W(x) e^{W(x)} = x,$$ for all $x \\in {\\mathbbmss{C}}$. In practice the\ndefinition of $W(x)$ requires a branch cut, which is usually taken along\nthe negative real axis. Lambert\u2019s W function is sometimes also called\nproduct log function.\n\nThis function allow us to solve the functional equation\n$$g(x)^{g(x)}=x$$ since $$g(x)=e^{W(\\ln(x))}.$$\n\nReferences\n==========\n\nA site with good information on Lambert\u2019s W function is Corless\u2019 page",
+  "language": "INFORMAL",
+  "phrase": "Lambert W Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LambertWFunction"
+    }
+  ],
+  "indexable": true
+}

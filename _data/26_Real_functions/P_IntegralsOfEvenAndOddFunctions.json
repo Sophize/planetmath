@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let the real function $f$ be on $[-a, a]$. If $f$ is an\n\n-   even function, then\n    $\\displaystyle \\int_{-a}^a{f(x)}\\,dx \\;=\\; 2\\int_0^a f(x)\\,dx$,\n\n-   odd function, then $\\displaystyle \\int_{-a}^a f(x)\\,dx \\;=\\; 0.$\n\nOf course, both cases concern the [*zero map*]{} which is both .\\\n[*Proof.*]{} Since the definite integral is additive with respect to the\ninterval of integration, one has $$I \\;:=\\; \\int_{-a}^a f(x)\\,dx \n\\;=\\; \\int_{-a}^0 f(t)\\,dt+\\int_0^a f(x)\\,dx.$$ Making in the first\naddend the substitution $t = -x,\\; dt = -dx$ and swapping the limits of\nintegration one gets $$I \\;=\\; \\int_a^0 f(-x)(-dx)+\\int_0^a f(x)\\,dx \n\\;=\\; \\int_0^a f(-x)\\,dx+\\int_0^a f(x)\\,dx.$$ Using then the definitions\nof ($+$) and ($-$) function yields\n$$I\\;=\\; \\int_0^a\\!(\\pm f(x))\\,dx+\\!\\int_0^a\\!f(x)\\,dx \n\\;=\\; \\pm\\!\\int_0^a\\!f(x)\\,dx+\\!\\int_0^a\\!f(x)\\,dx,$$ which settles the\nequations of the theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralsOfEvenAndOddFunctions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "integrals of even and odd functions",
+    "integral of odd function",
+    "integral of even function"
+  ]
+}

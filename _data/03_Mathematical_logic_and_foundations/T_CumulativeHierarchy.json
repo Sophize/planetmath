@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "iterative hierarchy",
+    "Zermelo hierarchy"
+  ],
+  "definition": "The *cumulative hierarchy* of sets is defined by transfinite recursion\nas follows: we define $V_0=\\varnothing$ and for each ordinal $\\alpha$ we\ndefine $V_{\\alpha+1}=\\mathcal{P}(V_\\alpha)$ and for each limit ordinal\n$\\delta$ we define $V_\\delta=\\bigcup_{\\alpha\\in\\delta}V_\\alpha$.\n\nEvery set is a subset of $V_\\alpha$ for some ordinal $\\alpha$, and the\nleast such $\\alpha$ is called the *rank* of the set. It can be shown\nthat the rank of an ordinal is itself, and in general the rank of a set\n$X$ is the least ordinal greater than the rank of every element of $X$.\nFor each ordinal $\\alpha$, the set $V_\\alpha$ is the set of all sets of\nrank less than $\\alpha$, and $V_{\\alpha+1}\\setminus V_\\alpha$ is the set\nof all sets of rank $\\alpha$.\n\nNote that the previous paragraph makes use of the Axiom of Foundation:\nif this axiom fails, then there are sets that are not subsets of any\n$V_\\alpha$ and therefore have no rank. The previous paragraph also\nassumes that we are using a set theory such as ZF, in which elements of\nsets are themselves sets.\n\nEach $V_\\alpha$ is a transitive set. Note that $V_0=0$, $V_1=1$ and\n$V_2=2$, but for $\\alpha>2$ the set $V_\\alpha$ is never an ordinal,\nbecause it has the element $\\{1\\}$, which is not an ordinal.",
+  "language": "INFORMAL",
+  "phrase": "Cumulative Hierarchy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CumulativeHierarchy"
+    }
+  ],
+  "indexable": true
+}

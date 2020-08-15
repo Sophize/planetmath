@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "regular monic",
+    "regular epi",
+    "regular epic"
+  ],
+  "definition": "Let $\\mathcal{C}$ be a category. Recall that the equalizer of a pair of\nmorphisms is monomorphic. Call a monomorphism $f:A\\to B$ a *regular\nmonomorphism* if it is the equalizer of a pair of morphisms.\n\nThe dual notion of this is that of a *regular epimorphism*: a morphism\nthat is the coequalizer of a pair of morphisms. As above, a regular\nepimorphism is an epimorphism.\n\nFor example, in **Set**, the category of sets, every monomorphism\n(epimorphism) is regular.\n\nEvery split monomorphism is regular.\n\nIf the monomorphism $f:A\\to B$ is split, then there is a morphism\n$g:B\\to A$ such that\n$$\\xymatrix@1{A\\ar[r]^f & B\\ar[r]^g & A}=\\xymatrix@1{A\\ar[r]^{1_A} & A}.$$\nThen $f$ is the equalizer of $f\\circ g, 1_B:B\\to B$. First, $f$\nequalizes $f\\circ g$ and $1_B$:\n$$\\xymatrix@1{A\\ar[r]^f & B\\ar[r]^g & A\\ar[r]^f & B}=\\xymatrix@1{A\\ar[r]^{1_A} & A \\ar[r]^f & B}=\\xymatrix@1{A \\ar[r]^f & B}=\\xymatrix@1{A\\ar[r]^f & B \\ar[r]^{1_B} & B}.$$\nFurthermore, if $h:C\\to B$ also equalizes $f\\circ g$ and $1_B$:\n$$\\xymatrix@1{C\\ar[r]^h & B\\ar[r]^g & A\\ar[r]^f & B}=\\xymatrix@1{C\\ar[r]^h & B \\ar[r]^{1_B} & B},$$\nthen by defining $x: C\\to A$ by $x:=g\\circ h$, we see that\n$h=(f\\circ g)\\circ h = f\\circ x$, or $h$ factors through $f$.\nFurthermore, $x$ is uniquely determined by $g$ and $h$, showing that $f$\nis indeed the equalizer of $f\\circ g$ and $1_B$.\n\nEvery regular monomorphism is strong.\n\nSuppose $f:A\\to B$ is the equalizer of $s,t:B\\to E$, and we have the\nfollowing commutative diagram with $g$ epimorphic: $$\\xymatrix@+=3pc{\n{C}\\ar[r]^{g}\\ar[d]_{x}&{D}\\ar[d]^{y}\\\\\n{A}\\ar[r]_{f}&{B} \\ar@<0.5ex>[r]^s \\ar@<-0.5ex>[r]_t & E\n}$$ Now we do some diagram chasing. Since $s\\circ f = t\\circ f$, we have\n$s\\circ f\\circ x=t\\circ f\\circ x$. But $f\\circ x = y\\circ g$, we get\n$s\\circ y\\circ g = t\\circ y\\circ g$. Since $g$ is epimorphic,\n$s\\circ y=t\\circ y$. Since $f$ is the equalizer of $s$ and $t$, there is\na unique morphism $u:D\\to A$ such that the following triangle is\ncommutative:\n$$\\xymatrix@+=3pc{& D \\ar[d]^y \\ar@{.>}[dl]_u \\\\ A \\ar[r]_f & B}$$ As a\nresult, $f\\circ x = y\\circ g= f\\circ u \\circ g$. Since $f$ is\nmonomorphic, $x=u\\circ g$, yielding the following commutative diagram:\n$$\\xymatrix@+=3pc{\n{C}\\ar[r]^{g}\\ar[d]_{x}&{D}\\ar[d]^{y} \\ar[dl]_u \\\\\n{A}\\ar[r]_{f}&{B} \n}$$ which is the precise statement that $f$ is strong.\n\n[9]{} F. Borceux *Basic Category Theory, Handbook of Categorical Algebra\nI*, Cambridge University Press, Cambridge (1994)",
+  "language": "INFORMAL",
+  "phrase": "Regular Monomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegularMonomorphism"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V$ be a vector space over $k$ and $T$ a linear operator on $V$. An\neigenvalue for $T$ is an scalar $\\lambda$ (that is, an element of $k$)\nsuch that $T(z)=\\lambda z$ for some nonzero vector $z\\in V$. Is that\ncase, we also say that $z$ is an eigenvector of $T$.\n\nThis can also be expressed as follows: $\\lambda$ is an eigenvalue for\n$T$ if the kernel of $A-\\lambda I$ is non trivial.\n\nA linear operator can have several eigenvalues (but no more than the\ndimension of the space). Eigenvectors corresponding to different\neigenvalues are linearly independent.",
+  "language": "INFORMAL",
+  "phrase": "Eigenvalue",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Eigenvalue1"
+    }
+  ],
+  "indexable": true
+}

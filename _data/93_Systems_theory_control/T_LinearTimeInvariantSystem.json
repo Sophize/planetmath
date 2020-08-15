@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "LTI"
+  ],
+  "definition": "A *linear time invariant system* (LTI) is a linear dynamical system\n$T(p)$,\n\n$$\\begin{aligned}\n  y(k) &= T(p) \\; u(k),\\end{aligned}$$\n\nwith parameter $p$ that is time independent. $y(k)$ denotes the system\noutput and $u(k)$ denotes the input. The independent variable $k$ can be\ndenoted as time, index for a discrete sequences or differential\noperaters (e.g. such as $s$ in Laplace domain or $\\omega$ in frequency\ndomain).\n\nFor example, for a simple mass-spring-dashpot system, the system\nparameter $p$ can be selected as the mass $m$, spring constant $k$ and\ndamping coefficient $d$. The input $u$ to the said system can be chosen\nas the force applied to the mass and the output $y$ can be chosen as the\nmass\u2019s displacement.\n\nLTI system has the following properties.\n\nLinearity:\n\n:   If $y_1 = T x_1$ and $y_2 = T x_2$, then\n    $$T \\{\\alpha x_1 + \\beta x_2 \\} = \\alpha y_1 + \\beta y_2$$\n\nTime Invariance:\n\n:   If $y(k) = T x(k)$, then $$y(k+\\delta_k) = T x(k + \\delta_k)$$\n\nAssociative:\n\n:   $$T_1 \\cdot ( T_2 \\cdot T_3 ) = (T_1 \\cdot T_2) \\cdot T_3$$\n\nCommutative:\n\n:   $$T_1 \\cdot T_2 = T_2 \\cdot T_1$$\n\nA LTI system can be represented with the following:\n\n-   Transfer function of Laplace transform variable $s$, which is\n    commonly used in control systems design.\n\n-   Transfer function of Fourier transform variable $\\omega$, which is\n    commonly used in communication theory and signal processing.\n\n-   Transfer function of z-transform variable $z^{-1}$, which is\n    commonly used in digital signal processing (DSP).\n\n-   State-space equations, which is commonly used in modern control\n    theory and mechanical systems.\n\nNote that all transfer functions are LTI systems, but not all\nstate-space equations are LTI systems.",
+  "language": "INFORMAL",
+  "phrase": "Linear Time Invariant System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearTimeInvariantSystem"
+    }
+  ],
+  "indexable": true
+}

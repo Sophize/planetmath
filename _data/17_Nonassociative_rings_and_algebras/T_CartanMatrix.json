@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R\\subset E$ be a reduced root system, with $E$ a Euclidean vector\nspace, with inner product $(\\cdot,\\cdot)$, and let\n$\\Pi=\\{\\alpha_1,\\cdots,\\alpha_n\\}$ be a base of this root system. Then\nthe Cartan matrix of the root system is the matrix\n$$C_{i,j}=\\left(\\frac{2(\\alpha_i,\\alpha_j)}{(\\alpha_i,\\alpha_i)}\\right).$$\nThe Cartan matrix uniquely determines the root system, and is unique up\nto simultaneous permutation of the rows and columns. It is also the\nbasis change matrix from the basis of fundamental weights to the basis\nof simple roots in $E$.",
+  "language": "INFORMAL",
+  "phrase": "Cartan Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CartanMatrix"
+    }
+  ],
+  "indexable": true
+}

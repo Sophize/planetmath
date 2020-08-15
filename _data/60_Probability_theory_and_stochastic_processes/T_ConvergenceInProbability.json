@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "converge in probability",
+    "converges in measure",
+    "converge in measure",
+    "convergence in measure"
+  ],
+  "definition": "Let $\\lbrace X_i \\rbrace$ be a sequence of random variables defined on a\nprobability space $(\\Omega,\\mathcal{F},P)$ taking values in a separable\nmetric space $(Y,d)$, where $d$ is the metric. Then we say the sequence\n$X_i$ *converges in probability* or *converges in measure* to a random\nvariable $X$ if for every $\\varepsilon>0$,\n$$\\lim_{i\\rightarrow\\infty}P(d(X_i,X)\\geq\\varepsilon)=0.$$ We denote\nconvergence in probability of $X_i$ to $X$ by\n$$X_i\\stackrel{pr}{\\longrightarrow} X.$$ Equivalently,\n$X_i\\stackrel{pr}{\\longrightarrow} X$ iff every subsequence of\n$\\lbrace X_i\\rbrace$ contains a subsequence which converges to $X$\nalmost surely.\n\n**Remarks**.\n\n-   Unlike ordinary convergence, $X_i\\stackrel{pr}{\\longrightarrow} X$\n    and $X_i\\stackrel{pr}{\\longrightarrow} Y$ only implies that $X=Y$\n    almost surely.\n\n-   The need for separability on $Y$ is to ensure that the metric,\n    $d(X_i,X)$, is a random variable, for all random variables $X_i$ and\n    $X$.\n\n-   Convergence almost surely implies convergence in probability but not\n    conversely.\n\n[8]{} R. M. Dudley, [*Real Analysis and Probability*]{}, Cambridge\nUniversity Press (2002). W. Feller, [*An Introduction to Probability\nTheory and Its Applications. Vol. 1*]{}, Wiley, 3rd ed. (1968).",
+  "language": "INFORMAL",
+  "phrase": "Convergence In Probability",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvergenceInProbability"
+    }
+  ],
+  "indexable": true
+}

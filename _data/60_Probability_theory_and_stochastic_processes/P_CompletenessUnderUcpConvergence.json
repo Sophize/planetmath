@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(\\Omega,\\mathcal{F},(\\mathcal{F}_t)_{t\\in\\mathbb{R}_+},\\mathbb{P})$\nbe a filtered probability space. Then, under the ucp topology, various\nclasses of stochastic processes form vector spaces.\n\nFor a $\\sigma$-algebra $\\mathcal{M}$ on $\\mathbb{R}_+\\times\\Omega$, we\ncan look at the processes which are $\\mathcal{M}$-measurable when\nregarded as a map from $\\mathbb{R}_+\\times\\Omega$ to $\\mathbb{R}$. As\nthe ucp topology is only defined for jointly measurable processes, we\nrestrict attention to sub-$\\sigma$-algebras of the product\n$\\mathcal{B}(\\mathbb{R}_+)\\otimes\\mathcal{F}$.\n\n\\[measurable\\] Let $\\mathcal{M}$ be a sub-$\\sigma$-algebra of\n$\\mathcal{B}(\\mathbb{R}_+)\\otimes\\mathcal{F}$. Then, the set of\n$\\mathcal{M}$-measurable processes is complete under ucp convergence.\n\nThat is, if $X^n$ is a sequence of $\\mathcal{M}$-measurable processes\nsuch that $X^n-X^m\\xrightarrow{\\rm ucp} 0$ as $m,n\\rightarrow\\infty$\nthen $X^n\\xrightarrow{\\rm ucp} X$ for some $\\mathcal{M}$-measurable\nprocess $X$.\n\nIn particular, the spaces of jointly measurable, progressive, optional\nand predictable processes are each complete under ucp convergence. We\ncan also look at the properties of the sample paths of the processes.\n\n\\[paths\\] Let $S$ be any set of functions\n$\\mathbb{R}_+\\rightarrow\\mathbb{R}$ which is under uniform convergence\non compacts (the compact-open topology). Then, the set of jointly\nmeasurable processes whose sample paths are almost surely in $S$ is\ncomplete under ucp convergence.\n\nSo, for example, the continuous, right-continuous, left-continuous and\ncadlag processes are each complete under the ucp topology. Furthermore,\ncombining theorems \\[measurable\\] and \\[paths\\], and using the fact that\na cadlag process is adapted if and only if it is jointly measurable (see\n), the following useful result is obtained.\n\nThe space of cadlag adapted processes is complete under ucp convergence.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompletenessUnderUcpConvergence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "completeness under ucp convergence"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Conway's Game of Life"
+  ],
+  "definition": "The [*Game of Life*]{} is a cellular automaton that models a population\nof living organisms living on a two-dimensional plane subdivided into\nsquares. One cell may live in each square. John Horton Conway set down\nthe rules of the game in [*Scientific American*]{}:\n\n1.  If a cell has less than two neighbors alive in any of the eight\n    adjacent squares (those immediately above and below, left and right,\n    and those that touch corners diagonally), it dies.\n\n2.  But if it has more than three live neighbors, it also dies.\n\n3.  Having two or three neighbors, a cell lives on to the next\n    generation.\n\n4.  If an empty square has exactly three neighbors, a new cell is born\n    there.\n\nThe rules are repeatedly applied, and one of two kinds of outcomes are\npossible: the entire population could die out, or the population settles\ninto a periodic pattern that can go on infinitely.",
+  "language": "INFORMAL",
+  "phrase": "Game Of Life",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GameOfLife"
+    }
+  ],
+  "indexable": true
+}

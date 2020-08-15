@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** A field extension $L/K$ is if and only if any subring of\nthe extension field $L$ containing the base field $K$ is a field.\\\n[*Proof.*]{} Assume first that $L/K$ is algebraic. Let $R$ be a subring\nof $L$ containing $K$. For any non-zero element $r$ of $R$, naturally\n$K[r] \\subseteq R$, and since $r$ is an algebraic element over $K$, the\nring $K[r]$ coincides with the field $K(r)$. Therefore we have\n$r^{-1} \\in K[r] \\subseteq R$, and $R$ must be a field.\n\nAssume then that each subring of $L$ which contains $K$ is a field. Let\n$a$ be any non-zero element of $L$. Accordingly, the subring $K[a]$ of\n$L$ contains $K$ and is a field. So we have $a^{-1} \\in K[a]$. This\nmeans that there is a polynomial $f(x)$ in the polynomial ring $K[x]$\nsuch that $a^{-1} = f(a)$. Because $af(a)-1 = 0$, the element $a$ is a\nzero of the polynomial $xf(x)-1$ of $K[x]$, i.e. is algebraic over $K$.\nThus every element of $L$ is algebraic over $K$.\n\n[9]{} : [*A first course in rings and ideals*]{}. Addison-Wesley\nPublishing Company. Reading, Menlo Park, London, Don Mills (1970).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AConditionOfAlgebraicExtension"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a condition of algebraic extension"
+  ]
+}

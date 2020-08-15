@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $f:M\\rightarrow M$ be a transformation and $\\mu$ a finite invariant\nmeasure for $f$. Let $E$ be a subset of $M$ with positive measure. We\ndefine the first return map for $E$:\n$$\\rho_E(x)=\\min \\{ n \\geq 1: f^n(x)\\in E \\}$$ If the set on the right\nis empty, then we define $\\rho_E(x)=\\infty$. The Poincar\u00e9 recurrence\ntheorem asserts that $\\rho_E$ is finite for almost every $x \\in R$. We\ndefine the following sets:\n$$E_0 = \\{ x \\in E: f^n(x) \\notin E, n\\geq 1 \\}$$\n$$E_0^*= \\{ x \\in M: f^n(x) \\notin E, n \\geq 0 \\}$$ By Poincar\u00e9\nrecurrence theorem, $\\mu(E_0)=0$. Kac\u2019s theorem asserts that the\nfunction $\\rho_E$ is integrable and\n$$\\int_E \\rho_E d\\mu= \\mu(M)-\\mu(E_0^*)$$ When the system is ergodic,\nthen $\\mu(E_0^*)=0$, and Kac\u2019s theorem implies:\n$$\\frac{1}{\\mu(E)}\\int_E \\rho_E d\\mu = \\frac{\\mu(M)}{\\mu(E)}$$ This\nequality can be interpreted as: the mean return time to $E$ s inversely\nproportional to the measure of $E$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KacsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kac's theorem"
+  ]
+}

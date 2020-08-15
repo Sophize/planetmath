@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "axioms of order"
+  ],
+  "definition": "Definition\n==========\n\nLet $A$ be a set. A ternary relation $B$ on $A$ is said to be a\n*betweenness relation* if it has the following properties:\n\n1.  if $(a,b,c)\\in B$, then $(c,b,a)\\in B$; in other words, the set\n    $$B(b)=\n    \\lbrace (a,c)\\mid (a,b,c)\\in B\\rbrace$$ is a for *each* $b$; thus,\n    from now on, we may say, without any ambiguity, that $b$ is\n    *between* $a$ and $c$ if $(a,b,c)\\in B$;\n\n2.  if $(a,b,a)\\in B$, then $a=b$;\n\n3.  for each $a,b\\in A$, there is a $c\\in A$ such that $(a,b,c)\\in B$;\n\n4.  for each $a,b\\in A$, there is a $c\\in A$ such that $(a,c,b)\\in B$;\n\n5.  if $(a,b,c)\\in B$ and $(b,a,c)\\in B$, then $a=b$;\n\n6.  if $(a,b,c)\\in B$ and $(b,c,d)\\in B$, then $(a,b,d)\\in B$;\n\n7.  if $(a,b,d)\\in B$ and $(b,c,d)\\in B$, then $(a,b,c)\\in B$.",
+  "language": "INFORMAL",
+  "phrase": "Betweenness Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BetweennessRelation"
+    }
+  ],
+  "indexable": true
+}

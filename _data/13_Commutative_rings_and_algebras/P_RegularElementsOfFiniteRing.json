@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If the finite ring $R$ has regular elements, then it has a unity. All\nregular elements of $R$ form a group under the ring multiplication and\nwith identity element the unity of $R$. Thus the regular elements are\nexactly the units of the ring; the rest of the elements are the zero and\nthe zero divisors.\n\n[*Proof.*]{} Obviously, the set of the regular elements is non-empty and\nclosed under the multiplication. Let\u2019s think the multiplication table of\nthis set. It is a finite distinct elements (any equation $ax = ay$\nreduces to $x = y$). Hence, for every regular element $a$, the square\n$a^2$ determines another $a'$ such that $a^2a' = a$. This implies\n$a'(a^2a')(aa') = a'a(aa')$, i.e. $(a'a)(aa')^2 = (a'a)(aa')$, and since\n$a'a$ is , we obtain that $(aa')^2 = aa'$. So $aa'$ is idempotent, and\nbecause it also is , it must be the : $aa' = 1$. Thus we see that $R$\nhas a unity which is a regular element and that $a$ has a multiplicative\ninverse $a'$, also regular. Consequently the regular elements form a\ngroup.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegularElementsOfFiniteRing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "regular elements of finite ring"
+  ]
+}

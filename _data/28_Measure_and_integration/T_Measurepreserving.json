@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "measure preserving",
+    "measure-preserving transformation",
+    "measure-preserving map"
+  ],
+  "definition": "Definition\n==========\n\n[**Definition -**]{} Let $(X_1, \\mathfrak{B}_1, \\mu_1)$ and\n$(X_2, \\mathfrak{B}_2, \\mu_2)$ be measure spaces, and $T:X_1 \\to X_2$ be\na measurable transformation. The transformation $T$ is said to be\n*measure-preserving* if for all $A \\in \\mathfrak{B}_2$ we have that\n\n$$\\mu_1(T^{-1}(A)) = \\mu_2(A),$$\n\nwhere $T^{-1}(A)$ is, as usual, the set of points $x\\in X_1$ such that\n$T(x)\\in A$.\n\n[**Additional Notation:**]{}\n\n-   If $T$ is bijective, measure-preserving, and its inverse $T^{-1}$ is\n    also measure-preserving, then $T$ is said to be an **\n    measure-preserving transformation.\n\n<!-- -->\n\n-   Measure-preserving transformations between the same measure space\n    are sometimes called ** of the measure space.\n\n[**Remarks:**]{}\n\n-   The fact that a map $T:X_1 \\longrightarrow X_2$ is\n    measure-preserving depends heavily on the sigma-algebras\n    $\\mathfrak{B}_i$ and measures $\\mu_i$ involved. If other measures or\n    sigma-algebras are also in consideration, one should make clear to\n    which measure space is $T:X_1 \\longrightarrow X_2$\n    measure-preserving.\n\n<!-- -->\n\n-   Measure-preserving maps are the morphisms on the category whose\n    objects are measure spaces. This should be clear from the next\n    results and examples.\n\nProperties\n==========\n\n-   The composition of measure-preserving maps is again\n    measure-preserving. Of course, we are supposing that the domains and\n    codomains of the maps are such that the composition is possible.\n\n<!-- -->\n\n-   Let $(X_1, \\mathfrak{B}_1, \\mu_1)$ and\n    $(X_2, \\mathfrak{B}_2, \\mu_2)$ be measure spaces and\n    $(X_1, \\overline{\\mathfrak{B}_1}, \\overline{\\mu_1})$ and\n    $(X_2, \\overline{\\mathfrak{B}_2}, \\overline{\\mu_2})$ their\n    completions. If\n    $T:(X_1, \\mathfrak{B}_1, \\mu_1) \\longrightarrow (X_2, \\mathfrak{B}_2, \\mu_2)$\n    is measure-preserving, then so is\n    $T:(X_1, \\overline{\\mathfrak{B}_1}, \\overline{\\mu_1}) \\longrightarrow (X_2, \\overline{\\mathfrak{B}_2}, \\overline{\\mu_2})$.\n\n<!-- -->\n\n-   Let $(X_1, \\mathfrak{B}_1, \\mu_1)$ and\n    $(X_2, \\mathfrak{B}_2, \\mu_2)$ be measure spaces and\n    $T_1:X_1 \\longrightarrow X_1$, $T_2:X_2 \\longrightarrow X_2$ be\n    measure-preserving maps. Then, the product map\n    $T_1 \\times T_2 : X_1 \\times X_2 \\longrightarrow X_1 \\times X_2$,\n    defined by $$\\begin{aligned}\n    T_1 \\times T_2 \\;(x_1, x_2) := (T_1(x_1), T_2(x_2))\\end{aligned}$$\n    is a measure-preserving transformation of\n    $(T_1 \\times T_2, \\mathfrak{B}_1 \\times \\mathfrak{B}_1, \\mu_1 \\times \\mu_2)$.\n\nExamples\n========\n\n-   The identity map of a measure space $(X, \\mathfrak{B}, \\mu)$ is\n    always measure-preserving.\n\n<!-- -->\n\n-   Let $G$ be a locally compact . For each $a \\in G$, the\n    transformation $T(g):=ag$ is measure-preserving relatively to any\n    left Haar measure. Similarly, any right translation on $G$ any right\n    Haar measure.\n\n<!-- -->\n\n-   Every continuous surjective homomorphism between compact Hausdorff\n    is measure-preserving relatively to the normalized Haar measure (see\n    ).",
+  "language": "INFORMAL",
+  "phrase": "Measure-Preserving",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Measurepreserving"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{}. Given an integer $n > 1$, if\n$(n - 1)! \\equiv -1 \\mod n$ then $n$ is prime.\n\nTo prove the converse of Wilson\u2019s theorem it is enough to show that a\ncomposite number can\u2019t satisfy the congruence. A number that does\nsatisfy the congruence, then, would be not composite, and therefore\nprime.\n\nIf $n$ is composite, then its greatest prime factor is at most\n$\\displaystyle \\frac{n}{2}$, and $\\displaystyle \\frac{n}{2} < (n - 1)$\nas long as $n > 2$ (and the smallest positive composite number is 4).\nTherefore, $(n - 1)!$ being the product of the numbers from 1 to $n - 1$\nincludes among its divisors the greatest prime factor of $n$, and indeed\nall its proper divisors. In fact, for composite $n > 4$, it is the case\nthat $(n - 1)!$ not only has all the same proper divisors of $n$ as a\nsubset of its own proper divisors, but has them with greater\nmultiplicity than $n$ does. For the special case of $n = 4$, the\ncongruence $(n - 1)! \\equiv 2 \\mod n$ is satisfied. For all larger\ncomposite $n$, the congruence $(n - 1)! \\equiv 0 \\mod n$ is satisfied\ninstead of the congruence stated in the theorem.\n\nThe special case of $n = 4$ deserves further special attention, as it is\nan exception which proves the rule. With any other semiprime $n = pq$,\nwith either $p$ or $q$ being a prime greater than 2, the product\n$(n - 1)!$ contains, in addition to $p$ and $q$, both $(p - 1)q$ and\n$p(q - 1)$ (which are distinct numbers if $p \\neq q$). So if $p$ and $q$\nare distinct, then $(n - 1)!$ has both prime factors $p$ and $q$ with a\nmultiplicity of at least 2, which is greater than the multiplicity of 1\nin the semiprime $pq$. But with 4, the numbers $(p - 1)q$ and $p(q - 1)$\nare both 2, and so 3! includes 2 as a factor with only a multiplicity of\n1, which is less than that factor\u2019s multiplicity in 4.\n\n[1]{} Thomas Kochy, \u201dElementary Number Theory with Applications\u201d, 2nd\nEdition. London: Elsevier (2007): 324 - 325",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConverseOfWilsonsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "converse of Wilson's theorem"
+  ]
+}

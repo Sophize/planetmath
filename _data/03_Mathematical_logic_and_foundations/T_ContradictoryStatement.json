@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "contradiction"
+  ],
+  "definition": "A contradictory statement is a statement (or form) which is false due to\nits logical form rather than because of the meaning of the terms\nemployed.\n\nIn propositional logic, a [*contradictory statement*]{}, a.k.a.\n[*contradiction*]{}, is a statement which is false regardless of the\ntruth values of the substatements which form it. According to G. Peano,\none may generally denote a contradiction with the symbol $\\curlywedge$.\n\nFor a simple example, the statement $P\\!\\wedge\\!\\lnot P$ is a\ncontradiction for any statement $P$.\n\nThe negation $\\lnot Q$ of every contradiction $Q$ is a tautology, and\nvice versa:\n$$\\lnot\\curlywedge = \\curlyvee, \\;\\;\\; \\lnot\\curlyvee = \\curlywedge$$\n\nTo test a given statement or form to see if it is a contradiction, one\nmay construct its truth table. If it turns out that every value of the\nlast column is \u201cF\u201d, then the statement is a contradiction.\n\nCf. the entry \u201c\u201d.",
+  "language": "INFORMAL",
+  "phrase": "Contradictory Statement",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContradictoryStatement"
+    }
+  ],
+  "indexable": true
+}

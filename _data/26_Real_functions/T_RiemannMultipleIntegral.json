@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "We are going to extend the concept of Riemann integral to functions of\nseveral variables.\n\nLet $f\\colon\\mathbb R^n \\to\\mathbb R$ be a bounded function with compact\nsupport. Recalling the definitions of polyrectangle and the definitions\nof upper and lower Riemann sums on polyrectangles, we define\n$$S^*(f) := \\inf\\{ S^*(f,P) \\colon \\text{$P$ is a polyrectangle, $f(x)=0$ for every $x\\in\\mathbb R^n\\setminus \\cup P$}\\},$$\n$$S_*(f) := \\sup\\{ S_*(f,P) \\colon \\text{$P$ is a polyrectangle, $f(x)=0$ for every $x\\in\\mathbb R^n\\setminus \\cup P$}\\}.$$\nIf $S^*(f)=S_*(f)$ we say that $f$ is *Riemann-integrable* on\n$\\mathbb R^n$ and we define the Riemann integral of $f$:\n$$\\int f(x)\\, dx := S^*(f) = S_*(f).$$\n\nClearly one has $S^*(f,P)\\ge S_*(f,P)$. Also one has\n$S^*(f,P)\\ge S_*(f,P')$ when $P$ and $P'$ are any two polyrectangles\ncontaining the support of $f$. In fact one can always find a common\nrefinement $P''$ of both $P$ and $P'$ so that\n$S^*(f,P)\\ge S^*(f,P'')\\ge S_*(f,P'')\\ge S_*(f,P')$. So, to prove that a\nfunction is Riemann-integrable it is enough to prove that for every\n$\\epsilon>0$ there exists a polyrectangle $P$ such that\n$S^*(f,P)-S_*(f,P)<\\epsilon$.\n\nNext we are going to define the integral on more general domains. As a\nbyproduct we also define the measure of sets in $\\mathbb R^n$.\n\nLet $D\\subset \\mathbb R^n$ be a bounded set. We say that $D$ is *Riemann\nmeasurable* if the characteristic function\n$$\\chi_D(x):=\\begin{cases} 1 &\\text{if $x\\in D$}\\\\\n0 &\\text{otherwise}\\end{cases}$$ is Riemann measurable on\n${\\mathbb R}^n$ (as defined above). Moreover we define the *Peano-Jordan\nmeasure* of $D$ as $$\\mathbf{meas}(D) := \\int \\chi_D(x)\\, dx.$$ When\n$n=3$ the Peano Jordan measure of $D$ is called the *volume* of $D$, and\nwhen $n=2$ the Peano Jordan measure of $D$ is called the *area* of $D$.\n\nLet now $D\\subset \\mathbb R^n$ be a Riemann measurable set and let\n$f\\colon D\\to \\mathbb R$ be a bounded function. We say that $f$ is\n*Riemann measurable* if the function\n$\\bar f\\colon\\mathbb R^n\\to\\mathbb R$\n$$\\bar f(x) :=\\begin{cases} f(x)&\\text{if $x\\in D$}\\\\\n0&\\text{otherwise}\n\\end{cases}$$ is Riemann integrable as defined before. In this case we\ndenote with $$\\int_D f(x)\\, dx := \\int \\bar f(x)\\, dx$$ the *Riemann\nintegral* of $f$ on $D$.",
+  "language": "INFORMAL",
+  "phrase": "Riemann Multiple Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RiemannMultipleIntegral"
+    }
+  ],
+  "indexable": true
+}

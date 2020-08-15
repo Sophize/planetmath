@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "index"
+  ],
+  "definition": "Let $p$ be a prime. We know that the group\n$G:=(\\mathbb{Z}/p\\mathbb{Z})^*$ is cyclic. Let $g$ be a primitive root\nof $G$, i.e. $G=\\{1,g,g^2,\\dots,g^{p-2}\\}$. For a number $x\\in G$ we\nwant to know the unique number $0\\leq n\\leq p-2$ with $$x=g^n.$$ This\nnumber $n$ is called the *discrete logarithm* or *index* of $x$ to the\nbasis $g$ and is denoted as $\\operatorname{ind}_g(x)$. For $x,y\\in G$ it\nsatisfies the following properties: $$\\begin{aligned}\n\\operatorname{ind}_g(xy)&=\\operatorname{ind}_g(x)+\\operatorname{ind}_g(y);\\\\\n\\operatorname{ind}_g(x^{-1})&=-\\operatorname{ind}_g(x);\\\\\n\\operatorname{ind}_g(x^k)&=k\\cdot\\operatorname{ind}_g(x).\\end{aligned}$$\nFurthermore, for a pair $g,h$ of distinct primitive roots, we also have,\nfor any $x\\in G$: $$\\begin{aligned}\n\\operatorname{ind}_h(x)&=\\operatorname{ind}_h(g)\\cdot \\operatorname{ind}_g(x);\\\\\n1 &=\\operatorname{ind}_g(h)\\cdot \\operatorname{ind}_h(g);\\\\\n\\operatorname{ind}_g(-1)&=\\frac{p-1}{2}.\\end{aligned}$$ It is a\ndifficult problem to compute the discrete logarithm, while powering is\nvery easy. Therefore this is of some interest to cryptography.",
+  "language": "INFORMAL",
+  "phrase": "Discrete Logarithm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiscreteLogarithm"
+    }
+  ],
+  "indexable": true
+}

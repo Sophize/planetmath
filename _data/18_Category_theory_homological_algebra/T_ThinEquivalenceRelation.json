@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "homotopy equivalence"
+  ],
+  "definition": "Thin equivalence relation\n=========================\n\nLet $ a,a' : x \\simeq y $ be paths in $ X $. Then $ a$ is *thinly\nequivalent* to $ a' $, denoted $ a \\sim_{T} a' $, if there is a thin\nrelative homotopy between $ a $ and $ a' $.\n\nWe note that $ \\sim_{T} $ is an equivalence relation, see [@BHKP]. We\nuse $ \\langle a \\rangle : x \\simeq y $ to denote the $ \\sim_{T} $ class\nof a path $ a: x \\simeq y $ and call $\n\\langle a \\rangle $ the [*semitrack*]{} of $ a $. The groupoid structure\nof $ \\boldsymbol{\\rho}^\\square_1 (X) $ is induced by concatenation, +,\nof paths. Here one makes use of the fact that if $ a: x \\simeq\nx', \\ a' : x' \\simeq x'', \\ a'' : x'' \\simeq x''' $ are paths then there\nare canonical thin relative homotopies $$\\begin{array}{r}\n(a+a') + a'' \\simeq a+ (a' +a'') : x \\simeq x''' \\ ({\\it rescale}) \\\\\na+e_{x'} \\simeq a:x \\simeq x' ; \\ e_{x} + a \\simeq a: x \\simeq x' \\\n({\\it dilation}) \\\\\na+(-a) \\simeq e_{x} : x \\simeq x \\ ({\\it cancellation}).\n\\end{array}$$\n\nThe source and target maps of $\\boldsymbol{\\rho}^\\square_1 (X)$ are\ngiven by $$\\partial^{-}_{1} \\langle a\\rangle =x,\\enskip \\partial^{+}_{1}\n\\langle a\\rangle =y,$$ if $\\langle a\\rangle :x\\simeq y$ is a semitrack.\nIdentities and inverses are given by\n$$\\varepsilon (x)=\\langle e_x\\rangle  \\quad \\mathrm{ resp.} -\\langle a\\rangle\n=\\langle -a \\rangle.$$\n\n[9]{}\n\nK.A. Hardie, K.H. Kamps and R.W. Kieboom, A homotopy 2-groupoid of a\nHausdorff space, *Applied Cat. Structures*, **8** (2000): 209-234.\n\nR. Brown, K.A. Hardie, K.H. Kamps and T. Porter, A homotopy double\ngroupoid of a Hausdorff space, [*Theory and Applications of\nCategories*]{} **10**,(2002): 71-93.",
+  "language": "INFORMAL",
+  "phrase": "Thin Equivalence Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThinEquivalenceRelation"
+    }
+  ],
+  "indexable": true
+}

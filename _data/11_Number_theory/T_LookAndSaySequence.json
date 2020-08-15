@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*look and say sequence*]{} $a$ for a given integer $n$ in base $b$\nconsists of each $a_i$ being the run-length encoding of the digits of\n$a_{i - 1}$ for $i > 0$, with $a_0 = n$.\n\nFor example, with $n = 7777$ and $b = 10$, the number consists of four\n7s, so its run-length encoding is 47 and $a_1 = 47$. Then in turn, 47 is\none 4 and one 7, so $a_2 = 1417$. The sequence continues 11141117,\n31143117, 132114132117, etc.\n\nJohn Horton Conway has thoroughly studied look and say sequences in base\n10 starting with values containing only 1s, 2s and 3s and no more than\nthree consecutive repetitions of any digit. With the exception of 22\n(two 2s), all other such starting values eventually \u201cdecay\u201d to one of 92\n\u201catoms\u201d which Conway has named after the elements of the periodic table\nup to uranium. The whole concept he has termed with the awful pun\n\u201caudioactive decay.\u201d\n\nThe base 10 look and say sequences starting with 1, 2 and 3 are given in\nA005150, A006751 and A006715 respectively in Sloane\u2019s OEIS.\n\n[1]{} Steven R. Finch, [*Mathematical Constants*]{}. Cambridge:\nCambridge University Press (2003): 452 - 455",
+  "language": "INFORMAL",
+  "phrase": "Look And Say Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LookAndSaySequence"
+    }
+  ],
+  "indexable": true
+}

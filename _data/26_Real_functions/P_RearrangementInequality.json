@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $x_1,x_2,\\ldots,x_n$ and $y_1,y_2,\\ldots,y_n$ two sequences of\npositive real numbers. Then the sum $$x_1y_1+x_2y_2+\\cdots+x_ny_n$$ is\nmaximized when the two sequences are ordered in the same way (i.e.\n$x_1\\le x_2\\le \\cdots \\le x_n$ and $y_1\\le y_2\\le\\cdots\\le y_n$) and is\nminimized when the two sequences are ordered in the opposite way (i.e.\n$x_1\\le x_2\\le \\cdots \\le x_n$ and $y_1\\ge y_2\\ge\\cdots\\ge y_n$).\n\nThis can be seen intuitively as: If $x_1,x_2,\\ldots,x_n$ are the prices\nof $n$ kinds of items, and $y_1,y_2,\\ldots,y_n$ the number of units sold\nof each, then the highest profit is when you sell more items with high\nprices and fewer items with low prices (same ordering), and the lowest\nprofit happens when you sell more items with lower prices and less items\nwith high prices (opposite orders).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RearrangementInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "rearrangement inequality"
+  ]
+}

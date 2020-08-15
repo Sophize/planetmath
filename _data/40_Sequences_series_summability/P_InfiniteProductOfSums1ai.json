@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Lemma.** Let the numbers $a_i$ be nonnegative reals. The infinite\nproduct $$\\begin{aligned}\n\\prod_{i=1}^\\infty(1\\!+\\!a_i) \\,=\\, (1\\!+\\!a_1)(1\\!+\\!a_2)(1\\!+\\!a_3)\\cdots\\end{aligned}$$\nconverges iff the series $a_1\\!+\\!a_2\\!+\\!a_3\\!+\\ldots$ is convergent.\\\n[*Proof.*]{} Denote\n$$\\sum_{i=1}^na_n \\;:=\\; s_n, \\quad \\prod_{i=1}^n(1\\!+\\!a_i) \\;:=\\; t_n \\qquad (n = 1,\\,2,\\,\\ldots).$$\nNow\n$\\displaystyle 1\\!+\\!a_i \\,\\leqq\\, 1\\!+\\!\\frac{a_i}{1!}\\!+\\!\\frac{a_i^2}{2!}\\!+\\ldots \\;=\\; e^{a_i}$,\nwhence $$\\begin{aligned}\nt_n \\;\\leqq\\; \\prod_{i=1}^ne^{a_i} \\;=\\; e^{s_n}.\\end{aligned}$$ We can\nestimate also downwards: $$\\begin{aligned}\nt_n \\;=\\; (1\\!+\\!a_1)(1\\!+\\!a_2)\\cdots(1\\!+\\!a_n) \\;=\\; \n1\\!+\\!\\sum_{i=1}^na_i\\!+\\ldots+\\!a_1a_2\\cdots a_n \\;>\\; \\sum_{i=1}^na_i \\;=\\; s_n\\end{aligned}$$\nIf the series is convergent with sum $S$, then by (2),\n$$t_n \\;\\leqq\\; e^{s_n} \\;\\leqq\\; e^S,$$ and since the monotonically\nnondecreasing sequence $\\langle t_1,\\,t_2,\\,t_3,\\,\\ldots\\rangle$ thus is\nbounded from above, it converges (cf. limit of nondecreasing sequence).\nSo (1) converges.\\\nIf, on the other hand, the series is divergent, then\n$\\displaystyle\\lim_{n\\to\\infty}s_n = \\infty$ and by (3), also\n$\\displaystyle\\lim_{n\\to\\infty}t_n = \\infty$, i.e. the (1) diverges.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InfiniteProductOfSums1ai"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "infinite product of sums $1\\!+\\!a_i$"
+  ]
+}

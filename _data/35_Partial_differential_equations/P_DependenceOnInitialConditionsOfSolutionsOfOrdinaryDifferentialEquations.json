@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $E\\subset W$ where $W$ is a normed vector space, $f\\in C^1(E)$ is a\ncontinuous differentiable map $f: E \\to W$. Furthermore consider the\nordinary differential equation $$\\dot{x} = f(x)$$ with the initial\ncondition\n\n$x(0) = x_0$.\n\nLet $x(t)$ be the solution of the above initial value problem defined as\n$$x:I \\to E$$ where $I = [-a,a]$. Then there exist $\\delta >0$ such that\nfor all $y_0 \\in N_\\delta (x_0)$*($y_0$ in the $\\delta$ neighborhood of\n$x_0$)* has a unique solution $y(t)$ to the initial value problem above\nexcept for the initial value changed to $x(0)=y_0$. In addition $y(t)$\nis twice continouously differentialble function of $t$ over the interval\n$I$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DependenceOnInitialConditionsOfSolutionsOfOrdinaryDifferentialEquations"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "dependence on initial conditions of solutions of ordinary differential equations"
+  ]
+}

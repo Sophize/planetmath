@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "mean squared error"
+  ],
+  "definition": "If $f$ is a Riemann integrable real function on the interval $[a,\\,b]$\nwhich is wished to be approximated by another function $\\varphi$ with\nthe same property, then the\n$$m \\;=\\; \\frac{1}{b\\!-\\!a}\\int_a^b[f(x)\\!-\\!\\varphi(x)]^2\\,dx$$ is\ncalled the [*mean square deviation*]{} of $\\varphi$ from $f$.\n\nFor example, if $\\sin{x}$ is approximated by $x$ on\n$[0,\\,\\frac{\\pi}{2}]$, the mean square deviation is\n$$\\frac{2}{\\pi}\\int_0^{\\frac{\\pi}{2}}(\\sin{x}-x)^2\\,dx \\,\\approx\\, 0.04923.$$",
+  "language": "INFORMAL",
+  "phrase": "Mean Square Deviation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeanSquareDeviation"
+    }
+  ],
+  "indexable": true
+}

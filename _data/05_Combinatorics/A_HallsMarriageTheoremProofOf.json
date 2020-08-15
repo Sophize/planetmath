@@ -1,0 +1,17 @@
+{
+  "argumentText": "We prove Hall\u2019s marriage theorem by induction on ${\\left|S\\right|}$, the\nsize of $S$.\n\nThe theorem is trivially true for $|S|=0$.\n\nAssuming the theorem true for all ${\\left|S\\right|}<n$, we prove it for\n${\\left|S\\right|}=n$.\n\nFirst suppose that we have the stronger condition\n$${\\left|\\cup T\\right|} \\ge {\\left|T\\right|}+1$$ for all\n$\\emptyset \\ne T \\subset S$. Pick any $x\\in S_n$ as the representative\nof $S_n$; we must choose an SDR from\n$$S' = \\left\\{{S_1\\setminus\\{x\\}},\\ldots,{S_{n-1}\\setminus\\{x\\}}\\right\\}.$$\nBut if\n$$\\{{S_{j_1}\\setminus\\{x\\}},...,{S_{j_k}\\setminus\\{x\\}}\\} = T'\\subseteq S'$$\nthen, by our assumption,\n$${\\left|\\cup T'\\right|} \\ge {\\left|\\cup_{i=1}^{k} S_{j_i}\\right|}-1 \\ge k.$$\nBy the already-proven case of the theorem for $S'$ we see that we can\nindeed pick an SDR for $S'$.\n\nOtherwise, for some $\\emptyset\\ne T \\subset S$ we have the \u201cexact\u201d size\n$${\\left|\\cup T\\right|}={\\left|T\\right|}.$$ Inside $T$ itself, for any\n$T'\\subseteq T\\subset S$ we have\n$${\\left|\\cup T'\\right|}\\ge{\\left|T'\\right|},$$ so by an already-proven\ncase of the theorem we can pick an SDR for $T$.\n\nIt remains to pick an SDR for $S\\setminus T$ which avoids all elements\nof $\\cup T$ (these elements are in the SDR for $T$). To use the\nalready-proven case of the theorem (again) and do this, we must show\nthat for any $T'\\subseteq S\\setminus T$, even after discarding elements\nof $\\cup T$ there remain enough elements in $\\cup T'$: we must prove\n$${\\left|\\cup T' \\setminus \\cup T\\right|} \\ge {\\left|T'\\right|}.$$\n\nBut $$\\begin{aligned}\n{\\left|\\cup T' \\setminus \\cup T\\right|} &= {\\left|\\bigcup(T\\cup T')\\right|} -\n{\\left|\\cup T\\right|} \\ge\\\\\n&\\ge {\\left|T\\cup T'\\right|} - {\\left|T\\right|} =\\\\\n&= {\\left|T\\right|} + {\\left|T'\\right|} - {\\left|T\\right|} = {\\left|T'\\right|},\\end{aligned}$$\nusing the disjointness of $T$ and $T'$. So by an already-proven case of\nthe theorem, $S\\setminus T$ does indeed have an SDR which avoids all\nelements of $\\cup T$.\n\nThis the proof.",
+  "conclusion": "#P_HallsMarriageTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HallsMarriageTheoremProofOf"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "Hall's marriage theorem, proof of"
+  ]
+}

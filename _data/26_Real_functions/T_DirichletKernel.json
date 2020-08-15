@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *Dirichlet* $D_n$ of order $n$ is defined as\n$$D_n(t)=\\sum_{k=-n}^ne^{ikt}.$$ It can be represented as\n$$D_n(t)=\\frac{\\sin\\left(n+\\frac{1}{2}\\right)t}{\\sin\\frac{t}{2}}.$$\n**Proof:** It is $$\\begin{aligned}\n\\sum_{k=-n}^ne^{ikt}&= e^{-int}\\frac{1-e^{i(2n+1)t}}{1-e^{it}}\\\\\n&=\\frac{e^{i\\left(n+\\frac{1}{2}\\right)t}-e^{-i\\left(n+\\frac{1}{2}\\right)t}} {e^{i\\frac{t}{2}}-e^{-i\\frac{t}{2}}}\\\\\n&=\\frac{\\sin\\left(n+\\frac{1}{2}\\right)t}{\\sin\\frac{t}{2}}.\\qquad\\qquad\\Box\\end{aligned}$$\nThe Dirichlet kernel arises in the analysis of periodic functions\nbecause for any function $f$ of period $2\\pi$, the convolution of $D_N$\nand $f$ results in the Fourier-series approximation of order $n$:\n$$(D_N*f)(x)=\\frac{1}{2\\pi}\\int_{-\\pi}^\\pi f(y)D_n(x-y)dy=\\sum_{k=-n}^n\\hat{f}(k)e^{ikx}.$$",
+  "language": "INFORMAL",
+  "phrase": "Dirichlet Kernel",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirichletKernel"
+    }
+  ],
+  "indexable": true
+}

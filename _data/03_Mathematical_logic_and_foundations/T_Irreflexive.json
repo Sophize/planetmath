@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "antireflexive"
+  ],
+  "definition": "A binary relation $\\mathcal{R}$ on a set $A$ is said to be *irreflexive*\n(or *antireflexive*) if $\\forall a\\in A$, $\\neg a\\mathcal{R} a$. In\nother words, \u201cno element is $\\mathcal{R}$-related to itself.\"\n\nFor example, the relation $<$ (\u201cless than\") is an irreflexive relation\non the set of natural numbers.\n\nNote that \u201cirreflexive\" is not simply the negation of \u201c .\" Although it\nis impossible for a relation (on a nonempty set) to be both and\nirreflexive, there exist relations that are neither. For example, the\nrelation $\\{(a,a)\\}$ on the two element set $\\{a,b\\}$ is neither\nreflexive nor irreflexive.\n\nHere is an example of a non-reflexive, non-irreflexive relation \u201cin\nnature.\" A subgroup in a group is said to be *self-normalizing* if it is\nequal to its own normalizer. For a group $G$, define a relation\n$\\mathcal{R}$ on the set of all subgroups of $G$ by declaring\n$H\\mathcal{R}K$ if and only if $H$ is the normalizer of $K$. Notice that\nevery nontrivial group has a subgroup that is not self-normalizing;\nnamely, the trivial subgroup $\\{e\\}$ consisting of only the identity.\nThus, in any nontrivial group $G$, there is a subgroup $H$ of $G$ such\nthat $\\neg H\\mathcal{R} H$. So the relation $\\mathcal{R}$ is\nnon-reflexive. Moreover, since the normalizer of a group $G$ in $G$ is\n$G$ itself, we have $G\\mathcal{R} G$. So $\\mathcal{R}$ is\nnon-irreflexive.",
+  "language": "INFORMAL",
+  "phrase": "Irreflexive",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Irreflexive"
+    }
+  ],
+  "indexable": true
+}

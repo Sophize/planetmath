@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "well defined"
+  ],
+  "definition": "A mathematical concept is *well-defined* (German [*wohldefiniert*]{},\nFrench [*bien d\u00e9fini*]{}), if its contents is on the form or the\nalternative representative which is used for defining it.\n\nFor example, in defining the $x^r$ with $x$ a positive real and $r$ a\nrational number, we can freely choose the fraction form $\\frac{m}{n}$\n($m\\in\\mathbb{Z}$, $n\\in\\mathbb{Z}_+$) of $r$ and take\n$$x^r \\;:=\\; \\sqrt[n]{x^m}$$ and be sure that the value of $x^r$ does\nnot depend on that choice (this is justified in the entry fraction\npower). So, the $x^r$ is well-defined.\n\nIn many instances well-defined is a synonym for the formal definition of\na function between sets. For example, the function $f(x) := x^2$ is a\nwell-defined function from the real numbers to the real numbers because\nevery input, $x$, is assigned to precisely one output, $x^2$. However,\n$f(x) := \\pm\\sqrt{x}$ is not well-defined in that one input $x$ can be\nassigned any one of two possible outputs, $\\sqrt{x}$ or $-\\sqrt{x}$.\n\nMore subtle examples include expressions such as\n$$f\\!\\left(\\frac{a}{b}\\right) \\;:=\\; a\\!+\\!b,\\quad \\frac{a}{b}\\in\\mathbb{Q}.$$\nCertainly every input has an output, for instance, $f(1/2) = 3$.\nHowever, the expression is *not* well-defined since $1/2 = 2/4$ yet\n$f(1/2) = 3$ while $f(2/4) = 6$ and $3 \\neq 6$.\n\nOne must question whether a function is well-defined whenever it is\ndefined on a domain of equivalence classes in such a manner that each\noutput is determined for a representative of each equivalence class. For\nexample, the function $f(a/b) := a\\!+\\!b$ was defined using the\nrepresentative $a/b$ of the equivalence class of fractions equivalent to\n$a/b$.",
+  "language": "INFORMAL",
+  "phrase": "Well-Defined",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Welldefined"
+    }
+  ],
+  "indexable": true
+}

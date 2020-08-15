@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[*Bitwise AND*]{} is a bit-level operation on two binary values which\nindicates which bits are set in both values. For each position $i$, if\nand only if the bit $d_i$ in both values is 1, then $d_i$ of the result\nis also 1, othewise, it\u2019s 0. For example, given 50 and 163 in two\nunsigned bytes, a bitwise AND returns 34.\n\n  ----- --- --- --- --- --- --- --- ---\n         0   0   1   1   0   0   1   0\n    AND  1   0   1   0   0   0   1   1\n      =  0   0   1   0   0   0   1   0\n  ----- --- --- --- --- --- --- --- ---\n\nIn most high-level programming languages that offer bitwise AND, the\nusual operator is a single ampersand (&), not to be confused with a\ndouble ampersand (&&) which performs a Boolean AND, returning a True or\nFalse value.\n\nThe Windows Calculator offers bitwise AND in scientific calculator mode,\nwhile the Mac OS X Calculator offers it in programmer mode.",
+  "language": "INFORMAL",
+  "phrase": "Bitwise And",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BitwiseAND"
+    }
+  ],
+  "indexable": true
+}

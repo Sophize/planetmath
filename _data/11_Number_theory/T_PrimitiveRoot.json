@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "primitive root modulo n",
+    "primitive element"
+  ],
+  "definition": "Given any positive integer $n$, the group of units\n$U(\\mathbb{Z}/n\\mathbb{Z})$ of the ring $\\mathbb{Z}/n\\mathbb{Z}$ is a\ncyclic group iff $n$ is 4, $p^m$ or $2p^m$ for any odd positive prime\n$p$ and any non-negative integer $m$. A *primitive root* is a generator\nof this group of units when it is cyclic.\n\nEquivalently, one can define the integer $r$ to be a [*primitive root\nmodulo*]{} $n$, if the numbers $r^0,\\,r^1,\\,\\ldots,\\,r^{n-2}$ form a\nreduced residue system modulo $n$.\n\nFor example, 2 is a primitive root modulo 5, since\n$1,\\; 2,\\; 2^2 = 4,\\; 2^3 = 8 \\equiv 3 \\pmod{5}$ are all with 5 coprime\npositive integers less than 5.\\\nThe generalized Riemann hypothesis implies that every prime number $p$\nhas a primitive root below $70(\\ln p)^2$.\n\n[8]{} Wikipedia, \u201cPrimitive root modulo n\u201d",
+  "language": "INFORMAL",
+  "phrase": "Primitive Root",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrimitiveRoot"
+    }
+  ],
+  "indexable": true
+}

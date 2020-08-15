@@ -1,0 +1,17 @@
+{
+  "argumentText": "Pappus\u2019s theorem says that if the six vertices of a hexagon lie\nalternately on two lines, then the three points of intersection of\nopposite sides are collinear. In the figure, the given lines are\n$A_{11}A_{13}$ and $A_{31}A_{33}$, but we have omitted the letter $A$.\n\n![image](pappus)\n\nThe appearance of the diagram will depend on the order in which the\ngiven points appear on the two lines; two possibilities are shown.\n\nPappus\u2019s theorem is true in the affine plane over any (commutative)\nfield. A tidy proof is available with the aid of homogeneous\ncoordinates.\n\nNo three of the four points $A_{11}$, $A_{21}$, $A_{31}$, and $A_{13}$\nare collinear, and therefore we can choose homogeneous coordinates such\nthat $$A_{11}=(1,0,0)\\qquad A_{21}=(0,1,0)$$\n$$A_{31}=(0,0,1)\\qquad A_{13}=(1,1,1)$$ That gives us equations for\nthree of the lines in the figure:\n$$A_{13}A_{11}:y=z\\qquad A_{13}A_{21}:z=x\\qquad A_{13}A_{31}:x=y\\;.$$\nThese lines contain $A_{12}$, $A_{32}$, and $A_{22}$ respectively, so\n$$A_{12}=(p,1,1)\\qquad A_{32}=(1,q,1)\\qquad A_{22}=(1,1,r)$$ for some\nscalars $p,q,r$. So, we get equations for six more lines: $$\\label{I1}\nA_{31}A_{32}:y=qx\\qquad A_{11}A_{22}:z=ry\\qquad A_{12}A_{21}:x=pz$$\n$$\\label{I2}\nA_{31}A_{12}:x=py\\qquad A_{11}A_{32}:y=qz\\qquad A_{21}A_{22}:z=rx$$ By\nhypothesis, the three lines (\\[I1\\]) are concurrent, and therefore\n$prq=1$. But that implies $pqr=1$, and therefore the three lines\n(\\[I2\\]) are concurrent, QED.",
+  "conclusion": "#P_PappussTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPappussTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Pappus's theorem"
+  ]
+}

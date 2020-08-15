@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If $H_1,\\,H_2,\\,\\ldots,\\,H_n$ are subgroups of $G$, then\n$$\\left[G:\\bigcap_{i=1}^nH_i\\right] \\leqq \\prod_{i=1}^n[G:H_i].$$\\\n*Proof.* We prove here only the case $n = 2$; the general case may be\nhandled by the induction.\n\nLet $H_1\\!\\cap\\!H_2 := K$. Let $R$ be the set of the right cosets of $K$\nand $R_i$ the set of the right cosets of $H_i$ ($i = 1,\\,2$). Define the\nrelation $\\varrho$ from $R$ to $R_1\\!\\times\\!R_2$ as\n$$\\varrho \\;:=\\; \\{\\left(Kx,\\,(H_1x,\\,H_2x)\\right)\\vdots\\;\\; x \\in G \\}.$$\nWe then have the conditions $$Kx \\;=\\; Ky,$$ $$xy^{-1} \\in K,$$\n$$xy^{-1} \\in H_1 \\quad\\land\\quad xy^{-1} \\in H_2,$$\n$$H_1x \\;=\\; H_1y \\quad\\land\\quad H_2x \\;=\\; H_2y,$$\n$$(H_1x,\\,H_2x) \\;=\\; (H_1y,\\,H_2y),$$ whence $\\varrho$ is a mapping and\ninjective, $\\varrho:\\, R \\to R_1\\!\\times\\!R_2$. i.e. it is a bijection\nfrom $R$ onto the subset $\\{\\varrho(x)\\vdots\\;\\; x \\in R\\}$ of\n$R_1\\!\\times\\!R_2$. Therefore,\n$$\\operatorname{card}(R) \\;\\leqq\\; \\operatorname{card}(R_1\\!\\times\\!R_2) \\;=\\; \\operatorname{card}(R_1)\\cdot\\operatorname{card}(R_2).$$\\\nAs a consequence one obtains the\n\n**Theorem (Poincar\u00e9**). The index of the intersection of finitely many\nsubgroups with finite is finite.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EstimationOfIndexOfIntersectionSubgroup"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "estimation of index of intersection subgroup",
+    "index of intersection subgroup"
+  ]
+}

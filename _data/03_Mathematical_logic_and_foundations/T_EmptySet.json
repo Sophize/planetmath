@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "null set"
+  ],
+  "definition": "An [*empty set*]{} is a set $\\emptyset$ that contains no elements. The\nZermelo-Fraenkel Axioms of set theory imply that there exists an empty\nset. One constructs an empty set by starting with any set $X$ and then\napplying the axiom of separation to form the empty set\n$\\emptyset := \\{ x \\in X \\mid x \\neq x\\}$.\n\nAn empty set is a subset of every other set, and any two empty sets are\nequal. Alternative notations for the empty set include $\\{\\}$ and\n$\\varnothing$.",
+  "language": "INFORMAL",
+  "phrase": "Empty Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EmptySet"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a set with an equivalence relation $\\sim$. An [*equivalence\nclass*]{} of $S$ under $\\sim$ is a subset $T\\subset S$ such that\n\n-   If $x \\in T$ and $y \\in S$, then $x \\sim y$ if and only if $y \\in T$\n\n-   If $S$ is nonempty, then $T$ is nonempty\n\nFor $x \\in S$, the equivalence class containing $x$ is often denoted by\n$[x]$, so that $$[x] := \\{ y \\in S \\mid x \\sim y \\}.$$\n\nThe [*set of all equivalence classes*]{} of $S$ under $\\sim$ is defined\nto be the set of all subsets of $S$ which are equivalence classes of $S$\nunder $\\sim$, and is denoted by $S/\\sim$. The map $x\\mapsto [x]$ is\nsometimes referred to as the .\n\nFor any equivalence relation $\\sim$, the set of all equivalence classes\nof $S$ under $\\sim$ is a partition of $S$, and this correspondence is a\nbijection between the set of equivalence relations on $S$ and the set of\npartitions of $S$ (consisting of nonempty sets).",
+  "language": "INFORMAL",
+  "phrase": "Equivalence Class",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquivalenceClass"
+    }
+  ],
+  "indexable": true
+}

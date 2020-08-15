@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Definition**. Let $L$ be a lattice. A finite join\n$$a_1\\vee a_2\\vee \\cdots \\vee a_n$$ of elements in $L$ is said to be\n*irredundant* if one can not delete an element from from the join\nwithout resulting in a smaller join. In other words,\n$$\\bigvee \\lbrace a_j \\mid j\\ne i\\rbrace < a_1\\vee a_2\\vee \\cdots \\vee a_n$$\nfor all $i=1,\\ldots, n$.\n\nIf the join is not irredundant, it is *redundant*\n\n*Irredundant meets* are dually defined.\n\n**Remark**. The definitions above can be extended to the case where the\njoin (or meet) is taken over an infinite number of elements, provided\nthat the join (or meet) exists.\n\n**Example**. In the lattice of all subsets (ordered by inclusion) of\n$\\mathbb{Z}$, the set of all integers, the join\n$$\\mathbb{Z}= \\bigvee \\lbrace p\\mathbb{Z} \\mid p \\mbox{ is prime} \\rbrace$$\nis irredudant. Another irredundant join representation of $\\mathbb{Z}$\nis just the join of all atoms, the singletons consisting of the\nindividual elements of $\\mathbb{Z}$. However,\n$$\\mathbb{Z}=\\bigvee \\lbrace n\\mathbb{Z} \\mid n \\mbox{ is any positive integer} \\rbrace$$\nis redundant, since $n\\mathbb{Z}$ can be removed whenever $n$ is a\ncomposite number. The join of all doubletons is also redundant, for\n$\\lbrace a,b\\rbrace \\le \\lbrace a,c\\rbrace \\vee \\lbrace c,b\\rbrace$, for\nany $c\\notin \\lbrace a,b\\rbrace$.\n\n**Definition**. An element in a lattice is *join irredundant* if it can\nnot be written as a redundant join of elements. Dually, an element is\n*meet irredundant* if each of its representation as a meet of elements\nis irredundant.\n\n**Example**. In the two lattice diagrams (Hasse diagram) below,\n$$\\xymatrix{\n& 1 \\ar@{-}[ld] \\ar@{-}[rd] \\ar@{-}[d] \\\\\na \\ar@{-}[rd] & b \\ar@{-}[d] & c \\ar@{-}[ld] \\\\\n& 0 \n}\n\\hspace{3cm}\n\\xymatrix{\n& 1 \\ar@{-}[ld] \\ar@{-}[rd] \\\\\na \\ar@{-}[rd] & & b \\ar@{-}[ld] \\\\\n& 0 \n}$$ The $1$ on the left diagram is not join irredundant, since\n$1=a\\vee b\\vee c = a\\vee b$. On the other hand, the $1$ on the right is\njoin irredundant. Similarly, the $0$ on the right is not meet\nirredundant, while the corresponding one on the right is.",
+  "language": "INFORMAL",
+  "phrase": "Irredundant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Irredundant"
+    }
+  ],
+  "indexable": true
+}

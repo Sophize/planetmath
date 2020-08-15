@@ -1,0 +1,17 @@
+{
+  "argumentText": "For the first claim, it is obvious that $\\bigcap_{i\\in I}A_i$ is closed\nof $K$. Let $z \\in A$ and $0<t<1$, $x, y\\in  K$ such as $z=tx+(1-t)y$.\nThen $z \\in A_i$, for all $i\\in I$ so we have that $x,y \\in A_i$ for all\n$i\\in I$. Therefore $x,y \\in \\bigcap_{i\\in I}A_i.$\\\nFor the second claim suppose $x,y \\in K$, $t\\in(0,1)$ and $z\\in A$ such\nas $z=tx+(1-t)y$. From the hypothesis $A\\subset B$ we have that $z\\in B$\nand since $B$ is an extreme subset of $K$, $x,y \\in  B$. Analogously\nfrom the hypothesis that $A$ is an extreme subset of $B$, we have that\n$x,y \\in A$.",
+  "conclusion": "#P_PropertiesOfExtremeSubsetsOfAClosedConvexSet",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPropertiesOfExtremeSubsetsOfAClosedConvexSet"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of properties of extreme subsets of a closed convex set"
+  ]
+}

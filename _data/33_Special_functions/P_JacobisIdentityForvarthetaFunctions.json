@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Jacobi\u2019s identities describe how theta functions transform under\nreplacing the period with the negative of its reciprocal. Together with\nthe quasiperiodicity relations, they describe the transformations of\ntheta functions under the modular group.\n$$\\theta_1 (z \\mid -1/\\tau) = -i (-i \\tau)^{1/2} e^{i \\tau z^2 \\over \\pi} \\theta_1 (\\tau z \\mid \\tau)$$\n$$\\theta_2 (z \\mid -1/\\tau) = (-i \\tau)^{1/2} e^{i \\tau z^2 \\over \\pi} \\theta_4 (\\tau z \\mid \\tau)$$\n$$\\theta_3 (z \\mid -1/\\tau) = (-i \\tau)^{1/2} e^{i \\tau z^2 \\over \\pi} \\theta_3 (\\tau z \\mid \\tau)$$\n$$\\theta_4 (z \\mid -1/\\tau) = (-i \\tau)^{1/2} e^{i \\tau z^2 \\over \\pi} \\theta_2 (\\tau z \\mid \\tau)$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JacobisIdentityForvarthetaFunctions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Jacobi's identity for $\\vartheta$ functions"
+  ]
+}

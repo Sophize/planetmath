@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An integer $n > 0$ is called a [*nontotient*]{} if $N_{\\phi}(n) = 0$,\nwhere $N_{\\phi}$ is the totient valence function. This is the case of\nany odd integer greater than 1. This is also the case of twice a prime\nthat isn\u2019t a Sophie Germain prime, one more than a prime, an oblong\nnumber that is the product of a prime and one more or less than that\nprime, etc.\n\nSloane\u2019s OEIS lists even values in A005277 and all values together in\nA007617.",
+  "language": "INFORMAL",
+  "phrase": "Nontotient",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Nontotient"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If a number sequence has a limit, then the limit is uniquely\ndetermined.\\\n*Proof.* For an , suppose that a sequence $$a_1,\\,a_2,\\,a_3,\\,\\ldots$$\nhas two distinct limits $a$ and $b$. Thus we must have both\n$$|a_n\\!-\\!a| < \\frac{|a\\!-\\!b|}{2} \\quad \\mbox{for all}\\;\\; n > \\mbox{\\,some\\;} n_1$$\nand\n$$|a_n\\!-\\!b| < \\frac{|a\\!-\\!b|}{2} \\quad \\mbox{for all}\\;\\; n > \\mbox{\\,some\\;} n_2$$\nBut when $n$ exceeds the greater of $n_1$ and $n_2$, we can write\n$$|a\\!-\\!b| \\;=\\; |a\\!-\\!a_n\\!+\\!a_n\\!-\\!b|\\;\\leqq\\; |a\\!-\\!a_n|+|a_n\\!-\\!b| \n\\;<\\; \\frac{|a\\!-\\!b|}{2}+\\frac{|a\\!-\\!b|}{2} \\;=\\; |a\\!-\\!b|.$$ This\ninequality an impossibility, whence the antithesis made in the begin is\nwrong and the assertion is .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniquenessOfLimitOfSequence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "uniqueness of limit of sequence"
+  ]
+}

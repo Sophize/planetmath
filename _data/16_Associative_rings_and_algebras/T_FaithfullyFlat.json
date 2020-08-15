@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be a commutative ring. Then $M$ if *faithfully flat* if for any\n$A$-modules $P, Q$, and $R$, we have $$\\begin{aligned}\n0{\\rightarrow}P{\\rightarrow}Q{\\rightarrow}R{\\rightarrow}0\\end{aligned}$$\nis exact if and only if the $M$-tensored sequence $$\\begin{aligned}\n0{\\rightarrow}M\\otimes_A P{\\rightarrow}M\\otimes_A Q{\\rightarrow}M\\otimes_A R{\\rightarrow}0\\end{aligned}$$\nis exact. (Note that the \u201cif and only if\u201d clause makes this stronger\nthan the definition of flatness).\n\nEquivalently, an $A$-module $M$ is faithfully flat iff $M$ is flat and\nthe functor $-\\otimes_A M$ is a faithful functor (and hence the name).",
+  "language": "INFORMAL",
+  "phrase": "Faithfully Flat",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FaithfullyFlat"
+    }
+  ],
+  "indexable": true
+}

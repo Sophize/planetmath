@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sequence $\\{x_i\\}$ in a metric space $(X,d)$ is said to converge\nquadratically to $x^*$ if there is a constant $1>c>0$ such that\n$d(x_{i+1},x^*) \\leq c d(x_i,x^*)^2$ for all $i$.\n\nThe convergence is said to be of order $p$ if\n$d(x_{i+1},x^*) \\leq c d(x_i,x^*)^p$ for all $i$.",
+  "language": "INFORMAL",
+  "phrase": "Quadratic Convergence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuadraticConvergence"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For a paving $\\mathcal{F}$ on a set $X$, we denote the collection of all\n$\\mathcal{F}$- by $a(\\mathcal{F})$. Then,\n$\\mathcal{F}\\mapsto a(\\mathcal{F})$ is a closure operator on the subsets\nof $X$. That is,\n\n1.  \\[1\\] $\\mathcal{F}\\subseteq a(\\mathcal{F})$.\n\n2.  \\[2\\] If $\\mathcal{F}\\subseteq\\mathcal{G}$ then\n    $a(\\mathcal{F})\\subseteq a(\\mathcal{G})$.\n\n3.  \\[3\\] $a(a(\\mathcal{F}))=a(\\mathcal{F})$.\n\nFor example, if $\\mathcal{G}$ is a collection of $\\mathcal{F}$-analytic\nsets then $\\mathcal{G}\\subseteq a(\\mathcal{F})$ gives\n$a(\\mathcal{G})\\subseteq a(a(\\mathcal{F}))=a(\\mathcal{F})$ and so all\n$\\mathcal{G}$-analytic sets are also $\\mathcal{F}$-analytic. In\nparticular, for a metric space, the analytic sets are the same\nregardless of whether they are defined with respect to the collection of\nopen, closed or Borel sets.\n\nProperties \\[1\\] and \\[2\\] follow directly from the definition of\nanalytic sets. We just need to prove \\[3\\]. So, for any\n$A\\in a(a(\\mathcal{F}))$ we show that $A\\in a(\\mathcal{F})$. First,\nthere is a $(K,\\mathcal{K})$ and\n$S\\in \\left(a(\\mathcal{F})\\times\\mathcal{K}\\right)_{\\sigma\\delta}$ such\nthat $A$ is equal to the projection $\\pi_X(S)$. Write\n$$S=\\bigcap_{m=1}^\\infty\\bigcup_{n=1}^\\infty A_{m,n}\\times B_{m,n}$$ for\n$A_{m,n}\\in a(\\mathcal{F})$ and $B_{m,n}\\in\\mathcal{K}$. It is clear\nthat $A_{m,n}\\times B_{m,n}$ is $\\mathcal{F}\\times\\mathcal{K}$-analytic\nand, as countable unions and intersections of analytic sets are\nanalytic, $S$ is also $\\mathcal{F}\\times\\mathcal{K}$-analytic. Finally,\nsince projections of analytic sets are analytic, $A=\\pi_X(S)$ must be\n$\\mathcal{F}$-analytic as required.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnalyticSetsDefineAClosureOperator"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "analytic sets define a closure operator"
+  ]
+}

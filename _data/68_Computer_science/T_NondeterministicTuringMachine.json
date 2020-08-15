@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The definition of a non-deterministic Turing machine is the same as the\ndefinition of a deterministic Turing machine except that $\\delta$ is a\nrelation, not a function. Hence, for any particular state and symbol,\nthere may be multiple possible legal moves.\n\nIf $S\\in\\Gamma^+$ we say $T$ accepts $S$ if, when $S$ is the input,\nthere is some finite sequence of legal moves such that $\\delta$ is\nundefined on the state and symbol pair which results from the last move\nin the sequence and such that the final state is an element of $F$. If\n$T$ does not accept $S$ then it rejects $S$.\n\nAn alternative definition of a non-deterministic Turing machine is as a\ndeterministic Turing machine with an extra one-way, read-only tape, the\nguess tape. Then we say $T$ accepts $S$ if there is any string $c(S)$\nsuch that, when $c(S)$ is placed on the guess tape, $T$ accepts $S$. We\ncall $c(S)$ a *certificate* for $S$, and otherwise that it rejects $S$.\nIn some cases the guess tape is allowed to be two-way; this generates\ndifferent time and space complexity classes than the one-way case (the\none-way case is equivalent to the original definition).",
+  "language": "INFORMAL",
+  "phrase": "Non-Deterministic Turing Machine",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NondeterministicTuringMachine"
+    }
+  ],
+  "indexable": true
+}

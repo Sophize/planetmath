@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "quasinilpotent"
+  ],
+  "definition": "An element $a$ in a normed ring $A$ is said to be *topologically\nnilpotent* if $$\\lim_{n\\to\\infty} \\|a^n\\|^{\\frac{1}{n}}=0.$$\n\nTopologically nilpotent elements are also called *quasinilpotent*.\n\n**Remarks**.\n\n-   Any nilpotent element is topologically nilpotent.\n\n-   If $a$ and $b$ are topologically nilpotent and $ab=ba$, then $ab$ is\n    topologically nilpotent.\n\n-   When $A$ is a unital Banach algebra, an element $a \\in A$ is\n    topologically nilpotent iff its spectrum $\\sigma(a)$ equals $\\{0\\}$.",
+  "language": "INFORMAL",
+  "phrase": "Topologically Nilpotent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TopologicallyNilpotent"
+    }
+  ],
+  "indexable": true
+}

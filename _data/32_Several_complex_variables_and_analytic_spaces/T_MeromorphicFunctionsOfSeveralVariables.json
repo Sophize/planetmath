@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Omega \\subset {\\mathbb{C}}^n$ be a domain and let\n$h \\colon \\Omega \\to\n{\\mathbb{C}}$ be a function. $h$ is called [**]{} if for each\n$p \\in \\Omega$ there exists a neighbourhood $U \\subset \\Omega$\n($p \\in U$) and two functions $f, g$ defined in $U$ where $g$ is not\nidentically zero, such that $h = f/g$ outside the set where $g = 0$.\n\nNote that $h$ is really defined only outside of a complex analytic\nsubvariety. Unlike in one variable, we cannot simply define $h$ to be\nequal to $\\infty$ at the poles and expect $h$ to be a continuous mapping\nto some larger space (the Riemann sphere in the case of one variable).\nThe simplest counterexample in ${\\mathbb{C}}^2$ is $(z,w) \\mapsto z/w$,\nwhich does not have a unique limit at the origin. The set of points\nwhere there is no unique limit, is called the [*indeterminancy set*]{}.\nThat is, the set of points where if $h = f/g$, and $f$ and $g$ have no\ncommon factors, then the indeterminancy set of $h$ is the set where\n$f = g = 0$.\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Meromorphic Functions Of Several Variables",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeromorphicFunctionsOfSeveralVariables"
+    }
+  ],
+  "indexable": true
+}

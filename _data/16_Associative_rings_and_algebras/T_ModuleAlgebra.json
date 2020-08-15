@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $H$ be a bialgebra. A **left $H$-module algebra** is a unital\nalgebra $A$ which is a left $H$-module with action $h \\triangleright a$\nsatisfying\n$$h \\triangleright (ab) = \\sum (h_{(1)} \\triangleright a) (h_{(2)} \\triangleright b), \\quad\nh \\triangleright {\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_A = \\varepsilon(h) {\\mathord{\\mathrm{1\\!\\!\\!\\:I}}}_A,$$\nfor all $h \\in H$ and $a,b \\in A$.\n\nThere is a dual notion of a $H$-comodule coalgebra.\n\nLet $H$ be a Hopf algebra. Then $H$ is itself a $H$-module algebra for\nthe adjoint action $g \\triangleright h = \\sum g_{(1)} h S(g_{(2)})$.",
+  "language": "INFORMAL",
+  "phrase": "Module Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModuleAlgebra"
+    }
+  ],
+  "indexable": true
+}

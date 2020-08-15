@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[*Wheel factorization*]{} is a method for screening out composite\nnumbers by arranging numbers around a circle and then striking out those\nnumbers that are obviously composite as indicated by where they fall\naround the circle.\n\n![image](Wheel30)\n\nWheel factorization is performed thus:\n\n1.  Use another method to find the first $i$ primes. Multiply the first\n    $i$ primes, obtaining the primorial $p_i\\#$.\n\n2.  Around a circle, write the numbers 1 to $p_i\\#$.\n\n3.  On a circle larger than the innermost circle, write the $p_i\\# + 1$\n    to $2p_i\\#$, lining up 1 with $p_i\\# + 1$ and $2p_i\\#$.\n\n4.  Make a few more circles, as desired, but always aligning the numbers\n    according to their residues modulo $p_i\\#$.\n\n5.  Circle the first $i$ primes, and strike out those numbers that are\n    lined up with them in the outer circles.\n\n6.  For each prime $p_j$ from 2 to $p_i$, strike out its multiples from\n    ${p_j}^2$ to $p_i\\#$, as well as the numbers on the outer circles\n    with the same residue modulo the primorial.\n\nThe name is somewhat misleading, as wheel factorization does not\ncompletely factor any number, but merely identifies (in the case of the\nstruck-out numbers) one of their prime factors. All wheel factorization\ndoes is identify which numbers are coprime to the primorial (the numbers\nthat have not been struck out). Of course the prime numbers greater than\nthe primorial will not be struck out, since they must of course by\ndefinition be coprime to the the primorial. But as one does more and\nmore circles, more and more composites will pass undetected by this\nmethod, as the likelihood increases that their least prime factor is a\nprimer greater than the primorial. Even the innermost circle will always\nhave at least one composite number avoid being struck out, whenever\n$i > 3$, specifically ${p_{i + 1}}^2$. And there is no practical reason\nwhy this algorithm needs to be performed on a circle, other than that it\nis more visually interesting to humans than a rectangular table. Indeed,\nwith the sieve of Eratosthenes, if one has chosen a row width that is a\nmultiple of a primorial, one can strike out entire columns at once.",
+  "language": "INFORMAL",
+  "phrase": "Wheel Factorization",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WheelFactorization"
+    }
+  ],
+  "indexable": true
+}

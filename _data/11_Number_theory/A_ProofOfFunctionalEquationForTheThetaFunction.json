@@ -1,0 +1,17 @@
+{
+  "argumentText": "All sums are over all integers unless otherwise specified. Thus the\ntheta function is $$\\theta(x)=\\sum_ne^{-\\pi n^2x}.$$\n\nUsing the with $z=0$ and $\\tau = i/x$, so that $-1/\\tau = ix$ gives\n$$\\theta_3 ( 0 \\mid ix ) = (1/x)^{1/2} \\theta_3(0 \\mid i/x).$$\n\nUsing the we have that the left hand side is\n$$\\sum_{n} e^{-\\pi x n^2} = \\theta(x)$$ while the right hand side is\n$$(1/x)^{1/2}\\sum_{n} e^{i\\pi (i/x)n^2}$$ which is\n\n$$(1/x)^{1/2}\\sum_{n} e^{-\\pi n^2/x} =  \\frac{1}{\\sqrt{x}}\\theta (1/x)$$\nso the identity is established.\n\nThe identity is attributed to Poisson by Jacobi [@Jacobi]. Jacobi\nwrites: M. Poisson, dans ses savantes recheches sur les int\u00e9grales\nd\u00e9finies, a fait conna\u00eetre plusieurs propri\u00e9t\u00e9s de la fonction\n$\\Theta(x)$. Les m\u00e9thodes d\u00e9licates, propres \u00e0 cet illustre g\u00e9om\u00e8tre,\ntrouvent une belle v\u00e9rification dans la th\u00e9orie des fonctions\nelliptiques. Par exemple, M. Poisson d\u00e9montre dans dix-neuvi\u00e8me cahier\ndu Journal de l\u2019\u00e9cole polytechnique la formule remarquable:\n$$\\sqrt{\\frac{1}{x}} = \\frac{1+2e^{-\\pi x} + 2e^{-4\\pi x} + 2 e^{-9\\pi x}  +2e^{-16\\pi x}+ \\cdots}{1+2e^{-\\frac{\\pi}{x}} + 2e^{-\\frac{4\\pi}{x}} + 2 e^{-\\frac{9\\pi}{x}} + 2e^{-\\frac{16\\pi}{x}}+\\cdots}$$\n\n[99]{} M.C.G.J Jacobi, *Notices sur Les Fonctions Elliptiques*, in\nJacobi\u2019s Gesammelte Werke, Band 1, Berlin, 1881, page 260.",
+  "conclusion": "#P_FunctionalEquationForTheThetaFunction",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfFunctionalEquationForTheThetaFunction"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of functional equation for the  theta function"
+  ]
+}

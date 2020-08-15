@@ -1,0 +1,20 @@
+{
+  "alternatePhrases": [
+    "barreled space",
+    "infrabarreled space",
+    "ultrabarreled space",
+    "barrelled",
+    "infrabarrelled",
+    "ultrabarrelled"
+  ],
+  "definition": "Let $V$ be a topological vector space (TVS). A *barrel* $B$ is a subset\nof $V$ that is closed, convex, , and absorbing. For example, in a Banach\nspace $A$, any ball $\\lbrace v\\in A\\mid ||v||\\le r\\rbrace$ for some\n$r>0$ is a barrel.\n\nA topological vector space is said to be a *barrelled space* if it is ,\nand every barrel is a neighborhood of $0$. Every Banach space is a\nbarrelled space.\n\nA weaker form of a barrelled space is that of an *infrabarrelled space*.\nA TVS is said to be *infrabarrelled* if it is locally convex, and every\nbarrel that absorbs every bounded set is a neighborhood of $0$.\n\nLet $V$ be a vector space and $\\mathfrak{T}$ be the set of all those\ntopologies on $V$ making $V$ a TVS. In other words, if\n$T\\in \\mathfrak{T}$, then $(V,T)$ is a topological vector space.\n\nLet $V$ and $T\\in \\mathfrak{T}$ be defined as above. Then $(V,T)$ being\nbarrelled has an equivalent characterization below:\n\n> (\\*) for any $T_1\\in \\mathfrak{T}$ such that there is a of $0$\n> consisting of $T$-closed sets, then $T_1$ is coarser than $T$.\n\nA variation of a barrelled space is that of an *ultrabarrelled space*. A\ntopological vector space is said to be *ultrabarrelled* if it satisfies\n(\\*) above. A locally convex ultrabarrelled space is barrelled.\n\n[8]{} H. H. Schaefer, [*Topological Vector Spaces*]{}, Springer-Verlag,\nNew York (1970). R. E. Edwards, [*Functional Analysis, Theory and\nApplications*]{}, Holt, Reinhart and Winston, New York (1965).",
+  "language": "INFORMAL",
+  "phrase": "Barrel",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Barrel"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A binary code is called *even* if the Hamming weight of all its\ncodewords is even. Furthermore, a binary code is called *doubly-even* if\nthe Hamming weight of all its codewords is divisible by $4$. An even\ncode which is not doubly-even is said to be *strictly even*.\n\nExamples of doubly-even codes are the extended binary Hamming code of\nblock length $8$ and the extended binary Golay code of block length\n$24$. These two codes are, in addition, self-dual.",
+  "language": "INFORMAL",
+  "phrase": "Even Code",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EvenCode"
+    }
+  ],
+  "indexable": true
+}

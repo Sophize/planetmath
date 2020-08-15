@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**How many graphs are there?**\n\n\\[prop:graph\\] The number of non-isomorphic simple graphs on $N$\nvertices, denoted $gph(N)$, satisfies\n$$\\frac{2^{\\binom{N}{2}}}{N!} \\leq gph(N) \\leq 2^{\\binom{N}{2}}.$$\n\n-   Every simple graph on $N$ vertices can be encoded by a $N\\times N$\n    symmetric matrix with all entries from $\\{0,1\\}$ and with $0$\u2019s on\n    the diagonal. Therefore the information can be encoded by strictly\n    upper triangular $N\\times N$ matrices over $\\{0,1\\}$. This gives\n    $2^{\\binom{N}{2}}$ possibilities.\n\n-   The number of isomorphisms from a graph $G$ to a graph $H$ is equal\n    to the number of automorphisms of $G$ (or $H$). Therefore the total\n    number of isomorphisms between two graphs is no more than $N!$ \u2013 the\n    total number of permutations of the $N$ vertices of $G$. Therefore\n    the total number of non-isomorphic simple graphs on $N$ vertices is\n    at least $2^{\\binom{N}{2}}/N!$.\n\n<!-- -->\n\n-   The gap between the bounds is superexponential in $N$: that is:\n    $O\\left(2^{\\binom{N}{2}}\\right)$. However logarithmically the\n    estimate is tight:\n    $$\\log gph(N)\\in \\Omega(N^2-N\\log N){\\cap}O(N^2)=\\Theta(N^2).$$\n\n-   $gph(N)$ is closer to the lower bound; yet, most graphs have few\n    automorphisms.\n\n-   $gph$ is monotonically increasing. $$\\begin{xy}\n    (0,10) *\\hbox{Graphs on $N$ vertices},\n    (0,0) *[o]=<40pt>\\hbox{G}*\\frm{o}, (5,0) *\\hbox{$\\bullet$},\n     (-3,-3) *\\hbox{$\\bullet$},  (-4,2) *\\hbox{$\\bullet$};\n    \\end{xy}\n    \\qquad\n    \\hookrightarrow\n    \\qquad\n    \\begin{xy}\n    (0,10) *\\hbox{Graphs on $N+1$ vertices},\n    (0,0) *[o]=<40pt>\\hbox{G}*\\frm{o}, (5,0) *\\hbox{$\\bullet$},\n     (-3,-3) *\\hbox{$\\bullet$},  (-4,2) *\\hbox{$\\bullet$},\n     (10,0) *\\hbox{$\\bullet$};\n    \\end{xy}$$\n\n[10]{}\n\nHarary, Frank and Palmer, Edgar M. *Graphical enumeration* Academic\nPress, New York, 1973, pp. xiv+271, 05C30, [MR ]{}[MR0357214]{} (50\n\\#9682)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EnumeratingGraphs"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "enumerating graphs"
+  ]
+}

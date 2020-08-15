@@ -1,0 +1,17 @@
+{
+  "argumentText": "[**Theorem.**]{} All positive integers are polite numbers (that is, can\nbe expressed as the sum of consecutive nonnegative integers in at least\none way), with the exception of the powers of two.\n\nProof. Let k be a positive integer.\n\nLet $k = 2^h$ for $h > 0$. Let\u2019s suppose that $k$ is a polite number. We\ncan write $$k = \\sum_{i=a}^b i$$ with $b > a$ and $a > -1$.\n\nThen,\n$$k = 2^h = \\sum_{i=a}^b i = \\sum_{j=0}^{b-a} (j+a) = \\sum_{j=0}^{b-a} j + \\sum_{j=0}^{b-a} a = \\frac{(b-a)(b-a+1)}{2} + (b-a+1)a$$\nMultiplying both sides by two,\n$$2^{h+1} = (b-a)(b-a+1) + 2a(b-a+1) = (b-a+1)(b-a-2a)$$\n\nIf $b-a$ is even, then $b-a+1$ is odd and then $2^{h+1}$ would have an\nodd factor, contradiction. If $b-a$ is odd, then $b-a-2a$ is odd and\nthen $2^{h+1}$ would have an odd factor, contradiction. Then, $k$ is not\na polite number.\n\nIf $k = 1$, then $k$ is a polite number trivially.\n\nNow, suppose that $k > 1$ is not a power of two. Then we can factor $k$\nas $ah$ with $h = 2b+1 > 1$ odd, $a > 0$. Then,\n$$\\sum_{i=a-b}^{a+b} i = \\sum_{j=-b}^{b} (j + a) = \\sum_{j=-b}^b j + \\sum_{j=-b}^{b} a = 0 + (2b+1)a = k$$\n\nIf $a-b >= 0$ then $k$ is clearly a polite number.\n\nIf $a-b < 0$ then\n$$k = \\sum_{i=a-b}^{a+b} i = \\sum_{i=a-b}^{0} i + \\sum_{i=1}^{|a-b|} i + \\sum_{|a-b|+1}^{a+b} i = \\sum_{|a-b|+1}^{a+b} i$$\nso $k$ is a polite number.",
+  "conclusion": "#P_AllPositiveIntegersArePoliteNumbersExceptPowersOfTwo",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfAllPositiveIntegersArePoliteNumbersExceptPowersOfTwo"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of all positive integers are polite numbers except powers of two"
+  ]
+}

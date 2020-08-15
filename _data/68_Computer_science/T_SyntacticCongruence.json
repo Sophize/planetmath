@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $S$ be a semigroup and let $X\\subseteq S$. The relation\n$$\\label{eq:sc}\ns_1\\equiv_X s_2\n\\;\\;\\mathrm{iff}\\;\\;\n\\forall l,r\\in S (ls_1r\\in X\\;\\mathrm{iff}\\;ls_2r\\in X)$$ is called the\n*syntactic congruence* of $X$. The quotient $S/\\equiv_X$ is called the\n*syntactic semigroup* of $X$, and the natural morphism\n$\\phi:S\\to S/\\equiv_X$ is called the *syntactic morphism* of $X$. If $S$\nis a monoid, then $S/\\equiv_X$ is also a monoid, called the *syntactic\nmonoid* of $X$.\n\nAs an example, if $S=(\\mathbb{N},+)$ and\n$X=\\{n\\in\\mathbb{N}\\mid\\exists k\\in\\mathbb{N}\\mid n=3k\\},$ then\n$m\\equiv_X n$ if $m\\mod 3=n\\mod 3$, and the syntactic monoid is\nisomorphic to the cyclic group of order three.\n\nIt is straightforward that $\\equiv_X$ is an equivalence relation and $X$\nis union of classes of $\\equiv_X$. To prove that it is a congruence, let\n$s_1,s_2,t_1,t_2\\in S$ satisfy $s_1\\equiv_X s_2$ and $t_1\\equiv_X t_2$.\nLet $l,r\\in S$ be arbitrary. Then $ls_1t_1r\\in X$ iff $ls_2t_1r\\in X$\nbecause $s_1\\equiv_X s_2$, and $ls_2t_1r\\in X$ iff $ls_2t_2r\\in X$\nbecause $t_1\\equiv_X t_2$. Then $s_1t_1\\equiv_X s_2t_2$ since $l$ and\n$r$ are arbitrary.\n\nThe syntactic congruence is both left- and right-invariant, *i.e.*, if\n$s_1\\equiv_Xs_2$, then $ts_1\\equiv_Xts_2$ and $s_1t\\equiv_Xs_2t$ for any\n$t$.\n\nThe syntactic congruence is maximal in the following sense:\n\n-   if $\\chi$ is a congruence over $S$ and $X$ is union of classes of\n    $\\chi$,\n\n-   then $s\\chi t$ implies $s\\equiv_X t$.\n\nIn fact, let $l,r\\in S$: since $s\\chi t$ and $\\chi$ is a congruence,\n$lsr\\chi ltr$. However, $X$ is union of classes of $\\chi$, therefore\n$lsr$ and $ltr$ are either both in $X$ or both outside $X$. This is true\nfor all $l,r\\in S$, thus $s\\equiv_X t$.",
+  "language": "INFORMAL",
+  "phrase": "Syntactic Congruence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SyntacticCongruence"
+    }
+  ],
+  "indexable": true
+}

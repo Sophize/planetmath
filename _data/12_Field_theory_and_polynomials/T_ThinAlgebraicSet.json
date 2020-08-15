@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "thin set",
+    "mince set"
+  ],
+  "definition": "Let $V$ be an irreducible algebraic variety (we assume it to be integral\nand quasi-projective) over a field $K$ with characteristic zero. We\nregard $V$ as a topological space with the usual Zariski topology.\n\n1.  A subset $A\\subset V(K)$ is said to be of type $C_1$ if there is a\n    closed subset $W\\subset V$, with $W\\neq V$, such that\n    $A\\subset W(K)$. In other words, $A$ is not dense in $V$ (with\n    respect to the Zariski topology).\n\n2.  A subset $A\\subset V(K)$ is said to be of type $C_2$ if there is an\n    irreducible variety $V'$ of the same dimension as $V$, and a\n    (generically) surjective algebraic morphism $\\phi\\colon V'\\to V$ of\n    degree $\\geq 2$, with $A\\subset \\phi(V'(K))$\n\nLet $K$ be a field and let $V(K)=\\mathbb{A}(K)=\\mathbb{A}^1(K)=K$ be the\n$1$-dimensional affine space. Then, the only Zariski-closed subsets of\n$V$ are finite subsets of points. Thus, the only subsets of type $C_1$\nare subsets formed by a finite number of points.\n\nLet $V'(K)=\\mathbb{A}(K)$ be affine space and define:\n$$\\phi\\colon V' \\to V$$ by $\\phi(k)=k^2$. Then $\\deg(\\phi)=2$. Thus, the\nsubset: $$A=\\{k^2: k \\in \\mathbb{A}(K)\\}$$ , i.e. $A$ is the subset of\nperfect squares in $K$, is a subset of type $C_2$.\n\nA subset $A$ of an irreducible variety $V/K$ is said to be a thin\nalgebraic set (or thin set, or \u201cmince\u201d set) if it is a union of a finite\nnumber of subsets of type $C_1$ and type $C_2$.\n\n[9]{} J.-P. Serre, [*Topics in Galois Theory*]{}, Research Notes in\nMathematics, Jones and Barlett Publishers, London.",
+  "language": "INFORMAL",
+  "phrase": "Thin Algebraic Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThinAlgebraicSet"
+    }
+  ],
+  "indexable": true
+}

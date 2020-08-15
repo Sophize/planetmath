@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "There exists a Hadamard matrix of order $n$ = $4m$, for all\n$m \\in \\mathbb{Z}^+.$\n\nA Hadamard matrix of order 428 (m=107) has been recently constructed\n[@KT].\n\n.\n\nA Hadamard matrix of order 764 has also recently been constructed\n[@DZD].\n\nAlso, Paley\u2019s theorem guarantees that there always exists a Hadamard\nmatrix $H_n$ when $n$ is divisible by 4 and of the form $ 2^e(p^m+1) $,\nfor some positive integers e and m, and p an odd prime and the matrices\ncan be found using Paley construction.\n\nThis leaves the order of the lowest unknown Hadamard matrix as 668.\nThere are 13 integers $m$ less than 500 for which no Hadamard matrix of\norder $4m$ is known:\n$$167, 179, 223, 251, 283, 311, 347, 359, 419, 443, 479, 487, 491$$ and\nall of them are primes congruent to 3 mod 4.\n\n[99]{} H. Kharaghani, B. Tayfeh-Rezaie, *A Hadamard matrix of order\n428*, J. Comb. Designs **13**, (2005), 435-440. D.Z. Dokovi\u0107, *Hadamard\nmatrices of order 764 exist*, .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HadamardConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hadamard conjecture",
+    "Hadamard's conjecture"
+  ]
+}

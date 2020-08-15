@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *upper nilradical* $\\operatorname{Nil}^*(R)$ of $R$ is the of all\n(two-sided) nil ideals in $R$. In other words, $a\\in Nil^* R$ iff $a$\ncan be expressed as a (finite) sum of nilpotent elements.\n\nIt is not hard to see that $\\operatorname{Nil}^*(R)$ is the largest nil\nideal in $R$. Furthermore, we have that\n$\\operatorname{Nil}_*(R)\\subseteq \\operatorname{Nil}^*(R)\\subseteq J(R)$,\nwhere $\\operatorname{Nil}_*(R)$ is the lower radical or prime radical of\n$R$, and $J(R)$ is the Jacobson radical of $R$.\n\n**Remarks**.\n\n-   If $R$ is commutative, then\n    $\\operatorname{Nil}_*(R)=\\operatorname{Nil}^*(R)=\\operatorname{Nil}(R)$,\n    the nilradical of $R$, consisting of all nilpotent elements.\n\n-   If $R$ is left (or right) artinian, then\n    $\\operatorname{Nil}_*(R)=\\operatorname{Nil}^*(R)=J(R)$.",
+  "language": "INFORMAL",
+  "phrase": "Upper Nilradical",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UpperNilradical"
+    }
+  ],
+  "indexable": true
+}

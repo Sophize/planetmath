@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For any real $\\xi$ which is not rational or quadratic irrational, there\nare infinitely many rational or real quadratic irrational $\\alpha$ which\nsatisfy $$\\mid \\xi - \\alpha \\mid < C\\cdot H(\\alpha)^{-3},$$ where\n$$C = \\left\\{\n\\begin{array}{ll}\nC_0, & \\textrm{if} \\mid\\xi\\mid < 1, \\\\\nC_0\\cdot \\xi^2, & \\textrm{if} \\mid\\xi\\mid >1.\n\\end{array}\\right.$$ $C_0$ is any fixed number greater than\n$\\frac{160}{9}$ and $H(\\alpha )$ is the of $\\alpha$.[@DS]\\\nThe *of the rational or quadratic irrational number* $\\alpha$ is\n$$H(\\alpha)=\\operatorname{max}(|x|,|y|,|z|)$$ where $x$,$y$,$z$ are from\nthe unique equation $$x\\alpha^2+y\\alpha+z=0$$ such that $x$,$y$,$z$ are\nnot all zero relatively prime integral coefficients.[@DS]\n\n[1]{} Davenport, H. Schmidt, M. Wolfgang: Approximation to real numbers\nby quadratic irrationals. Acta Arithmetica XIII, 1967.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DavenportSchmidtTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Davenport-Schmidt theorem"
+  ]
+}

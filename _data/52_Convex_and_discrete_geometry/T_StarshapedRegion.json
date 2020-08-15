@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} A subset $U$ of a real (or possibly complex) vector\nspace is called *star-shaped* if there is a point $p\\in U$ such that the\nline segment $\\overline{pq}$ is contained in $U$ for all $q\\in U$.\n(Here, $\\overline{pq} = \\{ tp + (1-t)q\\, | \\, t\\in[0,1] \\}$.) We then\nsay that $U$ is star-shaped with respect to $p$.\n\nIn other , a region $U$ is star-shaped if there is a point $p\\in U$ such\nthat $U$ can be \u201ccollapsed\u201d or \u201ccontracted\u201d $p$.\n\n### Examples\n\n1.  In ${\\mathbb{R}}^n$, any vector subspace is star-shaped. Also, the\n    unit cube and unit ball are star-shaped, but the unit sphere is not.\n\n2.  A subset $U$ of a vector space is star-shaped with respect to all of\n    its points if and only if $U$ is convex.",
+  "language": "INFORMAL",
+  "phrase": "Star-Shaped Region",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StarshapedRegion"
+    }
+  ],
+  "indexable": true
+}

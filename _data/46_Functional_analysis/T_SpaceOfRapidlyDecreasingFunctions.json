@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Schwartz space"
+  ],
+  "definition": "The function space of rapidly decreasing functions ${\\mathcal{S}}$ has\nthe important property that the Fourier transform is an endomorphism on\nthis space. This property enables one, by duality, to define the Fourier\ntransform for elements in the dual space of ${\\mathcal{S}}$, that is,\nfor tempered distributions.\n\n[**Definition**]{} The *space of rapidly decreasing functions* on\n${\\mathbb{R}}^n$ is the function space $$\\begin{aligned}\n{\\mathcal{S}}({\\mathbb{R}}^n)=\\{ f \\in C^\\infty({\\mathbb{R}}^n) \\mid \\sup_{x\\in {\\mathbb{R}}^n} \\mid \\, ||f||_{\\alpha,\\beta} <\n \\infty\\, \\mbox{for all multi-indices}  \\, \\alpha, \\beta \\},\\end{aligned}$$\nwhere $C^\\infty({\\mathbb{R}}^n)$ is the set of smooth functions from\n${\\mathbb{R}}^n$ to ${\\mathbb{C}}$, and\n$$||f||_{\\alpha,\\beta}=||x^\\alpha D^\\beta f||_\\infty.$$ Here,\n$||\\cdot||_\\infty$ is the supremum norm, and we use multi-index\nnotation. When the dimension $n$ is clear, it is convenient to write\n${\\mathcal{S}}={\\mathcal{S}}({\\mathbb{R}}^n)$. The space ${\\mathcal{S}}$\nis also called the *Schwartz space*, after Laurent Schwartz (1915-2002)\n[@schwartz_bib].\n\n### Examples of functions in ${\\mathcal{S}}$\n\n1.  If $i$ is a multi-index, and $a$ is a positive real number, then\n    $$x^i \\exp\\{-a x^2\\} \\in {\\mathcal{S}}.$$\n\n2.  Any smooth function with compact support $f$ is in ${\\mathcal{S}}$.\n    This is clear since any derivative of $f$ is continuous, so\n    $x^\\alpha D^\\beta f$ has a maximum in ${\\mathbb{R}}^n$.\n\n### Properties\n\n1.  ${\\mathcal{S}}$ is a complex vector space. In other words,\n    ${\\mathcal{S}}$ is closed under point-wise addition and under\n    multiplication by a complex scalar.\n\n2.  Using Leibniz\u2019 rule, it follows that ${\\mathcal{S}}$ is also closed\n    under point-wise multiplication; if $f,g\\in {\\mathcal{S}}$, then\n    $fg: x\\mapsto f(x)g(x)$ is also in ${\\mathcal{S}}$.\n\n3.  For any $1\\le p\\le \\infty$, we have [@reed]\n    $${\\mathcal{S}}\\subset L^p,$$ and if $p<\\infty$, then\n    ${\\mathcal{S}}$ is also dense in $L^p$.\n\n4.  The Fourier transform is a linear isomorphism\n    ${\\mathcal{S}}\\to{\\mathcal{S}}$.\n\n[9]{} L. H\u00f6rmander, *The Analysis of Linear Partial Differential\nOperators I, (Distribution theory and Fourier Analysis)*, 2nd ed,\nSpringer-Verlag, 1990. The MacTutor History of Mathematics archive, M.\nReed, B. Simon, *Methods of Modern Mathematical Physics: Functional\nAnalysis I*, Revised and enlarged edition, Academic Press, 1980.\nWikipedia,",
+  "language": "INFORMAL",
+  "phrase": "Space Of Rapidly Decreasing Functions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpaceOfRapidlyDecreasingFunctions"
+    }
+  ],
+  "indexable": true
+}

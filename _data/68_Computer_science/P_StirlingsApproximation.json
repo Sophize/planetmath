@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Stirling\u2019s formula gives an approximation for $n!$, the factorial . It\nis\n\n$$n! \\approx \\sqrt{2n\\pi} n^n e^{-n}$$\n\nWe can derive this from the gamma function. Note that for large $x$,\n\n$$\\label{eq:glx}\n \\Gamma(x) = \\sqrt{2\\pi}x^{x-\\frac{1}{2}} e^{-x + \\mu(x)}$$\n\nwhere\n\n$$\\mu(x) = \\sum_{n=0}^\\infty \\left(x+ n +\\frac{1}{2}\\right) \\ln \\left(1+ \\frac{1}{x+n} \\right) -1 = \\frac{\\theta}{12x}$$\n\nwith $0 < \\theta < 1$. Taking $x=n$ and multiplying by $n$, we have\n\n$$\\label{eq:penult}\n n! = \\sqrt{2\\pi} n^{n+\\frac{1}{2}} e^{-n + \\frac{\\theta}{12n}}$$\n\nTaking the approximation for large $n$ gives us Stirling\u2019s formula.\n\nThere is also a big-O notation version of Stirling\u2019s approximation:\n\n$$\\label{eq:bigover}\nn! = \\left(\\sqrt{2\\pi n}\\right)\\left(\\frac{n}{e}\\right)^n \\left(1+\\mathcal{O}\\left(\\frac{1}{n}\\right)\\right)$$\n\nWe can prove this equality starting from\u00a0. It is clear that the big-O\nportion of\u00a0 must come from $e^{\\frac{\\theta}{12n}}$, so we must consider\nthe asymptotic behavior of $e$.\n\nFirst we observe that the Taylor series for $e^x$ is\n\n$$e^x = 1 + \\frac{x}{1} + \\frac{x^2}{2!} + \\frac {x^3}{3!} + \\cdots$$\n\nBut in our case we have $e$ to a vanishing exponent. Note that if we\nvary $x$ as $\\frac{1}{n}$, we have as $ n \\longrightarrow \\infty $\n\n$$e^x = 1 + \\mathcal{O}\\left(\\frac{1}{n}\\right)$$\n\nWe can then (almost) directly plug this in to\u00a0 to get\u00a0 (note that the\nfactor of 12 gets absorbed by the big-O notation.)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StirlingsApproximation"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Stirling's approximation",
+    "Stirling's formula",
+    "Stirling's approximation formula"
+  ]
+}

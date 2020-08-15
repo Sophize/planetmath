@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f\\colon V\\to {\\mathbb R}$ be a function on a real vector space $V$\n(more generally we can consider a vector space $V$ over a field $F$). We\nsay that $f$ is *additive* if $$f(x+y)= f(x) + f(y)$$ for all\n$x,y \\in V$.\n\nIf $f$ is additive, we find that\n\n1.  $f(0)=0$. In fact $f(0)=f(0+0)=f(0)+f(0)=2f(0)$.\n\n2.  $f(nx) = nf(x)$ for $n\\in {\\mathbb N}$. In fact\n    $f(nx)=f(x)+\\cdots +f(x) = nf(x)$.\n\n3.  $f(nx) = nf(x)$ for $n\\in {\\mathbb Z}$. In fact\n    $0=f(0)=f(x+(-x)) =f(x)+f(-x)$ so that $f(-x)=-f(x)$ and hence\n    $f(-nx)=-f(nx)=-nf(x)$.\n\n4.  $f(qx) = q f(x)$ for $q\\in {\\mathbb Q}$. In fact\n    $q f(px/q) = f(q(px/q))=f(px) = p f(x)$ so that $f(px/q) = pf(x)/q$.\n\nThis means that $f$ is ${\\mathbb Q}$ linear. Quite surprisingly it is\npossible to show that there exist additive functions which are not\nlinear (for example when $V$ is a vector space over the field\n${\\mathbb R}$).",
+  "language": "INFORMAL",
+  "phrase": "Additive Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdditiveFunction"
+    }
+  ],
+  "indexable": true
+}

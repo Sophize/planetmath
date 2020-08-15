@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $\\langle S_i\\rangle_{i<\\alpha}$ is a sequence then the *diagonal\nintersection*, $\\Delta_{i<\\alpha} S_i$ is defined to be\n$\\{\\beta<\\alpha\\mid\\beta\\in \\bigcap_{\\gamma<\\beta} S_\\gamma\\}$.\n\nThat is, $\\beta$ is in $\\Delta_{i<\\alpha} S_i$ if it is contained in the\nfirst $\\beta$ members of the sequence.",
+  "language": "INFORMAL",
+  "phrase": "Diagonal Intersection",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiagonalIntersection"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A stochastic process $\\lbrace X(t)\\mid t\\in T\\rbrace$ of real-valued\nrandom variables $X(t)$, where $T$ is a subset of $\\mathbb{R}$, is said\nhave *stationary increments* if the probability distribution function\nfor $X(s+t)-X(s)$ is fixed (the same) for all $s\\in T$ such that\n$s+t\\in T$. In other words, the distribution for $X(s+t)-X(s)$ is a\nfunction of \u201chow long\u201d or $t$, not \u201cwhen\u201d or $s$.\n\nA stochastic process that possesses both stationary increments and\nindependent increments is said to have *stationary independent\nincrements*.",
+  "language": "INFORMAL",
+  "phrase": "Stationary Increment",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StationaryIncrement"
+    }
+  ],
+  "indexable": true
+}

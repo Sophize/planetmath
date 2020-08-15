@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The improper integrals\n$$\\displaystyle\\int_{-\\infty}^\\infty\\frac{a\\cos{x}}{x^2\\!+\\!a^2}\\,dx \\quad \n\\mbox{and} \\quad \\int_{-\\infty}^\\infty\\frac{x\\sin{x}}{x^2\\!+\\!a^2}\\,dx,$$\nwhere $a$ is a positive , are called [*Laplace integrals*]{}. Both of\nthem have the same value $\\pi e^{-a}$.\\\nThe evaluation of the Laplace integrals can be performed by first\ndetermining the integrals\n$$\\int_{-\\infty}^\\infty\\frac{e^{ix}}{x-ia}\\,dx \\quad \n\\mbox{and} \\quad \\int_{-\\infty}^\\infty\\frac{e^{ix}}{x+ia}\\,dx$$ where\none integrates along the real axis. Therefore one has to determine the\nintegrals\n$$\\oint\\frac{e^{iz}}{z-ia}\\,dz \\quad \\mbox{and} \\quad \\oint\\frac{e^{iz}}{z+ia}\\,dz$$\naround the perimeter of the half-disk with the arc in the upper\nhalf-plane, centered in the origin and with the diameter $(-R,\\,+R)$.\nThe residue theorem yields the values\n$$\\oint\\frac{e^{iz}}{z-ia}\\,dz \\;=\\; 2i\\pi e^{-a}\n\\quad \\mbox{and} \\quad \\oint\\frac{e^{iz}}{z+ia}\\,dz \\;=\\, 0.$$ As in the\nentry example of using residue theorem, the parts of these contour\nintegrals along the half-circle tend to zero when $R \\to \\infty$.\nConsequently,\n$$\\int_{-\\infty}^\\infty\\frac{e^{ix}}{x-ia}\\,dx \\;=\\; 2i\\pi e^{-a}\\quad \n\\mbox{and} \\quad \\int_{-\\infty}^\\infty\\frac{e^{ix}}{x+ia}\\,dx \\;=\\; 0.$$\nThese equations imply by adding and subtracting and then taking the and\nthe imaginary parts, the\n$$\\displaystyle\\int_{-\\infty}^\\infty\\frac{a\\cos{x}}{x^2\\!+\\!a^2}\\,dx \n\\;=\\; \\int_{-\\infty}^\\infty\\frac{x\\sin{x}}{x^2\\!+\\!a^2}\\,dx \\;=\\; \\pi e^{-a}.$$\n\n[9]{} : [*Funktioteoria*]{}. Kustannusosakeyhti\u00f6 Otava. Helsinki (1963).",
+  "language": "INFORMAL",
+  "phrase": "Laplace Integrals",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LaplaceIntegrals"
+    }
+  ],
+  "indexable": true
+}

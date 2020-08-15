@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "This theorem seems to usually be attributed to Malgrange in literature\nas it appeared in his book[@Malgrange].\n\nSuppose $M \\subset {\\mathbb{R}}^N$ is a connected smooth ($C^\\infty$)\nsubmanifold and $V \\subset {\\mathbb{R}}^N$ is a real analytic subvariety\nof the same dimension as $M$, such that $M \\subset V$. Then $M$ is a\nreal analytic submanifold.\n\nThe condition that $M$ is smooth cannot be relaxed to $C^k$ for\n$k < \\infty$. For example, note that in ${\\mathbb{R}}^2$, the subvariety\n$y^3 - x^8 = 0$, which is the graph of the $C^1$ function\n$y = \\lvert x \\rvert^{\\frac{8}{3}}$, is not a real analytic submanifold.\n\n[9]{} Bernard Malgrange. [**]{}. Oxford University Press, 1966.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SmoothSubmanifoldContainedInASubvarietyOfSameDimensionIsRealAnalytic"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "smooth submanifold contained in a subvariety of same dimension is real analytic"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "*(i)* Fix $K \\subseteq \\Omega$ compact. We have: $$\\begin{aligned}\n\\frac{2 |f'(z)|}{1 + |f(z)|^2} &\\leq M_K \\ \\forall \\ f \\in \\mathcal{F}, z \\in K & \\tag{$*$} \\label{1}\\end{aligned}$$\n\nLet $V$ be a region with $K = \\overline{V}$ and let\n$\\gamma \\colon [a,b] \\to V$ be the $C^1$ curves connecting the points\n$P, Q \\in \\Omega$. Then we have: $$\\begin{aligned}\nd_{\\sigma}(f(P), f(Q)) &= \\inf_{\\gamma} l_{\\sigma}(f \\circ \\gamma) = \\inf_{\\gamma} \\int_{a}^{b} \\|(f \\circ \\gamma)'(t)\\|_{\\sigma, f \\circ \\gamma(t)} \\,dt \\\\\n&= \\inf_{\\gamma} \\int_{a}^{b} \\frac{2 |f'(\\gamma(t))|}{1 + |f(\\gamma(t))|^2} |\\gamma'(t)| \\,dt \\\\\n&\\stackrel{\\leq}{\\substack{\\eqref{1}}} M_K \\inf_{\\gamma} \\int_{a}^{b} |\\gamma'(t)| \\,dt \\\\\n&= M_K \\inf_{\\gamma} l(\\gamma) = M_K |P - Q|\\end{aligned}$$\n\nThus $f$ is Lipschitz continuous and thus $\\mathcal{F}$ is\nequicontinuous. By the Ascoli-Arzel\u00c3\u00a0 Theorem we conclude that\n$\\mathcal{F}$ is normal.\n\n*(ii)* Now assume $\\mathcal{F}$ to be normal. Define: $$\\begin{aligned}\nf^{\\sharp}(z) &:= \\frac{2 |f'(z)|}{1 + |f(z)|^2} \\end{aligned}$$\n\nLet $K \\subseteq \\Omega$ be compact. To obtain contradiction assume\n$\\{f^{\\sharp} : f \\in \\mathcal{F}\\}$ is not uniformly bounded on $K$.\nBut then there exists a sequence $\\{f_n\\} \\subset \\mathcal{F}$ such\nthat: $$\\begin{aligned}\n\\max_{z \\in K} f_n^{\\sharp}(z) &\\to \\infty \\ (n \\to \\infty)\\end{aligned}$$\n\nSince $\\mathcal{F}$ is normal for each $P \\in \\Omega$ let there be a\nneighbourhood $U_P$ such that $\\{f_n\\}$ converges normally to a\nmeromorphic function $f$. But from $(1 / f_n)^{\\sharp} = f_n^{\\sharp}$\nwe see that $\\{f_n^{\\sharp}\\}$ converges normally on $U_P$. Since $K$ is\ncompact it can be covered by finitely many sets $U_P$. We conclude that\n$\\{f_n^{\\sharp}\\}$ must be bounded on $K$ and obtain a contradiction.",
+  "conclusion": "#P_MartysTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfMartysTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Marty's theorem"
+  ]
+}

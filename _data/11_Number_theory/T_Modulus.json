@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*modulus*]{} for a number field $K$ is a formal product\n$$\\prod_{{\\mathfrak{p}}} {\\mathfrak{p}}^{n_{\\mathfrak{p}}}$$ where\n\n-   The product is taken over all finite primes and infinite primes of\n    $K$\n\n-   The exponents $n_{\\mathfrak{p}}$ are nonnegative integers\n\n-   All but finitely many of the $n_{\\mathfrak{p}}$ are zero\n\n-   For every real prime ${\\mathfrak{p}}$, the exponent\n    $n_{\\mathfrak{p}}$ is either 0 or 1\n\n-   For every complex prime ${\\mathfrak{p}}$, the exponent\n    $n_{\\mathfrak{p}}$ is 0\n\nA modulus can be written as a product of its finite part\n$$\\prod_{{\\mathfrak{p}}\\text{ finite}} {\\mathfrak{p}}^{n_{\\mathfrak{p}}}$$\nand its infinite part\n$$\\prod_{{\\mathfrak{p}}\\text{ real}} {\\mathfrak{p}}^{n_{\\mathfrak{p}}},$$\nwith the finite part equal to some ideal in the ring of integers\n$\\mathcal{O}_K$ of $K$, and the infinite part equal to the product of\nsome subcollection of the real primes of $K$.",
+  "language": "INFORMAL",
+  "phrase": "Modulus",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Modulus"
+    }
+  ],
+  "indexable": true
+}

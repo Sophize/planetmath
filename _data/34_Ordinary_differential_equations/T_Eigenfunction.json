@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "characteristics function"
+  ],
+  "definition": "Consider the Sturm-Liouville system given by\n\n$$\\frac{d}{dx}\\left[p(x)\\frac{dy}{dx}\\right]+q(x)y+\\lambda\nr(x)y=0\\;\\;\\;\\;\\;\\;a\\leq x\\leq b \\label{stuff}$$\n\n$$a_{1}y(a)+a_{2}y^{\\prime}(a)=0,\\;\\;\\;\n\\;\\;\\;b_{1}y(b)+b_{2}y^{\\prime}(b)=0, \\label{stuff1}$$\n\nwhere $a_{i},b_{i}\\in \\mathbb{R}$ with $i\\in \\{1,2\\}$ and\n$p(x),q(x),r(x)$ are differentiable functions and\n$\\lambda\\in\\mathbb{R}$. A non zero solution of the system defined by and\nexists in general for a specified $\\lambda$. The functions corresponding\nto that specified $\\lambda$ are called eigenfunctions.\n\nMore generally, if $D$ is some linear differential operator, and\n$\\lambda\\in \\mathbb{R}$ and $f$ is a function such that $Df=\\lambda f$\nthen we say $f$ is an eigenfunction of $D$ with eigenvalue $\\lambda$.",
+  "language": "INFORMAL",
+  "phrase": "Eigenfunction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Eigenfunction"
+    }
+  ],
+  "indexable": true
+}

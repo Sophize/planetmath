@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $ABCD$ is a cyclic quadrilateral, then the product of the two\ndiagonals is equal to the sum of the products of opposite sides.\n\n![image](ptolemy)\n\n$$AC\\cdot BD = AB\\cdot CD + AD \\cdot BC.$$\n\nWhen the quadrilateral is not cyclic we have the following inequality\n$$AB\\cdot CD+BC\\cdot AD>AC\\cdot BD$$\n\nAn interesting particular case is when both $AC$ and $BD$ are diameters,\nsince we get another proof of Pythagoras\u2019 theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PtolemysTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Ptolemy's theorem"
+  ]
+}

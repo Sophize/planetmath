@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\vartheta(n)$ be the Chebyshev function\n$$\\vartheta(n)=\\sum_{\\substack{p\\le n\\\\p{\\:\\mathrm{prime}}}} \\log p.$$\nThen $\\vartheta(n)\\le n\\log 4$ for all $n\\ge 1$.\n\nBy induction.\n\nThe cases for $n=1$ and $n=2$ follow by inspection.\n\nFor even $n>2$, the case follows immediately from the case for $n-1$\nsince $n$ is not prime.\n\nSo let $n=2m+1$ with $m>0$ and consider $(1+1)^{2m+1}$ and its . Since\n$\\displaystyle {{2m+1}\\choose m}={{2m+1}\\choose{m+1}}$ and each term\noccurs exactly once, it follows that\n$\\displaystyle {{2m+1}\\choose m}\\leq 4^m$. Each prime $p$ with\n$m+1<p\\leq 2m+1$ divides ${2m+1}\\choose m$, implying that their product\nalso divides $\\displaystyle {{2m+1}\\choose m}$. Hence\n$$\\vartheta(2m+1)-\\vartheta(m+1)\\le\\log{{2m+1}\\choose m}\\le m\\log 4.$$\nBy the induction hypothesis, $\\vartheta(m+1)\\leq(m+1)\\log4$ and so\n$\\vartheta(2m+1)\\leq(2m+1)\\log4$.\n\n[9]{} G.H. Hardy, E.M. Wright, *An Introduction to the Theory of\nNumbers*, Oxford University Press, 1938.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UpperBoundOnvarthetan"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "upper bound on $\\vartheta(n)$"
+  ]
+}

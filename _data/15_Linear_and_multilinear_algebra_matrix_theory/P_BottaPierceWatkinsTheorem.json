@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathbb{F}$ be an arbitrary field, and let $n$ be a positive\ninteger. Consider $\\mathcal{M}_n (\\mathbb{F}),$ the vector space of all\n$n \\times n$ matrices over $\\mathbb{F}.$ Define\n\n-   $\\mathfrak{sl}_n (\\mathbb{F}) = \\{A \\in \\mathcal{M}_n (\\mathbb{F}):\\, {\\rm tr} (A) = 0\\},$\n\n-   $\\mathcal{N} = \\{A \\in \\mathcal{M}_n (\\mathbb{F}):\\, A\\, \\, \\mbox{is nilpotent}\\},$\n\n-   $\\mathcal{GL}_n (\\mathbb{F}) = \\{A \\in \\mathcal{M}_n (\\mathbb{F}):\\, \\det (A) \\neq 0\\}.$\n\nNotice that $\\mathfrak{sl}_n (\\mathbb{F})$ is a linear subspace of\n$\\mathcal{M}_n (\\mathbb{F})$ and\n$\\mathcal{N} \\subseteq \\mathfrak{sl}_n (\\mathbb{F}).$\n\nThe Botta \u2013 Pierce \u2013 Watkins theorem on linear preservers of the\nnilpotent matrices [@BPW] can be formulated as follows.\n\nLet\n$\\varphi : \\mathfrak{sl}_n (\\mathbb{F}) \\longrightarrow \\mathfrak{sl}_n (\\mathbb{F})$\nbe a linear automorphism. Assume that\n$\\varphi (\\mathcal{N}) \\subseteq \\mathcal{N}.$ Then either\n$\\exists\\, P \\in \\mathcal{GL}_n (\\mathbb{F})\\, \\exists\\, c \\in \\mathbb{F} \\setminus \\{0\\}\\, \\forall\\, A \\in \\mathfrak{sl}_n (\\mathbb{F}) :\\, \\varphi (A) = c P A P^{-1},$\nor\n$\\exists\\, P \\in \\mathcal{GL}_n (\\mathbb{F})\\, \\exists\\, c \\in \\mathbb{F} \\setminus \\{0\\}\\, \\forall\\, A \\in \\mathfrak{sl}_n (\\mathbb{F}) :\\, \\varphi (A) = c P A^{\\rm T} P^{-1}.$\n\nThe original proof is based on the Gerstenhaber - Serezhkin theorem,\nsome elementary algebraic geometry, and the fundamental theorem of\nprojective geometry.\n\n[99]{} P. Botta, S. Pierce, W. Watkins, Linear transformations that\npreserve the nilpotent matrices, *Pacific J. Math.* [**104**]{} (No. 1):\n39\u201346 (1983).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BottaPierceWatkinsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Botta - Pierce - Watkins theorem"
+  ]
+}

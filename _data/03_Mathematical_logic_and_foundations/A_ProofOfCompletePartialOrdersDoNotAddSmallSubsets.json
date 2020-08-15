@@ -1,0 +1,17 @@
+{
+  "argumentText": "Take any $x\\in\\mathfrak{M}[G]$, $x\\subseteq\\kappa$. Let $\\hat{x}$ be a\nname for $x$. There is some $p\\in G$ such that\n$$p\\Vdash\\hat{x}\\text{ is a subset of }\\kappa\\text{ bounded by }\\lambda<\\kappa$$\n\n*Outline:*\n\nFor any $q\\leq p$, we construct by induction a series of elements\n$q_\\alpha$ stronger than $p$. Each $q_\\alpha$ will determine whether or\nnot $\\alpha\\in\\hat{x}$. Since we know the subset is bounded below\n$\\kappa$, we can use the fact that $P$ is $\\kappa$ complete to find a\nsingle element stronger than $q$ which fixes the exact value of\n$\\hat{x}$. Since the series is definable in $\\mathfrak{M}$, so is\n$\\hat{x}$, so we can conclude that above any element $q\\leq p$ is an\nelement which forces $\\hat{x}\\in\\mathfrak{M}$. Then $p$ also forces\n$\\hat{x}\\in\\mathfrak{M}$, completing the proof.\n\n*Details:*\n\nSince forcing can be described within $\\mathfrak{M}$,\n$S=\\{q\\in P\\mid q\\Vdash \\hat{x}\\in V\\}$ is a set in $\\mathfrak{M}$.\nThen, given any $q\\leq p$, we can define $q_0=q$ and for any $q_\\alpha$\n($\\alpha<\\lambda$), $q_{\\alpha+1}$ is an element of $P$ stronger than\n$q_\\alpha$ such that either $q_{\\alpha+1}\\Vdash\\alpha+1\\in \\hat{x}$ or\n$q_{\\alpha+1}\\Vdash\\alpha+1\\notin \\hat{x}$. For limit $\\alpha$, let\n$q_\\alpha^\\prime$ be any upper bound of $q_\\beta$ for $\\alpha<\\beta$\n(this exists since $P$ is $\\kappa$-complete and $\\alpha<\\kappa$), and\nlet $q_\\alpha$ be stronger than $q_\\alpha^\\prime$ and satisfy either\n$q_{\\alpha+1}\\Vdash\\alpha\\in \\hat{x}$ or\n$q_{\\alpha+1}\\Vdash\\alpha\\notin \\hat{x}$. Finally let $q^*$ be the upper\nbound of $q_\\alpha$ for $\\alpha<\\lambda$. $q^*\\in P$ since $P$ is\n$\\kappa$-complete.\n\nNote that these elements all exist since for any $p\\in P$ and any\n(first-order) sentence $\\phi$ there is some $q\\leq p$ such that $q$\nforces either $\\phi$ or $\\neg\\phi$.\n\n$q^*$ not only forces that $\\hat{x}$ is a bounded subset of $\\kappa$,\nbut for every ordinal it forces whether or not that ordinal is contained\nin $\\hat{x}$. But the set\n$\\{\\alpha<\\lambda\\mid q^*\\Vdash \\alpha\\in\\hat{x}\\}$ is defineable in\n$\\mathfrak{M}$, and is of course equal to $\\hat{x}[G^*]$ in any generic\n$G^*$ containing $q^*$. So $q^*\\Vdash\\hat{x}\\in\\mathfrak{M}$.\n\nSince this holds for any element stronger than $p$, it follows that\n$p\\Vdash\\hat{x}\\in\\mathfrak{M}$, and therefore\n$\\hat{x}[G]\\in\\mathfrak{M}$.",
+  "conclusion": "#P_CompletePartialOrdersDoNotAddSmallSubsets",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCompletePartialOrdersDoNotAddSmallSubsets"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of complete partial orders do not add small subsets"
+  ]
+}

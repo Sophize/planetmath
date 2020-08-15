@@ -1,0 +1,17 @@
+{
+  "argumentText": "Suppose $A,B,C$ are real numbers, with $A\\neq 0$, and suppose\n$$Ax^2+Bx+C=0.$$\n\nSince $A$ is nonzero, we can divide by $A$ and obtain the equation\n$$x^2 + bx+c = 0,$$ where $b=\\frac{B}{A}$ and $c=\\frac{C}{A}$. This\nequation can be written as\n$$x^2 + bx + \\frac{b^2}{4} -\\frac{b^2}{4} +c =0,$$ so completing the\nsquare, i.e., applying the identity $(p+q)^2=p^2+2pq + q^2$, yields\n$$\\left(x+\\frac{b}{2}\\right)^2 = \\frac{b^2}{4} - c.$$ Then, taking the\nsquare root of both sides, and solving for $x$, we obtain the solution\nformula $$\\begin{aligned}\nx &=& -\\frac{b}{2} \\pm \\sqrt{\\frac{b^2}{4}-c}\\nonumber\\\\\n &=& \\frac{B}{2A} \\pm \\sqrt{\\frac{B^2}{4A^2}-\\frac{C}{A}}\\nonumber\\\\\n &=& \\frac{-B\\pm\\sqrt{B^2-4AC}}{2A},\\end{aligned}$$ and the derivation\nis completed.\n\nA slightly less intuitive but more aesthetically pleasing approach to\nthis derivation can be achieved by multiplying both sides of the\nequation $$\\begin{aligned}\nax^2+bx+c=0\\end{aligned}$$ by $4a$, resulting in the equation\n$$\\begin{aligned}\n4a^2x^2+4abx+b^2=b^2-4ac,\\end{aligned}$$ in which the left-hand side can\nbe expressed as $(2ax+b)^2$. From here, the proof is identical.",
+  "conclusion": "#P_QuadraticFormula",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivationOfQuadraticFormula"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "derivation of quadratic formula"
+  ]
+}

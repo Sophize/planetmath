@@ -1,0 +1,20 @@
+{
+  "alternatePhrases": [
+    "limit from below",
+    "limit from above",
+    "left-sided limit",
+    "left-handed limit",
+    "right-sided limit",
+    "right-handed limit"
+  ],
+  "definition": "[**Definition**]{} Let $f$ be a real-valued function defined on\n$S \\subseteq {\\mathbb{R}}$. The *left-hand one-sided limit* at\n$a\\in {\\mathbb{R}}$ is defined to be the real number $L^-$ such that for\nevery $\\epsilon > 0$ there exists a $\\delta > 0$ such that\n$|f(x) - L^-| < \\epsilon$ whenever $0 < a - x < \\delta$.\n\nAnalogously, the *right-hand one-sided limit* at $a\\in {\\mathbb{R}}$ is\nthe real number $L^+$ such that for every $\\epsilon > 0$ there exists a\n$\\delta > 0$ such that $|f(x) - L^+| < \\epsilon$ whenever\n$0 < x - a < \\delta$.\n\nCommon notations for the one-sided limits are $$\\begin{aligned}\nL^+ &=& f(x+) = \\lim_{x \\to a^+} f(x) =\\lim_{x \\searrow a} f(x), \\\\\nL^-  &=&f(x-) = \\lim_{x \\to a^-} f(x) =\\lim_{x \\nearrow a} f(x).\\end{aligned}$$\nSometimes, left-handed limits are referred to as limits *from below*\nwhile right-handed limits are *from above*.\n\n[**Theorem**]{} The ordinary limit of a function exists at a point if\nand only if both one-sided limits exist at this point and are equal (to\nthe ordinary limit).\n\n[**Example**]{} The Heaviside unit step function, sometimes colloquially\nreferred to as the diving board function, defined by $$H(x) = \n \\begin{cases}\n  0& \\mbox{ if } ~x < 0 \\\\\n  1& \\mbox{ if } ~x \\geq 0\n \\end{cases}$$ has the simplest kind of discontinuity at $x = 0$, a jump\ndiscontinuity. Its ordinary limit does not exist at this point, but the\none-sided limits do exist, and are\n$$\\lim_{x \\to 0^-} H(x) = 0 \\mbox{ and } \\lim_{x \\to 0^+} H(x) = 1.$$",
+  "language": "INFORMAL",
+  "phrase": "One-Sided Limit",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OnesidedLimit"
+    }
+  ],
+  "indexable": true
+}

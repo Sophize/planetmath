@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring. A right (left) $R$-module $M$ is called right (left)\n*semihereditary* if every finitely generated submodule of $M$ is\nprojective over $R$.\n\nA ring $R$ is said to be a right (left) *semihereditary ring* if all of\nits finitely generated right (left) ideals are projective as modules\nover $R$. If $R$ is both left and right semihereditary, then $R$ is\nsimply called a semihereditary ring.\n\n**Remarks.**\n\n-   A hereditary ring is clearly semihereditary.\n\n-   A ring that is left (right) semiheridtary is not necessarily right\n    (left) semihereditary.\n\n-   If $R$ is hereditary, then every finitely generated submodule of a\n    free $R$-modules is a projective module.\n\n-   A semihereditary integral domain is a Pr\u00fcfer domain, and conversely.",
+  "language": "INFORMAL",
+  "phrase": "Semihereditary Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemihereditaryRing"
+    }
+  ],
+  "indexable": true
+}

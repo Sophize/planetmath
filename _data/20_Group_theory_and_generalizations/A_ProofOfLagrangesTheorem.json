@@ -1,0 +1,17 @@
+{
+  "argumentText": "We know that the cosets $Hg$ form a partition of $G$ (see the coset\nentry for proof of this.) Since $G$ is finite, we know it can be\ncompletely decomposed into a finite number of cosets. Call this number\n$n$. We denote the $i$th coset by $Ha_i$ and write $G$ as\n\n$$G = Ha_1 \\cup Ha_2 \\cup \\cdots \\cup Ha_n$$\n\nsince each coset has $|H|$ elements, we have\n\n$$|G| = |H|\\cdot n$$\n\nand so $|H|$ divides $|G|$, which proves Lagrange\u2019s theorem. $\\square$",
+  "conclusion": "#P_LagrangesTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfLagrangesTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Lagrange's theorem"
+  ]
+}

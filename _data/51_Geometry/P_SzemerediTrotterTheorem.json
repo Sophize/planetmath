@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The number of incidences of a set of $n$ points and a set of $m$ lines\nin the real plane $\\mathbb{R}^2$ is $$I=O(n+m+(nm)^{\\frac{2}{3}}).$$\n\n**Proof**. Let\u2019s consider the points as vertices of a graph, and connect\ntwo vertices by an edge if they are adjacent on some line. Then the\nnumber of edges is $e=I-m$. If $e<4n$ then we are done. If $e \\geq 4n$\nthen by crossing lemma\n$$m^2 \\geq \\operatorname{cr}(G) \\geq \\frac{1}{64}\\frac{(I-m)^3}{n^2},$$\nand the theorem follows.\n\nRecently, T\u00f3th[@cite:toth_szemtrotcomplex] extended the theorem to the\ncomplex plane $\\mathbb{C}^2$. The proof is difficult.\n\n[1]{}\n\nCsaba\u00a0D. T[\u00f3]{}th. The [Szemer\u00e9di]{}-[Trotter]{} theorem in the complex\nplane. , May 2003.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SzemerediTrotterTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Szemer\\'edi-Trotter theorem"
+  ]
+}

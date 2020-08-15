@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The quadratic formula $$x \\;=\\; \\frac{-b\\!\\pm\\!\\sqrt{b^2\\!-\\!4ac}}{2a}$$\nfor solving the quadratic equation $$\\begin{aligned}\nax^2\\!+\\!bx\\!+\\!c \\;=\\; 0\\end{aligned}$$ with real coefficients $a$,\n$b$, $c$ is valid as well for all complex values of these coefficients\n($a \\neq 0$), when the square root is determined as is presented in the\n.\\\n[*Proof.*]{} Multiplying (1) by $4a$ and adding $b^2$ to both sides\ngives an equation $$4a^2x^2\\!+\\!4abx\\!+\\!4ac\\!+\\!b^2 \\;=\\; b^2$$ or\n$$(2ax)^2\\!+\\!2\\!\\cdot\\!2ax\\!\\cdot\\!{b}\\!+\\!b^2 \\;=\\; b^2\\!-\\!4ac$$ or\nfurthermore $$(2ax\\!+\\!b)^2 \\;=\\; b^2\\!-\\!4ac.$$ Taking square root\nalgebraically yields $$2ax\\!+\\!b \\;=\\; \\pm\\!\\sqrt{b^2\\!-\\!4ac},$$ which\nimplies the quadratic formula.\\\n**Note.** A quadratic formula is meaningful besides $\\mathbb{C}$ also in\nother fields with characteristic $\\neq 2$ if one can find the needed\n\u201csquare root\u201d (this may require a field extension).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuadraticEquationInmathbbC"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "quadratic equation in $\\mathbb{C}$",
+    "quadratic equation"
+  ]
+}

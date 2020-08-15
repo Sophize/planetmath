@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $a$ is an integer not divisible by a positive prime $p$, then\nFermat\u2019s little theorem (a.k.a. Fermat\u2019s theorem) guarantees that the\ndifference $a^{p-1}\\!-\\!1$ is divisible by $p$. The integer\n$$q_p(a) \\;:=\\; \\frac{a^{p-1}\\!-\\!1}{p}$$ is called the [*Fermat\nquotient of $a$ modulo $p$*]{}. Compare it with the Wilson quotient\n$w_p$, which is similarly related to Wilson\u2019s theorem.\\\n[*Lerch\u2019s formula*]{}\n$$\\sum_{a=1}^{p-1}q_p(a) \\;\\equiv\\; w_p \\;\\, \\pmod p$$ for an odd prime\n$p$ connects the Fermat quotients and the Wilson quotient.\\\nIf $p$ is a positive prime but not a Wilson prime, and $w_p$ is its\nWilson quotient, then the expression\n$$q_p(w_p) \\;=\\; \\frac{w_p^{p-1}\\!-\\!1}{p}$$ is called the\n[*Fermat\u2013Wilson quotient*]{} of $p$. Sondow proves in \\[1\\] that the\ngreatest common divisor of all Fermat\u2013Wilson quotients is 24.\n\n[8]{} : *Lerch Quotients, Lerch Primes, Fermat\u2013Wilson Quotients, and the\nWieferich-non-Wilson Primes 2, 3, 14771*. Available at .",
+  "language": "INFORMAL",
+  "phrase": "Fermat Quotient",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FermatQuotient"
+    }
+  ],
+  "indexable": true
+}

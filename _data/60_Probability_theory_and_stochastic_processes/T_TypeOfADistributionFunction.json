@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "centering factor",
+    "scale parameter",
+    "location parameter"
+  ],
+  "definition": "Two distribution functions $F,G:\\mathbb{R}\\to [0,1]$ are said to of the\nsame *type* if there exist $a,b\\in\\mathbb{R}$ such that $G(x)=F(ax+b)$.\n$a$ is called the *scale parameter*, and $b$ the *location parameter* or\n*centering parameter*. Let\u2019s write $F\\stackrel{t}{=}G$ to denote that\n$F$ and $G$ are of the same type.\n\n**Remarks**.\n\n-   Necessarily $a>0$, for otherwise at least one of $G(-\\infty)=0$ or\n    $G(\\infty)=1$ would be violated.\n\n-   If $G(x)=F(x+b)$, then the graph of $G$ is *shifted* to the right\n    from the graph of $F$ by $b$ units, if $b>0$ and to the left if\n    $b<0$.\n\n-   If $G(x)=F(ax)$, then the graph of $G$ is *stretched* from the graph\n    of $F$ by $a$ units if $a>1$, and *compressed* if $a<1$.\n\n-   If $X$ and $Y$ are random variables whose distribution functions are\n    of the same type, say, $F$ and $G$ respectively, and related by\n    $G(x)=F(ax+b)$, then $X$ and $aY+b$ are identically distributed,\n    since\n    $$P(X\\le z)=F(z)=G(\\frac{z-b}{a})=P(Y \\le \\frac{z-b}{a})=P(aY+b \\le z).$$\n    When $X$ and $aY+b$ are identically distributed, we write\n    $X \\stackrel{t}{=} Y$.\n\n-   Again, suppose $X$ and $Y$ correspond to $F$ and $G$, two\n    distribution functions of the same type related by $G(x)=F(ax+b)$.\n    Then it is easy to see that $E[X]<\\infty$ iff $E[Y]<\\infty$. In\n    fact, if the expectation exists for one, then $E[X]=aE[Y]+b$.\n    Furthermore, $Var[X]$ is finite iff $Var[Y]$ is. And in this case,\n    $Var[X]=a^2Var[Y]$. In general, convergence of moments is a\n    \u201ctypical\u201d property.\n\n-   We can partition the set of distribution functions into disjoint\n    subsets of functions belonging to the same types, since the binary\n    relation $\\stackrel{t}{=}$ is an equivalence relation.\n\n-   By the same token, we can classify all real random variables defined\n    on a fixed probability space according to their distribution\n    functions, so that if $X$ and $Y$ are of the same type $\\tau$ iff\n    their corresponding distribution functions $F$ and $G$ are of type\n    $\\tau$.\n\n-   Given an equivalence class of distribution functions belonging to a\n    certain type $\\tau$, such that a random variable $Y$ of type $\\tau$\n    exists with finite expectation and variance, then there is one\n    distribution function $F$ of type $\\tau$ corresponding to a random\n    variable $X$ such that $E[X]=0$ and $Var[X]=1$. $F$ is called the\n    *standard distribution function* for type $\\tau$. For example, the\n    standard (cumulative) normal distribution is the standard\n    distribution function for the type consisting of all normal\n    distribution functions.\n\n-   Within each type $\\tau$, we can further classify the distribution\n    functions: if $G(x)=F(x+b)$, then we say that $G$ and $F$ belong to\n    the same *location family* under $\\tau$; and if $G(x)=F(ax)$, then\n    we say that $G$ and $F$ belong to the same *scale family* (under\n    $\\tau$).",
+  "language": "INFORMAL",
+  "phrase": "Type Of A Distribution Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TypeOfADistributionFunction"
+    }
+  ],
+  "indexable": true
+}

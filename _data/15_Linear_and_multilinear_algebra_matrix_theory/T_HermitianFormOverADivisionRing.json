@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $D$ be a division ring admitting an $*$. Let $V$ be a vector space\nover $D$. A *Hermitian form* over $D$ is a function from $V\\times V$ to\n$D$, denoted by $(\\cdot,\\cdot)$ with the following properties, for any\n$v,w\\in V$ and $d\\in D$:\n\n1.  $(\\cdot,\\cdot)$ is additive in each of its arguments,\n\n2.  $(du,v)=d(u,v)$,\n\n3.  $(u,dv)=(u,v)d^*$,\n\n4.  $(u,v)=(v,u)^*$.\n\nNote that if the Hermitian form $(\\cdot,\\cdot)$ is non-trivial and if\n$*$ is the identity on $D$, then $D$ is a field and $(\\cdot,\\cdot)$ is\njust a symmetric bilinear form.\n\nIf we replace the last condition by $(u,v)=-(v,u)^*$, then\n$(\\cdot,\\cdot)$ over $D$ is called a *skew Hermitian form*.\n\n**Remark.** Every skew Hermitian form over a division ring induces a\nHermitian form and vice versa.",
+  "language": "INFORMAL",
+  "phrase": "Hermitian Form Over A Division Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HermitianFormOverADivisionRing"
+    }
+  ],
+  "indexable": true
+}

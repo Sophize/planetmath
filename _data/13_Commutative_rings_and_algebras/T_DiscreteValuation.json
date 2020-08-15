@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "rank one valuations",
+    "rank-one valuations"
+  ],
+  "definition": "A [*discrete valuation*]{} on a field $K$ is a valuation\n$|\\cdot|: K \\to {\\mathbb{R}}$ whose image is a discrete subset of\n${\\mathbb{R}}$.\n\nFor any field $K$ with a discrete valuation $|\\cdot|$, the set\n$$R := \\{x \\in K : |x| \\leq 1\\}$$ is a subring of $K$ with sole maximal\nideal $$M := \\{x \\in K : |x| < 1\\},$$ and hence $R$ is a discrete\nvaluation ring. Conversely, given any discrete valuation ring $R$, the\nfield of fractions $K$ of $R$ admits a discrete valuation sending each\nelement $x \\in R$ to $c^n$, where $0 < c < 1$ is some arbitrary fixed\nconstant and $n$ is the order of $x$, and extending multiplicatively to\n$K$.\n\n[**Note:**]{} Discrete valuations are often written additively instead\nof multiplicatively; under this alternate viewpoint, the element $x$\nmaps to $\\log_c|x|$ (in the above notation) instead of just $|x|$. This\ntransformation reverses the order of the absolute values (since\n$c < 1$), and sends the element $0 \\in K$ to $\\infty$. It has the\nadvantage that every valuation can be normalized by a suitable scalar\nmultiple to take values in the integers.",
+  "language": "INFORMAL",
+  "phrase": "Discrete Valuation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiscreteValuation"
+    }
+  ],
+  "indexable": true
+}

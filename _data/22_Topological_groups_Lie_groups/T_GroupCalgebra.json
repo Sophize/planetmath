@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathbb{C}}[G]$ be the group ring of a discrete group $G$. It has\ntwo completions to a $C^*$-algebra:\n\nReduced group $C^*$-algebra.\n\n:   The reduced group $C^*$-algebra, $C^*_r(G)$, is obtained by\n    completing ${\\mathbb{C}}[G]$ in the operator norm for its regular\n    representation on $l^2(G)$.\\\n\nMaximal group $C^*$-algebra.\n\n:   The maximal group $C^*$-algebra, $C^*_\\mathrm{max}(G)$ or just\n    $C^*(G)$, is defined by the following universal property: any\n    \\*-homomorphism from ${\\mathbb{C}}[G]$ to some\n    ${\\mathbb{B}}({\\mathord{\\mathcal{H}}})$ (the $C^*$-algebra of\n    bounded operators on some Hilbert space ${\\mathord{\\mathcal{H}}}$)\n    factors through the inclusion\n    ${\\mathbb{C}}[G] \\hookrightarrow C^*_\\mathrm{max}(G)$.\n\nIf $G$ is amenable then $C^*_r(G) \\cong C^*_\\mathrm{max}(G)$.",
+  "language": "INFORMAL",
+  "phrase": "Group $C^*$-Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupCalgebra"
+    }
+  ],
+  "indexable": true
+}

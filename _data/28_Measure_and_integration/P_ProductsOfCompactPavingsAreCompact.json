@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose that $(K_i,\\mathcal{K}_i)$ is a paved space for each $i$ in\nindex set $I$. The $\\prod_{i\\in I} K_i$ is the set of all functions\n$x\\colon I\\rightarrow\\bigcup_iK_i$ such that $x_i\\in K_i$ for each $i$,\nand the product of subsets $S_i\\subseteq K_i$ is\n$$\\prod_{i\\in I}S_i=\\left\\{x\\in\\prod_{i\\in I}K_i\\colon x_i\\in S_i\\text{ for each }i\\in I\\right\\}.$$\nThen, the product paving is defined by\n$$\\prod_{i\\in I} \\mathcal{K}_i=\\left\\{\\prod_{i\\in I}S_i\\colon S_i\\in\\mathcal{K}_i\\text{ for each }i\\in I\\right\\}.$$\n\n\\[thm:1\\] Let $(K_i,\\mathcal{K}_i)$ be compact paved spaces for\n$i\\in I$. Then, $\\prod_i\\mathcal{K}_i$ is a compact paving on\n$\\prod_iK_i$.\n\nNote that this result is a version of Tychonoff\u2019s theorem applying to\npaved spaces and, together with the fact that all compact pavings are\nclosed subsets of a compact space, is easily seen to be equivalent to\nTychonoff\u2019s theorem.\n\nTheorem \\[thm:1\\] is simple to prove directly. Suppose that\n$\\{A_j\\colon j\\in J\\}$ is a subset of $\\prod_i \\mathcal{K}_i$ satisfying\nthe finite intersection property. Writing $A_j=\\prod_{i\\in I}S_{ij}$ for\n$S_{ij}\\in\\mathcal{K}_i$ gives $$\\label{eq:1}\n\\bigcap_{j\\in J^\\prime}A_j=\\prod_{i\\in I}\\left(\\bigcap_{j\\in J^\\prime}S_{ij}\\right)$$\nfor any $J^\\prime\\subseteq J$. By the finite intersection property, this\nis nonempty whenever $J^\\prime$ is finite, so\n$\\bigcap_{j\\in J^\\prime}S_{ij}\\not=\\emptyset$. Consequently,\n$\\{S_{ij}\\colon j\\in J\\}\\subseteq\\mathcal{K}_i$ satisfies the finite\nintersection property and, by compactness of $\\mathcal{K}_i$, the\nintersection $\\bigcap_{j\\in J}S_{ij}$ is nonempty. So equation\n(\\[eq:1\\]) shows that $\\bigcap_{j\\in J}A_j$ is nonempty.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProductsOfCompactPavingsAreCompact"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "products of compact pavings are compact"
+  ]
+}

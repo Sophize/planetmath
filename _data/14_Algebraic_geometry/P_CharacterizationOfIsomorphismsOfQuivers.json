@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $Q=(Q_0,Q_1,s,t)$ and $Q'=(Q'_0,Q'_1,s',t')$ be quivers. Recall,\nthat a morphism $F:Q\\to Q'$ is an isomorphism if and only if there is a\nmorphism $G:Q'\\to Q$ such that $FG={\\mathrm{Id}}(Q')$ and\n$GF={\\mathrm{Id}}(Q)$, where $${\\mathrm{Id}}(Q):Q\\to Q$$ is given by\n${\\mathrm{Id}}(Q)=({\\mathrm{Id}}(Q)_0,{\\mathrm{Id}}(Q)_1)$, where both\n${\\mathrm{Id}}(Q)_0$ and ${\\mathrm{Id}}(Q)_1$ are the identities on\n$Q_0$, $Q_1$ respectively.\n\n**Proposition.** A morphism of quivers $F:Q\\to Q'$ is an isomorphism if\nand only if both $F_0$ and $F_1$ are bijctions.\n\n*Proof.* ,,$\\Rightarrow$\u201d It follows from the definition of isomorphism\nthat $F_0G_0={\\mathrm{Id}}(Q')_0$ and $G_0F_0={\\mathrm{Id}}(Q)_0$ for\nsome $G_0:Q'_0\\to Q_0$. Thus $F_0$ is a bijection. The same argument is\nvalid for $F_1$.\n\n,,$\\Leftarrow$\u201d Assume that both $F_0$ and $F_1$ are bijections and\ndefine $G:Q'_0\\to Q_0$ and $H:Q'_1\\to Q_1$ by\n$$G=F_0^{-1},\\ \\ H=F_1^{-1}.$$ Obviously $(G,H)$ is ,,the inverse\u201d of\n$F$ in the sense, that the equalites for compositions hold. What is\nremain to prove is that $(G,H)$ is a morphism of quivers. Let\n$\\alpha\\in Q'_1$. Then there exists an arrow $\\beta\\in Q_1$ such that\n$$F_1(\\beta)=\\alpha.$$ Thus $$H(\\alpha)=\\beta.$$ Since $F$ is a morphism\nof quivers, then $$s'(\\alpha)=s'(F_1(\\beta))=F_0(s(\\beta)),$$ which\nimplies that $$G(s'(\\alpha))=s(\\beta)=s(H(\\alpha)).$$ The same arguments\nhold for the target function $t$, which completes the proof. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacterizationOfIsomorphismsOfQuivers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "characterization of isomorphisms of quivers"
+  ]
+}

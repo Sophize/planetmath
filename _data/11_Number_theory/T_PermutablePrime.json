@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "absolute prime"
+  ],
+  "definition": "Given the base $b$ representation of a prime number $p$ as\n$d_k, \\ldots , d_1$ with $$p = \\sum_{i = 1}^k d_ib^{i - 1},$$ if each\npossible permutation of the digits still represents a prime number in\nthat base, then $p$ is said to be a *permutable prime*. For example, in\nbase 10, the prime 337 is a permutable prime since 373 and 733 are also\nprime. The known base 10 permutable primes are listed in A003459 of\nSloane\u2019s OEIS.\n\nIf we define $\\pi_P(n)$ to count how many permutable primes there are\nbelow $n$, it is obvious that $\\pi_P(b - 1) = \\pi(b - 1)$, where\n$\\pi(n)$ is the standard prime counting function.\n\nWhen $2 \\vert b$, a search for permutable primes can safely exclude any\nprimes whose base $b$ representation includes digits that are\nindividually even. In a trivial sense, all repunit primes are also\npermutable primes. This means that in binary, the only permutable primes\nare repunits (that is, the Mersenne primes). Richert proved in 1951 that\nin the range $991 < p < 10^{175}$ the only base 10 permutable primes are\nrepunit primes; it is conjectured that this is also true above that\nrange.\n\n[1]{} H. E. Richert, \u201cOn permutable primtall,\u201d [*Unsolved Norsk\nMatematiske Tiddskrift*]{}, [**33**]{} (1951), 50 - 54.",
+  "language": "INFORMAL",
+  "phrase": "Permutable Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PermutablePrime"
+    }
+  ],
+  "indexable": true
+}

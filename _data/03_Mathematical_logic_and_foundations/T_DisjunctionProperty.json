@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "DP"
+  ],
+  "definition": "The *disjunction property* (or *DP* for short) is the meta-statement in\nlogic, which says\n\nif $\\vdash A \\lor B$, then $\\vdash A$ or $\\vdash B$.\n\nDP fails for classical propositional logic, but is true for\nintuitionisitc propositional logic. In fact, there are infinitely many\nintermediate logics between classical and intuitionistic logics that\nsatisfy DP. Furthermore, there are no intermediate logics maximal with\nrespect to satisfying DP. With respect to predicate logic, DP is ture in\nfirst order intuitionistic logic without function symbols.\n\nThere is also a modal version of the disjunction property (or *MDP* for\nshort), which states:\n\nif $\\vdash \\square A \\lor \\square B$, then $\\vdash A$ or $\\vdash B$.\n\nIt is not hard to see that MDP holds in normal modal logics K, T, K4,\nS4, and GL, and fails in D, B, and S5.\n\n**Remark**. In predicate logic, there is also a sort of infinitary\nanalog of DP called the existence property (EP), or the witness\nproperty, which states:\n\nif $\\vdash \\exists x P(x)$, then there is a closed term $t$ such that\n$\\vdash P(t)$.\n\nLike DP, EP fails in classical first-order logic, but true in\nfirst-order intuitionistic logic without function symbols and with at\nleast one constant symbol.",
+  "language": "INFORMAL",
+  "phrase": "Disjunction Property",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DisjunctionProperty"
+    }
+  ],
+  "indexable": true
+}

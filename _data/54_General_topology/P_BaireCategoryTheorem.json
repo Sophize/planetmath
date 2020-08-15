@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In a non-empty complete metric space, any countable intersection of\ndense, open subsets is non-empty.\n\nIn fact, such countable intersections of dense, open subsets are dense.\nSo the theorem holds also for any non-empty open subset of a complete\nmetric space.\n\n**Alternative formulations:** Call a set *first category*, or a *meagre*\nset, if it is a countable union of nowhere dense sets, otherwise *second\ncategory*. The Baire category theorem is often stated as \u201cno non-empty\ncomplete metric space is of first category\u201d, or, trivially, as \u201ca\nnon-empty, complete metric space is of second category\u201d. In short, this\ntheorem says that every nonempty complete metric space is a Baire space.\n\nIn functional analysis, this important property of complete metric\nspaces forms the [b]{}asis for the proofs of the important principles of\nBanach spaces: the open mapping theorem and the closed graph theorem.\n\nIt may also be taken as giving a concept of \u201csmall sets\u201d, similar to\nsets of measure zero: a countable union of these sets remains \u201csmall\u201d.\nHowever, the real line $\\mathbb{R}$ may be partitioned into a set of\nmeasure zero and a set of first category; the two concepts are distinct.\n\nNote that, apart from the requirement that the set be a complete metric\nspace, all conditions and conclusions of the theorem are phrased\ntopologically. This \u201cmetric requirement\u201d is thus something of a\ndisappointment. As it turns out, there are two ways to reduce this\nrequirement.\n\nFirst, if a topological space $\\mathcal{T}$ is homeomorphic to a\nnon-empty open subset of a complete metric space, then we can transfer\nthe Baire property through the homeomorphism, so in $\\mathcal{T}$ too\nany countable intersection of open dense sets is non-empty (and, in\nfact, dense). The other formulations also hold in this case.\n\nSecond, the Baire category theorem holds for a locally compact,\nHausdorff[^1] topological space $\\mathcal{T}$.\n\n[^1]: Some authors only define a locally compact space to be a Hausdorff\n    space; that is the sense required for this theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BaireCategoryTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Baire category theorem"
+  ]
+}

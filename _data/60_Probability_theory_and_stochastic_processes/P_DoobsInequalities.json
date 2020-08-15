@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Doob\u2019s inequalities place bounds on the maximum value attained by a\nmartingale in terms of the terminal value. We consider a process\n$(X_t)_{t\\in\\mathbb{T}}$ defined on the filtered probability space\n$(\\Omega,\\mathcal{F},(\\mathcal{F})_{t\\in\\mathbb{T}},\\mathbb{P})$. The\nassociated maximum process $(X^*_t)$ is\n$$X^*_t\\equiv\\sup_{s\\le t}|X_s|.$$ The notation $\\Vert \\cdot\\Vert_p$ for\nthe of a random variable will be used. In discrete-time or, more\ngenerally whenever the index set $\\mathbb{T}$ is countable, then Doob\u2019s\ninequalities are as follows.\n\n\\[thm:1\\] Let $(X_t)_{t\\in\\mathbb{T}}$ be a submartingale with countable\nindex set $\\mathbb{T}$. Then, $$\\label{eq:1}\n\\mathbb{P}\\left(\\sup_{s\\le t}X_s\\ge K\\right)\\le K^{-1}\\mathbb{E}[(X_t)_+]$$\nIf $X$ is either a martingale or nonnegative submartingale then,\n$$\\begin{gathered}\n\\label{eq:2}\\mathbb{P}(X^*_t\\ge K)\\le K^{-1}\\mathbb{E}[|X_t|],\\\\\n\\label{eq:3}\\Vert X^*_t\\Vert_p\\le \\frac{p}{p-1}\\Vert X_t\\Vert_p. \\end{gathered}$$\nfor every $K>0$ and $p>1$.\n\nIn particular, (\\[eq:3\\]) shows that the maximum of any $L^p$-bounded\nmartingale is itself $L^p$-bounded and, martingales $X^n$ converge to\n$X$ in the $L^p$-norm if and only if $(X^n-X)^*\\rightarrow 0$ in the\n$L^p$-norm. The special case where $p=2$ gives\n$$\\mathbb{E}[(X^*_t)^2]\\le 4\\mathbb{E}[X_t^2]$$ which is known as\n*Doob\u2019s maximal quadratic inequality*.\n\nSimilarly, (\\[eq:2\\]) shows that any $L^1$-bounded martingale is almost\nsurely bounded and that convergence in the $L^1$-norm implies ucp\nconvergence. Inequality (\\[eq:1\\]) is also known as Kolmogorov\u2019s\nsubmartingale inequality.\n\nDoob\u2019s inequalities are often applied to continuous-time processes,\nwhere $\\mathbb{T}=\\mathbb{R}_+$. In this case,\n$X^*_t=\\sup_{s\\le t}|X_s|$ is a supremum of uncountably many random\nvariables, and need not be measurable. Instead, it is typically assumed\nthat the processes are right-continuous, in which case, for any $t>0$\nthe supremum may be restricted to the countable set\n$$\\mathbb{T}^\\prime=\\{s\\in\\mathbb{R}_+:s/t\\in\\mathbb{Q}\\}.$$ Putting\nthis into Theorem \\[thm:1\\] gives the following continuous-time version\nof the inequalities.\n\nLet $(X_t)_{t\\in\\mathbb{R}_+}$ be a right-continuous submartingale.\nThen,\n$$\\mathbb{P}\\left(\\sup_{s\\le t}X_s\\ge K\\right)\\le K^{-1}\\mathbb{E}[(X_t)]$$\nfor every $K>0$. If $X$ is right-continuous and either a martingale or\nnonnegative submartingale then, $$\\begin{gathered}\n\\mathbb{P}(X^*_t\\ge K)\\le K^{-1}\\mathbb{E}[|X_t|],\\\\\n\\Vert X^*_t\\Vert_p\\le \\frac{p}{p-1}\\Vert X_t\\Vert_p. \\end{gathered}$$\nfor every $K>0$ and $p>1$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DoobsInequalities"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Doob's inequalities",
+    "Doob's inequality"
+  ]
+}

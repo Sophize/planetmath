@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "complex antiderivative"
+  ],
+  "definition": "By the [**]{} of a complex function $f$ in a domain $D$ of $\\mathbb{C}$,\nwe every complex function $F$ which in $D$ satisfies the condition\n$$\\frac{d}{dz}F(z) = f(z).$$\n\n-   If $f$ is a continuous complex function in a domain $D$ and if the\n    integral $$\\begin{aligned}\n    F(z) := \\int_{\\gamma_z}f(t)\\,dt\\end{aligned}$$ where the path\n    ${\\gamma_z}$ begins at a fixed point $z_0$ of $D$ and ends at the\n    point $z$ of $D$, is independent of the path $\\gamma_z$ for each\n    value of $z$, then (1) defines an analytic function $F$ with domain\n    $D$. This function is an antiderivative of $f$ in $D$, at all points\n    of $D$, the condition $$\\frac{d}{dz}\\int_{\\gamma_z}f(t)\\,dt = f(z)$$\n    is true.\n\n-   If $f$ is an analytic function in a simply connected open domain\n    $U$, then $f$ has an antiderivative in $U$, the function $F$ defined\n    by (1) where the path $\\gamma_z$ is within $U$. If $\\gamma$ lies\n    within $U$ and connects the points $z_0$ and $z_1$, then\n    $$\\int_{\\gamma}f(z)\\,dz = F(z_1)-F(z_0),$$ where $F$ is an arbitrary\n    antiderivative of $f$ in $U$.",
+  "language": "INFORMAL",
+  "phrase": "Antiderivative Of Complex Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AntiderivativeOfComplexFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "positive"
+  ],
+  "definition": "Let $H$ be a complex Hilbert space. Let $T:H \\longrightarrow H$ be a\nbounded operator in $H$.\n\n[**Definition -**]{} $T$ is said to be a [**positive operator**]{} if\nthere exists a bounded operator $A: H \\longrightarrow H$ such that\n$$T=A^*A$$ where $A^*$ denotes the adjoint of $A$.\n\nEvery positive operator $T$ satisfies the very strong condition\n$\\langle T v , v \\rangle \\geq 0$ for every $v \\in H$ since\n$$\\langle T v , v \\rangle = \\langle A^*A v , v \\rangle = \\langle A v , Av \\rangle = \\|Av\\|^2 \\geq 0$$\n\nThe converse is also true, although it is not so to prove. Indeed,\n\n[**Theorem -**]{} $T$ is positive if and only if\n$\\langle Tv, v \\rangle \\geq 0 \\;\\;\\;\\;\\forall_{v \\in H}$\n\nGeneralization to $C^*$-algebras\n--------------------------------\n\nThe above notion can be generalized to elements in an arbitrary .\n\nIn what follows $\\mathcal{A}$ denotes a $C^*$-algebra.\n\n[**Definition -**]{} An element $x \\in \\mathcal{A}$ is said to be\n[**positive**]{} (and denoted $0 \\leq x$) if $$x=a^*a$$ for some element\n$a \\in \\mathcal{A}$.\n\n$Remark -$ Positive elements are clearly .\n\nPositive spectrum\n-----------------\n\nIt can be shown that the positive elements of $\\mathcal{A}$ are\nprecisely the normal elements of $\\mathcal{A}$ with a positive spectrum.\nWe it here as a theorem:\n\n[**Theorem -**]{} Let $x \\in \\mathcal{A}$ and $\\sigma(x)$ denote its\nspectrum. Then $x$ is positive if and only if $x$ is and\n$\\sigma(x)\\subset \\mathbb{R}_{0}^+$.\n\nSquare roots\n------------\n\nPositive elements admit a unique positive square root.\n\n[**Theorem -**]{} Let $x$ be a positive element in $\\mathcal{A}$. There\nis a unique $b \\in \\mathcal{A}$ such that\n\n-   $b$ is positive\n\n-   $x=b^2$.\n\nThe converse is also true (with assumptions): If $x$ admits a square\nroot then $x$ is positive, since $$x=b^2=bb=b^*b$$\n\nThe positive cone\n-----------------\n\nAnother interesting fact about positive elements is that they form a in\n$\\mathcal{A}$, usually called the [**positive cone**]{} of\n$\\mathcal{A}$. That is stated in following theorem:\n\n[**Theorem -**]{} Let $a, b$ be positive elements in $\\mathcal{A}$. Then\n\n-   $a+b$ is also positive\n\n-   $\\lambda a$ is also positive for every $\\lambda \\geq 0$\n\n-   If both $a$ and $-a$ are positive then $a=0$.\n\nNorm closure\n------------\n\n[**Theorem -**]{} The set of positive elements in $\\mathcal{A}$ is norm\nclosed.",
+  "language": "INFORMAL",
+  "phrase": "Positive Element",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PositiveElement"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring. The **(right) weak global dimension** of $R$ is\ndefined as\n$$\\mathrm{w.gl.dim}R=\\mathrm{sup}\\{\\mathrm{wd}_RM\\ |\\ M\\mbox{ is a right module}\\}.$$\n\nUnlike global dimension of $R$ the definition of the weak global\ndimension is left/right symmetric. This follows from the fact that for\nevery left module $M$ and right module $N$ there is an isomorphism\n$$\\mathrm{Tor}_n^R(M,N)\\simeq\\mathrm{Tor}_n^R(N,M).$$ Thus we simply say\nthat $R$ has the weak global dimension. Note that this does not hold for\nExt functors, so (generally) the definition of global dimension is not\nleft/right symmetric.\n\nThe following proposition is a simple consequence of the fact that every\nprojective module is flat:\n\n**Proposition.** For any ring $R$ we have\n$$\\mathrm{w.gl.dim}R\\leqslant\\mathrm{min}\\ \\{\\ \\mathrm{l.gl.dim}R,\\ \\mathrm{r.gl.dim}R\\ \\},$$\nwhere $\\mathrm{l.gl.dim}$ and $\\mathrm{r.gl.dim}$ denote the left global\ndimension and right global dimension respectively.",
+  "language": "INFORMAL",
+  "phrase": "Weak Global Dimension",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeakGlobalDimension"
+    }
+  ],
+  "indexable": true
+}

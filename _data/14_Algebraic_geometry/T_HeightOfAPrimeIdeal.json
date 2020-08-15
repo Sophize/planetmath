@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "height"
+  ],
+  "definition": "Let $R$ be a commutative ring and $\\mathfrak{p}$ a prime ideal of $R$.\nThe [*height*]{} of $\\mathfrak{p}$ is the supremum of all integers $n$\nsuch that there exists a chain\n$$\\mathfrak{p}_0 \\subset \\cdots \\subset \\mathfrak{p}_n = \\mathfrak{p}$$\nof distinct prime ideals. The height of $\\mathfrak{p}$ is denoted by\n$\\operatorname{h}(\\mathfrak{p})$.\n\n$\\operatorname{h}(\\mathfrak{p})$ is also known as the rank of\n$\\mathfrak{p}$ and the codimension of $\\mathfrak{p}$.\n\nThe Krull dimension of $R$ is the supremum of the heights of all the\nprime ideals of $R$: $$\\sup\\lbrace \\operatorname{h}(\\mathfrak{p})\n\\mid \\mathfrak{p}\\mbox{ prime in }R \\rbrace.$$",
+  "language": "INFORMAL",
+  "phrase": "Height Of A Prime Ideal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HeightOfAPrimeIdeal"
+    }
+  ],
+  "indexable": true
+}

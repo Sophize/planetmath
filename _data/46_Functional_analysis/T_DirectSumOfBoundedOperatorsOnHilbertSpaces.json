@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definition\n----------\n\nLet $\\{ H_i\\}_{i \\in I}$ be a family of Hilbert spaces indexed by a set\n$I$. For each $i \\in I$ let $T_i:H_i \\longrightarrow H_i$ be a bounded\nlinear operator on $H_i$ such that the family $\\{T_i\\}_{i \\in I}$ of\nbounded linear operators is uniformly bounded, i.e.\n$\\sup\\,\\{\\|T_i\\|: i \\in I\\} < \\infty$.\n\n[**Definition -**]{} The *direct sum* of the uniformly bounded family\n$\\{T_i\\}_{i \\in I}$ is the operator $$\\begin{aligned}\n\\bigoplus_{i \\in I} T_i : \\bigoplus_{i \\in I} H_i \\longrightarrow \\bigoplus_{i \\in I} H_i\\end{aligned}$$\non the direct sum of Hilbert spaces $\\bigoplus_{i \\in I} H_i$ defined by\n$$\\begin{aligned}\n\\left( \\bigoplus_{i \\in I} T_i \\;(x)\\right)_i := T_i x_i\\end{aligned}$$\n\nIt can be seen that $\\bigoplus_{i \\in I} T_i$ is well-defined and is in\nfact a bounded linear operator, whose norm is $$\\begin{aligned}\n\\left\\|\\bigoplus_{i \\in I} T_i \\right\\| = \\sup\\,\\{\\|T_i\\| : i \\in I\\}\\end{aligned}$$\n\nProperties\n----------\n\n-   $\\displaystyle \\bigoplus_{i \\in I}  (aT_i + b S_i) = a \\bigoplus_{i \\in I} T_i + b\\bigoplus_{i \\in I} S_i$,\n    where $a, b \\in \\mathbb{C}$.\n\n<!-- -->\n\n-   $\\displaystyle \\left(\\bigoplus_{i \\in I} T_i\\right)^* = \\bigoplus_{i \\in I} T_i^*$.\n\n<!-- -->\n\n-   $\\displaystyle \\left(\\bigoplus_{i \\in I} T_i\\right) \\left(\\bigoplus_{i \\in I} S_i\\right)  = \\bigoplus_{i \\in I} T_iS_i$.",
+  "language": "INFORMAL",
+  "phrase": "Direct Sum Of Bounded Operators On Hilbert Spaces",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirectSumOfBoundedOperatorsOnHilbertSpaces"
+    }
+  ],
+  "indexable": true
+}

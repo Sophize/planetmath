@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given a domain $U\\subset\\mathbb{C}$, $a\\in U$, and\n$f:U\\setminus\\{a\\}\\to\\mathbb{C}$ being holomorphic, then $a$ is an\nessential singularity of $f$ if and only if the image of any punctured\nneighborhood of $a$ under $f$ is dense in $\\mathbb{C}$. Put another way,\na holomorphic function can come in an arbitrarily small neighborhood of\nits essential singularity arbitrarily close to any complex value.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CasoratiWeierstrassTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Casorati-Weierstrass theorem",
+    "Weierstrass-Casorati theorem"
+  ]
+}

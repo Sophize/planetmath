@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Omega$ be a set, ${\\mathcal F}$ a sigma-algebra of subsets of\n$\\Omega$ and $P$ a probability measure. Given the independent random\nvariables $\\{X_n, n \\in {\\mathbb N}\\}$, defined on\n$(\\Omega,{\\mathcal F}, P)$, it happens that\n$$P(A)=0 \\mbox{ or } P(A)=1, A \\in {\\mathcal F}_{\\infty},$$ i.e.,the\nprobability of any tail event is 0 or 1.\n\nDefine ${\\mathcal F}_n = \\sigma(X_1,X_2,...,X_n)$. As any event in\n$\\sigma(X_{n+1},X_{n+2},...)$ is independent of any event in\n$\\sigma(X_1,X_2,...,X_n)$ [^1], any event in the tail $\\sigma$-algebra\n${\\mathcal F}_{\\infty}$ is independent of any event in\n$\\bigcup_{n=1}^{\\infty} {\\mathcal F}_n$; hence, any event in\n${\\mathcal F}_{\\infty}$ is independent of any event in\n$\\sigma(\\bigcup_{n=1}^{\\infty} {\\mathcal F}_n)$ [^2]. But\n${\\mathcal F}_{\\infty} \\subset\n\\sigma(\\bigcup_{n=1}^{\\infty} {\\mathcal F}_n)$ [^3], so any tail event\nis independent of itself, i.e., $P(A)=P(A\\cap A)=P(A)P(A)$ which implies\n$P(A)=0$ or $P(A)=1$.\n\n[^1]: this assertion should be proved actually, because independence of\n    random variables is defined for every finite number of them and we\n    are dealing with events involving an infinite number. By two\n    successive applications of the Monotone Class Theorem, one can\n    readily prove this is in fact correct\n\n[^2]: again by application of the Monotone Class Theorem\n\n[^3]: because ${\\mathcal F}_{\\infty}\n    \\subset \\sigma(X_1,X_2,...)=\\sigma(\\bigcup_{n=1}^{\\infty} {\\mathcal F}_n)$,\n    this last equality being easily proved",
+  "language": "INFORMAL",
+  "phrase": "Kolmogorov Zero-One Law",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KolmogorovZerooneLaw"
+    }
+  ],
+  "indexable": true
+}

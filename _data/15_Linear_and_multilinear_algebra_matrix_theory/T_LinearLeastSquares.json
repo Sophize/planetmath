@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be an $m \\times n$ matrix with $m \\ge n$ and $b$ an $m \\times 1$\nmatrix. We want to consider the problem\n\n$$Ax \\approx b$$\n\nwhere $\\approx$ stands for the best approximate solution in the least\nsquares sense, i.e. we want to minimize the Euclidean norm of the\nresidual $r = Ax - b$\n\n$$||Ax-b||_2 = ||r||_2 = \\left[\\sum_{i=1}^m r_i^2 \\right]^{1/2}$$\n\nWe want to find the vector $x$ which is closest to $b$ in the column\nspace of $A$.\n\nAmong the different methods to solve this problem, we mention Normal\nEquations, sometimes ill-conditioned, QR Decomposition, and, most\ngenerally, Singular Value Decomposition. For further reading,\n\\[Golub89\\], \\[Branham90\\], \\[Wong92\\], \\[Press95\\].\n\nExample: Let us consider the problem of finding the closest point\n(vertex) to measurements on straight lines (e.g. trajectories emanating\nfrom a particle collision). This problem can be described by $Ax = b$\nwith\n\n$$A = \\begin{bmatrix}a_{11} & a_{12} \\\\ \\vdots & \\vdots \\\\ a_{m1} & a_{m2} \\end{bmatrix} ; x = \\begin{bmatrix}u \\\\ v \\end{bmatrix} ;b = \\begin{bmatrix} b_1 \\\\ \\vdots \\\\ b_m \\end{bmatrix}$$\n\nThis is clearly an inconsistent system of linear equations, with more\nequations than unknowns, a frequently occurring problem in experimental\ndata analysis. The system is, however, not very inconsistent and there\nis a point that lies \u201cnearly\u201d on all straight lines. The solution can be\nfound with the linear least squares method, e.g. by QR decomposition for\nsolving $Ax = b$:\n\n$$QRx = b \\rightarrow x = R^{-1}Q^Tb$$\n\n[**References**]{}\n\n-   Originally from The Data Analysis Briefbook ()\n\n<!-- -->\n\n-   S.S.M. Wong, Computational Methods in Physics and Engineering,\n    Prentice Hall, 1992.\n\n-   Gene H. Golub and Charles F. van Loan: Matrix Computations, 2nd\n    edn., The John Hopkins University Press, 1989.\n\n-   R.L. Branham, Scientific Data Analysis, An Introduction to\n    Overdetermined Systems, Springer, Berlin, Heidelberg, 1990.\n\n-   W.H. Press, S.A. Teukolsky, W.T. Vetterling, and B.P. Flannery,\n    Numerical Recipes in C, Second edition, Cambridge University\n    Press, 1995. (The same book exists for the Fortran language). There\n    is also an Internet version which you can work from.",
+  "language": "INFORMAL",
+  "phrase": "Linear Least Squares",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearLeastSquares"
+    }
+  ],
+  "indexable": true
+}

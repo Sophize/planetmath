@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Cullen number*]{} $C_m$ is a number of the form $2^m m + 1$, where\n$m$ is an integer. Almost all Cullen numbers are composite, and they\nhave $2m - 1$ as a factor if that number is a prime of the form $8k - 3$\n(with $k$ a positive integer). The first few Cullen numbers are 1, 3, 9,\n25, 65, 161, 385, 897, 2049, 4609 (listed in A002064 of Sloane\u2019s OEIS).\nWith the exception of 3, no Proth number is also a Cullen number.",
+  "language": "INFORMAL",
+  "phrase": "Cullen Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CullenNumber"
+    }
+  ],
+  "indexable": true
+}

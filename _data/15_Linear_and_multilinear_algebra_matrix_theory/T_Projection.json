@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A linear transformation $P:V\\rightarrow V$ of a vector space $V$ is\ncalled a *projection* if it acts like the identity on its image. This\ncondition can be more succinctly expressed by the equation\n$$\\label{eq:proj}\n  P^2 = P.$$\n\nIf $P:V\\rightarrow V$ is a projection, then its image and the kernel are\ncomplementary subspaces, namely $$\\label{eq:comp}\n    V = \\ker P \\oplus {\\mathop{\\mathrm{img}}\\nolimits}P.$$\n\n*Proof.* Suppose that $P$ is a projection. Let $v\\in V$ be given, and\nset $$u=v-Pv.$$ The projection condition then implies that\n$u\\in \\ker P$, and we can write $v$ as the sum of an image and kernel\nvectors: $$v = u + Pv.$$ This decomposition is unique, because the\nintersection of the image and the kernel is the trivial subspace.\nIndeed, suppose that $v\\in V$ is in both the image and the kernel of\n$P$. Then, $Pv=v$ and $Pv=0$, and hence $v=0$. QED\n\nConversely, every direct sum decomposition $$V = V_1 \\oplus V_2$$\ncorresponds to a projection $P:V\\rightarrow V$ defined by\n$$Pv =\\begin{cases}\nv & v\\in V_1 \\\\\n0 & v\\in V_2\n\\end{cases}$$\n\nSpecializing somewhat, suppose that the ground field is ${\\mathbb{R}}$\nor ${\\mathbb{C}}$ and that $V$ is equipped with a positive-definite\ninner product. In this setting we call an endomorphism\n$P:V\\rightarrow V$ an *orthogonal projection* if it is self-dual\n$$P{^{\\displaystyle \\star}}= P,$$ in addition to satisfying the\nprojection condition .\n\nThe kernel and image of an orthogonal projection are orthogonal\nsubspaces.\n\n*Proof.* Let $u\\in\\ker P$ and $v\\in {\\mathop{\\mathrm{img}}\\nolimits}P$\nbe given. Since $P$ is self-dual we have\n$$0 = \\langle Pu,v\\rangle = \\langle u,Pv\\rangle = \\langle\n  u,v\\rangle.$$ QED\n\nThus we see that a orthogonal projection $P$ projects a $v \\in V$ onto\n$Pv$ in an orthogonal fashion, i.e. $$\\langle v-Pv,u\\rangle = 0$$ for\nall $u\\in {\\mathop{\\mathrm{img}}\\nolimits}P$.",
+  "language": "INFORMAL",
+  "phrase": "Projection",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Projection"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "linear assignment problem"
+  ],
+  "definition": "The [*assignment problem*]{} is a kind of optimization problem in which\nthe goal is to reduce the total cost of a number of tasks by choosing a\nparticular assignment of those tasks to a number of agents, or task\nexecutors. One example might be an algorithm for assigning pieces of\nwork to individual processors of different capacities in a\nmultiprocessor computer. A more real-world example might be Amazon\ndeciding, given a finite number of airplanes, which distribution center\nshould be used, with its fleet, to service a particular set of delivery\nrequests in order to minimize the usage of fuel.\n\nMathematically, the assignment problem starts with a finite set of\nagents, $A$, and a finite set of tasks, $T$, where\n$\\lvert A\\rvert=\\lvert T\\rvert$. The cost of a particular agent\nexecuting a particular task is a cost, or , function\n$C:A\\times T\\to{\\mathbb{R}}$. The goal is to find the bijective mapping\n$f:A\\to T$ assigning agents to tasks such that the cost function\n$$\\sum_{a \\in A}C(a, f(a))$$ is minimized.\n\nThe cost function can also be viewed as a square real-valued matrix $C$,\nwhere $C_{i,j}$ is the cost of having agent $i$ execute task $t$, so\nthat the objective function can be written as\n$$\\sum_{a \\in A}C_{a,f(a)}$$\n\nThe problem is \u201clinear\u201d because the cost function to be optimized as\nwell as all the constraints contain only linear terms.\n\n[*This entry was adapted from the Wikipedia article as of January 13,\n2007.*]{}",
+  "language": "INFORMAL",
+  "phrase": "Assignment Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AssignmentProblem"
+    }
+  ],
+  "indexable": true
+}

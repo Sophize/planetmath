@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*decimal point*]{} is a symbol separating those digits representing\ninteger powers of a base (usually base 10) on the left, and those\nrepresenting fractional powers of a base (the base raised to a negative\nnumber) on the right. For example, in $\\pi \\approx 3.14$, the 3 to the\nleft of the decimal point corresponds to $3 \\times 10^0$, while the 1 to\nthe right of the decimal point corresponds to $1 \\times 10^{-1}$.\n\nMost scientific calculators capable of displaying binary, octal and\nhexadecimal limit numbers in those bases to integers, making moot the\nissue of what to call the decimal point in those bases.\n\nThe decimal point is generally omitted for integers. However,\nMathematica will use the decimal point at the end of an integer to\nindicate the value has been computed using floating-point arithmetic and\nloss of precision is possible. For example, `(1/2)^(-1)` gives \u201c2\u201d as an\nanswer but `.5^(-1)` gives \u201c2.\u201d for the answer. Even more pointedly,\n`1 + 1` gives \u201c2\u201d as the answer but `1. + 1.` gives \u201c2.\u201d as the answer.\n\nIn the United States, the decimal point is usually aligned with the\nbottom of the digit glyphs, while in the United Kingdom it is usually\ncentered (and is distinguished from the central dot multiplication\noperator purely on spacing). In Europe, a comma is used instead, so our\nexample would be written $\\pi \\approx 3,\\!14$.",
+  "language": "INFORMAL",
+  "phrase": "Decimal Point",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DecimalPoint"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A measurable function $f : \\Omega \\to \\reals$ where\n$(\\Omega, \\mathcal{A}, \\mu)$ is a measure space is said to be\n[**summable**]{} if the Lebesgue integral of the absolute value of $f$\nexists and is finite, $$\\int_{\\Omega} |f| d\\mu < +\\infty$$ An\nalternative way of expressing this condition is to assert that\n$f \\in L^1(\\Omega)$.\n\nNote that some authors distinguish between integrable and summable: an\nintegrable function is one for which the above integral exists; a\nsummable function is one for which the integral exists and is finite.",
+  "language": "INFORMAL",
+  "phrase": "Summable Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SummableFunction"
+    }
+  ],
+  "indexable": true
+}

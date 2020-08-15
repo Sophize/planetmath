@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a monic polynomial $p(x)=x^n+a_{n-1}x^{n-1}+\\dots+a_1x+a_0$ the\n*companion matrix* of $p(x)$, denoted $\\mathcal{C}_{p(x)}$, is the\n$n \\times n$ matrix with $1$\u2019s down the first subdiagonal and minus the\ncoefficients of $p(x)$ down the last column, or alternatively, as the\ntranspose of this matrix. Adopting the first convention this is simply\n$$\\mathcal{C}_{p(x)} = \\begin{pmatrix}\n0 & 0 & \\hdots & \\hdots & \\hdots & -a_0 \\\\\n1 & 0 & \\hdots & \\hdots & \\hdots & -a_1\\\\\n0 & 1 & \\hdots & \\hdots & \\hdots & -a_2 \\\\\n0 & 0 & \\ddots &   &   & \\vdots \\\\\n\\vdots & \\vdots &  & \\ddots & &  \\vdots \\\\\n0 & 0 & \\hdots & \\hdots & 1 & -a_{n-1}\n\\end{pmatrix}.$$\n\nRegardless of which convention is used the of $\\mathcal{C}_{p(x)}$\nequals $p(x)$, and the characteristic polynomial of $\\mathcal{C}_{p(x)}$\nis just $(-1)^n p(x)$. The $(-1)^n$ is needed because we have defined\nthe characteristic polynomial to be $\\det(\\mathcal{C}_{p(x)}- xI)$. If\nwe had instead defined the characteristic polynomial to be\n$\\det(xI - \\mathcal{C}_{p(x)})$ then this would not be needed.",
+  "language": "INFORMAL",
+  "phrase": "Companion Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompanionMatrix"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "higher dimensional thin homotopy"
+  ],
+  "definition": "Cubically thin homotopy\n-----------------------\n\nLet $u,u'$ be squares in $X$ with common vertices.\n\n1.  A [*cubically thin homotopy*]{} $U:u\\equiv^{\\square}_T u'$ between\n    $u$ and $u'$ is a $U\\in R^{\\square}_3(X)$ such that\n\n    -   $U$ is a homotopy between $u$ and $u',$\n\n        i.e. $\\partial^{-}_1 (U)=u,\\enskip \\partial^{+}_1 (U)=u',$\n\n    -   $U$ is rel. vertices of $I^2,$\n\n        i.e. $\\partial^{-}_2\\partial^{-}_2 (U),\\enskip\\partial^{-}_2\n        \\partial^{+}_2 (U),\\enskip\n        \\partial^{+}_2\\partial^{-}_2 (U),\\enskip\\partial^{+}_2\n        \\partial^{+}_2 (U)$ are constant,\n\n    -   the faces $ \\partial^{\\alpha}_{i} (U) $ are thin for $ \\alpha =\n        \\pm 1, \\ i = 1,2 $.\n\n2.  The square $u$ is [*cubically*]{} $T$-[*equivalent*]{} to $u',$\n    denoted $u\\equiv^{\\square}_T u'$ if there is a cubically thin\n    homotopy between $u$ and $u'.$\n\nThis definition enables one to construct the homotopy double groupoid\nscheme $\\boldsymbol{\\rho}^{\\square}_2 (X)$ , by defining a relation of\ncubically thin homotopy on the set $R^{\\square}_2(X)$ of squares.\n\n[9]{}\n\nK.A. Hardie, K.H. Kamps and R.W. Kieboom, A homotopy 2-groupoid of a\nHausdorff space, *Applied Cat. Structures*, **8** (2000): 209-234.\n\nR. Brown, K.A. Hardie, K.H. Kamps and T. Porter, A homotopy double\ngroupoid of a Hausdorff space, [*Theory and Applications of\nCategories*]{} **10**,(2002): 71-93.",
+  "language": "INFORMAL",
+  "phrase": "Cubically Thin Homotopy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CubicallyThinHomotopy"
+    }
+  ],
+  "indexable": true
+}

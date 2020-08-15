@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*Prouhet-Thue-Morse constant*]{} is the number $\\tau$ whose binary\nexpansion is the Prouhet-Thue-Morse sequence. That is,\n$$\\tau = \\sum_{i=0}^{\\infty} \\frac{t_i}{2^{i+1}} = 0.412454033640 \\ldots$$\n\nwhere $t_i$ is the Prouhet-Thue-Morse sequence\n\nAnother expression, not in of $t_i$, is\n\n$$\\tau = \\frac{1}{2} - \\frac{1}{4} \\prod_{n=0}^{\\infty} ( 1 - 2^{-2^i} )$$\n\nThe number $\\tau$ has been shown to be transcendental.",
+  "language": "INFORMAL",
+  "phrase": "Prouhet-Thue-Morse Constant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProuhetThueMorseConstant"
+    }
+  ],
+  "indexable": true
+}

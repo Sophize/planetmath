@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a locally compact Hausdorff topological space with Borel\n$\\sigma$\u2013algebra $\\mathcal{B}$, and suppose $\\mu$ is a measure on\n$(X,\\mathcal{B})$. For any Borel set $B \\in \\mathcal{B}$, the measure\n$\\mu$ is said to be [*outer regular*]{} on $B$ if\n$$\\mu(B) = \\inf\\,\\{ \\mu(U) \\mid U \\supset B,\\ U\\ \\rm{open} \\}.$$ We say\n$\\mu$ is [*inner regular*]{} on $B$ if\n$$\\mu(B) = \\sup\\,\\{ \\mu(K) \\mid K \\subset B,\\ K\\ \\rm{compact} \\}.$$",
+  "language": "INFORMAL",
+  "phrase": "Outer Regular",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OuterRegular"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "level of detail"
+  ],
+  "definition": "#### Definition\n\nA *multiresolution analysis* is a sequence $(V_j)_{j\\in \\mathbb Z}$ of\nsubspaces of $L_2({\\mathbb R})$ such that\n\n1.  (nesting)\n    $ \\ldots \\subset V_{-1} \\subset V_0 \\subset V_1 \\subset \\ldots $\n\n2.  (density)\n    $\\overline{\\mathop{\\rm span} \\bigcup_{j \\in \\mathbb Z} V_j } = L_2({\\mathbb R}) $\n\n3.  (separation) $ \\bigcap_{j \\in \\mathbb Z} V_j = \\{0\\}$\n\n4.  (scaling) $f(x) \\in V_j$ if and only if $f(2^{-j} x) \\in V_0$\n\n5.  (orthonormal basis) there exists a function $\\Phi \\in V_0$, called a\n    *scaling function*, such that the system\n    $\\{ \\Phi(t -m) \\}_{m \\in \\mathbb Z} \\}$ is an orthonormal basis in\n    $V_0.$\n\n#### Notes\n\nMultiresolution analysis, particularly scaling functions, are used to\nderive wavelets. The $V_j$ are called approximation spaces. Several\nchoices of scaling functions may exist for a given set of approximation\nspaces\u2014 each determines a unique multiresolution analysis.",
+  "language": "INFORMAL",
+  "phrase": "Multiresolution Analysis",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiresolutionAnalysis"
+    }
+  ],
+  "indexable": true
+}

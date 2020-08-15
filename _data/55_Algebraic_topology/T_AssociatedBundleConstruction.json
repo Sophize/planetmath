@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a topological group, $\\pi\\co P\\to X$ a (right) principal\n$G$-bundle, $F$ a topological space and ${\\rho}\\co G\\to {\\text{Aut}}(F)$\na representation of $G$ as homeomorphisms of $F$. Then the fiber bundle\n*associated* to $P$ by ${\\rho}$, is a fiber bundle\n$\\pi_{\\rho}\\co P\\times_{\\rho}F \n\\to X$ with fiber $F$ and group $G$ that is defined as follows:\n\n-   The total space is defined as $$P\\times_{\\rho}F:=P\\times F/G$$ where\n    the (left) action of $G$ on $P\\times F$ is defined by\n    $$g\\cdot (p,f):=\\left(pg^{-1},{\\rho}(g)(f)\\right), \\quad \\forall g\\in G, p\\in P, F\\in\n    F\\,.$$\n\n-   The projection $\\pi_{\\rho}$ is defined by\n    $$\\pi_{\\rho}[p,f]:=\\pi(p)\\,,$$ where $[p,f]$ denotes the $G$\u2013orbit\n    of $(p,f)\\in P\\times F$.\n\nThe above is well defined and defines a $G$\u2013bundle over $X$ with fiber\n$F$. Furthermore $P\\times_{\\rho}F$ has the same transition functions as\n$P$.\n\nTo see that $\\pi_{\\rho}$ is well defined just notice that for $p\\in P$\nand $g\\in G$, $\\pi(pg)=\\pi(p)$. To see that the fiber is $F$ notice that\nsince the principal action is simply transitive, given $p\\in P$ any\norbit of the $G$\u2013action on $P\\times F$ contains a *unique*\nrepresentative of the form $(p,f)$ for some $f\\in F$. It is clear that\nan open cover that trivializes $P$ trivializes $P\\times_{\\rho}F$ as\nwell. To see that $P\\times_{\\rho}F$ has the same transition functions as\n$P$ notice that transition functions of $P$ act on the left and thus\ncommute with the principal $G$\u2013action on $P$.\n\nNotice that if $G$ is a Lie group, $P$ a smooth principal bundle and $F$\nis a smooth manifold and ${\\rho}$ maps inside the diffeomorphism group\nof $F$, the above construction produces a smooth bundle. Also quite\noften $F$ has extra structure and ${\\rho}$ maps into the homeomorphisms\nof $F$ that preserve that structure. In that case the above construction\nproduces a \u201cbundle of such structures.\u201d For example when $F$ is a vector\nspace and ${\\rho}(G) \\subset \\operatorname{GL}(F) $, i.e. ${\\rho}$ is a\nlinear representation of $G$ we get a vector bundle; if\n${\\rho}(G) \\subset \\operatorname{SL}(F)$ we get an oriented vector\nbundle, etc.",
+  "language": "INFORMAL",
+  "phrase": "Associated Bundle Construction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AssociatedBundleConstruction"
+    }
+  ],
+  "indexable": true
+}

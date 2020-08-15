@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The alternating group $A_{n}$ is a normal subgroup of the symmetric\ngroup $S_{n}$\n\nDefine the epimorphism $f:S_{n}\\rightarrow\\mathbb{Z}_2$ by\n$:\\sigma\\mapsto 0$ if $\\sigma$ is an even permutation and\n$:\\sigma\\mapsto 1$ if $\\sigma$ is an odd permutation. Hence, $A_{n}$ is\nthe kernel of $f$ and so it is a normal subgroup of the domain $S_{n}$.\nFurthermore $S_{n}/A_{n}\\cong\\mathbb{Z}_2$ by the first isomorphism\ntheorem. So by Lagrange\u2019s theorem\n$$\\vert S_{n} \\vert=\\vert A_{n} \\vert\\vert S_{n}/A_{n}\\vert.$$\nTherefore, $\\vert A_{n}\\vert=n!/2$. That is, there are $n!/2$ many\nelements in $A_{n}$\n\n**Remark**. What we have shown in the theorem is that, in fact, $A_n$\nhas index $2$ in $S_n$. In general, if a subgroup $H$ of $G$ has index\n$2$, then $H$ is normal in $G$. (Since $[G:H]=2$, there is an element\n$g\\in G-H$, so that $gH\\cap H=\\varnothing$ and thus $gH=Hg$).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternatingGroupIsANormalSubgroupOfTheSymmetricGroup"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "alternating group is a normal subgroup of the symmetric group"
+  ]
+}

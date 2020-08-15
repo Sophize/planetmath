@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "locally cyclic",
+    "generalized cyclic group",
+    "generalized cyclic",
+    "generalised cyclic",
+    "generalised cyclic group"
+  ],
+  "definition": "Definition {#definition .unnumbered}\n==========\n\nA [*locally cyclic*]{} group is a group in which every finite subset\ngenerates a cyclic subgroup.\n\nProperties {#properties .unnumbered}\n==========\n\nFrom the definition we see that every finitely generated locally cyclic\ngroup (and, in particular, every finite locally cyclic group) is cyclic.\n\nThe following can all be shown to be equivalent for a group $G$:\n\n-   $G$ is locally cyclic.\n\n-   For all $a,b\\in G$, the $\\genby{a,b}$ is cyclic.\n\n-   $G$ is the union of a chain of cyclic subgroups.\n\n-   The lattice of subgroups of $G$ is .\n\n-   $G$ embeds in ${\\mathbb{Q}}$ or ${\\mathbb{Q}}/{\\mathbb{Z}}$.\n\n-   $G$ is isomorphic to a subgroup of a of ${\\mathbb{Q}}$.\n\n-   $G$ is ${\\mathbb{Q}}$.\n\nFrom the last of these equivalent properties it is clear that every\nlocally cyclic group is countable and abelian, and that subgroups and\nquotients of locally cyclic groups are locally cyclic.",
+  "language": "INFORMAL",
+  "phrase": "Locally Cyclic Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocallyCyclicGroup"
+    }
+  ],
+  "indexable": true
+}

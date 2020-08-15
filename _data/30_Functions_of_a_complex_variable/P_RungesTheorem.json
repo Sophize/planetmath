@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K$ be a compact subset of $\\mathbb{C}$, and let $E$ be a subset of\n$\\mathbb{C}_\\infty=\\mathbb{C}\\cup\\{\\infty\\}$ (the extended complex\nplane) which intersects every connected component of\n$\\mathbb{C}_\\infty-K$. If $f$ is an analytic function in an open set\ncontaining $K$, given $\\varepsilon>0$, there is a rational function\n$R(z)$ whose only poles are in $E$, such that $|f(z)-R(z)|<\\varepsilon$\nfor all $z\\in K$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RungesTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Runge's theorem"
+  ]
+}

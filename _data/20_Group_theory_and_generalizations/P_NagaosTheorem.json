@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For any integral domain $k$, the group of $n\\times n$ invertible\nmatrices with coefficients in $k[t]$ is the amalgamated free product of\ninvertible matrices over $k$ and invertible upper triangular matrices\nover $k[t]$, amalgamated over the upper triangular matrices of $k$. More\ncompactly\n$${\\mathrm{GL}_{n} (k[t])}\\cong{\\mathrm{GL}_{n} (k)} *_{B(k)}B(k[t]).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NagaosTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Nagao's theorem"
+  ]
+}

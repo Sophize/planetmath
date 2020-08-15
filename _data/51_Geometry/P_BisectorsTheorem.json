@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Bisectors theorem**.\\\nLet $ABC$ a triangle, and $AP$ the angle bisector of $\\angle CAB$. Then\n$$\\frac{BP}{PC}=\\frac{BA}{CA}.$$\n\n![image](bisector)\n\n**Generalization of bisectors theorem**.\\\nLet $ABC$ a triangle, and $P$ any point on the side $BC$. Then\n$$\\frac{BP}{PC} = \\frac{BA \\sin BAP}{CA \\sin PAC}.$$\n\n![image](genbisector)\n\nThe latest theorem even holds when $P$ is not on the segment $BC$ but\nanywhere on the line (possibly at the infnity), but in this case, the\nratio $BP/PC$ must be done with directed segments and the angles\nconsidered as directed angles.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BisectorsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "bisectors theorem",
+    "angle bisector theorem",
+    "generalization of bisectors theorem"
+  ]
+}

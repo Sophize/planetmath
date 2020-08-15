@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Consider the polynomial\n$$p(x)\\;=\\; a_nx^n + a_{n-1}x^{n-1}+\\cdots+a_1x+a_0$$ where all the\ncoefficients $a_i$ are integers.\n\nIf $p(x)$ has a rational zero $u/v$ where $\\gcd(u,\\,v)=1$, then\n$u\\mid a_0$ and $v\\mid a_n$. Thus, for finding all rational zeros of\n$p(x)$, it suffices to perform a finite number of tests.\\\nThe theorem is related to the result about monic polynomials whose\ncoefficients belong to a unique factorization domain. Such theorem then\nstates that any root in the fraction field is also in the base domain.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RationalRootTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "rational root theorem"
+  ]
+}

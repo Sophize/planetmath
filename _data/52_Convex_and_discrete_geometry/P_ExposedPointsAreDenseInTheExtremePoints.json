@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $K \\subset {\\mathbb{R}}^n$ be a closed convex set. A point $p \\in K$\nis called an [*exposed*]{} point if there is an $n-1$ dimensional\nhyperplane whose intersection with $K$ is $p$ alone.\n\nLet $K \\subset {\\mathbb{R}}^n$ be a closed convex set. Then the set of\nexposed points is dense in the set of extreme points.\n\nFor example, let $C(p)$ denote the closed ball in ${\\mathbb{R}}^2$ of\nradius 1 and centered at $p.$ Then take $K$ to be the convex hull of\n$C(-1,0)$ and $C(1,0)$. The points $(-1,1),$ $(-1,-1),$ $(1,1),$ and\n$(1,-1)$ are extreme points, but they are not exposed points.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExposedPointsAreDenseInTheExtremePoints"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "exposed points are dense in the extreme points",
+    "Strasziewicz theorem"
+  ]
+}

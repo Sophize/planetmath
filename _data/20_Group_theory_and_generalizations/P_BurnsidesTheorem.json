@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a simple group, $\\sigma\\in G$. Then the number of conjugates\nof $\\sigma$ is not a prime power (unless $\\sigma$ is its own conjugacy\nclass).\n\nProofs of this theorem are quite difficult and rely on representation\ntheory.\n\nFrom this we immediately get\n\nA group $G$ of order $p^a q^b$, where $p,q$ are prime, cannot be a\nnonabelian simple group.\n\nSuppose it is. Then the center of $G$ is trivial, $\\{e\\}$, since the\ncenter is a normal subgroup and $G$ is simple nonabelian. So if $C_i$\nare the nontrivial conjugacy classes, we have from the class equation\nthat $$\\lvert G\\rvert = 1+\\sum\\lvert C_i\\rvert$$ Now, each\n$\\lvert C_i\\rvert$ divides $\\lvert G\\rvert$, but cannot be $1$ since the\ncenter is trivial. It cannot be a power of either $p$ or $q$ by\nBurnside\u2019s theorem. Thus $pq \\mid \\lvert C_i\\rvert$ for each $i$ and\nthus $\\lvert G\\rvert\\equiv 1\\pmod {pq}$, which is a contradiction.\n\nFinally, a corollary of the above is known as the .\n\nA group of order $p^aq^b$ is solvable.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BurnsidesTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Burnside's Theorem"
+  ]
+}

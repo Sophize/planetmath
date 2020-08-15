@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\textbf{X}=(X_1,\\ldots,X_n)$ be a random vector with a given\nrealization $\\textbf{X}(\\omega)=(x_1,\\ldots,x_n)$, where $\\omega$ is the\noutcome (of an observation or an experiment) in the sample space\n$\\Omega$. A *statistical model* $\\mathcal{P}$ based on $\\textbf{X}$ is a\nset of probability distribution functions of $\\textbf{X}$:\n$$\\mathcal{P}=\\lbrace F_{\\textbf{X}} \\rbrace.$$ If it is known in\nadvance that this family of distributions comes from a set of continuous\ndistributions, the statistical model $\\mathcal{P}$ can be equivalently\ndefined as a set of probability density functions:\n$$\\mathcal{P}=\\lbrace f_{\\textbf{X}} \\rbrace.$$\n\nAs an example, a coin is tossed $n$ times and the results are observed.\nThe probability of landing a head during one toss is $p$. Assume that\neach toss is independent of one another. If\n$\\textbf{X}=(X_1,\\ldots,X_n)$ is defined to be the vector of the $n$\nordered outcomes, then a statistical model based on $\\textbf{X}$ can be\na family of Bernoulli distributions\n$$\\mathcal{P}=\\lbrace \\prod_{i=1}^n p^{x_i}(1-p)^{1-x_i} \\rbrace,$$\nwhere $X_i(\\omega)=x_i$ and $x_i=1$ if $\\omega$ is the outcome that the\n$i$th toss lands a head and $x_i=0$ if $\\omega$ is the outcome that the\n$i$th toss lands a tail.\n\nNext, suppose $X$ is the number of tosses where a head is observed, then\na statistical model based on $X$ can be a family binomial distributions:\n$$\\mathcal{P}=\\lbrace {n\\choose x}p^x(1-p)^{n-x} \\rbrace,$$ where\n$X(\\omega)=x$, where $\\omega$ is the outcome that $x$ heads (out of $n$\ntosses) are observed.\n\nA statistical model is usually *parameterized* by a function, called a\n*parameterization*\n$$\\Theta\\rightarrow\\mathcal{P}\\mbox{ given by }\\theta\\mapsto F_{\\theta}\\mbox{ so that }\\mathcal{P}=\\lbrace F_{\\theta} \\mid \\theta\\in\\Theta \\rbrace,$$\nwhere $\\Theta$ is called a *parameter space*. $\\Theta$ is usually a\nsubset of $\\mathbb{R}^n$. However, it can also be a function space.\n\nIn the first part of the above example, the statistical model is\nparameterized by $$p\\mapsto\\prod_{i=1}^n p^{x_i}(1-p)^{1-x_i}.$$\n\nIf the parameterization is a one-to-one function, it is called an\n*identifiable parameterization* and $\\theta$ is called a *parameter*.\nThe $p$ in the above example is a parameter.",
+  "language": "INFORMAL",
+  "phrase": "Statistical Model",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StatisticalModel"
+    }
+  ],
+  "indexable": true
+}

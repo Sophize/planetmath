@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For every measurable function $f \\colon [0,\\infty) \\to \\mathbb{C}$, if\nthere exists a real number $t_0$ such that\n$$\\int_0^\\infty e^{-st_0} |f(s)| \\, ds$$ converges, then the Laplace\ntransform $\\mathcal{L}(f)$ is a well-defined function from\n$\\{t \\in \\mathbb{C} \\mid \\Re t > t_0 \\}$ to $\\mathbb{C}$. Furthermore,\nthe Laplace transform function is analytic.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExistenceOfLaplaceTransform"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "existence of Laplace transform"
+  ]
+}

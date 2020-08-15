@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Assume that $H$ is a Hopf algebra with comultiplication $\\Delta$, counit\n$\\varepsilon$ and antipode $S$. It is well known, that if $c\\in H$ and\n$\\Delta(c)=\\sum\\limits_{i=1}^{n}a_i\\otimes b_i$, then\n$\\sum\\limits_{i=1}^{n}S(a_i)b_i=\\varepsilon(c)1=\\sum\\limits_{i=1}^{n}a_iS(b_i)$\n(actualy, this condition defines the antipode), where on the left and\nright side we have multiplication in $H$.\n\nNow let $G$ be a monoid and $k$ a field. It is well known that $kG$ is a\nbialgebra (please, see parent object for details), but one may ask, when\n$kG$ is a Hopf algebra? We will try to answer this question.\n\n**Proposition.** A monoid bialgebra $kG$ is a Hopf algebra if and only\nif $G$ is a group.\n\n*Proof.* ,,$\\Leftarrow$\u201d If $G$ is a group, then define $S:kG\\to kG$ by\n$S(g)=g^{-1}$. It is easy to check, that $S$ is the antipode, thus $kG$\nis a Hopf algebra.\n\n,,$\\Rightarrow$\u201d Assume that $kG$ is a Hopf algebra, i.e. we have the\nantipode $S:kG\\to kG$. Then, for any $g\\in G$ we have $S(g)g=gS(g)=1$\n(because $\\Delta(g)=g\\otimes g$ and $\\varepsilon(g)=1$). Here $1$ is the\nidentity in both $G$ and $kG$. Of course $S(g)\\in kG$, so\n$$S(g)=\\sum_{h\\in G}\\lambda_h h.$$ Thus we have\n$$1=\\big(\\sum_{h\\in G}\\lambda_h h\\big)g=\\sum_{h\\in G}\\lambda_h hg.$$ Of\ncourse $G$ is a basis, so this decomposition is unique. Therefore, there\nexists $g'\\in G$ such that $\\lambda_{g'}=1$ and $\\lambda_{h'}=0$ for\n$h'\\neq g'$. We obtain, that $1=g'g$, thus $g$ is left invertible. Since\n$g$ was arbitrary it implies that $g$ is invertible. Thus, we\u2019ve shown\nthat $G$ is a group. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MonoidBialgebraIsAHopfAlgebraIfAndOnlyIfMonoidIsAGroup"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "monoid bialgebra is a Hopf algebra if and only if monoid is a group"
+  ]
+}

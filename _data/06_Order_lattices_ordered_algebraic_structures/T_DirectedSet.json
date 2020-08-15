@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "upward-directed set",
+    "upward directed set"
+  ],
+  "definition": "A *directed set* is a partially ordered set $(A, \\leq)$ such that\nwhenever $a,b\\in A$ there is an $x\\in A$ such that $a\\leq x$ and\n$b\\leq x$.\n\nA subset $B\\subseteq A$ is said to be *residual* if there is $a\\in A$\nsuch that $b\\in B$ whenever $a\\leq b$, and *cofinal* if for each\n$a\\in A$ there is $b\\in B$ such that $a\\leq b$.\n\nA directed set is sometimes called an *upward-directed set*. We may also\ndefine the dual notion: a *downward-directed set* (or *filtered set*) is\na partially ordered set $(A, \\leq)$ such that whenever $a,b\\in A$ there\nis an $x\\in A$ such that $x\\leq a$ and $x\\leq b$.\n\nNote: Many authors do not require $\\leq$ to be antisymmetric, so that it\nis only a pre-order (rather than a partial order) with the given\nproperty. Also, it is common to require $A$ to be non-empty.",
+  "language": "INFORMAL",
+  "phrase": "Directed Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirectedSet"
+    }
+  ],
+  "indexable": true
+}

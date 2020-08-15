@@ -1,0 +1,17 @@
+{
+  "argumentText": "*Proof.* The below proof of the multinomial theorem uses the binomial\ntheorem and induction on $k$. In addition, we shall use multi-index\nnotation.\n\nFirst, for $k=1$, both sides equal $x_1^n$. For the induction step,\nsuppose the multinomial theorem holds for $k$. Then the binomial theorem\nand the induction assumption yield $$\\begin{aligned}\n(x_1+\\cdots + x_k\\,+\\,x_{k+1})^n &=& \\sum_{l=0}^n {n \\choose l} (x_1+\\cdots + x_k)^l x_{k+1}^{n-l}\\\\\n&=& \\sum_{l=0}^n {n \\choose l} l! \\sum_{|i|=l} \\frac{x^i}{i!} x_{k+1}^{n-l}\\\\\n&=& n! \\sum_{l=0}^n \\sum_{|i|=l} \\frac{x^i x_{k+1}^{n-l}}{i! (n-l)!} \\\\\\end{aligned}$$\nwhere $x=(x_1,\\ldots, x_k)$ and $i$ is a multi-index in $I^k_+$. To\ncomplete the proof, we need to show that the sets $$\\begin{aligned}\nA&=&\\{ (i_1,\\ldots,i_k, n-l)\\in I^{k+1}_+ \\mid l=0,\\ldots, n,\\, |(i_1,\\ldots, i_k)|=l \\}, \\\\\nB&=&\\{j \\in I^{k+1}_+ \\mid |j|=n \\} \\end{aligned}$$ are equal. The\ninclusion $A \\subset B$ is clear since\n$$|(i_1,\\ldots,i_k, n-l)| = l + n-l = n.$$ For $B \\subset A$, suppose\n$j=(j_1,\\ldots, j_{k+1}) \\in I^{k+1}_+$, and $|j|=n$. Let\n$l=|(j_1,\\ldots, j_k)|$. Then $l=n-j_{k+1}$, so $j_{k+1} = n-l$ for some\n$l=0,\\ldots, n$. It follows that that $A=B$.\n\nLet us define $y=(x_1,\\cdots, x_{k+1})$ and let\n$j=(j_1,\\ldots, j_{k+1})$ be a multi-index in $I_+^{k+1}$. Then\n$$\\begin{aligned}\n(x_1+\\cdots + x_{k+1})^n &=& n! \\sum_{|j|=n} \\frac{x^{(j_1,\\ldots, j_k)} x_{k+1}^{j_{k+1}}}{(j_1,\\ldots, j_k)! j_{k+1}!} \\\\\n&=& n! \\sum_{|j|=n} \\frac{y^j}{j!}.\\end{aligned}$$ This completes the\nproof. $\\Box$",
+  "conclusion": "#P_MultinomialTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultinomialTheoremproof"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "multinomial theorem (proof)"
+  ]
+}

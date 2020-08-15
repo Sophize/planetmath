@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $X$ be an Hilbert space and $A \\subseteq X$ a\nclosed subspace. Then the of $A$, denoted $A^{\\perp}$, is a topological\ncomplement of $A$. That means $A^{\\perp}$ is closed and\n$$X =A \\oplus A^{\\perp} \\;.$$\n\n[**Proof :**]{}\n\n-   $A^{\\perp}$ is closed :\n\n    This follows easily from the continuity of the inner product. If a\n    sequence $(x_n)$ of elements in $A^{\\perp}$ converges to an element\n    $x_0 \\in X$, then\n    $$\\langle x_0, a \\rangle = \\langle \\lim_{n \\rightarrow \\infty} x_n, a \\rangle = \\lim_{n \\rightarrow \\infty}\\langle x_n, a \\rangle = 0\\;\\;\\; \\text{for every} a \\in A$$\n    which implies that $x_0 \\in A^{\\perp}$.\n\n-   $X=A \\oplus A^{\\perp}$ :\n\n    Since $X$ is and $A$ is closed, $A$ is a subspace of $X$. Therefore,\n    for every $x \\in X$, there exists a best approximation of $x$ in\n    $A$, which we denote by $a_0 \\in A$, that satisfies\n    $x-a_0 \\in A^{\\perp}$ (see this ).\n\n    This allows one to write $x$ as a sum of elements in $A$ and\n    $A^{\\perp}$ $$x= a_0 + (x-a_0)$$ which proves that\n    $$X= A + A^{\\perp} \\; .$$\n\n    Moreover, it is easy to see that $$A \\cap A^{\\perp} = \\{0\\}$$ since\n    if $y \\in A \\cap A^{\\perp}$ then $\\langle y, y \\rangle = 0$, which\n    means $y=0$.\n\n    We conclude that $X=A \\oplus A^{\\perp}$. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrthogonalDecompositionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "orthogonal decomposition theorem",
+    "closed subspaces of Hilbert spaces are complemented"
+  ]
+}

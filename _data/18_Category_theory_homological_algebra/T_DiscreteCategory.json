@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A category $\\mathcal{C}$ is said to be a *discrete category* if the only\nmorphisms in $\\mathcal{C}$ are the identity morphisms associated with\neach of the objects in $\\mathcal{C}$.\n\nFor example, every set can be regarded as a discrete category. The\nobjects are just the elements of the set. Furthermore, $\\hom(a,a)$ is\nidentified with $\\lbrace a\\rbrace$, and $\\hom(a,b)=\\varnothing$ if\n$a\\ne b$.\n\n**Remarks**.\n\n-   A discrete category with one object is called a *trivial category*.\n    For every category $\\mathcal{C}$, there is only one functor from\n    $\\mathcal{C}$ to a trivial category. Hence, any trivial category is\n    a terminal object in **Cat**, the category of small categories.\n\n-   A discrete category with no objects is called the *empty category*.\n    For every category $\\mathcal{C}$, there is only one functor from the\n    empty category to $\\mathcal{C}$. This functor is called the *empty\n    functor*, where both the object and morphism functions are the empty\n    set $\\varnothing$. Thus, the empty category is the initial object in\n    **Cat**.\n\n-   Given any category $\\mathcal{C}$, the smallest subcategory\n    consisting of all objects in $\\mathcal{C}$ is discrete, which is\n    also the largest discrete subcategory in $\\mathcal{C}$ (largest in\n    the sense that it contains all objects of $\\mathcal{C}$). For every\n    object $X\\in \\mathcal{C}$, we can associate the trivial category\n    $\\mathcal{C}_X$ consisting of one object, $X$, and one morphism\n    $1_X$.",
+  "language": "INFORMAL",
+  "phrase": "Discrete Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiscreteCategory"
+    }
+  ],
+  "indexable": true
+}

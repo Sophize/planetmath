@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In the definition of group, one usually supposes that there is a\ntwo-sided identity element and that any element has a two-sided inverse\n(cf. ).\n\nThe group may also be defined without the two-sidednesses:\\\nA [*group*]{} is a pair of a non-empty set $G$ and its associative\nbinary operation $(x,y) \\mapsto xy$ such that\n\n1\\) the operation has a right identity element $e$;\n\n2\\) any element $x$ of $G$ has a right inverse $x^{-1}$.\\\nWe have to show that the right identity $e$ is also a left identity and\nthat any right inverse is also a left inverse.\n\nLet the above assumptions on $G$ be true. If $a^{-1}$ is the right\ninverse of an arbitrary element $a$ of $G$, the calculation\n$$a^{-1}a = a^{-1}ae = a^{-1}aa^{-1}(a^{-1})^{-1} = \na^{-1}e(a^{-1})^{-1} = a^{-1}(a^{-1})^{-1} = e$$ shows that it is also\nthe left inverse of $a$. Using this result, we then can write\n$$ea = (aa^{-1})a = a(a^{-1}a) = ae = a,$$ whence $e$ is a left identity\nelement, too.",
+  "language": "INFORMAL",
+  "phrase": "Redundancy Of Two-Sidedness In Definition Of Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RedundancyOfTwosidednessInDefinitionOfGroup"
+    }
+  ],
+  "indexable": true
+}

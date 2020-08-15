@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $P$ be a polygon or a polyhedron. Two vertices on $P$ are *adjacent*\nif the line segment joining them is an edge of $P$. A *diagonal* of $P$\nis a line segment joining two non-adjacent vertices.\n\nBelow is a figure showing a hexagon and all its diagonals (in red) with\n$X$ as one of its endpoints.\n\n(-8,0)(0,3) (-5,0)(-3,0)(-2,1.4)(-3,3)(-5,3)(-6,1.5) (-6,1.5)(-3,0)\n(-3,0)(-3,3) (-3,0)(-5,3) (-2.7,-0.3)[$X$]{} (-6,1.5)[.]{} (-3,3)[.]{}\n(-2,1.4)[.]{}\n\n**Remarks**.\n\n-   If $P$ is convex, then the relative interior of a diagonal lies in\n    the relative interior of $P$. Below is a figure showing that a\n    diagonal may partially lie outside of $P$.\n\n    (-8,0)(0,2)\n    (-5,0)(-4,0.5)(-2,0)(-2,2)(-3,1)(-4,1.3)(-5,1.3)(-6,2)(-6,0.7)\n    (-6,0.7)(-2,2)\n\n-   If a polygon $P$ has $n$ (distinct) vertices, then it has\n    $\\displaystyle{\\frac{n(n-3)}{2}}$ diagonals.",
+  "language": "INFORMAL",
+  "phrase": "Diagonal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Diagonal"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A generic *integral transform* takes the form\n$$F(p)  =  \\int_\\alpha^\\beta K(p, t) f(t)dt,$$ with $p$ being the\n[*transform parameter*]{}.\n\nNote that the transform takes a function $f(t)$ and produces a new\nfunction $F(p)$.\n\nThe function $K(p, t)$ is called the *kernel* of the transform. The\nkernel of an integral transform, along with the $\\alpha$ and $\\beta$,\ndistinguish a particular integral transform from another.\n\nExamples {#examples .unnumbered}\n--------\n\n-   Laplace transform $$\\begin{gathered}\n    \\alpha = 0,\\; \\beta = \\infty,\\; K(p,t) = e^{-pt},\\\\\n    F(p) = \\int\\limits_0^\\infty e^{-pt} f(t) dt.\\end{gathered}$$\n\n-   Laplace-Carson transform $$\\begin{gathered}\n    \\alpha = 0,\\; \\beta = \\infty,\\; K(p,t) = pe^{-pt},\\\\\n    F(p) = \\int\\limits_0^\\infty pe^{-pt} f(t) dt.\\end{gathered}$$\n\n-   Fourier transform $$\\begin{gathered}\n    \\alpha = -\\infty,\\; \\beta = \\infty,\\; K(p,t) = \\frac{1}{\\sqrt{2\\pi}}e^{-ipt},\\\\\n    F(p) = \\frac{1}{\\sqrt{2\\pi}}\n        \\int\\limits_{-\\infty}^\\infty e^{-ipt} f(t) dt.\\end{gathered}$$",
+  "language": "INFORMAL",
+  "phrase": "Integral Transform",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralTransform"
+    }
+  ],
+  "indexable": true
+}

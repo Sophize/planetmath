@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\Omega$ be a domain in $\\mathbb{C}$ and suppose $f$ is an analytic\nfunction on $\\Omega$. Furthermore, let $C$ be a circle inside $\\Omega$\nwith center $z_0$ and radius $r$. Then $f(z_0)$ is the mean value of $f$\nalong $C$, that is,\n$$f(z_0)=\\frac{1}{2\\pi}\\int_0^{2\\pi}f(z_0+re^{i\\theta})d\\theta.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaussMeanValueTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gauss' mean value theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $R$ is a ring, then we may construct the [*opposite ring*]{} $R^{op}$\nwhich has the same underlying abelian group structure, but with\nmultiplication in the opposite order: the product of $r_1$ and $r_2$ in\n$R^{op}$ is $r_2 r_1$.\n\nIf $M$ is a left $R$-module, then it can be made into a right\n$R^{op}$-module, where a module element $m$, when multiplied on the\nright by an element $r$ of $R^{op}$, yields the $rm$ that we have with\nour left $R$-module action on $M$. Similarly, right $R$-modules can be\nmade into left $R^{op}$-modules.\n\nIf $R$ is a commutative ring, then it is equal to its own opposite ring.\n\nSimilar constructions occur in the opposite group and opposite category.",
+  "language": "INFORMAL",
+  "phrase": "Opposite Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OppositeRing"
+    }
+  ],
+  "indexable": true
+}

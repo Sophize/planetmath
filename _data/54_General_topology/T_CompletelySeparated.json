@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "functionally distinguishable"
+  ],
+  "definition": "Let $A,B$ be two subsets of a topological space $X$. The following are\nequivalent:\n\n1.  There is a continuous function $f:X\\to [0,1]$ such that $f(A)=0$ and\n    $f(B)=1$,\n\n2.  There is a continuous function $g:X\\to \\mathbb{R}$ such that\n    $g(A)\\le r<s \\le g(B)$, $r,s\\in \\mathbb{R}$.\n\nClearly 1 implies 2 (by setting $r=0$ and $s=1$). To see that 2 implies\n1, first take the transformation $$h(x)=\\frac{g(x)-r}{s-r}$$ so that\n$h(A)\\le 0< 1\\le h(B)$. Then take the transformation\n$f(x)=(h(x)\\vee 0)\\wedge 1$, where $0(x)=0$ and $1(x)=1$ for all\n$x\\in X$. Then $f(A)=(h(A)\\vee 0)\\wedge 1=0\\wedge 1=0$ and\n$f(B)=(h(B)\\vee 0)\\wedge 1=h(B)\\wedge 1=1$. Here, $\\vee$ and $\\wedge$\ndenote the binary operations of taking the maximum and minimum of two\ngiven real numbers (see ring of continuous functions for more detail).\nSince during each transformation, the resulting function remains\ncontinuous, the first assertion is proved.\n\n**Definition**. Any two sets $A,B$ in a topological space $X$ satisfying\nthe above equivalent conditions are said to be *completely separated*.\nWhen $A$ and $B$ are completely separated, we also say that\n$\\lbrace A,B\\rbrace$ is completely separated.\n\nClearly, two sets that are completely separated are disjoint, and in\nfact separated.\n\n**Remark**. A T1 topological space in which every pair of disjoint\nclosed sets are completely separated is a normal space. A T0 topological\nspace in which every pair consisting of a closed set and a singleton is\ncompletely separated is a completely regular space.",
+  "language": "INFORMAL",
+  "phrase": "Completely Separated",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompletelySeparated"
+    }
+  ],
+  "indexable": true
+}

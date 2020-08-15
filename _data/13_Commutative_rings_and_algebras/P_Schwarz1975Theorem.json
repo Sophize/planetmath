@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**theorem:**\n\n> Let $\\Gamma$ be a compact Lie group acting on $V$. Let\n> $u_1,\\ldots ,u_s$ be a Hilbert basis for the $\\Gamma$-invariant\n> polynomials $\\mathcal{P}(\\Gamma )$ *(see Hilbert-Weyl theorem)*. Let\n> $f\\in \\mathcal{E}(\\Gamma )$. Then there exists a smooth germ\n> $h\\in \\mathcal{E}_s$ *(the ring of $C^{\\infty}$ germs\n> $\\mathbb{R}^s \\to \\mathbb{R}$)* such that\n> $f(x) = h(u_1(x),\\ldots , u_s(x))$. [@1]\n\n**proof:**\n\n> The proof is shown on page 58 of [@1].\n\n**theorem:** *(as stated by Gerald W. Schwarz)*\n\n> Let $G$ be a compact Lie group acting orthogonally on $\\mathbb{R}^n$,\n> let $\\rho_1 ,\\ldots, \\rho_k$ be generators of\n> $\\mathcal{P}(\\mathbb{R}^n)^G$ *(the set $G$-invariant polynomials on\n> $\\mathbb{R}^n$)*, and let\n> $\\rho = (\\rho_1 ,\\ldots, \\rho_k):\\mathbb{R}^n \\to \\mathbb{R}^k$. Then\n> $\\rho*\\mathcal{E}(\\mathbb{R}^k) = \\mathcal{E}(\\mathbb{R}^n)^G$. [@2]\n\n**proof:**\n\n> The proof is shown in the following publication [@2].\n\n[2]{} Golubitsky, Martin. Stewart, Ian. Schaeffer, G. David:\nSingularities and Groups in Bifurcation Theory *(Volume II)*.\nSpringer-Verlag, New York, 1988. Schwarz, W. Gerald: Smooth Functions\nInvariant Under the Action of a Compact Lie Group, *Topology* Vol. 14,\npp. 63-68, 1975.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Schwarz1975Theorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Schwarz (1975) theorem"
+  ]
+}

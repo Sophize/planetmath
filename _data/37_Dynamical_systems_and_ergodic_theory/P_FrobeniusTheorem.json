@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $M$ be a smooth manifold ($C^\\infty$) and let $\\Delta$ be a\ndistribution on $M$. Then $\\Delta$ is completely integrable if and only\nif $\\Delta$ is involutive.\n\nOne direction in the proof is pretty easy since the tangent space of an\nintegral manifold is involutive, so sometimes the theorem is only stated\nin one direction, that is: If $\\Delta$ is involutive then it is\ncompletely integrable.\n\nAnother way to the theorem is that if we have $n$ vector fields\n$\\{X_k\\}_{k=1}^n$ on a manifold $M$ such that they are linearly\nindependent at every point of the manifold, and furthermore if for any\n$k,m$ we have $[X_k,X_m] = \\sum_{j=1}^n a_j X_j$ for some $C^\\infty$\nfunctions $a_j$, then for any point $x \\in N$, there exists a germ of a\nsubmanifold $N \\subset M$, through $x$, such that $TN$ is spanned by\n$\\{X_k\\}_{k=1}^n$. Note that if we extend $N$ to all of $M$, it need not\nbe an embedded submanifold anymore, but just an immersed one.\n\nFor $n=1$ above, this is just the existence and uniqueness of solution\nof ordinary differential equations.\n\n[9]{} William M. Boothby. [**]{}, Academic Press, San Diego, California,\n2003. Frobenius theorem at Wikipedia:",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FrobeniusTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Frobenius' theorem"
+  ]
+}

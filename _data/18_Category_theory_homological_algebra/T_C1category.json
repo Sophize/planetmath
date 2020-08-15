@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Grothendieck and Ab5-categories"
+  ],
+  "definition": "A category $\\mathcal{C}_1$ with coproducts is called a *$C_1$-category*\nif for every family of of monomorphisms\n$\\left\\{u_i: A_i \\to B_i\\right\\}$ the morphism\n$$\\iota :=  \\oplus_i \\, u_i: \\oplus_i \\, A_i \\to \\oplus_i \\, B_i$$ is\nalso a monomorphism ([@BM266]).\n\nWith certain additional conditions (as explained in ref. [@BM266])\n$\\mathcal{C}_1$ may satisfy the Grothendieck axiom $\\mathcal{A}b5$, thus\nbecoming a $C_3$-category (Ch. 11 in [@BM266]).\n\n[9]{} See p.81 in ref. $[266]$ in the\n\nRef. $[288]$ in the",
+  "language": "INFORMAL",
+  "phrase": "$C_1$-Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/C1category"
+    }
+  ],
+  "indexable": true
+}

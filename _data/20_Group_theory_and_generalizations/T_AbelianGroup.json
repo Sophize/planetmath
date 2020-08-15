@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "commutative group"
+  ],
+  "definition": "Let $(G,*)$ be a group. If for any $a,b\\in G$ we have $a*b=b*a$, we say\nthat the group is *abelian* (or *commutative*). Abelian groups are named\nafter Niels Henrik Abel, but the word [*abelian*]{} is commonly written\nin lowercase.\n\nAbelian groups are essentially the same thing as unitary $\\Z$-. In fact,\nit is often more natural to treat abelian groups as modules rather than\nas groups, and for this reason they are commonly written using additive\nnotation.\n\nSome of the basic properties of abelian groups are as follows:\n\nAny of an abelian group is normal.\n\nLet $H$ be a subgroup of the abelian group $G$. Since $ah=ha$ for any\n$a\\in G$ and any $h\\in H$ we get $aH=Ha$. That is, $H$ is normal in $G$.\n\nQuotient groups of abelian groups are also abelian.\n\nLet $H$ be a subgroup of $G$. Since $G$ is abelian, $H$ is normal and we\ncan get the quotient group $G/H$ whose elements are the equivalence\nclasses for $a\\sim b$ if $ab^{-1}\\in H$. The operation on the quotient\ngroup is given by $aH\\cdot bH=(ab)H$. But $bH\\cdot aH=(ba)H =(ab)H$,\ntherefore the quotient group is also commutative.\n\nHere is another theorem concerning abelian groups:\n\nIf $\\varphi\\colon G\\to G$ defined by $ \\varphi(x) =x^2$ is a , then $G$\nis abelian.\n\nIf such a function were a homomorphism, we would have\n$$(xy)^2=\\varphi(xy) = \\varphi(x)\\varphi(y)=x^2y^2$$ that is,\n$xyxy=xxyy$. Left-multiplying by $x^{-1}$ and right-multiplying by\n$y^{-1}$ we are led to $yx=xy$ and thus the group is abelian.",
+  "language": "INFORMAL",
+  "phrase": "Abelian Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbelianGroup"
+    }
+  ],
+  "indexable": true
+}

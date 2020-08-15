@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Lemma.** If $K$ is an algebraic number field of $n$ and the elements\n$\\alpha_1,\\,\\alpha_2,\\,\\ldots,\\,\\alpha_n$ of $K$ can be expressed as\nlinear combinations $$\\begin{aligned}\n\\begin{cases}\n\\alpha_1 = c_{11}\\beta_1+c_{12}\\beta_2+\\ldots+c_{1n}\\beta_n\\\\\n\\alpha_2 = c_{21}\\beta_1+c_{22}\\beta_2+\\ldots+c_{2n}\\beta_n\\\\\n\\qquad\\cdots\\\\\n\\alpha_n = c_{n1}\\beta_1+c_{n2}\\beta_2+\\ldots+c_{nn}\\beta_n\n\\end{cases}\\end{aligned}$$ of the elements\n$\\beta_1,\\,\\beta_2,\\,\\ldots,\\,\\beta_n$ of $K$ with rational coefficients\n$c_{ij}$, then the discriminants of $\\alpha_i$ and $\\beta_j$ are by the\nequation\n$$\\Delta(\\alpha_1,\\,\\alpha_2,\\,\\ldots,\\,\\alpha_n) = \\det(c_{ij})^2\\cdot\\Delta(\\beta_1,\\,\\beta_2,\\,\\ldots,\\,\\beta_n).\\\\$$\n\n**Theorem.** Let $\\vartheta$ be an algebraic integer of $n$. The set\n$\\{1,\\,\\vartheta,\\,\\ldots,\\,\\vartheta^{n-1}\\}$ is an integral basis of\n$\\mathbb{Q}(\\vartheta)$ if the discriminant\n$d(\\vartheta) := \\Delta(1,\\,\\vartheta,\\,\\ldots,\\,\\vartheta^{n-1})$ is\nsquare-free.\n\n[*Proof.*]{} The adjusted canonical basis\n\n$\\displaystyle\\omega_1 = 1,$\\\n$\\displaystyle\\omega_2 = \\frac{a_{21}\\!+\\!\\vartheta}{d_2},$\\\n$\\displaystyle\\omega_3 = \\frac{a_{31}\\!+\\!a_{32}\\vartheta\\!+\\!\\vartheta^2}{d_3},$\\\n$\\vdots\\,\\qquad\\vdots\\,\\qquad\\vdots$\\\n$\\displaystyle\\omega_n = \\frac{a_{n1}\\!+\\!a_{n2}\\vartheta\\!+\\ldots+\\!a_{n,n-1}\\vartheta^{n-2}\\!+\\!\\vartheta^{n-1}}{d_n}$\\\nof $\\mathbb{Q}(\\vartheta)$ is an integral basis, where\n$d_2,\\,d_3,\\,\\ldots,\\,d_n$ are integers. Its discriminant is the\nfundamental number $d$ of the field. By the lemma, we obtain\n\n$$d = \\Delta(\\omega_1,\\,\\omega_2,\\,\\ldots,\\,\\omega_n) = \\left|\n\\begin{array}{cccc}\n1 & 0 &\\ldots & 0 \\\\\n\\frac{a_{21}}{d_2} & \\frac{1}{d_2} & \\ddots & 0\\\\\n\\vdots & \\vdots & \\ddots & 0 \\\\\n\\frac{a_{n1}}{d_n} & \\frac{a_{n2}}{d_n}& \\ldots & \\frac{1}{d_n}\n\\end{array}\\right|^2 \\Delta(1,\\,\\vartheta,\\,\\ldots,\\,\\vartheta^{n-1})\n= \\frac{d(\\vartheta)}{(d_2d_3\\cdots d_n)^2}.$$\n\nThus $(d_2d_3\\cdots d_n)^2d = d(\\vartheta)$, and since $d(\\vartheta)$ is\nassumed to be square-free, we have $(d_2d_3\\cdots d_n)^2 = 1$, and\naccordingly $d(\\vartheta)$ equals the . This implies (see minimality of\nintegral basis) that the numbers\n$1,\\,\\vartheta,\\,\\ldots,\\,\\vartheta^{n-1}$ form an integral basis of the\nfield $\\mathbb{Q}(\\vartheta)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConditionForPowerBasis"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "condition for power basis"
+  ]
+}

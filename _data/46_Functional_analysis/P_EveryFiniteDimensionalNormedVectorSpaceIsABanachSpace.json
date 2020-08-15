@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every finite dimensional normed vector space is a Banach space.\n\n*Proof.* Suppose $(V,\\Vert\\cdot\\Vert)$ is the normed vector space, and\n$(e_i)_{i=1}^N$ is a basis for $V$. For $x=\\sum_{j=1}^N \\lambda_j e_j$,\nwe can then define\n$$\\Vert x \\Vert' = \\sqrt{\\sum_{j=1}^N |\\lambda_j|^2}$$ whence\n$\\Vert\\cdot\\Vert'\\colon V\\to {\\mathbb{R}}$ is a norm for $V$. Since ,\nthere is a constant $C>0$ such that\n$$\\frac{1}{C} \\Vert x \\Vert' \\le \\Vert x \\Vert \\le C \\Vert x \\Vert', \\quad x\\in V.$$\nTo prove that $V$ is a Banach space, let $x_1,x_2,\\ldots$ be a Cauchy\nsequence in $(V,\\Vert\\cdot \\Vert)$. That is, for all $\\varepsilon>0$\nthere is an $M\\ge 1$ such that\n$$\\Vert x_j-x_k \\Vert <\\varepsilon, \\ \\ \\mbox{for all} j,k\\ge M.$$ Let\nus write each $x_k$ in this sequence in the basis $(e_j)$ as\n$x_k=\\sum_{j=1}^N \\lambda_{k,j} e_j$ for some constants\n$\\lambda_{k,j}\\in {\\mathbbmss{C}}$. For $k,l\\ge 1$ we then have\n$$\\begin{aligned}\n\\Vert x_k-x_l\\Vert   &\\ge& \\frac{1}{C} \\Vert x_k-x_l \\Vert' \\\\\n   &\\ge& \\frac{1}{C} \\sqrt{\\sum_{j=1}^N |\\lambda_{k,j}-\\lambda_{l,j}|^2} \\\\\n   &\\ge& \\frac{1}{C} |\\lambda_{k,j}-\\lambda_{l,j}|\\end{aligned}$$ for\nall $j=1,\\ldots, N$. It follows that\n$(\\lambda_{k,1})_{k=1}^\\infty, \\ldots, (\\lambda_{k,N})_{k=1}^\\infty$ are\nCauchy sequences in ${\\mathbbmss{C}}$. As ${\\mathbbmss{C}}$ is complete,\nthese converge to some complex numbers $\\lambda_1, \\ldots, \\lambda_N$.\nLet $x=\\sum_{j=1}^N \\lambda_j e_j$.\n\nFor each $k=1,2,\\ldots$, we then have $$\\begin{aligned}\n\\Vert x-x_k\\Vert &\\le& C \\Vert x-x_k\\Vert' \\\\\n                 &\\le& C \\sqrt{\\sum_{j=1}^N |\\lambda_{j}-\\lambda_{k,j}|^2}.\\end{aligned}$$\nBy taking $k\\to \\infty$ it follows that $(x_j)$ converges to $x\\in V$.\n$\\Box$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryFiniteDimensionalNormedVectorSpaceIsABanachSpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every finite dimensional normed vector space is a Banach space"
+  ]
+}

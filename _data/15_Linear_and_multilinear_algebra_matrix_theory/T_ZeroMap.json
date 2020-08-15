@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} Suppose $X$ is a set, and $Y$ is a vector space with\nzero vector $0$. If $Z$ is a map $Z:X\\to Y$, such that $Z(x)=0$ for all\n$x$ in $X$, then $Z$ is a [**zero map**]{}.\n\n### Examples\n\n1.  On the set of non-invertible $n\\times n$ matrices, the determinant\n    is a zero map.\n\n2.  If $X$ is the zero vector space, any linear map $T:X\\to Y$ is a zero\n    map. In fact, $T(0)=T(0\\cdot 0)=0T(0)=0$.\n\n3.  If $X=Y$ and its field is ${\\mathbb{R}}$ or ${\\mathbb{C}}$, then the\n    spectrum of $Z$ is $\\{0\\}$.",
+  "language": "INFORMAL",
+  "phrase": "Zero Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZeroMap"
+    }
+  ],
+  "indexable": true
+}

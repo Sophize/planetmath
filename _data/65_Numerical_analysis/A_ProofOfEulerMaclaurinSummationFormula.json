@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $a$ and $b$ be integers such that $a<b$, and let\n$f:[a,b]\\to\\mathbb{R}$ be continuous. We will prove by induction that\nfor all integers $k\\ge 0$, if $f$ is a $C^{k+1}$ function, $$\\label{em1}\n\\sum_{a<n\\le b}f(n) = \\int_a^b f(t)\\dd t + \\sum_{r=0}^k\n\\frac{(-1)^{r+1}B_{r+1}}{(r+1)!}  (f^{(r)}(b)-f^{(r)}(a)) +\n\\frac{(-1)^k}{(k+1)!}  \\int_a^b B_{k+1}(t)f^{(k+1)}(t)\\dd t$$ where\n$B_r$ is the $r$th Bernoulli number and $B_r(t)$ is the $r$th Bernoulli\nperiodic function.\n\nTo prove the formula for $k=0$, we first rewrite\n$\\int_{n-1}^{n}f(t)\\dd t$, where $n$ is an integer, using integration by\nparts: $$\\begin{aligned}\n\\int_{n-1}^n f(t)\\dd t&=&\\int_{n-1}^n\\frac{\\dd}{\\dd t}\n(t-n+\\frac{1}{2})f(t)\\dd t\\\\\n&=&(t-n+\\frac{1}{2})f(t)\\big\\vert_{n-1}^n -\n\\int_{n-1}^n (t-n+\\frac{1}{2})f'(t)\\dd t\\\\\n&=&\\frac{1}{2}(f(n)+f(n-1))-\\int_{n-1}^n (t-n+\\frac{1}{2})f'(t)\\dd t.\\end{aligned}$$\nBecause $t-n+\\frac{1}{2}=B_1(t)$ on the interval $(n-1,n)$, this is\nequal to $$\\int_{n-1}^n f(t)\\dd\nt=\\frac{1}{2}(f(n)+f(n-1))-\\int_{n-1}^n B_1(t)f'(t)\\dd t.$$ From this,\nwe get $$f(n)=\\int_{n-1}^n f(t)\\dd t+\\frac{1}{2}(f(n)-f(n-1))+\n\\int_{n-1}^n B_1(t)f'(t)\\dd t.$$ Now we take the sum of this expression\nfor $n=a+1,a+2,\\ldots,b$, so that the middle term on the right\ntelescopes away for the most part:\n$$\\sum_{n=a+1}^b f(n)=\\int_a^b f(t)\\dd t+\\frac{1}{2}(f(b)-f(a))+\n\\int_a^b B_1(t)f'(t)\\dd t$$ which is the Euler-Maclaurin formula for\n$k=0$, since $B_1=-\\frac{1}{2}$.\n\nSuppose that $k>0$ and the formula is correct for $k-1$, that is\n$$\\label{em2}\n\\sum_{a<n\\le b}f(n) = \\int_a^b f(t)\\dd t + \\sum_{r=0}^{k-1}\n\\frac{(-1)^{r+1} B_{r+1}}{(r+1)!} (f^{(r)}(b)-f^{(r)}(a)) +\n\\frac{(-1)^{k-1}}{k!} \\int_a^b B_k(t)f^{(k)}(t)\\dd t.$$ We rewrite the\nlast integral using integration by parts and the facts that $B_k$ is\ncontinuous for $k\\ge 2$ and $B_{k+1}'(t)=(k+1)B_k(t)$ for $k\\ge 0$:\n$$\\begin{aligned}\n\\int_a^b B_k(t)f^{(k)}(t)\\dd t&=&\\int_a^b \\frac{B_{k+1}'(t)}{k+1}\nf^{(k)}(t) \\dd t\\\\\n&=&\\frac{1}{k+1}B_{k+1}(t)f^{(k)}(t)\\big\\vert_a^b - \\frac{1}{k+1}\n\\int_a^b B_{k+1}(t) f^{(k+1)}(t)\\dd t.\\end{aligned}$$ Using the fact\nthat $B_k(n)=B_k$ for every integer $n$ if $k\\ge 2$, we see that the\nlast term in Eq. \\[em2\\] is equal to\n$$\\frac{(-1)^{k+1}B_{k+1}}{(k+1)!}(f^{(k)}(b)-f^{(k)}(a)) +\n\\frac{(-1)^k}{(k+1)!} \\int_a^b B_{k+1}(t) f^{(k+1)}(t)\\dd t.$$\nSubstituting this and absorbing the left term into the summation yields\nEq. \\[em1\\], as required.",
+  "conclusion": "#P_EulerMaclaurinSummationFormula",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfEulerMaclaurinSummationFormula"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Euler-Maclaurin summation formula"
+  ]
+}

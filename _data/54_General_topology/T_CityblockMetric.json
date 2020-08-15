@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "city-block distance",
+    "taxicab metric"
+  ],
+  "definition": "The *city-block metric*, defined on $\\mathbb{R}^n$, is\n\n$$d(a,b) = \\sum_{i=1}^n |b_i-a_i|$$\n\nwhere $a$ and $b$ are vectors in $\\mathbb{R}^n$ with\n$a=(a_1,\\ldots,a_n)$ and $b=(b_1,\\ldots,b_n)$.\n\nIn two dimensions and with discrete-valued vectors, when we can picture\nthe set of points in $\\mathbb{Z} \\times \\mathbb{Z}$ as a grid, this is\nsimply the number of edges between points that must be traversed to get\nfrom $a$ to $b$ within the grid. This is the same problem as getting\nfrom corner $a$ to $b$ in a rectilinear downtown area, hence the name\n\u201ccity-block metric.\u201d",
+  "language": "INFORMAL",
+  "phrase": "City-Block Metric",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CityblockMetric"
+    }
+  ],
+  "indexable": true
+}

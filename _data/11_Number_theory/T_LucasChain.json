@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Lucas chain*]{} $a$ is an addition chain with the additional\nrequirement that not only each term be the sum of two previous (not\nnecessarily distinct) terms, but also that the difference of those two\nterms also be a term in the sequence. That is, each $a_i = a_m + a_n$\nand also $|a_n - a_m| = a_j$, with $j$ being some nonnegative integer.\n\nFor example, the Fibonacci sequence (1, 1, 2, 3, 5, 8, 13, 21, 34, 55,\netc.) is a Lucas chain because not only is each term the sum of the\nprevious two terms, each term is the difference of the next two terms.\nOn the other hand, 1, 2, 4, 8, 9, 13, 21, 30, etc., is an addition chain\nbut not a Lucas chain, since 8 + 13 = 21, but $13 - 8 = 5$, which is not\na member of the chain.",
+  "language": "INFORMAL",
+  "phrase": "Lucas Chain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LucasChain"
+    }
+  ],
+  "indexable": true
+}

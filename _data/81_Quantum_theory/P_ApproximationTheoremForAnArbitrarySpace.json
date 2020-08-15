@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "([*Approximation theorem for an arbitrary topological space in terms of\nthe colimit of a sequence of cellular inclusions of $CW$-complexes*]{}):\n\n> \u201cThere is a functor $\\Gamma: \\textbf{hU} \\longrightarrow \\textbf{hU}$\n> where $\\textbf{hU}$ is the homotopy category for unbased spaces , and\n> a natural transformation $\\gamma: \\Gamma \\longrightarrow Id$ that\n> asssigns a $CW$-complex $\\Gamma X$ and a weak equivalence\n> $\\gamma _e:\\Gamma X \\longrightarrow \n> X$ to an arbitrary space $X$, such that the following diagram\n> commutes:\n>\n> $$\n>\n> X @&gt; f &gt;&gt; Y\\\n> @V $~~~~~~~$(X) VV @VV (Y) V\\\n> X @ &gt; f &gt;&gt; Y\n>\n> $$ and $\\Gamma f: \\Gamma X\\rightarrow   \\Gamma Y$ is unique up to\n> homotopy equivalence.\u201d\n\n(viz. p. 75 in ref. [@MJP1999]).\n\nThe $CW$-complex specified in the is constructed as the colimit\n$\\Gamma X$ of a sequence of cellular inclusions of $CW$-complexes\n$X_1, ..., X_n$ , so that one obtains $X \\equiv colim  [X_i]$. As a\nconsequence of J.H.C. Whitehead\u2019s Theorem, one also has that:\n\n$\\gamma* : [\\Gamma X,\\Gamma Y] \\longrightarrow[\\Gamma X, Y]$ is an\nisomorphism.\n\nFurthermore, the homotopy groups of the $CW$-complex $\\Gamma X$ are the\ncolimits of the homotopy groups of $X_n$ and\n$\\gamma_{n+1} : \\pi_q(X_{n+1})\\longmapsto\\pi_q (X)$ is a group\nepimorphism.\n\n[9]{}\n\nMay, J.P. 1999, *A Concise Course in Algebraic Topology.*, The\nUniversity of Chicago Press: Chicago",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ApproximationTheoremForAnArbitrarySpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "approximation theorem for an arbitrary space",
+    "approximation theorems for topological spaces"
+  ]
+}

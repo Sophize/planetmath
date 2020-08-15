@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "normal analytic variety"
+  ],
+  "definition": "Let $V$ be a local complex analytic variety (or a complex analytic\nspace). A point $p \\in V$ is if and only if every weakly holomorphic\nfunction through $V$ extends to be holomorphic in $V$ near $p.$\n\nIn particular, if $V \\subset {\\mathbb{C}}^n$ is a complex analytic\nsubvariety, it is normal at $p$ if and only if every weakly holomorphic\nfunction through $V$ extends to be holomorphic in a neighbourhood of $p$\nin ${\\mathbb{C}}^n$.\n\nTo see that this definition is equivalent to the usual one, that is,\nthat $V$ is normal at $p$ if and only if ${\\mathcal{O}}_p$ (the ring of\ngerms of holomorphic functions at $p$) is integrally closed, we need the\nfollowing theorem. Let ${\\mathcal{M}}_p$ be the total quotient ring of\n${\\mathcal{O}}_p$, that is, the ring of germs of meromorphic functions.\n\nLet $V$ be a local complex analytic variety. Then ${\\mathcal{O}}_p^w(V)$\nis the integral closure of ${\\mathcal{O}}_p(V)$ in ${\\mathcal{M}}_p.$\n\n[9]{} Hassler Whitney. [**]{}. Addison-Wesley, Philippines, 1972.",
+  "language": "INFORMAL",
+  "phrase": "Normal Complex Analytic Variety",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalComplexAnalyticVariety"
+    }
+  ],
+  "indexable": true
+}

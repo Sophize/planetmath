@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $ X\\in \\textbf{L}^2$ be a real-valued random variable with mean\n$ \\mu=\\mathbb{E}[X]$ and variance $ \\sigma^2=\\operatorname{Var} [X]$.\nThen for any standard of accuracy $t>0$,\n$${\\mathbb{P}_{}\\left\\{\\left| X - \\mu \\right| \\ge t\\right\\}} \\le \\frac{\\sigma^2}{t^2}.$$\n\n**Note:** There is another , which is unrelated.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChebyshevsInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Chebyshev's inequality"
+  ]
+}

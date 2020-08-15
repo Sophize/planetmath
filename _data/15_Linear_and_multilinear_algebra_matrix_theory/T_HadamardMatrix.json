@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hadamard"
+  ],
+  "definition": "An $n\\times n$ matrix $H = (h_{ij})$ is a *Hadamard matrix* of order $n$\nif the entries of $H$ are either $+1$ or $-1$ and such that $HH^T = nI,$\nwhere $H^T$ is the transpose of $H$ and $I$ is the order $n$ identity\nmatrix.\n\nIn other words, an $n\\times n$ matrix with only $+1$ and $-1$ as its\nelements is Hadamard if the inner product of two distinct rows is $0$\nand the inner product of a row with itself is $n$.\n\nA few examples of Hadamard matrices are\n$$\\begin{bmatrix} 1 & 1 \\\\ 1 & -1\\end{bmatrix} ,   \\begin{bmatrix} -1 & 1 & 1 & 1 \\\\ 1 & -1 & 1 & 1 \\\\ 1 & 1 & -1 & 1 \\\\ 1 & 1 & 1 & -1\\end{bmatrix},   \\begin{bmatrix} 1 & 1 & 1 & 1 \\\\ 1 & -1 & 1 & -1 \\\\ 1 & 1 & -1 & -1 \\\\ 1 & -1 & -1 & 1\\end{bmatrix}$$\nThese matrices were first considered as Hadamard determinants, because\nthe determinant of a Hadamard matrix satisfies equality in Hadamard\u2019s\ndeterminant theorem, which states that if $X = (x_{ij})$ is a matrix of\norder $n$ where $|x_{ij}| \\leq 1$ for all $i$ and $j,$ then\n$$det(X) \\leq n^{n/2}$$\n\n**Property 1:**\n\nThe order of a Hadamard matrix is $1, 2$ or $4n,$ where $n$ is an\ninteger.\n\n**Property 2:**\n\nIf the rows and columns of a Hadamard matrix are permuted, the matrix\nremains Hadamard.\n\n**Property 3:**\n\nIf any row or column is multiplied by $-1,$ the Hadamard property is\nretained.\n\nHence it is always possible to arrange to have the first row and first\ncolumn of a Hadamard matrix contain only $+1$ entries. A Hadamard matrix\nin this form is said to be *normalized*.\n\nHadamard matrices are common in signal processing and coding\napplications.",
+  "language": "INFORMAL",
+  "phrase": "Hadamard Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HadamardMatrix"
+    }
+  ],
+  "indexable": true
+}

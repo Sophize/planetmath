@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An [*amenable number*]{} is an integer for which there exists a multiset\nof at least two positive integers that can be either added up or\nmultiplied together to give the original number. To put it\nalgebraically, for an integer $n$, there is a set of integers\n${a_1, \\ldots , a_k}$, for which the equalities\n$$n = \\sum_{i = 1}^k a_i = \\prod_{i = 1}^k a_i$$ hold. An elegant\nexample is the number 6, which is an amenable number since\n$6 = 1 + 2 + 3 = 1 \\cdot 2 \\cdot 3$.\n\nAll composite numbers are amenable because, even if other solutions are\navailable, one can always make an inelegant solution by taking the prime\nfactorization (expressed with repeated factors rather than exponents)\nand add as many 1s as necessary to add up to $n$. Because of the\nmultiplicative identity, multiplying this set of integers will yield $n$\nno matter how many 1s there are in the set.\n\nIf we allow negative integers in the set, then all prime numbers are\nalso amenable. Even if no other solutions are available, one can always\nmake an inelegant solution for a prime number $p$ of\n${1,\\ -1,\\ 1,\\ -1,\\ p}$. In the sum, the two positive ones are cancelled\nout by the two negative ones, leaving $p$, while in the product, the two\nnegative ones cancel out the effect of their signs, leaving only the\nmultiplicative identity to affect the final result.\n\nAmenable numbers should not be confused with amicable numbers, which are\npairs of integers whose divisors add up to each other.",
+  "language": "INFORMAL",
+  "phrase": "Amenable Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AmenableNumber"
+    }
+  ],
+  "indexable": true
+}

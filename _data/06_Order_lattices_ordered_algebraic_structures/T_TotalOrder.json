@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "linear order",
+    "total ordering",
+    "linear ordering"
+  ],
+  "definition": "A *totally ordered set* (or *linearly ordered set*) is a poset\n$(T,\\leq)$ which has the property of *comparability*:\n\n-   for all $x,y\\in T$, either $x\\leq y$ or $y \\leq x$.\n\nIn other words, a totally ordered set is a set $T$ with a binary\nrelation $\\leq$ on it such that the following hold for all $x,y,z\\in T$:\n\n-   $x\\leq x$. ([*reflexivity*]{})\n\n-   If $x\\leq y$ and $y\\leq x$, then $x=y$. ([*antisymmetry*]{})\n\n-   If $x\\leq y$ and $y\\leq z$, then $x\\leq z$. ([*transitivity*]{})\n\n-   Either $x\\leq y$ or $y \\leq x$. ([*comparability*]{})\n\nThe binary relation $\\leq$ is then called a *total order* or a *linear\norder* (or *total ordering* or *linear ordering*). A totally ordered set\nis also sometimes called a *chain*, especially when it is considered as\na subset of some other poset. If every nonempty subset of $T$ has a\nleast element, then the total order is called a .\n\nSome people prefer to define the binary relation $<$ as a total order,\nrather than $\\leq$. In this case, $<$ is required to be and to obey the\nlaw of trichotomy. It is straightforward to check that this is\nequivalent to the above definition, with the usual relationship between\n$<$ and $\\leq$ (that is, $x\\leq y$ if and only if either $x<y$ or\n$x=y$).\n\nA totally ordered set can also be defined as a lattice $(T,\\lor,\\land)$\nin which the following property holds:\n\n-   for all $x,y\\in T$, either $x\\land y=x$ or $x\\land y=y$.\n\nThen totally ordered sets are .",
+  "language": "INFORMAL",
+  "phrase": "Total Order",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TotalOrder"
+    }
+  ],
+  "indexable": true
+}

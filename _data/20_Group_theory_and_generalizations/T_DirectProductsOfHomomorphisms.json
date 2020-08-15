@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Assume that $\\{f_i:G_i\\to H_i\\}_{i\\in I}$ is a family of homomorphisms\nbetween groups. Then we can define the *Cartesian product* (or\n*unrestricted direct product*) of this family as a homomorphism\n$$\\prod_{i\\in I}f_i:\\prod_{i\\in I} G_i\\to \\prod_{i\\in I}H_i$$ such that\n$$\\bigg( \\prod_{i\\in I}f_i \\bigg) \\big( g\\big) (j)=f_j(g(j))$$ for each\n$g\\in \\prod_{i\\in I}G_i$ and $j\\in I$.\n\nOne can easily show that $\\prod_{i\\in I}f_i$ is a group homomorphism.\nMoreover it is clear that\n$$\\bigg( \\prod_{i\\in I}f_i \\bigg) \\big( \\bigoplus_{i\\in I} G_i \\big) \\subseteq \\bigoplus_{i\\in I} H_i,$$\nso $\\prod_{i\\in I}f_i$ induces a homomorphism\n$$\\bigoplus_{i\\in I}f_i:\\bigoplus_{i\\in I}G_i\\to \\bigoplus_{i\\in I}H_i,$$\nwhich is a restriction of $\\prod_{i\\in I}f_i$ to\n$\\bigoplus_{i\\in I}G_i$. This homomorphism is called the *direct\nproduct* (or *restricted direct product*) of\n$\\{f_i:G_i\\to H_i\\}_{i\\in I}$.",
+  "language": "INFORMAL",
+  "phrase": "Direct Products Of Homomorphisms",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirectProductsOfHomomorphisms"
+    }
+  ],
+  "indexable": true
+}

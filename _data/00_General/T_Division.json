@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[*Division*]{} is the operation which assigns to every two numbers (or\nmore generally, elements of a field) $a$ and $b$ their quotient or\nratio, provided that the latter, $b$, is distinct from zero.\n\nThe [*quotient*]{} (or [*ratio*]{}) $\\frac{a}{b}$ of $a$ and $b$ may be\ndefined as such a number (or element of the field) $x$ that\n$b \\cdot x = a$. Thus, $$b\\cdot\\frac{a}{b} = a,$$ which is the\n\u201cfundamental property of quotient\u201d.\n\nThe quotient of the numbers $a$ and $b$ ($\\neq 0$) is a uniquely\ndetermined number, since if one had\n$$\\frac{a}{b} = x \\neq y = \\frac{a}{b},$$ then we could write\n$$b(x-y) = bx-by = a-a = 0$$ from which the supposition $b \\neq 0$ would\nimply $x-y = 0$, i.e. $x = y$.\n\nThe explicit general expression for $\\frac{a}{b}$ is\n$$\\frac{a}{b} = b^{-1}\\cdot a$$ where $b^{-1}$ is the inverse number\n(the multiplicative inverse) of $a$, because\n$$b(b^{-1}a) = (bb^{-1})a = 1a = a.$$\n\n-   For positive numbers the quotient may be obtained by performing the\n    division algorithm with $a$ and $b$. If $a > b > 0$, then\n    $\\frac{a}{b}$ indicates how many times $b$ fits in $a$.\n\n-   The quotient of $a$ and $b$ does not change if both numbers\n    (elements) are multiplied (or divided, which is called\n    [*reduction*]{}) by any $k \\neq 0$:\n    $$\\frac{ka}{kb} = (kb)^{-1}(ka) = b^{-1}k^{-1}ka = b^{-1}a = \\frac{a}{b}$$\n    So we have the method for getting the quotient of complex numbers,\n    $$\\frac{a}{b} = \\frac{\\bar{b}a}{\\bar{b}b},$$ where $\\bar{b}$ is the\n    complex conjugate of $b$, and the quotient of , e.g.\n    $$\\frac{1}{5+2\\sqrt{2}} = \\frac{5-2\\sqrt{2}}{(5-2\\sqrt{2})(5+2\\sqrt{2})} = \n    \\frac{5-2\\sqrt{2}}{25-8} = \\frac{5-2\\sqrt{2}}{17};$$ in the first\n    case one aspires after a real and in the second case after a\n    rational denominator.\n\n-   The division is neither associative nor commutative, but it is right\n    distributive over addition:\n    $$\\frac{a+b}{c} = \\frac{a}{c}+\\frac{b}{c}$$",
+  "language": "INFORMAL",
+  "phrase": "Division",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Division"
+    }
+  ],
+  "indexable": true
+}

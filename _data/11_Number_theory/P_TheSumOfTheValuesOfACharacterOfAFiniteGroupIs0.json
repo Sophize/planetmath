@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following is an argument that occurs in many proofs involving\ncharacters of groups. Here we use additive notation for the group $G$,\nhowever this group is not assumed to be abelian.\n\nLet $G$ be a finite group, and let $K$ be a field. Let\n$\\chi\\colon G\\to K^{\\times}$ be a character, where $K^{\\times}$ denotes\nthe multiplicative group of $K$. Then:\n$$\\sum_{g\\in G} \\chi(g) =\\begin{cases}\n\\mid G \\mid, \\text{ if } \\chi \\text{ is trivial,}\\\\\n0_K, \\text{ otherwise}\n\\end{cases}$$ where $0_K$ is the zero element in $K$, and $\\mid G \\mid$\nis the order of the group $G$.\n\nFirst assume that $\\chi$ is trivial, i.e. for all $g\\in G$ we have\n$\\chi(g)=1\\in K$. Then the result is clear.\n\nThus, let us assume that there exists $g_1$ in $G$ such that\n$\\chi(g_1)=h\\neq 1\\in K$. Notice that for any element $g_1\\in G$ the\nmap: $$G \\to G,\\quad g\\mapsto g_1+g$$ is clearly a bijection. Define\n$\\mathcal{S}=\\sum_{g\\in G} \\chi(g)\\in K$. Then: $$\\begin{aligned}\nh\\cdot\\mathcal{S} &=& \\chi(g_1)\\cdot\\mathcal{S}\\\\\n&=& \\chi(g_1)\\cdot \\sum_{g\\in G}\\chi(g)\\\\\n&=& \\sum_{g\\in G}\\chi(g_1)\\cdot\\chi(g)\\\\\n&=& \\sum_{g\\in G}\\chi(g_1 + g),\\quad (1)\\\\\n&=& \\sum_{j\\in G}\\chi(j),\\quad (2)\\\\\n&=& \\mathcal{S}\\end{aligned}$$ By the remark above, sums $(1)$ and $(2)$\nare equal, since both run over all possible values of $\\chi$ over\nelements of $G$. Thus, we have proved that:\n$$h\\cdot \\mathcal{S}=\\mathcal{S}$$ and $h\\neq 1\\in K$. Since $K$ is a\nfield, it follows that $\\mathcal{S}=0\\in K$, as desired.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheSumOfTheValuesOfACharacterOfAFiniteGroupIs0"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the sum of the values of a character of a finite group is $0$"
+  ]
+}

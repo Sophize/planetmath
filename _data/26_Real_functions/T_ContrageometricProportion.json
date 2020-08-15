@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Just as one converts the proportion equation\n$$\\frac{m\\!-\\!x}{y\\!-\\!m} \\;=\\; \\frac{x}{y}$$ defining the harmonic mean\nof $x$ and $y$ into the proportion equation\n$$\\frac{m\\!-\\!x}{y\\!-\\!m} \\;=\\; \\frac{y}{x}$$ defining their , one also\nmay convert the proportion equation\n$$\\frac{m\\!-\\!x}{y\\!-\\!m} \\;=\\; \\frac{m}{y}$$ defining the geometric\nmean into a new equation $$\\begin{aligned}\n\\frac{m\\!-\\!x}{y\\!-\\!m} \\;=\\; \\frac{y}{m}\\end{aligned}$$ defining the\n[*contrageometric mean*]{} $m$ of $x$ and $y$. Thus, the three positive\nnumbers $x$, $m$, $y$ satisfying (1) are in [ *contrageometric\nproportion*]{}. One integer example is $1,\\,4,\\,6$.\\\nSolving $m$ from (1) one gets the expression $$\\begin{aligned}\nm \\;=\\; \\frac{x\\!-\\!y+\\sqrt{(x\\!-\\!y)^2+4y^2}}{2} \\;=:\\; f(x,\\,y).\\end{aligned}$$\n\nSuppose now that $0 \\le x \\le y$. Using (2) we see that\n$$m \\;\\ge\\; \\frac{x\\!-\\!y+\\sqrt{0^2\\!+\\!4y^2}}{2} \\;=\\; \\frac{x\\!+\\!y}{2} \n\\;\\ge\\; x,$$ $$y^2\\!-\\!m^2 \\;=\\; \n\\frac{-(y\\!-\\!x)^2+(y\\!-\\!x)\\sqrt{(x\\!-\\!y)^2+4y^2}}{2} \\;=\\; \n\\frac{(y\\!-\\!x)[\\sqrt{(y\\!-\\!x)^2+4y^2}-(y\\!-\\!x)]}{2} \\;\\ge\\; 0,$$\naccordingly $$\\begin{aligned}\nx \\;\\le\\; f(x,\\,y) \\;\\le\\; y.\\end{aligned}$$ Thus the contrageometric\nmean of $x$ and $y$ also is at least equal to their arithmetic mean. We\ncan also compare $m$ with their quadratic mean by watching the\ndifference\n$$\\left(\\sqrt{\\frac{x^2\\!+\\!y^2}{2}}\\right)^2-m^2 \\;=\\; (y\\!-\\!x)\\left(\\frac{1}{2}\\sqrt{(y\\!-\\!x)^2+4y^2}-y\\right)\n\\;\\ge\\; 0.$$ So we have $$\\begin{aligned}\n\\frac{x\\!+\\!y}{2}\\;\\le\\; f(x,\\,y) \\;\\le\\; \\sqrt{\\frac{x^2\\!+\\!y^2}{2}}.\\end{aligned}$$\nCf. this result with the ; there the brown curve is the graph of\n$f(x,\\,1)$.\n\nIt\u2019s clear that the contrageometric mean (2) is not symmetric with\nrespect to the variables $x$ and $y$, contrary to the other types of\nmeans in general. On the other hand, the contrageometric mean is, as\nother types of means, a first-degree homogeneous function its arguments:\n$$\\begin{aligned}\nf(tx,\\,ty) \\;=\\; tf(x,\\,y).\\end{aligned}$$\n\n[8]{} : . Louisiana State University (2004). : . RGMIA (2010).",
+  "language": "INFORMAL",
+  "phrase": "Contrageometric Proportion",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContrageometricProportion"
+    }
+  ],
+  "indexable": true
+}

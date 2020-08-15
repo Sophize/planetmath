@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Any non-zero ideal of an algebraic number field $K$, i.e. of the maximal\norder $\\mathcal{O}_K$ of $K$, contains positive rational integers.\\\n*Proof.* Let $\\mathfrak{a} \\neq (0)$ be any ideal of $\\mathcal{O}_K$.\nTake a nonzero element $\\alpha$ of $\\mathfrak{a}$. The of $\\alpha$ is\nthe product\n$$\\mbox{N}(\\alpha) \\;=\\; \\alpha^{(1)}\\underbrace{\\alpha^{(2)}\\cdots\\alpha^{(n)}}_{\\gamma}$$\nwhere $n$ is the degree of the number field and\n$\\alpha^{(1)},\\,\\alpha^{(2)},\\,\\cdots,\\,\\alpha^{(n)}$ is the set of the\nof $\\alpha = \\alpha^{(1)}$. The number\n$$\\gamma = \\frac{\\mbox{N}(\\alpha)}{\\alpha}$$ belongs to the field $K$\nand it is an algebraic integer, since\n$\\alpha^{(2)},\\,\\cdots,\\,\\alpha^{(n)}$ are, as algebraic conjugates of\n$\\alpha$, also algebraic integers. Thus $\\gamma \\in \\mathcal{O}_K$.\nConsequently, the non-zero integer\n$$\\mbox{N}(\\alpha) \\;=\\; \\alpha\\gamma$$ belongs to the ideal\n$\\mathfrak{a}$, and similarly its opposite number. So, $\\mathfrak{a}$\ncontains positive integers, in fact infinitely many.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RationalIntegersInIdeals"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "rational integers in ideals"
+  ]
+}

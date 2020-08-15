@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "liminf",
+    "infimum limit"
+  ],
+  "definition": "Let $S\\subset{\\mathbb{R}}$ be a set of real numbers. Recall that a limit\npoint of $S$ is a real number $x\\in{\\mathbb{R}}$ such that for all\n$\\epsilon>0$ there exist infinitely many $y\\in S$ such that\n$$\\vert x-y\\vert <\\epsilon.$$ We define $\\liminf S$, pronounced the\n[*limit inferior*]{} of $S$, to be the infimum of all the limit points\nof $S$. If there are no limit points, we define the limit inferior to be\n$+\\infty$.\n\nThe two most common notations for the limit inferior are $$\\liminf S$$\nand $$\\underline{\\lim}\\, S\\,.$$\n\nAn alternative, but equivalent, definition is available in the case of\nan infinite sequence of real numbers $x_0, x_1, x_2, ,\\ldots$. For each\n$k\\in{\\mathbb{N}}$, let $y_k$ be the infimum of the $k{^{\\text{th}}}$\ntail, $$y_k = \\inf_{j\\geq k} x_j .$$ This construction produces a\nnon-decreasing sequence $$y_0 \\leq y_1 \\leq y_2 \\leq \\ldots,$$ which\neither converges to its supremum, or diverges to $+\\infty$. We define\nthe limit inferior of the original sequence to be this limit;\n$$\\liminf_{k} x_k = \\lim_k y_k.$$",
+  "language": "INFORMAL",
+  "phrase": "Limit Inferior",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitInferior"
+    }
+  ],
+  "indexable": true
+}

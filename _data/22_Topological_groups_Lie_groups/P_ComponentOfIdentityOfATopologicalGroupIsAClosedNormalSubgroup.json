@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $G$ be a topological group and $e$ its identity\nelement. The connected component of $e$ is a closed normal subgroup of\n$G$.\n\n$\\,$\n\n[***Proof:***]{} Let $F$ be the connected component of $e$. All\ncomponents of a topological space are closed, so $F$ is closed.\n\nLet $a \\in F$. Since the multiplication and inversion functions in $G$\nare continuous, the set $a F^{-1}$ is also connected, and since\n$e \\in aF^{-1}$ we must have $aF^{-1} \\subseteq F$. Hence, for every\n$b \\in F$ we have $ab^{-1} \\in F$, i.e. $F$ is a subgroup of $G$.\n\nIf $g$ is an arbitrary element of $G$, then $g^{-1}Fg$ is a connected\nsubset containing $e$. Hence $g^{-1}Fg \\subset F$ for every $g \\in G$,\ni.e. $F$ is a normal subgroup. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComponentOfIdentityOfATopologicalGroupIsAClosedNormalSubgroup"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "component of identity of a topological group is a closed normal subgroup"
+  ]
+}

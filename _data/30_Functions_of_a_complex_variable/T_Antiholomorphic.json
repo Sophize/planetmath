@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "antiholomorphic function"
+  ],
+  "definition": "A complex function $f\\!: D \\to \\mathbb{C}$, where $D$ is a domain of the\ncomplex plane, having the derivative $$\\frac{df}{d \\overline{z}}$$ in\neach point $z$ of $D$, is said to be [*antiholomorphic*]{} in $D$.\\\nThe following conditions are :\n\n-   $f(z)$ is antiholomorphic in $D$.\n\n-   $\\overline{f(z)}$ is holomorphic in $D$.\n\n-   $f(\\overline{z})$ is holomorphic in\n    $\\overline{D} \\,:=\\, \\{\\overline{z}\\;\\vdots\\;\\, z \\in D\\}$.\n\n-   $f(z)$ may be to a power series\n    $\\sum_{n=0}^\\infty a_n(\\overline{z}-u)^n$ at each $u \\in D$.\n\n-   The real part $u(x,\\,y)$ and the imaginary part $v(x,\\,y)$ of the\n    function $f$ satisfy the equations $$\\frac{\\partial u}{\\partial x} \n    \\;=\\; -\\frac{\\partial v}{\\partial y}, \\qquad \n      \\frac{\\partial u}{\\partial y} \\;=\\; \\frac{\\partial v}{\\partial x}.$$\n    N.B. the of minus; cf. the .\\\n\n**Example.** The function\n$\\displaystyle z \\mapsto \\frac{1}{\\overline{z}}$ is antiholomorphic in\n$\\mathbb{C}\\!\\smallsetminus\\!\\{0\\}$. One has\n$$f(z) \\;=\\; \\frac{z}{|z|^2} \n       \\;=\\; \\underbrace{\\frac{x}{x^2\\!+\\!y^2}}_{u}+i\\underbrace{\\frac{y}{x^2\\!+\\!y^2}}_{v}$$\nand thus $$\\frac{\\partial u}{\\partial x} \n\\;=\\; \\frac{y^2\\!-\\!x^2}{(x^2\\!+\\!y^2)^2},  \\qquad\n\\frac{\\partial v}{\\partial y}\n\\;=\\; \\frac{x^2\\!-\\!y^2}{(x^2\\!+\\!y^2)^2},  \\qquad \n\\frac{\\partial u}{\\partial y} \n\\;=\\; -\\frac{2xy}{(x^2\\!+\\!y^2)^2},  \\qquad\n\\frac{\\partial v}{\\partial x} \\;=\\; -\\frac{2xy}{(x^2\\!+\\!y^2)^2}.$$",
+  "language": "INFORMAL",
+  "phrase": "Antiholomorphic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Antiholomorphic"
+    }
+  ],
+  "indexable": true
+}

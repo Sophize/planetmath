@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In the following we will $C^\\infty$ when we say smooth.\n\nLet $M$ be a smooth manifold of dimension $m$ and let $\\Delta$ be a\ndistribution of dimension $n$ on $M$. Suppose that $N$ is a connected\nsubmanifold of $M$ such that for every $x \\in N$ we have that $T_x(N)$\n(the tangent space of $N$ at $x$) is contained in $\\Delta_x$ (the\ndistribution at $x$). We can abbreviate this by saying that\n$T(N) \\subset \\Delta$. We then say that $N$ is an [*integral\nmanifold*]{} of $\\Delta$.\n\nDo note that $N$ could be of lower dimension then $\\Delta$ and is not\nrequired to be a regular submanifold of $M$.\n\nWe say that a distribution $\\Delta$ of dimension $n$ on $M$ is\n[*completely integrable*]{} if for each point $x \\in M$ there exists an\nintegral manifold $N$ of $\\Delta$ passing through $x$ such that the\ndimension of $N$ is equal to the dimension of $\\Delta$.\n\nAn example of an integral manifold is the integral curve of a\nnon-vanishing vector field and then of course the span of the vector\nfield is a completely integrable distribution.\n\n[9]{} William M. Boothby. [**]{}, Academic Press, San Diego, California,\n2003.",
+  "language": "INFORMAL",
+  "phrase": "Integral Manifold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralManifold"
+    }
+  ],
+  "indexable": true
+}

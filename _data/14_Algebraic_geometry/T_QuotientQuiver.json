@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $Q=(Q_0,Q_1,s,t)$ be a quiver.\n\n**Definition.** An **equivalence relation** on $Q$ is a pair\n$$\\sim=(\\sim_0,\\sim_1)$$ such that $\\sim_0$ is an equivalence relation\non $Q_0$, $\\sim_1$ is an equivalence relation on $Q_1$ and if\n$$\\alpha\\sim_1 \\beta$$ for some arrows $\\alpha,\\beta\\in Q_1$, then\n$$s(\\alpha)\\sim_0 s(\\beta)\\ \\mbox{ and }\\ t(\\alpha)\\sim_1 t(\\beta).$$\n\nIf $\\sim$ is an equivalence relation on $Q$, then\n$(Q_0/\\sim_0,Q_1/\\sim_1,s',t')$ is a quiver, where\n$$s'([\\alpha])=[s(\\alpha)]\\ \\ \\ t'([\\alpha])=[t(\\alpha)].$$ This quiver\nis called **the quotient quiver** of $Q$ by $\\sim$ and is denoted by\n$Q/\\sim$.\n\nIt can be easily seen, that if $Q$ is a quiver and $\\sim$ is an\nequivalence relation on $Q$, then $$\\pi:Q\\to Q/\\sim$$ given by\n$\\pi=(\\pi_0,\\pi_1)$, where $\\pi_0$ and $\\pi_1$ are quotient maps is a\nmorphism of quivers. It will be called **the quotient morphism**.\n\n**Example.** Consider the following quiver $$\\xymatrix{\n& 2\\ar[dr]^{c} & \\\\\n1\\ar[ur]^{a}\\ar[dr]_{b} & & 3 \\\\\n & 4\\ar[ur]_{d} &\n}$$ If we take $\\sim$ by putting $2\\sim_0 4$ and $a\\sim_1 b$,\n$c\\sim_1 d$, then the corresponding quotient quiver is isomorphic to\n$$\\xymatrix{\n1\\ar[r] & 2\\ar[r] & 3\n}$$",
+  "language": "INFORMAL",
+  "phrase": "Quotient Quiver",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuotientQuiver"
+    }
+  ],
+  "indexable": true
+}

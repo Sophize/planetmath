@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "radius vector"
+  ],
+  "definition": "In the space $\\mathbb{R}^3$, the vector\n$$\\vec{r} \\;:=\\; (x,\\,y,\\,z) \\;=\\; x\\vec{i}+y\\vec{j}+z\\vec{k}$$ directed\nfrom the origin to a point $(x,\\,y,\\,z)$ is the [*position vector*]{} of\nthis point. When the point is , $\\vec{r}$ a vector field and its\n$$r \\;:=\\; \\sqrt{x^2\\!+\\!y^2\\!+\\!z^2}$$ a scalar .\n\nThe\n\n-   $\\nabla\\!\\cdot\\vec{r} \\;=\\; 3$\n\n-   $\\nabla\\!\\times\\!\\vec{r} \\;=\\; \\vec{0}$\n\n-   $\\displaystyle\\nabla r \\;=\\; \\frac{\\vec{r}}{r} \\;=\\; \\vec{r}^{\\,0}$\n\n-   $\\displaystyle\\nabla\\frac{1}{r} \\;=\\; -\\frac{\\vec{r}}{r^3} \\;=\\; -\\frac{\\vec{r}^{\\,0}}{r^2}$\n\n-   $\\displaystyle\\nabla^2\\frac{1}{r} \\;=\\; 0$\n\nare valid, where $\\vec{r}^{\\,0}$ is the unit vector having the direction\nof $\\vec{r}$.\n\nIf $\\vec{c}$ is a vector, $\\vec{U}\\!\\!:\\mathbb{R}^3\\to\\mathbb{R}^3$ a\nvector function and $f\\!\\!:\\mathbb{R}\\to\\mathbb{R}$ is a twice\ndifferentiable function, then the formulae\n\n-   $\\nabla(\\vec{c}\\cdot\\!\\vec{r})\\; \\;= \\vec{c}$\n\n-   $\\nabla\\cdot(\\vec{c}\\times\\vec{r}) \\;=\\; 0$\n\n-   $(\\vec{U}\\!\\cdot\\!\\nabla)\\vec{r} \\;=\\; \\vec{U}$\n\n-   $(\\vec{U}\\!\\times\\!\\nabla)\\!\\cdot\\!\\vec{r} \\;=\\; 0$\n\n-   $(\\vec{U}\\!\\times\\!\\nabla)\\!\\times\\!\\vec{r} \\;=\\; -2\\vec{U}$\n\n-   $\\nabla f(r) \\;=\\; f'(r)\\,\\vec{r}^{\\,0}$\n\n-   $\\displaystyle\\nabla^2f(r) \\;=\\; f''(r)\\!+\\frac{2}{r}f'(r)$\n\nhold.\n\n[9]{} . Werner S\u00f6derstr\u00f6m Osakeyhti\u00f6, Helsinki (1961).",
+  "language": "INFORMAL",
+  "phrase": "Position Vector",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PositionVector"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "saturates",
+    "saturated"
+  ],
+  "definition": "Let $G(V,E)$ be a graph and $M$ a matching in $G$. A vertex $v\\in V(G)$\nis said to be *saturated by* $M$ if there is an edge in $M$ incident to\n$v$. A vertex $v\\in V(G)$ with no such edge is said to be *unsaturated\nby* $M$. We also say that $M$ *saturates* $v$.",
+  "language": "INFORMAL",
+  "phrase": "Saturate",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Saturate"
+    }
+  ],
+  "indexable": true
+}

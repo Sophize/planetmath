@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given base $b$, a number of the form ${{b^n - 1} \\over {b - 1}}$ for\n$n > 0$ is written using using only the digit 1 in that base and is\ntherefore a [*repunit*]{}. The term, short for \u201crepeated unit,\u201d is\ncredited to Beiler\u2019s book [*Recreations in the theory of numbers*]{}, in\nchapter 11.\n\nRegardless of base, a prime number is a prime number, but if in a given\nbase it is a repunit, then it is called a [*repunit prime*]{} in that\nbase. In binary, the Mersenne numbers are repunits, therefore the\nMersenne primes are repunit primes in binary. Repunit primes in base 10\nappear to be fewer, with only seven known as of 2006, for $n$ taking on\nthe values 2, 19, 23, 317, 1031, 49081, 86453 (see Sloane\u2019s OEIS,\nA004023, for updates).\n\nIn a trivial way, repunit primes are also palindromic primes and\npermutable primes.",
+  "language": "INFORMAL",
+  "phrase": "Repunit",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Repunit"
+    }
+  ],
+  "indexable": true
+}

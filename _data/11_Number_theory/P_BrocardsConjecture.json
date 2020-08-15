@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "(Henri Brocard) With the exception of 4 and 9, there are always at least\nfour prime numbers between the square of a prime and the square of the\nnext prime. To put it algebraically, given the $n$th prime $p_n$ (with\n$n > 1$), the inequality $(\\pi({p_{n + 1}}^2) - \\pi({p_n}^2)) > 3$ is\nalways true, where $\\pi(x)$ is the prime counting function.\n\nFor example, between $2^2$ and $3^2$ there are only two primes: 5 and 7.\nBut between $3^2$ and $5^2$ there are five primes: a prime quadruplet\n(11, 13, 17, 19) and 23.\n\nThis conjecture remains unproven as of 2007. Thanks to computers, brute\nforce searches have shown that the conjecture holds true as high as\n$n = 10^4$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BrocardsConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Brocard's conjecture",
+    "Brocard conjecture"
+  ]
+}

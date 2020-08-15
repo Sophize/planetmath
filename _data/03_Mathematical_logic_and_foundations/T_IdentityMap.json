@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "identity mapping",
+    "identity operator",
+    "identity function"
+  ],
+  "definition": "[**Definition**]{} If $X$ is a set, then the [**identity map**]{} in $X$\nis the mapping that maps each element in $X$ to itself.\n\n### Properties\n\n1.  An identity map is always a bijection.\n\n2.  Suppose $X$ has two topologies $\\tau_1$ and $\\tau_2$. Then the\n    identity mapping $I:(X,\\tau_1)\\to (X,\\tau_2)$ is continuous if and\n    only if $\\tau_1$ is finer than $\\tau_2$, i.e.,\n    $\\tau_1\\subset\\tau_2$.\n\n3.  The identity map on the $n$-sphere, is to the antipodal map\n    $A:S^n\\to S^n$ if $n$ is odd [@guillemin].\n\n[9]{} V. Guillemin, A. Pollack, *Differential topology*, Prentice-Hall\nInc., 1974.",
+  "language": "INFORMAL",
+  "phrase": "Identity Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IdentityMap"
+    }
+  ],
+  "indexable": true
+}

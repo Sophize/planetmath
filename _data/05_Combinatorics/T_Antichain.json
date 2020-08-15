@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A subset $A$ of a poset $(P,<_P)$ is an *antichain* if no two elements\nare comparable. That is, if $a,b\\in A$ then $a\\nless_P b$ and\n$b\\nless_P a$.\n\nA *maximal antichain* of $T$ is one which is maximal.\n\nIn particular, if $(P,<_P)$ is a tree then the maximal antichains are\nexactly those antichains which intersect every branch, and if the tree\nis splitting then every level is a maximal antichain.",
+  "language": "INFORMAL",
+  "phrase": "Antichain",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Antichain"
+    }
+  ],
+  "indexable": true
+}

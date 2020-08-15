@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "angle coefficient (?)"
+  ],
+  "definition": "The [*slope*]{} of a line in the $xy$-plane expresses how great is the\nchange of the ordinate $y$ of the point of the line per a unit-change of\nthe abscissa $x$ of the point; it requires that the line is not\nvertical.\n\nThe slope $m$ of the line may be determined by taking the changes of the\ncoordinates between two arbitrary points $(x_1,\\,y_1)$ and $(x_2,\\,y_2)$\nof the line: $$m = \\frac{y_2-y_1}{x_2-x_1}$$\n\nThe equation of the line is $$y = mx+b,$$ where $b$ indicates the\nintersection point of the line and the $y$-axis (one speaks of\n[*y-intercept*]{}).\n\nThe slope is equal to the of the slope angle of the line.\n\nTwo non-vertical lines of the plane are parallel if and only if their\nslopes are equal.\n\n![image](slope)\n\nIn the previous picture, the blue line given by $3x-y+1 = 0$ has slope\n$3$, whereas the red one given by $2x+y+2 = 0$ has slope $-2$. Also\nnotice that positive slopes represent ascending graphs and negative\nslopes represent descending graphs.",
+  "language": "INFORMAL",
+  "phrase": "Slope",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Slope"
+    }
+  ],
+  "indexable": true
+}

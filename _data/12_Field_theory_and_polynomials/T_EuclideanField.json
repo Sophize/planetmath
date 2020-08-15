@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An ordered field $F$ is *Euclidean* if every non-negative element $a$\n($a\\geq0$) is a square in $F$ (there exists $b\\in F$ such that $b^2=a$).\n\nExamples\n========\n\n-   $\\mathbb{R}$ is Euclidean.\n\n-   $\\mathbb{Q}$ is not Euclidean because $2$ is not a square in\n    $\\mathbb{Q}$ (, $\\pm\\sqrt{2}\\notin \\mathbb{Q}$).\n\n-   $\\mathbb{C}$ is not a Euclidean field because .\n\n-   The is Euclidean.\n\nA Euclidean field is an ordered Pythagorean field.\n\nThere are ordered fields that are Pythagorean but not Euclidean.",
+  "language": "INFORMAL",
+  "phrase": "Euclidean Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EuclideanField"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hamel basis"
+  ],
+  "definition": "A (Hamel) basis of a vector space is a linearly independent spanning\nset.\n\nIt can be proved that any two bases of the same vector space must have\nthe same cardinality. This introduces the notion of dimension of a\nvector space, which is precisely the cardinality of the basis, and is\ndenoted by $\\operatorname{dim}(V)$, where $V$ is the vector space.\n\nThe fact that is an important consequence of the axiom of choice (in\nfact, that proposition is equivalent to the axiom of choice.)\n\n[**Examples.**]{}\n\n-   $\\beta = \\{e_i\\}$, $1\\le i \\le n$, is a basis for $\\mathbb{R}^n$\n    (the $n$-dimensional vector space over the reals). For $n=4$,\n\n    $$\\beta = \\left\\{ \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\\\ 0 \\end{pmatrix} ,\n    \\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\\\ 0 \\end{pmatrix} ,\n    \\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\\\ 0 \\end{pmatrix} ,\n    \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\\\ 1 \\end{pmatrix} \\right\\}$$\n\n-   $ \\beta = \\{ 1, x , x^2 \\} $ is a basis for the vector space of\n    polynomials with degree at most 2, over a division ring.\n\n-   The set\n\n    $$\\beta =   \n    \\left\\{ \\begin{bmatrix}1 & 0 \\\\ 0 & 0 \\end{bmatrix} ,\n    \\begin{bmatrix}0 & 1 \\\\ 0 & 0 \\end{bmatrix} ,\n    \\begin{bmatrix}0 & 0 \\\\ 0 & 1 \\end{bmatrix} ,\n    \\begin{bmatrix}0 & 0 \\\\ 1 & 0 \\end{bmatrix} \\right\\}$$\n\n    is a basis for the vector space of $2 \\times 2$ matrices over a\n    division ring, and assuming that the characteristic of the ring is\n    not 2, then so is\n\n    $$\\beta' =   \n    \\left\\{ \\begin{bmatrix}2 & 0 \\\\ 0 & 0 \\end{bmatrix} ,\n    \\begin{bmatrix}0 & 1 \\\\ 0 & 0 \\end{bmatrix} ,\n    \\begin{bmatrix}0 & 0 \\\\ 0 & 4 \\end{bmatrix} ,\n    \\begin{bmatrix}0 & 0 \\\\ \\frac{1}{2} & 0 \\end{bmatrix} \\right\\}.$$\n\n-   The empty set is a basis for the trivial vector space which consists\n    of the unique element $0$.\n\n**Remark**. More generally, for any (left) right module $M$ over a ring\n$R$, one may define a (left) right basis for $M$ as a subset $B$ of $M$\nsuch that $B$ spans $M$ and is linearly independent. However, unlike\nbases for a vector space, bases for a module may not have the same\ncardinality.",
+  "language": "INFORMAL",
+  "phrase": "Basis",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Basis"
+    }
+  ],
+  "indexable": true
+}

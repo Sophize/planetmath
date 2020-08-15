@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Neron-Tate height"
+  ],
+  "definition": "Let $E/{\\mathbb{Q}}$ be an elliptic curve. It is often useful to have a\nnotion of [*height*]{} of a point, in order to talk about the arithmetic\ncomplexity of a point $P$ in $E({\\mathbb{Q}})$. For this, one defines\nheight functions. For example, in ${\\mathbb{Q}}$ one can define a height\nby $$H(p/q)=max(|p|,|q|).$$ Following the example of ${\\mathbb{Q}}$, one\nmay define a height on $E/{\\mathbb{Q}}$ by $$h_x(P)=\\begin{cases}\n\\log H(x(P)) & \\text{if } P\\neq O\\\\\n0 & \\text{if } P=O.\n\\end{cases}$$ In fact, given any even function\n$f:E({\\mathbb{Q}})\\to {\\mathbb{R}}$ on $E({\\mathbb{Q}})$ (i.e.\n$f(P)=f(-P)$ for any $P\\in E({\\mathbb{Q}})$) one can define a height by:\n$$h_f(P)=\\log H(f(P)).$$ However, one can refine this definition so that\nthe height function satisfies some very nice properties (see below).\n\nLet ${\\mathbb{Q}}$ be a number field and let $E$ be an elliptic curve\ndefined over ${\\mathbb{Q}}$. The canonical height (or N\u00e9ron-Tate height)\non $E/{\\mathbb{Q}}$, denoted by $\\hat{h}$, is the function on\n$E({\\mathbb{Q}})$ (with real values) defined by:\n$$\\hat{h}(P)=\\frac{1}{\\deg f} \\lim_{N\\to \\infty} \\frac{h_f([2^N]P)}{4^N}$$\nfor any even function $f:E({\\mathbb{Q}})\\to {\\mathbb{R}}$.\n\nThe fact that the definition does not depend on the choice of even\nfunction $f$ is due to J. Tate. In particular, one can simply choose $f$\nto be the $x$-function, whose degree is $2$. The canonical height\nsatisfies the following properties:\n\nLet $E/{\\mathbb{Q}}$ and let $\\hat{h}$ be the canonical height on $E$.\nThen:\n\n1.  The height $\\hat{h}$ satisfies the parallelogram law:\n    $$\\hat{h}(P+Q)+\\hat{h}(P-Q)=2\\hat{h}(P)+2\\hat{h}(Q)$$ for all\n    $P,Q \\in E(\\overline{{\\mathbb{Q}}})$.\n\n2.  For all $m\\in {\\mathbb{Z}}$ and all\n    $P\\in E(\\overline{{\\mathbb{Q}}})$: $$\\hat{h}([m]P)=m^2\\hat{h}(P).$$\n\n3.  The height $\\hat{h}$ is even and the pairing:\n    $$\\langle \\cdot, \\cdot \\rangle : E(\\overline{{\\mathbb{Q}}})\\times E(\\overline{{\\mathbb{Q}}}) \\to {\\mathbb{R}},\\quad \\langle P,Q \\rangle = \\hat{h}(P+Q)-\\hat{h}(P)-\\hat{h}(Q)$$\n    is bilinear (usually called the N\u00e9ron-Tate pairing on\n    $E/{\\mathbb{Q}}$).\n\n4.  For all $P\\in E(\\overline{{\\mathbb{Q}}})$ one has $\\hat{h}(P)\\geq 0$\n    and $\\hat{h}(P)=0$ if and only if $P$ is a torsion point.",
+  "language": "INFORMAL",
+  "phrase": "Canonical Height On An Elliptic Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CanonicalHeightOnAnEllipticCurve"
+    }
+  ],
+  "indexable": true
+}

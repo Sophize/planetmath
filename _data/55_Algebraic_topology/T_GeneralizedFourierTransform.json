@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Stieltjes-Fourier transform"
+  ],
+  "definition": "**Fourier-Stieltjes transform:**\n\nGiven a *positive definite, measurable function* $f(x)$ on the interval\n$(-\\infty ,\\infty)$ there exists a monotone increasing, real-valued\nbounded function $ \\alpha (t)$ such that:\n\n$$f(x)=\\int_\\mathbb{R}e^{itx}d(\\alpha (t)),$$\n\nfor all $x \\in{\\mathbb{R}}$ except a \u2018small\u2019 set, that is a finite set\nwhich contains only a small number of values. When $f(x)$ is defined as\nabove and if $\\alpha(t)$ is nondecreasing and bounded then the\nmeasurable function defined by the above integral is called *the\nFourier-Stieltjes transform of* $\\alpha(t)$, and it is *continuous* in\naddition to being *positive definite*.\n\n[9]{} A. Ramsay and M. E. Walter, Fourier-Stieltjes algebras of locally\ncompact groupoids, *J. Functional Anal*. **148**: 314-367 (1997).\n\nA. L. T. Paterson, The Fourier algebra for locally compact groupoids.,\nPreprint, (2001).\n\nA. L. T. Paterson, The Fourier-Stieltjes and Fourier algebras for\nlocally compact groupoids, (2003).",
+  "language": "INFORMAL",
+  "phrase": "Generalized Fourier Transform",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedFourierTransform"
+    }
+  ],
+  "indexable": true
+}

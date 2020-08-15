@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The aim of this page is to collect frequently used formulas in\nRiemannian geometry.\n\n### Symbol conventions. {#symbol-conventions. .unnumbered}\n\n-   $g_{ij}$ : the components of the metric tensor;\n\n-   $\\Gamma_{ijk}=\\Gamma_{jik}$ : the Christoffel symbols;\n\n-   $X_i=X^j g_{ij}$, and $Y^i$ : rank 1 tensors;\n\n-   $T_{ij}=T_{i}{}^{k} g_{jk}$ : a rank 2 tensor;\n\n-   indices $i,j,k,l$ and subscripted versions thereof: components taken\n    with respect to a local coordinate frame;\n\n-   $x^i$, $y^j$ : systems of local coordinates;\n\n-   $\\partial_i = \\frac{\\partial}{\\partial x^i}$ : local coordinate\n    frame;\n\n-   boldfaced symbols: the actual geometric quantity, rather than\n    components; e.g. ${\\boldsymbol{X}}= X^i \\partial_i.$\n\n### Formulas for the covariant derivative. {#formulas-for-the-covariant-derivative. .unnumbered}\n\n$$\\begin{aligned}\n  \\partial_k g_{ij} &= \\Gamma_{kij} + \\Gamma_{kji},\\\\\n  \\partial_k g^{ij} &= -(g^{jb} \\Gamma_{bk}{}^i + g^{ia} \\Gamma_{ak}{}^j), \\\\\n  \\nabla_k g_{ij} &= 0,\\\\\n  \\Gamma_{ijk} &= \\tfrac{1}{2} ( \\partial_i g_{jk} + \\partial_j\n  g_{ik}-\\partial_k g_{ij}),\\\\\n  \\nabla_i X^j &= \\partial_i X^j + \\Gamma_{ik}{}^j X^k,\\\\\n  \\nabla_{{\\boldsymbol{X}}} {\\boldsymbol{Y}}&= X^i \\,\\nabla_i Y^j\\, \\partial_j,\\\\\n  \\nabla_i X_j &= \\partial_i X_j - \\Gamma_{ij}{}^k X_k,\\\\\n  \\nabla_i T_{jk} &= \\partial_i T_{jk} - \\Gamma_{ij}{}^l T_{lk}\n  -  \\Gamma_{ik}{}^l T_{jl},\\\\\n  \\nabla_i T^j{}_k &= \\partial_i T^j{}_k + \\Gamma_{il}{}^j T^l{}_k -\n  \\Gamma_{ik}{}^l T^j{}_l.\\end{aligned}$$\n\n### Formulas for geodesics {#formulas-for-geodesics .unnumbered}\n\nA geodesic is a curve $c\\colon I \\to M$ satisfying\n$$\\ddot{c}{}^i + \\Gamma_{jk}{}^i\\, \\dot{c}^j\\dot{c}^k = 0$$",
+  "language": "INFORMAL",
+  "phrase": "Formulas In Riemannian Geometry",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FormulasInRiemannianGeometry"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "MSE",
+    "MVUE",
+    "UMVU",
+    "UMVUE",
+    "uniformly minimum variance unbiased"
+  ],
+  "definition": "The *mean square error* of an estimator $\\hat{\\theta}$ of a parameter\n$\\theta$ in a statistical model is defined as:\n$$\\operatorname{MSE}(\\hat{\\theta})\\colon=\\operatorname{E}\\big[(\\hat{\\theta}-\\theta)^2\\big].$$\n\nFrom the definition of the variance\n$\\operatorname{Var}[X]=\\operatorname{E}[X^2]-\\operatorname{E}[X]^2$, we\ncan express the mean square error in terms of the bias by expanding the\nright hand side above:\n$$\\operatorname{MSE}(\\hat{\\theta})=\\operatorname{Var}\\big[\\hat{\\theta}\\big]+\n\\operatorname{Bias}(\\hat{\\theta})^2.$$\n\nIf $\\hat{\\theta}$ is an unbiased estimator, then its mean square error\nis identical to its variance:\n$\\operatorname{MSE}(\\hat{\\theta})=\\operatorname{Var}[\\hat{\\theta}]$. An\nunbiased estimator such that $\\operatorname{MSE}(\\hat{\\theta})$ is a\nminimum value among all unbiased estimators for $\\theta$ is called a\n*minimum variance unbiased estimator*, abbreviated *MVUE*, or *uniformly\nminimum variance unbiased estimator*, abbreviated *UMVU* estimator.\n\n**Example**. Suppose $X_1,X_2,\\ldots,X_n$ are iid random variables ($n$\nindependent measurements of the radius of a coin, etc...) from a normal\ndistribution $N(\\mu,\\sigma^2)$ (for example, $\\mu$ would be the true\nradius of the coin, and $\\sigma^2$ would be the error component of the\nmeasurements). Suppose $\\overline{X}$ ($=\\overline{X}_n$) is the sample\nmean. Then $\\overline{X}$ is an unbiased estimator, so that\n$$\\operatorname{MSE}(\\overline{X})=\\operatorname{Var}\\left[\\overline{X}\\right]=\n\\operatorname{Var}\\left[\\frac{1}{n}\\sum_{i=1}^n\nX_i\\right]=\\frac{1}{n^2}\\left(\\sum_{i=1}^n \\sigma^2\\right)=\\frac{\\sigma^2}{n}.$$\n\n**Remark**. The square root of MSE is called the \u201croot mean square\nerror\u201d, or *rms error* for short.",
+  "language": "INFORMAL",
+  "phrase": "Mean Square Error",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeanSquareError"
+    }
+  ],
+  "indexable": true
+}

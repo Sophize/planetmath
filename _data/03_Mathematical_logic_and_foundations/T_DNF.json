@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "disjunctive normal form"
+  ],
+  "definition": "A propositional formula is a DNF formula, meaning Disjunctive Normal\nForm, if it is a disjunction of conjunctions of literals (a literal is a\npropositional variable or its negation). Hence, a DNF is a formula of\nthe form: $K_1 \\vee K_2 \\vee \\ldots \\vee K_n$, where each $K_i$ is of\nthe form $l_{i1} \\wedge l_{i2} \\wedge \\ldots \\wedge l_{im}$ for literals\n$l_{ij}$ and some $m$ which can vary for each $K_i$.\n\nExample:\n$(x\\wedge  y \\wedge \\neg z) \\vee (y\\wedge \\neg w \\wedge \\neg u) \\vee (x \\wedge v)$.",
+  "language": "INFORMAL",
+  "phrase": "Dnf",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DNF"
+    }
+  ],
+  "indexable": true
+}

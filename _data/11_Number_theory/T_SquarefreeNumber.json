@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "square free number",
+    "square free",
+    "square-free",
+    "squarefree"
+  ],
+  "definition": "A *square-free* number is a natural number that contains no powers\ngreater than 1 in its prime factorization. In other words, if $x$ is our\nnumber, and\n\n$$x = \\prod_{i=1}^r p_i^{a_i}$$\n\nis the prime factorization of $x$ into $r$ distinct primes, then\n$a_i \\ge 2$ is always false for square-free $x$.\n\nNote: we assume here that $x$ itself must be greater than 1; hence 1 is\nnot considered square-free. However, one must be alert to the particular\ncontext in which \u201csquare-free\u201d is used as to whether this is considered\nthe case.\n\nThe name derives from the fact that if any $a_i$ were to be greater than\nor equal to two, we could be sure that at least one square divides $x$\n(namely, $p_i^2$.)\n\nAsymptotic Analysis\n===================\n\nThe asymptotic density of square-free numbers is $\\frac{6}{\\pi^2}$ which\ncan be proved by application of a square-free variation of the as\nfollows: $$\\begin{aligned}\nA(n)&=\\sum_{k\\leq n} [k \\text{ is squarefree }]\\\\\n    &=\\sum_{k\\leq n} \\sum_{d^2 | k} \\mu(d)\\\\\n    &=\\sum_{d \\leq \\sqrt{n}} \\mu(d) \\sum_{\\substack{k \\leq n\\\\d^2 | n}} 1 \\\\\n    &=\\sum_{d \\leq \\sqrt{n}} \\mu(d) \\left\\lfloor{\\frac{n}{d^2}}\\right\\rfloor\\\\\n    &=n \\sum_{d \\leq \\sqrt{n}} \\frac{\\mu(d)}{d^2}+O(\\sqrt{n})\\\\\n    &=n \\sum_{d\\geq 1} \\frac{\\mu(d)}{d^2}+O(\\sqrt{n})\\\\\n    &=n \\frac{1}{\\zeta(2)} + O(\\sqrt{n}) \\\\\n    &=n \\frac{6}{\\pi^2}+O(\\sqrt{n}).\\end{aligned}$$ It was shown that\nthe Riemann Hypothesis implies error term $O(n^{7/22+\\epsilon})$ in the\nabove [@cite:baker_pintz_sqfree].\n\n[1]{}\n\nR.\u00a0C. Baker and J.\u00a0Pintz. The distribution of square-free numbers. ,\n46:73\u201379, 1985. .",
+  "language": "INFORMAL",
+  "phrase": "Square-Free Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SquarefreeNumber"
+    }
+  ],
+  "indexable": true
+}

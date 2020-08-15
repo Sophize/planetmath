@@ -1,0 +1,17 @@
+{
+  "argumentText": "WLOG consider $g(t):\\mathbb{R} \\to \\mathbb{C}$ a parameterization of the\n$\\gamma$ curve along which the integral is evaluated with $|g'(t)|=1$.\nThis amounts to a canonical parameterization and is always possible.\nSince the integral is independent of re-parameterization[^1] the result\nwill be completely general.\n\nWith this in mind, the contour integral can be explicitly written as\n\n$$\\label{integral}\n\\int_\\gamma f(z) dz = \\int_0^L f(g(t)) g'(t) dt$$\n\nwhere $L$ is the arc length of the curve $\\gamma$.\n\nConsider the set of all continuous functions $[0,L]\\to \\mathbb{C}$ as a\nvector space[^2], we can define an inner product in it via\n\n$$\\langle f,g\\rangle = \\int_0^L f(t)\\bar{g}(t) dt$$\n\nThe axioms are easy to verify:\n\n-   $\\langle k_1 a_1+k_2 a_2,a_3\\rangle = \\int_0^L (k_1 a_1(t) + k_2 a_2(t))\\bar{a_3}(t) dt = k_1\\langle a_1,a_3 \\rangle +k_2\\langle a_2,a_3 \\rangle$\n\n-   $\\langle a,b \\rangle = \\int_0^L a(t)\\bar{b}(t) dt = \\int_0^L \\overline{b(t)\\bar{a}(t)}dt = \\overline{\\int_0^L b(t)\\bar{a}(t) dt} = \\overline{\\langle b,a \\rangle}$\n\n-   $\\langle a,a \\rangle = \\int_0^L a(t)\\bar{a}(t) dt = \\int_0^L |a(t)|^2 dt \\ge 0$\n    since the integrand is a non-negative (real) function, and $0$ iff\n    $|a|^2=0$ everywhere in the interval, that is:\n    $\\langle a,a \\rangle=0 \\iff a=0$\n\nWith all this in mind, equation \\[integral\\] can be written as\n\n$$\\int_\\gamma f(z) dz = \\langle f\\circ g, \\bar{g}' \\rangle$$\n\nWhere by definition $\\| f \\| = \\sqrt{<f,f>}$ is the norm associated with\nthe inner product defined previously.\n\nUsing Cauchy-Schwarz inequality we can write that\n\n$$|\\langle f\\circ g, \\bar{g}' \\rangle| \\le \\|f\\circ g\\| \\|\\bar{g}'\\|$$\n\nBut since by assumption the parameterization $g$ is canonic,\n$\\|\\bar{g}'\\|=\\|g'\\|=\\sqrt{\\int_0^L 1 dt} = \\sqrt{L}$.\n\nOn the other hand\n$\\|f\\circ g\\|=\\sqrt{\\int_0^L f(g(t)) \\bar{f}(g(t))dt} \\le \\sqrt{\\int_0^L M^2 dt} = M\\sqrt{L}$,\nwhere $|f(g(t))|\\le M$ for every point on $\\gamma$.\n\nThe previous paragraphs imply that\n\n$$\\left|\\int_\\gamma f(z) dz\\right|\\le ML$$\n\nwhich is the result we aimed to prove.\n\nCauchy-Schwarz inequality says more, it also says that\n$|\\langle a,b \\rangle |=\\|a\\|\\|b\\| \\iff a=\\lambda b$ where $\\lambda$ is\na constant.\n\nSo if $|\\langle f\\circ g, \\bar{g}' \\rangle =\\|f\\circ g\\|\\|\\bar{g}'\\|$\nthen $f\\circ g = \\lambda \\bar{g}'$, where $\\lambda \\in \\mathbb{C}$ is a\nconstant. If $g$ is a canonical parameterization $|g'| = 1$ and we get\nthe absolute modulus $|\\lambda| = |f\\circ g|$ (which must be constant)\nand all that remains is to find the phase of $\\lambda$ which must also\nbe constant.\n\n[^1]: apart from a possible sign change due to exchange of orientation\n    of the path\n\n[^2]: axioms are trivial to verify",
+  "conclusion": "#P_EstimatingTheoremOfContourIntegral",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfEstimatingTheoremOfContourIntegral"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of estimating theorem of contour integral"
+  ]
+}

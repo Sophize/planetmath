@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "left classical ring of quotients",
+    "right classical ring of quotients"
+  ],
+  "definition": "Let $R$ be a ring. An element of $R$ is called *regular* if it is not a\nright zero divisor or a left zero divisor in $R$.\n\nA ring $Q \\supset R$ is a *left classical ring of quotients* for $R$\n(resp. *right classical ring of quotients* for $R$) if it satisifies:\n\n-   every regular element of $R$ is invertible in $Q$\n\n-   every element of $Q$ can be written in the form $x^{-1}y$ (resp.\n    $yx^{-1}$) with $x, y \\in R$ and $x$ regular.\n\nIf a ring $R$ has a left or right classical ring of quotients, then it\nis unique up to isomorphism.\n\nIf $R$ is a commutative integral domain, then the left and right\nclassical rings of quotients always exist \u2013 they are the field of\nfractions of $R$.\n\nFor non-commutative rings, necessary and sufficient conditions are given\nby Ore\u2019s Theorem.\n\nNote that the goal here is to construct a ring which is not too\ndifferent from $R$, but in which more elements are invertible. The first\ncondition says which elements we want to be invertible. The second\ncondition says that $Q$ should just enough extra elements to make the\nregular elements invertible.\n\nSuch rings are called classical rings of quotients, because there are\nother rings of quotients. These all attempt to enlarge $R$ somehow to\nmake more elements invertible (or sometimes to make ideals invertible).\n\nFinally, note that a ring of quotients is not the same as a quotient\nring.",
+  "language": "INFORMAL",
+  "phrase": "Classical Ring Of Quotients",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClassicalRingOfQuotients"
+    }
+  ],
+  "indexable": true
+}

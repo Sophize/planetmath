@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For any real number $x \\geq 2$ we have\n$$\\sum_{p \\leq x} \\frac{\\ln p}{p} = \\ln x + O(1)$$ for all prime\nintegers $p$.\n\nMoreover, the term $O(1)$ arising in this formula lies in the open\ninterval $(-1-\\ln 4, \\ln 4)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MertensFirstTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Mertens' first theorem"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathcal{A}$ be an , $U$ an object of $\\mathcal{A}$, and\n$$A = End_{\\mathcal{A}}(U)$$; also, let $S: \\mathcal{A} \\to Mod A^0$ be\nthe functor defined by $$S(X) = Hom_{\\mathcal{A}} (U,X),$$ and $T$ its\nleft adjoint. Then, the following two statements are equivalent:\n\n1.  $U$ is a generator of $\\mathcal{A}$;\n\n2.  $S$ is full and faithful and $T$ is exact.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GabrielPopescuTheoremForAb5categories"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gabriel-Popescu theorem for $Ab 5$-categories"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "algebraic"
+  ],
+  "definition": "A map $f:X\\to Y$ between quasi-affine varieties\n$X\\subset k^n,Y\\subset k^m$ over a field $k$ is called ** if there is a\nmap $f':k^n\\to k^m$ whose component functions are polynomials, such that\n$f'$ restricts to $f$ on $X$.\n\nAlternatively, $f$ is algebraic if the pullback map $f^*:C(Y)\\to C(X)$\nmaps the coordinate ring of $Y$, $k[Y]$, to the coordinate ring of $X$,\n$k[X]$.",
+  "language": "INFORMAL",
+  "phrase": "Algebraic Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraicMap"
+    }
+  ],
+  "indexable": true
+}

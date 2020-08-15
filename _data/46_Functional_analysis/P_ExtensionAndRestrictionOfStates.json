@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Restriction of States\n---------------------\n\nLet $\\mathcal{A}$ be a and $\\mathcal{B} \\subset \\mathcal{A}$ a\n$C^*$-subalgebra, both having the same identity element.\n\n$\\,$\n\n[ **-**]{} Given a state $\\phi$ of $\\mathcal{A}$, its\n$\\phi|_{\\mathcal{B}}$ to $\\mathcal{B}$ is also a state of $\\mathcal{B}$.\n\n$\\,$\n\n[**Remark -**]{} Note that the requirement that the $C^*$-algebras\n$\\mathcal{A}$ and $\\mathcal{B}$ have a (common) identity element is\nnecessary.\n\nFor example, let $X$ be a compact space and $C(X)$ the $C^*$-algebra of\ncontinuous functions $X \\to \\mathbb{C}$. Pick a point $x_0 \\in X$ and\nconsider the $C^*$-subalgebra of continuous functions $X \\to \\mathbb{C}$\nwhich vanish at $x_0$. Notice that this subalgebra never has the same\nidentity element of $C(X)$ (the constant function that equals $1$). In\nfact, this subalgebra may not have an identity at all.\n\nNow the evaluation mapping at $x_0$, i.e. the function\n$\\mathrm{ev}_{x_0}: C(X) \\to \\mathbb{C}$ $$\\begin{aligned}\n\\mathrm{ev}_{x_0} (f) := f(x_0)\\end{aligned}$$ is a state of $C(X)$. Of\ncourse, its restriction to the subalgebra in question is the zero\nmapping, therefore not being a state.\n\nExtension of States\n-------------------\n\nLet $\\mathcal{A}$ be a $C^*$-algebra and\n$\\mathcal{B} \\subset \\mathcal{A}$ a $C^*$-subalgebra (not necessarily\nunital).\n\n$\\,$\n\n[**Theorem 1 -**]{} Every state $\\phi$ of $\\mathcal{B}$ admits an\nextension to a state $\\widetilde{\\phi}$ of $\\mathcal{A}$. Moreover,\nevery pure state $\\phi$ of $\\mathcal{B}$ admits an extension to a pure\nstate $\\widetilde{\\phi}$ of $\\mathcal{A}$.\\\n[**Theorem 2 -**]{} The set of extensions of a state $\\phi$ of\n$\\mathcal{B}$ is a compact and convex subset of $S_{\\mathcal{A}}$, the\nof $\\mathcal{A}$ endowed with the weak-\\* topology.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtensionAndRestrictionOfStates"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "extension and restriction of states"
+  ]
+}

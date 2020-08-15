@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "volume form",
+    "volume measure"
+  ],
+  "definition": "If $M$ is an $n$ dimensional manifold, then a that is never zero is\ncalled a [*volume element*]{} or a [*volume form*]{}. Usually one volume\nform is associated with the manifold. The volume element is sometimes\ndenoted by $dV,$ $\\omega$ or $\\operatorname{vol}_n.$ If the manifold is\na Riemannian manifold with $g,$ then the natural volume form is defined\nin local coordinates $x^1 \\ldots x^n$ by\n$$dV := \\sqrt{\\lvert g \\rvert} dx^1 ~ \\wedge \\ldots \\wedge ~dx^n .$$ It\nis not hard to show that a manifold has a volume form if and only if it\nis orientable.\n\nIf the manifold is ${\\mathbb{R}}^n,$ then the usual volume element\n$dV = dx^1~ \\wedge ~ dx^2 ~ \\wedge \\ldots \\wedge ~dx^n$ is called the\n[*Euclidean volume element*]{} or [*Euclidean volume form*]{}. In this\ncontext, ${\\mathbb{C}}^n$ is usually treated as ${\\mathbb{R}}^{2n}$\nunless stated otherwise.\n\nWhen $n=2$, then the form is frequently called the [*area element*]{} or\n[*area form*]{} and frequently denoted by $dA$. Furthermore, when the\nmanifold is a submanifold of ${\\mathbb{R}}^3$, then many authors will\nrefer to a [*surface area element*]{} or [*surface area form*]{}.\n\nWhen the context is measure theoretic, this form is sometimes called a\n[*volume measure*]{}, [*area measure*]{}, etc...\n\n[9]{} Michael Spivak. [**]{}, W.A. Benjamin, Inc., 1965. William M.\nBoothby. [**]{}, Academic Press, San Diego, California, 2003.",
+  "language": "INFORMAL",
+  "phrase": "Volume Element",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VolumeElement"
+    }
+  ],
+  "indexable": true
+}

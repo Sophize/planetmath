@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The well-ordering principle implies the axiom of choice.\n\nLet $C$ be a collection of nonempty sets. Then\n$\\displaystyle \\bigcup_{S \\in C} S$ is a set. By the well-ordering\nprinciple, $\\displaystyle \\bigcup_{S \\in C} S$ is well-ordered under\nsome relation $<$. Since each $S$ is a nonempty subset of\n$\\displaystyle \\bigcup_{S \\in C} S$, each $S$ has a least member $m_S$\nwith respect to the relation $<$.\n\nDefine $\\displaystyle f \\colon C \\to \\bigcup_{S \\in C} S$ by $f(S)=m_S$.\nThen $f$ is a choice function. Hence, the axiom of choice holds.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WellorderingPrincipleImpliesAxiomOfChoice"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "well-ordering principle implies axiom of choice"
+  ]
+}

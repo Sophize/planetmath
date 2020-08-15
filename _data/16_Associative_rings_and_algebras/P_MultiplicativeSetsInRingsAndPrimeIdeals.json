@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Proposition.** Let $R$ be a commutative ring, $S\\subseteq R$ a\nmutliplicative subset of $R$ such that $0\\not\\in S$. Then there exists\nprime ideal $P\\subseteq R$ such that $P\\cap S=\\emptyset$.\n\n*Proof.* Consider the family\n$\\mathcal{A}=\\{I\\subseteq R\\ |\\ I\\mbox{ is an ideal and }I\\cap S=\\emptyset\\}$.\nOf course $\\mathcal{A}\\neq\\emptyset$, because the zero ideal\n$0\\in\\mathcal{A}$. We will show, that $\\mathcal{A}$ is inductive (i.e.\nsatisfies Zorn\u2019s Lemma\u2019s assumptions) with respect to inclusion.\n\nLet $\\{I_k\\}_{k\\in K}$ be a chain in $\\mathcal{A}$ (i.e. for any\n$a,b\\in K$ either $I_a\\subseteq I_b$ or $I_b\\subseteq I_a$). Consider\n$I=\\bigcup_{k\\in K}I_{k}$. Obviously $I$ is an ideal. Furthermore, if\n$x\\in I\\cap S$, then there is $k\\in K$ such that\n$x\\in I_k\\cap S=\\emptyset$. Thus $I\\cap S=\\emptyset$, so\n$I\\in\\mathcal{A}$. Lastely each $I_k\\subseteq I$, which completes this\npart of proof.\n\nBy Zorn\u2019s Lemma there is a maximal element $P\\in\\mathcal{A}$. We will\nshow that this ideal is prime. Let $x,y\\in R$ be such that $xy\\in P$.\nAssume that neither $x\\not\\in P$ nor $y\\not\\in P$. Then $P\\subset P+(x)$\nand $P\\subset P+(y)$ and these inclusions are proper. Therefore both\n$P+(x)$ and $P+(y)$ do not belong to $\\mathcal{A}$ (because $P$ is\nmaximal). This implies that there exist $a\\in (P+(x))\\cap S$ and\n$b\\in (P+(y))\\cap S$. Thus $$a=m_1+r_1x\\in S;\\ \\ \\ \\ b=m_2+r_2y\\in S;$$\nwhere $m_1,m_2\\in P$ and $r_1,r_2\\in R$. Note that $ab\\in S$. We\ncalculate $$ab=(m_1+r_1x)(m_2+r_2y)=m_1m_2+m_2r_1x+m_1r_2y+xyr_1r_2.$$\nOf course $m_1m_2, m_2r_1x, m_1r_2y\\in P$, because $m_1,m_2\\in P$ and\n$xyr_1r_2\\in P$ by our assumption that $xy\\in P$. This shows, that\n$ab\\in P$. But $ab\\in S$ and $P\\in\\mathcal{A}$. Contradiction. $\\square$\n\n**Corollary.** Let $R$ be a commutative ring, $I$ an ideal in $R$ and\n$S\\subseteq R$ a multiplicative subset such that $I\\cap S=\\emptyset$.\nThen there exists prime ideal $P$ in $R$ such that $I\\subseteq P$ and\n$P\\cap S=\\emptyset$.\n\n*Proof.* Let $\\pi:R\\to R/I$ be the projection. Then\n$\\pi(S)\\subseteq R/I$ is a multiplicative subset in $R/I$ such that\n$0+I\\not\\in\\pi(S)$ (because $I\\cap S=\\emptyset$). Thus, by proposition,\nthere exists a prime ideal $P$ in $R/I$ such that\n$P\\cap\\pi(S)=\\emptyset$. Of course the preimage of a prime ideal is\nagain a prime ideal. Furthermore $I\\subseteq\\pi^{-1}(P)$. Finaly\n$\\pi^{-1}(P)\\cap S=\\emptyset$, because $P\\cap\\pi(S)=\\emptyset$. This\ncompletes the proof.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplicativeSetsInRingsAndPrimeIdeals"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "multiplicative sets in rings and prime ideals"
+  ]
+}

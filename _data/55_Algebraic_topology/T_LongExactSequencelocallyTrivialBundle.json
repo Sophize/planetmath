@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\pi:E\\to B$ is a locally trivial bundle, with fiber $F$. Then there\nis a long exact sequence of homotopy groups $$\\begin{CD}\n\\cdots @>>>\\pi_n(F)@>i_*>>\\pi_n(E)@>\\pi_*>>\\pi_n(B)@>\\partial_*>>\\pi_{n-1}(F)@>>>\\cdots\n\\end{CD}$$\n\nHere $i_*$ is induced by the inclusion $i:F\\hookrightarrow E$ as the\nfiber over the basepoint of $B$, and $\\partial_*$ is the following map:\nif $[{\\varphi}]\\in\\pi_n(B)$, then ${\\varphi}$ lifts to a map of\n$(D^n,\\partial D^n)$ into $(E,F)$ (that is a map of the $n$-disk into\n$E$, taking its boundary to $F$), sending the basepoint on the boundary\nto the base point of $F\\subset E$. Thus the map on\n$\\partial D^n=S^{n-1}$, the $n-1$-sphere, defines an element of\n$\\pi_{n-1}(F)$. This is $\\partial_*[{\\varphi}]$. The covering homotopy\nproperty of a locally trivial bundle shows that this is well-defined.",
+  "language": "INFORMAL",
+  "phrase": "Long Exact Sequence (Locally Trivial Bundle)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LongExactSequencelocallyTrivialBundle"
+    }
+  ],
+  "indexable": true
+}

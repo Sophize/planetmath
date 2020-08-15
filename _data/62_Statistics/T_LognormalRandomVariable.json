@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "lognormal distribution"
+  ],
+  "definition": "$X$ is a *lognormal random variable* with parameters $\\mu\\in\\R$ and\n$\\sigma^2>0$ if its probability density function is given for $x>0$ by\n\n$$\\begin{aligned}\nf_X(x) = \\frac{1}{\\sqrt{2 \\pi \\sigma^2}} \\frac{e^{-\\frac{(\\ln{x}-\\mu)^2}{2 \\sigma^2}}}{x}.\\end{aligned}$$\n\nTo denote this, one usually writes $X\\sim LogN(\\mu,\\sigma^2)$.\n\nFor a lognormal random variable $X$:\n\n1.  $X$ is a random variable such that $\\ln(X)$ is a normal random\n    variable with mean $\\mu$ and variance $\\sigma^2$.\n\n2.  $E[X] = e^{\\mu + \\sigma^2/2}$\n\n3.  $Var[X] = e^{2\\mu + \\sigma^2}(e^{\\sigma^2} - 1)$\n\n4.  $M_X(t)$ is not a useful quantity.",
+  "language": "INFORMAL",
+  "phrase": "Lognormal Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LognormalRandomVariable"
+    }
+  ],
+  "indexable": true
+}

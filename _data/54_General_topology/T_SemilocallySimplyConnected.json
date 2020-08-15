@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "semilocally 1-connected",
+    "locally relatively simply connected"
+  ],
+  "definition": "A topological space $X$ is [*semilocally simply connected*]{} if, for\nevery point $x \\in X$, there exists a neighborhood $U$ of $x$ such that\nthe map of fundamental groups $$\\pi_1(U,x) \\longrightarrow \\pi_1(X,x)$$\ninduced by the inclusion map $U \\hookrightarrow X$ is the trivial\nhomomorphism.\n\nA topological space $X$ is connected, locally path connected, and\nsemilocally simply connected if and only if it has a universal cover.",
+  "language": "INFORMAL",
+  "phrase": "Semilocally Simply Connected",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemilocallySimplyConnected"
+    }
+  ],
+  "indexable": true
+}

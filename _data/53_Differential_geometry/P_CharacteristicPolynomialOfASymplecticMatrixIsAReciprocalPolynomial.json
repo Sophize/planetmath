@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The characteristic polynomial of a symplectic matrix is a reciprocal\npolynomial.\n\nLet $A$ be the symplectic matrix, and let\n$p(\\lambda) = \\det(A-\\lambda I)$ be its characteristic polynomial. We\nwish to prove that $$p(\\lambda) = \\pm \\lambda^n p(1/\\lambda).$$ By\ndefinition, $AJA^T=J$ where $J$ is the matrix\n$$J=\\left( \\begin{array}{cc}\n0 & I \\\\\n-I & 0\n\\end{array} \\right).$$ Since $A$ and $J$ are symplectic matrices, their\ndeterminants are $1$, and $$\\begin{aligned}\np(\\lambda) &=& \\det (AJ - \\lambda J) \\\\\n           &=&\\det (AJ - \\lambda AJA^T) \\\\\n           &=&\\det (-\\lambda A) \\det (J) \\det (-\\frac{1}{\\lambda} J + JA^T) \\\\\n           &=&\\pm \\lambda^n \\det (A-\\frac{1}{\\lambda} I ).\\end{aligned}$$\nas claimed.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacteristicPolynomialOfASymplecticMatrixIsAReciprocalPolynomial"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "characteristic polynomial of a symplectic matrix is a reciprocal polynomial"
+  ]
+}

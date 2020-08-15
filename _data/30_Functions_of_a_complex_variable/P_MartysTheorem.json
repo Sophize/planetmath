@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A set ${\\mathcal{F}}$ of meromorphic functions is a normal family on a\ndomain $G \\subset {\\mathbb{C}}$ if and only if the spherical derivatives\nare uniformly bounded (uniformly over ${\\mathcal{F}}$) on each compact\nsubset of $G$.\n\nHere normal convergence (convergence on compact subsets) is given using\nthe spherical metric and not the standard metric of the complex plane.\nThat is, if $\\sigma$ is the spherical metric then we will say\n$f_n \\to f$ normally if $\\sigma(f_n(z),f(z))$ converges to 0 uniformly\non compact subsets.\n\nA related theorem can be stated.\n\nIf $f_n(z) \\to f(z)$ uniformly in the spherical metric on compact\nsubsets of $G \\subset {\\mathbb{C}}$ then $f_n^\\sharp(z) \\to f^\\sharp(z)$\nuniformly on compact subsets of $G$.\n\nHere $f^\\sharp$ denotes the spherical derivative of $f$.\n\n[9]{} Theodore\u00a0B. Gamelin. [**]{}. Springer-Verlag, New York, New York,\n2001.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MartysTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Marty's theorem"
+  ]
+}

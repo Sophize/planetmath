@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Sigma$ be a fixed signature, and ${\\mathfrak{A}}$ a structure for\n$\\Sigma$. A *congruence* $\\sim$ on ${\\mathfrak{A}}$ is an equivalence\nrelation such that for every natural number $n$ and $n$-ary function\nsymbol $F$ of $\\Sigma$, if $a_i \\sim a_i'$ then\n$F^{\\mathfrak{A}}(a_1, \\ldots a_n) \\sim F^{\\mathfrak{A}}(a_1', \\ldots a_n').$",
+  "language": "INFORMAL",
+  "phrase": "Congruence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Congruence12"
+    }
+  ],
+  "indexable": true
+}

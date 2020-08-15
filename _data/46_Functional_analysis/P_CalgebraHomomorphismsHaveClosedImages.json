@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $f: \\mathcal{A} \\longrightarrow \\mathcal{B}$ be a\n\\*-homomorphism between the $\\mathcal{A}$ and $\\mathcal{B}$. Then $f$\nhas , i.e. $f(\\mathcal{A})$ is closed in $\\mathcal{B}$.\n\nThus, the image $f(\\mathcal{A})$ is a $C^*$-subalgebra of $\\mathcal{B}$.\n\n$\\,$\n\n[***Proof:***]{} The kernel of $f$, $\\mathrm{Ker} f$, is a closed\ntwo-sided ideal of $\\mathcal{A}$, since $f$ is continuous (see ).\nFactoring threw the quotient $C^*$-algebra $\\mathcal{A}/\\mathrm{Ker} f$\nwe obtain an injective \\*-homomorphism\n$\\widetilde{f}:\\mathcal{A}/\\mathrm{Ker} f \\longrightarrow \\mathcal{B}$.\n\nInjective \\*-homomorphisms between $C^*$-algebras are known to be\nisometric (see ), hence the image\n$\\widetilde{f}(\\mathcal{A}/\\mathrm{Ker} f)$ is closed in $\\mathcal{B}$.\n\nSince the images $\\widetilde{f}(\\mathcal{A}/\\mathrm{Ker} f)$ and\n$f(\\mathcal{A})$ coincide we conclude that $f(\\mathcal{A})$ is closed in\n$\\mathcal{B}$. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CalgebraHomomorphismsHaveClosedImages"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$C^*$-algebra homomorphisms have closed images",
+    "image of $C^*$-homomorphism is a $C^*$-algebra"
+  ]
+}

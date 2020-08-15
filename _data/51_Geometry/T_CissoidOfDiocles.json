@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "cissoid",
+    "ivy curve"
+  ],
+  "definition": "Let $c$ be a circle with diameter $OA = a$. Set a tangent line $t$ of\nthe circle at the point $A$. For any point $C$ of $c$ let $P$ be the\nintersection point of the secant line $OC$ and the tangent line $t$.\nDetermine on the secant line between $O$ and $P$ the point $Q$ such that\n$$PQ \\;=\\; OC.$$ Then the locus of the point $Q$ is the [*cissoid of\nDiocles*]{}. The name is derived from Greek\n$\\varkappa\\iota\\sigma\\sigma\\acute{o}\\varsigma$ (kissos) \u2018ivy\u2019,\n$\\varepsilon\\iota\\delta{o}\\varsigma$ (eidos) \u2018form, kind, type\u2019.\n\nThe cissoid is symmetric with regard to the line $OA$, having at $O$ a\ncusp. The line $t$ is the asymptote of the curve.\n\nFor deriving the equation of the cissoid, chose the ray $OA$ for the\npositive $x$-axis. Let $\\varphi$ be the slope angle (polar angle) of any\n$C$ on $c$. From the triangle $OAP$ we see that\n$\\displaystyle OP = \\frac{a}{\\cos\\varphi}$. Since $\\angle ACO$ is a\nright angle, we have $OC = a\\cos\\varphi$. It follows that\n$\\displaystyle OQ = r = \\frac{a}{\\cos\\varphi}-a\\cos\\varphi$, that is,\n$$\\begin{aligned}\nr \\;=\\; a\\sin\\varphi\\tan\\varphi.\\end{aligned}$$ For obtaining the\nequation in rectangular coordinates, we may write (1) as\n$r^2 = (r\\sin\\varphi)\\,a\\tan\\varphi$, i.e.\n$\\displaystyle x^2\\!+\\!y^2 = ya\\cdot\\frac{y}{x}$, whence\n$(x^2\\!+\\!y^2)x = ay^2$, or $$\\begin{aligned}\ny \\;=\\; \\pm{x}\\,\\sqrt{\\frac{x}{a\\!-\\!x}}.\\end{aligned}$$ Thus it\u2019s a\nquestion of an algebraic curve. The cissoid has also the parametric\npresentation $$\\begin{aligned}\nx \\;=\\; \\frac{au^2}{1\\!+\\!u^2}, \\quad y \\;=\\; \\frac{au^3}{1\\!+\\!u^2}.\\end{aligned}$$\n\n**Note.** If we apply the inversion formulae\n$$x \\;\\mapsto\\; \\frac{x}{x^2\\!+\\!y^2}, \\quad y \\;\\mapsto\\; \\frac{y}{x^2\\!+\\!y^2}$$\n(where $r = 1$) to the parabola $y = \\pm\\sqrt{x}$, we get as the image\nof the parabola the cissoid\n$\\displaystyle{y} = \\pm{x}\\,\\sqrt{\\frac{x}{1-x}}$; correspondingly the\nimage of this cissoid is that parabola.\n\n(-5.5,-6.5)(5.5,5) (0,0)(-1.5,-5.5)(3.5,5.5) (3.6,-0.2)[$x$]{}\n(0.2,5.45)[$y$]{} (2.2,4.51)[$t$]{} (2,-5)(2,5)\n(1,-6)[$\\mbox{The cissoid\\,\\,}y = \\pm x\\sqrt{\\frac{x}{2-x}}$]{}\n\nThe form of the cissoid of Diocles resembles the tractrix.",
+  "language": "INFORMAL",
+  "phrase": "Cissoid Of Diocles",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CissoidOfDiocles"
+    }
+  ],
+  "indexable": true
+}

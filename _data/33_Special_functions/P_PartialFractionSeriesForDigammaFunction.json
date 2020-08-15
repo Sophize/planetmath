@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "$$\\psi (z) = - \\gamma -\\frac{1}{z} +\n\\sum_{k=1}^\\infty \\left( \\frac{1}{k} - \\frac{1}{z + k} \\right)=-\\gamma+\\sum_{k=0}^{\\infty}\\left(\\frac{1}{k+1}-\\frac{1}{z+k}\\right)$$\n\n**Proof:** Start with $$\\Gamma(z) = \\frac{e^{-\\gamma z}}{z}\n\\prod_{k=1}^\\infty \\left(1 + \\frac{z}{k}\\right)^{-1} e^{z/k},$$ so\n$$\\ln\\Gamma(z)=-\\gamma z - \\ln z +\\sum_{k=1}^{\\infty}\\left(-\\ln\\left(1+\\frac{z}{k}\\right)+\\frac{z}{k}\\right)$$\nand thus, taking derivatives,\n$$\\psi(z)=-\\gamma-\\frac{1}{z}+\\sum_{k=1}^{\\infty}\\left(-\\frac{1/k}{1+\\frac{z}{k}}+\\frac{1}{k}\\right)\n=-\\gamma-\\frac{1}{z}+\\sum_{k=1}^{\\infty}\\left(\\frac{1}{k}-\\frac{1}{z+k}\\right)$$\nThe second formula follows after rearranging terms (the rearrangement is\nlegal since we are simply exchanging adjacent terms, so partial sums\nremain the same).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartialFractionSeriesForDigammaFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "partial fraction series for digamma function"
+  ]
+}

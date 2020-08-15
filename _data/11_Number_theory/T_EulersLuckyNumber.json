@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "lucky number of Euler",
+    "Eulerian lucky number"
+  ],
+  "definition": "A prime number $p$ is one of [*Euler\u2019s lucky numbers*]{} if\n$n^2 - n + p$ for each $0 < n < p$ is also a prime. Put another way, a\nlucky number of Euler\u2019s plus the $n$th oblong number produces a list of\nprimes $p$-long. There are only six of them: 2, 3, 5, 11, 17 and 41,\nthese are listed in A014556 of Sloane\u2019s OEIS.\n\n41 is perhaps the most famous of these. We can verify that 2 + 41 is 43,\na prime, that 47 is also prime, so are 53, 61, 71, 83, 97, and so on to\n1601, giving a list of 41 primes. Predictably, 1681 is divisible by 41,\nbeing its square. For $n > p$ the formula does not consistently give\nonly composites or only primes.",
+  "language": "INFORMAL",
+  "phrase": "Euler'S Lucky Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulersLuckyNumber"
+    }
+  ],
+  "indexable": true
+}

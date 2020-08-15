@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "almost continuous"
+  ],
+  "definition": "Let $m$ denote Lebesgue measure, $A$ be a Lebesgue measurable subset of\n$\\mathbb{R}$, and $f:A \\to \\mathbb{C}$ (or $f:A \\to \\mathbb{R}$). Then\n$f$ is *almost continuous* if, for every $\\varepsilon>0$, there exists a\nclosed subset $F$ of $\\mathbb{R}$ such that $F \\subseteq A$,\n$m(A-F)<\\varepsilon$, and $f|_F$ is continuous.",
+  "language": "INFORMAL",
+  "phrase": "Almost Continuous Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlmostContinuousFunction"
+    }
+  ],
+  "indexable": true
+}

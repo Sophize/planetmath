@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *signed measure* on a measurable space $(\\Omega,\\mathscr{S})$ is a\nfunction $\\mu:\\mathscr{S}\\rightarrow \\mathbb{R}\\cup\\{+\\infty\\}$ which is\nand such that $\\mu(\\emptyset)=0$.\n\n**Remarks.**\n\n1.  The usual (positive) measure is a particular case of signed measure,\n    in which $|\\mu| = \\mu$ (see Jordan decomposition.)\n\n2.  Notice that the value $-\\infty$ is not allowed. For some authors, a\n    signed measure can only take finite values (so that $+\\infty$ is not\n    allowed either). This is sometimes useful because it turns the space\n    of all signed measures into a normed vector space, with the natural\n    operations, and the norm given by $\\|\\mu\\| = |\\mu|(\\Omega)$.\n\n3.  An important example of signed measures arises from the usual\n    measures in the following way: Let $(\\Omega,\\mathscr{S},\\mu)$ be a\n    measure space, and let $f$ be a (real valued) measurable function\n    such that $$\\int_{\\{x\\in \\Omega:f(x)<0\\}} |f| d\\mu <\\infty.$$ Then a\n    signed measure is defined by $$A\\mapsto \\int_A fd\\mu.$$",
+  "language": "INFORMAL",
+  "phrase": "Signed Measure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SignedMeasure"
+    }
+  ],
+  "indexable": true
+}

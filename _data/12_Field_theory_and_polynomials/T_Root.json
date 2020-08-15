@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "zero"
+  ],
+  "definition": "Let $f(x)\\colon{\\mathbbmss{R}}\\rightarrow {\\mathbbmss{R}}$ be a function\nin a real variable $x$. Then, a *root* of $f$ is a real number $a$ that\n$f(a)=0$.\n\nExample. If $f(x)=x^2-4$, then $x=2$ is a root, since $f(2)=2^2-4=0$.\n\nGraphically, a root of $f$ is a value where the graph of the function\nintersects the $x$-axis.\n\nOf course the definition can be generalized to functions on other sets.\nIn particular, neither the domain nor the codomain need be the set of\nreal numbers. All that is required is that the codomain have a\nwell-defined $0$ element. A root of the function will then be an element\nof the domain belonging to the preimage of the $0$.\n\nNote that, for example, the function\n$f\\colon{\\mathbbmss{R}}\\to{\\mathbbmss{R}}$ given by $f(x)=x^2+1$ has no\nroots, but the function $f\\colon{\\mathbbmss{C}}\\to{\\mathbbmss{C}}$ given\nby $f(x)=x^2+1$ has $i$ as a root.\n\nIn the special case of polynomials, there are general formulas for\nfinding roots of polynomials with degree up to 4: the quadratic formula,\nthe cubic formula and the quartic formula.\n\nIf we have a root $a$ for a polynomial $f(x)$, we divide $f(x)$ by $x-a$\n(either by polynomial long division or synthetic division) and we are\nleft with a polynomial with smaller degrees whose roots are the other\nroots of $f$. We can use that result together with the rational root\ntheorem to find a rational root if exists, and then get a polynomial\nwith smaller degree which possibly we can find easily the other roots.\n\nConsidering the general case of functions $y=f(x)$ (not necessarily\npolynomials) there are several numerical methods (like Newton\u2019s method)\nto approximate roots. This could be handy too for polynomials whose\nroots are not rational numbers.",
+  "language": "INFORMAL",
+  "phrase": "Root",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Root"
+    }
+  ],
+  "indexable": true
+}

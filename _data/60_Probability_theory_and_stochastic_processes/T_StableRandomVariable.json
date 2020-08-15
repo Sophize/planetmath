@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A real random variable $X$ defined on a probability space\n$(\\Omega, \\mathcal{F}, P)$ is said to be *stable* if\n\n1.  $X$ is not trivial; that is, the range of the distribution function\n    of $X$ strictly includes $\\lbrace 0,1\\rbrace$, and\n\n2.  given any positive integer $n$ and $X_1,\\ldots,X_n$ random\n    variables, iid as $X$: $$S_n:=X_1+\\cdots +X_n \\stackrel{t}{=} X.$$\n    In other words, there are real constants $a,b$ such that $S_n$ and\n    $aX+b$ have the same distribution functions; $S_n$ and $X$ are of\n    the same type.\n\nFurthermore, $X$ is *strictly stable* if $X$ is stable and the $b$ given\nabove can always be take as $0$. In other words, $X$ is strictly stable\nif $S_n$ and $X$ belong to the same scale family.\n\nA distribution function is said to be *stable* (*strictly stable*) if it\nis the distribution function of a stable (strictly stable) random\nvariable.\n\n**Remarks**.\n\n-   If $X$ is stable, then $aX+b$ is stable for any $a,b\\in \\mathbb{R}$.\n\n-   If $X$ and $Y$ are independent, stable, and of the same type, then\n    $X+Y$ is stable.\n\n-   $X$ is stable iff for any independent $X_1,X_2$, identically\n    distributed as $X$, and any $a,b\\in\\mathbb{R}$, there exist\n    $c,d\\in\\mathbb{R}$ such that $aX_1+bX_2$ and $cX+d$ are identically\n    distributed.\n\n-   A stable distribution function is and infinitely divisible.\n\nSome common stable distribution functions are the normal distributions\nand Cauchy distributions.",
+  "language": "INFORMAL",
+  "phrase": "Stable Random Variable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StableRandomVariable"
+    }
+  ],
+  "indexable": true
+}

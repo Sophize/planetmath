@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The complex multivariate gamma function is defined as\n$$\\tilde{\\Gamma}_m(a)=\\int_{\\mathfrak{A}} e^{-\\operatorname{Tr}A}|A|^{a-m} {\\rm d}A,$$\nwhere $ \\mathfrak{A}$ is the set of all $ m \\times m$ positive,\ncomplex-valued Hermitian matrices, i.e.\n$$\\mathfrak{A} = \\left\\{A \\in \\Bbb{C}^{m \\times m} | A = A^H, A > 0\\right\\}.$$\nIt can also be expressed in terms of the gamma function as follows\n$$\\tilde{\\Gamma}_m(a)=\\pi^{{1 \\over 2}m(m-1)} \\prod\\limits_{i=1}^{m}\\Gamma(a-i+1).$$\n\nReference {#reference .unnumbered}\n---------\n\nA. T. James,\u201cDistributions of matrix variates and latent roots derived\nfrom normal samples,\u201d [*Ann. Math. Statist.*]{}, vol. 35, pp. 475-501,\n1964.",
+  "language": "INFORMAL",
+  "phrase": "Multivariate Gamma Function (Complex-Valued)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultivariateGammaFunctioncomplexvalued"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "S-graded ring",
+    "G-graded ring"
+  ],
+  "definition": "Let $S$ be a groupoid (semigroup,group) and let $R$ be a ring (not\nnecessarily with unity) which can be expressed as a\n$R = {\\bigoplus}_{s \\in S} R_{s}$ of additive subgroups $R_{s}$ of $R$\nwith $s \\in S$. If $R_{s} R_{t} \\subseteq R_{st}$ for all $s,t \\in S$\nthen we say that $R$ is [*groupoid graded*]{} (semigroup-graded,\ngroup-graded) ring.\n\nWe refer to $R = \\bigoplus_{s\\in S} R_{s}$ as an $S$-grading of $R$ and\nthe subgroups $R_{s}$ as the $s$-components of $R$. If we have the\nstronger condition that $R_{s}R_{t} = R_{st}$ for all $s,t \\in S$, then\nwe say that the ring $R$ is [*strongly*]{} graded by $S$.\n\nAny element $r_{s}$ in $R_{s}$ (where $s\\in S$) is said to be\n[*homogeneous of degree $s$*]{}. Each element $r \\in R$ can be expressed\nas a unique and finite sum $r =\n\\sum_{s \\in S} r_{s}$ of homogeneous elements $r_{s} \\in R_{s}$.\n\nFor any subset $G \\subseteq S$ we have $R_{G} = \\sum_{g \\in G} R_{g}$.\nSimilarly $r_{G} = \\sum_{g \\in G} r_{g}$. If $G$ is a subsemigroup of\n$S$ then $R_{G}$ is a subring of $R$. If $G$ is a left (right,\ntwo-sided) ideal of $S$ then $R_{G}$ is a left (right, two-sided) ideal\nof $R$.\n\nSome examples of graded rings include:\\\nPolynomial rings\\\nRing of symmetric functions\\\nGeneralised matrix rings\\\nMorita contexts\\\nRing of Hirota derivatives\\\ngroup rings\\\nfiltered algebras\\",
+  "language": "INFORMAL",
+  "phrase": "Graded Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GradedRing"
+    }
+  ],
+  "indexable": true
+}

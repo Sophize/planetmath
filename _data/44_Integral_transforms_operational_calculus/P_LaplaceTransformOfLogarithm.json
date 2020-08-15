@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** The Laplace transform of the natural logarithm function is\n$$\\mathcal{L}\\{\\ln{t}\\} \\;=\\; \\frac{\\Gamma\\,'(1)-\\ln{s}}{s}$$ where\n$\\Gamma$ is Euler\u2019s gamma function.\\\n[*Proof.*]{} We use the\n$$\\int_0^\\infty e^{-st}t^a\\,dt \\;=\\; \\frac{\\Gamma(a\\!+\\!1)}{s^{a+1}}$$\nby differentiating it with respect to the parametre $a$:\n$$\\int_0^\\infty e^{-st}t^a\\ln{t}\\;dt \\;=\\; \\frac{\\Gamma'(a\\!+\\!1)s^{a+1}-\\Gamma(a\\!+\\!1)s^{a+1}\\ln{s}}{(s^{a+1})^2}\n\\;=\\; \\frac{\\Gamma'(a\\!+\\!1)-\\Gamma(a\\!+\\!1)\\ln{s}}{s^{a+1}}$$ Setting\nhere $a = 0$, we obtain\n$$\\mathcal{L}\\{\\ln{t}\\} \\;=\\; \\int_0^\\infty e^{-st}\\ln{t}\\;dt \\;=\\; \\frac{\\Gamma\\,'(1)-1\\cdot\\ln{s}}{s},$$\nQ.E.D.\\\n**Note.** The number $\\Gamma'(1)$ is equal the of the , as is seen in\nthe entry digamma and polygamma functions.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LaplaceTransformOfLogarithm"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Laplace transform of logarithm",
+    "Laplace transform of logarithm function"
+  ]
+}

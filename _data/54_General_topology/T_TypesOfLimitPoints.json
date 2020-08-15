@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space and $A\\subset X$ be a subset.\n\nA point $x\\in X$ is an *$\\omega$-accumulation point of $A$* if every\nopen set in $X$ that contains $x$ also contains infinitely many points\nof $A$.\n\nA point $x\\in X$ is a *condensation point of $A$* if every open set in\n$X$ that contains $x$ also contains uncountably many points of $A$.\n\nIf $X$ is in addition a metric space, then a *cluster point* of a\nsequence $\\{x_n\\}$ is a point $x\\in X$ such that every $\\epsilon>0$,\nthere are infinitely many point $x_n$ such that $d(x,x_n)<\\epsilon$.\n\nThese are all clearly examples of limit points.",
+  "language": "INFORMAL",
+  "phrase": "Types Of Limit Points",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TypesOfLimitPoints"
+    }
+  ],
+  "indexable": true
+}

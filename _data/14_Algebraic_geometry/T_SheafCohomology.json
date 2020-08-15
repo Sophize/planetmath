@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space. The category of sheaves of abelian\ngroups on $X$ has enough injectives. So we can define the sheaf\ncohomology $H^i(X,\\mathcal{F})$ of a sheaf $\\mathcal{F}$ to be the right\nderived functors of the global sections functor\n$\\mathcal{F}\\to \\Gamma(X,\\mathcal{F})$.\n\nUsually we are interested in the case where $X$ is a scheme, and\n$\\mathcal{F}$ is a coherent sheaf. In this case, it does not matter if\nwe take the derived functors in the category of sheaves of abelian\ngroups or coherent sheaves.\n\nSheaf cohomology can be explicitly calculated using . Choose an open\ncover $\\{U_i\\}$ of $X$. We define\n$$C^i({\\mathcal{F}})=\\prod {\\mathcal{F}}(U_{j_0\\cdots j_i})$$ where the\nproduct is over $i+1$ element subsets of $\\{1,\\ldots,n\\}$ and\n$U_{j_0\\cdots j_i}=U_{j_0}\\cap\\cdots\\cap U_{j_i}$. If\n$s\\in{\\mathcal{F}}(U_{j_0\\cdots j_i})$ is thought of as an element of\n$C^i({\\mathcal{F}})$, then the differential $$\\partial(s)=\\prod_{\\ell}\n\\left(\\prod_{k=j_{\\ell}+1}^{j_{\\ell+1}-1}(-1)^\\ell s|_{U_{j_0\\cdots\n    j_\\ell k j_{\\ell+1}\\cdots j_i}}\\right)$$ makes $C^*({\\mathcal{F}})$\ninto a chain complex. The cohomology of this complex is denoted\n$\\check{H}^i(X,{\\mathcal{F}})$ and called the [*\u010cech cohomology*]{} of\n${\\mathcal{F}}$ with respect to the cover $\\{U_i\\}$. There is a natural\nmap $H^i(X,{\\mathcal{F}})\\to\\check{H}^i(X,{\\mathcal{F}})$ which is an\nisomorphism for sufficiently fine covers. (A cover is *sufficiently\nfine* if $H^i(U_j,{\\mathcal{F}})=0$ for all $i>0$, for every $j$ and for\nevery sheaf ${\\mathcal{F}}$). In the category of schemes, for example,\nany cover by open affine schemes has this property. What this means is\nthat if one can find a finite fine enough cover of $X$, sheaf cohomology\nbecomes computable by a finite process. In fact in [@H], this is how the\ncohomology of projective space is explicitly calculated.\n\n[9]{} Grothendieck, A. *Sur quelques points d\u2019alg\u00e8bre homologique*,\nT\u00f4hoku Math. J., Second Series, 9 (1957), 119\u2013221. Hartshorne, R.\n*Algebraic Geometry*, Springer-Verlag Graduate Texts in Mathematics 52,\n1977",
+  "language": "INFORMAL",
+  "phrase": "Sheaf Cohomology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SheafCohomology"
+    }
+  ],
+  "indexable": true
+}

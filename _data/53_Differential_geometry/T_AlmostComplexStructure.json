@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $V$ be a vector space over $\\mathbb{R}$. Recall that a *complex\nstructure* on $V$ is a linear operator $J$ on $V$ such that $J^2=-I$,\nwhere $J^2=J\\circ J$, and $I$ is the identity operator on $V$. A\nprototypical example of a complex structure is given by the map\n$J:V\\to V$ defined by $J(v,w)=(-w,v)$ where\n$V=\\mathbb{R}^n\\oplus \\mathbb{R}^n$.\n\nAn *almost complex structure* on a manifold $M$ is a differentiable map\n$$J:TM\\to TM$$ on the tangent bundle $TM$ of $M$, such that\n\n-   $J$ preserves each fiber, that is, the following diagram is\n    commutative: $$\\xymatrix{\n    {TM}\\ar[r]^{J}\\ar[d]_{\\pi}&{TM}\\ar[d]^{\\pi}\\\\\n    {M}\\ar[r]_{i}&{M}\n    }$$ or $\\pi\\circ J=\\pi$, where $\\pi$ is the standard projection onto\n    $M$, and $i$ is the identity map on $M$;\n\n-   $J$ is linear on each fiber, and whose square is minus the identity.\n    This means that, for each fiber $F_x:=\\pi^{-1}(x)\\subseteq TM$, the\n    restriction $J_x:=J\\mid_{F_x}$ is a complex structure on $F_x$.\n\n**Remark**. If $M$ is a complex manifold, then multiplication by $i$ on\neach tangent space gives an almost complex structure.",
+  "language": "INFORMAL",
+  "phrase": "Almost Complex Structure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlmostComplexStructure"
+    }
+  ],
+  "indexable": true
+}

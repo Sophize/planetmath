@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A field $K$ is said to be *quadratically closed* if it has no quadratic\nextensions. In other words, every element of $K$ is a square. Two\nobvious examples are $\\mathbb{C}$ and $\\mathbb{F}_2$.\n\nA field $K$ is said to be a *quadratic closure* of another field $k$ if\n\n1.  $K$ is quadratically closed, and\n\n2.  among all quadratically closed subfields of the algebraic closure\n    $\\overline{k}$ of $k$, $K$ is the smallest one.\n\nBy the second condition, a quadratic closure of a field is unique up to\nfield isomorphism. So we say *the* quadratic closure of a field $k$, and\nwe denote it by $\\widetilde{k}$ Alternatively, the second condition on\n$K$ can be replaced by the following:\n\n> $K$ is the smallest field extension over $k$ such that, if $L$ is any\n> field extension over $k$ obtained by a finite number of quadratic\n> extensions starting with $k$, then $L$ is a subfield of $K$.\n\n**Examples.**\n\n-   $\\mathbb{C}=\\widetilde{\\mathbb{R}}$.\n\n-   If $\\mathbb{E}$ is the Euclidean field in $\\mathbb{R}$, then the\n    quadratic extension $\\mathbb{E}(\\sqrt{-1})$ is the quadratic closure\n    $\\widetilde{\\mathbb{Q}}$ of the rational numbers $\\mathbb{Q}$.\n\n-   If $k=\\mathbb{F}_5$, consider the chain of fields\n    $$k\\le k(\\sqrt{2})\\le k(\\sqrt[4]{2})\\le \\cdots \\le k(\\sqrt[2^n]{2})\\le \\cdots$$\n    Take the union of all these fields to obtain a field $K$. Then it\n    can be shown that $K=\\widetilde{k}$.",
+  "language": "INFORMAL",
+  "phrase": "Quadratic Closure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuadraticClosure"
+    }
+  ],
+  "indexable": true
+}

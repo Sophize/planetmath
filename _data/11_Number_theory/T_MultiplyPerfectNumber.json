@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "multiperfect number",
+    "pluperfect number"
+  ],
+  "definition": "A [*multiply perfect number*]{} $n$ for a given $k$ is an integer such\nthat $\\sigma(n) = kn$, where $\\sigma(x)$ is the sum of divisors\nfunction. $n$ is then called $k$-perfect. For example, 120 is 3-perfect\nsince its divisors (1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40, 60,\n120) add up to 360, which is thrice 120. Numbers that are 2-perfect are\nby default called perfect numbers.\n\nThe 3-perfect numbers are listed in A005820 of Sloane\u2019s OEIS; A027687\nlists 4-perfect numbers; etc. The first $k$-perfect number for $k > 1$\nare listed in A007539.\n\nAs of 2007, more than 5000 multiply perfect numbers were known. The\nMultiply Perfect Numbers webpage, hosted by Bielefeld University,\nprovides an ASCII text file database giving the name of the discoverer,\n\u201cabundancy\u201d (the value of $k$ for the particular $n$), some of the prime\nfactors and the value of $\\log \\log n$.\n\n[3]{} A. H. Beiler, [*Recreations in the Theory of Numbers*]{}. New York\n(1964): 22. A. L. Brown, \u201cMultiperfect numbers\u201d [*Scripta Math.*]{}\n[**20**]{} (1954): 103 - 106",
+  "language": "INFORMAL",
+  "phrase": "Multiply Perfect Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplyPerfectNumber"
+    }
+  ],
+  "indexable": true
+}

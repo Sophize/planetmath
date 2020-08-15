@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If $f(z)$ is continuous on a (finite) contour $\\gamma$ of\nthe complex plane, then the contour integral $$\\begin{aligned}\ng(z) \\;=:\\; \\int_{\\gamma}\\frac{f(t)}{t\\!-\\!z}\\,dt,\\end{aligned}$$\ndefines a function $z \\mapsto g(z)$ which is holomorphic in any domain\n$D$ not containing points of $\\gamma$. Moreover, the derivative has the\nexpression $$\\begin{aligned}\ng'(z) \\;=\\; \\int_{\\gamma}\\!\\frac{f(t)}{(t\\!-\\!z)^2}\\,dt.\\end{aligned}$$\n\n*Proof.* The right hand side of (2) is defined since its integrand is\ncontinuous. On has to show that it equals\n$$\\lim_{\\Delta z \\to 0}\\frac{g(z\\!+\\!\\Delta z)\\!-\\!g(z)}{\\Delta z}.$$\nLet $z_1 =: z\\!+\\!\\Delta z \\notin \\gamma$, $\\Delta z \\neq 0$. We may\nwrite first $$\\frac{g(z_1)-g(z)}{z_1\\!-\\!z} \n\\;=\\; \\frac{1}{\\Delta z}\\int_{\\gamma}f(t)\\left[\\frac{1}{t\\!-\\!z_1}-\\frac{1}{t\\!-\\!z}\\right]\\,dt\n\\;=\\; \\int_{\\gamma}\\frac{f(t)}{(t\\!-\\!z_1)(t\\!-\\!z)}\\,dt,$$ whence\n$$E \\;=:\\; \\frac{g(z_1)-g(z)}{z_1\\!-\\!z}-\\int_{\\gamma}\\frac{f(t)}{(t\\!-\\!z)^2} \n\\;=\\; \\Delta z\\cdot\\!\\int_{\\gamma}\\frac{f(t)}{(t\\!-\\!z_1)(t\\!-\\!z)^2}\\,dt.$$\nBecause $f$ is continuous in the compact set $\\gamma$, there is a\npositive constant $M$ such that\n$$|f(t)| \\;<\\; M \\quad \\forall\\; t \\in \\gamma.$$ As well, we have a\npositive constant $d$ such that\n$$|t\\!-\\!z| \\;\\geqq\\; d \\quad \\forall\\; t \\in \\gamma.$$ When we choose\n$|\\Delta z| < \\frac{d}{2}$, it follows that\n$$|t\\!-\\!z_1| \\;=\\; |(t\\!-\\!z)-\\Delta z| \\;\\geqq\\; |t\\!-\\!z|-|\\Delta z| \\;>\\; d\\!-\\!\\frac{d}{2} \\;=\\; \\frac{d}{2}.$$\nConsequently,\n$$\\left|\\frac{f(t)}{(t\\!-\\!z_1)(t\\!-\\!z)^2}\\right| \\;=\\; \\frac{|f(t)|}{|t\\!-\\!z_1||t\\!-\\!z|^2} \n\\;<\\; \\frac{M}{\\frac{d}{2}\\cdot d^2} \\;=\\; \\frac{2M}{d^3}$$ and, by the\nestimating theorem of contour integral,\n$$|E| \\;=\\; |\\Delta z|\\cdot\\left|\\int_{\\gamma}\\frac{f(t)}{(t\\!-\\!z_1)(t\\!-\\!z)^2}\\,dt\\right|\n\\;<\\; |\\Delta z|\\cdot\\frac{2M}{d^3}\\cdot k,$$ where $k$ is the length of\nthe contour. The last expression tends to zero as $\\Delta z \\to 0$. This\nsettles the proof.\\\n**Remark 1.** By induction, one can prove the following generalisation\nof (2): $$\\begin{aligned}\ng^{(n)}(z) \\;=\\; n!\\!\\int_{\\gamma}\\!\\frac{f(t)}{(t\\!-\\!z)^{n+1}}\\,dt \\qquad (n \\;=\\; 0,\\,1,\\,2,\\,\\ldots)\\end{aligned}$$\n\n**Remark 2.** The contour $\\gamma$ may be . If it especially is a\ncircle, then (1) defines a holomorphic function inside $\\gamma$ and\nanother outside it.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HolomorphicFunctionAssociatedWithContinuousFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "holomorphic function associated with continuous function"
+  ]
+}

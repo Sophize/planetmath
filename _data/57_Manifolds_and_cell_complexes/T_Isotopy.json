@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ and $N$ be manifolds and $I=[0,1]$ the closed unit interval. A\nsmooth map $h\\colon M\\times I\\to N$ is called an *isotopy* if the\nrestriction map $h_t:=h(-,t):M\\to N$ is an embedding for all $t\\in I$.\n\nIn particular, a diffeotopy is an isotopy.\n\n**Remark**. Given an isotopy $h\\colon M\\times I\\to N$, there exists a\ndiffeotopy $g\\colon N\\times I\\to N$ such that $h_t=g_t\\circ h_0$.",
+  "language": "INFORMAL",
+  "phrase": "Isotopy",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Isotopy"
+    }
+  ],
+  "indexable": true
+}

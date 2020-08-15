@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A relation $\\mathcal{R}$ on a set $A$ is *symmetric* if and only if\nwhenever $x\\mathcal{R}y$ for some $x, y \\in A$ then also\n$y\\mathcal{R}x$.\n\nAn example of a symmetric relation on $\\{a,b,c\\}$ is\n$\\{(a,a), (c,b), (b,c), (a,c), (c,a)\\}$. One relation that is not\nsymmetric is $\\mathcal{R} = \\{(b,b), (a,b), (b,a), (c,b) \\} $, because\n$(c,b) \\in \\mathcal{R}$ but $(b,c) \\notin \\mathcal{R}$.\n\nOn a finite set with $n$ elements there are $2^{n^2}$ relations, of\nwhich $2^{\\frac{n^2+n}{2}}$ are symmetric.\n\nA relation $\\mathcal{R}$ that is both symmetric and antisymmetric has\nthe property that $x\\mathcal{R}y$ implies $x=y$. On a finite set with\n$n$ elements there are only $2^n$ such relations.",
+  "language": "INFORMAL",
+  "phrase": "Symmetric Relation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SymmetricRelation"
+    }
+  ],
+  "indexable": true
+}

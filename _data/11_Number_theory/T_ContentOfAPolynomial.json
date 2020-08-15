@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $P = a_0 + a_1x + \\ldots + a_nx^n \\in \\mathbb{Z}[x]$ be a polynomial\nwith integer coefficients. The content of $P$ is the greatest common\ndivisor of the coefficients of $P$.\n$$c(P) = \\operatorname{gcd}(a_0, a_1, \\ldots, a_n)$$",
+  "language": "INFORMAL",
+  "phrase": "Content Of A Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContentOfAPolynomial"
+    }
+  ],
+  "indexable": true
+}

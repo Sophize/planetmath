@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $P$ be a point of a surface $F(x,\\,y,\\,z) = 0$ where $F$ is twice\ncontinuously differentiable in a neighbourhood of $P$. Set at $P$ a\ntangent of the surface. At the point $P$, set through this tangent both\nthe normal plane and a skew plane $\\omega$ with the normal plane. Let\n$\\varrho$ be the radius of curvature of the normal section and\n$\\varrho_\\omega$ the radius of curvature of the [*inclined section*]{}.\n\nMeusnier proved in 1779 that the equation\n$$\\varrho_\\omega = \\varrho\\cos\\omega$$ between these radii of curvature\nis valid.\n\nOne can obtain an illustrative interpretation for the Meusnier\u2019s\ntheorem, if one thinks the sphere with radius the radius $\\varrho$ of\ncurvature of the normal section and with centre the corresponding centre\nof curvature. Then the equation utters that the circle, which is\nintersected from the sphere by the inclined plane, is the circle of\ncurvature of the intersection curve of this plane and the surface\n$F(x,\\,y,\\,z) = 0.$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeusniersTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Meusnier's theorem",
+    "theorem of Meusnier"
+  ]
+}

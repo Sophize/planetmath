@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A stochastic process $\\lbrace X(t)\\mid t\\in\n\\mathbb{R}^{+}\\cup\\lbrace 0 \\rbrace \\rbrace$ is called a *counting\nprocess* if, for each outcome $\\omega$ in the sample space $\\Omega$,\n\n1.  $X(t)\\in \\mathbb{Z}^{+}\\cup\\lbrace 0 \\rbrace$ for all $t$,\n\n2.  $X(t)(\\omega)$ is piecewise constant,\n\n3.  $X(t)(\\omega)$ is non-decreasing,\n\n4.  $X(t)(\\omega)$ is right continuous (continuous from the right), and\n\n5.  for any $t$, there is an $s\\in\\mathbb{R}$ such that $t<s$ and\n    $X(t)(\\omega)+1=X(s)(\\omega)$.\n\n**Remark**. For any $t$, the random variable $X(t)$ is usually called\nthe number of occurrences of some event by time $t$. Then, for $s<t$,\n$X(t)-X(s)$ is the number of occurrences in the half-open interval\n$(s,t]$.",
+  "language": "INFORMAL",
+  "phrase": "Counting Process",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CountingProcess"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "binary tree paradox"
+  ],
+  "definition": "The complete infinite binary tree is a tree that consists of nodes\n(namely the numerals 0 and 1) such that every node has two children\nwhich are not children of any other node. The tree serves as binary\nrepresentation of all real numbers of the interval \\[0,1\\] in form of\npaths, i.e., sequences of nodes.\n\nEvery finite binary tree with more than one level contains less paths\nthan nodes. Up to level n there are 2\\^n paths and 2\\^(n+1) - 1 nodes.\n\nEvery finite binary tree can be represented as an ordered set of nodes,\nenumerated by natural numbers. The union of all finite binary trees is\nthen identical with the infinite binary tree. The paradox is that, while\nthe set of nodes remains countable as is the set of paths of all finite\ntrees, the set of paths in the infinite tree is uncountable by Cantor\u2019s\ntheorem. (On the other hand, the paths are separated by the nodes. As no\npath can separate itself from another path without a node, the number of\nseparated paths is the number of nodes.)\n\nLiterature: W. M\u00fcckenheim: Die Mathematik des Unendlichen,\nShaker-Verlag, Aachen 2006.",
+  "language": "INFORMAL",
+  "phrase": "Paradox Of The Binary Tree",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ParadoxOfTheBinaryTree"
+    }
+  ],
+  "indexable": true
+}

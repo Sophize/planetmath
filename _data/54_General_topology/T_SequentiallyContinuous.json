@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X, Y$ be topological spaces. Then a $f : X \\rightarrow Y$ is said\nto be *sequentially continuous* if for every convergent sequence\n$x_n \\rightarrow x$ in $X$, $f(x_n) \\rightarrow f(x)$ in $Y$.\n\nEvery continuous function is sequentially continuous, however the\nconverse is true only in first-countable spaces (for example in metric\nspaces).",
+  "language": "INFORMAL",
+  "phrase": "Sequentially Continuous",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SequentiallyContinuous"
+    }
+  ],
+  "indexable": true
+}

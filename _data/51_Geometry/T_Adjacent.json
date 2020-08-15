@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "adjacent side"
+  ],
+  "definition": "Given a right triangle with an acute angle $\\theta$, the side of the\ntriangle that is *adjacent* to $\\theta$ is the side of the triangle that\nis also a of $\\theta$ and is not the hypotenuse.\n\n(0,-2)(4,4) (0,0)(4,4)(4,0) (2,0)[adjacent]{} (3.8,0)(3.8,0.2)\n(3.8,0.2)(4,0.2) (0,0)[0.3]{}[0]{}[45]{} (0.5,0.15)[$\\theta$]{}\n(0,0)[.]{} (4,4)[.]{} (4,0)[.]{}\n\nWhen a phrase such as \u201cadjacent of an angle\u201d is used, one must determine\nfrom context whether it refers to this definition of adjacent or the\nother definition of . Note that the definition supplied above is\nspecifically for right triangles.",
+  "language": "INFORMAL",
+  "phrase": "Adjacent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Adjacent"
+    }
+  ],
+  "indexable": true
+}

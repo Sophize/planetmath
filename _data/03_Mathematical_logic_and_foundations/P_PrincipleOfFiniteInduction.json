@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The principle of finite induction, also known as *mathematical\ninduction*, is commonly formulated in two ways. Both are equivalent. The\nfirst formulation is known as *weak* induction. It asserts that if a\nstatement $P(n)$ holds for $n=0$ and if $P(n)\\Rightarrow P(n+1)$, then\n$P(n)$ holds for all natural numbers $n$. The case $n=0$ is called the\n*base case* or *base step* and the implication $P(n)\\Rightarrow P(n+1)$\nis called the *inductive step*. In an inductive proof, one uses the term\n*induction hypothesis* or *inductive hypothesis* to refer back to the\nstatement $P(n)$ when one is trying to prove $P(n+1)$ from it.\n\nThe second formulation is known as *strong* or *complete* induction. It\nasserts that if the implication\n$\\forall n((\\forall m < n P(m))\\Rightarrow P(n))$ is true, then $P(n)$\nis true for all natural numbers $n$. (Here, the quantifiers range over\nall natural numbers.) As we have formulated it, strong induction does\nnot require a separate base case. Note that the implication\n$\\forall n((\\forall m < n P(m))\\Rightarrow P(n)$ already entails $P(0)$\nsince the statement $\\forall m<0 P(m)$ holds vacuously (there are no\nnatural numbers less that zero).\n\nA moment\u2019s thought will show that the first formulation (weak induction)\nis equivalent to the following:\n\n> Let $S$ be a set natural numbers such that\n>\n> 1.  $0$ belongs to $S$, and\n>\n> 2.  if $n$ belongs to $S$, so does $n+1$.\n>\n> Then $S$ is the set of all natural numbers.\n\nSimilarly, strong induction can be stated:\n\n> If $S$ is a set of natural numbers such that $n$ belongs to $S$\n> whenever all numbers less than $n$ belong to $S$, then $S$ is the set\n> of all natural numbers.\n\nThe principle of finite induction can be derived from the fact that\nevery nonempty set of natural numbers has a smallest element. This fact\nis known as the *well-ordering principle for natural numbers*. (Note\nthat this is not the same thing as the *well-ordering principle*, which\nis equivalent to the axiom of choice and has nothing to do with\ninduction.)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PrincipleOfFiniteInduction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "principle of finite induction"
+  ]
+}

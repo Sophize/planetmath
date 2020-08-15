@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "prime factorization"
+  ],
+  "definition": "Given an integer $n$, its [*integer factorization*]{} (or [*prime\nfactorization*]{}) consists of the primes $p_i$ which multiplied\ntogether give $n$ as a result. To put it algebraically,\n$$n = \\prod_{i = 1}^{\\omega(n)} {p_i}^{a_i},$$ with each $p_i$ distinct,\nall $a_i > 0$ but not necessarily distinct, and $\\omega(n)$ being the\nvalue of the number of distinct prime factors function. Theoretically,\nan integer is a product of all the prime numbers,\n$$n = \\prod_{i = 1}^{\\infty} {p_i}^{a_i},$$ with many $a_i = 0$.\n\nFor example, the factorization of 32851 is\n$7 \\times 13 \\times 19 \\times 19$, more usually expressed as\n$7 \\times 13 \\times 19^2$. Because of the commutative property of\nmultiplication, it does not matter in what order the prime factors are\nstated in, but it is customary to give them in , and to group them\ntogether by the use of exponents.\n\nThe factorization of a positive integer is unique (this is the\nfundamental theorem of arithmetic). For a negative number $n < 0$ one\ncould take the factorization of $|n|$ and randomly give negative signs\nto one (or any odd number) of the prime factors. Alternatively, the\nfactorization can be given as $-1 \\cdot {p_1}^{a_1} \\cdot \\ldots$ (this\nis what Mathematica opts for).\n\nThe term \u201cfactorization\u201d is often used to refer to the actual process of\ndetermining the prime factors. There are several algorithms to choose\nfrom, with trial division being the simplest to implement.",
+  "language": "INFORMAL",
+  "phrase": "Integer Factorization",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegerFactorization"
+    }
+  ],
+  "indexable": true
+}

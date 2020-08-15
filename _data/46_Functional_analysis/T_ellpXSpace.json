@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "$\\ell^p(X)$",
+    "$\\ell^p(X)$-space"
+  ],
+  "definition": "### Definition of $\\ell^p(X)$\n\nLet $p$ be a real number such that $1 \\leq p < \\infty$.\n\nLet $X$ be a set and let $\\mu$ be the counting measure on $X$, defined\non the $\\mathfrak{B}$ of all subsets of $X$. The $\\ell^p(X)$ space is a\nparticular of a , defined as\n\n$$\\ell^p(X) := L^p(X, \\mathfrak{B}, \\mu)$$\n\nThus, the $\\ell^p(X)$ space consists of all functions\n$f:X \\longrightarrow \\mathbb{C}$ such that\n\n$$\\sum_{x \\in X} |f(x)|^p < \\infty$$\n\nOf course, for the above sum to be finite one must necessarily have\n$f(x) \\neq 0$ only for a countable number of $x \\in X$ (see ).\n\n### Properties\n\n-   By the corresponding property on $L^p$-spaces, the space $\\ell^p(X)$\n    is a Banach space and its norm amounts to\n    $$\\|f\\|_p = \\left ( \\sum_{x \\in X} |f(x)|^p \\right )^{\\frac{1}{p}}$$\n\n<!-- -->\n\n-   By the corresponding property on , the space $\\ell^2(X)$ is a\n    Hilbert space and its inner product amounts to\n    $$\\langle f, g\\rangle = \\sum_{x \\in X} f(x)\\overline{g(x)}$$\n\n### Nonseparability of $\\ell^p(X)$ for uncountable $X$\n\n** - The space $\\ell^p(X)$ is separable if and only if $X$ is a\ncountable set. Moreover, $\\ell^p(X)$ admits a Schauder basis if and only\nif $X$ is countable.\n\n$\\,$\n\nA Schauder basis for $\\ell^p(X)$, when it exists, can be just the set of\nfunctions $\\{\\delta_{x_0}: x_0 \\in X\\}$ defined by $$\\delta_{x_0}(x) :=\n\\begin{cases}\n1, & $if$\\;\\; x=x_0\\\\\n0 & $if$\\;\\; x \\neq x_0\n\\end{cases}$$\n\n### Orthonormal basis of $\\ell^2(X)$\n\nThe set of functions $\\{\\delta_{x_0}: x_0 \\in X\\}$ is an orthonormal\nbasis of $\\ell^2(X)$. Hence, the of $\\ell^2(X)$ is given by the\ncardinality of $X$ (as all orthonormal bases have the same cardinality).\n\nIt can be shown that all Hilbert spaces are isometrically isomorphic\n(hence, preserving the inner product) to a $\\ell^2(X)$ space, for a\nsuitable set $X$.",
+  "language": "INFORMAL",
+  "phrase": "$\\Ell^P(X)$ Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ellpXSpace"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given any semimartingale $X$, its quadratic variation $[X]$ exists and,\nfor any two semimartingales $X,Y$, their quadratic covariation $[X,Y]$\nexists. This is a consequence of the existence of the stochastic\nintegral, and the covariation can be expressed by the integration by\nparts formula\n$$[X,Y]_t=X_tY_t-X_0Y_0-\\int_0^tX_{s-}\\,dY_s-\\int_0^tY_{s-}\\,dX_s.$$\nFurthermore, suppose that $P_n$ is a sequence of of $\\mathbb{R}_+$,\n$$P_n=\\left\\{0=\\tau^n_0\\le\\tau^n_1\\le\\cdots\\uparrow\\infty\\right\\}$$\nwhere, $\\tau^n_k$ can, in general, be stopping times. Suppose that the\nmesh $|P_n^t|=\\sup_k(\\tau^n_k\\wedge t-\\tau^n_{k-1}\\wedge t)$ tends to\nzero in probability as $n\\rightarrow\\infty$, for each time $t>0$. Then,\nthe approximations $[X,Y]^{P_n}$ to the quadratic covariation to $[X,Y]$\nand, convergence also holds in the semimartingale topology.\n\nA consequence of ucp convergence is that the jumps of the quadratic\nvariation and covariation satisfy\n$$\\Delta[X]=(\\Delta X)^2,\\ \\Delta[X,Y]=\\Delta X\\Delta Y$$ at all times.\nIn particular, $[X,Y]$ is continuous whenever $X$ or $Y$ is continuous.\nAs quadratic variations are increasing processes, this shows that the\nsum of the squares of the jumps of a semimartingale is finite over any\nbounded interval $$\\sum_{s\\le t}(\\Delta X_s)^2 \\le [X]_t <\\infty.$$\n\nGiven any two semimartingales $X$,$Y$, the polarization identity\n$[X,Y]=([X+Y]-[X-Y])/4$ expresses the covariation as a difference of\nincreasing processes and, therefore is of , So, the continuous part of\nthe covariation\n$$[X,Y]^c_t\\equiv [X,Y]_t-\\sum_{s\\le t}\\Delta X_s\\Delta Y_s$$ is well\ndefined and continuous.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuadraticVariationOfASemimartingale"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "quadratic variation of a semimartingale"
+  ]
+}

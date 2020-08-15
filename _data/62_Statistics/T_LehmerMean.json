@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $p$ be a real number. *Lehmer mean* of the positive numbers\n$a_1,\\,\\ldots,\\,a_n$ is defined as $$\\begin{aligned}\nL_p(a_1,\\,\\ldots,\\,a_n) \\;:=\\; \\frac{a_1^p+\\ldots+a_n^p}{a_1^{p-1}+\\ldots+a_n^{p-1}}.\\end{aligned}$$\nThis definition fulfils both requirements set for . In the case of\nLehmer mean of two positive numbers $a$ and $b$ we see for $a \\leqq b$\nthat\n$$a \\;=\\; \\frac{a^p\\!+\\!ab^{p-1}}{a^{p-1}\\!+\\!b^{p-1}} \\;\\leqq\\; \\frac{a^p\\!+\\!b^p}{a^{p-1}\\!+\\!b^{p-1}} \n\\;\\leqq\\; \\frac{a^{p-1}b\\!+\\!b^p}{a^{p-1}\\!+\\!b^{p-1}} \\;=\\; b.$$\n\nThe Lehmer mean of certain numbers is the greater the greater is the\nparametre $p$, i.e.\n$$L_p(a_1,\\,\\ldots,\\,a_n) \\;\\geqq\\; L_q(a_1,\\,\\ldots,\\,a_n) \\quad \\forall\\; p \\;>\\; q.$$\nThis turns out from the nonnegativeness of the partial derivative of\n$L_p$ with respect to $p$; in the case $n =2$ it writes\n$$\\frac{\\partial L_p}{\\partial p} \\;=\\; \\frac{a^{p-1}b^{p-1}(a\\!-\\!b)(\\ln{a}-\\ln{b})}{(a^{p-1}\\!+\\!b^{p-1})^2} \n\\;\\geqq\\; 0.$$ Thus in the below list containing special cases of Lehmer\nmean, the is the least and the contraharmonic the greatest (cf. the\ncomparison of Pythagorean means).\n\nE.g. for two arguments $a$ and $b$, one has\n\n-   $\\displaystyle L_0(a,\\,b) \\,=\\, \\frac{2ab}{a\\!+\\!b}$, harmonic mean,\n\n-   $\\displaystyle L_{1/2}(a,\\,b) \\,=\\, \\sqrt{ab}$, geometric mean,\n\n-   $\\displaystyle L_1(a,\\,b) \\,=\\, \\frac{a\\!+\\!b}{2}$, arithmetic mean,\n\n-   $\\displaystyle L_2(a,\\,b) \\,=\\, \\frac{a^2\\!+\\!b^2}{a\\!+\\!b}$,\n    contraharmonic mean.\n\n**Note.** The and the $a_1,\\,\\ldots,\\,a_n$ may be regarded as borderline\ncases of the Lehmer mean, since\n$$\\lim_{p\\to-\\infty}L_p(a_1,\\,\\ldots,\\,a_n) \\;=\\; \\min\\{a_1,\\,\\ldots,\\,a_n\\}, \\quad \n\\lim_{p\\to+\\infty}L_p(a_1,\\,\\ldots,\\,a_n) \\;=\\; \\max\\{a_1,\\,\\ldots,\\,a_n\\}.$$\nFor proving these equations, suppose that there are exactly $k$ greatest\n(resp. least) ones among the numbers and that those are\n$a_1 = \\ldots = a_k$. Then we can write $$L_p(a_1,\\,\\ldots,\\,a_n) \\;=\\; \n\\frac{a_1^p\\left[k+\\!\\left(\\frac{a_{k+1}}{a_1}\\right)^p\\!+\\ldots+\\!\\left(\\frac{a_{n}}{a_1}\\right)^p\\right]}\n {a_1^{p-1}\\left[k+\\!\\left(\\frac{a_{k+1}}{a_1}\\right)^{p-1}\\!+\\ldots+\\!\\left(\\frac{a_{n}}{a_1}\\right)^{p-1}\\right]}.$$\nLetting $p \\to +\\infty$ (resp. $p \\to -\\infty$), this equation yields\n$$L_p(a_1,\\,\\ldots,\\,a_n) \\;\\longrightarrow\\; a_1.$$",
+  "language": "INFORMAL",
+  "phrase": "Lehmer Mean",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LehmerMean"
+    }
+  ],
+  "indexable": true
+}

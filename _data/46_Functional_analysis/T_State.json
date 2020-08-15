@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A **state** $\\Psi$ on a $C^*$-algebra $A$ is a positive linear\nfunctional $\\Psi\\colon A \\to {\\mathbb{C}}$, $\\Psi(a^*a) \\geq 0$ for all\n$a \\in A$, with unit norm. The norm of a positive linear functional is\ndefined by\n$${\\Vert \\Psi\\Vert} = \\sup_{a \\in A}\\{|\\Psi(a)| : {\\Vert a\\Vert}\\leq 1\\}.$$\nFor a unital $C^*$-algebra,\n${\\Vert \\Psi\\Vert} = \\Psi({\\mathord{\\mathrm{1\\!\\!\\!\\:I}}})$.\n\nThe space of states is a convex set. Let $\\Psi_1$ and $\\Psi_2$ be\nstates, then the convex combination\n$$\\lambda\\Psi_1+(1-\\lambda)\\Psi_2, \\quad \\lambda \\in [0,1],$$ is also a\nstate.\n\nA state is **pure** if it is not a convex combination of two other\nstates. Pure states are the extreme points of the convex set of states.\nA pure state on a commutative $C^*$-algebra is equivalent to a\ncharacter.\n\nA state is called a **tracial state** if it is also a trace.\n\nWhen a $C^*$-algebra is represented on a Hilbert space\n${\\mathord{\\mathcal{H}}}$, every unit vector\n$\\psi \\in {\\mathord{\\mathcal{H}}}$ determines a (not necessarily pure)\nstate in the form of an [**expectation value**]{},\n$$\\Psi(a) = \\langle\\psi, a\\psi\\rangle.$$ In physics, it is common to\nrefer to such states by their vector $\\psi$ rather than the linear\nfunctional $\\Psi$. The converse is not always true; not every state need\nbe given by an expectation value. For example, delta functions (which\nare distributions not functions) give pure states on $C_0(X)$, but they\ndo not correspond to any vector in a Hilbert space (such a vector would\nnot be square-integrable).\n\n[10]{} G.\u00a0Murphy, [*$C^*$-Algebras and Operator Theory*]{}. Academic\nPress, 1990.",
+  "language": "INFORMAL",
+  "phrase": "State",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/State"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*cyclic number*]{} $n$ is an integer which in a given base $b$\nmaintains the same digits after repeated multiplications. For example,\ntwice 142857 is 285714; thrice is 428571; four times is 571428; etc.\nCyclic numbers are tied to the full reptend primes $p$ thus:\n$$n = \\frac{b^{p - 1} - 1}{p}.$$ From this it follows that the base $b$\nrepresentation of the number $np$ consists of $p - 1$ instances of the\ndigit $b - 1$. For $mn$ with $m > p$ the multiples gradually begin to\nexhibit greater variety in their digits, with the occasional number\nnearly full of digits $b - 1$.\n\nIn base 10, the first few cyclic numbers are 142857, 588235294117647,\n52631578947368421, 434782608695652173913, 344827586206896551724137931,\n212765957446808510638297872340425531914893617, etc.\n\nThere are no cyclic numbers in factorial base or primorial base because\nnot every digit can occupy every significant position. For example, take\nthe multiples of 142857 in factorial base: 34222111, 70444300,\n115012011, 151234200, 185501311, 232024100, 266251211. The digit 4 can\nonly occur to the left of $d_3$.\n\nConfusingly, Sloane\u2019s OEIS uses this term to refer to the full reptend\nprimes instead of the cyclic numbers they generate.",
+  "language": "INFORMAL",
+  "phrase": "Cyclic Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CyclicNumber"
+    }
+  ],
+  "indexable": true
+}

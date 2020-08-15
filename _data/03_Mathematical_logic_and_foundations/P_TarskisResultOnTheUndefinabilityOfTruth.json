@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Assume $\\mathbf{L}$ is a logic which is under contradictory negation and\nhas the usual truth-functional connectives. Assume also that\n$\\mathbf{L}$ has a notion of formula with one variable and of\nsubstitution. Assume that $T$ is a theory of $\\mathbf{L}$ in which we\ncan define surrogates for formulae of $\\mathbf{L}$, and in which all\ntrue instances of the substitution relation and the truth-functional\nconnective relations are provable. We show that either $T$ is\ninconsistent or $T$ can\u2019t be augmented with a truth predicate\n$\\mathbf{True}$ for which the following T-schema holds\n\n$$\\mathbf{True}('\\phi') \\leftrightarrow \\phi$$\n\nAssume that the formulae with one variable of $\\mathbf{L}$ have been\nindexed by some suitable set that is representable in $T$ (otherwise the\npredicate $\\mathbf{True}$ would be next to useless, since if there\u2019s no\nway to speak of sentences of a logic, there\u2019s little hope to define a\ntruth-predicate for it). Denote the $i$:th element in this indexing by\n$B_i$. Consider now the following open formula with one variable\n\n$$\\mathbf{Liar}(x) = \\neg \\mathbf{True}(B_x(x))$$\n\nNow, since $\\mathbf{Liar}$ is an open formula with one free variable\nit\u2019s indexed by some $i$. Now consider the sentence $\\mathbf{Liar}(i)$.\nFrom the T-schema we know that\n\n$$\\mathbf{True}(\\mathbf{Liar}(i)) \\leftrightarrow \\mathbf{Liar(i)}$$\n\nand by the definition of $\\mathbf{Liar}$ and the fact that $i$ is the of\n$\\mathbf{Liar}(x)$ we have\n\n$$\\mathbf{True}(\\mathbf{Liar}(i)) \\leftrightarrow \\neg \\mathbf{True}(\\mathbf{Liar(i)})$$\n\nwhich clearly is absurd. Thus there can\u2019t be an of $T$ with a predicate\n$\\mathbf{Truth}$ for which the T-schema holds.\n\nWe have made several assumptions on the logic $\\mathbf{L}$ which are\ncrucial in order for this proof to go through. The most important is\nthat $\\mathbf{L}$ is closed under contradictory negation. There are\nlogics which allow truth-predicates, but these are not usually closed\nunder contradictory negation (so that it\u2019s possible that\n$\\mathbf{True}(\\mathbf{Liar}(i))$ is neither true nor false). These\nlogics usually have stronger notions of negation, so that a sentence\n$\\neg P$ says [*more*]{} than just that $P$ is not true, and the\nproposition that $P$ is simply not true is not expressible.\n\nAn example of a logic for which Tarski\u2019s undefinability result does not\nhold is the so-called Independence Friendly logic, the semantics of\nwhich is based on game theory and which allows various generalised\nquantifiers (the Henkin branching quantifier, etc.) to be used.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TarskisResultOnTheUndefinabilityOfTruth"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Tarski's result on the undefinability of truth"
+  ]
+}

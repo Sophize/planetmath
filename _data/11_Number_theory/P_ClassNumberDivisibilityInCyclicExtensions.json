@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In this entry, the class number of a number field $L$ is denoted by\n$h_L$.\n\nLet $F/K$ be a cyclic Galois extension of degree $n$. Let $p$ be a prime\nsuch that $n$ is not divisible by $p$, and assume that $p$ does not\ndivide $h_E$, the class number of any intermediate field\n$K\\subseteq E \\subsetneq F$. If $p$ divides $h_F$ then $p^f$ also\ndivides $h_F$, where $f$ is the multiplicative order of $p$ modulo $n$.\n\nRecall that the multiplicative order of $p$ modulo $n$ is a number $f$\nsuch that $p^f\\equiv 1 \\mod n$ and $p^m$ is not congruent to $1$ modulo\n$n$ for any $1\\leq m <f$.\n\nLet $F/K$ be a Galois extension such that $[F:K]=q$ is a prime distinct\nfrom the prime $p$. Assume that $p$ does not divide $h_K$. If $p$\ndivides $h_F$ then $p^f$ divides $h_F$, where $f$ is the multiplicative\norder of $p$ modulo $q$.\n\nNote that a Galois extension $F/K$ of prime degree has no non-trivial\nsubextensions.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClassNumberDivisibilityInCyclicExtensions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "class number divisibility in cyclic extensions"
+  ]
+}

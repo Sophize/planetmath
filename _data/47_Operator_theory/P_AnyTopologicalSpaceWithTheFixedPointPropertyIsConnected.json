@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem**]{} Any topological space with the is connected.\n\n[**Proof.**]{} We will prove the contrapositive. Suppose $X$ is a\ntopological space which is not connected. So there are non-empty\ndisjoint open sets $A,B\\subseteq X$ such that $X=A\\cup B$. Then there\nare elements $a\\in A$ and $b\\in B$, and we can define a function\n$f\\colon X\\to X$ by\n$$f(x) = \\left\\{ \\begin {array}{ll} a, & \\mbox{when} \\, x\\in B, \\\\\n b, & \\mbox{when} \\, x\\in A. \\\\\n \\end{array} \\right.$$ Since $A\\cap B={\\varnothing}$ and $A\\cup B=X$,\nthe function $f$ is well-defined. Also, $a\\notin B$ and $b\\notin A$, so\n$f$ has no fixed point. Furthermore, if $V$ is an open set in $X$, a\nshort calculation shows that $f^{-1}(V)$ is ${\\varnothing}, A,B$ or $X$,\nall of which are open sets. So $f$ is continuous, and therefore $X$ does\nnot have the fixed-point property. $\\Box$\n\n[9]{} G.J. Jameson, *Topology and Normed Spaces*, Chapman and Hall,\n1974. L.E. Ward, *Topology, An Outline for a First Course*, Marcel\nDekker, Inc., 1972.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnyTopologicalSpaceWithTheFixedPointPropertyIsConnected"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "any topological space with the fixed point property is connected"
+  ]
+}

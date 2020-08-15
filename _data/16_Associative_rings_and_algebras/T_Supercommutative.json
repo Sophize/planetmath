@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "graded-commutative",
+    "supercommutative algebra",
+    "even element",
+    "odd element"
+  ],
+  "definition": "Let $R$ be a ${\\mathbb{Z}}_2$-graded ring (or more generally, an\nassociative algebra). We say that $R$ is [*supercommutative*]{} if for\nany homogeneous elements $a$ and $b\\in R$:\n\n$$ab=(-1)^{\\deg a\\deg b}ba.$$\n\nIn other words, even homogeneous elements are in the center of the ring,\nand odd homogeneous elements anti-commute.\n\nCommon examples of supercommutative rings are the exterior algebra of a\nmodule over a commutative ring (in particular, a vector space) and the\ncohomology ring of a topological space (both with the standard grading\nby degree reduced mod 2).",
+  "language": "INFORMAL",
+  "phrase": "Supercommutative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Supercommutative"
+    }
+  ],
+  "indexable": true
+}

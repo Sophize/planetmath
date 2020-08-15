@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "We wish to show the relation between continuous maps and their graphs is\ncloser that it may look. Recall, that if $f:X\\to Y$ is a function\nbetween sets, then the set $\\Gamma(f)=\\{(x,f(x))\\in X\\times Y\\}$ is\ncalled *the graph of $f$*.\n\n**Proposition 1.** If $f:X\\to Y$ is a continuous map between topological\nspaces such that $Y$ is Hausdorff, then the graph $\\Gamma(f)$ is a\nclosed subset of $X\\times Y$ in product topology.\n\n*Proof.* Indeed, we will show, that $Z=(X\\times Y)\\backslash\\Gamma(f)$\nis open. Let $(x,y)\\in Z$. Then $f(x)\\neq y$ and thus (since $Y$ is\nHausdorff) there exist open subsetes $V_1, V_2\\subseteq Y$ such that\n$f(x)\\in V_1$, $y\\in V_2$ and $V_1\\cap V_2=\\emptyset$. Since $f$ is\ncontinuous, then $U=f^{-1}(V_1)$ is open in $X$.\n\nNote, that the condition $V_1\\cap V_2=\\emptyset$ implies, that\n$f(U)\\cap V_2=\\emptyset$. Therefore $U\\times V_2$ is a subset of $Z$. On\nthe other hand this subset is open (since it is a product of two open\nsets) in product topology and $(x,y)\\in U\\times V_2$. This shows, that\nevery point in $Z$ belongs to $Z$ together with a small neighbourhood,\nwhich completes the proof. $\\square$\n\nUnfortunetly, the converse of this theorem is not true as we will see\nlater. Nevertheless we can achieve similar result, if we assume a bit\nmore about spaces:\n\n**Proposition 2.** Let $f:X\\to Y$ be a function, where $X,Y$ are\nHausdorff spaces with $Y$ compact. If $\\Gamma(f)$ is a closed subset of\n$X\\times Y$ in product topology, then $f$ is continuous.\n\n*Proof.* Let $F\\subseteq Y$ be a closed set. We will show that\n$f^{-1}(F)$ is also closed. Consider projections\n$$\\pi_Y:X\\times Y\\to Y; \\ \\ \\pi_X:X\\times Y\\to X.$$ They are both\ncontinuous and thus $\\pi_Y^{-1}(F)$ is closed in $X\\times Y$. Since\n$\\Gamma(f)$ is also closed, then $$Z=\\pi_Y^{-1}(F)\\cap\\Gamma(f)$$ is\nclosed in $X\\times Y$. It is well known, that since $Y$ is compact, then\n$\\pi_X$ is a closed map (this is easily seen to be equivalent to *the\ntube lemma*). Furthermore it is easy to see, that $\\pi_X(Z)=f^{-1}(F)$\nand the proof is complete. $\\square$\n\n**Counterexample.** Let $\\mathbb{R}$ denote the set of reals (with\nstandard topology). Consider function $f:\\mathbb{R}\\to\\mathbb{R}$ given\nby $f(x)=1/x$ and $f(0)=0$. It is obvious, that $f$ is discontinuous at\n$x=0$, but also it can be easily checked, that $\\Gamma(f)$ is closed in\n$\\mathbb{R}^2$. Note, that $\\mathbb{R}$ is not compact.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GraphTheoremsForTopologicalSpaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "graph theorems for topological spaces"
+  ]
+}

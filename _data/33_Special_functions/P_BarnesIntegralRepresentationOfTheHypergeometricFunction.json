@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "When $a,b,c,d$ are complex numbers and $z$ is a complex number such that\n$-\\pi < \\arg (-z) < +\\pi$ and $C$ is a contour in the complex $s$-plane\nwhich goes from $-i \\infty$ to $+ i \\infty$ chosen such that the poles\nof $\\Gamma (a+s) \\Gamma (b+s)$ lie to the left of $C$ and the poles of\n$\\Gamma (-s)$ lie to the right of $C$, then\n$$\\int_C {\\Gamma (a+s) \\Gamma (b+s) \\over \\Gamma (c+s)}\n\\Gamma (-s) (-z)^s \\, ds = \n2 \\pi i {\\Gamma (a) \\Gamma (b) \\over \\Gamma (c)} F (a, b; c; z)$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BarnesIntegralRepresentationOfTheHypergeometricFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Barnes' integral representation of the  hypergeometric function"
+  ]
+}

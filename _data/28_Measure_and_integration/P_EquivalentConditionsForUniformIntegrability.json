@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(\\Omega,\\mathcal{F},\\mu)$ be a measure space and $S$ be a bounded\nsubset of $L^1(\\Omega,\\mathcal{F},\\mu)$. That is, $\\int|f|\\,d\\mu$ is\nbounded over $f\\in S$. Then, the following are equivalent.\n\n1.  \\[eps delta\\] For every $\\epsilon>0$ there is a $\\delta>0$ so that\n    $$\\int_A |f|\\,d\\mu<\\epsilon$$ for all $f\\in S$ and $\\mu(A)<\\delta$.\n\n2.  \\[eps K\\] For every $\\epsilon>0$ there is a $K>0$ satisfying\n    $$\\int_{|f|>K} |f|\\,d\\mu<\\epsilon$$ for all $f\\in S$.\n\n3.  \\[Phi\\] There is a measurable function\n    $\\Phi\\colon\\mathbb{R}\\rightarrow [0,\\infty)$ such that\n    $\\Phi(x)/|x|\\rightarrow\\infty$ as $|x|\\rightarrow\\infty$ and\n    $$\\int \\Phi(f)\\,d\\mu$$ is bounded over all $f\\in S$. Moreover, the\n    function $\\Phi$ can always be chosen to be symmetric and convex.\n\nSo, for bounded subsets of $L^1$, either of the above properties can be\nused to define uniform integrability. Conversely, when the measure space\nis finite, then conditions (\\[eps K\\]) and (\\[Phi\\]) are easily shown to\nimply that $S$ is bounded in $L^1$.\n\nTo show the equivalence of these statements, let us suppose that\n$\\int|f|\\,d\\mu< L$ for $f\\in S$.\n\n[**(\\[eps delta\\]) implies (\\[eps K\\])**]{}\n\nFor $\\epsilon>0$, property (\\[eps delta\\]) gives a $\\delta>0$ so that\n$\\int_A|f|\\,d\\mu<\\epsilon$ whenever $f\\in S$ and $\\mu(A)<\\delta$.\nChoosing $K>L/\\delta$, Markov\u2019s inequality gives\n$$\\mu(|f|>K)\\le K^{-1}\\int|f|\\,d\\mu\\le L/K<\\delta$$ and, therefore,\n$\\int_{|f|>K}|f|\\,d\\mu<\\epsilon$.\n\n[**(\\[eps K\\]) implies (\\[Phi\\])**]{}\n\nFor each $n=1,2,\\ldots$, property (\\[eps K\\]) gives a $K_n$ satisfying\n$$\\int (|f|-K_n)_+\\,d\\mu\\le\\int_{|f|>K_n}|f|\\,d\\mu\\le 2^{-n}.$$ Without\nloss of generality, the $K_n$ can be chosen to be increasing to\ninfinity, so we can define $\\Phi(x)=\\sum_n(|x|-K_n)_+$. Then,\n$$\\int\\Phi(f)\\,d\\mu=\\sum_n\\int(|f|-K_n)_+\\,d\\mu\\le\\sum_n 2^{-n}=1.$$\n\n[**(\\[Phi\\]) implies (\\[eps delta\\])**]{}\n\nFirst, suppose that $\\int\\Phi(f)\\,d\\mu< M$ for $f\\in S$. For\n$\\epsilon>0$, the condition that $\\Phi(x)/|x|\\rightarrow\\infty$ as\n$|x|\\rightarrow\\infty$ gives a $K>0$ such that\n$\\Phi(x)/|x|\\ge 2M/\\epsilon$ whenever $|x|>K$. Setting\n$\\delta=\\epsilon/2K$, $$\\begin{split}\n\\int_A|f|\\,d\\mu\n&\\le \\int_{|f|>K}|f|\\,d\\mu +K\\mu(A)\\\\\n&< (\\epsilon/2M)\\int_{|f|>K}\\Phi(f)\\,d\\mu +K\\delta\\\\\n&< \\epsilon/2 +\\epsilon/2 =\\epsilon.\n\\end{split}$$ whenever $\\mu(A)<\\delta$ and $f\\in S$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquivalentConditionsForUniformIntegrability"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "equivalent conditions for uniform integrability"
+  ]
+}

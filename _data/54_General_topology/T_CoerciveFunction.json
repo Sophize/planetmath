@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "coercive",
+    "coercitive",
+    "coercitive function"
+  ],
+  "definition": "Let $X$ and $Y$ be topological spaces. A function $f\\colon X\\to Y$ is\nsaid to be *coercive* if for every compact set $J\\subset Y$ there exists\na compact set $K\\subset X$ such that\n$$F(X\\setminus K) \\subset Y\\setminus J.$$\n\nThe general definition given above has a clear sense when specialized to\nthe Euclidean spaces, as shown in the following result.\n\nA function $f\\colon {\\mathbb R}^n \\to {\\mathbb R}^m$ is coercive if and\nonly if $$\\lim_{|x|\\to +\\infty} |f(x)| = +\\infty.$$",
+  "language": "INFORMAL",
+  "phrase": "Coercive Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CoerciveFunction"
+    }
+  ],
+  "indexable": true
+}

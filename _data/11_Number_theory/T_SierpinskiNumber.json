@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An integer $k$ is a *Sierpinski number* if for every positive integer\n$n$, the number $k2^n+1$ is composite.\n\nThat such numbers exist is amazing, and even more surprising is that\nthere are infinitely many of them (in fact, infinitely many odd ones).\nThe smallest *known* Sierpinski number is 78557, but it is not known\nwhether or not this is the smallest one. The smallest number $m$ for\nwhich it is unknown whether or not $m$ is a Sierpinski number is 10223.\n\nA process for generating Sierpinski numbers using covering sets of\nprimes can be found at\n\n<http://www.glasgowg43.freeserve.co.uk/siercvr.htm>\n\nVisit\n\n<http://www.seventeenorbust.com/>\n\nfor the distributed computing effort to show that 78557 is indeed the\nsmallest Sierpinski number (or find a smaller one).\n\nSimilarly, a *Riesel number* is a number $k$ such that for every\npositive integer $n$, the number $k2^n-1$ is composite. The smallest\nknown Riesel number is 509203, but again, it is not known for sure that\nthis is the smallest.",
+  "language": "INFORMAL",
+  "phrase": "Sierpinski Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SierpinskiNumber"
+    }
+  ],
+  "indexable": true
+}

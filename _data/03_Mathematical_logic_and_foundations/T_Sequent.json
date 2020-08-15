@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *sequent* represents a formal step in a proof. Typically it consists\nof two lists of formulas, one representing the premises and one the\nconclusions. A typical sequent might be:\n$$\\phi,\\psi\\Rightarrow\\alpha,\\beta$$ where $\\phi$ and $\\psi$ are the\npremises and $\\alpha$ and $\\beta$ are the conclusions.\n\nThis claims that, from premises $\\phi$ and $\\psi$ either $\\alpha$ or\n$\\beta$ must be true. Note that $\\Rightarrow$ is not a symbol in the\nlanguage, rather it is a symbol in the metalanguage used to discuss\nproofs. Also, notice the asymmetry: everything on the left must be true\nto conclude only one thing on the right. This does create a different\nkind of symmetry, since adding formulas to either side results in a\nweaker sequent, while removing them from either side gives a stronger\none.\n\nSome systems allow only one formula on the right.\n\nMost proof systems provide ways to deduce one sequent from another.\nThese rules are written with a list of sequents above and below a line.\nThis rule indicates that if everything above the line is true, so is\neverything under the line. A typical rule is:\n\n$$\\frac{\\Gamma\\Rightarrow\\Sigma}{\\begin{array}{cc}\n\\Gamma,\\alpha\\Rightarrow\\Sigma &\n\\alpha,\\Gamma\\Rightarrow\\Sigma\n\\end{array}}$$\n\nThis indicates that if we can deduce $\\Sigma$ from $\\Gamma$, we can also\ndeduce it from $\\Gamma$ together with $\\alpha$.\n\nNote that the capital Greek letters are usually used to denote a\n(possibly empty) list of formulas. $[\\Gamma,\\Sigma]$ is used to denote\nthe *contraction* of $\\Gamma$ and $\\Sigma$, that is, the list of those\nformulas appearing in either $\\Gamma$ or $\\Sigma$ but with no repeats.",
+  "language": "INFORMAL",
+  "phrase": "Sequent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Sequent"
+    }
+  ],
+  "indexable": true
+}

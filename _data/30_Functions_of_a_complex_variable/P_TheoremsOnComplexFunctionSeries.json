@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem 1.** If the complex functions $f_1,\\,f_2,\\,f_3,\\,\\ldots$ are\ncontinuous on the path $\\gamma$ and the series $$\\begin{aligned}\nf_1(z)+f_2(z)+f_3(z)+\\ldots\\end{aligned}$$ converges uniformly on\n$\\gamma$ to the sum function $F$, then one has\n$$\\int_{\\gamma}F(z)\\,dz \\;=\\; \\int_{\\gamma}f_1(z)\\,dz+\\int_{\\gamma}f_2(z)\\,dz+\\int_{\\gamma}f_3(z)\\,dz+\\ldots$$\n\n**Theorem 2.** If the functions $f_1,\\,f_2,\\,f_3,\\,\\ldots$ are\nholomorphic in a domain $A$ and the series (1) converges uniformly in\nevery disc of $A$, then also the sum function $F$ of (1) is holomorphic\nin $A$ and the equality $$\\begin{aligned}\n\\frac{d^nF(z)}{dz^n} \\;=\\; F^{(n)}(z) \\;=\\; \nf_1^{(n)}(z)+f_2^{(n)}(z)+f_3^{(n)}(z)+\\ldots\\end{aligned}$$ is true for\nevery positive integer $n$ in all points of $A$. The series (2)\nconverges uniformly in every compact subdomain of $A$.\n\n**Theorem 3.** If $f(z)$ is holomorphic in a domain $A$ and $z_0$ is a\npoint of $A$, then one can expand $f(z)$ to a power series (the\nso-called [*Taylor series*]{})\n$$f(z) \\;=\\; \\sum_{n=0}^\\infty a_n(z\\!-\\!z_0)^n \\quad \\mathrm{where} \n\\quad a_n \\;=\\; \\frac{f^{(n)}(z_0)}{n!}\\quad(n \\,=\\, 0,\\,1,\\,2,\\,\\ldots).$$\nThis is valid at least in the greatest disk\n$|z-z_0| < r\\; (\\leqq \\infty)$ which contains points of $A$ only.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheoremsOnComplexFunctionSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "theorems on complex function series"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "As might be expected, the usual (pointwise) limit laws \u2014 for instance,\nthat the sum of limits is the limit of sums \u2014 have analogues for uniform\nlimits. The laws for uniform limits are usually not mentioned in\nelementary textbooks, but they are useful in situations where having\nuniform convergence is crucial, such as when working with infinite sums\nor products of holomorphic or meromorphic functions.\n\nThe uniform laws may be derived simply by reinterpreting the pointwise\nproofs from any calculus text, with some extra conditions. Some of these\nresults are listed below.\n\nIn the following, $X$ is a metric space, and $Y$ is another metric space\n(with the appropriate operations defined), while $f_n\\colon X \\to Y$ and\n$g_n\\colon X \\to Y$ (with $n \\in {\\mathbb{N}}$) are functions that\nconverge uniformly on $X$ to $f\\colon X \\to Y$ and $g\\colon X \\to Y$,\nrespectively. (For example, $X$ and $Y$ may be ${\\mathbb{C}}$, the\ncomplex plane.)\n\nIf $Y$ is a normed vector space, then $f_n + g_n$ uniformly converge to\n$f + g$.\n\nIf $Y$ is a Banach algebra, and both $f(X)$ and $g(X)$ are bounded, then\n$f_n \\cdot g_n$ uniformly converge to $f \\cdot g$.\n\nLet $Z$ be another metric space. Suppose that $X$ is compact, $Y$ is\nlocally compact, and $f\\colon X \\to Y$, and $h\\colon Y \\to Z$ are\ncontinuous functions. Then $h \\circ f_n$ converge to $h \\circ f$\nuniformly.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LimitLawsForUniformConvergence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "limit laws for uniform convergence"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "FC group"
+  ],
+  "definition": "An *FC-group* is a group in which every element has only finitely many\nconjugates. Equivalently, a group $G$ is an FC-group if and only if the\ncentralizer $C_G(x)$ is of finite index in $G$ for each $x\\in G$.\n\nAll finite groups and all abelian groups are obviously FC-groups.\nFurther examples of FC-groups can be obtained by taking restricted\ndirect products of such groups.\n\nThe term [*FC-group*]{} was introduced by Baer[@baer]; the [*FC*]{} is\nsimply a mnemonic for the definition involving finite conjugacy classes.\n\nSome theorems\n=============\n\nEvery of an FC-group is an FC-group.\n\nEvery homomorphic image of an FC-group is an FC-group.\n\nEvery restricted direct product of FC-groups is an FC-group.\n\nEvery periodic FC-group is .\n\nLet $G$ be an FC-group. The elements of finite order in $G$ form a\nsubgroup, which will be denoted by $\\operatorname{Tor}(G)$. The subgroup\n$\\operatorname{Tor}(G)$ is a periodic FC-group, and the\n$G/\\operatorname{Tor}(G)$ is a torsion-free abelian group.\n\nEvery torsion-free FC-group is abelian.\n\nIf $G$ is a finitely generated FC-group, then $G/Z(G)$ and\n$\\operatorname{Tor}(G)$ are both finite.\n\nEvery FC-group is a subdirect product of a periodic FC-group and a\ntorsion-free abelian group.\n\nFrom Theorem 4 above it follows that a group $G$ is a periodic FC-group\nif and only if every finite subset of $G$ has a finite normal closure.\nFor this reason, periodic FC-groups are sometimes called *locally\nnormal* (or *locally finite and normal*) groups.\n\nStronger properties {#stronger-properties .unnumbered}\n===================\n\nThe following two properties are sometimes encountered, both of which\nare somewhat stronger than being an FC-group. For finitely generated\ngroups they are in fact equivalent to being an FC-group, by Theorem 6\nabove.\n\nA *BFC-group* is a group $G$ such that every conjugacy class of elements\nof $G$ has at most $n$ elements, for some fixed integer $n$.\nB.\u00a0H.\u00a0Neumann showed[@neumann] that $G$ is a BFC-group if and only if\nits commutator subgroup $[G,G]$ is finite (which in turn is easily shown\nto be equivalent to $G$ being *finite-by-abelian*, that is, having a\nfinite normal subgroup $N$ such that $G/N$ is abelian).\n\nA *centre-by-finite* (or *central-by-finite*) group is a group $G$ such\nthat the central quotient $G/Z(G)$ is finite. A centre-by-finite group\nis necessarily a BFC-group, because the centralizer of any element\ncontains the centre.\n\n[9]{} R.\u00a0Baer, [*Finiteness properties of groups*]{}, Duke Math.\u00a0J.\u00a015\n(1948), 1021\u20131032. B.\u00a0H.\u00a0Neumann, [*Groups covered by permutable\nsubsets*]{}, J.\u00a0London Math.\u00a0Soc. 29 (1954), 236\u2013248.",
+  "language": "INFORMAL",
+  "phrase": "Fc-Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FCgroup"
+    }
+  ],
+  "indexable": true
+}

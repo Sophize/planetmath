@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Conjecture (Walter Feit & John Thompson). There are no prime numbers $p$\nand $q$ (with $p \\neq q$) such that\n$\\displaystyle \\frac{p^q - 1}{p - 1}$ is divisible by\n$\\displaystyle \\frac{q^p - 1}{q - 1}$.\n\nFeit and Thompson, in regards to the Feit-Thompson theorem, have said\nthat proving this conjecture would simplify their proof of their\ntheorem, \u201crendering unnecessary the detailed use of generators and\nrelations.\u201d In 1971, Stephens strengthened the conjecture to state that\n$$\\gcd\\left(\\frac{p^q - 1}{p - 1}, \\frac{q^p - 1}{q - 1}\\right) = 1$$\nalways, and then found the counterexample $p = 17$, $q = 3313$. The\nnumbers $\\displaystyle \\frac{17^{3313} - 1}{17 - 1}$ and\n$\\displaystyle \\frac{3313^{17} - 1}{3313 - 1}$ do have 112643 as their\ngreatest common divisor, but dividing the former by the latter leaves a\nremainder of 149073454345008273252753518779212742886488244343395482423.\nNo other counterexamples have been found to Stephen\u2019s stronger version\nof the conjecture.\n\n[1]{} N. M. Stephens, \u201cOn the Feit-Thompson Conjecture\u201d [*Math. of\nComputation*]{} [**25**]{} 115 (1971): 625",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FeitThompsonConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Feit-Thompson conjecture"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "meta-abelian group"
+  ],
+  "definition": "Definition {#definition .unnumbered}\n==========\n\nA *metabelian group* is a group $G$ that possesses a normal subgroup $N$\nsuch that $N$ and $G/N$ are both abelian. Equivalently, $G$ is\nmetabelian if and only if the commutator subgroup $[G,G]$ is abelian.\nEquivalently again, $G$ is metabelian if and only if it is solvable of\nlength at most $2$.\n\n(Note that in older literature the term tends to be used in the stronger\nsense that the central quotient $G/Z(G)$ is abelian. This is equivalent\nto being nilpotent of class at most $2$. We shall not use this sense\nhere.)\n\nExamples {#examples .unnumbered}\n========\n\n-   All abelian groups.\n\n-   All generalized dihedral groups.\n\n-   All groups of order less than $24$.\n\n-   All metacyclic groups.\n\nProperties {#properties .unnumbered}\n==========\n\n, and (unrestricted) direct products of metabelian groups are also\nmetabelian. In other words, metabelian groups form a ; they are, in\nfact, the groups in which\n$(w^{-1}x^{-1}wx)(y^{-1}z^{-1}yz)=(y^{-1}z^{-1}yz)(w^{-1}x^{-1}wx)$ for\nall elements $w$, $x$, $y$ and $z$.",
+  "language": "INFORMAL",
+  "phrase": "Metabelian Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MetabelianGroup"
+    }
+  ],
+  "indexable": true
+}

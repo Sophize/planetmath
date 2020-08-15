@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $(R,\\,\\leq)$ is an ordered ring, then it contains a subset $R_+$\nhaving the following :\n\n-   $R_+$ is under ring addition and, supposing that the ring contains\n    no zero divisors, also under ring multiplication.\n\n-   Every element $r$ of $R$ satisfies exactly one of the conditions\n    $(1)\\,\\,r = 0$, $(2)\\,\\,r\\in R_+$, $(3)\\,\\,-r\\in R_+$.\n\n[*Proof.*]{} We take $R_+ = \\{r\\in R:\\,\\, 0 < r\\} \n= \\{r\\in R:\\,\\, 0\\leq r\\, \\wedge \\,0 \\neq r\\}$. Let $a,\\,b \\in R_+$.\nThen $0 < a$, $0 < b$, and therefore we have $0 < a\\!+\\!0 < a\\!+\\!b$,\ni.e. $a\\!+\\!b \\in R_+$. If $R$ has no zero-divisors, then also\n$ab \\neq 0$ and $0 = a0 < ab$, i.e. $ab\\in R_+$. Let $r$ be an arbitrary\nnon-zero element of $R$. Then we must have either $0 < r$ or $r < 0$\n(not both) because $R$ is totally ordered. The latter alternative gives\nthat $0 = -r\\!+\\!r < -r\\!+\\!0 = -r$. The both cases that either\n$r\\in R_+$ or $-r\\in R_+$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PositivityInOrderedRing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "positivity in ordered ring"
+  ]
+}

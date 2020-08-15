@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theroem -**]{} Let $(X, \\mathcal{B}, \\mu)$ be a measure space and\n$f:X \\to \\mathbb{C}$ a measurable function. If $f$ is integrable, then\nthe support of $f$ is .\n\nIt follows easily from this result that any function in an , with\n$1 \\leq p < \\infty$, must have $\\sigma$-finite support.\n\n[***:***]{} Let $A_0 := [1, \\infty[$, and for each $n \\in \\mathbb{N}$\nlet $A_n:= [\\frac{1}{n+1}, \\frac{1}{n}[$. Since $f$ is integrable, we\nmust necessarily have $\\mu \\big(|f|^{-1}(A_n)\\big) < \\infty$ for each\n$n \\in \\mathbb{N} \\cup \\{0\\}$, because\n\n$$\\begin{aligned}\n\\mu \\big(|f|^{-1} (A_n) \\big) \\cdot \\frac{1}{n+1} \\leq \\int_{|f|^{-1}(A_n)} |f| \\;d\\mu \\leq \\int_X |f| \\;d\\mu < \\infty.\\end{aligned}$$\n\nSince $f$ and $|f|$ have the same support, and the the support of the\nlatter is\n$\\displaystyle \\mathrm{supp} \\,  |f| = \\bigcup_{n = 0}^{\\infty} |f|^{-1} (A_n)$,\nit follows that the support of $f$ is $\\sigma$-finite. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SupportOfIntegrableFunctionIssigmafinite"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "support of integrable function is $\\sigma$-finite"
+  ]
+}

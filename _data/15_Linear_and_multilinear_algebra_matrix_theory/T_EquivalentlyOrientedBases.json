@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "$V$ finite-dimensional vector space\n\n$(v_1,\\ldots ,v_n)$ ordered basis for $V$\n\n$(w_1,\\ldots ,w_n)$ ordered basis for $V$\n\n$A:V\\rightarrow V$\n\n$\\forall i\\in \\{1,\\ldots ,n\\}: Av_i=w_i$\n\n$\\det(A)>0$\n\nfact: there is a unique linear isomorphism taking a given basis to another given basis {#fact-there-is-a-unique-linear-isomorphism-taking-a-given-basis-to-another-given-basis .unnumbered}\n======================================================================================\n\n$V$ finite-dimensional vector space\n\n$(v_1,\\ldots ,v_n)$ ordered basis for $V$\n\n$(w_1,\\ldots ,w_n)$ ordered basis for $V$\n\n$\\exists ! A:V\\rightarrow V$ linear isomorphism $\n: \\forall i\\in \\{1,\\ldots ,n\\}\n: Av_i=w_i$\n\n[*Note: This is a \u201cseed\u201d entry written using a short-hand format\ndescribed in .*]{}",
+  "language": "INFORMAL",
+  "phrase": "Equivalently Oriented Bases",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquivalentlyOrientedBases"
+    }
+  ],
+  "indexable": true
+}

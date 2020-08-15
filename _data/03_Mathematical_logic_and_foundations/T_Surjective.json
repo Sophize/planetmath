@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "onto"
+  ],
+  "definition": "A function $f\\colon X\\to Y$ is called *surjective* or *onto* if, for\nevery $y\\in Y$, there is an $x\\in X$ such that $f(x)=y$.\n\nEquivalently, $f\\colon X\\to Y$ is onto when its image is all the\ncodomain: $$\\mathrm{Im} f= Y.$$\n\n### Properties {#properties .unnumbered}\n\n1.  If $f\\colon X\\to Y$ is any function, then $f\\colon X\\to f(X)$ is a\n    surjection. That is, by restricting the codomain, any function\n    induces a surjection.\n\n2.  The composition of surjective functions (when defined) is again a\n    surjective function.\n\n3.  If $f\\colon X\\to Y$ is a surjection and $B\\subseteq Y$, then (see )\n    $$f f^{-1}(B) = B.$$",
+  "language": "INFORMAL",
+  "phrase": "Surjective",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Surjective"
+    }
+  ],
+  "indexable": true
+}

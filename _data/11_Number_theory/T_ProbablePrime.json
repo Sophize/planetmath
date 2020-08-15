@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sufficiently large odd integer $q$ believed to be a prime number\nbecause it has passed some preliminary primality test relative to a\ngiven base, or a pattern suggests it might be prime, but it has not yet\nbeen subjected to a conclusive primality test.\n\nFor primes with no specific form, it is required to test every potential\nprime factor $p < \\sqrt{q}$ to be absolutely sure that $q$ is in fact a\nprime. For Mersenne probable primes, the Lucas-Lehmer test is accepted\nas a conclusive primality test.\n\nOnce a probable prime is conclusively shown to be a prime, it of course\nloses the label \u201cprobable.\u201d It also loses it if conclusively shown to be\ncomposite, but in that case it might then be called a relative to base\n$a$.",
+  "language": "INFORMAL",
+  "phrase": "Probable Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProbablePrime"
+    }
+  ],
+  "indexable": true
+}

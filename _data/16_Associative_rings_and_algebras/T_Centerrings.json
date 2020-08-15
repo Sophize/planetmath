@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "center"
+  ],
+  "definition": "If $A$ is a ring, the center of $A$, sometimes denoted\n$\\operatorname{Z}(A)$, is the set of all elements in $A$ that commute\nwith all other elements of $A$. That is,\n$$\\operatorname{Z}(A) = \\{ a \\in A \\mid ax = xa \\text{} \\forall x \\in A \\}$$\n\nNote that $0 \\in \\operatorname{Z}(A)$ so the center is non-empty. If we\nassume that $A$ is a ring with a multiplicative unity $1$, then $1$ is\nin the center as well. The center of $A$ is also a subring of $A$.",
+  "language": "INFORMAL",
+  "phrase": "Center (Rings)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Centerrings"
+    }
+  ],
+  "indexable": true
+}

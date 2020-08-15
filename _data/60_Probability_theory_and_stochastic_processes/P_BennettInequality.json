@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Theorem:(Bennett inequality, 1962):\n\nLet $\\{X_{i}\\}_{i=1}^{n}$ be a collection of independent random\nvariables satisfying the conditions:\n\na\\) $E[X_{i}^{2}]<\\infty $ $\\forall i$, so that one can write $%\n\\sum_{i=1}^{n}E[X_{i}^{2}]=v^{2}$\\\nb) $\\Pr\\left\\{\\left\\vert X_{i}\\right\\vert \\leq M\\right\\} =1$\n\u00a0$\\forall i$.\n\nThen, for any $\\varepsilon \\geq 0$,\n$$\\Pr\\left\\{ \\sum_{i=1}^{n}\\left( X_{i}-E[X_{i}]\\right) >\\varepsilon \\right\\}\n\\leq \\exp \\left[ -\\frac{v^{2}}{M^{2}}\\theta \\left( \\frac{\\varepsilon M}{v^{2}%\n}\\right) \\right] \\leq \\exp \\left[ -\\frac{\\varepsilon }{2M}\\ln \\left( 1+\\frac{%\n\\varepsilon M}{v^{2}}\\right) \\right]$$ where\n$$\\theta \\left( x\\right) =\\left( 1+x\\right) \\ln \\left( 1+x\\right) -x$$\n\nRemark: Observing that\n$\\left( 1+x\\right) \\ln \\left( 1+x\\right) -x\\geq 9\\left( 1+%\n\\frac{x}{3}-\\sqrt{1+\\frac{2}{3}x}\\right) \\geq \\frac{3x^{2}}{2\\left(\nx+3\\right) }$ $\\ \\ \\forall x\\geq 0$, and plugging these expressions into\nthe bound, one obtains immediately the Bernstein inequality under the\nhypotheses of boundness of random variables, as one might expect.\nHowever, Bernstein inequalities, although weaker, hold under far more\ngeneral hypotheses than Bennett one.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BennettInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Bennett inequality"
+  ]
+}

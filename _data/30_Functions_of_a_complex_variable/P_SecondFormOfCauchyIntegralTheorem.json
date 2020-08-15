@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let the complex function $f$ be analytic in a simply connected open\ndomain $U$ of the complex plane, and let $a$ and $b$ be any two points\nof $U$. Then the contour integral $$\\begin{aligned}\n\\int_\\gamma f(z)\\,dz\\end{aligned}$$ is independent on the path $\\gamma$\nwhich in $U$ goes from $a$ to $b$.\n\n**Example.** Let\u2019s consider the integral (1) of the real part function\ndefined by $$f(z) := \\mbox{Re}(z)$$ with the path $\\gamma$ going from\nthe point $O = (0,\\,0)$ to the point $Q = (1,\\,1)$. If $\\gamma$ is the\nline segment $OQ$, we may use the substitution\n$$z := (1\\!+\\!i)t,\\quad dz = (1\\!+\\!i)\\,dt,\\quad 0 \\leqq t \\leqq 1,$$\nand (1) equals\n$$\\int_0^1t\\!\\cdot\\!(1\\!+\\!i)\\,dt = \\frac{1}{2}\\!+\\!\\frac{1}{2}i.$$\nSecondly, we choose for $\\gamma$ the broken line $OPQ$ where\n$P = (1,\\,0)$. Now (1) is the sum\n$$\\int_{OP}\\mbox{Re}(z)\\,dz+\\int_{PQ}\\mbox{Re}(z)\\,dz \n   = \\int_0^1x\\,dx+\\int_0^1i\\,dy = \\frac{1}{2}\\!+\\!i.$$ Thus, the\nintegral (1) of the function depends on the path between the two points.\nThis is explained by the fact that the function $f$ is not analytic \u2014\nits real part $x$ and imaginary part 0 do not satisfy the Cauchy-Riemann\nequations.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SecondFormOfCauchyIntegralTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "second form of Cauchy integral theorem",
+    "equivalent form of Cauchy integral theorem"
+  ]
+}

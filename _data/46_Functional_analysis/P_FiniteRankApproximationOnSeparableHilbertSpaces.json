@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem** Let $\\mathcal{H}$ be a separable Hilbert space and let\n$T \\in L(\\mathcal{H})$. Then $T$ is a compact operator iff there is a\nsequence $\\{F_n\\}$ of finite rank operators with $\\|T - F_n\\| \\to 0$.\n\n$(\\Rightarrow)$: Assume $T$ is compact on $\\mathcal{H}$ and $\\{e_n\\}$ is\nan orthonormal basis of $\\mathcal{H}$. Define: $$\\begin{aligned}\nP_n f &= \\sum_{k=0}^n {\\langle f, e_k \\rangle} e_k \\end{aligned}$$\n\nIt is clear that the $P_n$ have finite rank and that we have\n$\\Vert P_n f\\Vert \\leq \\Vert f\\Vert$ for all $n \\in \\mathbb{N}$,\n$f \\in \\mathcal{H}$.\n\nLet $\\mathcal{B}$ be the unit ball in $\\mathcal{H}$. We have that\n$P_n \\to I$ pointwise. Since the $P_n$ are contractive they are\nequicontinuous, hence $P_n$ converges uniformly to $I$ on compact sets,\nand in particular on $ \\overline{T(\\mathcal{B})}$, which is compact by\nassumption. Therefore $P_n T \\to T$ uniformly on $\\mathcal{B}$, hence\n$\\|P_n T - T\\| \\to 0$. Since $P_n T$ is bounded and of finite rank the\nfirst direction follows.\n\n$(\\Leftarrow)$: Now let $\\{F_n\\}$ be a sequence of bounded operators of\nfinite rank with $\\|T - F_n\\| \\to 0$. We have to show that\n$T(\\mathcal{B})$ is relatively compact in $\\mathcal{H}$. This is\nequivalent to $T(\\mathcal{B})$ being totally bounded in $\\mathcal{H}$.\nSo we are left to show that for all $\\epsilon > 0$ there is an\n$\\epsilon$-net $x_1, \\cdots, x_n \\in \\mathcal{H}$ so that:\n$$\\begin{aligned}\nT(\\mathcal{B}) &\\subseteq \\bigcup_{k=1}^n B_{\\epsilon}(x_k)\\end{aligned}$$\n\nSo choose $\\epsilon > 0$ and $n \\in \\mathbb{N}$ fixed so that:\n$$\\|F_n - T\\| < \\frac{\\epsilon}{2}$$\n\nChoose $x_1, \\cdots, x_m \\in \\mathcal{H}$ with: $$\\begin{aligned}\nF_n(\\mathcal{B}) &\\subseteq \\bigcup_{k=1}^m B_{\\frac{\\epsilon}{2}}(x_k)\\end{aligned}$$\n\nHence (by the triangle inequality): $$\\begin{aligned}\nT(\\mathcal{B}) &\\subseteq \\bigcup_{k=1}^m B_{\\epsilon}(x_k)\\end{aligned}$$\n\nand we are done.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FiniteRankApproximationOnSeparableHilbertSpaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "finite rank approximation on separable Hilbert spaces"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $m>1$ be an integer. An integer $g$ is said to be a primitive root\nof $m$ if $\\gcd(g,m)=1$ and the multiplicative order of $g$ is exactly\n$\\phi(m)$, where $\\phi$ is the Euler phi function. In other words,\n$g^{\\phi(m)}\\equiv 1 \\mod m$ and $g^n\\neq 1 \\mod m$ for any $n<\\phi(m)$.\n\nAn integer $m>1$ has a primitive root if and only if $m$ is $2,4,p^k$ or\n$2p^k$ for some $k\\geq 1$. In particular, every prime has a primitive\nroot.\n\nLet $m>1$ be an integer.\n\n1.  If $g$ is a primitive root of $m$ then the set\n    $\\{1,g,g^2,\\ldots,g^{\\phi(m)}\\}$ is a complete set of\n    representatives for $({\\mathbb{Z}}/m{\\mathbb{Z}})^\\times$.\n\n2.  If $\\gcd(g,m)=1$ then $g$ is a primitive root of $m$ if and only if\n    $g^{\\phi(m)/q}\\neq 1 \\mod m$ for every prime divisor $q$ of\n    $\\phi(m)$.\n\n3.  If $g$ is a primitive root of $m$, then $g^s\\equiv g^t \\mod m$ if\n    and only if $s\\equiv t \\mod \\phi(m)$. Thus $g^s\\equiv 1 \\mod m$ if\n    and only if $\\phi(m)$ divides $s$.\n\n4.  If $g$ is a primitive root of $m$, then $g^k$ is a primitive root of\n    $m$ if and only if $\\gcd(k,\\phi(m))=1$.\n\n5.  If $m$ has a primitive root then $m$ has exactly $\\phi(\\phi(m))$\n    incongruent primitive roots.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertiesOfPrimitiveRoots"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "properties of primitive roots"
+  ]
+}

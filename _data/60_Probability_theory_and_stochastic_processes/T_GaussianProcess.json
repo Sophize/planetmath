@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Gaussian random field"
+  ],
+  "definition": "A stochastic process $\\lbrace X(t)\\mid t\\in T\\rbrace$ is said to be a\n*Gaussian process* if all of the members of its f.f.d. (family of finite\ndimensional distributions) are joint normal distributions. In other\nwords, for any positive integer $n<\\infty$, and any\n$t_1,\\ldots,t_n\\in T$, the joint distribution of random variables\n$X(t_1),\\ldots,X(t_n)$ is jointly normal.\n\nAs an example, any Wiener process is Gaussian.\n\n**Remark**. Sometimes, a Gaussian process is known as a *Gaussian random\nfield* if $T$ is a subset, usually an embedded manifold, of\n$\\mathbb{R}^m$, with $m>1$.",
+  "language": "INFORMAL",
+  "phrase": "Gaussian Process",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaussianProcess"
+    }
+  ],
+  "indexable": true
+}

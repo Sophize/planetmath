@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *G\u00f6del numbering* is any way of assigning numbers to the formulas of a\nlanguage. This is often useful in allowing sentences of a language to be\nself-referential. The number associated with a formula $\\phi$ is called\nits *G\u00f6del number* and is denoted $\\ulcorner\\phi\\urcorner$.\n\nMore formally, if $\\mathcal{L}$ is a language and $\\mathcal{G}$ is a\nsurjective partial function from the terms of $\\mathcal{L}$ to the\nformulas over $\\mathcal{L}$ then $\\mathcal{G}$ is a G\u00f6del numbering.\n$\\ulcorner\\phi\\urcorner$ may be any term $t$ such that\n$\\mathcal{G}(t)=\\phi$. Note that $\\mathcal{G}$ is not defined within\n$\\mathcal{L}$ (there is no formula or object of $\\mathcal{L}$\nrepresenting $\\mathcal{G}$), however properties of it (such as being in\nthe domain of $\\mathcal{G}$, being a subformula, and so on) are.\n\nAthough anything meeting the properties above is a G\u00f6del numbering,\ndepending on the specific language and usage, any of the following\nproperties may also be desired (and can often be found if more effort is\nput into the numbering):\n\n-   If $\\phi$ is a subformula of $\\psi$ then\n    $\\ulcorner\\phi\\urcorner<\\ulcorner\\psi\\urcorner$\n\n-   For every number $n$, there is some $\\phi$ such that\n    $\\ulcorner\\phi\\urcorner=n$\n\n-   $\\mathcal{G}$ is injective",
+  "language": "INFORMAL",
+  "phrase": "G\\\"Odel Numbering",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GodelNumbering"
+    }
+  ],
+  "indexable": true
+}

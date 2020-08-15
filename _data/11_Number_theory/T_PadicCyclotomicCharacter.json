@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "$p$-adic cyclotomic Galois representation",
+    "cyclotomic character"
+  ],
+  "definition": "Let\n$G_{{\\mathbb{Q}}}={\\operatorname{Gal}}(\\overline{{\\mathbb{Q}}}/{\\mathbb{Q}})$\nbe the absolute Galois group of ${\\mathbb{Q}}$. The purpose of this\nentry is to define, for every prime $p$, a Galois representation:\n\n$$\\chi_p : G_{{\\mathbb{Q}}} \\longrightarrow {\\mathbb{Z}}_p^\\times$$\n\nwhere ${\\mathbb{Z}}_p^\\times$ is the group of units of ${\\mathbb{Z}}_p$,\nthe $p$-adic integers. $\\chi_p$ is a ${\\mathbb{Z}}_p^\\times$ valued\ncharacter, usually called the [*cyclotomic character*]{} of\n$G_{{\\mathbb{Q}}}$, or the $p$-adic cyclotomic Galois representation of\n$G_{{\\mathbb{Q}}}$. Here is the construction:\n\nFor each $n\\geq 1$, let $\\zeta_{p^n}$ be a primitive $p^n$-th root of\nunity and let $K_n={\\mathbb{Q}}(\\zeta_{p^n})$ be the corresponding\ncyclotomic extension of ${\\mathbb{Q}}$. By the basic theory of\ncyclotomic extensions, we know that\n\n$${\\operatorname{Gal}}(K_n/{\\mathbb{Q}})\\cong ({\\mathbb{Z}}/p^n{\\mathbb{Z}})^\\times.$$\n\nMoreover, the restriction map\n${\\operatorname{Gal}}(K_{n+1}/{\\mathbb{Q}})\\to {\\operatorname{Gal}}(K_n/{\\mathbb{Q}})$\nis given by reduction modulo $p^n$ from\n$({\\mathbb{Z}}/p^{n+1}{\\mathbb{Z}})^\\times$ to\n$({\\mathbb{Z}}/p^n{\\mathbb{Z}})^\\times$.\n\nTherefore, for each $n$ we can construct a representation:\n$$\\chi_{p,n} : G_{{\\mathbb{Q}}} \\to {\\operatorname{Gal}}(K_n/{\\mathbb{Q}}) \\to ({\\mathbb{Z}}/p^n{\\mathbb{Z}})^\\times$$\nwhere the first map is simply restriction to $K_n$ and the second map is\nan isomorphism. By the remarks above, the representations $\\chi_{p,n}$\nare coherent in a strong sense, i.e.\n\n$$\\chi_{p,n+1}(\\sigma) \\equiv \\chi_{p,n}(\\sigma) \\mod p^n.$$\n\nTherefore, one can construct a \u201cbig\u201d Galois representation:\n$$\\chi_p : G_{{\\mathbb{Q}}} \\longrightarrow {\\mathbb{Z}}_p^\\times$$ by\nrequiring $\\chi(\\sigma) \\equiv \\chi_{p,n}(\\sigma) \\mod p^n$, for every\n$n\\geq 1$.\n\nOne can rephrase the above definition as follows. Let\n$\\sigma\\in G_{{\\mathbb{Q}}}$. We need to define a group homomorphism\n$\\chi_p:G_{{\\mathbb{Q}}} \\to {\\mathbb{Z}}_p^\\times$, so we need to first\ndefine $\\chi_p(\\sigma)$ and then check that it is a homomorphism. By the\ntheory, $\\sigma(\\zeta_{p^n})$ is another primitive $p^n$-th root of\nunity, thus $$\\sigma(\\zeta_{p^n})=\\zeta_{p^n}^{t_n}$$ for some integer\n$1\\leq t_n \\leq p^n-1$ with $\\gcd(t_n,p)=1$ (so $t_n$ is a unit modulo\n$p^n$). Moreover,\n$$\\sigma(\\zeta_{p^{n-1}})=\\sigma(\\zeta_{p^{n}}^p)=\\zeta_{p^n}^{pt_n}=\\zeta_{p^{n-1}}^{t_n}$$\nTherefore, $t_n \\equiv t_{n-1}$ modulo $p^{n-1}$. Thus, we may define:\n$$\\chi_p(\\sigma) = \\varprojlim t_n \\in {\\mathbb{Z}}_p$$ and as we have\nshown, $\\chi_p(\\sigma)$ is a unit of ${\\mathbb{Z}}_p$. Finally, the\nreader should check that $\\chi_p$ is a group homomorphism.",
+  "language": "INFORMAL",
+  "phrase": "$P$-Adic Cyclotomic Character",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PadicCyclotomicCharacter"
+    }
+  ],
+  "indexable": true
+}

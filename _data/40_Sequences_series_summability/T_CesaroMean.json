@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Cesaro mean"
+  ],
+  "definition": "#### Definition\n\nLet ${\\{a_n\\}}_{n=0}^\\infty$ be a sequence of real (or possibly complex\nnumbers). The [**Ces\u00e0ro mean**]{} of the sequence $\\{a_n\\}$ is the\nsequence $\\{b_n\\}_{n=0}^\\infty$ with\n$$b_n = \\frac{1}{n+1} \\sum_{i=0}^{n} a_i.$$\n\n### Properties\n\n1.  A key property of the Ces\u00e0ro mean is that it has the same limit as\n    the original sequence (when this limit exists). In other words, if\n    $\\{a_n\\}$ and $\\{b_n\\}$ are as above, and $a_n \\to a$, then\n    $b_n \\to a$. In particular, if $\\{a_n\\}$ converges, then $\\{b_n\\}$\n    converges too.",
+  "language": "INFORMAL",
+  "phrase": "Ces\\`Aro Mean",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CesaroMean"
+    }
+  ],
+  "indexable": true
+}

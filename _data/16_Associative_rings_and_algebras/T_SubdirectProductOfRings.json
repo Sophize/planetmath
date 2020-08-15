@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "subdirect sum"
+  ],
+  "definition": "A ring $R$ is said to be (represented as) a *subdirect product* of a\nfamily of rings $\\lbrace R_i: i \\in I \\rbrace$ if:\n\n1.  there is a monomorphism $\\varepsilon: R \\longrightarrow \\prod R_i$,\n    and\n\n2.  given 1., $\\pi_i \\circ \\varepsilon: R \\longrightarrow R_i$ is\n    surjective for each $i \\in I$, where\n    $\\pi_i:\\prod R_i \\longrightarrow R_i$ is the canonical projection\n    map.\n\nA *subdirect product* () of $R$ is said to be *trivial* if one of the\n$\\pi_i \\circ \\varepsilon: R \\longrightarrow R_i$ is an isomorphism.\n\nDirect products and direct sums of rings are all examples of subdirect\nproducts of rings. $\\mathbb{Z}$ does not have non-trivial direct product\nnor non-trivial direct sum of rings. However, $\\mathbb{Z}$ can be\nrepresented as a non-trivial subdirect product of\n$\\mathbb{Z}/({p_i}^{n_i})$.\n\nAs an application of subdirect products, it can be shown that any ring\ncan be represented as a subdirect product of subdirectly irreducible\nrings. Since a subdirectly commutative reduced ring is a field, a\nBoolean ring $B$ can be represented as a subdirect product of\n$\\mathbb{Z}_2$. Furthermore, if this Boolean ring $B$ is finite, the\nsubdirect product becomes a direct product . Consequently, $B$ has $2^n$\nelements, where $n$ is the number of copies of $\\mathbb{Z}_2$.",
+  "language": "INFORMAL",
+  "phrase": "Subdirect Product Of Rings",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SubdirectProductOfRings"
+    }
+  ],
+  "indexable": true
+}

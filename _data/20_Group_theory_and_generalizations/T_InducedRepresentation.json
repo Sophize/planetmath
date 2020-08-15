@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a group, $H \\subset G$ a subgroup, and $V$ a representation\nof $H$, considered as a $\\mathbb{Z}[H]$\u2013module. The [*induced\nrepresentation*]{} of $\\rho$ on $G$, denoted\n$\\operatorname{Ind}_H^G(V)$, is the $\\mathbb{Z}[G]$\u2013module whose\nunderlying vector space is the direct sum\n$$\\bigoplus_{\\sigma \\in G/H} \\sigma V$$ of formal translates of $V$ by\nleft cosets $\\sigma$ in $G/H$, and whose multiplication operation is\ndefined by choosing a set $\\{g_\\sigma\\}_{\\sigma \\in G/H}$ of coset\nrepresentatives and setting $$g(\\sigma v) := \\tau (h v)$$ where $\\tau$\nis the unique left coset of $G/H$ containing $g \\cdot g_\\sigma$ (i.e.,\nsuch that $g \\cdot g_\\sigma = g_\\tau \\cdot h$ for some $h \\in H$).\n\nOne easily verifies that the representation $\\operatorname{Ind}_H^G(V)$\nis independent of the choice of coset representatives $\\{g_\\sigma\\}$.",
+  "language": "INFORMAL",
+  "phrase": "Induced Representation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InducedRepresentation"
+    }
+  ],
+  "indexable": true
+}

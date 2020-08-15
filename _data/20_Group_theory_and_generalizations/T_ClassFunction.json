@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "central function"
+  ],
+  "definition": "Given a field $K$, a $K$\u2013valued [*class function*]{} on a group $G$ is a\nfunction $f: G \\longrightarrow K$ such that $f(g) = f(h)$ whenever $g$\nand $h$ are elements of the same conjugacy class of $G$.\n\nAn important example of a class function is the character of a group\nrepresentation. Over the complex numbers, the set of characters of the\nirreducible representations of $G$ form a basis for the vector space of\nall ${\\mathbb{C}}$\u2013valued class functions, when $G$ is a compact Lie\ngroup.\n\n#### Relation to the convolution algebra\n\nClass functions are also known as central functions, because they\ncorrespond to functions $f$ in the convolution algebra $C^*(G)$ that\nhave the property $f*g = g*f$ for all $g \\in C^*(G)$ (i.e., they commute\nwith everything under the convolution operation). More precisely, the\nset of measurable complex valued class functions $f$ is equal to the set\nof central elements of the convolution algebra $C^*(G)$, for $G$ a\nlocally compact group admitting a Haar measure.",
+  "language": "INFORMAL",
+  "phrase": "Class Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClassFunction"
+    }
+  ],
+  "indexable": true
+}

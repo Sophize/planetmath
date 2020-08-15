@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "atom"
+  ],
+  "definition": "Let $(X, \\mathcal{B},\\mu)$ be a measure space. A set $A \\in \\mathcal{B}$\nis called an [**atom**]{} if $A$ has positive measure and contains no\nmeasurable subsets $B \\subset A$ such that $0 < \\mu (B)< \\mu(A)$.\n\nAn equivalent definition can be: $A$ has positive measure and for every\nmeasurable subset $B \\subset A$, either $\\mu(B)=0$ or $\\mu(A-B)=0$.",
+  "language": "INFORMAL",
+  "phrase": "Atom (Measure Theory)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AtommeasureTheory"
+    }
+  ],
+  "indexable": true
+}

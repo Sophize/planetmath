@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "order of the zero"
+  ],
+  "definition": "If a polynomial $f(x)$ in $\\mathbb{C}[x]$ is divisible by $(x-a)^m$ but\nnot by $(x-a)^{m+1}$ ($a$ is some complex number, $m \\in \\mathbb{Z}_+$),\nwe say that $x = a$ is a [*zero of the polynomial with multiplicity\n$m$*]{} or alternatively a [*zero of order $m$*]{}.\n\nGeneralization of the multiplicity to and complex functions (by\nrspuzio): If the function $f$ is continuous on some open set $D$ and\n$f(a) = 0$ for some $a \\in D$, then the zero of $f$ at $a$ is said to be\nof multiplicity $m$ if $\\frac{f(z)}{(z\\!-\\!a)^m}$ is continuous in $D$\nbut $\\frac{f(z)}{(z-a)^{m+1}}$ is not.\n\nIf $m \\geqq 2$, we speak of a [*multiple zero*]{}; if $m = 1$, we speak\nof a [*simple zero*]{}. If $m = 0$, then actually the number $a$ is not\na zero of $f(x)$, i.e. $f(a) \\neq 0$.\n\nSome properties (from which 2, 3 and 4 concern only polynomials):\n\n1.  The zero $a$ of a polynomial $f(x)$ with multiplicity $m$ is a zero\n    of the $f'(x)$ with multiplicity $m\\!-\\!1$.\n\n2.  The zeros of the polynomial $\\gcd(f(x), f'(x))$ are same as the\n    multiple zeros of $f(x)$.\n\n3.  The quotient $\\displaystyle\\frac{f(x)}{\\gcd(f(x), f'(x))}$ has the\n    same zeros as $f(x)$ but they all are .\n\n4.  The zeros of any irreducible polynomial are .",
+  "language": "INFORMAL",
+  "phrase": "Multiplicity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Multiplicity"
+    }
+  ],
+  "indexable": true
+}

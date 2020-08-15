@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *incircle* or *inscribed circle* of a triangle is a circle interior\nto the triangle and tangent to its three sides.\n\nMoreover, the incircle of a polygon is an interior circle tangent to all\nof the polygon\u2019s sides. Not every polygon has an inscribed circle, but\ntriangles always do.\n\nThe center of the incircle is called the incenter, and it\u2019s located at\nthe point where the three angle bisectors intersect.\n\n![image](incentre)\n\nIf the sides of a triangle are $x$, $y$ and $z$, the area $A$ and the\nsemiperimeter $p$, then the radius of incircle may be calculated from\n$$r = \\frac{2A}{x+y+z} = \\frac{A}{p} = \\sqrt\\frac{(p-x)(p-y)(p-z)}{p}.$$",
+  "language": "INFORMAL",
+  "phrase": "Incircle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Incircle"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Using the exponent valuations, one can easily prove the\n\n**Theorem.** In any divisor theory, each divisor is the greatest common\ndivisor of two principal divisors.\n\n[*Proof.*]{} Let $\\mathcal{O}^* \\to \\mathfrak{D}$ be a divisor theory\nand $\\mathfrak{d}$ an arbitrary divisor in $\\mathfrak{D}$. We may\nsuppose that $\\mathfrak{d}$ is not a principal divisor (if\n$\\mathfrak{D}$ contains exclusively principal divisors, then\n$\\mathfrak{d} = \\gcd(\\mathfrak{d},\\,\\mathfrak{d})$ and the proof is\nready). Let $$\\mathfrak{d} = \\prod_{i=1}^r\\mathfrak{p}_i^{k_i}$$ where\nthe $\\mathfrak{p}_i$\u2019s are pairwise distinct prime divisors and every\n$k_i > 0$. Then third condition in the theorem concerning divisors and\nexponents allows to choose an element $\\alpha$ of the ring $\\mathcal{O}$\nsuch that\n$$\\nu_{\\mathfrak{p}_1}(\\alpha) = k_1,\\;\\;\\ldots,\\;\\;\\nu_{\\mathfrak{p}_r}(\\alpha) = k_r.$$\nLet the principal divisor corresponding to $\\alpha$ be\n$$(\\alpha) = \\prod_{i=1}^r\\mathfrak{p}_i^{k_i}\\prod_{j=1}^s\\mathfrak{q}_j^{l_j} = \\mathfrak{dd}',$$\nwhere the prime divisors $\\mathfrak{q}_j$ are pairwise different among\nthemselves and with the divisors $\\mathfrak{p}_i$. We can then choose\nanother element $\\beta$ of $\\mathcal{O}$ such that\n$$\\nu_{\\mathfrak{p}_1}(\\beta) = k_1,\\;\\;\\ldots,\\;\\;\\nu_{\\mathfrak{p}_r}(\\beta) = k_r,\\;\\; \n\\nu_{\\mathfrak{q}_1}(\\beta) = \\ldots = \\nu_{\\mathfrak{q}_s}(\\beta) = 0.$$\nThen we have $(\\beta) = \\mathfrak{dd}''$, where\n$\\mathfrak{d}'' \\in \\mathfrak{D}$ and\n$$\\gcd(\\mathfrak{d}',\\,\\mathfrak{d}'') = \\mathfrak{q}^0\\cdots\\mathfrak{q}^0 = \\mathfrak{e} = (1).$$\nThe gcd of the principal divisors $(\\alpha)$ and $(\\beta)$ is apparently\n$\\mathfrak{d}$, whence the proof is settled.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnyDivisorIsGcdOfTwoPrincipalDivisors"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "any divisor is gcd of two principal divisors"
+  ]
+}

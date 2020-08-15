@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "isotropy subgroup"
+  ],
+  "definition": "Let $G$ be a group, $X$ a set, and $\\cdot: G \\times X \\longrightarrow X$\na group action. For any subset $S$ of $X$, the [*stabilizer*]{} of $S$,\ndenoted $\\operatorname{Stab}(S)$, is the subgroup\n$$\\operatorname{Stab}(S) := \\{g \\in G \\mid g\\cdot s \\in S \\text{for all }\\ s \\in S\\}.$$\nThe stabilizer of a single point $x$ in $X$ is often denoted $G_x$.",
+  "language": "INFORMAL",
+  "phrase": "Stabilizer",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Stabilizer"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\sigma$ be a $k$-cycle in $S_n$. Then the centralizer of $\\sigma$\nis\n$$C_{S_n}(\\sigma)=\\{\\sigma^i \\tau \\mid 0\\leq i\\leq k-1, \\tau\\in S_{n-k}\\}$$\nwhere $S_{n-k}$ is the subgroup of $S_n$ consisting of those\npermutations that fix all elements appearing in $\\sigma$.\n\nThis is fundamentally a counting argument. It is clear that $\\sigma$\ncommutes with each element in the set given, since $\\sigma$ commutes\nwith powers of itself and also commutes with disjoint permutations. The\nsize of the given set is $k\\cdot (n-k)!$. However, the number of\nconjugates of $\\sigma$ is the index of $C_{S_n}(\\sigma)$ in $S_n$ by the\norbit-stabilizer theorem, so to determine $\\lvert C_{S_n}(\\sigma)\\rvert$\nwe need only count the number of conjugates of $\\sigma$, i.e. the number\nof $k$-cycles.\n\nIn a $k$-cycle $(a_1~\\ldots~a_k)$, there are $n$ choices for $a_1$,\n$n-1$ choices for $a_2$, and so on. So there are $n(n-1)\\cdots(n-k+1)$\nchoices for the elements of the cycle. But this counts each cycle $k$\ntimes, depending on which element appears as $a_1$. So the number of\n$k$-cycles is $$\\frac{n(n-1)\\cdots(n-k+1)}{k}$$\n\nFinally,\n$$n!=\\lvert S_n\\rvert = \\frac{n(n-1)\\cdots(n-k+1)}{k}\\lvert C_{S_n}(\\sigma)\\rvert$$\nso that\n$$\\lvert C_{S_n}(\\sigma)\\rvert=\\frac{k\\cdot n!}{n(n-1)\\cdots(n-k+1)}=k\\cdot (n-k)!$$\nand we see that the elements in the list above must exhaust\n$C_{S_n}(\\sigma)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CentralizerOfAKcycle"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "centralizer of a k-cycle"
+  ]
+}

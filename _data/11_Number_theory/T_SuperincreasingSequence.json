@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "superincreasing"
+  ],
+  "definition": "A sequence $\\{s_j\\}$ of real numbers is *superincreasing* if\n$\\displaystyle s_{n+1} > \\sum_{j=1}^n s_j$ for every positive integer\n$n$. That is, any element of the sequence is greater than all of the\nprevious elements added together.\n\nA commonly used superincreasing sequence is that of powers of two\n($s_n = 2^n$.)\n\nSuppose that $\\displaystyle x=\\sum_{j=1}^n a_j s_j$. If $\\{s_j\\}$ is a\nsuperincreasing sequence and every $a_j \\in \\{0,1\\}$, then we can always\ndetermine the $a_j$\u2019s simply by knowing $x$. This is analogous to the\nfact that, for any natural number, we can always determine which bits\nare on and off in the binary bitstring representing the number.",
+  "language": "INFORMAL",
+  "phrase": "Superincreasing Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SuperincreasingSequence"
+    }
+  ],
+  "indexable": true
+}

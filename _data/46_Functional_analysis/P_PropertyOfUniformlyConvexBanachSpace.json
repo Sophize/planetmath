@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a uniformly convex Banach space. Let $(x_n)$ be a sequence in\n$X$ such that $\\lim x_n= x$ in the weak-topology $(w(X,X^*))$ and\n$\\limsup \\|x_n\\|\\leq \\|x\\|$.Then $x_n$ converges to $x$.\n\nFor $x=0$ the claim is obvious, so suppose that $x\\neq 0$.The sequence\n$({x_n})_{n\\geq 1}$ converges to $x$ for $w-topology$\n$\\Rightarrow \\|x\\|\\leq \\liminf\\|x_n\\|$.So let\n$\\lambda_n=\\max\\{ \\|x\\|,\\|x_n\\|\\}$ and we have that\n$\\lim\\lambda_n= \\|x\\|$. Define $y_n=\\frac{x_n}{\\lambda_n}$ and\n$y=\\frac{x}{\\|x\\|}$.Then $y_n$ converges to $y$ in $w-topology$. We\nconclude that $\\|y\\|\\leq {\\liminf{\\|\\frac{y_n+y}{2}\\|}}$. Also,\n$\\|y\\|=1, \\|y_n\\|\\leq 1$ so we have that $\\lim\\|\\frac{y_n+y}{2}\\|=1$. As\nthe Banach space is uniformly convex one can easily see that\n$\\lim\\|y_n-y\\|=0 $. Therefore $x_n$ converges to $x$. The proof is\ncomplete.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertyOfUniformlyConvexBanachSpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "property of uniformly convex Banach Space"
+  ]
+}

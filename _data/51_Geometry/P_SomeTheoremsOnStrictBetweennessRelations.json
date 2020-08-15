@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $B$ be a strict betweenness relation. In the following the sets\n$B_{*pq}, B_{p*q}, B_{pq*}, B_{pq}, B(p,q)$ are defined in the entry\nabout some theorems on the axioms of order.\n\nThree elements are in a strict betweenness relation only if they are\npairwise distinct.\n\nIf $B$ is strict, then $B_{*pq}$, $B_{p*q}$ and $B_{pq*}$ are pairwise\ndisjoint. Furthermore, if $p=q$ then all three sets are empty.\n\nIf $B$ is strict, then $B_{pq}\\cap B_{qp}=B_{p*q}$ and\n$B_{pq}\\cup B_{qp}=B(p,q)$.\n\nIf $B$ is strict, then for any $p,q\\in A$, $p\\ne q$, $B_{*pq}$,\n$B_{p*q}$ and $B_{pq*}$ are infinite.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SomeTheoremsOnStrictBetweennessRelations"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "some theorems on strict betweenness relations"
+  ]
+}

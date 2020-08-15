@@ -1,0 +1,17 @@
+{
+  "argumentText": "The idea is to prove the cosines law:\n$$a^2 = b^2 + c^2 - 2bc\\cos\\theta$$ where the variables are defined by\nthe triangle: $$\\begin{xy}\n,(0,0)\n;(40,0)**@{-}\n;(60,30)**@{-}\n;(0,0)**@{-}\n,(20,-3)*{c}\n,(7,2)*{\\theta}\n,(50,12)*{a}\n,(30,17)*{b}\n\\end{xy}$$\n\nLet\u2019s add a couple of lines and two variables, to get $$\\begin{xy}\n,(0,0)\n;(40,0)**@{-}\n;(60,30)**@{-}\n;(0,0)**@{-}\n,(20,-3)*{c}\n,(7,2)*{\\theta}\n,(50,12)*{a}\n,(30,17)*{b}\n,(40,0)\n;(60,0)**@{--}\n;(60,30)**@{--}\n,(50,-3)*{x}\n,(63,15)*{y}\n\\end{xy}$$\n\nThis is all we need. We can use Pythagoras\u2019 theorem to show that\n$$a^2 = x^2 + y^2$$ and $$b^2 = y^2 + \\left(c+x\\right)^2$$\n\nSo, combining these two we get $$\\begin{aligned}\na^2 & = & x^2 + b^2 - \\left(c+x\\right)^2\\\\\na^2 & = & x^2 + b^2 - c^2 - 2cx - x^2\\\\\na^2 & = & b^2 - c^2 - 2cx\\end{aligned}$$\n\nSo, all we need now is an expression for $x$. Well, we can use the\ndefinition of the cosine function to show that $$\\begin{aligned}\nc + x & = & b \\cos\\theta\\\\\nx & = & b\\cos\\theta - c\\end{aligned}$$\n\nWith this result in hand, we find that $$\\begin{aligned}\na^2 & = & b^2 - c^2 - 2cx\\nonumber\\\\\na^2 & = & b^2 - c^2 - 2c\\left( b\\cos\\theta - c\\right)\\nonumber\\\\\na^2 & = & b^2 - c^2 -2bc\\cos\\theta + 2c^2\\nonumber\\\\\na^2 & = & b^2 + c^2 - 2bc\\cos\\theta\\end{aligned}$$",
+  "conclusion": "#P_CosinesLaw",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivationOfCosinesLaw"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "derivation of cosines law"
+  ]
+}

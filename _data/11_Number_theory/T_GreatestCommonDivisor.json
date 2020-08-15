@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "gcd",
+    "greatest common factor",
+    "highest common factor",
+    "hcf"
+  ],
+  "definition": "Let $a$ and $b$ be given integers, with at least one of them different\nfrom zero. The *greatest common divisor* of $a$ and $b$, denoted by\n$\\gcd(a,b)$, is the positive integer $d$ satisfying\n\n1.  $d\\mid a$ and $d\\mid b$,\n\n2.  if $c\\mid a$ and $c\\mid b$, then $c\\mid d$.\n\nMore intuitively, the greatest common divisor is the largest integer\ndividing both $a$ and $b$.\n\nFor example, $\\gcd(345,135)=15$, $\\gcd(-7,-21)=7$, $\\gcd(18,0)=18$, and\n$\\gcd(44,97)=1$\n\nGiven two (rational) integers, one can construct their gcd via Euclidean\nalgorithm. Once the gcd is found, it can be written as a linear\ncombination of the two integers. That is, for any two integers $a$ and\n$b$, we have $\\operatorname{gcd}(a,b)=ra+sb$ for some integers $r$ and\n$s$. This expression is known as the Bezout identity.\n\nOne can generalize the notion of a gcd of two integers into a gcd of two\nelements in a commutative ring. However, given two elements in a general\ncommutative ring, even an integral domain, a gcd may not exist. For\nexample, in $\\mathbb{Z}[x^2,x^3]$, a gcd for the elements $x^5$ and\n$x^6$ does not exist, for $x^2$ and $x^3$ are both common divisors of\n$x^5$ and $x^6$, but neither one divides another.\n\nThe idea of the gcd of two integers can be generalized in another\ndirection: to the gcd of a non-empty set of integers. If $S$ is a\nnon-empty set of integers, then the $\\operatorname{gcd}$ of $S$, is a\npositive integer $d$ such that\n\n1.  $d\\mid a$ for all $a\\in S$,\n\n2.  if $c\\mid a, \\forall a\\in S$, then $c\\mid d$.\n\nWe denote $d=\\operatorname{gcd}(S)$.\n\n**Remarks**.\n\n-   $\\gcd(a,b,c)=\\gcd(\\gcd(a,b),c)$.\n\n-   If $\\varnothing\\ne T\\subseteq S\\subseteq \\mathbb{Z}$, then\n    $\\gcd(S)\\mid \\gcd(T)$.\n\n-   For any $\\varnothing\\ne S\\subseteq\\mathbb{Z}$, there is a finite\n    subset $T\\subseteq S$ such that $\\gcd(T)=\\gcd(S)$.",
+  "language": "INFORMAL",
+  "phrase": "Greatest Common Divisor",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GreatestCommonDivisor"
+    }
+  ],
+  "indexable": true
+}

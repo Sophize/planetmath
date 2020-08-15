@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose that the series $\\sum_{n=1}^\\infty 1/n$ converged. Since all the\nterms are positive, we could regroup them as we please, in particular,\nsplit the series into two series, that of even terms and that of odd\nterms: $$\\sum_{n=1}^{\\infty} {1 \\over n} =\n \\sum_{n=1}^{\\infty} {1 \\over 2n} +\n \\sum_{n=1}^{\\infty} {1 \\over 2n-1}$$ Since\n$\\sum_{n=1}^\\infty 1/n = 2 \\sum_{n=1}^\\infty 1/(2n)$, we would conclude\nthat $$\\sum_{n=1}^{\\infty} {1 \\over 2n} =\n \\sum_{n=1}^{\\infty} {1 \\over 2n-1} .$$ But $2n-1 < 2n$, hence\n$1/(2n) < 1/(2n-1)$, so we would also have\n$$\\sum_{n=1}^{\\infty} {1 \\over 2n} <\n \\sum_{n=1}^{\\infty} {1 \\over 2n-1} ,$$ which contradicts the previous\nconclusion. Thus, the assumption that the series converged is untenable.",
+  "language": "INFORMAL",
+  "phrase": "Proof Of Divergence Of Harmonic Series (By Splitting Odd And Even Terms)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfDivergenceOfHarmonicSeriesbySplittingOddAndEvenTerms"
+    }
+  ],
+  "indexable": true
+}

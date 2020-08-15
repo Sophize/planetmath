@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $ \\mathfrak{a}$ and $ \\mathfrak{b}$ be ideals of a ring $ R$. Denote\nby $ \\mathfrak{ab}$ the subset of $ R$ formed by all finite sums of\nproducts $ ab$ with $ a \\in \\mathfrak{a}$ and $ b \\in \\mathfrak{b}$.\nThen if $ \\mathfrak{a}$ is a left and $ \\mathfrak{b}$ a right ideal,\n$ \\mathfrak{ab}$ is a two-sided ideal of $ R$. If in addition both\n$ \\mathfrak{a}$ and $ \\mathfrak{b}$ are two-sided ideals, then\n$ \\mathfrak{ab} \\subseteq \\mathfrak{a}\\cap\\mathfrak{b}$.\n\n**Proof.** We must show that the difference of any two elements of\n$\\mathfrak{ab}$ is in $\\mathfrak{ab}$, and that $\\mathfrak{ab}$ is\nclosed under multiplication by $R$. But both of these operations are\nlinear in $\\mathfrak{ab}$; that is, if they hold for elements of the\nform $ab, a\\in\\mathfrak{a}, b\\in\\mathfrak{b}$, then they hold for the\ngeneral element of $\\mathfrak{ab}$. So we restrict our analysis to\nelements $ab$.\n\nClearly if $a_1,a_2\\in \\mathfrak{a}, b_1,b_2\\in\\mathfrak{b}$, then\n$a_1b_1-a_2b_2\\in\\mathfrak{ab}$ by definition.\n\nIf $a\\in\\mathfrak{a}, b\\in\\mathfrak{b}, r\\in R$, then $$\\begin{gathered}\nr \\cdot ab = (r\\cdot a)b\\in\\mathfrak{ab} \\text{ since } \\mathfrak{a} \\text{ is a left ideal} \\\\\nab \\cdot r = a(b\\cdot r)\\in\\mathfrak{ab} \\text{ since } \\mathfrak{b} \\text{ is a right ideal}\\end{gathered}$$\nand thus $\\mathfrak{ab}$ is a two-sided ideal. This proves the first\nstatement.\n\nIf $\\mathfrak{a},\\mathfrak{b}$ are two-sided ideals, then\n$ab\\in\\mathfrak{a}$ since $b\\in R$; similarly, $ab\\in\\mathfrak{b}$. This\nproves the second statement.",
+  "conclusion": "#P_ProductOfLeftAndRightIdeal",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfProductOfLeftAndRightIdeal"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of product of left and right ideal"
+  ]
+}

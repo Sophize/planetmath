@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $|\\cdot|_1$, \u2026, $|\\cdot|_n$ be [*non-trivial*]{} (i.e., they all\nhave also other values than 0 and 1) and pairwise non-equivalent\nvaluations of a field $K$, all with values real numbers. If $a_1$, ...,\n$a_n$ are some elements of this field and $\\varepsilon$ is an arbitrary\npositive number, then there exists in $K$ an element $y$ which satisfies\nthe conditions $$\\begin{aligned}\n\\begin{cases}\n                |y-a_1|_1 < \\varepsilon,\\\\\n                \\qquad     \\vdots \\qquad \\\\  \n                |y-a_n|_n < \\varepsilon.\\\\\n\\end{cases}\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndependenceOfValuations"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "independence of valuations",
+    "approximation theorem"
+  ]
+}

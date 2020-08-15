@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $$\\begin{aligned}\na_1\\!+\\!a_2\\!+\\!a_3\\!+\\cdots\\end{aligned}$$ is a diverging series with\npositive , then one can always form another diverging series\n$$s_1\\!+\\!s_2\\!+\\!s_3\\!+\\cdots$$ with positive such that\n$$\\begin{aligned}\n\\lim_{n\\to\\infty}\\frac{s_n}{a_n} = 0.\\end{aligned}$$\n\n[*Proof.*]{} Let $S_n = a_1\\!+\\!a_2\\!+\\cdots+\\!a_n$ be the\n$n^\\mathrm{th}$ partial sum of (1). Then we have\n$$a_n = S_n\\!-\\!S_{n-1} = \n(\\sqrt{S_n}\\!+\\!\\sqrt{S_{n-1}})(\\sqrt{S_n}\\!-\\!\\sqrt{S_{n-1}}).$$ We set\n$s_1 := \\sqrt{S_1}$ and\n$$s_n := \\frac{a_n}{\\sqrt{S_n}\\!+\\!\\sqrt{S_{n-1}}} = \n\\sqrt{S_n}\\!-\\!\\sqrt{S_{n-1}}$$ for $n = 2,\\,3,\\,4,\\,\\ldots$ Then the of\nthe series $$\\sum_{n = 1}^{\\infty}s_n = \n    \\sqrt{S_1}\\!+\\!\\sum_{n = 1}^{\\infty}(\\sqrt{S_{n+1}}\\!-\\!\\sqrt{S_n})$$\napparently are positive. This series is however divergent, because the\nsum of its $n$ first is equal to $\\sqrt{S_n}$ which grows without bound\nalong with $n$ since (1) diverges. For this reason we also get the\nresult (2).\n\n**Remark.** Niels Henrik Abel has presented a simpler example on such\nseries $s_1\\!+\\!s_2\\!+\\!s_3\\!+\\cdots$:\n$$1\\!+\\!\\frac{a_2}{a_1\\!+\\!a_2}\\!+\\!\\frac{a_3}{a_1\\!+\\!a_2\\!+\\!a_3}\\!\n+\\!\\frac{a_4}{a_1\\!+\\!a_2\\!+\\!a_3\\!+\\!a_4}\\!+\\cdots$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SlowerDivergentSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "slower divergent series"
+  ]
+}

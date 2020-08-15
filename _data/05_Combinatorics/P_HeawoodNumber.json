@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Heawood number of a surface is an upper bound for the maximal number\nof colors needed to color any graph embedded in the surface. In 1890\nHeawood proved for all surfaces except the sphere that no more than\n$$H(S)=\\left\\lfloor\\frac{7+\\sqrt{49-24 e(S)}}{2}\\right\\rfloor$$ colors\nare needed to color any graph embedded in a surface of Euler\ncharacteristic $e(S)$. The case of the sphere is the four-color\nconjecture which was settled by Appel and Haken in 1976. The number\n$H(S)$ became known as Heawood number in 1976. Franklin proved that the\nchromatic number of a graph embedded in the Klein bottle can be as large\nas $6$, but never exceeds $6$. Later it was proved in the works of\nRingel and Youngs that the complete graph of $H(S)$ vertices can be\nembedded in the surface $S$ unless $S$ is the Klein bottle. This\nestablished that Heawood\u2019s bound could not be improved.\n\nFor example, the complete graph on $7$ vertices can be embedded in the\ntorus as follows:\n$$\\begin{xy}{*!C\\xybox{\\xymatrix@R=0pt{ 1\\ar@{-}[r]\\ar@{-}[dd]\\ar@{-}[dddr]&2\\ar@{-}[r]\\ar@{-}[ddd]\\ar@{-}[dddr]\\ar@{-}[ddrr]&3\\ar@{-}[r]\\ar@{-}[ddr]&1\\ar@{-}[dd]\\\\\n\\\\ 4\\ar@{-}[dd]\\ar@{-}[dr] & & & 4\\ar@{-}[dd]\\\\\n & 6\\ar@{-}[r]\\ar@{-}[dddr] & 7\\ar@{-}[ddd]\\ar@{-}[dddr]\\ar@{-}[dr]\\ar@{-}[ur] & \\\\\n5\\ar@{-}[dd]\\ar@{-}[ur]\\ar@{-}[ddr]\\ar@{-}[ddrr] & & & 5\\ar@{-}[dd] \\\\ \\\\\n1\\ar@{-}[r] & 2\\ar@{-}[r] & 3\\ar@{-}[r] & 1}}}\n\\end{xy}$$\n\n[1]{}\n\nB[\u00e9]{}la Bollob[\u00e1]{}s. , volume\u00a063 of [*GTM*]{}. Springer-Verlag, 1979.\n.\n\nThomas\u00a0L. Saaty and Paul\u00a0C. Kainen. . Dover, 1986. .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HeawoodNumber"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Heawood number"
+  ]
+}

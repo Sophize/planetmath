@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(C,\\Delta,\\varepsilon)$ and $(D,\\Delta',\\varepsilon')$ be\ncoalgebras.\n\n**Definition.** Linear map $f:C\\to D$ is called *coalgebra homomorphism*\nif $\\Delta'\\circ f=(f\\otimes f)\\circ\\Delta$ and\n$\\varepsilon'\\circ f=\\varepsilon$.\n\n**Examples.** $1)$ Of course, if $D$ is a subcoalgebra of $C$, then the\ninclusion $i:D\\to C$ is a coalgebra homomorphism. In particular, the\nidentity is a coalgebra homomorphism.\n\n$2)$ If $(C,\\Delta,\\varepsilon)$ is a coalgebra and $I\\subseteq C$ is a\ncoideal, then we have canonical coalgebra structur on $C/I$ (please, see\nfor more details). Then the projection $\\pi:C\\to C/I$ is a coalgebra\nhomomorphism. Furthermore, one can show that the canonical coalgebra\nstructure on $C/I$ is a unique coalgebra structure such that $\\pi$ is a\ncoalgebra homomorphism.",
+  "language": "INFORMAL",
+  "phrase": "Coalgebra Homomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CoalgebraHomomorphism"
+    }
+  ],
+  "indexable": true
+}

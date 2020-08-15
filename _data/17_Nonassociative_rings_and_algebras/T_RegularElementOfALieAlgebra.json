@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An element $X \\in \\mathfrak{g}$ of a Lie algebra is called *regular* if\nthe dimension of its centralizer\n$\\zeta_{\\mathfrak{g}}(X) = \\{ Y \\in \\mathfrak{g} \\mid \n[X, Y] = 0 \\}$ is minimal among all centralizers of elements in\n$\\mathfrak{g}$.\n\nRegular elements clearly exist and moreover they are Zariski dense in\n$\\mathfrak{g}$. The function $X \\mapsto \\dim \\zeta_{\\mathfrak{g}}(X)$ is\nan upper semi-continuous function $\\mathfrak{g} \\to \\mathbb{Z}_{\\ge 0}$.\nIndeed, it is a constant minus $\\operatorname{rank}(ad_X)$ and\n$X \\mapsto \\operatorname{rank}(ad_X)$ is lower semi-continuous. Thus the\nset of elements whose centralizer dimension is (greater than or) equal\nto that of any given regular element is Zariski open and non-empty.\n\nIf $\\mathfrak{g}$ is reductive then the minimal centralizer dimension is\nequal to the rank of $\\mathfrak{g}$.\n\nMore generally if $V$ is a representation for a Lie algebra\n$\\mathfrak{g}$, an element $v \\in V$ is called *regular* if the\ndimension of its stabilizer is minimal among all stabilizers of elements\nin $V$.\n\nExamples {#examples .unnumbered}\n========\n\n1.  In $\\mathfrak{sl}_n \\mathbb{C}$ a diagonal matrix\n    $X = \\operatorname{diag}(s_1, \\ldots, s_n)$ is regular iff\n    $(s_i - s_j) \\ne 0$ for all pairs $1 \\le i < j \\le n$. Any conjugate\n    of such a matrix is also obviously regular.\n\n2.  In $\\mathfrak{sl}_n \\mathbb{C}$ the nilpotent matrix\n    $$\\left( \\begin{array}{ccccc} \n    0 & 1 & \\cdots &  & 0 \\\\\n    0 & 0 & 1 & &  \\\\\n    \\vdots & & \\ddots & \\ddots & 1 \\\\\n    0 & & \\cdots & & 0 \n    \\end{array} \\right)$$ is regular. Moreover, it\u2019s adjoint orbit\n    contains the set of all regular nilpotent elements. The centralizer\n    of this matrix is the full subalgebra of trace zero, diagonal\n    matricies.",
+  "language": "INFORMAL",
+  "phrase": "Regular Element Of A Lie Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegularElementOfALieAlgebra"
+    }
+  ],
+  "indexable": true
+}

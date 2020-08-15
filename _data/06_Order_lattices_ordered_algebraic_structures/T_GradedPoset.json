@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *graded poset* is a poset $P$ that is equipped with a *rank function*\n$\\rho$, which is a function from $P$ to $\\mathbb{Z}$, satisfying the\nfollowing three conditions:\n\n1.  $\\rho$ is constant on all minimal elements of $P$, usually with\n    value $-1$ or $0$\n\n2.  $\\rho$ is *isotone*, that is, if $a\\le b$, then $\\rho(a)\\le\\rho(b)$,\n    and\n\n3.  $\\rho$ preserves covering relations: if $a\\prec b$, then\n    $\\rho(a)+1=\\rho(b)$.\n\nEquivalently, a poset $P$ is graded if it admits a partition into\nmaximal antichains $\\{A_n\\mid n\\in\\mathbb{N}\\}$ such that for each\n$x\\in A_n$, all of the elements covering $x$ are in $A_{n+1}$ and all\nthe elements covered by $x$ are in $A_{n-1}$.\n\nA poset $P$ *can be graded* if one can define a rank function $\\rho$ on\n$P$ so $(P,\\rho)$ is a graded poset. Below is a poset that can not be\ngraded:\n\n$$\\entrymodifiers={[o]} \\xymatrix @!=1pt {\n& & \\circ \\ar@{-}[ld] \\ar@{-}[rd] & \\\\\n& \\ar@{-}[ld] & & \\circ \\ar@{-}[d] \\\\\n\\circ \\ar@{-}[rd] & & & \\ar@{-}[d] \\\\\n& \\ar@{-}[rd] & & \\circ \\ar@{-}[ld] \\\\\n& & \\circ & }$$\n\nGeneralized rank functions {#generalized-rank-functions .unnumbered}\n--------------------------\n\nSince certain common posets such as the face lattice of a polytope are\nmost naturally graded by , the rank of a minimal element is sometimes\nrequired to be $-1$.\n\nMore generally, given a chain $C$, one can define *$C$-graded posets*. A\nposet $P$ is $C$-graded provided that there is a poset map\n$\\rho\\colon P\\to C$ that preserves covers and is constant on minimal\nelements of $P$. Such a rank function is unique up to choice of the rank\nof minimal elements. In practice, however, the term graded is only used\nto indicate $\\mathbb{N}$-grading, $\\mathbb{N}\\cup\\{-1\\}$-grading, or\n$\\mathbb{Z}$-grading.\n\nMaximal chains in graded posets {#maximal-chains-in-graded-posets .unnumbered}\n-------------------------------\n\nLet $P$ be a graded poset with rank function $\\rho$. A chain $C$ in $P$\nis said to be a *saturated chain* provided that $\\rho(C)=\\rho(P)$. If\n$C$ is saturated in $P$, then each cover relation in $C$ is also a cover\nrelation in $P$; thus a saturated chain is also a maximal chain.\n\nIt is a property of graded posets that all saturated chains have the\nsame cardinality. As a partial converse, if $P$ is a finite and each\nmaximal chain has the same cardinality, then $P$ is graded.",
+  "language": "INFORMAL",
+  "phrase": "Graded Poset",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GradedPoset"
+    }
+  ],
+  "indexable": true
+}

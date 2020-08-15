@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a set. A *partial map* on $X$ is an application defined from\na subset of $X$ into $X$. We denote by ${\\mathfrak{F}}(X)$ the set of\npartial map on $X$. Given $\\alpha\\in{\\mathfrak{F}}(X)$, we denote by\n${\\mathrm{dom}}(\\alpha)$ and ${\\mathrm{ran}}(\\alpha)$ respectively the\ndomain and the range of $\\alpha$, i.e.\n$${\\mathrm{dom}}(\\alpha),{\\mathrm{ran}}{\\alpha}\\subseteq X,\\ \\ \\alpha:{\\mathrm{dom}}(\\alpha)\\rightarrow X,\\ \\ \\alpha({\\mathrm{dom}}(\\alpha))={\\mathrm{ran}}(\\alpha).$$\nWe define the composition of two partial map\n$\\alpha,\\beta\\in{\\mathfrak{F}}(X)$ as the partial map\n$\\alpha\\circ\\beta\\in{\\mathfrak{F}}(X)$ with domain\n$${\\mathrm{dom}}(\\alpha\\circ\\beta)=\\beta^{-1}({\\mathrm{ran}}(\\beta)\\cap{\\mathrm{dom}}(\\alpha))={\\left\\{ x\\in{\\mathrm{dom}}(\\beta)\\,|\\,\\alpha(x)\\in{\\mathrm{dom}}(\\beta) \\right\\}}$$\ndefined by the common rule\n$$\\alpha\\circ\\beta(x)=\\alpha(\\beta(x)),\\ \\ \\forall x\\in{\\mathrm{dom}}{(\\alpha\\circ\\beta)}.$$\nIt is easily verified that the ${\\mathfrak{F}}(X)$ with the composition\n$\\circ$ is a semigroup.\n\nA partial map $\\alpha\\in{\\mathfrak{F}}(X)$ is said *bijective* when it\nis bijective as a map\n$\\alpha:{\\mathrm{ran}}(\\alpha)\\rightarrow{\\mathrm{dom}}(\\alpha)$. It can\nbe proved that the subset ${\\mathfrak{I}}(X)\\subseteq{\\mathfrak{F}}(X)$\nof the partial bijective maps on $X$ is an inverse semigroup (with the\ncomposition $\\circ$), that is called *symmetric inverse semigroup* on\n$X$. Note that the symmetric group on $X$ is a subgroup of\n${\\mathfrak{I}}(X)$.",
+  "language": "INFORMAL",
+  "phrase": "Symmetric Inverse Semigroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SymmetricInverseSemigroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "By way of contradiction, suppose that no Lebesgue number existed. Then\nthere exists an open cover $\\mathcal{U}$ of $X$ such that for all\n$\\delta > 0$ there exists an $x \\in X$ such that no $U \\in \\mathcal{U}$\ncontains $B_\\delta(x)$ (the open ball of radius $\\delta$ around $x$).\nSpecifically, for each $n \\in \\mathbb{N}$, since $1/n > 0$ we can choose\nan $x_n \\in X$ such that no $U \\in \\mathcal{U}$ contains $B_{1/n}(x_n)$.\nNow, $X$ is compact so there exists a subsequence $(x_{n_k})$ of the\nsequence of points $(x_n)$ that converges to some $y \\in X$. Also,\n$\\mathcal{U}$ being an open cover of $X$ implies that there exists\n$\\lambda > 0$ and $U \\in \\mathcal{U}$ such that\n$B_\\lambda(y) \\subseteq U$. Since the sequence $(x_{n_k})$ converges to\n$y$, for $k$ large enough it is true that $d(x_{n_k},y) < \\lambda/2$\n($d$ is the metric on $X$) and $1/n_k < \\lambda/2$. Thus after an\napplication of the triangle inequality, it follows that\n$$B_{1/n_k}(x_{n_k}) \\subseteq B_\\lambda(y) \\subseteq U,$$ contradicting\nthe assumption that no $U \\in \\mathcal{U}$ contains $B_{1/n}(x_n)$.\nHence a Lebesgue number for $\\mathcal{U}$ does exist.",
+  "conclusion": "#P_LebesgueNumberLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfLebesgueNumberLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Lebesgue number lemma"
+  ]
+}

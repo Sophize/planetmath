@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem** Suppose $B\\subset A$ is module-finite. Then $A$ is integral\nover $B$.\n\n**Proof.** Choose $u\\in A$.\n\nFor clarity, assume $A$ is spanned by two elements $\\omega_1,\\omega_2$.\nThe proof given clearly generalizes to the case where a spanning set for\n$A$ has more than two elements.\n\nWrite $$\\begin{aligned}\n&u\\omega_1&=b_{11}\\omega_1+b_{12}\\omega_2\\\\\n&u\\omega_2&=b_{21}\\omega_1+b_{22}\\omega_2\\end{aligned}$$\n\nConsider $$C=\\left(\\begin{array}{cc}\nu-b_{11}&-b_{12}\\\\\n-b_{21}&u-b_{22}\\end{array}\\right)$$ and let $C^{\\mathrm{adj}}$ be the\nadjugate of $C$. Then $C\\left(\\begin{array}{c}\\omega_1\\\\\n\\omega_2\\end{array}\\right)=0$, so\n$C^{\\mathrm{adj}}C\\left(\\begin{array}{c}\\omega_1\\\\\n\\omega_2\\end{array}\\right)=0$.\n\nNow, $C^{\\mathrm{adj}}C$ is a diagonal matrix with $\\det C$ on the\ndiagonal, so $$\\left(\\begin{array}{cc}f(u)&0\\\\\n0&f(u)\\end{array}\\right)\\left(\\begin{array}{c}\\omega_1\\\\\n\\omega_2\\end{array}\\right)=\\left(\\begin{array}{c}0\\\\\n0\\end{array}\\right)$$ where $f\\in B[x]$ is monic.\n\nBut neither $\\omega_1$ nor $\\omega_2$ is zero, so $f(u)$ must be.\n\nNote that, as with the field case, the converse is not true. For\nexample, the algebraic integers are integral but not finite over\n${\\mathbb{Z}}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModulefiniteExtensionsAreIntegral"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "module-finite extensions are integral"
+  ]
+}

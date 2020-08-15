@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a ring.\n\nTwo ideals $I$ and $J$ of $R$ are said to be *comaximal* if $I + J = R$.\nIf $R$ is , this is equivalent to requiring that there be $x\\in I$ and\n$y\\in J$ such that $x+y=1$.\n\nFor example, any two distinct maximal ideals of $R$ are comaximal.\n\nA set $\\cal S$ of ideals of $R$ is said to be *pairwise comaximal* (or\njust *comaximal*) if $I+J=R$ for all distinct $I,J\\in\\cal S$.",
+  "language": "INFORMAL",
+  "phrase": "Comaximal Ideals",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComaximalIdeals"
+    }
+  ],
+  "indexable": true
+}

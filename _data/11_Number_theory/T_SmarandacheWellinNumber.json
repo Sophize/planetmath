@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a base $b$, concatenate the base $b$ representations of the first\n$n$ primes into a single integer, placing the first prime as the most\nsignificant digit(s) and the $n$th prime as the least significant\ndigit(s). This is the [*Smarandache-Wellin number*]{} $S_n$.\n\nFor example, in base 10, $S_8$ is 235711131719, the concatenation of the\nstrings \u201c2\u201d, \u201c3\u201d, \u201c5\u201d, \u201c7\u201d, \u201c11\u201d, \u201c13\u201d, \u201c17\u201d and \u201c19\u201d reinterpreted as a\nsingle integer.\n\nPlacing a decimal point immediately preceding a base 10\nSmarandache-Wellin number turns it into an approximation of the\nCopeland-Erdos constant.\n\nReferences\n\nR. Crandall and C. Pomerance, Prime Numbers: A Computational\nPerspective, Springer, NY, 2001: 72\n\nH. Ibstedt, A Few Smarandache Sequences, Smarandache Notions Journal,\nVol. 8, No. 1-2-3, 1997: 170 - 183",
+  "language": "INFORMAL",
+  "phrase": "Smarandache-Wellin Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SmarandacheWellinNumber"
+    }
+  ],
+  "indexable": true
+}

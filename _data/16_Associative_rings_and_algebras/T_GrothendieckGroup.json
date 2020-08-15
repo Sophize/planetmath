@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "group completion"
+  ],
+  "definition": "Let $S$ be an abelian semigroup. The **Grothendieck group** of $S$ is\n$K(S) = S\\times S/\\mathord{\\sim}$, where $\\sim$ is the equivalence\nrelation: $(s,t) \\sim (u,v)$ if there exists $r \\in S$ such that\n$s+v+r = t+u+r$. This is indeed an abelian group with zero element\n$(s,s)$ (any $s \\in S$), inverse $-(s,t) = (t,s)$ and addition given by\n$(s,t)+(u,v) = (s+u, t+v)$. It is common to use the suggestive notation\n$t-s$ for $(t,s)$.\n\nThe Grothendieck group construction is a functor from the category of\nabelian semigroups to the category of abelian groups. A morphism\n$f\\colon S \\to T$ induces a morphism $K(f)\\colon K(S) \\to K(T)$ which\nsends an element $(s^+,s^-) \\in K(S)$ to $(f(s^+),f(s^-)) \\in K(T)$.\n\nLet $({\\mathbb{N}},+)$ be the semigroup of natural numbers with\ncomposition given by addition. Then, $K({\\mathbb{N}},+) = {\\mathbb{Z}}$.\n\nLet $({\\mathbb{Z}}-\\lbrace 0 \\rbrace,\\times)$ be the semigroup of\nnon-zero integers with composition given by multiplication. Then,\n$K({\\mathbb{Z}}-\\lbrace 0 \\rbrace,\\times) = ({\\mathbb{Q}}-\\lbrace 0 \\rbrace,\\times)$.\n\nLet $G$ be an abelian group, then $K(G) \\cong G$ via the identification\n$(g,h) \\leftrightarrow g-h$ (or $(g,h) \\leftrightarrow gh^{-1}$ if $G$\nis multiplicative).\n\nLet $C$ be a (essentially small) symmetric monoidal category. Its\nGrothendieck group is $K([C])$, i.e.\u00a0the Grothendieck group of the\nisomorphism classes of objects of $C$.",
+  "language": "INFORMAL",
+  "phrase": "Grothendieck Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GrothendieckGroup"
+    }
+  ],
+  "indexable": true
+}

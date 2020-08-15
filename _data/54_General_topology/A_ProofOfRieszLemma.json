@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let\u2019s consider $x \\in E-S$ and let $r = d(x, S)$. Recall that $r$ is the\ndistance between $x$ and $S$:\n$d(x,S) = \\textrm{inf}\\{d(x, s) \\textrm{ such that } s \\in S\\}$. Now,\n$r > 0$ because $S$ is closed. Next, we consider $b \\in S$ such that\n$$\\|x - b\\| < \\frac{r}{\\alpha}$$ This vector $b$ exists: as\n$0 < \\alpha < 1$ then $$\\frac{r}{\\alpha} > r$$ But then the definition\nof infimum implies there is $b \\in S$ such that\n$$\\|x - b\\| < \\frac{r}{\\alpha}$$\n\nNow, define $$x_{\\alpha} = \\frac{x - b}{\\|x - b\\|}$$ Trivially,\n$$\\|x_{\\alpha}\\| = 1$$ Notice that $x_{\\alpha} \\in E-S$, because if\n$x_{\\alpha} \\in S$ then $x - b \\in S$, and so $(x - b) + b = x \\in S$,\nan absurd. Plus, for every $s \\in S$ we have\n$$\\|s - x_{\\alpha}\\| = \\|s - \\frac{x - b}{\\|x - b\\|}\\| = \\frac{1}{\\|x - b\\|} \\cdot \\| \\|x - b\\| \\cdot s + b - x \\| \\geq \\frac{r}{\\|x - b\\|}$$\nbecause $$\\|x -b\\| \\cdot s + b \\in S$$ But\n$$\\frac{r}{\\|x - b\\|} > \\frac{\\alpha}{r} \\cdot r = \\alpha$$ QED.",
+  "conclusion": "#P_RieszLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfRieszLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Riesz' Lemma"
+  ]
+}

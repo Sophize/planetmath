@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Liapunov function"
+  ],
+  "definition": "Suppose we are given an autonomous system of first order differential\nequations.\n\n$$\\frac{dx}{dt}=F(x,y)\\quad\\frac{dy}{dt}=G(x,y)$$\n\nLet the origin be an isolated critical point of the above system.\n\nA function $V(x,y)$ that is of class $C^{1}$ and satisfies $V(0,0)=0$ is\ncalled a *Lyapunov function* if every open ball $B_{\\delta}(0,0)$\ncontains at least one point where $V>0.$ If there happens to exist\n$\\delta^{*}$ such that the function $\\dot{V}$, given by\n\n$$\\dot{V}(x,y)=V_{x}(x,y)F(x,y)+V_{y}(x,y)G(x,y)$$\n\nis positive definite in $B_{\\delta}^{*}(0,0)$. Then the origin is an\nunstable critical point of the system.",
+  "language": "INFORMAL",
+  "phrase": "Lyapunov Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LyapunovFunction"
+    }
+  ],
+  "indexable": true
+}

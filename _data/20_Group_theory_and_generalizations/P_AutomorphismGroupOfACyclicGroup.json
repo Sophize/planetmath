@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The automorphism group of the cyclic group ${\\mathbb{Z}}/n{\\mathbb{Z}}$\nis ${({\\mathbb{Z}}/{n}{\\mathbb{Z}})^{\\times}}$, which is of order\n$\\phi(n)$ (here $\\phi$ is the Euler totient function).\n\nChoose a generator $x$ for ${\\mathbb{Z}}/n{\\mathbb{Z}}$. If\n$\\rho\\in \\operatorname{Aut}({\\mathbb{Z}}/n{\\mathbb{Z}})$, then\n$\\rho(x) = x^a$ for some integer $a$ (defined up to multiples of $n$);\nfurther, since $x$ generates ${\\mathbb{Z}}/n{\\mathbb{Z}}$, it is clear\nthat $a$ uniquely determines $\\rho$. Write $\\rho_a$ for this\nautomorphism. Since $\\rho_a$ is an automorphism, $x^a$ is also a\ngenerator, and thus $a$ and $n$ are relatively prime[^1]. Clearly, then,\nevery $a$ relatively prime to $n$ induces an automorphism. We can\ntherefore define a surjective map\n$$\\Phi : \\operatorname{Aut}({\\mathbb{Z}}/n{\\mathbb{Z}}) \\to {({\\mathbb{Z}}/{n}{\\mathbb{Z}})^{\\times}}: \\rho_a\\mapsto a\\pmod n$$\n$\\Phi$ is also obviously injective, so all that remains is to show that\nit is a group homomorphism. But for every\n$a,b\\in{({\\mathbb{Z}}/{n}{\\mathbb{Z}})^{\\times}}$, we have\n$$(\\rho_a\\circ\\rho_b)(x) = \\rho_a(x^b) = (x^b)^a = x^{ab} = \\rho_{ab}(x)$$\nand thus\n$$\\Phi(\\rho_a\\circ\\rho_b) = \\Phi(\\rho_{ab}) = ab\\pmod n = \\Phi(\\rho_a)\\Phi(\\rho_b)$$\n\n[10]{} Dummit,\u00a0D.,\u00a0Foote,\u00a0R.M., *Abstract Algebra, Third Edition*,\nWiley, 2004.\n\n[^1]: If they were not, say $(a,n)=d$, then\n    $(x^a)^{n/d} = (x^{a/d})^n=1$ so that $x^a$ would not generate.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AutomorphismGroupOfACyclicGroup"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "automorphism group of a cyclic group"
+  ]
+}

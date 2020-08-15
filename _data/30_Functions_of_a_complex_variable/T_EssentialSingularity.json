@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $U\\subset\\mathbb{C}$ be a domain, $a\\in U$, and let\n$f:U \\setminus \\{a\\} \\to \\mathbb{C}$ be holomorphic. If the Laurent\nseries expansion of $f(z)$ around $a$ contains infinitely many terms\nwith negative powers of $z-a$, then $a$ is said to be an *essential\nsingularity* of $f$. Any singularity of $f$ is a removable singularity,\na pole or an essential singularity.\n\nIf $a$ is an essential singularity of $f$, then the image of any\npunctured neighborhood of $a$ under $f$ is dense in $\\mathbb{C}$ (the\nCasorati-Weierstrass theorem). In fact, an even stronger statement is\ntrue: according to Picard\u2019s theorem, the image of any punctured\nneighborhood of $a$ is $\\mathbb{C}$, with the possible exception of a\nsingle point.",
+  "language": "INFORMAL",
+  "phrase": "Essential Singularity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EssentialSingularity"
+    }
+  ],
+  "indexable": true
+}

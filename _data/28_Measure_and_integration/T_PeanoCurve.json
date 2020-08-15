@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "space-filling curve",
+    "space filling curve"
+  ],
+  "definition": "A *Peano curve* or *space-filling curve* is a continuous mapping of a\nclosed interval onto a square.\n\nSuch mappings, introduced by Peano in 1890, played an important role in\nthe development of topology as a counterexample to the naive ideas of\ndimension \u2014 while it is true that one cannot map a space onto a space of\nhigher dimension using a smooth map, this is no longer true if one only\nrequires continuity as opposed to smoothness. The Peano curve and\nsimilar examples led to a rethinking of the foundations of topology and\nanalysis, and underscored the importance of formulating topological\nnotions in a rigorous fashion.\n\nHowever, still, a space-filling curve cannot ever be one-to-one;\notherwise invariance of dimension would be violated.\n\nMany space-filling curves may be obtained as the limit of a sequence,\n$\\langle \\, h_n \\mid n \\in \\mathbb{N} \\, \\rangle$, of continuous\nfunctions\n$h_n \\colon \\lbrack 0,1\\rbrack \\to \\lbrack 0,1\\rbrack \\times \\lbrack 0,1\\rbrack$.\nFigure \\[fig:graph\\] (), showing the ranges of the first few\napproximations to Hilbert\u2019s space-filling curve, illustrates a common\ncase in which each successive approximation is obtained by applying a\nrecursive procedure to its predecessor.\n\n![The ranges of the first six approximations to Hilbert\u2019s space-filling\ncurve[]{data-label=\"fig:graph\"}](hilbert.eps)",
+  "language": "INFORMAL",
+  "phrase": "Peano Curve",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PeanoCurve"
+    }
+  ],
+  "indexable": true
+}

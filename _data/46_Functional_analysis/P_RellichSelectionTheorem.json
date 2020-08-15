@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $D$ be an open subset of $\\mathbb{R}^n$. If, for a sequence of\nfunctions $f_i \\colon D \\to \\mathbb{R}$, $i = 1,2,\\ldots$ there exists a\nconstant $B>0$ such that\n$$(\\forall i) \\qquad \\| f_i \\|_{L^2 (D)} = \\int_D f_i^2 \\, d^n x < B$$\nand\n$$(\\forall i) \\, (\\forall j \\in \\{1, \\ldots n \\}) \\qquad \\int_D \\left( {\\partial f_i \\over \\partial x_j} \\right)^2 \\, d^n x < B$$\nthen there exists a subsequence which is convergent in the $L^2 (D)$\nnorm.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RellichSelectionTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Rellich selection theorem"
+  ]
+}

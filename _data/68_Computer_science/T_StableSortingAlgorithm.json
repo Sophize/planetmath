@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "stable algorithm"
+  ],
+  "definition": "A *stable sorting algorithm* is any sorting algorithm that preserves the\nrelative ordering of items with equal values. For instance, consider a\nlist of ordered pairs $$\\begin{aligned}\nL := \\left\\{ (A, 3), (B, 5), (C, 2), (D, 5), (E, 4) \\right\\}.\\end{aligned}$$\nIf a stable sorting algorithm sorts $L$ on the second value in each pair\nusing the $\\leq$ relation, then the result is *guaranteed* to be\n$\\left\\{ (C, 2), (A, 3), (E, 4), (B, 5), (D, 5) \\right\\}$. However, if\nan algorithm is not stable, then it is possible that $(D, 5)$ may come\nbefore $(B, 5)$ in the sorted output.\n\nSome examples of stable sorting algorithms are bubblesort and mergesort\n(although the stability of mergesort is dependent upon how it is\nimplemented). Some examples of unstable sorting algorithms are heapsort\nand quicksort (quicksort could be made stable, but then it wouldn\u2019t be\nquick any more). Stability is a useful property when the total ordering\nrelation is dependent upon initial position. Using a stable sorting\nalgorithm means that sorting by ascending position for equal keys is\nbuilt-in, and need not be implemented explicitly in the comparison\noperator.",
+  "language": "INFORMAL",
+  "phrase": "Stable Sorting Algorithm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StableSortingAlgorithm"
+    }
+  ],
+  "indexable": true
+}

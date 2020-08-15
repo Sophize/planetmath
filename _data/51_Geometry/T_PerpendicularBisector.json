@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "center normal"
+  ],
+  "definition": "Let $\\overline{AB}$ be a line segment in a plane (we are assuming the\nEuclidean plane). A *bisector* of $\\overline{AB}$ is any line that\npasses through the midpoint of $\\overline{AB}$. A *perpendicular\nbisector* of $\\overline{AB}$ is a bisector that is perpendicular to\n$\\overline{AB}$.\n\nIt is an easy exercise to show that a line $\\ell$ is a perpendicular\nbisector of $\\overline{AB}$ iff every point lying on $\\ell$ is\nequidistant from $A$ and $B$. From this, one concludes that *the*\nperpendicular bisector of a line segment is always unique.\n\nA basic way to construct the perpendicular bisector $\\ell$ given a line\nsegment $\\overline{AB}$ using the standard ruler and compass\nconstruction is as follows:\n\n1.  use a compass to draw the circle $C_1$ centered at point $A$ with\n    radius the length of $\\overline{AB}$, by fixing one end of the\n    compass at $A$ and the movable end at $B$,\n\n2.  similarly, draw the circle $C_2$ centered at $B$ with the same\n    radius as above, with the compass fixed at $B$ and movable at $A$,\n\n3.  $C_1$ and $C_2$ intersect at two points, say $P,Q$ (why?)\n\n4.  with a ruler, draw the line $\\overleftrightarrow{PQ}=\\ell$,\n\n5.  then $\\ell$ is the perpendicular bisector of $\\overline{AB}$.\n\n![The construction of a perpendicular bisector](construct.1.eps)\n\n(Note: we assume that there is always an ample supply of compasses and\nrulers of varying sizes, so that given any positive real number $r$, we\ncan find a compass that opens wider than $r$ and a ruler that is longer\nthan $r$).\n\nOne of the most common use of perpendicular bisectors is to find the\ncenter of a circle constructed from three points in a Euclidean plane:\n\n> Given three non collinear points $X,Y,Z$ in a Euclidean plane, let $C$\n> be the unique circle determined by $X,Y,Z$. Then the center of $C$ is\n> located at the intersection of the perpendicular bisectors of\n> $\\overline{XY}$ and $\\overline{YZ}$.",
+  "language": "INFORMAL",
+  "phrase": "Perpendicular Bisector",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PerpendicularBisector"
+    }
+  ],
+  "indexable": true
+}

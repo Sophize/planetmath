@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A graph $\\Gamma$ is called *intrinsically knotted* if every embedding of\n$\\Gamma$ in $\\mathbb{R}^3$ contains a nontrivial knot.\\\n\\\n*Example:* $K_7$, the complete graph on 7 vertices, was proven to be\nintrinsically knotted by Conway and Gordon.\\\n\\\nThe property of being *not* intrinsically knotted is *inherited by\nminors*. That is, if a graph $\\Gamma$ is not intrinsically knotted and\nthe graph $\\Gamma'$ can be obtained from $\\Gamma$ by deleting or\ncontracting edges, then $\\Gamma'$ is also not intrinsically knotted.\\\nAccording to the Robertson-Seymour Theorem (also known as Wagner\u2019s\nConjecture), this means that the obstruction set for this property must\nbe finite. Thus there are only a finite number of intrinsically knotted\ngraphs which are minor minimal, that is, for which any graph obtained by\nedge deletion or contraction is not intrinsically knotted. As of the\ncreation of this article (06/01/2008), this set is still not known.",
+  "language": "INFORMAL",
+  "phrase": "Intrinsically Knotted",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntrinsicallyKnotted"
+    }
+  ],
+  "indexable": true
+}

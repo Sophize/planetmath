@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $p$ be a prime congruent to 1 mod 4.\n\nWe prove the uniqueness first: Suppose $$\\begin{aligned}\na^2+b^2=p=c^2+d^2,\\end{aligned}$$ where without loss of generality, we\ncan assume $a$ and $c$ even, $b$ and $d$ odd, $c>a$, and thus that\n$b>d$. Let $c=2x+a$ and $d=b-2y$, and compute\n\n$$\\begin{aligned}\np=c^2+d^2=p+4ax+4x^2-4by+4y^2,\\end{aligned}$$\n\nwhence $x(a+x)=y(b-y)$. If $(x,y)=d$, cancel the factor of $d$ to get a\nnew equation $X(a+x)=Y(b-y)$ with $(X,Y)=1$, so we can write\n$$\\begin{aligned}\nmY=a+x=a+dX\\end{aligned}$$ and $$\\begin{aligned}\nmX=b-y=b-dY\\end{aligned}$$ for some positive integer $m$. Then\n$$\\begin{aligned}\np=a^2+b^2=(mY-dX)^2+(mX+dY)^2=(m^2+d^2)(X^2+Y^2),\\end{aligned}$$ which\ncontradicts the primality of $p$ since we have both $m^2+d^2\\geq 2$ and\n$X^2+Y^2\\geq 2$. We now proceed to existence.\n\nBy Euler\u2019s criterion (or by Gauss\u2019s lemma), the congruence\n$$x^2 \\equiv -1 \\pmod{p}$$ has a solution. By Dirichlet\u2019s approximation\ntheorem, there exist integers $a$ and $b$ such that\n$$\\left|a\\frac{x}{p}-b\\right|\\le\\frac{1}{[\\sqrt{p}]+1}<\\frac{1}{\\sqrt{p}}$$\n$$1\\le a\\le [\\sqrt{p}]<\\sqrt{p}$$ (2) tells us $$|ax-bp|<\\sqrt{p}\\;.$$\nWrite $u=|ax-bp|$. We get $$u^2+a^2\\equiv a^2x^2+a^2\\equiv 0\\pmod{p}$$\nand $$0<u^2+a^2<2p\\;,$$ whence $u^2+a^2=p$, as desired.\n\nTo prove Thue\u2019s lemma in another way, we will imitate a part of the\nproof of Lagrange\u2019s four-square theorem. From (1), we know that the\nequation $$x^2 + y^2 = mp$$ has a solution $(x,y,m)$ with, we may\nassume, $1\\le m<p$. It is enough to show that if $m>1$, then there\nexists $(u,v,n)$ such that $1\\le n<m$ and $$u^2 + v^2 = np\\;.$$ If $m$\nis even, then $x$ and $y$ are both even or both odd; therefore, in the\nidentity\n$$\\left(\\frac{x+y}{2}\\right)^2+\\left(\\frac{x-y}{2}\\right)^2=\\frac{x^2+y^2}{2}$$\nboth summands are integers, and we can just take $n=m/2$ and conclude.\n\nIf $m$ is odd, write $a\\equiv x\\pmod{m}$ and $b\\equiv y\\pmod{m}$ with\n$|a|<m/2$ and $|b|<m/2$. We get $$a^2+b^2=nm$$ for some $n<m$. But\nconsider the identity $$(a^2+b^2)(x^2+y^2)=(ax+by)^2+(ay-bx)^2\\;.$$ On\nthe left is $nm^2p$, and on the right we see $$\\begin{aligned}\nax+by\\equiv x^2+y^2 & \\equiv & 0\\pmod{m} \\\\\nay-bx\\equiv xy-yx & \\equiv & 0\\pmod{m}\\;.\\end{aligned}$$ Thus we can\ndivide the equation $$nm^2p=(ax+by)^2+(ay-bx)^2$$ through by $m^2$,\ngetting an expression for $np$ as a sum of two squares. The proof is\ncomplete.\n\n**Remark:** The solutions of the congruence (1) are explicitly\n$$x\\equiv\\pm\\left(\\frac{p-1}{2}\\right)!\\pmod{p}\\;.$$",
+  "conclusion": "#P_ThuesLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfThuesLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Thue's Lemma"
+  ]
+}

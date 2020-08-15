@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For a continuous-time stochastic process adapted to a given\n$(\\mathcal{F}_t)_{t\\in\\mathbb{R}_+}$ on a measurable space\n$(\\Omega,\\mathcal{F})$, there are various conditions which can be placed\neither on its sample paths or on its measurability when considered as a\nfunction from $\\mathbb{R}_+\\times\\Omega$ to $\\mathbb{R}$. The following\ntheorem lists the dependencies between these properties.\n\nLet $(X_t)_{t\\in\\mathbb{R}_+}$ be a real valued stochastic process.\nThen, $X$ is optional if it is adapted and right-continuous, it is\npredictable if it is adapted and left-continuous. Furthermore, each of\nthe following properties implies the next.\n\n1.  $X$ is predictable.\n\n2.  $X$ is optional.\n\n3.  $X$ is progressive.\n\n4.  $X$ is adapted and jointly measurable.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeasurabilityOfStochasticProcesses"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "measurability of stochastic processes"
+  ]
+}

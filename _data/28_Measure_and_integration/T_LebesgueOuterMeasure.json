@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "outer measure"
+  ],
+  "definition": "Let $S$ be a subset of $\\mathbb{R}$, let $L(I)$ be the traditional\ndefinition of the length of an interval $I \\subseteq \\mathbb{R}$: If\n$I = (a, b)$, then $L(I) = b - a$. Finally, let $M$ be the set\nconsisting of the values\n\n$$\\sum_{A\\in C}L(A)$$\n\nfor all possible countable collections of open intervals $C$ that covers\n$S$ (that is, $S \\subseteq \\cup C$). Then the *Lebesgue outer measure of\n$S$* is defined by:\n\n$$m^{*}(S) = \\inf(M)$$\n\nNote that $(\\mathbb{R},\\mathcal{P}(\\mathbb{R}),m^{*})$ is an . In\nparticular:\n\n-   Lebesgue outer measure is defined for any subset of $\\mathbb{R}$\n    (and $\\mathcal{P}(\\mathbb{R})$ is a $\\sigma$-algebra).\n\n-   $m^{*}(A) \\geq 0$ for any $A \\subseteq \\mathbb{R}$, and\n    $m^{*}(\\emptyset) = 0$.\n\n-   If $A$ and $B$ are disjoint sets, then\n    $m^{*}(A \\cup B) \\leq m^{*}(A) + m^{*}(B)$. More generally, if\n    $\\langle A_i \\rangle$ is a countable sequence of disjoint sets, then\n    $m^{*}\\left( \\bigcup A_i \\right) \\leq \\sum m^{*}(A_i)$. This\n    property is known as *countable subadditivity* and is weaker than\n    countable additivity. In fact, $m^{*}$ is *not* countably additive.\n\nLebesgue outer measure has other nice properties:\n\n-   The outer measure of an interval is its length:\n    $m^{*}((a,b)) = b-a$.\n\n-   $m^{*}$ is translation-invariant. That is, if we define $A + y$ to\n    be the set $\\{ x + y : x \\in A \\}$, we have\n    $m^{*}(A) = m^{*}(A + y)$ for any $y \\in \\mathbb{R}$.\n\nThe outer measure satisfies all the axioms of a measure except\n(countable) additivity. However, it is countably additive when one\nrestricts to at least the Borel sets, as this is the usual construction\nof Borel measure. This result is roughly contained in the Caratheodory\nExtension theorem.",
+  "language": "INFORMAL",
+  "phrase": "Lebesgue Outer Measure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LebesgueOuterMeasure"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *Hasse-Minkowski theorem* is a classical example of the Hasse\nprinciple.\n\nLet $F$ be a global field, i.e. a number field or a rational function\nfield over a finite field of characteristic not $2$, $X$ a finite\ndimensional vector space over $F$ and $\\phi$ a regular quadratic form\nover $X$.\n\nA regular quadratic form $\\phi$ over $X$ is a quadratic form such that\nfor every $x\\neq 0$ in $X$ there is a $y$ in $X$ with $b(x,y)\\neq0$.\nHere $b(x,y)=\\frac{1}{2} (q(x+y)-q(x)-q(y))$ is the associated bilinear\nform.\n\nTo every completion $F_v$ of $F$ with respect to a nontrivial valuation\n$v$ we assign the vector space $X_v := F_v \\otimes_F X$ and the induced\nquadratic form $\\phi_v$ on $X_v$.\n\nA quadratic form $\\phi$ over $X$ is an isotropic quadratic form if there\nis a nonzero vector $x\\in X$ with $\\phi(x)=0$.\n\nThe Hasse-Minkowski theorem can now be stated as:\n\nA regular quadratic form $\\phi$ over a global field $F$ is isotropic if\nand only if every completion $\\phi_v$ is isotropic, where $v$ runs\nthrough the nontrivial valuations of $F$.\n\nThe case of $\\mathbb{Q}$ was first proved by Minkowski. It can be proved\nusing the Hilbert symbol and Dirichlet\u2019s theorem on primes in arithmetic\nprogressions.\n\nThe general case was proved by Hasse. It can be proved using two\nlocal-global principles of class field theory, namely the *Hasse norm\ntheorem*: For a cyclic field extension $E/F$ of global fields an element\n$a\\in F$ is a norm of $E/F$ and only if it is a norm of $E_v/F_v$ for\nevery valuation $v$ of $E$.\n\nand the *Global square theorem*: An element $a$ of a global field $F$ is\na square if and only if it is a square in every $F_v$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HasseMinkowskiTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Hasse-Minkowski theorem"
+  ]
+}

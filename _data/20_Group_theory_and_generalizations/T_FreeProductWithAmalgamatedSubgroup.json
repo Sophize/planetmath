@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "amalgam",
+    "sum with amalgamated subgroup",
+    "amalgamated free product"
+  ],
+  "definition": "Let $G_k$, $k=0,1,2$ be groups and $i_k\\co G_0\\to G_i$, $k=1,2$ be\nmonomorphisms. The free product of $G_1$ and $G_2$ with amalgamated\nsubgroup $G_0$, is defined to be a group $G$ that has the following two\nproperties\n\n1.  there are homomorphisms $j_k\\co G_k\\to G$, $k=1,2$ that make the\n    following diagram commute $$\\xymatrix{\n    &{G_1}\\ar[dr]^{j_1}&\\\\\n    {G_0}\\ar[ur]^{i_1}\\ar[dr]_{i_2} & & {G}\\\\\n    &{G_2}\\ar[ur]_{j_2}& \n    }$$\n\n2.  $G$ is universal with respect to the previous property, that is for\n    any other group $G'$ and homomorphisms $j_k'\\co G_k\\to G'$, $k=1,2$\n    that fit in such a commutative diagram there is a unique\n    homomorphism $G\\to G'$ so that the following diagram commutes\n    $$\\xymatrix{\n    &{G_1}\\ar[dr]^{j_1}\\ar@/^1pc/[drr]^{j_1'}& &\\\\\n    {G_0}\\ar[ur]^{i_1}\\ar[dr]_{i_2} & & {G}\\ar[r]^{!}&{G'}\\\\\n    &{G_2}\\ar[ur]_{j_2}\\ar@/_1pc/[urr]_{j_2'}& &\n    }$$\n\nIt follows by \u201cgeneral nonsense\u201d that the free product of $G_1$ and\n$G_2$ with amalgamated subgroup $G_0$, if it exists, is \u201cunique up to\nunique isomorphism.\u201d The free product of $G_1$ and $G_2$ with\namalgamated subgroup $G_0$, is denoted by $G_1\\bigstar_{G_0} G_2$. The\nfollowing theorem asserts its existence.\n\n$G_1\\bigstar_{G_0} G_2$ exists for any groups $G_k$, $k=0,1,2$ and\nmonomorphisms $i_k\\co G_0\\to G_i$, $k=1,2$.\n\nWithout loss of generality assume that $G_0$ is a subgroup of $G_k$ and\nthat $i_k$ is the inclusion for $k=1,2$. Let\n$$G_k=\\langle (x_{k;s})_{s\\in S}\\, |\\, (r_{k;t})_{t\\in T} \\rangle$$ be a\npresentation of $G_k$ for $k=1,2$. Each $g\\in G_0$ can be expressed as a\nword in the generators of $G_k$; denote that word by $w_k(g)$ and let\n$N$ be the normal closure of $\\{w_1(g)w_2(g)^{-1}\\,|\\,g\\in G_0\\}$ in the\n$G_1\\bigstar G_2$. Define $$G_1\\bigstar_{G_0} G_2:=G_1\\bigstar G_2/N\\,$$\nand for $k=0,1$ define $j_k$ to be the inclusion into the free product\nfollowed by the canonical projection. Clearly (1) is satisfied, while\n(2) follows from the universal properties of the free product and the\nquotient group.\n\nNotice that in the above proof it would be sufficient to divide by the\nrelations $w_1(g)w_2(g)^{-1}$ for $g$ in a generating set of $G_0$. This\nis useful in practice when one is interested in obtaining a presentation\nof $G_1\\bigstar_{G_0} G_2$.\n\nIn case that the $i_k$\u2019s are not injective the above still goes through\nverbatim. The group thusly obtained is called a \u201cpushout\u201d.\n\nExamples of free products with amalgamated subgroups are provided by Van\nKampen\u2019s theorem.",
+  "language": "INFORMAL",
+  "phrase": "Free Product With Amalgamated Subgroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FreeProductWithAmalgamatedSubgroup"
+    }
+  ],
+  "indexable": true
+}

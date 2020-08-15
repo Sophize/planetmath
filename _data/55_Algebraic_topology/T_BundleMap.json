@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $E_1 \\overset{\\pi_1}\\to B_1$ and $E_2 \\overset{\\pi_2}\\to B_2$ be\nfiber bundles for which there is a continuous map $f:B_1 \\to B_2$ of\nbase spaces. A *bundle map* (or *bundle morphism*) is a commutative\nsquare $$\\xymatrix{\nE_1 \\ar[r]^{\\hat{f}} \\ar[d]_{\\pi_1} & E_2 \\ar[d]^{\\pi_2} \\\\\nB_1 \\ar[r]^{f} & B_2\n}$$ such that the induced map $E_1 \\to f^{-1}E_2$ is a homeomorphism\n(here $f^{-1}E_2$ denotes the pullback of $f$ along the bundle\nprojection $\\pi_2$).",
+  "language": "INFORMAL",
+  "phrase": "Bundle Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BundleMap"
+    }
+  ],
+  "indexable": true
+}

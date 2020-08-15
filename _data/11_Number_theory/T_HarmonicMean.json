@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $a_1,\\,a_2,\\,\\ldots,\\,a_n$ are positive numbers, we define their\n*harmonic mean* as the inverse number of the arithmetic mean of their\ninverse numbers:\n$$H.M. \\;=\\; \\frac{n}{\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}}$$\n\n-   It follows easily the estimation\n    $$H.M. \\;<\\; na_i \\quad (i \\;=\\; 1,\\,2,\\,\\ldots,\\,n).$$\n\n-   If you travel from city $A$ to city $B$ at $x$ miles per hour, and\n    then you travel back at $y$ miles per hour. What was the average\n    velocity for the whole trip?\\\n    The harmonic mean of $x$ and $y$. That is, the average velocity is\n    $$\\frac{2}{\\frac{1}{x}+\\frac{1}{y}} \\;=\\; \\frac{2xy}{x\\!+\\!y}.$$\n\n-   If one draws through the intersecting point of the diagonals of a\n    trapezoid a line parallel to the parallel sides of the trapezoid,\n    then the segment of the line inside the trapezoid is equal to the\n    harmonic mean of the parallel sides.\n\n-   In the harmonic series $$1+\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{4}+...$$\n    every following it.",
+  "language": "INFORMAL",
+  "phrase": "Harmonic Mean",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HarmonicMean"
+    }
+  ],
+  "indexable": true
+}

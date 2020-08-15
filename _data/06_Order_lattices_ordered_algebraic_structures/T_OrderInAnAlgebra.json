@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be an algebra (not necessarily commutative), finitely generated\nover $\\mathbb{Q}$. An [*order*]{} $R$ of $A$ is a subring of $A$ which\nis finitely generated as a $\\mathbb{Z}$-module and which satisfies\n$R \\otimes \\mathbb{Q}= A$.\n\n[**Examples:**]{}\n\n1.  The ring of integers in a number field is an order, known as the\n    [*maximal order*]{}.\n\n2.  Let $K$ be a quadratic imaginary field and $\\mathcal{O}_K$ its ring\n    of integers. For each integer $n\\geq 1$ the ring\n    $\\mathcal{O}={\\mathbb{Z}}+n\\mathcal{O}_K$ is an order of $K$ (in\n    fact it can be proved that every order of $K$ is of this form). The\n    number $n$ is called the [**]{} of the order $\\mathcal{O}$.\n\n[*Reference*]{}: Joseph H. Silverman, [*The arithmetic of elliptic\ncurves*]{}, Springer-Verlag, New York, 1986.",
+  "language": "INFORMAL",
+  "phrase": "Order In An Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderInAnAlgebra"
+    }
+  ],
+  "indexable": true
+}

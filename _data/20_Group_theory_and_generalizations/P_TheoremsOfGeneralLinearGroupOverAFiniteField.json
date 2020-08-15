@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $\\mathbb{F}_q$ is a finite field with $q$ elements, then the general\nlinear group $\\operatorname{GL}(n, \\mathbb{F}_q)$ over the field\n$\\mathbb{F}_q$\n\n1.  is a finite group of order\n    $\\lvert \\operatorname{GL}(n, \\mathbb{F}_q) \\rvert = \\prod_{i=0}^{n-1}(q^n-q^i)$,\n    and\n\n2.  $[\\operatorname{GL}(n,\\mathbb{F}_q),\\operatorname{GL}(n,\\mathbb{F}_q)] = \\operatorname{SL}(n,\\mathbb{F}_q)$\n    where $[,]$ is the commutator bracket with the exception of\n    $\\operatorname{SL}(2,\\mathbb{F}_2)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheoremsOfGeneralLinearGroupOverAFiniteField"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "theorems of general linear group over a finite field",
+    "$GL(n",
+    "\\mathbb{F}_q)$"
+  ]
+}

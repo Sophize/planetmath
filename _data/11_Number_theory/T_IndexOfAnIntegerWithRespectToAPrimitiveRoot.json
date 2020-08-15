@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $m>1$ be an integer such that the integer $g$ is a primitive root\nfor $m$. Suppose $a$ is another integer relatively prime to $g$. The\nindex of $a$ (to base $g$) is the smallest positive integer $n$ such\nthat $g^n\\equiv a \\mod m$, and it is denoted by $\\operatorname{ind} a$\nor $\\operatorname{ind}_g a$.\n\nIf $m$ has a primitive root the index with respect to a primitive root\nis a very useful tool to solve polynomial congruences modulo $m$.",
+  "language": "INFORMAL",
+  "phrase": "Index Of An Integer With Respect To A Primitive Root",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IndexOfAnIntegerWithRespectToAPrimitiveRoot"
+    }
+  ],
+  "indexable": true
+}

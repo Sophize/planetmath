@@ -1,0 +1,17 @@
+{
+  "argumentText": "We define $a_n:=np$ and $b_n:=nq$. Since $p$ and $q$ are irrational, so\nare $a_n$ and $b_n$.\n\nIt is also the case that $a_n\\neq b_m$ for all $m$ and $n$, for if\n$np=mq$ then $q=1+\\frac{n}{m}$ would be rational.\n\nThe theorem is equivalent with the statement that for each integer\n$N\\geq 1$ exactly $1$ element of $\\{a_n\\}\\cup\\{b_n\\}$ lies in $(N,N+1)$.\n\nChoose $N$ integer. Let $s(N)$ be the number of elements of\n$\\{a_n\\}\\cup\\{b_n\\}$ less than $N$.\n\n$$a_n<N\\Leftrightarrow np<N\\Leftrightarrow n<\\frac{N}{p}$$\n\nSo there are $\\lfloor{\\frac{N}{p}}\\rfloor$ elements of $\\{a_n\\}$ less\nthan $N$ and likewise $\\lfloor{\\frac{N}{q}}\\rfloor$ elements of\n$\\{b_n\\}$.\n\nBy definition,\n\n$$\\begin{array}{ccccc}\n\\frac{N}{p}-1&<& \\lfloor {\\frac{N}{p}}\\rfloor&<&\\frac{N}{p}\\\\\n\\frac{N}{q}-1&<& \\lfloor {\\frac{N}{q}}\\rfloor&<&\\frac{N}{q}\\\\\n\\end{array}$$\n\nand summing these inequalities gives $N-2<s(N)<N$ which gives that\n$s(N)=N-1$ since $s(N)$ is integer.\n\nThe number of elements of $\\{a_n\\}\\cup\\{b_n\\}$ lying in $(N,N+1)$ is\nthen $s(N+1)-s(N)=1$.",
+  "conclusion": "#P_BeattysTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBeattysTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Beatty's theorem"
+  ]
+}

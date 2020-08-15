@@ -1,0 +1,17 @@
+{
+  "argumentText": "We need to show $$\\begin{aligned}\n\\binom{n}{k} + \\binom{n}{k-1} & = & \\binom{n+1}{k}\\end{aligned}$$ Let us\nbegin by writing the left-hand side as\n$$\\frac{n!}{k!(n-k)!} + \\frac{n!}{(k-1)!(n-(k-1))!}$$ Getting a common\ndenominator and simplifying, we have $$\\begin{aligned}\n\\frac{n!}{k!(n-k)!} + \\frac{n!}{(k-1)!(n-k+1)!} & = & \\frac{(n-k+1)n!}{(n-k+1)k!(n-k)!}+\\frac{kn!}{k(k-1)!(n-k+1)!} \\\\ \n& = & \\frac{(n-k+1)n!+kn!}{k!(n-k+1)!} \\\\\n& = & \\frac{(n+1)n!}{k!((n+1)-k)!} \\\\\n& = & \\frac{(n+1)!}{k!((n+1)-k)!} \\\\\n& = & \\binom{n+1}{k}\\end{aligned}$$",
+  "conclusion": "#P_PascalsRule",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PascalsRuleProof"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "Pascal's rule proof"
+  ]
+}

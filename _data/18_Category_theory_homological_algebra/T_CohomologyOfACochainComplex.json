@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $(\\mathcal{A},d)$ is a\n$$\\cdots \\xrightarrow{d_{n-1}} A^{n-1} \\xrightarrow{d_{n}} A^n \\xrightarrow {d_{n+1}}  \n      A^{n+1} \\xrightarrow{d_{n+2}} \\cdots$$ then the $n^{\\mathrm{th}}$\n*cohomology group* (or *cohomology module*) $H^n(\\mathcal{A},d)$ of\n$(\\mathcal{A},d)$ is the quotient module\n$$H^n(\\mathcal{A},d)=\\frac{\\ker d_{n+1}}{\\operatorname{im}d_n}.$$\n\nThe cochain complex is an if and only if all of the cohomology groups\nare trivial. The cohomology groups can therefore be thought of as\nmeasuring the extent to which the cochain complex fails to be exact.\n\nCohomology groups of other objects are defined as the cohomology groups\nof an associated cochain complex. (For example, see the entry on the .)\n\n\\[Compare this entry with the entry on homology of a chain complex.\\]",
+  "language": "INFORMAL",
+  "phrase": "Cohomology Of A Cochain Complex",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CohomologyOfACochainComplex"
+    }
+  ],
+  "indexable": true
+}

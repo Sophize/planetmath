@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Ei"
+  ],
+  "definition": "The antiderivative of the function $$x \\mapsto \\frac{e^{-x}}{x}$$ is not\nexpressible in closed form. Thus such as\n$$\\int_x^\\infty\\!\\frac{e^{-t}}{t}\\,dt \\quad \\mbox{and} \\quad \\int_\\infty^{-x}\\!\\frac{e^{-t}}{t}\\,dt,$$\ndefine certain transcendental functions. They are called *exponential\nintegrals* and denoted usually ${\\rm E}_1$ and ${\\rm Ei}$, respectively.\nAccordingly, $${\\rm E}_1(x) \\;:=\\; \\int_x^\\infty\\!\\frac{e^{-t}}{t}\\,dt$$\n$${\\rm Ei}\\,x \\;:=\\; \\int_\\infty^{-x}\\!\\frac{e^{-t}}{t}\\,dt \\;=\\; -\\int_{-x}^\\infty\\!\\frac{e^{-t}}{t}\\,dt\n\\;:=\\; \\int_{-\\infty}^x\\!\\frac{e^{-u}}{u}\\,du.$$ Then one has the\nconnection $${\\rm E}_1(x) \\;=\\; -{\\rm Ei}\\,(-x).$$ For positive values\nof $x$ the series expansion\n$${\\rm Ei}\\,x \\;=\\; \\gamma+\\ln{x}+\\sum_{j=1}^\\infty\\frac{x^j}{j!j},$$\nwhere $\\gamma$ is the , is valid.\\\nNote: Some authors use the convention\n${\\rm Ei}\\,x \\,:=\\, \\int_x^\\infty\\!\\frac{e^{-t}}{t}\\,dt$.\\\n\nLaplace transform of $\\frac{1}{t+a}$\n------------------------------------\n\nBy the definition of Laplace transform,\n$$\\mathcal{L}\\{\\frac{1}{t\\!+\\!a}\\} \\;=\\; \\int_0^\\infty\\frac{e^{-st}}{t\\!+\\!a}\\,dt.$$\nThe $t\\!+\\!a = u$ gives\n$$\\mathcal{L}\\{\\frac{1}{t\\!+\\!a}\\} \\;=\\; \\int_a^\\infty\\frac{e^{as-su}}{u}\\,du \n\\;=\\; e^{as}\\int_a^\\infty\\frac{e^{-su}}{u}\\,du,$$ from which the\nsubstitution $su = t$ yields\n$$\\mathcal{L}\\{\\frac{1}{t\\!+\\!a}\\} \\;=\\; e^{as}\\int_{as}^\\infty\\frac{e^{-t}}{t}\\,dt,$$\ni.e. $$\\begin{aligned}\n\\mathcal{L}\\{\\frac{1}{t\\!+\\!a}\\} \\;=\\; e^{as}{\\rm E}_1(as).\\end{aligned}$$\nUsing $\\mathcal{L}\\{f'(t)\\} = sF(s)\\!-\\!f(0)$, one easily derives from\n(1) the $$\\begin{aligned}\n\\mathcal{L}\\{\\frac{1}{(t\\!+\\!a)^2}\\} \\;=\\; \\frac{1}{a}\\!-\\!se^{as}{\\rm E}_1(as).\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Exponential Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExponentialIntegral"
+    }
+  ],
+  "indexable": true
+}

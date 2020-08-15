@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Theorem. Let $\\{a_n\\}$ and $\\{b_n\\}$ be sequences of real numbers such\nthat $\\{\\sum_{i=0}^n a_i\\}$ is bounded and $\\{b_n\\}$ decreases with $0$\nas limit. Then $\\sum_{n=0}^\\infty a_nb_n$ converges.\n\nProof. Let $A_n:=\\sum_{i=0}^n a_n$ and let $M$ be an upper bound for\n$\\{|A_n|\\}$. By Abel\u2019s lemma,\n\n$$\\begin{aligned}\n\\sum_{i=m}^n a_ib_i &=& \\sum_{i=0}^n a_ib_i - \\sum_{i=0}^{m-1} a_ib_i\\\\\n                    &=& \\sum_{i=0}^{n-1} A_i(b_i-b_{i+1}) - \\sum_{i=0}^{m-2} A_i(b_i-b_{i+1}) +A_nb_n - A_{m-1}b_{m-1}\\\\\n&=&\\sum_{i=m-1}^{n-1}A_i(b_i-b_{i+1}) +A_nb_n -A_{m-1}b_{m-1}\\\\\n|\\sum_{i=m}^{n} a_ib_i|&\\leq& \\sum_{i=m-1}^{n-1}|A_i(b_i-b_{i+1})| + |A_nb_n| + |A_{m-1}b_{m-1}|\\\\ \n&\\leq& M \\sum_{i=m-1}^{n-1}(b_i-b_{i+1}) + |A_nb_n| + |A_{m-1}b_{m-1}|\\\\\\end{aligned}$$\n\nSince $\\{b_n\\}$ converges to $0$, there is an $N(\\epsilon)$ such that\nboth $\\sum_{i=m-1}^{n-1}(b_i-b_{i+1})<\\frac{\\epsilon}{3M}$ and\n$b_i<\\frac{\\epsilon}{3M}$ for $m,n>N(\\epsilon)$. Then, for\n$m,n>N(\\epsilon)$, $|\\sum_{i=m}^n a_ib_i|<\\epsilon$ and $\\sum a_nb_n$\nconverges.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirichletsConvergenceTest"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Dirichlet's convergence test"
+  ]
+}

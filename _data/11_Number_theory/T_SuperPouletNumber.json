@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*super-Poulet number*]{} $n$ is a Poulet number which besides\nsatisfying the congruence $2^n \\equiv 2 \\mod n$, each of its divisors\n$d_i$ (for $1 < i \\leq \\tau(n)$) also satisfies the congruence\n$2^{d_i} \\equiv 2 \\mod d_i$.\n\nTwo examples: 341 is a super-Poulet number, with its divisors being 1,\n11, 31 and 341 itself. We verify that\n$2^{11} = 2048 = 11 \\times 186 + 2$ and\n$2^{31} = 2147483648 = 31 \\times 69273666 + 2$. 341 itself has already\nbeen checked when confirmed as a Poulet number. Now, 561 is a Poulet\nnumber but not a super-Poulet number since one of its divisors, 33, does\nnot satisfy the congruence:\n$\\frac{2^{33} - 2}{33} \\approx 260301048.18181818 \\ldots$.\n\nThe first few super-Poulet numbers are 341, 1387, 2047, 2701, 3277,\n4033, 4369, 4681, 5461, 7957, 8321, which are listed in A050217 of\nSloane\u2019s OEIS.",
+  "language": "INFORMAL",
+  "phrase": "Super-Poulet Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SuperPouletNumber"
+    }
+  ],
+  "indexable": true
+}

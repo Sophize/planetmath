@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "discrete topological space"
+  ],
+  "definition": "The *discrete topology* on a set $X$ is the topology given by the power\nset of $X$. That is, every subset of $X$ is open in the discrete\ntopology. A space equipped with the discrete topology is called a\n*discrete space*.\n\nThe discrete topology is the topology one can give to a set. Any set\nwith the discrete topology is metrizable by defining $d(x,y)=1$ for any\n$x,y\\in X$ with $x\\neq y$, and $d(x,x)=0$ for any $x\\in X$.\n\nThe following conditions are equivalent:\n\n1.  $X$ is a discrete space.\n\n2.  Every singleton in $X$ is an open set.\n\n3.  Every subset of $X$ containing $x$ is a neighborhood of $x$.\n\nNote that any bijection between discrete spaces is trivially a\nhomeomorphism.\n\n### Discrete Subspaces {#discrete-subspaces .unnumbered}\n\nIf $Y$ is a subset of $X$, and the subspace topology on $Y$ is discrete,\nthen $Y$ is called a *discrete subspace* or *discrete subset* of $X$.\n\nSuppose $X$ is a topological space and $Y$ is a subset of $X$. Then $Y$\nis a discrete subspace if and only if, for any $y\\in Y$, there is an\nopen $S\\subset X$ such that $$S\\cap Y=\\{y\\}.$$\n\n### Examples {#examples .unnumbered}\n\n1.  $\\mathbb{Z}$, as a metric space with the standard distance metric\n    $d(m,n)=|m-n|$, has the discrete topology.\n\n2.  $\\mathbb{Z}$, as a subspace of $\\mathbb{R}$ or $\\mathbb{C}$ with the\n    usual topology, is discrete. But $\\mathbb{Z}$, as a subspace of\n    $\\mathbb{R}$ or $\\mathbb{C}$ with the trivial topology, is not\n    discrete.\n\n3.  $\\mathbb{Q}$, as a subspace of $\\mathbb{R}$ with the usual topology,\n    is not discrete: any open set containing $q\\in \\mathbb{Q}$ contains\n    the intersection $U=B(q,\\epsilon)\\cap \\mathbb{Q}$ of an open ball\n    around $q$ with the rationals. By the Archimedean property, there\u2019s\n    a rational number between $q$ and $q+\\epsilon$ in $U$. So $U$ can\u2019t\n    contain just $q$: singletons can\u2019t be open.\n\n4.  The set of unit fractions $F=\\{1/n \\mid n\\in \\mathbb{N}\\}$, as a\n    subspace of $\\mathbb{R}$ with the usual topology, is discrete. But\n    $F\\cup\\{0\\}$ is not, since any open set containing $0$ contains some\n    unit fraction.\n\n5.  The product of two discrete spaces is discrete under the product\n    topology. The product of an infinite number of discrete spaces is\n    discrete under the box topology, but if an infinite number of the\n    spaces have more than one element, it is not discrete under the\n    product topology.",
+  "language": "INFORMAL",
+  "phrase": "Discrete Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DiscreteSpace"
+    }
+  ],
+  "indexable": true
+}

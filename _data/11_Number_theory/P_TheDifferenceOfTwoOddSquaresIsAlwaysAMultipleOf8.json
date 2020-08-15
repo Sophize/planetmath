@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem.**]{} Given any odd real integers $m$ and $n$, the difference\nof their squares is always a multiple of 8. That is, $8 |  (m^2 - n^2)$.\n\nFor example, given $m = 9$ and $n$ varied from $-1$ to 13 in steps of 2,\ncalculating $m^2 - n^2$, we get the sequence 80, 80, 72, 56, 32, 0,\n$-40$, $-88$.\n\nProving this theorem was one of the problems in the 1851 math exam Lewis\nCarroll took. The difficulty of this problem is one of perception: so\noften a simple-sounding theorem in number theory turns out to have a\nrather complicated proof. But for this simple theorem, the proof turns\nout to be quite simple, almost bordering on triviality.\n\nSince it was stipulated that $m$ and $n$ are both odd, we can rewrite\nthem as $m = 2a + 1$ and $n = 2b + 1$. The square of $m$ is then\n$m^2 = (2a + 1)(2a + 1) = 4a^2 + 2a + 2a + 1$, which simplifies to\n$4a^2 + 4a + 1$. Likewise, $n^2 = 4b^2 + 4b + 1$. Their difference is\nthen $(4a^2 + 4a + 1) - (4b^2 + 4b + 1) = (4a^2 + 4a) - (4b^2 + 4b)$.\nThis can\u2019t be reduced to fewer terms. However, either side can be\nrewritten so as to not explicitly use squaring: $4a^2 + 4a = 4a(a + 1)$.\nThis reveals that either the left-hand or right-hand side of our\nsubtraction is a number that is four times a pronic number, that is, a\nnumber of the form $a(a + 1)$. All pronic numbers are even, but at this\npoint we can\u2019t distinguish between singly even numbers and doubly even\nnumbers. But, as it turns out, each pronic number is twice a triangular\nnumber, which is an integer. So $4a(a + 1)$ is eight times some\ntriangular number $T_c$, and $4b^2 + 4b = 8T_d$. We rewrite our\nsubtraction yet again: $m^2 - n^2 = 8T_c - 8T_d$. By redistributing, we\nget $m^2 - n^2 = 8(T_c - T_d)$, proving the theorem.\n\nThe exam paper which Lewis Carroll turned in has not survived, so we\ndon\u2019t know in what way he solved this particular problem or any of the\nother problems on that test. But we do know that he passed the test with\nflying colors.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheDifferenceOfTwoOddSquaresIsAlwaysAMultipleOf8"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the difference of two odd squares is always a multiple of 8"
+  ]
+}

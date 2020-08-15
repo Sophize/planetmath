@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $h$ be a function (usually real or complex valued) on $\\R^n$\n($n\\ge1$). Its *spherical mean* at point $x$ over a sphere of radius $r$\nis defined as\n$$M_h(x,r) = \\frac{1}{A(n-1)} \\int_{\\|\\xi\\|=1} h(x+r\\xi)\\, dS\n    = \\frac{1}{A(n-1,r)} \\int_{\\|\\xi\\|=|r|} h(x+\\xi)\\, dS,$$ where the\nintegral is over the surface of the unit $n-1$-sphere. Here $A(n-1)$ is\nis the area of the unit sphere, while $A(n-1,r)=r^{n-1}A(n-1)$ is the .\nIn essense, the spherical mean $M_h(x,r)$ is just the average of $h$\nover the surface of a sphere of radius $r$ centered at $x$, as the name\nsuggests.\n\nThe spherical mean is defined for both positive and negative $r$ and is\nindependent of its sign. As $r\\to 0$, if $h$ is continuous, $M_h(x,r)\\to\nh(x)$. If $h$ has two continuous derivatives (is in $C^2(\\R^n)$) then\nthe following identity holds:\n$$\\nabla^2_x M_h(x,r) = \\left(\\frac{\\del^2}{\\del r^2} + \\frac{n-1}{r}\n    \\frac{\\del}{\\del r}\\right) M_h(x,r),$$ where $\\nabla^2$ is the\nLaplacian.\n\nSpherical means are used to obtain an explicit general solution for the\nwave equation in $n$ space and one time dimensions.",
+  "language": "INFORMAL",
+  "phrase": "Spherical Mean",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SphericalMean"
+    }
+  ],
+  "indexable": true
+}

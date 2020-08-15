@@ -1,0 +1,17 @@
+{
+  "argumentText": "We want to show that the multiplication operation in a finite division\nring is abelian.\n\nWe denote the centralizer in $D$ of an element $x$ as $C_D(x)$.\n\nLemma. The centralizer is a subring.\n\n$0$ and $1$ are obviously elements of $C_D(x)$ and if $y$ and $z$ are,\nthen $x(-y) = -(xy) = -(yx) = (-y)x$, $x(y+z)=xy+xz=yx+zx=(y+z)x$ and\n$x(yz)=(xy)z=(yx)z=y(xz)=y(zx)=(yz)x$, so $-y,y+z$, and $yz$ are also\nelements of $C_D(x)$. Moreover, for $y\\neq 0$, $xy=yx$ implies\n$y^{-1}x=xy^{-1}$, so $y^{-1}$ is also an element of $C_D(x)$.\n\nNow we consider the center of $D$ which we\u2019ll call $Z(D)$. This is also\na subring and is in fact the intersection of all centralizers.\n\n$$Z(D)=\\bigcap_{x\\in D}C_D(x)$$\n\n$Z(D)$ is an abelian subring of $D$ and is thus a field. We can consider\n$D$ and every $C_D(x)$ as vector spaces over $Z(D)$ of dimension $n$ and\n$n_x$ respectively. Since $D$ can be viewed as a module over $C_D(x)$ we\nfind that $n_x$ divides $n$. If we put $q:=|Z(D)|$, we see that\n$q\\geq 2$ since $\\{0,1\\}\\subset Z(D)$, and that $|C_D(x)|=q^{n_x}$ and\n$|D|=q^n$.\n\nIt suffices to show that $n=1$ to prove that multiplication is abelian,\nsince then $|Z(D)|=|D|$ and so $Z(D)=D$.\n\nWe now consider $D^*:=D-\\{0\\}$ and apply the conjugacy class formula.\n\n$$|D^*| = |Z(D^*)| + \\sum_{x} [D^*:C_{D^*}(x)]$$\n\nwhich gives\n\n$$q^n-1 = q-1 + \\sum_{x} \\frac{q^n-1}{q^{n_x}-1}$$.\n\nBy Zsigmondy\u2019s theorem, there exists a prime $p$ that divides $q^n-1$\nbut doesn\u2019t divide any of the $q^m-1$ for $0<m<n$, except in 2\nexceptional cases which will be dealt with separately. Such a prime $p$\nwill divide $q^n-1$ and each of the $\\frac{q^n-1}{q^{n_x}-1}$. So it\nwill also divide $q-1$ which can only happen if $n=1$.\n\nWe now deal with the 2 exceptional cases. In the first case $n$ equals\n$2$, which would $D$ is a vector space of dimension 2 over $Z(D)$, with\nelements of the form $a+b\\alpha$ where $a,b\\in\nZ(D)$. Such elements clearly commute so $D=Z(D)$ which contradicts our\nassumption that $n=2$. In the second case, $n=6$ and $q=2$. The class\nequation reduces to $64-1=2-1+\\sum_{x} \\frac{2^6-1}{2^{n_x}-1}$ where\n$n_x$ divides 6. This gives $62=63x+21y+9z$ with $x,y$ and $z$ integers,\nwhich is impossible since the right hand side is divisible by 3 and the\nleft hand side isn\u2019t.",
+  "conclusion": "#P_WedderburnsTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfWedderburnsTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Wedderburn's theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Assume that $k$ is a field, $A$ is a $k$-algebra and $M$ is a $A$-module\nover $k$. In particular $M$ is a $A$-module and a vector space over $k$,\nthus we may speak about $M$ being finitely generated as $A$-module and\nfinite dimensional as a vector space. These two concepts are related as\nfollows:\n\n**Proposition.** Assume that $A$ and $M$ are both unital and additionaly\n$A$ is finite dimensional. Then $M$ is finite dimensional vector space\nif and only if $M$ is finitely generated $A$-module.\n\n*Proof.* ,,$\\Rightarrow$\u201d Of course if $M$ is finite dimensional, then\nthere exists basis $$\\{x_1,\\ldots,x_n\\}\\subset M.$$ Thus every element\nof $M$ can be (uniquely) expressed in the form\n$$\\sum_{i=1}^{n}\\lambda_i\\cdot x_i$$ which is equal to\n$$\\sum_{i=1}^{n}(\\lambda_i\\cdot 1)\\cdot x_i$$ since $M$ and $A$ are\nunital. This completes this implication, because $\\lambda_i\\cdot 1\\in A$\nfor all $i$.\n\n,,$\\Leftarrow$\u201d Assume that $M$ is finitely generated $A$-module. In\nparticular there is a subset $$\\{x_1,\\ldots,x_n\\}\\subset M$$ such that\nevery element of $M$ is of the form $$\\sum_{i=1}^{n}a_i\\cdot x_i$$ with\nall $a_i\\in A$. Let $m\\in M$ be with the decomposition as above. Now $A$\nis finite dimensional, so there is a subset\n$$\\{y_1,\\ldots,y_t\\}\\subset A$$ which is a $k$-basis of $A$. In\nparticular for each $i$ we have\n$$a_i=\\sum_{j=1}^{t}\\lambda_{ij}\\cdot y_j$$ with $\\lambda_{ij}\\in k$.\nThus we obtain\n$$m=\\sum_{i=1}^{n}a_i\\cdot x_i = \\sum_{i=1}^{n}\\big(\\sum_{j=1}^{t}\\lambda_{ij}\\cdot y_j\\big)\\cdot x_i=$$\n$$=\\sum_{i=1}^{n}\\sum_{j=1}^{t}\\lambda_{ij}\\cdot(y_j\\cdot x_i)$$ which\nshows, that all $y_j\\cdot x_i\\in M$ together make a set of generators of\n$M$ over $k$ (note that $y_j$ and $x_i$ are independent on $m$). Since\nit is finite, then $M$ is finite dimensional and the proof is complete.\n$\\square$",
+  "language": "INFORMAL",
+  "phrase": "Finite Dimensional Modules Over Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FiniteDimensionalModulesOverAlgebra"
+    }
+  ],
+  "indexable": true
+}

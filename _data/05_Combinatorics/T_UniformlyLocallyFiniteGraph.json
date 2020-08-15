@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A is a $ (V,E) $ such that there exists an $ M \\in \\mathbb{N} $ such\nthat for every $ x \\in V $ we have that the degree of $ x $, also\ndenoted $ \\rho(x) $, is at most $ M $. In other words there exists an\n$ M \\in \\mathbb{N} $ such that for every\n$ x \\in V \\, , \\, \\rho(x) \\le M $.\n\nNote that the examples provided in are also examples of a uniformly\nlocally finite graph since both graphs are and have finite at each\nvertex.",
+  "language": "INFORMAL",
+  "phrase": "Uniformly Locally Finite Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformlyLocallyFiniteGraph"
+    }
+  ],
+  "indexable": true
+}

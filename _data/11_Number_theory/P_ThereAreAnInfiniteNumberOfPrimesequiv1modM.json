@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "This article proves a special case of Dirichlet\u2019s theorem, namely that\nfor any integer $m>1$, there are an infinite number of primes\n$p\\equiv 1\\pmod m$.\n\nLet $p$ be an odd prime not dividing $m$, let $\\Phi_k(x)$ be the\n$k^{\\mathrm{th}}$ cyclotomic polynomial, and note that\n$$x^m-1=\\Phi_m(x)\\cdot\\prod_{\\substack{d\\mid m\\\\d<m}} \\Phi_d(x)$$ If\n$a\\in{\\mathbb{Z}}$ with $p\\mid\\Phi_m(a)$, then clearly $p\\mid a^m-1$ and\nthus $\\gcd(a,p)=1$. In fact, the of $a\\mod p$ is precisely $m$, for if\nit were not, say $a^d\\equiv 1\\pmod p$ for $d<m$, then $a$ would be a\nroot $\\mod p$ of $\\Phi_d(x)$ and thus $x^m-1$ would have multiple roots\n$\\mod p$, which is a contradiction. But then, by Fermat\u2019s little\ntheorem, we have $a^{p-1}\\equiv 1\\pmod p$, so since $m$ is the least\ninteger with this property, we have $m\\mid p-1$ so that\n$p\\equiv 1\\pmod m$.\n\nWe have thus shown that if $p\\nmid m$ and $p\\mid \\Phi_m(a)$, then\n$p\\equiv 1\\pmod m$. The result then follows from the following claim: if\n$f(x)\\in {\\mathbb{Z}}[x]$ is any polynomial of degree at least one, then\nthe factorizations of $$f(1),f(2),f(3),\\ldots$$ contain infinitely many\nprimes. The proof is to Euclid\u2019s proof of the infinitude of primes.\nAssume not, and let $p_1,\\ldots,p_k$ be all of the primes. Since $f$ is\nnonconstant, choose $n$ with $f(n)=a\\neq 0$. Then\n$f(n+ap_1\\cdot p_2\\cdots p_kx)$ is clearly divisible by $a$, so\n$g(x)=a^{-1}f(n+ap_1\\cdot p_2\\cdots p_kx)\\in{\\mathbb{Z}}[x]$, and\n$g(m)\\equiv 1\\pmod {p_1\\cdots p_k}$ for each $m\\in{\\mathbb{Z}}$. $g$ is\nnonconstant, so choose $m$ such that $g(m)\\neq 1$. Then $g(m)$ is\nclearly divisible by some prime other that the $p_i$ and thus\n$f(n+ap_1\\cdot p_2\\cdots p_kx)$ is as well. Contradiction.\n\nThus the set $\\Phi_m(1),\\Phi_m(2),\\ldots$ contains an infinite number of\nprimes in their factorizations, only a finite number of which can divide\n$m$. The remainder must be primes $p\\equiv 1\\pmod m$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThereAreAnInfiniteNumberOfPrimesequiv1modM"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "there are an infinite number of primes $\\equiv 1\\mod m$"
+  ]
+}

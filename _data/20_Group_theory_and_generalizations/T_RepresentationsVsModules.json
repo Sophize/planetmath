@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a group and $k$ a field. Recall that a pair $(V, \\cdot)$ is a\nrepresentation of $G$ over $k$, if $V$ is a vector space over $k$ and\n$\\cdot:G\\times V\\to V$ is a linear group action (compare with parent\nobject). On the other hand we have a group algebra $kG$, which is a\nvector space over $k$ with $G$ as a basis and the multiplication is\ninduced from the multiplication in $G$. Thus we can consider modules\nover $kG$. These two concepts are related.\n\nIf $\\mathbb{V}=(V,\\cdot)$ is a representation of $G$ over $k$, then\ndefine a $kG$-module $\\overline{\\mathbb{V}}$ by putting\n$\\overline{\\mathbb{V}}=V$ as a vector space over $k$ and the action of\n$kG$ on $\\overline{\\mathbb{V}}$ is given by\n$$(\\sum \\lambda_ig_i)\\circ v = \\sum \\lambda_i(g_i\\cdot v).$$ It can be\neasily checked that $\\overline{\\mathbb{V}}$ is indeed a $kG$-module.\n\nAnalogously if $M$ is a $kG$-module (with action denoted by ,,$\\circ$\u201d),\nthen the pair $\\underline{M}=(M,\\cdot)$ is a representation of $G$ over\n$k$, where ,,$\\cdot$\u201d is given by $$g\\cdot v =g\\circ v.$$\n\nAs a simple exercise we leave the following proposition to the reader:\n\n**Proposition.** Let $\\mathbb{V}$ be a representation of $G$ over $k$\nand let $M$ be a $kG$-module. Then\n$$\\underline{\\overline{\\mathbb{V}}}=\\mathbb{V};$$\n$$\\overline{\\underline{M}}=M.$$\n\nThis means that modules and representations are the same concept. One\ncan generalize this even further by showing that $\\overline{\\cdot}$ and\n$\\underline{\\cdot}$ are both functors, which are (mutualy invert)\nisomorphisms of appropriate categories.\n\nTherefore we can easily define such concepts as ,,direct sum of\nrepresentations\u201d or ,,tensor product of representations\u201d, etc.",
+  "language": "INFORMAL",
+  "phrase": "Representations Vs Modules",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RepresentationsVsModules"
+    }
+  ],
+  "indexable": true
+}

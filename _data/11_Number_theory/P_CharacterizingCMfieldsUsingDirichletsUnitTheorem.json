@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $K$ is a number field, ${\\mathcal{O}}_K$ is the ring of algebraic\nintegers in $K$, and ${{\\mathcal{O}}_K^{\\star}}$ is the (multiplicative)\ngroup of units in ${\\mathcal{O}}_K$. Dirichlet\u2019s unit theorem gives the\nstructure of the unit group. We can use that theorem to characterize\nCM-fields:\n\nLet ${\\mathbb{Q}}\\subset F\\subset K$ be nontrivial extensions of number\nfields. Then $K$ is a CM-field, with $F$ its totally real subfield, if\nand only if ${{\\mathcal{O}}_K^{\\star}}/{{\\mathcal{O}}_F^{\\star}}$ is\nfinite.\n\nWe use the notation of the article on Dirichlet\u2019s unit theorem, where\n$r$ (and $r_F, r_K$) is used to count real embeddings and $s$ (as well\nas $s_F, s_K$) to count complex embeddings, and we write $\\mu(F)$ or\n$\\mu(K)$ for the group of roots of unity in ${{\\mathcal{O}}_F^{\\star}}$\nor ${{\\mathcal{O}}_K^{\\star}}$.\n\n**Proof.** Write $n=[F:{\\mathbb{Q}}],\\ m=[K:F]>1$.\n\n($\\Rightarrow$): If $K/F$ is CM, then since $F$ is totally real,\n$r_F = n,\\  s_F = 0$. Hence by Dirichlet\u2019s unit theorem,\n${{\\mathcal{O}}_F^{\\star}}\\cong \\mu(F)\\times {\\mathbb{Z}}^{n-1}$. Since\n$K/F$ is a complex quadratic extension, $[K:{\\mathbb{Q}}]=2n$ and all\nits embeddings are complex. Thus $r_K=0,\\  2s_K = 2n$. Hence\n${{\\mathcal{O}}_K^{\\star}}\\cong \\mu(K) \\times {\\mathbb{Z}}^{n-1}$ as\nwell. Clearly\n${{\\mathcal{O}}_F^{\\star}}\\subset {{\\mathcal{O}}_K^{\\star}}$, and since\nthey have the same , their quotient is torsion and thus finite.\n\n($\\Leftarrow$): Since\n${{\\mathcal{O}}_K^{\\star}}/{{\\mathcal{O}}_F^{\\star}}$ is finite, the\nranks of these groups are equal and thus $r_F+s_F=r_K+s_K$ again by\nDirichlet\u2019s unit theorem.\n\nNow, $$\\begin{aligned}\nr_K+2s_K&=mn=m(r_F+2s_F)\\\\\nr_K+s_K&\\phantom{=mn\\ }=r_F+s_F\\ ;\\end{aligned}$$ subtracting (2) from\n(1), we get $$s_K = (m-1)(r_F+2s_F)+s_F \\geq (m-1)n$$ and thus\n$mn = r_K+2s_K \\geq r_K+2(m-1)n$ so that $0\\leq r_K\\leq n(2-m)$. Thus\n$m\\leq 2$, and since $K$ is a nontrivial extension, we must have $m=2$\nso that $K/F$ is quadratic and $r_K=0$ (since $n(2-m)=0$).\n\nFinally, by (3), we then have $s_K = r_F+3s_F$; (2) says that\n$s_K = r_F+s_F$, and thus $s_F=0$. It follows that $F$ is totally real\nand, since $r_K=0$, $K$ must be an imaginary quadratic extension of $F$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacterizingCMfieldsUsingDirichletsUnitTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "characterizing CM-fields using Dirichlet's unit theorem"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Within this entry, $S$ denotes the set of all squarefree integers not\nequal to $1$.\n\nLet $m,n \\in S$ with $m \\neq n$. Then $\\mathbb{Q}(\\sqrt{m})$ and\n$\\mathbb{Q}(\\sqrt{n})$ are not .\n\nSuppose that $\\mathbb{Q}(\\sqrt{m})$ and $\\mathbb{Q}(\\sqrt{n})$ are\nisomorphic. Let\n$\\varphi \\colon \\mathbb{Q}(\\sqrt{m}) \\to \\mathbb{Q}(\\sqrt{n})$ be a\nfield isomorphism. Recall that field homomorphisms fix prime subfields.\nThus, for every $x \\in \\mathbb{Q}$, $\\varphi(x)=x$.\n\nLet $a,b \\in \\mathbb{Q}$ with $\\varphi(\\sqrt{m})=a+b\\sqrt{n}$. Since\n$\\varphi(a)=a$ and $\\varphi$ is injective, $b \\neq 0$. Also,\n$m=\\varphi(m)=\\varphi((\\sqrt{m})^2)=(\\varphi(\\sqrt{m}))^2=(a+b\\sqrt{n})^2=a^2+2ab\\sqrt{n}+b^2n$.\nIf $a \\neq 0$, then\n$\\displaystyle \\sqrt{n}=\\frac{m-a^2-b^2n}{2ab} \\in \\mathbb{Q}$, a\ncontradiction. Thus, $a=0$. Therefore, $m=b^2n$. Since $m$ is\nsquarefree, $b^2=1$. Hence, $m=n$, a contradiction. It follows that $K$\nand $L$ are not isomorphic.\n\nThis yields an obvious corollary:\n\nThere are infinitely many distinct quadratic fields.\n\nNote that there are infinitely many elements of $S$. Moreover, if $m$\nand $n$ are distinct elements of $S$, then $\\mathbb{Q}(\\sqrt{m})$ and\n$\\mathbb{Q}(\\sqrt{n})$ are not isomorphic and thus cannot be equal.\n\nNote that the above corollary could have also been obtained by using the\nresult regarding . On the other hand, using this result to prove the\nabove corollary can be likened to \u201cusing a sledgehammer to kill a\nhousefly\u201d.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuadraticFieldsThatAreNotIsomorphic"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "quadratic fields that are not isomorphic"
+  ]
+}

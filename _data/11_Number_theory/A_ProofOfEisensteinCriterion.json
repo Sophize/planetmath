@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $f(x) \\in R[x]$ be a polynomial satisfying Eisenstein\u2019s Criterion\nwith prime $p$.\n\nSuppose that $f(x)=g(x)h(x)$ with $g(x), h(x) \\in F[x]$, where $F$ is\nthe field of fractions of $R$. Gauss\u2019 Lemma II there exist\n$g'(x), h'(x) \\in R[x]$ such that $f(x)=g'(x)h'(x)$, i.e. any\nfactorization can be converted to a factorization in $R[x]$.\n\nLet $f(x) = \\sum_{i=0}^n a_i x^i$, $g'(x)= \\sum_{j=0}^\\ell b_j x^j$,\n$h'(x)= \\sum_{k=0}^m c_k x^k$ be the expansions of $f(x), g'(x)$, and\n$h'(x)$ respectively.\n\nLet $\\varphi : R[x] \\rightarrow R/pR[x]$ be the natural homomorphism\nfrom $R[x]$ to $R/pR[x]$. Note that since $p \\mid a_i$ for $i<n$ and\n$p \\nmid a_n$, we have $\\varphi(a_i)=0$ for $i < n$ and\n$\\varphi(a_i)=\\alpha \\neq 0$\n$$\\varphi(f(x)) = \\varphi \\left(\\sum_{i=0}^n a_i x^i \\right)\n     = \\sum_{i=0}^n \\varphi(a_i) x^i = \\varphi(a_n) x^n = \\alpha x^n$$\n\nTherefore we have\n$\\alpha x^n = \\varphi(f(x))=\\varphi(g'(x)h'(x))=\\varphi(g'(x))\\varphi(h'(x))$\nso we must have $\\varphi(g'(x))=\\beta x^{\\ell'}$ and\n$\\varphi(h'(x)=\\gamma x^{m'}$ for some $\\beta, \\gamma \\in R/pR$ and some\nintegers $\\ell', m'$.\n\nClearly $\\ell' \\leq \\deg(g'(x))=\\ell$ and $m' \\leq \\deg(h'(x))=m$, and\ntherefore since $\\ell' m' = n = \\ell m$, we must have $\\ell'=\\ell$ and\n$m'=m$. Thus $\\varphi(g'(x))=\\beta x^\\ell$ and\n$\\varphi(h'(x))=\\gamma x^m$.\n\nIf $\\ell>0$, then $\\varphi(b_i)=0$ for $i<\\ell$. In particular,\n$\\varphi(b_0)=0$, hence $p \\mid b_0$. Similarly if $m>0$, then\n$p \\mid c_0$.\n\nSince $f(x)=g'(x)h'(x)$, by equating coefficients we see that\n$a_0 = b_0 c_0$.\n\nIf $\\ell>0$ and $m>0$, then $p \\mid b_0$ and $p \\mid c_0$, which implies\nthat $p^2 \\mid a_0$. But this contradicts our assumptions on $f(x)$, and\ntherefore we must have $\\ell=0$ or $m=0$, that is, we must have a\ntrivial factorization. Therefore $f(x)$ is irreducible.",
+  "conclusion": "#P_EisensteinCriterion",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfEisensteinCriterion"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Eisenstein criterion"
+  ]
+}

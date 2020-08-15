@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *graph* $G$ is an ordered pair of disjoint sets $(V, E)$ such that $E$\nis a subset of the set $V^{(2)}$ of unordered pairs of $V$. $V$ and $E$\nare always assumed to be finite, unless explicitly stated otherwise. The\nset $V$ is the set of *vertices* (sometimes called nodes) and $E$ is the\nset of *edges*. If $G$ is a graph, then $V = V(G)$ is the vertex set of\n$G$, and $E = E(G)$ is the edge set. Typically, $V(G)$ is defined to be\nnonempty. If $x$ is a vertex of $G$, we sometimes write $x \\in G$\ninstead of $x \\in V(G)$.\n\nAn edge $\\{x, y\\}$ (with $x\\neq y$) is said to *join* the vertices $x$\nand $y$ and is denoted by $xy$. One says that the edges $xy$ and $yx$\nare *equivalent*; the vertices $x$ and $y$ are the *endvertices* of this\nedge. If $xy \\in E(G)$, then $x$ and $y$ are *adjacent*, or\n*neighboring*, vertices of $G$, and the vertices $x$ and $y$ are\n*incident* with the edge $xy$. Two edges are *adjacent* if they have at\nleast one common endvertex. Also, $x \\sim y$ means that the vertex $x$\nis adjacent to the vertex $y$.\n\nNotice that this definition allows pairs of the form $\\{x,x\\}$, which\nwould correspond to a node joining to itself. Some authors explicitly\ndisallow this in their definition of a graph.\n\n![image](grapha.eps) ![image](graphb.eps) ![image](graphc.eps)\\\nSome graphs.\n\nNote: Some authors include multigraphs in their definition of a graph.\nIn this notation, the above definition corresponds to that of a *simple\ngraph*. A graph is then *simple* if there is at most one edge joining\neach pair of nodes.",
+  "language": "INFORMAL",
+  "phrase": "Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Graph"
+    }
+  ],
+  "indexable": true
+}

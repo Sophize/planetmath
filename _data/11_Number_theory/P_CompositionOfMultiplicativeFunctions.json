@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $f$ is a completely multiplicative function and $g$ is a\nmultiplicative function, then $f \\circ g$ is a multiplicative function.\n\nFirst note that $(f \\circ g)(1)=f(g(1))=f(1)=1$ since both $f$ and $g$\nare multiplicative.\n\nLet $a$ and $b$ be relatively prime positive integers. Then\n\n  ------------------- ----------------------------------------------------------\n  $(f \\circ g)(ab)$   $=f(g(ab))$\n                      $=f(g(a)\\cdot g(b))$ since $g$ is multiplicative\n                      $=f(g(a))f(g(b))$ since $f$ is completely multiplicative\n                      $=(f \\circ g)(a)(f \\circ g)(b)$.\n  ------------------- ----------------------------------------------------------\n\nNote that the assumption that $f$ is *completely* multiplicative (as\nopposed to merely multiplicative) is essential in proving that\n$f \\circ g$ is multiplicative. For instance, $\\tau \\circ \\tau$, where\n$\\tau$ denotes the divisor function, is not multiplicative:\n\n$$(\\tau \\circ \\tau)(2 \\cdot 3)=(\\tau \\circ \\tau)(6)=\\tau(\\tau(6))=\\tau(4)=3$$\n\n$$(\\tau \\circ \\tau)(2) \\cdot (\\tau \\circ \\tau)(3)=\\tau(\\tau(2)) \\cdot \\tau(\\tau(3))=\\tau(2) \\cdot \\tau(2)=2\\cdot 2=4$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompositionOfMultiplicativeFunctions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "composition of multiplicative functions"
+  ]
+}

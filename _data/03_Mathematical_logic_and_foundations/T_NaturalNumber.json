@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "$\\mathbb{N}$"
+  ],
+  "definition": "Given the Zermelo-Fraenkel axioms of set theory, one can prove that\nthere exists an inductive set $X$ such that $\\emptyset \\in X$. The\n[*natural numbers*]{} $\\mathbb{N}$ are then defined to be the\nintersection of all subsets of $X$ which are inductive sets and contain\nthe empty set as an element.\n\nThe first few natural numbers are:\n\n-   $0 := \\emptyset$\n\n-   $1 := 0' = \\{0\\} = \\{ \\emptyset \\}$\n\n-   $2 := 1' = \\{0,1\\} = \\{\\emptyset, \\{ \\emptyset \\} \\}$\n\n-   $3 := 2' = \\{0,1,2\\} = \\{\\emptyset, \\{ \\emptyset \\}, \\{ \\emptyset, \\{ \\emptyset \\} \\} \\}$\n\nNote that the set $0$ has zero elements, the set $1$ has one element,\nthe set $2$ has two elements, etc. Informally, the set $n$ is the set\nconsisting of the $n$ elements $0, 1, \\dots, n-1$, and $n$ is both a\nsubset of $\\mathbb{N}$ and an element of $\\mathbb{N}$.\n\nIn some contexts (most notably, in number theory), it is more convenient\nto exclude $0$ from the set of natural numbers, so that\n$\\mathbb{N} = \\{1,2,3,\\dots\\}$. When it is not explicitly specified, one\nmust determine from context whether $0$ is being considered a natural\nnumber or not.\n\nAddition of natural numbers is defined inductively as follows:\n\n-   $a + 0 := a$ for all $a \\in \\mathbb{N}$\n\n-   $a + b' := (a+b)'$ for all $a,b \\in \\mathbb{N}$\n\nMultiplication of natural numbers is defined inductively as follows:\n\n-   $a \\cdot 0 := 0$ for all $a \\in \\mathbb{N}$\n\n-   $a \\cdot b' := (a\\cdot b) + a$ for all $a,b \\in \\mathbb{N}$\n\nThe natural numbers form a monoid under either addition or\nmultiplication. There is an ordering relation on the natural numbers,\ndefined by: $a \\leq b$ if $a \\subseteq b$.",
+  "language": "INFORMAL",
+  "phrase": "Natural Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NaturalNumber"
+    }
+  ],
+  "indexable": true
+}

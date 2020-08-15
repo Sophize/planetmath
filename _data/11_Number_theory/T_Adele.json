@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ be a number field. For each finite prime $v$ of $K$, let\n${\\mathfrak{o}}_v$ denote the valuation ring of the completion $K_v$ of\n$K$ at $v$. The [*ad\u00e8le group*]{} ${\\mathbb{A}}_K$ of $K$ is defined to\nbe the restricted direct product of the collection of locally compact\nadditive groups $\\{K_v\\}$ over all primes $v$ of $K$ (both finite primes\nand infinite primes), with respect to the collection of compact open\nsubgroups $\\{{\\mathfrak{o}}_v\\}$ defined for all finite primes $v$.\n\nThe set ${\\mathbb{A}}_K$ inherits addition and multiplication operations\n(defined pointwise) which make it into a topological ring. The original\nfield $K$ embeds as a ring into ${\\mathbb{A}}_K$ via the map\n$$x \\mapsto \\prod_v x_v.$$ defined for $x \\in K$, where $x_v$ denotes\nthe image of $x$ in $K_v$ under the embedding $K \\hookrightarrow K_v$.\nNote that $x_v \\in {\\mathfrak{o}}_v$ for all but finitely many $v$, so\nthat the element $x$ is sent under the above definition into the\nrestricted direct product as claimed.\n\nIt turns out that the image of $K$ in ${\\mathbb{A}}_K$ is a discrete set\nand the quotient group ${\\mathbb{A}}_K/K$ is a compact space in the\nquotient topology.",
+  "language": "INFORMAL",
+  "phrase": "Ad\\`{E}Le",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Adele"
+    }
+  ],
+  "indexable": true
+}

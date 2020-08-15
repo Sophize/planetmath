@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "Bernoulli distribution",
+    "binomial random variable",
+    "binomial probability function",
+    "Bernoulli random variable"
+  ],
+  "definition": "Consider an experiment with two possible outcomes (success and failure),\nwhich happen randomly. Let $p$ be the probability of success. If the\nexperiment is repeated $n$ times, the probability of having exactly $x$\nsuccesses is $$f(x)=\\left({n\\atop x}\\right)p^x(1-p)^{(n-x)}.$$\n\nThe distribution function determined by the probability function $f(x)$\nis called a *Bernoulli distribution* or *binomial distribution*.\n\nHere are some plots for $f(x)$ with $n=20$ and $p=0.3$, $p=0.5$.\n\n![image](binom10p3)\n\n![image](binom10p5)\n\nThe corresponding distribution function is\n$$F(x)=\\sum_{k\\leq x}\\left({n\\atop k}\\right)p^k q^{n-k}$$ where $q=1-p$.\nNotice that if we calculate $F(n)$ we get the binomial expansion for\n$(p+q)^n$, and this is the reason for the distribution being called\nbinomial.\n\nWe will use the moment generating function to calculate the mean and\nvariance for the distribution. The mentioned function is\n$$G(t)=\\sum_{x=0}^n e^{tx}\\left({n\\atop x}\\right)p^x q^{n-x}$$ which\nsimplifies to $$G(t)=(pe^t+q)^n.$$ Differentiating gives us\n$$G'(t)=n(pe^t+q)^{n-1}pe^t$$ and therefore the mean is\n$$\\mu = E[X]=G'(0)=np.$$\n\nNow for the variance we need the second derivative\n$$G''(t)=n(n-1)(pe^t+q)^{n-2} + n(pe^t+q)^{n-1}pe^t$$ so we get\n$$E[X^2]=G''(0)=n(n-1)p^2 + np$$ and finally the variance (recall\n$q=1-p$): $$\\sigma^2 = E[X^2] - E[X]^2 = npq.$$\n\nFor large values of $n$, the binomial coefficients are hard to compute,\nhowever in this cases we can use either the Poisson distribution or the\nnormal distribution to approximate the probabilities.",
+  "language": "INFORMAL",
+  "phrase": "Binomial Distribution",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BinomialDistribution"
+    }
+  ],
+  "indexable": true
+}

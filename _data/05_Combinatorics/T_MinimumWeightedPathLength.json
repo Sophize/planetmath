@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a list of weights, $W := \\left\\{ w_1, w_2, \\dots, w_n \\right\\}$,\nthe *minimum weighted path length* is the minimum of the weighted path\nlength of all extended binary trees that have $n$ external nodes with\nweights taken from $W$. There may be multiple possible trees that give\nthis minimum path length, and quite often finding this tree is more\nimportant than determining the path length.\n\n### Example {#example .unnumbered}\n\nLet $W := \\left\\{ 1, 2, 3, 3, 4 \\right\\}$. The minimum weighted path\nlength is $29$. A tree that gives this weighted path length is shown\nbelow.\n\n![image](tree.10)\n\n### Applications {#applications .unnumbered}\n\nConstructing a tree of minimum weighted path length for a given set of\nweights has several applications, particularly dealing with optimization\nproblems. A simple and elegant algorithm for constructing such a tree is\nHuffman\u2019s algorithm. Such a tree can give the most optimal algorithm for\nmerging $n$ sorted sequences (optimal merge). It can also provide a\nmeans of compressing data (Huffman coding), as well as lead to optimal\nsearches.",
+  "language": "INFORMAL",
+  "phrase": "Minimum Weighted Path Length",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinimumWeightedPathLength"
+    }
+  ],
+  "indexable": true
+}

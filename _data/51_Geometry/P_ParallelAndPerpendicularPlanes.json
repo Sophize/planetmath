@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem 1.** If a plane ($\\pi$) intersects two parallel planes\n($\\varrho$, $\\sigma$), the intersection lines are parallel.\n\n[*Proof.*]{} The intersection lines cannot have common points, because\n$\\varrho$ and $\\sigma$ have no such ones. Since the lines are in a same\nplane $\\pi$, they are parallel.\\\n**Theorem 2.** If a plane ($\\pi$) contains the ($n$) of another plane\n($\\varrho$), the planes are to each other.\n\n[*Proof.*]{} Draw in the plane $\\varrho$ the line $l$ cutting the\nintersection line perpendicularly and cutting also $n$. Then $l$ must be\nperpendicular to $n$ and thus to the whole plane $\\pi$ (see the Theorem\nin the entry normal of plane). Consequently, the right angle formed by\nthe lines $n$ and $l$ is the normal section of the dihedral angle formed\nby the planes $\\pi$ and $\\varrho$. Therefore, $\\pi \\bot \\varrho$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ParallelAndPerpendicularPlanes"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "parallel and perpendicular planes"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A category is said to be *balanced* in case that every bimorphism is an\nisomorphism.\n\nFor example, **Set** (the cateogry of sets), **Grp** (the category of\ngroups), and **Top** (the category of topological spaces) are all\nbalanced. In these categories, morphisms that are monomorphic are\ninjective, and those that are epimorphic are surjective. Injective and\nsurjective morphisms are bijective, implying having two-sided inverses,\nand therefore isomorphisms.\n\nOn the other hand, the category **DivAbGrp**, the category of divisible\nabelian groups, is not balanced. The canonical projection\n$p:\\mathbb{Q}\\to \\mathbb{Q/Z}$ is clearly epimorphic, as well as\nmonomorphic (see ), and therefore bimorphic. However, $p$ is not an\nisomorphism.\n\nAs another example of a category that is not balanced, take the category\nof commutative rings with 1, **CommRng**. The canonical injection\n$i:\\mathbb{Z}\\to \\mathbb{Q}$ is clearly monomorphic, as well as\nepimorphic (see ), and therefore bimorphic. But $i$ is not an\nisomorphism.\n\n[9]{} C. Faith *Algebra: Rings, Modules, and Categories I*,\nSpringer-Verlag, New York (1973)",
+  "language": "INFORMAL",
+  "phrase": "Balanced Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BalancedCategory"
+    }
+  ],
+  "indexable": true
+}

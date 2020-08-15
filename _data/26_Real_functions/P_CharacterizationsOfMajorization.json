@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathcal{E}_n$ be the set of all $n\\times n$ permutation matrices\nthat exchange two components. Such matrices have the form\n$$\\begin{bmatrix}\n\\ddots& \\\\\n&0 && 1 \\\\\n&&\\ddots \\\\\n&1 && 0 \\\\\n&&&&\\ddots\n\\end{bmatrix}$$ A matrix $T$ is called a [*Pigou-Dalton transfer*]{}\n(PDT) if $$T = \\alpha I + (1-\\alpha)E$$ for some $\\alpha$ between 0 and\n1, and $E\\in \\mathcal{E}_n$.\n\nThe following are equivalent\n\n1.  $x$ is by $y$.\n\n2.  $x=Dy$ for a doubly stochastic matrix $D$.\n\n3.  $x=T_1T_2\\cdots T_k y$ for finitely many PDT $T_1,\\ldots,\n    T_k$.\n\n4.  $\\sum_{i=1}^n \\theta(x_i) \\leq \\sum_{i=1}^n \\theta(y_i)$ for all\n    convex function $\\theta$.\n\n5.  $x$ lies in the convex hull whose vertex set is\n    $$\\big\\{ (y_{\\pi(1)},y_{\\pi(2)},\\ldots, y_{\\pi(n)}):\\,\n    \\pi \\text{ is a permutation  of }\\{1,\\ldots, n\\}\\big\\}.$$\n\n6.  For any $n$ non-negative real numbers $a_1,\\ldots, a_n$,\n    $$\\sum_{\\pi} a_1^{x_{\\pi(1)}} a_2^{x_{\\pi(2)}} \\cdots\n     a_n^{x_{\\pi(n)}} \\leq\n      \\sum_{\\pi} a_1^{y_{\\pi(1)}} a_2^{y_{\\pi(2)}} \\cdots\n     a_n^{y_{\\pi(n)}}$$ where summation is taken over all permutations\n    of $\\{1,\\ldots,\n    n\\}$.\n\nThe equivalence of the above conditions are due to Hardy, Littlewood,\nP[\u00f3]{}lya, Birkhoff, von Neumann and Muirhead.\n\n[**Reference**]{}\n\n-   G. H. Hardy, J. E. Littlewood and G. P[\u00f3]{}lya, [*Inequalities*]{},\n    2nd edition, 1952, Cambridge University Press, London.\n\n-   A. W. Marshall and I. Olkin, [*Inequalities: Theory of Majorization\n    and Its Applications*]{}, 1979, Acadamic Press, New York.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacterizationsOfMajorization"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "characterizations of majorization"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In 1769, Leonhard Euler conjectured that for $1 < k < n$ there is no set\nof positive integers $a_1, \\ldots, a_k$ such that\n$$\\sum_{i = 1}^k {a_i}^n = m^n,$$ where $m$ is an integer. Lander and\nParkin in 1966 disproved the conjecture with this $k = 4, n = 5$\ncounterexample: $27^5 + 84^5 + 110^5 + 133^5 = 144^5$. More\ncounterexamples have been discovered since then.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulersConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Euler's conjecture",
+    "Euler conjecture"
+  ]
+}

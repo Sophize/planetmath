@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $p$ be a prime. Let $\\chi$ be any multiplicative group character on\n${\\mathbb{Z}}/p{\\mathbb{Z}}$ (that is, any group homomorphism of\nmultiplicative groups\n$({\\mathbb{Z}}/p{\\mathbb{Z}})^\\times \\to {\\mathbb{C}}^\\times$). For any\n$a \\in {\\mathbb{Z}}/p{\\mathbb{Z}}$, the complex number\n$$g_a(\\chi) := \\sum_{t \\in {\\mathbb{Z}}/p{\\mathbb{Z}}} \\chi(t) e^{2 \\pi i a t/p}$$\nis called a [*Gauss sum*]{} on ${\\mathbb{Z}}/p{\\mathbb{Z}}$ associated\nto $\\chi$.\n\nIn general, the equation $g_a(\\chi) = \\chi(a^{-1}) g_1(\\chi)$ (for\nnontrivial $a$ and $\\chi$) reduces the computation of general Gauss sums\nto that of $g_1(\\chi)$. The absolute value of $g_1(\\chi)$ is always\n$\\sqrt{p}$ as long as $\\chi$ is nontrivial, and if $\\chi$ is a quadratic\ncharacter (that is, $\\chi(t)$ is the Legendre symbol\n$\\left(\\frac{t}{p}\\right)$), then the value of the Gauss sum is known to\nbe $$g_1(\\chi) =\n\\begin{cases}\n\\sqrt{p}, & p \\equiv 1 \\pmod{4}, \\\\\ni \\sqrt{p}, & p \\equiv 3 \\pmod{4}.\n\\end{cases}$$\n\n[9]{} Kenneth Ireland & Michael Rosen, [*A Classical Introduction to\nModern Number Theory*]{}, Second Edition, Springer\u2013Verlag, 1990.",
+  "language": "INFORMAL",
+  "phrase": "Gauss Sum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaussSum"
+    }
+  ],
+  "indexable": true
+}

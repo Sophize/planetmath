@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathbb{F}$ be an arbitrary field. Consider\n$\\mathcal{M}_n (\\mathbb{F}),$ the vector space of all $n \\times n$\nmatrices over $\\mathbb{F}.$ Define\n\n-   $\\mathcal{N} = \\{A \\in \\mathcal{M}_n (\\mathbb{F}):\\, A\\, \\, \\mbox{is nilpotent}\\},$\n\n-   $\\mathcal{GL}_n (\\mathbb{F}) = \\{A \\in \\mathcal{M}_n (\\mathbb{F}): \\det (A) \\neq 0\\},$\n\n-   $\\mathcal{T} = \\{A \\in \\mathcal{M}_n (\\mathbb{F}):\\, A\\, \\, \\mbox{is strictly upper triangular}\\}.$\n\nNotice that $\\mathcal{T}$ is a linear subspace of\n$\\mathcal{M}_n (\\mathbb{F}).$ Moreover,\n$\\mathcal{T} \\subseteq \\mathcal{N}$ and\n$\\dim \\mathcal{T} = n (n - 1) / 2.$\n\nThe Gerstenhaber \u2013 Serezhkin theorem on linear subspaces contained in\nthe nilpotent cone [@G; @S] reads as follows.\n\nLet $\\mathcal{L}$ be a linear subspace of $\\mathcal{M}_n (\\mathbb{F}).$\nAssume that $\\mathcal{L} \\subseteq \\mathcal{N}.$ Then\\\n\n  ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------\n   (i)   $\\dim \\mathcal{L} \\leq n (n - 1) / 2,$\n   (ii)  $\\dim \\mathcal{L} = n (n - 1) / 2$ if and only if there exists $U \\in \\mathcal{GL}_n (\\mathbb{F})$ such that $\\{U A U^{-1}:\\, A \\in \\mathcal{L}\\} = \\mathcal{T}.$\n  ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nAn alternative simple proof of inequality [*(i)*]{} can be found in\n[@M].\n\n[99]{} M. Gerstenhaber, On nilalgebras and linear varieties of nilpotent\nmatrices, I, [*Amer. J. Math.*]{} [**80**]{}: 614\u2013622 (1958). B. Mathes,\nM. Omladi\u010d, H. Radjavi, Linear Spaces of Nilpotent Matrices, [*Linear\nAlgebra Appl.*]{} [**149**]{}: 215\u2013225 (1991). V. N. Serezhkin, On\nlinear transformations preserving nilpotency, [*Vests$\\bar{\\iota}$ Akad.\nNavuk BSSR Ser. F$\\bar{\\iota}$z.-Mat. Navuk*]{} [**1985**]{}, no. 6:\n46\u201350 (Russian).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GerstenhaberSerezhkinTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gerstenhaber - Serezhkin theorem"
+  ]
+}

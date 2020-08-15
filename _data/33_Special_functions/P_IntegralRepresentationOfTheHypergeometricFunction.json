@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "When $\\Re c > \\Re b > 0$, one has the representation\n$$F(a,b;c;z) = {\\Gamma (c) \\over \\Gamma (b) \\Gamma (c-b)} \\int_0^1 t^{b-1} (1-t)^{c-b-1}  (1-tz)^{-a} \\, dt$$\n\nNote that the conditions on $b$ and $c$ are necessary for the integral\nto be convergent at the endpoints $0$ and $1$. To see that this integral\nindeed equals the hypergeometric function, it suffices to consider the\ncase $|z| < 1$ since both sides of the equation are analytic functions\nof $z$. (This follows from the rigidity theorem for analytic functions\nalthough some care is required because the function is multiply-valued.)\nWith this assumption, $|tz| < 1$ if $t$ is a real number in the interval\n$[0,1]$ and hence, $(1 - tz)^{-a}$ may be expanded in a power series.\nSubstituting this series in the right hand side of the formula above\ngives\n$${\\Gamma (c) \\over \\Gamma (b) \\Gamma (c-b)} \\int_0^1 \\sum_{k=0}^\\infty t^{b-1} (1-t)^{c-b-1} {\\Gamma (k-a+1) \\over \\Gamma (1-a) \\Gamma (k+1)} (-tz)^k  \\, dt$$\nSince the series is uniformly convergent, it is permissible to integrate\nterm-by-term. Interchanging integration and summation and pulling\nconstants outside the integral sign, one obtains\n$${\\Gamma (c) \\over \\Gamma (b) \\Gamma (c-b)} \\sum_{k=0}^\\infty {\\Gamma (k-a+1) \\over \\Gamma (1-a) \\Gamma (k+1)} (-z)^k \\int_0^1 (1-t)^{c-b-1} t^{b+k-1} dt$$\nThe integrals appearing inside the sum are Euler beta functions.\nExpressing them in terms of gamma functions and simplifying, one sees\nthat this integral indeed equals the hypergeometric function.\n\nThe hypergeometic function is multiply-valued. To obtain different\nbranches of the hypergeometric function, one can vary the path of\nintegration.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralRepresentationOfTheHypergeometricFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "integral representation of the hypergeometric function"
+  ]
+}

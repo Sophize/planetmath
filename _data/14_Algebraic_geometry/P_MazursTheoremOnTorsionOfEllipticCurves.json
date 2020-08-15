@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $E/{\\mathbb{Q}}$ be an elliptic curve. Then the torsion subgroup\n$E_{\\operatorname{torsion}}({\\mathbb{Q}})$ is exactly one of the\nfollowing groups:\n$${\\mathbb{Z}}/N{\\mathbb{Z}}\\quad 1\\leq N \\leq 10\\quad or\\quad N=12$$\n$${\\mathbb{Z}}/2 {\\mathbb{Z}}\\oplus {\\mathbb{Z}}/ 2N {\\mathbb{Z}}\\quad 1\\leq N\\leq 4$$\n\nNote: see Nagell-Lutz theorem for an efficient algorithm to compute the\ntorsion subgroup of an elliptic curve defined over ${\\mathbb{Q}}$.\n\n[9]{} Joseph H. Silverman, [*The Arithmetic of Elliptic Curves*]{}.\nSpringer-Verlag, New York, 1986. Barry Mazur, [*Modular curves and the\nEisenstein ideal*]{}, IHES Publ. Math. 47 (1977), 33-186. Barry Mazur,\n[*Rational isogenies of prime degree*]{}, Invent. Math. 44 (1978),\n129-162.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MazursTheoremOnTorsionOfEllipticCurves"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Mazur's theorem on torsion of elliptic curves"
+  ]
+}

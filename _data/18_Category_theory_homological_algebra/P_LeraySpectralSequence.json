@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *Leray spectral sequence* is a special case of the Grothendieck\nspectral sequence regarding composition of functors.\n\nIf $f : X\\to Y$ is a continuous map of topological spaces, and if\n$\\mathcal{F}$ is a sheaf of abelian groups on $X$, then there is a\nspectral sequence, called the Leray spectral sequence, given by\n\n$E_2^{pq} = H^p(Y,{\\rm R}^q f_* \\mathcal{F})\\implies H^{p+q}(X,\\mathcal{F})$\n\nwhere $f_*$ is the direct image functor.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeraySpectralSequence"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Leray spectral sequence"
+  ]
+}

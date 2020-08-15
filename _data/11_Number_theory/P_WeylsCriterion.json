@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\{u_n\\}$ be a sequence of real numbers. Then $\\{u_n\\}$ is uniformly\ndistributed modulo $1$ if and only if\n$$\\lim_{N\\to\\infty} \\frac{1}{N} \\sum_{n=1}^N e(k u_n)=0$$ for every\nnonzero integer $k$, where $e(x)=\\exp(2\\pi i x)$.\n\nWeyl\u2019s criterion reduces the problem of uniform distribution of\nsequences to the problem of estimating certain exponential sums. Whereas\nthe problem of estimating a family of exponential sums might seem harder\nat first, the exponential map has the multiplicative property which\noften makes the problem easier.\n\n*Example:* If $x$ is irrational, then the sequence $\\{nx\\}$ is uniformly\ndistributed modulo $1$. Proof: $${\\left\\lvert \\sum_{n=1}^{N} e(k n\nx)\\right\\rvert}={\\left\\lvert \\frac{e(k(N+1)x)-e(kx)}{e(kx)-1}\\right\\rvert}\\leq\n\\frac{2}{{\\left\\lvert \\,e(kx)-1\\right\\rvert}}=O_k(1)$$ because the\nirrationality of $x$ implies $e(kx)\\neq 1$.\n\n[1]{}\n\n\u00d0?.\u00a0\u00d0?. \u00d0\u0161\u00d0\u00b0\u00d1\u20ac\u00d0\u00b0\u00d1\u2020\u00d1\u0192\u00d0\u00b1\u00d0\u00b0. . \u00d0?\u00d0\u00b0\u00d1\u0192\u00d0\u00ba\u00d0\u00b0, 1983. . For English translation\nsee [@cite:karatsuba_ant_eng].\n\nA.\u00a0A. Karatsuba. . Springer-Verlag, 1993. . Hugh\u00a0L. Montgomery. ,\nvolume\u00a084 of [*Regional Conference Series in Mathematics*]{}. AMS, 1994.\n.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeylsCriterion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Weyl's criterion"
+  ]
+}

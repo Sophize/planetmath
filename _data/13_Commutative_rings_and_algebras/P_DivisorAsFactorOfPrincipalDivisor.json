@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let an integral domain $\\mathcal{O}$ have a divisor theory\n$\\mathcal{O}^* \\to \\mathfrak{D}$. The implies that for any divisor\n$\\mathfrak{a}$, there exists an element $\\omega$ of $\\mathcal{O}$ such\nthat $\\mathfrak{a}$ divides the principal divisor $(\\omega)$, i.e. that\n$\\mathfrak{ac} = (\\omega)$ with $\\mathfrak{c}$ a divisor. The following\ntheorem states that $\\mathfrak{c}$ may always be chosen such that it is\ncoprime with any beforehand given divisor.\\\n**Theorem.** For any two divisors $\\mathfrak{a}$ and $\\mathfrak{b}$,\nthere is a principal divisor $(\\omega)$ such that\n$$\\mathfrak{ac} \\;=\\; (\\omega)$$ and\n$$\\gcd(\\mathfrak{b},\\,\\mathfrak{c}) \\;=\\; (1).$$\n\n[*Proof.*]{} Let $\\mathfrak{p}_1,\\,\\ldots,\\,\\mathfrak{p}_s$ all distinct\nprime divisors, which divide the product $\\mathfrak{ab}$, and let the\ndivisor $\\mathfrak{a}$ be by the powers\n$\\mathfrak{p}_1^{a_1},\\,\\ldots,\\,\\mathfrak{p}_s^{a_s}$ (the cases\n$a_i = 0$ are not excluded). For each $i = 1,\\,\\ldots,\\,s$, we choose a\nnonzero element $\\alpha_i$ of $\\mathcal{O}$ being exactly divisible by\nthe power $\\mathfrak{p}_i^{a_i}$; the choosing is possible, since any\nnonzero element of the ideal determined by the divisor\n$\\mathfrak{p}_i^{a_i}$, not belonging to the sub-ideal determined by the\ndivisor $\\mathfrak{p}_i^{a_i+1}$, will do. According to the , there\nexists a nonzero element $\\omega$ of the ring $\\mathcal{O}$ such that\n$$\\begin{aligned}\n\\omega \\;\\equiv\\; \\alpha_i \\mod{\\mathfrak{p}_i^{a_i+1}} \\quad (i \\,=\\, 1,\\,\\ldots,\\,s).\\end{aligned}$$\nBecause $\\alpha_i$ is divisible by $\\mathfrak{p}_i^{a_i}$, the element\n$\\omega$ is divisible by\n$\\mathfrak{p}_1^{a_1}\\cdots\\mathfrak{p}_s^{a_s} = \\mathfrak{a}$, i.e.\n$(\\omega) = \\mathfrak{ac}$. If one of the divisors $\\mathfrak{p}_i$\nwould divide $\\mathfrak{c}$, then $(\\omega)$ would be divisible by\n$\\mathfrak{p}_i^{a_i+1}$ and thus by (1), also $\\alpha_i$ were divisible\nby $\\mathfrak{p}_i^{a_i+1}$. Therefore, no one of the prime divisors\n$\\mathfrak{p}_1,\\,\\ldots,\\,\\mathfrak{p}_s$ divides $\\mathfrak{c}$. On\nthe other hand, every prime divisor dividing the divisor $\\mathfrak{b}$\ndivides $\\mathfrak{ab}$ and thus is one of\n$\\mathfrak{p}_1,\\,\\ldots,\\,\\mathfrak{p}_s$. Accordingly, the divisors\n$\\mathfrak{b}$ and $\\mathfrak{c}$ have no common prime divisor, i.e.\n$\\gcd(\\mathfrak{b},\\,\\mathfrak{c}) = (1)$.\n\n[9]{} . . : [ ** ]{}. \u201c\u201d. (1982).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DivisorAsFactorOfPrincipalDivisor"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "divisor as factor of principal divisor"
+  ]
+}

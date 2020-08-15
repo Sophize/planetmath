@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $V$ is a finite dimensional vector space over a field\n${\\mathbbmss{F}}$, and suppose $L\\colon V\\to V$ is a linear map. Suppose\nalso that $\\lambda\\in {\\mathbbmss{F}}$ is an eigenvalue of $L$, that is,\n$\\operatorname{det}( L - \\lambda I)=0$.\n\nThe *algebrai[c]{} multiplicit[y]{}*, denoted by $A_\\lambda(L)$, of\n$\\lambda$ is the multiplicity of the root $\\lambda$ to the polynomial\n$\\operatorname{det}( L - \\lambda I)=0$. The *geometric multiplicity* of\n$\\lambda$, denoted by $G_\\lambda(L)$, is the dimension of\n$\\ker ( L - \\lambda I)$, the eigenspace of $\\lambda$.",
+  "language": "INFORMAL",
+  "phrase": "Multiplicity Of Eigenvalue",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplicityOfEigenvalue"
+    }
+  ],
+  "indexable": true
+}

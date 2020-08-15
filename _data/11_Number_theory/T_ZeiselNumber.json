@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a squarefree integer $$n = \\prod_{i = 0}^{\\omega(n)} p_i,$$ with\n$\\omega(n) > 2$ (in which $\\omega(n)$ is number of distinct prime\nfactors function, and all the $p_i$ are prime divisors of $n$, except\n$p_0 = 1$ purely as a notational convenience, and are sorted in\nascending order) if each prime $p_i$ fits into the recurrence relation\n$p_i = mp_{i - 1} + a$, with $m$ being some fixed integer multiplicand,\nand $a$ being some fixed integer addend, then $n$ is called a [*Zeisel\nnumber*]{}.\n\nFor example, $1419 = 1 \\times 3 \\times 11 \\times 43$. Say that $m = 4$\nand $a = -1$. This checks out: $3 = m + a$, $11 = 3m + a$ and\n$43 = 11m + a$. 1419 is a Zeisel number. The first few Zeisel numbers\nare 105, 1419, 1729, 1885, 4505, 5719, ... listed in A051015 of Sloane\u2019s\nOEIS. The Carmichael numbers of the form $(6n + 1)(12n + 1)(18n + 1)$\nare a subset of the Zeisel numbers; the constants are then $m = 1$ and\n$a = 6n$.\n\nThese numbers were first studied by Kevin Brown, who was searching for\nprime solutions to $2^{n - 1} + n$. Helmut Zeisel replied that 1885 is\nsuch an $n$. Brown discovered that its prime factors fit the recurrrence\nrelation with $m = 2$ and $a = 3$. He called numbers fitting such a\nrecurrence relation \u201cZeisel numbers\u201d and the term has stuck, being taken\nup by the OEIS, MathWorld and Wikipedia. Zeisel himself has suggested\nthe term \u201cBrown-Zeisel number\u201d but this has not caught on. There is a\ndifferent concept of the Zeisel number used in chemistry.",
+  "language": "INFORMAL",
+  "phrase": "Zeisel Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZeiselNumber"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ and $B$ be subsets of abelian groups $G_A$ and $G_B$\nrespectively. A Freiman isomorphism of order $s$ is a bijective mapping\n$f\\colon A\\to B$ such that $$a_1+a_2+\\dotsb+a_s=a'_1+a'_2+\\dotsb+a'_s$$\nholds if and only if\n$$f(a_1)+f(a_2)+\\dotsb+f(a_s)=f(a'_1)+f(a'_2)+\\dotsb+f(a'_s).$$\n\nThe Freiman isomorphism is a restriction of the conventional notion of a\ngroup isomorphism to a limited number of group operations. In\nparticular, a Freiman isomorphism of order $s$ is also a Freiman\nisomorphism of order $s-1$, and the mapping is a Freiman isomorphism of\nevery order precisely when it is the conventional isomorphism.\n\nFreiman isomorphisms were introduced by Freiman in his monograph\n[@cite:freiman_setaddition] to build a general theory of that is\nindependent of the underlying group.\n\nThe number of equivalence classes of $n$-element sets of integers under\nFreiman isomorphisms of order\u00a0$2$ is\u00a0$n^{2n(1+o(1))}$\n[@cite:lev_konyagin_freimannonism].\n\n[1]{}\n\nGregory Freiman. , volume\u00a037 of [*Translations of Mathematical\nMonographs*]{}. AMS, 1973. .\n\nSergei\u00a0V. Konyagin and Vsevolod\u00a0F. Lev. Combinatorics and linear algebra\nof [F]{}reiman\u2019s isomorphism. , 47:39\u201351, 2000. Available at .\n\nMelvyn\u00a0B. Nathanson. , volume 165 of [*GTM*]{}. Springer, 1996. .",
+  "language": "INFORMAL",
+  "phrase": "Freiman Isomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FreimanIsomorphism"
+    }
+  ],
+  "indexable": true
+}

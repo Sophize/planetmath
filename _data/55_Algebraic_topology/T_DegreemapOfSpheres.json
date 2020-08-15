@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a non-negative integer $n$, let $S^n$ denote the $n$-dimensional\nsphere. Suppose $f\\colon S^n \\to S^n$ is a continuous map. Applying the\n$n^{th}$ reduced homology functor $\\widetilde{H}_n(\\_)$, we obtain a\nhomomorphism $f_*\\colon \\widetilde{H}_n(S^n) \\to \\widetilde{H}_n(S^n)$.\nSince $\\widetilde{H}_n(S^n) \\approx {\\mathbbmss{Z}}$, it follows that\n$f_*$ is a homomorphism ${\\mathbbmss{Z}}\\to {\\mathbbmss{Z}}$. Such a map\nmust be multiplication by an integer $d$. We define the *degree* of the\nmap $f$, to be this $d$.\n\nBasic Properties\n----------------\n\n1.  If $f,g\\colon S^n \\to S^n$ are continuous, then\n    $\\deg(f \\circ g) = \\deg(f)\\cdot\\deg(g)$.\n\n2.  If $f,g\\colon S^n \\to S^n$ are homotopic, then $\\deg(f) = \\deg(g)$.\n\n3.  The degree of the identity map is $+1$.\n\n4.  The degree of the constant map is $0$.\n\n5.  The degree of a reflection through an $(n+1)$-dimensional hyperplane\n    through the origin is $-1$.\n\n6.  The antipodal map, sending $x$ to $-x$, has degree $(-1)^{n+1}$.\n    This follows since the map $f_i$ sending\n    $(x_1,\\ldots,x_i,\\ldots,x_{n+1}) \\mapsto (x_1,\\ldots,-x_i,\\ldots,x_{n+1})$\n    has degree $-1$ by (4), and the compositon\n    $f_1\\circ\\cdots\\circ f_{n+1}$ yields the antipodal map.\n\nExamples\n--------\n\nIf we identify $S^1 \\subset {\\mathbbmss{C}}$, then the map\n$f : S^1 \\to S^1$ defined by $f(z) = z^k$ has degree $k$. It is also\npossible, for any positive integer $n$, and any integer $k$, to\nconstruct a map $f\\colon S^n \\to S^n$ of degree $k$.\n\nUsing degree, one can prove several theorems, including the so-called\n\u2019hairy ball theorem\u2019, which that there exists a continuous non-zero\nvector field on $S^n$ if and only if $n$ is odd.",
+  "language": "INFORMAL",
+  "phrase": "Degree (Map Of Spheres)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DegreemapOfSpheres"
+    }
+  ],
+  "indexable": true
+}

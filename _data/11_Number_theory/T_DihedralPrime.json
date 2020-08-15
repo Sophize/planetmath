@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "dihedral calculator prime"
+  ],
+  "definition": "A [*dihedral prime*]{} or [*dihedral calculator prime*]{} is a prime\nnumber that still reads like itself or another prime number when read in\na seven-segment display, regardless of orientation (normally or upside\ndown), and surface (actual display or reflection on a mirror). The first\nfew base 10 dihedral primes are 2, 11, 101, 181, 1181, 1811, 18181,\n108881, 110881, 118081, 120121, 121021, 121151, 150151, 151051, 151121,\n180181, 180811, 181081, etc. These are listed in A038136 of Sloane\u2019s\nOEIS.\n\nThe smallest dihedral prime that reads differently with each orientation\nand surface combination is 120121.\n\nThe digits 0, 1 and 8 remain the same regardless of orientation or\nsurface. 2 and 5 turn into each other when viewed upside down or\nreflected on a mirror. In the display of a scientific calculator that\ncan handle hexadecimal, 3 would become E reflected, but E being an even\ndigit, the 3 can\u2019t be used as the first digit because the reflected\nnumber will be even. Though 6 and 9 become each other upside down, they\nare not valid digits when reflected, at least not in any of the numeral\nsystems pocket calculators usually operate in. In binary, all\npalindromic primes are dihedral.\n\nStrobogrammatic primes that don\u2019t use 6 or 9 are dihedral primes.",
+  "language": "INFORMAL",
+  "phrase": "Dihedral Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DihedralPrime"
+    }
+  ],
+  "indexable": true
+}

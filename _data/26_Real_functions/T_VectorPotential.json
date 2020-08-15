@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\vec{U} = \\vec{U}(x,\\,y,\\,z)$ be a vector field in $\\mathbb{R}^3$\nwith continuous partial derivatives. Then the following three conditions\nare :\n\n-   The surface integrals of $\\vec{U}$ over all contractible $S$ vanish:\n    $$\\oint_S\\vec{U}\\cdot d\\vec{S} = 0$$\n\n-   The divergence of $\\vec{U}$ vanishes everywhere in the :\n    $$\\nabla\\!\\cdot\\!\\vec{U} = 0$$\n\n-   There exists the [*vector potential*]{}\n    $\\vec{A} = \\vec{A}(x,\\,y,\\,z)$ of $\\vec{U}$:\n    $$\\nabla\\!\\times\\!\\vec{A} = \\vec{U}$$\n\n[9]{} . Werner S\u00f6derstr\u00f6m Osakeyhti\u00f6, Helsinki (1961).",
+  "language": "INFORMAL",
+  "phrase": "Vector Potential",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VectorPotential"
+    }
+  ],
+  "indexable": true
+}

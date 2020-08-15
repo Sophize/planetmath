@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $X$ is a set and $V$ is a vector space over a field $F$. Let us\ndenote by $M(X,V)$ the set of mappings from $X$ to $V$. Now $M(X,V)$ is\nagain a vector space if we equip it with pointwise multiplication and\naddition. In detail, if $f,g\\in M(X,V)$ and $\\mu,\\lambda\\in F$, we set\n$$\\begin{aligned}\n\\mu f+\\lambda g\\colon x&\\mapsto& \\mu f(x) + \\lambda g(x).\\end{aligned}$$\n\nNext, let $Y$ be another set, let $\\Psi\\colon X\\to Y$ is a mapping, and\nlet $\\Psi^\\ast\\colon M(Y,V)\\to M(X,V)$ be the pullback of $\\Psi$ as\ndefined in entry.\n\n$\\ $\n\n1.  $\\Psi^\\ast$ is linear.\n\n2.  If $V$ is not the zero vector space, then $\\Psi$ is surjective if\n    and only if $\\Psi^\\ast$ is injective.\n\nFirst, suppose $f,g\\in M(Y,V)$, $\\mu,\\lambda \\in F$, and $x\\in X$. Then\n$$\\begin{aligned}\n\\Psi^\\ast(\\mu f+\\lambda g)(x) &=&(\\mu f+\\lambda g)(\\Psi(x)) \\\\\n   &=&\\mu f\\circ \\Psi(x)+\\lambda g\\circ\\Psi(x) \\\\\n   &=&\\left(\\mu \\Psi^\\ast(f)+\\lambda \\Psi^\\ast(g)\\right)(x),\\end{aligned}$$\nso $\\Psi^\\ast(\\mu f+\\lambda g) = \\mu \\Psi^\\ast(f)+\\lambda \\Psi^\\ast(g)$,\nand $\\Psi^\\ast$ is linear. For the second claim, suppose $\\Psi$ is\nsurjective, $f\\in M(Y,V)$, and $\\Psi^\\ast(f)=0$. If $y\\in Y$, then for\nsome $x\\in X$, we have $\\Psi(x)=y$, and\n$f(y)=f\\circ\\Psi(x)=\\Psi^\\ast(f)(x)=0$, so $f=0$. Hence, the kernel of\n$\\Psi^\\ast$ is zero, and $\\Psi^\\ast$ is an injection. On the other hand,\nsuppose $\\Psi^\\ast$ is a injection, and $\\Psi$ is not a surjection. Then\nfor some $y'\\in Y$, we have $y'\\notin \\Psi(X)$. Also, as $V$ is not the\nzero vector space, we can find a non-zero vector $v\\in V$, and define\n$f\\in M(Y,V)$ as $$f(y)= \\begin{cases} v, & \\mbox{if}\\ y=y', \\\\\n                      0, & \\mbox{if}\\ y\\neq y', y\\in Y. \\end{cases}$$\nNow $f\\circ\\Psi(x)=0$ for all $x\\in X$, so $\\Psi^\\ast f=0$, but\n$f\\neq 0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PsiIsSurjectiveIfAndOnlyIfPsiastIsInjective"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$\\Psi$ is surjective if and only if $\\Psi^\\ast$ is injective"
+  ]
+}

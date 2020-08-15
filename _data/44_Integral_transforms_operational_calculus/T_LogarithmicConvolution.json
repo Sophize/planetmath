@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "scale convolution"
+  ],
+  "definition": "#### Definition\n\nThe *scale convolution* of two functions $s(t)$ and $r(t)$, also known\nas their *logarithmic convolution* is defined as the function\n$$s \\ast_l r(t) = r \\ast_l s(t) = \\int_0^\\infty s(\\frac{t}{a})r(a) \\frac{da}{a}$$\nwhen this quantity exists.\n\n#### Results\n\nThe logarithmic convolution can be related to the ordinary convolution\nby changing the variable from $t$ to $v = \\log t$: $$\\begin{aligned}\ns \\ast_l r(t) & = & \\int_0^\\infty s(\\frac{t}{a})r(a) \\frac{da}{a} = \n                \\int_{-\\infty}^\\infty s(\\frac{t}{e^u}) r(e^u) du \\\\\n & = & \\int_{-\\infty}^\\infty s(e^{\\log t - u})r(e^u) du\\end{aligned}$$\nDefine $f(v) = s(e^v)$ and $g(v) = r(e^v)$ and let $v = \\log t$, then\n$$s \\ast_l r(v) = f \\ast g(v) = g \\ast f(v) = r \\ast_l s(v).$$",
+  "language": "INFORMAL",
+  "phrase": "Logarithmic Convolution",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LogarithmicConvolution"
+    }
+  ],
+  "indexable": true
+}

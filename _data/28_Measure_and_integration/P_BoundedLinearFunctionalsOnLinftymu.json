@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For any measure space $(X,\\mathfrak{M},\\mu)$ and $g\\in L^1(\\mu)$, the\nfollowing linear map can be defined $$\\begin{aligned}\n&\\Phi_g\\colon L^\\infty (\\mu)\\rightarrow\\mathbb{R},\\\\\n&f\\mapsto\\Phi_g(f)\\equiv\\int fg\\,d\\mu.\\end{aligned}$$ It is easily shown\nthat $\\Phi_g$ is , so is a member of the dual space of $\\L^\\infty(\\mu)$.\nHowever, unless the measure space consists of a finite set of atoms, not\nevery element of the dual of $L^\\infty(\\mu)$ can be written like this.\nInstead, it is necessary to restrict to linear maps satisfying a bounded\nconvergence property.\n\nLet $(X,\\mathfrak{M},\\mu)$ be a measure space and $V$ be the space of\nbounded linear maps $\\Phi\\colon L^\\infty(\\mu)\\rightarrow\\mathbb{R}$\nsatisfying bounded convergence. That is, if $|f_n|\\le 1$ are in\n$L^\\infty(\\mu)$ and $f_n(x)\\rightarrow 0$ for almost every $x\\in X$,\nthen $\\Phi(f_n)\\rightarrow 0$.\n\nThen $g\\mapsto\\Phi_g$ gives an isometric isomorphism from $L^1(\\mu)$ to\n$V$.\n\nFirst, the operator norm $\\Vert\\Phi_g\\Vert$ is equal to the $L^1$-norm\nof $g$ (see ), so the map $g\\mapsto\\Phi_g$ gives an isometric embedding\nfrom $L^1$ into the dual of $L^\\infty$. Furthermore, dominated\nconvergence implies that $\\Phi_g$ satisfies bounded convergence so\n$\\Phi_g\\in V$. We just need to show that $g\\mapsto\\Phi_g$ maps onto $V$.\n\nSo, suppose that $\\Phi\\in V$. It needs to be shows that $\\Phi=\\Phi_g$\nfor some $g\\in L^1$. Defining an\n$\\nu\\colon\\mathfrak{M}\\rightarrow\\mathbb{R}$ by $$\\nu(A)=\\Phi(1_A)$$ for\nevery set $A\\in\\mathfrak{M}$, the bounded convergence property for\n$\\Phi$ implies that $\\nu$ is countably additive and is therefore a\nfinite signed measure. So, the Radon-Nikodym theorem gives a $g\\in L^1$\nsuch that $\\nu(A)=\\int_A g\\,d\\mu$ for every $A\\in\\mathfrak{M}$. Then,\nthe equality $$\\Phi(fh)= \\int fg\\,d\\mu$$ is satisfied for $f=1_A$ with\nany $A\\in\\mathfrak{M}$ and the functional monotone class theorem extends\nthis to any bounded and measurable $f\\colon X\\rightarrow\\mathbb{C}$,\ngiving $\\Phi_g=\\Phi$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundedLinearFunctionalsOnLinftymu"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "bounded linear functionals on $L^\\infty(\\mu)$"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a group and let $X$ be a set. A left [*group action*]{} is a\nfunction $\\cdot: G \\times X \\longrightarrow X$ such that:\n\n1.  $1_G \\cdot x = x$ for all $x \\in X$\n\n2.  $(g_1 g_2)\\cdot x = g_1 \\cdot (g_2 \\cdot x)$ for all\n    $g_1, g_2 \\in G$ and $x \\in X$\n\nA right [*group action*]{} is a function\n$\\cdot: X \\times G \\longrightarrow X$ such that:\n\n1.  $x \\cdot 1_G = x$ for all $x \\in X$\n\n2.  $x \\cdot (g_1 g_2) = (x \\cdot g_1) \\cdot g_2$ for all\n    $g_1, g_2 \\in G$ and $x \\in X$\n\nThere is a correspondence between left actions and right actions, given\nby associating the right action $x \\cdot g$ with the left action\n$g \\cdot x := x \\cdot g^{-1}$. In many (but not all) contexts, it is\nuseful to identify right actions with their corresponding left actions,\nand speak only of left actions.\n\n[**Special types of group actions**]{}\n\nA left action is said to be [*effective*]{}, or [*faithful*]{}, if the\nfunction $x \\mapsto g \\cdot x$ is the identity function on $X$ only when\n$g = 1_G$.\n\nA left action is said to be [*transitive*]{} if, for every\n$x_1,x_2 \\in X$, there exists a group element $g \\in G$ such that\n$g \\cdot x_1 = x_2$.\n\nA left action is [*free*]{} if, for every $x \\in X$, the only element of\n$G$ that stabilizes $x$ is the identity; that is, $g \\cdot x = x$\nimplies $g = 1_G$.\n\nFaithful, transitive, and free right actions are defined similarly.",
+  "language": "INFORMAL",
+  "phrase": "Group Action",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GroupAction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A complex manifold $M$ of complex dimension $n$ is a [*Stein\nmanifold*]{} if it satisfies the following properties\n\n1.  $M$ is holomorphically convex,\n\n2.  if $z,w \\in M$ and $z \\not= w$ then $f(z) \\not= f(w)$ for some\n    function $f$ holomorphic on $M$ (i.e. $M$ is [*holomorphically\n    separable*]{}),\n\n3.  for every $z \\in M$ there are holomorphic functions $f_1,\\ldots,f_n$\n    which form a coordinate system at $z$ (i.e. $M$ is [*holomorphically\n    spreadable*]{}).\n\nStein manifold is a generalization of the concept of the domain of\nholomorphy to manifolds. Furthermore, Stein manifolds are the\ngeneralizations of Riemann surfaces in higher dimensions. Every\nnoncompact Riemann surface is a Stein manifold by a theorem of Behnke\nand Stein. Note that every domain of holomorphy in ${\\mathbb{C}}^n$ is a\nStein manifold. It is not hard to see that every closed complex\nsubmanifold of a Stein manifold is Stein.\n\nIf $M$ is a Stein manifold of dimension $n$. There exists a holomorphic\nembedding of $M$ into ${\\mathbb{C}}^{2n+1}$.\n\nNote that no compact complex manifold can be Stein since compact complex\nmanifolds have no holomorphic functions. On the other hand, every\ncompact complex manifold is holomorphically convex.\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Stein Manifold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SteinManifold"
+    }
+  ],
+  "indexable": true
+}

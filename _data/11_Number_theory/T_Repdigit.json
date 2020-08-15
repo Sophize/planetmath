@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given base $b$, a number of the form $d({{b^n - 1} \\over {b - 1}})$ for\n$n > 0$ and $0 < d < b$ is written using using the digit $d$ only, $n$\ntimes in that base and is therefore a [*repdigit*]{}. The term, short\nfor \u201crepeated digit,\u201d is credited to Beiler\u2019s book [*Recreations in the\ntheory of numbers*]{}, in chapter 11.\n\nWhen $d = 1$, the resulting repdigit is called a repunit. Only repunits\ncan also be prime (and then they are rare). No other repdigit can be\nprime since it is obvious that it is a multiple of a repunit.\n\nIn a trivial way, all repdigits are palindromic numbers.",
+  "language": "INFORMAL",
+  "phrase": "Repdigit",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Repdigit"
+    }
+  ],
+  "indexable": true
+}

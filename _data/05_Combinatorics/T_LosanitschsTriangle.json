@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Lozanic's triangle",
+    "Lozani\\'c's triangle"
+  ],
+  "definition": "A triangular arrangement of numbers very similar to Pascal\u2019s triangle.\n\nBegin as you would if you were constructing Pascal\u2019s triangle, with a 1\nin the top row, and that row $k$ numbered 0, and the 1\u2019s position $n$ as\n0.\n\n$$\\begin{aligned}\n\\begin{array}{cccccccccccccccccc}\n& & & & & & & & & 1 & & & & & & & &\\\\\n& & & & & & & & 1 & & 1 & & & & & & &\\\\\n& & & & & & & 1 & & x & & 1 & & & & & &\\\\\n& & & & &\\vdots & & & & \\vdots & & & & \\vdots& & & & \\\\\n\\end{array}\\end{aligned}$$\n\nNow, for the next value, add up the two values above, but then subtract\n\n$${{\\frac{n}{2}-1} \\choose {{k - 1} \\over 2}}$$\n\nFrom this forward, do the same for every even-numbered position in an\neven-numbered row. Instead of calculating the binomial coefficient, it\ncan be looked up in Pascal\u2019s triangle.\n\n$$\\begin{aligned}\n\\begin{array}{cccccccccccccccccc}\n& & & & & & & & & 1 & & & & & & & &\\\\\n& & & & & & & & 1 & & 1 & & & & & & &\\\\\n& & & & & & & 1 & & 1 & & 1 & & & & & &\\\\\n& & & & & & 1 & & 2 & & 2 & & 1 & & & & &\\\\\n& & & & & 1 & & 2 & & 4 & & 2 & & 1 & & & &\\\\\n& & & & 1 & & 3 & &6 & &6 & & 3 & & 1 & & &\\\\\n& & & 1 & & 3 & &9 & & 10& &9 & & 3 & & 1 & &\\\\\n& & 1 & & 4 & &12 & &19 & &19 & &12 & & 4 & & 1 &\\\\\n& & & & &\\vdots & & & & \\vdots & & & & \\vdots& & & & \\\\\n\\end{array}\\end{aligned}$$\n\nThis triangle was first studied by the Serbian chemist Sima Losanitsch,\nbut has since been found to have applications in graph theory and\ncombinatorics.\n\n[6]{} S. M. Losanitsch, [*Die Isomerie-Arten bei den Homologen der\nParaffin-Reihe*]{}, Chem. Ber. 30 (1897), 1917-1926.",
+  "language": "INFORMAL",
+  "phrase": "Losanitsch'S Triangle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LosanitschsTriangle"
+    }
+  ],
+  "indexable": true
+}

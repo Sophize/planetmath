@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "level of a field"
+  ],
+  "definition": "The *stufe* of a field $F$ is the least number $n$ such that $-1$ can be\nexpressed as a sum of $n$ squares: $$-1=a_1^2+\\cdots+a_n^2,$$ where each\n$a_i\\in F$. If no such an $n$ exists, then we say that the *stufe* of\n$F$ is $\\infty$.\n\n**Remarks**.\n\n-   The word \u201cstufe\u201d, meaning \u201clevel\u201d in German, is attributed to\n    mathematician Albrecht Pfister.\n\n-   A theorem of Pfister asserts that in a field $F$, if $-1$ can be\n    expressed as a finite sum of squares, then the stufe of $F$ is a\n    power of $2$.\n\n[8]{} A. Pfister, [*Zur Darstellung definiter Funktionen als Summe von\nQuadraten*]{}, Inventiones Mathematicae (1967). A. R. Rajwade,\n[*Squares*]{}, Cambridge University Press (1993).",
+  "language": "INFORMAL",
+  "phrase": "Stufe Of A Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StufeOfAField"
+    }
+  ],
+  "indexable": true
+}

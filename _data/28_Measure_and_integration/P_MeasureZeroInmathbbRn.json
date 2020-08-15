@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Measure Zero in $\\mathbb{R}^n$\n------------------------------\n\nIn $\\mathbb{R}^n$ with the Lebesgue measure $m$ there is a\ncharacterization of the sets that have measure zero.\n\n$\\,$\n\n[**Theorem -**]{} A subset $X \\subseteq \\mathbb{R}^n$ has zero Lebesgue\nmeasure if and only if for every $\\epsilon >0$ there is a sequence of\ncompact rectangles $\\{R_i\\}_{i \\in \\mathbb{N}}$ that cover $X$ and such\nthat $\\sum_{i} m(R_i) < \\epsilon$.\n\n$\\,$\n\nMeasure Zero Avoiding Measure Theory\n------------------------------------\n\nIn some circumstances one may want to avoid the whole of Lebesgue\nmeasure and integration and still be interested in having a notion of\nmeasure zero, like for example when studying Riemann integrals or\nconstructing the Lebesgue measure from an historical of view. Another\ninteresting example where sets of measure zero arise and there is no\nreason to introduce measures or integrals is when studying the of sets\nwhere a function of bounded variation is not differentiable (this sets\nhave always measure zero).\n\nNevertheless, the notion of measure zero is not lost in this situation.\nSince the Lebesgue measure of compact rectangles can be easily\ncalculated and defined from the start (see for example), the condition\nstated in the previous theorem can be taken as the definition of measure\nzero.\n\n$\\,$\n\n[**Definition -**]{} A set $X$ in $\\mathbb{R}^n$ is said to have\n*measure zero* if for every $\\epsilon >0$ there is a sequence of compact\nrectangles $\\{R_i\\}_{i \\in \\mathbb{N}}$ that cover $X$ and such that\n$\\sum_{i} m(R_i) < \\epsilon$, where $m$ is the .\n\n$\\,$\n\nSimilarly, the notion of *almost everywhere* remains essentially the\nsame. One just has to work with the previous definition.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeasureZeroInmathbbRn"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "measure zero in $\\mathbb{R}^n$"
+  ]
+}

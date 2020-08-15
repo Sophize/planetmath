@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *digamma function* is defined as the logarithmic derivative of the\ngamma function:\n$$\\psi (z) = {d \\over dz} \\log \\Gamma (z) = {\\Gamma' (z) \\over \\Gamma (z)}.$$\nLikewise the *polygamma functions* are defined as higher order\nlogarithmic derivatives of the gamma function:\n$$\\psi^{(n)} (z) = {d^n \\over dz^n} \\log \\Gamma (z).$$\n\nThese equations enjoy functional equations which are closely related to\nthose of the gamma function: $$\\begin{aligned}\n\\psi (z+1) &= \\psi (z) + {1 \\over z} \\\\\n\\psi (1-z) &= \\psi (z) + \\pi \\cot \\pi z \\\\\n\\psi (2z)  &= {1 \\over 2} \\psi (z) + {1 \\over 2} \\psi \\left( z + {1 \\over 2} \n\\right) + \\log 2 \\\\\n\\psi^{(n)} (z+1) &= \\psi^{(n)} (z) + (-1)^n {n! \\over z^{n+1}} \\\\\\end{aligned}$$\n\nThese functions have poles at the negative integers and can be expressed\nas partial fraction series: $$\\begin{aligned}\n\\psi(z) = -\\gamma-{1\\over z}+\\sum_{k=1}^\\infty \\left({1\\over k}-{1\\over z\\!+\\!k}\\right), \\end{aligned}$$\n$$\\begin{aligned}\n\\psi^{(n)}(z) = (-1)^nn!\\!\\sum_{k=0}^\\infty{1\\over(z\\!+\\!k)^n}\\end{aligned}$$\nHere, $\\gamma$ is . Substituting $z = 1$ to (1), one gets the value\n$$\\Gamma\\,'(1) \\;=\\; -\\gamma.$$",
+  "language": "INFORMAL",
+  "phrase": "Digamma And Polygamma Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DigammaAndPolygammaFunction"
+    }
+  ],
+  "indexable": true
+}

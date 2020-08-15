@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Consider $f:\\mathbb{R} \\to \\mathbb{R}$ a real function of real variable.\n\nWe call the upper envelope of $f$ to the function:\n\n$\\operatorname{env}_{\\sup}(f)(x) = \\inf_{\\epsilon} \\{\\sup \\{ f(y): \\epsilon>0,\\: |y-x|<\\epsilon \\}\\}$\n\nsimilarly the lower envelope of $f$ is the function:\n\n$\\operatorname{env}_{\\inf}(f)(x) = \\sup_{\\epsilon} \\{\\inf \\{ f(y): \\epsilon>0,\\: |y-x|<\\epsilon \\}\\}$\n\nThe envelopes have the following properties: (in this list\n$\\operatorname{env}_\\ast$ represents either the upper or lower envelope)\n\n-   $ \\operatorname{env}_{\\inf}(f)(x) \\le f(x) \\le \\operatorname{env}_{\\sup}(f)(x)$\n\n-   $ \\operatorname{env}_{\\sup}(f) = \\operatorname{env}_{\\inf}(f) \\iff f \\text{is continuous} $\n\n-   $ \\operatorname{env}_{\\sup}(f)(x) - \\operatorname{env}_{\\inf}(f)(x) = \\text{oscillation of} f \\text{at } x$\n\n-   $\\operatorname{env}_{\\inf} f = - \\operatorname{env}_{\\sup}(-f)$",
+  "language": "INFORMAL",
+  "phrase": "Envelope Of A Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EnvelopeOfAFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Certain capital letters are sometimes written in [*blackboard bold*]{}\nand considered to be a distinct symbol with a distinct meaning from\ntheir regular counterparts. This is to help alleviate overloading of the\nletters of the Latin-1 alphabet in mathematics and physics. For example,\nthe blackboard letter $\\mathbb{C}$ signifies the complex numbers, while\nin the same set of formulas one could also use $C$ as some variable or\nconstant, complex or not, confident that it would not be confused with\nthe complex numbers in general.\n\nMathematicians are not unanimous in their approval of blackboard bold,\nhowever, and Donald Knuth did not include support for it in TeX. The\nAmerican Mathematical Society created the TeX package `amsfonts` which\nPlanetMath document preambles contain by default. The entire Latin-1\nalphabet is available thus, while Unicode in Letterlike Symbols only\nmakes available a subset of the most commonly used (such as $\\mathbb{Q}$\nand $\\mathbb{Z}$).\n\nIn typewritten dissertations, and even some published books, simple bold\nof non-italics letters is used.",
+  "language": "INFORMAL",
+  "phrase": "Blackboard Bold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BlackboardBold"
+    }
+  ],
+  "indexable": true
+}

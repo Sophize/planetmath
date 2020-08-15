@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a commutative ring $R$, an algebra over $R$ is a module $M$ over\n$R$, endowed with a law of composition $$f:M\\times M\\to M$$ which is\n$R$-bilinear.\n\nMost of the important algebras in mathematics belong to one or the other\nof two classes: the unital associative algebras, and the Lie algebras.\n\nUnital associative algebras\n===========================\n\nIn these cases, the \u201cproduct\u201d (as it is called) of two elements $v$ and\n$w$ of the module, is denoted simply by $vw$ or $v\\centerdot w$ or the\nlike.\n\nAny unital associative algebra is an algebra in the sense of djao (a\nsense which is also used by Lang in his book *Algebra*\n(Springer-Verlag)).\n\nExamples of unital associative algebras:\n\n\u2013 tensor algebras and quotients of them\n\n\u2013 Cayley algebras, such as the ring of quaternions\n\n\u2013 polynomial rings\n\n\u2013 the ring of endomorphisms of a vector space, in which the bilinear\nproduct of two mappings is simply the composite mapping.\n\nLie algebras\n============\n\nIn these cases the bilinear product is denoted by $[v,w]$, and satisfies\n$$[v,v]=0\\textrm{ for all }v\\in M$$\n$$[v,[w,x]]+[w,[x,v]]+[x,[v,w]]=0\\textrm{ for all }v,w,x\\in M$$ The\nsecond of these formulas is called the Jacobi identity. One proves\neasily $$[v,w]+[w,v]=0\\textrm{ for all }v,w\\in M$$ for any Lie algebra\nM.\n\nLie algebras arise naturally from Lie groups, q.v.",
+  "language": "INFORMAL",
+  "phrase": "Algebra (Module)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Algebramodule"
+    }
+  ],
+  "indexable": true
+}

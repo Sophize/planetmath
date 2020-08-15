@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "local homeomorphy"
+  ],
+  "definition": "Let $X$ and $Y$ be topological spaces. Then $X$ is *locally\nhomeomorphic* to $Y$, if for every $x\\in X$ there is a neighbourhood\n$U\\subseteq X$ of $x$ and an $V\\subseteq Y$, such that $U$ and $V$ with\ntheir respective subspace topology are homeomorphic.\n\n### Examples {#examples .unnumbered}\n\n-   Let $X=\\{1\\}$ and $Y=\\{2,3\\}$ be discrete spaces with one resp. two\n    elements. Since $X$ and $Y$ have different cardinalities, they\n    cannot be homeomorphic. They are, however, locally homeomorphic to\n    each other.\n\n-   Again, let $X=\\{1\\}$ be a discrete space with one element, but now\n    let $Y=\\{2,3\\}$ the space with topology $\\{\\emptyset,\\{2\\},Y\\}$.\n    Then $X$ is still locally homeomorphic to $Y$, but $Y$ is not\n    locally homeomorphic to $X$, since the smallest neighbourhood of $3$\n    already has more elements than $X$.\n\n-   Now, let $X$ be as in the previous examples, and $Y=\\{2,3\\}$ be .\n    Then neither $X$ is locally homeomorphic to $Y$ nor the other way\n    round.\n\n-   Non-trivial examples arise with locally Euclidean spaces, especially\n    manifolds.",
+  "language": "INFORMAL",
+  "phrase": "Locally Homeomorphic",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocallyHomeomorphic"
+    }
+  ],
+  "indexable": true
+}

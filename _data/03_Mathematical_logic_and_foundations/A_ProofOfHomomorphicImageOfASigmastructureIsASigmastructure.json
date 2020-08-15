@@ -1,0 +1,17 @@
+{
+  "argumentText": "We need to show that $\\operatorname{im}(f)$ is closed under functions.\nFor every constant symbol $c$ of $\\Sigma$,\n$c^{\\mathfrak{B}}= f(c^{\\mathfrak{A}})$. Hence\n$c^{\\mathfrak{B}}\\in \\operatorname{im}(f)$. Also, if\n$b_1, \\ldots, b_n \\in \\operatorname{im}(f)$ and $F$ is an $n$-ary\nfunction symbol of $\\Sigma$, then for some\n$a_1, \\ldots, a_n \\in {\\mathfrak{A}}$ we have\n$$F^{\\mathfrak{B}}(b_1, \\ldots, b_n) = F^{\\mathfrak{B}}(f(a_1), \\ldots, f(a_n)) = f(F^{\\mathfrak{A}}(a_1, \\ldots, a_n)).$$\nHence $F^{\\mathfrak{B}}(b_1, \\ldots, b_n) \\in \\operatorname{im}(f)$.",
+  "conclusion": "#P_HomomorphicImageOfASigmastructureIsASigmastructure",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfHomomorphicImageOfASigmastructureIsASigmastructure"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of homomorphic image of a $\\Sigma$-structure is a $\\Sigma$-structure"
+  ]
+}

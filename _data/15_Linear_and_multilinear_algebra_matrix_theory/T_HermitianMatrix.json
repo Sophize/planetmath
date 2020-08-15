@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Hermitian",
+    "self-adjoint"
+  ],
+  "definition": "For a complex matrix $A$, let $A^\\ast=\\overline{A}^{T}$, where $A^T$ is\nthe transpose, and $\\bar{A}$ is the complex conjugate of $A$.\n\n[**Definition**]{} A complex square matrix $A$ is *Hermitian*, if\n$$A = A^*.$$\n\n### Properties {#properties .unnumbered}\n\n1.  The eigenvalues of a Hermitian matrix are real.\n\n2.  The diagonal elements of a Hermitian matrix are real.\n\n3.  The complex conjugate of a Hermitian matrix is a Hermitian matrix.\n\n4.  If $A$ is a Hermitian matrix, and $B$ is a complex matrix of same\n    order as $A$, then $BAB^\\ast$ is a Hermitian matrix.\n\n5.  A matrix is symmetric if and only if it is real and Hermitian.\n\n6.  Hermitian matrices are a vector subspace of the vector space of\n    complex matrices. The real symmetric matrices are a subspace of the\n    Hermitian matrices.\n\n7.  Hermitian matrices are also called *self-adjoint* since if $A$ is\n    Hermitian, then in the usual inner product of $\\mathbb{C}^n$, we\n    have $$\\langle u,Av \\rangle = \\langle Au,v\\rangle$$ for all\n    $u,v\\in \\mathbb{C}^n$.\n\n### Example {#example .unnumbered}\n\n1.  For any $n\\times m$ matrix $A$, the $n\\times n$ matrix $A A^\\ast$ is\n    Hermitian.\n\n2.  For any square matrix $A$, the Hermitian part of $A$,\n    $\\frac{1}{2}(A+A^\\ast)$ is Hermitian. See .\n\n3.  $$\\begin{bmatrix}\n      1 & 1 + i & 1 + 2i & 1 + 3i \\\\\n      1 - i & 2 & 2 + 2i & 2 + 3i \\\\\n      1 - 2i & 2 - 2i & 3 & 3 + 3i \\\\\n      1 - 3i & 2 - 3i & 3 - 3i & 4\n    \\end{bmatrix}$$\n\nThe first two examples are also examples of normal matrices.\n\n### Notes {#notes .unnumbered}\n\n1.  Hermitian matrices are named after Charles Hermite (1822-1901)\n    [@hermite], who proved in 1855 that the eigenvalues of these\n    matrices are always real [@eves].\n\n2.  Hermitian, or self-adjoint operators on a Hilbert space play a\n    fundamental role in quantum theories as their eigenvalues are\n    observable, or measurable; such Hermitian operators can be\n    represented by Hermitian matrices.\n\n[9]{} H. Eves, *Elementary Matrix Theory*, Dover publications, 1980. The\nMacTutor History of Mathematics archive,",
+  "language": "INFORMAL",
+  "phrase": "Hermitian Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HermitianMatrix"
+    }
+  ],
+  "indexable": true
+}

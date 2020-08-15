@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let us start from the implications \u201c$\\Rightarrow$\u201d.\n\nSuppose that $f'(x)\\ge 0$ for all $x\\in (a,b)$. We want to prove that\ntherefore $f$ is increasing. So take $x_1,x_2\\in [a,b]$ with $x_1<x_2$.\nApplying the mean-value Theorem on the interval $[x_1,x_2]$ we know that\nthere exists a point $x\\in (x_1,x_2)$ such that\n$$f(x_2)-f(x_1) = f'(x) (x_2-x_1)$$ and being $f'(x)\\ge 0$ we conclude\nthat $f(x_2)\\ge f(x_1)$.\n\nThis proves the first claim. The other three cases can be achieved with\nminor modifications: replace all \u201c$\\ge$\u201d respectively with $\\le$, $>$\nand $<$.\n\nLet us now prove the implication \u201c$\\Leftarrow$\u201d for the first and second\nstatement.\n\nGiven $x\\in (a,b)$ consider the ratio $$\\frac{f(x+h)-f(x)}{h}.$$ If $f$\nis increasing the numerator of this ratio is $\\ge 0$ when $h>0$ and is\n$\\le 0$ when $h<0$. Anyway the ratio is $\\ge 0$ since the denominator\nhas the same sign of the numerator. Since we know by hypothesis that the\nfunction $f$ is differentiable in $x$ we can pass to the limit to\nconclude that $$f'(x)=\\lim_{h\\to 0} \\frac{f(x+h)-f(x)}{h} \\ge 0.$$\n\nIf $f$ is decreasing the ratio considered turns out to be $\\le 0$ hence\nthe conclusion $f'(x)\\le 0$.\n\nNotice that if we suppose that $f$ is strictly increasing we obtain the\nthis ratio is $>0$, but passing to the limit as $h\\to 0$ we cannot\nconclude that $f'(x)>0$ but only (again) $f'(x)\\ge 0$.",
+  "conclusion": "#P_MonotonicityCriterion",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfMonotonicityCriterion"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of monotonicity criterion"
+  ]
+}

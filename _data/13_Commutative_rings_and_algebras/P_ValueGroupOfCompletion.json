@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $k$ be a field and $|\\cdot|$ its non-archimedean valuation of . Then\nits value group $|k\\!\\smallsetminus\\!\\{0\\}|$ may be considered to be a\nsubgroup of the multiplicative group of $\\mathbb{R}$. In the completion\n$K$ of the valued field $k$, the extension of the valuation is defined\nby $$|x| \\;=:\\; \\lim_{n\\to\\infty}|x_n|,$$ when the Cauchy sequence\n$x_1,\\,x_2,\\,\\ldots,\\,x_n,\\,\\ldots$ of elements of $k$ determines the\nelement $x$ of $K$.\n\nThe non-archimedean field $k$ and its completion $K$ have the same value\ngroup.\n\n[*Proof.*]{} Of course, $|k| \\subseteq |K|$. Let\n$x = \\lim_{n\\to\\infty}x_n$ be any non-zero element of $K$, where $x_j$\u2019s\nform a Cauchy sequence in $k$. Then there exists a positive number $n_0$\nsuch that $$|x_n\\!-\\!x| \\;<\\; |x|$$ for all $n > n_0$. For all these\nvalues of $n$ we have $$|x_n| \\;=\\; |x\\!+\\!(x_n\\!-\\!x)| \\;=\\; |x|$$\naccording to the ultrametric triangle inequality. Thus we see that\n$|K|\\subseteq |k|$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ValueGroupOfCompletion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "value group of completion"
+  ]
+}

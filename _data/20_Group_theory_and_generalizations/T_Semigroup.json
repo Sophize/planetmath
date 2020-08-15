@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "homomorphism"
+  ],
+  "definition": "A [*semigroup*]{} $G$ is a set together with a binary operation\n$\\cdot: G \\times G \\longrightarrow G$ which satisfies the associative\nproperty: $(a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)$ for all\n$a,b,c \\in G$.\n\nThe set $G$ is not required to be nonempty.\n\nLet $G,H$ be two semigroups. A *semigroup homomorphism* from $G$ to $H$\nis a function $f:G\\to H$ such that $f(ab)=f(a)f(b)$.",
+  "language": "INFORMAL",
+  "phrase": "Semigroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Semigroup"
+    }
+  ],
+  "indexable": true
+}

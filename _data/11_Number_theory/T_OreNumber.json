@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "harmonic divisor number"
+  ],
+  "definition": "Given a positive integer $n$ with divisors $d_1, \\ldots , d_k,$ if the\nharmonic mean\n$${k \\over {\\sum_{i = 1}^k {1 \\over {d_i}}}} \\in \\Bbb{Z},$$ then $n$ is\nan [*Ore number*]{} or [*harmonic divisor number*]{}.\n\nFor example, 270 has the divisors 1, 2, 3, 5, 6, 9, 10, 15, 18, 27, 30,\n45, 54, 90, 135 and 270. The reciprocals of these 16 divisors add up to\n${8 \\over 3}$. Then 16 divided by that fraction is 6, an integer. Thus\n270 is an Ore number.\n\nThe first few Ore numbers are 1, 6, 28, 140, 270, 496, 672, 1638, 2970,\nlisted in A001599 of Sloane\u2019s OEIS.\n\nAll even perfect numbers are Ore numbers, a fact proven by [\u00d8]{}ystein\nOre in 1948.\n\n1 is the only known odd Ore number. If there\u2019s another, it would have to\nbe pretty big, and is considered as unlikely to exist as an odd perfect\nnumber.",
+  "language": "INFORMAL",
+  "phrase": "Ore Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OreNumber"
+    }
+  ],
+  "indexable": true
+}

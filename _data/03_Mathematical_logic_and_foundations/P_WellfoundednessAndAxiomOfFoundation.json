@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Recall that a relation $R$ on a class $C$ is well-founded if\n\n1.  For any $x\\in C$, the collection $\\lbrace y\\in C\\mid yRx\\rbrace$ is\n    a set, and\n\n2.  for any non-empty $B\\subseteq C$, there is an element $z\\in B$ such\n    that if $yRz$, then $y\\notin B$.\n\n$z$ is called an $R$-minimal element of $B$. It is clear that the\nmembership relation $\\in$ in the class of all sets satisfies the first\ncondition above.\n\nGiven ZF, $\\in$ is a well-founded relation iff the Axiom of Foundation\n(AF) is true.\n\nWe will prove this using one of the equivalent versions of AF: for every\nnon-empty set $A$, there is an $x\\in A$ such that $x\\cap A=\\varnothing$.\n\nSuppose $\\in$ is well-founded and $A$ a non-empty set. We want to find\n$x\\in A$ such that $x\\cap A=\\varnothing$. Since $\\in$ is well-founded,\nthere is a $\\in$-minimal set $x$ such that $x\\in A$. Since no set $y$\nsuch that $y\\in x$ and $y\\in A$ (otherwise $x$ would not be\n$\\in$-minimal), we have that $x\\cap A=\\varnothing$.\n\nConversely, suppose that AF is true. Let $A$ be any non-empty set. We\nwant to find a $\\in$-minimal element in $A$. Let $x\\in A$ such that\n$x\\cap A=\\varnothing$. Then $x$ is $\\in$-minimal in $A$, for otherwise\nthere is $y\\in A$ such that $y\\in x$, which implies\n$y\\in x\\cap A=\\varnothing$, a contradiction.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WellfoundednessAndAxiomOfFoundation"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "well-foundedness and axiom of foundation"
+  ]
+}

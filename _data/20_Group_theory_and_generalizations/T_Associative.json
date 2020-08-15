@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "associativity"
+  ],
+  "definition": "Let $(S,\\phi)$ be a set with binary operation $\\phi$. $\\phi$ is said to\nbe *associative* over $S$ if\n\n$$\\phi(a,\\phi(b,c)) = \\phi(\\phi(a,b),c)$$\n\nfor all $a,b,c \\in S$.\n\nExamples of associative operations are addition and multiplication over\nthe integers (or reals), or addition or multiplication over $n \\times n$\nmatrices.\n\nWe can construct an operation which is not associative. Let $S$ be the\nintegers. and define $\\nu(a,b)=a^2+b$. Then\n$\\nu(\\nu(a,b),c)=\\nu(a^2+b,c)=a^4+2ba^2+b^2+c$. But\n$\\nu(a,\\nu(b,c))=\\nu(a,b^2+c)=a+b^4+2cb^2+c^2$, hence\n$\\nu(\\nu(a,b),c) \\ne \\nu(a,\\nu(b,c))$.\n\nNote, however, that if we were to take $S=\\{0\\}$, $\\nu$ would be\nassociative over $S$!. This illustrates the fact that the set the\noperation is taken with respect to is very important.\n\n#### Example.\n\nWe show that the division operation over nonzero reals is\nnon-associative. All we need is a counter-example: so let us compare\n$1/(1/2)$ and $(1/1)/2$. The first expression is equal to $2$, the\nsecond to $1/2$, hence division over the nonzero reals is not\nassociative.\n\n**Remark.** The property of being associative of a binary operation can\nbe generalized to an arbitrary $n$-ary operation, where $n\\ge 2$. An\n$n$-ary operation $\\phi$ on a set $A$ is said to be *associative* if for\nany elements $a_1,\\ldots, a_{2n-1} \\in A$, we have\n$$\\phi(\\phi(a_1,\\ldots, a_n), a_{n+1} \\ldots, a_{2n-1}) = \\cdots = \\phi(a_1, \\ldots, a_{n-1}, \\phi(a_n,\\ldots, a_{2n-1})).$$\nIn other words, for any $i=1,\\ldots, n$, if we set\n$b_i:=\\phi (a_1,\\ldots, \\phi(a_i,\\ldots, a_{i+n-1}),\\ldots, a_{2n-1})$,\nthen $\\phi$ is associative iff $b_i=b_1$ for all $i=1,\\ldots, n$.\nTherefore, for instance, a ternary operation $f$ on $A$ is associative\nif $f(f(a,b,c),d,e)=f(a,f(b,c,d),e)=f(a,b,f(c,d,e))$.",
+  "language": "INFORMAL",
+  "phrase": "Associative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Associative"
+    }
+  ],
+  "indexable": true
+}

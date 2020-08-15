@@ -1,0 +1,17 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *axiom of power set* is an axiom of Zermelo-Fraenkel set theory\nwhich postulates that for any set $X$ there exists a set\n$\\mathcal{P}(X)$, called the *power set* of $X$, consisting of all\nsubsets of $X$. In symbols, it reads:\n$$\\forall X \\exists \\mathcal{P}(X) \\forall u (u \\in \\mathcal{P}(X) \\leftrightarrow u \\subseteq X).$$\nIn the above, $u \\subseteq X$ is defined as\n$\\forall z(z \\in u \\rightarrow z \\in X)$. By the extensionality axiom,\nthe set $\\mathcal{P}(X)$ is unique.\n\nThe Power Set Axiom allows us to define the Cartesian product of two\nsets $X$ and $Y$: $$X \\times Y = \\{ (x, y) : x \\in X \\land y \\in Y \\}.$$\n\nThe Cartesian product is a set since\n$$X \\times Y \\subseteq \\mathcal{P}(\\mathcal{P}(X \\cup Y)).$$\n\nWe may define the Cartesian product of any finite collection of sets\nrecursively:\n$$X_1 \\times \\cdots \\times X_n = (X_1 \\times \\cdots \\times X_{n-1}) \\times X_n.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AxiomOfPowerSet"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "axiom of power set",
+    "power set axiom",
+    "powerset axiom",
+    "axiom of powerset"
+  ]
+}

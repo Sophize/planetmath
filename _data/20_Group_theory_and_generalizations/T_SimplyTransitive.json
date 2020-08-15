@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be a group acting on a set $X$. The action is said to be\n**simply transitive** if it is transitive and $\\forall x,y \\in X$ there\nis a *unique* $g \\in G$ such that $g.x = y$.\n\nA group action is simply transitive if and only if it is free and\ntransitive\n\nNecessity follows since $g.x = x$ implies that $g = 1_G$ because\n$1_G.x = x$ also. Now assume the action is free and transitive and we\nhave elements $g_1, g_2 \\in G$ and $x,y \\in X$ such that $g_1.x = y$ and\n$g_2.x = y$. Then\n$g_1.x = g_2.x \\implies g_2^{-1}.g_1.x = (g_2^{-1} g_1).x = x$ hence\n$g_2^{-1} g_1 = 1_G$ because the action is free. Thus $g_1 = g_2$ and so\nthe action is simply transitive.",
+  "language": "INFORMAL",
+  "phrase": "Simply Transitive",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimplyTransitive"
+    }
+  ],
+  "indexable": true
+}

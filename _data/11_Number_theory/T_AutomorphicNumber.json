@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a base $b$ integer $$n = \\sum_{i = 1}^k d_ib^{i - 1}$$ where $d_1$\nis the least significant digit and $d_k$ is the most significant, if\nit\u2019s also the case that the $k$ least significant digits of $mn^2$ are\nthe same of those of $n$, then $n$ is called an [*automorphic\nnumber*]{}, or an $m$-[*automorphic number*]{}.\n\nNeither $b$ nor $b + 1$ can be 1-automorphic in base $b$.",
+  "language": "INFORMAL",
+  "phrase": "Automorphic Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AutomorphicNumber"
+    }
+  ],
+  "indexable": true
+}

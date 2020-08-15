@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Shi"
+  ],
+  "definition": "The function [*hyperbolic sine integral*]{} (in Latin [*sinus\nhyperbolicus integralis*]{}) from $\\mathbb{R}$ to $\\mathbb{R}$ is\ndefined as $$\\begin{aligned}\n\\operatorname{Shi}{x} \\,:=\\, \\int_0^x\\frac{\\sinh t}{t}\\,dt,\\end{aligned}$$\nor alternatively as\n$$\\operatorname{Shi}{x} \\,:=\\, \\int_0^1\\frac{\\sinh{tx}}{t}\\,dt.$$\\\nIt isn\u2019t an elementary function. The equation (1) implies the Taylor\nseries expansion\n$$\\operatorname{Shi}{z} = z\\!+\\!\\frac{z^3}{3\\!\\cdot\\!3!}\\!+\\!\\frac{z^5}{5\\!\\cdot\\!5!}\n                \\!+\\!\\frac{z^7}{7\\!\\cdot\\!7!}\\!+\\cdots,$$ which\nconverges for all complex values $z$ and thus defines an entire\ntranscendental function. Using the Taylor expansions, it is easily seen\nthat $$\\operatorname{Shi}x \\;=\\; i\\,\\operatorname{Si}{ix}$$ connects Shi\nto the sine integral function.\\\n$\\operatorname{Shi}{x}$ satisfies the linear third differential equation\n$$xf'''(x)\\!+\\!2f''(x)\\!-\\!xf'(x) = 0.$$",
+  "language": "INFORMAL",
+  "phrase": "Hyperbolic Sine Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HyperbolicSineIntegral"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *generalized Smarandache palindrome* (GSP) is a concatenated number of\nthe form: $a_{1}a_{2}\\ldots a_{n}a_{n} \\ldots a_{2}a_{1}$, for\n$n \\geq 1$, or\n$a_{1}a_{2} \\ldots a_{n-1}a_{n}a_{n-1} \\ldots a_{2}a_{1}$, for\n$n \\geq 2$, where all $a_1,a_2, \\ldots ,a_n$ are positive integers of\nvarious number of digits in a given base $b$.\n\n**Proposed Problem**\n\nFind the number of GSP of four digits that are not palindromic numbers\nin base 10.\n\nM. Khoshnevisan, Griffith University, Gold Coast, Queensland 9726,\nAustralia.\n\n**Solution**\n\nBefore solving the problem, let see some examples:\n\n1\\) 1235656312 is a GSP because we can group it as\n(12)(3)(56)(56)(3)(12), i.e. ABCCBA.\n\n2\\) The number 5675 is also a GSP because it can be written as\n(5)(67)(5).\n\n3\\) Obviously, any palindromic number is a GSP number as well.\n\nA palindromic number of four digits has the concatenated form: abba,\nwhere $a \\in \\{1, 2, \\ldots , 9\\}$ and $b \\in \\{0, 1, 2, \\ldots , 9\\}$.\nThere are $9 \\times 10=90$ palindromic numbers of four digits. For\nexample, 1551, or 2002 are palindromic (and, of course, GSP too); yet\n3753 is not palindromic but it is a GSP for 3753=3(75)3, i.e. of the\nform ABA; similarly 4646, for it can be organized as (46)(46), i.e. of\nthe form CC. Therefore, a SGP, different from a palindromic number,\nshould have the concatenated forms: 1) ABA, where\n$A \\in \\{1, 2, \\ldots , 9\\}$ and\n$B \\in \\{00, 01, 02, 03, \\ldots , 99\\} - \\{00, 11, 22, 33, \\ldots , 99\\}$;\n2) or CC, where\n$C \\in \\{10, 11, 12, \\ldots , 99\\} - \\{ 11, 22, 33, \\ldots , 99\\}$. In\nthe first case, one has $9 \\times (100-10)=9 \\times 90=810$. In the\nsecond case, one has $90-9=81$. Total: $810+81=891$ GSP numbers of four\ndigits which are not palindromic.\n\n**References**\n\n1\\. Charles Ashbacher, Lori Neirynck,\n\n2\\. G. Gregory,\n\n3\\. M. Khoshnevisan, \u201cGeneralized Smarandache Palindrome\u201d, Mathematics\nMagazine, Aurora, Canada, 10/2003.\n\n4\\. M. Khoshnevisan, Proposed Problem $\\sharp$1062 (on Generalized\nSmarandache Palindrome), The $\\Pi$ME Epsilon, USA, Vol. 11, No. 9, p.\n501, Fall 2003.\n\n5\\. Mark Evans, Mike Pinter, Carl Libis, Solutions to Problem\n$\\sharp$1062 (on Generalized Smarandache Palindrome), The $\\Pi$ME\nEpsilon, Vol. 12, No. 1, 54-55, Fall 2004.\n\n6\\. N. Sloane,\n\n7\\. F. Smarandache,",
+  "language": "INFORMAL",
+  "phrase": "Generalized Smarandache Palindrome",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedSmarandachePalindrome"
+    }
+  ],
+  "indexable": true
+}

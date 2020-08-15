@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "lattice of partitions"
+  ],
+  "definition": "The *partition lattice* (or *lattice of partitions*) $\\Pi_n$ is the\nlattice of of the set $[n]=\\{1,\\dots,n\\}$. The partial order on $\\Pi_n$\nis defined by refinement, setting $x\\le y$ if any only if each cell of\n$x$ is contained in a cell of $y$.\n\nIf $n<3$, then $\\Pi_n$ is a chain. But $\\Pi_3$ is not even a\ndistributive lattice: $$\\xymatrix{\n& 123\\ar@{-}[ld]\\ar@{-}[d]\\ar@{-}[rd] & \\\\\n1/23\\ar@{-}[rd] & 12/3\\ar@{-}[d] & 13/2\\ar@{-}[ld] \\\\\n& 1/2/3 &\n}$$ Moreover, the lattice $\\Pi_n$ is an interval in the lattice\n$\\Pi_{n+1}$, so the lattice of partitions on $[n]$ is distributive only\nif $n<3$. On the other hand, it is always a graded poset with rank\nfunction $\\rho(x)=n-|x|$, where $|x|$ is the number of cells in $x$.\n\nEach partition of $[n]$ has a corresponding Young tableau. To determine\nthe Young tableau corresponding to a partition, we arrange the cells of\nthe partition in order of decreasing size, breaking ties by allowing\ncells with smaller minimal elements to come first. The shape of the\ntableau is determined by the sizes of the cells, and the labels for the\nboxes come from the sets.\n\nTo illustrate the process of associating a partition with a tableau, we\nperform it for the partition\n$\\{\\{1\\},\\{2,3\\},\\{4\\},\\{5,6,7\\},\\{8,9\\}\\}=1/23/4/567/89$ of $[9]$.\nThere is one cell of size $3$, namely, $567$. There are two cells of\nsize $2$, $23$ and $89$. To order them we compare their minimal\nelements. Since $2<8$, we list $23$ before $89$. Similarly, we list $1$\nbefore $4$. After sorting we have rewritten the partition as\n$567/23/89/1/4$. Thus our tableau will have shape $(3,2,2,1,1)$.\nLabeling the shape gives us the following Young tableau.\n\n[=1 =5 =2 =5 =3 =5 =1 =4 =2 =4 =1 =3 =2 =3 =1 =2 =1 =1 ]{}\n\n[99]{} Stanley, R., *Enumerative Combinatorics*, vol. 1, 2nd ed.,\nCambridge University Press, Cambridge, 1996.",
+  "language": "INFORMAL",
+  "phrase": "Partition Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PartitionLattice"
+    }
+  ],
+  "indexable": true
+}

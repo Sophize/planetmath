@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*Mathematics Subject Classification*]{} is a system of classifying\nmathematical papers published in peer-reviewed journals. The system was\ndevised by the American Mathematical Society and is also used by\nPlanetMath to classify its content, and to a lesser extent, the\nmathematical content of Wikipedia.\n\nThe codes consist of a 2-digit base 10 number (zero-padded when less\nthan 10), followed by a letter of the Roman alphabet or a dash, followed\nby another 2-digit base 10 number. The first two characters refer to the\nmost general level (e.g., history, combinatorics, number theory, general\ntopology, etc.), with the following character narrowing it down and the\nlast two numbers being the most specific level. The letter X is used as\na kind of wildcard to denote a general level that has not been narrowed\ndown. For example, 81-XX refers to quantum theory, 81PXX refers to the\nfoundational axioms, 81P68 refers to quantum computation and quantum\ncryptography.\n\nThe MSC system has been around almost as long as the AMS. The most\nimportant changes to the top-level categories began in 1962, when 09-XX\nwas discontinued. Various other reorganizations have occurred since\nthen, such as 04-XX, set theory, being merged into 03-XX, logic. The\nmost recent version dates from 2000, and has room in its 01-XX, history,\ncategory for four more centuries.",
+  "language": "INFORMAL",
+  "phrase": "Mathematics Subject Classification",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MathematicsSubjectClassification"
+    }
+  ],
+  "indexable": true
+}

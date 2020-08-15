@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $\\mathcal{A}$ and $\\mathcal{B}$ be and\n$\\Phi : \\mathcal{A} \\longrightarrow \\mathcal{B}$ an injective\n\\*-homomorphism. Then $\\|\\Phi(x)\\|=\\|x\\|$ and\n$\\sigma(\\Phi(x)) = \\sigma(x)$ for every $x \\in \\mathcal{A}$, where\n$\\sigma(y)$ denotes the spectrum of the element $y$.\n\n$\\,$\n\n[***Proof:***]{} It suffices to prove the result for unital\n$C^*$-algebras, since the general case follows directly by considering\nthe minimal unitizations of $\\mathcal{A}$ and $\\mathcal{B}$. So we\nassume that $\\mathcal{A}$ and $\\mathcal{B}$ are unital and we will\ndenote their identity elements by $e$, being clear from context which\none is being used.\n\nLet us first prove the second part of the theorem for normal elements\n$x \\in \\mathcal{A}$. It is clear that\n$\\sigma(\\Phi(x)) \\subseteq \\sigma(x)$ since if $x - \\lambda e$\ninvertible for some $\\lambda \\in \\mathcal{C}$, then so is\n$\\Phi(x) - \\lambda e = \\Phi(x - \\lambda e)$. Suppose the inclusion is\nstrict, then there is a non-zero function $f \\in C(\\sigma(x))$ whose\nrestriction to $\\sigma(\\Phi(x))$ is zero (here $C(\\sigma(x))$ denotes\nthe $C^*$-algebra of continuous functions\n$\\sigma(x) \\longrightarrow \\mathbb{C}$). Thus we have, by the continuous\nfunctional calculus, that $f(x) \\neq 0$ and also that $$\\begin{aligned}\n\\Phi(f(x))=f(\\Phi(x))=0\\end{aligned}$$ by the continuous functional\ncalculus and the result on . Thus, we conclude that $\\Phi$ is not\ninjective and which is a contradiction. Hence we must have\n$\\sigma(\\Phi(x)) = \\sigma(x)$.\n\nLet $R_{\\sigma}(z)$ denote the spectral radius of the element $z$. From\nthe we know that, for an arbitrary element $x \\in \\mathcal{A}$, we have\nthat $$\\begin{aligned}\n\\|x\\|^2=R_{\\sigma}(x^*x)\\end{aligned}$$ Since the element $x^*x$ is\nnormal, from the preceding paragraph it follows that\n$R_{\\sigma}(x^*x)=R_{\\sigma}(\\Phi(x^*x))$, and hence we conclude that\n$$\\begin{aligned}\n\\|x\\|^2=R_{\\sigma}(x^*x)=R_{\\sigma}\\big(\\Phi(x)^*\\Phi(x)\\big)= \\|\\Phi(x)\\|^2\\end{aligned}$$\ni.e. $\\|\\Phi(x)\\|=\\|x\\|$.\n\nSince $\\Phi$ is isometric, $\\Phi(\\mathcal{A})$ is closed \\*-subalgebra\nof $\\mathcal{B}$, i.e. $\\Phi(\\mathcal{A})$ is a $C^*$-subalgebra of\n$\\mathcal{B}$, and it is isomorphic to $\\mathcal{A}$. Using the spectral\ninvariance theorem we conclude that $\\sigma(x)=\\sigma(\\Phi(x))$ for\nevery $x \\in \\mathcal{A}$. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InjectiveCalgebraHomomorphismIsIsometric"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "injective $C^*$-algebra homomorphism is isometric"
+  ]
+}

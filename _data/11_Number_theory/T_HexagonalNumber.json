@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*hexagonal number*]{} is a figurate number that represents a hexagon.\nThe hexagonal number for $n$ is given by the formula $n(2n - 1)$. The\nfirst few hexagonal numbers are 1, 6, 15, 28, 45, 66, 91, 120, 153, 190,\n231, 276, 325, 378, 435, 496, 561, 630, 703, 780, 861, 946, etc., listed\nin A000384 of Sloane\u2019s OEIS. Like a triangular number, the base 10\ndigital root of a hexagonal number can only be 1, 3, 6 or 9. Every\nhexagonal number is a triangular number, but not every triangular number\nis a hexagonal number.\n\nAny integer greater than 1791 can be expressed as a sum of at most four\nhexagonal numbers, a fact proven by Adrien-Marie Legendre in 1830.\n\nHexagonal numbers should not be confused with centered hexagonal\nnumbers, which model the standard packaging of Vienna sausages.",
+  "language": "INFORMAL",
+  "phrase": "Hexagonal Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HexagonalNumber"
+    }
+  ],
+  "indexable": true
+}

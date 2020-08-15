@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a differentiable manifold (at least two times differentiable)\nand $A,B,C \\in M$ (not necessarily distinct). Let\n$x_1,x_2,x_3\\in [0,\\infty)$. Let $\\gamma_1 \\colon [0,x_1] \\to M$,\n$\\gamma_2 \\colon [0,x_2] \\to M$, and $\\gamma_3 \\colon [0,x_3] \\to M$ be\ngeodesics such that all of the following hold:\n\n-   $\\gamma_1(0)=A$;\n\n-   $\\gamma_1(x_1)=B$;\n\n-   $\\gamma_2(0)=A$;\n\n-   $\\gamma_2(x_2)=C$;\n\n-   $\\gamma_3(0)=B$;\n\n-   $\\gamma_3(x_3)=C$.\n\nThen the figure determined by $\\gamma_1$, $\\gamma_2$, and $\\gamma_3$ is\na *geodesic triangle*.\n\nNote that a geodesic triangle need not be a triangle. For example, in\n$\\mathbb{R}^2$, if $A=(0,0)$, $B=(1,2)$, and $C=(3,6)$, then the\ngeodesic triangle determined by $A$, $B$, and $C$ is\n$\\{(x,2x): x\\in[0,3]\\}$, which is not a triangle.\n\n(-1,0)(3,6) (3,6)[.]{} (0,0)(3,6) (0,0)(1,2)(3,6) (-0.2,0)[$A$]{}\n(0.8,2)[$B$]{} (2.8,6)[$C$]{}",
+  "language": "INFORMAL",
+  "phrase": "Geodesic Triangle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeodesicTriangle"
+    }
+  ],
+  "indexable": true
+}

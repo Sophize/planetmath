@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a metric space, and $f:X\\rightarrow X$ a continuous\nsurjection. An element $x$ of $X$ is a *wandering point* if there is a\nneighborhood $U$ of $x$ and an integer $N$ such that, for all $n\\geq N$,\n$f^n(U)\\cap U=\\emptyset$. If $x$ is not wandering, we call it a\n*nonwandering point*. Equivalently, $x$ is a nonwandering point if for\nevery neighborhood $U$ of $x$ there is $n\\geq 1$ such that\n$f^n(U)\\cap U$ is nonempty. The set of all nonwandering points is called\nthe *nonwandering set* of $f$, and is denoted by $\\Omega(f)$.\n\nIf $X$ is compact, then $\\Omega(f)$ is compact, nonempty, and forward\ninvariant; if, additionally, $f$ is an homeomorphism, then $\\Omega(f)$\nis invariant.",
+  "language": "INFORMAL",
+  "phrase": "Nonwandering Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NonwanderingSet"
+    }
+  ],
+  "indexable": true
+}

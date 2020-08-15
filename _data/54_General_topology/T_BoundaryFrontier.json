@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "boundary",
+    "frontier",
+    "topological boundary"
+  ],
+  "definition": "[**Definition.**]{} Let $X$ be a topological space and let $A$ be a\nsubset of $X$. The *boundary* (or *frontier*) of $A$ is the set\n$\\partial A = \\overline{A}\\cap \\overline{X\\backslash A}$, where the\noverline denotes the closure of a set. Instead of $\\partial A$, many\nauthors use some other notation such as $\\operatorname{bd}(A)$,\n$\\operatorname{fr}(A)$, $A^b$ or $\\beta(A)$. Note that the $\\partial$\nsymbol is also used for other meanings of \u2018boundary\u2019.\n\nFrom the definition, it follows that the boundary of any set is a closed\nset. It also follows that $\\partial A = \\partial(X\\backslash A)$, and\n$\\partial X=\\varnothing=\\partial\\varnothing$.\n\nThe term \u2018boundary\u2019 (but not \u2018frontier\u2019) is used in a different sense\nfor topological manifolds: the boundary $\\partial M$ of a topological\n$n$-manifold $M$ is the set of points in $M$ that do not have a\nneighbourhood homeomorphic to $\\R^n$. (Some authors define topological\nmanifolds in such a way that they necessarily have empty boundary.) For\nexample, the boundary of the topological $1$-manifold $[0,1]$ is\n$\\{0,1\\}$.",
+  "language": "INFORMAL",
+  "phrase": "Boundary / Frontier",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundaryFrontier"
+    }
+  ],
+  "indexable": true
+}

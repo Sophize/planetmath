@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "nilcone"
+  ],
+  "definition": "Let ${\\mathfrak{g}}$ be a finite dimensional semisimple Lie algebra. The\n*nilpotent cone* ${\\mathcal{N}}$ of ${\\mathfrak{g}}$ is the set of\nelements that act nilpotently in all representations of\n${\\mathfrak{g}}$. In other words,\n$${\\mathcal{N}}=\\{ a\\in {\\mathfrak{g}}: \\rho(a) \\text{ is nilpotent for all representations } \\rho:{\\mathfrak{g}}\\to \\operatorname{End}(V)\\}$$\nThe nilpotent cone is an of ${\\mathfrak{g}}$ (considered as a $k$-vector\nspace), and is invariant under the adjoint action of ${\\mathfrak{g}}$ on\nitself.",
+  "language": "INFORMAL",
+  "phrase": "Nilpotent Cone",
+  "remarks": "\n\n**Example:** if ${\\mathfrak{g}}=\\operatorname{sl}_2$, then the nilpotent\ncone is the variety of all matrices in ${\\mathfrak{g}}$ with rank $1$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NilpotentCone"
+    }
+  ],
+  "indexable": true
+}

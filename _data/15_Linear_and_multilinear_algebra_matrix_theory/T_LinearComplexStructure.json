@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A ** on a real vector space $V$, with $\\mathrm{dim}(V)=m$, is a linear\nautomorphism $J\\in\\mathrm{Aut}(V)$ such that\n$J^2=J\\circ J=-\\mathrm{id}_V$. With a complex structure $J$ we can\nconsider $V$ as a complex vector space with the product\n${\\mathbb{C}}\\times V\\rightarrow V$ given by\n$$(x+iy)\\mathbf v=x\\mathbf v+y J(\\mathbf v),\\ \\ \\forall x,y\\in{\\mathbb{R}},\\ \\mathbf v\\in V.$$\nThis implies that the dimension $m$ of $V$ must be even.\n\nA common example is $V=\\mathbb R^{2n}$ with the standard basis\n$\\mathbf e_1,...,\\mathbf e_n,\\mathbf f_1,...,\\mathbf f_n$, for which we\ncan obtain a complex structure $J_0\\in\\mathrm{Aut}(\\mathbb R^{2n})$\nrepresented by the matrix $$\\left( \\begin{array}{cc}\n\\mathbf 0 & {\\mathbf{I}}_n \\\\\n-{\\mathbf{I}}_n & \\mathbf 0\n\\end{array} \\right).$$ Here\n${\\mathbf{I}}_n\\in{\\mathrm{M}}_n({\\mathbb{R}})$ is the identity\n$n\\times n$ matrix and $\\mathbf 0\\in{\\mathrm{M}}_n({\\mathbb{R}})$ is the\nzero $n\\times n$ matrix.",
+  "language": "INFORMAL",
+  "phrase": "Linear Complex Structure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearComplexStructure"
+    }
+  ],
+  "indexable": true
+}

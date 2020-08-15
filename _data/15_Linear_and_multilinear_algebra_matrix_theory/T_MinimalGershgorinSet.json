@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "related to Gershgorin\u2019s theorem is the so called \u201cminimal Gershgorin\nset\u201d. For every $A\\in\\mathbf{C}^{n,n}$, $\\mathbf{x}>0$ meaning\n$x_i>0\\quad \\forall i$, let\u2019s define its *minimal Gershgorin set* $G(A)$\nas: $$G(A)=\\bigcap_{\\mathbf{x}>0} G_{\\mathbf{x}}(A),$$ where\n$$G_{\\mathbf{x}}(A)=\\bigcup_{i=1}^n \\left\\{z\\in\\mathbf{C}:\\left|z-a_{ii}\\right|\\leq\\frac{1}{x_i}\\sum_{j\\ne i}\\left|a_{ij}\\right|x_j\\right\\}.$$\n\nTheorem: Let $A\\in\\mathbf{C}^{n,n}$, let $\\sigma(A)$ be the spectrum of\n$A$ and let $G(A)$ be its minimal Gershgorin set defined as above. Then\n$$\\sigma(A)\\subseteq G(A).$$\n\nGiven $\\mathbf{x}>0$, let\n$X=diag\\left\\{x_1, x_2, \\ldots, x_n\\right\\}$and let $B_X=X^{-1}AX$. Then\n$A$ and $B_X$ share the same spectrum, being similar. Due to definition,\nand keeping in mind that\n$X^{-1}=diag\\left\\{x_1^{-1}, x_2^{-1}, \\ldots, x_n^{-1}\\right\\}$, we\nhave $b_{ij}^{(X)}=a_{ij}\\frac{x_j}{x_i}$ and, applying Gershgorin\ntheorem to $B_X$, we get:\n\n$\\sigma(A)=\\sigma(B_X)\\subseteq\\bigcup_{i=1}^n \\left\\{z\\in\\mathbf{C}:\\left|z-a_{ii}\\right|\\leq\\frac{1}{x_i}\\sum_{j\\ne i}\\left|a_{ij}\\right|x_j\\right\\}$\n\nand, since this is true for any $\\mathbf{x}>0$, we finally get the\nthesis.",
+  "language": "INFORMAL",
+  "phrase": "Minimal Gershgorin Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinimalGershgorinSet"
+    }
+  ],
+  "indexable": true
+}

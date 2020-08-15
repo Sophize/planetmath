@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "degree mod 2",
+    "degree modulo 2"
+  ],
+  "definition": "Suppose that $M$ and $N$ are two differentiable manifolds of dimension\n$n$ (without boundary) with $M$ compact and $N$ connected and suppose\nthat $f \\colon M \\to N$ is a differentiable mapping. If $y \\in N$ is a\nregular value of $f$, then we denote by $\\# f^{-1}(y)$ the number of\npoints in $M$ that map to $y$.\n\nLet $y \\in N$ be a regular value, then we define the [*degree mod 2*]{}\nof $f$ by $$\\operatorname{deg}_2 f := \\# f^{-1}(y) \\pmod{2} .$$\n\nIt can be shown that the degree mod 2 does not depend on the regular\nvalue $y$ that we pick so that $\\operatorname{deg}_2 f$ is well defined.\n\nThis is similar to the Brouwer degree but does not require oriented\nmanifolds. In fact\n$\\operatorname{deg}_2 f = \\operatorname{deg} f \\pmod{2}$.\n\n[9]{} John\u00a0W. Milnor. [**]{}. The University Press of Virginia,\nCharlottesville, Virginia, 1969.",
+  "language": "INFORMAL",
+  "phrase": "Degree Mod 2 Of A Mapping",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DegreeMod2OfAMapping"
+    }
+  ],
+  "indexable": true
+}

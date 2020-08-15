@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Liouville number*]{} is an irrational number $l$ such that for any\ninteger $n > 0$ there is a pair of integers $j$ and $k$ such that the\ninequality $$0 < |l - \\frac{j}{k}| < \\frac{1}{k^n}$$ holds. All\nLiouville numbers are transcendental numbers, but not all transcendental\nnumbers are Liouville numbers. The first example given by Joseph\nLiouville was a number of the form\n$$\\sum_{i = 1}^\\infty \\frac{1}{b^{i!}},$$ with an integer $b > 1$,\nspecifically $b = 10$ (the resulting number is now called [*Liouville\u2019s\nconstant*]{} and is listed in A012245 of Sloane\u2019s OEIS). In base $b$, a\nnumber of this form has a representation beginning\n0.110001000000000000000001000... where the $i$th instance of the digit 1\nis separated from the previous by $i! - (i - 1)! - 1$ instances of the\ndigit 0.\n\nThe set of Liouville numbers is small in measure, having measure 0; in\nthe measure-theoretic setting almost all numbers are not Liouville\nnumbers. However, the set of Liouville numbers is topologically big, as\nit is residual and in the topological setting almost all numbers are\nLiouville numbers.",
+  "language": "INFORMAL",
+  "phrase": "Liouville Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LiouvilleNumber"
+    }
+  ],
+  "indexable": true
+}

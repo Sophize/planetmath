@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If the real function $f$ is\n\n1.  continuous on the closed interval $[a,\\,b]$ and\n\n2.  differentiable on the open interval $(a,\\,b)$,\n\nthen the function has on the interval $[a,\\,b]$ a least value and a\ngreatest value. These are always got in the end of the interval or in\nthe zero of the derivative.\n\n**Remark 1.** If the preconditions of the theorem are fulfilled by a\nfunction $f$, then one needs only to determine the values of $f$ in the\nend points $a$ and $b$ of the interval and in the zeros of the\nderivative $f'$ inside the interval; then the least and the greatest\nvalue are found among those values.\\\n**Remark 2.** Note that the theorem does not require anything of the\nderivative $f'$ in the points $a$ and $b$; one needs not even the\nright-sided derivative in $a$ or the left-sided derivative in $b$. Thus\ne.g. the function $f:\\,x \\mapsto \\sqrt{1-x^2}$, fulfilling the\nconditions of the theorem on the interval $[-1,\\,1]$ but not having such\none-sided derivatives, gains its least value in the end-point $x = -1$\nand its greatest value in the zero $x = 0$ of the derivative.\\\n**Remark 3.** The least value of a function is also called the *absolute\nminimum* and the greatest value the *absolute maximum* of the function.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LeastAndGreatestValueOfFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "least and greatest value of function",
+    "global extrema of real function"
+  ]
+}

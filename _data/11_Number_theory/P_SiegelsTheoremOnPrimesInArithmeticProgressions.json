@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For $x>0$ real, $q,a$ positive integers, we define\n$$\\pi(x;q,a)=\\sum_{\\substack{p\\leq x\\\\p\\equiv a\\pmod q\\\\p \\text{ prime}}} 1$$\ni.e. the number of primes not exceeding $x$ that are congruent to $a$\nmodulo $q$.\n\nThen the following holds:\n\n(Siegel) For all $A>0$, there is some constant $c=c(A)>0$ such that\n$$\\pi(x;q,a) = \\frac{Li(x)}{\\varphi(q)} + \\operatorname{O}\\left(x\\exp(-c\\sqrt{\\log x})\\right)$$\nfor every $1\\leq q\\leq (\\log x)^A$ with $\\gcd(q,a)=1$.\n\nNote that it follows from this theorem that the distribution of primes\namong invertible residue classes $\\mod q$ does not depend on the residue\nclass - that is, primes are evenly distributed into such classes.\n\nA form of Dirichlet\u2019s theorem on primes in arithmetic progressions\nstates that $$\\frac{\\pi(x;q,a)}{\\pi(x)} \\sim \\frac{1}{\\varphi(q)}$$ This\nfollows easily from on noting that $Li(x) = \\frac{x}{\\log x}+\\cdots$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SiegelsTheoremOnPrimesInArithmeticProgressions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Siegel's theorem on primes in arithmetic progressions"
+  ]
+}

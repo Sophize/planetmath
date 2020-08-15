@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** An infinite product $$\\begin{aligned}\n\\prod_{\\nu=1}^\\infty(1\\!+\\!c_\\nu) \\;=\\; (1\\!+\\!c_1)(1\\!+\\!c_2)(1\\!+\\!c_3)\\cdots\\end{aligned}$$\nof complex numbers is convergent.\\\n[*Proof.*]{} We thus assume the convergence of the $$\\begin{aligned}\n\\prod_{\\nu=1}^\\infty(1\\!+\\!|c_\\nu|) \\;=\\; (1\\!+\\!|c_1|)(1\\!+\\!|c_2|)(1\\!+\\!|c_3|)\\cdots\\end{aligned}$$\nLet $\\varepsilon$ be an arbitrary positive number. By the general\nconvergence condition of infinite product, we have\n$$|(1\\!+\\!|c_{n+1}|)(1\\!+\\!|c_{n+2}|)\\cdots(1\\!+\\!|c_{n+p}|)-1| < \\varepsilon \n\\quad \\forall\\; p \\in \\mathbb{Z}_+$$ when $n \\geqq$ certain\n$n_\\varepsilon$. Then we see that $$\\begin{aligned}\n|(1\\!+\\!c_{n+1})(1\\!+\\!c_{n+2})\\cdots(1\\!+\\!c_{n+p})-1| \n& =    |1+\\sum_{\\nu=n+1}^{n+p}c_\\nu+\\sum_{\\mu,\\,\\nu}c_\\mu c_\\nu+\\ldots+c_{n+1}c_{n+2}\\cdots c_{n+p}-1|\\\\\n& \\leqq 1+\\sum_{\\nu=n+1}^{n+p}|c_\\nu|+\\sum_{\\mu,\\,\\nu}|c_\\mu||c_\\nu|+\\ldots+|c_{n+1}||c_{n+2}|\\cdots|c_{n+p}|-1\\\\\n& = |(1\\!+\\!|c_{n+1}|)(1\\!+\\!|c_{n+2}|)\\cdots(1\\!+\\!|c_{n+p}|)-1| < \\varepsilon \n\\qquad \\forall\\; p \\in \\mathbb{Z}_+\\end{aligned}$$ as soon as\n$n \\geqq n_\\varepsilon$. I.e., the infinite product (1) converges, by\nthe same convergence condition.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbsolutelyConvergentInfiniteProductConverges"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "absolutely convergent infinite product converges",
+    "convergence of absolutely convergent infinite product"
+  ]
+}

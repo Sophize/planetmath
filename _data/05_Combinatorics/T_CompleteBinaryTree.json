@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "complete"
+  ],
+  "definition": "A *complete binary tree* is a binary tree with the additional property\nthat every node must have exactly two \u201cchildren\u201d if an internal node,\nand zero children if a leaf node.\n\nMore precisely: for our base case, the complete binary tree of exactly\none node is simply the tree consisting of that node by itself. The\nproperty of being \u201ccomplete\u201d is preserved if, at each step, we expand\nthe tree by connecting exactly zero or two individual nodes (or complete\nbinary trees) to any node in the tree (but both must be connected to the\nsame node.)",
+  "language": "INFORMAL",
+  "phrase": "Complete Binary Tree",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompleteBinaryTree"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The $r$-th power mean of the numbers $x_1,x_2,\\ldots,x_n$ is defined as:\n\n$$M^r(x_1,x_2,\\ldots,x_n)=\\left(\\frac{x_1^r+x_2^r+\\cdots+x_n^r}{n}\\right)^{1/r}.$$\n\nThe arithmetic mean is a special case when $r=1$. The power mean is a\ncontinuous function of $r$, and taking limit when $r\\to0$ gives us the\ngeometric mean:\n$$M^0(x_1,x_2,\\ldots,x_n)=\\sqrt[n]{x_1 {x_{2}} \\cdots x_n}.$$\n\nAlso, when $r=-1$ we get\n$$M^{-1}(x_1,x_2,\\ldots,x_n)=\\frac{n}{\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}}$$\nthe harmonic mean.\n\nA generalization of power means are weighted power means.",
+  "language": "INFORMAL",
+  "phrase": "Power Mean",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PowerMean"
+    }
+  ],
+  "indexable": true
+}

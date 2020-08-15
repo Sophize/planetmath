@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Hamilton group"
+  ],
+  "definition": "A *Hamiltonian group* is a non-abelian group in which all are normal.\n\nRichard Dedekind investigated finite Hamiltonian groups in 1895, and\nproved that they all contain a copy of the quaternion group $Q_8$ of\norder $8$ (see the structure theorem below). He named them in honour of\nWilliam Hamilton, the discoverer of quaternions.\n\nGroups in which all subgroups are normal (that is, groups that are\neither abelian or Hamiltonian) are sometimes called *Dedekind groups*,\nor *quasi-Hamiltonian groups*.\n\nThe following structure theorem was proved in its full form by\nBaer[@baer], but Dedekind already came close to it in his original\npaper[@dedekind].\n\nA group is Hamiltonian if and only if it is isomorphic to $Q_8\\times P$\nfor some periodic abelian group $P$ that has no element of order $4$.\n\nIn particular, Hamiltonian groups are always periodic (in fact, locally\nfinite), nilpotent of class $2$, and solvable of length $2$.\n\nFrom the structure theorem one can also see that the only Hamiltonian\nare $2$-groups of the form $Q_8\\times B$, where $B$ is an elementary\nabelian $2$-group.\n\n[9]{} R.\u00a0Baer, [*Situation der Untergruppen und Struktur der Gruppe*]{},\nS.\u00a0B.\u00a0Heidelberg.\u00a0Akad.\u00a0Wiss. 2 (1933), 12\u201317. R.\u00a0Dedekind, [*Ueber\nGruppen, deren s\u00e4mmtliche Theiler Normaltheiler sind*]{}, Mathematische\nAnnalen 48 (1897), 548\u2013561. (This paper is .)",
+  "language": "INFORMAL",
+  "phrase": "Hamiltonian Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HamiltonianGroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $U$ be an open subset of the complex plane and let\n$f \\colon U \\to U$ be analytic. Denote the $n$-th iterate of $f$ by\n$f^n$, i.e. $f^1 = f$ and $f^{n+1} = f \\circ f^n$. Then the *Julia set*\nof $f$ is the subset $J$ of $U$ characterized by the following property:\nif $z \\in J$ then the restriction of $\\{f^n \\mid n \\in \\mathbb{N}\\}$ to\nany neighborhood of $z$ is not a normal family.\n\nIt can also be shown that the Julia set of $f$ is the closure of the set\nof repelling periodic points of $f$. (Repelling periodic point means\nthat, for some $n$, we have $f^n (z) = z$ and $|f'(z)| > 1$.)\n\nA simple example is afforded by the map $f(z) = z^2$; in this case, the\nJulia set is the unit circle. In general, however, things are much more\ncomplicated and the Julia set is a fractal.\n\nFrom the definition, it follows that the Julia set is closed under $f$\nand its inverse \u2014 $f(J) = J$ and $f^{-1} (J) = J$. Topologically, Julia\nsets are perfect and have empty interior.",
+  "language": "INFORMAL",
+  "phrase": "Julia Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JuliaSet"
+    }
+  ],
+  "indexable": true
+}

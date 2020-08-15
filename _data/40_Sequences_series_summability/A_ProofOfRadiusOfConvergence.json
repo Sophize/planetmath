@@ -1,0 +1,17 @@
+{
+  "argumentText": "According to Cauchy\u2019s root test a power series is absolutely convergent\nif\n$$\\limsup_{k\\to\\infty}\\sqrt[k]{|a_k(x-x_0)^k|}=|x-x_0|\\limsup_{k\\to\\infty}\\sqrt[k]{|a_k|}<1.$$\nThis is obviously true if\n$$|x-x_0|<\\frac{1}{\\limsup_{k\\to\\infty}\\sqrt[k]{|a_k|}}=\\liminf_{k\\to\\infty}\\frac{1}{\\sqrt[k]{|a_k|}}=.$$\nIn the same way we see that the series is divergent if\n$$|x-x_0|>\\liminf_{k\\to\\infty}\\frac{1}{\\sqrt[k]{|a_k|}},$$ which means\nthat the right hand side is the radius of convergence of the power\nseries. Now from the ratio test we see that the power series is\nabsolutely convergent if\n$$\\lim_{k\\to\\infty}\\left|\\frac{a_{k+1}(x-x_0)^{k+1}}{a_k(x-x_0)^k}\\right|=|x-x_0| \\lim_{k\\to\\infty}\\left|\\frac{a_{k+1}}{a_k}\\right|<1.$$\nAgain this is true if\n$$|x-x_0|<\\lim_{k\\to\\infty}\\left|\\frac{a_k}{a_{k+1}}\\right|.$$ The\nseries is divergent if\n$$|x-x_0|>\\lim_{k\\to\\infty}\\left|\\frac{a_k}{a_{k+1}}\\right|,$$ as\nfollows from the ratio test in the same way. So we see that in this way\ntoo we can the radius of convergence.",
+  "conclusion": "#P_RadiusOfConvergence",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfRadiusOfConvergence"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of radius of convergence"
+  ]
+}

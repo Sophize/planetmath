@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Uniformly continuous functions defined on $[a,\\infty)$ for $a >0$ are\nroughly linear. More precisely, if $f:[a,\\infty) \\to \\mathbb{R}$ then\nthere exists $B$ such that $|f(x)| \\leq B x$ for $x\\geq a$.\n\n*Proof:* By continuity we can choose $\\delta>0$ such that\n$|x-y| \\leq \\delta$ implies $ |f(x)-f(y)|<1$.\n\nLet $x \\geq a$, choose $n$ to be the smallest positive integer such that\n$x \\leq (n+1)\\delta$. Then\n$$f(x) -f(a) = f(x) - f(a+n\\delta) + \\sum_{i=1}^n f(a+i\\delta)-f(a+(i-1)\\delta)$$\nso that we have $$\\begin{aligned}\n|f(x)| &\\leq& |f(x)-f(a+n\\delta)| + \\sum_{i=1}^n |f(a+i\\delta)-f(a+(i-1)\\delta)| + |f(a)| \\\\\n&\\leq& n+ 1+ |f(a)|. \\end{aligned}$$ Therefore, $$\\begin{aligned}\n\\frac{|f(x)|}{x} &\\leq& \\frac{|f(a)| + n+1}{n\\delta}\\\\\n &\\leq& \\frac{|f(a)|}{n\\delta} + \\frac{n+1}{n\\delta}. \\end{aligned}$$ As\n$n\\to \\infty$, the rhs converges to $\\frac{1}{\\delta}$. Hence, the\nsequence defined by $b_n = \\frac{|f(a)|}{n\\delta} + \\frac{n+1}{n\\delta}$\nis bounded by some number $B$ as desired.\n\nNote we can extend this result to $f:[0,\\infty)\\to \\mathbb{R}$ if $f$ is\ndifferentiable at 0.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UniformlyContinuousOnmathbbRIsRoughlyLinear"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "uniformly continuous on $\\mathbb{R}$ is roughly linear"
+  ]
+}

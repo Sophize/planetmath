@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "adjoint"
+  ],
+  "definition": "#### Definition (the bilinear case).\n\nLet $U$ be a finite-dimensional vector space over a field\n${\\mathbb{K}}$, and $B:U\\times\nU\\to{\\mathbb{K}}$ a symmetric, non-degenerate bilinear mapping, for\nexample a real inner product. For an endomorphism $T:U\\rightarrow U$ we\ndefine the adjoint of $T$ relative to $B$ to be the endomorphism\n$T{^{\\displaystyle \\star}}:U\\rightarrow U$, characterized by\n$$B(u,Tv) = B(T{^{\\displaystyle \\star}}u,v),\\quad u,v\\in U.$$\n\nIt is convenient to identify $B$ with a linear isomorphism\n$B:U\\rightarrow U{^*}$ in the sense that\n$$B(u,v) = (Bu)(v),\\quad u,v\\in U.$$ We then have\n$$T{^{\\displaystyle \\star}}= B^{-1} T{^*}B.$$ To put it another way, $B$\ngives an isomorphism between $U$ and the dual $U^*$, and the adjoint\n$T{^{\\displaystyle \\star}}$ is the endomorphism of $U$ that corresponds\nto the $T{^*}:U{^*}\\rightarrow U{^*}$. Here is a commutative diagram to\nillustrate this idea:\n$$\\xymatrix{U \\ar[r]^{T^\\star} \\ar[d]^B & U \\ar[d]^{B} \\\\\n\\;U^* \\ar[r]^{T^*} & \\;U^{*}\n}$$\n\n#### Relation to the matrix transpose.\n\nLet ${\\mathbf{u}}_1,\\ldots,{\\mathbf{u}}_n$ be a basis of $U$, and let\n$M\\in\n{\\mathop{\\mathrm{Mat}}\\nolimits}_{n,n}({\\mathbb{K}})$ be the matrix of\n$T$ relative to this basis, i.e.\n$$\\sum_j M^j_{\\,i}\\, {\\mathbf{u}}_j = T({\\mathbf{u}}_i).$$ Let\n$P\\in{\\mathop{\\mathrm{Mat}}\\nolimits}_{n,n}({\\mathbb{K}})$ denote the\nmatrix of the inner product relative to the same basis, i.e.\n$$P_{ij} = B({\\mathbf{u}}_i,{\\mathbf{u}}_j).$$ Then, the representing\nmatrix of $T{^{\\displaystyle \\star}}$ relative to the same basis is\ngiven by $ P^{-1} M{^t}P.$ Specializing further, suppose that the basis\nin question is orthonormal, i.e. that\n$$B({\\mathbf{u}}_i,{\\mathbf{u}}_j) = \\delta_{ij}.$$ Then, the matrix of\n$T{^{\\displaystyle \\star}}$ is simply the transpose $M{^t}$.\n\n#### The Hermitian (sesqui-linear) case.\n\nIf $T:U\\rightarrow U$ is an endomorphism of a unitary space (a complex\nvector space equipped with a ). In this setting we can define we define\nthe Hermitian adjoint $T{^{\\displaystyle \\star}}:U\\rightarrow U$ by\nmeans of the familiar adjointness condition\n$$\\langle u,Tv\\rangle = \\langle T{^{\\displaystyle \\star}}u,v\\rangle,\\quad u,v\\in U.$$\n\nHowever, the analogous operation at the matrix level is the conjugate\ntranspose. Thus, if\n$M\\in {\\mathop{\\mathrm{Mat}}\\nolimits}_{n,n}({\\mathbb{C}})$ is the\nmatrix of $T$ relative to an orthonormal basis, then $\\overline{M{^t}}$\nis the matrix of $T{^{\\displaystyle \\star}}$ relative to the same basis.",
+  "language": "INFORMAL",
+  "phrase": "Adjoint Endomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AdjointEndomorphism"
+    }
+  ],
+  "indexable": true
+}

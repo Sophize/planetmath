@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If $f$ is an injection from a set $S$ into a group $G$,\nthen there exist a group $H$ containing $S$ and a group isomorphism\n$\\varphi\\!:H \\to G$ such that $\\varphi|_S = f$.\\\n*Proof.* Let $M$ be a set such that\n$\\operatorname{card}(M) \\geqq \\operatorname{card}(G)$. Because\n$\\operatorname{card}(f(S)) = \\operatorname{card}(S)$, we have\n$\\operatorname{card}(M\\!\\smallsetminus\\!S) \\geqq \\operatorname{card}(G\\!\\smallsetminus\\!f(S))$,\nand therefore there exists an injection\n$$\\psi\\!:G\\!\\smallsetminus\\!f(S) \\to M\\!\\smallsetminus\\!S$$ (provided\nthat $G\\!\\smallsetminus\\!f(S) \\neq \\varnothing$; otherwise the mapping\n$f\\!:S \\to G$ would be a bijection). Define\n$$H \\;:=\\; S\\cup\\psi(G\\!\\smallsetminus\\!f(S)),$$ $$\\begin{aligned}\n\\varphi(h) \\;:=\\; \n\\begin{cases}\nf(h) \\qquad\\mbox{for}\\;\\; h \\in S,\\\\\n\\psi^{-1}(h) \\quad\\mbox{for}\\;\\, h \\in H\\!\\smallsetminus\\!S.\n\\end{cases}\\end{aligned}$$ Then apparently, $\\varphi\\!:H \\to G$ is a\nbijection and $\\varphi|_S = f$. Moreover, define the binary operation\n\u201c$*$\u201d of the set $H$ by $$\\begin{aligned}\nh_1\\ast h_2 \\;:=\\; \\varphi^{-1}(\\varphi(h_1)\\!\\cdot\\!\\varphi(h_2)).\\end{aligned}$$\nWe see first that $$\\begin{aligned}\n(h_1\\ast h_2)\\ast h_3 &\\;=\\; \n\\varphi^{-1}\\!\\left(\\varphi\\left(\\varphi^{-1}(\\varphi(h_1)\\!\\cdot\\!\\varphi(h_2))\\right)\\!\\cdot\\!\\varphi(h_3)\\right)\\\\\n                      &\\;=\\; \\varphi^{-1}((\\varphi(h_1)\\!\\cdot\\!\\varphi(h_2))\\!\\cdot\\!\\varphi(h_3))\\\\\n                      &\\;=\\; \\varphi^{-1}(\\varphi(h_1)\\!\\cdot\\!(\\varphi(h_2)\\!\\cdot\\!\\varphi(h_3)))\\\\ &\\;=\\; \n\\varphi^{-1}\\!\\left(\\varphi(h_1)\\!\\cdot\\!\\varphi\\left(\\varphi^{-1}(\\varphi(h_2)\\!\\cdot\\!\\varphi(h_3))\\right)\\right)\\\\\n                      &\\;=\\; h_1\\ast(h_2\\ast h_3).\\end{aligned}$$\nSecondly, $$h\\ast\\varphi^{-1}(e) \\;=\\; \n\\varphi^{-1}\\!\\left(\\varphi(h)\\!\\cdot\\!\\varphi(\\varphi^{-1}(e))\\right) \\;=\\; \\varphi^{-1}(\\varphi(h)) \\;=\\; h,$$\nwhence $\\varphi^{-1}(e)$ is the right identity element of $H$. Then,\n$$h\\ast \\varphi^{-1}\\!\\left((\\varphi(h))^{-1}\\right) \n\\;=\\; \\varphi^{-1}\\left(\\varphi(h)\\!\\cdot\\!\\varphi\\left(\\varphi^{-1}(\\varphi(h)^{-1})\\right)\\right) \\;=\\; \\varphi^{-1}(e),$$\nand accordingly\n$\\displaystyle\\varphi^{-1}\\!\\left((\\varphi(h))^{-1}\\right)$ is the right\ninverse of $h$ in $H$. Consequently, $(H,\\,\\ast)$ is a group. The\nequation (1) implies that\n$$\\varphi(h_1\\ast h_2) \\;=\\; \\varphi(h_1)\\!\\cdot\\!\\varphi(h_2),$$ whence\n$\\varphi$ is an isomorphism from $H$ onto $G$. Q.E.D.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InjectionCanBeExtendedToIsomorphism"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "injection can be extended to isomorphism"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $T\\colon X\\to Y$ be a linear mapping. Denote its graph by $G(T)$,\nand let $p_1\\colon X\\times Y\\to X$ and $p_2\\colon X\\times Y\\to Y$ be the\nprojections onto $X$ and $Y$, respectively. We remark that these\nprojections are continuous, by definition of the product of Banach\nspaces.\n\nIf $T$ is bounded, then given a sequence $\\{(x_i, Tx_i)\\}$ in $G(T)$\nwhich converges to $(x,y)\\in X\\times Y$, we have that\n$$x_i = p_1(x_i,Tx_i) \\xrightarrow[i\\to\\infty]{} p_1(x,y) = x$$ and\n$$Tx_i = p_2(x_i,Tx_i) \\xrightarrow[i\\to\\infty]{} p_2(x,y) = y,$$ by\ncontinuity of the projections. But then, since $T$ is continuous,\n$$Tx = \\lim_{i\\to\\infty} Tx_i = y.$$ Thus $(x,y) = (x,Tx)\\in G(T)$,\nproving that $G(T)$ is closed.\n\nNow suppose $G(T)$ is closed. We remark that $G(T)$ is a vector subspace\nof $X\\times Y$, and being closed, it is a Banach space. Consider the\noperator $\\tilde T:X\\to G(T)$ defined by $\\tilde Tx = (x,Tx)$. It is\nclear that $\\tilde T$ is a bijection, its inverse being $p_1|_{G(T)}$,\nthe restriction of $p_1$ to $G(T)$. Since $p_1$ is continuous on\n$X\\times Y$, the restriction is continuous as well; and since it is also\nsurjective, the open mapping theorem implies that $p_1|_{G(T)}$ is an\nopen mapping, so its inverse must be continuous. That is, $\\tilde T$ is\ncontinuous, and consequently $T = p_2\\circ\\tilde T$ is continuous.",
+  "conclusion": "#P_ClosedGraphTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfClosedGraphTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of closed graph theorem"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f$ be a function from a subset $S$ of $\\mathbb{R}^2$ to\n$\\mathbb{R}$ and $(a,\\, b)$ an accumulation point of $S$. The limits\n$$\\lim_{x\\to a}\\left(\\lim_{y\\to b}f(x,\\,y)\\right) \\quad\\mbox{and}\\quad \\lim_{y\\to b}\\left(\\lim_{x\\to a}f(x,\\,y)\\right)$$\nare called [*iterated limits*]{}.\\\n**Example 1.** If\n$\\displaystyle f(x,\\,y) := \\frac{x\\sin\\frac{1}{x}+y}{x+y}$, then\n\n-   $\\lim_{x\\to 0}\\left(\\lim_{y\\to 0}f(x,\\,y)\\right) = \\lim_{x\\to0}\\sin\\frac{1}{x}$\n    does not exist\n\n-   $\\lim_{y\\to 0}\\left(\\lim_{x\\to 0}f(x,\\,y)\\right) = \\lim_{y\\to0}1 = 1$\n\n-   the usual limit $\\lim_{(x,y)\\to(0,0)}f(x,\\,y)$ does not exist.\n\n**Example 2.** If $\\displaystyle f(x,\\,y) := \\frac{x^2}{x^2+y^2}$, then\n\n-   $\\lim_{x\\to 0}\\left(\\lim_{y\\to 0}f(x,\\,y)\\right) = \\lim_{x\\to0} \\frac{x^2}{x^2} = 1$\n\n-   $\\lim_{y\\to 0}\\left(\\lim_{x\\to 0}f(x,\\,y)\\right) = \\lim_{y\\to0} 0 = 0$\n\n-   the usual limit $\\lim_{(x,y)\\to(0,0)}f(x,\\,y)$ again does not exist,\n    though both of the iterated limits do.\n\nSo far we have studied examples that present discontinuity at its point\nof accumulation. We now expose an illustrative example where such\ndiscontinuity can be avoided.\\\n**Example 3.** Consider the function\n$$f(x,\\,y) := \\frac{x\\sin{x}\\cosh{y}+y\\cos{x}\\sinh{y}}{x^2+y^2};$$ then\n(we apply throughout)\n\n-   $\\lim_{x\\to 0}\\left(\\lim_{y\\to 0}f(x,\\,y)\\right) =\n    \\lim_{x\\to 0}\\left(\\lim_{y\\to 0}\\frac{x\\sin x\\cosh y+y\\cos x\\sinh y}{x^2+y^2}\\right)= \n    \\lim_{x\\to 0}\\frac{x\\sin x}{x^2}=\\lim_{x\\to 0}\\frac{\\sin x}{x}=\\lim_{x\\to 0}\\cos x=1$\n\n-   $\\lim_{y\\to 0}\\left(\\lim_{x\\to 0}f(x,\\,y)\\right) =\n    \\lim_{y\\to 0}\\left(\\lim_{x\\to 0}\\frac{x\\sin x\\cosh y+y\\cos x\\sinh y}{x^2+y^2}\\right)= \n    \\lim_{y\\to 0}\\frac{y\\sinh y}{y^2}=\\lim_{y\\to 0}\\frac{\\sinh y}{y}=\\lim_{y\\to 0}\\cosh y=1$\n\n-   the usual limit $\\lim_{(x,y)\\to(0,0)}f(x,\\,y)$ exists in this case.\n    An essential reason which assures the continuity of this function,\n    arises from the fact that $f(x,\\,y) \\equiv \\Re(\\frac{\\sin z}{z})$,\n    $z = x+iy$, i.e. it is the real part of the analytic function\n    $w := \\frac{\\sin z}{z}$ having the removable singularity at $z = 0$\n    (see the entry complex sine and cosine).",
+  "language": "INFORMAL",
+  "phrase": "Iterated Limit In $\\Mathbb{R}^2$",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IteratedLimitInmathbbR2"
+    }
+  ],
+  "indexable": true
+}

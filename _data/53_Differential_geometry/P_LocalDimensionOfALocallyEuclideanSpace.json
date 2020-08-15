@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a locally Euclidean space. Recall that the local dimension of\n$X$ in $y\\in X$ is a natural number $n\\in\\mathbb{N}$ such that there is\nan open neighbourhood $U\\subseteq X$ of $y$ homeomorphic to\n$\\mathbb{R}^n$. This number is well defined (please, see parent object\nfor more details) and we will denote it by $\\mathrm{dim}_{y}X$.\\\n\\\n**Proposition.** Function $f:X\\to\\mathbb{N}$ defined by\n$f(y)=\\mathrm{dim}_{y}X$ is continuous (where on $\\mathbb{N}$ we have\ndiscrete topology).\\\n\\\n*Proof.* It is enough to show that preimage of a point is open. Assume\nthat $n\\in\\mathbb{N}$ and $y\\in X$ is such that $f(y)=n$. Then there is\nan open neighbourhood $U\\subseteq X$ of $y$ such that $U$ is\nhomeomorphic to $\\mathbb{R}^n$. Obviously for any $x\\in U$ we have that\n$U$ is an open neighbourhood of $x$ homeomorphic to $\\mathbb{R}^n$.\nTherefore $f(x)=n$, so $U\\subseteq f^{-1}(n)$. Thus (since $y$ was\narbitrary) we\u2019ve shown that around every point in $f^{-1}(n)$ there is\nan open neighbourhood of that point contained in $f^{-1}(n)$. This shows\nthat $f^{-1}(n)$ is open, which completes the proof. $\\square$\\\n\\\n**Corollary.** Assume that $X$ is a connected, locally Euclidean space.\nThen local dimension is constant, i.e. there exists natural number\n$n\\in\\mathbb{N}$ such that for any $y\\in X$ we have\n$$\\mathrm{dim}_{y}X=n.$$ *Proof.* Consider the mapping\n$f:X\\to\\mathbb{N}$ such that $f(y)=\\mathrm{dim}_{y}X$. Proposition shows\nthat $f$ is continuous. Therefore $f(X)$ is connected, because $X$ is.\nBut $\\mathbb{N}$ has discrete topology, so there are no other connected\nsubsets then points. Thus there is $n\\in\\mathbb{N}$ such that\n$f(X)=\\{n\\}$, which completes the proof. $\\square$\\\n\\\n**Remark.** Generally, local dimension need not be constant. For example\nconsider $X_1,X_2\\subseteq\\mathbb{R}^3$ such that\n$$X_1=\\{(x,0,0)\\ |\\ x\\in\\mathbb{R}\\}\\ \\ \\ \\ X_2=\\{(x,y,1)\\ |\\ x,y\\in\\mathbb{R}\\}.$$\nOne can easily show that $X=X_1\\cup X_2$ (with topology inherited from\n$\\mathbb{R}^3$) is locally Euclidean, but $\\mathrm{dim}_{(0,0,0)}X=1$\nand $\\mathrm{dim}_{(1,1,1)}X=2$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocalDimensionOfALocallyEuclideanSpace"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "local dimension of a locally Euclidean space"
+  ]
+}

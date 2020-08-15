@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G,H$ be groups, and let $f \\colon G \\to H$ be a group homomorphism.\nThen $f$ is injective if and only if ${\\operatorname{Ker}}(f)=\\{e_G\\}$,\nwhere $e_G$ is the identity element of $G$, and ${\\operatorname{Ker}}$\ndenotes the kernel of $f$ (see also Kernel of a group homomorphism).\n\nFirst assume that $f$ is injective (i.e.\n$f(g_1)=f(g_2) \\Rightarrow g_1=g_2$). Recall that:\n$${\\operatorname{Ker}}(f)=\\{ g\\in G : f(g)=e_H \\}$$ where $e_H$ is the\nidentity element of $H$. Since $f$ is a group homomorphism, it follows\nthat $f(e_G)=e_H$. Let $g\\in {\\operatorname{Ker}}(f)$, then\n$f(g)=e_H=f(e_G)$, which implies that $g=e_G$, by the injectivity of\n$f$. Thus ${\\operatorname{Ker}}(f)=\\{ e_G \\}$.\n\nFor the converse, we assume that ${\\operatorname{Ker}}(f)=\\{ e_G \\}$ and\nsuppose that $f(g_1)=f(g_2)$, for some $g_1,g_2 \\in G$. Since $f$ is a\nhomomorphism:\n$$f(g_1)=f(g_2) \\Rightarrow f(g_1)\\cdot f(g_2)^{-1}=e_H \\Rightarrow f(g_1\\cdot g_2^{-1})=e_H$$\nThus $g_1\\cdot g_2^{-1} \\in {\\operatorname{Ker}}(f)$, and the kernel is\ntrivial so $g_1\\cdot g_2^{-1}=e_G$, therefore $g_1=g_2$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AGroupHomomorphismIsInjectiveIffTheKernelIsTrivial"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a group homomorphism is injective iff the kernel is trivial"
+  ]
+}

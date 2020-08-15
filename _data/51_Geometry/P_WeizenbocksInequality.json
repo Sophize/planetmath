@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In a triangle with sides $a$, $b$, $c$, and with area $A$, the following\ninequality holds:\n\n$$a^2 + b^2 + c^2 \\geq 4A \\sqrt{3}$$ The proof goes like this: if\n$s=\\frac{a+b+c}{2}$ is the semiperimeter of the triangle, then from\nHeron\u2019s formula we have: $$A = \\sqrt{s(s-a)(s-b)(s-c)}$$ But by squaring\nthe latter and expanding the parentheses we obtain:\n$$16A^2 = 2(a^2 b^2 + a^2 c^2 + b^2 c^2) - (a^4 + b^4 + c^4)$$ Thus, we\nonly have to prove that:\n$$(a^2 + b^2 + c^2)^2 \\geq 3[2(a^2 b^2 + a^2 c^2 + b^2 c^2) - (a^4 + b^4 +\nc^4)]$$ or equivalently:\n$$4(a^4 + b^4 + c^4) \\geq 4(a^2 b^2 + a^2 c^2 + b^2 c^2)$$ which is\ntrivially equivalent to:\n$$(a^2 - b^2)^2 + (a^2 - c^2)^2 + (b^2 - c^2)^2 \\geq 0$$ Equality is\nachieved if and only if $a=b=c$ (i.e. when the triangle is equilateral)\n.\n\nSee also the Hadwiger-Finsler inequality, from which this result follows\nas a corollary.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeizenbocksInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Weizenbock's inequality"
+  ]
+}

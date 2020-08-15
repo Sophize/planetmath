@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $a,n \\in \\mathbb{Z}$ such that $\\gcd(a,n)=1$, then\n$a^{\\varphi (n)} \\equiv 1 \\operatorname{mod} n$, where $\\varphi$ is the\nEuler totient function.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulerFermatTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Euler-Fermat theorem",
+    "Euler's theorem"
+  ]
+}

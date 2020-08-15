@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A very classic problem is this: what is the sum of the numbers from $1$\nto $100$? The answer is $5050$, and there are a number of ways to see\nit. Before stating them, we generalize the problem somewhat: What is\n$\\sum_{k=1}^n k$?\n\n$$\\sum_{k=1}^n k = \\frac{n(n+1)}{2}$$\n\nWrite the sum twice: $$\\begin{array}{cccccccccc}\n  & 1   & + & 2     & + & 3     & + & \\cdots & + & n \\\\\n+ & n   & + & (n-1) & + & (n-2) & + & \\cdots & + & 1 \\\\\n= & n+1 & + & n+1   & + & n+1   & + & \\cdots & + & n+1 \\\\\n\\end{array}$$ which is exactly $n(n+1)$, so\n$$\\sum_{k=1}^n k = \\frac{n(n+1)}{2}.\\qedhere$$\n\nHaving seen this, it is natural to generalize this question further, and\nask: What is $\\sum_{k=1}^n k^r$, for any integer $r>0$?\n\nThis question, being so general, does not have such a tidy answer, but\nit can be solved.\n\nLet $B_m$ denote the $m$th Bernoulli number, and let $r$ be a positive\ninteger. Then\n$$\\sum_{k=0}^n k^r = \\sum_{l=1}^{r+1} \\binom{r+1}{l}\\frac{B_{r+1-l}}{r+1}(n+1)^l.$$\n\nObserve that this formula is a polynomial in $n$ of $r+1$; for a given\n$r$, we can look up all the Bernoulli numbers we need and write down the\npolynomial explicitly. For example:\n$$1^2 + 2^2 + 3^2 + \\cdots + n^2 = \\frac{n(n+1)(2n+1)}{6},$$\n$$1^3 + 2^3 + 3^3 + \\cdots + n^3 = \\frac{(n(n+1))^2}{4},$$ and\n$$1^4 + 2^4 + 3^4 + \\cdots + n^4 = \\frac{n(2n+1)(n+1)(3n^2+3n-1)}{30}.$$\n\nWe will prove the result by a generating function argument.\n\nFor no obvious reason, let\n$$f_n(x) := \\frac{x(e^{(n+1)x} - 1)}{(e^x-1)}.$$\n\nOn the one hand, we have\n$$f_n(x) = x\\frac{1-(e^x)^{n+1}}{1-e^x} = x\\sum_{k=0}^{n} e^{kx},$$ and\nso the coefficient of $x^{r+1}$ is $\\sum_{k=0}^{n} k^r/r!$, more or less\nthe sum we want.\n\nOn the other hand, using the definition of the Bernoulli numbers,\n$$\\begin{aligned}\nf_n(x) & = (e^{(n+1)x}-1) \\sum_{j=0}^{\\infty} B_j \\frac{x^j}{j!}\\\\\n       & = \\sum_{l=1}^{\\infty} \\sum_{j=0}^{\\infty} B_j (n+1)^l \\frac{x^{l+j}}{l!j!}\\end{aligned}$$\nso the coefficient of $x^{r+1}$ is\n$$\\sum_{l=1}^{r+1} \\frac{(n+1)^l}{l!}\\frac{B_{r+1-l}}{(r+1-l)!}.$$\n\nCombining these two results, we get\n$$\\sum_{k=0}^n k^r = \\sum_{l=1}^{r+1} \\binom{r+1}{l}\\frac{B_{r+1-l}}{r+1}(n+1)^l.\\qedhere$$\n\nObserve that we need not use the Bernoulli numbers directly; any way we\ncan extract the Taylor coefficients of $f_n$ will give us the same\nresults. In practical terms, we can hand $f_n$ to a computer algebra\nsystem and it will print out the needed formula.\n\nThis proof is given as Exercise 2.23 in .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SumOfRthPowersOfTheFirstNPositiveIntegers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "sum of $r$th powers of the first $n$ positive integers"
+  ]
+}

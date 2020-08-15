@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "boundedly homogeneous"
+  ],
+  "definition": "A function $f\\!: \\mathbb{R}^n \\to \\mathbb{R}$, where $n$ is a positive\ninteger, is called *boundedly homogeneous* with respect to a set\n$\\Lambda$ of positive reals and a real number $r$, if the equation\n$$f(\\lambda \\vec{x}) \\;=\\; \\lambda^r f(\\vec{x})$$ is true for all and\n$\\vec{x} \\in \\mathbb{R}^n$ and $\\lambda \\in \\Lambda$. Then $\\Lambda$ is\nthe *set of homogeneity* and $r$ the *degree of homogeneity* of $f$.\\\n**Example.** The function $x \\mapsto x^r\\sin(\\ln{x})$ is boundedly\nhomogeneous with respect to the set\n$\\Lambda = \\{e^{2\\pi\\nu}\\,\\vdots\\;\\; \\nu \\in \\mathbb{Z}\\}$ and with\ndegree of homogeneity $r$.\\\n**Theorem.** Let $f\\!: \\mathbb{R}_+ \\to \\mathbb{R}$ be a boundedly\nhomogeneous function with the degree of homogeneity $r$ and the set of\nhomogeneity $\\Lambda \\supset \\{1\\}$. Then $f$ is of the form\n$$\\begin{aligned}\nf(x) \\;=\\; x^rf_1(\\ln{x})\\end{aligned}$$ where\n$f_1\\!: \\mathbb{R} \\to \\mathbb{R}$ is a periodic real function depending\non $f$.\n\n*Proof.* Defining $g(x) := \\frac{f(x)}{x^r}$, we obtain\n$$g(\\lambda x) \\;=\\; \\frac{f(\\lambda x)}{(\\lambda x)^r} \\;=\\; \\frac{\\lambda^rf(x)}{\\lambda^rx^r} \\;=\\; \\lambda^0g(x) \n\\quad \\forall \\lambda \\in \\Lambda.$$ Thus $g$ is a boundedly homogeneous\nfunction with the set of homogeneity $\\Lambda$ and the degree of\nhomogeneity 0. Moreover, define $f_1(x) := g(e^x)$. If\n$\\lambda \\in \\Lambda\\!\\smallsetminus\\!\\{1\\}$ and $p := \\ln\\lambda$, we\nsee that\n$$f_1(x\\!+\\!p) \\;=\\; g(e^xe^p) \\;=\\; g(e^x\\lambda) \\;=\\; g(e^x) \\;=\\; f_1(x) \\quad \\forall x \\in \\mathbb{R}_+.$$\nTherefore, $f_1$ is periodic and (1) is in .\n\n[8]{} : \u201cBemerkung zu beschr\u00e4nkt homogenen Funktionen\u201d. \u2013 *Elemente der\nMathematik* **54** (1999).",
+  "language": "INFORMAL",
+  "phrase": "Boundedly Homogeneous Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundedlyHomogeneousFunction"
+    }
+  ],
+  "indexable": true
+}

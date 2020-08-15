@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A poset is said to be *chain finite* if every chain with both and\nminimal element is finite.\n\n$\\mathbb{Z}$ with the standard order relation is chain finite, since any\ninfinite subset of $\\mathbb{Z}$ must be above or below. $\\mathbb{Q}$\nwith the standard order relation is not chain finite, since for example\n$\\{ x \\in\\nobreak \\mathbb{Q} \\,\\mid\\, 0 \\leqslant\\nobreak x \\leqslant\\nobreak 1 \\}$\nis infinite and has both a maximal element $1$ and a minimal element\n$0$.\n\nChain finiteness is often used to draw conclusions about an order from\ninformation about its covering relation (or equivalently, from its Hasse\ndiagram).",
+  "language": "INFORMAL",
+  "phrase": "Chain Finite",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ChainFinite"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The roots of the quadratic equation\n$$ax^2+bx+c=0\\qquad{a,b,c\\in{\\mathbbmss{R}},a\\neq 0}$$ are given by the\nformula $$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}.$$\n\nThe number $\\Delta=b^2-4ac$ is called the *discriminant* of the\nequation. If $\\Delta>0$, there are two different real roots, if\n$\\Delta=0$ there is a single real root, and if $\\Delta<0$ there are no\nreal roots (but two different complex roots).\n\nLet\u2019s work a few examples.\n\nFirst, consider $2x^2-14x+24=0$. Here $a=2$, $b=-14$, and $c=24$.\nSubstituting in the formula gives us\n$$x=\\frac{14\\pm \\sqrt{(-14)^2-4\\cdot2\\cdot24}}{2\\cdot 2}\n   =\\frac{14\\pm\\sqrt{4}}{4}\n   =\\frac{14\\pm2}{4}\n   =\\frac{7\\pm1}{2}.$$ So we have two solutions (depending on whether we\ntake the sign $+$ or $-$): $x=\\frac{8}{2}=4$ and $x=\\frac{6}{2}=3$.\n\nNow we will solve $x^2-x-1=0$. Here $a=1$, $b=-1$, and $c=-1$, so\n$$x=\\frac{1\\pm\\sqrt{(-1)^2-4(1)(-1)}}{2}\n   =\\frac{1\\pm{\\sqrt{5}}}{2},$$ and the solutions are\n$x=\\frac{1+\\sqrt{5}}{2}$ and $x=\\frac{1-\\sqrt{5}}{2}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuadraticFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "quadratic formula"
+  ]
+}

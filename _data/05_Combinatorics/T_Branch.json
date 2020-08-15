@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A subset $B$ of a tree $(T,<_T)$ is a *branch* if $B$ is a maximal\nlinearly ordered subset of $T$. That is:\n\n-   $<_T$ is a linear ordering of $B$\n\n-   If $t\\in T\\setminus B$ then $B\\cup \\{t\\}$ is not linearly ordered by\n    $<_T$.\n\nThis is the same as the intuitive conception of a branch: it is a set of\nnodes starting at the root and going all the way to the tip (in infinite\nsets the conception is more complicated, since there may not be a tip,\nbut the idea is the same). Since branches are maximal there is no way to\nadd an element to a branch and have it remain a branch.\n\nA *cofinal branch* is a branch which intersects every level of the tree.",
+  "language": "INFORMAL",
+  "phrase": "Branch",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Branch"
+    }
+  ],
+  "indexable": true
+}

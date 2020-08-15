@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $(\\Omega,\\mathcal{F},(\\mathcal{F}_t)_{t\\in\\mathbb{R}_+},\\mathbb{P})$\nbe a filtered probability space, $\\mathcal{M}$ be a sub-$\\sigma$-algebra\nof $\\mathcal{B}(\\mathbb{R}_+)\\otimes\\mathcal{F}$, and $S$ be a set of\nreal valued functions on $\\mathbb{R}_+$ which is under uniform\nconvergence on compacts. We show that both the set of\n$\\mathcal{M}$-measurable processes and the set of jointly measurable\nprocesses with sample paths almost surely in $S$ are under ucp\nconvergence. The method used will be to show that we can pass to a\nsubsequence which almost surely converges uniformly on compacts.\n\nWe start by writing out the metric generating the topology of uniform\nconvergence on compacts (compact-open topology) for functions\n$\\mathbb{R}_+\\rightarrow\\mathbb{R}$. This is the same as uniform\nconvergence on each of the bounded intervals $[0,n)$ for positive\nintegers $n$,\n$$d(X)\\equiv\\sum_{n=1}^\\infty 2^{-n}\\min\\left(1,\\sup_{t<n}|X_t|\\right).$$\nThen, the metric is $(X,Y)\\mapsto d(X-Y)$. Convergence under the ucp\ntopology is given by $$D^{\\rm ucp}(X)=\\mathbb{E}[d(X)]$$ for any jointly\nmeasurable stochastic process $X$, with the (pseudo)metric being\n$(X,Y)\\mapsto D^{\\rm ucp}(X-Y)$.\n\nNow, suppose that $X^n$ is a sequence of jointly measurable processes\nsuch that $X^n-X^m\\xrightarrow{\\rm ucp} 0$ as $m,n\\rightarrow\\infty$.\nThen, $D^{\\rm ucp}(X^n-X^m)\\rightarrow 0$ and we may pass to a\nsubsequence $X^{n_k}$ satisfying\n$D^{\\rm ucp}(X^{n_j}-X^{n_k})\\le 2^{-j}$ whenever $k>j$. So,\n$$\\mathbb{E}\\left[\\sum_k d(X^{n_k}-X^{n_{k+1}})\\right]=\\sum_kD^{\\rm ucp}(X^{n_k}-X^{n_{k+1}})\\le\\sum_k2^{-k}=1.$$\nIn particular, this shows that $\\sum_k d(X^{n_{k}}-X^{n_{k+1}})$ is\nalmost surely finite and, therefore,\n$$d(X^{n_j}-X^{n_k})\\le \\sum_{i=j}^{k-1}d(X^{n_i}-X^{n_{i+1}})\\rightarrow 0$$\nas $k>j\\rightarrow \\infty$, with probability one.\n\nSo, the sequence $X^{n_k}$ is almost surely , under the topology of\nuniform convergence on compacts. We set $$X_t(\\omega)\\equiv\\left\\{\n\\begin{array}{ll}\n\\lim_{k\\rightarrow\\infty}X^{n_k}_t(\\omega),&\\textrm{if the limit exists},\\\\\n0,&\\textrm{otherwise}.\n\\end{array}\n\\right.$$ As measurability of real valued functions is preserved under\npointwise convergence, it follows that if $X^n$ are\n$\\mathcal{M}$-measurable, then so is $X$. In particular, $X$ is a\njointly measurable process. Furthermore, since convergence is almost\nsurely uniform on compacts, if $X^n$ have sample paths in $S$ with\nprobability one then so does $X$.\n\nIt only remains to show that $X^n\\xrightarrow{\\rm ucp}X$. However, we\nhave already shown that $d(X^{n_k}-X)\\rightarrow 0$ with probability\none, hence $D^{\\rm ucp}(X^{n_k}-X)\\rightarrow 0$.\n$$D^{\\rm ucp}(X^n-X)\\le D^{\\rm ucp}(X^n-X^{n_{k}})+D^{\\rm ucp}(X^{n_k}-X).$$\nLetting $k$ go to infinity, this is bounded by\n$\\sup_{m>n}D^{\\rm ucp}(X^n-X^m)$, which goes to zero as\n$n\\rightarrow\\infty$.",
+  "conclusion": "#P_CompletenessUnderUcpConvergence",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfCompletenessUnderUcpConvergence"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of completeness under ucp convergence"
+  ]
+}

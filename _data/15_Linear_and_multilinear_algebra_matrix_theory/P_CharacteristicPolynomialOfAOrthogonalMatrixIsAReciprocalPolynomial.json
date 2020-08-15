@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The characteristic polynomial of a orthogonal matrix is a reciprocal\npolynomial\n\nLet $A$ be the orthogonal matrix, and let\n$p(\\lambda) = \\det(A-\\lambda I)$ be its characteristic polynomial. We\nwish to prove that $$p(\\lambda) = \\pm \\lambda^n p(1/\\lambda).$$ Since\n$A^{-1}=A^T$, we have $A-\\lambda I=-\\lambda A (A^T-I/\\lambda ).$ Taking\nthe determinant of both sides, and using $\\det A = \\det A^T$ and\n$\\det c A = c^n \\det A$ ($c\\in \\mathbb{C}$), yields\n$$\\det (A-\\lambda I) = \\pm \\lambda^n \\det(A-\\frac{1}{\\lambda} I).$$\n\n[9]{} H. Eves, *Elementary Matrix Theory*, Dover publications, 1980.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacteristicPolynomialOfAOrthogonalMatrixIsAReciprocalPolynomial"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "characteristic polynomial of a orthogonal matrix is a reciprocal polynomial"
+  ]
+}

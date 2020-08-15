@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "$L^p$ space",
+    "essentially bounded function"
+  ],
+  "definition": "#### Definition\n\nLet $(X, {\\mathfrak{B}}, \\mu)$ be a measure space. Let $0<p < \\infty$.\nThe *${{L^{p}}}$-norm* of a function $f:X\\rightarrow {\\mathbb{C}}$ is\ndefined as\n$${\\left|\\left|f\\right|\\right|}_{p} {:=}\\left(\\int_{X}  {\\left|f\\right|}^p d\\mu \\right)^{\\frac{1}{p}}$$\nwhen the integral exists. The set of functions with finite\n${{L^{p}}}$-norm forms a vector space $V$ with the usual pointwise\naddition and scalar multiplication of functions. In particular, the set\nof functions with zero ${{L^{p}}}$-norm form a linear subspace of $V$,\nwhich for this article will be called $K$. We are then interested in the\nquotient space $V/K$, which consists of complex functions on $X$ with\nfinite ${{L^{p}}}$-norm, identified up to equivalence almost everywhere.\nThis quotient space is the complex ${{L^{p}}}$-space on $X$.\n\n#### Theorem\n\nIf $1 \\leq p < \\infty$, the vector space $V/K$ is complete with respect\nto the ${{L^{p}}}$ norm.\n\n#### The space ${{L^{\\infty}}}$.\n\nThe space ${{L^{\\infty}}}$ is somewhat special, and may be defined\nwithout explicit reference to an integral. First, the\n${{L^{\\infty}}}$-norm of $f$ is defined to be the essential supremum of\n${\\left|f\\right|}$:\n$${\\left|\\left|f\\right|\\right|}_{\\infty} {:=}{\\mathrm{ess\\ sup}}{\\left|f\\right|} = \\inf {\\left\\{a \\in {\\mathbb{R}}: \\mu({\\left\\{x: {\\left|f(x)\\right|} > a\\right\\}}) = 0\\right\\}}$$\nHowever, if $\\mu$ is the trivial measure, then essential supremum of\nevery measurable function is defined to be 0.\n\nThe definitions of $V$, $K$, and ${{L^{\\infty}}}$ then proceed as above,\nand again we have that $L^\\infty$ is complete. Functions in\n${{L^{\\infty}}}$ are also called [*essentially bounded*]{}.\n\n#### Example\n\nLet $X = [0,1]$ and $f(x) = \\frac{1}{\\sqrt{x}}$. Then\n$f \\in {{L^{1}}}(X)$ but $f \\notin {{L^{2}}}(X)$.",
+  "language": "INFORMAL",
+  "phrase": "$L^P$-Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Lpspace"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a topological space and $A\\subset X$. A point $x\\in X$ is\ncalled a [*condensation point*]{} of $A$ if every open neighbourhood of\n$x$ contains *uncountably* many points of $A$.\n\nFor example, if $X=\\mathbb R$ and $A$ any subset, then any accumulation\npoint of $A$ is automatically a condensation point. But if $X=\\mathbb Q$\nand $A$ any subset, then $A$ does not have any condensation points at\nall.\n\nWe have further classifications of [*condensation point*]{} where the\ntopological space is an ordered field. Namely,\n\n1.  [*unilateral condensation point:*]{} $x$ is a condensation point of\n    $A$ and there is a positive $\\epsilon$ with either\n    $(x-\\epsilon,x)\\cap A$ countable or $(x,x+\\epsilon)\\cap A$\n    countable.\n\n2.  [*bilateral condensation point:*]{} For all $\\epsilon>0$, we have\n    both $(x-\\epsilon,x)\\cap A$ and $(x,x+\\epsilon)\\cap A$ uncountable.\n\n    If $\\kappa$ is any cardinal (i.e. an ordinal which is the least\n    among all ordinals of the same cardinality as itself), then a\n    $\\kappa$-condensation point can be defined similarly.",
+  "language": "INFORMAL",
+  "phrase": "Condensation Point",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CondensationPoint"
+    }
+  ],
+  "indexable": true
+}

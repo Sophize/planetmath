@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $U \\subset {\\mathbb{R}}^n$ be an open set.\n\nLet $f \\colon U \\to {\\mathbb{R}}$ be a function such that there exists a\nconstant $C > 0$ and an integer $k \\geq 0$ such that for each $x \\in U$\nthere is a polynomial $p_x(y)$ of $k$ where\n$$\\lvert f(x+y) - p_x(y) \\rvert \\leq C \\lvert y \\rvert^{k+1}$$ for $y$\nnear 0. Then $f \\in C^k(U)$ ($f$ is $k$ continuously differentiable) and\nthe of $k$ of $f$ about any $x \\in U$ is given by $p_x$.\n\nNote that when $k=0$ the hypothesis of the theorem is just that $f$ is\nLipschitz in $U$ which certainly makes it continuous in $U$.\n\n[9]{} Steven G. Krantz, Harold R. Parks. [**]{}. Birkh\u00e4user, Boston,\n2002.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConverseToTaylorsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "converse to Taylor's theorem",
+    "Taylor's theorem converse"
+  ]
+}

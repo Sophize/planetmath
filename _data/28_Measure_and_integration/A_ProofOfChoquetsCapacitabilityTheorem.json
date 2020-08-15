@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $(X,\\mathcal{F})$ be a paved space such that $\\mathcal{F}$ is closed\nunder finite unions and finite intersections, and let $I$ be an\n$\\mathcal{F}$-. We prove the capacitability theorem, which states that\nall $\\mathcal{F}$- sets are $(\\mathcal{F},I)$-. The idea is to deduce it\nfrom the following special case.\n\nWith the above notation, every set in $\\mathcal{F}_{\\sigma\\delta}$ is\n$(\\mathcal{F},I)$-capacitable.\n\nRecall that $\\mathcal{F}_{\\sigma\\delta}$ is the collection of countable\nintersections of countable unions in $\\mathcal{F}$ and, since countable\nunions and intersections of analytic sets are analytic, all such sets\nare analytic. According to the capacitability theorem they should then\nbe capacitable, and the lemma is indeed a special case.\n\nSupposing that the lemma is true, then the capacitability theorem can be\ndeduced as follows. For an $\\mathcal{F}$-analytic set $A\\subseteq X$,\nthere is a $(K,\\mathcal{K})$ and\n$S\\in(\\mathcal{F}\\times\\mathcal{K})_{\\sigma\\delta}$ such that\n$A=\\pi_X(S)$, where $\\pi_X$ is the projection map from $X\\times K$ to\n$X$. Letting $\\mathcal{G}$ be the closure under finite unions and finite\nintersections of the paving $\\mathcal{F}\\times\\mathcal{K}$, then the\ncomposition $I\\circ\\pi_X$ is a $\\mathcal{G}$-capacity, and the\nprojection of any $(\\mathcal{G},I\\circ\\pi_X)$-capacitable set onto $X$\nis itself $(\\mathcal{F},I)$-capacitable (see ). In particular,\n$S\\in\\mathcal{G}_{\\sigma\\delta}$ so, by the lemma, is\n$(\\mathcal{G},I\\circ\\pi_X)$-capacitable. Therefore, $A=\\pi_X(S)$ is\n$(\\mathcal{F},I)$-capacitable. It only remains to prove the lemma.\n\nIf $S\\in\\mathcal{F}_{\\sigma\\delta}$ then there exists\n$S_{m,n}\\in\\mathcal{F}$ such that $$S =\\bigcap_n\\bigcup_mS_{m,n}.$$ For\nany positive integers $m_1,m_2,\\ldots,m_k$ let us write\n$$S(m_1,m_2,\\ldots,m_k)\\equiv\\left(\\bigcap_{n\\le k}\\bigcup_{m\\le m_n}S_{m,n}\\right)\\bigcap\\left(\\bigcap_{n>k}\\bigcup_mS_{m,n}\\right).$$\nIn particular, $S()=S$ and, $I(S())=I(S)$. For any $\\epsilon>0$ and\n$k\\in\\mathbb{N}$ suppose that we have chosen positive integers\n$m_1,\\dots,m_{k-1}$ such that $I(S(m_1,\\ldots,m_{k-1}))>I(S)-\\epsilon$.\nSince $I$ is a capacity and $S(m_1,\\ldots,m_k)$ increases to\n$S(m_1,\\ldots,m_{k-1})$ as $m_k$ increases to infinity,\n$$I(S(m_1,\\ldots,m_{k}))\\rightarrow I(S(m_1,\\ldots,m_{k-1}))$$ as $m_k$\ntends to infinity. So, by choosing $m_k$ large enough, we have\n$$I(S(m_1,\\ldots,m_k))>I(S)-\\epsilon.$$ Then, by induction, we can find\nan infinite sequence $m_1,m_2,\\ldots$ such that this inequality holds\nfor every $k$. Setting $$\\begin{aligned}\n&A_k\\equiv\\bigcap_{n\\le k}\\bigcup_{m\\le m_n}S_{m,n}\\in\\mathcal{F},\\\\\n&A\\equiv\\bigcap_n\\bigcup_{m\\le m_n}S_{m,n}=\\bigcap_kA_k\\in\\mathcal{F}_\\delta,\\end{aligned}$$\nthen $A\\subseteq S$. Furthermore, $A_k$ contains $S(m_1,\\ldots,m_k)$ and\ndecreases to $A$ as $k$ tends to infinity. As $I$ is an\n$\\mathcal{F}$-capacity this gives\n$$I(A)=\\lim_{k\\rightarrow\\infty}I(A_k)\\ge\\lim_{k\\rightarrow\\infty}I(S(m_1,\\ldots,m_k))\\ge I(S)-\\epsilon.$$\nSo $S$ is $(\\mathcal{F},I)$-capacitable, as required.",
+  "conclusion": "#P_ChoquetsCapacitabilityTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfChoquetsCapacitabilityTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Choquet's capacitability theorem"
+  ]
+}

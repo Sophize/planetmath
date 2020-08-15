@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A point of a topological space is in the closure of a subspace if and\nonly if there is a net of points of the subspace converging to the\npoint.\n\nLet $X$ be a topological space, $x$ a point of $X$, and $A$ a subspace\nof $X$. Suppose first that $x\\in\\bar{A}$, and let $\\mathcal{U}$ be the\ncollection of neighborhoods of $x$, by reverse . For each\n$U\\in\\mathcal{U}$, select a point $x_U\\in U\\cap A$ (such a point is\nguaranteed to exist because $x\\in\\bar{A}$); then\n$(x_U)_{U\\in\\mathcal{U}}$ is a net of points in $A$, and we claim that\n$x_U\\rightarrow x$. To see this, let $V$ be a neighborhood of $x$ in\n$X$, and note that, by construction, $x_V\\in V$; furthermore, if\n$U\\in\\mathcal{U}$ satisfies $V\\supset U$, then because $x_U\\in U$,\n$x_U\\in V$. It follows that $x_U\\rightarrow x$. Conversely, suppose\nthere exists a net $(x_\\alpha)_{\\alpha\\in J}$ of points of $A$\nconverging to $x$, and let $U\\subset X$ be a neighborhood of $x$. Since\n$x_\\alpha\\rightarrow x$, there exists $\\beta\\in J$ such that\n$x_\\alpha\\in U$ whenever $\\beta\\preceq\\alpha$. Because $x_\\alpha\\in A$\nfor each $\\alpha\\in J$ by hypothesis, we may conclude that\n$U\\cap A\\neq\\emptyset$, hence that $x\\in\\bar{A}$.\n\nThe forward implication of the preceding is a generalization of the\nresult that a point of a topological space is in the closure of a\nsubspace if there is a *sequence* of points of the subspace converging\nto the point, as a sequence is just a net with the positive integers as\nits ; however, the converse (if a point is in the closure of a subspace\nthen there exists a sequence of points of the subspace converging to the\npoint) requires the additional condition that the ambient topological\nspace be first countable.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NetsAndClosuresOfSubspaces"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "nets and closures of subspaces"
+  ]
+}

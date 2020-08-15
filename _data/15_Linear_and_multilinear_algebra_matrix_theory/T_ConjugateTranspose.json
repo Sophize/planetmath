@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "adjoint matrix",
+    "Hermitian conjugate",
+    "tranjugate"
+  ],
+  "definition": "[**Definition**]{} If $A$ is a complex matrix, then the *conjugate\ntranspose* $A^\\ast$ is the matrix $A^\\ast = \\bar{A}\\dtra$, where\n$\\bar{A}$ is the complex conjugate of $A$, and $A\\dtra$ is the transpose\nof $A$.\n\nIt is clear that for real matrices, the conjugate transpose coincides\nwith the transpose.\n\n### Properties\n\n1.  If $A$ and $B$ are complex matrices of same size, and $\\alpha,\\beta$\n    are complex constants, then $$\\begin{aligned}\n      (\\alpha A + \\beta B)^\\ast &=& \\overline{\\alpha} A^\\ast + \\overline{\\beta} B^\\ast,\\\\\n      A^{\\ast\\ast} &=& A.\\end{aligned}$$\n\n2.  If $A$ and $B$ are complex matrices such that $AB$ is defined, then\n    $$(AB)^\\ast = B^\\ast A^\\ast.$$\n\n3.  If $A$ is a complex square matrix, then $$\\begin{aligned}\n     \\det (A^\\ast) &=& \\overline{ \\det{A}}, \\\\\n    \\operatorname{trace}(A^\\ast) &=& \\overline{ \\operatorname{trace}{A}}, \\\\\n    (A^\\ast)^{-1} &=& (A^{-1})^\\ast,\\end{aligned}$$ where\n    $\\operatorname{trace}$ and $\\operatorname{det}$ are the trace and\n    the determinant operators, and $^{-1}$ is the inverse operator.\n\n4.  Suppose $\\langle \\cdot, \\cdot \\rangle$ is the standard inner product\n    on ${\\mathbb{C}}^n$. Then for an arbitrary complex $n\\times n$\n    matrix $A$, and vectors $x,y\\in {\\mathbb{C}}^n$, we have\n    $$\\langle Ax,y\\rangle = \\langle x,A^\\ast y \\rangle.$$\n\n### Notes {#notes .unnumbered}\n\nThe conjugate transpose of $A$ is also called the *adjoint matrix* of\n$A$, the *Hermitian conjugate* of $A$ (whence one usually writes\n$A^\\ast = A\\htra$). The notation $A^\\dagger$ is also used for the\nconjugate transpose [@pease]. In [@eves], $A^\\ast$ is also called the\n*tranjugate* of $A$.\n\n[9]{} H. Eves, *Elementary Matrix Theory*, Dover publications, 1980. M.\nC. Pease, *Methods of Matrix Algebra*, Academic Press, 1965.\n\n### See also {#see-also .unnumbered}\n\n-   Wikipedia,",
+  "language": "INFORMAL",
+  "phrase": "Conjugate Transpose",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConjugateTranspose"
+    }
+  ],
+  "indexable": true
+}

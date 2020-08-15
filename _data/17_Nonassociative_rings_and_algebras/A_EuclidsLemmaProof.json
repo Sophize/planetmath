@@ -1,0 +1,17 @@
+{
+  "argumentText": "We have $a|bc$, so $bc=na$, with $n$ an integer. Dividing both sides by\n$a$, we have $$\\frac{bc}{a}=n$$ But $\\gcd(a,b)=1$ implies $b/a$ is only\nan integer if $a=1$. So $$\\frac{bc}{a} = b \\frac{c}{a} = n$$ which means\n$a$ must divide $c$.\n\nNote that this proof relies on the Fundamental Theorem of Arithmetic.\nThe alternative proof of Euclid\u2019s lemma avoids this.",
+  "conclusion": "#P_EuclidsLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EuclidsLemmaProof"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "Euclid's lemma proof"
+  ]
+}

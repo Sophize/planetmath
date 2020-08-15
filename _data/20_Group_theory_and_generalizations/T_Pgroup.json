@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "p-group",
+    "p-primary group",
+    "primary group"
+  ],
+  "definition": "Primary groups {#primary-groups .unnumbered}\n==============\n\nLet $p$ be a prime number. A *$p$-group* (or *$p$-primary group*) is a\ngroup in which the order of every element is a power of $p$. A group\nthat is a $p$-group for some prime $p$ is also called a *primary group*.\n\nUsing Lagrange\u2019s Theorem and Cauchy\u2019s Theorem one may show that a finite\ngroup $G$ is a $p$-group if and only if $|G|$ is a power of $p$.\n\nPrimary subgroups {#primary-subgroups .unnumbered}\n=================\n\nA *$p$-subgroup* (or *$p$-primary subgroup*) of a group $G$ is a $H$ of\n$G$ such that $H$ is also a $p$-group. A group that is a $p$-subgroup\nfor some prime $p$ is also called a *primary subgroup*.\n\nIt follows from Zorn\u2019s Lemma that every group has a maximal\n$p$-subgroup, for every prime $p$. The maximal $p$-subgroup need not be\nunique (though for abelian groups it is always unique, and is called the\n*$p$-primary component* of the abelian group). A maximal $p$-subgroup\nmay, of course, be trivial. Non-trivial maximal $p$-subgroups of finite\ngroups are called .",
+  "language": "INFORMAL",
+  "phrase": "$P$-Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Pgroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a commutative ring and $X$ be a set of non-commuting\nvariables over $R$. The *standard identity of degree* $n$ in\n$R\\langle X \\rangle$, denoted by $[x_1,\\ldots\\,x_n]$, is the polynomial\n$$\\sum_{\\pi} \\operatorname{sign}(\\pi)x_{\\pi(1)}\\cdots x_{\\pi(n)},\\mbox{ where }\\pi \\in S_n.$$\n\n**Remarks:**\n\n-   A ring $R$ satisfying the standard identity of degree 2 (i.e.,\n    $[R,R]=0$) is commutative. In this sense, algebras satisfying a\n    standard identity is a generalization of the class of commutative\n    algebras.\n\n-   Two immediate properties of $[x_1,\\ldots\\,x_n]$ are that it is\n    *multilinear* over $R$, and it is *alternating*, in the sense that\n    $[r_1,\\ldots\\,r_n]=0$ whenever two of the $r_i's$ are equal. Because\n    of these two properties, one can show that an n-dimensional algebra\n    $R$ over a field $k$ is a PI-algebra, satisfying the standard\n    identity of degree $n+1$. As a corollary, $\\mathbb{M}_n(k)$, the\n    $n\\times n$ matrix ring over a field $k$, is a PI-algebra satisfying\n    the standard identity of degree $n^2+1$. In fact, Amitsur and\n    Levitski have shown that $\\mathbb{M}_n(k)$ actually satisfies the\n    standard identity of degree $2n$.\n\n[7]{} S. A. Amitsur and J. Levitski, [*Minimal identities for\nalgebras*]{}, Proc. Amer. Math. Soc., 1 (1950) 449-463.",
+  "language": "INFORMAL",
+  "phrase": "Standard Identity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StandardIdentity"
+    }
+  ],
+  "indexable": true
+}

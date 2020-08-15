@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A matrix representation of a group $G$ is a group homomorphism between\n$G$ and $GL_n({\\mathbbmss{C}})$, that is, a function\n$$X:G\\to GL_n({\\mathbbmss{C}})$$ such that\n\n-   $X(gh)=X(g)X(h)$,\n\n-   $X(e)=I$\n\nNotice that this definition is equivalent to the group representation\ndefinition when the vector space $V$ is finite dimensional over\n${\\mathbbmss{C}}$. The parameter $n$ (or in the case of a group\nrepresentation, the dimension of $V$) is called the *degree* of the\nrepresentation.\n\n[9]{} Bruce E. Sagan. *The Symmetric Group: Representations,\nCombinatorial Algorithms and Symmetric Functions.* 2a Ed. 2000. Graduate\nTexts in Mathematics. Springer.",
+  "language": "INFORMAL",
+  "phrase": "Matrix Representation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MatrixRepresentation"
+    }
+  ],
+  "indexable": true
+}

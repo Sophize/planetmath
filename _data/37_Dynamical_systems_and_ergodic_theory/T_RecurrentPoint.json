@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a Hausdorff space and $f\\colon X\\to X$ a function. A point\n$x\\in X$ is said to be *recurrent* (for $f$) if $x\\in \\omega(x)$, i.e.\nif $x$ belongs to its $\\omega$- set. This means that for each\nneighborhood $U$ of $x$ there exists $n>0$ such that $f^n(x)\\in U$.\n\nThe closure of the set of recurrent points of $f$ is often denoted\n$R(f)$ and is called the *recurrent set* of $f$.\n\nEvery recurrent point is a nonwandering point, hence if $f$ is a\nhomeomorphism and $X$ is compact, $R(f)$ is an invariant subset of\n$\\Omega(f)$, which may be a proper subset.",
+  "language": "INFORMAL",
+  "phrase": "Recurrent Point",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RecurrentPoint"
+    }
+  ],
+  "indexable": true
+}

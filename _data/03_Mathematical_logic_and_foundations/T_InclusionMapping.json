@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "inclusion map",
+    "inclusion"
+  ],
+  "definition": "Let $X$ be a subset of $Y$. Then the [**inclusion map**]{} from $X$ to\n$Y$ is the mapping $$\\begin{aligned}\n\\iota: X&\\to& Y \\\\\n       x&\\mapsto& x.\\end{aligned}$$\n\nIn other words, the inclusion map is simply a fancy way to say that\nevery element in $X$ is also an element in $Y$.\n\nTo indicate that a mapping is an inclusion mapping, one usually writes\n$\\hookrightarrow$ instead of $\\to$ when defining or mentioning an\ninclusion map. This hooked arrow symbol $\\hookrightarrow$ can be seen as\ncombination of the symbols $\\subset$ and $\\to$. In the above definition,\nwe have not used this convention. However, examples of this convention\nwould be:\n\n-   Let $\\iota:X\\hookrightarrow Y$ be the inclusion map from $X$ to $Y$.\n\n-   We have the inclusion $S^n\\hookrightarrow {\\mathbb{R}}^{n+1}$.",
+  "language": "INFORMAL",
+  "phrase": "Inclusion Mapping",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InclusionMapping"
+    }
+  ],
+  "indexable": true
+}

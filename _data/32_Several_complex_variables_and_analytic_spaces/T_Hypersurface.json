@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ be a subset of ${\\mathbb{R}}^n$ such that for every point\n$p \\in M$ there exists a neighbourhood $U_p$ of $p$ in ${\\mathbb{R}}^n$\nand a continuously differentiable function\n$\\rho \\colon U \\to {\\mathbb{R}}$ with $\\operatorname{grad} \\rho \\not= 0$\non $U$, such that $$M \\cap U = \\{ x \\in U \\mid \\rho(x) = 0 \\} .$$ Then\n$M$ is called a [*hypersurface*]{}.\n\nIf $\\rho$ is in fact smooth then $M$ is a [*smooth hypersurface*]{} and\nsimilarly if $\\rho$ is real analytic then $M$ is a [*real analytic\nhypersurface*]{}. If we identify ${\\mathbb{R}}^{2n}$ with\n${\\mathbb{C}}^n$ and we have a hypersurface there it is called a [*real\nhypersurface*]{} in ${\\mathbb{C}}^n$. $\\rho$ is usually called the\n[*local defining function*]{}. Hypersurface is really special name for a\nsubmanifold of codimension 1. In fact if $M$ is just a topological\nmanifold of codimension 1, then it is often also called a hypersurface.\n\nA or complex analytic subvariety of codimension 1 (the zero set of a\nreal or complex analytic function) is called a [*singular\nhypersurface*]{}. That is the definition is the same as above, but we do\nnot require $\\operatorname{grad} \\rho \\not= 0$. Note that some authors\nleave out the word [*singular*]{} and then use [*non-singular\nhypersurface*]{} for a hypersurface which is also a manifold. Some\nauthors use the word [*hypervariety*]{} to describe a singular\nhypersurface.\n\nAn example of a hypersurface is the hypersphere (of radius 1 for\nsimplicity) which has the defining equation\n$$x_1^2 + x_2^2 + \\ldots + x_n^2 = 1 .$$\n\nAnother example of a hypersurface would be the boundary of a domain in\n${\\mathbb{C}}^n$ with smooth boundary.\n\nAn example of a singular hypersurface in ${\\mathbb{R}}^2$ is for example\nthe zero set of $\\rho(x_1,x_2) = x_1 x_2$ which is really just the two\naxis. Note that this hypersurface fails to be a manifold at the origin.\n\n[9]{} M. Salah Baouendi, Peter Ebenfelt, Linda Preiss Rothschild.\n[**]{}, Princeton University Press, Princeton, New Jersey, 1999.",
+  "language": "INFORMAL",
+  "phrase": "Hypersurface",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Hypersurface"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "In 1960 Wac[\u0142]{}aw Sierpi\u0144ski (1882-1969) proved the following\ninteresting result:\n\n**Theorem:** There exist infinitely many odd integers $k$ such that\n$k2^n + 1$ is composite for every integer $n \\geq 1$.\n\nA multiplier $k$ with this property is called a . The Sierpi\u0144ski problem\nconsists in determining the smallest Sierpi\u0144ski number. In 1962, John\nSelfridge discovered the Sierpi\u0144ski number $k = 78557$, which is now\nbelieved to be in fact the smallest such number.\n\n**Conjecture:** The integer $k = 78557$ is the smallest Sierpi\u0144ski\nnumber.\n\nTo prove the conjecture, it would be sufficient to exhibit a prime\n$k2^n+1$ for each $k < 78557$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SierpinskiConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Sierpi\\'nski conjecture",
+    "Sierpinski conjecture"
+  ]
+}

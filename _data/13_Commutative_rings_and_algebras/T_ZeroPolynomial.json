@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*zero polynomial*]{} in a ring $R[X]$ of polynomials over a ring\n$R$ is the identity element $\\textbf{0}$ of this polynomial ring:\n$$f\\!+\\!\\textbf{0} \\;=\\; \\textbf{0}\\!+\\!f \\;=\\; f \\quad\\forall\\, f\\in R[X]$$\nSo the zero polynomial is also the absorbing element for the\nmultiplication of polynomials.\n\nAll coefficients of the zero polynomial are equal to 0, i.e.\n$$\\textbf{0} \\;:=\\; (0,\\,0,\\,0,\\,...).$$\n\nBecause always $$f\\cdot\\textbf{0} \\;=\\; \\textbf{0}$$ and because in\ngeneral $\\deg(fg) = \\deg(f)+\\deg(g)$ when $R$ has no zero divisors, one\nmay define that that the zero polynomial has no at all, or alternatively\nthat $$\\deg(\\textbf{0}) \\;=\\; -\\infty$$ (see the extended real numbers).",
+  "language": "INFORMAL",
+  "phrase": "Zero Polynomial",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZeroPolynomial"
+    }
+  ],
+  "indexable": true
+}

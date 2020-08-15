@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Dedekind-MacNeille completion",
+    "normal completion"
+  ],
+  "definition": "In a first course on real analysis, one is generally introduced to the\nconcept of a Dedekind cut. It is a way of constructing the set of real\nnumbers from the rationals. This is a process commonly known as the\ncompletion of the rationals. Three key features of this completion are:\n\n-   the rationals can be embedded in its completion (the reals)\n\n-   every subset with an upper bound has a least upper bound\n\n-   every subset with a lower bound has a greatest lower bound\n\nIf we extend the reals by adjoining $+\\infty$ and $-\\infty$ and define\nthe appropriate ordering relations on this new extended set (the\nextended real numbers), then it is a set where every subset has a least\nupper bound and a greatest lower bound.\n\nWhen we deal with the rationals and the reals (and extended reals), we\nare working with linearly ordered sets. So the next question is: can the\nprocedure of a completion be generalized to an arbitrary poset? In other\nwords, if $P$ is a poset ordered by $\\le$, does there exist another\nposet $Q$ ordered by $\\le_Q$ such that\n\n1.  $P$ can be embedded in $Q$ as a poset (so that $\\le$ is compatible\n    with $\\le_Q$), and\n\n2.  every subset of $Q$ has both a least upper bound and a greatest\n    lower bound\n\nIn 1937, MacNeille answered this question in the affirmative by the\nfollowing construction:\n\n> Given a poset $P$ with order $\\le$, define for every subset $A$ of\n> $P$, two subsets of $P$ as follows:\n> $$A^u=\\lbrace p\\in P\\mid a\\le p\\mbox{ for all }a\\in A\\rbrace\\mbox{ and }A^{\\ell}=\\lbrace q\\in P\\mid q\\le a\\mbox{ for all }a\\in A\\rbrace.$$\n> Then $M(P):=\\lbrace A\\in 2^P \\mid (A^u)^{\\ell}=A\\rbrace$ ordered by\n> the usual set inclusion is a poset satisfying conditions (1) and (2)\n> above.\n\nThis is known as the *MacNeille completion* $M(P)$ of a poset $P$. In\n$M(P)$, since lub and glb exist for any subset, $M(P)$ is a complete\nlattice. So this process can be readily applied to any lattice, if we\ndefine a completion of a lattice to follow the two conditions above.\n\n[8]{} H. M. MacNeille, [*Partially Ordered Sets*]{}. Trans. Amer. Math.\nSoc. 42 (1937), pp 416-460 B. A. Davey, H. A. Priestley, [*Introduction\nto Lattices and Order*]{}, 2nd edition, Cambridge (2003)",
+  "language": "INFORMAL",
+  "phrase": "Macneille Completion",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MacNeilleCompletion"
+    }
+  ],
+  "indexable": true
+}

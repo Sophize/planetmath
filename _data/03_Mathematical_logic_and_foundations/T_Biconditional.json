@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "iff"
+  ],
+  "definition": "Biconditional\n=============\n\nA *biconditional* is a truth function that is true only in the case that\nboth parameters are true or both are false.\n\nSymbolically, the biconditional is written as\n\n$$a \\Leftrightarrow b$$ or $$a \\leftrightarrow b$$\n\nwith the latter being rare outside of formal logic. The truth table for\nthe biconditional is\n\n   a   b   $a \\Leftrightarrow b$\n  --- --- -----------------------\n   F   F             T\n   F   T             F\n   T   F             F\n   T   T             T\n\nThe biconditional function is often written as \u201ciff,\u201d meaning \u201cif and\nonly if.\u201d\n\nIt gets its name from the fact that it is really two conditionals in\nconjunction,\n\n$$(a \\rightarrow b) \\land (b \\rightarrow a)$$\n\nThis fact is important to recognize when writing a mathematical proof,\nas both conditionals must be proven independently.\n\nColloquial Usage\n================\n\nThe only unambiguous way of stating a biconditional in plain English is\nof the form \u201c$b$ if $a$ and $a$ if $b$.\u201d Slightly more formal, one would\nsay \u201c$b$ implies $a$ and $a$ implies $b$.\u201d The plain English \u201cif\u201d may\nsometimes be used as a biconditional. One must weigh context heavily.\n\nFor example, \u201cI\u2019ll buy you an ice cream if you pass the exam\u201d is meant\nas a biconditional, since the speaker doesn\u2019t intend a valid outcome to\nbe buying the ice cream whether or not you pass the exam (as in a\nconditional). However, \u201cit is cloudy if it is raining\u201d is *not* meant as\na biconditional, since it can obviously be cloudy while not raining.",
+  "language": "INFORMAL",
+  "phrase": "Biconditional",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Biconditional"
+    }
+  ],
+  "indexable": true
+}

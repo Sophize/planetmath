@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "Hopf-space",
+    "H space",
+    "Hopf space"
+  ],
+  "definition": "A topological space $X$ is said to be an *H-space* (or *Hopf-space*) if\nthere exists a continuous binary operation\n$\\varphi\\colon X\\times X\\to X$ and a point $p\\in X$ such that the\nfunctions $X\\to X$ defined by $x\\mapsto\\varphi(p,x)$ and\n$x\\mapsto\\varphi(x,p)$ are both homotopic to the identity map via\nhomotopies that leave $p$ fixed. The element $p$ is sometimes referred\nto as an \u2018identity\u2019, although it need not be an identity element in the\nusual sense. Note that the definition implies that $\\varphi(p,p)=p$.\n\nTopological groups are examples of H-spaces.\n\nIf $X$ is an H-space with \u2018identity\u2019 $p$, then the fundamental group\n$\\pi_1(X,p)$ is abelian. (However, it is possible for the fundamental\ngroup to be non-abelian for other choices of basepoint, if $X$ is not\npath-connected.)",
+  "language": "INFORMAL",
+  "phrase": "H-Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Hspace"
+    }
+  ],
+  "indexable": true
+}

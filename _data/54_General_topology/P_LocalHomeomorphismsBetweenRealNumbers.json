@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Proposition.** Let $I$ be an open interval and $f:I\\to\\mathbb{R}$ be a\ncontinuous map. Then $f$ is a local homeomorphism if and only if $f$ is\na homeomorphism onto image.\n\n*Proof.* ,,$\\Leftarrow$\u201d If $f$ is a homeomorphism onto image, then (in\nparticular) $f$ is monotonic and continuous, thus $f(I)$ is open in\n$\\mathbb{R}$ (please, see for more details). It is easy to see that\ntherefore $f$ is a local homeomorphism.\n\n,,$\\Rightarrow$\u201d Assume that $f$ is not a homeomorphism onto image. It\nis well known, that this implies that $f$ is not injective (please, see\nfor more details). Let $x,y\\in I$ be such that $x<y$ and $f(x)=f(y)$.\nThen there exists $c\\in I$ such that $x<c<y$ and $c$ is a local maximum\nof $f$. Thus (since $f$ is a Darboux function) for any $\\varepsilon>0$\nthere are points\n$x_{\\varepsilon}, y_{\\varepsilon}\\in(c-\\varepsilon,c+\\varepsilon)$ such\nthat $f(x_{\\varepsilon})=f(y_{\\varepsilon})$. This obviously implies\nthat $f$ cannot be locally inverted around $c$. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocalHomeomorphismsBetweenRealNumbers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "local homeomorphisms between real numbers"
+  ]
+}

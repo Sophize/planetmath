@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "topological minor"
+  ],
+  "definition": "A graph $H$ is said to be a *subdivision*, or *topological minor* of a\ngraph $G$, or a *topological $G$ graph* if $H$ is obtained from $G$ by\nsubdividing some of the edges, that is, by replacing the edges by paths\nhaving at most their endvertices in common. We often use $TG$ for a\ntopological $G$ graph.\n\nThus, $TG$ denotes *any* member of a large family of graphs; for\nexample, $TC_4$ is an arbitrary cycle of length at least 4. For any\ngraph $G$, the spaces $R(G)$ (denoting the realization of G) and $R(TG)$\nare homeomorphic.",
+  "language": "INFORMAL",
+  "phrase": "Subdivision",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Subdivision"
+    }
+  ],
+  "indexable": true
+}

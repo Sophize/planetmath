@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a totally-ordered set under an order $<$ having at least two\ndistinct points. Then $X$ is said to be a *linear continuum* if the\nfollowing two conditions are satisfied:\n\n1.  The order relation $<$ is a dense total order (i.e., for every\n    $x,y\\in X$ with $x<y$ there exists $z\\in X$ such that $x<z<y$).\n\n2.  Every non-empty subset of $X$ that is bounded above has a least\n    upper bound (i.e., $X$ has the least upper bound property).\n\nSome examples of ordered sets that are linear continua include\n$\\mathbb{R}$, the set $[0,1]\\times[0,1]$ in the dictionary order, and\nthe so-called long line $\\Omega\\times[0,1)$ in the dictionary topology.\n(The third example is a special case of a general result on well-ordered\nsets and linear continua.)\n\nIf $X$ is a well-ordered set, then the set $X\\times[0,1)$ is a linear\ncontinua in the dictionary order topology.\n\nLinear continua are of special interest when they are made into\ntopological spaces under the order topology, and the following two\nestablish some useful properties of such spaces:\n\nIf $X$ is a linear continuum in the order topology, then $X$ is and so\nare intervals in $X$.\n\nAs a corollary of the preceding , we obtain the result that $\\mathbb{R}$\nis in its usual topology, as are the intervals $[a,b]$ and $(a,b)$,\nwhere $a<b\\in\\mathbb{R}$.\n\nIf $X$ is a linear continuum in the order topology, then every closed\ninterval in $X$ is compact.\n\nThis is essentially a slightly generalized version of the Heine-Borel\nTheorem for $\\mathbb{R}$, and the proof is almost identical.",
+  "language": "INFORMAL",
+  "phrase": "Linear Continuum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearContinuum"
+    }
+  ],
+  "indexable": true
+}

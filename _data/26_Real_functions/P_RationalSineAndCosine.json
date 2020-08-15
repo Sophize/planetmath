@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** The only acute angles, whose sine and cosine are rational,\nare those determined by the Pythagorean triplets $(a,\\,b,\\,c)$.\n\n[*Proof.*]{} $1^{\\underline{o}}$. When the catheti $a$, $b$ and the\nhypotenuse $c$ of a right triangle are integers, i.e. they form a\nPythagorean triplet, then the sine $\\frac{a}{c}$ and the cosine\n$\\frac{b}{c}$ of one of the acute angles of the triangle are rational\nnumbers.\n\n$2^{\\underline{o}}$. Let the sine and the cosine of an acute angle\n$\\omega$ be rational numbers\n$$\\sin\\omega \\;=\\; \\frac{a}{c}, \\quad \\cos\\omega = \\frac{b}{d},$$ where\nthe integers $a$, $b$, $c$, $d$ satisfy $$\\begin{aligned}\n\\gcd(a,\\,c) \\;=\\; \\gcd(b,\\,d) \\;=\\; 1.\\end{aligned}$$ Since the square\nsum of sine and cosine is always 1, we have $$\\begin{aligned}\n\\frac{a^2}{c^2}\\!+\\!\\frac{b^2}{d^2} \\;=\\; 1.\\end{aligned}$$ By removing\nthe denominators we get the Diophantine equation\n$$a^2d^2\\!+\\!b^2c^2 \\;=\\; c^2d^2.$$ Since two of its terms are divisible\nby $c^2$, also the third term $a^2d^2$ is divisible by $c^2$. But\nbecause by (1), the integers $a^2$ and $c^2$ are coprime, we must have\n$c^2 \\mid d^2$ (see the corollary of B\u00e9zout\u2019s lemma). Similarly, we also\nmust have $d^2 \\mid c^2$. The last divisibility relations mean that\n$c^2 = d^2$, whence (2) may be written $$a^2+b^2 \\;=\\; c^2,$$ and\naccordingly the sides $a,\\,b,\\,c$ of a corresponding right triangle are\nintegers.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RationalSineAndCosine"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "rational sine and cosine"
+  ]
+}

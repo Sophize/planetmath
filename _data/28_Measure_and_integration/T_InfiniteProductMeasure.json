@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(E_i,\\mathcal{B}_i,\\mu_i)$ be measure spaces, where $i\\in I$ an\nindex set, possibly infinite. We define the *product* of\n$(E_i,\\mathcal{B}_i,\\mu_i)$ as follows:\n\n1.  let $E=\\prod E_i$, the Cartesian product of $E_i$,\n\n2.  let $\\mathcal{B}=\\sigma((\\mathcal{B}_i)_{i\\in I})$, the smallest\n    sigma algebra containing subsets of $E$ of the form $\\prod B_i$\n    where $B_i=E_i$ for all but a finite number of $i\\in I$.\n\nThen $(E,\\mathcal{B})$ is a measurable space. The next task is to define\na measure $\\mu$ on $(E,\\mathcal{B})$ so that $(E,\\mathcal{B},\\mu)$\nbecomes in addition a measure space. Before proceeding to define $\\mu$,\nwe make the assumption that\n\n> each $\\mu_i$ is a *totally finite measure*, that is,\n> $\\mu_i(E_i)< \\infty$.\n\nIn fact, we can now turn each $(E_i,\\mathcal{B}_i,\\mu_i)$ into a\nprobability space by introducing for each $i\\in I$ a new measure:\n$$\\overline{\\mu}_i=\\frac{\\mu_i}{\\mu_i(E_i)}.$$\n\nWith the assumption that each $(E_i,\\mathcal{B}_i,\\mu_i)$ is a\nprobability space, it can be shown that there is a *unique* measure\n$\\mu$ defined on $\\mathcal{B}$ such that, for any $B\\in \\mathcal{B}$\nexpressible as a product of $B_i\\in \\mathcal{B}_i$ with $B_i=E_i$ for\nall $i\\in I$ except on a finite subset $J$ of $I$:\n$$\\mu(B)=\\prod_{j\\in J} \\mu_j(B_j).$$\n\nThen $(E,\\mathcal{B},\\mu)$ becomes a measure space, and in particular, a\nprobability space. $\\mu$ is sometimes written $\\prod \\mu_i$.\n\n**Remarks**.\n\n-   If $I$ is infinite, one sees that the total finiteness of $\\mu_i$\n    can not be dropped. For example, if $I$ is the set of positive\n    integers, assume $\\mu_1(E_1)<\\infty$ and $\\mu_2(E_2)=\\infty$. Then\n    $\\mu(B)$ for\n    $$B:=B_1\\times \\prod_{i>1}E_i = B_1\\times E_2 \\times \\prod_{i>2}E_i \\mbox{, where }B_1\\in \\mathcal{B}_1$$\n    would not be well-defined (on the one hand, it is\n    $\\mu_1(B_1)<\\infty$, but on the other it is\n    $\\mu_1(B_1)\\mu_2(E_2)=\\infty$).\n\n-   The above construction agrees with the result when $I$ is finite\n    (see ).",
+  "language": "INFORMAL",
+  "phrase": "Infinite Product Measure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InfiniteProductMeasure"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathbb{F}$ be an arbitrary field. Consider\n$\\mathcal{M}_n (\\mathbb{F})$, the vector space of all $n \\times n$\nmatrices over $\\mathbb{F}$. Moreover, let $\\mathcal{GL}_n (\\mathbb{F})$\nbe the full linear group of nonsingular $n \\times n$ matrices over\n$\\mathbb{F}$.\n\nFor a linear automorphism\n$\\varphi : \\mathcal{M}_n (\\mathbb{F}) \\longrightarrow \\mathcal{M}_n (\\mathbb{F})$\nthe following conditions are equivalent:\\\n\n  ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n   (i)   $\\displaystyle \\forall\\, A \\in \\mathcal{M}_n (\\mathbb{F}) :\\, \\det (A) = 0\\, \\Rightarrow\\, \\det (\\varphi (A)) = 0$,\n   (ii)  either $\\displaystyle \\exists\\, P, Q \\in \\mathcal{GL}_n (\\mathbb{F})\\, \\forall\\, A \\in \\mathcal{M}_n (\\mathbb{F}) :\\, \\varphi (A) = P A Q$, or $\\displaystyle \\exists\\, P, Q \\in \\mathcal{GL}_n (\\mathbb{F})\\, \\forall\\, A \\in \\mathcal{M}_n (\\mathbb{F}) :\\, \\varphi (A) = P A^\\top Q$.\n  ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nThe original proof [@dieud] of the nontrivial implication (i)\n$\\Rightarrow$ (ii) is based on the fundamental theorem of projective\ngeometry.\n\n[99]{} J. Dieudonn\u00e9, Sur une g\u00e9n\u00e9ralisation du groupe orthogonal \u00e0\nquatre variables, *Arch. Math.* [**1**]{}: 282\u2013287 (1949).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DieudonneTheoremOnLinearPreserversOfTheSingularMatrices"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Dieudonn\\'e theorem on linear preservers of the singular matrices"
+  ]
+}

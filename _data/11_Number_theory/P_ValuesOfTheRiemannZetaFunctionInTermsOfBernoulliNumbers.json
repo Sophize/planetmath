@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $k$ be an even integer and let $B_k$ be the $k$th Bernoulli number.\nLet $\\zeta(s)$ be the Riemann zeta function. Then:\n$$\\zeta(k)=\\frac{2^{k-1}|B_k|\\pi^k}{k!}$$ Moreover, by using the , one\ncalculates for all $n\\geq 1$: $$\\zeta(1-n)=\\frac{(-1)^{n+1}B_n}{n}$$\nwhich shows that $\\zeta(1-n)=0$ for $n\\geq 3$ odd. For $k\\geq 2$ even,\none has: $$\\zeta(1-k)=-\\frac{B_k}{k}.$$\n\nThe zeroes of the zeta function shown above, $\\zeta(1-n)=0$ for\n$n\\geq 3$ odd, are usually called the [*trivial*]{} zeroes of the\nRiemann zeta function, while the [*non-trivial*]{} zeroes are those in\nthe critical strip.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ValuesOfTheRiemannZetaFunctionInTermsOfBernoulliNumbers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "values of the Riemann zeta function in terms of Bernoulli numbers"
+  ]
+}

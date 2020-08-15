@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definable sets and functions\n----------------------------\n\n### Definability In Model Theory\n\nLet $\\mathcal{L}$ be a first order language. Let $M$ be an\n$\\mathcal{L}$-structure. Denote $x_1, \\ldots, x_n$ by $\\vec{x}$ and\n$y_1, \\ldots, y_m$ by $\\vec{y}$, and suppose $\\phi(\\vec{x},\\vec{y})$ is\na formula from $\\mathcal{L}$, and $b_1, \\ldots, b_m$ is some sequence\nfrom $M$.\n\nThen we write $\\phi(M^{n},\\vec{b})$ to denote\n$\\{\\vec{a} \\in M^{n}:M \\models \\phi(\\vec{a},\\vec{b})\\}$. We say that\n$\\phi(M^{n},\\vec{b})$ is $\\vec{b}$-definable. More generally if $S$ is\nsome set and $B \\subseteq M$, and there is some $\\vec{b}$ from $B$ so\nthat $S$ is $\\vec{b}$-definable then we say that $S$ is $B$-definable.\n\nIn particular we say that a set $S$ is $\\emptyset$-definable or zero\ndefinable iff it is the solution set of some formula without parameters.\n\nLet $f$ be a function, then we say $f$ is $B$-definable iff the graph of\n$f$ (i.e. $\\{(x,y):f(x)=y\\}$) is a $B$-definable set.\n\nIf $S$ is $B$-definable then any automorphism of $M$ that fixes $B$\npointwise, fixes $S$ setwise.\n\nA set or function is [*definable*]{} iff it is $B$-definable for some\nparameters $B$.\n\nSome authors use the term definable to mean what we have called\n$\\emptyset$-definable here. If this is the convention of a paper, then\nthe term *parameter definable* will refer to sets that are definable\nover some parameters.\n\nSometimes in model theory it is not actually very important what\nlanguage one is using, but merely what the definable sets are, or what\nthe definability relation is.\n\n### Definability of functions in Proof Theory\n\nIn proof theory, given a theory $T$ in the language $\\mathcal{L}$, for a\nfunction $f:M\\rightarrow M$ to be *definable in the theory $T$*, we have\ntwo conditions:\n\n\\(i) There is a formula in the language $\\mathcal{L}$ s.t. $f$ is\ndefinable over the model $M$, as in the above definition; i.e., its\ngraph is definable in the language $\\mathcal{L}$ over the model $M$, by\nsome formula $\\phi(\\vec{x}, y)$.\n\n\\(ii) The theory $T$ *proves* that $f$ is indeed a function, that is\n$T\\vdash \\forall \\vec{x} \\exists ! y. \\phi(\\vec{x}, y)$.\n\nFor example: the *graph* of exponentiation function $x^y=z$ is definable\nby the language of the theory $I\\Delta_0$ (a subsystem of PA, with\ninduction axiom restricted to bounded formulas only), however the\nfunction itself is *not* definable in this theory.",
+  "language": "INFORMAL",
+  "phrase": "Definable",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Definable"
+    }
+  ],
+  "indexable": true
+}

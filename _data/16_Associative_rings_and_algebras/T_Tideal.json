@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a commutative ring and $R\\langle X \\rangle$ be a free algebra\nover $R$ on a set $X$ of *non-commuting* variables. A two-sided ideal\n$I$ of $R\\langle X\\rangle$ is called a $T$-*ideal* if\n$\\phi(I)\\subseteq I$ for any $R$-endomorphism $\\phi$ of\n$R\\langle X\\rangle$.\n\nFor example, let $A$ be a $R$-algebra. Define $\\mathcal{T}(A)$ to be the\nset of all $f\\in R\\langle X\\rangle$ for $A$. Then $\\mathcal{T}(A)$ is a\n$T$-ideal of $R\\langle X\\rangle$. $\\mathcal{T}(A)$ is called the\n$T$-*ideal of of A*.",
+  "language": "INFORMAL",
+  "phrase": "T-Ideal",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Tideal"
+    }
+  ],
+  "indexable": true
+}

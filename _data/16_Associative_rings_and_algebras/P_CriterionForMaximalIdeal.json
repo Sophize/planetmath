@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** In a commutative ring $R$ with non-zero unity, an ideal\n$\\mathfrak{m}$ is maximal if and only if $$\\begin{aligned}\n\\forall a \\in R\\!\\smallsetminus\\!\\mathfrak{m} \\;\\; \\exists r \\in R \\quad\\mbox{such that}\\;\\; \n1\\!+\\!ar \\;\\in\\; \\mathfrak{m}.\\end{aligned}$$\n\n*Proof.* $1^\\circ$. Let first $\\mathfrak{m}$ be a maximal ideal of $R$\nand $a \\in R\\!\\smallsetminus\\!\\mathfrak{m}$. Because\n$\\mathfrak{m}\\!+\\!(a) = R$, there exist some elements\n$m \\in \\mathfrak{m}$ and $-r \\in R$ such that $m\\!-\\!ar = 1$.\nConsequently, $1\\!+\\!ar = m \\in \\mathfrak{m}$.\\\n$2^\\circ$. Assume secondly that the ideal $\\mathfrak{m}$ satisfies the\ncondition (1). Now there must be a maximal ideal $\\mathfrak{m}'$ of $R$\nsuch that $$\\mathfrak{m} \\;\\subseteq\\; \\mathfrak{m}' \\;\\subset\\; R.$$\nLet us make the antithesis that\n$\\mathfrak{m}'\\!\\smallsetminus\\!\\mathfrak{m}$ is non-empty. Choose an\nelement\n$$a \\;\\in\\; \\mathfrak{m}'\\!\\smallsetminus\\!\\mathfrak{m} \\;\\subset\\; R\\!\\smallsetminus\\!\\mathfrak{m}.$$\nBy our assumption, we can choose another element $r$ of $R$ such that\n$$s \\;=\\; 1\\!+\\!ar \\;\\in\\; \\mathfrak{m} \\;\\subset\\; \\mathfrak{m}'.$$\nThen we have\n$$1 \\;=\\; s\\!-\\!ar \\;\\in\\; \\mathfrak{m}'\\!+\\!\\mathfrak{m}' \\;=\\; \\mathfrak{m}'$$\nwhich is impossible since with 1 the ideal $\\mathfrak{m}'$ would contain\nthe whole $R$. Thus the antithesis is wrong and\n$\\mathfrak{m} = \\mathfrak{m}'$ is maximal.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CriterionForMaximalIdeal"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "criterion for maximal ideal"
+  ]
+}

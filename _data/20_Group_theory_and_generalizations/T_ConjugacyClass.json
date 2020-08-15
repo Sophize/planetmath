@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "conjugate",
+    "conjugate set",
+    "conjugate subgroup"
+  ],
+  "definition": "Two elements $g$ and $g'$ of a group $G$ are said to be [*conjugate*]{}\nif there exists $h \\in G$ such that $g' = hgh^{-1}$. Conjugacy of\nelements is an equivalence relation, and the equivalence classes of $G$\nare called [*conjugacy classes*]{}.\n\nTwo subsets $S$ and $T$ of $G$ are said to be [*conjugate*]{} if there\nexists $g \\in G$ such that $$T = \\{gsg^{-1} \\mid s \\in S\\} \\subset G.$$\nIn this situation, it is common to write $gSg^{-1}$ for $T$ to denote\nthe fact that everything in $T$ has the form $gsg^{-1}$ for some\n$s \\in S$. We say that two subgroups of $G$ are conjugate if they are\nconjugate as subsets.",
+  "language": "INFORMAL",
+  "phrase": "Conjugacy Class",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConjugacyClass"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The binomial formula gives the power series expansion of the\n$p{^{\\text{th}}}$ power function. The power $p$ can be an integer,\nrational, real, or even a complex number. The formula is\n$$\\begin{aligned}\n  (1+x)^p &= \\sum_{n=0}^\\infty  \\frac{p^{\\underline{n}}}{n!} \\, x^n\\\\\n          &=  \\sum_{n=0}^\\infty  \\binom{p}{n} x^n\\end{aligned}$$ where\n$p^{\\underline{n}}= p(p-1)\\ldots (p-n+1)$ denotes the falling factorial,\nand where $\\binom{p}{n}$ denotes the generalized binomial coefficient.\n\nFor $p=0,1,2,\\ldots$ the power series reduces to a polynomial, and we\nobtain the usual binomial theorem. For other values of $p$, the radius\nof convergence of the series is $1$; the right-hand series converges\npointwise for all complex $|x|<1$ to the value on the left side. Also\nnote that the binomial formula is valid at $x=\\pm 1$, but for certain\nvalues of $p$ only. Of course, we have convergence if $p$ is a natural\nnumber. Furthermore, for $x=1$ and real $p$, we have absolute\nconvergence if $p>0$, and conditional convergence if $-1<p<0$. For\n$x=-1$ we have absolute convergence for $p>0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BinomialFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "binomial formula",
+    "Newton's binomial series"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The points where a function of two or more real variables attains its\nextremum values are found in the set containing the points where all\nfirst order partial derivatives vanish, the points where one or more of\nthose derivatives does not exist, and the points where the function\nitself is discontinuous.\n\n**Example 1.** The function $f(x,\\,y) = x^2\\!+\\!y^2\\!+\\!1$ from\n$\\mathbb{R}^2$ to $\\mathbb{R}$ has a (global) minimum point $(0,\\,0)$,\nwhere its partial derivatives $\\frac{\\partial f}{\\partial x} = 2x$ and\n$\\frac{\\partial f}{\\partial y} = 2y$ both equal to zero.\n\n**Example 2.** Also the function $g(x,\\,y) = \\sqrt{x^2\\!+\\!y^2}$ from\n$\\mathbb{R}^2$ to $\\mathbb{R}$ has a (global) minimum in $(0,\\,0)$,\nwhere neither of its partial derivatives $\\frac{\\partial g}{\\partial x}$\nand $\\frac{\\partial g}{\\partial y}$ exist.\n\n**Example 3.** The function $f(x,\\,y,\\,z)= x^2\\!+\\!y^2\\!+\\!z^2$ from\n$\\mathbb{R}^3$ to $\\mathbb{R}$ has an absolute minimum point\n$(0,\\,0,\\,0)$, since\n$\\nabla{f}=2x\\mathbf{i}\\!+\\!2y\\mathbf{j}\\!+\\!2z\\mathbf{k}=\\mathbf{0}\\,\\implies\\,x=y=z=0$,\n$\\frac{\\partial^2{f}}{\\partial{x}^2}=\\frac{\\partial^2{f}}{\\partial{y}^2}=\\frac{\\partial^2{f}}{\\partial{z}^2}=2>0$,\nand $f(0,\\,0,\\,0)\\leq f(x,\\,y,\\,z)$ for all\n$ (x,\\,y,\\,z)\\,\\in\\mathbb{R}^3$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExtremumPointsOfFunctionOfSeveralVariables"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "extremum points of function of several variables"
+  ]
+}

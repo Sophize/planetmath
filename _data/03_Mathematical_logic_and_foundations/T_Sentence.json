@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "closed formula"
+  ],
+  "definition": "A *sentence* is a formula with no free variables.\n\nSimple examples include:\n\n-   $$\\forall x\\exists y [x<y]$$\n\n-   $$\\exists z [z+7-43=0]$$\n\n-   $$1+2<2+3$$\n\nNote that the last sentence contains no variables.\n\nA sentence is also called a *closed formula*. A formula that is not a\nsentence is called an *open formula*.\n\nThe following formula is open:\n\n$$x+2=3$$\n\n**Remark**. In first-order logic, the main difference between a sentence\nand an open formula, semantically, is that a sentence has a definite\ntruth value, whereas the truth value of an open formula may vary,\ndepending on the interpretations of the free variables occurring in the\nformula. In the open formula above, if $x$ were $1$, then the formula is\ntrue. Otherwise, it is false.\n\nEvery open formula may be converted into a sentence by placing\nquantifiers in front of it. Given a formula $\\varphi$, the *universal\nclosure* of $\\varphi$ is the sentence\n$$\\forall x_1 \\forall x_2 \\cdots \\forall x_n \\varphi$$ where\n$\\lbrace x_1,\\ldots, x_n\\rbrace$ is the set of all free variables\noccurring in $\\varphi$.\n\nThe *existential closure* of a formula $\\varphi$ may be defined\nsimilarly.\n\nFor example, the universal closure of $x+2=3$ is $$\\forall x [x+2=3],$$\nand its existential closure is $$\\exists x [x+2=3].$$ Note that the\nfirst sentence is false, while the second is true.",
+  "language": "INFORMAL",
+  "phrase": "Sentence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Sentence"
+    }
+  ],
+  "indexable": true
+}

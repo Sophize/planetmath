@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "sub-bimodule"
+  ],
+  "definition": "Let [[*R*]{}]{} and [[*S*]{}]{} be rings. An\n*([[*R*]{}]{},[[*S*]{}]{})-bimodule* is an abelian group [[*M*]{}]{}\nwhich is a left module over [[*R*]{}]{} and a right module over\n[[*S*]{}]{} such that the\n[[*r*]{}]{}([[*ms*]{}]{})=([[*rm*]{}]{})[[*s*]{}]{} holds for each\n[[*r*]{}]{} in [[*R*]{}]{}, [[*m*]{}]{} in [[*M*]{}]{}, and [[*s*]{}]{}\nin [[*S*]{}]{}. Equivalently, [[*M*]{}]{} is an\n([[*R*]{}]{},[[*S*]{}]{})-bimodule if it is a left module over\n$R\\otimes{{S}^{\\,\\mathrm{op}}}$ or a right module over\n${{R}^{\\,\\mathrm{op}}}\\otimes S$.\n\nWhen [[*M*]{}]{} is an ([[*R*]{}]{},[[*S*]{}]{})-bimodule, we sometimes\nindicate this by writing the module as ${}_RM_S$.\n\nIf [[*P*]{}]{} is a subgroup of [[*M*]{}]{} which is also an\n([[*R*]{}]{},[[*S*]{}]{})-bimodule, then [[*P*]{}]{} is an\n*([[*R*]{}]{},[[*S*]{}]{})-subbimodule* of [[*M*]{}]{}.",
+  "language": "INFORMAL",
+  "phrase": "Bimodule",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Bimodule"
+    }
+  ],
+  "indexable": true
+}

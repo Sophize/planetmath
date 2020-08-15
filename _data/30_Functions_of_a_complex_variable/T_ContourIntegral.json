@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "complex integral",
+    "line integral",
+    "curve integral"
+  ],
+  "definition": "Let $f$ be a complex-valued function defined on the image of a $\\alpha$:\n$[ a, b ] \\rightarrow \\mathbb{C}$, let $P = \\{ a_{0}, ..., a_{n} \\}$ be\na of $[ a, b ]$. We will restrict our attention to *contours*, i.e.\ncurves for which the parametric equations consist of a finite number of\ncontinuously differentiable arcs. If the sum\n\n$$\\sum_{i = 1}^{n} f(z_{i}) (\\alpha(a_{i}) - \\alpha(a_{i - 1})),$$\n\nwhere $z_{i}$ is some point $\\alpha(t_{i})$ such that\n$a_{i - 1} \\leqslant t_{i} \\leqslant a_{i}$, converges as $n$ tends to\ninfinity and the greatest of the numbers $a_{i} - a_{i - 1}$ tends to\nzero, then we define the *contour integral* of $f$ along $\\alpha$ to be\nthe integral\n\n$$\\int_{\\alpha} f(z) dz:=\\int_a^b f(\\alpha(t))d\\alpha(t)$$\n\nNotes {#notes .unnumbered}\n=====\n\n\\(i) If ${\\operatorname{Im}}(\\alpha)$ is a segment of the real axis, then\nthis definition reduces to that of the Riemann integral of $f(x)$\nbetween $\\alpha (a)$ and $\\alpha (b)$.\n\n\\(ii) An alternative definition, making use of the Riemann-Stieltjes\nintegral, is based on the fact that the definition of this can be\nextended without any other changes in the wording to cover the cases\nwhere $f$ and $\\alpha$ are complex-valued functions.\n\nNow let $\\alpha$ be any curve $[a, b] \\rightarrow \\mathbb{R}^{2}$. Then\n$\\alpha$ can be expressed in terms of the components\n$(\\alpha_{1}, \\alpha_{2})$ and can be associated with the complex-valued\nfunction\n\n$$z(t) = \\alpha_{1}(t) + i \\alpha_{2}(t).$$\n\nGiven any complex-valued function of a complex variable, $f$ say,\ndefined on ${\\operatorname{Im}}(\\alpha)$ we define the **contour\nintegral** of $f$ along $\\alpha$, denoted by\n\n$$\\int_{\\alpha} f(z) dz$$\n\nby\n\n$$\\int_{\\alpha} f(z) dz = \\int_{a}^{b} f(z(t)) dz(t)$$ whenever the\ncomplex Riemann-Stieltjes integral on the right exists.\n\n\\(iii) Reversing the direction of the curve changes the sign of the\nintegral.\n\n\\(iv) The contour integral always exists if $\\alpha$ is rectifiable and\n$f$ is continuous.\n\n\\(v) If $\\alpha$ is piecewise smooth and the contour integral of $f$\nalong $\\alpha$ exists, then\n\n$$\\int_{\\alpha} f dz = \\int_{a}^{b} f(z(t)) z'(t) dt.$$",
+  "language": "INFORMAL",
+  "phrase": "Contour Integral",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContourIntegral"
+    }
+  ],
+  "indexable": true
+}

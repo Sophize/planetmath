@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ be a number field. For each finite prime $v$ of $K$, let\n${\\mathfrak{o}}_v$ be the valuation ring of the completion $K_v$ of $K$\nat $v$, and let $U_v$ be the group of units in ${\\mathfrak{o}}_v$. Then\neach group $U_v$ is a compact open subgroup of the group of units\n$K_v^*$ of $K_v$. The [*id\u00e8le group*]{} ${\\mathbb{I}}_K$ of $K$ is\ndefined to be the restricted direct product of the multiplicative groups\n$\\{K_v^*\\}$ with respect to the compact open subgroups $\\{U_v\\}$, taken\nover all finite primes and infinite primes $v$ of $K$.\n\nThe units $K^*$ in $K$ embed into ${\\mathbb{I}}_K$ via the diagonal\nembedding $$x \\mapsto \\prod_v x_v,$$ where $x_v$ is the image of $x$\nunder the embedding $K \\hookrightarrow K_v$ of $K$ into its completion\n$K_v$. As in the case of ad\u00e8les, the group $K^*$ is a discrete subgroup\nof the group of id\u00e8les ${\\mathbb{I}}_K$, but unlike the case of ad\u00e8les,\nthe quotient group ${\\mathbb{I}}_K/K^*$ is not a compact group. It is,\nhowever, possible to define a certain subgroup of the id\u00e8les (the\nsubgroup of norm 1 elements) which does have compact quotient under\n$K^*$.\n\n[**Warning:**]{} The group ${\\mathbb{I}}_K$ is a multiplicative subgroup\nof the ring of ad\u00e8les ${\\mathbb{A}}_K$, but the topology on\n${\\mathbb{I}}_K$ is different from the subspace topology that\n${\\mathbb{I}}_K$ would have as a subset of ${\\mathbb{A}}_K$.",
+  "language": "INFORMAL",
+  "phrase": "Id\\`{E}Le",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Idele"
+    }
+  ],
+  "indexable": true
+}

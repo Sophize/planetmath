@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "limited erasing"
+  ],
+  "definition": "It is well-known that, among all of the language families in the Chomsky\nhierarchy, the family $\\mathscr{S}$ of context-sensitive languages is\nthe only one that is not closed under arbitrary homomorphisms.\nNevertheless, $\\mathscr{S}$ is shown to be closed under a more\nrestricted class of homomorphisms, namely the $\\lambda$-free\nhomomorphisms. Question: can we enlarge this class of homomorphisms so\nthat $\\mathscr{S}$ is still closed under the larger class? The answer is\nyes.\n\n**Definition**. Let $L$ be a language over an alphabet $\\Sigma$, $h$ a\nhomomorphism over $\\Sigma$, and $k$ a non-negative integer. $h$ is said\nto be a *$k$-linear erasing* on $L$ if for any word $u\\in L$, we have\n$$|u|\\le k |h(u)|,$$ where $|u|$ stands for the length of $u$.\n\nIt is clear that if $h$ is a $k$-linear erasing on $L$, then it is a\n$m$-linear erasing for any $m\\ge k$. Also, if $h$ is a $0$-linear\nerasing on $L$, then $L$ is either $\\lbrace \\lambda\\rbrace$, or the\nempty set $\\varnothing$. In addition, if $h$ is a $k$-linear erasing on\n$L$, and $L'\\subseteq L$, then it is a $k$-linear erasing on $L'$.\nConsequently, any $\\lambda$-free homomorphism is a $k$-linear erasing on\nany $L$ over $\\Sigma$, for any $k\\ge 1$.\n\nHowever, the notion of linear erasing is language dependent. For\nexample, let $\\Sigma = \\lbrace a,b,c\\rbrace$. Let\n$L_1 = \\lbrace a^nb^n \\mid n\\ge 0\\rbrace$ and\n$L_2= \\lbrace a^nc^n \\mid n\\ge 0\\rbrace$. Suppose $h$ is the\nhomomorphism on $\\Sigma^*$ with $h(a)=\\lambda$, $h(b)=b^2$ and $h(c)=c$.\nThen $h$ is a $1$-linear erasing on $L_1$, and a $2$-linear erasing on\n$L_2$.\n\n**Definition** Let $\\mathscr{L}$ be a family of languages over $\\Sigma$.\nThen $\\mathscr{L}$ is said to be *closed under linear erasing* if for\nany $L\\in \\mathscr{L}$, and any homomorphism $h$ which is a $k$-linear\nerasing on $L$ for some $k\\ge 0$, then $h(L)\\in \\mathscr{L}$.\n\nClearly, if $\\mathscr{L}$ is closed under homomorphism, it is closed\nunder linear erasing, and thus the families of , context-free, and\ntype-0 languages are all closed under linear erasing. We also have the\nfollowing:\n\nThe family $\\mathscr{S}$ of context-sensitive languages is closed under\nlinear erasing.\n\n**Remark**. The theorem above can be generalized. Call a substitution\n$s$ over $\\Sigma$ a $k$-linear erasing on a language $L$ if\n$|u|\\le k|v|$ for any $v\\in s(u)$. If $L$ is context-sensitive such that\n$s(u)$ is context-sensitive for each $u\\in L$, then $s(L)$ is\ncontext-sensitive provided that $s$ is a $k$-linear erasing on $L$.\n\n[9]{} A. Salomaa, [*Formal Languages*]{}, Academic Press, New York\n(1973). J.E. Hopcroft, J.D. Ullman, [*Formal Languages and Their\nRelation to Automata*]{}, Addison-Wesley, (1969).",
+  "language": "INFORMAL",
+  "phrase": "Linear Erasing",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LinearErasing"
+    }
+  ],
+  "indexable": true
+}

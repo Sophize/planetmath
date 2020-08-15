@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The $n$th [*central binomial coefficient*]{} is defined to be\n\n$${2n \\choose n} = \\frac{(2n)!}{(n!)^2}$$\n\nwhere ${2n \\choose n}$ is a binomial coefficient. These numbers have the\ngenerating function\n\n$$\\frac{1}{\\sqrt{1-4x}} = 1 + 2x + 6x^2 + 20x^3 + 70x^4 + 252x^5 + \\cdots$$\n\nThey are closely related to the Catalan sequence, in that\n$$C_n = \\frac{1}{n+1} {2n \\choose n}$$\n\n[**Alternate definition**]{}\\\nA less frequently-encountered definition for the $n$th central binomial\ncoefficient is ${ n \\choose {\\lfloor \\frac{n}{2} \\rfloor} }$.\n\nNote that the set of these numbers meeting this alternate criterion is a\nsuperset of those meeting the first criterion, since for $n = 2m$ we\nhave $${n \\choose {\\lfloor \\frac{n}{2} \\rfloor} } =\n   {2m \\choose {\\lfloor \\frac{2m}{2} \\rfloor} } = {2m \\choose m}$$\n\nBy cancelling terms of one of the $n!$\u2019s against terms of the $2n!$, one\nmay rewrite the central binomial coefficient as follows:\n$${2n \\choose n} = \n{2n (2n-1) \\cdots (n+2) (n+1) \\over\n n (n-1) \\cdots 3 \\cdot 2 \\cdot 1}.$$ Alternatively, one may cancel each\nterm of the $n!$ against twice itself, leaving $2$\u2019s in the numerator:\n$${2n \\choose n} = \n2^n {(2n-1) (2n-3) \\cdots 5 \\cdot 3 \\cdot 1 \\over\nn (n-1) \\cdots 3 \\cdot 2 \\cdot 1}$$ Doubling the terms in the\ndenominator, we obtain an expression for the central binomial coeficient\nin terms of a quotient of successive odd numbers by successive even\nnumbers: $${2n \\choose n} = 4^n\n{(2n-1) (2n-3) \\cdots 5 \\cdot 3 \\cdot 1 \\over\n 2n (2n-2) \\cdots 6 \\cdot 4 \\cdot 2}$$ By means of these formulae, one\nmay derive some important properties of the central binomial\ncoeficients. By examining the first two formulae, one may deduce results\nabout the prime factors of central binomial coefficients (for proofs,\nplease see the attachments to this entry):\n\nIf $n \\ge 3$ is an integer and $p$ is a prime number such that\n$n < p < 2n$, then $p$ divides ${2n \\choose n}$.\n\nIf $n \\ge 3$ is an integer and $p$ is a prime number such that\n$2n/3 < p \\le n$, then $p$ does not divide ${2n \\choose n}$.\n\nIn conjunction with Wallis\u2019 formula for $\\pi$, the third formula for the\ncentral binomial coefficient may be used to derive an asymptotic\nexpression, as is done in an attachment to this entry:\n$${2n \\choose n} \\approx\n \\sqrt{2 \\over \\pi}\n {4^n \\over \\sqrt{2n+1}}$$",
+  "language": "INFORMAL",
+  "phrase": "Central Binomial Coefficient",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CentralBinomialCoefficient"
+    }
+  ],
+  "indexable": true
+}

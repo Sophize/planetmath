@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "$$\\frac{d}{dx} (\\sin x)=\\cos x$$\n\n  --------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------\n    $\\displaystyle \\frac{d}{dx} (\\sin x)$ $=\\displaystyle \\lim_{h \\to 0} \\frac{\\sin (x+h)-\\sin x}{h}$\n                                          $=\\displaystyle \\lim_{h \\to 0} \\frac{\\sin x \\cos h+\\cos x \\sin h-\\sin x}{h}$ by addition formula for sine\n                                          $=\\displaystyle \\lim_{h \\to 0} \\frac{\\sin x (\\cos h-1)+\\cos x \\sin h}{h}$\n                                          $=\\displaystyle \\lim_{h \\to 0} \\left( \\sin x \\cdot \\frac{\\cos h-1}{h} +\\cos x \\cdot \\frac{\\sin h}{h} \\right)$\n                                          $=\\displaystyle \\sin x \\left( \\lim_{h \\to 0} \\frac{\\cos h-1}{h} \\right) +\\cos x \\left( \\lim_{h \\to 0} \\frac{\\sin h}{h} \\right)$ by\n                                          $=\\displaystyle \\sin x \\cdot 0+\\cos x \\cdot 1$ by and its\n                                          $=\\cos x$\n  --------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------\n\n$$\\frac{d}{dx} (\\cos x)=-\\sin x$$\n\n  --------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------\n    $\\displaystyle \\frac{d}{dx} (\\cos x)$ $=\\displaystyle \\lim_{h \\to 0} \\frac{\\cos (x+h)-\\cos x}{h}$\n                                          $=\\displaystyle \\lim_{h \\to 0} \\frac{\\cos x \\cos h-\\sin x \\sin h-\\cos x}{h}$ by\n                                          $=\\displaystyle \\lim_{h \\to 0} \\frac{\\cos x (\\cos h-1)+\\sin x \\sin h}{h}$\n                                          $=\\displaystyle \\lim_{h \\to 0} \\left( \\cos x \\cdot \\frac{\\cos h-1}{h} -\\sin x \\cdot \\frac{\\sin h}{h} \\right)$\n                                          $=\\displaystyle \\cos x \\left( \\lim_{h \\to 0} \\frac{\\cos h-1}{h} \\right) -\\sin x \\left( \\lim_{h \\to 0} \\frac{\\sin h}{h} \\right)$ by\n                                          $=\\displaystyle \\cos x \\cdot 0-\\sin x \\cdot 1$ by and its\n                                          $=-\\sin x$\n  --------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivativesOfsinXAndcosX"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "derivatives of $\\sin x$ and $\\cos x$"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "We show that every uncountable Polish space $X$ is Borel isomorphic to\nthe real numbers. First, there exists a continuous one-to-one and\ninjective function $f$ from Baire space $\\mathcal{N}$ to $X$ such that\n$X\\setminus f(\\mathcal{N})$ is countable, and such that the inverse from\n$f(\\mathcal{N})$ to $\\mathcal{N}$ is Borel measurable (see ). Letting\n$S$ be any countably infinite subset of $X$, the same result can be\napplied to $X\\setminus S$, which is also a Polish space. So, there is a\ncontinuous and one-to-one function\n$f\\colon \\mathcal{N}\\rightarrow X\\setminus S$ such that\n$S^\\prime\\equiv X\\setminus f(\\mathcal{N})$ is countable and such that\nthe inverse defined on $X\\setminus S^\\prime$ is Borel. Then, $S^\\prime$\ncontains $S$ and is countably infinite. Hence, there is a invertible\nfunction $g$ from $\\mathbb{N}=\\{1,2,\\ldots\\}$ to $S^\\prime$. Under the\ndiscrete topology on $\\mathbb{N}$ this is necessarily a continuous\nfunction with Borel measurable inverse. By combining the functions $f$\nand $g$, this gives a continuous, one-to-one and onto function from the\n$$u\\colon \\mathcal{N}\\coprod\\mathbb{N}\\rightarrow X$$ with Borel\nmeasurable inverse. Similarly, the set of real numbers $\\mathbb{R}$ with\nthe standard topology is an uncountable Polish space and, therefore,\nthere is a continuous function $v$ from $\\mathcal{N}\\coprod\\mathbb{N}$\nto $\\mathbb{R}$ with Borel inverse. So, $v\\circ u^{-1}$ gives the\ndesired Borel isomorphism from $X$ to $\\mathbb{R}$.",
+  "conclusion": "#P_PolishSpacesUpToBorelIsomorphism",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfPolishSpacesUpToBorelIsomorphism"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Polish spaces up to Borel isomorphism"
+  ]
+}

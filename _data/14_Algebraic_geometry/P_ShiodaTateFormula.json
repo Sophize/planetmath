@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The main references for this part are the works of Shioda and Tate\n[@shioda0], [@shioda], [@tate].\n\nLet $k$ be a field and let $\\overline{k}$ be a fixed algebraic closure\nof $k$. Let ${\\mathcal{E}}$ be an elliptic surface over a curve $C/k$\nand let $K=k(C)$ be the function field of $C$. Let\n$\\overline{{\\mathcal{E}}}={\\mathcal{E}}(\\overline{k})$ (or more\nprecisely\n$\\overline{{\\mathcal{E}}}={\\mathcal{E}}\\times_{\\operatorname{Spec} k}\n\\operatorname{Spec} \\overline{k}$). The N\u00e9ron-Severi group of\n$\\overline{{\\mathcal{E}}}$, denoted by\n${\\operatorname{NS}(\\overline{{\\mathcal{E}}})}$, is by definition the\ngroup of divisors on $\\overline{{\\mathcal{E}}}$ modulo algebraic\nequivalence. Under the previous assumptions,\n${\\operatorname{NS}(\\overline{{\\mathcal{E}}})}$ is a finitely generated\nabelian group (this is a consequence of the so-called \u2018theorem of the\nbase\u2019 which can be found in [@lang]). The N\u00e9ron-Severi group of\n${\\mathcal{E}}$, denoted by ${\\operatorname{NS}({\\mathcal{E}})}$, is\nsimply the image of the group of divisors on ${\\mathcal{E}}$ in\n${\\operatorname{NS}(\\overline{{\\mathcal{E}}})}$. Let\n$T\\subset{\\operatorname{NS}({\\mathcal{E}})}$ be the subgroup generated\nby the image of the zero-section $\\sigma_0$ and all the irreducible\ncomponents of the fibers of $\\pi$. $T$ is sometimes called the \u201ctrivial\npart\u201d of ${\\operatorname{NS}({\\mathcal{E}})}$.\n\n\\[shioda-tate\\] For each $t\\in C$ let $n_t$ be the number of irreducible\ncomponents on the fiber at $t$, i.e. $\\pi^{-1}(t)$. Then:\n$$\\begin{aligned}\n\\operatorname{rank}_{{\\mathbb{Z}}}({\\mathcal{E}}/K) &=&\n\\operatorname{rank}_{{\\mathbb{Z}}}({\\operatorname{NS}({\\mathcal{E}})}) -\n\\operatorname{rank}_{{\\mathbb{Z}}}(T)\\\\\n\\nonumber &=& \\operatorname{rank}_{{\\mathbb{Z}}}({\\operatorname{NS}({\\mathcal{E}})})-2-\\sum_{t\\in\nC}(n_t-1).\\end{aligned}$$\n\n[00]{} S. Lang, [*Fundamentals of Diophantine Geometry*]{},\nSpringer-Verlag (1983). T. Shioda, [*On elliptic modular surfaces*]{},\nJ. Math. Soc. Japan 24 (1972), 20-59. T. Shioda, [*An Explicit Algorithm\nfor Computing the Picard Number of Certain Algebraic Surfaces*]{}, Amer.\nJ. Math. 108 (1986), 415-432. T. Shioda, [*On the Mordell-Weil\nLattices*]{}, Commentarii Mathematici Universitatis Sancti Pauli, Vol\n39, No. 2, 1990, pp. 211-239.\n\nJ. Tate, [*On the conjectures of Birch and Swinnerton-Dyer and a\ngeometric analog*]{}, S\u00e9minaire Bourbaki, 9, Soc. Math. France, Paris,\n1966, Exp. No. 306, 415-440, 1995.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ShiodaTateFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Shioda-Tate formula"
+  ]
+}

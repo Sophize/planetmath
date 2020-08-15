@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The binomial coefficients $$\\begin{aligned}\n    {n\\choose r} = \\frac{n!}{(n\\!-\\!r)!r!},\\end{aligned}$$ where $n$ is\na non-negative integer and $r \\in \\{0,\\,1,\\,2,\\,\\ldots,\\,n\\}$, can be\ngeneralized for all integer and non-integer values of $n$ by using the\nform $$\\begin{aligned}\n    {n\\choose r} = \\frac{n(n\\!-\\!1)(n\\!-\\!2)\\ldots(n\\!-\\!r\\!+\\!1)}{r!}; \\end{aligned}$$\nhere $r$ may be any non-negative integer. Then gets the form\n$$\\begin{aligned}\n    (1\\!+\\!z)^{\\alpha} = \\sum_{r = 0}^{\\infty}{\\alpha\\choose r}z^r \n = 1\\!+\\!{\\alpha\\choose1}z\\!+\\!{\\alpha\\choose 2}z^2\\!+\\cdots\\end{aligned}$$\nIt is not hard to show that the radius of convergence of this series is\n1. This series expansion is valid for every complex number $\\alpha$ when\n$|z| < 1$, and it presents such a of the $(1\\!+\\!z)^{\\alpha}$ which gets\nthe value 1 in the point $z = 0$.\n\nIn the case that $\\alpha$ is a non-negative integer and $r$ is great\nenough, one factor in the numerator of $$\\begin{aligned}\n{\\alpha\\choose r} = \n  \\frac{\\alpha(\\alpha\\!-\\!1)(\\alpha\\!-\\!2)\\ldots(\\alpha\\!-\\!r\\!+\\!1)}{r!} \\end{aligned}$$\nvanishes, and hence the corresponding binomial coefficient\n${\\alpha\\choose r}$ equals to zero; accordingly also all following\nbinomial coefficients with a greater $r$ are equal to zero. It means\nthat the series is left to being a finite sum, which gives the binomial\ntheorem.\n\nFor all complex values of $\\alpha$, $\\beta$ and non-negative integer\nvalues of $r$, $s$, the [*Pascal\u2019s formula*]{} $$\\begin{aligned}\n  {\\alpha\\choose r}\\!+\\!{\\alpha\\choose r\\!+\\!1} = {{\\alpha\\!+\\!1}\\choose{r\\!+\\!1}}\\end{aligned}$$\nand [*Vandermonde\u2019s convolution*]{} $$\\begin{aligned}\n \\sum_{r = 0}^s{\\alpha\\choose r}\\!{\\beta\\choose{s\\!-\\!r}} = {{\\alpha\\!+\\!\\beta}\\choose s}\\end{aligned}$$\nhold (the latter is proved by expanding the power\n$(1\\!+\\!z)^{\\alpha+\\beta}$ to series). Cf. Pascal\u2019s rule and Vandermonde\nidentity.",
+  "language": "INFORMAL",
+  "phrase": "Generalized Binomial Coefficients",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralizedBinomialCoefficients"
+    }
+  ],
+  "indexable": true
+}

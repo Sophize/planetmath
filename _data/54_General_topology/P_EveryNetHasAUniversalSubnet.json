@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem - (Kelley\u2019s theorem) -**]{} Let $X$ be a non-empty set. Every\nnet $(x_{\\alpha})_{\\alpha \\in \\mathcal{A}}$ in $X$ has a . That is,\nthere is a subnet such that for every $E \\subseteq X$ either the subnet\nis eventually in $E$ or eventually in $X-E$.\n\n[**Proof :**]{} Let $\\mathcal{F}$ be a section filter for the net\n$(x_{\\alpha})_{\\alpha \\in \\mathcal{A}}$.\n\nLet\n$\\mathcal{D}=\\{(\\alpha,U):\\alpha \\in \\mathcal{A}\\;,\\; U \\in \\mathcal{F},\\; x_{\\alpha} \\in U \\}$.\n$\\mathcal{D}$ is a directed set under the order relation given by\n$$(\\alpha,U) \\leq (\\beta,V) \\Longleftrightarrow \\begin{cases}  \n  \\alpha \\leq \\beta \\\\\n  V \\subseteq U\n\\end{cases}$$\n\nThe map $f:\\mathcal{D} \\longrightarrow \\mathcal{A}$ defined by\n$f(\\alpha,U):=\\alpha$ is order preserving and cofinal. Therefore there\nis a subnet $(y_{(\\alpha,U)})_{(\\alpha,U) \\in \\mathcal{D}}$ of\n$(x_{\\alpha})_{\\alpha \\in \\mathcal{A}}$ associated with the map $f$\n(that is, $y_{(\\alpha,U)} = x_{\\alpha}$).\n\nWe now prove that $(y_{(\\alpha,U)})_{(\\alpha,U) \\in \\mathcal{D}}$ is a\nnet.\n\nLet $E \\subseteq X$. We have that\n$(y_{(\\alpha,U)})_{(\\alpha,U) \\in \\mathcal{D}}$ is frequently in $E$ or\nfrequently in $X-E$.\n\nSuppose $(y_{(\\alpha,U)})_{(\\alpha,U) \\in \\mathcal{D}}$ is frequently in\n$E$.\n\nLet $A \\in \\mathcal{F}$ and\n$S(\\alpha):=\\{x_{\\beta}:\\alpha \\leq \\beta\\}$. We have that\n$S(\\alpha) \\in \\mathcal{F}$ by definition of section filter.\n\nAs $\\mathcal{F}$ is a filter, $A \\cap S(\\alpha) \\neq \\emptyset$ and so\nthere exists $\\beta$ with $\\alpha \\leq \\beta$ such that\n$x_{\\beta} \\in A$. Hence, $(\\beta,A) \\in \\mathcal{D}$.\n\nAs $(y_{(\\alpha,U)})_{(\\alpha,U) \\in \\mathcal{D}}$ is frequently in $E$,\nthere exists $(\\gamma,B) \\in \\mathcal{D}$ with\n$(\\beta,A) \\leq (\\gamma,B)$ such that $y_{(\\gamma,B)} \\in E$.\n\nAlso, $y_{(\\gamma,B)}$ is in $B$, and therefore, in $A$. So\n$A \\cap E \\neq \\emptyset$.\n\nWe conclude that $E \\cap A \\neq \\emptyset$ for every\n$A \\in \\mathcal{F}$. Therefore, $\\mathcal{F} \\cup \\{E\\}$ a filter in\n$X$. As $\\mathcal{F}$ is a maximal filter we conclude that\n$E \\in \\mathcal{F}$, and consequently, $(\\gamma,E) \\in \\mathcal{D}$.\n\nWe can now see that for every $(\\delta,C)$ with\n$(\\gamma,E) \\leq (\\delta,C)$, $y_{(\\delta,C)}$ is in $C$ and so is in\n$E$. Therefore, $(y_{(\\alpha,U)})_{(\\alpha,U) \\in \\mathcal{D}}$ is\neventually in $E$.\n\n*Remark:* If $(y_{(\\alpha,U)})_{(\\alpha,U) \\in \\mathcal{D}}$ is\nfrequently in $X-E$, by an analogous we can conclude that it is\neventually in $X-E$.\n\nThis proves that $(y_{(\\alpha,U)})_{(\\alpha,U) \\in \\mathcal{D}}$ is a\nsubnet of $(x_{\\alpha})_{\\alpha \\in \\mathcal{A}}$. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryNetHasAUniversalSubnet"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every net has a universal subnet",
+    "Kelley's theorem"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(a_n)_{n \\geq 1}$ and $(b_n)_{n \\geq 1}$ be two sequences of real\nnumbers. If $b_n$ is positive, strictly increasing and unbounded and the\nfollowing limit exists:\n$$\\lim_{n \\rightarrow \\infty} \\frac{a_{n+1}-a_n}{b_{n+1}-b_n}=l$$ Then\nthe limit: $$\\lim_{n \\rightarrow \\infty} \\frac{a_n}{b_n}$$ also exists\nand it is equal to $l$.\n\n**Remark.** This theorem is also valid if $a_n$ and $b_n$ are monotone,\ntending to $0$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StolzCesaroTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Stolz-Cesaro theorem"
+  ]
+}

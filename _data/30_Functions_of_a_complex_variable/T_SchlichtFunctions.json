@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "schlicht function"
+  ],
+  "definition": "The class of univalent functions on the open unit disc in the complex\nplane such that for any $f$ in the class we have $f(0) = 0$ and\n$f'(0) = 1$ is called the class of [*schlicht functions*]{}. Usually\nthis class is denoted by ${\\mathcal{S}}$.\n\nNote that if $g$ is any univalent function on the unit disc, then the\nfunction $f$ defined by $$f(z): = \\frac{g(z) - g(0)}{g'(0)}$$ belongs to\n${\\mathcal{S}}$. So to study univalent functions on the unit disc it\nsuffices to study ${\\mathcal{S}}$. A basic result on these gives that\nthis set is in fact compact in the space of analytic functions on the\nunit disc.\n\nLet $\\{ f_n \\}$ be a sequence of functions in ${\\mathcal{S}}$ and\n$f_n \\to f$ uniformly on compact subsets of the open unit disc. Then $f$\nis in ${\\mathcal{S}}$.\n\nAlternatively this theorem can be stated for all univalent functions by\nthe above remark, but there a sequence of univalent functions can\nconverge either to a univalent function or to a constant. The\nrequirement that the first derivative is 1 for functions in\n${\\mathcal{S}}$ prevents this problem.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1995.",
+  "language": "INFORMAL",
+  "phrase": "Schlicht Functions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchlichtFunctions"
+    }
+  ],
+  "indexable": true
+}

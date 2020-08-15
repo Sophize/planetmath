@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "kappa-complete",
+    "kappa complete"
+  ],
+  "definition": "A structured set $S$ (typically a filter or a Boolean algebra) is\n$\\kappa$-complete if, given any $K\\subseteq S$ with $|K|<\\kappa$,\n$\\bigcap K\\in S$. It is *complete* if it is $\\kappa$-complete for all\n$\\kappa$.\n\nSimilarly, a partial order is $\\kappa$-complete if any sequence of fewer\nthan $\\kappa$ elements has an upper bound within the partial order.\n\nA $\\aleph_1$-complete is called *countably complete*.",
+  "language": "INFORMAL",
+  "phrase": "$\\Kappa$-Complete",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/kappacomplete"
+    }
+  ],
+  "indexable": true
+}

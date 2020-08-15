@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "and operator"
+  ],
+  "definition": "Certain posets $X$ have a binary operation *meet* denoted by $\\land$,\nsuch that $x \\land y$ is the greatest lower bound of $x$ and $y$. Such\nposets are called *meet-semilattices*, or *$\\land$-semilattices*, or\n*lower semilattices*.\n\nIf $m$ and $m'$ are both meets of $x$ and $y$, then $m \\leq m'$ and\n$m \\geq m'$, and so $m = m'$; thus a meet, if it exists, is unique. The\nmeet is also known as the *and operator*.",
+  "language": "INFORMAL",
+  "phrase": "Meet",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Meet"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $f$ is convex in $(a, b)$ and if $a<s<t<u<b$, then $$\\displaystyle\n    \\frac{f(t)-f(s)}{t-s}\\leq\\frac{f(u)-f(s)}{u-s}\\leq\\frac{f(u)-f(t)}{u-t}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/fracftfstsleqfracfufsusleqfracfuftutForConvexF"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$\\frac{f(t)-f(s)}{t-s}\\leq\\frac{f(u)-f(s)}{u-s}\\leq\\frac{f(u)-f(t)}{u-t}$ for convex $f$"
+  ]
+}

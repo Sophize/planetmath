@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $x$ be any real number. Then there exists a natural number $n$ such\nthat $n > x$.\n\nThis theorem is known as the *Archimedean property* of real numbers. It\nis also sometimes called the axiom of Archimedes, although this name is\ndoubly deceptive: it is neither an axiom (it is rather a consequence of\nthe least upper bound property) nor attributed to Archimedes (in fact,\nArchimedes credits it to Eudoxus).\n\nLet $x$ be a real number, and let\n$S = \\{ a \\in \\mathbb{N} : a \\leq x \\}$. If $S$ is empty, let $n = 1$;\nnote that $x < n$ (otherwise $1 \\in S$).\n\nAssume $S$ is nonempty. Since $S$ has an upper bound, $S$ must have a\nleast upper bound; call it $b$. Now consider $b - 1$. Since $b$ is the\nleast upper bound, $b - 1$ cannot be an upper bound of $S$; therefore,\nthere exists some $y \\in S$ such that $y > b - 1$. Let $n = y + 1$; then\n$n > b$. But $y$ is a natural, so $n$ must also be a natural. Since\n$n > b$, we know $n \\not\\in S$; since $n \\not\\in S$, we know $n > x$.\nThus we have a natural greater than $x$.\n\nIf $x$ and $y$ are real numbers with $x > 0$, there exists a natural $n$\nsuch that $nx > y$.\n\nSince $x$ and $y$ are reals, and $x \\neq 0$, $y/x$ is a real. By the\nArchimedean property, we can choose an $n \\in \\mathbb{N}$ such that\n$n > y/x$. Then $nx > y$.\n\nIf $w$ is a real number greater than $0$, there exists a natural $n$\nsuch that $0 < 1/n < w$.\n\nUsing Corollary 1, choose $n \\in \\mathbb{N}$ satisfying $nw > 1$. Then\n$0 < 1/n < w$.\n\nIf $x$ and $y$ are real numbers with $x < y$, there exists a rational\nnumber $a$ such that $x < a < y$.\n\nFirst examine the case where $0 \\leq x$. Using Corollary 2, find a\nnatural $n$ satisfying $0 < 1/n < (y-x)$. Let\n$S = \\{ m \\in \\mathbb{N} : m/n \\geq y \\}$. By Corollary 1 $S$ is\nnon-empty, so let $m_0$ be the least element of $S$ and let\n$a = (m_0-1)/n$. Then $a< y$. Furthermore, since $y \\leq m_0/n$, we have\n$y - 1/n < a$; and $x < y - 1/n < a$. Thus $a$ satisfies $x < a < y$.\n\nNow examine the case where $x < 0 < y$. Take $a = 0$.\n\nFinally consider the case where $x < y \\leq 0$. Using the first case,\nlet $b$ be a rational satisfying $-y < b < -x$. Then let $a = -b$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArchimedeanProperty"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Archimedean property",
+    "axiom of Archimedes",
+    "Archimedean principle"
+  ]
+}

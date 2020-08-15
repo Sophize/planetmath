@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $p \\geq 1$ and $a_k, b_k$ are real numbers for $k = 1,\\ldots$, then\n$$\\left( \\sum_{k=1}^n |a_k+b_k|^p\\right)^{1/p} \\le \\left(\\sum_{k=1}^n |a_k|^p\\right)^{1/p} + \\left(\\sum_{k=1}^n |b_k|^p\\right)^{1/p}$$\n\nThe Minkowski inequality is in fact valid for all $L^p$ norms with\n$p\\ge1$ on arbitrary measure spaces. This covers the case of\n${\\mathbbmss{R}}^n$ listed here as well as spaces of sequences and\nspaces of functions, and also complex $L^p$ spaces.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MinkowskiInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Minkowski inequality"
+  ]
+}

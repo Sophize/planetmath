@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "topological *-algebra"
+  ],
+  "definition": "An involution on an algebra $A$ over an $F$ is a map\n$\\cdot^* : A \\to A : a \\mapsto a^*$ such that for every\n$\\{a, b\\} \\subset A$ and $\\lambda \\in F$ we have\n\n1.  $a^{**} = a$,\n\n2.  $(ab)^* = b^* a^*$ and\n\n3.  $(\\lambda a+b)^* = \\lambda^*a^* + b^*$, where $\\lambda^*$ denotes\n    the of $\\lambda$ in $F$.\n\nA $*$-algebra is an algebra with an involution.\n\nA topological $*$-algebra is a $*$-algebra which is also a topological\nvector space such that its algebra multiplication and involution are\ncontinuous.\n\n### Remarks:\n\n-   $*$-algebras are a particular of involutory rings.\n\n-   The involutory field $F$ is often taken as $\\mathbb{C}$, where the\n    involution is given by complex conjugation. In this case, condition\n    3 could be rewritten as:\n\n    3.$\\;(\\lambda a +b)^*= \\overline{\\lambda}a^*+b^*$\n\n-   Banach \\*-algebras are topological $*$-algebras.",
+  "language": "INFORMAL",
+  "phrase": "Topological $*$-Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Topologicalalgebra"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $f \\in F[x]$ be a polynomial over a field $F$. A [*splitting\nfield*]{} for $f$ is a field extension $K$ of $F$ such that\n\n1.  $f$ splits (factors into a product of linear factors) in $K[x]$,\n\n2.  $K$ is the smallest field with this property (any sub-extension\n    field of $K$ which satisfies the first property is equal to $K$).\n\n[**Theorem:**]{} Any polynomial over any field has a splitting field,\nand any two such splitting fields are isomorphic. A splitting field is\nalways a normal extension of the ground field.",
+  "language": "INFORMAL",
+  "phrase": "Splitting Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SplittingField"
+    }
+  ],
+  "indexable": true
+}

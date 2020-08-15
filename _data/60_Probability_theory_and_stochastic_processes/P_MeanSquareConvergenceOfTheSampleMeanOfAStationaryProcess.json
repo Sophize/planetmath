@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $\\{ X_t, t \\in T \\}$ is a stationary process with mean $\\mu$ and\nautocovariance function $\\gamma(\\cdotp)$, then as $n \\to  \\infty$ we\nhave the following:\n\n-   $\\var[\\bar X_n]= E[ (\\bar X_n - \\mu)^2 ] \\to 0$ if $\\gamma(n) \\to 0$\n\n-   $nE[ (\\bar X_n - \\mu)^2] \\to \\sum_{h=-\\infty}^{\\infty}\\gamma(h)$ if\n    $\\sum_{h=-\\infty}^{\\infty}|\\gamma(h)|<\\infty$ where\n    $$\\bar X_n=\\frac{1}{n}\\sum_{k=1}^{n} X_k$$ is the sample mean which\n    is a natural unbiased estimator of the mean $\\mu$ of the stationary\n    process $\\{ X_t\\}$.\n\n[6]{} Peter J. Brockwell G., Richard A. Davis , [*Time Series\n$\\colon$Theory and Methods*]{}.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MeanSquareConvergenceOfTheSampleMeanOfAStationaryProcess"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "mean square convergence of the sample mean of a stationary process"
+  ]
+}

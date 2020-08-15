@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $L$ be an orthocomplemented lattice with $a,b\\in L$. We say that $a$\n*commutes* with $b$ if $a=(a\\wedge b)\\vee (a\\wedge b^{\\perp})$. When $a$\ncommutes with $b$, we write $a{\\operatorname{C}}b$. Dualize everything,\nwe have that $a$ *dually commutes* with $b$, written\n$a{\\operatorname{D}}b$, if $a=(a\\vee b)\\wedge (a\\vee b^{\\perp})$.\n\n**Some properties**. Below are some properties of the commutativity\nrelations ${\\operatorname{C}}$ and ${\\operatorname{D}}$.\n\n1.  ${\\operatorname{C}}$ is reflexive.\n\n2.  $a {\\operatorname{C}}b$ iff $a {\\operatorname{C}}b^{\\perp}$.\n\n3.  $a {\\operatorname{C}}b$ iff $a^{\\perp} {\\operatorname{D}}b^{\\perp}$.\n\n4.  if $a\\le b$ or $a\\le b^{\\perp}$, then $a{\\operatorname{C}}b$.\n\n5.  $a$ is said to *orthogonally commute* with $b$ if\n    $a {\\operatorname{C}}b$ and $b{\\operatorname{C}}a$. In this case, we\n    write $a {\\operatorname{M}}b$. The terminology comes from the\n    following fact: $a {\\operatorname{M}}b$ iff there are\n    $x,y,z,t\\in L$, with:\n\n    1.  $x\\perp y$ ($x$ is orthogonal to $y$, or $x\\le y^{\\perp}$),\n\n    2.  $z\\perp t$,\n\n    3.  $x\\perp z$,\n\n    4.  $a=x\\vee y$, and\n\n    5.  $b=z\\vee t$.\n\n6.  ${\\operatorname{C}}$ is symmetric iff\n    ${\\operatorname{D}}={\\operatorname{C}}(={\\operatorname{M}})$ iff $L$\n    is an orthomodular lattice.\n\n7.  ${\\operatorname{C}}$ is an equivalence relation iff\n    ${\\operatorname{C}}=L\\times L$ iff $L$ is a Boolean algebra.\n\n**Remark**. More generally, one can define commutativity\n${\\operatorname{C}}$ on an orthomodular poset $P$: for $a,b\\in P$,\n$a {\\operatorname{C}}b$ iff $a\\wedge b$, $a\\wedge b^{\\perp}$, and\n$(a\\wedge b)\\vee (a\\wedge b^{\\perp})$ exist, and\n$(a\\wedge b)\\vee (a\\wedge b^{\\perp})=a$. Dual commutativity and mutual\ncommutativity in an orthomodular poset are defined similarly (with the\nprovision that the binary operations on the pair of elements are\nmeaningful).\n\n[8]{} L. Beran, [*Orthomodular Lattices, Algebraic Approach*]{},\nMathematics and Its Applications (East European Series), D. Reidel\nPublishing Company, Dordrecht, Holland (1985).",
+  "language": "INFORMAL",
+  "phrase": "Commutativity Relation In An Orthocomplemented Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CommutativityRelationInAnOrthocomplementedLattice"
+    }
+  ],
+  "indexable": true
+}

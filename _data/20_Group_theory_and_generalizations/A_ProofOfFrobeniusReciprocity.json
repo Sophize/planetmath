@@ -1,0 +1,17 @@
+{
+  "argumentText": "We prove the slightly more general result\n\nIf $G$ is a finite group with subgroup $H$, $\\alpha$ a class function on\n$H$ and $\\beta$ a class function on $G$, then\n$$\\langle \\alpha{\\negmedspace\\uparrow}_H^G,\\beta \\rangle_G = \\langle \\alpha,\\beta{\\negmedspace\\downarrow}_H^G\\rangle_H$$\n\nHere we use ${\\negmedspace\\uparrow}_H^G$ to refer to the to $G$ of a\nclass function on $H$, and ${\\negmedspace\\downarrow}_H^G$ to refer to\nthe of a class function on $G$ to one on $H$.\n\n$$\\langle\\alpha{\\negmedspace\\uparrow}_H^G,\\beta\\rangle_G \n  = \\frac{1}{{\\left\\lvert G\\right\\rvert}}\\sum_{g\\in G}\\left(\\frac{1}{{\\left\\lvert H\\right\\rvert}}\\sum_{\\substack{t\\in G\\\\t^{-1}gt\\in H}}\n      \\alpha(t^{-1}gt)\\right)\\overline{\\beta(g)} \n  = \\frac{1}{{\\left\\lvert G\\right\\rvert}{\\left\\lvert H\\right\\rvert}}\\sum_{t\\in G}\\left(\\sum_{\\substack{g\\in G\\\\t^{-1}gt\\in H}} \n      \\alpha(t^{-1}gt)\\right)\\overline{\\beta(g)}$$ Since $\\beta$ is a\nclass function, this is the same as\n$$\\frac{1}{{\\left\\lvert G\\right\\rvert}{\\left\\lvert H\\right\\rvert}} \\sum_{\\substack{t\\in G\\\\g\\in G\\\\t^{-1}gt\\in H}} \n    \\alpha(t^{-1}gt)\\overline{\\beta(t^{-1}gt)}\n  =\\frac{1}{{\\left\\lvert G\\right\\rvert}{\\left\\lvert H\\right\\rvert}}\\sum_{h\\in H}\\sum_{\\substack{t\\in G\\\\g\\in G\\\\t^{-1}gt=h}} \n    \\alpha(h)\\overline{\\beta(h)}$$ Clearly for every $h\\in H, t\\in G$\nthere is a unique $g\\in G$ with $t^{-1}gt=h$, so every element of $H$ is\ncounted ${\\left\\lvert G\\right\\rvert}$ times by the sum. Thus the sum is\nequal to\n$$\\frac{{\\left\\lvert G\\right\\rvert}}{{\\left\\lvert G\\right\\rvert}{\\left\\lvert H\\right\\rvert}}\\sum_{h\\in H} \\alpha(h)\\overline{\\beta(h)} \n  = \\frac{1}{{\\left\\lvert H\\right\\rvert}}\\sum_{h\\in H} \\alpha(h)\\overline{\\beta(h)} \n  = \\langle \\alpha,\\beta{\\negmedspace\\downarrow}_H^G\\rangle_H$$",
+  "conclusion": "#P_FrobeniusReciprocity",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfFrobeniusReciprocity"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Frobenius reciprocity"
+  ]
+}

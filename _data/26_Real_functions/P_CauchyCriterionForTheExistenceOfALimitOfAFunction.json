@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $S$ be a set and $B$ a filter basis in $S$. A function\n$f:S \\to \\mathbb{R}$ possesses limit on $B$, iff for every\n$\\epsilon > 0$ there exists $X\\in B$ such that the oscillation of $f$ on\n$X$ is less than $\\epsilon$.\n\nFor a proof of this theorem see[@cite:Zorich].\n\n[99]{} V., Zorich, [*Mathematical Analysis I*]{}, pp. 132ff, First Ed.,\nSpringer-Verlag, 2004.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CauchyCriterionForTheExistenceOfALimitOfAFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Cauchy criterion for the existence of a limit of a function"
+  ]
+}

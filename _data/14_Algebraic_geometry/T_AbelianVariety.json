@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An *abelian variety* over a field $k$ is a proper group scheme over\n$\\operatorname{Spec} k$ that is a variety.\n\nThis extremely terse definition needs some further explanation.\n\nThe group law on an abelian variety is commutative.\n\nThis implies that for every ring $R$, the $R$-points of an abelian\nvariety form an abelian group.\n\nAn abelian variety is projective.\n\nIf $C$ is a curve, then the Jacobian of $C$ is an abelian variety. This\nexample motivated the development of the theory of abelian varieties,\nand many properties of curves are best understood by looking at the\nJacobian.\n\nIf $E$ is an elliptic curve, then $E$ is an abelian variety (and in fact\n$E$ is naturally isomorphic to its Jacobian).\n\nSee Mumford\u2019s excellent book *Abelian Varieties*. The bibliography for\nalgebraic geometry has details and other books.",
+  "language": "INFORMAL",
+  "phrase": "Abelian Variety",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AbelianVariety"
+    }
+  ],
+  "indexable": true
+}

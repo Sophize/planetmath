@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal{U}$ be a universe (so is, in particular, a set of sets).\n\nA set $S$ is said to be *$\\mathcal{U}$-small* if it is isomorphic to an\nelement of $\\mathcal{U}$ (i.e., there is a bijection between $S$ and\nsome element of $\\mathcal{U}$).\n\nA category $C$ is *$\\mathcal{U}$-small* (or just *small*, if no\nconfusion is likely to arise) if the set of objects of $C$ is isomorphic\nto a set in $\\mathcal{U}$, and is a *$\\mathcal{U}$-category* if for\nevery pair of objects $A$, $B$ in $C$, $\\operatorname{Hom}(A,B)$ is\nisomorphic to a set in $\\mathcal{U}$.\n\nThese definitions amount to restrictions on the cardinality of the\nobjects involved, and are intended to provide a condition that will\nallow operations such as extracting the category of functors or taking\nthe direct limit to give results that are reasonable, that is, either\nisomorphic to an object of $\\mathcal{U}$ or made up of objects of\n$\\mathcal{U}$.\n\nObserve that the category of subsets of $\\mathcal{U}$ is a\n$\\mathcal{U}$-category but is not $\\mathcal{U}$-small.\n\n[9]{}\n\nGrothendieck et al., *S\u00e9minaires en G\u00e8ometrie Alg\u00e8brique 4*, tomes 1, 2,\nand 3. Murphy, O. *Some modern methods in the theory of lion hunting*,\nAmerican Mathematical Monthly [**75**]{} (2), Feb., 1968, 185\u2013187.",
+  "language": "INFORMAL",
+  "phrase": "$\\Mathcal{U}$-Small",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/mathcalUsmall"
+    }
+  ],
+  "indexable": true
+}

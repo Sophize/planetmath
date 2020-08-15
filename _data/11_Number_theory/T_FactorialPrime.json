@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*factorial prime*]{} is a number that is one less or one more than a\nfactorial and is also a prime number. The first few factorial primes\nare: 2, 3, 5, 7, 23, 719, 5039, 39916801, 479001599, 87178291199\n(sequence A088054 in the OEIS). It is conjectured that only for $n = 3$\nare both $n! - 1$ and $n! + 1$ both primes.\n\nFactorial primes have a r\u00f4le in an argument that 1 is not a prime\nnumber. If $n$ is a positive integer and $p$ is a prime number, $n! + p$\nis never a prime for $p < n$, because obviously it will be a multiple of\n$p$, just as $n!$ is. But $n! + 1$, even though it certainly is a\nmultiple of 1, can be a prime, specifically, a factorial prime. (The\nsame is also true if we subtract instead of add).",
+  "language": "INFORMAL",
+  "phrase": "Factorial Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FactorialPrime"
+    }
+  ],
+  "indexable": true
+}

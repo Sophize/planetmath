@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If the greatest common divisor of the nonzero integers\n$a_1,\\,a_2,\\,\\ldots,\\,a_n$ is $d$, then there exist the integers\n$x_1,\\,x_2,\\,\\ldots,\\,x_n$ such that $$\\begin{aligned}\nd \\;=\\; x_1a_1\\!+\\!x_2a_2\\!+\\ldots+\\!x_na_n.\\end{aligned}$$\n\n*Proof.* In the case $n = 2$ the Euclidean algorithm for two nonzero\nintegers $a,\\,b$ always guarantees the integers $x,\\,y$ such that\n$$\\begin{aligned}\n\\gcd(a,\\,b) \\;=\\; xa\\!+\\!yb.\\end{aligned}$$ Make the induction\nhypothesis that the theorem is true whenever $n < k$.\\\nSince obviously\n$$d \\;=\\; \\gcd(a_1,\\,a_2,\\,\\ldots,\\,a_k) \\;=\\; \\gcd(\\gcd(a_1,\\,a_2,\\,\\ldots,\\,a_{k-1}),\\,a_k),$$\nwe may write by (2) that\n$$d \\;=\\; x\\gcd(a_1,\\,a_2,\\,\\ldots,\\,a_{k-1})+ya_k$$ and thus by the\ninduction hypothesis that\n$$d \\;=\\; x(x_1a_1\\!+\\!x_2a_2\\!+\\ldots+\\!x_{k-1}a_{k-1})\\!+\\!ya_k.$$\nConsequently, we have gotten an equation of the form (1), Q.E.D.\\\n**Note.** An analogous theorem concerns elements of any .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GreatestCommonDivisorOfSeveralIntegers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "greatest common divisor of several integers",
+    "GCD of several integers"
+  ]
+}

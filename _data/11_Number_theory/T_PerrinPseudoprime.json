@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given the Perrin sequence, $a_0 = 3$, $a_1 = 0$, $a_2 = 2$ and\n$a_n = a_{n - 3} + a_{n - 2}$ for $n > 2$, if $n$ is not prime yet\n$n|a_n$, that number is then called a [*Perrin pseudoprime*]{}. The\nfirst few Perrin pseudoprimes are 271441, 904631, 16532714, 24658561,\n27422714, 27664033, 46672291 (listed in A013998 of Sloane\u2019s OEIS).\n\nBy itself this is not a good enough test of primality. Further requiring\nthat $a_n \\equiv 0 \\mod n$ and $a_{-n} \\equiv 1 \\mod n$ improves the\ntest but not enough to be preferable to actually factoring out the\nnumber. The first few [*strong Perrin pseudoprimes*]{} are 27664033,\n46672291, 102690901, 130944133, 517697641 (listed in A018187 of Sloane\u2019s\nOEIS).\n\nUnlike Perrin pseudoprimes, most other are because of a congruence\nrelation to a given base.",
+  "language": "INFORMAL",
+  "phrase": "Perrin Pseudoprime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PerrinPseudoprime"
+    }
+  ],
+  "indexable": true
+}

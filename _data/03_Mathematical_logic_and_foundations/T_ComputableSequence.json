@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A sequence $\\{r_i\\}_{i=0}^\\infty$ of rational numbers is called\n*computable* if there exist recursive functions\n$F \\colon \\mathbb{N} \\to \\mathbb{Z}$ and\n$G \\colon \\mathbb{N} \\to \\mathbb{N} \\setminus \\{0\\}$ such that\n$$\\quad r_i = {F(i) \\over G(i)}.$$\n\nA sequence $\\{r_i\\}_{i=0}^\\infty$ of real numbers is called *computable*\nif there exists a recursive functions\n$F \\colon \\mathbb{N}^2 \\to \\mathbb{Z}$ such that\n$$(\\forall m > 0) (\\forall n) \\qquad {F(m,n) - 1 \\over n} < r_m < {F(m,n) + 1 \\over n}.$$\n\nNote that, although every computable sequence of real numbers is a\nsequence of computable real numbers, not every sequence of computable\nreal numbers is a computable sequence of real numbers. Formally, this is\nthe case because the set of computable sequences of real numbers is\ncountable (its cardinality cannot be greater than that of the set of\nrecursive functions) whilst the set of sequences of computable real\nnumbers is uncountable (by Cantor\u2019s diagonal argument).\n\nAn explanation of this fact which, if somewhat less rigorous, is more\nsatisfying to the intuition is the following: Imagine a sequence of\ncomputable real numbers such that the shortest FORTRAN program which\ncould calculate the first number to arbitrarily specified precision is\nat least 1 kilobyte long, the shortest FORTRAN program which which could\ncalculate the second number to arbitrarily specified precision is at\nleast 2 kilobytes long, the shortest FORTRAN program which could\ncalculate the third number to arbitrarily specified precision is at\nleast 3 kilobytes long, and so on. If this sequence were computable,\nthere would exist a finite FORTRAN program that would compute the\nrecursive function $F$ that appears in the definition of computable\nsequence. By adding a few more lines of to such a program, one would\nhave a program that could compute any element of the sequence to\narbitrary precision. However, no such program could possibly exist\nbecause of the way that the sequence was defined, and hence this\nsequence is not a computable sequence even though each of its elements\nis a computable real number.",
+  "language": "INFORMAL",
+  "phrase": "Computable Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComputableSequence"
+    }
+  ],
+  "indexable": true
+}

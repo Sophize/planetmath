@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $L$ be a first order language, let $\\mathcal{A}$ be an $L$-structure\nand let $K\\subseteq\\operatorname{dom}(\\mathcal{A})$. Then there is an\n$L$-structure $\\mathcal{B}$ such that $K\\subseteq\\mathcal{B}$ and\n$|\\mathcal{B}|\\leq\\operatorname{Max}(|K|,|L|)$ and $\\mathcal{B}$ is\nelementarily embedded in $\\mathcal{A}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DownwardLowenheimSkolemTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "downward Lowenheim-Skolem theorem"
+  ]
+}

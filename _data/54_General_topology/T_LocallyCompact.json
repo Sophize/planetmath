@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A topological space $X$ is [*locally compact*]{} at a point $x \\in X$ if\nthere exists a compact set $K$ which contains a nonempty neighborhood\n$U$ of $x$. The space $X$ is [*locally compact*]{} if it is locally\ncompact at every point $x \\in X$.\n\nNote that local compactness at $x$ does not require that $x$ have a\nneighborhood which is actually compact, since compact open sets are\nfairly rare and the more relaxed condition turns out to be more useful\nin practice. However, it is true that a space is locally compact at $x$\nif and only if $x$ has a precompact neighborhood.",
+  "language": "INFORMAL",
+  "phrase": "Locally Compact",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocallyCompact"
+    }
+  ],
+  "indexable": true
+}

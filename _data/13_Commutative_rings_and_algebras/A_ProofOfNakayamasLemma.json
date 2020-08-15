@@ -1,0 +1,17 @@
+{
+  "argumentText": "(This proof was taken from [@localalg].)\n\nIf $M$ were not zero, it would have a simple quotient, isomorphic to\n$R/\\mathfrak{m}$ for some maximal ideal $\\mathfrak{m}$ of $R$. Then we\nwould have $\\mathfrak{m}M\\neq M$, so that $\\mathfrak{a}M\\neq M$ as\n$\\mathfrak{a}\\subseteq \\mathfrak{m}$.\n\n[9]{} Serre, J.-P. [*Local Algebra.*]{} Springer-Verlag, 2000.",
+  "conclusion": "#P_NakayamasLemma",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfNakayamasLemma"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Nakayama's lemma"
+  ]
+}

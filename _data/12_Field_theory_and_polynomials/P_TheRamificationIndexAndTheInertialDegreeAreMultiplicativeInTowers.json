@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $E,\\ F$ and $K$ be number fields in a tower:\n$$K\\subseteq F \\subseteq E$$ and let ${\\mathcal{O}_E},\\ {\\mathcal{O}_F}$\nand ${\\mathcal{O}_K}$ be their rings of integers respectively. Suppose\n${{\\mathfrak{p}}}$ is a prime ideal of ${\\mathcal{O}_K}$ and let\n${{\\mathfrak{P}}}$ be a prime ideal of ${\\mathcal{O}_F}$ lying above\n${{\\mathfrak{p}}}$, and ${\\mathcal{P}}$ is a prime ideal of\n${\\mathcal{O}_E}$ lying above ${{\\mathfrak{P}}}$.\n\n$\\xymatrix{\n{E} \\ar@{-}[d] & {{\\mathcal{O}_E}} \\ar@{-}[d] & {{\\mathcal{P}}} \\ar@{-}[d] \\\\\n{F} \\ar@{-}[d] & {{\\mathcal{O}_F}} \\ar@{-}[d] & {{{\\mathfrak{P}}}} \\ar@{-}[d]\\\\\nK & {\\mathcal{O}_K}& {{\\mathfrak{p}}}}$\n\nThen the indices of the extensions, the ramification indices and\ninertial degrees satisfy: $$\\begin{aligned}\n[E:K] &=& [E:F]\\cdot [F:K],\\\\\n\\nonumber & &\\\\\ne({\\mathcal{P}}|{{\\mathfrak{p}}}) &=& e({\\mathcal{P}}|{{\\mathfrak{P}}})\\cdot e({{\\mathfrak{P}}}|{{\\mathfrak{p}}}),\\\\\n\\nonumber & &\\\\\nf({\\mathcal{P}}|{{\\mathfrak{p}}}) &=& f({\\mathcal{P}}|{{\\mathfrak{P}}})\\cdot f({{\\mathfrak{P}}}|{{\\mathfrak{p}}}).\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TheRamificationIndexAndTheInertialDegreeAreMultiplicativeInTowers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "the ramification index and the inertial degree are multiplicative in towers"
+  ]
+}

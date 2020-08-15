@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $T$ be a first order theory. A subset $\\Delta\\subseteq T$ is a set\nof [**axioms**]{} for $T$ if and only if $T$ is the set of all\nconsequences of the formulas in $\\Delta$. In other words, $\\varphi\\in T$\nif and only if $\\varphi$ is provable using only assumptions from\n$\\Delta$.\n\n[**Definition.**]{} A theory $T$ is said to be [**finitely\naxiomatizable**]{} if and only if there is a finite set of axioms for\n$T$; it is said to be [**recursively axiomatizable**]{} if and only if\nit has a recursive set of axioms.\n\nFor example, group theory is finitely axiomatizable (it has only three\naxioms), and Peano arithmetic is recursivaly axiomatizable : there is\nclearly an algorithm that can decide if a formula of the language of the\nnatural numbers is an axiom.\n\n[**Theorem.**]{} recursively axiomatizable theories are decidable.\n\nAs an example of the use of this theorem, consider the theory of\nalgebraically closed fields of characteristic $p$ for any number $p$\nprime or 0. It is complete, and the set of axioms is obviously\nrecursive, and so it is decidable.",
+  "language": "INFORMAL",
+  "phrase": "Recursively Axiomatizable Theory",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RecursivelyAxiomatizableTheory"
+    }
+  ],
+  "indexable": true
+}

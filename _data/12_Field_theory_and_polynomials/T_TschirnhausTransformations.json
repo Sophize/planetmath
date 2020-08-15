@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Tschirnhausen Transformation"
+  ],
+  "definition": "A polynomial transformation which transforms a polynomial to another\nwith certain zero-coefficients is called a *Tschirnhaus Transformation*.\nIt is thus an invertible transformation of the form\n$x \\mapsto g(x)/h(x)$ where $g,h$ are polynomials over the base field\n$K$ (or some subfield of the splitting field of the polynomial being\ntransformed). If $\\gcd(h(x),f(x)) = 1$ then the Tschirnhaus\ntransformation becomes a polynomial transformation mod f.\n\nSpecifically, it concerns a substitution that reduces finding the roots\nof the polynomial\n$$\\textmd{p} = T^n + a_1T^{n-1} + ... + a_n = \\prod_{i=1}^n\n(T-r_i)\\in k[T]$$ to finding the roots of another - with less parameters\n- and solving an auxiliary polynomial equation , with\n$\\deg(s)<\\deg(p \\cap q).$\n\nHistorically, the transformation was applied to reduce the general\nquintic equation, to simpler resolvents. Examples due to Hermite and\nKlein are respectively: The principal resolvent\n$$K(X):=X^5+a_0X^2+a_1X+a_3$$ and the Bring-Jerrard form\n$$K(X):=X^5+a_1X+a_2$$ Tschirnhaus transformations are also used when\ncomputing Galois groups to remove repeated roots in resolvent\npolynomials. Almost any transformation will work but it is extremely\nhard to find an efficient algorithm that can be proved to work.",
+  "language": "INFORMAL",
+  "phrase": "Tschirnhaus Transformations",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TschirnhausTransformations"
+    }
+  ],
+  "indexable": true
+}

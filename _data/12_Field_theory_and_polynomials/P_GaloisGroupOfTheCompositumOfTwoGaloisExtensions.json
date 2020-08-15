@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $E$ and $F$ be Galois extensions of a field $K$. Then:\n\n1.  The intersection $E\\cap F$ is Galois over $K$.\\\n\n2.  The compositum $EF$ is Galois over $K$. Moreover, the Galois group\n    ${\\operatorname{Gal}}(EF/K)$ is isomorphic to the subgroup $H$ of\n    the direct product\n    $G={\\operatorname{Gal}}(E/K)\\times {\\operatorname{Gal}}(F/K)$ given\n    by:\n    $$H=\\{ (\\sigma, \\psi) : \\sigma|_{E\\cap F}=\\psi|_{E\\cap F} \\}$$ i. e.\n    $H$ consists of pairs of elements of $G$ whose restrictions to\n    $E\\cap F$ are equal.\n\nLet $E$ and $F$ be Galois extensions of a field $K$ such that\n$E\\cap F=K$. Then $EF$ is Galois over $K$ and the Galois group is\nisomorphic to the direct product:\n$${\\operatorname{Gal}}(EF/K)\\cong {\\operatorname{Gal}}(E/K) \\times {\\operatorname{Gal}}(F/K).$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaloisGroupOfTheCompositumOfTwoGaloisExtensions"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Galois group of the compositum of two Galois extensions"
+  ]
+}

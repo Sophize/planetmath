@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Riemann normal coordinates may be thought of as a generalization of\nCartesian coordinates from Euclidean space to any manifold (which should\nbe at least twice differentiable) with affine connection. (Including\nRiemannian manifolds as a special case, of course!)\n\nTo define a system of Riemann normal coordinates, one needs to pick a\npoint $P$ on the manifold which will serve as origin and a basis for the\ntangent space at $P$. Suppose that the manifold is $d$ dimensional. To\nany $d$-tuplet of real numbers $(x^1, \\ldots x^n)$, we shall assign a\npoint $Q$ of the manifold by the following procedure:\n\nLet $v$ be the vector whose components with respect to the basis chosen\nfor the tangent space at $P$ are $x^1, \\ldots x^n$. There exists a\nunique affinely-parameterized geodesic $C(t)$ such that $C(0) = P$ and\n$[d C(t) / dt]_{t = 0} = v$. Set $Q = C(1)$. Then $Q$ is defined to be\nthe point whose Riemann normal coordinates are $(x^1, \\ldots x^n)$.\n\nRiemann normal coordinates enjoy several important properties:\n\n1.  The connection coefficients vanish at the origin of Riemann normal\n    coordinates.\n\n2.  Covariant derivatives reduce to partial derivatives at the origin of\n    Riemann normal coordinates.\n\n3.  The partial derivatives of the components of the connection\n    evaluated at the origin of Riemann normal coordinates equals the\n    components of the curvature tensor. In fact, some authors take this\n    property as a definition of the curvature tensor.\n\nTo every point on the manifold one may associate an open neighborhood of\nthat point in which Riemann normal coordinates based at the point\nprovide a diffeomorphism between the neighborhood and a subset of\n$\\mathbb{R}^d$. In general, Riemann normal coordinates become singular\nwhen a conjugate point of $P$ is encountered so they are typically more\nuseful for studying local geometry than global geometry.\n\nReferences: doCarmo 1992 (see bibliography for differential geometry)",
+  "language": "INFORMAL",
+  "phrase": "Riemann Normal Coordinates",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RiemannNormalCoordinates"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*covering system*]{} is a system of congruences such that every\nnatural number $n$ is \u201ccovered\u201d by at least one of the congruences, that\nis, given the finite sets $a$ and $m$ both containing $k$ nonnegative\nintegers (but each $m_i > 1$), for every $n$ there\u2019s at least one value\nof $i$ such that $n \\equiv a_i \\mod m_i$.\n\nFor example, Davenport gives the following system: $0 \\mod 2$,\n$0 \\mod 3$, $1 \\mod 4$, $1 \\mod 6$ and $11 \\mod 12$. For the sake of\ndemonstration it will be sufficient here to show that this system of\ncongruences covers all $12 < n < 37$. Examining the congruences in the\norder stated for the first half of our sample range, the multiples of 2\nand 3 are covered by the first two congruences, leaving us just 13, 17,\n19 and 23 to worry about. The third congruence takes care of 13 and 17.\nThe fourth congruence takes care of 19, with 13 already taken care of.\nThe fifth congruence covers 23. In many cases, a particular number will\nbe taken care of by more than one congruence. The following table shows\nall the congruences that cover the remainder of our sample range.\n\n  ---- -------------- ------------\n    25     $1 \\mod 4$   $1 \\mod 6$\n    26     $0 \\mod 2$ \n    27     $0 \\mod 3$ \n    28     $0 \\mod 2$ \n    29     $1 \\mod 4$ \n    30     $0 \\mod 2$   $0 \\mod 3$\n    31     $1 \\mod 6$ \n    32     $0 \\mod 2$ \n    33     $0 \\mod 3$   $1 \\mod 4$\n    34     $0 \\mod 2$ \n    35   $11 \\mod 12$ \n    36     $0 \\mod 2$   $0 \\mod 3$\n  ---- -------------- ------------\n\nThere are various open problems pertaining to covering systems. Erd\u0151s\nconjectured that for any positive $N$ there is always a covering system\nin which all the moduli are greater than $N$. Another one, posed by\nErd\u0151s and Selfridge is whether there is a covering system in which all\nthe moduli are odd. Erd\u0151s has presented a covering system which does not\nuse 2 as a modulus but it does use 4.\n\n[2]{} H. Davenport, [*The Higher Arithmetic*]{}, Sixth Edition.\nCambridge: Cambridge University Press (1995): 57 - 58 Paul Erd\u0151s & J\u00e1nos\nSur\u00e1nyi [*Topics in the theory of numbers*]{} New York: Springer (2003):\n46",
+  "language": "INFORMAL",
+  "phrase": "Covering System",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CoveringSystem"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "rule of detachment",
+    "detachment",
+    "modus ponendo ponens"
+  ],
+  "definition": "**Modus ponens** is a rule of inference that is commonly found in many\nlogics where the binary logical connective $\\to$ (sometimes written\n$\\Rightarrow$ or $\\supset$) called logical implication are defined.\nInformally, it states that\n\nfrom $A$ and $A \\to B$, we may infer $B$.\n\nModus ponens is also called the *rule of detachment*: the theorem $b$\ncan be \u201cdetached\u201d from the theorem $A \\to B$ provided that $A$ is also a\ntheorem.\n\nAn example of this rule is the following: From the premisses \u201cIt is\nraining\u201d, and \u201cIf it rains, then my laundry will be soaked\u201d, we may draw\nthe conclusion \u201cMy laundry will be soaked\u201d.\n\nTwo common ways of mathematically denoting modus ponens are the\nfollowing:\n$$\\frac{A \\quad A \\to B}{B} \\qquad \\mbox{or} \\quad \\lbrace A, A \\to B\\rbrace \\vdash B.$$\n\nOne formal way of looking at modus ponens is to define it as a partial\nfunction $\\vdash : F \\times F \\to F,$ where $F$ is a set of formulas in\na language $L$ where a binary operation $\\to$ is defined, such that\n\n1.  $\\vdash(A, B)$ is defined whenever $A, B \\in F$ and\n    $B \\equiv (A \\to C)$ for some $C \\in L$, and\n\n2.  when this is the case, $C \\in F$ and $\\vdash(A, B) := C$;\n\n3.  $\\vdash$ is not defined otherwise.\n\n**Remark**. With modus ponens, one can easily prove the converse of the\ndeduction theorem (see ). Another easily proven fact is the following:\n\n> If $\\Delta \\vdash A$ and $\\Delta\\vdash A\\to B$, then\n> $\\Delta \\vdash B$, where $\\Delta$ is a set of formulas.\n\nTo see this, let $A_1,\\ldots, A_n$ be a deduction of $A$ from $\\Delta$,\nand $B_1,\\ldots, B_m$ be a deduction of $A\\to B$ from $\\Delta$. Then\n$A_1,\\ldots, A_n, B_1,\\ldots, B_m, B$ is a deduction of $B$ from\n$\\Delta$, where $B$ is inferred from $A_n$ (which is $A$) and $B_m$\n(which is $A\\to B$) by modus ponens.",
+  "language": "INFORMAL",
+  "phrase": "Modus Ponens",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ModusPonens"
+    }
+  ],
+  "indexable": true
+}

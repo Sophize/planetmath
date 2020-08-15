@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "#### Motivation\n\nWavelets can be used to analyze functions in $L_2({\\mathbb R})$ (the\nspace of all Lebesgue absolutely square integrable functions defined on\nthe real numbers to the complex numbers) in much the same way the\ncomplex exponentials are used in the Fourier transform, but wavelets\noffer the advantage of not only describing the frequency content of a\nfunction, but also providing information on the time localization of\nthat frequency content.\n\n#### Definition\n\nA (more properly, an *orthonormal dyadic*) *wavelet* is a function\n$\\psi(t) \\in L_2({\\mathbb R})$ such that the family of functions\n$$\\psi_{jk} \\equiv 2^{j/2} \\psi(2^jt - k),$$ where\n$j,k \\in {\\mathbb Z}$, is an orthonormal basis in the Hilbert space\n$L_2({\\mathbb R}).$\n\n#### Notes\n\nThe scaling factor of $2^{j/2}$ ensures that\n$\\| \\psi_{jk} \\| = \\| \\psi \\| = 1$. These type of wavelets (the most\npopular), are known as dyadic wavelets because the scaling factor is a\npower of 2. It is not obvious from the definition that wavelets even\nexist, or how to construct one; the Haar wavelet is the standard example\nof a wavelet, and one technique used to construct wavelets. Generally,\nwavelets are constructed from a multiresolution analysis, but they can\nalso be generated using wavelet sets.",
+  "language": "INFORMAL",
+  "phrase": "Wavelet",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Wavelet"
+    }
+  ],
+  "indexable": true
+}

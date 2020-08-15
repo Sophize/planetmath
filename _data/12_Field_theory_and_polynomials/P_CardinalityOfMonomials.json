@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $S$ is a finite set of variable symbols, then the number of monomials\nof degree $n$ constructed from these symbols is ${n + m - 1 \\choose n}$,\nwhere $m$ is the cardinality of $S$.\n\nThe proof proceeds by inducion on the cardinality of $S$. If $S$ has but\none element, then there is but one monomial of degree $n$, namely the\nsole element of $S$ raised to the $n$-th power. Since\n${n + 1 - 1 \\choose n} = 1$, the conclusion holds when $m = 1$.\n\nSuppose, then, that the result holds whenver $m < M$ for some $M$. Let\n$S$ be a set with exactly $M$ elements and let $x$ be an element of $S$.\nA monomial of degree $n$ constructed from elements of $S$ can be\nexpressed as the product of a power of $x$ and a monomial constructed\nfrom the elements of $S \\setminus\n\\{x\\}$. By the induction hypothesis, the number of monomials of degree\n$k$ constructed from elements of $S \\setminus \\{x\\}$ is\n${k + M - 2 \\choose k}$. Summing over the possible powers to which $x$\nmay be raised, the number of monomials of degree $n$ constructed from\nthe elements of $S$ is as follows:\n$$\\sum_{k=0}^n {k + M - 2 \\choose k} = {k + M - 1 \\choose k}$$\n\nIf $S$ is an infinite set of variable symbols, then the number of\nmonomials of degree $n$ constructed from these symbols equals the\ncardinality of $S$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CardinalityOfMonomials"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "cardinality of monomials"
+  ]
+}

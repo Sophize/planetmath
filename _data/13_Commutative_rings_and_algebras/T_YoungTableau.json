@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Young tableaux"
+  ],
+  "definition": "Let $Y$ be a Young diagram. A *filling* of $Y$ is a labelling of the\nboxes in $Y$ by positive integers. For example, consider the Young\ndiagram with shape $\\lambda = (4,4,2,1)\\vdash 11$.\n\n[&lt;4 =9 &lt;4 =8 &lt;2 =7 &lt;1 =6 &lt;0 =5 &lt;0 =4 &lt;0 =3 &lt;0 =2\n&lt;0 =1 ]{}\n\nOne filling of this Young diagram is\n\n[=1 =4 =2 =4 =3 =4 =4 =4 =1 =3 =2 =3 =3 =3 =4 =3 =1 =2 =2 =2 =1 =1 ]{}\n\nA filling is a *Young tableau* if it includes each label from $1$ to $n$\nexactly once. One Young tableau with shape $\\lambda$ is\n\n[=1 =4 =2 =4 =3 =4 =4 =4 =1 =3 =2 =3 =3 =3 =4 =3 =1 =2 =2 =2 =1 =1 ]{}\n\nEach Young tableau with shape $\\lambda\\vdash n$ corresponds to a of\n$[n]=\\{1,\\dots,n\\}$. A filling is a *semi-standard tableau* if the\nlabels monotonically increase in each row and strictly increase in each\ncolumn. One semi-standard tableau with shape $\\lambda$ is\n\n[=1 =4 =2 =4 =3 =4 =4 =4 =1 =3 =2 =3 =3 =3 =4 =3 =1 =2 =2 =2 =1 =1 ]{}\n\nFinally, a semi-standard tableau is a *standard Young tableau* if it\nincludes each label from $1$ to $n$ exactly once. Hence a standard Young\ntableau is both a semi-standard tableau and a Young tableau. One\nstandard Young tableau with shape $\\lambda$ is\n\n[=1 =4 =2 =4 =3 =4 =4 =4 =1 =3 =2 =3 =3 =3 =4 =3 =1 =2 =2 =2 =1 =1 ]{}\n\nThere is some variation in this terminology. For example, Fulton uses\nthe terms tableau and Young tableau interchangeably for what we call a\nsemi-standard Young tableau.\n\n[99]{} William\u00a0Fulton. *Young tableaux: with applications to\nrepresentation theory and geometry*. Cambridge University Press, 1997.\n\nBruce\u00a0E.\u00a0Sagan. *The symmetric group: representations, combinatorial\nalgorithms, and symmetric functions*, 2nd ed. Springer, 2001.\n\nRichard\u00a0P.\u00a0Stanley. *Enumerative combinatorics, volume 2*. Cambridge\nUniversity Press, 1999.",
+  "language": "INFORMAL",
+  "phrase": "Young Tableau",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/YoungTableau"
+    }
+  ],
+  "indexable": true
+}

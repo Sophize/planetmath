@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "free algebraic system"
+  ],
+  "definition": "Let $\\mathcal{K}$ be a class of algebraic systems (of the same type\n$\\tau$). Consider an algebra $A\\in \\mathcal{K}$ a set\n$X=\\lbrace x_i\\rbrace$ indexed by $i\\in I$. $A$ is said to be a *free\nalgebra* over $\\mathcal{K}$, with *free generating set* $X$, if for any\nalgebra $B\\in \\mathcal{K}$ with any subset\n$\\lbrace y_i\\mid i\\in I\\rbrace \\subseteq B$, there is a homomorphism\n$\\phi:A\\to B$ such that $\\phi(x_i)=y_i$.\n\nIf we define $f:I\\to A$ to be $f(i)=x_i$ and $g:I\\to B$ to be\n$g(i)=y_i$, then freeness of $A$ means the existence of $\\phi:A\\to B$\nsuch that $\\phi\\circ f=g$.\n\nNote that $\\phi$ above is necessarily unique, since $\\lbrace x_i\\rbrace$\ngenerates $A$. For any $n$-ary polynomial $p$ over $A$, any\n$z_1,\\ldots,z_n \\in \\lbrace x_i\\mid i\\in I\\rbrace$,\n$\\phi(p(z_1,\\ldots,z_n))=p(\\phi(z_1),\\ldots,\\phi(z_n))$.\n\nFor example, any free group is a free algebra in the class of groups. In\ngeneral, however, free algebras do not always exist in an arbitrary\nclass of algebras.\n\n**Remarks**.\n\n-   $A$ is free over itself (meaning $\\mathcal{K}$ consists of $A$ only)\n    iff $A$ is free over some equational class.\n\n-   If $\\mathcal{K}$ is an equational class, then free algebras exist in\n    $\\mathcal{K}$.\n\n-   Any term algebra of a given structure $\\tau$ over some set $X$ of\n    variables is a free algebra with free generating set $X$.",
+  "language": "INFORMAL",
+  "phrase": "Free Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FreeAlgebra"
+    }
+  ],
+  "indexable": true
+}

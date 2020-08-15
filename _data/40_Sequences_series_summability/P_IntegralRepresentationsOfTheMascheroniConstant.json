@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Mascheroni\u2019s constant can be expressed by the following integrals:\n$$\\begin{aligned}\n\\gamma &=& - \\int_0^1 \\log (- \\log x) \\, dx \\\\\n\\gamma &=& - \\int_0^\\infty e^{-x} \\log x \\, dx \\\\\n\\gamma &=& \\int_0^\\infty \\left( {1 \\over e^t - 1} - {1 \\over t e^t} \\right) \\, dt \\\\\n\\gamma &=& \\int_0^\\infty \\left( {1 \\over t} - {1 \\over 1 + t} - {1 \\over t e^t} \\right) \\, dt \\\\\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralRepresentationsOfTheMascheroniConstant"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "integral representations of the Mascheroni constant"
+  ]
+}

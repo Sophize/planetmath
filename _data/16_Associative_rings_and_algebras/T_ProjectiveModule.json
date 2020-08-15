@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A module $P$ is [*projective*]{} if it satisfies the following\nequivalent conditions:\n\n\\(a) Every short exact sequence of the form $0 \\to A \\to B \\to P \\to 0$\nis ;\n\n\\(b) The functor ${\\rm Hom}(P, -)$ is ;\n\n\\(c) If $f : X \\to Y$ is an epimorphism and there exists a homomorphism\n$g : P \\to Y$, then there exists a homomorphism $h : P \\to X$ such that\n$fh = g$. $$\\xymatrix{\n  &\n  P\n        \\ar@{-->}[dl]_h\n        \\ar[d]^g\n  \\\\\n  X\n        \\ar[r]_f\n  &\n  Y\n        \\ar[r]\n  &\n  0\n}$$\n\n\\(d) The module $P$ is a direct summand of a free module.",
+  "language": "INFORMAL",
+  "phrase": "Projective Module",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProjectiveModule"
+    }
+  ],
+  "indexable": true
+}

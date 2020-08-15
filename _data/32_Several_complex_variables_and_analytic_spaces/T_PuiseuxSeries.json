@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "fractional power series"
+  ],
+  "definition": "A formal series of the form $$\\sum_{n=m}^\\infty a_n z^{n/k}$$ where $m$\nand $k$ are integers such that $k \\geq 1$ is is called a [*Puiseux\nseries*]{} or a [*fractional power series*]{}. Note that if $k > 1$,\nthen $z^{n/k}$ could be multivalued. One example of the use of such a\npower series is the Puiseux parametrization of one-dimensional complex\nanalytic varieties.\n\n[9]{} E. M. Chirka. [**]{}. Kluwer Academic Publishers, Dordrecht, The\nNetherlands, 1989. Alexandru Dimca. [**]{}. Vieweg, Braunschweig,\nGermany, 1987.",
+  "language": "INFORMAL",
+  "phrase": "Puiseux Series",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PuiseuxSeries"
+    }
+  ],
+  "indexable": true
+}

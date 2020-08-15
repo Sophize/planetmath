@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $U:H\\rightarrow H$ be an isometry in a Hilbert space $H$. Consider\nthe subspace $I(U)=\\{ v \\in H: Uv=v \\}$, called the space of invariant\nvectors. Denote by $P$ the orthogonal projection over the subspace\n$I(U)$. Then,\n$$\\lim_{n\\rightarrow \\infty} \\frac{1}{n} \\sum_{j=0}^{n-1} U^j(v)=P(v), \\forall v \\in H$$\n\nThis general theorem for Hilbert spaces can be used to obtain an ergodic\ntheorem for the $L^2(\\mu)$ space by taking $H$ to be the $L^2(\\mu)$\nspace, and $U$ to be the composition operator (also called Koopman\noperator) associated to a transformation $f:M\\rightarrow M$ that\npreserves a measure $\\mu$, i.e., $U_f(\\psi)=\\psi \\circ f$, where\n$\\psi:M\\rightarrow \\textbf{R}$. The space of invariant functions is the\nset of functions $\\psi$ such that $\\psi \\circ f = \\psi$ almost\neverywhere. For any $\\psi \\in L^2(\\mu)$, the sequence:\n$$\\lim_{n\\rightarrow \\infty} \\frac{1}{n} \\sum_{j=0}^{n-1} \\psi \\circ f^j$$\nconverges in $L^2(\\mu)$ to the orthogonal projection $\\tilde{\\psi}$ of\nthe function $\\psi$ over the space of invariant functions.\n\nThe $L^2(\\mu)$ version of the ergodic theorem for Hilbert spaces can be\nderived directly from the more general Birkhoff ergodic theorem, which\nasserts pointwise convergence instead of convergence in $L^2(\\mu)$.\nActually, from Birkhoff ergodic theorem one can derive a version of the\nergodic theorem where convergence in $L^p(\\mu)$ holds, for any $p> 1$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VonNeumannsErgodicTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Von Neumann's ergodic theorem"
+  ]
+}

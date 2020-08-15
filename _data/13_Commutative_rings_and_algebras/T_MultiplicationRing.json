@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $R$ be a commutative ring with non-zero unity. If $\\mathfrak{a}$ and\n$\\mathfrak{b}$ are two of $R$ with $\\mathfrak{a} \\subseteq \\mathfrak{b}$\nand if $\\mathfrak{b}$ is , then there is a $\\mathfrak{c}$ of $R$ such\nthat $\\mathfrak{a} = \\mathfrak{bc}$ (one can choose\n$\\mathfrak{c} = \\mathfrak{b}^{-1}\\mathfrak{a}$).\n\n**Definition.** Let $R$ be a commutative ring with non-zero unity and\nlet $\\mathfrak{a}$ and $\\mathfrak{b}$ be ideals of $R$. The ring $R$ is\na [*multiplication ring*]{} if $\\mathfrak{a} \\subseteq \\mathfrak{b}$\nalways implies that there exists a $\\mathfrak{c}$ of $R$ such that\n$\\mathfrak{a} = \\mathfrak{bc}$.\n\nEvery Dedekind domain is a multiplication ring. If a multiplication ring\nhas no zero divisors, it is a Dedekind domain.\n\n[9]{} . Academic Press. New York (1971).",
+  "language": "INFORMAL",
+  "phrase": "Multiplication Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MultiplicationRing"
+    }
+  ],
+  "indexable": true
+}

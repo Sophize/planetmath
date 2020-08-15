@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $x_1,x_2,\\ldots,x_n$ be a set of real-valued data observations. Let\n$x_{(1)}\\leq x_{(2)}\\leq \\ldots \\leq x_{(n)}$ be the order statistics of\nthe observations. The $k$*th trimmed mean* $\\overline{x}_{k}$ is defined\nas:\n$$\\overline{x}_{k}=\\frac{x_{(k+1)}+x_{(k+2)}+\\ldots+x_{(n-k)}}{n-2k}=\\frac{1}{n-2k}\\sum_{i=k+1}^{n-k}x_{(i)}.$$\nBy ordering the original observations, and taking away the first $k$\nsmallest observations and the first $k$ largest obserations, the trimmed\nmean takes the arithmetic average of the resulting data. The idea of a\ntrimmed mean is to eliminate *outliers*, or extreme observations that do\nnot seem to have any logical explanations in calculating the overall\nmean of a population.\n\nFor example, suppose 10 new lightbulbs are drawn from a population of\n100 to find the average lifetime of a typical lightbulb, measured in\nnumber of hours. The measurements are 802, 854, 823, 428, 815, 840, 833,\n809, 843, 821. The (arithmetic) mean of the measurement is\n$$\\frac{802+854+823+428+815+840+833+809+843+821}{10}=786.8,$$ with\nsample standard deviation = 127.1, whereas the 1st trimmed mean gives:\n$$\\frac{802+823+815+840+833+809+843+821}{8}=823.25,$$ with sample\nstandard deviation = 14.6, greatly reducing the sample deviation.\n\nThe trimmed mean gives a much more robust estimation (an estimation not\ngreatly affected by outliers) of the average than the arithmetic mean.\n\nAnother robust estimtor of a mean is the *winsorized mean*. Like the\ntrimmed mean, the winsorized mean eliminates the outliers at both ends\nof an ordered set of observations. Unlike the trimmed mean, the\nwinsorized mean replaces the outliers with observed values, rather than\ndiscarding them. The formal definition of the $k$th winsorized mean\n$w_k$ is:\n$$w_k=\\frac{(k+1)x_{(k+1)}+x_{(k+2)}+\\ldots+x_{(n-k-1)}+(k+1)x_{(n-k)}}{n}=\\frac{kx_{(k+1)}+(n-2k)\\overline{x}_{k}+kx_{(n-k)}}{n}.$$\nFrom the definition, we see that the winsorized mean is the average of\nthe observations where the first $k$ smallest values are replaced by the\n$k+1$th smallest value, $x_{(k+1)}$, and the first $k$ largest values\nare replaced by the $k+1$th largest value, $x_{(n-k)}$.\n\nFrom the above example, the 1st winsorized mean is\n$$\\frac{802+843+823+802+815+840+833+809+843+821}{10}=823.1,$$ with\nsample standard deviation = 16.1, fairly close to the answer given by\nthe trimmed mean.",
+  "language": "INFORMAL",
+  "phrase": "Trimmed Mean",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TrimmedMean"
+    }
+  ],
+  "indexable": true
+}

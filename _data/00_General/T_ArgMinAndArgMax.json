@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For a real-valued function $f$ with domain $S$,\n$\\arg \\min_{x \\in S} f(x)$ is the set of elements in $S$ that achieve\nthe global minimum in $S$,\n$${\\arg \\min}_{x \\in S} f(x) = \\{ x \\in S :\\, f(x) = \\min_{y\\in S} f(y) \\}.$$\n\n$\\arg \\max_{x \\in S} f(x)$ is the set of elements in $S$ that achieve\nthe global maximum in $S$,\n$${\\arg \\max}_{x \\in S} f(x) = \\{ x \\in S :\\, f(x) = \\max_{y\\in S} f(y) \\}.$$",
+  "language": "INFORMAL",
+  "phrase": "Arg Min And Arg Max",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ArgMinAndArgMax"
+    }
+  ],
+  "indexable": true
+}

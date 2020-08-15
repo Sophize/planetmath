@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "NP complete",
+    "NP hard"
+  ],
+  "definition": "A problem $\\pi\\in\\mathcal{NP}$ is $\\mathcal{NP}$ ** if for any\n$\\pi^\\prime\\in\\mathcal{NP}$ there is a Cook reduction of $\\pi^\\prime$ to\n$\\pi$. Hence if $\\pi\\in\\mathcal{P}$ then every $\\mathcal{NP}$ problem\nwould be in $\\mathcal{P}$. A slightly stronger definition requires a\nKarp reduction or Karp reduction of corresponding decision problems as\nappropriate.\n\nA search problem $R$ is *$\\mathcal{NP}$ hard* if for any\n$R^\\prime\\in\\mathcal{NP}$ there is a Levin reduction of $R^\\prime$ to\n$R$.",
+  "language": "INFORMAL",
+  "phrase": "Np-Complete",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NPcomplete"
+    }
+  ],
+  "indexable": true
+}

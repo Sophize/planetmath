@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Omega \\subset {\\mathbb{C}}^n$ be a domain and let\n$f \\colon \\Omega \\to\n{\\mathbb{C}}$ be a function. $f$ is called [**]{} if it is in each\nvariable separately as a function of one variable.\n\nThat means that the function $z_k \\mapsto f(z_1,\\ldots,z_k,\\ldots,z_n)$\nis holomorphic as a function of one variable. It is not at all obvious\nthat such a function is even continuous and we must apply the Hartogs\u2019s\ntheorem on separate analyticity which is not a trivial result.\n\nHistorically and some authors today still continue to do so, the\ndefinition of being holomorphic in several variables did include the\ncontinuity or at least local boundedness requirement.\n\nOf course we can also characterize holomorphic functions by their power\nseries.\n\n$f$ is holomorphic in $\\Omega$ if and only if near each point\n$\\zeta \\in \\Omega$ there is a neighbourhood $U$ and a power series in\nseveral variables $$\\sum_{\\alpha} a_\\alpha (z-\\zeta)^\\alpha ,$$ where\n$\\alpha$ ranges over all the multi-indices, $a_\\alpha \\in {\\mathbb{C}}$\nand such that the series converges to $f(z)$ for $z \\in U$.\n\nAnother way to characterize holomorphic functions is by the use of the\nCauchy-Riemann equations, which can be given in a very form by the .\n\n$f$ is holomorphic if and only if $\\bar{\\partial} f = 0$.\n\nDespite the similarities, one should be careful about carelessly\ngeneralizing results about functions of one variable to functions of\nseveral variables as the theory is quite different. See the topic entry\non several complex variables for more .\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Holomorphic Functions Of Several Variables",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HolomorphicFunctionsOfSeveralVariables"
+    }
+  ],
+  "indexable": true
+}

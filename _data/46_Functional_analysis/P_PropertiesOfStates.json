@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathcal{A}$ be a and $x \\in \\mathcal{A}$.\n\nLet $S(\\mathcal{A})$ and $P(\\mathcal{A})$ denote the space and the pure\nstate space of $\\mathcal{A}$, respectively.\n\nStates\n------\n\nThe space is sufficiently large to reveal many of elements of a\n$C^*$-algebra.\n\n[**Theorem 1-**]{} We have that\n\n-   $S(\\mathcal{A})$ separates points, i.e. $x= 0$ if and only if\n    $\\phi(x) = 0$ for all $\\phi \\in S(\\mathcal{A})$.\n\n-   $x$ is if and only if $\\phi(x) \\in \\mathbb{R}$ for all\n    $\\phi \\in S(\\mathcal{A})$.\n\n-   $x$ is positive if and only if $\\phi(x) \\geq 0$ for all\n    $\\phi \\in S(\\mathcal{A})$.\n\n-   If $x$ is , then $\\phi(x) = \\|x\\|$ for some\n    $\\phi \\in S(\\mathcal{A})$.\n\nPure states\n-----------\n\nThe pure state space is also sufficiently large to the of Theorem 1.\nHence, we can replace $S(\\mathcal{A})$ by $P(\\mathcal{A})$, or by any\nother family of linear functionals $F$ such that\n$P(\\mathcal{A}) \\subset F \\subset S(\\mathcal{A})$, in the previous\nresult.\n\n[**Theorem 2 -**]{} We have that\n\n-   $P(\\mathcal{A})$ separates points, i.e. $x= 0$ if and only if\n    $\\phi(x) = 0$ for all $\\phi \\in P(\\mathcal{A})$.\n\n-   $x$ is if and only if $\\phi(x) \\in \\mathbb{R}$ for all\n    $\\phi \\in P(\\mathcal{A})$.\n\n-   $x$ is positive if and only if $\\phi(x) \\geq 0$ for all\n    $\\phi \\in P(\\mathcal{A})$.\n\n-   If $x$ is , then $\\phi(x) = \\|x\\|$ for some\n    $\\phi \\in P(\\mathcal{A})$.\n\n[ **-**]{} Every multiplicative linear functional on $\\mathcal{A}$ is a\npure state.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PropertiesOfStates"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "properties of states"
+  ]
+}

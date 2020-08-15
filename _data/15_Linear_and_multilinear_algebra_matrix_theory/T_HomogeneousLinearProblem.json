@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "homogeneous"
+  ],
+  "definition": "Let $L:U\\rightarrow V$ be a linear mapping. A linear equation is called\n[*homogeneous*]{} if it has the form $$L(u)=0,\\quad u\\in U.$$ A\nhomogeneous linear problem always has a trivial solution, namely $u=0$.\nThe key issue in homogeneous problems is, therefore, the question of the\nexistence of non-trivial solutions, i.e. whether or not the kernel of\n$L$ is trivial, or equivalently, whether or not $L$ is injective.",
+  "language": "INFORMAL",
+  "phrase": "Homogeneous Linear Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomogeneousLinearProblem"
+    }
+  ],
+  "indexable": true
+}

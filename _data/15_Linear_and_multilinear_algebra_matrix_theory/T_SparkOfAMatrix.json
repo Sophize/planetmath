@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathbb{F}$ be a field, and let\n$m, n \\in \\mathbb{N} \\setminus \\{0\\}.$ Consider an $m \\times n$ matrix\n$A$ whose entries belong to $\\mathbb{F}.$ Let\n$\\displaystyle C_1, \\ldots , C_n \\in \\mathbb{F}^m$ be the columns of\n$A.$\n\nThe spark of the matrix $A$ is defined to be the infimum of the set of\nall positive integers $k$ with the property that $$ j\\_1, \u2026, j\\_k {1, \u2026,\nn} : {\n\n[l]{} j\\_1 &lt; \u2026&lt; j\\_k,\\\n$\\displaystyle C_{j_1}, \\ldots , C_{j_k}$ are linearly dependent (over\n$\\mathbb{F}$).\n\n. $$\n\nThe notion of spark of a matrix was introduced by Donoho and Elad in\n[@de]. It is strictly related to Compressed Sensing. The word \u201cspark\u201d\ncomes from a verbal fusion of \u201csparse\u201d and \u201crank\u201d.\n\nThe following properties hold true:\\\n\n  ------- ------------------------------------------------------------------------------------\n    (i)   ${\\rm spark} (A) \\in \\{1, \\ldots , n\\} \\cup \\{+\\infty\\},$\n   (ii)   ${\\rm spark} (A) = +\\infty\\, \\Leftrightarrow\\, {\\rm rank} (A) = n,$\n   (iii)  ${\\rm spark} (A) = 1$ if and only if the matrix $A$ has a zero column,\n   (iv)   if ${\\rm spark} (A) \\neq +\\infty,$ then ${\\rm spark} (A) \\leq {\\rm rank} (A) + 1.$\n  ------- ------------------------------------------------------------------------------------\n\n\\\nMoreover, ${\\rm spark} (A)$ coincides with the infimum of the set\n$\\displaystyle \\left\\{\\left\\| x \\right\\|_0 :\\, x \\in \\mathbb{F}^n \\setminus \\{{\\bf 0}\\},\\, A x = {\\bf 0}\\right\\}$,\nwhere $\\displaystyle \\left\\| x \\right\\|_0$ is the Hamming weight of $x$\nand ${\\bf 0}$ stands for the appropriate zero vectors.\n\n[99]{} D. L. Donoho and M. Elad, Optimally sparse representation in\ngeneral (nonorthogonal) dictionaries via $\\ell^1$ minimization, [*Proc.\nNatl. Acad. Sci. USA*]{} [**100**]{}, No. 5: 2197 \u2013 2202 (2003).",
+  "language": "INFORMAL",
+  "phrase": "Spark Of A Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SparkOfAMatrix"
+    }
+  ],
+  "indexable": true
+}

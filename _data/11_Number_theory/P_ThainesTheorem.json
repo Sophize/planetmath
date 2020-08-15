@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $F/{{\\mathbb}{Q}}$ be a totally real abelian number field. By the\nKronecker-Weber theorem, there exists an $m$ such that\n$F\\subset {{\\mathbb}{Q}}(\\zeta_m)$. Let $G$ be the Galois group of the\nextension $F/Q$. Let ${\\mathcal}{O}_F^\\times$ denote the group of units\nin the ring of integers of $F$, let $C$ be the subgroup of\n${\\mathcal}{O}_F^\\times$ consisting of units $\\eta$ of the form\n$$\\begin{aligned}\n\\eta=\\pm N_{{{\\mathbb}{Q}}(\\zeta_m)/F}\\left(\\prod_{a\\in({{\\mathbb}{Z}}/m{{\\mathbb}{Z}})^\\times}(\\zeta_m^a-1)^{b_a}\\right)\\end{aligned}$$\nfor some collection of $b_a\\in{{\\mathbb}{Z}}$. (Here, $N$ denotes the\nnorm operator and $\\zeta_m$ is a primitive $m$-th root of unity.)\nFinally, let $A$ denote the ideal class group of $F$.\n\nSuppose $p$ is a rational prime not dividing the degree\n$[F:{{\\mathbb}{Q}}]$ and suppose $\\theta\\in{{\\mathbb}{Z}}[G]$\nannihilates the Sylow $p$-subgroup of $E/C'$. Then $2\\theta$ annihilates\nthe Sylow $p$-subgroup of $A$.\n\nThis is one of the most sophisticated results concerning the\nannihilators of an ideal class group. It is a direct, but more\ncomplicated, version of Stickelberger\u2019s theorem, applied to totally real\nfields (for which Stickelberger\u2019s theorem gives no information).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThainesTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Thaine's theorem"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "root"
+  ],
+  "definition": "The *root* of a tree is a place-holder node. It is typically drawn at\nthe top of the page, with the other nodes below (with all nodes having\nthe same path distance from the root at the same height.)\n\n$$\\xymatrix{\n& {\\color{red}\\bullet} \\ar@{-}[dl] \\ar@{-}[dr] & & & \\\\\n\\bullet & & \\bullet \\ar@{-}[dr]\\ar@{-}[dl] & & \\\\\n& \\bullet \\ar@{-}[dl] & & \\bullet & \\\\\n\\bullet & & & & }$$\n\n[Figure: A tree with root highlighted in red.]{}\n\nAny tree can be redrawn this way, selecting any node as the root. This\nis important to note: taken as a graph in general, the notion of \u201croot\u201d\nis meaningless. We introduce a root explicitly when we begin speaking of\na graph as a tree\u2013 there is nothing in general that selects a root for\nus.\n\nHowever, there are some special cases of trees where the root can be\ndistinguished from the other nodes implicitly due to the properties of\nthe tree. For instance, a root is uniquely identifiable in a complete\nbinary tree, where it is the only node with degree two.\n\nFurther, in a *directed tree*, there can be only one root. This is\nbecause all nodes must be reachable from that node by following the\narrows between them in the proper direction.",
+  "language": "INFORMAL",
+  "phrase": "Root (Of A Tree)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RootofATree"
+    }
+  ],
+  "indexable": true
+}

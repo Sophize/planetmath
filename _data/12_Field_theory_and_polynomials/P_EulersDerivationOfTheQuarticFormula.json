@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let us consider the quartic equation $$\\begin{aligned}\ny^4+py^2+qy+r = 0,\\end{aligned}$$ where $p,\\,q,\\,r$ are arbitrary known\ncomplex numbers. We substitute in the equation $$\\begin{aligned}\ny := u+v+w.\\end{aligned}$$ We get firstly\\\n$y^2 = (u^2+v^2+w^2)+2(vw+wu+uv),$\\\n$y^4 = (u^2+v^2+w^2)^2+4(u^2+v^2+w^2)(vw+wu+uv)+4(v^2w^2+w^2u^2+u^2v^2)+8uvw(u+v+w).$\n\nThus (1) attains the form\n$$4(v^2w^2+w^2u^2+u^2v^2)+(u^2+v^2+w^2)^2+p(u^2+v^2+w^2)+r \\qquad\\;$$\n$$+(vw+wu+uv)[4(u^2+v^2+w^2)+2p]+(u+v+w)[8uvw+q] = 0.$$ When $u,\\,v,\\,w$\nare determined so that $$\\begin{aligned}\nu^2+v^2+w^2 = -\\frac{p}{2},\\end{aligned}$$ $$\\begin{aligned}\nuvw = -\\frac{q}{8},\\end{aligned}$$ the expressions in the brackets\nvanish and our equation shrinks to the form $$\\begin{aligned}\nv^2w^2+w^2u^2+u^2v^2 = \\frac{p^2-4r}{16}.\\end{aligned}$$ Squaring (4)\ngives $$\\begin{aligned}\nu^2v^2w^2 = \\frac{q^2}{64}.\\end{aligned}$$ The left hand sides of (3),\n(5) and (6) are the elementary symmetric polynomials of $u^2$, $v^2$,\n$w^2$, whence these three squares are the roots $z_1$, $z_2$, $z_3$ of\nthe so-called cubic resolvent equation $$\\begin{aligned}\nz^3+\\frac{p}{2}z^2+\\frac{p^2-4r}{16}z-\\frac{q^2}{64} = 0.\\end{aligned}$$\nTherefore we may write\n$$u = \\pm\\sqrt{z_1}, \\quad v = \\pm\\sqrt{z_2}, \\quad w = \\pm\\sqrt{z_3}.$$\nAll 8 sign combinations of those square roots satisfy the equations (3),\n(5), (6). In order to satisfy also (4) the signs must be chosen\nsuitably. If $u_0,\\,v_0,\\,w_0$ is some suitable combination of the\nvalues of the square roots, then all possible combinations are\n$$u_0,\\,v_0,\\,w_0;\\quad u_0,\\,-v_0,\\,-w_0;\\quad -u_0,\\,v_0,\\,-w_0;\\quad -u_0,\\,-v_0,\\,w_0.$$\n\nAccordingly, we have the\n\n**Theorem** (Euler 1739). The roots of the equation (1) are\n$$\\begin{aligned}\n\\begin{cases}\ny_1 = \\;\\;u_0+v_0+w_0,\\\\\ny_2 = \\;\\;u_0-v_0-w_0,\\\\\ny_3 = -u_0+v_0-w_0,\\\\\ny_4 = -u_0-v_0+w_0,\n\\end{cases}\\end{aligned}$$ where $u_0,\\,v_0,\\,w_0$ are square roots of\nthe roots of the cubic resolvent (7). The signs of the square roots must\nbe chosen such that $$u_0v_0w_0 = -\\frac{q}{8}.\\\\$$\n\nThe equations (8) imply an important formula $$\\begin{aligned}\n(y_1-y_2)(y_1-y_3)(y_1-y_4)(y_2-y_3)(y_2-y_4)(y_3-y_4) = & -2^6(v_0^2-w_0^2)(w_0^2-u_0^2)(u_0^2-v_0^2)\\\\ =\n& -64(z_2-z_3)(z_3-z_1)(z_1-z_2),\\end{aligned}$$ which yields the\n\n**Corollary.** A quartic equation has a multiple root always and only\nwhen its cubic resolvent has such one.\n\n[9]{} : [*Johdatus korkeampaan analyysiin*]{}. Fourth edition. Werner\nS\u00f6derstr\u00f6m Osakeyhti\u00f6, Porvoo ja Helsinki (1956). : [*Lukuteorian ja\nkorkeamman algebran alkeet*]{}. Tiedekirjasto No. 17.Kustannusosakeyhti\u00f6\nOtava, Helsinki (1950).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulersDerivationOfTheQuarticFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Euler's derivation of the quartic formula",
+    "quartic formula by Euler"
+  ]
+}

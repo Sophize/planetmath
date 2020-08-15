@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathcal C$ be a category and $A$ be an object in this category.\n*epimorphic hull* of $A$ is an object $E\\in\\mathrm{Ob}(C)$ such that\nthere is an $f:A\\rightarrow E$ that has the following property :\n\n1.  $f$ is an epimorphic extension\n\n2.  $f$ is an essential extension\n\n3.  $f$ is (roughly put \u201cmaximal epimorphic and essential extension\u201d)\n    has the property that for any epimorphic and essential extension\n    $g:A\\rightarrow B$, there exists a morphism $g:B\\rightarrow E$ such\n    that $$f=g\\circ h$$\n\nWe used \u201cthe epimorphic hull\u201d, because it can be proven that if an\nepimorphic hull exists for an object of the category, it is unique upto\nisomorphism.\n\nIn the category of semiprime commutative ring the epimorphic hull for\nevery semiprime ring exist. The epimorphic hull of a reduced ring is the\nintersection of all the von Neumann regular rings that lie between the\nring and its complete ring of quotient.",
+  "language": "INFORMAL",
+  "phrase": "Epimorphic Hull",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EpimorphicHull"
+    }
+  ],
+  "indexable": true
+}

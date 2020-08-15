@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "For polynomials with complex coefficients, there is an analogon of\nFermat\u2019s last theorem. It can be proven quite elementarily by using\nMason\u2019s theorem (1983), but the original proof (about in 1900) was based\non methods of algebraic geometry.\\\n**Theorem.** For an integer $n$ greater than 2, there exist no\nnon-constant coprime polynomials $x(t)$, $y(t)$, $z(t)$ in the ring\n$\\mathbb{C}[t]$ satisfying $$\\begin{aligned}\n[x(t)]^n+[y(t)]^n \\;=\\; [z(t)]^n.\\end{aligned}$$\n\n**Remark.** For $n = 2$, the equation (1) is in e.g. as\n$$(2t)^2\\!+\\!(1\\!-\\!t^2)^2 \\;=\\; (1\\!+\\!t^2)^2.$$\n\n[8]{} : \u201cDie $abc$-Vermutung\u201d. \u2013 *Elemente der Mathematik* **48**\n(1993).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolynomialAnalogonForFermatsLastTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "polynomial analogon for Fermat's last theorem",
+    "Fermat's last theorem for polynomials"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**.**]{} A finite ring is cyclic if and only if its and characteristic\nare equal.\n\nIf $R$ is a cyclic ring and $r$ is a of the additive group of $R$, then\n$|r|=|R|$. Since, for every $s \\in R$, $|s|$ divides $|R|$, then it\nfollows that $\\operatorname{char}~R=|R|$. Conversely, if $R$ is a finite\nring such that $\\operatorname{char}~R=|R|$, then the exponent of the\nadditive group of $R$ is also equal to $|R|$. Thus, there exists\n$t \\in R$ such that $|t|=|R|$. Since $\\langle t \\rangle$ is a subgroup\nof the additive group of $R$ and $|\\langle t \\rangle |=|t|=|R|$, it\nfollows that $R$ is a cyclic ring.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AFiniteRingIsCyclicIfAndOnlyItsOrderAndCharacteristicAreEqual"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a finite ring is cyclic if and only its order and characteristic are equal"
+  ]
+}

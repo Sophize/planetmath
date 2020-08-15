@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A category $\\mathcal{C}$ with finite products is said to be *Cartesian\nclosed* if each of the following functors has a right adjoint\n\n1.  $\\textbf{0}:\\mathcal{C}\\to \\textbf{1}$, where $\\textbf{1}$ is the\n    trivial category with one object $0$, and $\\textbf{0}(A)=0$\n\n2.  the diagonal functor\n    $\\delta: \\mathcal{C}\\to \\mathcal{C}\\times\\mathcal{C}$, where\n    $\\delta(A)=(A,A)$, and\n\n3.  for any object $B$, the functor\n    $(-\\times B):\\mathcal{C}\\to\\mathcal{C}$, where\n    $(-\\times B)(A)=A\\times B$, the product of $A$ and $B$.\n\nFurthermore, we require that the corresponding right adjoints for these\nfunctors to be\n\n1.  any functor $\\textbf{1}\\to\\mathcal{C}$, where $0$ is mapped to an\n    object $T$ in $\\mathcal{C}$. $T$ is necessarily a terminal object of\n    $\\mathcal{C}$.\n\n2.  the product ()\n    $(-\\times -): \\mathcal{C} \\times \\mathcal{C}\\to \\mathcal{C}$ given\n    by $(-\\times -)(A,B)\\mapsto A\\times B$, the product of $A$ and $B$.\n\n3.  for any object $B$, the exponential functor\n    $(-^B):\\mathcal{C}\\to\\mathcal{C}$ given by $(-^B)(A)=A^B$, the\n    exponential object from $B$ to $A$.\n\nIn other words, a Cartesian closed category $\\mathcal{C}$ is a category\nwith finite products, has a terminal objects, and has exponentials. It\ncan be shown that a Cartesian closed category is the same as a finitely\ncomplete category having exponentials.\n\nExamples of Cartesian closed categories are the category of sets **Set**\n( terminal object: any singleton; product: any Cartesian product of a\nfinite number of sets; exponential object: the set of functions from one\nset to another) the category of small categories **Cat** (terminal\nobject: any trivial category; product object: any finite product of\ncategores; exponential object: any functor category), and every\nelementary topos.\n\n[8]{} S. Mac Lane, [*Categories for the Working Mathematician*]{},\nSpringer, New York (1971).",
+  "language": "INFORMAL",
+  "phrase": "Cartesian Closed Category",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CartesianClosedCategory"
+    }
+  ],
+  "indexable": true
+}

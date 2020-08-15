@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "In group theory the use of the phrase *semi-simple group* is used\nsparingly. Standard texts on group theory including\n[@Aschbacher; @Gorenstein] avoid the term altogether. Other texts\nprovide precise definitions which are nevertheless not equivalent\n[@Robinson; @Suzuki]. In general it is preferable to use other terms to\ndescribe the class of groups being considered as there is no uniform\nconvention. However, below is a list of possible uses of for the phrase\n*semi-simple group*.\n\n1.  A group is *semi-simple* if it has no non-trivial normal abelian\n    subgroups [@Robinson p. 89].\n\n2.  A group $G$ is *semi-simple* if $G'=G$ and $G/Z(G)$ is a direct\n    product of non-abelian simple groups [@Suzuki Def. 6.1].\n\n3.  A product of simple groups may be called *semi-simple*. Depending on\n    application, the simple groups may be further restricted to finite\n    simple groups and may also exclude the abelian simple groups.\n\n4.  A Lie group whose associated Lie algebra is a semi-simple Lie\n    algebra may be called a *semi-simple* group and more specifically, a\n    *semi-simple Lie group*.\n\n**Connections with algebra**\n\nThe use of *semi-simple* in the study of algebras, representation\ntheory, and modules is far more precise owing to the fact that the\nvarious possible definitions are generally equivalent.\n\nFor example. In a finite dimensional associative algebra $A$, if $A$ it\nis a product of simple algebras then the Jacobson radical is trivial. In\ncontrast, if $A$ has trivial Jacobson radical then it is a direct\nproduct of simple algebras. Thus $A$ may be called *semi-simple* if\neither: $A$ is a direct product of simple algebras or $A$ has trivial\nJacobson radical.\n\nThe analogue fails for groups. For instance. If a group is defined as\nsemi-simple by virtue of having no non-trivial normal abelian subgroups\nthen $S_n$ is semi-simple for all $n>5$. However, $S_n$ is not a product\nof simple groups.\n\n[10]{}\n\nAschbacher, M. *Finite group theory* Cambridge studies in advanced\nmathematics 10, Cambridge University Press, Cambridge, (1986).\n\nGorenstein, D. *Finite groups* Chelsea Publishing Company, New York,\n(1980).\n\nRobinson, D. J.S. *A course in the theory of groups* Ed. 2, GTM 80,\nSpringer, New York, (1996).\n\nSuzuki, M. *Group Theory I,II*, (English) Springer-verlag, Berlin (1982,\n1986).",
+  "language": "INFORMAL",
+  "phrase": "Semisimple Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemisimpleGroup"
+    }
+  ],
+  "indexable": true
+}

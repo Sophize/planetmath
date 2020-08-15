@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $a,b$ be integers, $b \\ne 0$. Set $$q=\\begin{cases}\n\\left\\lfloor \\frac{a}{b}\\right\\rfloor &\\text{if $b>0$} \\\\\n-\\left\\lfloor \\frac{a}{\\lvert b\\rvert}\\right\\rfloor &\\text{otherwise},\n\\end{cases}$$ and $r=a-q\\cdot b$. Since $0\\le x -\\lfloor x\\rfloor < 1$\nfor any real $x$, we get for positive $b$\n$$0\\le \\frac{a}{b} -q =\\frac{r}{b} < 1$$, and for $b<0$\n$$0 \\le \\frac{a}{\\lvert b \\rvert} -\\left\\lfloor\\frac{a}{\\lvert b\\rvert}\\right\\rfloor =\\frac{a}{\\lvert b\\rvert} +q=\\frac{r}{\\lvert b\\rvert} <1,$$\nand the statement follows immediately.\n\nLet $R$ be a commutative ring with 1, and take $b(x)$ from $R[x]$, where\nthe leading coefficient of $b(x)$ is a unit in $R$. Without loss of\ngenerality we may assume the leading coefficient of $b(x)$ is 1.\n\nIf $n$ is the degree of $b(x)$, then set $$q(x)=\n\\begin{cases}\n0&\\text{if $\\deg(a(x)) <n$}\\\\\na_n&\\text{if $\\deg(a(x))=n$},\n\\end{cases}$$ where $a_n$ is the leading coefficient of $a(x)$. Then\n$r(x)=a(x) -q(x)\\cdot b(x)$ is either 0 or $\\deg(r(x))<\\deg(b(x))$, as\ndesired.\n\nNow let $m \\ge \\deg(b(x))$. Then the degree of the polynomial\n$$\\check{a}(x)=a(x) -a_{m+1}b(x)\\cdot x^{m+1-n}$$ is at most $m$. So by\nassumption we can write $a(x)$ as\n$$a(x)=b(x)\\cdot(\\check{q}(x)+a_{m+1}x^{m+1-n}) +\\check{r}(x)$$ where\n$\\check{r}(x)$ is either 0, or its degree is $<b(x)$.",
+  "conclusion": "#P_LongDivision",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfLongDivision"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of long division"
+  ]
+}

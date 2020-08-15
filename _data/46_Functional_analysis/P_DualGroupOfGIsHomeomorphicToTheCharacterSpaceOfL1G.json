@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $G$ be a locally compact and $L^1(G)$ its group algebra.\n\nLet $\\hat{G}$ denote the Pontryagin dual of $G$ and $\\Delta$ the\ncharacter space of $L^1(G)$, i.e. the set of multiplicative linear\nfunctionals of $L^1(G)$ endowed with the weak-\\* topology.\n\n[**Theorem -**]{} The spaces $\\hat{G}$ and $\\Delta$ are homeomorphic.\nThe homeomorphism is given by\n$$\\omega \\longmapsto \\phi_{\\omega}\\;, \\qquad\\qquad \\omega \\in \\hat{G}$$\nwhere $\\phi_{\\omega} \\in \\Delta$ is defined by\n$$\\phi_{\\omega}(f):=\\int_G f(s)\\omega(s)\\;d\\mu(s)\\;, \\qquad\\qquad f \\in L^1(G)$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DualGroupOfGIsHomeomorphicToTheCharacterSpaceOfL1G"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "dual group of $G$ is homeomorphic to the character space of $L^1(G)$"
+  ]
+}

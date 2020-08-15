@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(A,\\,+,\\,\\cdot)$ be a commutative ring with a non-zero unity 1. If\n$a$ and $b$ are two elements of $A$ and if there is an element $q$ of\n$A$ such that $b = qa$, then $b$ is said to be [*divisible*]{} by $a$;\nit may be denoted by $a\\mid b$. (If $A$ has no zero divisors and\n$a \\neq 0$, then $q$ is uniquely determined.)\n\nWhen $b$ is divisible by $a$, $a$ is said to be a [*divisor*]{} or\n[**]{} of $b$. On the other hand, $b$ is not said to be a [*multiple*]{}\nof $a$ except in the case that $A$ is the ring $\\mathbb{Z}$ of the\nintegers. In some languages, e.g. in the Finnish, $b$ has a name which\ncould be approximately be translated as \u2018[*containant*]{}\u2019:$b$ is a\n[*containant*]{} of $a$ (\u201c$b$ on $a$:n [*sis\u00e4lt\u00e4j\u00e4*]{}\u201d).\n\n****\n\n-   $a\\mid b$ iff $(b)\\subseteq (a)$ \\[see the principal ideals\\].\n\n-   Divisibility is a reflexive and transitive relation in $A$.\n\n-   0 is divisible by all elements of $A$.\n\n-   $a\\mid 1$ iff $a$ is a unit of $A$.\n\n-   All elements of $A$ are divisible by every unit of $A$.\n\n-   If $a\\mid b$ then $a^n\\mid b^n \\;\\; (n = 1,\\,2,\\,\\ldots)$.\n\n-   If $a\\mid b$ then $a\\mid bc$ and $ac\\mid bc$.\n\n-   If $a\\mid b$ and $a\\mid c$ then $a\\mid b\\!+\\!c$.\n\n-   If $a\\mid b$ and $a\\nmid c$ then $a\\nmid b\\!+\\!c$.\n\n**Note.** The divisibility can be similarly defined if $(A,\\,+,\\,\\cdot)$\nis only a semiring; then it also has the above properties except the\nfirst. This concerns especially the case that we have a ring $R$ with\nnon-zero unity and $A$ is the set of the ideals of $R$ (see the ideal\nmultiplication laws). Thus one may speak of the [*divisibility of\nideals*]{} in $R$: $\\mathfrak{a\\mid b\\,\\,\\Leftrightarrow\\,\\, \n(\\exists q)\\,(b = qa)}$. Cf. multiplication ring.",
+  "language": "INFORMAL",
+  "phrase": "Divisibility In Rings",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DivisibilityInRings"
+    }
+  ],
+  "indexable": true
+}

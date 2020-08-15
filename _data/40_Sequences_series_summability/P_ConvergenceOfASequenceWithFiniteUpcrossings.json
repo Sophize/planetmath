@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following result characterizes convergence of a sequence in terms of\nfiniteness of numbers of upcrossings.\n\nA sequence $x_1,x_2,\\ldots$ of real numbers converges to a limit in the\nextended real numbers if and only if the number of upcrossings $U[a,b]$\nis finite for all $a<b$.\n\nSince the number of upcrossings $U[a,b]$ differs from the number of\ndowncrossings $D[a,b]$ by at most one, the theorem can equivalently be\nstated in terms of the finiteness of $D[a,b]$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConvergenceOfASequenceWithFiniteUpcrossings"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "convergence of a sequence with finite upcrossings"
+  ]
+}

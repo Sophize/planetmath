@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "von Mangoldt function"
+  ],
+  "definition": "The Mangoldt function $\\Lambda$ is defined by $$\\Lambda (n) = \n\\begin{cases}\n\\ln p, &\\text{if $n=p^k$, where $p$ is a prime and $k$ is a natural number $\\geq 1$}\\\\\n0, &\\text{otherwise}\n\\end{cases}$$\n\nThe Moebius Inversion Formula leads to the identity\n$\\Lambda (n) = \\sum_{d|n} \\mu (n/d) \\ln d = - \\sum_{d|n} \\mu (d) \\ln d$.",
+  "language": "INFORMAL",
+  "phrase": "Mangoldt Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MangoldtFunction"
+    }
+  ],
+  "indexable": true
+}

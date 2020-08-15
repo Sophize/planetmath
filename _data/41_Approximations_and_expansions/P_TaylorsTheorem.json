@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Taylor\u2019s Theorem\n================\n\nLet $f$ be a function which is defined on the interval $(a,b)$ and\nsuppose the $n$th derivative $f^{(n)}$ exists on $(a,b)$. Then for all\n$x$ and $x_0$ in $(a,b)$,\n\n$$R_n(x) = \\frac{f^{(n)}(y)}{n!}(x-x_0)^n$$\n\nwith $y$ strictly between $x$ and $x_0$ ($y$ depends on the choice of\n$x$). $R_n(x)$ is the $n$th remainder of the Taylor series for $f(x)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TaylorsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Taylor's theorem"
+  ]
+}

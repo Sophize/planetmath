@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *von Neumann* is not an integer, but instead a construction of a\nnatural number using some basic set notation. The von Neumann integers\nare defined inductively. The von Neumann integer zero is defined to be\nthe empty set, $\\emptyset$, and there are no smaller von Neumann\nintegers. The von Neumann integer $N$ is then the set of all von Neumann\nintegers less than $N$. The set of von Neumann integers is the set of\nall finite .\n\nThis form of construction from very basic notions of sets is applicable\nto various forms of set theory (for instance, Zermelo-Fraenkel set\ntheory). While this construction suffices to define the set of natural\nnumbers, a little more work must be done to define the set of all .\n\n### Examples {#examples .unnumbered}\n\n$$\\begin{aligned}\n0 & = & \\emptyset \\\\\n1 & = & \\left\\{ 0 \\right\\} = \\left\\{ \\emptyset \\right\\} \\\\\n2 & = & \\left\\{ 0, 1 \\right\\} = \\left\\{ \\emptyset, \\left\\{ \\emptyset \\right\\} \\right\\} \\\\\n3 & = & \\left\\{ 0, 1, 2 \\right\\} = \\left\\{ \\emptyset, \\left\\{ \\emptyset \\right\\}, \\left\\{ \\left\\{ \\emptyset, \\left\\{ \\emptyset \\right\\} \\right\\} \\right\\}\\right\\} \\\\\n  & \\vdots & \\\\\nN & = & \\left\\{ 0, 1, \\dots, N-1 \\right\\}\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Von Neumann Integer",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VonNeumannInteger"
+    }
+  ],
+  "indexable": true
+}

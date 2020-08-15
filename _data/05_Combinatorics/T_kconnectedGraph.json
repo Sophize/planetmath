@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Connectivity of graphs, when it isn\u2019t specified which flavor is\nintended, usually refers to [*vertex connectivity*]{}, unless it is\nclear from the context that it refers to [*edge connectivity*]{}.\n\nThe ([**vertex**]{}) [**connectivity**]{} $\\kappa(G)$ is the minimum\nnumber of vertices (aka nodes) you have to remove to [*either*]{} make\nthe graph no longer connected, [*or*]{} reduce it to a single vertex\n(node). $G$ is said to be [**$k$-**]{}([**vertex**]{})[**-connected**]{}\nfor any $k\\le\\kappa(G)\\in\\Nset$. Note that \u201cremoving a vertex\u201d in graph\ntheory also involves removing all the edges incident to that vertex.\n\nThe [**edge connectivity**]{} $\\kappa'(G)$ of a graph $G$ is more\nstraightforward, it is just the minimum number of edges you have to\nremove to make the graph no longer connected. $G$ is said to be\n[**$k$-edge-connected**]{} for any $k\\le\\kappa'(G)\\in\\Nset$. And note\n\u201cremoving an edge\u201d is simply that; it does not entail removing any\nvertices.\n\n-   If $\\kappa'(G)=0$ also $\\kappa(G)=0$ and vice versa; such graphs are\n    called disconnected and consist of several connected components. If\n    $\\kappa$ and $\\kappa'$ are nonzero (the graph is 1-connected) it is\n    a connected graph (a single connected component)\n\n-   If $\\kappa'(G)=1$ the graph contains at least one bridge. If\n    $\\kappa'(G)\\gt1$ (the graph is 2-edge-connected) every edge is part\n    of a cycle (circuit, closed path).\n\n    If $\\kappa(G)=1$ the graph contains at least one cutvertex. If\n    $\\kappa(G)\\gt1$ (the graph is 2-vertex-connected) there is, for any\n    pair of vertices, a cycle they both lie on.\n\n-   For the complete graphs we have $\\kappa(K_n)=\\kappa'(K_n)=n-1$.\n\n-   For any graph $G$ we have $\\kappa(G) \\le \\kappa'(G) \\le \\delta(G)$\n    where the latter is the minimum valency in $G$ (the valency of a\n    vertex is the number of edges sprouting from it).\n\nEverything on this page applies equally well to multigraphs and\npseudographs.\n\nFor directed graphs there are (\u201cweak\u201d if the underlying graph is\nconnected, \u201cstrong\u201d if you can get [*from*]{} everywhere [*to*]{}\neverywhere).\n\nThere are now to go with this entry.",
+  "language": "INFORMAL",
+  "phrase": "${K}$-Connected Graph",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/kconnectedGraph"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem.**]{} If $A$ is an infinite set and $B$ is a finite subset of\n$A$, then $A\\setminus B$ is infinite.\n\n*Proof.* The proof is by contradiction. If $A\\setminus B$ would be\nfinite, there would exist a $k\\in {\\mathbb{N}}$ and a bijection\n$f:\\{1,\\ldots, k\\}\\to A\\setminus B$. Since $B$ is finite, there also\nexists a bijection $g:\\{1,\\ldots, l\\}\\to B$. We can then define a\nmapping $h:\\{1,\\ldots, k+l\\} \\to A$ by $$\\begin{aligned}\nh(i)&=& \\left\\{ \\begin {array}{ll} \n  f(i) & \\mbox{when} \\, i\\in \\{1,\\ldots, k\\}, \\\\\n  g(i-k) & \\mbox{when}\\, i\\in\\{k+1,\\ldots, k+l\\}. \\\\\n  \\end{array} \\right.\\end{aligned}$$ Since $f$ and $g$ are bijections,\n$h$ is a bijection between a finite subset of ${\\mathbb{N}}$ and $A$.\nThis is a contradiction since $A$ is infinite. $\\Box$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IfAIsInfiniteAndBIsAFiniteSubsetOfAThenAsetminusBIsInfinite"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "if $A$ is infinite and $B$ is a finite subset of $A\\,\\!,$ then $A\\setminus B$ is infinite"
+  ]
+}

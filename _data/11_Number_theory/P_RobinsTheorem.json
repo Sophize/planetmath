@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\sigma(n)$ be the sum of the positive divisors of an integer $n$\nand\n$$G(n) \\;:=\\; \\frac{\\sigma(n)}{n\\ln(\\ln{n})}  \\qquad(n \\;=\\; 2,\\,3,\\,4,\\,\\ldots).$$\nThe Riemann Hypothesis is true if and only if\n$$G(n) \\;<\\; e^\\gamma \\quad \\mbox{for all }\\, n \\;>\\; 7!$$ where\n$\\gamma$ is the Euler\u2013Mascheroni constant.\n\n[8]{} : Grandes valeurs de la fonction somme des diviseurs et hypoth\u00e8se\nde Riemann. $-$ *J. Math. Pures Appl.* **14** (1984) 187\u2013213. : An\nelementary problem equivalent to the Riemann hypothesis. $-$ [*Amer.\nMath. Monthly*]{} **109** (2002), 534\u2013543. Available at\nhttp://arxiv.org/abs/math/0008177",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RobinsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Robin's theorem"
+  ]
+}

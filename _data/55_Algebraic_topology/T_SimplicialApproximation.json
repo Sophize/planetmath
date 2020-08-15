@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $K$ and $L$ be simplicial complexes and $f: |K| \\to |L|$ be a\ncontinuous function. A simplicial mapping $g: |K| \\to |L|$ which is\nhomotopic to $f$ is called a *simplicial approximation* of $f$.\n\nFor example, suppose that $L$ is the closure of an $n$-simplex and $a_0$\nis a vertex of $L$. Let $f$ be a continuous map of $|K|$ to $|L|$ where\n$K$ is some simplicial complex. Then the map $g$ that sends all of $K$\nto $a_0$ is a simplicial approximation of $f$.",
+  "language": "INFORMAL",
+  "phrase": "Simplicial Approximation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SimplicialApproximation"
+    }
+  ],
+  "indexable": true
+}

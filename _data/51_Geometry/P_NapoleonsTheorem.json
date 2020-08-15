@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If equilateral triangles are erected externally on the three sides of\nany given triangle, then their centres are the vertices of an\nequilateral triangle.\n\n![image](napoleon)\n\nIf we embed the statement in the complex plane, the proof is a mere\ncalculation. In the notation of the figure, we can assume that $A=0$,\n$B=1$, and $C$ is in the upper half plane. The hypotheses are\n$$\\label{eq:hyp}\n\\frac{1-0}{Z-0}=\\frac{C-1}{X-1}=\\frac{0-C}{Y-C}=\\alpha$$ where\n$\\alpha=\\exp{\\pi i/3}$, and the conclusion we want is $$\\label{eq:conc}\n\\frac{N-L}{M-L}=\\alpha$$ where\n$$L=\\frac{1+X+C}{3}\\qquad M=\\frac{C+Y+0}{3}\\qquad N=\\frac{0+1+Z}{3}\\;.$$\nFrom (\\[eq:hyp\\]) and the relation $\\alpha^2=\\alpha-1$, we get $X,Y,Z$:\n$$X=\\frac{C-1}{\\alpha}+1=(1-\\alpha)C+\\alpha$$\n$$Y=-\\frac{C}{\\alpha}+C=\\alpha C$$ $$Z=1/{\\alpha}=1-\\alpha$$ and so\n$$\\begin{aligned}\n3(M-L)&=&Y-1-X\\\\\n&=&(2\\alpha-1)C-1-\\alpha\\\\\n3(N-L)&=&Z-X-C\\\\\n&=&(\\alpha-2)C+1-2\\alpha\\\\\n&=&(2\\alpha-2-\\alpha)C-\\alpha+1-\\alpha\\\\\n&=&(2\\alpha^2-\\alpha)C-\\alpha-\\alpha^2\\\\\n&=&3(M-L)\\alpha\\end{aligned}$$ proving (\\[eq:conc\\]).\n\n**Remarks:** The attribution to Napol\u00e9on Bonaparte (1769-1821) is\ntraditional, but dubious. For more on the story, see .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NapoleonsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Napoleon's theorem"
+  ]
+}

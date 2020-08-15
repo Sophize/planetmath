@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $(G,\\cdot)$ be a group and let $H$ be a subgroup of $G$ of index 2.\nThen $H$ is normal in $G$.\n\nLet $G$ be a group and let $H$ be an index 2 subgroup of $G$. By\ndefinition of index, there are only two left cosets of $H$ in $G$,\nnamely: $$H, \\quad g_1H$$ where $g_1$ is any element of $G$ which is not\nin $H$. Notice that if $g_1,\\ g_2$ are two elements in $G$ which are not\nin $H$ then $g_1\\cdot g_2$ belongs to $H$. Indeed, the coset\n$g_1g_2H\\neq g_1H$ (because $g_1g_2=g_1h$ would immediately yield\n$g_2=h\\in H$) and so $g_1g_2H=H$ and $g_1g_2\\in H$.\n\nLet $h\\in H$ be an arbitrary element of $H$ and let $g\\in G$. If\n$g\\in H$ then $ghg^{-1}\\in H$ and we are done. Otherwise, assume that\n$g\\notin H$. Thus $gh\\notin H$ and by the remark above\n$ghg^{-1}=(gh)g^{-1} \\in H$, as desired.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ASubgroupOfIndex2IsNormal"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "a subgroup of index 2 is normal"
+  ]
+}

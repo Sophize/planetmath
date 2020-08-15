@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *quasigroup* is a groupoid $G$ with the property that for every\n$x, y \\in G$, there are unique elements $w, z \\in G$ such that $xw = y$\nand $zx = y$.\n\nA *loop* is a *quasigroup* which has an identity element.\n\nWhat distinguishes a loop from a group is that the former need not\nsatisfy the associative law.",
+  "language": "INFORMAL",
+  "phrase": "Loop And Quasigroup",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LoopAndQuasigroup"
+    }
+  ],
+  "indexable": true
+}

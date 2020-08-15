@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "complex power"
+  ],
+  "definition": "The [*general power*]{} $z^\\mu$, where $z\\,(\\neq 0)$ and $\\mu$ are\narbitrary complex numbers, is defined via the complex exponential\nfunction and complex logarithm (denoted here by \u201c$\\log$\u201d) of the by\nsetting $$z^\\mu := e^{\\mu\\log{z}} = e^{\\mu(\\ln{|z|}\\!+\\!i\\arg{z})}.$$\nThe number $z$ is the [*base of the power*]{} $z^\\mu$ and $\\mu$ is its\n[*exponent*]{}.\n\nSplitting the exponent $\\mu = \\alpha+i\\beta$ in its real and imaginary\nparts one obtains\n$$z^\\mu = e^{\\alpha\\ln{|z|}-\\beta\\arg{z}}\\cdot e^{i(\\beta\\ln{|z|}+\\alpha\\arg{z})},$$\nand thus $$|z^\\mu| =e^{\\alpha\\ln{|z|}-\\beta\\arg{z}}, \n          \\quad \\arg{z^\\mu} = \\beta\\ln{|z|}\\!+\\!\\alpha\\arg{z}.$$ This\nshows that both the modulus and the of the general power are in general\nmultivalued. The modulus is unique only if $\\beta = 0$, i.e. if the\nexponent $\\mu = \\alpha$ is real; in this case we have\n$$|z^\\mu| = |z|^\\mu, \\quad \\arg{z^\\mu} = \\mu\\cdot\\arg{z}.$$\n\nLet $\\beta \\neq 0$. If one lets the point $z$ go round the origin\nanticlockwise, $\\arg{z}$ gets an addition $2\\pi$ and hence the $z^\\mu$\nhas been multiplied by a having the modulus $e^{-2\\pi\\beta} \\neq 1$, and\nwe may say that $z^\\mu$ has come to a new [*branch*]{}.\\\n**Examples**\n\n1.  $z^{\\frac{1}{m}}$, where $m$ is a positive integer, coincides with\n    the $m^\\mathrm{th}$ of $z$.\n\n2.  $\\displaystyle 3^2 = e^{2\\log{3}} = e^{2(\\ln{3}+2n\\pi i)} = 9(e^{2\\pi i})^{2n} = 9$\n    $\\forall n\\in\\mathbb{Z}$.\n\n3.  $\\displaystyle i^i = e^{i\\log{i}} = e^{i(\\ln{1}+\\frac{\\pi}{2}i-2n\\pi i)} =\n      e^{2n\\pi-\\frac{\\pi}{2}}$ (with $n = 0,\\,\\pm1,\\,\\pm2,\\,\\ldots$);\n    all these values are positive real numbers, the simplest of them is\n    $\\displaystyle\\frac{1}{\\sqrt{e^\\pi}} \\approx 0.20788$.\n\n4.  $(-1)^i = e^{(2n+1)\\pi}$ (with $n = 0,\\,\\pm1,\\,\\pm2,\\,\\ldots$) also\n    are situated on the positive real axis.\n\n5.  $\\displaystyle (-1)^{\\sqrt{2}} = e^{\\sqrt{2}\\log{(-1)}} = \n      e^{\\sqrt{2}i(\\pi+2n\\pi)} = e^{i(2n+1)\\pi\\sqrt{2}}$ (with\n    $n = 0,\\,\\pm1,\\,\\pm2,\\,\\ldots$); all these are (meaning here that\n    their imaginary parts are distinct from 0), situated on the\n    circumference of the unit circle such that all points of the\n    circumference are accumulation points of the sequence of the\n    $\\displaystyle (-1)^{\\sqrt{2}}$ (see ).\n\n6.  $2^{1-i} = 2e^{2n\\pi}(\\cos\\ln{2}+i\\sin\\ln{2})$ (with\n    $n = 0,\\pm1,\\,\\pm2,\\,\\ldots$), are situated on the half line\n    beginning from the origin with the argument $\\ln{2} \\approx 0.69315$\n    radians.",
+  "language": "INFORMAL",
+  "phrase": "General Power",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GeneralPower"
+    }
+  ],
+  "indexable": true
+}

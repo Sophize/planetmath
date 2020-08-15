@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $P$ be a poset. Recall that a subset $S$ of $P$ is called *bounded\nfrom above* if there is an element $a\\in P$ such that, for every\n$s\\in S$, $s\\le a$.\n\nA poset $P$ is said to be *bounded complete* if every subset which is\nbounded from above has a supremum.\n\n**Remark**. Since it is not required that the subset be non-empty, we\nsee that $P$ has a bottom. This is because the empty set is vacuously\nbounded from above, and therefore has a supremum. However, this supremum\nis less than or equal to every member of $P$, and hence it is the least\nelement of $P$.\n\nClearly, any complete lattice is bounded complete. An example of a\nnon-complete bounded complete poset is any closed subset of $\\mathbb{R}$\nof the form $[a,\\infty)$, where $a\\in \\mathbb{R}$. In addition,\narbitrary products of bounded complete posets is also bounded complete.\n\nIt can be shown that a poset is a bounded complete dcpo iff it is a\ncomplete semilattice.\n\n**Remark**. A weaker concept is that of *Dedekind completeness*: A poset\n$P$ is *Dedekind complete* if every *non-empty* subset bounded from\nabove has a supremum. An obvious example is $\\mathbb{R}$, which is\nDedekind complete but not bounded complete (as it has no bottom).\nDedekind completeness is more commonly known as the least upper bound\nproperty.",
+  "language": "INFORMAL",
+  "phrase": "Bounded Complete",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundedComplete"
+    }
+  ],
+  "indexable": true
+}

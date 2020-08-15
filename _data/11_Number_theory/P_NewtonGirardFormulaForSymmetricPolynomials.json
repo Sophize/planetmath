@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $E_k$ be the elementary symmetric polynomials in $n$ variables and\n$S_k$ be defined by $$S_k(x_1, ... , x_n) = \\sum_{i=1}^n{x_i^k}.$$\n\nThen the $S_k$ and $E_k$ are related as follows: $$\\begin{aligned}\nS_1 &= E_1 \\\\\nS_2 &= S_1 E_1 - 2E_2 \\\\\nS_3 &= S_2 E_1 - S_1 E_2 + 3E_3\\\\\n &\\vdots \\\\\nS_k &= -\\left(\\sum_{j=1}^{k-1} {(-1)^j S_{k-j} E_j} \\right) - (-1)^k k E_k \\end{aligned}$$\n\nBy applying these formulas recursively, $S_k$ can be expressed solely in\nterms of the $E_k$, which is often desirable. For example, since\n$S_1 = E_1$, $S_2 = E_1^2 - 2E_2$, and then\n$S_3 = (E_1^2-2E_2)E_1 - E_1 E_2 + 3E_3 = E_1^3 - 3E_1 E_2 + 3E_3$, and\nso on.\n\nNote that $E_0 = 1$ and $E_k=0$ for $k > n$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NewtonGirardFormulaForSymmetricPolynomials"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Newton-Girard formula for symmetric polynomials"
+  ]
+}

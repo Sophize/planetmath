@@ -1,0 +1,19 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "*K\u00f6nig\u2019s Theorem* is a theorem of cardinal arithmetic.\n\nLet $\\kappa_i$ and $\\lambda_i$ be cardinals, for all $i$ in some index\nset $I$. If $\\kappa_i<\\lambda_i$ for all $i\\in I$, then\n$$\\sum_{i\\in I}\\kappa_i<\\,\\prod_{i\\in I}\\lambda_i.$$\n\nThe theorem can also be stated for arbitrary sets, as follows.\n\nLet $A_i$ and $B_i$ be sets, for all $i$ in some index set $I$. If\n$|A_i|<|B_i|$ for all $i\\in I$, then\n$$\\left|\\,\\bigcup_{i\\in I}A_i\\right|<\\left|\\,\\prod_{i\\in I}B_i\\right|.$$\n\nLet $\\varphi\\colon\\bigcup_{i\\in I}A_i\\to\\prod_{i\\in I}B_i$ be a\nfunction. For each $i\\in I$ we have $|\\varphi(A_i)|\\le|A_i|<|B_i|$, so\nthere is some $x_i\\in B_i$ that is not equal to $(\\varphi(a))(i)$ for\nany $a\\in A_i$. Define $f\\colon I\\to\\bigcup_{i\\in I}B_i$ by $f(i)=x_i$\nfor all $i\\in I$. For any $i\\in I$ and any $a\\in A_i$, we have\n$f(i)\\ne(\\varphi(a))(i)$, so $f\\ne\\varphi(a)$. Therefore $f$ is not in\nthe image of $\\varphi$. This shows that there is no surjection from\n$\\bigcup_{i\\in I}A_i$ onto $\\prod_{i\\in I}B_i$. As $\\prod_{i\\in I}B_i$\nis nonempty, this also means that there is no injection from\n$\\prod_{i\\in I}B_i$ into $\\bigcup_{i\\in I}A_i$. This completes the proof\nof Theorem 2. Theorem 1 follows as an immediate corollary.\n\nNote that the above proof is a diagonal argument, similar to the proof\nof Cantor\u2019s Theorem. In fact, Cantor\u2019s Theorem can be considered as a\nspecial case of K\u00f6nig\u2019s Theorem, taking $\\kappa_i=1$ and $\\lambda_i=2$\nfor all $i$.\n\nAlso note that Theorem 2 is equivalent (in ZF) to the Axiom of Choice,\nas it implies that of nonempty sets are nonempty. (Theorem 1, on the\nother hand, is not meaningful without the Axiom of Choice.)",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KonigsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "K\\\"onig's theorem",
+    "Koenig's theorem",
+    "Konig's theorem",
+    "K\\\"onig-Zermelo theorem",
+    "Koenig-Zermelo theorem",
+    "Konig-Zermelo theorem"
+  ]
+}

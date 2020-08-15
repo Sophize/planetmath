@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An element $a$ of a ring $R$ is said to be *von Neumann regular* if\nthere exists $b\\in R$ such that $aba=a$. Such an element $b$ is known as\na ** of $a$.\n\nFor example, any unit in a ring is von Neumann regular. Also, any\nidempotent element is von Neumann regular. For a non-unit,\nnon-idempotent von Nuemann regular element, take $M_2(\\mathbb{R})$, the\nring of $2\\times 2$ matrices over $\\mathbb{R}$. Then\n\n$\\begin{pmatrix}\n2 & 0 \\\\\n0 & 0\n\\end{pmatrix}=\n\\begin{pmatrix}\n2 & 0 \\\\\n0 & 0\n\\end{pmatrix}\n\\begin{pmatrix}\n\\frac{1}{2} & 0 \\\\\n0 & 0\n\\end{pmatrix}\n\\begin{pmatrix}\n2 & 0 \\\\\n0 & 0\n\\end{pmatrix}$\n\nis von Neumann regular. In fact, we can replace $2$ with any non-zero\n$r\\in \\mathbb{R}$ and the resulting matrix is also von Neumann regular.\nThere are several ways to generalize this example. One way is take a\ncentral idempotent $e$ in any ring $R$, and any $rs=f$ with $ef=e$. Then\n$re$ is von Neumann regular, with $s,se$ and $sf$ all as pseudoinverses.\nIn another generalization, we have two rings $R,S$ where $R$ is an\nalgebra over $S$. Take any idempotent $e\\in R$, and any invertible\nelement $s\\in S$ such that $s$ commutes with $e$. Then $se$ is von\nNeumann regular.\n\nA ring $R$ is said to be a *von Neumann regular ring* (or simply a\n*regular ring*, if the is clear from context) if every element of $R$ is\nvon Neumann regular.\n\nFor example, any division ring is von Neumann regular, and so is any\nring of matrices over a division ring. In general, any semisimple ring\nis von Neumann regular.\n\n**Remark**. Note that *regular ring* in the sense of von Neumann should\nnot be confused with *regular ring* in the sense of , which is a\nNoetherian ring whose localization at every prime ideal is a regular\nlocal ring.",
+  "language": "INFORMAL",
+  "phrase": "Von Neumann Regular",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VonNeumannRegular"
+    }
+  ],
+  "indexable": true
+}

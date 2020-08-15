@@ -1,0 +1,20 @@
+{
+  "alternatePhrases": [
+    "one-point compactification",
+    "Alexandroff one-point compactification",
+    "Aleksandrov one-point compactification",
+    "Alexandrov compactification",
+    "Aleksandrov compactification",
+    "Alexandroff compactification"
+  ],
+  "definition": "The *Alexandrov one-point compactification* of a non-compact topological\nspace $X$ is obtained by adjoining a new point $\\infty$ and defining the\ntopology on $X\\cup\\{\\infty\\}$ to consist of the open sets of $X$\ntogether with the sets of the form $U\\cup\\{\\infty\\}$, where $U$ is an\nopen subset of $X$ with compact complement.\n\nWith this topology, $X\\cup\\{\\infty\\}$ is always compact. Furthermore, it\nis Hausdorff if and only if $X$ is Hausdorff and locally compact.",
+  "language": "INFORMAL",
+  "phrase": "Alexandrov One-Point Compactification",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlexandrovOnepointCompactification"
+    }
+  ],
+  "indexable": true
+}

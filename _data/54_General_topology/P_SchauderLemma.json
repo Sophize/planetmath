@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem is in the functional analysis literature generally\nreferred to as the *Schauder lemma*. It is a version of the open mapping\ntheorem in Fr\u00e9chet spaces and is often used to verify the open-ness of\nlinear, continuous maps.\n\n**Theorem.** Let $E, F$ be Fr\u00e9chet spaces. Denote by\n$\\mathcal{U}_0(E), \\mathcal{U}_0(F)$ the zero neighborhood filter of $E$\nand $F$ respectively. Let $T \\colon E \\to F$ be a linear and continuous\nmap which is *almost open*, i.e. $$\\begin{aligned}\n\\forall_{U \\in \\mathscr{U}_0(E)} \\overline{T(U)}^{F} &\\in \\mathscr{U}_0(F)\\end{aligned}$$\n\nThen $T$ is open.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchauderLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Schauder lemma"
+  ]
+}

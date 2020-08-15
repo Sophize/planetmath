@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The classical isoperimetric inequality says that if a planar figure has\nperimeter $P$ and area $A$, then $$4\\pi A\\leq P^2,$$ where the equality\nholds if and only if the figure is a circle. That is, the circle is the\nfigure that encloses the largest area among all figures of same\nperimeter.\n\nThe analogous statement is true in arbitrary dimension. The\n$d$-dimensional ball has the largest volume among all figures of equal\nsurface area.\n\nThe isoperimetric inequality can alternatively be stated using the\n$\\epsilon$-neighborhoods. An $\\epsilon$-neighborhood of a set $S$,\ndenoted here by $S_\\epsilon$, is the set of all points whose distance to\n$S$ is at most $\\epsilon$. The isoperimetric inequality in terms of\n$\\epsilon$-neighborhoods states that\n$\\operatorname{vol}(S_\\epsilon)\\geq \\operatorname{vol}(B_\\epsilon)$\nwhere $B$ is the ball of the same volume as $S$. The classical\nisoperimetric inequality can be recovered by taking the limit\n$\\epsilon\\to 0$. The advantage of this formulation is that it does not\ndepend on the notion of surface area, and so can be generalized to\narbitrary measure spaces with a metric.\n\nAn example when this general formulation proves useful is the\nTalagrand\u2019s isoperimetric theory dealing with -like distances in product\nspaces. The theory has proven to be very useful in many applications of\nprobability to combinatorics.\n\n[1]{}\n\nNoga Alon and Joel\u00a0H. Spencer. . John Wiley & Sons, Inc., second\nedition, 2000. .\n\nJi[\u0159]{}[\u00ed]{} Matou[\u0161]{}ek. , volume 212 of [*GTM*]{}. Springer, 2002. .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IsoperimetricInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "isoperimetric inequality"
+  ]
+}

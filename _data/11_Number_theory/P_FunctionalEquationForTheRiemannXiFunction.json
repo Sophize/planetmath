@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Riemann Xi Function satisfies the following functional equation:\n$$\\Xi(s) = \\Xi(1-s)$$ This equation directly implies the Riemann Zeta\nfunction\u2019s functional equation.\n\nThis equation plays an important role in the theory of the Riemann Zeta\nfunction. It allows one to analytically continue the Zeta and the Xi\nfunctions to the whole complex plane. The definition of the Zeta\nfunction as a series is only valid when $\\Re(s) > 1$. By using this\nequation, one can express the values of these two functions when\n$\\Re(s) < 1$ in terms of the values when $\\Re(s) > 1$. As an\nillustration of its importance, one can cite the fact that there are no\nzeros of the Zeta function with real part greater than 1, so without\nthis functional equation the study of the Zeta function would be very\nlimited.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FunctionalEquationForTheRiemannXiFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "functional equation for the Riemann Xi function"
+  ]
+}

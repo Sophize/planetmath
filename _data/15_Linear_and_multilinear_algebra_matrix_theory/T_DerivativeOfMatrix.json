@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $I$ is an open set of ${\\mathbbmss{R}}$, and for each $t\\in I$,\n$A(t)$ is an $n\\times m$ matrix. If each element in $A(t)$ is a\ndifferentiable function of $t$, we say that $A$ is a differentiable, and\ndefine the derivative of $A$ componentwise. This derivative we shall\nwrite as $\\frac{d}{dt}A$ or $\\frac{dA}{dt}$.\n\n### Properties {#properties .unnumbered}\n\nIn the below we assume that all matrices are dependent on a parameter\n$t$ and the matrices are differentiable with respect to $t$.\n\n1.  For any $n\\times m$ matrix $A$, $$\\begin{aligned}\n       \\left(\\frac{dA}{dt}\\right)^T &=& \\frac{d}{dt}\\left(A^T\\right), \\end{aligned}$$\n    where $^T$ is the matrix transpose.\n\n2.  If $A(t),B(t)$ are matrices such that $AB$ is defined, then\n    $$\\frac{d}{dt}(AB) = \\frac{dA}{dt} B + A\\frac{dB}{dt}.$$\n\n3.  When $A(t)$ is invertible,\n    $$\\frac{d}{dt}(A^{-1}) = -A^{-1} \\frac{dA}{dt} A^{-1}.$$\n\n4.  For a square matrix $A(t)$, $$\\begin{aligned}\n       \\operatorname{tr}(\\frac{dA}{dt}) &=& \\frac{d}{dt}\\operatorname{tr}(A),\\end{aligned}$$\n    where $\\operatorname{tr}$ is the matrix trace.\n\n5.  If $A(t),B(t)$ are $n\\times m$ matrices and $A\\circ B$ is the\n    Hadamard product of $A$ and $B$, then\n    $$\\frac{d}{dt}(A\\circ B) = \\frac{dA}{dt}\\circ  B + A\\circ \\frac{dB}{dt}.$$",
+  "language": "INFORMAL",
+  "phrase": "Derivative Of Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivativeOfMatrix"
+    }
+  ],
+  "indexable": true
+}

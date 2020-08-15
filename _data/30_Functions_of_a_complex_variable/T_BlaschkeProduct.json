@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose that $\\{ a_n \\}$ is a sequence of complex numbers with\n$0 < \\lvert a_n \\rvert < 1$ and\n$\\sum_{n=1}^\\infty (1 - \\lvert a_n \\rvert) < \\infty$, then\n$$B(z) := \\prod_{n=1}^\\infty \\frac{\\lvert a_n \\rvert}{a_n} \\left(\n\\frac{a_n - z}{1-\\bar{a}_nz} \\right)$$ is called the [*Blaschke\nproduct*]{}.\n\nThis product converges uniformly on compact subsets of the unit disc,\nand thus $B$ is a holomorhic function on the unit disc. Further it is\nthe function on the disc that has zeros exactly at $\\{ a_n \\}$. And\nfinally for $z$ in the unit disc,\n$\\left\\lvert B(z) \\right\\rvert \\leq 1$.\n\nSometimes $B_a(z) := \\frac{z-a}{1-\\bar{a}z}$ is called the [*Blaschke\nfactor*]{}.\n\nWith this definition, the Blascke product becomes\n$B(z) = \\prod_{n=1}^\\infty\n\\frac{\\lvert a_n \\rvert}{a_n} B_{a_n}(z)$.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1978.\nSteven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence, Rhode\nIsland, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Blaschke Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BlaschkeProduct"
+    }
+  ],
+  "indexable": true
+}

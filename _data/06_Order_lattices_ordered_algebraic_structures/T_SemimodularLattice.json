@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "upper semimodular lattice",
+    "lower semimodular lattice"
+  ],
+  "definition": "A lattice $L$ is [*semimodular*]{} [^1] if for any $a$ and $b\\in L$,\n$$a \\wedge b \\prec a\n  \\quad\\text{implies}\\quad\n  b \\prec a \\vee b,$$ where $\\prec$ denotes the covering relation in\n$L$. Dually, a lattice $L$ is said to be *lower semimodular* if for any\n$a$ and $b\\in L$, $$b \\prec a \\vee b\n  \\quad\\text{implies}\\quad\n  a \\wedge b \\prec a.$$ A chain finite lattice is if and only if it is\nboth semimodular and lower semimodular.\n\nThe smallest lattice which is semimodular but not modular is\n$$\\xymatrix{\n    & 1 \\ar@{-}[ld] \\ar@{-}[d] \\ar@{-}[rd] & \\\\\n    a \\ar@{-}[d] & b \\ar@{-}[ld] \\ar@{-}[rd] & c \\ar@{-}[d] \\\\\n    d \\ar@{-}[rd] & & e \\ar@{-}[ld] \\\\\n    & 0 &\n}$$ since $d \\le a$ but $a \\wedge (c \\vee d) \\neq (a \\wedge c) \\vee d$.\n\n[^1]: Or [*upper semimodular*]{}, if one wants to stress the distinction\n    with lower semimodular lattices.",
+  "language": "INFORMAL",
+  "phrase": "Semimodular Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SemimodularLattice"
+    }
+  ],
+  "indexable": true
+}

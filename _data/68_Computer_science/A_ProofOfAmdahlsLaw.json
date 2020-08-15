@@ -1,0 +1,17 @@
+{
+  "argumentText": "Suppose an algorithm needs $n$ operations to compute the result. With 1\nprocessor, the algorithm will take $n$ time units. With $N$ processors,\nthe $(1-f)n$ parallelizable operations will take $\\frac{(1-f)n}{N}$ time\nunits and the remaining $fn$ non parallelizable operations will take\n$fn$ time units for a total running time of $fn+\\frac{(1-f)n}{N}$ time\nunits. So the speedup $S$ is\n$\\frac{n}{fn+\\frac{(1-f)n}{N}}=\\frac{1}{f+\\frac{1-f}{N}}$.",
+  "conclusion": "#P_AmdahlsLaw",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfAmdahlsLaw"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Amdahl's Law"
+  ]
+}

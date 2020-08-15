@@ -1,0 +1,17 @@
+{
+  "argumentText": "To prove that\n$$\\frac{a-b}{a+b} = \\frac{\\tan(\\frac{A-B}{2})}{\\tan(\\frac{A+B}{2})}$$ we\nstart with the sines law, which says that\n$$\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}.$$ This implies that\n$$a \\sin(B) = b \\sin(A)$$ We can write $\\sin(A)$ as\n$$\\sin(A) = \\sin(\\frac{A+B}{2})\\cos(\\frac{A-B}{2}) + \\cos(\\frac{A+B}{2})\\sin(\\frac{A-B}{2}).$$\nand $\\sin(B)$ as\n$$\\sin(B) = \\sin(\\frac{A+B}{2})\\cos(\\frac{A-B}{2}) - \\cos(\\frac{A+B}{2})\\sin(\\frac{A-B}{2}).$$\nTherefore, we have\n$$a (\\sin(\\frac{A+B}{2})\\cos(\\frac{A-B}{2}) - \\cos(\\frac{A+B}{2})\\sin(\\frac{A-B}{2})) = b (\\sin(\\frac{A+B}{2})\\cos(\\frac{A-B}{2}) + \\cos(\\frac{A+B}{2})\\sin(\\frac{A-B}{2}))$$\nDividing both sides by $\\cos(\\frac{A-B}{2})\\cos(\\frac{A+B}{2}),$ we\nhave,\n$$a (\\tan(\\frac{A+B}{2}) - \\tan(\\frac{A-B}{2}) )  =  b (\\tan(\\frac{A+B}{2}) + \\tan(\\frac{A-B}{2}) )$$\nThis gives us\n$$\\frac{a}{b} = \\frac{\\tan(\\frac{A+B}{2}) + \\tan(\\frac{A-B}{2})}{\\tan(\\frac{A+B}{2}) - \\tan(\\frac{A-B}{2})}$$\nHence we find that\n$$\\frac{a-b}{a+b} =  \\frac{\\displaystyle{\\frac{a}{b}}-1}{\\displaystyle{\\frac{a}{b}}+1} =\n\\frac{\\tan(\\frac{A-B}{2})}{\\tan(\\frac{A+B}{2})}.$$",
+  "conclusion": "#P_TangentsLaw",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfTangentsLaw"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of tangents law"
+  ]
+}

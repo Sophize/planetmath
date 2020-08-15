@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "regular morphism"
+  ],
+  "definition": "A regular map $\\phi : k^n\\to k^m$ between affine spaces over an\nalgebraically closed field is merely one given by polynomials. That is,\nthere are $m$ polynomials $F_1, \\ldots, F_m$ in $n$ variables such that\nthe map is given by $\\phi(x_1, \\ldots, x_n) = (F_1(x),\\ldots, F_m(x))$\nwhere $x$ stands for the many components $x_i$.\n\nA regular map $\\phi : V\\to W$ between affine varieties is one which is\nthe restriction of a regular map between affine spaces. That is, if\n$V\\subset k^n$ and $W\\subset k^m$, then there is a regular map\n$\\psi : k^n\\to k^m$ with $\\psi(V)\\subset W$ and $\\phi = \\psi|_V$. So,\nthis is a map given by polynomials, whose image lies in the intended\ntarget.\n\nA regular map between algebraic varieties is a locally regular map. That\nis $\\phi  : V\\to W$ is regular if around each point $x$ there is an\naffine variety $V_x$ and around each point $f(x)\\in W$ there is an\naffine variety $W_{f(x)}$ with $\\phi(V_x)\\subset W_{f(x)}$ and such that\nthe restriction $V_x \\to W_{f(x)}$ is a regular map of affine varieties.",
+  "language": "INFORMAL",
+  "phrase": "Regular Map",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RegularMap"
+    }
+  ],
+  "indexable": true
+}

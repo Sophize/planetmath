@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "\\[thm:one\\]There are an infinite number of primes congruent to\n$3 \\pmod 4$.\n\nChoose any prime $p\\equiv 3\\pmod 4$; we find a prime of that form that\nexceeds $p$. $$N=(2^2\\cdot 3\\cdot 5\\cdot 7\\cdots p) - 1$$ Clearly\n$N\\equiv 3\\pmod 4$, and thus must have at least one prime factor that is\nalso $\\equiv 3\\pmod 4$. But $N$ is not divisible by any prime less than\nor equal to $p$, so must be divisible by some prime congruent to\n$3\\pmod 4$ that exceeds $p$.\n\n\\[thm:two\\]There are an infinite number of primes congruent to\n$1\\pmod 4$.\n\nGiven $N>1$, we find a prime $p>N$ with $p\\equiv 1\\pmod 4$. Let $p$ be\nthe smallest (odd) prime factor of $(N!)^2+1$; note that $p>N$. Now\n$$(N!)^2\\equiv -1\\pmod p$$ and therefore\n$$(N!)^{p-1}\\equiv (-1)^{(p-1)/2}\\pmod p.$$ By Fermat\u2019s little theorem,\n$(N!)^{p-1}\\equiv 1\\pmod p$, so we have\n$$(-1)^{(p-1)/2}\\equiv 1\\pmod p$$ The left-hand side cannot be -1, since\nthen $0\\equiv 2\\pmod p$. Thus $(-1)^{(p-1)/2}=1$ and it follows that\n$p\\equiv 1\\pmod 4$.\n\nNote that the variant of Euclid\u2019s proof of the infinitude of primes used\nin the proof of Theorem \\[thm:one\\] does not work for Theorem\n\\[thm:two\\], since we cannot conclude that an integer $\\equiv 1\\pmod 4$\nhas a factor of the same kind.\n\n[10]{} Apostol,\u00a0T *Introduction to Analytic Number Theory*, Springer\n1976.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThereAreAnInfiniteNumberOfPrimesequivpm1pmod4"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "there are an infinite number of primes $\\equiv \\pm 1\\pmod 4$"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If the positive greatest common divisor of the integers $a$ and $b$ is\n$d$, then\n$$\\varphi(ab) \\;=\\; \\frac{\\varphi(a)\\,\\varphi(b)\\,d}{\\varphi(d)}.$$\\\n*Proof.* Using the positive prime factors $p$, the right hand side of\nthe asserted equation is $$\\begin{aligned}\n\\frac{d\\cdot a\\prod_{p\\mid a}\\frac{p-1}{p}\\cdot b\\prod_{p\\mid b}\\frac{p-1}{p}}{d\\prod_{p\\mid a,\\,p\\mid b}\\frac{p-1}{p}}\n& \\;=\\; \n\\frac{ab\\prod_{p\\mid a,\\,p\\nmid b}\\frac{p-1}{p}\\cdot\\prod_{p\\mid a,\\,p\\mid b}\\frac{p-1}{p}\\cdot\\prod_{p\\mid b,\\,p\\nmid a}\\frac{p-1}{p}\\cdot\\prod_{p\\mid b,\\,p\\mid a}\\frac{p-1}{p}}{\\prod_{p\\mid a,\\,p\\mid b}\\frac{p-1}{p}}\\\\\n& \\;=\\; ab\\prod_{p \\mid a\\;\\lor\\;p \\mid b}\\frac{p\\!-\\!1}{p} \\;=\\; ab\\prod_{p \\mid ab}\\frac{p\\!-\\!1}{p}\n\\;=\\; \\varphi(ab),\\end{aligned}$$ Q.E.D.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EulerPhiAtAProduct"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Euler phi at a product"
+  ]
+}

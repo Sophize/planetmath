@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The Vandermonde approach for interpolation is when we wish to determine\nthe interpolating polynomial $p(x)=a_0 + a_1x + a_2x^2 + \\ldots +a_nx^n$\nfor the $n+1$ points $(x_i,y_i)$, $i=0,1,\\ldots, n$ by forming the\nequations $y_i=a_0+a_1x_i+a_2x_2^2+\\ldots+a_nx_n^n$ for\n$i = 0,1,\\ldots,n$, and solving for the unknown coefficients\n$a_0, a_1,\\ldots, a_n$.\n\nThe system of equations can be written by using matrices $Y=XA$ where\n$X$ is a Vandermonde matrix.",
+  "language": "INFORMAL",
+  "phrase": "Vandermonde Interpolation Approach",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VandermondeInterpolationApproach"
+    }
+  ],
+  "indexable": true
+}

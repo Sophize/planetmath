@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $n \\ge 3$ be an integer. A *Pythagorean n-tuple* is an n-tuple of\nintegers $(x_1, \\ldots, x_n)$ for which\n$$\\sum_{i=1}^{n-1} {x_i}^2 = {x_n}^2 .$$ It is said to be if\n$\\mathrm{gcd}(x_1, \\ldots, x_n) = 1.$\n\nIf $n=3$ the 3-tuple is called a Pythagorean triplet or Pythagorean\ntriple.",
+  "language": "INFORMAL",
+  "phrase": "Pythagorean N-Tuple",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PythagoreanNtuple"
+    }
+  ],
+  "indexable": true
+}

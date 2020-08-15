@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The only periods of the complex exponential function $z\\mapsto e^z$ are\nthe multiples of $2\\pi i$. Thus the function is [*one-periodic*]{}.\n\n[*Proof.*]{} Let $\\omega$ be any period of the exponential function,\ni.e. $e^{z+\\omega} = e^ze^\\omega = e^z$ for all $z\\in\\mathbb{C}$.\nBecause $e^z$ is always $\\neq 0$, we have $$\\begin{aligned}\ne^\\omega \\;=\\; 1.\\end{aligned}$$ If we set $\\omega =: a\\!+\\!ib$ with $a$\nand $b$ reals, (1) gets the form $$\\begin{aligned}\ne^a\\cos{b}+ie^a\\sin{b} \\;=\\; 1,\\end{aligned}$$ which implies (see\nequality of complex numbers)\n$$e^a\\cos{b} \\;=\\; 1,\\qquad e^a\\sin{b} \\;=\\; 0.$$ As these equations are\nsquared and added, we obtain $e^{2a} = 1$ which , since $a$ is real,\nthat $a = 0$. Thus the preceding equations get the form\n$$\\cos{b} \\;=\\; 1,\\qquad \\sin{b} \\;=\\; 0.$$ These result that\n$b = n\\!\\cdot\\!2\\pi$ and therefore\n$$\\omega \\;=\\; n\\!\\cdot\\! 2\\pi i \\qquad (n \\;=\\; 0,\\,\\pm 1,\\,\\pm 2,\\,\\pm 3,\\,\\ldots)$$\nQ.E.D.\n\n[8]{} : [*Johdatus funktioteoriaan*]{} (\u2018Introduction to function\ntheory\u2019). Mercatorin kirjapaino, Helsinki (1936).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PeriodicityOfExponentialFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "periodicity of exponential function",
+    "period of exponential function"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *fraction* is a rational number expressed in the form $\\frac{n}{d}$ or\n$n/d$, where $n$ is designated the *numerator* and $d$ the\n*denominator*. The slash between them is known as a *solidus* when the\nfraction is expressed as $n/d$.\n\nThe fraction $n/d$ has value $n \\div d$. For instance,\n$3/2 = 3 \\div 2 = 1.5$.\n\nIf $n$ and $d$ are positive, and $n/d < 1$, then $n/d$ is known as a\n*proper fraction*. Otherwise, it is an *improper fraction*. If $n$ and\n$d$ are relatively prime, then $n/d$ is said to be in *lowest terms*.\nEach rational number can be expressed uniquely as a fraction in lowest\nterms. To get a fraction in lowest terms, simply divide the numerator\nand the denominator by their greatest common divisor:\n$$\\frac{60}{84} = \\frac{60 \\div 12}{84 \\div 12} = \\frac{5}{7}.$$\n\nThe rules for manipulating fractions are $$\\begin{aligned}\n   \\frac{a}{b} & \\qquad = \\qquad & \\frac{ka}{kb}\\\\\n   \\frac{a}{b} + \\frac{c}{d} & \\qquad = & \\frac{ad + bc}{bd}\\\\\n   \\frac{a}{b} - \\frac{c}{d} & \\qquad = & \\frac{ad - bc}{bd}\\\\\n   \\frac{a}{b} \\times \\frac{c}{d} & \\qquad = & \\frac{ac}{bd}\\\\\n   \\frac{a}{b} \\div \\frac{c}{d} & \\qquad = & \\frac{ad}{bc}.\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Fraction",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Fraction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Conjecture. (Marshall Hall, Jr.). With the exception of $n^2$ being a\nperfect sixth power, for any positive integer $n$, the inequality\n$|n^2 - m^3| > C \\sqrt{m}$, (with $m$ also being a positive integer and\n$C$ being a number less than 1 that nears 1 as $n$ tends to infinity)\nalways holds.\n\nThe reason for the exception of perfect sixth powers (those cases of $n$\nfor which there is a solution to $n^2 = h^6$ in integers) is a simple\nconsequence of associativity: if $n^2 = h^6$, then\n$h^6 = h^2 h^2 h^2 = h^3 h^3$. Then $m = h$ and $n^2 - m^3 = 0$. For\nexample, $8^2 - 4^3 = 0$.\n\nFor small $n$, $C$ can\u2019t be exactly 1. For example, $3^2 - 2^3 = 1$, and\n$\\sqrt{2} > 1$. But even among the smaller numbers, the conjecture\ngenerally holds even with $C = 1$. After $n = 3$, the next\ncounterexample (that is not a perfect sixth power) to $C = 1$ is\n$n = 378661$, with the corresponding $m = 5234$ producing a difference\nof just 17. A078933 in Sloane\u2019s OEIS lists smaller values of $m$ with\ncubes being at a distance from the nearest square that is less than\n$\\sqrt{m}$. Noam Elkies has found some fairly large counterexamples to\nsetting $C = 1$, such as $n = 447884928428402042307918$ and\n$m = 5853886516781223$, the difference between the square of the former\nand the cube of the latter being a relatively small 1641843.\n\n[1]{} R. K. Guy, [*Unsolved Problems in Number Theory*]{} New York:\nSpringer-Verlag 2004: D9",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MarshallHallsConjecture"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Marshall Hall's conjecture",
+    "Marshall Hall conjecture"
+  ]
+}

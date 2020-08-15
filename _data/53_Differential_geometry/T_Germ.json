@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $M$ and $N$ be manifolds and $x \\in M$. We consider all smooth\nmappings $f: U_f \\to N$, where $U_f$ is some open neighborhood of $x$ in\n$M$. We define an equivalence relation on the set of mappings\nconsidered, and we put $f \\underset{x}{\\sim} g$ if there is some open\nneighborhood $V$ of $x$ with $f|_V = g|_V$. The equivalence class of a\nmapping $f$ is called the *germ of f at x*, denoted by $\\overline{f}$\nor, sometimes, $germ_x f$, and we write\n$$\\overline{f}:(M,x) \\to (N,f(x))$$\n\nGerms arise naturally in differential topolgy. It is very convenient\nwhen dealing with derivatives at the point $x$, as every mapping in a\ngerm will have the same derivative values and properties in $x$, and\nhence can be identified for such purposes: every mapping in a germ gives\nrise to the same *tangent vector* of $M$ at $x$.",
+  "language": "INFORMAL",
+  "phrase": "Germ",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Germ"
+    }
+  ],
+  "indexable": true
+}

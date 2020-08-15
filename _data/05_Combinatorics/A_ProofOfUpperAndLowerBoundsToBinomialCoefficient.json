@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $2 \\le k \\le n$ be natural numbers. We\u2019ll first prove the inequality\n$${n \\choose k} \\le \\left(\\frac{ne}{k}\\right)^k.$$ We rewrite\n${n \\choose k}$ as $$\\begin{aligned}\n{n \\choose k} &=& \\frac{n (n-1)\\cdots (n-k+1)}{k!} \\\\\n&=& \\left(1 -\\frac{1}{n}\\right)\\cdots \\left(1\n-\\frac{k-1}{n}\\right)\\cdot \\frac{n^k}{k!}\\end{aligned}$$ Since each of\nthe parenthesized factors lies between $0$ and $1$, we have\n$${n \\choose k} < \\frac{n^k}{k!}$$ Since all the terms of the series\n$e^k = \\sum_{n=0}^{\\infty} k^n / n!$ are positive when $k$ is a positive\nreal number, each term must be smaller than the whole sum; in\nparticular, this implies that, for any non-negative integer $k$, we have\n$e^k > k^k / k!$. Rearranging this slightly, $$1 < \\frac{k! e^k}{k^k}$$\nMultiplying this inequality by the previous inequality for the binomial\ncoefficient yields\n$${n \\choose k} < \\frac{n^k}{k!} \\cdot \\frac{k! e^k}{k^k} = \n\\left( \\frac{ne}{k} \\right)^k$$\n\nTo conclude the proof we show that $$\\label{eq:1}\n\\prod_{i=1}^{n-1} \\left(1\n+\\frac{1}{i}\\right)^i=\\frac{n^n}{n!}\\;\\forall\\;n \\ge 2 \\in\n\\mathbb{N}.$$ $$\\begin{aligned}\n\\prod_{i=1}^{n-1} \\left(1+\\frac{1}{i}\\right)^i&=&\\prod_{i=1}^{n-1}\n\\frac{(i+1)^i}{i^i} \\\\\n&=&\\frac{\\prod\\limits_{i=2}^n i^{i-1}}{\\left(\\prod\\limits_{i=1}^{n-1}\ni^{i-1}\\right)\\cdot (n-1)!}\\end{aligned}$$ Since each left-hand factor\nin (\\[eq:1\\]) is $<e$, we have $\\frac{n^n}{n!} <e^{n-1}$. Since\n$n-i<n\\;\\forall\\;1 \\le i \\le k-1$, we immediately get $$\\begin{aligned}\n{n \\choose k}&=&\\frac{\\prod\\limits_{i=2}^{k-1}\n\\left(1-\\frac{1}{i}\\right)}{k!} <\\frac{n^k}{k!}.\\end{aligned}$$ And from\n$$\\begin{aligned}\nk \\le n&\\Leftrightarrow&(n-i)\\cdot k \\ge (k-i)\\cdot n\\;\\forall \\;1\\le\ni\\le k-1\\end{aligned}$$ we obtain $$\\begin{aligned}\n{n \\choose k}&=&\\frac{n}{k}\\cdot \\prod\\limits_{i=1}^{k-1}\n\\frac{n-i}{k-i} \\\\ \n&\\ge \\left(\\frac{n}{k}\\right)^k.\\end{aligned}$$",
+  "conclusion": "#P_UpperAndLowerBoundsToBinomialCoefficient",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfUpperAndLowerBoundsToBinomialCoefficient"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of upper and lower bounds to binomial coefficient"
+  ]
+}

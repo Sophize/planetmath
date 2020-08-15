@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The Poincar\u00e9 lemma states that every closed differential form is locally\n.\n\n(Poincar\u00e9 Lemma) [@conlon] Suppose $X$ is a smooth manifold,\n$\\Omega^k(X)$ is the set of smooth differential $k$-forms on $X$, and\nsuppose $\\omega$ is a closed form in $\\Omega^k(X)$ for some $k>0$.\n\n-   Then for every $x\\in X$ there is a neighbourhood $U\\subset X$, and a\n    $(k-1)$-form $\\eta\\in \\Omega^{k-1}(U)$, such that\n    $$d\\eta = \\iota^\\ast \\omega,$$ where $\\iota$ is the inclusion\n    $\\iota:U\\hookrightarrow X$.\n\n-   If $X$ is contractible, this $\\eta$ exists globally; there exists a\n    $(k-1)$-form $\\eta\\in \\Omega^{k-1}(X)$ such that $$d\\eta = \\omega.$$\n\n### Notes {#notes .unnumbered}\n\nDespite the name, the Poincar\u00e9 lemma is an extremely important result.\nFor instance, in algebraic topology, the definition of the $k$th de Rham\ncohomology group\n$$H^k(X) = \\frac{ \\operatorname{Ker}\\{ d\\colon \\Omega^k(X)\\to \\Omega^{k+1}(X)\\}}{  \\operatorname{Im}\\{ d\\colon \\Omega^{k-1}(X)\\to \\Omega^{k}(X)\\}}$$\ncan be seen as a measure of the degree in which the Poincar\u00e9 lemma\nfails. If $H^k(X)=0$, then every $k$ form is exact, but if $H^k(X)$ is\nnon-zero, then $X$ has a non-trivial topology (or \u201choles\u201d) such that\n$k$-forms are not globally exact. For instance, in\n$X={\\mathbb{R}}^2\\setminus\\{0\\}$ with polar coordinates $(r,\\phi)$, the\n$1$-form $\\omega=d\\phi$ is not globally exact.\n\n[9]{} L. Conlon, *Differentiable Manifolds: A first course*, Birkh\u00e4user,\n1993.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PoincareLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Poincar\\'e lemma"
+  ]
+}

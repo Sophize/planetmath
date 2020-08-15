@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G$ be an abelian totally ordered group, denoted additively. We\nadjoin to $G$ a new element $\\infty$ such that $g < +\\infty$, for all\n$g\\in G$ and we extend the addition on $G_{\\infty} = G \\cup \\{+\\infty\\}$\nby declaring $g + (+\\infty) = (+\\infty) + (+\\infty) = +\\infty$.\n\nLet $R$ be an unital ring, a *valuation* of $R$ with values in $G$ is a\nfunction from $R$ to $G_{\\infty}$ such that , for all $x, y \\in R$:\n\n1\\) $v(xy)= v(x)+v(y)$,\n\n2\\) $v(x+y) \\geq \\min \\{v(x),v(y)\\}$,\n\n3\\) $v(x)=+\\infty$ iff $v(x)=0$.\n\n**Remarks** a) The condition 1) means that $v$ is a homomorhism of\n$R\\smallsetminus\\{0\\}$ with multiplication in the group $G$. In\nparticular, $v(1)=0$ and $v(-x)=v(x)$, for all $x\\in G$. If $x$ is\ninvertible then $0=v(1)=v(xx^{-1})=v(x)+v(x^{-1})$, so\n$v(x^{-1}) = -v(x)$.b) If 3) is replaced by the condition $v(0)=+\\infty$\nthen the set $P = v^{-1}\\{+\\infty\\}$ is a prime ideal of $R$ and $v$ is\non the integral domain $R/P$.c) In particular, conditions 1) and 3) that\n$R$ is an integral domain and let $K$ be its quotient field. There is a\nunique valuation of $K$ with values in $G$ that extends $v$, namely\n$v(x/y)=v(x)-v(y)$, for all $x\\in R$ and $y\\in R\\smallsetminus\\{0\\}$.d)\nThe element $v(x)$ is sometimes denoted by $vx$.",
+  "language": "INFORMAL",
+  "phrase": "Alternative Definition Of Krull Valuation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlternativeDefinitionOfKrullValuation"
+    }
+  ],
+  "indexable": true
+}

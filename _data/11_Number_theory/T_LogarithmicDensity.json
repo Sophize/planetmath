@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "For any $A\\subseteq{\\mathbb{N}}$ we denote\n$S(n):=\\sum\\limits_{k=1}^n \\frac 1k$. The values\n$${\\overline{\\delta}}(A)=\\liminf_{n\\to\\infty} \\frac{\\sum\\limits_{k\\in A; k\\leq n} \\frac 1k}{S(n)} \\qquad {\\underline{\\delta}}(A) = \\limsup_{n\\to\\infty}\n\\frac{\\sum\\limits_{k\\in A; k\\leq n} \\frac 1k}{S(n)}$$ are called *lower*\nand *upper logarithmic density* of $A$. If\n${\\overline{\\delta}}(A)={\\underline{\\delta}}(A)$ we denote this value by\n$\\delta(A)$ and call it the *logarithmic density* of $A$.\n\nLogarithmic density can be equivalently defined as follows: If the limit\n$$\\delta(A)={\\lim\\limits_{n\\to\\infty}} \\frac{\\sum\\limits_{k\\in A; k\\leq n} \\frac 1k}{S(n)},$$\nexists, then it is called logarithmic density of $A$.\n\nBy the well-known $\\gamma = {\\lim\\limits_{n\\to\\infty}} S(n) - \\ln n$\ndefining Euler\u2019s constant, we can see that the denominator in the above\ndefinitions can be replaced by $\\ln n$.\n\n[1]{}\n\nM.\u00a0Kolibiar, A.\u00a0Leg\u00e9\u0148, T.\u00a0\u0160al\u00e1t, and \u0160. Zn\u00e1m. . Alfa, Bratislava, 1992.\n(in Slovak)\n\nH.\u00a0H. Ostmann. . Springer-Verlag, Berlin-G\u00f6ttingen-Heidelberg, 1956.\n\nJ.\u00a0Steuding. .\n\nG.\u00a0Tenenbaum. . , Cambridge, 1995.",
+  "language": "INFORMAL",
+  "phrase": "Logarithmic Density",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LogarithmicDensity"
+    }
+  ],
+  "indexable": true
+}

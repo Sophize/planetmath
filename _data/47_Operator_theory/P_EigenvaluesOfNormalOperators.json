@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $H$ be a Hilbert space and $B(H)$ the algebra of bounded operators\nin $H$. Suppose $T \\in B(H)$ is a normal operator. Then\n\n1.  - If $\\lambda \\in \\mathbb{C}$ is an eigenvalue of $T$, then\n    $\\overline{\\lambda}$ is an eigenvalue of $T^*$ (the adjoint operator\n    of $T$) for the same eigenvector.\n\n2.  - Eigenvectors of $T$ associated with distinct eigenvalues are\n    orthogonal.\n\n[**Remark -**]{} It is known that for any linear operator eigenvectors\nassociated with distinct eigenvalues are linearly independent. 2\nstrengthens this result for normal operators.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EigenvaluesOfNormalOperators"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "eigenvalues of normal operators"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Normal sections**\n\nLet $P$ be a point of a surface $$\\begin{aligned}\nF(x,\\,y,\\,z) = 0,\\end{aligned}$$ where $F$ has the continuous first and\npartial derivatives in a neighbourhood of $P$. If one intersects the\nsurface with a plane containing the surface normal at $P$, the\nintersection curve is called a [*normal section*]{}.\\\n**Normal curvatures**\n\nWhen the direction of the intersecting plane is varied, one gets\ndifferent normal sections, and their at $P$, the so-called [*normal\ncurvatures*]{}, vary having a minimum value $\\varkappa_1$ and a maximum\nvalue $\\varkappa_2$. The arithmetic mean of $\\varkappa_1$ and\n$\\varkappa_2$ is called the [*mean curvature*]{} of the surface at $P$.\\\nBy the suppositions on the function $F$, examining the normal curvatures\ncan without loss of generality be to the following: Examine the\ncurvature of the normal sections through the origin, the surface given\nin the form $$\\begin{aligned}\n                        z = z(x,\\,y),\\end{aligned}$$ where $z(x,\\,y)$\nhas the continuous first and partial derivatives in a neighbourhood of\nthe origin and $$z(0,\\,0) = z'_x(0,\\,0) = z'_y(0,\\,0) = 0.$$ Indeed, one\ncan take a new rectangular coordinate system with $P$ the new origin and\nthe normal at $P$ the new $z$-axis; then the new $xy$-plane coincides\nwith the tangent plane of the surface (1) at $P$. The equation (1)\ndefines the function of (2).",
+  "language": "INFORMAL",
+  "phrase": "Normal Section",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalSection"
+    }
+  ],
+  "indexable": true
+}

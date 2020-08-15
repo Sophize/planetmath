@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be a random variable that satisfies $\\Pr(X \\leq a) = 1$ for some\nconstant $a$. Then, for $d < E[X]$,\n$$\\Pr( X > d) \\geq \\frac{E[X] - d}{a - d}$$\n\n[*Proof:*]{} Apply the Markov\u2019s inequality to the random variable\n$\\tilde{X} = a-X$, $$\\Pr(X\\leq d) = \\Pr(\\tilde{X}\\geq a-d) \n\\leq \\frac{E[\\tilde{X}]}{a-d} \n= \\frac{a-E[X]}{a-d}.$$\n\nHence $$\\Pr(X> d) \\geq 1 - \\frac{a-E[X]}{a-d} = \\frac{E[X]-d}{a-d}.$$",
+  "language": "INFORMAL",
+  "phrase": "Reverse Markov Inequality",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ReverseMarkovInequality"
+    }
+  ],
+  "indexable": true
+}

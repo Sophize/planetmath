@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** The of a right angle in $\\mathbb{R}^3$ onto a plane is a\nright angle if and only if at least one of its sides is parallel to the\nplane.\\\n*Proof.* Consider the projection of an angle $\\alpha$ with $P$ onto the\nplane $\\pi$. Let $P'$ be the projection of $P$ onto $\\pi$. If neither of\nthe sides of $\\alpha$ is parallel to $\\pi$, then the lines of the sides\nintersect the plane in two distinct points $A$ and $B$. In order to that\nthe angle of view of the segment $AB$ seen from the point $P$ would be a\nright angle, $P$ must be on a sphere with diameter $AB$ centered at a\npoint $O$. In order to that the projection angle $AP'B$ would be a right\nangle, the point $P'$ must be on a circle of the plane $\\pi$ having $AB$\nas diameter. But $OP'$ is as the projection of the segment $OP$ shorter\nthan $OP$. It follows that the angle $AP'B$ is obtuse and hence cannot\nbe right.\\\nOn the other hand, it\u2019s not hard to see that the projection of a right\nangle is a right angle always when one or both of its sides are parallel\nto the projection plane.\n\n[9]{} : [*Korkeamman geometrian alkeet sovellutuksineen*]{}.\nKustannusosakeyhti\u00f6 Otava, Helsinki (1948).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProjectionOfRightAngle"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "projection of right angle"
+  ]
+}

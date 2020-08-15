@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathcal{A}}$ be an abelian category. We begin with a preliminary\ndefinition.\n\nFor any morphism $f: A \\longrightarrow B$ in ${\\mathcal{A}}$, let\n$m: X \\longrightarrow B$ be the morphism equal to\n$\\ker({\\operatorname{cok}}(f))$. Then the object $X$ is called the\n[*image*]{} of $f$, and denoted ${\\operatorname{Im}}(f)$. The morphism\n$m$ is called the [*image morphism*]{} of $f$, and denoted\n${\\operatorname{im}}(f)$.\n\nNote that ${\\operatorname{Im}}(f)$ is not the same as\n${\\operatorname{im}}(f)$: the former is an object of ${\\mathcal{A}}$,\nwhile the latter is a morphism of ${\\mathcal{A}}$. We note that $f$\nfactors through ${\\operatorname{im}}(f)$: $$\\xymatrix{\nA \\ar[r]^-{e} \\ar@/_1pc/[rr]_{f} & {\\operatorname{Im}}(f) \\ar[r]^-{m} & B\n}$$ The proof is as follows: by definition of cokernel,\n${\\operatorname{cok}}(f) f = 0$; therefore by definition of kernel, the\nmorphism $f$ factors through\n$\\ker({\\operatorname{cok}}(f)) = {\\operatorname{im}}(f) = m$, and this\nfactor is the morphism $e$ above. Furthermore $m$ is a monomorphism and\n$e$ is an epimorphism, although we do not prove these facts.\n\nA sequence $$\\xymatrix{\n\\cdots \\ar[r] & A \\ar[r]^-f & B \\ar[r]^-g & C \\ar[r] & \\cdots\n}$$ of morphisms in ${\\mathcal{A}}$ is [*exact*]{} at $B$ if\n$\\ker(g) = {\\operatorname{im}}(f)$.",
+  "language": "INFORMAL",
+  "phrase": "Exact Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExactSequence1"
+    }
+  ],
+  "indexable": true
+}

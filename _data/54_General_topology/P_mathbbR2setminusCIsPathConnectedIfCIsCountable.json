@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $C$ be a countable subset of $\\mathbb{R}^2$. Then\n$\\mathbb{R}^2\\setminus C$ is path connected.\n\nWe use $\\mathbb{R}^2$ simply as an example; an analogous proof will work\nfor any $\\mathbb{R}^n, n>1$.\n\nFix a point $P$ not in $C$. The strategy of the proof is to construct a\npath $p_x$ from any $x \\in \\mathbb{R}^2\\setminus C$ to $P$. If we can do\nthis then for any $d, d' \\in \\mathbb{R}^2\\setminus C$ we may construct a\npath from $d$ to $d'$ by first following $p_d$ and then following\n$p_{d'}$ in reverse.\n\nFix $x \\in \\mathbb{R}^2\\setminus C$, and consider the set of all\n(straight) lines through $x$. There are uncountably many of these and\nthey meet in the single point $x$, so not all of them contain a point of\n$C$. Choose one that doesn\u2019t and move along it: your distance from $P$\ntakes on uncountably many values, and hence at some point this distance\n$r$ from $P$ is not shared by any point of $C$. The whole of the circle\nwith radius $r$, centre $P$, lies in $\\mathbb{R}^2\\setminus C$ so we may\nmove around it freely.\n\nConsider all lines through $P$: these all intersect this circle, and\nthere are uncountably many of them so we may choose one, say $L$, that\ncontains no point of $C$. Moving around the circle until we meet $L$ and\nthen following it inwards completes our path form $x$ to $P$.\n\nLet $f: \\mathbb{R}^2 \\rightarrow \\mathbb{R}$ be continuous and onto.\nThen $f^{-1} (0)$ is uncountable.\n\nSuppose that $f^{-1} (0)$ is countable. $\\mathbb{R}^2$ can be written as\nthe disjoint union\n$$f^{-1} (0) \\cup f^{-1} ((-\\infty, 0)) \\cup f^{-1} ((0, \\infty))$$\nwhere the last two sets are open (as $f$ is continuous), non-empty (as\n$f$ is onto) and disjoint. Since pathwise connected is the same as\nconnected for Hausdorff spaces, we have that\n$\\mathbb{R}^2 \\setminus  f^{-1} (0)$ is not path connected,\ncontradicting the theorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/mathbbR2setminusCIsPathConnectedIfCIsCountable"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$\\mathbb{R}^2 \\setminus C$ is path connected if $C$ is countable"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\lbrace X(t)\\mid t\\in T\\rbrace$ be a stochastic process where\n$T\\subseteq\\mathbb{R}$ and has the property that $s+t\\in T$ whenever\n$s,t\\in T$. Then $\\lbrace X(t)\\rbrace$ is said to be a *strictly\nstationary process of order n* if for a given positive integer\n$n<\\infty$, any $t_1,\\ldots,t_n$ and $s\\in T$, the random vectors\n\n> $(X(t_1),\\ldots,X(t_n))$ and $(X(t_1+s),\\ldots,X(t_n+s))$ have\n> identical joint distributions.\n\n$\\lbrace X(t) \\rbrace$ is said to be a *strictly stationary process* if\nit is a strictly stationary process of order $n$ for all positive\nintegers $n$. Alternatively, $\\lbrace X(t)\\mid t\\in\nT\\rbrace$ is strictly stationary if $\\lbrace X(t)\\rbrace$ and\n$\\lbrace X(t+s)\\rbrace$ are identically distributed stochastic processes\nfor all $s\\in T$.\n\nA weaker form of the above is the concept of a *covariance stationary\nprocess*, or simply, a *stationary process* $\\lbrace\nX(t)\\rbrace$. Formally, a stochastic process $\\lbrace X(t)\\mid t\\in\nT\\rbrace$ is stationary if, for any positive integer $n<\\infty$, any\n$t_1,\\ldots,t_n$ and $s\\in T$, the joint distributions of the random\nvectors\n\n> $(X(t_1),\\ldots,X(t_n))$ and $(X(t_1+s),\\ldots,X(t_n+s))$ have\n> identical means (mean vectors) and identical covariance matrices.\n\nSo a strictly stationary process is a stationary process. A\nnon-stationary process is sometimes called an *evolutionary process*.",
+  "language": "INFORMAL",
+  "phrase": "Stationary Process",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StationaryProcess"
+    }
+  ],
+  "indexable": true
+}

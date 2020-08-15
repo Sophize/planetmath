@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $Q$ be a non-degenerate symmetric bilinear form over the real vector\nspace $\\mathbb{R}^n$. A linear transformation $T\\colon V \\to V$ is said\nto *preserve* $Q$ if $Q(Tx,Ty) = Q(x,y)$ for all vectors $x,y \\in V$.\nThe subgroup of the general linear group $\\operatorname{GL}(V)$\nconsisting of all linear transformations that preserve $Q$ is called the\n*orthogonal group* with respect to $Q$, and denoted\n$\\operatorname{O}(n,Q)$.\n\nIf $Q$ is also positive definite (i.e., $Q$ is an inner product), then\n$\\operatorname{O}(n,Q)$ is equivalent to the group of invertible linear\ntransformations that preserve the standard inner product on\n$\\mathbb{R}^n$, and in this case the group $\\operatorname{O}(n,Q)$ is\nusually denoted $\\operatorname{O}(n)$.\n\nElements of $\\operatorname{O}(n)$ are called *orthogonal\ntransformations*. One can show that a linear transformation $T$ is an\northogonal transformation if and only if $T^{-1} = T^{\\operatorname{T}}$\n(i.e., the inverse of $T$ equals the transpose of $T$).",
+  "language": "INFORMAL",
+  "phrase": "Orthogonal Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrthogonalGroup"
+    }
+  ],
+  "indexable": true
+}

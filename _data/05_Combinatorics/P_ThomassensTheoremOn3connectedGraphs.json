@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Every graph $G$ with more than 4 vertices has an edge $e$ such that is\nalso $3$-connected.\n\nNote: $G/e$ denotes the graph obtained from $G$ by contracting the edge\n$e$. If $e=xy$ we also use the notation $G/xy$.\n\nSuppose such an edge doesn\u2019t exist. Then, for every edge $e=xy$, the\ngraph $G/e$ isn\u2019t $3$-connected and can be made disconnected by removing\n2 vertices. Since $\\kappa(G)\\geq 3$, our contracted vertex $v_{xy}$ has\nto be one of these two. So for every edge $e$, $G$ has a vertex\n$z\\neq x,y$ such that $\\{v_{xy},z\\}$ separates $G/e$. Any 2 vertices\nseparated by $\\{v_{xy},z\\}$ in $G/e$ are separated in $G$ by\n$S:=\\{x,y,z\\}$. Since the minimal size of a separating set is 3, every\nvertex in $S$ has an adjacent vertex in every component of $G-S$.\n\nNow we choose the edge $e$, the vertex $z$ and the component $C$ such\nthat $|C|$ is minimal. We also choose a vertex $v$ adjacent to $z$ in\n$C$.\n\nBy construction $G/zv$ is not $3$-connected since removing $xy$\ndisconnects $C-v$ from $G/zv$. So there is a vertex $w$ such that\n$\\{z,v,w\\}$ separates $G$ and as above every vertex in $\\{z,v,w\\}$ has\nan adjacent vertex in every component of $G-\\{z,v,w\\}$. We now consider\na component $D$ of $G-\\{z,v,w\\}$ that doesn\u2019t contain $x$ or $y$. Such a\ncomponent exists since $x$ and $y$ belong to the same component and\n$G-\\{z,v,w\\}$ isn\u2019t connected. Any vertex adjacent to $v$ in $D$ is also\nan element of $C$ since $v$ is an element of $C$. This means $D$ is a\nproper subset of $C$ which contradicts our assumption that $|C|$ was\nminimal.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ThomassensTheoremOn3connectedGraphs"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Thomassen's theorem on $3$-connected graphs"
+  ]
+}

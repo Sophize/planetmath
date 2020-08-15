@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The Fejer kernel $F_n$ of order $n$ is defined as\n$$F_n(t)=\\frac{1}{n}\\sum_{k=0}^{n-1}D_k(t),$$ where $D_n$ is the\nDirichlet kernel of order $n$. The Fejer kernel can be written as\n$$\\label{eq:rep}\nF_n(t)=\\frac{1}{n}\\left(\\frac{\\sin\\frac{nt}{2}}{\\sin\\frac{t}{2}}\\right)^2.$$\n**Proof:** Since\n$$D_n(t)=\\frac{\\sin\\left(\\left(n+\\frac{1}{2}\\right)t\\right)}{\\sin\\frac{t}{2}}$$\nwe have\n$$\\sin\\frac{t}{2}D_n(t)=\\sin\\left(\\left(n+\\frac{1}{2}\\right)t\\right).$$\nTherefore $$\\begin{aligned}\nn\\sin^2\\frac{t}{2}F_n(t)& =\\sum_{k=0}^{n-1}\\sin\\left(\\left(k+\\frac{1}{2}\\right)t\\right)\\sin\\frac{t}{2}\\\\\n&=\\frac{1}{2}\\sum_{k=0}^{n-1}(\\cos kt-\\cos((k+1)t)\\\\\n&=\\frac{1}{2}(1-\\cos nt)\\\\\n&=\\sin^2\\frac{nt}{2}.\\end{aligned}$$ From this follows equation\n(\\[eq:rep\\]).\n\n![Graphs of some Fejer kernels[]{data-label=\"fig:fejer\"}](fejer2.ps)",
+  "language": "INFORMAL",
+  "phrase": "Fejer Kernel",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FejerKernel"
+    }
+  ],
+  "indexable": true
+}

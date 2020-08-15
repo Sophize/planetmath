@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "intersection lattice",
+    "intersection semilattice"
+  ],
+  "definition": "Let $\\mathcal{A}$ be a finite subspace arrangement in a\nfinite-dimensional vector space $V$. The [**]{} of $\\mathcal{A}$ is the\nsubspace arrangement $L(\\mathcal{A})$ defined by taking the of\n$\\mathcal{A}$ under intersections. More formally, let\n$$L(\\mathcal{A}) = \\bigl\\{ \\bigcap_{H\\in\\mathcal{S}} H\n                 \\mid    \\mathcal{S}\\subset\\mathcal{A}\n                 \\bigr\\}.$$ the elements of $L(\\mathcal{A})$ by reverse\ninclusion, and give it the structure of a join-semilattice by defining\n$H\\vee K=H\\cap K$ for all $H$, $K$ in $L(\\mathcal{A})$. Moreover, the\nelements of $L(\\mathcal{A})$ are naturally graded by codimension. If\n$\\mathcal{A}$ happens to be a central arrangement, its intersection\nsemilattice is in fact a lattice, with the meet operation defined by\n$H\\wedge K=\\operatorname{span}(H\\cup K)$, where\n$\\operatorname{span}(H\\cup K)$ is the subspace of $V$ spanned by\n$H\\cup K$.",
+  "language": "INFORMAL",
+  "phrase": "Intersection Semilattice Of A Subspace Arrangement",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntersectionSemilatticeOfASubspaceArrangement"
+    }
+  ],
+  "indexable": true
+}

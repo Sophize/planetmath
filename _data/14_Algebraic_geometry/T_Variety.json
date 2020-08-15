@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "abstract variety"
+  ],
+  "definition": "Let $X$ be a scheme over a field $k$. Then $X$ is said to be an\n*abstract variety* over $k$ if it is integral, separated, and of finite\ntype over $k$. Usually we simply say $X$ is a *variety*. If $X$ is\nproper over $k$, it is said to be *complete*. If the dimension of $X$ is\none, then $X$ is said to be a *curve*.\n\nSome authors also require $k$ to be algebraically closed, and some\nauthors require curves to be nonsingular.\n\nCalling $X$ a variety would appear to conflict with the preexisting\nnotion of an or projective variety. However, it can be shown that if $k$\nis algebraically closed, then there is an equivalence of categories\nbetween affine abstract varieties over $k$ and affine varieties over\n$k$, and another between projective abstract varieties over $k$ and\nprojective varieties over $k$.\n\nThis equivalence of categories identifies an abstract variety with the\nset of its $k$-points; this can be thought of as simply ignoring all the\ngeneric points. In the other direction, it identifies an affine variety\nwith the prime spectrum of its coordinate ring: the variety in\n$\\mathbb{A}^n$ defined by the ideal $$\\left<f_1,\\ldots,f_m\\right>$$ is\nidentified with\n$$\\operatorname{Spec}k[X_1,\\ldots,X_n]/\\left<f_1,\\ldots,f_m\\right>.$$\n\nA projective variety is identified as the gluing together of the affine\nvarieties obtained by taking the complements of hyperplanes. To see\nthis, suppose we have a projective variety in $\\mathbb{P}^n$ given by\nthe homogeneous ideal $\\left<f_1,\\ldots,f_m\\right>$. If we delete the\nhyperplane $X_i=0$, then we obtain an affine variety: let\n$T_j = X_j/X_i$; then the affine variety is the set of common zeros of\n$$\\left<f_1(T_0,\\ldots,T_n),\\ldots,f_m(T_0,\\ldots,T_n)\\right>.$$ In this\nway, we can get $n+1$ overlapping affine varieties that cover our\noriginal projective variety. Using the theory of schemes, we can glue\nthese affine varieties together to get a scheme; the result will be\nprojective.\n\nFor more on this, see Hartshorne\u2019s book *Algebraic Geometry*; see the\nbibliography for algebraic geometry for more resources.",
+  "language": "INFORMAL",
+  "phrase": "Variety",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Variety"
+    }
+  ],
+  "indexable": true
+}

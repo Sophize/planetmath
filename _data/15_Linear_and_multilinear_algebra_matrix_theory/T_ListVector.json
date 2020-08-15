@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let ${\\mathbb{K}}$ be a field and $n$ a positive natural number. We\ndefine ${\\mathbb{K}}^n$ to be the set of all mappings from the index\nlist $(1,2,\\ldots,n)$ to ${\\mathbb{K}}$. Such a mapping\n${a}\\in {\\mathbb{K}}^n$ is just a formal way of speaking of a list of\nfield elements ${a}^1,\\ldots, {a}^n\\in{\\mathbb{K}}$.\n\nThe above description is somewhat restrictive. A more flexible\ndefinition of a list vector is the following. Let $I$ be a finite list\nof indices[^1], $I=(1,\\ldots,n)$ is one such possibility, and let\n${\\mathbb{K}}^I$ denote the set of all mappings from $I$ to\n${\\mathbb{K}}$. A list vector, an element of ${\\mathbb{K}}^I$, is just\nsuch a mapping. Conventionally, superscripts are used to denote the\nvalues of a list vector, i.e. for ${u}\\in {\\mathbb{K}}^I$ and $i\\in I$,\nwe write ${u}^i$ instead of ${u}(i)$.\n\nWe add and scale list vectors point-wise, i.e. for ${u}, {v}\\in\n{\\mathbb{K}}^I$ and $k\\in {\\mathbb{K}}$, we define\n${u}+{v}\\in {\\mathbb{K}}^I$ and $k{u}\\in\n{\\mathbb{K}}^I$, respectively by $$\\begin{aligned}\n({u}+{v})^i &= {u}^i+{v}^i,\\quad i\\in I,\\\\\n(k{u})^i &= k {u}^i,\\quad i\\in I.\\end{aligned}$$ We also have the zero\nvector ${\\mathbf{0}}\\in {\\mathbb{K}}^I$, namely the constant mapping\n$${\\mathbf{0}}^i = 0,\\quad i\\in I.$$ The above operations give\n${\\mathbb{K}}^I$ the structure of an (abstract) vector space over\n${\\mathbb{K}}$.\n\nLong-standing traditions of linear algebra hold that elements of\n${\\mathbb{K}}^I$ be regarded as column vectors. For example, we write\n${a}\\in {\\mathbb{K}}^n$ as $${a}= \n\\begin{pmatrix}\n  {a}^1 \\\\ {a}^2 \\\\ \\vdots \\\\ {a}^n\n\\end{pmatrix}.$$ Row vectors are usually taken to represents linear\nforms on ${\\mathbb{K}}^I$. In other words, row vectors are elements of\nthe dual space ${\\left(}{\\mathbb{K}}^I{\\right)}^*$. The components of a\nrow vector are customarily written with subscripts, rather than\nsuperscripts. Thus, we express a row vector\n$\\alpha\\in{\\left(}{\\mathbb{K}}^n{\\right)}^*$ as\n$$\\alpha = (\\alpha_1,\\ldots,\\alpha_n).$$\n\n[^1]: Distinct index sets are often used when working with multiple\n    frames of reference.",
+  "language": "INFORMAL",
+  "phrase": "List Vector",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ListVector"
+    }
+  ],
+  "indexable": true
+}

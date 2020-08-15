@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "cocountable topology"
+  ],
+  "definition": "Let $X$ be an infinite set. We define the *countable complement\ntopology* on $X$ by declaring the empty set to be open, and a non-empty\nsubset $U\\subset X$ to be open if $X\\backslash U$ is countable.\n\nIf $X$ is countable, then the countable complement topology is just the\ndiscrete topology, as the complement of *any* set is countable and thus\nopen.\n\nThough defined similarly to the finite complement topology, the\ncountable complement topology lacks many of the strong compactness\nproperties of the finite complement topology. For example, the countable\ncomplement topology on an uncountable set gives an example of a\ntopological space that is not weakly countably compact (but *is*\npseudocompact).",
+  "language": "INFORMAL",
+  "phrase": "Countable Complement Topology",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CountableComplementTopology"
+    }
+  ],
+  "indexable": true
+}

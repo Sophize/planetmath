@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "scalar product"
+  ],
+  "definition": "Let $u=(u_1,u_2,\\ldots,u_n)$ and $v=(v_1,v_2,\\ldots,v_n)$ two vectors on\n$k^n$ where $k$ is a field (like $\\mathbb{R}$ or $\\mathbb{C}$). Then we\ndefine the *dot product* of the two vectors as:\n$$u\\cdot v=u_1v_1+u_2v_2+\\cdots+u_nv_n.$$\n\nNotice that $u\\cdot v$ is NOT a vector but a scalar (an element from the\nfield $k$).\n\nIf $u,v$ are vectors in $\\mathbb{R}^n$ and $\\vartheta$ is the angle\nbetween them, then we also have\n$$u\\cdot v=\\Vert u\\Vert\\Vert v\\Vert \\cos\\vartheta.$$ Thus, in this case,\n$u\\perp v$ if and only if $u\\cdot v=0$.\n\nThe special case $u \\cdot u$ of scalar product is the [*scalar\nsquare*]{} of the vector $u$. In $\\mathbb{R}^n$ it equals to the square\nof the length of $u$: $$u \\cdot u = \\Vert u \\Vert^2$$",
+  "language": "INFORMAL",
+  "phrase": "Dot Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DotProduct"
+    }
+  ],
+  "indexable": true
+}

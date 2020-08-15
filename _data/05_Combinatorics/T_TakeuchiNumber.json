@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The $n$th [*Takeuchi number*]{} $T_n$ is the value of the function\n$T(n, 0, n + 1)$ which measures how many times the Takeuchi function\n$t(x, y, z)$ has to call itself to give the answer starting with\n$x = n, y = 0, z = n + 1$. For example, the second Takeuchi number is 4,\nsince $t(2, 0, 3)$ requires four recursions to obtain the answer 2. The\nfirst few Takeuchi numbers are 0, 1, 4, 14, 53, 223, 1034, 5221, 28437,\nlisted in A000651 of Sloane\u2019s OEIS. Prellberg gives a formula for the\nasymptotic growth of the Takeuchi numbers:\n$$T_n ~ cB_n\\exp\\left(\\frac{1}{2W(n)^2}\\right)$$, where $c$ is the\nTakeuchi-Prellberg constant (approximately 2.2394331), $B_n$ is the\n$n$th Bernoulli number and $W(x)$ is Lambert\u2019s $W$ function.\n\n[2]{} Steven R. Finch [*Mathematical Constants*]{} New York: Cambridge\nUniversity Press (2003): 321 T. Prellberg, \u201cOn the asymptotics of\nTakeuchi numbers\u201d, [*Symbolic computation, number theory, special\nfunctions, physics and combinatorics*]{}, Dordrecht: Kluwer Acad. Publ.\n(2001): 231 - 242.",
+  "language": "INFORMAL",
+  "phrase": "Takeuchi Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TakeuchiNumber"
+    }
+  ],
+  "indexable": true
+}

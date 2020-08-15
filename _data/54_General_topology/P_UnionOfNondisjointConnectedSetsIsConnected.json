@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $A,B$ are connected sets in a topological space $X$. If $A,B$\nare not disjoint, then $A\\cup B$ is connected.\n\nBy assumption, we have two implications. First, if $U,V$ are open in $A$\nand $U\\cup V=A$, then $U\\cap V\\neq \\emptyset$. Second, if $U,V$ are open\nin $B$ and $U\\cup V=B$, then $U\\cap V\\neq \\emptyset$. To prove that\n$A\\cup B$ is connected, suppose $U,V$ are open in $A\\cup B$ and\n$U\\cup V=A\\cup B$. Then $$\\begin{aligned}\n  U\\cup V &=& ((U\\cup V )\\cap A) \\,\\cup \\,((U\\cup V)\\cap B) \\\\\n&=& (U\\cap A) \\cup (V\\cap A) \\cup (U\\cap B)\\cup (V\\cap B)\\end{aligned}$$\nLet us show that $U\\cap A$ and $V\\cap A$ are open in $A$. To do this, we\nuse and notation from that entry too. For example, as\n$U\\in \\tau_{A\\cup B, X}$, $U\\cap A \\in \\tau_{A,A\\cup B, X}=\\tau_{A,X}$,\nand so $U\\cap A$, $V\\cap A$ are open in $A$. Since\n$(U\\cap A)\\cup (V\\cap A)=A$, it follows that\n$$\\emptyset \\neq (U\\cap A)\\cap (V\\cap A) =(U\\cap V)\\cap A.$$ If\n$U\\cap V=\\emptyset$, then this is a contradition, so $A\\cup B$ must be\nconnected.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/UnionOfNondisjointConnectedSetsIsConnected"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "union of non-disjoint connected sets is connected"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} A subset $A$ of a group $G$ is said to be *symmetric*\nif $A = A^{-1}$, where $A^{-1} = \\{ a^{-1} : a \\in A\\}$. In other , $A$\nis symmetric if $a^{-1}\\in A$ whenever $a\\in A$.\n\nIf $A$ is a subset of a vector space, then $A$ is said to be *symmetric*\nif it is symmetric with respect to the additive group structure of the\nvector space; that is, if $A=\\{-a: a\\in A\\}$ [@cristescu].\n\n### Examples\n\n1.  In ${\\mathbb{R}}$, examples of symmetric sets are intervals of the\n    type $(-k,k)$ with $k>0$, and the sets $\\mathbb{Z}$ and $\\{-1,1\\}$.\n\n2.  Any vector subspace in a vector space is a symmetric set.\n\n3.  If $A$ is any subset of a group, then $A\\cap A^{-1}$ and\n    $A\\cup A^{-1}$ are symmetric sets.\n\n[9]{} R. Cristescu, *Topological vector spaces*, Noordhoff International\nPublishing, 1977. W. Rudin, *Functional Analysis*, McGraw-Hill Book\nCompany, 1973.",
+  "language": "INFORMAL",
+  "phrase": "Symmetric Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SymmetricSet"
+    }
+  ],
+  "indexable": true
+}

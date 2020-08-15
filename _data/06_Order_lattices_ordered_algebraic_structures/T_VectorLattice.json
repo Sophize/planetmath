@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Riesz Space"
+  ],
+  "definition": "An ordered vector space whose underlying poset is a lattice is called a\n*vector lattice*. A vector lattice is also called a *Riesz space*.\n\nFor example, given a topological space $X$, its ring of continuous\nfunctions $C(X)$ is a vector lattice. In particular, any finite\ndimensional Euclidean space $\\mathbb{R}^n$ is a vector lattice.\n\nA *vector sublattice* is a subspace of a vector lattice that is also a\nsublattice.\n\nBelow are some properties of the join ($\\vee$) and meet ($\\wedge$)\noperations on a vector lattice $L$. Suppose $u,v,w\\in L$, then\n\n1.  $(u+w) \\vee (v+w)=(u\\vee v)+w$\n\n2.  $u\\wedge v=(u+v)-(u\\vee v)$\n\n3.  If $\\lambda\\ge 0$, then $\\lambda u\\vee \\lambda v=\\lambda(u\\vee v)$\n\n4.  If $\\lambda\\le 0$, then $\\lambda u\\vee \\lambda v=\\lambda(u\\wedge v)$\n\n5.  If $u\\ne v$, then the converse holds for 3 and 4\n\n6.  If $L$ is an ordered vector space, and if for any $u,v\\in L$, either\n    $u\\vee v$ or $u\\wedge v$ exists, then $L$ is a vector lattice. This\n    is basically the result of property 2 above.\n\n7.  $(u\\wedge v)+w=(u+w)\\wedge (v+w)$ (dual of statement 1)\n\n8.  $u\\wedge v=-(-u\\vee -v)$ (a direct consequence of statement 4, with\n    $\\lambda=-1$)\n\n9.  $(-u)\\wedge u\\le 0\\le (-u)\\vee u$\n\n    $(-u)\\wedge u\\le u$ and $(-u)\\wedge u\\le -u$ imply that\n    $2((-u)\\wedge u)\\le u+(-u)=0$, so $(-u)\\wedge u\\le 0$, which means\n    $0\\le -((-u)\\wedge u)=u\\vee (-u)$.\n\n10. $(a\\vee b)+(c\\vee d)=(a+c)\\vee (a+d)\\vee (b+c)\\vee (b+d)$, by\n    repeated application of 1 above.\n\n**Remark**. The first five properties are also satisfied by an ordered\nvector space, with the assumptions that the suprema exist for the\nappropriate pairs of elements (see the entry on ordered vector space for\ndetail).",
+  "language": "INFORMAL",
+  "phrase": "Vector Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/VectorLattice"
+    }
+  ],
+  "indexable": true
+}

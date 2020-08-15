@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Suppose $X,Y$ are topological spaces and $f\\colon X\\to Y$ is a\ncontinuous function. Then $f\\colon X\\to f(X)$ is continuous when $f(X)$\nis equipped with the subspace topology.\n\nLet us first note that using a propert[y]{} on , we have\n$$X = f^{-1} f(X).$$ For the proof, suppose that $A$ is ope[n]{} in\n$f(X)$, that is, $A=U\\cap f(X)$ for some open set $U\\subset Y$. From the\nproperties of the inverse image, we have\n$$f^{-1}(A) = f^{-1}(U) \\cap f^{-1}(f(X))= f^{-1}(U)$$ so $f^{-1}(A)$ is\nopen in $X$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IfFcolonXtoYIsContinuousThenFcolonXtoFXIsContinuous"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "If $f\\colon X\\to Y$ is continuous then $f\\colon X\\to f(X)$ is continuous"
+  ]
+}

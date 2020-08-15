@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a ring with zero element $0$ (i.e. $0$ is the additive\nidentity of $R$). Then for any element $a\\in R$ we have\n$0\\cdot a = a\\cdot 0 = 0$.\n\n$$\\begin{aligned}\n0\\cdot a &=& (0+0)\\cdot a , \\quad \\text{ by definition of zero}\\\\\n&=& 0\\cdot a + 0\\cdot a, \\quad \\text{ by the distributive law}\\\\\\end{aligned}$$\n\nThus $0\\cdot a=0\\cdot a + 0\\cdot a$. Let $b$ be the additive inverse of\n$0\\cdot a \\in R$. Hence: $$\\begin{aligned}\nb+0\\cdot a=b+(0\\cdot a + 0\\cdot a)\\\\\n(b+0\\cdot a)=(b+0\\cdot a) + 0\\cdot a\\\\\n0=0 + 0\\cdot a\\\\\n0=0\\cdot a\\end{aligned}$$ as claimed. The proof of $a\\cdot 0=0$ is done\nanalogously.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZeroTimesAnElementIsZeroInARing"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "zero times an element is zero in a ring",
+    "$0\\cdot a=0$"
+  ]
+}

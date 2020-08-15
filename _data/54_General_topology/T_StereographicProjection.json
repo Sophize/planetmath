@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The $n$-dimensional Euclidean $S^n$ is defined as a subset of\n${\\mathbb}{R}^{n+1}$:\n$$S^n=\\biggl\\{(x_1,\\ldots,x_{n+1})\\in{\\mathbb}{R}^{n+1}\\mid{\\sum\\limits}_{k=1}^{n+1}x_k^2=1\\biggr\\}.$$\nThe *stereographic projection* maps all points of $S^n$ to the\n$n$-dimensional Euclidean space ${\\mathbb}{R}^n$ except one. Let\n$N:=(0,\\ldots,0,1)\\in S^n$ be this point (it is usually called the\n*north pole*). Then the stereographic projection is defined by\n$$\\sigma\\colon S^n\\setminus\nN\\to{\\mathbb}{R}^n,\\quad(x_1,\\ldots,x_{n+1})\\mapsto\\frac{c-1}{x_{n+1}-1}(x_1,\\ldots,x_n).$$\nHere, $c$ is an arbitrary real number. If $c=1$, the projection\ndegenerates; in all other cases, however, $\\sigma$ is a smooth bijective\nmapping.\n\nThe image $P'$ of a point $P$ under $\\sigma$ can be geometrically\nconstructed as follows. Embed ${\\mathbb}{R}^n$ into ${\\mathbb}{R}^{n+1}$\nas a hyperplane at $x_{n+1}=c$. Unless $c=1$, the straight line defined\nby $N$ and $P$ intersects with ${\\mathbb}{R}^n$ in precisely one point,\n$P'$. The most common values for $c$ are $c=-1$ and $c=0$, see\nfigures\u00a0\\[fig1\\] and\u00a0\\[fig2\\].\n\n\\[fig1\\]\n\n![Stereographic projection of the one dimensional unit sphere for\n$c=-1$](StereographicProjection.1.eps)\n\n\\[fig2\\]\n\n![Stereographic projection of the one dimensional unit sphere for\n$c=0$](StereographicProjection.2.eps)\n\nLet $-\\operatorname{id}\\colon{\\mathbb}{R}^{n+1}\\to{\\mathbb}{R}^{n+1}$ be\nthe map $x\\mapsto\n-x$, then $\\tilde{\\sigma}:=\\sigma\\circ(-\\operatorname{id})$ (a suitably\nrestricted composition) maps all points of $S^n$ except the *south pole*\n$S:=(0,\\ldots,0,-1)$ smoothly and bijectively to ${\\mathbb}{R}^n$.\nTogether, $\\sigma$ and $\\tilde{\\sigma}$ form an atlas of $S^n$, so $S^n$\nis an $n$-dimensional smooth manifold.",
+  "language": "INFORMAL",
+  "phrase": "Stereographic Projection",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StereographicProjection"
+    }
+  ],
+  "indexable": true
+}

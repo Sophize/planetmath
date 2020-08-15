@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "There exist many criteria for examining the convergence and divergence\nof series with positive terms (see e.g. determining series convergence).\nThey all are sufficient but not necessary. It has also been asked\nwhether there would be any criterion which were both sufficient and\nnecessary. The famous mathematician Niels Henrik Abel took this question\nunder consideration and proved the\n\nThere is no sequence $$\\begin{aligned}\n   \\varrho_1,\\,\\varrho_2,\\,\\varrho_3,\\,\\ldots\\end{aligned}$$ of positive\nnumbers such that every series $a_1+a_2+a_3+\\ldots$ of positive terms\nconverges when the condition $$\\lim_{n\\to\\infty}\\varrho_n a_n \\;=\\; 0$$\nis true but diverges when it is false.\n\n[*Proof.*]{} Let\u2019s assume that there is a sequence (1) having the both\nproperties. We infer that the series\n$\\frac{1}{\\varrho_1}\\!+\\!\\frac{1}{\\varrho_2}\\!+\\!\\frac{1}{\\varrho_3}\\!+\\ldots$\nis divergent because\n$\\lim_{n\\to\\infty}(\\varrho_n\\!\\cdot\\!\\frac{1}{\\varrho_n}) \\ne 0$. The\ntheorem on slower divergent series guarantees us another divergent\nseries $s_1\\!+\\!s_2\\!+\\!s_3\\!+\\ldots$ such that the ratio\n$s_n\\colon\\!\\frac{1}{\\varrho_n} = \n\\varrho_n s_n$ tends to the limit $0$ as $n\\to\\infty$. But this limit\nresult concerning the series $s_1\\!+\\!s_2\\!+\\!s_3\\!+\\ldots$ should mean,\naccording to our assumption, that the series is convergent. The\ncontradiction shows that the theorem holds.\n\n[9]{} Mercatorin Kirjapaino Osakeyhti\u00f6. Helsinki (1940).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NonexistenceOfUniversalSeriesConvergenceCriterion"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "non-existence of universal series convergence criterion"
+  ]
+}

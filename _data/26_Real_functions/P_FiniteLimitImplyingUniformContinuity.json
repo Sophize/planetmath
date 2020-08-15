@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If the real function $f$ is continuous on the interval\n$[0,\\,\\infty)$ and the limit $\\displaystyle\\lim_{x\\to\\infty}f(x)$ exists\nas a finite number $a$, then $f$ is uniformly continuous on that\ninterval.\\\n*Proof.* Let $\\varepsilon > 0$. According to the limit condition, there\nis a positive number $M$ such that $$\\begin{aligned}\n|f(x)\\!-\\!a| \\;<\\; \\frac{\\varepsilon}{2} \\quad \\forall x > M.\\end{aligned}$$\nThe function is continuous on the finite interval $[0,\\,M\\!+\\!1]$; hence\n$f$ is also uniformly continuous on this compact interval. Consequently,\nthere is a positive number $\\delta < 1$ such that $$\\begin{aligned}\n|f(x_1)\\!-\\!f(x_2)| \\;<\\; \\varepsilon \n\\quad \\forall\\, x_1,\\,x_2 \\in [0,\\,M\\!+\\!1]\\;\\;\\mbox{with}\\;\\;|x_1\\!-\\!x_2| < \\delta.\\end{aligned}$$\nLet $x_1,\\,x_2$ be nonnegative numbers and $|x_1\\!-\\!x_2| < \\delta$.\nThen $|x_1\\!-\\!x_2| < 1$ and thus both numbers either belong to\n$[0,\\,M\\!+\\!1]$ or are greater than $M$. In the latter case, by (1) we\nhave $$\\begin{aligned}\n|f(x_1)\\!-\\!f(x_2)| \\;=\\; |f(x_1)\\!-\\!a\\!+\\!a\\!-\\!f(x_2)|\\;\\leqq\\; |f(x_1)\\!-\\!a|+|f(x_2)\\!-\\!a| \n\\;<\\; \\frac{\\varepsilon}{2}+\\frac{\\varepsilon}{2} \\;=\\; \\varepsilon.\\end{aligned}$$\nSo, one of the conditions (2) and (3) is always in , whence the\nassertion is true.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FiniteLimitImplyingUniformContinuity"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "finite limit implying uniform continuity"
+  ]
+}

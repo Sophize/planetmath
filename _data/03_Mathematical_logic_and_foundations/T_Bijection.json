@@ -1,0 +1,20 @@
+{
+  "alternatePhrases": [
+    "bijective",
+    "bijective function",
+    "1-1 correspondence",
+    "1 to 1 correspondence",
+    "one to one correspondence",
+    "one-to-one correspondence"
+  ],
+  "definition": "Let $X$ and $Y$ be sets. A function $f\\colon X\\to Y$ that is one-to-one\nand onto is called a *bijection* or *bijective function* from $X$ to\n$Y$.\n\nWhen $X=Y$, $f$ is also called a *permutation* of $X$.\n\nAn important consequence of the bijectivity of a function $f$ is the\nexistence of an inverse function $f^{-1}$. Specifically, a function is\ninvertible if and only if it is bijective. Thus if $f:X\\rightarrow Y$ is\na bijection, then for any $A\\subset X$ and $B\\subset Y$ we have\n\n$$\\begin{aligned}\nf\\circ f^{-1}(B)&=B\\\\\nf^{-1}\\circ f(A)&=A\\\\\\end{aligned}$$\n\nIt easy to see the inverse of a bijection is a bijection, and that a\ncomposition of bijections is again bijective.",
+  "language": "INFORMAL",
+  "phrase": "Bijection",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Bijection"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$ be a set and $M$ a left $R$-module. If $f\\!: A \\to M$ and\n$g\\!: A \\to M$, then one may define the [*sum of functions*]{} $f$ and\n$g$ as the following function $f\\!+\\!g\\!: A \\to M$:\n$$(f\\!+\\!g)(x) \\;:=\\; f(x)\\!+\\!g(x) \\quad \\forall x \\in A$$ If $r$ is\nany element of the ring $R$, then the [*scalar-multiplied function*]{}\n$rf\\!: A \\to M$ is defined as\n$$(rf)(x) \\;:=\\; r\\!\\cdot\\!f(x) \\quad \\forall x \\in A.$$\n\nLet $A$ again be a set and $K$ a field or a skew field. If\n$f\\!: A \\to K$ and $g\\!: A \\to K$, then one can define the [*product of\nfunctions*]{} $f$ and $g$ as the function $fg\\!: A \\to K$ as follows:\n$$(fg)(x) \\;:=\\; f(x)\\!\\cdot\\!g(x) \\quad \\forall x \\in A$$ The\n[*quotient of functions*]{} $f$ and $g$ is the function\n$\\displaystyle\\frac{f}{g}\\!: \\{a\\in A\\,\\vdots\\;\\; g(a) \\neq 0\\} \\to K$\ndefined as\n$$\\frac{f}{g}(x) \\;:=\\; \\frac{f(x)}{g(x)} \\quad \\forall x \\in A\\!\\smallsetminus\\!\\{a\\in A\\,\\vdots\\;\\; g(a) = 0\\}.$$\n\nIn particular, the incremental quotient of functions\n$\\frac{f(y)-f(x)}{y-x}$, as $y$ tends to $x$, gave rise to the important\nconcept of derivative. As another example, we can with a conscience say\nthat the function is the quotient of the and the cosine functions.",
+  "language": "INFORMAL",
+  "phrase": "Sum And Product And Quotient Of Functions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SumAndProductAndQuotientOfFunctions"
+    }
+  ],
+  "indexable": true
+}

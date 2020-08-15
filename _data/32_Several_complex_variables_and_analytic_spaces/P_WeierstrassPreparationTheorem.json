@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem is known as the Weierstrass preparation theorem,\nthough sometimes that name is reserved for the corollary and this\ntheorem is then known as the Weierstrass division theorem.\n\nIn the following we use the standard notation for coordinates in\n${\\mathbb{C}}^n$ that $z = (z_1,\\ldots,z_n) = (z',z_n)$. That is $z'$ is\nthe first $n-1$ coordinates.\n\nLet $f\\colon {\\mathbb{C}}^n \\to {\\mathbb{C}}$ be a function analytic in\na neighbourhood $U$ of the origin such that $\\frac{f(0,z_n)}{z_n^m}$\nextends to be analytic at the origin and is not zero at the origin for\nsome positive integer $m$ (in other words, as a function of $z_n$, the\nfunction has a zero of order $m$ at the origin). Then there exists a\npolydisc $D \\subset U$ such that every function $g$ holomorphic and\nbounded in $D$ can be written as $$g =  qf + r ,$$ where $q$ is an\nanalytic function and $r$ is a polynomial in the $z_n$ variable of\ndegree less then $m$ with the coefficients being holomorphic functions\nin $z'$. Further there exists a constant $C$ independent of $g$ such\nthat\n$$\\sup_{z \\in D} \\lvert q(z) \\rvert \\leq C \\sup_{z \\in D} \\lvert g(z) \\rvert .$$\nThe representation $g = qf +r$ is unique. Finally the coefficients of\nthe power series expansions of $q$ and $r$ are finite linear\ncombinations of the coefficients of the power series of $g$.\n\nNote that $r$ is not necessarily a Weierstrass polynomial.\n\nLet $f$ be as above, then there is a unique representation of $f$ as\n$f = h W$, where $h$ is analytic in a neighbourhood of the origin and\n$h(0) \\not= 0$ and $W$ being a Weierstrass polynomial.\n\nIt should be noted that the condition that $\\frac{f(0,z_n)}{z_n^m}$\nextends to be analytic, which is equivalent to saying that\n$f(0,z_n) \\not\\equiv 0$, is not an essential restriction. In fact\n$f(0,z_n) \\equiv 0$, then there exists a linear change of coordinates,\narbitrarily close to the identity, such that the condition of the\ntheorem is satisfied in the new set of coordinates.\n\n[9]{} Lars H\u00f6rmander. [**]{}, North-Holland Publishing Company, New\nYork, New York, 1973. Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing,\nProvidence, Rhode Island, 1992.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WeierstrassPreparationTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Weierstrass preparation theorem",
+    "Weierstrass division theorem"
+  ]
+}

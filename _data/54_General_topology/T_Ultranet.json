@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "universal net"
+  ],
+  "definition": "A net $(x_a)_{a\\in A}$ on a set $X$ is said to be an [**ultranet**]{} or\n[**universal net**]{} if whenever $E\\subseteq X$, $(x_a)$ is either\neventually in $E$ or eventually in $X\\smallsetminus E$.\n\n[**:**]{}\n\n-   It can be shown that every net has a universal subnet.\n\n-   When $X$ is a locally compact topological space, a universal net in\n    $X$ is either convergent or it \u201cgoes to \u201d (it eventually leaves\n    every compact subset).",
+  "language": "INFORMAL",
+  "phrase": "Ultranet",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Ultranet"
+    }
+  ],
+  "indexable": true
+}

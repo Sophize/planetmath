@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "word algebra"
+  ],
+  "definition": "Let $\\Sigma$ be a signature and $V$ a set of variables. Consider the set\nof all terms of $T:=T(\\Sigma)$ over $V$. Define the following:\n\n-   For each constant symbol $c\\in \\Sigma$, $c^T$ is the element $c$ in\n    $T$.\n\n-   For each $n$ and each $n$-ary function symbol $f\\in \\Sigma$, $f^T$\n    is an $n$-ary operation on $T$ given by\n    $$f^T(t_1,\\ldots,t_n)=f(t_1,\\ldots,t_n),$$ meaning that the\n    evaluation of $f^T$ at $(t_1,\\ldots,t_n)$ is the term\n    $f(t_1,\\ldots, t_n)\\in T$.\n\n-   For each relational symbol $R\\in \\Sigma$, $R^T=\\varnothing$.\n\nThen $T$, together with the set of constants and $n$-ary operations\ndefined above is an $\\Sigma$-. Since there are no relations defined on\nit, $T$ is an algebraic system whose signature $\\Sigma'$ is the subset\nof $\\Sigma$ consisting of all but the relation symbols of $\\Sigma$. The\nalgebra $T$ is aptly called the *term algebra* of the signature $\\Sigma$\n(over $V$).\n\nThe prototypical example of a term algebra is the set of all well-formed\nformulas over a set $V$ of propositional variables in classical\npropositional logic. The signature $\\Sigma$ is just the set of logical\nconnectives. For each $n$-ary logical connective $\\#$, there is an\nassociated $n$-ary operation $[\\#]$ on $V$, given by\n$[\\#](p_1,\\ldots, p_n)=\\# p_1 \\cdots p_n$.\n\n**Remark**. The term algebra $T$ of a signature $\\Sigma$ over a set $V$\nof variables can be thought of as a *free structure* in the following\nsense: if $A$ is any $\\Sigma$-structure, then any function $\\phi:V\\to A$\ncan be extended to a unique structure homomorphism $\\phi':T\\to A$. In\nthis regard, $V$ can be viewed as a free basis for the algebra $T$. As\nsuch, $T$ is also called the *absolutely free $\\Sigma$-structure with\nbasis $V$*.",
+  "language": "INFORMAL",
+  "phrase": "Term Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TermAlgebra"
+    }
+  ],
+  "indexable": true
+}

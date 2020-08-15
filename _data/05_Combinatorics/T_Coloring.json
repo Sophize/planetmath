@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "colouring"
+  ],
+  "definition": "A *coloring* of a set $X$ by $Y$ is just a function $f:X\\rightarrow Y$.\nThe term coloring is used because the function can be thought of as\nassigning a \u201ccolor\u201d from $Y$ to each element of $X$.\n\nAny coloring provides a partition of $X$: for each $y\\in Y$,\n$f^{-1}(y)$, the set of elements $x$ such that $f(x)=y$, is one element\nof the partition. Since $f$ is a function, the sets in the partition are\ndisjoint, and since it is a total function, their union is $X$.",
+  "language": "INFORMAL",
+  "phrase": "Coloring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Coloring"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "argumentText": "Introduction\n------------\n\nLet $X_g$ be a general CW-complex and consider the set\n$$\\left\\langle{X_g, K(G,n)}\\right\\rangle$$ of basepoint preserving\nhomotopy classes of maps from $X_g$ to Eilenberg-MacLane spaces\n$K(G, n)$ for $n {{\\geqslant}}0 $, with $G$ being an Abelian group.\n\n(Fundamental, \\[or reduced\\] Cohomology Theorem, [@AllenHatcher2k1]).\n\nThere exists a natural group isomorphism:\n$$\\iota : \\left\\langle{X_g, K(G,n)}\\right\\rangle \\cong \\overline{H}^n (X_g;G)$$\nfor all CW-complexes $X_g$ , with $G$ any Abelian group and all\n$n {{\\geqslant}}0$. Such a group isomorphism has the form\n$\\iota ([f]) = f^*(\\Phi)$ for a certain distinguished class in the\ncohomology group $\\Phi \\in \\overline{H}^n (X_g;G)$, (called a\n*fundamental class*).\n\nDerivation of the Cohomology Group Theorem for Connected CW-complexes.\n----------------------------------------------------------------------\n\nFor connected CW-complexes, $X$, the set\n$\\left\\langle{X_g, K(G,n)}\\right\\rangle$ of basepoint preserving\nhomotopy classes maps from $X_g$ to Eilenberg-MacLane spaces $K(G, n)$\nis replaced by the set of non-basepointed homotopy classes\n$[X, K(\\pi,n)]$, for an Abelian group $G = \\pi$ and all\n$n {{\\geqslant}}1$, because every map $X \\to K(\\pi,n)$ can be homotoped\nto take basepoint to basepoint, and also every homotopy between\nbasepoint -preserving maps can be homotoped to be basepoint-preserving\nwhen the image space $K(\\pi,n)$ is simply-connected.\n\nTherefore, the [*natural group isomorphism*]{} in [**Eq. (0.1)**]{}\nbecomes: $$\\iota : [X, K(\\pi,n)] \\cong \\overline{H}^n (X;\\pi)$$\n\nWhen $n =1$ the above group isomorphism results immediately from the\ncondition that $\\pi = G$ is an Abelian group. QED\n\nRemarks\n-------\n\n1.  A direct but very tedious proof of the (reduced) cohomology theorem\n    can be obtained by constructing maps and homotopies cell-by-cell.\n\n2.  An alternative, categorical derivation [*via*]{} duality and\n    generalization of the proof of the cohomology group theorem\n    ([@May1999]) is possible by employing the categorical definitions of\n    a limit, colimit/cocone, the definition of Eilenberg-MacLane spaces\n    (as specified under related), and by verification of the axioms for\n    reduced cohomology groups (pp. 142-143 in Ch.19 and p. 172 of ref.\n    [@May1999]). This also raises the interesting question of the\n    propositions that hold for non-Abelian groups G, and generalized\n    cohomology theories.\n\n[9]{}\n\nHatcher, A. 2001. , Cambridge University Press; Cambridge, UK., (Theorem\n4.57, pp.393-405).\n\nMay, J.P. 1999, *A Concise Course in Algebraic Topology.*, The\nUniversity of Chicago Press: Chicago",
+  "conclusion": "#P_CohomologyGroupTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DerivationOfCohomologyGroupTheoremForConnectedCWcomplexes"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "derivation of cohomology group theorem for connected CW-complexes"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The dominated convergence theorem for standard integration states that\nif a sequence of measurable functions converge to a limit, and are\ndominated by an integrable function, then their integrals converge to\nthe integral of the limit. That is, the limit commutes with integration.\nA similar result holds for stochastic integration with respect to a\nsemimartingale $X$, except the integrals are random variables, and the\nintegrals converge in probability.\n\nIf $\\xi^n$ are predictable processes converging pointwise to $\\xi$, and\n$|\\xi^n|\\le\\alpha$ for every $n$ and some $X$-integrable process\n$\\alpha$, then $$\\label{eq:1}\n\\int_0^t\\xi^n\\,dX\\rightarrow\\int_0^t\\xi\\,dX$$ in probability as\n$n\\rightarrow\\infty$. Furthermore, ucp convergence and semimartingale\nconvergence hold.\n\nNote that as $\\xi$ and $\\xi^n$ are bounded by an $X$-integrable process,\nthey are guaranteed to also be $X$-integrable. Convergence in\nprobability for each $t$ was taken as part of the definition of the\nstochastic integral, but the dominated convergence theorem stated here\nsays that the stronger ucp and semimartingale convergence also hold.\n\nIf $\\alpha$ is a predictable process, then it is automatically\n$X$-integrable for any semimartingale $X$. It follows that if $\\xi^n$\nare predictable processes converging to $\\xi$ and if $\\sup_n|\\xi^n|$ is\nlocally bounded then the limit (\\[eq:1\\]) holds. This result is\nsometimes known as the *locally bounded convergence theorem*.\n\nTo prove this result, it is enough to show that semimartingale\nconvergence holds, as semimartingale convergence implies ucp\nconvergence. So, let $|\\alpha^n|\\le 1$ be a sequence of simple\npredictable processes and set $Y^n=\\int\\xi^n\\,dX$, $Y=\\int\\xi\\,dX$.\nAssociativity of stochastic integration gives\n$$\\int_0^t\\alpha^n\\,dY^n-\\int_0^t\\alpha^n\\,dY\n=\\int_0^t \\alpha^n(\\xi^n-\\xi)\\,dX$$ However,\n$|\\alpha^n(\\xi^n-\\xi)|\\le 2\\alpha$, which is $X$-integrable. So, this\nconverges to zero in probability by the definition of the stochastic\nintegral, and $Y^n\\rightarrow Y$ in the semimartingale topology.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DominatedConvergenceForStochasticIntegration"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "dominated convergence for stochastic integration"
+  ]
+}

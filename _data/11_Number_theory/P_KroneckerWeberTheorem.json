@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The following theorem classifies the possible of ${\\mathbb{Q}}$.\n\nLet $L/{\\mathbb{Q}}$ be a finite , then $L$ is contained in a cyclotomic\nextension, i.e. there is a root of unity $\\zeta$ such that\n$L \\subseteq {\\mathbb{Q}}(\\zeta)$.\n\nIn a similar fashion to this result, the theory of elliptic curves with\ncomplex multiplication provides a classification of of quadratic\nimaginary number fields:\n\nLet $K$ be a quadratic imaginary number field with ring of integers\n$\\mathcal{O}_K$. Let $E$ be an elliptic curve with complex\nmultiplication by $\\mathcal{O}_K$ and let $j(E)$ be the $j$-invariant of\n$E$. Then:\n\n1.  $K(j(E))$ is the Hilbert class field of $K$.\n\n2.  If $j(E)\\neq 0,1728$ then the maximal of $K$ is given by:\n    $$K^{ab}=K(j(E),h(E_{\\operatorname{torsion}}))$$ where\n    $h(E_{\\operatorname{torsion}})$ is the set of $x$-coordinates of all\n    the torsion points of $E$.\n\nNote: The map $h\\colon E \\to {\\mathbb{C}}$ is called a *Weber function*\nfor $E$. We can define a Weber function for the cases $j(E)=0,1728$ so\nthe theorem holds true for those two cases as well. Assume\n$E\\colon y^2=x^3+Ax+B$, then: $$h(P)=\n\\begin{cases}\nx(P) ,\\text{ if $j(E)\\neq 0, 1728$};\\\\\nx^2(P) ,\\text{ if $j(E)=1728$};\\\\\nx^3(P) ,\\text{ if $j(E)=0$}.\n\\end{cases}$$\n\n[9]{} S. Lang, [*Algebraic Number Theory*]{}, Springer-Verlag, New York.\nJoseph H. Silverman, [*Advanced Topics in the Arithmetic of Elliptic\nCurves*]{}. Springer-Verlag, New York.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/KroneckerWeberTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Kronecker-Weber theorem"
+  ]
+}

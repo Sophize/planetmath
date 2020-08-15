@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "induced bundle"
+  ],
+  "definition": "If $\\pi:E\\to B$ is a bundle and $f:B'\\to B$ is an arbitrary continuous\nmap, then there exists a pullback, or induced, bundle\n$f^*(\\pi):E'\\to B'$, where $$E'=\\{(e,b)\\in E\\times B'| f(b)=\\pi(e)\\},$$\nand $f^*(\\pi)$ is the restriction of the projection map to $B'$. There\nis a natural bundle map from $f^*(\\pi)$ to $\\pi$ with the map $B'\\to B$\ngiven by $f$, and the map ${\\varphi}:E'\\to E$ given by the restriction\nof projection.\n\nIf $\\pi$ is locally trivial, a principal $G$-bundle, or a fiber bundle,\nthen $f^*(\\pi)$ is as well. The pullback satisfies the following\nuniversal property:\n\n$$\\xymatrix{ \n    &\\ar[ddl]X\\ar[ddr]\\ar@{-->}[d]  &\\\\\n    &\\ar[dl]^{f^*{\\pi}}E'\\ar[dr]_{\\varphi}&\\\\\nB'\\ar[dr]^f &           &E\\ar[dl]_\\pi\\\\\n            &B          &       }$$\n\n(i.e. given a diagram with the solid arrows, a map satisfying the dashed\narrow exists).",
+  "language": "INFORMAL",
+  "phrase": "Pullback Bundle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PullbackBundle"
+    }
+  ],
+  "indexable": true
+}

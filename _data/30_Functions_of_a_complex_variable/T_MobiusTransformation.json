@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "fractional linear transformation",
+    "linear fractional transformation"
+  ],
+  "definition": "A *M\u00f6bius transformation* is a bijection on the extended complex plane\n$\\mathbb{C} \\cup \\{\\infty\\}$ given by\n\n$$f(z) =\n\\begin{cases}\n\\frac{a}{c} &\\text{if } z = \\infty \\\\\n\\infty &\\text{if } z = -{d \\over c}\\\\\n\\frac{az+b}{cz+d} &\\text{otherwise}\n\\end{cases}$$\n\nwhere $a,b,c,d \\in \\mathbb{C}$ and $ad - bc \\ne 0$\n\nIt can be shown that the inverse, and composition of two M\u00f6bius\ntransformations are similarly defined, and so the M\u00f6bius transformations\nform a group under composition.\n\nThe geometric interpretation of the M\u00f6bius group is that it is the group\nof automorphisms of the Riemann sphere.\n\nAny M\u00f6bius map can be composed from the elementary transformations -\ndilations, translations and inversions. If we define a line to be a\ncircle passing through $\\infty$ then it can be shown that a M\u00f6bius\ntransformation maps circles to circles, by looking at each elementary\ntransformation.",
+  "language": "INFORMAL",
+  "phrase": "M\\\"Obius Transformation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MobiusTransformation"
+    }
+  ],
+  "indexable": true
+}

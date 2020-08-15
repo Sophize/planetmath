@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Theorem -**]{} Let $G, H$ be compact Hausdorff topological groups. If\n$\\phi:G \\longrightarrow H$ is a continuous surjective homomorphism, then\n$\\phi$ is a measure preserving transformation, in the sense that it\npreserves the normalized Haar measure.\n\n$\\,$\n\n[***:***]{} Let $\\mu$ be the Haar measure in $G$ (normalized, i.e.\n$\\mu (G) = 1$). Let $\\nu$ be defined for measurable subsets $E$ of $H$\nby $$\\nu(E)=\\mu(\\phi^{-1}(E))$$ It is easy to see that $\\nu$ defines a\nmeasure in $H$. Let us now see that $\\nu$ is invariant under right\ntranslations. For every $s \\in G$ and every measurable subset\n$E \\subset H$ we have that $$\\begin{aligned}\n\\phi^{-1}(\\phi(s)E)=s\\phi^{-1}(E)\\end{aligned}$$ The inclusion\n$\\supseteq$ is obvious. To prove the other inclusion notice that if\n$z \\in \\phi^{-1}(\\phi(s)E)$ then $\\phi(z) = \\phi(s)t$ for some\n$t \\in E$. Hence, $\\phi(s^{-1}z)=t$, i.e $s^{-1}z \\in \\phi^{-1}(E)$. It\nnow follows that $z=s(s^{-1}z) \\in s\\phi^{-1}(E)$.\n\nThus, equality (1) and the fact that $\\mu$ is a Haar measure imply that\n$$\\nu(\\phi(s)E)= \\mu \\big(\\phi^{-1}(\\phi(s)E)\\big)=\\mu(s\\phi^{-1}(E)) = \\mu(\\phi^{-1}(E)) = \\nu(E)$$\n\nSince $\\phi$ is surjective it follows that $\\nu$ is right invariant. It\nis not difficult to see that $\\nu$ is regular, finite on compact sets\nand $\\nu(H) = 1$. Hence, $\\nu$ is the normalized Haar measure in $H$\nand, by definition, we have that $$\\nu(E)=\\mu(\\phi^{-1}(E))$$ Thus,\n$\\phi$ preserves the Haar measure. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuousEpimorphismOfCompactGroupsPreservesHaarMeasure"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "continuous epimorphism of  compact groups preserves Haar measure"
+  ]
+}

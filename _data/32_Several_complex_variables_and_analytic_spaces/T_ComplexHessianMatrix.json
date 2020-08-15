@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose that $f \\colon {\\mathbb{C}}^n \\to \\mathbb{C}$ be twice\ndifferentiable and let $$\\frac{\\partial}{\\partial z_k} :=\n\\frac{1}{2}\\left(\n  \\frac{\\partial}{\\partial x_k} - i \\frac{\\partial}{\\partial y_k}\n\\right)\n\\quad \\text{ and } \\quad\n\\frac{\\partial}{\\partial \\bar{z}_k} :=\n\\frac{1}{2}\\left(\n  \\frac{\\partial}{\\partial x_k} + i \\frac{\\partial}{\\partial y_k}\n\\right) .$$\n\nThen the [**]{} is the matrix $$\\begin{bmatrix}\n\\frac{\\partial^2 f}{\\partial z_1 \\partial \\bar{z}_1} &\n  \\frac{\\partial^2 f}{\\partial z_1 \\partial \\bar{z}_2} &\n    \\ldots &\n      \\frac{\\partial^2 f}{\\partial z_1 \\partial \\bar{z}_n}\n\\\\\n\\frac{\\partial^2 f}{\\partial z_2 \\partial \\bar{z}_1} &\n  \\frac{\\partial^2 f}{\\partial z_2 \\partial \\bar{z}_2} &\n    \\ldots &\n      \\frac{\\partial^2 f}{\\partial z_2 \\partial \\bar{z}_n}\n\\\\\n\\vdots &\n  \\vdots &\n    \\ddots &\n      \\vdots\n\\\\\n\\frac{\\partial^2 f}{\\partial z_n \\partial \\bar{z}_1} &\n  \\frac{\\partial^2 f}{\\partial z_n \\partial \\bar{z}_2} &\n    \\ldots &\n      \\frac{\\partial^2 f}{\\partial z_n \\partial \\bar{z}_n}\n\\end{bmatrix}\n.$$\n\nWhen applied to tangent vectors of the zero set of $f$, it is called the\nLevi form and used to define a Levi pseudoconvex point of a boundary of\na domain. Note that the matrix is not the same as the (real) Hessian. A\ntwice continuously differentiable real valued function with a positive\nsemidefinite real Hessian matrix at every point is convex, but a\nfunction with positive semidefinite matrix at every point is\nplurisubharmonic (since it\u2019s continuous it\u2019s also called a pseudoconvex\nfunction).\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Complex Hessian Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComplexHessianMatrix"
+    }
+  ],
+  "indexable": true
+}

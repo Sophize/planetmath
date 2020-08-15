@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "It is possible to express the determinant of a matrix in of traces of\npowers of a matrix.\n\nThe easiest way to derive these expressions is to specialize to the case\nof diagonal matrices. For instance, suppose we have a $2 \\times 2$\nmatrix $M = \\operatorname{diag} (u,v)$. Then $$\\begin{aligned}\n\\operatorname{det} M &=& uv \\\\\n\\operatorname{tr} M &=& u + v \\\\\n\\operatorname{tr} M^2 &=& u^2 + v^2 \\\\\\end{aligned}$$ From the algebraic\nidentity $(u+v)^2 = u^2 + v^2 + 2uv$, it can be concluded that\n$\\operatorname{det} M = \\frac{1}{2} (\\operatorname{tr} M)^2 - \\frac{1}{2} \\operatorname{tr} (M^2)$.\n\nLikewise, one can derive expressions for the determinants of larger\nmatrices from the identities for elementary symmetric polynomials in of\npower sums. For instance, from the identity\n$$xyz = \\frac{1}{6} (x+y+z)^3 - \\frac{1}{2} (x^2 + y^2 + z^2) (x + y + z) + \\frac{1}{3} (x^3+ y^3 + z^3),$$\nit can be concluded that\n$$\\operatorname{det} M = \\frac{1}{6} (\\operatorname{tr} M)^3 - \\frac{1}{2} (\\operatorname{tr} M^2)(\\operatorname{tr} M) + \\frac{1}{3} \\operatorname{tr} M^3$$\nfor a $3\\times 3$ matrix $M$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DeterminantInTermsOfTracesOfPowers"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "determinant in terms of traces of powers"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "matrix condition number",
+    "condition number"
+  ],
+  "definition": "Matrix Condition Number\n=======================\n\nThe *condition number for matrix inversion* with respect to a matrix\nnorm ${\\lVert\\cdot\\rVert}$ of a square matrix $A$ is defined by\n$$\\kappa(A) = \\Vert A \\Vert \\Vert A^{-1} \\Vert\\,,$$ if $A$ is\nnon-singular; and $\\kappa(A) = +\\infty$ if $A$ is singular.\n\nThe condition number is a measure of stability or sensitivity of a\nmatrix (or the linear system it represents) to numerical operations. In\nother words, we may not be able to trust the results of computations on\nan ill-conditioned matrix.\n\nMatrices with condition numbers near 1 are said to be\n*well-conditioned*. Matrices with condition numbers much greater than\none (such as around $10^5$ for a $5 \\times 5$ Hilbert matrix) are said\nto be *ill-conditioned*.\n\nIf $\\kappa(A)$ is the condition number of $A$, then $\\kappa(A)$ measures\na sort of inverse distance from $A$ to the set of singular matrices,\nnormalized by ${\\lVertA\\rVert}$. Precisely, if $A$ is invertible, and\n${\\lVertB - A\\rVert} < {\\lVertA^{-1}\\rVert}^{-1}$, then $B$ must also be\ninvertible. On the other hand, in the case of the $2$-norm, there always\nexists a singular matrix $B$ such that\n${\\lVertB-A\\rVert}_2 = {\\lVertA^{-1}\\rVert}_2^{-1}$ (so the distance\nestimate is sharp).\n\n[3]{} Golub and Van Loan. *Matrix Computations*, 3rd edition. Johns\nHopkins University Press, 1996.",
+  "language": "INFORMAL",
+  "phrase": "Matrix Condition Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MatrixConditionNumber"
+    }
+  ],
+  "indexable": true
+}

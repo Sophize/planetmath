@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A topological space $X$ is [*compact*]{} if, for every collection\n$\\{U_i\\}_{i \\in I}$ of open sets in $X$ whose union is $X$, there exists\na finite subcollection $\\{U_{i_j}\\}_{j=1}^n$ whose union is also $X$.\n\nA subset $Y$ of a topological space $X$ is said to be compact if $Y$\nwith its subspace topology is a compact topological space.\n\n**Note:** Some authors require that a compact topological space be\nHausdorff as well, and use the term quasi-compact to refer to a\nnon-Hausdorff compact space. The modern convention seems to be to use\ncompact in the sense given here, but the old definition is still\noccasionally encountered (particularly in the French school).",
+  "language": "INFORMAL",
+  "phrase": "Compact",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Compact"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(\\Omega,\\mathscr{S},\\mu)$ be a signed measure space, and let\n$(A,B)$ be a Hahn decomposition for $\\mu$. We define $\\mu^+$ and $\\mu^-$\nby\n$$\\mu^+(E) = \\mu(A\\cap E)\\quad \\mbox{and} \\quad \\mu^-(E)=-\\mu(B\\cap E).$$\nThis definition is easily shown to be independent of the chosen Hahn\ndecomposition.\n\nIt is clear that $\\mu^+$ is a positive measure, and it is called the\n*positive variation* of $\\mu$. On the other hand, $\\mu^-$ is a positive\nfinite measure, called the *negative variation* of $\\mu$. The measure\n$|\\mu|=\\mu^+ + \\mu^-$ is called the *total variation* of $\\mu$.\n\nNotice that $\\mu = \\mu^+ - \\mu^-$. This decomposition of $\\mu$ into its\npositive and negative parts is called the *Jordan decomposition* of\n$\\mu$.",
+  "language": "INFORMAL",
+  "phrase": "Jordan Decomposition",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JordanDecomposition"
+    }
+  ],
+  "indexable": true
+}

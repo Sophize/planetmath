@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "general antiderivative",
+    "indefinite integral",
+    "primitive"
+  ],
+  "definition": "Let $I$ be an open interval of $\\mathbb{R}$ and\n$f:I \\longrightarrow \\mathbb{R}$ a real function.\n\nA function $F:I \\longrightarrow \\mathbb{R}$ is called an\n*antiderivative* or a *primitive* of $f$ if $F$ is differentiable and\nits derivative is equal to $f$, i.e.\n$$F'(x) = f(x) \\quad \\text{for all}\\; x \\in I.$$\n\nNote that there are an infinite number of antiderivatives for any\nfunction $f$ since any constant can be added or subtracted from any\nvalid antiderivative to yield another equally valid antiderivative.\n\nTo account for this, we express the *general antiderivative*, or\n*indefinite integral*, as follows: $$\\int f(x)\\ dx = F+C$$ where $C$ is\nan arbitrary constant called the *constant of integration*. The $dx$\nportion means \u201cwith respect to $x$\u201d, because after all, our functions\n$F$ and $f$ are functions of $x$.\\\nThere is no loss in generality with this notation since in fact *all*\nantiderivatives of $f$ take this form as the following theorem\ndemonstrates:\\\n[**Theorem.**]{} *Let $F, G$ be two antiderivatives of a given function\n$f$ defined on an open interval $I$. Then $F-G = \\textrm{const}$.*\n\n*Proof.* Since $F'(x) = f(x)$ and $G'(x) = f(x)$, we have\n$F'(x)-G'(x) = 0$ on the whole $I$. Thus, by the fundamental theorem of\nintegral calculus, $F(x)-G(x) = \\textrm{const}$. $\\square$\\\nThis is no longer true if the domain of the function $f$ is not an open\ninterval (is not connected). For that scenario, the following more\ngeneral result holds:\\\n[**Theorem.**]{} *Let $U \\subset \\mathbb{R}$ be an open set (not\nnecessarily an interval). Suppose $F, G$ are antiderivatives of a given\nfunction $f:U \\longrightarrow \\mathbb{R}$. Then $F-G$ is constant in\neach connected component of $U$ (each interval in $U$).*\\\nFor example, consider the function\n$f:\\mathbb{R}\\!\\smallsetminus\\!\\{0\\} \\longrightarrow \\mathbb{R}$ given\nby $f(x) = \\frac{1}{x}$. Notice that the domain of $f$ is not an\ninterval, but the union of the disjoint intervals $(-\\infty,\\, 0)$ and\n$(0,\\,+\\infty)$. Then, all the antiderivatives of $f$ take the form\n$$\\begin{cases}\n\\log(-x) + C_1, & $if$\\;\\; x < 0\\\\\n\\log(x) + C_2, & $if$\\;\\; x > 0\n\\end{cases}$$\n\nRemarks\n-------\n\n-   For complex functions, the definition of antiderivative is exactly\n    the same and the above results also hold (one just needs to consider\n    \u201cconnected open subsets\u201d instead of \u201copen intervals\u201d).",
+  "language": "INFORMAL",
+  "phrase": "Antiderivative",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Antiderivative"
+    }
+  ],
+  "indexable": true
+}

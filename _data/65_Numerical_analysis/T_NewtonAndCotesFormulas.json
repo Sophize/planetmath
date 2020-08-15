@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Newton-Cotes"
+  ],
+  "definition": "The usual way of numerically integrate a function, is to find a simpler\nfunction which approximates the given function and then integrating the\ninterpolation function. That is, if we want to find $\\int_a^b f(x)\\,dx$,\nwe find an approximating function $p(x)$ such that $f(x)$ and $p(x)$ be\nclose (on some concept of distance) and then we say\n$$\\int_a^b f(x)\\,dx\\approx \\int_a^b p(x)\\,dx$$\n\nThe simplest approximation functions are polynomials. If we evaluate\n$f(x)$ at some points $x_0,x_1,\\ldots,x_n$, we can use Lagrange\u2019s\ninterpolating polynomial to find a polynomial $p(x)$ with degree $n$\nsuch that $p(x_j)=f(x_j)$ for $j=0,1,\\ldots,n$.\n\nNewton and Cotes\u2019 integration formulas are obtained when the\n$x_0,x_1,\\ldots,x_n$ are sampled evenly over the interval, and then\nLagrange interpolating polynomials are used to approximate the function.\n\nThe Newton and Cotes formulas for small values of $n$ are given on the\nfollowing table.\n\n   ${n}$                          ${\\int p(x)}$                              [**Name**]{}\n  ------- -------------------------------------------------------------- --------------------\n    $1$                   $\\frac{h}{2}(f(x_0) + f(x_1))$                   Trapezoidal rule\n    $2$              $\\frac{h}{3}(f(x_0) + 4f(x_1) + f(x_2))$               Simpson\u2019s rule\n    $3$           $\\frac{3h}{8}(f(x_0)+3f(x_1)+3f(x_3)+f(x_3))$           Simpson\u2019s 3/8 rule\n    $4$    $ \\frac{2h}{45}(7f(x_0)+32f(x_1)+12f(x_2)+32f(x_3)+7f(x_4))$      Milne\u2019s rule\n\nrecalling that $x_0,x_1,\\ldots,x_n$ are evenly spaced on $[a,b]$.\n\nSince the Simpson\u2019s rule is actually the Newton and Cotes formula for\n$n=2$, the proof of Simpson\u2019s rule illustrates this method.",
+  "language": "INFORMAL",
+  "phrase": "Newton And Cotes Formulas",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NewtonAndCotesFormulas"
+    }
+  ],
+  "indexable": true
+}

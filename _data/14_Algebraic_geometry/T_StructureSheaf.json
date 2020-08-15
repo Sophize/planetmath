@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be an irreducible algebraic variety over a field $k$, together\nwith the Zariski topology. Fix a point $x \\in X$ and let $U \\subset X$\nbe any affine open subset of $X$ containing $x$. Define\n$${\\mathfrak{o}}_x := \\{f/g \\in k(U) \\mid f,g \\in k[U],\\ g(x) \\neq 0\\},$$\nwhere $k[U]$ is the coordinate ring of $U$ and $k(U)$ is the fraction\nfield of $k[U]$. The ring ${\\mathfrak{o}}_x$ is independent of the\nchoice of affine open neighborhood $U$ of $x$.\n\nThe [*structure sheaf*]{} on the variety $X$ is the sheaf of rings whose\nsections on any open subset $U \\subset X$ are given by\n$${\\mathcal{O}}_X(U) := \\bigcap_{x \\in U} {\\mathfrak{o}}_x,$$ and where\nthe restriction map for $V \\subset U$ is the inclusion map\n${\\mathcal{O}}_X(U) \\hookrightarrow {\\mathcal{O}}_X(V)$.\n\nThere is an equivalence of categories under which an affine variety $X$\nwith its structure sheaf corresponds to the prime spectrum of the\ncoordinate ring $k[X]$. In fact, the topological embedding\n$X \\hookrightarrow \\operatorname{Spec}(k[X])$ gives rise to a\nlattice\u2013preserving bijection[^1] between the open sets of $X$ and of\n$\\operatorname{Spec}(k[X])$, and the sections of the structure sheaf on\n$X$ are isomorphic to the sections of the sheaf\n$\\operatorname{Spec}(k[X])$.\n\n[^1]: Those who are fans of topos theory will recognize this map as an\n    isomorphism of topos.",
+  "language": "INFORMAL",
+  "phrase": "Structure Sheaf",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/StructureSheaf"
+    }
+  ],
+  "indexable": true
+}

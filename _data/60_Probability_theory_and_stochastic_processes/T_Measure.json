@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(E, \\mathcal{B}(E))$ be a measurable space. A *measure* on\n$(E,\\mathcal{B}(E))$ is a function\n$\\mu\\colon \\mathcal{B}(E) \\to \\mathbb{R} {\\cup}\\{\\infty\\}$ with values\nin the extended real numbers such that:\n\n1.  $\\mu(A) \\geq 0$ for $A \\in \\mathcal{B}(E)$, with equality if\n    $A = \\emptyset$\n\n2.  $\\mu(\\bigcup_{i=0}^\\infty A_i) = \\sum_{i=0}^\\infty \\mu(A_i)$ for any\n    sequence of pairwise disjoint sets $A_i \\in \\mathcal{B}(E)$.\n\nOccasionally, the term *positive measure* is used to distinguish\nmeasures as defined here from more general notions of measure which are\nnot necessarily restricted to the non-negative extended reals.\n\nThe second property above is called countable additivity, or\n$\\sigma$-additivity. A *finitely additive measure* $\\mu$ has the same\ndefinition except that $\\mathcal{B}(E)$ is only required to be an\nalgebra and the second property above is only required to hold for\nfinite unions. Note the slight abuse of terminology: a finitely additive\nmeasure is not necessarily a measure.\n\nThe triple $(E, \\mathcal{B}(E), \\mu)$ is called a *measure space*. If\n$\\mu(E) = 1$, then it is called a *probability space*, and the measure\n$\\mu$ is called a *probability measure*.\n\nLebesgue measure on $\\mathbb{R}^n$ is one important example of a\nmeasure.",
+  "language": "INFORMAL",
+  "phrase": "Measure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Measure"
+    }
+  ],
+  "indexable": true
+}

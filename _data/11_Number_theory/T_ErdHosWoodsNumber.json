@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Erdos-Woods number",
+    "Erd\\\"os-Woods number"
+  ],
+  "definition": "An integer $k$ is an [*Erd\u0151s-Woods number*]{} if there is an integer $n$\nsuch that each of the consecutive integers $n + i$ for $0 < i < k$\nshares at least one prime factor with either $n$ or $n + k$. In other\nwords, if for a $k$ there is an $n$ such that each evaluation of\n$\\gcd(n, n + i) > 1$ or $\\gcd(n + k, n + i) > 1$ returns true, then $k$\nis an Erd\u0151s-Woods number.\n\nFor example, one $n$ for $k = 16$ is 2184. 2184 is\n$2^3 \\times 3 \\times 7 \\times 13$, while\n$2184 + 16 = 2200 = 2^3 \\times 5^2 \\times 11$. We then verify that\n\n-   2185 is clearly divisible by 5 and thus shares that odd prime as a\n    factor with 2200.\n\n-   2186 is even and so shares 2 as a factor with both 2184 and 2200.\n\n-   2187 is 3 more than 2184 and therefore must also be divisible by 3.\n    In fact, it is $3^7$.\n\n-   2188 is even and so shares 2 as a factor with both 2184 and 2200,\n    suggesting we needn\u2019t look at any other even numbers in this range.\n\n-   2189 is 11 less than 2200 and therefore must be divisible by 11. In\n    base 10 we can quickly verify that 2 + 8 = 10 and 1 + 9 is also 10.\n\n-   2191 is 7 more than 2184 and thus must be divisible by 7.\n\n-   2193 is 9 more than 2184 and thus divisible by 3.\n\n-   2195 is obviously divisible by 5.\n\n-   2197 is 13 more than 2184 and thus must be divisible by 13. In fact,\n    it is $13^3$.\n\n-   2199 is 15 more than 2184 and thus divisible by 3.\n\nKnowing one $n$ for a given $k$ one can find other $n$ by multiplying\nthe odd prime factors of $n + k$ (just once each, let\u2019s call that\nproduct \u201c$q$\u201d) and then calculating $n(jq + 1)$ with $j$ any positive\ninteger of one\u2019s choice. To give one example: with $n = 2184$ and\n$j =  17$, we get another $n$, namely 2044224. The range 2044224 to\n2044240 displays the same patterns of factorization as described above,\nexcept that 2044227 and 2044237 are a semiprime and a sphenic number\nrespectively, as opposed to 2187 and 2197 which are both prime powers.\n\nOther Erd\u0151s-Woods numbers are 22, 34, 36, 46, 56, 64, 66, 70, 76, 78,\n86, 88, 92, 94, 96, 100, etc., listed in A059756 of Sloane\u2019s OEIS (the\nsmallest odd Erd\u0151s-Woods number is 903), while A059757 lists the\nsmallest matching $n$ for each of those $k$.\n\n[2]{} R. K. Guy, [*Unsolved Problems in Number Theory*]{} New York:\nSpringer-Verlag 2004: B28",
+  "language": "INFORMAL",
+  "phrase": "Erd\\H{O}S-Woods Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ErdHosWoodsNumber"
+    }
+  ],
+  "indexable": true
+}

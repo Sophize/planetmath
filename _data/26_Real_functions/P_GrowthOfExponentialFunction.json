@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Lemma.** $$\\lim_{x\\to\\infty}\\frac{x^a}{e^x} = 0$$ for all values of\n$a$.\n\n[*Proof.*]{} Let $\\varepsilon$ be any positive number. Then we get:\n\n$$0 < \\frac{x^a}{e^x} \\leqq \\frac{x^{\\lceil a \\rceil}}{e^x} < \n\\frac{x^{\\lceil a \\rceil}}{\\frac{x^{\\lceil a\\rceil+1}}{(\\lceil a\\rceil+1)!}}\n = \\frac{(\\lceil a\\rceil+1)!}{x} < \\varepsilon$$ as soon as\n$x > \\max\\{1, \\frac{(\\lceil a\\rceil+1)!}{\\varepsilon}\\}$. Here,\n$\\lceil\\cdot\\rceil$ the ceiling function; $e^x$ has been estimated\ndownwards by taking only one of the all positive\n$$e^x = 1+\\frac{x}{1!}+\\frac{x^2}{2!}+\\cdots+\\frac{x^n}{n!}+\\cdots$$\\\n\nThe of the real exponential function $x\\mapsto b^x$ exceeds all power\nfunctions, i.e. $$\\lim_{x\\to\\infty}\\frac{x^a}{b^x} = 0$$ with $a$ and\n$b$ any , $b > 1$.\n\n[*Proof.*]{} Since $\\ln b > 0$, we obtain by using the lemma the result\n$$\\lim_{x\\to\\infty}\\frac{x^a}{b^x} = \n\\lim_{x\\to\\infty}\\left(\\frac{x^{\\frac{a}{\\ln b}}}{e^x}\\right)^{\\ln b} = 0^{\\ln b} = 0.$$\\\n**Corollary 1.** $\\displaystyle\\lim_{x\\to 0+}x\\ln{x} = 0.$\n\n[*Proof.*]{} According to the lemma we get\n$$0 = \\lim_{u\\to\\infty}\\frac{-u}{e^u} = \n\\lim_{x\\to 0+}\\frac{-\\ln{\\frac{1}{x}}}{\\frac{1}{x}} = \\lim_{x\\to 0+}x\\ln{x}.$$\\\n**Corollary 2.** $\\displaystyle\\lim_{x\\to\\infty}\\frac{\\ln{x}}{x} = 0.$\n\n[*Proof.*]{} Change in the lemma $x$ to $\\ln{x}$.\\\n**Corollary 3.** $\\displaystyle\\lim_{x\\to\\infty}x^{\\frac{1}{x}} = 1.$\n(Cf. limit of nth root of n.)\n\n[*Proof.*]{} By corollary 2, we can write:\n$\\displaystyle x^{\\frac{1}{x}} = e^{\\frac{\\ln{x}}{x}}\\longrightarrow e^0 = 1$\nas $x\\to\\infty$ (see also theorem 2 in limit rules of functions).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GrowthOfExponentialFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "growth of exponential function"
+  ]
+}

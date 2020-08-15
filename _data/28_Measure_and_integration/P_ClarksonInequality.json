@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "The *Clarkson inequality* says that for all $f,g \\in L^p$, for\n$2\\leq p<\\infty$ we have: $$\\left\\| \\frac{f+g}{2} \\right\\|^p_p +\n\\left\\| \\frac{f-g}{2} \\right\\|^p_p\n                                     \\le\n\\frac{1}{2}\\left( \\|f\\|^p_p + \\|g\\|^p_p\\right).$$\\\nThe inequality can be used to prove that $L^p$ space is uniformly convex\nfor $2\\leq p<\\infty$.\n\n**Remark**. If $1 < p < 2$, then the Clarkson inequality becomes:\n$$\\left\\| \\frac{f+g}{2} \\right\\|^q_p +\n\\left\\| \\frac{f-g}{2} \\right\\|^q_p\n                                     \\le\n\\left(\\frac{1}{2} \\|f\\|^p_p +\\frac{1}{2} \\|g\\|^p_p\\right)^\\frac{1}{p-1}$$.\n\nfor functions $f,\\,g \\in L^p$, where $q=\\frac{p}{p-1}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClarksonInequality"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Clarkson inequality"
+  ]
+}

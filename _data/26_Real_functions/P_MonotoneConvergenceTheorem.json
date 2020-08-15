@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $X$ be a measure space, and let $0\\leq f_1\\leq f_2\\leq\\cdots$ be a\nmonotone increasing sequence of nonnegative measurable functions. Let\n$f\\colon X \\to \\mathbb{R}\\cup \\{\\infty\\}$ be the function defined by\n$f(x) = \\lim_{n\\rightarrow\\infty} f_n(x)$. Then $f$ is measurable, and\n$$\\lim_{n\\rightarrow\\infty} \\int_X f_n = \\int_X f.$$\n\n**Remark.** This theorem is the first of several theorems which allow us\nto \u201cexchange integration and limits\u201d. It requires the use of the\nLebesgue integral: with the Riemann integral, we cannot even formulate\nthe theorem, lacking, as we do, the concept of \u201calmost everywhere\u201d. For\ninstance, the characteristic function of the rational numbers in $[0,1]$\nis not Riemann integrable, despite being the limit of an increasing\nsequence of Riemann integrable functions.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MonotoneConvergenceTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "monotone convergence theorem",
+    "Lebesgue's monotone convergence theorem",
+    "Beppo Levi's theorem"
+  ]
+}

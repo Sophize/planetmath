@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "idempotent element"
+  ],
+  "definition": "An element $x$ of a ring is called an *idempotent element*, or simply an\n*idempotent* if $x^2 = x$.\n\nThe set of idempotents of a ring can be partially ordered by putting\n$e \\le f$ iff $e = ef = fe$.\n\nThe element $0$ is a minimum element in this partial order. If the ring\nhas an identity element, $1$, then $1$ is a maximum element in this\npartial order.\n\nSince the above definitions refer only to the multiplicative structure\nof the ring, they also hold for semigroups (with the proviso, of course,\nthat a semigroup may have neither a zero element nor an identity\nelement). In the special case of a semilattice, this partial order is\nthe same as the one described in the entry for semilattice.\n\nIf a ring has an identity, then $1 - e$ is always an idempotent whenever\n$e$ is an idempotent, and $e(1-e) = (1-e)e = 0$.\n\nIn a ring with an identity, two idempotents $e$ and $f$ are called a\n*pair of orthogonal idempotents* if $e + f = 1$, and $ef = fe = 0$.\nObviously, this is just a fancy way of saying that $f = 1 - e$.\n\nMore generally, a set $\\{e_1, e_2, \\dots, e_n\\}$ of idempotents is\ncalled a *complete set of orthogonal idempotents* if\n$e_i e_j = e_j e_i = 0$ whenever $i \\neq j$ and if\n$1 = e_1 + e_2 + \\dots + e_n$.\n\nIf $\\{e_1, e_2, \\dots, e_n\\}$ is a complete set of orthogonal\nidempotents, and in addition each $e_i$ is in the centre of $R$, then\neach $Re_i$ is a subring, and\n$$R {\\cong}Re_1 \\times Re_2 \\times \\dots \\times Re_n.$$\n\nConversely, whenever $R_1 \\times R_2 \\times \\dots \\times R_n$ is a\ndirect product of rings with identities, write $e_i$ for the element of\nthe product corresponding to the identity element of $R_i$. Then\n$\\{e_1, e_2, \\dots, e_n\\}$ is a complete set of central orthogonal\nidempotents of the product ring.\n\nWhen a complete set of orthogonal idempotents is not central, there is a\nmore complicated : see the entry on the Peirce decomposition for the\ndetails.",
+  "language": "INFORMAL",
+  "phrase": "Idempotent",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Idempotent"
+    }
+  ],
+  "indexable": true
+}

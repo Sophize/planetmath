@@ -1,0 +1,17 @@
+{
+  "argumentText": "Consider the diagram $$\\xymatrix @R1pc@C1pc{\n & \\ar@{-}[ld]\\ar@{-}[rd]EF \\\\\n\\ar@{-}[rd]E & & \\ar@{-}[ld]F\\\\\n & \\ar@{-}[d]E\\cap F \\\\\n & K\n}$$ (1): Let $p(x)\\in K[x]$ with a root $\\alpha\\in E\\cap F$. Then since\n$E$ (resp. $F$) is Galois over $K$, all the roots of $p$ lie in $E$\n(resp. $F$) and thus in $E\\cap F$. The result follows.\n\n(2): We first show that $EF$ is Galois over $K$. Choose separable\npolynomials $p(x),q(x)\\in K[x]$ so that $E$ (resp. $F$) is a splitting\nfield for $p$ (resp. $q$). Then $EF$ is a splitting field for the\nsquarefree part of $pq$, which is separable since it is squarefree and\nsince $p(x),q(x)$ are separable.\n\nNow, define\n$$\\theta: \\operatorname{Gal}(EF/K)\\to \\operatorname{Gal}(E/K)\\times \\operatorname{Gal}(F/K): \\sigma\\mapsto (\\sigma|_E,\\sigma|_F)$$\nThis map is a group homomorphism; its kernel is precisely those elements\nthat leave both $E$ and $F$ fixed. Any such element must thus leave $EF$\nfixed, so that $\\theta$ is injective. The image obviously lies in\n$$H=\\{ (\\sigma, \\tau) : \\sigma|_{E\\cap F}=\\tau|_{E\\cap F} \\}$$ by\nconstruction:\n$(\\sigma|_E)|_{E\\cap F} = \\sigma|_{E\\cap F} = (\\sigma|_F)|_{E\\cap F}$.\nWe will show that $H$ is precisely the image of $\\theta$ by showing that\nthe order of $H$ is the same as the index of the field extension\n$[EF:K]$.\n\nFor each $\\sigma\\in \\operatorname{Gal}(E/K)$, there are precisely\n${\\left\\lvert \\operatorname{Gal}(F/E\\cap F) \\right\\rvert}$ elements of\n$\\operatorname{Gal}(F/K)$ whose restrictions to $E\\cap F$ are\n$\\sigma|_{E\\cap F}$. Thus directly from the definition of $H$,\n$${\\left\\lvert H \\right\\rvert} = {\\left\\lvert \\operatorname{Gal}(E/K) \\right\\rvert}\\cdot{\\left\\lvert \\operatorname{Gal}(F/E\\cap F) \\right\\rvert} \n            = {\\left\\lvert \\operatorname{Gal}(E/K) \\right\\rvert}\\cdot\\frac{{\\left\\lvert \\operatorname{Gal}(F/K) \\right\\rvert}}{{\\left\\lvert \\operatorname{Gal}((E\\cap F)/K) \\right\\rvert}}$$\nBy the , we have\n$$[EF:K] =[EF:F][F:K] = [E:E\\cap F][F:K] = \\frac{[E:K][F:K]}{[E\\cap F:K]}$$\nso that $${\\left\\lvert H \\right\\rvert} = [EF:K]$$\n\n[10]{} Dummit,\u00a0D.,\u00a0Foote,\u00a0R.M., *Abstract Algebra, Third Edition*,\nWiley, 2004.",
+  "conclusion": "#P_GaloisGroupOfTheCompositumOfTwoGaloisExtensions",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfGaloisGroupOfTheCompositumOfTwoGaloisExtensions"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Galois group of the compositum of two Galois extensions"
+  ]
+}

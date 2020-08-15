@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $A$, $B$, and $C$ be abelian groups. A bilinear form\n\n$$\\varphi: A\\times B \\rightarrow C$$ is said to be ** if the associated\ngroup homomorphisms\n\n$$\\begin{aligned}\nA &\\rightarrow \\operatorname{Hom}(B,C)\\\\\na &\\mapsto \\varphi(a,\\cdot)\\end{aligned}$$\n\nand $$\\begin{aligned}\nB &\\rightarrow \\operatorname{Hom}(A,C)\\\\\nb &\\mapsto \\varphi(\\cdot,b)\\end{aligned}$$ are injective.\n\nIn particular, if $C$ is finite then the finiteness of either $A$ or $B$\nimplies the finiteness of the other.",
+  "language": "INFORMAL",
+  "phrase": "Perfect Bilinear Form",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PerfectBilinearForm"
+    }
+  ],
+  "indexable": true
+}

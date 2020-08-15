@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "quasi-metric space"
+  ],
+  "definition": "A [*quasimetric space*]{} $(X,d)$ is a set $X$ together with a\nnon-negative real-valued function\n$d: X \\times X \\longrightarrow \\mathbb{R}$ (called a [*quasimetric*]{})\nsuch that, for every $x,y,z \\in X$,\n\n-   $d(x,y)\\geq 0$ with equality if and only if $x=y$.\n\n-   $d(x,z) \\leq d(x,y) + d(y,z)$\n\nIn other words, a quasimetric space is a generalization of a metric\nspace in which we drop the requirement that, for two points $x$ and $y$,\nthe \u201cdistance\u201d between $x$ and $y$ is the same as the \u201cdistance\u201d between\n$y$ and $x$ (i.e. the symmetry axiom of metric spaces).\n\nSome properties:\n\n-   If $(X,d)$ is a quasimetric space, we can form a metric space\n    $(X,d')$ where $d'$ is defined for all $x,y\\in X$ by\n    $$\\begin{aligned}\n    d'(x,y) = \\frac{1}{2}(d(x,y)+d(y,x)).\\end{aligned}$$\n\n-   Every metric space is trivially a quasimetric space.\n\n-   A quasimetric that is (i.e. $d(x,y)=d(y,x)$ for all $x,y\\in X$ is a\n    metric.\n\n[9]{} L.A. Steen, J.A.Seebach, Jr., *Counterexamples in topology*, Holt,\nRinehart and Winston, Inc., 1970. Z. Shen, *Lectures of Finsler\ngeometry*, World Sientific, 2001.",
+  "language": "INFORMAL",
+  "phrase": "Quasimetric Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/QuasimetricSpace"
+    }
+  ],
+  "indexable": true
+}

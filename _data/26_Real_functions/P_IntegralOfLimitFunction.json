@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If a sequence $f_1,\\,f_2,\\,\\ldots$ of real functions,\ncontinuous on the interval $[a,\\,b]$, converges uniformly on this\ninterval to the limit function $f$, then $$\\begin{aligned}\n\\int_a^b\\!f(x)\\,dx \\;=\\; \\lim_{n\\to\\infty}\\int_a^b\\!f_n(x)\\,dx.\\end{aligned}$$\n\n*Proof.* Let $\\varepsilon > 0$. The uniform continuity implies the\nexistence of a positive integer $n_\\varepsilon$ such that\n$$|f_n(x)\\!-\\!f(x)| \\;<\\; \\frac{\\varepsilon}{b\\!-\\!a} \\quad \\forall x \\in [a,\\,b] \\qquad \\mbox{when}\\;\\; \nn \\,>\\, n_\\varepsilon.$$ The function $f$ is continuous (see ) and thus\n(see ) on the interval. Utilising the estimation theorem of integral, we\nobtain\n$$\\left|\\int_a^b\\!f_n(x)\\,dx\\!-\\!\\int_a^b\\!f(x)\\,dx\\right| \\,=\\, \\left|\\int_a^b\\!(f_n(x)\\!-\\!f(x))\\,dx\\right| \n\\,\\leqq\\, \\int_a^b\\!|f_n(x)\\!-\\!f(x)|\\,dx \\,<\\, \\frac{\\varepsilon}{b\\!-\\!a}(b\\!-\\!a) \\,=\\, \\varepsilon$$\nas soon as $n > n_\\varepsilon$. Consequently, (1) is true.\\\n**Remark 1.** The equation (1) may be written in the form\n$$\\begin{aligned}\n\\int_a^b\\!\\lim_{n\\to\\infty}f_n(x)\\,dx \\;=\\; \\lim_{n\\to\\infty}\\int_a^b\\!f_n(x)\\,dx,\\end{aligned}$$\ni.e. under the assumptions of the theorem, the integration and the limit\nprocess can be interchanged.\\\n**Remark 2.** Considering the partial sums of a series\n$\\sum_{n=1}^\\infty f_n(x)$ with continuous terms and converging\nuniformly on $[a,\\,b]$, one gets from the theorem the result analogous\nto (2): $$\\begin{aligned}\n\\int_a^b\\!\\sum_{n=1}^\\infty f_n(x)\\,dx \\;=\\; \\sum_{n=1}^\\infty\\int_a^b\\!f_n(x)\\,dx.\\end{aligned}$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/IntegralOfLimitFunction"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "integral of limit function"
+  ]
+}

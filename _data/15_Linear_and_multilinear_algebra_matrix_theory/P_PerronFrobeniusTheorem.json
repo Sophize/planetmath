@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ be a nonnegative matrix. Denote its spectrum by $\\sigma(A)$.\nThen the spectral radius $\\rho(A)$ is an eigenvalue, that is,\n$\\rho(A)\\in \\sigma(A)$, and is associated to a nonnegative eigenvector.\n\nIf, in addition, $A$ is an irreducible matrix, then\n$|\\rho(A)|\\geq |\\lambda|$, for all $\\lambda\\in \\sigma(A)$,\n$\\lambda\\neq \\rho(A)$, and $\\rho(A)$ is a simple eigenvalue associated\nto a positive eigenvector.\n\nIf, in addition, $A$ is a primitive matrix, then $\\rho(A)>|\\lambda|$ for\nall $\\lambda\\in\\sigma(A)$, $\\lambda\\neq\\rho(A)$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PerronFrobeniusTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Perron-Frobenius theorem"
+  ]
+}

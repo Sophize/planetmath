@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ is a topological space, and $A,B\\subset X$ are such that\n$X=\\mathrm{int}(A)\\cup\\mathrm{int}\n(B)$, and $C=A\\cap B$. Then there is an exact sequence of homology\ngroups:\n\n$$\\begin{CD}\n\\cdots@>>>H_n(C)@>{i_*\\oplus -j_*}>> H_n(A)\\oplus H_n(B)@>{j_*+i_*}>>H_n(X)@>\\partial_*>>\nH_{n-1}(C)@>>>\\cdots\n\\end{CD}$$\n\nHere, $i_*$ is induced by the inclusions $i:B\\hookrightarrow X$ and\n$j_*$ by $j:\nA\\hookrightarrow X$, and $\\partial_*$ is the following map: if $x$ is in\n$H_n(X)$, then it can be written as the sum of a chain in $A$ and one in\n$B$, $x=a+b$. $\\partial a=-\\partial b$, since $\\partial x=0$. Thus,\n$\\partial a$ is a chain in $C$, and so represents a class in\n$H_{n-1}(C)$. This is $\\partial_*x$. One can easily check (by standard\ndiagram chasing) that this map is well defined on the level of homology.",
+  "language": "INFORMAL",
+  "phrase": "Mayer-Vietoris Sequence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MayerVietorisSequence"
+    }
+  ],
+  "indexable": true
+}

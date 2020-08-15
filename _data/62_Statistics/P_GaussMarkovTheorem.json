@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "A *Gauss-Markov linear model* is a linear statistical model that\nsatisfies all the conditions of a general linear model except the\nnormality of the error terms. Formally, if $\\boldsymbol{Y}$ is an\n$m$-dimensional response variable vector, and\n$\\boldsymbol{Z_i}=z_i(\\boldsymbol{X})$, $i=1,\\ldots,k$ are the\n$m$-dimensional functions of the explanatory variable vector\n$\\boldsymbol{X}$, a Gauss-Markov linear model has the form:\n$$\\boldsymbol{Y}=\\beta_0\\boldsymbol{Z_0}+\\cdots+\n\\beta_k\\boldsymbol{Z_k}+\\boldsymbol{\\epsilon},$$ with\n$\\boldsymbol{\\epsilon}$ the error vector such that\n\n1.  $\\operatorname{E}[\\boldsymbol{\\epsilon}]=\\boldsymbol{0}$, and\n\n2.  $\\operatorname{Var}[\\boldsymbol{\\epsilon}]=\\sigma^2\\boldsymbol{I}$.\n\nIn other words, the observed responses $Y_i$, $i=1,\\ldots,m$ are not\nassumed to be normally distributed, are not correlated with one another,\nand have a common variance $\\operatorname{Var}[Y_i]=\\sigma^2$.\n\n**Gauss-Markov Theorem**. Suppose the response variable\n$\\boldsymbol{Y}=(Y_1,\\ldots,Y_m)$ and the explanatory variables\n$\\boldsymbol{X}$ satisfy a Gauss-Markov linear model as described above.\nConsider any linear combination of the responses $$\\begin{aligned}\nY=\\sum_{i=1}^m c_iY_i,\\end{aligned}$$ where $c_i\\in\\mathbb{R}$. If each\n$\\mu_i$ is an estimator for response $Y_i$, parameter $\\theta$ of the\nform $$\\begin{aligned}\n\\theta=\\sum_{i=1}^m c_i\\mu_i,\\end{aligned}$$ can be used as an estimator\nfor $Y$. Then, among all unbiased estimators for $Y$ having form (2),\nthe ordinary least square estimator (OLS) $$\\begin{aligned}\n\\hat{\\theta}=\\sum_{i=1}^m c_i\\hat{\\mu_i},\\end{aligned}$$ yields the\nsmallest variance. In other words, the OLS estimator is the uniformly\nminimum variance unbiased estimator.\n\n**Remark**. $\\hat{\\theta}$ in equation (3) above is more popularly known\nas the *BLUE*, or the *best linear unbiased estimator* for a linear\ncombination of the responses in a Gauss-Markov linear model.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaussMarkovTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Gauss-Markov theorem",
+    "BLUE"
+  ]
+}

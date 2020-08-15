@@ -1,0 +1,17 @@
+{
+  "argumentText": "Notice that the triangles $\\triangle BAP$ and $\\triangle CAP$ have the\nsame common height $h$, and if $(BAP)$ and $(CAP)$ denote their\nrespective areas, we have\n$$\\frac{(BAP)}{(CAP)} = \\frac{BP\\cdot h/2}{PC\\cdot h/2} = \\frac{BP}{PC}.$$\n\n![image](genbisector)\n\nOn the other hand\n$$(BAP) = \\frac{BA\\cdot AP \\sin BAP}{2},\\qquad (CAP)=\\frac{CA\\cdot AP\\sin CAP}{2}$$\nand so\n$$\\frac{(BAP)}{(CAP)} = \\frac{BA\\cdot AP \\sin BAP/2}{CA\\cdot AP\\sin CAP/2} =\\frac{ BA\\sin BAP}{CA\\sin CAP}.$$\n\nWe have obtained $$\\frac{BP}{PC} =\\frac{ BA\\sin BAP}{CA\\sin CAP},$$\nwhich is the generalization to the theorem. In the particular case when\n$AP$ is the bisector, $\\angle BAP = \\angle CAP$, and thus\n$\\sin BAP=\\sin CAP$. Cancelling out the sines proves the bisector\ntheorem.",
+  "conclusion": "#P_BisectorsTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfBisectorsTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of bisectors theorem"
+  ]
+}

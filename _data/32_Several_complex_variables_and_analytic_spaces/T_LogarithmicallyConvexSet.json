@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Suppose $G \\subset {\\mathbb{C}}^n$, then we define\n$$\\log \\lVert G \\rVert :=\n \\{ (\\log \\lvert z_1 \\rvert ,\\ldots,\n \\log \\lvert z_n \\rvert) \\in {\\mathbb{R}}^n\n\\mid\n (z_1,\\ldots,z_n) \\in G \\} .$$\n\nWe say $G \\subset {\\mathbb{C}}^n$ is a [*logarithmically convex set*]{}\nif $\\log \\lVert G \\rVert \\subset {\\mathbb{R}}^n$ is a convex set.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Logarithmically Convex Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LogarithmicallyConvexSet"
+    }
+  ],
+  "indexable": true
+}

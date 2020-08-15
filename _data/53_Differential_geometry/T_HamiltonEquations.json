@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The Hamilton equations are a formulation of the equations of motion in\nclassical mechanics.\n\n### Local formulation {#local-formulation .unnumbered}\n\nSuppose $U\\subseteq {\\mathbbm{R}}^n$ is an open set, suppose $I$ is an\ninterval (representing time), and\n$H\\colon U\\times {\\mathbbm{R}}^n\\times I\\to {\\mathbbm{R}}$ is a smooth\nfunction. Then the equations $$\\begin{aligned}\n\\label{HE1}\n\\dot{q}_j &= \\frac{\\partial H}{\\partial p_j}(q(t),p(t),t), \\\\\n\\label{HE2}\n\\dot{p}_j &= -\\frac{\\partial H}{\\partial q_j}(q(t),p(t),t), \\end{aligned}$$\nare the *Hamilton equations* for the curve\n$$(q, p)=(q_1,\\ldots, q_n, p_1,\\ldots, p_n) \\colon I\\to U\\times {\\mathbbm{R}}^n.$$\nSuch a solution is called a *bicharacteristic*, and $H$ is called a\n*Hamiltonian function*. Here we use classical notation; the $q_i$\u2019s\nrepresent the location of the particles, the $p_i$\u2019s represent the\nmomenta of the particles.\n\n### Global formulation {#global-formulation .unnumbered}\n\nSuppose $P$ is a symplectic manifold with symplectic form $\\omega$ and\nthat $H\\colon P\\to {\\mathbbm{R}}$ is a smooth function. Then $X_H$, the\nHamiltonian vector field corresponding to $H$ is determined by\n$$dH=\\omega(X_H,\\cdot).$$ The most common case is when $P$ is the\ncotangent bundle of a manifold $Q$ equipped with the canonical\nsymplectic form $\\omega=-d\\alpha$, where $\\alpha$ is the . (Note that\nother authors may have different sign convention.) Then Hamilton\u2019s\nequations are the equations for the flow of the vector field $X_H$.\nGiven a system of coordinates $x^1, \\ldots x^{2n}$ on the manifold $P$,\nthey can be written as follows:\n$$\\dot x^i = (X_H)^i (x_1, \\ldots x_{2n}, t)$$ The relation with the\nformer definition is that in canonical local coordinates $(q_i,p_j)$ for\n$T^\\ast Q$, the flow of $X_H$ is determined by equations -.\n\nAlso, the following terminology is frequently encountered \u2014 the manifold\n$P$ is known as the phase space, the manifold $Q$ is known as the\nconfiguration space, and the product $P \\times{\\mathbbm{R}}$ is known as\nstate space.",
+  "language": "INFORMAL",
+  "phrase": "Hamilton Equations",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HamiltonEquations"
+    }
+  ],
+  "indexable": true
+}

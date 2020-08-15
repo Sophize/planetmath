@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\Gamma$ be a Lie group acting on a vector space $V$ and let the\nsystem of ordinary differential equations\n$$\\dot{\\mathbf{x}} + g(\\mathbf{x},\\lambda)=0$$ where\n$g\\colon\\mathbb{R}^n \\times \\mathbb{R} \\to \\mathbb{R}^n$ is smooth. Then\n$g$ is called a *bifurcation problem with symmetry group* $\\Gamma$ if\n$g\\in \\vec{\\mathcal{E}}_{x,\\lambda}(\\Gamma)$ *(where\n$\\vec{\\mathcal{E}}(\\Gamma)$ is the space of $\\Gamma$-equivariant germs,\nat the origin, of $C^\\infty$ mappings of $V$ into $V$)* satisfying\n$$g(0,0)=0$$ and $$(dg)_{0,0} = 0$$ where $(dg)_{0,0}$ denotes the\nJacobian Matrix evaluated at $(0,0)$. [@1]\n\n[1]{} Golubitsky, Martin. Stewart, Ian. Schaeffer, G. David.:\nSingularities and Groups in Bifurcation Theory *(Volume II)*.\nSpringer-Verlag, New York, 1988.",
+  "language": "INFORMAL",
+  "phrase": "Bifurcation Problem With Symmetry Group",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BifurcationProblemWithSymmetryGroup"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "equivalence class of groupoid representations"
+  ],
+  "definition": "Two representations of groupoids\n$(\\mu_i, U_{{{\\mathsf{G}}}} * {\\mathcal H}, L_i)$ , for $i=1,2$ are\ncalled *equivalent* if $\\mu_1 \\sim \\mu_2$, and if there also exists a\nfiber-preserving isomorphism of analytical Hilbert space bundles\n$v: (U_{{{\\mathsf{G}}}}* {\\mathcal H}_1)|_U \\longrightarrow (U_{{{\\mathsf{G}}}}* {\\mathcal H}_2)|_U$\n, where $U$ is a measurable subset of $U_{{{\\mathsf{G}}}}$ of null\ncomplementarity; the isomorphism $v$ also has the following property:\n$\\hat{v}[r(x)]\\hat{L}_1(x) = \\hat{L}_2 \\hat{v}[d(x)]$ for\n$x \\in {{\\mathsf{G}}}|_U $.",
+  "language": "INFORMAL",
+  "phrase": "Equivalent Representations Of Groupoids",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EquivalentRepresentationsOfGroupoids"
+    }
+  ],
+  "indexable": true
+}

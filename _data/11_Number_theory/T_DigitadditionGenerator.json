@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "digit addition generator",
+    "digit-addition generator"
+  ],
+  "definition": "Given an integer $m$ consisting of $k$ digits $d_x$ in base $b$, it\nfollows that $$m + \\sum_{i = 0}^{k - 1} d_{i + 1}b^i = n$$, another\ninteger. Then $m$ is said to be the [*digitaddition generator*]{} of\n$n$.\n\nIn a randomly chosen range of $2b$ consecutive integers, most will have\na digitaddition generator and one or two might have none (such integers\nare called self numbers). If the range falls near a multiple of $b^2$,\nit might contain a few numbers with two digitaddition generators. If the\nrange includes $0 < n < b$ and $2|b$, the $n \\not\\vert 2$ will lack\ndigitaddition generators.",
+  "language": "INFORMAL",
+  "phrase": "Digitaddition Generator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DigitadditionGenerator"
+    }
+  ],
+  "indexable": true
+}

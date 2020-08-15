@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a sheaf $\\mathcal F$ on a topological space $X$ and a pair\n$(\\mathcal F^\\bullet, d^\\bullet)$ where\n$\\mathcal F^\\bullet = \\{\\mathcal F^q\\}_{q\\in\\mathbb N}$ is a family of\nsheaves on $X$ and $d^\\bullet=\\{d^q\\}_{q\\in\\mathbb N}$ is a family of\nsheaf morphisms $$d^q\\colon\\mathcal F^q\\to\\mathcal F^{q+1},$$ we say\nthat $(\\mathcal F^\\bullet, d^\\bullet)$ is a *resolution* of $\\mathcal F$\nif there exists an injection $j\\colon\\mathcal F\\to\\mathcal F^0$ such\nthat the sequence\n$$0\\to\\mathcal F\\overset{j}\\to\\mathcal F^0\\overset{d^0}\\to\\mathcal F^1\\overset{d_1}\\to\\cdots\\to\\mathcal F^q\\to\\dots$$\nis exact.",
+  "language": "INFORMAL",
+  "phrase": "Resolution Of A Sheaf",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ResolutionOfASheaf"
+    }
+  ],
+  "indexable": true
+}

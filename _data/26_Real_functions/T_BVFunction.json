@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "function of bounded variation"
+  ],
+  "definition": "Functions of bounded variation, $BV$ functions, are functions whose\ndistributional derivative is a finite Radon measure. More precisely:\n\nLet $\\Omega\\subset {\\mathbb R}^n$ be an open set. We say that a function\n$u\\in L^1(\\Omega)$ has *bounded variation*, and write $u\\in BV(\\Omega)$,\nif there exists a finite Radon vector measure\n$Du\\in\\mathcal M(\\Omega,{\\mathbb R}^n)$ such that\n$$\\int_\\Omega u(x)\\,\\mathrm{div}\\phi(x)\\, dx = - \\int_\\Omega \\langle \\phi(x), Du(x)\\rangle$$\nfor every function $\\phi\\in C_c^1(\\Omega,{\\mathbb R}^n)$. The measure\n$Du$, represents the distributional derivative of $u$ since the above\nequality holds true for every\n$\\phi\\in C^\\infty_c(\\Omega,{\\mathbb R}^n)$.\n\nNotice that $W^{1,1}(\\Omega)\\subset BV(\\Omega)$. In fact if\n$u\\in W^{1,1}(\\Omega)$ one can choose $\\mu:=\\nabla u\\mathcal L$ (where\n$\\mathcal L$ is the Lebesgue measure on $\\Omega$). The equality\n$\\int u\\mathrm{div \\phi} = -\\int \\phi\\, d\\mu\n= -\\int \\phi \\nabla u$ is nothing else than the definition of weak\nderivative, and hence holds true. One can easily find an example of a\n$BV$ functions which is not $W^{1,1}$.\n\nAn equivalent definition can be given as follows.\n\nGiven $u\\in L^1(\\Omega)$ we define the *variation* of $u$ in $\\Omega$ as\n$$V(u,\\Omega):=\\sup\\{\\int_\\Omega u\\mathrm{div}\\phi\\colon \\phi\\in\\mathcal C_c^1(\\Omega,{\\mathbb R}^n),\\ \\Vert \\phi\\Vert_{L^\\infty(\\Omega)}\\le 1\\}.$$\nWe define $BV(\\Omega)=\\{ u\\in L^1(\\Omega)\\colon V(u,\\Omega)<+\\infty\\}$.\n\n.",
+  "language": "INFORMAL",
+  "phrase": "Bv Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BVFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Does there exist a subset $S$ of a ring $R$ which is a ring with a\nmultiplicative identity, but not a subring of $R$?\n\nLet $R$ be a ring without the assumption that $R$ has a multiplicative\nidentity. Further, assume that $e$ is an idempotent of $R$. Then the\nsubset of the form $eRe$ is called a *corner* of the ring $R$.\n\nIt\u2019s not hard to see that $eRe$ is a ring with $e$ as its multiplicative\nidentity:\n\n1.  $eae+ebe=e(a+b)e\\in eRe$,\n\n2.  $0=e0e\\in eRe$,\n\n3.  $e(-a)e$ is the additive inverse of $eae$ in $eRe$,\n\n4.  $(eae)(ebe)=e(aeb)e\\in eRe$, and\n\n5.  $e=ee=eee\\in eRe$, with $e(eae)=eae=(eae)e$, for any $eae\\in eRe$.\n\nIf $R$ has no multiplicative identity, then any corner of $R$ is a\nproper subset of $R$ which is a ring and not a subring of $R$. If $R$\nhas 1 as its multiplicative identity and if $e\\neq 1$ is an idempotent,\nthen the $eRe$ is not a subring of $R$ as they don\u2019t share the same\nmultiplicative identity. In this case, the corner $eRe$ is said to be\n*proper*. If we set $f=1-e$, then $fRf$ is also a proper corner of $R$.\n\n**Remark.** If $R$ has 1 with $e\\neq 1$ an idempotent. Then corners\n$S=eRe$ and $T=fRf$, where $f=1-e$, are direct summands (as modules over\n$\\mathbb{Z}$) of $R$ via a Peirce decomposition.\n\n[9]{} I. Kaplansky, *Rings of Operators*, W. A. Benjamin, Inc., New\nYork, 1968.",
+  "language": "INFORMAL",
+  "phrase": "Corner Of A Ring",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CornerOfARing"
+    }
+  ],
+  "indexable": true
+}

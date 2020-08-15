@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The hyperbolic functions $\\sinh$ ([*sinus hyperbolicus*]{}) and $\\cosh$\n([*cosinus hyperbolicus*]{}) with arbitrary complex argument $x$ are\ndefined as follows: $$\\begin{aligned}\n\\sinh x&:=&\\frac{e^x-e^{-x}}{2},\\\\\n\\cosh x&:=&\\frac{e^x+e^{-x}}{2}.\\end{aligned}$$ One can then also also\ndefine the functions $\\tanh$ ([*tangens hyperbolica*]{}) and $\\coth$\n([*cotangens hyperbolica*]{}) in analogy to the definitions of $\\tan$\nand $\\cot$: $$\\begin{aligned}\n\\tanh x&:=&\\frac{\\sinh x}{\\cosh x}=\\frac{e^x-e^{-x}}{e^x+e^{-x}},\\\\\n\\coth x&:=&\\frac{\\cosh x}{\\sinh x}=\\frac{e^x+e^{-x}}{e^x-e^{-x}}.\\end{aligned}$$\nWe further define the ${\\operatorname{sech}}$ and\n${\\operatorname{csch}}$: $$\\begin{aligned}\n{\\operatorname{sech}}x&:=&\\frac{1}{\\cosh x}=\\frac{2}{e^x+e^{-x}},\\\\\n{\\operatorname{csch}}x&:=&\\frac{1}{\\sinh x}=\\frac{2}{e^x-e^{-x}},\\end{aligned}$$\nwhere $\\cosh x$ resp. $\\sinh x$ is not $0$.\n\n![Graphs of the hyperbolic\nfunctions.[]{data-label=\"fig:graphs\"}](hyperbolic.ps)\n\nThe hyperbolic functions are named in that way because the hyperbola\n$$\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$$ can be written in parametrical\nform with the equations: $$x=a\\cosh t,\\quad y=b\\sinh t.$$ This is\nbecause of the equation $$\\cosh^2 x-\\sinh^2 x=1.$$ There are also\naddition formulas which are like the ones for trigonometric functions:\n$$\\begin{aligned}\n\\sinh (x\\pm y)&=&\\sinh x\\cosh y\\pm\\cosh x\\sinh y\\\\\n\\cosh (x\\pm y)&=&\\cosh x\\cosh y\\pm\\sinh x\\sinh y.\\end{aligned}$$ The\nTaylor series for the hyperbolic functions are: $$\\begin{aligned}\n\\sinh x&=&\\sum_{n=0}^{\\infty}\\frac{x^{2n+1}}{(2n+1)!}\\\\\n\\cosh x&=&\\sum_{n=0}^{\\infty}\\frac{x^{2n}}{(2n)!}.\\end{aligned}$$ There\nare the following between the hyperbolic and the trigonometric\nfunctions: $$\\begin{aligned}\n\\sin x&=&\\frac{\\sinh (ix)}{i}\\\\\n\\cos x&=&\\cosh (ix).\\end{aligned}$$",
+  "language": "INFORMAL",
+  "phrase": "Hyperbolic Functions",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HyperbolicFunctions"
+    }
+  ],
+  "indexable": true
+}

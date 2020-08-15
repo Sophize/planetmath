@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "noncommutative",
+    "nonabelian",
+    "non-Abelian"
+  ],
+  "definition": "Let $(C,\\circ)$ be a structure consisting of a *class*, $C$, together\nwith a *binary operation* $\\circ$ defined for pairs of objects in $C$\n(or elements of $C$ when the latter is a small class, i.e., a set). The\nstructure\u2013 and the operation $\\circ$\u2013 are said to be *noncommutative* if\n\n$$\\begin{aligned}\na \\circ b \\neq b \\circ a\\end{aligned}$$\n\nfor either at least some or all of the $a,b$ pairs in $C$ for which the\noperation is defined.\n\nA structure that is noncommutative is also called sometimes a\n*non-Abelian structure*, although the latter term is, in general, more\noften used to specify .\\\nA binary operation that is not is said to be *non-commutative* (or\n*noncommutative*). Thus, a *noncommutative structure* can be\nalternatively defined as any structure whose binary operation is not\n(that is, in the case one has\n\n$$\\begin{aligned}\na \\circ b = b \\circ a\\end{aligned}$$\n\nfor all $a,b$ pairs in $C$, and also that the operation $\\circ$ is\ndefined for all pairs in $C$).\n\nAn example of a commutative structure is the field of real numbers\u2013 with\ntwo commutative operations in this case\u2013 which are the addition and\nmultiplication over the reals.\n\nA commutative group is also called *Abelian*, whereas a category with\nstructure that has commutative diagrams is not necessarily Abelian\n\u2013unless it does satisfy the Ab1 to Ab6 axioms that define an Abelian\ncategory (or equivalently, if it has the properties specified in\nMitchell\u2019s .)\n\nAn example of a non-commutative operation is the multiplication over\n$n \\times n$ matrices. Another example of a *noncommutative algebra* is\na general , which is of fundamental importance in the algebraic theory\nof observable quantum operators and also in quantum algebraic topology.",
+  "language": "INFORMAL",
+  "phrase": "Non-Commutative Structure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NoncommutativeStructure"
+    }
+  ],
+  "indexable": true
+}

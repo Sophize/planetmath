@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "kernel of a group homomorphism"
+  ],
+  "definition": "Let $\\rho :G\\to K$ be a group homomorphism. The preimage of the codomain\nidentity element $e_K\\in K$ forms a subgroup of the domain $G$, called\nthe *kernel* of the homomorphism;\n$$\\operatorname{ker}(\\rho)= \\{ s \\in G\\mid\\rho   (s)=e_K\\}$$\n\nThe kernel is a normal subgroup. It is the trivial subgroup if and only\nif $\\rho$ is a monomorphism.",
+  "language": "INFORMAL",
+  "phrase": "Kernel",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Kernel"
+    }
+  ],
+  "indexable": true
+}

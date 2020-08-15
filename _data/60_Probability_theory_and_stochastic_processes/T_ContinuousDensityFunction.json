@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "mass function"
+  ],
+  "definition": "Let $X$ be a continuous random variable. The function\n$f_X\\colon\\mathbb{R} \\to [0,1]$ defined as\n$ f_X(x) = \\frac{\\partial F_X}{\\partial x} $, where $ F_X(x)$ is the of\n$X$, is called the *continuous density function* of $X$. Please note\nthat if $X$ is a continuous random variable, then $f_X(x)$ does not\nequal $P[X=x]$; for more information read the article on cumulative\ndistribution functions.\n\nAnalogously to the discrete case, this function must satisfy:\n\n1.  $f_X(x) \\geq 0$ for all $x$\n\n2.  $\\int_{x}^{} {f_X(x) dx} = 1$",
+  "language": "INFORMAL",
+  "phrase": "Continuous Density Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ContinuousDensityFunction"
+    }
+  ],
+  "indexable": true
+}

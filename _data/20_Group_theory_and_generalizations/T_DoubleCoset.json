@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $H$ and $K$ be subgroups of a group $G$. An *$(H,K)$-double coset*\nis a set of the form $HxK$ for some $x\\in G$. Here $HxK$ is defined in\nthe obvious way as $$HxK = \\{ hxk \\mid h\\in H \\hbox{ and } k\\in K \\}.$$\n\nNote that the $(H,\\{1\\})$-double cosets are just the right cosets of\n$H$, and the $(\\{1\\},K)$-double cosets are just the left cosets of $K$.\nIn general, every $(H,K)$-double coset is a union of right cosets of\n$H$, and also a union of left cosets of $K$.\n\nThe set of all $(H,K)$-double cosets is denoted $H\\backslash G/K$. It is\nstraightforward to show that $H\\backslash G/K$ is a of $G$, that is,\nevery element of $G$ lies in exactly one $(H,K)$-double coset.\n\nIn contrast to the situation with ordinary , the $(H,K)$-double cosets\nneed not all be of the same cardinality. For example, if $G$ is the\n$S_3$, and $H=\\genby{(1,2)}$ and $K=\\genby{(1,3)}$, then the two\n$(H,K)$-double cosets are $\\{e,(1,2),(1,3),(1,3,2)\\}$ and\n$\\{(2,3),(1,2,3)\\}$.",
+  "language": "INFORMAL",
+  "phrase": "Double Coset",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DoubleCoset"
+    }
+  ],
+  "indexable": true
+}

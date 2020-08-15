@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "AR"
+  ],
+  "definition": "The [*autoregressive model*]{} of order $p$, denoted [*AR*]{}($p$), is a\nrandom process model described by\n$$y_{t} = \\sum_{i=1}^{p} a_{i} y_{t-i} + c + e_{t}, \\qquad t = 1, 2,\\ldots$$\nwhere $a_i$ are model parameters, $y_{t}$ is the model output in\ndiscrete time instant $t$. Term $c$ is an absolute term (constant) and\n$e_{t}$ denotes discrete white noise.\n\nA first-order autoregression model [*AR*]{}(1) in the form\n$y_{t} = a y_{t-1} + c +e _{t}$ is one major example.",
+  "language": "INFORMAL",
+  "phrase": "Autoregressive Model",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AutoregressiveModel"
+    }
+  ],
+  "indexable": true
+}

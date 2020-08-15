@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $A$ be a set of natural numbers. Let $R_n(A)$ be the number of ways\nto represent $n$ as a sum of two elements in $A$, that is,\n$$R_n(A)=\\sum_{\\substack{a_i+a_j=n\\\\a_i,a_j \\in A}} 1.$$\n\nErd\u0151s-Fuchs theorem\n[@cite:erdos_fuchs_lowbnd; @cite:halberstam_sequences] states that if\n$c>0$, then $$\\label{erdfcheq}\n\\sum_{n \\leq N} R_n(A)=c N + o\\left(N^{\\frac{1}{4}}\\log^{-\\frac{1}{2}}N\\right)$$\ncannot hold.\n\nOn the other hand, Ruzsa [@cite:ruzsa_upperdfch] constructed a set for\nwhich\n$$\\sum_{n \\leq N} R_n(A)=c N + O\\left(N^{\\frac{1}{4}}\\log N\\right).$$\n\nMontgomery and Vaughan [@cite:montgomery_vaughan_fch] improved on the\noriginal Erd\u0151s-Fuchs theorem by showing that for every $c>0$\n$$\\max_{N\\leq M}\\left\\lvert \\sum_{n \\leq N} R_n(A)-c n\\right\\rvert=\n\\Omega\\left(M^{\\frac{1}{4}}\\log^{-\\frac{1}{4}}M\\right)$$ holds. In\n[@cite:montgomery_vaughan_fch] a result of Jurkat is cited which\nappeared in the Ph.\u00a0D. thesis of Hayashi [@cite:hayashi_fch] which\nimproves $N^{\\frac{1}{4}}\\log^{-\\frac{1}{2}}N$ in to $N^{\\frac{1}{4}}$.\n\n[1]{}\n\nPaul Erd\u0151s and Wolfgang\u00a0H.J. Fuchs. On a problem of additive number\ntheory. , 31:67\u201373, 1956. .\n\nHeini Halberstam and Klaus\u00a0Friedrich Roth. . Springer-Verlag, second\nedition, 1983. .\n\nE.\u00a0K. Hayashi. . PhD thesis, University of Illinois at Urbana-Champaign,\n1973.\n\nH.\u00a0L. Montgomery and R.\u00a0C. Vaughan. On the [E]{}rd[\u0151]{}s-[F]{}uchs\ntheorems. In [*A tribute to Paul Erd\u0151s*]{}, pages 331\u2013338. Cambridge\nUniv. Press, Cambridge, 1990. .\n\nImre Ruzsa. A converse to a theorem of [E]{}rd[\u0151]{}s and [F]{}uchs. ,\n62(2):397\u2013402, 1997. .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ErdHosFuchsTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Erd\\H{o}s-Fuchs theorem"
+  ]
+}

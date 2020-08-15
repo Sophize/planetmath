@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\mathscr{H}$ be a Hilbert space and let\n$T: \\mathscr{D}(T)\\subset \\mathscr{H}\\longrightarrow \\mathscr{H}$ be a\ndensely defined linear operator.\n\n[**Theorem -** ]{} If $T$ is then its adjoint $T^*$ is everywhere\ndefined and is also bounded.\n\n[**Proof :**]{} Since $T$ is densely defined and bounded, it extends\nuniquely to a bounded (everywhere defined) linear operator on\n$\\mathscr{H}$, which we denote by $\\widetilde{T}$.\n\nFor each $z \\in \\mathscr{H}$, the function\n$f: \\mathscr{H} \\longrightarrow \\mathbb{C}$ defined by\n$f(x)=\\langle \\widetilde{T}x, z\\rangle$ defines a bounded linear\nfunctional on $\\mathscr{H}$. By the Riesz representation theorem there\nexists $u \\in \\mathscr{H}$ such that\n\n$$f(x) = \\langle x, u \\rangle$$\n\ni.e.\n\n$$\\langle \\widetilde{T}x, z\\rangle = \\langle x, u \\rangle .$$\n\nSince $\\widetilde{T}$ extends $T$, we also have that for every\n$z \\in \\mathscr{H}$ there exists $u \\in \\mathscr{H}$ such that\n\n$$\\langle Tx, z\\rangle = \\langle x, u\\rangle \\;\\;\\text{for every}\\; x \\in \\mathscr{D}(T) .$$\n\nWe conclude that $T^*$ is everywhere defined. To see that it is bounded\none just needs to check that\n\n$$\\sup_{z\\neq 0} \\frac{\\|T^*z\\|}{\\|z\\|} = \\sup_{\\substack{z\\neq 0 \\\\ T^*z \\neq 0}}\\; \\frac{|\\langle T^*z, T^*z \\rangle |}{\\|T^*z\\| \\|z\\|} \\leq \\sup_{\\substack{z \\neq  0 \\\\ x \\neq 0}}\\; \\frac{|\\langle x, T^*z \\rangle |}{\\|x\\| \\|z\\|} =\n\\sup_{\\substack{z \\neq  0 \\\\ x \\neq 0}}\\; \\frac{|\\langle Tx, z \\rangle |}{\\|x\\| \\|z\\|} \\leq \\|T\\|$$\n\nwhere the last inequality comes from the Cauchy-Schwarz inequality and\nthe fact that $T$ is bounded. $\\square$\n\n[**Remark -**]{} This theorem shows in particular that bounded linear\noperators $T : \\mathscr{H} \\longrightarrow \\mathscr{H}$ have bounded\nadjoints $T^* : \\mathscr{H} \\longrightarrow \\mathscr{H}$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ExistenceOfAdjointsOfBoundedOperators"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "existence of adjoints of bounded operators",
+    "bounded operators have (bounded) adjoints"
+  ]
+}

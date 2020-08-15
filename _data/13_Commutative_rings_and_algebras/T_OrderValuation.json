@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "additive valuation"
+  ],
+  "definition": "Given a Krull valuation $|.|$ of a field $K$ as a mapping of $K$ to an\nordered group $G$ (with operation \u201c$\\cdot$\u201d) equipped with $0$, one may\nuse for the an alternative notation \u201cord\u201d:\n\nThe \u201c$<$\u201d of $G$ is reversed and the operation of $G$ is denoted by\n\u201c$+$\u201d. The element $0$ of $G$ is denoted as $\\infty$, thus $\\infty$ is\ngreater than any other element of $G$. When we still call the valuation\nthe [*order*]{} of $K$ and instead of $|x|$ write $\\mathrm{ord}\\,x$, the\nvaluation postulates read as follows.\n\n1.  $\\mathrm{ord}\\,x \\,=\\, \\infty$ iff $x = 0$;\n\n2.  $\\mathrm{ord}\\,xy \\,=\\, \\mathrm{ord}\\,x+\\mathrm{ord}\\,y$;\n\n3.  $\\mathrm{ord}(x+y) \\,\\geqq\\, \\min\\{\\mathrm{ord}\\,x,\\,\\mathrm{ord}\\,y\\}$.\n\nWe must emphasize that the order valuation is nothing else than a Krull\nvaluation. The name [*order*]{} comes from complex analysis, where the\n\u201cplaces\u201d and of a meromorphic function with their orders have a fully\nanalogous meaning as have the corresponding concepts and order valuation\nin the valuation theory. Thus also a place $\\varphi$ of a field is\ncalled a [*zero*]{} of an element $a$ of the field, if $\\varphi(a) = 0$,\nand a [*pole*]{} of an element $b$ of the field, if\n$\\varphi(b) = \\infty$; then e.g. the equation $\\varphi(a) = 0$ implies\nalways that $\\mathrm{ord}\\,a > 0$.\\\n**Example.** Let $p$ be a given positive prime number. Any non-zero\nrational number $x$ can be uniquely expressed in the form $$x = p^nu,$$\nin which $n$ is an integer and the rational number $u$ is by $p$\nindivisible, i.e. when reduced to lowest terms, $p$ divides neither its\nnumerator nor its denominator. If we define $$\\begin{aligned}\n\\mathrm{ord}_px \\;=\\; \n\\begin{cases}\n\\infty\\,\\,\\, \\mathrm{for}\\,\\,\\, x = 0,\\\\\n n\\,\\,\\, \\mathrm{for}\\,\\,\\, x = p^nu \\neq 0,\n\\end{cases}\\end{aligned}$$ then the function $\\mathrm{ord}_p$, defined\nin $\\mathbb{Q}$, clearly satisfies the above postulates of the order\nvaluation.\n\nIn \\[2\\], an order valuation having only integer values is called the\n[*exponent of the field*]{} ([*der Exponent des K\u00f6rpers*]{}); this name\napparently motivated by the exponent $n$ of $p$. Such an order valuation\nis a special case of the discrete valuation. Note, that an arbitrary\norder valuation need not be a discrete valuation, since the values need\nnot be real numbers.\n\n[9]{} : [*Theory of Algebraic Numbers*]{}. Lecture notes. Mathematisches\nInstitut, G\u00f6ttingen (1959). : [*Zahlentheorie*]{}. Birkh\u00e4user Verlag.\nBasel und Stuttgart (1966).",
+  "language": "INFORMAL",
+  "phrase": "Order Valuation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OrderValuation"
+    }
+  ],
+  "indexable": true
+}

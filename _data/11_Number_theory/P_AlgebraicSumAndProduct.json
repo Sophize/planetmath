@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\alpha,\\,\\beta$ be two elements of an extension field of a given\nfield $K$. Both these elements are algebraic over $K$ if and only if\nboth $\\alpha\\!+\\!\\beta$ and $\\alpha\\beta$ are algebraic over $K$.\n\n[*Proof.*]{} Assume first that $\\alpha$ and $\\beta$ are algebraic.\nBecause\n$$[K(\\alpha,\\,\\beta):K] = [K(\\alpha,\\,\\beta):K(\\alpha)]\\,[K(\\alpha):K]$$\nand both here are , then $[K(\\alpha,\\,\\beta):K]$ is finite. So we have a\nfinite field extension $K(\\alpha,\\,\\beta)/K$ which thus is also\nalgebraic, and therefore the elements $\\alpha\\!+\\!\\beta$ and\n$\\alpha\\beta$ of $K(\\alpha,\\,\\beta)$ are algebraic over $K$. Secondly\nsuppose that $\\alpha\\!+\\!\\beta$ and $\\alpha\\beta$ are algebraic over\n$K$. The elements $\\alpha$ and $\\beta$ are the roots of the quadratic\nequation $x^2-(\\alpha\\!+\\!\\beta)x+\\alpha\\beta = 0$ (cf. properties of\nquadratic equation) with the coefficients in\n$K(\\alpha\\!+\\!\\beta,\\,\\alpha\\beta)$. Thus $$[K(\\alpha,\\,\\beta):K] = \n[K(\\alpha,\\,\\beta):K(\\alpha\\!+\\!\\beta,\\,\\alpha\\beta)]\\,\n[K(\\alpha\\!+\\!\\beta,\\,\\alpha\\beta):K] \\leqq 2 \n[K(\\alpha\\!+\\!\\beta,\\,\\alpha\\beta):K].$$ Since\n$[K(\\alpha\\!+\\!\\beta,\\,\\alpha\\beta):K]$ is finite, then also\n$[K(\\alpha,\\,\\beta):K]$ is, and in the $K(\\alpha,\\,\\beta)/K$ the\nelements $\\alpha$ and $\\beta$ must be algebraic over $K$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraicSumAndProduct"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "algebraic sum and product",
+    "sum and product algebraic"
+  ]
+}

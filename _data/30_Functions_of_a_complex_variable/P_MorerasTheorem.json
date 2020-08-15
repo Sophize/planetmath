@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Morera\u2019s theorem provides the converse of Cauchy\u2019s integral theorem.\n\n[**Theorem**]{} [@rudin_real] Suppose $G$ is a region in ${\\mathbb{C}}$,\nand $f:G\\to {\\mathbb{C}}$ is a continuous function. If for every closed\ntriangle $\\Delta$ in $G$, we have $$\\int_{\\partial \\Delta} f\\, dz = 0,$$\nthen $f$ is analytic on $G$. (Here, $\\partial \\Delta$ is the piecewise\nlinear of $\\Delta$.)\n\nIn particular, if for every rectifiable closed curve $\\Gamma$ in $G$, we\nhave $\\int_{\\Gamma} f\\, dz = 0,$ then $f$ is analytic on $G$. Proofs of\nthis can be found most undergraduate books on complex analysis\n[@kreyszig93; @silverman].\n\n[9]{} W. Rudin, *Real and complex analysis*, 3rd ed., McGraw-Hill Inc.,\n1987. E. Kreyszig, *Advanced Engineering Mathematics*, John Wiley &\nSons, 1993, 7th ed. R.A. Silverman, *Introductory Complex Analysis*,\nDover Publications, 1972.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MorerasTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Morera's theorem"
+  ]
+}

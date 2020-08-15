@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given a topological space $X$, the [*cone on $X$*]{} (sometimes denoted\nby $CX$) is the quotient space\n$X{\\times}[0,1]/X{\\times}{\\left\\{0\\right\\}}.$ Note that there is a\nnatural inclusion $X\\hookrightarrow CX$ which sends $x$ to $(x,1).$\n\nIf $(X,x_0)$ is a based topological space, there is a similar [*reduced\ncone*]{} construction, given by\n$X{\\times}[0,1] / (X{\\times}{\\left\\{0\\right\\}})\\cup({\\left\\{x_0\\right\\}}{\\times}[0,1]).$\nWith this definition, the natural inclusion $x\\mapsto (x,1)$ becomes a\nbased map, where we take $(x_0,0)$ to be the basepoint of the reduced\ncone.",
+  "language": "INFORMAL",
+  "phrase": "Cone",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Cone"
+    }
+  ],
+  "indexable": true
+}

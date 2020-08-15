@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Oseledets multiplicative ergodic theorem, or Oseledets decomposition,\nconsiderably extends the results of Furstenberg-Kesten theorem, under\nthe same conditions.\n\nConsider $\\mu$ a probability measure, and $f:M\\rightarrow M$ a measure\npreserving dynamical system. Consider $A:M\\rightarrow GL(d,\\textbf{R})$,\na measurable transformation, where GL(d,**R**) is the space of\ninvertible square matrices of size $d$. Consider the multiplicative\ncocycle $(\\phi^n(x))_n$ defined by the transformation $A$, and assume\n$\\log^+||A||$ and $\\log^+||A^{-1}||$ are integrable.\n\nThen, $\\mu$ almost everywhere $x \\in M$, one can find a natural number\n$k=k(x)$ and real numbers $\\lambda_1(x)> \\cdots > \\lambda_k(x)$ and a\nfiltration $$\\textbf{R}^d=V_x^1 > \\cdots > V_x^k > V_x^{k+1} = \\{0\\}$$\nsuch that, for $\\mu$ almost everywhere and for all\n$i \\in \\{1,\\dots, k\\}$\n\n1.  $k(f(x))=k(x)$ and $\\lambda_i(f(x))=\\lambda_i(x)$ and\n    $A(x) \\cdot V_x^i=V_{f(x)}^i$;\n\n2.  $\\lim_n \\frac{1}{n} \\log ||\\phi^n(x)v||=\\lambda_i(x)$ for all\n    $v \\in V_x^i \\backslash V_x^{i+1}$;\n\n3.  $\\lim_n \\frac{1}{n} \\log |\\det \\phi^n(x)|=\\sum_{i=1}^k d_i(x)\\lambda_i(x)$\n    where $d_i(x)=\\dim V_x^i-\\dim V_x^{i+1}$\n\nFurthermore, the numbers $k_i(x)$ and the subspaces $V_x^i$ depend\nmeasurably on the point $x$.\n\nThe numbers $\\lambda_i(x)$ are called *Lyapunov exponents* of $A$\nrelatively to $f$ at the point $x$. Each number $d_i(x)$ is called the\n*multiplicity* of the Lyapunov exponent $\\lambda_i(x)$. We also have\nthat $\\lambda_1=\\lambda_{\\max}$ and $\\lambda_k=\\lambda_{\\min}$, where\n$\\lambda_{max}$ and $\\lambda_{\\min}$ are as given by Furstenberg-Kesten\ntheorem.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/OseledetsMultiplicativeErgodicTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Oseledets multiplicative ergodic theorem",
+    "Oseledets decomposition"
+  ]
+}

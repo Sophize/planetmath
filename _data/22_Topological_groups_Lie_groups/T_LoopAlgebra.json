@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\mathfrak{g}$ be a Lie algebra over a field $\\mathbb{K}$. The\n**loop algebra** based on $\\mathfrak{g}$ is defined to be\n$\\mathcal{L}(\\mathfrak{g}) := \\mathfrak{g} \\otimes_{\\mathbb{K}} \\mathbb{K}[t, t^{-1}]$\nas a vector space over $\\mathbb{K}$. The Lie bracket is determined by\n\n$$\\left[ X \\otimes t^k, Y \\otimes t^l \\right] = \\left[ X, Y \\right]_{\\mathfrak{g}} \\otimes t^{k+l}$$\n\nwhere $\\left[\\,,\\,\\right]_{\\mathfrak{g}}$ denotes the Lie bracket from\n$\\mathfrak{g}$.\n\nThis clearly determines a Lie bracket. For instance the three term sum\nin the Jacobi identity (for elements which are homogeneous in $t$)\nsimplifies to the three term sum for the Jacobi identity in\n$\\mathfrak{g}$ tensored with a power of $t$ and thus is zero in\n$\\mathcal{L}(\\mathfrak{g})$.\n\nThe name \u201cloop algebra\u201d comes from the fact that this Lie algebra arises\nin the study of Lie algebras of loop groups. For the time being, assume\nthat $\\mathbb{K}$ is the real or complex numbers so that the familiar\nstructures of analysis and topology are available. Consider the set of\nall mappings from the circle $S^1$ (we may think of this circle more\nconcretely as the unit circle of the complex plane) to a\nfinite-dimensional Lie group $G$ with Lie algebra is $\\mathfrak{g}$. We\nmay make this set into a group by defining multiplication pointwise:\ngiven $a, b \\colon S^1 \\to G$, we define $(a \\cdot b)(x) = a(x) \n\\cdot b(x)$.\n\n[1]{} Victor Kac, *Infinite Dimensional Lie Algebras*, Third edition.\nCambridge University Press, Cambridge, 1990.",
+  "language": "INFORMAL",
+  "phrase": "Loop Algebra",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LoopAlgebra"
+    }
+  ],
+  "indexable": true
+}

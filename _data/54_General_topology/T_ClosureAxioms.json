@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "Kuratowski's closure axioms",
+    "Kuratowski closure axioms"
+  ],
+  "definition": "A *closure operator* on a set $X$ is an operator which assigns a set\n$A^c$ to each subset $A$ of $X$, and such that the following\n(Kuratowski\u2019s closure axioms) hold for any subsets $A$ and $B$ of $X$:\n\n1.  $\\emptyset^c = \\emptyset$;\n\n2.  $A\\subset A^c$;\n\n3.  $(A^c)^c = A^c$;\n\n4.  $(A\\cup B)^c = A^c\\cup B^c.$\n\nThe following theorem due to Kuratowski says that a closure operator\ncharacterizes a unique topology on $X$:\n\n**Theorem.** Let $c$ be a closure operator on $X$, and let\n$\\mathcal{T} = \\{X-A: A\\subseteq X,\\; A^c=A\\}$. Then $\\mathcal{T}$ is a\ntopology on $X$, and $A^c$ is the $\\mathcal{T}$-closure of $A$ for each\nsubset $A$ of $X$.",
+  "language": "INFORMAL",
+  "phrase": "Closure Axioms",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ClosureAxioms"
+    }
+  ],
+  "indexable": true
+}

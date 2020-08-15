@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** If the [*double series*]{} $$\\begin{aligned}\n\\sum_{m=1}^\\infty\\sum_{n=1}^\\infty a_{mn} =\n  \\sum_{n=1}^\\infty a_{1n}+\\sum_{n=1}^\\infty a_{2n}+\\sum_{n=1}^\\infty a_{3n}\n+\\ldots\\end{aligned}$$ converges and if it remains convergent when the\nof the partial series are replaced with their absolute values, i.e. if\nthe series $$\\begin{aligned}\n\\sum_{n=1}^\\infty|a_{1n}|+\\sum_{n=1}^\\infty|a_{2n}|+\\sum_{n=1}^\\infty|a_{3n}|\n+\\ldots\\end{aligned}$$ has a finite sum $M$, then the addition in (1)\ncan be performed in reverse , i.e.\n$$\\sum_{m=1}^\\infty\\sum_{n=1}^\\infty a_{mn} = \\sum_{n=1}^\\infty\\sum_{m=1}^\\infty a_{mn} =\n  \\sum_{m=1}^\\infty a_{m1}+\\sum_{m=1}^\\infty a_{m2}+\\sum_{m=1}^\\infty a_{m3}\n+\\ldots$$\n\n[*Proof.*]{} The assumption on (2) implies that the sum of an arbitrary\nfinite amount of the numbers $|a_{mn}|$ is always\u00a0$\\leqq M$. This means\nthat (1) is absolutely convergent, and thus the order of summing is\ninsignificant.\n\n**Note.** The series satisfying the assumptions of the theorem is often\ndenoted by $$\\sum_{m,n=1}^\\infty a_{mn}$$ and this may by interpreted to\nan arbitrary summing . One can use e.g. the [*diagonal summing*]{}:\n$$a_{11}+a_{12}+a_{21}+a_{13}+a_{22}+a_{31}+\\ldots$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DoubleSeries"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "double series",
+    "double series theorem"
+  ]
+}

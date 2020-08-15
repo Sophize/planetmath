@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "WOLOG",
+    "without loss of generality"
+  ],
+  "definition": "\u201cWLOG\u201d (or \u201cWOLOG\u201d) is an acronym which stands for \u201cwithout loss of\ngenerality.\u201d\n\nWLOG is invoked in situations where some property of a model or system\nis invariant under the particular choice of instance attributes, but for\nthe sake of demonstration, these attributes must be fixed.\n\nFor example, we might want to prove something about open intervals\n$(a, b)$ of the real number line. But the proof might become too tedious\nif $a$ and $b$ were arbitrary real numbers, so in the proof we simply\nassume that $a = 0$ and $b = 1$, and *without loss of generality*, the\nsame arguments apply to general intervals $(a, b)$. Depending on the\nproof, the loss of generality might be accomplished by translating and\nscaling the interval to $(0,1)$ *before* carrying out the argument, and\nthen translating and rescaling back to $(a, b)$ afterwards.\n\nWLOG can also be invoked to shorten proofs where there are a number of\nchoices of configuration, but the proof is \u201cthe same\u201d for each of them.\nWe need only walk through the proof for one of these configurations, and\n\u201cWLOG\u201d serves as a note that we haven\u2019t weakened the argument. For\nexample, the proof of the fundamental theorem of arithmetic uses this\nnotion, in essence settling on a \u201ccanonical form\u201d for prime\nfactorizations to simplify the argument.\n\nFor more examples, see .",
+  "language": "INFORMAL",
+  "phrase": "Wlog",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/WLOG"
+    }
+  ],
+  "indexable": true
+}

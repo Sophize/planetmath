@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $\\{X_\\alpha\\text{ for }\\alpha\\in A\\}$ be topological spaces, and let\n$X=\\prod X_\\alpha$ be the product, with projection maps $\\pi_\\alpha$.\n\nUsing the Axiom of Choice, one can straightforwardly show that each\n$\\pi_\\alpha$ is surjective; they are continuous by definition, and the\ncontinuous image of a connected space is connected, so if $X$ is\nconnected, then all $X_\\alpha$ are.\n\nLet $\\{X_\\alpha\\text{ for }\\alpha\\in A\\}$ be connected topological\nspaces, and let $X=\\prod X_\\alpha$ be the product, with projection maps\n$\\pi_\\alpha$.\n\nFirst note that each $\\pi_\\alpha$ is an open map: If $U$ is open, then\nit is the union of open sets of the form\n$\\bigcap_{\\beta\\in F} \\pi_\\beta^{-1} U_\\beta$ where $F$ is a finite\nsubset of $A$ and $U_\\beta$ is an open set in $X_\\beta$. But\n$\\pi_\\alpha(U_\\beta)$ is always open, and the image of a union is the\nunion of the images.\n\nSuppose the product is the disjoint union of open sets $U$ and $V$, and\nsuppose $U$ and $V$ are nonempty. Then there is an $\\alpha\\in A$ and an\nelement $u\\in U$ and an element $v\\in V$ that differ only in the\n$\\alpha$ place. To see this, observe that for all but finitely many\nplaces $\\gamma$, both $\\pi_\\beta(U)$ and $\\pi_\\beta(V)$ must be\n$X_\\gamma$, so there are elements $u$ and $v$ that differ in finitely\nmany places. But then since $U$ and $V$ are supposed to cover $X$, if\n$\\pi_\\beta(u)\\neq\\pi_\\beta(v)$, changing $u$ in the $\\beta$ place lands\nus in either $U$ or $V$. If it lands us in $V$, we have elements that\ndiffer in only one place. Otherwise, we can make a $u'\\in U$ such that\n$\\pi_\\beta(u')=\\pi_\\beta(v)$ and which otherwise agrees with $u$. Then\nby induction we can obtain elements $u\\in U$ and $v\\in V$ that differ in\nonly one place. Call that place $\\alpha$.\n\nWe then have a map $\\rho:X_\\alpha\\to X$ such that\n$\\pi_\\alpha \\circ \\rho$ is the identity map on $X_\\alpha$, and\n$(\\rho\\circ\\pi)(u)=u$. Observe that since $\\pi_\\alpha$ is open, $\\rho$\nis continuous. But $\\rho^{-1}(U)$ and $\\rho^{-1}(V)$ are disjoint\nnonempty open sets that cover $X_\\alpha$, which is impossible.\n\nNote that if we do not assume the Axiom of Choice, the product may be\nempty, and hence connected, whether or not the $X_\\alpha$ are connected;\nby taking the discrete topology on some $X_\\alpha$ we get a\ncounterexample to one direction of the theorem: we have a connected\n(empty!) space that is the product of non-connected spaces. For the\nother direction, if the product is empty, it is connected; if it is not\nempty, then the argument below works unchanged. So without the Axiom of\nChoice, this theorem becomes \u201cIf all $X_\\alpha$ are connected, then $X$\nis.\u201d",
+  "conclusion": "#P_ProductsOfConnectedSpacesAreConnected",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofThatProductsOfConnectedSpacesAreConnected"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof that products of connected spaces are connected"
+  ]
+}

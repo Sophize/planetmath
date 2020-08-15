@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an integer $m$ consisting of $k$ digits $d_1, \\dots, d_k$ in base\n$b$, let $$j = \\sum_{i = 1}^{k} d_i,$$ then $j$ is the *digit sum* of\n$m$. Iterating this operation on the digits of $j$ until $j < b$ gives\nthe digital root or repeated digit sum of $m$. The digit sum and digital\nroot of a number are the same only if the additive persistence of the\ndigital root is 1.",
+  "language": "INFORMAL",
+  "phrase": "Digit Sum",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DigitSum"
+    }
+  ],
+  "indexable": true
+}

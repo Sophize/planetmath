@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *cycle* in a graph, digraph, or multigraph, is a simple path from a\nvertex to itself (i.e., a path where the first vertex is the same as the\nlast vertex and no edge is repeated).\n\nFor example, consider this graph: $$\\xymatrix{\nA \\ar@{-}[r] \\ar@{-}[d] & B \\ar@{-}[dl] \\ar@{-}[d] \\\\\nD \\ar@{-}[r] & C\n}$$\n\n$ABCDA$ and $BDAB$ are two of the cycles in this graph. $ABA$ is not a\ncycle, however, since it uses the edge connecting $A$ and $B$ twice.\n$ABCD$ is not a cycle because it begins on $A$ but ends on $D$.\n\nA cycle of length $n$ is sometimes denoted $C_n$ and may be referred to\nas a polygon of $n$ sides: that is, $C_3$ is a triangle, $C_4$ is a\nquadrilateral, $C_5$ is a pentagon, etc.\n\nAn *even* cycle is one of even length; similarly, an *odd* cycle is one\nof odd length.",
+  "language": "INFORMAL",
+  "phrase": "Cycle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Cycle"
+    }
+  ],
+  "indexable": true
+}

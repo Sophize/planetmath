@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(X,{\\mathfrak{B}})$ be a measurable space. The measure $\\mu$ on $X$\ndefined by $$\\mu(A) = \\left\\{\n\\begin{array}{ll}\nn & \\text{if}\\, A\\, \\text{ has exactly }\\, n\\, \\text{ elements} \\\\\n\\infty & \\text{otherwise.}\n\\end{array}\n\\right.$$ for all $A\\in{\\mathfrak{B}}$ is called the *counting measure*\non $X$. Usually this is applied when $X$ is countable, e.g.\n${\\mathbb{N}}$ or ${\\mathbb{Z}}$.",
+  "language": "INFORMAL",
+  "phrase": "Counting Measure",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CountingMeasure"
+    }
+  ],
+  "indexable": true
+}

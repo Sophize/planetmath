@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Given any proposition, there exists a proposition in disjunctive normal\nform which is equivalent to that proposition.\n\nAny two propositions are equivalent if and only if they determine the\nsame truth function. Therefore, if one can exhibit a mapping which\nassigns to a given truth function $f$ a proposition in disjunctive\nnormal form such that the truth function of this proposition is $f$, the\ntheorem follows immediately.\n\nLet $n$ denote the number of arguments $f$ takes. Define\n$$V(f) = \\{ X \\in \\{T,F\\}^n | f(X) = T \\}$$ For every $X \\in \\{T,F\\}^n$,\ndefine $L_i (X) \\colon \\{T,F\\}^n \\to  \\{T,F\\}$ as follows:\n$$L_i (X)(Y) = \\left\\{ \\begin{matrix} Y_i & X_i = T \\cr \\neg Y_i & X_i = F \\end{matrix} \\right.$$\n\nThen, we claim that\n$$f(Y) = \\bigwedge_{X \\in V(f)} \\bigvee_{i=1}^n L_i (X)(Y)$$\n\nOn the one hand, suppose that $f(Y) = T$ for a certain\n$Y \\in \\{T,F\\}^n$. By definition of $V(f)$, we have $Y \\in V(f)$. By\ndefinition of $L_i$, we have\n$$L_i (Y) (Y) = \\left\\{ \\begin{matrix} Y_i & Y_i = T \\cr \\neg Y_i & Y_i = F \\end{matrix} \\right.$$\nIn either case, $L_i (Y) (Y) = T$. Since a conjunction equals $T$ if and\nonly if each term of the conjunction equals $T$, it follows that\n$\\bigvee_{i=1}^n L_i (Y) (Y) = T$. Finally, since a disjunction equals\n$T$ if and only if there exists a term which equals $T$, it follows the\nright hand side equals equals $T$ when the left-hand side equals $T$.\n\nOn the one hand, suppose that $f(Y) = F$ for a certain\n$Y \\in \\{T,F\\}^n$. Let $X$ be any element of $V(f)$. Since\n$Y \\notin V(f)$, there must exist an index $i$ such that $X_i \\neq Y_i$.\nFor this choice of $i$, $Y_i = \\neg X_i$ Then we have\n$$L_i (X) (Y) = \\left\\{ \\begin{matrix} \\neg X_i & X_i = T \\cr \\neg \\neg X_i & X_i = F \\end{matrix} \\right.$$\nIn either case, $L_i (X) (Y) = F$. Since a conjunction equals $F$ if and\nonly if there exists a term which evaluates to $F$, it follows that\n$\\bigvee_{i=1}^n L_i (X) (Y) = F$ for all $X \\in V(f)$. Since a\ndisjunction equals $F$ if and only if each term of the conjunction\nequals $F$, it follows that the right hand side equals equals $F$ when\nthe left-hand side equals $F$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/EveryPropositionIsEquivalentToAPropositionInDNF"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "every proposition is equivalent to a proposition in DNF"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *pseudo-Riemannian* manifold is a manifold $M$ together with a ,\nsymmetric section $g$ of $T^0_{2}(M)$ (2-covariant tensor bundle over\n$M$).\n\nUnlike with a Riemannian manifold, $g$ is not positive definite. That\nis, there exist vectors $v\\in T_{p}M$ such that $g(v,v)\\le0$.\n\nA well known permits us to make a change of basis such that in the new\nbase $g$ is represented by a diagonal matrix with $-1$ or $1$ elements\nin the diagonal. If there are $i$, $-1$ elements in the diagonal and\n$j$, $1$, the tensor is said to have signature $(i,j)$\n\nThe signature will be invariant in every connected component of $M$, but\nusually the restriction that it be a global invariant is added to the\ndefinition of a pseudo-Riemannian manifold.\n\nUnlike a Riemannian metric, some manifolds do not admit a\npseudo-Riemannian metric.\n\nPseudo-Riemannian manifolds are crucial in Physics and in particular in\nGeneral Relativity where space-time is modeled as a 4-pseudo Riemannian\nmanifold with signature (1,3)[^1].\n\nIntuitively pseudo-Riemannian manifolds are generalizations of\nMinkowski\u2019s space just as a Riemannian manifold is a generalization of a\nvector space with a positive definite metric.\n\n[^1]: also referred to as $(-+++)$",
+  "language": "INFORMAL",
+  "phrase": "Pseudo-Riemannian Manifold",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PseudoRiemannianManifold"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "optimal approximation"
+  ],
+  "definition": "One of the problems in approximation theory is to determine points that\nminimize distances (to a given point or subset). More precisely,\n\n[**Problem -**]{} Let $X$ be a metric space and $S \\subseteq X$ a\nsubset. Given $x_0 \\in X$ we want to know if there exists a point in $S$\nthat minimizes the distance to $x_0$, i.e. if there exists $y_0 \\in S$\nsuch that $$d(x_0,y_0)=\\inf_{y \\in S}d(x_0,y)$$\n\n[**Definition -**]{} A point $y_0$ that the above conditions is called a\n[**best approximation**]{} of $x_0$ in $S$.\n\nIn general, best approximations do not exist. Thus, the problem is\nusually to identify classes of spaces $X$ and $S$ where the existence of\nbest approximations can be assured.\n\n[**Example :**]{} When $S$ is compact, best approximations of a given\npoint $x_0 \\in X$ in $S$ always exist.\n\nAfter one assures the existence of a best approximation, one can\nquestion about its uniqueness and how to calculate it explicitly.\n\n[**Remark -**]{} There is no reason to restrict to metric spaces. The\ndefinition of best approximation can be given for pseudo-metric spaces,\nsemimetric spaces or any other space where a suitable notion of\n\u201cdistance\u201d can be given.",
+  "language": "INFORMAL",
+  "phrase": "Best Approximation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BestApproximation"
+    }
+  ],
+  "indexable": true
+}

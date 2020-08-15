@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The [*Google calculator*]{} is a software calculator available to anyone\nusing the Google search engine by typing commands in the search box. The\nGoogle calculator can handle basic arithmetic, namely addition,\nsubtraction, multiplication, division and square root (including those\ncommands containing parentheses); unit conversions; percentages;\ncalculations relating to certain very well-known constants.\n\nThe first example provided by Google is `5+2*2`. The Google calculator\nobeys the rules of operator precedence and understands parentheses:\n`3*(18-2)-1` correctly evaluates to 47. Sometimes the calculator\nunderstands the tacit multiplication operator, but it is best to always\nstate it explicitly. The calculator will sometimes insert parenthesis\ninto the expression to show it has understood correctly, e.g., in\nresponse to \u201c\\$125 + 6% of \\$125\u201d it answers with \u201c(US\\$ 125) + (6% of\n(US\\$ 125)) = 132.5 U.S. dollars.\u201d For sufficiently large numbers (for\nexample, powers of two greater than $2^{42}$) it switches to scientific\nnotation. Like most hardware calculators, the Google calculator also\nresponds to `0^0` with 1.\n\nThe calculator does not understand reverse Polish notation, nor is it\ncapable of giving the prime factorization of small composite numbers.\n\nCommands can also be given in word form, for example, \u201ctwo times two\u201d or\n\u201cthrice pi\u201d, which evaluate to \u201cfour\u201d and \u201c9.42477796\u201d respectively.\nSome of the more archaic number names can also be used, such as \u201cgross\u201d\n(for 144) and \u201cscore\u201d (for 20).",
+  "language": "INFORMAL",
+  "phrase": "Google Calculator",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GoogleCalculator"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $Y$ be a random variable with probability density function $f_Y(y)$.\nThen the *hazard function* $h(y)$ is defined to be:\n$$h(y) = \\frac{f_Y(y)}{1 - F_Y(y)} = \\frac{f_Y(y)}{S(y)},$$ where $S(y)$\nis the survivor function and $Y$ is the survival time.\n\nThe hazard function is the rate of probability of death (non survival)\nis changing at time $Y=y$, given survival up to time $y$:\n$$h(y) = \\lim_{\\Delta y\\rightarrow 0} \\frac\n{P(y\\leq Y \\leq y+\\Delta y \\mid Y > y)}{\\Delta y}.$$\n\nThe *cumulative hazard function*, $H(y)$ of $Y$ is defined as\n$$H(y) = \\int_{-\\infty}^{y} h(t) dt.$$\n\nFrom this definition, we see that $H(y)=-\\operatorname{ln}S(y)$.\n\n**Examples**. The hazard functions for the three most widely used\nprobability density functions for survival time are:\n\n-   The exponential distribution, with $h(y)=\\gamma$.\n\n-   The Weibull distribution, with $h(y)=\\gamma y^{\\gamma-1}$ using the\n    standard Weibull distribution.\n\n-   The extreme-value distribution, with\n    $h(y)=\\frac{1}{\\beta}\\operatorname{exp}(\\frac{y-\\alpha}{\\beta})$.",
+  "language": "INFORMAL",
+  "phrase": "Hazard Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HazardFunction"
+    }
+  ],
+  "indexable": true
+}

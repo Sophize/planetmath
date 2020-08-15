@@ -1,0 +1,25 @@
+{
+  "alternatePhrases": [
+    "pre-ordering",
+    "preorder",
+    "preordering",
+    "quasi-order",
+    "quasi-ordering",
+    "quasiorder",
+    "quasiordering",
+    "semi-order",
+    "semi-ordering",
+    "semiorder",
+    "semiordering"
+  ],
+  "definition": "Definition {#definition .unnumbered}\n==========\n\nA *pre-order* on a set $S$ is a relation $\\lesssim$ on $S$ satisfying\nthe following two axioms:\n\nreflexivity: $s \\lesssim s$ for all $s \\in S$, and\n\ntransitivity: If $s \\lesssim t$ and $t \\lesssim u$, then $s \\lesssim u$;\nfor all $s,t,u \\in S$.\n\nPartial order induced by a pre-order {#partial-order-induced-by-a-pre-order .unnumbered}\n====================================\n\nGiven such a relation, define a new relation $s\\sim t$ on $S$ by\n$$s\\sim t \\hbox{ if and only if } s\\lesssim t \\hbox{ and } t \\lesssim s.$$\nThen $\\sim$ is an equivalence relation on $S$, and $\\lesssim$ induces a\npartial order $\\leq$ on the set $S/\\sim$ of equivalence classes of\n$\\sim$ defined by $$[s] \\leq [t] \\hbox{ if and only if } s \\lesssim t,$$\nwhere $[s]$ and $[t]$ denote the equivalence classes of $s$ and $t$. In\nparticular, $\\leq$ does satisfy antisymmetry, whereas $\\lesssim$ may\nnot.\n\nPre-orders as categories {#pre-orders-as-categories .unnumbered}\n========================\n\nA pre-order $\\lesssim$ on a set $S$ can be considered as a small\ncategory, in the which the objects are the elements of $S$ and there is\na unique morphism from $x$ to $y$ if $x\\lesssim y$ (and none otherwise).",
+  "language": "INFORMAL",
+  "phrase": "Pre-Order",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Preorder"
+    }
+  ],
+  "indexable": true
+}

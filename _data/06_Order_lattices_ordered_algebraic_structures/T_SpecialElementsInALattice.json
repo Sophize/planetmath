@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $L$ be a lattice and $a\\in L$ is said to be\n\n-   *distributive* if $a\\vee (b\\wedge c)=(a\\vee b)\\wedge (a\\vee c)$,\n\n-   *standard* if $b\\wedge (a\\vee c)=(b\\wedge a)\\vee (b\\wedge c)$, or\n\n-   *neutral* if\n    $(a\\wedge b)\\vee (b\\wedge c)\\vee (c\\wedge a) = (a\\vee b)\\wedge (b\\vee c)\\wedge (c\\vee a)$\n\nfor all $b,c\\in L$. There are also dual notions of the three types\nmentioned above, simply by exchanging $\\vee$ and $\\wedge$ in the\ndefinitions. So a *dually distributive* element $a\\in L$ is one where\n$a\\wedge (b\\vee c)=(a\\wedge b)\\vee (a\\wedge c)$ for all $b,c\\in L$, and\na *dually standard element* is similarly defined. However, a *dually\nneutral* element is the same as a neutral element.\n\n**Remarks** For any $a\\in L$, suppose $P$ is the property in $L$ such\nthat $a\\in P$ iff $a\\vee b=a\\vee c$ and $a\\wedge b=a\\wedge c$ imply\n$b=c$ for all $b,c\\in L$.\n\n-   A standard element is distributive. Conversely, a distributive\n    satisfying $P$ is standard.\n\n-   A neutral element is distributive (and consequently dually\n    distributive). Conversely, a distributive and dually distributive\n    element that satisfies $P$ is neutral.\n\n[8]{} G. Birkhoff [*Lattice Theory*]{}, 3rd Edition, AMS Volume XXV,\n(1967). G. Gr\u00e4tzer, [*General Lattice Theory*]{}, 2nd Edition,\nBirkh\u00e4user (1998).",
+  "language": "INFORMAL",
+  "phrase": "Special Elements In A Lattice",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SpecialElementsInALattice"
+    }
+  ],
+  "indexable": true
+}

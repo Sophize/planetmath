@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A collection $\\mathcal M$ of subsets of $\\Omega$ is a *monotone class*\nif it is closed under increasing and decreasing sequences of sets, i.e.\n\n1.  $A_1 \\subseteq A_2 \\subseteq A_3 ,...\\in \\mathcal M \\Rightarrow\n    \\bigcup A_n \\in \\mathcal M$\n\n2.  $A_1 \\supseteq A_2 \\supseteq A_3 ,...\\in \\mathcal M \\Rightarrow\n    \\bigcap A_n \\in \\mathcal M$",
+  "language": "INFORMAL",
+  "phrase": "Monotone Class",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/MonotoneClass"
+    }
+  ],
+  "indexable": true
+}

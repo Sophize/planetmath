@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The basic idea behind public key cryptography, is that a user can\npublish (for instance on the internet) all the information needed to\nsend them an encypted message, but for this information to be\ninsufficient to decrypt the message in *reasonable time*. In general,\nthis time requirement is taken to that, if the public key has length $n$\n(over a particular alphabet), then the message cannot be decrypted in\ntime $\\le p(n)$ for any polynomial $p$.\n\nThe information published to all users is called the *public key*, and\nthe additional information needed to decrypt a message is a users\n*private key*.\n\nPublic key cryptography was first conceived by James Ellis in 1969, and\na workable scheme was developed in 1973. This was kept secret however,\nand it was not until 1978 that two schemes were announced publicly.\nThese were the *Merkle-Hellman* scheme, and the *RSA* scheme.",
+  "language": "INFORMAL",
+  "phrase": "Public Key Cryptography",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PublicKeyCryptography"
+    }
+  ],
+  "indexable": true
+}

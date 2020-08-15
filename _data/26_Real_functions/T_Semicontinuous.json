@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "semicontinuous"
+  ],
+  "definition": "A real function $f: A \\rightarrow {\\mathbbmss{R}}$, where\n$A\\subseteq {\\mathbbmss{R}}$ is said to be *lower semi-continuous* in\n$x_0$ if\n$$\\forall \\varepsilon > 0\\ \\exists \\delta > 0\\ \\forall x \\in A\\ |x-x_0| < \\delta \\Rightarrow f(x) > f(x_0) - \\varepsilon,$$\n\nand $f$ is said to be *upper semi-continuous* if\n$$\\forall \\varepsilon > 0\\ \\exists \\delta > 0\\ \\forall x \\in A\\ |x-x_0| < \\delta \\Rightarrow f(x) < f(x_0) + \\varepsilon.$$\n\n#### Remark\n\nA real function is continuous in $x_0$ if and only if it is both upper\nand lower semicontinuous in $x_0$.\n\nWe can generalize the definition to arbitrary topological spaces as\nfollows.\n\nLet $A$ be a topological space. $f:A\\to{\\mathbbmss{R}}$ is lower\nsemicontinuous at $x_0$ if, for each $\\varepsilon>0$ there is a\nneighborhood $U$ of $x_0$ such that $x\\in U$ implies\n$f(x)>f(x_0)-\\varepsilon$.\n\n#### Theorem\n\nLet $f: [a,b] \\rightarrow {\\mathbbmss{R}}$ be a lower (upper)\nsemi-continuous function. Then $f$ has a minimum (maximum) in $[a,b]$.",
+  "language": "INFORMAL",
+  "phrase": "Semi-Continuous",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Semicontinuous"
+    }
+  ],
+  "indexable": true
+}

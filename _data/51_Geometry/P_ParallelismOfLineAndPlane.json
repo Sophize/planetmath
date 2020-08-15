@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Parallelity of a line and a plane means that the angle between line and\nplane is 0, i.e. the line and the plane have either no or infinitely\nmany common points.\\\n**Theorem 1.** If a line ($l$) is parallel to a line ($m$) contained in\na plane ($\\pi$), then it is parallel to the plane or is contained in the\nplane.\n\n[*Proof.*]{} So, $l \\,||\\, m \\subset \\pi$. If $l \\not\\subset \\pi$, we\ncan set a set along the parallel lines $l$ and $m$ another plane\n$\\varrho$. The common points of $\\pi$ and $\\varrho$ are on the\nintersection line $m$ of the planes. If $l$ would intersect the plane\n$\\pi$, then it would intersect also the line $m$, contrary to the\nassumption. Thus $l \\,||\\, \\pi$.\\\n**Theorem 2.** If a plane is set along a line ($l$) which is parallel to\nanother plane ($\\pi$), then the intersection line ($m$) of the planes is\nparallel to the first-mentioned line.\n\n[*Proof.*]{} The lines $l$ and $m$ are in a same plane, and they cannot\nintersect each other since otherwise $l$ would intersect the plane $\\pi$\nwhich would contradict the assumption. Accordingly, $m \\,||\\, l$.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ParallelismOfLineAndPlane"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "parallelism of line and plane"
+  ]
+}

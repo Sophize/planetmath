@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Any nonmodular lattice $L$ contains the lattice $N_5$ (shown below) as a\nsublattice. $$\\xymatrix {\n& x\\lor y \\ar@{-}[ld] \\ar@{-}[rdrd] & & \\\\\n(x\\lor y)\\land z \\ar@{-}[dd] & & & \\\\\n& & & y \\ar@{-}[ldld] \\\\\nx\\lor (y\\land z) \\ar@{-}[rd] & & & \\\\\n& y\\land z & & }$$\n\nSince $L$ is not modular, by definition it contains elements $x$, $y$\nand $z$ such that $x\\leq z$ and $x\\lor (y\\land z) < (x\\lor y) \\land z$.\nThen the sublattice formed by $y$, $x\\lor y$, $y\\land z$,\n$(x\\lor y)\\land z$ and $x\\lor (y\\land z)$ is isomorphic to $N_5$. This\nis because $y\\land z\\leq x\\lor(y\\land z)<(x\\lor y)\\land z\\leq x\\lor y$\nwhile $[x\\lor(y\\land z)]\\lor y=x\\lor y$ by absorption and similarly\n$y\\land[(x\\lor y)\\land z]=y\\land z$. Moreover, $x\\lor(y\\land z)$ covers\n$y\\land z$ since $y\\land z=x\\lor(y\\land z)$ would imply\n$x\\leq y\\land z \\leq y$, whence $x\\lor y=y$ and\n$(x\\lor y)\\land z=y\\land z=x\\lor(y\\land z)$ contrary to our hypothesis.\nBy the same method, $ (x\\lor y)\\land z=x\\lor y $ leads to a\ncontradiction of nonmodularity, so $ x\\lor y $ covers\n$ (x\\lor y)\\land z $.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NonmodularSublattice"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "nonmodular sublattice"
+  ]
+}

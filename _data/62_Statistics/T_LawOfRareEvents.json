@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "Poisson theorem"
+  ],
+  "definition": "Let $X$ be distributed as $Bin(n,p)$, a binomial random variable with\nparameters $n$ and $p$. Suppose $$\\lim_{n\\rightarrow\\infty}np=\\lambda,$$\nwhere $\\lambda$ is a positive real constant, then $X$ is asymptotically\ndistributed as $Poisson(\\lambda)$, a Poisson distribution with parameter\n$\\lambda$.\n\nBasically, when the size of the population $n$ is very large and the\noccurrence of certain *event* $A$ is rare, where $p$, the probability of\n$A$ is very small, the binomial random variable $X$ can be approximated\nby a Poisson random variable.\n\n**Sketch of Proof.** Let $X\\sim Bin(n,p)$. So $$\\begin{aligned}\nP(X=m) &=& \\frac{n!}{m!(n-m)!}p^m(1-p)^{n-m} \\\\ \n&=& \\frac{n!}{n^m(n-m)!}\\frac{(np)^m}{m!}(1-\\frac{np}{n})^{n-m} \\\\ \n&=& \\frac{n!}{n^m(n-m)!}\\frac{(np)^m}{m!}(1-\\frac{np}{n})^n(1-\\frac{np}{n})^{-m}.\\end{aligned}$$\nAs $n\\rightarrow\\infty$,\n$$\\frac{n!}{n^m(n-m)!}=\\frac{n}{n}\\frac{n-1}{n}\\cdots\\frac{n-m+1}{n}\\approx 1,$$\n$$(1-\\frac{np}{n})^{-m}\\approx (1-\\frac{\\lambda}{n})^{-m}\\approx 1,$$\n$$(1-\\frac{np}{n})^n\\approx (1-\\frac{\\lambda}{n})^n\\approx e^{-\\lambda},$$\nand $$\\frac{(np)^m}{m!}\\approx \\frac{\\lambda^m}{m!}.$$ Therefore,\n$$P(X=m)\\approx \\frac{\\lambda^m}{m!}e^{-\\lambda} = Poisson(\\lambda).$$\n\n**Example.** Suppose in a given year, the number of fatal automobile\naccidents has a binomial distribution for a particular insuarance\ncompany with five hundred automobile insurance policies. On average,\nthere is one policy out of the five hundred that will be involved in a\nfatal crash. What is the probability that there will be no fatal\naccidents (out of five hundred policies) in any particular year?\n\n**Solution.** If $X$ be the number of fatal accidents in a year from a\npopulation of 500 auto policies, then $X\\sim Bin(n,p)$ with $n=500$ and\n$p=1/500$. $\\lambda=500\\times 1/500=1$ and so\n$$P(X=0)\\approx e^{-1}\\approx 0.368.$$ Using the binomial distribution,\nwe have $$P(X=0)=(1-\\frac{1}{500})^{500}\\approx 0.367.$$",
+  "language": "INFORMAL",
+  "phrase": "Law Of Rare Events",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LawOfRareEvents"
+    }
+  ],
+  "indexable": true
+}

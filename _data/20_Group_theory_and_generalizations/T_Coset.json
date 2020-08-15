@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $H$ be a subgroup of a group $G$, and let $a \\in G$. The [*left\ncoset*]{} of $a$ with respect to $H$ in $G$ is defined to be the set\n$$aH := \\{ ah \\mid h \\in H \\}.$$ The [*right coset*]{} of $a$ with\nrespect to $H$ in $G$ is defined to be the set\n$$Ha := \\{ ha \\mid h \\in H \\}.$$ Two left cosets $aH$ and $bH$ of $H$ in\n$G$ are either identical or disjoint. Indeed, if $c \\in aH \\cap bH$,\nthen $c = ah_1$ and $c = bh_2$ for some $h_1,h_2 \\in H$, whence\n$b^{-1} a = h_2 h_1^{-1} \\in H$. But then, given any $ah \\in aH$, we\nhave $ah = (bb^{-1})ah = b(b^{-1}a) h \\in bH$, so $aH \\subset bH$, and\nsimilarly $bH \\subset aH$. Therefore $aH = bH$.\n\nSimilarly, any two right cosets $Ha$ and $Hb$ of $H$ in $G$ are either\nidentical or disjoint. Accordingly, the collection of left cosets (or\nright cosets) partitions the group $G$; the corresponding equivalence\nrelation for left cosets can be described succintly by the relation\n$a \\sim b$ if $a^{-1} b \\in H$, and for right cosets by $a \\sim b$ if\n$ab^{-1} \\in H$.\n\nThe [*index*]{} of $H$ in $G$, denoted $[G:H]$, is the cardinality of\nthe set $G/H$ of left cosets of $H$ in $G$.",
+  "language": "INFORMAL",
+  "phrase": "Coset",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Coset"
+    }
+  ],
+  "indexable": true
+}

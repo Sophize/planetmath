@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Tube lemma -**]{} Let $X$ and $Y$ be topological spaces such that $Y$\nis compact. If $N$ is an open set of $X \\times Y$ containing a \u201cslice\u201d\n$x_0 \\times Y$, then $N$ contains some \u201ctube\u201d $W \\times Y$, where $W$ is\na neighborhood of $x_0$ in $X$.\n\n[**Proof :**]{} $N$ is a union of basis elements $U \\times V$, with $U$\nand $V$ open sets in $X$ and $Y$ respect. Since $x_0 \\times Y$ is\ncompact (it is homeomorphic to $Y$), only a finite number\n$U_1 \\times V_1, \\dots, U_n \\times V_n$ of such basis elements cover\n$x_0 \\times Y$.\n\nWe may assume that each of the basis elements $U_i \\times V_i$ actually\nintersects $x_0 \\times Y$, since otherwise we could discard it from the\nfinite collection and still have a covering of $x_0 \\times Y$.\n\nDefine $W:=U_1 \\cap \\dots \\cap U_n$. The set $W$ is open and contains\n$x_0$ because each $U_i \\times V_i$ intersects $x_0 \\times Y$ by the\nprevious remark.\n\nWe now claim that $W \\times Y \\subseteq N$. Let $(x, y)$ be a point in\n$W \\times Y$. The point $(x_0, y)$ is in some $U_i \\times V_i$ and so\n$y \\in V_i$. We also know that\n$x \\in W = U_1 \\cap \\dots \\cap U_n \\subseteq U_i$.\n\nTherefore $(x, y) \\in U_i \\times V_i \\subseteq N$ as desired. $\\square$\n\n[9]{} J. Munkres, *Topology* (2nd edition), Prentice Hall, 1999.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/TubeLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "tube lemma"
+  ]
+}

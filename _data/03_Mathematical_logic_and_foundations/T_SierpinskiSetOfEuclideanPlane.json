@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A subset $S$ of $\\mathbb{R}^2$ is called a *Sierpi\u0144ski set* of the\nplane, if every line parallel to the $x$-axis intersects $S$ only in\ncountably many points and every line parallel to the $y$-axis avoids $S$\nin only countably many points:\n$$\\{x \\in \\mathbb{R}\\,\\vdots\\;\\, (x,\\,y) \\in S\\} \\,\\mbox{ is countable for all }y \\in \\mathbb{R}$$\n$$\\{y \\in \\mathbb{R}\\,\\vdots\\;\\, (x,\\,y) \\notin S\\} \\,\\mbox{ is countable for all }x \\in \\mathbb{R}$$\n\nThe existence of Sierpi\u0144ski sets is with the continuum hypothesis, as is\nproved in \\[1\\].\n\n[8]{} : \u201cWie plausibel ist die Kontinuumshypothese?\u201d. \u2013*Elemente der\nMathematik* **61** (2006).",
+  "language": "INFORMAL",
+  "phrase": "Sierpi\\'Nski Set Of Euclidean Plane",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SierpinskiSetOfEuclideanPlane"
+    }
+  ],
+  "indexable": true
+}

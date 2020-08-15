@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let us setup some notation first: Let $\\mathcal{A}$ be a unital and $z$\na normal element of $\\mathcal{A}$. Then\n\n-   $\\sigma(z)$ denotes the spectrum of $z$.\n\n-   $C(\\sigma(z))$ denotes the $C^*$-algebra of continuous functions\n    $\\sigma(z) \\longrightarrow \\mathbb{C}$.\n\n-   If $f \\in C(\\sigma(z))$ then $f(z)$ is the element of $\\mathcal{A}$\n    given by the continuous functional calculus.\n\n$\\,$\n\n[**Theorem -**]{} Let $\\mathcal{A}$, $\\mathcal{B}$ be unital and\n$\\Phi :\\mathcal{A} \\longrightarrow \\mathcal{B}$ a \\*-homomorphism. Let\n$x$ be a normal element in $\\mathcal{A}$. If $f \\in C(\\sigma(x))$ then\n$$\\begin{aligned}\n\\Phi(f(x)) = f(\\Phi(x))\\end{aligned}$$\n\n$\\,$\n\n[***Proof:***]{} The identity elements of $\\mathcal{A}$ and\n$\\mathcal{B}$ will be both denoted by $e$ and it will be clear from the\ncontext which one we are referring to.\n\nFirst, we need to check that $f(\\Phi(x))$ is a well-defined element of\n$\\mathcal{B}$, i.e. that $\\sigma(\\Phi(x)) \\subseteq \\sigma(x)$. This is\nclear since, if $x - \\lambda e$ is invertible for some\n$\\lambda \\in \\mathbb{C}$, then $\\Phi(x)-\\lambda e = \\Phi(x- \\lambda e)$\nis also invertible.\n\nLet $\\{p_n\\}$ be sequence of polynomials in $C(\\sigma(x))$ converging\nuniformly to $f$. Then we have that\n\n-   $\\Phi(p_n(x)) \\longrightarrow \\Phi(f(x))$, by the continuity of\n    $\\Phi$ (see ) and the continuity of the continuous functional\n    calculus mapping.\n\n<!-- -->\n\n-   $p_n(\\Phi(x)) \\longrightarrow f(\\Phi(x))$, by the continuity of the\n    continuous functional calculus mapping.\n\nIt is easily checked that $\\Phi(p_n(x)) = p_n(\\Phi(x))$ (since $\\Phi$ is\nan homomorphism). Hence we conclude that $\\Phi(f(x)) = f(\\Phi(x))$ as\nintended. $\\square$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CalgebraHomomorphismsPreserveContinuousFunctionalCalculus"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "$C^*$-algebra homomorphisms preserve continuous functional calculus"
+  ]
+}

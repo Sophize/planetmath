@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "An $n\\times n$ matrix $A$ is said to be a [*reducible matrix*]{} if and\nonly if for some permutation matrix $P$, the matrix $P^TAP$ is block\nupper triangular. If a square matrix is not reducible, it is said to be\nan [*irreducible matrix*]{}.\n\nThe following conditions on an $n\\times n$ matrix $A$ are equivalent.\n\n1.  $A$ is an irreducible matrix.\n\n2.  The digraph associated to $A$ is strongly connected.\n\n3.  For each $i$ and $j$, there exists some $k$ such that\n    $(A^k)_{ij}>0$.\n\n4.  For any partition $J\\sqcup K$ of the index set $\\{1,2,\\dots,n\\}$,\n    there exist $j\\in J$ and $k\\in K$ such that $a_{jk}\\ne 0$.\n\nFor certain applications, irreducible matrices are more useful than\nreducible matrices. In particular, the Perron-Frobenius theorem gives\nmore information about the spectra of irreducible matrices than of\nreducible matrices.",
+  "language": "INFORMAL",
+  "phrase": "Reducible Matrix",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ReducibleMatrix"
+    }
+  ],
+  "indexable": true
+}

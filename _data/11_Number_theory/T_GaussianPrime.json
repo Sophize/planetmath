@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*Gaussian prime*]{} $p$ is a Gaussian integer $a + bi$ (where $i$ is\nthe imaginary unit and $a$ and $b$ are real integers) that is divisible\nonly by the units 1, $-1$, $i$ and $-i$, itself, its associates and no\nothers. For example, $3 + 20i$ is a Gaussian prime because there is no\npair of Gaussian integers (besides the units and associates) that\nmultiply to $3 + 20i$. But $3 + 21i$ is not a Gaussian prime because\n$3(-i)(1 + i)(1 + 2i)^2 = 3 + 21i$. If $a + bi$ is prime then so are\n$a - bi$, $-a + bi$ and $-a - bi$, as well as the associates $b + ai$,\n$b - ai$, $b - ai$ and $-b - ai$.\n\nThe real and the imaginary parts must be of different parity. For a real\nprime to be a Gaussian prime of the form $p + 0i$, the real part has to\nbe of the form $p = 4n - 1$; the same goes for the associates $0 + pi$.\nIt follows from that since real primes of the form $p = 4n + 1$ can be\nrepresented as $x^2 + y^2$, then in the complex plane they have the\nfactorization $(x + yi)(x - yi)$. For example, $17 = 4^2 + 1^2$, so\n$(4 + i)(4 - i) = 17$.\n\nSometimes Gaussian primes are simply called \u201ccomplex primes,\u201d which is\nan incorrect term found in some of the older literature.\n\n[1]{} Kogbetliantz, Ervand George [*Handbook of first complex prime\nnumbers*]{} London: Gordon and Breach Science Publishers (1971)",
+  "language": "INFORMAL",
+  "phrase": "Gaussian Prime",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/GaussianPrime"
+    }
+  ],
+  "indexable": true
+}

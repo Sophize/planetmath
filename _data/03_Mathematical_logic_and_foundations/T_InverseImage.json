@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "preimage"
+  ],
+  "definition": "Let $f: A \\longrightarrow B$ be a function, and let $U \\subset B$ be a\nsubset. The [*inverse image*]{} of $U$ is the set $f^{-1}(U) \\subset A$\nconsisting of all elements $a \\in A$ such that $f(a) \\in U$.\n\nThe inverse image commutes with all set operations: For any collection\n$\\{U_i\\}_{i \\in I}$ of subsets of $B$, we have the following identities\nfor\n\n1.  Unions:\n    $$f^{-1}\\left(\\bigcup_{i \\in I} U_i\\right) = \\bigcup_{i \\in I} f^{-1}(U_i)$$\n\n2.  Intersections:\n    $$f^{-1}\\left(\\bigcap_{i \\in I} U_i\\right) = \\bigcap_{i \\in I} f^{-1}(U_i)$$\n\nand for any subsets $U$ and $V$ of $B$, we have identities for\n\n3.  Complements:\n    $$\\left(f^{-1}(U)\\right)^\\complement = f^{-1}(U^\\complement)$$\n\n4.  Set differences:\n    $$f^{-1}(U \\setminus V) = f^{-1}(U) \\setminus f^{-1}(V)$$\n\n5.  Symmetric differences:\n    $$f^{-1}(U \\bigtriangleup V) = f^{-1}(U) \\bigtriangleup f^{-1}(V)$$\n\nIn addition, for $X \\subset A$ and $Y \\subset B$, the inverse image\nsatisfies the miscellaneous identities\n\n6.  $(f|_X)^{-1}(Y)=X\\cap f^{-1}(Y)$\n\n7.  $f\\left(f^{-1}(Y)\\right) = Y\\cap f(A)$\n\n8.  $X \\subset f^{-1}(f(X))$, with equality if $f$ is injective.",
+  "language": "INFORMAL",
+  "phrase": "Inverse Image",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/InverseImage"
+    }
+  ],
+  "indexable": true
+}

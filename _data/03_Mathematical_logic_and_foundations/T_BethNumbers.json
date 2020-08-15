@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "The *beth numbers* are infinite cardinal numbers defined in a similar\nmanner to the aleph numbers, as described below. They are written\n$\\beth_\\alpha$, where $\\beth$ is beth, the second letter of the Hebrew\nalphabet, and $\\alpha$ is an ordinal number.\n\nWe define $\\beth_0$ to be the first infinite cardinal (that is,\n$\\aleph_0$). For each ordinal $\\alpha$, we define\n$\\beth_{\\alpha+1}=2^{\\beth_\\alpha}$. For each limit ordinal $\\delta$, we\ndefine $\\beth_\\delta=\\bigcup_{\\alpha\\in\\delta}\\beth_\\alpha$.\n\nNote that $\\beth_1$ is the cardinality of the continuum.\n\nFor any ordinal $\\alpha$ the inequality\n$\\aleph_\\alpha{\\leqslant}\\beth_\\alpha$ holds. The Generalized Continuum\nHypothesis is equivalent to the assertion that\n$\\aleph_\\alpha=\\beth_\\alpha$ for every ordinal $\\alpha$.\n\nFor every limit ordinal $\\delta$, the cardinal $\\beth_\\delta$ is a\nstrong limit cardinal. Every uncountable strong limit cardinal arises in\nthis way.",
+  "language": "INFORMAL",
+  "phrase": "Beth Numbers",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BethNumbers"
+    }
+  ],
+  "indexable": true
+}

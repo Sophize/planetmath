@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "image"
+  ],
+  "definition": "Let $f\\colon A \\longrightarrow B$ be a function, and let $U \\subset A$\nbe a subset. The [*direct image*]{} of $U$ is the set $f(U) \\subset B$\nconsisting of all elements of $B$ which equal $f(u)$ for some $u \\in U$.\n\nDirect images satisfy the following properties:\n\n1.  Unions: For any collection $\\{U_i\\}_{i \\in I}$ of subsets of $A$,\n    $$f\\left(\\bigcup_{i \\in I} U_i\\right) = \\bigcup_{i\\in I} f(U_i).$$\n\n2.  Intersections: For any collection $\\{U_i\\}_{i \\in I}$ of subsets of\n    $A$,\n    $$f\\left(\\bigcap_{i \\in I} U_i\\right) \\subset \\bigcap_{i\\in I} f(U_i).$$\n\n3.  Set difference: For any $U,V \\subset A$,\n    $$f(V \\setminus U) \\supset f(V) \\setminus f(U).$$ In particular, the\n    complement of $U$ satisfies\n    $f(U^\\complement) \\supset f(A) \\setminus f(U)$.\n\n4.  Subsets: If $U \\subset V \\subset A$, then\n    $f(U) \\subset f(V) \\subset B$.\n\n5.  Inverse image of a direct image: For any $U \\subset A$,\n    $$f^{-1}(f(U)) \\supset U$$ with equality if $f$ is injective.\n\n6.  Direct image of an inverse image: For any $V \\subset B$,\n    $$f(f^{-1}(V)) \\subset V$$ with equality if $f$ is surjective.",
+  "language": "INFORMAL",
+  "phrase": "Direct Image",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirectImage"
+    }
+  ],
+  "indexable": true
+}

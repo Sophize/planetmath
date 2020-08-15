@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "fix",
+    "fixed",
+    "fixes"
+  ],
+  "definition": "Let $A$ be a set, and $T:A\\rightarrow A$ a transformation of that set.\nWe say that $x\\in A$ is *fixed* by $T$, or that $T$ *fixes* $x$,\nwhenever $$T(x)=x.$$ The subset of fixed elements is called [*the fixed\nset of $T$*]{}, and is frequently denoted as $A^T$.\n\nWe say that a subset $B\\subset A$ is fixed by $T$ whenever all elements\nof $B$ are fixed by $T$, i.e. $$B\\subset A^T.$$ If this is so, $T$\nrestricts to the identity transformation on $B$.\n\nThe definition generalizes readily to a family of transformations with\ncommon domain $$T_i : A\\rightarrow A,\\quad i\\in I$$ In this case we say\nthat a subset $B\\subset A$ is fixed, if it is fixed by all the elements\nof the family, i.e. whenever $$B\\subset \\bigcap_{i\\in I} A^{T_i}.$$",
+  "language": "INFORMAL",
+  "phrase": "Fix (Transformation Action)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/FixtransformationAction"
+    }
+  ],
+  "indexable": true
+}

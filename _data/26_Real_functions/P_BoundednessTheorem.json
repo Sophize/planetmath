@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "[**Boundedness Theorem.** ]{} [*Let $a$ and $b$ be real numbers with\n$a<b$, and let $f$ be a continuous, real valued function on $[a,b]$.\nThen $f$ is bounded above and below on $[a,b]$.* ]{}\n\n[*Proof.* ]{} Suppose not. Then for all natural numbers $n$ we can find\nsome $x_n \\in [a,b]$ such that $|f(x_n)|>n$. The sequence $(x_n)$ is\nbounded, so by the Bolzano-Weierstrass theorem it has a convergent sub\nsequence, say $(x_{n_i})$. As $[a,b]$ is closed $(x_{n_i})$ converges to\na value in $[a,b]$. By the continuity of $f$ we should have that\n$f(x_{n_i})$ converges, but by construction it diverges. This\ncontradiction finishes the proof.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/BoundednessTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "boundedness theorem"
+  ]
+}

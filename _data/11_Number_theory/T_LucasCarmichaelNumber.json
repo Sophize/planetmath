@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Given an odd squarefree integer $n$ (that is, one with factorization\n$\\displaystyle n = \\prod_{i = 1}^{\\omega(n)} p_i$, with $\\omega(n)$\nbeing the number of distinct prime factors function, and all $p_i > 2$)\nif it the case that each $p_i + 1$ is a divisor of $n + 1$, then $n$ is\ncalled a [*Lucas-Carmichael number*]{}.\n\nFor example, 935 has three prime factors, 5, 11, 17. Adding one to each\nof these we get 6, 12, 18, and these three numbers are all divisors of\n936. Therefore, 935 is a Lucas-Carmichael number.\n\nThe first few Lucas-Carmichael numbers are 399, 935, 2015, 2915, 4991,\n5719, 7055, 8855. These are listed in A006972 of Sloane\u2019s OEIS.\n\nNot to be confused with Carmichael numbers, the\nabsolute\u00a0Fermat\u00a0pseudoprimes.",
+  "language": "INFORMAL",
+  "phrase": "Lucas-Carmichael Number",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LucasCarmichaelNumber"
+    }
+  ],
+  "indexable": true
+}

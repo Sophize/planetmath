@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $(G_i)_{i\\in I}$ be a family of groups.\n\nThe *unrestricted direct product* (or *complete direct product*, or\n*Cartesian product*) $\\prod_{i\\in I}G_i$ is the $\\prod_{i\\in I}G_i$ with\nmultiplication defined pointwise, that is, for all\n$f,g\\in\\prod_{i\\in I}G_i$ and all $i\\in I$ we have $(fg)(i)=f(i)g(i)$.\nIt is easily verified that this multiplication makes the Cartesian\nproduct into a group. This construction is in fact the in the category\nof groups.\n\nThe *restricted direct product* $\\bigoplus_{i\\in I}G_i$ is the subgroup\nof $\\prod_{i\\in I}G_i$ consisting of all those elements with finite\nsupport. That is,\n$$\\bigoplus_{i\\in I}G_i=\\biggl\\{f\\in\\prod_{i\\in I}G_i\\biggm| f(i)=1\\hbox{ for all but finitely many }i\\in I\\biggr\\}.$$\nThe restricted direct product is also called the *direct sum*, although\nthis usage is usually reserved for the case where all the $G_i$ are\nabelian (see and ).\n\nThe unqualified term *direct product* can refer either to the\nunrestricted direct product or to the restricted direct product,\ndepending on the author. Note that if $I$ is finite then the\nunrestricted direct product and the restricted direct product are in\nfact the same. The direct product of two groups $G$ and $H$ is usually\nwritten $G\\times H$, or sometimes $G\\oplus H$ (or $G\\coprod H$) if $G$\nand $H$ are both abelian.",
+  "language": "INFORMAL",
+  "phrase": "Direct Products Of Groups",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DirectProductsOfGroups"
+    }
+  ],
+  "indexable": true
+}

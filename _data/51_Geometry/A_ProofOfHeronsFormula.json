@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $\\alpha$ be the angle between the sides $b$ and $c$, then we get\nfrom the cosines law: $$\\cos\\alpha =\\frac{b^2+c^2-a^2}{2bc}.$$ Using the\nequation $$\\sin\\alpha=\\sqrt{1-\\cos^2\\alpha}$$ we get:\n$$\\sin\\alpha=\\frac{\\sqrt{-a^4-b^4-c^4+2b^2c^2+2a^2b^2+2a^2c^2}}{2bc}.$$\nNow we know: $$\\Delta=\\frac{1}{2}bc\\sin\\alpha.$$ So we get:\n$$\\begin{aligned}\n\\Delta & = & \\frac{1}{4}\\sqrt{-a^4-b^4-c^4+2b^2c^2+2a^2b^2+2a^2c^2}\\\\\n& = & \\frac{1}{4}\\sqrt{(a+b+c)(b+c-a)(a+c-b)(a+b-c)}\\\\\n& = & \\sqrt{s(s-a)(s-b)(s-c)}.\\end{aligned}$$ This is Heron\u2019s formula.\n$\\Box$",
+  "conclusion": "#P_HeronsFormula",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfHeronsFormula"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Heron's formula"
+  ]
+}

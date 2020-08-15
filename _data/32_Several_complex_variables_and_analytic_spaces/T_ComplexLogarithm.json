@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "natural logarithm"
+  ],
+  "definition": "The $z$ is defined as every complex number $w$ which satisfies the\nequation $$\\begin{aligned}\n                              e^w = z.\\end{aligned}$$ This is is denoted\nby $$\\log{z} := w.$$\n\nThe solution of (1) is obtained by using the form $e^w = re^{i\\varphi}$,\nwhere $r = |z|$ and $\\varphi = \\arg{z}$; the result is\n$$w = \\log{z} = \\ln{|z|}+i\\arg{z}.$$ Here, the $\\ln|z|$ means the usual\nNapierian or (\u2018[*logarithmus naturalis*]{}\u2019) of the real number $|z|$.\nIf we fix the phase angle $\\varphi$ of $|z|$ so that\n$0 \\leqq \\varphi < 2\\pi$, we can write\n$$\\log{z} = \\ln{r}+i\\varphi+n\\cdot 2\\pi i\\quad(n = 0,\\,\\pm1,\\,\\pm2,\\,...).$$\n\nThe complex logarithm $\\log{z}$ is defined for all $z \\neq 0$ and it is\ninfinitely multivalued $-$ e.g. $\\log{(-1)} = (2n+1)\\pi i$ where $n$ is\nan arbitrary integer. The values with $n = 0$ are called the of the ; if\n$z$ is real, the value of $\\log{z}$ coincides with $\\ln{z}$.",
+  "language": "INFORMAL",
+  "phrase": "Complex Logarithm",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComplexLogarithm"
+    }
+  ],
+  "indexable": true
+}

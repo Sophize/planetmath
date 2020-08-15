@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "If $AB$ is a segment, then its *midpoint* is the point $P$ of the\nsegment whose distances from $B$ and $C$ are equal. That is, $AP = PB$.\n\nThe midpoint of segment $AB$ can be found with ruler and compass as\nfollows: Draw two circles with radius $AB$ and centers $A,B$\nrespectively. Let $P,Q$ the intersection points of the circles. Then the\nintersection $T$ of $PQ$ wih $AB$ is the midpoint of $AB$.\n\nThere are several arguments to see why $T$ is indeed the midpoint of\n$AB$. Because of the circles having the same radius, $AP=AQ=BP=BQ$. It\nfollows that $\\triangle PAQ\\cong\\triangle PBQ$ and\n$\\triangle  BAQ\\cong \\triangle BAQ$ and that they all are isosceles.\nThen $\\angle APT =\\angle TPB$ and so $PT$ is the angle bisector of an\nisosceles triangle and thus also a median. We conclude that $T$ is the\nmidpoint.\n\nAn alternative (yet essentially equivalent) argument is that since\n$AP=AQ=BP=BQ$, then $ABCD$ is a parallelogram (in fact, a rhombus) and\ntherefore the intersection $T$ of its diagonals is the midpoint of each\none.\n\nWith the notation of directed segments, the midpoint is the point on the\nline that contains $AB$ such that the ratio\n$\\frac{\\overrightarrow{AP}}{\\overrightarrow{PB}}=1$.\n\n**Generalization**. The notion of a midpoint can be generalized. In a\ngeometry with the congruence axioms (such as a neutral geometry), $P$ is\na *midpoint* of points $B$ and $C$ if $P,A,B$ are collinear and line\nsegment $AP$ is congruent to line segment $BP$.",
+  "language": "INFORMAL",
+  "phrase": "Midpoint",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Midpoint"
+    }
+  ],
+  "indexable": true
+}

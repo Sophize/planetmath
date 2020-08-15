@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Interpolation* is a set of techniques in approximation where, given a\nset of paired data points\n$$(x_1,y_1),(x_2,y_2),\\ldots, (x_n,y_n),\\ldots$$ one is often interested\nin\n\n-   finding a relation (usually in the form of a function $f$) that\n    passes through (or is satisfied by) every one of these points, if\n    the relation is unknown at the beginning,\n\n-   finding a simplified relation to replace the original known relation\n    that is very complicated and difficult to use,\n\n-   finding other paired data points $(x_{\\alpha},y_{\\alpha})$ in\n    addition to the existing ones.\n\nThe data points $(x_i,y_i)$ are called the *breakpoints*, and the\nfunction $f$ is the *interpolating function* such that $f(x_i)=y_i$ for\neach $i$.\n\nThe choice of the interpolating function depends on what we wish to do\nwith it. In some cases a polynomial is required, sometimes a piecewise\nlinear function is prefered (linear interpolation), other times a is of\ninterest, when the interpolating function is required to not only to be\ncontinuous, but differentiable, or even smooth.\n\nEven different strategies for finding the same interpolating function\nare of interest. The Lagrange interpolation formula is a direct way to\ncalculate the interpolating polynomial. The Vandermonde interpolation\nformula is mainly of interest as a theoretical tool. Numerical\nimplementation of Vandermonde interpolation involves solution of large\nill conditioned linear systems, so numerical stability is questionable.",
+  "language": "INFORMAL",
+  "phrase": "Interpolation",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Interpolation"
+    }
+  ],
+  "indexable": true
+}

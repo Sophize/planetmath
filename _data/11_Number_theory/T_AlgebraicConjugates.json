@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "algebraically conjugate",
+    "conjugate"
+  ],
+  "definition": "Let $L$ be an algebraic extension of a field $K$, and let\n$\\alpha_1\\in L$ be algebraic over $K$. Then $\\alpha_1$ is the root of a\nminimal polynomial $f(x)\\in K[x]$. Denote the other roots of $f(x)$ in\n$L$ by $\\alpha_2$, $\\alpha_3, \\ldots, \\alpha_n$. These (along with\n$\\alpha_1$ itself) are the *algebraic conjugates* of $\\alpha_1$ and any\ntwo are said to be *algebraically conjugate*.\n\nThe notion of algebraic conjugacy is a special case of group conjugacy\nin the case where the group in question is the Galois group of the above\nminimal polynomial, viewed as acting on the roots of said polynomial.",
+  "language": "INFORMAL",
+  "phrase": "Algebraic Conjugates",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlgebraicConjugates"
+    }
+  ],
+  "indexable": true
+}

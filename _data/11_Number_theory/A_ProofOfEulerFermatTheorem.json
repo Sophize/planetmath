@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $a_1, a_2, \\ldots , a_{\\phi (n)}$ be all positive integers less than\n$n$ which are coprime to $n$. Since $\\text{gcd}(a,n)=1$, then the set\n$aa_1, aa_2,\\ldots ,aa_{\\phi (n)}$ are each congruent to one of the\nintegers $a_1, a_2, \\ldots ,a_{\\phi (n)}$ in some order. Taking the\nproduct of these congruences, we get\n$$(aa_1)(aa_2) \\cdots (aa_{\\phi (n)}) \\equiv a_1 a_2 \\cdots a_{\\phi (n)} \\pmod{n}$$\nhence\n$$a^{\\phi (n)}(a_1 a_2 \\cdots a_{\\phi (n)}) \\equiv a_1 a_2 \\cdots a_{\\phi (n)} \\pmod{n}.$$\n\nSince $\\text{gcd}(a_1a_2\\cdots a_{\\phi (n)},n) = 1$, we can divide both\nsides by $a_1a_2\\cdots a_{\\phi (n)}$, and the desired result follows.",
+  "conclusion": "#P_EulerFermatTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfEulerFermatTheorem"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Euler-Fermat theorem"
+  ]
+}

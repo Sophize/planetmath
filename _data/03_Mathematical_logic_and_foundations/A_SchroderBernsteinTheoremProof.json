@@ -1,0 +1,17 @@
+{
+  "argumentText": "Let $A$ and $B$ be two nonempty sets; and let there be, in addition, two\none-one functions $f:A\\rightarrowtail B$ and $g:B\\rightarrowtail A$. We\npropose to show that $A$ and $B$ are equinumerous i.e., they are in one\nto one correspondence.\n\nConsider the notation: $$\\begin{aligned}\n g^{-1}(x),&\\mbox{if}& x\\in g(B)\\\\\n f^{-1}(g^{-1}(x)),&\\mbox{if}& g^{-1}(x)\\in f(A)\\\\\n g^{-1}(f^{-1}(g^{-1}(x))),&\\mbox{if}& f^{-1}(g^{-1}(x))\\in g(B)\\\\\n .....\\end{aligned}$$ Define, for each $x\\in A$, the order of it,\ndenoted by $\\circ(x)$, to be the number of such preimage(s) which exist.\nIn a similer way, we\u2019d be able to define the order of an element\n$y\\in B$, i.e., by considering the sequence\n$f^{-1}(y),g^{-1}(f^{-1}(y)),...$.\n\nNow define, for each $x\\in A$, $$\\begin{aligned}\n\\phi(x):&=& f(x),\\quad  \\circ(x)=\\infty \\\\\n&=&f(x),\\quad  \\circ(x)=2n,\\mbox{ for some } n\\in\\omega\\\\\n&=&b,\\quad \\circ(x)=2n+1,i.e.,\\exists b\\in B : g(b)=x\\\\\\end{aligned}$$\n\nNotice that if the order is infinite, $\\phi(x)=f(x)$ is also infinite.\nBecause, otherwise $x$ would have to have a finite order. On the other\nhand, if $y\\in B$ and $\\circ(y)$ is infinite, then $f^{-1}(y)$ exists\nand has an infinite order; call the latter one $x$. This means, $\\phi$\nmaps the infinite order elements of $A$ bijectively onto the infinite\norder elements of $B$.\n\nNext, if $\\circ(x)=2n$, then the order of $f(x)$ is sheer $2n+1$.\nSimiler to the above para, if for $y\\in B$, the order is $2n+1$, as the\norder is non-zero, $f^{-1}(y)$ exists and it must have order $2n$. To\nformally show it you need a tedious inductive reasoning!\n\nLast, if $\\circ(x)=2n+1$, then the order is $\\ge 1$, and so, $g^{-1}(x)$\nexists and the order of $g^{-1}(x)$ is sheer $2n$(looking upon\n$g^{-1}(x)$ as an element of $B$). Conversely, similer to above, if\nthere is an element $y$ of order $2n$ in $B$, take $x=g(y)$ and the\norder of $x$ is indeed $2n+1$. All that you need to convince a sceptic\nis a long, tedious, involved induction!!\n\nWhat we learn from what precedes is that the one-one function $\\phi$\nmaps the infinite order elements onto infinite order elements, odd order\nonto odd order, and even order onto even order; a simple set theory\nreveals that $\\phi$ is a one-one map from $A$ onto $B$. This completes\nthe proof.",
+  "conclusion": "#P_SchroderBernsteinTheorem",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchroderBernsteinTheoremProof"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "Schr\\\"{o}der Bernstein Theorem: Proof"
+  ]
+}

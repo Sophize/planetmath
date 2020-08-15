@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "*Complete lattice homomorphism* is a function from one lattice to an\nother lattice, which preserves arbitrary (not only finite) meets and\njoins.\n\nIf $\\phi:L \\to M$ is lattice homomorphism between complete lattices $L$\nand $M$ such that\n\n-   $\\phi(\\bigvee \\lbrace a_i\\mid i\\in I\\rbrace) = \\bigvee \\lbrace \\phi(a_i)\\mid\n    i\\in I\\rbrace$, and\n\n-   $\\phi(\\bigwedge \\lbrace a_i\\mid i\\in I\\rbrace) = \\bigwedge \\lbrace\n    \\phi(a_i)\\mid i\\in I\\rbrace$,\n\nthen $\\phi$ is called a *complete lattice homomorphism*.\n\nMost often are considered *complete lattice homomorphisms* from one\ncomplete lattice to an other complete lattice (that is when all meets\nand joins are defined).\n\n*Complete lattice homomorphism* is a special case of lattice\nhomomorphism.",
+  "language": "INFORMAL",
+  "phrase": "Complete Lattice Homomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CompleteLatticeHomomorphism"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $X$ be an immersed submanifold of $M$, with immersion $i:X\\to M$.\nThen as with the normal bundle, we can pull the cotangent bundle back to\n$X$, forming a bundle $i^*T^*M$. This has a canonical pairing with\n$i^*TM$, essentially by definition. Since $TX$ is a natural subbundle of\n$i^*TM$, we can consider its annihilator: the subbundle of $i^*T^*M$\ngiven by\n$$\\{(x,\\lambda)|x\\in X, \\lambda\\in T^*_{i(x)}M, \\lambda(v)=0 \\forall v\\in T_{x}X\\}.$$\nThis subbundle is denoted $N^*X$, and called the conormal bundle of $X$.\n\nThe conormal bundle to any submanifold is a natural Lagrangian\nsubmanifold of $T^*M$.",
+  "language": "INFORMAL",
+  "phrase": "Conormal Bundle",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ConormalBundle"
+    }
+  ],
+  "indexable": true
+}

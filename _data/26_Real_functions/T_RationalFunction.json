@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "rational expression"
+  ],
+  "definition": "A real function $R(x)$ of a single variable $x$ is called ** if it can\nbe written as a quotient $$R(x) = \\frac{P(x)}{Q(x)},$$ where $P(x)$ and\n$Q(x)$ are polynomials in $x$ with real coefficients. When one is only\ninterested in algebraic properties of $R(x)$ or $P(x)$ and $Q(x)$, it is\nconvenient to forget that they define functions and simply treat them as\nalgebraic expressions in $x$. In this case $R(x)$ is referred to as a\n*rational expression*.\n\nIn general, a rational function (expression) $R(x_1,\\ldots,x_n)$ has the\nform\n$$R(x_1,\\ldots,x_n) = \\frac{P(x_1,\\ldots,x_n)}{Q(x_1,\\ldots,x_n)},$$\nwhere $P(x_1,\\ldots,x_n)$ and $Q(x_1,\\ldots,x_n)$ are polynomials in the\nvariables $(x_1,\\ldots,x_n)$ with coefficients in some field or ring\n$S$.\n\nIn this sense, $R(x_1,\\ldots,x_n)$ can be regarded as an element of the\nfraction field $S(x_1,\\ldots,x_n)$ of the polynomial ring\n$S[x_1,\\ldots,x_n]$.",
+  "language": "INFORMAL",
+  "phrase": "Rational Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RationalFunction"
+    }
+  ],
+  "indexable": true
+}

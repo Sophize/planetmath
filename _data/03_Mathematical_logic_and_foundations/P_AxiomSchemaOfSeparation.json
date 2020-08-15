@@ -1,0 +1,16 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $\\phi(u, p)$ be a formula. For any $X$ and $p$, there exists a set\n$Y = \\{ u \\in X : \\phi(u, p) \\}$.\n\nThe Axiom Schema of Separation is an axiom schema of Zermelo-Fraenkel\nset theory. Note that it represents infinitely many individual axioms,\none for each formula $\\phi$. In symbols, it reads:\n$$\\forall X \\forall p \\exists Y \\forall u(u \\in Y \\leftrightarrow u \\in X \\land \\phi(u, p)).$$\nBy Extensionality, the set $Y$ is unique.\n\nThe Axiom Schema of Separation implies that $\\phi$ may depend on more\nthan one parameter $p$.\n\nWe may show by induction that if $\\phi(u, p_1, \\ldots, p_n)$ is a\nformula, then\n$$\\forall X \\forall p_1 \\cdots \\forall p_n \\exists Y \\forall u(u \\in Y \\leftrightarrow u \\in X \\land \\phi(u, p_1, \\ldots, p_n))$$\nholds, using the Axiom Schema of Separation and the Axiom of Pairing.\n\nAnother consequence of the Axiom Schema of Separation is that a subclass\nof any set is a set. To see this, let $\\mathbf{C}$ be the class\n$\\mathbf{C} = \\{ u : \\phi(u, p_1, \\ldots, p_n) \\}$. Then\n$$\\forall X \\exists Y (\\mathbf{C} \\cap X = Y)$$ holds, which means that\nthe intersection of $\\mathbf{C}$ with any set is a set. Therefore, in\nparticular, the intersection of two sets\n$X \\cap Y = \\{ x \\in X : x \\in Y \\}$ is a set. Furthermore the\ndifference of two sets $X - Y = \\{ x \\in X : x \\notin Y \\}$ is a set\nand, provided there exists at least one set, which is guaranteed by the\nAxiom of Infinity, the empty set is a set. For if $X$ is a set, then\n$\\emptyset = \\{ x \\in X : x \\neq x \\}$ is a set.\n\nMoreover, if $\\mathbf{C}$ is a nonempty class, then $\\bigcap \\mathbf{C}$\nis a set, by Separation. $\\bigcap \\mathbf{C}$ is a subset of every\n$X \\in \\mathbf{C}$.\n\nLastly, we may use Separation to show that the class of all sets, $V$,\nis not a set, i.e., $V$ is a proper class. For example, suppose $V$ is a\nset. Then by Separation $$V' = \\{ x \\in V : x \\notin x \\}$$ is a set and\nwe have reached a Russell paradox.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AxiomSchemaOfSeparation"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "axiom schema of separation",
+    "separation schema",
+    "separation"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $A$ is a complex square matrix of order n *(i.e.\n$A\\in\\mathrm{Mat}_n(\\mathbb{C})$)*, then there exists a unitary matrix\n$Q \\in \\mathrm{Mat}_n(\\mathbb{C})$ such that\\\n\n$Q^HAQ = T = D + N$\n\nwhere $^H$ is the conjugate transpose,\n$D = \\operatorname{diag}(\\lambda_1,   \\dots, \\lambda_n)$ *(the\n$\\lambda_i$ are eigenvalues of $A$)*, and\n$N \\in \\mathrm{Mat}_n(\\mathbb{C})$ is strictly upper triangular matrix.\nFurthermore, $Q$ can be chosen such that the eigenvalues $\\lambda_i$\nappear in any order along the diagonal. [@1]\n\n[1]{} Golub, H. Gene, Van Loan F. Charles: Matrix Computations *(Third\nEdition)*. The Johns Hopkins University Press, London, 1996.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchurDecomposition"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Schur decomposition"
+  ]
+}

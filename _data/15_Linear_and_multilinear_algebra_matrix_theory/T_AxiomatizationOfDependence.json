@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "As noted by van der Waerden, it is possible to define the notion of\ndependence axiomatically in such a way that one can deal with linear\ndependence, algebraic dependence, and other sorts of dependence via a\ngeneral theory. In this general theoretical framework, one can prove\nresults about bases, dimension, and the like.\n\nLet $S$ be a set. The basic object of this theory is a relation $D$\nbetween $S$ and the power set of $S$. This relation satisfies the\nfollowing three axioms:\n\nIf $Y$ is a subset of $S$ and $x \\in Y$, then $D(x,Y)$.\n\nIf, for some set $X \\subseteq S$ and some $y,z \\in S$, it happens that\n$D(y,X \\cup \\{z\\})$ but not $D(y,X)$, then $D(z, X \\cup \\{y\\})$.\n\nIf, for some sets $Y,Z \\subseteq S$ and some $x \\in S$, it happens that\n$D(x,Y)$ and, for every $y \\in Y$, it is the case that $D(y,Z)$, then\n$D(x,Z)$.",
+  "language": "INFORMAL",
+  "phrase": "Axiomatization Of Dependence",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AxiomatizationOfDependence"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "This is in response to the following request:\n\nA parent particle divides into 0,1,or 2 particles with probabilities\n1/4,1/2,1/4.it disappears after splitting.let Xn denotes the number of\nparticles in n-th generations with X0=1.find P(X2&gt;0) and the\nprobabilities that X1=2 given that X2=1.\n\nhttp://planetmath.org/?op=getobj;from=requests;id=927\n\nFor my first entry I will try to answer the question.\n\nLet $p_0, p_1$ and $p_2$ be the nonzero probabilities of dividing into\n0, 1, or 2 particles, and let $X_n$ denotes the number of particles at\nthe $n^{th}$ generation.\n\nWith $X_0 =1$, find 1) $P(X_2 > 2)$ and 2) $P(X_1 = 2 | X_2 = 1)$\n\n1\\) After two generations there can be at most $2^2$ particles so\n$P(X_2 >2) = P(X_2 = 3) + P(X_2 =4)$ $$P(X_2 = 4) = p_2^2$$\n$$P(X_2 = 3) = 2 p_1 p_2^2$$ Note that if $X_2 = 3$, then $X_2 = 2$.\n\n$$P(X_2 > 2) = p_2^2(1 + 2 p_1)$$\n\nUsing your values I get 3/32.\n\n2\\) From the definition of conditional probability\n$$P(X_1|X_2) = \\frac{P(X_1 \\cap X_2)}{P(X_2)}$$\n\nFirst $$P(X_2 = 1) = p_1^2  +  2 p_0 p_1 p_2$$\n\nWhy? To get to $X_2 = 1$, at $n=1$ there are either one or two\nparticles, if there is one particle it remains one at $n=2$, and if\nthere were two particles at $n=1$, then one has to go to zero and the\nother one\u2014this can happen two ways.\n\nFinally $P(X_1 =1 \\cap X_2) = p_1 p_2$.\n\n$$P(X_1 = 2 | X_2 = 1) = \\frac{p_2}{p_1 + 2 p_0 p_2}$$\n\nUsing your values I get 2/3.\n\nNow I have a question for you to think about. What happens in the long\nrun, as $n \\rightarrow \\infty$?",
+  "language": "INFORMAL",
+  "phrase": "Probability Problem",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProbabilityProblem"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "[**Definition**]{} [@mcduff; @abraham] Let $(V,\\omega)$ be a symplectic\nvector space and let $W$ be a vector subspace of $V$. Then the\n*symplectic complement* of $W$ is\n$$W^\\omega = \\{x\\in V\\, | \\, \\omega(x,y)=0\\,\\, \\mbox{for all}\\,\\, y\\in W\\}.$$\n\nIt is easy to see that $W^\\omega$ is also a vector subspace of $V$.\nDepending on the relation between $W$ and $W^\\omega$, $W$ is given\ndifferent names.\n\n1.  If $W\\subset W^\\omega$, then $W$ is an *isotropic subspace* (of\n    $V$).\n\n2.  If $W^\\omega \\subset W$, then $W$ is an *coisotropic subspace*.\n\n3.  If $W \\cap W^\\omega=\\{0\\}$, then $W$ is an *symplectic subspace*.\n\n4.  If $W = W^\\omega$, then $W$ is an *Lagrangian subspace*.\n\nFor the symplectic complement, we have the following dimension theorem.\n\n[**Theorem**]{} [@mcduff; @abraham] Let $(V,\\omega)$ be a symplectic\nvector space, and let $W$ be a vector subspace of $V$. Then\n$$\\dim V = \\dim W^\\omega + \\dim W.$$\n\n[9]{} D. McDuff, D. Salamon, *Introduction to Symplectic Topology*,\nClarendon Press, 1997. R. Abraham, J.E. Marsden, *Foundations of\nMechanics*, 2nd ed., Perseus Books, 1978.",
+  "language": "INFORMAL",
+  "phrase": "Symplectic Complement",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SymplecticComplement"
+    }
+  ],
+  "indexable": true
+}

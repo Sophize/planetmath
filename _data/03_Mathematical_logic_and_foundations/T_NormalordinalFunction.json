@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A function\n$F\\colon\\operatorname{\\mathbf{On}}\\to\\operatorname{\\mathbf{On}}$ is\n*continuous* if and only if for each\n$u\\subset\\operatorname{\\mathbf{On}}$ such that $u\\neq\\emptyset$ it holds\nthat $F(\\sup(u))=\\sup\\{F(\\alpha)|\\alpha\\in u\\}$.\n\nA function\n$F\\colon\\operatorname{\\mathbf{On}}\\to\\operatorname{\\mathbf{On}}$ is\n*order preserving* if and only if for each\n$\\alpha,\\beta\\in\\operatorname{\\mathbf{On}}$ such that $\\alpha<\\beta$ it\nfollows that $F(\\alpha)<F(\\beta)$.\n\nA function\n$F\\colon\\operatorname{\\mathbf{On}}\\to\\operatorname{\\mathbf{On}}$ is a\n*normal* function if and only if $F$ is continuous and order preserving.",
+  "language": "INFORMAL",
+  "phrase": "Normal (Ordinal) Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NormalordinalFunction"
+    }
+  ],
+  "indexable": true
+}

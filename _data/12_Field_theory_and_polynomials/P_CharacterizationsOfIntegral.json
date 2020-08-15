@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be a subring of a field $K$, $1\\in R$ and let $\\alpha$ be a\nnon-zero element of $K$. The following conditions are equivalent:\n\n1.  $\\alpha$ is integral over $R$.\n\n2.  $\\alpha$ belongs to $R[\\alpha^{-1}]$.\n\n3.  $\\alpha$ is unit of $R[\\alpha^{-1}]$.\n\n4.  $\\alpha^{-1}R[\\alpha^{-1}] = R[\\alpha^{-1}]$.\n\n[*Proof.*]{} Supposing the first condition that an equation\n$$\\alpha^n+a_1\\alpha^{n-1}+\\ldots+a_{n-1}\\alpha+a_n = 0,$$ with $a_j$\u2019s\nbelonging to $R$, holds. Dividing both by $\\alpha^{n-1}$ gives\n$$\\alpha = -a_1-a_2\\alpha^{-1}-\\ldots-a_n\\alpha^{-n+1}.$$ One sees that\n$\\alpha$ belongs to the ring $R[\\alpha^{-1}]$ even being a unit of this\n(of course $\\alpha^{-1}\\in R[\\alpha^{-1}]$). Therefore also the\nprincipal ideal $\\alpha^{-1}R[\\alpha^{-1}]$ of the ring $R[\\alpha^{-1}]$\ncoincides with this ring. Conversely, the last circumstance implies that\n$\\alpha$ is integral over $R$.\n\n[7]{} Emil Artin: [**]{}. Lecture notes. Mathematisches Institut,\nG\u00f6ttingen (1959).",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/CharacterizationsOfIntegral"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "characterizations of integral",
+    "characterisations of integral"
+  ]
+}

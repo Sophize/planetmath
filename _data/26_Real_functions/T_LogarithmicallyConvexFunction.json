@@ -1,0 +1,19 @@
+{
+  "alternatePhrases": [
+    "logarithmically convex",
+    "log-convex function",
+    "log-convex",
+    "log convex function",
+    "log convex"
+  ],
+  "definition": "A function $f\\colon [a,b] \\to {\\mathbb{R}}$ such that $f(x) > 0$ for all\n$x$ is said to be [*logarithmically convex*]{} if $\\log f(x)$ is a\nconvex function.\n\nIt is easy to see that a logarithmically convex function is a convex\nfunction, but the converse is not true. For example $f(x) = x^2$ is a\nconvex function, but $\\log f(x) = \\log x^2 = 2 \\log x$ is not a convex\nfunction and thus $f(x) = x^2$ is not logarithmically convex. On the\nother hand $e^{x^2}$ is logarithmically convex since\n$\\log e^{x^2} = x^2$ is convex. A less trivial example of a\nlogarithmically convex function is the gamma function, if restricted to\nthe positive reals.\n\nThe definition is easily extended to functions\n$f\\colon U \\subset {\\mathbb{R}} \\to {\\mathbb{R}}$, for any connected set\n$U$ (where still we have $f > 0$), in the obvious way. Such a function\nis logarithmically convex if it is logarithmically convex on all\nintervals $[a,b] \\subset U$.\n\n[9]{} John\u00a0B. Conway. [**]{}. Springer-Verlag, New York, New York, 1978.",
+  "language": "INFORMAL",
+  "phrase": "Logarithmically Convex Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LogarithmicallyConvexFunction"
+    }
+  ],
+  "indexable": true
+}

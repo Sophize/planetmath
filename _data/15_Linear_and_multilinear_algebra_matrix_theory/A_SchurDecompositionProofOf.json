@@ -1,0 +1,17 @@
+{
+  "argumentText": "The columns of the unitary matrix $Q$ in Schur\u2019s decomposition theorem\nform an orthonormal basis of $\\mathbb{C}^n$. The matrix $A$ takes the\nupper-triangular form $D+N$ on this basis. Conversely, if\n$v_1, \\ldots, v_n$ is an orthonormal basis for which $A$ is of this form\nthen the matrix $Q$ with $v_i$ as its $i$-th column satisfies the\ntheorem.\n\nTo find such a basis we proceed by induction on $n$. For $n=1$ we can\nsimply take $Q=1$. If $n > 1$ then let $v \\in \\mathbb{C}^n$ be an\neigenvector of $A$ of unit length and let $V = v^{\\perp}$ be its\northogonal complement. If $\\pi$ denotes the orthogonal projection onto\nthe line spanned by $v$ then $(1-\\pi)A$ maps $V$ into $V$.\n\nBy induction there is an orthonormal basis $v_2, \\ldots, v_n$ of $V$ for\nwhich $(1-\\pi)A$ takes the desired form on $V$. Now\n$A = \\pi A + (1-\\pi)A$ so $Av_i \\equiv (1-\\pi)Av_i (\\mod v)$ for\n$i \\in \\{2, \\ldots, n\\}$. Then $v, v_2, \\ldots, v_n$ can be used as a\nbasis for the Schur decomposition on $\\mathbb{C}^n$.",
+  "conclusion": "#P_SchurDecomposition",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/SchurDecompositionProofOf"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "Schur decomposition, proof of"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $\\rho: G \\longrightarrow \\operatorname{GL}(V)$ be a finite\ndimensional representation of a group $G$ (i.e., $V$ is a finite\ndimensional vector space over its scalar field $K$). The [*character*]{}\nof $\\rho$ is the function $\\chi_V: G \\longrightarrow K$ defined by\n$$\\chi_V(g) := \\operatorname{Tr}(\\rho(g))$$ where $\\operatorname{Tr}$ is\nthe trace function.\n\nProperties:\n\n-   $\\chi_V(g) = \\chi_V(h)$ if $g$ is conjugate to $h$ in $G$.\n    (Equivalently, a character is a class function on $G$.)\n\n-   If $G$ is finite, the characters of the irreducible representations\n    of $G$ over the complex numbers form a basis of the vector space of\n    all class functions on $G$ (with pointwise addition and scalar\n    multiplication).\n\n-   Over the complex numbers, the characters of the irreducible\n    representations of $G$ are orthonormal under the inner product\n    $$(\\chi_1, \\chi_2) := \\frac{1}{|G|} \\sum_{g \\in G} \\overline{\\chi_1(g)} \\chi_2(g)$$",
+  "language": "INFORMAL",
+  "phrase": "Character",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Character"
+    }
+  ],
+  "indexable": true
+}

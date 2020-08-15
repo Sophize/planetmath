@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "pseudo orbit",
+    "$\\epsilon$-pseudo-orbit",
+    "$\\epsilon$-orbit",
+    "$\\epsilon$-chain"
+  ],
+  "definition": "Let $(X,d)$ be a metric space, $f\\colon X\\to X$ a function, and let\n$\\epsilon>0$. An $\\epsilon$-pseudo-orbit for $f$ is a sequence\n$\\{x_n:n\\in{\\mathbb{Z}},\\, a<n<b\\}$, where\n$-\\infty\\leq a<b \\leq \\infty$, such that $d(x_{n+1},f(x_n))<\\epsilon$\nfor all $a<n<b$. A periodic pseudo-orbit is an infinite pseudo-orbit\n$\\{x_n\\}$ such that there is some $p$ with $x_{n+p}=x_n$ for all n.\n\nGiven $\\delta>0$, the pseudo-orbit $\\{x_n: a<n<b\\}$ is said to be\n$\\delta$-shadowed by the orbit of $x$, if $d(x_n,f^n(x))<\\delta$ for all\n$a<n<b$.",
+  "language": "INFORMAL",
+  "phrase": "Pseudo-Orbit",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Pseudoorbit"
+    }
+  ],
+  "indexable": true
+}

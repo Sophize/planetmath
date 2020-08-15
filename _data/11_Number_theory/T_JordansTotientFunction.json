@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $p$ be a prime, $k$ and $n$ natural numbers. Then\n\n$$J_k(n) = n^k \\prod_{p|n} ( 1-p^{-k})$$\n\nwhere the product is over divisors of $n$.\n\nThis is a generalization of Euler\u2019s Totient Function.",
+  "language": "INFORMAL",
+  "phrase": "Jordan'S Totient Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/JordansTotientFunction"
+    }
+  ],
+  "indexable": true
+}

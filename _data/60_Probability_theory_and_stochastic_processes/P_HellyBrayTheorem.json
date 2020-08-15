@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $F,F_1,F_2,\\dots$ be distribution functions. If $F_n$ converges to\n$F$, then\n$$\\int_\\mathbb{R} g(x)dF_n(x) \\xrightarrow[n\\rightarrow\\infty]{}\n\\int_\\mathbb{R} g(x)dF(x)$$ for each continuous bounded function\n$g:\\mathbb{R}\\rightarrow\\mathbb{R}$.\n\n*Remark.* The integrals involved are Riemann-Stieltjes integrals.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HellyBrayTheorem"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Helly-Bray theorem"
+  ]
+}

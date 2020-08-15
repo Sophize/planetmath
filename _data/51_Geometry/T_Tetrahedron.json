@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Definition\n==========\n\nA *tetrahedron* is a polyhedron with four faces, which are triangles. A\ntetrahedron is called non-degenerate if the four vertices do not lie in\nthe same plane. For the remainder of this entry, we shall assume that\nall tetrahedra are non-degenerate.\n\nIf all six edges of a tetrahedron are equal, it is called a *regular\ntetrahedron*. The faces of a regular tetrahedron are equilateral\ntriangles.\n\nBasic properties\n================\n\nA tetrahedron has four vertices and six edges. These six edges can be\narranged in three pairs such that the edges of a pair do not intersect.\nA tetrahedron is always convex.\n\nIn many ways, the geometry of a tetrahedron is the three-dimensional\nanalogue of the geometry of the triangle in two dimensions. In\nparticular, the special points associated to a triangle have their\nthree-dimensional analogues.\n\nJust as a triangle always can be inscribed in a unique circle, so too a\ntetrahedron can be inscribed in a unique sphere. To find the centre of\nthis sphere, we may construct the perpendicular bisectors of the edges\nof the tetrahedron. These six planes will meet in the centre of the\nsphere which passes through the vertices of the tetrahedron.\n\nThe six planes which connect an edge with the midpoint of the opposite\nedge (see what was said about edges coming in pairs above) meet in the\nbarycentre (a.k.a. centroid, centre of mass, centre of gravity) of the\ntetrahedron.\n\nMensuration\n===========\n\nFormulas for volumes, areas and lengths associated to a terahedron are\nbest obtained and expressed using the method of determinants. If the\nvertices of the tetrahedron are located at the points $(a_x, a_y,\na_z)$, $(b_x, b_y, b_z)$, $(c_x, c_y, c_z)$, and $(d_x, d_y, d_z)$, then\nthe volume of the tetrahedron is given by the following determinant:\n\n$$\\pm\\frac{1}{6} \\left| \\begin{matrix} a_x & a_y & a_z & 1 \\\\ b_x & b_y\n& b_z & 1 \\\\ c_x & c_y & c_z & 1 \\\\ d_x & d_y & d_z & 1 \\\\\n\\end{matrix} \\right|.$$\n\n![A regular tetrahedron](tetrahedron.eps)",
+  "language": "INFORMAL",
+  "phrase": "Tetrahedron",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Tetrahedron"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A *field* is a set $F$ together with two binary operations on $F$,\ncalled addition and multiplication, and denoted $+$ and $\\cdot$,\nsatisfying the following properties, for all $a,b,c \\in F$:\n\n1.  $a + (b+c) = (a+b)+ c$ (associativity of addition)\n\n2.  $a+b = b+a$ (commutativity of addition)\n\n3.  $a+0 = a$ for some element $0 \\in F$ (existence of zero element)\n\n4.  $a+(-a) = 0$ for some element $-a \\in F$ (existence of additive\n    inverses)\n\n5.  $a\\cdot (b\\cdot c) = (a\\cdot b)\\cdot c$ (associativity of\n    multiplication)\n\n6.  $a\\cdot b = b\\cdot a$ (commutativity of multiplication)\n\n7.  $a\\cdot 1 = a$ for some element $1 \\in F$, with $1 \\neq 0$\n    (existence of unity element)\n\n8.  If $a \\neq 0$, then $a \\cdot a^{-1} = 1$ for some element\n    $a^{-1} \\in F$ (existence of multiplicative inverses)\n\n9.  $a\\cdot (b+c) = (a\\cdot b) + (a\\cdot c)$ (distributive property)\n\nEquivalently, a field is a commutative ring $F$ with identity such that:\n\n-   $1 \\neq 0$\n\n-   If $a \\in F$, and $a \\neq 0$, then there exists $b \\in F$ with\n    $a \\cdot b = 1$.",
+  "language": "INFORMAL",
+  "phrase": "Field",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Field"
+    }
+  ],
+  "indexable": true
+}

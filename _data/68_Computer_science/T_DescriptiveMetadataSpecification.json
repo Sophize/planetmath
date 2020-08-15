@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $L$ = $\\cup$ $Dk$ be a set of literals defined as the union of\ndomains $Dk$ of simple datatypes (e.g., strings, numbers, dates, etc.).\nLet also $R$ and $P$ represent sets of labels for resources and\nproperties respectively. A descriptive metadata specification is a\nstructure ($G$, $R$ $\\cup$ $L$ $\\cup$ $P$, $F$), where: (1) $F$ : $(V$\n$\\cup$ $ E)$ $\u00e2\u2020\u2019$ $(R$ $\\cup$ $L$ $\\cup$ $P$) can assign general labels\n$R$ $\\cup$ $P$ and literals from $L$ to nodes of the graph structure;\n(2) for each directed edge $e$ = ($vi$ , $vj$) of $G$, $F$($vi$) $\\in$\n$R$ $\\cup$ $L$, $F$($vj$ ) $\\in$ $R$ $\\cup$ $L$ and $F(e)$ $\\in$ $P$;\n(3) $F(vk)$ $\\in$ $L$ if and only if node vk has outdegree 0.",
+  "language": "INFORMAL",
+  "phrase": "Descriptive Metadata Specification",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/DescriptiveMetadataSpecification"
+    }
+  ],
+  "indexable": true
+}

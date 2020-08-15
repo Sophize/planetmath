@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A topological space $X$ is called if it satisfies the descending chain\ncondition for closed subsets: for any sequence\n$$Y_1 \\supseteq Y_2 \\supseteq \\cdots$$ of closed subsets $Y_i$ of $X$,\nthere is an integer $m$ such that $Y_m=Y_{m+1}=\\cdots$.\n\nAs a first example, note that all finite topological spaces are\nNoetherian.\n\nThere is a lot of interplay between the Noetherian condition and\ncompactness:\n\n-   Every Noetherian topological space is quasi-compact.\n\n-   A Hausdorff topological space $X$ is Noetherian if and only if every\n    subspace of $X$ is compact. (i.e. $X$ is hereditarily compact)\n\nNote that if $R$ is a Noetherian ring, then $\\text{Spec}(R)$, the prime\nspectrum of $R$, is a Noetherian topological space.\n\n[**Example of a Noetherian topological space:**]{}\\\nThe space $\\mathbb{A}^n_k$ (affine $n$-space over a field $k$) under the\nZariski topology is an example of a Noetherian topological space. By\nproperties of the ideal of a subset of $\\mathbb{A}^n_k$, we know that if\n$Y_1 \\supseteq Y_2 \\supseteq \\cdots$ is a descending chain of\nZariski-closed subsets, then $I(Y_1) \\subseteq I(Y_2) \\subseteq \\cdots$\nis an ascending chain of ideals of $k[x_1,\\ldots,x_n]$.\n\nSince $k[x_1,\\ldots,x_n]$ is a Noetherian ring, there exists an integer\n$m$ such that $I(Y_m)=I(Y_{m+1})=\\cdots$. But because we have a\none-to-one correspondence between radical ideals of $k[x_1,\\ldots,x_n]$\nand Zariski-closed sets in $\\mathbb{A}^n_k$, we have $V(I(Y_i))=Y_i$ for\nall $i$. Hence $Y_m=Y_{m+1}=\\cdots$ as required.",
+  "language": "INFORMAL",
+  "phrase": "Noetherian Topological Space",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/NoetherianTopologicalSpace"
+    }
+  ],
+  "indexable": true
+}

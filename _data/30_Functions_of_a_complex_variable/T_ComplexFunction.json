@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "A [*complex function*]{} is a function $f$ from a subset $A$ of\n$\\mathbb{C}$ to $\\mathbb{C}$.\n\nFor every $z = x+iy\\in A\\,\\,\\,(x,\\,y \\in \\mathbb{R})$ the complex value\n$f(z)$ can be split into its real and imaginary parts $u$ and $v$,\nrespectively, which can be considered as real functions of two real\nvariables: $$\\begin{aligned}\nf(z) \\;=\\; u(x,y)+iv(x,y)\\end{aligned}$$ The functions $u$ and $v$ are\ncalled the [*real part*]{} and the [*imaginary part*]{} of the complex\nfunction $f$, respectively. Conversely, any two functions $u(x,y)$ and\n$v(x,y)$ defined in some subset of $\\mathbb{R}^2$ determine via (1) a\ncomplex function $f$.\\\nIf $f(z)$ especially is defined as a polynomial of $z$, then both\n$u(x,y)$ and $v(x,y)$ are polynomials of $x$ and $y$ with real\ncoefficients.\\\nFollowing are the notations for $u$ and $v$ that are used most commonly\n(the parentheses around $f(z)$ may be omitted):\n\n$$u(x,y) \\;=\\; \\mbox{Re}\\left(f(z)\\right) = \\Re\\left(f(z)\\right)$$\n$$v(x,y) \\;=\\; \\mbox{Im}\\left(f(z)\\right) = \\Im\\left(f(z)\\right)$$\n\nThe of mathematics concerning differentiable complex functions is called\n[*function theory*]{} or [*complex analysis*]{}.",
+  "language": "INFORMAL",
+  "phrase": "Complex Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ComplexFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,17 @@
+{
+  "alternatePhrases": [
+    "positively homogeneous function of degree",
+    "homogeneous function of degree",
+    "positively homogeneous function"
+  ],
+  "definition": "Suppose $V,\\,W$ are a vector spaces over ${\\mathbbmss{R}}$, and\n$f\\colon V \\to W$ is a mapping.\n\n-   If there exists an $r \\in {\\mathbbmss{R}}$, such that\n    $$f(\\lambda v) = \\lambda^r f(v)$$ for all\n    $\\lambda \\in {\\mathbbmss{R}}$ and $v\\in V$, then $f$ is a .\n\n-   If there exists an $r\\in {\\mathbbmss{R}}$, such that\n    $$f(\\lambda v) = |\\lambda|^r f(v)$$ for all\n    $\\lambda \\in {\\mathbbmss{R}}$ and $v\\in V$, then $f$ is .\n\n-   If there exists an $r\\in {\\mathbbmss{R}}$, such that\n    $$f(\\lambda v) = \\lambda^r f(v)$$ for all $\\lambda \\ge 0$ and\n    $v\\in V$, then $f$ is a .\n\n### Notes {#notes .unnumbered}\n\nFor any homogeneous function as above, $f(0)=0$.\n\nWhen the of homegeneity is clear one simply talks about $r$-homogeneous\nfunctions.",
+  "language": "INFORMAL",
+  "phrase": "Homogeneous Function",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/HomogeneousFunction"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "almost periodic function"
+  ],
+  "definition": "A continuous function $f \\colon \\mathbb{R} \\to \\mathbb{R}$ is said to be\n*almost periodic* if, for every $\\epsilon > 0$, there exists an a number\n$L_\\epsilon > 0$ such that for every interval $I$ of length $L_\\epsilon$\nthere exists a number $\\omega_I \\in I$ such that\n$$| f(x + \\omega_I) - f(x) | < \\epsilon$$ whenever $x \\in \\mathbb{R}$.\n\nIntuition: we want the function to have an \u201capproximate period\u201d.\nHowever, it is easy to write too weak condition. First, we want uniform\nestimate in $x$. If we allow $ \\omega$ to be small than the condition\ndegenerates to uniform continuity. If we require a single $ \\omega$,\nthan the condition still is too weak (it allows pretty wide changes).\nFor periodic function every multiple of a period is still a period. So,\nif the length of an interval is longer than the period, then the\ninterval contains a period. The definition of almost periodic functions\nmimics the above property of periodic functions: every sufficiently long\ninterval should contain an approximate period.\n\nIt is possible to generalize this notion. The range of the function can\nbe taken to be a normed vector space \u2014 in the first definition, we\nmerely need to replace the absolute value with the norm:\n$$\\| f(x + \\omega) - f(x) \\| < \\epsilon$$ In the second definition,\ninterpret uniform convergence as uniform convergence with respect to the\nnorm. A common case of this is the case where the range is the complex\nnumbers. It is worth noting that if the vector space is finite\ndimensional, a function is almost periodic if and only if each of its\ncomponents with respect to a basis is almost periodic.\n\nAlso the domain may be taken to be a group $G$. A function is called\nalmost periodic iff set of its translates is pre-compact (compact after\ncompletion). Equivalently, a continuous function $f$ on a topological\ngroup $G$ is almost periodic iff there is a compact group $K$, a\ncontinuous function $g$ on $K$ and a (continuous) homomorphism $h$ form\n$G$ to $K$ such that $f$ is the composition of $g$ and $h$. The\nclassical case described above arises when the group is the additive\ngroup of the real number field. Almost periodic functions with respect\nto groups play a role in the representation theory of non-compact Lie\nalgebras. (In the compact case, they are trivial \u2014 all continuous\nfunctions are almost periodic.)\n\nThe notion of an almost periodic function should not be confused with\nthe notion of quasiperiodic function.",
+  "language": "INFORMAL",
+  "phrase": "Almost Periodic Function (Classical Definition)",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AlmostPeriodicFunctionclassicalDefinition"
+    }
+  ],
+  "indexable": true
+}

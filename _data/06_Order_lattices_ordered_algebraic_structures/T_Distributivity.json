@@ -1,0 +1,16 @@
+{
+  "alternatePhrases": [
+    "distributive law",
+    "distributive property"
+  ],
+  "definition": "Given a $S$ with two binary operations $+\\colon S \\times S \\to S$ and\n$\\cdot\\colon S \\times S \\to S$, we say that $\\cdot$ is [*right\ndistributive*]{} over $+$ if\n$$(a+b) \\cdot c = (a \\cdot c) + (b \\cdot c)\\mathrm{~for~all~} a,b,c \\in S$$\nand [*left distributive*]{} over $+$ if\n$$a \\cdot (b+c) = (a \\cdot b) + (a \\cdot c)\\mathrm{~for~all~}a,b,c \\in S.$$\nIf $\\cdot$ is both left and right distributive over $+$, then it is said\nto be [*distributive*]{} over $+$ (or, alternatively, we may say that\n$\\cdot$ [*distributes over*]{} $+$).",
+  "language": "INFORMAL",
+  "phrase": "Distributivity",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Distributivity"
+    }
+  ],
+  "indexable": true
+}

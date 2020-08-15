@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "Let $G \\subset {\\mathbb{R}}^n$ and let\n$f \\colon G \\to {\\mathbb{R}} \\cup \\{ - \\infty \\}$ be a subharmonic\nfunction which is not identically $-\\infty$. The set\n${\\mathcal{P}} := \\{ x \\in G \\mid f(x) = - \\infty \\}$ is called a\n[*polar set*]{}.\n\nLet $G$ and ${\\mathcal{P}}$ be as above and suppose that $g$ is a\ncontinuous subharmonic function on $G \\setminus {\\mathcal{P}}$. Then $g$\nis subharmonic on the entire set $G$.\n\nThe requirement that $g$ is continuous cannot be relaxed.\n\nLet $G$ and ${\\mathcal{P}}$ be as above. Then the Lebesgue measure of\n${\\mathcal{P}}$ is 0.\n\n[9]{} Steven\u00a0G. Krantz. [**]{}, AMS Chelsea Publishing, Providence,\nRhode Island, 1992.",
+  "language": "INFORMAL",
+  "phrase": "Polar Set",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/PolarSet"
+    }
+  ],
+  "indexable": true
+}

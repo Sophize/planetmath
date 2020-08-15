@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "We suggest that the reader reads first the entry on Bloch\u2019s constant.\nLet $\\mathcal{F}$ be the set of all functions $f$ holomorphic on a\nregion containing the closure of the disk $D=\\{z\\in\\mathbb{C}:|z|<1\\}$\nand satisfying $f(0)=0$ and $f'(0)=1$. For each $f\\in\\mathcal{F}$ let\n$\\lambda(f)$ be the supremum of all numbers $r$ such that there is a\ndisk $S\\subset D$ such that $f(S)$ contains a disk of radius $r$ (notice\nthat here we don\u2019t require $f$ to be injective on $S$).\n\nLandau\u2019s constant $L$ is defined by\n$$L=\\inf \\{ \\lambda(f) : f\\in \\mathcal{F}\\}.$$\n\nLet $B$ be Bloch\u2019s constant. Then, clearly, $L\\geq B$. The exact value\nof $L$ (as that of $B$) is not known but it has been shown that\n$0.5 \\leq L \\leq 0.56$. In particular, it is known that $L$ is strictly\ngreater than $B$.\n\n[00]{}\n\nJohn B. Conway, [*Functions of One Complex Variable I*]{}, Second\nEdition, 1978, Springer-Verlag, New York.",
+  "language": "INFORMAL",
+  "phrase": "Landau'S Constant",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LandausConstant"
+    }
+  ],
+  "indexable": true
+}

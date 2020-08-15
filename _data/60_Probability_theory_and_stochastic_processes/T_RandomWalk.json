@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Definition**. Let $(\\Omega,\\mathcal{F},\\mathbf{P})$ be a probability\nspace and $\\lbrace X_i \\rbrace$ a discrete-time stochastic process\ndefined on $(\\Omega,\\mathcal{F},\\mathbf{P})$, such that the $X_i$ are\niid real-valued random variables, and $i\\in\\mathbb{N}$, the set of\nnatural numbers. The *random walk* defined on $X_i$ is the sequence of\npartial sums, or partial series $$S_n\\colon=\\sum_{i=1}^{n}X_i.$$ If\n$X_i\\in\\lbrace -1,1\n\\rbrace$, then the random walk defined on $X_i$ is called a *simple\nrandom walk*. A *symmetric simple random walk* is a simple random walk\nsuch that $\\mathbf{P}(X_i=1)=1/2$.\n\nThe above defines random walks in one-dimension. One can easily\ngeneralize to define higher dimensional random walks, by requiring the\n$X_i$ to be vector-valued (in $\\mathbb{R}^n$), instead of $\\mathbb{R}$.\n\n**Remarks**.\n\n1.  Intuitively, a random walk can be viewed as movement in space where\n    the length and the direction of each step are random.\n\n2.  It can be shown that, the limiting case of a random walk is a\n    Brownian motion (with some conditions imposed on the $X_i$ so as to\n    satisfy part of the defining conditions of a Brownian motion). By\n    limiting case we mean, loosely speaking, that the lengths of the\n    steps are very small, approaching 0, while the total lengths of the\n    walk remains a constant (so that the number of steps is very large,\n    approaching $\\infty$).\n\n3.  If the random variables $X_i$ defining the random walk $w_i$ are\n    integrable with zero mean $\\operatorname{E}[X_i]=0$, $S_i$ is a\n    martingale.",
+  "language": "INFORMAL",
+  "phrase": "Random Walk",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RandomWalk"
+    }
+  ],
+  "indexable": true
+}

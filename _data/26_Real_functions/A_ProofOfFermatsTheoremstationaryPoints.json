@@ -1,0 +1,17 @@
+{
+  "argumentText": "Suppose that $x_0$ is a local maximum (a similar proof applies if $x_0$\nis a local minimum). Then there exists $\\delta>0$ such that\n$(x_0-\\delta,x_0+\\delta)\\subset (a,b)$ and such that we have\n$f(x_0)\\ge f(x)$ for all $x$ with $\\vert x-x_0\\vert <\\delta$. Hence for\n$h\\in (0,\\delta)$ we notice that it holds\n$$\\frac{f(x_0+h) - f(x_0)}{h} \\le 0.$$ Since the limit of this ratio as\n$h\\to 0^+$ exists and is equal to $f'(x_0)$ we conclude that\n$f'(x_0)\\le 0$. On the other hand for $h\\in (-\\delta,0)$ we notice that\n$$\\frac{f(x_0+h) - f(x_0)}{h} \\ge 0$$ but again the limit as $h\\to 0^+$\nexists and is equal to $f'(x_0)$ so we also have $f'(x_0)\\ge 0$.\n\nHence we conclude that $f'(x_0)=0$.\n\nTo prove the second part of the statement (when $x_0$ is equal to $a$ or\n$b$), just notice that in such points we have only one of the two\nestimates written above.",
+  "conclusion": "#P_FermatsTheoremstationaryPoints",
+  "language": "INFORMAL",
+  "premises": [
+    "#P_planetmath_ZFC"
+  ],
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProofOfFermatsTheoremstationaryPoints"
+    }
+  ],
+  "indexable": false,
+  "names": [
+    "proof of Fermat's Theorem (stationary points)"
+  ]
+}

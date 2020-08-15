@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "end point"
+  ],
+  "definition": "An *endpoint* of a line segment $L$ is a point that belongs to the\nboundary of $L$. Note that every line segment has two distinct\nendpoints. For example, if $V$ is a vector space and $a,b \\in V$ with\n$b \\neq 0$, then the endpoints of the line segment\n$\\displaystyle L = \\{ a+tb : t\\in[0,1]\\}$ are $a$ and $a+b$.\n\n(0,-0.5)(4,0.1) (0,0.06)[.]{} (0,0)(4,0) (0,0)(4,0) (0,-0.3)[$a$]{}\n(4,-0.3)[$a+b$]{}\n\nNote that the endpoints of the open line segment\n$\\displaystyle L=\\{a+tb:t\\in(0,1)\\}$ are also $a$ and $a+b$.\n\n(0,-0.5)(4,0.1) (0,0.06)[.]{} (0,0)(4,0) (0,-0.3)[$a$]{}\n(4,-0.3)[$a+b$]{}\n\nEndpoints can be defined in a manner for other geometric . These include\nrays, , and .\n\n-   Rays have one endpoint.\n\n    (0,-0.1)(4,0.1) (0,0)(4,0) (0,0)\n\n-   have two endpoints.\n\n    (0,0)(4,2) (2,0)[2]{}[0]{}[180]{} (0,0)(4,0)\n\n-   can have zero, one, or two endpoints, depending on whether they are\n    bounded above and/or below. See the entry on for more details.",
+  "language": "INFORMAL",
+  "phrase": "Endpoint",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/Endpoint"
+    }
+  ],
+  "indexable": true
+}

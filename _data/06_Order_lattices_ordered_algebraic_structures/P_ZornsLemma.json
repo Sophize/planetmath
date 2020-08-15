@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "If $X$ is a partially ordered set such that every chain in $X$ has an\nupper bound, then $X$ has a maximal element.\n\nNote that the empty chain in $X$ has an upper bound in $X$ if and only\nif $X$ is non-empty. Because this case is rather different from the case\nof non-empty chains, Zorn\u2019s Lemma is often stated in the following form:\nIf $X$ is a non-empty partially ordered set such that every non-empty\nchain in $X$ has an upper bound, then $X$ has a maximal element. (In\nother words: Any non-empty inductively ordered set has a maximal\nelement.)\n\nIn ZF, Zorn\u2019s Lemma is equivalent to the .",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ZornsLemma"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "Zorn's lemma"
+  ]
+}

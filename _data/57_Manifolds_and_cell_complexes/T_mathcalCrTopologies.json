@@ -1,0 +1,18 @@
+{
+  "alternatePhrases": [
+    "Whitney topology",
+    "compact-open $\\mathcal{C}^r$ topology",
+    "weak $\\mathcal{C}^r$ topology",
+    "strong $\\mathcak{C}^r$ topology"
+  ],
+  "definition": "The ${\\mathcal{C}}^r$ Whitney (or strong) topology is a topology\nassigned to the space ${\\mathcal{C}}^r(M,N)$ of mappings from a\n${\\mathcal{C}}^r$ manifold $M$ to a ${\\mathcal{C}}^r$ manifold $N$\nhaving $r$ continuous derivatives . It gives a notion of proximity of\ntwo ${\\mathcal{C}}^r$ mappings, and it allows us to speak of\n\u201crobustness\u201d of properties of a mapping. For example, the property of\nbeing an embedding is robust: if $f\\colon M\\to N$ is a ${\\mathcal{C}}^r$\nembedding, then there is a strong ${\\mathcal{C}}^r$ neighborhood of $f$\nin which any ${\\mathcal{C}}^r$ mapping $g\\colon M\\to N$ is an embedding.\n\nGiven a locally finite atlas $\\{(U_i, \\phi_i):i\\in I\\}$ and compact sets\n$K_i\\subset U_i$ such that there are charts $\\{(V_i,\\psi_i) : i\\in I\\}$\nof $N$ for which $f(K_i)\\subset V_i$ for all $i\\in I$, and given a\nsequence $\\{\\epsilon_i>0 : i\\in I\\}$, we define the basic neighborhood\n$$\\mathcal{U}^r\\left(f,\\phi,\\psi,\\{K_i:i\\in I\\},\\{\\epsilon_i:i\\in I\\}\\right)$$\nas the set of $C^r$ mappings $g\\colon M\\to N$ such that for all $i\\in I$\nwe have $g(K_i)\\subset V_i$ and\n$$\\sup_{x\\in \\phi_i(K_i), 0\\leq k\\leq r} \n||D^k(\\psi_if\\phi_i^{-1})(x) - D^k(\\psi_ig\\phi_i^{-1})(x)|| <\\epsilon_i.$$\nThat is, those maps $g$ that are close to $f$ and have their first $r$\nderivatives close to the respective first $r$-th derivatives of $f$, in\nlocal coordinates. It can be checked that the set of all such\nneighborhoods forms a basis for a topology, which we call the Whitney or\nstrong ${\\mathcal{C}}^r$ topology of ${\\mathcal{C}}^r(M,N)$.\n\nThe weak ${\\mathcal{C}}^r$ topology, or ${\\mathcal{C}}^r$ compact-open\ntopology, is defined in the same fashion but instead of choosing\n$\\{(U_i,\\phi_i):i\\in I\\}$ to be a locally finite atlas for $M$, we\nrequire it to be an arbitrary *finite* family of charts (possibly not\ncovering $M$).\n\nThe space ${\\mathcal{C}}^r(M,N)$ with the weak or strong topologies is\ndenoted by ${\\mathcal{C}}^r_W(M,N)$ and ${\\mathcal{C}}^r_S(M,N)$,\nrespectively.\n\nWe have that ${\\mathcal{C}}^r_W(M,N)$ is always metrizable (with a\ncomplete metric) and separable. On the other hand,\n${\\mathcal{C}}^r_S(M,N)$ is not even first countable (thus, not\nmetrizable) when $M$ is not compact; however, it is a Baire space. When\n$M$ is compact, the weak and strong topologies coincide.",
+  "language": "INFORMAL",
+  "phrase": "$\\Mathcal{C}^R$ Topologies",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/mathcalCrTopologies"
+    }
+  ],
+  "indexable": true
+}

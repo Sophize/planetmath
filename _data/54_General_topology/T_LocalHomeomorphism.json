@@ -1,0 +1,13 @@
+{
+  "alternatePhrases": [],
+  "definition": "**Definition.** Let $X$ and $Y$ be topological spaces. Continuous map\n$f:X\\to Y$ is said to be *locally invertible in $x\\in X$* iff there\nexist open subsets $U\\subseteq X$ and $V\\subseteq Y$ such that $x\\in U$,\n$f(x)\\in V$ and the restriction $$f:U\\to V$$ is a homeomorphism. If $f$\nis locally invertible in every point of $X$, then $f$ is called a *local\nhomeomorphism*.\n\n**Examples.** Of course every homeomorphism is a local homeomorphism,\nbut the converse is not true. For example, let\n$f:\\mathbb{C}\\to\\mathbb{C}$ be an exponential function, i.e. $f(z)=e^z$.\nThen $f$ is a local homeomorphism, but it is not a homeorphism (indeed,\n$f(z)=f(z+2\\pi i)$ for any $z\\in\\mathbb{C}$).\n\nOne of the most important theorem of differential calculus (i.e. inverse\nfunction theorem) states, that if $f:M\\to N$ is a $C^1$-map between\n$C^1$-manifolds such that $T_{x}f:T_{x}M\\to T_{f(x)}N$ is a linear\nisomorphism for a given $x\\in M$, then $f$ is locally invertible in $x$\n(in this case the local inverse is even a $C^1$-map).",
+  "language": "INFORMAL",
+  "phrase": "Local Homeomorphism",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/LocalHomeomorphism"
+    }
+  ],
+  "indexable": true
+}

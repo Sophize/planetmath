@@ -1,0 +1,14 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "Let $R$ be an integral domain, and assume that $R$ is Artinian.\n\nLet $a \\in R$ with $a \\neq 0$. Then\n$R \\supseteq aR \\supseteq a^2R \\supseteq \\cdots$.\n\nAs $R$ is Artinian, there is some $n\\in{\\mathbb{N}}$ such that\n$a^nR=a^{n+1}R$. There exists $r \\in R$ such that $a^n=a^{n+1}r$, that\nis, $a^n1=a^n(ar)$. But $a^n \\neq 0$ (as $R$ is an integral domain), so\nwe have $1=ar$. Thus $a$ is a unit.\n\nTherefore, every Artinian integral domain is a field.",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/AnArtinianIntegralDomainIsAField"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "an Artinian integral domain is a field"
+  ]
+}

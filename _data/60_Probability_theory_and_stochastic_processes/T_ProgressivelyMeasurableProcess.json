@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "progressive process"
+  ],
+  "definition": "A stochastic process $(X_t)_{t\\in\\mathbb{Z}_+}$ is said to be adapted to\na $(\\mathcal{F}_t)$ on the measurable space $(\\Omega,\\mathcal{F})$ if\n$X_t$ is an $\\mathcal{F}_t$-measurable random variable for each\n$t=0,1,\\ldots$. However, for continuous-time processes, where the time\n$t$ ranges over an arbitrary index set $\\mathbb{T}\\subseteq\\mathbb{R}$,\nthe property of being adapted is too weak to be helpful in many\nsituations. Instead, considering the process as a map\n$$X\\colon\\mathbb{T}\\times\\Omega\\rightarrow\\mathbb{R},\\ (t,\\omega)\\mapsto X_t(\\omega)$$\nit is useful to consider the measurability of $X$.\n\nThe process $X$ is *progressive* or *progressively measurable* if, for\nevery $s\\in\\mathbb{T}$, the stopped process $X^s_t\\equiv X_{\\min(s,t)}$\nis $\\mathcal{B}(\\mathbb{T})\\otimes\\mathcal{F}_s$-measurable. In\nparticular, every progressively measurable process will be adapted and\njointly measurable. In discrete time, when $\\mathbb{T}$ is countable,\nthe converse holds and every adapted process is progressive.\n\nA set $S\\subseteq\\mathbb{T}\\times\\Omega$ is said to be progressive if\nits characteristic function $1_S$ is progressive. Equivalently,\n$$S\\cap\\left( (-\\infty,s]\\times\\Omega\\right)\\in\\mathcal{B}(\\mathbb{T})\\otimes\\mathcal{F}_s$$\nfor every $s\\in\\mathbb{T}$. The progressively measurable sets form a\n$\\sigma$-algebra, and a stochastic process is progressive if and only if\nit is measurable with respect to this $\\sigma$-algebra.",
+  "language": "INFORMAL",
+  "phrase": "Progressively Measurable Process",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProgressivelyMeasurableProcess"
+    }
+  ],
+  "indexable": true
+}

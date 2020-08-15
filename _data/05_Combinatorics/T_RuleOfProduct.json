@@ -1,0 +1,15 @@
+{
+  "alternatePhrases": [
+    "multiplication principle"
+  ],
+  "definition": "If a process $A$ can have altogether $m$ different results and another\nprocess $B$ altogether $n$ different results, then the two processes can\nhave altogether $mn$ different combined results. Putting it to\nset-theoretical form, $$\\mbox{card}(A\\!\\times\\!B) \\;=\\; m\\!\\cdot\\!n.$$\n\nThe *rule of product* is true also for the combination of several\nprocesses: If the processes $A_i$ can have $n_i$ possible results\n($i = 1,\\,2,\\,\\ldots,\\,k$), then their combined process has\n$n_1n_2\\!\\cdots\\!n_k$ possible results. I.e.,\n$$\\mbox{card}(A_1\\!\\times\\!A_2\\!\\times\\ldots\\times\\!A_k) \\;=\\; n_1n_2\\!\\cdots\\!n_k.$$\\\n**Example.** Arranging $n$ elements, the first one may be chosen freely\nfrom all the $n$ elements, the second from the remaining $n\\!-\\!1$\nelements, the third from the remaining $n\\!-\\!2$, and so on, the\npenultimate one from two elements and the last one from the only\nremaining element; thus by the rule of product, there are in all\n$$n(n\\!-\\!1)(n\\!-\\!2)\\!\\cdots\\!2\\!\\cdot\\!1 \\;=\\; n!$$ different\narrangements, i.e. permutations, as the result.",
+  "language": "INFORMAL",
+  "phrase": "Rule Of Product",
+  "remarks": "",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/RuleOfProduct"
+    }
+  ],
+  "indexable": true
+}

@@ -1,0 +1,15 @@
+{
+  "language": "INFORMAL",
+  "remarks": "",
+  "statement": "**Theorem.** Let $a$, $b$, $c$ be the sides of a triangle and $\\alpha$,\n$\\beta$ the angles opposing $a$, $b$, respectively. Then one has\n$$c = a\\cos\\beta+b\\cos\\alpha,$$ independently whether the angles are\nacute, right or obtuse.\\\nKnowing the way to determine the length of the of a line segment, the\ntruth of the theorem is apparent; the below illustrate the cases where\n$\\beta$ is acute and obtuse (cosine of an obtuse angle is negative).\n\n(-3,-1)(8.3,4) (-3,-1)[.]{} (8.3,3)[.]{} (-2.5,0)(1,0)(0,3) (0,3)(0,0)\n(-1.45,1.6)[$a$]{} (0.7,1.6)[$b$]{} (-2.1,0.2)[$\\beta$]{}\n(0.7,0.2)[$\\alpha$]{} (-1.2,-0.3)[$a\\cos\\beta$]{}\n(0.6,-0.3)[$b\\cos\\alpha$]{}\n\n(4.7,0)(8,0)(3,3) (3,3)(3,0) (4.7,0)(3,0) (3.74,1.3)[$a$]{}\n(5.8,1.7)[$b$]{} (4.9,0.2)[$\\beta$]{} (7.4,0.16)[$\\alpha$]{}\n(3.8,-0.33)[$|a\\cos\\beta|$]{} (4.9,-0.8)[$b\\cos\\alpha$]{}\n(2.9,-0.8)(4.35,-0.8) (5.5,-0.8)(8,-0.8)\n\n**Note.** Especially, if neither of $\\alpha$ and $\\beta$ is right angle,\nthe formula of the theorem may be written\n$$\\frac{a}{\\cos\\alpha}+\\frac{b}{\\cos\\beta} = \\frac{c}{\\cos\\alpha\\,\\cos\\beta}.$$",
+  "citations": [
+    {
+      "textCitation": "https://planetmath.org/ProjectionFormula"
+    }
+  ],
+  "indexable": true,
+  "names": [
+    "projection formula",
+    "projection formula for triangles"
+  ]
+}
